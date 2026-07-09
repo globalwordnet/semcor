@@ -10,6 +10,7 @@ Currently checks:
    every `element` layer's index refers to a valid entry in its base
    layer (e.g. `wn16_key`/`wn30_key`/`oewn2026_key` indices are valid
    token indices: 0 <= x < len(tokens)).
+4. Every `pos` tag is a valid Penn Treebank tag.
 """
 
 from __future__ import annotations
@@ -40,6 +41,17 @@ _META_SCHEMA = {
         "valuesrules": {"type": "dict", "schema": _META_LAYER_SCHEMA},
     },
 }
+
+# Santorini (1990) Penn Treebank tag set, plus its punctuation tags.
+PENN_TREEBANK_TAGS = frozenset(
+    {
+        "CC", "CD", "DT", "EX", "FW", "IN", "JJ", "JJR", "JJS", "LS", "MD",
+        "NN", "NNS", "NNP", "NNPS", "PDT", "POS", "PRP", "PRP$", "RB", "RBR",
+        "RBS", "RP", "SYM", "TO", "UH", "VB", "VBD", "VBG", "VBN", "VBP",
+        "VBZ", "WDT", "WP", "WP$", "WRB",
+        "#", "$", ".", ",", ":", "``", "''", "(", ")",
+    }
+)
 
 
 def find_yaml_files(data_dir: Path = DATA_DIR) -> list[Path]:
@@ -129,6 +141,17 @@ def check_layer_offsets(data: dict) -> list[str]:
     return errors
 
 
+def check_pos_tags(data: dict) -> list[str]:
+    errors = []
+    for doc_id, doc in data.items():
+        if doc_id == "_meta" or not isinstance(doc, dict):
+            continue
+        for i, tag in enumerate(doc.get("pos") or []):
+            if tag not in PENN_TREEBANK_TAGS:
+                errors.append(f"{doc_id}.pos[{i}]: '{tag}' is not a valid Penn Treebank tag")
+    return errors
+
+
 def validate_file(path: Path) -> list[str]:
     data, syntax_error = check_yaml_syntax(path)
     if syntax_error is not None:
@@ -141,7 +164,7 @@ def validate_file(path: Path) -> list[str]:
         # Layer types/bases aren't trustworthy if _meta itself is malformed.
         return meta_errors
 
-    return check_layer_offsets(data)
+    return check_layer_offsets(data) + check_pos_tags(data)
 
 
 def main() -> int:
