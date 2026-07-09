@@ -5,9 +5,11 @@ Currently checks:
 2. Every file's `_meta` block declares layers with a recognised Teanga
    type (characters/span/seq/element) and well-formed `base`/`data`
    attributes.
-
-Document bodies (the per-sentence entries alongside `_meta`) are not yet
-checked against their declared layers; that's the next thing to add here.
+3. Every `span` layer's [start, end] offsets fall within its base layer
+   (e.g. `tokens` offsets are valid character offsets into `text`), and
+   every `element` layer's index refers to a valid entry in its base
+   layer (e.g. `wn16_key`/`wn30_key`/`oewn2026_key` indices are valid
+   token indices: 0 <= x < len(tokens)).
 """
 
 from __future__ import annotations
@@ -63,13 +65,83 @@ def check_meta_schema(data: dict) -> list[str]:
     return [f"{field}: {errs}" for field, errs in validator.errors.items()]
 
 
+def _check_span_offsets(
+    doc_id: str, layer_name: str, spans: object, base_len: int
+) -> list[str]:
+    if not isinstance(spans, list):
+        return [f"{doc_id}.{layer_name}: expected a list of [start, end] pairs"]
+    errors = []
+    for i, span in enumerate(spans):
+        if (
+            not isinstance(span, list)
+            or len(span) != 2
+            or not all(isinstance(x, int) for x in span)
+        ):
+            errors.append(f"{doc_id}.{layer_name}[{i}]: expected a [start, end] pair, got {span!r}")
+            continue
+        start, end = span
+        if not (0 <= start <= end <= base_len):
+            errors.append(
+                f"{doc_id}.{layer_name}[{i}]: span [{start}, {end}] out of bounds "
+                f"for base of length {base_len}"
+            )
+    return errors
+
+
+def _check_element_offsets(
+    doc_id: str, layer_name: str, entries: object, base_len: int
+) -> list[str]:
+    if not isinstance(entries, list):
+        return [f"{doc_id}.{layer_name}: expected a list of [index, value] pairs"]
+    errors = []
+    for i, entry in enumerate(entries):
+        if not isinstance(entry, list) or len(entry) != 2 or not isinstance(entry[0], int):
+            errors.append(f"{doc_id}.{layer_name}[{i}]: expected an [index, value] pair, got {entry!r}")
+            continue
+        index = entry[0]
+        if not (0 <= index < base_len):
+            errors.append(
+                f"{doc_id}.{layer_name}[{i}]: index {index} out of bounds "
+                f"(0 <= x < {base_len})"
+            )
+    return errors
+
+
+def check_layer_offsets(data: dict) -> list[str]:
+    meta = data.get("_meta") or {}
+    errors = []
+    for doc_id, doc in data.items():
+        if doc_id == "_meta" or not isinstance(doc, dict):
+            continue
+        for layer_name, layer_def in meta.items():
+            ltype = layer_def.get("type")
+            base = layer_def.get("base")
+            if base is None or ltype not in ("span", "element") or layer_name not in doc:
+                continue
+            if base not in doc:
+                errors.append(f"{doc_id}.{layer_name}: base layer '{base}' missing from document")
+                continue
+            base_len = len(doc[base])
+            if ltype == "span":
+                errors.extend(_check_span_offsets(doc_id, layer_name, doc[layer_name], base_len))
+            elif ltype == "element":
+                errors.extend(_check_element_offsets(doc_id, layer_name, doc[layer_name], base_len))
+    return errors
+
+
 def validate_file(path: Path) -> list[str]:
     data, syntax_error = check_yaml_syntax(path)
     if syntax_error is not None:
         return [f"YAML syntax error: {syntax_error}"]
     if not isinstance(data, dict):
         return ["top-level YAML content is not a mapping"]
-    return check_meta_schema(data)
+
+    meta_errors = check_meta_schema(data)
+    if meta_errors:
+        # Layer types/bases aren't trustworthy if _meta itself is malformed.
+        return meta_errors
+
+    return check_layer_offsets(data)
 
 
 def main() -> int:
