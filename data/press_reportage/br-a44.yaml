@@ -1,0 +1,909 @@
+_meta:
+    lemmas:
+        type: seq
+        base: tokens
+        data: string
+    oewn2026_key:
+        type: element
+        base: tokens
+        data: string
+    paragraph:
+        type: characters
+    pos:
+        type: seq
+        base: tokens
+        data: string
+    text:
+        type: characters
+    tokens:
+        type: span
+        base: text
+    wn16_key:
+        type: element
+        base: tokens
+        data: string
+    wn30_key:
+        type: element
+        base: tokens
+        data: string
+3Hkt:
+    lemmas: ["Every", "library", "borrower", ",", "or", "at_least", "those", "whose", "taste", "go", "beyond", "the", "five-cent", "fiction", "rental", ",", "know", "what", "it", "be", "to", "hear", "the", "librarian", "say", "apologetically", ",", "\"", "I", "be", "sorry", ",", "but", "we", "do", "n't", "have", "that", "book", "."]
+    oewn2026_key: [[9, "oewn-02691775-v"], [16, "oewn-00598039-v"], [19, "oewn-02670846-v"], [21, "oewn-02174146-v"], [24, "oewn-01011267-v"], [29, "oewn-02610777-v"], [36, "oewn-02209474-v"]]
+    paragraph: '0'
+    pos: ["DT", "NN", "NN", ",", "CC", "RB", "DT", "WP$", "NN", "VBZ", "RB", "DT", "JJ", "NN", "NNS", ",", "VBZ", "WP", "PRP", "VBZ", "TO", "VB", "DT", "NN", "VBP", "RB", ",", "``", "PRP", "VBP", "JJ", ",", "CC", "PRP", "VBP", "RB", "VB", "IN", "NN", "."]
+    text: Every library borrower, or at_least those whose taste goes beyond the five-cent fiction
+      rentals, knows what it is to hear the librarian say apologetically, " I'm sorry,
+      but we don't have that book.
+    tokens: [[0, 5], [6, 13], [14, 22], [22, 23], [24, 26], [27, 35], [36, 41], [42, 47], [48, 53], [54, 58], [59, 65], [66, 69], [70, 79], [80, 87], [88, 95], [95, 96], [97, 102], [103, 107], [108, 110], [111, 113], [114, 116], [117, 121], [122, 125], [126, 135], [136, 139], [140, 154], [154, 155], [156, 157], [158, 159], [159, 161], [162, 167], [167, 168], [169, 172], [173, 175], [176, 178], [178, 181], [182, 186], [187, 191], [192, 196], [196, 197]]
+    wn16_key: [[9, "go%2:42:00::"], [16, "know%2:31:04::"], [19, "be%2:42:07::"], [21, "hear%2:39:00::"], [24, "say%2:32:00::"], [29, "be%2:42:03::"], [36, "have%2:40:04::"]]
+    wn30_key: [[9, "go%2:42:00::"], [16, "know%2:31:04::"], [19, "be%2:42:07::"], [21, "hear%2:39:00::"], [24, "say%2:32:00::"], [29, "be%2:42:03::"], [36, "have%2:40:04::"]]
+OPMo:
+    lemmas: ["There", "would", "n't", "be", "much", "demand", "for", "it", ",", "I", "be", "afraid", "\"", "."]
+    oewn2026_key: [[3, "oewn-02610777-v"], [10, "oewn-02610777-v"]]
+    paragraph: '0'
+    pos: ["EX", "MD", "RB", "VB", "JJ", "NN", "IN", "PRP", ",", "PRP", "VBP", "JJ", "''", "."]
+    text: ' There wouldn''t be much demand for it, I''m afraid ".
+
+  '
+    tokens: [[1, 6], [7, 12], [12, 15], [16, 18], [19, 23], [24, 30], [31, 34], [35, 37], [37, 38], [39, 40], [40, 42], [43, 49], [50, 51], [51, 52]]
+    wn16_key: [[3, "be%2:42:04::"], [10, "be%2:42:03::"]]
+    wn30_key: [[3, "be%2:42:04::"], [10, "be%2:42:03::"]]
+l9PK:
+    lemmas: ["Behind", "this", "reply", ",", "and", "its", "many", "variation", ",", "be", "the", "ever-present", "budget", "problem", "all", "library", "must", "face", ",", "from", "the", "large", "to", "the", "small", "."]
+    oewn2026_key: [[9, "oewn-02661230-v"], [17, "oewn-00813960-v"]]
+    paragraph: '1'
+    pos: ["IN", "DT", "NN", ",", "CC", "PRP$", "JJ", "NNS", ",", "VBZ", "DT", "JJ", "NN", "NN", "DT", "NNS", "MD", "VB", ",", "IN", "DT", "JJS", "TO", "DT", "JJS", "."]
+    text: ' Behind this reply, and its many variations, is the ever-present budget problem all
+  libraries must face, from the largest to the smallest.'
+    tokens: [[1, 7], [8, 12], [13, 18], [18, 19], [20, 23], [24, 27], [28, 32], [33, 43], [43, 44], [45, 47], [48, 51], [52, 64], [65, 71], [72, 79], [80, 83], [84, 93], [94, 98], [99, 103], [103, 104], [105, 109], [110, 113], [114, 121], [122, 124], [125, 128], [129, 137], [137, 138]]
+    wn16_key: [[9, "be%2:42:05::"], [17, "face%2:32:00::"]]
+    wn30_key: [[9, "be%2:42:05::"], [17, "face%2:32:00::"]]
+/6J/:
+    lemmas: ["What", "to", "buy", "out", "of", "the", "year", "'s", "grist", "of", "nearly", "15000", "book", "title", "?"]
+    oewn2026_key: [[2, "oewn-02211988-v"]]
+    paragraph: '1'
+    pos: ["WP", "TO", "VB", "VB", "IN", "DT", "NN", "POS", "NN", "IN", "RB", "CD", "NN", "NNS", "."]
+    text: ' What to buy out of the year''s grist of nearly 15000 book titles?'
+    tokens: [[1, 5], [6, 8], [9, 12], [13, 16], [17, 19], [20, 23], [24, 28], [28, 30], [31, 36], [37, 39], [40, 46], [47, 52], [53, 57], [58, 64], [64, 65]]
+    wn16_key: [[2, "buy%2:40:00::"]]
+    wn30_key: [[2, "buy%2:40:00::"]]
+NrEy:
+    lemmas: ["What", "to", "buy", "for", "adult", "and", "child", "reader", ",", "for", "lover", "of", "fiction", "and", "nonfiction", ",", "for", "a", "clientele", "whose", "want", "be", "incredibly", "diversified", ",", "when", "your", "budget", "be", "pitifully", "small", "?"]
+    oewn2026_key: [[2, "oewn-02211988-v"], [21, "oewn-02610777-v"], [28, "oewn-02610777-v"]]
+    paragraph: '1'
+    pos: ["WP", "TO", "VB", "IN", "NN", "CC", "NN", "NNS", ",", "IN", "NNS", "IN", "NN", "CC", "NN", ",", "IN", "DT", "NN", "WP$", "NN", "VBP", "RB", "JJ", ",", "WRB", "PRP$", "NN", "VBZ", "RB", "JJ", "."]
+    text: ' What to buy for adult and child readers, for lovers of fiction and nonfiction, for
+  a clientele whose wants are incredibly diversified, when your budget is pitifully
+  small?'
+    tokens: [[1, 5], [6, 8], [9, 12], [13, 16], [17, 22], [23, 26], [27, 32], [33, 40], [40, 41], [42, 45], [46, 52], [53, 55], [56, 63], [64, 67], [68, 78], [78, 79], [80, 83], [84, 85], [86, 95], [96, 101], [102, 107], [108, 111], [112, 122], [123, 134], [134, 135], [136, 140], [141, 145], [146, 152], [153, 155], [156, 165], [166, 171], [171, 172]]
+    wn16_key: [[2, "buy%2:40:00::"], [21, "be%2:42:03::"], [28, "be%2:42:03::"]]
+    wn30_key: [[2, "buy%2:40:00::"], [21, "be%2:42:03::"], [28, "be%2:42:03::"]]
+gHYo:
+    lemmas: ["most", "library", "budget", "be", "hopelessly", "inadequate", "."]
+    oewn2026_key: [[3, "oewn-02610777-v"]]
+    paragraph: '1'
+    pos: ["JJS", "NN", "NNS", "VBP", "RB", "JJ", "."]
+    text: ' Most library budgets are hopelessly inadequate.'
+    tokens: [[1, 5], [6, 13], [14, 21], [22, 25], [26, 36], [37, 47], [47, 48]]
+    wn16_key: [[3, "be%2:42:03::"]]
+    wn30_key: [[3, "be%2:42:03::"]]
+/oNo:
+    lemmas: ["A", "startlingly", "high", "percentage", "do", "not", "exceed", "$", "500", "annually", ",", "which", "include", "the", "librarian", "'s", "salary", ",", "and", "not", "even", "the", "new_york", "public", "have", "enough", "money", "to", "meet", "its", "need", "-", "this", "in", "the", "world", "'s", "rich", "city", "."]
+    oewn2026_key: [[6, "oewn-02675266-v"], [12, "oewn-02639021-v"], [24, "oewn-02209474-v"], [28, "oewn-01185870-v"]]
+    paragraph: '1'
+    pos: ["DT", "RB", "JJ", "NN", "VBP", "RB", "VB", "$", "CD", "RB", ",", "WDT", "VBZ", "DT", "NN", "POS", "NN", ",", "CC", "RB", "RB", "DT", "NN", "NNP", "VBZ", "RB", "NN", "TO", "VB", "PRP$", "NNS", ":", "DT", "IN", "DT", "NN", "POS", "JJS", "NN", "."]
+    text: ' A startlingly high percentage do not exceed $500 annually, which includes the librarian''s
+  salary, and not even the New_York Public has enough money to meet its needs - this
+  in the world''s richest city.'
+    tokens: [[1, 2], [3, 14], [15, 19], [20, 30], [31, 33], [34, 37], [38, 44], [45, 46], [46, 49], [50, 58], [58, 59], [60, 65], [66, 74], [75, 78], [79, 88], [88, 90], [91, 97], [97, 98], [99, 102], [103, 106], [107, 111], [112, 115], [116, 124], [125, 131], [132, 135], [136, 142], [143, 148], [149, 151], [152, 156], [157, 160], [161, 166], [167, 168], [169, 173], [174, 176], [177, 180], [181, 186], [186, 188], [189, 196], [197, 201], [201, 202]]
+    wn16_key: [[6, "exceed%2:42:01::"], [12, "include%2:42:00::"], [24, "have%2:40:04::"], [28, "meet%2:34:00::"]]
+    wn30_key: [[6, "exceed%2:42:01::"], [12, "include%2:42:00::"], [24, "have%2:40:04::"], [28, "meet%2:34:00::"]]
+mWqk:
+    lemmas: ["The", "plight", "of", "a", "small", "community", "library", "be", "proportionately", "bad", "."]
+    oewn2026_key: [[7, "oewn-02610777-v"]]
+    paragraph: '1'
+    pos: ["DT", "NN", "IN", "DT", "JJ", "NN", "NN", "VBZ", "RB", "JJR", "."]
+    text: ' The plight of a small community library is proportionately worse.
+
+  '
+    tokens: [[1, 4], [5, 11], [12, 14], [15, 16], [17, 22], [23, 32], [33, 40], [41, 43], [44, 59], [60, 65], [65, 66]]
+    wn16_key: [[7, "be%2:42:03::"]]
+    wn30_key: [[7, "be%2:42:03::"]]
+qUp8:
+    lemmas: ["confront", "with", "this", "situation", ",", "most", "library", "either", "endure", "the", "severe", "limitation", "of", "their", "budget", "and", "do", "what", "they", "can", "with", "what", "they", "have", ",", "or_else", "depend_on", "the", "bounty", "of", "patron", "and", "local_government", "to", "supplement", "their", "annual", "funds", "."]
+    oewn2026_key: [[0, "oewn-00813960-v"], [8, "oewn-02113644-v"], [16, "oewn-02567910-v"], [23, "oewn-02209474-v"], [34, "oewn-02347128-v"]]
+    paragraph: '2'
+    pos: ["VBN", "IN", "DT", "NN", ",", "RBS", "NNS", "DT", "VBP", "DT", "JJ", "NNS", "IN", "PRP$", "NNS", "CC", "VBP", "WP", "PRP", "MD", "IN", "WP", "PRP", "VBP", ",", "RB", "VB", "DT", "NN", "IN", "NNS", "CC", "NN", "TO", "VB", "PRP$", "JJ", "NNS", "."]
+    text: ' Confronted with this situation, most libraries either endure the severe limitations
+  of their budgets and do what they can with what they have, or_else depend_on the
+  bounty of patrons and local_governments to supplement their annual funds.'
+    tokens: [[1, 11], [12, 16], [17, 21], [22, 31], [31, 32], [33, 37], [38, 47], [48, 54], [55, 61], [62, 65], [66, 72], [73, 84], [85, 87], [88, 93], [94, 101], [102, 105], [106, 108], [109, 113], [114, 118], [119, 122], [123, 127], [128, 132], [133, 137], [138, 142], [142, 143], [144, 151], [152, 161], [162, 165], [166, 172], [173, 175], [176, 183], [184, 187], [188, 205], [206, 208], [209, 219], [220, 225], [226, 232], [233, 238], [238, 239]]
+    wn16_key: [[0, "confront%2:32:00::"], [8, "endure%2:39:00::"], [16, "do%2:41:04::"], [23, "have%2:40:04::"], [26, "depend_on%2:31:00::"], [34, "supplement%2:40:00::"]]
+    wn30_key: [[0, "confront%2:32:00::"], [8, "endure%2:39:00::"], [16, "do%2:41:04::"], [23, "have%2:40:04::"], [34, "supplement%2:40:00::"]]
+LWHJ:
+    lemmas: ["In", "some", "parts", "of", "the", "country", ",", "however", ",", "a", "co-operative", "movement", "have", "begin", "to", "grow", ",", "under", "the", "wing", "of", "state_government", ",", "whereby", ",", "with", "the", "financial", "help", "of", "the", "state", ",", "library", "share", "their", "book", "resource", "on", "a", "county-wide", "or", "regional", "basis", "."]
+    oewn2026_key: [[13, "oewn-00346415-v"], [15, "oewn-00231172-v"], [34, "oewn-02300511-v"]]
+    paragraph: '2'
+    pos: ["IN", "DT", "NNS", "IN", "DT", "NN", ",", "RB", ",", "DT", "JJ", "NN", "VBZ", "VBN", "TO", "VB", ",", "IN", "DT", "NN", "IN", "NN", ",", "WRB", ",", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", ",", "NNS", "VBP", "PRP$", "NN", "NNS", "IN", "DT", "JJ", "CC", "JJ", "NN", "."]
+    text: ' In some parts of the country, however, a co-operative movement has begun to grow,
+  under the wing of state_governments, whereby, with the financial help of the state,
+  libraries share their book resources on a county-wide or regional basis.
+
+  '
+    tokens: [[1, 3], [4, 8], [9, 14], [15, 17], [18, 21], [22, 29], [29, 30], [31, 38], [38, 39], [40, 41], [42, 54], [55, 63], [64, 67], [68, 73], [74, 76], [77, 81], [81, 82], [83, 88], [89, 92], [93, 97], [98, 100], [101, 118], [118, 119], [120, 127], [127, 128], [129, 133], [134, 137], [138, 147], [148, 152], [153, 155], [156, 159], [160, 165], [165, 166], [167, 176], [177, 182], [183, 188], [189, 193], [194, 203], [204, 206], [207, 208], [209, 220], [221, 223], [224, 232], [233, 238], [238, 239]]
+    wn16_key: [[13, "begin%2:30:00::"], [15, "grow%2:30:00::"], [34, "share%2:40:02::"]]
+    wn30_key: [[13, "begin%2:30:00::"], [15, "grow%2:30:00::"], [34, "share%2:40:02::"]]
+aaWZ:
+    lemmas: ["new_york", "state", "have", "what", "be", "probably", "the_most", "advanced", "of", "these", "co-operative", "system", ",", "so", "well", "developed", "that", "it", "have", "become", "a", "model", "for", "other", "to", "follow", "."]
+    oewn2026_key: [[2, "oewn-02636270-v"], [4, "oewn-02610777-v"], [19, "oewn-02632685-v"], [25, "oewn-01748331-v"]]
+    paragraph: '3'
+    pos: ["NN", "NNP", "VBZ", "WP", "VBZ", "RB", "RB", "JJ", "IN", "DT", "JJ", "NNS", ",", "RB", "RB", "JJ", "IN", "PRP", "VBZ", "VBN", "DT", "NN", "IN", "NNS", "TO", "VB", "."]
+    text: ' New_York State has what is probably the_most advanced of these co-operative systems,
+  so well developed that it has become a model for others to follow.'
+    tokens: [[1, 9], [10, 15], [16, 19], [20, 24], [25, 27], [28, 36], [37, 45], [46, 54], [55, 57], [58, 63], [64, 76], [77, 84], [84, 85], [86, 88], [89, 93], [94, 103], [104, 108], [109, 111], [112, 115], [116, 122], [123, 124], [125, 130], [131, 134], [135, 141], [142, 144], [145, 151], [151, 152]]
+    wn16_key: [[2, "have%2:42:00::"], [4, "be%2:42:03::"], [19, "become%2:42:01::"], [25, "follow%2:36:00::"]]
+    wn30_key: [[2, "have%2:42:00::"], [4, "be%2:42:03::"], [19, "become%2:42:01::"], [25, "follow%2:36:00::"]]
+C1FJ:
+    lemmas: ["Because", "it", "be", "so", "large", "a", "state", ",", "with", "marked", "contrast", "in", "population", "density", ",", "the", "organization", "of", "the", "new_york", "co-operative", "offer", "a", "cross-section", "of", "how", "the", "plan", "work", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"], [21, "oewn-02332196-v"], [28, "oewn-02531113-v"]]
+    paragraph: '3'
+    pos: ["IN", "PRP", "VBZ", "RB", "JJ", "DT", "NN", ",", "IN", "JJ", "NNS", "IN", "NN", "NN", ",", "DT", "NN", "IN", "DT", "NN", "JJ", "VB", "DT", "NN", "IN", "WRB", "DT", "NN", "VBZ", "."]
+    text: ' Because it is so large a state, with marked contrasts in population density, the
+  organization of the New_York co-operative offers a cross-section of how the plan
+  works.'
+    tokens: [[1, 8], [9, 11], [12, 14], [15, 17], [18, 23], [24, 25], [26, 31], [31, 32], [33, 37], [38, 44], [45, 54], [55, 57], [58, 68], [69, 76], [76, 77], [78, 81], [82, 94], [95, 97], [98, 101], [102, 110], [111, 123], [124, 130], [131, 132], [133, 146], [147, 149], [150, 153], [154, 157], [158, 162], [163, 168], [168, 169]]
+    wn16_key: [[2, "be%2:42:03::"], [21, "offer%2:40:02::"], [28, "work%2:41:03::"]]
+    wn30_key: [[2, "be%2:42:03::"], [21, "offer%2:40:02::"], [28, "work%2:41:03::"]]
+nEY5:
+    lemmas: ["At", "one", "extreme", "be", "the", "system", "of", "upper", "new_york", "state", ",", "where", "library", "in", "two", "or", "more", "county", "combine", "to", "serve", "a", "large", ",", "sparsely", "populated", "area", "."]
+    oewn2026_key: [[3, "oewn-02661230-v"], [18, "oewn-02313988-v"], [20, "oewn-02546948-v"]]
+    paragraph: '3'
+    pos: ["IN", "CD", "JJ", "VBP", "DT", "NNS", "IN", "JJ", "NN", "NNP", ",", "WRB", "NNS", "IN", "CD", "CC", "JJR", "NNS", "VBP", "TO", "VB", "DT", "JJ", ",", "RB", "JJ", "NN", "."]
+    text: ' At one extreme are the systems of upper New_York State, where libraries in two or
+  more counties combine to serve a large, sparsely populated area.'
+    tokens: [[1, 3], [4, 7], [8, 15], [16, 19], [20, 23], [24, 31], [32, 34], [35, 40], [41, 49], [50, 55], [55, 56], [57, 62], [63, 72], [73, 75], [76, 79], [80, 82], [83, 87], [88, 96], [97, 104], [105, 107], [108, 113], [114, 115], [116, 121], [121, 122], [123, 131], [132, 141], [142, 146], [146, 147]]
+    wn16_key: [[3, "be%2:42:05::"], [18, "combine%2:40:00::"], [20, "serve%2:41:00::"]]
+    wn30_key: [[3, "be%2:42:05::"], [18, "combine%2:40:00::"], [20, "serve%2:41:00::"]]
+eZcO:
+    lemmas: ["At", "the", "other", "be", "organization", "like", "the", "newly", "formed", "nassau_library_system", ",", "in", "a", "high-density", "area", ",", "with", "ample", "resource", "and", "a", "rapidly", "grow", "territory", "to", "serve", "."]
+    oewn2026_key: [[3, "oewn-02661230-v"], [22, "oewn-00231172-v"], [25, "oewn-02546948-v"]]
+    paragraph: '3'
+    pos: ["IN", "DT", "JJ", "VBP", "NNS", "IN", "DT", "RB", "JJ", "NNP", ",", "IN", "DT", "JJ", "NN", ",", "IN", "JJ", "NNS", "CC", "DT", "RB", "VBG", "NN", "TO", "VB", "."]
+    text: ' At the other are organizations like the newly formed Nassau_Library_System, in a
+  high-density area, with ample resources and a rapidly growing territory to serve.
+
+  '
+    tokens: [[1, 3], [4, 7], [8, 13], [14, 17], [18, 31], [32, 36], [37, 40], [41, 46], [47, 53], [54, 75], [75, 76], [77, 79], [80, 81], [82, 94], [95, 99], [99, 100], [101, 105], [106, 111], [112, 121], [122, 125], [126, 127], [128, 135], [136, 143], [144, 153], [154, 156], [157, 162], [162, 163]]
+    wn16_key: [[3, "be%2:42:05::"], [22, "grow%2:30:00::"], [25, "serve%2:41:00::"]]
+    wn30_key: [[3, "be%2:42:05::"], [22, "grow%2:30:00::"], [25, "serve%2:41:00::"]]
+8R2R:
+    lemmas: ["Both", "these", "type", ",", "and", "those", "in_between", ",", "be", "in", "existence", "by", "reason", "of", "a", "legislative", "interest", "in", "library", "that", "begin", "at", "albany", "as", "early", "as", "1950", ",", "with", "the", "creation", "by", "the", "legislature", "of", "county", "library", "system", "finance", "by", "county", "government", "with", "matching", "funds", "from", "the", "state", "."]
+    oewn2026_key: [[8, "oewn-02610777-v"], [38, "oewn-02222048-v"]]
+    paragraph: '4'
+    pos: ["PDT", "DT", "NNS", ",", "CC", "DT", "RB", ",", "VBP", "IN", "NN", "IN", "NN", "IN", "DT", "JJ", "NN", "IN", "NNS", "WDT", "VB", "RB", "NNP", "RB", "JJ", "IN", "CD", ",", "IN", "DT", "NN", "IN", "DT", "NN", "IN", "NN", "NN", "NNS", "VBN", "IN", "NN", "NNS", "IN", "JJ", "NNS", "IN", "DT", "NN", "."]
+    text: ' Both these types, and those in_between, are in existence by reason of a legislative
+  interest in libraries that began at Albany as early as 1950, with the creation by
+  the legislature of county library systems financed by county governments with matching
+  funds from the state.'
+    tokens: [[1, 5], [6, 11], [12, 17], [17, 18], [19, 22], [23, 28], [29, 39], [39, 40], [41, 44], [45, 47], [48, 57], [58, 60], [61, 67], [68, 70], [71, 72], [73, 84], [85, 93], [94, 96], [97, 106], [107, 111], [112, 117], [118, 120], [121, 127], [128, 130], [131, 136], [137, 139], [140, 144], [144, 145], [146, 150], [151, 154], [155, 163], [164, 166], [167, 170], [171, 182], [183, 185], [186, 192], [193, 200], [201, 208], [209, 217], [218, 220], [221, 227], [228, 239], [240, 244], [245, 253], [254, 259], [260, 264], [265, 268], [269, 274], [274, 275]]
+    wn16_key: [[8, "be%2:42:03::"], [20, "begin%2:36:00::"], [38, "finance%2:40:00::"]]
+    wn30_key: [[8, "be%2:42:03::"], [38, "finance%2:40:00::"]]
+e3lM:
+    lemmas: ["It", "be", "a", "step", "in", "the", "right", "direction", ",", "but", "it", "take", "an", "additional", "act", "pass", "in", "1958", "to", "establish", "fully", "the", "thriving", "system", "of", "today", "."]
+    oewn2026_key: [[1, "oewn-02670846-v"], [11, "oewn-02634015-v"], [15, "oewn-02472093-v"], [19, "oewn-01650771-v"]]
+    paragraph: '4'
+    pos: ["PRP", "VBD", "DT", "NN", "VB", "DT", "NN", "NN", ",", "CC", "PRP", "VBD", "DT", "JJ", "NN", "VBN", "IN", "CD", "TO", "VB", "RB", "DT", "JJ", "NNS", "IN", "NN", "."]
+    text: ' It was a step in the right direction, but it took an additional act passed in 1958
+  to establish fully the thriving systems of today.
+
+  '
+    tokens: [[1, 3], [4, 7], [8, 9], [10, 14], [15, 17], [18, 21], [22, 27], [28, 37], [37, 38], [39, 42], [43, 45], [46, 50], [51, 53], [54, 64], [65, 68], [69, 75], [76, 78], [79, 83], [84, 86], [87, 96], [97, 102], [103, 106], [107, 115], [116, 123], [124, 126], [127, 132], [132, 133]]
+    wn16_key: [[1, "be%2:42:07::"], [11, "take%2:42:00::"], [15, "pass%2:41:02::"], [19, "establish%2:36:00::"]]
+    wn30_key: [[1, "be%2:42:07::"], [11, "take%2:42:00::"], [15, "pass%2:41:02::"], [19, "establish%2:36:00::"]]
+1F8R:
+    lemmas: ["Under", "this", "law", "annual", "grant", "be", "give", "to", "system", "in", "substantial", "amount", "."]
+    oewn2026_key: [[6, "oewn-02313721-v"]]
+    paragraph: '5'
+    pos: ["IN", "DT", "NN", "JJ", "NNS", "VBP", "VBN", "TO", "NNS", "IN", "JJ", "NNS", "."]
+    text: ' Under this law annual grants are given to systems in substantial amounts.'
+    tokens: [[1, 6], [7, 11], [12, 15], [16, 22], [23, 29], [30, 33], [34, 39], [40, 42], [43, 50], [51, 53], [54, 65], [66, 73], [73, 74]]
+    wn16_key: [[6, "give%2:40:08::"]]
+    wn30_key: [[6, "give%2:40:08::"]]
+VPCD:
+    lemmas: ["An", "earlier", "difficulty", "be", "overcome", "by", "make", "it", "clear", "that", "individual", "library", "in", "any", "area", "might", "join", "or", "not", ",", "as", "they", "see", "fit", "."]
+    oewn2026_key: [[4, "oewn-01110559-v"], [6, "oewn-00120124-v"], [16, "oewn-02439823-v"], [22, "oewn-00692380-v"]]
+    paragraph: '5'
+    pos: ["DT", "RBR", "NN", "VB", "VBN", "IN", "VBG", "VB", "JJ", "IN", "JJ", "NNS", "IN", "DT", "NN", "MD", "VB", "CC", "RB", ",", "IN", "PRP", "VBD", "JJ", "."]
+    text: ' An earlier difficulty was overcome by making it clear that individual libraries
+  in any area might join or not, as they saw fit.'
+    tokens: [[1, 3], [4, 11], [12, 22], [23, 26], [27, 35], [36, 38], [39, 45], [46, 48], [49, 54], [55, 59], [60, 70], [71, 80], [81, 83], [84, 87], [88, 92], [93, 98], [99, 103], [104, 106], [107, 110], [110, 111], [112, 114], [115, 119], [120, 123], [124, 127], [127, 128]]
+    wn16_key: [[4, "overcome%2:33:03::"], [6, "make%2:30:00::"], [16, "join%2:41:00::"], [22, "see%2:31:00::"]]
+    wn30_key: [[4, "overcome%2:33:03::"], [6, "make%2:30:00::"], [16, "join%2:41:00::"], [22, "see%2:31:00::"]]
+gn6N:
+    lemmas: ["Some", "library", "boards", "be", "wary", "of", "the", "plan", "."]
+    oewn2026_key: [[3, "oewn-02610777-v"]]
+    paragraph: '5'
+    pos: ["DT", "NN", "NNS", "VBP", "JJ", "IN", "DT", "NN", "."]
+    text: ' Some library boards are wary of the plan.'
+    tokens: [[1, 5], [6, 13], [14, 20], [21, 24], [25, 29], [30, 32], [33, 36], [37, 41], [41, 42]]
+    wn16_key: [[3, "be%2:42:03::"]]
+    wn30_key: [[3, "be%2:42:03::"]]
+mETA:
+    lemmas: ["A", "large", ",", "well-stocked", "library", ",", "surrounded", "in", "a", "county", "by", "smaller", "one", ",", "may", "feel", "that", "the", "demand", "on", "its", "resource", "be", "likely", "to", "be", "too", "great", "."]
+    oewn2026_key: [[15, "oewn-00717144-v"], [22, "oewn-02610777-v"], [25, "oewn-02610777-v"]]
+    paragraph: '5'
+    pos: ["DT", "JJ", ",", "JJ", "NN", ",", "JJ", "IN", "DT", "NN", "IN", "JJR", "NNS", ",", "MD", "VB", "IN", "DT", "NNS", "IN", "PRP$", "NNS", "VBP", "JJ", "TO", "VB", "RB", "JJ", "."]
+    text: ' A large, well-stocked library, surrounded in a county by smaller ones, may feel
+  that the demands on its resources are likely to be too great.'
+    tokens: [[1, 2], [3, 8], [8, 9], [10, 22], [23, 30], [30, 31], [32, 42], [43, 45], [46, 47], [48, 54], [55, 57], [58, 65], [66, 70], [70, 71], [72, 75], [76, 80], [81, 85], [86, 89], [90, 97], [98, 100], [101, 104], [105, 114], [115, 118], [119, 125], [126, 128], [129, 131], [132, 135], [136, 141], [141, 142]]
+    wn16_key: [[15, "feel%2:31:00::"], [22, "be%2:42:03::"], [25, "be%2:42:03::"]]
+    wn30_key: [[15, "feel%2:31:00::"], [22, "be%2:42:03::"], [25, "be%2:42:03::"]]
+fZFE:
+    lemmas: ["A", "small", "library", "may", "cherish", "its", "independence", "and", "established", "ways", ",", "and", "resist", "join", "in", "a", "cooperative", "movement", "that", "sometimes", "seem", "radical", "to", "older", "member", "of", "the", "board", "."]
+    oewn2026_key: [[4, "oewn-01780135-v"], [12, "oewn-02713660-v"], [13, "oewn-02439823-v"], [20, "oewn-02137900-v"]]
+    paragraph: '5'
+    pos: ["DT", "JJ", "NN", "MD", "VB", "PRP$", "NN", "CC", "JJ", "NNS", ",", "CC", "VB", "VBG", "IN", "DT", "JJ", "NN", "WDT", "RB", "VBZ", "JJ", "TO", "JJR", "NNS", "IN", "DT", "NN", "."]
+    text: ' A small library may cherish its independence and established ways, and resist joining
+  in a cooperative movement that sometimes seems radical to older members of the board.
+
+  '
+    tokens: [[1, 2], [3, 8], [9, 16], [17, 20], [21, 28], [29, 32], [33, 45], [46, 49], [50, 61], [62, 66], [66, 67], [68, 71], [72, 78], [79, 86], [87, 89], [90, 91], [92, 103], [104, 112], [113, 117], [118, 127], [128, 133], [134, 141], [142, 144], [145, 150], [151, 158], [159, 161], [162, 165], [166, 171], [171, 172]]
+    wn16_key: [[4, "cherish%2:37:00::"], [12, "resist%2:42:01::"], [13, "join%2:41:00::"], [20, "seem%2:39:00::"]]
+    wn30_key: [[4, "cherish%2:37:00::"], [12, "resist%2:42:01::"], [13, "join%2:41:00::"], [20, "seem%2:39:00::"]]
+fHT8:
+    lemmas: ["Within", "a", "system", ",", "however", ",", "the", "autonomy", "of", "each", "member", "library", "be", "preserve", "."]
+    oewn2026_key: [[13, "oewn-02230274-v"]]
+    paragraph: '6'
+    pos: ["IN", "DT", "NN", ",", "RB", ",", "DT", "NN", "IN", "DT", "NN", "NN", "VBZ", "VBN", "."]
+    text: ' Within a system, however, the autonomy of each member library is preserved.'
+    tokens: [[1, 7], [8, 9], [10, 16], [16, 17], [18, 25], [25, 26], [27, 30], [31, 39], [40, 42], [43, 47], [48, 54], [55, 62], [63, 65], [66, 75], [75, 76]]
+    wn16_key: [[13, "preserve%2:40:01::"]]
+    wn30_key: [[13, "preserve%2:40:01::"]]
+6TwX:
+    lemmas: ["The", "local", "community", "maintain", "responsibility", "for", "the", "financial", "support", "of", "its", "own", "library_program", ",", "facility", ",", "and", "services", ",", "but", "wide", "resource", "and", "additional", "services", "become", "available", "through", "membership", "in", "a", "system", "."]
+    oewn2026_key: [[3, "oewn-02687605-v"], [25, "oewn-00149403-v"]]
+    paragraph: '6'
+    pos: ["DT", "JJ", "NN", "VBZ", "NN", "IN", "DT", "JJ", "NN", "IN", "PRP$", "JJ", "NN", ",", "NNS", ",", "CC", "NNS", ",", "CC", "JJR", "NNS", "CC", "JJ", "NNS", "VBP", "JJ", "IN", "NN", "IN", "DT", "NN", "."]
+    text: ' The local community maintains responsibility for the financial support of its own
+  library_program, facilities, and services, but wider resources and additional services
+  become available through membership in a system.'
+    tokens: [[1, 4], [5, 10], [11, 20], [21, 30], [31, 45], [46, 49], [50, 53], [54, 63], [64, 71], [72, 74], [75, 78], [79, 82], [83, 98], [98, 99], [100, 110], [110, 111], [112, 115], [116, 124], [124, 125], [126, 129], [130, 135], [136, 145], [146, 149], [150, 160], [161, 169], [170, 176], [177, 186], [187, 194], [195, 205], [206, 208], [209, 210], [211, 217], [217, 218]]
+    wn16_key: [[3, "maintain%2:42:00::"], [25, "become%2:30:00::"]]
+    wn30_key: [[3, "maintain%2:42:00::"], [25, "become%2:30:00::"]]
+T7E1:
+    lemmas: ["All", "services", "be", "give", "without", "cost", "to", "member", "."]
+    oewn2026_key: [[3, "oewn-02301114-v"]]
+    paragraph: '6'
+    pos: ["DT", "NNS", "VBP", "VBN", "IN", "NN", "TO", "NNS", "."]
+    text: ' All services are given without cost to members.'
+    tokens: [[1, 4], [5, 13], [14, 17], [18, 23], [24, 31], [32, 36], [37, 39], [40, 47], [47, 48]]
+    wn16_key: [[3, "give%2:40:09::"]]
+    wn30_key: [[3, "give%2:40:09::"]]
+JVb5:
+    lemmas: ["so", "obvious", "be", "these", "advantage", "that", "nearly", "95", "per_cent", "of", "the", "population", "of", "new_york", "state", "now", "have", "access", "to", "a", "system", ",", "and", "enthusiastic", "librarian", "foresee", "the", "day", ",", "not", "too", "distant", ",", "when", "all", "the", "library", "in", "the", "state", "will", "belong_to", "a", "co-op", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"], [16, "oewn-02208144-v"], [25, "oewn-01639763-v"], [41, "oewn-02725805-v"]]
+    paragraph: '6'
+    pos: ["RB", "JJ", "VBP", "DT", "NNS", "IN", "RB", "CD", "NN", "IN", "DT", "NN", "IN", "NN", "NNP", "RB", "VBZ", "NN", "TO", "DT", "NN", ",", "CC", "JJ", "NNS", "VBP", "DT", "NN", ",", "RB", "RB", "JJ", ",", "WRB", "PDT", "DT", "NNS", "IN", "DT", "NN", "MD", "VB", "DT", "NN", "."]
+    text: ' So obvious are these advantages that nearly 95 per_cent of the population of New_York
+  State now has access to a system, and enthusiastic librarians foresee the day, not
+  too distant, when all the libraries in the state will belong_to a co-op.
+
+  '
+    tokens: [[1, 3], [4, 11], [12, 15], [16, 21], [22, 32], [33, 37], [38, 44], [45, 47], [48, 56], [57, 59], [60, 63], [64, 74], [75, 77], [78, 86], [87, 92], [93, 96], [97, 100], [101, 107], [108, 110], [111, 112], [113, 119], [119, 120], [121, 124], [125, 137], [138, 148], [149, 156], [157, 160], [161, 164], [164, 165], [166, 169], [170, 173], [174, 181], [181, 182], [183, 187], [188, 191], [192, 195], [196, 205], [206, 208], [209, 212], [213, 218], [219, 223], [224, 233], [234, 235], [236, 241], [241, 242]]
+    wn16_key: [[2, "be%2:42:03::"], [16, "have%2:40:00::"], [25, "foresee%2:36:00::"], [41, "belong_to%2:42:00::"]]
+    wn30_key: [[2, "be%2:42:03::"], [16, "have%2:40:00::"], [25, "foresee%2:36:00::"], [41, "belong_to%2:42:00::"]]
+qR4/:
+    lemmas: ["To", "set_up", "a", "co-operative", "library", "system", ",", "the", "law", "require", "a", "central", "book", "collection", "of", "100000", "nonfiction", "volume", "as", "the", "nucleus", ",", "and", "the", "system", "be", "organize", "around", "it", "."]
+    oewn2026_key: [[1, "oewn-02431950-v"], [9, "oewn-00757790-v"], [26, "oewn-00405549-v"]]
+    paragraph: '7'
+    pos: ["TO", "VB", "DT", "JJ", "NN", "NN", ",", "DT", "NN", "VBZ", "DT", "JJ", "NN", "NN", "IN", "CD", "NN", "NNS", "IN", "DT", "NN", ",", "CC", "DT", "NN", "VBZ", "VBN", "IN", "PRP", "."]
+    text: ' To set_up a co-operative library system, the law requires a central book collection
+  of 100000 nonfiction volumes as the nucleus, and the system is organized around
+  it.'
+    tokens: [[1, 3], [4, 10], [11, 12], [13, 25], [26, 33], [34, 40], [40, 41], [42, 45], [46, 49], [50, 58], [59, 60], [61, 68], [69, 73], [74, 84], [85, 87], [88, 94], [95, 105], [106, 113], [114, 116], [117, 120], [121, 128], [128, 129], [130, 133], [134, 137], [138, 144], [145, 147], [148, 157], [158, 164], [165, 167], [167, 168]]
+    wn16_key: [[1, "set_up%2:41:02::"], [9, "require%2:32:01::"], [26, "organize%2:30:00::"]]
+    wn30_key: [[1, "set_up%2:41:02::"], [9, "require%2:32:01::"], [26, "organize%2:30:00::"]]
+G14O:
+    lemmas: ["The", "collection", "may", "be", "in", "an", "existing", "library", ",", "or", "it", "may", "be", "build", "up", "in", "a", "central", "collection", "."]
+    oewn2026_key: [[3, "oewn-02661230-v"], [13, "oewn-00253876-v"]]
+    paragraph: '7'
+    pos: ["DT", "NN", "MD", "VB", "IN", "DT", "JJ", "NN", ",", "CC", "PRP", "MD", "VB", "VBN", "IN", "IN", "DT", "JJ", "NN", "."]
+    text: ' The collection may be in an existing library, or it may be built up in a central
+  collection.'
+    tokens: [[1, 4], [5, 15], [16, 19], [20, 22], [23, 25], [26, 28], [29, 37], [38, 45], [45, 46], [47, 49], [50, 52], [53, 56], [57, 59], [60, 65], [66, 68], [69, 71], [72, 73], [74, 81], [82, 92], [92, 93]]
+    wn16_key: [[3, "be%2:42:05::"], [13, "build%2:30:00::"]]
+    wn30_key: [[3, "be%2:42:05::"], [13, "build%2:30:00::"]]
+nax3:
+    lemmas: ["Each", "system", "develop", "differently", ",", "according", "to", "the", "area", "it", "serve", ",", "but", "the", "universal", "goal", "be", "to", "pool", "the", "resource", "of", "a", "given", "area", "for", "maximum", "efficiency", "."]
+    oewn2026_key: [[2, "oewn-02630344-v"], [10, "oewn-02546948-v"], [16, "oewn-02610777-v"], [18, "oewn-02300803-v"]]
+    paragraph: '7'
+    pos: ["DT", "NN", "VBZ", "RB", ",", "JJ", "TO", "DT", "NN", "PRP", "VBZ", ",", "CC", "DT", "JJ", "NN", "VBZ", "TO", "VB", "DT", "NNS", "IN", "DT", "JJ", "NN", "IN", "JJ", "NN", "."]
+    text: ' Each system develops differently, according to the area it serves, but the universal
+  goal is to pool the resources of a given area for maximum efficiency.'
+    tokens: [[1, 5], [6, 12], [13, 21], [22, 33], [33, 34], [35, 44], [45, 47], [48, 51], [52, 56], [57, 59], [60, 66], [66, 67], [68, 71], [72, 75], [76, 85], [86, 90], [91, 93], [94, 96], [97, 101], [102, 105], [106, 115], [116, 118], [119, 120], [121, 126], [127, 131], [132, 135], [136, 143], [144, 154], [154, 155]]
+    wn16_key: [[2, "develop%2:42:00::"], [10, "serve%2:41:00::"], [16, "be%2:42:03::"], [18, "pool%2:40:00::"]]
+    wn30_key: [[2, "develop%2:42:00::"], [10, "serve%2:41:00::"], [16, "be%2:42:03::"], [18, "pool%2:40:00::"]]
+iVqT:
+    lemmas: ["The", "basic", "state", "grant", "be", "thirty", "cent", "for_each_person", "serve", ",", "and", "there", "be", "a", "further", "book", "incentive", "grant", "that", "provide", "an", "extra", "twenty", "cent", "up_to", "fifty", "cent", "per_capita", ",", "if", "a", "library", "spend", "a", "certain", "number", "of", "dollar", "."]
+    oewn2026_key: [[4, "oewn-02670846-v"], [8, "oewn-02546948-v"], [19, "oewn-02332196-v"], [32, "oewn-02271905-v"]]
+    paragraph: '7'
+    pos: ["DT", "JJ", "NN", "NN", "VBZ", "CD", "NNS", "RB", "VBD", ",", "CC", "EX", "VB", "DT", "JJ", "NN", "NN", "NN", "WDT", "VBZ", "DT", "JJ", "CD", "NNS", "JJ", "CD", "NNS", "RB", ",", "IN", "DT", "NN", "VBZ", "DT", "JJ", "NN", "IN", "NNS", "."]
+    text: ' The basic state grant is thirty cents for_each_person served, and there is a further
+  book incentive grant that provides an extra twenty cents up_to fifty cents per_capita,
+  if a library spends a certain number of dollars.
+
+  '
+    tokens: [[1, 4], [5, 10], [11, 16], [17, 22], [23, 25], [26, 32], [33, 38], [39, 54], [55, 61], [61, 62], [63, 66], [67, 72], [73, 75], [76, 77], [78, 85], [86, 90], [91, 100], [101, 106], [107, 111], [112, 120], [121, 123], [124, 129], [130, 136], [137, 142], [143, 148], [149, 154], [155, 160], [161, 171], [171, 172], [173, 175], [176, 177], [178, 185], [186, 192], [193, 194], [195, 202], [203, 209], [210, 212], [213, 220], [220, 221]]
+    wn16_key: [[4, "be%2:42:07::"], [8, "serve%2:41:00::"], [19, "provide%2:40:00::"], [32, "spend%2:40:00::"]]
+    wn30_key: [[4, "be%2:42:07::"], [8, "serve%2:41:00::"], [19, "provide%2:40:00::"], [32, "spend%2:40:00::"]]
++aL6:
+    lemmas: ["In", "nassau_county", ",", "for_example", ",", "the", "heavily", "settled", "long_island", "suburb", "of", "new_york_city", ",", "the", "system", "be", "credit", "by", "the", "state", "with", "serve", "one", "million", "person", ",", "a", "figure", "that", "have", "double", "since", "1950", "."]
+    oewn2026_key: [[16, "oewn-02269560-v"], [21, "oewn-02546948-v"], [30, "oewn-00247103-v"]]
+    paragraph: '8'
+    pos: ["IN", "NNP", ",", "RB", ",", "DT", "RB", "JJ", "NN", "NN", "IN", "NN", ",", "DT", "NN", "VBZ", "VBN", "IN", "DT", "NN", "IN", "VBG", "CD", "CD", "NNS", ",", "DT", "NN", "WDT", "VBZ", "VBN", "IN", "CD", "."]
+    text: ' In Nassau_County, for_example, the heavily settled Long_Island suburb of New_York_City,
+  the system is credited by the state with serving one million persons, a figure that
+  has doubled since 1950.'
+    tokens: [[1, 3], [4, 17], [17, 18], [19, 30], [30, 31], [32, 35], [36, 43], [44, 51], [52, 63], [64, 70], [71, 73], [74, 87], [87, 88], [89, 92], [93, 99], [100, 102], [103, 111], [112, 114], [115, 118], [119, 124], [125, 129], [130, 137], [138, 141], [142, 149], [150, 157], [157, 158], [159, 160], [161, 167], [168, 172], [173, 176], [177, 184], [185, 190], [191, 195], [195, 196]]
+    wn16_key: [[16, "credit%2:40:00::"], [21, "serve%2:41:00::"], [30, "double%2:30:00::"]]
+    wn30_key: [[16, "credit%2:40:00::"], [21, "serve%2:41:00::"], [30, "double%2:30:00::"]]
+3Tke:
+    lemmas: ["This", "system", ",", "by", "virtue", "of", "its", "variety", "and", "size", ",", "offer", "an", "inclusive", "view", "of", "the", "plan", "in_operation", "."]
+    oewn2026_key: [[11, "oewn-02332196-v"]]
+    paragraph: '8'
+    pos: ["DT", "NN", ",", "IN", "NN", "IN", "PRP$", "NN", "CC", "NN", ",", "VBZ", "DT", "JJ", "NN", "IN", "DT", "NN", "JJ", "."]
+    text: ' This system, by virtue of its variety and size, offers an inclusive view of the
+  plan in_operation.
+
+  '
+    tokens: [[1, 5], [6, 12], [12, 13], [14, 16], [17, 23], [24, 26], [27, 30], [31, 38], [39, 42], [43, 47], [47, 48], [49, 55], [56, 58], [59, 68], [69, 73], [74, 76], [77, 80], [81, 85], [86, 98], [98, 99]]
+    wn16_key: [[11, "offer%2:40:02::"]]
+    wn30_key: [[11, "offer%2:40:02::"]]
+0pfV:
+    lemmas: ["The", "nassau", "system", "recognize", "that", "its", "major", "task", "it", "to", "broaden", "reference", "service", ",", "what", "with", "the", "constant", "expansion", "of", "education", "and", "knowledge", ",", "and", "the", "pressure", "of", "population", "growth", "in", "a", "metropolitan", "area", "."]
+    oewn2026_key: [[3, "oewn-00730579-v"], [10, "oewn-00318370-v"]]
+    paragraph: '9'
+    pos: ["DT", "NNP", "NN", "VBZ", "IN", "PRP$", "JJ", "NN", "PRP", "TO", "VB", "NN", "NN", ",", "WP", "IN", "DT", "JJ", "NN", "IN", "NN", "CC", "NN", ",", "CC", "DT", "NN", "IN", "NN", "NN", "IN", "DT", "JJ", "NN", "."]
+    text: ' The Nassau system recognizes that its major task it to broaden reference service,
+  what with the constant expansion of education and knowledge, and the pressure of
+  population growth in a metropolitan area.'
+    tokens: [[1, 4], [5, 11], [12, 18], [19, 29], [30, 34], [35, 38], [39, 44], [45, 49], [50, 52], [53, 55], [56, 63], [64, 73], [74, 81], [81, 82], [83, 87], [88, 92], [93, 96], [97, 105], [106, 115], [116, 118], [119, 128], [129, 132], [133, 142], [142, 143], [144, 147], [148, 151], [152, 160], [161, 163], [164, 174], [175, 181], [182, 184], [185, 186], [187, 199], [200, 204], [204, 205]]
+    wn16_key: [[3, "recognize%2:31:01::"], [10, "broaden%2:30:01::"]]
+    wn30_key: [[3, "recognize%2:31:01::"], [10, "broaden%2:30:01::"]]
+phMz:
+    lemmas: ["The", "need", "be", "for", "reference_work", "of", "a", "more", "specialized", "nature", "than", "individual", "library", ",", "adequate_to", "satisfy", "everyday", "need", ",", "could", "afford", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"], [15, "oewn-01185870-v"], [20, "oewn-01195161-v"]]
+    paragraph: '9'
+    pos: ["DT", "NN", "VBZ", "IN", "NN", "IN", "DT", "RBR", "JJ", "NN", "IN", "JJ", "NNS", ",", "JJ", "VBP", "JJ", "NN", ",", "MD", "VB", "."]
+    text: ' The need is for reference_works of a more specialized nature than individual libraries,
+  adequate_to satisfy everyday needs, could afford.'
+    tokens: [[1, 4], [5, 9], [10, 12], [13, 16], [17, 32], [33, 35], [36, 37], [38, 42], [43, 54], [55, 61], [62, 66], [67, 77], [78, 87], [87, 88], [89, 100], [101, 108], [109, 117], [118, 123], [123, 124], [125, 130], [131, 137], [137, 138]]
+    wn16_key: [[2, "be%2:42:03::"], [15, "satisfy%2:34:01::"], [20, "afford%2:34:00::"]]
+    wn30_key: [[2, "be%2:42:03::"], [15, "satisfy%2:34:01::"], [20, "afford%2:34:00::"]]
+3dLz:
+    lemmas: ["nassau", "be", "currently", "build", "a", "central", "collection", "of", "reference", "material", "in", "its", "Hempstead", "headquarters", ",", "which", "will", "reach", "its", "goal", "of", "100000", "volume", "by", "1965", "."]
+    oewn2026_key: [[3, "oewn-01658171-v"], [17, "oewn-02026014-v"]]
+    paragraph: '9'
+    pos: ["NNP", "VBZ", "RB", "VBG", "DT", "JJ", "NN", "IN", "NN", "NNS", "IN", "PRP$", "NNP", "NN", ",", "WDT", "MD", "VB", "PRP$", "NN", "IN", "CD", "NNS", "IN", "CD", "."]
+    text: ' Nassau is currently building a central collection of reference materials in its
+  Hempstead headquarters, which will reach its goal of 100000 volumes by 1965.
+
+  '
+    tokens: [[1, 7], [8, 10], [11, 20], [21, 29], [30, 31], [32, 39], [40, 50], [51, 53], [54, 63], [64, 73], [74, 76], [77, 80], [81, 90], [91, 103], [103, 104], [105, 110], [111, 115], [116, 121], [122, 125], [126, 130], [131, 133], [134, 140], [141, 148], [149, 151], [152, 156], [156, 157]]
+    wn16_key: [[3, "build%2:36:00::"], [17, "reach%2:38:06::"]]
+    wn30_key: [[3, "build%2:36:00::"], [17, "reach%2:38:06::"]]
+d2S+:
+    lemmas: ["The", "major", "part", "of_this", "collection", "be", "in", "the", "central", "headquarters", "building", ",", "and", "the", "remainder", "be", "divide", "among", "five", "library", "in", "the", "system", "designate", "as", "subject", "center", "."]
+    oewn2026_key: [[5, "oewn-02661230-v"], [16, "oewn-02473085-v"], [23, "oewn-02396945-v"]]
+    paragraph: '10'
+    pos: ["DT", "JJ", "NN", "RB", "NN", "VBZ", "IN", "DT", "JJ", "NN", "NN", ",", "CC", "DT", "NN", "VBZ", "VBN", "IN", "CD", "NNS", "IN", "DT", "NN", "VBN", "IN", "NN", "NNS", "."]
+    text: ' The major part of_this collection is in the central headquarters building, and the
+  remainder is divided among five libraries in the system designated as subject centers.'
+    tokens: [[1, 4], [5, 10], [11, 15], [16, 23], [24, 34], [35, 37], [38, 40], [41, 44], [45, 52], [53, 65], [66, 74], [74, 75], [76, 79], [80, 83], [84, 93], [94, 96], [97, 104], [105, 110], [111, 115], [116, 125], [126, 128], [129, 132], [133, 139], [140, 150], [151, 153], [154, 161], [162, 169], [169, 170]]
+    wn16_key: [[5, "be%2:42:05::"], [16, "divide%2:41:00::"], [23, "designate%2:41:00::"]]
+    wn30_key: [[5, "be%2:42:05::"], [16, "divide%2:41:00::"], [23, "designate%2:41:00::"]]
+p6E9:
+    lemmas: ["basic", "reference", "tool", "be", "the", "backbone", "of", "the", "collection", ",", "but", "there", "be", "also", "specialization", "in", "science", "and", "technology", ",", "an", "indicated", "weakness", "in", "local", "library", "."]
+    oewn2026_key: [[3, "oewn-02670846-v"]]
+    paragraph: '10'
+    pos: ["NNP", "NN", "NNS", "VBP", "DT", "NN", "IN", "DT", "NN", ",", "CC", "EX", "VB", "RB", "NN", "IN", "NN", "CC", "NN", ",", "DT", "JJ", "NN", "IN", "JJ", "NNS", "."]
+    text: ' Basic reference tools are the backbone of the collection, but there is also specialization
+  in science and technology, an indicated weakness in local libraries.'
+    tokens: [[1, 6], [7, 16], [17, 22], [23, 26], [27, 30], [31, 39], [40, 42], [43, 46], [47, 57], [57, 58], [59, 62], [63, 68], [69, 71], [72, 76], [77, 91], [92, 94], [95, 102], [103, 106], [107, 117], [117, 118], [119, 121], [122, 131], [132, 140], [141, 143], [144, 149], [150, 159], [159, 160]]
+    wn16_key: [[3, "be%2:42:07::"]]
+    wn30_key: [[3, "be%2:42:07::"]]
+fLjy:
+    lemmas: ["On", "microfilm", ",", "headquarters", "also", "have", "a", "file", "of", "the", "new_york", "times", "from", "its", "founding", "in", "1851", "to", "the", "present", "day", ",", "as_well", "as", "bound", "volume", "of", "important", "periodical", "."]
+    oewn2026_key: [[5, "oewn-02209474-v"]]
+    paragraph: '10'
+    pos: ["IN", "NN", ",", "NN", "RB", "VBZ", "DT", "NN", "IN", "DT", "NN", "NNP", "IN", "PRP$", "NN", "IN", "CD", "TO", "DT", "JJ", "NN", ",", "RB", "IN", "JJ", "NNS", "IN", "JJ", "NNS", "."]
+    text: ' On microfilm, headquarters also has a file of the New_York Times from its founding
+  in 1851 to the present day, as_well as bound volumes of important periodicals.'
+    tokens: [[1, 3], [4, 13], [13, 14], [15, 27], [28, 32], [33, 36], [37, 38], [39, 43], [44, 46], [47, 50], [51, 59], [60, 65], [66, 70], [71, 74], [75, 83], [84, 86], [87, 91], [92, 94], [95, 98], [99, 106], [107, 110], [110, 111], [112, 119], [120, 122], [123, 128], [129, 136], [137, 139], [140, 149], [150, 161], [161, 162]]
+    wn16_key: [[5, "have%2:40:04::"]]
+    wn30_key: [[5, "have%2:40:04::"]]
+iZa6:
+    lemmas: ["The", "entire", "headquarters", "collection", "be", "available", "to", "the", "patron", "of", "all", "member", "on", "interlibrary", "loan", "."]
+    oewn2026_key: [[4, "oewn-02610777-v"]]
+    paragraph: '10'
+    pos: ["DT", "JJ", "NN", "NN", "VBZ", "JJ", "TO", "DT", "NNS", "IN", "DT", "NNS", "IN", "JJ", "NNS", "."]
+    text: ' The entire headquarters collection is available to the patrons of all members on
+  interlibrary loans.
+
+  '
+    tokens: [[1, 4], [5, 11], [12, 24], [25, 35], [36, 38], [39, 48], [49, 51], [52, 55], [56, 63], [64, 66], [67, 70], [71, 78], [79, 81], [82, 94], [95, 100], [100, 101]]
+    wn16_key: [[4, "be%2:42:03::"]]
+    wn30_key: [[4, "be%2:42:03::"]]
+ozIJ:
+    lemmas: ["headquarters", "get", "about", "100", "request", "every_day", "."]
+    oewn2026_key: [[1, "oewn-02215637-v"]]
+    paragraph: '11'
+    pos: ["NNP", "VBZ", "RB", "CD", "NNS", "RB", "."]
+    text: ' Headquarters gets about 100 requests every_day.'
+    tokens: [[1, 13], [14, 18], [19, 24], [25, 28], [29, 37], [38, 47], [47, 48]]
+    wn16_key: [[1, "get%2:40:00::"]]
+    wn30_key: [[1, "get%2:40:00::"]]
+eMPx:
+    lemmas: ["It", "be", "connect", "by", "teletype", "with", "the", "state_library", "in", "albany", ",", "which", "will", "supply", "any", "book", "to", "a", "system", "that", "the", "system", "itself", "cannot", "provide", "."]
+    oewn2026_key: [[2, "oewn-01071413-v"], [13, "oewn-02484912-v"], [24, "oewn-02332196-v"]]
+    paragraph: '11'
+    pos: ["PRP", "VB", "VBN", "IN", "NN", "IN", "DT", "NNP", "IN", "NNP", ",", "WDT", "MD", "VB", "DT", "NN", "TO", "DT", "NN", "IN", "DT", "NN", "PRP", "MD", "VBP", "."]
+    text: ' It is connected by teletype with the State_Library in Albany, which will supply
+  any book to a system that the system itself cannot provide.'
+    tokens: [[1, 3], [4, 6], [7, 16], [17, 19], [20, 28], [29, 33], [34, 37], [38, 51], [52, 54], [55, 61], [61, 62], [63, 68], [69, 73], [74, 80], [81, 84], [85, 89], [90, 92], [93, 94], [95, 101], [102, 106], [107, 110], [111, 117], [118, 124], [125, 131], [132, 139], [139, 140]]
+    wn16_key: [[2, "connect%2:32:12::"], [13, "supply%2:41:00::"], [24, "provide%2:40:00::"]]
+    wn30_key: [[2, "connect%2:32:12::"], [13, "supply%2:41:00::"], [24, "provide%2:40:00::"]]
+mhbT:
+    lemmas: ["The", "book", "be", "carry", "around", "by", "truck", "in", "canvas", "bag", "from", "headquarters", "to", "the", "other", "library", "."]
+    oewn2026_key: [[3, "oewn-01452567-v"]]
+    paragraph: '11'
+    pos: ["DT", "NNS", "VBP", "VBN", "IN", "IN", "NN", "IN", "NN", "NNS", "IN", "NN", "TO", "DT", "JJ", "NNS", "."]
+    text: ' The books are carried around by truck in canvas bags from headquarters to the other
+  libraries.
+
+  '
+    tokens: [[1, 4], [5, 10], [11, 14], [15, 22], [23, 29], [30, 32], [33, 38], [39, 41], [42, 48], [49, 53], [54, 58], [59, 71], [72, 74], [75, 78], [79, 84], [85, 94], [94, 95]]
+    wn16_key: [[3, "carry%2:35:02::"]]
+    wn30_key: [[3, "carry%2:35:02::"]]
+kkzi:
+    lemmas: ["Each", "subject", "center", "library", "be", "choose", "because", "of", "its", "demonstrated", "strength", "in", "a", "particular", "area", ",", "which", "headquarters", "could", "then", "build", "upon", "."]
+    oewn2026_key: [[5, "oewn-00676526-v"], [20, "oewn-01658171-v"]]
+    paragraph: '12'
+    pos: ["DT", "NN", "NN", "NN", "VBD", "VBN", "IN", "IN", "PRP$", "JJ", "NN", "IN", "DT", "JJ", "NN", ",", "WDT", "NN", "MD", "RB", "VB", "VB", "."]
+    text: ' Each subject center library was chosen because of its demonstrated strength in a
+  particular area, which headquarters could then build upon.'
+    tokens: [[1, 5], [6, 13], [14, 20], [21, 28], [29, 32], [33, 39], [40, 47], [48, 50], [51, 54], [55, 67], [68, 76], [77, 79], [80, 81], [82, 92], [93, 97], [97, 98], [99, 104], [105, 117], [118, 123], [124, 128], [129, 134], [135, 139], [139, 140]]
+    wn16_key: [[5, "choose%2:31:00::"], [20, "build%2:36:00::"]]
+    wn30_key: [[5, "choose%2:31:00::"], [20, "build%2:36:00::"]]
+WqR3:
+    lemmas: ["east_meadow", "have", "philosophy", ",", "psychology", ",", "and", "religion", ";", "Freeport", "house", "social_science", ",", "pure", "science", ",", "and", "language", ";", "history", ",", "biography", ",", "and", "education", "be", "centered", "in", "Hempstead", ";", "Levittown", "have", "applied_science", ",", "business", ",", "and", "literature", ";", "while", "Hewlett-Woodmere", "be", "the", "repository", "of", "art", ",", "music", ",", "and", "foreign", "language", "."]
+    oewn2026_key: [[1, "oewn-02636270-v"], [10, "oewn-02707688-v"], [25, "oewn-02610777-v"], [31, "oewn-02636270-v"], [41, "oewn-02610777-v"]]
+    paragraph: '12'
+    pos: ["NNP", "VBZ", "NN", ",", "NN", ",", "CC", "NN", ":", "NNP", "VB", "NN", ",", "JJ", "NN", ",", "CC", "NN", ":", "NN", ",", "NN", ",", "CC", "NN", "VBP", "JJ", "IN", "NNP", ":", "NNP", "VBZ", "NN", ",", "NN", ",", "CC", "NN", ":", "IN", "NNP", "VBZ", "DT", "NN", "IN", "NN", ",", "NN", ",", "CC", "JJ", "NNS", "."]
+    text: ' East_Meadow has philosophy, psychology, and religion; Freeport houses social_science,
+  pure science, and language; history, biography, and education are centered in Hempstead;
+  Levittown has applied_science, business, and literature; while Hewlett-Woodmere
+  is the repository of art, music, and foreign languages.'
+    tokens: [[1, 12], [13, 16], [17, 27], [27, 28], [29, 39], [39, 40], [41, 44], [45, 53], [53, 54], [55, 63], [64, 70], [71, 85], [85, 86], [87, 91], [92, 99], [99, 100], [101, 104], [105, 113], [113, 114], [115, 122], [122, 123], [124, 133], [133, 134], [135, 138], [139, 148], [149, 152], [153, 161], [162, 164], [165, 174], [174, 175], [176, 185], [186, 189], [190, 205], [205, 206], [207, 215], [215, 216], [217, 220], [221, 231], [231, 232], [233, 238], [239, 255], [256, 258], [259, 262], [263, 273], [274, 276], [277, 280], [280, 281], [282, 287], [287, 288], [289, 292], [293, 300], [301, 310], [310, 311]]
+    wn16_key: [[1, "have%2:42:00::"], [10, "house%2:42:02::"], [25, "be%2:42:03::"], [31, "have%2:42:00::"], [41, "be%2:42:03::"]]
+    wn30_key: [[1, "have%2:42:00::"], [10, "house%2:42:02::"], [25, "be%2:42:03::"], [31, "have%2:42:00::"], [41, "be%2:42:03::"]]
+nrUe:
+    lemmas: ["The", "reference", "coordinator", "at", "headquarters", "also", "serve", "as", "a", "consultant", ",", "and", "be", "available", "to", "work", "with", "the", "local", "librarian", "in", "help", "to", "strengthen", "local", "reference", "service", "."]
+    oewn2026_key: [[6, "oewn-01097629-v"], [12, "oewn-02610777-v"], [15, "oewn-01672498-v"], [21, "oewn-02553283-v"], [23, "oewn-00221295-v"]]
+    paragraph: '12'
+    pos: ["DT", "NN", "NN", "IN", "NN", "RB", "VBZ", "VB", "DT", "NN", ",", "CC", "VBZ", "JJ", "TO", "VB", "IN", "DT", "JJ", "NN", "IN", "VBG", "TO", "VB", "JJ", "NN", "NN", "."]
+    text: ' The reference coordinator at headquarters also serves as a consultant, and is available
+  to work with the local librarian in helping to strengthen local reference service.
+
+  '
+    tokens: [[1, 4], [5, 14], [15, 26], [27, 29], [30, 42], [43, 47], [48, 54], [55, 57], [58, 59], [60, 70], [70, 71], [72, 75], [76, 78], [79, 88], [89, 91], [92, 96], [97, 101], [102, 105], [106, 111], [112, 121], [122, 124], [125, 132], [133, 135], [136, 146], [147, 152], [153, 162], [163, 170], [170, 171]]
+    wn16_key: [[6, "serve%2:33:00::"], [12, "be%2:42:03::"], [15, "work%2:36:00::"], [21, "help%2:41:00::"], [23, "strengthen%2:30:01::"]]
+    wn30_key: [[6, "serve%2:33:00::"], [12, "be%2:42:03::"], [15, "work%2:36:00::"], [21, "help%2:41:00::"], [23, "strengthen%2:30:01::"]]
+IB2y:
+    lemmas: ["This", "kind_of", "cooperation", "be", "not", "wholly", "new", ",", "of_course", "."]
+    oewn2026_key: [[3, "oewn-02610777-v"]]
+    paragraph: '13'
+    pos: ["DT", "RB", "NN", "VBZ", "RB", "RB", "JJ", ",", "RB", "."]
+    text: ' This kind_of cooperation is not wholly new, of_course.'
+    tokens: [[1, 5], [6, 13], [14, 25], [26, 28], [29, 32], [33, 39], [40, 43], [43, 44], [45, 54], [54, 55]]
+    wn16_key: [[3, "be%2:42:03::"]]
+    wn30_key: [[3, "be%2:42:03::"]]
+gtF5:
+    lemmas: ["public", "library", "in", "nassau_county", "have", "be", "lend", "book", "to", "each", "other", "by", "mail", "for", "a", "quarter-century", ",", "but", "the", "system", "enable", "this", "process", "to", "operate", "on", "an", "organized", "and", "far", "more", "comprehensive", "basis", "."]
+    oewn2026_key: [[6, "oewn-02329178-v"], [20, "oewn-00513958-v"], [24, "oewn-01528454-v"]]
+    paragraph: '13'
+    pos: ["NN", "NNS", "IN", "NNP", "VBP", "VBN", "VBG", "NNS", "TO", "DT", "NN", "IN", "NN", "IN", "DT", "NN", ",", "CC", "DT", "NN", "VBZ", "DT", "NN", "TO", "VB", "VB", "DT", "JJ", "CC", "RB", "RBR", "JJ", "NN", "."]
+    text: ' Public libraries in Nassau_County have been lending books to each other by mail
+  for a quarter-century, but the system enables this process to operate on an organized
+  and far more comprehensive basis.'
+    tokens: [[1, 7], [8, 17], [18, 20], [21, 34], [35, 39], [40, 44], [45, 52], [53, 58], [59, 61], [62, 66], [67, 72], [73, 75], [76, 80], [81, 84], [85, 86], [87, 102], [102, 103], [104, 107], [108, 111], [112, 118], [119, 126], [127, 131], [132, 139], [140, 142], [143, 150], [151, 153], [154, 156], [157, 166], [167, 170], [171, 174], [175, 179], [180, 193], [194, 199], [199, 200]]
+    wn16_key: [[6, "lend%2:40:00::"], [20, "enable%2:30:00::"], [24, "operate%2:35:03::"]]
+    wn30_key: [[6, "lend%2:40:00::"], [20, "enable%2:30:00::"], [24, "operate%2:35:03::"]]
+eDoj:
+    lemmas: ["local", "library", "find", ",", "too", ",", "that", "the", "new", "plan", "save", "tax", "dollar", "because", "book", "can", "be", "buy", "through", "the", "system", ",", "and", "since", "the", "system", "buy", "in", "bulk", "it", "be", "able", "to", "obtain", "larger", "discount", "than", "would", "be", "available", "to", "an", "individual", "library", "."]
+    oewn2026_key: [[2, "oewn-02133338-v"], [10, "oewn-02271765-v"], [17, "oewn-02211988-v"], [26, "oewn-02211988-v"], [30, "oewn-02610777-v"], [33, "oewn-02242867-v"], [38, "oewn-02610777-v"]]
+    paragraph: '13'
+    pos: ["JJ", "NNS", "VBP", ",", "RB", ",", "IN", "DT", "JJ", "NN", "VBZ", "NN", "NNS", "IN", "NNS", "MD", "VB", "VBN", "IN", "DT", "NN", ",", "CC", "IN", "DT", "NN", "VBZ", "VB", "NN", "PRP", "VBZ", "JJ", "VB", "VB", "JJR", "NNS", "IN", "MD", "VB", "JJ", "TO", "DT", "JJ", "NN", "."]
+    text: ' Local libraries find, too, that the new plan saves tax dollars because books can
+  be bought through the system, and since the system buys in bulk it is able to obtain
+  larger discounts than would be available to an individual library.'
+    tokens: [[1, 6], [7, 16], [17, 21], [21, 22], [23, 26], [26, 27], [28, 32], [33, 36], [37, 40], [41, 45], [46, 51], [52, 55], [56, 63], [64, 71], [72, 77], [78, 81], [82, 84], [85, 91], [92, 99], [100, 103], [104, 110], [110, 111], [112, 115], [116, 121], [122, 125], [126, 132], [133, 137], [138, 140], [141, 145], [146, 148], [149, 151], [152, 156], [157, 159], [160, 166], [167, 173], [174, 183], [184, 188], [189, 194], [195, 197], [198, 207], [208, 210], [211, 213], [214, 224], [225, 232], [232, 233]]
+    wn16_key: [[2, "find%2:39:01::"], [10, "save%2:40:02::"], [17, "buy%2:40:00::"], [26, "buy%2:40:00::"], [30, "be%2:42:03::"], [33, "obtain%2:40:00::"], [38, "be%2:42:03::"]]
+    wn30_key: [[2, "find%2:39:01::"], [10, "save%2:40:02::"], [17, "buy%2:40:00::"], [26, "buy%2:40:00::"], [30, "be%2:42:03::"], [33, "obtain%2:40:00::"], [38, "be%2:42:03::"]]
+yzFN:
+    lemmas: ["The", "system", "pass_on", "these", "savings", "to", "its", "member", "."]
+    oewn2026_key: [[2, "oewn-02301114-v"]]
+    paragraph: '13'
+    pos: ["DT", "NN", "VB", "DT", "NNS", "TO", "PRP$", "NNS", "."]
+    text: ' The system passes_on these savings to its members.'
+    tokens: [[1, 4], [5, 11], [12, 21], [22, 27], [28, 35], [36, 38], [39, 42], [43, 50], [50, 51]]
+    wn16_key: [[2, "pass_on%2:40:03::"]]
+    wn30_key: [[2, "pass_on%2:40:03::"]]
+zSVO:
+    lemmas: ["far", "money", "be", "save", "through", "economy", "in", "bookkeeping", "and", "clerical", "detail", "as", "the", "result", "of", "central", "billing", "."]
+    oewn2026_key: [[3, "oewn-02271765-v"]]
+    paragraph: '13'
+    pos: ["RB", "NN", "VBZ", "VBN", "IN", "NN", "IN", "NN", "CC", "JJ", "NN", "IN", "DT", "NN", "IN", "JJ", "NN", "."]
+    text: ' Further money is saved through economy in bookkeeping and clerical detail as the
+  result of central billing.
+
+  '
+    tokens: [[1, 8], [9, 14], [15, 17], [18, 23], [24, 31], [32, 39], [40, 42], [43, 54], [55, 58], [59, 67], [68, 74], [75, 77], [78, 81], [82, 88], [89, 91], [92, 99], [100, 107], [107, 108]]
+    wn16_key: [[3, "save%2:40:02::"]]
+    wn30_key: [[3, "save%2:40:02::"]]
+ooLl:
+    lemmas: ["book", "be", "not", "the", "only", "resource", "of", "the", "system", "."]
+    oewn2026_key: [[1, "oewn-02622439-v"]]
+    paragraph: '14'
+    pos: ["NNS", "VBP", "RB", "DT", "JJ", "NN", "IN", "DT", "NN", "."]
+    text: ' Books are not the only resource of the system.'
+    tokens: [[1, 6], [7, 10], [11, 14], [15, 18], [19, 23], [24, 32], [33, 35], [36, 39], [40, 46], [46, 47]]
+    wn16_key: [[1, "be%2:42:06::"]]
+    wn30_key: [[1, "be%2:42:06::"]]
+u7le:
+    lemmas: ["school", "and", "community", "group", "turn_to", "the", "headquarters", "film", "library", "for", "documentary", ",", "art", ",", "and", "experimental", "film", "to", "show", "at", "library", "that", "sponsor", "local", "program", ",", "and", "to", "organization", "in", "member", "community", "."]
+    oewn2026_key: [[18, "oewn-02153218-v"], [22, "oewn-02224722-v"]]
+    paragraph: '14'
+    pos: ["NNP", "CC", "NN", "NNS", "VB", "DT", "NN", "NN", "NN", "IN", "NN", ",", "NN", ",", "CC", "JJ", "NNS", "TO", "VB", "IN", "NNS", "IN", "VBP", "JJ", "NNS", ",", "CC", "TO", "NNS", "IN", "NN", "NNS", "."]
+    text: ' Schools and community groups turn_to the headquarters film library for documentary,
+  art, and experimental films to show at libraries that sponsor local programs, and
+  to organizations in member communities.'
+    tokens: [[1, 8], [9, 12], [13, 22], [23, 29], [30, 37], [38, 41], [42, 54], [55, 59], [60, 67], [68, 71], [72, 83], [83, 84], [85, 88], [88, 89], [90, 93], [94, 106], [107, 112], [113, 115], [116, 120], [121, 123], [124, 133], [134, 138], [139, 146], [147, 152], [153, 161], [161, 162], [163, 166], [167, 169], [170, 183], [184, 186], [187, 193], [194, 205], [205, 206]]
+    wn16_key: [[4, "turn_to%2:32:00::"], [18, "show%2:39:02::"], [22, "sponsor%2:40:00::"]]
+    wn30_key: [[18, "show%2:39:02::"], [22, "sponsor%2:40:00::"]]
+m/d2:
+    lemmas: ["The_most", "recent", "film", "catalogue", ",", "available", "at", "each", "library", ",", "list", "110", "title", "presently", "in", "the", "collection", ",", "any", "of_which", "may", "be", "borrow", "without", "charge", "."]
+    oewn2026_key: [[10, "oewn-00947885-v"], [22, "oewn-02329022-v"]]
+    paragraph: '14'
+    pos: ["RB", "JJ", "NN", "NN", ",", "JJ", "IN", "DT", "NN", ",", "VBZ", "CD", "NNS", "RB", "IN", "DT", "NN", ",", "DT", "RB", "MD", "VB", "VBN", "IN", "NN", "."]
+    text: ' The_most recent film catalogue, available at each library, lists 110 titles presently
+  in the collection, any of_which may be borrowed without charge.'
+    tokens: [[1, 9], [10, 16], [17, 21], [22, 31], [31, 32], [33, 42], [43, 45], [46, 50], [51, 58], [58, 59], [60, 65], [66, 69], [70, 76], [77, 86], [87, 89], [90, 93], [94, 104], [104, 105], [106, 109], [110, 118], [119, 122], [123, 125], [126, 134], [135, 142], [143, 149], [149, 150]]
+    wn16_key: [[10, "list%2:32:00::"], [22, "borrow%2:40:00::"]]
+    wn30_key: [[10, "list%2:32:00::"], [22, "borrow%2:40:00::"]]
+sThg:
+    lemmas: ["This", "catalogue", "list", "separately", "film", "suitable", "for", "child", ",", "young", "adult", ",", "or", "adult", ",", "although", "some", "classics", "cut_across", "age_group", ",", "such_as", "\"", "Nanook", "of", "the", "north", "\"", ",", "\"", "The", "emperor", "'s", "nightingale", "\"", ",", "and", "\"", "The", "red_balloon", "\"", "."]
+    oewn2026_key: [[2, "oewn-00947885-v"], [18, "oewn-02613693-v"]]
+    paragraph: '14'
+    pos: ["DT", "NN", "VBZ", "RB", "NNS", "JJ", "IN", "NNS", ",", "JJ", "NNS", ",", "CC", "NNS", ",", "IN", "DT", "NNS", "VBP", "NN", ",", "JJ", "``", "NNP", "IN", "DT", "NN", "``", ",", "''", "DT", "NNP", "POS", "NN", "``", ",", "CC", "``", "DT", "NNP", "''", "."]
+    text: ' This catalogue lists separately films suitable for children, young adults, or adults,
+  although some classics cut_across age_groups, such_as " Nanook of the North ", "
+  The Emperor''s Nightingale ", and " The Red_Balloon ".'
+    tokens: [[1, 5], [6, 15], [16, 21], [22, 32], [33, 38], [39, 47], [48, 51], [52, 60], [60, 61], [62, 67], [68, 74], [74, 75], [76, 78], [79, 85], [85, 86], [87, 95], [96, 100], [101, 109], [110, 120], [121, 131], [131, 132], [133, 140], [141, 142], [143, 149], [150, 152], [153, 156], [157, 162], [163, 164], [164, 165], [166, 167], [168, 171], [172, 179], [179, 181], [182, 193], [194, 195], [195, 196], [197, 200], [201, 202], [203, 206], [207, 218], [219, 220], [220, 221]]
+    wn16_key: [[2, "list%2:32:00::"], [18, "cut_across%2:42:00::"]]
+    wn30_key: [[2, "list%2:32:00::"], [18, "cut_across%2:42:00::"]]
+2nxe:
+    lemmas: ["workshop", "be", "conduct", "by", "the", "system", "'s", "audio-visual", "consultant", "for", "the", "staff", "of", "member", "library", ",", "teach", "them", "the", "effective", "use", "of", "film", "as", "a", "library", "service", "."]
+    oewn2026_key: [[2, "oewn-02450374-v"], [16, "oewn-00830768-v"]]
+    paragraph: '14'
+    pos: ["NNS", "VBP", "VBN", "IN", "DT", "NN", "POS", "JJ", "NN", "IN", "DT", "NNS", "IN", "NN", "NNS", ",", "VBG", "PRP", "DT", "JJ", "NN", "RB", "NN", "IN", "DT", "NN", "NN", "."]
+    text: ' Workshops are conducted by the system''s audio-visual consultant for the staffs
+  of member libraries, teaching them the effective use of film as a library service.
+
+  '
+    tokens: [[1, 10], [11, 14], [15, 24], [25, 27], [28, 31], [32, 38], [38, 40], [41, 53], [54, 64], [65, 68], [69, 72], [73, 79], [80, 82], [83, 89], [90, 99], [99, 100], [101, 109], [110, 114], [115, 118], [119, 128], [129, 132], [133, 135], [136, 140], [141, 143], [144, 145], [146, 153], [154, 161], [161, 162]]
+    wn16_key: [[2, "conduct%2:41:00::"], [16, "teach%2:32:00::"]]
+    wn30_key: [[2, "conduct%2:41:00::"], [16, "teach%2:32:00::"]]
+zIFq:
+    lemmas: ["The", "system", "well", "understand", "that", "one", "of", "its", "primary", "responsibility", "be", "to", "bring_together", "child", "and", "book", "together", ";", "consequently", "an", "experienced", "child", "'s", "librarian", "at", "headquarters", "conduct", "a", "guidance", "program", "design", "to", "promote", "well-planned", "library", "activity", ",", "cooperate", "with", "the", "child", "'s", "librarian", "in", "member", "library", "by", "means", "of", "individual", "conference", ",", "workshop", ",", "and", "frequent", "visit", "."]
+    oewn2026_key: [[3, "oewn-00592510-v"], [10, "oewn-02610777-v"], [12, "oewn-01435927-v"], [26, "oewn-02450374-v"], [30, "oewn-01641910-v"], [32, "oewn-02560630-v"], [37, "oewn-02421408-v"]]
+    paragraph: '15'
+    pos: ["DT", "NN", "RB", "VBZ", "IN", "CD", "IN", "PRP$", "JJ", "NNS", "VBZ", "TO", "VB", "NNS", "CC", "NNS", "RB", ":", "RB", "DT", "JJ", "NNS", "POS", "NN", "IN", "NN", "VBZ", "DT", "NN", "NN", "VBN", "TO", "VB", "JJ", "NN", "NNS", ",", "VBG", "IN", "DT", "NNS", "POS", "NNS", "IN", "NN", "NNS", "IN", "NN", "IN", "JJ", "NNS", ",", "NNS", ",", "CC", "JJ", "NNS", "."]
+    text: ' The system well understands that one of its primary responsibilities is to bring
+  children and books together; consequently an experienced children''s librarian at
+  headquarters conducts a guidance program designed to promote well-planned library
+  activities, cooperating with the children''s librarians in member libraries by means
+  of individual conferences, workshops, and frequent visits.'
+    tokens: [[1, 4], [5, 11], [12, 16], [17, 28], [29, 33], [34, 37], [38, 40], [41, 44], [45, 52], [53, 69], [70, 72], [73, 75], [76, 81], [82, 90], [91, 94], [95, 100], [101, 109], [109, 110], [111, 123], [124, 126], [127, 138], [139, 147], [147, 149], [150, 159], [160, 162], [163, 175], [176, 184], [185, 186], [187, 195], [196, 203], [204, 212], [213, 215], [216, 223], [224, 236], [237, 244], [245, 255], [255, 256], [257, 268], [269, 273], [274, 277], [278, 286], [286, 288], [289, 299], [300, 302], [303, 309], [310, 319], [320, 322], [323, 328], [329, 331], [332, 342], [343, 354], [354, 355], [356, 365], [365, 366], [367, 370], [371, 379], [380, 386], [386, 387]]
+    wn16_key: [[3, "understand%2:31:01::"], [10, "be%2:42:03::"], [12, "bring_together%2:35:01::"], [26, "conduct%2:41:00::"], [30, "design%2:36:02::"], [32, "promote%2:41:01::"], [37, "cooperate%2:41:00::"]]
+    wn30_key: [[3, "understand%2:31:01::"], [10, "be%2:42:03::"], [12, "bring%2:35:00::"], [26, "conduct%2:41:00::"], [30, "design%2:36:02::"], [32, "promote%2:41:01::"], [37, "cooperate%2:41:00::"]]
+qFKa:
+    lemmas: ["headquarters", "have", "also", "set_up", "a", "central", "juvenile", "book-review", "and", "book-selection", "center", ",", "to", "provide", "good", "method", "of", "purchasing", "and", "selection", "."]
+    oewn2026_key: [[3, "oewn-02431950-v"], [13, "oewn-02332196-v"]]
+    paragraph: '15'
+    pos: ["NNP", "VBZ", "RB", "VBP", "DT", "JJ", "JJ", "NN", "CC", "NN", "NN", ",", "TO", "VB", "JJR", "NNS", "IN", "NN", "CC", "NN", "."]
+    text: ' Headquarters has also set_up a central juvenile book-review and book-selection center,
+  to provide better methods of purchasing and selection.'
+    tokens: [[1, 13], [14, 17], [18, 22], [23, 29], [30, 31], [32, 39], [40, 48], [49, 60], [61, 64], [65, 79], [80, 86], [86, 87], [88, 90], [91, 98], [99, 105], [106, 113], [114, 116], [117, 127], [128, 131], [132, 141], [141, 142]]
+    wn16_key: [[3, "set_up%2:41:02::"], [13, "provide%2:40:00::"]]
+    wn30_key: [[3, "set_up%2:41:02::"], [13, "provide%2:40:00::"]]
+UxFR:
+    lemmas: ["sample", "copy", "of", "new", "book", "be", "on", "display", "at", "headquarters", ",", "where", "librarian", "may", "evaluate", "them", "by", "themselves", "or", "in", "workshop", "group", "."]
+    oewn2026_key: [[5, "oewn-02661230-v"], [14, "oewn-00683348-v"]]
+    paragraph: '15'
+    pos: ["NN", "NNS", "IN", "JJ", "NNS", "VBP", "VB", "NN", "IN", "NN", ",", "WRB", "NNS", "MD", "VB", "PRP", "IN", "PRP", "CC", "IN", "NN", "NNS", "."]
+    text: ' Sample copies of new books are on display at headquarters, where librarians may
+  evaluate them by themselves or in workshop groups.'
+    tokens: [[1, 7], [8, 14], [15, 17], [18, 21], [22, 27], [28, 31], [32, 34], [35, 42], [43, 45], [46, 58], [58, 59], [60, 65], [66, 76], [77, 80], [81, 89], [90, 94], [95, 97], [98, 108], [109, 111], [112, 114], [115, 123], [124, 130], [130, 131]]
+    wn16_key: [[5, "be%2:42:05::"], [14, "evaluate%2:31:00::"]]
+    wn30_key: [[5, "be%2:42:05::"], [14, "evaluate%2:31:00::"]]
+mKoz:
+    lemmas: ["story", "hours", ",", "pre-school", "program", ",", "activity", "with", "community", "agency", ",", "and", "list", "of", "recommended", "reading", "be", "all_in", "the", "province", "of", "the", "child", "'s", "consultant", "."]
+    oewn2026_key: [[16, "oewn-02610777-v"]]
+    paragraph: '15'
+    pos: ["NN", "NNS", ",", "JJ", "NNS", ",", "NNS", "IN", "NN", "NNS", ",", "CC", "NNS", "IN", "JJ", "NN", "VBP", "JJ", "DT", "NN", "IN", "DT", "NNS", "POS", "NN", "."]
+    text: ' Story hours, pre-school programs, activities with community agencies, and lists
+  of recommended reading are all_in the province of the children''s consultant.
+
+  '
+    tokens: [[1, 6], [7, 12], [12, 13], [14, 24], [25, 33], [33, 34], [35, 45], [46, 50], [51, 60], [61, 69], [69, 70], [71, 74], [75, 80], [81, 83], [84, 95], [96, 103], [104, 107], [108, 114], [115, 118], [119, 127], [128, 130], [131, 134], [135, 143], [143, 145], [146, 156], [156, 157]]
+    wn16_key: [[16, "be%2:42:03::"]]
+    wn30_key: [[16, "be%2:42:03::"]]
+2RDU:
+    lemmas: ["headquarters", "of", "the", "nassau", "system", "be", "an", "increasingly", "busy", "place", "these", "days", ",", "threaten", "to", "expand", "beyond", "its", "boundary", "."]
+    oewn2026_key: [[5, "oewn-02610777-v"], [13, "oewn-00873444-v"], [15, "oewn-02081395-v"]]
+    paragraph: '16'
+    pos: ["NNP", "IN", "DT", "NNP", "NN", "VBZ", "DT", "RB", "JJ", "NN", "DT", "NNS", ",", "VBG", "TO", "VB", "IN", "PRP$", "NNS", "."]
+    text: ' Headquarters of the Nassau system is an increasingly busy place these days, threatening
+  to expand beyond its boundaries.'
+    tokens: [[1, 13], [14, 16], [17, 20], [21, 27], [28, 34], [35, 37], [38, 40], [41, 53], [54, 58], [59, 64], [65, 70], [71, 75], [75, 76], [77, 88], [89, 91], [92, 98], [99, 105], [106, 109], [110, 120], [120, 121]]
+    wn16_key: [[5, "be%2:42:03::"], [13, "threaten%2:32:01::"], [15, "expand%2:38:00::"]]
+    wn30_key: [[5, "be%2:42:03::"], [13, "threaten%2:32:01::"], [15, "expand%2:38:00::"]]
+2rr6:
+    lemmas: ["In_addition", "to", "the", "interlibrary", "loan", "service", "and", "the", "child", "'s", "program", ",", "headquarters", "have", "a", "public_relations", "director", "who", "seek", "to", "get", "wide", "grassroot", "support", "for", "quality", "library", "service", "in", "the", "county", ";", "it", "prepare", "cooperative", "display", "(", "poster", ",", "booklist", ",", "brochure", ",", "and", "other", "promotional_material", ")", "for", "use", "in", "member", "library", ";", "it", "maintain", "a", "central", "exhibit", "collection", "to", "share", "display", "already", "create", "and", "use", ";", "and", "it", "publish", "sum", "and", "substance", ",", "a", "monthly", "newsletter", ",", "which", "report", "the", "system", "'s", "activity", "to", "the", "staff", "and", "trustee", "of", "member", "library", "."]
+    oewn2026_key: [[13, "oewn-02208144-v"], [18, "oewn-02535833-v"], [20, "oewn-00523831-v"], [33, "oewn-01654986-v"], [54, "oewn-02284977-v"], [60, "oewn-02300169-v"], [63, "oewn-01620211-v"], [65, "oewn-01161188-v"], [69, "oewn-00969657-v"], [79, "oewn-00967067-v"]]
+    paragraph: '16'
+    pos: ["RB", "TO", "DT", "JJ", "NN", "NN", "CC", "DT", "NNS", "POS", "NN", ",", "NN", "VBZ", "DT", "NN", "NN", "WP", "VBZ", "TO", "VB", "JJR", "NNS", "NN", "IN", "NN", "NN", "NN", "IN", "DT", "NN", ":", "PRP", "VBZ", "JJ", "NNS", "VBP", "NNS", ",", "NNS", ",", "NNS", ",", "CC", "JJ", "NN", "NN", "IN", "NN", "IN", "NN", "NNS", ":", "PRP", "VBZ", "DT", "JJ", "NN", "NN", "TO", "VB", "NNS", "RB", "VBN", "CC", "VBN", ":", "CC", "PRP", "VBZ", "NNP", "CC", "NN", ",", "DT", "JJ", "NN", ",", "WDT", "VBZ", "DT", "NN", "POS", "NNS", "TO", "DT", "NNS", "CC", "NNS", "IN", "NN", "NNS", "."]
+    text: ' In_addition to the interlibrary loan service and the children''s program, headquarters
+  has a public_relations director who seeks to get wider grassroots support for quality
+  library service in the county; it prepares cooperative displays (posters, booklists,
+  brochures, and other promotional_material) for use in member libraries; it maintains
+  a central exhibit collection to share displays already created and used; and it
+  publishes Sum and Substance, a monthly newsletter, which reports the system''s activities
+  to the staffs and trustees of member libraries.'
+    tokens: [[1, 12], [13, 15], [16, 19], [20, 32], [33, 37], [38, 45], [46, 49], [50, 53], [54, 62], [62, 64], [65, 72], [72, 73], [74, 86], [87, 90], [91, 92], [93, 109], [110, 118], [119, 122], [123, 128], [129, 131], [132, 135], [136, 141], [142, 152], [153, 160], [161, 164], [165, 172], [173, 180], [181, 188], [189, 191], [192, 195], [196, 202], [202, 203], [204, 206], [207, 215], [216, 227], [228, 236], [237, 238], [238, 245], [245, 246], [247, 256], [256, 257], [258, 267], [267, 268], [269, 272], [273, 278], [279, 299], [299, 300], [301, 304], [305, 308], [309, 311], [312, 318], [319, 328], [328, 329], [330, 332], [333, 342], [343, 344], [345, 352], [353, 360], [361, 371], [372, 374], [375, 380], [381, 389], [390, 397], [398, 405], [406, 409], [410, 414], [414, 415], [416, 419], [420, 422], [423, 432], [433, 436], [437, 440], [441, 450], [450, 451], [452, 453], [454, 461], [462, 472], [472, 473], [474, 479], [480, 487], [488, 491], [492, 498], [498, 500], [501, 511], [512, 514], [515, 518], [519, 525], [526, 529], [530, 538], [539, 541], [542, 548], [549, 558], [558, 559]]
+    wn16_key: [[13, "have%2:40:00::"], [18, "seek%2:41:00::"], [20, "get%2:30:03::"], [33, "prepare%2:36:00::"], [54, "maintain%2:40:00::"], [60, "share%2:40:01::"], [63, "create%2:36:00::"], [65, "use%2:34:01::"], [69, "publish%2:32:00::"], [79, "report%2:32:00::"]]
+    wn30_key: [[13, "have%2:40:00::"], [18, "seek%2:41:00::"], [20, "get%2:30:03::"], [33, "prepare%2:36:00::"], [54, "maintain%2:40:00::"], [60, "share%2:40:01::"], [63, "create%2:36:00::"], [65, "use%2:34:01::"], [69, "publish%2:32:00::"], [79, "report%2:32:00::"]]
+mxCj:
+    lemmas: ["The", "system", "itself", "be", "govern", "by", "a", "board_of_trustees", ",", "geographically", "represent", "its", "membership", "."]
+    oewn2026_key: [[4, "oewn-02517217-v"], [10, "oewn-02705339-v"]]
+    paragraph: '16'
+    pos: ["DT", "NN", "PRP", "VBZ", "VBN", "IN", "DT", "NN", ",", "RB", "VBG", "PRP$", "NN", "."]
+    text: ' The system itself is governed by a board_of_trustees, geographically representing
+  its membership.
+
+  '
+    tokens: [[1, 4], [5, 11], [12, 18], [19, 21], [22, 30], [31, 33], [34, 35], [36, 53], [53, 54], [55, 69], [70, 82], [83, 86], [87, 97], [97, 98]]
+    wn16_key: [[4, "govern%2:41:02::"], [10, "represent%2:42:02::"]]
+    wn30_key: [[4, "govern%2:41:02::"], [10, "represent%2:42:02::"]]
+X0cp:
+    lemmas: ["In", "nassau", ",", "as", "in", "other", "system", ",", "the", "long-range", "objective", "be", "to", "bring", "the", "maximum", "service", "of", "library", "to", "bear_on", "the", "school", ",", "and", "on", "adult", "education", "in_general", "."]
+    oewn2026_key: [[11, "oewn-02610777-v"], [13, "oewn-01441539-v"], [20, "oewn-00137133-v"]]
+    paragraph: '17'
+    pos: ["IN", "NNP", ",", "IN", "IN", "JJ", "NNS", ",", "DT", "JJ", "NN", "VBZ", "TO", "VB", "DT", "JJ", "NN", "IN", "NNS", "TO", "VB", "DT", "NNS", ",", "CC", "IN", "NN", "NN", "RB", "."]
+    text: ' In Nassau, as in other systems, the long-range objective is to bring the maximum
+  service of libraries to bear_on the schools, and on adult education in_general.'
+    tokens: [[1, 3], [4, 10], [10, 11], [12, 14], [15, 17], [18, 23], [24, 31], [31, 32], [33, 36], [37, 47], [48, 57], [58, 60], [61, 63], [64, 69], [70, 73], [74, 81], [82, 89], [90, 92], [93, 102], [103, 105], [106, 113], [114, 117], [118, 125], [125, 126], [127, 130], [131, 133], [134, 139], [140, 149], [150, 160], [160, 161]]
+    wn16_key: [[11, "be%2:42:03::"], [13, "bring%2:35:04::"], [20, "bear_on%2:30:00::"]]
+    wn30_key: [[11, "be%2:42:03::"], [13, "bring%2:35:04::"], [20, "bear_on%2:30:00::"]]
+CpZg:
+    lemmas: ["librarian", ",", "a", "patient", "breed", "of", "man", "and", "woman", "who", "have", "bear", "much", "with", "dedication", ",", "can", "begin", "to", "see", "result", "today", "."]
+    oewn2026_key: [[11, "oewn-00670017-v"], [17, "oewn-00346415-v"], [19, "oewn-02133338-v"]]
+    paragraph: '17'
+    pos: ["NNS", ",", "DT", "NN", "NN", "IN", "NNS", "CC", "NNS", "WP", "VBP", "VBN", "JJ", "IN", "NN", ",", "MD", "VB", "TO", "VB", "NNS", "NN", "."]
+    text: ' Librarians, a patient breed of men and women who have borne much with dedication,
+  can begin to see results today.'
+    tokens: [[1, 11], [11, 12], [13, 14], [15, 22], [23, 28], [29, 31], [32, 35], [36, 39], [40, 45], [46, 49], [50, 54], [55, 60], [61, 65], [66, 70], [71, 81], [81, 82], [83, 86], [87, 92], [93, 95], [96, 99], [100, 107], [108, 113], [113, 114]]
+    wn16_key: [[11, "bear%2:31:00::"], [17, "begin%2:30:00::"], [19, "see%2:39:02::"]]
+    wn30_key: [[11, "bear%2:31:00::"], [17, "begin%2:30:00::"], [19, "see%2:39:02::"]]
+4VYc:
+    lemmas: ["library", "use", "be", "multiply", "daily", ",", "and", "the", "bulk", "of", "the", "newcomer", "be", "those", "maligned", "american", ",", "the", "teen-ager", "."]
+    oewn2026_key: [[3, "oewn-00248276-v"], [12, "oewn-02670846-v"]]
+    paragraph: '17'
+    pos: ["NNP", "NN", "VBZ", "VBG", "JJ", ",", "CC", "DT", "NN", "IN", "DT", "NNS", "VBP", "DT", "JJ", "NNPS", ",", "DT", "NNS", "."]
+    text: ' Library use is multiplying daily, and the bulk of the newcomers are those maligned
+  Americans, the teen-agers.'
+    tokens: [[1, 8], [9, 12], [13, 15], [16, 27], [28, 33], [33, 34], [35, 38], [39, 42], [43, 47], [48, 50], [51, 54], [55, 64], [65, 68], [69, 74], [75, 83], [84, 93], [93, 94], [95, 98], [99, 109], [109, 110]]
+    wn16_key: [[3, "multiply%2:30:00::"], [12, "be%2:42:07::"]]
+    wn30_key: [[3, "multiply%2:30:00::"], [12, "be%2:42:07::"]]
+P9ZO:
+    lemmas: ["To", "them", "especially", "the", "librarian", ",", "with", "the", "help", "of", "co-op", ",", "hope", "they", "will", "never", "have", "to", "say", ",", "\"", "I", "be", "sorry", ",", "we", "do", "n't", "have", "that", "book", "\"", "."]
+    oewn2026_key: [[12, "oewn-00707813-v"], [16, "oewn-00065141-v;oewn-02383544-v;oewn-02746620-v"], [18, "oewn-01011267-v"], [22, "oewn-02610777-v"], [28, "oewn-02209474-v"]]
+    paragraph: '17'
+    pos: ["TO", "PRP", "RB", "DT", "NNS", ",", "IN", "DT", "NN", "IN", "NN", ",", "VBP", "PRP", "MD", "RB", "VB", "VB", "VB", ",", "``", "PRP", "VBP", "JJ", ",", "PRP", "VBP", "RB", "VB", "IN", "NN", "''", "."]
+    text: ' To them especially the librarians, with the help of co-ops, hope they will never
+  have to say, " I''m sorry, we don''t have that book ".
+
+  '
+    tokens: [[1, 3], [4, 8], [9, 19], [20, 23], [24, 34], [34, 35], [36, 40], [41, 44], [45, 49], [50, 52], [53, 59], [59, 60], [61, 65], [66, 70], [71, 75], [76, 81], [82, 86], [87, 89], [90, 93], [93, 94], [95, 96], [97, 98], [98, 100], [101, 106], [106, 107], [108, 110], [111, 113], [113, 116], [117, 121], [122, 126], [127, 131], [132, 133], [133, 134]]
+    wn16_key: [[12, "hope%2:31:00::"], [16, "have%2:42:05::"], [18, "say%2:32:00::"], [22, "be%2:42:03::"], [28, "have%2:40:04::"]]
+    wn30_key: [[12, "hope%2:31:00::"], [16, "have%2:29:02::;have%2:41:00::;have%2:42:12::"], [18, "say%2:32:00::"], [22, "be%2:42:03::"], [28, "have%2:40:04::"]]
+0/iP:
+    lemmas: ["today", ",", "more_than", "ever", "before", ",", "the", "survival", "of", "our", "free", "society", "depend_upon", "the", "citizen", "who", "be", "both", "informed", "and", "concerned", "."]
+    oewn2026_key: [[12, "oewn-02717862-v"], [16, "oewn-02610777-v"]]
+    paragraph: '18'
+    pos: ["NN", ",", "RB", "RB", "RB", ",", "DT", "NN", "IN", "PRP$", "JJ", "NN", "VB", "DT", "NN", "WP", "VBZ", "DT", "JJ", "CC", "JJ", "."]
+    text: ' Today, more_than ever before, the survival of our free society depends_upon the
+  citizen who is both informed and concerned.'
+    tokens: [[1, 6], [6, 7], [8, 17], [18, 22], [23, 29], [29, 30], [31, 34], [35, 43], [44, 46], [47, 50], [51, 55], [56, 63], [64, 76], [77, 80], [81, 88], [89, 92], [93, 95], [96, 100], [101, 109], [110, 113], [114, 123], [123, 124]]
+    wn16_key: [[12, "depend_upon%2:42:00::"], [16, "be%2:42:03::"]]
+    wn30_key: [[12, "depend_upon%2:42:00::"], [16, "be%2:42:03::"]]
+RWP+:
+    lemmas: ["The", "great", "advance", "make", "in", "recent", "years", "in", "communist", "strength", "and", "in", "our", "own", "capacity", "to", "destroy", "require", "an", "educated", "citizenry", "in", "the", "western", "world", "."]
+    oewn2026_key: [[3, "oewn-02026014-v"], [16, "oewn-01566925-v"], [17, "oewn-02634015-v"]]
+    paragraph: '18'
+    pos: ["DT", "JJ", "NNS", "VBN", "IN", "JJ", "NNS", "IN", "NNP", "NN", "CC", "IN", "PRP$", "JJ", "NN", "TO", "VB", "VB", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "."]
+    text: ' The great advances made in recent years in Communist strength and in our own capacity
+  to destroy require an educated citizenry in the Western world.'
+    tokens: [[1, 4], [5, 10], [11, 19], [20, 24], [25, 27], [28, 34], [35, 40], [41, 43], [44, 53], [54, 62], [63, 66], [67, 69], [70, 73], [74, 77], [78, 86], [87, 89], [90, 97], [98, 105], [106, 108], [109, 117], [118, 127], [128, 130], [131, 134], [135, 142], [143, 148], [148, 149]]
+    wn16_key: [[3, "make%2:38:02::"], [16, "destroy%2:35:00::"], [17, "require%2:42:00::"]]
+    wn30_key: [[3, "make%2:38:02::"], [16, "destroy%2:35:00::"], [17, "require%2:42:00::"]]
+d+0w:
+    lemmas: ["The", "need", "for", "lifetime", "reading", "be", "apparent", "."]
+    oewn2026_key: [[5, "oewn-02610777-v"]]
+    paragraph: '18'
+    pos: ["DT", "NN", "IN", "NN", "NN", "VBZ", "JJ", "."]
+    text: ' The need for lifetime reading is apparent.'
+    tokens: [[1, 4], [5, 9], [10, 13], [14, 22], [23, 30], [31, 33], [34, 42], [42, 43]]
+    wn16_key: [[5, "be%2:42:03::"]]
+    wn30_key: [[5, "be%2:42:03::"]]
+ozFU:
+    lemmas: ["education", "must_not", "be", "limited", "to", "our", "youth", "but", "must", "be", "a", "continuing", "process", "through", "our", "entire", "life", ",", "for", "it", "be", "only", "through", "knowledge", "that", "we", ",", "as", "a", "nation", ",", "can", "cope", "with", "the", "danger", "that", "threaten", "our", "society", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"], [9, "oewn-02610777-v"], [20, "oewn-02610777-v"], [32, "oewn-02593624-v"], [37, "oewn-02702962-v"]]
+    paragraph: '18'
+    pos: ["NNP", "VB", "VB", "JJ", "TO", "PRP$", "NN", "CC", "MD", "VB", "DT", "JJ", "NN", "IN", "PRP$", "JJ", "NNS", ",", "IN", "PRP", "VBZ", "RB", "IN", "NN", "IN", "PRP", ",", "IN", "DT", "NN", ",", "MD", "VB", "VB", "DT", "NNS", "WDT", "VBP", "PRP$", "NN", "."]
+    text: ' Education must_not be limited to our youth but must be a continuing process through
+  our entire lives, for it is only through knowledge that we, as a nation, can cope_with
+  the dangers that threaten our society.
+
+  '
+    tokens: [[1, 10], [11, 19], [20, 22], [23, 30], [31, 33], [34, 37], [38, 43], [44, 47], [48, 52], [53, 55], [56, 57], [58, 68], [69, 76], [77, 84], [85, 88], [89, 95], [96, 101], [101, 102], [103, 106], [107, 109], [110, 112], [113, 117], [118, 125], [126, 135], [136, 140], [141, 143], [143, 144], [145, 147], [148, 149], [150, 156], [156, 157], [158, 161], [162, 166], [167, 171], [172, 175], [176, 183], [184, 188], [189, 197], [198, 201], [202, 209], [209, 210]]
+    wn16_key: [[2, "be%2:42:03::"], [9, "be%2:42:03::"], [20, "be%2:42:03::"], [37, "threaten%2:42:00::"]]
+    wn30_key: [[2, "be%2:42:03::"], [9, "be%2:42:03::"], [20, "be%2:42:03::"], [32, "cope%2:41:00::"], [37, "threaten%2:42:00::"]]
+6P15:
+    lemmas: ["The", "desire", "and", "ability", "to", "read", "be", "important", "aspect", "of", "our", "cultural", "life", "."]
+    oewn2026_key: [[5, "oewn-00626756-v"], [6, "oewn-02610777-v"]]
+    paragraph: '19'
+    pos: ["DT", "NN", "CC", "NN", "TO", "VB", "VBP", "JJ", "NNS", "IN", "PRP$", "JJ", "NN", "."]
+    text: ' The desire and ability to read are important aspects of our cultural life.'
+    tokens: [[1, 4], [5, 11], [12, 15], [16, 23], [24, 26], [27, 31], [32, 35], [36, 45], [46, 53], [54, 56], [57, 60], [61, 69], [70, 74], [74, 75]]
+    wn16_key: [[5, "read%2:31:00::"], [6, "be%2:42:03::"]]
+    wn30_key: [[5, "read%2:31:00::"], [6, "be%2:42:03::"]]
+Mlgo:
+    lemmas: ["We", "cannot", "consider", "ourselves", "educated", "if", "we", "do", "not", "read", ";", "if", "we", "be", "not", "discriminate", "in", "our", "reading", ";", "if", "we", "do", "not", "know", "how", "to", "use", "what", "we", "do", "read", "."]
+    oewn2026_key: [[2, "oewn-00692380-v"], [9, "oewn-00626756-v"], [15, "oewn-00651669-v"], [24, "oewn-00597330-v"], [27, "oewn-01161188-v"], [31, "oewn-00626756-v"]]
+    paragraph: '19'
+    pos: ["PRP", "MD", "VBP", "PRP", "JJ", "IN", "PRP", "VBP", "RB", "VB", ":", "IN", "PRP", "VBP", "RB", "VBG", "IN", "PRP$", "NN", ":", "IN", "PRP", "VBP", "RB", "VB", "WRB", "TO", "VB", "WP", "PRP", "VBP", "VB", "."]
+    text: ' We cannot consider ourselves educated if we do not read; if we are not discriminating
+  in our reading; if we do not know how to use what we do read.'
+    tokens: [[1, 3], [4, 10], [11, 19], [20, 29], [30, 38], [39, 41], [42, 44], [45, 47], [48, 51], [52, 56], [56, 57], [58, 60], [61, 63], [64, 67], [68, 71], [72, 86], [87, 89], [90, 93], [94, 101], [101, 102], [103, 105], [106, 108], [109, 111], [112, 115], [116, 120], [121, 124], [125, 127], [128, 131], [132, 136], [137, 139], [140, 142], [143, 147], [147, 148]]
+    wn16_key: [[2, "consider%2:31:00::"], [9, "read%2:31:00::"], [15, "discriminate%2:31:00::"], [24, "know%2:31:03::"], [27, "use%2:34:01::"], [31, "read%2:31:00::"]]
+    wn30_key: [[2, "consider%2:31:00::"], [9, "read%2:31:00::"], [15, "discriminate%2:31:00::"], [24, "know%2:31:03::"], [27, "use%2:34:01::"], [31, "read%2:31:00::"]]
+Vdf+:
+    lemmas: ["We", "must_not", "permit", "our", "society", "to", "become", "a", "slave", "to", "the", "scientific", "age", ",", "as", "might", "well", "happen", "without", "the", "cultural", "and", "spiritual", "restraint", "that", "come", "from", "the", "development", "of", "the", "human", "mind", "through", "wisdom", "absorb", "from", "the", "written", "word", "."]
+    oewn2026_key: [[2, "oewn-00803980-v"], [6, "oewn-02632685-v"], [17, "oewn-00344828-v"], [25, "oewn-02631420-v"], [35, "oewn-00603650-v"]]
+    paragraph: '19'
+    pos: ["PRP", "VB", "VBP", "PRP$", "NN", "TO", "VB", "DT", "NN", "TO", "DT", "JJ", "NN", ",", "IN", "MD", "RB", "VB", "IN", "DT", "JJ", "CC", "JJ", "NN", "IN", "VBZ", "VB", "DT", "NN", "IN", "DT", "JJ", "NN", "IN", "NN", "VBN", "IN", "DT", "JJ", "NN", "."]
+    text: ' We must_not permit our society to become a slave to the scientific age, as might
+  well happen without the cultural and spiritual restraint that comes from the development
+  of the human mind through wisdom absorbed from the written word.
+
+  '
+    tokens: [[1, 3], [4, 12], [13, 19], [20, 23], [24, 31], [32, 34], [35, 41], [42, 43], [44, 49], [50, 52], [53, 56], [57, 67], [68, 71], [71, 72], [73, 75], [76, 81], [82, 86], [87, 93], [94, 101], [102, 105], [106, 114], [115, 118], [119, 128], [129, 138], [139, 143], [144, 149], [150, 154], [155, 158], [159, 170], [171, 173], [174, 177], [178, 183], [184, 188], [189, 196], [197, 203], [204, 212], [213, 217], [218, 221], [222, 229], [230, 234], [234, 235]]
+    wn16_key: [[2, "permit%2:32:00::"], [6, "become%2:42:01::"], [17, "happen%2:30:01::"], [25, "come%2:42:04::"], [35, "absorb%2:31:00::"]]
+    wn30_key: [[2, "permit%2:32:00::"], [6, "become%2:42:01::"], [17, "happen%2:30:01::"], [25, "come%2:42:04::"], [35, "absorb%2:31:00::"]]
+jsWO:
+    lemmas: ["A", "fundamental", "source", "of", "knowledge", "in", "the", "world", "today", "be", "the", "book", "find", "in", "our", "library", "."]
+    oewn2026_key: [[9, "oewn-02670846-v"], [12, "oewn-02253273-v"]]
+    paragraph: '20'
+    pos: ["DT", "JJ", "NN", "IN", "NN", "IN", "DT", "NN", "NN", "VBZ", "DT", "NN", "VBN", "IN", "PRP$", "NNS", "."]
+    text: ' A fundamental source of knowledge in the world today is the book found in our libraries.'
+    tokens: [[1, 2], [3, 14], [15, 21], [22, 24], [25, 34], [35, 37], [38, 41], [42, 47], [48, 53], [54, 56], [57, 60], [61, 65], [66, 71], [72, 74], [75, 78], [79, 88], [88, 89]]
+    wn16_key: [[9, "be%2:42:07::"], [12, "find%2:40:02::"]]
+    wn30_key: [[9, "be%2:42:07::"], [12, "find%2:40:02::"]]
+uEwL:
+    lemmas: ["Although", "progress", "have", "be", "make", "in", "america", "'s", "system", "of", "library", "it", "still", "fall_short_of", "what", "be", "required", "if", "we", "be", "to", "maintain", "the", "standard", "that", "be", "needed", "for", "an", "informed", "america", "."]
+    oewn2026_key: [[4, "oewn-02026014-v"], [13, "oewn-02677550-v"], [15, "oewn-02610777-v"], [21, "oewn-02284977-v"], [25, "oewn-02610777-v"]]
+    paragraph: '20'
+    pos: ["IN", "NN", "VBZ", "VBN", "VBN", "IN", "NNP", "POS", "NN", "IN", "NNS", "PRP", "RB", "VBP", "WP", "VBZ", "JJ", "IN", "PRP", "VB", "TO", "VB", "DT", "NNS", "WDT", "VBP", "JJ", "IN", "DT", "JJ", "NNP", "."]
+    text: ' Although progress has been made in America''s system of libraries it still falls_short_of
+  what is required if we are to maintain the standards that are needed for an informed
+  America.'
+    tokens: [[1, 9], [10, 18], [19, 22], [23, 27], [28, 32], [33, 35], [36, 43], [43, 45], [46, 52], [53, 55], [56, 65], [66, 68], [69, 74], [75, 89], [90, 94], [95, 97], [98, 106], [107, 109], [110, 112], [113, 116], [117, 119], [120, 128], [129, 132], [133, 142], [143, 147], [148, 151], [152, 158], [159, 162], [163, 165], [166, 174], [175, 182], [182, 183]]
+    wn16_key: [[4, "make%2:38:02::"], [13, "fall_short_of%2:42:00::"], [15, "be%2:42:03::"], [21, "maintain%2:40:00::"], [25, "be%2:42:03::"]]
+    wn30_key: [[4, "make%2:38:02::"], [13, "fall_short_of%2:42:00::"], [15, "be%2:42:03::"], [21, "maintain%2:40:00::"], [25, "be%2:42:03::"]]
+8O/n:
+    lemmas: ["The", "problem", "grow", "in", "intensity", "each_year", "as", "man", "'s", "knowledge", ",", "and", "his", "capacity", "to", "translate", "such", "knowledge", "to", "the", "written", "word", ",", "continue", "to", "expand", "."]
+    oewn2026_key: [[2, "oewn-00231172-v"], [15, "oewn-00384213-v"], [23, "oewn-00783045-v"], [25, "oewn-02081395-v"]]
+    paragraph: '20'
+    pos: ["DT", "NN", "VBZ", "IN", "NN", "RB", "IN", "NN", "POS", "NN", ",", "CC", "PRP$", "NN", "TO", "VB", "JJ", "NN", "TO", "DT", "JJ", "NN", ",", "VBP", "TO", "VB", "."]
+    text: ' The problem grows in intensity each_year as man''s knowledge, and his capacity to
+  translate such knowledge to the written word, continue to expand.'
+    tokens: [[1, 4], [5, 12], [13, 18], [19, 21], [22, 31], [32, 41], [42, 44], [45, 48], [48, 50], [51, 60], [60, 61], [62, 65], [66, 69], [70, 78], [79, 81], [82, 91], [92, 96], [97, 106], [107, 109], [110, 113], [114, 121], [122, 126], [126, 127], [128, 136], [137, 139], [140, 146], [146, 147]]
+    wn16_key: [[2, "grow%2:30:00::"], [15, "translate%2:30:01::"], [23, "continue%2:32:00::"], [25, "expand%2:38:00::"]]
+    wn30_key: [[2, "grow%2:30:00::"], [15, "translate%2:30:01::"], [23, "continue%2:32:00::"], [25, "expand%2:38:00::"]]
+O8I2:
+    lemmas: ["The", "inadequacy", "of", "our", "library", "system", "will", "become", "critical", "unless", "we", "act", "vigorously", "to", "correct", "this", "condition", "."]
+    oewn2026_key: [[7, "oewn-02632685-v"], [11, "oewn-02372362-v"], [14, "oewn-02525657-v"]]
+    paragraph: '20'
+    pos: ["DT", "NN", "IN", "PRP$", "NN", "NN", "MD", "VB", "JJ", "IN", "PRP", "VBP", "RB", "TO", "VB", "DT", "NN", "."]
+    text: ' The inadequacy of our library system will become critical unless we act vigorously
+  to correct this condition.'
+    tokens: [[1, 4], [5, 15], [16, 18], [19, 22], [23, 30], [31, 37], [38, 42], [43, 49], [50, 58], [59, 65], [66, 68], [69, 72], [73, 83], [84, 86], [87, 94], [95, 99], [100, 109], [109, 110]]
+    wn16_key: [[7, "become%2:42:01::"], [11, "act%2:41:00::"], [14, "correct%2:41:01::"]]
+    wn30_key: [[7, "become%2:42:01::"], [11, "act%2:41:00::"], [14, "correct%2:41:01::"]]
+f8X+:
+    lemmas: ["There", "be", ",", "for_example", ",", "approximately", "25000000", "people", "in_this", "country", "with", "no", "public", "library", "service", "and", "about", "50000000", "with", "inadequate", "service", "."]
+    oewn2026_key: []
+    paragraph: '20'
+    pos: ["EX", "VB", ",", "RB", ",", "RB", "CD", "NNS", "RB", "NN", "IN", "DT", "JJ", "NN", "NN", "CC", "IN", "CD", "IN", "JJ", "NN", "."]
+    text: ' There are, for_example, approximately 25000000 people in_this country with no public
+  library service and about 50000000 with inadequate service.'
+    tokens: [[1, 6], [7, 10], [10, 11], [12, 23], [23, 24], [25, 38], [39, 47], [48, 54], [55, 62], [63, 70], [71, 75], [76, 78], [79, 85], [86, 93], [94, 101], [102, 105], [106, 111], [112, 120], [121, 125], [126, 136], [137, 144], [144, 145]]
+    wn16_key: []
+    wn30_key: []
+xcLs:
+    lemmas: ["In", "college", "library", ",", "57", "per_cent", "of", "the", "total", "number", "of", "book", "be", "own", "by", "124", "of", "1509", "institution", "survey", "last", "year", "by", "the", "U._S._Office", "of", "education", "."]
+    oewn2026_key: [[13, "oewn-02209474-v"], [19, "oewn-00648195-v"]]
+    paragraph: '20'
+    pos: ["IN", "NN", "NNS", ",", "CD", "NN", "IN", "DT", "JJ", "NN", "IN", "NNS", "VBP", "VBN", "IN", "CD", "IN", "CD", "NNS", "VBN", "JJ", "NN", "IN", "DT", "NNP", "IN", "NNP", "."]
+    text: ' In college libraries, 57 per_cent of the total number of books are owned by 124
+  of 1509 institutions surveyed last year by the U._S._Office of Education.'
+    tokens: [[1, 3], [4, 11], [12, 21], [21, 22], [23, 25], [26, 34], [35, 37], [38, 41], [42, 47], [48, 54], [55, 57], [58, 63], [64, 67], [68, 73], [74, 76], [77, 80], [81, 83], [84, 88], [89, 101], [102, 110], [111, 115], [116, 120], [121, 123], [124, 127], [128, 140], [141, 143], [144, 153], [153, 154]]
+    wn16_key: [[13, "own%2:40:00::"], [19, "survey%2:31:00::"]]
+    wn30_key: [[13, "own%2:40:00::"], [19, "survey%2:31:00::"]]
+4iSp:
+    lemmas: ["And", "over", "66", "per_cent", "of", "the", "elementary_schools", "with", "150", "or", "more", "pupil", "do", "not", "have", "any", "library", "at_all", "."]
+    oewn2026_key: [[14, "oewn-02636270-v"]]
+    paragraph: '20'
+    pos: ["CC", "IN", "CD", "NN", "IN", "DT", "NN", "IN", "CD", "CC", "JJR", "NNS", "VBP", "RB", "VB", "DT", "NN", "RB", "."]
+    text: ' And over 66 per_cent of the elementary_schools with 150 or more pupils do not have
+  any library at_all.
+
+  '
+    tokens: [[1, 4], [5, 9], [10, 12], [13, 21], [22, 24], [25, 28], [29, 47], [48, 52], [53, 56], [57, 59], [60, 64], [65, 71], [72, 74], [75, 78], [79, 83], [84, 87], [88, 95], [96, 102], [102, 103]]
+    wn16_key: [[14, "have%2:42:00::"]]
+    wn30_key: [[14, "have%2:42:00::"]]
+uEqm:
+    lemmas: ["In", "every", "aspect", "of", "service", "-", "to", "the", "public", ",", "to", "child", "in", "school", ",", "to", "college", "and", "university", "-", "the", "library", "of", "today", "be", "fail", "to", "render", "vitally", "needed", "services", "."]
+    oewn2026_key: [[25, "oewn-02534950-v"], [27, "oewn-02332196-v"]]
+    paragraph: '21'
+    pos: ["IN", "DT", "NN", "IN", "NN", ":", "TO", "DT", "JJ", ",", "TO", "NNS", "IN", "NNS", ",", "TO", "NNS", "CC", "NNS", ":", "DT", "NN", "IN", "NN", "VBZ", "VBG", "TO", "VB", "RB", "JJ", "NNS", "."]
+    text: ' In every aspect of service - to the public, to children in schools, to colleges
+  and universities - the library of today is failing to render vitally needed services.'
+    tokens: [[1, 3], [4, 9], [10, 16], [17, 19], [20, 27], [28, 29], [30, 32], [33, 36], [37, 43], [43, 44], [45, 47], [48, 56], [57, 59], [60, 67], [67, 68], [69, 71], [72, 80], [81, 84], [85, 97], [98, 99], [100, 103], [104, 111], [112, 114], [115, 120], [121, 123], [124, 131], [132, 134], [135, 141], [142, 149], [150, 156], [157, 165], [165, 166]]
+    wn16_key: [[25, "fail%2:41:02::"], [27, "render%2:40:02::"]]
+    wn30_key: [[25, "fail%2:41:02::"], [27, "render%2:40:02::"]]
+HTX5:
+    lemmas: ["only", "public", "understanding", "and", "support", "can", "provide", "that", "service", "."]
+    oewn2026_key: [[6, "oewn-02332196-v"]]
+    paragraph: '21'
+    pos: ["RB", "JJ", "NN", "CC", "NN", "MD", "VB", "IN", "NN", "."]
+    text: ' Only public understanding and support can provide that service.
+
+  '
+    tokens: [[1, 5], [6, 12], [13, 26], [27, 30], [31, 38], [39, 42], [43, 50], [51, 55], [56, 63], [63, 64]]
+    wn16_key: [[6, "provide%2:40:00::"]]
+    wn30_key: [[6, "provide%2:40:00::"]]
+2sLc:
+    lemmas: ["This", "be", "one", "of", "the", "main", "reason", "for", "national_library_week", ",", "april", "16", "-", "22", ",", "and", "for", "its", "theme", ":", "\"", "For", "a", "rich", ",", "full", "life", ",", "read", "\"", "!"]
+    oewn2026_key: [[1, "oewn-02670846-v"], [28, "oewn-00626756-v"]]
+    paragraph: '22'
+    pos: ["DT", "VBZ", "CD", "IN", "DT", "JJ", "NNS", "IN", "NNP", ",", "NNP", "CD", ":", "CD", ",", "CC", "IN", "PRP$", "NN", ":", "``", "IN", "DT", "JJR", ",", "JJR", "NN", ",", "VB", "``", "."]
+    text: ' This is one of the main reasons for National_Library_Week, April 16 - 22, and for
+  its theme: " For a richer, fuller life, read "!
+
+  '
+    tokens: [[1, 5], [6, 8], [9, 12], [13, 15], [16, 19], [20, 24], [25, 32], [33, 36], [37, 58], [58, 59], [60, 65], [66, 68], [69, 70], [71, 73], [73, 74], [75, 78], [79, 82], [83, 86], [87, 92], [92, 93], [94, 95], [96, 99], [100, 101], [102, 108], [108, 109], [110, 116], [117, 121], [121, 122], [123, 127], [128, 129], [129, 130]]
+    wn16_key: [[1, "be%2:42:07::"], [28, "read%2:31:00::"]]
+    wn30_key: [[1, "be%2:42:07::"], [28, "read%2:31:00::"]]

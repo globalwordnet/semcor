@@ -1,0 +1,1739 @@
+_meta:
+    lemmas:
+        type: seq
+        base: tokens
+        data: string
+    oewn2026_key:
+        type: element
+        base: tokens
+        data: string
+    paragraph:
+        type: characters
+    pos:
+        type: seq
+        base: tokens
+        data: string
+    text:
+        type: characters
+    tokens:
+        type: span
+        base: text
+    wn16_key:
+        type: element
+        base: tokens
+        data: string
+    wn30_key:
+        type: element
+        base: tokens
+        data: string
+aJzv:
+    lemmas: ["early", "in", "november", "the", "cloud", "lift", "enough", "to", "carry_out", "the", "assigned", "mission", "."]
+    oewn2026_key: [[0, "oewn-00101231-r"], [2, "oewn-15238202-n"], [4, "oewn-09270316-n"], [5, "oewn-01972576-v"], [6, "oewn-00146749-r"], [10, "oewn-00850483-a"], [11, "oewn-00972749-n"]]
+    paragraph: '0'
+    pos: ["RB", "IN", "NNP", "DT", "NNS", "VBD", "RB", "TO", "VB", "DT", "JJ", "NNS", "."]
+    text: Early in November the clouds lifted enough to carry_out the assigned missions.
+    tokens: [[0, 5], [6, 8], [9, 17], [18, 21], [22, 28], [29, 35], [36, 42], [43, 45], [46, 55], [56, 59], [60, 68], [69, 77], [77, 78]]
+    wn16_key: [[0, "early%4:02:01::"], [2, "november%1:28:00::"], [4, "cloud%1:17:00::"], [5, "lift%2:38:03::"], [6, "enough%4:02:00::"], [8, "carry_out%2:41:15::"], [10, "assigned%3:00:00::"], [11, "mission%1:04:01::"]]
+    wn30_key: [[0, "early%4:02:01::"], [2, "november%1:28:00::"], [4, "cloud%1:17:00::"], [5, "lift%2:38:03::"], [6, "enough%4:02:00::"], [10, "assigned%3:00:00::"], [11, "mission%1:04:01::"]]
+INQX:
+    lemmas: ["And", "Sweeney_Squadron", "put", "its", "first", "mark", "on", "the", "combat", "record", "."]
+    oewn2026_key: [[2, "oewn-01496967-v"], [4, "oewn-01012940-s"], [5, "oewn-07284884-n"], [8, "oewn-00966454-n"], [9, "oewn-00048486-n"]]
+    paragraph: '0'
+    pos: ["CC", "NNP", "VBD", "PRP$", "JJ", "NNS", "IN", "DT", "NN", "NN", "."]
+    text: ' And Sweeney_Squadron put its first marks on the combat record.'
+    tokens: [[1, 4], [5, 21], [22, 25], [26, 29], [30, 35], [36, 41], [42, 44], [45, 48], [49, 55], [56, 62], [62, 63]]
+    wn16_key: [[2, "put%2:35:00::"], [4, "first%5:00:02:opening:00"], [5, "mark%1:10:02::"], [8, "combat%1:04:00::"], [9, "record%1:04:01::"]]
+    wn30_key: [[2, "put%2:35:00::"], [4, "first%3:00:02:opening:00"], [5, "mark%1:10:02::"], [8, "combat%1:04:00::"], [9, "record%1:04:01::"]]
+iM75:
+    lemmas: ["Every", "plane", "that", "could", "fly", "be", "send", "into", "the", "air", "."]
+    oewn2026_key: [[1, "oewn-02694015-n"], [4, "oewn-01944262-v"], [6, "oewn-01439891-v"], [9, "oewn-08670889-n"]]
+    paragraph: '0'
+    pos: ["DT", "NN", "WDT", "MD", "VB", "VBD", "VBN", "IN", "DT", "NN", "."]
+    text: ' Every plane that could fly was sent into the air.
+
+  '
+    tokens: [[1, 6], [7, 12], [13, 17], [18, 23], [24, 27], [28, 31], [32, 36], [37, 41], [42, 45], [46, 49], [49, 50]]
+    wn16_key: [[1, "plane%1:06:01::"], [4, "fly%2:38:00::"], [6, "send%2:35:00::"], [9, "air%1:15:00::"]]
+    wn30_key: [[1, "plane%1:06:01::"], [4, "fly%2:38:00::"], [6, "send%2:35:00::"], [9, "air%1:15:00::"]]
+mLI4:
+    lemmas: ["person", "take", "eight", "ship", "and", "go", "south", "across", "the", "location", "and", "along", "the", "north", "coast", "of", "location", "to", "location", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-01846632-v"], [2, "oewn-02194712-s"], [3, "oewn-04201332-n"], [5, "oewn-01839438-v"], [6, "oewn-00245397-r"], [9, "oewn-00027365-n"], [13, "oewn-01604915-a"], [14, "oewn-09451197-n"], [16, "oewn-00027365-n"], [18, "oewn-00027365-n"]]
+    paragraph: '1'
+    pos: ["NNP", "VBD", "JJ", "NNS", "CC", "VBD", "RB", "IN", "DT", "NNP", "CC", "IN", "DT", "JJ", "NN", "IN", "NNP", "TO", "NNP", "."]
+    text: ' Cricket took eight ships and went south across the Straits and along the north coast
+  of Mindanao to Cagayan.'
+    tokens: [[1, 8], [9, 13], [14, 19], [20, 25], [26, 29], [30, 34], [35, 40], [41, 47], [48, 51], [52, 59], [60, 63], [64, 69], [70, 73], [74, 79], [80, 85], [86, 88], [89, 97], [98, 100], [101, 108], [108, 109]]
+    wn16_key: [[0, "person%1:03:00::"], [1, "take%2:38:02::"], [2, "eight%5:00:00:cardinal:00"], [3, "ship%1:06:00::"], [5, "go%2:38:00::"], [6, "south%4:02:00::"], [9, "location%1:03:00::"], [13, "north%3:00:00::"], [14, "coast%1:17:00::"], [16, "location%1:03:00::"], [18, "location%1:03:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [1, "take%2:38:02::"], [2, "eight%3:00:00:cardinal:00"], [3, "ship%1:06:00::"], [5, "go%2:38:00::"], [6, "south%4:02:00::"], [9, "location%1:03:00::"], [13, "north%3:00:00::"], [14, "coast%1:17:00::"], [16, "location%1:03:00::"], [18, "location%1:03:00::"]]
+f9e/:
+    lemmas: ["Anything", "the", "enemy", "fly", "or", "float", "be", "his", "target", "."]
+    oewn2026_key: [[2, "oewn-08207412-n"], [3, "oewn-01852000-v"], [5, "oewn-01878561-v"], [6, "oewn-02626667-v"], [8, "oewn-04401354-n;oewn-10490045-n"]]
+    paragraph: '1'
+    pos: ["NN", "DT", "NN", "VBD", "CC", "VBD", "VBD", "PRP$", "NN", "."]
+    text: ' Anything the enemy flew or floated was his target.'
+    tokens: [[1, 9], [10, 13], [14, 19], [20, 24], [25, 27], [28, 35], [36, 39], [40, 43], [44, 50], [50, 51]]
+    wn16_key: [[2, "enemy%1:14:00::"], [3, "fly%2:38:07::"], [5, "float%2:38:02::"], [6, "be%2:42:02::"], [8, "target%1:06:00::;target%1:18:00::"]]
+    wn30_key: [[2, "enemy%1:14:00::"], [3, "fly%2:38:07::"], [5, "float%2:38:02::"], [6, "be%2:42:02::"], [8, "target%1:06:00::;target%1:18:00::"]]
+21FZ:
+    lemmas: ["person", "with", "eight", "be", "to", "patrol", "the", "location", "area", ",", "with", "his", "main", "task", "to", "get", "any", "kamikaze", "before", "they", "get", "to", "the", "ship", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-02194712-s"], [5, "oewn-02460361-v"], [7, "oewn-00027365-n"], [8, "oewn-08514304-n"], [12, "oewn-01280536-s"], [13, "oewn-00720957-n"], [15, "oewn-01403769-v"], [17, "oewn-03613287-n"], [20, "oewn-02009962-v"], [23, "oewn-04201332-n"]]
+    paragraph: '1'
+    pos: ["NN", "IN", "JJ", "VBD", "TO", "VB", "DT", "NN", "NN", ",", "IN", "PRP$", "JJ", "NN", "TO", "VB", "DT", "NN", "IN", "PRP", "VBD", "VB", "DT", "NNS", "."]
+    text: ' Fleischman with eight was to patrol the Leyte_Gulf area, with his main task to get
+  any kamikaze before they got to the ships.'
+    tokens: [[1, 11], [12, 16], [17, 22], [23, 26], [27, 29], [30, 36], [37, 40], [41, 51], [52, 56], [56, 57], [58, 62], [63, 66], [67, 71], [72, 76], [77, 79], [80, 83], [84, 87], [88, 96], [97, 103], [104, 108], [109, 112], [113, 115], [116, 119], [120, 125], [125, 126]]
+    wn16_key: [[0, "person%1:03:00::"], [2, "eight%5:00:00:cardinal:00"], [5, "patrol%2:41:00::"], [7, "location%1:03:00::"], [8, "area%1:15:01::"], [12, "main%5:00:00:important:00"], [13, "task%1:04:00::"], [15, "get%2:35:10::"], [17, "kamikaze%1:06:00::"], [20, "get%2:38:00::"], [23, "ship%1:06:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [2, "eight%3:00:00:cardinal:00"], [5, "patrol%2:41:00::"], [7, "location%1:03:00::"], [8, "area%1:15:01::"], [12, "main%3:00:00:important:00"], [13, "task%1:04:00::"], [15, "get%2:35:10::"], [17, "kamikaze%1:06:00::"], [20, "get%2:38:00::"], [23, "ship%1:06:00::"]]
+h+h+:
+    lemmas: ["person", "himself", "take", "two", "flight", ",", "with", "person", "lead", "the", "second", ",", "to", "patrol", "and", "look_for", "target", "of", "opportunity", "around", "location", "on", "the", "east", "coast", "of", "location", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-01846632-v"], [3, "oewn-02194109-s"], [4, "oewn-08237361-n"], [7, "oewn-00007846-n"], [8, "oewn-02003455-v"], [10, "oewn-02209815-s"], [13, "oewn-02460361-v"], [15, "oewn-01318273-v"], [16, "oewn-04401354-n;oewn-10490045-n"], [18, "oewn-14507501-n"], [20, "oewn-00027365-n"], [23, "oewn-00826918-a"], [24, "oewn-09451197-n"], [26, "oewn-00027365-n"]]
+    paragraph: '1'
+    pos: ["NNP", "PRP", "VBD", "JJ", "NNS", ",", "IN", "NNP", "VBG", "DT", "JJ", ",", "TO", "VB", "CC", "VB", "NNS", "IN", "NNS", "IN", "NNP", "IN", "DT", "JJ", "NN", "IN", "NNP", "."]
+    text: ' Greg himself took two flights, with Todman leading the second, to patrol and look_for
+  targets of opportunities around Ormoc on the east coast of Leyte.'
+    tokens: [[1, 5], [6, 13], [14, 18], [19, 22], [23, 30], [30, 31], [32, 36], [37, 43], [44, 51], [52, 55], [56, 62], [62, 63], [64, 66], [67, 73], [74, 77], [78, 86], [87, 94], [95, 97], [98, 111], [112, 118], [119, 124], [125, 127], [128, 131], [132, 136], [137, 142], [143, 145], [146, 151], [151, 152]]
+    wn16_key: [[0, "person%1:03:00::"], [2, "take%2:38:02::"], [3, "two%5:00:00:cardinal:00"], [4, "flight%1:14:00::"], [7, "person%1:03:00::"], [8, "lead%2:38:00::"], [10, "second%5:00:00:ordinal:00"], [13, "patrol%2:41:00::"], [15, "look_for%2:35:00::"], [16, "target%1:06:00::;target%1:18:00::"], [18, "opportunity%1:26:00::"], [20, "location%1:03:00::"], [23, "east%3:00:00::"], [24, "coast%1:17:00::"], [26, "location%1:03:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [2, "take%2:38:02::"], [3, "two%3:00:00:cardinal:00"], [4, "flight%1:14:00::"], [7, "person%1:03:00::"], [8, "lead%2:38:00::"], [10, "second%3:00:00:ordinal:00"], [13, "patrol%2:41:00::"], [15, "look_for%2:35:00::"], [16, "target%1:06:00::;target%1:18:00::"], [18, "opportunity%1:26:00::"], [20, "location%1:03:00::"], [23, "east%3:00:00::"], [24, "coast%1:17:00::"], [26, "location%1:03:00::"]]
+sQHh:
+    lemmas: ["Each", "plane", "carry", "two", "five_hundred", "pound", "bomb", "."]
+    oewn2026_key: [[1, "oewn-02694015-n"], [2, "oewn-02722977-v"], [3, "oewn-02194109-s"], [4, "oewn-02206300-s"], [5, "oewn-13742201-n"], [6, "oewn-02869918-n"]]
+    paragraph: '1'
+    pos: ["DT", "NN", "VBD", "JJ", "JJ", "NN", "NNS", "."]
+    text: ' Each plane carried two five-hundred pound bombs.
+
+  '
+    tokens: [[1, 5], [6, 11], [12, 19], [20, 23], [24, 36], [37, 42], [43, 48], [48, 49]]
+    wn16_key: [[1, "plane%1:06:01::"], [2, "carry%2:42:01::"], [3, "two%5:00:00:cardinal:00"], [4, "five_hundred%5:00:00:cardinal:00"], [5, "pound%1:23:09::"], [6, "bomb%1:06:00::"]]
+    wn30_key: [[1, "plane%1:06:01::"], [2, "carry%2:42:01::"], [3, "two%3:00:00:cardinal:00"], [4, "five_hundred%3:00:00:cardinal:00"], [5, "pound%1:23:09::"], [6, "bomb%1:06:00::"]]
+58Nr:
+    lemmas: ["A", "weapons_carrier", "take", "person", ",", "person", ",", "person", ",", "person", ",", "and", "person", "and", "the", "other", "the", "two", "mile", "from", "the", "bivouac", "area", "to", "the", "strip", "."]
+    oewn2026_key: [[1, "oewn-04573847-n"], [2, "oewn-02081903-v"], [3, "oewn-00007846-n"], [5, "oewn-00007846-n"], [7, "oewn-00007846-n"], [9, "oewn-00007846-n"], [12, "oewn-00007846-n"], [17, "oewn-02194109-s"], [18, "oewn-13672836-n"], [21, "oewn-02948281-n"], [22, "oewn-08514304-n"], [25, "oewn-02695929-n"]]
+    paragraph: '2'
+    pos: ["DT", "NN", "VBD", "NNP", ",", "NNP", ",", "NNP", ",", "NN", ",", "CC", "NNP", "CC", "DT", "NNS", "JJ", "JJ", "NNS", "IN", "DT", "NN", "NN", "TO", "DT", "NN", "."]
+    text: ' A weapons_carrier took Greg, Todman, Belton, Banjo_Ferguson, and Walters and the
+  others the two miles from the bivouac area to the strip.'
+    tokens: [[1, 2], [3, 18], [19, 23], [24, 28], [28, 29], [30, 36], [36, 37], [38, 44], [44, 45], [46, 60], [60, 61], [62, 65], [66, 73], [74, 77], [78, 81], [82, 88], [89, 92], [93, 96], [97, 102], [103, 107], [108, 111], [112, 119], [120, 124], [125, 127], [128, 131], [132, 137], [137, 138]]
+    wn16_key: [[1, "weapons_carrier%1:06:00::"], [2, "take%2:38:10::"], [3, "person%1:03:00::"], [5, "person%1:03:00::"], [7, "person%1:03:00::"], [9, "person%1:03:00::"], [12, "person%1:03:00::"], [17, "two%5:00:00:cardinal:00"], [18, "mile%1:23:01::"], [21, "bivouac%1:06:00::"], [22, "area%1:15:01::"], [25, "strip%1:06:02::"]]
+    wn30_key: [[1, "weapons_carrier%1:06:00::"], [2, "take%2:38:10::"], [3, "person%1:03:00::"], [5, "person%1:03:00::"], [7, "person%1:03:00::"], [9, "person%1:03:00::"], [12, "person%1:03:00::"], [17, "two%3:00:00:cardinal:00"], [18, "mile%1:23:01::"], [21, "bivouac%1:06:00::"], [22, "area%1:15:01::"], [25, "strip%1:06:02::"]]
+BgG8:
+    lemmas: ["It", "be", "a", "rough", "long", "ride", "through", "the", "mud", "and", "pothole", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [3, "oewn-02246206-a"], [4, "oewn-01440837-a"], [5, "oewn-00308457-n"], [8, "oewn-14980464-n"], [10, "oewn-09420951-n"]]
+    paragraph: '2'
+    pos: ["PRP", "VBD", "DT", "JJ", "JJ", "NN", "IN", "DT", "NN", "CC", "NN", "."]
+    text: ' It was a rough long ride through the mud and pot_holes.'
+    tokens: [[1, 3], [4, 7], [8, 9], [10, 15], [16, 20], [21, 25], [26, 33], [34, 37], [38, 41], [42, 45], [46, 55], [55, 56]]
+    wn16_key: [[1, "be%2:42:03::"], [3, "rough%3:00:00::"], [4, "long%3:00:02::"], [5, "ride%1:04:00::"], [8, "mud%1:27:00::"], [10, "pothole%1:17:00::"]]
+    wn30_key: [[1, "be%2:42:03::"], [3, "rough%3:00:00::"], [4, "long%3:00:02::"], [5, "ride%1:04:00::"], [8, "mud%1:27:00::"], [10, "pothole%1:17:00::"]]
+wTmo:
+    lemmas: ["No", "one", "have", "much", "to", "say", "."]
+    oewn2026_key: [[2, "oewn-02208144-v"], [3, "oewn-13798833-n"], [5, "oewn-01011267-v"]]
+    paragraph: '2'
+    pos: ["DT", "CD", "VBD", "NN", "TO", "VB", "."]
+    text: ' No one had much to say.'
+    tokens: [[1, 3], [4, 7], [8, 11], [12, 16], [17, 19], [20, 23], [23, 24]]
+    wn16_key: [[2, "have%2:40:00::"], [3, "much%1:23:00::"], [5, "say%2:32:00::"]]
+    wn30_key: [[2, "have%2:40:00::"], [3, "much%1:23:00::"], [5, "say%2:32:00::"]]
+wVJC:
+    lemmas: ["The", "sky", "glower", "down", "at", "them", "."]
+    oewn2026_key: [[1, "oewn-09459612-n"], [2, "oewn-00033196-v"], [3, "oewn-00095870-r"]]
+    paragraph: '2'
+    pos: ["DT", "NN", "VBD", "RB", "IN", "PRP", "."]
+    text: ' The sky glowered down at them.'
+    tokens: [[1, 4], [5, 8], [9, 17], [18, 22], [23, 25], [26, 30], [30, 31]]
+    wn16_key: [[1, "sky%1:17:00::"], [2, "glower%2:29:01::"], [3, "down%4:02:00::"]]
+    wn30_key: [[1, "sky%1:17:00::"], [2, "glower%2:29:01::"], [3, "down%4:02:00::"]]
+DKAb:
+    lemmas: ["There", "be", "a", "feeling", "that", "this", "mission", "would", "be", "cancel", "like", "all", "the", "other", "and", "that", "this", "muddy", "wet", "dark", "world", "of", "combat", "would", "go_on", "forever", "."]
+    oewn2026_key: [[3, "oewn-05925333-n"], [6, "oewn-00972749-n"], [9, "oewn-02483178-v"], [17, "oewn-02558836-s"], [18, "oewn-02558087-a"], [19, "oewn-00273948-a"], [20, "oewn-05817904-n"], [22, "oewn-00966454-n"], [24, "oewn-02690747-v"], [25, "oewn-00089564-r"]]
+    paragraph: '2'
+    pos: ["EX", "VBD", "DT", "NN", "IN", "DT", "NN", "MD", "VB", "VBN", "IN", "PDT", "DT", "NNS", "CC", "IN", "DT", "JJ", "JJ", "JJ", "NN", "IN", "NN", "MD", "VB", "RB", "."]
+    text: ' There was a feeling that this mission would be canceled like all the others and
+  that this muddy wet dark world of combat would go_on forever.
+
+  '
+    tokens: [[1, 6], [7, 10], [11, 12], [13, 20], [21, 25], [26, 30], [31, 38], [39, 44], [45, 47], [48, 56], [57, 61], [62, 65], [66, 69], [70, 76], [77, 80], [81, 85], [86, 90], [91, 96], [97, 100], [101, 105], [106, 111], [112, 114], [115, 121], [122, 127], [128, 133], [134, 141], [141, 142]]
+    wn16_key: [[3, "feeling%1:09:03::"], [6, "mission%1:04:01::"], [9, "cancel%2:41:03::"], [17, "muddy%5:00:00:wet:01"], [18, "wet%3:00:01::"], [19, "dark%3:00:01::"], [20, "world%1:09:00::"], [22, "combat%1:04:00::"], [24, "go_on%2:42:00::"], [25, "forever%4:02:02::"]]
+    wn30_key: [[3, "feeling%1:09:03::"], [6, "mission%1:04:01::"], [9, "cancel%2:41:03::"], [17, "muddy%3:00:00:wet:01"], [18, "wet%3:00:01::"], [19, "dark%3:00:01::"], [20, "world%1:09:00::"], [22, "combat%1:04:00::"], [24, "go_on%2:42:00::"], [25, "forever%4:02:02::"]]
++H0a:
+    lemmas: ["The", "truck", "drop", "them", "off", "at", "the", "various", "revetment", "spread", "through", "the", "jungle", "."]
+    oewn2026_key: [[1, "oewn-04497386-n"], [2, "oewn-01492094-v"], [7, "oewn-00496454-s"], [8, "oewn-04093178-n"], [9, "oewn-01381221-v"], [12, "oewn-08526132-n"]]
+    paragraph: '3'
+    pos: ["DT", "NN", "VBD", "PRP", "IN", "IN", "DT", "JJ", "NNS", "VBN", "IN", "DT", "NN", "."]
+    text: ' The truck dropped them off at the various revetments spread through the jungle.'
+    tokens: [[1, 4], [5, 10], [11, 18], [19, 23], [24, 27], [28, 30], [31, 34], [35, 42], [43, 53], [54, 60], [61, 68], [69, 72], [73, 79], [79, 80]]
+    wn16_key: [[1, "truck%1:06:00::"], [2, "drop%2:35:00::"], [7, "various%5:00:00:individual:00"], [8, "revetment%1:06:01::"], [9, "spread%2:35:00::"], [12, "jungle%1:17:00::"]]
+    wn30_key: [[1, "truck%1:06:00::"], [2, "drop%2:35:00::"], [7, "various%3:00:00:individual:00"], [8, "revetment%1:06:01::"], [9, "spread%2:35:00::"], [12, "jungle%1:15:00::"]]
+xd3/:
+    lemmas: ["person", "snatch", "person", "'s", "chute", "from", "him", "with", "a", "belligerent", "motion", "and", "almost", "run", "to", "the", "plane", "with_it", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-01442364-v"], [2, "oewn-00007846-n"], [4, "oewn-03893954-n"], [9, "oewn-01247720-s"], [10, "oewn-00332776-n"], [12, "oewn-00073433-r"], [13, "oewn-01930264-v"], [16, "oewn-02694015-n"]]
+    paragraph: '3'
+    pos: ["NNP", "VBD", "NNP", "POS", "NN", "IN", "PRP", "IN", "DT", "JJ", "NN", "CC", "RB", "VBD", "TO", "DT", "NN", "RB", "."]
+    text: ' Donovan snatched Greg''s chute from him with a belligerent motion and almost ran
+  to the plane with_it.'
+    tokens: [[1, 8], [9, 17], [18, 22], [22, 24], [25, 30], [31, 35], [36, 39], [40, 44], [45, 46], [47, 58], [59, 65], [66, 69], [70, 76], [77, 80], [81, 83], [84, 87], [88, 93], [94, 101], [101, 102]]
+    wn16_key: [[0, "person%1:03:00::"], [1, "snatch%2:35:00::"], [2, "person%1:03:00::"], [4, "chute%1:06:01::"], [9, "belligerent%5:00:00:hostile:01"], [10, "motion%1:04:00::"], [12, "almost%4:02:00::"], [13, "run%2:38:00::"], [16, "plane%1:06:01::"]]
+    wn30_key: [[0, "person%1:03:00::"], [1, "snatch%2:35:00::"], [2, "person%1:03:00::"], [4, "chute%1:06:01::"], [9, "belligerent%3:00:00:hostile:01"], [10, "motion%1:04:00::"], [12, "almost%4:02:00::"], [13, "run%2:38:00::"], [16, "plane%1:06:01::"]]
+J7L1:
+    lemmas: ["His", "face", "be", "dark", "as", "the", "sky", "above", "it", "as", "he", "stand", "on", "the", "wing", "and", "wait", "for", "his", "pilot", "."]
+    oewn2026_key: [[1, "oewn-05608392-n"], [2, "oewn-02610777-v"], [3, "oewn-00246056-s"], [6, "oewn-09459612-n"], [11, "oewn-01548893-v"], [14, "oewn-04600068-n"], [16, "oewn-02644022-v"], [19, "oewn-10452928-n"]]
+    paragraph: '3'
+    pos: ["PRP$", "NN", "VBD", "JJ", "IN", "DT", "NN", "RB", "PRP", "IN", "PRP", "VBD", "RB", "RB", "NN", "CC", "VBD", "VB", "PRP$", "NN", "."]
+    text: ' His face was dark as the sky above it as he stood on the wing and waited for his
+  pilot.'
+    tokens: [[1, 4], [5, 9], [10, 13], [14, 18], [19, 21], [22, 25], [26, 29], [30, 35], [36, 38], [39, 41], [42, 44], [45, 50], [51, 53], [54, 57], [58, 62], [63, 66], [67, 73], [74, 77], [78, 81], [82, 87], [87, 88]]
+    wn16_key: [[1, "face%1:08:00::"], [2, "be%2:42:03::"], [3, "dark%5:00:00:brunet:00"], [6, "sky%1:17:00::"], [11, "stand%2:35:00::"], [14, "wing%1:06:00::"], [16, "wait%2:42:00::"], [19, "pilot%1:18:00::"]]
+    wn30_key: [[1, "face%1:08:00::"], [2, "be%2:42:03::"], [3, "dark%3:00:00:brunet:00"], [6, "sky%1:17:00::"], [11, "stand%2:35:00::"], [14, "wing%1:06:00::"], [16, "wait%2:42:00::"], [19, "pilot%1:18:00::"]]
+QPvE:
+    lemmas: ["person", "climb", "into", "the", "cockpit", "feel", "as", "if", "he", "have", "never", "be", "in", "one", "before", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-01927862-v"], [4, "oewn-03065508-n"], [5, "oewn-00692071-v"], [10, "oewn-00021214-r"], [11, "oewn-02661230-v"], [14, "oewn-00061477-r"]]
+    paragraph: '3'
+    pos: ["NNP", "VBD", "IN", "DT", "NN", "VB", "IN", "IN", "PRP", "VBD", "RB", "VBN", "IN", "CD", "RB", "."]
+    text: ' Greg climbed into the cockpit feeling as if he had never been in one before.'
+    tokens: [[1, 5], [6, 13], [14, 18], [19, 22], [23, 30], [31, 38], [39, 41], [42, 44], [45, 47], [48, 51], [52, 57], [58, 62], [63, 65], [66, 69], [70, 76], [76, 77]]
+    wn16_key: [[0, "person%1:03:00::"], [1, "climb%2:38:01::"], [4, "cockpit%1:06:00::"], [5, "feel%2:31:01::"], [10, "never%4:02:00::"], [11, "be%2:42:05::"], [14, "before%4:02:03::"]]
+    wn30_key: [[0, "person%1:03:00::"], [1, "climb%2:38:01::"], [4, "cockpit%1:06:00::"], [5, "feel%2:31:01::"], [10, "never%4:02:00::"], [11, "be%2:42:05::"], [14, "before%4:02:03::"]]
+3Gq4:
+    lemmas: ["But", "his", "hand", "and", "those", "of", "person", "move", "automatically", "adjust", "and", "arrange", "in", "the", "checkout", "procedure", "."]
+    oewn2026_key: [[2, "oewn-05572223-n"], [6, "oewn-00007846-n"], [7, "oewn-01835473-v"], [8, "oewn-00005948-r"], [9, "oewn-00465234-v"], [11, "oewn-01466592-v"], [14, "oewn-00142626-n"], [15, "oewn-00578105-n"]]
+    paragraph: '3'
+    pos: ["CC", "PRP$", "NNS", "CC", "DT", "IN", "NNP", "VBD", "RB", "VBG", "CC", "VBG", "IN", "DT", "NN", "NN", "."]
+    text: ' But his hands and those of Donovan moved automatically adjusting and arranging in
+  the check-out procedure.
+
+  '
+    tokens: [[1, 4], [5, 8], [9, 14], [15, 18], [19, 24], [25, 27], [28, 35], [36, 41], [42, 55], [56, 65], [66, 69], [70, 79], [80, 82], [83, 86], [87, 96], [97, 106], [106, 107]]
+    wn16_key: [[2, "hand%1:08:00::"], [6, "person%1:03:00::"], [7, "move%2:38:00::"], [8, "automatically%4:02:00::"], [9, "adjust%2:30:05::"], [11, "arrange%2:35:00::"], [14, "checkout%1:04:00::"], [15, "procedure%1:04:02::"]]
+    wn30_key: [[2, "hand%1:08:00::"], [6, "person%1:03:00::"], [7, "move%2:38:00::"], [8, "automatically%4:02:00::"], [9, "adjust%2:30:05::"], [11, "arrange%2:35:00::"], [14, "checkout%1:04:00::"], [15, "procedure%1:04:02::"]]
+lcSh:
+    lemmas: ["\"", "I", "'ve", "get", "her", "as", "neat", "as", "I", "can", "\"", ",", "person", "say", ",", "as", "he", "drop", "the", "strap", "of", "the", "seton", "harness", "over", "person", "'s", "shoulder", "."]
+    oewn2026_key: [[3, "oewn-00120604-v"], [6, "oewn-02432057-s"], [12, "oewn-00007846-n"], [13, "oewn-01011267-v"], [17, "oewn-01981715-v"], [19, "oewn-04340267-n"], [23, "oewn-03500164-n"], [25, "oewn-00007846-n"], [27, "oewn-05556473-n"]]
+    paragraph: '4'
+    pos: ["``", "PRP", "VBP", "VBD", "PRP$", "RB", "JJ", "IN", "PRP", "MD", "``", ",", "NNP", "VBD", ",", "IN", "PRP", "VBD", "DT", "NNS", "IN", "DT", "NNP", "NN", "IN", "NNP", "POS", "NNS", "."]
+    text: ' " I''ve got her as neat as I can ", Donovan said, as he dropped the straps of the
+  Seton harness over Greg''s shoulders.'
+    tokens: [[1, 2], [3, 4], [4, 7], [8, 11], [12, 15], [16, 18], [19, 23], [24, 26], [27, 28], [29, 32], [33, 34], [34, 35], [36, 43], [44, 48], [48, 49], [50, 52], [53, 55], [56, 63], [64, 67], [68, 74], [75, 77], [78, 81], [82, 87], [88, 95], [96, 100], [101, 105], [105, 107], [108, 117], [117, 118]]
+    wn16_key: [[3, "get%2:30:02::"], [6, "neat%5:00:00:tidy:00"], [12, "person%1:03:00::"], [13, "say%2:32:00::"], [17, "drop%2:38:01::"], [19, "strap%1:06:01::"], [23, "harness%1:06:01::"], [25, "person%1:03:00::"], [27, "shoulder%1:08:00::"]]
+    wn30_key: [[3, "get%2:30:02::"], [6, "neat%3:00:00:tidy:00"], [12, "person%1:03:00::"], [13, "say%2:32:00::"], [17, "drop%2:38:01::"], [19, "strap%1:06:01::"], [23, "harness%1:06:01::"], [25, "person%1:03:00::"], [27, "shoulder%1:08:00::"]]
+ZcYx:
+    lemmas: ["\"", "But", "this", "goddamn", "climate", "."]
+    oewn2026_key: [[4, "oewn-14542968-n"]]
+    paragraph: '4'
+    pos: ["``", "CC", "DT", "UH", "NN", "."]
+    text: ' " But this goddamn climate.'
+    tokens: [[1, 2], [3, 6], [7, 11], [12, 19], [20, 27], [27, 28]]
+    wn16_key: [[4, "climate%1:26:00::"]]
+    wn30_key: [[4, "climate%1:26:00::"]]
+KzzV:
+    lemmas: ["It", "be", "for", "carabao", "not", "airplane", "\"", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [3, "oewn-02411463-n"], [4, "oewn-00024432-r"], [5, "oewn-02694015-n"]]
+    paragraph: '4'
+    pos: ["PRP", "VBZ", "IN", "NN", "RB", "NNS", "''", "."]
+    text: ' It''s for carabao not airplanes ".
+
+  '
+    tokens: [[1, 3], [3, 5], [6, 9], [10, 17], [18, 21], [22, 31], [32, 33], [33, 34]]
+    wn16_key: [[1, "be%2:42:03::"], [3, "carabao%1:05:00::"], [4, "not%4:02:00::"], [5, "airplane%1:06:00::"]]
+    wn30_key: [[1, "be%2:42:03::"], [3, "carabao%1:05:00::"], [4, "not%4:02:00::"], [5, "airplane%1:06:00::"]]
+leDn:
+    lemmas: ["\"", "We", "'ll", "make_out", "."]
+    oewn2026_key: [[3, "oewn-02593624-v"]]
+    paragraph: '5'
+    pos: ["``", "PRP", "MD", "VB", "."]
+    text: ' " We''ll make_out.'
+    tokens: [[1, 2], [3, 5], [5, 8], [9, 17], [17, 18]]
+    wn16_key: [[3, "make_out%2:41:02::"]]
+    wn30_key: [[3, "make_out%2:41:02::"]]
+r7Ad:
+    lemmas: ["do", "n't", "you", "worry", ",", "chief", "\"", ",", "person", "reply", ",", "wonder", "if", "he", "himself", "believe", "it", "."]
+    oewn2026_key: [[3, "oewn-01771015-v"], [8, "oewn-00007846-n"], [9, "oewn-00817348-v"], [11, "oewn-00927081-v"], [15, "oewn-00685199-v"]]
+    paragraph: '5'
+    pos: ["VBP", "RB", "PRP", "VB", ",", "NN", "''", ",", "NNP", "VBD", ",", "VBG", "IN", "PRP", "PRP", "VBD", "PRP", "."]
+    text: ' Don''t you worry, chief ", Greg replied, wondering if he himself believed it.
+
+  '
+    tokens: [[1, 3], [3, 6], [7, 10], [11, 16], [16, 17], [18, 23], [24, 25], [25, 26], [27, 31], [32, 39], [39, 40], [41, 50], [51, 53], [54, 56], [57, 64], [65, 73], [74, 76], [76, 77]]
+    wn16_key: [[1, "n't%4:02:00::"], [3, "worry%2:37:00::"], [8, "person%1:03:00::"], [9, "reply%2:32:00::"], [11, "wonder%2:32:01::"], [15, "believe%2:31:00::"]]
+    wn30_key: [[3, "worry%2:37:00::"], [8, "person%1:03:00::"], [9, "reply%2:32:00::"], [11, "wonder%2:32:01::"], [15, "believe%2:31:00::"]]
+p4Pd:
+    lemmas: ["\"", "Yeah", "."]
+    oewn2026_key: []
+    paragraph: '6'
+    pos: ["``", "UH", "."]
+    text: ' " Yeah.'
+    tokens: [[1, 2], [3, 7], [7, 8]]
+    wn16_key: []
+    wn30_key: []
+4zmn:
+    lemmas: ["See_you", "\"", ",", "person", "say", "as", "he", "jump", "off", "the", "wing", "."]
+    oewn2026_key: [[3, "oewn-00007846-n"], [4, "oewn-01011267-v"], [7, "oewn-01967949-v"], [10, "oewn-04600068-n"]]
+    paragraph: '6'
+    pos: ["PRP", "''", ",", "NNP", "VBD", "IN", "PRP", "VBD", "VB", "DT", "NN", "."]
+    text: ' See_you ", Donovan said as he jumped off the wing.'
+    tokens: [[1, 8], [9, 10], [10, 11], [12, 19], [20, 24], [25, 27], [28, 30], [31, 37], [38, 41], [42, 45], [46, 50], [50, 51]]
+    wn16_key: [[3, "person%1:03:00::"], [4, "say%2:32:00::"], [7, "jump%2:38:00::"], [10, "wing%1:06:00::"]]
+    wn30_key: [[3, "person%1:03:00::"], [4, "say%2:32:00::"], [7, "jump%2:38:00::"], [10, "wing%1:06:00::"]]
+V4KG:
+    lemmas: ["The", "expression", "be", "his", "trademark", ",", "his", "open_sesame", "to", "good_luck", ",", "and", "his", "prayer", "that", "pilot", "and", "plane", "would", "always", "return", "."]
+    oewn2026_key: [[1, "oewn-07166088-n"], [2, "oewn-02622439-v"], [4, "oewn-04739783-n"], [7, "oewn-00180124-n"], [9, "oewn-14497239-n"], [13, "oewn-07203790-n"], [15, "oewn-10452928-n"], [17, "oewn-02694015-n"], [19, "oewn-00019801-r"], [20, "oewn-02008888-v"]]
+    paragraph: '6'
+    pos: ["DT", "NN", "VBD", "PRP$", "NN", ",", "PRP$", "NN", "TO", "NN", ",", "CC", "PRP$", "NN", "IN", "NN", "CC", "NN", "MD", "RB", "VB", "."]
+    text: ' The expression was his trade-mark, his open_sesame to good_luck, and his prayer
+  that pilot and plane would always return.'
+    tokens: [[1, 4], [5, 15], [16, 19], [20, 23], [24, 34], [34, 35], [36, 39], [40, 51], [52, 54], [55, 64], [64, 65], [66, 69], [70, 73], [74, 80], [81, 85], [86, 91], [92, 95], [96, 101], [102, 107], [108, 114], [115, 121], [121, 122]]
+    wn16_key: [[1, "expression%1:10:00::"], [2, "be%2:42:06::"], [4, "trademark%1:07:00::"], [7, "open_sesame%1:04:00::"], [9, "good_luck%1:26:00::"], [13, "prayer%1:10:02::"], [15, "pilot%1:18:00::"], [17, "plane%1:06:01::"], [19, "always%4:02:00::"], [20, "return%2:38:00::"]]
+    wn30_key: [[1, "expression%1:10:00::"], [2, "be%2:42:06::"], [4, "trademark%1:07:00::"], [7, "open_sesame%1:04:00::"], [9, "good_luck%1:26:00::"], [13, "prayer%1:10:02::"], [15, "pilot%1:18:00::"], [17, "plane%1:06:01::"], [19, "always%4:02:00::"], [20, "return%2:38:00::"]]
+/gtz:
+    lemmas: ["At", "the", "prearranged", "time", ",", "person", "start", "the", "engine", "and", "taxi", "out", "."]
+    oewn2026_key: [[3, "oewn-15154879-n"], [5, "oewn-00007846-n"], [6, "oewn-01861703-v"], [8, "oewn-03292644-n"], [10, "oewn-01952731-v"], [11, "oewn-00234593-r;oewn-00235144-r"]]
+    paragraph: '6'
+    pos: ["IN", "DT", "JJ", "NN", ",", "NNP", "VBD", "DT", "NN", "CC", "VBD", "RP", "."]
+    text: ' At the prearranged time, Greg started the engine and taxied out.'
+    tokens: [[1, 3], [4, 7], [8, 19], [20, 24], [24, 25], [26, 30], [31, 38], [39, 42], [43, 49], [50, 53], [54, 60], [61, 64], [64, 65]]
+    wn16_key: [[2, "prearranged%5:00:00:planned:00"], [3, "time%1:28:03::"], [5, "person%1:03:00::"], [6, "start%2:38:01::"], [8, "engine%1:06:00::"], [10, "taxi%2:38:01::"], [11, "out%4:02:01::"]]
+    wn30_key: [[3, "time%1:28:03::"], [5, "person%1:03:00::"], [6, "start%2:38:01::"], [8, "engine%1:06:00::"], [10, "taxi%2:38:01::"], [11, "out%4:02:02::;out%4:02:04::"]]
+G1Ox:
+    lemmas: ["From", "the", "time", "the", "chock", "be", "pull", "until", "the", "plane", "be", "out_of_sight", ",", "he", "know", "person", "would", "keep", "his", "back", "to", "the", "strip", "."]
+    oewn2026_key: [[2, "oewn-07324217-n"], [4, "oewn-03027561-n"], [6, "oewn-01450719-v"], [9, "oewn-02694015-n"], [10, "oewn-02661230-v"], [11, "oewn-02527874-s"], [14, "oewn-00596016-v"], [15, "oewn-00007846-n"], [17, "oewn-02687605-v"], [19, "oewn-05566350-n"], [22, "oewn-02695929-n"]]
+    paragraph: '6'
+    pos: ["IN", "DT", "NN", "DT", "NNS", "VBD", "VBN", "IN", "DT", "NN", "VBD", "JJ", ",", "PRP", "VBD", "NNP", "MD", "VB", "PRP$", "NN", "TO", "DT", "NN", "."]
+    text: ' From the time the chocks were pulled until the plane was out_of_sight, he knew Donovan
+  would keep his back to the strip.'
+    tokens: [[1, 5], [6, 9], [10, 14], [15, 18], [19, 25], [26, 30], [31, 37], [38, 43], [44, 47], [48, 53], [54, 57], [58, 70], [70, 71], [72, 74], [75, 79], [80, 87], [88, 93], [94, 98], [99, 102], [103, 107], [108, 110], [111, 114], [115, 120], [120, 121]]
+    wn16_key: [[2, "time%1:11:00::"], [4, "chock%1:06:00::"], [6, "pull%2:35:00::"], [9, "plane%1:06:01::"], [10, "be%2:42:05::"], [11, "out_of_sight%5:00:00:invisible:00"], [14, "know%2:31:01::"], [15, "person%1:03:00::"], [17, "keep%2:42:00::"], [19, "back%1:08:00::"], [22, "strip%1:06:02::"]]
+    wn30_key: [[2, "time%1:11:00::"], [4, "chock%1:06:00::"], [6, "pull%2:35:00::"], [9, "plane%1:06:01::"], [10, "be%2:42:05::"], [11, "out_of_sight%3:00:00:invisible:00"], [14, "know%2:31:01::"], [15, "person%1:03:00::"], [17, "keep%2:42:00::"], [19, "back%1:08:00::"], [22, "strip%1:06:02::"]]
+qDRZ:
+    lemmas: ["He", "wonder", "where", "the", "superstition", "have", "originate", "that", "it", "be", "bad_luck", "for", "a", "crew", "chief", "to", "watch", "his", "plane", "take_off", "on", "a", "combat_mission", "."]
+    oewn2026_key: [[1, "oewn-00731363-v"], [4, "oewn-05961545-n"], [6, "oewn-02630344-v"], [9, "oewn-02610777-v"], [10, "oewn-14498989-n"], [13, "oewn-08290088-n"], [14, "oewn-10123978-n"], [16, "oewn-02154940-v"], [18, "oewn-02694015-n"], [19, "oewn-02018405-v;oewn-02018017-v"], [22, "oewn-00973007-n"]]
+    paragraph: '6'
+    pos: ["PRP", "VBD", "WRB", "DT", "NN", "VBD", "VBN", "IN", "PRP", "VBD", "NN", "IN", "DT", "NN", "NN", "TO", "VB", "PRP$", "NN", "VB", "IN", "DT", "NN", "."]
+    text: ' He wondered where the superstition had originated that it was bad_luck for a crew
+  chief to watch his plane take_off on a combat_mission.'
+    tokens: [[1, 3], [4, 12], [13, 18], [19, 22], [23, 35], [36, 39], [40, 50], [51, 55], [56, 58], [59, 62], [63, 71], [72, 75], [76, 77], [78, 82], [83, 88], [89, 91], [92, 97], [98, 101], [102, 107], [108, 116], [117, 119], [120, 121], [122, 136], [136, 137]]
+    wn16_key: [[1, "wonder%2:31:00::"], [4, "superstition%1:09:00::"], [6, "originate%2:42:00::"], [9, "be%2:42:03::"], [10, "bad_luck%1:26:00::"], [13, "crew%1:14:01::"], [14, "chief%1:18:01::"], [16, "watch%2:39:00::"], [18, "plane%1:06:01::"], [19, "take_off%2:38:02::;take_off%2:38:00::"], [22, "combat_mission%1:04:00::"]]
+    wn30_key: [[1, "wonder%2:31:00::"], [4, "superstition%1:09:00::"], [6, "originate%2:42:00::"], [9, "be%2:42:03::"], [10, "bad_luck%1:26:00::"], [13, "crew%1:14:01::"], [14, "chief%1:18:01::"], [16, "watch%2:39:00::"], [18, "plane%1:06:01::"], [19, "take_off%2:38:02::;take_off%2:38:00::"], [22, "combat_mission%1:04:00::"]]
+hiv1:
+    lemmas: ["yet", "long", "before", "the", "scheduled", "time", "for", "return", ",", "person", "would", "be", "watch", "for", "every", "speck", "in", "the", "sky", "."]
+    oewn2026_key: [[1, "oewn-00167240-r"], [4, "oewn-02375284-a"], [5, "oewn-15154879-n"], [7, "oewn-00328841-n"], [9, "oewn-00007846-n"], [12, "oewn-02154940-v"], [15, "oewn-04688587-n"], [18, "oewn-09459612-n"]]
+    paragraph: '6'
+    pos: ["RB", "RB", "IN", "DT", "JJ", "NN", "IN", "NN", ",", "NNP", "MD", "VB", "VBG", "IN", "DT", "NN", "RB", "RB", "NN", "."]
+    text: ' Yet long before the scheduled time for return, Donovan would be watching for every
+  speck in the sky.
+
+  '
+    tokens: [[1, 4], [5, 9], [10, 16], [17, 20], [21, 30], [31, 35], [36, 39], [40, 46], [46, 47], [48, 55], [56, 61], [62, 64], [65, 73], [74, 77], [78, 83], [84, 89], [90, 92], [93, 96], [97, 100], [100, 101]]
+    wn16_key: [[1, "long%4:02:00::"], [4, "scheduled%3:00:00::"], [5, "time%1:28:03::"], [7, "return%1:04:00::"], [9, "person%1:03:00::"], [12, "watch%2:39:00::"], [15, "speck%1:07:00::"], [18, "sky%1:17:00::"]]
+    wn30_key: [[1, "long%4:02:00::"], [4, "scheduled%3:00:00::"], [5, "time%1:28:03::"], [7, "return%1:04:00::"], [9, "person%1:03:00::"], [12, "watch%2:39:00::"], [15, "speck%1:07:00::"], [18, "sky%1:17:00::"]]
+y+R9:
+    lemmas: ["person", "rumble", "down", "the", "rough", "metal", "taxi_strip", ",", "and", "one_by_one", "the", "seven", "member", "of", "his", "flight", "fall_in", "behind", "him", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-02191766-v"], [2, "oewn-00095870-r"], [4, "oewn-02246206-a"], [5, "oewn-01531539-a"], [6, "oewn-04403601-n"], [9, "oewn-00508298-r"], [11, "oewn-02194609-s"], [12, "oewn-10326901-n"], [15, "oewn-08237361-n"], [16, "oewn-02439706-v"]]
+    paragraph: '7'
+    pos: ["NNP", "VBD", "RP", "DT", "JJ", "JJ", "NN", ",", "CC", "RB", "DT", "JJ", "NNS", "IN", "PRP$", "NN", "VB", "IN", "PRP", "."]
+    text: ' Greg rumbled down the rough metal taxi_strip, and one_by_one the seven members of
+  his flight fell_in behind him.'
+    tokens: [[1, 5], [6, 13], [14, 18], [19, 22], [23, 28], [29, 34], [35, 45], [45, 46], [47, 50], [51, 61], [62, 65], [66, 71], [72, 79], [80, 82], [83, 86], [87, 93], [94, 101], [102, 108], [109, 112], [112, 113]]
+    wn16_key: [[0, "person%1:03:00::"], [1, "rumble%2:39:00::"], [2, "down%4:02:00::"], [4, "rough%3:00:00::"], [5, "metal%3:00:00::"], [6, "taxi_strip%1:06:00::"], [9, "one_by_one%4:02:02::"], [11, "seven%5:00:00:cardinal:00"], [12, "member%1:18:00::"], [15, "flight%1:14:00::"], [16, "fall_in%2:41:02::"]]
+    wn30_key: [[0, "person%1:03:00::"], [1, "rumble%2:39:00::"], [2, "down%4:02:00::"], [4, "rough%3:00:00::"], [5, "metal%3:00:00::"], [6, "taxi_strip%1:06:00::"], [9, "one_by_one%4:02:02::"], [11, "seven%3:00:00:cardinal:00"], [12, "member%1:18:00::"], [15, "flight%1:14:00::"], [16, "fall_in%2:41:02::"]]
+44/W:
+    lemmas: ["The", "dark", "brown", "bomb", "hang", "under", "each", "wing", "look", "large", "and", "powerful", "."]
+    oewn2026_key: [[1, "oewn-00410517-a"], [2, "oewn-00373173-s"], [3, "oewn-02869918-n"], [4, "oewn-01484705-v"], [7, "oewn-04600068-n"], [8, "oewn-02137900-v"], [9, "oewn-01385012-a"], [11, "oewn-01831389-a"]]
+    paragraph: '7'
+    pos: ["DT", "JJ", "JJ", "NNS", "VBG", "IN", "DT", "NN", "VBD", "JJ", "CC", "JJ", "."]
+    text: ' The dark brown bombs hanging under each wing looked large and powerful.'
+    tokens: [[1, 4], [5, 9], [10, 15], [16, 21], [22, 29], [30, 35], [36, 40], [41, 45], [46, 52], [53, 58], [59, 62], [63, 71], [71, 72]]
+    wn16_key: [[1, "dark%3:00:02::"], [2, "brown%5:00:00:chromatic:00"], [3, "bomb%1:06:00::"], [4, "hang%2:35:03::"], [7, "wing%1:06:00::"], [8, "look%2:39:01::"], [9, "large%3:00:00::"], [11, "powerful%3:00:00::"]]
+    wn30_key: [[1, "dark%3:00:02::"], [2, "brown%3:00:00:chromatic:00"], [3, "bomb%1:06:00::"], [4, "hang%2:35:03::"], [7, "wing%1:06:00::"], [8, "look%2:39:01::"], [9, "large%3:00:00::"], [11, "powerful%3:00:00::"]]
+DoCd:
+    lemmas: ["The", "pilot", "'", "head", "look", "ridiculously", "small", "."]
+    oewn2026_key: [[1, "oewn-10452928-n"], [3, "oewn-05546258-n"], [4, "oewn-02137900-v"], [5, "oewn-00388921-r"], [6, "oewn-01394303-a"]]
+    paragraph: '7'
+    pos: ["DT", "NNS", "POS", "NNS", "VBD", "RB", "JJ", "."]
+    text: ' The pilots'' heads looked ridiculously small.'
+    tokens: [[1, 4], [5, 11], [11, 12], [13, 18], [19, 25], [26, 38], [39, 44], [44, 45]]
+    wn16_key: [[1, "pilot%1:18:00::"], [3, "head%1:08:00::"], [4, "look%2:39:01::"], [5, "ridiculously%4:02:00::"], [6, "small%3:00:00::"]]
+    wn30_key: [[1, "pilot%1:18:00::"], [3, "head%1:08:00::"], [4, "look%2:39:01::"], [5, "ridiculously%4:02:00::"], [6, "small%3:00:00::"]]
+FswG:
+    lemmas: ["The", "control_tower", "give", "him", "immediate", "takeoff", "permission", ",", "and", "the", "clean", "roar", "of", "the", "engine", "that", "take_off", "him", "off", "the", "rough", "strip", "speak", "well", "of", "the", "skill", "of", "person", "."]
+    oewn2026_key: [[1, "oewn-03103610-n"], [2, "oewn-02321848-v"], [4, "oewn-00773875-a"], [5, "oewn-00306928-n"], [6, "oewn-06702042-n"], [10, "oewn-01754399-s"], [11, "oewn-07392282-n"], [14, "oewn-03292644-n"], [16, "oewn-02018405-v"], [20, "oewn-02246206-a"], [21, "oewn-02695929-n"], [22, "oewn-00964479-v"], [23, "oewn-00013554-r"], [26, "oewn-05644732-n"], [28, "oewn-00007846-n"]]
+    paragraph: '7'
+    pos: ["DT", "NN", "VBD", "PRP", "JJ", "NN", "NN", ",", "CC", "DT", "JJ", "NN", "IN", "DT", "NN", "WDT", "VBD", "PRP", "IN", "DT", "JJ", "NN", "VBD", "RB", "IN", "DT", "NN", "IN", "NNP", "."]
+    text: ' The control_tower gave him immediate take-off permission, and the clean roar of
+  the engine that took him off the rough strip spoke well of the skill of Donovan.
+
+  '
+    tokens: [[1, 4], [5, 18], [19, 23], [24, 27], [28, 37], [38, 46], [47, 57], [57, 58], [59, 62], [63, 66], [67, 72], [73, 77], [78, 80], [81, 84], [85, 91], [92, 96], [97, 101], [102, 105], [106, 109], [110, 113], [114, 119], [120, 125], [126, 131], [132, 136], [137, 139], [140, 143], [144, 149], [150, 152], [153, 160], [160, 161]]
+    wn16_key: [[1, "control_tower%1:06:00::"], [2, "give%2:40:03::"], [4, "immediate%3:00:00::"], [5, "takeoff%1:04:00::"], [6, "permission%1:10:00::"], [10, "clean%5:00:00:perfect:00"], [11, "roar%1:11:00::"], [14, "engine%1:06:00::"], [16, "take_off%2:38:02::"], [20, "rough%3:00:00::"], [21, "strip%1:06:02::"], [22, "speak%2:32:01::"], [23, "well%4:02:07::"], [26, "skill%1:09:00::"], [28, "person%1:03:00::"]]
+    wn30_key: [[1, "control_tower%1:06:00::"], [2, "give%2:40:03::"], [4, "immediate%3:00:00::"], [5, "takeoff%1:04:00::"], [6, "permission%1:10:00::"], [10, "clean%3:00:00:perfect:00"], [11, "roar%1:11:00::"], [14, "engine%1:06:00::"], [16, "take_off%2:38:02::"], [20, "rough%3:00:00::"], [21, "strip%1:06:02::"], [22, "speak%2:32:01::"], [23, "well%4:02:07::"], [26, "skill%1:09:00::"], [28, "person%1:03:00::"]]
+Dc0M:
+    lemmas: ["person", "'s", "mission", "be", "the", "last", "to", "leave", ",", "and", "as", "he", "circle", "the", "ship", "off", "location", "he", "see", "the", "cloud", "be", "drop_down", "again", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-00972749-n"], [3, "oewn-02622439-v"], [5, "oewn-01016876-a"], [7, "oewn-02013448-v"], [12, "oewn-01915332-v"], [14, "oewn-04201332-n"], [16, "oewn-00027365-n"], [18, "oewn-00600349-v"], [20, "oewn-09270316-n"], [22, "oewn-01989937-v"], [23, "oewn-00040777-r"]]
+    paragraph: '8'
+    pos: ["NNP", "POS", "NN", "VBD", "DT", "JJ", "TO", "VB", ",", "CC", "IN", "PRP", "VBD", "DT", "NNS", "IN", "NNP", "PRP", "VBD", "DT", "NNS", "VBD", "VB", "RB", "."]
+    text: ' Greg''s mission was the last to leave, and as he circled the ships off Tacloban
+  he saw the clouds were dropping_down again.'
+    tokens: [[1, 5], [5, 7], [8, 15], [16, 19], [20, 23], [24, 28], [29, 31], [32, 37], [37, 38], [39, 42], [43, 45], [46, 48], [49, 56], [57, 60], [61, 66], [67, 70], [71, 79], [80, 82], [83, 86], [87, 90], [91, 97], [98, 102], [103, 116], [117, 122], [122, 123]]
+    wn16_key: [[0, "person%1:03:00::"], [2, "mission%1:04:01::"], [3, "be%2:42:06::"], [5, "last%3:00:00::"], [7, "leave%2:38:01::"], [12, "circle%2:38:01::"], [14, "ship%1:06:00::"], [16, "location%1:03:00::"], [18, "see%2:31:02::"], [20, "cloud%1:17:00::"], [22, "drop_down%2:38:01::"], [23, "again%4:02:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [2, "mission%1:04:01::"], [3, "be%2:42:06::"], [5, "last%3:00:00::"], [7, "leave%2:38:01::"], [12, "circle%2:38:01::"], [14, "ship%1:06:00::"], [16, "location%1:03:00::"], [18, "see%2:31:02::"], [20, "cloud%1:17:00::"], [22, "drop_down%2:38:00::"], [23, "again%4:02:00::"]]
+FLfn:
+    lemmas: ["To", "the", "west", ",", "the", "dark", "green", "hills", "of", "location", "be", "lose", "in", "the", "cloud", "about", "halfway", "up", "their", "slope", "."]
+    oewn2026_key: [[2, "oewn-13856598-n"], [5, "oewn-00410517-a"], [6, "oewn-00377031-s"], [9, "oewn-00027365-n"], [11, "oewn-02201537-v"], [14, "oewn-09270316-n"], [16, "oewn-00256895-r"], [19, "oewn-09460358-n"]]
+    paragraph: '8'
+    pos: ["TO", "DT", "NN", ",", "DT", "JJ", "JJ", "NN", "IN", "NNP", "VBD", "VBN", "IN", "DT", "NNS", "IN", "RB", "IN", "PRP$", "NNS", "."]
+    text: ' To the west, the dark green hills of Leyte were lost in the clouds about halfway
+  up their slopes.'
+    tokens: [[1, 3], [4, 7], [8, 12], [12, 13], [14, 17], [18, 22], [23, 28], [29, 34], [35, 37], [38, 43], [44, 48], [49, 53], [54, 56], [57, 60], [61, 67], [68, 73], [74, 81], [82, 84], [85, 90], [91, 97], [97, 98]]
+    wn16_key: [[2, "west%1:24:00::"], [5, "dark%3:00:02::"], [6, "green%5:00:00:chromatic:00"], [7, "hills%1:17:00::"], [9, "location%1:03:00::"], [11, "lose%2:39:00::"], [14, "cloud%1:17:00::"], [16, "halfway%4:02:00::"], [19, "slope%1:17:00::"]]
+    wn30_key: [[2, "west%1:24:00::"], [5, "dark%3:00:02::"], [6, "green%3:00:00:chromatic:00"], [9, "location%1:03:00::"], [11, "lose%2:39:00::"], [14, "cloud%1:17:00::"], [16, "halfway%4:02:00::"], [19, "slope%1:17:00::"]]
+vJUY:
+    lemmas: ["Underneath", "him", "the", "sea", "be", "a", "dark", "and", "muddied", "gray", "."]
+    oewn2026_key: [[3, "oewn-09449666-n"], [4, "oewn-02610777-v"], [6, "oewn-00410517-a"], [8, "oewn-01915458-s"], [9, "oewn-00390371-s"]]
+    paragraph: '8'
+    pos: ["IN", "PRP", "DT", "NN", "VBD", "DT", "JJ", "CC", "JJ", "JJ", "."]
+    text: ' Underneath him the sea was a dark and muddied gray.'
+    tokens: [[1, 11], [12, 15], [16, 19], [20, 23], [24, 27], [28, 29], [30, 34], [35, 38], [39, 46], [47, 51], [51, 52]]
+    wn16_key: [[3, "sea%1:17:00::"], [4, "be%2:42:03::"], [6, "dark%3:00:02::"], [8, "muddied%5:00:00:impure:02"], [9, "gray%5:00:00:achromatic:00"]]
+    wn30_key: [[3, "sea%1:17:00::"], [4, "be%2:42:03::"], [6, "dark%3:00:02::"], [8, "muddied%3:00:00:impure:02"], [9, "gray%3:00:00:achromatic:00"]]
+VRs9:
+    lemmas: ["water", "splash", "against", "his", "windshield", "as", "he", "lead", "the", "flight", "in", "and", "out", "of", "shower", "."]
+    oewn2026_key: [[0, "oewn-14869913-n"], [1, "oewn-01376685-v"], [4, "oewn-04597856-n"], [7, "oewn-02003830-v"], [9, "oewn-08237455-n"], [10, "oewn-00504204-r"], [12, "oewn-00235144-r"], [14, "oewn-11522915-n"]]
+    paragraph: '8'
+    pos: ["NNP", "VBD", "IN", "PRP$", "NN", "IN", "PRP", "VBD", "DT", "NN", "RB", "CC", "RB", "IN", "NNS", "."]
+    text: ' Water splashed against his windshield as he led the flight in and out of showers.'
+    tokens: [[1, 6], [7, 15], [16, 23], [24, 27], [28, 38], [39, 41], [42, 44], [45, 48], [49, 52], [53, 59], [60, 62], [63, 66], [67, 70], [71, 73], [74, 81], [81, 82]]
+    wn16_key: [[0, "water%1:27:00::"], [1, "splash%2:35:00::"], [4, "windshield%1:06:00::"], [7, "lead%2:38:01::"], [9, "flight%1:14:01::"], [10, "in%4:02:01::"], [12, "out%4:02:00::"], [14, "shower%1:19:00::"]]
+    wn30_key: [[0, "water%1:27:00::"], [1, "splash%2:35:00::"], [4, "windshield%1:06:00::"], [7, "lead%2:38:01::"], [9, "flight%1:14:01::"], [10, "in%4:02:01::"], [12, "out%4:02:04::"], [14, "shower%1:19:00::"]]
+A5kM:
+    lemmas: ["The", "metal", "strip", "they", "have", "take_off", "from", "be", "coal-black", "against", "the", "green", "jungle", "around", "it", "."]
+    oewn2026_key: [[1, "oewn-01531539-a"], [2, "oewn-02695929-n"], [5, "oewn-02018405-v;oewn-02018017-v"], [7, "oewn-02610777-v"], [8, "oewn-00389910-s"], [11, "oewn-00377031-s"], [12, "oewn-08526132-n"]]
+    paragraph: '8'
+    pos: ["DT", "JJ", "NN", "PRP", "VBD", "VB", "IN", "VBD", "JJ", "IN", "DT", "JJ", "NN", "IN", "PRP", "."]
+    text: ' The metal strip they had taken_off from was coal_black against the green jungle
+  around it.'
+    tokens: [[1, 4], [5, 10], [11, 16], [17, 21], [22, 25], [26, 35], [36, 40], [41, 44], [45, 55], [56, 63], [64, 67], [68, 73], [74, 80], [81, 87], [88, 90], [90, 91]]
+    wn16_key: [[1, "metal%3:00:00::"], [2, "strip%1:06:02::"], [5, "take_off%2:38:02::;take_off%2:38:00::"], [7, "be%2:42:03::"], [8, "coal-black%5:00:00:achromatic:00"], [11, "green%5:00:00:chromatic:00"], [12, "jungle%1:17:00::"]]
+    wn30_key: [[1, "metal%3:00:00::"], [2, "strip%1:06:02::"], [5, "take_off%2:38:02::;take_off%2:38:00::"], [7, "be%2:42:03::"], [8, "coal-black%3:00:00:achromatic:00"], [11, "green%3:00:00:chromatic:00"], [12, "jungle%1:15:00::"]]
+PnWI:
+    lemmas: ["He", "possess", "the", "fighter", "pilot", "'s", "horror", "of", "bad_weather", "and", "instrument_flying", ",", "and", "he", "wonder", ",", "if", "the", "ceiling", "do", "drop", ",", "whether", "he", "and", "the", "other", "flight", "would", "be", "able", "to", "find", "their", "way", "back", "in_this", "unfamiliar", "territory", "."]
+    oewn2026_key: [[1, "oewn-02638248-v"], [3, "oewn-03339975-n"], [4, "oewn-10452928-n"], [6, "oewn-07535650-n"], [8, "oewn-14546692-n"], [10, "oewn-00818080-n"], [14, "oewn-00927081-v"], [18, "oewn-05139807-n"], [20, "oewn-01980855-v"], [26, "oewn-02076759-a"], [27, "oewn-08237361-n"], [29, "oewn-02610777-v"], [30, "oewn-00001740-a"], [32, "oewn-02290474-v"], [34, "oewn-04571984-n"], [35, "oewn-00075427-r"], [37, "oewn-00969666-a"], [38, "oewn-08569713-n"]]
+    paragraph: '8'
+    pos: ["PRP", "VBD", "DT", "NN", "NN", "POS", "NN", "IN", "NN", "CC", "NN", ",", "CC", "PRP", "VBD", ",", "IN", "DT", "NN", "VBD", "VB", ",", "IN", "PRP", "CC", "DT", "JJ", "NNS", "MD", "VB", "JJ", "TO", "VB", "PRP$", "NN", "RB", "RB", "JJ", "NN", "."]
+    text: ' He possessed the fighter pilot''s horror of bad_weather and instrument_flying, and
+  he wondered, if the ceiling did drop, whether he and the other flights would be
+  able to find their way back in_this unfamiliar territory.'
+    tokens: [[1, 3], [4, 13], [14, 17], [18, 25], [26, 31], [31, 33], [34, 40], [41, 43], [44, 55], [56, 59], [60, 77], [77, 78], [79, 82], [83, 85], [86, 94], [94, 95], [96, 98], [99, 102], [103, 110], [111, 114], [115, 119], [119, 120], [121, 128], [129, 131], [132, 135], [136, 139], [140, 145], [146, 153], [154, 159], [160, 162], [163, 167], [168, 170], [171, 175], [176, 181], [182, 185], [186, 190], [191, 198], [199, 209], [210, 219], [219, 220]]
+    wn16_key: [[1, "possess%2:42:00::"], [3, "fighter%1:06:00::"], [4, "pilot%1:18:00::"], [6, "horror%1:12:01::"], [8, "bad_weather%1:26:00::"], [10, "instrument_flying%1:04:00::"], [14, "wonder%2:32:01::"], [18, "ceiling%1:07:00::"], [20, "drop%2:38:00::"], [26, "other%3:00:00::"], [27, "flight%1:14:00::"], [29, "be%2:42:03::"], [30, "able%3:00:00::"], [32, "find%2:40:00::"], [34, "way%1:06:00::"], [35, "back%4:02:04::"], [37, "unfamiliar%3:00:00::"], [38, "territory%1:15:00::"]]
+    wn30_key: [[1, "possess%2:42:00::"], [3, "fighter%1:06:00::"], [4, "pilot%1:18:00::"], [6, "horror%1:12:01::"], [8, "bad_weather%1:26:00::"], [10, "instrument_flying%1:04:00::"], [14, "wonder%2:32:01::"], [18, "ceiling%1:07:00::"], [20, "drop%2:38:00::"], [26, "other%3:00:00::"], [27, "flight%1:14:00::"], [29, "be%2:42:03::"], [30, "able%3:00:00::"], [32, "find%2:40:00::"], [34, "way%1:06:00::"], [35, "back%4:02:04::"], [37, "unfamiliar%3:00:00::"], [38, "territory%1:15:00::"]]
+OC0E:
+    lemmas: ["He", "shiver", "in", "the", "warm", "cockpit", "."]
+    oewn2026_key: [[1, "oewn-00014194-v"], [4, "oewn-02539669-a"], [5, "oewn-03065508-n"]]
+    paragraph: '8'
+    pos: ["PRP", "VBD", "IN", "DT", "JJ", "NN", "."]
+    text: ' He shivered in the warm cockpit.
+
+  '
+    tokens: [[1, 3], [4, 12], [13, 15], [16, 19], [20, 24], [25, 32], [32, 33]]
+    wn16_key: [[1, "shiver%2:29:00::"], [4, "warm%3:00:01::"], [5, "cockpit%1:06:00::"]]
+    wn30_key: [[1, "shiver%2:29:00::"], [4, "warm%3:00:01::"], [5, "cockpit%1:06:00::"]]
+hRMJ:
+    lemmas: ["The", "overcast", "be", "solid", "above", "him", "."]
+    oewn2026_key: [[1, "oewn-14547800-n"], [2, "oewn-02610777-v"], [3, "oewn-00292047-s"]]
+    paragraph: '9'
+    pos: ["DT", "NN", "VBD", "JJ", "IN", "PRP", "."]
+    text: ' The overcast was solid above him.'
+    tokens: [[1, 4], [5, 13], [14, 17], [18, 23], [24, 29], [30, 33], [33, 34]]
+    wn16_key: [[1, "overcast%1:26:00::"], [2, "be%2:42:03::"], [3, "solid%5:00:00:unbroken:02"]]
+    wn30_key: [[1, "overcast%1:26:00::"], [2, "be%2:42:03::"], [3, "solid%3:00:00:unbroken:02"]]
+Rn8p:
+    lemmas: ["as", "far", "as", "he", "could", "see", "there", "be", "no", "hole", "to", "climb", "through", "it", "."]
+    oewn2026_key: [[1, "oewn-00102040-r"], [5, "oewn-02133754-v"], [9, "oewn-09327371-n"], [11, "oewn-01925957-v"]]
+    paragraph: '9'
+    pos: ["RB", "RB", "IN", "PRP", "MD", "VB", "EX", "VBD", "DT", "NN", "TO", "VB", "IN", "PRP", "."]
+    text: ' As far as he could see there was no hole to climb through it.'
+    tokens: [[1, 3], [4, 7], [8, 10], [11, 13], [14, 19], [20, 23], [24, 29], [30, 33], [34, 36], [37, 41], [42, 44], [45, 50], [51, 58], [59, 61], [61, 62]]
+    wn16_key: [[1, "far%4:02:04::"], [5, "see%2:39:00::"], [9, "hole%1:17:01::"], [11, "climb%2:38:00::"]]
+    wn30_key: [[1, "far%4:02:04::"], [5, "see%2:39:00::"], [9, "hole%1:17:01::"], [11, "climb%2:38:00::"]]
+BDJH:
+    lemmas: ["They", "would", "have", "to", "go", "west", "through", "the", "narrow", "river", "valley", "that", "separate", "location", "from", "location", "and", "hope", "that", "it", "do", "n't", "close_in", "before", "they", "return", "."]
+    oewn2026_key: [[4, "oewn-01839438-v"], [5, "oewn-00325301-r"], [8, "oewn-02572618-a"], [9, "oewn-09434308-n"], [10, "oewn-09491734-n"], [12, "oewn-02627934-v"], [13, "oewn-00027365-n"], [15, "oewn-00027365-n"], [17, "oewn-01830665-v"], [22, "oewn-02058627-v"], [25, "oewn-02008888-v"]]
+    paragraph: '9'
+    pos: ["PRP", "MD", "VB", "TO", "VB", "RB", "IN", "DT", "JJ", "NN", "NN", "WDT", "VBD", "NNP", "IN", "NNP", "CC", "VBP", "IN", "PRP", "VBD", "RB", "VB", "IN", "PRP", "VBD", "."]
+    text: ' They would have to go west through the narrow river valley that separated Leyte
+  from Samar and hope that it didn''t close_in before they returned.
+
+  '
+    tokens: [[1, 5], [6, 11], [12, 16], [17, 19], [20, 22], [23, 27], [28, 35], [36, 39], [40, 46], [47, 52], [53, 59], [60, 64], [65, 74], [75, 80], [81, 85], [86, 91], [92, 95], [96, 100], [101, 105], [106, 108], [109, 112], [112, 115], [116, 124], [125, 131], [132, 136], [137, 145], [145, 146]]
+    wn16_key: [[4, "go%2:38:00::"], [5, "west%4:02:00::"], [8, "narrow%3:00:00::"], [9, "river%1:17:00::"], [10, "valley%1:17:00::"], [12, "separate%2:42:00::"], [13, "location%1:03:00::"], [15, "location%1:03:00::"], [17, "hope%2:37:01::"], [21, "n't%4:02:00::"], [22, "close_in%2:38:00::"], [25, "return%2:38:00::"]]
+    wn30_key: [[4, "go%2:38:00::"], [5, "west%4:02:00::"], [8, "narrow%3:00:00::"], [9, "river%1:17:00::"], [10, "valley%1:17:00::"], [12, "separate%2:42:00::"], [13, "location%1:03:00::"], [15, "location%1:03:00::"], [17, "hope%2:37:01::"], [22, "close_in%2:38:00::"], [25, "return%2:38:00::"]]
+8e8B:
+    lemmas: ["location", "push", "the", "radio", "button", "on", "his", "throttle", "."]
+    oewn2026_key: [[0, "oewn-00027365-n"], [1, "oewn-01875972-v"], [3, "oewn-04048624-n"], [4, "oewn-04033499-n"], [7, "oewn-02672816-n"]]
+    paragraph: '10'
+    pos: ["NNP", "VBD", "DT", "NN", "NN", "IN", "PRP$", "NN", "."]
+    text: ' Greg pushed the radio button on his throttle.'
+    tokens: [[1, 5], [6, 12], [13, 16], [17, 22], [23, 29], [30, 32], [33, 36], [37, 45], [45, 46]]
+    wn16_key: [[0, "location%1:03:00::"], [1, "push%2:38:00::"], [3, "radio%1:06:00::"], [4, "button%1:06:01::"], [7, "throttle%1:06:00::"]]
+    wn30_key: [[0, "location%1:03:00::"], [1, "push%2:38:00::"], [3, "radio%1:06:00::"], [4, "button%1:06:01::"], [7, "throttle%1:06:00::"]]
++AGu:
+    lemmas: ["\"", "person", ",", "let", "'s", "try", "to", "go", "under", "this", "stuff", "."]
+    oewn2026_key: [[1, "oewn-00007846-n"], [5, "oewn-02535833-v"], [7, "oewn-01839438-v"], [10, "oewn-14604877-n"]]
+    paragraph: '10'
+    pos: ["``", "NNP", ",", "VB", "POS", "VB", "TO", "VB", "VB", "DT", "NN", "."]
+    text: ' " Todman, let''s try to go under this stuff.'
+    tokens: [[1, 2], [3, 9], [9, 10], [11, 14], [14, 16], [17, 20], [21, 23], [24, 26], [27, 32], [33, 37], [38, 43], [43, 44]]
+    wn16_key: [[1, "person%1:03:00::"], [5, "try%2:41:00::"], [7, "go%2:38:00::"], [10, "stuff%1:27:00::"]]
+    wn30_key: [[1, "person%1:03:00::"], [5, "try%2:41:00::"], [7, "go%2:38:00::"], [10, "stuff%1:27:00::"]]
+eRT6:
+    lemmas: ["stay", "in", "close", "and", "we", "'ll", "go", "up", "the", "valley", "\"", "."]
+    oewn2026_key: [[0, "oewn-00117793-v"], [2, "oewn-00411619-r"], [6, "oewn-01839438-v"], [9, "oewn-09491734-n"]]
+    paragraph: '10'
+    pos: ["VB", "RB", "RB", "CC", "PRP", "MD", "VB", "VB", "DT", "NN", "''", "."]
+    text: ' Stay in close and we''ll go up the valley ".
+
+  '
+    tokens: [[1, 5], [6, 8], [9, 14], [15, 18], [19, 21], [21, 24], [25, 27], [28, 30], [31, 34], [35, 41], [42, 43], [43, 44]]
+    wn16_key: [[0, "stay%2:30:00::"], [2, "close%4:02:01::"], [6, "go%2:38:00::"], [9, "valley%1:17:00::"]]
+    wn30_key: [[0, "stay%2:30:00::"], [2, "close%4:02:01::"], [6, "go%2:38:00::"], [9, "valley%1:17:00::"]]
+9Pb2:
+    lemmas: ["\"", "Roger", ",", "person", "\"", ",", "person", "call", "back", ",", "and", "pull", "his", "four", "in", "and", "slightly", "above", "person", "."]
+    oewn2026_key: [[3, "oewn-00007846-n"], [6, "oewn-00007846-n"], [7, "oewn-00915018-v"], [8, "oewn-00075633-r"], [11, "oewn-01507886-v"], [13, "oewn-13766444-n"], [14, "oewn-00504204-r"], [16, "oewn-00036695-r"], [18, "oewn-00007846-n"]]
+    paragraph: '11'
+    pos: ["``", "NNP", ",", "NNP", "``", ",", "NNP", "VBD", "RB", ",", "CC", "VBD", "PRP$", "NN", "RB", "CC", "RB", "IN", "NNP", "."]
+    text: ' " Roger, Sweeney ", Todman called back, and pulled his four in and slightly above
+  Greg.
+
+  '
+    tokens: [[1, 2], [3, 8], [8, 9], [10, 17], [18, 19], [19, 20], [21, 27], [28, 34], [35, 39], [39, 40], [41, 44], [45, 51], [52, 55], [56, 60], [61, 63], [64, 67], [68, 76], [77, 82], [83, 87], [87, 88]]
+    wn16_key: [[3, "person%1:03:00::"], [6, "person%1:03:00::"], [7, "call%2:32:09::"], [8, "back%4:02:06::"], [11, "pull%2:35:02::"], [13, "four%1:23:00::"], [14, "in%4:02:01::"], [16, "slightly%4:02:01::"], [18, "person%1:03:00::"]]
+    wn30_key: [[3, "person%1:03:00::"], [6, "person%1:03:00::"], [7, "call%2:32:09::"], [8, "back%4:02:06::"], [11, "pull%2:35:02::"], [13, "four%1:23:00::"], [14, "in%4:02:01::"], [16, "slightly%4:02:01::"], [18, "person%1:03:00::"]]
+i8/P:
+    lemmas: ["person", "take", "the", "formation", "wide", "around", "three", "A-26", "attack", "bomber", "that", "be", "headed", "north", "over", "the", "location", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-02003830-v"], [3, "oewn-08443418-n"], [4, "oewn-00497941-r"], [6, "oewn-02194219-s"], [9, "oewn-02871055-n"], [11, "oewn-02610777-v"], [12, "oewn-01687881-s"], [13, "oewn-00245502-r"], [16, "oewn-00027365-n"]]
+    paragraph: '12'
+    pos: ["NNP", "VBD", "DT", "NN", "RB", "IN", "JJ", "CD", "JJ", "NNS", "IN", "VBD", "JJ", "RB", "IN", "DT", "NNP", "."]
+    text: ' Greg took the formation wide around three A-26 attack bombers that were headed north
+  over the Gulf.'
+    tokens: [[1, 5], [6, 10], [11, 14], [15, 24], [25, 29], [30, 36], [37, 42], [43, 47], [48, 54], [55, 62], [63, 67], [68, 72], [73, 79], [80, 85], [86, 90], [91, 94], [95, 99], [99, 100]]
+    wn16_key: [[0, "person%1:03:00::"], [1, "take%2:38:09::"], [3, "formation%1:14:00::"], [4, "wide%4:02:01::"], [6, "three%5:00:00:cardinal:00"], [8, "attack%5:00:00:offensive:03"], [9, "bomber%1:06:00::"], [11, "be%2:42:03::"], [12, "headed%5:00:00:oriented:00"], [13, "north%4:02:00::"], [16, "location%1:03:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [1, "take%2:38:09::"], [3, "formation%1:14:00::"], [4, "wide%4:02:01::"], [6, "three%3:00:00:cardinal:00"], [9, "bomber%1:06:00::"], [11, "be%2:42:03::"], [12, "headed%3:00:00:oriented:00"], [13, "north%4:02:00::"], [16, "location%1:03:00::"]]
+46Hf:
+    lemmas: ["He", "drop_down", "to", "five_hundred", "foot", ",", "swing", "a_little", "north", "of", "the", "city", "of", "location", ",", "and", "punch", "into", "the", "opening", "that", "show", "against", "the", "mountain", "."]
+    oewn2026_key: [[1, "oewn-01989937-v"], [3, "oewn-02206300-s"], [4, "oewn-13671663-n"], [6, "oewn-02092012-v"], [7, "oewn-00034050-r"], [8, "oewn-00245502-r"], [11, "oewn-08542298-n"], [13, "oewn-00027365-n"], [16, "oewn-01578367-v"], [19, "oewn-09402023-n"], [21, "oewn-02144017-v"], [24, "oewn-09382700-n"]]
+    paragraph: '12'
+    pos: ["PRP", "VBD", "TO", "JJ", "NNS", ",", "VBG", "RB", "RB", "IN", "DT", "NN", "IN", "NNP", ",", "CC", "VBD", "IN", "DT", "NN", "WDT", "VBD", "IN", "DT", "NN", "."]
+    text: ' He dropped_down to five_hundred feet, swinging a_little north of the city of Tacloban,
+  and punched into the opening that showed against the mountain.
+
+  '
+    tokens: [[1, 3], [4, 16], [17, 19], [20, 32], [33, 37], [37, 38], [39, 47], [48, 56], [57, 62], [63, 65], [66, 69], [70, 74], [75, 77], [78, 86], [86, 87], [88, 91], [92, 99], [100, 104], [105, 108], [109, 116], [117, 121], [122, 128], [129, 136], [137, 140], [141, 149], [149, 150]]
+    wn16_key: [[1, "drop_down%2:38:01::"], [3, "five_hundred%5:00:00:cardinal:00"], [4, "foot%1:23:00::"], [6, "swing%2:38:02::"], [7, "a_little%4:02:00::"], [8, "north%4:02:00::"], [11, "city%1:15:00::"], [13, "location%1:03:00::"], [16, "punch%2:35:04::"], [19, "opening%1:17:00::"], [21, "show%2:39:01::"], [24, "mountain%1:17:00::"]]
+    wn30_key: [[1, "drop_down%2:38:00::"], [3, "five_hundred%3:00:00:cardinal:00"], [4, "foot%1:23:00::"], [6, "swing%2:38:02::"], [7, "a_little%4:02:00::"], [8, "north%4:02:00::"], [11, "city%1:15:00::"], [13, "location%1:03:00::"], [16, "punch%2:35:04::"], [19, "opening%1:17:00::"], [21, "show%2:39:01::"], [24, "mountain%1:17:00::"]]
+KmOS:
+    lemmas: ["The", "valley", "be", "only", "a_few", "hundred", "yard", "wide", "with", "just_about", "room", "enough", "for", "a", "properly", "perform", "hundred-and-eighty", "degree", "turn", "."]
+    oewn2026_key: [[1, "oewn-09491734-n"], [2, "oewn-02610777-v"], [3, "oewn-00005103-r"], [4, "oewn-01557697-s"], [5, "oewn-02203776-s"], [6, "oewn-13672065-n"], [7, "oewn-02571278-a"], [10, "oewn-13799976-n"], [11, "oewn-02344113-s"], [14, "oewn-00197608-r"], [15, "oewn-01716563-v"], [17, "oewn-13632450-n"], [18, "oewn-00347358-n"]]
+    paragraph: '13'
+    pos: ["DT", "NN", "VBD", "RB", "JJ", "JJ", "NNS", "JJ", "IN", "RB", "NN", "JJ", "IN", "DT", "RB", "VBN", "JJ", "NN", "NN", "."]
+    text: ' The valley was only a_few hundred yards wide with just_about room enough for a properly
+  performed hundred-and-eighty degree turn.'
+    tokens: [[1, 4], [5, 11], [12, 15], [16, 20], [21, 26], [27, 34], [35, 40], [41, 45], [46, 50], [51, 61], [62, 66], [67, 73], [74, 77], [78, 79], [80, 88], [89, 98], [99, 117], [118, 124], [125, 129], [129, 130]]
+    wn16_key: [[1, "valley%1:17:00::"], [2, "be%2:42:03::"], [3, "only%4:02:02::"], [4, "a_few%5:00:00:few:00"], [5, "hundred%5:00:00:cardinal:00"], [6, "yard%1:23:00::"], [7, "wide%3:00:00::"], [9, "just_about%4:02:02::"], [10, "room%1:23:00::"], [11, "enough%5:00:00:sufficient:00"], [14, "properly%4:02:00::"], [15, "perform%2:36:00::"], [17, "degree%1:23:00::"], [18, "turn%1:04:02::"]]
+    wn30_key: [[1, "valley%1:17:00::"], [2, "be%2:42:03::"], [3, "only%4:02:02::"], [4, "a_few%3:00:00:few:00"], [5, "hundred%3:00:00:cardinal:00"], [6, "yard%1:23:00::"], [7, "wide%3:00:00::"], [10, "room%1:23:00::"], [11, "enough%3:00:00:sufficient:00"], [14, "properly%4:02:00::"], [15, "perform%2:36:00::"], [17, "degree%1:23:00::"], [18, "turn%1:04:02::"]]
+XHyH:
+    lemmas: ["It", "be", "only", "a", "fifteen", "minute", "flight", ",", "but", "before", "it", "be", "through", "person", "feel", "himself", "develop", "a", "case", "of", "claustrophobia", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-00005103-r"], [4, "oewn-02195432-s"], [5, "oewn-15259561-n"], [6, "oewn-00303220-n"], [11, "oewn-02610777-v"], [12, "oewn-01007109-s"], [13, "oewn-00007846-n"], [14, "oewn-01775456-v"], [16, "oewn-00094214-v"], [18, "oewn-07323507-n"], [20, "oewn-14406657-n"]]
+    paragraph: '13'
+    pos: ["PRP", "VBD", "RB", "DT", "JJ", "NN", "NN", ",", "CC", "IN", "PRP", "VBD", "JJ", "NNP", "VBD", "PRP", "VBG", "DT", "NN", "IN", "NN", "."]
+    text: ' It was only a fifteen minute flight, but before it was through Greg felt himself
+  developing a case of claustrophobia.'
+    tokens: [[1, 3], [4, 7], [8, 12], [13, 14], [15, 22], [23, 29], [30, 36], [36, 37], [38, 41], [42, 48], [49, 51], [52, 55], [56, 63], [64, 68], [69, 73], [74, 81], [82, 92], [93, 94], [95, 99], [100, 102], [103, 117], [117, 118]]
+    wn16_key: [[1, "be%2:42:03::"], [2, "only%4:02:02::"], [4, "fifteen%5:00:00:cardinal:00"], [5, "minute%1:28:00::"], [6, "flight%1:04:00::"], [11, "be%2:42:03::"], [12, "through%5:00:00:finished:01"], [13, "person%1:03:00::"], [14, "feel%2:37:00::"], [16, "develop%2:29:00::"], [18, "case%1:11:00::"], [20, "claustrophobia%1:26:00::"]]
+    wn30_key: [[1, "be%2:42:03::"], [2, "only%4:02:02::"], [4, "fifteen%3:00:00:cardinal:00"], [5, "minute%1:28:00::"], [6, "flight%1:04:00::"], [11, "be%2:42:03::"], [12, "through%3:00:00:finished:01"], [13, "person%1:03:00::"], [14, "feel%2:37:00::"], [16, "develop%2:29:00::"], [18, "case%1:11:00::"], [20, "claustrophobia%1:26:00::"]]
+oIGj:
+    lemmas: ["The", "ceiling", "stay", "solid", "above", "them", "at", "about", "eight", "hundred", "foot", ",", "and", "at_times", "the", "sheer", "cliff", "seem", "about", "to", "close_in", "."]
+    oewn2026_key: [[1, "oewn-05139807-n"], [2, "oewn-00117793-v"], [3, "oewn-00292047-s"], [7, "oewn-00007414-r"], [8, "oewn-02194712-s"], [9, "oewn-02203776-s"], [10, "oewn-13671663-n"], [13, "oewn-00021667-r"], [15, "oewn-01148907-s"], [16, "oewn-09269370-n"], [17, "oewn-02137900-v"], [20, "oewn-02058627-v"]]
+    paragraph: '13'
+    pos: ["DT", "NN", "VBD", "JJ", "IN", "PRP", "IN", "RB", "JJ", "JJ", "NNS", ",", "CC", "RB", "DT", "JJ", "NNS", "VBD", "RB", "TO", "VB", "."]
+    text: ' The ceiling stayed solid above them at about eight hundred feet, and at_times the
+  sheer cliffs seemed about to close_in.'
+    tokens: [[1, 4], [5, 12], [13, 19], [20, 25], [26, 31], [32, 36], [37, 39], [40, 45], [46, 51], [52, 59], [60, 64], [64, 65], [66, 69], [70, 78], [79, 82], [83, 88], [89, 95], [96, 102], [103, 108], [109, 111], [112, 120], [120, 121]]
+    wn16_key: [[1, "ceiling%1:07:00::"], [2, "stay%2:30:00::"], [3, "solid%5:00:00:unbroken:02"], [7, "about%4:02:00::"], [8, "eight%5:00:00:cardinal:00"], [9, "hundred%5:00:00:cardinal:00"], [10, "foot%1:23:00::"], [13, "at_times%4:02:00::"], [15, "sheer%5:00:00:steep:00"], [16, "cliff%1:17:00::"], [17, "seem%2:39:00::"], [20, "close_in%2:38:00::"]]
+    wn30_key: [[1, "ceiling%1:07:00::"], [2, "stay%2:30:00::"], [3, "solid%3:00:00:unbroken:02"], [7, "about%4:02:00::"], [8, "eight%3:00:00:cardinal:00"], [9, "hundred%3:00:00:cardinal:00"], [10, "foot%1:23:00::"], [13, "at_times%4:02:00::"], [15, "sheer%3:00:00:steep:00"], [16, "cliff%1:17:00::"], [17, "seem%2:39:00::"], [20, "close_in%2:38:00::"]]
+k5Fp:
+    lemmas: ["If", "the", "other", "pilot", "be", "worried", ",", "they", "do", "not", "show", "it", "."]
+    oewn2026_key: [[2, "oewn-02076759-a"], [3, "oewn-10452928-n"], [4, "oewn-02610777-v"], [5, "oewn-02466219-s"], [9, "oewn-00024432-r"], [10, "oewn-00945869-v"]]
+    paragraph: '13'
+    pos: ["IN", "DT", "JJ", "NNS", "VBD", "JJ", ",", "PRP", "VBD", "RB", "VB", "PRP", "."]
+    text: ' If the other pilots were worried, they did not show it.'
+    tokens: [[1, 3], [4, 7], [8, 13], [14, 20], [21, 25], [26, 33], [33, 34], [35, 39], [40, 43], [44, 47], [48, 52], [53, 55], [55, 56]]
+    wn16_key: [[2, "other%3:00:00::"], [3, "pilot%1:18:00::"], [4, "be%2:42:03::"], [5, "worried%5:00:00:troubled:00"], [9, "not%4:02:00::"], [10, "show%2:32:02::"]]
+    wn30_key: [[2, "other%3:00:00::"], [3, "pilot%1:18:00::"], [4, "be%2:42:03::"], [5, "worried%3:00:00:troubled:00"], [9, "not%4:02:00::"], [10, "show%2:32:02::"]]
+1m6u:
+    lemmas: ["The", "formation", "remain", "perfect", "."]
+    oewn2026_key: [[1, "oewn-08443418-n"], [2, "oewn-00117793-v"], [3, "oewn-01753804-a"]]
+    paragraph: '13'
+    pos: ["DT", "NN", "VBD", "JJ", "."]
+    text: ' The formation remained perfect.
+
+  '
+    tokens: [[1, 4], [5, 14], [15, 23], [24, 31], [31, 32]]
+    wn16_key: [[1, "formation%1:14:00::"], [2, "remain%2:30:00::"], [3, "perfect%3:00:00::"]]
+    wn30_key: [[1, "formation%1:14:00::"], [2, "remain%2:30:00::"], [3, "perfect%3:00:00::"]]
+P+4+:
+    lemmas: ["When", "the", "sea", "be", "visible", "ahead", "of", "them", ",", "the", "relief", "be", "as", "great", "as", "if", "the", "sun", "have", "come_out", "."]
+    oewn2026_key: [[2, "oewn-09449666-n"], [3, "oewn-02610777-v"], [4, "oewn-02525399-a"], [5, "oewn-00067181-r"], [10, "oewn-07508420-n"], [11, "oewn-02610777-v"], [13, "oewn-01389817-s"], [17, "oewn-09473312-n"], [19, "oewn-00424655-v"]]
+    paragraph: '14'
+    pos: ["WRB", "DT", "NN", "VBD", "JJ", "RB", "IN", "PRP", ",", "DT", "NN", "VBD", "RB", "JJ", "IN", "IN", "DT", "NN", "VBD", "VB", "."]
+    text: ' When the sea was visible ahead of them, the relief was as great as if the sun had
+  come_out.'
+    tokens: [[1, 5], [6, 9], [10, 13], [14, 17], [18, 25], [26, 31], [32, 34], [35, 39], [39, 40], [41, 44], [45, 51], [52, 55], [56, 58], [59, 64], [65, 67], [68, 70], [71, 74], [75, 78], [79, 82], [83, 91], [91, 92]]
+    wn16_key: [[2, "sea%1:17:00::"], [3, "be%2:42:03::"], [4, "visible%3:00:00::"], [5, "ahead%4:02:00::"], [10, "relief%1:12:00::"], [11, "be%2:42:03::"], [13, "great%5:00:01:large:00"], [17, "sun%1:17:00::"], [19, "come_out%2:30:00::"]]
+    wn30_key: [[2, "sea%1:17:00::"], [3, "be%2:42:03::"], [4, "visible%3:00:00::"], [5, "ahead%4:02:00::"], [10, "relief%1:12:00::"], [11, "be%2:42:03::"], [13, "great%3:00:01:large:00"], [17, "sun%1:17:00::"], [19, "come_out%2:30:00::"]]
+HXPA:
+    lemmas: ["He", "spread_out", "the", "flight", "out", "and", "lead", "them", "across", "a", "point", "of", "land", "and", "then", "down", "the", "coast", "."]
+    oewn2026_key: [[1, "oewn-02064069-v"], [3, "oewn-08237455-n"], [6, "oewn-02003830-v"], [10, "oewn-09419340-n"], [12, "oewn-09357302-n"], [14, "oewn-00118527-r"], [15, "oewn-00096162-r"], [17, "oewn-09451197-n"]]
+    paragraph: '14'
+    pos: ["PRP", "VBD", "DT", "NN", "RB", "CC", "VBD", "PRP", "IN", "DT", "NN", "IN", "NN", "RB", "RB", "RB", "DT", "NN", "."]
+    text: ' He spread the flight out and led them across a point of land and_then down the coast.'
+    tokens: [[1, 3], [4, 10], [11, 14], [15, 21], [22, 25], [26, 29], [30, 33], [34, 38], [39, 45], [46, 47], [48, 53], [54, 56], [57, 61], [62, 65], [66, 70], [71, 75], [76, 79], [80, 85], [85, 86]]
+    wn16_key: [[1, "spread_out%2:38:00::"], [3, "flight%1:14:01::"], [6, "lead%2:38:01::"], [10, "point%1:17:02::"], [12, "land%1:17:00::"], [15, "down%4:02:02::"], [17, "coast%1:17:00::"]]
+    wn30_key: [[1, "spread_out%2:38:00::"], [3, "flight%1:14:01::"], [6, "lead%2:38:01::"], [10, "point%1:17:02::"], [12, "land%1:17:00::"], [14, "then%4:02:00::"], [15, "down%4:02:02::"], [17, "coast%1:17:00::"]]
+vpy0:
+    lemmas: ["Although", "they", "draw", "light", "ground", "fire", "they", "see", "no", "sign", "of", "activity", "."]
+    oewn2026_key: [[2, "oewn-01507886-v"], [3, "oewn-01194536-a"], [4, "oewn-09357302-n"], [5, "oewn-00989024-n"], [7, "oewn-02133754-v"], [9, "oewn-06659006-n"], [11, "oewn-14030430-n"]]
+    paragraph: '14'
+    pos: ["IN", "PRP", "VBD", "JJ", "NN", "NN", "PRP", "VBD", "DT", "NNS", "IN", "NN", "."]
+    text: ' Although they drew light ground fire they saw no signs of activity.
+
+  '
+    tokens: [[1, 9], [10, 14], [15, 19], [20, 25], [26, 32], [33, 37], [38, 42], [43, 46], [47, 49], [50, 55], [56, 58], [59, 67], [67, 68]]
+    wn16_key: [[2, "draw%2:37:03::"], [3, "light%3:00:03::"], [4, "ground%1:17:00::"], [5, "fire%1:04:00::"], [7, "see%2:39:00::"], [9, "sign%1:10:05::"], [11, "activity%1:26:00::"]]
+    wn30_key: [[2, "draw%2:35:06::"], [3, "light%3:00:03::"], [4, "ground%1:17:00::"], [5, "fire%1:04:00::"], [7, "see%2:39:00::"], [9, "sign%1:10:05::"], [11, "activity%1:26:00::"]]
+MUwM:
+    lemmas: ["once", "person", "think", "he", "have", "spot", "a", "tank", "and", "go_down", "to", "investigate", "while", "person", "cover", "him", "."]
+    oewn2026_key: [[0, "oewn-00119765-r"], [1, "oewn-00007846-n"], [2, "oewn-00691086-v"], [5, "oewn-02158742-v"], [7, "oewn-04396120-n"], [9, "oewn-01974840-v"], [11, "oewn-00787624-v"], [13, "oewn-00007846-n"], [14, "oewn-01131627-v"]]
+    paragraph: '15'
+    pos: ["RB", "NNP", "VBD", "PRP", "VBD", "VBN", "DT", "NN", "CC", "VB", "TO", "VB", "IN", "NNP", "VBD", "PRP", "."]
+    text: ' Once Todman thought he had spotted a tank and went_down to investigate while Greg
+  covered him.'
+    tokens: [[1, 5], [6, 12], [13, 20], [21, 23], [24, 27], [28, 35], [36, 37], [38, 42], [43, 46], [47, 56], [57, 59], [60, 71], [72, 77], [78, 82], [83, 90], [91, 94], [94, 95]]
+    wn16_key: [[0, "once%4:02:00::"], [1, "person%1:03:00::"], [2, "think%2:31:01::"], [5, "spot%2:39:00::"], [7, "tank%1:06:01::"], [9, "go_down%2:38:02::"], [11, "investigate%2:32:01::"], [13, "person%1:03:00::"], [14, "cover%2:33:01::"]]
+    wn30_key: [[0, "once%4:02:00::"], [1, "person%1:03:00::"], [2, "think%2:31:01::"], [5, "spot%2:39:00::"], [7, "tank%1:06:01::"], [9, "go_down%2:38:02::"], [11, "investigate%2:32:01::"], [13, "person%1:03:00::"], [14, "cover%2:33:01::"]]
+bj1N:
+    lemmas: ["\"", "somebody", "beat", "us", "to_it", "\"", "!"]
+    oewn2026_key: [[2, "oewn-01104324-v"]]
+    paragraph: '15'
+    pos: ["``", "NN", "VBD", "PRP", "RB", "''", "."]
+    text: ' " Somebody beat us to_it "!'
+    tokens: [[1, 2], [3, 11], [12, 16], [17, 19], [20, 25], [26, 27], [27, 28]]
+    wn16_key: [[2, "beat%2:33:00::"]]
+    wn30_key: [[2, "beat%2:33:00::"]]
+QG3k:
+    lemmas: ["person", "say", "over", "the", "radio", "as", "he", "come_back", "up", "in", "formation", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-01011267-v"], [4, "oewn-04048624-n"], [8, "oewn-00096883-r"], [10, "oewn-08443418-n"]]
+    paragraph: '15'
+    pos: ["NNP", "VBD", "IN", "DT", "NN", "IN", "PRP", "VB", "RP", "IN", "NN", "."]
+    text: ' Todman said over the radio as he came_back up in formation.
+
+  '
+    tokens: [[1, 7], [8, 12], [13, 17], [18, 21], [22, 27], [28, 30], [31, 33], [34, 43], [44, 46], [47, 49], [50, 59], [59, 60]]
+    wn16_key: [[0, "person%1:03:00::"], [1, "say%2:32:00::"], [4, "radio%1:06:00::"], [7, "come_back%2:38:00::"], [8, "up%4:02:00::"], [10, "formation%1:14:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [1, "say%2:32:00::"], [4, "radio%1:06:00::"], [8, "up%4:02:00::"], [10, "formation%1:14:00::"]]
+wPbA:
+    lemmas: ["visibility", "continue", "to", "be", "limited", ",", "and", "person", "be", "never", "able", "to", "get", "above", "a_thousand", "foot", "."]
+    oewn2026_key: [[0, "oewn-05024624-n"], [1, "oewn-02690747-v"], [3, "oewn-02610777-v"], [4, "oewn-01417858-a"], [7, "oewn-00007846-n"], [8, "oewn-02610777-v"], [9, "oewn-00021214-r"], [10, "oewn-00001740-a"], [12, "oewn-02009962-v"], [15, "oewn-13671663-n"]]
+    paragraph: '16'
+    pos: ["NN", "VBD", "TO", "VB", "JJ", ",", "CC", "NNP", "VBD", "RB", "JJ", "TO", "VB", "IN", "JJ", "NNS", "."]
+    text: ' Visibility continued to be limited, and Greg was never able to get above a_thousand
+  feet.'
+    tokens: [[1, 11], [12, 21], [22, 24], [25, 27], [28, 35], [35, 36], [37, 40], [41, 45], [46, 49], [50, 55], [56, 60], [61, 63], [64, 67], [68, 73], [74, 84], [85, 89], [89, 90]]
+    wn16_key: [[0, "visibility%1:07:00::"], [1, "continue%2:42:01::"], [3, "be%2:42:03::"], [4, "limited%3:00:00::"], [7, "person%1:03:00::"], [8, "be%2:42:03::"], [9, "never%4:02:00::"], [10, "able%3:00:00::"], [12, "get%2:38:00::"], [14, "a_thousand%5:00:00:cardinal:00"], [15, "foot%1:23:00::"]]
+    wn30_key: [[0, "visibility%1:07:00::"], [1, "continue%2:42:01::"], [3, "be%2:42:03::"], [4, "limited%3:00:00::"], [7, "person%1:03:00::"], [8, "be%2:42:03::"], [9, "never%4:02:00::"], [10, "able%3:00:00::"], [12, "get%2:38:00::"], [15, "foot%1:23:00::"]]
+3oQf:
+    lemmas: ["It", "be", "frustrating", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-00871066-s"]]
+    paragraph: '16'
+    pos: ["PRP", "VBD", "JJ", "."]
+    text: ' It was frustrating.'
+    tokens: [[1, 3], [4, 7], [8, 19], [19, 20]]
+    wn16_key: [[1, "be%2:42:03::"], [2, "frustrating%5:00:00:discouraging:00"]]
+    wn30_key: [[1, "be%2:42:03::"], [2, "frustrating%3:00:00:discouraging:00"]]
+0Meq:
+    lemmas: ["His", "earphone", "be", "constantly", "full", "of", "the", "sound", "of", "enemy", "contact", "make", "by", "other", "flight", "."]
+    oewn2026_key: [[1, "oewn-03266479-n"], [2, "oewn-02610777-v"], [3, "oewn-00020735-r"], [4, "oewn-01086845-a"], [7, "oewn-04988388-n"], [9, "oewn-08207412-n"], [10, "oewn-00040035-n"], [11, "oewn-02566500-v"], [13, "oewn-02076759-a"], [14, "oewn-08237455-n"]]
+    paragraph: '16'
+    pos: ["PRP$", "NNS", "VBD", "RB", "JJ", "JJ", "DT", "NNS", "IN", "NN", "NNS", "VBN", "IN", "JJ", "NNS", "."]
+    text: ' His earphones were constantly full of the sounds of enemy contacts made by other
+  flights.'
+    tokens: [[1, 4], [5, 14], [15, 19], [20, 30], [31, 35], [36, 38], [39, 42], [43, 49], [50, 52], [53, 58], [59, 67], [68, 72], [73, 75], [76, 81], [82, 89], [89, 90]]
+    wn16_key: [[1, "earphone%1:06:00::"], [2, "be%2:42:03::"], [3, "constantly%4:02:02::"], [4, "full%3:00:00::"], [7, "sound%1:07:00::"], [9, "enemy%1:14:00::"], [10, "contact%1:04:02::"], [11, "make%2:41:00::"], [13, "other%3:00:00::"], [14, "flight%1:14:01::"]]
+    wn30_key: [[1, "earphone%1:06:00::"], [2, "be%2:42:03::"], [3, "constantly%4:02:01::"], [4, "full%3:00:00::"], [7, "sound%1:07:00::"], [9, "enemy%1:14:00::"], [10, "contact%1:04:02::"], [11, "make%2:41:00::"], [13, "other%3:00:00::"], [14, "flight%1:14:01::"]]
+J0ST:
+    lemmas: ["He", "think", "once", "that", "he", "identify", "the", "somewhat", "hysterical", "voice", "of", "person", "claim", "a", "kill", "."]
+    oewn2026_key: [[1, "oewn-00691086-v"], [2, "oewn-00119765-r"], [5, "oewn-00620568-v"], [7, "oewn-00036695-r"], [8, "oewn-01588695-s"], [9, "oewn-04989190-n"], [11, "oewn-00007846-n"], [12, "oewn-00758383-v"], [14, "oewn-00218460-n"]]
+    paragraph: '16'
+    pos: ["PRP", "VBD", "RB", "IN", "PRP", "VBD", "DT", "RB", "JJ", "NN", "IN", "NNP", "VBG", "DT", "NN", "."]
+    text: ' He thought once that he identified the somewhat hysterical voice of Fleischman claiming
+  a kill.'
+    tokens: [[1, 3], [4, 11], [12, 16], [17, 21], [22, 24], [25, 35], [36, 39], [40, 48], [49, 59], [60, 65], [66, 68], [69, 79], [80, 88], [89, 90], [91, 95], [95, 96]]
+    wn16_key: [[1, "think%2:31:01::"], [2, "once%4:02:00::"], [5, "identify%2:31:00::"], [7, "somewhat%4:02:01::"], [8, "hysterical%5:00:00:neurotic:00"], [9, "voice%1:07:00::"], [11, "person%1:03:00::"], [12, "claim%2:32:00::"], [14, "kill%1:04:01::"]]
+    wn30_key: [[1, "think%2:31:01::"], [2, "once%4:02:00::"], [5, "identify%2:31:00::"], [7, "somewhat%4:02:01::"], [8, "hysterical%3:00:00:neurotic:00"], [9, "voice%1:07:00::"], [11, "person%1:03:00::"], [12, "claim%2:32:00::"], [14, "kill%1:04:01::"]]
+Cgvb:
+    lemmas: ["But", "person", "'s", "area", "remain", "as", "placid", "as", "a", "florida", "dawn", "."]
+    oewn2026_key: [[1, "oewn-00007846-n"], [3, "oewn-08514304-n"], [4, "oewn-00117793-v"], [6, "oewn-00303750-s"], [9, "oewn-09094188-n"], [10, "oewn-07340708-n"]]
+    paragraph: '16'
+    pos: ["CC", "NNP", "POS", "NN", "VBD", "RB", "JJ", "IN", "DT", "NNP", "NN", "."]
+    text: ' But Greg''s area remained as placid as a Florida dawn.
+
+  '
+    tokens: [[1, 4], [5, 9], [9, 11], [12, 16], [17, 25], [26, 28], [29, 35], [36, 38], [39, 40], [41, 48], [49, 53], [53, 54]]
+    wn16_key: [[1, "person%1:03:00::"], [3, "area%1:15:01::"], [4, "remain%2:30:00::"], [6, "placid%5:00:00:calm:00"], [9, "florida%1:15:00::"], [10, "dawn%1:11:01::"]]
+    wn30_key: [[1, "person%1:03:00::"], [3, "area%1:15:01::"], [4, "remain%2:30:00::"], [6, "placid%3:00:00:calm:00"], [9, "florida%1:15:00::"], [10, "dawn%1:11:01::"]]
+EwoC:
+    lemmas: ["finally", ",", "as", "time", "begin", "to", "run_out", ",", "he", "head", "into", "location", "and", "glide-bomb", "a", "group", "of", "house", "that", "intelligence", "have", "think", "might", "contain", "japanese", "supplies", "."]
+    oewn2026_key: [[0, "oewn-00048676-r"], [3, "oewn-15295388-n"], [4, "oewn-00346415-v"], [6, "oewn-02075385-v"], [9, "oewn-01935739-v"], [11, "oewn-00027365-n"], [13, "oewn-01135223-v"], [15, "oewn-00031563-n"], [17, "oewn-03549540-n"], [19, "oewn-08356381-n"], [21, "oewn-00691086-v"], [23, "oewn-02706727-v"], [24, "oewn-02976588-a"]]
+    paragraph: '17'
+    pos: ["RB", ",", "IN", "NN", "VBD", "TO", "VB", ",", "PRP", "VBD", "IN", "NNP", "CC", "VBD", "DT", "NN", "IN", "NNS", "IN", "NNP", "VBD", "VBN", "MD", "VB", "JJ", "NN", "."]
+    text: ' Finally, as time began to run_out, he headed into Ormoc and glide-bombed a group
+  of houses that Intelligence had thought might contain Japanese supplies.'
+    tokens: [[1, 8], [8, 9], [10, 12], [13, 17], [18, 23], [24, 26], [27, 34], [34, 35], [36, 38], [39, 45], [46, 50], [51, 56], [57, 60], [61, 73], [74, 75], [76, 81], [82, 84], [85, 91], [92, 96], [97, 109], [110, 113], [114, 121], [122, 127], [128, 135], [136, 144], [145, 153], [153, 154]]
+    wn16_key: [[0, "finally%4:02:02::"], [3, "time%1:28:05::"], [4, "begin%2:30:00::"], [6, "run_out%2:38:01::"], [9, "head%2:38:01::"], [11, "location%1:03:00::"], [13, "glide-bomb%2:33:00::"], [15, "group%1:03:00::"], [17, "house%1:06:00::"], [19, "intelligence%1:14:00::"], [21, "think%2:31:01::"], [23, "contain%2:42:13::"], [24, "japanese%3:01:00::"], [25, "supplies%1:21:00::"]]
+    wn30_key: [[0, "finally%4:02:02::"], [3, "time%1:28:05::"], [4, "begin%2:30:00::"], [6, "run_out%2:38:01::"], [9, "head%2:38:01::"], [11, "location%1:03:00::"], [13, "glide-bomb%2:33:00::"], [15, "group%1:03:00::"], [17, "house%1:06:00::"], [19, "intelligence%1:14:00::"], [21, "think%2:31:01::"], [23, "contain%2:42:13::"], [24, "japanese%3:01:00::"]]
+OPr4:
+    lemmas: ["The", "low", "cloud", "make", "bombing", "difficult", "."]
+    oewn2026_key: [[1, "oewn-01209146-a"], [2, "oewn-09270316-n"], [3, "oewn-00120124-v"], [4, "oewn-00980499-n"], [5, "oewn-00748528-a"]]
+    paragraph: '17'
+    pos: ["DT", "JJ", "NNS", "VBD", "NN", "JJ", "."]
+    text: ' The low clouds made bombing difficult.'
+    tokens: [[1, 4], [5, 8], [9, 15], [16, 20], [21, 28], [29, 38], [38, 39]]
+    wn16_key: [[1, "low%3:00:01::"], [2, "cloud%1:17:00::"], [3, "make%2:30:00::"], [4, "bombing%1:04:00::"], [5, "difficult%3:00:00::"]]
+    wn30_key: [[1, "low%3:00:01::"], [2, "cloud%1:17:00::"], [3, "make%2:30:00::"], [4, "bombing%1:04:00::"], [5, "difficult%3:00:00::"]]
+XtYo:
+    lemmas: ["There", "be", "not", "enough", "room", "to", "make", "the", "usual", "vertical", "bomb", "run", "."]
+    oewn2026_key: [[2, "oewn-00024432-r"], [3, "oewn-00146749-r"], [4, "oewn-13799976-n"], [6, "oewn-02566500-v"], [8, "oewn-00491099-a"], [9, "oewn-01236220-a"], [10, "oewn-02869918-n"], [11, "oewn-00309697-n"]]
+    paragraph: '17'
+    pos: ["EX", "VBD", "RB", "RB", "NN", "TO", "VB", "DT", "JJ", "JJ", "NN", "NN", "."]
+    text: ' There was not enough room to make the usual vertical bomb run.'
+    tokens: [[1, 6], [7, 10], [11, 14], [15, 21], [22, 26], [27, 29], [30, 34], [35, 38], [39, 44], [45, 53], [54, 58], [59, 62], [62, 63]]
+    wn16_key: [[2, "not%4:02:00::"], [3, "enough%4:02:00::"], [4, "room%1:23:00::"], [6, "make%2:41:00::"], [8, "usual%3:00:00::"], [9, "vertical%3:00:00::"], [10, "bomb%1:06:00::"], [11, "run%1:04:04::"]]
+    wn30_key: [[2, "not%4:02:00::"], [3, "enough%4:02:00::"], [4, "room%1:23:00::"], [6, "make%2:41:00::"], [8, "usual%3:00:00::"], [9, "vertical%3:00:00::"], [10, "bomb%1:06:00::"], [11, "run%1:04:04::"]]
+PxGY:
+    lemmas: ["The", "accuracy", "be", "deplorable", "."]
+    oewn2026_key: [[1, "oewn-04810156-n"], [2, "oewn-02610777-v"], [3, "oewn-01130672-s"]]
+    paragraph: '17'
+    pos: ["DT", "NN", "VBD", "JJ", "."]
+    text: ' The accuracy was deplorable.'
+    tokens: [[1, 4], [5, 13], [14, 17], [18, 28], [28, 29]]
+    wn16_key: [[1, "accuracy%1:07:02::"], [2, "be%2:42:03::"], [3, "deplorable%5:00:00:bad:00"]]
+    wn30_key: [[1, "accuracy%1:07:02::"], [2, "be%2:42:03::"], [3, "deplorable%3:00:00:bad:00"]]
+cDsN:
+    lemmas: ["One", "of", "person", "'s", "bomb", "hang_up", ",", "and", "he", "be", "mile", "from", "the", "target", "before", "he", "could", "get_rid_of", "it", "."]
+    oewn2026_key: [[2, "oewn-00007846-n"], [4, "oewn-02869918-n"], [5, "oewn-01483990-v"], [9, "oewn-02661230-v"], [10, "oewn-13672836-n"], [13, "oewn-08678672-n"], [17, "oewn-02228837-v"]]
+    paragraph: '17'
+    pos: ["CD", "IN", "NNP", "POS", "NNS", "VB", ",", "CC", "PRP", "VBD", "NNS", "IN", "DT", "NN", "IN", "PRP", "MD", "VB", "PRP", "."]
+    text: ' One of Greg''s bombs hung_up, and he was miles from the target before he could get_rid_of
+  it.'
+    tokens: [[1, 4], [5, 7], [8, 12], [12, 14], [15, 20], [21, 28], [28, 29], [30, 33], [34, 36], [37, 40], [41, 46], [47, 51], [52, 55], [56, 62], [63, 69], [70, 72], [73, 78], [79, 89], [90, 92], [92, 93]]
+    wn16_key: [[2, "person%1:03:00::"], [4, "bomb%1:06:00::"], [5, "hang_up%2:35:01::"], [9, "be%2:42:05::"], [10, "mile%1:23:01::"], [13, "target%1:15:00::"], [17, "get_rid_of%2:40:01::"]]
+    wn30_key: [[2, "person%1:03:00::"], [4, "bomb%1:06:00::"], [5, "hang_up%2:35:01::"], [9, "be%2:42:05::"], [10, "mile%1:23:01::"], [13, "target%1:15:00::"], [17, "get_rid_of%2:40:01::"]]
+En30:
+    lemmas: ["only", "one", "of", "the", "flight", "score", "a", "direct", "hit", "and", "the", "rest", "blow_up", "jungle", "."]
+    oewn2026_key: [[0, "oewn-00005103-r"], [4, "oewn-08237455-n"], [5, "oewn-01114241-v"], [7, "oewn-00764460-a"], [8, "oewn-00126449-n"], [11, "oewn-13833030-n"], [12, "oewn-00307505-v"], [13, "oewn-08526132-n"]]
+    paragraph: '17'
+    pos: ["RB", "CD", "IN", "DT", "NN", "VBD", "DT", "JJ", "NN", "CC", "DT", "NN", "VB", "NN", "."]
+    text: ' Only one of the flight scored a direct hit and the rest blew_up jungle.
+
+  '
+    tokens: [[1, 5], [6, 9], [10, 12], [13, 16], [17, 23], [24, 30], [31, 32], [33, 39], [40, 43], [44, 47], [48, 51], [52, 56], [57, 64], [65, 71], [71, 72]]
+    wn16_key: [[0, "only%4:02:02::"], [4, "flight%1:14:01::"], [5, "score%2:33:00::"], [7, "direct%3:00:00::"], [8, "hit%1:04:00::"], [11, "rest%1:24:00::"], [12, "blow_up%2:30:03::"], [13, "jungle%1:17:00::"]]
+    wn30_key: [[0, "only%4:02:02::"], [4, "flight%1:14:01::"], [5, "score%2:33:00::"], [7, "direct%3:00:00::"], [8, "hit%1:04:00::"], [11, "rest%1:24:00::"], [12, "blow_up%2:30:03::"], [13, "jungle%1:15:00::"]]
+MfEg:
+    lemmas: ["With", "their", "load", "of", "bomb", "gone", ",", "the", "plane", "move", "swiftly", "and", "easily", "."]
+    oewn2026_key: [[2, "oewn-03685312-n"], [4, "oewn-02869918-n"], [8, "oewn-02694015-n"], [9, "oewn-01839438-v"], [10, "oewn-00053812-r"], [12, "oewn-00148912-r"]]
+    paragraph: '18'
+    pos: ["IN", "PRP$", "NN", "IN", "NNS", "JJ", ",", "DT", "NNS", "VBD", "RB", "CC", "RB", "."]
+    text: ' With their load of bombs gone, the planes moved swiftly and easily.'
+    tokens: [[1, 5], [6, 11], [12, 16], [17, 19], [20, 25], [26, 30], [30, 31], [32, 35], [36, 42], [43, 48], [49, 56], [57, 60], [61, 67], [67, 68]]
+    wn16_key: [[2, "load%1:06:00::"], [4, "bomb%1:06:00::"], [5, "gone%5:00:00:exhausted:00"], [8, "plane%1:06:01::"], [9, "move%2:38:03::"], [10, "swiftly%4:02:00::"], [12, "easily%4:02:01::"]]
+    wn30_key: [[2, "load%1:06:00::"], [4, "bomb%1:06:00::"], [8, "plane%1:06:01::"], [9, "move%2:38:03::"], [10, "swiftly%4:02:00::"], [12, "easily%4:02:01::"]]
+mlIE:
+    lemmas: ["person", "go_up", "tight", "against", "the", "ceiling", "and", "lead", "them", "back", "to", "their", "pass", "to", "home", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-01972576-v"], [2, "oewn-00507682-r"], [5, "oewn-05139807-n"], [7, "oewn-02003830-v"], [9, "oewn-00075427-r"], [12, "oewn-09409735-n"], [14, "oewn-08507412-n"]]
+    paragraph: '18'
+    pos: ["NNP", "VB", "RB", "IN", "DT", "NN", "CC", "VBD", "PRP", "RB", "TO", "PRP$", "NN", "VB", "NN", "."]
+    text: ' Greg went_up tight against the ceiling and led them back to their pass to home.'
+    tokens: [[1, 5], [6, 13], [14, 19], [20, 27], [28, 31], [32, 39], [40, 43], [44, 47], [48, 52], [53, 57], [58, 60], [61, 66], [67, 71], [72, 74], [75, 79], [79, 80]]
+    wn16_key: [[0, "person%1:03:00::"], [1, "go_up%2:38:00::"], [2, "tight%4:02:02::"], [5, "ceiling%1:07:00::"], [7, "lead%2:38:01::"], [9, "back%4:02:04::"], [12, "pass%1:17:00::"], [14, "home%1:15:05::"]]
+    wn30_key: [[0, "person%1:03:00::"], [1, "go_up%2:38:00::"], [2, "tight%4:02:02::"], [5, "ceiling%1:07:00::"], [7, "lead%2:38:01::"], [9, "back%4:02:04::"], [12, "pass%1:17:00::"], [14, "home%1:15:05::"]]
+h+dM:
+    lemmas: ["mercifully", ",", "it", "be", "still", "open", "."]
+    oewn2026_key: [[0, "oewn-00194576-r"], [3, "oewn-02610777-v"], [4, "oewn-00031700-r"], [5, "oewn-01657344-a"]]
+    paragraph: '18'
+    pos: ["RB", ",", "PRP", "VBD", "RB", "JJ", "."]
+    text: ' Mercifully, it was still open.'
+    tokens: [[1, 11], [11, 12], [13, 15], [16, 19], [20, 25], [26, 30], [30, 31]]
+    wn16_key: [[0, "mercifully%4:02:00::"], [3, "be%2:42:03::"], [4, "still%4:02:01::"], [5, "open%3:00:02::"]]
+    wn30_key: [[0, "mercifully%4:02:01::"], [3, "be%2:42:03::"], [4, "still%4:02:01::"], [5, "open%3:00:02::"]]
+8Z+u:
+    lemmas: ["Like", "a", "man", "make", "a", "deep", "dive", ",", "person", "take_a_breath", "full", "breath", "and", "plunge", "back", "into", "the", "valley", "."]
+    oewn2026_key: [[2, "oewn-10306910-n"], [3, "oewn-02566500-v"], [5, "oewn-00696211-a"], [6, "oewn-00443966-n"], [8, "oewn-00007846-n"], [9, "oewn-00001740-v"], [10, "oewn-00517305-s"], [13, "oewn-01580466-v"], [14, "oewn-00075427-r"], [17, "oewn-09491734-n"]]
+    paragraph: '18'
+    pos: ["IN", "DT", "NN", "VBG", "DT", "JJ", "NN", ",", "NNP", "VBD", "JJ", "NN", "CC", "VBD", "RB", "IN", "DT", "NN", "."]
+    text: ' Like a man making a deep dive, Greg took full breath and plunged back into the valley.'
+    tokens: [[1, 5], [6, 7], [8, 11], [12, 18], [19, 20], [21, 25], [26, 30], [30, 31], [32, 36], [37, 41], [42, 46], [47, 53], [54, 57], [58, 65], [66, 70], [71, 75], [76, 79], [80, 86], [86, 87]]
+    wn16_key: [[2, "man%1:18:00::"], [3, "make%2:41:00::"], [5, "deep%3:00:02::"], [6, "dive%1:04:01::"], [8, "person%1:03:00::"], [9, "take_a_breath%2:29:00::"], [10, "full%5:00:01:whole:00"], [13, "plunge%2:35:01::"], [14, "back%4:02:04::"], [17, "valley%1:17:00::"]]
+    wn30_key: [[2, "man%1:18:00::"], [3, "make%2:41:00::"], [5, "deep%3:00:02::"], [6, "dive%1:04:01::"], [8, "person%1:03:00::"], [9, "take_a_breath%2:29:00::"], [10, "full%3:00:01:whole:00"], [13, "plunge%2:35:01::"], [14, "back%4:02:04::"], [17, "valley%1:17:00::"]]
+r764:
+    lemmas: ["He", "be", "about", "to", "make", "a", "gas", "check", "on", "his", "flight", "when", "person", "'s", "voice", "break_in", ":", "\"", "person", "!"]
+    oewn2026_key: [[1, "oewn-02610777-v"], [4, "oewn-02566500-v"], [6, "oewn-14711074-n"], [7, "oewn-00142626-n"], [10, "oewn-08237455-n"], [12, "oewn-00007846-n"], [14, "oewn-04989190-n"], [15, "oewn-00782236-v"], [18, "oewn-00007846-n"]]
+    paragraph: '18'
+    pos: ["PRP", "VBD", "VB", "TO", "VB", "DT", "NN", "NN", "IN", "PRP$", "NN", "WRB", "NNP", "POS", "NN", "VB", ":", "``", "NNPS", "."]
+    text: ' He was about to make a gas check on his flight when Todman''s voice broke_in: "
+  Sweeneys!'
+    tokens: [[1, 3], [4, 7], [8, 13], [14, 16], [17, 21], [22, 23], [24, 27], [28, 33], [34, 36], [37, 40], [41, 47], [48, 52], [53, 59], [59, 61], [62, 67], [68, 76], [76, 77], [78, 79], [80, 88], [88, 89]]
+    wn16_key: [[1, "be%2:42:03::"], [4, "make%2:41:00::"], [6, "gas%1:27:02::"], [7, "check%1:04:05::"], [10, "flight%1:14:01::"], [12, "person%1:03:00::"], [14, "voice%1:07:00::"], [15, "break_in%2:32:00::"], [18, "person%1:03:00::"]]
+    wn30_key: [[1, "be%2:42:03::"], [4, "make%2:41:00::"], [6, "gas%1:27:02::"], [7, "check%1:04:05::"], [10, "flight%1:14:01::"], [12, "person%1:03:00::"], [14, "voice%1:07:00::"], [15, "break_in%2:32:00::"], [18, "person%1:03:00::"]]
+lhPx:
+    lemmas: ["three", "bogy", "."]
+    oewn2026_key: [[0, "oewn-02194219-s"], [1, "oewn-02866978-n"]]
+    paragraph: '18'
+    pos: ["JJ", "NNS", "."]
+    text: ' Three bogies.'
+    tokens: [[1, 6], [7, 13], [13, 14]]
+    wn16_key: [[0, "three%5:00:00:cardinal:00"], [1, "bogy%1:06:00::"]]
+    wn30_key: [[0, "three%3:00:00:cardinal:00"], [1, "bogy%1:06:00::"]]
+Xmj2:
+    lemmas: ["twelve", "o'clock", "level", "\"", "."]
+    oewn2026_key: [[0, "oewn-02195104-s"], [1, "oewn-00198594-r"], [2, "oewn-00914205-s"]]
+    paragraph: '18'
+    pos: ["JJ", "RB", "JJ", "''", "."]
+    text: ' Twelve o''clock level ".
+
+  '
+    tokens: [[1, 7], [8, 15], [16, 21], [22, 23], [23, 24]]
+    wn16_key: [[0, "twelve%5:00:00:cardinal:00"], [1, "o'clock%4:02:00::"], [2, "level%5:00:02:even:01"]]
+    wn30_key: [[0, "twelve%3:00:00:cardinal:00"], [1, "o'clock%4:02:00::"], [2, "level%3:00:02:even:01"]]
+EntD:
+    lemmas: ["person", "'s", "eye", "flick", "up", "from", "his", "instrument_panel", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-05318579-n"], [3, "oewn-01594079-v"], [4, "oewn-00096883-r"], [7, "oewn-03102791-n"]]
+    paragraph: '19'
+    pos: ["NNP", "POS", "NNS", "VBD", "RP", "IN", "PRP$", "NN", "."]
+    text: ' Greg''s eyes flicked up from his instrument_panel.'
+    tokens: [[1, 5], [5, 7], [8, 12], [13, 20], [21, 23], [24, 28], [29, 32], [33, 49], [49, 50]]
+    wn16_key: [[0, "person%1:03:00::"], [2, "eye%1:08:00::"], [3, "flick%2:35:03::"], [4, "up%4:02:00::"], [7, "instrument_panel%1:06:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [2, "eye%1:08:00::"], [3, "flick%2:35:03::"], [4, "up%4:02:00::"], [7, "instrument_panel%1:06:00::"]]
+xWLY:
+    lemmas: ["He", "see", "them", ",", "speck", "against", "the", "gray", ",", "but", "close_in", "fast", "."]
+    oewn2026_key: [[1, "oewn-02133754-v"], [4, "oewn-04688587-n"], [7, "oewn-04968868-n"], [10, "oewn-02058627-v"], [11, "oewn-00086488-r"]]
+    paragraph: '19'
+    pos: ["PRP", "VBD", "PRP", ",", "NNS", "IN", "DT", "NN", ",", "CC", "VBG", "RB", "."]
+    text: ' He saw them, specks against the gray, but closing fast.'
+    tokens: [[1, 3], [4, 7], [8, 12], [12, 13], [14, 20], [21, 28], [29, 32], [33, 37], [37, 38], [39, 42], [43, 50], [51, 55], [55, 56]]
+    wn16_key: [[1, "see%2:39:00::"], [4, "speck%1:07:00::"], [7, "gray%1:07:00::"], [10, "close_in%2:38:00::"], [11, "fast%4:02:01::"]]
+    wn30_key: [[1, "see%2:39:00::"], [4, "speck%1:07:00::"], [7, "gray%1:07:00::"], [10, "close_in%2:38:00::"], [11, "fast%4:02:01::"]]
+ZVPK:
+    lemmas: ["They", "be", "headed", "straight", "for", "each", "other", "on", "a", "collision", "course", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-01687881-s"], [3, "oewn-00052386-r"], [9, "oewn-07317160-n"], [10, "oewn-09410115-n"]]
+    paragraph: '19'
+    pos: ["PRP", "VBD", "JJ", "RB", "IN", "DT", "NN", "IN", "DT", "NN", "NN", "."]
+    text: ' They were headed straight for each other on a collision course.'
+    tokens: [[1, 5], [6, 10], [11, 17], [18, 26], [27, 30], [31, 35], [36, 41], [42, 44], [45, 46], [47, 56], [57, 63], [63, 64]]
+    wn16_key: [[1, "be%2:42:03::"], [2, "headed%5:00:00:oriented:00"], [3, "straight%4:02:05::"], [9, "collision%1:11:01::"], [10, "course%1:17:00::"]]
+    wn30_key: [[1, "be%2:42:03::"], [2, "headed%3:00:00:oriented:00"], [3, "straight%4:02:05::"], [9, "collision%1:11:01::"], [10, "course%1:17:00::"]]
+RR8U:
+    lemmas: ["friend", "or", "enemy", "?"]
+    oewn2026_key: [[0, "oewn-09804483-n"], [2, "oewn-08207412-n"]]
+    paragraph: '19'
+    pos: ["NN", "CC", "NN", "."]
+    text: ' Friend or enemy?'
+    tokens: [[1, 7], [8, 10], [11, 16], [16, 17]]
+    wn16_key: [[0, "friend%1:18:03::"], [2, "enemy%1:14:00::"]]
+    wn30_key: [[0, "friend%1:18:03::"], [2, "enemy%1:14:00::"]]
+FzqQ:
+    lemmas: ["The", "same", "old", "question", "."]
+    oewn2026_key: [[1, "oewn-02075880-a"], [3, "oewn-06796625-n"]]
+    paragraph: '19'
+    pos: ["DT", "JJ", "JJ", "NN", "."]
+    text: ' The same old question.'
+    tokens: [[1, 4], [5, 9], [10, 13], [14, 22], [22, 23]]
+    wn16_key: [[1, "same%3:00:02::"], [2, "old%5:00:00:unoriginal:00"], [3, "question%1:10:01::"]]
+    wn30_key: [[1, "same%3:00:02::"], [3, "question%1:10:01::"]]
+HaXt:
+    lemmas: ["And", "only", "a_few", "second", "to", "answer", "it", "."]
+    oewn2026_key: [[1, "oewn-00005103-r"], [2, "oewn-01557697-s"], [3, "oewn-15259923-n"], [5, "oewn-00637941-v"]]
+    paragraph: '19'
+    pos: ["CC", "RB", "JJ", "NNS", "TO", "VB", "PRP", "."]
+    text: ' And only a_few seconds to answer it.
+
+  '
+    tokens: [[1, 4], [5, 9], [10, 15], [16, 23], [24, 26], [27, 33], [34, 36], [36, 37]]
+    wn16_key: [[1, "only%4:02:02::"], [2, "a_few%5:00:00:few:00"], [3, "second%1:28:00::"], [5, "answer%2:31:00::"]]
+    wn30_key: [[1, "only%4:02:02::"], [2, "a_few%3:00:00:few:00"], [3, "second%1:28:00::"], [5, "answer%2:31:00::"]]
+H3XR:
+    lemmas: ["\"", "zero", "\"", "!"]
+    oewn2026_key: []
+    paragraph: '20'
+    pos: ["``", "NNS", "''", "."]
+    text: ' " Zeros "!'
+    tokens: [[1, 2], [3, 8], [9, 10], [10, 11]]
+    wn16_key: []
+    wn30_key: []
+6yFf:
+    lemmas: ["person", "say", "excitedly", ",", "and", "hopefully", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-01018011-v"], [2, "oewn-00155110-r"], [5, "oewn-00201672-r"]]
+    paragraph: '20'
+    pos: ["NNP", "VBD", "RB", ",", "CC", "RB", "."]
+    text: ' Todman said excitedly, and hopefully.
+
+  '
+    tokens: [[1, 7], [8, 12], [13, 22], [22, 23], [24, 27], [28, 37], [37, 38]]
+    wn16_key: [[0, "person%1:03:00::"], [1, "say%2:32:01::"], [2, "excitedly%4:02:00::"], [5, "hopefully%4:02:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [1, "say%2:32:01::"], [2, "excitedly%4:02:00::"], [5, "hopefully%4:02:00::"]]
+M00C:
+    lemmas: ["And", "then", "he", "think", "person", "might", "be", "right", "."]
+    oewn2026_key: [[1, "oewn-00118527-r"], [3, "oewn-00633399-v"], [4, "oewn-00007846-n"], [6, "oewn-02610777-v"], [7, "oewn-00634232-a"]]
+    paragraph: '21'
+    pos: ["RB", "RB", "PRP", "VBD", "NNP", "MD", "VB", "JJ", "."]
+    text: ' And_then he thought Todman might be right.'
+    tokens: [[1, 4], [5, 9], [10, 12], [13, 20], [21, 27], [28, 33], [34, 36], [37, 42], [42, 43]]
+    wn16_key: [[3, "think%2:31:03::"], [4, "person%1:03:00::"], [6, "be%2:42:03::"], [7, "right%3:00:02::"]]
+    wn30_key: [[1, "then%4:02:00::"], [3, "think%2:31:03::"], [4, "person%1:03:00::"], [6, "be%2:42:03::"], [7, "right%3:00:02::"]]
++b5G:
+    lemmas: ["His", "mind", "flick", "through", "the", "mental_picture", "he", "have", "from", "the", "hours", "of", "aircraft_identification", "."]
+    oewn2026_key: [[1, "oewn-05619057-n"], [2, "oewn-02157453-v"], [5, "oewn-05945422-n"], [7, "oewn-02208144-v"], [10, "oewn-15142458-n"]]
+    paragraph: '21'
+    pos: ["PRP$", "NN", "VBD", "VB", "DT", "NNS", "PRP", "VBD", "IN", "DT", "NNS", "IN", "NNP", "."]
+    text: ' His mind flicked through the mental_pictures he had from the hours of Aircraft_Identification.'
+    tokens: [[1, 4], [5, 9], [10, 17], [18, 25], [26, 29], [30, 45], [46, 48], [49, 52], [53, 57], [58, 61], [62, 67], [68, 70], [71, 94], [94, 95]]
+    wn16_key: [[1, "mind%1:09:00::"], [2, "flick%2:39:10::"], [5, "mental_picture%1:09:00::"], [7, "have%2:40:00::"], [10, "hours%1:28:01::"]]
+    wn30_key: [[1, "mind%1:09:00::"], [2, "flick%2:39:10::"], [5, "mental_picture%1:09:00::"], [7, "have%2:40:00::"], [10, "hours%1:28:01::"]]
+/r2n:
+    lemmas: ["He", "narrow_down", "the", "shape", "down", "to", "two", ":", "either", "a", "zero", "or", "a", "group", "type", "aircraft", "."]
+    oewn2026_key: [[1, "oewn-00717446-v"], [3, "oewn-05071206-n"], [6, "oewn-02194109-s"], [13, "oewn-00031563-n"], [14, "oewn-05848697-n"], [15, "oewn-02689427-n"]]
+    paragraph: '21'
+    pos: ["PRP", "VBD", "DT", "NN", "RB", "TO", "JJ", ":", "DT", "DT", "NN", "CC", "DT", "NN", "NN", "NN", "."]
+    text: ' He narrowed the shape down to two: either a Zero or a U._S._Navy type aircraft.
+
+  '
+    tokens: [[1, 3], [4, 12], [13, 16], [17, 22], [23, 27], [28, 30], [31, 34], [34, 35], [36, 42], [43, 44], [45, 49], [50, 52], [53, 54], [55, 65], [66, 70], [71, 79], [79, 80]]
+    wn16_key: [[1, "narrow_down%2:31:00::"], [3, "shape%1:07:00::"], [6, "two%5:00:00:cardinal:00"], [13, "group%1:03:00::"], [14, "type%1:09:00::"], [15, "aircraft%1:06:00::"]]
+    wn30_key: [[1, "narrow_down%2:31:00::"], [3, "shape%1:07:00::"], [6, "two%3:00:00:cardinal:00"], [13, "group%1:03:00::"], [14, "type%1:09:00::"], [15, "aircraft%1:06:00::"]]
+0zzd:
+    lemmas: ["If", "it", "be", "the", "enemy", ",", "tactically", "his", "position", "be", "correct", "."]
+    oewn2026_key: [[2, "oewn-02622439-v"], [4, "oewn-08207412-n"], [6, "oewn-00475679-r"], [8, "oewn-08640161-n"], [9, "oewn-02610777-v"], [10, "oewn-00634232-a"]]
+    paragraph: '22'
+    pos: ["IN", "PRP", "VBD", "DT", "NN", ",", "RB", "PRP$", "NN", "VBD", "JJ", "."]
+    text: ' If it were the enemy, tactically his position was correct.'
+    tokens: [[1, 3], [4, 6], [7, 11], [12, 15], [16, 21], [21, 22], [23, 33], [34, 37], [38, 46], [47, 50], [51, 58], [58, 59]]
+    wn16_key: [[2, "be%2:42:06::"], [4, "enemy%1:14:00::"], [6, "tactically%4:02:00::"], [8, "position%1:15:02::"], [9, "be%2:42:03::"], [10, "correct%3:00:00::"]]
+    wn30_key: [[2, "be%2:42:06::"], [4, "enemy%1:14:00::"], [6, "tactically%4:02:00::"], [8, "position%1:15:02::"], [9, "be%2:42:03::"], [10, "correct%3:00:00::"]]
+U57D:
+    lemmas: ["japanese", "aircraft", "be", "strong", "on", "maneuverability", ",", "american", "on", "speed", "and", "firepower", "."]
+    oewn2026_key: [[0, "oewn-02976588-a"], [1, "oewn-02689427-n"], [2, "oewn-02610777-v"], [3, "oewn-02328781-a"], [5, "oewn-04781437-n"], [7, "oewn-02938825-a"], [9, "oewn-15307914-n"], [11, "oewn-05211272-n"]]
+    paragraph: '22'
+    pos: ["JJ", "NN", "VBD", "JJ", "IN", "NN", ",", "JJ", "IN", "NN", "CC", "NN", "."]
+    text: ' Japanese aircraft were strong on maneuverability, American on speed and firepower.'
+    tokens: [[1, 9], [10, 18], [19, 23], [24, 30], [31, 33], [34, 49], [49, 50], [51, 59], [60, 62], [63, 68], [69, 72], [73, 82], [82, 83]]
+    wn16_key: [[0, "japanese%3:01:00::"], [1, "aircraft%1:06:00::"], [2, "be%2:42:03::"], [3, "strong%3:00:00::"], [5, "maneuverability%1:07:00::"], [7, "american%3:01:01::"], [9, "speed%1:28:00::"], [11, "firepower%1:07:00::"]]
+    wn30_key: [[0, "japanese%3:01:00::"], [1, "aircraft%1:06:00::"], [2, "be%2:42:03::"], [3, "strong%3:00:00::"], [5, "maneuverability%1:07:00::"], [7, "american%3:01:01::"], [9, "speed%1:28:00::"], [11, "firepower%1:07:00::"]]
+RLRj:
+    lemmas: ["His", "present", "maximum", "altitude", ",", "up", "against", "the", "overcast", ",", "give", "him", "the", "opportunity", "to", "exploit", "his", "advantage", "."]
+    oewn2026_key: [[1, "oewn-01735600-a"], [2, "oewn-01498873-a"], [3, "oewn-05138912-n"], [8, "oewn-14547800-n"], [10, "oewn-02344167-v"], [13, "oewn-14507501-n"], [15, "oewn-01165070-v"], [17, "oewn-05163204-n"]]
+    paragraph: '22'
+    pos: ["PRP$", "JJ", "JJ", "NN", ",", "IN", "IN", "DT", "NN", ",", "VBD", "PRP", "DT", "NN", "TO", "VB", "PRP$", "NNS", "."]
+    text: ' His present maximum altitude, up against the overcast, gave him the opportunity
+  to exploit his advantages.'
+    tokens: [[1, 4], [5, 12], [13, 20], [21, 29], [29, 30], [31, 33], [34, 41], [42, 45], [46, 54], [54, 55], [56, 60], [61, 64], [65, 68], [69, 80], [81, 83], [84, 91], [92, 95], [96, 106], [106, 107]]
+    wn16_key: [[1, "present%3:00:01::"], [2, "maximum%3:00:00::"], [3, "altitude%1:07:00::"], [8, "overcast%1:26:00::"], [10, "give%2:40:05::"], [13, "opportunity%1:26:00::"], [15, "exploit%2:34:00::"], [17, "advantage%1:07:00::"]]
+    wn30_key: [[1, "present%3:00:01::"], [2, "maximum%3:00:00::"], [3, "altitude%1:07:00::"], [8, "overcast%1:26:00::"], [10, "give%2:40:05::"], [13, "opportunity%1:26:00::"], [15, "exploit%2:34:00::"], [17, "advantage%1:07:00::"]]
+T+GJ:
+    lemmas: ["But", "it", "also", "make", "him", "conspicuous", "to", "the", "enemy", ",", "if", "it", "be", "the", "enemy", ",", "and", "he", "have", "n't", "be", "spot", "already", "."]
+    oewn2026_key: [[2, "oewn-00048072-r"], [3, "oewn-00120124-v"], [5, "oewn-00581435-a"], [8, "oewn-08207412-n"], [12, "oewn-02622439-v"], [14, "oewn-08207412-n"], [21, "oewn-02158742-v"], [22, "oewn-00032194-r"]]
+    paragraph: '22'
+    pos: ["CC", "PRP", "RB", "VBD", "PRP", "JJ", "TO", "DT", "NN", ",", "IN", "PRP", "VBD", "DT", "NN", ",", "CC", "PRP", "VBD", "RB", "VBN", "VBN", "RB", "."]
+    text: ' But it also made him conspicuous to the enemy, if it was the enemy, and he hadn''t
+  been spotted already.'
+    tokens: [[1, 4], [5, 7], [8, 12], [13, 17], [18, 21], [22, 33], [34, 36], [37, 40], [41, 46], [46, 47], [48, 50], [51, 53], [54, 57], [58, 61], [62, 67], [67, 68], [69, 72], [73, 75], [76, 79], [79, 82], [83, 87], [88, 95], [96, 103], [103, 104]]
+    wn16_key: [[2, "also%4:02:00::"], [3, "make%2:30:00::"], [5, "conspicuous%3:00:00::"], [8, "enemy%1:14:00::"], [12, "be%2:42:06::"], [14, "enemy%1:14:00::"], [19, "n't%4:02:00::"], [21, "spot%2:39:00::"], [22, "already%4:02:00::"]]
+    wn30_key: [[2, "also%4:02:00::"], [3, "make%2:30:00::"], [5, "conspicuous%3:00:00::"], [8, "enemy%1:14:00::"], [12, "be%2:42:06::"], [14, "enemy%1:14:00::"], [21, "spot%2:39:00::"], [22, "already%4:02:00::"]]
+bl8F:
+    lemmas: ["But", "the", "close_in", "aircraft", "show", "no", "sign", "of", "deviate", "from", "their", "original", "course", "."]
+    oewn2026_key: [[2, "oewn-02058627-v"], [3, "oewn-02689427-n"], [4, "oewn-01017253-v"], [6, "oewn-06659006-n"], [8, "oewn-02068815-v"], [11, "oewn-01016100-s"], [12, "oewn-09410115-n"]]
+    paragraph: '22'
+    pos: ["CC", "DT", "VB", "NN", "VBD", "DT", "NN", "IN", "VBG", "IN", "PRP$", "JJ", "NN", "."]
+    text: ' But the closing aircraft showed no sign of deviating from their original course.
+
+  '
+    tokens: [[1, 4], [5, 8], [9, 16], [17, 25], [26, 32], [33, 35], [36, 40], [41, 43], [44, 53], [54, 58], [59, 64], [65, 73], [74, 80], [80, 81]]
+    wn16_key: [[2, "close_in%2:38:00::"], [3, "aircraft%1:06:00::"], [4, "show%2:32:00::"], [6, "sign%1:10:05::"], [8, "deviate%2:38:00::"], [11, "original%5:00:01:first:00"], [12, "course%1:17:00::"]]
+    wn30_key: [[2, "close_in%2:38:00::"], [3, "aircraft%1:06:00::"], [4, "show%2:32:00::"], [6, "sign%1:10:05::"], [8, "deviate%2:38:00::"], [11, "original%3:00:01:first:00"], [12, "course%1:17:00::"]]
+/+MM:
+    lemmas: ["In", "second", ",", "person", "make", "his", "decision", "."]
+    oewn2026_key: [[1, "oewn-15271664-n"], [3, "oewn-00007846-n"], [4, "oewn-02566500-v"], [6, "oewn-00163453-n"]]
+    paragraph: '23'
+    pos: ["IN", "NNS", ",", "NNP", "VBD", "PRP$", "NN", "."]
+    text: ' In seconds, Greg made his decision.
+
+  '
+    tokens: [[1, 3], [4, 11], [11, 12], [13, 17], [18, 22], [23, 26], [27, 35], [35, 36]]
+    wn16_key: [[1, "second%1:28:01::"], [3, "person%1:03:00::"], [4, "make%2:41:00::"], [6, "decision%1:04:00::"]]
+    wn30_key: [[1, "second%1:28:01::"], [3, "person%1:03:00::"], [4, "make%2:41:00::"], [6, "decision%1:04:00::"]]
+gDCj:
+    lemmas: ["He", "push", "the", "radio", "button", "."]
+    oewn2026_key: [[1, "oewn-01875972-v"], [3, "oewn-04048624-n"], [4, "oewn-04033499-n"]]
+    paragraph: '24'
+    pos: ["PRP", "VBD", "DT", "NN", "NN", "."]
+    text: ' He pushed the radio button.'
+    tokens: [[1, 3], [4, 10], [11, 14], [15, 20], [21, 27], [27, 28]]
+    wn16_key: [[1, "push%2:38:00::"], [3, "radio%1:06:00::"], [4, "button%1:06:01::"]]
+    wn30_key: [[1, "push%2:38:00::"], [3, "radio%1:06:00::"], [4, "button%1:06:01::"]]
+FkUp:
+    lemmas: ["\"", "person", ",", "hit_the_deck", "."]
+    oewn2026_key: [[1, "oewn-00007846-n"], [3, "oewn-01837659-v"]]
+    paragraph: '24'
+    pos: ["``", "NN", ",", "VB", "."]
+    text: ' " Sweeney_Blue, hit_the_deck.'
+    tokens: [[1, 2], [3, 15], [15, 16], [17, 29], [29, 30]]
+    wn16_key: [[1, "person%1:03:00::"], [3, "hit_the_deck%2:38:00::"]]
+    wn30_key: [[1, "person%1:03:00::"], [3, "hit_the_deck%2:38:00::"]]
+Y2Xw:
+    lemmas: ["lots", "of", "throttle", "."]
+    oewn2026_key: [[0, "oewn-13799721-n"], [2, "oewn-02672816-n"]]
+    paragraph: '24'
+    pos: ["NNS", "IN", "NN", "."]
+    text: ' Lots of throttle.'
+    tokens: [[1, 5], [6, 8], [9, 17], [17, 18]]
+    wn16_key: [[0, "lots%1:23:00::"], [2, "throttle%1:06:00::"]]
+    wn30_key: [[0, "lots%1:23:00::"], [2, "throttle%1:06:00::"]]
+WXO2:
+    lemmas: ["person", ",", "you", "take_on", "the", "one", "on", "the", "left", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [3, "oewn-02575545-v"], [8, "oewn-00389570-r"]]
+    paragraph: '24'
+    pos: ["NNP", ",", "PRP", "VBP", "DT", "CD", "RB", "RB", "RB", "."]
+    text: ' Todman, you take the one on the left.'
+    tokens: [[1, 7], [7, 8], [9, 12], [13, 17], [18, 21], [22, 25], [26, 28], [29, 32], [33, 37], [37, 38]]
+    wn16_key: [[0, "person%1:03:00::"], [3, "take_on%2:33:00::"], [8, "left%4:02:03::"]]
+    wn30_key: [[0, "person%1:03:00::"], [3, "take_on%2:41:00::"], [8, "left%4:02:03::"]]
+TMWy:
+    lemmas: ["I", "'ll", "take_on", "the", "middle", "."]
+    oewn2026_key: [[2, "oewn-02575545-v"], [4, "oewn-00331404-s"]]
+    paragraph: '24'
+    pos: ["PRP", "MD", "VB", "DT", "JJ", "."]
+    text: ' I''ll take the middle.'
+    tokens: [[1, 2], [2, 5], [6, 10], [11, 14], [15, 21], [21, 22]]
+    wn16_key: [[2, "take_on%2:33:00::"], [4, "middle%5:00:01:central:01"]]
+    wn30_key: [[2, "take_on%2:41:00::"], [4, "middle%3:00:01:central:01"]]
+BGux:
+    lemmas: ["person", ",", "the", "one", "on", "the", "right", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [6, "oewn-00389732-r"]]
+    paragraph: '24'
+    pos: ["NNP", ",", "DT", "CD", "RB", "RB", "RB", "."]
+    text: ' Belton, the one on the right.'
+    tokens: [[1, 7], [7, 8], [9, 12], [13, 16], [17, 19], [20, 23], [24, 29], [29, 30]]
+    wn16_key: [[0, "person%1:03:00::"], [6, "right%4:02:03::"]]
+    wn30_key: [[0, "person%1:03:00::"], [6, "right%4:02:03::"]]
+S+Ap:
+    lemmas: ["If", "&", "&", "&", "if", "they", "be", "jap", "."]
+    oewn2026_key: [[6, "oewn-02622439-v"], [7, "oewn-09738048-n"]]
+    paragraph: '24'
+    pos: ["IN", "CC", "CC", "CC", "IN", "PRP", "VBP", "NNPS", "."]
+    text: ' If & & & if they''re Japs.'
+    tokens: [[1, 3], [4, 5], [6, 7], [8, 9], [10, 12], [13, 17], [17, 20], [21, 25], [25, 26]]
+    wn16_key: [[6, "be%2:42:06::"], [7, "jap%1:18:00::"]]
+    wn30_key: [[6, "be%2:42:06::"], [7, "jap%1:18:00::"]]
+VZWc:
+    lemmas: ["let", "'s", "make", "sure", "first", "\"", "."]
+    oewn2026_key: [[2, "oewn-01620211-v"], [3, "oewn-00310538-s"], [4, "oewn-00103286-r"]]
+    paragraph: '24'
+    pos: ["VB", "POS", "VB", "JJ", "RB", "''", "."]
+    text: ' Let''s make sure first ".'
+    tokens: [[1, 4], [4, 6], [7, 11], [12, 16], [17, 22], [23, 24], [24, 25]]
+    wn16_key: [[2, "make%2:36:00::"], [3, "sure%5:00:00:careful:00"], [4, "first%4:02:00::"]]
+    wn30_key: [[2, "make%2:36:00::"], [3, "sure%3:00:00:careful:00"], [4, "first%4:02:00::"]]
++3nd:
+    lemmas: ["person", "have", "the", "stick", "forward", "and", "the", "throttle", "up", "before", "he", "hear", "the", "two", "\"", "rogers", "\"", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-00120604-v"], [3, "oewn-04325114-n"], [4, "oewn-00204829-a"], [7, "oewn-02672816-n"], [8, "oewn-02499848-a"], [11, "oewn-02174146-v"], [13, "oewn-02194109-s"]]
+    paragraph: '24'
+    pos: ["NNP", "VBD", "DT", "NN", "JJ", "CC", "DT", "NN", "JJ", "IN", "PRP", "VBD", "JJ", "JJ", "``", "NNP", "''", "."]
+    text: ' Greg had the stick forward and the throttle up before he heard the two " Rogers
+  ".
+
+  '
+    tokens: [[1, 5], [6, 9], [10, 13], [14, 19], [20, 27], [28, 31], [32, 35], [36, 44], [45, 47], [48, 54], [55, 57], [58, 63], [64, 67], [68, 71], [72, 73], [74, 80], [81, 82], [82, 83]]
+    wn16_key: [[0, "person%1:03:00::"], [1, "have%2:30:00::"], [3, "stick%1:06:03::"], [4, "forward%3:00:01::"], [7, "throttle%1:06:00::"], [8, "up%3:00:00::"], [11, "hear%2:39:00::"], [13, "two%5:00:00:cardinal:00"]]
+    wn30_key: [[0, "person%1:03:00::"], [1, "have%2:30:00::"], [3, "stick%1:06:03::"], [4, "forward%3:00:01::"], [7, "throttle%1:06:00::"], [8, "up%3:00:00::"], [11, "hear%2:39:00::"], [13, "two%3:00:00:cardinal:00"]]
+GCCY:
+    lemmas: ["The", "plane", ",", "light", "with", "most", "of", "the", "gas", "burn", "out", ",", "respond", "beautifully", "."]
+    oewn2026_key: [[1, "oewn-02694015-n"], [3, "oewn-01189951-a"], [5, "oewn-01560125-a"], [8, "oewn-14711074-n"], [9, "oewn-00377673-v"], [12, "oewn-00719282-v"], [13, "oewn-00243465-r"]]
+    paragraph: '25'
+    pos: ["DT", "NNS", ",", "JJ", "IN", "JJS", "JJ", "DT", "NN", "VBN", "RB", ",", "VBD", "RB", "."]
+    text: ' The planes, light with most of the gas burned out, responded beautifully.'
+    tokens: [[1, 4], [5, 11], [11, 12], [13, 18], [19, 23], [24, 28], [29, 31], [32, 35], [36, 39], [40, 46], [47, 50], [50, 51], [52, 61], [62, 73], [73, 74]]
+    wn16_key: [[1, "plane%1:06:01::"], [3, "light%3:00:01::"], [5, "most%3:00:01::"], [8, "gas%1:27:02::"], [9, "burn%2:30:00::"], [12, "respond%2:31:00::"], [13, "beautifully%4:02:00::"]]
+    wn30_key: [[1, "plane%1:06:01::"], [3, "light%3:00:01::"], [5, "most%3:00:01::"], [8, "gas%1:27:02::"], [9, "burn%2:30:00::"], [12, "respond%2:31:00::"], [13, "beautifully%4:02:00::"]]
++xIq:
+    lemmas: ["person", "'s", "airspeed", "indicator", "be", "over", "350", "when", "he", "level_off", "just", "above", "the", "tree", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-15308651-n"], [3, "oewn-03573297-n"], [4, "oewn-02661230-v"], [9, "oewn-00357303-v"], [10, "oewn-00002669-r"], [13, "oewn-13124818-n"]]
+    paragraph: '25'
+    pos: ["NNP", "POS", "NN", "NN", "VBD", "IN", "CD", "WRB", "PRP", "VBD", "RB", "IN", "DT", "NNS", "."]
+    text: ' Greg''s airspeed indicator was over 350 when he leveled_off just above the trees.'
+    tokens: [[1, 5], [5, 7], [8, 16], [17, 26], [27, 30], [31, 35], [36, 39], [40, 44], [45, 47], [48, 59], [60, 64], [65, 70], [71, 74], [75, 80], [80, 81]]
+    wn16_key: [[0, "person%1:03:00::"], [2, "airspeed%1:28:00::"], [3, "indicator%1:06:00::"], [4, "be%2:42:05::"], [9, "level_off%2:30:00::"], [10, "just%4:02:04::"], [13, "tree%1:20:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [2, "airspeed%1:28:00::"], [3, "indicator%1:06:00::"], [4, "be%2:42:05::"], [9, "level_off%2:30:00::"], [10, "just%4:02:04::"], [13, "tree%1:20:00::"]]
+OVdL:
+    lemmas: ["The", "opposing", "aircraft", "continue", "to", "come_on", "."]
+    oewn2026_key: [[1, "oewn-01249022-s"], [2, "oewn-02689427-n"], [3, "oewn-02690747-v"], [5, "oewn-02057865-v"]]
+    paragraph: '25'
+    pos: ["DT", "JJ", "NN", "VBD", "TO", "VB", "."]
+    text: ' The opposing aircraft continued to come_on.'
+    tokens: [[1, 4], [5, 13], [14, 22], [23, 32], [33, 35], [36, 43], [43, 44]]
+    wn16_key: [[1, "opposing%5:00:00:hostile:01"], [2, "aircraft%1:06:00::"], [3, "continue%2:42:01::"], [5, "come_on%2:38:00::"]]
+    wn30_key: [[1, "opposing%3:00:00:hostile:01"], [2, "aircraft%1:06:00::"], [3, "continue%2:42:01::"], [5, "come_on%2:38:00::"]]
+c8AG:
+    lemmas: ["They", "appear", "to", "be", "the", "enemy", "."]
+    oewn2026_key: [[1, "oewn-02137900-v"], [3, "oewn-02622439-v"], [5, "oewn-08207412-n"]]
+    paragraph: '25'
+    pos: ["PRP", "VBD", "TO", "VB", "DT", "NN", "."]
+    text: ' They appeared to be the enemy.'
+    tokens: [[1, 5], [6, 14], [15, 17], [18, 20], [21, 24], [25, 30], [30, 31]]
+    wn16_key: [[1, "appear%2:39:00::"], [3, "be%2:42:06::"], [5, "enemy%1:14:00::"]]
+    wn30_key: [[1, "appear%2:39:00::"], [3, "be%2:42:06::"], [5, "enemy%1:14:00::"]]
+oLeB:
+    lemmas: ["person", "wish", "the", "air_corps", "have", "continue", "to", "camouflage", "plane", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-00905166-v"], [3, "oewn-08211755-n"], [5, "oewn-02690747-v"], [7, "oewn-02163326-v"], [8, "oewn-02694015-n"]]
+    paragraph: '25'
+    pos: ["NNP", "VBD", "DT", "NNS", "VBD", "VBN", "TO", "VB", "NNS", "."]
+    text: ' Greg wished the Air_Corps had continued to camouflage planes.'
+    tokens: [[1, 5], [6, 12], [13, 16], [17, 26], [27, 30], [31, 40], [41, 43], [44, 54], [55, 61], [61, 62]]
+    wn16_key: [[0, "person%1:03:00::"], [1, "wish%2:37:00::"], [3, "air_corps%1:14:00::"], [5, "continue%2:42:01::"], [7, "camouflage%2:39:00::"], [8, "plane%1:06:01::"]]
+    wn30_key: [[0, "person%1:03:00::"], [1, "wish%2:37:00::"], [3, "air_corps%1:14:00::"], [5, "continue%2:42:01::"], [7, "camouflage%2:39:00::"], [8, "plane%1:06:01::"]]
+xFrI:
+    lemmas: ["There", "be", ",", "of_course", ",", "no", "way", "for", "the", "other", "plane", "to", "get_by", "them", "."]
+    oewn2026_key: [[3, "oewn-00039019-r"], [6, "oewn-00173531-n"], [9, "oewn-02076759-a"], [10, "oewn-02694015-n"], [12, "oewn-02053912-v"]]
+    paragraph: '25'
+    pos: ["EX", "VBD", ",", "RB", ",", "DT", "NN", "IN", "DT", "JJ", "NNS", "TO", "VB", "PRP", "."]
+    text: ' There was, of_course, no way for the other planes to get_by them.'
+    tokens: [[1, 6], [7, 10], [10, 11], [12, 21], [21, 22], [23, 25], [26, 29], [30, 33], [34, 37], [38, 43], [44, 50], [51, 53], [54, 60], [61, 65], [65, 66]]
+    wn16_key: [[3, "of_course%4:02:00::"], [6, "way%1:04:01::"], [9, "other%3:00:00::"], [10, "plane%1:06:01::"], [12, "get_by%2:38:00::"]]
+    wn30_key: [[3, "of_course%4:02:00::"], [6, "way%1:04:01::"], [9, "other%3:00:00::"], [10, "plane%1:06:01::"], [12, "get_by%2:38:00::"]]
+Mx21:
+    lemmas: ["It", "be", "a", "box", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"]]
+    paragraph: '25'
+    pos: ["PRP", "VBD", "DT", "NN", "."]
+    text: ' It was a box.'
+    tokens: [[1, 3], [4, 7], [8, 9], [10, 13], [13, 14]]
+    wn16_key: [[1, "be%2:42:03::"]]
+    wn30_key: [[1, "be%2:42:03::"]]
+uLnU:
+    lemmas: ["But", "they", "could", "turn", "and", "escape", "to", "the", "east", "."]
+    oewn2026_key: [[3, "oewn-01911251-v"], [5, "oewn-02078906-v"], [8, "oewn-13854554-n"]]
+    paragraph: '25'
+    pos: ["CC", "PRP", "MD", "VB", "CC", "VB", "TO", "DT", "NN", "."]
+    text: ' But they could turn and escape to the east.
+
+  '
+    tokens: [[1, 4], [5, 9], [10, 15], [16, 20], [21, 24], [25, 31], [32, 34], [35, 38], [39, 43], [43, 44]]
+    wn16_key: [[3, "turn%2:38:00::"], [5, "escape%2:38:00::"], [8, "east%1:24:00::"]]
+    wn30_key: [[3, "turn%2:38:00::"], [5, "escape%2:38:00::"], [8, "east%1:24:00::"]]
+HR9Z:
+    lemmas: ["person", "push", "the", "radio", "button", "again", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-01875972-v"], [3, "oewn-04048624-n"], [4, "oewn-04033499-n"], [5, "oewn-00040777-r"]]
+    paragraph: '26'
+    pos: ["NNP", "VBD", "DT", "NN", "NN", "RB", "."]
+    text: ' Greg pushed the radio button again.'
+    tokens: [[1, 5], [6, 12], [13, 16], [17, 22], [23, 29], [30, 35], [35, 36]]
+    wn16_key: [[0, "person%1:03:00::"], [1, "push%2:38:00::"], [3, "radio%1:06:00::"], [4, "button%1:06:01::"], [5, "again%4:02:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [1, "push%2:38:00::"], [3, "radio%1:06:00::"], [4, "button%1:06:01::"], [5, "again%4:02:00::"]]
+fza5:
+    lemmas: ["\"", "person", ",", "drop_back", "your", "second", "element", "back", "."]
+    oewn2026_key: [[1, "oewn-00007846-n"], [3, "oewn-01837450-v"], [5, "oewn-01020028-a"], [6, "oewn-03085025-n"]]
+    paragraph: '26'
+    pos: ["``", "NNP", ",", "VB", "PRP$", "JJ", "NN", "RB", "."]
+    text: ' " Todman, drop your second element back.'
+    tokens: [[1, 2], [3, 9], [9, 10], [11, 15], [16, 20], [21, 27], [28, 35], [36, 40], [40, 41]]
+    wn16_key: [[1, "person%1:03:00::"], [3, "drop_back%2:38:00::"], [5, "second%5:00:00:intermediate:00"], [6, "element%1:06:00::"]]
+    wn30_key: [[1, "person%1:03:00::"], [3, "drop_back%2:38:00::"], [5, "second%3:00:00::"], [6, "element%1:06:00::"]]
+q467:
+    lemmas: ["If", "any", "of", "us", "miss", ",", "they", "can", "pick_up", "the", "piece", "."]
+    oewn2026_key: [[4, "oewn-01240465-v"], [8, "oewn-01980103-v"]]
+    paragraph: '26'
+    pos: ["IN", "DT", "IN", "PRP", "VBP", ",", "PRP", "MD", "VB", "VB", "VB", "."]
+    text: ' If any of us miss, they can pick_up the pieces.'
+    tokens: [[1, 3], [4, 7], [8, 10], [11, 13], [14, 18], [18, 19], [20, 24], [25, 28], [29, 36], [37, 40], [41, 47], [47, 48]]
+    wn16_key: [[4, "miss%2:33:00::"], [8, "pick_up%2:38:01::"]]
+    wn30_key: [[4, "miss%2:35:00::"], [8, "pick_up%2:38:01::"]]
+4RaV:
+    lemmas: ["now", "let", "'s", "make", "sure", "they", "be", "jap", "\"", "."]
+    oewn2026_key: [[0, "oewn-00049640-r"], [3, "oewn-01620211-v"], [4, "oewn-00310538-s"], [6, "oewn-02622439-v"], [7, "oewn-09738048-n"]]
+    paragraph: '26'
+    pos: ["RB", "VB", "POS", "VB", "JJ", "PRP", "VBP", "NNPS", "``", "."]
+    text: ' Now let''s make sure they''re Japs ".
+
+  '
+    tokens: [[1, 4], [5, 8], [8, 10], [11, 15], [16, 20], [21, 25], [25, 28], [29, 33], [34, 35], [35, 36]]
+    wn16_key: [[0, "now%4:02:02::"], [3, "make%2:36:00::"], [4, "sure%5:00:00:careful:00"], [6, "be%2:42:06::"], [7, "jap%1:18:00::"]]
+    wn30_key: [[0, "now%4:02:02::"], [3, "make%2:36:00::"], [4, "sure%3:00:00:careful:00"], [6, "be%2:42:06::"], [7, "jap%1:18:00::"]]
+QLKv:
+    lemmas: ["even", "as", "he", "say", "it", ",", "person", "know", "they", "have", "find", "the", "enemy", "."]
+    oewn2026_key: [[0, "oewn-00017907-r"], [3, "oewn-01011267-v"], [6, "oewn-00007846-n"], [7, "oewn-00596016-v"], [10, "oewn-02253273-v"], [12, "oewn-08207412-n"]]
+    paragraph: '27'
+    pos: ["RB", "IN", "PRP", "VBD", "PRP", ",", "NNP", "VBD", "PRP", "VBD", "VBN", "DT", "NN", "."]
+    text: ' Even as he said it, Greg knew they had found the enemy.'
+    tokens: [[1, 5], [6, 8], [9, 11], [12, 16], [17, 19], [19, 20], [21, 25], [26, 30], [31, 35], [36, 39], [40, 45], [46, 49], [50, 55], [55, 56]]
+    wn16_key: [[0, "even%4:02:00::"], [3, "say%2:32:00::"], [6, "person%1:03:00::"], [7, "know%2:31:02::"], [10, "find%2:40:02::"], [12, "enemy%1:14:00::"]]
+    wn30_key: [[0, "even%4:02:00::"], [3, "say%2:32:00::"], [6, "person%1:03:00::"], [7, "know%2:31:02::"], [10, "find%2:40:02::"], [12, "enemy%1:14:00::"]]
+psJs:
+    lemmas: ["The", "shape", "be", "unmistakable", "and", "the", "rising", "sun", "be", "show_up", ",", "slightly", "bright", "pinpoint", "in", "the", "gray", "gloom", "."]
+    oewn2026_key: [[1, "oewn-05071206-n"], [2, "oewn-02610777-v"], [3, "oewn-00431405-s"], [6, "oewn-02496610-a"], [7, "oewn-09473312-n"], [9, "oewn-02144017-v"], [11, "oewn-00036695-r"], [12, "oewn-00279417-a"], [13, "oewn-04688587-n"], [17, "oewn-14008947-n"]]
+    paragraph: '27'
+    pos: ["DT", "NNS", "VBD", "JJ", "CC", "DT", "JJ", "NNPS", "VBD", "VB", ",", "RB", "JJ", "NN", "IN", "DT", "JJ", "NN", "."]
+    text: ' The shapes were unmistakable and the Rising Suns were showing_up, slightly brighter
+  pinpoints in the gray gloom.
+
+  '
+    tokens: [[1, 4], [5, 11], [12, 16], [17, 29], [30, 33], [34, 37], [38, 44], [45, 49], [50, 54], [55, 65], [65, 66], [67, 75], [76, 84], [85, 94], [95, 97], [98, 101], [102, 106], [107, 112], [112, 113]]
+    wn16_key: [[1, "shape%1:07:00::"], [2, "be%2:42:03::"], [3, "unmistakable%5:00:00:clear:00"], [6, "rising%3:00:01::"], [7, "sun%1:17:00::"], [9, "show_up%2:39:00::"], [11, "slightly%4:02:01::"], [12, "bright%3:00:00::"], [13, "pinpoint%1:07:00::"], [16, "gray%5:00:00:cloudy:00"], [17, "gloom%1:26:01::"]]
+    wn30_key: [[1, "shape%1:07:00::"], [2, "be%2:42:03::"], [3, "unmistakable%3:00:00:clear:00"], [6, "rising%3:00:00::"], [7, "sun%1:17:00::"], [9, "show_up%2:39:00::"], [11, "slightly%4:02:01::"], [12, "bright%3:00:00::"], [13, "pinpoint%1:07:00::"], [17, "gloom%1:26:01::"]]
+MYrE:
+    lemmas: ["person", "slap", "his", "hand", "across", "the", "switch", "that", "turn_on", "the", "gun", "and", "gun", "camera", "and", "gun", "sight", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-01419525-v"], [3, "oewn-05572223-n"], [6, "oewn-04379457-n"], [8, "oewn-01513031-v"], [10, "oewn-03472916-n"], [12, "oewn-03472916-n"], [13, "oewn-02946154-n"], [15, "oewn-03472916-n"], [16, "oewn-06901994-n"]]
+    paragraph: '28'
+    pos: ["NNP", "VBD", "PRP$", "NN", "IN", "DT", "NNS", "IN", "VBP", "DT", "NNS", "CC", "NN", "NN", "CC", "NN", "NN", "."]
+    text: ' Greg slapped his hand across the switches that turned_on the guns and gun camera
+  and gun sight.'
+    tokens: [[1, 5], [6, 13], [14, 17], [18, 22], [23, 29], [30, 33], [34, 42], [43, 47], [48, 57], [58, 61], [62, 66], [67, 70], [71, 74], [75, 81], [82, 85], [86, 89], [90, 95], [95, 96]]
+    wn16_key: [[0, "person%1:03:00::"], [1, "slap%2:35:00::"], [3, "hand%1:08:00::"], [6, "switch%1:06:01::"], [8, "turn_on%2:35:00::"], [10, "gun%1:06:00::"], [12, "gun%1:06:00::"], [13, "camera%1:06:00::"], [15, "gun%1:06:00::"], [16, "sight%1:06:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [1, "slap%2:35:00::"], [3, "hand%1:08:00::"], [6, "switch%1:06:01::"], [8, "turn_on%2:35:00::"], [10, "gun%1:06:00::"], [12, "gun%1:06:00::"], [13, "camera%1:06:00::"], [15, "gun%1:06:00::"], [16, "sight%1:10:00::"]]
+Ce7B:
+    lemmas: ["The", "circle", "with", "the", "dot", "in", "the", "center", "show_up", "yellow", "on", "the", "reflector", "glass", "in_front", "of", "him", "."]
+    oewn2026_key: [[1, "oewn-13896141-n"], [4, "oewn-13934887-n"], [7, "oewn-08540894-n"], [8, "oewn-02144017-v"], [9, "oewn-00386818-s"], [12, "oewn-04075713-n"], [13, "oewn-03338074-n"], [14, "oewn-00067181-r"]]
+    paragraph: '28'
+    pos: ["DT", "NN", "IN", "DT", "NN", "RB", "RB", "NN", "VB", "JJ", "IN", "DT", "NN", "NN", "RB", "IN", "PRP", "."]
+    text: ' The circle with the dot in the center showed_up yellow on the reflector glass in_front
+  of him.'
+    tokens: [[1, 4], [5, 11], [12, 16], [17, 20], [21, 24], [25, 27], [28, 31], [32, 38], [39, 48], [49, 55], [56, 58], [59, 62], [63, 72], [73, 78], [79, 87], [88, 90], [91, 94], [94, 95]]
+    wn16_key: [[1, "circle%1:25:00::"], [4, "dot%1:25:00::"], [7, "center%1:15:01::"], [8, "show_up%2:39:00::"], [9, "yellow%5:00:00:chromatic:00"], [12, "reflector%1:06:01::"], [13, "glass%1:06:03::"], [14, "in_front%4:02:00::"]]
+    wn30_key: [[1, "circle%1:25:00::"], [4, "dot%1:25:00::"], [7, "center%1:15:01::"], [8, "show_up%2:39:00::"], [9, "yellow%3:00:00:chromatic:00"], [12, "reflector%1:06:01::"], [13, "glass%1:06:03::"], [14, "in_front%4:02:00::"]]
+Wlvg:
+    lemmas: ["His", "hand", "shake", "."]
+    oewn2026_key: [[1, "oewn-05572223-n"], [2, "oewn-00014027-v"]]
+    paragraph: '28'
+    pos: ["PRP$", "NNS", "VBD", "."]
+    text: ' His hands shook.'
+    tokens: [[1, 4], [5, 10], [11, 16], [16, 17]]
+    wn16_key: [[1, "hand%1:08:00::"], [2, "shake%2:29:00::"]]
+    wn30_key: [[1, "hand%1:08:00::"], [2, "shake%2:29:00::"]]
+6Wq2:
+    lemmas: ["\"", "arm", "your", "gun", ",", "person", "\"", "."]
+    oewn2026_key: [[1, "oewn-01089608-v"], [3, "oewn-03472916-n"], [5, "oewn-00007846-n"]]
+    paragraph: '28'
+    pos: ["``", "VB", "PRP$", "NNS", ",", "NNPS", "``", "."]
+    text: ' " Arm your guns, Sweeneys ".
+
+  '
+    tokens: [[1, 2], [3, 6], [7, 11], [12, 16], [16, 17], [18, 26], [27, 28], [28, 29]]
+    wn16_key: [[1, "arm%2:33:00::"], [3, "gun%1:06:00::"], [5, "person%1:03:00::"]]
+    wn30_key: [[1, "arm%2:33:00::"], [3, "gun%1:06:00::"], [5, "person%1:03:00::"]]
+YPTx:
+    lemmas: ["\"", "They", "be", "jap", "."]
+    oewn2026_key: [[2, "oewn-02622439-v"], [3, "oewn-09738048-n"]]
+    paragraph: '29'
+    pos: ["``", "PRP", "VBP", "NNPS", "."]
+    text: ' " They''re Japs.'
+    tokens: [[1, 2], [3, 7], [7, 10], [11, 15], [15, 16]]
+    wn16_key: [[2, "be%2:42:06::"], [3, "jap%1:18:00::"]]
+    wn30_key: [[2, "be%2:42:06::"], [3, "jap%1:18:00::"]]
+5jns:
+    lemmas: ["They", "be", "jap", "\"", ",", "come", "a", "high-pitched", "voice", "."]
+    oewn2026_key: [[1, "oewn-02622439-v"], [2, "oewn-09738048-n"], [5, "oewn-01853188-v"], [7, "oewn-01215869-a"], [8, "oewn-07125323-n"]]
+    paragraph: '29'
+    pos: ["PRP", "VBP", "NNPS", "``", ",", "VBD", "DT", "JJ", "NN", "."]
+    text: ' They''re Japs ", came a high-pitched voice.
+
+  '
+    tokens: [[1, 5], [5, 8], [9, 13], [14, 15], [15, 16], [17, 21], [22, 23], [24, 36], [37, 42], [42, 43]]
+    wn16_key: [[1, "be%2:42:06::"], [2, "jap%1:18:00::"], [5, "come%2:38:00::"], [7, "high-pitched%3:00:00::"], [8, "voice%1:10:00::"]]
+    wn30_key: [[1, "be%2:42:06::"], [2, "jap%1:18:00::"], [5, "come%2:38:00::"], [7, "high-pitched%3:00:00::"], [8, "voice%1:10:00::"]]
+BQBI:
+    lemmas: ["\"", "person", "to", "person", "."]
+    oewn2026_key: [[1, "oewn-00007846-n"], [3, "oewn-00007846-n"]]
+    paragraph: '30'
+    pos: ["``", "NNP", "TO", "NN", "."]
+    text: ' " Greg to Sweeney_Blue.'
+    tokens: [[1, 2], [3, 7], [8, 10], [11, 23], [23, 24]]
+    wn16_key: [[1, "person%1:03:00::"], [3, "person%1:03:00::"]]
+    wn30_key: [[1, "person%1:03:00::"], [3, "person%1:03:00::"]]
+xpBG:
+    lemmas: ["one", "pass", "only", "."]
+    oewn2026_key: [[0, "oewn-02193977-s"], [1, "oewn-00305418-n"], [2, "oewn-00009062-r"]]
+    paragraph: '30'
+    pos: ["JJ", "NN", "RB", "."]
+    text: ' One pass only.'
+    tokens: [[1, 4], [5, 9], [10, 14], [14, 15]]
+    wn16_key: [[0, "one%5:00:00:cardinal:00"], [1, "pass%1:04:06::"], [2, "only%4:02:01::"]]
+    wn30_key: [[0, "one%3:00:00:cardinal:00"], [1, "pass%1:04:06::"], [2, "only%4:02:01::"]]
+QfVC:
+    lemmas: ["No", "turn", "."]
+    oewn2026_key: [[1, "oewn-01911251-v"]]
+    paragraph: '30'
+    pos: ["DT", "VB", "."]
+    text: ' No turns.'
+    tokens: [[1, 3], [4, 9], [9, 10]]
+    wn16_key: [[1, "turn%2:38:00::"]]
+    wn30_key: [[1, "turn%2:38:00::"]]
+9AyA:
+    lemmas: ["You", "'ll", "bust_your_ass", "in_this", "canyon", "."]
+    oewn2026_key: [[4, "oewn-09256353-n"]]
+    paragraph: '30'
+    pos: ["PRP", "MD", "VB", "RB", "NN", "."]
+    text: ' You''ll bust_your_ass in_this canyon.'
+    tokens: [[1, 4], [4, 7], [8, 21], [22, 29], [30, 36], [36, 37]]
+    wn16_key: [[4, "canyon%1:17:00::"]]
+    wn30_key: [[4, "canyon%1:17:00::"]]
+u/8J:
+    lemmas: ["That", "be", "an", "order", "\"", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [3, "oewn-07183274-n"]]
+    paragraph: '30'
+    pos: ["DT", "VBZ", "DT", "NN", "''", "."]
+    text: ' That''s an order ".
+
+  '
+    tokens: [[1, 5], [5, 7], [8, 10], [11, 16], [17, 18], [18, 19]]
+    wn16_key: [[1, "be%2:42:03::"], [3, "order%1:10:03::"]]
+    wn30_key: [[1, "be%2:42:03::"], [3, "order%1:10:03::"]]
+Wsdb:
+    lemmas: ["He", "move", "the", "flight", "over", "against", "one", "wall", "."]
+    oewn2026_key: [[1, "oewn-01854282-v"], [3, "oewn-08237455-n"], [6, "oewn-01682215-s"], [7, "oewn-09497292-n"]]
+    paragraph: '31'
+    pos: ["PRP", "VBD", "DT", "NNS", "IN", "IN", "JJ", "NN", "."]
+    text: ' He moved the flights over against one wall.'
+    tokens: [[1, 3], [4, 9], [10, 13], [14, 21], [22, 26], [27, 34], [35, 38], [39, 43], [43, 44]]
+    wn16_key: [[1, "move%2:38:01::"], [3, "flight%1:14:01::"], [6, "one%5:00:00:unspecified:00"], [7, "wall%1:17:00::"]]
+    wn30_key: [[1, "move%2:38:01::"], [3, "flight%1:14:01::"], [6, "one%3:00:00:extraordinary:00"], [7, "wall%1:17:00::"]]
+KrzL:
+    lemmas: ["It", "give", "them", "all", "a", "chance", "to", "make", "a", "high-speed", "climb", "turn", "attack", "and", "a", "breakaway", "that", "would", "not", "take", "them", "into", "the", "overcast", "or", "force", "a", "tight", "turn", "recovery", "."]
+    oewn2026_key: [[1, "oewn-02344167-v"], [5, "oewn-14507501-n"], [7, "oewn-02566500-v"], [9, "oewn-00981620-s"], [10, "oewn-01925957-v"], [11, "oewn-00350856-n"], [12, "oewn-00974725-n"], [15, "oewn-00386074-n"], [18, "oewn-00024432-r"], [19, "oewn-02003830-v"], [23, "oewn-14547800-n"], [25, "oewn-02510211-v"], [27, "oewn-01450193-a"], [28, "oewn-00350856-n"], [29, "oewn-07434392-n"]]
+    paragraph: '31'
+    pos: ["PRP", "VBD", "PRP", "PDT", "DT", "NN", "TO", "VB", "DT", "JJ", "VB", "NN", "NN", "CC", "DT", "NN", "WDT", "MD", "RB", "VB", "PRP", "IN", "DT", "NN", "CC", "VB", "DT", "JJ", "NN", "NN", "."]
+    text: ' It gave them all a chance to make a high-speed climbing turn attack and a break-away
+  that would not take them into the overcast or force a tight turn recovery.'
+    tokens: [[1, 3], [4, 8], [9, 13], [14, 17], [18, 19], [20, 26], [27, 29], [30, 34], [35, 36], [37, 47], [48, 56], [57, 61], [62, 68], [69, 72], [73, 74], [75, 85], [86, 90], [91, 96], [97, 100], [101, 105], [106, 110], [111, 115], [116, 119], [120, 128], [129, 131], [132, 137], [138, 139], [140, 145], [146, 150], [151, 159], [159, 160]]
+    wn16_key: [[1, "give%2:40:05::"], [5, "chance%1:26:00::"], [7, "make%2:41:00::"], [9, "high-speed%5:00:02:fast:01"], [10, "climb%2:38:00::"], [11, "turn%1:04:01::"], [12, "attack%1:04:00::"], [15, "breakaway%1:04:00::"], [18, "not%4:02:00::"], [19, "take%2:38:09::"], [23, "overcast%1:26:00::"], [25, "force%2:41:00::"], [27, "tight%3:00:01::"], [28, "turn%1:04:01::"], [29, "recovery%1:11:00::"]]
+    wn30_key: [[1, "give%2:40:05::"], [5, "chance%1:26:00::"], [7, "make%2:41:00::"], [9, "high-speed%3:00:01:fast:01"], [10, "climb%2:38:00::"], [11, "turn%1:04:01::"], [12, "attack%1:04:00::"], [15, "breakaway%1:04:00::"], [18, "not%4:02:00::"], [19, "take%2:38:09::"], [23, "overcast%1:26:00::"], [25, "force%2:41:00::"], [27, "tight%3:00:01::"], [28, "turn%1:04:01::"], [29, "recovery%1:11:00::"]]
+YZAb:
+    lemmas: ["If", "the", "turn", "be", "too", "tight", ",", "a", "barrel_roll", "would", "bring_out", "them", "out", "."]
+    oewn2026_key: [[2, "oewn-00350856-n"], [3, "oewn-02610777-v"], [4, "oewn-00047930-r"], [5, "oewn-01450193-a"], [8, "oewn-00171357-n"], [10, "oewn-01477931-v"]]
+    paragraph: '31'
+    pos: ["IN", "DT", "NN", "VBD", "RB", "JJ", ",", "DT", "NN", "MD", "VB", "PRP", "RB", "."]
+    text: ' If the turn was too tight, a barrel_roll would bring them out.'
+    tokens: [[1, 3], [4, 7], [8, 12], [13, 16], [17, 20], [21, 26], [26, 27], [28, 29], [30, 41], [42, 47], [48, 53], [54, 58], [59, 62], [62, 63]]
+    wn16_key: [[2, "turn%1:04:01::"], [3, "be%2:42:03::"], [4, "too%4:02:00::"], [5, "tight%3:00:01::"], [8, "barrel_roll%1:04:00::"], [10, "bring_out%2:35:00::"]]
+    wn30_key: [[2, "turn%1:04:01::"], [3, "be%2:42:03::"], [4, "too%4:02:00::"], [5, "tight%3:00:01::"], [8, "barrel_roll%1:04:00::"], [10, "bring_out%2:35:00::"]]
+iWSR:
+    lemmas: ["A", "hell", "of", "an", "altitude", "for", "a", "barrel_roll", ",", "but", "it", "could", "be", "do", "."]
+    oewn2026_key: [[4, "oewn-05138912-n"], [7, "oewn-00171357-n"], [13, "oewn-02566500-v"]]
+    paragraph: '31'
+    pos: ["DT", "NN", "IN", "DT", "NN", "IN", "DT", "NN", ",", "CC", "PRP", "MD", "VB", "VBN", "."]
+    text: ' A hell of an altitude for a barrel_roll, but it could be done.
+
+  '
+    tokens: [[1, 2], [3, 7], [8, 10], [11, 13], [14, 22], [23, 26], [27, 28], [29, 40], [40, 41], [42, 45], [46, 48], [49, 54], [55, 57], [58, 62], [62, 63]]
+    wn16_key: [[4, "altitude%1:07:00::"], [7, "barrel_roll%1:04:00::"], [13, "do%2:41:01::"]]
+    wn30_key: [[4, "altitude%1:07:00::"], [7, "barrel_roll%1:04:00::"], [13, "do%2:41:01::"]]
+9iI1:
+    lemmas: ["person", "slam", "his", "throttle", "to", "the", "firewall", "and", "ram", "up", "the", "rpm", ",", "and", "the", "engine", "respond", "as", "if", "it", "have", "be", "wait", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-01244955-v"], [3, "oewn-02672816-n"], [6, "oewn-00104908-n"], [8, "oewn-01519166-v"], [9, "oewn-00096883-r"], [11, "oewn-15307088-n"], [15, "oewn-03292644-n"], [16, "oewn-00719282-v"], [22, "oewn-02644022-v"]]
+    paragraph: '32'
+    pos: ["NNP", "VBD", "PRP$", "NN", "TO", "DT", "NN", "CC", "VBD", "RP", "DT", "NNP", ",", "CC", "DT", "NN", "VBD", "IN", "IN", "PRP", "VBD", "VBN", "VBG", "."]
+    text: ' Greg slammed his throttle to the fire_wall and rammed up the RPM, and the engine
+  responded as if it had been waiting.'
+    tokens: [[1, 5], [6, 13], [14, 17], [18, 26], [27, 29], [30, 33], [34, 43], [44, 47], [48, 54], [55, 57], [58, 61], [62, 65], [65, 66], [67, 70], [71, 74], [75, 81], [82, 91], [92, 94], [95, 97], [98, 100], [101, 104], [105, 109], [110, 117], [117, 118]]
+    wn16_key: [[0, "person%1:03:00::"], [1, "slam%2:35:00::"], [3, "throttle%1:06:00::"], [6, "firewall%1:04:00::"], [8, "ram%2:35:00::"], [9, "up%4:02:00::"], [11, "rpm%1:28:00::"], [15, "engine%1:06:00::"], [16, "respond%2:31:00::"], [22, "wait%2:42:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [1, "slam%2:35:00::"], [3, "throttle%1:06:00::"], [6, "firewall%1:04:00::"], [8, "ram%2:35:00::"], [9, "up%4:02:00::"], [11, "rpm%1:28:00::"], [15, "engine%1:06:00::"], [16, "respond%2:31:00::"], [22, "wait%2:42:00::"]]
+VCOx:
+    lemmas: ["The", "clearly", "identifiable", "enemy", "continue", "on", "as", "if", "no", "one", "else", "be", "around", "."]
+    oewn2026_key: [[1, "oewn-00039452-r"], [2, "oewn-01275507-a"], [3, "oewn-08207412-n"], [4, "oewn-02690747-v"], [11, "oewn-02661230-v"], [12, "oewn-00071565-r"]]
+    paragraph: '32'
+    pos: ["DT", "RB", "JJ", "NN", "VBN", "IN", "IN", "IN", "DT", "NN", "JJ", "VBD", "RB", "."]
+    text: ' The clearly identifiable enemy continued on as if no one else were around.'
+    tokens: [[1, 4], [5, 12], [13, 25], [26, 31], [32, 41], [42, 44], [45, 47], [48, 50], [51, 53], [54, 57], [58, 62], [63, 67], [68, 74], [74, 75]]
+    wn16_key: [[1, "clearly%4:02:00::"], [2, "identifiable%3:00:00::"], [3, "enemy%1:14:00::"], [4, "continue%2:42:01::"], [10, "else%5:00:00:other:00"], [11, "be%2:42:05::"], [12, "around%4:02:01::"]]
+    wn30_key: [[1, "clearly%4:02:00::"], [2, "identifiable%3:00:00::"], [3, "enemy%1:14:00::"], [4, "continue%2:42:01::"], [11, "be%2:42:05::"], [12, "around%4:02:01::"]]
+8mQz:
+    lemmas: ["\"", "They", "have", "n't", "see", "us", "\"", ",", "person", "yell", "to", "himself", "over", "the", "engine", "noise", "."]
+    oewn2026_key: [[4, "oewn-02133754-v"], [8, "oewn-00007846-n"], [9, "oewn-00915018-v"], [14, "oewn-03292644-n"], [15, "oewn-07402109-n"]]
+    paragraph: '32'
+    pos: ["``", "PRP", "VBP", "RB", "VBN", "PRP", "``", ",", "NNP", "VBD", "TO", "PRP", "IN", "DT", "NN", "NN", "."]
+    text: ' " They haven''t seen us ", Greg yelled to himself over the engine noise.'
+    tokens: [[1, 2], [3, 7], [8, 12], [12, 15], [16, 20], [21, 23], [24, 25], [25, 26], [27, 31], [32, 38], [39, 41], [42, 49], [50, 54], [55, 58], [59, 65], [66, 71], [71, 72]]
+    wn16_key: [[3, "n't%4:02:00::"], [4, "see%2:39:00::"], [8, "person%1:03:00::"], [9, "yell%2:32:01::"], [14, "engine%1:06:00::"], [15, "noise%1:11:00::"]]
+    wn30_key: [[4, "see%2:39:00::"], [8, "person%1:03:00::"], [9, "yell%2:32:01::"], [14, "engine%1:06:00::"], [15, "noise%1:11:00::"]]
+32Vu:
+    lemmas: ["\"", "They", "have", "n't", "see", "us", "\"", "."]
+    oewn2026_key: [[4, "oewn-02133754-v"]]
+    paragraph: '32'
+    pos: ["``", "PRP", "VBP", "RB", "VBN", "PRP", "``", "."]
+    text: ' " They haven''t seen us ".'
+    tokens: [[1, 2], [3, 7], [8, 12], [12, 15], [16, 20], [21, 23], [24, 25], [25, 26]]
+    wn16_key: [[3, "n't%4:02:00::"], [4, "see%2:39:00::"]]
+    wn30_key: [[4, "see%2:39:00::"]]
+UE/H:
+    lemmas: ["He", "hit", "the", "radio", "button", "."]
+    oewn2026_key: [[1, "oewn-01407698-v"], [3, "oewn-04048624-n"], [4, "oewn-04033499-n"]]
+    paragraph: '32'
+    pos: ["PRP", "VBD", "DT", "NN", "NN", "."]
+    text: ' He hit the radio button.'
+    tokens: [[1, 3], [4, 7], [8, 11], [12, 17], [18, 24], [24, 25]]
+    wn16_key: [[1, "hit%2:35:03::"], [3, "radio%1:06:00::"], [4, "button%1:06:01::"]]
+    wn30_key: [[1, "hit%2:35:03::"], [3, "radio%1:06:00::"], [4, "button%1:06:01::"]]
+Pma0:
+    lemmas: ["\"", "now", ",", "person", ",", "now", "."]
+    oewn2026_key: [[1, "oewn-00049277-r"], [3, "oewn-00007846-n"], [5, "oewn-00049277-r"]]
+    paragraph: '32'
+    pos: ["``", "RB", ",", "NNPS", ",", "RB", "."]
+    text: ' " Now, Sweeneys, now.'
+    tokens: [[1, 2], [3, 6], [6, 7], [8, 16], [16, 17], [18, 21], [21, 22]]
+    wn16_key: [[1, "now%4:02:01::"], [3, "person%1:03:00::"], [5, "now%4:02:01::"]]
+    wn30_key: [[1, "now%4:02:01::"], [3, "person%1:03:00::"], [5, "now%4:02:01::"]]
+KNZi:
+    lemmas: ["let", "'s", "take", "'", "em", "home", "\"", "."]
+    oewn2026_key: [[2, "oewn-02003830-v"], [5, "oewn-08507412-n"]]
+    paragraph: '32'
+    pos: ["VB", "POS", "VB", "VB", "PRP", "NN", "''", "."]
+    text: ' Let''s take'' em home ".
+
+  '
+    tokens: [[1, 4], [4, 6], [7, 11], [11, 12], [13, 15], [16, 20], [21, 22], [22, 23]]
+    wn16_key: [[2, "take%2:38:09::"], [5, "home%1:15:05::"]]
+    wn30_key: [[2, "take%2:38:09::"], [5, "home%1:15:05::"]]
+XkQu:
+    lemmas: ["He", "haul", "back", "on", "the", "stick", "and", "feel", "his", "cheek", "sag", "."]
+    oewn2026_key: [[1, "oewn-01457421-v"], [2, "oewn-00074673-r"], [5, "oewn-04325114-n"], [7, "oewn-02110460-v"], [9, "oewn-05610590-n"], [10, "oewn-01989538-v"]]
+    paragraph: '33'
+    pos: ["PRP", "VBD", "RB", "IN", "DT", "NN", "CC", "VBD", "PRP$", "NNS", "VBP", "."]
+    text: ' He hauled back on the stick and felt his cheeks sag.'
+    tokens: [[1, 3], [4, 10], [11, 15], [16, 18], [19, 22], [23, 28], [29, 32], [33, 37], [38, 41], [42, 48], [49, 52], [52, 53]]
+    wn16_key: [[1, "haul%2:35:01::"], [2, "back%4:02:00::"], [5, "stick%1:06:03::"], [7, "feel%2:39:00::"], [9, "cheek%1:08:00::"], [10, "sag%2:38:00::"]]
+    wn30_key: [[1, "haul%2:35:01::"], [2, "back%4:02:00::"], [5, "stick%1:06:03::"], [7, "feel%2:39:00::"], [9, "cheek%1:08:00::"], [10, "sag%2:38:00::"]]
+qm1p:
+    lemmas: ["Out", "of", "the", "corner", "of", "his", "eye", ",", "he", "watch", "his", "wingman", "move", "out", "a_bit", "and", "shoot_up", "with", "him", "."]
+    oewn2026_key: [[3, "oewn-13895060-n"], [6, "oewn-05318579-n"], [9, "oewn-02460829-v"], [11, "oewn-10802308-n"], [12, "oewn-01839438-v"], [13, "oewn-00234593-r;oewn-00235144-r"], [14, "oewn-00034050-r"], [16, "oewn-00433525-v"]]
+    paragraph: '33'
+    pos: ["IN", "IN", "DT", "NN", "IN", "PRP$", "NN", ",", "PRP", "VBD", "PRP$", "NN", "VB", "RB", "RB", "CC", "VB", "IN", "PRP", "."]
+    text: ' Out of the corner of his eye, he watched his wingman move out a_bit and shoot_up
+  with him.'
+    tokens: [[1, 4], [5, 7], [8, 11], [12, 18], [19, 21], [22, 25], [26, 29], [29, 30], [31, 33], [34, 41], [42, 45], [46, 53], [54, 58], [59, 62], [63, 68], [69, 72], [73, 81], [82, 86], [87, 90], [90, 91]]
+    wn16_key: [[3, "corner%1:25:00::"], [6, "eye%1:08:00::"], [9, "watch%2:41:00::"], [11, "wingman%1:18:00::"], [12, "move%2:38:03::"], [13, "out%4:02:01::"], [14, "a_bit%4:02:00::"], [16, "shoot_up%2:30:00::"]]
+    wn30_key: [[3, "corner%1:25:00::"], [6, "eye%1:08:00::"], [9, "watch%2:41:00::"], [11, "wingman%1:18:00::"], [12, "move%2:38:03::"], [13, "out%4:02:02::;out%4:02:04::"], [14, "a_bit%4:02:00::"], [16, "shoot_up%2:30:00::"]]
+dhjT:
+    lemmas: ["perfect", ",", "he", "think", "."]
+    oewn2026_key: [[0, "oewn-01753804-a"], [3, "oewn-00691086-v"]]
+    paragraph: '33'
+    pos: ["JJ", ",", "PRP", "VBD", "."]
+    text: ' Perfect, he thought.
+
+  '
+    tokens: [[1, 8], [8, 9], [10, 12], [13, 20], [20, 21]]
+    wn16_key: [[0, "perfect%3:00:00::"], [3, "think%2:31:01::"]]
+    wn30_key: [[0, "perfect%3:00:00::"], [3, "think%2:31:01::"]]
+1ZCt:
+    lemmas: ["With", "the", "rapid", "rate", "of", "closure", ",", "the", "approach", "from", "below", ",", "the", "side", ",", "and", "ahead", ",", "there", "would", "be", "only", "a", "moment", "when", "damage", "could", "be", "do", "."]
+    oewn2026_key: [[2, "oewn-00982888-s"], [3, "oewn-15311467-n"], [5, "oewn-00282306-n"], [8, "oewn-00281697-n"], [10, "oewn-00080389-r"], [13, "oewn-08666920-n"], [16, "oewn-00067181-r"], [21, "oewn-00009062-r"], [23, "oewn-15269461-n"], [25, "oewn-07354253-n"], [28, "oewn-01716563-v"]]
+    paragraph: '34'
+    pos: ["IN", "DT", "JJ", "NN", "IN", "NN", ",", "DT", "NN", "IN", "RB", ",", "DT", "NN", ",", "CC", "RB", ",", "EX", "MD", "VB", "RB", "DT", "NN", "WRB", "NN", "MD", "VB", "VBN", "."]
+    text: ' With the rapid rate of closure, the approach from below, the side, and ahead, there
+  would be only a moment when damage could be done.'
+    tokens: [[1, 5], [6, 9], [10, 15], [16, 20], [21, 23], [24, 31], [31, 32], [33, 36], [37, 45], [46, 50], [51, 56], [56, 57], [58, 61], [62, 66], [66, 67], [68, 71], [72, 77], [77, 78], [79, 84], [85, 90], [91, 93], [94, 98], [99, 100], [101, 107], [108, 112], [113, 119], [120, 125], [126, 128], [129, 133], [133, 134]]
+    wn16_key: [[2, "rapid%5:00:00:fast:01"], [3, "rate%1:28:00::"], [5, "closure%1:04:02::"], [8, "approach%1:04:00::"], [10, "below%4:02:01::"], [13, "side%1:15:02::"], [16, "ahead%4:02:00::"], [21, "only%4:02:01::"], [23, "moment%1:28:00::"], [25, "damage%1:11:01::"], [28, "do%2:36:01::"]]
+    wn30_key: [[2, "rapid%3:00:00:fast:01"], [3, "rate%1:28:00::"], [5, "closure%1:04:02::"], [8, "approach%1:04:00::"], [10, "below%4:02:01::"], [13, "side%1:15:02::"], [16, "ahead%4:02:00::"], [21, "only%4:02:01::"], [23, "moment%1:28:00::"], [25, "damage%1:11:01::"], [28, "do%2:36:01::"]]
+go8d:
+    lemmas: ["just", "like", "shoot", "at", "a", "duck", "while", "perform", "a", "half_gainer", "from", "a", "diving_board", "."]
+    oewn2026_key: [[0, "oewn-00159432-r"], [2, "oewn-01137207-v"], [5, "oewn-01848972-n"], [7, "oewn-01716563-v"], [9, "oewn-00445127-n"], [12, "oewn-03220783-n"]]
+    paragraph: '34'
+    pos: ["RB", "IN", "VB", "IN", "DT", "NN", "IN", "VBG", "DT", "NN", "IN", "DT", "NN", "."]
+    text: ' Just like shooting at a duck while performing a half-gainer from a diving_board.
+
+  '
+    tokens: [[1, 5], [6, 10], [11, 19], [20, 22], [23, 24], [25, 29], [30, 35], [36, 46], [47, 48], [49, 60], [61, 65], [66, 67], [68, 80], [80, 81]]
+    wn16_key: [[0, "just%4:02:05::"], [2, "shoot%2:33:00::"], [5, "duck%1:05:00::"], [7, "perform%2:36:00::"], [9, "half_gainer%1:04:00::"], [12, "diving_board%1:06:00::"]]
+    wn30_key: [[0, "just%4:02:05::"], [2, "shoot%2:33:00::"], [5, "duck%1:05:00::"], [7, "perform%2:36:00::"], [9, "half_gainer%1:04:00::"], [12, "diving_board%1:06:00::"]]
+rxVh:
+    lemmas: ["He", "tighten", "his", "turn", "."]
+    oewn2026_key: [[1, "oewn-00421085-v"], [3, "oewn-00350856-n"]]
+    paragraph: '35'
+    pos: ["PRP", "VBD", "PRP$", "NN", "."]
+    text: ' He tightened his turn.'
+    tokens: [[1, 3], [4, 13], [14, 17], [18, 22], [22, 23]]
+    wn16_key: [[1, "tighten%2:30:01::"], [3, "turn%1:04:01::"]]
+    wn30_key: [[1, "tighten%2:30:01::"], [3, "turn%1:04:01::"]]
+wLPO:
+    lemmas: ["His", "nose", "up", "."]
+    oewn2026_key: [[1, "oewn-03836375-n"], [2, "oewn-00096883-r"]]
+    paragraph: '35'
+    pos: ["PRP$", "NN", "RP", "."]
+    text: ' His nose up.'
+    tokens: [[1, 4], [5, 9], [10, 12], [12, 13]]
+    wn16_key: [[1, "nose%1:06:00::"], [2, "up%4:02:00::"]]
+    wn30_key: [[1, "nose%1:06:00::"], [2, "up%4:02:00::"]]
+MLMU:
+    lemmas: ["It", "be", "go_to", "be", "dangerous", "."]
+    oewn2026_key: [[3, "oewn-02610777-v"], [4, "oewn-02066198-a"]]
+    paragraph: '35'
+    pos: ["PRP", "VBD", "VB", "VB", "JJ", "."]
+    text: ' It was going_to be dangerous.'
+    tokens: [[1, 3], [4, 7], [8, 16], [17, 19], [20, 29], [29, 30]]
+    wn16_key: [[3, "be%2:42:03::"], [4, "dangerous%3:00:00::"]]
+    wn30_key: [[3, "be%2:42:03::"], [4, "dangerous%3:00:00::"]]
+6B7S:
+    lemmas: ["eight", "aircraft", "in_this", "small", "box", "."]
+    oewn2026_key: [[0, "oewn-02194712-s"], [1, "oewn-02689427-n"], [3, "oewn-01394303-a"], [4, "oewn-02886585-n"]]
+    paragraph: '35'
+    pos: ["JJ", "NN", "RB", "JJ", "NN", "."]
+    text: ' Eight aircraft in_this small box.'
+    tokens: [[1, 6], [7, 15], [16, 23], [24, 29], [30, 33], [33, 34]]
+    wn16_key: [[0, "eight%5:00:00:cardinal:00"], [1, "aircraft%1:06:00::"], [3, "small%3:00:00::"], [4, "box%1:06:00::"]]
+    wn30_key: [[0, "eight%3:00:00:cardinal:00"], [1, "aircraft%1:06:00::"], [3, "small%3:00:00::"], [4, "box%1:06:00::"]]
+Mry6:
+    lemmas: ["please", ",", "dear", "god", ",", "make", "my", "pilot", "good", ",", "he", "pray", "."]
+    oewn2026_key: [[2, "oewn-01465246-s"], [3, "oewn-09559169-n"], [5, "oewn-00120124-v"], [7, "oewn-10452928-n"], [8, "oewn-01126910-a"], [11, "oewn-00761989-v"]]
+    paragraph: '35'
+    pos: ["VB", ",", "JJ", "NNP", ",", "VB", "PRP$", "NNS", "JJ", ",", "PRP", "VBD", "."]
+    text: ' Please, dear God, make my pilots good, he prayed.
+
+  '
+    tokens: [[1, 7], [7, 8], [9, 13], [14, 17], [17, 18], [19, 23], [24, 26], [27, 33], [34, 38], [38, 39], [40, 42], [43, 49], [49, 50]]
+    wn16_key: [[2, "dear%5:00:00:loved:00"], [3, "god%1:18:00::"], [5, "make%2:30:00::"], [7, "pilot%1:18:00::"], [8, "good%3:00:01::"], [11, "pray%2:32:00::"]]
+    wn30_key: [[2, "dear%3:00:00:loved:00"], [3, "god%1:18:00::"], [5, "make%2:30:00::"], [7, "pilot%1:18:00::"], [8, "good%3:00:01::"], [11, "pray%2:32:00::"]]
+N5UC:
+    lemmas: ["He", "take", "a", "lead", "on", "the", "enemy", ",", "use", "a", "distance", "of", "five", "of", "the", "radius", "in", "his", "circular", "sight", "and", "then", "add", "another", "."]
+    oewn2026_key: [[1, "oewn-00524175-v"], [3, "oewn-13915822-n"], [6, "oewn-08207412-n"], [8, "oewn-01161188-v"], [10, "oewn-05091408-n"], [12, "oewn-02194389-s"], [15, "oewn-13894177-n"], [18, "oewn-02048059-a"], [19, "oewn-06901994-n"], [21, "oewn-00118527-r"], [22, "oewn-00182551-v"]]
+    paragraph: '36'
+    pos: ["PRP", "VBD", "DT", "NN", "VB", "DT", "NN", ",", "VBG", "DT", "NN", "IN", "JJ", "IN", "DT", "NN", "IN", "PRP$", "JJ", "NN", "RB", "RB", "VBD", "DT", "."]
+    text: ' He took a lead on the enemy, using a distance of five of the radii in his circular
+  sight and_then added another.'
+    tokens: [[1, 3], [4, 8], [9, 10], [11, 15], [16, 18], [19, 22], [23, 28], [28, 29], [30, 35], [36, 37], [38, 46], [47, 49], [50, 54], [55, 57], [58, 61], [62, 67], [68, 70], [71, 74], [75, 83], [84, 89], [90, 93], [94, 98], [99, 104], [105, 112], [112, 113]]
+    wn16_key: [[1, "take%2:30:08::"], [3, "lead%1:25:00::"], [6, "enemy%1:14:00::"], [8, "use%2:34:01::"], [10, "distance%1:07:00::"], [12, "five%5:00:00:cardinal:00"], [15, "radius%1:25:00::"], [18, "circular%3:00:00::"], [19, "sight%1:06:00::"], [22, "add%2:30:00::"]]
+    wn30_key: [[1, "take%2:30:08::"], [3, "lead%1:25:00::"], [6, "enemy%1:14:00::"], [8, "use%2:34:01::"], [10, "distance%1:07:00::"], [12, "five%3:00:00:cardinal:00"], [15, "radius%1:25:00::"], [18, "circular%3:00:00::"], [19, "sight%1:10:00::"], [21, "then%4:02:00::"], [22, "add%2:30:00::"]]
+EHC6:
+    lemmas: ["The", "enemy", "do", "not", "veer", "."]
+    oewn2026_key: [[1, "oewn-08207412-n"], [3, "oewn-00024432-r"], [4, "oewn-02037140-v"]]
+    paragraph: '36'
+    pos: ["DT", "NN", "VBD", "RB", "VB", "."]
+    text: ' The enemy did not veer.'
+    tokens: [[1, 4], [5, 10], [11, 14], [15, 18], [19, 23], [23, 24]]
+    wn16_key: [[1, "enemy%1:14:00::"], [3, "not%4:02:00::"], [4, "veer%2:38:00::"]]
+    wn30_key: [[1, "enemy%1:14:00::"], [3, "not%4:02:00::"], [4, "veer%2:38:00::"]]
+sB8i:
+    lemmas: ["It", "do", "not", "seem", "possible", "that", "they", "have", "n't", "be", "spot", "."]
+    oewn2026_key: [[2, "oewn-00024432-r"], [3, "oewn-02137900-v"], [4, "oewn-01826770-a"], [10, "oewn-02158742-v"]]
+    paragraph: '36'
+    pos: ["PRP", "VBD", "RB", "VB", "JJ", "IN", "PRP", "VBD", "RB", "VBN", "VBN", "."]
+    text: ' It did not seem possible that they hadn''t been spotted.'
+    tokens: [[1, 3], [4, 7], [8, 11], [12, 16], [17, 25], [26, 30], [31, 35], [36, 39], [39, 42], [43, 47], [48, 55], [55, 56]]
+    wn16_key: [[2, "not%4:02:00::"], [3, "seem%2:39:00::"], [4, "possible%3:00:00::"], [8, "n't%4:02:00::"], [10, "spot%2:39:00::"]]
+    wn30_key: [[2, "not%4:02:00::"], [3, "seem%2:39:00::"], [4, "possible%3:00:00::"], [10, "spot%2:39:00::"]]
+QwfU:
+    lemmas: ["blind", "fool", "."]
+    oewn2026_key: [[0, "oewn-02166241-a"], [1, "oewn-09940867-n"]]
+    paragraph: '36'
+    pos: ["JJ", "NNS", "."]
+    text: ' Blind fools.
+
+  '
+    tokens: [[1, 6], [7, 12], [12, 13]]
+    wn16_key: [[0, "blind%3:00:00::"], [1, "fool%1:18:01::"]]
+    wn30_key: [[0, "blind%3:00:00::"], [1, "fool%1:18:01::"]]
+2TTG:
+    lemmas: ["now", "!"]
+    oewn2026_key: [[0, "oewn-00049277-r"]]
+    paragraph: '37'
+    pos: ["RB", "."]
+    text: ' Now!
+
+  '
+    tokens: [[1, 4], [4, 5]]
+    wn16_key: [[0, "now%4:02:01::"]]
+    wn30_key: [[0, "now%4:02:01::"]]
+nGpn:
+    lemmas: ["person", "'s", "finger", "close", "on", "the", "stick", "trigger", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-05574137-n"], [3, "oewn-01349660-v"], [6, "oewn-04325114-n"], [7, "oewn-03475752-n"]]
+    paragraph: '38'
+    pos: ["NNP", "POS", "NNS", "VBD", "IN", "DT", "NN", "NN", "."]
+    text: ' Greg''s fingers closed on the stick trigger.'
+    tokens: [[1, 5], [5, 7], [8, 15], [16, 22], [23, 25], [26, 29], [30, 35], [36, 43], [43, 44]]
+    wn16_key: [[0, "person%1:03:00::"], [2, "finger%1:08:00::"], [3, "close%2:35:06::"], [6, "stick%1:06:03::"], [7, "trigger%1:06:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [2, "finger%1:08:00::"], [3, "close%2:35:06::"], [6, "stick%1:06:03::"], [7, "trigger%1:06:00::"]]
+hPuk:
+    lemmas: ["The", "plane", "rumble", "and", "slow", "."]
+    oewn2026_key: [[1, "oewn-02694015-n"], [2, "oewn-02191766-v"], [4, "oewn-00440913-v"]]
+    paragraph: '38'
+    pos: ["DT", "NN", "VBD", "CC", "VBD", "."]
+    text: ' The plane rumbled and slowed.'
+    tokens: [[1, 4], [5, 10], [11, 18], [19, 22], [23, 29], [29, 30]]
+    wn16_key: [[1, "plane%1:06:01::"], [2, "rumble%2:39:00::"], [4, "slow%2:30:00::"]]
+    wn30_key: [[1, "plane%1:06:01::"], [2, "rumble%2:39:00::"], [4, "slow%2:30:00::"]]
+OfFI:
+    lemmas: ["six", "red", "line", "etch", "their", "way", "into", "the", "gray", "and", "vanish", "."]
+    oewn2026_key: [[0, "oewn-02194472-s"], [1, "oewn-00382159-s"], [2, "oewn-13886392-n"], [3, "oewn-01754229-v"], [5, "oewn-04571984-n"], [8, "oewn-04968868-n"], [10, "oewn-00427911-v"]]
+    paragraph: '38'
+    pos: ["JJ", "JJ", "NNS", "VBD", "PRP$", "NN", "IN", "DT", "NN", "CC", "VBD", "."]
+    text: ' Six red lines etched their way into the gray and vanished.'
+    tokens: [[1, 4], [5, 8], [9, 14], [15, 21], [22, 27], [28, 31], [32, 36], [37, 40], [41, 45], [46, 49], [50, 58], [58, 59]]
+    wn16_key: [[0, "six%5:00:00:cardinal:00"], [1, "red%5:00:01:chromatic:00"], [2, "line%1:25:00::"], [3, "etch%2:36:00::"], [5, "way%1:06:00::"], [8, "gray%1:07:00::"], [10, "vanish%2:30:00::"]]
+    wn30_key: [[0, "six%3:00:00:cardinal:00"], [1, "red%3:00:01:chromatic:00"], [2, "line%1:25:00::"], [3, "etch%2:36:00::"], [5, "way%1:06:00::"], [8, "gray%1:07:00::"], [10, "vanish%2:30:00::"]]
+PTpu:
+    lemmas: ["As", "if", "draw", "by", "a", "wire", "the", "enemy", "fly", "into", "them", "."]
+    oewn2026_key: [[2, "oewn-00557670-v;oewn-01450719-v"], [5, "oewn-04601545-n"], [7, "oewn-08207412-n"], [8, "oewn-01944262-v"]]
+    paragraph: '38'
+    pos: ["IN", "IN", "VBN", "IN", "DT", "NN", "DT", "NN", "VBD", "IN", "PRP", "."]
+    text: ' As if drawn by a wire the enemy flew into them.'
+    tokens: [[1, 3], [4, 6], [7, 12], [13, 15], [16, 17], [18, 22], [23, 26], [27, 32], [33, 37], [38, 42], [43, 47], [47, 48]]
+    wn16_key: [[2, "draw%2:30:14::;draw%2:35:03::"], [5, "wire%1:06:00::"], [7, "enemy%1:14:00::"], [8, "fly%2:38:00::"]]
+    wn30_key: [[2, "draw%2:30:14::;draw%2:35:03::"], [5, "wire%1:06:00::"], [7, "enemy%1:14:00::"], [8, "fly%2:38:00::"]]
+fBaN:
+    lemmas: ["person", "tighten", "his", "turn", "until", "the", "plane", "shudder", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-00421085-v"], [3, "oewn-00350856-n"], [6, "oewn-02694015-n"], [7, "oewn-01892939-v"]]
+    paragraph: '38'
+    pos: ["NNP", "VBD", "PRP$", "NN", "IN", "DT", "NN", "VBD", "."]
+    text: ' Greg tightened his turn until the plane shuddered.'
+    tokens: [[1, 5], [6, 15], [16, 19], [20, 24], [25, 30], [31, 34], [35, 40], [41, 50], [50, 51]]
+    wn16_key: [[0, "person%1:03:00::"], [1, "tighten%2:30:01::"], [3, "turn%1:04:01::"], [6, "plane%1:06:01::"], [7, "shudder%2:38:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [1, "tighten%2:30:01::"], [3, "turn%1:04:01::"], [6, "plane%1:06:01::"], [7, "shudder%2:38:00::"]]
+ddrs:
+    lemmas: ["luck", "be", "with", "him", "."]
+    oewn2026_key: [[0, "oewn-11438574-n"], [1, "oewn-02661230-v"]]
+    paragraph: '38'
+    pos: ["NNP", "VBD", "IN", "PRP", "."]
+    text: ' Luck was with him.'
+    tokens: [[1, 5], [6, 9], [10, 14], [15, 18], [18, 19]]
+    wn16_key: [[0, "luck%1:19:01::"], [1, "be%2:42:05::"]]
+    wn30_key: [[0, "luck%1:19:01::"], [1, "be%2:42:05::"]]
+1UNY:
+    lemmas: ["His", "burst", "hold", "for", "a", "second", "on", "the", "engine", "section", "of", "the", "plane", "."]
+    oewn2026_key: [[1, "oewn-00990406-n"], [2, "oewn-02689312-v"], [5, "oewn-15271664-n"], [8, "oewn-03292644-n"], [9, "oewn-04172050-n"], [12, "oewn-02694015-n"]]
+    paragraph: '38'
+    pos: ["PRP$", "NN", "VBN", "IN", "DT", "NN", "IN", "DT", "NN", "NN", "IN", "DT", "NN", "."]
+    text: ' His burst held for a second on the engine section of the plane.'
+    tokens: [[1, 4], [5, 10], [11, 15], [16, 19], [20, 21], [22, 28], [29, 31], [32, 35], [36, 42], [43, 50], [51, 53], [54, 57], [58, 63], [63, 64]]
+    wn16_key: [[1, "burst%1:04:01::"], [2, "hold%2:42:01::"], [5, "second%1:28:01::"], [8, "engine%1:06:00::"], [9, "section%1:06:00::"], [12, "plane%1:06:01::"]]
+    wn30_key: [[1, "burst%1:04:01::"], [2, "hold%2:42:01::"], [5, "second%1:28:01::"], [8, "engine%1:06:00::"], [9, "section%1:06:00::"], [12, "plane%1:06:01::"]]
+MWGW:
+    lemmas: ["The", "jap", "'s", "propeller", "fly", "off", "in", "piece", "."]
+    oewn2026_key: [[1, "oewn-09738048-n"], [3, "oewn-04018203-n"], [4, "oewn-01944262-v"], [5, "oewn-00234667-r"], [7, "oewn-03938441-n"]]
+    paragraph: '38'
+    pos: ["DT", "NNP", "POS", "NN", "VBD", "RP", "IN", "NNS", "."]
+    text: ' The Jap''s propeller flew off in pieces.'
+    tokens: [[1, 4], [5, 8], [8, 10], [11, 20], [21, 25], [26, 29], [30, 32], [33, 39], [39, 40]]
+    wn16_key: [[1, "jap%1:18:00::"], [3, "propeller%1:06:00::"], [4, "fly%2:38:00::"], [5, "off%4:02:03::"], [7, "piece%1:06:00::"]]
+    wn30_key: [[1, "jap%1:18:00::"], [3, "propeller%1:06:00::"], [4, "fly%2:38:00::"], [5, "off%4:02:03::"], [7, "piece%1:06:00::"]]
+rN9C:
+    lemmas: ["A", "large", "piece", "of", "engine", "cowling", "vanish", "."]
+    oewn2026_key: [[1, "oewn-01385012-a"], [2, "oewn-03938441-n"], [4, "oewn-03292644-n"], [5, "oewn-03536090-n"], [6, "oewn-00427911-v"]]
+    paragraph: '38'
+    pos: ["DT", "JJ", "NN", "IN", "NN", "NN", "VBD", "."]
+    text: ' A large piece of engine cowling vanished.'
+    tokens: [[1, 2], [3, 8], [9, 14], [15, 17], [18, 24], [25, 32], [33, 41], [41, 42]]
+    wn16_key: [[1, "large%3:00:00::"], [2, "piece%1:06:00::"], [4, "engine%1:06:00::"], [5, "cowling%1:06:00::"], [6, "vanish%2:30:00::"]]
+    wn30_key: [[1, "large%3:00:00::"], [2, "piece%1:06:00::"], [4, "engine%1:06:00::"], [5, "cowling%1:06:00::"], [6, "vanish%2:30:00::"]]
+4Dep:
+    lemmas: ["It", "be", "all", "person", "have", "time", "to", "see", "."]
+    oewn2026_key: [[3, "oewn-00007846-n"], [4, "oewn-02208144-v"], [5, "oewn-15295388-n"], [7, "oewn-02133754-v"]]
+    paragraph: '38'
+    pos: ["PRP", "VBD", "DT", "NNP", "VBD", "NN", "TO", "VB", "."]
+    text: ' It was all Greg had time to see.'
+    tokens: [[1, 3], [4, 7], [8, 11], [12, 16], [17, 20], [21, 25], [26, 28], [29, 32], [32, 33]]
+    wn16_key: [[3, "person%1:03:00::"], [4, "have%2:40:00::"], [5, "time%1:28:05::"], [7, "see%2:39:00::"]]
+    wn30_key: [[3, "person%1:03:00::"], [4, "have%2:40:00::"], [5, "time%1:28:05::"], [7, "see%2:39:00::"]]
+B0mo:
+    lemmas: ["His", "maneuvering", "for", "the", "shot", "have", "place", "him", "near", "the", "overcast", ",", "almost", "inverted", "and", "head_up", "into", "the", "cloud", "."]
+    oewn2026_key: [[4, "oewn-00123481-n"], [6, "oewn-02397904-v"], [10, "oewn-14547800-n"], [12, "oewn-00073433-r"], [13, "oewn-02476782-s"], [15, "oewn-02734898-v"], [18, "oewn-09270316-n"]]
+    paragraph: '38'
+    pos: ["PRP$", "NN", "IN", "DT", "NN", "VBD", "VBN", "PRP", "IN", "DT", "NN", ",", "RB", "JJ", "CC", "VB", "IN", "DT", "NNS", "."]
+    text: ' His maneuvering for the shot had placed him near the overcast, almost inverted and
+  heading_up into the clouds.'
+    tokens: [[1, 4], [5, 16], [17, 20], [21, 24], [25, 29], [30, 33], [34, 40], [41, 44], [45, 49], [50, 53], [54, 62], [62, 63], [64, 70], [71, 79], [80, 83], [84, 94], [95, 99], [100, 103], [104, 110], [110, 111]]
+    wn16_key: [[1, "maneuvering%1:04:00::"], [4, "shot%1:04:00::"], [6, "place%2:41:01::"], [10, "overcast%1:26:00::"], [12, "almost%4:02:00::"], [13, "inverted%5:00:00:turned:00"], [15, "head_up%2:42:00::"], [18, "cloud%1:17:00::"]]
+    wn30_key: [[4, "shot%1:04:00::"], [6, "place%2:41:01::"], [10, "overcast%1:26:00::"], [12, "almost%4:02:00::"], [13, "inverted%3:00:00:turned:00"], [15, "head_up%2:42:00::"], [18, "cloud%1:17:00::"]]
+UO+8:
+    lemmas: ["His", "speed", "be", "drop", "rapidly", "."]
+    oewn2026_key: [[1, "oewn-15307914-n"], [3, "oewn-00433636-v"], [4, "oewn-00086161-r"]]
+    paragraph: '38'
+    pos: ["PRP$", "NN", "VBD", "VBG", "RB", "."]
+    text: ' His speed was dropping rapidly.'
+    tokens: [[1, 4], [5, 10], [11, 14], [15, 23], [24, 31], [31, 32]]
+    wn16_key: [[1, "speed%1:28:00::"], [3, "drop%2:30:00::"], [4, "rapidly%4:02:00::"]]
+    wn30_key: [[1, "speed%1:28:00::"], [3, "drop%2:30:00::"], [4, "rapidly%4:02:00::"]]
+EZD1:
+    lemmas: ["If", "he", "spin", "out", "now", ",", "he", "would", "join", "his", "opponent", "on", "the", "ground", "."]
+    oewn2026_key: [[2, "oewn-02050704-v"], [4, "oewn-00049971-r"], [8, "oewn-02604762-v"], [13, "oewn-09357302-n"]]
+    paragraph: '38'
+    pos: ["IN", "PRP", "VBD", "VB", "RB", ",", "PRP", "MD", "VB", "PRP$", "NN", "RB", "RB", "NN", "."]
+    text: ' If he spun out now, he would join his opponent on the ground.
+
+  '
+    tokens: [[1, 3], [4, 6], [7, 11], [12, 15], [16, 19], [19, 20], [21, 23], [24, 29], [30, 34], [35, 38], [39, 47], [48, 50], [51, 54], [55, 61], [61, 62]]
+    wn16_key: [[2, "spin%2:38:01::"], [4, "now%4:02:05::"], [8, "join%2:41:01::"], [10, "opponent%1:18:01::"], [13, "ground%1:17:00::"]]
+    wn30_key: [[2, "spin%2:38:01::"], [4, "now%4:02:05::"], [8, "join%2:41:01::"], [13, "ground%1:17:00::"]]
+3B1g:
+    lemmas: ["wingman", ",", "stay", "clear", ",", "he", "pray", "."]
+    oewn2026_key: [[0, "oewn-10802308-n"], [2, "oewn-00117793-v"], [3, "oewn-01066627-s"], [6, "oewn-00761989-v"]]
+    paragraph: '39'
+    pos: ["NNP", ",", "VBP", "JJ", ",", "PRP", "VBD", "."]
+    text: ' Wingman, stay clear, he prayed.'
+    tokens: [[1, 8], [8, 9], [10, 14], [15, 20], [20, 21], [22, 24], [25, 31], [31, 32]]
+    wn16_key: [[0, "wingman%1:18:00::"], [2, "stay%2:30:00::"], [3, "clear%5:00:02:free:00"], [6, "pray%2:32:00::"]]
+    wn30_key: [[0, "wingman%1:18:00::"], [2, "stay%2:30:00::"], [3, "clear%3:00:02:free:00"], [6, "pray%2:32:00::"]]
+Svo9:
+    lemmas: ["He", "push", "stick", "and", "rudder", "and", "enter", "the", "overcast", "on", "his", "back", "."]
+    oewn2026_key: [[1, "oewn-01875972-v"], [2, "oewn-04325114-n"], [4, "oewn-04124558-n"], [6, "oewn-02020375-v"], [8, "oewn-14547800-n"], [11, "oewn-08643421-n"]]
+    paragraph: '39'
+    pos: ["PRP", "VBD", "NN", "CC", "NN", "CC", "VBD", "DT", "NN", "IN", "PRP$", "NN", "."]
+    text: ' He pushed stick and rudder and entered the overcast on his back.'
+    tokens: [[1, 3], [4, 10], [11, 16], [17, 20], [21, 27], [28, 31], [32, 39], [40, 43], [44, 52], [53, 55], [56, 59], [60, 64], [64, 65]]
+    wn16_key: [[1, "push%2:38:00::"], [2, "stick%1:06:03::"], [4, "rudder%1:06:01::"], [6, "enter%2:38:00::"], [8, "overcast%1:26:00::"], [11, "back%1:15:02::"]]
+    wn30_key: [[1, "push%2:38:00::"], [2, "stick%1:06:03::"], [4, "rudder%1:06:01::"], [6, "enter%2:38:00::"], [8, "overcast%1:26:00::"], [11, "back%1:15:02::"]]
+2MH0:
+    lemmas: ["He", "fight", "the", "panic", "of", "vertigo", "."]
+    oewn2026_key: [[1, "oewn-01093838-v"], [3, "oewn-07535851-n"], [5, "oewn-14395918-n"]]
+    paragraph: '39'
+    pos: ["PRP", "VBD", "DT", "NN", "IN", "NN", "."]
+    text: ' He fought the panic of vertigo.'
+    tokens: [[1, 3], [4, 10], [11, 14], [15, 20], [21, 23], [24, 31], [31, 32]]
+    wn16_key: [[1, "fight%2:33:01::"], [3, "panic%1:12:00::"], [5, "vertigo%1:26:00::"]]
+    wn30_key: [[1, "fight%2:33:01::"], [3, "panic%1:12:00::"], [5, "vertigo%1:26:00::"]]
+lYLX:
+    lemmas: ["He", "have", "no", "idea", "which", "be", "up", "and", "which", "be", "down", "."]
+    oewn2026_key: [[1, "oewn-02208144-v"], [3, "oewn-05991800-n"], [5, "oewn-02610777-v"], [6, "oewn-00096883-r"], [9, "oewn-02610777-v"], [10, "oewn-00095870-r"]]
+    paragraph: '39'
+    pos: ["PRP", "VBD", "DT", "NN", "WDT", "VBD", "RB", "CC", "WDT", "VBD", "RB", "."]
+    text: ' He had no idea which was up and which was down.'
+    tokens: [[1, 3], [4, 7], [8, 10], [11, 15], [16, 21], [22, 25], [26, 28], [29, 32], [33, 38], [39, 42], [43, 47], [47, 48]]
+    wn16_key: [[1, "have%2:40:00::"], [3, "idea%1:09:01::"], [5, "be%2:42:03::"], [6, "up%4:02:00::"], [9, "be%2:42:03::"], [10, "down%4:02:00::"]]
+    wn30_key: [[1, "have%2:40:00::"], [3, "idea%1:09:01::"], [5, "be%2:42:03::"], [6, "up%4:02:00::"], [9, "be%2:42:03::"], [10, "down%4:02:00::"]]
+Cd4e:
+    lemmas: ["He", "hold", "the", "control", "where", "they", "have", "be", "."]
+    oewn2026_key: [[1, "oewn-02687605-v;oewn-01219234-v"], [3, "oewn-03101611-n"], [7, "oewn-02661230-v"]]
+    paragraph: '39'
+    pos: ["PRP", "VBD", "DT", "NNS", "WRB", "PRP", "VBD", "VBN", "."]
+    text: ' He held the controls where they had been.'
+    tokens: [[1, 3], [4, 8], [9, 12], [13, 21], [22, 27], [28, 32], [33, 36], [37, 41], [41, 42]]
+    wn16_key: [[1, "hold%2:42:00::;hold%2:35:00::"], [3, "control%1:06:00::"], [7, "be%2:42:05::"]]
+    wn30_key: [[1, "hold%2:42:00::;hold%2:35:00::"], [3, "control%1:06:00::"], [7, "be%2:42:05::"]]
+GW10:
+    lemmas: ["sweat", "pop_out", "over", "him", "and", "he", "feel", "the", "slick", "between", "his", "palm", "and", "the", "stick", "grip", "."]
+    oewn2026_key: [[0, "oewn-05413094-n"], [1, "oewn-00530491-v"], [6, "oewn-02110460-v"], [8, "oewn-04954805-n"], [11, "oewn-05573329-n"], [14, "oewn-04325114-n"], [15, "oewn-03491080-n"]]
+    paragraph: '39'
+    pos: ["NN", "VB", "IN", "PRP", "CC", "PRP", "VBD", "DT", "NN", "IN", "PRP$", "NN", "CC", "DT", "NN", "NN", "."]
+    text: ' Sweat popped_out over him and he felt the slick between his palm and the stick grip.'
+    tokens: [[1, 6], [7, 17], [18, 22], [23, 26], [27, 30], [31, 33], [34, 38], [39, 42], [43, 48], [49, 56], [57, 60], [61, 65], [66, 69], [70, 73], [74, 79], [80, 84], [84, 85]]
+    wn16_key: [[0, "sweat%1:08:00::"], [1, "pop_out%2:30:01::"], [6, "feel%2:39:00::"], [8, "slick%1:07:00::"], [11, "palm%1:08:00::"], [14, "stick%1:06:03::"], [15, "grip%1:06:01::"]]
+    wn30_key: [[0, "sweat%1:08:00::"], [1, "pop_out%2:30:01::"], [6, "feel%2:39:00::"], [8, "slick%1:07:00::"], [11, "palm%1:08:00::"], [14, "stick%1:06:03::"], [15, "grip%1:06:01::"]]
+79jY:
+    lemmas: ["His", "airspeed", "drop", "until", "he", "think", "he", "would", "spin", "out", "."]
+    oewn2026_key: [[1, "oewn-15308651-n"], [2, "oewn-00433636-v"], [5, "oewn-00633399-v"], [8, "oewn-02050704-v"]]
+    paragraph: '39'
+    pos: ["PRP$", "NN", "VBD", "IN", "PRP", "VBD", "PRP", "MD", "VB", "VB", "."]
+    text: ' His air_speed dropped until he thought he would spin out.
+
+  '
+    tokens: [[1, 4], [5, 14], [15, 22], [23, 28], [29, 31], [32, 39], [40, 42], [43, 48], [49, 53], [54, 57], [57, 58]]
+    wn16_key: [[1, "airspeed%1:28:00::"], [2, "drop%2:30:00::"], [5, "think%2:31:03::"], [8, "spin%2:38:01::"]]
+    wn30_key: [[1, "airspeed%1:28:00::"], [2, "drop%2:30:00::"], [5, "think%2:31:03::"], [8, "spin%2:38:01::"]]

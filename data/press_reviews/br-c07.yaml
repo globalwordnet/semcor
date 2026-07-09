@@ -1,0 +1,1203 @@
+_meta:
+    lemmas:
+        type: seq
+        base: tokens
+        data: string
+    oewn2026_key:
+        type: element
+        base: tokens
+        data: string
+    paragraph:
+        type: characters
+    pos:
+        type: seq
+        base: tokens
+        data: string
+    text:
+        type: characters
+    tokens:
+        type: span
+        base: text
+    wn16_key:
+        type: element
+        base: tokens
+        data: string
+    wn30_key:
+        type: element
+        base: tokens
+        data: string
+AE4/:
+    lemmas: ["Some", "of", "the", "new_york", "philharmonic", "musician", "who", "live", "in", "the", "suburb", "spend", "yesterday", "morning", "dig", "themselves", "free", "from", "snow", "."]
+    oewn2026_key: [[7, "oewn-02655932-v"], [11, "oewn-02714280-v"], [14, "oewn-01312361-v"]]
+    paragraph: '0'
+    pos: ["DT", "IN", "DT", "NN", "NNP", "NNS", "WP", "VBP", "VB", "DT", "NNS", "VBD", "NN", "NN", "VB", "PRP", "JJ", "IN", "NN", "."]
+    text: Some of the New_York Philharmonic musicians who live in the suburbs spent yesterday
+      morning digging themselves free from snow.
+    tokens: [[0, 4], [5, 7], [8, 11], [12, 20], [21, 33], [34, 43], [44, 47], [48, 52], [53, 55], [56, 59], [60, 67], [68, 73], [74, 83], [84, 91], [92, 99], [100, 110], [111, 115], [116, 120], [121, 125], [125, 126]]
+    wn16_key: [[7, "live%2:42:08::"], [11, "spend%2:42:00::"], [14, "dig%2:35:00::"]]
+    wn30_key: [[7, "live%2:42:08::"], [11, "spend%2:42:00::"], [14, "dig%2:35:00::"]]
+zURu:
+    lemmas: ["A", "tiny", "handful", "never", "do", "make", "the", "concert", "."]
+    oewn2026_key: [[5, "oewn-02026014-v"]]
+    paragraph: '0'
+    pos: ["DT", "JJ", "NN", "RB", "VBD", "VB", "DT", "NN", "."]
+    text: ' A tiny handful never did make the concert.'
+    tokens: [[1, 2], [3, 7], [8, 15], [16, 21], [22, 25], [26, 30], [31, 34], [35, 42], [42, 43]]
+    wn16_key: [[5, "make%2:38:02::"]]
+    wn30_key: [[5, "make%2:38:02::"]]
+ELid:
+    lemmas: ["But", ",", "after", "a", "fifteen-minute", "delay", ",", "the", "substantially", "complete", "philharmonic", "assemble", "on", "stage", "for", "the", "afternoon", "'s", "proceedings", "."]
+    oewn2026_key: [[11, "oewn-01660471-v"]]
+    paragraph: '0'
+    pos: ["CC", ",", "IN", "DT", "JJ", "NN", ",", "DT", "RB", "JJ", "NNP", "VBN", "IN", "NN", "IN", "DT", "NN", "POS", "NNS", "."]
+    text: ' But, after a fifteen-minute delay, the substantially complete Philharmonic assembled
+  on stage for the afternoon''s proceedings.'
+    tokens: [[1, 4], [4, 5], [6, 11], [12, 13], [14, 28], [29, 34], [34, 35], [36, 39], [40, 53], [54, 62], [63, 75], [76, 85], [86, 88], [89, 94], [95, 98], [99, 102], [103, 112], [112, 114], [115, 126], [126, 127]]
+    wn16_key: [[11, "assemble%2:36:00::"]]
+    wn30_key: [[11, "assemble%2:36:00::"]]
+XpNB:
+    lemmas: ["They", "face", "a", "rather", "small", "audience", ",", "as", "quite_a_few", "subscriber", "apparently", "have", "decide", "to", "forego", "the", "pleasure", "of", "the", "afternoon", "."]
+    oewn2026_key: [[1, "oewn-00813960-v"], [12, "oewn-00699355-v"], [14, "oewn-02718318-v"]]
+    paragraph: '0'
+    pos: ["PRP", "VBD", "DT", "RB", "JJ", "NN", ",", "IN", "JJ", "NNS", "RB", "VBD", "VBN", "TO", "VB", "DT", "NNS", "IN", "DT", "NN", "."]
+    text: ' They faced a rather small audience, as quite_a_few subscribers apparently had decided
+  to forego the pleasures of the afternoon.
+
+  '
+    tokens: [[1, 5], [6, 11], [12, 13], [14, 20], [21, 26], [27, 35], [35, 36], [37, 39], [40, 51], [52, 63], [64, 74], [75, 78], [79, 86], [87, 89], [90, 96], [97, 100], [101, 110], [111, 113], [114, 117], [118, 127], [127, 128]]
+    wn16_key: [[1, "face%2:32:00::"], [12, "decide%2:31:00::"], [14, "forego%2:42:00::"]]
+    wn30_key: [[1, "face%2:32:00::"], [12, "decide%2:31:00::"], [14, "forego%2:42:00::"]]
+9wO9:
+    lemmas: ["It", "be", "an", "excellent", "concert", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"]]
+    paragraph: '1'
+    pos: ["PRP", "VBD", "DT", "JJ", "NN", "."]
+    text: ' It was an excellent concert.'
+    tokens: [[1, 3], [4, 7], [8, 10], [11, 20], [21, 28], [28, 29]]
+    wn16_key: [[1, "be%2:42:03::"]]
+    wn30_key: [[1, "be%2:42:03::"]]
+BAZ2:
+    lemmas: ["paul_paray", ",", "round_out", "his", "current", "stint", "with", "the", "orchestra", ",", "be", "a", "solid", "musician", ",", "and", "the", "philharmonic", "play", "for", "him", "."]
+    oewn2026_key: [[2, "oewn-00172394-v"], [10, "oewn-02610777-v"], [18, "oewn-01728928-v"]]
+    paragraph: '1'
+    pos: ["NNP", ",", "VB", "PRP$", "JJ", "NN", "IN", "DT", "NN", ",", "VBZ", "DT", "JJ", "NN", ",", "CC", "DT", "NNP", "VBZ", "IN", "PRP", "."]
+    text: ' Paul_Paray, rounding_out his current stint with the orchestra, is a solid musician,
+  and the Philharmonic plays for him.'
+    tokens: [[1, 11], [11, 12], [13, 25], [26, 29], [30, 37], [38, 43], [44, 48], [49, 52], [53, 62], [62, 63], [64, 66], [67, 68], [69, 74], [75, 83], [83, 84], [85, 88], [89, 92], [93, 105], [106, 111], [112, 115], [116, 119], [119, 120]]
+    wn16_key: [[2, "round_out%2:30:00::"], [10, "be%2:42:03::"], [18, "play%2:36:12::"]]
+    wn30_key: [[2, "round_out%2:30:00::"], [10, "be%2:42:03::"], [18, "play%2:36:12::"]]
+8n/M:
+    lemmas: ["Their", "collaboration", "in", "the", "beethoven_second_symphony", "be", "lucid", ",", "intelligent", "and", "natural", "sounding", "."]
+    oewn2026_key: [[5, "oewn-02610777-v"]]
+    paragraph: '1'
+    pos: ["PRP$", "NN", "IN", "DT", "NNP", "VBD", "JJ", ",", "JJ", "CC", "JJ", "NN", "."]
+    text: ' Their collaboration in the Beethoven_Second_Symphony was lucid, intelligent and
+  natural sounding.'
+    tokens: [[1, 6], [7, 20], [21, 23], [24, 27], [28, 53], [54, 57], [58, 63], [63, 64], [65, 76], [77, 80], [81, 88], [89, 97], [97, 98]]
+    wn16_key: [[5, "be%2:42:03::"]]
+    wn30_key: [[5, "be%2:42:03::"]]
+xkys:
+    lemmas: ["It", "be", "not", "a", "heavy", ",", "ponderous", "beethoven", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"]]
+    paragraph: '1'
+    pos: ["PRP", "VBD", "RB", "DT", "JJ", ",", "JJ", "NNP", "."]
+    text: ' It was not a heavy, ponderous Beethoven.'
+    tokens: [[1, 3], [4, 7], [8, 11], [12, 13], [14, 19], [19, 20], [21, 30], [31, 40], [40, 41]]
+    wn16_key: [[1, "be%2:42:03::"]]
+    wn30_key: [[1, "be%2:42:03::"]]
+s/fr:
+    lemmas: ["The", "music", "sing", "nicely", ",", "sprint", "evenly", "when", "necessary", ",", "be", "properly", "accented", "and", "balanced", "."]
+    oewn2026_key: [[2, "oewn-01733312-v"], [5, "oewn-01932532-v"], [10, "oewn-02610777-v"]]
+    paragraph: '1'
+    pos: ["DT", "NN", "VBD", "RB", ",", "VBD", "RB", "WRB", "JJ", ",", "VBD", "RB", "JJ", "CC", "JJ", "."]
+    text: ' The music sang nicely, sprinted evenly when necessary, was properly accented and
+  balanced.
+
+  '
+    tokens: [[1, 4], [5, 10], [11, 15], [16, 22], [22, 23], [24, 32], [33, 39], [40, 44], [45, 54], [54, 55], [56, 59], [60, 68], [69, 77], [78, 81], [82, 90], [90, 91]]
+    wn16_key: [[2, "sing%2:36:00::"], [5, "sprint%2:38:00::"], [10, "be%2:42:03::"]]
+    wn30_key: [[2, "sing%2:36:00::"], [5, "sprint%2:38:00::"], [10, "be%2:42:03::"]]
+UkYH:
+    lemmas: ["The", "franck", "symphonic_poem", ",", "\"", "psyche", "\"", ",", "be", "a", "lush", ",", "sweet-sounding", "affair", "that", "be", "pleasant", "to", "encounter", "once_again", "."]
+    oewn2026_key: [[8, "oewn-02610777-v"], [15, "oewn-02610777-v"], [18, "oewn-02026953-v"]]
+    paragraph: '2'
+    pos: ["DT", "NNP", "NN", ",", "``", "NNP", "''", ",", "VBZ", "DT", "JJ", ",", "JJ", "NN", "WDT", "VBD", "JJ", "TO", "VB", "RB", "."]
+    text: ' The Franck symphonic_poem, " Psyche ", is a lush, sweet-sounding affair that was
+  pleasant to encounter once_again.'
+    tokens: [[1, 4], [5, 11], [12, 26], [26, 27], [28, 29], [30, 36], [37, 38], [38, 39], [40, 42], [43, 44], [45, 49], [49, 50], [51, 65], [66, 72], [73, 77], [78, 81], [82, 90], [91, 93], [94, 103], [104, 114], [114, 115]]
+    wn16_key: [[8, "be%2:42:03::"], [15, "be%2:42:03::"], [18, "encounter%2:38:00::"]]
+    wn30_key: [[8, "be%2:42:03::"], [15, "be%2:42:03::"], [18, "encounter%2:38:00::"]]
+IKyS:
+    lemmas: ["fortunate", "for", "the", "music", "itself", ",", "it", "be", "not", "too", "frequent", "a", "visitor", ";", "if", "it", "be", ",", "its", "heavily", "chromatic", "harmony", "would", "soon", "become", "cloying", "."]
+    oewn2026_key: [[7, "oewn-02610777-v"], [16, "oewn-02610777-v"], [24, "oewn-02632685-v"]]
+    paragraph: '2'
+    pos: ["JJ", "IN", "DT", "NN", "PRP", ",", "PRP", "VBZ", "RB", "RB", "JJ", "DT", "NN", ":", "IN", "PRP", "VBD", ",", "PRP$", "RB", "JJ", "NNS", "MD", "RB", "VB", "JJ", "."]
+    text: ' Fortunate for the music itself, it is not too frequent a visitor; if it were, its
+  heavily chromatic harmonies would soon become cloying.
+
+  '
+    tokens: [[1, 10], [11, 14], [15, 18], [19, 24], [25, 31], [31, 32], [33, 35], [36, 38], [39, 42], [43, 46], [47, 55], [56, 57], [58, 65], [65, 66], [67, 69], [70, 72], [73, 77], [77, 78], [79, 82], [83, 90], [91, 100], [101, 110], [111, 116], [117, 121], [122, 128], [129, 136], [136, 137]]
+    wn16_key: [[7, "be%2:42:03::"], [16, "be%2:42:03::"], [24, "become%2:42:01::"]]
+    wn30_key: [[7, "be%2:42:03::"], [16, "be%2:42:03::"], [24, "become%2:42:01::"]]
+JDcy:
+    lemmas: ["mr._paray", "resist", "the", "temptation", "to", "overemphasize", "the", "melodic", "elements", "of", "the", "score", "."]
+    oewn2026_key: [[1, "oewn-01119003-v"], [5, "oewn-00842288-v"]]
+    paragraph: '3'
+    pos: ["NNP", "VBD", "DT", "NN", "TO", "VB", "DT", "JJ", "NNS", "IN", "DT", "NN", "."]
+    text: ' Mr._Paray resisted the temptation to over-emphasize the melodic elements of the
+  score.'
+    tokens: [[1, 10], [11, 19], [20, 23], [24, 34], [35, 37], [38, 52], [53, 56], [57, 64], [65, 73], [74, 76], [77, 80], [81, 86], [86, 87]]
+    wn16_key: [[1, "resist%2:33:00::"], [5, "overemphasize%2:32:00::"]]
+    wn30_key: [[1, "resist%2:33:00::"], [5, "overemphasize%2:32:00::"]]
+VRxO:
+    lemmas: ["He", "do", "not", "let", "the", "strings", ",", "for_instance", ",", "weep", ",", "whine", "or", "get", "hysterical", "."]
+    oewn2026_key: [[3, "oewn-02427979-v"], [13, "oewn-00149403-v"]]
+    paragraph: '3'
+    pos: ["PRP", "VBD", "RB", "VB", "DT", "NNS", ",", "RB", ",", "VB", ",", "VB", "CC", "VB", "JJ", "."]
+    text: ' He did not let the strings, for_instance, weep, whine or get hysterical.'
+    tokens: [[1, 3], [4, 7], [8, 11], [12, 15], [16, 19], [20, 27], [27, 28], [29, 41], [41, 42], [43, 47], [47, 48], [49, 54], [55, 57], [58, 61], [62, 72], [72, 73]]
+    wn16_key: [[3, "let%2:41:00::"], [13, "get%2:30:00::"]]
+    wn30_key: [[3, "let%2:41:00::"], [13, "get%2:30:00::"]]
+eoBg:
+    lemmas: ["His", "interpretation", "be", "a", "model", "of", "refinement", "and", "accuracy", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"]]
+    paragraph: '3'
+    pos: ["PRP$", "NN", "VBD", "DT", "NN", "IN", "NN", "CC", "NN", "."]
+    text: ' His interpretation was a model of refinement and accuracy.
+
+  '
+    tokens: [[1, 4], [5, 19], [20, 23], [24, 25], [26, 31], [32, 34], [35, 45], [46, 49], [50, 58], [58, 59]]
+    wn16_key: [[2, "be%2:42:03::"]]
+    wn30_key: [[2, "be%2:42:03::"]]
+lzwK:
+    lemmas: ["And", "in", "the", "Prokofieff", "c", "major", "piano_concerto", ",", "with", "Zadel_Skolovsky", "as", "soloist", ",", "he", "be", "an", "admirable", "partner", "."]
+    oewn2026_key: [[14, "oewn-02610777-v"]]
+    paragraph: '4'
+    pos: ["CC", "IN", "DT", "NNP", "NN", "JJ", "NNP", ",", "IN", "NNP", "IN", "NN", ",", "PRP", "VBD", "DT", "JJ", "NN", "."]
+    text: ' And in the Prokofieff C major Piano_Concerto, with Zadel_Skolovsky as soloist, he
+  was an admirable partner.'
+    tokens: [[1, 4], [5, 7], [8, 11], [12, 22], [23, 24], [25, 30], [31, 45], [45, 46], [47, 51], [52, 67], [68, 70], [71, 78], [78, 79], [80, 82], [83, 86], [87, 89], [90, 99], [100, 107], [107, 108]]
+    wn16_key: [[14, "be%2:42:03::"]]
+    wn30_key: [[14, "be%2:42:03::"]]
+pVEn:
+    lemmas: ["mr._skolovsky", "'s", "approach", "to", "the", "concerto", "be", "bold", ",", "sweeping", "and", "tonally", "percussive", "."]
+    oewn2026_key: [[6, "oewn-02610777-v"]]
+    paragraph: '4'
+    pos: ["NNP", "POS", "NN", "TO", "DT", "NN", "VBD", "JJ", ",", "NN", "CC", "RB", "JJ", "."]
+    text: ' Mr._Skolovsky''s approach to the concerto was bold, sweeping and tonally percussive.'
+    tokens: [[1, 14], [14, 16], [17, 25], [26, 28], [29, 32], [33, 41], [42, 45], [46, 50], [50, 51], [52, 60], [61, 64], [65, 72], [73, 83], [83, 84]]
+    wn16_key: [[6, "be%2:42:03::"]]
+    wn30_key: [[6, "be%2:42:03::"]]
+uNK7:
+    lemmas: ["He", "sweep_through", "the", "music", "with", "ease", ",", "in", "a", "non-sentimental", "and", "ultra-efficient", "manner", "."]
+    oewn2026_key: [[1, "oewn-02528247-v"]]
+    paragraph: '4'
+    pos: ["PRP", "VBP", "DT", "NN", "IN", "NN", ",", "IN", "DT", "JJ", "CC", "JJ", "NN", "."]
+    text: ' He swept_through the music with ease, in a non-sentimental and ultra-efficient manner.
+
+  '
+    tokens: [[1, 3], [4, 17], [18, 21], [22, 27], [28, 32], [33, 37], [37, 38], [39, 41], [42, 43], [44, 59], [60, 63], [64, 79], [80, 86], [86, 87]]
+    wn16_key: [[1, "sweep_through%2:41:00::"]]
+    wn30_key: [[1, "sweep_through%2:41:00::"]]
+tn3d:
+    lemmas: ["An", "impressive", "technician", ",", "mr._skolovsky", "have", "fine", "rhythm", ",", "to_boot", "."]
+    oewn2026_key: [[5, "oewn-02208144-v"]]
+    paragraph: '5'
+    pos: ["DT", "JJ", "NN", ",", "NNP", "VBZ", "JJ", "NN", ",", "RB", "."]
+    text: ' An impressive technician, Mr._Skolovsky has fine rhythm, to_boot.'
+    tokens: [[1, 3], [4, 14], [15, 25], [25, 26], [27, 40], [41, 44], [45, 49], [50, 56], [56, 57], [58, 65], [65, 66]]
+    wn16_key: [[5, "have%2:40:00::"]]
+    wn30_key: [[5, "have%2:40:00::"]]
+hSG4:
+    lemmas: ["His", "tone", "be", "the", "weak", "part", "of", "his", "equipment", ";", "it", "tend", "to", "be", "hard", "and", "colorless", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"], [11, "oewn-02725274-v"], [13, "oewn-02610777-v"]]
+    paragraph: '5'
+    pos: ["PRP$", "NN", "VBZ", "DT", "JJS", "NN", "IN", "PRP$", "NN", ":", "PRP", "VBZ", "VB", "VB", "JJ", "CC", "JJ", "."]
+    text: ' His tone is the weakest part of his equipment; it tends to be hard and colorless.'
+    tokens: [[1, 4], [5, 9], [10, 12], [13, 16], [17, 24], [25, 29], [30, 32], [33, 36], [37, 46], [46, 47], [48, 50], [51, 56], [57, 59], [60, 62], [63, 67], [68, 71], [72, 81], [81, 82]]
+    wn16_key: [[2, "be%2:42:03::"], [11, "tend%2:42:01::"], [13, "be%2:42:03::"]]
+    wn30_key: [[2, "be%2:42:03::"], [11, "tend%2:42:01::"], [13, "be%2:42:03::"]]
+1ePg:
+    lemmas: ["A", "school_of_thought", "have", "it", "that", "those", "attribute", "be", "exactly", "what", "this", "concerto", "need", "."]
+    oewn2026_key: [[2, "oewn-02208144-v"], [7, "oewn-02610777-v"], [12, "oewn-01191258-v"]]
+    paragraph: '5'
+    pos: ["DT", "NN", "VBZ", "PRP", "IN", "DT", "NNS", "VBP", "RB", "WP", "DT", "NN", "VBZ", "."]
+    text: ' A school_of_thought has it that those attributes are exactly what this concerto
+  needs.'
+    tokens: [[1, 2], [3, 20], [21, 24], [25, 27], [28, 32], [33, 38], [39, 49], [50, 53], [54, 61], [62, 66], [67, 71], [72, 80], [81, 86], [86, 87]]
+    wn16_key: [[2, "have%2:40:00::"], [7, "be%2:42:03::"], [12, "need%2:34:00::"]]
+    wn30_key: [[2, "have%2:40:00::"], [7, "be%2:42:03::"], [12, "need%2:34:00::"]]
+ERQO:
+    lemmas: ["It", "be", ",", "after_all", ",", "a", "non-romantic", "work", "(", "even", "with", "the", "big", ",", "juicy", "melody", "of", "the", "second", "movement", ")", ";", "and", "the", "composer", "himself", "be", "called", "the", "\"", "age", "of", "steel", "pianist", "\"", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [26, "oewn-02670846-v"]]
+    paragraph: '5'
+    pos: ["PRP", "VBZ", ",", "RB", ",", "DT", "JJ", "NN", "NN", "RB", "IN", "DT", "JJ", ",", "JJ", "NN", "IN", "DT", "JJ", "NN", "NN", ":", "CC", "DT", "NN", "PRP", "VBD", "JJ", "DT", "``", "NN", "IN", "NN", "NN", "''", "."]
+    text: ' It is, after_all, a non-romantic work (even with the big, juicy melody of the second
+  movement); and the composer himself was called the " age of steel pianist ".'
+    tokens: [[1, 3], [4, 6], [6, 7], [8, 17], [17, 18], [19, 20], [21, 33], [34, 38], [39, 40], [40, 44], [45, 49], [50, 53], [54, 57], [57, 58], [59, 64], [65, 71], [72, 74], [75, 78], [79, 85], [86, 94], [94, 95], [95, 96], [97, 100], [101, 104], [105, 113], [114, 121], [122, 125], [126, 132], [133, 136], [137, 138], [139, 142], [143, 145], [146, 151], [152, 159], [160, 161], [161, 162]]
+    wn16_key: [[1, "be%2:42:03::"], [26, "be%2:42:07::"]]
+    wn30_key: [[1, "be%2:42:03::"], [26, "be%2:42:07::"]]
+bBPN:
+    lemmas: ["But", "granted", "all", "this", ",", "one", "still", "would", "have", "like", "to", "have", "hear", "a_little", "more", "tonal", "nuance", "than", "mr._skolovsky", "supply", "."]
+    oewn2026_key: [[9, "oewn-01828678-v"], [12, "oewn-02174146-v"], [19, "oewn-02332196-v"]]
+    paragraph: '5'
+    pos: ["CC", "RB", "DT", "DT", ",", "CD", "RB", "MD", "VB", "VBN", "TO", "VB", "VBN", "RB", "RBR", "JJ", "NN", "IN", "NNP", "VBD", "."]
+    text: ' But granted all this, one still would have liked to have heard a_little more tonal
+  nuance than Mr._Skolovsky supplied.
+
+  '
+    tokens: [[1, 4], [5, 12], [13, 16], [17, 21], [21, 22], [23, 26], [27, 32], [33, 38], [39, 43], [44, 49], [50, 52], [53, 57], [58, 63], [64, 72], [73, 77], [78, 83], [84, 90], [91, 95], [96, 109], [110, 118], [118, 119]]
+    wn16_key: [[9, "like%2:37:01::"], [12, "hear%2:39:00::"], [19, "supply%2:40:00::"]]
+    wn30_key: [[9, "like%2:37:01::"], [12, "hear%2:39:00::"], [19, "supply%2:40:00::"]]
+cu2j:
+    lemmas: ["take", "as_a_whole", ",", "though", ",", "it", "be", "a", "strong", "performance", "from", "both", "pianist", "and", "orchestra", "."]
+    oewn2026_key: [[0, "oewn-00736077-v"], [6, "oewn-02610777-v"]]
+    paragraph: '6'
+    pos: ["VBN", "RB", ",", "RB", ",", "PRP", "VBD", "DT", "JJ", "NN", "IN", "DT", "NN", "CC", "NN", "."]
+    text: ' Taken as_a_whole, though, it was a strong performance from both pianist and orchestra.'
+    tokens: [[1, 6], [7, 17], [17, 18], [19, 25], [25, 26], [27, 29], [30, 33], [34, 35], [36, 42], [43, 54], [55, 59], [60, 64], [65, 72], [73, 76], [77, 86], [86, 87]]
+    wn16_key: [[0, "take%2:31:03::"], [6, "be%2:42:03::"]]
+    wn30_key: [[0, "take%2:31:03::"], [6, "be%2:42:03::"]]
+SCM4:
+    lemmas: ["mr._skolovsky", "fully", "deserve", "the", "warm", "reception", "he", "receive", "."]
+    oewn2026_key: [[2, "oewn-02652462-v"], [7, "oewn-02112480-v"]]
+    paragraph: '6'
+    pos: ["NNP", "RB", "VBD", "DT", "JJ", "NN", "PRP", "VBD", "."]
+    text: ' Mr._Skolovsky fully deserved the warm reception he received.
+
+  '
+    tokens: [[1, 14], [15, 20], [21, 29], [30, 33], [34, 38], [39, 48], [49, 51], [52, 60], [60, 61]]
+    wn16_key: [[2, "deserve%2:42:00::"], [7, "receive%2:39:03::"]]
+    wn30_key: [[2, "deserve%2:42:00::"], [7, "receive%2:39:03::"]]
+fNQO:
+    lemmas: ["A", "new", "work", "on", "the", "program", "be", "Nikolai_Lopatnikoff", "'s", "\"", "festival_overture", "\"", ",", "receive", "its", "first", "new_york", "hearing", "."]
+    oewn2026_key: [[6, "oewn-02610777-v"], [13, "oewn-00523831-v"]]
+    paragraph: '7'
+    pos: ["DT", "JJ", "NN", "VB", "DT", "NN", "VBD", "NNP", "POS", "``", "NNP", "''", ",", "VBG", "PRP$", "JJ", "NN", "NN", "."]
+    text: ' A new work on the program was Nikolai_Lopatnikoff''s " Festival_Overture ", receiving
+  its first New_York hearing.'
+    tokens: [[1, 2], [3, 6], [7, 11], [12, 14], [15, 18], [19, 26], [27, 30], [31, 50], [50, 52], [53, 54], [55, 72], [73, 74], [74, 75], [76, 85], [86, 89], [90, 95], [96, 104], [105, 112], [112, 113]]
+    wn16_key: [[6, "be%2:42:03::"], [13, "receive%2:30:01::"]]
+    wn30_key: [[6, "be%2:42:03::"], [13, "receive%2:30:01::"]]
+45z7:
+    lemmas: ["This", "be", "compose", "last", "year", "as", "a", "salute", "to", "the", "automobile_industry", "."]
+    oewn2026_key: [[2, "oewn-01709353-v"]]
+    paragraph: '7'
+    pos: ["DT", "VBD", "VBN", "JJ", "NN", "IN", "DT", "NN", "TO", "DT", "NN", "."]
+    text: ' This was composed last year as a salute to the automobile_industry.'
+    tokens: [[1, 5], [6, 9], [10, 18], [19, 23], [24, 28], [29, 31], [32, 33], [34, 40], [41, 43], [44, 47], [48, 67], [67, 68]]
+    wn16_key: [[2, "compose%2:36:03::"]]
+    wn30_key: [[2, "compose%2:36:03::"]]
+Affh:
+    lemmas: ["It", "be", "not", "program", "music", ",", "though", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"]]
+    paragraph: '7'
+    pos: ["PRP", "VBZ", "RB", "NN", "NN", ",", "RB", "."]
+    text: ' It is not program music, though.'
+    tokens: [[1, 3], [4, 6], [7, 10], [11, 18], [19, 24], [24, 25], [26, 32], [32, 33]]
+    wn16_key: [[1, "be%2:42:03::"]]
+    wn30_key: [[1, "be%2:42:03::"]]
+DYGk:
+    lemmas: ["It", "run", "a_little", "more_than", "ten", "minutes", ",", "be", "workmanlike", ",", "busy", ",", "methodical", "and", "featureless", "."]
+    oewn2026_key: [[1, "oewn-02070867-v"], [7, "oewn-02610777-v"]]
+    paragraph: '7'
+    pos: ["PRP", "VBZ", "RB", "RB", "CD", "NNS", ",", "VBZ", "JJ", ",", "JJ", ",", "JJ", "CC", "JJ", "."]
+    text: ' It runs a_little more_than ten minutes, is workmanlike, busy, methodical and featureless.
+
+  '
+    tokens: [[1, 3], [4, 8], [9, 17], [18, 27], [28, 31], [32, 39], [39, 40], [41, 43], [44, 55], [55, 56], [57, 61], [61, 62], [63, 73], [74, 77], [78, 89], [89, 90]]
+    wn16_key: [[1, "run%2:38:01::"], [7, "be%2:42:03::"]]
+    wn30_key: [[1, "run%2:38:01::"], [7, "be%2:42:03::"]]
+SqwG:
+    lemmas: ["\"", "la_gioconda", "\"", ",", "like", "it", "or", "not", ",", "be", "a", "singer", "'s", "opera", "."]
+    oewn2026_key: [[9, "oewn-02610777-v"]]
+    paragraph: '8'
+    pos: ["``", "NNP", "''", ",", "IN", "PRP", "CC", "RB", ",", "VBZ", "DT", "NN", "POS", "NN", "."]
+    text: ' " La_Gioconda ", like it or not, is a singer''s opera.'
+    tokens: [[1, 2], [3, 14], [15, 16], [16, 17], [18, 22], [23, 25], [26, 28], [29, 32], [32, 33], [34, 36], [37, 38], [39, 45], [45, 47], [48, 53], [53, 54]]
+    wn16_key: [[9, "be%2:42:03::"]]
+    wn30_key: [[9, "be%2:42:03::"]]
+RAOr:
+    lemmas: ["And", "so", ",", "of_course", ",", "it", "be", "a", "fan", "'s", "opera", "as_well", "."]
+    oewn2026_key: [[6, "oewn-02610777-v"]]
+    paragraph: '8'
+    pos: ["CC", "RB", ",", "RB", ",", "PRP", "VBZ", "DT", "NN", "POS", "NN", "RB", "."]
+    text: ' And so, of_course, it is a fan''s opera as_well.'
+    tokens: [[1, 4], [5, 7], [7, 8], [9, 18], [18, 19], [20, 22], [23, 25], [26, 27], [28, 31], [31, 33], [34, 39], [40, 47], [47, 48]]
+    wn16_key: [[6, "be%2:42:03::"]]
+    wn30_key: [[6, "be%2:42:03::"]]
+UaqX:
+    lemmas: ["snow", "or", "no", ",", "the", "fan", "be", "present", "in_force", "at", "the", "metropolitan_opera", "last", "night", "for", "a", "performance", "of", "the", "Ponchielli", "work", "."]
+    oewn2026_key: [[6, "oewn-02661230-v"]]
+    paragraph: '8'
+    pos: ["NNP", "CC", "DT", ",", "DT", "NNS", "VBD", "JJ", "JJ", "IN", "DT", "NNP", "JJ", "NN", "IN", "DT", "NN", "IN", "DT", "NNP", "NN", "."]
+    text: ' Snow or no, the fans were present in_force at the Metropolitan_Opera last night
+  for a performance of the Ponchielli work.
+
+  '
+    tokens: [[1, 5], [6, 8], [9, 11], [11, 12], [13, 16], [17, 21], [22, 26], [27, 34], [35, 43], [44, 46], [47, 50], [51, 69], [70, 74], [75, 80], [81, 84], [85, 86], [87, 98], [99, 101], [102, 105], [106, 116], [117, 121], [121, 122]]
+    wn16_key: [[6, "be%2:42:05::"]]
+    wn30_key: [[6, "be%2:42:05::"]]
+O5zG:
+    lemmas: ["so", "the", "plot", "creaks", ",", "the", "set", "be", "decaying", ",", "the", "costume", "be", "pre-historic", ",", "the", "orchestra", "be", "sloppy", "and", "not_very_well", "connected", "with", "what", "the", "singer", "be", "do", "."]
+    oewn2026_key: [[17, "oewn-02610777-v"], [27, "oewn-01716563-v"]]
+    paragraph: '9'
+    pos: ["RB", "DT", "NN", "JJ", ",", "DT", "NNS", "VBP", "JJ", ",", "DT", "NNS", "VBP", "JJ", ",", "DT", "NN", "VBD", "JJ", "CC", "RB", "JJ", "IN", "WP", "DT", "NNS", "VBD", "VBG", "."]
+    text: ' So the plot creaks, the sets are decaying, the costumes are pre-historic, the orchestra
+  was sloppy and not_very_well connected with what the singers were doing.'
+    tokens: [[1, 3], [4, 7], [8, 12], [13, 19], [19, 20], [21, 24], [25, 29], [30, 33], [34, 42], [42, 43], [44, 47], [48, 56], [57, 60], [61, 73], [73, 74], [75, 78], [79, 88], [89, 92], [93, 99], [100, 103], [104, 117], [118, 127], [128, 132], [133, 137], [138, 141], [142, 149], [150, 154], [155, 160], [160, 161]]
+    wn16_key: [[17, "be%2:42:03::"], [27, "do%2:36:01::"]]
+    wn30_key: [[17, "be%2:42:03::"], [27, "do%2:36:01::"]]
+yYWW:
+    lemmas: ["after_all", ",", "the", "opera", "have", "juicy", "music", "to", "sing", "and", "the", "goody", "be", "well", "distributed", ",", "with", "no_less_than", "six", "leading", "parts", "."]
+    oewn2026_key: [[4, "oewn-02208144-v"], [8, "oewn-01734912-v"], [12, "oewn-02610777-v"]]
+    paragraph: '9'
+    pos: ["RB", ",", "DT", "NN", "VBZ", "JJ", "NN", "TO", "VB", "CC", "DT", "NNS", "VBP", "JJ", "JJ", ",", "IN", "RB", "CD", "JJ", "NNS", "."]
+    text: ' After_all, the opera has juicy music to sing and the goodies are well distributed,
+  with no_less_than six leading parts.
+
+  '
+    tokens: [[1, 10], [10, 11], [12, 15], [16, 21], [22, 25], [26, 31], [32, 37], [38, 40], [41, 45], [46, 49], [50, 53], [54, 61], [62, 65], [66, 70], [71, 82], [82, 83], [84, 88], [89, 101], [102, 105], [106, 113], [114, 119], [119, 120]]
+    wn16_key: [[4, "have%2:40:00::"], [8, "sing%2:36:01::"], [12, "be%2:42:03::"]]
+    wn30_key: [[4, "have%2:40:00::"], [8, "sing%2:36:01::"], [12, "be%2:42:03::"]]
+3d3e:
+    lemmas: ["One", "of", "those", "parts", "be", "that", "of", "evil", ",", "evil", "Barnaba", ",", "the", "spy", "."]
+    oewn2026_key: [[4, "oewn-02622439-v"]]
+    paragraph: '10'
+    pos: ["CD", "IN", "DT", "NNS", "VBZ", "IN", "IN", "JJ", ",", "JJ", "NNP", ",", "DT", "NN", "."]
+    text: ' One of those parts is that of evil, evil Barnaba, the spy.'
+    tokens: [[1, 4], [5, 7], [8, 13], [14, 19], [20, 22], [23, 27], [28, 30], [31, 35], [35, 36], [37, 41], [42, 49], [49, 50], [51, 54], [55, 58], [58, 59]]
+    wn16_key: [[4, "be%2:42:06::"]]
+    wn30_key: [[4, "be%2:42:06::"]]
+xxw2:
+    lemmas: ["His", "wicked", "deeds", "be", "carry_on", "by", "Anselmo_Colzani", ",", "who", "be", "take", "the", "part", "for_the_first_time", "with", "the", "company", "."]
+    oewn2026_key: [[4, "oewn-02450374-v"], [10, "oewn-02399325-v"]]
+    paragraph: '10'
+    pos: ["PRP$", "JJ", "NNS", "VBD", "VB", "IN", "NNP", ",", "WP", "VBD", "VBG", "DT", "NN", "RB", "IN", "DT", "NN", "."]
+    text: ' His wicked deeds were carried_on by Anselmo_Colzani, who was taking the part for_the_first_time
+  with the company.
+
+  '
+    tokens: [[1, 4], [5, 11], [12, 17], [18, 22], [23, 33], [34, 36], [37, 52], [52, 53], [54, 57], [58, 61], [62, 68], [69, 72], [73, 77], [78, 96], [97, 101], [102, 105], [106, 113], [113, 114]]
+    wn16_key: [[4, "carry_on%2:41:00::"], [10, "take%2:41:00::"]]
+    wn30_key: [[4, "carry_on%2:41:00::"], [10, "take%2:41:00::"]]
+4VS7:
+    lemmas: ["He", "have", "the", "temperament", "and", "the", "stage", "presence", "for", "a", "rousing", "villain", "and", "he", "sing", "with", "character", "and", "strong", "tone", "."]
+    oewn2026_key: [[1, "oewn-02208144-v"], [14, "oewn-01733312-v"]]
+    paragraph: '11'
+    pos: ["PRP", "VBZ", "DT", "NN", "CC", "DT", "NN", "NN", "IN", "DT", "JJ", "NN", "CC", "PRP", "VBD", "IN", "NN", "CC", "JJ", "NN", "."]
+    text: ' He has the temperament and the stage presence for a rousing villain and he sang
+  with character and strong tone.'
+    tokens: [[1, 3], [4, 7], [8, 11], [12, 23], [24, 27], [28, 31], [32, 37], [38, 46], [47, 50], [51, 52], [53, 60], [61, 68], [69, 72], [73, 75], [76, 80], [81, 85], [86, 95], [96, 99], [100, 106], [107, 111], [111, 112]]
+    wn16_key: [[1, "have%2:40:00::"], [14, "sing%2:36:00::"]]
+    wn30_key: [[1, "have%2:40:00::"], [14, "sing%2:36:00::"]]
+dWzp:
+    lemmas: ["What", "be", "lacking", "be", "a", "real", "sense", "of", "phrase", ",", "the", "kind_of", "legato", "singing", "that", "would", "have", "add", "a", "dimension", "of", "smoothness", "to", "what", "be", ",", "after_all", ",", "a", "very", "oily", "character", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [3, "oewn-02610777-v"], [17, "oewn-02329474-v"], [24, "oewn-02610777-v"]]
+    paragraph: '11'
+    pos: ["WP", "VBD", "JJ", "VBD", "DT", "JJ", "NN", "IN", "NN", ",", "DT", "RB", "JJ", "NN", "WDT", "MD", "VB", "VBN", "DT", "NN", "IN", "NN", "TO", "WP", "VBZ", ",", "RB", ",", "DT", "RB", "JJ", "NN", "."]
+    text: ' What was lacking was a real sense of phrase, the kind_of legato singing that would
+  have added a dimension of smoothness to what is, after_all, a very oily character.
+
+  '
+    tokens: [[1, 5], [6, 9], [10, 17], [18, 21], [22, 23], [24, 28], [29, 34], [35, 37], [38, 44], [44, 45], [46, 49], [50, 57], [58, 64], [65, 72], [73, 77], [78, 83], [84, 88], [89, 94], [95, 96], [97, 106], [107, 109], [110, 120], [121, 123], [124, 128], [129, 131], [131, 132], [133, 142], [142, 143], [144, 145], [146, 150], [151, 155], [156, 165], [165, 166]]
+    wn16_key: [[1, "be%2:42:03::"], [3, "be%2:42:03::"], [17, "add%2:40:00::"], [24, "be%2:42:03::"]]
+    wn30_key: [[1, "be%2:42:03::"], [3, "be%2:42:03::"], [17, "add%2:40:00::"], [24, "be%2:42:03::"]]
+R7Lg:
+    lemmas: ["regina_resnik", "as", "Laura", "and", "Cesare_Siepi", "as", "Alvise", "also", "be", "new_to", "the", "cast", ",", "but", "only", "with_respect_to", "this", "season", ";", "they", "have", "both", "sing", "these", "parts", "here", "before", "."]
+    oewn2026_key: [[8, "oewn-02610777-v"], [22, "oewn-01734912-v"]]
+    paragraph: '12'
+    pos: ["NNP", "IN", "NNP", "CC", "NNP", "IN", "NNP", "RB", "VBD", "JJ", "DT", "NN", ",", "CC", "RB", "NN", "DT", "NN", ":", "PRP", "VBP", "DT", "VBN", "DT", "NNS", "RB", "RB", "."]
+    text: ' Regina_Resnik as Laura and Cesare_Siepi as Alvise also were new_to the cast, but
+  only with_respect_to this season; they have both sung these parts here before.'
+    tokens: [[1, 14], [15, 17], [18, 23], [24, 27], [28, 40], [41, 43], [44, 50], [51, 55], [56, 60], [61, 67], [68, 71], [72, 76], [76, 77], [78, 81], [82, 86], [87, 102], [103, 107], [108, 114], [114, 115], [116, 120], [121, 125], [126, 130], [131, 135], [136, 141], [142, 147], [148, 152], [153, 159], [159, 160]]
+    wn16_key: [[8, "be%2:42:03::"], [22, "sing%2:36:01::"]]
+    wn30_key: [[8, "be%2:42:03::"], [22, "sing%2:36:01::"]]
+9zn+:
+    lemmas: ["Laura", "be", "a", "good", "role", "for", "miss_resnik", ",", "and", "she", "give", "it", "force", ",", "dramatic", "color", "and", "passion", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [10, "oewn-02321848-v"]]
+    paragraph: '12'
+    pos: ["NNP", "VBZ", "DT", "JJ", "NN", "IN", "NNP", ",", "CC", "PRP", "VBD", "PRP", "NN", ",", "JJ", "NN", "CC", "NN", "."]
+    text: ' Laura is a good role for Miss_Resnik, and she gave it force, dramatic color and
+  passion.
+
+  '
+    tokens: [[1, 6], [7, 9], [10, 11], [12, 16], [17, 21], [22, 25], [26, 37], [37, 38], [39, 42], [43, 46], [47, 51], [52, 54], [55, 60], [60, 61], [62, 70], [71, 76], [77, 80], [81, 88], [88, 89]]
+    wn16_key: [[1, "be%2:42:03::"], [10, "give%2:40:03::"]]
+    wn30_key: [[1, "be%2:42:03::"], [10, "give%2:40:03::"]]
+83xt:
+    lemmas: ["mr._siepi", "be", ",", "as", "always", ",", "a", "consummate", "actor", ";", "with", "a_few", "telling", "stroke", "he", "characterize", "Alvise", "magnificently", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [15, "oewn-00958719-v"]]
+    paragraph: '13'
+    pos: ["NNP", "VBD", ",", "IN", "RB", ",", "DT", "JJ", "NN", ":", "IN", "JJ", "NN", "NNS", "PRP", "VBD", "NNP", "RB", "."]
+    text: ' Mr._Siepi was, as always, a consummate actor; with a_few telling strokes he characterized
+  Alvise magnificently.'
+    tokens: [[1, 10], [11, 14], [14, 15], [16, 18], [19, 25], [25, 26], [27, 28], [29, 39], [40, 45], [45, 46], [47, 51], [52, 57], [58, 65], [66, 73], [74, 76], [77, 90], [91, 97], [98, 111], [111, 112]]
+    wn16_key: [[1, "be%2:42:03::"], [15, "characterize%2:32:00::"]]
+    wn30_key: [[1, "be%2:42:03::"], [15, "characterize%2:32:00::"]]
+7QSw:
+    lemmas: ["part", "of_this", "characterization", "be", ",", "of_course", ",", "accomplished", "with", "the", "vocal", "chord", "."]
+    oewn2026_key: []
+    paragraph: '13'
+    pos: ["NN", "RB", "NN", "VBD", ",", "RB", ",", "JJ", "IN", "DT", "JJ", "NNS", "."]
+    text: ' Part of_this characterization was, of_course, accomplished with the vocal chords.'
+    tokens: [[1, 5], [6, 13], [14, 30], [31, 34], [34, 35], [36, 45], [45, 46], [47, 59], [60, 64], [65, 68], [69, 74], [75, 81], [81, 82]]
+    wn16_key: []
+    wn30_key: []
+KRPr:
+    lemmas: ["His", "singing", "be", "strong", "and", "musical", ";", "unfortunately", "his", "voice", "be", "out", "of", "focus", "and", "often", "spread", "in", "quality", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"], [10, "oewn-02610777-v"]]
+    paragraph: '13'
+    pos: ["PRP$", "NN", "VBD", "JJ", "CC", "JJ", ":", "RB", "PRP$", "NN", "VBD", "IN", "IN", "NN", "CC", "RB", "JJ", "IN", "NN", "."]
+    text: ' His singing was strong and musical; unfortunately his voice was out of focus and
+  often spread in quality.
+
+  '
+    tokens: [[1, 4], [5, 12], [13, 16], [17, 23], [24, 27], [28, 35], [35, 36], [37, 50], [51, 54], [55, 60], [61, 64], [65, 68], [69, 71], [72, 77], [78, 81], [82, 87], [88, 94], [95, 97], [98, 105], [105, 106]]
+    wn16_key: [[2, "be%2:42:03::"], [10, "be%2:42:03::"]]
+    wn30_key: [[2, "be%2:42:03::"], [10, "be%2:42:03::"]]
+ZvuR:
+    lemmas: ["eileen_farrell", "in", "the", "title_role", ",", "Mignon_Dunn", "as", "la_cieca", "and", "Richard_Tucker", "as", "Enzo", "be", "holdover", "from", "earlier", "performance", "this", "season", ",", "and", "all", "contribute", "to", "a", "vigorous", "performance", "."]
+    oewn2026_key: [[12, "oewn-02610777-v"], [22, "oewn-02329474-v"]]
+    paragraph: '14'
+    pos: ["NNP", "IN", "DT", "NN", ",", "NNP", "IN", "NNP", "CC", "NNP", "IN", "NNP", "VBD", "NNS", "IN", "RBR", "NNS", "DT", "NN", ",", "CC", "DT", "VBD", "VB", "DT", "JJ", "NN", "."]
+    text: ' Eileen_Farrell in the title_role, Mignon_Dunn as La_Cieca and Richard_Tucker as
+  Enzo were holdovers from earlier performances this season, and all contributed to
+  a vigorous performance.'
+    tokens: [[1, 15], [16, 18], [19, 22], [23, 33], [33, 34], [35, 46], [47, 49], [50, 58], [59, 62], [63, 77], [78, 80], [81, 85], [86, 90], [91, 100], [101, 105], [106, 113], [114, 126], [127, 131], [132, 138], [138, 139], [140, 143], [144, 147], [148, 159], [160, 162], [163, 164], [165, 173], [174, 185], [185, 186]]
+    wn16_key: [[12, "be%2:42:03::"], [22, "contribute%2:40:01::"]]
+    wn30_key: [[12, "be%2:42:03::"], [22, "contribute%2:40:01::"]]
+Q9mg:
+    lemmas: ["If", "only", "they", "and", "Fausto_Cleva", "in", "the_pit", "have", "got", "together", "a_bit", "more", "."]
+    oewn2026_key: [[8, "oewn-00149403-v"], [9, "oewn-00117612-r"]]
+    paragraph: '14'
+    pos: ["IN", "RB", "PRP", "CC", "NNP", "IN", "NN", "VB", "VB", "VB", "RB", "JJR", "."]
+    text: ' If only they and Fausto_Cleva in the_pit had got_together a_bit more.
+
+  '
+    tokens: [[1, 3], [4, 8], [9, 13], [14, 17], [18, 30], [31, 33], [34, 41], [42, 45], [46, 49], [50, 58], [59, 64], [65, 69], [69, 70]]
+    wn16_key: []
+    wn30_key: [[8, "get%2:30:00::"], [9, "together%4:02:05::"]]
+xDnM:
+    lemmas: ["\"", "melodious", "bird", "sing", "madrigal", "\"", "saith", "the", "poet", "and", "no", "good", "description", "of", "the", "madrigal", "of", "the", "Deller_Consort", "could", "be", "imagine", "."]
+    oewn2026_key: [[3, "oewn-01734912-v"], [15, "oewn-01735895-v"], [21, "oewn-01639939-v"]]
+    paragraph: '15'
+    pos: ["``", "JJ", "NNS", "VBP", "NNS", "``", "VBZ", "DT", "NN", "CC", "DT", "JJR", "NN", "IN", "DT", "VB", "IN", "DT", "NNP", "MD", "VB", "VBN", "."]
+    text: ' " Melodious birds sing madrigals " saith the poet and no better description of the
+  madrigaling of the Deller_Consort could be imagined.
+
+  '
+    tokens: [[1, 2], [3, 12], [13, 18], [19, 23], [24, 33], [34, 35], [36, 41], [42, 45], [46, 50], [51, 54], [55, 57], [58, 64], [65, 76], [77, 79], [80, 83], [84, 95], [96, 98], [99, 102], [103, 117], [118, 123], [124, 126], [127, 135], [135, 136]]
+    wn16_key: [[3, "sing%2:36:01::"], [15, "madrigal%2:36:00::"], [21, "imagine%2:36:00::"]]
+    wn30_key: [[3, "sing%2:36:01::"], [15, "madrigal%2:36:00::"], [21, "imagine%2:36:00::"]]
+UKhu:
+    lemmas: ["Their", "vanguard", "album", "madrigal", "masterpiece", "(", "BG", "609", ";", "stereo", "bg", "5031", ")", "be", "a", "good", "sample", "of", "the", "special", ",", "elegant", "art", "of", "english", "madrigal", "singing", "."]
+    oewn2026_key: [[13, "oewn-02610777-v"]]
+    paragraph: '16'
+    pos: ["PRP$", "NNP", "NN", "NNP", "NNPS", "NNP", "NNP", "CD", ":", "NN", "NNP", "CD", "NN", "VBZ", "DT", "JJ", "NN", "IN", "DT", "JJ", ",", "JJ", "NN", "IN", "NNP", "NN", "NN", "."]
+    text: ' Their Vanguard album Madrigal Masterpieces (BG 609; stereo BGS 5031) is a good sample
+  of the special, elegant art of English madrigal singing.'
+    tokens: [[1, 6], [7, 15], [16, 21], [22, 30], [31, 43], [44, 45], [45, 47], [48, 51], [51, 52], [53, 59], [60, 63], [64, 68], [68, 69], [70, 72], [73, 74], [75, 79], [80, 86], [87, 89], [90, 93], [94, 101], [101, 102], [103, 110], [111, 114], [115, 117], [118, 125], [126, 134], [135, 142], [142, 143]]
+    wn16_key: [[13, "be%2:42:03::"]]
+    wn30_key: [[13, "be%2:42:03::"]]
+ccWQ:
+    lemmas: ["It", "also", "make", "a", "fine", "introduction", "to", "the", "international", "art_form", "with", "good_example", "of", "italian", "and", "english", "madrigal", "plus", "several", "french", "\"", "chansons", "\"", "."]
+    oewn2026_key: [[2, "oewn-01620211-v"]]
+    paragraph: '16'
+    pos: ["PRP", "RB", "VBZ", "DT", "JJ", "NN", "TO", "DT", "JJ", "NN", "IN", "NN", "IN", "JJ", "CC", "NNP", "NNS", "CC", "JJ", "JJ", "``", "FW", "''", "."]
+    text: ' It also makes a fine introduction to the international art_form with good_examples
+  of Italian and English madrigals plus several French " chansons ".
+
+  '
+    tokens: [[1, 3], [4, 8], [9, 14], [15, 16], [17, 21], [22, 34], [35, 37], [38, 41], [42, 55], [56, 64], [65, 69], [70, 83], [84, 86], [87, 94], [95, 98], [99, 106], [107, 116], [117, 121], [122, 129], [130, 136], [137, 138], [139, 147], [148, 149], [149, 150]]
+    wn16_key: [[2, "make%2:36:00::"]]
+    wn30_key: [[2, "make%2:36:00::"]]
+C3NN:
+    lemmas: ["The_English", "have", "manage", "to", "hold", "onto", "their", "madrigal", "tradition", "good", "than", "anyone", "else", "."]
+    oewn2026_key: [[2, "oewn-02528530-v"], [4, "oewn-02288169-v"]]
+    paragraph: '17'
+    pos: ["NN", "VBP", "VBN", "TO", "VB", "IN", "PRP$", "NN", "NN", "JJR", "IN", "NN", "RB", "."]
+    text: ' The_English have managed to hold onto their madrigal tradition better than anyone
+  else.'
+    tokens: [[1, 12], [13, 17], [18, 25], [26, 28], [29, 33], [34, 38], [39, 44], [45, 53], [54, 63], [64, 70], [71, 75], [76, 82], [83, 87], [87, 88]]
+    wn16_key: [[2, "manage%2:41:09::"], [4, "hold%2:40:03::"]]
+    wn30_key: [[2, "manage%2:41:09::"], [4, "hold%2:40:02::"]]
+fRRl:
+    lemmas: ["The", "original", "impulse", "come", "to", "england", "late", "(", "in", "the", "sixteenth", "century", ")", "and", "continue", "strong", "long", "after", "everyone", "else", "have", "go_on", "to", "the", "baroque", "basso_continuo", ",", "sonata", ",", "opera", "and", "the_like", "."]
+    oewn2026_key: [[3, "oewn-02009962-v"], [14, "oewn-02690747-v"], [21, "oewn-01996535-v"]]
+    paragraph: '17'
+    pos: ["DT", "JJ", "NNS", "VBD", "VB", "NNP", "JJ", "NN", "IN", "DT", "JJ", "NN", "NN", "CC", "VB", "JJ", "JJ", "IN", "NN", "RB", "VBD", "VB", "TO", "DT", "JJ", "NN", ",", "NNS", ",", "NNS", "CC", "NN", "."]
+    text: ' The original impulses came to England late (in the sixteenth century) and continue
+  strong long after everyone else had gone_on to the baroque basso_continuo, sonatas,
+  operas and the_like.
+
+  '
+    tokens: [[1, 4], [5, 13], [14, 22], [23, 27], [28, 30], [31, 38], [39, 43], [44, 45], [45, 47], [48, 51], [52, 61], [62, 69], [69, 70], [71, 74], [75, 83], [84, 90], [91, 95], [96, 101], [102, 110], [111, 115], [116, 119], [120, 127], [128, 130], [131, 134], [135, 142], [143, 157], [157, 158], [159, 166], [166, 167], [168, 174], [175, 178], [179, 187], [187, 188]]
+    wn16_key: [[3, "come%2:38:04::"], [14, "continue%2:42:01::"], [21, "go_on%2:38:00::"]]
+    wn30_key: [[3, "come%2:38:04::"], [14, "continue%2:42:01::"], [21, "go_on%2:38:00::"]]
+5IzM:
+    lemmas: ["even", "after", "elizabethan", "tradition", "be", "weaken", "by", "the", "cromwellian", "interregnum", ",", "the", "practice", "of", "sing", "together", "-", "chorus", ",", "catch", "and", "glee", "-", "always", "flourish", "."]
+    oewn2026_key: [[5, "oewn-00291502-v"], [14, "oewn-01733312-v"], [24, "oewn-00311168-v"]]
+    paragraph: '18'
+    pos: ["RB", "IN", "JJ", "NNS", "VBD", "VBN", "IN", "DT", "JJ", "NN", ",", "DT", "NN", "IN", "VB", "RB", ":", "NNS", ",", "NNS", "CC", "NNS", ":", "RB", "VBN", "."]
+    text: ' Even after Elizabethan traditions were weakened by the Cromwellian interregnum,
+  the practice of singing together - choruses, catches and glees - always flourished.'
+    tokens: [[1, 5], [6, 11], [12, 23], [24, 34], [35, 39], [40, 48], [49, 51], [52, 55], [56, 67], [68, 79], [79, 80], [81, 84], [85, 93], [94, 96], [97, 104], [105, 113], [114, 115], [116, 124], [124, 125], [126, 133], [134, 137], [138, 143], [144, 145], [146, 152], [153, 163], [163, 164]]
+    wn16_key: [[5, "weaken%2:30:03::"], [14, "sing%2:36:00::"], [24, "flourish%2:30:01::"]]
+    wn30_key: [[5, "weaken%2:30:03::"], [14, "sing%2:36:00::"], [24, "flourish%2:30:01::"]]
+jsbV:
+    lemmas: ["The_English", "never_again", "develop", "a", "strong", "native", "music", "that", "could", "obliterate", "the", "trace", "of", "an", "earlier", "great", "age", "the", "way", ",", "say", ",", "the", "opera", "in", "italy", "blot_out", "the", "italian", "madrigal", "."]
+    oewn2026_key: [[2, "oewn-00546637-v"], [9, "oewn-00312120-v"], [26, "oewn-00314788-v"]]
+    paragraph: '18'
+    pos: ["NN", "RB", "VBD", "DT", "JJ", "JJ", "NN", "WDT", "MD", "VB", "DT", "NNS", "IN", "DT", "RBR", "JJ", "NN", "DT", "NN", ",", "VBP", ",", "DT", "NN", "IN", "NNP", "VB", "DT", "JJ", "NN", "."]
+    text: ' The_English never_again developed a strong native music that could obliterate the
+  traces of an earlier great age the way, say, the opera in Italy blotted_out the
+  Italian madrigal.
+
+  '
+    tokens: [[1, 12], [13, 24], [25, 34], [35, 36], [37, 43], [44, 50], [51, 56], [57, 61], [62, 67], [68, 78], [79, 82], [83, 89], [90, 92], [93, 95], [96, 103], [104, 109], [110, 113], [114, 117], [118, 121], [121, 122], [123, 126], [126, 127], [128, 131], [132, 137], [138, 140], [141, 146], [147, 158], [159, 162], [163, 170], [171, 179], [179, 180]]
+    wn16_key: [[2, "develop%2:30:06::"], [9, "obliterate%2:30:00::"], [26, "blot_out%2:30:00::"]]
+    wn30_key: [[2, "develop%2:30:06::"], [9, "obliterate%2:30:00::"], [26, "blot_out%2:30:00::"]]
+OcWO:
+    lemmas: ["latter-day", "interest", "in", "elizabethan", "singing", "date_back", "well", "back", "into", "the", "nineteenth", "century", "in", "england", ",", "much", "ahead", "of", "similar", "revival", "in", "other", "country", "."]
+    oewn2026_key: [[5, "oewn-02729826-v"]]
+    paragraph: '19'
+    pos: ["JJ", "NN", "IN", "JJ", "NN", "VB", "RB", "RB", "IN", "DT", "JJ", "NN", "IN", "NNP", ",", "JJ", "RB", "IN", "JJ", "NNS", "IN", "JJ", "NNS", "."]
+    text: ' Latter-day interest in Elizabethan singing dates well back into the nineteenth century
+  in England, much ahead of similar revivals in other countries.'
+    tokens: [[1, 11], [12, 20], [21, 23], [24, 35], [36, 43], [44, 49], [50, 54], [55, 59], [60, 64], [65, 68], [69, 79], [80, 87], [88, 90], [91, 98], [98, 99], [100, 104], [105, 110], [111, 113], [114, 121], [122, 130], [131, 133], [134, 139], [140, 149], [149, 150]]
+    wn16_key: [[5, "date_back%2:42:00::"]]
+    wn30_key: [[5, "date_back%2:42:00::"]]
+js5c:
+    lemmas: ["As", "a", "result", "no", "comparable", "literature", "of", "the", "period", "be", "well", "known", "and", "well", "study", "nor", "more_often", "perform", "than", "the_English", "madrigal", "."]
+    oewn2026_key: [[9, "oewn-02610777-v"], [14, "oewn-00646245-v"], [17, "oewn-01718067-v"]]
+    paragraph: '19'
+    pos: ["IN", "DT", "NN", "DT", "JJ", "NN", "IN", "DT", "NN", "VBZ", "RBR", "JJ", "CC", "RBR", "VBN", "CC", "RB", "VBN", "IN", "NN", "NN", "."]
+    text: ' As a result no comparable literature of the period is better known and better studied
+  nor more_often performed than the_English madrigal.
+
+  '
+    tokens: [[1, 3], [4, 5], [6, 12], [13, 15], [16, 26], [27, 37], [38, 40], [41, 44], [45, 51], [52, 54], [55, 61], [62, 67], [68, 71], [72, 78], [79, 86], [87, 90], [91, 101], [102, 111], [112, 116], [117, 128], [129, 137], [137, 138]]
+    wn16_key: [[9, "be%2:42:03::"], [14, "study%2:31:02::"], [17, "perform%2:36:01::"]]
+    wn30_key: [[9, "be%2:42:03::"], [14, "study%2:31:02::"], [17, "perform%2:36:01::"]]
+RIcN:
+    lemmas: ["naturally", ",", "mr._deller", "and", "the", "other", "singer", "in", "his", "troupe", "be", "most", "charming", "and", "elegant", "when", "they", "be", "squarely", "in", "their", "tradition", "and", "sing", "music", "by", "their", "countryman", ":", "william_byrd", ",", "thomas_morley", "and", "thomas_tomkin", "."]
+    oewn2026_key: [[10, "oewn-02610777-v"], [17, "oewn-02610777-v"], [23, "oewn-01734912-v"]]
+    paragraph: '20'
+    pos: ["RB", ",", "NNP", "CC", "DT", "JJ", "NNS", "IN", "PRP$", "NN", "VBP", "RBS", "JJ", "CC", "JJ", "WRB", "PRP", "VBP", "RB", "IN", "PRP$", "NN", "CC", "VB", "NN", "IN", "PRP$", "NNS", ":", "NNP", ",", "NNP", "CC", "NNP", "."]
+    text: ' Naturally, Mr._Deller and the other singers in his troupe are most charming and
+  elegant when they are squarely in their tradition and singing music by their countrymen:
+  William_Byrd, Thomas_Morley and Thomas_Tomkins.'
+    tokens: [[1, 10], [10, 11], [12, 22], [23, 26], [27, 30], [31, 36], [37, 44], [45, 47], [48, 51], [52, 58], [59, 62], [63, 67], [68, 76], [77, 80], [81, 88], [89, 93], [94, 98], [99, 102], [103, 111], [112, 114], [115, 120], [121, 130], [131, 134], [135, 142], [143, 148], [149, 151], [152, 157], [158, 168], [168, 169], [170, 182], [182, 183], [184, 197], [198, 201], [202, 216], [216, 217]]
+    wn16_key: [[10, "be%2:42:03::"], [17, "be%2:42:03::"], [23, "sing%2:36:01::"]]
+    wn30_key: [[10, "be%2:42:03::"], [17, "be%2:42:03::"], [23, "sing%2:36:01::"]]
+8eJs:
+    lemmas: ["There", "be", "an", "almost", "instrumental", "quality", "to", "their", "singing", ",", "with", "a", "tendency", "to", "lift", "out", "important", "line", "and", "make", "them", "lead", "the", "musical", "texture", "."]
+    oewn2026_key: [[14, "oewn-00545629-v"], [19, "oewn-00772482-v"], [21, "oewn-02003830-v"]]
+    paragraph: '20'
+    pos: ["EX", "VB", "DT", "RB", "JJ", "NN", "TO", "PRP$", "NN", ",", "IN", "DT", "NN", "TO", "VB", "RB", "JJ", "NNS", "CC", "VB", "PRP", "VB", "DT", "JJ", "NN", "."]
+    text: ' There is an almost instrumental quality to their singing, with a tendency to lift
+  out important lines and make them lead the musical texture.'
+    tokens: [[1, 6], [7, 9], [10, 12], [13, 19], [20, 32], [33, 40], [41, 43], [44, 49], [50, 57], [57, 58], [59, 63], [64, 65], [66, 74], [75, 77], [78, 82], [83, 86], [87, 96], [97, 102], [103, 106], [107, 111], [112, 116], [117, 121], [122, 125], [126, 133], [134, 141], [141, 142]]
+    wn16_key: [[14, "lift%2:30:07::"], [19, "make%2:32:00::"], [21, "lead%2:38:01::"]]
+    wn30_key: [[14, "lift%2:30:07::"], [19, "make%2:32:00::"], [21, "lead%2:38:01::"]]
+Zplm:
+    lemmas: ["Both", "technique", "give", "the", "music", "purity", "and", "clarity", "."]
+    oewn2026_key: [[2, "oewn-02344167-v"]]
+    paragraph: '20'
+    pos: ["DT", "NNS", "VBP", "DT", "NN", "NN", "CC", "NN", "."]
+    text: ' Both techniques give the music purity and clarity.
+
+  '
+    tokens: [[1, 5], [6, 16], [17, 21], [22, 25], [26, 31], [32, 38], [39, 42], [43, 50], [50, 51]]
+    wn16_key: [[2, "give%2:40:05::"]]
+    wn30_key: [[2, "give%2:40:05::"]]
+SyQQ:
+    lemmas: ["Claude_Jannequin", "'s", "vocal", "description", "of", "a", "battle", "(", "the_French", "equivalent", "of", "tarantara", ",", "rum-tum-tum", ",", "and", "boom-boom-boom", "be", "very", "picturesque", ")", "be", "lots_of", "fun", ",", "and", "the", "singer", "get", "a", "sense", "of", "grace", "and", "shape", "into", "other", "chansons", "by", "Jannequin", "and", "lassu", "."]
+    oewn2026_key: [[17, "oewn-02610777-v"], [21, "oewn-02610777-v"], [28, "oewn-02215637-v"]]
+    paragraph: '21'
+    pos: ["NNP", "POS", "JJ", "NN", "IN", "DT", "NN", "FW", "NN", "NNS", "IN", "NN", ",", "JJ", ",", "CC", "JJ", "VBP", "RB", "JJ", "NN", "VBZ", "JJ", "NN", ",", "CC", "DT", "NNS", "VBP", "DT", "NN", "IN", "NN", "CC", "NN", "IN", "JJ", "FW", "IN", "NNP", "CC", "NNP", "."]
+    text: ' Claude_Jannequin''s vocal description of a battle (the_French equivalents of tarantara,
+  rum-tum-tum, and boom-boom-boom are very picturesque) is lots_of fun, and the singers
+  get a sense of grace and shape into other chansons by Jannequin and Lassus.'
+    tokens: [[1, 17], [17, 19], [20, 25], [26, 37], [38, 40], [41, 42], [43, 49], [50, 51], [51, 61], [62, 73], [74, 76], [77, 86], [86, 87], [88, 99], [99, 100], [101, 104], [105, 119], [120, 123], [124, 128], [129, 140], [140, 141], [142, 144], [145, 152], [153, 156], [156, 157], [158, 161], [162, 165], [166, 173], [174, 177], [178, 179], [180, 185], [186, 188], [189, 194], [195, 198], [199, 204], [205, 209], [210, 215], [216, 224], [225, 227], [228, 237], [238, 241], [242, 248], [248, 249]]
+    wn16_key: [[17, "be%2:42:03::"], [21, "be%2:42:03::"], [28, "get%2:40:00::"]]
+    wn30_key: [[17, "be%2:42:03::"], [21, "be%2:42:03::"], [28, "get%2:40:00::"]]
+YR/B:
+    lemmas: ["only", "with", "the", "more", "sensual", ",", "intense", "and", "baroque", "expression", "of", "Marenzio", ",", "monteverdi", "and", "Gesualdo", "do", "the", "singing", "seem", "a_little", "superficial", "."]
+    oewn2026_key: [[19, "oewn-02137900-v"]]
+    paragraph: '21'
+    pos: ["RB", "IN", "DT", "RBR", "JJ", ",", "JJ", "CC", "JJ", "NNS", "IN", "NNP", ",", "NNP", "CC", "NNP", "VBZ", "DT", "NN", "VBP", "RB", "JJ", "."]
+    text: ' Only with the more sensual, intense and baroque expressions of Marenzio, Monteverdi
+  and Gesualdo does the singing seem a_little superficial.
+
+  '
+    tokens: [[1, 5], [6, 10], [11, 14], [15, 19], [20, 27], [27, 28], [29, 36], [37, 40], [41, 48], [49, 60], [61, 63], [64, 72], [72, 73], [74, 84], [85, 88], [89, 97], [98, 102], [103, 106], [107, 114], [115, 119], [120, 128], [129, 140], [140, 141]]
+    wn16_key: [[19, "seem%2:39:00::"]]
+    wn30_key: [[19, "seem%2:39:00::"]]
+Tzvc:
+    lemmas: ["nevertheless", ",", "the", "musicality", ",", "accuracy", "and", "infectious", "charm", "of", "these", "performance", ",", "excellently", "reproduce", ",", "make", "it", "an", "attractive", "look-see", "at", "the", "period", "."]
+    oewn2026_key: [[14, "oewn-01740703-v"], [16, "oewn-00120124-v"]]
+    paragraph: '22'
+    pos: ["RB", ",", "DT", "NN", ",", "NN", "CC", "JJ", "NN", "IN", "DT", "NNS", ",", "RB", "VBN", ",", "VB", "VB", "DT", "JJ", "NN", "IN", "DT", "NN", "."]
+    text: ' Nevertheless, the musicality, accuracy and infectious charm of these performances,
+  excellently reproduced, make it an attractive look-see at the period.'
+    tokens: [[1, 13], [13, 14], [15, 18], [19, 29], [29, 30], [31, 39], [40, 43], [44, 54], [55, 60], [61, 63], [64, 69], [70, 82], [82, 83], [84, 95], [96, 106], [106, 107], [108, 112], [113, 115], [116, 118], [119, 129], [130, 138], [139, 141], [142, 145], [146, 152], [152, 153]]
+    wn16_key: [[14, "reproduce%2:36:00::"], [16, "make%2:30:00::"]]
+    wn30_key: [[14, "reproduce%2:36:00::"], [16, "make%2:30:00::"]]
+jp1I:
+    lemmas: ["The", "works", "be", "present", "chronologically", "."]
+    oewn2026_key: [[3, "oewn-02153218-v"]]
+    paragraph: '22'
+    pos: ["DT", "NNS", "VB", "VBN", "RB", "."]
+    text: ' The works are presented chronologically.'
+    tokens: [[1, 4], [5, 10], [11, 14], [15, 24], [25, 40], [40, 41]]
+    wn16_key: [[3, "present%2:39:00::"]]
+    wn30_key: [[3, "present%2:39:00::"]]
+sGxW:
+    lemmas: ["text", "and", "translation", "be", "provide", "."]
+    oewn2026_key: [[4, "oewn-01185006-v"]]
+    paragraph: '22'
+    pos: ["NNS", "CC", "NNS", "VBP", "VBN", "."]
+    text: ' Texts and translations are provided.
+
+  '
+    tokens: [[1, 6], [7, 10], [11, 23], [24, 27], [28, 36], [36, 37]]
+    wn16_key: [[4, "provide%2:34:00::"]]
+    wn30_key: [[4, "provide%2:34:00::"]]
+MS2n:
+    lemmas: ["The", "elements", "of", "elegance", "and", "color", "in", "Jannequin", "be", "strong", "french", "characteristic", "."]
+    oewn2026_key: [[8, "oewn-02610777-v"]]
+    paragraph: '23'
+    pos: ["DT", "NNS", "IN", "NN", "CC", "NN", "NN", "NNP", "VBP", "JJ", "JJ", "NNS", "."]
+    text: ' The elements of elegance and color in Jannequin are strong French characteristics.'
+    tokens: [[1, 4], [5, 13], [14, 16], [17, 25], [26, 29], [30, 35], [36, 38], [39, 48], [49, 52], [53, 59], [60, 66], [67, 82], [82, 83]]
+    wn16_key: [[8, "be%2:42:03::"]]
+    wn30_key: [[8, "be%2:42:03::"]]
+MwBm:
+    lemmas: ["baroque", "instrumental", "music", "in", "italy", "and", "germany", "tend", "to", "be", "strong", ",", "lively", ",", "intense", ",", "controlled", "and", "quite", "abstract", "."]
+    oewn2026_key: [[7, "oewn-02725274-v"], [9, "oewn-02610777-v"]]
+    paragraph: '23'
+    pos: ["JJ", "JJ", "NN", "IN", "NNP", "CC", "NNP", "VBZ", "VB", "VB", "JJ", ",", "JJ", ",", "JJ", ",", "JJ", "CC", "RB", "JJ", "."]
+    text: ' Baroque instrumental music in Italy and Germany tends to be strong, lively, intense,
+  controlled and quite abstract.'
+    tokens: [[1, 8], [9, 21], [22, 27], [28, 30], [31, 36], [37, 40], [41, 48], [49, 54], [55, 57], [58, 60], [61, 67], [67, 68], [69, 75], [75, 76], [77, 84], [84, 85], [86, 96], [97, 100], [101, 106], [107, 115], [115, 116]]
+    wn16_key: [[7, "tend%2:42:01::"], [9, "be%2:42:03::"]]
+    wn30_key: [[7, "tend%2:42:01::"], [9, "be%2:42:03::"]]
+wSxp:
+    lemmas: ["In", "france", ",", "it", "remain", "always", "more", "picturesque", ",", "more", "dancelike", ",", "more", "full_of", "flavor", "."]
+    oewn2026_key: [[4, "oewn-00117793-v"]]
+    paragraph: '23'
+    pos: ["IN", "NNP", ",", "PRP", "VBD", "RB", "RBR", "JJ", ",", "RBR", "JJ", ",", "RBR", "JJ", "NN", "."]
+    text: ' In France, it remained always more picturesque, more dancelike, more full_of flavor.
+
+  '
+    tokens: [[1, 3], [4, 10], [10, 11], [12, 14], [15, 23], [24, 30], [31, 35], [36, 47], [47, 48], [49, 53], [54, 63], [63, 64], [65, 69], [70, 77], [78, 84], [84, 85]]
+    wn16_key: [[4, "remain%2:30:00::"]]
+    wn30_key: [[4, "remain%2:30:00::"]]
+Bgdr:
+    lemmas: ["couperin", "and", "rameau", "give", "title", "to", "nearly", "everything", "they", "write", ",", "not", "in", "the", "later", "sense", "of", "\"", "program", "music", "\"", "but", "as", "a", "kind_of", "nonmusical", "reference", "for", "the", "close", ",", "clear", "musical", "form", "fill", "with", "keen", "wit", "and", "precise", "utterance", "."]
+    oewn2026_key: [[3, "oewn-02240624-v"], [9, "oewn-01702148-v"], [34, "oewn-00453467-v"]]
+    paragraph: '24'
+    pos: ["NNP", "CC", "NNP", "VBD", "NNS", "TO", "RB", "NN", "PRP", "VBD", ",", "RB", "IN", "DT", "JJ", "NN", "IN", "``", "NN", "NN", "''", "CC", "IN", "DT", "RB", "JJ", "NN", "IN", "DT", "NN", ",", "JJ", "JJ", "NNS", "VBN", "IN", "JJ", "NN", "CC", "JJ", "NN", "."]
+    text: ' Couperin and Rameau gave titles to nearly everything they wrote, not in the later
+  sense of " program music " but as a kind_of nonmusical reference for the close,
+  clear musical forms filled with keen wit and precise utterance.
+
+  '
+    tokens: [[1, 9], [10, 13], [14, 20], [21, 25], [26, 32], [33, 35], [36, 42], [43, 53], [54, 58], [59, 64], [64, 65], [66, 69], [70, 72], [73, 76], [77, 82], [83, 88], [89, 91], [92, 93], [94, 101], [102, 107], [108, 109], [110, 113], [114, 116], [117, 118], [119, 126], [127, 137], [138, 147], [148, 151], [152, 155], [156, 161], [161, 162], [163, 168], [169, 176], [177, 182], [183, 189], [190, 194], [195, 199], [200, 203], [204, 207], [208, 215], [216, 225], [225, 226]]
+    wn16_key: [[3, "give%2:40:07::"], [9, "write%2:36:00::"], [34, "fill%2:30:01::"]]
+    wn30_key: [[3, "give%2:40:07::"], [9, "write%2:36:00::"], [34, "fill%2:30:01::"]]
+1hYL:
+    lemmas: ["Both", "composer", "turn_up", "on", "new", "import", "from", "france", "."]
+    oewn2026_key: [[2, "oewn-00424655-v"]]
+    paragraph: '25'
+    pos: ["DT", "NNS", "VB", "IN", "JJ", "NNS", "IN", "NNP", "."]
+    text: ' Both composers turn_up on new imports from France.'
+    tokens: [[1, 5], [6, 15], [16, 23], [24, 26], [27, 30], [31, 38], [39, 43], [44, 50], [50, 51]]
+    wn16_key: [[2, "turn_up%2:30:00::"]]
+    wn30_key: [[2, "turn_up%2:30:00::"]]
+eUbn:
+    lemmas: ["bam", "be", "the", "unlikely", "name", "of", "a", "french", "recording", "company", "whose", "full", "label", "be", "edition", "de", "la", "boite", "a", "musique", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [13, "oewn-02622439-v"]]
+    paragraph: '25'
+    pos: ["NNP", "VBZ", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "NN", "WP$", "JJ", "NN", "VBZ", "NNPS", "FW", "FW", "NNP", "DT", "NN", "."]
+    text: ' BAM is the unlikely name of a French recording company whose full label is Editions
+  de la boite a musique.'
+    tokens: [[1, 4], [5, 7], [8, 11], [12, 20], [21, 25], [26, 28], [29, 30], [31, 37], [38, 47], [48, 55], [56, 61], [62, 66], [67, 72], [73, 75], [76, 84], [85, 87], [88, 90], [91, 96], [97, 98], [99, 106], [106, 107]]
+    wn16_key: [[1, "be%2:42:03::"], [13, "be%2:42:06::"]]
+    wn30_key: [[1, "be%2:42:03::"], [13, "be%2:42:06::"]]
+cI/D:
+    lemmas: ["They", "specialize", "in", "out-of-the-way", "item", "and", "old_french", "music", "naturally", "occupy", "a", "good_deal", "of", "their", "attention", "."]
+    oewn2026_key: [[1, "oewn-01023982-v"], [9, "oewn-02420961-v"]]
+    paragraph: '25'
+    pos: ["PRP", "VBP", "IN", "JJ", "NNS", "CC", "NN", "NN", "RB", "VBZ", "DT", "NN", "IN", "PRP$", "NN", "."]
+    text: ' They specialize in out-of-the-way items and old_French music naturally occupies
+  a good_deal of their attention.'
+    tokens: [[1, 5], [6, 16], [17, 19], [20, 34], [35, 40], [41, 44], [45, 55], [56, 61], [62, 71], [72, 80], [81, 82], [83, 92], [93, 95], [96, 101], [102, 111], [111, 112]]
+    wn16_key: [[1, "specialize%2:32:00::"], [9, "occupy%2:41:00::"]]
+    wn30_key: [[1, "specialize%2:32:00::"], [9, "occupy%2:41:00::"]]
+DSr4:
+    lemmas: ["sonate", "et", "concert", "Royaux", "of", "couperin", "le", "grand", "occupy", "two", "disk", "(", "LD056", "and", "LD060", ")", "and", "reveal", "the", "impeccable", "taste", "and", "workmanship", "of_this", "master", "-", "delicate", ",", "flexible", "and", "gemlike", "."]
+    oewn2026_key: [[17, "oewn-02147756-v"]]
+    paragraph: '25'
+    pos: ["NNPS", "FW", "NNPS", "NNP", "IN", "NNP", "FW", "JJ", "VB", "CD", "NNS", "FW", "NN", "CC", "NN", "FW", "CC", "VBP", "DT", "JJ", "NN", "CC", "NN", "RB", "NN", ":", "JJ", ",", "JJ", "CC", "JJ", "."]
+    text: ' Sonates et Concerts Royaux of Couperin le grand occupy two disks (LD056 and LD060)
+  and reveal the impeccable taste and workmanship of_this master - delicate, flexible
+  and gemlike.
+
+  '
+    tokens: [[1, 8], [9, 11], [12, 20], [21, 27], [28, 30], [31, 39], [40, 42], [43, 48], [49, 55], [56, 59], [60, 65], [66, 67], [67, 72], [73, 76], [77, 82], [82, 83], [84, 87], [88, 94], [95, 98], [99, 109], [110, 115], [116, 119], [120, 131], [132, 139], [140, 146], [147, 148], [149, 157], [157, 158], [159, 167], [168, 171], [172, 179], [179, 180]]
+    wn16_key: [[8, "occupy%2:42:02::"], [17, "reveal%2:39:00::"]]
+    wn30_key: [[17, "reveal%2:39:00::"]]
+1jG/:
+    lemmas: ["The", "concert", "-", "Nos.", "2", ",", "6", ",", "9", ",", "10", "and", "14", "be", "represent", "-", "be", "really", "close", "to", "chamber", "suite", "than", "to", "concerto", "in", "the", "italian", "sense", "."]
+    oewn2026_key: [[14, "oewn-00837915-v"], [16, "oewn-02610777-v"]]
+    paragraph: '26'
+    pos: ["DT", "NNPS", ":", "NNS", "CD", ",", "CD", ",", "CD", ",", "CD", "CC", "CD", "VBP", "VBN", ":", "VBP", "RB", "JJR", "TO", "NN", "NNS", "RB", "TO", "NNS", "IN", "DT", "JJ", "NN", "."]
+    text: ' The Concerts - Nos. 2, 6, 9, 10 and 14 are represented - are really closer to chamber
+  suites than to concertos in the Italian sense.'
+    tokens: [[1, 4], [5, 13], [14, 15], [16, 20], [21, 22], [22, 23], [24, 25], [25, 26], [27, 28], [28, 29], [30, 32], [33, 36], [37, 39], [40, 43], [44, 55], [56, 57], [58, 61], [62, 68], [69, 75], [76, 78], [79, 86], [87, 93], [94, 98], [99, 101], [102, 111], [112, 114], [115, 118], [119, 126], [127, 132], [132, 133]]
+    wn16_key: [[14, "represent%2:32:02::"], [16, "be%2:42:03::"]]
+    wn30_key: [[14, "represent%2:32:02::"], [16, "be%2:42:03::"]]
+hZ34:
+    lemmas: ["The", "sonata", ",", "\"", "la_francaise", "\"", ",", "\"", "la_sultane", "\"", ",", "\"", "l", "'", "Astree", "\"", "and", "\"", "l", "'", "Imperiale", "\"", ",", "be", "often", "more", "elaborately", "work_out", "and", ",", "in_fact", ",", "show", "a", "strong", "italian", "influence", "."]
+    oewn2026_key: [[27, "oewn-00252349-v"]]
+    paragraph: '26'
+    pos: ["DT", "NNS", ",", "``", "NNP", "''", ",", "``", "NNP", "''", ",", "''", "NNP", "''", "NNP", "``", "CC", "``", "NNP", "''", "NNP", "''", ",", "VBP", "RB", "RBR", "RB", "VB", "CC", ",", "RB", ",", "NN", "DT", "JJ", "JJ", "NN", "."]
+    text: ' The sonatas, " La_Francaise ", " La_Sultane ", " L'' Astree " and " L'' Imperiale
+  ", are often more elaborately worked_out and, in_fact, show a strong Italian influence.
+
+  '
+    tokens: [[1, 4], [5, 12], [12, 13], [14, 15], [16, 28], [29, 30], [30, 31], [32, 33], [34, 44], [45, 46], [46, 47], [48, 49], [50, 51], [51, 52], [53, 59], [60, 61], [62, 65], [66, 67], [68, 69], [69, 70], [71, 80], [81, 82], [82, 83], [84, 87], [88, 93], [94, 98], [99, 110], [111, 121], [122, 125], [125, 126], [127, 134], [134, 135], [136, 140], [141, 142], [143, 149], [150, 157], [158, 167], [167, 168]]
+    wn16_key: [[27, "work_out%2:30:01::"]]
+    wn30_key: [[27, "work_out%2:30:01::"]]
+o2Nf:
+    lemmas: ["couperin", "also", "turn_up", "along", "with", "some", "lesser-known", "contemporaries", "on", "a", "disk", "called", "Musique_Francaise_du", "18", ",", "e", "Siecle", "(", "bam", "LD", "060", ")", "."]
+    oewn2026_key: [[2, "oewn-00424655-v"]]
+    paragraph: '27'
+    pos: ["NNP", "RB", "VB", "IN", "IN", "DT", "JJ", "NNS", "IN", "DT", "NN", "JJ", "NNP", "CD", ",", "NN", "NNP", "NNP", "NNP", "NN", "CD", "CD", "."]
+    text: ' Couperin also turns_up along with some lesser-known contemporaries on a disk called
+  Musique_Francaise_du 18, e Siecle (BAM LD 060).'
+    tokens: [[1, 9], [10, 14], [15, 23], [24, 29], [30, 34], [35, 39], [40, 52], [53, 67], [68, 70], [71, 72], [73, 77], [78, 84], [85, 105], [106, 108], [108, 109], [110, 111], [112, 118], [119, 120], [120, 123], [124, 126], [127, 130], [130, 131], [131, 132]]
+    wn16_key: [[2, "turn_up%2:30:00::"]]
+    wn30_key: [[2, "turn_up%2:30:00::"]]
+qn2Z:
+    lemmas: ["Jean-Marie_LeClair", "still", "be", "remembered", "a_bit", ",", "but", "Bodin", "de", "Beismortier", ",", "Corrette", "and", "Mondonville", "be", "hardly", "household", "words", "."]
+    oewn2026_key: [[14, "oewn-02610777-v"]]
+    paragraph: '27'
+    pos: ["NNP", "RB", "VB", "JJ", "RB", ",", "CC", "NNP", "FW", "NNP", ",", "NNP", "CC", "NNP", "VBP", "RB", "NN", "NNS", "."]
+    text: ' Jean-Marie_LeClair still is remembered a_bit, but Bodin de Beismortier, Corrette
+  and Mondonville are hardly household words.'
+    tokens: [[1, 19], [20, 25], [26, 28], [29, 39], [40, 45], [45, 46], [47, 50], [51, 56], [57, 59], [60, 71], [71, 72], [73, 81], [82, 85], [86, 97], [98, 101], [102, 108], [109, 118], [119, 124], [124, 125]]
+    wn16_key: [[14, "be%2:42:03::"]]
+    wn30_key: [[14, "be%2:42:03::"]]
+r68b:
+    lemmas: ["What", "be", "interesting", "about", "these", "chamber", "works", "here", "be", "how", "they", "all", "reveal", "the", "aspect", "of", "french", "music", "that", "be", "move", "toward", "the", "rococo", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [8, "oewn-02610777-v"], [12, "oewn-02147756-v"], [20, "oewn-01854282-v"]]
+    paragraph: '27'
+    pos: ["WP", "VBZ", "JJ", "IN", "DT", "NN", "NNS", "RB", "VBZ", "WRB", "PRP", "DT", "VBP", "DT", "NN", "IN", "JJ", "NN", "WDT", "VBD", "VBG", "IN", "DT", "NN", "."]
+    text: ' What is interesting about these chamber works here is how they all reveal the aspect
+  of French music that was moving toward the rococo.
+
+  '
+    tokens: [[1, 5], [6, 8], [9, 20], [21, 26], [27, 32], [33, 40], [41, 46], [47, 51], [52, 54], [55, 58], [59, 63], [64, 67], [68, 74], [75, 78], [79, 85], [86, 88], [89, 95], [96, 101], [102, 106], [107, 110], [111, 117], [118, 124], [125, 128], [129, 135], [135, 136]]
+    wn16_key: [[1, "be%2:42:03::"], [8, "be%2:42:03::"], [12, "reveal%2:39:00::"], [20, "move%2:38:01::"]]
+    wn30_key: [[1, "be%2:42:03::"], [8, "be%2:42:03::"], [12, "reveal%2:39:00::"], [20, "move%2:38:01::"]]
+a9hz:
+    lemmas: ["The", "couperin", "\"", "la_steinkerque", "\"", ",", "with", "its", "battle", "music", ",", "brevity", ",", "wit", "and", "refined", "simplicity", ",", "already", "shake_off", "corelli", "and", "point", "towards", "the", "mid-century", "elegance", "that", "end", "the", "baroque", "era", "."]
+    oewn2026_key: [[19, "oewn-01516062-v"], [22, "oewn-00925764-v"], [28, "oewn-00353480-v"]]
+    paragraph: '28'
+    pos: ["DT", "NNP", "``", "NNP", "''", ",", "IN", "PRP$", "NN", "NN", ",", "NN", ",", "NN", "CC", "JJ", "NN", ",", "RB", "VB", "NNP", "CC", "VB", "IN", "DT", "JJ", "NNS", "WDT", "VBD", "DT", "JJ", "NN", "."]
+    text: ' The Couperin " La_Steinkerque ", with its battle music, brevity, wit and refined
+  simplicity, already shakes_off Corelli and points towards the mid-century elegances
+  that ended the baroque era.'
+    tokens: [[1, 4], [5, 13], [14, 15], [16, 30], [31, 32], [32, 33], [34, 38], [39, 42], [43, 49], [50, 55], [55, 56], [57, 64], [64, 65], [66, 69], [70, 73], [74, 81], [82, 92], [92, 93], [94, 101], [102, 112], [113, 120], [121, 124], [125, 131], [132, 139], [140, 143], [144, 155], [156, 165], [166, 170], [171, 176], [177, 180], [181, 188], [189, 192], [192, 193]]
+    wn16_key: [[19, "shake_off%2:35:00::"], [22, "point%2:32:00::"], [28, "end%2:30:01::"]]
+    wn30_key: [[19, "shake_off%2:35:00::"], [22, "point%2:32:00::"], [28, "end%2:30:01::"]]
+Fmov:
+    lemmas: ["If", "couperin", "show", "the", "fashionable", "trend", ",", "the", "other", "do", "so", "all", "the", "more", "."]
+    oewn2026_key: [[2, "oewn-02153218-v"], [9, "oewn-01716563-v"]]
+    paragraph: '28'
+    pos: ["IN", "NNP", "VBZ", "DT", "JJ", "NN", ",", "DT", "NNS", "VBP", "RB", "DT", "DT", "JJR", "."]
+    text: ' If Couperin shows the fashionable trend, the others do so all the more.
+
+  '
+    tokens: [[1, 3], [4, 12], [13, 18], [19, 22], [23, 34], [35, 40], [40, 41], [42, 45], [46, 52], [53, 55], [56, 58], [59, 62], [63, 66], [67, 71], [71, 72]]
+    wn16_key: [[2, "show%2:39:02::"], [9, "do%2:36:01::"]]
+    wn30_key: [[2, "show%2:39:02::"], [9, "do%2:36:01::"]]
+Bfr3:
+    lemmas: ["All", "these", "record", "have", "close", ",", "attractive", "sound", "and", "the", "performance", "by", "a", "variety", "of", "instrumentalist", "be", "characteristic", "."]
+    oewn2026_key: [[3, "oewn-02208144-v"], [16, "oewn-02610777-v"]]
+    paragraph: '29'
+    pos: ["PDT", "DT", "NNS", "VBP", "JJ", ",", "JJ", "NN", "CC", "DT", "NNS", "IN", "DT", "NN", "IN", "NNS", "VBZ", "JJ", "."]
+    text: ' All these records have close, attractive sound and the performances by a variety
+  of instrumentalists is characteristic.
+
+  '
+    tokens: [[1, 4], [5, 10], [11, 18], [19, 23], [24, 29], [29, 30], [31, 41], [42, 47], [48, 51], [52, 55], [56, 68], [69, 71], [72, 73], [74, 81], [82, 84], [85, 101], [102, 104], [105, 119], [119, 120]]
+    wn16_key: [[3, "have%2:40:00::"], [16, "be%2:42:03::"]]
+    wn30_key: [[3, "have%2:40:00::"], [16, "be%2:42:03::"]]
+RMxp:
+    lemmas: ["rameau", "'s", "Six", "concert", "en", "Sextuor", ",", "record", "by", "l", "'", "orchestre", "de", "chambre", "pierre_menet", "(", "bam", "LD", "046", ")", ",", "turn_out", "to", "be", "harpsichord", "piece", "arrange", "for", "strings", "apparently", "by", "the", "composer", "himself", "."]
+    oewn2026_key: [[7, "oewn-01000444-v"], [21, "oewn-02639962-v"], [23, "oewn-02610777-v"], [26, "oewn-01466592-v"]]
+    paragraph: '30'
+    pos: ["NNP", "POS", "CD", "NNPS", "IN", "NNP", ",", "VBN", "IN", "NNP", "''", "NN", "FW", "FW", "NNP", "FW", "NNP", "NN", "CD", "NN", ",", "VB", "TO", "VB", "NN", "NNS", "VBN", "IN", "NNS", "RB", "IN", "DT", "NN", "PRP", "."]
+    text: ' Rameau''s Six Concerts en Sextuor, recorded by L'' orchestre de chambre Pierre_Menet
+  (BAM LD 046), turn_out to be harpsichord pieces arranged for strings apparently
+  by the composer himself.'
+    tokens: [[1, 7], [7, 9], [10, 13], [14, 22], [23, 25], [26, 33], [33, 34], [35, 43], [44, 46], [47, 48], [48, 49], [50, 59], [60, 62], [63, 70], [71, 83], [84, 85], [85, 88], [89, 91], [92, 95], [95, 96], [96, 97], [98, 106], [107, 109], [110, 112], [113, 124], [125, 131], [132, 140], [141, 144], [145, 152], [153, 163], [164, 166], [167, 170], [171, 179], [180, 187], [187, 188]]
+    wn16_key: [[7, "record%2:32:01::"], [21, "turn_out%2:42:00::"], [23, "be%2:42:03::"], [26, "arrange%2:35:00::"]]
+    wn30_key: [[7, "record%2:32:01::"], [21, "turn_out%2:42:00::"], [23, "be%2:42:03::"], [26, "arrange%2:35:00::"]]
+TLmO:
+    lemmas: ["The", "strange", ",", "delightful", "little", "character", "piece", "with", "their", "odd", "and", "sometimes", "inexplicable", "title", "be", "still", "evocative", "and", "gracious", "."]
+    oewn2026_key: [[14, "oewn-02610777-v"]]
+    paragraph: '30'
+    pos: ["DT", "JJ", ",", "JJ", "JJ", "NN", "NNS", "IN", "PRP$", "JJ", "CC", "RB", "JJ", "NNS", "VBP", "RB", "JJ", "CC", "JJ", "."]
+    text: ' The strange, delightful little character pieces with their odd and sometimes inexplicable
+  titles are still evocative and gracious.
+
+  '
+    tokens: [[1, 4], [5, 12], [12, 13], [14, 24], [25, 31], [32, 41], [42, 48], [49, 53], [54, 59], [60, 63], [64, 67], [68, 77], [78, 90], [91, 97], [98, 101], [102, 107], [108, 117], [118, 121], [122, 130], [130, 131]]
+    wn16_key: [[14, "be%2:42:03::"]]
+    wn30_key: [[14, "be%2:42:03::"]]
+M/Am:
+    lemmas: ["maitre_allemand_des", "17", ",", "e", "et", "18", ",", "e", "siecle", "contain", "music", "by", "Pachelbel", ",", "Buxtehude", ",", "Rosenmueller", "and", "telemann", ",", "well", "performed", "by", "the", "ensemble_instrumental_sylvie_spycket", "(", "bam", "LD", "035", ")", "."]
+    oewn2026_key: [[9, "oewn-02635616-v"]]
+    paragraph: '31'
+    pos: ["NNP", "CD", ",", "NN", "FW", "CD", ",", "NN", "NNPS", "VBZ", "NN", "IN", "NNP", ",", "NNP", ",", "NNP", "CC", "NNP", ",", "RB", "JJ", "IN", "DT", "NNP", "FW", "NNP", "NN", "CD", "NN", "."]
+    text: ' Maitres_Allemands_des 17, e et 18, e Siecles contains music by Pachelbel, Buxtehude,
+  Rosenmueller and Telemann, well performed by the Ensemble_Instrumental_Sylvie_Spycket
+  (BAM LD 035).
+
+  '
+    tokens: [[1, 22], [23, 25], [25, 26], [27, 28], [29, 31], [32, 34], [34, 35], [36, 37], [38, 45], [46, 54], [55, 60], [61, 63], [64, 73], [73, 74], [75, 84], [84, 85], [86, 98], [99, 102], [103, 111], [111, 112], [113, 117], [118, 127], [128, 130], [131, 134], [135, 171], [172, 173], [173, 176], [177, 179], [180, 183], [183, 184], [184, 185]]
+    wn16_key: [[9, "contain%2:42:00::"]]
+    wn30_key: [[9, "contain%2:42:00::"]]
+C4Xn:
+    lemmas: ["rococo", "music", "-", "a_lot_of", "it", "-", "be", "play", "in", "carnegie_recital_hall", "on", "saturday", "night", "in", "the", "first", "of", "four", "concert", "be", "sponsor", "this", "season", "by", "a", "new", "organization", "known_as", "globe_concert_arts", "."]
+    oewn2026_key: [[7, "oewn-01728928-v"], [20, "oewn-02224722-v"]]
+    paragraph: '32'
+    pos: ["JJ", "NN", ":", "JJ", "PRP", ":", "VBD", "VBN", "IN", "NNP", "IN", "NNP", "NN", "IN", "DT", "NN", "IN", "CD", "NNS", "VBG", "VBN", "DT", "NN", "IN", "DT", "JJ", "NN", "JJ", "NNP", "."]
+    text: ' Rococo music - a_lot_of it - was played in Carnegie_Recital_Hall on Saturday night
+  in the first of four concerts being sponsored this season by a new organization
+  known_as Globe_Concert_Arts.
+
+  '
+    tokens: [[1, 7], [8, 13], [14, 15], [16, 24], [25, 27], [28, 29], [30, 33], [34, 40], [41, 43], [44, 65], [66, 68], [69, 77], [78, 83], [84, 86], [87, 90], [91, 96], [97, 99], [100, 104], [105, 113], [114, 119], [120, 129], [130, 134], [135, 141], [142, 144], [145, 146], [147, 150], [151, 163], [164, 172], [173, 191], [191, 192]]
+    wn16_key: [[7, "play%2:36:12::"], [20, "sponsor%2:40:00::"]]
+    wn30_key: [[7, "play%2:36:12::"], [20, "sponsor%2:40:00::"]]
+PR/d:
+    lemmas: ["works", "by", "J._C._Bach", ",", "Anton", "craft", ",", "joseph_haydn", ",", "Giuseppe_Sammartini", ",", "Comenico_Dragonetti", "and", "J._G._Janitsch", "be", "perform", "by", "seven", "instrumentalist", "include", "Anabel_Brieff", ",", "flutist", ",", "Josef_Marx", ",", "oboist", ",", "and", "robert_conant", ",", "pianist", "and", "harpsichordist", "."]
+    oewn2026_key: [[15, "oewn-01718067-v"], [19, "oewn-02639021-v"]]
+    paragraph: '33'
+    pos: ["NNP", "IN", "NNP", ",", "NNP", "NN", ",", "NN", ",", "NNP", ",", "NNP", "CC", "NNP", "VB", "VBN", "IN", "CD", "NNS", "VBG", "NNP", ",", "NN", ",", "NNP", ",", "NN", ",", "CC", "NNP", ",", "NN", "CC", "NN", "."]
+    text: ' Works by J._C._Bach, Anton Craft, Joseph_Haydn, Giuseppe_Sammartini, Comenico_Dragonetti
+  and J._G._Janitsch were performed by seven instrumentalists including Anabel_Brieff,
+  flutist, Josef_Marx, oboist, and Robert_Conant, pianist and harpsichordist.
+
+  '
+    tokens: [[1, 6], [7, 9], [10, 20], [20, 21], [22, 27], [28, 33], [33, 34], [35, 47], [47, 48], [49, 68], [68, 69], [70, 89], [90, 93], [94, 108], [109, 113], [114, 123], [124, 126], [127, 132], [133, 149], [150, 159], [160, 173], [173, 174], [175, 182], [182, 183], [184, 194], [194, 195], [196, 202], [202, 203], [204, 207], [208, 221], [221, 222], [223, 230], [231, 234], [235, 249], [249, 250]]
+    wn16_key: [[15, "perform%2:36:01::"], [19, "include%2:42:00::"]]
+    wn30_key: [[15, "perform%2:36:01::"], [19, "include%2:42:00::"]]
+wgNP:
+    lemmas: ["Since", "rococo", "music", "tend", "to", "be", "pretty", "and", "elegant", "above_all", ",", "it", "can", "seem", "rather", "vacuous", "to", "twentieth-century", "ear", "that", "have", "grow", "accustomed_to", "the", "stress", "and", "dissonance", "of", "composer", "from", "beethoven", "to", "boulez", "."]
+    oewn2026_key: [[3, "oewn-02725274-v"], [5, "oewn-02610777-v"], [13, "oewn-02137900-v"], [21, "oewn-00125649-v"]]
+    paragraph: '34'
+    pos: ["IN", "JJ", "NN", "VBZ", "VB", "VB", "RB", "CC", "JJ", "RB", ",", "PRP", "MD", "VB", "RB", "JJ", "TO", "JJ", "NNS", "WDT", "VBP", "VBN", "JJ", "DT", "NN", "CC", "NNS", "IN", "NNS", "IN", "NNP", "TO", "NNP", "."]
+    text: ' Since rococo music tends to be pretty and elegant above_all, it can seem rather
+  vacuous to twentieth-century ears that have grown accustomed_to the stress and dissonances
+  of composers from Beethoven to Boulez.
+
+  '
+    tokens: [[1, 6], [7, 13], [14, 19], [20, 25], [26, 28], [29, 31], [32, 38], [39, 42], [43, 50], [51, 60], [60, 61], [62, 64], [65, 68], [69, 73], [74, 80], [81, 88], [89, 91], [92, 109], [110, 114], [115, 119], [120, 124], [125, 130], [131, 144], [145, 148], [149, 155], [156, 159], [160, 171], [172, 174], [175, 184], [185, 189], [190, 199], [200, 202], [203, 209], [209, 210]]
+    wn16_key: [[3, "tend%2:42:00::"], [5, "be%2:42:03::"], [13, "seem%2:39:00::"], [21, "grow%2:30:03::"]]
+    wn30_key: [[3, "tend%2:42:01::"], [5, "be%2:42:03::"], [13, "seem%2:39:00::"], [21, "grow%2:30:03::"]]
+UtUH:
+    lemmas: ["thus", "there", "be", "really", "an", "excess", "of", "eighteenth-century", "charm", "as", "one", "of", "these", "light-weight", "piece", "follow", "another", "on", "saturday", "night", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"], [15, "oewn-02726024-v"]]
+    paragraph: '35'
+    pos: ["RB", "EX", "VBD", "RB", "DT", "NN", "IN", "JJ", "NN", "IN", "CD", "IN", "DT", "JJ", "NNS", "VBD", "DT", "IN", "NNP", "NN", "."]
+    text: ' Thus there was really an excess of eighteenth-century charm as one of these light-weight
+  pieces followed another on Saturday night.'
+    tokens: [[1, 5], [6, 11], [12, 15], [16, 22], [23, 25], [26, 32], [33, 35], [36, 54], [55, 60], [61, 63], [64, 67], [68, 70], [71, 76], [77, 89], [90, 96], [97, 105], [106, 113], [114, 116], [117, 125], [126, 131], [131, 132]]
+    wn16_key: [[2, "be%2:42:03::"], [15, "follow%2:42:05::"]]
+    wn30_key: [[2, "be%2:42:03::"], [15, "follow%2:42:05::"]]
+Ycee:
+    lemmas: ["Each", "might", "find", "a", "useful", "place", "in", "a", "varied", "musical", "program", ",", "but", "take", "together", "they", "grow", "quite", "tiresome", "."]
+    oewn2026_key: [[2, "oewn-02253273-v"], [13, "oewn-00736077-v"], [16, "oewn-00125649-v"]]
+    paragraph: '35'
+    pos: ["DT", "MD", "VB", "DT", "JJ", "NN", "IN", "DT", "JJ", "JJ", "NN", ",", "CC", "VBN", "RB", "PRP", "VBD", "RB", "JJ", "."]
+    text: ' Each might find a useful place in a varied musical program, but taken together they
+  grew quite tiresome.
+
+  '
+    tokens: [[1, 5], [6, 11], [12, 16], [17, 18], [19, 25], [26, 31], [32, 34], [35, 36], [37, 43], [44, 51], [52, 59], [59, 60], [61, 64], [65, 70], [71, 79], [80, 84], [85, 89], [90, 95], [96, 104], [104, 105]]
+    wn16_key: [[2, "find%2:40:02::"], [13, "take%2:31:03::"], [16, "grow%2:30:03::"]]
+    wn30_key: [[2, "find%2:40:02::"], [13, "take%2:31:03::"], [16, "grow%2:30:03::"]]
+/SwQ:
+    lemmas: ["The", "performance", "be", "variable", ",", "those", "of", "the", "full", "ensemble", "be", "generally", "satisfying", ",", "some", "by", "soloist", "proving", "rather", "trying", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"], [10, "oewn-02610777-v"]]
+    paragraph: '36'
+    pos: ["DT", "NNS", "VBD", "JJ", ",", "DT", "IN", "DT", "JJ", "NN", "VBG", "RB", "JJ", ",", "DT", "IN", "NNS", "JJ", "RB", "JJ", "."]
+    text: ' The performances were variable, those of the full ensemble being generally satisfying,
+  some by soloists proving rather trying.
+
+  '
+    tokens: [[1, 4], [5, 17], [18, 22], [23, 31], [31, 32], [33, 38], [39, 41], [42, 45], [46, 50], [51, 59], [60, 65], [66, 75], [76, 86], [86, 87], [88, 92], [93, 95], [96, 104], [105, 112], [113, 119], [120, 126], [126, 127]]
+    wn16_key: [[2, "be%2:42:03::"], [10, "be%2:42:03::"]]
+    wn30_key: [[2, "be%2:42:03::"], [10, "be%2:42:03::"]]
+C+7l:
+    lemmas: ["Ellie_Mao", ",", "soprano", ",", "and", "frederick_fuller", ",", "baritone", ",", "present", "a", "program", "of", "folksong", "entitled", "\"", "east_meet_west", "\"", "in", "carnegie_recital_hall", "last", "night", "."]
+    oewn2026_key: [[9, "oewn-02153218-v"]]
+    paragraph: '37'
+    pos: ["NNP", ",", "NN", ",", "CC", "NNP", ",", "NN", ",", "VBD", "DT", "NN", "IN", "NNS", "JJ", "``", "NNP", "''", "IN", "NNP", "JJ", "NN", "."]
+    text: ' Ellie_Mao, soprano, and Frederick_Fuller, baritone, presented a program of folksongs
+  entitled " East_Meets_West " in Carnegie_Recital_Hall last night.'
+    tokens: [[1, 10], [10, 11], [12, 19], [19, 20], [21, 24], [25, 41], [41, 42], [43, 51], [51, 52], [53, 62], [63, 64], [65, 72], [73, 75], [76, 85], [86, 94], [95, 96], [97, 112], [113, 114], [115, 117], [118, 139], [140, 144], [145, 150], [150, 151]]
+    wn16_key: [[9, "present%2:39:00::"]]
+    wn30_key: [[9, "present%2:39:00::"]]
+eW5C:
+    lemmas: ["They", "be", "accompany", "by", "anna_mi_lee", ",", "pianist", "."]
+    oewn2026_key: [[2, "oewn-01732234-v"]]
+    paragraph: '37'
+    pos: ["PRP", "VB", "VBN", "VB", "NNP", ",", "NN", "."]
+    text: ' They were accompanied by Anna_Mi_Lee, pianist.
+
+  '
+    tokens: [[1, 5], [6, 10], [11, 22], [23, 25], [26, 37], [37, 38], [39, 46], [46, 47]]
+    wn16_key: [[2, "accompany%2:36:00::"]]
+    wn30_key: [[2, "accompany%2:36:00::"]]
+qhPQ:
+    lemmas: ["selection", "from", "fifteen", "country", "be", "sing", "as", "solo", "and", "duet", "in", "a", "broad", "range", "of", "language", "."]
+    oewn2026_key: [[5, "oewn-01734912-v"]]
+    paragraph: '38'
+    pos: ["NNS", "IN", "CD", "NNS", "VBD", "VBN", "IN", "NNS", "CC", "NNS", "IN", "DT", "JJ", "NN", "IN", "NNS", "."]
+    text: ' Selections from fifteen countries were sung as solos and duets in a broad range
+  of languages.'
+    tokens: [[1, 11], [12, 16], [17, 24], [25, 34], [35, 39], [40, 44], [45, 47], [48, 53], [54, 57], [58, 63], [64, 66], [67, 68], [69, 74], [75, 80], [81, 83], [84, 93], [93, 94]]
+    wn16_key: [[5, "sing%2:36:01::"]]
+    wn30_key: [[5, "sing%2:36:01::"]]
+ot5w:
+    lemmas: ["song", "from", "china", "and", "japan", "be", "reserve", "exclusively", "for", "miss_mao", ",", "who", "be", "a", "native", "of", "china", ",", "and", "those", "of", "the_British", "isle", "be", "sing", "by", "mr._fuller", ",", "who", "be", "english", "by", "birth", "."]
+    oewn2026_key: [[6, "oewn-02219267-v"], [12, "oewn-02610777-v"], [24, "oewn-01734912-v"], [29, "oewn-02703567-v"]]
+    paragraph: '38'
+    pos: ["NNPS", "IN", "NNP", "CC", "NNP", "VBD", "VBN", "RB", "IN", "NNP", ",", "WP", "VBZ", "DT", "NN", "IN", "NNP", ",", "CC", "DT", "IN", "NN", "NNP", "VBD", "VBN", "IN", "NNP", ",", "WP", "VBZ", "NNP", "IN", "NN", "."]
+    text: ' Songs from China and Japan were reserved exclusively for Miss_Mao, who is a native
+  of China, and those of the_British Isles were sung by Mr._Fuller, who is English
+  by birth.
+
+  '
+    tokens: [[1, 6], [7, 11], [12, 17], [18, 21], [22, 27], [28, 32], [33, 41], [42, 53], [54, 57], [58, 66], [66, 67], [68, 71], [72, 74], [75, 76], [77, 83], [84, 86], [87, 92], [92, 93], [94, 97], [98, 103], [104, 106], [107, 118], [119, 124], [125, 129], [130, 134], [135, 137], [138, 148], [148, 149], [150, 153], [154, 156], [157, 164], [165, 167], [168, 173], [173, 174]]
+    wn16_key: [[6, "reserve%2:40:03::"], [12, "be%2:42:03::"], [24, "sing%2:36:01::"], [29, "be%2:42:08::"]]
+    wn30_key: [[6, "reserve%2:40:03::"], [12, "be%2:42:03::"], [24, "sing%2:36:01::"], [29, "be%2:42:08::"]]
+Mxd/:
+    lemmas: ["This", "be", "not", "a", "program", "intend", "to", "illustrate", "authentic", "folk", "style", "."]
+    oewn2026_key: [[5, "oewn-00710367-v"], [7, "oewn-01023137-v"]]
+    paragraph: '39'
+    pos: ["DT", "VBD", "RB", "DT", "NN", "VBN", "TO", "VB", "JJ", "NN", "NNS", "."]
+    text: ' This was not a program intended to illustrate authentic folk styles.'
+    tokens: [[1, 5], [6, 9], [10, 13], [14, 15], [16, 23], [24, 32], [33, 35], [36, 46], [47, 56], [57, 61], [62, 68], [68, 69]]
+    wn16_key: [[5, "intend%2:31:00::"], [7, "illustrate%2:32:00::"]]
+    wn30_key: [[5, "intend%2:31:00::"], [7, "illustrate%2:32:00::"]]
+LfOJ:
+    lemmas: ["on_the_contrary", ",", "miss_mao", "and", "mr._fuller", "choose", "many_of", "their", "arrangement", "from", "the", "works", "of", "composer", "such_as", "mendelssohn", ",", "dvorak", ",", "Canteloube", ",", "copland", "and", "britten", "."]
+    oewn2026_key: [[5, "oewn-00676526-v"]]
+    paragraph: '39'
+    pos: ["RB", ",", "NNP", "CC", "NNP", "VBD", "JJ", "PRP$", "NNS", "IN", "DT", "NNS", "IN", "NNS", "JJ", "NNP", ",", "NNP", ",", "NNP", ",", "NNP", "CC", "NNP", "."]
+    text: ' On_the_contrary, Miss_Mao and Mr._Fuller chose many_of their arrangements from the
+  works of composers such_as Mendelssohn, Dvorak, Canteloube, Copland and Britten.'
+    tokens: [[1, 16], [16, 17], [18, 26], [27, 30], [31, 41], [42, 47], [48, 55], [56, 61], [62, 74], [75, 79], [80, 83], [84, 89], [90, 92], [93, 102], [103, 110], [111, 122], [122, 123], [124, 130], [130, 131], [132, 142], [142, 143], [144, 151], [152, 155], [156, 163], [163, 164]]
+    wn16_key: [[5, "choose%2:31:00::"]]
+    wn30_key: [[5, "choose%2:31:00::"]]
+gPxV:
+    lemmas: ["Thre", "be", ",", "therefore", ",", "more", "musical", "substance", "in", "the", "concert", "than", "might", "have", "be", "the", "case", "otherwise", "."]
+    oewn2026_key: [[14, "oewn-02610777-v"]]
+    paragraph: '39'
+    pos: ["NNP", "VB", ",", "RB", ",", "RBR", "JJ", "NN", "IN", "DT", "NN", "IN", "MD", "VB", "VBN", "DT", "NN", "RB", "."]
+    text: ' Thre was, therefore, more musical substance in the concert than might have been
+  the case otherwise.'
+    tokens: [[1, 5], [6, 9], [9, 10], [11, 20], [20, 21], [22, 26], [27, 34], [35, 44], [45, 47], [48, 51], [52, 59], [60, 64], [65, 70], [71, 75], [76, 80], [81, 84], [85, 89], [90, 99], [99, 100]]
+    wn16_key: [[14, "be%2:42:03::"]]
+    wn30_key: [[14, "be%2:42:03::"]]
+4MLL:
+    lemmas: ["The", "performance", "be", "assured", ",", "communicative", "and", "pleasingly", "informal", "."]
+    oewn2026_key: []
+    paragraph: '39'
+    pos: ["DT", "NNS", "VBD", "JJ", ",", "JJ", "CC", "RB", "JJ", "."]
+    text: ' The performances were assured, communicative and pleasingly informal.
+
+  '
+    tokens: [[1, 4], [5, 17], [18, 22], [23, 30], [30, 31], [32, 45], [46, 49], [50, 60], [61, 69], [69, 70]]
+    wn16_key: []
+    wn30_key: []
+n9Nt:
+    lemmas: ["What", "be", "omit", "from", "\"", "A", "Neglected_Education", "\"", "be", "those", "essential", "known_as", "\"", "the", "fact", "of", "life", "\"", "."]
+    oewn2026_key: [[2, "oewn-00617464-v"], [8, "oewn-02610777-v"]]
+    paragraph: '40'
+    pos: ["WP", "VBD", "VBN", "IN", "``", "DT", "NNP", "''", "VBD", "DT", "NNS", "JJ", "``", "DT", "NNS", "IN", "NN", "''", "."]
+    text: ' What was omitted from " A Neglected_Education " were those essentials known_as "
+  the facts of life ".
+
+  '
+    tokens: [[1, 5], [6, 9], [10, 17], [18, 22], [23, 24], [25, 26], [27, 46], [47, 48], [49, 53], [54, 59], [60, 70], [71, 79], [80, 81], [82, 85], [86, 91], [92, 94], [95, 99], [100, 101], [101, 102]]
+    wn16_key: [[2, "omit%2:31:01::"], [8, "be%2:42:03::"]]
+    wn30_key: [[2, "omit%2:31:01::"], [8, "be%2:42:03::"]]
+6qi3:
+    lemmas: ["Chabrier", "'s", "little", "one-act", "operetta", ",", "present", "yesterday", "afternoon", "at", "town_hall", ",", "be", "a", "fragile", ",", "precious", "little", "piece", ",", "very", "french", ",", "not", "without", "wit", "and", "charm", "."]
+    oewn2026_key: [[6, "oewn-02153218-v"], [12, "oewn-02610777-v"]]
+    paragraph: '41'
+    pos: ["NNP", "POS", "JJ", "JJ", "NN", ",", "VBN", "NN", "NN", "IN", "NN", ",", "VBZ", "DT", "JJ", ",", "JJ", "JJ", "NN", ",", "RB", "JJ", ",", "RB", "IN", "NN", "CC", "NN", "."]
+    text: ' Chabrier''s little one-act operetta, presented yesterday afternoon at Town_Hall,
+  is a fragile, precious little piece, very French, not without wit and charm.'
+    tokens: [[1, 9], [9, 11], [12, 18], [19, 26], [27, 35], [35, 36], [37, 46], [47, 56], [57, 66], [67, 69], [70, 79], [79, 80], [81, 83], [84, 85], [86, 93], [93, 94], [95, 103], [104, 110], [111, 116], [116, 117], [118, 122], [123, 129], [129, 130], [131, 134], [135, 142], [143, 146], [147, 150], [151, 156], [156, 157]]
+    wn16_key: [[6, "present%2:39:00::"], [12, "be%2:42:03::"]]
+    wn30_key: [[6, "present%2:39:00::"], [12, "be%2:42:03::"]]
+7Fz/:
+    lemmas: ["The", "poor", "uneducated", "newlywed", ",", "a", "certain", "Gontran", "de", "Boismassif", ",", "have", "his", "problem", "in", "get", "the", "necessary", "information", "."]
+    oewn2026_key: [[11, "oewn-02208144-v"], [15, "oewn-02215637-v"]]
+    paragraph: '41'
+    pos: ["DT", "JJ", "JJ", "NN", ",", "DT", "JJ", "NNP", "FW", "NNP", ",", "VBZ", "PRP$", "NNS", "IN", "VBG", "DT", "JJ", "NN", "."]
+    text: ' The poor uneducated newlywed, a certain Gontran de Boismassif, has his problems
+  in getting the necessary information.'
+    tokens: [[1, 4], [5, 9], [10, 20], [21, 29], [29, 30], [31, 32], [33, 40], [41, 48], [49, 51], [52, 62], [62, 63], [64, 67], [68, 71], [72, 80], [81, 83], [84, 91], [92, 95], [96, 105], [106, 117], [117, 118]]
+    wn16_key: [[11, "have%2:40:00::"], [15, "get%2:40:00::"]]
+    wn30_key: [[11, "have%2:40:00::"], [15, "get%2:40:00::"]]
+pSWV:
+    lemmas: ["The", "humor", "of", "the", "situation", "can", "be", "imagine", "."]
+    oewn2026_key: [[7, "oewn-01639939-v"]]
+    paragraph: '41'
+    pos: ["DT", "NN", "IN", "DT", "NN", "MD", "VB", "VBN", "."]
+    text: ' The humor of the situation can be imagined.
+
+  '
+    tokens: [[1, 4], [5, 10], [11, 13], [14, 17], [18, 27], [28, 31], [32, 34], [35, 43], [43, 44]]
+    wn16_key: [[7, "imagine%2:36:00::"]]
+    wn30_key: [[7, "imagine%2:36:00::"]]
+OsCi:
+    lemmas: ["It", "all", "take_place", "in", "the", "eighteenth", "century", "."]
+    oewn2026_key: [[2, "oewn-00340744-v"]]
+    paragraph: '42'
+    pos: ["PRP", "DT", "VB", "IN", "DT", "JJ", "NN", "."]
+    text: ' It all takes_place in the eighteenth century.'
+    tokens: [[1, 3], [4, 7], [8, 19], [20, 22], [23, 26], [27, 37], [38, 45], [45, 46]]
+    wn16_key: [[2, "take_place%2:30:00::"]]
+    wn30_key: [[2, "take_place%2:30:00::"]]
+gBIm:
+    lemmas: ["What", "a", "silly", ",", "artificial", "way_of_life", ",", "Chabrier", "and", "his", "librettist", "chuckle", "."]
+    oewn2026_key: [[11, "oewn-00031656-v"]]
+    paragraph: '42'
+    pos: ["WP", "DT", "JJ", ",", "JJ", "NN", ",", "NNP", "CC", "PRP$", "NNS", "VBP", "."]
+    text: ' What a silly, artificial way_of_life, Chabrier and his librettists chuckle.'
+    tokens: [[1, 5], [6, 7], [8, 13], [13, 14], [15, 25], [26, 37], [37, 38], [39, 47], [48, 51], [52, 55], [56, 67], [68, 75], [75, 76]]
+    wn16_key: [[11, "chuckle%2:29:00::"]]
+    wn30_key: [[11, "chuckle%2:29:00::"]]
+269F:
+    lemmas: ["But", "they", "wish", "they", "could", "bring", "it", "back", "."]
+    oewn2026_key: [[2, "oewn-00905166-v"], [5, "oewn-01441539-v"]]
+    paragraph: '42'
+    pos: ["CC", "PRP", "VBP", "PRP", "MD", "VB", "PRP", "RB", "."]
+    text: ' But they wish they could bring it back.
+
+  '
+    tokens: [[1, 4], [5, 9], [10, 14], [15, 19], [20, 25], [26, 31], [32, 34], [35, 39], [39, 40]]
+    wn16_key: [[2, "wish%2:32:02::"], [5, "bring%2:35:04::"]]
+    wn30_key: [[2, "wish%2:32:02::"], [5, "bring%2:35:04::"]]
+ukxB:
+    lemmas: ["Chabrier", "'s", "delightful", "music", "stand", "just", "at", "the", "point", "where", "the", "classical", ",", "rationalist", "tradition", ",", "(", "hand_down", "to", "Chabrier", "largely", "in", "the", "form", "of", "operetta", "and", "salon", "music", ")", "become", "virtually", "neo-classicism", "."]
+    oewn2026_key: [[4, "oewn-02617408-v"], [17, "oewn-02235397-v"], [30, "oewn-02632685-v"]]
+    paragraph: '43'
+    pos: ["NNP", "POS", "JJ", "NN", "VBZ", "RB", "IN", "DT", "NN", "WRB", "DT", "JJ", ",", "JJ", "NN", ",", "NNP", "VB", "TO", "NNP", "RB", "IN", "DT", "NN", "IN", "NN", "CC", "NN", "NN", "NN", "VBZ", "RB", "NN", "."]
+    text: ' Chabrier''s delightful music stands just at the point where the classical, rationalist
+  tradition, (handed_down to Chabrier largely in the form of operetta and salon music)
+  becomes virtually neo-classicism.'
+    tokens: [[1, 9], [9, 11], [12, 22], [23, 28], [29, 35], [36, 40], [41, 43], [44, 47], [48, 53], [54, 59], [60, 63], [64, 73], [73, 74], [75, 86], [87, 96], [96, 97], [98, 99], [99, 110], [111, 113], [114, 122], [123, 130], [131, 133], [134, 137], [138, 142], [143, 145], [146, 154], [155, 158], [159, 164], [165, 170], [170, 171], [172, 179], [180, 189], [190, 204], [204, 205]]
+    wn16_key: [[4, "stand%2:42:04::"], [17, "hand_down%2:40:00::"], [30, "become%2:42:01::"]]
+    wn30_key: [[4, "stand%2:42:04::"], [17, "hand_down%2:40:00::"], [30, "become%2:42:01::"]]
+m+nx:
+    lemmas: ["The", "musical", "cleverness", "and", "spirit", "plus", "a", "strong", "sense_of_taste", "and", "measure", "save", "a", "wry", "little", "joke", "from", "become", "either", "bawdy", "or", "mawkish", "."]
+    oewn2026_key: [[17, "oewn-02632685-v"]]
+    paragraph: '43'
+    pos: ["DT", "JJ", "NN", "CC", "NN", "CC", "DT", "JJ", "NN", "CC", "NN", "VB", "DT", "JJ", "JJ", "NN", "IN", "VBG", "DT", "JJ", "CC", "JJ", "."]
+    text: ' The musical cleverness and spirit plus a strong sense_of_taste and measure save
+  a wry little joke from becoming either bawdy or mawkish.
+
+  '
+    tokens: [[1, 4], [5, 12], [13, 23], [24, 27], [28, 34], [35, 39], [40, 41], [42, 48], [49, 63], [64, 67], [68, 75], [76, 80], [81, 82], [83, 86], [87, 93], [94, 98], [99, 103], [104, 112], [113, 119], [120, 125], [126, 128], [129, 136], [136, 137]]
+    wn16_key: [[17, "become%2:42:01::"]]
+    wn30_key: [[17, "become%2:42:01::"]]
+Bqun:
+    lemmas: ["The", "simple", ",", "clever", "production", "be", "also", "able", "to", "tread", "the", "thin", "line", "between", "those", "extreme", "."]
+    oewn2026_key: [[5, "oewn-02610777-v"], [9, "oewn-01222431-v"]]
+    paragraph: '44'
+    pos: ["DT", "JJ", ",", "JJ", "NN", "VBD", "RB", "JJ", "TO", "VB", "DT", "JJ", "NN", "IN", "DT", "NNS", "."]
+    text: ' The simple, clever production was also able to tread the thin line between those
+  extremes.'
+    tokens: [[1, 4], [5, 11], [11, 12], [13, 19], [20, 30], [31, 34], [35, 39], [40, 44], [45, 47], [48, 53], [54, 57], [58, 62], [63, 67], [68, 75], [76, 81], [82, 90], [90, 91]]
+    wn16_key: [[5, "be%2:42:03::"], [9, "tread%2:35:01::"]]
+    wn30_key: [[5, "be%2:42:03::"], [9, "tread%2:35:01::"]]
+igdo:
+    lemmas: ["Arlene_Saunders", "be", "charming", "as", "poor", "Gontran", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"]]
+    paragraph: '44'
+    pos: ["NNP", "VBD", "JJ", "IN", "JJ", "NNP", "."]
+    text: ' Arlene_Saunders was charming as poor Gontran.'
+    tokens: [[1, 16], [17, 20], [21, 29], [30, 32], [33, 37], [38, 45], [45, 46]]
+    wn16_key: [[1, "be%2:42:03::"]]
+    wn30_key: [[1, "be%2:42:03::"]]
+rNpU:
+    lemmas: ["Yes", ",", "Arlene", "be", "her", "name", ";", "the", "work", "use", "the", "old", "eighteenth-century", "tradition", "of", "give", "the", "part", "of", "a", "young", "inexperienced", "youth", "to", "a", "soprano", "."]
+    oewn2026_key: [[3, "oewn-02610777-v"], [9, "oewn-01161188-v"], [15, "oewn-02344167-v"]]
+    paragraph: '44'
+    pos: ["UH", ",", "NNP", "VBZ", "PRP$", "NN", ":", "DT", "NN", "VBZ", "DT", "JJ", "JJ", "NN", "IN", "VBG", "DT", "NN", "IN", "DT", "JJ", "JJ", "NN", "TO", "DT", "NN", "."]
+    text: ' Yes, Arlene is her name; the work uses the old eighteenth-century tradition of giving
+  the part of a young inexperienced youth to a soprano.'
+    tokens: [[1, 4], [4, 5], [6, 12], [13, 15], [16, 19], [20, 24], [24, 25], [26, 29], [30, 34], [35, 39], [40, 43], [44, 47], [48, 66], [67, 76], [77, 79], [80, 86], [87, 90], [91, 95], [96, 98], [99, 100], [101, 106], [107, 120], [121, 126], [127, 129], [130, 131], [132, 139], [139, 140]]
+    wn16_key: [[3, "be%2:42:03::"], [9, "use%2:34:01::"], [15, "give%2:40:05::"]]
+    wn30_key: [[3, "be%2:42:03::"], [9, "use%2:34:01::"], [15, "give%2:40:05::"]]
+h8tg:
+    lemmas: ["Benita_Valente", "be", "delightful", "as", "the", "young", "wife", "and", "john_parella", "be", "amusing", "as", "the", "tutor", "who", "fail", "to", "do", "all", "his", "tutoring", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [9, "oewn-02610777-v"], [15, "oewn-02534950-v"], [17, "oewn-02566500-v"]]
+    paragraph: '44'
+    pos: ["NNP", "VBD", "JJ", "IN", "DT", "JJ", "NN", "CC", "NNP", "VBD", "JJ", "IN", "DT", "NN", "WP", "VBD", "TO", "VB", "DT", "PRP$", "NN", "."]
+    text: ' Benita_Valente was delightful as the young wife and John_Parella was amusing as
+  the tutor who failed to do all his tutoring.
+
+  '
+    tokens: [[1, 15], [16, 19], [20, 30], [31, 33], [34, 37], [38, 43], [44, 48], [49, 52], [53, 65], [66, 69], [70, 77], [78, 80], [81, 84], [85, 90], [91, 94], [95, 101], [102, 104], [105, 107], [108, 111], [112, 115], [116, 124], [124, 125]]
+    wn16_key: [[1, "be%2:42:03::"], [9, "be%2:42:03::"], [15, "fail%2:41:02::"], [17, "do%2:41:01::"]]
+    wn30_key: [[1, "be%2:42:03::"], [9, "be%2:42:03::"], [15, "fail%2:41:02::"], [17, "do%2:41:01::"]]
+/mIG:
+    lemmas: ["The", "work", "be", "present", "as", "the", "final", "event", "in", "the", "town_hall", "festival", "of", "music", "."]
+    oewn2026_key: [[3, "oewn-02153218-v"]]
+    paragraph: '45'
+    pos: ["DT", "NN", "VB", "VBN", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "NNP", "IN", "NNP", "."]
+    text: ' The work was presented as the final event in the Town_Hall Festival of Music.'
+    tokens: [[1, 4], [5, 9], [10, 13], [14, 23], [24, 26], [27, 30], [31, 36], [37, 42], [43, 45], [46, 49], [50, 59], [60, 68], [69, 71], [72, 77], [77, 78]]
+    wn16_key: [[3, "present%2:39:00::"]]
+    wn30_key: [[3, "present%2:39:00::"]]
+DyHj:
+    lemmas: ["It", "be", "pair", "with", "a", "darius_milhaud", "opera", ",", "\"", "The", "poor_sailor", "\"", ",", "set_to", "a", "libretto", "by", "jean_cocteau", ",", "a", "kind_of", "grand_guignol", "by", "the", "sea", ",", "a", "sailor", "return", ",", "unrecognized", ",", "and", "get", "do_in", "by", "his", "wife", "."]
+    oewn2026_key: [[2, "oewn-02496079-v"], [28, "oewn-02008888-v"], [33, "oewn-00149403-v"], [34, "oewn-01329983-v"]]
+    paragraph: '45'
+    pos: ["PRP", "VBD", "VBN", "IN", "DT", "NNP", "NN", ",", "``", "DT", "NNP", "''", ",", "JJ", "DT", "NN", "IN", "NNP", ",", "DT", "RB", "NNP", "IN", "DT", "NN", ",", "DT", "NN", "VB", ",", "JJ", ",", "CC", "VBZ", "VB", "IN", "PRP$", "NN", "."]
+    text: ' It was paired with a Darius_Milhaud opera, " The Poor_Sailor ", set_to a libretto
+  by Jean_Cocteau, a kind_of Grand_Guignol by the sea, a sailor returns, unrecognized,
+  and gets done_in by his wife.
+
+  '
+    tokens: [[1, 3], [4, 7], [8, 14], [15, 19], [20, 21], [22, 36], [37, 42], [42, 43], [44, 45], [46, 49], [50, 61], [62, 63], [63, 64], [65, 71], [72, 73], [74, 82], [83, 85], [86, 98], [98, 99], [100, 101], [102, 109], [110, 123], [124, 126], [127, 130], [131, 134], [134, 135], [136, 137], [138, 144], [145, 152], [152, 153], [154, 166], [166, 167], [168, 171], [172, 176], [177, 184], [185, 187], [188, 191], [192, 196], [196, 197]]
+    wn16_key: [[2, "pair%2:41:00::"], [28, "return%2:38:00::"], [33, "get%2:30:00::"], [34, "do_in%2:35:00::"]]
+    wn30_key: [[2, "pair%2:41:00::"], [28, "return%2:38:00::"], [33, "get%2:30:00::"], [34, "do_in%2:35:00::"]]
++ADF:
+    lemmas: ["With", "the", "exception", "of", "a_few", "spots", ",", "milhaud", "'s", "music", "mostly", "churn", "away", "with", "his", "usual", "collection", "of", "ditty", ",", "odd", "harmony", ",", "and", "lumbering", ",", "satiric", "orchestration", "."]
+    oewn2026_key: [[11, "oewn-01421043-v"]]
+    paragraph: '46'
+    pos: ["IN", "DT", "NN", "IN", "JJ", "NNS", ",", "NNP", "POS", "NN", "RB", "VBZ", "RB", "IN", "PRP$", "JJ", "NN", "IN", "NNS", ",", "JJ", "NNS", ",", "CC", "JJ", ",", "JJ", "NN", "."]
+    text: ' With the exception of a_few spots, Milhaud''s music mostly churns away with his
+  usual collection of ditties, odd harmonies, and lumbering, satiric orchestration.
+
+  '
+    tokens: [[1, 5], [6, 9], [10, 19], [20, 22], [23, 28], [29, 34], [34, 35], [36, 43], [43, 45], [46, 51], [52, 58], [59, 65], [66, 70], [71, 75], [76, 79], [80, 85], [86, 96], [97, 99], [100, 107], [107, 108], [109, 112], [113, 122], [122, 123], [124, 127], [128, 137], [137, 138], [139, 146], [147, 160], [160, 161]]
+    wn16_key: [[11, "churn%2:35:00::"]]
+    wn30_key: [[11, "churn%2:35:00::"]]

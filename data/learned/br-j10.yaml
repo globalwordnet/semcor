@@ -1,0 +1,967 @@
+_meta:
+    lemmas:
+        type: seq
+        base: tokens
+        data: string
+    oewn2026_key:
+        type: element
+        base: tokens
+        data: string
+    paragraph:
+        type: characters
+    pos:
+        type: seq
+        base: tokens
+        data: string
+    text:
+        type: characters
+    tokens:
+        type: span
+        base: text
+    wn16_key:
+        type: element
+        base: tokens
+        data: string
+    wn30_key:
+        type: element
+        base: tokens
+        data: string
+LEqQ:
+    lemmas: ["apart", "from", "the", "honeybee", ",", "practically", "all", "bee", "and", "bumblebee", "hibernate", "in", "a", "state", "of", "torpor", "."]
+    oewn2026_key: [[0, "oewn-00182242-r"], [3, "oewn-02210932-n"], [5, "oewn-00054282-r"], [7, "oewn-02209508-n"], [9, "oewn-02212276-n"], [10, "oewn-00015939-v"], [13, "oewn-00024900-n"], [15, "oewn-14038092-n"]]
+    paragraph: '0'
+    pos: ["RB", "IN", "DT", "NN", ",", "RB", "DT", "NNS", "CC", "NNS", "VBP", "IN", "DT", "NN", "IN", "NN", "."]
+    text: Apart from the honeybee, practically all bees and bumblebees hibernate in a state
+      of torpor.
+    tokens: [[0, 5], [6, 10], [11, 14], [15, 23], [23, 24], [25, 36], [37, 40], [41, 45], [46, 49], [50, 60], [61, 70], [71, 73], [74, 75], [76, 81], [82, 84], [85, 91], [91, 92]]
+    wn16_key: [[0, "apart%4:02:01::"], [3, "honeybee%1:05:00::"], [5, "practically%4:02:00::"], [7, "bee%1:05:00::"], [9, "bumblebee%1:05:00::"], [10, "hibernate%2:29:00::"], [13, "state%1:03:00::"], [15, "torpor%1:26:00::"]]
+    wn30_key: [[0, "apart%4:02:01::"], [3, "honeybee%1:05:00::"], [5, "practically%4:02:00::"], [7, "bee%1:05:00::"], [9, "bumblebee%1:05:00::"], [10, "hibernate%2:29:00::"], [13, "state%1:03:00::"], [15, "torpor%1:26:00::"]]
+M5L0:
+    lemmas: ["occasionally", ",", "you", "may", "come_across", "one", "or", "two", "bumblebee", "in", "the", "cold", "season", ",", "when", "you", "be", "turn_over", "sod", "in", "your", "garden", ",", "but", "you", "have_to", "be", "a", "really", "keen", "observer", "to", "see", "them", "at_all", "."]
+    oewn2026_key: [[0, "oewn-00021667-r"], [4, "oewn-02291532-v"], [5, "oewn-02193977-s"], [7, "oewn-02194109-s"], [8, "oewn-02212276-n"], [11, "oewn-01254201-a"], [12, "oewn-15261272-n"], [17, "oewn-01312361-v"], [18, "oewn-09487049-n"], [21, "oewn-03422255-n"], [26, "oewn-02610777-v"], [28, "oewn-00037620-r"], [29, "oewn-01748764-s"], [30, "oewn-09649777-n"], [32, "oewn-02133754-v"], [34, "oewn-00057267-r"]]
+    paragraph: '0'
+    pos: ["RB", ",", "PRP", "MD", "VB", "JJ", "CC", "JJ", "NNS", "IN", "DT", "JJ", "NN", ",", "WRB", "PRP", "VBP", "VB", "NNS", "IN", "PRP$", "NN", ",", "CC", "PRP", "VB", "VB", "DT", "RB", "JJ", "NN", "TO", "VB", "PRP", "RB", "."]
+    text: ' Occasionally, you may come_across one or two bumblebees in the cold season, when
+  you are turning_over sods in your garden, but you have_to be a really keen observer
+  to see them at_all.'
+    tokens: [[1, 13], [13, 14], [15, 18], [19, 22], [23, 34], [35, 38], [39, 41], [42, 45], [46, 56], [57, 59], [60, 63], [64, 68], [69, 75], [75, 76], [77, 81], [82, 85], [86, 89], [90, 102], [103, 107], [108, 110], [111, 115], [116, 122], [122, 123], [124, 127], [128, 131], [132, 139], [140, 142], [143, 144], [145, 151], [152, 156], [157, 165], [166, 168], [169, 172], [173, 177], [178, 184], [184, 185]]
+    wn16_key: [[0, "occasionally%4:02:00::"], [4, "come_across%2:40:02::"], [5, "one%5:00:00:cardinal:00"], [7, "two%5:00:00:cardinal:00"], [8, "bumblebee%1:05:00::"], [11, "cold%3:00:01::"], [12, "season%1:28:00::"], [17, "turn_over%2:35:00::"], [18, "sod%1:17:00::"], [21, "garden%1:06:00::"], [26, "be%2:42:03::"], [28, "really%4:02:03::"], [29, "keen%5:00:00:perceptive:00"], [30, "observer%1:18:00::"], [32, "see%2:39:00::"], [34, "at_all%4:02:00::"]]
+    wn30_key: [[0, "occasionally%4:02:00::"], [4, "come_across%2:40:02::"], [5, "one%3:00:00:cardinal:00"], [7, "two%3:00:00:cardinal:00"], [8, "bumblebee%1:05:00::"], [11, "cold%3:00:01::"], [12, "season%1:28:00::"], [17, "turn_over%2:35:00::"], [18, "sod%1:17:00::"], [21, "garden%1:06:00::"], [26, "be%2:42:03::"], [28, "really%4:02:03::"], [29, "keen%3:00:00:perceptive:00"], [30, "observer%1:18:00::"], [32, "see%2:39:00::"], [34, "at_all%4:02:00::"]]
+/XsA:
+    lemmas: ["They", "keep", "their", "wing", "and", "foot", "press", "tightly", "against", "their", "body", ",", "and", "in_spite_of", "their", "often", "colorful", "attire", "you", "may", "very", "well", "mistake", "them", "for", "lump", "of", "dirt", "."]
+    oewn2026_key: [[1, "oewn-02687605-v"], [3, "oewn-02154277-n"], [5, "oewn-02324865-n"], [6, "oewn-01449876-v"], [7, "oewn-00301391-r"], [10, "oewn-05223633-n"], [15, "oewn-00035445-r"], [16, "oewn-00403480-a"], [17, "oewn-02759103-n"], [20, "oewn-00032295-r"], [21, "oewn-00012993-r"], [25, "oewn-07977630-n"], [27, "oewn-14868863-n"]]
+    paragraph: '0'
+    pos: ["PRP", "VBP", "PRP$", "NNS", "CC", "NNS", "VBN", "RB", "IN", "PRP$", "NNS", ",", "CC", "RB", "PRP$", "RB", "JJ", "NN", "PRP", "MD", "RB", "RB", "VB", "PRP", "IN", "NNS", "IN", "NN", "."]
+    text: ' They keep their wings and feet pressed tightly against their bodies, and in_spite_of
+  their often colorful attire you may very well mistake them for lumps of dirt.'
+    tokens: [[1, 5], [6, 10], [11, 16], [17, 22], [23, 26], [27, 31], [32, 39], [40, 47], [48, 55], [56, 61], [62, 68], [68, 69], [70, 73], [74, 85], [86, 91], [92, 97], [98, 106], [107, 113], [114, 117], [118, 121], [122, 126], [127, 131], [132, 139], [140, 144], [145, 148], [149, 154], [155, 157], [158, 162], [162, 163]]
+    wn16_key: [[1, "keep%2:42:00::"], [3, "wing%1:05:00::"], [5, "foot%1:05:00::"], [6, "press%2:35:00::"], [7, "tightly%4:02:02::"], [10, "body%1:08:00::"], [15, "often%4:02:00::"], [16, "colorful%3:00:00::"], [17, "attire%1:06:00::"], [20, "very%4:02:00::"], [21, "well%4:02:03::"], [22, "mistake%2:31:00::"], [25, "lump%1:14:00::"], [27, "dirt%1:27:01::"]]
+    wn30_key: [[1, "keep%2:42:00::"], [3, "wing%1:05:00::"], [5, "foot%1:05:00::"], [6, "press%2:35:00::"], [7, "tightly%4:02:02::"], [10, "body%1:08:00::"], [15, "often%4:02:00::"], [16, "colorful%3:00:00::"], [17, "attire%1:06:00::"], [20, "very%4:02:00::"], [21, "well%4:02:03::"], [25, "lump%1:14:00::"], [27, "dirt%1:27:01::"]]
+9YgJ:
+    lemmas: ["I", "must", "add", "at_once", "that", "these", "animal", "be", "what", "we", "call", "\"", "queen", "\"", ",", "young", "female", "that", "have", "mate", "in", "the", "previous", "summer", "or", "autumn", "."]
+    oewn2026_key: [[2, "oewn-01029183-v"], [3, "oewn-00049277-r"], [6, "oewn-00015568-n"], [7, "oewn-02622439-v"], [10, "oewn-01030757-v"], [12, "oewn-02315660-n"], [15, "oewn-01651383-a"], [16, "oewn-01323363-n"], [19, "oewn-01431486-v"], [22, "oewn-00128009-s"], [23, "oewn-15262047-n"], [25, "oewn-15261656-n"]]
+    paragraph: '0'
+    pos: ["PRP", "MD", "VB", "RB", "IN", "DT", "NNS", "VBP", "WP", "PRP", "VBP", "``", "NNS", "''", ",", "JJ", "NNS", "WDT", "VBP", "VBN", "IN", "DT", "JJ", "NN", "CC", "NN", "."]
+    text: ' I must add at_once that these animals are what we call " queens ", young females
+  that have mated in the previous summer or autumn.'
+    tokens: [[1, 2], [3, 7], [8, 11], [12, 19], [20, 24], [25, 30], [31, 38], [39, 42], [43, 47], [48, 50], [51, 55], [56, 57], [58, 64], [65, 66], [66, 67], [68, 73], [74, 81], [82, 86], [87, 91], [92, 97], [98, 100], [101, 104], [105, 113], [114, 120], [121, 123], [124, 130], [130, 131]]
+    wn16_key: [[2, "add%2:32:01::"], [3, "at_once%4:02:00::"], [6, "animal%1:03:00::"], [7, "be%2:42:06::"], [10, "call%2:32:02::"], [12, "queen%1:05:01::"], [15, "young%3:00:00::"], [16, "female%1:05:00::"], [19, "mate%2:35:00::"], [22, "previous%5:00:00:preceding(a):00"], [23, "summer%1:28:00::"], [25, "autumn%1:28:00::"]]
+    wn30_key: [[2, "add%2:32:01::"], [3, "at_once%4:02:00::"], [6, "animal%1:03:00::"], [7, "be%2:42:06::"], [10, "call%2:32:02::"], [12, "queen%1:05:01::"], [15, "young%3:00:00::"], [16, "female%1:05:00::"], [19, "mate%2:35:00::"], [22, "previous%3:00:00:preceding:00"], [23, "summer%1:28:00::"], [25, "autumn%1:28:00::"]]
+jEqv:
+    lemmas: ["It", "be", "on", "them", "alone", "that", "the", "future", "of", "their", "race", "depend_on", ",", "for", "all", "their", "relative", "(", "mother", ",", "husband", ",", "brother", ",", "and", "unmated", "sister", ")", "have", "perish", "with", "the", "arrival", "of", "the", "cold_weather", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [4, "oewn-00009062-r"], [7, "oewn-15146567-n"], [10, "oewn-08127614-n"], [11, "oewn-02717862-v"], [16, "oewn-01330943-n"], [18, "oewn-10352098-n"], [20, "oewn-10213586-n"], [22, "oewn-09895920-n"], [25, "oewn-01486450-a"], [26, "oewn-10622393-n"], [29, "oewn-00359085-v"], [32, "oewn-00048966-n"], [35, "oewn-11460108-n"]]
+    paragraph: '0'
+    pos: ["PRP", "VBZ", "IN", "PRP", "RB", "IN", "DT", "NN", "IN", "PRP$", "NN", "VBZ", ",", "IN", "DT", "PRP$", "NNS", "CD", "NNS", ",", "NNS", ",", "NNS", ",", "CC", "JJ", "NNS", "RB", "VBP", "VBN", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+    text: ' It is on them alone that the future of their race depends, for all their relatives
+  (mothers, husbands, brothers, and unmated sisters) have perished with the arrival
+  of the cold_weather.'
+    tokens: [[1, 3], [4, 6], [7, 9], [10, 14], [15, 20], [21, 25], [26, 29], [30, 36], [37, 39], [40, 45], [46, 50], [51, 58], [58, 59], [60, 63], [64, 67], [68, 73], [74, 83], [84, 85], [85, 92], [92, 93], [94, 102], [102, 103], [104, 112], [112, 113], [114, 117], [118, 125], [126, 133], [133, 134], [135, 139], [140, 148], [149, 153], [154, 157], [158, 165], [166, 168], [169, 172], [173, 185], [185, 186]]
+    wn16_key: [[1, "be%2:42:03::"], [4, "alone%4:02:00::"], [7, "future%1:28:00::"], [10, "race%1:14:01::"], [11, "depend_on%2:42:00::"], [16, "relative%1:05:00::"], [18, "mother%1:18:00::"], [20, "husband%1:18:00::"], [22, "brother%1:18:00::"], [25, "unmated%3:00:00::"], [26, "sister%1:18:00::"], [29, "perish%2:30:00::"], [32, "arrival%1:04:00::"], [35, "cold_weather%1:19:00::"]]
+    wn30_key: [[1, "be%2:42:03::"], [4, "alone%4:02:00::"], [7, "future%1:28:00::"], [10, "race%1:14:01::"], [11, "depend_on%2:42:00::"], [16, "relative%1:05:00::"], [18, "mother%1:18:00::"], [20, "husband%1:18:00::"], [22, "brother%1:18:00::"], [25, "unmated%3:00:00::"], [26, "sister%1:18:00::"], [29, "perish%2:30:00::"], [32, "arrival%1:04:00::"], [35, "cold_weather%1:19:00::"]]
+7nmk:
+    lemmas: ["even", "some", "of", "the", "queen", "will", "die", "before", "the", "winter", "be", "over", ",", "fall", "prey", "to", "enemy", "or", "disease", "."]
+    oewn2026_key: [[0, "oewn-00017907-r"], [1, "oewn-02275064-a"], [4, "oewn-02315660-n"], [6, "oewn-00359085-v"], [7, "oewn-00061477-r"], [9, "oewn-15262579-n"], [10, "oewn-02610777-v"], [11, "oewn-01006696-s"], [13, "oewn-00147635-v"], [14, "oewn-10490045-n"], [16, "oewn-10075655-n"], [18, "oewn-14093842-n"]]
+    paragraph: '0'
+    pos: ["RB", "JJ", "IN", "DT", "NNS", "MD", "VB", "RB", "DT", "NN", "VBZ", "JJ", ",", "VBG", "NN", "TO", "NNS", "CC", "NN", "."]
+    text: ' Even some of the queens will die before the winter is over, falling prey to enemies
+  or disease.'
+    tokens: [[1, 5], [6, 10], [11, 13], [14, 17], [18, 24], [25, 29], [30, 33], [34, 40], [41, 44], [45, 51], [52, 54], [55, 59], [59, 60], [61, 68], [69, 73], [74, 76], [77, 84], [85, 87], [88, 95], [95, 96]]
+    wn16_key: [[0, "even%4:02:00::"], [1, "some%3:00:00::"], [4, "queen%1:05:01::"], [6, "die%2:30:00::"], [7, "before%4:02:03::"], [9, "winter%1:28:00::"], [10, "be%2:42:03::"], [11, "over%5:00:01:finished:01"], [13, "fall%2:30:08::"], [14, "prey%1:18:00::"], [16, "enemy%1:18:00::"], [18, "disease%1:26:00::"]]
+    wn30_key: [[0, "even%4:02:00::"], [1, "some%3:00:00::"], [4, "queen%1:05:01::"], [6, "die%2:30:00::"], [7, "before%4:02:03::"], [9, "winter%1:28:00::"], [10, "be%2:42:03::"], [11, "over%3:00:01:finished:01"], [13, "fall%2:30:08::"], [14, "prey%1:18:00::"], [16, "enemy%1:18:00::"], [18, "disease%1:26:00::"]]
+OLBr:
+    lemmas: ["The", "survivor", "emerge", "on", "some", "nice", ",", "sunny", "day", "in", "march", "or", "april", ",", "when", "the", "temperature", "be", "close", "to", "50", "'", "f", "and", "there", "be", "not", "too_much", "wind", "."]
+    oewn2026_key: [[1, "oewn-01326783-n"], [2, "oewn-00424924-v"], [5, "oewn-01590750-a"], [8, "oewn-15182185-n"], [10, "oewn-15235666-n"], [12, "oewn-15235985-n"], [16, "oewn-05018974-n"], [17, "oewn-02610777-v"], [18, "oewn-00446553-a"], [20, "oewn-02198871-s"], [22, "oewn-13736746-n"], [25, "oewn-02610777-v"], [26, "oewn-00024432-r"], [28, "oewn-11546388-n"]]
+    paragraph: '0'
+    pos: ["DT", "NNS", "VBP", "IN", "DT", "JJ", ",", "JJ", "NN", "IN", "NNP", "CC", "NNP", ",", "WRB", "DT", "NN", "VBZ", "JJ", "RB", "JJ", "POS", "NN", "CC", "EX", "VBZ", "RB", "JJ", "NN", "."]
+    text: ' The survivors emerge on some nice, sunny day in March or April, when the temperature
+  is close to 50'' F and there is not too_much wind.'
+    tokens: [[1, 4], [5, 14], [15, 21], [22, 24], [25, 29], [30, 34], [34, 35], [36, 41], [42, 45], [46, 48], [49, 54], [55, 57], [58, 63], [63, 64], [65, 69], [70, 73], [74, 85], [86, 88], [89, 94], [95, 97], [98, 100], [100, 101], [102, 103], [104, 107], [108, 113], [114, 116], [117, 120], [121, 129], [130, 134], [134, 135]]
+    wn16_key: [[1, "survivor%1:05:00::"], [2, "emerge%2:30:00::"], [5, "nice%3:00:00::"], [7, "sunny%5:00:00:clear:03"], [8, "day%1:28:01::"], [10, "march%1:28:00::"], [12, "april%1:28:00::"], [16, "temperature%1:07:00::"], [17, "be%2:42:03::"], [18, "close%3:00:05::"], [20, "50%5:00:00:cardinal:00"], [22, "f%1:23:02::"], [25, "be%2:42:04::"], [26, "not%4:02:00::"], [27, "too_much%5:00:00:immoderate:00"], [28, "wind%1:19:00::"]]
+    wn30_key: [[1, "survivor%1:05:00::"], [2, "emerge%2:30:00::"], [5, "nice%3:00:00::"], [8, "day%1:28:01::"], [10, "march%1:28:00::"], [12, "april%1:28:00::"], [16, "temperature%1:07:00::"], [17, "be%2:42:03::"], [18, "close%3:00:05::"], [20, "50%3:00:00:cardinal:00"], [22, "f%1:23:02::"], [25, "be%2:42:04::"], [26, "not%4:02:00::"], [28, "wind%1:19:00::"]]
+vP0k:
+    lemmas: ["now", "the", "thing", "for", "us", "to", "do", "be", "to", "find", "ourselves", "a_couple_of", "those", "wonderful", "flowering", "currant", "such_as", "the", "red", "ribes_sanguineum", "of", "our", "location", ",", "or", "otherwise", "a", "good", "sloe", "tree", ",", "or", "perhaps", "some", "nice", "pussy_willow", "in", "bloom", ",", "preferably", "one", "with", "male", "or", "staminate", "catkin", "."]
+    oewn2026_key: [[0, "oewn-15144861-n"], [2, "oewn-00034778-n"], [6, "oewn-02566500-v"], [7, "oewn-02622439-v"], [9, "oewn-02218118-v"], [11, "oewn-01557697-s"], [13, "oewn-01681111-s"], [14, "oewn-13460743-n"], [15, "oewn-07760222-n"], [18, "oewn-00382159-s"], [19, "oewn-12826659-n"], [22, "oewn-00027365-n"], [25, "oewn-00114003-r"], [27, "oewn-01126910-a"], [28, "oewn-12659514-n"], [29, "oewn-13124818-n"], [32, "oewn-00301501-r"], [34, "oewn-01590750-a"], [35, "oewn-12747861-n"], [37, "oewn-00295007-v"], [39, "oewn-00116461-r"], [42, "oewn-01479992-a"], [44, "oewn-01480558-s"], [45, "oewn-11695249-n"]]
+    paragraph: '0'
+    pos: ["NN", "DT", "NN", "IN", "PRP", "TO", "VB", "VBZ", "TO", "VB", "PRP", "JJ", "DT", "JJ", "NN", "NNS", "JJ", "DT", "JJ", "NN", "IN", "PRP$", "NN", ",", "CC", "RB", "DT", "JJ", "NN", "NN", ",", "CC", "RB", "DT", "JJ", "NN", "IN", "VB", ",", "RB", "CD", "IN", "JJ", "CC", "JJ", "NNS", "."]
+    text: ' Now the thing for us to do is to find ourselves a_couple_of those wonderful flowering
+  currants such_as the red Ribes_sanguineum of our Pacific_Northwest, or otherwise
+  a good sloe tree, or perhaps some nice pussy_willow in bloom, preferably one with
+  male or staminate catkins.'
+    tokens: [[1, 4], [5, 8], [9, 14], [15, 18], [19, 21], [22, 24], [25, 27], [28, 30], [31, 33], [34, 38], [39, 48], [49, 60], [61, 66], [67, 76], [77, 86], [87, 95], [96, 103], [104, 107], [108, 111], [112, 128], [129, 131], [132, 135], [136, 153], [153, 154], [155, 157], [158, 167], [168, 169], [170, 174], [175, 179], [180, 184], [184, 185], [186, 188], [189, 196], [197, 201], [202, 206], [207, 219], [220, 222], [223, 228], [228, 229], [230, 240], [241, 244], [245, 249], [250, 254], [255, 257], [258, 267], [268, 275], [275, 276]]
+    wn16_key: [[0, "now%1:28:00::"], [2, "thing%1:04:00::"], [6, "do%2:41:01::"], [7, "be%2:42:06::"], [9, "find%2:40:01::"], [11, "a_couple_of%5:00:00:few:00"], [13, "wonderful%5:00:00:extraordinary:00"], [14, "flowering%1:22:00::"], [15, "currant%1:13:01::"], [18, "red%5:00:01:chromatic:00"], [19, "ribes_sanguineum%1:20:00::"], [22, "location%1:03:00::"], [25, "otherwise%4:02:03::"], [27, "good%3:00:01::"], [28, "sloe%1:20:02::"], [29, "tree%1:20:00::"], [32, "perhaps%4:02:00::"], [34, "nice%3:00:00::"], [35, "pussy_willow%1:20:01::"], [37, "bloom%2:30:00::"], [39, "preferably%4:02:00::"], [42, "male%3:00:00::"], [44, "staminate%5:00:00:male:00"], [45, "catkin%1:20:00::"]]
+    wn30_key: [[0, "now%1:28:00::"], [2, "thing%1:04:00::"], [6, "do%2:41:01::"], [7, "be%2:42:06::"], [9, "find%2:40:01::"], [11, "a_couple_of%3:00:00:few:00"], [13, "wonderful%3:00:00:extraordinary:00"], [14, "flowering%1:22:00::"], [15, "currant%1:13:01::"], [18, "red%3:00:01:chromatic:00"], [19, "ribes_sanguineum%1:20:00::"], [22, "location%1:03:00::"], [25, "otherwise%4:02:03::"], [27, "good%3:00:01::"], [28, "sloe%1:20:02::"], [29, "tree%1:20:00::"], [32, "perhaps%4:02:00::"], [34, "nice%3:00:00::"], [35, "pussy_willow%1:20:01::"], [37, "bloom%2:30:00::"], [39, "preferably%4:02:00::"], [42, "male%3:00:00::"], [44, "staminate%3:00:00:male:00"], [45, "catkin%1:20:00::"]]
+4A5M:
+    lemmas: ["The", "bloom", "of", "ribes", "and", "of", "the", "willow", "and", "sloe", "be", "the", "place", "where", "large_number", "of", "our", "early", "insect", "will", "assemble", ":", "honeybee", ",", "bumblebee", ",", "and", "other", "wild", "bee", ",", "and", "also", "various", "kind", "of", "fly", "."]
+    oewn2026_key: [[1, "oewn-11689786-n"], [3, "oewn-12825626-n"], [7, "oewn-12745702-n"], [9, "oewn-12659514-n"], [10, "oewn-02622439-v"], [12, "oewn-08682181-n"], [14, "oewn-13797293-n"], [17, "oewn-01653059-s"], [18, "oewn-02162607-n"], [20, "oewn-02433771-v"], [22, "oewn-02210932-n"], [24, "oewn-02212276-n"], [27, "oewn-02076759-a"], [28, "oewn-02397788-a"], [29, "oewn-02209508-n"], [32, "oewn-00048072-r"], [33, "oewn-02073069-s"], [34, "oewn-05847533-n"], [36, "oewn-02192818-n"]]
+    paragraph: '0'
+    pos: ["DT", "NNS", "IN", "NNP", "CC", "IN", "DT", "NN", "CC", "NN", "VBP", "DT", "NNS", "WRB", "NNS", "IN", "PRP$", "JJ", "NNS", "MD", "VB", ":", "NNS", ",", "NNS", ",", "CC", "JJ", "JJ", "NNS", ",", "CC", "RB", "JJ", "NNS", "IN", "NNS", "."]
+    text: ' The blooms of Ribes and of the willow and sloe are the places where large_numbers
+  of our early insects will assemble: honeybees, bumblebees, and other wild bees,
+  and also various kinds of flies.'
+    tokens: [[1, 4], [5, 11], [12, 14], [15, 20], [21, 24], [25, 27], [28, 31], [32, 38], [39, 42], [43, 47], [48, 51], [52, 55], [56, 62], [63, 68], [69, 82], [83, 85], [86, 89], [90, 95], [96, 103], [104, 108], [109, 117], [117, 118], [119, 128], [128, 129], [130, 140], [140, 141], [142, 145], [146, 151], [152, 156], [157, 161], [161, 162], [163, 166], [167, 171], [172, 179], [180, 185], [186, 188], [189, 194], [194, 195]]
+    wn16_key: [[1, "bloom%1:20:00::"], [3, "ribes%1:20:00::"], [7, "willow%1:20:00::"], [9, "sloe%1:20:02::"], [10, "be%2:42:06::"], [12, "place%1:15:00::"], [14, "large_number%1:23:00::"], [17, "early%5:00:00:young:00"], [18, "insect%1:05:00::"], [20, "assemble%2:41:00::"], [22, "honeybee%1:05:00::"], [24, "bumblebee%1:05:00::"], [27, "other%3:00:00::"], [28, "wild%3:00:01::"], [29, "bee%1:05:00::"], [32, "also%4:02:00::"], [33, "various%5:00:02:different:00"], [34, "kind%1:09:00::"], [36, "fly%1:05:00::"]]
+    wn30_key: [[1, "bloom%1:20:00::"], [3, "ribes%1:20:00::"], [7, "willow%1:20:00::"], [9, "sloe%1:20:02::"], [10, "be%2:42:06::"], [12, "place%1:15:00::"], [14, "large_number%1:23:00::"], [17, "early%3:00:00:young:00"], [18, "insect%1:05:00::"], [20, "assemble%2:41:00::"], [22, "honeybee%1:05:00::"], [24, "bumblebee%1:05:00::"], [27, "other%3:00:00::"], [28, "wild%3:00:01::"], [29, "bee%1:05:00::"], [32, "also%4:02:00::"], [33, "various%3:00:02:different:00"], [34, "kind%1:09:00::"], [36, "fly%1:05:00::"]]
+hXQa:
+    lemmas: ["It", "be", "a", "happy", ",", "buzzing", "crowd", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [3, "oewn-01151786-a"], [5, "oewn-01927096-s"], [6, "oewn-08199297-n"]]
+    paragraph: '0'
+    pos: ["PRP", "VBZ", "DT", "JJ", ",", "JJ", "NN", "."]
+    text: ' It is a happy, buzzing crowd.
+
+  '
+    tokens: [[1, 3], [4, 6], [7, 8], [9, 14], [14, 15], [16, 23], [24, 29], [29, 30]]
+    wn16_key: [[1, "be%2:42:03::"], [3, "happy%3:00:00::"], [5, "buzzing%5:00:00:noisy:00"], [6, "crowd%1:14:00::"]]
+    wn30_key: [[1, "be%2:42:03::"], [3, "happy%3:00:00::"], [5, "buzzing%3:00:00:noisy:00"], [6, "crowd%1:14:00::"]]
+VGqe:
+    lemmas: ["Each", "male", "willow", "catkin", "be", "composed", "of", "a", "large_number", "of", "small", "flower", "."]
+    oewn2026_key: [[1, "oewn-01479992-a"], [2, "oewn-12745702-n"], [3, "oewn-11695249-n"], [4, "oewn-02610777-v"], [5, "oewn-00531471-a"], [8, "oewn-13797293-n"], [10, "oewn-01394303-a"], [11, "oewn-11690372-n"]]
+    paragraph: '1'
+    pos: ["DT", "JJ", "NN", "NN", "VBZ", "JJ", "VB", "DT", "NN", "IN", "JJ", "NNS", "."]
+    text: ' Each male willow catkin is composed of a large_number of small flowers.'
+    tokens: [[1, 5], [6, 10], [11, 17], [18, 24], [25, 27], [28, 36], [37, 39], [40, 41], [42, 54], [55, 57], [58, 63], [64, 71], [71, 72]]
+    wn16_key: [[1, "male%3:00:00::"], [2, "willow%1:20:00::"], [3, "catkin%1:20:00::"], [4, "be%2:42:03::"], [5, "composed%5:00:00:combined:00"], [8, "large_number%1:23:00::"], [10, "small%3:00:00::"], [11, "flower%1:20:00::"]]
+    wn30_key: [[1, "male%3:00:00::"], [2, "willow%1:20:00::"], [3, "catkin%1:20:00::"], [4, "be%2:42:03::"], [5, "composed%3:00:00::"], [8, "large_number%1:23:00::"], [10, "small%3:00:00::"], [11, "flower%1:20:00::"]]
+sgRm:
+    lemmas: ["It", "be", "not", "difficult", "to", "see", "that", "the", "stamen", "of", "the", "catkin", "be", "always", "arrange", "in", "pair", ",", "and", "that", "each", "individual", "flower", "be", "nothing", "but", "one", "such", "pair", "stand", "on", "a", "green", ",", "black", "tip", "little", "scale", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-00024432-r"], [3, "oewn-00748528-a"], [5, "oewn-02133754-v"], [8, "oewn-11695547-n"], [11, "oewn-11695249-n"], [13, "oewn-00019801-r"], [14, "oewn-01466592-v"], [16, "oewn-07993383-n"], [20, "oewn-02277394-s"], [21, "oewn-00495505-a"], [22, "oewn-11690372-n"], [23, "oewn-02622439-v"], [24, "oewn-13762308-n"], [26, "oewn-13764713-n"], [27, "oewn-01558587-s"], [28, "oewn-08001665-n"], [29, "oewn-01548893-v"], [32, "oewn-00377031-s"], [34, "oewn-00393873-a"], [35, "oewn-00512259-v"], [36, "oewn-01394303-a"], [37, "oewn-13176554-n"]]
+    paragraph: '1'
+    pos: ["PRP", "VBZ", "RB", "JJ", "TO", "VB", "IN", "DT", "NNS", "IN", "DT", "NN", "VBP", "RB", "VBN", "IN", "NNS", ",", "CC", "IN", "JJ", "JJ", "NN", "VBZ", "NN", "CC", "NN", "JJ", "NN", "VB", "IN", "DT", "JJ", ",", "JJ", "VBD", "JJ", "NN", "."]
+    text: ' It is not difficult to see that the stamens of the catkin are always arranged in
+  pairs, and that each individual flower is nothing but one such pair standing on
+  a green, black tipped little scale.'
+    tokens: [[1, 3], [4, 6], [7, 10], [11, 20], [21, 23], [24, 27], [28, 32], [33, 36], [37, 44], [45, 47], [48, 51], [52, 58], [59, 62], [63, 69], [70, 78], [79, 81], [82, 87], [87, 88], [89, 92], [93, 97], [98, 102], [103, 113], [114, 120], [121, 123], [124, 131], [132, 135], [136, 139], [140, 144], [145, 149], [150, 158], [159, 161], [162, 163], [164, 169], [169, 170], [171, 176], [177, 183], [184, 190], [191, 196], [196, 197]]
+    wn16_key: [[1, "be%2:42:03::"], [2, "not%4:02:00::"], [3, "difficult%3:00:00::"], [5, "see%2:39:00::"], [8, "stamen%1:20:00::"], [11, "catkin%1:20:00::"], [13, "always%4:02:00::"], [14, "arrange%2:35:00::"], [16, "pair%1:14:00::"], [20, "each%5:00:00:all(a):00"], [21, "individual%3:00:00::"], [22, "flower%1:20:00::"], [23, "be%2:42:06::"], [24, "nothing%1:23:00::"], [26, "one%1:23:00::"], [27, "such%5:00:01:specified:00"], [28, "pair%1:14:01::"], [29, "stand%2:35:00::"], [32, "green%5:00:00:chromatic:00"], [34, "black%3:00:01::"], [35, "tip%2:30:00::"], [36, "little%3:00:01::"], [37, "scale%1:20:00::"]]
+    wn30_key: [[1, "be%2:42:03::"], [2, "not%4:02:00::"], [3, "difficult%3:00:00::"], [5, "see%2:39:00::"], [8, "stamen%1:20:00::"], [11, "catkin%1:20:00::"], [13, "always%4:02:00::"], [14, "arrange%2:35:00::"], [16, "pair%1:14:00::"], [20, "each%3:00:00:all:00"], [21, "individual%3:00:00::"], [22, "flower%1:20:00::"], [23, "be%2:42:06::"], [24, "nothing%1:23:00::"], [26, "one%1:23:00::"], [27, "such%3:00:00:much:00"], [28, "pair%1:14:01::"], [29, "stand%2:35:00::"], [32, "green%3:00:00:chromatic:00"], [34, "black%3:00:01::"], [35, "tip%2:30:00::"], [36, "little%3:00:01::"], [37, "scale%1:20:00::"]]
+ED0u:
+    lemmas: ["By", "scrutinize", "the", "flower", ",", "one", "can", "also", "notice", "that", "the", "scale", "bear", "one", "or", "two", "tiny", "wart", "."]
+    oewn2026_key: [[1, "oewn-02157817-v"], [3, "oewn-11690372-n"], [7, "oewn-00048072-r"], [8, "oewn-02158938-v"], [11, "oewn-13176554-n"], [12, "oewn-02706727-v"], [13, "oewn-02193977-s"], [15, "oewn-02194109-s"], [16, "oewn-01395201-s"], [17, "oewn-13918545-n"]]
+    paragraph: '1'
+    pos: ["IN", "VBG", "DT", "NNS", ",", "CD", "MD", "RB", "VB", "IN", "DT", "NN", "VBZ", "JJ", "CC", "JJ", "JJ", "NNS", "."]
+    text: ' By scrutinizing the flowers, one can also notice that the scale bears one or two
+  tiny warts.'
+    tokens: [[1, 3], [4, 16], [17, 20], [21, 28], [28, 29], [30, 33], [34, 37], [38, 42], [43, 49], [50, 54], [55, 58], [59, 64], [65, 70], [71, 74], [75, 77], [78, 81], [82, 86], [87, 92], [92, 93]]
+    wn16_key: [[1, "scrutinize%2:39:00::"], [3, "flower%1:20:00::"], [7, "also%4:02:00::"], [8, "notice%2:39:04::"], [11, "scale%1:20:00::"], [12, "bear%2:42:14::"], [13, "one%5:00:00:cardinal:00"], [15, "two%5:00:00:cardinal:00"], [16, "tiny%5:00:00:small:00"], [17, "wart%1:25:00::"]]
+    wn30_key: [[1, "scrutinize%2:39:00::"], [3, "flower%1:20:00::"], [7, "also%4:02:00::"], [8, "notice%2:39:04::"], [11, "scale%1:20:00::"], [12, "bear%2:42:14::"], [13, "one%3:00:00:cardinal:00"], [15, "two%3:00:00:cardinal:00"], [16, "tiny%3:00:00:small:00"], [17, "wart%1:25:00::"]]
+U/6o:
+    lemmas: ["Those", "be", "the", "nectary", "or", "honey", "gland", "(", "fig", "26", ",", "page", "74", ")", "."]
+    oewn2026_key: [[1, "oewn-02622439-v"], [3, "oewn-11704307-n"], [5, "oewn-07874954-n"], [6, "oewn-05335315-n"], [8, "oewn-07012307-n"], [9, "oewn-02196552-s"], [11, "oewn-06267274-n"]]
+    paragraph: '1'
+    pos: ["DT", "VBP", "DT", "NNS", "CC", "NN", "NNS", "VBP", "NNP", "JJ", ",", "NN", "CD", "NN", "."]
+    text: ' Those are the nectaries or honey glands (Fig. 26, page 74).'
+    tokens: [[1, 6], [7, 10], [11, 14], [15, 24], [25, 27], [28, 33], [34, 40], [41, 42], [42, 46], [47, 49], [49, 50], [51, 55], [56, 58], [58, 59], [59, 60]]
+    wn16_key: [[1, "be%2:42:06::"], [3, "nectary%1:20:00::"], [5, "honey%1:13:00::"], [6, "gland%1:08:00::"], [8, "fig%1:10:00::"], [9, "26%5:00:00:cardinal:00"], [11, "page%1:10:00::"]]
+    wn30_key: [[1, "be%2:42:06::"], [3, "nectary%1:20:00::"], [5, "honey%1:13:00::"], [6, "gland%1:08:00::"], [8, "fig%1:10:00::"], [9, "26%3:00:00:cardinal:00"], [11, "page%1:10:00::"]]
+25sK:
+    lemmas: ["The", "staminate", "willow", "catkin", ",", "then", ",", "provide", "their", "visitor", "with", "both", "nectar", "and", "pollen", ";", "a", "marvelous", "arrangement", ",", "for", "it", "provide", "exactly", "what", "the", "bee", "queen", "need", "to", "make", "their", "beebread", ",", "a", "combination", "of", "honey", "and", "pollen", "with", "which", "the", "young", "of", "all", "species", "be", "feed", "."]
+    oewn2026_key: [[1, "oewn-01480558-s"], [2, "oewn-12745702-n"], [3, "oewn-11695249-n"], [5, "oewn-00118928-r"], [7, "oewn-02332196-v"], [9, "oewn-10776861-n"], [12, "oewn-14870949-n"], [14, "oewn-11695988-n"], [17, "oewn-00649139-s"], [22, "oewn-02332196-v"], [23, "oewn-00159432-r"], [26, "oewn-02209508-n"], [27, "oewn-02315660-n"], [30, "oewn-01657416-v"], [32, "oewn-14798251-n"], [35, "oewn-07980325-n"], [37, "oewn-07874954-n"], [39, "oewn-11695988-n"], [43, "oewn-01324070-n"], [46, "oewn-08127339-n"], [48, "oewn-01184318-v"]]
+    paragraph: '1'
+    pos: ["DT", "JJ", "NN", "NNS", ",", "RB", ",", "VB", "PRP$", "NNS", "IN", "DT", "NN", "CC", "NN", ":", "DT", "JJ", "NN", ",", "IN", "PRP", "VBZ", "RB", "WP", "DT", "NN", "NNS", "VB", "VB", "VB", "PRP$", "NN", ",", "DT", "NN", "IN", "NN", "CC", "NN", "IN", "WDT", "DT", "NN", "IN", "DT", "NNS", "VBP", "VBN", "."]
+    text: ' The staminate willow catkins, then, provide their visitors with both nectar and
+  pollen; a marvelous arrangement, for it provides exactly what the bee queens need
+  to make their beebread, a combination of honey and pollen with which the young of
+  all species are fed.'
+    tokens: [[1, 4], [5, 14], [15, 21], [22, 29], [29, 30], [31, 35], [35, 36], [37, 44], [45, 50], [51, 59], [60, 64], [65, 69], [70, 76], [77, 80], [81, 87], [87, 88], [89, 90], [91, 100], [101, 112], [112, 113], [114, 117], [118, 120], [121, 129], [130, 137], [138, 142], [143, 146], [147, 150], [151, 157], [158, 162], [163, 165], [166, 170], [171, 176], [177, 185], [185, 186], [187, 188], [189, 200], [201, 203], [204, 209], [210, 213], [214, 220], [221, 225], [226, 231], [232, 235], [236, 241], [242, 244], [245, 248], [249, 256], [257, 260], [261, 264], [264, 265]]
+    wn16_key: [[1, "staminate%5:00:00:male:00"], [2, "willow%1:20:00::"], [3, "catkin%1:20:00::"], [5, "then%4:02:02::"], [7, "provide%2:40:00::"], [9, "visitor%1:18:00::"], [12, "nectar%1:27:00::"], [14, "pollen%1:20:00::"], [17, "marvelous%5:00:00:incredible:00"], [18, "arrangement%1:04:02::"], [22, "provide%2:40:00::"], [23, "exactly%4:02:01::"], [26, "bee%1:05:00::"], [27, "queen%1:05:01::"], [30, "make%2:36:11::"], [32, "beebread%1:27:00::"], [35, "combination%1:14:00::"], [37, "honey%1:13:00::"], [39, "pollen%1:20:00::"], [43, "young%1:05:00::"], [46, "species%1:14:00::"], [48, "feed%2:34:04::"]]
+    wn30_key: [[1, "staminate%3:00:00:male:00"], [2, "willow%1:20:00::"], [3, "catkin%1:20:00::"], [5, "then%4:02:02::"], [7, "provide%2:40:00::"], [9, "visitor%1:18:00::"], [12, "nectar%1:27:00::"], [14, "pollen%1:20:00::"], [17, "marvelous%3:00:00:incredible:00"], [22, "provide%2:40:00::"], [23, "exactly%4:02:01::"], [26, "bee%1:05:00::"], [27, "queen%1:05:01::"], [30, "make%2:36:11::"], [32, "beebread%1:27:00::"], [35, "combination%1:14:00::"], [37, "honey%1:13:00::"], [39, "pollen%1:20:00::"], [43, "young%1:05:00::"], [46, "species%1:14:00::"], [48, "feed%2:34:04::"]]
+0YQu:
+    lemmas: ["The", "only", "exception", "to", "this", "be", "certain", "bee", "that", "have", "become", "parasite", "."]
+    oewn2026_key: [[1, "oewn-02222405-s"], [2, "oewn-05715216-n"], [5, "oewn-02622439-v"], [6, "oewn-00704329-s"], [7, "oewn-02209508-n"], [10, "oewn-02632685-v"], [11, "oewn-01387328-n"]]
+    paragraph: '1'
+    pos: ["DT", "JJ", "NN", "TO", "DT", "VBZ", "JJ", "NNS", "WDT", "VBP", "VBN", "NNS", "."]
+    text: ' The only exception to this is certain bees that have become parasites.'
+    tokens: [[1, 4], [5, 9], [10, 19], [20, 22], [23, 27], [28, 30], [31, 38], [39, 43], [44, 48], [49, 53], [54, 60], [61, 70], [70, 71]]
+    wn16_key: [[1, "only%5:00:00:single(a):00"], [2, "exception%1:09:00::"], [5, "be%2:42:06::"], [6, "certain%5:00:00:definite:00"], [7, "bee%1:05:00::"], [10, "become%2:42:01::"], [11, "parasite%1:05:00::"]]
+    wn30_key: [[1, "only%3:00:00:single:05"], [2, "exception%1:09:00::"], [5, "be%2:42:06::"], [6, "certain%3:00:00:definite:00"], [7, "bee%1:05:00::"], [10, "become%2:42:01::"], [11, "parasite%1:05:00::"]]
+U3uS:
+    lemmas: ["I", "will", "deal", "with", "these", "later_on", "."]
+    oewn2026_key: [[2, "oewn-02376078-v"], [5, "oewn-00061741-r"]]
+    paragraph: '1'
+    pos: ["PRP", "MD", "VB", "VB", "DT", "RB", "."]
+    text: ' I will deal with these later_on.
+
+  '
+    tokens: [[1, 2], [3, 7], [8, 12], [13, 17], [18, 23], [24, 32], [32, 33]]
+    wn16_key: [[2, "deal%2:41:09::"], [5, "later_on%4:02:00::"]]
+    wn30_key: [[2, "deal%2:41:09::"], [5, "later_on%4:02:00::"]]
+E1Lb:
+    lemmas: ["quite", "often", ",", "honeybee", "form", "a", "majority", "on", "the", "willow", "catkin", "."]
+    oewn2026_key: [[0, "oewn-00019039-r"], [1, "oewn-00035445-r"], [3, "oewn-02210932-n"], [4, "oewn-02627475-v"], [6, "oewn-05129822-n"], [9, "oewn-12745702-n"], [10, "oewn-11695249-n"]]
+    paragraph: '2'
+    pos: ["RB", "RB", ",", "NNS", "VBP", "DT", "NN", "IN", "DT", "NN", "NNS", "."]
+    text: ' Quite often, honeybees form a majority on the willow catkins.'
+    tokens: [[1, 6], [7, 12], [12, 13], [14, 23], [24, 28], [29, 30], [31, 39], [40, 42], [43, 46], [47, 53], [54, 61], [61, 62]]
+    wn16_key: [[0, "quite%4:02:01::"], [1, "often%4:02:00::"], [3, "honeybee%1:05:00::"], [4, "form%2:42:00::"], [6, "majority%1:07:00::"], [9, "willow%1:20:00::"], [10, "catkin%1:20:00::"]]
+    wn30_key: [[0, "quite%4:02:01::"], [1, "often%4:02:00::"], [3, "honeybee%1:05:00::"], [4, "form%2:42:00::"], [6, "majority%1:07:00::"], [9, "willow%1:20:00::"], [10, "catkin%1:20:00::"]]
+JH++:
+    lemmas: ["As", "we", "have", "already", "see", "in", "the", "first", "chapter", ",", "bumblebee", "be", "big", ",", "hairy", ",", "and", "much", "more", "colorful", "than", "honeybee", ",", "exhibit", "various", "combination", "of", "black", ",", "yellow", ",", "white", "and", "orange", "."]
+    oewn2026_key: [[3, "oewn-00032194-r"], [4, "oewn-00922307-v"], [7, "oewn-01014459-a"], [8, "oewn-06407785-n"], [10, "oewn-02212276-n"], [11, "oewn-02610777-v"], [12, "oewn-01385012-a"], [14, "oewn-00213765-a"], [17, "oewn-00059624-r"], [18, "oewn-00099891-r"], [19, "oewn-00403480-a"], [21, "oewn-02210932-n"], [23, "oewn-02637937-v"], [24, "oewn-02073069-s"], [25, "oewn-07980325-n"], [27, "oewn-04967454-n"], [29, "oewn-04972838-n"], [31, "oewn-04967906-n"], [33, "oewn-04972356-n"]]
+    paragraph: '2'
+    pos: ["IN", "PRP", "VBP", "RB", "VBN", "IN", "DT", "JJ", "NN", ",", "NNS", "VBP", "JJR", ",", "JJR", ",", "CC", "RB", "RBR", "JJ", "IN", "NNS", ",", "VBG", "JJ", "NNS", "IN", "NN", ",", "NN", ",", "NN", "CC", "NN", "."]
+    text: ' As we have already seen in the first chapter, bumblebees are bigger, hairier, and
+  much more colorful than honeybees, exhibiting various combinations of black, yellow,
+  white and orange.'
+    tokens: [[1, 3], [4, 6], [7, 11], [12, 19], [20, 24], [25, 27], [28, 31], [32, 37], [38, 45], [45, 46], [47, 57], [58, 61], [62, 68], [68, 69], [70, 77], [77, 78], [79, 82], [83, 87], [88, 92], [93, 101], [102, 106], [107, 116], [116, 117], [118, 128], [129, 136], [137, 149], [150, 152], [153, 158], [158, 159], [160, 166], [166, 167], [168, 173], [174, 177], [178, 184], [184, 185]]
+    wn16_key: [[3, "already%4:02:00::"], [4, "see%2:32:00::"], [7, "first%5:00:00:ordinal:00"], [8, "chapter%1:10:00::"], [10, "bumblebee%1:05:00::"], [11, "be%2:42:03::"], [12, "big%3:00:01::"], [14, "hairy%3:00:00::"], [17, "much%4:02:00::"], [18, "more%4:02:00::"], [19, "colorful%3:00:00::"], [21, "honeybee%1:05:00::"], [23, "exhibit%2:42:00::"], [24, "various%5:00:02:different:00"], [25, "combination%1:14:00::"], [27, "black%1:07:00::"], [29, "yellow%1:07:00::"], [31, "white%1:07:00::"], [33, "orange%1:07:00::"]]
+    wn30_key: [[3, "already%4:02:00::"], [4, "see%2:32:00::"], [7, "first%3:00:00:ordinal:00"], [8, "chapter%1:10:00::"], [10, "bumblebee%1:05:00::"], [11, "be%2:42:03::"], [12, "big%3:00:01::"], [14, "hairy%3:00:00::"], [17, "much%4:02:00::"], [18, "more%4:02:00::"], [19, "colorful%3:00:00::"], [21, "honeybee%1:05:00::"], [23, "exhibit%2:42:00::"], [24, "various%3:00:02:different:00"], [25, "combination%1:14:00::"], [27, "black%1:07:00::"], [29, "yellow%1:07:00::"], [31, "white%1:07:00::"], [33, "orange%1:07:00::"]]
+xtk2:
+    lemmas: ["let", "us", "not", "try", "to", "key", "them", "out", "at", "this", "stage", "of", "the", "game", ",", "and", "let", "us", "just", "call", "them", "bombus", ";", "there", "must", "be", "several", "dozen", "species", "in", "the", "united_states", "alone", "."]
+    oewn2026_key: [[0, "oewn-02427979-v"], [2, "oewn-00024432-r"], [3, "oewn-02535833-v"], [5, "oewn-00654017-v"], [10, "oewn-15315573-n"], [13, "oewn-00431591-n"], [16, "oewn-02427979-v"], [18, "oewn-00005103-r"], [19, "oewn-01030757-v"], [21, "oewn-02212160-n"], [25, "oewn-02609706-v"], [26, "oewn-02276025-s"], [27, "oewn-13768925-n"], [28, "oewn-08127339-n"], [31, "oewn-09067337-n"], [32, "oewn-00009062-r"]]
+    paragraph: '2'
+    pos: ["VB", "PRP", "RB", "VB", "TO", "VB", "PRP", "IN", "IN", "DT", "NN", "IN", "DT", "NN", ",", "CC", "VB", "PRP", "RB", "VB", "PRP", "NNP", ":", "EX", "MD", "VB", "JJ", "NN", "NNS", "IN", "DT", "NNS", "RB", "."]
+    text: ' Let us not try to key them out at this stage of the game, and let us just call them
+  Bombus; there must be several dozen species in the United_States alone.'
+    tokens: [[1, 4], [5, 7], [8, 11], [12, 15], [16, 18], [19, 22], [23, 27], [28, 31], [32, 34], [35, 39], [40, 45], [46, 48], [49, 52], [53, 57], [57, 58], [59, 62], [63, 66], [67, 69], [70, 74], [75, 79], [80, 84], [85, 91], [91, 92], [93, 98], [99, 103], [104, 106], [107, 114], [115, 120], [121, 128], [129, 131], [132, 135], [136, 149], [150, 155], [155, 156]]
+    wn16_key: [[0, "let%2:41:00::"], [2, "not%4:02:00::"], [3, "try%2:41:00::"], [5, "key%2:31:00::"], [10, "stage%1:28:00::"], [13, "game%1:04:01::"], [16, "let%2:41:00::"], [18, "just%4:02:00::"], [19, "call%2:32:02::"], [21, "bombus%1:05:00::"], [25, "be%2:42:00::"], [26, "several%5:00:00:some(a):00"], [27, "dozen%1:23:00::"], [28, "species%1:14:00::"], [31, "united_states%1:15:00::"], [32, "alone%4:02:00::"]]
+    wn30_key: [[0, "let%2:41:00::"], [2, "not%4:02:00::"], [3, "try%2:41:00::"], [5, "key%2:31:00::"], [10, "stage%1:28:00::"], [13, "game%1:04:01::"], [16, "let%2:41:00::"], [18, "just%4:02:00::"], [19, "call%2:32:02::"], [21, "bombus%1:05:00::"], [25, "be%2:42:00::"], [26, "several%3:00:00:some:00"], [27, "dozen%1:23:00::"], [28, "species%1:14:00::"], [31, "united_states%1:15:00::"], [32, "alone%4:02:00::"]]
+JNX2:
+    lemmas: ["If", "you", "really", "insist", "on", "know", "their", "name", ",", "an", "excellent", "book", "on", "the", "north-american", "species", "be", "bumblebee", "and", "Their", "way", "by", "person", "."]
+    oewn2026_key: [[2, "oewn-00037620-r"], [3, "oewn-00820635-v"], [5, "oewn-00596016-v"], [7, "oewn-06344646-n"], [10, "oewn-02351216-s"], [11, "oewn-06422547-n"], [15, "oewn-08127339-n"], [16, "oewn-02622439-v"], [17, "oewn-02212276-n"], [20, "oewn-00416689-n"], [22, "oewn-00007846-n"]]
+    paragraph: '2'
+    pos: ["IN", "PRP", "RB", "VBP", "IN", "VBG", "PRP$", "NNS", ",", "DT", "JJ", "NN", "IN", "DT", "JJ", "NNS", "VBZ", "NNPS", "CC", "PRP$", "NNP", "IN", "NNP", "."]
+    text: ' If you really insist on knowing their names, an excellent book on the North_American
+  species is Bumblebees and Their Ways by O._E._Plath.
+
+  '
+    tokens: [[1, 3], [4, 7], [8, 14], [15, 21], [22, 24], [25, 32], [33, 38], [39, 44], [44, 45], [46, 48], [49, 58], [59, 63], [64, 66], [67, 70], [71, 85], [86, 93], [94, 96], [97, 107], [108, 111], [112, 117], [118, 122], [123, 125], [126, 137], [137, 138]]
+    wn16_key: [[2, "really%4:02:03::"], [3, "insist%2:32:00::"], [5, "know%2:31:01::"], [7, "name%1:10:00::"], [10, "excellent%5:00:00:superior:02"], [11, "book%1:10:00::"], [14, "north-american%3:01:00::"], [15, "species%1:14:00::"], [16, "be%2:42:06::"], [17, "bumblebee%1:05:00::"], [20, "way%1:04:00::"], [22, "person%1:03:00::"]]
+    wn30_key: [[2, "really%4:02:03::"], [3, "insist%2:32:00::"], [5, "know%2:31:01::"], [7, "name%1:10:00::"], [10, "excellent%3:00:00:superior:02"], [11, "book%1:10:00::"], [15, "species%1:14:00::"], [16, "be%2:42:06::"], [17, "bumblebee%1:05:00::"], [20, "way%1:04:00::"], [22, "person%1:03:00::"]]
+Qza2:
+    lemmas: ["If", "we", "manage", "to", "keep", "track", "of", "a", "bombus", "queen", "after", "she", "have", "leave", "her", "feeding", "place", ",", "we", "may", "discover", "the", "snug", "little", "hideout", "which", "she", "have", "fix_up", "for", "herself", "when", "she", "wake_up", "from", "her", "winter", "sleep", "."]
+    oewn2026_key: [[2, "oewn-02528530-v"], [4, "oewn-00734575-v"], [5, "oewn-05835238-n"], [8, "oewn-02212160-n"], [9, "oewn-02315660-n"], [13, "oewn-02013448-v"], [15, "oewn-00840028-n"], [16, "oewn-08682181-n"], [20, "oewn-01641524-v"], [22, "oewn-01892090-s"], [23, "oewn-01394303-a"], [24, "oewn-08601745-n"], [28, "oewn-01205989-v"], [33, "oewn-00018806-v"], [36, "oewn-15262579-n"], [37, "oewn-14048353-n"]]
+    paragraph: '3'
+    pos: ["IN", "PRP", "VBP", "TO", "VB", "NN", "IN", "DT", "NNP", "NN", "IN", "PRP", "VB", "VBN", "PRP$", "NN", "NN", ",", "PRP", "MD", "VB", "DT", "JJ", "JJ", "NN", "WDT", "PRP", "VBZ", "VB", "IN", "PRP", "WRB", "PRP", "VBP", "IN", "PRP$", "NN", "NN", "."]
+    text: ' If we manage to keep track of a Bombus queen after she has left her feeding place,
+  we may discover the snug little hideout which she has fixed_up for herself when
+  she woke_up from her winter sleep.'
+    tokens: [[1, 3], [4, 6], [7, 13], [14, 16], [17, 21], [22, 27], [28, 30], [31, 32], [33, 39], [40, 45], [46, 51], [52, 55], [56, 59], [60, 64], [65, 68], [69, 76], [77, 82], [82, 83], [84, 86], [87, 90], [91, 99], [100, 103], [104, 108], [109, 115], [116, 123], [124, 129], [130, 133], [134, 137], [138, 146], [147, 150], [151, 158], [159, 163], [164, 167], [168, 175], [176, 180], [181, 184], [185, 191], [192, 197], [197, 198]]
+    wn16_key: [[2, "manage%2:41:09::"], [4, "keep%2:31:00::"], [5, "track%1:09:00::"], [8, "bombus%1:05:00::"], [9, "queen%1:05:01::"], [13, "leave%2:38:01::"], [15, "feeding%1:04:00::"], [16, "place%1:15:00::"], [20, "discover%2:36:00::"], [22, "snug%5:00:00:protected:00"], [23, "little%3:00:01::"], [24, "hideout%1:15:00::"], [28, "fix_up%2:34:00::"], [33, "wake_up%2:29:01::"], [36, "winter%1:28:00::"], [37, "sleep%1:26:00::"]]
+    wn30_key: [[2, "manage%2:41:09::"], [4, "keep%2:31:00::"], [5, "track%1:09:00::"], [8, "bombus%1:05:00::"], [9, "queen%1:05:01::"], [13, "leave%2:38:01::"], [15, "feeding%1:04:00::"], [16, "place%1:15:00::"], [20, "discover%2:36:00::"], [22, "snug%3:00:00:protected:00"], [23, "little%3:00:01::"], [24, "hideout%1:15:00::"], [28, "fix_up%2:34:00::"], [33, "wake_up%2:29:01::"], [36, "winter%1:28:00::"], [37, "sleep%1:26:00::"]]
+5bQc:
+    lemmas: ["as", "befit", "a", "queen", ",", "a", "bumblebee", "female", "be", "rather", "choosy", "and", "may", "spend", "considerable", "time", "search", "for", "a", "suitable", "nesting_place", "."]
+    oewn2026_key: [[1, "oewn-02705783-v"], [3, "oewn-02315660-n"], [6, "oewn-02212276-n"], [7, "oewn-01323363-n"], [8, "oewn-02610777-v"], [9, "oewn-00018764-r"], [10, "oewn-00987442-s"], [13, "oewn-02714280-v"], [14, "oewn-00626700-a"], [15, "oewn-15295388-n"], [16, "oewn-01318273-v"], [19, "oewn-01024501-s"], [20, "oewn-08628532-n"]]
+    paragraph: '3'
+    pos: ["RB", "VBZ", "DT", "NN", ",", "DT", "NN", "NN", "VBZ", "RB", "JJ", "CC", "MD", "VB", "JJ", "NN", "VBG", "IN", "DT", "JJ", "NN", "."]
+    text: ' As befits a queen, a bumblebee female is rather choosy and may spend considerable
+  time searching for a suitable nesting_place.'
+    tokens: [[1, 3], [4, 10], [11, 12], [13, 18], [18, 19], [20, 21], [22, 31], [32, 38], [39, 41], [42, 48], [49, 55], [56, 59], [60, 63], [64, 69], [70, 82], [83, 87], [88, 97], [98, 101], [102, 103], [104, 112], [113, 126], [126, 127]]
+    wn16_key: [[1, "befit%2:42:00::"], [3, "queen%1:05:01::"], [6, "bumblebee%1:05:00::"], [7, "female%1:05:00::"], [8, "be%2:42:03::"], [9, "rather%4:02:04::"], [10, "choosy%5:00:00:fastidious:00"], [13, "spend%2:42:00::"], [14, "considerable%3:00:00::"], [15, "time%1:28:05::"], [16, "search%2:35:00::"], [19, "suitable%5:00:00:good:01"], [20, "nesting_place%1:15:00::"]]
+    wn30_key: [[1, "befit%2:42:00::"], [3, "queen%1:05:01::"], [6, "bumblebee%1:05:00::"], [7, "female%1:05:00::"], [8, "be%2:42:03::"], [9, "rather%4:02:04::"], [10, "choosy%3:00:00:fastidious:00"], [13, "spend%2:42:00::"], [14, "considerable%3:00:00::"], [15, "time%1:28:05::"], [16, "search%2:35:00::"], [19, "suitable%3:00:00:fit:02"], [20, "nesting_place%1:15:00::"]]
+Owyj:
+    lemmas: ["most", "species", "seem", "to", "prefer", "a", "ready-made", "hollow", "such_as", "a", "deserted", "mouse_nest", ",", "a", "birdhouse", ",", "or", "the", "hole", "make", "by", "a", "woodpecker", ";", "some", "show", "a", "definite", "liking", "for", "make", "their", "nest", "in", "moss", "."]
+    oewn2026_key: [[0, "oewn-01560125-a"], [1, "oewn-08127339-n"], [2, "oewn-02137900-v"], [4, "oewn-00681308-v"], [6, "oewn-00675886-a"], [7, "oewn-09327656-n"], [10, "oewn-01315959-s"], [11, "oewn-09385104-n"], [14, "oewn-02846922-n"], [18, "oewn-09327371-n"], [19, "oewn-01620211-v"], [22, "oewn-01841239-n"], [24, "oewn-02275064-a"], [25, "oewn-02153218-v"], [27, "oewn-00703896-a"], [28, "oewn-07512613-n"], [30, "oewn-01658171-v"], [32, "oewn-09392066-n"], [34, "oewn-11557957-n"]]
+    paragraph: '3'
+    pos: ["JJS", "NNS", "VBP", "TO", "VB", "DT", "JJ", "NN", "JJ", "DT", "JJ", "NN", ",", "DT", "NN", ",", "CC", "DT", "NN", "VBN", "IN", "DT", "NN", ":", "JJ", "VBP", "DT", "JJ", "NN", "IN", "VBG", "PRP$", "NN", "IN", "NN", "."]
+    text: ' Most species seem to prefer a ready-made hollow such_as a deserted mouse_nest, a
+  bird_house, or the hole made by a woodpecker; some show a definite liking for making
+  their nest in moss.'
+    tokens: [[1, 5], [6, 13], [14, 18], [19, 21], [22, 28], [29, 30], [31, 41], [42, 48], [49, 56], [57, 58], [59, 67], [68, 78], [78, 79], [80, 81], [82, 92], [92, 93], [94, 96], [97, 100], [101, 105], [106, 110], [111, 113], [114, 115], [116, 126], [126, 127], [128, 132], [133, 137], [138, 139], [140, 148], [149, 155], [156, 159], [160, 166], [167, 172], [173, 177], [178, 180], [181, 185], [185, 186]]
+    wn16_key: [[0, "most%3:00:01::"], [1, "species%1:14:00::"], [2, "seem%2:39:00::"], [4, "prefer%2:31:00::"], [6, "ready-made%3:00:00::"], [7, "hollow%1:17:00::"], [10, "deserted%5:00:00:forsaken:00"], [11, "mouse_nest%1:17:00::"], [14, "birdhouse%1:06:00::"], [18, "hole%1:17:01::"], [19, "make%2:36:00::"], [22, "woodpecker%1:05:00::"], [24, "some%3:00:00::"], [25, "show%2:39:02::"], [27, "definite%3:00:00::"], [28, "liking%1:12:00::"], [30, "make%2:36:13::"], [32, "nest%1:17:00::"], [34, "moss%1:20:00::"]]
+    wn30_key: [[0, "most%3:00:01::"], [1, "species%1:14:00::"], [2, "seem%2:39:00::"], [4, "prefer%2:31:00::"], [6, "ready-made%3:00:00::"], [7, "hollow%1:17:00::"], [10, "deserted%3:00:00:uninhabited:00"], [11, "mouse_nest%1:17:00::"], [14, "birdhouse%1:06:00::"], [18, "hole%1:17:01::"], [19, "make%2:36:00::"], [22, "woodpecker%1:05:00::"], [24, "some%3:00:00::"], [25, "show%2:39:02::"], [27, "definite%3:00:00::"], [28, "liking%1:12:00::"], [30, "make%2:36:13::"], [32, "nest%1:17:00::"], [34, "moss%1:20:00::"]]
+fkUz:
+    lemmas: ["once", "she", "have", "make_up_one's_mind", ",", "the", "queen", "start_out", "by", "construct", ",", "in", "her", "chosen", "abode", ",", "a", "small", "\"", "floor", "\"", "of", "dried", "grass", "or", "some", "woolly", "material", "."]
+    oewn2026_key: [[0, "oewn-00182828-r"], [3, "oewn-00699355-v"], [6, "oewn-02315660-n"], [7, "oewn-02018017-v"], [9, "oewn-01658171-v"], [14, "oewn-03264208-n"], [17, "oewn-01394303-a"], [19, "oewn-03370438-n"], [22, "oewn-02563787-s"], [23, "oewn-12122650-n"], [26, "oewn-01157854-s"], [27, "oewn-14604877-n"]]
+    paragraph: '3'
+    pos: ["RB", "PRP", "VBZ", "VB", ",", "DT", "NN", "VB", "IN", "VBG", ",", "IN", "PRP$", "JJ", "NN", ",", "DT", "JJ", "``", "NN", "''", "IN", "JJ", "NN", "CC", "DT", "JJ", "NN", "."]
+    text: ' Once she has made_up_her_mind, the queen starts_out by constructing, in her chosen
+  abode, a small " floor " of dried grass or some woolly material.'
+    tokens: [[1, 5], [6, 9], [10, 13], [14, 30], [30, 31], [32, 35], [36, 41], [42, 52], [53, 55], [56, 68], [68, 69], [70, 72], [73, 76], [77, 83], [84, 89], [89, 90], [91, 92], [93, 98], [99, 100], [101, 106], [107, 108], [109, 111], [112, 117], [118, 123], [124, 126], [127, 131], [132, 138], [139, 147], [147, 148]]
+    wn16_key: [[0, "once%4:02:02::"], [3, "make_up_one's_mind%2:31:00::"], [6, "queen%1:05:01::"], [7, "start_out%2:38:00::"], [9, "construct%2:36:00::"], [13, "chosen%5:00:00:selected:00"], [14, "abode%1:06:00::"], [17, "small%3:00:00::"], [19, "floor%1:06:00::"], [22, "dried%5:00:00:dry:01"], [23, "grass%1:20:00::"], [26, "woolly%5:00:00:soft:01"], [27, "material%1:27:00::"]]
+    wn30_key: [[0, "once%4:02:02::"], [3, "make_up_one's_mind%2:31:00::"], [6, "queen%1:05:01::"], [7, "start_out%2:38:00::"], [9, "construct%2:36:00::"], [14, "abode%1:06:00::"], [17, "small%3:00:00::"], [19, "floor%1:06:00::"], [22, "dried%3:00:00:dry:01"], [23, "grass%1:20:00::"], [26, "woolly%3:00:00:soft:01"], [27, "material%1:27:00::"]]
+iDsH:
+    lemmas: ["On", "this", ",", "she", "build", "an", "\"", "egg", "compartment", "\"", "or", "\"", "egg", "cell", "\"", "which", "be", "filled", "with", "that", "famous", "pollen", "and", "nectar", "mixture", "called", "beebread", "."]
+    oewn2026_key: [[4, "oewn-01658171-v"], [7, "oewn-01463098-n"], [8, "oewn-03084313-n"], [12, "oewn-01463098-n"], [13, "oewn-02995166-n"], [17, "oewn-01088332-s"], [20, "oewn-01378757-s"], [21, "oewn-11695988-n"], [23, "oewn-14870949-n"], [24, "oewn-07898472-n"], [26, "oewn-14798251-n"]]
+    paragraph: '3'
+    pos: ["IN", "DT", ",", "PRP", "VBZ", "DT", "``", "NN", "NN", "''", "CC", "''", "NN", "NN", "''", "WDT", "VBZ", "JJ", "RB", "RB", "JJ", "NN", "DT", "NN", "NN", "JJ", "NN", "."]
+    text: ' On this, she builds an " egg compartment " or " egg cell " which is filled with
+  that famous pollen and nectar mixture called beebread.'
+    tokens: [[1, 3], [4, 8], [8, 9], [10, 13], [14, 20], [21, 23], [24, 25], [26, 29], [30, 41], [42, 43], [44, 46], [47, 48], [49, 52], [53, 57], [58, 59], [60, 65], [66, 68], [69, 75], [76, 80], [81, 85], [86, 92], [93, 99], [100, 103], [104, 110], [111, 118], [119, 125], [126, 134], [134, 135]]
+    wn16_key: [[4, "build%2:36:00::"], [7, "egg%1:05:00::"], [8, "compartment%1:06:01::"], [12, "egg%1:05:00::"], [13, "cell%1:06:03::"], [17, "filled%5:00:01:full:00"], [20, "famous%5:00:00:known:00"], [21, "pollen%1:20:00::"], [23, "nectar%1:27:00::"], [24, "mixture%1:13:00::"], [25, "called%5:00:00:titled:00"], [26, "beebread%1:27:00::"]]
+    wn30_key: [[4, "build%2:36:00::"], [7, "egg%1:05:00::"], [8, "compartment%1:06:01::"], [12, "egg%1:05:00::"], [13, "cell%1:06:03::"], [17, "filled%3:00:01:full:00"], [20, "famous%3:00:00:known:00"], [21, "pollen%1:20:00::"], [23, "nectar%1:27:00::"], [24, "mixture%1:13:00::"], [26, "beebread%1:27:00::"]]
+QyLy:
+    lemmas: ["She", "also", "build", "one", "or", "two", "waxen", "cup", "which", "she", "fill", "with", "honey", "."]
+    oewn2026_key: [[1, "oewn-00048072-r"], [2, "oewn-01658171-v"], [3, "oewn-02193977-s"], [5, "oewn-02194109-s"], [6, "oewn-03016360-a"], [7, "oewn-13927671-n"], [10, "oewn-00453467-v"], [12, "oewn-07874954-n"]]
+    paragraph: '3'
+    pos: ["PRP", "RB", "VBZ", "JJ", "CC", "JJ", "JJ", "NNS", "WDT", "PRP", "VBZ", "IN", "NN", "."]
+    text: ' She also builds one or two waxen cups which she fills with honey.'
+    tokens: [[1, 4], [5, 9], [10, 16], [17, 20], [21, 23], [24, 27], [28, 33], [34, 38], [39, 44], [45, 48], [49, 54], [55, 59], [60, 65], [65, 66]]
+    wn16_key: [[1, "also%4:02:00::"], [2, "build%2:36:00::"], [3, "one%5:00:00:cardinal:00"], [5, "two%5:00:00:cardinal:00"], [6, "waxen%3:01:00::"], [7, "cup%1:25:00::"], [10, "fill%2:30:01::"], [12, "honey%1:13:00::"]]
+    wn30_key: [[1, "also%4:02:00::"], [2, "build%2:36:00::"], [3, "one%3:00:00:cardinal:00"], [5, "two%3:00:00:cardinal:00"], [6, "waxen%3:01:00::"], [7, "cup%1:25:00::"], [10, "fill%2:30:01::"], [12, "honey%1:13:00::"]]
+cwby:
+    lemmas: ["then", ",", "a", "group", "of", "egg", "be", "deposit", "in", "a", "cavity", "in", "the", "beebread", "loaf", "and", "the", "egg", "compartment", "be", "close", "."]
+    oewn2026_key: [[0, "oewn-00118527-r"], [3, "oewn-00031563-n"], [5, "oewn-01463098-n"], [7, "oewn-01578506-v"], [10, "oewn-09416001-n"], [13, "oewn-14798251-n"], [14, "oewn-07699531-n"], [17, "oewn-01463098-n"], [18, "oewn-03084313-n"], [20, "oewn-01347791-v"]]
+    paragraph: '3'
+    pos: ["RB", ",", "DT", "NN", "IN", "NNS", "VBZ", "VBN", "IN", "DT", "NN", "IN", "DT", "NN", "NN", "CC", "DT", "NN", "NN", "VBZ", "VBN", "."]
+    text: ' Then, a group of eggs is deposited in a cavity in the beebread loaf and the egg
+  compartment is closed.'
+    tokens: [[1, 5], [5, 6], [7, 8], [9, 14], [15, 17], [18, 22], [23, 25], [26, 35], [36, 38], [39, 40], [41, 47], [48, 50], [51, 54], [55, 63], [64, 68], [69, 72], [73, 76], [77, 80], [81, 92], [93, 95], [96, 102], [102, 103]]
+    wn16_key: [[0, "then%4:02:00::"], [3, "group%1:03:00::"], [5, "egg%1:05:00::"], [7, "deposit%2:35:01::"], [10, "cavity%1:17:00::"], [13, "beebread%1:27:00::"], [14, "loaf%1:13:00::"], [17, "egg%1:05:00::"], [18, "compartment%1:06:01::"], [20, "close%2:35:00::"]]
+    wn30_key: [[0, "then%4:02:00::"], [3, "group%1:03:00::"], [5, "egg%1:05:00::"], [7, "deposit%2:35:01::"], [10, "cavity%1:17:00::"], [13, "beebread%1:27:00::"], [14, "loaf%1:13:00::"], [17, "egg%1:05:00::"], [18, "compartment%1:06:01::"], [20, "close%2:35:00::"]]
+GzjZ:
+    lemmas: ["The", "queen", "afterward", "keep", "incubate", "and", "guard", "her", "egg", "like", "a", "mother", "hen", ",", "take", "a", "sip", "from_time_to_time", "from", "the", "rather", "liquid", "honey", "in", "her", "honey", "pot", "."]
+    oewn2026_key: [[1, "oewn-02315660-n"], [2, "oewn-00061741-r"], [3, "oewn-02690747-v"], [4, "oewn-00059956-v"], [6, "oewn-02461453-v"], [8, "oewn-01463098-n"], [11, "oewn-10352098-n"], [12, "oewn-01795281-n"], [14, "oewn-01159300-v"], [16, "oewn-00845155-n"], [17, "oewn-00021667-r"], [20, "oewn-00018764-r"], [21, "oewn-02269142-a"], [22, "oewn-07874954-n"], [25, "oewn-07874954-n"], [26, "oewn-13791173-n"]]
+    paragraph: '3'
+    pos: ["DT", "NN", "RB", "VBZ", "VBG", "CC", "VBG", "PRP$", "NNS", "IN", "DT", "NN", "NN", ",", "VBG", "DT", "NN", "RB", "IN", "DT", "RB", "JJ", "NN", "IN", "PRP$", "NN", "NNS", "."]
+    text: ' The queen afterward keeps incubating and guarding her eggs like a mother hen, taking
+  a sip from_time_to_time from the rather liquid honey in her honey pots.'
+    tokens: [[1, 4], [5, 10], [11, 20], [21, 26], [27, 37], [38, 41], [42, 50], [51, 54], [55, 59], [60, 64], [65, 66], [67, 73], [74, 77], [77, 78], [79, 85], [86, 87], [88, 91], [92, 109], [110, 114], [115, 118], [119, 125], [126, 132], [133, 138], [139, 141], [142, 145], [146, 151], [152, 156], [156, 157]]
+    wn16_key: [[1, "queen%1:05:01::"], [2, "afterward%4:02:00::"], [3, "keep%2:42:07::"], [4, "incubate%2:29:00::"], [6, "guard%2:41:00::"], [8, "egg%1:05:00::"], [11, "mother%1:18:00::"], [12, "hen%1:05:01::"], [14, "take%2:34:00::"], [16, "sip%1:04:01::"], [17, "from_time_to_time%4:02:00::"], [20, "rather%4:02:04::"], [21, "liquid%3:00:00::"], [22, "honey%1:13:00::"], [25, "honey%1:13:00::"], [26, "pot%1:23:00::"]]
+    wn30_key: [[1, "queen%1:05:01::"], [2, "afterward%4:02:00::"], [3, "keep%2:42:07::"], [4, "incubate%2:29:00::"], [6, "guard%2:41:00::"], [8, "egg%1:05:00::"], [11, "mother%1:18:00::"], [12, "hen%1:05:01::"], [14, "take%2:34:00::"], [16, "sip%1:04:01::"], [17, "from_time_to_time%4:02:00::"], [20, "rather%4:02:04::"], [21, "liquid%3:00:00::"], [22, "honey%1:13:00::"], [25, "honey%1:13:00::"], [26, "pot%1:23:00::"]]
+V6z4:
+    lemmas: ["When", "the", "larva", "hatch", ",", "they", "feed_on", "the", "beebread", ",", "although", "they", "also", "receive", "extra", "honey", "meal", "from", "their", "mother", "."]
+    oewn2026_key: [[2, "oewn-02313712-n"], [3, "oewn-00062866-v"], [6, "oewn-01205854-v"], [8, "oewn-14798251-n"], [12, "oewn-00048072-r"], [13, "oewn-02214901-v"], [14, "oewn-00049078-s"], [15, "oewn-07874954-n"], [16, "oewn-07589261-n"], [19, "oewn-10352098-n"]]
+    paragraph: '3'
+    pos: ["WRB", "DT", "NN", "VB", ",", "PRP", "VBP", "DT", "NN", ",", "IN", "PRP", "RB", "VBP", "JJ", "NN", "NNS", "IN", "PRP$", "NN", "."]
+    text: ' When the larvae hatch, they feed_on the beebread, although they also receive extra
+  honey meals from their mother.'
+    tokens: [[1, 5], [6, 9], [10, 16], [17, 22], [22, 23], [24, 28], [29, 36], [37, 40], [41, 49], [49, 50], [51, 59], [60, 64], [65, 69], [70, 77], [78, 83], [84, 89], [90, 95], [96, 100], [101, 106], [107, 113], [113, 114]]
+    wn16_key: [[2, "larva%1:05:00::"], [3, "hatch%2:29:01::"], [6, "feed_on%2:34:00::"], [8, "beebread%1:27:00::"], [12, "also%4:02:00::"], [13, "receive%2:40:00::"], [14, "extra%5:00:00:added:00"], [15, "honey%1:13:00::"], [16, "meal%1:13:00::"], [19, "mother%1:18:00::"]]
+    wn30_key: [[2, "larva%1:05:00::"], [3, "hatch%2:29:01::"], [6, "feed_on%2:34:00::"], [8, "beebread%1:27:00::"], [12, "also%4:02:00::"], [13, "receive%2:40:00::"], [14, "extra%3:00:00:additive:00"], [15, "honey%1:13:00::"], [16, "meal%1:13:00::"], [19, "mother%1:18:00::"]]
+wGBd:
+    lemmas: ["She", "continue", "to", "add", "to", "the", "pollen", "supply", "as_needed", "."]
+    oewn2026_key: [[1, "oewn-02690747-v"], [3, "oewn-00182551-v"], [6, "oewn-11695988-n"], [7, "oewn-13799556-n"], [8, "oewn-00182904-r"]]
+    paragraph: '3'
+    pos: ["PRP", "VBZ", "TO", "VB", "TO", "DT", "NN", "NN", "RB", "."]
+    text: ' She continues to add to the pollen supply as_needed.
+
+  '
+    tokens: [[1, 4], [5, 14], [15, 17], [18, 21], [22, 24], [25, 28], [29, 35], [36, 42], [43, 52], [52, 53]]
+    wn16_key: [[1, "continue%2:42:01::"], [3, "add%2:30:00::"], [6, "pollen%1:20:00::"], [7, "supply%1:23:00::"], [8, "as_needed%4:02:00::"]]
+    wn30_key: [[1, "continue%2:42:01::"], [3, "add%2:30:00::"], [6, "pollen%1:20:00::"], [7, "supply%1:23:00::"], [8, "as_needed%4:02:00::"]]
+HM8p:
+    lemmas: ["The", "larva", ",", "keep", "warm", "by", "the", "queen", ",", "be", "full-grown", "in", "about", "ten", "day", "."]
+    oewn2026_key: [[1, "oewn-02313712-n"], [3, "oewn-02687605-v"], [4, "oewn-02539669-a"], [7, "oewn-02315660-n"], [9, "oewn-02610777-v"], [10, "oewn-01491979-s"], [13, "oewn-02194935-s"], [14, "oewn-15180180-n"]]
+    paragraph: '4'
+    pos: ["DT", "NN", ",", "VBD", "JJ", "IN", "DT", "NN", ",", "VBP", "JJ", "IN", "IN", "JJ", "NNS", "."]
+    text: ' The larvae, kept warm by the queen, are full_grown in about ten days.'
+    tokens: [[1, 4], [5, 11], [11, 12], [13, 17], [18, 22], [23, 25], [26, 29], [30, 35], [35, 36], [37, 40], [41, 51], [52, 54], [55, 60], [61, 64], [65, 69], [69, 70]]
+    wn16_key: [[1, "larva%1:05:00::"], [3, "keep%2:42:00::"], [4, "warm%3:00:01::"], [7, "queen%1:05:01::"], [9, "be%2:42:03::"], [10, "full-grown%5:00:00:mature:01"], [13, "ten%5:00:00:cardinal:00"], [14, "day%1:28:00::"]]
+    wn30_key: [[1, "larva%1:05:00::"], [3, "keep%2:42:00::"], [4, "warm%3:00:01::"], [7, "queen%1:05:01::"], [9, "be%2:42:03::"], [10, "full-grown%3:00:00:mature:01"], [13, "ten%3:00:00:cardinal:00"], [14, "day%1:28:00::"]]
+4afV:
+    lemmas: ["Each", "now", "make", "a", "tough", ",", "papery", "cocoon", "and", "pupate", "."]
+    oewn2026_key: [[1, "oewn-00049971-r"], [2, "oewn-01620211-v"], [4, "oewn-02456417-a"], [6, "oewn-02423395-s"], [7, "oewn-02315396-n"], [9, "oewn-00096274-v"]]
+    paragraph: '4'
+    pos: ["DT", "RB", "VBZ", "DT", "JJ", ",", "JJ", "NN", "CC", "VB", "."]
+    text: ' Each now makes a tough, papery cocoon and pupates.'
+    tokens: [[1, 5], [6, 9], [10, 15], [16, 17], [18, 23], [23, 24], [25, 31], [32, 38], [39, 42], [43, 50], [50, 51]]
+    wn16_key: [[1, "now%4:02:05::"], [2, "make%2:36:00::"], [4, "tough%3:00:02::"], [6, "papery%5:00:00:thin:01"], [7, "cocoon%1:05:00::"], [9, "pupate%2:29:00::"]]
+    wn30_key: [[1, "now%4:02:05::"], [2, "make%2:36:00::"], [4, "tough%3:00:02::"], [6, "papery%3:00:00:thin:01"], [7, "cocoon%1:05:00::"], [9, "pupate%2:29:00::"]]
++PWW:
+    lemmas: ["After", "another", "two_weeks", ",", "the", "first", "young", "emerge", ",", "four", "to", "eight", "small", "daughter", "that", "begin", "to", "play", "the", "role", "of", "worker_bee", ",", "collect", "pollen", "and", "nectar", "in", "the", "field", "and", "care", "for", "the", "new", "young", "generation", "while", "the", "queen", "retire", "to", "a", "life", "of", "egg_laying", "."]
+    oewn2026_key: [[2, "oewn-15195378-n"], [5, "oewn-01014459-a"], [6, "oewn-01324070-n"], [7, "oewn-00424924-v"], [9, "oewn-02194304-s"], [11, "oewn-02194712-s"], [12, "oewn-01653473-s"], [13, "oewn-10012375-n"], [15, "oewn-00346415-v"], [17, "oewn-00013608-v"], [19, "oewn-00721817-n"], [21, "oewn-02210457-n"], [23, "oewn-02309962-v"], [24, "oewn-11695988-n"], [26, "oewn-14870949-n"], [29, "oewn-08587527-n"], [31, "oewn-02555993-v"], [34, "oewn-01645077-a"], [35, "oewn-01651383-a"], [36, "oewn-08385834-n"], [39, "oewn-02315660-n"], [40, "oewn-02433334-v"], [43, "oewn-13984685-n"], [45, "oewn-13527680-n"]]
+    paragraph: '4'
+    pos: ["IN", "DT", "NN", ",", "DT", "JJ", "NN", "VBP", ",", "JJ", "TO", "JJ", "JJ", "NNS", "WDT", "VBP", "TO", "VB", "DT", "NN", "IN", "NNS", ",", "VBG", "NN", "CC", "NN", "IN", "DT", "NN", "CC", "VB", "VB", "DT", "JJ", "JJ", "NN", "IN", "DT", "NN", "VBZ", "TO", "DT", "NN", "IN", "NN", "."]
+    text: ' After another two_weeks, the first young emerge, four to eight small daughters that
+  begin to play the role of worker_bees, collecting pollen and nectar in the field
+  and caring for the new young generation while the queen retires to a life of egg_laying.'
+    tokens: [[1, 6], [7, 14], [15, 24], [24, 25], [26, 29], [30, 35], [36, 41], [42, 48], [48, 49], [50, 54], [55, 57], [58, 63], [64, 69], [70, 79], [80, 84], [85, 90], [91, 93], [94, 98], [99, 102], [103, 107], [108, 110], [111, 122], [122, 123], [124, 134], [135, 141], [142, 145], [146, 152], [153, 155], [156, 159], [160, 165], [166, 169], [170, 176], [177, 180], [181, 184], [185, 188], [189, 194], [195, 205], [206, 211], [212, 215], [216, 221], [222, 229], [230, 232], [233, 234], [235, 239], [240, 242], [243, 253], [253, 254]]
+    wn16_key: [[2, "two_weeks%1:28:00::"], [5, "first%5:00:00:ordinal:00"], [6, "young%1:05:00::"], [7, "emerge%2:30:00::"], [9, "four%5:00:00:cardinal:00"], [11, "eight%5:00:00:cardinal:00"], [12, "small%5:00:00:young:00"], [13, "daughter%1:18:00::"], [15, "begin%2:30:00::"], [17, "play%2:29:01::"], [19, "role%1:04:00::"], [21, "worker_bee%1:05:00::"], [23, "collect%2:40:00::"], [24, "pollen%1:20:00::"], [26, "nectar%1:27:00::"], [29, "field%1:15:00::"], [31, "care%2:41:13::"], [34, "new%3:00:00::"], [35, "young%3:00:00::"], [36, "generation%1:14:00::"], [39, "queen%1:05:01::"], [40, "retire%2:41:00::"], [43, "life%1:26:02::"], [45, "egg_laying%1:22:00::"]]
+    wn30_key: [[2, "two_weeks%1:28:00::"], [5, "first%3:00:00:ordinal:00"], [6, "young%1:05:00::"], [7, "emerge%2:30:00::"], [9, "four%3:00:00:cardinal:00"], [11, "eight%3:00:00:cardinal:00"], [12, "small%3:00:00:young:00"], [13, "daughter%1:18:00::"], [15, "begin%2:30:00::"], [17, "play%2:29:01::"], [19, "role%1:04:00::"], [21, "worker_bee%1:05:00::"], [23, "collect%2:40:00::"], [24, "pollen%1:20:00::"], [26, "nectar%1:27:00::"], [29, "field%1:15:00::"], [31, "care%2:41:13::"], [34, "new%3:00:00::"], [35, "young%3:00:00::"], [36, "generation%1:14:00::"], [39, "queen%1:05:01::"], [40, "retire%2:41:00::"], [43, "life%1:26:02::"], [45, "egg_laying%1:22:00::"]]
+8SLz:
+    lemmas: ["The", "first", "worker_bee", "do", "not", "mate", "or", "lay", "egg", ";", "male", "and", "mating", "female", "do", "not", "emerge", "until", "later", "in", "the", "season", "."]
+    oewn2026_key: [[1, "oewn-01014459-a"], [2, "oewn-02210457-n"], [4, "oewn-00024432-r"], [5, "oewn-01431486-v"], [7, "oewn-01547861-v"], [8, "oewn-01463098-n"], [10, "oewn-01323721-n"], [12, "oewn-00848970-n"], [13, "oewn-01323363-n"], [15, "oewn-00024432-r"], [16, "oewn-00424924-v"], [18, "oewn-00061741-r"], [21, "oewn-15261272-n"]]
+    paragraph: '4'
+    pos: ["DT", "JJ", "NNS", "VBP", "RB", "VB", "CC", "VB", "NNS", ":", "NNS", "CC", "NN", "NNS", "VBP", "RB", "VB", "IN", "RB", "IN", "DT", "NN", "."]
+    text: ' The first worker_bees do not mate or lay eggs; males and mating females do not emerge
+  until later in the season.'
+    tokens: [[1, 4], [5, 10], [11, 22], [23, 25], [26, 29], [30, 34], [35, 37], [38, 41], [42, 46], [46, 47], [48, 53], [54, 57], [58, 64], [65, 72], [73, 75], [76, 79], [80, 86], [87, 92], [93, 98], [99, 101], [102, 105], [106, 112], [112, 113]]
+    wn16_key: [[1, "first%5:00:00:ordinal:00"], [2, "worker_bee%1:05:00::"], [4, "not%4:02:00::"], [5, "mate%2:35:00::"], [7, "lay%2:35:02::"], [8, "egg%1:05:00::"], [10, "male%1:05:00::"], [12, "mating%1:04:00::"], [13, "female%1:05:00::"], [15, "not%4:02:00::"], [16, "emerge%2:30:00::"], [18, "later%4:02:01::"], [21, "season%1:28:00::"]]
+    wn30_key: [[1, "first%3:00:00:ordinal:00"], [2, "worker_bee%1:05:00::"], [4, "not%4:02:00::"], [5, "mate%2:35:00::"], [7, "lay%2:35:02::"], [8, "egg%1:05:00::"], [10, "male%1:05:00::"], [12, "mating%1:04:00::"], [13, "female%1:05:00::"], [15, "not%4:02:00::"], [16, "emerge%2:30:00::"], [18, "later%4:02:01::"], [21, "season%1:28:00::"]]
+m9Mv:
+    lemmas: ["The", "brood", "of", "worker", "that", "appear", "later", "tend", "to", "be", "bigger", "than", "the", "first", "one", ",", "probably", "because", "they", "be", "better", "feed", "."]
+    oewn2026_key: [[1, "oewn-08007266-n"], [3, "oewn-02210101-n"], [5, "oewn-00423043-v"], [6, "oewn-00061741-r"], [7, "oewn-02725274-v"], [9, "oewn-02610777-v"], [10, "oewn-01386690-s"], [13, "oewn-01014459-a"], [16, "oewn-00139421-r"], [20, "oewn-00060145-r"], [21, "oewn-01184318-v"]]
+    paragraph: '4'
+    pos: ["DT", "NNS", "IN", "NNS", "WDT", "VBP", "RB", "VB", "VB", "VB", "JJR", "IN", "DT", "JJ", "NNS", ",", "RB", "IN", "PRP", "VBP", "RB", "VB", "."]
+    text: ' The broods of workers that appear later tend to be bigger than the first ones, probably
+  because they are better fed.'
+    tokens: [[1, 4], [5, 11], [12, 14], [15, 22], [23, 27], [28, 34], [35, 40], [41, 45], [46, 48], [49, 51], [52, 58], [59, 63], [64, 67], [68, 73], [74, 78], [78, 79], [80, 88], [89, 96], [97, 101], [102, 105], [106, 112], [113, 116], [116, 117]]
+    wn16_key: [[1, "brood%1:14:00::"], [3, "worker%1:05:01::"], [5, "appear%2:30:00::"], [6, "later%4:02:01::"], [7, "tend%2:42:01::"], [9, "be%2:42:03::"], [10, "bigger%5:00:00:large:00"], [13, "first%5:00:00:ordinal:00"], [16, "probably%4:02:00::"], [20, "better%4:02:00::"], [21, "feed%2:34:04::"]]
+    wn30_key: [[1, "brood%1:14:00::"], [3, "worker%1:05:01::"], [5, "appear%2:30:00::"], [6, "later%4:02:01::"], [7, "tend%2:42:01::"], [9, "be%2:42:03::"], [10, "bigger%3:00:00:large:00"], [13, "first%3:00:00:ordinal:00"], [16, "probably%4:02:00::"], [20, "better%4:02:00::"], [21, "feed%2:34:04::"]]
+7Crz:
+    lemmas: ["By", "the", "middle", "of", "the", "summer", ",", "many_of", "the", "larva", "apparently", "receive", "such", "a", "good", "diet", "that", "it", "be", "\"", "optimal", "\"", ",", "and", "it", "be", "then", "that", "young", "queen", "begin", "to", "appear", "."]
+    oewn2026_key: [[2, "oewn-01018550-s"], [5, "oewn-15262047-n"], [9, "oewn-02313712-n"], [10, "oewn-00040353-r"], [11, "oewn-02214901-v"], [12, "oewn-00148422-r"], [14, "oewn-01126910-a"], [15, "oewn-07576677-n"], [18, "oewn-02610777-v"], [20, "oewn-00230237-s"], [26, "oewn-00118799-r"], [28, "oewn-01651383-a"], [29, "oewn-02315660-n"], [30, "oewn-00346415-v"], [32, "oewn-00423043-v"]]
+    paragraph: '4'
+    pos: ["IN", "DT", "JJ", "IN", "DT", "NN", ",", "JJ", "DT", "NNS", "RB", "VBP", "RB", "DT", "JJ", "NN", "IN", "PRP", "VBZ", "``", "JJ", "''", ",", "CC", "PRP", "VBZ", "RB", "IN", "JJ", "NNS", "VBP", "TO", "VB", "."]
+    text: ' By the middle of the summer, many_of the larvae apparently receive such a good diet
+  that it is " optimal ", and it is then that young queens begin to appear.'
+    tokens: [[1, 3], [4, 7], [8, 14], [15, 17], [18, 21], [22, 28], [28, 29], [30, 37], [38, 41], [42, 48], [49, 59], [60, 67], [68, 72], [73, 74], [75, 79], [80, 84], [85, 89], [90, 92], [93, 95], [96, 97], [98, 105], [106, 107], [107, 108], [109, 112], [113, 115], [116, 118], [119, 123], [124, 128], [129, 134], [135, 141], [142, 147], [148, 150], [151, 157], [157, 158]]
+    wn16_key: [[2, "middle%5:00:00:intermediate:00"], [5, "summer%1:28:00::"], [9, "larva%1:05:00::"], [10, "apparently%4:02:00::"], [11, "receive%2:40:00::"], [12, "such%4:02:00::"], [14, "good%3:00:01::"], [15, "diet%1:13:00::"], [18, "be%2:42:03::"], [20, "optimal%5:00:00:best:00"], [26, "then%4:02:01::"], [28, "young%3:00:00::"], [29, "queen%1:05:01::"], [30, "begin%2:30:00::"], [32, "appear%2:30:00::"]]
+    wn30_key: [[2, "middle%3:00:00:intermediate:00"], [5, "summer%1:28:00::"], [9, "larva%1:05:00::"], [10, "apparently%4:02:00::"], [11, "receive%2:40:00::"], [12, "such%4:02:00::"], [14, "good%3:00:01::"], [15, "diet%1:13:00::"], [18, "be%2:42:03::"], [20, "optimal%3:00:00:best:00"], [26, "then%4:02:01::"], [28, "young%3:00:00::"], [29, "queen%1:05:01::"], [30, "begin%2:30:00::"], [32, "appear%2:30:00::"]]
+F0ls:
+    lemmas: ["simultaneously", ",", "male", "or", "drone", "be", "produce", ",", "mostly", "from", "the", "unfertilized", "egg", "of", "worker", ",", "although", "a", "few", "may", "be", "produce", "by", "the", "queen", "."]
+    oewn2026_key: [[0, "oewn-00120979-r"], [2, "oewn-01323721-n"], [4, "oewn-02209831-n"], [6, "oewn-01756303-v"], [8, "oewn-00156754-r"], [11, "oewn-01006312-s"], [12, "oewn-01463098-n"], [14, "oewn-02210101-n"], [18, "oewn-08404805-n"], [21, "oewn-01756303-v"], [24, "oewn-02315660-n"]]
+    paragraph: '4'
+    pos: ["RB", ",", "NNS", "CC", "NNS", "VBP", "VBN", ",", "RB", "IN", "DT", "JJ", "NNS", "IN", "NNS", ",", "IN", "JJ", "NN", "MD", "VB", "VBN", "IN", "DT", "NN", "."]
+    text: ' Simultaneously, males or drones are produced, mostly from the unfertilized eggs
+  of workers, although a few may be produced by the queen.'
+    tokens: [[1, 15], [15, 16], [17, 22], [23, 25], [26, 32], [33, 36], [37, 45], [45, 46], [47, 53], [54, 58], [59, 62], [63, 75], [76, 80], [81, 83], [84, 91], [91, 92], [93, 101], [102, 103], [104, 107], [108, 111], [112, 114], [115, 123], [124, 126], [127, 130], [131, 136], [136, 137]]
+    wn16_key: [[0, "simultaneously%4:02:00::"], [2, "male%1:05:00::"], [4, "drone%1:05:00::"], [6, "produce%2:36:02::"], [8, "mostly%4:02:03::"], [11, "unfertilized%5:00:00:infertile:00"], [12, "egg%1:05:00::"], [14, "worker%1:05:01::"], [18, "few%1:23:00::"], [21, "produce%2:36:02::"], [24, "queen%1:05:01::"]]
+    wn30_key: [[0, "simultaneously%4:02:00::"], [2, "male%1:05:00::"], [4, "drone%1:05:00::"], [6, "produce%2:36:02::"], [8, "mostly%4:02:03::"], [11, "unfertilized%3:00:00:sterile:00"], [12, "egg%1:05:00::"], [14, "worker%1:05:01::"], [18, "few%1:14:00::"], [21, "produce%2:36:02::"], [24, "queen%1:05:01::"]]
+Gu4A:
+    lemmas: ["The", "young", "queen", "and", "drone", "leave", "the", "nest", "and", "mate", ",", "and", "after", "a", "short", "period", "of", "freedom", ",", "the", "fertilized", "young", "queen", "will", "begin", "to", "dig", "in", "for", "the", "winter", "."]
+    oewn2026_key: [[1, "oewn-01651383-a"], [2, "oewn-02315660-n"], [4, "oewn-02209831-n"], [5, "oewn-02013448-v"], [7, "oewn-09392066-n"], [9, "oewn-01431486-v"], [14, "oewn-01445077-a"], [15, "oewn-15137796-n"], [17, "oewn-14015308-n"], [21, "oewn-01651383-a"], [22, "oewn-02315660-n"], [24, "oewn-00346415-v"], [26, "oewn-01312361-v"], [30, "oewn-15262579-n"]]
+    paragraph: '4'
+    pos: ["DT", "JJ", "NNS", "CC", "NNS", "VBP", "DT", "NN", "CC", "VB", ",", "CC", "IN", "DT", "JJ", "NN", "IN", "NN", ",", "DT", "JJ", "JJ", "NNS", "MD", "VB", "TO", "VB", "VB", "IN", "DT", "NN", "."]
+    text: ' The young queens and drones leave the nest and mate, and after a short period of
+  freedom, the fertilized young queens will begin to dig in for the winter.'
+    tokens: [[1, 4], [5, 10], [11, 17], [18, 21], [22, 28], [29, 34], [35, 38], [39, 43], [44, 47], [48, 52], [52, 53], [54, 57], [58, 63], [64, 65], [66, 71], [72, 78], [79, 81], [82, 89], [89, 90], [91, 94], [95, 105], [106, 111], [112, 118], [119, 123], [124, 129], [130, 132], [133, 136], [137, 139], [140, 143], [144, 147], [148, 154], [154, 155]]
+    wn16_key: [[1, "young%3:00:00::"], [2, "queen%1:05:01::"], [4, "drone%1:05:00::"], [5, "leave%2:38:01::"], [7, "nest%1:17:00::"], [9, "mate%2:35:00::"], [14, "short%3:00:02::"], [15, "period%1:28:00::"], [17, "freedom%1:26:00::"], [20, "fertilized%5:00:00:fertile:00"], [21, "young%3:00:00::"], [22, "queen%1:05:01::"], [24, "begin%2:30:00::"], [26, "dig%2:35:00::"], [30, "winter%1:28:00::"]]
+    wn30_key: [[1, "young%3:00:00::"], [2, "queen%1:05:01::"], [4, "drone%1:05:00::"], [5, "leave%2:38:01::"], [7, "nest%1:17:00::"], [9, "mate%2:35:00::"], [14, "short%3:00:02::"], [15, "period%1:28:00::"], [17, "freedom%1:26:00::"], [21, "young%3:00:00::"], [22, "queen%1:05:01::"], [24, "begin%2:30:00::"], [26, "dig%2:35:00::"], [30, "winter%1:28:00::"]]
+LPvQ:
+    lemmas: ["It", "be", "an", "amazing", "fact", "that", "in", "some", "species", "this", "will", "happen", "while", "the", "summer", "be", "still", "in_full_swing", ",", "for_instance", ",", "in", "august", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [3, "oewn-02368344-s"], [4, "oewn-05825522-n"], [7, "oewn-02275064-a"], [8, "oewn-08127339-n"], [11, "oewn-00340744-v"], [14, "oewn-15262047-n"], [15, "oewn-02610777-v"], [16, "oewn-00031700-r"], [19, "oewn-00160239-r"], [22, "oewn-15237251-n"]]
+    paragraph: '4'
+    pos: ["PRP", "VBZ", "DT", "JJ", "NN", "IN", "IN", "JJ", "NNS", "DT", "MD", "VB", "IN", "DT", "NN", "VBZ", "RB", "JJ", ",", "RB", ",", "IN", "NNP", "."]
+    text: ' It is an amazing fact that in some species this will happen while the summer is
+  still in_full_swing, for_instance, in August.'
+    tokens: [[1, 3], [4, 6], [7, 9], [10, 17], [18, 22], [23, 27], [28, 30], [31, 35], [36, 43], [44, 48], [49, 53], [54, 60], [61, 66], [67, 70], [71, 77], [78, 80], [81, 86], [87, 100], [100, 101], [102, 114], [114, 115], [116, 118], [119, 125], [125, 126]]
+    wn16_key: [[1, "be%2:42:03::"], [3, "amazing%5:00:00:surprising:00"], [4, "fact%1:09:01::"], [7, "some%3:00:00::"], [8, "species%1:14:00::"], [11, "happen%2:30:00::"], [14, "summer%1:28:00::"], [15, "be%2:42:03::"], [16, "still%4:02:01::"], [17, "in_full_swing%5:00:00:active:06"], [19, "for_instance%4:02:00::"], [22, "august%1:28:00::"]]
+    wn30_key: [[1, "be%2:42:03::"], [3, "amazing%3:00:00:surprising:00"], [4, "fact%1:09:01::"], [7, "some%3:00:00::"], [8, "species%1:14:00::"], [11, "happen%2:30:00::"], [14, "summer%1:28:00::"], [15, "be%2:42:03::"], [16, "still%4:02:01::"], [19, "for_instance%4:02:00::"], [22, "august%1:28:00::"]]
+2mkW:
+    lemmas: ["The", "temperature", "then", "be", "still", "very", "high", "."]
+    oewn2026_key: [[1, "oewn-05018974-n"], [2, "oewn-00118799-r"], [3, "oewn-02610777-v"], [4, "oewn-00031700-r"], [5, "oewn-00032295-r"], [6, "oewn-01213526-a"]]
+    paragraph: '4'
+    pos: ["DT", "NN", "RB", "VBZ", "RB", "RB", "JJ", "."]
+    text: ' The temperature then is still very high.'
+    tokens: [[1, 4], [5, 16], [17, 21], [22, 24], [25, 30], [31, 35], [36, 40], [40, 41]]
+    wn16_key: [[1, "temperature%1:07:00::"], [2, "then%4:02:01::"], [3, "be%2:42:03::"], [4, "still%4:02:01::"], [5, "very%4:02:00::"], [6, "high%3:00:02::"]]
+    wn30_key: [[1, "temperature%1:07:00::"], [2, "then%4:02:01::"], [3, "be%2:42:03::"], [4, "still%4:02:01::"], [5, "very%4:02:00::"], [6, "high%3:00:02::"]]
+HmYr:
+    lemmas: ["At", "the", "old", "nest", ",", "the", "queen", "will", "in", "the", "early", "fall", "cease", "to", "lay", "the", "fertilized", "egg", "that", "will", "produce", "female", "."]
+    oewn2026_key: [[2, "oewn-01642580-a"], [3, "oewn-09392066-n"], [6, "oewn-02315660-n"], [10, "oewn-00816521-a"], [11, "oewn-15261656-n"], [12, "oewn-02686624-v"], [14, "oewn-01547861-v"], [17, "oewn-01463098-n"], [20, "oewn-01756303-v"], [21, "oewn-01323363-n"]]
+    paragraph: '4'
+    pos: ["IN", "DT", "JJ", "NN", ",", "DT", "NN", "MD", "IN", "DT", "JJ", "NN", "VB", "TO", "VB", "DT", "JJ", "NNS", "WDT", "MD", "VB", "NNS", "."]
+    text: ' At the old nest, the queen will in the early fall cease to lay the fertilized eggs
+  that will produce females.'
+    tokens: [[1, 3], [4, 7], [8, 11], [12, 16], [16, 17], [18, 21], [22, 27], [28, 32], [33, 35], [36, 39], [40, 45], [46, 50], [51, 56], [57, 59], [60, 63], [64, 67], [68, 78], [79, 83], [84, 88], [89, 93], [94, 101], [102, 109], [109, 110]]
+    wn16_key: [[2, "old%3:00:01::"], [3, "nest%1:17:00::"], [6, "queen%1:05:01::"], [10, "early%3:00:00::"], [11, "fall%1:28:00::"], [12, "cease%2:42:00::"], [14, "lay%2:35:02::"], [16, "fertilized%5:00:00:fertile:00"], [17, "egg%1:05:00::"], [20, "produce%2:36:02::"], [21, "female%1:05:00::"]]
+    wn30_key: [[2, "old%3:00:01::"], [3, "nest%1:17:00::"], [6, "queen%1:05:01::"], [10, "early%3:00:00::"], [11, "fall%1:28:00::"], [12, "cease%2:42:00::"], [14, "lay%2:35:02::"], [17, "egg%1:05:00::"], [20, "produce%2:36:02::"], [21, "female%1:05:00::"]]
+gOQD:
+    lemmas: ["As", "a", "result", ",", "the", "proportion", "of", "male", "(", "which", "leave", "the", "nest", ")", "increase", ",", "and", "eventually", "the", "old", "colony", "will", "die_out", "completely", "."]
+    oewn2026_key: [[2, "oewn-11430739-n"], [5, "oewn-13837954-n"], [7, "oewn-01323721-n"], [10, "oewn-02013448-v"], [12, "oewn-09392066-n"], [14, "oewn-00156409-v"], [17, "oewn-00048676-r"], [19, "oewn-01642580-a"], [20, "oewn-08012298-n"], [22, "oewn-00428636-v"], [23, "oewn-00158747-r"]]
+    paragraph: '4'
+    pos: ["IN", "DT", "NN", ",", "DT", "NN", "IN", "NNS", "CD", "WDT", "VBP", "DT", "NN", "NN", "VBZ", ",", "CC", "RB", "DT", "JJ", "NN", "MD", "VB", "RB", "."]
+    text: ' As a result, the proportion of males (which leave the nest) increases, and eventually
+  the old colony will die_out completely.'
+    tokens: [[1, 3], [4, 5], [6, 12], [12, 13], [14, 17], [18, 28], [29, 31], [32, 37], [38, 39], [39, 44], [45, 50], [51, 54], [55, 59], [59, 60], [61, 70], [70, 71], [72, 75], [76, 86], [87, 90], [91, 94], [95, 101], [102, 106], [107, 114], [115, 125], [125, 126]]
+    wn16_key: [[2, "result%1:19:00::"], [5, "proportion%1:24:00::"], [7, "male%1:05:00::"], [10, "leave%2:38:01::"], [12, "nest%1:17:00::"], [14, "increase%2:30:00::"], [17, "eventually%4:02:00::"], [19, "old%3:00:01::"], [20, "colony%1:14:01::"], [22, "die_out%2:30:00::"], [23, "completely%4:02:03::"]]
+    wn30_key: [[2, "result%1:19:00::"], [5, "proportion%1:24:00::"], [7, "male%1:05:00::"], [10, "leave%2:38:01::"], [12, "nest%1:17:00::"], [14, "increase%2:30:00::"], [17, "eventually%4:02:00::"], [19, "old%3:00:01::"], [20, "colony%1:14:01::"], [22, "die_out%2:30:00::"], [23, "completely%4:02:03::"]]
+ahGK:
+    lemmas: ["The", "nest", "itself", ",", "the", "structure", "that", "in", "some", "case", "house", "about", "2000", "individual", "when", "the", "season", "be", "at", "its", "peak", ",", "be", "now", "rapidly", "destroy", "by", "the", "scavenging", "larva", "of", "certain", "beetle", "and", "moth", "."]
+    oewn2026_key: [[1, "oewn-09392066-n"], [5, "oewn-04348764-n"], [9, "oewn-07323507-n"], [10, "oewn-02464596-v"], [13, "oewn-10223458-n"], [16, "oewn-15261272-n"], [17, "oewn-02661230-v"], [20, "oewn-15320288-n"], [23, "oewn-00049971-r"], [24, "oewn-00086161-r"], [25, "oewn-01566925-v"], [29, "oewn-02313712-n"], [31, "oewn-00704329-s"], [32, "oewn-02167116-n"], [34, "oewn-02285853-n"]]
+    paragraph: '4'
+    pos: ["DT", "NN", "PRP", ",", "DT", "NN", "IN", "IN", "DT", "NNS", "VBN", "IN", "CD", "NNS", "WRB", "DT", "NN", "VBD", "IN", "PRP$", "NN", ",", "VBZ", "RB", "RB", "VBN", "IN", "DT", "JJ", "NN", "IN", "JJ", "NNS", "CC", "NNS", "."]
+    text: ' The nest itself, the structure that in some cases housed about 2000 individuals
+  when the season was at its peak, is now rapidly destroyed by the scavenging larvae
+  of certain beetles and moths.
+
+  '
+    tokens: [[1, 4], [5, 9], [10, 16], [16, 17], [18, 21], [22, 31], [32, 36], [37, 39], [40, 44], [45, 50], [51, 57], [58, 63], [64, 68], [69, 80], [81, 85], [86, 89], [90, 96], [97, 100], [101, 103], [104, 107], [108, 112], [112, 113], [114, 116], [117, 120], [121, 128], [129, 138], [139, 141], [142, 145], [146, 156], [157, 163], [164, 166], [167, 174], [175, 182], [183, 186], [187, 192], [192, 193]]
+    wn16_key: [[1, "nest%1:17:00::"], [5, "structure%1:06:00::"], [9, "case%1:11:00::"], [10, "house%2:41:00::"], [13, "individual%1:18:00::"], [16, "season%1:28:00::"], [17, "be%2:42:05::"], [20, "peak%1:28:00::"], [23, "now%4:02:05::"], [24, "rapidly%4:02:00::"], [25, "destroy%2:35:00::"], [28, "scavenging%5:00:00:thrifty:00"], [29, "larva%1:05:00::"], [31, "certain%5:00:00:definite:00"], [32, "beetle%1:05:00::"], [34, "moth%1:05:00::"]]
+    wn30_key: [[1, "nest%1:17:00::"], [5, "structure%1:06:00::"], [9, "case%1:11:00::"], [10, "house%2:41:00::"], [13, "individual%1:18:00::"], [16, "season%1:28:00::"], [17, "be%2:42:05::"], [20, "peak%1:28:00::"], [23, "now%4:02:05::"], [24, "rapidly%4:02:00::"], [25, "destroy%2:35:00::"], [29, "larva%1:05:00::"], [31, "certain%3:00:00:definite:00"], [32, "beetle%1:05:00::"], [34, "moth%1:05:00::"]]
+PTk0:
+    lemmas: ["not", "always", ",", "though", ",", "do", "the", "development", "of", "a", "bumblebee", "colony", "take_place", "in", "the", "smooth", "fashion", "we", "have", "just", "describe", "."]
+    oewn2026_key: [[0, "oewn-00024432-r"], [1, "oewn-00019801-r"], [3, "oewn-00120034-r"], [7, "oewn-13510240-n"], [10, "oewn-02212276-n"], [11, "oewn-08012298-n"], [12, "oewn-00340744-v"], [15, "oewn-02244586-a"], [16, "oewn-00416239-n"], [19, "oewn-00033695-r"], [20, "oewn-00967067-v"]]
+    paragraph: '5'
+    pos: ["RB", "RB", ",", "RB", ",", "VBZ", "DT", "NN", "IN", "DT", "NN", "NN", "VB", "IN", "DT", "JJ", "NN", "PRP", "VBP", "RB", "VBN", "."]
+    text: ' Not always, though, does the development of a bumblebee colony take_place in the
+  smooth fashion we have just described.'
+    tokens: [[1, 4], [5, 11], [11, 12], [13, 19], [19, 20], [21, 25], [26, 29], [30, 41], [42, 44], [45, 46], [47, 56], [57, 63], [64, 74], [75, 77], [78, 81], [82, 88], [89, 96], [97, 99], [100, 104], [105, 109], [110, 119], [119, 120]]
+    wn16_key: [[0, "not%4:02:00::"], [1, "always%4:02:00::"], [3, "though%4:02:00::"], [7, "development%1:22:01::"], [10, "bumblebee%1:05:00::"], [11, "colony%1:14:01::"], [12, "take_place%2:30:00::"], [15, "smooth%3:00:00::"], [16, "fashion%1:04:00::"], [19, "just%4:02:01::"], [20, "describe%2:32:01::"]]
+    wn30_key: [[0, "not%4:02:00::"], [1, "always%4:02:00::"], [3, "though%4:02:01::"], [7, "development%1:22:01::"], [10, "bumblebee%1:05:00::"], [11, "colony%1:14:01::"], [12, "take_place%2:30:00::"], [15, "smooth%3:00:00::"], [16, "fashion%1:04:00::"], [19, "just%4:02:01::"], [20, "describe%2:32:01::"]]
+c3E9:
+    lemmas: ["some", "member", "of", "the", "bee", "family", "have", "become", "idler", ",", "social", "parasite", "that", "live", "at", "the", "expense", "of", "their", "hardworking", "relative", "."]
+    oewn2026_key: [[0, "oewn-01556991-s"], [1, "oewn-13832827-n"], [4, "oewn-02209508-n"], [5, "oewn-08124465-n"], [7, "oewn-02632685-v"], [8, "oewn-10217586-n"], [10, "oewn-02256093-a"], [11, "oewn-01387328-n"], [13, "oewn-02622766-v"], [16, "oewn-13296518-n"], [19, "oewn-00758203-s"], [20, "oewn-01330943-n"]]
+    paragraph: '5'
+    pos: ["JJ", "NNS", "IN", "DT", "NN", "NN", "VBP", "VBN", "NNS", ",", "JJ", "NNS", "WDT", "VBP", "IN", "DT", "NN", "IN", "PRP$", "JJ", "NNS", "."]
+    text: ' Some members of the bee family have become idlers, social parasites that live at
+  the expense of their hardworking relatives.'
+    tokens: [[1, 5], [6, 13], [14, 16], [17, 20], [21, 24], [25, 31], [32, 36], [37, 43], [44, 50], [50, 51], [52, 58], [59, 68], [69, 73], [74, 78], [79, 81], [82, 85], [86, 93], [94, 96], [97, 102], [103, 114], [115, 124], [124, 125]]
+    wn16_key: [[0, "some%5:00:00:unspecified:00"], [1, "member%1:24:00::"], [4, "bee%1:05:00::"], [5, "family%1:14:03::"], [7, "become%2:42:01::"], [8, "idler%1:18:00::"], [10, "social%3:00:00::"], [11, "parasite%1:05:00::"], [13, "live%2:42:01::"], [16, "expense%1:21:00::"], [19, "hardworking%5:00:00:diligent:00"], [20, "relative%1:05:00::"]]
+    wn30_key: [[0, "some%3:00:00:many:00"], [1, "member%1:24:00::"], [4, "bee%1:05:00::"], [5, "family%1:14:03::"], [7, "become%2:42:01::"], [8, "idler%1:18:00::"], [10, "social%3:00:00::"], [11, "parasite%1:05:00::"], [13, "live%2:42:01::"], [16, "expense%1:21:00::"], [19, "hardworking%3:00:00:diligent:00"], [20, "relative%1:05:00::"]]
+nPDB:
+    lemmas: ["bumblebee", "can", "thus", "suffer", "severely", "from", "the", "onslaught", "of", "psithyrus", ",", "the", "\"", "cuckoo-bumblebee", "\"", "as", "it", "be", "called", "in", "some", "european_country", "."]
+    oewn2026_key: [[0, "oewn-02212276-n"], [2, "oewn-00122019-r"], [3, "oewn-00205112-v"], [4, "oewn-00016415-r"], [7, "oewn-07320778-n"], [13, "oewn-02212616-n"], [21, "oewn-08714745-n"]]
+    paragraph: '5'
+    pos: ["NNS", "MD", "RB", "VB", "RB", "IN", "DT", "NNS", "IN", "NNP", ",", "DT", "``", "NN", "''", "RB", "PRP", "VB", "JJ", "IN", "DT", "NNS", "."]
+    text: ' Bumblebees can thus suffer severely from the onslaughts of Psithyrus, the " cuckoo_bumblebee
+  " as it is called in some European_countries.'
+    tokens: [[1, 11], [12, 15], [16, 20], [21, 27], [28, 36], [37, 41], [42, 45], [46, 56], [57, 59], [60, 69], [69, 70], [71, 74], [75, 76], [77, 93], [94, 95], [96, 98], [99, 101], [102, 104], [105, 111], [112, 114], [115, 119], [120, 138], [138, 139]]
+    wn16_key: [[0, "bumblebee%1:05:00::"], [2, "thus%4:02:01::"], [3, "suffer%2:30:00::"], [4, "severely%4:02:01::"], [7, "onslaught%1:11:00::"], [13, "cuckoo-bumblebee%1:05:00::"], [18, "called%5:00:01:titled:00"], [21, "european_country%1:15:00::"]]
+    wn30_key: [[0, "bumblebee%1:05:00::"], [2, "thus%4:02:01::"], [3, "suffer%2:30:00::"], [4, "severely%4:02:01::"], [7, "onslaught%1:11:00::"], [13, "cuckoo-bumblebee%1:05:00::"], [21, "european_country%1:15:00::"]]
+VCTF:
+    lemmas: ["female", "individual", "of", "psithyrus", "look", "deceptively", "like", "the", "worker", "and", "queen", "of", "the", "bumblebee", "they", "victimize", "."]
+    oewn2026_key: [[0, "oewn-01323363-n"], [1, "oewn-10223458-n"], [3, "oewn-02212407-n"], [4, "oewn-00033592-v"], [5, "oewn-00082498-r"], [8, "oewn-02210101-n"], [10, "oewn-02315660-n"], [13, "oewn-02212276-n"], [15, "oewn-02580280-v"]]
+    paragraph: '5'
+    pos: ["NN", "NNS", "IN", "NNP", "VBP", "RB", "RB", "DT", "NNS", "CC", "NNS", "IN", "DT", "NNS", "PRP", "VBP", "."]
+    text: ' Female individuals of Psithyrus look deceptively like the workers and queens of
+  the bumblebees they victimize.'
+    tokens: [[1, 7], [8, 19], [20, 22], [23, 32], [33, 37], [38, 49], [50, 54], [55, 58], [59, 66], [67, 70], [71, 77], [78, 80], [81, 84], [85, 95], [96, 100], [101, 110], [110, 111]]
+    wn16_key: [[0, "female%1:05:00::"], [1, "individual%1:18:00::"], [3, "psithyrus%1:05:00::"], [4, "look%2:29:00::"], [5, "deceptively%4:02:00::"], [8, "worker%1:05:01::"], [10, "queen%1:05:01::"], [13, "bumblebee%1:05:00::"], [15, "victimize%2:41:01::"]]
+    wn30_key: [[0, "female%1:05:00::"], [1, "individual%1:18:00::"], [3, "psithyrus%1:05:00::"], [4, "look%2:29:00::"], [5, "deceptively%4:02:00::"], [8, "worker%1:05:01::"], [10, "queen%1:05:01::"], [13, "bumblebee%1:05:00::"], [15, "victimize%2:41:01::"]]
+WAg1:
+    lemmas: ["The", "one", "sure", "way", "to", "tell_apart", "victim", "and", "villain", "apart", "be", "to", "examine", "the", "hind_leg", "which", "in", "the", "case", "of", "the", "idler", ",", "psithyrus", ",", "lack", "the", "pollen", "basket", "-", "naturally", "!"]
+    oewn2026_key: [[1, "oewn-02071831-s"], [2, "oewn-00727841-s"], [3, "oewn-00173531-n"], [5, "oewn-02197640-v"], [6, "oewn-10771761-n"], [8, "oewn-10773214-n"], [10, "oewn-02622439-v"], [12, "oewn-02135744-v"], [14, "oewn-02467257-n"], [18, "oewn-13966452-n"], [21, "oewn-10217586-n"], [23, "oewn-02212407-n"], [25, "oewn-02638434-v"], [27, "oewn-11695988-n"], [28, "oewn-13787347-n"], [30, "oewn-00039019-r"]]
+    paragraph: '5'
+    pos: ["DT", "JJ", "JJ", "NN", "TO", "VB", "NN", "CC", "NN", "RB", "VBZ", "TO", "VB", "DT", "NNS", "WDT", "IN", "DT", "NN", "IN", "DT", "NN", ",", "NN", ",", "VBP", "DT", "NN", "NNS", ":", "RB", "."]
+    text: ' The one sure way to tell victim and villain apart is to examine the hind_legs which
+  in the case of the idler, Psithyrus, lack the pollen baskets - naturally!'
+    tokens: [[1, 4], [5, 8], [9, 13], [14, 17], [18, 20], [21, 25], [26, 32], [33, 36], [37, 44], [45, 50], [51, 53], [54, 56], [57, 64], [65, 68], [69, 78], [79, 84], [85, 87], [88, 91], [92, 96], [97, 99], [100, 103], [104, 109], [109, 110], [111, 120], [120, 121], [122, 126], [127, 130], [131, 137], [138, 145], [146, 147], [148, 157], [157, 158]]
+    wn16_key: [[1, "one%5:00:02:single(a):00"], [2, "sure%5:00:00:reliable:00"], [3, "way%1:04:01::"], [5, "tell_apart%2:39:00::"], [6, "victim%1:18:00::"], [8, "villain%1:18:00::"], [10, "be%2:42:06::"], [12, "examine%2:39:00::"], [14, "hind_leg%1:05:00::"], [18, "case%1:26:00::"], [21, "idler%1:18:00::"], [23, "psithyrus%1:05:00::"], [25, "lack%2:42:00::"], [27, "pollen%1:20:00::"], [28, "basket%1:23:00::"], [30, "naturally%4:02:00::"]]
+    wn30_key: [[1, "one%3:00:00:same:00"], [2, "sure%3:00:00:reliable:00"], [3, "way%1:04:01::"], [5, "tell_apart%2:39:00::"], [6, "victim%1:18:00::"], [8, "villain%1:18:00::"], [10, "be%2:42:06::"], [12, "examine%2:39:00::"], [14, "hind_leg%1:05:00::"], [18, "case%1:26:00::"], [21, "idler%1:18:00::"], [23, "psithyrus%1:05:00::"], [25, "lack%2:42:00::"], [27, "pollen%1:20:00::"], [28, "basket%1:23:00::"], [30, "naturally%4:02:00::"]]
+Xlqu:
+    lemmas: ["The", "female", "parasite", "spend", "much", "time", "in", "her", "effort", "to", "find", "a", "nest", "of", "her", "host", "."]
+    oewn2026_key: [[1, "oewn-01481113-a"], [2, "oewn-01387328-n"], [3, "oewn-02714280-v"], [4, "oewn-01557986-a"], [5, "oewn-15295388-n"], [8, "oewn-00787849-n"], [10, "oewn-02218118-v"], [12, "oewn-09392066-n"], [15, "oewn-01388168-n"]]
+    paragraph: '5'
+    pos: ["DT", "JJ", "NN", "VBZ", "JJ", "NN", "IN", "PRP$", "NNS", "TO", "VB", "DT", "NN", "IN", "PRP$", "NN", "."]
+    text: ' The female parasite spends much time in her efforts to find a nest of her host.'
+    tokens: [[1, 4], [5, 11], [12, 20], [21, 27], [28, 32], [33, 37], [38, 40], [41, 44], [45, 52], [53, 55], [56, 60], [61, 62], [63, 67], [68, 70], [71, 74], [75, 79], [79, 80]]
+    wn16_key: [[1, "female%3:00:00::"], [2, "parasite%1:05:00::"], [3, "spend%2:42:00::"], [4, "much%3:00:00::"], [5, "time%1:28:05::"], [8, "effort%1:04:00::"], [10, "find%2:40:01::"], [12, "nest%1:17:00::"], [15, "host%1:05:00::"]]
+    wn30_key: [[1, "female%3:00:00::"], [2, "parasite%1:05:00::"], [3, "spend%2:42:00::"], [4, "much%3:00:00::"], [5, "time%1:28:05::"], [8, "effort%1:04:00::"], [10, "find%2:40:01::"], [12, "nest%1:17:00::"], [15, "host%1:05:00::"]]
+WJJu:
+    lemmas: ["When", "she", "succeed", ",", "she", "usually", "manage", "to", "slip_in", "unobtrusively", ",", "to", "deposit", "an", "egg", "on", "a", "completed", "loaf", "of", "beebread", "before", "the", "bumblebee", "seal", "the", "egg", "compartment", "."]
+    oewn2026_key: [[2, "oewn-02529837-v"], [5, "oewn-00107608-r"], [6, "oewn-02528530-v"], [8, "oewn-01027611-v"], [9, "oewn-00414897-r"], [12, "oewn-01578506-v"], [14, "oewn-01463098-n"], [17, "oewn-00523272-s"], [18, "oewn-07699531-n"], [20, "oewn-14798251-n"], [23, "oewn-02212276-n"], [24, "oewn-01356108-v"], [26, "oewn-01463098-n"], [27, "oewn-03084313-n"]]
+    paragraph: '5'
+    pos: ["WRB", "PRP", "VBZ", ",", "PRP", "RB", "VBZ", "TO", "VB", "RB", ",", "TO", "VB", "DT", "NN", "VB", "DT", "JJ", "NN", "IN", "NN", "IN", "DT", "NNS", "VBP", "DT", "NN", "NN", "."]
+    text: ' When she succeeds, she usually manages to slip_in unobtrusively, to deposit an egg
+  on a completed loaf of beebread before the bumblebees seal the egg compartment.'
+    tokens: [[1, 5], [6, 9], [10, 18], [18, 19], [20, 23], [24, 31], [32, 39], [40, 42], [43, 50], [51, 64], [64, 65], [66, 68], [69, 76], [77, 79], [80, 83], [84, 86], [87, 88], [89, 98], [99, 103], [104, 106], [107, 115], [116, 122], [123, 126], [127, 137], [138, 142], [143, 146], [147, 150], [151, 162], [162, 163]]
+    wn16_key: [[2, "succeed%2:41:00::"], [5, "usually%4:02:00::"], [6, "manage%2:41:09::"], [8, "slip_in%2:32:00::"], [9, "unobtrusively%4:02:00::"], [12, "deposit%2:35:01::"], [14, "egg%1:05:00::"], [17, "completed%5:00:00:complete:00"], [18, "loaf%1:13:00::"], [20, "beebread%1:27:00::"], [23, "bumblebee%1:05:00::"], [24, "seal%2:35:00::"], [26, "egg%1:05:00::"], [27, "compartment%1:06:01::"]]
+    wn30_key: [[2, "succeed%2:41:00::"], [5, "usually%4:02:00::"], [6, "manage%2:41:09::"], [8, "slip_in%2:32:00::"], [9, "unobtrusively%4:02:00::"], [12, "deposit%2:35:01::"], [14, "egg%1:05:00::"], [17, "completed%3:00:00:complete:00"], [18, "loaf%1:13:00::"], [20, "beebread%1:27:00::"], [23, "bumblebee%1:05:00::"], [24, "seal%2:35:00::"], [26, "egg%1:05:00::"], [27, "compartment%1:06:01::"]]
+LmL/:
+    lemmas: ["The", "host", "never", "seem", "to", "recognize", "that", "something", "be", "amiss", ",", "so", "that", "the", "compartment", "afterward", "be", "seal", "normally", "."]
+    oewn2026_key: [[1, "oewn-01388168-n"], [2, "oewn-00021214-r"], [3, "oewn-02137900-v"], [5, "oewn-00730579-v"], [8, "oewn-02610777-v"], [9, "oewn-01096064-s"], [14, "oewn-03084313-n"], [15, "oewn-00061741-r"], [17, "oewn-01356108-v"], [18, "oewn-00107608-r"]]
+    paragraph: '5'
+    pos: ["DT", "NNS", "RB", "VBP", "TO", "VB", "IN", "NN", "VBZ", "JJ", ",", "RB", "RB", "DT", "NN", "RB", "VBZ", "VBN", "RB", "."]
+    text: ' The hosts never seem to recognize that something is amiss, so that the compartment
+  afterward is sealed normally.'
+    tokens: [[1, 4], [5, 10], [11, 16], [17, 21], [22, 24], [25, 34], [35, 39], [40, 49], [50, 52], [53, 58], [58, 59], [60, 62], [63, 67], [68, 71], [72, 83], [84, 93], [94, 96], [97, 103], [104, 112], [112, 113]]
+    wn16_key: [[1, "host%1:05:00::"], [2, "never%4:02:00::"], [3, "seem%2:39:00::"], [5, "recognize%2:31:01::"], [8, "be%2:42:03::"], [9, "amiss%5:00:00:malfunctioning:00"], [14, "compartment%1:06:01::"], [15, "afterward%4:02:00::"], [17, "seal%2:35:00::"], [18, "normally%4:02:00::"]]
+    wn30_key: [[1, "host%1:05:00::"], [2, "never%4:02:00::"], [3, "seem%2:39:00::"], [5, "recognize%2:31:01::"], [8, "be%2:42:03::"], [9, "amiss%3:00:00:malfunctioning:00"], [14, "compartment%1:06:01::"], [15, "afterward%4:02:00::"], [17, "seal%2:35:00::"], [18, "normally%4:02:00::"]]
+BY4g:
+    lemmas: ["thus", ",", "the", "larva", "of", "the", "intruder", "can", "develop", "at", "the", "expense", "of", "the", "rightful", "inhabitant", "and", "the", "store", "of", "beebread", "."]
+    oewn2026_key: [[0, "oewn-00043413-r"], [3, "oewn-02313712-n"], [6, "oewn-10233322-n"], [8, "oewn-00252905-v"], [11, "oewn-13296518-n"], [14, "oewn-01373402-s"], [15, "oewn-09643248-n"], [18, "oewn-13388243-n"], [20, "oewn-14798251-n"]]
+    paragraph: '5'
+    pos: ["RB", ",", "DT", "NN", "IN", "DT", "NN", "MD", "VB", "IN", "DT", "NN", "IN", "DT", "JJ", "NNS", "CC", "DT", "NN", "IN", "NN", "."]
+    text: ' Thus, the larvae of the intruder can develop at the expense of the rightful inhabitants
+  and the store of beebread.'
+    tokens: [[1, 5], [5, 6], [7, 10], [11, 17], [18, 20], [21, 24], [25, 33], [34, 37], [38, 45], [46, 48], [49, 52], [53, 60], [61, 63], [64, 67], [68, 76], [77, 88], [89, 92], [93, 96], [97, 102], [103, 105], [106, 114], [114, 115]]
+    wn16_key: [[0, "thus%4:02:00::"], [3, "larva%1:05:00::"], [6, "intruder%1:18:00::"], [8, "develop%2:30:00::"], [11, "expense%1:21:00::"], [14, "rightful%5:00:00:just:00"], [15, "inhabitant%1:18:00::"], [18, "store%1:21:00::"], [20, "beebread%1:27:00::"]]
+    wn30_key: [[0, "thus%4:02:00::"], [3, "larva%1:05:00::"], [6, "intruder%1:18:00::"], [8, "develop%2:30:00::"], [11, "expense%1:21:00::"], [14, "rightful%3:00:00:just:00"], [15, "inhabitant%1:18:00::"], [18, "store%1:21:00::"], [20, "beebread%1:27:00::"]]
+NWpl:
+    lemmas: ["later_on", ",", "they", "and", "the", "mother", "psithyrus", "be", "feed", "by", "the", "bombus", "worker", "."]
+    oewn2026_key: [[0, "oewn-00061741-r"], [5, "oewn-10352098-n"], [6, "oewn-02212407-n"], [8, "oewn-01184318-v"], [11, "oewn-02212160-n"], [12, "oewn-02210101-n"]]
+    paragraph: '5'
+    pos: ["RB", ",", "PRP", "CC", "DT", "NN", "NNP", "VBP", "VBN", "IN", "DT", "NNP", "NNS", "."]
+    text: ' Later_on, they and the mother Psithyrus are fed by the Bombus workers.'
+    tokens: [[1, 9], [9, 10], [11, 15], [16, 19], [20, 23], [24, 30], [31, 40], [41, 44], [45, 48], [49, 51], [52, 55], [56, 62], [63, 70], [70, 71]]
+    wn16_key: [[0, "later_on%4:02:00::"], [5, "mother%1:18:00::"], [6, "psithyrus%1:05:00::"], [8, "feed%2:34:04::"], [11, "bombus%1:05:00::"], [12, "worker%1:05:01::"]]
+    wn30_key: [[0, "later_on%4:02:00::"], [5, "mother%1:18:00::"], [6, "psithyrus%1:05:00::"], [8, "feed%2:34:04::"], [11, "bombus%1:05:00::"], [12, "worker%1:05:01::"]]
+1e4F:
+    lemmas: ["worse", "still", ",", "in", "a", "number", "of", "case", "it", "have", "be", "claim", "that", "the", "psithyrus", "female", "kill_off", "the", "bombus", "queen", "."]
+    oewn2026_key: [[0, "oewn-00017539-r"], [1, "oewn-00018101-r"], [5, "oewn-05128718-n"], [7, "oewn-13966452-n"], [10, "oewn-02610777-v"], [11, "oewn-00760378-v"], [14, "oewn-02212407-n"], [15, "oewn-01323363-n"], [16, "oewn-01330264-v"], [18, "oewn-02212160-n"], [19, "oewn-02315660-n"]]
+    paragraph: '5'
+    pos: ["RBR", "RB", ",", "IN", "JJ", "NN", "JJ", "NNS", "PRP", "VBZ", "VBN", "VBN", "IN", "DT", "NNP", "NN", "VB", "DT", "NNP", "NN", "."]
+    text: ' Worse still, in a number of cases it has been claimed that the Psithyrus female
+  kills_off the Bombus queen.
+
+  '
+    tokens: [[1, 6], [7, 12], [12, 13], [14, 16], [17, 18], [19, 25], [26, 28], [29, 34], [35, 37], [38, 41], [42, 46], [47, 54], [55, 59], [60, 63], [64, 73], [74, 80], [81, 90], [91, 94], [95, 101], [102, 107], [107, 108]]
+    wn16_key: [[0, "worse%4:02:00::"], [1, "still%4:02:00::"], [5, "number%1:07:00::"], [7, "case%1:26:00::"], [10, "be%2:42:03::"], [11, "claim%2:32:03::"], [14, "psithyrus%1:05:00::"], [15, "female%1:05:00::"], [16, "kill_off%2:35:00::"], [18, "bombus%1:05:00::"], [19, "queen%1:05:01::"]]
+    wn30_key: [[0, "worse%4:02:00::"], [1, "still%4:02:00::"], [5, "number%1:07:00::"], [7, "case%1:26:00::"], [10, "be%2:42:03::"], [11, "claim%2:32:03::"], [14, "psithyrus%1:05:00::"], [15, "female%1:05:00::"], [16, "kill_off%2:35:00::"], [18, "bombus%1:05:00::"], [19, "queen%1:05:01::"]]
+RfDP:
+    lemmas: ["But", "let", "us", "return", ",", "after", "this", "gruesome", "interlude", ",", "to", "our", "willow", "catkin", "in", "the", "spring", ";", "there", "be", "other", "wild", "bee", "that", "command", "our", "attention", "."]
+    oewn2026_key: [[1, "oewn-02427979-v"], [3, "oewn-00387981-v"], [7, "oewn-00197276-s"], [8, "oewn-15297671-n"], [12, "oewn-12745702-n"], [13, "oewn-11695249-n"], [16, "oewn-15261841-n"], [19, "oewn-02609706-v"], [20, "oewn-02076759-a"], [21, "oewn-02397788-a"], [22, "oewn-02209508-n"], [24, "oewn-01020186-v"], [26, "oewn-05710222-n"]]
+    paragraph: '6'
+    pos: ["CC", "VB", "PRP", "VB", ",", "IN", "DT", "JJ", "NN", ",", "TO", "PRP$", "NN", "NNS", "IN", "DT", "NN", ":", "EX", "VBP", "JJ", "JJ", "NNS", "IN", "VBP", "PRP$", "NN", "."]
+    text: ' But let us return, after this gruesome interlude, to our willow catkins in the spring;
+  there are other wild bees that command our attention.
+
+  '
+    tokens: [[1, 4], [5, 8], [9, 11], [12, 18], [18, 19], [20, 25], [26, 30], [31, 39], [40, 49], [49, 50], [51, 53], [54, 57], [58, 64], [65, 72], [73, 75], [76, 79], [80, 86], [86, 87], [88, 93], [94, 97], [98, 103], [104, 108], [109, 113], [114, 118], [119, 126], [127, 130], [131, 140], [140, 141]]
+    wn16_key: [[1, "let%2:41:00::"], [3, "return%2:30:00::"], [7, "gruesome%5:00:00:alarming:00"], [8, "interlude%1:28:00::"], [12, "willow%1:20:00::"], [13, "catkin%1:20:00::"], [16, "spring%1:28:00::"], [19, "be%2:42:00::"], [20, "other%3:00:00::"], [21, "wild%3:00:01::"], [22, "bee%1:05:00::"], [24, "command%2:32:02::"], [26, "attention%1:09:00::"]]
+    wn30_key: [[1, "let%2:41:00::"], [3, "return%2:30:00::"], [7, "gruesome%3:00:00:alarming:00"], [8, "interlude%1:28:00::"], [12, "willow%1:20:00::"], [13, "catkin%1:20:00::"], [16, "spring%1:28:00::"], [19, "be%2:42:00::"], [20, "other%3:00:00::"], [21, "wild%3:00:01::"], [22, "bee%1:05:00::"], [24, "command%2:32:02::"], [26, "attention%1:09:00::"]]
+EIKy:
+    lemmas: ["It", "be", "almost", "certain", "that", "some", "of", "these", ",", "usually", "a_trifle", "smaller", "than", "the", "honeybee", ",", "be", "andrena", "or", "mining_bee", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-00073433-r"], [3, "oewn-00336319-a"], [9, "oewn-00107608-r"], [10, "oewn-00034050-r"], [11, "oewn-01397927-s"], [14, "oewn-02210932-n"], [16, "oewn-02622439-v"], [19, "oewn-02213079-n"]]
+    paragraph: '7'
+    pos: ["PRP", "VBZ", "RB", "JJ", "IN", "DT", "IN", "DT", ",", "RB", "RB", "JJR", "IN", "DT", "NNS", ",", "VBP", "NNPS", "CC", "NNS", "."]
+    text: ' It is almost certain that some of these, usually a_trifle smaller than the honeybees,
+  are andrenas or mining_bees.'
+    tokens: [[1, 3], [4, 6], [7, 13], [14, 21], [22, 26], [27, 31], [32, 34], [35, 40], [40, 41], [42, 49], [50, 58], [59, 66], [67, 71], [72, 75], [76, 85], [85, 86], [87, 90], [91, 99], [100, 102], [103, 114], [114, 115]]
+    wn16_key: [[1, "be%2:42:03::"], [2, "almost%4:02:00::"], [3, "certain%3:00:01::"], [9, "usually%4:02:00::"], [10, "a_trifle%4:02:00::"], [11, "smaller%5:00:00:small:00"], [14, "honeybee%1:05:00::"], [16, "be%2:42:06::"], [19, "mining_bee%1:05:00::"]]
+    wn30_key: [[1, "be%2:42:03::"], [2, "almost%4:02:00::"], [3, "certain%3:00:01::"], [9, "usually%4:02:00::"], [10, "a_trifle%4:02:00::"], [11, "smaller%3:00:00:small:00"], [14, "honeybee%1:05:00::"], [16, "be%2:42:06::"], [19, "mining_bee%1:05:00::"]]
+JCVu:
+    lemmas: ["There", "be", "about", "200", "different", "kind", "of", "andrena", "in", "europe", "alone", "."]
+    oewn2026_key: [[1, "oewn-02609706-v"], [2, "oewn-00007414-r"], [4, "oewn-02072149-a"], [5, "oewn-05847533-n"], [7, "oewn-02213079-n"], [9, "oewn-09298379-n"], [10, "oewn-00009062-r"]]
+    paragraph: '7'
+    pos: ["EX", "VBP", "RB", "CD", "JJ", "NNS", "IN", "NNP", "IN", "NNP", "RB", "."]
+    text: ' There are about 200 different kinds of Andrena in Europe alone.'
+    tokens: [[1, 6], [7, 10], [11, 16], [17, 20], [21, 30], [31, 36], [37, 39], [40, 47], [48, 50], [51, 57], [58, 63], [63, 64]]
+    wn16_key: [[1, "be%2:42:00::"], [2, "about%4:02:00::"], [4, "different%3:00:00::"], [5, "kind%1:09:00::"], [7, "andrena%1:05:00::"], [9, "europe%1:17:00::"], [10, "alone%4:02:00::"]]
+    wn30_key: [[1, "be%2:42:00::"], [2, "about%4:02:00::"], [4, "different%3:00:00::"], [5, "kind%1:09:00::"], [7, "andrena%1:05:00::"], [9, "europe%1:17:00::"], [10, "alone%4:02:00::"]]
+MLdi:
+    lemmas: ["one", "of", "my", "favorite", "be", "A._armata", ",", "a", "species", "very", "common", "in", "england", ",", "where", "it", "be", "sometimes", "refer", "to", "as", "the", "lawn", "bee", "."]
+    oewn2026_key: [[3, "oewn-05798763-n"], [4, "oewn-02622439-v"], [8, "oewn-08127339-n"], [9, "oewn-00513282-r"], [10, "oewn-00487699-a"], [12, "oewn-08891234-n"], [17, "oewn-00022332-r"], [18, "oewn-00657226-v"], [22, "oewn-08609148-n"], [23, "oewn-02209508-n"]]
+    paragraph: '7'
+    pos: ["NN", "IN", "PRP$", "NNS", "VBZ", "NNP", ",", "DT", "NN", "RB", "JJ", "IN", "NNP", ",", "WRB", "PRP", "VBZ", "RB", "VBN", "VB", "IN", "DT", "NN", "NN", "."]
+    text: ' One of my favorites is A._armata, a species very common in England, where it is
+  sometimes referred to as the lawn bee.'
+    tokens: [[1, 4], [5, 7], [8, 10], [11, 20], [21, 23], [24, 33], [33, 34], [35, 36], [37, 44], [45, 49], [50, 56], [57, 59], [60, 67], [67, 68], [69, 74], [75, 77], [78, 80], [81, 90], [91, 99], [100, 102], [103, 105], [106, 109], [110, 114], [115, 118], [118, 119]]
+    wn16_key: [[3, "favorite%1:09:00::"], [4, "be%2:42:06::"], [8, "species%1:14:00::"], [9, "very%4:02:01::"], [10, "common%3:00:01::"], [12, "england%1:15:00::"], [17, "sometimes%4:02:01::"], [18, "refer%2:31:00::"], [22, "lawn%1:15:00::"], [23, "bee%1:05:00::"]]
+    wn30_key: [[3, "favorite%1:09:00::"], [4, "be%2:42:06::"], [8, "species%1:14:00::"], [9, "very%4:02:01::"], [10, "common%3:00:01::"], [12, "england%1:15:00::"], [17, "sometimes%4:02:01::"], [18, "refer%2:31:00::"], [22, "lawn%1:15:00::"], [23, "bee%1:05:00::"]]
+zEd7:
+    lemmas: ["The", "female", "like", "to", "burrow", "in", "the", "short", "turf", "of", "well-kept", "lawn", ",", "where", "their", "little", "mound", "of", "earth", "often", "appear", "by", "the", "hundred", "."]
+    oewn2026_key: [[1, "oewn-01323363-n"], [2, "oewn-01781131-v"], [4, "oewn-02045912-v"], [7, "oewn-02395180-a"], [8, "oewn-09487049-n"], [10, "oewn-00741059-s"], [11, "oewn-08609148-n"], [15, "oewn-01394303-a"], [16, "oewn-07978094-n"], [18, "oewn-14867162-n"], [19, "oewn-00035445-r"], [20, "oewn-00423043-v"], [23, "oewn-13772555-n"]]
+    paragraph: '7'
+    pos: ["DT", "NNS", "VBP", "TO", "VB", "IN", "DT", "JJ", "NN", "IN", "JJ", "NNS", ",", "WRB", "PRP$", "JJ", "NNS", "IN", "NN", "RB", "VBP", "IN", "DT", "NNS", "."]
+    text: ' The females like to burrow in the short turf of well-kept lawns, where their little
+  mounds of earth often appear by the hundreds.'
+    tokens: [[1, 4], [5, 12], [13, 17], [18, 20], [21, 27], [28, 30], [31, 34], [35, 40], [41, 45], [46, 48], [49, 58], [59, 64], [64, 65], [66, 71], [72, 77], [78, 84], [85, 91], [92, 94], [95, 100], [101, 106], [107, 113], [114, 116], [117, 120], [121, 129], [129, 130]]
+    wn16_key: [[1, "female%1:05:00::"], [2, "like%2:37:05::"], [4, "burrow%2:38:00::"], [7, "short%3:00:03::"], [8, "turf%1:17:00::"], [10, "well-kept%5:00:00:preserved:01"], [11, "lawn%1:15:00::"], [15, "little%3:00:01::"], [16, "mound%1:14:00::"], [18, "earth%1:27:00::"], [19, "often%4:02:00::"], [20, "appear%2:30:00::"], [23, "hundred%1:23:00::"]]
+    wn30_key: [[1, "female%1:05:00::"], [2, "like%2:37:05::"], [4, "burrow%2:38:00::"], [7, "short%3:00:03::"], [8, "turf%1:17:00::"], [10, "well-kept%3:00:00:preserved:01"], [11, "lawn%1:15:00::"], [15, "little%3:00:01::"], [16, "mound%1:14:00::"], [18, "earth%1:27:00::"], [19, "often%4:02:00::"], [20, "appear%2:30:00::"], [23, "hundred%1:23:00::"]]
+vTzo:
+    lemmas: ["almost", "equal", "in", "size", "to", "a", "honeybee", "."]
+    oewn2026_key: [[0, "oewn-00073433-r"], [1, "oewn-00893124-a"], [3, "oewn-05106204-n"], [6, "oewn-02210932-n"]]
+    paragraph: '7'
+    pos: ["RB", "JJ", "IN", "NN", "TO", "DT", "NN", "."]
+    text: ' Almost equal in size to a honeybee.'
+    tokens: [[1, 7], [8, 13], [14, 16], [17, 21], [22, 24], [25, 26], [27, 35], [35, 36]]
+    wn16_key: [[0, "almost%4:02:00::"], [1, "equal%3:00:00::"], [3, "size%1:07:00::"], [6, "honeybee%1:05:00::"]]
+    wn30_key: [[0, "almost%4:02:00::"], [1, "equal%3:00:00::"], [3, "size%1:07:00::"], [6, "honeybee%1:05:00::"]]
+vR8a:
+    lemmas: ["A._armata", "be", "much", "more", "beautiful", "in", "color", ",", "at_least", "in", "the", "female", "of", "the", "species", ":", "a", "rich", ",", "velvety", ",", "rusty", "red", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-00059624-r"], [3, "oewn-00099891-r"], [4, "oewn-00219320-a"], [6, "oewn-04963771-n"], [8, "oewn-00105348-r"], [11, "oewn-01323363-n"], [14, "oewn-08127339-n"], [17, "oewn-00404462-s"], [19, "oewn-02246054-s"], [21, "oewn-00383936-s"], [22, "oewn-00382159-s"]]
+    paragraph: '7'
+    pos: ["NNP", "VBZ", "RB", "RBR", "JJ", "IN", "NN", ",", "RB", "IN", "DT", "NN", "IN", "DT", "NNS", ":", "DT", "JJ", ",", "JJ", ",", "JJ", "JJ", "."]
+    text: ' A._armata is much more beautiful in color, at_least in the female of the species:
+  a rich, velvety, rusty red.'
+    tokens: [[1, 10], [11, 13], [14, 18], [19, 23], [24, 33], [34, 36], [37, 42], [42, 43], [44, 52], [53, 55], [56, 59], [60, 66], [67, 69], [70, 73], [74, 81], [81, 82], [83, 84], [85, 89], [89, 90], [91, 98], [98, 99], [100, 105], [106, 109], [109, 110]]
+    wn16_key: [[1, "be%2:42:03::"], [2, "much%4:02:00::"], [3, "more%4:02:00::"], [4, "beautiful%3:00:00::"], [6, "color%1:07:00::"], [8, "at_least%4:02:01::"], [11, "female%1:05:00::"], [14, "species%1:14:00::"], [17, "rich%5:00:00:colorful:00"], [19, "velvety%5:00:00:smooth:00"], [21, "rusty%5:00:00:chromatic:00"], [22, "red%5:00:01:chromatic:00"]]
+    wn30_key: [[1, "be%2:42:03::"], [2, "much%4:02:00::"], [3, "more%4:02:00::"], [4, "beautiful%3:00:00::"], [6, "color%1:07:00::"], [8, "at_least%4:02:01::"], [11, "female%1:05:00::"], [14, "species%1:14:00::"], [17, "rich%3:00:00:colorful:00"], [19, "velvety%3:00:00:smooth:00"], [21, "rusty%3:00:00:chromatic:00"], [22, "red%3:00:01:chromatic:00"]]
+bnhf:
+    lemmas: ["The", "male", "be", "much", "dull", "."]
+    oewn2026_key: [[1, "oewn-01323721-n"], [2, "oewn-02610777-v"], [3, "oewn-00059624-r"], [4, "oewn-00395053-s"]]
+    paragraph: '7'
+    pos: ["DT", "NNS", "VBP", "RB", "JJ", "."]
+    text: ' The males are much duller.
+
+  '
+    tokens: [[1, 4], [5, 10], [11, 14], [15, 19], [20, 26], [26, 27]]
+    wn16_key: [[1, "male%1:05:00::"], [2, "be%2:42:03::"], [3, "much%4:02:00::"], [4, "dull%5:00:00:unsaturated:03"]]
+    wn30_key: [[1, "male%1:05:00::"], [2, "be%2:42:03::"], [3, "much%4:02:00::"], [4, "dull%3:00:00:unsaturated:03"]]
+rMpb:
+    lemmas: ["After", "have", "mate", ",", "an", "andrena", "female", "dig", "a", "hole", "straight", "down", "into", "the", "ground", ",", "form", "a", "burrow", "about", "the", "size", "of", "a", "lead_pencil", "."]
+    oewn2026_key: [[2, "oewn-01431486-v"], [5, "oewn-02213079-n"], [6, "oewn-01323363-n"], [7, "oewn-01313763-v"], [9, "oewn-09327371-n"], [10, "oewn-00058666-r"], [11, "oewn-00095870-r"], [14, "oewn-09357302-n"], [16, "oewn-01663142-v"], [18, "oewn-09252948-n"], [21, "oewn-05106204-n"], [24, "oewn-03657426-n"]]
+    paragraph: '8'
+    pos: ["IN", "VBG", "VBN", ",", "DT", "NNP", "NN", "VBZ", "DT", "NN", "RB", "RB", "IN", "DT", "NN", ",", "VBG", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+    text: ' After having mated, an Andrena female digs a hole straight down into the ground,
+  forming a burrow about the size of a lead_pencil.'
+    tokens: [[1, 6], [7, 13], [14, 19], [19, 20], [21, 23], [24, 31], [32, 38], [39, 43], [44, 45], [46, 50], [51, 59], [60, 64], [65, 69], [70, 73], [74, 80], [80, 81], [82, 89], [90, 91], [92, 98], [99, 104], [105, 108], [109, 113], [114, 116], [117, 118], [119, 130], [130, 131]]
+    wn16_key: [[2, "mate%2:35:00::"], [5, "andrena%1:05:00::"], [6, "female%1:05:00::"], [7, "dig%2:35:01::"], [9, "hole%1:17:01::"], [10, "straight%4:02:04::"], [11, "down%4:02:00::"], [14, "ground%1:17:00::"], [16, "form%2:36:00::"], [18, "burrow%1:17:00::"], [21, "size%1:07:00::"], [24, "lead_pencil%1:06:01::"]]
+    wn30_key: [[2, "mate%2:35:00::"], [5, "andrena%1:05:00::"], [6, "female%1:05:00::"], [7, "dig%2:35:01::"], [9, "hole%1:17:01::"], [10, "straight%4:02:04::"], [11, "down%4:02:00::"], [14, "ground%1:17:00::"], [16, "form%2:36:00::"], [18, "burrow%1:17:00::"], [21, "size%1:07:00::"], [24, "lead_pencil%1:06:01::"]]
+m0b4:
+    lemmas: ["The", "bottom", "part", "of", "a", "burrow", "have", "a", "number", "of", "side", "tunnel", "or", "\"", "cell", "\"", ",", "each", "of", "which", "be", "provide", "with", "an", "egg", "plus", "a", "store", "of", "beebread", "."]
+    oewn2026_key: [[1, "oewn-08528313-n"], [2, "oewn-09408804-n"], [5, "oewn-09252948-n"], [6, "oewn-02636270-v"], [8, "oewn-05128718-n"], [10, "oewn-02450419-a"], [11, "oewn-04505257-n"], [14, "oewn-02995166-n"], [21, "oewn-02332196-v"], [24, "oewn-01463098-n"], [27, "oewn-13388243-n"], [29, "oewn-14798251-n"]]
+    paragraph: '8'
+    pos: ["DT", "NN", "NN", "IN", "DT", "NN", "VBZ", "JJ", "NN", "JJ", "JJ", "NNS", "CC", "``", "NNS", "''", ",", "DT", "RB", "RB", "VBZ", "VBN", "IN", "DT", "NN", "CC", "DT", "NN", "IN", "NN", "."]
+    text: ' The bottom part of a burrow has a number of side tunnels or " cells ", each of which
+  is provided with an egg plus a store of beebread.'
+    tokens: [[1, 4], [5, 11], [12, 16], [17, 19], [20, 21], [22, 28], [29, 32], [33, 34], [35, 41], [42, 44], [45, 49], [50, 57], [58, 60], [61, 62], [63, 68], [69, 70], [70, 71], [72, 76], [77, 79], [80, 85], [86, 88], [89, 97], [98, 102], [103, 105], [106, 109], [110, 114], [115, 116], [117, 122], [123, 125], [126, 134], [134, 135]]
+    wn16_key: [[1, "bottom%1:15:00::"], [2, "part%1:17:00::"], [5, "burrow%1:17:00::"], [6, "have%2:42:00::"], [8, "number%1:07:00::"], [10, "side%5:00:00:incidental:00"], [11, "tunnel%1:06:00::"], [14, "cell%1:06:03::"], [21, "provide%2:40:00::"], [24, "egg%1:05:00::"], [27, "store%1:21:00::"], [29, "beebread%1:27:00::"]]
+    wn30_key: [[1, "bottom%1:15:00::"], [2, "part%1:17:00::"], [5, "burrow%1:17:00::"], [6, "have%2:42:00::"], [8, "number%1:07:00::"], [10, "side%3:00:00::"], [11, "tunnel%1:06:00::"], [14, "cell%1:06:03::"], [21, "provide%2:40:00::"], [24, "egg%1:05:00::"], [27, "store%1:21:00::"], [29, "beebread%1:27:00::"]]
+vB0q:
+    lemmas: ["The", "development", "of", "the", "andrena", "larva", "be", "very", "rapid", ",", "so", "that", "by", "the", "end", "of", "spring", "they", "have", "already", "pupate", "and", "become", "adult", "."]
+    oewn2026_key: [[1, "oewn-13510240-n"], [4, "oewn-02213079-n"], [5, "oewn-02313712-n"], [6, "oewn-02610777-v"], [7, "oewn-00032295-r"], [8, "oewn-00982888-s"], [14, "oewn-15291722-n"], [16, "oewn-15261841-n"], [19, "oewn-00032194-r"], [20, "oewn-00096274-v"], [22, "oewn-02632685-v"], [23, "oewn-01323947-n"]]
+    paragraph: '8'
+    pos: ["DT", "NN", "IN", "DT", "NNP", "NN", "VBZ", "RB", "JJ", ",", "RB", "RB", "IN", "DT", "NN", "IN", "NN", "PRP", "VBP", "RB", "VBN", "CC", "VBN", "NNS", "."]
+    text: ' The development of the Andrena larvae is very rapid, so that by the end of spring
+  they have already pupated and become adults.'
+    tokens: [[1, 4], [5, 16], [17, 19], [20, 23], [24, 31], [32, 38], [39, 41], [42, 46], [47, 52], [52, 53], [54, 56], [57, 61], [62, 64], [65, 68], [69, 72], [73, 75], [76, 82], [83, 87], [88, 92], [93, 100], [101, 108], [109, 112], [113, 119], [120, 126], [126, 127]]
+    wn16_key: [[1, "development%1:22:01::"], [4, "andrena%1:05:00::"], [5, "larva%1:05:00::"], [6, "be%2:42:03::"], [7, "very%4:02:00::"], [8, "rapid%5:00:00:fast:01"], [14, "end%1:28:00::"], [16, "spring%1:28:00::"], [19, "already%4:02:00::"], [20, "pupate%2:29:00::"], [22, "become%2:42:01::"], [23, "adult%1:05:00::"]]
+    wn30_key: [[1, "development%1:22:01::"], [4, "andrena%1:05:00::"], [5, "larva%1:05:00::"], [6, "be%2:42:03::"], [7, "very%4:02:00::"], [8, "rapid%3:00:00:fast:01"], [14, "end%1:28:00::"], [16, "spring%1:28:00::"], [19, "already%4:02:00::"], [20, "pupate%2:29:00::"], [22, "become%2:42:01::"], [23, "adult%1:05:00::"]]
+r1wJ:
+    lemmas: ["But", "they", "be", "still", "enclose", "in", "their", "larval", "cell", "and", "remain", "there", "throughout", "the", "summer", ",", "fall", ",", "and", "winter", "."]
+    oewn2026_key: [[3, "oewn-00031700-r"], [4, "oewn-02716988-v"], [7, "oewn-01493965-s"], [8, "oewn-02995166-n"], [10, "oewn-02733337-v"], [11, "oewn-00109919-r"], [14, "oewn-15262047-n"], [16, "oewn-15261656-n"], [19, "oewn-15262579-n"]]
+    paragraph: '8'
+    pos: ["CC", "PRP", "VBP", "RB", "VBN", "IN", "PRP$", "JJ", "NNS", "CC", "VBP", "RB", "IN", "DT", "NN", ",", "NN", ",", "CC", "NN", "."]
+    text: ' But they are still enclosed in their larval cells and remain there throughout the
+  summer, fall, and winter.'
+    tokens: [[1, 4], [5, 9], [10, 13], [14, 19], [20, 28], [29, 31], [32, 37], [38, 44], [45, 50], [51, 54], [55, 61], [62, 67], [68, 78], [79, 82], [83, 89], [89, 90], [91, 95], [95, 96], [97, 100], [101, 107], [107, 108]]
+    wn16_key: [[3, "still%4:02:01::"], [4, "enclose%2:42:00::"], [7, "larval%5:00:00:immature:01"], [8, "cell%1:06:03::"], [10, "remain%2:42:03::"], [11, "there%4:02:00::"], [14, "summer%1:28:00::"], [16, "fall%1:28:00::"], [19, "winter%1:28:00::"]]
+    wn30_key: [[3, "still%4:02:01::"], [4, "enclose%2:42:00::"], [7, "larval%3:00:00:immature:01"], [8, "cell%1:06:03::"], [10, "remain%2:42:03::"], [11, "there%4:02:00::"], [14, "summer%1:28:00::"], [16, "fall%1:28:00::"], [19, "winter%1:28:00::"]]
+uzuT:
+    lemmas: ["Their", "appearance", ",", "next", "spring", ",", "coincide", "in", "an", "almost", "uncanny", "way", "with", "the", "flowering", "of", "their", "host", "plant", "."]
+    oewn2026_key: [[1, "oewn-07336372-n"], [3, "oewn-00128838-s"], [4, "oewn-15261841-n"], [6, "oewn-02666520-v"], [9, "oewn-00073433-r"], [10, "oewn-01579817-s"], [11, "oewn-04936080-n"], [14, "oewn-13460743-n"], [17, "oewn-01388168-n"], [18, "oewn-00017402-n"]]
+    paragraph: '8'
+    pos: ["PRP$", "NN", ",", "JJ", "NN", ",", "VBZ", "IN", "DT", "RB", "JJ", "NN", "IN", "DT", "NN", "IN", "PRP$", "NN", "NNS", "."]
+    text: ' Their appearance, next spring, coincides in an almost uncanny way with the flowering
+  of their host plants.'
+    tokens: [[1, 6], [7, 17], [17, 18], [19, 23], [24, 30], [30, 31], [32, 41], [42, 44], [45, 47], [48, 54], [55, 62], [63, 66], [67, 71], [72, 75], [76, 85], [86, 88], [89, 94], [95, 99], [100, 106], [106, 107]]
+    wn16_key: [[1, "appearance%1:11:00::"], [3, "next%5:00:00:succeeding(a):00"], [4, "spring%1:28:00::"], [6, "coincide%2:42:00::"], [9, "almost%4:02:00::"], [10, "uncanny%5:00:00:supernatural:00"], [11, "way%1:07:01::"], [14, "flowering%1:22:00::"], [17, "host%1:05:00::"], [18, "plant%1:03:00::"]]
+    wn30_key: [[1, "appearance%1:11:00::"], [3, "next%3:00:00:succeeding:00"], [4, "spring%1:28:00::"], [6, "coincide%2:42:00::"], [9, "almost%4:02:00::"], [10, "uncanny%3:00:00:supernatural:00"], [11, "way%1:07:01::"], [14, "flowering%1:22:00::"], [17, "host%1:05:00::"], [18, "plant%1:03:00::"]]
+ena0:
+    lemmas: ["In", "the", "sacramento", "valley", "in", "california", ",", "for_instance", ",", "it", "have", "be", "observe", "that", "there", "be", "not", "one", "day", "'s", "difference", "between", "the", "emergence", "of", "the", "andrena", "and", "the", "opening", "of", "the", "willow", "catkin", "."]
+    oewn2026_key: [[2, "oewn-09087443-n"], [3, "oewn-09491734-n"], [5, "oewn-09083238-n"], [7, "oewn-00160239-r"], [11, "oewn-02610777-v"], [12, "oewn-02158938-v"], [15, "oewn-02610777-v"], [16, "oewn-00024432-r"], [17, "oewn-02193977-s"], [18, "oewn-15180180-n"], [20, "oewn-04756076-n"], [23, "oewn-07334509-n"], [29, "oewn-00384198-n"], [32, "oewn-12745702-n"], [33, "oewn-11695249-n"]]
+    paragraph: '8'
+    pos: ["IN", "DT", "NNP", "NN", "IN", "NNP", ",", "RB", ",", "PRP", "VBZ", "VBN", "VBN", "IN", "EX", "VBD", "RB", "JJ", "NN", "POS", "NN", "IN", "DT", "NN", "IN", "DT", "NNPS", "CC", "DT", "NN", "IN", "DT", "NN", "NNS", "."]
+    text: ' In the Sacramento valley in California, for_instance, it has been observed that
+  there was not one day''s difference between the emergence of the andrenas and the
+  opening of the willow catkins.'
+    tokens: [[1, 3], [4, 7], [8, 18], [19, 25], [26, 28], [29, 39], [39, 40], [41, 53], [53, 54], [55, 57], [58, 61], [62, 66], [67, 75], [76, 80], [81, 86], [87, 90], [91, 94], [95, 98], [99, 102], [102, 104], [105, 115], [116, 123], [124, 127], [128, 137], [138, 140], [141, 144], [145, 153], [154, 157], [158, 161], [162, 169], [170, 172], [173, 176], [177, 183], [184, 191], [191, 192]]
+    wn16_key: [[2, "sacramento%1:15:00::"], [3, "valley%1:17:00::"], [5, "california%1:15:00::"], [7, "for_instance%4:02:00::"], [11, "be%2:42:03::"], [12, "observe%2:39:02::"], [15, "be%2:42:04::"], [16, "not%4:02:00::"], [17, "one%5:00:00:cardinal:00"], [18, "day%1:28:00::"], [20, "difference%1:07:00::"], [23, "emergence%1:11:00::"], [29, "opening%1:04:02::"], [32, "willow%1:20:00::"], [33, "catkin%1:20:00::"]]
+    wn30_key: [[2, "sacramento%1:15:00::"], [3, "valley%1:17:00::"], [5, "california%1:15:00::"], [7, "for_instance%4:02:00::"], [11, "be%2:42:03::"], [12, "observe%2:39:02::"], [15, "be%2:42:04::"], [16, "not%4:02:00::"], [17, "one%3:00:00:cardinal:00"], [18, "day%1:28:00::"], [20, "difference%1:07:00::"], [23, "emergence%1:11:00::"], [29, "opening%1:04:02::"], [32, "willow%1:20:00::"], [33, "catkin%1:20:00::"]]
+ZZrZ:
+    lemmas: ["This", "must", "be_due", "to", "a", "completely", "identical", "response", "to", "the", "weather", ",", "in", "the", "plant", "and", "the", "animal", "."]
+    oewn2026_key: [[2, "oewn-02640648-v"], [5, "oewn-00008423-r"], [6, "oewn-02076350-s"], [7, "oewn-00860679-n"], [10, "oewn-11545095-n"], [14, "oewn-00017402-n"], [17, "oewn-00015568-n"]]
+    paragraph: '8'
+    pos: ["DT", "MD", "VB", "VB", "DT", "RB", "JJ", "NN", "TO", "DT", "NN", ",", "IN", "DT", "NN", "CC", "DT", "NN", "."]
+    text: ' This must be_due to a completely identical response to the weather, in the plant
+  and the animal.
+
+  '
+    tokens: [[1, 5], [6, 10], [11, 17], [18, 20], [21, 22], [23, 33], [34, 43], [44, 52], [53, 55], [56, 59], [60, 67], [67, 68], [69, 71], [72, 75], [76, 81], [82, 85], [86, 89], [90, 96], [96, 97]]
+    wn16_key: [[2, "be_due%2:42:00::"], [5, "completely%4:02:04::"], [6, "identical%5:00:00:same:02"], [7, "response%1:04:01::"], [10, "weather%1:19:00::"], [14, "plant%1:03:00::"], [17, "animal%1:03:00::"]]
+    wn30_key: [[2, "be_due%2:42:00::"], [5, "completely%4:02:04::"], [6, "identical%3:00:00:same:02"], [7, "response%1:04:01::"], [10, "weather%1:19:00::"], [14, "plant%1:03:00::"], [17, "animal%1:03:00::"]]
+7p47:
+    lemmas: ["After", "the", "male", "and", "female", "andrena", "have", "mate", ",", "the", "cycle", "be", "repeat", "."]
+    oewn2026_key: [[2, "oewn-01479992-a"], [4, "oewn-01481113-a"], [7, "oewn-01431486-v"], [10, "oewn-15313066-n"], [12, "oewn-01738383-v"]]
+    paragraph: '9'
+    pos: ["IN", "DT", "JJ", "CC", "JJ", "NNPS", "VBP", "VBN", ",", "DT", "NN", "VBZ", "VBN", "."]
+    text: ' After the male and female andrenas have mated, the cycle is repeated.'
+    tokens: [[1, 6], [7, 10], [11, 15], [16, 19], [20, 26], [27, 35], [36, 40], [41, 46], [46, 47], [48, 51], [52, 57], [58, 60], [61, 69], [69, 70]]
+    wn16_key: [[2, "male%3:00:00::"], [4, "female%3:00:00::"], [7, "mate%2:35:00::"], [10, "cycle%1:28:00::"], [12, "repeat%2:36:00::"]]
+    wn30_key: [[2, "male%3:00:00::"], [4, "female%3:00:00::"], [7, "mate%2:35:00::"], [10, "cycle%1:28:00::"], [12, "repeat%2:36:00::"]]
+yO7L:
+    lemmas: ["Although", "andrena", "be", "gregarious", ",", "so", "that", "we", "may", "find", "hundred", "and", "hundred", "of", "burrow", "together", ",", "we", "must", "still", "call", "it", "a", "solitary", "bee", "."]
+    oewn2026_key: [[1, "oewn-02213079-n"], [2, "oewn-02610777-v"], [3, "oewn-02260390-a"], [5, "oewn-00119259-r"], [9, "oewn-02133338-v"], [10, "oewn-13772555-n"], [12, "oewn-13772555-n"], [14, "oewn-09252948-n"], [15, "oewn-00117901-r"], [19, "oewn-00031700-r"], [20, "oewn-00973047-v"], [23, "oewn-02260961-s"], [24, "oewn-02209508-n"]]
+    paragraph: '9'
+    pos: ["IN", "NNP", "VBZ", "JJ", ",", "RB", "RB", "PRP", "MD", "VB", "NNS", "CC", "NNS", "IN", "NNS", "RB", ",", "PRP", "MD", "RB", "VB", "PRP", "DT", "JJ", "NN", "."]
+    text: ' Although Andrena is gregarious, so that we may find hundreds and hundreds of burrows
+  together, we must still call it a solitary bee.'
+    tokens: [[1, 9], [10, 17], [18, 20], [21, 31], [31, 32], [33, 35], [36, 40], [41, 43], [44, 47], [48, 52], [53, 61], [62, 65], [66, 74], [75, 77], [78, 85], [86, 94], [94, 95], [96, 98], [99, 103], [104, 109], [110, 114], [115, 117], [118, 119], [120, 128], [129, 132], [132, 133]]
+    wn16_key: [[1, "andrena%1:05:00::"], [2, "be%2:42:03::"], [3, "gregarious%3:00:00::"], [5, "so%4:02:06::"], [9, "find%2:39:01::"], [10, "hundred%1:23:00::"], [12, "hundred%1:23:00::"], [14, "burrow%1:17:00::"], [15, "together%4:02:03::"], [19, "still%4:02:01::"], [20, "call%2:32:00::"], [23, "solitary%5:00:00:ungregarious:00"], [24, "bee%1:05:00::"]]
+    wn30_key: [[1, "andrena%1:05:00::"], [2, "be%2:42:03::"], [3, "gregarious%3:00:00::"], [5, "so%4:02:06::"], [9, "find%2:39:01::"], [10, "hundred%1:23:00::"], [12, "hundred%1:23:00::"], [14, "burrow%1:17:00::"], [15, "together%4:02:03::"], [19, "still%4:02:01::"], [20, "call%2:32:00::"], [23, "solitary%3:00:00:ungregarious:00"], [24, "bee%1:05:00::"]]
+HJ9e:
+    lemmas: ["Its", "life_history", "be", "much", "simple", "than", "that", "of", "the", "truly", "colonial", "bumblebee", "and", "can", "serve", "as", "an", "example", "of", "the", "life_cycle", "of", "many", "other", "species", "."]
+    oewn2026_key: [[1, "oewn-06527818-n"], [2, "oewn-02610777-v"], [3, "oewn-00059624-r"], [4, "oewn-02182456-a"], [9, "oewn-00037620-r"], [10, "oewn-02710765-a"], [11, "oewn-02212276-n"], [14, "oewn-02676679-v"], [17, "oewn-05945830-n"], [20, "oewn-11494207-n"], [22, "oewn-01555990-a"], [23, "oewn-02076759-a"], [24, "oewn-08127339-n"]]
+    paragraph: '9'
+    pos: ["PRP$", "NN", "VBZ", "RB", "JJR", "IN", "IN", "IN", "DT", "RB", "JJ", "NNS", "CC", "MD", "VB", "VB", "DT", "NN", "IN", "DT", "NN", "IN", "JJ", "JJ", "NNS", "."]
+    text: ' Its life_history is much simpler than that of the truly colonial bumblebees and
+  can serve as an example of the life_cycle of many other species.'
+    tokens: [[1, 4], [5, 17], [18, 20], [21, 25], [26, 33], [34, 38], [39, 43], [44, 46], [47, 50], [51, 56], [57, 65], [66, 76], [77, 80], [81, 84], [85, 90], [91, 93], [94, 96], [97, 104], [105, 107], [108, 111], [112, 122], [123, 125], [126, 130], [131, 136], [137, 144], [144, 145]]
+    wn16_key: [[1, "life_history%1:10:00::"], [2, "be%2:42:03::"], [3, "much%4:02:00::"], [4, "simple%3:00:02::"], [9, "truly%4:02:00::"], [10, "colonial%3:01:00::"], [11, "bumblebee%1:05:00::"], [14, "serve%2:42:03::"], [17, "example%1:09:02::"], [20, "life_cycle%1:19:00::"], [22, "many%3:00:00::"], [23, "other%3:00:00::"], [24, "species%1:14:00::"]]
+    wn30_key: [[1, "life_history%1:10:00::"], [2, "be%2:42:03::"], [3, "much%4:02:00::"], [4, "simple%3:00:02::"], [9, "truly%4:02:00::"], [10, "colonial%3:01:00::"], [11, "bumblebee%1:05:00::"], [14, "serve%2:42:03::"], [17, "example%1:09:02::"], [20, "life_cycle%1:19:00::"], [22, "many%3:00:00::"], [23, "other%3:00:00::"], [24, "species%1:14:00::"]]
+O1ou:
+    lemmas: ["after_all", ",", "social", "life", "in", "the", "group", "of", "the", "bee", "be", "by_no_means", "general", ",", "although", "it", "certainly", "be", "a", "striking", "feature", "."]
+    oewn2026_key: [[0, "oewn-00152207-r"], [2, "oewn-02256093-a"], [3, "oewn-13986528-n"], [6, "oewn-00031563-n"], [9, "oewn-02209508-n"], [10, "oewn-02610777-v"], [11, "oewn-00057580-r"], [12, "oewn-01105084-a"], [16, "oewn-00145758-r"], [17, "oewn-02610777-v"], [19, "oewn-01287304-s"], [20, "oewn-05858316-n"]]
+    paragraph: '9'
+    pos: ["RB", ",", "JJ", "NN", "IN", "DT", "NN", "IN", "DT", "NNS", "VBZ", "RB", "JJ", ",", "IN", "PRP", "RB", "VBZ", "DT", "JJ", "NN", "."]
+    text: ' After_all, social life in the group of the bees is by_no_means general, although
+  it certainly is a striking feature.'
+    tokens: [[1, 10], [10, 11], [12, 18], [19, 23], [24, 26], [27, 30], [31, 36], [37, 39], [40, 43], [44, 48], [49, 51], [52, 63], [64, 71], [71, 72], [73, 81], [82, 84], [85, 94], [95, 97], [98, 99], [100, 108], [109, 116], [116, 117]]
+    wn16_key: [[0, "after_all%4:02:00::"], [2, "social%3:00:00::"], [3, "life%1:26:01::"], [6, "group%1:03:00::"], [9, "bee%1:05:00::"], [10, "be%2:42:03::"], [11, "by_no_means%4:02:00::"], [12, "general%3:00:00::"], [16, "certainly%4:02:00::"], [17, "be%2:42:03::"], [19, "striking%5:00:00:impressive:00"], [20, "feature%1:09:00::"]]
+    wn30_key: [[0, "after_all%4:02:00::"], [2, "social%3:00:00::"], [3, "life%1:26:01::"], [6, "group%1:03:00::"], [9, "bee%1:05:00::"], [10, "be%2:42:03::"], [11, "by_no_means%4:02:00::"], [12, "general%3:00:00::"], [16, "certainly%4:02:00::"], [17, "be%2:42:03::"], [19, "striking%3:00:00:impressive:00"], [20, "feature%1:09:00::"]]
+QFBH:
+    lemmas: ["On", "the", "basis", "of", "its", "life_history", ",", "we", "like", "to", "think", "that", "andrena", "be", "more", "primitive", "than", "the", "bumblebee", "."]
+    oewn2026_key: [[2, "oewn-05801562-n"], [5, "oewn-06527818-n"], [8, "oewn-01828678-v"], [10, "oewn-00633399-v"], [12, "oewn-02213079-n"], [13, "oewn-02610777-v"], [14, "oewn-00099891-r"], [15, "oewn-00821300-s"], [18, "oewn-02212276-n"]]
+    paragraph: '9'
+    pos: ["IN", "DT", "NN", "IN", "PRP$", "NN", ",", "PRP", "VBP", "TO", "VB", "IN", "NNP", "VBZ", "RBR", "JJ", "IN", "DT", "NNS", "."]
+    text: ' On the basis of its life_history, we like to think that Andrena is more primitive
+  than the bumblebees.'
+    tokens: [[1, 3], [4, 7], [8, 13], [14, 16], [17, 20], [21, 33], [33, 34], [35, 37], [38, 42], [43, 45], [46, 51], [52, 56], [57, 64], [65, 67], [68, 72], [73, 82], [83, 87], [88, 91], [92, 102], [102, 103]]
+    wn16_key: [[2, "basis%1:09:00::"], [5, "life_history%1:10:00::"], [8, "like%2:37:01::"], [10, "think%2:31:03::"], [12, "andrena%1:05:00::"], [13, "be%2:42:03::"], [14, "more%4:02:00::"], [15, "primitive%5:00:01:early:02"], [18, "bumblebee%1:05:00::"]]
+    wn30_key: [[2, "basis%1:09:00::"], [5, "life_history%1:10:00::"], [8, "like%2:37:01::"], [10, "think%2:31:03::"], [12, "andrena%1:05:00::"], [13, "be%2:42:03::"], [14, "more%4:02:00::"], [15, "primitive%3:00:01:early:02"], [18, "bumblebee%1:05:00::"]]
+teB0:
+    lemmas: ["The", "way", "in", "which", "it", "transport", "its", "pollen", "be", "not", "so", "perfect", ",", "either", "."]
+    oewn2026_key: [[1, "oewn-04936080-n"], [5, "oewn-01452567-v"], [7, "oewn-11695988-n"], [8, "oewn-02610777-v"], [9, "oewn-00024432-r"], [10, "oewn-00147630-r"], [11, "oewn-01753804-a"], [13, "oewn-00025252-r"]]
+    paragraph: '9'
+    pos: ["DT", "NN", "RB", "RB", "PRP", "VBZ", "PRP$", "NN", "VBZ", "RB", "RB", "JJ", ",", "RB", "."]
+    text: ' The way in which it transports its pollen is not so perfect, either.'
+    tokens: [[1, 4], [5, 8], [9, 11], [12, 17], [18, 20], [21, 31], [32, 35], [36, 42], [43, 45], [46, 49], [50, 52], [53, 60], [60, 61], [62, 68], [68, 69]]
+    wn16_key: [[1, "way%1:07:01::"], [5, "transport%2:35:00::"], [7, "pollen%1:20:00::"], [8, "be%2:42:03::"], [9, "not%4:02:00::"], [10, "so%4:02:02::"], [11, "perfect%3:00:00::"], [13, "either%4:02:00::"]]
+    wn30_key: [[1, "way%1:07:01::"], [5, "transport%2:35:00::"], [7, "pollen%1:20:00::"], [8, "be%2:42:03::"], [9, "not%4:02:00::"], [10, "so%4:02:02::"], [11, "perfect%3:00:00::"], [13, "either%4:02:00::"]]
+W9ZG:
+    lemmas: ["It", "lack", "pollen", "basket", "and", "possess", "only", "a", "large_number", "of", "long", ",", "branched", "hair", "on", "its", "leg", ",", "on", "which", "the", "pollen", "grain", "will", "collect", "."]
+    oewn2026_key: [[1, "oewn-02638434-v"], [2, "oewn-11695988-n"], [3, "oewn-13787347-n"], [5, "oewn-02638248-v"], [6, "oewn-00005103-r"], [8, "oewn-13797293-n"], [10, "oewn-01436368-a"], [12, "oewn-02489095-s"], [13, "oewn-05262259-n"], [16, "oewn-05569140-n"], [21, "oewn-11695988-n"], [22, "oewn-09313683-n"], [24, "oewn-02309962-v"]]
+    paragraph: '9'
+    pos: ["PRP", "VBZ", "NN", "NNS", "CC", "VBZ", "RB", "DT", "NN", "IN", "JJ", ",", "JJ", "NNS", "IN", "PRP$", "NNS", ",", "RB", "RB", "DT", "NN", "NNS", "MD", "VB", "."]
+    text: ' It lacks pollen baskets and possesses only a large_number of long, branched hairs
+  on its legs, on which the pollen grains will collect.'
+    tokens: [[1, 3], [4, 9], [10, 16], [17, 24], [25, 28], [29, 38], [39, 43], [44, 45], [46, 58], [59, 61], [62, 66], [66, 67], [68, 76], [77, 82], [83, 85], [86, 89], [90, 94], [94, 95], [96, 98], [99, 104], [105, 108], [109, 115], [116, 122], [123, 127], [128, 135], [135, 136]]
+    wn16_key: [[1, "lack%2:42:00::"], [2, "pollen%1:20:00::"], [3, "basket%1:23:00::"], [5, "possess%2:42:00::"], [6, "only%4:02:02::"], [8, "large_number%1:23:00::"], [10, "long%3:00:01::"], [12, "branched%5:00:00:divided:00"], [13, "hair%1:08:00::"], [16, "leg%1:08:02::"], [21, "pollen%1:20:00::"], [22, "grain%1:17:00::"], [24, "collect%2:40:00::"]]
+    wn30_key: [[1, "lack%2:42:00::"], [2, "pollen%1:20:00::"], [3, "basket%1:23:00::"], [5, "possess%2:42:00::"], [6, "only%4:02:02::"], [8, "large_number%1:23:00::"], [10, "long%3:00:01::"], [12, "branched%3:00:00:divided:00"], [13, "hair%1:08:00::"], [16, "leg%1:08:02::"], [21, "pollen%1:20:00::"], [22, "grain%1:17:00::"], [24, "collect%2:40:00::"]]
+x7b5:
+    lemmas: ["still", "andrena", "will", "do", "a", "reasonably", "good", "job", ",", "so", "that", "an", "animal", "with", "a", "full", "pollen", "load", "look_like", "a", "gay", "little", "piece", "of", "yellow", "down", "float", "in", "the", "wind", "."]
+    oewn2026_key: [[0, "oewn-00027761-r"], [1, "oewn-02213079-n"], [3, "oewn-02566500-v"], [5, "oewn-00036138-r"], [6, "oewn-01126910-a"], [7, "oewn-00720957-n"], [9, "oewn-00119259-r"], [12, "oewn-00015568-n"], [15, "oewn-01086845-a"], [16, "oewn-11695988-n"], [17, "oewn-03685312-n"], [18, "oewn-02671694-v"], [20, "oewn-00408228-s"], [21, "oewn-01394303-a"], [22, "oewn-09408804-n"], [24, "oewn-04972838-n"], [25, "oewn-01899202-n"], [26, "oewn-01906776-v"], [29, "oewn-11546388-n"]]
+    paragraph: '9'
+    pos: ["RB", "NNP", "MD", "VB", "DT", "RB", "JJ", "NN", ",", "RB", "RB", "DT", "NN", "IN", "DT", "JJ", "NN", "NN", "VBD", "DT", "JJ", "JJ", "NN", "IN", "NN", "NN", "VBG", "VB", "VB", "NN", "."]
+    text: ' Still Andrena will do a reasonably good job, so that an animal with a full pollen
+  load looks_like a gay little piece of yellow down floating in the wind.
+
+  '
+    tokens: [[1, 6], [7, 14], [15, 19], [20, 22], [23, 24], [25, 35], [36, 40], [41, 44], [44, 45], [46, 48], [49, 53], [54, 56], [57, 63], [64, 68], [69, 70], [71, 75], [76, 82], [83, 87], [88, 98], [99, 100], [101, 104], [105, 111], [112, 117], [118, 120], [121, 127], [128, 132], [133, 141], [142, 144], [145, 148], [149, 153], [153, 154]]
+    wn16_key: [[0, "still%4:02:04::"], [1, "andrena%1:05:00::"], [3, "do%2:41:01::"], [5, "reasonably%4:02:00::"], [6, "good%3:00:01::"], [7, "job%1:04:01::"], [9, "so%4:02:06::"], [12, "animal%1:03:00::"], [15, "full%3:00:00::"], [16, "pollen%1:20:00::"], [17, "load%1:06:00::"], [18, "look_like%2:42:00::"], [20, "gay%5:00:00:colorful:03"], [21, "little%3:00:01::"], [22, "piece%1:17:00::"], [24, "yellow%1:07:00::"], [25, "down%1:05:00::"], [26, "float%2:38:00::"], [29, "wind%1:19:00::"]]
+    wn30_key: [[0, "still%4:02:04::"], [1, "andrena%1:05:00::"], [3, "do%2:41:01::"], [5, "reasonably%4:02:00::"], [6, "good%3:00:01::"], [7, "job%1:04:01::"], [9, "so%4:02:06::"], [12, "animal%1:03:00::"], [15, "full%3:00:00::"], [16, "pollen%1:20:00::"], [17, "load%1:06:00::"], [18, "look_like%2:42:00::"], [20, "gay%3:00:00:colorful:03"], [21, "little%3:00:01::"], [22, "piece%1:17:00::"], [24, "yellow%1:07:00::"], [25, "down%1:05:00::"], [26, "float%2:38:00::"], [29, "wind%1:19:00::"]]
+hAlD:
+    lemmas: ["closely", "related", "to", "the", "andrena", "be", "the", "nomia", "or", "alkali_bee", "."]
+    oewn2026_key: [[0, "oewn-00161639-r"], [1, "oewn-01978302-a"], [4, "oewn-02213079-n"], [5, "oewn-02610777-v"], [7, "oewn-02213219-n"], [9, "oewn-02213573-n"]]
+    paragraph: '10'
+    pos: ["RB", "JJ", "VB", "DT", "NNS", "VBP", "DT", "NNS", "CC", "NNS", "."]
+    text: ' Closely related to the andrenas are the nomias or alkali_bees.'
+    tokens: [[1, 8], [9, 16], [17, 19], [20, 23], [24, 32], [33, 36], [37, 40], [41, 47], [48, 50], [51, 62], [62, 63]]
+    wn16_key: [[0, "closely%4:02:00::"], [1, "related%3:00:01::"], [4, "andrena%1:05:00::"], [5, "be%2:42:03::"], [7, "nomia%1:05:00::"], [9, "alkali_bee%1:05:00::"]]
+    wn30_key: [[0, "closely%4:02:00::"], [1, "related%3:00:01::"], [4, "andrena%1:05:00::"], [5, "be%2:42:03::"], [7, "nomia%1:05:00::"], [9, "alkali_bee%1:05:00::"]]
+BACx:
+    lemmas: ["nomia_melanderi", "can", "be", "find", "in", "tremendous", "number", "in", "certain", "part", "of", "the", "united_states", "west", "of", "the", "location", ",", "for_example", ",", "in", "utah", "and", "central", "washington", "."]
+    oewn2026_key: [[0, "oewn-02213573-n"], [3, "oewn-02158938-v"], [5, "oewn-01388189-s"], [6, "oewn-13603216-n"], [8, "oewn-00704329-s"], [9, "oewn-08647614-n"], [12, "oewn-09067337-n"], [13, "oewn-13856598-n"], [16, "oewn-00027365-n"], [18, "oewn-00160239-r"], [21, "oewn-09169783-n"], [23, "oewn-00330729-a"], [24, "oewn-09175699-n"]]
+    paragraph: '10'
+    pos: ["NN", "MD", "VB", "VBN", "IN", "JJ", "NNS", "IN", "JJ", "NNS", "IN", "DT", "NN", "NN", "IN", "DT", "NNS", ",", "RB", ",", "IN", "NNP", "CC", "JJ", "NNP", "."]
+    text: ' Nomia_melanderi can be found in tremendous numbers in certain parts of the United_States
+  west of the Great_Plains, for_example, in Utah and central Washington.'
+    tokens: [[1, 16], [17, 20], [21, 23], [24, 29], [30, 32], [33, 43], [44, 51], [52, 54], [55, 62], [63, 68], [69, 71], [72, 75], [76, 89], [90, 94], [95, 97], [98, 101], [102, 114], [114, 115], [116, 127], [127, 128], [129, 131], [132, 136], [137, 140], [141, 148], [149, 159], [159, 160]]
+    wn16_key: [[0, "nomia_melanderi%1:05:00::"], [3, "find%2:39:02::"], [5, "tremendous%5:00:00:large:00"], [6, "number%1:23:00::"], [8, "certain%5:00:00:definite:00"], [9, "part%1:15:00::"], [12, "united_states%1:15:00::"], [13, "west%1:24:00::"], [16, "location%1:03:00::"], [18, "for_example%4:02:00::"], [21, "utah%1:15:00::"], [23, "central%3:01:00::"], [24, "washington%1:15:00::"]]
+    wn30_key: [[0, "nomia_melanderi%1:05:00::"], [3, "find%2:39:02::"], [5, "tremendous%3:00:00:large:00"], [6, "number%1:23:00::"], [8, "certain%3:00:00:definite:00"], [9, "part%1:15:00::"], [12, "united_states%1:15:00::"], [13, "west%1:24:00::"], [16, "location%1:03:00::"], [18, "for_example%4:02:00::"], [21, "utah%1:15:00::"], [23, "central%3:00:01::"], [24, "washington%1:15:00::"]]
+/LsW:
+    lemmas: ["In", "the", "united_states", "department_of_agriculture", "'s", "yearbook_of_agriculture", ",", "1952", ",", "which", "be", "devote", "entirely", "to", "insect", ",", "person", "mention", "a", "site", "in", "utah", "which", "be", "estimate", "to", "contain", "200000", "nest", "female", "."]
+    oewn2026_key: [[2, "oewn-09067337-n"], [3, "oewn-08145946-n"], [11, "oewn-00888984-v"], [12, "oewn-00008423-r"], [14, "oewn-02162607-n"], [16, "oewn-00007846-n"], [17, "oewn-01026199-v"], [19, "oewn-08640525-n"], [21, "oewn-09169783-n"], [24, "oewn-00674352-v"], [26, "oewn-02635616-v"], [28, "oewn-02661042-v"], [29, "oewn-01323363-n"]]
+    paragraph: '10'
+    pos: ["IN", "DT", "NN", "NN", "POS", "NNP", ",", "CD", ",", "WDT", "VBZ", "VBN", "RB", "TO", "NNS", ",", "NN", "VBZ", "DT", "NN", "IN", "NNP", "WDT", "VBD", "VBN", "TO", "VB", "CD", "VB", "NNS", "."]
+    text: ' In the United_States Department_of_Agriculture''s Yearbook_of_Agriculture, 1952,
+  which is devoted entirely to insects, George_E._Bohart mentions a site in Utah which
+  was estimated to contain 200000 nesting females.'
+    tokens: [[1, 3], [4, 7], [8, 21], [22, 47], [47, 49], [50, 73], [73, 74], [75, 79], [79, 80], [81, 86], [87, 89], [90, 97], [98, 106], [107, 109], [110, 117], [117, 118], [119, 135], [136, 144], [145, 146], [147, 151], [152, 154], [155, 159], [160, 165], [166, 169], [170, 179], [180, 182], [183, 190], [191, 197], [198, 205], [206, 213], [213, 214]]
+    wn16_key: [[2, "united_states%1:15:00::"], [3, "department_of_agriculture%1:14:00::"], [11, "devote%2:32:00::"], [12, "entirely%4:02:00::"], [14, "insect%1:05:00::"], [16, "person%1:03:00::"], [17, "mention%2:32:02::"], [19, "site%1:15:02::"], [21, "utah%1:15:00::"], [24, "estimate%2:31:00::"], [26, "contain%2:42:00::"], [28, "nest%2:42:00::"], [29, "female%1:05:00::"]]
+    wn30_key: [[2, "united_states%1:15:00::"], [3, "department_of_agriculture%1:14:00::"], [11, "devote%2:32:00::"], [12, "entirely%4:02:00::"], [14, "insect%1:05:00::"], [16, "person%1:03:00::"], [17, "mention%2:32:02::"], [19, "site%1:15:02::"], [21, "utah%1:15:00::"], [24, "estimate%2:31:00::"], [26, "contain%2:42:00::"], [28, "nest%2:42:00::"], [29, "female%1:05:00::"]]
+xrud:
+    lemmas: ["often", "the", "burrow", "be", "only", "an", "inch", "or", "two", "apart", ",", "and", "the", "bee", "city", "cover", "several", "acres", "."]
+    oewn2026_key: [[0, "oewn-00035445-r"], [2, "oewn-09252948-n"], [3, "oewn-02661230-v"], [4, "oewn-00005103-r"], [6, "oewn-13671409-n"], [8, "oewn-02194109-s"], [9, "oewn-00182561-r"], [13, "oewn-02209508-n"], [14, "oewn-08542298-n"], [15, "oewn-02693758-v"], [16, "oewn-02276025-s"], [17, "oewn-13267561-n"]]
+    paragraph: '10'
+    pos: ["RB", "DT", "NNS", "VBP", "RB", "DT", "NN", "CC", "JJ", "RB", ",", "CC", "DT", "NN", "NNS", "VBP", "JJ", "NNS", "."]
+    text: ' Often the burrows are only an inch or two apart, and the bee cities cover several
+  acres.'
+    tokens: [[1, 6], [7, 10], [11, 18], [19, 22], [23, 27], [28, 30], [31, 35], [36, 38], [39, 42], [43, 48], [48, 49], [50, 53], [54, 57], [58, 61], [62, 68], [69, 74], [75, 82], [83, 88], [88, 89]]
+    wn16_key: [[0, "often%4:02:00::"], [2, "burrow%1:17:00::"], [3, "be%2:42:05::"], [4, "only%4:02:02::"], [6, "inch%1:23:00::"], [8, "two%5:00:00:cardinal:00"], [9, "apart%4:02:03::"], [13, "bee%1:05:00::"], [14, "city%1:15:00::"], [15, "cover%2:42:01::"], [16, "several%5:00:00:some(a):00"], [17, "acres%1:21:00::"]]
+    wn30_key: [[0, "often%4:02:00::"], [2, "burrow%1:17:00::"], [3, "be%2:42:05::"], [4, "only%4:02:02::"], [6, "inch%1:23:00::"], [8, "two%3:00:00:cardinal:00"], [9, "apart%4:02:03::"], [13, "bee%1:05:00::"], [14, "city%1:15:00::"], [15, "cover%2:42:01::"], [16, "several%3:00:00:some:00"], [17, "acres%1:21:00::"]]
+WXs7:
+    lemmas: ["The", "life_history", "of", "the", "alkali_bee", "be", "similar", "to", "that", "of", "andrena", ",", "but", "the", "first", "activity", "of", "the", "adult", "do", "not", "take_place", "until", "summer", ",", "and", "the", "individual", "hibernate", "in", "the", "prepupal", "stage", "."]
+    oewn2026_key: [[1, "oewn-06527818-n"], [4, "oewn-02213573-n"], [5, "oewn-02610777-v"], [6, "oewn-02078824-a"], [10, "oewn-02213079-n"], [14, "oewn-01014459-a"], [15, "oewn-14030430-n"], [18, "oewn-01323947-n"], [20, "oewn-00024432-r"], [21, "oewn-00340744-v"], [23, "oewn-15262047-n"], [27, "oewn-10223458-n"], [28, "oewn-00015939-v"], [31, "oewn-01494429-s"], [32, "oewn-13962925-n"]]
+    paragraph: '10'
+    pos: ["DT", "NN", "IN", "DT", "NN", "VBZ", "JJ", "RB", "RB", "IN", "NNP", ",", "CC", "DT", "JJ", "NN", "IN", "DT", "NNS", "VBZ", "RB", "VB", "IN", "NN", ",", "CC", "DT", "NNS", "VBP", "IN", "DT", "JJ", "NN", "."]
+    text: ' The life_history of the alkali_bee is similar to that of Andrena, but the first
+  activity of the adults does not take_place until summer, and the individuals hibernate
+  in the prepupal stage.'
+    tokens: [[1, 4], [5, 17], [18, 20], [21, 24], [25, 35], [36, 38], [39, 46], [47, 49], [50, 54], [55, 57], [58, 65], [65, 66], [67, 70], [71, 74], [75, 80], [81, 89], [90, 92], [93, 96], [97, 103], [104, 108], [109, 112], [113, 123], [124, 129], [130, 136], [136, 137], [138, 141], [142, 145], [146, 157], [158, 167], [168, 170], [171, 174], [175, 183], [184, 189], [189, 190]]
+    wn16_key: [[1, "life_history%1:10:00::"], [4, "alkali_bee%1:05:00::"], [5, "be%2:42:03::"], [6, "similar%3:00:00::"], [10, "andrena%1:05:00::"], [14, "first%5:00:00:ordinal:00"], [15, "activity%1:26:00::"], [18, "adult%1:05:00::"], [20, "not%4:02:00::"], [21, "take_place%2:30:00::"], [23, "summer%1:28:00::"], [27, "individual%1:18:00::"], [28, "hibernate%2:29:00::"], [31, "prepupal%5:00:00:immature:01"], [32, "stage%1:26:00::"]]
+    wn30_key: [[1, "life_history%1:10:00::"], [4, "alkali_bee%1:05:00::"], [5, "be%2:42:03::"], [6, "similar%3:00:00::"], [10, "andrena%1:05:00::"], [14, "first%3:00:00:ordinal:00"], [15, "activity%1:26:00::"], [18, "adult%1:05:00::"], [20, "not%4:02:00::"], [21, "take_place%2:30:00::"], [23, "summer%1:28:00::"], [27, "individual%1:18:00::"], [28, "hibernate%2:29:00::"], [31, "prepupal%3:00:00:immature:01"], [32, "stage%1:26:00::"]]
+qbid:
+    lemmas: ["In", "most", "place", ",", "there", "be", "two", "generation", "a", "year", ",", "a", "second", "brood", "of", "adult", "appear", "late", "in", "the", "summer", "."]
+    oewn2026_key: [[1, "oewn-01561513-a"], [2, "oewn-08659612-n"], [5, "oewn-02610777-v"], [6, "oewn-02194109-s"], [7, "oewn-08385834-n"], [9, "oewn-15228587-n"], [12, "oewn-02209815-s"], [13, "oewn-08007266-n"], [15, "oewn-01323947-n"], [16, "oewn-00423043-v"], [17, "oewn-00820050-a"], [20, "oewn-15262047-n"]]
+    paragraph: '10'
+    pos: ["IN", "JJS", "NNS", ",", "EX", "VBP", "JJ", "NNS", "DT", "NN", ",", "DT", "JJ", "NN", "IN", "NNS", "VBG", "JJ", "IN", "DT", "NN", "."]
+    text: ' In most places, there are two generations a year, a second brood of adults appearing
+  late in the summer.
+
+  '
+    tokens: [[1, 3], [4, 8], [9, 15], [15, 16], [17, 22], [23, 26], [27, 30], [31, 42], [43, 44], [45, 49], [49, 50], [51, 52], [53, 59], [60, 65], [66, 68], [69, 75], [76, 85], [86, 90], [91, 93], [94, 97], [98, 104], [104, 105]]
+    wn16_key: [[1, "most%3:00:02::"], [2, "place%1:15:01::"], [5, "be%2:42:04::"], [6, "two%5:00:00:cardinal:00"], [7, "generation%1:14:00::"], [9, "year%1:28:01::"], [12, "second%5:00:00:ordinal:00"], [13, "brood%1:14:00::"], [15, "adult%1:05:00::"], [16, "appear%2:30:00::"], [17, "late%3:00:00::"], [20, "summer%1:28:00::"]]
+    wn30_key: [[1, "most%3:00:02::"], [2, "place%1:15:01::"], [5, "be%2:42:04::"], [6, "two%3:00:00:cardinal:00"], [7, "generation%1:14:00::"], [9, "year%1:28:01::"], [12, "second%3:00:00:ordinal:00"], [13, "brood%1:14:00::"], [15, "adult%1:05:00::"], [16, "appear%2:30:00::"], [17, "late%3:00:00::"], [20, "summer%1:28:00::"]]
+cflU:
+    lemmas: ["I", "must", "plead", "guilty", "to", "a", "special", "sympathy", "for", "nomia", "."]
+    oewn2026_key: [[2, "oewn-00762621-v"], [3, "oewn-01323940-a"], [6, "oewn-01107719-s"], [7, "oewn-06208877-n"], [9, "oewn-02213219-n"]]
+    paragraph: '11'
+    pos: ["PRP", "MD", "VB", "JJ", "TO", "DT", "JJ", "NN", "IN", "NNS", "."]
+    text: ' I must plead guilty to a special sympathy for nomias.'
+    tokens: [[1, 2], [3, 7], [8, 13], [14, 20], [21, 23], [24, 25], [26, 33], [34, 42], [43, 46], [47, 53], [53, 54]]
+    wn16_key: [[2, "plead%2:32:01::"], [3, "guilty%3:00:00::"], [6, "special%5:00:01:specific:00"], [7, "sympathy%1:09:00::"], [9, "nomia%1:05:00::"]]
+    wn30_key: [[2, "plead%2:32:01::"], [3, "guilty%3:00:00::"], [6, "special%3:00:01:specific:00"], [7, "sympathy%1:09:00::"], [9, "nomia%1:05:00::"]]
+WYYa:
+    lemmas: ["This", "may", "just", "be", "pride", "in", "my", "adopted", "location", ",", "but", "certainly", "I", "love", "to", "visit", "their", "mound", "city", "near", "location", "and", "location", "in", "july", "or", "august", ",", "when", "the", "bee", "be", "in", "their", "most", "active", "period", "."]
+    oewn2026_key: [[2, "oewn-00005103-r"], [3, "oewn-02622439-v"], [4, "oewn-07523725-n"], [7, "oewn-01037978-a"], [8, "oewn-00027365-n"], [11, "oewn-00145758-r"], [13, "oewn-01832678-v"], [15, "oewn-01847631-v"], [17, "oewn-09349568-n"], [18, "oewn-08542298-n"], [20, "oewn-00027365-n"], [22, "oewn-00027365-n"], [24, "oewn-15236963-n"], [26, "oewn-15237251-n"], [30, "oewn-02209508-n"], [31, "oewn-02610777-v"], [34, "oewn-01560125-a"], [35, "oewn-00032087-a"], [36, "oewn-15137796-n"]]
+    paragraph: '11'
+    pos: ["DT", "MD", "RB", "VB", "NN", "IN", "PRP$", "JJ", "NN", ",", "CC", "RB", "PRP", "VBP", "TO", "VB", "PRP$", "NN", "NNS", "IN", "NNP", "CC", "NNP", "IN", "NNP", "CC", "NNP", ",", "WRB", "DT", "NNS", "VBP", "IN", "PRP$", "JJ", "JJ", "NN", "."]
+    text: ' This may just be pride in my adopted State_of_Washington, but certainly I love to
+  visit their mound cities near Yakima and Prosser in July or August, when the bees
+  are in their most active period.'
+    tokens: [[1, 5], [6, 9], [10, 14], [15, 17], [18, 23], [24, 26], [27, 29], [30, 37], [38, 57], [57, 58], [59, 62], [63, 72], [73, 74], [75, 79], [80, 82], [83, 88], [89, 94], [95, 100], [101, 107], [108, 112], [113, 119], [120, 123], [124, 131], [132, 134], [135, 139], [140, 142], [143, 149], [149, 150], [151, 155], [156, 159], [160, 164], [165, 168], [169, 171], [172, 177], [178, 182], [183, 189], [190, 196], [196, 197]]
+    wn16_key: [[2, "just%4:02:00::"], [3, "be%2:42:06::"], [4, "pride%1:12:00::"], [7, "adopted%3:00:00::"], [8, "location%1:03:00::"], [11, "certainly%4:02:00::"], [13, "love%2:37:02::"], [15, "visit%2:38:00::"], [17, "mound%1:17:00::"], [18, "city%1:15:00::"], [20, "location%1:03:00::"], [22, "location%1:03:00::"], [24, "july%1:28:00::"], [26, "august%1:28:00::"], [30, "bee%1:05:00::"], [31, "be%2:42:03::"], [34, "most%3:00:01::"], [35, "active%3:00:01::"], [36, "period%1:28:00::"]]
+    wn30_key: [[2, "just%4:02:00::"], [3, "be%2:42:06::"], [4, "pride%1:12:00::"], [7, "adopted%3:00:00::"], [8, "location%1:03:00::"], [11, "certainly%4:02:00::"], [13, "love%2:37:02::"], [15, "visit%2:38:00::"], [17, "mound%1:17:00::"], [18, "city%1:15:00::"], [20, "location%1:03:00::"], [22, "location%1:03:00::"], [24, "july%1:28:00::"], [26, "august%1:28:00::"], [30, "bee%1:05:00::"], [31, "be%2:42:03::"], [34, "most%3:00:01::"], [35, "active%3:00:01::"], [36, "period%1:28:00::"]]
+sG9S:
+    lemmas: ["The", "name", "\"", "alkali_bee", "\"", "indicate", "that", "one", "have_to", "look_for", "them", "in", "rather", "inhospitable", "place", "."]
+    oewn2026_key: [[1, "oewn-06344646-n"], [3, "oewn-02213573-n"], [5, "oewn-00929986-v"], [9, "oewn-01318273-v"], [12, "oewn-00018764-r"], [13, "oewn-01245363-a"], [14, "oewn-08682181-n"]]
+    paragraph: '11'
+    pos: ["DT", "NN", "``", "NN", "''", "VBZ", "IN", "CD", "VB", "VB", "PRP", "IN", "RB", "JJ", "NNS", "."]
+    text: ' The name " alkali_bee " indicates that one has_to look_for them in rather inhospitable
+  places.'
+    tokens: [[1, 4], [5, 9], [10, 11], [12, 22], [23, 24], [25, 34], [35, 39], [40, 43], [44, 50], [51, 59], [60, 64], [65, 67], [68, 74], [75, 87], [88, 94], [94, 95]]
+    wn16_key: [[1, "name%1:10:00::"], [3, "alkali_bee%1:05:00::"], [5, "indicate%2:32:00::"], [9, "look_for%2:35:00::"], [12, "rather%4:02:04::"], [13, "inhospitable%3:00:00::"], [14, "place%1:15:00::"]]
+    wn30_key: [[1, "name%1:10:00::"], [3, "alkali_bee%1:05:00::"], [5, "indicate%2:32:00::"], [9, "look_for%2:35:00::"], [12, "rather%4:02:04::"], [13, "inhospitable%3:00:00::"], [14, "place%1:15:00::"]]
+DRFt:
+    lemmas: ["sometimes", ",", "although", "by_no_means", "always", ",", "these", "be", "indeed", "alkaline", "."]
+    oewn2026_key: [[0, "oewn-00022332-r"], [3, "oewn-00057580-r"], [4, "oewn-00019801-r"], [7, "oewn-02610777-v"], [8, "oewn-00038035-r"], [9, "oewn-00025841-a"]]
+    paragraph: '11'
+    pos: ["RB", ",", "IN", "RB", "RB", ",", "DT", "VBP", "RB", "JJ", "."]
+    text: ' Sometimes, although by_no_means always, these are indeed alkaline.'
+    tokens: [[1, 10], [10, 11], [12, 20], [21, 32], [33, 39], [39, 40], [41, 46], [47, 50], [51, 57], [58, 66], [66, 67]]
+    wn16_key: [[0, "sometimes%4:02:01::"], [3, "by_no_means%4:02:00::"], [4, "always%4:02:00::"], [7, "be%2:42:03::"], [8, "indeed%4:02:03::"], [9, "alkaline%3:00:00::"]]
+    wn30_key: [[0, "sometimes%4:02:01::"], [3, "by_no_means%4:02:00::"], [4, "always%4:02:00::"], [7, "be%2:42:03::"], [8, "indeed%4:02:03::"], [9, "alkaline%3:00:00::"]]
+9eHN:
+    lemmas: ["The", "thing", "be", "that", "these", "bee", "love", "a", "fine-grained", "soil", "that", "be", "moist", ";", "yet", "the", "water", "in", "the", "ground", "should", "not", "be", "stagnant", "either", "."]
+    oewn2026_key: [[1, "oewn-13967020-n"], [2, "oewn-02622439-v"], [5, "oewn-02209508-n"], [6, "oewn-01832678-v"], [8, "oewn-02241135-s"], [9, "oewn-14868863-n"], [11, "oewn-02610777-v"], [12, "oewn-02559590-s"], [16, "oewn-14869913-n"], [19, "oewn-09357302-n"], [21, "oewn-00024432-r"], [22, "oewn-02610777-v"], [23, "oewn-01244121-s"], [24, "oewn-00025252-r"]]
+    paragraph: '11'
+    pos: ["DT", "NN", "VBZ", "IN", "DT", "NNS", "VBP", "DT", "JJ", "NN", "RB", "VBZ", "JJ", ":", "RB", "DT", "NN", "IN", "DT", "NN", "MD", "RB", "VB", "JJ", "RB", "."]
+    text: ' The thing is that these bees love a fine-grained soil that is moist; yet the water
+  in the ground should not be stagnant either.'
+    tokens: [[1, 4], [5, 10], [11, 13], [14, 18], [19, 24], [25, 29], [30, 34], [35, 36], [37, 49], [50, 54], [55, 59], [60, 62], [63, 68], [68, 69], [70, 73], [74, 77], [78, 83], [84, 86], [87, 90], [91, 97], [98, 104], [105, 108], [109, 111], [112, 120], [121, 127], [127, 128]]
+    wn16_key: [[1, "thing%1:26:00::"], [2, "be%2:42:06::"], [5, "bee%1:05:00::"], [6, "love%2:37:02::"], [8, "fine-grained%5:00:02:fine:00"], [9, "soil%1:27:01::"], [11, "be%2:42:03::"], [12, "moist%5:00:00:wet:01"], [16, "water%1:27:00::"], [19, "ground%1:17:00::"], [21, "not%4:02:00::"], [22, "be%2:42:03::"], [23, "stagnant%5:00:00:standing(a):02"], [24, "either%4:02:00::"]]
+    wn30_key: [[1, "thing%1:26:00::"], [2, "be%2:42:06::"], [5, "bee%1:05:00::"], [6, "love%2:37:02::"], [8, "fine-grained%3:00:02:fine:00"], [9, "soil%1:27:01::"], [11, "be%2:42:03::"], [12, "moist%3:00:00:wet:01"], [16, "water%1:27:00::"], [19, "ground%1:17:00::"], [21, "not%4:02:00::"], [22, "be%2:42:03::"], [23, "stagnant%3:00:00:standing:02"], [24, "either%4:02:00::"]]
+PhJB:
+    lemmas: ["They", "dislike", "dense", "vegetation", "."]
+    oewn2026_key: [[1, "oewn-01780648-v"], [2, "oewn-02425186-s"], [3, "oewn-08453769-n"]]
+    paragraph: '11'
+    pos: ["PRP", "VBP", "JJ", "NN", "."]
+    text: ' They dislike dense vegetation.'
+    tokens: [[1, 5], [6, 13], [14, 19], [20, 30], [30, 31]]
+    wn16_key: [[1, "dislike%2:37:00::"], [2, "dense%5:00:00:thick:02"], [3, "vegetation%1:14:00::"]]
+    wn30_key: [[1, "dislike%2:37:00::"], [2, "dense%3:00:00:thick:02"], [3, "vegetation%1:14:00::"]]
+NQTO:
+    lemmas: ["Where", "do", "one", "find", "such", "condition", "?"]
+    oewn2026_key: [[3, "oewn-02253273-v"], [4, "oewn-01558587-s"], [5, "oewn-13943868-n"]]
+    paragraph: '11'
+    pos: ["WRB", "VBZ", "CD", "VB", "JJ", "NNS", "."]
+    text: ' Where does one find such conditions?'
+    tokens: [[1, 6], [7, 11], [12, 15], [16, 20], [21, 25], [26, 36], [36, 37]]
+    wn16_key: [[3, "find%2:40:02::"], [4, "such%5:00:01:specified:00"], [5, "condition%1:26:00::"]]
+    wn30_key: [[3, "find%2:40:02::"], [4, "such%3:00:00:much:00"], [5, "condition%1:26:00::"]]
+2JRb:
+    lemmas: ["The", "best", "chance", ",", "of_course", ",", "be", "offer", "by", "gently", "sloping", "terrain", "where", "the", "water", "remain", "close", "to", "the", "surface", "and", "where", "the", "air", "be", "dry", ",", "so", "that", "a", "high", "evaporation", "leave", "salty", "deposit", "which", "permit", "only", "sparse", "plant", "growth", "."]
+    oewn2026_key: [[1, "oewn-00229099-a"], [2, "oewn-14507501-n"], [4, "oewn-00039019-r"], [7, "oewn-02332196-v"], [9, "oewn-00183062-r"], [10, "oewn-01237620-s"], [11, "oewn-08692301-n"], [14, "oewn-14869913-n"], [15, "oewn-00117793-v"], [16, "oewn-00448955-a"], [19, "oewn-09474647-n"], [23, "oewn-14865437-n"], [24, "oewn-02610777-v"], [25, "oewn-02562150-a"], [27, "oewn-00119259-r"], [30, "oewn-01213526-a"], [31, "oewn-13593639-n"], [32, "oewn-00360745-v"], [34, "oewn-09451871-n"], [36, "oewn-02427979-v"], [37, "oewn-00009062-r"], [38, "oewn-00544579-s"], [39, "oewn-00017402-n"], [40, "oewn-08455059-n"]]
+    paragraph: '11'
+    pos: ["DT", "JJS", "NN", ",", "RB", ",", "VBZ", "VBN", "IN", "RB", "JJ", "NN", "WRB", "DT", "NN", "VBZ", "JJ", "RB", "DT", "NN", "CC", "WRB", "DT", "NN", "VBZ", "JJ", ",", "RB", "RB", "DT", "JJ", "NN", "VBZ", "JJ", "NNS", "WDT", "VBP", "RB", "JJ", "NN", "NN", "."]
+    text: ' The best chance, of_course, is offered by gently sloping terrain where the water
+  remains close to the surface and where the air is dry, so that a high evaporation
+  leaves salty deposits which permit only sparse plant growth.
+
+  '
+    tokens: [[1, 4], [5, 9], [10, 16], [16, 17], [18, 27], [27, 28], [29, 31], [32, 39], [40, 42], [43, 49], [50, 57], [58, 65], [66, 71], [72, 75], [76, 81], [82, 89], [90, 95], [96, 98], [99, 102], [103, 110], [111, 114], [115, 120], [121, 124], [125, 128], [129, 131], [132, 135], [135, 136], [137, 139], [140, 144], [145, 146], [147, 151], [152, 163], [164, 170], [171, 176], [177, 185], [186, 191], [192, 198], [199, 203], [204, 210], [211, 216], [217, 223], [223, 224]]
+    wn16_key: [[1, "best%3:00:00::"], [2, "chance%1:26:00::"], [4, "of_course%4:02:00::"], [7, "offer%2:40:02::"], [9, "gently%4:02:00::"], [10, "sloping%5:00:00:inclined:01"], [11, "terrain%1:15:00::"], [14, "water%1:27:00::"], [15, "remain%2:30:00::"], [16, "close%3:00:01::"], [19, "surface%1:17:00::"], [23, "air%1:27:00::"], [24, "be%2:42:03::"], [25, "dry%3:00:01::"], [27, "so%4:02:06::"], [30, "high%3:00:02::"], [31, "evaporation%1:22:00::"], [32, "leave%2:30:03::"], [33, "salty%5:00:00:salt:00"], [34, "deposit%1:17:00::"], [36, "permit%2:41:00::"], [37, "only%4:02:01::"], [38, "sparse%5:00:00:distributed:00"], [39, "plant%1:03:00::"], [40, "growth%1:14:00::"]]
+    wn30_key: [[1, "best%3:00:00::"], [2, "chance%1:26:00::"], [4, "of_course%4:02:00::"], [7, "offer%2:40:02::"], [9, "gently%4:02:00::"], [10, "sloping%3:00:00:inclined:01"], [11, "terrain%1:15:00::"], [14, "water%1:27:00::"], [15, "remain%2:30:00::"], [16, "close%3:00:01::"], [19, "surface%1:17:00::"], [23, "air%1:27:00::"], [24, "be%2:42:03::"], [25, "dry%3:00:01::"], [27, "so%4:02:06::"], [30, "high%3:00:02::"], [31, "evaporation%1:22:00::"], [32, "leave%2:30:03::"], [34, "deposit%1:17:00::"], [36, "permit%2:41:00::"], [37, "only%4:02:01::"], [38, "sparse%3:00:00:distributed:00"], [39, "plant%1:03:00::"], [40, "growth%1:14:00::"]]

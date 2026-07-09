@@ -1,0 +1,814 @@
+_meta:
+    lemmas:
+        type: seq
+        base: tokens
+        data: string
+    oewn2026_key:
+        type: element
+        base: tokens
+        data: string
+    paragraph:
+        type: characters
+    pos:
+        type: seq
+        base: tokens
+        data: string
+    text:
+        type: characters
+    tokens:
+        type: span
+        base: text
+    wn16_key:
+        type: element
+        base: tokens
+        data: string
+    wn30_key:
+        type: element
+        base: tokens
+        data: string
+2lko:
+    lemmas: ["The", "thermal", "exchange", "of", "chlorine", "between", "*", "*", "f", "and", "liquid", "*", "*", "f", "be", "readily", "measurable", "at", "temperature", "in", "the", "range", "of", "180", "'", "and", "above", "."]
+    oewn2026_key: [[1, "oewn-02825392-a"], [2, "oewn-11429652-n"], [4, "oewn-14658769-n"], [10, "oewn-02269142-a"], [14, "oewn-02610777-v"], [15, "oewn-00162392-r"], [16, "oewn-01502253-a"], [18, "oewn-05018974-n"], [21, "oewn-05132642-n"], [26, "oewn-00080519-r"]]
+    paragraph: '0'
+    pos: ["DT", "JJ", "NN", "IN", "NN", "IN", "SYM", "SYM", "NN", "CC", "JJ", "NN", "SYM", "NN", "VBZ", "RB", "JJ", "IN", "NNS", "IN", "DT", "NN", "IN", "CD", "''", "CC", "RB", "."]
+    text: The thermal exchange of chlorine between * * f and liquid * * f is readily measurable
+      at temperatures in the range of 180' and above.
+    tokens: [[0, 3], [4, 11], [12, 20], [21, 23], [24, 32], [33, 40], [41, 42], [43, 44], [45, 46], [47, 50], [51, 57], [58, 59], [60, 61], [62, 63], [64, 66], [67, 74], [75, 85], [86, 88], [89, 101], [102, 104], [105, 108], [109, 114], [115, 117], [118, 121], [121, 122], [123, 126], [127, 132], [132, 133]]
+    wn16_key: [[1, "thermal%3:01:00::"], [2, "exchange%1:19:00::"], [4, "chlorine%1:27:00::"], [10, "liquid%3:00:00::"], [14, "be%2:42:03::"], [15, "readily%4:02:00::"], [16, "measurable%3:00:00::"], [18, "temperature%1:07:00::"], [21, "range%1:07:00::"], [26, "above%4:02:01::"]]
+    wn30_key: [[1, "thermal%3:01:00::"], [2, "exchange%1:19:00::"], [4, "chlorine%1:27:00::"], [10, "liquid%3:00:00::"], [14, "be%2:42:03::"], [15, "readily%4:02:00::"], [16, "measurable%3:00:00::"], [18, "temperature%1:07:00::"], [21, "range%1:07:00::"], [26, "above%4:02:01::"]]
+qfMo:
+    lemmas: ["The", "photochemical_exchange", "occur", "with", "a", "quantum", "yield", "of", "the", "order", "of", "unity", "in", "the", "liquid", "phase", "at", "65", "'", "use", "light", "absorb", "only", "by", "the", "*", "*", "f", "."]
+    oewn2026_key: [[1, "oewn-11430137-n"], [2, "oewn-00340744-v"], [6, "oewn-00916463-n"], [9, "oewn-05098520-n"], [11, "oewn-13764713-n"], [14, "oewn-14504004-n"], [15, "oewn-14503649-n"], [19, "oewn-01161188-v"], [20, "oewn-11494354-n"], [21, "oewn-01542421-v"], [22, "oewn-00009062-r"]]
+    paragraph: '0'
+    pos: ["DT", "NN", "VBZ", "IN", "DT", "NN", "NN", "IN", "DT", "NN", "IN", "NN", "IN", "DT", "NN", "NN", "IN", "CD", "''", "VBG", "NN", "VBN", "RB", "IN", "DT", "NN", "SYM", "NN", "."]
+    text: ' The photochemical_exchange occurs with a quantum yield of the order of unity in
+  the liquid phase at 65'' using light absorbed only by the * * f.'
+    tokens: [[1, 4], [5, 27], [28, 34], [35, 39], [40, 41], [42, 49], [50, 55], [56, 58], [59, 62], [63, 68], [69, 71], [72, 77], [78, 80], [81, 84], [85, 91], [92, 97], [98, 100], [101, 103], [103, 104], [105, 110], [111, 116], [117, 125], [126, 130], [131, 133], [134, 137], [138, 139], [140, 141], [142, 143], [143, 144]]
+    wn16_key: [[1, "photochemical_exchange%1:19:00::"], [2, "occur%2:30:00::"], [5, "quantum%1:03:00::"], [6, "yield%1:04:00::"], [9, "order%1:07:01::"], [11, "unity%1:23:00::"], [14, "liquid%1:26:00::"], [15, "phase%1:26:00::"], [19, "use%2:34:01::"], [20, "light%1:19:00::"], [21, "absorb%2:35:01::"], [22, "only%4:02:01::"]]
+    wn30_key: [[1, "photochemical_exchange%1:19:00::"], [2, "occur%2:30:00::"], [6, "yield%1:04:00::"], [9, "order%1:07:01::"], [11, "unity%1:23:00::"], [14, "liquid%1:26:00::"], [15, "phase%1:26:00::"], [19, "use%2:34:01::"], [20, "light%1:19:00::"], [21, "absorb%2:35:01::"], [22, "only%4:02:01::"]]
+K8Wu:
+    lemmas: ["In", "the", "gas", "phase", ",", "with", "*", "*", "f", "of", "*", "*", "f", "and", "*", "*", "f", "of", "*", "*", "f", ",", "quantum", "yield", "of", "the", "order", "of", "*", "*", "f", "have", "be", "observe", "at", "85", "'", "."]
+    oewn2026_key: [[2, "oewn-14504664-n"], [3, "oewn-14503649-n"], [23, "oewn-00916463-n"], [26, "oewn-05098520-n"], [33, "oewn-02158938-v"]]
+    paragraph: '0'
+    pos: ["IN", "DT", "NN", "NN", ",", "IN", "SYM", "SYM", "NN", "IN", "SYM", "SYM", "NN", "CC", "SYM", "SYM", "NN", "IN", "SYM", "SYM", "NN", ",", "NN", "NNS", "IN", "DT", "NN", "IN", "SYM", "SYM", "NN", "VBP", "VBN", "VBN", "IN", "CD", "''", "."]
+    text: ' In the gas phase, with * * f of * * f and * * f of * * f, quantum yields of the
+  order of * * f have been observed at 85''.'
+    tokens: [[1, 3], [4, 7], [8, 11], [12, 17], [17, 18], [19, 23], [24, 25], [26, 27], [28, 29], [30, 32], [33, 34], [35, 36], [37, 38], [39, 42], [43, 44], [45, 46], [47, 48], [49, 51], [52, 53], [54, 55], [56, 57], [57, 58], [59, 66], [67, 73], [74, 76], [77, 80], [81, 86], [87, 89], [90, 91], [92, 93], [94, 95], [96, 100], [101, 105], [106, 114], [115, 117], [118, 120], [120, 121], [121, 122]]
+    wn16_key: [[2, "gas%1:26:00::"], [3, "phase%1:26:00::"], [22, "quantum%1:03:00::"], [23, "yield%1:04:00::"], [26, "order%1:07:01::"], [33, "observe%2:39:02::"]]
+    wn30_key: [[2, "gas%1:26:00::"], [3, "phase%1:26:00::"], [23, "yield%1:04:00::"], [26, "order%1:07:01::"], [33, "observe%2:39:02::"]]
+QmaS:
+    lemmas: ["Despite", "extensive", "attempt", "to", "obtain", "highly", "pure", "reagent", ",", "serious", "difficulty", "be", "experience", "in", "obtain", "reproducible", "rate", "of", "reaction", "."]
+    oewn2026_key: [[2, "oewn-00787849-n"], [4, "oewn-02242867-v"], [5, "oewn-00089896-r"], [6, "oewn-01911832-a"], [7, "oewn-14803141-n"], [9, "oewn-02125659-a"], [10, "oewn-00625102-n"], [12, "oewn-02114674-v"], [14, "oewn-02242867-v"], [15, "oewn-01873946-a"], [16, "oewn-15311467-n"], [18, "oewn-13468534-n"]]
+    paragraph: '0'
+    pos: ["RB", "JJ", "NNS", "TO", "VB", "RB", "JJ", "NNS", ",", "JJ", "NN", "VBD", "VBN", "IN", "VBG", "JJ", "NNS", "IN", "NN", "."]
+    text: ' Despite extensive attempts to obtain highly pure reagents, serious difficulty was
+  experienced in obtaining reproducible rates of reaction.'
+    tokens: [[1, 8], [9, 18], [19, 27], [28, 30], [31, 37], [38, 44], [45, 49], [50, 58], [58, 59], [60, 67], [68, 78], [79, 82], [83, 94], [95, 97], [98, 107], [108, 120], [121, 126], [127, 129], [130, 138], [138, 139]]
+    wn16_key: [[1, "extensive%5:00:00:abundant:00"], [2, "attempt%1:04:00::"], [4, "obtain%2:40:00::"], [5, "highly%4:02:02::"], [6, "pure%3:00:02::"], [7, "reagent%1:27:00::"], [9, "serious%3:00:00::"], [10, "difficulty%1:09:02::"], [12, "experience%2:39:01::"], [14, "obtain%2:40:00::"], [15, "reproducible%3:00:00::"], [16, "rate%1:28:00::"], [18, "reaction%1:22:00::"]]
+    wn30_key: [[2, "attempt%1:04:00::"], [4, "obtain%2:40:00::"], [5, "highly%4:02:01::"], [6, "pure%3:00:02::"], [7, "reagent%1:27:00::"], [9, "serious%3:00:00::"], [10, "difficulty%1:09:02::"], [12, "experience%2:39:01::"], [14, "obtain%2:40:00::"], [15, "reproducible%3:00:00::"], [16, "rate%1:28:00::"], [18, "reaction%1:22:00::"]]
++4AJ:
+    lemmas: ["It", "appear", "possible", "to", "set", "a", "lower_limit", "of", "about", "*", "*", "f", "for", "the", "activation_energy", "of", "the", "abstraction", "of", "a", "chlorine", "atom", "from", "a", "carbon_tetrachloride", "molecule", "by", "a", "chlorine", "atom", "to", "form", "*", "*", "f", "radical", "."]
+    oewn2026_key: [[1, "oewn-02137900-v"], [2, "oewn-01826770-a"], [4, "oewn-00949109-v"], [6, "oewn-13785524-n"], [14, "oewn-11441936-n"], [17, "oewn-00393656-n"], [20, "oewn-14658769-n"], [21, "oewn-14643403-n"], [24, "oewn-14822209-n"], [25, "oewn-14706294-n"], [28, "oewn-14658769-n"], [29, "oewn-14643403-n"], [31, "oewn-01663142-v"], [35, "oewn-14645624-n"]]
+    paragraph: '0'
+    pos: ["PRP", "VBZ", "JJ", "TO", "VB", "DT", "NN", "IN", "IN", "SYM", "SYM", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "NN", "IN", "DT", "NN", "NN", "IN", "DT", "NN", "NN", "TO", "VB", "SYM", "SYM", "NN", "NN", "."]
+    text: ' It appears possible to set a lower_limit of about * * f for the activation_energy
+  of the abstraction of a chlorine atom from a carbon_tetrachloride molecule by a
+  chlorine atom to form * * f radical.'
+    tokens: [[1, 3], [4, 11], [12, 20], [21, 23], [24, 27], [28, 29], [30, 41], [42, 44], [45, 50], [51, 52], [53, 54], [55, 56], [57, 60], [61, 64], [65, 82], [83, 85], [86, 89], [90, 101], [102, 104], [105, 106], [107, 115], [116, 120], [121, 125], [126, 127], [128, 148], [149, 157], [158, 160], [161, 162], [163, 171], [172, 176], [177, 179], [180, 184], [185, 186], [187, 188], [189, 190], [191, 198], [198, 199]]
+    wn16_key: [[1, "appear%2:39:00::"], [2, "possible%3:00:00::"], [4, "set%2:32:00::"], [6, "lower_limit%1:23:00::"], [14, "activation_energy%1:19:00::"], [17, "abstraction%1:04:00::"], [20, "chlorine%1:27:00::"], [21, "atom%1:27:00::"], [24, "carbon_tetrachloride%1:27:00::"], [25, "molecule%1:27:00::"], [28, "chlorine%1:27:00::"], [29, "atom%1:27:00::"], [31, "form%2:36:00::"], [35, "radical%1:27:00::"]]
+    wn30_key: [[1, "appear%2:39:00::"], [2, "possible%3:00:00::"], [4, "set%2:32:00::"], [6, "lower_limit%1:23:00::"], [14, "activation_energy%1:19:00::"], [17, "abstraction%1:04:00::"], [20, "chlorine%1:27:00::"], [21, "atom%1:27:00::"], [24, "carbon_tetrachloride%1:27:00::"], [25, "molecule%1:27:00::"], [28, "chlorine%1:27:00::"], [29, "atom%1:27:00::"], [31, "form%2:36:00::"], [35, "radical%1:27:00::"]]
+DPBn:
+    lemmas: ["The", "rate", "of", "the", "gas", "phase", "exchange", "reaction", "appear", "to", "be", "proportional", "to", "the", "first", "power", "of", "the", "absorbed", "light", "intensity", "indicate", "that", "the", "radical", "intermediate", "be", "remove", "at", "the", "wall", "or", "by", "reaction", "with", "an", "impurity", "rather", "than", "by", "bimolecular", "radical", "combination", "reaction", "."]
+    oewn2026_key: [[1, "oewn-15311467-n"], [4, "oewn-14504664-n"], [5, "oewn-14503649-n"], [6, "oewn-11429652-n"], [7, "oewn-13468534-n"], [8, "oewn-02137900-v"], [10, "oewn-02610777-v"], [11, "oewn-00484662-s"], [14, "oewn-01014459-a"], [15, "oewn-06825275-n"], [18, "oewn-02016262-s"], [19, "oewn-11494354-n"], [20, "oewn-05107058-n"], [21, "oewn-00774685-v"], [24, "oewn-14645624-n"], [25, "oewn-14945410-n"], [27, "oewn-00173351-v"], [30, "oewn-04554141-n"], [33, "oewn-13468534-n"], [36, "oewn-14607850-n"], [37, "oewn-00099264-r"], [40, "oewn-02912184-a"], [41, "oewn-14645624-n"], [43, "oewn-13468534-n"]]
+    paragraph: '0'
+    pos: ["DT", "NN", "IN", "DT", "NN", "NN", "NN", "NN", "VBZ", "TO", "VB", "JJ", "TO", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "NN", "VBG", "IN", "DT", "NN", "NNS", "VBP", "VBN", "IN", "DT", "NNS", "CC", "IN", "NN", "IN", "DT", "NN", "RB", "RB", "IN", "JJ", "NN", "NN", "NNS", "."]
+    text: ' The rate of the gas phase exchange reaction appears to be proportional to the first
+  power of the absorbed light intensity indicating that the radical intermediates
+  are removed at the walls or by reaction with an impurity rather than by bimolecular
+  radical combination reactions.
+
+  '
+    tokens: [[1, 4], [5, 9], [10, 12], [13, 16], [17, 20], [21, 26], [27, 35], [36, 44], [45, 52], [53, 55], [56, 58], [59, 71], [72, 74], [75, 78], [79, 84], [85, 90], [91, 93], [94, 97], [98, 106], [107, 112], [113, 122], [123, 133], [134, 138], [139, 142], [143, 150], [151, 164], [165, 168], [169, 176], [177, 179], [180, 183], [184, 189], [190, 192], [193, 195], [196, 204], [205, 209], [210, 212], [213, 221], [222, 228], [229, 233], [234, 236], [237, 248], [249, 256], [257, 268], [269, 278], [278, 279]]
+    wn16_key: [[1, "rate%1:28:00::"], [4, "gas%1:26:00::"], [5, "phase%1:26:00::"], [6, "exchange%1:19:00::"], [7, "reaction%1:22:00::"], [8, "appear%2:39:00::"], [10, "be%2:42:03::"], [11, "proportional%5:00:00:proportionate:00"], [14, "first%5:00:00:ordinal:00"], [15, "power%1:10:00::"], [18, "absorbed%5:00:00:unreflected:00"], [19, "light%1:19:00::"], [20, "intensity%1:07:03::"], [21, "indicate%2:32:02::"], [24, "radical%1:27:00::"], [25, "intermediate%1:27:00::"], [27, "remove%2:30:00::"], [30, "wall%1:06:00::"], [33, "reaction%1:22:00::"], [36, "impurity%1:27:00::"], [37, "rather%4:02:02::"], [40, "bimolecular%3:01:00::"], [41, "radical%1:27:00::"], [42, "combination%1:11:00::"], [43, "reaction%1:22:00::"]]
+    wn30_key: [[1, "rate%1:28:00::"], [4, "gas%1:26:00::"], [5, "phase%1:26:00::"], [6, "exchange%1:19:00::"], [7, "reaction%1:22:00::"], [8, "appear%2:39:00::"], [10, "be%2:42:03::"], [11, "proportional%3:00:00:proportionate:00"], [14, "first%3:00:00:ordinal:00"], [15, "power%1:10:00::"], [18, "absorbed%3:00:00:unreflected:00"], [19, "light%1:19:00::"], [20, "intensity%1:07:03::"], [21, "indicate%2:32:02::"], [24, "radical%1:27:00::"], [25, "intermediate%1:27:00::"], [27, "remove%2:30:00::"], [30, "wall%1:06:00::"], [33, "reaction%1:22:00::"], [36, "impurity%1:27:00::"], [37, "rather%4:02:02::"], [40, "bimolecular%3:01:00::"], [41, "radical%1:27:00::"], [43, "reaction%1:22:00::"]]
+yL8w:
+    lemmas: ["Because", "of", "the", "simplicity", "of", "the", "molecule", ",", "isotopic", "exchange", "reaction", "between", "elemental", "halogen", "and", "the", "corresponding", "carbon_tetrahalide", "would", "appear", "to", "offer", "particularly", "fruitful", "possibility", "for", "obtain", "unambiguous", "basic", "kinetic", "data", "."]
+    oewn2026_key: [[3, "oewn-04773314-n"], [6, "oewn-14706294-n"], [8, "oewn-02913783-a"], [9, "oewn-11429652-n"], [10, "oewn-13468534-n"], [12, "oewn-02730131-a"], [13, "oewn-14928812-n"], [16, "oewn-01981515-s"], [17, "oewn-14822501-n"], [19, "oewn-02137900-v"], [21, "oewn-02332196-v"], [22, "oewn-00084573-r"], [23, "oewn-01083985-a"], [24, "oewn-05800018-n"], [26, "oewn-02242867-v"], [27, "oewn-00899848-a"], [28, "oewn-02302973-s"], [29, "oewn-02905079-a"], [30, "oewn-08479331-n"]]
+    paragraph: '1'
+    pos: ["IN", "IN", "DT", "NN", "IN", "DT", "NNS", ",", "JJ", "NN", "NNS", "IN", "JJ", "NNS", "CC", "DT", "JJ", "NNS", "MD", "VB", "TO", "VB", "RB", "JJ", "NNS", "IN", "VBG", "JJ", "JJ", "JJ", "NNS", "."]
+    text: ' Because of the simplicity of the molecules, isotopic exchange reactions between
+  elemental halogens and the corresponding carbon_tetrahalides would appear to offer
+  particularly fruitful possibilities for obtaining unambiguous basic kinetic data.'
+    tokens: [[1, 8], [9, 11], [12, 15], [16, 26], [27, 29], [30, 33], [34, 43], [43, 44], [45, 53], [54, 62], [63, 72], [73, 80], [81, 90], [91, 99], [100, 103], [104, 107], [108, 121], [122, 141], [142, 147], [148, 154], [155, 157], [158, 163], [164, 176], [177, 185], [186, 199], [200, 203], [204, 213], [214, 225], [226, 231], [232, 239], [240, 244], [244, 245]]
+    wn16_key: [[3, "simplicity%1:07:02::"], [6, "molecule%1:27:00::"], [8, "isotopic%3:01:00::"], [9, "exchange%1:19:00::"], [10, "reaction%1:22:00::"], [12, "elemental%3:01:00::"], [13, "halogen%1:27:00::"], [16, "corresponding%5:00:00:related:02"], [17, "carbon_tetrahalide%1:27:00::"], [19, "appear%2:39:00::"], [21, "offer%2:40:02::"], [22, "particularly%4:02:00::"], [23, "fruitful%3:00:00::"], [24, "possibility%1:09:01::"], [26, "obtain%2:40:00::"], [27, "unambiguous%3:00:04::"], [28, "basic%5:00:00:standard:01"], [29, "kinetic%3:01:00::"], [30, "data%1:14:00::"]]
+    wn30_key: [[3, "simplicity%1:07:02::"], [6, "molecule%1:27:00::"], [8, "isotopic%3:01:00::"], [9, "exchange%1:19:00::"], [10, "reaction%1:22:00::"], [12, "elemental%3:01:00::"], [13, "halogen%1:27:00::"], [16, "corresponding%3:00:00:related:02"], [17, "carbon_tetrahalide%1:27:00::"], [19, "appear%2:39:00::"], [21, "offer%2:40:02::"], [22, "particularly%4:02:00::"], [23, "fruitful%3:00:00::"], [24, "possibility%1:09:01::"], [26, "obtain%2:40:00::"], [27, "unambiguous%3:00:04::"], [28, "basic%3:00:00:standard:01"], [29, "kinetic%3:01:00::"], [30, "data%1:14:00::"]]
+Ow7L:
+    lemmas: ["It", "would", "appear", "that", "it", "should", "be", "possible", "to", "determine", "unique", "mechanism", "for", "the", "thermal", "and", "photochemical_reaction", "in", "both", "the", "liquid", "and", "gas", "phase", "and", "to", "determine", "value", "for", "activation_energy", "of", "some", "of", "the", "intermediate", "reaction", "of", "atom", "and", "free_radical", ",", "as_well_as", "information", "on", "the", "heat_of_dissociation", "of", "the", "carbon", "halogen", "bond", "."]
+    oewn2026_key: [[2, "oewn-02139137-v"], [6, "oewn-02610777-v"], [7, "oewn-01826770-a"], [9, "oewn-00920843-v"], [10, "oewn-02222756-s"], [11, "oewn-13533709-n"], [14, "oewn-02825392-a"], [16, "oewn-13557726-n"], [20, "oewn-14504004-n"], [22, "oewn-14504664-n"], [23, "oewn-14503649-n"], [26, "oewn-00920843-v"], [27, "oewn-05864972-n"], [29, "oewn-11441936-n"], [34, "oewn-01017848-a"], [35, "oewn-13468534-n"], [37, "oewn-14643403-n"], [39, "oewn-14898347-n"], [42, "oewn-05824413-n"], [45, "oewn-11491021-n"], [48, "oewn-14657384-n"], [49, "oewn-14928812-n"], [50, "oewn-11456397-n"]]
+    paragraph: '1'
+    pos: ["PRP", "MD", "VB", "IN", "PRP", "VB", "VB", "JJ", "TO", "VB", "JJ", "NNS", "IN", "DT", "JJ", "CC", "NNS", "IN", "DT", "DT", "NN", "CC", "NN", "NNS", "CC", "TO", "VB", "NNS", "IN", "NNS", "IN", "DT", "IN", "DT", "JJ", "NNS", "IN", "NNS", "CC", "NNS", ",", "NN", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "NN", "NN", "."]
+    text: ' It would appear that it should be possible to determine unique mechanisms for the
+  thermal and photochemical_reactions in both the liquid and gas phases and to determine
+  values for activation_energies of some of the intermediate reactions of atoms and
+  free_radicals, as_well_as information on the heat_of_dissociation of the carbon
+  halogen bond.'
+    tokens: [[1, 3], [4, 9], [10, 16], [17, 21], [22, 24], [25, 31], [32, 34], [35, 43], [44, 46], [47, 56], [57, 63], [64, 74], [75, 78], [79, 82], [83, 90], [91, 94], [95, 118], [119, 121], [122, 126], [127, 130], [131, 137], [138, 141], [142, 145], [146, 152], [153, 156], [157, 159], [160, 169], [170, 176], [177, 180], [181, 200], [201, 203], [204, 208], [209, 211], [212, 215], [216, 228], [229, 238], [239, 241], [242, 247], [248, 251], [252, 265], [265, 266], [267, 277], [278, 289], [290, 292], [293, 296], [297, 317], [318, 320], [321, 324], [325, 331], [332, 339], [340, 344], [344, 345]]
+    wn16_key: [[2, "appear%2:39:01::"], [6, "be%2:42:03::"], [7, "possible%3:00:00::"], [9, "determine%2:32:00::"], [10, "unique%5:00:00:single(a):00"], [11, "mechanism%1:22:00::"], [14, "thermal%3:01:00::"], [16, "photochemical_reaction%1:22:00::"], [20, "liquid%1:26:00::"], [22, "gas%1:26:00::"], [23, "phase%1:26:00::"], [26, "determine%2:32:00::"], [27, "value%1:09:00::"], [29, "activation_energy%1:19:00::"], [34, "intermediate%3:00:00::"], [35, "reaction%1:22:00::"], [37, "atom%1:27:00::"], [39, "free_radical%1:27:00::"], [42, "information%1:09:00::"], [45, "heat_of_dissociation%1:19:00::"], [48, "carbon%1:27:00::"], [49, "halogen%1:27:00::"], [50, "bond%1:19:00::"]]
+    wn30_key: [[2, "appear%2:39:01::"], [6, "be%2:42:03::"], [7, "possible%3:00:00::"], [9, "determine%2:32:00::"], [10, "unique%3:00:00:single:05"], [11, "mechanism%1:22:00::"], [14, "thermal%3:01:00::"], [16, "photochemical_reaction%1:22:00::"], [20, "liquid%1:26:00::"], [22, "gas%1:26:00::"], [23, "phase%1:26:00::"], [26, "determine%2:32:00::"], [27, "value%1:09:00::"], [29, "activation_energy%1:19:00::"], [34, "intermediate%3:00:00::"], [35, "reaction%1:22:00::"], [37, "atom%1:27:00::"], [39, "free_radical%1:27:00::"], [42, "information%1:09:00::"], [45, "heat_of_dissociation%1:19:00::"], [48, "carbon%1:27:00::"], [49, "halogen%1:27:00::"], [50, "bond%1:19:00::"]]
+ALaP:
+    lemmas: ["The", "reaction", "of", "chlorine", "with", "carbon_tetrachloride", "seem", "particularly", "suited", "for", "such", "study", "."]
+    oewn2026_key: [[1, "oewn-13468534-n"], [3, "oewn-14658769-n"], [5, "oewn-14822209-n"], [6, "oewn-02137900-v"], [7, "oewn-00084573-r"], [8, "oewn-01024501-s"], [10, "oewn-01558587-s"], [11, "oewn-00645746-n"]]
+    paragraph: '1'
+    pos: ["DT", "NN", "IN", "NN", "IN", "NN", "VBD", "RB", "JJ", "IN", "JJ", "NNS", "."]
+    text: ' The reaction of chlorine with carbon_tetrachloride seemed particularly suited for
+  such studies.'
+    tokens: [[1, 4], [5, 13], [14, 16], [17, 25], [26, 30], [31, 51], [52, 58], [59, 71], [72, 78], [79, 82], [83, 87], [88, 95], [95, 96]]
+    wn16_key: [[1, "reaction%1:22:00::"], [3, "chlorine%1:27:00::"], [5, "carbon_tetrachloride%1:27:00::"], [6, "seem%2:39:00::"], [7, "particularly%4:02:00::"], [8, "suited%5:00:00:fit:02"], [10, "such%5:00:01:specified:00"], [11, "study%1:04:00::"]]
+    wn30_key: [[1, "reaction%1:22:00::"], [3, "chlorine%1:27:00::"], [5, "carbon_tetrachloride%1:27:00::"], [6, "seem%2:39:00::"], [7, "particularly%4:02:00::"], [8, "suited%3:00:00:fit:02"], [10, "such%3:00:00:much:00"], [11, "study%1:04:00::"]]
+zr+r:
+    lemmas: ["It", "should", "be", "possible", "to", "prepare", "very", "pure", "chlorine", "by", "oxidation", "of", "inorganic", "chloride", "on", "a", "vacuum", "system", "follow", "by", "multiple", "distillation", "of", "the", "liquid", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"], [3, "oewn-01826770-a"], [5, "oewn-01758079-v"], [6, "oewn-00032295-r"], [7, "oewn-01911832-a"], [8, "oewn-14658769-n"], [10, "oewn-13551611-n"], [12, "oewn-01683903-a"], [13, "oewn-15042171-n"], [16, "oewn-14479502-n"], [17, "oewn-05911466-n"], [18, "oewn-02718647-v"], [20, "oewn-02223646-a"], [21, "oewn-13489509-n"], [24, "oewn-14964524-n"]]
+    paragraph: '1'
+    pos: ["PRP", "MD", "VB", "JJ", "TO", "VB", "RB", "JJ", "NN", "IN", "NN", "IN", "JJ", "NNS", "IN", "DT", "NN", "NN", "VBN", "IN", "JJ", "NN", "IN", "DT", "NN", "."]
+    text: ' It should be possible to prepare very pure chlorine by oxidation of inorganic chlorides
+  on a vacuum system followed by multiple distillation of the liquid.'
+    tokens: [[1, 3], [4, 10], [11, 13], [14, 22], [23, 25], [26, 33], [34, 38], [39, 43], [44, 52], [53, 55], [56, 65], [66, 68], [69, 78], [79, 88], [89, 91], [92, 93], [94, 100], [101, 107], [108, 116], [117, 119], [120, 128], [129, 141], [142, 144], [145, 148], [149, 155], [155, 156]]
+    wn16_key: [[2, "be%2:42:03::"], [3, "possible%3:00:00::"], [5, "prepare%2:36:02::"], [6, "very%4:02:00::"], [7, "pure%3:00:02::"], [8, "chlorine%1:27:00::"], [10, "oxidation%1:22:00::"], [12, "inorganic%3:00:01::"], [13, "chloride%1:27:00::"], [16, "vacuum%1:26:00::"], [17, "system%1:09:01::"], [18, "follow%2:42:00::"], [20, "multiple%3:00:00::"], [21, "distillation%1:22:00::"], [24, "liquid%1:27:04::"]]
+    wn30_key: [[2, "be%2:42:03::"], [3, "possible%3:00:00::"], [5, "prepare%2:36:02::"], [6, "very%4:02:00::"], [7, "pure%3:00:02::"], [8, "chlorine%1:27:00::"], [10, "oxidation%1:22:00::"], [12, "inorganic%3:00:01::"], [13, "chloride%1:27:00::"], [16, "vacuum%1:26:00::"], [17, "system%1:09:01::"], [18, "follow%2:42:00::"], [20, "multiple%3:00:00::"], [21, "distillation%1:22:00::"], [24, "liquid%1:27:04::"]]
+FQcV:
+    lemmas: ["It", "should", "be", "possible", "to", "free", "carbon_tetrachloride", "of", "any", "interfering", "substance", "by", "the", "usual", "purification", "method", "follow", "by", "prechlorination", "prior", "to", "addition", "of", "radioactive", "chlorine", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"], [3, "oewn-01826770-a"], [5, "oewn-01478583-v"], [6, "oewn-14822209-n"], [9, "oewn-01355409-s"], [10, "oewn-00019793-n"], [13, "oewn-00491099-a"], [14, "oewn-00254137-n"], [15, "oewn-05668113-n"], [16, "oewn-02718647-v"], [18, "oewn-13561294-n"], [19, "oewn-00122938-s"], [21, "oewn-00364614-n"], [23, "oewn-00428404-a"], [24, "oewn-14658769-n"]]
+    paragraph: '1'
+    pos: ["PRP", "MD", "VB", "JJ", "TO", "VB", "NN", "IN", "DT", "JJ", "NNS", "IN", "DT", "JJ", "NN", "NNS", "VBN", "IN", "NN", "JJ", "TO", "NN", "IN", "JJ", "NN", "."]
+    text: ' It should be possible to free carbon_tetrachloride of any interfering substances
+  by the usual purification methods followed by prechlorination prior to addition
+  of radioactive chlorine.'
+    tokens: [[1, 3], [4, 10], [11, 13], [14, 22], [23, 25], [26, 30], [31, 51], [52, 54], [55, 58], [59, 70], [71, 81], [82, 84], [85, 88], [89, 94], [95, 107], [108, 115], [116, 124], [125, 127], [128, 143], [144, 149], [150, 152], [153, 161], [162, 164], [165, 176], [177, 185], [185, 186]]
+    wn16_key: [[2, "be%2:42:03::"], [3, "possible%3:00:00::"], [5, "free%2:35:01::"], [6, "carbon_tetrachloride%1:27:00::"], [9, "interfering%5:00:00:intrusive:01"], [10, "substance%1:03:00::"], [13, "usual%3:00:00::"], [14, "purification%1:04:00::"], [15, "method%1:09:00::"], [16, "follow%2:42:00::"], [18, "prechlorination%1:22:00::"], [19, "prior%5:00:00:antecedent:00"], [21, "addition%1:04:02::"], [23, "radioactive%3:00:00::"], [24, "chlorine%1:27:00::"]]
+    wn30_key: [[2, "be%2:42:03::"], [3, "possible%3:00:00::"], [5, "free%2:35:01::"], [6, "carbon_tetrachloride%1:27:00::"], [9, "interfering%3:00:00:intrusive:01"], [10, "substance%1:03:00::"], [13, "usual%3:00:00::"], [14, "purification%1:04:00::"], [15, "method%1:09:00::"], [16, "follow%2:42:00::"], [18, "prechlorination%1:22:00::"], [19, "prior%3:00:00:antecedent:00"], [21, "addition%1:04:02::"], [23, "radioactive%3:00:00::"], [24, "chlorine%1:27:00::"]]
+XMhx:
+    lemmas: ["furthermore", ",", "the", "exchange", "would", "not", "be", "expect", "to", "be", "sensitive", "to", "trace", "amount", "of", "impurity", "because", "it", "would", "not", "be", "apt", "to", "be", "a", "chain_reaction", "since", "the", "activation_energy", "for", "abstraction", "of", "chlorine", "by", "a", "chlorine", "atom", "would", "be", "expect", "to", "be", "too", "high", ";", "also", "it", "would", "be", "expect", "that", "*", "*", "f", "would", "compete", "very", "effectively", "with", "any", "impurity", "as", "a", "scavenger", "for", "*", "*", "f", "radical", "."]
+    oewn2026_key: [[0, "oewn-00029763-r"], [3, "oewn-11429652-n"], [5, "oewn-00024432-r"], [7, "oewn-00721658-v"], [9, "oewn-02610777-v"], [10, "oewn-02110761-a"], [12, "oewn-13795501-n"], [13, "oewn-00033914-n"], [15, "oewn-14607850-n"], [19, "oewn-00024432-r"], [20, "oewn-02610777-v"], [21, "oewn-01295534-s"], [23, "oewn-02610777-v"], [25, "oewn-13466652-n"], [28, "oewn-11441936-n"], [30, "oewn-00393656-n"], [32, "oewn-14658769-n"], [35, "oewn-14658769-n"], [36, "oewn-14643403-n"], [39, "oewn-00721658-v"], [41, "oewn-02610777-v"], [42, "oewn-00047930-r"], [43, "oewn-01213526-a"], [45, "oewn-00048072-r"], [49, "oewn-00721658-v"], [55, "oewn-01074673-v"], [56, "oewn-00032295-r"], [57, "oewn-00327717-r"], [60, "oewn-14607850-n"], [63, "oewn-15045195-n"], [68, "oewn-14645624-n"]]
+    paragraph: '1'
+    pos: ["RB", ",", "DT", "NN", "MD", "RB", "VB", "VBN", "TO", "VB", "JJ", "TO", "NN", "NNS", "IN", "NNS", "IN", "PRP", "MD", "RB", "VB", "JJ", "TO", "VB", "DT", "NN", "IN", "DT", "NN", "IN", "NN", "IN", "NN", "IN", "DT", "NN", "NN", "MD", "VB", "VBN", "TO", "VB", "RB", "JJ", ":", "RB", "PRP", "MD", "VB", "VBN", "IN", "SYM", "SYM", "NN", "MD", "VB", "RB", "RB", "IN", "DT", "NNS", "IN", "DT", "NN", "IN", "SYM", "SYM", "NN", "NNS", "."]
+    text: ' Furthermore, the exchange would not be expected to be sensitive to trace amounts
+  of impurities because it would not be apt to be a chain_reaction since the activation_energy
+  for abstraction of chlorine by a chlorine atom would be expected to be too high;
+  also it would be expected that * * f would compete very effectively with any impurities
+  as a scavenger for * * f radicals.'
+    tokens: [[1, 12], [12, 13], [14, 17], [18, 26], [27, 32], [33, 36], [37, 39], [40, 48], [49, 51], [52, 54], [55, 64], [65, 67], [68, 73], [74, 81], [82, 84], [85, 95], [96, 103], [104, 106], [107, 112], [113, 116], [117, 119], [120, 123], [124, 126], [127, 129], [130, 131], [132, 146], [147, 152], [153, 156], [157, 174], [175, 178], [179, 190], [191, 193], [194, 202], [203, 205], [206, 207], [208, 216], [217, 221], [222, 227], [228, 230], [231, 239], [240, 242], [243, 245], [246, 249], [250, 254], [254, 255], [256, 260], [261, 263], [264, 269], [270, 272], [273, 281], [282, 286], [287, 288], [289, 290], [291, 292], [293, 298], [299, 306], [307, 311], [312, 323], [324, 328], [329, 332], [333, 343], [344, 346], [347, 348], [349, 358], [359, 362], [363, 364], [365, 366], [367, 368], [369, 377], [377, 378]]
+    wn16_key: [[0, "furthermore%4:02:00::"], [3, "exchange%1:19:00::"], [5, "not%4:02:00::"], [7, "expect%2:31:00::"], [9, "be%2:42:03::"], [10, "sensitive%3:00:01::"], [12, "trace%1:23:00::"], [13, "amount%1:03:00::"], [15, "impurity%1:27:00::"], [19, "not%4:02:00::"], [20, "be%2:42:03::"], [21, "apt%5:00:00:inclined(p):02"], [23, "be%2:42:03::"], [25, "chain_reaction%1:22:01::"], [28, "activation_energy%1:19:00::"], [30, "abstraction%1:04:00::"], [32, "chlorine%1:27:00::"], [35, "chlorine%1:27:00::"], [36, "atom%1:27:00::"], [39, "expect%2:31:00::"], [41, "be%2:42:03::"], [42, "too%4:02:00::"], [43, "high%3:00:02::"], [45, "also%4:02:00::"], [49, "expect%2:31:00::"], [55, "compete%2:33:00::"], [56, "very%4:02:00::"], [57, "effectively%4:02:01::"], [60, "impurity%1:27:00::"], [63, "scavenger%1:27:00::"], [68, "radical%1:27:00::"]]
+    wn30_key: [[0, "furthermore%4:02:00::"], [3, "exchange%1:19:00::"], [5, "not%4:02:00::"], [7, "expect%2:31:00::"], [9, "be%2:42:03::"], [10, "sensitive%3:00:01::"], [12, "trace%1:23:00::"], [13, "amount%1:03:00::"], [15, "impurity%1:27:00::"], [19, "not%4:02:00::"], [20, "be%2:42:03::"], [21, "apt%3:00:00:inclined:02"], [23, "be%2:42:03::"], [25, "chain_reaction%1:22:01::"], [28, "activation_energy%1:19:00::"], [30, "abstraction%1:04:00::"], [32, "chlorine%1:27:00::"], [35, "chlorine%1:27:00::"], [36, "atom%1:27:00::"], [39, "expect%2:31:00::"], [41, "be%2:42:03::"], [42, "too%4:02:00::"], [43, "high%3:00:02::"], [45, "also%4:02:00::"], [49, "expect%2:31:00::"], [55, "compete%2:33:00::"], [56, "very%4:02:00::"], [57, "effectively%4:02:01::"], [60, "impurity%1:27:00::"], [63, "scavenger%1:27:00::"], [68, "radical%1:27:00::"]]
+WFFW:
+    lemmas: ["contrary", "to", "these", "expectation", "we", "have", "find", "it", "impossible", "to", "obtain", "the", "degree", "of", "reproducibility", "one", "would", "wish", ",", "even", "with", "extensive", "effort", "to", "prepare", "especially", "pure", "reagent", "."]
+    oewn2026_key: [[0, "oewn-02073362-s"], [3, "oewn-14509706-n"], [6, "oewn-00717144-v"], [8, "oewn-01828578-a"], [10, "oewn-02242867-v"], [12, "oewn-13962925-n"], [14, "oewn-04813397-n"], [17, "oewn-01828678-v"], [19, "oewn-00017907-r"], [22, "oewn-00787849-n"], [24, "oewn-01758079-v"], [25, "oewn-00084573-r"], [26, "oewn-01911832-a"], [27, "oewn-14803141-n"]]
+    paragraph: '1'
+    pos: ["JJ", "TO", "DT", "NNS", "PRP", "VBP", "VBN", "PRP", "JJ", "TO", "VB", "DT", "NN", "IN", "NN", "CD", "MD", "VB", ",", "RB", "IN", "JJ", "NNS", "TO", "VB", "RB", "JJ", "NNS", "."]
+    text: ' Contrary to these expectations we have found it impossible to obtain the degree
+  of reproducibility one would wish, even with extensive efforts to prepare especially
+  pure reagents.'
+    tokens: [[1, 9], [10, 12], [13, 18], [19, 31], [32, 34], [35, 39], [40, 45], [46, 48], [49, 59], [60, 62], [63, 69], [70, 73], [74, 80], [81, 83], [84, 99], [100, 103], [104, 109], [110, 114], [114, 115], [116, 120], [121, 125], [126, 135], [136, 143], [144, 146], [147, 154], [155, 165], [166, 170], [171, 179], [179, 180]]
+    wn16_key: [[0, "contrary%5:00:00:different:00"], [3, "expectation%1:26:00::"], [6, "find%2:31:10::"], [8, "impossible%3:00:00::"], [10, "obtain%2:40:00::"], [12, "degree%1:26:01::"], [14, "reproducibility%1:07:00::"], [17, "wish%2:37:02::"], [19, "even%4:02:00::"], [21, "extensive%5:00:00:abundant:00"], [22, "effort%1:04:00::"], [24, "prepare%2:36:02::"], [25, "especially%4:02:00::"], [26, "pure%3:00:02::"], [27, "reagent%1:27:00::"]]
+    wn30_key: [[0, "contrary%3:00:00:different:00"], [3, "expectation%1:26:00::"], [6, "find%2:31:10::"], [8, "impossible%3:00:00::"], [10, "obtain%2:40:00::"], [12, "degree%1:26:01::"], [14, "reproducibility%1:07:00::"], [17, "wish%2:37:02::"], [19, "even%4:02:00::"], [22, "effort%1:04:00::"], [24, "prepare%2:36:02::"], [25, "especially%4:02:00::"], [26, "pure%3:00:02::"], [27, "reagent%1:27:00::"]]
+Q42p:
+    lemmas: ["We", "be", "report", "these", "investigation", "here", "briefly", "because", "of", "their", "relevancy", "to", "problem", "of", "the", "study", "of", "apparently", "simple", "exchange", "reaction", "of", "chlorine", "and", "because", "the", "result", "furnish", "some", "information", "on", "the", "activation_energy", "for", "abstraction", "of", "chlorine", "atom", "from", "carbon_tetrachloride", "."]
+    oewn2026_key: [[2, "oewn-00968841-v"], [4, "oewn-00635107-n"], [5, "oewn-00109541-r"], [6, "oewn-00291174-r"], [10, "oewn-13816629-n"], [12, "oewn-14434009-n"], [15, "oewn-00645746-n"], [17, "oewn-00040353-r"], [18, "oewn-02182456-a"], [19, "oewn-11429652-n"], [20, "oewn-13468534-n"], [22, "oewn-14658769-n"], [26, "oewn-06756201-n"], [27, "oewn-02332196-v"], [29, "oewn-05824413-n"], [32, "oewn-11441936-n"], [34, "oewn-00393656-n"], [36, "oewn-14658769-n"], [37, "oewn-14643403-n"], [39, "oewn-14822209-n"]]
+    paragraph: '1'
+    pos: ["PRP", "VBP", "VBG", "DT", "NNS", "RB", "RB", "IN", "IN", "PRP$", "NN", "TO", "NNS", "IN", "DT", "NN", "IN", "RB", "JJ", "NN", "NNS", "IN", "NN", "CC", "IN", "DT", "NNS", "VBP", "DT", "NN", "IN", "DT", "NN", "IN", "NN", "IN", "NN", "NNS", "IN", "NN", "."]
+    text: ' We are reporting these investigations here briefly because of their relevancy to
+  problems of the study of apparently simple exchange reactions of chlorine and because
+  the results furnish some information on the activation_energy for abstraction of
+  chlorine atoms from carbon_tetrachloride.
+
+  '
+    tokens: [[1, 3], [4, 7], [8, 17], [18, 23], [24, 38], [39, 43], [44, 51], [52, 59], [60, 62], [63, 68], [69, 78], [79, 81], [82, 90], [91, 93], [94, 97], [98, 103], [104, 106], [107, 117], [118, 124], [125, 133], [134, 143], [144, 146], [147, 155], [156, 159], [160, 167], [168, 171], [172, 179], [180, 187], [188, 192], [193, 204], [205, 207], [208, 211], [212, 229], [230, 233], [234, 245], [246, 248], [249, 257], [258, 263], [264, 268], [269, 289], [289, 290]]
+    wn16_key: [[2, "report%2:32:04::"], [4, "investigation%1:04:00::"], [5, "here%4:02:02::"], [6, "briefly%4:02:03::"], [10, "relevancy%1:24:00::"], [12, "problem%1:26:00::"], [15, "study%1:04:00::"], [17, "apparently%4:02:00::"], [18, "simple%3:00:02::"], [19, "exchange%1:19:00::"], [20, "reaction%1:22:00::"], [22, "chlorine%1:27:00::"], [26, "result%1:10:00::"], [27, "furnish%2:40:00::"], [29, "information%1:09:00::"], [32, "activation_energy%1:19:00::"], [34, "abstraction%1:04:00::"], [36, "chlorine%1:27:00::"], [37, "atom%1:27:00::"], [39, "carbon_tetrachloride%1:27:00::"]]
+    wn30_key: [[2, "report%2:32:04::"], [4, "investigation%1:04:00::"], [5, "here%4:02:02::"], [6, "briefly%4:02:03::"], [10, "relevancy%1:24:00::"], [12, "problem%1:26:00::"], [15, "study%1:04:00::"], [17, "apparently%4:02:00::"], [18, "simple%3:00:02::"], [19, "exchange%1:19:00::"], [20, "reaction%1:22:00::"], [22, "chlorine%1:27:00::"], [26, "result%1:10:00::"], [27, "furnish%2:40:00::"], [29, "information%1:09:00::"], [32, "activation_energy%1:19:00::"], [34, "abstraction%1:04:00::"], [36, "chlorine%1:27:00::"], [37, "atom%1:27:00::"], [39, "carbon_tetrachloride%1:27:00::"]]
+LDsB:
+    lemmas: ["person", "highest", "purity", "tank", "chlorine", "be", "pass", "through", "a", "tube", "of", "resublimed", "*", "*", "f", "into", "an", "evacuated", "pyrex", "system", "where", "it", "be", "condense", "with", "liquid_air", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-14510351-n"], [3, "oewn-04395830-n"], [4, "oewn-14658769-n"], [6, "oewn-01214794-v"], [9, "oewn-04500800-n"], [18, "oewn-15024181-n"], [19, "oewn-04384144-n"], [23, "oewn-00365521-v"], [25, "oewn-14964994-n"]]
+    paragraph: '2'
+    pos: ["NNP", "JJ", "NN", "NN", "NN", "VBD", "VBN", "VB", "DT", "NN", "IN", "JJ", "SYM", "SYM", "NN", "IN", "DT", "JJ", "NN", "NN", "WRB", "PRP", "VBD", "VB", "IN", "NN", "."]
+    text: ' Matheson highest purity tank chlorine was passed through a tube of resublimed *
+  * f into an evacuated Pyrex system where it was condensed with liquid_air.'
+    tokens: [[1, 9], [10, 17], [18, 24], [25, 29], [30, 38], [39, 42], [43, 49], [50, 57], [58, 59], [60, 64], [65, 67], [68, 78], [79, 80], [81, 82], [83, 84], [85, 89], [90, 92], [93, 102], [103, 108], [109, 115], [116, 121], [122, 124], [125, 128], [129, 138], [139, 143], [144, 154], [154, 155]]
+    wn16_key: [[0, "person%1:03:00::"], [1, "highest%5:00:00:maximal:00"], [2, "purity%1:26:00::"], [3, "tank%1:06:00::"], [4, "chlorine%1:27:00::"], [6, "pass%2:35:00::"], [9, "tube%1:06:00::"], [11, "resublimed%3:44:00::"], [17, "evacuated%5:00:00:exhausted:00"], [18, "pyrex%1:27:00::"], [19, "system%1:06:00::"], [23, "condense%2:30:01::"], [25, "liquid_air%1:27:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [2, "purity%1:26:00::"], [3, "tank%1:06:00::"], [4, "chlorine%1:27:00::"], [6, "pass%2:35:00::"], [9, "tube%1:06:00::"], [18, "pyrex%1:27:00::"], [19, "system%1:06:00::"], [23, "condense%2:30:01::"], [25, "liquid_air%1:27:00::"]]
+sQnT:
+    lemmas: ["It", "be", "then", "distill", "at_least", "three", "time", "from", "a", "trap", "at_-", "78", "'", "to", "a", "liquid_air", "trap", "with", "only", "a", "small", "middle", "fraction", "be", "retain", "in", "each", "distillation", "."]
+    oewn2026_key: [[2, "oewn-00118527-r"], [3, "oewn-00476114-v"], [4, "oewn-00105032-r"], [5, "oewn-02194219-s"], [6, "oewn-07324217-n"], [9, "oewn-04482267-n"], [15, "oewn-14964994-n"], [16, "oewn-04482267-n"], [18, "oewn-00005103-r"], [20, "oewn-01394303-a"], [21, "oewn-08540894-n"], [22, "oewn-14946245-n"], [24, "oewn-02288169-v"], [27, "oewn-13489509-n"]]
+    paragraph: '2'
+    pos: ["PRP", "VBD", "RB", "VBN", "RB", "JJ", "NNS", "IN", "DT", "NN", "NN", "CD", "''", "TO", "DT", "NN", "NN", "IN", "RB", "DT", "JJ", "NN", "NN", "VBG", "VBN", "IN", "DT", "NN", "."]
+    text: ' It was then distilled at_least three times from a trap at_- 78'' to a liquid_air
+  trap with only a small middle fraction being retained in each distillation.'
+    tokens: [[1, 3], [4, 7], [8, 12], [13, 22], [23, 31], [32, 37], [38, 43], [44, 48], [49, 50], [51, 55], [56, 60], [61, 63], [63, 64], [65, 67], [68, 69], [70, 80], [81, 85], [86, 90], [91, 95], [96, 97], [98, 103], [104, 110], [111, 119], [120, 125], [126, 134], [135, 137], [138, 142], [143, 155], [155, 156]]
+    wn16_key: [[2, "then%4:02:00::"], [3, "distill%2:30:03::"], [4, "at_least%4:02:00::"], [5, "three%5:00:00:cardinal:00"], [6, "time%1:11:00::"], [9, "trap%1:06:04::"], [15, "liquid_air%1:27:00::"], [16, "trap%1:06:04::"], [18, "only%4:02:02::"], [20, "small%3:00:00::"], [21, "middle%1:15:00::"], [22, "fraction%1:27:00::"], [24, "retain%2:40:01::"], [27, "distillation%1:22:00::"]]
+    wn30_key: [[2, "then%4:02:00::"], [3, "distill%2:30:03::"], [4, "at_least%4:02:00::"], [5, "three%3:00:00:cardinal:00"], [6, "time%1:11:00::"], [9, "trap%1:06:04::"], [15, "liquid_air%1:27:00::"], [16, "trap%1:06:04::"], [18, "only%4:02:02::"], [20, "small%3:00:00::"], [21, "middle%1:15:00::"], [22, "fraction%1:27:00::"], [24, "retain%2:40:00::"], [27, "distillation%1:22:00::"]]
+6oVI:
+    lemmas: ["The", "purified", "product", "be", "store", "at_-", "78", "'", "in", "a", "tube", "equip", "with", "a", "break_seal", "."]
+    oewn2026_key: [[2, "oewn-04014270-n"], [4, "oewn-02287351-v"], [10, "oewn-04500800-n"], [11, "oewn-02344409-v"], [14, "oewn-02897693-n"]]
+    paragraph: '2'
+    pos: ["DT", "JJ", "NN", "VBD", "VBN", "NN", "CD", "''", "IN", "DT", "NN", "VBN", "IN", "DT", "NN", "."]
+    text: ' The purified product was stored at_- 78'' in a tube equipped with a break_seal.
+
+  '
+    tokens: [[1, 4], [5, 13], [14, 21], [22, 25], [26, 32], [33, 37], [38, 40], [40, 41], [42, 44], [45, 46], [47, 51], [52, 60], [61, 65], [66, 67], [68, 78], [78, 79]]
+    wn16_key: [[1, "purified%5:00:00:pure:02"], [2, "product%1:06:00::"], [4, "store%2:40:02::"], [10, "tube%1:06:00::"], [11, "equip%2:40:00::"], [14, "break_seal%1:06:00::"]]
+    wn30_key: [[2, "product%1:06:00::"], [4, "store%2:40:02::"], [10, "tube%1:06:00::"], [11, "equip%2:40:00::"], [14, "break_seal%1:06:00::"]]
+3/aL:
+    lemmas: ["Of", "several", "method", "employ", "for", "tag", "chlorine", "with", "radiochlorine", ",", "the", "exchange", "of", "inactive", "chlorine", "with", "tagged", "aluminum_chloride", "at", "room_temperature", "be", "find", "to", "be", "the", "most", "satisfactory", "."]
+    oewn2026_key: [[1, "oewn-00496454-s"], [2, "oewn-05668113-n"], [3, "oewn-01161188-v"], [5, "oewn-01591414-v"], [6, "oewn-14658769-n"], [8, "oewn-14659177-n"], [11, "oewn-11429652-n"], [13, "oewn-01936201-s"], [14, "oewn-14658769-n"], [16, "oewn-01382631-a"], [17, "oewn-15042445-n"], [19, "oewn-05021626-n"], [21, "oewn-00920843-v"], [23, "oewn-02610777-v"], [25, "oewn-00112352-r"], [26, "oewn-02087716-a"]]
+    paragraph: '3'
+    pos: ["IN", "JJ", "NNS", "VBN", "IN", "VBG", "NN", "IN", "NN", ",", "DT", "NN", "IN", "JJ", "NN", "IN", "JJ", "NN", "IN", "NN", "VB", "VBN", "TO", "VB", "RB", "RBS", "JJ", "."]
+    text: ' Of several methods employed for tagging chlorine with radiochlorine, the exchange
+  of inactive chlorine with tagged aluminum_chloride at room_temperature was found
+  to be the most satisfactory.'
+    tokens: [[1, 3], [4, 11], [12, 19], [20, 28], [29, 32], [33, 40], [41, 49], [50, 54], [55, 68], [68, 69], [70, 73], [74, 82], [83, 85], [86, 94], [95, 103], [104, 108], [109, 115], [116, 133], [134, 136], [137, 153], [154, 157], [158, 163], [164, 166], [167, 169], [170, 173], [174, 178], [179, 191], [191, 192]]
+    wn16_key: [[1, "several%5:00:00:individual:00"], [2, "method%1:09:00::"], [3, "employ%2:34:00::"], [5, "tag%2:35:00::"], [6, "chlorine%1:27:00::"], [8, "radiochlorine%1:27:00::"], [11, "exchange%1:19:00::"], [13, "inactive%5:00:00:unreactive:00"], [14, "chlorine%1:27:00::"], [16, "tagged%3:00:00::"], [17, "aluminum_chloride%1:27:00::"], [19, "room_temperature%1:07:00::"], [21, "find%2:32:00::"], [23, "be%2:42:03::"], [25, "most%4:02:00::"], [26, "satisfactory%3:00:00::"]]
+    wn30_key: [[1, "several%3:00:00:individual:00"], [2, "method%1:09:00::"], [3, "employ%2:34:00::"], [5, "tag%2:35:00::"], [6, "chlorine%1:27:00::"], [8, "radiochlorine%1:27:00::"], [11, "exchange%1:19:00::"], [13, "inactive%3:00:00:unreactive:00"], [14, "chlorine%1:27:00::"], [16, "tagged%3:00:00::"], [17, "aluminum_chloride%1:27:00::"], [19, "room_temperature%1:07:00::"], [21, "find%2:32:00::"], [23, "be%2:42:03::"], [25, "most%4:02:00::"], [26, "satisfactory%3:00:00::"]]
+B5yk:
+    lemmas: ["To", "prepare", "the", "latter", ",", "silver_chloride", "be", "precipitate", "from", "a", "solution", "contain", "*", "*", "f", "obtain", "from", "the", "group", "."]
+    oewn2026_key: [[1, "oewn-00407168-v"], [3, "oewn-01051260-a"], [5, "oewn-15042885-n"], [7, "oewn-00475925-v"], [10, "oewn-14613403-n"], [11, "oewn-02635616-v"], [15, "oewn-02242867-v"], [18, "oewn-00031563-n"]]
+    paragraph: '3'
+    pos: ["TO", "VB", "DT", "JJ", ",", "NN", "VBD", "VBN", "IN", "DT", "NN", "VBG", "SYM", "SYM", "NN", "VBN", "IN", "DT", "NN", "."]
+    text: ' To prepare the latter, silver_chloride was precipitated from a solution containing
+  * * f obtained from the Oak_Ridge_National_Laboratory.'
+    tokens: [[1, 3], [4, 11], [12, 15], [16, 22], [22, 23], [24, 39], [40, 43], [44, 56], [57, 61], [62, 63], [64, 72], [73, 83], [84, 85], [86, 87], [88, 89], [90, 98], [99, 103], [104, 107], [108, 137], [137, 138]]
+    wn16_key: [[1, "prepare%2:30:00::"], [3, "latter%3:00:00::"], [5, "silver_chloride%1:27:00::"], [7, "precipitate%2:30:00::"], [10, "solution%1:27:00::"], [11, "contain%2:42:00::"], [15, "obtain%2:40:00::"], [18, "group%1:03:00::"]]
+    wn30_key: [[1, "prepare%2:30:00::"], [3, "latter%3:00:00::"], [5, "silver_chloride%1:27:00::"], [7, "precipitate%2:30:00::"], [10, "solution%1:27:00::"], [11, "contain%2:42:00::"], [15, "obtain%2:40:00::"], [18, "group%1:03:00::"]]
+W2+s:
+    lemmas: ["The", "silver_chloride", "be", "fuse", "under", "vacuum", "in", "the", "presence", "of", "aluminum", "chip", "with", "the", "resultant", "product", "of", "*", "*", "f", "which", "be", "sublime", "into", "a", "flask", "on", "the", "vacuum", "line", "."]
+    oewn2026_key: [[1, "oewn-15042885-n"], [3, "oewn-00398098-v"], [5, "oewn-14479502-n"], [8, "oewn-13980887-n"], [10, "oewn-14651998-n"], [11, "oewn-09244958-n"], [14, "oewn-00123654-s"], [15, "oewn-15022266-n"], [22, "oewn-00366463-v"], [25, "oewn-03364412-n"], [28, "oewn-14479502-n"], [29, "oewn-03952601-n"]]
+    paragraph: '3'
+    pos: ["DT", "NN", "VBD", "VBN", "IN", "NN", "IN", "DT", "NN", "IN", "NN", "NNS", "IN", "DT", "JJ", "NN", "IN", "SYM", "SYM", "NN", "WDT", "VBD", "VBN", "IN", "DT", "NN", "IN", "DT", "NN", "NN", "."]
+    text: ' The silver_chloride was fused under vacuum in the presence of aluminum chips with
+  the resultant product of * * f which was sublimed into a flask on the vacuum line.'
+    tokens: [[1, 4], [5, 20], [21, 24], [25, 30], [31, 36], [37, 43], [44, 46], [47, 50], [51, 59], [60, 62], [63, 71], [72, 77], [78, 82], [83, 86], [87, 96], [97, 104], [105, 107], [108, 109], [110, 111], [112, 113], [114, 119], [120, 123], [124, 132], [133, 137], [138, 139], [140, 145], [146, 148], [149, 152], [153, 159], [160, 164], [164, 165]]
+    wn16_key: [[1, "silver_chloride%1:27:00::"], [3, "fuse%2:30:03::"], [5, "vacuum%1:26:00::"], [8, "presence%1:26:00::"], [10, "aluminum%1:27:00::"], [11, "chip%1:17:00::"], [14, "resultant%5:00:00:subsequent:00"], [15, "product%1:27:00::"], [22, "sublime%2:30:00::"], [25, "flask%1:06:00::"], [28, "vacuum%1:26:00::"], [29, "line%1:06:06::"]]
+    wn30_key: [[1, "silver_chloride%1:27:00::"], [3, "fuse%2:30:03::"], [5, "vacuum%1:26:00::"], [8, "presence%1:26:00::"], [10, "aluminum%1:27:00::"], [11, "chip%1:17:00::"], [14, "resultant%3:00:00:subsequent:00"], [15, "product%1:27:00::"], [22, "sublime%2:30:00::"], [25, "flask%1:06:00::"], [28, "vacuum%1:26:00::"], [29, "line%1:06:06::"]]
+aLde:
+    lemmas: ["previously", "purified", "chlorine", "be", "subsequently", "admit", "and", "the", "exchange", "be", "allow", "to", "take_place", "."]
+    oewn2026_key: [[0, "oewn-00061170-r"], [2, "oewn-14658769-n"], [4, "oewn-00061741-r"], [5, "oewn-02454712-v"], [8, "oewn-11429652-n"], [10, "oewn-02427979-v"], [12, "oewn-00340744-v"]]
+    paragraph: '3'
+    pos: ["RB", "JJ", "NN", "VBD", "RB", "VBN", "CC", "DT", "NN", "VB", "VBN", "VB", "VB", "."]
+    text: ' Previously purified chlorine was subsequently admitted and the exchange was allowed
+  to take_place.'
+    tokens: [[1, 11], [12, 20], [21, 29], [30, 33], [34, 46], [47, 55], [56, 59], [60, 63], [64, 72], [73, 76], [77, 84], [85, 87], [88, 98], [98, 99]]
+    wn16_key: [[0, "previously%4:02:00::"], [1, "purified%5:00:00:pure:02"], [2, "chlorine%1:27:00::"], [4, "subsequently%4:02:00::"], [5, "admit%2:41:00::"], [8, "exchange%1:19:00::"], [10, "allow%2:41:00::"], [12, "take_place%2:30:00::"]]
+    wn30_key: [[0, "previously%4:02:00::"], [2, "chlorine%1:27:00::"], [4, "subsequently%4:02:00::"], [5, "admit%2:41:00::"], [8, "exchange%1:19:00::"], [10, "allow%2:41:00::"], [12, "take_place%2:30:00::"]]
+bfLG:
+    lemmas: ["The", "radiochlorine", "be", "store", "at_-", "78", "'", "in", "a", "tube", "equip", "with", "a", "break_seal", "."]
+    oewn2026_key: [[1, "oewn-14659177-n"], [3, "oewn-02287351-v"], [9, "oewn-04500800-n"], [10, "oewn-02344409-v"], [13, "oewn-02897693-n"]]
+    paragraph: '3'
+    pos: ["DT", "NN", "VBD", "VBN", "NN", "CD", "''", "IN", "DT", "NN", "VBN", "IN", "DT", "NN", "."]
+    text: ' The radiochlorine was stored at_- 78'' in a tube equipped with a break_seal.
+
+  '
+    tokens: [[1, 4], [5, 18], [19, 22], [23, 29], [30, 34], [35, 37], [37, 38], [39, 41], [42, 43], [44, 48], [49, 57], [58, 62], [63, 64], [65, 75], [75, 76]]
+    wn16_key: [[1, "radiochlorine%1:27:00::"], [3, "store%2:40:02::"], [9, "tube%1:06:00::"], [10, "equip%2:40:00::"], [13, "break_seal%1:06:00::"]]
+    wn30_key: [[1, "radiochlorine%1:27:00::"], [3, "store%2:40:02::"], [9, "tube%1:06:00::"], [10, "equip%2:40:00::"], [13, "break_seal%1:06:00::"]]
+4kZs:
+    lemmas: ["liter", "quantity", "of", "Mallinckrodt", ",", "low", "sulfur", ",", "reagent", "grade", "carbon_tetrachloride", "be", "saturate", "with", "*", "*", "f", "and", "*", "*", "f", "and", "illuminate", "for", "about", "50", "hour", "with", "a", "1000", "watt", "tungsten", "lamp", "at", "a", "distance", "of", "a_few", "inch", "."]
+    oewn2026_key: [[0, "oewn-13645547-n"], [1, "oewn-05116040-n"], [5, "oewn-01215141-a"], [6, "oewn-14680398-n"], [8, "oewn-14803141-n"], [9, "oewn-14451564-n"], [10, "oewn-14822209-n"], [12, "oewn-00457312-v"], [22, "oewn-00292635-v"], [24, "oewn-00007414-r"], [25, "oewn-02198871-s"], [26, "oewn-15252642-n"], [29, "oewn-02206421-s"], [30, "oewn-13666001-n"], [31, "oewn-14683691-n"], [32, "oewn-03641539-n"], [35, "oewn-05091408-n"], [37, "oewn-01557697-s"], [38, "oewn-13671409-n"]]
+    paragraph: '4'
+    pos: ["NN", "NNS", "IN", "NNP", ",", "JJ", "NN", ",", "NN", "NN", "NN", "VBD", "VBN", "IN", "SYM", "SYM", "NN", "CC", "SYM", "SYM", "NN", "CC", "VBN", "IN", "RB", "JJ", "NNS", "IN", "DT", "JJ", "NN", "NN", "NN", "RB", "RB", "NN", "IN", "JJ", "NNS", "."]
+    text: ' Liter quantities of Mallinckrodt, low sulfur, reagent grade carbon_tetrachloride
+  were saturated with * * f and * * f and illuminated for about 50 hours with a 1000
+  watt tungsten lamp at a distance of a_few inches.'
+    tokens: [[1, 6], [7, 17], [18, 20], [21, 33], [33, 34], [35, 38], [39, 45], [45, 46], [47, 54], [55, 60], [61, 81], [82, 86], [87, 96], [97, 101], [102, 103], [104, 105], [106, 107], [108, 111], [112, 113], [114, 115], [116, 117], [118, 121], [122, 133], [134, 137], [138, 143], [144, 146], [147, 152], [153, 157], [158, 159], [160, 164], [165, 169], [170, 178], [179, 183], [184, 186], [187, 188], [189, 197], [198, 200], [201, 206], [207, 213], [213, 214]]
+    wn16_key: [[0, "liter%1:23:00::"], [1, "quantity%1:07:00::"], [5, "low%3:00:02::"], [6, "sulfur%1:27:00::"], [8, "reagent%1:27:00::"], [9, "grade%1:26:00::"], [10, "carbon_tetrachloride%1:27:00::"], [12, "saturate%2:30:01::"], [22, "illuminate%2:30:03::"], [24, "about%4:02:00::"], [25, "50%5:00:00:cardinal:00"], [26, "hour%1:28:00::"], [29, "1000%5:00:00:cardinal:00"], [30, "watt%1:23:00::"], [31, "tungsten%1:27:00::"], [32, "lamp%1:06:00::"], [35, "distance%1:07:00::"], [37, "a_few%5:00:00:few:00"], [38, "inch%1:23:00::"]]
+    wn30_key: [[0, "liter%1:23:00::"], [1, "quantity%1:07:00::"], [5, "low%3:00:02::"], [6, "sulfur%1:27:00::"], [8, "reagent%1:27:00::"], [9, "grade%1:26:00::"], [10, "carbon_tetrachloride%1:27:00::"], [12, "saturate%2:30:01::"], [22, "illuminate%2:30:03::"], [24, "about%4:02:00::"], [25, "50%3:00:00:cardinal:00"], [26, "hour%1:28:00::"], [29, "1000%3:00:00:cardinal:00"], [30, "watt%1:23:00::"], [31, "tungsten%1:27:00::"], [32, "lamp%1:06:00::"], [35, "distance%1:07:00::"], [37, "a_few%3:00:00:few:00"], [38, "inch%1:23:00::"]]
+/6Ec:
+    lemmas: ["The", "mixture", "be", "then", "extract", "with", "alkali", "and", "with", "water", "follow", "which", "the", "carbon_tetrachloride", "be", "distill", "on", "a", "person", "column", ",", "a", "25", "%", "center", "cut", "be", "retain", "which", "be", "then", "degas", "under", "vacuum", "in", "the", "presence", "of", "*", "*", "f", "."]
+    oewn2026_key: [[1, "oewn-14610438-n"], [3, "oewn-00118527-r"], [4, "oewn-00229706-v"], [6, "oewn-14642431-n"], [9, "oewn-14869913-n"], [13, "oewn-14822209-n"], [15, "oewn-00229452-v"], [18, "oewn-00007846-n"], [19, "oewn-03078578-n"], [22, "oewn-02196456-s"], [24, "oewn-08540894-n"], [25, "oewn-03157285-n"], [27, "oewn-02288169-v"], [30, "oewn-00118527-r"], [31, "oewn-00181325-v"], [33, "oewn-14479502-n"], [36, "oewn-13980887-n"]]
+    paragraph: '4'
+    pos: ["DT", "NN", "VBD", "RB", "VBN", "IN", "NNS", "CC", "IN", "NN", "VBG", "WDT", "DT", "NN", "VBD", "VBN", "IN", "DT", "NNP", "NN", ",", "DT", "JJ", "NN", "NN", "NN", "VBG", "VBN", "WDT", "VBD", "RB", "VBN", "IN", "NN", "IN", "DT", "NN", "IN", "SYM", "SYM", "NN", "."]
+    text: ' The mixture was then extracted with alkali and with water following which the carbon_tetrachloride
+  was distilled on a Vigreux column, a 25% center cut being retained which was then
+  degassed under vacuum in the presence of * * f.'
+    tokens: [[1, 4], [5, 12], [13, 16], [17, 21], [22, 31], [32, 36], [37, 43], [44, 47], [48, 52], [53, 58], [59, 68], [69, 74], [75, 78], [79, 99], [100, 103], [104, 113], [114, 116], [117, 118], [119, 126], [127, 133], [133, 134], [135, 136], [137, 139], [139, 140], [141, 147], [148, 151], [152, 157], [158, 166], [167, 172], [173, 176], [177, 181], [182, 190], [191, 196], [197, 203], [204, 206], [207, 210], [211, 219], [220, 222], [223, 224], [225, 226], [227, 228], [228, 229]]
+    wn16_key: [[1, "mixture%1:27:00::"], [3, "then%4:02:00::"], [4, "extract%2:30:00::"], [6, "alkali%1:27:00::"], [9, "water%1:27:00::"], [13, "carbon_tetrachloride%1:27:00::"], [15, "distill%2:30:01::"], [18, "person%1:03:00::"], [19, "column%1:06:02::"], [22, "25%5:00:00:cardinal:00"], [24, "center%1:15:01::"], [25, "cut%1:06:00::"], [27, "retain%2:40:01::"], [30, "then%4:02:00::"], [31, "degas%2:30:00::"], [33, "vacuum%1:26:00::"], [36, "presence%1:26:00::"]]
+    wn30_key: [[1, "mixture%1:27:00::"], [3, "then%4:02:00::"], [4, "extract%2:30:00::"], [6, "alkali%1:27:00::"], [9, "water%1:27:00::"], [13, "carbon_tetrachloride%1:27:00::"], [15, "distill%2:30:01::"], [18, "person%1:03:00::"], [19, "column%1:06:02::"], [22, "25%3:00:00:cardinal:00"], [24, "center%1:15:01::"], [25, "cut%1:06:00::"], [27, "retain%2:40:00::"], [30, "then%4:02:00::"], [31, "degas%2:30:00::"], [33, "vacuum%1:26:00::"], [36, "presence%1:26:00::"]]
+CuFF:
+    lemmas: ["purified", "inactive", "chlorine", "be", "then", "add", "from", "one", "of", "the", "tube", "describe", "above", "and", "the", "mixture", "freeze_out", "and", "seal_off", "in", "a", "flask", "equip", "with", "a", "break_seal", "."]
+    oewn2026_key: [[1, "oewn-01936201-s"], [2, "oewn-14658769-n"], [4, "oewn-00118527-r"], [5, "oewn-00182551-v"], [10, "oewn-04500800-n"], [11, "oewn-00989103-v"], [12, "oewn-00080266-r"], [15, "oewn-14610438-n"], [16, "oewn-00446666-v"], [18, "oewn-01356709-v"], [21, "oewn-03364412-n"], [22, "oewn-02344409-v"], [25, "oewn-02897693-n"]]
+    paragraph: '4'
+    pos: ["JJ", "JJ", "NN", "VBD", "RB", "VBN", "IN", "NN", "IN", "DT", "NNS", "VBN", "RB", "CC", "DT", "NN", "VB", "CC", "VB", "IN", "DT", "NN", "VBN", "IN", "DT", "NN", "."]
+    text: ' Purified inactive chlorine was then added from one of the tubes described above
+  and the mixture frozen_out and sealed_off in a flask equipped with a break_seal.'
+    tokens: [[1, 9], [10, 18], [19, 27], [28, 31], [32, 36], [37, 42], [43, 47], [48, 51], [52, 54], [55, 58], [59, 64], [65, 74], [75, 80], [81, 84], [85, 88], [89, 96], [97, 107], [108, 111], [112, 122], [123, 125], [126, 127], [128, 133], [134, 142], [143, 147], [148, 149], [150, 160], [160, 161]]
+    wn16_key: [[0, "purified%5:00:00:pure:02"], [1, "inactive%5:00:00:unreactive:00"], [2, "chlorine%1:27:00::"], [4, "then%4:02:00::"], [5, "add%2:30:00::"], [10, "tube%1:06:00::"], [11, "describe%2:32:00::"], [12, "above%4:02:00::"], [15, "mixture%1:27:00::"], [16, "freeze_out%2:30:00::"], [18, "seal_off%2:35:00::"], [21, "flask%1:06:00::"], [22, "equip%2:40:00::"], [25, "break_seal%1:06:00::"]]
+    wn30_key: [[1, "inactive%3:00:00:unreactive:00"], [2, "chlorine%1:27:00::"], [4, "then%4:02:00::"], [5, "add%2:30:00::"], [10, "tube%1:06:00::"], [11, "describe%2:32:00::"], [12, "above%4:02:00::"], [15, "mixture%1:27:00::"], [16, "freeze_out%2:30:00::"], [18, "seal_off%2:35:00::"], [21, "flask%1:06:00::"], [22, "equip%2:40:00::"], [25, "break_seal%1:06:00::"]]
+5kCQ:
+    lemmas: ["This", "chlorine", "carbon_tetrachloride", "solution", "be", "illuminate", "for", "a", "day", "follow", "which", "the", "flask", "be", "reseal", "onto", "a", "vacuum", "system", "and", "the", "excess", "chlorine", "distill", "off", "."]
+    oewn2026_key: [[1, "oewn-14658769-n"], [2, "oewn-14822209-n"], [3, "oewn-14613403-n"], [5, "oewn-00292635-v"], [8, "oewn-15180180-n"], [12, "oewn-03364412-n"], [14, "oewn-01356988-v"], [17, "oewn-14479502-n"], [18, "oewn-04384144-n"], [21, "oewn-01585713-s"], [22, "oewn-14658769-n"], [23, "oewn-00229452-v"], [24, "oewn-00194904-r"]]
+    paragraph: '4'
+    pos: ["DT", "NN", "NN", "NN", "VBD", "VBN", "IN", "DT", "NN", "VBG", "WDT", "DT", "NN", "VBD", "VBN", "IN", "DT", "NN", "NN", "CC", "DT", "JJ", "NN", "VBN", "RP", "."]
+    text: ' This chlorine carbon_tetrachloride solution was illuminated for a day following
+  which the flask was resealed onto a vacuum system and the excess chlorine distilled
+  off.'
+    tokens: [[1, 5], [6, 14], [15, 35], [36, 44], [45, 48], [49, 60], [61, 64], [65, 66], [67, 70], [71, 80], [81, 86], [87, 90], [91, 96], [97, 100], [101, 109], [110, 114], [115, 116], [117, 123], [124, 130], [131, 134], [135, 138], [139, 145], [146, 154], [155, 164], [165, 168], [168, 169]]
+    wn16_key: [[1, "chlorine%1:27:00::"], [2, "carbon_tetrachloride%1:27:00::"], [3, "solution%1:27:00::"], [5, "illuminate%2:30:03::"], [8, "day%1:28:00::"], [12, "flask%1:06:00::"], [14, "reseal%2:35:00::"], [17, "vacuum%1:26:00::"], [18, "system%1:06:00::"], [21, "excess%5:00:00:unnecessary:00"], [22, "chlorine%1:27:00::"], [23, "distill%2:30:01::"], [24, "off%4:02:04::"]]
+    wn30_key: [[1, "chlorine%1:27:00::"], [2, "carbon_tetrachloride%1:27:00::"], [3, "solution%1:27:00::"], [5, "illuminate%2:30:03::"], [8, "day%1:28:00::"], [12, "flask%1:06:00::"], [14, "reseal%2:35:00::"], [17, "vacuum%1:26:00::"], [18, "system%1:06:00::"], [21, "excess%3:00:00:unnecessary:00"], [22, "chlorine%1:27:00::"], [23, "distill%2:30:01::"], [24, "off%4:02:04::"]]
+glyO:
+    lemmas: ["The", "required", "amount", "of", "carbon_tetrachloride", "be", "distill", "into", "a", "series", "of", "reaction", "cell", "on", "a", "manifold", "on", "a", "vacuum", "line", "."]
+    oewn2026_key: [[1, "oewn-01585183-s"], [2, "oewn-05115065-n"], [4, "oewn-14822209-n"], [6, "oewn-00229452-v"], [9, "oewn-08474987-n"], [11, "oewn-13468534-n"], [12, "oewn-02995166-n"], [15, "oewn-03723289-n"], [18, "oewn-14479502-n"], [19, "oewn-03952601-n"]]
+    paragraph: '4'
+    pos: ["DT", "JJ", "NN", "IN", "NN", "VBD", "VBN", "IN", "DT", "NN", "IN", "NN", "NNS", "IN", "DT", "NN", "IN", "DT", "NN", "NN", "."]
+    text: ' The required amount of carbon_tetrachloride was distilled into a series of reaction
+  cells on a manifold on a vacuum line.'
+    tokens: [[1, 4], [5, 13], [14, 20], [21, 23], [24, 44], [45, 48], [49, 58], [59, 63], [64, 65], [66, 72], [73, 75], [76, 84], [85, 90], [91, 93], [94, 95], [96, 104], [105, 107], [108, 109], [110, 116], [117, 121], [121, 122]]
+    wn16_key: [[1, "required%5:00:00:necessary:00"], [2, "amount%1:07:00::"], [4, "carbon_tetrachloride%1:27:00::"], [6, "distill%2:30:01::"], [9, "series%1:14:00::"], [11, "reaction%1:22:00::"], [12, "cell%1:06:03::"], [15, "manifold%1:06:00::"], [18, "vacuum%1:26:00::"], [19, "line%1:06:06::"]]
+    wn30_key: [[1, "required%3:00:00:necessary:00"], [2, "amount%1:07:00::"], [4, "carbon_tetrachloride%1:27:00::"], [6, "distill%2:30:01::"], [9, "series%1:14:00::"], [11, "reaction%1:22:00::"], [12, "cell%1:06:03::"], [15, "manifold%1:06:00::"], [18, "vacuum%1:26:00::"], [19, "line%1:06:06::"]]
+W81l:
+    lemmas: ["The", "desired", "amount", "of", "inactive", "chlorine", "and", "radioactive", "chlorine", "be", "likewise", "condense", "in", "these", "cell", "on", "the", "vacuum", "line", "follow", "which", "they", "be", "freeze_down", "and", "the", "manifold", "as_a_whole", "be", "seal_off", "."]
+    oewn2026_key: [[1, "oewn-02537379-s"], [2, "oewn-00033914-n"], [4, "oewn-01936201-s"], [5, "oewn-14658769-n"], [7, "oewn-00428404-a"], [8, "oewn-14658769-n"], [10, "oewn-00138870-r"], [11, "oewn-00365521-v"], [14, "oewn-02995166-n"], [17, "oewn-14479502-n"], [18, "oewn-03952601-n"], [23, "oewn-00446666-v"], [26, "oewn-03723289-n"], [29, "oewn-01356709-v"]]
+    paragraph: '4'
+    pos: ["DT", "JJ", "NNS", "IN", "JJ", "NN", "CC", "JJ", "NN", "VBD", "RB", "VB", "IN", "DT", "NNS", "IN", "DT", "NN", "NN", "VBG", "WDT", "PRP", "VBD", "VB", "CC", "DT", "NN", "JJ", "VBD", "VB", "."]
+    text: ' The desired amounts of inactive chlorine and radioactive chlorine were likewise
+  condensed in these cells on the vacuum line following which they were frozen_down
+  and the manifold as_a_whole was sealed_off.'
+    tokens: [[1, 4], [5, 12], [13, 20], [21, 23], [24, 32], [33, 41], [42, 45], [46, 57], [58, 66], [67, 71], [72, 80], [81, 90], [91, 93], [94, 99], [100, 105], [106, 108], [109, 112], [113, 119], [120, 124], [125, 134], [135, 140], [141, 145], [146, 150], [151, 162], [163, 166], [167, 170], [171, 179], [180, 190], [191, 194], [195, 205], [205, 206]]
+    wn16_key: [[1, "desired%5:00:00:desirable:00"], [2, "amount%1:03:00::"], [4, "inactive%5:00:00:unreactive:00"], [5, "chlorine%1:27:00::"], [7, "radioactive%3:00:00::"], [8, "chlorine%1:27:00::"], [10, "likewise%4:02:00::"], [11, "condense%2:30:01::"], [14, "cell%1:06:03::"], [17, "vacuum%1:26:00::"], [18, "line%1:06:06::"], [23, "freeze_down%2:30:00::"], [26, "manifold%1:06:00::"], [27, "as_a_whole%5:00:00:general:00"], [29, "seal_off%2:35:00::"]]
+    wn30_key: [[1, "desired%3:00:00:desirable:00"], [2, "amount%1:03:00::"], [4, "inactive%3:00:00:unreactive:00"], [5, "chlorine%1:27:00::"], [7, "radioactive%3:00:00::"], [8, "chlorine%1:27:00::"], [10, "likewise%4:02:00::"], [11, "condense%2:30:01::"], [14, "cell%1:06:03::"], [17, "vacuum%1:26:00::"], [18, "line%1:06:06::"], [23, "freeze_down%2:30:00::"], [26, "manifold%1:06:00::"], [29, "seal_off%2:35:00::"]]
+/9BO:
+    lemmas: ["The", "content", "of", "the", "manifold", "for", "liquid", "phase", "experiment", "be", "then", "mix", "by", "shaking", ",", "redistribute", "to", "the", "reaction", "tube", ",", "freeze_down", ",", "and", "each", "tube", "be", "then", "sealed_off", "."]
+    oewn2026_key: [[1, "oewn-07971643-n"], [4, "oewn-03723289-n"], [6, "oewn-14964238-n"], [7, "oewn-14503649-n"], [8, "oewn-05806051-n"], [10, "oewn-00118527-r"], [11, "oewn-00395719-v"], [13, "oewn-00348006-n"], [15, "oewn-01382630-v"], [18, "oewn-13468534-n"], [19, "oewn-04500800-n"], [21, "oewn-00446666-v"], [25, "oewn-04500800-n"], [27, "oewn-00118527-r"]]
+    paragraph: '4'
+    pos: ["DT", "NNS", "IN", "DT", "NN", "IN", "NN", "NN", "NNS", "VBD", "RB", "VBN", "IN", "NN", ",", "VBN", "TO", "DT", "NN", "NNS", ",", "VB", ",", "CC", "DT", "NN", "VBD", "RB", "JJ", "."]
+    text: ' The contents of the manifold for liquid phase experiments were then mixed by shaking,
+  redistributed to the reaction tubes, frozen_down, and each tube was then sealed_off.'
+    tokens: [[1, 4], [5, 13], [14, 16], [17, 20], [21, 29], [30, 33], [34, 40], [41, 46], [47, 58], [59, 63], [64, 68], [69, 74], [75, 77], [78, 85], [85, 86], [87, 100], [101, 103], [104, 107], [108, 116], [117, 122], [122, 123], [124, 135], [135, 136], [137, 140], [141, 145], [146, 150], [151, 154], [155, 159], [160, 170], [170, 171]]
+    wn16_key: [[1, "content%1:14:00::"], [4, "manifold%1:06:00::"], [6, "liquid%1:27:00::"], [7, "phase%1:26:00::"], [8, "experiment%1:09:00::"], [10, "then%4:02:00::"], [11, "mix%2:30:00::"], [13, "shaking%1:04:00::"], [15, "redistribute%2:35:00::"], [18, "reaction%1:22:00::"], [19, "tube%1:06:00::"], [21, "freeze_down%2:30:00::"], [25, "tube%1:06:00::"], [27, "then%4:02:00::"], [28, "sealed_off%5:00:00:sealed:01"]]
+    wn30_key: [[1, "content%1:14:00::"], [4, "manifold%1:06:00::"], [6, "liquid%1:27:00::"], [7, "phase%1:26:00::"], [8, "experiment%1:09:00::"], [10, "then%4:02:00::"], [11, "mix%2:30:00::"], [13, "shaking%1:04:00::"], [15, "redistribute%2:35:00::"], [18, "reaction%1:22:00::"], [19, "tube%1:06:00::"], [21, "freeze_down%2:30:00::"], [25, "tube%1:06:00::"], [27, "then%4:02:00::"]]
+1Lqg:
+    lemmas: ["The", "reactant", "for", "the", "gas", "phase", "experiment", "be", "first", "freeze_out", "in", "a", "side", "arm", "attach", "to", "the", "manifold", "and", "then", "allow", "to", "distill", "slowly", "into", "the", "manifold", "of", "precooled", "reaction", "cell", "before", "seal_off", "."]
+    oewn2026_key: [[1, "oewn-14718926-n"], [4, "oewn-14504664-n"], [5, "oewn-14503649-n"], [6, "oewn-05806051-n"], [8, "oewn-00103286-r"], [9, "oewn-00446666-v"], [12, "oewn-02450419-a"], [13, "oewn-02740838-n"], [14, "oewn-01299048-v"], [17, "oewn-03723289-n"], [19, "oewn-00118527-r"], [20, "oewn-02427979-v"], [22, "oewn-00476114-v"], [23, "oewn-00162829-r"], [26, "oewn-03723289-n"], [28, "oewn-02541025-s"], [29, "oewn-13468534-n"], [30, "oewn-02995166-n"], [32, "oewn-01356709-v"]]
+    paragraph: '4'
+    pos: ["DT", "NNS", "IN", "DT", "NN", "NN", "NNS", "VBD", "RB", "VB", "IN", "DT", "JJ", "NN", "VBN", "JJ", "DT", "NN", "RB", "RB", "VBN", "TO", "VB", "RB", "IN", "DT", "NN", "IN", "JJ", "NN", "NNS", "IN", "VB", "."]
+    text: ' The reactants for the gas phase experiments were first frozen_out in a side arm
+  attached to the manifold and then allowed to distill slowly into the manifold of
+  pre-cooled reaction cells before sealing_off.'
+    tokens: [[1, 4], [5, 14], [15, 18], [19, 22], [23, 26], [27, 32], [33, 44], [45, 49], [50, 55], [56, 66], [67, 69], [70, 71], [72, 76], [77, 80], [81, 89], [90, 92], [93, 96], [97, 105], [106, 109], [110, 114], [115, 122], [123, 125], [126, 133], [134, 140], [141, 145], [146, 149], [150, 158], [159, 161], [162, 172], [173, 181], [182, 187], [188, 194], [195, 206], [206, 207]]
+    wn16_key: [[1, "reactant%1:27:00::"], [4, "gas%1:26:00::"], [5, "phase%1:26:00::"], [6, "experiment%1:09:00::"], [8, "first%4:02:00::"], [9, "freeze_out%2:30:00::"], [12, "side%3:00:00::"], [13, "arm%1:06:03::"], [14, "attach%2:35:01::"], [17, "manifold%1:06:00::"], [19, "then%4:02:00::"], [20, "allow%2:41:00::"], [22, "distill%2:30:03::"], [23, "slowly%4:02:02::"], [26, "manifold%1:06:00::"], [28, "precooled%5:00:00:cool:01"], [29, "reaction%1:22:00::"], [30, "cell%1:06:03::"], [32, "seal_off%2:35:00::"]]
+    wn30_key: [[1, "reactant%1:27:00::"], [4, "gas%1:26:00::"], [5, "phase%1:26:00::"], [6, "experiment%1:09:00::"], [8, "first%4:02:00::"], [9, "freeze_out%2:30:00::"], [12, "side%3:00:00::"], [13, "arm%1:06:03::"], [14, "attach%2:35:01::"], [17, "manifold%1:06:00::"], [19, "then%4:02:00::"], [20, "allow%2:41:00::"], [22, "distill%2:30:03::"], [23, "slowly%4:02:02::"], [26, "manifold%1:06:00::"], [28, "precooled%3:00:00:cool:01"], [29, "reaction%1:22:00::"], [30, "cell%1:06:03::"], [32, "seal_off%2:35:00::"]]
+SyxB:
+    lemmas: ["This", "method", "in_general", "solve", "the", "problem", "of", "obtain", "fairly", "equal", "concentration", "of", "reactant", "in", "each", "of", "the", "six", "cell", "from", "a", "set", "."]
+    oewn2026_key: [[1, "oewn-05668113-n"], [2, "oewn-00042364-r"], [3, "oewn-00735067-v"], [5, "oewn-14434009-n"], [7, "oewn-02242867-v"], [8, "oewn-00036138-r"], [9, "oewn-00893124-a"], [10, "oewn-05045748-n"], [12, "oewn-14718926-n"], [17, "oewn-02194472-s"], [18, "oewn-02995166-n"], [21, "oewn-08013131-n"]]
+    paragraph: '4'
+    pos: ["DT", "NN", "RB", "VBD", "DT", "NN", "IN", "VBG", "RB", "JJ", "NNS", "IN", "NNS", "IN", "DT", "IN", "DT", "JJ", "NNS", "IN", "DT", "NN", "."]
+    text: ' This method in_general solved the problem of obtaining fairly equal concentrations
+  of reactants in each of the six cells from a set.
+
+  '
+    tokens: [[1, 5], [6, 12], [13, 23], [24, 30], [31, 34], [35, 42], [43, 45], [46, 55], [56, 62], [63, 68], [69, 83], [84, 86], [87, 96], [97, 99], [100, 104], [105, 107], [108, 111], [112, 115], [116, 121], [122, 126], [127, 128], [129, 132], [132, 133]]
+    wn16_key: [[1, "method%1:09:00::"], [2, "in_general%4:02:00::"], [3, "solve%2:31:01::"], [5, "problem%1:26:00::"], [7, "obtain%2:40:00::"], [8, "fairly%4:02:02::"], [9, "equal%3:00:00::"], [10, "concentration%1:07:02::"], [12, "reactant%1:27:00::"], [17, "six%5:00:00:cardinal:00"], [18, "cell%1:06:03::"], [21, "set%1:14:00::"]]
+    wn30_key: [[1, "method%1:09:00::"], [2, "in_general%4:02:00::"], [3, "solve%2:31:01::"], [5, "problem%1:26:00::"], [7, "obtain%2:40:00::"], [8, "fairly%4:02:02::"], [9, "equal%3:00:00::"], [10, "concentration%1:07:02::"], [12, "reactant%1:27:00::"], [17, "six%3:00:00:cardinal:00"], [18, "cell%1:06:03::"], [21, "set%1:14:00::"]]
+WHdj:
+    lemmas: ["The", "sample", "for", "liquid", "phase", "thermal", "reaction", "study", "be", "prepare", "in", "pyrex", "capillary_tubing", "2.5", "mm", "i.d.", "and", "about", "15", "cm", "long", "."]
+    oewn2026_key: [[1, "oewn-05830135-n"], [3, "oewn-14504004-n"], [4, "oewn-14503649-n"], [5, "oewn-02825392-a"], [6, "oewn-13468534-n"], [7, "oewn-00645746-n"], [9, "oewn-00407168-v"], [11, "oewn-15024181-n"], [12, "oewn-02959505-n"], [14, "oewn-13680427-n"], [18, "oewn-02195432-s"], [19, "oewn-13680636-n"], [20, "oewn-01436368-a"]]
+    paragraph: '5'
+    pos: ["DT", "NNS", "IN", "NN", "NN", "JJ", "NN", "NNS", "VBD", "VBN", "IN", "NN", "NN", "CD", "NN", "NN", "CC", "IN", "JJ", "NN", "JJ", "."]
+    text: ' The samples for liquid phase thermal reaction studies were prepared in Pyrex capillary_tubing
+  2.5 mm. i.d. and about 15 cm. long.'
+    tokens: [[1, 4], [5, 12], [13, 16], [17, 23], [24, 29], [30, 37], [38, 46], [47, 54], [55, 59], [60, 68], [69, 71], [72, 77], [78, 94], [95, 98], [99, 102], [103, 107], [108, 111], [112, 117], [118, 120], [121, 124], [125, 129], [129, 130]]
+    wn16_key: [[1, "sample%1:09:00::"], [3, "liquid%1:26:00::"], [4, "phase%1:26:00::"], [5, "thermal%3:01:00::"], [6, "reaction%1:22:00::"], [7, "study%1:04:00::"], [9, "prepare%2:30:00::"], [11, "pyrex%1:27:00::"], [12, "capillary_tubing%1:06:00::"], [14, "mm%1:23:00::"], [18, "15%5:00:00:cardinal:00"], [19, "cm%1:23:00::"], [20, "long%3:00:01::"]]
+    wn30_key: [[1, "sample%1:09:00::"], [3, "liquid%1:26:00::"], [4, "phase%1:26:00::"], [5, "thermal%3:01:00::"], [6, "reaction%1:22:00::"], [7, "study%1:04:00::"], [9, "prepare%2:30:00::"], [11, "pyrex%1:27:00::"], [12, "capillary_tubing%1:06:00::"], [14, "mm%1:23:00::"], [18, "15%3:00:00:cardinal:00"], [19, "cm%1:23:00::"], [20, "long%3:00:01::"]]
+eth0:
+    lemmas: ["In", "a_few", "experiment", "the", "tube", "be", "make", "from", "standard", "6", "mm", "i.d.", "pyrex", "tubing", "of", "1", "mm", "wall", "thickness", "."]
+    oewn2026_key: [[1, "oewn-01557697-s"], [2, "oewn-05806051-n"], [4, "oewn-04500800-n"], [6, "oewn-01624592-v"], [8, "oewn-02303673-a"], [9, "oewn-02194472-s"], [10, "oewn-13680427-n"], [12, "oewn-15024181-n"], [13, "oewn-04500800-n"], [15, "oewn-02193977-s"], [16, "oewn-13680427-n"], [17, "oewn-04554141-n"], [18, "oewn-05110372-n"]]
+    paragraph: '5'
+    pos: ["IN", "JJ", "NNS", "DT", "NNS", "VBD", "VBN", "IN", "JJ", "JJ", "NN", "NN", "NNP", "NN", "IN", "JJ", "NN", "NN", "NN", "."]
+    text: ' In a_few experiments the tubes were made from standard 6 mm. i.d. Pyrex tubing of
+  1 mm. wall thickness.'
+    tokens: [[1, 3], [4, 9], [10, 21], [22, 25], [26, 31], [32, 36], [37, 41], [42, 46], [47, 55], [56, 57], [58, 61], [62, 66], [67, 72], [73, 79], [80, 82], [83, 84], [85, 88], [89, 93], [94, 103], [103, 104]]
+    wn16_key: [[1, "a_few%5:00:00:few:00"], [2, "experiment%1:09:00::"], [4, "tube%1:06:00::"], [6, "make%2:36:01::"], [8, "standard%3:00:02::"], [9, "6%5:00:00:cardinal:00"], [10, "mm%1:23:00::"], [12, "pyrex%1:27:00::"], [13, "tubing%1:06:00::"], [15, "1%5:00:00:cardinal:00"], [16, "mm%1:23:00::"], [17, "wall%1:06:00::"], [18, "thickness%1:07:01::"]]
+    wn30_key: [[1, "a_few%3:00:00:few:00"], [2, "experiment%1:09:00::"], [4, "tube%1:06:00::"], [6, "make%2:36:01::"], [8, "standard%3:00:02::"], [9, "6%3:00:00:cardinal:00"], [10, "mm%1:23:00::"], [12, "pyrex%1:27:00::"], [13, "tubing%1:06:00::"], [15, "1%3:00:00:cardinal:00"], [16, "mm%1:23:00::"], [17, "wall%1:06:00::"], [18, "thickness%1:07:01::"]]
+Q/LG:
+    lemmas: ["Both", "type", "of", "tube", "withstand", "the", "pressure", "of", "approximately", "20", "atmosphere", "exert", "by", "the", "carbon_tetrachloride", "at", "220", "'", "."]
+    oewn2026_key: [[1, "oewn-05848697-n"], [3, "oewn-04500800-n"], [4, "oewn-02712676-v"], [6, "oewn-11515441-n"], [8, "oewn-00007414-r"], [9, "oewn-02195956-s"], [10, "oewn-13733165-n"], [11, "oewn-01168409-v"], [14, "oewn-14822209-n"]]
+    paragraph: '5'
+    pos: ["DT", "NNS", "IN", "NN", "VBD", "DT", "NN", "IN", "RB", "JJ", "NNS", "VBN", "IN", "DT", "NN", "IN", "CD", "''", "."]
+    text: ' Both types of tube withstood the pressure of approximately 20 atmospheres exerted
+  by the carbon_tetrachloride at 220''.'
+    tokens: [[1, 5], [6, 11], [12, 14], [15, 19], [20, 29], [30, 33], [34, 42], [43, 45], [46, 59], [60, 62], [63, 74], [75, 82], [83, 85], [86, 89], [90, 110], [111, 113], [114, 117], [117, 118], [118, 119]]
+    wn16_key: [[1, "type%1:09:00::"], [3, "tube%1:06:00::"], [4, "withstand%2:42:00::"], [6, "pressure%1:19:00::"], [8, "approximately%4:02:00::"], [9, "20%5:00:00:cardinal:00"], [10, "atmosphere%1:23:00::"], [11, "exert%2:34:00::"], [14, "carbon_tetrachloride%1:27:00::"]]
+    wn30_key: [[1, "type%1:09:00::"], [3, "tube%1:06:00::"], [4, "withstand%2:42:00::"], [6, "pressure%1:19:00::"], [8, "approximately%4:02:00::"], [9, "20%3:00:00:cardinal:00"], [10, "atmosphere%1:23:00::"], [11, "exert%2:34:00::"], [14, "carbon_tetrachloride%1:27:00::"]]
+niuL:
+    lemmas: ["The", "photochemical_reaction", "cell", "consist_of", "10", "mm", "i.d.", "pyrex", "tubing", ",", "5.5", "cm", "long", ",", "diffraction", "effect", "be", "minimize", "by", "the", "fact", "that", "the", "light", "pass_through", "only", "liquid", "glass", "interface", "and", "not", "gas", "glass", "interface", "."]
+    oewn2026_key: [[1, "oewn-13557726-n"], [2, "oewn-02995166-n"], [4, "oewn-02194935-s"], [5, "oewn-13680427-n"], [7, "oewn-15024181-n"], [8, "oewn-04500800-n"], [11, "oewn-13680636-n"], [12, "oewn-01436368-a"], [14, "oewn-11467030-n"], [15, "oewn-11430739-n"], [17, "oewn-00428755-v"], [20, "oewn-05825522-n"], [23, "oewn-11494354-n"], [24, "oewn-01919358-v"], [25, "oewn-00009062-r"], [26, "oewn-14964524-n"], [27, "oewn-14905454-n"], [28, "oewn-03583604-n"], [30, "oewn-00024432-r"], [31, "oewn-14901736-n"], [32, "oewn-14905454-n"], [33, "oewn-03583604-n"]]
+    paragraph: '5'
+    pos: ["DT", "NN", "NNS", "VB", "JJ", "NN", "NN", "NNP", "NN", ",", "CD", "NN", "JJ", ",", "NN", "NNS", "VBG", "VBN", "IN", "DT", "NN", "IN", "DT", "NN", "VB", "RB", "NN", "NN", "NNS", "CC", "RB", "NN", "NN", "NNS", "."]
+    text: ' The photochemical_reaction cells consisted_of 10 mm. i.d. Pyrex tubing, 5.5 cm.
+  long, diffraction effects being minimized by the fact that the light passed_through
+  only liquid glass interfaces and not gas glass interfaces.'
+    tokens: [[1, 4], [5, 27], [28, 33], [34, 46], [47, 49], [50, 53], [54, 58], [59, 64], [65, 71], [71, 72], [73, 76], [77, 80], [81, 85], [85, 86], [87, 98], [99, 106], [107, 112], [113, 122], [123, 125], [126, 129], [130, 134], [135, 139], [140, 143], [144, 149], [150, 164], [165, 169], [170, 176], [177, 182], [183, 193], [194, 197], [198, 201], [202, 205], [206, 211], [212, 222], [222, 223]]
+    wn16_key: [[1, "photochemical_reaction%1:22:00::"], [2, "cell%1:06:03::"], [3, "consist_of%2:42:00::"], [4, "10%5:00:00:cardinal:00"], [5, "mm%1:23:00::"], [7, "pyrex%1:27:00::"], [8, "tubing%1:06:00::"], [11, "cm%1:23:00::"], [12, "long%3:00:01::"], [14, "diffraction%1:19:00::"], [15, "effect%1:19:00::"], [17, "minimize%2:30:00::"], [20, "fact%1:09:01::"], [23, "light%1:19:00::"], [24, "pass_through%2:38:00::"], [25, "only%4:02:01::"], [26, "liquid%1:27:04::"], [27, "glass%1:27:00::"], [28, "interface%1:06:00::"], [30, "not%4:02:00::"], [31, "gas%1:27:00::"], [32, "glass%1:27:00::"], [33, "interface%1:06:00::"]]
+    wn30_key: [[1, "photochemical_reaction%1:22:00::"], [2, "cell%1:06:03::"], [4, "10%3:00:00:cardinal:00"], [5, "mm%1:23:00::"], [7, "pyrex%1:27:00::"], [8, "tubing%1:06:00::"], [11, "cm%1:23:00::"], [12, "long%3:00:01::"], [14, "diffraction%1:19:00::"], [15, "effect%1:19:00::"], [17, "minimize%2:30:00::"], [20, "fact%1:09:01::"], [23, "light%1:19:00::"], [24, "pass_through%2:38:00::"], [25, "only%4:02:01::"], [26, "liquid%1:27:04::"], [27, "glass%1:27:00::"], [28, "interface%1:06:00::"], [30, "not%4:02:00::"], [31, "gas%1:27:00::"], [32, "glass%1:27:00::"], [33, "interface%1:06:00::"]]
+vwi9:
+    lemmas: ["These", "cell", "be", "use", "rather", "than", "square", "pyrex", "tubing", "because", "of", "the", "tendency", "of", "the", "latter", "to", "shatter", "when", "thaw", "frozen", "carbon_tetrachloride", "."]
+    oewn2026_key: [[1, "oewn-02995166-n"], [3, "oewn-01161188-v"], [4, "oewn-00099264-r"], [6, "oewn-02050637-a"], [7, "oewn-15024181-n"], [8, "oewn-04500800-n"], [12, "oewn-04951225-n"], [15, "oewn-01051260-a"], [17, "oewn-00334568-v"], [19, "oewn-00376777-v"], [20, "oewn-01081990-a"], [21, "oewn-14822209-n"]]
+    paragraph: '5'
+    pos: ["DT", "NNS", "VBD", "VBN", "RB", "RB", "JJ", "NNP", "NN", "IN", "IN", "DT", "NN", "IN", "DT", "JJ", "TO", "VB", "WRB", "VBG", "JJ", "NN", "."]
+    text: ' These cells were used rather than square Pyrex tubing because of the tendency of
+  the latter to shatter when thawing frozen carbon_tetrachloride.'
+    tokens: [[1, 6], [7, 12], [13, 17], [18, 22], [23, 29], [30, 34], [35, 41], [42, 47], [48, 54], [55, 62], [63, 65], [66, 69], [70, 78], [79, 81], [82, 85], [86, 92], [93, 95], [96, 103], [104, 108], [109, 116], [117, 123], [124, 144], [144, 145]]
+    wn16_key: [[1, "cell%1:06:03::"], [3, "use%2:34:01::"], [4, "rather%4:02:02::"], [6, "square%3:00:00::"], [7, "pyrex%1:27:00::"], [8, "tubing%1:06:00::"], [12, "tendency%1:07:00::"], [15, "latter%3:00:00::"], [17, "shatter%2:30:00::"], [19, "thaw%2:30:00::"], [20, "frozen%3:00:00::"], [21, "carbon_tetrachloride%1:27:00::"]]
+    wn30_key: [[1, "cell%1:06:03::"], [3, "use%2:34:01::"], [4, "rather%4:02:02::"], [6, "square%3:00:00::"], [7, "pyrex%1:27:00::"], [8, "tubing%1:06:00::"], [12, "tendency%1:07:00::"], [15, "latter%3:00:00::"], [17, "shatter%2:30:00::"], [19, "thaw%2:30:00::"], [20, "frozen%3:00:00::"], [21, "carbon_tetrachloride%1:27:00::"]]
+B1fv:
+    lemmas: ["The", "round", "cell", "be", "reproducibly", "position", "in", "the", "light_beam", "which", "enter", "the", "thermostated", "mineral_oil", "bath", "through", "a", "window", "."]
+    oewn2026_key: [[1, "oewn-02048059-a"], [2, "oewn-02995166-n"], [4, "oewn-00061079-r"], [5, "oewn-01496967-v"], [8, "oewn-11448137-n"], [10, "oewn-02020375-v"], [13, "oewn-14977230-n"], [14, "oewn-02809715-n"], [17, "oewn-04595890-n"]]
+    paragraph: '5'
+    pos: ["DT", "JJ", "NNS", "VBD", "RB", "VBN", "IN", "DT", "NN", "WDT", "VBD", "DT", "JJ", "NN", "NN", "IN", "DT", "NN", "."]
+    text: ' The round cells were reproducibly positioned in the light_beam which entered the
+  thermostated mineral_oil bath through a window.'
+    tokens: [[1, 4], [5, 10], [11, 16], [17, 21], [22, 34], [35, 45], [46, 48], [49, 52], [53, 63], [64, 69], [70, 77], [78, 81], [82, 94], [95, 106], [107, 111], [112, 119], [120, 121], [122, 128], [128, 129]]
+    wn16_key: [[1, "round%3:00:00::"], [2, "cell%1:06:03::"], [4, "reproducibly%4:02:00::"], [5, "position%2:35:00::"], [8, "light_beam%1:19:00::"], [10, "enter%2:38:00::"], [12, "thermostated%5:00:00:regulated:00"], [13, "mineral_oil%1:27:00::"], [14, "bath%1:06:02::"], [17, "window%1:06:02::"]]
+    wn30_key: [[1, "round%3:00:00::"], [2, "cell%1:06:03::"], [4, "reproducibly%4:02:00::"], [5, "position%2:35:00::"], [8, "light_beam%1:19:00::"], [10, "enter%2:38:00::"], [13, "mineral_oil%1:27:00::"], [14, "bath%1:06:02::"], [17, "window%1:06:02::"]]
+SMzy:
+    lemmas: ["two", "type", "of", "light", "source", "be", "use", ",", "a", "thousand", "watt", "projection", "lamp", "and", "an", "AH6", "high", "pressure", "mercury", "arc", "."]
+    oewn2026_key: [[0, "oewn-02194109-s"], [1, "oewn-05848697-n"], [3, "oewn-11494354-n"], [4, "oewn-08524579-n"], [6, "oewn-01161188-v"], [9, "oewn-02206421-s"], [10, "oewn-13666001-n"], [11, "oewn-06900649-n"], [12, "oewn-03641539-n"], [16, "oewn-01213526-a"], [17, "oewn-11515441-n"], [18, "oewn-14669524-n"], [19, "oewn-11531956-n"]]
+    paragraph: '5'
+    pos: ["JJ", "NNS", "IN", "NN", "NN", "VB", "VBN", ",", "JJ", "JJ", "NN", "NN", "NN", "CC", "DT", "CD", "JJ", "NN", "NN", "NN", "."]
+    text: ' Two types of light source were used, a thousand watt projection lamp and an AH6
+  high pressure mercury arc.'
+    tokens: [[1, 4], [5, 10], [11, 13], [14, 19], [20, 26], [27, 31], [32, 36], [36, 37], [38, 39], [40, 48], [49, 53], [54, 64], [65, 69], [70, 73], [74, 76], [77, 80], [81, 85], [86, 94], [95, 102], [103, 106], [106, 107]]
+    wn16_key: [[0, "two%5:00:00:cardinal:00"], [1, "type%1:09:00::"], [3, "light%1:19:00::"], [4, "source%1:15:00::"], [6, "use%2:34:01::"], [9, "thousand%5:00:00:cardinal:00"], [10, "watt%1:23:00::"], [11, "projection%1:10:00::"], [12, "lamp%1:06:00::"], [16, "high%3:00:02::"], [17, "pressure%1:19:00::"], [18, "mercury%1:27:00::"], [19, "arc%1:19:00::"]]
+    wn30_key: [[0, "two%3:00:00:cardinal:00"], [1, "type%1:09:00::"], [3, "light%1:19:00::"], [4, "source%1:15:00::"], [6, "use%2:34:01::"], [9, "thousand%3:00:00:cardinal:00"], [10, "watt%1:23:00::"], [11, "projection%1:10:00::"], [12, "lamp%1:06:00::"], [16, "high%3:00:02::"], [17, "pressure%1:19:00::"], [18, "mercury%1:27:00::"], [19, "arc%1:19:00::"]]
+v4wL:
+    lemmas: ["The", "light", "be", "filter", "by", "the", "soft_glass", "window", "of", "the", "thermostat", "thus", "ensure", "that", "only", "light", "absorb", "by", "the", "chlorine", "and", "not", "by", "the", "carbon_tetrachloride", "could", "enter", "the", "reaction", "cell", "."]
+    oewn2026_key: [[1, "oewn-11494354-n"], [3, "oewn-01461293-v"], [6, "oewn-14905910-n"], [7, "oewn-04595890-n"], [10, "oewn-04430010-n"], [11, "oewn-00122019-r"], [12, "oewn-00892111-v"], [14, "oewn-00009062-r"], [15, "oewn-11494354-n"], [16, "oewn-01542421-v"], [19, "oewn-14658769-n"], [21, "oewn-00024432-r"], [24, "oewn-14822209-n"], [26, "oewn-02020375-v"], [28, "oewn-13468534-n"], [29, "oewn-02995166-n"]]
+    paragraph: '5'
+    pos: ["DT", "NN", "VBD", "VBN", "IN", "DT", "NN", "NN", "IN", "DT", "NN", "RB", "VBG", "IN", "RB", "NN", "VBN", "IN", "DT", "NN", "CC", "RB", "IN", "DT", "NN", "MD", "VB", "DT", "NN", "NN", "."]
+    text: ' The light was filtered by the soft_glass window of the thermostat thus ensuring
+  that only light absorbed by the chlorine and not by the carbon_tetrachloride could
+  enter the reaction cell.'
+    tokens: [[1, 4], [5, 10], [11, 14], [15, 23], [24, 26], [27, 30], [31, 41], [42, 48], [49, 51], [52, 55], [56, 66], [67, 71], [72, 80], [81, 85], [86, 90], [91, 96], [97, 105], [106, 108], [109, 112], [113, 121], [122, 125], [126, 129], [130, 132], [133, 136], [137, 157], [158, 163], [164, 169], [170, 173], [174, 182], [183, 187], [187, 188]]
+    wn16_key: [[1, "light%1:19:00::"], [3, "filter%2:35:00::"], [6, "soft_glass%1:27:00::"], [7, "window%1:06:02::"], [10, "thermostat%1:06:00::"], [11, "thus%4:02:01::"], [12, "ensure%2:32:00::"], [14, "only%4:02:01::"], [15, "light%1:19:00::"], [16, "absorb%2:35:01::"], [19, "chlorine%1:27:00::"], [21, "not%4:02:00::"], [24, "carbon_tetrachloride%1:27:00::"], [26, "enter%2:38:00::"], [28, "reaction%1:22:00::"], [29, "cell%1:06:03::"]]
+    wn30_key: [[1, "light%1:19:00::"], [3, "filter%2:35:00::"], [6, "soft_glass%1:27:00::"], [7, "window%1:06:02::"], [10, "thermostat%1:06:00::"], [11, "thus%4:02:01::"], [12, "ensure%2:32:00::"], [14, "only%4:02:01::"], [15, "light%1:19:00::"], [16, "absorb%2:35:01::"], [19, "chlorine%1:27:00::"], [21, "not%4:02:00::"], [24, "carbon_tetrachloride%1:27:00::"], [26, "enter%2:38:00::"], [28, "reaction%1:22:00::"], [29, "cell%1:06:03::"]]
+8cKT:
+    lemmas: ["relative", "incident", "light", "intensity", "be", "measure", "with", "a", "thermopile", "potentiometer", "system", "."]
+    oewn2026_key: [[0, "oewn-00006050-a"], [1, "oewn-02999091-a"], [2, "oewn-11494354-n"], [3, "oewn-05107058-n"], [5, "oewn-00490773-v"], [8, "oewn-04429701-n"], [9, "oewn-03998195-n"], [10, "oewn-04384144-n"]]
+    paragraph: '5'
+    pos: ["JJ", "JJ", "NN", "NNS", "VBD", "VBN", "IN", "DT", "NN", "NN", "NN", "."]
+    text: ' Relative incident light intensities were measured with a thermopile potentiometer
+  system.'
+    tokens: [[1, 9], [10, 18], [19, 24], [25, 36], [37, 41], [42, 50], [51, 55], [56, 57], [58, 68], [69, 82], [83, 89], [89, 90]]
+    wn16_key: [[0, "relative%3:00:00::"], [1, "incident%3:01:00::"], [2, "light%1:19:00::"], [3, "intensity%1:07:03::"], [5, "measure%2:30:00::"], [8, "thermopile%1:06:00::"], [9, "potentiometer%1:06:01::"], [10, "system%1:06:00::"]]
+    wn30_key: [[0, "relative%3:00:00::"], [1, "incident%3:01:00::"], [2, "light%1:19:00::"], [3, "intensity%1:07:03::"], [5, "measure%2:30:00::"], [8, "thermopile%1:06:00::"], [9, "potentiometer%1:06:01::"], [10, "system%1:06:00::"]]
+ECH5:
+    lemmas: ["change", "of", "intensity", "on", "the", "cell", "be", "achieve", "by", "use", "of", "a", "wire", "screen", "and", "by", "vary", "the", "distance", "of", "the", "light", "source", "from", "the", "cell", "."]
+    oewn2026_key: [[0, "oewn-11432841-n"], [2, "oewn-05107058-n"], [5, "oewn-02995166-n"], [7, "oewn-02531751-v"], [9, "oewn-00948944-n"], [12, "oewn-04601545-n"], [13, "oewn-04159023-n"], [16, "oewn-00122978-v"], [18, "oewn-05091408-n"], [21, "oewn-11494354-n"], [22, "oewn-08524579-n"], [25, "oewn-02995166-n"]]
+    paragraph: '5'
+    pos: ["NNS", "IN", "NN", "IN", "DT", "NN", "VBD", "VBN", "IN", "NN", "IN", "DT", "NN", "NN", "CC", "IN", "VBG", "DT", "NN", "IN", "DT", "NN", "NN", "IN", "DT", "NN", "."]
+    text: ' Changes of intensity on the cell were achieved by use of a wire screen and by varying
+  the distance of the light source from the cell.
+
+  '
+    tokens: [[1, 8], [9, 11], [12, 21], [22, 24], [25, 28], [29, 33], [34, 38], [39, 47], [48, 50], [51, 54], [55, 57], [58, 59], [60, 64], [65, 71], [72, 75], [76, 78], [79, 86], [87, 90], [91, 99], [100, 102], [103, 106], [107, 112], [113, 119], [120, 124], [125, 128], [129, 133], [133, 134]]
+    wn16_key: [[0, "change%1:19:00::"], [2, "intensity%1:07:03::"], [5, "cell%1:06:03::"], [7, "achieve%2:41:00::"], [9, "use%1:04:00::"], [12, "wire%1:06:00::"], [13, "screen%1:06:01::"], [16, "vary%2:30:01::"], [18, "distance%1:07:00::"], [21, "light%1:19:00::"], [22, "source%1:15:00::"], [25, "cell%1:06:03::"]]
+    wn30_key: [[0, "change%1:19:00::"], [2, "intensity%1:07:03::"], [5, "cell%1:06:03::"], [7, "achieve%2:41:00::"], [9, "use%1:04:00::"], [12, "wire%1:06:00::"], [13, "screen%1:06:01::"], [16, "vary%2:30:01::"], [18, "distance%1:07:00::"], [21, "light%1:19:00::"], [22, "source%1:15:00::"], [25, "cell%1:06:03::"]]
+yvAQ:
+    lemmas: ["follow", "reaction", "the", "cell", "be", "scratch", "with", "a", "file", "and", "open", "under", "a", "20", "%", "aqueous", "sodium_iodide", "solution", "."]
+    oewn2026_key: [[0, "oewn-02002464-v"], [1, "oewn-13468534-n"], [3, "oewn-02995166-n"], [5, "oewn-01311803-v"], [8, "oewn-03341784-n"], [10, "oewn-01348685-v"], [13, "oewn-02195956-s"], [15, "oewn-02647112-a"], [16, "oewn-15070244-n"], [17, "oewn-14613403-n"]]
+    paragraph: '6'
+    pos: ["VBG", "NN", "DT", "NNS", "VBD", "VBN", "IN", "DT", "NN", "CC", "VBD", "IN", "DT", "JJ", "NN", "JJ", "NN", "NN", "."]
+    text: ' Following reaction the cells were scratched with a file and opened under a 20% aqueous
+  sodium_iodide solution.'
+    tokens: [[1, 10], [11, 19], [20, 23], [24, 29], [30, 34], [35, 44], [45, 49], [50, 51], [52, 56], [57, 60], [61, 67], [68, 73], [74, 75], [76, 78], [78, 79], [80, 87], [88, 101], [102, 110], [110, 111]]
+    wn16_key: [[0, "follow%2:38:00::"], [1, "reaction%1:22:00::"], [3, "cell%1:06:03::"], [5, "scratch%2:35:00::"], [8, "file%1:06:00::"], [10, "open%2:35:00::"], [13, "20%5:00:00:cardinal:00"], [15, "aqueous%3:01:00::"], [16, "sodium_iodide%1:27:00::"], [17, "solution%1:27:00::"]]
+    wn30_key: [[0, "follow%2:38:00::"], [1, "reaction%1:22:00::"], [3, "cell%1:06:03::"], [5, "scratch%2:35:00::"], [8, "file%1:06:00::"], [10, "open%2:35:00::"], [13, "20%3:00:00:cardinal:00"], [15, "aqueous%3:01:00::"], [16, "sodium_iodide%1:27:00::"], [17, "solution%1:27:00::"]]
+K5QV:
+    lemmas: ["carrier", "*", "*", "f", "be", "add", "and", "the", "aqueous", "and", "organic", "phase", "be", "separate", "(", "cell", "contain", "gaseous", "reactant", "be", "immerse", "in", "liquid_air", "before", "open", "under", "sodium_iodide", ")", "."]
+    oewn2026_key: [[0, "oewn-14751332-n"], [5, "oewn-00182551-v"], [8, "oewn-02647112-a"], [10, "oewn-01683714-a"], [11, "oewn-14503649-n"], [13, "oewn-01559703-v"], [15, "oewn-02995166-n"], [16, "oewn-02635616-v"], [17, "oewn-02270298-a"], [18, "oewn-14718926-n"], [20, "oewn-01580466-v"], [22, "oewn-14964994-n"], [24, "oewn-01349486-v"], [26, "oewn-15070244-n"]]
+    paragraph: '6'
+    pos: ["NN", "SYM", "SYM", "NN", "VB", "VBN", "CC", "DT", "JJ", "CC", "JJ", "NNS", "VBD", "VBN", "NN", "NNS", "VBG", "JJ", "NNS", "VBD", "VBN", "IN", "NN", "IN", "VBG", "IN", "NN", "FW", "."]
+    text: ' Carrier * * f was added and the aqueous and organic phases were separated (cells
+  containing gaseous reactants were immersed in liquid_air before opening under sodium_iodide).'
+    tokens: [[1, 8], [9, 10], [11, 12], [13, 14], [15, 18], [19, 24], [25, 28], [29, 32], [33, 40], [41, 44], [45, 52], [53, 59], [60, 64], [65, 74], [75, 76], [76, 81], [82, 92], [93, 100], [101, 110], [111, 115], [116, 124], [125, 127], [128, 138], [139, 145], [146, 153], [154, 159], [160, 173], [173, 174], [174, 175]]
+    wn16_key: [[0, "carrier%1:27:00::"], [5, "add%2:30:00::"], [8, "aqueous%3:01:00::"], [10, "organic%3:00:01::"], [11, "phase%1:26:00::"], [13, "separate%2:35:01::"], [15, "cell%1:06:03::"], [16, "contain%2:42:00::"], [17, "gaseous%3:00:00::"], [18, "reactant%1:27:00::"], [20, "immerse%2:35:00::"], [22, "liquid_air%1:27:00::"], [24, "open%2:35:06::"], [26, "sodium_iodide%1:27:00::"]]
+    wn30_key: [[0, "carrier%1:27:00::"], [5, "add%2:30:00::"], [8, "aqueous%3:01:00::"], [10, "organic%3:00:01::"], [11, "phase%1:26:00::"], [13, "separate%2:35:01::"], [15, "cell%1:06:03::"], [16, "contain%2:42:00::"], [17, "gaseous%3:00:00::"], [18, "reactant%1:27:00::"], [20, "immerse%2:35:00::"], [22, "liquid_air%1:27:00::"], [24, "open%2:35:06::"], [26, "sodium_iodide%1:27:00::"]]
+1Xiz:
+    lemmas: ["After", "titration", "of", "the", "liberated", "*", "*", "f", "with", "*", "*", "f", ",", "aliquot", "of", "the", "aqueous", "and", "of", "the", "organic", "phase", "be", "count", "in", "a", "solution", "type", "geiger_tube", "."]
+    oewn2026_key: [[1, "oewn-00649480-n"], [4, "oewn-01062349-s"], [13, "oewn-13756769-n"], [16, "oewn-02647112-a"], [20, "oewn-01683714-a"], [21, "oewn-14503649-n"], [23, "oewn-00950103-v"], [26, "oewn-14613403-n"], [27, "oewn-05848697-n"], [28, "oewn-03437419-n"]]
+    paragraph: '6'
+    pos: ["IN", "NN", "IN", "DT", "JJ", "SYM", "SYM", "NN", "IN", "SYM", "SYM", "NN", ",", "NNS", "IN", "DT", "JJ", "CC", "IN", "DT", "JJ", "NN", "VBD", "VBN", "VB", "DT", "NN", "NN", "NN", "."]
+    text: ' After titration of the liberated * * f with * * f, aliquots of the aqueous and of
+  the organic phase were counted in a solution type Geiger_tube.'
+    tokens: [[1, 6], [7, 16], [17, 19], [20, 23], [24, 33], [34, 35], [36, 37], [38, 39], [40, 44], [45, 46], [47, 48], [49, 50], [50, 51], [52, 60], [61, 63], [64, 67], [68, 75], [76, 79], [80, 82], [83, 86], [87, 94], [95, 100], [101, 105], [106, 113], [114, 116], [117, 118], [119, 127], [128, 132], [133, 144], [144, 145]]
+    wn16_key: [[1, "titration%1:04:00::"], [4, "liberated%5:00:00:free:02"], [13, "aliquot%1:23:00::"], [16, "aqueous%3:01:00::"], [20, "organic%3:00:01::"], [21, "phase%1:26:00::"], [23, "count%2:32:00::"], [26, "solution%1:27:00::"], [27, "type%1:09:00::"], [28, "geiger_tube%1:06:00::"]]
+    wn30_key: [[1, "titration%1:04:00::"], [4, "liberated%3:00:00:free:02"], [13, "aliquot%1:23:00::"], [16, "aqueous%3:01:00::"], [20, "organic%3:00:01::"], [21, "phase%1:26:00::"], [23, "count%2:32:00::"], [26, "solution%1:27:00::"], [27, "type%1:09:00::"], [28, "geiger_tube%1:06:00::"]]
+mURp:
+    lemmas: ["In", "the", "liquid", "phase", "run", "the", "amount", "of", "carbon_tetrachloride", "in", "each", "reaction", "tube", "be", "determine", "by", "weigh", "the", "tube", "before", "open", "and", "weigh", "the", "fragment", "after", "empty", "."]
+    oewn2026_key: [[2, "oewn-14504004-n"], [3, "oewn-14503649-n"], [4, "oewn-00792739-n"], [6, "oewn-05115065-n"], [8, "oewn-14822209-n"], [11, "oewn-13468534-n"], [12, "oewn-04500800-n"], [14, "oewn-00920843-v"], [16, "oewn-02710477-v"], [18, "oewn-04500800-n"], [20, "oewn-01349486-v"], [22, "oewn-02710477-v"], [24, "oewn-09308160-n"], [26, "oewn-00450647-v"]]
+    paragraph: '6'
+    pos: ["IN", "DT", "NN", "NN", "NN", "DT", "NN", "IN", "NN", "IN", "DT", "NN", "NN", "VBD", "VBN", "IN", "VBG", "DT", "NN", "IN", "VBG", "CC", "VBG", "DT", "NNS", "IN", "VBG", "."]
+    text: ' In the liquid phase runs the amount of carbon_tetrachloride in each reaction tube
+  was determined by weighing the tube before opening and weighing the fragments after
+  emptying.'
+    tokens: [[1, 3], [4, 7], [8, 14], [15, 20], [21, 25], [26, 29], [30, 36], [37, 39], [40, 60], [61, 63], [64, 68], [69, 77], [78, 82], [83, 86], [87, 97], [98, 100], [101, 109], [110, 113], [114, 118], [119, 125], [126, 133], [134, 137], [138, 146], [147, 150], [151, 160], [161, 166], [167, 175], [175, 176]]
+    wn16_key: [[2, "liquid%1:26:00::"], [3, "phase%1:26:00::"], [4, "run%1:04:06::"], [6, "amount%1:07:00::"], [8, "carbon_tetrachloride%1:27:00::"], [11, "reaction%1:22:00::"], [12, "tube%1:06:00::"], [14, "determine%2:32:00::"], [16, "weigh%2:42:00::"], [18, "tube%1:06:00::"], [20, "open%2:35:06::"], [22, "weigh%2:42:00::"], [24, "fragment%1:17:01::"], [26, "empty%2:30:01::"]]
+    wn30_key: [[2, "liquid%1:26:00::"], [3, "phase%1:26:00::"], [4, "run%1:04:06::"], [6, "amount%1:07:00::"], [8, "carbon_tetrachloride%1:27:00::"], [11, "reaction%1:22:00::"], [12, "tube%1:06:00::"], [14, "determine%2:32:00::"], [16, "weigh%2:42:00::"], [18, "tube%1:06:00::"], [20, "open%2:35:06::"], [22, "weigh%2:42:00::"], [24, "fragment%1:17:01::"], [26, "empty%2:30:01::"]]
+Eee1:
+    lemmas: ["The", "fraction", "of", "exchange", "be", "determine", "as", "the", "ratio", "of", "the", "count", "/", "minute", "observe", "in", "the", "carbon_tetrachloride", "to", "the", "count", "/", "minute", "calculate", "for", "the", "carbon_tetrachloride", "fraction", "for", "equilibrium", "distribution", "of", "the", "activity", "between", "the", "chlorine", "and", "carbon_tetrachloride", ",", "empirically", "determine", "correction", "be", "make", "for", "the", "difference", "in", "counting", "efficiency", "of", "*", "*", "f", "in", "*", "*", "f", "and", "*", "*", "f", "."]
+    oewn2026_key: [[1, "oewn-13754218-n"], [3, "oewn-11429652-n"], [5, "oewn-00920843-v"], [8, "oewn-13841419-n"], [11, "oewn-13612964-n"], [13, "oewn-15259561-n"], [14, "oewn-02158938-v"], [17, "oewn-14822209-n"], [20, "oewn-13612964-n"], [22, "oewn-15259561-n"], [23, "oewn-00638921-v"], [26, "oewn-14822209-n"], [27, "oewn-14946245-n"], [29, "oewn-13467370-n"], [30, "oewn-05736981-n"], [33, "oewn-14030430-n"], [36, "oewn-14658769-n"], [38, "oewn-14822209-n"], [40, "oewn-00084388-r"], [41, "oewn-00920843-v"], [42, "oewn-06440207-n"], [44, "oewn-02566500-v"], [47, "oewn-04756076-n"], [49, "oewn-00635829-n"], [50, "oewn-13843205-n"]]
+    paragraph: '6'
+    pos: ["DT", "NN", "IN", "NN", "VBD", "VBN", "IN", "DT", "NN", "IN", "DT", "NNS", ":", "NN", "VBN", "IN", "DT", "NN", "TO", "DT", "NNS", ":", "NN", "VBN", "IN", "DT", "NN", "NNS", "IN", "NN", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "CC", "NN", ",", "RB", "VBN", "NN", "VBG", "VBN", "VB", "DT", "NN", "IN", "NN", "NN", "IN", "NN", "SYM", "NN", "IN", "SYM", "SYM", "NN", "CC", "SYM", "SYM", "NN", "."]
+    text: ' The fraction of exchange was determined as the ratio of the counts / minute observed
+  in the carbon_tetrachloride to the counts / minute calculated for the carbon_tetrachloride
+  fractions for equilibrium distribution of the activity between the chlorine and
+  carbon_tetrachloride, empirically determined correction being made for the difference
+  in counting efficiency of * * f in * * f and * * f.
+
+  '
+    tokens: [[1, 4], [5, 13], [14, 16], [17, 25], [26, 29], [30, 40], [41, 43], [44, 47], [48, 53], [54, 56], [57, 60], [61, 67], [68, 69], [70, 76], [77, 85], [86, 88], [89, 92], [93, 113], [114, 116], [117, 120], [121, 127], [128, 129], [130, 136], [137, 147], [148, 151], [152, 155], [156, 176], [177, 186], [187, 190], [191, 202], [203, 215], [216, 218], [219, 222], [223, 231], [232, 239], [240, 243], [244, 252], [253, 256], [257, 277], [277, 278], [279, 290], [291, 301], [302, 312], [313, 318], [319, 323], [324, 327], [328, 331], [332, 342], [343, 345], [346, 354], [355, 365], [366, 368], [369, 370], [371, 372], [373, 374], [375, 377], [378, 379], [380, 381], [382, 383], [384, 387], [388, 389], [390, 391], [392, 393], [393, 394]]
+    wn16_key: [[1, "fraction%1:23:00::"], [3, "exchange%1:19:00::"], [5, "determine%2:32:00::"], [8, "ratio%1:24:01::"], [11, "count%1:23:00::"], [13, "minute%1:28:00::"], [14, "observe%2:39:02::"], [17, "carbon_tetrachloride%1:27:00::"], [20, "count%1:23:00::"], [22, "minute%1:28:00::"], [23, "calculate%2:31:00::"], [26, "carbon_tetrachloride%1:27:00::"], [27, "fraction%1:27:00::"], [29, "equilibrium%1:22:00::"], [30, "distribution%1:09:00::"], [33, "activity%1:26:00::"], [36, "chlorine%1:27:00::"], [38, "carbon_tetrachloride%1:27:00::"], [40, "empirically%4:02:00::"], [41, "determine%2:32:00::"], [42, "correction%1:10:01::"], [44, "make%2:41:00::"], [47, "difference%1:07:00::"], [49, "counting%1:04:00::"], [50, "efficiency%1:24:00::"]]
+    wn30_key: [[1, "fraction%1:23:00::"], [3, "exchange%1:19:00::"], [5, "determine%2:32:00::"], [8, "ratio%1:24:01::"], [11, "count%1:23:00::"], [13, "minute%1:28:00::"], [14, "observe%2:39:02::"], [17, "carbon_tetrachloride%1:27:00::"], [20, "count%1:23:00::"], [22, "minute%1:28:00::"], [23, "calculate%2:31:00::"], [26, "carbon_tetrachloride%1:27:00::"], [27, "fraction%1:27:00::"], [29, "equilibrium%1:22:00::"], [30, "distribution%1:09:00::"], [33, "activity%1:26:00::"], [36, "chlorine%1:27:00::"], [38, "carbon_tetrachloride%1:27:00::"], [40, "empirically%4:02:00::"], [41, "determine%2:32:00::"], [42, "correction%1:10:01::"], [44, "make%2:41:00::"], [47, "difference%1:07:00::"], [49, "counting%1:04:00::"], [50, "efficiency%1:24:00::"]]
+miPL:
+    lemmas: ["In", "study", "the", "liquid", "phase", "thermal", "reaction", ",", "some", "70", "tube", "from", "12", "different", "manifold", "filling", "be", "prepare", "and", "analyze", "."]
+    oewn2026_key: [[1, "oewn-00646245-v"], [3, "oewn-14964238-n"], [4, "oewn-14503649-n"], [5, "oewn-02825392-a"], [6, "oewn-13468534-n"], [9, "oewn-02200780-s"], [10, "oewn-04500800-n"], [12, "oewn-02195104-s"], [13, "oewn-02072149-a"], [14, "oewn-03723289-n"], [15, "oewn-14892394-n"], [17, "oewn-01668067-v"], [19, "oewn-00646245-v"]]
+    paragraph: '7'
+    pos: ["IN", "VBG", "DT", "NN", "NN", "JJ", "NN", ",", "DT", "JJ", "NNS", "IN", "JJ", "JJ", "NN", "NNS", "VBD", "VBN", "CC", "VBN", "."]
+    text: ' In studying the liquid phase thermal reaction, some 70 tubes from 12 different manifold
+  fillings were prepared and analyzed.'
+    tokens: [[1, 3], [4, 12], [13, 16], [17, 23], [24, 29], [30, 37], [38, 46], [46, 47], [48, 52], [53, 55], [56, 61], [62, 66], [67, 69], [70, 79], [80, 88], [89, 97], [98, 102], [103, 111], [112, 115], [116, 124], [124, 125]]
+    wn16_key: [[1, "study%2:31:02::"], [3, "liquid%1:27:00::"], [4, "phase%1:26:00::"], [5, "thermal%3:01:00::"], [6, "reaction%1:22:00::"], [9, "70%5:00:00:cardinal:00"], [10, "tube%1:06:00::"], [12, "12%5:00:00:cardinal:00"], [13, "different%3:00:00::"], [14, "manifold%1:06:00::"], [15, "filling%1:27:00::"], [17, "prepare%2:36:01::"], [19, "analyze%2:31:00::"]]
+    wn30_key: [[1, "study%2:31:02::"], [3, "liquid%1:27:00::"], [4, "phase%1:26:00::"], [5, "thermal%3:01:00::"], [6, "reaction%1:22:00::"], [9, "70%3:00:00:cardinal:00"], [10, "tube%1:06:00::"], [12, "12%3:00:00:cardinal:00"], [13, "different%3:00:00::"], [14, "manifold%1:06:00::"], [15, "filling%1:27:00::"], [17, "prepare%2:36:01::"], [19, "analyze%2:31:00::"]]
+nman:
+    lemmas: ["experiment", "be", "do", "at", "180", ",", "200", ",", "210", ",", "220", "'", "."]
+    oewn2026_key: [[0, "oewn-05806051-n"], [2, "oewn-02566500-v"]]
+    paragraph: '7'
+    pos: ["NNS", "VBD", "VBN", "IN", "CD", ",", "CD", ",", "CD", ",", "CD", "''", "."]
+    text: ' Experiments were done at 180, 200, 210, 220''.'
+    tokens: [[1, 12], [13, 17], [18, 22], [23, 25], [26, 29], [29, 30], [31, 34], [34, 35], [36, 39], [39, 40], [41, 44], [44, 45], [45, 46]]
+    wn16_key: [[0, "experiment%1:09:00::"], [2, "do%2:41:01::"]]
+    wn30_key: [[0, "experiment%1:09:00::"], [2, "do%2:41:01::"]]
+F308:
+    lemmas: ["follow", "observation", "of", "the", "fact", "that", "the", "reaction", "rate", "of", "supposedly", "identical", "reaction", "mixture", "prepare", "on", "the", "same", "filling", "manifold", "and", "expose", "under", "identical", "condition", "often", "differ", "by", "several", "hundred", "percent", ",", "a", "systematic", "series", "of", "experiment", "be", "undertake", "to", "see", "whether", "the", "difficulty", "could", "be", "ascribe", "to", "the", "method", "of", "prepare", "the", "chlorine", ",", "to", "the", "effect", "of", "oxygen", "or", "moisture", "or", "to", "the", "effect", "of", "surface", "to", "volume", "ratio", "in", "the", "reaction", "tube", "."]
+    oewn2026_key: [[0, "oewn-02002464-v"], [1, "oewn-01004898-n"], [4, "oewn-05825522-n"], [7, "oewn-13468534-n"], [8, "oewn-15311467-n"], [10, "oewn-00155582-r"], [11, "oewn-02071531-s"], [12, "oewn-13468534-n"], [13, "oewn-14610438-n"], [14, "oewn-00407168-v"], [17, "oewn-02075880-a"], [18, "oewn-14892394-n"], [19, "oewn-03723289-n"], [21, "oewn-02116512-v"], [23, "oewn-02071531-s"], [24, "oewn-13943868-n"], [25, "oewn-00035445-r"], [26, "oewn-02672316-v"], [28, "oewn-02276025-s"], [29, "oewn-13772555-n"], [30, "oewn-13839738-n"], [33, "oewn-02391502-a"], [34, "oewn-08474987-n"], [36, "oewn-05806051-n"], [38, "oewn-01654835-v"], [40, "oewn-00922307-v"], [43, "oewn-04716529-n"], [49, "oewn-05668113-n"], [51, "oewn-00407168-v"], [53, "oewn-14658769-n"], [57, "oewn-11430739-n"], [59, "oewn-14672278-n"], [61, "oewn-14559033-n"], [65, "oewn-11430739-n"], [67, "oewn-08677970-n"], [69, "oewn-13801244-n"], [70, "oewn-13841419-n"], [73, "oewn-13468534-n"], [74, "oewn-04500800-n"]]
+    paragraph: '7'
+    pos: ["VBG", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "NNS", "IN", "RB", "JJ", "NN", "NNS", "VBN", "IN", "DT", "JJ", "NN", "NN", "CC", "VBN", "IN", "JJ", "NNS", "RB", "VBN", "IN", "JJ", "NN", "NN", ",", "DT", "JJ", "NN", "IN", "NNS", "VBD", "VBN", "TO", "VB", "IN", "DT", "NN", "MD", "VB", "VB", "TO", "DT", "NN", "IN", "VBG", "DT", "NN", ",", "TO", "DT", "NNS", "IN", "NN", "CC", "NN", "CC", "TO", "DT", "NN", "IN", "NN", "TO", "NN", "NN", "IN", "DT", "NN", "NNS", "."]
+    text: ' Following observation of the fact that the reaction rates of supposedly identical
+  reaction mixtures prepared on the same filling manifold and exposed under identical
+  conditions often differed by several hundred per_cent, a systematic series of experiments
+  was undertaken to see whether the difficulty could be ascribed to the method of
+  preparing the chlorine, to the effects of oxygen or moisture or to the effect of
+  surface to volume ratio in the reaction tubes.'
+    tokens: [[1, 10], [11, 22], [23, 25], [26, 29], [30, 34], [35, 39], [40, 43], [44, 52], [53, 58], [59, 61], [62, 72], [73, 82], [83, 91], [92, 100], [101, 109], [110, 112], [113, 116], [117, 121], [122, 129], [130, 138], [139, 142], [143, 150], [151, 156], [157, 166], [167, 177], [178, 183], [184, 192], [193, 195], [196, 203], [204, 211], [212, 220], [220, 221], [222, 223], [224, 234], [235, 241], [242, 244], [245, 256], [257, 260], [261, 271], [272, 274], [275, 278], [279, 286], [287, 290], [291, 301], [302, 307], [308, 310], [311, 319], [320, 322], [323, 326], [327, 333], [334, 336], [337, 346], [347, 350], [351, 359], [359, 360], [361, 363], [364, 367], [368, 375], [376, 378], [379, 385], [386, 388], [389, 397], [398, 400], [401, 403], [404, 407], [408, 414], [415, 417], [418, 425], [426, 428], [429, 435], [436, 441], [442, 444], [445, 448], [449, 457], [458, 463], [463, 464]]
+    wn16_key: [[0, "follow%2:38:00::"], [1, "observation%1:04:01::"], [4, "fact%1:09:01::"], [7, "reaction%1:22:00::"], [8, "rate%1:28:00::"], [10, "supposedly%4:02:00::"], [11, "identical%5:00:00:same:00"], [12, "reaction%1:22:00::"], [13, "mixture%1:27:00::"], [14, "prepare%2:30:00::"], [17, "same%3:00:02::"], [18, "filling%1:27:00::"], [19, "manifold%1:06:00::"], [21, "expose%2:39:02::"], [23, "identical%5:00:00:same:00"], [24, "condition%1:26:00::"], [25, "often%4:02:00::"], [26, "differ%2:42:00::"], [28, "several%5:00:00:some(a):00"], [29, "hundred%1:23:00::"], [30, "percent%1:24:00::"], [33, "systematic%3:00:00::"], [34, "series%1:14:00::"], [36, "experiment%1:09:00::"], [38, "undertake%2:36:00::"], [40, "see%2:32:00::"], [43, "difficulty%1:09:02::"], [46, "ascribe%2:40:00::"], [49, "method%1:09:00::"], [51, "prepare%2:30:00::"], [53, "chlorine%1:27:00::"], [57, "effect%1:19:00::"], [59, "oxygen%1:27:00::"], [61, "moisture%1:26:00::"], [65, "effect%1:19:00::"], [67, "surface%1:15:00::"], [69, "volume%1:23:00::"], [70, "ratio%1:24:01::"], [73, "reaction%1:22:00::"], [74, "tube%1:06:00::"]]
+    wn30_key: [[0, "follow%2:38:00::"], [1, "observation%1:04:01::"], [4, "fact%1:09:01::"], [7, "reaction%1:22:00::"], [8, "rate%1:28:00::"], [10, "supposedly%4:02:00::"], [11, "identical%3:00:00:same:00"], [12, "reaction%1:22:00::"], [13, "mixture%1:27:00::"], [14, "prepare%2:30:00::"], [17, "same%3:00:02::"], [18, "filling%1:27:00::"], [19, "manifold%1:06:00::"], [21, "expose%2:39:02::"], [23, "identical%3:00:00:same:00"], [24, "condition%1:26:00::"], [25, "often%4:02:00::"], [26, "differ%2:42:00::"], [28, "several%3:00:00:some:00"], [29, "hundred%1:23:00::"], [30, "percent%1:24:00::"], [33, "systematic%3:00:00::"], [34, "series%1:14:00::"], [36, "experiment%1:09:00::"], [38, "undertake%2:36:00::"], [40, "see%2:32:00::"], [43, "difficulty%1:09:02::"], [49, "method%1:09:00::"], [51, "prepare%2:30:00::"], [53, "chlorine%1:27:00::"], [57, "effect%1:19:00::"], [59, "oxygen%1:27:00::"], [61, "moisture%1:26:00::"], [65, "effect%1:19:00::"], [67, "surface%1:15:00::"], [69, "volume%1:23:00::"], [70, "ratio%1:24:01::"], [73, "reaction%1:22:00::"], [74, "tube%1:06:00::"]]
+6Ra7:
+    lemmas: ["in_addition", "to", "the", "method", "describe", "in", "the", "section", "above", ",", "chlorine", "and", "radiochlorine", "be", "prepare", "by", "the", "electrolysis", "of", "a", "*", "*", "f", "eutectic", "on", "the", "vacuum", "line", ",", "and", "by", "exchange", "of", "*", "*", "f", "with", "molten", "*", "*", "f", "."]
+    oewn2026_key: [[3, "oewn-05668113-n"], [4, "oewn-00967067-v"], [7, "oewn-06403644-n"], [8, "oewn-00080266-r"], [10, "oewn-14658769-n"], [12, "oewn-14659177-n"], [14, "oewn-00407168-v"], [17, "oewn-13493328-n"], [23, "oewn-14613294-n"], [26, "oewn-14479502-n"], [27, "oewn-03952601-n"], [31, "oewn-11429652-n"], [37, "oewn-01510205-s"]]
+    paragraph: '7'
+    pos: ["RB", "TO", "DT", "NN", "VBN", "IN", "DT", "NN", "RB", ",", "NN", "CC", "NN", "VBD", "VBN", "IN", "DT", "NN", "IN", "DT", "NN", "SYM", "NN", "NN", "IN", "DT", "NN", "NN", ",", "CC", "IN", "NN", "IN", "SYM", "SYM", "NN", "IN", "JJ", "NN", "SYM", "NN", "."]
+    text: ' In_addition to the method described in the section above, chlorine and radiochlorine
+  were prepared by the electrolysis of a * * f eutectic on the vacuum line, and by
+  exchange of * * f with molten * * f.'
+    tokens: [[1, 12], [13, 15], [16, 19], [20, 26], [27, 36], [37, 39], [40, 43], [44, 51], [52, 57], [57, 58], [59, 67], [68, 71], [72, 85], [86, 90], [91, 99], [100, 102], [103, 106], [107, 119], [120, 122], [123, 124], [125, 126], [127, 128], [129, 130], [131, 139], [140, 142], [143, 146], [147, 153], [154, 158], [158, 159], [160, 163], [164, 166], [167, 175], [176, 178], [179, 180], [181, 182], [183, 184], [185, 189], [190, 196], [197, 198], [199, 200], [201, 202], [202, 203]]
+    wn16_key: [[0, "in_addition%4:02:00::"], [3, "method%1:09:00::"], [4, "describe%2:32:01::"], [7, "section%1:10:00::"], [8, "above%4:02:00::"], [10, "chlorine%1:27:00::"], [12, "radiochlorine%1:27:00::"], [14, "prepare%2:30:00::"], [17, "electrolysis%1:22:00::"], [23, "eutectic%1:27:00::"], [26, "vacuum%1:26:00::"], [27, "line%1:06:06::"], [31, "exchange%1:19:00::"], [37, "molten%5:00:00:melted:00"]]
+    wn30_key: [[3, "method%1:09:00::"], [4, "describe%2:32:01::"], [7, "section%1:10:00::"], [8, "above%4:02:00::"], [10, "chlorine%1:27:00::"], [12, "radiochlorine%1:27:00::"], [14, "prepare%2:30:00::"], [17, "electrolysis%1:22:00::"], [23, "eutectic%1:27:00::"], [26, "vacuum%1:26:00::"], [27, "line%1:06:06::"], [31, "exchange%1:19:00::"], [37, "molten%3:00:00:melted:00"]]
+YUPH:
+    lemmas: ["calcium_hydride", "be", "substitute", "for", "*", "*", "f", "as", "a", "drying_agent", "for", "carbon_tetrachloride", "."]
+    oewn2026_key: [[0, "oewn-14961504-n"], [2, "oewn-02263424-v"], [9, "oewn-14803955-n"], [11, "oewn-14822209-n"]]
+    paragraph: '7'
+    pos: ["NN", "VBD", "VBN", "VB", "SYM", "SYM", "NN", "IN", "DT", "NN", "IN", "NN", "."]
+    text: ' Calcium_hydride was substituted for * * f as a drying_agent for carbon_tetrachloride.'
+    tokens: [[1, 16], [17, 20], [21, 32], [33, 36], [37, 38], [39, 40], [41, 42], [43, 45], [46, 47], [48, 60], [61, 64], [65, 85], [85, 86]]
+    wn16_key: [[0, "calcium_hydride%1:27:00::"], [2, "substitute%2:40:01::"], [9, "drying_agent%1:27:00::"], [11, "carbon_tetrachloride%1:27:00::"]]
+    wn30_key: [[0, "calcium_hydride%1:27:00::"], [2, "substitute%2:40:01::"], [9, "drying_agent%1:27:00::"], [11, "carbon_tetrachloride%1:27:00::"]]
+cdsH:
+    lemmas: ["No", "correlation", "between", "these", "variable", "and", "the", "irreproducibility", "of", "the", "result", "be", "find", "."]
+    oewn2026_key: [[1, "oewn-13863850-n"], [4, "oewn-05866043-n"], [7, "oewn-04813544-n"], [10, "oewn-11430739-n"], [12, "oewn-02158938-v"]]
+    paragraph: '7'
+    pos: ["DT", "NN", "IN", "DT", "NNS", "CC", "DT", "NN", "IN", "DT", "NNS", "VB", "VBN", "."]
+    text: ' No correlation between these variables and the irreproducibility of the results
+  was found.
+
+  '
+    tokens: [[1, 3], [4, 15], [16, 23], [24, 29], [30, 39], [40, 43], [44, 47], [48, 65], [66, 68], [69, 72], [73, 80], [81, 84], [85, 90], [90, 91]]
+    wn16_key: [[1, "correlation%1:24:00::"], [4, "variable%1:09:00::"], [7, "irreproducibility%1:07:00::"], [10, "result%1:19:00::"], [12, "find%2:39:02::"]]
+    wn30_key: [[1, "correlation%1:24:00::"], [4, "variable%1:09:00::"], [7, "irreproducibility%1:07:00::"], [10, "result%1:19:00::"], [12, "find%2:39:02::"]]
+TIyq:
+    lemmas: ["The", "reaction", "rate", "observe", "at", "200", "'", "range", "from", "*", "*", "f", "of", "the", "chlorine", "exchange", "per", "hour", "to", "0.7", "exchange", "per", "hour", "."]
+    oewn2026_key: [[1, "oewn-13468534-n"], [2, "oewn-15311467-n"], [3, "oewn-02158938-v"], [7, "oewn-02732914-v"], [14, "oewn-14658769-n"], [15, "oewn-02262178-v"], [17, "oewn-15252642-n"], [20, "oewn-02262178-v"], [22, "oewn-15252642-n"]]
+    paragraph: '8'
+    pos: ["DT", "NN", "NNS", "VBN", "IN", "CD", "''", "VBN", "IN", "SYM", "SYM", "NN", "IN", "DT", "NN", "VBD", "IN", "NN", "TO", "CD", "VBN", "IN", "NN", "."]
+    text: ' The reaction rates observed at 200'' ranged from * * f of the chlorine exchanged
+  per hour to 0.7 exchanged per hour.'
+    tokens: [[1, 4], [5, 13], [14, 19], [20, 28], [29, 31], [32, 35], [35, 36], [37, 43], [44, 48], [49, 50], [51, 52], [53, 54], [55, 57], [58, 61], [62, 70], [71, 80], [81, 84], [85, 89], [90, 92], [93, 96], [97, 106], [107, 110], [111, 115], [115, 116]]
+    wn16_key: [[1, "reaction%1:22:00::"], [2, "rate%1:28:00::"], [3, "observe%2:39:02::"], [7, "range%2:42:01::"], [14, "chlorine%1:27:00::"], [15, "exchange%2:40:00::"], [17, "hour%1:28:00::"], [20, "exchange%2:40:00::"], [22, "hour%1:28:00::"]]
+    wn30_key: [[1, "reaction%1:22:00::"], [2, "rate%1:28:00::"], [3, "observe%2:39:02::"], [7, "range%2:42:01::"], [14, "chlorine%1:27:00::"], [15, "exchange%2:40:00::"], [17, "hour%1:28:00::"], [20, "exchange%2:40:00::"], [22, "hour%1:28:00::"]]
+kl1j:
+    lemmas: ["In", "most", "case", "the", "chlorine", "concentration", "be", "about", "*", "*", "f", "."]
+    oewn2026_key: [[1, "oewn-01561513-a"], [2, "oewn-07323507-n"], [4, "oewn-14658769-n"], [5, "oewn-05045748-n"], [6, "oewn-02670846-v"], [7, "oewn-00007414-r"]]
+    paragraph: '8'
+    pos: ["IN", "JJS", "NNS", "DT", "NN", "NN", "VBD", "RB", "SYM", "SYM", "NN", "."]
+    text: ' In most cases the chlorine concentration was about * * f.'
+    tokens: [[1, 3], [4, 8], [9, 14], [15, 18], [19, 27], [28, 41], [42, 45], [46, 51], [52, 53], [54, 55], [56, 57], [57, 58]]
+    wn16_key: [[1, "most%3:00:02::"], [2, "case%1:11:00::"], [4, "chlorine%1:27:00::"], [5, "concentration%1:07:02::"], [6, "be%2:42:07::"], [7, "about%4:02:00::"]]
+    wn30_key: [[1, "most%3:00:02::"], [2, "case%1:11:00::"], [4, "chlorine%1:27:00::"], [5, "concentration%1:07:02::"], [6, "be%2:42:07::"], [7, "about%4:02:00::"]]
+SVrZ:
+    lemmas: ["set", "of", "reaction", "tube", "contain", "0.2", "of", "an", "atmosphere", "of", "added", "oxygen", "in", "one", "case", "and", "added", "moisture", "in", "another", ",", "both", "give", "reaction", "rate", "in", "the", "range", "of", "0.1", "to", "0.4", "of", "the", "chlorine", "exchange", "per", "hour", "."]
+    oewn2026_key: [[0, "oewn-08013131-n"], [2, "oewn-13468534-n"], [3, "oewn-04500800-n"], [4, "oewn-02635616-v"], [8, "oewn-13733165-n"], [11, "oewn-14672278-n"], [13, "oewn-01682215-s"], [14, "oewn-07323507-n"], [17, "oewn-14559033-n"], [22, "oewn-01632192-v"], [23, "oewn-13468534-n"], [24, "oewn-15311467-n"], [27, "oewn-05132642-n"], [34, "oewn-14658769-n"], [35, "oewn-00161033-v"], [37, "oewn-15252642-n"]]
+    paragraph: '8'
+    pos: ["NNS", "IN", "NN", "NNS", "VBG", "CD", "IN", "DT", "NN", "IN", "JJ", "NN", "RB", "JJ", "NN", "CC", "JJ", "NN", "IN", "DT", ",", "DT", "VBD", "NN", "NNS", "IN", "DT", "NN", "IN", "CD", "TO", "CD", "IN", "DT", "NN", "VBD", "IN", "NN", "."]
+    text: ' Sets of reaction tubes containing 0.2 of an atmosphere of added oxygen in one case
+  and added moisture in another, both gave reaction rates in the range of 0.1 to 0.4
+  of the chlorine exchanged per hour.'
+    tokens: [[1, 5], [6, 8], [9, 17], [18, 23], [24, 34], [35, 38], [39, 41], [42, 44], [45, 55], [56, 58], [59, 64], [65, 71], [72, 74], [75, 78], [79, 83], [84, 87], [88, 93], [94, 102], [103, 105], [106, 113], [113, 114], [115, 119], [120, 124], [125, 133], [134, 139], [140, 142], [143, 146], [147, 152], [153, 155], [156, 159], [160, 162], [163, 166], [167, 169], [170, 173], [174, 182], [183, 192], [193, 196], [197, 201], [201, 202]]
+    wn16_key: [[0, "set%1:14:00::"], [2, "reaction%1:22:00::"], [3, "tube%1:06:00::"], [4, "contain%2:42:00::"], [8, "atmosphere%1:23:00::"], [10, "added%3:00:00::"], [11, "oxygen%1:27:00::"], [13, "one%5:00:00:unspecified:00"], [14, "case%1:11:00::"], [16, "added%3:00:00::"], [17, "moisture%1:26:00::"], [22, "give%2:36:00::"], [23, "reaction%1:22:00::"], [24, "rate%1:28:00::"], [27, "range%1:07:00::"], [34, "chlorine%1:27:00::"], [35, "exchange%2:30:00::"], [37, "hour%1:28:00::"]]
+    wn30_key: [[0, "set%1:14:00::"], [2, "reaction%1:22:00::"], [3, "tube%1:06:00::"], [4, "contain%2:42:00::"], [8, "atmosphere%1:23:00::"], [11, "oxygen%1:27:00::"], [13, "one%3:00:00:extraordinary:00"], [14, "case%1:11:00::"], [17, "moisture%1:26:00::"], [22, "give%2:36:00::"], [23, "reaction%1:22:00::"], [24, "rate%1:28:00::"], [27, "range%1:07:00::"], [34, "chlorine%1:27:00::"], [35, "exchange%2:30:00::"], [37, "hour%1:28:00::"]]
+sNqT:
+    lemmas: ["No", "detectable", "reaction", "be", "find", "at", "room_temperature", "for", "reaction", "mixture", "allow", "to", "stand", "up_to", "5", "hour", "."]
+    oewn2026_key: [[1, "oewn-01751468-s"], [2, "oewn-13468534-n"], [4, "oewn-02158938-v"], [6, "oewn-05021626-n"], [8, "oewn-13468534-n"], [9, "oewn-14610438-n"], [10, "oewn-02727313-v"], [12, "oewn-02712985-v"], [14, "oewn-02194389-s"], [15, "oewn-15252642-n"]]
+    paragraph: '8'
+    pos: ["DT", "JJ", "NN", "VB", "VBN", "IN", "NN", "IN", "NN", "NNS", "VBN", "TO", "VB", "TO", "JJ", "NNS", "."]
+    text: ' No detectable reaction was found at room_temperature for reaction mixtures allowed
+  to stand up_to 5 hours.
+
+  '
+    tokens: [[1, 3], [4, 14], [15, 23], [24, 27], [28, 33], [34, 36], [37, 53], [54, 57], [58, 66], [67, 75], [76, 83], [84, 86], [87, 92], [93, 98], [99, 100], [101, 106], [106, 107]]
+    wn16_key: [[1, "detectable%5:00:00:perceptible:00"], [2, "reaction%1:22:00::"], [4, "find%2:39:02::"], [6, "room_temperature%1:07:00::"], [8, "reaction%1:22:00::"], [9, "mixture%1:27:00::"], [10, "allow%2:42:00::"], [12, "stand%2:42:06::"], [14, "5%5:00:00:cardinal:00"], [15, "hour%1:28:00::"]]
+    wn30_key: [[1, "detectable%3:00:00:perceptible:00"], [2, "reaction%1:22:00::"], [4, "find%2:39:02::"], [6, "room_temperature%1:07:00::"], [8, "reaction%1:22:00::"], [9, "mixture%1:27:00::"], [10, "allow%2:42:00::"], [12, "stand%2:42:06::"], [14, "5%3:00:00:cardinal:00"], [15, "hour%1:28:00::"]]
+5MQQ:
+    lemmas: ["The", "liquid", "phase", "photochemical_exchange", "between", "chlorine", "and", "carbon_tetrachloride", "be", "more", "reproducible", "than", "the", "thermal", "exchange", ",", "although", "still", "erratic", "."]
+    oewn2026_key: [[1, "oewn-14504004-n"], [2, "oewn-14503649-n"], [3, "oewn-11430137-n"], [5, "oewn-14658769-n"], [7, "oewn-14822209-n"], [8, "oewn-02610777-v"], [9, "oewn-00099891-r"], [10, "oewn-01873946-a"], [13, "oewn-02825392-a"], [14, "oewn-11429652-n"], [17, "oewn-00031700-r"], [18, "oewn-00346106-s"]]
+    paragraph: '9'
+    pos: ["DT", "NN", "NN", "NN", "IN", "NN", "CC", "NN", "VBD", "RBR", "JJ", "IN", "DT", "JJ", "NN", ",", "IN", "RB", "JJ", "."]
+    text: ' The liquid phase photochemical_exchange between chlorine and carbon_tetrachloride
+  was more reproducible than the thermal exchange, although still erratic.'
+    tokens: [[1, 4], [5, 11], [12, 17], [18, 40], [41, 48], [49, 57], [58, 61], [62, 82], [83, 86], [87, 91], [92, 104], [105, 109], [110, 113], [114, 121], [122, 130], [130, 131], [132, 140], [141, 146], [147, 154], [154, 155]]
+    wn16_key: [[1, "liquid%1:26:00::"], [2, "phase%1:26:00::"], [3, "photochemical_exchange%1:19:00::"], [5, "chlorine%1:27:00::"], [7, "carbon_tetrachloride%1:27:00::"], [8, "be%2:42:03::"], [9, "more%4:02:00::"], [10, "reproducible%3:00:00::"], [13, "thermal%3:01:00::"], [14, "exchange%1:19:00::"], [17, "still%4:02:01::"], [18, "erratic%5:00:00:changeable:00"]]
+    wn30_key: [[1, "liquid%1:26:00::"], [2, "phase%1:26:00::"], [3, "photochemical_exchange%1:19:00::"], [5, "chlorine%1:27:00::"], [7, "carbon_tetrachloride%1:27:00::"], [8, "be%2:42:03::"], [9, "more%4:02:00::"], [10, "reproducible%3:00:00::"], [13, "thermal%3:01:00::"], [14, "exchange%1:19:00::"], [17, "still%4:02:01::"], [18, "erratic%3:00:00:changeable:00"]]
++fO4:
+    lemmas: ["The", "improvement", "be", "most", "noticeable", "in", "the", "great", "consistency", "among", "reaction", "cell", "prepare", "as_a_group", "on", "the", "same", "manifold", "."]
+    oewn2026_key: [[1, "oewn-14445583-n"], [2, "oewn-02610777-v"], [3, "oewn-00032295-r"], [4, "oewn-01289803-a"], [7, "oewn-01389817-s"], [8, "oewn-04753172-n"], [10, "oewn-13468534-n"], [11, "oewn-02995166-n"], [12, "oewn-00407168-v"], [13, "oewn-00158427-r"], [16, "oewn-02075880-a"], [17, "oewn-03723289-n"]]
+    paragraph: '9'
+    pos: ["DT", "NN", "VBD", "RBS", "JJ", "IN", "DT", "JJR", "NN", "IN", "NN", "NNS", "VBD", "RB", "IN", "DT", "JJ", "NN", "."]
+    text: ' The improvement was most noticeable in the greater consistency among reaction cells
+  prepared as_a_group on the same manifold.'
+    tokens: [[1, 4], [5, 16], [17, 20], [21, 25], [26, 36], [37, 39], [40, 43], [44, 51], [52, 63], [64, 69], [70, 78], [79, 84], [85, 93], [94, 104], [105, 107], [108, 111], [112, 116], [117, 125], [125, 126]]
+    wn16_key: [[1, "improvement%1:26:00::"], [2, "be%2:42:03::"], [3, "most%4:02:01::"], [4, "noticeable%3:00:00::"], [7, "great%5:00:01:large:00"], [8, "consistency%1:07:02::"], [10, "reaction%1:22:00::"], [11, "cell%1:06:03::"], [12, "prepare%2:30:00::"], [13, "as_a_group%4:02:00::"], [16, "same%3:00:02::"], [17, "manifold%1:06:00::"]]
+    wn30_key: [[1, "improvement%1:26:00::"], [2, "be%2:42:03::"], [3, "most%4:02:01::"], [4, "noticeable%3:00:00::"], [7, "great%3:00:01:large:00"], [8, "consistency%1:07:02::"], [10, "reaction%1:22:00::"], [11, "cell%1:06:03::"], [12, "prepare%2:30:00::"], [13, "as_a_group%4:02:00::"], [16, "same%3:00:02::"], [17, "manifold%1:06:00::"]]
+trij:
+    lemmas: ["rather", "large", "difference", "be", "still", "find", "between", "reaction", "cell", "from", "different", "manifold", "filling", "."]
+    oewn2026_key: [[0, "oewn-00018764-r"], [1, "oewn-01385012-a"], [2, "oewn-04756076-n"], [4, "oewn-00031700-r"], [5, "oewn-02158938-v"], [7, "oewn-13468534-n"], [8, "oewn-02995166-n"], [10, "oewn-02072149-a"], [11, "oewn-03723289-n"], [12, "oewn-14892394-n"]]
+    paragraph: '9'
+    pos: ["RB", "JJ", "NNS", "VBD", "RB", "VBN", "IN", "NN", "NNS", "IN", "JJ", "NN", "NNS", "."]
+    text: ' Rather large differences were still found between reaction cells from different
+  manifold fillings.'
+    tokens: [[1, 7], [8, 13], [14, 25], [26, 30], [31, 36], [37, 42], [43, 50], [51, 59], [60, 65], [66, 70], [71, 80], [81, 89], [90, 98], [98, 99]]
+    wn16_key: [[0, "rather%4:02:04::"], [1, "large%3:00:00::"], [2, "difference%1:07:00::"], [4, "still%4:02:01::"], [5, "find%2:39:02::"], [7, "reaction%1:22:00::"], [8, "cell%1:06:03::"], [10, "different%3:00:00::"], [11, "manifold%1:06:00::"], [12, "filling%1:27:00::"]]
+    wn30_key: [[0, "rather%4:02:04::"], [1, "large%3:00:00::"], [2, "difference%1:07:00::"], [4, "still%4:02:01::"], [5, "find%2:39:02::"], [7, "reaction%1:22:00::"], [8, "cell%1:06:03::"], [10, "different%3:00:00::"], [11, "manifold%1:06:00::"], [12, "filling%1:27:00::"]]
+R9dV:
+    lemmas: ["Some", "80", "reaction", "tube", "from", "13", "manifold", "filling", "be", "illuminate", "in", "the", "temperature", "range", "from", "40", "to", "85", "'", "in", "a", "further", "endeavor", "to", "determine", "the", "cause", "of", "the", "irreproducibility", "and", "to", "obtain", "information", "on", "the", "activation_energy", "and", "the", "effect", "of", "light", "intensity", "."]
+    oewn2026_key: [[1, "oewn-02201790-s"], [2, "oewn-13468534-n"], [3, "oewn-04500800-n"], [5, "oewn-02195245-s"], [6, "oewn-03723289-n"], [7, "oewn-14892394-n"], [9, "oewn-00292635-v"], [12, "oewn-05018974-n"], [13, "oewn-05132642-n"], [15, "oewn-02197917-s"], [22, "oewn-00798547-n"], [24, "oewn-00920843-v"], [26, "oewn-00007347-n"], [29, "oewn-04813544-n"], [32, "oewn-02242867-v"], [33, "oewn-05824413-n"], [36, "oewn-11441936-n"], [39, "oewn-11430739-n"], [41, "oewn-11494354-n"], [42, "oewn-05107058-n"]]
+    paragraph: '9'
+    pos: ["DT", "JJ", "NN", "NNS", "IN", "JJ", "NN", "NNS", "VBD", "VBN", "IN", "DT", "NN", "NN", "IN", "JJ", "TO", "CD", "''", "IN", "DT", "JJ", "NN", "TO", "VB", "DT", "NN", "IN", "DT", "NN", "CC", "TO", "VB", "NN", "IN", "DT", "NN", "CC", "DT", "NN", "IN", "NN", "NN", "."]
+    text: ' Some 80 reaction tubes from 13 manifold fillings were illuminated in the temperature
+  range from 40 to 85'' in a further endeavor to determine the cause of the irreproducibility
+  and to obtain information on the activation_energy and the effect of light intensity.'
+    tokens: [[1, 5], [6, 8], [9, 17], [18, 23], [24, 28], [29, 31], [32, 40], [41, 49], [50, 54], [55, 66], [67, 69], [70, 73], [74, 85], [86, 91], [92, 96], [97, 99], [100, 102], [103, 105], [105, 106], [107, 109], [110, 111], [112, 119], [120, 128], [129, 131], [132, 141], [142, 145], [146, 151], [152, 154], [155, 158], [159, 176], [177, 180], [181, 183], [184, 190], [191, 202], [203, 205], [206, 209], [210, 227], [228, 231], [232, 235], [236, 242], [243, 245], [246, 251], [252, 261], [261, 262]]
+    wn16_key: [[1, "80%5:00:00:cardinal:00"], [2, "reaction%1:22:00::"], [3, "tube%1:06:00::"], [5, "13%5:00:00:cardinal:00"], [6, "manifold%1:06:00::"], [7, "filling%1:27:00::"], [9, "illuminate%2:30:03::"], [12, "temperature%1:07:00::"], [13, "range%1:07:00::"], [15, "40%5:00:00:cardinal:00"], [21, "further%5:00:00:added:00"], [22, "endeavor%1:04:01::"], [24, "determine%2:32:00::"], [26, "cause%1:03:00::"], [29, "irreproducibility%1:07:00::"], [32, "obtain%2:40:00::"], [33, "information%1:09:00::"], [36, "activation_energy%1:19:00::"], [39, "effect%1:19:00::"], [41, "light%1:19:00::"], [42, "intensity%1:07:03::"]]
+    wn30_key: [[1, "80%3:00:00:cardinal:00"], [2, "reaction%1:22:00::"], [3, "tube%1:06:00::"], [5, "13%3:00:00:cardinal:00"], [6, "manifold%1:06:00::"], [7, "filling%1:27:00::"], [9, "illuminate%2:30:03::"], [12, "temperature%1:07:00::"], [13, "range%1:07:00::"], [15, "40%3:00:00:cardinal:00"], [22, "endeavor%1:04:01::"], [24, "determine%2:32:00::"], [26, "cause%1:03:00::"], [29, "irreproducibility%1:07:00::"], [32, "obtain%2:40:00::"], [33, "information%1:09:00::"], [36, "activation_energy%1:19:00::"], [39, "effect%1:19:00::"], [41, "light%1:19:00::"], [42, "intensity%1:07:03::"]]
+DIZy:
+    lemmas: ["in", "all", "case", "there", "be", "readily", "measurable", "exchange", "after", "as", "little", "as", "one", "hour", "of", "illumination", "."]
+    oewn2026_key: [[1, "oewn-02277044-a"], [2, "oewn-07323507-n"], [4, "oewn-02610777-v"], [5, "oewn-00162392-r"], [6, "oewn-01282420-s"], [7, "oewn-11429652-n"], [10, "oewn-01558903-a"], [12, "oewn-02193977-s"], [13, "oewn-15252642-n"], [15, "oewn-14006632-n"]]
+    paragraph: '9'
+    pos: ["RB", "JJ", "NNS", "EX", "VBD", "RB", "JJ", "NN", "IN", "RB", "JJ", "IN", "JJ", "NN", "IN", "NN", "."]
+    text: ' In all cases there was readily measurable exchange after as little as one hour of
+  illumination.'
+    tokens: [[1, 3], [4, 7], [8, 13], [14, 19], [20, 23], [24, 31], [32, 42], [43, 51], [52, 57], [58, 60], [61, 67], [68, 70], [71, 74], [75, 79], [80, 82], [83, 95], [95, 96]]
+    wn16_key: [[1, "all%3:00:00::"], [2, "case%1:11:00::"], [4, "be%2:42:04::"], [5, "readily%4:02:00::"], [6, "measurable%5:00:00:important:00"], [7, "exchange%1:19:00::"], [10, "little%3:00:03::"], [12, "one%5:00:00:cardinal:00"], [13, "hour%1:28:00::"], [15, "illumination%1:26:00::"]]
+    wn30_key: [[1, "all%3:00:00::"], [2, "case%1:11:00::"], [4, "be%2:42:04::"], [5, "readily%4:02:00::"], [6, "measurable%3:00:00:important:00"], [7, "exchange%1:19:00::"], [10, "little%3:00:03::"], [12, "one%3:00:00:cardinal:00"], [13, "hour%1:28:00::"], [15, "illumination%1:26:00::"]]
+1kRh:
+    lemmas: ["By", "compare", "reaction", "cell", "seal", "from", "the", "same", "manifold", "temperature", "dependency", "corresponding", "to", "activation_energy", "range", "from", "11", "to", "18", "*", "*", "f", "be", "observe", "while", "dependence", "on", "the", "first", "power", "of", "the", "light", "intensity", "seem", "to", "be", "indicate", "in", "most", "case", "."]
+    oewn2026_key: [[1, "oewn-00654571-v"], [2, "oewn-13468534-n"], [3, "oewn-02995166-n"], [4, "oewn-01356108-v"], [7, "oewn-02075880-a"], [8, "oewn-03723289-n"], [9, "oewn-05018974-n"], [10, "oewn-14024833-n"], [11, "oewn-01981515-s"], [13, "oewn-11441936-n"], [14, "oewn-02732914-v"], [16, "oewn-02195018-s"], [18, "oewn-02195747-s"], [23, "oewn-02158938-v"], [25, "oewn-14024833-n"], [28, "oewn-01014459-a"], [29, "oewn-06825275-n"], [32, "oewn-11494354-n"], [33, "oewn-05107058-n"], [34, "oewn-02137900-v"], [37, "oewn-00925764-v"], [39, "oewn-01561513-a"], [40, "oewn-07323507-n"]]
+    paragraph: '9'
+    pos: ["IN", "VBG", "NN", "NNS", "VBN", "IN", "DT", "JJ", "NN", "NN", "NN", "JJ", "JJ", "NNS", "VBG", "IN", "JJ", "TO", "JJ", "SYM", "SYM", "NN", "VBD", "VBN", "IN", "NN", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "NN", "VBD", "TO", "VB", "VBN", "IN", "JJS", "NNS", "."]
+    text: ' By comparing reaction cells sealed from the same manifold temperature dependency
+  corresponding to activation_energies ranging from 11 to 18 * * f was observed while
+  dependence on the first power of the light intensity seemed to be indicated in most
+  cases.
+
+  '
+    tokens: [[1, 3], [4, 13], [14, 22], [23, 28], [29, 35], [36, 40], [41, 44], [45, 49], [50, 58], [59, 70], [71, 81], [82, 95], [96, 98], [99, 118], [119, 126], [127, 131], [132, 134], [135, 137], [138, 140], [141, 142], [143, 144], [145, 146], [147, 150], [151, 159], [160, 165], [166, 176], [177, 179], [180, 183], [184, 189], [190, 195], [196, 198], [199, 202], [203, 208], [209, 218], [219, 225], [226, 228], [229, 231], [232, 241], [242, 244], [245, 249], [250, 255], [255, 256]]
+    wn16_key: [[1, "compare%2:31:00::"], [2, "reaction%1:22:00::"], [3, "cell%1:06:03::"], [4, "seal%2:35:00::"], [7, "same%3:00:02::"], [8, "manifold%1:06:00::"], [9, "temperature%1:07:00::"], [10, "dependency%1:26:00::"], [11, "corresponding%5:00:00:related:02"], [13, "activation_energy%1:19:00::"], [14, "range%2:42:01::"], [16, "11%5:00:00:cardinal:00"], [18, "18%5:00:00:cardinal:00"], [23, "observe%2:39:02::"], [25, "dependence%1:26:00::"], [28, "first%5:00:00:ordinal:00"], [29, "power%1:10:00::"], [32, "light%1:19:00::"], [33, "intensity%1:07:03::"], [34, "seem%2:39:00::"], [37, "indicate%2:32:03::"], [39, "most%3:00:02::"], [40, "case%1:11:00::"]]
+    wn30_key: [[1, "compare%2:31:00::"], [2, "reaction%1:22:00::"], [3, "cell%1:06:03::"], [4, "seal%2:35:00::"], [7, "same%3:00:02::"], [8, "manifold%1:06:00::"], [9, "temperature%1:07:00::"], [10, "dependency%1:26:00::"], [11, "corresponding%3:00:00:related:02"], [13, "activation_energy%1:19:00::"], [14, "range%2:42:01::"], [16, "11%3:00:00:cardinal:00"], [18, "18%3:00:00:cardinal:00"], [23, "observe%2:39:02::"], [25, "dependence%1:26:00::"], [28, "first%3:00:00:ordinal:00"], [29, "power%1:10:00::"], [32, "light%1:19:00::"], [33, "intensity%1:07:03::"], [34, "seem%2:39:00::"], [37, "indicate%2:32:03::"], [39, "most%3:00:02::"], [40, "case%1:11:00::"]]
+97cX:
+    lemmas: ["It", "be", "possible", "to", "make", "estimate", "of", "the", "quantum", "yield", "by", "observe", "the", "extent", "of", "reduction", "of", "a", "uranyl_oxalate", "actinometer", "solution", "illuminate", "for", "a", "known", "time", "in", "a", "typical", "reaction", "cell", "and", "make", "appropriate", "conversion", "base", "on", "the", "difference", "in", "the", "absorption_spectrum", "of", "uranyl_oxalate", "and", "of", "chlorine", ",", "and", "consider", "the", "spectral", "distribution", "of", "the", "light", "source", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-01826770-a"], [4, "oewn-00732743-v"], [5, "oewn-05811387-n"], [9, "oewn-00916463-n"], [11, "oewn-00734575-v"], [13, "oewn-05130681-n"], [15, "oewn-13568880-n"], [18, "oewn-15109894-n"], [19, "oewn-02680290-n"], [20, "oewn-14613403-n"], [21, "oewn-00292635-v"], [24, "oewn-01378100-a"], [25, "oewn-15295388-n"], [28, "oewn-02477858-a"], [29, "oewn-13468534-n"], [30, "oewn-02995166-n"], [32, "oewn-00732743-v"], [33, "oewn-00135772-a"], [34, "oewn-05810920-n"], [35, "oewn-00638550-v"], [38, "oewn-13881504-n"], [41, "oewn-11441328-n"], [43, "oewn-15109894-n"], [46, "oewn-14658769-n"], [49, "oewn-00952463-v"], [51, "oewn-02810955-a"], [52, "oewn-05736981-n"], [55, "oewn-11494354-n"], [56, "oewn-08524579-n"]]
+    paragraph: '10'
+    pos: ["PRP", "VBD", "JJ", "TO", "VB", "NNS", "IN", "DT", "NN", "NN", "IN", "VBG", "DT", "NN", "IN", "NN", "IN", "DT", "NN", "NN", "NN", "VBN", "IN", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "NN", "CC", "VBG", "JJ", "NNS", "VBN", "IN", "DT", "NNS", "IN", "DT", "NN", "IN", "NN", "CC", "IN", "NN", ",", "CC", "VBG", "DT", "JJ", "NN", "IN", "DT", "NN", "NN", "."]
+    text: ' It was possible to make estimates of the quantum yield by observing the extent of
+  reduction of a uranyl_oxalate actinometer solution illuminated for a known time
+  in a typical reaction cell and making appropriate conversions based on the differences
+  in the absorption_spectra of uranyl_oxalate and of chlorine, and considering the
+  spectral distribution of the light source.'
+    tokens: [[1, 3], [4, 7], [8, 16], [17, 19], [20, 24], [25, 34], [35, 37], [38, 41], [42, 49], [50, 55], [56, 58], [59, 68], [69, 72], [73, 79], [80, 82], [83, 92], [93, 95], [96, 97], [98, 112], [113, 124], [125, 133], [134, 145], [146, 149], [150, 151], [152, 157], [158, 162], [163, 165], [166, 167], [168, 175], [176, 184], [185, 189], [190, 193], [194, 200], [201, 212], [213, 224], [225, 230], [231, 233], [234, 237], [238, 249], [250, 252], [253, 256], [257, 275], [276, 278], [279, 293], [294, 297], [298, 300], [301, 309], [309, 310], [311, 314], [315, 326], [327, 330], [331, 339], [340, 352], [353, 355], [356, 359], [360, 365], [366, 372], [372, 373]]
+    wn16_key: [[1, "be%2:42:03::"], [2, "possible%3:00:00::"], [4, "make%2:31:00::"], [5, "estimate%1:09:00::"], [8, "quantum%1:03:00::"], [9, "yield%1:04:00::"], [11, "observe%2:31:00::"], [13, "extent%1:07:00::"], [15, "reduction%1:22:00::"], [18, "uranyl_oxalate%1:27:00::"], [19, "actinometer%1:06:00::"], [20, "solution%1:27:00::"], [21, "illuminate%2:30:03::"], [24, "known%3:00:00::"], [25, "time%1:28:05::"], [28, "typical%3:00:00::"], [29, "reaction%1:22:00::"], [30, "cell%1:06:03::"], [32, "make%2:31:00::"], [33, "appropriate%3:00:00::"], [34, "conversion%1:09:00::"], [35, "base%2:31:00::"], [38, "difference%1:09:00::"], [41, "absorption_spectrum%1:19:00::"], [43, "uranyl_oxalate%1:27:00::"], [46, "chlorine%1:27:00::"], [49, "consider%2:32:00::"], [51, "spectral%3:01:00::"], [52, "distribution%1:09:00::"], [55, "light%1:19:00::"], [56, "source%1:15:00::"]]
+    wn30_key: [[1, "be%2:42:03::"], [2, "possible%3:00:00::"], [4, "make%2:31:00::"], [5, "estimate%1:09:00::"], [9, "yield%1:04:00::"], [11, "observe%2:31:00::"], [13, "extent%1:07:00::"], [15, "reduction%1:22:00::"], [18, "uranyl_oxalate%1:27:00::"], [19, "actinometer%1:06:00::"], [20, "solution%1:27:00::"], [21, "illuminate%2:30:03::"], [24, "known%3:00:00::"], [25, "time%1:28:05::"], [28, "typical%3:00:00::"], [29, "reaction%1:22:00::"], [30, "cell%1:06:03::"], [32, "make%2:31:00::"], [33, "appropriate%3:00:00::"], [34, "conversion%1:09:00::"], [35, "base%2:31:00::"], [38, "difference%1:24:00::"], [41, "absorption_spectrum%1:19:00::"], [43, "uranyl_oxalate%1:27:00::"], [46, "chlorine%1:27:00::"], [49, "consider%2:32:00::"], [51, "spectral%3:01:00::"], [52, "distribution%1:09:00::"], [55, "light%1:19:00::"], [56, "source%1:15:00::"]]
+cde0:
+    lemmas: ["These", "estimate", "indicate", "that", "the", "quantum", "yield", "for", "the", "exchange", "of", "chlorine", "with", "liquid", "carbon_tetrachloride", "at", "65", "'", "be", "of", "the", "order_of_magnitude", "of", "unity", "."]
+    oewn2026_key: [[1, "oewn-05811387-n"], [2, "oewn-00925764-v"], [6, "oewn-00916463-n"], [9, "oewn-11429652-n"], [11, "oewn-14658769-n"], [13, "oewn-02269142-a"], [14, "oewn-14822209-n"], [18, "oewn-02670846-v"], [21, "oewn-05098520-n"], [23, "oewn-13764713-n"]]
+    paragraph: '10'
+    pos: ["DT", "NNS", "VBD", "IN", "DT", "NN", "NN", "IN", "DT", "NN", "IN", "NN", "IN", "JJ", "NN", "IN", "CD", "''", "VBZ", "IN", "DT", "NN", "IN", "NN", "."]
+    text: ' These estimates indicated that the quantum yield for the exchange of chlorine with
+  liquid carbon_tetrachloride at 65'' is of the order_of_magnitude of unity.
+
+  '
+    tokens: [[1, 6], [7, 16], [17, 26], [27, 31], [32, 35], [36, 43], [44, 49], [50, 53], [54, 57], [58, 66], [67, 69], [70, 78], [79, 83], [84, 90], [91, 111], [112, 114], [115, 117], [117, 118], [119, 121], [122, 124], [125, 128], [129, 147], [148, 150], [151, 156], [156, 157]]
+    wn16_key: [[1, "estimate%1:09:00::"], [2, "indicate%2:32:03::"], [5, "quantum%1:03:00::"], [6, "yield%1:04:00::"], [9, "exchange%1:19:00::"], [11, "chlorine%1:27:00::"], [13, "liquid%3:00:00::"], [14, "carbon_tetrachloride%1:27:00::"], [18, "be%2:42:07::"], [21, "order_of_magnitude%1:07:00::"], [23, "unity%1:23:00::"]]
+    wn30_key: [[1, "estimate%1:09:00::"], [2, "indicate%2:32:03::"], [6, "yield%1:04:00::"], [9, "exchange%1:19:00::"], [11, "chlorine%1:27:00::"], [13, "liquid%3:00:00::"], [14, "carbon_tetrachloride%1:27:00::"], [18, "be%2:42:07::"], [21, "order_of_magnitude%1:07:00::"], [23, "unity%1:23:00::"]]
+VkM8:
+    lemmas: ["When", "typical", "reaction", "cell", "to", "which", "0.3", "of", "an", "atmosphere", "of", "oxygen", "have", "be", "add", "be", "illuminate", ",", "chlorine", "and", "phosgene", "be", "produce", "."]
+    oewn2026_key: [[1, "oewn-02477858-a"], [2, "oewn-13468534-n"], [3, "oewn-02995166-n"], [9, "oewn-13733165-n"], [11, "oewn-14672278-n"], [14, "oewn-00182551-v"], [16, "oewn-00292635-v"], [18, "oewn-14658769-n"], [20, "oewn-15006406-n"], [22, "oewn-01756303-v"]]
+    paragraph: '11'
+    pos: ["WRB", "JJ", "NN", "NNS", "RB", "RB", "CD", "IN", "DT", "NN", "IN", "NN", "VBD", "VB", "VBN", "VBD", "VBN", ",", "NN", "CC", "NN", "VBD", "VBN", "."]
+    text: ' When typical reaction cells to which 0.3 of an atmosphere of oxygen had been added
+  were illuminated, chlorine and phosgene were produced.'
+    tokens: [[1, 5], [6, 13], [14, 22], [23, 28], [29, 31], [32, 37], [38, 41], [42, 44], [45, 47], [48, 58], [59, 61], [62, 68], [69, 72], [73, 77], [78, 83], [84, 88], [89, 100], [100, 101], [102, 110], [111, 114], [115, 123], [124, 128], [129, 137], [137, 138]]
+    wn16_key: [[1, "typical%3:00:00::"], [2, "reaction%1:22:00::"], [3, "cell%1:06:03::"], [9, "atmosphere%1:23:00::"], [11, "oxygen%1:27:00::"], [14, "add%2:30:00::"], [16, "illuminate%2:30:03::"], [18, "chlorine%1:27:00::"], [20, "phosgene%1:27:00::"], [22, "produce%2:36:02::"]]
+    wn30_key: [[1, "typical%3:00:00::"], [2, "reaction%1:22:00::"], [3, "cell%1:06:03::"], [9, "atmosphere%1:23:00::"], [11, "oxygen%1:27:00::"], [14, "add%2:30:00::"], [16, "illuminate%2:30:03::"], [18, "chlorine%1:27:00::"], [20, "phosgene%1:27:00::"], [22, "produce%2:36:02::"]]
+niFb:
+    lemmas: ["exchange", "be", "also", "observe", "in", "these", "cell", ",", "which", "have", "chlorine", "present", "at", "*", "*", "f", "."]
+    oewn2026_key: [[0, "oewn-11429652-n"], [2, "oewn-00048072-r"], [3, "oewn-02158938-v"], [6, "oewn-02995166-n"], [9, "oewn-02208144-v"], [10, "oewn-14658769-n"], [11, "oewn-01852337-a"]]
+    paragraph: '11'
+    pos: ["NNP", "VBD", "RB", "VBN", "IN", "DT", "NNS", ",", "WDT", "VBD", "NN", "JJ", "IN", "SYM", "SYM", "NN", "."]
+    text: ' Exchange was also observed in these cells, which had chlorine present at * * f.
+
+  '
+    tokens: [[1, 9], [10, 13], [14, 18], [19, 27], [28, 30], [31, 36], [37, 42], [42, 43], [44, 49], [50, 53], [54, 62], [63, 70], [71, 73], [74, 75], [76, 77], [78, 79], [79, 80]]
+    wn16_key: [[0, "exchange%1:19:00::"], [2, "also%4:02:00::"], [3, "observe%2:39:02::"], [6, "cell%1:06:03::"], [9, "have%2:40:00::"], [10, "chlorine%1:27:00::"], [11, "present%3:00:02::"]]
+    wn30_key: [[0, "exchange%1:19:00::"], [2, "also%4:02:00::"], [3, "observe%2:39:02::"], [6, "cell%1:06:03::"], [9, "have%2:40:00::"], [10, "chlorine%1:27:00::"], [11, "present%3:00:02::"]]
+TBhy:
+    lemmas: ["Although", "there", "be", "some", "variation", "in", "result", "which", "must", "be", "attribute", "either", "to", "trace", "impurity", "or", "to", "variation", "in", "wall", "effect", ",", "the", "photochemical_exchange", "in", "the", "gas", "phase", "be", "sufficiently", "reproducible", "so", "that", "it", "seem", "meaningful", "to", "compare", "the", "reaction", "rate", "in", "different", "series", "of", "reaction", "tube", "for", "the", "purpose", "of", "obtain", "information", "on", "the", "effect", "of", "chlorine", "concentration", "and", "of", "carbon_tetrachloride", "concentration", "on", "the", "reaction", "rate", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"], [4, "oewn-07351990-n"], [6, "oewn-11430739-n"], [10, "oewn-00728262-v"], [13, "oewn-13795501-n"], [14, "oewn-14510768-n"], [17, "oewn-07351990-n"], [19, "oewn-04554141-n"], [20, "oewn-11430739-n"], [23, "oewn-11430137-n"], [26, "oewn-14504664-n"], [27, "oewn-14503649-n"], [28, "oewn-02610777-v"], [29, "oewn-00146607-r"], [30, "oewn-01873946-a"], [31, "oewn-00119259-r"], [34, "oewn-02137900-v"], [35, "oewn-01500270-a"], [37, "oewn-00654571-v"], [39, "oewn-13468534-n"], [40, "oewn-15311467-n"], [42, "oewn-02072149-a"], [43, "oewn-08474987-n"], [45, "oewn-13468534-n"], [46, "oewn-04500800-n"], [49, "oewn-05991037-n"], [51, "oewn-02242867-v"], [52, "oewn-05824413-n"], [55, "oewn-11430739-n"], [57, "oewn-14658769-n"], [58, "oewn-05045748-n"], [61, "oewn-14822209-n"], [62, "oewn-05045748-n"], [65, "oewn-13468534-n"], [66, "oewn-15311467-n"]]
+    paragraph: '12'
+    pos: ["IN", "EX", "VBD", "DT", "NN", "IN", "NNS", "WDT", "MD", "VB", "VBN", "RB", "TO", "NN", "NNS", "CC", "TO", "NN", "IN", "NN", "NNS", ",", "DT", "NN", "IN", "DT", "NN", "NN", "VBD", "RB", "JJ", "RB", "RB", "PRP", "VBD", "JJ", "TO", "VB", "DT", "NN", "NNS", "IN", "JJ", "NN", "IN", "NN", "NNS", "RB", "RB", "NN", "RB", "VBG", "NN", "IN", "DT", "NN", "IN", "NN", "NN", "CC", "IN", "NN", "NN", "IN", "DT", "NN", "NN", "."]
+    text: ' Although there was some variation in results which must be attributed either to
+  trace impurities or to variation in wall effects, the photochemical_exchange in
+  the gas phase was sufficiently reproducible so that it seemed meaningful to compare
+  the reaction rates in different series of reaction tubes for the purpose of obtaining
+  information on the effect of chlorine concentration and of carbon_tetrachloride
+  concentration on the reaction rate.'
+    tokens: [[1, 9], [10, 15], [16, 19], [20, 24], [25, 34], [35, 37], [38, 45], [46, 51], [52, 56], [57, 59], [60, 70], [71, 77], [78, 80], [81, 86], [87, 97], [98, 100], [101, 103], [104, 113], [114, 116], [117, 121], [122, 129], [129, 130], [131, 134], [135, 157], [158, 160], [161, 164], [165, 168], [169, 174], [175, 178], [179, 191], [192, 204], [205, 207], [208, 212], [213, 215], [216, 222], [223, 233], [234, 236], [237, 244], [245, 248], [249, 257], [258, 263], [264, 266], [267, 276], [277, 283], [284, 286], [287, 295], [296, 301], [302, 305], [306, 309], [310, 317], [318, 320], [321, 330], [331, 342], [343, 345], [346, 349], [350, 356], [357, 359], [360, 368], [369, 382], [383, 386], [387, 389], [390, 410], [411, 424], [425, 427], [428, 431], [432, 440], [441, 445], [445, 446]]
+    wn16_key: [[2, "be%2:42:04::"], [4, "variation%1:11:01::"], [6, "result%1:19:00::"], [10, "attribute%2:31:00::"], [13, "trace%1:23:00::"], [14, "impurity%1:26:00::"], [17, "variation%1:11:01::"], [19, "wall%1:06:00::"], [20, "effect%1:19:00::"], [23, "photochemical_exchange%1:19:00::"], [26, "gas%1:26:00::"], [27, "phase%1:26:00::"], [28, "be%2:42:03::"], [29, "sufficiently%4:02:00::"], [30, "reproducible%3:00:00::"], [31, "so%4:02:06::"], [34, "seem%2:39:00::"], [35, "meaningful%3:00:00::"], [37, "compare%2:31:00::"], [39, "reaction%1:22:00::"], [40, "rate%1:28:00::"], [42, "different%3:00:00::"], [43, "series%1:14:00::"], [45, "reaction%1:22:00::"], [46, "tube%1:06:00::"], [49, "purpose%1:09:00::"], [51, "obtain%2:40:00::"], [52, "information%1:09:00::"], [55, "effect%1:19:00::"], [57, "chlorine%1:27:00::"], [58, "concentration%1:07:02::"], [61, "carbon_tetrachloride%1:27:00::"], [62, "concentration%1:07:02::"], [65, "reaction%1:22:00::"], [66, "rate%1:28:00::"]]
+    wn30_key: [[2, "be%2:42:04::"], [4, "variation%1:11:01::"], [6, "result%1:19:00::"], [10, "attribute%2:31:00::"], [13, "trace%1:23:00::"], [14, "impurity%1:26:00::"], [17, "variation%1:11:01::"], [19, "wall%1:06:00::"], [20, "effect%1:19:00::"], [23, "photochemical_exchange%1:19:00::"], [26, "gas%1:26:00::"], [27, "phase%1:26:00::"], [28, "be%2:42:03::"], [29, "sufficiently%4:02:00::"], [30, "reproducible%3:00:00::"], [31, "so%4:02:06::"], [34, "seem%2:39:00::"], [35, "meaningful%3:00:00::"], [37, "compare%2:31:00::"], [39, "reaction%1:22:00::"], [40, "rate%1:28:00::"], [42, "different%3:00:00::"], [43, "series%1:14:00::"], [45, "reaction%1:22:00::"], [46, "tube%1:06:00::"], [49, "purpose%1:09:00::"], [51, "obtain%2:40:00::"], [52, "information%1:09:00::"], [55, "effect%1:19:00::"], [57, "chlorine%1:27:00::"], [58, "concentration%1:07:02::"], [61, "carbon_tetrachloride%1:27:00::"], [62, "concentration%1:07:02::"], [65, "reaction%1:22:00::"], [66, "rate%1:28:00::"]]
+/EgL:
+    lemmas: ["data", "on", "such", "comparison", "together", "with", "data", "on", "the", "effect", "of", "light", "intensity", "be", "give", "in", "table", "/1", "."]
+    oewn2026_key: [[0, "oewn-08479331-n"], [2, "oewn-01558587-s"], [3, "oewn-13876005-n"], [6, "oewn-08479331-n"], [9, "oewn-11430739-n"], [11, "oewn-11494354-n"], [12, "oewn-05107058-n"], [14, "oewn-02240624-v"], [16, "oewn-08283156-n"]]
+    paragraph: '12'
+    pos: ["NNS", "IN", "JJ", "NNS", "RB", "IN", "NNS", "IN", "DT", "NN", "IN", "NN", "NN", "VBP", "VBN", "VB", "NNP", "CD", "."]
+    text: ' Data on such comparisons together with data on the effect of light intensity are
+  given in Table /1.'
+    tokens: [[1, 5], [6, 8], [9, 13], [14, 25], [26, 34], [35, 39], [40, 44], [45, 47], [48, 51], [52, 58], [59, 61], [62, 67], [68, 77], [78, 81], [82, 87], [88, 90], [91, 96], [97, 99], [99, 100]]
+    wn16_key: [[0, "data%1:14:00::"], [2, "such%5:00:01:specified:00"], [3, "comparison%1:24:00::"], [4, "together%4:02:04::"], [6, "data%1:14:00::"], [9, "effect%1:19:00::"], [11, "light%1:19:00::"], [12, "intensity%1:07:03::"], [14, "give%2:40:07::"], [16, "table%1:14:00::"]]
+    wn30_key: [[0, "data%1:14:00::"], [2, "such%3:00:00:much:00"], [3, "comparison%1:24:00::"], [6, "data%1:14:00::"], [9, "effect%1:19:00::"], [11, "light%1:19:00::"], [12, "intensity%1:07:03::"], [14, "give%2:40:07::"], [16, "table%1:14:00::"]]
+sjBK:
+    lemmas: ["."]
+    oewn2026_key: []
+    paragraph: '12'
+    pos: ["."]
+    text: ' .
+
+  '
+    tokens: [[1, 2]]
+    wn16_key: []
+    wn30_key: []
+Dj8F:
+    lemmas: ["In", "series", "/1", ",", "the", "relative", "light", "intensity", "be", "vary", "by", "vary", "the", "distance", "of", "the", "lamp", "from", "the", "reaction", "cell", "over", "the", "range", "from", "14.7", "to", "29.2", "cm", "."]
+    oewn2026_key: [[1, "oewn-08474987-n"], [5, "oewn-00006050-a"], [6, "oewn-11494354-n"], [7, "oewn-05107058-n"], [9, "oewn-00437832-v"], [11, "oewn-00437832-v"], [13, "oewn-05091408-n"], [16, "oewn-03641539-n"], [19, "oewn-13468534-n"], [20, "oewn-02995166-n"], [23, "oewn-05132642-n"], [28, "oewn-13680636-n"]]
+    paragraph: '13'
+    pos: ["IN", "NN", "CD", ",", "DT", "JJ", "NN", "NN", "VBD", "VBN", "IN", "VBG", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "NN", "IN", "DT", "NN", "IN", "CD", "TO", "CD", "NN", "."]
+    text: ' In series /1, the relative light intensity was varied by varying the distance of
+  the lamp from the reaction cell over the range from 14.7 to 29.2 cm. .'
+    tokens: [[1, 3], [4, 10], [11, 13], [13, 14], [15, 18], [19, 27], [28, 33], [34, 43], [44, 47], [48, 54], [55, 57], [58, 65], [66, 69], [70, 78], [79, 81], [82, 85], [86, 90], [91, 95], [96, 99], [100, 108], [109, 113], [114, 118], [119, 122], [123, 128], [129, 133], [134, 138], [139, 141], [142, 146], [147, 150], [151, 152]]
+    wn16_key: [[1, "series%1:14:00::"], [5, "relative%3:00:00::"], [6, "light%1:19:00::"], [7, "intensity%1:07:03::"], [9, "vary%2:30:04::"], [11, "vary%2:30:04::"], [13, "distance%1:07:00::"], [16, "lamp%1:06:00::"], [19, "reaction%1:22:00::"], [20, "cell%1:06:03::"], [23, "range%1:07:00::"], [28, "cm%1:23:00::"]]
+    wn30_key: [[1, "series%1:14:00::"], [5, "relative%3:00:00::"], [6, "light%1:19:00::"], [7, "intensity%1:07:03::"], [9, "vary%2:30:04::"], [11, "vary%2:30:04::"], [13, "distance%1:07:00::"], [16, "lamp%1:06:00::"], [19, "reaction%1:22:00::"], [20, "cell%1:06:03::"], [23, "range%1:07:00::"], [28, "cm%1:23:00::"]]
+4bK+:
+    lemmas: ["The", "last", "column", "show", "the", "rate", "of", "exchange", "that", "would", "have", "be", "observe", "at", "a", "relative", "intensity", "of", "4", "(", "14.7", "cm", "distance", ")", "calculate", "on", "the", "assumption", "that", "the", "incident", "light", "intensity", "be", "inversely", "proportional", "to", "the", "square", "of", "the", "distance", "of", "the", "lamp", "from", "the", "cell", "and", "that", "the", "rate", "be", "directly", "proportional", "to", "the", "incident", "light", "intensity", "."]
+    oewn2026_key: [[1, "oewn-01016876-a"], [2, "oewn-08450585-n"], [3, "oewn-02153218-v"], [5, "oewn-15311467-n"], [7, "oewn-11429652-n"], [12, "oewn-02158938-v"], [15, "oewn-00006050-a"], [16, "oewn-05107058-n"], [18, "oewn-02194304-s"], [21, "oewn-13680636-n"], [22, "oewn-05091408-n"], [24, "oewn-00638921-v"], [27, "oewn-05900703-n"], [30, "oewn-02999091-a"], [31, "oewn-11494354-n"], [32, "oewn-05107058-n"], [33, "oewn-02610777-v"], [34, "oewn-00177405-r"], [35, "oewn-00484662-s"], [38, "oewn-13753131-n"], [41, "oewn-05136830-n"], [44, "oewn-03641539-n"], [47, "oewn-02995166-n"], [51, "oewn-15311467-n"], [52, "oewn-02610777-v"], [53, "oewn-00506737-r"], [54, "oewn-00484662-s"], [57, "oewn-02999091-a"], [58, "oewn-11494354-n"], [59, "oewn-05107058-n"]]
+    paragraph: '13'
+    pos: ["DT", "JJ", "NN", "VBZ", "DT", "NN", "NN", "NN", "WDT", "MD", "VB", "VBN", "VBN", "IN", "DT", "JJ", "NN", "IN", "JJ", "CD", "CD", "NN", "NN", "NN", "VBN", "VB", "DT", "NNS", "IN", "DT", "JJ", "NN", "NN", "VBZ", "RB", "JJ", "TO", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "CC", "IN", "DT", "NN", "VBZ", "RB", "JJ", "TO", "DT", "JJ", "NN", "NN", "."]
+    text: ' The last column shows the rate of exchange that would have been observed at a relative
+  intensity of 4 (14.7 cm. distance) calculated on the assumptions that the incident
+  light intensity is inversely proportional to the square of the distance of the lamp
+  from the cell and that the rate is directly proportional to the incident light intensity.'
+    tokens: [[1, 4], [5, 9], [10, 16], [17, 22], [23, 26], [27, 31], [32, 34], [35, 43], [44, 48], [49, 54], [55, 59], [60, 64], [65, 73], [74, 76], [77, 78], [79, 87], [88, 97], [98, 100], [101, 102], [103, 104], [104, 108], [109, 112], [113, 121], [121, 122], [123, 133], [134, 136], [137, 140], [141, 152], [153, 157], [158, 161], [162, 170], [171, 176], [177, 186], [187, 189], [190, 199], [200, 212], [213, 215], [216, 219], [220, 226], [227, 229], [230, 233], [234, 242], [243, 245], [246, 249], [250, 254], [255, 259], [260, 263], [264, 268], [269, 272], [273, 277], [278, 281], [282, 286], [287, 289], [290, 298], [299, 311], [312, 314], [315, 318], [319, 327], [328, 333], [334, 343], [343, 344]]
+    wn16_key: [[1, "last%3:00:00::"], [2, "column%1:14:01::"], [3, "show%2:39:02::"], [5, "rate%1:28:00::"], [7, "exchange%1:19:00::"], [12, "observe%2:39:02::"], [15, "relative%3:00:00::"], [16, "intensity%1:07:03::"], [18, "4%5:00:00:cardinal:00"], [21, "cm%1:23:00::"], [22, "distance%1:07:00::"], [24, "calculate%2:31:00::"], [27, "assumption%1:09:00::"], [30, "incident%3:01:00::"], [31, "light%1:19:00::"], [32, "intensity%1:07:03::"], [33, "be%2:42:03::"], [34, "inversely%4:02:00::"], [35, "proportional%5:00:00:proportionate:00"], [38, "square%1:23:00::"], [41, "distance%1:07:01::"], [44, "lamp%1:06:00::"], [47, "cell%1:06:03::"], [51, "rate%1:28:00::"], [52, "be%2:42:03::"], [53, "directly%4:02:05::"], [54, "proportional%5:00:00:proportionate:00"], [57, "incident%3:01:00::"], [58, "light%1:19:00::"], [59, "intensity%1:07:03::"]]
+    wn30_key: [[1, "last%3:00:00::"], [2, "column%1:14:01::"], [3, "show%2:39:02::"], [5, "rate%1:28:00::"], [7, "exchange%1:19:00::"], [12, "observe%2:39:02::"], [15, "relative%3:00:00::"], [16, "intensity%1:07:03::"], [18, "4%3:00:00:cardinal:00"], [21, "cm%1:23:00::"], [22, "distance%1:07:00::"], [24, "calculate%2:31:00::"], [27, "assumption%1:09:00::"], [30, "incident%3:01:00::"], [31, "light%1:19:00::"], [32, "intensity%1:07:03::"], [33, "be%2:42:03::"], [34, "inversely%4:02:00::"], [35, "proportional%3:00:00:proportionate:00"], [38, "square%1:23:00::"], [41, "distance%1:07:01::"], [44, "lamp%1:06:00::"], [47, "cell%1:06:03::"], [51, "rate%1:28:00::"], [52, "be%2:42:03::"], [53, "directly%4:02:05::"], [54, "proportional%3:00:00:proportionate:00"], [57, "incident%3:01:00::"], [58, "light%1:19:00::"], [59, "intensity%1:07:03::"]]
+T5wE:
+    lemmas: ["direct", "proportionality", "of", "the", "rate", "to", "the", "incident", "intensity", "have", "also", "be", "assume", "in", "obtain", "the", "value", "in", "the", "last", "column", "for", "the", "fourth", "sample", "of", "series", "/2", ",", "where", "the", "light", "intensity", "be", "reduce", "by", "use", "of", "a", "screen", "."]
+    oewn2026_key: [[0, "oewn-00764460-a"], [1, "oewn-13846887-n"], [4, "oewn-15311467-n"], [7, "oewn-02999091-a"], [8, "oewn-05107058-n"], [10, "oewn-00048072-r"], [12, "oewn-00633898-v"], [14, "oewn-02242867-v"], [16, "oewn-05864972-n"], [19, "oewn-01016876-a"], [20, "oewn-08450585-n"], [23, "oewn-02210112-s"], [24, "oewn-05830135-n"], [26, "oewn-08474987-n"], [31, "oewn-11494354-n"], [32, "oewn-05107058-n"], [34, "oewn-00241017-v"], [36, "oewn-00948944-n"], [39, "oewn-04159023-n"]]
+    paragraph: '13'
+    pos: ["JJ", "NN", "IN", "DT", "NN", "TO", "DT", "JJ", "NN", "VBZ", "RB", "VBN", "VBN", "IN", "VBG", "DT", "NN", "IN", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "IN", "NN", "CD", ",", "WRB", "DT", "NN", "NN", "VBD", "VBN", "IN", "NN", "IN", "DT", "NN", "."]
+    text: ' Direct proportionality of the rate to the incident intensity has also been assumed
+  in obtaining the value in the last column for the fourth sample of series /2, where
+  the light intensity was reduced by use of a screen.
+
+  '
+    tokens: [[1, 7], [8, 23], [24, 26], [27, 30], [31, 35], [36, 38], [39, 42], [43, 51], [52, 61], [62, 65], [66, 70], [71, 75], [76, 83], [84, 86], [87, 96], [97, 100], [101, 106], [107, 109], [110, 113], [114, 118], [119, 125], [126, 129], [130, 133], [134, 140], [141, 147], [148, 150], [151, 157], [158, 160], [160, 161], [162, 167], [168, 171], [172, 177], [178, 187], [188, 191], [192, 199], [200, 202], [203, 206], [207, 209], [210, 211], [212, 218], [218, 219]]
+    wn16_key: [[0, "direct%3:00:00::"], [1, "proportionality%1:24:00::"], [4, "rate%1:28:00::"], [7, "incident%3:01:00::"], [8, "intensity%1:07:03::"], [10, "also%4:02:00::"], [12, "assume%2:31:00::"], [14, "obtain%2:40:00::"], [16, "value%1:09:00::"], [19, "last%3:00:00::"], [20, "column%1:14:01::"], [23, "fourth%5:00:00:ordinal:00"], [24, "sample%1:09:00::"], [26, "series%1:14:00::"], [31, "light%1:19:00::"], [32, "intensity%1:07:03::"], [34, "reduce%2:30:04::"], [36, "use%1:04:00::"], [39, "screen%1:06:01::"]]
+    wn30_key: [[0, "direct%3:00:00::"], [1, "proportionality%1:24:00::"], [4, "rate%1:28:00::"], [7, "incident%3:01:00::"], [8, "intensity%1:07:03::"], [10, "also%4:02:00::"], [12, "assume%2:31:00::"], [14, "obtain%2:40:00::"], [16, "value%1:09:00::"], [19, "last%3:00:00::"], [20, "column%1:14:01::"], [23, "fourth%3:00:00:ordinal:00"], [24, "sample%1:09:00::"], [26, "series%1:14:00::"], [31, "light%1:19:00::"], [32, "intensity%1:07:03::"], [34, "reduce%2:30:04::"], [36, "use%1:04:00::"], [39, "screen%1:06:01::"]]

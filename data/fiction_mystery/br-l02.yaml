@@ -1,0 +1,1516 @@
+_meta:
+    lemmas:
+        type: seq
+        base: tokens
+        data: string
+    oewn2026_key:
+        type: element
+        base: tokens
+        data: string
+    paragraph:
+        type: characters
+    pos:
+        type: seq
+        base: tokens
+        data: string
+    text:
+        type: characters
+    tokens:
+        type: span
+        base: text
+    wn16_key:
+        type: element
+        base: tokens
+        data: string
+    wn30_key:
+        type: element
+        base: tokens
+        data: string
+hCdV:
+    lemmas: ["I", "be", "give", "the", "parked", "car", "the", "once-over", "."]
+    oewn2026_key: []
+    paragraph: '0'
+    pos: ["PRP", "VBD", "VBG", "DT", "JJ", "NNS", "DT", "NN", "."]
+    text: I was giving the parked cars the once-over.
+    tokens: [[0, 1], [2, 5], [6, 12], [13, 16], [17, 23], [24, 28], [29, 32], [33, 42], [42, 43]]
+    wn16_key: []
+    wn30_key: []
+uKAO:
+    lemmas: ["The", "Oldsmobile", "with", "the", "license_number", "JYJ", "114", "be", "in", "stall", "number", "five", "."]
+    oewn2026_key: [[7, "oewn-02661230-v"]]
+    paragraph: '0'
+    pos: ["DT", "NNP", "IN", "DT", "NN", "NN", "CD", "VBD", "IN", "NN", "NN", "CD", "."]
+    text: ' The Oldsmobile with the license_number JYJ 114 was in stall number five.
+
+  '
+    tokens: [[1, 4], [5, 15], [16, 20], [21, 24], [25, 39], [40, 43], [44, 47], [48, 51], [52, 54], [55, 60], [61, 67], [68, 72], [72, 73]]
+    wn16_key: [[7, "be%2:42:05::"]]
+    wn30_key: [[7, "be%2:42:05::"]]
+Ppjn:
+    lemmas: ["\"", "Okay", "\"", ",", "I", "say", "to", "the", "attendant", ",", "\"", "I", "'ll", "let", "you", "know", "if", "I", "close", "the", "deal", "on", "the", "office", "in_this", "building", "\"", "."]
+    oewn2026_key: [[5, "oewn-01011267-v"], [13, "oewn-02427979-v"], [15, "oewn-00596016-v"], [18, "oewn-00765876-v"]]
+    paragraph: '1'
+    pos: ["``", "UH", "''", ",", "PRP", "VBD", "TO", "DT", "NN", ",", "``", "PRP", "MD", "VB", "PRP", "VB", "IN", "PRP", "VBP", "DT", "NN", "IN", "DT", "NN", "RB", "NN", "''", "."]
+    text: ' " Okay ", I said to the attendant, " I''ll let you know if I close the deal on the
+  office in_this building ".
+
+  '
+    tokens: [[1, 2], [3, 7], [8, 9], [9, 10], [11, 12], [13, 17], [18, 20], [21, 24], [25, 34], [34, 35], [36, 37], [38, 39], [39, 42], [43, 46], [47, 50], [51, 55], [56, 58], [59, 60], [61, 66], [67, 70], [71, 75], [76, 78], [79, 82], [83, 89], [90, 97], [98, 106], [107, 108], [108, 109]]
+    wn16_key: [[5, "say%2:32:00::"], [13, "let%2:41:00::"], [15, "know%2:31:01::"], [18, "close%2:32:05::"]]
+    wn30_key: [[5, "say%2:32:00::"], [13, "let%2:41:00::"], [15, "know%2:31:01::"], [18, "close%2:32:05::"]]
+uKmG:
+    lemmas: ["I", "walk", "with", "him", "back", "to", "the", "entrance", "."]
+    oewn2026_key: [[1, "oewn-01908923-v"]]
+    paragraph: '2'
+    pos: ["PRP", "VBD", "IN", "PRP", "RB", "TO", "DT", "NN", "."]
+    text: ' I walked with him back to the entrance.'
+    tokens: [[1, 2], [3, 9], [10, 14], [15, 18], [19, 23], [24, 26], [27, 30], [31, 39], [39, 40]]
+    wn16_key: [[1, "walk%2:38:00::"]]
+    wn30_key: [[1, "walk%2:38:00::"]]
+dO2s:
+    lemmas: ["He", "give", "me", "a", "ticket", "on", "the", "agency", "car", "and", "park", "it", "."]
+    oewn2026_key: [[1, "oewn-02204104-v"], [10, "oewn-01496037-v"]]
+    paragraph: '2'
+    pos: ["PRP", "VBD", "PRP", "DT", "NN", "IN", "DT", "NN", "NN", "CC", "VBD", "PRP", "."]
+    text: ' He gave me a ticket on the agency car and parked it.
+
+  '
+    tokens: [[1, 3], [4, 8], [9, 11], [12, 13], [14, 20], [21, 23], [24, 27], [28, 34], [35, 38], [39, 42], [43, 49], [50, 52], [52, 53]]
+    wn16_key: [[1, "give%2:40:00::"], [10, "park%2:35:00::"]]
+    wn30_key: [[1, "give%2:40:00::"], [10, "park%2:35:00::"]]
+TdGr:
+    lemmas: ["I", "be", "back", "in", "ten", "minutes", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"]]
+    paragraph: '3'
+    pos: ["PRP", "VBD", "RB", "IN", "CD", "NNS", "."]
+    text: ' I was back in ten minutes.'
+    tokens: [[1, 2], [3, 6], [7, 11], [12, 14], [15, 18], [19, 26], [26, 27]]
+    wn16_key: [[1, "be%2:42:03::"]]
+    wn30_key: [[1, "be%2:42:03::"]]
+V1xI:
+    lemmas: ["\"", "forget", "to", "get", "something", "out", "of", "the", "car", "\"", ",", "I", "tell", "him", ",", "show", "him", "my", "ticket", "."]
+    oewn2026_key: [[1, "oewn-00616520-v"], [3, "oewn-01435927-v"], [12, "oewn-00954556-v"], [15, "oewn-02153218-v"]]
+    paragraph: '3'
+    pos: ["``", "VB", "TO", "VB", "NN", "IN", "IN", "DT", "NN", "''", ",", "PRP", "VBD", "PRP", ",", "VBG", "PRP", "PRP$", "NN", "."]
+    text: ' " Forgot to get something out of the car ", I told him, showing him my ticket.
+
+  '
+    tokens: [[1, 2], [3, 9], [10, 12], [13, 16], [17, 26], [27, 30], [31, 33], [34, 37], [38, 41], [42, 43], [43, 44], [45, 46], [47, 51], [52, 55], [55, 56], [57, 64], [65, 68], [69, 71], [72, 78], [78, 79]]
+    wn16_key: [[1, "forget%2:31:03::"], [3, "get%2:35:03::"], [12, "tell%2:32:00::"], [15, "show%2:39:02::"]]
+    wn30_key: [[1, "forget%2:31:03::"], [3, "get%2:35:03::"], [12, "tell%2:32:00::"], [15, "show%2:39:02::"]]
+8Xob:
+    lemmas: ["He", "start", "to", "say", "something", "as", "I", "walk", "in", "and_then", "suddenly", "grin", "and", "say", ",", "\"", "Oh", ",", "yes", "."]
+    oewn2026_key: [[1, "oewn-00346415-v"], [3, "oewn-01011267-v"], [7, "oewn-01908923-v"], [11, "oewn-00029018-v"], [13, "oewn-01011267-v"]]
+    paragraph: '4'
+    pos: ["PRP", "VBD", "TO", "VB", "NN", "IN", "PRP", "VBD", "IN", "RB", "RB", "VBD", "CC", "VBD", ",", "``", "UH", ",", "UH", "."]
+    text: ' He started to say something as I walked in and_then suddenly grinned and said, "
+  Oh, yes.'
+    tokens: [[1, 3], [4, 11], [12, 14], [15, 18], [19, 28], [29, 31], [32, 33], [34, 40], [41, 43], [44, 52], [53, 61], [62, 69], [70, 73], [74, 78], [78, 79], [80, 81], [82, 84], [84, 85], [86, 89], [89, 90]]
+    wn16_key: [[1, "start%2:30:00::"], [3, "say%2:32:00::"], [7, "walk%2:38:00::"], [11, "grin%2:29:00::"], [13, "say%2:32:00::"]]
+    wn30_key: [[1, "start%2:30:00::"], [3, "say%2:32:00::"], [7, "walk%2:38:00::"], [11, "grin%2:29:00::"], [13, "say%2:32:00::"]]
+n3qv:
+    lemmas: ["You", "be", "the", "one", "I", "be", "talk", "to", "about", "a", "monthly", "rental", "."]
+    oewn2026_key: [[1, "oewn-02622439-v"], [6, "oewn-00964479-v"]]
+    paragraph: '4'
+    pos: ["PRP", "VBP", "DT", "CD", "PRP", "VBD", "VBG", "IN", "IN", "DT", "JJ", "NN", "."]
+    text: ' You''re the one I was talking to about a monthly rental.
+
+  '
+    tokens: [[1, 4], [4, 7], [8, 11], [12, 15], [16, 17], [18, 21], [22, 29], [30, 32], [33, 38], [39, 40], [41, 48], [49, 55], [55, 56]]
+    wn16_key: [[1, "be%2:42:06::"], [6, "talk%2:32:01::"]]
+    wn30_key: [[1, "be%2:42:06::"], [6, "talk%2:32:01::"]]
+rtjp:
+    lemmas: ["\"", "That", "be", "right", "\"", ",", "I", "tell", "him", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"], [7, "oewn-01011267-v"]]
+    paragraph: '5'
+    pos: ["``", "DT", "VBZ", "NN", "''", ",", "PRP", "VBD", "PRP", "."]
+    text: ' " That''s right ", I told him.
+
+  '
+    tokens: [[1, 2], [3, 7], [7, 9], [10, 15], [16, 17], [17, 18], [19, 20], [21, 25], [26, 29], [29, 30]]
+    wn16_key: [[2, "be%2:42:03::"], [7, "tell%2:32:04::"]]
+    wn30_key: [[2, "be%2:42:03::"], [7, "tell%2:32:04::"]]
+fBnc:
+    lemmas: ["He", "consult", "the", "parking_ticket", ",", "then", "look", "at", "a", "notation", "and", "say", ",", "\"", "You", "be", "in", "the", "third", "row", "back", "toward_the_rear", "."]
+    oewn2026_key: [[1, "oewn-00878614-v"], [6, "oewn-02134989-v"], [11, "oewn-01011267-v"], [15, "oewn-02661230-v"]]
+    paragraph: '6'
+    pos: ["PRP", "VBD", "DT", "NN", ",", "RB", "VBD", "VB", "DT", "NN", "CC", "VBD", ",", "``", "PRP", "VBP", "IN", "DT", "JJ", "NN", "RB", "RB", "."]
+    text: ' He consulted the parking_ticket, then looked at a notation and said, " You''re in
+  the third row back toward_the_rear.'
+    tokens: [[1, 3], [4, 13], [14, 17], [18, 32], [32, 33], [34, 38], [39, 45], [46, 48], [49, 50], [51, 59], [60, 63], [64, 68], [68, 69], [70, 71], [72, 75], [75, 78], [79, 81], [82, 85], [86, 91], [92, 95], [96, 100], [101, 116], [116, 117]]
+    wn16_key: [[1, "consult%2:32:01::"], [6, "look%2:39:00::"], [11, "say%2:32:00::"], [15, "be%2:42:05::"]]
+    wn30_key: [[1, "consult%2:32:01::"], [6, "look%2:39:00::"], [11, "say%2:32:00::"], [15, "be%2:42:05::"]]
+p0u6:
+    lemmas: ["Can", "you", "find", "it", "all_right", "\"", "?"]
+    oewn2026_key: [[2, "oewn-02290474-v"]]
+    paragraph: '6'
+    pos: ["MD", "PRP", "VB", "PRP", "RB", "''", "."]
+    text: ' Can you find it all_right "?
+
+  '
+    tokens: [[1, 4], [5, 8], [9, 13], [14, 16], [17, 26], [27, 28], [28, 29]]
+    wn16_key: [[2, "find%2:40:00::"]]
+    wn30_key: [[2, "find%2:40:00::"]]
+boS3:
+    lemmas: ["\"", "sure", "\"", ",", "I", "tell", "him", "."]
+    oewn2026_key: [[5, "oewn-01011267-v"]]
+    paragraph: '7'
+    pos: ["``", "RB", "''", ",", "PRP", "VBD", "PRP", "."]
+    text: ' " Sure ", I told him.
+
+  '
+    tokens: [[1, 2], [3, 7], [8, 9], [9, 10], [11, 12], [13, 17], [18, 21], [21, 22]]
+    wn16_key: [[5, "tell%2:32:04::"]]
+    wn30_key: [[5, "tell%2:32:04::"]]
+pimV:
+    lemmas: ["I", "go_back", "to", "the", "agency", "car", "and", "get_out", "an", "electric", "bug", ",", "one", "of", "the", "new", "devices", "for", "electronic", "shadowing", "."]
+    oewn2026_key: [[7, "oewn-01217161-v"]]
+    paragraph: '8'
+    pos: ["PRP", "VB", "VB", "DT", "NN", "NN", "CC", "VB", "DT", "JJ", "NN", ",", "CD", "IN", "DT", "JJS", "NNS", "IN", "JJ", "NN", "."]
+    text: ' I went_back to the agency car and got_out an electric bug, one of the newest devices
+  for electronic shadowing.'
+    tokens: [[1, 2], [3, 12], [13, 15], [16, 19], [20, 26], [27, 30], [31, 34], [35, 42], [43, 45], [46, 54], [55, 58], [58, 59], [60, 63], [64, 66], [67, 70], [71, 77], [78, 85], [86, 89], [90, 100], [101, 110], [110, 111]]
+    wn16_key: [[1, "go_back%2:38:00::"], [7, "get_out%2:35:00::"]]
+    wn30_key: [[7, "get_out%2:35:00::"]]
+X8r+:
+    lemmas: ["I", "always", "keep", "a", "set", "in", "the", "car", "."]
+    oewn2026_key: [[2, "oewn-02207166-v"]]
+    paragraph: '8'
+    pos: ["PRP", "RB", "VBP", "DT", "NN", "VB", "DT", "NN", "."]
+    text: ' I always keep a set in the car.
+
+  '
+    tokens: [[1, 2], [3, 9], [10, 14], [15, 16], [17, 20], [21, 23], [24, 27], [28, 31], [31, 32]]
+    wn16_key: [[2, "keep%2:40:00::"]]
+    wn30_key: [[2, "keep%2:40:00::"]]
+2kB1:
+    lemmas: ["I", "put_in", "new", "battery", "so_as_to", "be", "certain", "I", "'d", "have", "plenty", "of", "power", "and", "on", "my", "way_out", "walk", "over", "to", "the", "regular", "parking", "stalls", "and", "stand", "look", "at", "them", "thoughtfully", "."]
+    oewn2026_key: [[1, "oewn-00187671-v"], [5, "oewn-02610777-v"], [9, "oewn-02208144-v"], [17, "oewn-01908923-v"], [25, "oewn-01548893-v"], [26, "oewn-02134989-v"]]
+    paragraph: '9'
+    pos: ["PRP", "VBP", "JJ", "NNS", "RB", "VB", "JJ", "PRP", "MD", "VB", "NN", "IN", "NN", "CC", "IN", "PRP$", "NN", "VBD", "RB", "TO", "DT", "JJ", "NN", "NNS", "CC", "VBD", "VBG", "VB", "PRP", "RB", "."]
+    text: ' I put_in new batteries so_as_to be certain I''d have plenty of power and on my way_out
+  walked over to the regular parking stalls and stood looking at them thoughtfully.
+
+  '
+    tokens: [[1, 2], [3, 9], [10, 13], [14, 23], [24, 32], [33, 35], [36, 43], [44, 45], [45, 47], [48, 52], [53, 59], [60, 62], [63, 68], [69, 72], [73, 75], [76, 78], [79, 86], [87, 93], [94, 98], [99, 101], [102, 105], [106, 113], [114, 121], [122, 128], [129, 132], [133, 138], [139, 146], [147, 149], [150, 154], [155, 167], [167, 168]]
+    wn16_key: [[1, "put_in%2:30:00::"], [5, "be%2:42:03::"], [9, "have%2:40:00::"], [17, "walk%2:38:00::"], [25, "stand%2:35:00::"], [26, "look%2:39:00::"]]
+    wn30_key: [[1, "put_in%2:30:00::"], [5, "be%2:42:03::"], [9, "have%2:40:00::"], [17, "walk%2:38:00::"], [25, "stand%2:35:00::"], [26, "look%2:39:00::"]]
+npjm:
+    lemmas: ["I", "wait", "until", "the", "parking", "attendant", "be", "busy", "with", "a", "customer", ",", "then", "slip", "around", "the", "back", "of", "the", "car", "with", "license_number", "JYM", "114", ",", "attach", "the", "electronic", "bug", "to_the_rear", "bumper", "and", "walk_out", "."]
+    oewn2026_key: [[1, "oewn-02647547-v"], [6, "oewn-02610777-v"], [13, "oewn-01892288-v"], [25, "oewn-01299048-v"], [32, "oewn-02014252-v"]]
+    paragraph: '10'
+    pos: ["PRP", "VBD", "IN", "DT", "NN", "NN", "VBD", "JJ", "IN", "DT", "NN", ",", "RB", "VBD", "IN", "DT", "RB", "IN", "DT", "NN", "IN", "NN", "NN", "CD", ",", "VBD", "DT", "JJ", "NN", "RB", "NN", "CC", "VB", "."]
+    text: ' I waited until the parking attendant was busy with a customer, then slipped around
+  the back of the car with license_number JYM 114, attached the electronic bug to_the_rear
+  bumper and walked_out.
+
+  '
+    tokens: [[1, 2], [3, 9], [10, 15], [16, 19], [20, 27], [28, 37], [38, 41], [42, 46], [47, 51], [52, 53], [54, 62], [62, 63], [64, 68], [69, 76], [77, 83], [84, 87], [88, 92], [93, 95], [96, 99], [100, 103], [104, 108], [109, 123], [124, 127], [128, 131], [131, 132], [133, 141], [142, 145], [146, 156], [157, 160], [161, 172], [173, 179], [180, 183], [184, 194], [194, 195]]
+    wn16_key: [[1, "wait%2:42:01::"], [6, "be%2:42:03::"], [13, "slip%2:38:01::"], [25, "attach%2:35:01::"], [32, "walk_out%2:38:00::"]]
+    wn30_key: [[1, "wait%2:42:01::"], [6, "be%2:42:03::"], [13, "slip%2:38:01::"], [25, "attach%2:35:01::"], [32, "walk_out%2:38:00::"]]
+0Ie1:
+    lemmas: ["The", "attendant", "wave", "me", "on", "."]
+    oewn2026_key: [[2, "oewn-01043287-v"]]
+    paragraph: '11'
+    pos: ["DT", "NN", "VBD", "PRP", "RB", "."]
+    text: ' The attendant waved me on.
+
+  '
+    tokens: [[1, 4], [5, 14], [15, 20], [21, 23], [24, 26], [26, 27]]
+    wn16_key: [[2, "wave%2:32:00::"]]
+    wn30_key: [[2, "wave%2:32:00::"]]
+t1Bp:
+    lemmas: ["One", "of", "the", "hard", "chore", "a", "detective", "have", "be", "hang_around", "on", "a", "city", "street", ",", "try", "to", "make", "himself", "inconspicuous", ",", "keep_an_eye_on", "the", "entrance", "of", "an", "office_building", "and", "wait", "."]
+    oewn2026_key: [[7, "oewn-02208144-v"], [8, "oewn-02622439-v"], [9, "oewn-02645159-v"], [15, "oewn-02535833-v"], [17, "oewn-00120124-v"], [28, "oewn-02644022-v"]]
+    paragraph: '12'
+    pos: ["CD", "IN", "DT", "JJS", "NNS", "DT", "NN", "VBZ", "VBZ", "VBN", "IN", "DT", "NN", "NN", ",", "VBG", "TO", "VB", "PRP", "JJ", ",", "VB", "DT", "NN", "IN", "DT", "NN", "CC", "VB", "."]
+    text: ' One of the hardest chores a detective has is hanging_around on a city street, trying
+  to make himself inconspicuous, keeping_an_eye_on the entrance of an office_building
+  and waiting.
+
+  '
+    tokens: [[1, 4], [5, 7], [8, 11], [12, 19], [20, 26], [27, 28], [29, 38], [39, 42], [43, 45], [46, 60], [61, 63], [64, 65], [66, 70], [71, 77], [77, 78], [79, 85], [86, 88], [89, 93], [94, 101], [102, 115], [115, 116], [117, 134], [135, 138], [139, 147], [148, 150], [151, 153], [154, 169], [170, 173], [174, 181], [181, 182]]
+    wn16_key: [[7, "have%2:40:00::"], [8, "be%2:42:06::"], [9, "hang_around%2:42:00::"], [15, "try%2:41:00::"], [17, "make%2:30:00::"], [21, "keep_an_eye_on%2:39:00::"], [28, "wait%2:42:00::"]]
+    wn30_key: [[7, "have%2:40:00::"], [8, "be%2:42:06::"], [9, "hang_around%2:42:00::"], [15, "try%2:41:00::"], [17, "make%2:30:00::"], [28, "wait%2:42:00::"]]
+sVWI:
+    lemmas: ["For", "the", "first", "fifteen", "or", "twenty", "minutes", "it", "be", "possible", "to", "be", "more_or_less", "interested", "in", "window", "display", ",", "then", "in", "people", "pass_by", "."]
+    oewn2026_key: [[8, "oewn-02610777-v"], [11, "oewn-02610777-v"], [21, "oewn-02055618-v"]]
+    paragraph: '13'
+    pos: ["IN", "DT", "JJ", "CD", "CC", "CD", "NNS", "PRP", "VBZ", "JJ", "TO", "VB", "RB", "JJ", "IN", "NN", "NNS", ",", "RB", "IN", "NNS", "VB", "."]
+    text: ' For the first fifteen or twenty minutes it''s possible to be more_or_less interested
+  in window displays, then in people passing_by.'
+    tokens: [[1, 4], [5, 8], [9, 14], [15, 22], [23, 25], [26, 32], [33, 40], [41, 43], [43, 45], [46, 54], [55, 57], [58, 60], [61, 73], [74, 84], [85, 87], [88, 94], [95, 103], [103, 104], [105, 109], [110, 112], [113, 119], [120, 130], [130, 131]]
+    wn16_key: [[8, "be%2:42:03::"], [11, "be%2:42:03::"], [21, "pass_by%2:38:00::"]]
+    wn30_key: [[8, "be%2:42:03::"], [11, "be%2:42:03::"], [21, "pass_by%2:38:00::"]]
+yXpu:
+    lemmas: ["After", "a", "while", ",", "however", ",", "a", "person", "'s", "mind", "get", "fed_up", "and", "that", "magnify", "all_of", "the", "disagreeable", "physical", "symptom", "which", "go_with", "that", "sort_of", "an", "assignment", "."]
+    oewn2026_key: [[10, "oewn-00149403-v"], [14, "oewn-00435030-v"], [21, "oewn-02722040-v"]]
+    paragraph: '13'
+    pos: ["IN", "DT", "RB", ",", "RB", ",", "DT", "NN", "POS", "NN", "VBZ", "JJ", "CC", "IN", "VB", "JJ", "DT", "JJ", "JJ", "NNS", "WDT", "VBP", "IN", "RB", "DT", "NN", "."]
+    text: ' After a while, however, a person''s mind gets fed_up and that magnifies all_of the
+  disagreeable physical symptoms which go_with that sort_of an assignment.'
+    tokens: [[1, 6], [7, 8], [9, 14], [14, 15], [16, 23], [23, 24], [25, 26], [27, 33], [33, 35], [36, 40], [41, 45], [46, 52], [53, 56], [57, 61], [62, 71], [72, 78], [79, 82], [83, 95], [96, 104], [105, 113], [114, 119], [120, 127], [128, 132], [133, 140], [141, 143], [144, 154], [154, 155]]
+    wn16_key: [[10, "get%2:30:00::"], [14, "magnify%2:30:00::"], [21, "go_with%2:42:01::"]]
+    wn30_key: [[10, "get%2:30:00::"], [14, "magnify%2:30:00::"], [21, "go_with%2:42:01::"]]
+4WEp:
+    lemmas: ["You", "want", "to", "sit_down", "."]
+    oewn2026_key: [[1, "oewn-01191258-v"], [3, "oewn-01988916-v"]]
+    paragraph: '13'
+    pos: ["PRP", "VBP", "VB", "VB", "."]
+    text: ' You want to sit_down.'
+    tokens: [[1, 4], [5, 9], [10, 12], [13, 21], [21, 22]]
+    wn16_key: [[1, "want%2:34:00::"], [3, "sit_down%2:38:00::"]]
+    wn30_key: [[1, "want%2:34:00::"], [3, "sit_down%2:38:00::"]]
+Dath:
+    lemmas: ["Your", "leg", "muscle", "and", "back", "muscle", "feel", "weary", "."]
+    oewn2026_key: [[6, "oewn-00105712-v"]]
+    paragraph: '13'
+    pos: ["PRP$", "NN", "NNS", "CC", "RB", "NNS", "VBP", "JJ", "."]
+    text: ' Your leg muscles and back muscles feel weary.'
+    tokens: [[1, 5], [6, 9], [10, 17], [18, 21], [22, 26], [27, 34], [35, 39], [40, 45], [45, 46]]
+    wn16_key: [[6, "feel%2:29:00::"]]
+    wn30_key: [[6, "feel%2:29:00::"]]
+inE7:
+    lemmas: ["You", "be", "conscious_of", "the", "fact", "that", "your", "foot", "hurt", ",", "that", "the", "city", "pavement", "be", "hard", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [8, "oewn-02126629-v"], [14, "oewn-02610777-v"]]
+    paragraph: '13'
+    pos: ["PRP", "VBP", "JJ", "DT", "NN", "IN", "PRP$", "NNS", "VBP", ",", "IN", "DT", "NN", "NNS", "VBP", "JJ", "."]
+    text: ' You''re conscious_of the fact that your feet hurt, that the city pavements are hard.
+
+  '
+    tokens: [[1, 4], [4, 7], [8, 20], [21, 24], [25, 29], [30, 34], [35, 39], [40, 44], [45, 49], [49, 50], [51, 55], [56, 59], [60, 64], [65, 74], [75, 78], [79, 83], [83, 84]]
+    wn16_key: [[1, "be%2:42:03::"], [8, "hurt%2:39:00::"], [14, "be%2:42:03::"]]
+    wn30_key: [[1, "be%2:42:03::"], [8, "hurt%2:39:00::"], [14, "be%2:42:03::"]]
+Zphw:
+    lemmas: ["I", "wait", "a", "solid", "two", "hours", "before", "my", "man", "come_out", "of", "the", "office_building", "."]
+    oewn2026_key: [[1, "oewn-02644022-v"], [9, "oewn-00424655-v"]]
+    paragraph: '14'
+    pos: ["PRP", "VBD", "DT", "JJ", "CD", "NNS", "IN", "PRP$", "NN", "VB", "IN", "DT", "NN", "."]
+    text: ' I waited a solid two hours before my man came_out of the office_building.'
+    tokens: [[1, 2], [3, 9], [10, 11], [12, 17], [18, 21], [22, 27], [28, 34], [35, 37], [38, 41], [42, 50], [51, 53], [54, 57], [58, 73], [73, 74]]
+    wn16_key: [[1, "wait%2:42:00::"], [9, "come_out%2:30:00::"]]
+    wn30_key: [[1, "wait%2:42:00::"], [9, "come_out%2:30:00::"]]
+bj3U:
+    lemmas: ["He", "come_out", "alone", "."]
+    oewn2026_key: [[1, "oewn-00424655-v"]]
+    paragraph: '14'
+    pos: ["PRP", "VB", "RB", "."]
+    text: ' He came_out alone.
+
+  '
+    tokens: [[1, 3], [4, 12], [13, 18], [18, 19]]
+    wn16_key: [[1, "come_out%2:30:00::"]]
+    wn30_key: [[1, "come_out%2:30:00::"]]
+ycm9:
+    lemmas: ["I", "be", "n't", "far", "behind", "him", "when", "he", "enter", "the", "parking_lot", "and", "hurry", "over", "to", "his", "car", "."]
+    oewn2026_key: [[1, "oewn-02661230-v"], [8, "oewn-02020375-v"], [12, "oewn-02059573-v"]]
+    paragraph: '15'
+    pos: ["PRP", "VBD", "RB", "RB", "IN", "PRP", "WRB", "PRP", "VBD", "DT", "NN", "CC", "VBD", "RB", "TO", "PRP$", "NN", "."]
+    text: ' I wasn''t far behind him when he entered the parking_lot and hurried over to his
+  car.
+
+  '
+    tokens: [[1, 2], [3, 6], [6, 9], [10, 13], [14, 20], [21, 24], [25, 29], [30, 32], [33, 40], [41, 44], [45, 56], [57, 60], [61, 68], [69, 73], [74, 76], [77, 80], [81, 84], [84, 85]]
+    wn16_key: [[1, "be%2:42:05::"], [8, "enter%2:38:00::"], [12, "hurry%2:38:00::"]]
+    wn30_key: [[1, "be%2:42:05::"], [8, "enter%2:38:00::"], [12, "hurry%2:38:00::"]]
+kpvw:
+    lemmas: ["The", "attendant", "recognize", "me", "once_more", "and", "say", ",", "\"", "What", "do", "you", "do", "about", "that", "office", "\"", "?"]
+    oewn2026_key: [[2, "oewn-00611928-v"], [6, "oewn-01011267-v"], [12, "oewn-02566500-v"]]
+    paragraph: '16'
+    pos: ["DT", "NN", "VBD", "PRP", "RB", "CC", "VBD", ",", "``", "WP", "VBD", "PRP", "VB", "IN", "IN", "NN", "''", "."]
+    text: ' The attendant recognized me once_more and said, " What did you do about that office
+  "?
+
+  '
+    tokens: [[1, 4], [5, 14], [15, 25], [26, 28], [29, 38], [39, 42], [43, 47], [47, 48], [49, 50], [51, 55], [56, 59], [60, 63], [64, 66], [67, 72], [73, 77], [78, 84], [85, 86], [86, 87]]
+    wn16_key: [[2, "recognize%2:31:00::"], [6, "say%2:32:00::"], [12, "do%2:41:01::"]]
+    wn30_key: [[2, "recognize%2:31:00::"], [6, "say%2:32:00::"], [12, "do%2:41:01::"]]
+Tibb:
+    lemmas: ["\"", "I", "have", "n't", "make_up_one's_mind", "my", "mind", "yet", "\"", ",", "I", "say", "."]
+    oewn2026_key: [[4, "oewn-00699355-v"], [11, "oewn-01011267-v"]]
+    paragraph: '17'
+    pos: ["``", "PRP", "VBP", "RB", "VB", "PRP$", "NN", "RB", "``", ",", "PRP", "VBD", "."]
+    text: ' " I haven''t made_up my mind yet ", I said.'
+    tokens: [[1, 2], [3, 4], [5, 9], [9, 12], [13, 20], [21, 23], [24, 28], [29, 32], [33, 34], [34, 35], [36, 37], [38, 42], [42, 43]]
+    wn16_key: [[4, "make_up_one's_mind%2:31:00::"], [11, "say%2:32:00::"]]
+    wn30_key: [[4, "make_up_one's_mind%2:31:00::"], [11, "say%2:32:00::"]]
+9NQC:
+    lemmas: ["\"", "It", "be", "a", "sublease", "."]
+    oewn2026_key: [[2, "oewn-02622439-v"]]
+    paragraph: '17'
+    pos: ["``", "PRP", "VBZ", "DT", "NN", "."]
+    text: ' " It''s a sublease.'
+    tokens: [[1, 2], [3, 5], [5, 7], [8, 9], [10, 18], [18, 19]]
+    wn16_key: [[2, "be%2:42:06::"]]
+    wn30_key: [[2, "be%2:42:06::"]]
+3iEv:
+    lemmas: ["I", "have", "a_couple_of", "them", "I", "'m", "figure", "on", ";", "one", "here", "and", "one", "that", "be", "out", "quite", "a", "ways", "where", "there", "'s", "usually", "curb", "parking", "\"", "."]
+    oewn2026_key: [[1, "oewn-02208144-v"], [6, "oewn-00713964-v"], [14, "oewn-02661230-v"]]
+    paragraph: '17'
+    pos: ["PRP", "VBP", "JJ", "PRP", "PRP", "VBP", "VBG", "IN", ":", "CD", "RB", "CC", "CD", "IN", "VBZ", "IN", "RB", "DT", "NNS", "WRB", "EX", "VBZ", "RB", "NN", "NN", "''", "."]
+    text: ' I have a_couple_of them I''m figuring on; one here and one that''s out quite a ways
+  where there''s usually curb parking ".
+
+  '
+    tokens: [[1, 2], [3, 7], [8, 19], [20, 24], [25, 26], [26, 28], [29, 37], [38, 40], [40, 41], [42, 45], [46, 50], [51, 54], [55, 58], [59, 63], [63, 65], [66, 69], [70, 75], [76, 77], [78, 82], [83, 88], [89, 94], [94, 96], [97, 104], [105, 109], [110, 117], [118, 119], [119, 120]]
+    wn16_key: [[1, "have%2:40:00::"], [6, "figure%2:31:01::"], [14, "be%2:42:05::"]]
+    wn30_key: [[1, "have%2:40:00::"], [6, "figure%2:31:01::"], [14, "be%2:42:05::"]]
+mV3G:
+    lemmas: ["\"", "That", "curb", "parking", "be", "undependable", "and", "annoying", ",", "particularly", "when", "it", "rain", "\"", ",", "he", "say", "."]
+    oewn2026_key: [[4, "oewn-02610777-v"], [12, "oewn-02762516-v"], [16, "oewn-01011267-v"]]
+    paragraph: '18'
+    pos: ["``", "DT", "NN", "NN", "VBZ", "JJ", "CC", "JJ", ",", "RB", "WRB", "PRP", "VB", "''", ",", "PRP", "VBD", "."]
+    text: ' " That curb parking is undependable and annoying, particularly when it rains ",
+  he said.
+
+  '
+    tokens: [[1, 2], [3, 7], [8, 12], [13, 20], [21, 23], [24, 36], [37, 40], [41, 49], [49, 50], [51, 63], [64, 68], [69, 71], [72, 77], [78, 79], [79, 80], [81, 83], [84, 88], [88, 89]]
+    wn16_key: [[4, "be%2:42:03::"], [12, "rain%2:43:00::"], [16, "say%2:32:00::"]]
+    wn30_key: [[4, "be%2:42:03::"], [12, "rain%2:43:00::"], [16, "say%2:32:00::"]]
+pmm+:
+    lemmas: ["I", "keep", "try", "to", "get", "him", "to", "take", "my", "money", "."]
+    oewn2026_key: [[1, "oewn-02690747-v"], [2, "oewn-02535833-v"], [4, "oewn-00120604-v"], [7, "oewn-02210054-v"]]
+    paragraph: '19'
+    pos: ["PRP", "VBD", "VBG", "TO", "VB", "PRP", "TO", "VB", "PRP$", "NN", "."]
+    text: ' I kept trying to get him to take my money.'
+    tokens: [[1, 2], [3, 7], [8, 14], [15, 17], [18, 21], [22, 25], [26, 28], [29, 33], [34, 36], [37, 42], [42, 43]]
+    wn16_key: [[1, "keep%2:42:07::"], [2, "try%2:41:00::"], [4, "get%2:30:02::"], [7, "take%2:40:00::"]]
+    wn30_key: [[1, "keep%2:42:07::"], [2, "try%2:41:00::"], [4, "get%2:30:02::"], [7, "take%2:40:00::"]]
+cVB6:
+    lemmas: ["\"", "Okay", "\"", ",", "I", "tell", "him", "."]
+    oewn2026_key: [[5, "oewn-01011267-v"]]
+    paragraph: '19'
+    pos: ["``", "UH", "''", ",", "PRP", "VBD", "PRP", "."]
+    text: ' " Okay ", I told him.'
+    tokens: [[1, 2], [3, 7], [8, 9], [9, 10], [11, 12], [13, 17], [18, 21], [21, 22]]
+    wn16_key: [[5, "tell%2:32:04::"]]
+    wn30_key: [[5, "tell%2:32:04::"]]
+G6k8:
+    lemmas: ["\"", "I", "be", "in", "a", "rush", "right_now", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"]]
+    paragraph: '19'
+    pos: ["``", "PRP", "VBP", "IN", "DT", "NN", "RB", "."]
+    text: ' " I''m in a rush right_now.'
+    tokens: [[1, 2], [3, 4], [4, 6], [7, 9], [10, 11], [12, 16], [17, 26], [26, 27]]
+    wn16_key: [[2, "be%2:42:03::"]]
+    wn30_key: [[2, "be%2:42:03::"]]
+13zm:
+    lemmas: ["I", "know", "where", "the", "car", "be", "."]
+    oewn2026_key: [[1, "oewn-00596016-v"], [5, "oewn-02661230-v"]]
+    paragraph: '19'
+    pos: ["PRP", "VBP", "WRB", "DT", "NN", "VBZ", "."]
+    text: ' I know where the car is.'
+    tokens: [[1, 2], [3, 7], [8, 13], [14, 17], [18, 21], [22, 24], [24, 25]]
+    wn16_key: [[1, "know%2:31:01::"], [5, "be%2:42:05::"]]
+    wn30_key: [[1, "know%2:31:01::"], [5, "be%2:42:05::"]]
+70if:
+    lemmas: ["want", "me", "to", "drive", "it", "out", "\"", "?"]
+    oewn2026_key: [[0, "oewn-01829179-v"], [3, "oewn-01934845-v"]]
+    paragraph: '19'
+    pos: ["VB", "PRP", "TO", "VB", "PRP", "IN", "``", "."]
+    text: ' Want me to drive it out "?
+
+  '
+    tokens: [[1, 5], [6, 8], [9, 11], [12, 17], [18, 20], [21, 24], [25, 26], [26, 27]]
+    wn16_key: [[0, "want%2:37:00::"], [3, "drive%2:38:01::"]]
+    wn30_key: [[0, "want%2:37:00::"], [3, "drive%2:38:01::"]]
+EUH6:
+    lemmas: ["\"", "I", "'ll", "have", "one", "of", "the", "boy", "get", "it", "\"", ",", "he", "say", "."]
+    oewn2026_key: [[3, "oewn-00120604-v"], [8, "oewn-01435927-v"], [13, "oewn-01011267-v"]]
+    paragraph: '20'
+    pos: ["``", "PRP", "MD", "VB", "CD", "IN", "DT", "NNS", "VBP", "VB", "``", ",", "PRP", "VBD", "."]
+    text: ' " I''ll have one of the boys get it ", he said.'
+    tokens: [[1, 2], [3, 4], [4, 7], [8, 12], [13, 16], [17, 19], [20, 23], [24, 28], [29, 32], [33, 35], [36, 37], [37, 38], [39, 41], [42, 46], [46, 47]]
+    wn16_key: [[3, "have%2:30:00::"], [8, "get%2:35:03::"], [13, "say%2:32:00::"]]
+    wn30_key: [[3, "have%2:30:00::"], [8, "get%2:35:03::"], [13, "say%2:32:00::"]]
+Ypup:
+    lemmas: ["\"", "It", "be", "one", "of", "the", "rule", "on", "transient", "."]
+    oewn2026_key: [[2, "oewn-02622439-v"]]
+    paragraph: '20'
+    pos: ["``", "PRP", "VBZ", "CD", "IN", "DT", "NNS", "IN", "NNS", "."]
+    text: ' " It''s one of the rules on transients.'
+    tokens: [[1, 2], [3, 5], [5, 7], [8, 11], [12, 14], [15, 18], [19, 24], [25, 27], [28, 38], [38, 39]]
+    wn16_key: [[2, "be%2:42:06::"]]
+    wn30_key: [[2, "be%2:42:06::"]]
+n6WC:
+    lemmas: ["regular", "drive", "out", "their", "own", "car", "\"", "."]
+    oewn2026_key: [[1, "oewn-01934845-v"]]
+    paragraph: '20'
+    pos: ["NNS", "VBP", "RB", "PRP$", "JJ", "NNS", "''", "."]
+    text: ' Regulars drive out their own cars ".
+
+  '
+    tokens: [[1, 9], [10, 15], [16, 19], [20, 25], [26, 29], [30, 34], [35, 36], [36, 37]]
+    wn16_key: [[1, "drive%2:38:01::"]]
+    wn30_key: [[1, "drive%2:38:01::"]]
+ak0S:
+    lemmas: ["\"", "make", "it", "as", "snappy", "as", "you", "can", ",", "will", "you", "\"", "?"]
+    oewn2026_key: [[1, "oewn-00120124-v"], [7, "oewn-00214220-v"]]
+    paragraph: '21'
+    pos: ["``", "VB", "VB", "RB", "JJ", "IN", "PRP", "VB", ",", "MD", "PRP", "``", "."]
+    text: ' " Make it as snappy as you can, will you "?'
+    tokens: [[1, 2], [3, 7], [8, 10], [11, 13], [14, 20], [21, 23], [24, 27], [28, 31], [31, 32], [33, 37], [38, 41], [42, 43], [43, 44]]
+    wn16_key: [[1, "make%2:30:00::"], [7, "can%2:42:00::"]]
+    wn30_key: [[1, "make%2:30:00::"], [7, "can%2:30:00::"]]
+kMU5:
+    lemmas: ["I", "ask", "."]
+    oewn2026_key: [[1, "oewn-00754499-v"]]
+    paragraph: '21'
+    pos: ["PRP", "VBD", "."]
+    text: ' I asked.
+
+  '
+    tokens: [[1, 2], [3, 8], [8, 9]]
+    wn16_key: [[1, "ask%2:32:01::"]]
+    wn30_key: [[1, "ask%2:32:01::"]]
+9oCc:
+    lemmas: ["\"", "Oh", ",", "that", "be", "all_right", "\"", ",", "he", "say", "."]
+    oewn2026_key: [[4, "oewn-02610777-v"], [9, "oewn-01011267-v"]]
+    paragraph: '22'
+    pos: ["``", "UH", ",", "IN", "VB", "RB", "''", ",", "PRP", "VBD", "."]
+    text: ' " Oh, that''s all_right ", he said.'
+    tokens: [[1, 2], [3, 5], [5, 6], [7, 11], [11, 13], [14, 23], [24, 25], [25, 26], [27, 29], [30, 34], [34, 35]]
+    wn16_key: [[4, "be%2:42:03::"], [9, "say%2:32:00::"]]
+    wn30_key: [[4, "be%2:42:03::"], [9, "say%2:32:00::"]]
+XZNU:
+    lemmas: ["\"", "You", "'re", "go_to", "be", "a", "regular", "."]
+    oewn2026_key: [[4, "oewn-02622439-v"]]
+    paragraph: '22'
+    pos: ["``", "PRP", "VBP", "VB", "VB", "DT", "JJ", "."]
+    text: ' " You''re going_to be a regular.'
+    tokens: [[1, 2], [3, 6], [6, 9], [10, 18], [19, 21], [22, 23], [24, 31], [31, 32]]
+    wn16_key: [[4, "be%2:42:06::"]]
+    wn30_key: [[4, "be%2:42:06::"]]
+6nv/:
+    lemmas: ["You", "'ll", "get_in", "the", "office_building", "here", "."]
+    oewn2026_key: [[2, "oewn-02020375-v"]]
+    paragraph: '22'
+    pos: ["PRP", "MD", "VB", "DT", "NN", "RB", "."]
+    text: ' You''ll get_in the office_building here.'
+    tokens: [[1, 4], [4, 7], [8, 14], [15, 18], [19, 34], [35, 39], [39, 40]]
+    wn16_key: [[2, "get_in%2:38:01::"]]
+    wn30_key: [[2, "get_in%2:38:01::"]]
+gf0L:
+    lemmas: ["You", "do", "n't", "want", "to", "lease", "a", "place", "way_out", "in", "the", "stick", "."]
+    oewn2026_key: [[3, "oewn-01829179-v"], [5, "oewn-02465622-v"]]
+    paragraph: '22'
+    pos: ["PRP", "VBP", "RB", "VB", "VB", "VB", "DT", "NN", "NN", "IN", "DT", "NNS", "."]
+    text: ' You don''t want to lease a place way_out in the sticks.'
+    tokens: [[1, 4], [5, 7], [7, 10], [11, 15], [16, 18], [19, 24], [25, 26], [27, 32], [33, 40], [41, 43], [44, 47], [48, 54], [54, 55]]
+    wn16_key: [[3, "want%2:37:00::"], [5, "lease%2:41:00::"]]
+    wn30_key: [[3, "want%2:37:00::"], [5, "lease%2:41:00::"]]
+D4XQ:
+    lemmas: ["You", "get", "business", "where", "the", "business", "be", ",", "not", "where", "it", "be", "n't", "\"", "."]
+    oewn2026_key: [[1, "oewn-02215637-v"], [6, "oewn-02661230-v"], [11, "oewn-02661230-v"]]
+    paragraph: '22'
+    pos: ["PRP", "VBP", "NN", "WRB", "DT", "NN", "VBZ", ",", "RB", "WRB", "PRP", "VBZ", "RB", "``", "."]
+    text: ' You get business where the business is, not where it isn''t ".
+
+  '
+    tokens: [[1, 4], [5, 8], [9, 17], [18, 23], [24, 27], [28, 36], [37, 39], [39, 40], [41, 44], [45, 50], [51, 53], [54, 56], [56, 59], [60, 61], [61, 62]]
+    wn16_key: [[1, "get%2:40:00::"], [6, "be%2:42:05::"], [11, "be%2:42:05::"]]
+    wn30_key: [[1, "get%2:40:00::"], [6, "be%2:42:05::"], [11, "be%2:42:05::"]]
+Z8qq:
+    lemmas: ["I", "grin", "at", "him", ",", "hand", "him", "a_couple_of", "dollar", "and", "say", ",", "\"", "By", "the", "time", "you", "get", "the", "parking", "charge", "figure", "up", ",", "there", "should", "be", "a", "cigar", "in", "it", "for", "you", "\"", "."]
+    oewn2026_key: [[1, "oewn-00029018-v"], [5, "oewn-02235554-v"], [10, "oewn-01011267-v"], [17, "oewn-00120604-v"], [21, "oewn-00713964-v"], [26, "oewn-02609706-v"]]
+    paragraph: '23'
+    pos: ["PRP", "VBD", "IN", "PRP", ",", "VBD", "PRP", "JJ", "NNS", "CC", "VBD", ",", "''", "IN", "DT", "NN", "PRP", "VBP", "DT", "NN", "NN", "VBD", "RB", ",", "EX", "MD", "VB", "DT", "NN", "IN", "PRP", "IN", "PRP", "``", "."]
+    text: ' I grinned at him, handed him a_couple_of dollars and said, " By the time you get
+  the parking charge figured up, there should be a cigar in it for you ".
+
+  '
+    tokens: [[1, 2], [3, 10], [11, 13], [14, 17], [17, 18], [19, 25], [26, 29], [30, 41], [42, 49], [50, 53], [54, 58], [58, 59], [60, 61], [62, 64], [65, 68], [69, 73], [74, 77], [78, 81], [82, 85], [86, 93], [94, 100], [101, 108], [109, 111], [111, 112], [113, 118], [119, 125], [126, 128], [129, 130], [131, 136], [137, 139], [140, 142], [143, 146], [147, 150], [151, 152], [152, 153]]
+    wn16_key: [[1, "grin%2:29:00::"], [5, "hand%2:40:00::"], [10, "say%2:32:00::"], [17, "get%2:30:02::"], [21, "figure%2:31:01::"], [26, "be%2:42:00::"]]
+    wn30_key: [[1, "grin%2:29:00::"], [5, "hand%2:40:00::"], [10, "say%2:32:00::"], [17, "get%2:30:02::"], [21, "figure%2:31:01::"], [26, "be%2:42:00::"]]
+PjrW:
+    lemmas: ["I", "hurry", "over", "to", "the", "agency", "heap", ",", "jump", "in", ",", "start", "the", "motor", "and", "be", "just_in_time", "to", "see", "the", "car", "I", "want", "to", "shadow", "turn", "to", "the", "left", "."]
+    oewn2026_key: [[1, "oewn-02059573-v"], [8, "oewn-01967949-v"], [11, "oewn-00349400-v"], [15, "oewn-02610777-v"], [18, "oewn-02133754-v"], [22, "oewn-01829179-v"], [24, "oewn-02005493-v"], [25, "oewn-01913805-v"]]
+    paragraph: '24'
+    pos: ["PRP", "VBD", "RB", "TO", "DT", "NN", "NN", ",", "VBD", "RB", ",", "VBD", "DT", "NN", "CC", "VBD", "RB", "TO", "VB", "DT", "NN", "PRP", "VBD", "VB", "VB", "VB", "VB", "DT", "NN", "."]
+    text: ' I hurried over to the agency heap, jumped in, started the motor and was just_in_time
+  to see the car I wanted to shadow turn to the left.
+
+  '
+    tokens: [[1, 2], [3, 10], [11, 15], [16, 18], [19, 22], [23, 29], [30, 34], [34, 35], [36, 42], [43, 45], [45, 46], [47, 54], [55, 58], [59, 64], [65, 68], [69, 72], [73, 85], [86, 88], [89, 92], [93, 96], [97, 100], [101, 102], [103, 109], [110, 112], [113, 119], [120, 124], [125, 127], [128, 131], [132, 136], [136, 137]]
+    wn16_key: [[1, "hurry%2:38:00::"], [8, "jump%2:38:00::"], [11, "start%2:30:01::"], [15, "be%2:42:03::"], [18, "see%2:39:00::"], [22, "want%2:37:00::"], [24, "shadow%2:38:00::"], [25, "turn%2:38:03::"]]
+    wn30_key: [[1, "hurry%2:38:00::"], [8, "jump%2:38:00::"], [11, "start%2:30:01::"], [15, "be%2:42:03::"], [18, "see%2:39:00::"], [22, "want%2:37:00::"], [24, "shadow%2:38:00::"], [25, "turn%2:38:03::"]]
+2PmB:
+    lemmas: ["I", "be", "hold_up", "a_bit", "try", "to", "make", "a", "left", "turn", "."]
+    oewn2026_key: [[2, "oewn-00460731-v"], [4, "oewn-02535833-v"], [6, "oewn-02566500-v"]]
+    paragraph: '25'
+    pos: ["PRP", "VBD", "VB", "RB", "VBG", "TO", "VB", "DT", "JJ", "NN", "."]
+    text: ' I was held_up a_bit trying to make a left turn.'
+    tokens: [[1, 2], [3, 6], [7, 14], [15, 20], [21, 27], [28, 30], [31, 35], [36, 37], [38, 42], [43, 47], [47, 48]]
+    wn16_key: [[2, "hold_up%2:30:00::"], [4, "try%2:41:00::"], [6, "make%2:41:00::"]]
+    wn30_key: [[2, "hold_up%2:30:00::"], [4, "try%2:41:00::"], [6, "make%2:41:00::"]]
+2lVr:
+    lemmas: ["By", "the", "time", "I", "'d", "make", "it", "he", "be", "gone", "."]
+    oewn2026_key: [[5, "oewn-02566500-v"], [8, "oewn-02610777-v"]]
+    paragraph: '25'
+    pos: ["IN", "DT", "NN", "PRP", "MD", "VBD", "VB", "PRP", "VBD", "JJ", "."]
+    text: ' By the time I''d made it he was gone.'
+    tokens: [[1, 3], [4, 7], [8, 12], [13, 14], [14, 16], [17, 21], [22, 24], [25, 27], [28, 31], [32, 36], [36, 37]]
+    wn16_key: [[5, "make%2:41:00::"], [8, "be%2:42:03::"]]
+    wn30_key: [[5, "make%2:41:00::"], [8, "be%2:42:03::"]]
+Pl+Z:
+    lemmas: ["traffic", "be", "pretty", "heavy", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"]]
+    paragraph: '25'
+    pos: ["NNP", "VBD", "RB", "JJ", "."]
+    text: ' Traffic was pretty heavy.
+
+  '
+    tokens: [[1, 8], [9, 12], [13, 19], [20, 25], [25, 26]]
+    wn16_key: [[1, "be%2:42:03::"]]
+    wn30_key: [[1, "be%2:42:03::"]]
+iLT1:
+    lemmas: ["I", "turn_on", "the", "electric", "bug", ",", "and", "the", "signal", "come_in", "loud", "and", "clear", "."]
+    oewn2026_key: [[1, "oewn-01513031-v"], [9, "oewn-02010723-v"]]
+    paragraph: '26'
+    pos: ["PRP", "VBP", "DT", "JJ", "NN", ",", "CC", "DT", "NN", "VB", "JJ", "CC", "JJ", "."]
+    text: ' I turned_on the electric bug, and the signal came_in loud and clear.
+
+  '
+    tokens: [[1, 2], [3, 12], [13, 16], [17, 25], [26, 29], [29, 30], [31, 34], [35, 38], [39, 45], [46, 53], [54, 58], [59, 62], [63, 68], [68, 69]]
+    wn16_key: [[1, "turn_on%2:35:00::"], [9, "come_in%2:38:01::"]]
+    wn30_key: [[1, "turn_on%2:35:00::"], [9, "come_in%2:38:01::"]]
+NLEw:
+    lemmas: ["I", "make", "time", "and", "pick_up", "him", "up", "within", "ten", "block", "."]
+    oewn2026_key: [[4, "oewn-01960966-v"]]
+    paragraph: '27'
+    pos: ["PRP", "VBD", "NN", "CC", "VBD", "PRP", "IN", "IN", "CD", "NNS", "."]
+    text: ' I made time and picked him up within ten blocks.'
+    tokens: [[1, 2], [3, 7], [8, 12], [13, 16], [17, 23], [24, 27], [28, 30], [31, 37], [38, 41], [42, 48], [48, 49]]
+    wn16_key: [[4, "pick_up%2:38:00::"]]
+    wn30_key: [[4, "pick_up%2:38:00::"]]
+wYce:
+    lemmas: ["I", "stay", "half", "a", "block", "behind", "him", ",", "let", "lots_of", "car", "keep", "in", "between", "us", ",", "listen", "to", "the", "steady", "beep", "beep", "beep", "."]
+    oewn2026_key: [[1, "oewn-00117793-v"], [8, "oewn-02427979-v"], [11, "oewn-02690747-v"], [16, "oewn-02174335-v"]]
+    paragraph: '27'
+    pos: ["PRP", "VBD", "NN", "DT", "NN", "IN", "PRP", ",", "VBG", "JJ", "NNS", "VBP", "VB", "IN", "PRP", ",", "VBG", "VB", "DT", "JJ", "NN", "NN", "NN", "."]
+    text: ' I stayed half a block behind him, letting lots_of cars keep in between us, listening
+  to the steady beep beep beep.
+
+  '
+    tokens: [[1, 2], [3, 9], [10, 14], [15, 16], [17, 22], [23, 29], [30, 33], [33, 34], [35, 42], [43, 50], [51, 55], [56, 60], [61, 63], [64, 71], [72, 74], [74, 75], [76, 85], [86, 88], [89, 92], [93, 99], [100, 104], [105, 109], [110, 114], [114, 115]]
+    wn16_key: [[1, "stay%2:30:00::"], [8, "let%2:41:00::"], [11, "keep%2:42:07::"], [16, "listen%2:39:00::"]]
+    wn30_key: [[1, "stay%2:30:00::"], [8, "let%2:41:00::"], [11, "keep%2:42:07::"], [16, "listen%2:39:00::"]]
+QHsA:
+    lemmas: ["After", "fifteen", "minutes", "of", "traffic", "driving", "he", "turn", "to", "the", "left", "."]
+    oewn2026_key: [[7, "oewn-01911251-v"]]
+    paragraph: '28'
+    pos: ["IN", "CD", "NNS", "IN", "NN", "NN", "PRP", "VBD", "VB", "DT", "NN", "."]
+    text: ' After fifteen minutes of traffic driving he turned to the left.'
+    tokens: [[1, 6], [7, 14], [15, 22], [23, 25], [26, 33], [34, 41], [42, 44], [45, 51], [52, 54], [55, 58], [59, 63], [63, 64]]
+    wn16_key: [[7, "turn%2:38:00::"]]
+    wn30_key: [[7, "turn%2:38:00::"]]
+fy6p:
+    lemmas: ["I", "could", "n't", "see", "him", ",", "but", "the", "electric", "bugging", "device", "give", "steady", "beep", "when", "it", "be", "straight", "ahead", ",", "short", "half", "beep", "when", "the", "car", "I", "be", "follow", "be", "to", "the", "left", ",", "and", "long", "drawn-out", "beep", "when", "it", "turn", "to", "the", "right", "."]
+    oewn2026_key: [[3, "oewn-02133754-v"], [11, "oewn-02344167-v"], [16, "oewn-02661230-v"], [28, "oewn-02002464-v"], [29, "oewn-02661230-v"], [40, "oewn-01911251-v"]]
+    paragraph: '28'
+    pos: ["PRP", "MD", "RB", "VB", "PRP", ",", "CC", "DT", "JJ", "NN", "NN", "VBD", "JJ", "NNS", "WRB", "PRP", "VBD", "JJ", "RB", ",", "JJ", "NN", "NNS", "WRB", "DT", "NN", "PRP", "VBD", "VBG", "VBD", "TO", "DT", "JJ", ",", "CC", "JJ", "JJ", "NNS", "WRB", "PRP", "VBD", "VB", "DT", "NN", "."]
+    text: ' I couldn''t see him, but the electric bugging device gave steady beeps when it was
+  straight ahead, short half beeps when the car I was following was to the left, and
+  long drawn-out beeps when it turned to the right.'
+    tokens: [[1, 2], [3, 8], [8, 11], [12, 15], [16, 19], [19, 20], [21, 24], [25, 28], [29, 37], [38, 45], [46, 52], [53, 57], [58, 64], [65, 70], [71, 75], [76, 78], [79, 82], [83, 91], [92, 97], [97, 98], [99, 104], [105, 109], [110, 115], [116, 120], [121, 124], [125, 128], [129, 130], [131, 134], [135, 144], [145, 148], [149, 151], [152, 155], [156, 160], [160, 161], [162, 165], [166, 170], [171, 180], [181, 186], [187, 191], [192, 194], [195, 201], [202, 204], [205, 208], [209, 214], [214, 215]]
+    wn16_key: [[3, "see%2:39:00::"], [11, "give%2:40:05::"], [16, "be%2:42:05::"], [28, "follow%2:38:00::"], [29, "be%2:42:05::"], [40, "turn%2:38:00::"]]
+    wn30_key: [[3, "see%2:39:00::"], [11, "give%2:40:05::"], [16, "be%2:42:05::"], [28, "follow%2:38:00::"], [29, "be%2:42:05::"], [40, "turn%2:38:00::"]]
+xWbJ:
+    lemmas: ["If", "it", "ever", "get", "behind", "me", ",", "the", "beep", "turn", "to", "a", "buzz", "."]
+    oewn2026_key: [[3, "oewn-00149403-v"], [9, "oewn-02632685-v"]]
+    paragraph: '28'
+    pos: ["IN", "PRP", "RB", "VBD", "RB", "PRP", ",", "DT", "NN", "VBD", "VB", "DT", "NN", "."]
+    text: ' If it ever got behind me, the beep turned to a buzz.
+
+  '
+    tokens: [[1, 3], [4, 6], [7, 11], [12, 15], [16, 22], [23, 25], [25, 26], [27, 30], [31, 35], [36, 42], [43, 45], [46, 47], [48, 52], [52, 53]]
+    wn16_key: [[3, "get%2:30:00::"], [9, "turn%2:42:00::"]]
+    wn30_key: [[3, "get%2:30:00::"], [9, "turn%2:42:00::"]]
+P8pT:
+    lemmas: ["I", "turn", "left", "too_soon", "and", "get", "a", "signal", "show", "that", "I", "be", "still", "behind", "him", "but", "he", "be", "to", "the", "right", "."]
+    oewn2026_key: [[1, "oewn-01911251-v"], [5, "oewn-02215637-v"], [8, "oewn-02153218-v"], [11, "oewn-02661230-v"], [17, "oewn-02661230-v"]]
+    paragraph: '29'
+    pos: ["PRP", "VBD", "RB", "RB", "CC", "VBD", "DT", "NN", "VBG", "IN", "PRP", "VBD", "RB", "IN", "PRP", "CC", "PRP", "VBD", "TO", "DT", "NN", "."]
+    text: ' I turned left too_soon and got a signal showing that I was still behind him but
+  he was to the right.'
+    tokens: [[1, 2], [3, 9], [10, 14], [15, 23], [24, 27], [28, 31], [32, 33], [34, 40], [41, 48], [49, 53], [54, 55], [56, 59], [60, 65], [66, 72], [73, 76], [77, 80], [81, 83], [84, 87], [88, 90], [91, 94], [95, 100], [100, 101]]
+    wn16_key: [[1, "turn%2:38:00::"], [5, "get%2:40:00::"], [8, "show%2:39:02::"], [11, "be%2:42:05::"], [17, "be%2:42:05::"]]
+    wn30_key: [[1, "turn%2:38:00::"], [5, "get%2:40:00::"], [8, "show%2:39:02::"], [11, "be%2:42:05::"], [17, "be%2:42:05::"]]
+bdR5:
+    lemmas: ["After", "a", "while", "the", "signal", "become", "a", "buzz", "and", "I", "know", "he", "be", "behind", "me", "."]
+    oewn2026_key: [[5, "oewn-02632685-v"], [10, "oewn-00596016-v"], [12, "oewn-02661230-v"]]
+    paragraph: '29'
+    pos: ["IN", "DT", "IN", "DT", "NN", "VBD", "DT", "NN", "CC", "PRP", "VBD", "PRP", "VBD", "IN", "PRP", "."]
+    text: ' After a while the signal became a buzz and I knew he was behind me.'
+    tokens: [[1, 6], [7, 8], [9, 14], [15, 18], [19, 25], [26, 32], [33, 34], [35, 39], [40, 43], [44, 45], [46, 50], [51, 53], [54, 57], [58, 64], [65, 67], [67, 68]]
+    wn16_key: [[5, "become%2:42:01::"], [10, "know%2:31:02::"], [12, "be%2:42:05::"]]
+    wn30_key: [[5, "become%2:42:01::"], [10, "know%2:31:02::"], [12, "be%2:42:05::"]]
+UeuH:
+    lemmas: ["That", "mean", "he", "'d", "park", "someplace", "."]
+    oewn2026_key: [[1, "oewn-02641270-v"], [4, "oewn-01496037-v"]]
+    paragraph: '29'
+    pos: ["DT", "VBD", "PRP", "MD", "VBN", "RB", "."]
+    text: ' That meant he''d parked someplace.'
+    tokens: [[1, 5], [6, 11], [12, 14], [14, 16], [17, 23], [24, 33], [33, 34]]
+    wn16_key: [[1, "mean%2:42:00::"], [4, "park%2:35:00::"]]
+    wn30_key: [[1, "mean%2:42:00::"], [4, "park%2:35:00::"]]
+wToG:
+    lemmas: ["I", "make", "a", "big", "circle", "until", "I", "locate", "the", "car", "park", "at", "the", "curb", "in_front", "of", "an", "apartment", "house", "."]
+    oewn2026_key: [[7, "oewn-02291049-v"], [10, "oewn-01496037-v"]]
+    paragraph: '29'
+    pos: ["PRP", "VBD", "DT", "JJ", "NN", "IN", "PRP", "VBD", "DT", "NN", "VBN", "IN", "DT", "NN", "RB", "IN", "DT", "NN", "NN", "."]
+    text: ' I made a big circle until I located the car parked at the curb in_front of an apartment
+  house.
+
+  '
+    tokens: [[1, 2], [3, 7], [8, 9], [10, 13], [14, 20], [21, 26], [27, 28], [29, 36], [37, 40], [41, 44], [45, 51], [52, 54], [55, 58], [59, 63], [64, 72], [73, 75], [76, 78], [79, 88], [89, 94], [94, 95]]
+    wn16_key: [[7, "locate%2:40:00::"], [10, "park%2:35:00::"]]
+    wn30_key: [[7, "locate%2:40:00::"], [10, "park%2:35:00::"]]
+yoMA:
+    lemmas: ["I", "find", "a", "parking", "place", "half", "a", "block", "away", ",", "sit", "in", "the", "car", "and", "wait", "."]
+    oewn2026_key: [[1, "oewn-02253273-v"], [10, "oewn-01545905-v"], [15, "oewn-02644022-v"]]
+    paragraph: '30'
+    pos: ["PRP", "VBD", "DT", "NN", "NN", "NN", "DT", "NN", "RB", ",", "VBD", "IN", "DT", "NN", "CC", "VBD", "."]
+    text: ' I found a parking place half a block away, sat in the car and waited.
+
+  '
+    tokens: [[1, 2], [3, 8], [9, 10], [11, 18], [19, 24], [25, 29], [30, 31], [32, 37], [38, 42], [42, 43], [44, 47], [48, 50], [51, 54], [55, 58], [59, 62], [63, 69], [69, 70]]
+    wn16_key: [[1, "find%2:40:02::"], [10, "sit%2:35:00::"], [15, "wait%2:42:00::"]]
+    wn30_key: [[1, "find%2:40:02::"], [10, "sit%2:35:00::"], [15, "wait%2:42:00::"]]
+n68F:
+    lemmas: ["My", "quarry", "be", "in", "the", "apartment", "house", "for", "two", "hours", "."]
+    oewn2026_key: [[2, "oewn-02661230-v"]]
+    paragraph: '31'
+    pos: ["PRP$", "NN", "VBD", "IN", "DT", "NN", "NN", "IN", "CD", "NNS", "."]
+    text: ' My quarry was in the apartment house for two hours.'
+    tokens: [[1, 3], [4, 10], [11, 14], [15, 17], [18, 21], [22, 31], [32, 37], [38, 41], [42, 45], [46, 51], [51, 52]]
+    wn16_key: [[2, "be%2:42:05::"]]
+    wn30_key: [[2, "be%2:42:05::"]]
+l3wb:
+    lemmas: ["then", "he", "come_out", "and", "start", "drive", "toward", "the", "beach", "."]
+    oewn2026_key: [[2, "oewn-00424655-v"], [4, "oewn-00346415-v"], [5, "oewn-01934845-v"]]
+    paragraph: '31'
+    pos: ["RB", "PRP", "VB", "CC", "VBD", "VBG", "IN", "DT", "NN", "."]
+    text: ' Then he came_out and started driving toward the beach.
+
+  '
+    tokens: [[1, 5], [6, 8], [9, 17], [18, 21], [22, 29], [30, 37], [38, 44], [45, 48], [49, 54], [54, 55]]
+    wn16_key: [[2, "come_out%2:30:00::"], [4, "start%2:30:00::"], [5, "drive%2:38:01::"]]
+    wn30_key: [[2, "come_out%2:30:00::"], [4, "start%2:30:00::"], [5, "drive%2:38:01::"]]
+qO9C:
+    lemmas: ["By", "this", "time", "it", "be", "dark", "."]
+    oewn2026_key: [[4, "oewn-02610777-v"]]
+    paragraph: '32'
+    pos: ["IN", "DT", "NN", "PRP", "VBD", "JJ", "."]
+    text: ' By this time it was dark.'
+    tokens: [[1, 3], [4, 8], [9, 13], [14, 16], [17, 20], [21, 25], [25, 26]]
+    wn16_key: [[4, "be%2:42:03::"]]
+    wn30_key: [[4, "be%2:42:03::"]]
+CWr6:
+    lemmas: ["I", "could", "get", "up", "close_to", "him", "where", "there", "be", "traffic", "but", "have", "to", "drop_behind", "far", "behind", "when", "there", "be", "n't", "traffic", "."]
+    oewn2026_key: [[2, "oewn-00149403-v"], [8, "oewn-02610777-v"], [11, "oewn-00065141-v;oewn-02383544-v;oewn-02746620-v"], [13, "oewn-02062680-v"], [18, "oewn-02610777-v"]]
+    paragraph: '32'
+    pos: ["PRP", "MD", "VB", "RB", "RB", "PRP", "WRB", "EX", "VBD", "NN", "CC", "VBD", "VB", "VB", "RB", "IN", "WRB", "EX", "VBD", "RB", "NN", "."]
+    text: ' I could get up close_to him where there was traffic but had to drop far behind when
+  there wasn''t traffic.'
+    tokens: [[1, 2], [3, 8], [9, 12], [13, 15], [16, 24], [25, 28], [29, 34], [35, 40], [41, 44], [45, 52], [53, 56], [57, 60], [61, 63], [64, 68], [69, 72], [73, 79], [80, 84], [85, 90], [91, 94], [94, 97], [98, 105], [105, 106]]
+    wn16_key: [[2, "get%2:30:00::"], [8, "be%2:42:04::"], [11, "have%2:42:05::"], [13, "drop_behind%2:38:00::"], [18, "be%2:42:04::"]]
+    wn30_key: [[2, "get%2:30:00::"], [8, "be%2:42:04::"], [11, "have%2:29:02::;have%2:41:00::;have%2:42:12::"], [13, "drop_behind%2:38:00::"], [18, "be%2:42:04::"]]
+Ar8v:
+    lemmas: ["My", "light", "would", "have", "be", "a", "giveaway", "if", "I", "'d", "try", "to", "shadow", "him", "in", "the", "conventional", "manner", "."]
+    oewn2026_key: [[4, "oewn-02622439-v"], [10, "oewn-02535833-v"], [12, "oewn-02005493-v"]]
+    paragraph: '32'
+    pos: ["PRP$", "NNS", "MD", "VB", "VBN", "DT", "NN", "IN", "PRP", "MD", "VBD", "TO", "VB", "PRP", "IN", "DT", "JJ", "NN", "."]
+    text: ' My lights would have been a giveaway if I''d tried to shadow him in the conventional
+  manner.'
+    tokens: [[1, 3], [4, 10], [11, 16], [17, 21], [22, 26], [27, 28], [29, 37], [38, 40], [41, 42], [42, 44], [45, 50], [51, 53], [54, 60], [61, 64], [65, 67], [68, 71], [72, 84], [85, 91], [91, 92]]
+    wn16_key: [[4, "be%2:42:06::"], [10, "try%2:41:00::"], [12, "shadow%2:38:00::"]]
+    wn30_key: [[4, "be%2:42:06::"], [10, "try%2:41:00::"], [12, "shadow%2:38:00::"]]
+XxSK:
+    lemmas: ["moreover", ",", "I", "'d", "have", "lose", "him", "if", "it", "have", "n't", "be", "for", "the", "electronic", "shadowing", "device", "."]
+    oewn2026_key: [[5, "oewn-02292463-v"], [11, "oewn-02610777-v"]]
+    paragraph: '32'
+    pos: ["RB", ",", "PRP", "MD", "VB", "VBN", "PRP", "IN", "PRP", "VBD", "RB", "VBN", "IN", "DT", "JJ", "JJ", "NN", "."]
+    text: ' Moreover, I''d have lost him if it hadn''t been for the electronic shadowing device.'
+    tokens: [[1, 9], [9, 10], [11, 12], [12, 14], [15, 19], [20, 24], [25, 28], [29, 31], [32, 34], [35, 38], [38, 41], [42, 46], [47, 50], [51, 54], [55, 65], [66, 75], [76, 82], [82, 83]]
+    wn16_key: [[5, "lose%2:40:01::"], [11, "be%2:42:03::"]]
+    wn30_key: [[5, "lose%2:40:01::"], [11, "be%2:42:03::"]]
+sZFf:
+    lemmas: ["His", "signal", "be", "come", "loud", "and", "clear", "and_then", "all_of_a_sudden", "it", "turn", "to", "a", "buzz", "."]
+    oewn2026_key: [[3, "oewn-02010723-v"], [10, "oewn-02632685-v"]]
+    paragraph: '32'
+    pos: ["PRP$", "NN", "VBD", "VBG", "JJ", "CC", "JJ", "RB", "RB", "PRP", "VBD", "VB", "DT", "NN", "."]
+    text: ' His signal was coming loud and clear and_then all_of_a_sudden it turned to a buzz.'
+    tokens: [[1, 4], [5, 11], [12, 15], [16, 22], [23, 27], [28, 31], [32, 37], [38, 46], [47, 62], [63, 65], [66, 72], [73, 75], [76, 77], [78, 82], [82, 83]]
+    wn16_key: [[3, "come%2:38:02::"], [10, "turn%2:42:00::"]]
+    wn30_key: [[3, "come%2:38:02::"], [10, "turn%2:42:00::"]]
+Bzcf:
+    lemmas: ["I", "circle", "the", "block", "and", "find", "he", "be", "in", "the", "parking_lot", "of", "a", "high-class", "restaurant", "."]
+    oewn2026_key: [[1, "oewn-01915332-v"], [5, "oewn-02158938-v"], [7, "oewn-02661230-v"]]
+    paragraph: '32'
+    pos: ["PRP", "VBD", "DT", "NN", "CC", "VBD", "PRP", "VBD", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
+    text: ' I circled the block and found he was in the parking_lot of a high-class restaurant.
+
+  '
+    tokens: [[1, 2], [3, 10], [11, 14], [15, 20], [21, 24], [25, 30], [31, 33], [34, 37], [38, 40], [41, 44], [45, 56], [57, 59], [60, 61], [62, 72], [73, 83], [83, 84]]
+    wn16_key: [[1, "circle%2:38:01::"], [5, "find%2:39:02::"], [7, "be%2:42:05::"]]
+    wn30_key: [[1, "circle%2:38:01::"], [5, "find%2:39:02::"], [7, "be%2:42:05::"]]
+918A:
+    lemmas: ["I", "sit", "where", "I", "could", "watch", "the", "exit", "and", "realize", "I", "be", "hungry", "."]
+    oewn2026_key: [[1, "oewn-01545905-v"], [5, "oewn-02460829-v"], [9, "oewn-00730579-v"], [11, "oewn-02610777-v"]]
+    paragraph: '33'
+    pos: ["PRP", "VBD", "WRB", "PRP", "MD", "VB", "DT", "NN", "CC", "VBD", "PRP", "VBD", "JJ", "."]
+    text: ' I sat where I could watch the exit and realized I was hungry.'
+    tokens: [[1, 2], [3, 6], [7, 12], [13, 14], [15, 20], [21, 26], [27, 30], [31, 35], [36, 39], [40, 48], [49, 50], [51, 54], [55, 61], [61, 62]]
+    wn16_key: [[1, "sit%2:35:00::"], [5, "watch%2:41:00::"], [9, "realize%2:31:01::"], [11, "be%2:42:03::"]]
+    wn30_key: [[1, "sit%2:35:00::"], [5, "watch%2:41:00::"], [9, "realize%2:31:01::"], [11, "be%2:42:03::"]]
+iEZG:
+    lemmas: ["I", "sit", "there", "with", "the", "faint", "odor", "of", "charcoal-broiled", "steak", "tantalize", "my", "nostril", "and", "occasionally", "catch", "the", "aroma", "of", "coffee", "."]
+    oewn2026_key: [[1, "oewn-01545905-v"], [10, "oewn-00852181-v"], [15, "oewn-02122438-v"]]
+    paragraph: '33'
+    pos: ["PRP", "VBD", "RB", "IN", "DT", "JJ", "NN", "IN", "JJ", "NNS", "VBG", "PRP$", "NNS", "CC", "RB", "VBG", "DT", "NN", "IN", "NN", "."]
+    text: ' I sat there with the faint odor of charcoal-broiled steaks tantalizing my nostrils
+  and occasionally catching the aroma of coffee.
+
+  '
+    tokens: [[1, 2], [3, 6], [7, 12], [13, 17], [18, 21], [22, 27], [28, 32], [33, 35], [36, 52], [53, 59], [60, 71], [72, 74], [75, 83], [84, 87], [88, 100], [101, 109], [110, 113], [114, 119], [120, 122], [123, 129], [129, 130]]
+    wn16_key: [[1, "sit%2:35:00::"], [10, "tantalize%2:32:00::"], [15, "catch%2:39:01::"]]
+    wn30_key: [[1, "sit%2:35:00::"], [10, "tantalize%2:32:00::"], [15, "catch%2:39:01::"]]
+5CrE:
+    lemmas: ["My", "man", "come_out", "an", "hour", "later", ",", "drive", "to", "the", "beach", ",", "turn", "right", "and", "after", "half", "a", "mile", "go", "to", "the", "swim", "and", "tan_motel", "."]
+    oewn2026_key: [[2, "oewn-00424655-v"], [7, "oewn-01934845-v"], [12, "oewn-01911251-v"], [19, "oewn-01839438-v"]]
+    paragraph: '34'
+    pos: ["PRP$", "NN", "VB", "DT", "NN", "RB", ",", "VBD", "VB", "DT", "NN", ",", "VBD", "NN", "CC", "IN", "NN", "DT", "NN", "VBD", "VB", "DT", "NNP", "CC", "NNP", "."]
+    text: ' My man came_out an hour later, drove to the beach, turned right and after half a
+  mile went to the Swim and Tan_Motel.
+
+  '
+    tokens: [[1, 3], [4, 7], [8, 16], [17, 19], [20, 24], [25, 30], [30, 31], [32, 37], [38, 40], [41, 44], [45, 50], [50, 51], [52, 58], [59, 64], [65, 68], [69, 74], [75, 79], [80, 81], [82, 86], [87, 91], [92, 94], [95, 98], [99, 103], [104, 107], [108, 117], [117, 118]]
+    wn16_key: [[2, "come_out%2:30:00::"], [7, "drive%2:38:01::"], [12, "turn%2:38:00::"], [19, "go%2:38:00::"]]
+    wn30_key: [[2, "come_out%2:30:00::"], [7, "drive%2:38:01::"], [12, "turn%2:38:00::"], [19, "go%2:38:00::"]]
+G+C6:
+    lemmas: ["It", "be", "a", "fairly", "modern", "motel", "with", "quite", "a_bit", "of", "electrical", "display", "in_front", "."]
+    oewn2026_key: [[1, "oewn-02622439-v"]]
+    paragraph: '35'
+    pos: ["PRP", "VBD", "DT", "RB", "JJ", "NN", "IN", "RB", "RB", "IN", "JJ", "NN", "RB", "."]
+    text: ' It was a fairly modern motel with quite a_bit of electrical display in_front.'
+    tokens: [[1, 3], [4, 7], [8, 9], [10, 16], [17, 23], [24, 29], [30, 34], [35, 40], [41, 46], [47, 49], [50, 60], [61, 68], [69, 77], [77, 78]]
+    wn16_key: [[1, "be%2:42:06::"]]
+    wn30_key: [[1, "be%2:42:06::"]]
+KjT8:
+    lemmas: ["I", "remember", "it", "be", "the", "peeping_tom", "place", "."]
+    oewn2026_key: [[1, "oewn-00609334-v"], [3, "oewn-02622439-v"]]
+    paragraph: '35'
+    pos: ["PRP", "VBD", "PRP", "VBD", "DT", "NN", "NN", "."]
+    text: ' I remembered it was the Peeping_Tom place.
+
+  '
+    tokens: [[1, 2], [3, 13], [14, 16], [17, 20], [21, 24], [25, 36], [37, 42], [42, 43]]
+    wn16_key: [[1, "remember%2:31:00::"], [3, "be%2:42:06::"]]
+    wn30_key: [[1, "remember%2:31:00::"], [3, "be%2:42:06::"]]
++hx3:
+    lemmas: ["I", "wait", "until", "my", "man", "be", "come_out", "of", "the", "office", "with", "the", "key", "to", "a", "cabin", "before", "I", "go_in", "to", "register", "."]
+    oewn2026_key: [[1, "oewn-02644022-v"], [6, "oewn-00424655-v"], [18, "oewn-02020375-v"], [20, "oewn-02476510-v"]]
+    paragraph: '36'
+    pos: ["PRP", "VBD", "IN", "PRP$", "NN", "VBD", "VB", "IN", "DT", "NN", "IN", "DT", "NN", "VB", "DT", "NN", "IN", "PRP", "VBP", "TO", "VB", "."]
+    text: ' I waited until my man was coming_out of the office with the key to a cabin before
+  I went_in to register.
+
+  '
+    tokens: [[1, 2], [3, 9], [10, 15], [16, 18], [19, 22], [23, 26], [27, 37], [38, 40], [41, 44], [45, 51], [52, 56], [57, 60], [61, 64], [65, 67], [68, 69], [70, 75], [76, 82], [83, 84], [85, 92], [93, 95], [96, 104], [104, 105]]
+    wn16_key: [[1, "wait%2:42:00::"], [6, "come_out%2:30:00::"], [18, "go_in%2:38:00::"], [20, "register%2:41:01::"]]
+    wn30_key: [[1, "wait%2:42:00::"], [6, "come_out%2:30:00::"], [18, "go_in%2:38:00::"], [20, "register%2:41:01::"]]
+BW9h:
+    lemmas: ["The", "card", "the", "man", "I", "be", "shadow", "have", "fill_out", "be", "still", "on", "the", "counter", "."]
+    oewn2026_key: [[6, "oewn-02005493-v"], [8, "oewn-01022740-v"], [9, "oewn-02661230-v"]]
+    paragraph: '37'
+    pos: ["DT", "NN", "DT", "NN", "PRP", "VBD", "VBG", "VBD", "VB", "VBD", "RB", "IN", "DT", "NN", "."]
+    text: ' The card the man I was shadowing had filled_out was still on the counter.'
+    tokens: [[1, 4], [5, 9], [10, 13], [14, 17], [18, 19], [20, 23], [24, 33], [34, 37], [38, 48], [49, 52], [53, 58], [59, 61], [62, 65], [66, 73], [73, 74]]
+    wn16_key: [[6, "shadow%2:38:00::"], [8, "fill_out%2:32:00::"], [9, "be%2:42:05::"]]
+    wn30_key: [[6, "shadow%2:38:00::"], [8, "fill_out%2:32:00::"], [9, "be%2:42:05::"]]
+qvFn:
+    lemmas: ["I", "notice", "that", "he", "be", "in", "unit", "12", "and", "that", "he", "have", "register", "under", "the", "name", "of", "oscar_l._palmer", "and", "wife", ",", "give", "a", "san_francisco", "address", "."]
+    oewn2026_key: [[1, "oewn-02122959-v"], [4, "oewn-02661230-v"], [12, "oewn-02477113-v"], [21, "oewn-02240624-v"]]
+    paragraph: '37'
+    pos: ["PRP", "VBD", "IN", "PRP", "VBD", "IN", "NN", "CD", "CC", "IN", "PRP", "VBD", "VBN", "IN", "DT", "NN", "IN", "NNP", "CC", "NN", ",", "VBG", "DT", "NN", "NN", "."]
+    text: ' I noticed that he was in Unit 12 and that he had registered under the name of Oscar_L._Palmer
+  and wife, giving a San_Francisco address.
+
+  '
+    tokens: [[1, 2], [3, 10], [11, 15], [16, 18], [19, 22], [23, 25], [26, 30], [31, 33], [34, 37], [38, 42], [43, 45], [46, 49], [50, 60], [61, 66], [67, 70], [71, 75], [76, 78], [79, 94], [95, 98], [99, 103], [103, 104], [105, 111], [112, 113], [114, 127], [128, 135], [135, 136]]
+    wn16_key: [[1, "notice%2:39:00::"], [4, "be%2:42:05::"], [12, "register%2:41:00::"], [21, "give%2:40:07::"]]
+    wn30_key: [[1, "notice%2:39:00::"], [4, "be%2:42:05::"], [12, "register%2:41:00::"], [21, "give%2:40:07::"]]
+Zr+8:
+    lemmas: ["He", "have", "write", "out", "the", "license_number", "of", "his", "car", "but", "have", "transpose", "the", "last", "two", "figure", ",", "an", "old", "dodge", "which", "be", "still", "good", "."]
+    oewn2026_key: [[2, "oewn-00995046-v"], [11, "oewn-00381095-v"], [21, "oewn-02610777-v"]]
+    paragraph: '38'
+    pos: ["PRP", "VBD", "VBN", "IN", "DT", "NN", "IN", "PRP$", "NN", "CC", "VBD", "VBN", "DT", "JJ", "CD", "NNS", ",", "DT", "JJ", "NN", "WDT", "VBZ", "RB", "JJ", "."]
+    text: ' He had written out the license_number of his car but had transposed the last two
+  figures, an old dodge which is still good.'
+    tokens: [[1, 3], [4, 7], [8, 15], [16, 19], [20, 23], [24, 38], [39, 41], [42, 45], [46, 49], [50, 53], [54, 57], [58, 68], [69, 72], [73, 77], [78, 81], [82, 89], [89, 90], [91, 93], [94, 97], [98, 103], [104, 109], [110, 112], [113, 118], [119, 123], [123, 124]]
+    wn16_key: [[2, "write%2:32:00::"], [11, "transpose%2:30:00::"], [21, "be%2:42:03::"]]
+    wn30_key: [[2, "write%2:32:00::"], [11, "transpose%2:30:00::"], [21, "be%2:42:03::"]]
+DCik:
+    lemmas: ["Ninety-nine", "time_out", "of", "a_hundred", "the", "motel", "manager", "do", "n't", "check", "the", "license_number", "on", "the", "plate", "against", "the", "license_number", "the", "tenant", "write", "out", "."]
+    oewn2026_key: [[9, "oewn-02538948-v"], [20, "oewn-00995046-v"]]
+    paragraph: '38'
+    pos: ["CD", "NN", "IN", "JJ", "DT", "NN", "NN", "VBZ", "RB", "VB", "DT", "NN", "IN", "DT", "NNS", "IN", "DT", "NN", "DT", "NN", "VBZ", "RB", "."]
+    text: ' Ninety-nine times_out of a_hundred the motel manager doesn''t check the license_number
+  on the plates against the license_number the tenant writes out.'
+    tokens: [[1, 12], [13, 22], [23, 25], [26, 35], [36, 39], [40, 45], [46, 53], [54, 58], [58, 61], [62, 67], [68, 71], [72, 86], [87, 89], [90, 93], [94, 100], [101, 108], [109, 112], [113, 127], [128, 131], [132, 138], [139, 145], [146, 149], [149, 150]]
+    wn16_key: [[9, "check%2:41:04::"], [20, "write%2:32:00::"]]
+    wn30_key: [[9, "check%2:41:04::"], [20, "write%2:32:00::"]]
+Kt20:
+    lemmas: ["If", "he", "do", ",", "it", "'s", "still", "good", "than", "an", "even_chance", "he", "win", "n't", "notice", "the", "transposition", "of", "the", "numbers", ",", "and", "if", "he", "should", "notice", "it", ",", "the", "thing", "can", "be", "pass_off", "as", "an", "honest", "mistake", "."]
+    oewn2026_key: [[14, "oewn-02158938-v"], [25, "oewn-02158938-v"], [32, "oewn-02138957-v"]]
+    paragraph: '38'
+    pos: ["IN", "PRP", "VBZ", ",", "PRP", "VBZ", "RB", "JJR", "IN", "DT", "NN", "PRP", "VBD", "RB", "VB", "DT", "NN", "IN", "DT", "NNS", ",", "CC", "IN", "PRP", "MD", "VB", "PRP", ",", "DT", "NN", "MD", "VB", "VB", "IN", "DT", "JJ", "NN", "."]
+    text: ' If he does, it''s still better than an even_chance he wonn''t notice the transposition
+  of the numbers, and if he should notice it, the thing can be passed_off as an honest
+  mistake.
+
+  '
+    tokens: [[1, 3], [4, 6], [7, 11], [11, 12], [13, 15], [15, 17], [18, 23], [24, 30], [31, 35], [36, 38], [39, 50], [51, 53], [54, 57], [57, 60], [61, 67], [68, 71], [72, 85], [86, 88], [89, 92], [93, 100], [100, 101], [102, 105], [106, 108], [109, 111], [112, 118], [119, 125], [126, 128], [128, 129], [130, 133], [134, 139], [140, 143], [144, 146], [147, 157], [158, 160], [161, 163], [164, 170], [171, 178], [178, 179]]
+    wn16_key: [[14, "notice%2:39:04::"], [25, "notice%2:39:04::"], [32, "pass_off%2:39:00::"]]
+    wn30_key: [[14, "notice%2:39:04::"], [25, "notice%2:39:04::"], [32, "pass_off%2:39:00::"]]
+/Owm:
+    lemmas: ["I", "use", "the", "alias", "of", "robert_c._richards", ",", "give", "the", "first", "three", "letters", "and", "the", "first_and_last", "figure", "of", "the", "license_number", "on", "the", "agency", "heap", ",", "but", "a_couple_of", "phony", "numbers", "in_between", "."]
+    oewn2026_key: [[1, "oewn-01161188-v"], [7, "oewn-02240624-v"]]
+    paragraph: '39'
+    pos: ["PRP", "VBD", "DT", "NN", "IN", "NNP", ",", "VBD", "DT", "JJ", "CD", "NNS", "CC", "DT", "RB", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "NN", ",", "CC", "JJ", "JJ", "NNS", "RB", "."]
+    text: ' I used the alias of Robert_C._Richards, gave the first three letters and the first_and_last
+  figure of the license_number on the agency heap, but a_couple_of phony numbers in_between.
+
+  '
+    tokens: [[1, 2], [3, 7], [8, 11], [12, 17], [18, 20], [21, 39], [39, 40], [41, 45], [46, 49], [50, 55], [56, 61], [62, 69], [70, 73], [74, 77], [78, 92], [93, 99], [100, 102], [103, 106], [107, 121], [122, 124], [125, 128], [129, 135], [136, 140], [140, 141], [142, 145], [146, 157], [158, 163], [164, 171], [172, 182], [182, 183]]
+    wn16_key: [[1, "use%2:34:01::"], [7, "give%2:40:07::"]]
+    wn30_key: [[1, "use%2:34:01::"], [7, "give%2:40:07::"]]
+WqiP:
+    lemmas: ["I", "could", "have", "write", "anything", "."]
+    oewn2026_key: [[3, "oewn-00995046-v"]]
+    paragraph: '40'
+    pos: ["PRP", "MD", "VB", "VBN", "NN", "."]
+    text: ' I could have written anything.'
+    tokens: [[1, 2], [3, 8], [9, 13], [14, 21], [22, 30], [30, 31]]
+    wn16_key: [[3, "write%2:32:00::"]]
+    wn30_key: [[3, "write%2:32:00::"]]
+7dBG:
+    lemmas: ["The", "manager", "of", "the", "motel", "be", "a", "woman", "who", "apparently", "do", "n't", "care", "."]
+    oewn2026_key: [[5, "oewn-02622439-v"], [12, "oewn-01826886-v"]]
+    paragraph: '40'
+    pos: ["DT", "NN", "IN", "DT", "NN", "VBD", "DT", "NN", "WP", "RB", "VBD", "RB", "VB", "."]
+    text: ' The manager of the motel was a woman who apparently didn''t care.'
+    tokens: [[1, 4], [5, 12], [13, 15], [16, 19], [20, 25], [26, 29], [30, 31], [32, 37], [38, 41], [42, 52], [53, 56], [56, 59], [60, 64], [64, 65]]
+    wn16_key: [[5, "be%2:42:06::"], [12, "care%2:37:02::"]]
+    wn30_key: [[5, "be%2:42:06::"], [12, "care%2:37:02::"]]
+BWSe:
+    lemmas: ["She", "be", "comply", "with", "the", "law", "in", "regard_to", "registration", "but", "she", "certainly", "be", "n't", "check", "license_number", "or", "bother", "the", "tenant", "."]
+    oewn2026_key: [[14, "oewn-02538948-v"], [17, "oewn-01791774-v"]]
+    paragraph: '40'
+    pos: ["PRP", "VBD", "VB", "VB", "DT", "NN", "IN", "NN", "NNS", "CC", "PRP", "RB", "VBD", "RB", "VBG", "NN", "CC", "VBG", "DT", "NNS", "."]
+    text: ' She was complying with the law in regard_to registrations but she certainly wasn''t
+  checking license_numbers or bothering the tenants.
+
+  '
+    tokens: [[1, 4], [5, 8], [9, 18], [19, 23], [24, 27], [28, 31], [32, 34], [35, 44], [45, 58], [59, 62], [63, 66], [67, 76], [77, 80], [80, 83], [84, 92], [93, 108], [109, 111], [112, 121], [122, 125], [126, 133], [133, 134]]
+    wn16_key: [[2, "comply%2:42:00::"], [14, "check%2:41:04::"], [17, "bother%2:37:00::"]]
+    wn30_key: [[14, "check%2:41:04::"], [17, "bother%2:37:00::"]]
+Zm8X:
+    lemmas: ["\"", "You", "mean", "you", "be", "all", "alone", ",", "mr._richards", "\"", "?"]
+    oewn2026_key: [[2, "oewn-00957180-v"], [4, "oewn-02610777-v"]]
+    paragraph: '41'
+    pos: ["``", "PRP", "VBP", "PRP", "VBP", "DT", "RB", ",", "NNP", "''", "."]
+    text: ' " You mean you''re all alone, Mr._Richards "?
+
+  '
+    tokens: [[1, 2], [3, 6], [7, 11], [12, 15], [15, 18], [19, 22], [23, 28], [28, 29], [30, 42], [43, 44], [44, 45]]
+    wn16_key: [[2, "mean%2:32:01::"], [4, "be%2:42:03::"]]
+    wn30_key: [[2, "mean%2:32:01::"], [4, "be%2:42:03::"]]
+kfZm:
+    lemmas: ["\"", "That", "be", "right", "\"", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"]]
+    paragraph: '42'
+    pos: ["``", "DT", "VBZ", "NN", "``", "."]
+    text: ' " That''s right ".
+
+  '
+    tokens: [[1, 2], [3, 7], [7, 9], [10, 15], [16, 17], [17, 18]]
+    wn16_key: [[2, "be%2:42:03::"]]
+    wn30_key: [[2, "be%2:42:03::"]]
+jeU5:
+    lemmas: ["\"", "Your", "wife", "be", "n't", "go_to", "join", "you", "-", "later", "\"", "?"]
+    oewn2026_key: [[6, "oewn-02439823-v"]]
+    paragraph: '43'
+    pos: ["``", "PRP$", "NN", "VBZ", "RB", "VB", "VB", "PRP", ":", "RB", "''", "."]
+    text: ' " Your wife isn''t going_to join you - later "?
+
+  '
+    tokens: [[1, 2], [3, 7], [8, 12], [13, 15], [15, 18], [19, 27], [28, 32], [33, 36], [37, 38], [39, 44], [45, 46], [46, 47]]
+    wn16_key: [[6, "join%2:41:00::"]]
+    wn30_key: [[6, "join%2:41:00::"]]
+Qrgt:
+    lemmas: ["\"", "I", "do", "n't", "think", "so", "\"", "."]
+    oewn2026_key: [[4, "oewn-00633399-v"]]
+    paragraph: '44'
+    pos: ["``", "PRP", "VBP", "RB", "VB", "RB", "``", "."]
+    text: ' " I don''t think so ".
+
+  '
+    tokens: [[1, 2], [3, 4], [5, 7], [7, 10], [11, 16], [17, 19], [20, 21], [21, 22]]
+    wn16_key: [[4, "think%2:31:03::"]]
+    wn30_key: [[4, "think%2:31:03::"]]
+Ubq4:
+    lemmas: ["\"", "If", "you", "expect", "her", "to", "show_up", "\"", ",", "she", "say", ",", "\"", "you", "'d", "good", "put", "'", "and", "wife", "'", "on", "there", "."]
+    oewn2026_key: [[3, "oewn-00721987-v"], [6, "oewn-00424655-v"], [10, "oewn-01011267-v"], [16, "oewn-01496967-v"]]
+    paragraph: '45'
+    pos: ["``", "IN", "PRP", "VBP", "PRP", "TO", "VB", "''", ",", "PRP", "VBD", ",", "``", "PRP", "MD", "JJR", "VB", "''", "CC", "NN", "''", "IN", "EX", "."]
+    text: ' " If you expect her to show_up ", she said, " you''d better put'' and wife'' on
+  there.'
+    tokens: [[1, 2], [3, 5], [6, 9], [10, 16], [17, 20], [21, 23], [24, 31], [32, 33], [33, 34], [35, 38], [39, 43], [43, 44], [45, 46], [47, 50], [50, 52], [53, 59], [60, 63], [63, 64], [65, 68], [69, 73], [73, 74], [75, 77], [78, 83], [83, 84]]
+    wn16_key: [[3, "expect%2:31:01::"], [6, "show_up%2:30:00::"], [10, "say%2:32:00::"], [16, "put%2:35:00::"]]
+    wn30_key: [[3, "expect%2:31:01::"], [6, "show_up%2:30:00::"], [10, "say%2:32:00::"], [16, "put%2:35:00::"]]
+prql:
+    lemmas: ["It", "be", "a", "formality", ",", "you", "know", "\"", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [6, "oewn-00596016-v"]]
+    paragraph: '45'
+    pos: ["PRP", "VBZ", "DT", "NN", ",", "PRP", "VBP", "``", "."]
+    text: ' It''s a formality, you know ".
+
+  '
+    tokens: [[1, 3], [3, 5], [6, 7], [8, 17], [17, 18], [19, 22], [23, 27], [28, 29], [29, 30]]
+    wn16_key: [[1, "be%2:42:03::"], [6, "know%2:31:01::"]]
+    wn30_key: [[1, "be%2:42:03::"], [6, "know%2:31:01::"]]
+pKa9:
+    lemmas: ["\"", "Any", "difference", "in", "the", "rate", "\"", "?"]
+    oewn2026_key: []
+    paragraph: '46'
+    pos: ["``", "DT", "NN", "IN", "DT", "NN", "''", "."]
+    text: ' " Any difference in the rate "?'
+    tokens: [[1, 2], [3, 6], [7, 17], [18, 20], [21, 24], [25, 29], [30, 31], [31, 32]]
+    wn16_key: []
+    wn30_key: []
+h+Vw:
+    lemmas: ["I", "ask", "."]
+    oewn2026_key: [[1, "oewn-00899241-v"]]
+    paragraph: '46'
+    pos: ["PRP", "VBD", "."]
+    text: ' I asked.
+
+  '
+    tokens: [[1, 2], [3, 8], [8, 9]]
+    wn16_key: [[1, "ask%2:32:00::"]]
+    wn30_key: [[1, "ask%2:32:00::"]]
+RcQ/:
+    lemmas: ["\"", "not", "to", "you", "\"", ",", "she", "say", "smile", "."]
+    oewn2026_key: [[7, "oewn-01011267-v"], [8, "oewn-00028558-v"]]
+    paragraph: '47'
+    pos: ["``", "RB", "TO", "PRP", "``", ",", "PRP", "VBD", "VBG", "."]
+    text: ' " Not to you ", she said smiling.'
+    tokens: [[1, 2], [3, 6], [7, 9], [10, 13], [14, 15], [15, 16], [17, 20], [21, 25], [26, 33], [33, 34]]
+    wn16_key: [[7, "say%2:32:00::"], [8, "smile%2:29:00::"]]
+    wn30_key: [[7, "say%2:32:00::"], [8, "smile%2:29:00::"]]
+PNZ0:
+    lemmas: ["\"", "It", "be", "ten", "dollar", "either", "way", "."]
+    oewn2026_key: [[2, "oewn-02670846-v"]]
+    paragraph: '47'
+    pos: ["``", "PRP", "VBZ", "CD", "NNS", "DT", "NN", "."]
+    text: ' " It''s ten dollars either way.'
+    tokens: [[1, 2], [3, 5], [5, 7], [8, 11], [12, 19], [20, 26], [27, 30], [30, 31]]
+    wn16_key: [[2, "be%2:42:07::"]]
+    wn30_key: [[2, "be%2:42:07::"]]
+jpqy:
+    lemmas: ["There", "be", "ice_cube", "in", "a", "container", "at", "the", "far", "end", "and", "in", "another", "by", "the", "office", "."]
+    oewn2026_key: [[1, "oewn-02661230-v"]]
+    paragraph: '47'
+    pos: ["EX", "VBP", "NN", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "CC", "IN", "DT", "IN", "DT", "NN", "."]
+    text: ' There are ice_cubes in a container at the far end and in another by the office.'
+    tokens: [[1, 6], [7, 10], [11, 20], [21, 23], [24, 25], [26, 35], [36, 38], [39, 42], [43, 46], [47, 50], [51, 54], [55, 57], [58, 65], [66, 68], [69, 72], [73, 79], [79, 80]]
+    wn16_key: [[1, "be%2:42:05::"]]
+    wn30_key: [[1, "be%2:42:05::"]]
+S0Dn:
+    lemmas: ["There", "be", "three", "soft-drink", "vending_machine", ",", "and", "if", "you", "should", "be", "join", "by", "-", "anybody", "-", "try", "to", "keep", "things", "quiet", ",", "if", "you", "will", "."]
+    oewn2026_key: [[11, "oewn-02439823-v"], [16, "oewn-02535833-v"], [18, "oewn-02687605-v"]]
+    paragraph: '47'
+    pos: ["EX", "VB", "CD", "NN", "NN", ",", "CC", "IN", "PRP", "MD", "VB", "VBN", "IN", ":", "NN", ":", "VB", "TO", "VB", "NNS", "JJ", ",", "IN", "PRP", "MD", "."]
+    text: ' There are three soft-drink vending_machines, and if you should be joined by - anybody
+  - try to keep things quiet, if you will.'
+    tokens: [[1, 6], [7, 10], [11, 16], [17, 27], [28, 44], [44, 45], [46, 49], [50, 52], [53, 56], [57, 63], [64, 66], [67, 73], [74, 76], [77, 78], [79, 86], [87, 88], [89, 92], [93, 95], [96, 100], [101, 107], [108, 113], [113, 114], [115, 117], [118, 121], [122, 126], [126, 127]]
+    wn16_key: [[11, "join%2:41:00::"], [16, "try%2:41:00::"], [18, "keep%2:42:00::"]]
+    wn30_key: [[11, "join%2:41:00::"], [16, "try%2:41:00::"], [18, "keep%2:42:00::"]]
+w6LE:
+    lemmas: ["We", "like", "to", "run", "a", "nice", "quiet", "place", "\"", "."]
+    oewn2026_key: [[1, "oewn-01828678-v"], [3, "oewn-02448714-v"]]
+    paragraph: '47'
+    pos: ["PRP", "VBP", "TO", "VB", "DT", "JJ", "JJ", "NN", "''", "."]
+    text: ' We like to run a nice quiet place ".
+
+  '
+    tokens: [[1, 3], [4, 8], [9, 11], [12, 15], [16, 17], [18, 22], [23, 28], [29, 34], [35, 36], [36, 37]]
+    wn16_key: [[1, "like%2:37:01::"], [3, "run%2:41:02::"]]
+    wn30_key: [[1, "like%2:37:01::"], [3, "run%2:41:02::"]]
+Bs2P:
+    lemmas: ["\"", "thank_you", "\"", ",", "I", "tell", "her", "."]
+    oewn2026_key: [[5, "oewn-01011267-v"]]
+    paragraph: '48'
+    pos: ["``", "NN", "''", ",", "PRP", "VBD", "PRP$", "."]
+    text: ' " Thank_you ", I told her.
+
+  '
+    tokens: [[1, 2], [3, 12], [13, 14], [14, 15], [16, 17], [18, 22], [23, 26], [26, 27]]
+    wn16_key: [[5, "tell%2:32:04::"]]
+    wn30_key: [[5, "tell%2:32:04::"]]
+cSFu:
+    lemmas: ["I", "take", "another", "sidelong", "glance", "at", "the", "other", "registration", "card", ",", "then", "take", "the", "key", "to", "unit", "13", "that", "she", "have", "give", "me", "and", "go_down", "long", "enough", "to", "park", "the", "car", "."]
+    oewn2026_key: [[1, "oewn-02605633-v"], [12, "oewn-01216829-v"], [21, "oewn-02204104-v"], [24, "oewn-01974840-v"], [28, "oewn-01496037-v"]]
+    paragraph: '49'
+    pos: ["PRP", "VBD", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "NN", ",", "RB", "VBD", "DT", "NN", "VB", "NN", "CD", "IN", "PRP", "VBD", "VBN", "PRP", "CC", "VB", "JJ", "RB", "TO", "VB", "DT", "NN", "."]
+    text: ' I took another sidelong glance at the other registration card, then took the key
+  to Unit 13 that she had given me and went_down long enough to park the car.
+
+  '
+    tokens: [[1, 2], [3, 7], [8, 15], [16, 24], [25, 31], [32, 34], [35, 38], [39, 44], [45, 57], [58, 62], [62, 63], [64, 68], [69, 73], [74, 77], [78, 81], [82, 84], [85, 89], [90, 92], [93, 97], [98, 101], [102, 105], [106, 111], [112, 114], [115, 118], [119, 128], [129, 133], [134, 140], [141, 143], [144, 148], [149, 152], [153, 156], [156, 157]]
+    wn16_key: [[1, "take%2:41:04::"], [12, "take%2:35:00::"], [21, "give%2:40:00::"], [24, "go_down%2:38:02::"], [28, "park%2:35:00::"]]
+    wn30_key: [[1, "take%2:41:04::"], [12, "take%2:35:00::"], [21, "give%2:40:00::"], [24, "go_down%2:38:02::"], [28, "park%2:35:00::"]]
+Ovcm:
+    lemmas: ["The", "construction", "be", "reasonably", "solid", ";", "not", "like", "the", "cracker-box", "construction", "of", "so", "many_of", "the", "motel", "unit", "that", "have", "stucco", "all_over", "the", "outside", "but", "wall", "that", "be", "thin", "enough", "so", "you", "can", "hear", "every", "movement", "of", "the", "people", "in", "the", "adjoining", "apartment", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"], [18, "oewn-02636270-v"], [26, "oewn-02610777-v"], [32, "oewn-02174146-v"]]
+    paragraph: '50'
+    pos: ["DT", "NN", "VBD", "RB", "JJ", ":", "RB", "IN", "DT", "JJ", "NN", "IN", "RB", "JJ", "DT", "NN", "NNS", "WDT", "VBP", "NN", "RB", "DT", "JJ", "CC", "NNS", "WDT", "VBP", "JJ", "RB", "RB", "PRP", "MD", "VB", "DT", "NN", "IN", "DT", "NNS", "IN", "DT", "JJ", "NN", "."]
+    text: ' The construction was reasonably solid; not like the cracker-box construction of
+  so many_of the motel units that have stucco all_over the outside but walls that
+  are thin enough so you can hear every movement of the people in the adjoining apartment.
+
+  '
+    tokens: [[1, 4], [5, 17], [18, 21], [22, 32], [33, 38], [38, 39], [40, 43], [44, 48], [49, 52], [53, 64], [65, 77], [78, 80], [81, 83], [84, 91], [92, 95], [96, 101], [102, 107], [108, 112], [113, 117], [118, 124], [125, 133], [134, 137], [138, 145], [146, 149], [150, 155], [156, 160], [161, 164], [165, 169], [170, 176], [177, 179], [180, 183], [184, 187], [188, 192], [193, 198], [199, 207], [208, 210], [211, 214], [215, 221], [222, 224], [225, 228], [229, 238], [239, 248], [248, 249]]
+    wn16_key: [[2, "be%2:42:03::"], [18, "have%2:42:00::"], [26, "be%2:42:03::"], [32, "hear%2:39:00::"]]
+    wn30_key: [[2, "be%2:42:03::"], [18, "have%2:42:00::"], [26, "be%2:42:03::"], [32, "hear%2:39:00::"]]
+yYxU:
+    lemmas: ["I", "put", "a", "small", "electric", "amplifier", "against", "the", "wall", "on_the_side", "I", "want", "to", "case", "."]
+    oewn2026_key: [[1, "oewn-01496967-v"], [11, "oewn-01829179-v"], [13, "oewn-02170426-v"]]
+    paragraph: '51'
+    pos: ["PRP", "VBD", "DT", "JJ", "JJ", "NN", "IN", "DT", "NN", "RB", "PRP", "VBD", "VB", "VB", "."]
+    text: ' I put a small electric amplifier against the wall on_the_side I wanted to case.'
+    tokens: [[1, 2], [3, 6], [7, 8], [9, 14], [15, 23], [24, 33], [34, 41], [42, 45], [46, 50], [51, 62], [63, 64], [65, 71], [72, 74], [75, 79], [79, 80]]
+    wn16_key: [[1, "put%2:35:00::"], [11, "want%2:37:00::"], [13, "case%2:39:00::"]]
+    wn30_key: [[1, "put%2:35:00::"], [11, "want%2:37:00::"], [13, "case%2:39:00::"]]
+IUcC:
+    lemmas: ["With", "the", "aid", "of_that", "I", "could", "hear", "my", "man", "move", "around", ",", "hear", "him", "cough", "a_couple_of", "times", ",", "hear", "the", "toilet", "flush", ",", "hear", "the", "sound", "of", "water", "run", "."]
+    oewn2026_key: [[6, "oewn-02174146-v"], [9, "oewn-01839438-v"], [12, "oewn-02174146-v"], [14, "oewn-00005815-v"], [18, "oewn-02174146-v"], [21, "oewn-00456167-v"], [23, "oewn-02174146-v"], [28, "oewn-02070867-v"]]
+    paragraph: '51'
+    pos: ["IN", "DT", "NN", "RB", "PRP", "MD", "VB", "PRP$", "NN", "VBG", "RB", ",", "VBD", "PRP", "VB", "JJ", "NNS", ",", "VBD", "DT", "NN", "VB", ",", "VBD", "DT", "NN", "IN", "NN", "VB", "."]
+    text: ' With the aid of_that I could hear my man moving around, heard him cough a_couple_of
+  times, heard the toilet flush, heard the sound of water running.
+
+  '
+    tokens: [[1, 5], [6, 9], [10, 13], [14, 21], [22, 23], [24, 29], [30, 34], [35, 37], [38, 41], [42, 48], [49, 55], [55, 56], [57, 62], [63, 66], [67, 72], [73, 84], [85, 90], [90, 91], [92, 97], [98, 101], [102, 108], [109, 114], [114, 115], [116, 121], [122, 125], [126, 131], [132, 134], [135, 140], [141, 148], [148, 149]]
+    wn16_key: [[6, "hear%2:39:00::"], [9, "move%2:38:03::"], [12, "hear%2:39:00::"], [14, "cough%2:29:00::"], [18, "hear%2:39:00::"], [21, "flush%2:30:00::"], [23, "hear%2:39:00::"], [28, "run%2:38:01::"]]
+    wn30_key: [[6, "hear%2:39:00::"], [9, "move%2:38:03::"], [12, "hear%2:39:00::"], [14, "cough%2:29:00::"], [18, "hear%2:39:00::"], [21, "flush%2:30:00::"], [23, "hear%2:39:00::"], [28, "run%2:38:01::"]]
+c+HG:
+    lemmas: ["Whoever", "his", "companion", "be", "go_to", "be", ",", "she", "be", "go_to", "join", "him", "later", "."]
+    oewn2026_key: [[5, "oewn-02622439-v"], [10, "oewn-02439823-v"]]
+    paragraph: '52'
+    pos: ["WP", "PRP$", "NN", "VBD", "VB", "VB", ",", "PRP", "VBD", "VB", "VB", "PRP", "RB", "."]
+    text: ' Whoever his companion was going_to be, she was going_to join him later.'
+    tokens: [[1, 8], [9, 12], [13, 22], [23, 26], [27, 35], [36, 38], [38, 39], [40, 43], [44, 47], [48, 56], [57, 61], [62, 65], [66, 71], [71, 72]]
+    wn16_key: [[5, "be%2:42:06::"], [10, "join%2:41:00::"]]
+    wn30_key: [[5, "be%2:42:06::"], [10, "join%2:41:00::"]]
+Y7j7:
+    lemmas: ["She", "know", "where", "to", "come", "."]
+    oewn2026_key: [[1, "oewn-00596016-v"], [4, "oewn-02009962-v"]]
+    paragraph: '52'
+    pos: ["PRP", "VBD", "WRB", "TO", "VB", "."]
+    text: ' She knew where to come.'
+    tokens: [[1, 4], [5, 9], [10, 15], [16, 18], [19, 23], [23, 24]]
+    wn16_key: [[1, "know%2:31:01::"], [4, "come%2:38:04::"]]
+    wn30_key: [[1, "know%2:31:01::"], [4, "come%2:38:04::"]]
+jfQc:
+    lemmas: ["He", "do", "n't", "have_to", "telephone", "."]
+    oewn2026_key: [[4, "oewn-00791110-v"]]
+    paragraph: '52'
+    pos: ["PRP", "VBD", "RB", "VB", "VB", "."]
+    text: ' He didn''t have_to telephone.
+
+  '
+    tokens: [[1, 3], [4, 7], [7, 10], [11, 18], [19, 28], [28, 29]]
+    wn16_key: [[4, "telephone%2:32:00::"]]
+    wn30_key: [[4, "telephone%2:32:00::"]]
+zRf3:
+    lemmas: ["I", "be", "so", "hungry", "my", "stomach", "feel", "all", "line", "of", "communication", "have", "be", "sever", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [6, "oewn-02110460-v"], [13, "oewn-01563766-v"]]
+    paragraph: '53'
+    pos: ["PRP", "VBD", "RB", "JJ", "PRP$", "NN", "VBD", "DT", "NNS", "IN", "NN", "VBD", "VBN", "VBN", "."]
+    text: ' I was so hungry my stomach felt all lines of communication had been severed.'
+    tokens: [[1, 2], [3, 6], [7, 9], [10, 16], [17, 19], [20, 27], [28, 32], [33, 36], [37, 42], [43, 45], [46, 59], [60, 63], [64, 68], [69, 76], [76, 77]]
+    wn16_key: [[1, "be%2:42:03::"], [6, "feel%2:39:00::"], [13, "sever%2:35:01::"]]
+    wn30_key: [[1, "be%2:42:03::"], [6, "feel%2:39:00::"], [13, "sever%2:35:01::"]]
+lX7q:
+    lemmas: ["It", "'s", "one", "thing", "to", "go", "without", "food", "when", "you", "'re", "occupy", "with", "some", "work", "or", "when", "you", "'re", "simply", "postpone", "a", "meal", ",", "but", "when", "you", "be", "dependent_on", "someone", "else", "and", "know", "that", "you", "can", "n't", "eat", "until", "he", "'s", "bed_down", "for", "the", "night", ",", "hunger", "can", "be", "a", "gnawing", "torture", "."]
+    oewn2026_key: [[5, "oewn-02624054-v"], [11, "oewn-02420961-v"], [20, "oewn-02648898-v"], [27, "oewn-02610777-v"], [32, "oewn-00596016-v"], [37, "oewn-01170802-v"], [41, "oewn-00017524-v"], [48, "oewn-02622439-v"]]
+    paragraph: '53'
+    pos: ["PRP", "VBZ", "CD", "NN", "TO", "VB", "RB", "NN", "WRB", "PRP", "VBP", "VBN", "IN", "DT", "NN", "CC", "WRB", "PRP", "VBP", "RB", "VBG", "DT", "NN", ",", "CC", "WRB", "PRP", "VBP", "JJ", "NN", "RB", "CC", "VB", "IN", "PRP", "MD", "RB", "VB", "IN", "PRP", "VBZ", "VB", "IN", "DT", "NN", ",", "NN", "MD", "VB", "DT", "NN", "NN", "."]
+    text: ' It''s one thing to go without food when you''re occupied with some work or when
+  you''re simply postponing a meal, but when you''re dependent_on someone else and
+  know that you cann''t eat until he''s bedded_down for the night, hunger can be a
+  gnawing torture.
+
+  '
+    tokens: [[1, 3], [3, 5], [6, 9], [10, 15], [16, 18], [19, 21], [22, 29], [30, 34], [35, 39], [40, 43], [43, 46], [47, 55], [56, 60], [61, 65], [66, 70], [71, 73], [74, 78], [79, 82], [82, 85], [86, 92], [93, 103], [104, 105], [106, 110], [110, 111], [112, 115], [116, 120], [121, 124], [124, 127], [128, 140], [141, 148], [149, 153], [154, 157], [158, 162], [163, 167], [168, 171], [172, 175], [175, 178], [179, 182], [183, 188], [189, 191], [191, 193], [194, 205], [206, 209], [210, 213], [214, 219], [219, 220], [221, 227], [228, 231], [232, 234], [235, 236], [237, 244], [245, 252], [252, 253]]
+    wn16_key: [[5, "go%2:42:07::"], [11, "occupy%2:41:00::"], [20, "postpone%2:42:00::"], [27, "be%2:42:03::"], [32, "know%2:31:01::"], [37, "eat%2:34:00::"], [41, "bed_down%2:29:00::"], [48, "be%2:42:06::"]]
+    wn30_key: [[5, "go%2:42:07::"], [11, "occupy%2:41:00::"], [20, "postpone%2:42:00::"], [27, "be%2:42:03::"], [32, "know%2:31:01::"], [37, "eat%2:34:00::"], [41, "bed_down%2:29:00::"], [48, "be%2:42:06::"]]
+zhMY:
+    lemmas: ["I", "have", "notice", "a", "drive-in", "down", "the", "road", "a", "quarter", "of", "a", "mile", "."]
+    oewn2026_key: [[2, "oewn-02122959-v"]]
+    paragraph: '54'
+    pos: ["PRP", "VBD", "VBN", "DT", "NN", "RB", "DT", "NN", "DT", "NN", "IN", "DT", "NN", "."]
+    text: ' I had noticed a drive-in down the road a quarter of a mile.'
+    tokens: [[1, 2], [3, 6], [7, 14], [15, 16], [17, 25], [26, 30], [31, 34], [35, 39], [40, 41], [42, 49], [50, 52], [53, 54], [55, 59], [59, 60]]
+    wn16_key: [[2, "notice%2:39:00::"]]
+    wn30_key: [[2, "notice%2:39:00::"]]
+FBX8:
+    lemmas: ["The", "battery", "on", "the", "bugging", "device", "I", "have", "put", "on", "the", "car", "be", "still", "fresh", "enough", "to", "send_out", "good", "strong", "signal", "."]
+    oewn2026_key: [[8, "oewn-01496967-v"], [12, "oewn-02610777-v"], [17, "oewn-01439891-v"]]
+    paragraph: '54'
+    pos: ["DT", "NNS", "IN", "DT", "NN", "NN", "PRP", "VBD", "VBN", "IN", "DT", "NN", "VBD", "RB", "JJ", "RB", "TO", "VB", "JJ", "JJ", "NNS", "."]
+    text: ' The batteries on the bugging device I had put on the car were still fresh enough
+  to send_out good strong signals.'
+    tokens: [[1, 4], [5, 14], [15, 17], [18, 21], [22, 29], [30, 36], [37, 38], [39, 42], [43, 46], [47, 49], [50, 53], [54, 57], [58, 62], [63, 68], [69, 74], [75, 81], [82, 84], [85, 93], [94, 98], [99, 105], [106, 113], [113, 114]]
+    wn16_key: [[8, "put%2:35:00::"], [12, "be%2:42:03::"], [17, "send_out%2:35:00::"]]
+    wn30_key: [[8, "put%2:35:00::"], [12, "be%2:42:03::"], [17, "send_out%2:35:00::"]]
+s0KV:
+    lemmas: ["The", "powerful", "microphone", "I", "could", "press", "against", "the", "wall", "between", "my", "motel", "unit", "and", "that", "occupy", "by", "the", "man", "would", "bring_in", "the", "sound", "of", "any", "conversation", ",", "and", "I", "be", "positively", "nauseated", "I", "be", "so", "hungry", "."]
+    oewn2026_key: [[5, "oewn-01449876-v"], [20, "oewn-02082838-v"], [29, "oewn-02610777-v"], [33, "oewn-02610777-v"]]
+    paragraph: '54'
+    pos: ["DT", "JJ", "NN", "PRP", "MD", "VB", "IN", "DT", "NN", "IN", "PRP$", "NN", "NN", "CC", "WDT", "VB", "IN", "DT", "NN", "MD", "VB", "DT", "NN", "IN", "DT", "NN", ",", "CC", "PRP", "VBD", "RB", "JJ", "PRP", "VBD", "RB", "JJ", "."]
+    text: ' The powerful microphone I could press against the wall between my motel unit and
+  that occupied by the man would bring_in the sound of any conversation, and I was
+  positively nauseated I was so hungry.
+
+  '
+    tokens: [[1, 4], [5, 13], [14, 24], [25, 26], [27, 32], [33, 38], [39, 46], [47, 50], [51, 55], [56, 63], [64, 66], [67, 72], [73, 77], [78, 81], [82, 86], [87, 95], [96, 98], [99, 102], [103, 106], [107, 112], [113, 121], [122, 125], [126, 131], [132, 134], [135, 138], [139, 151], [151, 152], [153, 156], [157, 158], [159, 162], [163, 173], [174, 183], [184, 185], [186, 189], [190, 192], [193, 199], [199, 200]]
+    wn16_key: [[5, "press%2:35:00::"], [15, "occupy%2:42:02::"], [20, "bring_in%2:38:00::"], [29, "be%2:42:03::"], [33, "be%2:42:03::"]]
+    wn30_key: [[5, "press%2:35:00::"], [20, "bring_in%2:38:00::"], [29, "be%2:42:03::"], [33, "be%2:42:03::"]]
+bjdS:
+    lemmas: ["I", "get_in", "the", "car", ",", "drive", "down", "to", "the", "drive-in", "and", "order", "a_couple_of", "hamburger", "with", "everything_included", ",", "a", "cup", "of", "coffee", "and", "the", "fast", "service", "possible", "."]
+    oewn2026_key: [[1, "oewn-02020375-v"], [5, "oewn-01934845-v"], [11, "oewn-00747485-v"]]
+    paragraph: '55'
+    pos: ["PRP", "VBP", "DT", "NN", ",", "VBD", "RB", "TO", "DT", "NN", "CC", "VBD", "JJ", "NNS", "IN", "RB", ",", "DT", "NN", "IN", "NN", "CC", "DT", "JJS", "NN", "JJ", "."]
+    text: ' I got_in the car, drove down to the drive-in and ordered a_couple_of hamburgers
+  with everything_included, a cup of coffee and the fastest service possible.
+
+  '
+    tokens: [[1, 2], [3, 9], [10, 13], [14, 17], [17, 18], [19, 24], [25, 29], [30, 32], [33, 36], [37, 45], [46, 49], [50, 57], [58, 69], [70, 80], [81, 85], [86, 105], [105, 106], [107, 108], [109, 112], [113, 115], [116, 122], [123, 126], [127, 130], [131, 138], [139, 146], [147, 155], [155, 156]]
+    wn16_key: [[1, "get_in%2:38:01::"], [5, "drive%2:38:01::"], [11, "order%2:32:00::"]]
+    wn30_key: [[1, "get_in%2:38:01::"], [5, "drive%2:38:01::"], [11, "order%2:32:00::"]]
+6JpT:
+    lemmas: ["The", "place", "be", "n't", "particularly", "busy", "at_that_time", "of", "night", ",", "and", "the", "girl", "who", "be", "wait", "on", "me", ",", "who", "be", "clothe", "in", "the", "tightest-fitting", "pair", "of", "slacks", "I", "have", "ever", "see", "on", "a", "woman", "and", "a", "sweater", "that", "show", "everything", "there", "be", "-", "and", "there", "be", "lots_of", "it", "-", "want", "to", "be", "sociable", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"], [15, "oewn-02418420-v"], [21, "oewn-00047662-v"], [31, "oewn-02133754-v"], [39, "oewn-02153218-v"], [42, "oewn-02610777-v"], [46, "oewn-02610777-v"], [50, "oewn-01829179-v"], [52, "oewn-02610777-v"]]
+    paragraph: '56'
+    pos: ["DT", "NN", "VBD", "RB", "RB", "JJ", "RB", "IN", "NN", ",", "CC", "DT", "NN", "WP", "VBD", "VBG", "IN", "PRP", ",", "WP", "VBD", "VBN", "IN", "DT", "JJS", "NN", "IN", "NNS", "PRP", "VBD", "RB", "VBN", "IN", "DT", "NN", "CC", "DT", "NN", "WDT", "VBD", "NN", "EX", "VBD", ":", "CC", "EX", "VBD", "JJ", "PRP", ":", "VBD", "VB", "VB", "JJ", "."]
+    text: ' The place wasn''t particularly busy at_that_time of night, and the girl who was
+  waiting on me, who was clothed in the tightest-fitting pair of slacks I had ever
+  seen on a woman and a sweater that showed everything there was - and there was lots_of
+  it - wanted to be sociable.
+
+  '
+    tokens: [[1, 4], [5, 10], [11, 14], [14, 17], [18, 30], [31, 35], [36, 48], [49, 51], [52, 57], [57, 58], [59, 62], [63, 66], [67, 71], [72, 75], [76, 79], [80, 87], [88, 90], [91, 93], [93, 94], [95, 98], [99, 102], [103, 110], [111, 113], [114, 117], [118, 134], [135, 139], [140, 142], [143, 149], [150, 151], [152, 155], [156, 160], [161, 165], [166, 168], [169, 170], [171, 176], [177, 180], [181, 182], [183, 190], [191, 195], [196, 202], [203, 213], [214, 219], [220, 223], [224, 225], [226, 229], [230, 235], [236, 239], [240, 247], [248, 250], [251, 252], [253, 259], [260, 262], [263, 265], [266, 274], [274, 275]]
+    wn16_key: [[2, "be%2:42:03::"], [15, "wait%2:41:00::"], [21, "clothe%2:29:00::"], [31, "see%2:39:00::"], [39, "show%2:39:02::"], [42, "be%2:42:04::"], [46, "be%2:42:04::"], [50, "want%2:37:00::"], [52, "be%2:42:03::"]]
+    wn30_key: [[2, "be%2:42:03::"], [15, "wait%2:41:00::"], [21, "clothe%2:29:00::"], [31, "see%2:39:00::"], [39, "show%2:39:02::"], [42, "be%2:42:04::"], [46, "be%2:42:04::"], [50, "want%2:37:00::"], [52, "be%2:42:03::"]]
+xOg6:
+    lemmas: ["\"", "You", "really", "in", "a", "hurry", ",", "handsome", "\"", "?", "she", "ask", "."]
+    oewn2026_key: [[11, "oewn-00899241-v"]]
+    paragraph: '57'
+    pos: ["``", "PRP", "RB", "IN", "DT", "NN", ",", "JJ", "''", ".", "PRP", "VBD", "."]
+    text: ' " You really in a hurry, Handsome "? she asked.
+
+  '
+    tokens: [[1, 2], [3, 6], [7, 13], [14, 16], [17, 18], [19, 24], [24, 25], [26, 34], [35, 36], [36, 37], [38, 41], [42, 47], [47, 48]]
+    wn16_key: [[11, "ask%2:32:00::"]]
+    wn30_key: [[11, "ask%2:32:00::"]]
+NZ+a:
+    lemmas: ["\"", "I", "be", "in", "a", "hurry", ",", "beautiful", "\"", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"]]
+    paragraph: '58'
+    pos: ["``", "PRP", "VBP", "IN", "DT", "NN", ",", "JJ", "''", "."]
+    text: ' " I''m in a hurry, Beautiful ".
+
+  '
+    tokens: [[1, 2], [3, 4], [4, 6], [7, 9], [10, 11], [12, 17], [17, 18], [19, 28], [29, 30], [30, 31]]
+    wn16_key: [[2, "be%2:42:03::"]]
+    wn30_key: [[2, "be%2:42:03::"]]
+yB+3:
+    lemmas: ["\"", "It", "'s", "early", "in", "the", "evening", "to", "be", "in", "a", "hurry", "."]
+    oewn2026_key: [[8, "oewn-02610777-v"]]
+    paragraph: '59'
+    pos: ["``", "PRP", "VBZ", "JJ", "IN", "DT", "NN", "TO", "VB", "IN", "DT", "NN", "."]
+    text: ' " It''s early in the evening to be in a hurry.'
+    tokens: [[1, 2], [3, 5], [5, 7], [8, 13], [14, 16], [17, 20], [21, 28], [29, 31], [32, 34], [35, 37], [38, 39], [40, 45], [45, 46]]
+    wn16_key: [[8, "be%2:42:03::"]]
+    wn30_key: [[8, "be%2:42:03::"]]
+rUnx:
+    lemmas: ["There", "'s", "lots_of", "time", "left", "\"", "."]
+    oewn2026_key: []
+    paragraph: '59'
+    pos: ["EX", "VBZ", "JJ", "NN", "JJ", "''", "."]
+    text: ' There''s lots_of time left ".'
+    tokens: [[1, 6], [6, 8], [9, 16], [17, 21], [22, 26], [27, 28], [28, 29]]
+    wn16_key: []
+    wn30_key: []
+4TtU:
+    lemmas: ["\"", "There", "may", "not", "be", "any", "woman", "left", "\"", ",", "I", "say", "."]
+    oewn2026_key: [[4, "oewn-02610777-v"], [11, "oewn-01011267-v"]]
+    paragraph: '59'
+    pos: ["``", "EX", "VB", "RB", "VB", "DT", "NNS", "JJ", "``", ",", "PRP", "VBD", "."]
+    text: ' " There may not be any women left ", I said.
+
+  '
+    tokens: [[1, 2], [3, 8], [9, 12], [13, 16], [17, 19], [20, 23], [24, 29], [30, 34], [35, 36], [36, 37], [38, 39], [40, 44], [44, 45]]
+    wn16_key: [[4, "be%2:42:04::"], [11, "say%2:32:00::"]]
+    wn30_key: [[4, "be%2:42:04::"], [11, "say%2:32:00::"]]
+uXX+:
+    lemmas: ["She", "give", "a_little", "pout", "and", "say", ",", "\"", "I", "do", "n't", "get_off", "work", "until", "eleven", "o", "'", "clock", "."]
+    oewn2026_key: [[1, "oewn-01062189-v"], [5, "oewn-01011267-v"], [11, "oewn-02417219-v"]]
+    paragraph: '60'
+    pos: ["PRP", "VBD", "RB", "NN", "CC", "VBD", ",", "``", "PRP", "VBP", "RB", "VB", "NN", "IN", "CD", "IN", "POS", "NN", "."]
+    text: ' She gave a_little pout and said, " I don''t get_off work until eleven o'' clock.'
+    tokens: [[1, 4], [5, 9], [10, 18], [19, 23], [24, 27], [28, 32], [32, 33], [34, 35], [36, 37], [38, 40], [40, 43], [44, 51], [52, 56], [57, 62], [63, 69], [70, 71], [71, 72], [73, 78], [78, 79]]
+    wn16_key: [[1, "give%2:32:00::"], [5, "say%2:32:00::"], [11, "get_off%2:41:00::"]]
+    wn30_key: [[1, "give%2:32:00::"], [5, "say%2:32:00::"], [11, "get_off%2:41:00::"]]
+URmF:
+    lemmas: ["That", "be", "when", "my", "evening", "commence", "\"", "."]
+    oewn2026_key: [[1, "oewn-02622439-v"], [5, "oewn-00346415-v"]]
+    paragraph: '60'
+    pos: ["DT", "VBZ", "WRB", "PRP$", "NN", "VBZ", "``", "."]
+    text: ' That''s when my evening commences ".
+
+  '
+    tokens: [[1, 5], [5, 7], [8, 12], [13, 15], [16, 23], [24, 33], [34, 35], [35, 36]]
+    wn16_key: [[1, "be%2:42:06::"], [5, "commence%2:30:00::"]]
+    wn30_key: [[1, "be%2:42:06::"], [5, "commence%2:30:00::"]]
+w/yY:
+    lemmas: ["\"", "I", "'ll", "be", "here", "at", "ten-fifty-five", "\"", ",", "I", "say", "."]
+    oewn2026_key: [[3, "oewn-02661230-v"], [10, "oewn-01011267-v"]]
+    paragraph: '61'
+    pos: ["``", "PRP", "MD", "VB", "RB", "IN", "CD", "''", ",", "PRP", "VBD", "."]
+    text: ' " I''ll be here at ten-fifty-five ", I said.
+
+  '
+    tokens: [[1, 2], [3, 4], [4, 7], [8, 10], [11, 15], [16, 18], [19, 33], [34, 35], [35, 36], [37, 38], [39, 43], [43, 44]]
+    wn16_key: [[3, "be%2:42:05::"], [10, "say%2:32:00::"]]
+    wn30_key: [[3, "be%2:42:05::"], [10, "say%2:32:00::"]]
+CgiX:
+    lemmas: ["\"", "Oh", ",", "you", "!", "\"", "she", "announce", "."]
+    oewn2026_key: [[7, "oewn-00976399-v"]]
+    paragraph: '62'
+    pos: ["``", "UH", ",", "PRP", ".", "''", "PRP", "VBD", "."]
+    text: ' " Oh, you! " she announced.'
+    tokens: [[1, 2], [3, 5], [5, 6], [7, 10], [10, 11], [12, 13], [14, 17], [18, 27], [27, 28]]
+    wn16_key: [[7, "announce%2:32:00::"]]
+    wn30_key: [[7, "announce%2:32:00::"]]
+5XNZ:
+    lemmas: ["\"", "That", "be", "what", "they", "all", "say", "."]
+    oewn2026_key: [[2, "oewn-02622439-v"], [6, "oewn-01011267-v"]]
+    paragraph: '62'
+    pos: ["``", "DT", "VBZ", "WP", "PRP", "DT", "VBP", "."]
+    text: ' " That''s what they all say.'
+    tokens: [[1, 2], [3, 7], [7, 9], [10, 14], [15, 19], [20, 23], [24, 27], [27, 28]]
+    wn16_key: [[2, "be%2:42:06::"], [6, "say%2:32:00::"]]
+    wn30_key: [[2, "be%2:42:06::"], [6, "say%2:32:00::"]]
+9mpp:
+    lemmas: ["What", "'s", "that", "thing", "go", "buzz-buzz-buzz", "in", "your", "car", "\"", "?"]
+    oewn2026_key: [[4, "oewn-02180712-v"]]
+    paragraph: '62'
+    pos: ["WP", "POS", "IN", "NN", "VBG", "NN", "IN", "PRP$", "NN", "''", "."]
+    text: ' What''s that thing going buzz-buzz-buzz in your car "?
+
+  '
+    tokens: [[1, 5], [5, 7], [8, 12], [13, 18], [19, 24], [25, 39], [40, 42], [43, 47], [48, 51], [52, 53], [53, 54]]
+    wn16_key: [[4, "go%2:39:00::"]]
+    wn30_key: [[4, "go%2:39:00::"]]
+FzO8:
+    lemmas: ["I", "say", "\"", "Darn", "it", ",", "that", "be", "the", "automatic", "signal", "that", "show", "when", "the", "ignition_key", "be", "on", "."]
+    oewn2026_key: [[1, "oewn-01011267-v"], [7, "oewn-02622439-v"], [12, "oewn-00925764-v"], [16, "oewn-02610777-v"]]
+    paragraph: '63'
+    pos: ["PRP", "VBD", "``", "RB", "PRP", ",", "IN", "VBZ", "DT", "JJ", "NN", "WDT", "VBZ", "WRB", "DT", "NN", "VBZ", "JJ", "."]
+    text: ' I said " Darn it, that''s the automatic signal that shows when the ignition_key
+  is on.'
+    tokens: [[1, 2], [3, 7], [8, 9], [10, 14], [15, 17], [17, 18], [19, 23], [23, 25], [26, 29], [30, 39], [40, 46], [47, 51], [52, 57], [58, 62], [63, 66], [67, 79], [80, 82], [83, 85], [85, 86]]
+    wn16_key: [[1, "say%2:32:00::"], [7, "be%2:42:06::"], [12, "show%2:32:01::"], [16, "be%2:42:03::"]]
+    wn30_key: [[1, "say%2:32:00::"], [7, "be%2:42:06::"], [12, "show%2:32:01::"], [16, "be%2:42:03::"]]
+ZkJe:
+    lemmas: ["I", "do", "n't", "turn_off", "it", "off", "\"", "."]
+    oewn2026_key: [[3, "oewn-01513208-v"]]
+    paragraph: '63'
+    pos: ["PRP", "VBD", "RB", "VB", "PRP", "IN", "``", "."]
+    text: ' I didn''t turn it off ".'
+    tokens: [[1, 2], [3, 6], [6, 9], [10, 14], [15, 17], [18, 21], [22, 23], [23, 24]]
+    wn16_key: [[3, "turn_off%2:35:00::"]]
+    wn30_key: [[3, "turn_off%2:35:00::"]]
+sKTL:
+    lemmas: ["I", "reach", "over", "and", "switch_off", "the", "electronic", "bugging", "device", "."]
+    oewn2026_key: [[1, "oewn-02024442-v"], [4, "oewn-01513208-v"]]
+    paragraph: '63'
+    pos: ["PRP", "VBD", "RB", "CC", "VB", "DT", "JJ", "NN", "NN", "."]
+    text: ' I reached over and switched_off the electronic bugging device.
+
+  '
+    tokens: [[1, 2], [3, 10], [11, 15], [16, 19], [20, 32], [33, 36], [37, 47], [48, 55], [56, 62], [62, 63]]
+    wn16_key: [[1, "reach%2:38:01::"], [4, "switch_off%2:35:00::"]]
+    wn30_key: [[1, "reach%2:38:01::"], [4, "switch_off%2:35:00::"]]
+sQut:
+    lemmas: ["She", "go_in", "to", "get", "the", "hamburger", ",", "and", "I", "switch_on", "the", "device", "again", "and", "keep", "the", "signal", "from", "Dowling", "'s", "car", "come_in", "steady", "and", "clear", "until", "I", "see", "her", "start", "back", "with", "the", "hamburger", "."]
+    oewn2026_key: [[1, "oewn-02020375-v"], [3, "oewn-01435927-v"], [9, "oewn-01513031-v"], [14, "oewn-02687605-v"], [21, "oewn-02010723-v"], [27, "oewn-02133754-v"], [29, "oewn-00346415-v"]]
+    paragraph: '64'
+    pos: ["PRP", "VBP", "TO", "VB", "DT", "NNS", ",", "CC", "PRP", "VBP", "DT", "NN", "RB", "CC", "VBD", "DT", "NN", "IN", "NNP", "POS", "NN", "VB", "JJ", "CC", "JJ", "IN", "PRP", "VBD", "PRP$", "VB", "RB", "IN", "DT", "NNS", "."]
+    text: ' She went_in to get the hamburgers, and I switched_on the device again and kept the
+  signal from Dowling''s car coming_in steady and clear until I saw her starting back
+  with the hamburgers.'
+    tokens: [[1, 4], [5, 12], [13, 15], [16, 19], [20, 23], [24, 34], [34, 35], [36, 39], [40, 41], [42, 53], [54, 57], [58, 64], [65, 70], [71, 74], [75, 79], [80, 83], [84, 90], [91, 95], [96, 103], [103, 105], [106, 109], [110, 119], [120, 126], [127, 130], [131, 136], [137, 142], [143, 144], [145, 148], [149, 152], [153, 161], [162, 166], [167, 171], [172, 175], [176, 186], [186, 187]]
+    wn16_key: [[1, "go_in%2:38:00::"], [3, "get%2:35:03::"], [9, "switch_on%2:35:00::"], [14, "keep%2:42:00::"], [21, "come_in%2:38:01::"], [27, "see%2:39:00::"], [29, "start%2:30:00::"]]
+    wn30_key: [[1, "go_in%2:38:00::"], [3, "get%2:35:03::"], [9, "switch_on%2:35:00::"], [14, "keep%2:42:00::"], [21, "come_in%2:38:01::"], [27, "see%2:39:00::"], [29, "start%2:30:00::"]]
+P1at:
+    lemmas: ["then", "I", "shut_off", "the", "device", "again", "."]
+    oewn2026_key: [[2, "oewn-02686341-v"]]
+    paragraph: '64'
+    pos: ["RB", "PRP", "VBP", "DT", "NN", "RB", "."]
+    text: ' Then I shut_off the device again.
+
+  '
+    tokens: [[1, 5], [6, 7], [8, 16], [17, 20], [21, 27], [28, 33], [33, 34]]
+    wn16_key: [[2, "shut_off%2:42:00::"]]
+    wn30_key: [[2, "shut_off%2:42:00::"]]
+DHmh:
+    lemmas: ["She", "want", "to", "hang_around", "while", "I", "be", "eat", "."]
+    oewn2026_key: [[1, "oewn-01829179-v"], [3, "oewn-02645159-v"], [7, "oewn-01170802-v"]]
+    paragraph: '65'
+    pos: ["PRP", "VBD", "VB", "VB", "IN", "PRP", "VBD", "VBG", "."]
+    text: ' She wanted to hang_around while I was eating.'
+    tokens: [[1, 4], [5, 11], [12, 14], [15, 26], [27, 32], [33, 34], [35, 38], [39, 45], [45, 46]]
+    wn16_key: [[1, "want%2:37:00::"], [3, "hang_around%2:42:00::"], [7, "eat%2:34:00::"]]
+    wn30_key: [[1, "want%2:37:00::"], [3, "hang_around%2:42:00::"], [7, "eat%2:34:00::"]]
+/8Tp:
+    lemmas: ["\"", "do", "n't", "you", "think", "it", "be", "selfish", "to", "have", "dinner", "before", "you", "go", "to", "pick_up", "her", "up", "\"", "?"]
+    oewn2026_key: [[4, "oewn-00633399-v"], [6, "oewn-02610777-v"], [9, "oewn-01159300-v"], [13, "oewn-02377696-v"], [15, "oewn-01960966-v"]]
+    paragraph: '65'
+    pos: ["``", "VBP", "RB", "PRP", "VB", "PRP", "VBZ", "JJ", "TO", "VB", "NN", "IN", "PRP", "VBP", "VB", "VB", "PRP", "IN", "``", "."]
+    text: ' " Don''t you think it''s selfish to have dinner before you go to pick her up "?
+
+  '
+    tokens: [[1, 2], [3, 5], [5, 8], [9, 12], [13, 18], [19, 21], [21, 23], [24, 31], [32, 34], [35, 39], [40, 46], [47, 53], [54, 57], [58, 60], [61, 63], [64, 68], [69, 72], [73, 75], [76, 77], [77, 78]]
+    wn16_key: [[4, "think%2:31:03::"], [6, "be%2:42:03::"], [9, "have%2:34:00::"], [13, "go%2:41:00::"], [15, "pick_up%2:38:00::"]]
+    wn30_key: [[4, "think%2:31:03::"], [6, "be%2:42:03::"], [9, "have%2:34:00::"], [13, "go%2:41:00::"], [15, "pick_up%2:38:00::"]]
+V+At:
+    lemmas: ["\"", "No", "\"", ",", "I", "say", "."]
+    oewn2026_key: [[5, "oewn-01011267-v"]]
+    paragraph: '66'
+    pos: ["``", "DT", "''", ",", "PRP", "VBD", "."]
+    text: ' " No ", I said.'
+    tokens: [[1, 2], [3, 5], [6, 7], [7, 8], [9, 10], [11, 15], [15, 16]]
+    wn16_key: [[5, "say%2:32:00::"]]
+    wn30_key: [[5, "say%2:32:00::"]]
+egUx:
+    lemmas: ["\"", "It", "be", "a", "kindness", "to", "her", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"]]
+    paragraph: '66'
+    pos: ["``", "PRP", "VBZ", "DT", "NN", "TO", "PRP$", "."]
+    text: ' " It''s a kindness to her.'
+    tokens: [[1, 2], [3, 5], [5, 7], [8, 9], [10, 18], [19, 21], [22, 25], [25, 26]]
+    wn16_key: [[2, "be%2:42:03::"]]
+    wn30_key: [[2, "be%2:42:03::"]]
+JZy5:
+    lemmas: ["You", "see", ",", "she", "be", "on", "a", "diet", "."]
+    oewn2026_key: [[1, "oewn-00592510-v"], [4, "oewn-02610777-v"]]
+    paragraph: '66'
+    pos: ["PRP", "VBP", ",", "PRP", "VBZ", "IN", "DT", "NN", "."]
+    text: ' You see, she''s on a diet.'
+    tokens: [[1, 4], [5, 8], [8, 9], [10, 13], [13, 15], [16, 18], [19, 20], [21, 25], [25, 26]]
+    wn16_key: [[1, "see%2:31:01::"], [4, "be%2:42:03::"]]
+    wn30_key: [[1, "see%2:31:01::"], [4, "be%2:42:03::"]]
+18ag:
+    lemmas: ["She", "'ll", "eat", "just", "a", "pineapple", "and", "cottage_cheese", "salad", "and", "I", "'m", "to", "have", "one", "with", "her", "so", "she", "win", "n't", "feel", "out", "of", "place", "\"", "."]
+    oewn2026_key: [[2, "oewn-01170802-v"], [13, "oewn-01159300-v"], [21, "oewn-00692071-v"]]
+    paragraph: '66'
+    pos: ["PRP", "MD", "VB", "RB", "DT", "NN", "CC", "NN", "NN", "CC", "PRP", "VBP", "TO", "VB", "CD", "IN", "PRP$", "RB", "PRP", "VBD", "RB", "VB", "VB", "IN", "NN", "''", "."]
+    text: ' She''ll eat just a pineapple and cottage_cheese salad and I''m to have one with
+  her so she wonn''t feel out of place ".
+
+  '
+    tokens: [[1, 4], [4, 7], [8, 11], [12, 16], [17, 18], [19, 28], [29, 32], [33, 47], [48, 53], [54, 57], [58, 59], [59, 61], [62, 64], [65, 69], [70, 73], [74, 78], [79, 82], [83, 85], [86, 89], [90, 93], [93, 96], [97, 101], [102, 105], [106, 108], [109, 114], [115, 116], [116, 117]]
+    wn16_key: [[2, "eat%2:34:00::"], [13, "have%2:34:00::"], [21, "feel%2:31:01::"]]
+    wn30_key: [[2, "eat%2:34:00::"], [13, "have%2:34:00::"], [21, "feel%2:31:01::"]]
++lYL:
+    lemmas: ["\"", "diet", "can", "be", "terrible", "\"", ",", "the", "girl", "say", "."]
+    oewn2026_key: [[3, "oewn-02610777-v"], [9, "oewn-01011267-v"]]
+    paragraph: '67'
+    pos: ["``", "NNS", "MD", "VB", "JJ", "''", ",", "DT", "NN", "VBD", "."]
+    text: ' " diets can be terrible ", the girl said.'
+    tokens: [[1, 2], [3, 8], [9, 12], [13, 15], [16, 24], [25, 26], [26, 27], [28, 31], [32, 36], [37, 41], [41, 42]]
+    wn16_key: [[3, "be%2:42:03::"], [9, "say%2:32:00::"]]
+    wn30_key: [[3, "be%2:42:03::"], [9, "say%2:32:00::"]]
+wmkr:
+    lemmas: ["\"", "How", "much", "overweight", "be", "she", "\"", "?"]
+    oewn2026_key: [[4, "oewn-02610777-v"]]
+    paragraph: '67'
+    pos: ["``", "WRB", "JJ", "JJ", "VBZ", "PRP", "``", "."]
+    text: ' " How much overweight is she "?
+
+  '
+    tokens: [[1, 2], [3, 6], [7, 11], [12, 22], [23, 25], [26, 29], [30, 31], [31, 32]]
+    wn16_key: [[4, "be%2:42:03::"]]
+    wn30_key: [[4, "be%2:42:03::"]]
+3YiC:
+    lemmas: ["\"", "not", "a_bit", "\"", ",", "I", "say", ",", "\"", "but", "she", "'s", "keep", "her", "figure", "in_hand", "\"", "."]
+    oewn2026_key: [[6, "oewn-01011267-v"], [12, "oewn-02687605-v"]]
+    paragraph: '68'
+    pos: ["``", "RB", "RB", "''", ",", "PRP", "VBD", ",", "''", "CC", "PRP", "VBZ", "VBG", "PRP$", "NN", "RB", "''", "."]
+    text: ' " Not a_bit ", I said, " but she''s keeping her figure in_hand ".
+
+  '
+    tokens: [[1, 2], [3, 6], [7, 12], [13, 14], [14, 15], [16, 17], [18, 22], [22, 23], [24, 25], [26, 29], [30, 33], [33, 35], [36, 43], [44, 47], [48, 54], [55, 62], [63, 64], [64, 65]]
+    wn16_key: [[6, "say%2:32:00::"], [12, "keep%2:42:00::"]]
+    wn30_key: [[6, "say%2:32:00::"], [12, "keep%2:42:00::"]]
+Vurp:
+    lemmas: ["She", "look", "at", "me", "provocatively", "."]
+    oewn2026_key: [[1, "oewn-02134989-v"]]
+    paragraph: '69'
+    pos: ["PRP", "VBD", "VB", "PRP", "RB", "."]
+    text: ' She looked at me provocatively.'
+    tokens: [[1, 4], [5, 11], [12, 14], [15, 17], [18, 31], [31, 32]]
+    wn16_key: [[1, "look%2:39:00::"]]
+    wn30_key: [[1, "look%2:39:00::"]]
+Wi67:
+    lemmas: ["\"", "good", "figure", "should", "be", "keep", "in_hand", "\"", ",", "she", "say", ",", "and", "walk", "away", "with", "an", "exaggerated", "wiggle", "."]
+    oewn2026_key: [[5, "oewn-02687605-v"], [10, "oewn-01011267-v"], [13, "oewn-01908923-v"]]
+    paragraph: '69'
+    pos: ["``", "JJ", "NNS", "MD", "VB", "VBN", "JJ", "''", ",", "PRP", "VBD", ",", "CC", "VBD", "RB", "IN", "DT", "JJ", "NN", "."]
+    text: ' " Good figures should be kept in_hand ", she said, and walked away with an exaggerated
+  wiggle.
+
+  '
+    tokens: [[1, 2], [3, 7], [8, 15], [16, 22], [23, 25], [26, 30], [31, 38], [39, 40], [40, 41], [42, 45], [46, 50], [50, 51], [52, 55], [56, 62], [63, 67], [68, 72], [73, 75], [76, 87], [88, 94], [94, 95]]
+    wn16_key: [[5, "keep%2:42:00::"], [10, "say%2:32:00::"], [13, "walk%2:38:00::"]]
+    wn30_key: [[5, "keep%2:42:00::"], [10, "say%2:32:00::"], [13, "walk%2:38:00::"]]
+VEhw:
+    lemmas: ["I", "turn_on", "the", "device", "again", ",", "half", "fearful", "that", "I", "might", "find", "silence", ",", "but", "the", "buzz", "come_in", "loud", "and", "clear", "."]
+    oewn2026_key: [[1, "oewn-01513031-v"], [11, "oewn-02158938-v"], [17, "oewn-02010723-v"]]
+    paragraph: '70'
+    pos: ["PRP", "VBP", "DT", "NN", "RB", ",", "NN", "JJ", "IN", "PRP", "MD", "VB", "NN", ",", "CC", "DT", "NNS", "VB", "JJ", "CC", "JJ", "."]
+    text: ' I turned_on the device again, half fearful that I might find silence, but the buzzes
+  came_in loud and clear.
+
+  '
+    tokens: [[1, 2], [3, 12], [13, 16], [17, 23], [24, 29], [29, 30], [31, 35], [36, 43], [44, 48], [49, 50], [51, 56], [57, 61], [62, 69], [69, 70], [71, 74], [75, 78], [79, 85], [86, 93], [94, 98], [99, 102], [103, 108], [108, 109]]
+    wn16_key: [[1, "turn_on%2:35:00::"], [11, "find%2:39:02::"], [17, "come_in%2:38:01::"]]
+    wn30_key: [[1, "turn_on%2:35:00::"], [11, "find%2:39:02::"], [17, "come_in%2:38:01::"]]
+ghZB:
+    lemmas: ["When", "I", "switch_on", "the", "light", "for", "her", "to", "come", "and", "get", "the", "check", ",", "I", "have", "the", "exact", "change", "plus", "a", "dollar", "tip", "."]
+    oewn2026_key: [[2, "oewn-01513031-v"], [8, "oewn-01853188-v"], [10, "oewn-01435927-v"], [15, "oewn-02208144-v"]]
+    paragraph: '71'
+    pos: ["WRB", "PRP", "VBP", "DT", "NNS", "IN", "PRP", "TO", "VB", "CC", "VB", "DT", "NN", ",", "PRP", "VBD", "DT", "JJ", "NN", "CC", "DT", "NN", "NN", "."]
+    text: ' When I switched_on the lights for her to come and get the check, I had the exact
+  change plus a dollar tip.
+
+  '
+    tokens: [[1, 5], [6, 7], [8, 19], [20, 23], [24, 30], [31, 34], [35, 38], [39, 41], [42, 46], [47, 50], [51, 54], [55, 58], [59, 64], [64, 65], [66, 67], [68, 71], [72, 75], [76, 81], [82, 88], [89, 93], [94, 95], [96, 102], [103, 106], [106, 107]]
+    wn16_key: [[2, "switch_on%2:35:00::"], [8, "come%2:38:00::"], [10, "get%2:35:03::"], [15, "have%2:40:00::"]]
+    wn30_key: [[2, "switch_on%2:35:00::"], [8, "come%2:38:00::"], [10, "get%2:35:03::"], [15, "have%2:40:00::"]]

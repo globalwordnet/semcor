@@ -1,0 +1,966 @@
+_meta:
+    lemmas:
+        type: seq
+        base: tokens
+        data: string
+    oewn2026_key:
+        type: element
+        base: tokens
+        data: string
+    paragraph:
+        type: characters
+    pos:
+        type: seq
+        base: tokens
+        data: string
+    text:
+        type: characters
+    tokens:
+        type: span
+        base: text
+    wn16_key:
+        type: element
+        base: tokens
+        data: string
+    wn30_key:
+        type: element
+        base: tokens
+        data: string
+b+t9:
+    lemmas: ["The", "group", "tonight", "retain", "the", "distinction", "of", "be", "the", "only", "winless", "team", "among", "the", "eighteen", "major-league_club", "as", "they", "drop", "their", "sixth", "straight", "spring", "exhibition", "decision", ",", "this", "one", "to", "the", "kansas_city", "group", "by", "a", "score", "of", "5", "to", "3", "."]
+    oewn2026_key: [[1, "oewn-00031563-n"], [2, "oewn-00079765-r"], [3, "oewn-02288169-v"], [5, "oewn-06719080-n"], [7, "oewn-02610777-v"], [9, "oewn-02222405-s"], [10, "oewn-02343712-s"], [11, "oewn-08225481-n"], [14, "oewn-02195747-s"], [15, "oewn-08095696-n"], [18, "oewn-01102419-v"], [20, "oewn-02210523-s"], [21, "oewn-00599155-s"], [22, "oewn-15261841-n"], [23, "oewn-00523201-n"], [24, "oewn-07308384-n"], [30, "oewn-09129720-n"], [31, "oewn-00031563-n"], [34, "oewn-13615828-n"]]
+    paragraph: '0'
+    pos: ["DT", "NNP", "RB", "VBD", "DT", "NN", "IN", "VBG", "DT", "JJ", "JJ", "NN", "IN", "DT", "JJ", "NNS", "IN", "PRP", "VBD", "PRP$", "JJ", "JJ", "NN", "NN", "NN", ",", "DT", "CD", "TO", "DT", "NNP", "NNP", "IN", "DT", "NN", "IN", "CD", "TO", "CD", "."]
+    text: 'The Orioles tonight retained the distinction of being the only winless team among
+  the eighteen Major-League_clubs as they dropped their sixth straight spring exhibition
+  decision, this one to the Kansas_City Athletics by a score of 5 to 3.
+
+  '
+    tokens: [[0, 3], [4, 11], [12, 19], [20, 28], [29, 32], [33, 44], [45, 47], [48, 53], [54, 57], [58, 62], [63, 70], [71, 75], [76, 81], [82, 85], [86, 94], [95, 113], [114, 116], [117, 121], [122, 129], [130, 135], [136, 141], [142, 150], [151, 157], [158, 168], [169, 177], [177, 178], [179, 183], [184, 187], [188, 190], [191, 194], [195, 206], [207, 216], [217, 219], [220, 221], [222, 227], [228, 230], [231, 232], [233, 235], [236, 237], [237, 238]]
+    wn16_key: [[1, "group%1:03:00::"], [2, "tonight%4:02:00::"], [3, "retain%2:40:01::"], [5, "distinction%1:07:01::"], [7, "be%2:42:03::"], [9, "only%5:00:00:single(a):00"], [10, "winless%5:00:00:unsuccessful:00"], [11, "team%1:14:00::"], [14, "eighteen%5:00:00:cardinal:00"], [15, "major-league_club%1:14:00::"], [18, "drop%2:33:00::"], [20, "sixth%5:00:00:ordinal:00"], [21, "straight%5:00:00:continuous:01"], [22, "spring%1:28:00::"], [23, "exhibition%1:04:00::"], [24, "decision%1:11:02::"], [30, "kansas_city%1:15:00::"], [31, "group%1:03:00::"], [34, "score%1:23:00::"]]
+    wn30_key: [[1, "group%1:03:00::"], [2, "tonight%4:02:00::"], [3, "retain%2:40:00::"], [5, "distinction%1:07:01::"], [7, "be%2:42:03::"], [9, "only%3:00:00:single:05"], [10, "winless%3:00:00:unsuccessful:00"], [11, "team%1:14:00::"], [14, "eighteen%3:00:00:cardinal:00"], [15, "major-league_club%1:14:00::"], [18, "drop%2:33:00::"], [20, "sixth%3:00:00:ordinal:00"], [21, "straight%3:00:00:continuous:01"], [22, "spring%1:28:00::"], [23, "exhibition%1:04:00::"], [24, "decision%1:11:02::"], [30, "kansas_city%1:15:00::"], [31, "group%1:03:00::"], [34, "score%1:23:00::"]]
+M5Za:
+    lemmas: ["indication", "as_late_as", "the", "top", "of", "the", "sixth", "be", "that", "the", "group", "be", "to", "end", "their", "victory", "drought", "as", "they", "coast", "along", "with", "a", "3", "-", "to-o", "advantage", "."]
+    oewn2026_key: [[0, "oewn-06810027-n"], [3, "oewn-15280833-n"], [6, "oewn-02210523-s"], [7, "oewn-02610777-v"], [10, "oewn-00031563-n"], [13, "oewn-00353480-v"], [15, "oewn-07488581-n"], [16, "oewn-15269316-n"], [19, "oewn-01890721-v"], [26, "oewn-05163204-n"]]
+    paragraph: '1'
+    pos: ["NNS", "IN", "DT", "NN", "IN", "DT", "JJ", "VBD", "IN", "NN", "NNP", "VBD", "TO", "VB", "PRP$", "NN", "NN", "IN", "PRP", "VBD", "IN", "IN", "DT", "CD", ":", "JJ", "NN", "."]
+    text: ' Indications as_late_as the top of the sixth were that the Birds were to end their
+  victory drought as they coasted along with a 3 - to-o advantage.
+
+  '
+    tokens: [[1, 12], [13, 23], [24, 27], [28, 31], [32, 34], [35, 38], [39, 44], [45, 49], [50, 54], [55, 58], [59, 64], [65, 69], [70, 72], [73, 76], [77, 82], [83, 90], [91, 98], [99, 101], [102, 106], [107, 114], [115, 120], [121, 125], [126, 127], [128, 129], [130, 131], [132, 136], [137, 146], [146, 147]]
+    wn16_key: [[0, "indication%1:10:00::"], [3, "top%1:28:00::"], [6, "sixth%5:00:00:ordinal:00"], [7, "be%2:42:03::"], [10, "group%1:03:00::"], [13, "end%2:30:01::"], [15, "victory%1:11:00::"], [16, "drought%1:28:00::"], [19, "coast%2:38:00::"], [26, "advantage%1:07:00::"]]
+    wn30_key: [[0, "indication%1:10:00::"], [3, "top%1:28:00::"], [6, "sixth%3:00:00:ordinal:00"], [7, "be%2:42:03::"], [10, "group%1:03:00::"], [13, "end%2:30:01::"], [15, "victory%1:11:00::"], [16, "drought%1:28:00::"], [19, "coast%2:38:00::"], [26, "advantage%1:07:00::"]]
+llCs:
+    lemmas: ["Over", "the", "first", "five", "frame", ",", "person", ",", "the", "big", "right-hander", "who", "figure", "to", "be", "in_the_middle", "of", "group", "plan", "for", "a", "drive", "on", "the", "1961", "group", "pennant", ",", "hold", "the", "A", "'s", "scoreless", "while", "yield", "three", "scattered", "hit", "."]
+    oewn2026_key: [[2, "oewn-01014459-a"], [3, "oewn-02194389-s"], [4, "oewn-15280615-n"], [6, "oewn-00007846-n"], [9, "oewn-01385012-a"], [10, "oewn-10407023-n"], [12, "oewn-02728082-v"], [14, "oewn-02661230-v"], [17, "oewn-00031563-n"], [18, "oewn-05736623-n"], [21, "oewn-00799906-n"], [25, "oewn-00031563-n"], [26, "oewn-06718654-n"], [28, "oewn-02687605-v"], [32, "oewn-02343111-s"], [34, "oewn-02321629-v"], [35, "oewn-02194219-s"], [37, "oewn-00044640-n"]]
+    paragraph: '2'
+    pos: ["IN", "DT", "JJ", "JJ", "NNS", ",", "NN", ",", "DT", "JJ", "NN", "WP", "VBZ", "TO", "VB", "RB", "IN", "NNP", "NNS", "IN", "DT", "NN", "IN", "DT", "CD", "NN", "NN", ",", "VBD", "DT", "DT", "VBZ", "JJ", "IN", "VBG", "JJ", "JJ", "NNS", "."]
+    text: ' Over the first five frames, Jack_Fisher, the big righthander who figures to be in_the_middle
+  of Oriole plans for a drive on the 1961 American_League pennant, held the A''s scoreless
+  while yielding three scattered hits.
+
+  '
+    tokens: [[1, 5], [6, 9], [10, 15], [16, 20], [21, 27], [27, 28], [29, 40], [40, 41], [42, 45], [46, 49], [50, 61], [62, 65], [66, 73], [74, 76], [77, 79], [80, 93], [94, 96], [97, 103], [104, 109], [110, 113], [114, 115], [116, 121], [122, 124], [125, 128], [129, 133], [134, 149], [150, 157], [157, 158], [159, 163], [164, 167], [168, 169], [169, 171], [172, 181], [182, 187], [188, 196], [197, 202], [203, 212], [213, 217], [217, 218]]
+    wn16_key: [[2, "first%3:00:00::"], [3, "five%5:00:00:cardinal:00"], [4, "frame%1:28:00::"], [6, "person%1:03:00::"], [9, "big%3:00:01::"], [10, "right-hander%1:18:01::"], [12, "figure%2:42:00::"], [14, "be%2:42:05::"], [15, "in_the_middle%4:02:00::"], [17, "group%1:03:00::"], [18, "plan%1:09:01::"], [21, "drive%1:04:02::"], [25, "group%1:03:00::"], [26, "pennant%1:10:01::"], [28, "hold%2:42:00::"], [32, "scoreless%5:00:00:unsuccessful:00"], [34, "yield%2:40:01::"], [35, "three%5:00:00:cardinal:00"], [36, "scattered%5:00:00:sporadic:00"], [37, "hit%1:04:03::"]]
+    wn30_key: [[2, "first%3:00:00::"], [3, "five%3:00:00:cardinal:00"], [4, "frame%1:28:00::"], [6, "person%1:03:00::"], [9, "big%3:00:01::"], [10, "right-hander%1:18:01::"], [12, "figure%2:42:00::"], [14, "be%2:42:05::"], [17, "group%1:03:00::"], [18, "plan%1:09:01::"], [21, "drive%1:04:02::"], [25, "group%1:03:00::"], [26, "pennant%1:10:01::"], [28, "hold%2:42:00::"], [32, "scoreless%3:00:00:unsuccessful:00"], [34, "yield%2:40:01::"], [35, "three%3:00:00:cardinal:00"], [37, "hit%1:04:03::"]]
+u1fy:
+    lemmas: ["then", "person", ",", "submarine_ball", "hurler", ",", "enter", "the", "contest", "and", "only", "five", "batter", "need", "to", "face", "him", "before", "there", "exist", "a", "3", "-", "to", "3", "deadlock", "."]
+    oewn2026_key: [[0, "oewn-00118527-r"], [1, "oewn-00007846-n"], [3, "oewn-00110591-n"], [4, "oewn-10455755-n"], [6, "oewn-01084999-v"], [8, "oewn-07470961-n"], [10, "oewn-00005103-r"], [11, "oewn-02194389-s"], [12, "oewn-09863364-n"], [15, "oewn-01081176-v"], [19, "oewn-02609706-v"], [25, "oewn-14038832-n"]]
+    paragraph: '3'
+    pos: ["RB", "NN", ",", "NN", "NN", ",", "VBD", "DT", "NN", "CC", "RB", "JJ", "NNS", "VB", "VB", "VB", "PRP", "IN", "EX", "VBD", "DT", "CD", ":", "JJ", "JJ", "NN", "."]
+    text: ' Then Dick_Hyde, submarine_ball hurler, entered the contest and only five batters
+  needed to face him before there existed a 3 - to 3 deadlock.
+
+  '
+    tokens: [[1, 5], [6, 15], [15, 16], [17, 31], [32, 38], [38, 39], [40, 47], [48, 51], [52, 59], [60, 63], [64, 68], [69, 73], [74, 81], [82, 88], [89, 91], [92, 96], [97, 100], [101, 107], [108, 113], [114, 121], [122, 123], [124, 125], [126, 127], [128, 130], [131, 132], [133, 141], [141, 142]]
+    wn16_key: [[0, "then%4:02:00::"], [1, "person%1:03:00::"], [3, "submarine_ball%1:04:00::"], [4, "hurler%1:18:00::"], [6, "enter%2:33:00::"], [8, "contest%1:11:00::"], [10, "only%4:02:02::"], [11, "five%5:00:00:cardinal:00"], [12, "batter%1:18:00::"], [15, "face%2:33:00::"], [19, "exist%2:42:00::"], [25, "deadlock%1:26:00::"]]
+    wn30_key: [[0, "then%4:02:00::"], [1, "person%1:03:00::"], [3, "submarine_ball%1:04:00::"], [4, "hurler%1:18:00::"], [6, "enter%2:33:00::"], [8, "contest%1:11:00::"], [10, "only%4:02:02::"], [11, "five%3:00:00:cardinal:00"], [12, "batter%1:18:00::"], [15, "face%2:33:00::"], [19, "exist%2:42:00::"], [25, "deadlock%1:26:00::"]]
+i79V:
+    lemmas: ["A", "two", "run", "homer", "by", "person", "and", "a", "solo_blast", "by", "person", "tie", "the", "game", ",", "and", "single", "run", "in", "the", "eighth", "and", "ninth", "give", "the", "group", "their", "fifth", "victory", "in", "eight", "start", "."]
+    oewn2026_key: [[1, "oewn-02194109-s"], [2, "oewn-00190414-n"], [3, "oewn-00133175-n"], [5, "oewn-00007846-n"], [8, "oewn-00133317-n"], [10, "oewn-00007846-n"], [11, "oewn-01117608-v"], [13, "oewn-00431591-n"], [16, "oewn-00495505-a"], [17, "oewn-00190414-n"], [20, "oewn-02210792-s"], [22, "oewn-02210918-s"], [23, "oewn-01632595-v"], [25, "oewn-00031563-n"], [27, "oewn-02210381-s"], [28, "oewn-07488581-n"], [30, "oewn-02194712-s"], [31, "oewn-07339790-n"]]
+    paragraph: '4'
+    pos: ["DT", "JJ", "NN", "NN", "IN", "NN", "CC", "DT", "NN", "IN", "NN", "VBD", "DT", "NN", ",", "CC", "JJ", "NNS", "IN", "DT", "JJ", "CC", "JJ", "VBD", "DT", "NNP", "PRP$", "JJ", "NN", "IN", "JJ", "NNS", "."]
+    text: ' A two run homer by Norm_Siebern and a solo_blast by Bill_Tuttle tied the game, and
+  single runs in the eighth and ninth gave the Athletics their fifth victory in eight
+  starts.
+
+  '
+    tokens: [[1, 2], [3, 6], [7, 10], [11, 16], [17, 19], [20, 32], [33, 36], [37, 38], [39, 49], [50, 52], [53, 64], [65, 69], [70, 73], [74, 78], [78, 79], [80, 83], [84, 90], [91, 95], [96, 98], [99, 102], [103, 109], [110, 113], [114, 119], [120, 124], [125, 128], [129, 138], [139, 144], [145, 150], [151, 158], [159, 161], [162, 167], [168, 174], [174, 175]]
+    wn16_key: [[1, "two%5:00:00:cardinal:00"], [2, "run%1:04:01::"], [3, "homer%1:04:00::"], [5, "person%1:03:00::"], [8, "solo_blast%1:04:00::"], [10, "person%1:03:00::"], [11, "tie%2:33:00::"], [13, "game%1:04:01::"], [16, "single%3:00:00::"], [17, "run%1:04:01::"], [20, "eighth%5:00:00:ordinal:00"], [22, "ninth%5:00:00:ordinal:00"], [23, "give%2:36:03::"], [25, "group%1:03:00::"], [27, "fifth%5:00:00:ordinal:00"], [28, "victory%1:11:00::"], [30, "eight%5:00:00:cardinal:00"], [31, "start%1:11:00::"]]
+    wn30_key: [[1, "two%3:00:00:cardinal:00"], [2, "run%1:04:01::"], [3, "homer%1:04:00::"], [5, "person%1:03:00::"], [8, "solo_blast%1:04:00::"], [10, "person%1:03:00::"], [11, "tie%2:33:00::"], [13, "game%1:04:01::"], [16, "single%3:00:00::"], [17, "run%1:04:01::"], [20, "eighth%3:00:00:ordinal:00"], [22, "ninth%3:00:00:ordinal:00"], [23, "give%2:36:03::"], [25, "group%1:03:00::"], [27, "fifth%3:00:00:ordinal:00"], [28, "victory%1:11:00::"], [30, "eight%3:00:00:cardinal:00"], [31, "start%1:11:00::"]]
+D6fI:
+    lemmas: ["With", "one", "down", "in", "the", "eighth", ",", "person", "draw", "a", "walk", "and", "steal", "second_base", "as", "person", "fan", "person", "."]
+    oewn2026_key: [[1, "oewn-02193977-s"], [2, "oewn-02069082-s"], [5, "oewn-02210792-s"], [7, "oewn-00007846-n"], [8, "oewn-01646839-v"], [10, "oewn-00128106-n"], [12, "oewn-01113883-v"], [13, "oewn-04171467-n"], [15, "oewn-00007846-n"], [16, "oewn-01412417-v"], [17, "oewn-00007846-n"]]
+    paragraph: '5'
+    pos: ["IN", "JJ", "JJ", "IN", "DT", "JJ", ",", "NN", "VBD", "DT", "NN", "CC", "VBD", "NN", "IN", "NNP", "VBD", "NNP", "."]
+    text: ' With one down in the eighth, Marv_Throneberry drew a walk and stole second as Hyde
+  fanned Tuttle.'
+    tokens: [[1, 5], [6, 9], [10, 14], [15, 17], [18, 21], [22, 28], [28, 29], [30, 46], [47, 51], [52, 53], [54, 58], [59, 62], [63, 68], [69, 75], [76, 78], [79, 83], [84, 90], [91, 97], [97, 98]]
+    wn16_key: [[1, "one%5:00:00:cardinal:00"], [2, "down%5:00:00:out(p):02"], [5, "eighth%5:00:00:ordinal:00"], [7, "person%1:03:00::"], [8, "draw%2:36:01::"], [10, "walk%1:04:01::"], [12, "steal%2:33:00::"], [13, "second_base%1:06:00::"], [15, "person%1:03:00::"], [16, "fan%2:35:01::"], [17, "person%1:03:00::"]]
+    wn30_key: [[1, "one%3:00:00:cardinal:00"], [2, "down%3:00:00:out:02"], [5, "eighth%3:00:00:ordinal:00"], [7, "person%1:03:00::"], [8, "draw%2:36:01::"], [10, "walk%1:04:01::"], [12, "steal%2:33:00::"], [13, "second_base%1:06:00::"], [15, "person%1:03:00::"], [16, "fan%2:35:01::"], [17, "person%1:03:00::"]]
+hjuu:
+    lemmas: ["catcher", "person", "'s", "throw", "in", "an", "effort", "to", "nab", "person", "be", "wide", "and", "in", "the", "dirt", "."]
+    oewn2026_key: [[0, "oewn-09920596-n"], [1, "oewn-00007846-n"], [3, "oewn-00105359-n"], [6, "oewn-00787849-n"], [8, "oewn-01603680-v"], [9, "oewn-00007846-n"], [10, "oewn-02610777-v"], [11, "oewn-02571278-a"], [15, "oewn-14868863-n"]]
+    paragraph: '5'
+    pos: ["NN", "NN", "POS", "NN", "VB", "DT", "NN", "TO", "VB", "NNP", "VBD", "JJ", "CC", "IN", "DT", "NN", "."]
+    text: ' Catcher Frank_House''s throw in an effort to nab Throneberry was wide and in the
+  dirt.
+
+  '
+    tokens: [[1, 8], [9, 20], [20, 22], [23, 28], [29, 31], [32, 34], [35, 41], [42, 44], [45, 48], [49, 60], [61, 64], [65, 69], [70, 73], [74, 76], [77, 80], [81, 85], [85, 86]]
+    wn16_key: [[0, "catcher%1:18:00::"], [1, "person%1:03:00::"], [3, "throw%1:04:00::"], [6, "effort%1:04:00::"], [8, "nab%2:35:02::"], [9, "person%1:03:00::"], [10, "be%2:42:03::"], [11, "wide%3:00:00::"], [15, "dirt%1:27:01::"]]
+    wn30_key: [[0, "catcher%1:18:00::"], [1, "person%1:03:00::"], [3, "throw%1:04:00::"], [6, "effort%1:04:00::"], [8, "nab%2:35:02::"], [9, "person%1:03:00::"], [10, "be%2:42:03::"], [11, "wide%3:00:00::"], [15, "dirt%1:27:01::"]]
+W0u9:
+    lemmas: ["then", "person", ",", "kansas_city", "catcher", ",", "single", "up", "the", "middle", "and", "person", "be", "across", "with", "what", "prove", "to", "be", "the", "winning", "run", "."]
+    oewn2026_key: [[0, "oewn-00118527-r"], [1, "oewn-00007846-n"], [3, "oewn-09129720-n"], [4, "oewn-09920596-n"], [6, "oewn-01412028-v"], [7, "oewn-00096883-r"], [9, "oewn-08540894-n"], [11, "oewn-00007846-n"], [12, "oewn-02610777-v"], [16, "oewn-02639962-v"], [18, "oewn-02622439-v"], [20, "oewn-02341306-s"], [21, "oewn-00190414-n"]]
+    paragraph: '6'
+    pos: ["RB", "NN", ",", "NN", "NN", ",", "VBD", "RP", "DT", "NN", "CC", "NNP", "VBD", "IN", "IN", "WP", "VBD", "TO", "VB", "DT", "JJ", "NN", "."]
+    text: ' Then Heywood_Sullivan, Kansas_City catcher, singled up the middle and Throneberry
+  was across with what proved to be the winning run.
+
+  '
+    tokens: [[1, 5], [6, 22], [22, 23], [24, 35], [36, 43], [43, 44], [45, 52], [53, 55], [56, 59], [60, 66], [67, 70], [71, 82], [83, 86], [87, 93], [94, 98], [99, 103], [104, 110], [111, 113], [114, 116], [117, 120], [121, 128], [129, 132], [132, 133]]
+    wn16_key: [[0, "then%4:02:00::"], [1, "person%1:03:00::"], [3, "kansas_city%1:15:00::"], [4, "catcher%1:18:00::"], [6, "single%2:35:00::"], [7, "up%4:02:00::"], [9, "middle%1:15:00::"], [11, "person%1:03:00::"], [12, "be%2:42:03::"], [16, "prove%2:42:00::"], [18, "be%2:42:06::"], [20, "winning%5:00:02:successful:00"], [21, "run%1:04:01::"]]
+    wn30_key: [[0, "then%4:02:00::"], [1, "person%1:03:00::"], [3, "kansas_city%1:15:00::"], [4, "catcher%1:18:00::"], [6, "single%2:35:00::"], [7, "up%4:02:00::"], [9, "middle%1:15:00::"], [11, "person%1:03:00::"], [12, "be%2:42:03::"], [16, "prove%2:42:00::"], [18, "be%2:42:06::"], [20, "winning%3:00:01:successful:00"], [21, "run%1:04:01::"]]
+IGd+:
+    lemmas: ["rookie", "southpaw", "person", "relieve", "person", "at_the_start", "of", "the", "ninth", "and", "give_up", "the", "A", "'s", "fifth", "tally", "on", "a", "walk", "to", "second_baseman", "person", ",", "a", "wild_pitch", ",", "and", "person", "'s", "single", "under", "shortstop", "person", "'s", "glove", "into", "center", "."]
+    oewn2026_key: [[0, "oewn-10001364-n"], [1, "oewn-10272618-n"], [2, "oewn-00007846-n"], [3, "oewn-02417305-v"], [4, "oewn-00007846-n"], [8, "oewn-02210918-s"], [10, "oewn-02428446-v"], [14, "oewn-02210381-s"], [15, "oewn-00190414-n"], [18, "oewn-00128106-n"], [20, "oewn-83895260-n"], [21, "oewn-00007846-n"], [24, "oewn-00110712-n"], [27, "oewn-00007846-n"], [29, "oewn-00133421-n"], [31, "oewn-10612394-n"], [32, "oewn-00007846-n"], [34, "oewn-02803372-n"], [36, "oewn-02997788-n"]]
+    paragraph: '7'
+    pos: ["NN", "NN", "NN", "VBD", "NNP", "RB", "IN", "DT", "JJ", "CC", "VB", "DT", "DT", "VBZ", "JJ", "NN", "IN", "DT", "NN", "TO", "NN", "NN", ",", "DT", "NN", ",", "CC", "NNP", "POS", "NN", "IN", "NNP", "NNP", "POS", "NN", "IN", "NN", "."]
+    text: ' Rookie southpaw George_Stepanovich relieved Hyde at_the_start of the ninth and gave_up
+  the A''s fifth tally on a walk to second_baseman Dick_Howser, a wild_pitch, and
+  Frank_Cipriani''s single under Shortstop Jerry_Adair''s glove into center.
+
+  '
+    tokens: [[1, 7], [8, 16], [17, 35], [36, 44], [45, 49], [50, 62], [63, 65], [66, 69], [70, 75], [76, 79], [80, 87], [88, 91], [92, 93], [93, 95], [96, 101], [102, 107], [108, 110], [111, 112], [113, 117], [118, 120], [121, 135], [136, 147], [147, 148], [149, 150], [151, 161], [161, 162], [163, 166], [167, 181], [181, 183], [184, 190], [191, 196], [197, 206], [207, 218], [218, 220], [221, 226], [227, 231], [232, 238], [238, 239]]
+    wn16_key: [[0, "rookie%1:18:00::"], [1, "southpaw%1:18:01::"], [2, "person%1:03:00::"], [3, "relieve%2:41:01::"], [4, "person%1:03:00::"], [5, "at_the_start%4:02:00::"], [8, "ninth%5:00:00:ordinal:00"], [10, "give_up%2:41:00::"], [14, "fifth%5:00:00:ordinal:00"], [15, "tally%1:04:01::"], [18, "walk%1:04:01::"], [20, "second_baseman%1:18:00::"], [21, "person%1:03:00::"], [24, "wild_pitch%1:04:00::"], [27, "person%1:03:00::"], [29, "single%1:04:00::"], [31, "shortstop%1:18:00::"], [32, "person%1:03:00::"], [34, "glove%1:06:01::"], [36, "center%1:06:02::"]]
+    wn30_key: [[0, "rookie%1:18:00::"], [1, "southpaw%1:18:01::"], [2, "person%1:03:00::"], [3, "relieve%2:41:01::"], [4, "person%1:03:00::"], [8, "ninth%3:00:00:ordinal:00"], [10, "give_up%2:41:00::"], [14, "fifth%3:00:00:ordinal:00"], [15, "tally%1:04:01::"], [18, "walk%1:04:01::"], [20, "second_baseman%1:18:00::"], [21, "person%1:03:00::"], [24, "wild_pitch%1:04:00::"], [27, "person%1:03:00::"], [29, "single%1:04:00::"], [31, "shortstop%1:18:00::"], [32, "person%1:03:00::"], [34, "glove%1:06:01::"], [36, "center%1:06:02::"]]
+uu7e:
+    lemmas: ["The", "group", "once_again", "perform", "at", "the", "plate", "in", "powder-puff", "fashion", ",", "gather", "only", "seven", "blow", "off", "the", "offering", "of", "three", "kansas_city", "pitcher", "."]
+    oewn2026_key: [[1, "oewn-00031563-n"], [2, "oewn-00040777-r"], [3, "oewn-01716563-v"], [6, "oewn-03534081-n"], [8, "oewn-01488121-s"], [9, "oewn-00416239-n"], [11, "oewn-01383303-v"], [12, "oewn-00005103-r"], [13, "oewn-02194609-s"], [14, "oewn-01175528-n"], [17, "oewn-07179197-n"], [19, "oewn-02194219-s"], [20, "oewn-09129720-n"], [21, "oewn-10455755-n"]]
+    paragraph: '8'
+    pos: ["DT", "NNP", "RB", "VBN", "IN", "DT", "NN", "IN", "JJ", "NN", ",", "VBG", "RB", "JJ", "NNS", "VB", "DT", "NNS", "IN", "JJ", "NN", "NNS", "."]
+    text: ' The Orioles once_again performed at the plate in powderpuff fashion, gathering only
+  seven blows off the offerings of three Kansas_City pitchers.'
+    tokens: [[1, 4], [5, 12], [13, 23], [24, 33], [34, 36], [37, 40], [41, 46], [47, 49], [50, 60], [61, 68], [68, 69], [70, 79], [80, 84], [85, 90], [91, 96], [97, 100], [101, 104], [105, 114], [115, 117], [118, 123], [124, 135], [136, 144], [144, 145]]
+    wn16_key: [[1, "group%1:03:00::"], [2, "once_again%4:02:00::"], [3, "perform%2:36:00::"], [6, "plate%1:06:04::"], [8, "powder-puff%5:00:00:feminine:01"], [9, "fashion%1:04:00::"], [11, "gather%2:35:00::"], [12, "only%4:02:02::"], [13, "seven%5:00:00:cardinal:00"], [14, "blow%1:04:01::"], [17, "offering%1:10:00::"], [19, "three%5:00:00:cardinal:00"], [20, "kansas_city%1:15:00::"], [21, "pitcher%1:18:00::"]]
+    wn30_key: [[1, "group%1:03:00::"], [2, "once_again%4:02:00::"], [3, "perform%2:36:00::"], [6, "plate%1:06:04::"], [8, "powder-puff%3:00:00:feminine:01"], [9, "fashion%1:04:00::"], [11, "gather%2:35:00::"], [12, "only%4:02:02::"], [13, "seven%3:00:00:cardinal:00"], [14, "blow%1:04:01::"], [17, "offering%1:10:00::"], [19, "three%3:00:00:cardinal:00"], [20, "kansas_city%1:15:00::"], [21, "pitcher%1:18:00::"]]
++gxU:
+    lemmas: ["three", "be", "double", ",", "person", "get", "a", "pair", "and", "person", "one", "."]
+    oewn2026_key: [[0, "oewn-13766184-n"], [1, "oewn-02610777-v"], [2, "oewn-00133576-n"], [4, "oewn-00007846-n"], [5, "oewn-02360592-v"], [7, "oewn-13765745-n"], [9, "oewn-00007846-n"]]
+    paragraph: '8'
+    pos: ["NN", "VBD", "NN", ",", "NN", "VBG", "DT", "NN", "CC", "NN", "CD", "."]
+    text: ' Three were doubles, Brooks_Robinson getting a pair and Marv_Breeding one.
+
+  '
+    tokens: [[1, 6], [7, 11], [12, 19], [19, 20], [21, 36], [37, 44], [45, 46], [47, 51], [52, 55], [56, 69], [70, 73], [73, 74]]
+    wn16_key: [[0, "three%1:23:00::"], [1, "be%2:42:03::"], [2, "double%1:04:00::"], [4, "person%1:03:00::"], [5, "get%2:40:01::"], [7, "pair%1:23:00::"], [9, "person%1:03:00::"]]
+    wn30_key: [[0, "three%1:23:00::"], [1, "be%2:42:03::"], [2, "double%1:04:00::"], [4, "person%1:03:00::"], [5, "get%2:40:01::"], [7, "pair%1:23:00::"], [9, "person%1:03:00::"]]
+xeBj:
+    lemmas: ["person", ",", "person", "and", "person", "do", "the", "mound", "chore", "for", "the", "club", "down", "from", "location", "to", "play", "the", "game", "before", "767", "pay", "customer", "in", "location", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-00007846-n"], [4, "oewn-00007846-n"], [5, "oewn-02567910-v"], [7, "oewn-03797867-n"], [8, "oewn-00720957-n"], [11, "oewn-08096490-n"], [12, "oewn-00096162-r"], [14, "oewn-00027365-n"], [16, "oewn-01075360-v"], [18, "oewn-00457223-n"], [21, "oewn-02256551-v"], [22, "oewn-10004189-n"], [24, "oewn-00027365-n"]]
+    paragraph: '9'
+    pos: ["NN", ",", "NN", "CC", "NN", "VBD", "DT", "NN", "NNS", "IN", "DT", "NN", "RB", "IN", "NN", "TO", "VB", "DT", "NN", "IN", "CD", "VBG", "NNS", "IN", "NN", "."]
+    text: ' Bill_Kunkel, Bob_Hartman and Ed_Keegan did the mound chores for the club down from
+  West_Palm_Beach to play the game before 767 paying customers in Miami_Stadium.
+
+  '
+    tokens: [[1, 12], [12, 13], [14, 25], [26, 29], [30, 39], [40, 43], [44, 47], [48, 53], [54, 60], [61, 64], [65, 68], [69, 73], [74, 78], [79, 83], [84, 99], [100, 102], [103, 107], [108, 111], [112, 116], [117, 123], [124, 127], [128, 134], [135, 144], [145, 147], [148, 161], [161, 162]]
+    wn16_key: [[0, "person%1:03:00::"], [2, "person%1:03:00::"], [4, "person%1:03:00::"], [5, "do%2:41:04::"], [7, "mound%1:06:01::"], [8, "chore%1:04:00::"], [11, "club%1:14:01::"], [12, "down%4:02:02::"], [14, "location%1:03:00::"], [16, "play%2:33:00::"], [18, "game%1:04:03::"], [21, "pay%2:40:00::"], [22, "customer%1:18:00::"], [24, "location%1:03:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [2, "person%1:03:00::"], [4, "person%1:03:00::"], [5, "do%2:41:04::"], [7, "mound%1:06:01::"], [8, "chore%1:04:00::"], [11, "club%1:14:01::"], [12, "down%4:02:02::"], [14, "location%1:03:00::"], [16, "play%2:33:00::"], [18, "game%1:04:03::"], [21, "pay%2:40:00::"], [22, "customer%1:18:00::"], [24, "location%1:03:00::"]]
+xzea:
+    lemmas: ["The", "group", "get", "five", "hit", "and", "all", "three", "of", "their", "run", "off", "person", "before", "person", "take_over", "in", "the", "top", "of", "the", "fourth", "."]
+    oewn2026_key: [[1, "oewn-00031563-n"], [2, "oewn-02360592-v"], [3, "oewn-02194389-s"], [4, "oewn-00044640-n"], [7, "oewn-02194219-s"], [10, "oewn-00190414-n"], [12, "oewn-00007846-n"], [14, "oewn-00007846-n"], [15, "oewn-02417305-v"], [18, "oewn-15280833-n"], [21, "oewn-02210112-s"]]
+    paragraph: '10'
+    pos: ["NN", "NNP", "VBD", "JJ", "NNS", "CC", "DT", "JJ", "IN", "PRP$", "NNS", "VB", "NNP", "IN", "NNP", "VB", "IN", "DT", "NN", "IN", "DT", "JJ", "."]
+    text: ' The Birds got five hits and all three of their runs off Kunkel before Hartman took_over
+  in the top of the fourth.'
+    tokens: [[1, 4], [5, 10], [11, 14], [15, 19], [20, 24], [25, 28], [29, 32], [33, 38], [39, 41], [42, 47], [48, 52], [53, 56], [57, 63], [64, 70], [71, 78], [79, 88], [89, 91], [92, 95], [96, 99], [100, 102], [103, 106], [107, 113], [113, 114]]
+    wn16_key: [[1, "group%1:03:00::"], [2, "get%2:40:01::"], [3, "five%5:00:00:cardinal:00"], [4, "hit%1:04:03::"], [7, "three%5:00:00:cardinal:00"], [10, "run%1:04:01::"], [12, "person%1:03:00::"], [14, "person%1:03:00::"], [15, "take_over%2:41:00::"], [18, "top%1:28:00::"], [21, "fourth%5:00:00:ordinal:00"]]
+    wn30_key: [[1, "group%1:03:00::"], [2, "get%2:40:01::"], [3, "five%3:00:00:cardinal:00"], [4, "hit%1:04:03::"], [7, "three%3:00:00:cardinal:00"], [10, "run%1:04:01::"], [12, "person%1:03:00::"], [14, "person%1:03:00::"], [15, "take_over%2:41:00::"], [18, "top%1:28:00::"], [21, "fourth%3:00:00:ordinal:00"]]
+ClD2:
+    lemmas: ["person", ",", "purchase", "by", "the", "A", "'s", "from", "the", "group", "last", "fall", ",", "allow", "no", "hit", "in", "his", "scoreless", "three", "inning", "appearance", ",", "and", "merit", "the", "triumph", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-02211988-v"], [9, "oewn-00031563-n"], [10, "oewn-01734561-s"], [11, "oewn-15261656-n"], [13, "oewn-00803980-v"], [15, "oewn-00044640-n"], [18, "oewn-02343111-s"], [19, "oewn-13766184-n"], [20, "oewn-15280615-n"], [21, "oewn-01236192-n"], [24, "oewn-02652462-v"], [26, "oewn-07488581-n"]]
+    paragraph: '10'
+    pos: ["NNP", ",", "VBN", "IN", "DT", "DT", "VBZ", "IN", "DT", "NNS", "JJ", "NN", ",", "VBD", "DT", "NNS", "IN", "PRP$", "JJ", "NN", "NN", "NN", ",", "CC", "VBD", "DT", "NN", "."]
+    text: ' Hartman, purchased by the A''s from the Milwaukee_Braves last fall, allowed no hits
+  in his scoreless three inning appearance, and merited the triumph.
+
+  '
+    tokens: [[1, 8], [8, 9], [10, 19], [20, 22], [23, 26], [27, 28], [28, 30], [31, 35], [36, 39], [40, 56], [57, 61], [62, 66], [66, 67], [68, 75], [76, 78], [79, 83], [84, 86], [87, 90], [91, 100], [101, 106], [107, 113], [114, 124], [124, 125], [126, 129], [130, 137], [138, 141], [142, 149], [149, 150]]
+    wn16_key: [[0, "person%1:03:00::"], [2, "purchase%2:40:00::"], [9, "group%1:03:00::"], [10, "last%5:00:00:past:00"], [11, "fall%1:28:00::"], [13, "allow%2:32:00::"], [15, "hit%1:04:03::"], [18, "scoreless%5:00:00:unsuccessful:00"], [19, "three%1:23:00::"], [20, "inning%1:28:00::"], [21, "appearance%1:04:01::"], [24, "merit%2:42:04::"], [26, "triumph%1:11:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [2, "purchase%2:40:00::"], [9, "group%1:03:00::"], [10, "last%3:00:00:past:00"], [11, "fall%1:28:00::"], [13, "allow%2:32:00::"], [15, "hit%1:04:03::"], [18, "scoreless%3:00:00:unsuccessful:00"], [19, "three%1:23:00::"], [20, "inning%1:28:00::"], [21, "appearance%1:04:01::"], [24, "merit%2:42:04::"], [26, "triumph%1:11:00::"]]
+ui0o:
+    lemmas: ["person", ",", "a", "6", "-", "foot", "-", "3", "-", "inch", "158", "-", "pounder", ",", "give_up", "the", "group", "'", "last", "two", "safety", "over", "the", "final", "three", "frame", ",", "escape", "a", "load", "of", "trouble", "in", "the", "ninth", "when", "the", "group", "threaten", "but", "fail", "to", "tally", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [3, "oewn-02194472-s"], [5, "oewn-13671663-n"], [7, "oewn-02194219-s"], [9, "oewn-13671409-n"], [12, "oewn-13669996-n"], [14, "oewn-02308311-v"], [16, "oewn-00031563-n"], [18, "oewn-01734561-s"], [19, "oewn-02194109-s"], [20, "oewn-00131910-n"], [23, "oewn-01013868-s"], [24, "oewn-02194219-s"], [25, "oewn-15280615-n"], [27, "oewn-00812219-v"], [29, "oewn-03685312-n"], [34, "oewn-02210918-s"], [37, "oewn-00031563-n"], [38, "oewn-00873444-v"], [40, "oewn-02534950-v"], [42, "oewn-00190414-n"]]
+    paragraph: '11'
+    pos: ["NNP", ",", "DT", "JJ", ":", "NN", ":", "JJ", ":", "NN", "CD", ":", "NN", ",", "VB", "DT", "NNP", "POS", "JJ", "JJ", "NNS", "IN", "DT", "JJ", "JJ", "NNS", ",", "VBG", "DT", "NN", "IN", "NN", "IN", "DT", "JJ", "WRB", "NN", "NNP", "VBD", "CC", "VBD", "TO", "NN", "."]
+    text: ' Keegan, a 6 - foot - 3 - inch 158 - pounder, gave_up the Orioles'' last two safeties
+  over the final three frames, escaping a load of trouble in the ninth when the Birds
+  threatened but failed to tally.
+
+  '
+    tokens: [[1, 7], [7, 8], [9, 10], [11, 12], [13, 14], [15, 19], [20, 21], [22, 23], [24, 25], [26, 30], [31, 34], [35, 36], [37, 44], [44, 45], [46, 53], [54, 57], [58, 65], [65, 66], [67, 71], [72, 75], [76, 84], [85, 89], [90, 93], [94, 99], [100, 105], [106, 112], [112, 113], [114, 122], [123, 124], [125, 129], [130, 132], [133, 140], [141, 143], [144, 147], [148, 153], [154, 158], [159, 162], [163, 168], [169, 179], [180, 183], [184, 190], [191, 193], [194, 199], [199, 200]]
+    wn16_key: [[0, "person%1:03:00::"], [3, "6%5:00:00:cardinal:00"], [5, "foot%1:23:00::"], [7, "3%5:00:00:cardinal:00"], [9, "inch%1:23:00::"], [12, "pounder%1:17:00::"], [14, "give_up%2:40:02::"], [16, "group%1:03:00::"], [18, "last%5:00:00:past:00"], [19, "two%5:00:00:cardinal:00"], [20, "safety%1:04:00::"], [23, "final%5:00:00:closing:00"], [24, "three%5:00:00:cardinal:00"], [25, "frame%1:28:00::"], [27, "escape%2:32:00::"], [29, "load%1:06:00::"], [31, "trouble%1:26:01::"], [34, "ninth%5:00:00:ordinal:00"], [37, "group%1:03:00::"], [38, "threaten%2:32:01::"], [40, "fail%2:41:02::"], [42, "tally%1:04:01::"]]
+    wn30_key: [[0, "person%1:03:00::"], [3, "6%3:00:00:cardinal:00"], [5, "foot%1:23:00::"], [7, "3%3:00:00:cardinal:00"], [9, "inch%1:23:00::"], [12, "pounder%1:23:00::"], [14, "give_up%2:40:02::"], [16, "group%1:03:00::"], [18, "last%3:00:00:past:00"], [19, "two%3:00:00:cardinal:00"], [20, "safety%1:04:00::"], [23, "final%3:00:00:closing:00"], [24, "three%3:00:00:cardinal:00"], [25, "frame%1:28:00::"], [27, "escape%2:32:00::"], [29, "load%1:06:00::"], [34, "ninth%3:00:00:ordinal:00"], [37, "group%1:03:00::"], [38, "threaten%2:32:01::"], [40, "fail%2:41:02::"], [42, "tally%1:04:01::"]]
+bsQE:
+    lemmas: ["In", "the", "ninth", ",", "person", "lead", "off", "with", "his", "second", "double", "of", "the", "night", ",", "a", "blast", "off", "the", "fence", "375", "foot", "deep", "into", "left", "."]
+    oewn2026_key: [[2, "oewn-02210918-s"], [4, "oewn-00007846-n"], [5, "oewn-02003455-v"], [9, "oewn-02209815-s"], [10, "oewn-00133576-n"], [13, "oewn-15192074-n"], [16, "oewn-00129687-n"], [19, "oewn-03332179-n"], [21, "oewn-13671663-n"], [22, "oewn-00447971-s"], [24, "oewn-03659700-n"]]
+    paragraph: '12'
+    pos: ["IN", "DT", "JJ", ",", "NNP", "VBD", "IN", "IN", "PRP$", "JJ", "NN", "IN", "DT", "NN", ",", "DT", "NN", "VB", "DT", "NN", "CD", "NNS", "JJ", "IN", "NN", "."]
+    text: ' In the ninth, Robinson led off with his second double of the night, a blast off
+  the fence 375 feet deep into left.
+
+  '
+    tokens: [[1, 3], [4, 7], [8, 13], [13, 14], [15, 23], [24, 27], [28, 31], [32, 36], [37, 40], [41, 47], [48, 54], [55, 57], [58, 61], [62, 67], [67, 68], [69, 70], [71, 76], [77, 80], [81, 84], [85, 90], [91, 94], [95, 99], [100, 104], [105, 109], [110, 114], [114, 115]]
+    wn16_key: [[2, "ninth%5:00:00:ordinal:00"], [4, "person%1:03:00::"], [5, "lead%2:38:00::"], [9, "second%5:00:00:ordinal:00"], [10, "double%1:04:00::"], [13, "night%1:28:00::"], [16, "blast%1:04:00::"], [19, "fence%1:06:00::"], [21, "foot%1:23:00::"], [22, "deep%5:00:00:distant:01"], [24, "left%1:06:00::"]]
+    wn30_key: [[2, "ninth%3:00:00:ordinal:00"], [4, "person%1:03:00::"], [5, "lead%2:38:00::"], [9, "second%3:00:00:ordinal:00"], [10, "double%1:04:00::"], [13, "night%1:28:00::"], [16, "blast%1:04:00::"], [19, "fence%1:06:00::"], [21, "foot%1:23:00::"], [22, "deep%3:00:00:distant:01"], [24, "left%1:06:00::"]]
+4ASM:
+    lemmas: ["person", ",", "perform", "in", "right", "as", "the", "group", "field", "possibly", "their", "strong", "team", "of", "the", "spring", ",", "work", "person", "for", "a", "base_on_balls", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-02379855-v"], [4, "oewn-04098951-n"], [7, "oewn-00031563-n"], [8, "oewn-01084245-v"], [9, "oewn-00301501-r"], [11, "oewn-02328781-a"], [12, "oewn-08225481-n"], [15, "oewn-15261841-n"], [17, "oewn-01745327-v"], [18, "oewn-00007846-n"], [21, "oewn-00128106-n"]]
+    paragraph: '13'
+    pos: ["NN", ",", "VBG", "RB", "NN", "IN", "DT", "NNP", "VBD", "RB", "PRP$", "JJS", "NN", "IN", "DT", "NN", ",", "VBD", "NNP", "IN", "DT", "NN", "."]
+    text: ' Whitey_Herzog, performing in right as the Orioles fielded possibly their strongest
+  team of the spring, worked Keegan for a base_on_balls.
+
+  '
+    tokens: [[1, 14], [14, 15], [16, 26], [27, 29], [30, 35], [36, 38], [39, 42], [43, 50], [51, 58], [59, 67], [68, 73], [74, 83], [84, 88], [89, 91], [92, 95], [96, 102], [102, 103], [104, 110], [111, 117], [118, 121], [122, 123], [124, 137], [137, 138]]
+    wn16_key: [[0, "person%1:03:00::"], [2, "perform%2:41:02::"], [4, "right%1:06:00::"], [7, "group%1:03:00::"], [8, "field%2:33:00::"], [9, "possibly%4:02:00::"], [11, "strong%3:00:00::"], [12, "team%1:14:00::"], [15, "spring%1:28:00::"], [17, "work%2:36:09::"], [18, "person%1:03:00::"], [21, "base_on_balls%1:04:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [2, "perform%2:41:02::"], [4, "right%1:06:00::"], [7, "group%1:03:00::"], [8, "field%2:33:00::"], [9, "possibly%4:02:00::"], [11, "strong%3:00:00::"], [12, "team%1:14:00::"], [15, "spring%1:28:00::"], [17, "work%2:36:09::"], [18, "person%1:03:00::"], [21, "base_on_balls%1:04:00::"]]
++ON0:
+    lemmas: ["then", "three", "consecutive", "pinch_hitter", "fail", "to", "produce", "."]
+    oewn2026_key: [[0, "oewn-00118527-r"], [1, "oewn-02194219-s"], [2, "oewn-00128433-s"], [3, "oewn-10453924-n"], [4, "oewn-02534950-v"], [6, "oewn-01756303-v"]]
+    paragraph: '14'
+    pos: ["RB", "JJ", "JJ", "NNS", "VBD", "TO", "VB", "."]
+    text: ' Then three consecutive pinch_hitters failed to produce.
+
+  '
+    tokens: [[1, 5], [6, 11], [12, 23], [24, 37], [38, 44], [45, 47], [48, 55], [55, 56]]
+    wn16_key: [[0, "then%4:02:00::"], [1, "three%5:00:00:cardinal:00"], [2, "consecutive%5:00:00:succeeding(a):00"], [3, "pinch_hitter%1:18:00::"], [4, "fail%2:41:02::"], [6, "produce%2:36:02::"]]
+    wn30_key: [[0, "then%4:02:00::"], [1, "three%3:00:00:cardinal:00"], [2, "consecutive%3:00:00:succeeding:00"], [3, "pinch_hitter%1:18:00::"], [4, "fail%2:41:02::"], [6, "produce%2:36:02::"]]
+HvTf:
+    lemmas: ["person", "be", "send", "in_for", "person", "and", ",", "after", "fail", "in", "a", "bunt", "attempt", ",", "pop", "to", "person", "on", "the", "grass", "back", "of", "short", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-01955339-v"], [4, "oewn-00007846-n"], [8, "oewn-02534046-v"], [11, "oewn-00129297-n"], [12, "oewn-00787849-n"], [14, "oewn-01407567-v"], [16, "oewn-00007846-n"], [19, "oewn-12122650-n"], [20, "oewn-00074673-r"], [22, "oewn-04211665-n"]]
+    paragraph: '15'
+    pos: ["NN", "VBD", "VBN", "JJ", "NNP", "CC", ",", "IN", "VBG", "IN", "DT", "NN", "NN", ",", "VBN", "TO", "NNP", "IN", "DT", "NN", "RB", "IN", "NN", "."]
+    text: ' Pete_Ward was sent in_for House and, after failing in a bunt attempt, popped to
+  Howser on the grass back of short.
+
+  '
+    tokens: [[1, 10], [11, 14], [15, 19], [20, 26], [27, 32], [33, 36], [36, 37], [38, 43], [44, 51], [52, 54], [55, 56], [57, 61], [62, 69], [69, 70], [71, 77], [78, 80], [81, 87], [88, 90], [91, 94], [95, 100], [101, 105], [106, 108], [109, 114], [114, 115]]
+    wn16_key: [[0, "person%1:03:00::"], [2, "send%2:38:01::"], [4, "person%1:03:00::"], [8, "fail%2:41:00::"], [11, "bunt%1:04:00::"], [12, "attempt%1:04:00::"], [14, "pop%2:35:00::"], [16, "person%1:03:00::"], [19, "grass%1:20:00::"], [20, "back%4:02:00::"], [22, "short%1:06:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [2, "send%2:38:01::"], [4, "person%1:03:00::"], [8, "fail%2:41:00::"], [11, "bunt%1:04:00::"], [12, "attempt%1:04:00::"], [14, "pop%2:35:00::"], [16, "person%1:03:00::"], [19, "grass%1:20:00::"], [20, "back%4:02:00::"], [22, "short%1:06:00::"]]
+mMoG:
+    lemmas: ["person", ",", "bat", "for", "person", ",", "fan", "after", "foul", "off", "two", "2", "-", "and", "2", "pitch", ",", "and", "person", ",", "up", "for", "person", ",", "bounce_out", "sharply", "to", "person", "at", "second", "to", "end", "the", "2", "-", "hour", "and", "-", "27", "-", "minute", "contest", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-01415827-v"], [4, "oewn-00007846-n"], [6, "oewn-01412417-v"], [8, "oewn-01150321-v"], [10, "oewn-02194109-s"], [15, "oewn-00107092-n"], [18, "oewn-00007846-n"], [22, "oewn-00007846-n"], [24, "oewn-01407192-v"], [25, "oewn-00050485-r"], [27, "oewn-00007846-n"], [29, "oewn-00725034-n"], [31, "oewn-00353480-v"], [33, "oewn-02194109-s"], [35, "oewn-15252642-n"], [38, "oewn-02196647-s"], [40, "oewn-15259561-n"], [41, "oewn-07470961-n"]]
+    paragraph: '16'
+    pos: ["NN", ",", "VB", "IN", "NNP", ",", "VBN", "IN", "VBG", "IN", "JJ", "CD", ":", "JJ", "JJ", "NNS", ",", "CC", "NN", ",", "IN", "IN", "NNP", ",", "VB", "RB", "TO", "NN", "IN", "NN", "TO", "VB", "DT", "JJ", ":", "NN", "DT", ":", "JJ", ":", "NN", "NN", "."]
+    text: ' John_Powell, batting for Adair, fanned after fouling off two 2 - and 2 pitches,
+  and Buddy_Barker, up for Stepanovich, bounced_out sharply to Jerry_Lumpe at second
+  to end the 2 - hour and - 27 - minute contest.
+
+  '
+    tokens: [[1, 12], [12, 13], [14, 21], [22, 25], [26, 31], [31, 32], [33, 39], [40, 45], [46, 53], [54, 57], [58, 61], [62, 63], [64, 65], [66, 69], [70, 71], [72, 79], [79, 80], [81, 84], [85, 97], [97, 98], [99, 101], [102, 105], [106, 117], [117, 118], [119, 130], [131, 138], [139, 141], [142, 153], [154, 156], [157, 163], [164, 166], [167, 170], [171, 174], [175, 176], [177, 178], [179, 183], [184, 187], [188, 189], [190, 192], [193, 194], [195, 201], [202, 209], [209, 210]]
+    wn16_key: [[0, "person%1:03:00::"], [2, "bat%2:35:01::"], [4, "person%1:03:00::"], [6, "fan%2:35:01::"], [8, "foul%2:33:01::"], [10, "two%5:00:00:cardinal:00"], [15, "pitch%1:04:03::"], [18, "person%1:03:00::"], [22, "person%1:03:00::"], [24, "bounce_out%2:35:00::"], [25, "sharply%4:02:00::"], [27, "person%1:03:00::"], [29, "second%1:04:00::"], [31, "end%2:30:01::"], [33, "2%5:00:00:cardinal:00"], [35, "hour%1:28:00::"], [38, "27%5:00:00:cardinal:00"], [40, "minute%1:28:00::"], [41, "contest%1:11:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [2, "bat%2:35:01::"], [4, "person%1:03:00::"], [6, "fan%2:35:01::"], [8, "foul%2:33:01::"], [10, "two%3:00:00:cardinal:00"], [15, "pitch%1:04:03::"], [18, "person%1:03:00::"], [22, "person%1:03:00::"], [24, "bounce_out%2:35:00::"], [25, "sharply%4:02:00::"], [27, "person%1:03:00::"], [29, "second%1:04:00::"], [31, "end%2:30:01::"], [33, "2%3:00:00:cardinal:00"], [35, "hour%1:28:00::"], [38, "27%3:00:00:cardinal:00"], [40, "minute%1:28:00::"], [41, "contest%1:11:00::"]]
+f0iq:
+    lemmas: ["The", "group", "get", "a", "run", "in", "the", "first", "inning", "when", "person", ",", "along", "with", "person", ",", "the", "two", "group", "who", "get", "a", "pair", "of", "hit", ",", "double", "to", "right", "center", ",", "move", "to", "third", "on", "person", "'s", "single", "to", "right", "and", "cross", "on", "person", "'s", "wild_pitch", "into", "the", "dirt", "in_front", "of", "the", "plate", "."]
+    oewn2026_key: [[1, "oewn-00031563-n"], [2, "oewn-02360592-v"], [4, "oewn-00190414-n"], [7, "oewn-01014459-a"], [8, "oewn-15280615-n"], [10, "oewn-00007846-n"], [14, "oewn-00007846-n"], [17, "oewn-02194109-s"], [18, "oewn-00031563-n"], [20, "oewn-02360592-v"], [22, "oewn-13765745-n"], [24, "oewn-00044640-n"], [26, "oewn-01412177-v"], [28, "oewn-04098951-n"], [29, "oewn-02997788-n"], [31, "oewn-01839438-v"], [33, "oewn-00725419-n"], [35, "oewn-00007846-n"], [37, "oewn-00133421-n"], [39, "oewn-04098951-n"], [41, "oewn-01916152-v"], [43, "oewn-00007846-n"], [45, "oewn-00110712-n"], [48, "oewn-14868863-n"], [49, "oewn-00067181-r"], [52, "oewn-03534081-n"]]
+    paragraph: '17'
+    pos: ["DT", "NNP", "VBD", "DT", "NN", "IN", "DT", "JJ", "NN", "WRB", "NNP", ",", "IN", "IN", "NNP", ",", "DT", "JJ", "NNP", "WP", "VBD", "DT", "NN", "IN", "NNS", ",", "VBD", "TO", "NN", "NN", ",", "VBD", "TO", "NN", "IN", "NN", "POS", "NN", "TO", "NN", "CC", "VBN", "IN", "NNP", "POS", "NN", "IN", "DT", "NN", "RB", "IN", "DT", "NN", "."]
+    text: ' The Orioles got a run in the first inning when Breeding, along with Robinson, the
+  two Birds who got a pair of hits, doubled to right center, moved to third on Russ_Snyder''s
+  single to right and crossed on Kunkel''s wild_pitch into the dirt in_front of the
+  plate.
+
+  '
+    tokens: [[1, 4], [5, 12], [13, 16], [17, 18], [19, 22], [23, 25], [26, 29], [30, 35], [36, 42], [43, 47], [48, 56], [56, 57], [58, 63], [64, 68], [69, 77], [77, 78], [79, 82], [83, 86], [87, 92], [93, 96], [97, 100], [101, 102], [103, 107], [108, 110], [111, 115], [115, 116], [117, 124], [125, 127], [128, 133], [134, 140], [140, 141], [142, 147], [148, 150], [151, 156], [157, 159], [160, 171], [171, 173], [174, 180], [181, 183], [184, 189], [190, 193], [194, 201], [202, 204], [205, 211], [211, 213], [214, 224], [225, 229], [230, 233], [234, 238], [239, 247], [248, 250], [251, 254], [255, 260], [260, 261]]
+    wn16_key: [[1, "group%1:03:00::"], [2, "get%2:40:01::"], [4, "run%1:04:01::"], [7, "first%3:00:00::"], [8, "inning%1:28:00::"], [10, "person%1:03:00::"], [14, "person%1:03:00::"], [17, "two%5:00:00:cardinal:00"], [18, "group%1:03:00::"], [20, "get%2:40:01::"], [22, "pair%1:23:00::"], [24, "hit%1:04:03::"], [26, "double%2:35:00::"], [28, "right%1:06:00::"], [29, "center%1:06:02::"], [31, "move%2:38:03::"], [33, "third%1:04:00::"], [35, "person%1:03:00::"], [37, "single%1:04:00::"], [39, "right%1:06:00::"], [41, "cross%2:38:00::"], [43, "person%1:03:00::"], [45, "wild_pitch%1:04:00::"], [48, "dirt%1:27:01::"], [49, "in_front%4:02:00::"], [52, "plate%1:06:04::"]]
+    wn30_key: [[1, "group%1:03:00::"], [2, "get%2:40:01::"], [4, "run%1:04:01::"], [7, "first%3:00:00::"], [8, "inning%1:28:00::"], [10, "person%1:03:00::"], [14, "person%1:03:00::"], [17, "two%3:00:00:cardinal:00"], [18, "group%1:03:00::"], [20, "get%2:40:01::"], [22, "pair%1:23:00::"], [24, "hit%1:04:03::"], [26, "double%2:35:00::"], [28, "right%1:06:00::"], [29, "center%1:06:02::"], [31, "move%2:38:03::"], [33, "third%1:04:00::"], [35, "person%1:03:00::"], [37, "single%1:04:00::"], [39, "right%1:06:00::"], [41, "cross%2:38:00::"], [43, "person%1:03:00::"], [45, "wild_pitch%1:04:00::"], [48, "dirt%1:27:01::"], [49, "in_front%4:02:00::"], [52, "plate%1:06:04::"]]
+bDrU:
+    lemmas: ["The", "group", "add", "a", "pair", "of", "tally", "in", "the", "third", "on", "three", "straight", "hit", "after", "two", "be", "out", "."]
+    oewn2026_key: [[1, "oewn-00031563-n"], [2, "oewn-00182551-v"], [4, "oewn-08001665-n"], [6, "oewn-00190414-n"], [9, "oewn-02209976-s"], [11, "oewn-02194219-s"], [12, "oewn-00599155-s"], [13, "oewn-00044640-n"], [16, "oewn-02610777-v"], [17, "oewn-02068891-a"]]
+    paragraph: '18'
+    pos: ["DT", "NNP", "VBD", "DT", "NN", "IN", "NNS", "IN", "DT", "JJ", "IN", "JJ", "JJ", "NNS", "IN", "CD", "VBD", "JJ", "."]
+    text: ' The Flock added a pair of tallies in the third on three straight hits after two
+  were out.
+
+  '
+    tokens: [[1, 4], [5, 10], [11, 16], [17, 18], [19, 23], [24, 26], [27, 34], [35, 37], [38, 41], [42, 47], [48, 50], [51, 56], [57, 65], [66, 70], [71, 76], [77, 80], [81, 85], [86, 89], [89, 90]]
+    wn16_key: [[1, "group%1:03:00::"], [2, "add%2:30:00::"], [4, "pair%1:14:01::"], [6, "tally%1:04:01::"], [9, "third%5:00:00:ordinal:00"], [11, "three%5:00:00:cardinal:00"], [12, "straight%5:00:00:continuous:01"], [13, "hit%1:04:03::"], [16, "be%2:42:03::"], [17, "out%3:00:02::"]]
+    wn30_key: [[1, "group%1:03:00::"], [2, "add%2:30:00::"], [4, "pair%1:14:01::"], [6, "tally%1:04:01::"], [9, "third%3:00:00:ordinal:00"], [11, "three%3:00:00:cardinal:00"], [12, "straight%3:00:00:continuous:01"], [13, "hit%1:04:03::"], [16, "be%2:42:03::"], [17, "out%3:00:02::"]]
+Mxz1:
+    lemmas: ["person", "single", "deep", "into", "the", "hole", "at", "short", "to", "start", "the", "rally", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-01412028-v"], [2, "oewn-00447971-s"], [5, "oewn-09327371-n"], [7, "oewn-04211665-n"], [9, "oewn-00349400-v"], [11, "oewn-00046387-n"]]
+    paragraph: '19'
+    pos: ["NN", "VBD", "JJ", "IN", "DT", "NN", "IN", "NN", "TO", "VB", "DT", "NN", "."]
+    text: ' Jackie_Brandt singled deep into the hole at short to start the rally.
+
+  '
+    tokens: [[1, 14], [15, 22], [23, 27], [28, 32], [33, 36], [37, 41], [42, 44], [45, 50], [51, 53], [54, 59], [60, 63], [64, 69], [69, 70]]
+    wn16_key: [[0, "person%1:03:00::"], [1, "single%2:35:00::"], [2, "deep%5:00:00:distant:01"], [5, "hole%1:17:01::"], [7, "short%1:06:00::"], [9, "start%2:30:01::"], [11, "rally%1:04:01::"]]
+    wn30_key: [[0, "person%1:03:00::"], [1, "single%2:35:00::"], [2, "deep%3:00:00:distant:01"], [5, "hole%1:17:01::"], [7, "short%1:06:00::"], [9, "start%2:30:01::"], [11, "rally%1:04:01::"]]
+RSuX:
+    lemmas: ["person", "bounce", "a", "hard", "shot", "off", "person", "'s", "glove", "and", "beat", "it", "out", "for", "a", "single", ",", "and", "when", "person", "grab", "the", "ball", "and", "throw", "it", "over", "first_baseman", "person", "'s", "head", "person", "take", "third", "and", "person", "second", "on", "the", "error", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-01407043-v"], [3, "oewn-02330284-s"], [4, "oewn-00566339-n"], [6, "oewn-00007846-n"], [8, "oewn-02803372-n"], [10, "oewn-01104324-v"], [15, "oewn-00133421-n"], [19, "oewn-00007846-n"], [20, "oewn-01441809-v"], [22, "oewn-02781674-n"], [24, "oewn-01511000-v"], [27, "oewn-80515265-n"], [28, "oewn-00007846-n"], [30, "oewn-05546258-n"], [31, "oewn-00007846-n"], [33, "oewn-00725419-n"], [35, "oewn-00007846-n"], [36, "oewn-00725034-n"], [39, "oewn-00072888-n"]]
+    paragraph: '20'
+    pos: ["NN", "VBD", "DT", "JJ", "NN", "IN", "NNP", "POS", "NN", "CC", "VB", "PRP", "IN", "IN", "DT", "NN", ",", "CC", "WRB", "NNP", "VBD", "DT", "NN", "CC", "VBD", "PRP", "IN", "NNP", "NNP", "POS", "NN", "NNP", "VBD", "NN", "CC", "NN", "NN", "IN", "DT", "NN", "."]
+    text: ' Jim_Gentile bounced a hard shot off Kunkel''s glove and beat it out for a single,
+  and when Lumpe grabbed the ball and threw it over first_baseman Throneberry''s head
+  Brandt took third and Gentile second on the error.
+
+  '
+    tokens: [[1, 12], [13, 20], [21, 22], [23, 27], [28, 32], [33, 36], [37, 43], [43, 45], [46, 51], [52, 55], [56, 60], [61, 63], [64, 67], [68, 71], [72, 73], [74, 80], [80, 81], [82, 85], [86, 90], [91, 96], [97, 104], [105, 108], [109, 113], [114, 117], [118, 123], [124, 126], [127, 131], [132, 145], [146, 157], [157, 159], [160, 164], [165, 171], [172, 176], [177, 182], [183, 186], [187, 194], [195, 201], [202, 204], [205, 208], [209, 214], [214, 215]]
+    wn16_key: [[0, "person%1:03:00::"], [1, "bounce%2:35:03::"], [3, "hard%5:00:00:strong:00"], [4, "shot%1:04:06::"], [6, "person%1:03:00::"], [8, "glove%1:06:01::"], [10, "beat%2:33:00::"], [15, "single%1:04:00::"], [19, "person%1:03:00::"], [20, "grab%2:35:00::"], [22, "ball%1:06:01::"], [24, "throw%2:35:00::"], [27, "first_baseman%1:18:00::"], [28, "person%1:03:00::"], [30, "head%1:08:00::"], [31, "person%1:03:00::"], [33, "third%1:04:00::"], [35, "person%1:03:00::"], [36, "second%1:04:00::"], [39, "error%1:04:03::"]]
+    wn30_key: [[0, "person%1:03:00::"], [1, "bounce%2:35:03::"], [3, "hard%3:00:00:strong:00"], [4, "shot%1:04:06::"], [6, "person%1:03:00::"], [8, "glove%1:06:01::"], [10, "beat%2:33:00::"], [15, "single%1:04:00::"], [19, "person%1:03:00::"], [20, "grab%2:35:00::"], [22, "ball%1:06:01::"], [24, "throw%2:35:00::"], [27, "first_baseman%1:18:00::"], [28, "person%1:03:00::"], [30, "head%1:08:00::"], [31, "person%1:03:00::"], [33, "third%1:04:00::"], [35, "person%1:03:00::"], [36, "second%1:04:00::"], [39, "error%1:04:03::"]]
+niB9:
+    lemmas: ["then", "person", "slam", "a", "long", "double", "to", "left", "center", "to", "score", "both", "runner", "."]
+    oewn2026_key: [[0, "oewn-00118527-r"], [1, "oewn-00007846-n"], [2, "oewn-01244955-v"], [4, "oewn-01436368-a"], [5, "oewn-00133576-n"], [7, "oewn-02040360-a"], [8, "oewn-02997788-n"], [10, "oewn-01114241-v"], [12, "oewn-09861084-n"]]
+    paragraph: '21'
+    pos: ["RB", "NNP", "VBD", "DT", "JJ", "NN", "TO", "JJ", "NN", "TO", "VB", "DT", "NNS", "."]
+    text: ' Then Robinson slammed a long double to left center to score both runners.'
+    tokens: [[1, 5], [6, 14], [15, 22], [23, 24], [25, 29], [30, 36], [37, 39], [40, 44], [45, 51], [52, 54], [55, 60], [61, 65], [66, 73], [73, 74]]
+    wn16_key: [[0, "then%4:02:00::"], [1, "person%1:03:00::"], [2, "slam%2:35:00::"], [4, "long%3:00:01::"], [5, "double%1:04:00::"], [7, "left%3:00:00::"], [8, "center%1:06:02::"], [10, "score%2:33:00::"], [12, "runner%1:18:02::"]]
+    wn30_key: [[0, "then%4:02:00::"], [1, "person%1:03:00::"], [2, "slam%2:35:00::"], [4, "long%3:00:01::"], [5, "double%1:04:00::"], [7, "left%3:00:00::"], [8, "center%1:06:02::"], [10, "score%2:33:00::"], [12, "runner%1:18:02::"]]
+MgTS:
+    lemmas: ["When", "person", "try", "to", "stretch", "his", "blow", "into", "a", "triple", ",", "he", "be", "cut_down", "in", "a", "close", "play", "at", "third", ",", "person", "to", "person", "."]
+    oewn2026_key: [[1, "oewn-00007846-n"], [2, "oewn-02535833-v"], [4, "oewn-00319617-v"], [6, "oewn-01175528-n"], [9, "oewn-00133802-n"], [13, "oewn-01106920-v"], [16, "oewn-00893915-s"], [17, "oewn-00558625-n"], [19, "oewn-00725419-n"], [21, "oewn-00007846-n"], [23, "oewn-00007846-n"]]
+    paragraph: '21'
+    pos: ["WRB", "NNP", "VBD", "TO", "VB", "PRP$", "NN", "IN", "DT", "NN", ",", "PRP", "VBD", "VB", "IN", "DT", "JJ", "NN", "VB", "NN", ",", "NN", "TO", "NN", "."]
+    text: ' When Robinson tried to stretch his blow into a triple, he was cut_down in a close
+  play at third, Tuttle to Andy_Carey.
+
+  '
+    tokens: [[1, 5], [6, 14], [15, 20], [21, 23], [24, 31], [32, 35], [36, 40], [41, 45], [46, 47], [48, 54], [54, 55], [56, 58], [59, 62], [63, 71], [72, 74], [75, 76], [77, 82], [83, 87], [88, 90], [91, 96], [96, 97], [98, 104], [105, 107], [108, 118], [118, 119]]
+    wn16_key: [[1, "person%1:03:00::"], [2, "try%2:41:00::"], [4, "stretch%2:30:04::"], [6, "blow%1:04:01::"], [9, "triple%1:04:00::"], [13, "cut_down%2:33:00::"], [16, "close%5:00:00:equal:00"], [17, "play%1:04:05::"], [19, "third%1:04:00::"], [21, "person%1:03:00::"], [23, "person%1:03:00::"]]
+    wn30_key: [[1, "person%1:03:00::"], [2, "try%2:41:00::"], [4, "stretch%2:30:04::"], [6, "blow%1:04:01::"], [9, "triple%1:04:00::"], [13, "cut_down%2:33:00::"], [16, "close%3:00:00:equal:00"], [17, "play%1:04:05::"], [19, "third%1:04:00::"], [21, "person%1:03:00::"], [23, "person%1:03:00::"]]
+YAC9:
+    lemmas: ["The", "detailed", "rundown", "on", "the", "kansas_city", "score", "in", "the", "sixth", "go", "like", "this", ":"]
+    oewn2026_key: [[1, "oewn-00311231-s"], [2, "oewn-06481545-n"], [5, "oewn-09129720-n"], [6, "oewn-01114241-v"], [9, "oewn-02210523-s"], [10, "oewn-02727159-v"]]
+    paragraph: '22'
+    pos: ["DT", "JJ", "NN", "IN", "DT", "NN", "VBG", "IN", "DT", "JJ", "VBD", "RB", "DT", ":"]
+    text: ' The detailed rundown on the Kansas_City scoring in the sixth went like this:
+
+  '
+    tokens: [[1, 4], [5, 13], [14, 21], [22, 24], [25, 28], [29, 40], [41, 48], [49, 51], [52, 55], [56, 61], [62, 66], [67, 71], [72, 76], [76, 77]]
+    wn16_key: [[1, "detailed%5:00:00:careful:00"], [2, "rundown%1:10:00::"], [5, "kansas_city%1:15:00::"], [6, "score%2:33:00::"], [9, "sixth%5:00:00:ordinal:00"], [10, "go%2:42:02::"]]
+    wn30_key: [[1, "detailed%3:00:00:careful:00"], [2, "rundown%1:10:00::"], [5, "kansas_city%1:15:00::"], [6, "score%2:33:00::"], [9, "sixth%3:00:00:ordinal:00"], [10, "go%2:42:02::"]]
+A+8c:
+    lemmas: ["person", "work", "a", "walk", "as", "the", "first", "batter", "to", "face", "person", "and", "romp", "around", "as", "person", "blast", "person", "'s", "next", "toss", "415", "foot", "over", "the", "scoreboard", "in", "right", "center", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-01745327-v"], [3, "oewn-00128106-n"], [6, "oewn-01014459-a"], [7, "oewn-09863364-n"], [9, "oewn-01081176-v"], [10, "oewn-00007846-n"], [12, "oewn-01887709-v"], [13, "oewn-00072729-r"], [15, "oewn-00007846-n"], [16, "oewn-01404426-v"], [17, "oewn-00007846-n"], [19, "oewn-00128838-s"], [20, "oewn-00106640-n"], [22, "oewn-13671663-n"], [25, "oewn-04156878-n"], [27, "oewn-04098951-n"], [28, "oewn-02997788-n"]]
+    paragraph: '23'
+    pos: ["NNP", "VBD", "DT", "NN", "IN", "DT", "JJ", "NN", "TO", "VB", "NNP", "CC", "VBD", "RP", "IN", "NNP", "VBD", "NNP", "POS", "JJ", "NN", "CD", "NNS", "IN", "DT", "NN", "IN", "NN", "NN", "."]
+    text: ' Lumpe worked a walk as the first batter to face Hyde and romped around as Siebern
+  blasted Hyde''s next toss 415 feet over the scoreboard in right center.
+
+  '
+    tokens: [[1, 6], [7, 13], [14, 15], [16, 20], [21, 23], [24, 27], [28, 33], [34, 40], [41, 43], [44, 48], [49, 53], [54, 57], [58, 64], [65, 71], [72, 74], [75, 82], [83, 90], [91, 95], [95, 97], [98, 102], [103, 107], [108, 111], [112, 116], [117, 121], [122, 125], [126, 136], [137, 139], [140, 145], [146, 152], [152, 153]]
+    wn16_key: [[0, "person%1:03:00::"], [1, "work%2:36:09::"], [3, "walk%1:04:01::"], [6, "first%5:00:00:ordinal:00"], [7, "batter%1:18:00::"], [9, "face%2:33:00::"], [10, "person%1:03:00::"], [12, "romp%2:38:00::"], [13, "around%4:02:04::"], [15, "person%1:03:00::"], [16, "blast%2:35:00::"], [17, "person%1:03:00::"], [19, "next%5:00:00:succeeding(a):00"], [20, "toss%1:04:00::"], [22, "foot%1:23:00::"], [25, "scoreboard%1:06:00::"], [27, "right%1:06:00::"], [28, "center%1:06:02::"]]
+    wn30_key: [[0, "person%1:03:00::"], [1, "work%2:36:09::"], [3, "walk%1:04:01::"], [6, "first%3:00:00:ordinal:00"], [7, "batter%1:18:00::"], [9, "face%2:33:00::"], [10, "person%1:03:00::"], [12, "romp%2:38:00::"], [13, "around%4:02:04::"], [15, "person%1:03:00::"], [16, "blast%2:35:00::"], [17, "person%1:03:00::"], [19, "next%3:00:00:succeeding:00"], [20, "toss%1:04:00::"], [22, "foot%1:23:00::"], [25, "scoreboard%1:06:00::"], [27, "right%1:06:00::"], [28, "center%1:06:02::"]]
+wEwl:
+    lemmas: ["person", "single", "on", "a", "slow", "bounce", "ball", "to", "short", "which", "person", "cut_across", "to", "field", "and", "throw", "wide", "to", "first", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-01412028-v"], [4, "oewn-00983718-a"], [5, "oewn-01896097-v"], [6, "oewn-02781674-n"], [8, "oewn-04211665-n"], [10, "oewn-00007846-n"], [11, "oewn-01916152-v"], [13, "oewn-01084683-v"], [15, "oewn-01511000-v"], [16, "oewn-02571278-a"], [18, "oewn-00724798-n"]]
+    paragraph: '24'
+    pos: ["NNP", "VBD", "IN", "DT", "JJ", "VBG", "NN", "TO", "NN", "WDT", "NNP", "VB", "TO", "VB", "CC", "VBD", "JJ", "TO", "NN", "."]
+    text: ' Carey singled on a slow bouncing ball to short which Robinson cut_across to field
+  and threw wide to first.'
+    tokens: [[1, 6], [7, 14], [15, 17], [18, 19], [20, 24], [25, 33], [34, 38], [39, 41], [42, 47], [48, 53], [54, 62], [63, 73], [74, 76], [77, 82], [83, 86], [87, 92], [93, 97], [98, 100], [101, 106], [106, 107]]
+    wn16_key: [[0, "person%1:03:00::"], [1, "single%2:35:00::"], [4, "slow%3:00:01::"], [5, "bounce%2:38:00::"], [6, "ball%1:06:01::"], [8, "short%1:06:00::"], [10, "person%1:03:00::"], [11, "cut_across%2:38:00::"], [13, "field%2:33:01::"], [15, "throw%2:35:00::"], [16, "wide%3:00:00::"], [18, "first%1:04:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [1, "single%2:35:00::"], [4, "slow%3:00:01::"], [5, "bounce%2:38:00::"], [6, "ball%1:06:01::"], [8, "short%1:06:00::"], [10, "person%1:03:00::"], [11, "cut_across%2:38:00::"], [13, "field%2:33:01::"], [15, "throw%2:35:00::"], [16, "wide%3:00:00::"], [18, "first%1:04:00::"]]
+/3mA:
+    lemmas: ["It", "be", "rule", "a", "difficult", "chance", "and", "a", "hit", "."]
+    oewn2026_key: [[2, "oewn-00717773-v"], [4, "oewn-00748528-a"], [5, "oewn-11438252-n"], [8, "oewn-00044640-n"]]
+    paragraph: '24'
+    pos: ["PRP", "VBD", "VBN", "DT", "JJ", "NN", "CC", "DT", "NN", "."]
+    text: ' It was ruled a difficult chance and a hit.
+
+  '
+    tokens: [[1, 3], [4, 7], [8, 13], [14, 15], [16, 25], [26, 32], [33, 36], [37, 38], [39, 42], [42, 43]]
+    wn16_key: [[2, "rule%2:31:00::"], [4, "difficult%3:00:00::"], [5, "chance%1:19:00::"], [8, "hit%1:04:03::"]]
+    wn30_key: [[2, "rule%2:31:00::"], [4, "difficult%3:00:00::"], [5, "chance%1:19:00::"], [8, "hit%1:04:03::"]]
+Kyrx:
+    lemmas: ["then", "person", "rap", "into", "a", "fast", "double_play", "."]
+    oewn2026_key: [[0, "oewn-00118527-r"], [1, "oewn-00007846-n"], [2, "oewn-01416942-v"], [5, "oewn-00979699-a"], [6, "oewn-00565410-n"]]
+    paragraph: '25'
+    pos: ["RB", "NNP", "VBD", "IN", "DT", "JJ", "NN", "."]
+    text: ' Then Throneberry rapped into a fast double_play.'
+    tokens: [[1, 5], [6, 17], [18, 24], [25, 29], [30, 31], [32, 36], [37, 48], [48, 49]]
+    wn16_key: [[0, "then%4:02:00::"], [1, "person%1:03:00::"], [2, "rap%2:35:00::"], [5, "fast%3:00:01::"], [6, "double_play%1:04:00::"]]
+    wn30_key: [[0, "then%4:02:00::"], [1, "person%1:03:00::"], [2, "rap%2:35:00::"], [5, "fast%3:00:01::"], [6, "double_play%1:04:00::"]]
+RW3D:
+    lemmas: ["person", "to", "person", "to", "person", ",", "set_up", "person", "'s", "390", "-", "foot", "homer", "over", "the", "wall", "in", "left", "center", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-00007846-n"], [4, "oewn-00007846-n"], [6, "oewn-00408773-v"], [7, "oewn-00007846-n"], [11, "oewn-13671663-n"], [12, "oewn-00133175-n"], [15, "oewn-04554141-n"], [17, "oewn-02040360-a"], [18, "oewn-02997788-n"]]
+    paragraph: '25'
+    pos: ["NN", "TO", "NNP", "TO", "NNP", ",", "VB", "NNP", "POS", "CD", ":", "NN", "NN", "IN", "DT", "NN", "VB", "JJ", "NN", "."]
+    text: ' Breeding to Adair to Gentile, setting_up Tuttle''s 390 - foot homer over the wall
+  in left center.
+
+  '
+    tokens: [[1, 9], [10, 12], [13, 18], [19, 21], [22, 29], [29, 30], [31, 41], [42, 48], [48, 50], [51, 54], [55, 56], [57, 61], [62, 67], [68, 72], [73, 76], [77, 81], [82, 84], [85, 89], [90, 96], [96, 97]]
+    wn16_key: [[0, "person%1:03:00::"], [2, "person%1:03:00::"], [4, "person%1:03:00::"], [6, "set_up%2:30:00::"], [7, "person%1:03:00::"], [11, "foot%1:23:00::"], [12, "homer%1:04:00::"], [15, "wall%1:06:00::"], [17, "left%3:00:00::"], [18, "center%1:06:02::"]]
+    wn30_key: [[0, "person%1:03:00::"], [2, "person%1:03:00::"], [4, "person%1:03:00::"], [6, "set_up%2:30:00::"], [7, "person%1:03:00::"], [11, "foot%1:23:00::"], [12, "homer%1:04:00::"], [15, "wall%1:06:00::"], [17, "left%3:00:00::"], [18, "center%1:06:02::"]]
+hn5x:
+    lemmas: ["If", "the", "group", "be", "to", "break", "their", "losing_streak", "within", "the", "next", "two", "day", ",", "it", "will", "have", "to", "be", "at_the_expense_of", "the", "group", "champion", "new_york", "group", ",", "who", "come", "in", "here", "tomorrow", "for", "a", "night_game", "and", "a", "single", "test", "sunday", "afternoon", "."]
+    oewn2026_key: [[2, "oewn-00031563-n"], [5, "oewn-00364717-v"], [7, "oewn-08477780-n"], [10, "oewn-00128838-s"], [11, "oewn-02194109-s"], [12, "oewn-15180180-n"], [18, "oewn-02610777-v"], [21, "oewn-00031563-n"], [22, "oewn-09926157-n"], [23, "oewn-09141944-n"], [24, "oewn-00031563-n"], [27, "oewn-02009962-v"], [29, "oewn-00109247-r"], [30, "oewn-15180851-n"], [33, "oewn-00457587-n"], [36, "oewn-00495505-a"], [37, "oewn-00796028-n"], [38, "oewn-15188844-n"], [39, "oewn-15191238-n"]]
+    paragraph: '26'
+    pos: ["IN", "DT", "NNP", "VBP", "TO", "VB", "PRP$", "NN", "IN", "DT", "JJ", "JJ", "NNS", ",", "PRP", "MD", "VB", "VB", "VB", "IN", "DT", "NN", "NN", "NN", "NNPS", ",", "WP", "VBP", "VB", "RB", "NN", "IN", "DT", "NN", "CC", "DT", "JJ", "NN", "NNP", "NN", "."]
+    text: ' If the Orioles are to break their losing_streak within the next two days, it will
+  have to be at_the_expense_of the American_League champion New_York Yankees, who
+  come in here tomorrow for a night_game and a single test Sunday afternoon.
+
+  '
+    tokens: [[1, 3], [4, 7], [8, 15], [16, 19], [20, 22], [23, 28], [29, 34], [35, 48], [49, 55], [56, 59], [60, 64], [65, 68], [69, 73], [73, 74], [75, 77], [78, 82], [83, 87], [88, 90], [91, 93], [94, 111], [112, 115], [116, 131], [132, 140], [141, 149], [150, 157], [157, 158], [159, 162], [163, 167], [168, 170], [171, 175], [176, 184], [185, 188], [189, 190], [191, 201], [202, 205], [206, 207], [208, 214], [215, 219], [220, 226], [227, 236], [236, 237]]
+    wn16_key: [[2, "group%1:03:00::"], [5, "break%2:30:03::"], [7, "losing_streak%1:14:00::"], [10, "next%5:00:00:succeeding(a):00"], [11, "two%5:00:00:cardinal:00"], [12, "day%1:28:00::"], [18, "be%2:42:03::"], [21, "group%1:03:00::"], [22, "champion%1:18:01::"], [23, "new_york%1:15:01::"], [24, "group%1:03:00::"], [27, "come%2:38:04::"], [29, "here%4:02:00::"], [30, "tomorrow%1:28:01::"], [33, "night_game%1:04:00::"], [36, "single%3:00:00::"], [37, "test%1:04:03::"], [38, "sunday%1:28:00::"], [39, "afternoon%1:28:00::"]]
+    wn30_key: [[2, "group%1:03:00::"], [5, "break%2:30:03::"], [7, "losing_streak%1:14:00::"], [10, "next%3:00:00:succeeding:00"], [11, "two%3:00:00:cardinal:00"], [12, "day%1:28:00::"], [18, "be%2:42:03::"], [21, "group%1:03:00::"], [22, "champion%1:18:01::"], [23, "new_york%1:15:01::"], [24, "group%1:03:00::"], [27, "come%2:38:04::"], [29, "here%4:02:00::"], [30, "tomorrow%1:28:01::"], [33, "night_game%1:04:00::"], [36, "single%3:00:00::"], [37, "test%1:04:03::"], [38, "sunday%1:28:00::"], [39, "afternoon%1:28:00::"]]
+zrg7:
+    lemmas: ["The", "flavor", "of", "baltimore", "'s", "group", "news", "ripen", "considerably", "late", "today", "when", "the", "group", "be", "advise", "that", "person", "have", "fulfill", "his", "obligation", "under", "the", "group", "'s", "military", "training_program", "and", "be", "ready", "for", "belated", "spring_training", "."]
+    oewn2026_key: [[1, "oewn-14549784-n"], [3, "oewn-09116965-n"], [5, "oewn-00031563-n"], [6, "oewn-06693922-n"], [7, "oewn-00250855-v"], [8, "oewn-00014747-r"], [9, "oewn-00820050-a"], [10, "oewn-15287732-n"], [13, "oewn-00031563-n"], [15, "oewn-00875364-v"], [17, "oewn-00007846-n"], [19, "oewn-02677669-v"], [21, "oewn-01132241-n"], [24, "oewn-00031563-n"], [26, "oewn-02775023-a"], [27, "oewn-05918515-n"], [29, "oewn-02610777-v"], [30, "oewn-01936911-a"], [32, "oewn-01907298-s"], [33, "oewn-15265088-n"]]
+    paragraph: '27'
+    pos: ["DT", "NN", "IN", "NNP", "POS", "NN", "NN", "VBD", "RB", "JJ", "NN", "WRB", "DT", "NNP", "VBD", "VBN", "IN", "NN", "VBZ", "VBN", "PRP$", "NNS", "IN", "DT", "NNP", "POS", "JJ", "NN", "CC", "VBZ", "JJ", "IN", "JJ", "NN", "."]
+    text: ' The flavor of Baltimore''s Florida_Grapefruit_League news ripened considerably late
+  today when the Orioles were advised that Ron_Hansen has fulfilled his obligations
+  under the Army''s military training_program and is ready for belated spring_training.
+
+  '
+    tokens: [[1, 4], [5, 11], [12, 14], [15, 24], [24, 26], [27, 52], [53, 57], [58, 65], [66, 78], [79, 83], [84, 89], [90, 94], [95, 98], [99, 106], [107, 111], [112, 119], [120, 124], [125, 135], [136, 139], [140, 149], [150, 153], [154, 165], [166, 171], [172, 175], [176, 180], [180, 182], [183, 191], [192, 208], [209, 212], [213, 215], [216, 221], [222, 225], [226, 233], [234, 249], [249, 250]]
+    wn16_key: [[1, "flavor%1:26:00::"], [3, "baltimore%1:15:00::"], [5, "group%1:03:00::"], [6, "news%1:10:01::"], [7, "ripen%2:30:01::"], [8, "considerably%4:02:01::"], [9, "late%3:00:00::"], [10, "today%1:28:00::"], [13, "group%1:03:00::"], [15, "advise%2:32:01::"], [17, "person%1:03:00::"], [19, "fulfill%2:42:00::"], [21, "obligation%1:04:00::"], [24, "group%1:03:00::"], [26, "military%3:01:00::"], [27, "training_program%1:09:00::"], [29, "be%2:42:03::"], [30, "ready%3:00:00::"], [32, "belated%5:00:00:unpunctual:00"], [33, "spring_training%1:28:00::"]]
+    wn30_key: [[1, "flavor%1:26:00::"], [3, "baltimore%1:15:00::"], [5, "group%1:03:00::"], [6, "news%1:10:01::"], [7, "ripen%2:30:01::"], [8, "considerably%4:02:01::"], [9, "late%3:00:00::"], [10, "today%1:28:00::"], [13, "group%1:03:00::"], [15, "advise%2:32:01::"], [17, "person%1:03:00::"], [19, "fulfill%2:42:00::"], [21, "obligation%1:04:00::"], [24, "group%1:03:00::"], [26, "military%3:01:00::"], [27, "training_program%1:09:00::"], [29, "be%2:42:03::"], [30, "ready%3:00:00::"], [32, "belated%3:00:00:unpunctual:00"], [33, "spring_training%1:28:00::"]]
+6QsA:
+    lemmas: ["person", ",", "who", "slug", "the", "1960", "group", "high", "of", "22", "homer", "and", "drive_in", "86", "run", "on", "a", ".255", "freshman", "average", ",", "complete", "the", "group", "'", "spring", "squad", "at", "49", "player", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [3, "oewn-01418239-v"], [6, "oewn-00031563-n"], [7, "oewn-05104798-n"], [9, "oewn-02196164-s"], [10, "oewn-00133175-n"], [12, "oewn-01116045-v"], [14, "oewn-00190414-n"], [18, "oewn-10375148-n"], [19, "oewn-06031110-n"], [21, "oewn-00456705-v"], [23, "oewn-00031563-n"], [25, "oewn-15261841-n"], [26, "oewn-08225481-n"], [29, "oewn-10459618-n"]]
+    paragraph: '28'
+    pos: ["NNP", ",", "WP", "VBD", "DT", "CD", "NNP", "NN", "IN", "JJ", "NNS", "CC", "VB", "CD", "NN", "IN", "DT", "CD", "NN", "NN", ",", "VBZ", "NN", "NNP", "POS", "NN", "NN", "IN", "CD", "NNS", "."]
+    text: ' Hansen, who slugged the 1960 Oriole high of 22 homers and drove_in 86 runs on a
+  .255 freshman average, completes the Birds'' spring squad at 49 players.
+
+  '
+    tokens: [[1, 7], [7, 8], [9, 12], [13, 20], [21, 24], [25, 29], [30, 36], [37, 41], [42, 44], [45, 47], [48, 54], [55, 58], [59, 67], [68, 70], [71, 75], [76, 78], [79, 80], [81, 85], [86, 94], [95, 102], [102, 103], [104, 113], [114, 117], [118, 123], [123, 124], [125, 131], [132, 137], [138, 140], [141, 143], [144, 151], [151, 152]]
+    wn16_key: [[0, "person%1:03:00::"], [3, "slug%2:35:00::"], [6, "group%1:03:00::"], [7, "high%1:07:00::"], [9, "22%5:00:00:cardinal:00"], [10, "homer%1:04:00::"], [12, "drive_in%2:33:00::"], [14, "run%1:04:01::"], [18, "freshman%1:18:01::"], [19, "average%1:09:00::"], [21, "complete%2:30:00::"], [23, "group%1:03:00::"], [25, "spring%1:28:00::"], [26, "squad%1:14:00::"], [29, "player%1:18:01::"]]
+    wn30_key: [[0, "person%1:03:00::"], [3, "slug%2:35:00::"], [6, "group%1:03:00::"], [7, "high%1:07:00::"], [9, "22%3:00:00:cardinal:00"], [10, "homer%1:04:00::"], [12, "drive_in%2:33:00::"], [14, "run%1:04:01::"], [18, "freshman%1:18:01::"], [19, "average%1:09:00::"], [21, "complete%2:30:00::"], [23, "group%1:03:00::"], [25, "spring%1:28:00::"], [26, "squad%1:14:00::"], [29, "player%1:18:01::"]]
+RdkN:
+    lemmas: ["The", "big", ",", "22", "-", "year", "old", "shortstop", ",", "the", "1960", "group", "\"", "rookie", "of", "the", "year", "\"", ",", "fly", "here", "late", "this", "afternoon", "from", "baltimore", ",", "sign", "his", "contract", "for", "an", "estimated", "$", "15000", "and", "be", "a", "spectator", "at", "tonight", "'s", "5", "-", "to", "3", "loss", "to", "kansas_city", "-", "the", "winless", "group", "'", "sixth", "setback", "in_a_row", "."]
+    oewn2026_key: [[1, "oewn-01385012-a"], [3, "oewn-02196164-s"], [5, "oewn-15228587-n"], [6, "oewn-01648062-a"], [7, "oewn-10612394-n"], [11, "oewn-00031563-n"], [13, "oewn-10001364-n"], [16, "oewn-15228587-n"], [19, "oewn-01944262-v"], [20, "oewn-00109247-r"], [21, "oewn-00820050-a"], [23, "oewn-15191238-n"], [25, "oewn-09116965-n"], [27, "oewn-00890750-v"], [29, "oewn-06532935-n"], [36, "oewn-02610777-v"], [38, "oewn-10652848-n"], [40, "oewn-00079765-r"], [46, "oewn-00068346-n"], [48, "oewn-09129720-n"], [51, "oewn-02343712-s"], [52, "oewn-00031563-n"], [54, "oewn-02210523-s"], [55, "oewn-07491010-n"]]
+    paragraph: '29'
+    pos: ["DT", "JJ", ",", "JJ", ":", "NN", "JJ", "NN", ",", "DT", "CD", "NN", "''", "NN", "IN", "DT", "NN", "''", ",", "VBD", "RB", "JJ", "DT", "NN", "IN", "NNP", ",", "VBD", "PRP$", "NN", "IN", "DT", "JJ", "$", "CD", "CC", "VBD", "DT", "NN", "IN", "RB", "POS", "CD", ":", "JJ", "JJ", "NN", "TO", "NN", ":", "DT", "JJ", "NNP", "POS", "JJ", "NN", "NN", "."]
+    text: ' The big, 22 - year old shortstop, the 1960 American_league " rookie of the year
+  ", flew here late this afternoon from Baltimore, signed his contract for an estimated
+  $15000 and was a spectator at tonight''s 5 - to 3 loss to Kansas_City - the winless
+  Birds'' sixth setback in_a_row.
+
+  '
+    tokens: [[1, 4], [5, 8], [8, 9], [10, 12], [13, 14], [15, 19], [20, 23], [24, 33], [33, 34], [35, 38], [39, 43], [44, 59], [60, 61], [62, 68], [69, 71], [72, 75], [76, 80], [81, 82], [82, 83], [84, 88], [89, 93], [94, 98], [99, 103], [104, 113], [114, 118], [119, 128], [128, 129], [130, 136], [137, 140], [141, 149], [150, 153], [154, 156], [157, 166], [167, 168], [168, 173], [174, 177], [178, 181], [182, 183], [184, 193], [194, 196], [197, 204], [204, 206], [207, 208], [209, 210], [211, 213], [214, 215], [216, 220], [221, 223], [224, 235], [236, 237], [238, 241], [242, 249], [250, 255], [255, 256], [257, 262], [263, 270], [271, 279], [279, 280]]
+    wn16_key: [[1, "big%3:00:01::"], [3, "22%5:00:00:cardinal:00"], [5, "year%1:28:01::"], [6, "old%3:00:02::"], [7, "shortstop%1:18:00::"], [11, "group%1:03:00::"], [13, "rookie%1:18:00::"], [16, "year%1:28:01::"], [19, "fly%2:38:00::"], [20, "here%4:02:00::"], [21, "late%3:00:00::"], [23, "afternoon%1:28:00::"], [25, "baltimore%1:15:00::"], [27, "sign%2:32:00::"], [29, "contract%1:10:00::"], [32, "estimated%5:00:00:calculable:00"], [36, "be%2:42:03::"], [38, "spectator%1:18:00::"], [40, "tonight%4:02:00::"], [46, "loss%1:04:00::"], [48, "kansas_city%1:15:00::"], [51, "winless%5:00:00:unsuccessful:00"], [52, "group%1:03:00::"], [54, "sixth%5:00:00:ordinal:00"], [55, "setback%1:11:01::"]]
+    wn30_key: [[1, "big%3:00:01::"], [3, "22%3:00:00:cardinal:00"], [5, "year%1:28:01::"], [6, "old%3:00:02::"], [7, "shortstop%1:18:00::"], [11, "group%1:03:00::"], [13, "rookie%1:18:00::"], [16, "year%1:28:01::"], [19, "fly%2:38:00::"], [20, "here%4:02:00::"], [21, "late%3:00:00::"], [23, "afternoon%1:28:00::"], [25, "baltimore%1:15:00::"], [27, "sign%2:32:00::"], [29, "contract%1:10:00::"], [36, "be%2:42:03::"], [38, "spectator%1:18:00::"], [40, "tonight%4:02:00::"], [46, "loss%1:04:00::"], [48, "kansas_city%1:15:00::"], [51, "winless%3:00:00:unsuccessful:00"], [52, "group%1:03:00::"], [54, "sixth%3:00:00:ordinal:00"], [55, "setback%1:11:01::"]]
+tZow:
+    lemmas: ["The", "6", "-", "foot", "3", "inch", "person", "check_in", "close_to", "200", "pound", ",", "15", "pound", "light", "than", "his", "reporting_weight", "last", "spring", "."]
+    oewn2026_key: [[1, "oewn-02194472-s"], [3, "oewn-13671663-n"], [4, "oewn-02194219-s"], [5, "oewn-13671409-n"], [6, "oewn-00007846-n"], [7, "oewn-00968184-v"], [8, "oewn-00007414-r"], [10, "oewn-13742201-n"], [12, "oewn-02195432-s"], [13, "oewn-13742201-n"], [14, "oewn-01189951-a"], [17, "oewn-05034442-n"], [18, "oewn-01734561-s"], [19, "oewn-15261841-n"]]
+    paragraph: '30'
+    pos: ["DT", "JJ", ":", "NN", "JJ", "NN", "NNP", "VB", "RB", "CD", "NNS", ",", "JJ", "NNS", "JJR", "IN", "PRP$", "NN", "JJ", "NN", "."]
+    text: ' The 6 - foot 3 inch Hansen checked_in close_to 200 pounds, 15 pounds lighter than
+  his reporting_weight last spring.'
+    tokens: [[1, 4], [5, 6], [7, 8], [9, 13], [14, 15], [16, 20], [21, 27], [28, 38], [39, 47], [48, 51], [52, 58], [58, 59], [60, 62], [63, 69], [70, 77], [78, 82], [83, 86], [87, 103], [104, 108], [109, 115], [115, 116]]
+    wn16_key: [[1, "6%5:00:00:cardinal:00"], [3, "foot%1:23:00::"], [4, "3%5:00:00:cardinal:00"], [5, "inch%1:23:00::"], [6, "person%1:03:00::"], [7, "check_in%2:32:00::"], [8, "close_to%4:02:00::"], [10, "pound%1:23:09::"], [12, "15%5:00:00:cardinal:00"], [13, "pound%1:23:09::"], [14, "light%3:00:01::"], [17, "reporting_weight%1:07:00::"], [18, "last%5:00:00:past:00"], [19, "spring%1:28:00::"]]
+    wn30_key: [[1, "6%3:00:00:cardinal:00"], [3, "foot%1:23:00::"], [4, "3%3:00:00:cardinal:00"], [5, "inch%1:23:00::"], [6, "person%1:03:00::"], [7, "check_in%2:32:00::"], [8, "close_to%4:02:00::"], [10, "pound%1:23:09::"], [12, "15%3:00:00:cardinal:00"], [13, "pound%1:23:09::"], [14, "light%3:00:01::"], [17, "reporting_weight%1:07:00::"], [18, "last%3:00:00:past:00"], [19, "spring%1:28:00::"]]
+F5zv:
+    lemmas: ["He", "hope", "to", "melt_off", "an", "additional", "eight", "pound", "before", "the", "group", "break_camp", "three", "week", "hence", "."]
+    oewn2026_key: [[1, "oewn-00707813-v"], [3, "oewn-00045548-v"], [5, "oewn-00049078-s"], [6, "oewn-02194712-s"], [7, "oewn-13742201-n"], [10, "oewn-00031563-n"], [11, "oewn-02081104-v"], [12, "oewn-02194219-s"], [13, "oewn-15194920-n"], [14, "oewn-00043413-r"]]
+    paragraph: '30'
+    pos: ["PRP", "VBZ", "TO", "VB", "DT", "JJ", "JJ", "NNS", "IN", "DT", "NN", "VB", "JJ", "NNS", "RB", "."]
+    text: ' He hopes to melt_off an additional eight pounds before the Flock breaks_camp three
+  weeks hence.
+
+  '
+    tokens: [[1, 3], [4, 9], [10, 12], [13, 21], [22, 24], [25, 35], [36, 41], [42, 48], [49, 55], [56, 59], [60, 65], [66, 77], [78, 83], [84, 89], [90, 95], [95, 96]]
+    wn16_key: [[1, "hope%2:31:00::"], [3, "melt_off%2:29:00::"], [5, "additional%5:00:00:added:00"], [6, "eight%5:00:00:cardinal:00"], [7, "pound%1:23:09::"], [10, "group%1:03:00::"], [11, "break_camp%2:38:00::"], [12, "three%5:00:00:cardinal:00"], [13, "week%1:28:00::"], [14, "hence%4:02:00::"]]
+    wn30_key: [[1, "hope%2:31:00::"], [3, "melt_off%2:29:00::"], [5, "additional%3:00:03:additive:00"], [6, "eight%3:00:00:cardinal:00"], [7, "pound%1:23:09::"], [10, "group%1:03:00::"], [11, "break_camp%2:38:00::"], [12, "three%3:00:00:cardinal:00"], [13, "week%1:28:00::"], [14, "hence%4:02:00::"]]
+pNZF:
+    lemmas: ["When", "he", "be", "induct", "into", "the", "group", "at", "location", "location", ",", "person", "'s", "weight", "have", "drop", "to", "180", "-", "\"", "too", "light", "for", "me", "to", "be", "at", "my", "best", "\"", "he", "say", "."]
+    oewn2026_key: [[3, "oewn-02389417-v"], [6, "oewn-00031563-n"], [8, "oewn-00027365-n"], [9, "oewn-00027365-n"], [11, "oewn-00007846-n"], [13, "oewn-05034009-n"], [15, "oewn-00433636-v"], [20, "oewn-00047930-r"], [21, "oewn-01189951-a"], [25, "oewn-02610777-v"], [28, "oewn-00128351-n"], [31, "oewn-01011267-v"]]
+    paragraph: '31'
+    pos: ["WRB", "PRP", "VBD", "VBN", "IN", "DT", "NNP", "IN", "NNP", "NNP", ",", "NNP", "POS", "NN", "VBD", "VBN", "TO", "CD", ":", "''", "RB", "JJ", "IN", "PRP", "TO", "VB", "RB", "PRP$", "NN", "''", "PRP", "VBD", "."]
+    text: ' When he was inducted into the Army at Fort_Knox_, Ky., Hansen''s weight had dropped
+  to 180 - " too light for me to be at my best " he said.
+
+  '
+    tokens: [[1, 5], [6, 8], [9, 12], [13, 21], [22, 26], [27, 30], [31, 35], [36, 38], [39, 50], [51, 54], [54, 55], [56, 62], [62, 64], [65, 71], [72, 75], [76, 83], [84, 86], [87, 90], [91, 92], [93, 94], [95, 98], [99, 104], [105, 108], [109, 111], [112, 114], [115, 117], [118, 120], [121, 123], [124, 128], [129, 130], [131, 133], [134, 138], [138, 139]]
+    wn16_key: [[3, "induct%2:41:00::"], [6, "group%1:03:00::"], [8, "location%1:03:00::"], [9, "location%1:03:00::"], [11, "person%1:03:00::"], [13, "weight%1:07:00::"], [15, "drop%2:30:00::"], [20, "too%4:02:00::"], [21, "light%3:00:01::"], [25, "be%2:42:03::"], [28, "best%1:04:00::"], [31, "say%2:32:00::"]]
+    wn30_key: [[3, "induct%2:41:00::"], [6, "group%1:03:00::"], [8, "location%1:03:00::"], [9, "location%1:03:00::"], [11, "person%1:03:00::"], [13, "weight%1:07:00::"], [15, "drop%2:30:00::"], [20, "too%4:02:00::"], [21, "light%3:00:01::"], [25, "be%2:42:03::"], [28, "best%1:04:00::"], [31, "say%2:32:00::"]]
+nq1K:
+    lemmas: ["\"", "I", "feel", "good", "physically", "\"", ",", "person", "add", ",", "\"", "but", "I", "think", "I", "'ll", "move", "better", "carry", "a_little", "less", "weight", "than", "I'm", "carry", "now", "\"", "."]
+    oewn2026_key: [[2, "oewn-00105712-v"], [3, "oewn-00011555-r"], [4, "oewn-00116161-r"], [7, "oewn-00007846-n"], [8, "oewn-01029183-v"], [13, "oewn-00633399-v"], [16, "oewn-00014542-v"], [17, "oewn-00060145-r"], [18, "oewn-01604155-v"], [19, "oewn-00034050-r"], [20, "oewn-01559809-a"], [21, "oewn-05034009-n"], [24, "oewn-01604155-v"], [25, "oewn-00049013-r"]]
+    paragraph: '32'
+    pos: ["``", "PRP", "VBP", "RB", "RB", "``", ",", "NNP", "VBD", ",", "''", "CC", "PRP", "VBP", "PRP", "MD", "VB", "RB", "VBG", "RB", "JJR", "NN", "IN", "PRP", "VBG", "RB", "``", "."]
+    text: ' " I feel good physically ", Hansen added, " but I think I''ll move better carrying
+  a_little less weight than I''m carrying now ".
+
+  '
+    tokens: [[1, 2], [3, 4], [5, 9], [10, 14], [15, 25], [26, 27], [27, 28], [29, 35], [36, 41], [41, 42], [43, 44], [45, 48], [49, 50], [51, 56], [57, 58], [58, 61], [62, 66], [67, 73], [74, 82], [83, 91], [92, 96], [97, 103], [104, 108], [109, 112], [113, 121], [122, 125], [126, 127], [127, 128]]
+    wn16_key: [[2, "feel%2:29:00::"], [3, "good%4:02:00::"], [4, "physically%4:02:00::"], [7, "person%1:03:00::"], [8, "add%2:32:01::"], [13, "think%2:31:03::"], [16, "move%2:29:06::"], [17, "better%4:02:00::"], [18, "carry%2:35:01::"], [19, "a_little%4:02:00::"], [20, "less%3:00:00::"], [21, "weight%1:07:00::"], [24, "carry%2:35:01::"], [25, "now%4:02:00::"]]
+    wn30_key: [[2, "feel%2:29:00::"], [3, "good%4:02:00::"], [4, "physically%4:02:00::"], [7, "person%1:03:00::"], [8, "add%2:32:01::"], [13, "think%2:31:03::"], [16, "move%2:29:06::"], [17, "better%4:02:00::"], [18, "carry%2:35:01::"], [19, "a_little%4:02:00::"], [20, "less%3:00:00::"], [21, "weight%1:07:00::"], [24, "carry%2:35:01::"], [25, "now%4:02:00::"]]
+/IMW:
+    lemmas: ["The", "rangy", ",", "location", "(", "location", ")", "native", ",", "a", "surprise", "slug", "sensation", "for", "the", "group", "last", "year", "as_well", "as", "a", "defensive", "whiz", ",", "set", "\"", "improved", "fielding", "\"", "as", "his", "1961", "goal", "."]
+    oewn2026_key: [[1, "oewn-02394060-s"], [3, "oewn-00027365-n"], [5, "oewn-00027365-n"], [7, "oewn-09643964-n"], [10, "oewn-07312772-n"], [11, "oewn-01418239-v"], [12, "oewn-09781932-n"], [15, "oewn-00031563-n"], [16, "oewn-01734561-s"], [17, "oewn-15228587-n"], [18, "oewn-00048072-r"], [21, "oewn-01634178-a"], [22, "oewn-09781932-n"], [24, "oewn-00701581-v"], [26, "oewn-01291519-a"], [27, "oewn-00127541-n"], [32, "oewn-05989760-n"]]
+    paragraph: '33'
+    pos: ["DT", "JJ", ",", "NNP", "NNP", "NNP", "NNP", "NN", ",", "DT", "NN", "VBG", "NN", "IN", "DT", "NNP", "JJ", "NN", "RB", "IN", "DT", "JJ", "NN", ",", "VBN", "``", "JJ", "NN", "''", "IN", "PRP$", "CD", "NN", "."]
+    text: ' The rangy, Albany (Cal.) native, a surprise slugging sensation for the Flock last
+  year as_well as a defensive whiz, set " improved fielding " as his 1961 goal.
+
+  '
+    tokens: [[1, 4], [5, 10], [10, 11], [12, 18], [19, 20], [20, 24], [24, 25], [26, 32], [32, 33], [34, 35], [36, 44], [45, 53], [54, 63], [64, 67], [68, 71], [72, 77], [78, 82], [83, 87], [88, 95], [96, 98], [99, 100], [101, 110], [111, 115], [115, 116], [117, 120], [121, 122], [123, 131], [132, 140], [141, 142], [143, 145], [146, 149], [150, 154], [155, 159], [159, 160]]
+    wn16_key: [[1, "rangy%5:00:00:tall:00"], [3, "location%1:03:00::"], [5, "location%1:03:00::"], [7, "native%1:18:00::"], [10, "surprise%1:11:00::"], [11, "slug%2:35:00::"], [12, "sensation%1:18:00::"], [15, "group%1:03:00::"], [16, "last%5:00:00:past:00"], [17, "year%1:28:01::"], [18, "as_well%4:02:01::"], [21, "defensive%3:00:00::"], [22, "whiz%1:18:00::"], [24, "set%2:31:04::"], [26, "improved%3:00:00::"], [27, "fielding%1:04:00::"], [32, "goal%1:09:00::"]]
+    wn30_key: [[1, "rangy%3:00:00:tall:00"], [3, "location%1:03:00::"], [5, "location%1:03:00::"], [7, "native%1:18:00::"], [10, "surprise%1:11:00::"], [11, "slug%2:35:00::"], [12, "sensation%1:18:00::"], [15, "group%1:03:00::"], [16, "last%3:00:00:past:00"], [17, "year%1:28:01::"], [18, "as_well%4:02:01::"], [21, "defensive%3:00:00::"], [22, "whiz%1:18:00::"], [24, "set%2:31:04::"], [26, "improved%3:00:00::"], [27, "fielding%1:04:00::"], [32, "goal%1:09:00::"]]
+GrQr:
+    lemmas: ["\"", "I", "think", "I", "can", "do", "a", "better", "job", "with", "the", "glove", ",", "now", "that", "I", "know", "the", "hitter", "around", "the", "league", "a_little", "better", "\"", ",", "he", "say", "."]
+    oewn2026_key: [[2, "oewn-00633399-v"], [5, "oewn-02566500-v"], [7, "oewn-00060145-r"], [8, "oewn-00720957-n"], [11, "oewn-02803372-n"], [13, "oewn-00049013-r"], [16, "oewn-00595732-v"], [18, "oewn-09863364-n"], [21, "oewn-08248105-n"], [22, "oewn-00034050-r"], [23, "oewn-00060145-r"], [27, "oewn-01011267-v"]]
+    paragraph: '34'
+    pos: ["``", "PRP", "VBP", "PRP", "MD", "VB", "DT", "RB", "NN", "IN", "DT", "NN", ",", "RB", "IN", "PRP", "VBP", "DT", "NNS", "IN", "DT", "NN", "RB", "RBR", "``", ",", "PRP", "VBD", "."]
+    text: ' " I think I can do a better job with the glove, now that I know the hitters around
+  the league a_little better ", he said.
+
+  '
+    tokens: [[1, 2], [3, 4], [5, 10], [11, 12], [13, 16], [17, 19], [20, 21], [22, 28], [29, 32], [33, 37], [38, 41], [42, 47], [47, 48], [49, 52], [53, 57], [58, 59], [60, 64], [65, 68], [69, 76], [77, 83], [84, 87], [88, 94], [95, 103], [104, 110], [111, 112], [112, 113], [114, 116], [117, 121], [121, 122]]
+    wn16_key: [[2, "think%2:31:03::"], [5, "do%2:41:01::"], [7, "better%4:02:00::"], [8, "job%1:04:01::"], [11, "glove%1:06:01::"], [13, "now%4:02:00::"], [16, "know%2:31:00::"], [18, "hitter%1:18:00::"], [21, "league%1:14:01::"], [22, "a_little%4:02:00::"], [23, "better%4:02:00::"], [27, "say%2:32:00::"]]
+    wn30_key: [[2, "think%2:31:03::"], [5, "do%2:41:01::"], [7, "better%4:02:00::"], [8, "job%1:04:01::"], [11, "glove%1:06:01::"], [13, "now%4:02:00::"], [16, "know%2:31:00::"], [18, "hitter%1:18:00::"], [21, "league%1:14:01::"], [22, "a_little%4:02:00::"], [23, "better%4:02:00::"], [27, "say%2:32:00::"]]
+MQ9G:
+    lemmas: ["person", "will", "engage", "in", "his", "first", "workout", "at", "location", "prior", "to", "the", "opening", "tomorrow", "night", "of", "a", "two", "game", "weekend", "series", "with", "the", "new_york", "group", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-02380222-v"], [5, "oewn-01014459-a"], [6, "oewn-00625978-n"], [8, "oewn-00027365-n"], [9, "oewn-00122938-s"], [12, "oewn-07467309-n"], [13, "oewn-15180851-n"], [14, "oewn-15192074-n"], [17, "oewn-02194109-s"], [18, "oewn-00431591-n"], [19, "oewn-15195551-n"], [20, "oewn-08474987-n"], [23, "oewn-09141944-n"], [24, "oewn-00031563-n"]]
+    paragraph: '35'
+    pos: ["NNP", "MD", "VB", "VB", "PRP$", "JJ", "NN", "IN", "NN", "JJ", "TO", "DT", "NN", "NN", "NN", "IN", "DT", "JJ", "NN", "NN", "NN", "IN", "DT", "NNP", "NNPS", "."]
+    text: ' Hansen will engage in his first workout at Miami_Stadium prior to the opening tomorrow
+  night of a two game weekend series with the New_York Yankees.
+
+  '
+    tokens: [[1, 7], [8, 12], [13, 19], [20, 22], [23, 26], [27, 32], [33, 40], [41, 43], [44, 57], [58, 63], [64, 66], [67, 70], [71, 78], [79, 87], [88, 93], [94, 96], [97, 98], [99, 102], [103, 107], [108, 115], [116, 122], [123, 127], [128, 131], [132, 140], [141, 148], [148, 149]]
+    wn16_key: [[0, "person%1:03:00::"], [2, "engage%2:41:06::"], [5, "first%3:00:00::"], [6, "workout%1:04:00::"], [8, "location%1:03:00::"], [9, "prior%5:00:00:antecedent:00"], [12, "opening%1:11:01::"], [13, "tomorrow%1:28:01::"], [14, "night%1:28:00::"], [17, "two%5:00:00:cardinal:00"], [18, "game%1:04:01::"], [19, "weekend%1:28:00::"], [20, "series%1:14:00::"], [23, "new_york%1:15:01::"], [24, "group%1:03:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [2, "engage%2:41:06::"], [5, "first%3:00:00::"], [6, "workout%1:04:00::"], [8, "location%1:03:00::"], [9, "prior%3:00:00:antecedent:00"], [12, "opening%1:11:01::"], [13, "tomorrow%1:28:01::"], [14, "night%1:28:00::"], [17, "two%3:00:00:cardinal:00"], [18, "game%1:04:01::"], [19, "weekend%1:28:00::"], [20, "series%1:14:00::"], [23, "new_york%1:15:01::"], [24, "group%1:03:00::"]]
+gdwv:
+    lemmas: ["person", "and", "person", ",", "the", "group", "'s", "veteran", "knuckleball", "specialist", ",", "be", "slate", "to", "oppose", "the", "group", "champion", "in", "tomorrow", "'s", "8", "pm", "contest", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-00007846-n"], [5, "oewn-00031563-n"], [7, "oewn-00939792-s"], [8, "oewn-00109247-n"], [9, "oewn-10651303-n"], [12, "oewn-00711673-v"], [14, "oewn-01083545-v"], [16, "oewn-00031563-n"], [17, "oewn-09926157-n"], [19, "oewn-15180851-n"], [21, "oewn-02194712-s"], [23, "oewn-07470961-n"]]
+    paragraph: '36'
+    pos: ["NN", "CC", "NN", ",", "DT", "NNP", "POS", "JJ", "NN", "NNS", ",", "VBP", "VBN", "TO", "VB", "DT", "NN", "NNS", "IN", "NN", "POS", "JJ", "JJ", "NN", "."]
+    text: ' Skinny_Brown and Hoyt_Wilhelm, the Flock''s veteran knuckleball specialists, are
+  slated to oppose the American_League champions in tomorrow''s 8 P.M. contest.
+
+  '
+    tokens: [[1, 13], [14, 17], [18, 30], [30, 31], [32, 35], [36, 41], [41, 43], [44, 51], [52, 63], [64, 75], [75, 76], [77, 80], [81, 87], [88, 90], [91, 97], [98, 101], [102, 117], [118, 127], [128, 130], [131, 139], [139, 141], [142, 143], [144, 148], [149, 156], [156, 157]]
+    wn16_key: [[0, "person%1:03:00::"], [2, "person%1:03:00::"], [5, "group%1:03:00::"], [7, "veteran%5:00:00:experienced:00"], [8, "knuckleball%1:04:00::"], [9, "specialist%1:18:00::"], [12, "slate%2:31:00::"], [14, "oppose%2:33:00::"], [16, "group%1:03:00::"], [17, "champion%1:18:01::"], [19, "tomorrow%1:28:01::"], [21, "8%5:00:00:cardinal:00"], [22, "pm%5:00:00:postmeridian:00"], [23, "contest%1:11:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [2, "person%1:03:00::"], [5, "group%1:03:00::"], [7, "veteran%3:00:00:experienced:00"], [8, "knuckleball%1:04:00::"], [9, "specialist%1:18:00::"], [12, "slate%2:31:00::"], [14, "oppose%2:33:00::"], [16, "group%1:03:00::"], [17, "champion%1:18:01::"], [19, "tomorrow%1:28:01::"], [21, "8%3:00:00:cardinal:00"], [23, "contest%1:11:00::"]]
+braH:
+    lemmas: ["person", "and", "person", ",", "a", "rookie", "right-hander", "who", "post", "a", "15", "-", "1", "record", "last", "year", "for", "the", "yank", "'", "location", "(", "location", ")", "farm_club", "of", "the", "class", "-", "d", "group", ",", "be", "the", "probable", "rival", "pitcher", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-00007846-n"], [5, "oewn-10001364-n"], [6, "oewn-10407023-n"], [8, "oewn-01001760-v"], [13, "oewn-13618229-n"], [14, "oewn-01734561-s"], [15, "oewn-15228587-n"], [20, "oewn-00027365-n"], [22, "oewn-00027365-n"], [24, "oewn-08096028-n"], [27, "oewn-08256729-n"], [30, "oewn-00031563-n"], [32, "oewn-02610777-v"], [34, "oewn-01416084-a"], [36, "oewn-10455755-n"]]
+    paragraph: '37'
+    pos: ["NN", "CC", "NN", ",", "DT", "NN", "NN", "WP", "VBD", "DT", "CD", ":", "CD", "NN", "JJ", "NN", "IN", "DT", "NNS", "POS", "NNP", "NNP", "NNP", "NNP", "NN", "IN", "DT", "NN", ":", "NN", "NN", ",", "VBP", "DT", "JJ", "JJ", "NNS", "."]
+    text: ' Ryne_Duren and Roland_Sheldon, a rookie righthander who posted a 15 - 1 record last
+  year for the Yanks'' Auburn (N.Y.) farm_club of the Class - D New_York-Pennsylvania_League,
+  are the probable rival pitchers.
+
+  '
+    tokens: [[1, 11], [12, 15], [16, 30], [30, 31], [32, 33], [34, 40], [41, 52], [53, 56], [57, 63], [64, 65], [66, 68], [69, 70], [71, 72], [73, 79], [80, 84], [85, 89], [90, 93], [94, 97], [98, 103], [103, 104], [105, 111], [112, 113], [113, 117], [117, 118], [119, 128], [129, 131], [132, 135], [136, 141], [142, 143], [144, 145], [146, 174], [174, 175], [176, 179], [180, 183], [184, 192], [193, 198], [199, 207], [207, 208]]
+    wn16_key: [[0, "person%1:03:00::"], [2, "person%1:03:00::"], [5, "rookie%1:18:00::"], [6, "right-hander%1:18:01::"], [8, "post%2:32:00::"], [13, "record%1:23:00::"], [14, "last%5:00:00:past:00"], [15, "year%1:28:01::"], [20, "location%1:03:00::"], [22, "location%1:03:00::"], [24, "farm_club%1:14:00::"], [27, "class%1:14:05::"], [30, "group%1:03:00::"], [32, "be%2:42:03::"], [34, "probable%3:00:00::"], [35, "rival%5:00:00:competitive:00"], [36, "pitcher%1:18:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [2, "person%1:03:00::"], [5, "rookie%1:18:00::"], [6, "right-hander%1:18:01::"], [8, "post%2:32:00::"], [13, "record%1:23:00::"], [14, "last%3:00:00:past:00"], [15, "year%1:28:01::"], [20, "location%1:03:00::"], [22, "location%1:03:00::"], [24, "farm_club%1:14:00::"], [27, "class%1:14:05::"], [30, "group%1:03:00::"], [32, "be%2:42:03::"], [34, "probable%3:00:00::"], [36, "pitcher%1:18:00::"]]
+TL0+:
+    lemmas: ["twenty-one", "year", "old", "person", "and", "person", ",", "22", ",", "be", "schedule", "to", "share", "the", "group", "mound", "chore", "against", "the", "bomber", "'", "person", "in", "sunday", "'s", "2", "pm", "encounter", "."]
+    oewn2026_key: [[0, "oewn-13770386-n"], [1, "oewn-15228587-n"], [2, "oewn-01648062-a"], [3, "oewn-00007846-n"], [5, "oewn-00007846-n"], [10, "oewn-00796643-v"], [12, "oewn-02300511-v"], [14, "oewn-00031563-n"], [15, "oewn-03797867-n"], [16, "oewn-00720957-n"], [21, "oewn-00007846-n"], [23, "oewn-15188844-n"], [25, "oewn-02194109-s"], [27, "oewn-00961487-n"]]
+    paragraph: '38'
+    pos: ["NN", "NN", "JJ", "NN", "CC", "NN", ",", "CD", ",", "VBP", "VBN", "TO", "VB", "DT", "NNP", "NN", "NNS", "IN", "DT", "NNS", "POS", "NN", "IN", "NNP", "POS", "JJ", "JJ", "NN", "."]
+    text: ' Twenty-one year old Milt_Pappas and Jerry_Walker, 22, are scheduled to share the
+  Oriole mound chores against the Bombers'' Art_Ditmar in Sunday''s 2 P.M. encounter.
+
+  '
+    tokens: [[1, 11], [12, 16], [17, 20], [21, 32], [33, 36], [37, 49], [49, 50], [51, 53], [53, 54], [55, 58], [59, 68], [69, 71], [72, 77], [78, 81], [82, 88], [89, 94], [95, 101], [102, 109], [110, 113], [114, 121], [121, 122], [123, 133], [134, 136], [137, 143], [143, 145], [146, 147], [148, 152], [153, 162], [162, 163]]
+    wn16_key: [[0, "twenty-one%1:23:00::"], [1, "year%1:28:01::"], [2, "old%3:00:02::"], [3, "person%1:03:00::"], [5, "person%1:03:00::"], [10, "schedule%2:32:00::"], [12, "share%2:40:02::"], [14, "group%1:03:00::"], [15, "mound%1:06:01::"], [16, "chore%1:04:00::"], [21, "person%1:03:00::"], [23, "sunday%1:28:00::"], [25, "2%5:00:00:cardinal:00"], [26, "pm%5:00:00:postmeridian:00"], [27, "encounter%1:04:00::"]]
+    wn30_key: [[0, "twenty-one%1:23:00::"], [1, "year%1:28:01::"], [2, "old%3:00:02::"], [3, "person%1:03:00::"], [5, "person%1:03:00::"], [10, "schedule%2:32:00::"], [12, "share%2:40:02::"], [14, "group%1:03:00::"], [15, "mound%1:06:01::"], [16, "chore%1:04:00::"], [21, "person%1:03:00::"], [23, "sunday%1:28:00::"], [25, "2%3:00:00:cardinal:00"], [27, "encounter%1:04:00::"]]
+r9F5:
+    lemmas: ["person", ",", "successor", "to", "person", "at", "the", "group", "helm", ",", "plan", "to", "bring", "the", "entire", "new_york", "squad", "here", "from", "st._petersburg", ",", "include", "person", "and", "large", "crowd", "be", "anticipate", "for", "both", "weekend", "game", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-10691175-n"], [4, "oewn-00007846-n"], [7, "oewn-00031563-n"], [8, "oewn-03518055-n"], [10, "oewn-00706993-v"], [12, "oewn-02081903-v"], [14, "oewn-00517305-s"], [15, "oewn-09141944-n"], [16, "oewn-08225481-n"], [17, "oewn-00109247-r"], [19, "oewn-09097512-n"], [21, "oewn-02639021-v"], [22, "oewn-00007846-n"], [24, "oewn-01385012-a"], [25, "oewn-08199297-n"], [27, "oewn-00721658-v"], [30, "oewn-15195551-n"], [31, "oewn-00431591-n"]]
+    paragraph: '39'
+    pos: ["NN", ",", "NN", "TO", "NN", "IN", "DT", "NNP", "NN", ",", "VBZ", "TO", "VB", "DT", "JJ", "NN", "NN", "RB", "IN", "NN", ",", "VBG", "NN", "CC", "JJ", "NNS", "VBP", "VBN", "IN", "DT", "NN", "NNS", "."]
+    text: ' Ralph_Houk, successor to Casey_Stengel at the Yankee helm, plans to bring the entire
+  New_York squad here from St._Petersburg, including Joe_Dimaggio and large crowds
+  are anticipated for both weekend games.'
+    tokens: [[1, 11], [11, 12], [13, 22], [23, 25], [26, 39], [40, 42], [43, 46], [47, 53], [54, 58], [58, 59], [60, 65], [66, 68], [69, 74], [75, 78], [79, 85], [86, 94], [95, 100], [101, 105], [106, 110], [111, 125], [125, 126], [127, 136], [137, 149], [150, 153], [154, 159], [160, 166], [167, 170], [171, 182], [183, 186], [187, 191], [192, 199], [200, 205], [205, 206]]
+    wn16_key: [[0, "person%1:03:00::"], [2, "successor%1:18:01::"], [4, "person%1:03:00::"], [7, "group%1:03:00::"], [8, "helm%1:06:00::"], [10, "plan%2:31:01::"], [12, "bring%2:38:00::"], [14, "entire%5:00:01:whole:00"], [15, "new_york%1:15:01::"], [16, "squad%1:14:00::"], [17, "here%4:02:00::"], [19, "st._petersburg%1:15:01::"], [21, "include%2:42:00::"], [22, "person%1:03:00::"], [24, "large%3:00:00::"], [25, "crowd%1:14:00::"], [27, "anticipate%2:31:00::"], [30, "weekend%1:28:00::"], [31, "game%1:04:01::"]]
+    wn30_key: [[0, "person%1:03:00::"], [2, "successor%1:18:01::"], [4, "person%1:03:00::"], [7, "group%1:03:00::"], [8, "helm%1:06:00::"], [10, "plan%2:31:01::"], [12, "bring%2:38:00::"], [14, "entire%3:00:01:whole:00"], [15, "new_york%1:15:01::"], [16, "squad%1:14:00::"], [17, "here%4:02:00::"], [19, "st._petersburg%1:15:01::"], [21, "include%2:42:00::"], [22, "person%1:03:00::"], [24, "large%3:00:00::"], [25, "crowd%1:14:00::"], [27, "anticipate%2:31:00::"], [30, "weekend%1:28:00::"], [31, "game%1:04:01::"]]
+YoJH:
+    lemmas: ["The", "famed", "yankee_clipper", ",", "now", "retired", ",", "have", "be", "assist", "as", "a", "batting_coach", "."]
+    oewn2026_key: [[1, "oewn-01378757-s"], [4, "oewn-00049013-r"], [5, "oewn-00035481-s"], [9, "oewn-02419840-v"], [12, "oewn-09863629-n"]]
+    paragraph: '39'
+    pos: ["DT", "JJ", "NNP", ",", "RB", "JJ", ",", "VBZ", "VBN", "VBG", "IN", "DT", "NN", "."]
+    text: ' The famed Yankee_Clipper, now retired, has been assisting as a batting_coach.
+
+  '
+    tokens: [[1, 4], [5, 10], [11, 25], [25, 26], [27, 30], [31, 38], [38, 39], [40, 43], [44, 48], [49, 58], [59, 61], [62, 63], [64, 77], [77, 78]]
+    wn16_key: [[1, "famed%5:00:00:known:00"], [4, "now%4:02:00::"], [5, "retired%5:00:00:inactive:08"], [9, "assist%2:41:00::"], [12, "batting_coach%1:18:00::"]]
+    wn30_key: [[1, "famed%3:00:00:known:00"], [4, "now%4:02:00::"], [5, "retired%3:00:00:inactive:08"], [9, "assist%2:41:00::"], [12, "batting_coach%1:18:00::"]]
+UIU4:
+    lemmas: ["pitcher", "person", "join", "the", "club", "one", "week", "ago", "after", "complete", "his", "hitch", "under", "the", "group", "'s", "accelerated", "wintertime", "military", "course", ",", "also", "at", "location", ",", "location", "."]
+    oewn2026_key: [[0, "oewn-10455755-n"], [1, "oewn-00007846-n"], [2, "oewn-02439823-v"], [4, "oewn-08096490-n"], [5, "oewn-02193977-s"], [6, "oewn-15194920-n"], [7, "oewn-00074361-r"], [9, "oewn-02569639-v"], [11, "oewn-15318833-n"], [14, "oewn-00031563-n"], [16, "oewn-00980296-s"], [17, "oewn-15262579-n"], [18, "oewn-02775023-a"], [19, "oewn-00886144-n"], [21, "oewn-00048072-r"], [23, "oewn-00027365-n"], [25, "oewn-00027365-n"]]
+    paragraph: '40'
+    pos: ["NN", "NN", "VBD", "DT", "NN", "JJ", "NN", "RB", "IN", "VBG", "PRP$", "NN", "IN", "DT", "NNP", "POS", "JJ", "NN", "JJ", "NN", ",", "RB", "IN", "NN", ",", "NNP", "."]
+    text: ' Pitcher Steve_Barber joined the club one week ago after completing his hitch under
+  the Army''s accelerated wintertime military course, also at Fort_Knox, Ky. .'
+    tokens: [[1, 8], [9, 21], [22, 28], [29, 32], [33, 37], [38, 41], [42, 46], [47, 50], [51, 56], [57, 67], [68, 71], [72, 77], [78, 83], [84, 87], [88, 92], [92, 94], [95, 106], [107, 117], [118, 126], [127, 133], [133, 134], [135, 139], [140, 142], [143, 152], [152, 153], [154, 157], [158, 159]]
+    wn16_key: [[0, "pitcher%1:18:00::"], [1, "person%1:03:00::"], [2, "join%2:41:00::"], [4, "club%1:14:01::"], [5, "one%5:00:00:cardinal:00"], [6, "week%1:28:00::"], [7, "ago%4:02:00::"], [9, "complete%2:41:00::"], [11, "hitch%1:28:00::"], [14, "group%1:03:00::"], [16, "accelerated%5:00:00:fast:01"], [17, "wintertime%1:28:00::"], [18, "military%3:01:00::"], [19, "course%1:04:01::"], [21, "also%4:02:00::"], [23, "location%1:03:00::"], [25, "location%1:03:00::"]]
+    wn30_key: [[0, "pitcher%1:18:00::"], [1, "person%1:03:00::"], [2, "join%2:41:00::"], [4, "club%1:14:01::"], [5, "one%3:00:00:cardinal:00"], [6, "week%1:28:00::"], [7, "ago%4:02:00::"], [9, "complete%2:41:00::"], [11, "hitch%1:28:00::"], [14, "group%1:03:00::"], [16, "accelerated%3:00:00:fast:01"], [17, "wintertime%1:28:00::"], [18, "military%3:01:00::"], [19, "course%1:04:01::"], [21, "also%4:02:00::"], [23, "location%1:03:00::"], [25, "location%1:03:00::"]]
+AFmU:
+    lemmas: ["The", "22", "-", "year", "old", "southpaw", "enlist", "earlier", "last", "fall", "than", "do", "person", "."]
+    oewn2026_key: [[1, "oewn-02196164-s"], [3, "oewn-15228587-n"], [4, "oewn-01648062-a"], [5, "oewn-10272618-n"], [6, "oewn-01099603-v"], [7, "oewn-00061477-r"], [8, "oewn-01734561-s"], [9, "oewn-15261656-n"], [12, "oewn-00007846-n"]]
+    paragraph: '40'
+    pos: ["DT", "JJ", ":", "NN", "JJ", "NN", "VBD", "RB", "JJ", "NN", "IN", "VBD", "NNP", "."]
+    text: ' The 22 - year old southpaw enlisted earlier last fall than did Hansen.
+
+  '
+    tokens: [[1, 4], [5, 7], [8, 9], [10, 14], [15, 18], [19, 27], [28, 36], [37, 44], [45, 49], [50, 54], [55, 59], [60, 63], [64, 70], [70, 71]]
+    wn16_key: [[1, "22%5:00:00:cardinal:00"], [3, "year%1:28:01::"], [4, "old%3:00:02::"], [5, "southpaw%1:18:01::"], [6, "enlist%2:33:00::"], [7, "earlier%4:02:00::"], [8, "last%5:00:00:past:00"], [9, "fall%1:28:00::"], [12, "person%1:03:00::"]]
+    wn30_key: [[1, "22%3:00:00:cardinal:00"], [3, "year%1:28:01::"], [4, "old%3:00:02::"], [5, "southpaw%1:18:01::"], [6, "enlist%2:33:00::"], [7, "earlier%4:02:00::"], [8, "last%3:00:00:past:00"], [9, "fall%1:28:00::"], [12, "person%1:03:00::"]]
+Od7G:
+    lemmas: ["baltimore", "'s", "bulky", "spring_training", "contingent", "now", "gradually", "will", "be", "reduce", "as", "manager", "person", "and", "his", "coach", "seek", "to", "trim_down", "it", "down", "to", "a", "more", "streamlined", "and", "workable", "unit", "."]
+    oewn2026_key: [[0, "oewn-09116965-n"], [2, "oewn-01387372-s"], [3, "oewn-15265088-n"], [4, "oewn-07992867-n"], [5, "oewn-00049013-r"], [6, "oewn-00108755-r"], [9, "oewn-00430013-v"], [11, "oewn-09951098-n"], [12, "oewn-00007846-n"], [15, "oewn-09951098-n"], [16, "oewn-02535833-v"], [18, "oewn-00430013-v"], [23, "oewn-00099891-r"], [24, "oewn-00844276-s"], [26, "oewn-01828067-s"], [27, "oewn-08206589-n"]]
+    paragraph: '41'
+    pos: ["NNP", "POS", "JJ", "NN", "NN", "RB", "RB", "MD", "VB", "VBN", "IN", "NN", "NNS", "CC", "PRP$", "NNS", "VBP", "TO", "VB", "PRP", "JJ", "TO", "DT", "RBR", "JJ", "CC", "JJ", "NN", "."]
+    text: ' Baltimore''s bulky spring_training contingent now gradually will be reduced as Manager
+  Paul_Richards and his coaches seek to trim it down to a more streamlined and workable
+  unit.
+
+  '
+    tokens: [[1, 10], [10, 12], [13, 18], [19, 34], [35, 45], [46, 49], [50, 59], [60, 64], [65, 67], [68, 75], [76, 78], [79, 86], [87, 100], [101, 104], [105, 108], [109, 116], [117, 121], [122, 124], [125, 129], [130, 132], [133, 137], [138, 140], [141, 142], [143, 147], [148, 159], [160, 163], [164, 172], [173, 177], [177, 178]]
+    wn16_key: [[0, "baltimore%1:15:00::"], [2, "bulky%5:00:00:large:00"], [3, "spring_training%1:28:00::"], [4, "contingent%1:14:01::"], [5, "now%4:02:00::"], [6, "gradually%4:02:00::"], [9, "reduce%2:30:00::"], [11, "manager%1:18:01::"], [12, "person%1:03:00::"], [15, "coach%1:18:01::"], [16, "seek%2:41:00::"], [18, "trim_down%2:30:00::"], [23, "more%4:02:00::"], [24, "streamlined%5:00:00:efficient:00"], [26, "workable%5:00:00:possible:00"], [27, "unit%1:14:00::"]]
+    wn30_key: [[0, "baltimore%1:15:00::"], [2, "bulky%3:00:00:large:00"], [3, "spring_training%1:28:00::"], [4, "contingent%1:14:01::"], [5, "now%4:02:00::"], [6, "gradually%4:02:00::"], [9, "reduce%2:30:00::"], [11, "manager%1:18:01::"], [12, "person%1:03:00::"], [15, "coach%1:18:01::"], [16, "seek%2:41:00::"], [18, "trim_down%2:30:00::"], [23, "more%4:02:00::"], [24, "streamlined%3:00:00:efficient:00"], [26, "workable%3:00:00:possible:00"], [27, "unit%1:14:00::"]]
+0C0W:
+    lemmas: ["\"", "take", "a", "ride", "on", "this", "one", "\"", ",", "person", "greet", "person", "as", "the", "group", "third_sacker", "grab", "a", "bat", ",", "head", "for", "the", "plate", "and", "bounce", "a", "third", "inning", "two", "run", "double", "off", "the", "left", "centerfield", "wall", "tonight", "."]
+    oewn2026_key: [[1, "oewn-02113499-v"], [3, "oewn-00308457-n"], [9, "oewn-00007846-n"], [10, "oewn-00720831-v"], [11, "oewn-00007846-n"], [14, "oewn-00031563-n"], [15, "oewn-10728625-n"], [16, "oewn-01441809-v"], [20, "oewn-01939092-v"], [23, "oewn-03534081-n"], [25, "oewn-01407043-v"], [27, "oewn-02209976-s"], [28, "oewn-15280615-n"], [29, "oewn-02194109-s"], [30, "oewn-00190414-n"], [31, "oewn-00133576-n"], [34, "oewn-02040360-a"], [35, "oewn-02997788-n"], [36, "oewn-04554141-n"], [37, "oewn-00079765-r"]]
+    paragraph: '42'
+    pos: ["``", "VB", "DT", "NN", "IN", "DT", "CD", "``", ",", "NN", "VBD", "NNP", "IN", "NN", "NNP", "NNP", "VBD", "DT", "NN", ",", "VBN", "IN", "DT", "NN", "CC", "VBD", "DT", "JJ", "NN", "JJ", "NN", "NN", "IN", "DT", "JJ", "NN", "NN", "RB", "."]
+    text: ' " Take a ride on this one ", Brooks_Robinson greeted Hansen as the Bird third_sacker
+  grabbed a bat, headed for the plate and bounced a third inning two run double off
+  the left centerfield wall tonight.
+
+  '
+    tokens: [[1, 2], [3, 7], [8, 9], [10, 14], [15, 17], [18, 22], [23, 26], [27, 28], [28, 29], [30, 45], [46, 53], [54, 60], [61, 63], [64, 67], [68, 72], [73, 85], [86, 93], [94, 95], [96, 99], [99, 100], [101, 107], [108, 111], [112, 115], [116, 121], [122, 125], [126, 133], [134, 135], [136, 141], [142, 148], [149, 152], [153, 156], [157, 163], [164, 167], [168, 171], [172, 176], [177, 188], [189, 193], [194, 201], [201, 202]]
+    wn16_key: [[1, "take%2:39:00::"], [3, "ride%1:04:00::"], [9, "person%1:03:00::"], [10, "greet%2:31:00::"], [11, "person%1:03:00::"], [14, "group%1:03:00::"], [15, "third_sacker%1:18:00::"], [16, "grab%2:35:00::"], [18, "bat%1:06:01::"], [20, "head%2:38:00::"], [23, "plate%1:06:04::"], [25, "bounce%2:35:03::"], [27, "third%5:00:00:ordinal:00"], [28, "inning%1:28:00::"], [29, "two%5:00:00:cardinal:00"], [30, "run%1:04:01::"], [31, "double%1:04:00::"], [34, "left%3:00:00::"], [35, "centerfield%1:06:00::"], [36, "wall%1:06:00::"], [37, "tonight%4:02:00::"]]
+    wn30_key: [[1, "take%2:39:00::"], [3, "ride%1:04:00::"], [9, "person%1:03:00::"], [10, "greet%2:31:00::"], [11, "person%1:03:00::"], [14, "group%1:03:00::"], [15, "third_sacker%1:18:00::"], [16, "grab%2:35:00::"], [20, "head%2:38:00::"], [23, "plate%1:06:04::"], [25, "bounce%2:35:03::"], [27, "third%3:00:00:ordinal:00"], [28, "inning%1:28:00::"], [29, "two%3:00:00:cardinal:00"], [30, "run%1:04:01::"], [31, "double%1:04:00::"], [34, "left%3:00:00::"], [35, "centerfield%1:06:00::"], [36, "wall%1:06:00::"], [37, "tonight%4:02:00::"]]
+L23l:
+    lemmas: ["It", "be", "the", "first", "of", "two", "double", "by", "person", ",", "who", "be", "in", "a", "mood", "to", "celebrate", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [3, "oewn-01014459-a"], [5, "oewn-02194109-s"], [6, "oewn-00133576-n"], [8, "oewn-00007846-n"], [11, "oewn-02610777-v"], [14, "oewn-07566518-n"], [16, "oewn-02496526-v"]]
+    paragraph: '43'
+    pos: ["PRP", "VBD", "VB", "JJ", "IN", "JJ", "NN", "IN", "NNP", ",", "WP", "VBD", "IN", "DT", "NN", "TO", "VB", "."]
+    text: ' It was the first of two doubles by Robinson, who was in a mood to celebrate.
+
+  '
+    tokens: [[1, 3], [4, 7], [8, 11], [12, 17], [18, 20], [21, 24], [25, 32], [33, 35], [36, 44], [44, 45], [46, 49], [50, 53], [54, 56], [57, 58], [59, 63], [64, 66], [67, 76], [76, 77]]
+    wn16_key: [[1, "be%2:42:03::"], [3, "first%3:00:00::"], [5, "two%5:00:00:cardinal:00"], [6, "double%1:04:00::"], [8, "person%1:03:00::"], [11, "be%2:42:03::"], [14, "mood%1:12:00::"], [16, "celebrate%2:41:00::"]]
+    wn30_key: [[1, "be%2:42:03::"], [3, "first%3:00:00::"], [5, "two%3:00:00:cardinal:00"], [6, "double%1:04:00::"], [8, "person%1:03:00::"], [11, "be%2:42:03::"], [14, "mood%1:12:00::"], [16, "celebrate%2:41:00::"]]
+UQ1H:
+    lemmas: ["just", "before", "game", "time", ",", "person", "'s", "pretty", "wife", ",", "person", "inform", "him", "that", "an", "addition", "to", "the", "family", "can", "be", "expect", "late", "next", "summer", "."]
+    oewn2026_key: [[0, "oewn-00033695-r"], [2, "oewn-00431591-n"], [3, "oewn-07324217-n"], [5, "oewn-00007846-n"], [7, "oewn-00221674-s"], [8, "oewn-10800308-n"], [10, "oewn-00007846-n"], [11, "oewn-00833312-v"], [15, "oewn-02682269-n"], [18, "oewn-07986853-n"], [21, "oewn-00721658-v"], [22, "oewn-00820050-a"], [23, "oewn-00128838-s"], [24, "oewn-15262047-n"]]
+    paragraph: '44'
+    pos: ["RB", "IN", "NN", "NN", ",", "NNP", "POS", "JJ", "NN", ",", "NNP", "VBD", "PRP", "IN", "DT", "NN", "TO", "DT", "NN", "MD", "VB", "VBN", "JJ", "JJ", "NN", "."]
+    text: ' Just before game time, Robinson''s pretty wife, Connie informed him that an addition
+  to the family can be expected late next summer.
+
+  '
+    tokens: [[1, 5], [6, 12], [13, 17], [18, 22], [22, 23], [24, 32], [32, 34], [35, 41], [42, 46], [46, 47], [48, 54], [55, 63], [64, 67], [68, 72], [73, 75], [76, 84], [85, 87], [88, 91], [92, 98], [99, 102], [103, 105], [106, 114], [115, 119], [120, 124], [125, 131], [131, 132]]
+    wn16_key: [[0, "just%4:02:01::"], [2, "game%1:04:01::"], [3, "time%1:11:00::"], [5, "person%1:03:00::"], [7, "pretty%5:00:00:beautiful:00"], [8, "wife%1:18:00::"], [10, "person%1:03:00::"], [11, "inform%2:32:00::"], [15, "addition%1:06:00::"], [18, "family%1:14:00::"], [21, "expect%2:31:00::"], [22, "late%3:00:00::"], [23, "next%5:00:00:succeeding(a):00"], [24, "summer%1:28:00::"]]
+    wn30_key: [[0, "just%4:02:01::"], [2, "game%1:04:01::"], [3, "time%1:11:00::"], [5, "person%1:03:00::"], [7, "pretty%3:00:00:beautiful:00"], [8, "wife%1:18:00::"], [10, "person%1:03:00::"], [11, "inform%2:32:00::"], [15, "addition%1:06:00::"], [18, "family%1:14:00::"], [21, "expect%2:31:00::"], [22, "late%3:00:00::"], [23, "next%3:00:00:succeeding:00"], [24, "summer%1:28:00::"]]
+PFYE:
+    lemmas: ["unfortunately", ",", "person", "'", "teammate", "be", "not", "in", "such", "festive", "mood", "as", "the", "group", "expire", "before", "the", "seven", "hit", "pitching", "of", "three", "kansas_city", "rookie", "hurler", "."]
+    oewn2026_key: [[0, "oewn-00043179-r"], [2, "oewn-00007846-n"], [4, "oewn-10714546-n"], [5, "oewn-02610777-v"], [6, "oewn-00024432-r"], [8, "oewn-01558587-s"], [9, "oewn-01370347-s"], [10, "oewn-07566518-n"], [13, "oewn-00031563-n"], [14, "oewn-00359085-v"], [17, "oewn-02194609-s"], [18, "oewn-00044640-n"], [19, "oewn-00127971-n"], [21, "oewn-02194219-s"], [22, "oewn-09129720-n"], [23, "oewn-10001364-n"], [24, "oewn-10455755-n"]]
+    paragraph: '45'
+    pos: ["RB", ",", "NNP", "POS", "NNS", "VBD", "RB", "IN", "JJ", "JJ", "NN", "IN", "DT", "NNP", "VBD", "IN", "DT", "JJ", "NN", "NN", "IN", "JJ", "NN", "NN", "NNS", "."]
+    text: ' Unfortunately, Brooks'' teammates were not in such festive mood as the Orioles expired
+  before the seven hit pitching of three Kansas_City rookie hurlers.
+
+  '
+    tokens: [[1, 14], [14, 15], [16, 22], [22, 23], [24, 33], [34, 38], [39, 42], [43, 45], [46, 50], [51, 58], [59, 63], [64, 66], [67, 70], [71, 78], [79, 86], [87, 93], [94, 97], [98, 103], [104, 107], [108, 116], [117, 119], [120, 125], [126, 137], [138, 144], [145, 152], [152, 153]]
+    wn16_key: [[0, "unfortunately%4:02:00::"], [2, "person%1:03:00::"], [4, "teammate%1:18:00::"], [5, "be%2:42:03::"], [6, "not%4:02:00::"], [8, "such%5:00:01:specified:00"], [9, "festive%5:00:00:joyous:00"], [10, "mood%1:12:00::"], [13, "group%1:03:00::"], [14, "expire%2:30:00::"], [17, "seven%5:00:00:cardinal:00"], [18, "hit%1:04:03::"], [19, "pitching%1:04:00::"], [21, "three%5:00:00:cardinal:00"], [22, "kansas_city%1:15:00::"], [23, "rookie%1:18:00::"], [24, "hurler%1:18:00::"]]
+    wn30_key: [[0, "unfortunately%4:02:00::"], [2, "person%1:03:00::"], [4, "teammate%1:18:00::"], [5, "be%2:42:03::"], [6, "not%4:02:00::"], [8, "such%3:00:00:much:00"], [9, "festive%3:00:00:joyous:00"], [10, "mood%1:12:00::"], [13, "group%1:03:00::"], [14, "expire%2:30:00::"], [17, "seven%3:00:00:cardinal:00"], [18, "hit%1:04:03::"], [19, "pitching%1:04:00::"], [21, "three%3:00:00:cardinal:00"], [22, "kansas_city%1:15:00::"], [23, "rookie%1:18:00::"], [24, "hurler%1:18:00::"]]
+Tgu9:
+    lemmas: ["person", "arrive", "just", "before", "nightfall", ",", "two", "hour", "late", ",", "in", "company", "with", "person", ";", "person", ",", "chairman", "of", "the", "group", "board_of_directors", ",", "and", "person", "person", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-02009962-v"], [2, "oewn-00033695-r"], [4, "oewn-15194468-n"], [6, "oewn-02194109-s"], [7, "oewn-15252642-n"], [8, "oewn-01907298-s"], [11, "oewn-08201779-n"], [13, "oewn-00007846-n"], [15, "oewn-00007846-n"], [17, "oewn-83179919-n"], [20, "oewn-00031563-n"], [21, "oewn-08397499-n"], [24, "oewn-00007846-n"], [25, "oewn-00007846-n"]]
+    paragraph: '46'
+    pos: ["NNP", "VBD", "RB", "IN", "NN", ",", "JJ", "NNS", "JJ", ",", "IN", "NN", "IN", "NN", ":", "NN", ",", "NN", "IN", "DT", "NNP", "NNS", ",", "CC", "NN", "NN", "."]
+    text: ' Hansen arrived just before nightfall, two hours late, in company with Lee_MacPhail;
+  J._A._W._Iglehart, chairman of the Oriole board_of_directors, and Public_Relations_Director
+  Jack_Dunn.
+
+  '
+    tokens: [[1, 7], [8, 15], [16, 20], [21, 27], [28, 37], [37, 38], [39, 42], [43, 48], [49, 53], [53, 54], [55, 57], [58, 65], [66, 70], [71, 83], [83, 84], [85, 102], [102, 103], [104, 112], [113, 115], [116, 119], [120, 126], [127, 145], [145, 146], [147, 150], [151, 176], [177, 186], [186, 187]]
+    wn16_key: [[0, "person%1:03:00::"], [1, "arrive%2:38:00::"], [2, "just%4:02:01::"], [4, "nightfall%1:28:00::"], [6, "two%5:00:00:cardinal:00"], [7, "hour%1:28:00::"], [8, "late%5:00:00:unpunctual:00"], [11, "company%1:14:00::"], [13, "person%1:03:00::"], [15, "person%1:03:00::"], [17, "chairman%1:18:01::"], [20, "group%1:03:00::"], [21, "board_of_directors%1:14:00::"], [24, "person%1:03:00::"], [25, "person%1:03:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [1, "arrive%2:38:00::"], [2, "just%4:02:01::"], [4, "nightfall%1:28:00::"], [6, "two%3:00:00:cardinal:00"], [7, "hour%1:28:00::"], [8, "late%3:00:00:unpunctual:00"], [11, "company%1:14:00::"], [13, "person%1:03:00::"], [15, "person%1:03:00::"], [17, "chairman%1:18:01::"], [20, "group%1:03:00::"], [21, "board_of_directors%1:14:00::"], [24, "person%1:03:00::"], [25, "person%1:03:00::"]]
+JtxX:
+    lemmas: ["Their", "flight", "be", "delay", ",", "person", "say", ",", "when", "a", "boarding", "ramp", "inflict", "some", "minor", "damage", "to", "the", "wing", "of", "the", "plane", "."]
+    oewn2026_key: [[1, "oewn-00303220-n"], [3, "oewn-00460731-v"], [5, "oewn-00007846-n"], [6, "oewn-01011267-v"], [10, "oewn-00059157-n"], [11, "oewn-04058661-n"], [12, "oewn-00750288-v"], [14, "oewn-01474638-a"], [15, "oewn-07435370-n"], [18, "oewn-04600068-n"], [21, "oewn-02694015-n"]]
+    paragraph: '47'
+    pos: ["PRP$", "NN", "VBD", "VBN", ",", "NNP", "VBD", ",", "WRB", "DT", "NN", "NN", "VBD", "DT", "JJ", "NN", "TO", "DT", "NN", "IN", "DT", "NN", "."]
+    text: ' Their flight was delayed, Dunn said, when a boarding ramp inflicted some minor damage
+  to the wing of the plane.
+
+  '
+    tokens: [[1, 6], [7, 13], [14, 17], [18, 25], [25, 26], [27, 31], [32, 36], [36, 37], [38, 42], [43, 44], [45, 53], [54, 58], [59, 68], [69, 73], [74, 79], [80, 86], [87, 89], [90, 93], [94, 98], [99, 101], [102, 105], [106, 111], [111, 112]]
+    wn16_key: [[1, "flight%1:04:00::"], [3, "delay%2:30:00::"], [5, "person%1:03:00::"], [6, "say%2:32:00::"], [10, "boarding%1:04:00::"], [11, "ramp%1:06:00::"], [12, "inflict%2:32:00::"], [14, "minor%3:00:02::"], [15, "damage%1:11:00::"], [18, "wing%1:06:00::"], [21, "plane%1:06:01::"]]
+    wn30_key: [[1, "flight%1:04:00::"], [3, "delay%2:30:00::"], [5, "person%1:03:00::"], [6, "say%2:32:00::"], [10, "boarding%1:04:00::"], [11, "ramp%1:06:00::"], [12, "inflict%2:32:00::"], [14, "minor%3:00:02::"], [15, "damage%1:11:00::"], [18, "wing%1:06:00::"], [21, "plane%1:06:01::"]]
+OZA4:
+    lemmas: ["ex", "group", "person", ",", "now", "catching", "for", "the", "A", "'s", "be", "all", "for", "the", "group", "'s", "1961", "expansion", "to", "the", "location", "."]
+    oewn2026_key: [[1, "oewn-00031563-n"], [2, "oewn-00007846-n"], [4, "oewn-00049013-r"], [5, "oewn-00127706-n"], [10, "oewn-02610777-v"], [14, "oewn-00031563-n"], [17, "oewn-00366535-n"], [20, "oewn-00027365-n"]]
+    paragraph: '48'
+    pos: ["JJ", "NNP", "NNP", ",", "RB", "NN", "IN", "DT", "DT", "VBZ", "VBZ", "DT", "IN", "DT", "NN", "POS", "CD", "NN", "TO", "DT", "NN", "."]
+    text: ' Ex Oriole Clint_Courtney, now catching for the A''s is all for the American_League''s
+  1961 expansion to the West_Coast.
+
+  '
+    tokens: [[1, 3], [4, 10], [11, 25], [25, 26], [27, 30], [31, 39], [40, 43], [44, 47], [48, 49], [49, 51], [52, 54], [55, 58], [59, 62], [63, 66], [67, 82], [82, 84], [85, 89], [90, 99], [100, 102], [103, 106], [107, 117], [117, 118]]
+    wn16_key: [[0, "ex%5:00:00:past:00"], [1, "group%1:03:00::"], [2, "person%1:03:00::"], [4, "now%4:02:00::"], [5, "catching%1:04:00::"], [10, "be%2:42:03::"], [14, "group%1:03:00::"], [17, "expansion%1:04:00::"], [20, "location%1:03:00::"]]
+    wn30_key: [[1, "group%1:03:00::"], [2, "person%1:03:00::"], [4, "now%4:02:00::"], [5, "catching%1:04:00::"], [10, "be%2:42:03::"], [14, "group%1:03:00::"], [17, "expansion%1:04:00::"], [20, "location%1:03:00::"]]
+sN8V:
+    lemmas: ["\"", "But", "they", "shouldda", "bring_in", "tokyo", ",", "too", "\"", ",", "add", "person", "."]
+    oewn2026_key: [[5, "oewn-08943121-n"], [7, "oewn-00048072-r"], [10, "oewn-01029183-v"], [11, "oewn-00007846-n"]]
+    paragraph: '49'
+    pos: ["``", "CC", "PRP", "VBP", "VB", "NNP", ",", "RB", "``", ",", "VBN", "NN", "."]
+    text: ' " But they shouldda brought_in Tokyo, too ", added Old_Scrapiron.'
+    tokens: [[1, 2], [3, 6], [7, 11], [12, 20], [21, 31], [32, 37], [37, 38], [39, 42], [43, 44], [44, 45], [46, 51], [52, 65], [65, 66]]
+    wn16_key: [[5, "tokyo%1:15:00::"], [7, "too%4:02:01::"], [10, "add%2:32:01::"], [11, "person%1:03:00::"]]
+    wn30_key: [[5, "tokyo%1:15:00::"], [7, "too%4:02:01::"], [10, "add%2:32:01::"], [11, "person%1:03:00::"]]
+M2YZ:
+    lemmas: ["\"", "then", "we", "'d", "really", "have", "someplace", "to", "go", "\"", "."]
+    oewn2026_key: [[1, "oewn-00118928-r"], [4, "oewn-00037620-r"], [5, "oewn-02209474-v"], [8, "oewn-01839438-v"]]
+    paragraph: '49'
+    pos: ["``", "RB", "PRP", "MD", "RB", "VB", "RB", "TO", "VB", "``", "."]
+    text: ' " Then we''d really have someplace to go ".
+
+  '
+    tokens: [[1, 2], [3, 7], [8, 10], [10, 12], [13, 19], [20, 24], [25, 34], [35, 37], [38, 40], [41, 42], [42, 43]]
+    wn16_key: [[1, "then%4:02:02::"], [4, "really%4:02:03::"], [5, "have%2:40:04::"], [8, "go%2:38:00::"]]
+    wn30_key: [[1, "then%4:02:02::"], [4, "really%4:02:03::"], [5, "have%2:40:04::"], [8, "go%2:38:00::"]]
+zeLF:
+    lemmas: ["gain", "her", "second", "straight", "victory", ",", "person", "'s", "Garden_Fresh", ",", "a", "3", "-", "year", "old", "filly", ",", "down", "promising", "colt", "in", "the", "$", "4500", "St._Patrick's_Day_Purse", ",", "feature", "seventh", "race", "here", "today", ",", "and", "pay", "$", "7.20", "straight", "."]
+    oewn2026_key: [[0, "oewn-02293158-v"], [2, "oewn-02209815-s"], [3, "oewn-00599155-s"], [4, "oewn-07488581-n"], [6, "oewn-00007846-n"], [11, "oewn-02194219-s"], [13, "oewn-15228587-n"], [14, "oewn-01648062-a"], [15, "oewn-02379331-n"], [17, "oewn-01105747-v"], [18, "oewn-01415143-s"], [19, "oewn-02379443-n"], [26, "oewn-02637740-v"], [27, "oewn-02210648-s"], [28, "oewn-07473244-n"], [29, "oewn-00109247-r"], [30, "oewn-15287732-n"], [33, "oewn-02296669-v"]]
+    paragraph: '50'
+    pos: ["VB", "PRP$", "JJ", "JJ", "NN", ",", "NN", "POS", "JJ", ",", "DT", "JJ", ":", "NN", "JJ", "NN", ",", "VBD", "JJ", "NNS", "IN", "DT", "$", "CD", "NNP", ",", "VBD", "JJ", "NN", "RB", "NN", ",", "CC", "VBD", "$", "CD", "JJ", "."]
+    text: ' Gaining her second straight victory, Norman_B._Small_,_Jr.''s Garden_Fresh, a 3
+  - year old filly, downed promising colts in the $4500 St._Patrick''s_Day_Purse,
+  featured seventh race here today, and paid $7.20 straight.
+
+  '
+    tokens: [[1, 8], [9, 12], [13, 19], [20, 28], [29, 36], [36, 37], [38, 59], [59, 61], [62, 74], [74, 75], [76, 77], [78, 79], [80, 81], [82, 86], [87, 90], [91, 96], [96, 97], [98, 104], [105, 114], [115, 120], [121, 123], [124, 127], [128, 129], [129, 133], [134, 157], [157, 158], [159, 167], [168, 175], [176, 180], [181, 185], [186, 191], [191, 192], [193, 196], [197, 201], [202, 203], [203, 207], [208, 216], [216, 217]]
+    wn16_key: [[0, "gain%2:40:01::"], [2, "second%5:00:00:ordinal:00"], [3, "straight%5:00:00:continuous:01"], [4, "victory%1:11:00::"], [6, "person%1:03:00::"], [11, "3%5:00:00:cardinal:00"], [13, "year%1:28:01::"], [14, "old%3:00:02::"], [15, "filly%1:05:00::"], [17, "down%2:33:00::"], [18, "promising%5:00:00:likely:00"], [19, "colt%1:05:02::"], [26, "feature%2:42:01::"], [27, "seventh%5:00:00:ordinal:00"], [28, "race%1:11:00::"], [29, "here%4:02:00::"], [30, "today%1:28:00::"], [33, "pay%2:40:01::"]]
+    wn30_key: [[0, "gain%2:40:01::"], [2, "second%3:00:00:ordinal:00"], [3, "straight%3:00:00:continuous:01"], [4, "victory%1:11:00::"], [6, "person%1:03:00::"], [11, "3%3:00:00:cardinal:00"], [13, "year%1:28:01::"], [14, "old%3:00:02::"], [15, "filly%1:05:00::"], [17, "down%2:33:00::"], [18, "promising%3:00:00:likely:00"], [19, "colt%1:05:02::"], [26, "feature%2:42:01::"], [27, "seventh%3:00:00:ordinal:00"], [28, "race%1:11:00::"], [29, "here%4:02:00::"], [30, "today%1:28:00::"], [33, "pay%2:40:01::"]]
+rNv+:
+    lemmas: ["toy_with", "her", "field", "in", "the", "early", "stage", ",", "Garden_Fresh", "be", "ask", "for", "top", "speed", "only", "in", "the", "stretch", "by", "jockey", "person", "and", "win", "by", "a", "length", "and", "a", "half", "in", "1.24", "3", "-", "5", "for", "the", "7", "furlong", "."]
+    oewn2026_key: [[0, "oewn-00713544-v"], [2, "oewn-08016026-n"], [5, "oewn-00816521-a"], [6, "oewn-15315573-n"], [10, "oewn-00754499-v"], [13, "oewn-15307914-n"], [14, "oewn-00005103-r"], [17, "oewn-04343783-n"], [19, "oewn-10242847-n"], [20, "oewn-00007846-n"], [22, "oewn-01102556-v"], [25, "oewn-05140372-n"], [28, "oewn-13758939-n"], [36, "oewn-02194609-s"], [37, "oewn-13672690-n"]]
+    paragraph: '51'
+    pos: ["VB", "PRP$", "NN", "IN", "DT", "JJ", "NNS", ",", "JJ", "VBD", "VBN", "VB", "JJ", "NN", "RB", "IN", "DT", "NN", "IN", "NN", "NN", "CC", "VBN", "IN", "DT", "NN", "CC", "DT", "NN", "IN", "CD", "CD", ":", "CD", "IN", "DT", "JJ", "NNS", "."]
+    text: ' Toying_with her field in the early stages, Garden_Fresh was asked for top speed
+  only in the stretch by Jockey Philip_Grimm and won by a length and a half in 1.24
+  3 - 5 for the 7 furlongs.
+
+  '
+    tokens: [[1, 12], [13, 16], [17, 22], [23, 25], [26, 29], [30, 35], [36, 42], [42, 43], [44, 56], [57, 60], [61, 66], [67, 70], [71, 74], [75, 80], [81, 85], [86, 88], [89, 92], [93, 100], [101, 103], [104, 110], [111, 123], [124, 127], [128, 131], [132, 134], [135, 136], [137, 143], [144, 147], [148, 149], [150, 154], [155, 157], [158, 162], [163, 164], [165, 166], [167, 168], [169, 172], [173, 176], [177, 178], [179, 187], [187, 188]]
+    wn16_key: [[0, "toy_with%2:31:00::"], [2, "field%1:14:01::"], [5, "early%3:00:00::"], [6, "stage%1:28:00::"], [10, "ask%2:32:01::"], [12, "top%5:00:00:maximal:00"], [13, "speed%1:28:00::"], [14, "only%4:02:02::"], [17, "stretch%1:06:00::"], [19, "jockey%1:18:00::"], [20, "person%1:03:00::"], [22, "win%2:33:00::"], [25, "length%1:07:02::"], [28, "half%1:23:00::"], [36, "7%5:00:00:cardinal:00"], [37, "furlong%1:23:00::"]]
+    wn30_key: [[0, "toy_with%2:31:00::"], [2, "field%1:14:01::"], [5, "early%3:00:00::"], [6, "stage%1:28:00::"], [10, "ask%2:32:01::"], [13, "speed%1:28:00::"], [14, "only%4:02:02::"], [17, "stretch%1:06:00::"], [19, "jockey%1:18:00::"], [20, "person%1:03:00::"], [22, "win%2:33:00::"], [25, "length%1:07:02::"], [28, "half%1:23:00::"], [36, "7%3:00:00:cardinal:00"], [37, "furlong%1:23:00::"]]
++BUd:
+    lemmas: ["person", "'s", "paget", ",", "which", "have", "what", "seem", "to", "be", "a", "substantial", "lead", "in", "the", "early", "stage", ",", "tire", "rapidly", "near", "the", "wire", "and", "be", "able", "to", "save", "place", "money", "only", "a", "head", "in_front", "of", "person", "'s", "milty_miss", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [5, "oewn-02209474-v"], [7, "oewn-02137900-v"], [9, "oewn-02610777-v"], [11, "oewn-00627729-s"], [12, "oewn-01736802-v"], [15, "oewn-00816521-a"], [16, "oewn-15315573-n"], [18, "oewn-00075867-v"], [19, "oewn-00086161-r"], [20, "oewn-02057865-v"], [22, "oewn-08701845-n"], [24, "oewn-02610777-v"], [25, "oewn-00001740-a"], [28, "oewn-00587299-n"], [29, "oewn-13405730-n"], [30, "oewn-00005103-r"], [32, "oewn-05546258-n"], [33, "oewn-00067181-r"], [35, "oewn-00007846-n"]]
+    paragraph: '52'
+    pos: ["NN", "POS", "NNP", ",", "WDT", "VBD", "WP", "VBD", "TO", "VB", "DT", "JJ", "VB", "IN", "DT", "JJ", "NNS", ",", "VBD", "RB", "VBG", "DT", "NN", "CC", "VBD", "JJ", "VB", "VB", "NN", "NN", "RB", "DT", "NN", "RB", "IN", "NN", "POS", "NNP", "."]
+    text: ' Richard_M._Forbes''s Paget, which had what seemed to be a substantial lead in the
+  early stages, tired rapidly nearing the wire and was able to save place money only
+  a head in_front of Glen_T._Hallowell''s Milties_Miss.
+
+  '
+    tokens: [[1, 18], [18, 20], [21, 26], [26, 27], [28, 33], [34, 37], [38, 42], [43, 49], [50, 52], [53, 55], [56, 57], [58, 69], [70, 74], [75, 77], [78, 81], [82, 87], [88, 94], [94, 95], [96, 101], [102, 109], [110, 117], [118, 121], [122, 126], [127, 130], [131, 134], [135, 139], [140, 142], [143, 147], [148, 153], [154, 159], [160, 164], [165, 166], [167, 171], [172, 180], [181, 183], [184, 201], [201, 203], [204, 216], [216, 217]]
+    wn16_key: [[0, "person%1:03:00::"], [5, "have%2:40:04::"], [7, "seem%2:39:00::"], [9, "be%2:42:03::"], [11, "substantial%5:00:00:considerable:00"], [12, "lead%2:36:00::"], [15, "early%3:00:00::"], [16, "stage%1:28:00::"], [18, "tire%2:29:00::"], [19, "rapidly%4:02:00::"], [20, "near%2:38:00::"], [22, "wire%1:15:00::"], [24, "be%2:42:03::"], [25, "able%3:00:00::"], [28, "place%1:11:00::"], [29, "money%1:21:00::"], [30, "only%4:02:02::"], [32, "head%1:08:00::"], [33, "in_front%4:02:00::"], [35, "person%1:03:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [5, "have%2:40:04::"], [7, "seem%2:39:00::"], [9, "be%2:42:03::"], [11, "substantial%3:00:00:considerable:00"], [12, "lead%2:36:00::"], [15, "early%3:00:00::"], [16, "stage%1:28:00::"], [18, "tire%2:29:00::"], [19, "rapidly%4:02:00::"], [20, "near%2:38:00::"], [22, "wire%1:15:00::"], [24, "be%2:42:03::"], [25, "able%3:00:00::"], [28, "place%1:04:00::"], [29, "money%1:21:00::"], [30, "only%4:02:02::"], [32, "head%1:08:00::"], [33, "in_front%4:02:00::"], [35, "person%1:03:00::"]]
+HV6W:
+    lemmas: ["A", "bright", "sun", "and", "brisk", "wind", "have", "the", "track", "in", "a", "fast", "condition", "for", "the", "first", "time", "this", "week", "and", "8280", "St._Patty_Day", "celebrant", "bet_on", "$", "842617", "on", "the", "well", "prepared", "program", "."]
+    oewn2026_key: [[1, "oewn-00279417-a"], [2, "oewn-09473312-n"], [4, "oewn-01359875-s"], [5, "oewn-11546388-n"], [6, "oewn-00120604-v"], [8, "oewn-09410115-n"], [11, "oewn-00979699-a"], [12, "oewn-13943868-n"], [15, "oewn-00103286-r"], [16, "oewn-07324217-n"], [18, "oewn-15194920-n"], [22, "oewn-09922407-n"], [23, "oewn-01141530-v"], [28, "oewn-00011555-r"], [29, "oewn-01849304-a"], [30, "oewn-05907175-n"]]
+    paragraph: '53'
+    pos: ["DT", "JJ", "NN", "CC", "JJ", "NN", "VBD", "DT", "NN", "IN", "DT", "JJ", "NN", "RB", "RB", "RB", "RB", "DT", "NN", "CC", "CD", "NNP", "NNS", "VBD", "$", "CD", "IN", "DT", "RB", "JJ", "NN", "."]
+    text: ' A bright sun and brisk wind had the track in a fast condition for_the_first_time
+  this week and 8280 St._Patty_Day celebrants bet $842617 on the well prepared program.
+
+  '
+    tokens: [[1, 2], [3, 9], [10, 13], [14, 17], [18, 23], [24, 28], [29, 32], [33, 36], [37, 42], [43, 45], [46, 47], [48, 52], [53, 62], [63, 66], [67, 70], [71, 76], [77, 81], [82, 86], [87, 91], [92, 95], [96, 100], [101, 114], [115, 125], [126, 129], [130, 131], [131, 137], [138, 140], [141, 144], [145, 149], [150, 158], [159, 166], [166, 167]]
+    wn16_key: [[1, "bright%3:00:00::"], [2, "sun%1:17:00::"], [4, "brisk%5:00:00:invigorating:00"], [5, "wind%1:19:00::"], [6, "have%2:30:00::"], [8, "track%1:17:00::"], [11, "fast%3:00:01::"], [12, "condition%1:26:00::"], [18, "week%1:28:00::"], [22, "celebrant%1:18:01::"], [23, "bet_on%2:33:00::"], [28, "well%4:02:00::"], [29, "prepared%3:00:00::"], [30, "program%1:09:00::"]]
+    wn30_key: [[1, "bright%3:00:00::"], [2, "sun%1:17:00::"], [4, "brisk%3:00:00:invigorating:00"], [5, "wind%1:19:00::"], [6, "have%2:30:00::"], [8, "track%1:17:00::"], [11, "fast%3:00:01::"], [12, "condition%1:26:00::"], [15, "first%4:02:00::"], [16, "time%1:11:00::"], [18, "week%1:28:00::"], [22, "celebrant%1:18:01::"], [23, "bet_on%2:33:00::"], [28, "well%4:02:00::"], [29, "prepared%3:00:00::"], [30, "program%1:09:00::"]]
+e7A3:
+    lemmas: ["prior", "to", "the", "featured", "race", ",", "the", "steward", "announce", "that", "apprentice", "person", "be", "suspend", "ten", "day", "for", "crowd", "horse", "and", "cross", "the", "field", "sharply", "in", "two", "race", "on", "wednesday", "."]
+    oewn2026_key: [[0, "oewn-00122938-s"], [3, "oewn-00582697-s"], [4, "oewn-07473244-n"], [7, "oewn-10674881-n"], [8, "oewn-00976399-v"], [10, "oewn-09821287-n"], [11, "oewn-00007846-n"], [13, "oewn-02507686-v"], [14, "oewn-02194935-s"], [15, "oewn-15180180-n"], [17, "oewn-02032568-v"], [18, "oewn-02377103-n"], [20, "oewn-01916152-v"], [22, "oewn-08588287-n"], [23, "oewn-00050485-r"], [25, "oewn-02194109-s"], [26, "oewn-07473244-n"], [28, "oewn-15189280-n"]]
+    paragraph: '54'
+    pos: ["JJ", "TO", "DT", "JJ", "NN", ",", "DT", "NNS", "VBD", "IN", "NN", "NN", "VB", "VBN", "JJ", "NNS", "IN", "VBG", "NNS", "CC", "VBG", "DT", "NN", "RB", "IN", "JJ", "NNS", "IN", "NNP", "."]
+    text: ' Prior to the featured race, the stewards announced that apprentice James_P._Verrone
+  is suspended ten days for crowding horses and crossing the field sharply in two
+  races on Wednesday.
+
+  '
+    tokens: [[1, 6], [7, 9], [10, 13], [14, 22], [23, 27], [27, 28], [29, 32], [33, 41], [42, 51], [52, 56], [57, 67], [68, 84], [85, 87], [88, 97], [98, 101], [102, 106], [107, 110], [111, 119], [120, 126], [127, 130], [131, 139], [140, 143], [144, 149], [150, 157], [158, 160], [161, 164], [165, 170], [171, 173], [174, 183], [183, 184]]
+    wn16_key: [[0, "prior%5:00:00:antecedent:00"], [3, "featured%5:00:00:conspicuous:00"], [4, "race%1:11:00::"], [7, "steward%1:18:00::"], [8, "announce%2:32:00::"], [10, "apprentice%1:18:00::"], [11, "person%1:03:00::"], [13, "suspend%2:41:00::"], [14, "ten%5:00:00:cardinal:00"], [15, "day%1:28:00::"], [17, "crowd%2:38:01::"], [18, "horse%1:05:00::"], [20, "cross%2:38:00::"], [22, "field%1:15:02::"], [23, "sharply%4:02:00::"], [25, "two%5:00:00:cardinal:00"], [26, "race%1:11:00::"], [28, "wednesday%1:28:00::"]]
+    wn30_key: [[0, "prior%3:00:00:antecedent:00"], [3, "featured%3:00:00:conspicuous:00"], [4, "race%1:11:00::"], [7, "steward%1:18:00::"], [8, "announce%2:32:00::"], [10, "apprentice%1:18:00::"], [11, "person%1:03:00::"], [13, "suspend%2:41:00::"], [14, "ten%3:00:00:cardinal:00"], [15, "day%1:28:00::"], [17, "crowd%2:38:01::"], [18, "horse%1:05:00::"], [20, "cross%2:38:00::"], [22, "field%1:15:02::"], [23, "sharply%4:02:00::"], [25, "two%3:00:00:cardinal:00"], [26, "race%1:11:00::"], [28, "wednesday%1:28:00::"]]
+E0m4:
+    lemmas: ["Garden_Fresh", ",", "the", "result", "of", "a", "mating", "of", "better_self", "and", "Rosy_Fingered", ",", "seem", "to", "improve", "with", "each", "start", "and", "appear", "to", "win", "the", "St._Patrick's_Day_Purse", "with", "some", "speed", "in", "reserve", "."]
+    oewn2026_key: [[3, "oewn-11430739-n"], [6, "oewn-00848970-n"], [12, "oewn-02137900-v"], [14, "oewn-00206293-v"], [17, "oewn-07339790-n"], [19, "oewn-02137900-v"], [21, "oewn-01102556-v"], [26, "oewn-15307914-n"], [28, "oewn-13389225-n"]]
+    paragraph: '55'
+    pos: ["JJ", ",", "DT", "NN", "IN", "DT", "NN", "IN", "NNP", "CC", "NNP", ",", "VBZ", "TO", "VB", "IN", "DT", "NN", "CC", "VBD", "TO", "VB", "DT", "NNP", "IN", "DT", "NN", "RB", "NN", "."]
+    text: ' Garden_Fresh, the result of a mating of Better_Self and Rosy_Fingered, seems to
+  improve with each start and appeared to win the St._Patrick''s_Day_Purse with some
+  speed in reserve.'
+    tokens: [[1, 13], [13, 14], [15, 18], [19, 25], [26, 28], [29, 30], [31, 37], [38, 40], [41, 52], [53, 56], [57, 70], [70, 71], [72, 77], [78, 80], [81, 88], [89, 93], [94, 98], [99, 104], [105, 108], [109, 117], [118, 120], [121, 124], [125, 128], [129, 152], [153, 157], [158, 162], [163, 168], [169, 171], [172, 179], [179, 180]]
+    wn16_key: [[3, "result%1:19:00::"], [6, "mating%1:04:00::"], [12, "seem%2:39:00::"], [14, "improve%2:30:01::"], [17, "start%1:11:00::"], [19, "appear%2:39:00::"], [21, "win%2:33:00::"], [26, "speed%1:28:00::"], [28, "reserve%1:21:00::"]]
+    wn30_key: [[3, "result%1:19:00::"], [6, "mating%1:04:00::"], [12, "seem%2:39:00::"], [14, "improve%2:30:01::"], [17, "start%1:11:00::"], [19, "appear%2:39:00::"], [21, "win%2:33:00::"], [26, "speed%1:28:00::"], [28, "reserve%1:21:00::"]]
+Lgh9:
+    lemmas: ["She", "be", "move_up", "to", "the", "allowance", "department", "after", "win", "a", "$", "10000", "claim", "event", "."]
+    oewn2026_key: [[2, "oewn-01972576-v"], [5, "oewn-13307277-n"], [6, "oewn-08131836-n"], [8, "oewn-01102556-v"], [12, "oewn-02280210-v"], [13, "oewn-00029677-n"]]
+    paragraph: '55'
+    pos: ["PRP", "VBD", "VB", "TO", "DT", "NN", "NN", "IN", "VBG", "DT", "$", "CD", "VBG", "NN", "."]
+    text: ' She was moving_up to the allowance department after winning a $10000 claiming event.
+
+  '
+    tokens: [[1, 4], [5, 8], [9, 18], [19, 21], [22, 25], [26, 35], [36, 46], [47, 52], [53, 60], [61, 62], [63, 64], [64, 69], [70, 78], [79, 84], [84, 85]]
+    wn16_key: [[2, "move_up%2:38:00::"], [5, "allowance%1:21:00::"], [6, "department%1:14:00::"], [8, "win%2:33:00::"], [12, "claim%2:40:00::"], [13, "event%1:03:00::"]]
+    wn30_key: [[2, "move_up%2:38:00::"], [5, "allowance%1:21:00::"], [6, "department%1:14:00::"], [8, "win%2:33:00::"], [12, "claim%2:40:00::"], [13, "event%1:03:00::"]]
+XaJR:
+    lemmas: ["person", ",", "the", "swift", "stride", "jamaican", ",", "set", "a", "meet", "record", "in", "the", "600", "-", "yard", "run", "in", "the", "group", "track_meet", "tonight", ",", "beat", "group", "'s", "person", "in", "a", "hot", "duel", "in", "1.10.1", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [3, "oewn-00981390-s"], [5, "oewn-09737488-n"], [7, "oewn-01064417-v"], [9, "oewn-07482986-n"], [10, "oewn-00063834-n"], [15, "oewn-13672065-n"], [16, "oewn-07475061-n"], [19, "oewn-00031563-n"], [20, "oewn-07483832-n"], [21, "oewn-00079765-r"], [23, "oewn-01104324-v"], [24, "oewn-00031563-n"], [26, "oewn-00007846-n"], [29, "oewn-01259404-a"], [30, "oewn-01175274-n"]]
+    paragraph: '56'
+    pos: ["NN", ",", "DT", "JJ", "VB", "NN", ",", "VBD", "DT", "NN", "NN", "IN", "DT", "CD", ":", "NN", "NN", "IN", "DT", "NN", "NN", "RB", ",", "VBG", "NNP", "POS", "NNS", "IN", "DT", "JJ", "NN", "IN", "CD", "."]
+    text: ' George_Kerr, the swift striding Jamaican, set a meet record in the 600 - yard run
+  in the Knights_of_Columbus track_meet tonight, beating Purdue''s Dave_Mills in a
+  hot duel in 1.10.1.
+
+  '
+    tokens: [[1, 12], [12, 13], [14, 17], [18, 23], [24, 32], [33, 41], [41, 42], [43, 46], [47, 48], [49, 53], [54, 60], [61, 63], [64, 67], [68, 71], [72, 73], [74, 78], [79, 82], [83, 85], [86, 89], [90, 109], [110, 120], [121, 128], [128, 129], [130, 137], [138, 144], [144, 146], [147, 157], [158, 160], [161, 162], [163, 166], [167, 171], [172, 174], [175, 181], [181, 182]]
+    wn16_key: [[0, "person%1:03:00::"], [3, "swift%5:00:00:fast:01"], [4, "stride%2:38:04::"], [5, "jamaican%1:18:00::"], [7, "set%2:32:01::"], [9, "meet%1:11:00::"], [10, "record%1:04:00::"], [15, "yard%1:23:00::"], [16, "run%1:11:02::"], [19, "group%1:03:00::"], [20, "track_meet%1:11:00::"], [21, "tonight%4:02:00::"], [23, "beat%2:33:00::"], [24, "group%1:03:00::"], [26, "person%1:03:00::"], [29, "hot%3:00:02::"], [30, "duel%1:04:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [3, "swift%3:00:00:fast:01"], [5, "jamaican%1:18:00::"], [7, "set%2:32:01::"], [9, "meet%1:11:00::"], [10, "record%1:04:00::"], [15, "yard%1:23:00::"], [16, "run%1:11:02::"], [19, "group%1:03:00::"], [20, "track_meet%1:11:00::"], [21, "tonight%4:02:00::"], [23, "beat%2:33:00::"], [24, "group%1:03:00::"], [26, "person%1:03:00::"], [29, "hot%3:00:02::"], [30, "duel%1:04:00::"]]
+5Fsn:
+    lemmas: ["person", ",", "who", "set", "the", "world_record", "earlier", "this", "month", "in", "new_york", "with", "a", "clocking", "of", "1.09.3", ",", "wiped_out", "person", "'s", "early", "pace", "and", "beat", "the", "young", "Big_10", "quarter_mile", "king", "by", "5", "yard", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [3, "oewn-01064417-v"], [5, "oewn-00064379-n"], [6, "oewn-00061477-r"], [8, "oewn-15234209-n"], [10, "oewn-09141944-n"], [13, "oewn-15158855-n"], [17, "oewn-00738342-s"], [18, "oewn-00007846-n"], [20, "oewn-00816521-a"], [21, "oewn-13779389-n"], [23, "oewn-01104324-v"], [25, "oewn-01651383-a"], [27, "oewn-13673549-n"], [28, "oewn-88005275-n"], [30, "oewn-02194389-s"], [31, "oewn-13672065-n"]]
+    paragraph: '57'
+    pos: ["NNP", ",", "WP", "VBD", "DT", "NN", "RBR", "DT", "NN", "IN", "NN", "IN", "DT", "NN", "IN", "CD", ",", "JJ", "NNP", "POS", "JJ", "NN", "CC", "VB", "DT", "JJ", "CD", "NN", "NN", "IN", "JJ", "NNS", "."]
+    text: ' Kerr, who set the world_record earlier this month in New_York with a clocking of
+  1.09.3, wiped_out Mills''s early pace and beat the young Big_10 quarter-mile king
+  by 5 yards.'
+    tokens: [[1, 5], [5, 6], [7, 10], [11, 14], [15, 18], [19, 31], [32, 39], [40, 44], [45, 50], [51, 53], [54, 62], [63, 67], [68, 69], [70, 78], [79, 81], [82, 88], [88, 89], [90, 99], [100, 105], [105, 107], [108, 113], [114, 118], [119, 122], [123, 127], [128, 131], [132, 137], [138, 144], [145, 157], [158, 162], [163, 165], [166, 167], [168, 173], [173, 174]]
+    wn16_key: [[0, "person%1:03:00::"], [3, "set%2:32:01::"], [5, "world_record%1:04:00::"], [6, "earlier%4:02:00::"], [8, "month%1:28:01::"], [10, "new_york%1:15:01::"], [13, "clocking%1:28:00::"], [17, "wiped_out%5:00:00:destroyed:00"], [18, "person%1:03:00::"], [20, "early%3:00:00::"], [21, "pace%1:23:01::"], [23, "beat%2:33:00::"], [25, "young%3:00:00::"], [27, "quarter_mile%1:23:00::"], [28, "king%1:18:02::"], [30, "5%5:00:00:cardinal:00"], [31, "yard%1:23:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [3, "set%2:32:01::"], [5, "world_record%1:04:00::"], [6, "earlier%4:02:00::"], [8, "month%1:28:01::"], [10, "new_york%1:15:01::"], [13, "clocking%1:28:00::"], [17, "wiped_out%3:00:00:destroyed:00"], [18, "person%1:03:00::"], [20, "early%3:00:00::"], [21, "pace%1:23:01::"], [23, "beat%2:33:00::"], [25, "young%3:00:00::"], [27, "quarter_mile%1:23:00::"], [28, "king%1:18:02::"], [30, "5%3:00:00:cardinal:00"], [31, "yard%1:23:00::"]]
+flrZ:
+    lemmas: ["Both", "be", "under", "the", "meet", "mark", "of", "1.10.8", "set", "in", "1950", "by", "person", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [4, "oewn-07482986-n"], [5, "oewn-05745098-n"], [8, "oewn-01064417-v"], [12, "oewn-00007846-n"]]
+    paragraph: '57'
+    pos: ["DT", "VBD", "IN", "DT", "NN", "NN", "IN", "CD", "VBN", "VB", "CD", "IN", "NN", "."]
+    text: ' Both were under the meet mark of 1.10.8 set in 1950 by Mal_Whitfield.
+
+  '
+    tokens: [[1, 5], [6, 10], [11, 16], [17, 20], [21, 25], [26, 30], [31, 33], [34, 40], [41, 44], [45, 47], [48, 52], [53, 55], [56, 69], [69, 70]]
+    wn16_key: [[1, "be%2:42:03::"], [4, "meet%1:11:00::"], [5, "mark%1:09:01::"], [8, "set%2:32:01::"], [12, "person%1:03:00::"]]
+    wn30_key: [[1, "be%2:42:03::"], [4, "meet%1:11:00::"], [5, "mark%1:09:01::"], [8, "set%2:32:01::"], [12, "person%1:03:00::"]]
+9iTi:
+    lemmas: ["person", "shoot", "out", "in_front", "and", "keep", "the", "lead", "through", "two", "third", "of", "the", "race", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-02059191-v"], [3, "oewn-00067181-r"], [5, "oewn-02207166-v"], [7, "oewn-05164526-n"], [9, "oewn-02194109-s"], [10, "oewn-13759330-n"], [13, "oewn-07473244-n"]]
+    paragraph: '58'
+    pos: ["NNP", "VBD", "IN", "RB", "CC", "VBD", "DT", "NN", "IN", "JJ", "NNS", "IN", "DT", "NN", "."]
+    text: ' Mills shot out in_front and kept the lead through two thirds of the race.'
+    tokens: [[1, 6], [7, 11], [12, 15], [16, 24], [25, 28], [29, 33], [34, 37], [38, 42], [43, 50], [51, 54], [55, 61], [62, 64], [65, 68], [69, 73], [73, 74]]
+    wn16_key: [[0, "person%1:03:00::"], [1, "shoot%2:38:01::"], [3, "in_front%4:02:00::"], [5, "keep%2:40:00::"], [7, "lead%1:07:02::"], [9, "two%5:00:00:cardinal:00"], [10, "third%1:23:00::"], [13, "race%1:11:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [1, "shoot%2:38:01::"], [3, "in_front%4:02:00::"], [5, "keep%2:40:00::"], [7, "lead%1:07:02::"], [9, "two%3:00:00:cardinal:00"], [10, "third%1:23:00::"], [13, "race%1:11:00::"]]
+gtbC:
+    lemmas: ["then", "person", ",", "a", "graduate_student", "from", "illinois", ",", "move", "past", "him", "on", "a", "straightaway", "and", "hold_off", "person", "'s", "challenge", "on", "the", "final", "turn", "."]
+    oewn2026_key: [[0, "oewn-00118527-r"], [1, "oewn-00007846-n"], [4, "oewn-10160629-n"], [6, "oewn-09105071-n"], [8, "oewn-01839438-v"], [9, "oewn-00419697-r"], [13, "oewn-04338264-n"], [15, "oewn-01119743-v"], [16, "oewn-00007846-n"], [18, "oewn-13955981-n"], [21, "oewn-01013868-s"], [22, "oewn-13891966-n"]]
+    paragraph: '58'
+    pos: ["RB", "NNP", ",", "DT", "NN", "IN", "NNP", ",", "VBD", "RB", "PRP", "IN", "DT", "NN", "CC", "VB", "NNP", "POS", "NN", "IN", "DT", "JJ", "NN", "."]
+    text: ' Then Kerr, a graduate_student from Illinois, moved past him on a straightaway and
+  held_off Mills''s challenge on the final turn.'
+    tokens: [[1, 5], [6, 10], [10, 11], [12, 13], [14, 30], [31, 35], [36, 44], [44, 45], [46, 51], [52, 56], [57, 60], [61, 63], [64, 65], [66, 78], [79, 82], [83, 91], [92, 97], [97, 99], [100, 109], [110, 112], [113, 116], [117, 122], [123, 127], [127, 128]]
+    wn16_key: [[0, "then%4:02:00::"], [1, "person%1:03:00::"], [4, "graduate_student%1:18:00::"], [6, "illinois%1:15:00::"], [8, "move%2:38:03::"], [9, "past%4:02:00::"], [13, "straightaway%1:06:00::"], [15, "hold_off%2:33:00::"], [16, "person%1:03:00::"], [18, "challenge%1:26:00::"], [21, "final%5:00:00:closing:00"], [22, "turn%1:25:00::"]]
+    wn30_key: [[0, "then%4:02:00::"], [1, "person%1:03:00::"], [4, "graduate_student%1:18:00::"], [6, "illinois%1:15:00::"], [8, "move%2:38:03::"], [9, "past%4:02:00::"], [13, "straightaway%1:06:00::"], [15, "hold_off%2:33:00::"], [16, "person%1:03:00::"], [18, "challenge%1:26:00::"], [21, "final%3:00:00:closing:00"], [22, "turn%1:25:00::"]]
+A8kc:
+    lemmas: ["person", "be", "time", "in", "1.10.4", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-00491904-v"]]
+    paragraph: '58'
+    pos: ["NNP", "VBD", "VBN", "IN", "CD", "."]
+    text: ' Mills was timed in 1.10.4.
+
+  '
+    tokens: [[1, 6], [7, 10], [11, 16], [17, 19], [20, 26], [26, 27]]
+    wn16_key: [[0, "person%1:03:00::"], [2, "time%2:30:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [2, "time%2:30:00::"]]
+tZhF:
+    lemmas: ["The", "crowd", "at", "the", "twenty-first", "annual", "K._of_C._Games", ",", "final", "indoor", "meet", "of", "the", "season", ",", "get", "a", "thrill", "a_few", "minute", "earlier", "when", "a", "slender", ",", "bespectacled", "woman", "break", "the", "one", "week", "old", "world_record", "in", "the", "half_mile", "run", "."]
+    oewn2026_key: [[1, "oewn-08199297-n"], [4, "oewn-02212492-s"], [5, "oewn-00681291-a"], [8, "oewn-01013868-s"], [9, "oewn-01697239-a"], [10, "oewn-07482986-n"], [13, "oewn-15264376-n"], [15, "oewn-02112480-v"], [17, "oewn-07543858-n"], [18, "oewn-01557697-s"], [19, "oewn-15259561-n"], [20, "oewn-00061477-r"], [23, "oewn-00994085-s"], [25, "oewn-00057183-s"], [26, "oewn-10807146-n"], [27, "oewn-01109275-v"], [29, "oewn-02193977-s"], [30, "oewn-15194920-n"], [31, "oewn-01648062-a"], [32, "oewn-00064379-n"], [35, "oewn-13673422-n"], [36, "oewn-07475061-n"]]
+    paragraph: '59'
+    pos: ["DT", "NN", "IN", "DT", "JJ", "JJ", "NNPS", ",", "JJ", "JJ", "NN", "IN", "DT", "NN", ",", "VBD", "DT", "NN", "JJ", "NNS", "RB", "WRB", "DT", "JJ", ",", "JJ", "NN", "VBD", "DT", "JJ", "NN", "JJ", "NN", "IN", "DT", "NN", "NN", "."]
+    text: ' The crowd at the twenty-first annual K._of_C._Games, final indoor meet of the season,
+  got a thrill a_few minutes earlier when a slender, bespectacled woman broke the
+  one week old world_record in the half-mile run.
+
+  '
+    tokens: [[1, 4], [5, 10], [11, 13], [14, 17], [18, 30], [31, 37], [38, 52], [52, 53], [54, 59], [60, 66], [67, 71], [72, 74], [75, 78], [79, 85], [85, 86], [87, 90], [91, 92], [93, 99], [100, 105], [106, 113], [114, 121], [122, 126], [127, 128], [129, 136], [136, 137], [138, 150], [151, 156], [157, 162], [163, 166], [167, 170], [171, 175], [176, 179], [180, 192], [193, 195], [196, 199], [200, 209], [210, 213], [213, 214]]
+    wn16_key: [[1, "crowd%1:14:00::"], [4, "twenty-first%5:00:00:ordinal:00"], [5, "annual%3:00:00::"], [8, "final%5:00:00:closing:00"], [9, "indoor%3:00:00::"], [10, "meet%1:11:00::"], [13, "season%1:28:02::"], [15, "get%2:39:00::"], [17, "thrill%1:12:00::"], [18, "a_few%5:00:00:few:00"], [19, "minute%1:28:00::"], [20, "earlier%4:02:00::"], [23, "slender%5:00:00:thin:03"], [25, "bespectacled%5:00:00:adorned:00"], [26, "woman%1:18:00::"], [27, "break%2:33:00::"], [29, "one%5:00:00:cardinal:00"], [30, "week%1:28:00::"], [31, "old%3:00:02::"], [32, "world_record%1:04:00::"], [35, "half_mile%1:23:00::"], [36, "run%1:11:02::"]]
+    wn30_key: [[1, "crowd%1:14:00::"], [4, "twenty-first%3:00:00:ordinal:00"], [5, "annual%3:00:00::"], [8, "final%3:00:00:closing:00"], [9, "indoor%3:00:00::"], [10, "meet%1:11:00::"], [13, "season%1:28:02::"], [15, "get%2:39:00::"], [17, "thrill%1:12:00::"], [18, "a_few%3:00:00:few:00"], [19, "minute%1:28:00::"], [20, "earlier%4:02:00::"], [23, "slender%3:00:00:thin:03"], [25, "bespectacled%3:00:00:adorned:00"], [26, "woman%1:18:00::"], [27, "break%2:33:00::"], [29, "one%3:00:00:cardinal:00"], [30, "week%1:28:00::"], [31, "old%3:00:02::"], [32, "world_record%1:04:00::"], [35, "half_mile%1:23:00::"], [36, "run%1:11:02::"]]
+zhI7:
+    lemmas: ["person", ",", "of", "nearby", "location", ",", "a", "27", "-", "year", "old", "housewife", "who", "have", "two", "child", ",", "finish", "in", "2.21.6", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [3, "oewn-00447203-s"], [4, "oewn-00027365-n"], [7, "oewn-02196647-s"], [9, "oewn-15228587-n"], [10, "oewn-01648062-a"], [11, "oewn-10209395-n"], [13, "oewn-02209474-v"], [14, "oewn-02194109-s"], [15, "oewn-09937706-n"], [17, "oewn-02615799-v"]]
+    paragraph: '60'
+    pos: ["NN", ",", "IN", "JJ", "NNP", ",", "DT", "JJ", ":", "NN", "JJ", "NN", "WP", "VBZ", "JJ", "NNS", ",", "VBD", "IN", "CD", "."]
+    text: ' Mrs._Grace_Butcher, of nearby Chardon, a 27 - year old housewife who has two children,
+  finished in 2.21.6.'
+    tokens: [[1, 19], [19, 20], [21, 23], [24, 30], [31, 38], [38, 39], [40, 41], [42, 44], [45, 46], [47, 51], [52, 55], [56, 65], [66, 69], [70, 73], [74, 77], [78, 86], [86, 87], [88, 96], [97, 99], [100, 106], [106, 107]]
+    wn16_key: [[0, "person%1:03:00::"], [3, "nearby%5:00:00:near:00"], [4, "location%1:03:00::"], [7, "27%5:00:00:cardinal:00"], [9, "year%1:28:01::"], [10, "old%3:00:02::"], [11, "housewife%1:18:00::"], [13, "have%2:40:04::"], [14, "two%5:00:00:cardinal:00"], [15, "child%1:18:01::"], [17, "finish%2:42:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [3, "nearby%3:00:00:near:00"], [4, "location%1:03:00::"], [7, "27%3:00:00:cardinal:00"], [9, "year%1:28:01::"], [10, "old%3:00:02::"], [11, "housewife%1:18:00::"], [13, "have%2:40:04::"], [14, "two%3:00:00:cardinal:00"], [15, "child%1:18:01::"], [17, "finish%2:42:00::"]]
+XN+Y:
+    lemmas: ["She", "snap", "five", "tenth", "of", "a", "second", "off", "the", "mark", "set", "by", "person", ",", "of", "group", ",", "in", "the", "national_a.a.u.", "meet", "in", "columbus", ",", "ohio", "."]
+    oewn2026_key: [[1, "oewn-01576346-v"], [2, "oewn-02194389-s"], [3, "oewn-13760467-n"], [6, "oewn-02209815-s"], [9, "oewn-05745098-n"], [10, "oewn-01064417-v"], [12, "oewn-00007846-n"], [15, "oewn-00031563-n"], [20, "oewn-07482986-n"], [22, "oewn-09153681-n"], [24, "oewn-09152756-n"]]
+    paragraph: '60'
+    pos: ["PRP", "VBD", "JJ", "NNS", "IN", "DT", "JJ", "IN", "DT", "NN", "VBN", "IN", "NN", ",", "IN", "NN", ",", "IN", "DT", "NNP", "NN", "IN", "NNP", ",", "NNP", "."]
+    text: ' She snapped five tenths of a second off the mark set by Helen_Shipley, of Wellsley_College,
+  in the National_A.A.U. meet in Columbus, Ohio.
+
+  '
+    tokens: [[1, 4], [5, 12], [13, 17], [18, 24], [25, 27], [28, 29], [30, 36], [37, 40], [41, 44], [45, 49], [50, 53], [54, 56], [57, 70], [70, 71], [72, 74], [75, 91], [91, 92], [93, 95], [96, 99], [100, 115], [116, 120], [121, 123], [124, 132], [132, 133], [134, 138], [138, 139]]
+    wn16_key: [[1, "snap%2:35:01::"], [2, "five%5:00:00:cardinal:00"], [3, "tenth%1:23:00::"], [6, "second%5:00:00:ordinal:00"], [9, "mark%1:09:01::"], [10, "set%2:32:01::"], [12, "person%1:03:00::"], [15, "group%1:03:00::"], [20, "meet%1:11:00::"], [22, "columbus%1:15:00::"], [24, "ohio%1:15:00::"]]
+    wn30_key: [[1, "snap%2:35:01::"], [2, "five%3:00:00:cardinal:00"], [3, "tenth%1:23:00::"], [6, "second%3:00:00:ordinal:00"], [9, "mark%1:09:01::"], [10, "set%2:32:01::"], [12, "person%1:03:00::"], [15, "group%1:03:00::"], [20, "meet%1:11:00::"], [22, "columbus%1:15:00::"], [24, "ohio%1:15:00::"]]
+Vylq:
+    lemmas: ["person", "of", "location", ",", "location", ",", "relief", "quarterback", "for", "the", "san_francisco", "group", "of", "the", "group", ",", "will", "undergo", "a", "knee", "operation", "tomorrow", "at", "group", "here", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-00027365-n"], [4, "oewn-00027365-n"], [6, "oewn-10667676-n"], [7, "oewn-10518401-n"], [10, "oewn-09088034-n"], [11, "oewn-00031563-n"], [14, "oewn-00031563-n"], [19, "oewn-05581233-n"], [20, "oewn-00672594-n"], [21, "oewn-15180851-n"], [23, "oewn-00031563-n"], [24, "oewn-00109247-r"]]
+    paragraph: '61'
+    pos: ["NNS", "IN", "NNP", ",", "NNP", ",", "NN", "NN", "IN", "DT", "NNP", "NNPS", "IN", "DT", "NN", ",", "MD", "VB", "DT", "NN", "NN", "NN", "IN", "NN", "RB", "."]
+    text: ' Bobby_Waters of Sylvania, Ga., relief quarterback for the San_Francisco 49ers of
+  the National_Football_League, will undergo a knee operation tomorrow at Franklin_Hospital
+  here.
+
+  '
+    tokens: [[1, 13], [14, 16], [17, 25], [25, 26], [27, 30], [30, 31], [32, 38], [39, 50], [51, 54], [55, 58], [59, 72], [73, 78], [79, 81], [82, 85], [86, 110], [110, 111], [112, 116], [117, 124], [125, 126], [127, 131], [132, 141], [142, 150], [151, 153], [154, 171], [172, 176], [176, 177]]
+    wn16_key: [[0, "person%1:03:00::"], [2, "location%1:03:00::"], [4, "location%1:03:00::"], [6, "relief%1:18:00::"], [7, "quarterback%1:18:00::"], [10, "san_francisco%1:15:00::"], [11, "group%1:03:00::"], [14, "group%1:03:00::"], [17, "undergo%2:39:00::"], [19, "knee%1:08:00::"], [20, "operation%1:04:00::"], [21, "tomorrow%1:28:01::"], [23, "group%1:03:00::"], [24, "here%4:02:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [2, "location%1:03:00::"], [4, "location%1:03:00::"], [6, "relief%1:18:00::"], [7, "quarterback%1:18:00::"], [10, "san_francisco%1:15:00::"], [11, "group%1:03:00::"], [14, "group%1:03:00::"], [19, "knee%1:08:00::"], [20, "operation%1:04:00::"], [21, "tomorrow%1:28:01::"], [23, "group%1:03:00::"], [24, "here%4:02:00::"]]
+qPaF:
+    lemmas: ["person", "injure", "his", "left", "knee", "in", "the", "last", "game", "of", "the", "1960", "season", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-00069650-v"], [3, "oewn-02040360-a"], [4, "oewn-05581233-n"], [7, "oewn-01013868-s"], [8, "oewn-00431591-n"], [12, "oewn-15264376-n"]]
+    paragraph: '62'
+    pos: ["NNP", "VBD", "PRP$", "JJ", "NN", "IN", "DT", "JJ", "NN", "IN", "DT", "CD", "NN", "."]
+    text: ' Waters injured his left knee in the last game of the 1960 season.'
+    tokens: [[1, 7], [8, 15], [16, 19], [20, 24], [25, 29], [30, 32], [33, 36], [37, 41], [42, 46], [47, 49], [50, 53], [54, 58], [59, 65], [65, 66]]
+    wn16_key: [[0, "person%1:03:00::"], [1, "injure%2:29:00::"], [3, "left%3:00:00::"], [4, "knee%1:08:00::"], [7, "last%5:00:00:closing:00"], [8, "game%1:04:01::"], [12, "season%1:28:02::"]]
+    wn30_key: [[0, "person%1:03:00::"], [1, "injure%2:29:00::"], [3, "left%3:00:00::"], [4, "knee%1:08:00::"], [7, "last%3:00:00:closing:00"], [8, "game%1:04:01::"], [12, "season%1:28:02::"]]
+OU/r:
+    lemmas: ["While", "work_out", "in", "location", "a", "swelling", "develop", "in", "the", "knee", "and", "he", "come", "here", "to", "consult", "the", "team", "physician", "."]
+    oewn2026_key: [[1, "oewn-00099475-v"], [3, "oewn-00027365-n"], [5, "oewn-14338619-n"], [6, "oewn-00094214-v"], [9, "oewn-05581233-n"], [12, "oewn-01853188-v"], [13, "oewn-00109247-r"], [15, "oewn-00879090-v"], [17, "oewn-08225481-n"], [18, "oewn-10040615-n"]]
+    paragraph: '62'
+    pos: ["IN", "VB", "IN", "NNP", "DT", "NN", "VBN", "IN", "DT", "NN", "CC", "PRP", "VBD", "RB", "TO", "VB", "DT", "NN", "NN", "."]
+    text: ' While working_out in Sylvania a swelling developed in the knee and he came here
+  to consult the team physician.
+
+  '
+    tokens: [[1, 6], [7, 18], [19, 21], [22, 30], [31, 32], [33, 41], [42, 51], [52, 54], [55, 58], [59, 63], [64, 67], [68, 70], [71, 75], [76, 80], [81, 83], [84, 91], [92, 95], [96, 100], [101, 110], [110, 111]]
+    wn16_key: [[1, "work_out%2:29:00::"], [3, "location%1:03:00::"], [5, "swelling%1:26:00::"], [6, "develop%2:29:00::"], [9, "knee%1:08:00::"], [12, "come%2:38:00::"], [13, "here%4:02:00::"], [15, "consult%2:32:02::"], [17, "team%1:14:00::"], [18, "physician%1:18:00::"]]
+    wn30_key: [[1, "work_out%2:29:00::"], [3, "location%1:03:00::"], [5, "swelling%1:26:00::"], [6, "develop%2:29:00::"], [9, "knee%1:08:00::"], [12, "come%2:38:00::"], [13, "here%4:02:00::"], [15, "consult%2:32:02::"], [17, "team%1:14:00::"], [18, "physician%1:18:00::"]]
+nUo1:
+    lemmas: ["two", "error", "by", "new_york", "group", "shortstop", "person", "in", "the", "eleventh", "inning", "donate", "four", "unearned_run", "and", "a", "5", "-", "to", "2", "victory", "to", "the", "chicago_white_sox", "today", "."]
+    oewn2026_key: [[0, "oewn-02194109-s"], [1, "oewn-00072888-n"], [3, "oewn-09141944-n"], [4, "oewn-00031563-n"], [5, "oewn-10612394-n"], [6, "oewn-00007846-n"], [9, "oewn-02211169-s"], [10, "oewn-15280615-n"], [11, "oewn-02267835-v"], [12, "oewn-02194304-s"], [13, "oewn-00190889-n"], [20, "oewn-07488581-n"], [24, "oewn-15287732-n"]]
+    paragraph: '63'
+    pos: ["JJ", "NNS", "IN", "NNP", "NNP", "NN", "NN", "IN", "DT", "JJ", "NN", "VBD", "JJ", "NNS", "CC", "DT", "CD", ":", "JJ", "JJ", "NN", "TO", "DT", "NNP", "NN", "."]
+    text: ' Two errors by New_York Yankee shortstop Tony_Kubek in the eleventh inning donated
+  four unearned_runs and a 5 - to 2 victory to the Chicago_White_Sox today.
+
+  '
+    tokens: [[1, 4], [5, 11], [12, 14], [15, 23], [24, 30], [31, 40], [41, 51], [52, 54], [55, 58], [59, 67], [68, 74], [75, 82], [83, 87], [88, 101], [102, 105], [106, 107], [108, 109], [110, 111], [112, 114], [115, 116], [117, 124], [125, 127], [128, 131], [132, 149], [150, 155], [155, 156]]
+    wn16_key: [[0, "two%5:00:00:cardinal:00"], [1, "error%1:04:03::"], [3, "new_york%1:15:01::"], [4, "group%1:03:00::"], [5, "shortstop%1:18:00::"], [6, "person%1:03:00::"], [9, "eleventh%5:00:00:ordinal:00"], [10, "inning%1:28:00::"], [11, "donate%2:40:00::"], [12, "four%5:00:00:cardinal:00"], [13, "unearned_run%1:04:00::"], [20, "victory%1:11:00::"], [24, "today%1:28:00::"]]
+    wn30_key: [[0, "two%3:00:00:cardinal:00"], [1, "error%1:04:03::"], [3, "new_york%1:15:01::"], [4, "group%1:03:00::"], [5, "shortstop%1:18:00::"], [6, "person%1:03:00::"], [9, "eleventh%3:00:00:ordinal:00"], [10, "inning%1:28:00::"], [11, "donate%2:40:00::"], [12, "four%3:00:00:cardinal:00"], [13, "unearned_run%1:04:00::"], [20, "victory%1:11:00::"], [24, "today%1:28:00::"]]

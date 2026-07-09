@@ -1,0 +1,939 @@
+_meta:
+    lemmas:
+        type: seq
+        base: tokens
+        data: string
+    oewn2026_key:
+        type: element
+        base: tokens
+        data: string
+    paragraph:
+        type: characters
+    pos:
+        type: seq
+        base: tokens
+        data: string
+    text:
+        type: characters
+    tokens:
+        type: span
+        base: text
+    wn16_key:
+        type: element
+        base: tokens
+        data: string
+    wn30_key:
+        type: element
+        base: tokens
+        data: string
+pJTL:
+    lemmas: ["It", "would", "have", "be", "desirable", "for", "the", "two", "community", "to", "have", "differ", "only", "in", "respect", "to", "the", "variable", "be", "investigate", ":", "the", "degree", "of", "structure", "in", "teaching_method", "."]
+    oewn2026_key: [[4, "oewn-00736491-a"], [7, "oewn-02194109-s"], [8, "oewn-08240723-n"], [11, "oewn-02672316-v"], [12, "oewn-00009062-r"], [14, "oewn-05828314-n"], [17, "oewn-09492089-n"], [19, "oewn-00790800-v"], [22, "oewn-05101152-n"], [24, "oewn-05734290-n"], [26, "oewn-05668782-n"]]
+    paragraph: '0'
+    pos: ["PRP", "MD", "VB", "VB", "JJ", "IN", "JJ", "JJ", "NNS", "TO", "VB", "VBN", "RB", "NN", "NN", "NN", "DT", "NN", "VB", "VBN", ":", "DT", "NN", "NN", "NN", "IN", "NN", "."]
+    text: 'It would have been desirable for the two communities to have differed only in respect
+  to the variable being investigated: the degree of structure in teaching_method.'
+    tokens: [[0, 2], [3, 8], [9, 13], [14, 18], [19, 28], [29, 32], [33, 36], [37, 40], [41, 52], [53, 55], [56, 60], [61, 69], [70, 74], [75, 77], [78, 85], [86, 88], [89, 92], [93, 101], [102, 107], [108, 120], [120, 121], [122, 125], [126, 132], [133, 135], [136, 145], [146, 148], [149, 164], [164, 165]]
+    wn16_key: [[4, "desirable%3:00:00::"], [7, "two%5:00:00:cardinal:00"], [8, "community%1:14:00::"], [11, "differ%2:42:00::"], [12, "only%4:02:01::"], [14, "respect%1:09:00::"], [17, "variable%1:17:00::"], [19, "investigate%2:32:00::"], [22, "degree%1:07:00::"], [24, "structure%1:09:00::"], [26, "teaching_method%1:09:00::"]]
+    wn30_key: [[4, "desirable%3:00:00::"], [7, "two%3:00:00:cardinal:00"], [8, "community%1:14:00::"], [11, "differ%2:42:00::"], [12, "only%4:02:01::"], [14, "respect%1:09:00::"], [17, "variable%1:17:00::"], [19, "investigate%2:32:00::"], [22, "degree%1:07:00::"], [24, "structure%1:09:00::"], [26, "teaching_method%1:09:00::"]]
+cIXH:
+    lemmas: ["The", "structured", "school", "be", "in", "an", "industrial", "city", ",", "with", "three", "family", "tenement_house", "typical", "of", "the", "residential", "area", ",", "but", "with", "one", "rather", "sizable", "section", "of", "middle-class", "home", "."]
+    oewn2026_key: [[1, "oewn-01676037-a"], [2, "oewn-08293641-n"], [3, "oewn-02661230-v"], [6, "oewn-02567671-s"], [7, "oewn-08542298-n"], [10, "oewn-02194219-s"], [11, "oewn-08094856-n"], [12, "oewn-04416519-n"], [13, "oewn-02477858-a"], [16, "oewn-00487032-a"], [17, "oewn-08514304-n"], [21, "oewn-02193977-s"], [22, "oewn-00018764-r"], [23, "oewn-01386320-s"], [24, "oewn-08665897-n"], [26, "oewn-00261296-a"], [27, "oewn-03264208-n"]]
+    paragraph: '0'
+    pos: ["DT", "JJ", "NNS", "VBD", "IN", "DT", "JJ", "NN", ",", "IN", "JJ", "NN", "NNS", "JJ", "IN", "DT", "JJ", "NNS", ",", "CC", "IN", "JJ", "RB", "JJ", "NN", "IN", "JJ", "NNS", "."]
+    text: ' The structured schools were in an industrial city, with three family tenement_houses
+  typical of the residential areas, but with one rather sizable section of middle-class
+  homes.'
+    tokens: [[1, 4], [5, 15], [16, 23], [24, 28], [29, 31], [32, 34], [35, 45], [46, 50], [50, 51], [52, 56], [57, 62], [63, 69], [70, 85], [86, 93], [94, 96], [97, 100], [101, 112], [113, 118], [118, 119], [120, 123], [124, 128], [129, 132], [133, 139], [140, 147], [148, 155], [156, 158], [159, 171], [172, 177], [177, 178]]
+    wn16_key: [[1, "structured%3:00:00::"], [2, "school%1:14:00::"], [3, "be%2:42:05::"], [6, "industrial%5:00:00:blue-collar:00"], [7, "city%1:15:00::"], [10, "three%5:00:00:cardinal:00"], [11, "family%1:14:02::"], [12, "tenement_house%1:06:00::"], [13, "typical%3:00:00::"], [16, "residential%3:00:00::"], [17, "area%1:15:01::"], [21, "one%5:00:00:cardinal:00"], [22, "rather%4:02:04::"], [23, "sizable%5:00:00:large:00"], [24, "section%1:15:01::"], [26, "middle-class%3:00:00::"], [27, "home%1:06:00::"]]
+    wn30_key: [[1, "structured%3:00:00::"], [2, "school%1:14:00::"], [3, "be%2:42:05::"], [6, "industrial%3:00:00:blue-collar:00"], [7, "city%1:15:00::"], [10, "three%3:00:00:cardinal:00"], [11, "family%1:14:02::"], [12, "tenement_house%1:06:00::"], [13, "typical%3:00:00::"], [16, "residential%3:00:00::"], [17, "area%1:15:01::"], [21, "one%3:00:00:cardinal:00"], [22, "rather%4:02:04::"], [23, "sizable%3:00:00:large:00"], [24, "section%1:15:01::"], [26, "middle-class%3:00:00::"], [27, "home%1:06:00::"]]
+sO0I:
+    lemmas: ["The", "unstructured", "school", "be", "in", "a", "large", "suburban", "community", ",", "predominantly", "middle-class", "-", "to", "upper-middle-class", ",", "but", "fringed", "by", "an", "industrial", "area", "."]
+    oewn2026_key: [[1, "oewn-01676186-a"], [2, "oewn-08293641-n"], [3, "oewn-02661230-v"], [6, "oewn-01385012-a"], [7, "oewn-02815413-a"], [8, "oewn-08240723-n"], [10, "oewn-00162217-r"], [11, "oewn-00261296-a"], [14, "oewn-00261975-s"], [17, "oewn-00259453-s"], [20, "oewn-02567671-s"], [21, "oewn-08514304-n"]]
+    paragraph: '0'
+    pos: ["DT", "JJ", "NNS", "VBD", "IN", "DT", "JJ", "JJ", "NN", ",", "RB", "JJ", ":", "TO", "JJ", ",", "CC", "JJ", "IN", "DT", "JJ", "NN", "."]
+    text: ' The unstructured schools were in a large suburban community, predominantly middle
+  - to upper-middle_class, but fringed by an industrial area.'
+    tokens: [[1, 4], [5, 17], [18, 25], [26, 30], [31, 33], [34, 35], [36, 41], [42, 50], [51, 60], [60, 61], [62, 75], [76, 82], [83, 84], [85, 87], [88, 106], [106, 107], [108, 111], [112, 119], [120, 122], [123, 125], [126, 136], [137, 141], [141, 142]]
+    wn16_key: [[1, "unstructured%3:00:00::"], [2, "school%1:14:00::"], [3, "be%2:42:05::"], [6, "large%3:00:00::"], [7, "suburban%3:01:00::"], [8, "community%1:14:00::"], [10, "predominantly%4:02:00::"], [11, "middle-class%3:00:00::"], [14, "upper-middle-class%5:00:00:middle-class:00"], [17, "fringed%5:00:00:bordered:00"], [20, "industrial%5:00:00:blue-collar:00"], [21, "area%1:15:01::"]]
+    wn30_key: [[1, "unstructured%3:00:00::"], [2, "school%1:14:00::"], [3, "be%2:42:05::"], [6, "large%3:00:00::"], [7, "suburban%3:01:00::"], [8, "community%1:14:00::"], [10, "predominantly%4:02:00::"], [11, "middle-class%3:00:00::"], [14, "upper-middle-class%3:00:00:middle-class:00"], [17, "fringed%3:00:00:bordered:00"], [20, "industrial%3:00:00:blue-collar:00"], [21, "area%1:15:01::"]]
+l1/U:
+    lemmas: ["In_order", "to", "equate", "the", "sample", "on", "socioeconomic", "status", ",", "we", "choose", "school", "in", "both", "city", "on", "the", "basis", "of", "socioeconomic", "status", "of", "the", "neighborhood", "."]
+    oewn2026_key: [[2, "oewn-00655291-v"], [4, "oewn-06036061-n"], [6, "oewn-02727757-a"], [7, "oewn-13968971-n"], [10, "oewn-00676526-v"], [11, "oewn-08293641-n"], [13, "oewn-02275890-s"], [14, "oewn-08542298-n"], [17, "oewn-13813124-n"], [19, "oewn-02727757-a"], [20, "oewn-13968971-n"], [23, "oewn-08658688-n"]]
+    paragraph: '0'
+    pos: ["RB", "TO", "VB", "DT", "NNS", "IN", "JJ", "NN", ",", "PRP", "VBD", "NNS", "IN", "JJ", "NNS", "IN", "DT", "NN", "IN", "JJ", "NN", "IN", "DT", "NNS", "."]
+    text: ' In_order to equate the samples on socioeconomic status, we chose schools in both
+  cities on the basis of socioeconomic status of the neighborhoods.'
+    tokens: [[1, 9], [10, 12], [13, 19], [20, 23], [24, 31], [32, 34], [35, 48], [49, 55], [55, 56], [57, 59], [60, 65], [66, 73], [74, 76], [77, 81], [82, 88], [89, 91], [92, 95], [96, 101], [102, 104], [105, 118], [119, 125], [126, 128], [129, 132], [133, 146], [146, 147]]
+    wn16_key: [[2, "equate%2:31:00::"], [4, "sample%1:09:01::"], [6, "socioeconomic%3:01:00::"], [7, "status%1:26:00::"], [10, "choose%2:31:00::"], [11, "school%1:14:00::"], [13, "both%5:00:00:some(a):00"], [14, "city%1:15:00::"], [17, "basis%1:24:00::"], [19, "socioeconomic%3:01:00::"], [20, "status%1:26:00::"], [23, "neighborhood%1:15:00::"]]
+    wn30_key: [[2, "equate%2:31:00::"], [4, "sample%1:09:01::"], [6, "socioeconomic%3:01:00::"], [7, "status%1:26:00::"], [10, "choose%2:31:00::"], [11, "school%1:14:00::"], [13, "both%3:00:00:some:00"], [14, "city%1:15:00::"], [17, "basis%1:24:00::"], [19, "socioeconomic%3:01:00::"], [20, "status%1:26:00::"], [23, "neighborhood%1:15:00::"]]
+Kjy8:
+    lemmas: ["school_principal", "and", "guidance", "worker", "make", "rating", "of", "the", "various", "neighborhood", "and", "the", "research", "team", "make", "independent", "observation", "of", "house", "and", "dwelling", "area", "."]
+    oewn2026_key: [[0, "oewn-10494230-n"], [2, "oewn-06663446-n"], [3, "oewn-09655706-n"], [4, "oewn-02566500-v"], [5, "oewn-00876484-n"], [8, "oewn-00496454-s"], [9, "oewn-08658688-n"], [12, "oewn-00638164-n"], [13, "oewn-08225481-n"], [14, "oewn-02566500-v"], [15, "oewn-00731008-a"], [16, "oewn-01004898-n"], [18, "oewn-03549540-n"], [20, "oewn-03264208-n"], [21, "oewn-08514304-n"]]
+    paragraph: '0'
+    pos: ["NNS", "CC", "NN", "NNS", "VBD", "NNS", "IN", "DT", "JJ", "NNS", "CC", "DT", "NN", "NN", "VBD", "JJ", "NNS", "IN", "NNS", "CC", "NN", "NNS", "."]
+    text: ' School_principals and guidance workers made ratings of the various neighborhoods
+  and the research team made independent observations of houses and dwelling areas.'
+    tokens: [[1, 18], [19, 22], [23, 31], [32, 39], [40, 44], [45, 52], [53, 55], [56, 59], [60, 67], [68, 81], [82, 85], [86, 89], [90, 98], [99, 103], [104, 108], [109, 120], [121, 133], [134, 136], [137, 143], [144, 147], [148, 156], [157, 162], [162, 163]]
+    wn16_key: [[0, "school_principal%1:18:00::"], [2, "guidance%1:10:00::"], [3, "worker%1:18:00::"], [4, "make%2:41:00::"], [5, "rating%1:04:00::"], [8, "various%5:00:00:individual:00"], [9, "neighborhood%1:15:00::"], [12, "research%1:04:00::"], [13, "team%1:14:00::"], [14, "make%2:41:00::"], [15, "independent%3:00:00::"], [16, "observation%1:04:01::"], [18, "house%1:06:00::"], [20, "dwelling%1:06:00::"], [21, "area%1:15:01::"]]
+    wn30_key: [[0, "school_principal%1:18:00::"], [2, "guidance%1:10:00::"], [3, "worker%1:18:00::"], [4, "make%2:41:00::"], [5, "rating%1:04:00::"], [8, "various%3:00:00:individual:00"], [9, "neighborhood%1:15:00::"], [12, "research%1:04:00::"], [13, "team%1:14:00::"], [14, "make%2:41:00::"], [15, "independent%3:00:00::"], [16, "observation%1:04:01::"], [18, "house%1:06:00::"], [20, "dwelling%1:06:00::"], [21, "area%1:15:01::"]]
+zVEK:
+    lemmas: ["An", "objective", "scale", "be", "develop", "for", "rate", "school", "neighborhood", "from", "these", "data", "."]
+    oewn2026_key: [[1, "oewn-01619332-a"], [2, "oewn-13872501-n"], [4, "oewn-01742478-v"], [6, "oewn-00659723-v"], [7, "oewn-08293641-n"], [8, "oewn-08658688-n"], [11, "oewn-08479331-n"]]
+    paragraph: '0'
+    pos: ["DT", "JJ", "NN", "VBD", "VBN", "IN", "VB", "NN", "NNS", "IN", "DT", "NNS", "."]
+    text: ' An objective scale was developed for rating school neighborhoods from these data.'
+    tokens: [[1, 3], [4, 13], [14, 19], [20, 23], [24, 33], [34, 37], [38, 44], [45, 51], [52, 65], [66, 70], [71, 76], [77, 81], [81, 82]]
+    wn16_key: [[1, "objective%3:00:00::"], [2, "scale%1:24:03::"], [4, "develop%2:36:00::"], [6, "rate%2:31:00::"], [7, "school%1:14:00::"], [8, "neighborhood%1:15:00::"], [11, "data%1:14:00::"]]
+    wn30_key: [[1, "objective%3:00:00::"], [2, "scale%1:24:03::"], [4, "develop%2:36:00::"], [6, "rate%2:31:00::"], [7, "school%1:14:00::"], [8, "neighborhood%1:15:00::"], [11, "data%1:14:00::"]]
+kv5R:
+    lemmas: ["equal", "proportion", "of", "child", "in", "each", "city", "be", "draw", "from", "upper-lower-class", "and", "lower-middle-class", "neighborhood", "."]
+    oewn2026_key: [[0, "oewn-00893124-a"], [1, "oewn-13837954-n"], [3, "oewn-09937051-n"], [6, "oewn-08542298-n"], [8, "oewn-00677820-v"], [10, "oewn-00261189-s"], [12, "oewn-00261839-s"], [13, "oewn-08658688-n"]]
+    paragraph: '0'
+    pos: ["JJ", "NNS", "IN", "NNS", "IN", "DT", "NN", "VBD", "VBN", "VB", "JJ", "CC", "JJ", "NNS", "."]
+    text: ' Equal proportions of children in each city were drawn from upper-lower and lower-middle_class
+  neighborhoods.
+
+  '
+    tokens: [[1, 6], [7, 18], [19, 21], [22, 30], [31, 33], [34, 38], [39, 43], [44, 48], [49, 54], [55, 59], [60, 71], [72, 75], [76, 94], [95, 108], [108, 109]]
+    wn16_key: [[0, "equal%3:00:00::"], [1, "proportion%1:24:00::"], [3, "child%1:18:00::"], [6, "city%1:15:00::"], [8, "draw%2:31:13::"], [10, "upper-lower-class%5:00:00:lower-class:00"], [12, "lower-middle-class%5:00:00:middle-class:00"], [13, "neighborhood%1:15:00::"]]
+    wn30_key: [[0, "equal%3:00:00::"], [1, "proportion%1:24:00::"], [3, "child%1:18:00::"], [6, "city%1:15:00::"], [8, "draw%2:31:13::"], [10, "upper-lower-class%3:00:00:lower-class:00"], [12, "lower-middle-class%3:00:00:middle-class:00"], [13, "neighborhood%1:15:00::"]]
+0Spn:
+    lemmas: ["individual", "difference", "in", "maturation", "and", "the", "development", "of", "readiness", "for", "learn", "to", "read", "indicate", "that", "not", "until", "the", "third", "grade", "have", "most", "child", "have", "ample", "opportunity", "to", "demonstrate", "their", "capacity", "for", "school", "achievement", "."]
+    oewn2026_key: [[0, "oewn-00495505-a"], [1, "oewn-04756076-n"], [3, "oewn-13510240-n"], [6, "oewn-13486023-n"], [8, "oewn-14054590-n"], [10, "oewn-00599310-v"], [12, "oewn-00626756-v"], [13, "oewn-00774685-v"], [15, "oewn-00024432-r"], [18, "oewn-02209976-s"], [19, "oewn-08255384-n"], [21, "oewn-01561513-a"], [22, "oewn-09937051-n"], [23, "oewn-02112480-v"], [24, "oewn-00106545-a"], [25, "oewn-14507501-n"], [27, "oewn-02153218-v"], [29, "oewn-05210665-n"], [31, "oewn-05765533-n"], [32, "oewn-00035910-n"]]
+    paragraph: '1'
+    pos: ["JJ", "NNS", "IN", "NN", "CC", "DT", "NN", "IN", "NN", "IN", "VBG", "TO", "VB", "VBP", "IN", "RB", "IN", "DT", "JJ", "NN", "VBP", "JJS", "NNS", "VBD", "JJ", "NN", "TO", "VB", "PRP$", "NN", "IN", "NN", "NN", "."]
+    text: ' Individual differences in maturation and the development of readiness for learning
+  to read indicate that not until the third grade have most children had ample opportunity
+  to demonstrate their capacity for school achievement.'
+    tokens: [[1, 11], [12, 23], [24, 26], [27, 37], [38, 41], [42, 45], [46, 57], [58, 60], [61, 70], [71, 74], [75, 83], [84, 86], [87, 91], [92, 100], [101, 105], [106, 109], [110, 115], [116, 119], [120, 125], [126, 131], [132, 136], [137, 141], [142, 150], [151, 154], [155, 160], [161, 172], [173, 175], [176, 187], [188, 193], [194, 202], [203, 206], [207, 213], [214, 225], [225, 226]]
+    wn16_key: [[0, "individual%3:00:00::"], [1, "difference%1:07:00::"], [3, "maturation%1:22:00::"], [6, "development%1:22:02::"], [8, "readiness%1:26:00::"], [10, "learn%2:31:00::"], [12, "read%2:31:00::"], [13, "indicate%2:32:02::"], [15, "not%4:02:00::"], [18, "third%5:00:00:ordinal:00"], [19, "grade%1:14:00::"], [21, "most%3:00:02::"], [22, "child%1:18:00::"], [23, "have%2:39:06::"], [24, "ample%3:00:00::"], [25, "opportunity%1:26:00::"], [27, "demonstrate%2:39:01::"], [29, "capacity%1:07:00::"], [31, "school%1:09:00::"], [32, "achievement%1:04:00::"]]
+    wn30_key: [[0, "individual%3:00:00::"], [1, "difference%1:07:00::"], [3, "maturation%1:22:00::"], [6, "development%1:22:02::"], [8, "readiness%1:26:00::"], [10, "learn%2:31:00::"], [12, "read%2:31:00::"], [13, "indicate%2:32:02::"], [15, "not%4:02:00::"], [18, "third%3:00:00:ordinal:00"], [19, "grade%1:14:00::"], [21, "most%3:00:02::"], [22, "child%1:18:00::"], [23, "have%2:39:06::"], [24, "ample%3:00:00::"], [25, "opportunity%1:26:00::"], [27, "demonstrate%2:39:01::"], [29, "capacity%1:07:00::"], [31, "school%1:09:00::"], [32, "achievement%1:04:00::"]]
+6SIB:
+    lemmas: ["therefore", ",", "third", "grade", "child", "be", "choose", "as", "subject", "for", "this", "study", "."]
+    oewn2026_key: [[0, "oewn-00043413-r"], [2, "oewn-02209976-s"], [3, "oewn-08255384-n"], [4, "oewn-09937051-n"], [6, "oewn-00676526-v"], [8, "oewn-10688105-n"], [11, "oewn-00645746-n"]]
+    paragraph: '1'
+    pos: ["RB", ",", "JJ", "NN", "NNS", "VBD", "VBN", "IN", "NNS", "IN", "DT", "NN", "."]
+    text: ' Therefore, third grade children were chosen as subjects for this study.
+
+  '
+    tokens: [[1, 10], [10, 11], [12, 17], [18, 23], [24, 32], [33, 37], [38, 44], [45, 47], [48, 56], [57, 60], [61, 65], [66, 71], [71, 72]]
+    wn16_key: [[0, "therefore%4:02:00::"], [2, "third%5:00:00:ordinal:00"], [3, "grade%1:14:00::"], [4, "child%1:18:00::"], [6, "choose%2:31:00::"], [8, "subject%1:18:01::"], [11, "study%1:04:00::"]]
+    wn30_key: [[0, "therefore%4:02:00::"], [2, "third%3:00:00:ordinal:00"], [3, "grade%1:14:00::"], [4, "child%1:18:00::"], [6, "choose%2:31:00::"], [8, "subject%1:18:01::"], [11, "study%1:04:00::"]]
+81h3:
+    lemmas: ["For", "purpose", "of", "sample", "selection", "only", "(", "individual", "test", "be", "give", "later", ")", "we", "obtain", "group", "test", "score", "of", "reading", "achievement", "and", "intelligence", "from", "school", "record", "of", "the", "entire", "third", "grade", "population", "in", "each", "school_system", "."]
+    oewn2026_key: [[1, "oewn-05991037-n"], [3, "oewn-06036061-n"], [4, "oewn-00162063-n"], [5, "oewn-00009062-r"], [7, "oewn-02160589-s"], [8, "oewn-01008617-n"], [10, "oewn-02314145-v"], [11, "oewn-00061741-r"], [14, "oewn-02242867-v"], [15, "oewn-00031563-n"], [16, "oewn-01008617-n"], [17, "oewn-05745098-n"], [19, "oewn-05816802-n"], [20, "oewn-00035910-n"], [22, "oewn-05625389-n"], [24, "oewn-08293641-n"], [25, "oewn-06659969-n"], [28, "oewn-00517305-s"], [29, "oewn-02209976-s"], [30, "oewn-08255384-n"], [31, "oewn-08196797-n"], [34, "oewn-04154041-n"]]
+    paragraph: '2'
+    pos: ["IN", "NNS", "IN", "NN", "NN", "RB", "CD", "JJ", "NNS", "VBD", "VBN", "RB", "NN", "PRP", "VBD", "NN", "NN", "NNS", "IN", "NN", "NN", "CC", "NN", "IN", "NN", "NNS", "IN", "DT", "JJ", "JJ", "NN", "NN", "IN", "DT", "NN", "."]
+    text: ' For purposes of sample selection only (individual tests were given later) we obtained
+  group test scores of reading achievement and intelligence from school records of
+  the entire third grade population in each school_system.'
+    tokens: [[1, 4], [5, 13], [14, 16], [17, 23], [24, 33], [34, 38], [39, 40], [40, 50], [51, 56], [57, 61], [62, 67], [68, 73], [73, 74], [75, 77], [78, 86], [87, 92], [93, 97], [98, 104], [105, 107], [108, 115], [116, 127], [128, 131], [132, 144], [145, 149], [150, 156], [157, 164], [165, 167], [168, 171], [172, 178], [179, 184], [185, 190], [191, 201], [202, 204], [205, 209], [210, 223], [223, 224]]
+    wn16_key: [[1, "purpose%1:09:00::"], [3, "sample%1:09:01::"], [4, "selection%1:04:00::"], [5, "only%4:02:01::"], [7, "individual%5:00:00:unshared:00"], [8, "test%1:04:02::"], [10, "give%2:40:14::"], [11, "later%4:02:01::"], [14, "obtain%2:40:00::"], [15, "group%1:03:00::"], [16, "test%1:04:02::"], [17, "score%1:09:00::"], [19, "reading%1:09:00::"], [20, "achievement%1:04:00::"], [22, "intelligence%1:09:00::"], [24, "school%1:14:00::"], [25, "record%1:10:03::"], [28, "entire%5:00:01:whole:00"], [29, "third%5:00:00:ordinal:00"], [30, "grade%1:14:00::"], [31, "population%1:14:00::"], [34, "school_system%1:06:00::"]]
+    wn30_key: [[1, "purpose%1:09:00::"], [3, "sample%1:09:01::"], [4, "selection%1:04:00::"], [5, "only%4:02:01::"], [7, "individual%3:00:00:unshared:00"], [8, "test%1:04:02::"], [10, "give%2:40:14::"], [11, "later%4:02:01::"], [14, "obtain%2:40:00::"], [15, "group%1:03:00::"], [16, "test%1:04:02::"], [17, "score%1:09:00::"], [19, "reading%1:09:00::"], [20, "achievement%1:04:00::"], [22, "intelligence%1:09:00::"], [24, "school%1:14:00::"], [25, "record%1:10:03::"], [28, "entire%3:00:01:whole:00"], [29, "third%3:00:00:ordinal:00"], [30, "grade%1:14:00::"], [31, "population%1:14:00::"], [34, "school_system%1:06:00::"]]
+pgrf:
+    lemmas: ["The", "subject", "for", "this", "study", "be", "randomly", "select", "from", "stratified", "area", "of", "the", "distribution", ",", "one-third", "as", "underachiever", ",", "one-third", "medium", ",", "and", "one-third", "overachiever", "."]
+    oewn2026_key: [[1, "oewn-10688105-n"], [4, "oewn-00645746-n"], [6, "oewn-00071165-r"], [7, "oewn-00676526-v"], [9, "oewn-01206658-s"], [10, "oewn-08514304-n"], [13, "oewn-05736981-n"], [15, "oewn-13759330-n"], [17, "oewn-10756051-n"], [19, "oewn-13759330-n"], [20, "oewn-01536076-s"], [23, "oewn-13759330-n"], [24, "oewn-10408020-n"]]
+    paragraph: '2'
+    pos: ["DT", "NNS", "IN", "DT", "NN", "VBD", "RB", "VBN", "IN", "JJ", "NNS", "IN", "DT", "NN", ",", "NN", "IN", "NNS", ",", "NN", "JJ", ",", "CC", "NN", "NNS", "."]
+    text: ' The subjects for this study were randomly selected from stratified areas of the
+  distribution, one-third as underachievers, one-third medium, and one-third over-achievers.'
+    tokens: [[1, 4], [5, 13], [14, 17], [18, 22], [23, 28], [29, 33], [34, 42], [43, 51], [52, 56], [57, 67], [68, 73], [74, 76], [77, 80], [81, 93], [93, 94], [95, 104], [105, 107], [108, 122], [122, 123], [124, 133], [134, 140], [140, 141], [142, 145], [146, 155], [156, 170], [170, 171]]
+    wn16_key: [[1, "subject%1:18:01::"], [4, "study%1:04:00::"], [6, "randomly%4:02:00::"], [7, "select%2:31:00::"], [9, "stratified%5:00:02:hierarchical:00"], [10, "area%1:15:01::"], [13, "distribution%1:09:00::"], [15, "one-third%1:23:00::"], [17, "underachiever%1:18:00::"], [19, "one-third%1:23:00::"], [20, "medium%5:00:00:moderate:00"], [23, "one-third%1:23:00::"], [24, "overachiever%1:18:00::"]]
+    wn30_key: [[1, "subject%1:18:01::"], [4, "study%1:04:00::"], [6, "randomly%4:02:00::"], [7, "select%2:31:00::"], [9, "stratified%3:00:02:hierarchical:00"], [10, "area%1:15:01::"], [13, "distribution%1:09:00::"], [15, "one-third%1:23:00::"], [17, "underachiever%1:18:00::"], [19, "one-third%1:23:00::"], [20, "medium%3:00:00:moderate:00"], [23, "one-third%1:23:00::"], [24, "overachiever%1:18:00::"]]
+lZNv:
+    lemmas: ["child", "whose", "reading", "score", "be", "at_least", "one", "standard_deviation", "below", "the", "regression_line", "of", "each", "total", "third", "grade", "school", "population", "be", "consider", "underachiever", "for", "the", "purpose", "of", "sample", "selection", "."]
+    oewn2026_key: [[0, "oewn-09937051-n"], [2, "oewn-05816802-n"], [3, "oewn-05745098-n"], [4, "oewn-02661230-v"], [5, "oewn-00105032-r"], [6, "oewn-02193977-s"], [7, "oewn-06034580-n"], [10, "oewn-06038836-n"], [13, "oewn-00517305-s"], [14, "oewn-02209976-s"], [15, "oewn-08255384-n"], [16, "oewn-08293641-n"], [17, "oewn-08196797-n"], [19, "oewn-00692380-v"], [20, "oewn-10756051-n"], [23, "oewn-05991037-n"], [25, "oewn-06036061-n"], [26, "oewn-00162063-n"]]
+    paragraph: '2'
+    pos: ["NNS", "WP$", "NN", "NNS", "VBD", "RB", "JJ", "NN", "IN", "DT", "NN", "IN", "DT", "JJ", "JJ", "NN", "NN", "NN", "VBD", "VBN", "NNS", "IN", "DT", "NNS", "IN", "NN", "NN", "."]
+    text: ' Children whose reading scores were at_least one standard_deviation below the regression_line
+  of each total third grade school population were considered under-achievers for
+  the purposes of sample selection.'
+    tokens: [[1, 9], [10, 15], [16, 23], [24, 30], [31, 35], [36, 44], [45, 48], [49, 67], [68, 73], [74, 77], [78, 93], [94, 96], [97, 101], [102, 107], [108, 113], [114, 119], [120, 126], [127, 137], [138, 142], [143, 153], [154, 169], [170, 173], [174, 177], [178, 186], [187, 189], [190, 196], [197, 206], [206, 207]]
+    wn16_key: [[0, "child%1:18:00::"], [2, "reading%1:09:00::"], [3, "score%1:09:00::"], [4, "be%2:42:05::"], [5, "at_least%4:02:00::"], [6, "one%5:00:00:cardinal:00"], [7, "standard_deviation%1:09:00::"], [10, "regression_line%1:09:00::"], [13, "total%5:00:00:whole:00"], [14, "third%5:00:00:ordinal:00"], [15, "grade%1:14:00::"], [16, "school%1:14:00::"], [17, "population%1:14:00::"], [19, "consider%2:31:00::"], [20, "underachiever%1:18:00::"], [23, "purpose%1:09:00::"], [25, "sample%1:09:01::"], [26, "selection%1:04:00::"]]
+    wn30_key: [[0, "child%1:18:00::"], [2, "reading%1:09:00::"], [3, "score%1:09:00::"], [4, "be%2:42:05::"], [5, "at_least%4:02:00::"], [6, "one%3:00:00:cardinal:00"], [7, "standard_deviation%1:09:00::"], [10, "regression_line%1:09:00::"], [13, "total%3:00:00:whole:00"], [14, "third%3:00:00:ordinal:00"], [15, "grade%1:14:00::"], [16, "school%1:14:00::"], [17, "population%1:14:00::"], [19, "consider%2:31:00::"], [20, "underachiever%1:18:00::"], [23, "purpose%1:09:00::"], [25, "sample%1:09:01::"], [26, "selection%1:04:00::"]]
+UQFl:
+    lemmas: ["overachiever", "be", "at_least", "one", "standard_deviation", "above", "the", "regression_line", "in", "their", "school_system", "."]
+    oewn2026_key: [[0, "oewn-10408020-n"], [1, "oewn-02661230-v"], [2, "oewn-00105032-r"], [3, "oewn-02193977-s"], [4, "oewn-06034580-n"], [7, "oewn-06038836-n"], [10, "oewn-04154041-n"]]
+    paragraph: '2'
+    pos: ["NNS", "VBD", "RB", "JJ", "NN", "IN", "DT", "NN", "IN", "PRP$", "NN", "."]
+    text: ' Over-achievers were at_least one standard_deviation above the regression_line in
+  their school_system.'
+    tokens: [[1, 15], [16, 20], [21, 29], [30, 33], [34, 52], [53, 58], [59, 62], [63, 78], [79, 81], [82, 87], [88, 101], [101, 102]]
+    wn16_key: [[0, "overachiever%1:18:00::"], [1, "be%2:42:05::"], [2, "at_least%4:02:00::"], [3, "one%5:00:00:cardinal:00"], [4, "standard_deviation%1:09:00::"], [7, "regression_line%1:09:00::"], [10, "school_system%1:06:00::"]]
+    wn30_key: [[0, "overachiever%1:18:00::"], [1, "be%2:42:05::"], [2, "at_least%4:02:00::"], [3, "one%3:00:00:cardinal:00"], [4, "standard_deviation%1:09:00::"], [7, "regression_line%1:09:00::"], [10, "school_system%1:06:00::"]]
+Ps/E:
+    lemmas: ["The", "final", "sample", "be", "not", "significantly", "different", "from", "a", "normal_distribution", "in", "regard_to", "reading", "achievement", "or", "intelligence_test", "score", "."]
+    oewn2026_key: [[1, "oewn-01583536-s"], [2, "oewn-06036061-n"], [3, "oewn-02610777-v"], [4, "oewn-00024432-r"], [5, "oewn-00512503-r"], [6, "oewn-02072149-a"], [9, "oewn-06035097-n"], [12, "oewn-05816802-n"], [13, "oewn-00035910-n"], [15, "oewn-01008995-n"], [16, "oewn-05745098-n"]]
+    paragraph: '2'
+    pos: ["DT", "JJ", "NN", "VBD", "RB", "RB", "JJ", "IN", "DT", "NN", "IN", "NN", "NN", "NN", "CC", "NN", "NNS", "."]
+    text: ' The final sample was not significantly different from a normal_distribution in regard_to
+  reading achievement or intelligence_test scores.'
+    tokens: [[1, 4], [5, 10], [11, 17], [18, 21], [22, 25], [26, 39], [40, 49], [50, 54], [55, 56], [57, 76], [77, 79], [80, 89], [90, 97], [98, 109], [110, 112], [113, 130], [131, 137], [137, 138]]
+    wn16_key: [[1, "final%5:00:00:ultimate:00"], [2, "sample%1:09:01::"], [3, "be%2:42:03::"], [4, "not%4:02:00::"], [5, "significantly%4:02:04::"], [6, "different%3:00:00::"], [9, "normal_distribution%1:09:00::"], [11, "regard_to%1:24:00::"], [12, "reading%1:09:00::"], [13, "achievement%1:04:00::"], [15, "intelligence_test%1:04:00::"], [16, "score%1:09:00::"]]
+    wn30_key: [[1, "final%3:00:00:ultimate:00"], [2, "sample%1:09:01::"], [3, "be%2:42:03::"], [4, "not%4:02:00::"], [5, "significantly%4:02:04::"], [6, "different%3:00:00::"], [9, "normal_distribution%1:09:00::"], [12, "reading%1:09:00::"], [13, "achievement%1:04:00::"], [15, "intelligence_test%1:04:00::"], [16, "score%1:09:00::"]]
+tZAT:
+    lemmas: ["twenty-four", "classroom", "in", "twelve", "unstructured", "school", "furnish", "156", "case", ",", "87", "boy", "and", "69", "girl", "."]
+    oewn2026_key: [[0, "oewn-02196359-s"], [1, "oewn-03042670-n"], [3, "oewn-02195104-s"], [4, "oewn-01676186-a"], [5, "oewn-08293641-n"], [6, "oewn-02332196-v"], [8, "oewn-10688105-n"], [11, "oewn-10305010-n"], [14, "oewn-10104064-n"]]
+    paragraph: '2'
+    pos: ["JJ", "NNS", "IN", "JJ", "JJ", "NNS", "VBD", "CD", "NNS", ",", "CD", "NNS", "CC", "CD", "NNS", "."]
+    text: ' Twenty-four classrooms in twelve unstructured schools furnished 156 cases, 87 boys
+  and 69 girls.'
+    tokens: [[1, 12], [13, 23], [24, 26], [27, 33], [34, 46], [47, 54], [55, 64], [65, 68], [69, 74], [74, 75], [76, 78], [79, 83], [84, 87], [88, 90], [91, 96], [96, 97]]
+    wn16_key: [[0, "twenty-four%5:00:00:cardinal:00"], [1, "classroom%1:06:00::"], [3, "twelve%5:00:00:cardinal:00"], [4, "unstructured%3:00:00::"], [5, "school%1:14:00::"], [6, "furnish%2:40:00::"], [8, "case%1:18:02::"], [11, "boy%1:18:00::"], [14, "girl%1:18:02::"]]
+    wn30_key: [[0, "twenty-four%3:00:00:cardinal:00"], [1, "classroom%1:06:00::"], [3, "twelve%3:00:00:cardinal:00"], [4, "unstructured%3:00:00::"], [5, "school%1:14:00::"], [6, "furnish%2:40:00::"], [8, "case%1:18:02::"], [11, "boy%1:18:00::"], [14, "girl%1:18:02::"]]
+TjCF:
+    lemmas: ["eight", "classroom", "in", "three", "structured", "school", "furnish", "72", "case", ",", "36", "boy", "and", "36", "girl", "."]
+    oewn2026_key: [[0, "oewn-02194712-s"], [1, "oewn-03042670-n"], [3, "oewn-02194219-s"], [4, "oewn-01676037-a"], [5, "oewn-08293641-n"], [6, "oewn-02332196-v"], [8, "oewn-10688105-n"], [11, "oewn-10305010-n"], [14, "oewn-10104064-n"]]
+    paragraph: '2'
+    pos: ["JJ", "NNS", "IN", "JJ", "JJ", "NNS", "VBD", "CD", "NNS", ",", "CD", "NNS", "CC", "CD", "NNS", "."]
+    text: ' Eight classrooms in three structured schools furnished 72 cases, 36 boys and 36
+  girls.'
+    tokens: [[1, 6], [7, 17], [18, 20], [21, 26], [27, 37], [38, 45], [46, 55], [56, 58], [59, 64], [64, 65], [66, 68], [69, 73], [74, 77], [78, 80], [81, 86], [86, 87]]
+    wn16_key: [[0, "eight%5:00:00:cardinal:00"], [1, "classroom%1:06:00::"], [3, "three%5:00:00:cardinal:00"], [4, "structured%3:00:00::"], [5, "school%1:14:00::"], [6, "furnish%2:40:00::"], [8, "case%1:18:02::"], [11, "boy%1:18:00::"], [14, "girl%1:18:02::"]]
+    wn30_key: [[0, "eight%3:00:00:cardinal:00"], [1, "classroom%1:06:00::"], [3, "three%3:00:00:cardinal:00"], [4, "structured%3:00:00::"], [5, "school%1:14:00::"], [6, "furnish%2:40:00::"], [8, "case%1:18:02::"], [11, "boy%1:18:00::"], [14, "girl%1:18:02::"]]
+fBul:
+    lemmas: ["administrative", "restriction", "necessitate", "the", "smaller", "sample", "size", "in", "the", "structured", "school", "."]
+    oewn2026_key: [[0, "oewn-02915381-a"], [1, "oewn-05854882-n"], [2, "oewn-02634015-v"], [4, "oewn-01397927-s"], [5, "oewn-06036061-n"], [6, "oewn-05106204-n"], [9, "oewn-01676037-a"], [10, "oewn-08293641-n"]]
+    paragraph: '2'
+    pos: ["JJ", "NNS", "VBD", "DT", "JJR", "NN", "NN", "IN", "DT", "JJ", "NNS", "."]
+    text: ' Administrative restrictions necessitated the smaller sample size in the structured
+  schools.
+
+  '
+    tokens: [[1, 15], [16, 28], [29, 41], [42, 45], [46, 53], [54, 60], [61, 65], [66, 68], [69, 72], [73, 83], [84, 91], [91, 92]]
+    wn16_key: [[0, "administrative%3:01:00::"], [1, "restriction%1:09:00::"], [2, "necessitate%2:42:00::"], [4, "smaller%5:00:00:small:00"], [5, "sample%1:09:01::"], [6, "size%1:07:00::"], [9, "structured%3:00:00::"], [10, "school%1:14:00::"]]
+    wn30_key: [[0, "administrative%3:01:00::"], [1, "restriction%1:09:00::"], [2, "necessitate%2:42:00::"], [4, "smaller%3:00:00:small:00"], [5, "sample%1:09:01::"], [6, "size%1:07:00::"], [9, "structured%3:00:00::"], [10, "school%1:14:00::"]]
+07Ua:
+    lemmas: ["It", "be", "assume", "that", "the", "sampling", "procedure", "be", "purely", "random", "with_respect_to", "the", "personality", "variable", "under", "investigation", "."]
+    oewn2026_key: [[2, "oewn-00633898-v"], [5, "oewn-00162708-n"], [6, "oewn-00578105-n"], [7, "oewn-02610777-v"], [8, "oewn-00180598-r"], [9, "oewn-01930715-a"], [12, "oewn-04624919-n"], [13, "oewn-09492089-n"], [15, "oewn-05808619-n"]]
+    paragraph: '3'
+    pos: ["PRP", "VBD", "VBN", "IN", "DT", "NN", "NN", "VBD", "RB", "JJ", "JJ", "DT", "NN", "NNS", "IN", "NN", "."]
+    text: ' It was assumed that the sampling procedure was purely random with_respect_to the
+  personality variables under investigation.
+
+  '
+    tokens: [[1, 3], [4, 7], [8, 15], [16, 20], [21, 24], [25, 33], [34, 43], [44, 47], [48, 54], [55, 61], [62, 77], [78, 81], [82, 93], [94, 103], [104, 109], [110, 123], [123, 124]]
+    wn16_key: [[2, "assume%2:31:00::"], [5, "sampling%1:04:00::"], [6, "procedure%1:04:02::"], [7, "be%2:42:03::"], [8, "purely%4:02:00::"], [9, "random%5:00:00:unselected:00"], [10, "with_respect_to%5:00:00:related:02"], [12, "personality%1:07:00::"], [13, "variable%1:17:00::"], [15, "investigation%1:09:00::"]]
+    wn30_key: [[2, "assume%2:31:00::"], [5, "sampling%1:04:00::"], [6, "procedure%1:04:02::"], [7, "be%2:42:03::"], [8, "purely%4:02:00::"], [9, "random%3:00:00::"], [12, "personality%1:07:00::"], [13, "variable%1:17:00::"], [15, "investigation%1:09:00::"]]
+BHOv:
+    lemmas: ["An", "interview", "schedule", "of", "open-ended", "question", "and", "a", "multiple-choice", "questionnaire", "be", "prepare", ",", "and", "one", "parent", "of", "each", "of", "the", "sample", "child", "be", "see", "in", "the", "home", "."]
+    oewn2026_key: [[1, "oewn-07210735-n"], [2, "oewn-06507319-n"], [4, "oewn-00744541-s"], [5, "oewn-07208256-n"], [8, "oewn-02228646-a"], [9, "oewn-06485793-n"], [11, "oewn-01758079-v"], [14, "oewn-02193977-s"], [15, "oewn-10419190-n"], [20, "oewn-06036061-n"], [21, "oewn-09937051-n"], [23, "oewn-02493953-v"], [26, "oewn-08577045-n"]]
+    paragraph: '4'
+    pos: ["DT", "NN", "NN", "IN", "JJ", "NNS", "CC", "DT", "JJ", "NN", "VBD", "VBN", ",", "CC", "JJ", "NN", "IN", "DT", "IN", "DT", "NN", "NNS", "VBD", "VBN", "IN", "DT", "NN", "."]
+    text: ' An interview schedule of open-ended questions and a multiple-choice questionnaire
+  were prepared, and one parent of each of the sample children was seen in the home.'
+    tokens: [[1, 3], [4, 13], [14, 22], [23, 25], [26, 36], [37, 46], [47, 50], [51, 52], [53, 68], [69, 82], [83, 87], [88, 96], [96, 97], [98, 101], [102, 105], [106, 112], [113, 115], [116, 120], [121, 123], [124, 127], [128, 134], [135, 143], [144, 147], [148, 152], [153, 155], [156, 159], [160, 164], [164, 165]]
+    wn16_key: [[1, "interview%1:10:01::"], [2, "schedule%1:10:00::"], [4, "open-ended%5:00:00:indeterminate:01"], [5, "question%1:10:00::"], [8, "multiple-choice%3:00:00::"], [9, "questionnaire%1:10:00::"], [11, "prepare%2:36:02::"], [14, "one%5:00:00:cardinal:00"], [15, "parent%1:18:00::"], [20, "sample%1:09:01::"], [21, "child%1:18:00::"], [23, "see%2:41:11::"], [26, "home%1:15:04::"]]
+    wn30_key: [[1, "interview%1:10:01::"], [2, "schedule%1:10:00::"], [4, "open-ended%3:00:00:indeterminate:01"], [5, "question%1:10:00::"], [8, "multiple-choice%3:00:00::"], [9, "questionnaire%1:10:00::"], [11, "prepare%2:36:02::"], [14, "one%3:00:00:cardinal:00"], [15, "parent%1:18:00::"], [20, "sample%1:09:01::"], [21, "child%1:18:00::"], [23, "see%2:41:11::"], [26, "home%1:15:04::"]]
+QXbZ:
+    lemmas: ["The", "parent", "be", "ask", "to", "describe", "the", "child", "'s", "typical", "behavior", "in", "certain", "standard", "situation", "in", "which", "there", "be", "an", "opportunity", "to", "observe", "tendency", "toward", "perfectionism", "in", "demand", "upon", "self", "and", "others", ",", "irrational", "conformity", "to", "rule", ",", "orderliness", ",", "punctuality", ",", "and", "need", "for", "certainty", "."]
+    oewn2026_key: [[1, "oewn-10419190-n"], [3, "oewn-00754499-v"], [5, "oewn-00967067-v"], [7, "oewn-09937051-n"], [9, "oewn-00358636-s"], [10, "oewn-01223473-n"], [12, "oewn-00704329-s"], [13, "oewn-00489512-s"], [14, "oewn-13948785-n"], [20, "oewn-14507501-n"], [22, "oewn-02158938-v"], [23, "oewn-06206319-n"], [25, "oewn-04645079-n"], [27, "oewn-07205939-n"], [29, "oewn-09628155-n"], [33, "oewn-01932775-a"], [34, "oewn-01206166-n"], [36, "oewn-05854581-n"], [38, "oewn-04775722-n"], [40, "oewn-05054929-n"], [43, "oewn-14472592-n"], [45, "oewn-05705100-n"]]
+    paragraph: '4'
+    pos: ["DT", "NN", "VBD", "VBN", "TO", "VB", "DT", "NN", "POS", "JJ", "NN", "IN", "JJ", "JJ", "NNS", "RB", "RB", "EX", "VB", "DT", "NN", "TO", "VB", "NNS", "IN", "NN", "IN", "NNS", "IN", "NN", "RB", "RB", ",", "JJ", "NN", "TO", "NNS", ",", "NN", ",", "NN", ",", "CC", "NN", "IN", "NN", "."]
+    text: ' The parent was asked to describe the child''s typical behavior in certain standard
+  situations in which there was an opportunity to observe tendencies toward perfectionism
+  in demands upon self and others, irrational conformity to rules, orderliness, punctuality,
+  and need for certainty.'
+    tokens: [[1, 4], [5, 11], [12, 15], [16, 21], [22, 24], [25, 33], [34, 37], [38, 43], [43, 45], [46, 53], [54, 62], [63, 65], [66, 73], [74, 82], [83, 93], [94, 96], [97, 102], [103, 108], [109, 112], [113, 115], [116, 127], [128, 130], [131, 138], [139, 149], [150, 156], [157, 170], [171, 173], [174, 181], [182, 186], [187, 191], [192, 195], [196, 202], [202, 203], [204, 214], [215, 225], [226, 228], [229, 234], [234, 235], [236, 247], [247, 248], [249, 260], [260, 261], [262, 265], [266, 270], [271, 274], [275, 284], [284, 285]]
+    wn16_key: [[1, "parent%1:18:00::"], [3, "ask%2:32:01::"], [5, "describe%2:32:01::"], [7, "child%1:18:00::"], [9, "typical%5:00:00:characteristic:00"], [10, "behavior%1:04:00::"], [12, "certain%5:00:00:definite:00"], [13, "standard%5:00:00:common:01"], [14, "situation%1:26:01::"], [20, "opportunity%1:26:00::"], [22, "observe%2:39:02::"], [23, "tendency%1:09:00::"], [25, "perfectionism%1:07:00::"], [27, "demand%1:10:00::"], [29, "self%1:18:00::"], [33, "irrational%3:00:00::"], [34, "conformity%1:04:00::"], [36, "rule%1:09:00::"], [38, "orderliness%1:07:00::"], [40, "punctuality%1:07:00::"], [43, "need%1:26:00::"], [45, "certainty%1:09:00::"]]
+    wn30_key: [[1, "parent%1:18:00::"], [3, "ask%2:32:01::"], [5, "describe%2:32:01::"], [7, "child%1:18:00::"], [9, "typical%3:00:00:characteristic:00"], [10, "behavior%1:04:00::"], [12, "certain%3:00:00:definite:00"], [13, "standard%3:00:00:common:01"], [14, "situation%1:26:01::"], [20, "opportunity%1:26:00::"], [22, "observe%2:39:02::"], [23, "tendency%1:09:00::"], [25, "perfectionism%1:07:00::"], [27, "demand%1:10:00::"], [29, "self%1:18:00::"], [33, "irrational%3:00:00::"], [34, "conformity%1:04:00::"], [36, "rule%1:09:00::"], [38, "orderliness%1:07:00::"], [40, "punctuality%1:07:00::"], [43, "need%1:26:00::"], [45, "certainty%1:09:00::"]]
+vHmc:
+    lemmas: ["The", "interviewer", "be", "instruct", "not", "to", "suggest", "answer", "and", ",", "as_much_as_possible", ",", "to", "record", "the", "parent", "'", "actual", "words", "as", "they", "describe", "the", "child", "'s", "behavior", "in", "home", "situation", "."]
+    oewn2026_key: [[1, "oewn-10232989-n"], [3, "oewn-00751969-v"], [4, "oewn-00024432-r"], [6, "oewn-00929401-v"], [7, "oewn-06758700-n"], [10, "oewn-00120125-r"], [13, "oewn-01002259-v"], [15, "oewn-10419190-n"], [17, "oewn-00043985-a"], [18, "oewn-07124438-n"], [21, "oewn-00967067-v"], [23, "oewn-09937051-n"], [25, "oewn-01223473-n"], [27, "oewn-08577045-n"], [28, "oewn-13948785-n"]]
+    paragraph: '4'
+    pos: ["DT", "NNS", "VBD", "VBN", "RB", "TO", "VB", "NNS", "CC", ",", "RB", ",", "TO", "VB", "DT", "NNS", "POS", "JJ", "NNS", "IN", "PRP", "VBD", "DT", "NN", "POS", "NN", "IN", "NN", "NNS", "."]
+    text: ' The interviewers were instructed not to suggest answers and, as_much_as_possible,
+  to record the parents'' actual words as they described the child''s behavior in
+  home situations.
+
+  '
+    tokens: [[1, 4], [5, 17], [18, 22], [23, 33], [34, 37], [38, 40], [41, 48], [49, 56], [57, 60], [60, 61], [62, 81], [81, 82], [83, 85], [86, 92], [93, 96], [97, 104], [104, 105], [106, 112], [113, 118], [119, 121], [122, 126], [127, 136], [137, 140], [141, 146], [146, 148], [149, 157], [158, 160], [161, 165], [166, 176], [176, 177]]
+    wn16_key: [[1, "interviewer%1:18:00::"], [3, "instruct%2:32:01::"], [4, "not%4:02:00::"], [6, "suggest%2:32:04::"], [7, "answer%1:10:01::"], [10, "as_much_as_possible%4:02:00::"], [13, "record%2:32:00::"], [15, "parent%1:18:00::"], [17, "actual%3:00:00::"], [18, "words%1:10:03::"], [21, "describe%2:32:01::"], [23, "child%1:18:00::"], [25, "behavior%1:04:00::"], [27, "home%1:15:04::"], [28, "situation%1:26:01::"]]
+    wn30_key: [[1, "interviewer%1:18:00::"], [3, "instruct%2:32:01::"], [4, "not%4:02:00::"], [6, "suggest%2:32:04::"], [7, "answer%1:10:01::"], [10, "as_much_as_possible%4:02:00::"], [13, "record%2:32:00::"], [15, "parent%1:18:00::"], [17, "actual%3:00:00::"], [18, "words%1:10:03::"], [21, "describe%2:32:01::"], [23, "child%1:18:00::"], [25, "behavior%1:04:00::"], [27, "home%1:15:04::"], [28, "situation%1:26:01::"]]
+38nA:
+    lemmas: ["The", "rating", "scale", "of", "compulsivity", "be", "construct", "by", "first", "peruse", "the", "interview", "record", ",", "categorize", "all", "evidence", "related", "to", "compulsivity", ",", "then", "arrange", "a", "distribution", "of", "such", "information", "apart", "from", "the", "case", "record", "."]
+    oewn2026_key: [[1, "oewn-00876484-n"], [2, "oewn-13872501-n"], [4, "oewn-04633239-n"], [6, "oewn-01658171-v"], [8, "oewn-00103286-r"], [9, "oewn-02157242-v"], [11, "oewn-07210735-n"], [12, "oewn-06659969-n"], [14, "oewn-00658931-v"], [16, "oewn-05832256-n"], [19, "oewn-04633239-n"], [21, "oewn-00118527-r"], [22, "oewn-01466592-v"], [24, "oewn-05736981-n"], [26, "oewn-01558587-s"], [27, "oewn-05824413-n"], [28, "oewn-00182561-r"], [31, "oewn-10688105-n"], [32, "oewn-06659969-n"]]
+    paragraph: '5'
+    pos: ["DT", "NN", "NN", "IN", "NN", "VB", "VBN", "IN", "RB", "VBG", "DT", "NN", "NNS", ",", "VBG", "DT", "NN", "JJ", "TO", "NN", ",", "RB", "VBG", "DT", "NN", "IN", "JJ", "NN", "RB", "IN", "DT", "NN", "NNS", "."]
+    text: ' The rating scale of compulsivity was constructed by first perusing the interview
+  records, categorizing all evidence related to compulsivity, then arranging a distribution
+  of such information apart from the case records.'
+    tokens: [[1, 4], [5, 11], [12, 17], [18, 20], [21, 33], [34, 37], [38, 49], [50, 52], [53, 58], [59, 67], [68, 71], [72, 81], [82, 89], [89, 90], [91, 103], [104, 107], [108, 116], [117, 124], [125, 127], [128, 140], [140, 141], [142, 146], [147, 156], [157, 158], [159, 171], [172, 174], [175, 179], [180, 191], [192, 197], [198, 202], [203, 206], [207, 211], [212, 219], [219, 220]]
+    wn16_key: [[1, "rating%1:04:00::"], [2, "scale%1:24:03::"], [4, "compulsivity%1:07:00::"], [6, "construct%2:36:00::"], [8, "first%4:02:00::"], [9, "peruse%2:39:00::"], [11, "interview%1:10:01::"], [12, "record%1:10:03::"], [14, "categorize%2:30:00::"], [16, "evidence%1:09:00::"], [17, "related%5:00:00:relevant:00"], [19, "compulsivity%1:07:00::"], [21, "then%4:02:00::"], [22, "arrange%2:35:00::"], [24, "distribution%1:09:00::"], [26, "such%5:00:01:specified:00"], [27, "information%1:09:00::"], [28, "apart%4:02:03::"], [31, "case%1:18:02::"], [32, "record%1:10:03::"]]
+    wn30_key: [[1, "rating%1:04:00::"], [2, "scale%1:24:03::"], [4, "compulsivity%1:07:00::"], [6, "construct%2:36:00::"], [8, "first%4:02:00::"], [9, "peruse%2:39:00::"], [11, "interview%1:10:01::"], [12, "record%1:10:03::"], [14, "categorize%2:31:00::"], [16, "evidence%1:09:00::"], [19, "compulsivity%1:07:00::"], [21, "then%4:02:00::"], [22, "arrange%2:35:00::"], [24, "distribution%1:09:00::"], [26, "such%3:00:00:much:00"], [27, "information%1:09:00::"], [28, "apart%4:02:03::"], [31, "case%1:18:02::"], [32, "record%1:10:03::"]]
+IACH:
+    lemmas: ["final", "rating", "be", "make", "on", "the", "basis", "of", "a", "point_system", "which", "be", "develop", "after", "study", "the", "distribution", "of", "actual", "behavior", "record", "and", "assign", "weight", "value", "to", "each", "type", "of", "behavior", "that", "be", "deviant", "from", "the", "discovered", "norm", "."]
+    oewn2026_key: [[0, "oewn-01583536-s"], [1, "oewn-00876484-n"], [3, "oewn-02566500-v"], [6, "oewn-13813124-n"], [9, "oewn-05672484-n"], [12, "oewn-01742478-v"], [14, "oewn-00646245-v"], [16, "oewn-05736981-n"], [18, "oewn-00043985-a"], [19, "oewn-01223473-n"], [20, "oewn-01002259-v"], [22, "oewn-00679602-v"], [23, "oewn-05179849-n"], [24, "oewn-05864972-n"], [27, "oewn-05848697-n"], [29, "oewn-01223473-n"], [31, "oewn-02610777-v"], [32, "oewn-01600704-s"], [35, "oewn-01615012-s"], [36, "oewn-06031110-n"]]
+    paragraph: '5'
+    pos: ["JJ", "NNS", "VBD", "VBN", "IN", "DT", "NN", "IN", "DT", "NN", "WDT", "VBD", "VBN", "IN", "VBG", "DT", "NNS", "IN", "JJ", "NNS", "VBN", "CC", "VBG", "NN", "NNS", "TO", "DT", "NN", "IN", "NN", "WDT", "VBD", "JJ", "IN", "DT", "JJ", "NNS", "."]
+    text: ' Final ratings were made on the basis of a point_system which was developed after
+  studying the distributions of actual behaviors recorded and assigning weight values
+  to each type of behavior that was deviant from the discovered norms.'
+    tokens: [[1, 6], [7, 14], [15, 19], [20, 24], [25, 27], [28, 31], [32, 37], [38, 40], [41, 42], [43, 55], [56, 61], [62, 65], [66, 75], [76, 81], [82, 90], [91, 94], [95, 108], [109, 111], [112, 118], [119, 128], [129, 137], [138, 141], [142, 151], [152, 158], [159, 165], [166, 168], [169, 173], [174, 178], [179, 181], [182, 190], [191, 195], [196, 199], [200, 207], [208, 212], [213, 216], [217, 227], [228, 233], [233, 234]]
+    wn16_key: [[0, "final%5:00:00:ultimate:00"], [1, "rating%1:04:00::"], [3, "make%2:41:00::"], [6, "basis%1:24:00::"], [9, "point_system%1:09:00::"], [12, "develop%2:36:00::"], [14, "study%2:31:02::"], [16, "distribution%1:09:00::"], [18, "actual%3:00:00::"], [19, "behavior%1:04:00::"], [20, "record%2:32:00::"], [22, "assign%2:31:00::"], [23, "weight%1:07:01::"], [24, "value%1:09:00::"], [27, "type%1:09:00::"], [29, "behavior%1:04:00::"], [31, "be%2:42:03::"], [32, "deviant%5:00:00:abnormal:00"], [35, "discovered%5:00:00:determined:00"], [36, "norm%1:09:00::"]]
+    wn30_key: [[0, "final%3:00:00:ultimate:00"], [1, "rating%1:04:00::"], [3, "make%2:41:00::"], [6, "basis%1:24:00::"], [9, "point_system%1:09:00::"], [12, "develop%2:36:00::"], [14, "study%2:31:02::"], [16, "distribution%1:09:00::"], [18, "actual%3:00:00::"], [19, "behavior%1:04:00::"], [20, "record%2:32:00::"], [22, "assign%2:31:00::"], [23, "weight%1:07:01::"], [24, "value%1:09:00::"], [27, "type%1:09:00::"], [29, "behavior%1:04:00::"], [31, "be%2:42:03::"], [32, "deviant%3:00:00:abnormal:00"], [35, "discovered%3:00:00:determined:00"], [36, "norm%1:09:00::"]]
+dpdw:
+    lemmas: ["child", "score", "high", "in", "compulsivity", "be", "those", "who", "give", "evidence", "of", "tension", "or", "emotionality", "in", "situation", "where", "there", "be", "lack", "of", "organization", "or", "conformity", "to", "standard", "and", "expectation", ",", "or", "who", "make", "exaggerated", "effort", "to", "achieve", "these", "goal", "."]
+    oewn2026_key: [[0, "oewn-09937051-n"], [1, "oewn-01114241-v"], [2, "oewn-01213526-a"], [4, "oewn-04633239-n"], [5, "oewn-02622439-v"], [8, "oewn-02240624-v"], [9, "oewn-06656171-n"], [11, "oewn-14399593-n"], [13, "oewn-04633637-n"], [15, "oewn-13948785-n"], [19, "oewn-14472871-n"], [21, "oewn-05734541-n"], [23, "oewn-01206166-n"], [25, "oewn-05933552-n"], [27, "oewn-05953807-n"], [31, "oewn-02566500-v"], [32, "oewn-01537901-s"], [33, "oewn-00787849-n"], [35, "oewn-02531751-v"], [37, "oewn-05989760-n"]]
+    paragraph: '5'
+    pos: ["NNS", "VBG", "JJ", "IN", "NN", "VBD", "DT", "WP", "VBD", "NN", "VB", "NN", "CC", "NN", "IN", "NNS", "WRB", "EX", "VB", "NN", "IN", "NN", "CC", "NN", "TO", "NNS", "CC", "NNS", ",", "CC", "WP", "VBD", "JJ", "NNS", "TO", "VB", "DT", "NNS", "."]
+    text: ' Children scoring high in compulsivity were those who gave evidence of tension or
+  emotionality in situations where there was lack of organization or conformity to
+  standards and expectations, or who made exaggerated efforts to achieve these goals.'
+    tokens: [[1, 9], [10, 17], [18, 22], [23, 25], [26, 38], [39, 43], [44, 49], [50, 53], [54, 58], [59, 67], [68, 70], [71, 78], [79, 81], [82, 94], [95, 97], [98, 108], [109, 114], [115, 120], [121, 124], [125, 129], [130, 132], [133, 145], [146, 148], [149, 159], [160, 162], [163, 172], [173, 176], [177, 189], [189, 190], [191, 193], [194, 197], [198, 202], [203, 214], [215, 222], [223, 225], [226, 233], [234, 239], [240, 245], [245, 246]]
+    wn16_key: [[0, "child%1:18:00::"], [1, "score%2:33:00::"], [2, "high%3:00:02::"], [4, "compulsivity%1:07:00::"], [5, "be%2:42:06::"], [8, "give%2:40:07::"], [9, "evidence%1:10:01::"], [11, "tension%1:26:03::"], [13, "emotionality%1:07:00::"], [15, "situation%1:26:01::"], [19, "lack%1:26:00::"], [21, "organization%1:09:00::"], [23, "conformity%1:04:00::"], [25, "standard%1:09:00::"], [27, "expectation%1:09:00::"], [31, "make%2:41:00::"], [32, "exaggerated%5:00:00:immoderate:00"], [33, "effort%1:04:00::"], [35, "achieve%2:41:00::"], [37, "goal%1:09:00::"]]
+    wn30_key: [[0, "child%1:18:00::"], [1, "score%2:33:00::"], [2, "high%3:00:02::"], [4, "compulsivity%1:07:00::"], [5, "be%2:42:06::"], [8, "give%2:40:07::"], [9, "evidence%1:10:01::"], [11, "tension%1:26:03::"], [13, "emotionality%1:07:00::"], [15, "situation%1:26:01::"], [19, "lack%1:26:00::"], [21, "organization%1:09:00::"], [23, "conformity%1:04:00::"], [25, "standard%1:09:00::"], [27, "expectation%1:09:00::"], [31, "make%2:41:00::"], [32, "exaggerated%3:00:00:immoderate:00"], [33, "effort%1:04:00::"], [35, "achieve%2:41:00::"], [37, "goal%1:09:00::"]]
+Ovjo:
+    lemmas: ["The", "low", "compulsive", "child", "be", "one", "who", "appear", "relatively", "unconcerned", "about", "such", "matter", "."]
+    oewn2026_key: [[1, "oewn-01215141-a"], [2, "oewn-01588067-s"], [3, "oewn-09937051-n"], [4, "oewn-02622439-v"], [7, "oewn-02137900-v"], [8, "oewn-00162033-r"], [9, "oewn-00547235-a"], [11, "oewn-01558587-s"], [12, "oewn-05679169-n"]]
+    paragraph: '5'
+    pos: ["DT", "JJ", "JJ", "NN", "VBD", "JJ", "WP", "VBD", "RB", "JJ", "IN", "JJ", "NNS", "."]
+    text: ' The low compulsive child was one who appeared relatively unconcerned about such
+  matters.'
+    tokens: [[1, 4], [5, 8], [9, 19], [20, 25], [26, 29], [30, 33], [34, 37], [38, 46], [47, 57], [58, 69], [70, 75], [76, 80], [81, 88], [88, 89]]
+    wn16_key: [[1, "low%3:00:02::"], [2, "compulsive%5:00:00:neurotic:00"], [3, "child%1:18:00::"], [4, "be%2:42:06::"], [7, "appear%2:39:00::"], [8, "relatively%4:02:00::"], [9, "unconcerned%3:00:00::"], [11, "such%5:00:01:specified:00"], [12, "matter%1:09:01::"]]
+    wn30_key: [[1, "low%3:00:02::"], [2, "compulsive%3:00:00:neurotic:00"], [3, "child%1:18:00::"], [4, "be%2:42:06::"], [7, "appear%2:39:00::"], [8, "relatively%4:02:00::"], [9, "unconcerned%3:00:00::"], [11, "such%3:00:00:much:00"], [12, "matter%1:09:01::"]]
+QEGo:
+    lemmas: ["for_instance", ",", "the", "following", "statement", "be", "rate", "low", "in", "compulsivity", ",", "\"", "She", "be", "naturally", "quite", "neat", "about", "thing", ",", "but", "it", "do", "n't", "bother", "her", "at_all", "if", "her", "room", "get", "messy", "."]
+    oewn2026_key: [[0, "oewn-00160239-r"], [3, "oewn-00128705-s"], [4, "oewn-06735202-n"], [6, "oewn-00659723-v"], [7, "oewn-01215141-a"], [9, "oewn-04633239-n"], [13, "oewn-02610777-v"], [14, "oewn-00141437-r"], [15, "oewn-00019243-r"], [16, "oewn-02432057-s"], [18, "oewn-05679169-n"], [24, "oewn-01791774-v"], [26, "oewn-00057267-r"], [29, "oewn-04112987-n"], [30, "oewn-00149403-v"], [31, "oewn-02434815-s"]]
+    paragraph: '5'
+    pos: ["RB", ",", "DT", "JJ", "NN", "VBD", "VBN", "JJ", "IN", "NN", ",", "``", "PRP", "VBZ", "RB", "RB", "JJ", "IN", "NNS", ",", "CC", "PRP", "VBZ", "RB", "VB", "PRP$", "RB", "IN", "PRP$", "NN", "VBZ", "JJ", "."]
+    text: ' For_instance, the following statement was rated low in compulsivity, " She''s naturally
+  quite neat about things, but it doesn''t bother her at_all if her room gets messy.'
+    tokens: [[1, 13], [13, 14], [15, 18], [19, 28], [29, 38], [39, 42], [43, 48], [49, 52], [53, 55], [56, 68], [68, 69], [70, 71], [72, 75], [75, 77], [78, 87], [88, 93], [94, 98], [99, 104], [105, 111], [111, 112], [113, 116], [117, 119], [120, 124], [124, 127], [128, 134], [135, 138], [139, 145], [146, 148], [149, 152], [153, 157], [158, 162], [163, 168], [168, 169]]
+    wn16_key: [[0, "for_instance%4:02:00::"], [3, "following%5:00:01:succeeding(a):00"], [4, "statement%1:10:00::"], [6, "rate%2:31:00::"], [7, "low%3:00:02::"], [9, "compulsivity%1:07:00::"], [13, "be%2:42:03::"], [14, "naturally%4:02:01::"], [15, "quite%4:02:02::"], [16, "neat%5:00:00:tidy:00"], [18, "thing%1:09:02::"], [23, "n't%4:02:00::"], [24, "bother%2:37:00::"], [26, "at_all%4:02:00::"], [29, "room%1:06:00::"], [30, "get%2:30:00::"], [31, "messy%5:00:00:untidy:00"]]
+    wn30_key: [[0, "for_instance%4:02:00::"], [3, "following%3:00:01:succeeding:00"], [4, "statement%1:10:00::"], [6, "rate%2:31:00::"], [7, "low%3:00:02::"], [9, "compulsivity%1:07:00::"], [13, "be%2:42:03::"], [14, "naturally%4:02:01::"], [15, "quite%4:02:02::"], [16, "neat%3:00:00:tidy:00"], [18, "thing%1:09:02::"], [24, "bother%2:37:00::"], [26, "at_all%4:02:00::"], [29, "room%1:06:00::"], [30, "get%2:30:00::"], [31, "messy%3:00:00:untidy:00"]]
+BqDA:
+    lemmas: ["But", "she", "clean_up", "it", "up", "very", "well", "when", "I", "remind", "her", "\"", "."]
+    oewn2026_key: [[2, "oewn-00276642-v"], [5, "oewn-00032295-r"], [6, "oewn-00011555-r"], [9, "oewn-00879379-v"]]
+    paragraph: '5'
+    pos: ["CC", "PRP", "VBZ", "PRP", "IN", "RB", "RB", "WRB", "PRP", "VBD", "PRP$", "``", "."]
+    text: ' But she cleans it up very well when I remind her ".
+
+  '
+    tokens: [[1, 4], [5, 8], [9, 15], [16, 18], [19, 21], [22, 26], [27, 31], [32, 36], [37, 38], [39, 45], [46, 49], [50, 51], [51, 52]]
+    wn16_key: [[2, "clean_up%2:30:03::"], [5, "very%4:02:00::"], [6, "well%4:02:00::"], [9, "remind%2:32:00::"]]
+    wn30_key: [[2, "clean_up%2:30:03::"], [5, "very%4:02:00::"], [6, "well%4:02:00::"], [9, "remind%2:32:00::"]]
+Vsmp:
+    lemmas: ["person", ",", "et_al.", "revise", "the", "taylor_anxiety_scale", "for", "use", "with", "child", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-00192785-r"], [3, "oewn-00998147-v"], [7, "oewn-00948944-n"], [9, "oewn-09937051-n"]]
+    paragraph: '6'
+    pos: ["NNP", ",", "RB", "VBD", "DT", "NNP", "IN", "NN", "IN", "NNS", "."]
+    text: ' Castaneda, et_al. revised the Taylor_Anxiety_Scale for use with children.'
+    tokens: [[1, 10], [10, 11], [12, 18], [19, 26], [27, 30], [31, 51], [52, 55], [56, 59], [60, 64], [65, 73], [73, 74]]
+    wn16_key: [[0, "person%1:03:00::"], [2, "et_al.%4:02:00::"], [3, "revise%2:32:00::"], [7, "use%1:04:00::"], [9, "child%1:18:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [2, "et_al.%4:02:00::"], [3, "revise%2:32:00::"], [7, "use%1:04:00::"], [9, "child%1:18:00::"]]
+Lkf1:
+    lemmas: ["The", "taylor_scale", "be", "adapt", "from", "the", "minnesota_multiphastic_personality_inventory", ",", "with", "item", "selection", "base", "upon", "clinical", "definition", "of", "anxiety", "."]
+    oewn2026_key: [[9, "oewn-03593583-n"], [10, "oewn-00162063-n"], [11, "oewn-00638550-v"], [13, "oewn-02896833-a"], [14, "oewn-06757091-n"], [16, "oewn-14397837-n"]]
+    paragraph: '6'
+    pos: ["DT", "NNP", "VBD", "VB", "IN", "DT", "NN", ",", "IN", "NN", "NN", "VBN", "IN", "JJ", "NNS", "IN", "NN", "."]
+    text: ' The Taylor_Scale was adapted from the Minnesota_Multiphastic_Personality_Inventory,
+  with item selection based upon clinical definitions of anxiety.'
+    tokens: [[1, 4], [5, 17], [18, 21], [22, 29], [30, 34], [35, 38], [39, 83], [83, 84], [85, 89], [90, 94], [95, 104], [105, 110], [111, 115], [116, 124], [125, 136], [137, 139], [140, 147], [147, 148]]
+    wn16_key: [[3, "adapt%2:36:01::"], [9, "item%1:06:00::"], [10, "selection%1:04:00::"], [11, "base%2:31:00::"], [13, "clinical%3:01:00::"], [14, "definition%1:10:00::"], [16, "anxiety%1:26:00::"]]
+    wn30_key: [[9, "item%1:06:00::"], [10, "selection%1:04:00::"], [11, "base%2:31:00::"], [13, "clinical%3:01:00::"], [14, "definition%1:10:00::"], [16, "anxiety%1:26:00::"]]
+p+0B:
+    lemmas: ["There", "be", "much", "research", "evidence", "to", "validate", "the", "use", "of", "the", "instrument", "in", "differentiate", "individual", "who", "be", "likely", "to", "manifest", "anxiety", "in", "varying", "degree", "."]
+    oewn2026_key: [[2, "oewn-01557986-a"], [3, "oewn-00638164-n"], [4, "oewn-05832256-n"], [6, "oewn-00669142-v"], [8, "oewn-00948944-n"], [11, "oewn-03579967-n"], [13, "oewn-00652006-v"], [14, "oewn-00007846-n"], [16, "oewn-02610777-v"], [17, "oewn-01414308-a"], [19, "oewn-00822637-v"], [20, "oewn-14397837-n"], [22, "oewn-02517573-s"], [23, "oewn-05101152-n"]]
+    paragraph: '6'
+    pos: ["EX", "VB", "JJ", "NN", "NN", "TO", "VB", "DT", "NN", "IN", "DT", "NN", "IN", "VBG", "NNS", "WP", "VBP", "JJ", "TO", "VB", "NN", "IN", "JJ", "NNS", "."]
+    text: ' There is much research evidence to validate the use of the instrument in differentiating
+  individuals who are likely to manifest anxiety in varying degrees.'
+    tokens: [[1, 6], [7, 9], [10, 14], [15, 23], [24, 32], [33, 35], [36, 44], [45, 48], [49, 52], [53, 55], [56, 59], [60, 70], [71, 73], [74, 89], [90, 101], [102, 105], [106, 109], [110, 116], [117, 119], [120, 128], [129, 136], [137, 139], [140, 147], [148, 155], [155, 156]]
+    wn16_key: [[2, "much%3:00:00::"], [3, "research%1:04:00::"], [4, "evidence%1:09:00::"], [6, "validate%2:31:00::"], [8, "use%1:04:00::"], [11, "instrument%1:06:00::"], [13, "differentiate%2:31:01::"], [14, "individual%1:03:00::"], [16, "be%2:42:03::"], [17, "likely%3:00:00::"], [19, "manifest%2:32:00::"], [20, "anxiety%1:26:00::"], [22, "varying%5:00:00:varied:00"], [23, "degree%1:07:00::"]]
+    wn30_key: [[2, "much%3:00:00::"], [3, "research%1:04:00::"], [4, "evidence%1:09:00::"], [6, "validate%2:31:00::"], [8, "use%1:04:00::"], [11, "instrument%1:06:00::"], [13, "differentiate%2:31:01::"], [14, "individual%1:03:00::"], [16, "be%2:42:03::"], [17, "likely%3:00:00::"], [19, "manifest%2:32:00::"], [20, "anxiety%1:26:00::"], [22, "varying%3:00:00:varied:00"], [23, "degree%1:07:00::"]]
+Drt4:
+    lemmas: ["reliability", "and", "validation", "work", "with", "the", "child", "'s", "anxiety_scale", "by", "person", ",", "et_al.", "demonstrate", "result", "closely", "similar", "to", "the", "finding", "with", "the", "adult", "scale", "."]
+    oewn2026_key: [[0, "oewn-04677379-n"], [2, "oewn-00154781-n"], [3, "oewn-00576778-n"], [10, "oewn-00007846-n"], [12, "oewn-00192785-r"], [13, "oewn-02153218-v"], [14, "oewn-11430739-n"], [15, "oewn-00161639-r"], [16, "oewn-02078824-a"], [19, "oewn-00152317-n"], [22, "oewn-09628463-n"], [23, "oewn-13872501-n"]]
+    paragraph: '6'
+    pos: ["NN", "CC", "NN", "NN", "IN", "DT", "NNS", "POS", "NNP", "IN", "NNP", ",", "RB", "VBD", "NNS", "RB", "JJ", "TO", "DT", "NNS", "IN", "DT", "NN", "NN", "."]
+    text: ' Reliability and validation work with the Children''s Anxiety_Scale by Castaneda,
+  et_al. demonstrated results closely similar to the findings with the adult scale.'
+    tokens: [[1, 12], [13, 16], [17, 27], [28, 32], [33, 37], [38, 41], [42, 50], [50, 52], [53, 66], [67, 69], [70, 79], [79, 80], [81, 87], [88, 100], [101, 108], [109, 116], [117, 124], [125, 127], [128, 131], [132, 140], [141, 145], [146, 149], [150, 155], [156, 161], [161, 162]]
+    wn16_key: [[0, "reliability%1:07:00::"], [2, "validation%1:04:00::"], [3, "work%1:04:00::"], [10, "person%1:03:00::"], [12, "et_al.%4:02:00::"], [13, "demonstrate%2:39:01::"], [14, "result%1:19:00::"], [15, "closely%4:02:00::"], [16, "similar%3:00:00::"], [19, "finding%1:04:00::"], [22, "adult%1:18:00::"], [23, "scale%1:24:03::"]]
+    wn30_key: [[0, "reliability%1:07:00::"], [2, "validation%1:04:00::"], [3, "work%1:04:00::"], [10, "person%1:03:00::"], [12, "et_al.%4:02:00::"], [13, "demonstrate%2:39:01::"], [14, "result%1:19:00::"], [15, "closely%4:02:00::"], [16, "similar%3:00:00::"], [19, "finding%1:04:00::"], [22, "adult%1:18:00::"], [23, "scale%1:24:03::"]]
+vxel:
+    lemmas: ["Although", "the", "taylor_scale", "be", "design", "as", "a", "group", "testing", "device", ",", "in", "this", "study", "it", "be", "individually", "administer", "by", "psychologically", "trained", "worker", "who", "establish", "rapport", "and", "assist", "the", "child", "in", "read", "the", "item", "."]
+    oewn2026_key: [[4, "oewn-00711454-v"], [7, "oewn-00031563-n"], [8, "oewn-00645945-n"], [9, "oewn-03187746-n"], [13, "oewn-00645746-n"], [16, "oewn-00208995-r"], [17, "oewn-02314601-v"], [19, "oewn-00436814-r"], [20, "oewn-01918064-a"], [21, "oewn-09655706-n"], [23, "oewn-02431950-v"], [24, "oewn-13833952-n"], [26, "oewn-02553283-v"], [28, "oewn-09937051-n"], [30, "oewn-00626756-v"], [32, "oewn-03593583-n"]]
+    paragraph: '6'
+    pos: ["IN", "DT", "NNP", "VBD", "VBN", "RB", "RB", "NN", "NN", "NN", ",", "RB", "RB", "NN", "PRP", "VBD", "RB", "VBN", "IN", "RB", "JJ", "NNS", "WP", "VBD", "NN", "CC", "VBD", "DT", "NNS", "IN", "VBG", "DT", "NNS", "."]
+    text: ' Although the Taylor_Scale was designed as a group testing device, in this study
+  it was individually administered by psychologically trained workers who established
+  rapport and assisted the children in reading the items.
+
+  '
+    tokens: [[1, 9], [10, 13], [14, 26], [27, 30], [31, 39], [40, 42], [43, 44], [45, 50], [51, 58], [59, 65], [65, 66], [67, 69], [70, 74], [75, 80], [81, 83], [84, 87], [88, 100], [101, 113], [114, 116], [117, 132], [133, 140], [141, 148], [149, 152], [153, 164], [165, 172], [173, 176], [177, 185], [186, 189], [190, 198], [199, 201], [202, 209], [210, 213], [214, 219], [219, 220]]
+    wn16_key: [[4, "design%2:31:00::"], [7, "group%1:03:00::"], [8, "testing%1:04:03::"], [9, "device%1:06:00::"], [13, "study%1:04:00::"], [16, "individually%4:02:00::"], [17, "administer%2:40:01::"], [19, "psychologically%4:02:01::"], [20, "trained%5:00:00:skilled:00"], [21, "worker%1:18:00::"], [23, "establish%2:41:00::"], [24, "rapport%1:24:00::"], [26, "assist%2:41:02::"], [28, "child%1:18:00::"], [30, "read%2:31:00::"], [32, "item%1:06:00::"]]
+    wn30_key: [[4, "design%2:31:00::"], [7, "group%1:03:00::"], [8, "testing%1:04:03::"], [9, "device%1:06:00::"], [13, "study%1:04:00::"], [16, "individually%4:02:00::"], [17, "administer%2:40:01::"], [19, "psychologically%4:02:01::"], [20, "trained%3:00:00::"], [21, "worker%1:18:00::"], [23, "establish%2:41:00::"], [24, "rapport%1:24:00::"], [26, "assist%2:41:02::"], [28, "child%1:18:00::"], [30, "read%2:31:00::"], [32, "item%1:06:00::"]]
+6+jY:
+    lemmas: ["The", "question", "may", "be", "raise", "whether", "or", "not", "we", "be", "deal", "with", "a", "common", "factor", "in", "anxiety", "and", "compulsivity", "."]
+    oewn2026_key: [[1, "oewn-07208256-n"], [4, "oewn-00943197-v"], [7, "oewn-00024432-r"], [10, "oewn-00736077-v"], [13, "oewn-02159888-s"], [14, "oewn-05877576-n"], [16, "oewn-14397837-n"], [18, "oewn-04633239-n"]]
+    paragraph: '7'
+    pos: ["DT", "NN", "MD", "VB", "VBN", "IN", "CC", "RB", "PRP", "VBP", "VBG", "VB", "DT", "JJ", "NN", "IN", "NN", "CC", "NN", "."]
+    text: ' The question may be raised whether or not we are dealing with a common factor in
+  anxiety and compulsivity.'
+    tokens: [[1, 4], [5, 13], [14, 17], [18, 20], [21, 27], [28, 35], [36, 38], [39, 42], [43, 45], [46, 49], [50, 57], [58, 62], [63, 64], [65, 71], [72, 78], [79, 81], [82, 89], [90, 93], [94, 106], [106, 107]]
+    wn16_key: [[1, "question%1:10:00::"], [4, "raise%2:32:00::"], [7, "not%4:02:00::"], [10, "deal%2:31:10::"], [13, "common%5:00:00:shared:00"], [14, "factor%1:09:00::"], [16, "anxiety%1:26:00::"], [18, "compulsivity%1:07:00::"]]
+    wn30_key: [[1, "question%1:10:00::"], [4, "raise%2:32:00::"], [7, "not%4:02:00::"], [10, "deal%2:31:10::"], [13, "common%3:00:00:shared:00"], [14, "factor%1:09:00::"], [16, "anxiety%1:26:00::"], [18, "compulsivity%1:07:00::"]]
+kBq2:
+    lemmas: ["The", "two", "rating", "yield", "a", "correlation", "of", "+", ".04", ",", "which", "be", "not", "significantly", "different", "from", "zero", ";", "therefore", ",", "we", "have", "measure", "two", "different", "characteristic", "."]
+    oewn2026_key: [[1, "oewn-02194109-s"], [2, "oewn-05744094-n"], [3, "oewn-02344167-v"], [5, "oewn-06041776-n"], [11, "oewn-02610777-v"], [12, "oewn-00024432-r"], [13, "oewn-00512503-r"], [14, "oewn-02072149-a"], [16, "oewn-02193771-s"], [18, "oewn-00043413-r"], [22, "oewn-00683348-v"], [23, "oewn-02194109-s"], [24, "oewn-02072149-a"], [25, "oewn-05858316-n"]]
+    paragraph: '7'
+    pos: ["JJ", "JJ", "NNS", "VBP", "DT", "NN", "IN", "CC", "CD", ",", "WDT", "VBZ", "RB", "RB", "JJ", "IN", "JJ", ":", "RB", ",", "PRP", "VBP", "VBN", "JJ", "JJ", "NNS", "."]
+    text: ' The two ratings yield a correlation of + .04, which is not significantly different
+  from zero; therefore, we have measured two different characteristics.'
+    tokens: [[1, 4], [5, 8], [9, 16], [17, 22], [23, 24], [25, 36], [37, 39], [40, 41], [42, 45], [45, 46], [47, 52], [53, 55], [56, 59], [60, 73], [74, 83], [84, 88], [89, 93], [93, 94], [95, 104], [104, 105], [106, 108], [109, 113], [114, 122], [123, 126], [127, 136], [137, 152], [152, 153]]
+    wn16_key: [[1, "two%5:00:00:cardinal:00"], [2, "rating%1:09:00::"], [3, "yield%2:40:02::"], [5, "correlation%1:09:00::"], [11, "be%2:42:03::"], [12, "not%4:02:00::"], [13, "significantly%4:02:04::"], [14, "different%3:00:00::"], [16, "zero%5:00:00:cardinal:00"], [18, "therefore%4:02:00::"], [22, "measure%2:31:01::"], [23, "two%5:00:00:cardinal:00"], [24, "different%3:00:00::"], [25, "characteristic%1:09:00::"]]
+    wn30_key: [[1, "two%3:00:00:cardinal:00"], [2, "rating%1:09:00::"], [3, "yield%2:40:02::"], [5, "correlation%1:09:00::"], [11, "be%2:42:03::"], [12, "not%4:02:00::"], [13, "significantly%4:02:04::"], [14, "different%3:00:00::"], [16, "zero%3:00:00:cardinal:00"], [18, "therefore%4:02:00::"], [22, "measure%2:31:01::"], [23, "two%3:00:00:cardinal:00"], [24, "different%3:00:00::"], [25, "characteristic%1:09:00::"]]
+2spi:
+    lemmas: ["in_theory", ",", "compulsive", "behavior", "be", "a", "way", "of", "diminish", "anxiety", ",", "and", "one", "might", "expect", "a", "negative", "association", "except", "for", "the", "possibility", "that", "for", "many", "child", "the", "obsessive-compulsive", "defense", "be", "not", "sufficient", "to", "quell", "the", "amount", "of", "anxiety", "they", "suffer", "."]
+    oewn2026_key: [[2, "oewn-01588067-s"], [3, "oewn-01223473-n"], [4, "oewn-02622439-v"], [6, "oewn-00173531-n"], [8, "oewn-00442836-v"], [9, "oewn-14397837-n"], [14, "oewn-00721658-v"], [16, "oewn-01823738-a"], [17, "oewn-14444543-n"], [21, "oewn-05897536-n"], [24, "oewn-01555990-a"], [25, "oewn-09937051-n"], [27, "oewn-01589720-s"], [28, "oewn-13480525-n"], [29, "oewn-02610777-v"], [30, "oewn-00024432-r"], [31, "oewn-02343832-a"], [33, "oewn-00464147-v"], [35, "oewn-05115065-n"], [37, "oewn-14397837-n"], [39, "oewn-02113644-v"]]
+    paragraph: '7'
+    pos: ["RB", ",", "JJ", "NN", "VBZ", "DT", "NN", "IN", "VBG", "NN", ",", "CC", "CD", "MD", "VB", "DT", "JJ", "NN", "IN", "IN", "DT", "NN", "IN", "IN", "JJ", "NNS", "DT", "JJ", "NNS", "VBP", "RB", "JJ", "TO", "VB", "DT", "NN", "IN", "NN", "PRP", "VBP", "."]
+    text: ' In_theory, compulsive behavior is a way of diminishing anxiety, and one might expect
+  a negative association except for the possibility that for many children the obsessive-compulsive
+  defenses are not sufficient to quell the amount of anxiety they suffer.'
+    tokens: [[1, 10], [10, 11], [12, 22], [23, 31], [32, 34], [35, 36], [37, 40], [41, 43], [44, 55], [56, 63], [63, 64], [65, 68], [69, 72], [73, 78], [79, 85], [86, 87], [88, 96], [97, 108], [109, 115], [116, 119], [120, 123], [124, 135], [136, 140], [141, 144], [145, 149], [150, 158], [159, 162], [163, 183], [184, 192], [193, 196], [197, 200], [201, 211], [212, 214], [215, 220], [221, 224], [225, 231], [232, 234], [235, 242], [243, 247], [248, 254], [254, 255]]
+    wn16_key: [[0, "in_theory%4:02:00::"], [2, "compulsive%5:00:00:neurotic:00"], [3, "behavior%1:04:00::"], [4, "be%2:42:06::"], [6, "way%1:04:01::"], [8, "diminish%2:30:04::"], [9, "anxiety%1:26:00::"], [14, "expect%2:31:00::"], [16, "negative%3:00:02::"], [17, "association%1:26:02::"], [21, "possibility%1:09:00::"], [24, "many%3:00:00::"], [25, "child%1:18:00::"], [27, "obsessive-compulsive%5:00:00:neurotic:00"], [28, "defense%1:22:00::"], [29, "be%2:42:03::"], [30, "not%4:02:00::"], [31, "sufficient%3:00:00::"], [33, "quell%2:30:00::"], [35, "amount%1:07:00::"], [37, "anxiety%1:26:00::"], [39, "suffer%2:39:01::"]]
+    wn30_key: [[2, "compulsive%3:00:00:neurotic:00"], [3, "behavior%1:04:00::"], [4, "be%2:42:06::"], [6, "way%1:04:01::"], [8, "diminish%2:30:04::"], [9, "anxiety%1:26:00::"], [14, "expect%2:31:00::"], [16, "negative%3:00:02::"], [17, "association%1:26:02::"], [21, "possibility%1:09:00::"], [24, "many%3:00:00::"], [25, "child%1:18:00::"], [27, "obsessive-compulsive%3:00:00:neurotic:00"], [28, "defense%1:22:00::"], [29, "be%2:42:03::"], [30, "not%4:02:00::"], [31, "sufficient%3:00:00::"], [33, "quell%2:30:00::"], [35, "amount%1:07:00::"], [37, "anxiety%1:26:00::"], [39, "suffer%2:39:01::"]]
+WZHo:
+    lemmas: ["The", "issue", "of", "interaction", "between", "anxiety", "and", "compulsivity", "will", "be", "take_up", "later", "."]
+    oewn2026_key: [[1, "oewn-05822776-n"], [3, "oewn-00039759-n"], [5, "oewn-14397837-n"], [7, "oewn-04633239-n"], [10, "oewn-00349076-v"], [11, "oewn-00156621-r"]]
+    paragraph: '7'
+    pos: ["DT", "NN", "IN", "NN", "IN", "NN", "CC", "NN", "MD", "VB", "VB", "RB", "."]
+    text: ' The issue of interaction between anxiety and compulsivity will be taken_up later.
+
+  '
+    tokens: [[1, 4], [5, 10], [11, 13], [14, 25], [26, 33], [34, 41], [42, 45], [46, 58], [59, 63], [64, 66], [67, 75], [76, 81], [81, 82]]
+    wn16_key: [[1, "issue%1:09:01::"], [3, "interaction%1:04:00::"], [5, "anxiety%1:26:00::"], [7, "compulsivity%1:07:00::"], [10, "take_up%2:30:00::"], [11, "later%4:02:02::"]]
+    wn30_key: [[1, "issue%1:09:01::"], [3, "interaction%1:04:00::"], [5, "anxiety%1:26:00::"], [7, "compulsivity%1:07:00::"], [10, "take_up%2:30:00::"], [11, "later%4:02:02::"]]
+FXCH:
+    lemmas: ["In", "the", "primary", "grade", ",", "reading", "permeate", "almost", "every", "aspect", "of", "school", "progress", ",", "and", "the", "child", "'s", "early", "experience", "of", "success", "or", "failure", "in", "learn", "to", "read", "often", "set", "a", "pattern", "of", "total", "achievement", "that", "be", "relatively", "enduring", "throughout", "the", "following", "year", "."]
+    oewn2026_key: [[2, "oewn-01858102-a"], [3, "oewn-08255384-n"], [5, "oewn-05816802-n"], [6, "oewn-01231635-v"], [7, "oewn-00073433-r"], [9, "oewn-05859151-n"], [11, "oewn-05765533-n"], [12, "oewn-00250368-n"], [16, "oewn-09937051-n"], [18, "oewn-00820993-a"], [19, "oewn-07300108-n"], [21, "oewn-00064472-n"], [23, "oewn-00067456-n"], [25, "oewn-00599310-v"], [27, "oewn-00626756-v"], [28, "oewn-00035445-r"], [29, "oewn-00701581-v"], [31, "oewn-00411260-n"], [33, "oewn-00517305-s"], [34, "oewn-00035910-n"], [36, "oewn-02610777-v"], [37, "oewn-00162033-r"], [38, "oewn-01759375-s"], [41, "oewn-00128838-s"], [42, "oewn-15228587-n"]]
+    paragraph: '8'
+    pos: ["IN", "DT", "JJ", "NNS", ",", "NN", "VBZ", "RB", "DT", "NN", "IN", "NN", "NN", ",", "CC", "DT", "NNS", "POS", "JJ", "NNS", "IN", "NN", "CC", "NN", "IN", "VBG", "TO", "VB", "RB", "VBN", "DT", "NN", "IN", "JJ", "NN", "RB", "VBZ", "RB", "JJ", "IN", "DT", "JJ", "NNS", "."]
+    text: ' In the primary grades, reading permeates almost every aspect of school progress,
+  and the children''s early experiences of success or failure in learning to read
+  often set a pattern of total achievement that is relatively enduring throughout
+  the following years.'
+    tokens: [[1, 3], [4, 7], [8, 15], [16, 22], [22, 23], [24, 31], [32, 41], [42, 48], [49, 54], [55, 61], [62, 64], [65, 71], [72, 80], [80, 81], [82, 85], [86, 89], [90, 98], [98, 100], [101, 106], [107, 118], [119, 121], [122, 129], [130, 132], [133, 140], [141, 143], [144, 152], [153, 155], [156, 160], [161, 166], [167, 170], [171, 172], [173, 180], [181, 183], [184, 189], [190, 201], [202, 206], [207, 209], [210, 220], [221, 229], [230, 240], [241, 244], [245, 254], [255, 260], [260, 261]]
+    wn16_key: [[2, "primary%3:00:00::"], [3, "grade%1:14:00::"], [5, "reading%1:09:00::"], [6, "permeate%2:35:01::"], [7, "almost%4:02:00::"], [9, "aspect%1:09:00::"], [11, "school%1:09:00::"], [12, "progress%1:04:01::"], [16, "child%1:18:00::"], [18, "early%3:00:02::"], [19, "experience%1:11:00::"], [21, "success%1:04:00::"], [23, "failure%1:04:00::"], [25, "learn%2:31:00::"], [27, "read%2:31:00::"], [28, "often%4:02:00::"], [29, "set%2:31:04::"], [31, "pattern%1:04:00::"], [33, "total%5:00:00:whole:00"], [34, "achievement%1:04:00::"], [36, "be%2:42:03::"], [37, "relatively%4:02:00::"], [38, "enduring%5:00:00:permanent:00"], [41, "following%5:00:02:succeeding(a):00"], [42, "year%1:28:01::"]]
+    wn30_key: [[2, "primary%3:00:00::"], [3, "grade%1:14:00::"], [5, "reading%1:09:00::"], [6, "permeate%2:35:01::"], [7, "almost%4:02:00::"], [9, "aspect%1:09:00::"], [11, "school%1:09:00::"], [12, "progress%1:04:01::"], [16, "child%1:18:00::"], [18, "early%3:00:02::"], [19, "experience%1:11:00::"], [21, "success%1:04:00::"], [23, "failure%1:04:00::"], [25, "learn%2:31:00::"], [27, "read%2:31:00::"], [28, "often%4:02:00::"], [29, "set%2:31:04::"], [31, "pattern%1:04:00::"], [33, "total%3:00:00:whole:00"], [34, "achievement%1:04:00::"], [36, "be%2:42:03::"], [37, "relatively%4:02:00::"], [38, "enduring%3:00:00:permanent:00"], [41, "following%3:00:02:succeeding:00"], [42, "year%1:28:01::"]]
+bbS4:
+    lemmas: ["In", "establish", "criterion", "measurement", ",", "it", "be", "therefore", "think", "best", "to", "broaden", "the", "scope", "beyond", "the", "reading", "act", "itself", "."]
+    oewn2026_key: [[1, "oewn-00667394-v"], [2, "oewn-07275291-n"], [7, "oewn-00043413-r"], [8, "oewn-00691086-v"], [9, "oewn-00189569-r"], [11, "oewn-00318370-v"], [13, "oewn-05132642-n"], [16, "oewn-05816802-n"], [17, "oewn-00030657-n"]]
+    paragraph: '8'
+    pos: ["IN", "VBG", "NN", "NN", ",", "PRP", "VBD", "RB", "VBN", "RB", "TO", "VB", "DT", "NN", "IN", "DT", "NN", "NN", "PRP", "."]
+    text: ' In establishing criterion measurements, it was therefore thought best to broaden
+  the scope beyond the reading act itself.'
+    tokens: [[1, 3], [4, 16], [17, 26], [27, 39], [39, 40], [41, 43], [44, 47], [48, 57], [58, 65], [66, 70], [71, 73], [74, 81], [82, 85], [86, 91], [92, 98], [99, 102], [103, 110], [111, 114], [115, 121], [121, 122]]
+    wn16_key: [[1, "establish%2:31:02::"], [2, "criterion%1:10:00::"], [3, "measurement%1:07:00::"], [7, "therefore%4:02:00::"], [8, "think%2:31:01::"], [9, "best%4:02:00::"], [11, "broaden%2:30:01::"], [13, "scope%1:07:00::"], [16, "reading%1:09:00::"], [17, "act%1:03:00::"]]
+    wn30_key: [[1, "establish%2:31:02::"], [2, "criterion%1:10:00::"], [7, "therefore%4:02:00::"], [8, "think%2:31:01::"], [9, "best%4:02:00::"], [11, "broaden%2:30:01::"], [13, "scope%1:07:00::"], [16, "reading%1:09:00::"], [17, "act%1:03:00::"]]
+pl5s:
+    lemmas: ["The", "predicted", "interaction", "effect", "should", ",", "if", "potent", ",", "extend", "its", "influence", "over", "all", "academic", "achievement", "."]
+    oewn2026_key: [[2, "oewn-00039759-n"], [3, "oewn-11430739-n"], [7, "oewn-01832697-s"], [9, "oewn-02693758-v"], [11, "oewn-05201419-n"], [14, "oewn-02610356-a"], [15, "oewn-00035910-n"]]
+    paragraph: '8'
+    pos: ["DT", "JJ", "NN", "NN", "MD", ",", "IN", "JJ", ",", "VB", "PRP$", "NN", "IN", "DT", "JJ", "NN", "."]
+    text: ' The predicted interaction effect should, if potent, extend its influence over all
+  academic achievement.
+
+  '
+    tokens: [[1, 4], [5, 14], [15, 26], [27, 33], [34, 40], [40, 41], [42, 44], [45, 51], [51, 52], [53, 59], [60, 63], [64, 73], [74, 78], [79, 82], [83, 91], [92, 103], [103, 104]]
+    wn16_key: [[1, "predicted%5:00:00:expected:00"], [2, "interaction%1:04:00::"], [3, "effect%1:19:00::"], [7, "potent%5:00:00:powerful:00"], [9, "extend%2:42:01::"], [11, "influence%1:07:00::"], [14, "academic%3:01:00::"], [15, "achievement%1:04:00::"]]
+    wn30_key: [[2, "interaction%1:04:00::"], [3, "effect%1:19:00::"], [7, "potent%3:00:00:powerful:00"], [9, "extend%2:42:01::"], [11, "influence%1:07:00::"], [14, "academic%3:01:00::"], [15, "achievement%1:04:00::"]]
+tHyz:
+    lemmas: ["The", "stanford_achievement_test", ",", "form_j", ",", "be", "administer", "by", "classroom", "teacher", ",", "consist_of", "a", "battery", "of", "six", "sub-test", ":", "paragraph", "meaning", ",", "word", "meaning", ",", "spelling", ",", "language", ",", "arithmetic", "computation", ",", "and", "arithmetic", "reasoning", "."]
+    oewn2026_key: [[6, "oewn-02314601-v"], [8, "oewn-03042670-n"], [9, "oewn-10713754-n"], [13, "oewn-07970413-n"], [15, "oewn-02194472-s"], [16, "oewn-01010213-n"], [18, "oewn-06411638-n"], [19, "oewn-06613680-n"], [21, "oewn-06297048-n"], [22, "oewn-06613680-n"], [24, "oewn-06364852-n"], [26, "oewn-06293304-n"], [28, "oewn-06013397-n"], [29, "oewn-00870588-n"], [32, "oewn-06013397-n"], [33, "oewn-05780353-n"]]
+    paragraph: '9'
+    pos: ["DT", "NNP", ",", "NNP", ",", "VBD", "VBN", "IN", "NN", "NNS", ",", "VB", "NN", "NN", "IN", "JJ", "NNS", ":", "NNP", "NNP", ",", "NNP", "NNP", ",", "NNP", ",", "NNP", ",", "NNP", "NNP", ",", "CC", "NN", "NN", "."]
+    text: ' The Stanford_Achievement_Test, Form_J, was administered by classroom teachers, consisting_of
+  a battery of six sub_tests: Paragraph Meaning, Word Meaning, Spelling, Language,
+  Arithmetic Computation, and Arithmetic Reasoning.'
+    tokens: [[1, 4], [5, 30], [30, 31], [32, 38], [38, 39], [40, 43], [44, 56], [57, 59], [60, 69], [70, 78], [78, 79], [80, 93], [94, 95], [96, 103], [104, 106], [107, 110], [111, 120], [120, 121], [122, 131], [132, 139], [139, 140], [141, 145], [146, 153], [153, 154], [155, 163], [163, 164], [165, 173], [173, 174], [175, 185], [186, 197], [197, 198], [199, 202], [203, 213], [214, 223], [223, 224]]
+    wn16_key: [[6, "administer%2:40:01::"], [8, "classroom%1:06:00::"], [9, "teacher%1:18:00::"], [11, "consist_of%2:42:00::"], [13, "battery%1:14:01::"], [15, "six%5:00:00:cardinal:00"], [16, "sub-test%1:04:00::"], [18, "paragraph%1:10:00::"], [19, "meaning%1:10:00::"], [21, "word%1:10:00::"], [22, "meaning%1:10:00::"], [24, "spelling%1:10:00::"], [26, "language%1:10:00::"], [28, "arithmetic%1:09:00::"], [29, "computation%1:04:00::"], [32, "arithmetic%1:09:00::"], [33, "reasoning%1:09:00::"]]
+    wn30_key: [[6, "administer%2:40:01::"], [8, "classroom%1:06:00::"], [9, "teacher%1:18:00::"], [13, "battery%1:14:01::"], [15, "six%3:00:00:cardinal:00"], [16, "sub-test%1:04:00::"], [18, "paragraph%1:10:00::"], [19, "meaning%1:10:00::"], [21, "word%1:10:00::"], [22, "meaning%1:10:00::"], [24, "spelling%1:10:00::"], [26, "language%1:10:00::"], [28, "arithmetic%1:09:00::"], [29, "computation%1:04:00::"], [32, "arithmetic%1:09:00::"], [33, "reasoning%1:09:00::"]]
+yqss:
+    lemmas: ["all_of", "these", "sub-test", "involve", "reading", "except", "arithmetic", "computation", "."]
+    oewn2026_key: [[2, "oewn-01010213-n"], [3, "oewn-02634015-v"], [4, "oewn-05816802-n"], [6, "oewn-06013397-n"], [7, "oewn-00870588-n"]]
+    paragraph: '9'
+    pos: ["JJ", "DT", "NNS", "VBP", "NN", "IN", "NNP", "NNP", "."]
+    text: ' All_of these sub-tests involve reading except Arithmetic Computation.'
+    tokens: [[1, 7], [8, 13], [14, 23], [24, 31], [32, 39], [40, 46], [47, 57], [58, 69], [69, 70]]
+    wn16_key: [[0, "all_of%3:00:00::"], [2, "sub-test%1:04:00::"], [3, "involve%2:42:07::"], [4, "reading%1:09:00::"], [6, "arithmetic%1:09:00::"], [7, "computation%1:04:00::"]]
+    wn30_key: [[2, "sub-test%1:04:00::"], [3, "involve%2:42:07::"], [4, "reading%1:09:00::"], [6, "arithmetic%1:09:00::"], [7, "computation%1:04:00::"]]
+LkMD:
+    lemmas: ["score", "be", "state", "in", "grade", "equivalent", "on", "a", "national", "norm", "."]
+    oewn2026_key: [[0, "oewn-05745098-n"], [2, "oewn-01063503-v"], [4, "oewn-08255384-n"], [5, "oewn-05703519-n"], [8, "oewn-01572255-a"], [9, "oewn-06031110-n"]]
+    paragraph: '9'
+    pos: ["NNS", "VBP", "VBN", "IN", "NN", "NNS", "IN", "DT", "JJ", "NN", "."]
+    text: ' Scores are stated in grade equivalents on a national norm.'
+    tokens: [[1, 7], [8, 11], [12, 18], [19, 21], [22, 27], [28, 39], [40, 42], [43, 44], [45, 53], [54, 58], [58, 59]]
+    wn16_key: [[0, "score%1:09:00::"], [2, "state%2:32:02::"], [4, "grade%1:14:00::"], [5, "equivalent%1:09:00::"], [8, "national%3:00:00::"], [9, "norm%1:09:00::"]]
+    wn30_key: [[0, "score%1:09:00::"], [2, "state%2:32:02::"], [4, "grade%1:14:00::"], [5, "equivalent%1:09:00::"], [8, "national%3:00:00::"], [9, "norm%1:09:00::"]]
+mG2i:
+    lemmas: ["The", "battery", "median", "grade", "equivalent", "be", "use", "in", "data", "analysis", "in", "this", "study", "."]
+    oewn2026_key: [[1, "oewn-07970413-n"], [2, "oewn-01599054-s"], [3, "oewn-08255384-n"], [4, "oewn-05703519-n"], [6, "oewn-01161188-v"], [8, "oewn-08479331-n"], [9, "oewn-00635519-n"], [12, "oewn-00645746-n"]]
+    paragraph: '9'
+    pos: ["DT", "NN", "JJ", "NN", "NN", "VBD", "VBN", "IN", "NN", "NN", "RB", "RB", "NN", "."]
+    text: ' The battery median grade equivalent was used in data analysis in this study.
+
+  '
+    tokens: [[1, 4], [5, 12], [13, 19], [20, 25], [26, 36], [37, 40], [41, 45], [46, 48], [49, 53], [54, 62], [63, 65], [66, 70], [71, 76], [76, 77]]
+    wn16_key: [[1, "battery%1:14:01::"], [2, "median%5:00:00:normal:01"], [3, "grade%1:14:00::"], [4, "equivalent%1:09:00::"], [6, "use%2:34:01::"], [8, "data%1:14:00::"], [9, "analysis%1:04:00::"], [12, "study%1:04:00::"]]
+    wn30_key: [[1, "battery%1:14:01::"], [2, "median%3:00:00:normal:01"], [3, "grade%1:14:00::"], [4, "equivalent%1:09:00::"], [6, "use%2:34:01::"], [8, "data%1:14:00::"], [9, "analysis%1:04:00::"], [12, "study%1:04:00::"]]
+e66i:
+    lemmas: ["The", "Wechsler_Intelligence_Scale_for_Children", "be", "administer", "to", "each", "sample", "third", "grade", "child", "by", "a", "clinical", "worker", "."]
+    oewn2026_key: [[3, "oewn-02314601-v"], [6, "oewn-06036061-n"], [7, "oewn-02209976-s"], [8, "oewn-08255384-n"], [9, "oewn-09937051-n"], [12, "oewn-02896833-a"], [13, "oewn-09655706-n"]]
+    paragraph: '10'
+    pos: ["DT", "NNS", "VBD", "VBN", "TO", "DT", "NN", "JJ", "NN", "NN", "IN", "DT", "JJ", "NN", "."]
+    text: ' The Wechsler_Intelligence_Scale_for_Children was administered to each sample third
+  grade child by a clinical worker.'
+    tokens: [[1, 4], [5, 45], [46, 49], [50, 62], [63, 65], [66, 70], [71, 77], [78, 83], [84, 89], [90, 95], [96, 98], [99, 100], [101, 109], [110, 116], [116, 117]]
+    wn16_key: [[3, "administer%2:40:01::"], [6, "sample%1:09:01::"], [7, "third%5:00:00:ordinal:00"], [8, "grade%1:14:00::"], [9, "child%1:18:00::"], [12, "clinical%3:01:00::"], [13, "worker%1:18:00::"]]
+    wn30_key: [[3, "administer%2:40:01::"], [6, "sample%1:09:01::"], [7, "third%3:00:00:ordinal:00"], [8, "grade%1:14:00::"], [9, "child%1:18:00::"], [12, "clinical%3:01:00::"], [13, "worker%1:18:00::"]]
+aPrT:
+    lemmas: ["The", "relationship", "of", "intelligence_test", "score", "to", "school", "achievement", "be", "a", "well", "established", "fact", "(", "in", "this", "case", ",", "*", "*", "f", ")", ";", "therefore", ",", "in", "the", "investigation", "of", "the", "present", "hypothesis", ",", "it", "be", "necessary", "to", "control", "this", "factor", "."]
+    oewn2026_key: [[1, "oewn-13802931-n"], [3, "oewn-01008995-n"], [4, "oewn-05745098-n"], [6, "oewn-05765533-n"], [7, "oewn-00035910-n"], [8, "oewn-02610777-v"], [10, "oewn-00013241-r"], [11, "oewn-02136915-s"], [12, "oewn-05825522-n"], [16, "oewn-13966452-n;oewn-07323507-n"], [23, "oewn-00043413-r"], [27, "oewn-00635107-n"], [30, "oewn-01735600-a"], [31, "oewn-07177196-n"], [35, "oewn-01584458-a"], [37, "oewn-02516039-v"], [39, "oewn-05877576-n"]]
+    paragraph: '10'
+    pos: ["DT", "NN", "IN", "NN", "NNS", "TO", "NN", "NN", "VBZ", "DT", "RB", "JJ", "NN", "NN", "RB", "RB", "NN", ",", "SYM", "SYM", "NN", "FW", ":", "RB", ",", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", ",", "PRP", "VB", "JJ", "TO", "VB", "DT", "NN", "."]
+    text: ' The relationship of intelligence_test scores to school achievement is a well established
+  fact (in this case, * * f); therefore, in the investigation of the present hypothesis,
+  it was necessary to control this factor.
+
+  '
+    tokens: [[1, 4], [5, 17], [18, 20], [21, 38], [39, 45], [46, 48], [49, 55], [56, 67], [68, 70], [71, 72], [73, 77], [78, 89], [90, 94], [95, 96], [96, 98], [99, 103], [104, 108], [108, 109], [110, 111], [112, 113], [114, 115], [115, 116], [116, 117], [118, 127], [127, 128], [129, 131], [132, 135], [136, 149], [150, 152], [153, 156], [157, 164], [165, 175], [175, 176], [177, 179], [180, 183], [184, 193], [194, 196], [197, 204], [205, 209], [210, 216], [216, 217]]
+    wn16_key: [[1, "relationship%1:24:00::"], [3, "intelligence_test%1:04:00::"], [4, "score%1:09:00::"], [6, "school%1:09:00::"], [7, "achievement%1:04:00::"], [8, "be%2:42:03::"], [10, "well%4:02:05::"], [11, "established%5:00:00:settled:02"], [12, "fact%1:09:01::"], [16, "case%1:26:00::;case%1:11:00::"], [23, "therefore%4:02:00::"], [27, "investigation%1:04:00::"], [30, "present%3:00:01::"], [31, "hypothesis%1:10:00::"], [35, "necessary%3:00:00::"], [37, "control%2:41:01::"], [39, "factor%1:09:00::"]]
+    wn30_key: [[1, "relationship%1:24:00::"], [3, "intelligence_test%1:04:00::"], [4, "score%1:09:00::"], [6, "school%1:09:00::"], [7, "achievement%1:04:00::"], [8, "be%2:42:03::"], [10, "well%4:02:05::"], [11, "established%3:00:00:settled:02"], [12, "fact%1:09:01::"], [16, "case%1:26:00::;case%1:11:00::"], [23, "therefore%4:02:00::"], [27, "investigation%1:04:00::"], [30, "present%3:00:01::"], [31, "hypothesis%1:10:00::"], [35, "necessary%3:00:00::"], [37, "control%2:41:01::"], [39, "factor%1:09:00::"]]
+4CFi:
+    lemmas: ["The", "criterion", "score", "use", "in", "the", "statistical", "analysis", "be", "an", "index", "of", "overachievement", "-", "or", "underachievement", "."]
+    oewn2026_key: [[1, "oewn-07275291-n"], [2, "oewn-05745098-n"], [3, "oewn-01161188-v"], [6, "oewn-02922940-a"], [7, "oewn-00635519-n"], [8, "oewn-02622439-v"], [10, "oewn-13873264-n"], [12, "oewn-00048097-n"], [15, "oewn-00048291-n"]]
+    paragraph: '11'
+    pos: ["DT", "NN", "NN", "VBN", "IN", "DT", "JJ", "NN", "VBZ", "DT", "NN", "IN", "NN", ":", "CC", "NN", "."]
+    text: ' The criterion score used in the statistical analysis is an index of over - or under-achievement.'
+    tokens: [[1, 4], [5, 14], [15, 20], [21, 25], [26, 28], [29, 32], [33, 44], [45, 53], [54, 56], [57, 59], [60, 65], [66, 68], [69, 73], [74, 75], [76, 78], [79, 96], [96, 97]]
+    wn16_key: [[1, "criterion%1:10:00::"], [2, "score%1:09:00::"], [3, "use%2:34:01::"], [6, "statistical%3:01:00::"], [7, "analysis%1:04:00::"], [8, "be%2:42:06::"], [10, "index%1:24:00::"], [12, "overachievement%1:04:00::"], [15, "underachievement%1:04:00::"]]
+    wn30_key: [[1, "criterion%1:10:00::"], [2, "score%1:09:00::"], [3, "use%2:34:01::"], [6, "statistical%3:01:00::"], [7, "analysis%1:04:00::"], [8, "be%2:42:06::"], [10, "index%1:24:00::"], [12, "overachievement%1:04:00::"], [15, "underachievement%1:04:00::"]]
+TZIs:
+    lemmas: ["It", "be", "the", "discrepancy", "between", "the", "actual", "attained", "achievement", "test", "score", "and", "the", "score", "that", "would", "be", "predict", "by", "the", "i.q.", "."]
+    oewn2026_key: [[1, "oewn-02670846-v"], [3, "oewn-07381227-n"], [6, "oewn-00043985-a"], [7, "oewn-00825172-s"], [8, "oewn-00035910-n"], [9, "oewn-01008617-n"], [10, "oewn-05745098-n"], [13, "oewn-05745098-n"], [17, "oewn-00873606-v"], [20, "oewn-13844189-n"]]
+    paragraph: '11'
+    pos: ["PRP", "VBZ", "DT", "NN", "IN", "DT", "JJ", "JJ", "NN", "NN", "NN", "CC", "DT", "NN", "WDT", "MD", "VB", "VBN", "IN", "DT", "NN", "."]
+    text: ' It is the discrepancy between the actual attained achievement test score and the
+  score that would be predicted by the I._Q. .'
+    tokens: [[1, 3], [4, 6], [7, 10], [11, 22], [23, 30], [31, 34], [35, 41], [42, 50], [51, 62], [63, 67], [68, 73], [74, 77], [78, 81], [82, 87], [88, 92], [93, 98], [99, 101], [102, 111], [112, 114], [115, 118], [119, 124], [125, 126]]
+    wn16_key: [[1, "be%2:42:07::"], [3, "discrepancy%1:11:00::"], [6, "actual%3:00:00::"], [7, "attained%5:00:00:earned:00"], [8, "achievement%1:04:00::"], [9, "test%1:04:02::"], [10, "score%1:09:00::"], [13, "score%1:09:00::"], [17, "predict%2:32:01::"], [20, "i.q.%1:24:00::"]]
+    wn30_key: [[1, "be%2:42:07::"], [3, "discrepancy%1:11:00::"], [6, "actual%3:00:00::"], [7, "attained%3:00:00:earned:00"], [8, "achievement%1:04:00::"], [9, "test%1:04:02::"], [10, "score%1:09:00::"], [13, "score%1:09:00::"], [17, "predict%2:32:01::"], [20, "i.q.%1:24:00::"]]
+gnhO:
+    lemmas: ["for_example", ",", "on", "the", "basis", "of", "the", "regression_equation", ",", "a", "child", "with", "an", "i.q.", "of", "120", "in", "this", "sample", "would", "be", "expect", "to", "earn", "an", "achievement", "test", "score", "of", "4.8", "(", "grade", "equivalent", ")", "."]
+    oewn2026_key: [[0, "oewn-00160239-r"], [4, "oewn-13813124-n"], [7, "oewn-06037790-n"], [10, "oewn-09937051-n"], [13, "oewn-13844189-n"], [18, "oewn-06036061-n"], [21, "oewn-00721658-v"], [23, "oewn-02295101-v"], [25, "oewn-00035910-n"], [26, "oewn-01008617-n"], [27, "oewn-05745098-n"], [31, "oewn-08255384-n"], [32, "oewn-05703519-n"]]
+    paragraph: '11'
+    pos: ["RB", ",", "IN", "DT", "NN", "IN", "DT", "NN", ",", "DT", "NN", "IN", "DT", "NN", "IN", "CD", "RB", "RB", "NN", "MD", "VB", "VBN", "TO", "VB", "DT", "NN", "NN", "NN", "IN", "CD", "CD", "NN", "NN", "NN", "."]
+    text: ' For_example, on the basis of the regression_equation, a child with an I._Q. of 120
+  in this sample would be expected to earn an achievement test score of 4.8 (grade
+  equivalent).'
+    tokens: [[1, 12], [12, 13], [14, 16], [17, 20], [21, 26], [27, 29], [30, 33], [34, 53], [53, 54], [55, 56], [57, 62], [63, 67], [68, 70], [71, 76], [77, 79], [80, 83], [84, 86], [87, 91], [92, 98], [99, 104], [105, 107], [108, 116], [117, 119], [120, 124], [125, 127], [128, 139], [140, 144], [145, 150], [151, 153], [154, 157], [158, 159], [159, 164], [165, 175], [175, 176], [176, 177]]
+    wn16_key: [[0, "for_example%4:02:00::"], [4, "basis%1:24:00::"], [7, "regression_equation%1:09:00::"], [10, "child%1:18:00::"], [13, "i.q.%1:24:00::"], [18, "sample%1:09:01::"], [21, "expect%2:31:00::"], [23, "earn%2:40:03::"], [25, "achievement%1:04:00::"], [26, "test%1:04:02::"], [27, "score%1:09:00::"], [31, "grade%1:14:00::"], [32, "equivalent%1:09:00::"]]
+    wn30_key: [[0, "for_example%4:02:00::"], [4, "basis%1:24:00::"], [7, "regression_equation%1:09:00::"], [10, "child%1:18:00::"], [13, "i.q.%1:24:00::"], [18, "sample%1:09:01::"], [21, "expect%2:31:00::"], [23, "earn%2:40:03::"], [25, "achievement%1:04:00::"], [26, "test%1:04:02::"], [27, "score%1:09:00::"], [31, "grade%1:14:00::"], [32, "equivalent%1:09:00::"]]
+ODnb:
+    lemmas: ["If", "a", "child", "with", "an", "i.q.", "of", "120", "score", "5.5", "in", "achievement", ",", "his", "discrepancy", "score", "would", "be", "+", ".7", ",", "represent", ".7", "of", "one", "year", "of", "overachievement", "."]
+    oewn2026_key: [[2, "oewn-09937051-n"], [5, "oewn-13844189-n"], [8, "oewn-01114241-v"], [11, "oewn-00035910-n"], [14, "oewn-07381227-n"], [15, "oewn-05745098-n"], [17, "oewn-02670846-v"], [21, "oewn-00837915-v"], [24, "oewn-02193977-s"], [25, "oewn-15228587-n"], [27, "oewn-00048097-n"]]
+    paragraph: '11'
+    pos: ["IN", "DT", "NN", "IN", "DT", "NN", "IN", "CD", "VBD", "CD", "IN", "NN", ",", "PRP$", "NN", "NN", "MD", "VB", "CC", "CD", ",", "VBG", "CD", "IN", "JJ", "NN", "IN", "NN", "."]
+    text: ' If a child with an I._Q. of 120 scored 5.5 in achievement, his discrepancy score
+  would be + .7, representing .7 of one year of over-achievement.'
+    tokens: [[1, 3], [4, 5], [6, 11], [12, 16], [17, 19], [20, 25], [26, 28], [29, 32], [33, 39], [40, 43], [44, 46], [47, 58], [58, 59], [60, 63], [64, 75], [76, 81], [82, 87], [88, 90], [91, 92], [93, 95], [95, 96], [97, 109], [110, 112], [113, 115], [116, 119], [120, 124], [125, 127], [128, 144], [144, 145]]
+    wn16_key: [[2, "child%1:18:00::"], [5, "i.q.%1:24:00::"], [8, "score%2:33:00::"], [11, "achievement%1:04:00::"], [14, "discrepancy%1:11:00::"], [15, "score%1:09:00::"], [17, "be%2:42:07::"], [21, "represent%2:32:02::"], [24, "one%5:00:00:cardinal:00"], [25, "year%1:28:01::"], [27, "overachievement%1:04:00::"]]
+    wn30_key: [[2, "child%1:18:00::"], [5, "i.q.%1:24:00::"], [8, "score%2:33:00::"], [11, "achievement%1:04:00::"], [14, "discrepancy%1:11:00::"], [15, "score%1:09:00::"], [17, "be%2:42:07::"], [21, "represent%2:32:02::"], [24, "one%3:00:00:cardinal:00"], [25, "year%1:28:01::"], [27, "overachievement%1:04:00::"]]
+wbqC:
+    lemmas: ["A", "child", "with", "an", "i.q.", "of", "98", "would", "be", "expect", "to", "earn", "an", "achievement", "test", "score", "of", "3.5", "."]
+    oewn2026_key: [[1, "oewn-09937051-n"], [4, "oewn-13844189-n"], [9, "oewn-00721658-v"], [11, "oewn-02295101-v"], [13, "oewn-00035910-n"], [14, "oewn-01008617-n"], [15, "oewn-05745098-n"]]
+    paragraph: '11'
+    pos: ["DT", "NN", "IN", "DT", "NN", "IN", "CD", "MD", "VB", "VBN", "TO", "VB", "DT", "NN", "NN", "NN", "IN", "CD", "."]
+    text: ' A child with an I._Q. of 98 would be expected to earn an achievement test score
+  of 3.5.'
+    tokens: [[1, 2], [3, 8], [9, 13], [14, 16], [17, 22], [23, 25], [26, 28], [29, 34], [35, 37], [38, 46], [47, 49], [50, 54], [55, 57], [58, 69], [70, 74], [75, 80], [81, 83], [84, 87], [87, 88]]
+    wn16_key: [[1, "child%1:18:00::"], [4, "i.q.%1:24:00::"], [9, "expect%2:31:00::"], [11, "earn%2:40:03::"], [13, "achievement%1:04:00::"], [14, "test%1:04:02::"], [15, "score%1:09:00::"]]
+    wn30_key: [[1, "child%1:18:00::"], [4, "i.q.%1:24:00::"], [9, "expect%2:31:00::"], [11, "earn%2:40:03::"], [13, "achievement%1:04:00::"], [14, "test%1:04:02::"], [15, "score%1:09:00::"]]
+4iA0:
+    lemmas: ["If", "such", "a", "child", "score", "three", ",", "his", "discrepancy", "score", "would", "be", "-", ".5", ",", "represent", ".5", "of", "one", "year", "of", "underachievement", "."]
+    oewn2026_key: [[1, "oewn-01558587-s"], [3, "oewn-09937051-n"], [4, "oewn-01114241-v"], [5, "oewn-02194219-s"], [8, "oewn-07381227-n"], [9, "oewn-05745098-n"], [11, "oewn-02670846-v"], [15, "oewn-00837915-v"], [18, "oewn-02193977-s"], [19, "oewn-15228587-n"], [21, "oewn-00048291-n"]]
+    paragraph: '11'
+    pos: ["IN", "JJ", "DT", "NN", "VBD", "JJ", ",", "PRP$", "NN", "NN", "MD", "VB", ":", "CD", ",", "VBG", "CD", "IN", "JJ", "NN", "IN", "NN", "."]
+    text: ' If such a child scored 3.0, his discrepancy score would be - .5, representing .5
+  of one year of under-achievement.'
+    tokens: [[1, 3], [4, 8], [9, 10], [11, 16], [17, 23], [24, 27], [27, 28], [29, 32], [33, 44], [45, 50], [51, 56], [57, 59], [60, 61], [62, 64], [64, 65], [66, 78], [79, 81], [82, 84], [85, 88], [89, 93], [94, 96], [97, 114], [114, 115]]
+    wn16_key: [[1, "such%5:00:01:specified:00"], [3, "child%1:18:00::"], [4, "score%2:33:00::"], [5, "three%5:00:00:cardinal:00"], [8, "discrepancy%1:11:00::"], [9, "score%1:09:00::"], [11, "be%2:42:07::"], [15, "represent%2:32:02::"], [18, "one%5:00:00:cardinal:00"], [19, "year%1:28:01::"], [21, "underachievement%1:04:00::"]]
+    wn30_key: [[1, "such%3:00:00:much:00"], [3, "child%1:18:00::"], [4, "score%2:33:00::"], [5, "three%3:00:00:cardinal:00"], [8, "discrepancy%1:11:00::"], [9, "score%1:09:00::"], [11, "be%2:42:07::"], [15, "represent%2:32:02::"], [18, "one%3:00:00:cardinal:00"], [19, "year%1:28:01::"], [21, "underachievement%1:04:00::"]]
+cnuZ:
+    lemmas: ["in", "this", "manner", ",", "the", "factor", "measure", "by", "the", "intelligence_test", "be", "control", ",", "allow", "discovered", "difference", "in", "achievement", "to", "be", "interpret", "as", "result", "from", "other", "variable", "."]
+    oewn2026_key: [[2, "oewn-04936080-n"], [5, "oewn-05877576-n"], [6, "oewn-00683348-v"], [9, "oewn-01008995-n"], [11, "oewn-02516039-v"], [13, "oewn-02427979-v"], [14, "oewn-01615012-s"], [15, "oewn-04756076-n"], [17, "oewn-00035910-n"], [20, "oewn-00940278-v"], [22, "oewn-02640346-v"], [24, "oewn-02076759-a"], [25, "oewn-09492089-n"]]
+    paragraph: '11'
+    pos: ["RB", "RB", "NN", ",", "DT", "NNS", "VBN", "IN", "DT", "NN", "VBD", "VBN", ",", "VBG", "JJ", "NNS", "IN", "NN", "TO", "VB", "VBN", "IN", "VBG", "IN", "JJ", "NNS", "."]
+    text: ' In this manner, the factors measured by the intelligence_test were controlled, allowing
+  discovered differences in achievement to be interpreted as resulting from other
+  variables.
+
+  '
+    tokens: [[1, 3], [4, 8], [9, 15], [15, 16], [17, 20], [21, 28], [29, 37], [38, 40], [41, 44], [45, 62], [63, 67], [68, 78], [78, 79], [80, 88], [89, 99], [100, 111], [112, 114], [115, 126], [127, 129], [130, 132], [133, 144], [145, 147], [148, 157], [158, 162], [163, 168], [169, 178], [178, 179]]
+    wn16_key: [[2, "manner%1:07:02::"], [5, "factor%1:09:00::"], [6, "measure%2:31:01::"], [9, "intelligence_test%1:04:00::"], [11, "control%2:41:01::"], [13, "allow%2:41:00::"], [14, "discovered%5:00:00:determined:00"], [15, "difference%1:07:00::"], [17, "achievement%1:04:00::"], [20, "interpret%2:32:00::"], [22, "result%2:42:00::"], [24, "other%3:00:00::"], [25, "variable%1:17:00::"]]
+    wn30_key: [[2, "manner%1:07:02::"], [5, "factor%1:09:00::"], [6, "measure%2:31:01::"], [9, "intelligence_test%1:04:00::"], [11, "control%2:41:01::"], [13, "allow%2:41:00::"], [14, "discovered%3:00:00:determined:00"], [15, "difference%1:07:00::"], [17, "achievement%1:04:00::"], [20, "interpret%2:32:00::"], [22, "result%2:42:00::"], [24, "other%3:00:00::"], [25, "variable%1:17:00::"]]
+cvHW:
+    lemmas: ["table", "1", "and", "2", "present", "the", "result", "of", "the", "statistical", "analysis", "of", "the", "data", "when", "compulsivity", "be", "use", "as", "the", "descriptive", "variable", "."]
+    oewn2026_key: [[0, "oewn-08283156-n"], [1, "oewn-02193977-s"], [3, "oewn-02194109-s"], [4, "oewn-00775012-v"], [6, "oewn-11430739-n"], [9, "oewn-02922940-a"], [10, "oewn-00635519-n"], [13, "oewn-08479331-n"], [15, "oewn-04633239-n"], [17, "oewn-01161188-v"], [20, "oewn-00736213-a"], [21, "oewn-09492089-n"]]
+    paragraph: '12'
+    pos: ["NNS", "JJ", "CC", "JJ", "VB", "DT", "NNS", "IN", "DT", "JJ", "NN", "IN", "DT", "NNS", "WRB", "NN", "VBZ", "VBN", "IN", "DT", "JJ", "NN", "."]
+    text: ' Tables 1 and 2 present the results of the statistical analysis of the data when
+  compulsivity is used as the descriptive variable.'
+    tokens: [[1, 7], [8, 9], [10, 13], [14, 15], [16, 23], [24, 27], [28, 35], [36, 38], [39, 42], [43, 54], [55, 63], [64, 66], [67, 70], [71, 75], [76, 80], [81, 93], [94, 96], [97, 101], [102, 104], [105, 108], [109, 120], [121, 129], [129, 130]]
+    wn16_key: [[0, "table%1:14:00::"], [1, "1%5:00:00:cardinal:00"], [3, "2%5:00:00:cardinal:00"], [4, "present%2:32:00::"], [6, "result%1:19:00::"], [9, "statistical%3:01:00::"], [10, "analysis%1:04:00::"], [13, "data%1:14:00::"], [15, "compulsivity%1:07:00::"], [17, "use%2:34:01::"], [20, "descriptive%3:00:02::"], [21, "variable%1:17:00::"]]
+    wn30_key: [[0, "table%1:14:00::"], [1, "1%3:00:00:cardinal:00"], [3, "2%3:00:00:cardinal:00"], [4, "present%2:32:00::"], [6, "result%1:19:00::"], [9, "statistical%3:01:00::"], [10, "analysis%1:04:00::"], [13, "data%1:14:00::"], [15, "compulsivity%1:07:00::"], [17, "use%2:34:01::"], [20, "descriptive%3:00:02::"], [21, "variable%1:17:00::"]]
+rtRr:
+    lemmas: ["figure", "1", "portray", "the", "mean", "achievement", "score", "of", "each", "subgroup", "graphically", "."]
+    oewn2026_key: [[0, "oewn-07012307-n"], [1, "oewn-02193977-s"], [2, "oewn-00990922-v"], [4, "oewn-01598728-s"], [5, "oewn-00035910-n"], [6, "oewn-05745098-n"], [9, "oewn-08017525-n"], [10, "oewn-00312240-r"]]
+    paragraph: '12'
+    pos: ["NN", "JJ", "VBZ", "DT", "JJ", "NN", "NNS", "IN", "DT", "NN", "RB", "."]
+    text: ' Figure 1 portrays the mean achievement scores of each sub-group graphically.'
+    tokens: [[1, 7], [8, 9], [10, 18], [19, 22], [23, 27], [28, 39], [40, 46], [47, 49], [50, 54], [55, 64], [65, 76], [76, 77]]
+    wn16_key: [[0, "figure%1:10:00::"], [1, "1%5:00:00:cardinal:00"], [2, "portray%2:32:00::"], [4, "mean%5:00:00:normal:01"], [5, "achievement%1:04:00::"], [6, "score%1:09:00::"], [9, "subgroup%1:14:00::"], [10, "graphically%4:02:03::"]]
+    wn30_key: [[0, "figure%1:10:00::"], [1, "1%3:00:00:cardinal:00"], [2, "portray%2:32:00::"], [4, "mean%3:00:00:normal:01"], [5, "achievement%1:04:00::"], [6, "score%1:09:00::"], [9, "subgroup%1:14:00::"], [10, "graphically%4:02:03::"]]
+T1z+:
+    lemmas: ["first_of_all", ",", "as", "we", "have", "surmise", ",", "the", "highly", "compulsive", "child", "in", "the", "structured", "setting", "score", "significantly", "better", "(", "*", "*", "f", ")", "on", "achievement", "than", "do", "similar", "child", "in", "the", "unstructured", "school", "."]
+    oewn2026_key: [[0, "oewn-00103286-r"], [5, "oewn-00923043-v"], [8, "oewn-00089896-r"], [9, "oewn-01588067-s"], [10, "oewn-09937051-n"], [13, "oewn-01676037-a"], [14, "oewn-08585785-n"], [15, "oewn-01114241-v"], [16, "oewn-00512503-r"], [17, "oewn-00060145-r"], [24, "oewn-00035910-n"], [27, "oewn-01413463-a"], [28, "oewn-09937051-n"], [31, "oewn-01676186-a"], [32, "oewn-08293641-n"]]
+    paragraph: '12'
+    pos: ["RB", ",", "IN", "PRP", "VBD", "VBN", ",", "DT", "RB", "JJ", "NNS", "IN", "DT", "JJ", "NN", "VB", "RB", "RB", "NN", "SYM", "SYM", "NN", "FW", "IN", "NN", "IN", "VBP", "JJ", "NNS", "IN", "DT", "JJ", "NNS", "."]
+    text: ' First_of_all, as we had surmised, the highly compulsive children in the structured
+  setting score significantly better (* * f) on achievement than do similar children
+  in the unstructured schools.'
+    tokens: [[1, 13], [13, 14], [15, 17], [18, 20], [21, 24], [25, 33], [33, 34], [35, 38], [39, 45], [46, 56], [57, 65], [66, 68], [69, 72], [73, 83], [84, 91], [92, 97], [98, 111], [112, 118], [119, 120], [120, 121], [122, 123], [124, 125], [125, 126], [127, 129], [130, 141], [142, 146], [147, 149], [150, 157], [158, 166], [167, 169], [170, 173], [174, 186], [187, 194], [194, 195]]
+    wn16_key: [[0, "first_of_all%4:02:00::"], [5, "surmise%2:32:00::"], [8, "highly%4:02:02::"], [9, "compulsive%5:00:00:neurotic:00"], [10, "child%1:18:00::"], [13, "structured%3:00:00::"], [14, "setting%1:15:00::"], [15, "score%2:33:00::"], [16, "significantly%4:02:04::"], [17, "better%4:02:00::"], [24, "achievement%1:04:00::"], [27, "similar%3:00:04::"], [28, "child%1:18:00::"], [31, "unstructured%3:00:00::"], [32, "school%1:14:00::"]]
+    wn30_key: [[0, "first_of_all%4:02:00::"], [5, "surmise%2:32:00::"], [8, "highly%4:02:01::"], [9, "compulsive%3:00:00:neurotic:00"], [10, "child%1:18:00::"], [13, "structured%3:00:00::"], [14, "setting%1:15:00::"], [15, "score%2:33:00::"], [16, "significantly%4:02:04::"], [17, "better%4:02:00::"], [24, "achievement%1:04:00::"], [27, "similar%3:00:04::"], [28, "child%1:18:00::"], [31, "unstructured%3:00:00::"], [32, "school%1:14:00::"]]
+Q7pY:
+    lemmas: ["It", "can", "be", "see", "too", "that", "when", "we", "contrast", "level", "of", "compulsivity", "within", "the", "structured", "school", ",", "the", "high", "compulsive", "child", "do", "better", "(", "*", "*", "f", ")", "."]
+    oewn2026_key: [[3, "oewn-00592510-v"], [4, "oewn-00048072-r"], [8, "oewn-00662884-v"], [9, "oewn-05101152-n"], [11, "oewn-04633239-n"], [14, "oewn-01676037-a"], [15, "oewn-08293641-n"], [18, "oewn-01213526-a"], [19, "oewn-01588067-s"], [20, "oewn-09937051-n"], [21, "oewn-02623620-v"], [22, "oewn-00060145-r"]]
+    paragraph: '12'
+    pos: ["PRP", "MD", "VB", "VBN", "RB", "IN", "WRB", "PRP", "VBP", "NNS", "IN", "NN", "IN", "DT", "JJ", "NNS", ",", "DT", "JJ", "JJ", "NNS", "VBP", "RBR", "VB", "SYM", "SYM", "NN", "FW", "."]
+    text: ' It can be seen too that when we contrast levels of compulsivity within the structured
+  schools, the high compulsive children do better (* * f).'
+    tokens: [[1, 3], [4, 7], [8, 10], [11, 15], [16, 19], [20, 24], [25, 29], [30, 32], [33, 41], [42, 48], [49, 51], [52, 64], [65, 71], [72, 75], [76, 86], [87, 94], [94, 95], [96, 99], [100, 104], [105, 115], [116, 124], [125, 127], [128, 134], [135, 136], [136, 137], [138, 139], [140, 141], [141, 142], [142, 143]]
+    wn16_key: [[3, "see%2:31:01::"], [4, "too%4:02:01::"], [8, "contrast%2:31:00::"], [9, "level%1:07:00::"], [11, "compulsivity%1:07:00::"], [14, "structured%3:00:00::"], [15, "school%1:14:00::"], [18, "high%3:00:02::"], [19, "compulsive%5:00:00:neurotic:00"], [20, "child%1:18:00::"], [21, "do%2:42:00::"], [22, "better%4:02:00::"]]
+    wn30_key: [[3, "see%2:31:01::"], [4, "too%4:02:01::"], [8, "contrast%2:31:00::"], [9, "level%1:07:00::"], [11, "compulsivity%1:07:00::"], [14, "structured%3:00:00::"], [15, "school%1:14:00::"], [18, "high%3:00:02::"], [19, "compulsive%3:00:00:neurotic:00"], [20, "child%1:18:00::"], [21, "do%2:42:00::"], [22, "better%4:02:00::"]]
+tOSJ:
+    lemmas: ["No", "significant", "difference", "be", "find", "in", "achievement", "between", "high", "and", "low", "compulsive", "child", "within", "the", "unstructured", "school", "."]
+    oewn2026_key: [[1, "oewn-02173212-a"], [2, "oewn-04756076-n"], [4, "oewn-02158938-v"], [6, "oewn-00035910-n"], [8, "oewn-01213526-a"], [10, "oewn-01215141-a"], [11, "oewn-01588067-s"], [12, "oewn-09937051-n"], [15, "oewn-01676186-a"], [16, "oewn-08293641-n"]]
+    paragraph: '12'
+    pos: ["DT", "JJ", "NN", "VBD", "VBN", "IN", "NN", "IN", "JJ", "CC", "JJ", "JJ", "NNS", "IN", "DT", "JJ", "NN", "."]
+    text: ' No significant difference was found in achievement between high and low compulsive
+  children within the unstructured school.'
+    tokens: [[1, 3], [4, 15], [16, 26], [27, 30], [31, 36], [37, 39], [40, 51], [52, 59], [60, 64], [65, 68], [69, 72], [73, 83], [84, 92], [93, 99], [100, 103], [104, 116], [117, 123], [123, 124]]
+    wn16_key: [[1, "significant%3:00:01::"], [2, "difference%1:07:00::"], [4, "find%2:39:02::"], [6, "achievement%1:04:00::"], [8, "high%3:00:02::"], [10, "low%3:00:02::"], [11, "compulsive%5:00:00:neurotic:00"], [12, "child%1:18:00::"], [15, "unstructured%3:00:00::"], [16, "school%1:14:00::"]]
+    wn30_key: [[1, "significant%3:00:01::"], [2, "difference%1:07:00::"], [4, "find%2:39:02::"], [6, "achievement%1:04:00::"], [8, "high%3:00:02::"], [10, "low%3:00:02::"], [11, "compulsive%3:00:00:neurotic:00"], [12, "child%1:18:00::"], [15, "unstructured%3:00:00::"], [16, "school%1:14:00::"]]
+wWsc:
+    lemmas: ["The", "hypothesis", "of", "there", "be", "an", "interaction", "between", "compulsivity", "and", "teaching_method", "be", "support", ",", "in", "this", "case", ",", "at", "the", ".05", "level", "."]
+    oewn2026_key: [[1, "oewn-07177196-n"], [6, "oewn-00039759-n"], [8, "oewn-04633239-n"], [10, "oewn-05668782-n"], [12, "oewn-00667804-v"], [16, "oewn-13966452-n;oewn-07323507-n"], [21, "oewn-05101152-n"]]
+    paragraph: '12'
+    pos: ["DT", "NN", "IN", "EX", "VB", "DT", "NN", "IN", "NN", "CC", "NN", "VBD", "VBN", ",", "RB", "RB", "NN", ",", "IN", "DT", "CD", "NN", "."]
+    text: ' The hypothesis of there being an interaction between compulsivity and teaching_method
+  was supported, in this case, at the .05 level.
+
+  '
+    tokens: [[1, 4], [5, 15], [16, 18], [19, 24], [25, 30], [31, 33], [34, 45], [46, 53], [54, 66], [67, 70], [71, 86], [87, 90], [91, 100], [100, 101], [102, 104], [105, 109], [110, 114], [114, 115], [116, 118], [119, 122], [123, 126], [127, 132], [132, 133]]
+    wn16_key: [[1, "hypothesis%1:10:00::"], [6, "interaction%1:04:00::"], [8, "compulsivity%1:07:00::"], [10, "teaching_method%1:09:00::"], [12, "support%2:31:00::"], [16, "case%1:26:00::;case%1:11:00::"], [21, "level%1:07:00::"]]
+    wn30_key: [[1, "hypothesis%1:10:00::"], [6, "interaction%1:04:00::"], [8, "compulsivity%1:07:00::"], [10, "teaching_method%1:09:00::"], [12, "support%2:31:00::"], [16, "case%1:26:00::;case%1:11:00::"], [21, "level%1:07:00::"]]
+Te0h:
+    lemmas: ["While", "we", "have", "expect", "that", "compulsive", "child", "in", "the", "unstructured", "school", "setting", "would", "have", "difficulty", "when", "compare", "to", "those", "in", "the", "structured", ",", "we", "be", "surprise", "to", "find", "that", "the", "achievement", "of", "the", "high", "compulsive", "within", "the", "school", "where", "the", "whole-word_method", "be", "use", "in", "beginning", "reading", "compare", "favorably", "with", "that", "of", "the", "low", "compulsive", "."]
+    oewn2026_key: [[3, "oewn-00721658-v"], [5, "oewn-01588067-s"], [6, "oewn-09937051-n"], [9, "oewn-01676186-a"], [10, "oewn-08293641-n"], [11, "oewn-08585785-n"], [13, "oewn-02112480-v"], [14, "oewn-00625102-n"], [16, "oewn-00654571-v"], [21, "oewn-01676037-a"], [25, "oewn-00727236-v"], [27, "oewn-02158938-v"], [30, "oewn-00035910-n"], [33, "oewn-01213526-a"], [34, "oewn-09969936-n"], [37, "oewn-08293641-n"], [40, "oewn-00890224-n"], [42, "oewn-01161188-v"], [45, "oewn-05816802-n"], [46, "oewn-00654571-v"], [47, "oewn-00232060-r"], [52, "oewn-01215141-a"], [53, "oewn-09969936-n"]]
+    paragraph: '13'
+    pos: ["IN", "PRP", "VBD", "VBN", "IN", "JJ", "NNS", "IN", "DT", "JJ", "NN", "NN", "MD", "VB", "NN", "WRB", "VBN", "TO", "DT", "IN", "DT", "JJ", ",", "PRP", "VBD", "VBN", "TO", "VB", "IN", "DT", "NN", "IN", "DT", "JJ", "NNS", "IN", "DT", "NNS", "WRB", "DT", "NN", "VBZ", "VBN", "IN", "JJ", "NN", "VBZ", "RB", "RB", "RB", "IN", "DT", "JJ", "NNS", "."]
+    text: ' While we had expected that compulsive children in the unstructured school setting
+  would have difficulty when compared to those in the structured, we were surprised
+  to find that the achievement of the high compulsives within the schools where the
+  whole-word_method is used in beginning reading compares favorably with that of the
+  low compulsives.'
+    tokens: [[1, 6], [7, 9], [10, 13], [14, 22], [23, 27], [28, 38], [39, 47], [48, 50], [51, 54], [55, 67], [68, 74], [75, 82], [83, 88], [89, 93], [94, 104], [105, 109], [110, 118], [119, 121], [122, 127], [128, 130], [131, 134], [135, 145], [145, 146], [147, 149], [150, 154], [155, 164], [165, 167], [168, 172], [173, 177], [178, 181], [182, 193], [194, 196], [197, 200], [201, 205], [206, 217], [218, 224], [225, 228], [229, 236], [237, 242], [243, 246], [247, 264], [265, 267], [268, 272], [273, 275], [276, 285], [286, 293], [294, 302], [303, 312], [313, 317], [318, 322], [323, 325], [326, 329], [330, 333], [334, 345], [345, 346]]
+    wn16_key: [[3, "expect%2:31:00::"], [5, "compulsive%5:00:00:neurotic:00"], [6, "child%1:18:00::"], [9, "unstructured%3:00:00::"], [10, "school%1:14:00::"], [11, "setting%1:15:00::"], [13, "have%2:39:06::"], [14, "difficulty%1:04:00::"], [16, "compare%2:31:00::"], [21, "structured%3:00:00::"], [25, "surprise%2:31:00::"], [27, "find%2:39:02::"], [30, "achievement%1:04:00::"], [33, "high%3:00:02::"], [34, "compulsive%1:18:00::"], [37, "school%1:14:00::"], [40, "whole-word_method%1:04:00::"], [42, "use%2:34:01::"], [44, "beginning%5:00:00:elementary(a):00"], [45, "reading%1:09:00::"], [46, "compare%2:31:00::"], [47, "favorably%4:02:00::"], [52, "low%3:00:02::"], [53, "compulsive%1:18:00::"]]
+    wn30_key: [[3, "expect%2:31:00::"], [5, "compulsive%3:00:00:neurotic:00"], [6, "child%1:18:00::"], [9, "unstructured%3:00:00::"], [10, "school%1:14:00::"], [11, "setting%1:15:00::"], [13, "have%2:39:06::"], [14, "difficulty%1:04:00::"], [16, "compare%2:31:00::"], [21, "structured%3:00:00::"], [25, "surprise%2:31:00::"], [27, "find%2:39:02::"], [30, "achievement%1:04:00::"], [33, "high%3:00:02::"], [34, "compulsive%1:18:00::"], [37, "school%1:14:00::"], [40, "whole-word_method%1:04:00::"], [42, "use%2:34:01::"], [45, "reading%1:09:00::"], [46, "compare%2:31:00::"], [47, "favorably%4:02:00::"], [52, "low%3:00:02::"], [53, "compulsive%1:18:00::"]]
+3thx:
+    lemmas: ["indeed", "their", "achievement", "score", "be", "somewhat", "better", "on", "an", "absolute", "basis", "although", "the", "difference", "be", "not", "significant", "."]
+    oewn2026_key: [[2, "oewn-00035910-n"], [3, "oewn-05745098-n"], [4, "oewn-02610777-v"], [5, "oewn-00036695-r"], [6, "oewn-00231927-a"], [9, "oewn-00005204-a"], [10, "oewn-13813124-n"], [13, "oewn-04756076-n"], [14, "oewn-02610777-v"], [15, "oewn-00024432-r"], [16, "oewn-02173212-a"]]
+    paragraph: '13'
+    pos: ["RB", "PRP$", "NN", "NNS", "VBD", "RB", "JJR", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "VBD", "RB", "JJ", "."]
+    text: ' Indeed their achievement scores were somewhat better on an absolute basis although
+  the difference was not significant.'
+    tokens: [[1, 7], [8, 13], [14, 25], [26, 32], [33, 37], [38, 46], [47, 53], [54, 56], [57, 59], [60, 68], [69, 74], [75, 83], [84, 87], [88, 98], [99, 102], [103, 106], [107, 118], [118, 119]]
+    wn16_key: [[2, "achievement%1:04:00::"], [3, "score%1:09:00::"], [4, "be%2:42:03::"], [5, "somewhat%4:02:01::"], [6, "better%3:00:00::"], [9, "absolute%3:00:00::"], [10, "basis%1:24:00::"], [13, "difference%1:07:00::"], [14, "be%2:42:03::"], [15, "not%4:02:00::"], [16, "significant%3:00:01::"]]
+    wn30_key: [[2, "achievement%1:04:00::"], [3, "score%1:09:00::"], [4, "be%2:42:03::"], [5, "somewhat%4:02:01::"], [6, "better%3:00:00::"], [9, "absolute%3:00:00::"], [10, "basis%1:24:00::"], [13, "difference%1:07:00::"], [14, "be%2:42:03::"], [15, "not%4:02:00::"], [16, "significant%3:00:01::"]]
+v+Zw:
+    lemmas: ["We", "speculate", "that", "compulsive", "in", "the", "unstructured", "school", "be", "under", "greater", "strain", "because", "of", "the", "lack", "of", "systematization", "in", "their", "school", "setting", ",", "but", "that", "their", "need", "to", "organize", "(", "for", "comfort", ")", "be", "so", "intense", "that", "they", "struggle", "to", "induce", "the", "phonic", "rule", "and", "achieve", "in_spite_of", "the", "lack", "of", "direction", "from", "the", "environment", "."]
+    oewn2026_key: [[1, "oewn-00635105-v"], [3, "oewn-09969936-n"], [6, "oewn-01676186-a"], [7, "oewn-08293641-n"], [8, "oewn-02610777-v"], [10, "oewn-01398335-a"], [11, "oewn-14433493-n"], [15, "oewn-14472871-n"], [17, "oewn-01011132-n"], [20, "oewn-08293641-n"], [21, "oewn-08585785-n"], [26, "oewn-14472592-n"], [28, "oewn-02437377-v"], [31, "oewn-07507656-n"], [33, "oewn-02610777-v"], [34, "oewn-00147630-r"], [35, "oewn-01513206-a"], [38, "oewn-02412468-v"], [40, "oewn-00638103-v"], [42, "oewn-03111095-a"], [43, "oewn-05922132-n"], [45, "oewn-02531751-v"], [48, "oewn-14472871-n"], [50, "oewn-06663446-n"], [53, "oewn-13957629-n"]]
+    paragraph: '13'
+    pos: ["PRP", "VBP", "IN", "NNS", "IN", "DT", "JJ", "NNS", "VBP", "IN", "JJR", "NN", "IN", "IN", "DT", "NN", "IN", "NN", "IN", "PRP$", "NN", "NN", ",", "CC", "IN", "PRP$", "NN", "TO", "VB", "NN", "IN", "NN", "NN", "VBZ", "RB", "JJ", "IN", "PRP", "VBP", "TO", "VB", "DT", "JJ", "NNS", "CC", "VB", "RB", "DT", "NN", "IN", "NN", "IN", "DT", "NN", "."]
+    text: ' We speculate that compulsives in the unstructured schools are under greater strain
+  because of the lack of systemization in their school setting, but that their need
+  to organize (for comfort) is so intense that they struggle to induce the phonic
+  rules and achieve in_spite_of the lack of direction from the environment.
+
+  '
+    tokens: [[1, 3], [4, 13], [14, 18], [19, 30], [31, 33], [34, 37], [38, 50], [51, 58], [59, 62], [63, 68], [69, 76], [77, 83], [84, 91], [92, 94], [95, 98], [99, 103], [104, 106], [107, 120], [121, 123], [124, 129], [130, 136], [137, 144], [144, 145], [146, 149], [150, 154], [155, 160], [161, 165], [166, 168], [169, 177], [178, 179], [179, 182], [183, 190], [190, 191], [192, 194], [195, 197], [198, 205], [206, 210], [211, 215], [216, 224], [225, 227], [228, 234], [235, 238], [239, 245], [246, 251], [252, 255], [256, 263], [264, 275], [276, 279], [280, 284], [285, 287], [288, 297], [298, 302], [303, 306], [307, 318], [318, 319]]
+    wn16_key: [[1, "speculate%2:31:01::"], [3, "compulsive%1:18:00::"], [6, "unstructured%3:00:00::"], [7, "school%1:14:00::"], [8, "be%2:42:03::"], [10, "greater%3:00:00::"], [11, "strain%1:26:02::"], [15, "lack%1:26:00::"], [17, "systematization%1:04:00::"], [20, "school%1:14:00::"], [21, "setting%1:15:00::"], [26, "need%1:26:00::"], [28, "organize%2:41:00::"], [31, "comfort%1:12:00::"], [33, "be%2:42:03::"], [34, "so%4:02:02::"], [35, "intense%3:00:00::"], [38, "struggle%2:41:00::"], [40, "induce%2:31:00::"], [42, "phonic%3:01:02::"], [43, "rule%1:09:03::"], [45, "achieve%2:41:00::"], [48, "lack%1:26:00::"], [50, "direction%1:10:00::"], [53, "environment%1:26:00::"]]
+    wn30_key: [[1, "speculate%2:31:01::"], [3, "compulsive%1:18:00::"], [6, "unstructured%3:00:00::"], [7, "school%1:14:00::"], [8, "be%2:42:03::"], [10, "greater%3:00:00::"], [11, "strain%1:26:02::"], [15, "lack%1:26:00::"], [17, "systematization%1:04:00::"], [20, "school%1:14:00::"], [21, "setting%1:15:00::"], [26, "need%1:26:00::"], [28, "organize%2:41:00::"], [31, "comfort%1:12:00::"], [33, "be%2:42:03::"], [34, "so%4:02:02::"], [35, "intense%3:00:00::"], [38, "struggle%2:41:00::"], [40, "induce%2:31:00::"], [42, "phonic%3:01:02::"], [43, "rule%1:09:03::"], [45, "achieve%2:41:00::"], [48, "lack%1:26:00::"], [50, "direction%1:10:00::"], [53, "environment%1:26:00::"]]
+h3CL:
+    lemmas: ["It", "be", "interesting", "to", "note", "that", "medium", "compulsive", "in", "the", "unstructured", "school", "make", "the", "low", "achievement", "score", "(", "although", "not", "significantly", "low", ")", "."]
+    oewn2026_key: [[2, "oewn-01346766-a"], [4, "oewn-02122959-v"], [6, "oewn-01536076-s"], [7, "oewn-09969936-n"], [10, "oewn-01676186-a"], [11, "oewn-08293641-n"], [12, "oewn-02360592-v"], [14, "oewn-01215141-a"], [15, "oewn-00035910-n"], [16, "oewn-05745098-n"], [19, "oewn-00024432-r"], [20, "oewn-00512503-r"], [21, "oewn-01215141-a"]]
+    paragraph: '14'
+    pos: ["PRP", "VB", "JJ", "TO", "VB", "IN", "JJ", "NN", "IN", "DT", "JJ", "NNS", "VBD", "DT", "JJS", "NN", "NNS", "VBP", "IN", "RB", "RB", "JJR", "NN", "."]
+    text: ' It is interesting to note that medium compulsives in the unstructured schools made
+  the lowest achievement scores (although not significantly lower).'
+    tokens: [[1, 3], [4, 6], [7, 18], [19, 21], [22, 26], [27, 31], [32, 38], [39, 50], [51, 53], [54, 57], [58, 70], [71, 78], [79, 83], [84, 87], [88, 94], [95, 106], [107, 113], [114, 115], [115, 123], [124, 127], [128, 141], [142, 147], [147, 148], [148, 149]]
+    wn16_key: [[2, "interesting%3:00:00::"], [4, "note%2:39:00::"], [6, "medium%5:00:00:moderate:00"], [7, "compulsive%1:18:00::"], [10, "unstructured%3:00:00::"], [11, "school%1:14:00::"], [12, "make%2:40:02::"], [14, "low%3:00:02::"], [15, "achievement%1:04:00::"], [16, "score%1:09:00::"], [19, "not%4:02:00::"], [20, "significantly%4:02:04::"], [21, "low%3:00:02::"]]
+    wn30_key: [[2, "interesting%3:00:00::"], [4, "note%2:39:00::"], [6, "medium%3:00:00:moderate:00"], [7, "compulsive%1:18:00::"], [10, "unstructured%3:00:00::"], [11, "school%1:14:00::"], [12, "make%2:40:02::"], [14, "low%3:00:02::"], [15, "achievement%1:04:00::"], [16, "score%1:09:00::"], [19, "not%4:02:00::"], [20, "significantly%4:02:04::"], [21, "low%3:00:02::"]]
+hzga:
+    lemmas: ["possibly", "their", "compulsivity", "be", "not", "strong", "enough", "to", "cause", "them", "to", "build", "their", "own", "structure", "."]
+    oewn2026_key: [[0, "oewn-00301501-r"], [2, "oewn-04633239-n"], [3, "oewn-02610777-v"], [4, "oewn-00024432-r"], [5, "oewn-02328781-a"], [6, "oewn-00146749-r"], [8, "oewn-00772482-v"], [11, "oewn-01658171-v"], [13, "oewn-01773236-s"], [14, "oewn-05734290-n"]]
+    paragraph: '14'
+    pos: ["RB", "PRP$", "NN", "VBD", "RB", "JJ", "RB", "TO", "VB", "PRP", "TO", "VB", "PRP$", "JJ", "NN", "."]
+    text: ' Possibly their compulsivity was not strong enough to cause them to build their own
+  structure.
+
+  '
+    tokens: [[1, 9], [10, 15], [16, 28], [29, 32], [33, 36], [37, 43], [44, 50], [51, 53], [54, 59], [60, 64], [65, 67], [68, 73], [74, 79], [80, 83], [84, 93], [93, 94]]
+    wn16_key: [[0, "possibly%4:02:00::"], [2, "compulsivity%1:07:00::"], [3, "be%2:42:03::"], [4, "not%4:02:00::"], [5, "strong%3:00:00::"], [6, "enough%4:02:00::"], [8, "cause%2:32:00::"], [11, "build%2:36:00::"], [13, "own%5:00:00:personal:00"], [14, "structure%1:09:00::"]]
+    wn30_key: [[0, "possibly%4:02:00::"], [2, "compulsivity%1:07:00::"], [3, "be%2:42:03::"], [4, "not%4:02:00::"], [5, "strong%3:00:00::"], [6, "enough%4:02:00::"], [8, "cause%2:32:00::"], [11, "build%2:36:00::"], [13, "own%3:00:00:personal:00"], [14, "structure%1:09:00::"]]
+X+rW:
+    lemmas: ["Our", "conjecture", "be", ",", "then", ",", "that", "regardless", "of", "the", "manner", "in", "which", "school", "lesson", "be", "teach", ",", "the", "compulsive", "child", "accentuate", "those", "element", "of", "each", "lesson", "that", "aid", "him", "in", "systematize", "his", "work", "."]
+    oewn2026_key: [[1, "oewn-05900390-n"], [2, "oewn-02622439-v"], [7, "oewn-00119427-r"], [10, "oewn-04936080-n"], [13, "oewn-08293641-n"], [14, "oewn-00891150-n"], [16, "oewn-00830768-v"], [19, "oewn-01588067-s"], [20, "oewn-09937051-n"], [21, "oewn-01015376-v"], [23, "oewn-05877576-n"], [26, "oewn-00891150-n"], [28, "oewn-02553283-v"], [31, "oewn-00481900-v"], [33, "oewn-00576778-n"]]
+    paragraph: '15'
+    pos: ["PRP$", "NN", "VBZ", ",", "RB", ",", "IN", "RB", "RB", "DT", "NN", "RB", "RB", "NN", "NNS", "VBP", "VBN", ",", "DT", "JJ", "NN", "VBZ", "DT", "NNS", "IN", "DT", "NN", "IN", "VB", "PRP", "IN", "VBG", "PRP$", "NN", "."]
+    text: ' Our conjecture is, then, that regardless of the manner in which school lessons are
+  taught, the compulsive child accentuates those elements of each lesson that aid
+  him in systematizing his work.'
+    tokens: [[1, 4], [5, 15], [16, 18], [18, 19], [20, 24], [24, 25], [26, 30], [31, 41], [42, 44], [45, 48], [49, 55], [56, 58], [59, 64], [65, 71], [72, 79], [80, 83], [84, 90], [90, 91], [92, 95], [96, 106], [107, 112], [113, 124], [125, 130], [131, 139], [140, 142], [143, 147], [148, 154], [155, 159], [160, 163], [164, 167], [168, 170], [171, 184], [185, 188], [189, 193], [193, 194]]
+    wn16_key: [[1, "conjecture%1:09:00::"], [2, "be%2:42:06::"], [7, "regardless%4:02:00::"], [10, "manner%1:07:02::"], [13, "school%1:14:00::"], [14, "lesson%1:04:01::"], [16, "teach%2:32:00::"], [19, "compulsive%5:00:00:neurotic:00"], [20, "child%1:18:00::"], [21, "accentuate%2:30:00::"], [23, "element%1:09:00::"], [26, "lesson%1:04:01::"], [28, "aid%2:41:00::"], [31, "systematize%2:30:00::"], [33, "work%1:04:00::"]]
+    wn30_key: [[1, "conjecture%1:09:00::"], [2, "be%2:42:06::"], [7, "regardless%4:02:00::"], [10, "manner%1:07:02::"], [13, "school%1:14:00::"], [14, "lesson%1:04:01::"], [16, "teach%2:32:00::"], [19, "compulsive%3:00:00:neurotic:00"], [20, "child%1:18:00::"], [21, "accentuate%2:32:00::"], [23, "element%1:09:00::"], [26, "lesson%1:04:01::"], [28, "aid%2:41:00::"], [31, "systematize%2:30:00::"], [33, "work%1:04:00::"]]
+Adz1:
+    lemmas: ["When", "help", "by", "a", "high", "degree", "of", "structure", "in", "lesson", "presentation", ",", "then", ",", "and", "only", "then", ",", "do", "such", "a", "child", "attain", "unusual", "success", "."]
+    oewn2026_key: [[1, "oewn-02553283-v"], [4, "oewn-01213526-a"], [5, "oewn-05101152-n"], [7, "oewn-05734290-n"], [9, "oewn-00891150-n"], [10, "oewn-01050621-n"], [12, "oewn-00118799-r"], [15, "oewn-00009062-r"], [16, "oewn-00118799-r"], [19, "oewn-01558587-s"], [21, "oewn-09937051-n"], [22, "oewn-02531751-v"], [23, "oewn-00492026-a"], [24, "oewn-00064472-n"]]
+    paragraph: '15'
+    pos: ["WRB", "VBN", "IN", "DT", "JJ", "NN", "IN", "NN", "IN", "NN", "NN", ",", "RB", ",", "CC", "RB", "RB", ",", "VBZ", "JJ", "DT", "NN", "VB", "JJ", "NN", "."]
+    text: ' When helped by a high degree of structure in lesson presentation, then, and only
+  then, does such a child attain unusual success.
+
+  '
+    tokens: [[1, 5], [6, 12], [13, 15], [16, 17], [18, 22], [23, 29], [30, 32], [33, 42], [43, 45], [46, 52], [53, 65], [65, 66], [67, 71], [71, 72], [73, 76], [77, 81], [82, 86], [86, 87], [88, 92], [93, 97], [98, 99], [100, 105], [106, 112], [113, 120], [121, 128], [128, 129]]
+    wn16_key: [[1, "help%2:41:00::"], [4, "high%3:00:02::"], [5, "degree%1:07:00::"], [7, "structure%1:09:00::"], [9, "lesson%1:04:01::"], [10, "presentation%1:04:01::"], [12, "then%4:02:01::"], [15, "only%4:02:01::"], [16, "then%4:02:01::"], [19, "such%5:00:01:specified:00"], [21, "child%1:18:00::"], [22, "attain%2:41:00::"], [23, "unusual%3:00:00::"], [24, "success%1:04:00::"]]
+    wn30_key: [[1, "help%2:41:00::"], [4, "high%3:00:02::"], [5, "degree%1:07:00::"], [7, "structure%1:09:00::"], [9, "lesson%1:04:01::"], [10, "presentation%1:04:01::"], [12, "then%4:02:01::"], [15, "only%4:02:01::"], [16, "then%4:02:01::"], [19, "such%3:00:00:much:00"], [21, "child%1:18:00::"], [22, "attain%2:41:00::"], [23, "unusual%3:00:00::"], [24, "success%1:04:00::"]]
+2Z7A:
+    lemmas: ["The", "statistical", "analysis", "of", "achievement", "in_relation_to", "anxiety", "and", "teaching_method", "and", "the", "interaction", "of", "the", "two", "be", "present", "in", "table", "3", "and", "4", "."]
+    oewn2026_key: [[1, "oewn-02922940-a"], [2, "oewn-00635519-n"], [4, "oewn-00035910-n"], [6, "oewn-14397837-n"], [8, "oewn-05668782-n"], [11, "oewn-00039759-n"], [16, "oewn-00775012-v"], [18, "oewn-08283156-n"], [19, "oewn-13766184-n"], [21, "oewn-13766444-n"]]
+    paragraph: '16'
+    pos: ["DT", "JJ", "NNS", "IN", "NN", "JJ", "NN", "CC", "NNS", "CC", "DT", "NNS", "IN", "JJ", "JJ", "VBP", "VBN", "IN", "NNS", "NN", "CC", "NN", "."]
+    text: ' The statistical analyses of achievement in_relation_to anxiety and teaching_methods
+  and the interactions of the two are presented in Tables 3 and 4.'
+    tokens: [[1, 4], [5, 16], [17, 25], [26, 28], [29, 40], [41, 55], [56, 63], [64, 67], [68, 84], [85, 88], [89, 92], [93, 105], [106, 108], [109, 112], [113, 116], [117, 120], [121, 130], [131, 133], [134, 140], [141, 142], [143, 146], [147, 148], [148, 149]]
+    wn16_key: [[1, "statistical%3:01:00::"], [2, "analysis%1:04:00::"], [4, "achievement%1:04:00::"], [5, "in_relation_to%5:00:00:related:02"], [6, "anxiety%1:26:00::"], [8, "teaching_method%1:09:00::"], [11, "interaction%1:04:00::"], [16, "present%2:32:00::"], [18, "table%1:14:00::"], [19, "3%1:23:00::"], [21, "4%1:23:00::"]]
+    wn30_key: [[1, "statistical%3:01:00::"], [2, "analysis%1:04:00::"], [4, "achievement%1:04:00::"], [6, "anxiety%1:26:00::"], [8, "teaching_method%1:09:00::"], [11, "interaction%1:04:00::"], [16, "present%2:32:00::"], [18, "table%1:14:00::"], [19, "3%1:23:00::"], [21, "4%1:23:00::"]]
+m/Kd:
+    lemmas: ["figure", "2", "be", "a", "graph", "of", "the", "mean", "achievement", "score", "of", "each", "group", "."]
+    oewn2026_key: [[0, "oewn-07012307-n"], [1, "oewn-02194109-s"], [2, "oewn-02622439-v"], [4, "oewn-07012937-n"], [7, "oewn-01598728-s"], [8, "oewn-00035910-n"], [9, "oewn-05745098-n"], [12, "oewn-00031563-n"]]
+    paragraph: '16'
+    pos: ["NN", "JJ", "VBZ", "DT", "NN", "IN", "DT", "JJ", "NN", "NNS", "IN", "DT", "NN", "."]
+    text: ' Figure 2 is a graph of the mean achievement scores of each group.'
+    tokens: [[1, 7], [8, 9], [10, 12], [13, 14], [15, 20], [21, 23], [24, 27], [28, 32], [33, 44], [45, 51], [52, 54], [55, 59], [60, 65], [65, 66]]
+    wn16_key: [[0, "figure%1:10:00::"], [1, "2%5:00:00:cardinal:00"], [2, "be%2:42:06::"], [4, "graph%1:10:00::"], [7, "mean%5:00:00:normal:01"], [8, "achievement%1:04:00::"], [9, "score%1:09:00::"], [12, "group%1:03:00::"]]
+    wn30_key: [[0, "figure%1:10:00::"], [1, "2%3:00:00:cardinal:00"], [2, "be%2:42:06::"], [4, "graph%1:10:00::"], [7, "mean%3:00:00:normal:01"], [8, "achievement%1:04:00::"], [9, "score%1:09:00::"], [12, "group%1:03:00::"]]
+qtDc:
+    lemmas: ["As", "predict", ",", "the", "highly", "anxious", "child", "in", "the", "unstructured", "school", "score", "more", "poorly", "(", "*", "*", "f", ")", "than", "those", "in", "the", "structured", "school", "."]
+    oewn2026_key: [[1, "oewn-00919743-v"], [4, "oewn-00089896-r"], [6, "oewn-09937051-n"], [9, "oewn-01676186-a"], [10, "oewn-08293641-n"], [11, "oewn-01114241-v"], [12, "oewn-00099891-r"], [13, "oewn-00011978-r"], [23, "oewn-01676037-a"], [24, "oewn-08293641-n"]]
+    paragraph: '16'
+    pos: ["IN", "VBN", ",", "DT", "RB", "JJ", "NNS", "IN", "DT", "JJ", "NNS", "VBP", "RBR", "RB", "VBN", "SYM", "SYM", "NN", "FW", "IN", "DT", "IN", "DT", "JJ", "NNS", "."]
+    text: ' As predicted, the highly anxious children in the unstructured schools score more
+  poorly (* * f) than those in the structured schools.'
+    tokens: [[1, 3], [4, 13], [13, 14], [15, 18], [19, 25], [26, 33], [34, 42], [43, 45], [46, 49], [50, 62], [63, 70], [71, 76], [77, 81], [82, 88], [89, 90], [90, 91], [92, 93], [94, 95], [95, 96], [97, 101], [102, 107], [108, 110], [111, 114], [115, 125], [126, 133], [133, 134]]
+    wn16_key: [[1, "predict%2:32:00::"], [4, "highly%4:02:02::"], [5, "anxious%5:00:00:uneasy:00"], [6, "child%1:18:00::"], [9, "unstructured%3:00:00::"], [10, "school%1:14:00::"], [11, "score%2:33:00::"], [12, "more%4:02:00::"], [13, "poorly%4:02:00::"], [23, "structured%3:00:00::"], [24, "school%1:14:00::"]]
+    wn30_key: [[1, "predict%2:32:00::"], [4, "highly%4:02:01::"], [6, "child%1:18:00::"], [9, "unstructured%3:00:00::"], [10, "school%1:14:00::"], [11, "score%2:33:00::"], [12, "more%4:02:00::"], [13, "poorly%4:02:00::"], [23, "structured%3:00:00::"], [24, "school%1:14:00::"]]
+nKAn:
+    lemmas: ["The", "interaction", "effect", ",", "which", "be", "significant", "at", "the", ".01", "level", ",", "can", "be", "see", "best", "in", "the", "contrast", "of", "mean", "score", "."]
+    oewn2026_key: [[1, "oewn-00039759-n"], [2, "oewn-11430739-n"], [5, "oewn-02610777-v"], [6, "oewn-02173212-a"], [10, "oewn-05101152-n"], [14, "oewn-00592510-v"], [15, "oewn-00189649-r"], [18, "oewn-00653056-n"], [20, "oewn-01598728-s"], [21, "oewn-05745098-n"]]
+    paragraph: '16'
+    pos: ["DT", "NN", "NN", ",", "WDT", "VBZ", "JJ", "IN", "DT", "CD", "NN", ",", "MD", "VB", "VBN", "RB", "IN", "DT", "NN", "IN", "JJ", "NNS", "."]
+    text: ' The interaction effect, which is significant at the .01 level, can be seen best
+  in the contrast of mean scores.'
+    tokens: [[1, 4], [5, 16], [17, 23], [23, 24], [25, 30], [31, 33], [34, 45], [46, 48], [49, 52], [53, 56], [57, 62], [62, 63], [64, 67], [68, 70], [71, 75], [76, 80], [81, 83], [84, 87], [88, 96], [97, 99], [100, 104], [105, 111], [111, 112]]
+    wn16_key: [[1, "interaction%1:04:00::"], [2, "effect%1:19:00::"], [5, "be%2:42:03::"], [6, "significant%3:00:01::"], [10, "level%1:07:00::"], [14, "see%2:31:01::"], [15, "best%4:02:01::"], [18, "contrast%1:04:00::"], [20, "mean%5:00:00:normal:01"], [21, "score%1:09:00::"]]
+    wn30_key: [[1, "interaction%1:04:00::"], [2, "effect%1:19:00::"], [5, "be%2:42:03::"], [6, "significant%3:00:01::"], [10, "level%1:07:00::"], [14, "see%2:31:01::"], [15, "best%4:02:01::"], [18, "contrast%1:04:00::"], [20, "mean%3:00:00:normal:01"], [21, "score%1:09:00::"]]
+aQ70:
+    lemmas: ["While", "high", "anxiety", "child", "achieve", "significantly", "less", "well", "(", "*", "*", "f", ")", "in", "the", "unstructured", "school", "than", "do", "low", "anxiety", "child", ",", "they", "appear", "to", "do", "at_least", "as", "well", "as", "the", "average", "in", "the", "structured", "classroom", "."]
+    oewn2026_key: [[1, "oewn-01213526-a"], [2, "oewn-14397837-n"], [3, "oewn-09937051-n"], [4, "oewn-02531751-v"], [5, "oewn-00512503-r"], [6, "oewn-00100077-r"], [7, "oewn-00011555-r"], [15, "oewn-01676186-a"], [16, "oewn-08293641-n"], [19, "oewn-01215141-a"], [20, "oewn-14397837-n"], [21, "oewn-09937051-n"], [24, "oewn-02137900-v"], [26, "oewn-02623620-v"], [27, "oewn-00105032-r"], [28, "oewn-00022585-r"], [29, "oewn-00011555-r"], [32, "oewn-06031110-n"], [35, "oewn-01676037-a"], [36, "oewn-03042670-n"]]
+    paragraph: '16'
+    pos: ["IN", "JJ", "NN", "NNS", "VBP", "RB", "RBR", "RB", "CD", "SYM", "SYM", "NN", "FW", "IN", "DT", "JJ", "NN", "IN", "VBP", "JJ", "NN", "NNS", ",", "PRP", "VBP", "TO", "VB", "RB", "RB", "RB", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
+    text: ' While high anxiety children achieve significantly less well (* * f) in the unstructured
+  school than do low anxiety children, they appear to do at_least as well as the average
+  in the structured classroom.
+
+  '
+    tokens: [[1, 6], [7, 11], [12, 19], [20, 28], [29, 36], [37, 50], [51, 55], [56, 60], [61, 62], [62, 63], [64, 65], [66, 67], [67, 68], [69, 71], [72, 75], [76, 88], [89, 95], [96, 100], [101, 103], [104, 107], [108, 115], [116, 124], [124, 125], [126, 130], [131, 137], [138, 140], [141, 143], [144, 152], [153, 155], [156, 160], [161, 163], [164, 167], [168, 175], [176, 178], [179, 182], [183, 193], [194, 203], [203, 204]]
+    wn16_key: [[1, "high%3:00:02::"], [2, "anxiety%1:26:00::"], [3, "child%1:18:00::"], [4, "achieve%2:41:00::"], [5, "significantly%4:02:04::"], [6, "less%4:02:00::"], [7, "well%4:02:00::"], [15, "unstructured%3:00:00::"], [16, "school%1:14:00::"], [19, "low%3:00:02::"], [20, "anxiety%1:26:00::"], [21, "child%1:18:00::"], [24, "appear%2:39:00::"], [26, "do%2:42:00::"], [27, "at_least%4:02:00::"], [28, "as%4:02:00::"], [29, "well%4:02:00::"], [32, "average%1:09:00::"], [35, "structured%3:00:00::"], [36, "classroom%1:06:00::"]]
+    wn30_key: [[1, "high%3:00:02::"], [2, "anxiety%1:26:00::"], [3, "child%1:18:00::"], [4, "achieve%2:41:00::"], [5, "significantly%4:02:04::"], [6, "less%4:02:00::"], [7, "well%4:02:00::"], [15, "unstructured%3:00:00::"], [16, "school%1:14:00::"], [19, "low%3:00:02::"], [20, "anxiety%1:26:00::"], [21, "child%1:18:00::"], [24, "appear%2:39:00::"], [26, "do%2:42:00::"], [27, "at_least%4:02:00::"], [28, "as%4:02:00::"], [29, "well%4:02:00::"], [32, "average%1:09:00::"], [35, "structured%3:00:00::"], [36, "classroom%1:06:00::"]]
+Q5hJ:
+    lemmas: ["The", "most", "striking", "aspect", "of", "the", "interaction", "demonstrate", "be", "the", "marked", "decrement", "in", "performance", "suffer", "by", "the", "highly", "anxious", "child", "in", "unstructured", "school", "."]
+    oewn2026_key: [[1, "oewn-00112352-r"], [2, "oewn-01287304-s"], [3, "oewn-05859151-n"], [6, "oewn-00039759-n"], [7, "oewn-02153218-v"], [8, "oewn-02622439-v"], [10, "oewn-01290810-s"], [11, "oewn-05117108-n"], [14, "oewn-02113644-v"], [17, "oewn-00089896-r"], [19, "oewn-09937051-n"], [21, "oewn-01676186-a"], [22, "oewn-08293641-n"]]
+    paragraph: '17'
+    pos: ["RB", "RBS", "JJ", "NN", "IN", "DT", "NN", "VBN", "VBZ", "DT", "JJ", "NN", "IN", "NN", "VBN", "IN", "DT", "RB", "JJ", "NNS", "IN", "JJ", "NNS", "."]
+    text: ' The most striking aspect of the interaction demonstrated is the marked decrement
+  in performance suffered by the highly anxious children in unstructured schools.'
+    tokens: [[1, 4], [5, 9], [10, 18], [19, 25], [26, 28], [29, 32], [33, 44], [45, 57], [58, 60], [61, 64], [65, 71], [72, 81], [82, 84], [85, 96], [97, 105], [106, 108], [109, 112], [113, 119], [120, 127], [128, 136], [137, 139], [140, 152], [153, 160], [160, 161]]
+    wn16_key: [[1, "most%4:02:00::"], [2, "striking%5:00:00:impressive:00"], [3, "aspect%1:09:00::"], [6, "interaction%1:04:00::"], [7, "demonstrate%2:39:01::"], [8, "be%2:42:06::"], [10, "marked%5:00:00:noticeable:00"], [11, "decrement%1:07:00::"], [13, "performance%1:04:02::"], [14, "suffer%2:39:01::"], [17, "highly%4:02:02::"], [18, "anxious%5:00:00:uneasy:00"], [19, "child%1:18:00::"], [21, "unstructured%3:00:00::"], [22, "school%1:14:00::"]]
+    wn30_key: [[1, "most%4:02:00::"], [2, "striking%3:00:00:impressive:00"], [3, "aspect%1:09:00::"], [6, "interaction%1:04:00::"], [7, "demonstrate%2:39:01::"], [8, "be%2:42:06::"], [10, "marked%3:00:00:noticeable:00"], [11, "decrement%1:07:00::"], [14, "suffer%2:39:01::"], [17, "highly%4:02:01::"], [19, "child%1:18:00::"], [21, "unstructured%3:00:00::"], [22, "school%1:14:00::"]]
+smgy:
+    lemmas: ["According_to", "the", "theory", "propose", ",", "this", "be", "a", "consequence", "of", "the", "severe", "condition", "of", "perceived", "threat", "that", "persist", "unabated", "for", "the", "anxious", "child", "in", "an", "ambiguous", "sort", "of", "school", "environment", "."]
+    oewn2026_key: [[2, "oewn-05897536-n"], [3, "oewn-00708009-v"], [6, "oewn-02622439-v"], [8, "oewn-11430739-n"], [11, "oewn-01516947-s"], [12, "oewn-13943868-n"], [14, "oewn-01614125-s"], [15, "oewn-14566833-n"], [17, "oewn-02653599-v"], [18, "oewn-01518034-s"], [22, "oewn-09937051-n"], [25, "oewn-01676562-s"], [26, "oewn-05847533-n"], [28, "oewn-08293641-n"], [29, "oewn-13957629-n"]]
+    paragraph: '17'
+    pos: ["TO", "DT", "NN", "VBN", ",", "DT", "VBZ", "DT", "NN", "IN", "DT", "JJ", "NN", "IN", "JJ", "NN", "WDT", "VBZ", "JJ", "IN", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "RB", "NN", "NN", "."]
+    text: ' According_to the theory proposed, this is a consequence of the severe condition
+  of perceived threat that persists unabated for the anxious child in an ambiguous
+  sort of school environment.'
+    tokens: [[1, 13], [14, 17], [18, 24], [25, 33], [33, 34], [35, 39], [40, 42], [43, 44], [45, 56], [57, 59], [60, 63], [64, 70], [71, 80], [81, 83], [84, 93], [94, 100], [101, 105], [106, 114], [115, 123], [124, 127], [128, 131], [132, 139], [140, 145], [146, 148], [149, 151], [152, 161], [162, 166], [167, 169], [170, 176], [177, 188], [188, 189]]
+    wn16_key: [[2, "theory%1:09:01::"], [3, "propose%2:31:00::"], [6, "be%2:42:06::"], [8, "consequence%1:19:00::"], [11, "severe%5:00:00:intense:00"], [12, "condition%1:26:00::"], [14, "perceived%5:00:02:detected:00"], [15, "threat%1:26:00::"], [17, "persist%2:42:00::"], [18, "unabated%5:00:00:intense:00"], [21, "anxious%5:00:00:uneasy:00"], [22, "child%1:18:00::"], [25, "ambiguous%5:00:00:unstructured:00"], [26, "sort%1:09:00::"], [28, "school%1:14:00::"], [29, "environment%1:26:00::"]]
+    wn30_key: [[2, "theory%1:09:01::"], [3, "propose%2:31:00::"], [6, "be%2:42:06::"], [8, "consequence%1:19:00::"], [11, "severe%3:00:00:intense:00"], [12, "condition%1:26:00::"], [14, "perceived%3:00:02:detected:00"], [15, "threat%1:26:00::"], [17, "persist%2:42:00::"], [18, "unabated%3:00:00:intense:00"], [22, "child%1:18:00::"], [25, "ambiguous%3:00:00:unstructured:00"], [26, "sort%1:09:00::"], [28, "school%1:14:00::"], [29, "environment%1:26:00::"]]
+aC/7:
+    lemmas: ["The", "fact", "that", "such", "threat", "be", "potent", "in", "the", "beginning", "reading", "lesson", "be", "think", "to", "be", "a", "vital", "factor", "in", "the", "continued", "pattern", "of", "failure", "or", "underachievement", "these", "child", "exhibit", "."]
+    oewn2026_key: [[1, "oewn-06648784-n"], [3, "oewn-01558587-s"], [4, "oewn-14566833-n"], [5, "oewn-02610777-v"], [6, "oewn-01832697-s"], [10, "oewn-05816802-n"], [11, "oewn-00891150-n"], [13, "oewn-00691086-v"], [15, "oewn-02622439-v"], [17, "oewn-00907116-s"], [18, "oewn-05877576-n"], [21, "oewn-00600402-a"], [22, "oewn-05939522-n"], [24, "oewn-00067456-n"], [26, "oewn-00048291-n"], [28, "oewn-09937051-n"], [29, "oewn-02637937-v"]]
+    paragraph: '17'
+    pos: ["DT", "NN", "IN", "JJ", "NN", "VBZ", "JJ", "RB", "RB", "JJ", "NN", "NNS", "VBZ", "VBN", "TO", "VB", "DT", "JJ", "NN", "VB", "DT", "JJ", "NN", "IN", "NN", "CC", "NN", "DT", "NNS", "VBP", "."]
+    text: ' The fact that such threat is potent in the beginning reading lessons is thought
+  to be a vital factor in the continued pattern of failure or under-achievement these
+  children exhibit.'
+    tokens: [[1, 4], [5, 9], [10, 14], [15, 19], [20, 26], [27, 29], [30, 36], [37, 39], [40, 43], [44, 53], [54, 61], [62, 69], [70, 72], [73, 80], [81, 83], [84, 86], [87, 88], [89, 94], [95, 101], [102, 104], [105, 108], [109, 118], [119, 126], [127, 129], [130, 137], [138, 140], [141, 158], [159, 164], [165, 173], [174, 181], [181, 182]]
+    wn16_key: [[1, "fact%1:10:01::"], [3, "such%5:00:01:specified:00"], [4, "threat%1:26:00::"], [5, "be%2:42:03::"], [6, "potent%5:00:00:powerful:00"], [9, "beginning%5:00:00:elementary(a):00"], [10, "reading%1:09:00::"], [11, "lesson%1:04:01::"], [13, "think%2:31:01::"], [15, "be%2:42:06::"], [17, "vital%5:00:00:indispensable:00"], [18, "factor%1:09:00::"], [21, "continued%3:00:00::"], [22, "pattern%1:09:00::"], [24, "failure%1:04:00::"], [26, "underachievement%1:04:00::"], [28, "child%1:18:00::"], [29, "exhibit%2:42:00::"]]
+    wn30_key: [[1, "fact%1:10:01::"], [3, "such%3:00:00:much:00"], [4, "threat%1:26:00::"], [5, "be%2:42:03::"], [6, "potent%3:00:00:powerful:00"], [10, "reading%1:09:00::"], [11, "lesson%1:04:01::"], [13, "think%2:31:01::"], [15, "be%2:42:06::"], [17, "vital%3:00:00:indispensable:00"], [18, "factor%1:09:00::"], [21, "continued%3:00:00::"], [22, "pattern%1:09:00::"], [24, "failure%1:04:00::"], [26, "underachievement%1:04:00::"], [28, "child%1:18:00::"], [29, "exhibit%2:42:00::"]]
+beDt:
+    lemmas: ["The", "child", "with", "high", "anxiety", "may", "first", "direct", "his", "anxiety", "released", "energy", "toward", "achievement", ",", "but", "because", "his", "distress", "severely", "reduce", "the", "ability", "of", "discrimination", "and", "memorization", "of", "complex", "symbol", ",", "the", "child", "may", "fail", "in", "his", "initial", "attempt", "to", "master", "the", "problem", "."]
+    oewn2026_key: [[1, "oewn-09937051-n"], [3, "oewn-01213526-a"], [4, "oewn-14397837-n"], [6, "oewn-00103286-r"], [7, "oewn-01955339-v"], [9, "oewn-14397837-n"], [11, "oewn-04843914-n"], [13, "oewn-00035910-n"], [19, "oewn-00016415-r"], [20, "oewn-00430013-v"], [22, "oewn-05624029-n"], [24, "oewn-05755999-n"], [26, "oewn-05763153-n"], [28, "oewn-02183738-a"], [29, "oewn-06819327-n"], [32, "oewn-09937051-n"], [34, "oewn-02534046-v"], [37, "oewn-01015570-s"], [38, "oewn-00787849-n"], [40, "oewn-00599029-v"], [42, "oewn-14434009-n"]]
+    paragraph: '17'
+    pos: ["DT", "NN", "IN", "JJ", "NN", "MD", "RB", "VB", "PRP$", "NN", "JJ", "NN", "IN", "NN", ",", "CC", "IN", "PRP$", "NN", "RB", "VBZ", "DT", "NNS", "IN", "NN", "CC", "NN", "IN", "JJ", "NNS", ",", "DT", "NN", "MD", "VB", "IN", "PRP$", "JJ", "NNS", "TO", "VB", "DT", "NN", "."]
+    text: ' The child with high anxiety may first direct his anxiety released energy toward
+  achievement, but because his distress severely reduces the abilities of discrimination
+  and memorization of complex symbols, the child may fail in his initial attempts
+  to master the problem.'
+    tokens: [[1, 4], [5, 10], [11, 15], [16, 20], [21, 28], [29, 32], [33, 38], [39, 45], [46, 49], [50, 57], [58, 66], [67, 73], [74, 80], [81, 92], [92, 93], [94, 97], [98, 105], [106, 109], [110, 118], [119, 127], [128, 135], [136, 139], [140, 149], [150, 152], [153, 167], [168, 171], [172, 184], [185, 187], [188, 195], [196, 203], [203, 204], [205, 208], [209, 214], [215, 218], [219, 223], [224, 226], [227, 230], [231, 238], [239, 247], [248, 250], [251, 257], [258, 261], [262, 269], [269, 270]]
+    wn16_key: [[1, "child%1:18:00::"], [3, "high%3:00:02::"], [4, "anxiety%1:26:00::"], [6, "first%4:02:00::"], [7, "direct%2:38:01::"], [9, "anxiety%1:26:00::"], [10, "released%5:00:00:free:00"], [11, "energy%1:07:02::"], [13, "achievement%1:04:00::"], [18, "distress%1:12:00::"], [19, "severely%4:02:01::"], [20, "reduce%2:30:00::"], [22, "ability%1:09:00::"], [24, "discrimination%1:09:00::"], [26, "memorization%1:09:00::"], [28, "complex%3:00:00::"], [29, "symbol%1:10:00::"], [32, "child%1:18:00::"], [34, "fail%2:41:00::"], [37, "initial%5:00:00:first:00"], [38, "attempt%1:04:00::"], [40, "master%2:31:01::"], [42, "problem%1:26:00::"]]
+    wn30_key: [[1, "child%1:18:00::"], [3, "high%3:00:02::"], [4, "anxiety%1:26:00::"], [6, "first%4:02:00::"], [7, "direct%2:38:01::"], [9, "anxiety%1:26:00::"], [11, "energy%1:07:02::"], [13, "achievement%1:04:00::"], [19, "severely%4:02:01::"], [20, "reduce%2:30:00::"], [22, "ability%1:09:00::"], [24, "discrimination%1:09:00::"], [26, "memorization%1:09:00::"], [28, "complex%3:00:00::"], [29, "symbol%1:10:00::"], [32, "child%1:18:00::"], [34, "fail%2:41:00::"], [37, "initial%3:00:00:first:00"], [38, "attempt%1:04:00::"], [40, "master%2:31:01::"], [42, "problem%1:26:00::"]]
+MiHc:
+    lemmas: ["failure", "confirm", "the", "threat", ",", "and", "the", "intensity", "of", "anxiety", "be", "increase", "as", "the", "required", "learning", "become", "more", "difficult", ",", "so", "that", "by", "the", "time", "the", "child", "reach", "the", "third", "grade", "the", "decrement", "in", "performance", "be", "pronounced", "."]
+    oewn2026_key: [[0, "oewn-00067456-n"], [1, "oewn-00667804-v"], [3, "oewn-14566833-n"], [7, "oewn-05043549-n"], [9, "oewn-14397837-n"], [11, "oewn-00156409-v"], [14, "oewn-01585183-s"], [15, "oewn-05760541-n"], [16, "oewn-00149403-v"], [17, "oewn-00099891-r"], [18, "oewn-00748528-a"], [24, "oewn-15270326-n"], [26, "oewn-09937051-n"], [27, "oewn-02010848-v"], [29, "oewn-02209976-s"], [30, "oewn-08255384-n"], [32, "oewn-05117108-n"], [35, "oewn-02610777-v"], [36, "oewn-01290810-s"]]
+    paragraph: '17'
+    pos: ["NN", "VBZ", "DT", "NN", ",", "CC", "DT", "NN", "IN", "NN", "VBZ", "VBN", "IN", "DT", "JJ", "NN", "VBZ", "RBR", "JJ", ",", "RB", "RB", "IN", "DT", "NN", "DT", "NN", "VBZ", "DT", "JJ", "NN", "DT", "NN", "IN", "NN", "VBZ", "JJ", "."]
+    text: ' Failure confirms the threat, and the intensity of anxiety is increased as the required
+  learning becomes more difficult, so that by the time the child reaches the third
+  grade the decrement in performance is pronounced.
+
+  '
+    tokens: [[1, 8], [9, 17], [18, 21], [22, 28], [28, 29], [30, 33], [34, 37], [38, 47], [48, 50], [51, 58], [59, 61], [62, 71], [72, 74], [75, 78], [79, 87], [88, 96], [97, 104], [105, 109], [110, 119], [119, 120], [121, 123], [124, 128], [129, 131], [132, 135], [136, 140], [141, 144], [145, 150], [151, 158], [159, 162], [163, 168], [169, 174], [175, 178], [179, 188], [189, 191], [192, 203], [204, 206], [207, 217], [217, 218]]
+    wn16_key: [[0, "failure%1:04:00::"], [1, "confirm%2:31:00::"], [3, "threat%1:26:00::"], [7, "intensity%1:07:00::"], [9, "anxiety%1:26:00::"], [11, "increase%2:30:00::"], [14, "required%5:00:00:necessary:00"], [15, "learning%1:09:00::"], [16, "become%2:30:00::"], [17, "more%4:02:00::"], [18, "difficult%3:00:00::"], [24, "time%1:28:06::"], [26, "child%1:18:00::"], [27, "reach%2:38:00::"], [29, "third%5:00:00:ordinal:00"], [30, "grade%1:14:00::"], [32, "decrement%1:07:00::"], [34, "performance%1:04:02::"], [35, "be%2:42:03::"], [36, "pronounced%5:00:00:noticeable:00"]]
+    wn30_key: [[0, "failure%1:04:00::"], [1, "confirm%2:31:00::"], [3, "threat%1:26:00::"], [7, "intensity%1:07:00::"], [9, "anxiety%1:26:00::"], [11, "increase%2:30:00::"], [14, "required%3:00:00:necessary:00"], [15, "learning%1:09:00::"], [16, "become%2:30:00::"], [17, "more%4:02:00::"], [18, "difficult%3:00:00::"], [24, "time%1:28:06::"], [26, "child%1:18:00::"], [27, "reach%2:38:00::"], [29, "third%3:00:00:ordinal:00"], [30, "grade%1:14:00::"], [32, "decrement%1:07:00::"], [35, "be%2:42:03::"], [36, "pronounced%3:00:00:noticeable:00"]]
++WAX:
+    lemmas: ["The", "individual", "with", "high", "anxiety", "in", "the", "structured", "classroom", "may", "approach", "the", "learning", "task", "with", "the", "same", "increased", "energy", "and", "lowered", "power", "of", "discrimination", "."]
+    oewn2026_key: [[1, "oewn-00007846-n"], [3, "oewn-01213526-a"], [4, "oewn-14397837-n"], [7, "oewn-01676037-a"], [8, "oewn-03042670-n"], [10, "oewn-02444146-v"], [12, "oewn-05760541-n"], [13, "oewn-00797381-n"], [16, "oewn-02070074-a"], [17, "oewn-00883449-a"], [18, "oewn-04843914-n"], [20, "oewn-01211024-a"], [21, "oewn-05624029-n"], [23, "oewn-05755999-n"]]
+    paragraph: '18'
+    pos: ["DT", "NN", "IN", "JJ", "NN", "IN", "DT", "JJ", "NN", "MD", "VB", "DT", "NN", "NN", "IN", "DT", "JJ", "JJ", "NN", "CC", "JJ", "NNS", "IN", "NN", "."]
+    text: ' The individual with high anxiety in the structured classroom may approach the learning
+  task with the same increased energy and lowered powers of discrimination.'
+    tokens: [[1, 4], [5, 15], [16, 20], [21, 25], [26, 33], [34, 36], [37, 40], [41, 51], [52, 61], [62, 65], [66, 74], [75, 78], [79, 87], [88, 92], [93, 97], [98, 101], [102, 106], [107, 116], [117, 123], [124, 127], [128, 135], [136, 142], [143, 145], [146, 160], [160, 161]]
+    wn16_key: [[1, "individual%1:03:00::"], [3, "high%3:00:02::"], [4, "anxiety%1:26:00::"], [7, "structured%3:00:00::"], [8, "classroom%1:06:00::"], [10, "approach%2:41:00::"], [12, "learning%1:09:00::"], [13, "task%1:04:01::"], [16, "same%3:00:00::"], [17, "increased%3:00:00::"], [18, "energy%1:07:02::"], [20, "lowered%3:00:00::"], [21, "power%1:09:01::"], [23, "discrimination%1:09:00::"]]
+    wn30_key: [[1, "individual%1:03:00::"], [3, "high%3:00:02::"], [4, "anxiety%1:26:00::"], [7, "structured%3:00:00::"], [8, "classroom%1:06:00::"], [10, "approach%2:41:00::"], [12, "learning%1:09:00::"], [13, "task%1:04:01::"], [16, "same%3:00:00::"], [17, "increased%3:00:00::"], [18, "energy%1:07:02::"], [20, "lowered%3:00:00::"], [21, "power%1:09:01::"], [23, "discrimination%1:09:00::"]]
+L/cE:
+    lemmas: ["But", "the", "symbol", "he", "be", "ask", "to", "learn", "be", "simple", "."]
+    oewn2026_key: [[2, "oewn-06819327-n"], [5, "oewn-00754499-v"], [7, "oewn-00605971-v"], [8, "oewn-02610777-v"], [9, "oewn-02182456-a"]]
+    paragraph: '18'
+    pos: ["CC", "DT", "NNS", "PRP", "VBZ", "VBN", "TO", "VB", "VBP", "JJ", "."]
+    text: ' But the symbols he is asked to learn are simple.'
+    tokens: [[1, 4], [5, 8], [9, 16], [17, 19], [20, 22], [23, 28], [29, 31], [32, 37], [38, 41], [42, 48], [48, 49]]
+    wn16_key: [[2, "symbol%1:10:00::"], [5, "ask%2:32:01::"], [7, "learn%2:31:03::"], [8, "be%2:42:03::"], [9, "simple%3:00:02::"]]
+    wn30_key: [[2, "symbol%1:10:00::"], [5, "ask%2:32:01::"], [7, "learn%2:31:03::"], [8, "be%2:42:03::"], [9, "simple%3:00:02::"]]
+00kN:
+    lemmas: ["As", "show", "earlier", ",", "the", "highly", "anxious", "individual", "may", "be", "superior", "in", "his", "memorize", "of", "simple", "element", "."]
+    oewn2026_key: [[1, "oewn-00666706-v"], [2, "oewn-00061477-r"], [5, "oewn-00089896-r"], [7, "oewn-00007846-n"], [9, "oewn-02610777-v"], [10, "oewn-02349336-a"], [13, "oewn-00605971-v"], [15, "oewn-02182456-a"], [16, "oewn-05877576-n"]]
+    paragraph: '18'
+    pos: ["IN", "VBN", "RBR", ",", "DT", "RB", "JJ", "NN", "MD", "VB", "JJ", "IN", "PRP$", "VB", "IN", "JJ", "NNS", "."]
+    text: ' As shown earlier, the highly anxious individual may be superior in his memorizing
+  of simple elements.'
+    tokens: [[1, 3], [4, 9], [10, 17], [17, 18], [19, 22], [23, 29], [30, 37], [38, 48], [49, 52], [53, 55], [56, 64], [65, 67], [68, 71], [72, 82], [83, 85], [86, 92], [93, 101], [101, 102]]
+    wn16_key: [[1, "show%2:31:00::"], [2, "earlier%4:02:00::"], [5, "highly%4:02:02::"], [6, "anxious%5:00:00:uneasy:00"], [7, "individual%1:03:00::"], [9, "be%2:42:03::"], [10, "superior%3:00:02::"], [13, "memorize%2:31:00::"], [15, "simple%3:00:02::"], [16, "element%1:09:00::"]]
+    wn30_key: [[1, "show%2:31:00::"], [2, "earlier%4:02:00::"], [5, "highly%4:02:01::"], [7, "individual%1:03:00::"], [9, "be%2:42:03::"], [10, "superior%3:00:02::"], [13, "memorize%2:31:00::"], [15, "simple%3:00:02::"], [16, "element%1:09:00::"]]
+VFvi:
+    lemmas: ["success", "reduce", "the", "prospect", "of", "threat", "and", "his", "power", "of", "discrimination", "be", "improve", "."]
+    oewn2026_key: [[0, "oewn-00064472-n"], [1, "oewn-00430013-v"], [3, "oewn-05953807-n"], [5, "oewn-14566833-n"], [8, "oewn-05624029-n"], [10, "oewn-05755999-n"], [12, "oewn-00206293-v"]]
+    paragraph: '18'
+    pos: ["NN", "VBZ", "DT", "NN", "IN", "NN", "CC", "PRP$", "NNS", "IN", "NN", "VB", "VBN", "."]
+    text: ' Success reduces the prospect of threat and his powers of discrimination are improved.'
+    tokens: [[1, 8], [9, 16], [17, 20], [21, 29], [30, 32], [33, 39], [40, 43], [44, 47], [48, 54], [55, 57], [58, 72], [73, 76], [77, 85], [85, 86]]
+    wn16_key: [[0, "success%1:04:00::"], [1, "reduce%2:30:00::"], [3, "prospect%1:09:01::"], [5, "threat%1:26:00::"], [8, "power%1:09:01::"], [10, "discrimination%1:09:00::"], [12, "improve%2:30:01::"]]
+    wn30_key: [[0, "success%1:04:00::"], [1, "reduce%2:30:00::"], [3, "prospect%1:09:01::"], [5, "threat%1:26:00::"], [8, "power%1:09:01::"], [10, "discrimination%1:09:00::"], [12, "improve%2:30:01::"]]
+L6ku:
+    lemmas: ["By", "the", "time", "the", "child", "first", "attack", "the", "actual", "problem", "of", "reading", ",", "he", "be", "completely", "familiar", "and", "at_ease", "with", "all_of", "the", "element", "of", "word", "."]
+    oewn2026_key: [[2, "oewn-15270326-n"], [4, "oewn-09937051-n"], [5, "oewn-00104262-r"], [6, "oewn-00348264-v"], [8, "oewn-00043985-a"], [9, "oewn-14434009-n"], [11, "oewn-05816802-n"], [14, "oewn-02610777-v"], [15, "oewn-00008423-r"], [16, "oewn-00968795-a"], [22, "oewn-05877576-n"], [24, "oewn-06297048-n"]]
+    paragraph: '18'
+    pos: ["IN", "DT", "NN", "DT", "NN", "RB", "VBZ", "DT", "JJ", "NN", "IN", "NN", ",", "PRP", "VBZ", "RB", "JJ", "CC", "JJ", "IN", "JJ", "DT", "NNS", "IN", "NNS", "."]
+    text: ' By the time the child first attacks the actual problem of reading, he is completely
+  familiar and at_ease with all_of the elements of words.'
+    tokens: [[1, 3], [4, 7], [8, 12], [13, 16], [17, 22], [23, 28], [29, 36], [37, 40], [41, 47], [48, 55], [56, 58], [59, 66], [66, 67], [68, 70], [71, 73], [74, 84], [85, 93], [94, 97], [98, 105], [106, 110], [111, 117], [118, 121], [122, 130], [131, 133], [134, 139], [139, 140]]
+    wn16_key: [[2, "time%1:28:06::"], [4, "child%1:18:00::"], [5, "first%4:02:02::"], [6, "attack%2:30:00::"], [8, "actual%3:00:00::"], [9, "problem%1:26:00::"], [11, "reading%1:09:00::"], [14, "be%2:42:03::"], [15, "completely%4:02:04::"], [16, "familiar%3:00:00::"], [18, "at_ease%3:00:02::"], [20, "all_of%3:00:00::"], [22, "element%1:09:00::"], [24, "word%1:10:00::"]]
+    wn30_key: [[2, "time%1:28:06::"], [4, "child%1:18:00::"], [5, "first%4:02:02::"], [6, "attack%2:30:00::"], [8, "actual%3:00:00::"], [9, "problem%1:26:00::"], [11, "reading%1:09:00::"], [14, "be%2:42:03::"], [15, "completely%4:02:04::"], [16, "familiar%3:00:00::"], [22, "element%1:09:00::"], [24, "word%1:10:00::"]]
+xbLl:
+    lemmas: ["apparently", "academic", "challenge", "in", "the", "structured", "setting", "create", "an", "optimum", "of", "stress", "so_that", "the", "child", "with", "high", "anxiety", "be", "able", "to", "achieve", "because", "he", "be", "aroused", "to", "an", "energetic", "state", "without", "become", "confused", "or", "panicked", "."]
+    oewn2026_key: [[0, "oewn-00040353-r"], [1, "oewn-02610356-a"], [2, "oewn-13955981-n"], [5, "oewn-01676037-a"], [6, "oewn-08585785-n"], [7, "oewn-01620211-v"], [9, "oewn-05151111-n"], [11, "oewn-14399593-n"], [14, "oewn-09937051-n"], [16, "oewn-01213526-a"], [17, "oewn-14397837-n"], [18, "oewn-02610777-v"], [19, "oewn-00512273-s"], [21, "oewn-02531751-v"], [24, "oewn-02610777-v"], [25, "oewn-00923735-s"], [28, "oewn-00876911-a"], [29, "oewn-00024900-n"], [31, "oewn-00149403-v"], [32, "oewn-01770645-s"], [34, "oewn-00080947-s"]]
+    paragraph: '18'
+    pos: ["RB", "JJ", "NN", "IN", "DT", "JJ", "NN", "VBZ", "DT", "NN", "IN", "NN", "RB", "DT", "NN", "IN", "JJ", "NN", "VBZ", "JJ", "JJ", "VB", "IN", "PRP", "VBZ", "JJ", "TO", "DT", "JJ", "NN", "IN", "VBG", "JJ", "CC", "JJ", "."]
+    text: ' Apparently academic challenge in the structured setting creates an optimum of stress
+  so_that the child with high anxiety is able to achieve because he is aroused to
+  an energetic state without becoming confused or panicked.
+
+  '
+    tokens: [[1, 11], [12, 20], [21, 30], [31, 33], [34, 37], [38, 48], [49, 56], [57, 64], [65, 67], [68, 75], [76, 78], [79, 85], [86, 93], [94, 97], [98, 103], [104, 108], [109, 113], [114, 121], [122, 124], [125, 129], [130, 132], [133, 140], [141, 148], [149, 151], [152, 154], [155, 162], [163, 165], [166, 168], [169, 178], [179, 184], [185, 192], [193, 201], [202, 210], [211, 213], [214, 222], [222, 223]]
+    wn16_key: [[0, "apparently%4:02:00::"], [1, "academic%3:01:00::"], [2, "challenge%1:26:00::"], [5, "structured%3:00:00::"], [6, "setting%1:15:00::"], [7, "create%2:36:00::"], [9, "optimum%1:07:00::"], [11, "stress%1:26:01::"], [14, "child%1:18:00::"], [16, "high%3:00:02::"], [17, "anxiety%1:26:00::"], [18, "be%2:42:03::"], [19, "able%5:00:00:competent:00"], [21, "achieve%2:41:00::"], [24, "be%2:42:03::"], [25, "aroused%5:00:00:excited:00"], [28, "energetic%3:00:00::"], [29, "state%1:03:00::"], [31, "become%2:30:00::"], [32, "confused%5:00:00:perplexed:00"], [34, "panicked%5:00:00:afraid(p):00"]]
+    wn30_key: [[0, "apparently%4:02:00::"], [1, "academic%3:01:00::"], [2, "challenge%1:26:00::"], [5, "structured%3:00:00::"], [6, "setting%1:15:00::"], [7, "create%2:36:00::"], [9, "optimum%1:07:00::"], [11, "stress%1:26:01::"], [14, "child%1:18:00::"], [16, "high%3:00:02::"], [17, "anxiety%1:26:00::"], [18, "be%2:42:03::"], [19, "able%3:00:00:competent:00"], [21, "achieve%2:41:00::"], [24, "be%2:42:03::"], [25, "aroused%3:00:00:excited:00"], [28, "energetic%3:00:00::"], [29, "state%1:03:00::"], [31, "become%2:30:00::"], [32, "confused%3:00:00:perplexed:00"], [34, "panicked%3:00:00:afraid:00"]]
+G5Fy:
+    lemmas: ["person", "et_al.", "present", "evidence", "that", "the", "anxious", "child", "will", "suffer", "in", "the", "test", "like", "situation", ",", "and", "that", "his", "performance", "will", "be", "impair", "unless", "he", "receive", "supporting", "and", "accepting", "treatment", "from", "the", "teacher", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-00192785-r"], [2, "oewn-00775012-v"], [3, "oewn-05832256-n"], [7, "oewn-09937051-n"], [9, "oewn-00064841-v"], [12, "oewn-01008617-n"], [13, "oewn-01412553-a"], [14, "oewn-13948785-n"], [22, "oewn-00263767-v"], [25, "oewn-02112480-v"], [26, "oewn-02364800-s"], [28, "oewn-00076735-s"], [29, "oewn-01137182-n"], [32, "oewn-10713754-n"]]
+    paragraph: '19'
+    pos: ["NN", "RB", "VB", "NN", "IN", "DT", "JJ", "NN", "MD", "VB", "IN", "DT", "NN", "JJ", "NN", ",", "CC", "IN", "PRP$", "NN", "MD", "VB", "VB", "IN", "PRP", "VBZ", "JJ", "CC", "JJ", "NN", "IN", "DT", "NN", "."]
+    text: ' Sarason et_al. present evidence that the anxious child will suffer in the test like
+  situation, and that his performance will be impaired unless he receives supporting
+  and accepting treatment from the teacher.'
+    tokens: [[1, 8], [9, 15], [16, 23], [24, 32], [33, 37], [38, 41], [42, 49], [50, 55], [56, 60], [61, 67], [68, 70], [71, 74], [75, 79], [80, 84], [85, 94], [94, 95], [96, 99], [100, 104], [105, 108], [109, 120], [121, 125], [126, 128], [129, 137], [138, 144], [145, 147], [148, 156], [157, 167], [168, 171], [172, 181], [182, 191], [192, 196], [197, 200], [201, 208], [208, 209]]
+    wn16_key: [[0, "person%1:03:00::"], [1, "et_al.%4:02:00::"], [2, "present%2:32:00::"], [3, "evidence%1:09:00::"], [6, "anxious%5:00:00:uneasy:00"], [7, "child%1:18:00::"], [9, "suffer%2:37:00::"], [12, "test%1:04:02::"], [13, "like%3:00:00::"], [14, "situation%1:26:01::"], [19, "performance%1:04:02::"], [22, "impair%2:30:00::"], [25, "receive%2:39:03::"], [26, "supporting%5:00:00:supportive:00"], [28, "accepting%5:00:00:acceptive:00"], [29, "treatment%1:04:01::"], [32, "teacher%1:18:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [1, "et_al.%4:02:00::"], [2, "present%2:32:00::"], [3, "evidence%1:09:00::"], [7, "child%1:18:00::"], [9, "suffer%2:37:00::"], [12, "test%1:04:02::"], [13, "like%3:00:00::"], [14, "situation%1:26:01::"], [22, "impair%2:30:00::"], [25, "receive%2:39:03::"], [26, "supporting%3:00:00:supportive:00"], [28, "accepting%3:00:00:acceptive:00"], [29, "treatment%1:04:01::"], [32, "teacher%1:18:00::"]]
+M6D4:
+    lemmas: ["Although", "the", "present", "study", "be", "not", "a", "direct", "replication", "of", "their", "investigation", ",", "the", "result", "do", "not", "confirm", "their", "conclusion", "."]
+    oewn2026_key: [[2, "oewn-01735600-a"], [3, "oewn-00645746-n"], [4, "oewn-02622439-v"], [5, "oewn-00024432-r"], [7, "oewn-00774039-s"], [8, "oewn-01021843-n"], [11, "oewn-00635107-n"], [14, "oewn-11430739-n"], [16, "oewn-00024432-r"], [17, "oewn-00667804-v"], [19, "oewn-05846685-n"]]
+    paragraph: '19'
+    pos: ["IN", "DT", "JJ", "NN", "VBD", "RB", "DT", "JJ", "NN", "IN", "PRP$", "NNS", ",", "DT", "NNS", "VBP", "RB", "VB", "PRP$", "NN", "."]
+    text: ' Although the present study was not a direct replication of their investigations,
+  the results do not confirm their conclusion.'
+    tokens: [[1, 9], [10, 13], [14, 21], [22, 27], [28, 31], [32, 35], [36, 37], [38, 44], [45, 56], [57, 59], [60, 65], [66, 80], [80, 81], [82, 85], [86, 93], [94, 96], [97, 100], [101, 108], [109, 114], [115, 125], [125, 126]]
+    wn16_key: [[2, "present%3:00:01::"], [3, "study%1:04:00::"], [4, "be%2:42:06::"], [5, "not%4:02:00::"], [7, "direct%5:00:00:immediate:00"], [8, "replication%1:04:00::"], [11, "investigation%1:04:00::"], [14, "result%1:19:00::"], [16, "not%4:02:00::"], [17, "confirm%2:31:00::"], [19, "conclusion%1:09:00::"]]
+    wn30_key: [[2, "present%3:00:01::"], [3, "study%1:04:00::"], [4, "be%2:42:06::"], [5, "not%4:02:00::"], [7, "direct%3:00:00:immediate:00"], [8, "replication%1:04:00::"], [11, "investigation%1:04:00::"], [14, "result%1:19:00::"], [16, "not%4:02:00::"], [17, "confirm%2:31:00::"], [19, "conclusion%1:09:00::"]]
+1xbG:
+    lemmas: ["observer", ",", "in", "the", "two", "school_system", "study", "here", ",", "judge", "the", "teacher", "in", "the", "structured", "school", "to", "be", "more", "impersonal", "and", "demanding", ",", "while", "the", "atmosphere", "in", "the", "unstructured", "school", "be", "judge", "to", "be", "more", "supporting", "and", "accepting", "."]
+    oewn2026_key: [[0, "oewn-10389227-n"], [4, "oewn-02194109-s"], [5, "oewn-04154041-n"], [6, "oewn-00646245-v"], [7, "oewn-00109541-r"], [9, "oewn-00672179-v"], [11, "oewn-10713754-n"], [14, "oewn-01676037-a"], [15, "oewn-08293641-n"], [17, "oewn-02610777-v"], [18, "oewn-00099891-r"], [19, "oewn-01774089-a"], [21, "oewn-00713705-a"], [25, "oewn-14548451-n"], [28, "oewn-01676186-a"], [29, "oewn-08293641-n"], [31, "oewn-00672179-v"], [33, "oewn-02610777-v"], [34, "oewn-00099891-r"], [35, "oewn-02364800-s"], [37, "oewn-00076735-s"]]
+    paragraph: '19'
+    pos: ["NNS", ",", "IN", "JJ", "JJ", "NNS", "VBN", "RB", ",", "VBD", "DT", "NNS", "IN", "DT", "JJ", "NNS", "TO", "VB", "RBR", "JJ", "CC", "JJ", ",", "IN", "DT", "NN", "IN", "DT", "JJ", "NNS", "VBD", "VBN", "TO", "VB", "RBR", "JJ", "CC", "JJ", "."]
+    text: ' Observers, in the two school_systems studied here, judged the teachers in the structured
+  schools to be more impersonal and demanding, while the atmosphere in the unstructured
+  schools was judged to be more supporting and accepting.'
+    tokens: [[1, 10], [10, 11], [12, 14], [15, 18], [19, 22], [23, 37], [38, 45], [46, 50], [50, 51], [52, 58], [59, 62], [63, 71], [72, 74], [75, 78], [79, 89], [90, 97], [98, 100], [101, 103], [104, 108], [109, 119], [120, 123], [124, 133], [133, 134], [135, 140], [141, 144], [145, 155], [156, 158], [159, 162], [163, 175], [176, 183], [184, 187], [188, 194], [195, 197], [198, 200], [201, 205], [206, 216], [217, 220], [221, 230], [230, 231]]
+    wn16_key: [[0, "observer%1:18:01::"], [4, "two%5:00:00:cardinal:00"], [5, "school_system%1:06:00::"], [6, "study%2:31:02::"], [7, "here%4:02:02::"], [9, "judge%2:31:00::"], [11, "teacher%1:18:00::"], [14, "structured%3:00:00::"], [15, "school%1:14:00::"], [17, "be%2:42:03::"], [18, "more%4:02:00::"], [19, "impersonal%3:00:00::"], [21, "demanding%3:00:01::"], [25, "atmosphere%1:26:01::"], [28, "unstructured%3:00:00::"], [29, "school%1:14:00::"], [31, "judge%2:31:00::"], [33, "be%2:42:03::"], [34, "more%4:02:00::"], [35, "supporting%5:00:00:supportive:00"], [37, "accepting%5:00:00:acceptive:00"]]
+    wn30_key: [[0, "observer%1:18:01::"], [4, "two%3:00:00:cardinal:00"], [5, "school_system%1:06:00::"], [6, "study%2:31:02::"], [7, "here%4:02:02::"], [9, "judge%2:31:00::"], [11, "teacher%1:18:00::"], [14, "structured%3:00:00::"], [15, "school%1:14:00::"], [17, "be%2:42:03::"], [18, "more%4:02:00::"], [19, "impersonal%3:00:00::"], [21, "demanding%3:00:01::"], [25, "atmosphere%1:26:01::"], [28, "unstructured%3:00:00::"], [29, "school%1:14:00::"], [31, "judge%2:31:00::"], [33, "be%2:42:03::"], [34, "more%4:02:00::"], [35, "supporting%3:00:00:supportive:00"], [37, "accepting%3:00:00:acceptive:00"]]
+n93S:
+    lemmas: ["yet", "the", "highly", "anxious", "child", "suffer", "a", "tremendous", "disadvantage", "only", "in", "the", "unstructured", "school", ",", "and", "perform", "as", "well", "or", "better", "than", "average", "in", "the", "structured", "setting", "."]
+    oewn2026_key: [[2, "oewn-00089896-r"], [4, "oewn-09937051-n"], [5, "oewn-02113644-v"], [7, "oewn-01388189-s"], [8, "oewn-05169087-n"], [9, "oewn-00009062-r"], [12, "oewn-01676186-a"], [13, "oewn-08293641-n"], [16, "oewn-02379855-v"], [17, "oewn-00022585-r"], [18, "oewn-00011555-r"], [20, "oewn-00060145-r"], [22, "oewn-01598728-s"], [25, "oewn-01676037-a"], [26, "oewn-08585785-n"]]
+    paragraph: '19'
+    pos: ["RB", "DT", "RB", "JJ", "NN", "VBD", "DT", "JJ", "NN", "RB", "IN", "DT", "JJ", "NN", ",", "CC", "VBD", "RB", "RB", "CC", "RB", "IN", "JJ", "IN", "DT", "JJ", "NN", "."]
+    text: ' Yet the highly anxious child suffered a tremendous disadvantage only in the unstructured
+  school, and performed as well or better than average in the structured setting.
+
+  '
+    tokens: [[1, 4], [5, 8], [9, 15], [16, 23], [24, 29], [30, 38], [39, 40], [41, 51], [52, 64], [65, 69], [70, 72], [73, 76], [77, 89], [90, 96], [96, 97], [98, 101], [102, 111], [112, 114], [115, 119], [120, 122], [123, 129], [130, 134], [135, 142], [143, 145], [146, 149], [150, 160], [161, 168], [168, 169]]
+    wn16_key: [[2, "highly%4:02:02::"], [3, "anxious%5:00:00:uneasy:00"], [4, "child%1:18:00::"], [5, "suffer%2:39:01::"], [7, "tremendous%5:00:00:large:00"], [8, "disadvantage%1:07:00::"], [9, "only%4:02:01::"], [12, "unstructured%3:00:00::"], [13, "school%1:14:00::"], [16, "perform%2:41:02::"], [17, "as%4:02:00::"], [18, "well%4:02:00::"], [20, "better%4:02:00::"], [22, "average%5:00:02:normal:01"], [25, "structured%3:00:00::"], [26, "setting%1:15:00::"]]
+    wn30_key: [[2, "highly%4:02:01::"], [4, "child%1:18:00::"], [5, "suffer%2:39:01::"], [7, "tremendous%3:00:00:large:00"], [8, "disadvantage%1:07:00::"], [9, "only%4:02:01::"], [12, "unstructured%3:00:00::"], [13, "school%1:14:00::"], [16, "perform%2:41:02::"], [17, "as%4:02:00::"], [18, "well%4:02:00::"], [20, "better%4:02:00::"], [22, "average%3:00:02:normal:01"], [25, "structured%3:00:00::"], [26, "setting%1:15:00::"]]

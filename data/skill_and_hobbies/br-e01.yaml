@@ -1,0 +1,976 @@
+_meta:
+    lemmas:
+        type: seq
+        base: tokens
+        data: string
+    oewn2026_key:
+        type: element
+        base: tokens
+        data: string
+    paragraph:
+        type: characters
+    pos:
+        type: seq
+        base: tokens
+        data: string
+    text:
+        type: characters
+    tokens:
+        type: span
+        base: text
+    wn16_key:
+        type: element
+        base: tokens
+        data: string
+    wn30_key:
+        type: element
+        base: tokens
+        data: string
+zq1J:
+    lemmas: ["too", "often", "a", "beginning", "bodybuilder", "have", "to", "do", "his", "training", "secretly", "either", "because", "his", "parent", "do", "n't", "want", "sonny_boy", "to", "\"", "lift", "all", "those", "old", "barbell", "thing", "\"", "because", "\"", "you", "'ll", "stunt", "your", "growth", "\"", "or", "because", "childish", "taunt", "from", "his", "schoolmate", ",", "like", "\"", "Hey", ",", "lookit", "person", ",", "whaddya", "gonna", "do", "with", "all", "those", "muscle", "(", "of", "which", "he", "have", "none", "at", "the", "time", ")", "\"", "?"]
+    oewn2026_key: [[0, "oewn-00047930-r"], [1, "oewn-00035445-r"], [3, "oewn-01012803-s"], [4, "oewn-09882251-n"], [7, "oewn-02566500-v"], [9, "oewn-00895653-n"], [10, "oewn-00167727-r"], [14, "oewn-10419190-n"], [17, "oewn-01829179-v"], [18, "oewn-09890635-n"], [21, "oewn-01457813-v"], [22, "oewn-02277044-a"], [25, "oewn-02794019-n"], [26, "oewn-04431353-n"], [32, "oewn-02457844-v"], [34, "oewn-13510240-n"], [38, "oewn-01496164-s"], [39, "oewn-01225348-n"], [42, "oewn-10579534-n"], [49, "oewn-00007846-n"], [57, "oewn-05296796-n"], [62, "oewn-02636270-v"], [66, "oewn-15147173-n"]]
+    paragraph: '0'
+    pos: ["RB", "RB", "DT", "JJ", "NN", "VB", "VB", "VB", "PRP$", "NN", "RB", "RB", "IN", "PRP$", "NNS", "VBP", "RB", "VB", "NN", "TO", "``", "VB", "JJ", "DT", "JJ", "NN", "NNS", "``", "IN", "''", "PRP", "MD", "VB", "PRP$", "NN", "''", "CC", "IN", "JJ", "NNS", "IN", "PRP$", "NNS", ",", "IN", "``", "UH", ",", "NN", "NN", ",", "WP", "VBG", "VBP", "IN", "PDT", "DT", "NNS", "CD", "RB", "RB", "PRP", "VBZ", "NN", "RB", "RB", "NN", "NN", "''", "."]
+    text: 'Too often a beginning bodybuilder has to do his training secretly either because
+  his parents don''t want sonny-boy to " lift all those old barbell things " because
+  " you''ll stunt your growth " or because childish taunts from his schoolmates, like
+  " Hey, lookit Mr._America, whaddya gonna do with all those muscles (of which he
+  has none at the time) "?
+
+  '
+    tokens: [[0, 3], [4, 9], [10, 11], [12, 21], [22, 33], [34, 37], [38, 40], [41, 43], [44, 47], [48, 56], [57, 65], [66, 72], [73, 80], [81, 84], [85, 92], [93, 95], [95, 98], [99, 103], [104, 113], [114, 116], [117, 118], [119, 123], [124, 127], [128, 133], [134, 137], [138, 145], [146, 152], [153, 154], [155, 162], [163, 164], [165, 168], [168, 171], [172, 177], [178, 182], [183, 189], [190, 191], [192, 194], [195, 202], [203, 211], [212, 218], [219, 223], [224, 227], [228, 239], [239, 240], [241, 245], [246, 247], [248, 251], [251, 252], [253, 259], [260, 271], [271, 272], [273, 280], [281, 286], [287, 289], [290, 294], [295, 298], [299, 304], [305, 312], [313, 314], [314, 316], [317, 322], [323, 325], [326, 329], [330, 334], [335, 337], [338, 341], [342, 346], [346, 347], [348, 349], [349, 350]]
+    wn16_key: [[0, "too%4:02:00::"], [1, "often%4:02:00::"], [3, "beginning%5:00:00:early:02"], [4, "bodybuilder%1:18:00::"], [7, "do%2:41:01::"], [9, "training%1:04:00::"], [10, "secretly%4:02:00::"], [14, "parent%1:18:00::"], [16, "n't%4:02:00::"], [17, "want%2:37:00::"], [18, "sonny_boy%1:18:00::"], [21, "lift%2:35:01::"], [22, "all%3:00:00::"], [25, "barbell%1:06:00::"], [26, "thing%1:06:00::"], [32, "stunt%2:41:00::"], [34, "growth%1:22:00::"], [38, "childish%5:00:00:immature:02"], [39, "taunt%1:04:00::"], [42, "schoolmate%1:18:00::"], [49, "person%1:03:00::"], [57, "muscle%1:08:00::"], [62, "have%2:42:00::"], [66, "time%1:28:00::"]]
+    wn30_key: [[0, "too%4:02:00::"], [1, "often%4:02:00::"], [3, "beginning%3:00:00:opening:00"], [4, "bodybuilder%1:18:00::"], [7, "do%2:41:01::"], [9, "training%1:04:00::"], [10, "secretly%4:02:00::"], [14, "parent%1:18:00::"], [17, "want%2:37:00::"], [18, "sonny_boy%1:18:00::"], [21, "lift%2:35:01::"], [22, "all%3:00:00::"], [25, "barbell%1:06:00::"], [26, "thing%1:06:00::"], [32, "stunt%2:41:00::"], [34, "growth%1:22:00::"], [38, "childish%3:00:00:immature:02"], [39, "taunt%1:04:00::"], [42, "schoolmate%1:18:00::"], [49, "person%1:03:00::"], [57, "muscle%1:08:00::"], [62, "have%2:42:00::"], [66, "time%1:28:00::"]]
+bEnE:
+    lemmas: ["after_all", ",", "a", "guy", "'s", "gotta", "have", "a_little", "ego", "!"]
+    oewn2026_key: [[0, "oewn-00152207-r"], [3, "oewn-10172934-n"], [6, "oewn-02112480-v"], [7, "oewn-00034050-r"], [8, "oewn-07524045-n"]]
+    paragraph: '1'
+    pos: ["RB", ",", "DT", "NN", "POS", "VB", "VBP", "RB", "NN", "."]
+    text: ' After_all, a guy''s gotta have a_little ego!
+
+  '
+    tokens: [[1, 10], [10, 11], [12, 13], [14, 17], [17, 19], [20, 25], [26, 30], [31, 39], [40, 43], [43, 44]]
+    wn16_key: [[0, "after_all%4:02:00::"], [3, "guy%1:18:00::"], [6, "have%2:39:06::"], [7, "a_little%4:02:00::"], [8, "ego%1:12:01::"]]
+    wn30_key: [[0, "after_all%4:02:00::"], [3, "guy%1:18:00::"], [6, "have%2:39:06::"], [7, "a_little%4:02:00::"], [8, "ego%1:12:01::"]]
+6DB1:
+    lemmas: ["therefore", "it", "'s", "a", "genuine", "pleasure", "to", "tell", "you", "about", "an", "entirely", "happy", "bodybuilder", "who", "have", "never", "have", "to", "train", "in_secret", ";", "have", "never", "hear", "one", "unkind", "word", "from", "his", "parent", ";", "and", "never", "have", "be", "taunt", "by", "his", "schoolmate", "!"]
+    oewn2026_key: [[0, "oewn-00043413-r"], [4, "oewn-02187907-s"], [5, "oewn-07505853-n"], [7, "oewn-00955248-v"], [11, "oewn-00008423-r"], [12, "oewn-01151786-a"], [13, "oewn-09882251-n"], [16, "oewn-00021214-r"], [19, "oewn-00099798-v"], [20, "oewn-00167727-r"], [23, "oewn-00021214-r"], [24, "oewn-02174146-v"], [25, "oewn-02193977-s"], [26, "oewn-01376655-a"], [27, "oewn-06750911-n"], [30, "oewn-10419190-n"], [33, "oewn-00021214-r"], [36, "oewn-00852181-v"], [39, "oewn-10579534-n"]]
+    paragraph: '2'
+    pos: ["RB", "PRP", "VBZ", "DT", "JJ", "NN", "TO", "VB", "PRP", "IN", "DT", "RB", "JJ", "NN", "WP", "VBZ", "RB", "VB", "VB", "VB", "RB", ":", "VBZ", "RB", "VBN", "JJ", "JJ", "NN", "IN", "PRP$", "NNS", ":", "CC", "RB", "VBZ", "VBN", "VBN", "IN", "PRP$", "NNS", "."]
+    text: ' Therefore it''s a genuine pleasure to tell you about an entirely happy bodybuilder
+  who has never had to train in_secret; has never heard one unkind word from his parents;
+  and never has been taunted by his schoolmates!
+
+  '
+    tokens: [[1, 10], [11, 13], [13, 15], [16, 17], [18, 25], [26, 34], [35, 37], [38, 42], [43, 46], [47, 52], [53, 55], [56, 64], [65, 70], [71, 82], [83, 86], [87, 90], [91, 96], [97, 100], [101, 103], [104, 109], [110, 119], [119, 120], [121, 124], [125, 130], [131, 136], [137, 140], [141, 147], [148, 152], [153, 157], [158, 161], [162, 169], [169, 170], [171, 174], [175, 180], [181, 184], [185, 189], [190, 197], [198, 200], [201, 204], [205, 216], [216, 217]]
+    wn16_key: [[0, "therefore%4:02:00::"], [4, "genuine%5:00:00:sincere:00"], [5, "pleasure%1:12:00::"], [7, "tell%2:32:01::"], [11, "entirely%4:02:00::"], [12, "happy%3:00:00::"], [13, "bodybuilder%1:18:00::"], [16, "never%4:02:00::"], [19, "train%2:29:00::"], [20, "in_secret%4:02:00::"], [23, "never%4:02:00::"], [24, "hear%2:39:00::"], [25, "one%5:00:00:cardinal:00"], [26, "unkind%3:00:00::"], [27, "word%1:10:03::"], [30, "parent%1:18:00::"], [33, "never%4:02:00::"], [36, "taunt%2:32:00::"], [39, "schoolmate%1:18:00::"]]
+    wn30_key: [[0, "therefore%4:02:00::"], [4, "genuine%3:00:00:sincere:00"], [5, "pleasure%1:12:00::"], [7, "tell%2:32:01::"], [11, "entirely%4:02:00::"], [12, "happy%3:00:00::"], [13, "bodybuilder%1:18:00::"], [16, "never%4:02:00::"], [19, "train%2:29:00::"], [20, "in_secret%4:02:00::"], [23, "never%4:02:00::"], [24, "hear%2:39:00::"], [25, "one%3:00:00:cardinal:00"], [26, "unkind%3:00:00::"], [27, "word%1:10:03::"], [30, "parent%1:18:00::"], [33, "never%4:02:00::"], [36, "taunt%2:32:00::"], [39, "schoolmate%1:18:00::"]]
+n3Eo:
+    lemmas: ["This", "happy", ",", "always", "smile", "lad", "with", "the", "sunny", "disposition", "be", "our", "new", "person", "-", "person", "."]
+    oewn2026_key: [[1, "oewn-01151786-a"], [3, "oewn-00019801-r"], [4, "oewn-00028558-v"], [5, "oewn-09890635-n"], [8, "oewn-00365018-s"], [9, "oewn-04630969-n"], [10, "oewn-02622439-v"], [12, "oewn-01645077-a"], [13, "oewn-00007846-n"], [15, "oewn-00007846-n"]]
+    paragraph: '3'
+    pos: ["DT", "JJ", ",", "RB", "VBG", "NN", "IN", "DT", "JJ", "NN", "VBZ", "PRP$", "JJ", "NN", ":", "NN", "."]
+    text: ' This happy, always smiling lad with the sunny disposition is our new Junior_Mr._Canada
+  - Henri_de_Courcy.
+
+  '
+    tokens: [[1, 5], [6, 11], [11, 12], [13, 19], [20, 27], [28, 31], [32, 36], [37, 40], [41, 46], [47, 58], [59, 61], [62, 65], [66, 69], [70, 87], [88, 89], [90, 105], [105, 106]]
+    wn16_key: [[1, "happy%3:00:00::"], [3, "always%4:02:00::"], [4, "smile%2:29:00::"], [5, "lad%1:18:00::"], [8, "sunny%5:00:00:cheerful:00"], [9, "disposition%1:07:00::"], [10, "be%2:42:06::"], [12, "new%3:00:00::"], [13, "person%1:03:00::"], [15, "person%1:03:00::"]]
+    wn30_key: [[1, "happy%3:00:00::"], [3, "always%4:02:00::"], [4, "smile%2:29:00::"], [5, "lad%1:18:00::"], [8, "sunny%3:00:00:cheerful:00"], [9, "disposition%1:07:00::"], [10, "be%2:42:06::"], [12, "new%3:00:00::"], [13, "person%1:03:00::"], [15, "person%1:03:00::"]]
+sWir:
+    lemmas: ["far", "from", "discourage", "person", ",", "his", "parent", "urge", "him", "on", "to", "great", "and", "great", "accomplishment", "."]
+    oewn2026_key: [[0, "oewn-00101873-r"], [2, "oewn-00910052-v"], [3, "oewn-00007846-n"], [6, "oewn-10419190-n"], [7, "oewn-00860463-v"], [9, "oewn-00069746-r"], [11, "oewn-01682025-s"], [13, "oewn-01682025-s"], [14, "oewn-00035910-n"]]
+    paragraph: '4'
+    pos: ["RB", "IN", "VBG", "NNP", ",", "PRP$", "NNS", "VBP", "PRP", "RP", "TO", "JJR", "CC", "JJR", "NNS", "."]
+    text: ' Far from discouraging Henri, his parents urge him on to greater and greater accomplishments.'
+    tokens: [[1, 4], [5, 9], [10, 22], [23, 28], [28, 29], [30, 33], [34, 41], [42, 46], [47, 50], [51, 53], [54, 56], [57, 64], [65, 68], [69, 76], [77, 92], [92, 93]]
+    wn16_key: [[0, "far%4:02:02::"], [2, "discourage%2:32:01::"], [3, "person%1:03:00::"], [6, "parent%1:18:00::"], [7, "urge%2:32:01::"], [9, "on%4:02:01::"], [11, "great%5:00:00:high:02"], [13, "great%5:00:00:high:02"], [14, "accomplishment%1:04:00::"]]
+    wn30_key: [[0, "far%4:02:02::"], [2, "discourage%2:32:01::"], [3, "person%1:03:00::"], [6, "parent%1:18:00::"], [7, "urge%2:32:01::"], [9, "on%4:02:01::"], [11, "great%3:00:01:extraordinary:00"], [13, "great%3:00:01:extraordinary:00"], [14, "accomplishment%1:04:00::"]]
+jbGp:
+    lemmas: ["instead", "of", "admonish", "him", "to", "let", "the", "weight", "alone", "they", "personally", "take", "him", "to", "that", "master", "montreal", "bodybuilding", "authority", ",", "person", "."]
+    oewn2026_key: [[0, "oewn-00063710-r"], [2, "oewn-00872241-v"], [5, "oewn-02427979-v"], [7, "oewn-04578578-n"], [10, "oewn-00132968-r"], [11, "oewn-02003830-v"], [15, "oewn-01280536-s"], [16, "oewn-08848525-n"], [17, "oewn-00627233-n"], [18, "oewn-09843763-n"], [20, "oewn-00007846-n"]]
+    paragraph: '4'
+    pos: ["RB", "IN", "VBG", "PRP", "TO", "VB", "DT", "NNS", "RB", "PRP", "RB", "VBD", "PRP", "RB", "RB", "JJ", "NNP", "NN", "NN", ",", "NN", "."]
+    text: ' Instead of admonishing him to let the weights alone they personally took him to
+  that master Montreal bodybuilding authority, Professor_Roland_Claude.
+
+  '
+    tokens: [[1, 8], [9, 11], [12, 23], [24, 27], [28, 30], [31, 34], [35, 38], [39, 46], [47, 52], [53, 57], [58, 68], [69, 73], [74, 77], [78, 80], [81, 85], [86, 92], [93, 101], [102, 114], [115, 124], [124, 125], [126, 149], [149, 150]]
+    wn16_key: [[0, "instead%4:02:00::"], [2, "admonish%2:32:02::"], [5, "let%2:41:00::"], [7, "weight%1:06:01::"], [10, "personally%4:02:04::"], [11, "take%2:38:09::"], [15, "master%5:00:00:skilled:00"], [16, "montreal%1:15:00::"], [17, "bodybuilding%1:04:00::"], [18, "authority%1:18:00::"], [20, "person%1:03:00::"]]
+    wn30_key: [[0, "instead%4:02:00::"], [2, "admonish%2:32:02::"], [5, "let%2:41:00::"], [7, "weight%1:06:01::"], [10, "personally%4:02:04::"], [11, "take%2:38:09::"], [15, "master%3:00:00:important:00"], [16, "montreal%1:15:00::"], [17, "bodybuilding%1:04:00::"], [18, "authority%1:18:00::"], [20, "person%1:03:00::"]]
+8hvM:
+    lemmas: ["And", "they", "could", "n't", "have", "entrust", "person", "to", "better", "hands", "because", "\"", "le_professeur", "\"", "know", "his", "muscle", "from", "the", "sternocleido_mastoideus", "of", "the", "neck", "right", "down", "to", "the", "tibialis_anticus", "of", "the", "leg", "-", "and", "better", "still", ",", "he", "know", "just", "what", "exercise", "work", "best", "for", "them", "and", "what", "person", "principle", "to", "combine", "them", "with", "for", "fast", ",", "fast", "muscle", "growth", "."]
+    oewn2026_key: [[5, "oewn-02354208-v"], [6, "oewn-00007846-n"], [8, "oewn-00231927-a"], [9, "oewn-00820339-n"], [14, "oewn-00597330-v"], [16, "oewn-05296796-n"], [19, "oewn-05598121-n"], [22, "oewn-05554173-n"], [23, "oewn-00008423-r"], [24, "oewn-00095870-r"], [27, "oewn-05599258-n"], [30, "oewn-05568420-n"], [33, "oewn-00231927-a"], [34, "oewn-00018101-r"], [37, "oewn-00597330-v"], [38, "oewn-00159432-r"], [40, "oewn-00625978-n"], [41, "oewn-01528454-v"], [42, "oewn-00189649-r"], [47, "oewn-00007846-n"], [48, "oewn-05882839-n"], [50, "oewn-02637244-v"], [54, "oewn-00979699-a"], [56, "oewn-00979699-a"], [57, "oewn-05296796-n"], [58, "oewn-13510240-n"]]
+    paragraph: '5'
+    pos: ["CC", "PRP", "VB", "RB", "VB", "VBN", "NNP", "TO", "JJR", "NNS", "IN", "``", "NN", "''", "VBZ", "PRP$", "NNS", "IN", "DT", "NN", "IN", "DT", "NN", "RB", "RB", "TO", "DT", "NN", "IN", "DT", "NN", ":", "CC", "JJ", "RB", ",", "PRP", "VBZ", "RB", "WP", "NNS", "VBP", "RB", "IN", "PRP", "CC", "WP", "NNP", "NNS", "TO", "VB", "PRP", "IN", "IN", "JJ", ",", "JJ", "NN", "NN", "."]
+    text: ' And they couldn''t have entrusted Henri to better hands because " le_professeur
+  " knows his muscles from the sterno-cleido_mastoideus of the neck right down to
+  the tibialis_anticus of the leg - and better still, he knows just what exercises
+  work best for them and what Weider principles to combine them with for fast, fast
+  muscle growth.
+
+  '
+    tokens: [[1, 4], [5, 9], [10, 15], [15, 18], [19, 23], [24, 33], [34, 39], [40, 42], [43, 49], [50, 55], [56, 63], [64, 65], [66, 79], [80, 81], [82, 87], [88, 91], [92, 99], [100, 104], [105, 108], [109, 133], [134, 136], [137, 140], [141, 145], [146, 151], [152, 156], [157, 159], [160, 163], [164, 180], [181, 183], [184, 187], [188, 191], [192, 193], [194, 197], [198, 204], [205, 210], [210, 211], [212, 214], [215, 220], [221, 225], [226, 230], [231, 240], [241, 245], [246, 250], [251, 254], [255, 259], [260, 263], [264, 268], [269, 275], [276, 286], [287, 289], [290, 297], [298, 302], [303, 307], [308, 311], [312, 316], [316, 317], [318, 322], [323, 329], [330, 336], [336, 337]]
+    wn16_key: [[3, "n't%4:02:00::"], [5, "entrust%2:40:00::"], [6, "person%1:03:00::"], [8, "better%3:00:00::"], [9, "hands%1:04:00::"], [14, "know%2:31:03::"], [16, "muscle%1:08:00::"], [19, "sternocleido_mastoideus%1:08:00::"], [22, "neck%1:08:00::"], [23, "right%4:02:07::"], [24, "down%4:02:00::"], [27, "tibialis_anticus%1:08:00::"], [30, "leg%1:08:01::"], [33, "better%3:00:00::"], [34, "still%4:02:00::"], [37, "know%2:31:03::"], [38, "just%4:02:05::"], [40, "exercise%1:04:00::"], [41, "work%2:35:02::"], [42, "best%4:02:01::"], [47, "person%1:03:00::"], [48, "principle%1:09:04::"], [50, "combine%2:42:00::"], [54, "fast%3:00:01::"], [56, "fast%3:00:01::"], [57, "muscle%1:08:00::"], [58, "growth%1:22:00::"]]
+    wn30_key: [[5, "entrust%2:40:00::"], [6, "person%1:03:00::"], [8, "better%3:00:00::"], [9, "hands%1:04:00::"], [14, "know%2:31:03::"], [16, "muscle%1:08:00::"], [19, "sternocleido_mastoideus%1:08:00::"], [22, "neck%1:08:00::"], [23, "right%4:02:07::"], [24, "down%4:02:00::"], [27, "tibialis_anticus%1:08:00::"], [30, "leg%1:08:01::"], [33, "better%3:00:00::"], [34, "still%4:02:00::"], [37, "know%2:31:03::"], [38, "just%4:02:05::"], [40, "exercise%1:04:00::"], [41, "work%2:35:02::"], [42, "best%4:02:01::"], [47, "person%1:03:00::"], [48, "principle%1:09:04::"], [50, "combine%2:42:00::"], [54, "fast%3:00:01::"], [56, "fast%3:00:01::"], [57, "muscle%1:08:00::"], [58, "growth%1:22:00::"]]
+0tok:
+    lemmas: ["That", "'s", "because", "the", "good", "professor", "teach", "only", "person", "method", "at", "his", "famous", "group", "which", "be", "located", "at", "1821", "location", "in", "montreal", "."]
+    oewn2026_key: [[4, "oewn-01990227-s"], [5, "oewn-10500315-n"], [6, "oewn-00830768-v"], [7, "oewn-00009062-r"], [8, "oewn-00007846-n"], [9, "oewn-05668113-n"], [12, "oewn-01378757-s"], [13, "oewn-00031563-n"], [15, "oewn-02610777-v"], [16, "oewn-02133811-s"], [19, "oewn-00027365-n"], [21, "oewn-08848525-n"]]
+    paragraph: '6'
+    pos: ["DT", "VBZ", "IN", "DT", "JJ", "NN", "VBZ", "RB", "NNP", "NNS", "IN", "PRP$", "JJ", "NN", "WDT", "VBZ", "JJ", "IN", "CD", "NN", "IN", "NNP", "."]
+    text: ' That''s because the good professor teaches only Weider methods at his famous Montreal_Health_Studio
+  which is located at 1821 Mt._Royal_East in Montreal.'
+    tokens: [[1, 5], [5, 7], [8, 15], [16, 19], [20, 24], [25, 34], [35, 42], [43, 47], [48, 54], [55, 62], [63, 65], [66, 69], [70, 76], [77, 99], [100, 105], [106, 108], [109, 116], [117, 119], [120, 124], [125, 139], [140, 142], [143, 151], [151, 152]]
+    wn16_key: [[4, "good%5:00:00:reputable:00"], [5, "professor%1:18:00::"], [6, "teach%2:32:00::"], [7, "only%4:02:01::"], [8, "person%1:03:00::"], [9, "method%1:09:00::"], [12, "famous%5:00:00:known:00"], [13, "group%1:03:00::"], [15, "be%2:42:03::"], [16, "located%5:00:00:settled:01"], [19, "location%1:03:00::"], [21, "montreal%1:15:00::"]]
+    wn30_key: [[4, "good%3:00:00:reputable:00"], [5, "professor%1:18:00::"], [6, "teach%2:32:00::"], [7, "only%4:02:01::"], [8, "person%1:03:00::"], [9, "method%1:09:00::"], [12, "famous%3:00:00:known:00"], [13, "group%1:03:00::"], [15, "be%2:42:03::"], [16, "located%3:00:00:settled:01"], [19, "location%1:03:00::"], [21, "montreal%1:15:00::"]]
+aDFj:
+    lemmas: ["undoubtedly", "you", "have", "read", "the", "case_history", "of", "some", "of", "his", "prizewinning", "pupil", "(", "every", "pupil", "have", "a", "physique", "title", "of", "some", "kind", "or", "other", ")", "."]
+    oewn2026_key: [[0, "oewn-00079373-r"], [3, "oewn-00626756-v"], [5, "oewn-06526871-n"], [7, "oewn-02275064-a"], [10, "oewn-00229617-s"], [11, "oewn-10685137-n"], [14, "oewn-10685137-n"], [15, "oewn-02208144-v"], [17, "oewn-05005695-n"], [18, "oewn-13972130-n"], [21, "oewn-05847533-n"], [23, "oewn-02076759-a"]]
+    paragraph: '6'
+    pos: ["RB", "PRP", "VBP", "VBN", "DT", "NNS", "IN", "JJ", "IN", "PRP$", "JJ", "NNS", "VBP", "DT", "NN", "VBZ", "DT", "NN", "NN", "IN", "DT", "NN", "CC", "JJ", "NN", "."]
+    text: ' Undoubtedly you have read the case_histories of some of his prize_winning pupils
+  (every pupil has a physique title of some kind or other).'
+    tokens: [[1, 12], [13, 16], [17, 21], [22, 26], [27, 30], [31, 45], [46, 48], [49, 53], [54, 56], [57, 60], [61, 74], [75, 81], [82, 83], [83, 88], [89, 94], [95, 98], [99, 100], [101, 109], [110, 115], [116, 118], [119, 123], [124, 128], [129, 131], [132, 137], [137, 138], [138, 139]]
+    wn16_key: [[0, "undoubtedly%4:02:00::"], [3, "read%2:31:00::"], [5, "case_history%1:10:00::"], [7, "some%3:00:00::"], [10, "prizewinning%5:00:00:best:00"], [11, "pupil%1:18:00::"], [14, "pupil%1:18:00::"], [15, "have%2:40:00::"], [17, "physique%1:07:00::"], [18, "title%1:26:00::"], [21, "kind%1:09:00::"], [23, "other%3:00:00::"]]
+    wn30_key: [[0, "undoubtedly%4:02:00::"], [3, "read%2:31:00::"], [5, "case_history%1:10:00::"], [7, "some%3:00:00::"], [10, "prizewinning%3:00:00:best:00"], [11, "pupil%1:18:00::"], [14, "pupil%1:18:00::"], [15, "have%2:40:00::"], [17, "physique%1:07:00::"], [18, "title%1:26:00::"], [21, "kind%1:09:00::"], [23, "other%3:00:00::"]]
+lhja:
+    lemmas: ["There", "'s", "person", "who", "be", "our", "new", "person", ";", "person", ",", "whose", "story", "appear", "here", "two", "issue", "ago", ";", "person", ",", "who", "be", "with", "us", "last", "month", ";", "person", ",", "who", "recently", "win", "the", "\"", "most", "muscular", "man", "\"", "subdivision", "award", "in", "the", "person", "event", ";", "and", "a", "host", "of", "other", "."]
+    oewn2026_key: [[2, "oewn-00007846-n"], [4, "oewn-02622439-v"], [6, "oewn-01645077-a"], [7, "oewn-00007846-n"], [9, "oewn-00007846-n"], [12, "oewn-06526084-n"], [13, "oewn-00426920-v"], [14, "oewn-00109541-r"], [15, "oewn-02194109-s"], [16, "oewn-06609182-n"], [17, "oewn-00074361-r"], [19, "oewn-00007846-n"], [22, "oewn-02703567-v"], [25, "oewn-01734561-s"], [26, "oewn-15234209-n"], [28, "oewn-00007846-n"], [31, "oewn-00108184-r"], [32, "oewn-02293158-v"], [35, "oewn-00112352-r"], [36, "oewn-00831875-a"], [37, "oewn-10306910-n"], [39, "oewn-08418205-n"], [40, "oewn-13289169-n"], [43, "oewn-00007846-n"], [44, "oewn-00029677-n"], [48, "oewn-08199880-n"]]
+    paragraph: '6'
+    pos: ["EX", "VBZ", "NN", "WP", "VBZ", "PRP$", "JJS", "NN", ":", "NN", ",", "WP$", "NN", "VBD", "RB", "JJ", "NNS", "RB", ":", "NN", ",", "WP", "VBD", "IN", "PRP", "JJ", "NN", ":", "NN", ",", "WP", "RB", "VBD", "DT", "``", "RB", "JJ", "NN", "''", "NN", "NN", "IN", "DT", "NN", "NN", ":", "CC", "DT", "NN", "IN", "NNS", "."]
+    text: ' There''s Gaetan_d''Amours who is our newest Mr._Canada; Jean-Paul_Senesac, whose
+  story appeared here two issues ago; Jack_Boissoneault, who was with us last month;
+  Charles_Harve, who recently won the " Most Muscular Man " subdivision award in the
+  Mr._Canada event; and a host of others.'
+    tokens: [[1, 6], [6, 8], [9, 24], [25, 28], [29, 31], [32, 35], [36, 42], [43, 53], [53, 54], [55, 72], [72, 73], [74, 79], [80, 85], [86, 94], [95, 99], [100, 103], [104, 110], [111, 114], [114, 115], [116, 133], [133, 134], [135, 138], [139, 142], [143, 147], [148, 150], [151, 155], [156, 161], [161, 162], [163, 176], [176, 177], [178, 181], [182, 190], [191, 194], [195, 198], [199, 200], [201, 205], [206, 214], [215, 218], [219, 220], [221, 232], [233, 238], [239, 241], [242, 245], [246, 256], [257, 262], [262, 263], [264, 267], [268, 269], [270, 274], [275, 277], [278, 284], [284, 285]]
+    wn16_key: [[2, "person%1:03:00::"], [4, "be%2:42:06::"], [6, "new%3:00:00::"], [7, "person%1:03:00::"], [9, "person%1:03:00::"], [12, "story%1:10:04::"], [13, "appear%2:30:01::"], [14, "here%4:02:02::"], [15, "two%5:00:00:cardinal:00"], [16, "issue%1:10:00::"], [17, "ago%4:02:00::"], [19, "person%1:03:00::"], [22, "be%2:42:04::"], [25, "last%5:00:00:past:00"], [26, "month%1:28:01::"], [28, "person%1:03:00::"], [31, "recently%4:02:00::"], [32, "win%2:40:00::"], [35, "most%4:02:00::"], [36, "muscular%3:00:04::"], [37, "man%1:18:00::"], [39, "subdivision%1:14:01::"], [40, "award%1:21:00::"], [43, "person%1:03:00::"], [44, "event%1:03:00::"], [48, "host%1:14:00::"]]
+    wn30_key: [[2, "person%1:03:00::"], [4, "be%2:42:06::"], [6, "new%3:00:00::"], [7, "person%1:03:00::"], [9, "person%1:03:00::"], [12, "story%1:10:04::"], [13, "appear%2:30:01::"], [14, "here%4:02:02::"], [15, "two%3:00:00:cardinal:00"], [16, "issue%1:10:00::"], [17, "ago%4:02:00::"], [19, "person%1:03:00::"], [22, "be%2:42:04::"], [25, "last%3:00:00:past:00"], [26, "month%1:28:01::"], [28, "person%1:03:00::"], [31, "recently%4:02:00::"], [32, "win%2:40:00::"], [35, "most%4:02:00::"], [36, "muscular%3:00:04::"], [37, "man%1:18:00::"], [39, "subdivision%1:14:01::"], [40, "award%1:21:00::"], [43, "person%1:03:00::"], [44, "event%1:03:00::"], [48, "host%1:14:00::"]]
+nT7u:
+    lemmas: ["Yesiree", ",", "the", "professor", "know", "his", "muscle", "!"]
+    oewn2026_key: [[3, "oewn-10500315-n"], [4, "oewn-00597330-v"], [6, "oewn-05296796-n"]]
+    paragraph: '6'
+    pos: ["UH", ",", "DT", "NN", "VBZ", "PRP$", "NNS", "."]
+    text: ' Yesiree, the professor knows his muscles!
+
+  '
+    tokens: [[1, 8], [8, 9], [10, 13], [14, 23], [24, 29], [30, 33], [34, 41], [41, 42]]
+    wn16_key: [[3, "professor%1:18:00::"], [4, "know%2:31:03::"], [6, "muscle%1:08:00::"]]
+    wn30_key: [[3, "professor%1:18:00::"], [4, "know%2:31:03::"], [6, "muscle%1:08:00::"]]
+DyAQ:
+    lemmas: ["now", "when", "person", "be", "just", "12", "he", "be", "only", "4", "'", "10", "\"", "tall", "and", "weigh", "an", "astounding", "72", "pound", ",", "and", "his", "greatest", "desire", "be", "to", "pack_on", "some", "weight", "."]
+    oewn2026_key: [[2, "oewn-00007846-n"], [3, "oewn-02610777-v"], [4, "oewn-00005103-r"], [5, "oewn-02195104-s"], [7, "oewn-02610777-v"], [8, "oewn-00005103-r"], [9, "oewn-02194304-s"], [11, "oewn-02194935-s"], [13, "oewn-02393670-a"], [15, "oewn-02710678-v"], [17, "oewn-00648878-s"], [19, "oewn-13742201-n"], [23, "oewn-02351683-s"], [24, "oewn-07499405-n"], [27, "oewn-00106914-v"], [29, "oewn-05034009-n"]]
+    paragraph: '7'
+    pos: ["RB", "WRB", "NNP", "VBD", "RB", "JJ", "PRP", "VBD", "RB", "JJ", "''", "JJ", "``", "JJ", "CC", "VBD", "DT", "JJ", "CD", "NNS", ",", "CC", "PRP$", "JJS", "NN", "VBD", "TO", "VB", "DT", "NN", "."]
+    text: ' Now when Henri was just 12 he was only 4'' 10 " tall and weighed an astounding 72
+  pounds, and his greatest desire was to pack_on some weight.'
+    tokens: [[1, 4], [5, 9], [10, 15], [16, 19], [20, 24], [25, 27], [28, 30], [31, 34], [35, 39], [40, 41], [41, 42], [43, 45], [46, 47], [48, 52], [53, 56], [57, 64], [65, 67], [68, 78], [79, 81], [82, 88], [88, 89], [90, 93], [94, 97], [98, 106], [107, 113], [114, 117], [118, 120], [121, 128], [129, 133], [134, 140], [140, 141]]
+    wn16_key: [[2, "person%1:03:00::"], [3, "be%2:42:03::"], [4, "just%4:02:00::"], [5, "12%5:00:00:cardinal:00"], [7, "be%2:42:03::"], [8, "only%4:02:02::"], [9, "4%5:00:00:cardinal:00"], [11, "10%5:00:00:cardinal:00"], [13, "tall%3:00:00::"], [15, "weigh%2:42:01::"], [17, "astounding%5:00:00:incredible:00"], [19, "pound%1:23:09::"], [23, "greatest%5:00:00:large:00"], [24, "desire%1:12:00::"], [27, "pack_on%2:29:00::"], [29, "weight%1:07:00::"]]
+    wn30_key: [[2, "person%1:03:00::"], [3, "be%2:42:03::"], [4, "just%4:02:00::"], [5, "12%3:00:00:cardinal:00"], [7, "be%2:42:03::"], [8, "only%4:02:02::"], [9, "4%3:00:00:cardinal:00"], [11, "10%3:00:00:cardinal:00"], [13, "tall%3:00:00::"], [15, "weigh%2:42:01::"], [17, "astounding%3:00:00:incredible:00"], [19, "pound%1:23:09::"], [23, "greatest%3:00:00:superior:02"], [24, "desire%1:12:00::"], [27, "pack_on%2:29:00::"], [29, "weight%1:07:00::"]]
+Py1e:
+    lemmas: ["about", "that", "time", "he", "begin", "read", "person", "and", "person", "and", "he", "learn", "of", "the", "famous", "person", "way", "to", "fast", "weight_gaining", "."]
+    oewn2026_key: [[2, "oewn-07324217-n"], [4, "oewn-00346415-v"], [5, "oewn-00626756-v"], [6, "oewn-00007846-n"], [8, "oewn-00007846-n"], [11, "oewn-00600349-v"], [14, "oewn-01378757-s"], [15, "oewn-00007846-n"], [16, "oewn-00173531-n"], [18, "oewn-00979699-a"], [19, "oewn-00628561-n"]]
+    paragraph: '7'
+    pos: ["RB", "IN", "NN", "PRP", "VBD", "VBG", "NN", "CC", "NN", "CC", "PRP", "VBD", "IN", "DT", "JJ", "NNP", "NN", "TO", "JJ", "NN", "."]
+    text: ' About that time he began reading Mr._America and Muscle_Builder and he learned of
+  the famous Weider way to fast weight_gaining.'
+    tokens: [[1, 6], [7, 11], [12, 16], [17, 19], [20, 25], [26, 33], [34, 45], [46, 49], [50, 64], [65, 68], [69, 71], [72, 79], [80, 82], [83, 86], [87, 93], [94, 100], [101, 104], [105, 107], [108, 112], [113, 127], [127, 128]]
+    wn16_key: [[2, "time%1:11:00::"], [4, "begin%2:30:00::"], [5, "read%2:31:00::"], [6, "person%1:03:00::"], [8, "person%1:03:00::"], [11, "learn%2:31:01::"], [14, "famous%5:00:00:known:00"], [15, "person%1:03:00::"], [16, "way%1:04:01::"], [18, "fast%3:00:01::"], [19, "weight_gaining%1:04:00::"]]
+    wn30_key: [[2, "time%1:11:00::"], [4, "begin%2:30:00::"], [5, "read%2:31:00::"], [6, "person%1:03:00::"], [8, "person%1:03:00::"], [11, "learn%2:31:01::"], [14, "famous%3:00:00:known:00"], [15, "person%1:03:00::"], [16, "way%1:04:01::"], [18, "fast%3:00:01::"], [19, "weight_gaining%1:04:00::"]]
+SOlh:
+    lemmas: ["see", "so", "many", "illustration", "and", "read", "so", "many", "testimonial", "to", "the", "value", "of", "Quick-Wate", "and", "Super-Protein", ",", "those", "two", "wonderworking", "person", "food", "supplement", ",", "he", "decide", "to", "try", "them", "and", "see", "what", "they", "could", "do", "for", "him", "."]
+    oewn2026_key: [[0, "oewn-02133754-v"], [1, "oewn-00147630-r"], [2, "oewn-01555990-a"], [3, "oewn-07011893-n"], [5, "oewn-00626756-v"], [6, "oewn-00147630-r"], [7, "oewn-01555990-a"], [8, "oewn-06660952-n"], [11, "oewn-05145753-n"], [18, "oewn-02194109-s"], [19, "oewn-01683605-s"], [20, "oewn-00007846-n"], [21, "oewn-00021445-n"], [22, "oewn-02674051-n"], [25, "oewn-00701251-v"], [27, "oewn-01197832-v"], [30, "oewn-00600349-v"], [34, "oewn-02566500-v"]]
+    paragraph: '7'
+    pos: ["VBG", "RB", "JJ", "NNS", "CC", "VBG", "RB", "JJ", "NNS", "TO", "DT", "NN", "IN", "NNP", "CC", "NNP", ",", "DT", "JJ", "JJ", "NNP", "NN", "NNS", ",", "PRP", "VBD", "TO", "VB", "PRP", "CC", "VB", "WP", "PRP", "VB", "VB", "IN", "PRP", "."]
+    text: ' Seeing so many illustrations and reading so many testimonials to the value of Quick-Wate
+  and Super-Protein, those two wonder-working Weider food supplements, he decided
+  to try them and see what they could do for him.
+
+  '
+    tokens: [[1, 7], [8, 10], [11, 15], [16, 29], [30, 33], [34, 41], [42, 44], [45, 49], [50, 62], [63, 65], [66, 69], [70, 75], [76, 78], [79, 89], [90, 93], [94, 107], [107, 108], [109, 114], [115, 118], [119, 133], [134, 140], [141, 145], [146, 157], [157, 158], [159, 161], [162, 169], [170, 172], [173, 176], [177, 181], [182, 185], [186, 189], [190, 194], [195, 199], [200, 205], [206, 208], [209, 212], [213, 216], [216, 217]]
+    wn16_key: [[0, "see%2:39:00::"], [1, "so%4:02:02::"], [2, "many%3:00:00::"], [3, "illustration%1:10:00::"], [5, "read%2:31:00::"], [6, "so%4:02:02::"], [7, "many%3:00:00::"], [8, "testimonial%1:10:02::"], [11, "value%1:07:00::"], [18, "two%5:00:00:cardinal:00"], [19, "wonderworking%5:00:00:extraordinary:00"], [20, "person%1:03:00::"], [21, "food%1:03:00::"], [22, "supplement%1:06:00::"], [25, "decide%2:31:02::"], [27, "try%2:34:00::"], [30, "see%2:31:02::"], [34, "do%2:41:01::"]]
+    wn30_key: [[0, "see%2:39:00::"], [1, "so%4:02:02::"], [2, "many%3:00:00::"], [3, "illustration%1:10:00::"], [5, "read%2:31:00::"], [6, "so%4:02:02::"], [7, "many%3:00:00::"], [8, "testimonial%1:10:02::"], [11, "value%1:07:00::"], [18, "two%3:00:00:cardinal:00"], [19, "wonderworking%3:00:00:extraordinary:00"], [20, "person%1:03:00::"], [21, "food%1:03:00::"], [22, "supplement%1:06:00::"], [25, "decide%2:31:02::"], [27, "try%2:34:00::"], [30, "see%2:31:02::"], [34, "do%2:41:01::"]]
+i0wA:
+    lemmas: ["Well", ",", "sir", ",", "they", "do", "real", "great", "!"]
+    oewn2026_key: [[5, "oewn-02675578-v"], [6, "oewn-00032295-r"], [7, "oewn-01127641-s"]]
+    paragraph: '8'
+    pos: ["UH", ",", "NN", ",", "PRP", "VBD", "RB", "JJ", "."]
+    text: ' Well, sir, they did real great!'
+    tokens: [[1, 5], [5, 6], [7, 10], [10, 11], [12, 16], [17, 20], [21, 25], [26, 31], [31, 32]]
+    wn16_key: [[5, "do%2:42:01::"], [6, "real%4:02:01::"], [7, "great%5:00:00:good:01"]]
+    wn30_key: [[5, "do%2:42:01::"], [6, "real%4:02:01::"], [7, "great%3:00:00:good:01"]]
++gJ2:
+    lemmas: ["For", "in", "almost", "less", "time", "than", "it", "take", "to", "tell", "it", ",", "person", "'s", "body", "weight", "be", "increase", "rapidly", "."]
+    oewn2026_key: [[2, "oewn-00073433-r"], [3, "oewn-01559809-a"], [4, "oewn-15295388-n"], [7, "oewn-02272834-v"], [9, "oewn-01011267-v"], [12, "oewn-00007846-n"], [14, "oewn-05223633-n"], [15, "oewn-05034009-n"], [17, "oewn-00156409-v"], [18, "oewn-00086161-r"]]
+    paragraph: '8'
+    pos: ["IN", "IN", "RB", "JJR", "NN", "IN", "PRP", "VBZ", "VB", "VB", "PRP", ",", "NNP", "POS", "NN", "NN", "VBD", "VBG", "RB", "."]
+    text: ' For in almost less time than it takes to tell it, Henri''s body weight was increasing
+  rapidly.'
+    tokens: [[1, 4], [5, 7], [8, 14], [15, 19], [20, 24], [25, 29], [30, 32], [33, 38], [39, 41], [42, 46], [47, 49], [49, 50], [51, 56], [56, 58], [59, 63], [64, 70], [71, 74], [75, 85], [86, 93], [93, 94]]
+    wn16_key: [[2, "almost%4:02:00::"], [3, "less%3:00:00::"], [4, "time%1:28:05::"], [7, "take%2:40:06::"], [9, "tell%2:32:04::"], [12, "person%1:03:00::"], [14, "body%1:08:00::"], [15, "weight%1:07:00::"], [17, "increase%2:30:00::"], [18, "rapidly%4:02:00::"]]
+    wn30_key: [[2, "almost%4:02:00::"], [3, "less%3:00:00::"], [4, "time%1:28:05::"], [7, "take%2:40:06::"], [9, "tell%2:32:04::"], [12, "person%1:03:00::"], [14, "body%1:08:00::"], [15, "weight%1:07:00::"], [17, "increase%2:30:00::"], [18, "rapidly%4:02:00::"]]
+8NU5:
+    lemmas: ["of_course", "he", "do", "some", "exercising", "-", "he", "'s", "crazy", "about", "water-skiing", "and", "swimming", "and", "this", "vigorous", "exercise", "in_conjunction_with", "the", "added", "food", "supplement", "pack_on", "pound", "of", "solid", "muscle", "on", "his", "skinny", "frame", "."]
+    oewn2026_key: [[0, "oewn-00039019-r"], [2, "oewn-02566500-v"], [4, "oewn-00625978-n"], [10, "oewn-00446211-n"], [12, "oewn-00443055-n"], [15, "oewn-00878730-s"], [16, "oewn-00625978-n"], [20, "oewn-00021445-n"], [21, "oewn-02674051-n"], [22, "oewn-00106914-v"], [23, "oewn-13742201-n"], [25, "oewn-01155243-s"], [26, "oewn-05296796-n"], [29, "oewn-00993331-s"], [30, "oewn-05224424-n"]]
+    paragraph: '8'
+    pos: ["RB", "PRP", "VBD", "DT", "NN", ":", "PRP", "VBZ", "JJ", "JJ", "NN", "CC", "NN", "CC", "DT", "JJ", "NN", "NN", "DT", "JJ", "NN", "NNS", "VBD", "NNS", "IN", "JJ", "NN", "IN", "PRP$", "JJ", "NN", "."]
+    text: ' Of_course he did some exercising - he''s crazy about water_skiing and swimming and
+  this vigorous exercise in_conjunction_with the added food supplements packed pounds
+  of solid muscle on his skinny frame.
+
+  '
+    tokens: [[1, 10], [11, 13], [14, 17], [18, 22], [23, 33], [34, 35], [36, 38], [38, 40], [41, 46], [47, 52], [53, 65], [66, 69], [70, 78], [79, 82], [83, 87], [88, 96], [97, 105], [106, 125], [126, 129], [130, 135], [136, 140], [141, 152], [153, 159], [160, 166], [167, 169], [170, 175], [176, 182], [183, 185], [186, 189], [190, 196], [197, 202], [202, 203]]
+    wn16_key: [[0, "of_course%4:02:00::"], [2, "do%2:41:01::"], [4, "exercising%1:04:00::"], [8, "crazy%5:00:00:loving:00"], [10, "water-skiing%1:04:00::"], [12, "swimming%1:04:00::"], [15, "vigorous%5:00:00:energetic:00"], [16, "exercise%1:04:00::"], [19, "added%3:00:00::"], [20, "food%1:03:00::"], [21, "supplement%1:06:00::"], [22, "pack_on%2:29:00::"], [23, "pound%1:23:09::"], [25, "solid%5:00:00:hard:01;solid%5:00:00:homogeneous:00"], [26, "muscle%1:08:00::"], [29, "skinny%5:00:00:thin:03"], [30, "frame%1:08:01::"]]
+    wn30_key: [[0, "of_course%4:02:00::"], [2, "do%2:41:01::"], [4, "exercising%1:04:00::"], [10, "water-skiing%1:04:00::"], [12, "swimming%1:04:00::"], [15, "vigorous%3:00:00:energetic:00"], [16, "exercise%1:04:00::"], [20, "food%1:03:00::"], [21, "supplement%1:06:00::"], [22, "pack_on%2:29:00::"], [23, "pound%1:23:09::"], [25, "solid%3:00:00:hard:01;solid%3:00:00:homogeneous:00"], [26, "muscle%1:08:00::"], [29, "skinny%3:00:00:thin:03"], [30, "frame%1:08:01::"]]
+RzLv:
+    lemmas: ["person", "have", "always", "have", "shapely", "leg", "from", "swim", "and", "water_ski", "and", "really", "do", "n't", "have", "to", "work", "them", "very", "much", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-00019801-r"], [3, "oewn-02208144-v"], [4, "oewn-02146074-a"], [5, "oewn-05568420-n"], [7, "oewn-01964770-v"], [9, "oewn-01944107-v"], [11, "oewn-00150568-r"], [16, "oewn-00100305-v"], [18, "oewn-00032295-r"], [19, "oewn-00059624-r"]]
+    paragraph: '9'
+    pos: ["NNP", "VBZ", "RB", "VBN", "JJ", "NNS", "IN", "VB", "CC", "VB", "CC", "RB", "VBZ", "RB", "VB", "VB", "VB", "PRP", "RB", "RB", "."]
+    text: ' Henri has always had shapely legs from swimming and water_skiing and really doesn''t
+  have to work them very_much.'
+    tokens: [[1, 6], [7, 10], [11, 17], [18, 21], [22, 29], [30, 34], [35, 39], [40, 48], [49, 52], [53, 65], [66, 69], [70, 76], [77, 81], [81, 84], [85, 89], [90, 92], [93, 97], [98, 102], [103, 107], [108, 112], [112, 113]]
+    wn16_key: [[0, "person%1:03:00::"], [2, "always%4:02:00::"], [3, "have%2:40:00::"], [4, "shapely%3:00:00::"], [5, "leg%1:08:01::"], [7, "swim%2:38:00::"], [9, "water_ski%2:38:00::"], [11, "really%4:02:04::"], [13, "n't%4:02:00::"], [16, "work%2:29:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [2, "always%4:02:00::"], [3, "have%2:40:00::"], [4, "shapely%3:00:00::"], [5, "leg%1:08:01::"], [7, "swim%2:38:00::"], [9, "water_ski%2:38:00::"], [11, "really%4:02:04::"], [16, "work%2:29:00::"], [18, "very%4:02:00::"], [19, "much%4:02:00::"]]
+uhQl:
+    lemmas: ["But", "he", "be", "totally", "dissatisfied", "with", "his", "upper", "body", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"], [3, "oewn-00008423-r"], [4, "oewn-00592856-s"], [7, "oewn-01208990-s"], [8, "oewn-05557463-n"]]
+    paragraph: '9'
+    pos: ["CC", "PRP", "VBD", "RB", "JJ", "IN", "PRP$", "JJ", "NN", "."]
+    text: ' But he was totally dissatisfied with his upper body.'
+    tokens: [[1, 4], [5, 7], [8, 11], [12, 19], [20, 32], [33, 37], [38, 41], [42, 47], [48, 52], [52, 53]]
+    wn16_key: [[2, "be%2:42:03::"], [3, "totally%4:02:00::"], [4, "dissatisfied%5:00:00:discontented:00"], [7, "upper%5:00:00:high:01"], [8, "body%1:08:01::"]]
+    wn30_key: [[2, "be%2:42:03::"], [3, "totally%4:02:00::"], [4, "dissatisfied%3:00:00:discontented:00"], [7, "upper%3:00:00:high:01"], [8, "body%1:08:01::"]]
+17Vn:
+    lemmas: ["It", "be", "muscular", "but", "it", "be", "n't", "symmetrical", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-00831875-a"], [5, "oewn-02610777-v"], [7, "oewn-02380286-a"]]
+    paragraph: '9'
+    pos: ["PRP", "VBD", "JJ", "CC", "PRP", "VBD", "RB", "JJ", "."]
+    text: ' It was muscular but it wasn''t symmetrical.'
+    tokens: [[1, 3], [4, 7], [8, 16], [17, 20], [21, 23], [24, 27], [27, 30], [31, 42], [42, 43]]
+    wn16_key: [[1, "be%2:42:03::"], [2, "muscular%3:00:04::"], [5, "be%2:42:03::"], [6, "n't%4:02:00::"], [7, "symmetrical%3:00:00::"]]
+    wn30_key: [[1, "be%2:42:03::"], [2, "muscular%3:00:04::"], [5, "be%2:42:03::"], [7, "symmetrical%3:00:00::"]]
+MXiN:
+    lemmas: ["\"", "A", "real", "'", "nothing", "'", "torso", "\"", ",", "say", "person", "."]
+    oewn2026_key: [[2, "oewn-00032295-r"], [4, "oewn-13762308-n"], [6, "oewn-05557463-n"], [9, "oewn-01011267-v"], [10, "oewn-00007846-n"]]
+    paragraph: '9'
+    pos: ["``", "DT", "RB", "''", "NN", "POS", "NN", "''", ",", "VBZ", "NNP", "."]
+    text: ' " A real'' nothing'' torso ", says Henri.'
+    tokens: [[1, 2], [3, 4], [5, 9], [9, 10], [11, 18], [18, 19], [20, 25], [26, 27], [27, 28], [29, 33], [34, 39], [39, 40]]
+    wn16_key: [[2, "real%4:02:01::"], [4, "nothing%1:23:00::"], [6, "torso%1:08:00::"], [9, "say%2:32:00::"], [10, "person%1:03:00::"]]
+    wn30_key: [[2, "real%4:02:01::"], [4, "nothing%1:23:00::"], [6, "torso%1:08:00::"], [9, "say%2:32:00::"], [10, "person%1:03:00::"]]
+fk1W:
+    lemmas: ["\"", "It", "never", "seem", "to", "widen", ",", "it", "just", "get", "long", "and", "long", "\"", "."]
+    oewn2026_key: [[2, "oewn-00021214-r"], [3, "oewn-02137900-v"], [5, "oewn-00304246-v"], [8, "oewn-00005103-r"], [9, "oewn-00149403-v"], [10, "oewn-01436368-a"], [12, "oewn-01436368-a"]]
+    paragraph: '9'
+    pos: ["``", "PRP", "RB", "VBD", "TO", "VB", ",", "PRP", "RB", "VBD", "JJ", "CC", "JJ", "``", "."]
+    text: ' " It never seemed to widen, it just got longer and longer ".
+
+  '
+    tokens: [[1, 2], [3, 5], [6, 11], [12, 18], [19, 21], [22, 27], [27, 28], [29, 31], [32, 36], [37, 40], [41, 47], [48, 51], [52, 58], [59, 60], [60, 61]]
+    wn16_key: [[2, "never%4:02:00::"], [3, "seem%2:39:00::"], [5, "widen%2:30:00::"], [8, "just%4:02:00::"], [9, "get%2:30:00::"], [10, "long%3:00:01::"], [12, "long%3:00:01::"]]
+    wn30_key: [[2, "never%4:02:00::"], [3, "seem%2:39:00::"], [5, "widen%2:30:00::"], [8, "just%4:02:00::"], [9, "get%2:30:00::"], [10, "long%3:00:01::"], [12, "long%3:00:01::"]]
+e1Yb:
+    lemmas: ["That", "'s", "when", "he", "go_to", "person", "."]
+    oewn2026_key: [[4, "oewn-02618797-v"], [5, "oewn-00007846-n"]]
+    paragraph: '10'
+    pos: ["DT", "VBZ", "WRB", "PRP", "VB", "NN", "."]
+    text: ' That''s when he went_to Professor_Claude.'
+    tokens: [[1, 5], [5, 7], [8, 12], [13, 15], [16, 23], [24, 40], [40, 41]]
+    wn16_key: [[4, "go_to%2:32:00::;go_to%2:38:00::"], [5, "person%1:03:00::"]]
+    wn30_key: [[4, "go_to%2:42:00::"], [5, "person%1:03:00::"]]
+OlFC:
+    lemmas: ["And", "at_once", "person", "see", "what", "the", "trouble", "be", "and", "he", "know", "just", "how", "to", "correct", "it", "."]
+    oewn2026_key: [[1, "oewn-00049277-r"], [2, "oewn-00007846-n"], [3, "oewn-00592510-v"], [6, "oewn-05695143-n"], [7, "oewn-02622439-v"], [10, "oewn-00597330-v"], [11, "oewn-00159432-r"], [14, "oewn-02525657-v"]]
+    paragraph: '10'
+    pos: ["CC", "RB", "NNP", "VBD", "WP", "DT", "NN", "VBD", "CC", "PRP", "VBD", "RB", "WRB", "TO", "VB", "PRP", "."]
+    text: ' And at_once Claude saw what the trouble was and he knew just how to correct it.'
+    tokens: [[1, 4], [5, 12], [13, 19], [20, 23], [24, 28], [29, 32], [33, 40], [41, 44], [45, 48], [49, 51], [52, 56], [57, 61], [62, 65], [66, 68], [69, 76], [77, 79], [79, 80]]
+    wn16_key: [[1, "at_once%4:02:00::"], [2, "person%1:03:00::"], [3, "see%2:31:01::"], [6, "trouble%1:09:00::"], [7, "be%2:42:06::"], [10, "know%2:31:03::"], [11, "just%4:02:05::"], [14, "correct%2:41:01::"]]
+    wn30_key: [[1, "at_once%4:02:00::"], [2, "person%1:03:00::"], [3, "see%2:31:01::"], [6, "trouble%1:09:00::"], [7, "be%2:42:06::"], [10, "know%2:31:03::"], [11, "just%4:02:05::"], [14, "correct%2:41:01::"]]
+3++T:
+    lemmas: ["In", "his", "gym", "the", "professor", "have", "some", "of", "the", "most", "\"", "knocked_out", "\"", "equipment", "since", "person", "."]
+    oewn2026_key: [[2, "oewn-03477235-n"], [4, "oewn-10500315-n"], [5, "oewn-02208144-v"], [6, "oewn-02275064-a"], [9, "oewn-00112352-r"], [13, "oewn-03298959-n"], [15, "oewn-00007846-n"]]
+    paragraph: '10'
+    pos: ["IN", "PRP$", "NN", "DT", "NN", "VBZ", "JJ", "IN", "RB", "RB", "``", "JJ", "''", "NN", "IN", "NN", "."]
+    text: ' In his gym the professor has some of the most " knocked_out " equipment since Vic_Tanny.'
+    tokens: [[1, 3], [4, 7], [8, 11], [12, 15], [16, 25], [26, 29], [30, 34], [35, 37], [38, 41], [42, 46], [47, 48], [49, 60], [61, 62], [63, 72], [73, 78], [79, 88], [88, 89]]
+    wn16_key: [[2, "gym%1:06:00::"], [4, "professor%1:18:00::"], [5, "have%2:40:00::"], [6, "some%3:00:00::"], [9, "most%4:02:00::"], [13, "equipment%1:06:00::"], [15, "person%1:03:00::"]]
+    wn30_key: [[2, "gym%1:06:00::"], [4, "professor%1:18:00::"], [5, "have%2:40:00::"], [6, "some%3:00:00::"], [9, "most%4:02:00::"], [13, "equipment%1:06:00::"], [15, "person%1:03:00::"]]
+bJ50:
+    lemmas: ["person", "be", "a", "specialist", "in", "torso", "development", "and", "he", "have", "long", "favor", "the", "now", "famous", "Weider_Push-Pull_Super-Set", "technique", "in", "which", "one", "exercise", "of", "the", "Super-Set", "be", "a", "pressing", "or", "\"", "pushing", "\"", "movement", "which", "accent", "one", "sector", "of", "a", "muscle", "group", "in", "a", "specific", "way", ",", "follow", "by", "a", "\"", "pulling", "\"", "exercise", "which", "work", "the", "opposing", "sector", "of", "the", "same", "muscle", "group", "."]
+    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-02622439-v"], [3, "oewn-10651303-n"], [5, "oewn-05557463-n"], [6, "oewn-13510240-n;oewn-00251126-n"], [10, "oewn-00167240-r"], [11, "oewn-02405179-v"], [13, "oewn-00049013-r"], [14, "oewn-01378757-s"], [16, "oewn-05672990-n"], [19, "oewn-02193977-s"], [20, "oewn-00625978-n"], [24, "oewn-02622439-v"], [26, "oewn-00113933-n"], [29, "oewn-00113132-n"], [31, "oewn-00332776-n"], [33, "oewn-01015376-v"], [34, "oewn-02193977-s"], [35, "oewn-13897666-n"], [38, "oewn-05296796-n"], [39, "oewn-00031563-n"], [42, "oewn-01106714-a"], [43, "oewn-04936080-n"], [45, "oewn-02718647-v"], [49, "oewn-00115251-n"], [51, "oewn-00625978-n"], [53, "oewn-00100305-v"], [55, "oewn-01249022-s"], [56, "oewn-13897666-n"], [59, "oewn-02075880-a"], [60, "oewn-05296796-n"], [61, "oewn-00031563-n"]]
+    paragraph: '10'
+    pos: ["NN", "VBZ", "DT", "NN", "IN", "NN", "NN", "CC", "PRP", "VBZ", "RB", "VBN", "DT", "RB", "JJ", "NNP", "NN", "RB", "RB", "JJ", "NN", "IN", "DT", "NNP", "VBZ", "DT", "NN", "CC", "``", "NN", "''", "NN", "WDT", "VBZ", "JJ", "NN", "IN", "DT", "NN", "NN", "IN", "DT", "JJ", "NN", ",", "VBN", "IN", "DT", "``", "NN", "``", "NN", "WDT", "VBZ", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "NN", "."]
+    text: ' Mr._Claude is a specialist in torso development and he has long favored the now
+  famous Weider_Push-Pull_Super-Set technique in which one exercise of the Super-Set
+  is a pressing or " pushing " movement which accents one sector of a muscle group
+  in a specific way, followed by a " pulling " exercise which works the opposing sector
+  of the same muscle group.
+
+  '
+    tokens: [[1, 11], [12, 14], [15, 16], [17, 27], [28, 30], [31, 36], [37, 48], [49, 52], [53, 55], [56, 59], [60, 64], [65, 72], [73, 76], [77, 80], [81, 87], [88, 114], [115, 124], [125, 127], [128, 133], [134, 137], [138, 146], [147, 149], [150, 153], [154, 163], [164, 166], [167, 168], [169, 177], [178, 180], [181, 182], [183, 190], [191, 192], [193, 201], [202, 207], [208, 215], [216, 219], [220, 226], [227, 229], [230, 231], [232, 238], [239, 244], [245, 247], [248, 249], [250, 258], [259, 262], [262, 263], [264, 272], [273, 275], [276, 277], [278, 279], [280, 287], [288, 289], [290, 298], [299, 304], [305, 310], [311, 314], [315, 323], [324, 330], [331, 333], [334, 337], [338, 342], [343, 349], [350, 355], [355, 356]]
+    wn16_key: [[0, "person%1:03:00::"], [1, "be%2:42:06::"], [3, "specialist%1:18:00::"], [5, "torso%1:08:00::"], [6, "development%1:22:01::;development%1:04:01::"], [10, "long%4:02:00::"], [11, "favor%2:41:00::"], [13, "now%4:02:00::"], [14, "famous%5:00:00:known:00"], [16, "technique%1:09:00::"], [19, "one%5:00:00:cardinal:00"], [20, "exercise%1:04:00::"], [24, "be%2:42:06::"], [26, "pressing%1:04:00::"], [29, "pushing%1:04:00::"], [31, "movement%1:04:00::"], [33, "accent%2:30:00::"], [34, "one%5:00:00:cardinal:00"], [35, "sector%1:25:00::"], [38, "muscle%1:08:00::"], [39, "group%1:03:00::"], [42, "specific%3:00:00::"], [43, "way%1:07:01::"], [45, "follow%2:42:00::"], [49, "pulling%1:04:00::"], [51, "exercise%1:04:00::"], [53, "work%2:29:00::"], [55, "opposing%5:00:00:counteractive:00"], [56, "sector%1:25:00::"], [59, "same%3:00:02::"], [60, "muscle%1:08:00::"], [61, "group%1:03:00::"]]
+    wn30_key: [[0, "person%1:03:00::"], [1, "be%2:42:06::"], [3, "specialist%1:18:00::"], [5, "torso%1:08:00::"], [6, "development%1:22:01::;development%1:04:01::"], [10, "long%4:02:00::"], [11, "favor%2:41:00::"], [13, "now%4:02:00::"], [14, "famous%3:00:00:known:00"], [16, "technique%1:09:00::"], [19, "one%3:00:00:cardinal:00"], [20, "exercise%1:04:00::"], [24, "be%2:42:06::"], [26, "pressing%1:04:00::"], [29, "pushing%1:04:00::"], [31, "movement%1:04:00::"], [33, "accent%2:32:01::"], [34, "one%3:00:00:cardinal:00"], [35, "sector%1:25:00::"], [38, "muscle%1:08:00::"], [39, "group%1:03:00::"], [42, "specific%3:00:00::"], [43, "way%1:07:01::"], [45, "follow%2:42:00::"], [49, "pulling%1:04:00::"], [51, "exercise%1:04:00::"], [53, "work%2:29:00::"], [55, "opposing%3:00:00:hostile:01"], [56, "sector%1:25:00::"], [59, "same%3:00:02::"], [60, "muscle%1:08:00::"], [61, "group%1:03:00::"]]
+Bl2e:
+    lemmas: ["so", "right_away", "person", "introduce", "person", "to", "his", "famous", "\"", "moon", "\"", "bench", "and", "proceed", "to", "teach", "him", "his", "first", "Push-Pull_Super-Set", "consist_of", "the", "wide", "grip", "straight-arm_pullover", "(", "the", "\"", "pull", "\"", "part", "of", "the", "Push-Pull_Super-Set", ")", "which", "dramatically", "widen", "the", "rib_cage", "and", "strongly", "affect", "the", "muscle", "of", "the", "upper", "back", "and", "chest", ",", "and", "the", "collar-to-collar", "bench_press", "which", "specifically", "work_on", "the", "chest", "to", "build", "those", "wide", ",", "person", "\"", "gladiator", "\"", "pecs", ",", "while", "stimulate", "the", "upper", "lat", "and", "frontal", "deltoid", "."]
+    oewn2026_key: [[1, "oewn-00049277-r"], [2, "oewn-00007846-n"], [3, "oewn-00902866-v"], [4, "oewn-00007846-n"], [7, "oewn-01378757-s"], [9, "oewn-09381447-n"], [11, "oewn-04607813-n"], [13, "oewn-00783045-v"], [15, "oewn-00830768-v"], [18, "oewn-01014459-a"], [22, "oewn-02571278-a"], [23, "oewn-00814187-n"], [28, "oewn-00115251-n"], [30, "oewn-13831419-n"], [36, "oewn-00248281-r"], [37, "oewn-00304442-v"], [39, "oewn-05561401-n"], [41, "oewn-00178775-r"], [42, "oewn-00019441-v"], [44, "oewn-05296796-n"], [47, "oewn-01208990-s"], [48, "oewn-05566350-n"], [50, "oewn-05560240-n"], [55, "oewn-00627814-n"], [57, "oewn-00042168-r"], [58, "oewn-01672498-v"], [60, "oewn-05560240-n"], [62, "oewn-00253876-v"], [64, "oewn-02571278-a"], [66, "oewn-00007846-n"], [68, "oewn-10151335-n"], [70, "oewn-05559344-n"], [73, "oewn-00022679-v"], [75, "oewn-01208990-s"], [76, "oewn-05566755-n"], [78, "oewn-00132090-s"], [79, "oewn-05556983-n"]]
+    paragraph: '11'
+    pos: ["RB", "RB", "NNP", "VBD", "NNP", "TO", "PRP$", "JJ", "``", "NN", "''", "NN", "CC", "VBD", "TO", "VB", "PRP", "PRP$", "JJ", "NNP", "VB", "DT", "JJ", "NN", "NNP", "FW", "DT", "``", "NN", "''", "NN", "IN", "DT", "NNP", "NN", "WDT", "RB", "VBZ", "DT", "NN", "CC", "RB", "VBZ", "DT", "NNS", "IN", "DT", "JJ", "NN", "CC", "NN", ",", "CC", "DT", "JJ", "NN", "WDT", "RB", "VBP", "DT", "NN", "TO", "VB", "DT", "JJ", ",", "NN", "``", "NN", "''", "NNS", ",", "IN", "VBG", "DT", "JJ", "NNS", "CC", "JJ", "NNS", "."]
+    text: ' So right_away Claude introduced Henri to his famous " moon " bench and proceeded
+  to teach him his first Push-Pull_Super-Set consisting_of the wide grip Straight-Arm_Pullover
+  (the " pull " part of the Push-Pull_Super-Set) which dramatically widens the rib_cage
+  and strongly affects the muscles of the upper back and chest, and the collar-to-collar
+  Bench_Press which specifically works_on the chest to build those wide, Reeves-type
+  " gladiator " pecs, while stimulating the upper lats and frontal deltoids.
+
+  '
+    tokens: [[1, 3], [4, 14], [15, 21], [22, 32], [33, 38], [39, 41], [42, 45], [46, 52], [53, 54], [55, 59], [60, 61], [62, 67], [68, 71], [72, 81], [82, 84], [85, 90], [91, 94], [95, 98], [99, 104], [105, 124], [125, 138], [139, 142], [143, 147], [148, 152], [153, 174], [175, 176], [176, 179], [180, 181], [182, 186], [187, 188], [189, 193], [194, 196], [197, 200], [201, 220], [220, 221], [222, 227], [228, 240], [241, 247], [248, 251], [252, 260], [261, 264], [265, 273], [274, 281], [282, 285], [286, 293], [294, 296], [297, 300], [301, 306], [307, 311], [312, 315], [316, 321], [321, 322], [323, 326], [327, 330], [331, 347], [348, 359], [360, 365], [366, 378], [379, 387], [388, 391], [392, 397], [398, 400], [401, 406], [407, 412], [413, 417], [417, 418], [419, 430], [431, 432], [433, 442], [443, 444], [445, 449], [449, 450], [451, 456], [457, 468], [469, 472], [473, 478], [479, 483], [484, 487], [488, 495], [496, 504], [504, 505]]
+    wn16_key: [[1, "right_away%4:02:00::"], [2, "person%1:03:00::"], [3, "introduce%2:32:00::"], [4, "person%1:03:00::"], [7, "famous%5:00:00:known:00"], [9, "moon%1:17:02::"], [11, "bench%1:06:01::"], [13, "proceed%2:32:00::"], [15, "teach%2:32:00::"], [18, "first%3:00:00::"], [20, "consist_of%2:42:00::"], [22, "wide%3:00:00::"], [23, "grip%1:04:00::"], [28, "pull%1:04:00::"], [30, "part%1:24:00::"], [36, "dramatically%4:02:02::"], [37, "widen%2:30:03::"], [39, "rib_cage%1:08:00::"], [41, "strongly%4:02:00::"], [42, "affect%2:29:00::"], [44, "muscle%1:08:00::"], [47, "upper%5:00:00:high:01"], [48, "back%1:08:00::"], [50, "chest%1:08:00::"], [55, "bench_press%1:04:00::"], [57, "specifically%4:02:00::"], [58, "work_on%2:36:00::"], [60, "chest%1:08:00::"], [62, "build%2:30:00::"], [64, "wide%3:00:00::"], [66, "person%1:03:00::"], [68, "gladiator%1:18:00::"], [70, "pecs%1:08:00::"], [73, "stimulate%2:29:00::"], [75, "upper%5:00:00:high:01"], [76, "lat%1:08:00::"], [78, "frontal%5:00:01:anterior:00"], [79, "deltoid%1:08:00::"]]
+    wn30_key: [[1, "right_away%4:02:00::"], [2, "person%1:03:00::"], [3, "introduce%2:32:00::"], [4, "person%1:03:00::"], [7, "famous%3:00:00:known:00"], [9, "moon%1:17:02::"], [11, "bench%1:06:01::"], [13, "proceed%2:32:00::"], [15, "teach%2:32:00::"], [18, "first%3:00:00::"], [22, "wide%3:00:00::"], [23, "grip%1:04:00::"], [28, "pull%1:04:00::"], [30, "part%1:24:00::"], [36, "dramatically%4:02:02::"], [37, "widen%2:30:03::"], [39, "rib_cage%1:08:00::"], [41, "strongly%4:02:00::"], [42, "affect%2:29:00::"], [44, "muscle%1:08:00::"], [47, "upper%3:00:00:high:01"], [48, "back%1:08:00::"], [50, "chest%1:08:00::"], [55, "bench_press%1:04:00::"], [57, "specifically%4:02:00::"], [58, "work_on%2:36:00::"], [60, "chest%1:08:00::"], [62, "build%2:30:00::"], [64, "wide%3:00:00::"], [66, "person%1:03:00::"], [68, "gladiator%1:18:00::"], [70, "pecs%1:08:00::"], [73, "stimulate%2:29:00::"], [75, "upper%3:00:00:high:01"], [76, "lat%1:08:00::"], [78, "frontal%3:00:01:anterior:00"], [79, "deltoid%1:08:00::"]]
+7bva:
+    lemmas: ["As", "you", "can", "see", ",", "in", "this", "Push-Pull_Super_Set", "the", "entire", "chest", "back", "shoulder", "area", "be", "vigorously", "exercise", "in", "alternate", "sector", "by", "alternate", "exercise", ",", "so", "the", "complete", "torso", "remain", "pumped-up", "all_the_time", "!"]
+    oewn2026_key: [[3, "oewn-00592510-v"], [9, "oewn-00517305-s"], [10, "oewn-05560240-n"], [11, "oewn-05566350-n"], [12, "oewn-05556473-n"], [13, "oewn-05229188-n"], [15, "oewn-00183234-r"], [16, "oewn-00100305-v"], [18, "oewn-00679361-s"], [19, "oewn-13897666-n"], [21, "oewn-00679361-s"], [22, "oewn-00625978-n"], [24, "oewn-00148162-r"], [26, "oewn-00522139-a"], [27, "oewn-05557463-n"], [28, "oewn-00117793-v"], [29, "oewn-02416142-s"], [30, "oewn-00158123-r"]]
+    paragraph: '12'
+    pos: ["IN", "PRP", "MD", "VB", ",", "RB", "RB", "NN", "DT", "JJ", "NN", "NN", "NN", "NN", "VBZ", "RB", "VBN", "IN", "JJ", "NNS", "IN", "JJ", "NNS", ",", "RB", "DT", "JJ", "NN", "VBZ", "JJ", "RB", "."]
+    text: ' As you can see, in this Push-Pull_Super_Set the entire chest back shoulder area
+  is vigorously exercised in alternate sectors by alternate exercises, so the complete
+  torso remains pumped-up all_the_time!
+
+  '
+    tokens: [[1, 3], [4, 7], [8, 11], [12, 15], [15, 16], [17, 19], [20, 24], [25, 44], [45, 48], [49, 55], [56, 61], [62, 66], [67, 75], [76, 80], [81, 83], [84, 94], [95, 104], [105, 107], [108, 117], [118, 125], [126, 128], [129, 138], [139, 148], [148, 149], [150, 152], [153, 156], [157, 165], [166, 171], [172, 179], [180, 189], [190, 202], [202, 203]]
+    wn16_key: [[3, "see%2:31:01::"], [9, "entire%5:00:01:whole:00"], [10, "chest%1:08:00::"], [11, "back%1:08:00::"], [12, "shoulder%1:08:00::"], [13, "area%1:08:00::"], [15, "vigorously%4:02:00::"], [16, "exercise%2:29:01::"], [18, "alternate%5:00:02:cyclic:01"], [19, "sector%1:25:00::"], [21, "alternate%5:00:02:cyclic:01"], [22, "exercise%1:04:00::"], [24, "so%4:02:07::"], [26, "complete%3:00:00::"], [27, "torso%1:08:00::"], [28, "remain%2:30:00::"], [29, "pumped-up%5:00:00:tense:03"], [30, "all_the_time%4:02:01::"]]
+    wn30_key: [[3, "see%2:31:01::"], [9, "entire%3:00:01:whole:00"], [10, "chest%1:08:00::"], [11, "back%1:08:00::"], [12, "shoulder%1:08:00::"], [13, "area%1:08:00::"], [15, "vigorously%4:02:00::"], [16, "exercise%2:29:01::"], [18, "alternate%3:00:02:cyclic:01"], [19, "sector%1:25:00::"], [21, "alternate%3:00:02:cyclic:01"], [22, "exercise%1:04:00::"], [24, "so%4:02:07::"], [26, "complete%3:00:00::"], [27, "torso%1:08:00::"], [28, "remain%2:30:00::"], [29, "pumped-up%3:00:00:tense:03"], [30, "all_the_time%4:02:01::"]]
+n4bL:
+    lemmas: ["now", "when", "person", "have", "complete", "four", "complete", "Push-Pull_Super-Sets", "no.", "1", ",", "the", "professor", "allow", "him", "about", "a", "five", "minute", "rest", "period", "before", "start", "him", "on", "four", "complete", "Push-Pull_Super-Sets", "no.", "2", "."]
+    oewn2026_key: [[0, "oewn-00049013-r"], [2, "oewn-00007846-n"], [4, "oewn-00485097-v"], [5, "oewn-02194304-s"], [6, "oewn-00522139-a"], [8, "oewn-13618523-n"], [9, "oewn-13764713-n"], [12, "oewn-10500315-n"], [13, "oewn-02427979-v"], [17, "oewn-02194389-s"], [18, "oewn-15259561-n"], [19, "oewn-01066072-n"], [20, "oewn-15137796-n"], [22, "oewn-00349400-v"], [25, "oewn-02194304-s"], [26, "oewn-00522139-a"], [28, "oewn-13618523-n"], [29, "oewn-02194109-s"]]
+    paragraph: '13'
+    pos: ["RB", "WRB", "NNP", "VBZ", "VBN", "JJ", "JJ", "NNP", "NN", "NN", ",", "DT", "NN", "VBZ", "PRP", "IN", "DT", "JJ", "NN", "NN", "NN", "IN", "VBG", "PRP", "IN", "JJ", "JJ", "NNP", "NN", "JJ", "."]
+    text: ' Now when Henri has completed four complete Push-Pull_Super-Sets No. 1, the professor
+  allows him about a five minute rest period before starting him on four complete
+  Push-Pull_Super-Sets No. 2.
+
+  '
+    tokens: [[1, 4], [5, 9], [10, 15], [16, 19], [20, 29], [30, 34], [35, 43], [44, 64], [65, 68], [69, 70], [70, 71], [72, 75], [76, 85], [86, 92], [93, 96], [97, 102], [103, 104], [105, 109], [110, 116], [117, 121], [122, 128], [129, 135], [136, 144], [145, 148], [149, 151], [152, 156], [157, 165], [166, 186], [187, 190], [191, 192], [192, 193]]
+    wn16_key: [[0, "now%4:02:00::"], [2, "person%1:03:00::"], [4, "complete%2:30:02::"], [5, "four%5:00:00:cardinal:00"], [6, "complete%3:00:00::"], [8, "no.%1:23:00::"], [9, "1%1:23:00::"], [12, "professor%1:18:00::"], [13, "allow%2:41:00::"], [17, "five%5:00:00:cardinal:00"], [18, "minute%1:28:00::"], [19, "rest%1:04:00::"], [20, "period%1:28:00::"], [22, "start%2:30:01::"], [25, "four%5:00:00:cardinal:00"], [26, "complete%3:00:00::"], [28, "no.%1:23:00::"], [29, "2%5:00:00:cardinal:00"]]
+    wn30_key: [[0, "now%4:02:00::"], [2, "person%1:03:00::"], [4, "complete%2:30:02::"], [5, "four%3:00:00:cardinal:00"], [6, "complete%3:00:00::"], [8, "no.%1:23:00::"], [9, "1%1:23:00::"], [12, "professor%1:18:00::"], [13, "allow%2:41:00::"], [17, "five%3:00:00:cardinal:00"], [18, "minute%1:28:00::"], [19, "rest%1:04:00::"], [20, "period%1:28:00::"], [22, "start%2:30:01::"], [25, "four%3:00:00:cardinal:00"], [26, "complete%3:00:00::"], [28, "no.%1:23:00::"], [29, "2%3:00:00:cardinal:00"]]
+Aurd:
+    lemmas: ["Super-Set", "no.", "2", "be", "make_up", "of", "similar", "exercise", ",", "but", "this", "time", "do", "with", "dumbbell", ",", "and", "use", "both", "\"", "moon", "\"", "and", "flat_bench", "."]
+    oewn2026_key: [[1, "oewn-13618523-n"], [2, "oewn-13765409-n"], [4, "oewn-02626667-v"], [6, "oewn-02078824-a"], [7, "oewn-00625978-n"], [11, "oewn-07324217-n"], [14, "oewn-03259733-n"], [17, "oewn-01161188-v"], [23, "oewn-03365468-n"]]
+    paragraph: '14'
+    pos: ["NNP", "NN", "NN", "VB", "VB", "VB", "JJ", "NNS", ",", "CC", "DT", "NN", "VB", "VB", "NNS", ",", "CC", "VBG", "DT", "``", "NN", "''", "CC", "NNS", "."]
+    text: ' Super-Set No. 2 is made_up of similar exercises, but this time done with dumbbells,
+  and using both " moon " and flat_benches.'
+    tokens: [[1, 10], [11, 14], [15, 16], [17, 19], [20, 27], [28, 30], [31, 38], [39, 48], [48, 49], [50, 53], [54, 58], [59, 63], [64, 68], [69, 73], [74, 83], [83, 84], [85, 88], [89, 94], [95, 99], [100, 101], [102, 106], [107, 108], [109, 112], [113, 125], [125, 126]]
+    wn16_key: [[1, "no.%1:23:00::"], [2, "2%1:23:00::"], [4, "make_up%2:42:00::"], [6, "similar%3:00:00::"], [7, "exercise%1:04:00::"], [11, "time%1:11:00::"], [14, "dumbbell%1:06:00::"], [17, "use%2:34:01::"], [23, "flat_bench%1:06:00::"]]
+    wn30_key: [[1, "no.%1:23:00::"], [2, "2%1:23:00::"], [4, "make_up%2:42:00::"], [6, "similar%3:00:00::"], [7, "exercise%1:04:00::"], [11, "time%1:11:00::"], [14, "dumbbell%1:06:00::"], [17, "use%2:34:01::"], [23, "flat_bench%1:06:00::"]]
+qMBh:
+    lemmas: ["The", "\"", "push", "\"", "exercise", "of", "this", "Push-Pull_Super-Set", "be", "the", "bench_press", "do", "with", "elbow", "well", "pulled", "back", "and", "with", "a", "great", "downward", "stretch", "of", "the", "pectoral", "not", "possible", "with", "the", "barbell", "variation", "."]
+    oewn2026_key: [[2, "oewn-00113132-n"], [4, "oewn-00625978-n"], [8, "oewn-02622439-v"], [10, "oewn-00627814-n"], [13, "oewn-05587575-n"], [14, "oewn-00013241-r"], [16, "oewn-00074673-r"], [20, "oewn-01682025-s"], [21, "oewn-02502659-s"], [22, "oewn-00629932-n"], [25, "oewn-05559344-n"], [26, "oewn-00024432-r"], [27, "oewn-01826770-a"], [30, "oewn-02794019-n"], [31, "oewn-00195818-n"]]
+    paragraph: '14'
+    pos: ["DT", "``", "NN", "''", "NN", "RB", "RB", "NNP", "VBZ", "DT", "NN", "VB", "VB", "NNS", "RB", "JJ", "RB", "CC", "IN", "DT", "JJR", "JJ", "NN", "IN", "DT", "NNS", "RB", "JJ", "IN", "DT", "NN", "NN", "."]
+    text: ' The " push " exercise of this Push-Pull_Super-Set is the Bench_Press done with elbows
+  well pulled back and with a greater downward stretch of the pectorals not possible
+  with the barbell variation.'
+    tokens: [[1, 4], [5, 6], [7, 11], [12, 13], [14, 22], [23, 25], [26, 30], [31, 50], [51, 53], [54, 57], [58, 69], [70, 74], [75, 79], [80, 86], [87, 91], [92, 98], [99, 103], [104, 107], [108, 112], [113, 114], [115, 122], [123, 131], [132, 139], [140, 142], [143, 146], [147, 156], [157, 160], [161, 169], [170, 174], [175, 178], [179, 186], [187, 196], [196, 197]]
+    wn16_key: [[2, "push%1:04:00::"], [4, "exercise%1:04:00::"], [8, "be%2:42:06::"], [10, "bench_press%1:04:00::"], [13, "elbow%1:08:00::"], [14, "well%4:02:05::"], [15, "pulled%3:44:00::"], [16, "back%4:02:00::"], [20, "great%5:00:00:high:02"], [21, "downward%5:00:00:down:00"], [22, "stretch%1:04:00::"], [25, "pectoral%1:08:00::"], [26, "not%4:02:00::"], [27, "possible%3:00:00::"], [30, "barbell%1:06:00::"], [31, "variation%1:04:00::"]]
+    wn30_key: [[2, "push%1:04:00::"], [4, "exercise%1:04:00::"], [8, "be%2:42:06::"], [10, "bench_press%1:04:00::"], [13, "elbow%1:08:00::"], [14, "well%4:02:05::"], [16, "back%4:02:00::"], [20, "great%3:00:01:extraordinary:00"], [21, "downward%3:00:00:down:00"], [22, "stretch%1:04:00::"], [25, "pectoral%1:08:00::"], [26, "not%4:02:00::"], [27, "possible%3:00:00::"], [30, "barbell%1:06:00::"], [31, "variation%1:04:00::"]]
+fzWw:
+    lemmas: ["You", "need", "the", "barbell", "variation", "to", "build", "width", "and", "mass", "in", "the", "pecs", "."]
+    oewn2026_key: [[1, "oewn-01191258-v"], [3, "oewn-02794019-n"], [4, "oewn-00195818-n"], [6, "oewn-00253876-v"], [7, "oewn-05143415-n"], [9, "oewn-05106651-n"], [12, "oewn-05559344-n"]]
+    paragraph: '14'
+    pos: ["PRP", "VBP", "DT", "NN", "NN", "TO", "VB", "NN", "CC", "NN", "IN", "DT", "NNS", "."]
+    text: ' You need the barbell variation to build width and mass in the pecs.'
+    tokens: [[1, 4], [5, 9], [10, 13], [14, 21], [22, 31], [32, 34], [35, 40], [41, 46], [47, 50], [51, 55], [56, 58], [59, 62], [63, 67], [67, 68]]
+    wn16_key: [[1, "need%2:34:00::"], [3, "barbell%1:06:00::"], [4, "variation%1:04:00::"], [6, "build%2:30:00::"], [7, "width%1:07:00::"], [9, "mass%1:07:01::"], [12, "pecs%1:08:00::"]]
+    wn30_key: [[1, "need%2:34:00::"], [3, "barbell%1:06:00::"], [4, "variation%1:04:00::"], [6, "build%2:30:00::"], [7, "width%1:07:00::"], [9, "mass%1:07:01::"], [12, "pecs%1:08:00::"]]
+/lRE:
+    lemmas: ["The", "dumbbell", "variation", "develop", "a", "most", "classically", "sculpture", "outline", "to", "the", "pecs", "."]
+    oewn2026_key: [[1, "oewn-03259733-n"], [2, "oewn-00195818-n"], [3, "oewn-00094214-v"], [5, "oewn-00032295-r"], [6, "oewn-00248413-r"], [7, "oewn-01688232-v"], [8, "oewn-08630343-n"], [11, "oewn-05559344-n"]]
+    paragraph: '14'
+    pos: ["DT", "NN", "NN", "VBZ", "DT", "RBS", "RB", "VB", "NN", "TO", "DT", "NNS", "."]
+    text: ' The dumbbell variation develops a most classically sculptured outline to the pecs.
+
+  '
+    tokens: [[1, 4], [5, 13], [14, 23], [24, 32], [33, 34], [35, 39], [40, 51], [52, 62], [63, 70], [71, 73], [74, 77], [78, 82], [82, 83]]
+    wn16_key: [[1, "dumbbell%1:06:00::"], [2, "variation%1:04:00::"], [3, "develop%2:29:00::"], [5, "most%4:02:01::"], [6, "classically%4:02:00::"], [7, "sculpture%2:36:00::"], [8, "outline%1:15:00::"], [11, "pecs%1:08:00::"]]
+    wn30_key: [[1, "dumbbell%1:06:00::"], [2, "variation%1:04:00::"], [3, "develop%2:29:00::"], [5, "most%4:02:01::"], [6, "classically%4:02:00::"], [7, "sculpture%2:36:00::"], [8, "outline%1:15:00::"], [11, "pecs%1:08:00::"]]
+vwuS:
+    lemmas: ["The", "\"", "pull", "\"", "exercise", "in", "this", "Super-Set", "be", "the", "one", "dumbbell", "Bent-Arm_Pullover", "."]
+    oewn2026_key: [[2, "oewn-00115251-n"], [4, "oewn-00625978-n"], [8, "oewn-02622439-v"], [10, "oewn-02193977-s"], [11, "oewn-03259733-n"]]
+    paragraph: '15'
+    pos: ["DT", "``", "NN", "''", "NN", "RB", "RB", "NNP", "VBZ", "DT", "JJ", "NN", "NNP", "."]
+    text: ' The " pull " exercise in this Super-Set is the one dumbbell Bent-Arm_Pullover.'
+    tokens: [[1, 4], [5, 6], [7, 11], [12, 13], [14, 22], [23, 25], [26, 30], [31, 40], [41, 43], [44, 47], [48, 51], [52, 60], [61, 78], [78, 79]]
+    wn16_key: [[2, "pull%1:04:00::"], [4, "exercise%1:04:00::"], [8, "be%2:42:06::"], [10, "one%5:00:00:cardinal:00"], [11, "dumbbell%1:06:00::"]]
+    wn30_key: [[2, "pull%1:04:00::"], [4, "exercise%1:04:00::"], [8, "be%2:42:06::"], [10, "one%3:00:00:cardinal:00"], [11, "dumbbell%1:06:00::"]]
+3MiY:
+    lemmas: ["(", "note", "how", "strongly", "the", "upper", "lat", "and", "serratus", "be", "work", "in", "this", "fine", "exercise", "because", "of", "the", "pinpoint", "concentration", "of", "force", "which", "the", "dumbbell", "variation", "afford", ")", "."]
+    oewn2026_key: [[3, "oewn-00178775-r"], [5, "oewn-01208990-s"], [6, "oewn-05566755-n"], [8, "oewn-05557963-n"], [10, "oewn-00100305-v"], [14, "oewn-00625978-n"], [19, "oewn-05045748-n"], [21, "oewn-11479041-n"], [24, "oewn-03259733-n"], [25, "oewn-00195818-n"], [26, "oewn-02344167-v"]]
+    paragraph: '15'
+    pos: ["RB", "VB", "WRB", "RB", "DT", "JJ", "NNS", "CC", "NNS", "VBP", "VBN", "RB", "RB", "JJ", "NN", "IN", "IN", "DT", "JJ", "NN", "IN", "NN", "WDT", "DT", "NN", "NN", "VBZ", "NNP", "."]
+    text: ' (Note how strongly the upper lats and serratus are worked in this fine exercise
+  because of the pin_point concentration of force which the dumbbell variation affords).
+
+  '
+    tokens: [[1, 2], [2, 6], [7, 10], [11, 19], [20, 23], [24, 29], [30, 34], [35, 38], [39, 47], [48, 51], [52, 58], [59, 61], [62, 66], [67, 71], [72, 80], [81, 88], [89, 91], [92, 95], [96, 105], [106, 119], [120, 122], [123, 128], [129, 134], [135, 138], [139, 147], [148, 157], [158, 165], [165, 166], [166, 167]]
+    wn16_key: [[3, "strongly%4:02:00::"], [5, "upper%5:00:00:high:01"], [6, "lat%1:08:00::"], [8, "serratus%1:08:00::"], [10, "work%2:29:00::"], [13, "fine%5:00:00:superior:02"], [14, "exercise%1:04:00::"], [18, "pinpoint%5:00:00:precise:00"], [19, "concentration%1:07:02::"], [21, "force%1:19:00::"], [24, "dumbbell%1:06:00::"], [25, "variation%1:04:00::"], [26, "afford%2:40:00::"]]
+    wn30_key: [[3, "strongly%4:02:00::"], [5, "upper%3:00:00:high:01"], [6, "lat%1:08:00::"], [8, "serratus%1:08:00::"], [10, "work%2:29:00::"], [14, "exercise%1:04:00::"], [19, "concentration%1:07:02::"], [21, "force%1:19:00::"], [24, "dumbbell%1:06:00::"], [25, "variation%1:04:00::"], [26, "afford%2:40:00::"]]
+EEGU:
+    lemmas: ["In", "the", "third", "Push-Pull_Super-Set", "the", "\"", "push", "\"", "exercise", "be", "the", "wide", "grip", "pushup_between_bars", ",", "while", "the", "\"", "pull", "\"", "exercise", "be", "the", "moon_bench_lateral_raise", "with", "bent", "arm", "."]
+    oewn2026_key: [[2, "oewn-02209976-s"], [6, "oewn-00113132-n"], [8, "oewn-00625978-n"], [9, "oewn-02622439-v"], [11, "oewn-02571278-a"], [12, "oewn-00814187-n"], [18, "oewn-00115251-n"], [20, "oewn-00625978-n"], [21, "oewn-02622439-v"], [25, "oewn-01241216-s"], [26, "oewn-05571403-n"]]
+    paragraph: '16'
+    pos: ["IN", "DT", "JJ", "NNP", "DT", "``", "NN", "''", "NN", "VBZ", "DT", "JJ", "NN", "NN", ",", "IN", "DT", "``", "NN", "''", "NN", "VBZ", "DT", "NN", "IN", "JJ", "NNS", "."]
+    text: ' In the third Push-Pull_Super-Set the " push " exercise is the wide grip Pushup_Between_Bars,
+  while the " pull " exercise is the Moon_Bench_Lateral_Raise with bent arms.
+
+  '
+    tokens: [[1, 3], [4, 7], [8, 13], [14, 33], [34, 37], [38, 39], [40, 44], [45, 46], [47, 55], [56, 58], [59, 62], [63, 67], [68, 72], [73, 92], [92, 93], [94, 99], [100, 103], [104, 105], [106, 110], [111, 112], [113, 121], [122, 124], [125, 128], [129, 153], [154, 158], [159, 163], [164, 168], [168, 169]]
+    wn16_key: [[2, "third%5:00:00:ordinal:00"], [6, "push%1:04:00::"], [8, "exercise%1:04:00::"], [9, "be%2:42:06::"], [11, "wide%3:00:00::"], [12, "grip%1:04:00::"], [18, "pull%1:04:00::"], [20, "exercise%1:04:00::"], [21, "be%2:42:06::"], [25, "bent%5:00:00:crooked:01"], [26, "arm%1:08:00::"]]
+    wn30_key: [[2, "third%3:00:00:ordinal:00"], [6, "push%1:04:00::"], [8, "exercise%1:04:00::"], [9, "be%2:42:06::"], [11, "wide%3:00:00::"], [12, "grip%1:04:00::"], [18, "pull%1:04:00::"], [20, "exercise%1:04:00::"], [21, "be%2:42:06::"], [25, "bent%3:00:02:unerect:00"], [26, "arm%1:08:00::"]]
+Ps0o:
+    lemmas: ["The", "pushup", "do", "in", "this", "manner", "be", "the", "greatest", "pectoral", "rib_cage", "stretch", "ever", "invent", "!"]
+    oewn2026_key: [[1, "oewn-00630558-n"], [5, "oewn-04936080-n"], [6, "oewn-02610777-v"], [9, "oewn-05559344-n"], [10, "oewn-05561401-n"], [11, "oewn-00629932-n"], [12, "oewn-00147423-r"], [13, "oewn-01635953-v"]]
+    paragraph: '17'
+    pos: ["DT", "NNP", "VB", "VB", "DT", "NN", "VBZ", "DT", "JJ", "NN", "NN", "NN", "RB", "VBD", "."]
+    text: ' The Pushup done in this manner is the greatest pectoral rib_cage stretcher ever
+  invented!'
+    tokens: [[1, 4], [5, 11], [12, 16], [17, 19], [20, 24], [25, 31], [32, 34], [35, 38], [39, 47], [48, 56], [57, 65], [66, 75], [76, 80], [81, 89], [89, 90]]
+    wn16_key: [[1, "pushup%1:04:00::"], [5, "manner%1:07:02::"], [6, "be%2:42:03::"], [8, "greatest%5:00:00:superior:01"], [9, "pectoral%1:08:00::"], [10, "rib_cage%1:08:00::"], [11, "stretch%1:04:00::"], [12, "ever%4:02:04::"], [13, "invent%2:36:00::"]]
+    wn30_key: [[1, "pushup%1:04:00::"], [5, "manner%1:07:02::"], [6, "be%2:42:03::"], [9, "pectoral%1:08:00::"], [10, "rib_cage%1:08:00::"], [11, "stretch%1:04:00::"], [12, "ever%4:02:04::"], [13, "invent%2:36:00::"]]
+bJJP:
+    lemmas: ["This", "be", "true", "only", "if", "a", "very", "wide", "grip", "be", "use", "and", "only", "when", "the", "greatest", "possible", "stretch", "be", "achieve", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-02469730-a"], [3, "oewn-00009062-r"], [6, "oewn-00513282-r"], [7, "oewn-02571278-a"], [8, "oewn-00814187-n"], [10, "oewn-01161188-v"], [12, "oewn-00009062-r"], [15, "oewn-02351683-s"], [16, "oewn-01826770-a"], [17, "oewn-00342069-n"], [19, "oewn-02531751-v"]]
+    paragraph: '17'
+    pos: ["DT", "VBZ", "JJ", "RB", "IN", "DT", "RB", "JJ", "NN", "VBZ", "VBN", "CC", "RB", "WRB", "DT", "JJS", "JJ", "NN", "VBZ", "VBN", "."]
+    text: ' This is true only if a very wide grip is used and only when the greatest possible
+  stretch is achieved.'
+    tokens: [[1, 5], [6, 8], [9, 13], [14, 18], [19, 21], [22, 23], [24, 28], [29, 33], [34, 38], [39, 41], [42, 46], [47, 50], [51, 55], [56, 60], [61, 64], [65, 73], [74, 82], [83, 90], [91, 93], [94, 102], [102, 103]]
+    wn16_key: [[1, "be%2:42:03::"], [2, "true%3:00:00::"], [3, "only%4:02:01::"], [6, "very%4:02:01::"], [7, "wide%3:00:00::"], [8, "grip%1:04:00::"], [10, "use%2:34:01::"], [12, "only%4:02:01::"], [15, "greatest%5:00:00:maximal:00"], [16, "possible%3:00:00::"], [17, "stretch%1:04:01::"], [19, "achieve%2:41:00::"]]
+    wn30_key: [[1, "be%2:42:03::"], [2, "true%3:00:00::"], [3, "only%4:02:01::"], [6, "very%4:02:01::"], [7, "wide%3:00:00::"], [8, "grip%1:04:00::"], [10, "use%2:34:01::"], [12, "only%4:02:01::"], [15, "greatest%3:00:00:superior:02"], [16, "possible%3:00:00::"], [17, "stretch%1:04:01::"], [19, "achieve%2:41:00::"]]
+LEY/:
+    lemmas: ["You", "'ll", "know", "when", "you", "'ve", "make", "the", "greatest", "stretch", "because", "your", "shoulder_blade", "will", "touch", "!"]
+    oewn2026_key: [[2, "oewn-00596016-v"], [8, "oewn-02351683-s"], [9, "oewn-00342069-n"], [12, "oewn-05287187-n"], [14, "oewn-01208316-v"]]
+    paragraph: '17'
+    pos: ["PRP", "MD", "VB", "WRB", "PRP", "VBP", "VB", "DT", "JJS", "NN", "IN", "PRP$", "NNS", "MD", "VB", "."]
+    text: ' You''ll know when you''ve made the greatest stretch because your shoulder_blades
+  will touch!'
+    tokens: [[1, 4], [4, 7], [8, 12], [13, 17], [18, 21], [21, 24], [25, 29], [30, 33], [34, 42], [43, 50], [51, 58], [59, 63], [64, 79], [80, 84], [85, 90], [90, 91]]
+    wn16_key: [[2, "know%2:31:01::"], [8, "greatest%5:00:00:maximal:00"], [9, "stretch%1:04:01::"], [12, "shoulder_blade%1:08:00::"], [14, "touch%2:35:01::"]]
+    wn30_key: [[2, "know%2:31:01::"], [8, "greatest%3:00:00:superior:02"], [9, "stretch%1:04:01::"], [12, "shoulder_blade%1:08:00::"], [14, "touch%2:35:01::"]]
+8t9S:
+    lemmas: ["As", "you", "see", ",", "the", "professor", "have", "design", "a", "piece", "of", "apparatus", "that", "force", "the", "bodybuilder", "to", "use", "a", "wide", "grip", "."]
+    oewn2026_key: [[2, "oewn-00592510-v"], [5, "oewn-10500315-n"], [7, "oewn-00711454-v"], [9, "oewn-03938737-n"], [11, "oewn-02730750-n"], [13, "oewn-01653967-v"], [15, "oewn-09882251-n"], [17, "oewn-01161188-v"], [19, "oewn-02571278-a"], [20, "oewn-00814187-n"]]
+    paragraph: '17'
+    pos: ["IN", "PRP", "VBP", ",", "DT", "NN", "VBZ", "VBN", "RB", "NN", "IN", "NN", "IN", "VBZ", "DT", "NN", "TO", "VB", "DT", "JJ", "NN", "."]
+    text: ' As you see, the professor has designed a piece of apparatus that forces the bodybuilder
+  to use a wide grip.'
+    tokens: [[1, 3], [4, 7], [8, 11], [11, 12], [13, 16], [17, 26], [27, 30], [31, 39], [40, 41], [42, 47], [48, 50], [51, 60], [61, 65], [66, 72], [73, 76], [77, 88], [89, 91], [92, 95], [96, 97], [98, 102], [103, 107], [107, 108]]
+    wn16_key: [[2, "see%2:31:01::"], [5, "professor%1:18:00::"], [7, "design%2:36:00::"], [9, "piece%1:06:05::"], [11, "apparatus%1:06:00::"], [13, "force%2:36:00::"], [15, "bodybuilder%1:18:00::"], [17, "use%2:34:01::"], [19, "wide%3:00:00::"], [20, "grip%1:04:00::"]]
+    wn30_key: [[2, "see%2:31:01::"], [5, "professor%1:18:00::"], [7, "design%2:36:00::"], [9, "piece%1:06:05::"], [11, "apparatus%1:06:00::"], [13, "force%2:36:00::"], [15, "bodybuilder%1:18:00::"], [17, "use%2:34:01::"], [19, "wide%3:00:00::"], [20, "grip%1:04:00::"]]
+RcdN:
+    lemmas: ["He", "have", "to", ";", "he", "just", "can", "n't", "do", "anything", "about", "it", "at_all", "!"]
+    oewn2026_key: [[5, "oewn-00005103-r"], [8, "oewn-02566500-v"], [12, "oewn-00057267-r"]]
+    paragraph: '17'
+    pos: ["PRP", "VB", "VB", ":", "PRP", "RB", "MD", "RB", "VB", "NN", "IN", "PRP", "RB", "."]
+    text: ' He has to; he just cann''t do anything about it at_all!
+
+  '
+    tokens: [[1, 3], [4, 7], [8, 10], [10, 11], [12, 14], [15, 19], [20, 23], [23, 26], [27, 29], [30, 38], [39, 44], [45, 47], [48, 54], [54, 55]]
+    wn16_key: [[5, "just%4:02:00::"], [7, "n't%4:02:00::"], [8, "do%2:41:01::"], [12, "at_all%4:02:00::"]]
+    wn30_key: [[5, "just%4:02:00::"], [8, "do%2:41:01::"], [12, "at_all%4:02:00::"]]
+l2Jm:
+    lemmas: ["But", "as", "you", "can", "also", "see", ",", "it", "'s", "not", "a", "painful", "exercise", "at_all", ",", "because", "person", "-", "the", "\"", "happy", "\"", "bodybuilder", "-", "look", "as", "though", "he", "be", "have", "the", "time", "of", "his", "life", "!"]
+    oewn2026_key: [[4, "oewn-00048072-r"], [5, "oewn-02133338-v"], [9, "oewn-00024432-r"], [11, "oewn-01715524-a"], [12, "oewn-00625978-n"], [13, "oewn-00057267-r"], [16, "oewn-00007846-n"], [20, "oewn-01151786-a"], [22, "oewn-09882251-n"], [24, "oewn-02137900-v"], [29, "oewn-02112480-v"], [31, "oewn-07302920-n"], [34, "oewn-15165365-n"]]
+    paragraph: '18'
+    pos: ["CC", "IN", "PRP", "VB", "RB", "VB", ",", "PRP", "VBZ", "RB", "DT", "JJ", "NN", "RB", ",", "IN", "NN", ":", "DT", "``", "JJ", "''", "NN", ":", "VBZ", "IN", "IN", "PRP", "VBD", "VBG", "DT", "NN", "IN", "PRP$", "NN", "."]
+    text: ' But as you can also see, it''s not a painful exercise at_all, because Henri_de_Courcy
+  - the " happy " bodybuilder - looks as though he were having the time of his life!
+
+  '
+    tokens: [[1, 4], [5, 7], [8, 11], [12, 15], [16, 20], [21, 24], [24, 25], [26, 28], [28, 30], [31, 34], [35, 36], [37, 44], [45, 53], [54, 60], [60, 61], [62, 69], [70, 85], [86, 87], [88, 91], [92, 93], [94, 99], [100, 101], [102, 113], [114, 115], [116, 121], [122, 124], [125, 131], [132, 134], [135, 139], [140, 146], [147, 150], [151, 155], [156, 158], [159, 162], [163, 167], [167, 168]]
+    wn16_key: [[4, "also%4:02:00::"], [5, "see%2:39:02::"], [9, "not%4:02:00::"], [11, "painful%3:00:00::"], [12, "exercise%1:04:00::"], [13, "at_all%4:02:00::"], [16, "person%1:03:00::"], [20, "happy%3:00:00::"], [22, "bodybuilder%1:18:00::"], [24, "look%2:39:01::"], [29, "have%2:39:06::"], [31, "time%1:11:01::"], [34, "life%1:28:00::"]]
+    wn30_key: [[4, "also%4:02:00::"], [5, "see%2:39:02::"], [9, "not%4:02:00::"], [11, "painful%3:00:00::"], [12, "exercise%1:04:00::"], [13, "at_all%4:02:00::"], [16, "person%1:03:00::"], [20, "happy%3:00:00::"], [22, "bodybuilder%1:18:00::"], [24, "look%2:39:01::"], [29, "have%2:39:06::"], [31, "time%1:11:01::"], [34, "life%1:28:00::"]]
+eNIT:
+    lemmas: ["The", "last", "exercise", "of", "person", "'s", "prescribed", "program", "for", "person", "be", "a", "single", "exercise", ",", "do", "in", "individual", "set", "with", "a_bit", "long", "pause", "between", "set", "."]
+    oewn2026_key: [[1, "oewn-01016876-a"], [2, "oewn-00625978-n"], [4, "oewn-00007846-n"], [6, "oewn-00723656-s"], [7, "oewn-05907175-n"], [9, "oewn-00007846-n"], [10, "oewn-02622439-v"], [12, "oewn-00495505-a"], [13, "oewn-00625978-n"], [17, "oewn-02160589-s"], [18, "oewn-00626939-n"], [20, "oewn-00034050-r"], [21, "oewn-01440837-a"], [22, "oewn-15295994-n"], [24, "oewn-00626939-n"]]
+    paragraph: '19'
+    pos: ["DT", "JJ", "NN", "IN", "NN", "POS", "JJ", "NN", "IN", "NNP", "VBZ", "DT", "JJ", "NN", ",", "VB", "VB", "JJ", "NNS", "IN", "RB", "JJR", "NN", "IN", "NNS", "."]
+    text: ' The last exercise of Roland_Claude''s prescribed program for Henri is a single exercise,
+  done in individual sets with a_bit longer pause between sets.'
+    tokens: [[1, 4], [5, 9], [10, 18], [19, 21], [22, 35], [35, 37], [38, 48], [49, 56], [57, 60], [61, 66], [67, 69], [70, 71], [72, 78], [79, 87], [87, 88], [89, 93], [94, 96], [97, 107], [108, 112], [113, 117], [118, 123], [124, 130], [131, 136], [137, 144], [145, 149], [149, 150]]
+    wn16_key: [[1, "last%3:00:00::"], [2, "exercise%1:04:00::"], [4, "person%1:03:00::"], [6, "prescribed%5:00:00:nonarbitrary:00"], [7, "program%1:09:00::"], [9, "person%1:03:00::"], [10, "be%2:42:06::"], [12, "single%3:00:00::"], [13, "exercise%1:04:00::"], [17, "individual%5:00:00:independent:00"], [18, "set%1:04:00::"], [20, "a_bit%4:02:00::"], [21, "long%3:00:02::"], [22, "pause%1:28:00::"], [24, "set%1:04:00::"]]
+    wn30_key: [[1, "last%3:00:00::"], [2, "exercise%1:04:00::"], [4, "person%1:03:00::"], [6, "prescribed%3:00:00:nonarbitrary:00"], [7, "program%1:09:00::"], [9, "person%1:03:00::"], [10, "be%2:42:06::"], [12, "single%3:00:00::"], [13, "exercise%1:04:00::"], [17, "individual%3:00:00:independent:00"], [18, "set%1:04:00::"], [20, "a_bit%4:02:00::"], [21, "long%3:00:02::"], [22, "pause%1:28:00::"], [24, "set%1:04:00::"]]
+v5HA:
+    lemmas: ["By", "this", "time", "person", "'s", "entire", "chest", "back", "-", "lat", "shoulder", "area", "be", "pumped-up", "to", "almost", "burst", "point", ",", "and", "person", "take", "time", "to", "do", "a_bit", "more", "pectoral", "front", "deltoid", "shaping", "work", "."]
+    oewn2026_key: [[2, "oewn-07324217-n"], [3, "oewn-00007846-n"], [5, "oewn-00517305-s"], [6, "oewn-05560240-n"], [7, "oewn-05566350-n"], [9, "oewn-05566755-n"], [10, "oewn-05556473-n"], [11, "oewn-05229188-n"], [12, "oewn-02610777-v"], [13, "oewn-02416142-s"], [15, "oewn-00073433-r"], [16, "oewn-00310092-v"], [17, "oewn-13962925-n"], [20, "oewn-00007846-n"], [21, "oewn-02272834-v"], [22, "oewn-15295388-n"], [24, "oewn-02566500-v"], [25, "oewn-00034050-r"], [27, "oewn-05559344-n"], [28, "oewn-03403382-n"], [29, "oewn-05556983-n"], [30, "oewn-13576649-n"], [31, "oewn-00576778-n"]]
+    paragraph: '19'
+    pos: ["IN", "DT", "NN", "NNP", "POS", "JJ", "NN", "NN", ":", "NN", "NN", "NN", "VBZ", "JJ", "TO", "RB", "VBG", "NN", ",", "CC", "NNP", "VBZ", "NN", "TO", "VB", "RB", "JJ", "NN", "NN", "NN", "NN", "NN", "."]
+    text: ' By this time Henri''s entire chest back - lat shoulder area is pumped-up to almost
+  bursting point, and Claude takes time to do a_bit more pectoral front deltoid shaping
+  work.'
+    tokens: [[1, 3], [4, 8], [9, 13], [14, 19], [19, 21], [22, 28], [29, 34], [35, 39], [40, 41], [42, 45], [46, 54], [55, 59], [60, 62], [63, 72], [73, 75], [76, 82], [83, 91], [92, 97], [97, 98], [99, 102], [103, 109], [110, 115], [116, 120], [121, 123], [124, 126], [127, 132], [133, 137], [138, 146], [147, 152], [153, 160], [161, 168], [169, 173], [173, 174]]
+    wn16_key: [[2, "time%1:11:00::"], [3, "person%1:03:00::"], [5, "entire%5:00:01:whole:00"], [6, "chest%1:08:00::"], [7, "back%1:08:00::"], [9, "lat%1:08:00::"], [10, "shoulder%1:08:00::"], [11, "area%1:08:00::"], [12, "be%2:42:03::"], [13, "pumped-up%5:00:00:tense:03"], [15, "almost%4:02:00::"], [16, "burst%2:30:00::"], [17, "point%1:26:00::"], [20, "person%1:03:00::"], [21, "take%2:40:06::"], [22, "time%1:28:05::"], [24, "do%2:41:01::"], [25, "a_bit%4:02:00::"], [26, "more%5:00:00:added:00"], [27, "pectoral%1:08:00::"], [28, "front%1:06:00::"], [29, "deltoid%1:08:00::"], [30, "shaping%1:22:00::"], [31, "work%1:04:00::"]]
+    wn30_key: [[2, "time%1:11:00::"], [3, "person%1:03:00::"], [5, "entire%3:00:01:whole:00"], [6, "chest%1:08:00::"], [7, "back%1:08:00::"], [9, "lat%1:08:00::"], [10, "shoulder%1:08:00::"], [11, "area%1:08:00::"], [12, "be%2:42:03::"], [13, "pumped-up%3:00:00:tense:03"], [15, "almost%4:02:00::"], [16, "burst%2:30:00::"], [17, "point%1:26:00::"], [20, "person%1:03:00::"], [21, "take%2:40:06::"], [22, "time%1:28:05::"], [24, "do%2:41:01::"], [25, "a_bit%4:02:00::"], [27, "pectoral%1:08:00::"], [28, "front%1:06:00::"], [29, "deltoid%1:08:00::"], [30, "shaping%1:22:00::"], [31, "work%1:04:00::"]]
+1R73:
+    lemmas: ["He", "have", "person", "do", "from", "four", "to", "six", "set", "of", "the", "incline_bench_press", "(", "note", "the", "high", "incline", ")", "."]
+    oewn2026_key: [[1, "oewn-00120604-v"], [2, "oewn-00007846-n"], [3, "oewn-01716563-v"], [5, "oewn-02194304-s"], [7, "oewn-02194472-s"], [8, "oewn-00626939-n"], [11, "oewn-00627968-n"], [13, "oewn-02123398-v"], [15, "oewn-01207229-a"], [16, "oewn-04058661-n"]]
+    paragraph: '19'
+    pos: ["PRP", "VBZ", "NNP", "VB", "IN", "JJ", "TO", "JJ", "NNS", "IN", "DT", "NN", "FW", "VB", "DT", "JJ", "NN", "NN", "."]
+    text: ' He has Henri do from four to six sets of the Incline_Bench_Press (note the high
+  incline).'
+    tokens: [[1, 3], [4, 7], [8, 13], [14, 16], [17, 21], [22, 26], [27, 29], [30, 33], [34, 38], [39, 41], [42, 45], [46, 65], [66, 67], [67, 71], [72, 75], [76, 80], [81, 88], [88, 89], [89, 90]]
+    wn16_key: [[1, "have%2:30:00::"], [2, "person%1:03:00::"], [3, "do%2:36:01::"], [5, "four%5:00:00:cardinal:00"], [7, "six%5:00:00:cardinal:00"], [8, "set%1:04:00::"], [11, "incline_bench_press%1:04:00::"], [13, "note%2:39:02::"], [15, "high%3:00:01::"], [16, "incline%1:06:00::"]]
+    wn30_key: [[1, "have%2:30:00::"], [2, "person%1:03:00::"], [3, "do%2:36:01::"], [5, "four%3:00:00:cardinal:00"], [7, "six%3:00:00:cardinal:00"], [8, "set%1:04:00::"], [11, "incline_bench_press%1:04:00::"], [13, "note%2:39:02::"], [15, "high%3:00:01::"], [16, "incline%1:06:00::"]]
+fTFO:
+    lemmas: ["This", "give", "a", "wide", "flare", "to", "the", "pecs", ",", "cause", "them", "to", "flow", "dramatically", "upward", "into", "deltoid", "and", "dramatically", "downward", "into", "the", "serratus", "and", "lat", "."]
+    oewn2026_key: [[1, "oewn-01632595-v"], [3, "oewn-02571278-a"], [4, "oewn-13885247-n"], [7, "oewn-05559344-n"], [9, "oewn-01649143-v"], [12, "oewn-02070438-v"], [13, "oewn-00248281-r"], [14, "oewn-00096883-r"], [16, "oewn-05556983-n"], [18, "oewn-00248281-r"], [19, "oewn-00095870-r"], [22, "oewn-05557963-n"], [24, "oewn-05566755-n"]]
+    paragraph: '19'
+    pos: ["DT", "VBZ", "DT", "JJ", "NN", "TO", "DT", "NNS", ",", "VBG", "PRP", "TO", "VB", "RB", "RB", "IN", "NNS", "CC", "RB", "RB", "IN", "DT", "NN", "CC", "NNS", "."]
+    text: ' This gives a wide flare to the pecs, causing them to flow dramatically upward into
+  deltoids and dramatically downward into the serratus and lats.
+
+  '
+    tokens: [[1, 5], [6, 11], [12, 13], [14, 18], [19, 24], [25, 27], [28, 31], [32, 36], [36, 37], [38, 45], [46, 50], [51, 53], [54, 58], [59, 71], [72, 78], [79, 83], [84, 92], [93, 96], [97, 109], [110, 118], [119, 123], [124, 127], [128, 136], [137, 140], [141, 145], [145, 146]]
+    wn16_key: [[1, "give%2:36:03::"], [3, "wide%3:00:00::"], [4, "flare%1:25:00::"], [7, "pecs%1:08:00::"], [9, "cause%2:36:00::"], [12, "flow%2:38:01::"], [13, "dramatically%4:02:02::"], [14, "upward%4:02:00::"], [16, "deltoid%1:08:00::"], [18, "dramatically%4:02:02::"], [19, "downward%4:02:00::"], [22, "serratus%1:08:00::"], [24, "lat%1:08:00::"]]
+    wn30_key: [[1, "give%2:36:03::"], [3, "wide%3:00:00::"], [4, "flare%1:25:00::"], [7, "pecs%1:08:00::"], [9, "cause%2:36:00::"], [12, "flow%2:38:01::"], [13, "dramatically%4:02:02::"], [14, "upward%4:02:00::"], [16, "deltoid%1:08:00::"], [18, "dramatically%4:02:02::"], [19, "downward%4:02:00::"], [22, "serratus%1:08:00::"], [24, "lat%1:08:00::"]]
+72b5:
+    lemmas: ["This", "be", "the", "kind", "of", "chest", "that", "invariably", "win", "contest", "that", "steel", "edged", "\"", "carved", "out_of", "solid", "rock", "\"", "look", "of", "the", "great", "champion", "."]
+    oewn2026_key: [[1, "oewn-02626667-v"], [3, "oewn-05847533-n"], [5, "oewn-05560240-n"], [7, "oewn-00020931-r"], [8, "oewn-01102556-v"], [9, "oewn-07470961-n"], [11, "oewn-14826620-n"], [12, "oewn-00259277-s"], [14, "oewn-00317905-a"], [16, "oewn-01203882-s"], [17, "oewn-09438954-n"], [19, "oewn-04682072-n"], [22, "oewn-01281928-s"], [23, "oewn-09926157-n"]]
+    paragraph: '20'
+    pos: ["DT", "VBZ", "DT", "NN", "NN", "NN", "WDT", "RB", "VBZ", "NNS", "IN", "NN", "JJ", "''", "JJ", "RB", "JJ", "NN", "''", "NNS", "IN", "DT", "JJ", "NNS", "."]
+    text: ' This is the kind of chest that invariably wins contests that steel edged " carved
+  out_of solid rock " looks of the great champions.
+
+  '
+    tokens: [[1, 5], [6, 8], [9, 12], [13, 17], [18, 20], [21, 26], [27, 31], [32, 42], [43, 47], [48, 56], [57, 61], [62, 67], [68, 73], [74, 75], [76, 82], [83, 89], [90, 95], [96, 100], [101, 102], [103, 108], [109, 111], [112, 115], [116, 121], [122, 131], [131, 132]]
+    wn16_key: [[1, "be%2:42:02::"], [3, "kind%1:09:00::"], [5, "chest%1:08:00::"], [7, "invariably%4:02:00::"], [8, "win%2:33:00::"], [9, "contest%1:11:00::"], [11, "steel%1:27:00::"], [12, "edged%5:00:00:bordered:00"], [14, "carved%3:00:00::"], [16, "solid%5:00:00:homogeneous:00"], [17, "rock%1:17:01::"], [19, "look%1:07:00::"], [22, "great%5:00:01:important:00"], [23, "champion%1:18:01::"]]
+    wn30_key: [[1, "be%2:42:02::"], [3, "kind%1:09:00::"], [5, "chest%1:08:00::"], [7, "invariably%4:02:00::"], [8, "win%2:33:00::"], [9, "contest%1:11:00::"], [11, "steel%1:27:00::"], [12, "edged%3:00:00:bordered:00"], [14, "carved%3:00:00::"], [16, "solid%3:00:00:homogeneous:00"], [17, "rock%1:17:01::"], [19, "look%1:07:00::"], [22, "great%3:00:01:important:00"], [23, "champion%1:18:01::"]]
+yw4U:
+    lemmas: ["so", "with", "four", "complete", "Push-Pull_Super-Sets", "no.", "1", ",", "four", "of", "no.", "2", ",", "four", "of", "no.", "3", "and", "four", "to", "six", "set", "of", "the", "incline_bench_press", ",", "you", "can", "see", "that", "person", "have", "have", "a", "terrific", "mass", "build", ",", "muscle", "shape", ",", "torso", "defining", "workout", "that", "cannot", "be", "improve", "upon", "."]
+    oewn2026_key: [[2, "oewn-02194304-s"], [3, "oewn-00522139-a"], [5, "oewn-13618523-n"], [6, "oewn-13764713-n"], [8, "oewn-02194304-s"], [10, "oewn-13618523-n"], [11, "oewn-13765409-n"], [13, "oewn-02194304-s"], [15, "oewn-13618523-n"], [16, "oewn-13766184-n"], [18, "oewn-02194304-s"], [20, "oewn-02194472-s"], [21, "oewn-00626939-n"], [24, "oewn-00627968-n"], [28, "oewn-00592510-v"], [30, "oewn-00007846-n"], [32, "oewn-02112480-v"], [34, "oewn-01681111-s"], [35, "oewn-05106651-n"], [36, "oewn-00253876-v"], [38, "oewn-05296796-n"], [39, "oewn-01663142-v"], [41, "oewn-05557463-n"], [42, "oewn-13576649-n"], [43, "oewn-00625978-n"], [47, "oewn-00206293-v"]]
+    paragraph: '21'
+    pos: ["RB", "IN", "JJ", "JJ", "NNP", "NN", "NN", ",", "JJ", "IN", "NN", "NN", ",", "JJ", "IN", "NN", "NN", "CC", "JJ", "TO", "JJ", "NNS", "IN", "DT", "NN", ",", "PRP", "MD", "VB", "IN", "NN", "VBZ", "VBN", "DT", "JJ", "NN", "VB", ",", "NN", "VB", ",", "NN", "NN", "NN", "WDT", "MD", "VB", "VBN", "RB", "."]
+    text: ' So with four complete Push-Pull_Super-Sets No. 1, four of No. 2, four of No. 3 and
+  four to six sets of the Incline_Bench_Press, you can see that Henri_de_Courcy has
+  had a terrific mass building, muscle shaping, torso defining workout that cannot
+  be improved upon.
+
+  '
+    tokens: [[1, 3], [4, 8], [9, 13], [14, 22], [23, 43], [44, 47], [48, 49], [49, 50], [51, 55], [56, 58], [59, 62], [63, 64], [64, 65], [66, 70], [71, 73], [74, 77], [78, 79], [80, 83], [84, 88], [89, 91], [92, 95], [96, 100], [101, 103], [104, 107], [108, 127], [127, 128], [129, 132], [133, 136], [137, 140], [141, 145], [146, 161], [162, 165], [166, 169], [170, 171], [172, 180], [181, 185], [186, 194], [194, 195], [196, 202], [203, 210], [210, 211], [212, 217], [218, 226], [227, 234], [235, 239], [240, 246], [247, 249], [250, 258], [259, 263], [263, 264]]
+    wn16_key: [[2, "four%5:00:00:cardinal:00"], [3, "complete%3:00:00::"], [5, "no.%1:23:00::"], [6, "1%1:23:00::"], [8, "four%5:00:00:cardinal:00"], [10, "no.%1:23:00::"], [11, "2%1:23:00::"], [13, "four%5:00:00:cardinal:00"], [15, "no.%1:23:00::"], [16, "3%1:23:00::"], [18, "four%5:00:00:cardinal:00"], [20, "six%5:00:00:cardinal:00"], [21, "set%1:04:00::"], [24, "incline_bench_press%1:04:00::"], [28, "see%2:31:01::"], [30, "person%1:03:00::"], [32, "have%2:39:06::"], [34, "terrific%5:00:00:extraordinary:00"], [35, "mass%1:07:01::"], [36, "build%2:30:00::"], [38, "muscle%1:08:00::"], [39, "shape%2:36:00::"], [41, "torso%1:08:00::"], [42, "defining%1:22:00::"], [43, "workout%1:04:00::"], [47, "improve%2:30:01::"]]
+    wn30_key: [[2, "four%3:00:00:cardinal:00"], [3, "complete%3:00:00::"], [5, "no.%1:23:00::"], [6, "1%1:23:00::"], [8, "four%3:00:00:cardinal:00"], [10, "no.%1:23:00::"], [11, "2%1:23:00::"], [13, "four%3:00:00:cardinal:00"], [15, "no.%1:23:00::"], [16, "3%1:23:00::"], [18, "four%3:00:00:cardinal:00"], [20, "six%3:00:00:cardinal:00"], [21, "set%1:04:00::"], [24, "incline_bench_press%1:04:00::"], [28, "see%2:31:01::"], [30, "person%1:03:00::"], [32, "have%2:39:06::"], [34, "terrific%3:00:00:extraordinary:00"], [35, "mass%1:07:01::"], [36, "build%2:30:00::"], [38, "muscle%1:08:00::"], [39, "shape%2:36:00::"], [41, "torso%1:08:00::"], [42, "defining%1:22:00::"], [43, "workout%1:04:00::"], [47, "improve%2:30:01::"]]
+7y1Z:
+    lemmas: ["physique", "contest", "be", "rarely", "win", "on", "muscle", "size", "alone", "."]
+    oewn2026_key: [[0, "oewn-05005695-n"], [1, "oewn-07470961-n"], [3, "oewn-00035772-r"], [4, "oewn-01102556-v"], [6, "oewn-05296796-n"], [7, "oewn-05106204-n"], [8, "oewn-00009062-r"]]
+    paragraph: '22'
+    pos: ["NN", "NNS", "VBP", "RB", "VBN", "IN", "NN", "NN", "RB", "."]
+    text: ' Physique contests are rarely won on muscle size alone.'
+    tokens: [[1, 9], [10, 18], [19, 22], [23, 29], [30, 33], [34, 36], [37, 43], [44, 48], [49, 54], [54, 55]]
+    wn16_key: [[0, "physique%1:07:00::"], [1, "contest%1:11:00::"], [3, "rarely%4:02:00::"], [4, "win%2:33:00::"], [6, "muscle%1:08:00::"], [7, "size%1:07:00::"], [8, "alone%4:02:00::"]]
+    wn30_key: [[0, "physique%1:07:00::"], [1, "contest%1:11:00::"], [3, "rarely%4:02:00::"], [4, "win%2:33:00::"], [6, "muscle%1:08:00::"], [7, "size%1:07:00::"], [8, "alone%4:02:00::"]]
+kq5E:
+    lemmas: ["rare", "still", "be", "a", "mr._america", "or", "mr._universe", "of", "true", "herculean", "build", "."]
+    oewn2026_key: [[0, "oewn-00490548-s"], [1, "oewn-00018101-r"], [2, "oewn-02610777-v"], [9, "oewn-01264435-s"], [10, "oewn-05005695-n"]]
+    paragraph: '22'
+    pos: ["JJ", "RB", "VBZ", "DT", "NNP", "CC", "NNP", "IN", "JJ", "JJ", "NN", "."]
+    text: ' Rarer still is a Mr._America or Mr._Universe of true Herculean build.'
+    tokens: [[1, 6], [7, 12], [13, 15], [16, 17], [18, 29], [30, 32], [33, 45], [46, 48], [49, 53], [54, 63], [64, 69], [69, 70]]
+    wn16_key: [[0, "rare%5:00:00:uncommon:00"], [1, "still%4:02:00::"], [2, "be%2:42:03::"], [8, "true%5:00:00:genuine:00"], [9, "herculean%5:00:00:superhuman:00"], [10, "build%1:07:00::"]]
+    wn30_key: [[0, "rare%3:00:00:uncommon:00"], [1, "still%4:02:00::"], [2, "be%2:42:03::"], [9, "herculean%3:00:00:superhuman:00"], [10, "build%1:07:00::"]]
+Qmho:
+    lemmas: ["The", "aspect", "of", "physical", "development", "that", "catch", "the", "judge", "'", "eye", "and", "which", "rightfully", "influence", "their", "decision", "be", "symmetry", "and", "that", "hallmark", "of", "the", "true", "champion", "-", "superior", "definition", "of", "the", "muscle", "."]
+    oewn2026_key: [[1, "oewn-04740358-n"], [3, "oewn-01782757-a"], [4, "oewn-14446275-n"], [6, "oewn-01508590-v"], [8, "oewn-10086539-n"], [10, "oewn-05711254-n"], [13, "oewn-00224480-r"], [14, "oewn-00702806-v"], [16, "oewn-07308252-n"], [17, "oewn-02622439-v"], [18, "oewn-13921008-n"], [21, "oewn-04739783-n"], [25, "oewn-09926157-n"], [27, "oewn-02349336-a"], [28, "oewn-04710305-n"], [31, "oewn-05296796-n"]]
+    paragraph: '22'
+    pos: ["DT", "NNS", "IN", "JJ", "NN", "WDT", "VBP", "DT", "NNS", "POS", "NNS", "CC", "WDT", "RB", "VBP", "PRP$", "NNS", "VBP", "NN", "CC", "IN", "NN", "IN", "DT", "JJ", "NN", ":", "JJ", "NN", "IN", "DT", "NNS", "."]
+    text: ' The aspects of physical development that catch the judges'' eyes and which rightfully
+  influence their decisions are symmetry and that hallmark of the true champion -
+  superior definition of the muscles.
+
+  '
+    tokens: [[1, 4], [5, 12], [13, 15], [16, 24], [25, 36], [37, 41], [42, 47], [48, 51], [52, 58], [58, 59], [60, 64], [65, 68], [69, 74], [75, 85], [86, 95], [96, 101], [102, 111], [112, 115], [116, 124], [125, 128], [129, 133], [134, 142], [143, 145], [146, 149], [150, 154], [155, 163], [164, 165], [166, 174], [175, 185], [186, 188], [189, 192], [193, 200], [200, 201]]
+    wn16_key: [[1, "aspect%1:07:02::"], [3, "physical%3:00:00::"], [4, "development%1:26:00::"], [6, "catch%2:35:07::"], [8, "judge%1:18:01::"], [10, "eye%1:09:01::"], [13, "rightfully%4:02:00::"], [14, "influence%2:31:00::"], [16, "decision%1:11:01::"], [17, "be%2:42:06::"], [18, "symmetry%1:25:00::"], [21, "hallmark%1:07:00::"], [24, "true%5:00:00:genuine:00"], [25, "champion%1:18:01::"], [27, "superior%3:00:02::"], [28, "definition%1:07:00::"], [31, "muscle%1:08:00::"]]
+    wn30_key: [[1, "aspect%1:07:02::"], [3, "physical%3:00:00::"], [4, "development%1:26:00::"], [6, "catch%2:35:07::"], [8, "judge%1:18:01::"], [10, "eye%1:09:01::"], [13, "rightfully%4:02:00::"], [14, "influence%2:31:00::"], [16, "decision%1:11:01::"], [17, "be%2:42:06::"], [18, "symmetry%1:25:00::"], [21, "hallmark%1:07:00::"], [25, "champion%1:18:01::"], [27, "superior%3:00:02::"], [28, "definition%1:07:00::"], [31, "muscle%1:08:00::"]]
+WlIe:
+    lemmas: ["now", "good", "definition", "be", "one", "thing", "that", "all_of", "us", "can", "acquire", "with", "occasional", "high-set", ",", "high-rep", ",", "light", "weight", "workout", "."]
+    oewn2026_key: [[1, "oewn-01126910-a"], [2, "oewn-04710305-n"], [3, "oewn-02610777-v"], [4, "oewn-02193977-s"], [5, "oewn-04624646-n"], [10, "oewn-00094214-v"], [12, "oewn-01071104-s"], [17, "oewn-01189951-a"], [18, "oewn-04578578-n"], [19, "oewn-00625978-n"]]
+    paragraph: '23'
+    pos: ["RB", "JJ", "NN", "VBZ", "JJ", "NN", "IN", "JJ", "PRP", "MD", "VB", "IN", "JJ", "JJ", ",", "JJ", ",", "JJ", "NN", "NNS", "."]
+    text: ' Now good definition is one thing that all_of us can acquire with occasional high-set,
+  high-rep, light weight workouts.'
+    tokens: [[1, 4], [5, 9], [10, 20], [21, 23], [24, 27], [28, 33], [34, 38], [39, 45], [46, 48], [49, 52], [53, 60], [61, 65], [66, 76], [77, 85], [85, 86], [87, 95], [95, 96], [97, 102], [103, 109], [110, 118], [118, 119]]
+    wn16_key: [[1, "good%3:00:01::"], [2, "definition%1:07:00::"], [3, "be%2:42:03::"], [4, "one%5:00:00:cardinal:00"], [5, "thing%1:07:00::"], [7, "all_of%3:00:00::"], [10, "acquire%2:29:00::"], [12, "occasional%5:00:00:infrequent:00"], [17, "light%3:00:01::"], [18, "weight%1:06:01::"], [19, "workout%1:04:00::"]]
+    wn30_key: [[1, "good%3:00:01::"], [2, "definition%1:07:00::"], [3, "be%2:42:03::"], [4, "one%3:00:00:cardinal:00"], [5, "thing%1:07:00::"], [10, "acquire%2:29:00::"], [12, "occasional%3:00:00:infrequent:00"], [17, "light%3:00:01::"], [18, "weight%1:06:01::"], [19, "workout%1:04:00::"]]
+oHBT:
+    lemmas: ["But", "contest", "definition", "-", "that", "dramatic", "muscular", "separation", "of", "every", "muscle", "group", "that", "seem", "as", "though", "it", "must", "have", "be", "carve", "by", "a", "sculptor", "'s", "chisel", "-", "be", "something", "quite", "different", "."]
+    oewn2026_key: [[1, "oewn-07470961-n"], [2, "oewn-04710305-n"], [5, "oewn-01287304-s"], [6, "oewn-02893874-a"], [7, "oewn-05097154-n"], [10, "oewn-05296796-n"], [11, "oewn-00031563-n"], [13, "oewn-02137900-v"], [20, "oewn-01258721-v"], [23, "oewn-10585500-n"], [25, "oewn-03024375-n"], [27, "oewn-02610777-v"], [29, "oewn-00019243-r"], [30, "oewn-02072149-a"]]
+    paragraph: '23'
+    pos: ["CC", "NN", "NN", ":", "IN", "JJ", "JJ", "NN", "IN", "DT", "NN", "NN", "RB", "VBZ", "RB", "IN", "PRP", "MD", "VB", "VBN", "VBN", "IN", "DT", "NN", "POS", "NN", ":", "VBZ", "NN", "RB", "JJ", "."]
+    text: ' But contest definition - that dramatic muscular separation of every muscle group
+  that seems as though it must have been carved by a sculptor''s chisel - is something
+  quite different.'
+    tokens: [[1, 4], [5, 12], [13, 23], [24, 25], [26, 30], [31, 39], [40, 48], [49, 59], [60, 62], [63, 68], [69, 75], [76, 81], [82, 86], [87, 92], [93, 95], [96, 102], [103, 105], [106, 110], [111, 115], [116, 120], [121, 127], [128, 130], [131, 132], [133, 141], [141, 143], [144, 150], [151, 152], [153, 155], [156, 165], [166, 171], [172, 181], [181, 182]]
+    wn16_key: [[1, "contest%1:11:00::"], [2, "definition%1:07:00::"], [5, "dramatic%5:00:00:impressive:00"], [6, "muscular%3:01:00::"], [7, "separation%1:07:00::"], [10, "muscle%1:08:00::"], [11, "group%1:03:00::"], [13, "seem%2:39:00::"], [20, "carve%2:35:01::"], [23, "sculptor%1:18:00::"], [25, "chisel%1:06:00::"], [27, "be%2:42:03::"], [29, "quite%4:02:02::"], [30, "different%3:00:00::"]]
+    wn30_key: [[1, "contest%1:11:00::"], [2, "definition%1:07:00::"], [5, "dramatic%3:00:00:impressive:00"], [6, "muscular%3:01:00::"], [7, "separation%1:07:00::"], [10, "muscle%1:08:00::"], [11, "group%1:03:00::"], [13, "seem%2:39:00::"], [20, "carve%2:35:01::"], [23, "sculptor%1:18:00::"], [25, "chisel%1:06:00::"], [27, "be%2:42:03::"], [29, "quite%4:02:02::"], [30, "different%3:00:00::"]]
+TLRw:
+    lemmas: ["This", "come", "not", "alone", "from", "high-set", ",", "high-rep", "training", ",", "but", "from", "certain", "definition", "specialization", "exercise", "which", "the", "champion", "select", "for", "himself", "with", "the", "knowledge", "of", "exactly", "what", "work", "best", "for", "him", "."]
+    oewn2026_key: [[1, "oewn-02631420-v"], [2, "oewn-00024432-r"], [3, "oewn-00009062-r"], [8, "oewn-00895653-n"], [12, "oewn-00704329-s"], [13, "oewn-04710305-n"], [14, "oewn-00584784-n"], [15, "oewn-00625978-n"], [18, "oewn-09926157-n"], [19, "oewn-00676526-v"], [24, "oewn-00023451-n"], [26, "oewn-00159432-r"], [28, "oewn-02531113-v"], [29, "oewn-00189649-r"]]
+    paragraph: '23'
+    pos: ["DT", "VBZ", "RB", "RB", "IN", "JJ", ",", "JJ", "NN", ",", "CC", "IN", "JJ", "NN", "NN", "NNS", "WDT", "DT", "NN", "VBZ", "IN", "PRP", "IN", "DT", "NN", "IN", "RB", "WP", "VBZ", "RB", "IN", "PRP", "."]
+    text: ' This comes not alone from high-set, high-rep training, but from certain definition
+  specialization exercises which the champion selects for himself with the knowledge
+  of exactly what works best for him.
+
+  '
+    tokens: [[1, 5], [6, 11], [12, 15], [16, 21], [22, 26], [27, 35], [35, 36], [37, 45], [46, 54], [54, 55], [56, 59], [60, 64], [65, 72], [73, 83], [84, 98], [99, 108], [109, 114], [115, 118], [119, 127], [128, 135], [136, 139], [140, 147], [148, 152], [153, 156], [157, 166], [167, 169], [170, 177], [178, 182], [183, 188], [189, 193], [194, 197], [198, 201], [201, 202]]
+    wn16_key: [[1, "come%2:42:04::"], [2, "not%4:02:00::"], [3, "alone%4:02:00::"], [8, "training%1:04:00::"], [12, "certain%5:00:00:definite:00"], [13, "definition%1:07:00::"], [14, "specialization%1:04:01::"], [15, "exercise%1:04:00::"], [18, "champion%1:18:01::"], [19, "select%2:31:00::"], [24, "knowledge%1:03:00::"], [26, "exactly%4:02:01::"], [28, "work%2:41:03::"], [29, "best%4:02:01::"]]
+    wn30_key: [[1, "come%2:42:04::"], [2, "not%4:02:00::"], [3, "alone%4:02:00::"], [8, "training%1:04:00::"], [12, "certain%3:00:00:definite:00"], [13, "definition%1:07:00::"], [14, "specialization%1:04:01::"], [15, "exercise%1:04:00::"], [18, "champion%1:18:01::"], [19, "select%2:31:00::"], [24, "knowledge%1:03:00::"], [26, "exactly%4:02:01::"], [28, "work%2:41:03::"], [29, "best%4:02:01::"]]
++izS:
+    lemmas: ["often", "these", "exercise", "work", "well", "for", "some", "bodybuilder", "but", "less", "spectacularly", "for", "other", "."]
+    oewn2026_key: [[0, "oewn-00035445-r"], [2, "oewn-00625978-n"], [3, "oewn-02531113-v"], [4, "oewn-00011555-r"], [7, "oewn-09882251-n"], [9, "oewn-00100077-r"], [10, "oewn-00211285-r"]]
+    paragraph: '24'
+    pos: ["RB", "DT", "NNS", "VBP", "RB", "IN", "DT", "NNS", "CC", "RBR", "RB", "IN", "NNS", "."]
+    text: ' Often these exercises work well for some bodybuilders but less spectacularly for
+  others.'
+    tokens: [[1, 6], [7, 12], [13, 22], [23, 27], [28, 32], [33, 36], [37, 41], [42, 54], [55, 58], [59, 63], [64, 77], [78, 81], [82, 88], [88, 89]]
+    wn16_key: [[0, "often%4:02:00::"], [2, "exercise%1:04:00::"], [3, "work%2:41:03::"], [4, "well%4:02:00::"], [7, "bodybuilder%1:18:00::"], [9, "less%4:02:00::"], [10, "spectacularly%4:02:00::"]]
+    wn30_key: [[0, "often%4:02:00::"], [2, "exercise%1:04:00::"], [3, "work%2:41:03::"], [4, "well%4:02:00::"], [7, "bodybuilder%1:18:00::"], [9, "less%4:02:00::"], [10, "spectacularly%4:02:00::"]]
+5r1b:
+    lemmas: ["Because", "they", "be", "\"", "minority", "\"", "exercise", "and", "have", "but", "a", "limited", "appeal", "they", "soon", "find", "themselves", "in", "the", "limbo", "of", "the", "forgotten", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"], [4, "oewn-05130115-n"], [6, "oewn-00625978-n"], [8, "oewn-02636270-v"], [11, "oewn-01417858-a"], [12, "oewn-04694682-n"], [14, "oewn-00034309-r"], [15, "oewn-02133338-v"], [19, "oewn-14460235-n"]]
+    paragraph: '24'
+    pos: ["IN", "PRP", "VBP", "``", "NN", "''", "NNS", "CC", "VBP", "CC", "DT", "JJ", "NN", "PRP", "RB", "VBP", "PRP", "IN", "DT", "NN", "IN", "DT", "JJ", "."]
+    text: ' Because they are " minority " exercises and have but a limited appeal they soon
+  find themselves in the limbo of the forgotten.'
+    tokens: [[1, 8], [9, 13], [14, 17], [18, 19], [20, 28], [29, 30], [31, 40], [41, 44], [45, 49], [50, 53], [54, 55], [56, 63], [64, 70], [71, 75], [76, 80], [81, 85], [86, 96], [97, 99], [100, 103], [104, 109], [110, 112], [113, 116], [117, 126], [126, 127]]
+    wn16_key: [[2, "be%2:42:03::"], [4, "minority%1:07:00::"], [6, "exercise%1:04:00::"], [8, "have%2:42:00::"], [11, "limited%3:00:00::"], [12, "appeal%1:07:00::"], [14, "soon%4:02:00::"], [15, "find%2:39:01::"], [19, "limbo%1:26:01::"], [22, "forgotten%5:00:00:unrecoverable:00"]]
+    wn30_key: [[2, "be%2:42:03::"], [4, "minority%1:07:00::"], [6, "exercise%1:04:00::"], [8, "have%2:42:00::"], [11, "limited%3:00:00::"], [12, "appeal%1:07:00::"], [14, "soon%4:02:00::"], [15, "find%2:39:01::"], [19, "limbo%1:26:01::"]]
+R+/l:
+    lemmas: ["only", "when", "the", "new", "mr._america", "or", "mr._universe", "rediscover", "them", "and", "put", "them", "into", "practice", "be", "we", "reacquaint", "with", "them", "and", "once_again", "see", "how", "effective", "they", "really", "be", "."]
+    oewn2026_key: [[0, "oewn-00005103-r"], [3, "oewn-01645077-a"], [7, "oewn-02160814-v"], [10, "oewn-01162686-v"], [13, "oewn-00607488-v"], [16, "oewn-86375664-v"], [20, "oewn-00040777-r"], [21, "oewn-00600349-v"], [23, "oewn-00512569-s"], [25, "oewn-00150568-r"], [26, "oewn-02610777-v"]]
+    paragraph: '24'
+    pos: ["RB", "WRB", "DT", "JJS", "NNP", "CC", "NNP", "VBZ", "PRP", "CC", "VBZ", "PRP", "IN", "VB", "VBP", "PRP", "VBD", "IN", "PRP", "CC", "RB", "VBP", "WRB", "JJ", "PRP", "RB", "VBP", "."]
+    text: ' Only when the newest Mr._America or Mr._Universe rediscovers them and puts them
+  into practice are we reacquainted with them and once_again see how effective they
+  really are.
+
+  '
+    tokens: [[1, 5], [6, 10], [11, 14], [15, 21], [22, 33], [34, 36], [37, 49], [50, 61], [62, 66], [67, 70], [71, 75], [76, 80], [81, 85], [86, 94], [95, 98], [99, 101], [102, 114], [115, 119], [120, 124], [125, 128], [129, 139], [140, 143], [144, 147], [148, 157], [158, 162], [163, 169], [170, 173], [173, 174]]
+    wn16_key: [[0, "only%4:02:03::"], [3, "new%3:00:00::"], [7, "rediscover%2:39:00::"], [10, "put%2:34:00::"], [13, "practice%2:31:00::"], [16, "reacquaint%2:32:00::"], [20, "once_again%4:02:00::"], [21, "see%2:31:02::"], [23, "effective%5:00:00:competent:00"], [25, "really%4:02:04::"], [26, "be%2:42:03::"]]
+    wn30_key: [[0, "only%4:02:03::"], [3, "new%3:00:00::"], [7, "rediscover%2:39:00::"], [10, "put%2:34:00::"], [13, "practice%2:31:00::"], [16, "reacquaint%2:32:00::"], [20, "once_again%4:02:00::"], [21, "see%2:31:02::"], [23, "effective%3:00:00:competent:00"], [25, "really%4:02:04::"], [26, "be%2:42:03::"]]
+kEsh:
+    lemmas: ["The", "exercise", "I", "shall", "discuss", "in", "this", "-", "the", "first", "of", "a", "new", "series", "of", "article", "on", "muscle", "definition", "specialization", "of", "a", "particular", "body_part", "-", "be", "the", "One_Leg_Lunge", "."]
+    oewn2026_key: [[1, "oewn-00625978-n"], [4, "oewn-01036184-v"], [9, "oewn-01014459-a"], [12, "oewn-01645077-a"], [13, "oewn-08474987-n"], [15, "oewn-06278749-n"], [17, "oewn-05296796-n"], [18, "oewn-04710305-n"], [19, "oewn-00584784-n"], [22, "oewn-01108153-s"], [23, "oewn-05227735-n"], [25, "oewn-02622439-v"]]
+    paragraph: '25'
+    pos: ["DT", "NN", "PRP", "VB", "VB", "RB", "RB", ":", "DT", "JJ", "IN", "DT", "JJ", "NN", "IN", "NNS", "IN", "NN", "NN", "NN", "IN", "DT", "JJ", "NN", ":", "VBZ", "DT", "JJ", "."]
+    text: ' The exercise I shall discuss in this - the first of a new series of articles on
+  muscle definition specialization of a particular body_part - is the One_Leg_Lunge.'
+    tokens: [[1, 4], [5, 13], [14, 15], [16, 21], [22, 29], [30, 32], [33, 37], [38, 39], [40, 43], [44, 49], [50, 52], [53, 54], [55, 58], [59, 65], [66, 68], [69, 77], [78, 80], [81, 87], [88, 98], [99, 113], [114, 116], [117, 118], [119, 129], [130, 139], [140, 141], [142, 144], [145, 148], [149, 162], [162, 163]]
+    wn16_key: [[1, "exercise%1:04:00::"], [4, "discuss%2:32:01::"], [9, "first%5:00:00:ordinal:00"], [12, "new%3:00:00::"], [13, "series%1:14:00::"], [15, "article%1:10:00::"], [17, "muscle%1:08:00::"], [18, "definition%1:07:00::"], [19, "specialization%1:04:01::"], [22, "particular%5:00:00:individual:00"], [23, "body_part%1:08:00::"], [25, "be%2:42:06::"]]
+    wn30_key: [[1, "exercise%1:04:00::"], [4, "discuss%2:32:01::"], [9, "first%3:00:00:ordinal:00"], [12, "new%3:00:00::"], [13, "series%1:14:00::"], [15, "article%1:10:00::"], [17, "muscle%1:08:00::"], [18, "definition%1:07:00::"], [19, "specialization%1:04:01::"], [22, "particular%3:00:02:specific:00"], [23, "body_part%1:08:00::"], [25, "be%2:42:06::"]]
+tBTg:
+    lemmas: ["Why", "it", "be", "ever", "forget", "for", "even", "a", "moment", "I", "cannot", "say", "because", "it", "work", "perfectly", "for", "everyone", ",", "no_matter", "whether", "he", "have", "short", "or", "long", "thighbone", "length", "!"]
+    oewn2026_key: [[3, "oewn-00147423-r"], [4, "oewn-00611721-v"], [6, "oewn-00017907-r"], [8, "oewn-15271664-n"], [11, "oewn-00919271-v"], [14, "oewn-02531113-v"], [15, "oewn-00010112-r"], [19, "oewn-00119427-r"], [22, "oewn-02636270-v"], [23, "oewn-01438878-a"], [25, "oewn-01436368-a"], [26, "oewn-05581526-n"], [27, "oewn-05136466-n"]]
+    paragraph: '25'
+    pos: ["WRB", "PRP", "VBD", "RB", "VBN", "IN", "RB", "DT", "NN", "PRP", "MD", "VBP", "IN", "PRP", "VBZ", "RB", "IN", "NN", ",", "RB", "IN", "PRP", "VBZ", "JJ", "CC", "JJ", "NN", "NNS", "."]
+    text: ' Why it was ever forgotten for even a moment I cannot say because it works perfectly
+  for everyone, no_matter whether he has short or long thigh-bone lengths!
+
+  '
+    tokens: [[1, 4], [5, 7], [8, 11], [12, 16], [17, 26], [27, 30], [31, 35], [36, 37], [38, 44], [45, 46], [47, 53], [54, 57], [58, 65], [66, 68], [69, 74], [75, 84], [85, 88], [89, 97], [97, 98], [99, 108], [109, 116], [117, 119], [120, 123], [124, 129], [130, 132], [133, 137], [138, 148], [149, 156], [156, 157]]
+    wn16_key: [[3, "ever%4:02:04::"], [4, "forget%2:31:01::"], [6, "even%4:02:00::"], [8, "moment%1:28:01::"], [11, "say%2:32:03::"], [14, "work%2:41:03::"], [15, "perfectly%4:02:01::"], [19, "no_matter%4:02:00::"], [22, "have%2:42:00::"], [23, "short%3:00:01::"], [25, "long%3:00:01::"], [26, "thighbone%1:08:00::"], [27, "length%1:07:00::"]]
+    wn30_key: [[3, "ever%4:02:04::"], [4, "forget%2:31:01::"], [6, "even%4:02:00::"], [8, "moment%1:28:01::"], [11, "say%2:32:03::"], [14, "work%2:41:03::"], [15, "perfectly%4:02:01::"], [19, "no_matter%4:02:00::"], [22, "have%2:42:00::"], [23, "short%3:00:01::"], [25, "long%3:00:01::"], [26, "thighbone%1:08:00::"], [27, "length%1:07:00::"]]
+oMoM:
+    lemmas: ["It", "be", "the", "one", "exercise", "that", "drastically", "influence", "the", "definition", "of", "the", "thigh", "at", "the", "hipline", "-", "that", "mark", "of", "the", "champion", "that", "set", "him", "apart", "from", "all", "other", "bodybuilder", "-", "a", "criterion", "of", "muscle", "\"", "drama", "\"", "that_is", "unforgettable", "to", "judge", "and", "audience", "alike", "-", "the", "facet", "of", "muscular", "development", "that", "win", "prize", "."]
+    oewn2026_key: [[1, "oewn-02622439-v"], [3, "oewn-02071831-s"], [4, "oewn-00625978-n"], [6, "oewn-00057190-r"], [7, "oewn-00702806-v"], [9, "oewn-04710305-n"], [12, "oewn-05569882-n"], [15, "oewn-08601209-n"], [18, "oewn-07284884-n"], [21, "oewn-09926157-n"], [23, "oewn-00299677-v"], [25, "oewn-00236119-r"], [28, "oewn-02076759-a"], [29, "oewn-09882251-n"], [32, "oewn-05933552-n"], [34, "oewn-05296796-n"], [36, "oewn-04634062-n"], [39, "oewn-01044092-a"], [41, "oewn-10086539-n"], [43, "oewn-08238818-n"], [44, "oewn-00070072-r"], [47, "oewn-05859151-n"], [49, "oewn-02893874-a"], [50, "oewn-13510240-n"], [52, "oewn-02293158-v"], [53, "oewn-13289169-n"]]
+    paragraph: '26'
+    pos: ["PRP", "VBZ", "DT", "JJ", "NN", "IN", "RB", "VBZ", "DT", "NN", "IN", "DT", "NNS", "IN", "DT", "NN", ":", "IN", "NN", "IN", "DT", "NN", "IN", "VBZ", "PRP", "RB", "IN", "DT", "JJ", "NNS", ":", "DT", "NN", "IN", "NN", "``", "NN", "''", "RB", "JJ", "TO", "NNS", "CC", "NNS", "RB", ":", "DT", "NN", "IN", "JJ", "NN", "WDT", "VBZ", "NNS", "."]
+    text: ' It is the one exercise that drastically influences the definition of the thighs
+  at the hipline - that mark of the champion that sets him apart from all other bodybuilders
+  - a criterion of muscle " drama " that_is unforgettable to judges and audiences
+  alike - the facet of muscular development that wins prizes.
+
+  '
+    tokens: [[1, 3], [4, 6], [7, 10], [11, 14], [15, 23], [24, 28], [29, 40], [41, 51], [52, 55], [56, 66], [67, 69], [70, 73], [74, 80], [81, 83], [84, 87], [88, 95], [96, 97], [98, 102], [103, 107], [108, 110], [111, 114], [115, 123], [124, 128], [129, 133], [134, 137], [138, 143], [144, 148], [149, 152], [153, 158], [159, 171], [172, 173], [174, 175], [176, 185], [186, 188], [189, 195], [196, 197], [198, 203], [204, 205], [206, 213], [214, 227], [228, 230], [231, 237], [238, 241], [242, 251], [252, 257], [258, 259], [260, 263], [264, 269], [270, 272], [273, 281], [282, 293], [294, 298], [299, 303], [304, 310], [310, 311]]
+    wn16_key: [[1, "be%2:42:06::"], [3, "one%5:00:02:single(a):00"], [4, "exercise%1:04:00::"], [6, "drastically%4:02:02::"], [7, "influence%2:31:00::"], [9, "definition%1:07:00::"], [12, "thigh%1:08:00::"], [15, "hipline%1:15:01::"], [18, "mark%1:10:02::"], [21, "champion%1:18:01::"], [23, "set%2:30:01::"], [25, "apart%4:02:07::"], [28, "other%3:00:00::"], [29, "bodybuilder%1:18:00::"], [32, "criterion%1:09:00::"], [34, "muscle%1:08:00::"], [36, "drama%1:07:00::"], [38, "that_is%4:02:00::"], [39, "unforgettable%3:00:00::"], [41, "judge%1:18:01::"], [43, "audience%1:14:00::"], [44, "alike%4:02:00::"], [47, "facet%1:09:00::"], [49, "muscular%3:01:00::"], [50, "development%1:22:01::"], [52, "win%2:40:00::"], [53, "prize%1:21:00::"]]
+    wn30_key: [[1, "be%2:42:06::"], [3, "one%3:00:00:same:00"], [4, "exercise%1:04:00::"], [6, "drastically%4:02:02::"], [7, "influence%2:31:00::"], [9, "definition%1:07:00::"], [12, "thigh%1:08:00::"], [15, "hipline%1:15:01::"], [18, "mark%1:10:02::"], [21, "champion%1:18:01::"], [23, "set%2:30:01::"], [25, "apart%4:02:07::"], [28, "other%3:00:00::"], [29, "bodybuilder%1:18:00::"], [32, "criterion%1:09:00::"], [34, "muscle%1:08:00::"], [36, "drama%1:07:00::"], [39, "unforgettable%3:00:00::"], [41, "judge%1:18:01::"], [43, "audience%1:14:00::"], [44, "alike%4:02:00::"], [47, "facet%1:09:00::"], [49, "muscular%3:01:00::"], [50, "development%1:22:01::"], [52, "win%2:40:00::"], [53, "prize%1:21:00::"]]
+BiW2:
+    lemmas: ["definition", "of", "the", "thigh", "at", "the", "uppermost", "part", "be", "quite", "commonly", "see", "in", "most", "championship", "olympic", "lifter", "which", "be", "easily", "understandable", "."]
+    oewn2026_key: [[0, "oewn-04710305-n"], [3, "oewn-05569882-n"], [6, "oewn-02449665-s"], [7, "oewn-13831419-n"], [9, "oewn-00019243-r"], [10, "oewn-00107608-r"], [11, "oewn-02133754-v"], [13, "oewn-01561513-a"], [14, "oewn-13972130-n"], [15, "oewn-03104534-a"], [16, "oewn-10793062-n"], [18, "oewn-02610777-v"], [19, "oewn-00148912-r"], [20, "oewn-00535672-s"]]
+    paragraph: '27'
+    pos: ["NN", "IN", "DT", "NNS", "IN", "DT", "JJ", "NN", "VBZ", "RB", "RB", "VBN", "IN", "JJS", "NN", "JJ", "NNS", "WDT", "VBZ", "RB", "JJ", "."]
+    text: ' Definition of the thighs at the uppermost part is quite commonly seen in most championship
+  Olympic lifters which is easily understandable.'
+    tokens: [[1, 11], [12, 14], [15, 18], [19, 25], [26, 28], [29, 32], [33, 42], [43, 47], [48, 50], [51, 56], [57, 65], [66, 70], [71, 73], [74, 78], [79, 91], [92, 99], [100, 107], [108, 113], [114, 116], [117, 123], [124, 138], [138, 139]]
+    wn16_key: [[0, "definition%1:07:00::"], [3, "thigh%1:08:00::"], [6, "uppermost%5:00:00:top(a):00"], [7, "part%1:24:00::"], [9, "quite%4:02:02::"], [10, "commonly%4:02:00::"], [11, "see%2:39:00::"], [13, "most%3:00:02::"], [14, "championship%1:26:00::"], [15, "olympic%3:01:00::"], [16, "lifter%1:18:00::"], [18, "be%2:42:03::"], [19, "easily%4:02:01::"], [20, "understandable%5:00:00:comprehensible:00"]]
+    wn30_key: [[0, "definition%1:07:00::"], [3, "thigh%1:08:00::"], [6, "uppermost%3:00:00:top:00"], [7, "part%1:24:00::"], [9, "quite%4:02:02::"], [10, "commonly%4:02:00::"], [11, "see%2:39:00::"], [13, "most%3:00:02::"], [14, "championship%1:26:00::"], [15, "olympic%3:01:00::"], [16, "lifter%1:18:00::"], [18, "be%2:42:03::"], [19, "easily%4:02:01::"], [20, "understandable%3:00:00:comprehensible:00"]]
+G1cq:
+    lemmas: ["The", "One_Leg_Lunge", "be", "a", "split", "and", "all", "lifter", "practice", "this", "in", "their", "regular", "workout", "."]
+    oewn2026_key: [[2, "oewn-02622439-v"], [4, "oewn-00438869-n"], [7, "oewn-10793062-n"], [8, "oewn-00607488-v"], [12, "oewn-01966104-a"], [13, "oewn-00625978-n"]]
+    paragraph: '27'
+    pos: ["DT", "JJ", "VBZ", "DT", "NN", "CC", "DT", "NNS", "VBP", "DT", "IN", "PRP$", "JJ", "NNS", "."]
+    text: ' The One_Leg_Lunge is a split and all lifters practice this in their regular workouts.
+
+  '
+    tokens: [[1, 4], [5, 18], [19, 21], [22, 23], [24, 29], [30, 33], [34, 37], [38, 45], [46, 54], [55, 59], [60, 62], [63, 68], [69, 76], [77, 85], [85, 86]]
+    wn16_key: [[2, "be%2:42:06::"], [4, "split%1:04:02::"], [7, "lifter%1:18:00::"], [8, "practice%2:31:00::"], [12, "regular%3:00:00::"], [13, "workout%1:04:00::"]]
+    wn30_key: [[2, "be%2:42:06::"], [4, "split%1:04:02::"], [7, "lifter%1:18:00::"], [8, "practice%2:31:00::"], [12, "regular%3:00:00::"], [13, "workout%1:04:00::"]]
+a/8K:
+    lemmas: ["But", "for", "purely", "definition", "purpose", "-", "use", "in", "conjunction", "with", "your", "regular", "squatting", ",", "leg_curling", ",", "leg_extensor", "program", "-", "a", "heavy", "weight", "be", "not", "needed", "."]
+    oewn2026_key: [[2, "oewn-00180598-r"], [3, "oewn-04710305-n"], [4, "oewn-05156572-n"], [6, "oewn-01161188-v"], [8, "oewn-05055452-n"], [11, "oewn-01966104-a"], [12, "oewn-00631311-n"], [14, "oewn-00631508-n"], [16, "oewn-00631641-n"], [17, "oewn-05907175-n"], [20, "oewn-01188475-a"], [21, "oewn-04578578-n"], [23, "oewn-00024432-r"], [24, "oewn-01585183-s"]]
+    paragraph: '28'
+    pos: ["CC", "IN", "RB", "NN", "NNS", ":", "VBN", "IN", "NN", "IN", "PRP$", "JJ", "NN", ",", "NN", ",", "NN", "NNS", ":", "DT", "JJ", "NN", "VBZ", "RB", "JJ", "."]
+    text: ' But for purely definition purposes - used in conjunction with your regular Squatting,
+  Leg_Curling, Leg_Extensor programs - a heavy weight is not needed.'
+    tokens: [[1, 4], [5, 8], [9, 15], [16, 26], [27, 35], [36, 37], [38, 42], [43, 45], [46, 57], [58, 62], [63, 67], [68, 75], [76, 85], [85, 86], [87, 98], [98, 99], [100, 112], [113, 121], [122, 123], [124, 125], [126, 131], [132, 138], [139, 141], [142, 145], [146, 152], [152, 153]]
+    wn16_key: [[2, "purely%4:02:00::"], [3, "definition%1:07:00::"], [4, "purpose%1:07:00::"], [6, "use%2:34:01::"], [8, "conjunction%1:07:00::"], [11, "regular%3:00:00::"], [12, "squatting%1:04:01::"], [14, "leg_curling%1:04:00::"], [16, "leg_extensor%1:04:00::"], [17, "program%1:09:00::"], [20, "heavy%3:00:01::"], [21, "weight%1:06:01::"], [23, "not%4:02:00::"], [24, "needed%5:00:00:necessary:00"]]
+    wn30_key: [[2, "purely%4:02:00::"], [3, "definition%1:07:00::"], [4, "purpose%1:07:00::"], [6, "use%2:34:01::"], [8, "conjunction%1:07:00::"], [11, "regular%3:00:00::"], [12, "squatting%1:04:01::"], [14, "leg_curling%1:04:00::"], [16, "leg_extensor%1:04:00::"], [17, "program%1:09:00::"], [20, "heavy%3:00:01::"], [21, "weight%1:06:01::"], [23, "not%4:02:00::"], [24, "needed%3:00:00:necessary:00"]]
+IZYe:
+    lemmas: ["indeed", ",", "a", "light", "weight", "work", "much", "better", "because", "a", "greater", ",", "more", "extensive", "split", "can", "be_performed", "."]
+    oewn2026_key: [[0, "oewn-00038035-r"], [3, "oewn-01189951-a"], [4, "oewn-04578578-n"], [5, "oewn-01528454-v"], [6, "oewn-00059624-r"], [7, "oewn-00067988-s"], [10, "oewn-01398335-a"], [12, "oewn-00099891-r"], [13, "oewn-01389168-s"], [14, "oewn-00438869-n"]]
+    paragraph: '28'
+    pos: ["RB", ",", "DT", "JJR", "NN", "VBZ", "RB", "JJR", "IN", "DT", "JJR", ",", "RBR", "JJ", "NN", "MD", "VB", "."]
+    text: ' Indeed, a lighter weight works much better because a greater, more extensive split
+  can be_performed.'
+    tokens: [[1, 7], [7, 8], [9, 10], [11, 18], [19, 25], [26, 31], [32, 36], [37, 43], [44, 51], [52, 53], [54, 61], [61, 62], [63, 67], [68, 77], [78, 83], [84, 87], [88, 100], [100, 101]]
+    wn16_key: [[0, "indeed%4:02:03::"], [3, "light%3:00:01::"], [4, "weight%1:06:01::"], [5, "work%2:35:02::"], [6, "much%4:02:00::"], [7, "better%5:00:00:advisable:00"], [10, "greater%3:00:00::"], [12, "more%4:02:00::"], [13, "extensive%5:00:00:considerable:00"], [14, "split%1:04:02::"]]
+    wn30_key: [[0, "indeed%4:02:03::"], [3, "light%3:00:01::"], [4, "weight%1:06:01::"], [5, "work%2:35:02::"], [6, "much%4:02:00::"], [7, "better%3:00:00:advisable:00"], [10, "greater%3:00:00::"], [12, "more%4:02:00::"], [13, "extensive%3:00:00:large:00"], [14, "split%1:04:02::"]]
+2chV:
+    lemmas: ["use", "in", "several", "set", "of", "high", "rep", "once", "or", "twice", "each_week", "it", "will", "not", "be", "long", "before", "your", "entire", "upper", "leg", "take_on", "a", "razor-sharp", "definition", "in", "which", "the", "muscle", "look_like", "wire", "cable", "writhe", "and", "twist", "under", "the", "skin", "!"]
+    oewn2026_key: [[0, "oewn-01161188-v"], [2, "oewn-02276025-s"], [3, "oewn-00626939-n"], [5, "oewn-01213526-a"], [7, "oewn-00119765-r"], [9, "oewn-00065694-r"], [10, "oewn-00081941-r"], [13, "oewn-00024432-r"], [14, "oewn-02610777-v"], [18, "oewn-00517305-s"], [19, "oewn-01208990-s"], [20, "oewn-05568420-n"], [21, "oewn-00525762-v"], [23, "oewn-00784620-s"], [24, "oewn-04710305-n"], [28, "oewn-05296796-n"], [29, "oewn-02671694-v"], [30, "oewn-04601816-n"], [31, "oewn-02937552-n"], [32, "oewn-01872363-v"], [34, "oewn-01872363-v"], [37, "oewn-05245612-n"]]
+    paragraph: '28'
+    pos: ["VBN", "IN", "JJ", "NNS", "IN", "JJ", "NNS", "RB", "CC", "RB", "RB", "PRP", "MD", "RB", "VB", "NN", "IN", "PRP$", "JJ", "JJ", "NN", "VB", "DT", "JJ", "NN", "RB", "RB", "DT", "NNS", "VB", "NN", "NNS", "VBG", "CC", "VBG", "IN", "DT", "NN", "."]
+    text: ' Used in several sets of high reps once or twice each_week it will not be long before
+  your entire upper leg takes_on a razor-sharp definition in which the muscles look_like
+  wire cables writhing and twisting under the skin!
+
+  '
+    tokens: [[1, 5], [6, 8], [9, 16], [17, 21], [22, 24], [25, 29], [30, 34], [35, 39], [40, 42], [43, 48], [49, 58], [59, 61], [62, 66], [67, 70], [71, 73], [74, 78], [79, 85], [86, 90], [91, 97], [98, 103], [104, 107], [108, 116], [117, 118], [119, 130], [131, 141], [142, 144], [145, 150], [151, 154], [155, 162], [163, 172], [173, 177], [178, 184], [185, 193], [194, 197], [198, 206], [207, 212], [213, 216], [217, 221], [221, 222]]
+    wn16_key: [[0, "use%2:34:01::"], [2, "several%5:00:00:some(a):00"], [3, "set%1:04:00::"], [5, "high%3:00:02::"], [7, "once%4:02:00::"], [9, "twice%4:02:00::"], [10, "each_week%4:02:00::"], [13, "not%4:02:00::"], [14, "be%2:42:03::"], [15, "long%1:28:00::"], [18, "entire%5:00:01:whole:00"], [19, "upper%5:00:00:high:01"], [20, "leg%1:08:01::"], [21, "take_on%2:30:00::"], [23, "razor-sharp%5:00:00:distinct:00"], [24, "definition%1:07:00::"], [28, "muscle%1:08:00::"], [29, "look_like%2:42:00::"], [30, "wire%1:06:01::"], [31, "cable%1:06:02::"], [32, "writhe%2:38:00::"], [34, "twist%2:38:01::"], [37, "skin%1:08:00::"]]
+    wn30_key: [[0, "use%2:34:01::"], [2, "several%3:00:00:some:00"], [3, "set%1:04:00::"], [5, "high%3:00:02::"], [7, "once%4:02:00::"], [9, "twice%4:02:00::"], [10, "each_week%4:02:00::"], [13, "not%4:02:00::"], [14, "be%2:42:03::"], [18, "entire%3:00:01:whole:00"], [19, "upper%3:00:00:high:01"], [20, "leg%1:08:01::"], [21, "take_on%2:30:00::"], [23, "razor-sharp%3:00:00:distinct:00"], [24, "definition%1:07:00::"], [28, "muscle%1:08:00::"], [29, "look_like%2:42:00::"], [30, "wire%1:06:01::"], [31, "cable%1:06:02::"], [32, "writhe%2:38:00::"], [34, "twist%2:38:01::"], [37, "skin%1:08:00::"]]
+K65j:
+    lemmas: ["really", "there", "be", "no", "reason", "why", "this", "fine", "exercise", "should", "not", "find_it_way", "into", "your", "leg", "program", "at", "all", "time", ",", "for", "the", "following", "suggestion", "show", "why", "it", "be", "so", "effective", ":"]
+    oewn2026_key: [[0, "oewn-00150568-r"], [2, "oewn-02609706-v"], [4, "oewn-09201896-n"], [8, "oewn-00625978-n"], [10, "oewn-00024432-r"], [14, "oewn-05568420-n"], [15, "oewn-05907175-n"], [17, "oewn-02277044-a"], [18, "oewn-07324217-n"], [22, "oewn-00128705-s"], [23, "oewn-07177331-n"], [27, "oewn-02610777-v"], [28, "oewn-00147630-r"], [29, "oewn-00512569-s"]]
+    paragraph: '29'
+    pos: ["RB", "EX", "VBZ", "DT", "NN", "WRB", "DT", "JJ", "NN", "MD", "RB", "NN", "IN", "PRP$", "NN", "NN", "RB", "JJ", "NNS", ",", "IN", "DT", "JJ", "NNS", "VB", "WRB", "PRP", "VBZ", "RB", "JJ", ":"]
+    text: ' Really there is no reason why this fine exercise should not find_its_way into your
+  leg program at all times, for the following suggestions show why it is so effective:
+
+  '
+    tokens: [[1, 7], [8, 13], [14, 16], [17, 19], [20, 26], [27, 30], [31, 35], [36, 40], [41, 49], [50, 56], [57, 60], [61, 73], [74, 78], [79, 83], [84, 87], [88, 95], [96, 98], [99, 102], [103, 108], [108, 109], [110, 113], [114, 117], [118, 127], [128, 139], [140, 144], [145, 148], [149, 151], [152, 154], [155, 157], [158, 167], [167, 168]]
+    wn16_key: [[0, "really%4:02:04::"], [2, "be%2:42:00::"], [4, "reason%1:16:00::"], [7, "fine%5:00:00:superior:02"], [8, "exercise%1:04:00::"], [10, "not%4:02:00::"], [14, "leg%1:08:01::"], [15, "program%1:09:00::"], [17, "all%3:00:00::"], [18, "time%1:11:00::"], [22, "following%5:00:01:succeeding(a):00"], [23, "suggestion%1:10:00::"], [24, "show%2:39:03::"], [27, "be%2:42:03::"], [28, "so%4:02:02::"], [29, "effective%5:00:00:competent:00"]]
+    wn30_key: [[0, "really%4:02:04::"], [2, "be%2:42:00::"], [4, "reason%1:16:00::"], [8, "exercise%1:04:00::"], [10, "not%4:02:00::"], [14, "leg%1:08:01::"], [15, "program%1:09:00::"], [17, "all%3:00:00::"], [18, "time%1:11:00::"], [22, "following%3:00:01:succeeding:00"], [23, "suggestion%1:10:00::"], [27, "be%2:42:03::"], [28, "so%4:02:02::"], [29, "effective%3:00:00:competent:00"]]
+cU4t:
+    lemmas: ["It", "'s", "a", "complete", "thigh", "contraction", "extension", "exercise", "."]
+    oewn2026_key: [[3, "oewn-00522139-a"], [4, "oewn-05569882-n"], [5, "oewn-00370610-n"], [6, "oewn-00370340-n"], [7, "oewn-00625978-n"]]
+    paragraph: '30'
+    pos: ["PRP", "VBZ", "DT", "JJ", "NN", "NN", "NN", "NN", "."]
+    text: ' It''s a complete thigh contraction extension exercise.
+
+  '
+    tokens: [[1, 3], [3, 5], [6, 7], [8, 16], [17, 22], [23, 34], [35, 44], [45, 53], [53, 54]]
+    wn16_key: [[3, "complete%3:00:00::"], [4, "thigh%1:08:00::"], [5, "contraction%1:04:01::"], [6, "extension%1:04:01::"], [7, "exercise%1:04:00::"]]
+    wn30_key: [[3, "complete%3:00:00::"], [4, "thigh%1:08:00::"], [5, "contraction%1:04:01::"], [6, "extension%1:04:01::"], [7, "exercise%1:04:00::"]]
+rk+N:
+    lemmas: ["It", "place", "terrific", "tension", "on", "the", "leg", "muscle", "from_start_to_finish", "of", "each", "repetition", "."]
+    oewn2026_key: [[1, "oewn-01496967-v"], [2, "oewn-01681111-s"], [3, "oewn-14567937-n"], [6, "oewn-05568420-n"], [7, "oewn-05296796-n"], [8, "oewn-00153344-r"], [11, "oewn-01020572-n"]]
+    paragraph: '31'
+    pos: ["PRP", "VBZ", "JJ", "NN", "IN", "DT", "NN", "NNS", "RB", "IN", "DT", "NN", "."]
+    text: ' It places terrific tension on the leg muscles from_start_to_finish of each repetition.
+
+  '
+    tokens: [[1, 3], [4, 10], [11, 19], [20, 27], [28, 30], [31, 34], [35, 38], [39, 46], [47, 67], [68, 70], [71, 75], [76, 86], [86, 87]]
+    wn16_key: [[1, "place%2:35:00::"], [2, "terrific%5:00:00:extraordinary:00"], [3, "tension%1:26:01::"], [6, "leg%1:08:01::"], [7, "muscle%1:08:00::"], [8, "from_start_to_finish%4:02:00::"], [11, "repetition%1:04:00::"]]
+    wn30_key: [[1, "place%2:35:00::"], [2, "terrific%3:00:00:extraordinary:00"], [3, "tension%1:26:01::"], [6, "leg%1:08:01::"], [7, "muscle%1:08:00::"], [8, "from_start_to_finish%4:02:00::"], [11, "repetition%1:04:00::"]]
+Vx2n:
+    lemmas: ["It", "improve", "overall", "balance", "and", "control", "for", "the", "bodybuilder", ",", "and", "help", "to", "make", "squat", "more", "easily", "and", "more", "correctly", "perform", "."]
+    oewn2026_key: [[1, "oewn-00206293-v"], [2, "oewn-01587354-s"], [3, "oewn-14025764-n"], [5, "oewn-00832109-n"], [8, "oewn-09882251-n"], [11, "oewn-02741772-v"], [13, "oewn-00120124-v"], [14, "oewn-00631311-n"], [15, "oewn-00100262-r"], [16, "oewn-00148912-r"], [18, "oewn-00100262-r"], [19, "oewn-00205350-r"], [20, "oewn-02379855-v"]]
+    paragraph: '32'
+    pos: ["PRP", "VBZ", "JJ", "NN", "CC", "NN", "IN", "DT", "NN", ",", "CC", "VBZ", "TO", "VB", "NNS", "RBR", "RB", "CC", "RBR", "RB", "VBN", "."]
+    text: ' It improves over-all balance and control for the bodybuilder, and helps to make
+  Squats more easily and more correctly performed.
+
+  '
+    tokens: [[1, 3], [4, 12], [13, 21], [22, 29], [30, 33], [34, 41], [42, 45], [46, 49], [50, 61], [61, 62], [63, 66], [67, 72], [73, 75], [76, 80], [81, 87], [88, 92], [93, 99], [100, 103], [104, 108], [109, 118], [119, 128], [128, 129]]
+    wn16_key: [[1, "improve%2:30:01::"], [2, "overall%5:00:00:gross:00"], [3, "balance%1:26:00::"], [5, "control%1:04:02::"], [8, "bodybuilder%1:18:00::"], [11, "help%2:42:00::"], [13, "make%2:30:00::"], [14, "squat%1:04:01::"], [15, "more%4:02:01::"], [16, "easily%4:02:01::"], [18, "more%4:02:01::"], [19, "correctly%4:02:01::"], [20, "perform%2:41:02::"]]
+    wn30_key: [[1, "improve%2:30:01::"], [2, "overall%3:00:00:gross:00"], [3, "balance%1:26:00::"], [5, "control%1:04:02::"], [8, "bodybuilder%1:18:00::"], [11, "help%2:42:00::"], [13, "make%2:30:00::"], [14, "squat%1:04:01::"], [15, "more%4:02:01::"], [16, "easily%4:02:01::"], [18, "more%4:02:01::"], [19, "correctly%4:02:01::"], [20, "perform%2:41:02::"]]
+DGYn:
+    lemmas: ["It", "increase", "flexibility", "of", "the", "leg", "."]
+    oewn2026_key: [[1, "oewn-00153083-v"], [2, "oewn-05029623-n"], [5, "oewn-05568420-n"]]
+    paragraph: '33'
+    pos: ["PRP", "VBZ", "NN", "IN", "DT", "NNS", "."]
+    text: ' It increases flexibility of the legs.
+
+  '
+    tokens: [[1, 3], [4, 13], [14, 25], [26, 28], [29, 32], [33, 37], [37, 38]]
+    wn16_key: [[1, "increase%2:30:02::"], [2, "flexibility%1:07:02::"], [5, "leg%1:08:01::"]]
+    wn30_key: [[1, "increase%2:30:02::"], [2, "flexibility%1:07:02::"], [5, "leg%1:08:01::"]]
+1s5z:
+    lemmas: ["It", "speed", "muscle", "growth", "and", "power", "development", "even", "for", "the", "advanced", "bodybuilder", "because", "each", "hip", "and", "leg", "be", "exercise", "separately", ",", "thus", "enable", "a", "massive", ",", "concentrated", "effort", "to", "be", "focus_on", "each", "."]
+    oewn2026_key: [[1, "oewn-00439133-v"], [2, "oewn-05296796-n"], [3, "oewn-13510240-n"], [5, "oewn-05037846-n"], [6, "oewn-13510240-n"], [7, "oewn-00017907-r"], [10, "oewn-00823095-s"], [11, "oewn-09882251-n"], [14, "oewn-05563958-n"], [16, "oewn-05568420-n"], [18, "oewn-00099475-v"], [19, "oewn-00208995-r"], [21, "oewn-00122019-r"], [22, "oewn-00513958-v"], [24, "oewn-01392104-s"], [26, "oewn-01514758-s"], [27, "oewn-00622867-n"], [30, "oewn-02682306-v"]]
+    paragraph: '34'
+    pos: ["PRP", "VBZ", "NN", "NN", "CC", "NN", "NN", "RB", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "CC", "NN", "VBZ", "VBN", "RB", ",", "RB", "VBG", "DT", "JJ", ",", "JJ", "NN", "TO", "VB", "VB", "DT", "."]
+    text: ' It speeds muscle growth and power development even for the advanced bodybuilder
+  because each hip and leg is exercised separately, thus enabling a massive, concentrated
+  effort to be focused_on each.
+
+  '
+    tokens: [[1, 3], [4, 10], [11, 17], [18, 24], [25, 28], [29, 34], [35, 46], [47, 51], [52, 55], [56, 59], [60, 68], [69, 80], [81, 88], [89, 93], [94, 97], [98, 101], [102, 105], [106, 108], [109, 118], [119, 129], [129, 130], [131, 135], [136, 144], [145, 146], [147, 154], [154, 155], [156, 168], [169, 175], [176, 178], [179, 181], [182, 192], [193, 197], [197, 198]]
+    wn16_key: [[1, "speed%2:30:00::"], [2, "muscle%1:08:00::"], [3, "growth%1:22:00::"], [5, "power%1:07:02::"], [6, "development%1:22:01::"], [7, "even%4:02:00::"], [10, "advanced%5:00:00:late:02"], [11, "bodybuilder%1:18:00::"], [14, "hip%1:08:00::"], [16, "leg%1:08:01::"], [18, "exercise%2:29:00::"], [19, "separately%4:02:02::"], [21, "thus%4:02:01::"], [22, "enable%2:30:00::"], [24, "massive%5:00:00:large:00"], [26, "concentrated%5:00:00:intense:00"], [27, "effort%1:04:01::"], [30, "focus_on%2:42:00::"]]
+    wn30_key: [[1, "speed%2:30:00::"], [2, "muscle%1:08:00::"], [3, "growth%1:22:00::"], [5, "power%1:07:02::"], [6, "development%1:22:01::"], [7, "even%4:02:00::"], [10, "advanced%3:00:00:late:02"], [11, "bodybuilder%1:18:00::"], [14, "hip%1:08:00::"], [16, "leg%1:08:01::"], [18, "exercise%2:29:00::"], [19, "separately%4:02:02::"], [21, "thus%4:02:01::"], [22, "enable%2:30:00::"], [24, "massive%3:00:00:large:00"], [26, "concentrated%3:00:00:intense:00"], [27, "effort%1:04:01::"], [30, "focus_on%2:42:00::"]]
+r1lb:
+    lemmas: ["You", "'ll", "need", "your", "Weider_Power_Stands", "for", "this", "fine", "exercise", "and", "here", "'s", "the", "way", "it", "'s", "do", ":"]
+    oewn2026_key: [[2, "oewn-01191258-v"], [8, "oewn-00625978-n"], [13, "oewn-04936080-n"], [16, "oewn-01716563-v"]]
+    paragraph: '35'
+    pos: ["PRP", "MD", "VB", "PRP$", "NNP", "IN", "DT", "JJ", "NN", "CC", "RB", "POS", "DT", "NN", "PRP", "VBZ", "VBN", ":"]
+    text: ' You''ll need your Weider_Power_Stands for this fine exercise and here''s the way
+  it''s done:
+
+  '
+    tokens: [[1, 4], [4, 7], [8, 12], [13, 17], [18, 37], [38, 41], [42, 46], [47, 51], [52, 60], [61, 64], [65, 69], [69, 71], [72, 75], [76, 79], [80, 82], [82, 84], [85, 89], [89, 90]]
+    wn16_key: [[2, "need%2:34:00::"], [7, "fine%5:00:00:superior:02"], [8, "exercise%1:04:00::"], [13, "way%1:07:01::"], [16, "do%2:36:01::"]]
+    wn30_key: [[2, "need%2:34:00::"], [8, "exercise%1:04:00::"], [13, "way%1:07:01::"], [16, "do%2:36:01::"]]
+Ohlm:
+    lemmas: ["place", "your", "power_stand", "in", "position", "and", "adjust", "their", "height", "so_that", "this", "will", "correspond", "to", "the", "height", "of", "your", "shoulder", "when", "you", "be", "in", "a", "deep", "leg", "split", "as", "for", "a", "heavy", "clean", "."]
+    oewn2026_key: [[0, "oewn-01496967-v"], [4, "oewn-08639173-n"], [6, "oewn-00296959-v"], [8, "oewn-05144430-n"], [12, "oewn-02663315-v"], [15, "oewn-05144430-n"], [18, "oewn-05556473-n"], [21, "oewn-02661230-v"], [24, "oewn-00693335-a"], [25, "oewn-05568420-n"], [26, "oewn-00438869-n"], [30, "oewn-01188475-a"], [31, "oewn-00628078-n"]]
+    paragraph: '36'
+    pos: ["VB", "PRP$", "NNP", "IN", "NN", "CC", "VB", "PRP$", "NN", "RB", "DT", "MD", "VB", "VB", "DT", "NN", "IN", "PRP$", "NNS", "WRB", "PRP", "VBP", "IN", "DT", "JJ", "NN", "NN", "IN", "IN", "DT", "JJ", "NNP", "."]
+    text: ' Place your Power_Stands in position and adjust their height so_that this will correspond
+  to the height of your shoulders when you are in a deep leg split as for a heavy
+  Clean.
+
+  '
+    tokens: [[1, 6], [7, 11], [12, 24], [25, 27], [28, 36], [37, 40], [41, 47], [48, 53], [54, 60], [61, 68], [69, 73], [74, 78], [79, 89], [90, 92], [93, 96], [97, 103], [104, 106], [107, 111], [112, 121], [122, 126], [127, 130], [131, 134], [135, 137], [138, 139], [140, 144], [145, 148], [149, 154], [155, 157], [158, 161], [162, 163], [164, 169], [170, 175], [175, 176]]
+    wn16_key: [[0, "place%2:35:00::"], [4, "position%1:15:00::"], [6, "adjust%2:30:00::"], [8, "height%1:07:00::"], [12, "correspond%2:42:00::"], [15, "height%1:07:00::"], [18, "shoulder%1:08:00::"], [21, "be%2:42:05::"], [24, "deep%3:00:01::"], [25, "leg%1:08:01::"], [26, "split%1:04:02::"], [30, "heavy%3:00:01::"], [31, "clean%1:04:00::"]]
+    wn30_key: [[0, "place%2:35:00::"], [4, "position%1:15:00::"], [6, "adjust%2:30:00::"], [8, "height%1:07:00::"], [12, "correspond%2:42:00::"], [15, "height%1:07:00::"], [18, "shoulder%1:08:00::"], [21, "be%2:42:05::"], [24, "deep%3:00:01::"], [25, "leg%1:08:01::"], [26, "split%1:04:02::"], [30, "heavy%3:00:01::"], [31, "clean%1:04:00::"]]
+dIVF:
+    lemmas: ["place", "a", "suitably", "loaded", "barbell", "across", "them", ";", "grasp", "the", "bar", "(", "which", "will", "rest", "against", "the", "back", "of", "your", "neck", ")", ";", "extend", "your", "foot", "forward", "and", "backward", "until", "you", "be", "in", "a", "deep", "leg", "split", "."]
+    oewn2026_key: [[0, "oewn-01496967-v"], [2, "oewn-00140318-r"], [3, "oewn-01089350-s"], [4, "oewn-02794019-n"], [8, "oewn-01218568-v"], [10, "oewn-02791712-n"], [14, "oewn-04088156-n"], [17, "oewn-00132764-s"], [20, "oewn-05554173-n"], [23, "oewn-00027261-v"], [25, "oewn-05570899-n"], [26, "oewn-00074907-r"], [28, "oewn-00076232-r"], [31, "oewn-02661230-v"], [34, "oewn-00693335-a"], [35, "oewn-05568420-n"], [36, "oewn-00438869-n"]]
+    paragraph: '37'
+    pos: ["VB", "DT", "RB", "JJ", "NN", "IN", "PRP", ":", "VB", "DT", "NN", "NN", "WDT", "VB", "NN", "IN", "DT", "JJ", "IN", "PRP$", "NN", "NN", ":", "VB", "PRP$", "NNS", "RB", "CC", "RB", "IN", "PRP", "VBP", "IN", "DT", "JJ", "NN", "NN", "."]
+    text: ' Place a suitably loaded barbell across them; grasp the bar (which will rest against
+  the back of your neck); extend your feet forward and backward until you are in a
+  deep leg split.
+
+  '
+    tokens: [[1, 6], [7, 8], [9, 17], [18, 24], [25, 32], [33, 39], [40, 44], [44, 45], [46, 51], [52, 55], [56, 59], [60, 61], [61, 66], [67, 71], [72, 76], [77, 84], [85, 88], [89, 93], [94, 96], [97, 101], [102, 106], [106, 107], [107, 108], [109, 115], [116, 120], [121, 125], [126, 133], [134, 137], [138, 146], [147, 152], [153, 156], [157, 160], [161, 163], [164, 165], [166, 170], [171, 174], [175, 180], [180, 181]]
+    wn16_key: [[0, "place%2:35:00::"], [2, "suitably%4:02:00::"], [3, "loaded%5:00:00:full:00"], [4, "barbell%1:06:00::"], [8, "grasp%2:35:00::"], [10, "bar%1:06:00::"], [14, "rest%1:06:00::"], [17, "back%5:00:00:posterior:00"], [20, "neck%1:08:00::"], [23, "extend%2:29:00::"], [25, "foot%1:08:01::"], [26, "forward%4:02:00::"], [28, "backward%4:02:01::"], [31, "be%2:42:05::"], [34, "deep%3:00:01::"], [35, "leg%1:08:01::"], [36, "split%1:04:02::"]]
+    wn30_key: [[0, "place%2:35:00::"], [2, "suitably%4:02:00::"], [3, "loaded%3:00:00:full:00"], [4, "barbell%1:06:00::"], [8, "grasp%2:35:00::"], [10, "bar%1:06:00::"], [14, "rest%1:06:00::"], [17, "back%3:00:00:posterior:00"], [20, "neck%1:08:00::"], [23, "extend%2:29:00::"], [25, "foot%1:08:01::"], [26, "forward%4:02:00::"], [28, "backward%4:02:01::"], [31, "be%2:42:05::"], [34, "deep%3:00:01::"], [35, "leg%1:08:01::"], [36, "split%1:04:02::"]]
+tm4c:
+    lemmas: ["now", "raise", "the", "weight", "by", "straighten", "your", "front", "leg", ",", "without", "move", "your", "foot", "."]
+    oewn2026_key: [[0, "oewn-00049640-r"], [1, "oewn-01978076-v"], [3, "oewn-04578578-n"], [5, "oewn-02039626-v"], [7, "oewn-00199739-a"], [8, "oewn-05568420-n"], [11, "oewn-01854282-v"], [13, "oewn-05570899-n"]]
+    paragraph: '38'
+    pos: ["RB", "VB", "DT", "NN", "IN", "VBG", "PRP$", "JJ", "NN", ",", "IN", "VBG", "PRP$", "NNS", "."]
+    text: ' Now raise the weight by straightening your front leg, without moving your feet.'
+    tokens: [[1, 4], [5, 10], [11, 14], [15, 21], [22, 24], [25, 38], [39, 43], [44, 49], [50, 53], [53, 54], [55, 62], [63, 69], [70, 74], [75, 79], [79, 80]]
+    wn16_key: [[0, "now%4:02:02::"], [1, "raise%2:38:00::"], [3, "weight%1:06:01::"], [5, "straighten%2:38:00::"], [7, "front%3:00:00::"], [8, "leg%1:08:01::"], [11, "move%2:38:01::"], [13, "foot%1:08:01::"]]
+    wn30_key: [[0, "now%4:02:02::"], [1, "raise%2:38:00::"], [3, "weight%1:06:01::"], [5, "straighten%2:38:00::"], [7, "front%3:00:00::"], [8, "leg%1:08:01::"], [11, "move%2:38:01::"], [13, "foot%1:08:01::"]]
+Pneg:
+    lemmas: ["When", "the", "front", "knee", "be", "straight", "and", "lock", ",", "allow", "it", "to", "bend", "again", "until", "you", "feel", "the", "bar", "come", "lightly", "into", "contact", "with", "the", "side", "of", "the", "power_stand", "."]
+    oewn2026_key: [[2, "oewn-00199739-a"], [3, "oewn-05581233-n"], [4, "oewn-02610777-v"], [5, "oewn-02318575-a"], [7, "oewn-00220201-v"], [9, "oewn-02427979-v"], [12, "oewn-02039764-v"], [13, "oewn-00040777-r"], [16, "oewn-02110460-v"], [18, "oewn-02791712-n"], [19, "oewn-00543200-v"], [20, "oewn-00392845-r"], [22, "oewn-00125700-n"], [25, "oewn-08527687-n"]]
+    paragraph: '38'
+    pos: ["WRB", "DT", "JJ", "NN", "VBZ", "JJ", "CC", "VBN", ",", "VB", "PRP", "TO", "VB", "RB", "IN", "PRP", "VBP", "DT", "NN", "VBN", "RB", "IN", "NN", "IN", "DT", "NNS", "IN", "DT", "NNP", "."]
+    text: ' When the front knee is straight and locked, allow it to bend again until you feel
+  the bar come lightly into contact with the sides of the Power_Stands.
+
+  '
+    tokens: [[1, 5], [6, 9], [10, 15], [16, 20], [21, 23], [24, 32], [33, 36], [37, 43], [43, 44], [45, 50], [51, 53], [54, 56], [57, 61], [62, 67], [68, 73], [74, 77], [78, 82], [83, 86], [87, 90], [91, 95], [96, 103], [104, 108], [109, 116], [117, 121], [122, 125], [126, 131], [132, 134], [135, 138], [139, 151], [151, 152]]
+    wn16_key: [[2, "front%3:00:00::"], [3, "knee%1:08:00::"], [4, "be%2:42:03::"], [5, "straight%3:00:01::"], [7, "lock%2:30:00::"], [9, "allow%2:41:00::"], [12, "bend%2:38:00::"], [13, "again%4:02:00::"], [16, "feel%2:39:00::"], [18, "bar%1:06:00::"], [19, "come%2:42:01::"], [20, "lightly%4:02:02::"], [22, "contact%1:04:00::"], [25, "side%1:15:00::"]]
+    wn30_key: [[2, "front%3:00:00::"], [3, "knee%1:08:00::"], [4, "be%2:42:03::"], [5, "straight%3:00:01::"], [7, "lock%2:30:00::"], [9, "allow%2:41:00::"], [12, "bend%2:38:00::"], [13, "again%4:02:00::"], [16, "feel%2:39:00::"], [18, "bar%1:06:00::"], [19, "come%2:30:03::"], [20, "lightly%4:02:02::"], [22, "contact%1:04:00::"], [25, "side%1:15:00::"]]
+ixiQ:
+    lemmas: ["after", "you", "have", "take_a_breather", ",", "reverse", "the", "position", "of", "your", "leg", "so_that", "the", "front", "thigh", "of", "the", "previous", "exercise", "be", "now", "to", "the", "rear", ",", "and", "the", "rear", "thigh", "now", "to", "the", "front", ",", "and", "perform", "the", "same", "movement", "in", "the", "same", "manner", "."]
+    oewn2026_key: [[3, "oewn-00781405-v"], [5, "oewn-00387386-v"], [7, "oewn-05087073-n"], [10, "oewn-05568420-n"], [13, "oewn-00199739-a"], [14, "oewn-05569882-n"], [17, "oewn-00128009-s"], [18, "oewn-00625978-n"], [19, "oewn-02661230-v"], [20, "oewn-00049013-r"], [23, "oewn-08647083-n"], [27, "oewn-00199483-s"], [28, "oewn-05569882-n"], [29, "oewn-00049013-r"], [32, "oewn-00199739-a"], [35, "oewn-01716563-v"], [37, "oewn-02075880-a"], [38, "oewn-00332776-n"], [41, "oewn-02075880-a"], [42, "oewn-04936080-n"]]
+    paragraph: '39'
+    pos: ["JJ", "PRP", "VBP", "VB", ",", "VBP", "DT", "NN", "IN", "PRP$", "NNS", "RB", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "VBZ", "RB", "RB", "RB", "NN", ",", "CC", "DT", "JJ", "NN", "RB", "TO", "DT", "JJ", ",", "CC", "VB", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "."]
+    text: ' After you have taken_a_breather, reverse the position of your legs so_that the front
+  thigh of the previous exercise is now to the rear, and the rear thigh now to the
+  front, and perform the same movement in the same manner.
+
+  '
+    tokens: [[1, 6], [7, 10], [11, 15], [16, 32], [32, 33], [34, 41], [42, 45], [46, 54], [55, 57], [58, 62], [63, 67], [68, 75], [76, 79], [80, 85], [86, 91], [92, 94], [95, 98], [99, 107], [108, 116], [117, 119], [120, 123], [124, 126], [127, 130], [131, 135], [135, 136], [137, 140], [141, 144], [145, 149], [150, 155], [156, 159], [160, 162], [163, 166], [167, 172], [172, 173], [174, 177], [178, 185], [186, 189], [190, 194], [195, 203], [204, 206], [207, 210], [211, 215], [216, 222], [222, 223]]
+    wn16_key: [[3, "take_a_breather%2:32:00::"], [5, "reverse%2:30:01::"], [7, "position%1:07:01::"], [10, "leg%1:08:01::"], [13, "front%3:00:00::"], [14, "thigh%1:08:00::"], [17, "previous%5:00:00:preceding(a):00"], [18, "exercise%1:04:00::"], [19, "be%2:42:05::"], [20, "now%4:02:00::"], [23, "rear%1:15:00::"], [27, "rear%5:00:00:back(a):00"], [28, "thigh%1:08:00::"], [29, "now%4:02:00::"], [32, "front%3:00:00::"], [35, "perform%2:36:00::"], [37, "same%3:00:02::"], [38, "movement%1:04:00::"], [41, "same%3:00:02::"], [42, "manner%1:07:02::"]]
+    wn30_key: [[3, "take_a_breather%2:32:00::"], [5, "reverse%2:30:01::"], [7, "position%1:07:01::"], [10, "leg%1:08:01::"], [13, "front%3:00:00::"], [14, "thigh%1:08:00::"], [17, "previous%3:00:00:preceding:00"], [18, "exercise%1:04:00::"], [19, "be%2:42:05::"], [20, "now%4:02:00::"], [23, "rear%1:15:00::"], [27, "rear%3:00:00:back:00"], [28, "thigh%1:08:00::"], [29, "now%4:02:00::"], [32, "front%3:00:00::"], [35, "perform%2:36:00::"], [37, "same%3:00:02::"], [38, "movement%1:04:00::"], [41, "same%3:00:02::"], [42, "manner%1:07:02::"]]
+NJkV:
+    lemmas: ["That", "'s", "the", "One-Leg_Lunge", "in_a_nutshell", "."]
+    oewn2026_key: []
+    paragraph: '40'
+    pos: ["DT", "VBZ", "DT", "NNP", "NN", "."]
+    text: ' That''s the One-Leg_Lunge in_a_nutshell.'
+    tokens: [[1, 5], [5, 7], [8, 11], [12, 25], [26, 39], [39, 40]]
+    wn16_key: []
+    wn30_key: []
+Jrnd:
+    lemmas: ["You", "should", "have", "a_couple_of", "training", "partner", "to", "stand_by", "when", "you", "make", "your", "first", "experiment", ",", "just", "for", "safety", "."]
+    oewn2026_key: [[2, "oewn-02383544-v"], [3, "oewn-01557697-s"], [4, "oewn-00895653-n"], [5, "oewn-09954892-n"], [7, "oewn-02644528-v"], [10, "oewn-02566500-v"], [12, "oewn-01014459-a"], [13, "oewn-00787613-n"], [15, "oewn-00005103-r"], [17, "oewn-14562074-n"]]
+    paragraph: '40'
+    pos: ["PRP", "MD", "VB", "JJ", "NN", "NNS", "TO", "VB", "WRB", "PRP", "VBP", "PRP$", "JJ", "NNS", ",", "RB", "IN", "NN", "."]
+    text: ' You should have a_couple_of training partners to stand_by when you make your first
+  experiments, just for safety.'
+    tokens: [[1, 4], [5, 11], [12, 16], [17, 28], [29, 37], [38, 46], [47, 49], [50, 58], [59, 63], [64, 67], [68, 72], [73, 77], [78, 83], [84, 95], [95, 96], [97, 101], [102, 105], [106, 112], [112, 113]]
+    wn16_key: [[2, "have%2:41:00::"], [3, "a_couple_of%5:00:00:few:00"], [4, "training%1:04:00::"], [5, "partner%1:18:00::"], [7, "stand_by%2:42:02::"], [10, "make%2:41:00::"], [12, "first%3:00:00::"], [13, "experiment%1:04:01::"], [15, "just%4:02:00::"], [17, "safety%1:26:00::"]]
+    wn30_key: [[2, "have%2:41:00::"], [3, "a_couple_of%3:00:00:few:00"], [4, "training%1:04:00::"], [5, "partner%1:18:00::"], [7, "stand_by%2:42:02::"], [10, "make%2:41:00::"], [12, "first%3:00:00::"], [13, "experiment%1:04:01::"], [15, "just%4:02:00::"], [17, "safety%1:26:00::"]]
+EWfC:
+    lemmas: ["You", "should", "also", "begin", "this", "exercise", "with", "a", "very", "light", "barbell", "until", "you", "become", "accustomed", "to", "it", "balance_wise", "."]
+    oewn2026_key: [[2, "oewn-00048072-r"], [3, "oewn-00349400-v"], [5, "oewn-00625978-n"], [8, "oewn-00032295-r"], [9, "oewn-01189951-a"], [10, "oewn-02794019-n"], [14, "oewn-00024458-a"]]
+    paragraph: '40'
+    pos: ["PRP", "MD", "RB", "VB", "DT", "NN", "IN", "DT", "RB", "JJ", "NN", "IN", "PRP", "VBP", "JJ", "JJ", "PRP", "NN", "."]
+    text: ' You should also begin this exercise with a very light barbell until you become accustomed
+  to it balance_wise.
+
+  '
+    tokens: [[1, 4], [5, 11], [12, 16], [17, 22], [23, 27], [28, 36], [37, 41], [42, 43], [44, 48], [49, 54], [55, 62], [63, 68], [69, 72], [73, 79], [80, 90], [91, 93], [94, 96], [97, 109], [109, 110]]
+    wn16_key: [[2, "also%4:02:00::"], [3, "begin%2:30:01::"], [5, "exercise%1:04:00::"], [8, "very%4:02:00::"], [9, "light%3:00:01::"], [10, "barbell%1:06:00::"], [14, "accustomed%3:00:00::"]]
+    wn30_key: [[2, "also%4:02:00::"], [3, "begin%2:30:01::"], [5, "exercise%1:04:00::"], [8, "very%4:02:00::"], [9, "light%3:00:01::"], [10, "barbell%1:06:00::"], [14, "accustomed_to%3:00:00::"]]
+dVS8:
+    lemmas: ["Oh", ",", "you", "'ll", "wobble", "and", "weave", "quite", "a_bit", "at_first", "."]
+    oewn2026_key: [[4, "oewn-01872996-v"], [6, "oewn-01872244-v"], [7, "oewn-00019243-r"], [8, "oewn-00034050-r"]]
+    paragraph: '41'
+    pos: ["UH", ",", "PRP", "MD", "VB", "CC", "VB", "RB", "RB", "RB", "."]
+    text: ' Oh, you''ll wobble and weave quite a_bit at_first.'
+    tokens: [[1, 3], [3, 4], [5, 8], [8, 11], [12, 18], [19, 22], [23, 28], [29, 34], [35, 40], [41, 49], [49, 50]]
+    wn16_key: [[4, "wobble%2:38:00::"], [6, "weave%2:38:01::"], [7, "quite%4:02:02::"], [8, "a_bit%4:02:00::"], [9, "at_first%4:02:00::"]]
+    wn30_key: [[4, "wobble%2:38:00::"], [6, "weave%2:38:01::"], [7, "quite%4:02:02::"], [8, "a_bit%4:02:00::"]]
++aKs:
+    lemmas: ["But", "do", "n't", "worry", "."]
+    oewn2026_key: [[3, "oewn-01771015-v"]]
+    paragraph: '41'
+    pos: ["CC", "VBP", "RB", "VB", "."]
+    text: ' But don''t worry.'
+    tokens: [[1, 4], [5, 7], [7, 10], [11, 16], [16, 17]]
+    wn16_key: [[2, "n't%4:02:00::"], [3, "worry%2:37:00::"]]
+    wn30_key: [[3, "worry%2:37:00::"]]
+eTWn:
+    lemmas: ["Before", "your", "first", "training", "experiment", "have", "end", "there", "will", "be", "a", "big", "improvement", "and", "almost", "before", "you", "know", "it", "you", "'ll", "be", "raise", "and", "lower", "yourself", "just", "like", "a", "veteran", "!"]
+    oewn2026_key: [[2, "oewn-01014459-a"], [3, "oewn-00895653-n"], [4, "oewn-00787613-n"], [6, "oewn-02615799-v"], [9, "oewn-02610777-v"], [11, "oewn-01385012-a"], [12, "oewn-14445583-n"], [14, "oewn-00073433-r"], [17, "oewn-00596016-v"], [22, "oewn-01978076-v"], [24, "oewn-01977139-v"], [26, "oewn-00159432-r"], [29, "oewn-10768791-n"]]
+    paragraph: '41'
+    pos: ["IN", "PRP$", "JJ", "NN", "NN", "VBZ", "VBN", "EX", "VB", "VB", "DT", "JJ", "NN", "CC", "RB", "IN", "PRP", "VBP", "PRP", "PRP", "MD", "VB", "VBG", "CC", "VBG", "PRP", "RB", "IN", "DT", "NN", "."]
+    text: ' Before your first training experiment has ended there will be a big improvement
+  and almost before you know it you''ll be raising and lowering yourself just like
+  a veteran!
+
+  '
+    tokens: [[1, 7], [8, 12], [13, 18], [19, 27], [28, 38], [39, 42], [43, 48], [49, 54], [55, 59], [60, 62], [63, 64], [65, 68], [69, 80], [81, 84], [85, 91], [92, 98], [99, 102], [103, 107], [108, 110], [111, 114], [114, 117], [118, 120], [121, 128], [129, 132], [133, 141], [142, 150], [151, 155], [156, 160], [161, 162], [163, 170], [170, 171]]
+    wn16_key: [[2, "first%3:00:00::"], [3, "training%1:04:00::"], [4, "experiment%1:04:01::"], [6, "end%2:42:00::"], [9, "be%2:42:04::"], [11, "big%3:00:01::"], [12, "improvement%1:26:00::"], [14, "almost%4:02:00::"], [17, "know%2:31:01::"], [22, "raise%2:38:00::"], [24, "lower%2:38:00::"], [26, "just%4:02:05::"], [29, "veteran%1:18:00::"]]
+    wn30_key: [[2, "first%3:00:00::"], [3, "training%1:04:00::"], [4, "experiment%1:04:01::"], [6, "end%2:42:00::"], [9, "be%2:42:04::"], [11, "big%3:00:01::"], [12, "improvement%1:26:00::"], [14, "almost%4:02:00::"], [17, "know%2:31:01::"], [22, "raise%2:38:00::"], [24, "lower%2:38:00::"], [26, "just%4:02:05::"], [29, "veteran%1:18:00::"]]
+IaJ7:
+    lemmas: ["Although", "I", "suggest", "that", "you", "hold", "the", "bar", "at", "the", "back", "of", "the", "neck", "there", "'s", "no", "reason", "why", "you", "should", "n't", "make", "some", "experiment", "with", "the", "bar", "hold", "in_front_of", "the", "neck", "."]
+    oewn2026_key: [[2, "oewn-00876925-v"], [5, "oewn-01219234-v"], [7, "oewn-02791712-n"], [10, "oewn-00199168-a"], [13, "oewn-05554173-n"], [17, "oewn-09201896-n"], [22, "oewn-02566500-v"], [24, "oewn-00787613-n"], [27, "oewn-02791712-n"], [28, "oewn-01219234-v"], [31, "oewn-05554173-n"]]
+    paragraph: '42'
+    pos: ["IN", "PRP", "VBD", "IN", "PRP", "VBP", "DT", "NN", "IN", "DT", "JJ", "IN", "DT", "NN", "EX", "VBZ", "DT", "NN", "WRB", "PRP", "VB", "RB", "VB", "DT", "NNS", "NN", "DT", "NN", "VBD", "IN", "DT", "NN", "."]
+    text: ' Although I suggested that you hold the bar at the back of the neck there''s no reason
+  why you shouldn''t make some experiments with the bar held in_front_of the neck.'
+    tokens: [[1, 9], [10, 11], [12, 21], [22, 26], [27, 30], [31, 35], [36, 39], [40, 43], [44, 46], [47, 50], [51, 55], [56, 58], [59, 62], [63, 67], [68, 73], [73, 75], [76, 78], [79, 85], [86, 89], [90, 93], [94, 100], [100, 103], [104, 108], [109, 113], [114, 125], [126, 130], [131, 134], [135, 138], [139, 143], [144, 155], [156, 159], [160, 164], [164, 165]]
+    wn16_key: [[2, "suggest%2:32:00::"], [5, "hold%2:35:00::"], [7, "bar%1:06:00::"], [10, "back%3:00:00::"], [13, "neck%1:08:00::"], [17, "reason%1:16:00::"], [21, "n't%4:02:00::"], [22, "make%2:41:00::"], [24, "experiment%1:04:01::"], [27, "bar%1:06:00::"], [28, "hold%2:35:00::"], [31, "neck%1:08:00::"]]
+    wn30_key: [[2, "suggest%2:32:00::"], [5, "hold%2:35:00::"], [7, "bar%1:06:00::"], [10, "back%3:00:00::"], [13, "neck%1:08:00::"], [17, "reason%1:16:00::"], [22, "make%2:41:00::"], [24, "experiment%1:04:01::"], [27, "bar%1:06:00::"], [28, "hold%2:35:00::"], [31, "neck%1:08:00::"]]
+ZOBb:
+    lemmas: ["squat_style", "lifter", "and", "leg", "split", "lifter", "would", "both", "benefit", "enormously", "by", "practice", "those", "variation", "provide", "that", "they", "remember", "to", "make", "alternate", "set", "with", "the", "left", "and", "right", "leg", "to", "the", "front", "."]
+    oewn2026_key: [[1, "oewn-10793062-n"], [3, "oewn-05568420-n"], [4, "oewn-00438869-n"], [5, "oewn-10793062-n"], [8, "oewn-02295422-v"], [9, "oewn-00197952-r"], [11, "oewn-00607488-v"], [13, "oewn-00195818-n"], [17, "oewn-00611237-v"], [19, "oewn-02566500-v"], [20, "oewn-00679361-s"], [21, "oewn-00626939-n"], [24, "oewn-02040360-a"], [26, "oewn-02039393-a"], [27, "oewn-05568420-n"], [30, "oewn-00199739-a"]]
+    paragraph: '42'
+    pos: ["NN", "NNS", "CC", "NN", "NN", "NNS", "MD", "DT", "VB", "RB", "IN", "VBG", "DT", "NNS", "VBG", "IN", "PRP", "VBP", "TO", "VB", "JJ", "NNS", "IN", "DT", "JJ", "CC", "JJ", "NN", "TO", "DT", "JJ", "."]
+    text: ' Squat_style lifters and leg split lifters would both benefit enormously by practicing
+  those variations providing that they remember to make alternate sets with the left
+  and right leg to the front.
+
+  '
+    tokens: [[1, 12], [13, 20], [21, 24], [25, 28], [29, 34], [35, 42], [43, 48], [49, 53], [54, 61], [62, 72], [73, 75], [76, 86], [87, 92], [93, 103], [104, 113], [114, 118], [119, 123], [124, 132], [133, 135], [136, 140], [141, 150], [151, 155], [156, 160], [161, 164], [165, 169], [170, 173], [174, 179], [180, 183], [184, 186], [187, 190], [191, 196], [196, 197]]
+    wn16_key: [[1, "lifter%1:18:00::"], [3, "leg%1:08:01::"], [4, "split%1:04:02::"], [5, "lifter%1:18:00::"], [8, "benefit%2:40:00::"], [9, "enormously%4:02:00::"], [11, "practice%2:31:00::"], [13, "variation%1:04:00::"], [17, "remember%2:31:01::"], [19, "make%2:41:00::"], [20, "alternate%5:00:02:cyclic:01"], [21, "set%1:04:00::"], [24, "left%3:00:00::"], [26, "right%3:00:00::"], [27, "leg%1:08:01::"], [30, "front%3:00:00::"]]
+    wn30_key: [[1, "lifter%1:18:00::"], [3, "leg%1:08:01::"], [4, "split%1:04:02::"], [5, "lifter%1:18:00::"], [8, "benefit%2:40:00::"], [9, "enormously%4:02:00::"], [11, "practice%2:31:00::"], [13, "variation%1:04:00::"], [17, "remember%2:31:01::"], [19, "make%2:41:00::"], [20, "alternate%3:00:02:cyclic:01"], [21, "set%1:04:00::"], [24, "left%3:00:00::"], [26, "right%3:00:00::"], [27, "leg%1:08:01::"], [30, "front%3:00:00::"]]

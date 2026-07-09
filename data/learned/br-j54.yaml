@@ -1,0 +1,822 @@
+_meta:
+    lemmas:
+        type: seq
+        base: tokens
+        data: string
+    oewn2026_key:
+        type: element
+        base: tokens
+        data: string
+    paragraph:
+        type: characters
+    pos:
+        type: seq
+        base: tokens
+        data: string
+    text:
+        type: characters
+    tokens:
+        type: span
+        base: text
+    wn16_key:
+        type: element
+        base: tokens
+        data: string
+    wn30_key:
+        type: element
+        base: tokens
+        data: string
+mtLN:
+    lemmas: ["Whenever", "artist", ",", "indeed", ",", "turn_to", "actual", "representation", "or", "mold", "three-dimensional_figure", ",", "which", "be", "rare", "down", "to", "800", "bc", ",", "they", "tend", "to", "reflect", "reality", "(", "see", "plate", "6a", ",", "9b", ")", ";", "a", "schematic", ",", "abstract", "treatment", "of", "man", "and", "animal", ",", "by", "intent", ",", "rise", "only", "in", "the", "late", "eighth", "century", "."]
+    oewn2026_key: [[1, "oewn-09831743-n"], [6, "oewn-01939967-s"], [7, "oewn-04083958-n"], [9, "oewn-01700922-v"], [10, "oewn-13886094-n"], [13, "oewn-02610777-v"], [14, "oewn-00490548-s"], [21, "oewn-02725274-v"], [23, "oewn-02141357-v"], [24, "oewn-05817904-n"], [27, "oewn-03966958-n"], [34, "oewn-01987861-s"], [36, "oewn-00011776-a"], [37, "oewn-04937153-n"], [39, "oewn-02474924-n"], [41, "oewn-00015568-n"], [44, "oewn-06618250-n"], [46, "oewn-02630344-v"], [47, "oewn-00009062-r"], [50, "oewn-00820050-a"], [51, "oewn-02210792-s"], [52, "oewn-15230328-n"]]
+    paragraph: '0'
+    pos: ["WRB", "NNS", ",", "RB", ",", "VB", "JJ", "NNS", "CC", "VB", "NNS", ",", "WDT", "VBD", "JJ", "RB", "TO", "CD", "NN", ",", "PRP", "VBD", "JJ", "VB", "NN", "NNS", "RB", "NNP", "DT", ",", "NN", "NNP", ":", "DT", "JJ", ",", "JJ", "NN", "IN", "NNS", "CC", "NNS", ",", "IN", "NN", ",", "VBD", "RB", "IN", "DT", "JJ", "JJ", "NN", "."]
+    text: 'Whenever artists, indeed, turned_to actual representations or molded three-dimensional_figures,
+  which were rare down to 800 B.C., they tended to reflect reality (see Plate 6a,
+  9b); a schematic, abstract treatment of men and animals, by intent, rose only in
+  the late eighth century.
+
+  '
+    tokens: [[0, 8], [9, 16], [16, 17], [18, 24], [24, 25], [26, 35], [36, 42], [43, 58], [59, 61], [62, 68], [69, 94], [94, 95], [96, 101], [102, 106], [107, 111], [112, 116], [117, 119], [120, 123], [124, 128], [128, 129], [130, 134], [135, 141], [142, 144], [145, 152], [153, 160], [161, 162], [162, 165], [166, 171], [172, 174], [174, 175], [176, 178], [178, 179], [179, 180], [181, 182], [183, 192], [192, 193], [194, 202], [203, 212], [213, 215], [216, 219], [220, 223], [224, 231], [231, 232], [233, 235], [236, 242], [242, 243], [244, 248], [249, 253], [254, 256], [257, 260], [261, 265], [266, 272], [273, 280], [280, 281]]
+    wn16_key: [[1, "artist%1:18:00::"], [5, "turn_to%2:31:00::"], [6, "actual%5:00:00:real:00"], [7, "representation%1:06:00::"], [9, "mold%2:36:02::"], [10, "three-dimensional_figure%1:25:00::"], [13, "be%2:42:03::"], [14, "rare%5:00:00:uncommon:00"], [18, "bc%1:28:00::"], [21, "tend%2:42:01::"], [23, "reflect%2:39:01::"], [24, "reality%1:09:00::"], [26, "see%4:02:00::"], [27, "plate%1:06:06::"], [34, "schematic%5:00:00:nonrepresentational:00"], [36, "abstract%3:00:00::"], [37, "treatment%1:07:00::"], [39, "man%1:05:01::"], [41, "animal%1:03:00::"], [44, "intent%1:10:00::"], [46, "rise%2:42:01::"], [47, "only%4:02:01::"], [50, "late%3:00:00::"], [51, "eighth%5:00:00:ordinal:00"], [52, "century%1:28:00::"]]
+    wn30_key: [[1, "artist%1:18:00::"], [6, "actual%3:00:00:real:00"], [7, "representation%1:06:00::"], [9, "mold%2:36:02::"], [10, "three-dimensional_figure%1:25:00::"], [13, "be%2:42:03::"], [14, "rare%3:00:00:uncommon:00"], [21, "tend%2:42:01::"], [23, "reflect%2:39:01::"], [24, "reality%1:09:00::"], [27, "plate%1:06:06::"], [34, "schematic%3:00:00:nonrepresentational:00"], [36, "abstract%3:00:00::"], [37, "treatment%1:07:00::"], [39, "man%1:05:01::"], [41, "animal%1:03:00::"], [44, "intent%1:10:00::"], [46, "rise%2:42:01::"], [47, "only%4:02:01::"], [50, "late%3:00:00::"], [51, "eighth%3:00:00:ordinal:00"], [52, "century%1:28:00::"]]
+GkI1:
+    lemmas: ["To", "speak", "of", "this", "underlying", "view", "of", "the", "world", "be", "to", "embark", "upon", "matter", "of", "subjective", "judgment", "."]
+    oewn2026_key: [[1, "oewn-00964479-v"], [4, "oewn-00945209-s"], [5, "oewn-06218486-n"], [8, "oewn-09489410-n"], [9, "oewn-02622439-v"], [11, "oewn-00348906-v"], [13, "oewn-05822417-n"], [15, "oewn-01620077-a"], [16, "oewn-05797437-n"]]
+    paragraph: '1'
+    pos: ["TO", "VB", "RB", "RB", "JJ", "NN", "IN", "DT", "NN", "VBZ", "TO", "VB", "VB", "NNS", "IN", "JJ", "NN", "."]
+    text: ' To speak of this underlying view of the world is to embark upon matters of subjective
+  judgment.'
+    tokens: [[1, 3], [4, 9], [10, 12], [13, 17], [18, 28], [29, 33], [34, 36], [37, 40], [41, 46], [47, 49], [50, 52], [53, 59], [60, 64], [65, 72], [73, 75], [76, 86], [87, 95], [95, 96]]
+    wn16_key: [[1, "speak%2:32:01::"], [4, "underlying%5:00:00:implicit:00"], [5, "view%1:09:02::"], [8, "world%1:17:01::"], [9, "be%2:42:06::"], [11, "embark%2:30:10::"], [13, "matter%1:09:00::"], [15, "subjective%3:00:00::"], [16, "judgment%1:09:00::"]]
+    wn30_key: [[1, "speak%2:32:01::"], [4, "underlying%3:00:00:implicit:00"], [5, "view%1:09:02::"], [8, "world%1:17:01::"], [9, "be%2:42:06::"], [11, "embark%2:30:10::"], [13, "matter%1:09:00::"], [15, "subjective%3:00:00::"], [16, "judgment%1:09:00::"]]
+0av2:
+    lemmas: ["at_the_least", ",", "however", ",", "one", "may", "conclude", "that", "geometric", "potter", "sense", "a", "logical", "order", ";", "their", "principle", "of", "composition", "stand", "very", "close", "to", "those", "which", "appear", "in", "the", "homeric", "epic", "and", "the", "hexameter", "line", "."]
+    oewn2026_key: [[2, "oewn-00027761-r"], [6, "oewn-00636134-v"], [8, "oewn-01988074-s"], [9, "oewn-10480372-n"], [10, "oewn-02110460-v"], [12, "oewn-01432984-a"], [13, "oewn-14520294-n"], [16, "oewn-05922132-n"], [18, "oewn-00931533-n"], [19, "oewn-02617408-v"], [20, "oewn-00032295-r"], [21, "oewn-00411619-r"], [25, "oewn-00423043-v"], [28, "oewn-03084679-a"], [29, "oewn-06391344-n"], [32, "oewn-07110903-n"], [33, "oewn-07025650-n"]]
+    paragraph: '1'
+    pos: ["RB", ",", "RB", ",", "CD", "MD", "VB", "IN", "JJ", "NNS", "VBD", "DT", "JJ", "NN", ":", "PRP$", "NNS", "IN", "NN", "VBP", "RB", "RB", "RB", "DT", "WDT", "VBP", "IN", "DT", "JJ", "NNS", "CC", "DT", "NN", "NN", "."]
+    text: ' At_the_least, however, one may conclude that Geometric potters sensed a logical
+  order; their principles of composition stand very close to those which appear in
+  the Homeric epics and the hexameter line.'
+    tokens: [[1, 13], [13, 14], [15, 22], [22, 23], [24, 27], [28, 31], [32, 40], [41, 45], [46, 55], [56, 63], [64, 70], [71, 72], [73, 80], [81, 86], [86, 87], [88, 93], [94, 104], [105, 107], [108, 119], [120, 125], [126, 130], [131, 136], [137, 139], [140, 145], [146, 151], [152, 158], [159, 161], [162, 165], [166, 173], [174, 179], [180, 183], [184, 187], [188, 197], [198, 202], [202, 203]]
+    wn16_key: [[2, "however%4:02:00::"], [6, "conclude%2:31:00::"], [8, "geometric%5:00:00:nonrepresentational:00"], [9, "potter%1:18:00::"], [10, "sense%2:39:00::"], [12, "logical%3:00:00::"], [13, "order%1:26:02::"], [16, "principle%1:09:03::"], [18, "composition%1:04:01::"], [19, "stand%2:42:04::"], [20, "very%4:02:00::"], [21, "close%4:02:01::"], [25, "appear%2:30:00::"], [28, "homeric%3:01:00::"], [29, "epic%1:10:00::"], [32, "hexameter%1:10:00::"], [33, "line%1:10:02::"]]
+    wn30_key: [[2, "however%4:02:00::"], [6, "conclude%2:31:00::"], [8, "geometric%3:00:00:nonrepresentational:00"], [9, "potter%1:18:00::"], [10, "sense%2:39:00::"], [12, "logical%3:00:00::"], [13, "order%1:26:02::"], [16, "principle%1:09:03::"], [18, "composition%1:04:01::"], [19, "stand%2:42:04::"], [20, "very%4:02:00::"], [21, "close%4:02:01::"], [25, "appear%2:30:00::"], [28, "homeric%3:01:00::"], [29, "epic%1:10:00::"], [32, "hexameter%1:10:00::"], [33, "line%1:10:02::"]]
+Pd9I:
+    lemmas: ["Their", "world", ",", "again", ",", "be", "a", "still", "simple", ",", "traditional", "age", "which", "be", "only", "slowly", "begin", "to", "appreciate", "the", "complexity", "of", "life", "."]
+    oewn2026_key: [[1, "oewn-05817904-n"], [3, "oewn-00040777-r"], [5, "oewn-02610777-v"], [7, "oewn-00031700-r"], [8, "oewn-02182456-a"], [10, "oewn-00613438-a"], [11, "oewn-15278839-n"], [14, "oewn-00005103-r"], [15, "oewn-00162829-r"], [16, "oewn-00346415-v"], [18, "oewn-00593736-v"], [20, "oewn-04773530-n"], [22, "oewn-05818587-n"]]
+    paragraph: '1'
+    pos: ["PRP$", "NN", ",", "RB", ",", "VBD", "DT", "RB", "JJ", ",", "JJ", "NN", "WDT", "VBD", "RB", "RB", "VBG", "TO", "VB", "DT", "NN", "IN", "NN", "."]
+    text: ' Their world, again, was a still simple, traditional age which was only slowly beginning
+  to appreciate the complexity of life.'
+    tokens: [[1, 6], [7, 12], [12, 13], [14, 19], [19, 20], [21, 24], [25, 26], [27, 32], [33, 39], [39, 40], [41, 52], [53, 56], [57, 62], [63, 66], [67, 71], [72, 78], [79, 88], [89, 91], [92, 102], [103, 106], [107, 117], [118, 120], [121, 125], [125, 126]]
+    wn16_key: [[1, "world%1:09:00::"], [3, "again%4:02:00::"], [5, "be%2:42:03::"], [7, "still%4:02:01::"], [8, "simple%3:00:02::"], [10, "traditional%3:00:00::"], [11, "age%1:28:02::"], [14, "only%4:02:02::"], [15, "slowly%4:02:02::"], [16, "begin%2:30:00::"], [18, "appreciate%2:31:00::"], [20, "complexity%1:07:00::"], [22, "life%1:09:00::"]]
+    wn30_key: [[1, "world%1:09:00::"], [3, "again%4:02:00::"], [5, "be%2:42:03::"], [7, "still%4:02:01::"], [8, "simple%3:00:02::"], [10, "traditional%3:00:00::"], [11, "age%1:28:02::"], [14, "only%4:02:02::"], [15, "slowly%4:02:02::"], [16, "begin%2:30:00::"], [18, "appreciate%2:31:00::"], [20, "complexity%1:07:00::"], [22, "life%1:09:00::"]]
+IBKY:
+    lemmas: ["And", "perhaps", "an", "observer", "of", "the", "vase", "will", "not", "go_too_far", "in", "deduce", "that", "the", "outlook", "of", "their", "maker", "and", "user", "be", "basically", "stable", "and", "secure", "."]
+    oewn2026_key: [[1, "oewn-00301501-r"], [3, "oewn-10389227-n"], [6, "oewn-04529463-n"], [8, "oewn-00024432-r"], [11, "oewn-00638236-v"], [14, "oewn-06205574-n"], [17, "oewn-10303761-n"], [19, "oewn-10761247-n"], [20, "oewn-02610777-v"], [21, "oewn-00003864-r"], [22, "oewn-02298730-a"], [24, "oewn-02100585-a"]]
+    paragraph: '1'
+    pos: ["CC", "RB", "DT", "NN", "IN", "DT", "NNS", "MD", "RB", "RB", "IN", "VBG", "IN", "DT", "NN", "IN", "PRP$", "NNS", "CC", "NNS", "VBD", "RB", "JJ", "CC", "JJ", "."]
+    text: ' And perhaps an observer of the vases will not go_too_far in deducing that the outlook
+  of their makers and users was basically stable and secure.'
+    tokens: [[1, 4], [5, 12], [13, 15], [16, 24], [25, 27], [28, 31], [32, 37], [38, 42], [43, 46], [47, 57], [58, 60], [61, 69], [70, 74], [75, 78], [79, 86], [87, 89], [90, 95], [96, 102], [103, 106], [107, 112], [113, 116], [117, 126], [127, 133], [134, 137], [138, 144], [144, 145]]
+    wn16_key: [[1, "perhaps%4:02:00::"], [3, "observer%1:18:01::"], [6, "vase%1:06:00::"], [8, "not%4:02:00::"], [11, "deduce%2:31:00::"], [14, "outlook%1:09:01::"], [17, "maker%1:18:00::"], [19, "user%1:18:00::"], [20, "be%2:42:03::"], [21, "basically%4:02:00::"], [22, "stable%3:00:00::"], [24, "secure%3:00:01::"]]
+    wn30_key: [[1, "perhaps%4:02:00::"], [3, "observer%1:18:01::"], [6, "vase%1:06:00::"], [8, "not%4:02:00::"], [11, "deduce%2:31:00::"], [14, "outlook%1:09:01::"], [17, "maker%1:18:00::"], [19, "user%1:18:00::"], [20, "be%2:42:03::"], [21, "basically%4:02:00::"], [22, "stable%3:00:00::"], [24, "secure%3:00:01::"]]
+tfNd:
+    lemmas: ["The", "storm", "of", "the", "past", "have", "die_away", ",", "and", "the", "great", "upheaval", "which", "be", "to", "mark", "the", "following", "century", "have", "not_yet", "begin", "to", "disturb", "man", "'s", "mind", "."]
+    oewn2026_key: [[1, "oewn-14001791-n"], [4, "oewn-15145765-n"], [6, "oewn-00245945-v"], [10, "oewn-01682025-s"], [11, "oewn-14002658-n"], [15, "oewn-00653662-v"], [17, "oewn-00128838-s"], [18, "oewn-15230328-n"], [21, "oewn-00346415-v"], [23, "oewn-01774422-v"], [24, "oewn-02475618-n"], [26, "oewn-05619057-n"]]
+    paragraph: '1'
+    pos: ["DT", "NNS", "IN", "DT", "NN", "VBD", "VB", ",", "CC", "DT", "JJ", "NN", "WDT", "VBD", "TO", "VB", "DT", "JJ", "NN", "VBD", "RB", "VBN", "TO", "VB", "NNS", "POS", "NNS", "."]
+    text: ' The storms of the past had died_away, and the great upheaval which was to mark the
+  following century had not_yet begun to disturb men''s minds.
+
+  '
+    tokens: [[1, 4], [5, 11], [12, 14], [15, 18], [19, 23], [24, 27], [28, 37], [37, 38], [39, 42], [43, 46], [47, 52], [53, 61], [62, 67], [68, 71], [72, 74], [75, 79], [80, 83], [84, 93], [94, 101], [102, 105], [106, 113], [114, 119], [120, 122], [123, 130], [131, 134], [134, 136], [137, 142], [142, 143]]
+    wn16_key: [[1, "storm%1:26:00::"], [4, "past%1:28:00::"], [6, "die_away%2:30:00::"], [10, "great%5:00:00:high:02"], [11, "upheaval%1:26:00::"], [15, "mark%2:31:09::"], [17, "following%5:00:02:succeeding(a):00"], [18, "century%1:28:00::"], [20, "not_yet%4:02:00::"], [21, "begin%2:30:00::"], [23, "disturb%2:37:00::"], [24, "man%1:14:00::"], [26, "mind%1:09:00::"]]
+    wn30_key: [[1, "storm%1:26:00::"], [4, "past%1:28:00::"], [6, "die_away%2:30:00::"], [10, "great%3:00:01:extraordinary:00"], [11, "upheaval%1:26:00::"], [15, "mark%2:31:09::"], [17, "following%3:00:02:succeeding:00"], [18, "century%1:28:00::"], [21, "begin%2:30:00::"], [23, "disturb%2:37:00::"], [24, "man%1:05:00::"], [26, "mind%1:09:00::"]]
+IGYv:
+    lemmas: ["Throughout", "the", "work", "of", "the", "late", "ninth", "century", "a", "calm", ",", "severe", "serenity", "display", "itself", "."]
+    oewn2026_key: [[2, "oewn-04606723-n"], [5, "oewn-00820050-a"], [6, "oewn-02210918-s"], [7, "oewn-15230328-n"], [9, "oewn-00531862-s"], [11, "oewn-01796896-s"], [12, "oewn-07531029-n"], [13, "oewn-02144506-v"]]
+    paragraph: '2'
+    pos: ["IN", "DT", "NN", "IN", "DT", "JJ", "JJ", "NN", "DT", "JJ", ",", "JJ", "NN", "VBZ", "PRP", "."]
+    text: ' Throughout the work of the later ninth century a calm, severe serenity displays
+  itself.'
+    tokens: [[1, 11], [12, 15], [16, 20], [21, 23], [24, 27], [28, 33], [34, 39], [40, 47], [48, 49], [50, 54], [54, 55], [56, 62], [63, 71], [72, 80], [81, 87], [87, 88]]
+    wn16_key: [[2, "work%1:06:00::"], [5, "late%3:00:00::"], [6, "ninth%5:00:00:ordinal:00"], [7, "century%1:28:00::"], [9, "calm%5:00:00:peaceful:00"], [11, "severe%5:00:00:plain:01"], [12, "serenity%1:12:00::"], [13, "display%2:39:00::"]]
+    wn30_key: [[2, "work%1:06:00::"], [5, "late%3:00:00::"], [6, "ninth%3:00:00:ordinal:00"], [7, "century%1:28:00::"], [9, "calm%3:00:00:composed:00"], [11, "severe%3:00:00:plain:01"], [12, "serenity%1:12:00::"], [13, "display%2:39:00::"]]
+/N/X:
+    lemmas: ["In", "the", "vase", "this", "spirit", "may", "perhaps", "at_times", "bore", "or", "repel", "one", "in", "its", "internal", "self-satisfaction", ",", "but", "the", "best", "of", "the", "geometric", "pin", "have", "rightly", "be", "consider", "among", "the", "most", "beautiful", "ever", "make", "in", "the", "greek", "world", "."]
+    oewn2026_key: [[2, "oewn-04529463-n"], [4, "oewn-14549784-n"], [6, "oewn-00301501-r"], [7, "oewn-00021667-r"], [8, "oewn-01825834-v"], [10, "oewn-01812736-v"], [14, "oewn-00955021-s"], [15, "oewn-07547101-n"], [19, "oewn-00229099-a"], [22, "oewn-01988074-s"], [23, "oewn-03946989-n"], [25, "oewn-00206702-r"], [27, "oewn-00692380-v"], [30, "oewn-00112352-r"], [31, "oewn-00219320-a"], [32, "oewn-00147423-r"], [33, "oewn-01643749-v"], [36, "oewn-06989052-n"], [37, "oewn-07982551-n"]]
+    paragraph: '2'
+    pos: ["IN", "DT", "NNS", "DT", "NN", "MD", "RB", "RB", "VBN", "CC", "VB", "CD", "IN", "PRP$", "JJ", "NN", ",", "CC", "DT", "JJS", "IN", "DT", "JJ", "NNS", "VBP", "RB", "VBN", "VBN", "IN", "RB", "RBS", "JJ", "RB", "VBN", "IN", "DT", "NN", "NN", "."]
+    text: ' In the vases this spirit may perhaps at_times bore or repel one in its internal
+  self-satisfaction, but the best of the Geometric pins have rightly been considered
+  among the most beautiful ever made in the Greek world.'
+    tokens: [[1, 3], [4, 7], [8, 13], [14, 18], [19, 25], [26, 29], [30, 37], [38, 46], [47, 51], [52, 54], [55, 60], [61, 64], [65, 67], [68, 71], [72, 80], [81, 98], [98, 99], [100, 103], [104, 107], [108, 112], [113, 115], [116, 119], [120, 129], [130, 134], [135, 139], [140, 147], [148, 152], [153, 163], [164, 169], [170, 173], [174, 178], [179, 188], [189, 193], [194, 198], [199, 201], [202, 205], [206, 211], [212, 217], [217, 218]]
+    wn16_key: [[2, "vase%1:06:00::"], [4, "spirit%1:26:00::"], [6, "perhaps%4:02:00::"], [7, "at_times%4:02:00::"], [8, "bore%2:37:00::"], [10, "repel%2:37:00::"], [14, "internal%5:00:00:inward:00"], [15, "self-satisfaction%1:12:00::"], [19, "best%3:00:00::"], [22, "geometric%5:00:00:nonrepresentational:00"], [23, "pin%1:06:01::"], [25, "rightly%4:02:00::"], [27, "consider%2:31:00::"], [30, "most%4:02:00::"], [31, "beautiful%3:00:00::"], [32, "ever%4:02:04::"], [33, "make%2:36:09::"], [36, "greek%1:10:00::"], [37, "world%1:14:01::"]]
+    wn30_key: [[2, "vase%1:06:00::"], [4, "spirit%1:26:00::"], [6, "perhaps%4:02:00::"], [7, "at_times%4:02:00::"], [8, "bore%2:37:00::"], [10, "repel%2:37:00::"], [14, "internal%3:00:00:inward:00"], [15, "self-satisfaction%1:12:00::"], [19, "best%3:00:00::"], [22, "geometric%3:00:00:nonrepresentational:00"], [23, "pin%1:06:01::"], [25, "rightly%4:02:00::"], [27, "consider%2:31:00::"], [30, "most%4:02:00::"], [31, "beautiful%3:00:00::"], [32, "ever%4:02:04::"], [33, "make%2:36:09::"], [36, "greek%1:10:00::"], [37, "world%1:14:01::"]]
+e+IS:
+    lemmas: ["The", "ninth", "century", "be", "in", "its", "artistic", "work", "\"", "the", "spiritually", "free", "and", "most", "self-sufficient", "between", "past", "and", "future", "\"", ",", "and", "the", "loving", "skill", "spend", "by", "its", "artist", "upon", "their", "product", "be", "a", "testimonial", "to", "their", "sense", "that", "what", "they", "be", "do", "be", "important", "and", "be", "appreciated", "."]
+    oewn2026_key: [[1, "oewn-02210918-s"], [2, "oewn-15230328-n"], [3, "oewn-02610777-v"], [6, "oewn-03002630-a"], [7, "oewn-04606723-n"], [10, "oewn-00212815-r"], [11, "oewn-01065188-a"], [13, "oewn-00112352-r"], [14, "oewn-00732883-s"], [16, "oewn-15145765-n"], [18, "oewn-15146567-n"], [23, "oewn-01466898-a"], [24, "oewn-05645403-n"], [25, "oewn-02272374-v"], [28, "oewn-09831743-n"], [31, "oewn-04014270-n"], [32, "oewn-02626667-v"], [34, "oewn-06660952-n"], [37, "oewn-05685345-n"], [42, "oewn-02566500-v"], [43, "oewn-02610777-v"], [44, "oewn-01278672-a"], [46, "oewn-02610777-v"]]
+    paragraph: '2'
+    pos: ["DT", "JJ", "NN", "VBD", "IN", "PRP$", "JJ", "NN", "''", "DT", "RB", "JJS", "CC", "RBS", "JJ", "IN", "NN", "CC", "NN", "''", ",", "CC", "DT", "JJ", "NN", "VBN", "IN", "PRP$", "NNS", "IN", "PRP$", "NNS", "VBZ", "DT", "NN", "TO", "PRP$", "NN", "IN", "WP", "PRP", "VBD", "VBG", "VBD", "JJ", "CC", "VBD", "JJ", "."]
+    text: ' The ninth century was in its artistic work " the spiritually freest and most self-sufficient
+  between past and future ", and the loving skill spent by its artists upon their
+  products is a testimonial to their sense that what they were doing was important
+  and was appreciated.
+
+  '
+    tokens: [[1, 4], [5, 10], [11, 18], [19, 22], [23, 25], [26, 29], [30, 38], [39, 43], [44, 45], [46, 49], [50, 61], [62, 68], [69, 72], [73, 77], [78, 93], [94, 101], [102, 106], [107, 110], [111, 117], [118, 119], [119, 120], [121, 124], [125, 128], [129, 135], [136, 141], [142, 147], [148, 150], [151, 154], [155, 162], [163, 167], [168, 173], [174, 182], [183, 185], [186, 187], [188, 199], [200, 202], [203, 208], [209, 214], [215, 219], [220, 224], [225, 229], [230, 234], [235, 240], [241, 244], [245, 254], [255, 258], [259, 262], [263, 274], [274, 275]]
+    wn16_key: [[1, "ninth%5:00:00:ordinal:00"], [2, "century%1:28:00::"], [3, "be%2:42:03::"], [6, "artistic%3:01:00::"], [7, "work%1:06:00::"], [10, "spiritually%4:02:00::"], [11, "free%3:00:00::"], [13, "most%4:02:00::"], [14, "self-sufficient%5:00:00:independent:00"], [16, "past%1:28:00::"], [18, "future%1:28:00::"], [23, "loving%3:00:00::"], [24, "skill%1:09:01::"], [25, "spend%2:40:01::"], [28, "artist%1:18:00::"], [31, "product%1:06:00::"], [32, "be%2:42:02::"], [34, "testimonial%1:10:02::"], [37, "sense%1:09:05::"], [42, "do%2:41:01::"], [43, "be%2:42:03::"], [44, "important%3:00:00::"], [46, "be%2:42:03::"], [47, "appreciated%5:00:00:rewarding:00"]]
+    wn30_key: [[1, "ninth%3:00:00:ordinal:00"], [2, "century%1:28:00::"], [3, "be%2:42:03::"], [6, "artistic%3:01:00::"], [7, "work%1:06:00::"], [10, "spiritually%4:02:00::"], [11, "free%3:00:00::"], [13, "most%4:02:00::"], [14, "self-sufficient%3:00:00:independent:00"], [16, "past%1:28:00::"], [18, "future%1:28:00::"], [23, "loving%3:00:00::"], [24, "skill%1:09:01::"], [25, "spend%2:40:01::"], [28, "artist%1:18:00::"], [31, "product%1:06:00::"], [32, "be%2:42:02::"], [34, "testimonial%1:10:02::"], [37, "sense%1:09:05::"], [42, "do%2:41:01::"], [43, "be%2:42:03::"], [44, "important%3:00:00::"], [46, "be%2:42:03::"]]
+YWEv:
+    lemmas: ["geometric", "pottery", "have", "not_yet", "receive", "the", "thorough", ",", "detailed", "study", "which", "it", "deserve", ",", "partly", "because", "the", "task", "be", "a", "mammoth", "one", "and", "partly", "because", "some", "of", "its", "local", "manifestation", ",", "as", "at", "location", ",", "be", "only", "now", "come_to_light", "."]
+    oewn2026_key: [[0, "oewn-02745944-a"], [1, "oewn-03999061-n"], [4, "oewn-02112480-v"], [6, "oewn-00524524-s"], [8, "oewn-00311231-s"], [9, "oewn-00645746-n"], [12, "oewn-02652462-v"], [14, "oewn-00008102-r"], [17, "oewn-00797381-n"], [18, "oewn-02610777-v"], [20, "oewn-01389472-s"], [23, "oewn-00008102-r"], [28, "oewn-01110098-a"], [29, "oewn-07337831-n"], [33, "oewn-00027365-n"], [36, "oewn-00005103-r"], [37, "oewn-00049013-r"], [38, "oewn-00424383-v"]]
+    paragraph: '3'
+    pos: ["JJ", "NN", "VBZ", "RB", "VBD", "DT", "JJ", ",", "JJ", "NN", "WDT", "PRP", "VBZ", ",", "RB", "IN", "DT", "NN", "VBZ", "DT", "JJ", "CD", "CC", "RB", "IN", "DT", "IN", "PRP$", "JJ", "NNS", ",", "IN", "IN", "NNP", ",", "VBP", "RB", "RB", "VB", "."]
+    text: ' Geometric pottery has not_yet received the thorough, detailed study which it deserves,
+  partly because the task is a mammoth one and partly because some of its local manifestations,
+  as at Argos, are only now coming_to_light.'
+    tokens: [[1, 10], [11, 18], [19, 22], [23, 30], [31, 39], [40, 43], [44, 52], [52, 53], [54, 62], [63, 68], [69, 74], [75, 77], [78, 86], [86, 87], [88, 94], [95, 102], [103, 106], [107, 111], [112, 114], [115, 116], [117, 124], [125, 128], [129, 132], [133, 139], [140, 147], [148, 152], [153, 155], [156, 159], [160, 165], [166, 180], [180, 181], [182, 184], [185, 187], [188, 193], [193, 194], [195, 198], [199, 203], [204, 207], [208, 223], [223, 224]]
+    wn16_key: [[0, "geometric%3:01:00::"], [1, "pottery%1:06:00::"], [3, "not_yet%4:02:00::"], [4, "receive%2:39:03::"], [6, "thorough%5:00:00:complete:00"], [8, "detailed%5:00:00:careful:00"], [9, "study%1:04:00::"], [12, "deserve%2:42:00::"], [14, "partly%4:02:00::"], [17, "task%1:04:01::"], [18, "be%2:42:03::"], [20, "mammoth%5:00:01:large:00"], [23, "partly%4:02:00::"], [28, "local%3:00:01::"], [29, "manifestation%1:11:00::"], [33, "location%1:03:00::"], [36, "only%4:02:02::"], [37, "now%4:02:00::"], [38, "come_to_light%2:30:00::"]]
+    wn30_key: [[0, "geometric%3:01:00::"], [1, "pottery%1:06:00::"], [4, "receive%2:39:03::"], [6, "thorough%3:00:00:complete:00"], [8, "detailed%3:00:00:careful:00"], [9, "study%1:04:00::"], [12, "deserve%2:42:00::"], [14, "partly%4:02:00::"], [17, "task%1:04:01::"], [18, "be%2:42:03::"], [20, "mammoth%3:00:01:large:00"], [23, "partly%4:02:00::"], [28, "local%3:00:01::"], [29, "manifestation%1:11:00::"], [33, "location%1:03:00::"], [36, "only%4:02:02::"], [37, "now%4:02:00::"], [38, "come_to_light%2:30:00::"]]
+7AaA:
+    lemmas: ["From", "even", "a", "cursory", "inspection", "of", "its", "many", "aspect", ",", "however", ",", "the", "historian", "can", "deduce", "several", "fundamental", "conclusion", "about", "the", "progress", "of", "the", "aegean", "world", "down", "to", "800", "bc"]
+    oewn2026_key: [[1, "oewn-00017907-r"], [3, "oewn-00313032-s"], [7, "oewn-01555990-a"], [8, "oewn-05859151-n"], [10, "oewn-00027761-r"], [13, "oewn-10196781-n"], [15, "oewn-00638236-v"], [16, "oewn-02276025-s"], [17, "oewn-01280207-s"], [18, "oewn-05846685-n"], [21, "oewn-07459865-n"], [24, "oewn-09211506-n"], [25, "oewn-07982551-n"]]
+    paragraph: '3'
+    pos: ["IN", "RB", "DT", "JJ", "NN", "IN", "PRP$", "JJ", "NNS", ",", "RB", ",", "DT", "NN", "MD", "VB", "JJ", "JJ", "NNS", "IN", "DT", "NN", "IN", "DT", "NN", "NN", "RB", "TO", "CD", "NN"]
+    text: ' From even a cursory inspection of its many aspects, however, the historian can deduce
+  several fundamental conclusions about the progress of the Aegean world down to 800
+  B.C.
+
+  '
+    tokens: [[1, 5], [6, 10], [11, 12], [13, 20], [21, 31], [32, 34], [35, 38], [39, 43], [44, 51], [51, 52], [53, 60], [60, 61], [62, 65], [66, 75], [76, 79], [80, 86], [87, 94], [95, 106], [107, 118], [119, 124], [125, 128], [129, 137], [138, 140], [141, 144], [145, 151], [152, 157], [158, 162], [163, 165], [166, 169], [170, 174]]
+    wn16_key: [[1, "even%4:02:00::"], [3, "cursory%5:00:00:careless:00"], [4, "inspection%1:04:01::"], [7, "many%3:00:00::"], [8, "aspect%1:09:00::"], [10, "however%4:02:00::"], [13, "historian%1:18:00::"], [15, "deduce%2:31:00::"], [16, "several%5:00:00:some(a):00"], [17, "fundamental%5:00:00:important:00"], [18, "conclusion%1:09:00::"], [21, "progress%1:11:00::"], [24, "aegean%1:17:00::"], [25, "world%1:14:01::"], [29, "bc%1:28:00::"]]
+    wn30_key: [[1, "even%4:02:00::"], [3, "cursory%3:00:00:careless:00"], [7, "many%3:00:00::"], [8, "aspect%1:09:00::"], [10, "however%4:02:00::"], [13, "historian%1:18:00::"], [15, "deduce%2:31:00::"], [16, "several%3:00:00:some:00"], [17, "fundamental%3:00:00:important:00"], [18, "conclusion%1:09:00::"], [21, "progress%1:11:00::"], [24, "aegean%1:17:00::"], [25, "world%1:14:01::"]]
+cJfc:
+    lemmas: ["The", "general", "intellectual", "outlook", "which", "have", "appear", "in", "the", "eleventh", "century", "be", "now", "consolidate", "to", "a", "significant", "degree", "."]
+    oewn2026_key: [[1, "oewn-01105084-a"], [2, "oewn-01335338-a"], [3, "oewn-06205574-n"], [6, "oewn-00423043-v"], [9, "oewn-02211169-s"], [10, "oewn-15230328-n"], [12, "oewn-00049971-r"], [13, "oewn-00243466-v"], [16, "oewn-00627729-s"], [17, "oewn-13962925-n"]]
+    paragraph: '4'
+    pos: ["DT", "JJ", "JJ", "NN", "WDT", "VBD", "VBN", "IN", "DT", "JJ", "NN", "VBD", "RB", "VB", "TO", "DT", "JJ", "NN", "."]
+    text: ' The general intellectual outlook which had appeared in the eleventh century was
+  now consolidated to a significant degree.'
+    tokens: [[1, 4], [5, 12], [13, 25], [26, 33], [34, 39], [40, 43], [44, 52], [53, 55], [56, 59], [60, 68], [69, 76], [77, 80], [81, 84], [85, 97], [98, 100], [101, 102], [103, 114], [115, 121], [121, 122]]
+    wn16_key: [[1, "general%3:00:00::"], [2, "intellectual%3:01:00::"], [3, "outlook%1:09:01::"], [6, "appear%2:30:00::"], [9, "eleventh%5:00:00:ordinal:00"], [10, "century%1:28:00::"], [12, "now%4:02:05::"], [13, "consolidate%2:30:00::"], [16, "significant%5:00:00:considerable:00"], [17, "degree%1:26:01::"]]
+    wn30_key: [[1, "general%3:00:00::"], [2, "intellectual%3:00:00::"], [3, "outlook%1:09:01::"], [6, "appear%2:30:00::"], [9, "eleventh%3:00:00:ordinal:00"], [10, "century%1:28:00::"], [12, "now%4:02:05::"], [13, "consolidate%2:30:00::"], [16, "significant%3:00:00:considerable:00"], [17, "degree%1:26:01::"]]
+vmp/:
+    lemmas: ["much", "which", "be", "in_embryo", "in", "1000", "have", "become", "reasonably", "well", "developed", "by", "800", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"], [7, "oewn-00149403-v"], [8, "oewn-00036138-r"], [9, "oewn-00011555-r"], [10, "oewn-00745450-a"]]
+    paragraph: '4'
+    pos: ["RB", "WDT", "VBD", "JJ", "IN", "CD", "VBD", "VBN", "RB", "RB", "JJ", "IN", "CD", "."]
+    text: ' Much which was in_embryo in 1000 had become reasonably well developed by 800.'
+    tokens: [[1, 5], [6, 11], [12, 15], [16, 25], [26, 28], [29, 33], [34, 37], [38, 44], [45, 55], [56, 60], [61, 70], [71, 73], [74, 77], [77, 78]]
+    wn16_key: [[2, "be%2:42:03::"], [3, "in_embryo%5:00:00:early:02"], [7, "become%2:30:00::"], [8, "reasonably%4:02:00::"], [9, "well%4:02:00::"], [10, "developed%3:00:00::"]]
+    wn30_key: [[2, "be%2:42:03::"], [7, "become%2:30:00::"], [8, "reasonably%4:02:00::"], [9, "well%4:02:00::"], [10, "developed%3:00:00::"]]
+HJNq:
+    lemmas: ["in", "this", "process", "the", "minoan", "mycenaean", "inheritance", "have", "be", "transmute", "or", "finally", "reject", ";", "the", "aegean", "world", "which", "have", "exist", "before", "1000", "differ", "from", "that", "which", "rise", "more", "clearly", "in", "our", "vision", "after", "800", "."]
+    oewn2026_key: [[2, "oewn-00029976-n"], [4, "oewn-03028197-a"], [5, "oewn-03028370-a"], [6, "oewn-00084405-n"], [9, "oewn-00382272-v"], [11, "oewn-00048441-r"], [12, "oewn-02242120-v"], [15, "oewn-03028672-a"], [16, "oewn-07982551-n"], [19, "oewn-02609706-v"], [22, "oewn-02672316-v"], [26, "oewn-01994295-v"], [27, "oewn-00099891-r"], [28, "oewn-00039452-r"], [31, "oewn-05662207-n"]]
+    paragraph: '4'
+    pos: ["RB", "RB", "NN", "DT", "JJ", "JJ", "NN", "VBD", "VBN", "VBN", "CC", "RB", "VBN", ":", "DT", "JJ", "NN", "WDT", "VBD", "VBN", "IN", "CD", "VBD", "RB", "RB", "WDT", "VBZ", "RBR", "RB", "IN", "PRP$", "NN", "IN", "CD", "."]
+    text: ' In this process the Minoan Mycenaean inheritance had been transmuted or finally
+  rejected; the Aegean world which had existed before 1000 differed from that which
+  rises more clearly in our vision after 800.'
+    tokens: [[1, 3], [4, 8], [9, 16], [17, 20], [21, 27], [28, 37], [38, 49], [50, 53], [54, 58], [59, 69], [70, 72], [73, 80], [81, 89], [89, 90], [91, 94], [95, 101], [102, 107], [108, 113], [114, 117], [118, 125], [126, 132], [133, 137], [138, 146], [147, 151], [152, 156], [157, 162], [163, 168], [169, 173], [174, 181], [182, 184], [185, 188], [189, 195], [196, 201], [202, 205], [205, 206]]
+    wn16_key: [[2, "process%1:22:00::"], [4, "minoan%3:01:00::"], [5, "mycenaean%3:01:00::"], [6, "inheritance%1:04:00::"], [9, "transmute%2:30:00::"], [11, "finally%4:02:00::"], [12, "reject%2:40:00::"], [15, "aegean%3:01:01::"], [16, "world%1:14:01::"], [19, "exist%2:42:00::"], [22, "differ%2:42:00::"], [26, "rise%2:38:04::"], [27, "more%4:02:00::"], [28, "clearly%4:02:00::"], [31, "vision%1:09:01::"]]
+    wn30_key: [[2, "process%1:03:00::"], [4, "minoan%3:01:00::"], [5, "mycenaean%3:01:00::"], [6, "inheritance%1:04:00::"], [9, "transmute%2:30:00::"], [11, "finally%4:02:00::"], [12, "reject%2:40:00::"], [15, "aegean%3:01:01::"], [16, "world%1:14:01::"], [19, "exist%2:42:00::"], [22, "differ%2:42:00::"], [26, "rise%2:38:04::"], [27, "more%4:02:00::"], [28, "clearly%4:02:00::"], [31, "vision%1:09:01::"]]
+psO+:
+    lemmas: ["Those", "modern", "scholar", "who", "urge", "that", "we", "must", "keep", "in", "mind", "the", "fundamental", "continuity", "of", "aegean", "development", "from", "early", "times", "-", "granted", "occasional", "irruption", "of", "people", "and", "idea", "from", "outside", "-", "be", "correct", ";", "but", "all_too", "many", "observer", "have", "be", "mislead", "by", "this", "fact", "into", "minimize", "the", "degree", "of", "change", "which", "take_place", "in", "the", "early", "first", "millennium", "."]
+    oewn2026_key: [[1, "oewn-00415873-s"], [2, "oewn-10577282-n"], [4, "oewn-00767694-v"], [8, "oewn-02687605-v"], [10, "oewn-05619057-n"], [12, "oewn-01280207-s"], [13, "oewn-14445439-n"], [15, "oewn-03028672-a"], [16, "oewn-13486023-n"], [18, "oewn-00816521-a"], [19, "oewn-15145288-n"], [21, "oewn-00028393-s"], [22, "oewn-01071104-s"], [23, "oewn-00050395-n"], [25, "oewn-07958392-n"], [27, "oewn-05842164-n"], [29, "oewn-08631168-n"], [31, "oewn-02610777-v"], [32, "oewn-00634232-a"], [35, "oewn-00251727-r"], [36, "oewn-01555990-a"], [37, "oewn-10389227-n"], [40, "oewn-00835688-v"], [43, "oewn-05825522-n"], [45, "oewn-00842804-v"], [47, "oewn-13962925-n"], [49, "oewn-13881240-n"], [51, "oewn-00340744-v"], [54, "oewn-00816521-a"], [55, "oewn-01014459-a"], [56, "oewn-15166173-n"]]
+    paragraph: '4'
+    pos: ["DT", "JJ", "NNS", "WP", "VBP", "IN", "PRP", "MD", "VB", "VB", "NN", "DT", "JJ", "NN", "IN", "JJ", "NN", "IN", "JJS", "NNS", ":", "JJ", "JJ", "NNS", "IN", "NNS", "CC", "NNS", "IN", "NN", ":", "VBP", "JJ", ":", "CC", "RB", "JJ", "NNS", "VBP", "VBN", "VBN", "IN", "DT", "NN", "IN", "VBG", "DT", "NN", "IN", "NN", "WDT", "VB", "IN", "DT", "JJ", "JJ", "NN", "."]
+    text: ' Those modern scholars who urge that we must keep in mind the fundamental continuity
+  of Aegean development from earliest times - granted occasional irruptions of peoples
+  and ideas from outside - are correct; but all_too many observers have been misled
+  by this fact into minimizing the degree of change which took_place in the early
+  first millennium.
+
+  '
+    tokens: [[1, 6], [7, 13], [14, 22], [23, 26], [27, 31], [32, 36], [37, 39], [40, 44], [45, 49], [50, 52], [53, 57], [58, 61], [62, 73], [74, 84], [85, 87], [88, 94], [95, 106], [107, 111], [112, 120], [121, 126], [127, 128], [129, 136], [137, 147], [148, 158], [159, 161], [162, 169], [170, 173], [174, 179], [180, 184], [185, 192], [193, 194], [195, 198], [199, 206], [206, 207], [208, 211], [212, 219], [220, 224], [225, 234], [235, 239], [240, 244], [245, 251], [252, 254], [255, 259], [260, 264], [265, 269], [270, 280], [281, 284], [285, 291], [292, 294], [295, 301], [302, 307], [308, 318], [319, 321], [322, 325], [326, 331], [332, 337], [338, 348], [348, 349]]
+    wn16_key: [[1, "modern%5:00:00:nonclassical:00"], [2, "scholar%1:18:00::"], [4, "urge%2:32:00::"], [8, "keep%2:42:00::"], [10, "mind%1:09:00::"], [12, "fundamental%5:00:00:important:00"], [13, "continuity%1:26:00::"], [15, "aegean%3:01:01::"], [16, "development%1:22:02::"], [18, "early%3:00:00::"], [19, "times%1:28:01::"], [21, "granted%5:00:00:acknowledged:00"], [22, "occasional%5:00:00:infrequent:00"], [23, "irruption%1:04:00::"], [25, "people%1:14:00::"], [27, "idea%1:09:00::"], [29, "outside%1:15:01::"], [31, "be%2:42:03::"], [32, "correct%3:00:00::"], [35, "all_too%4:02:00::"], [36, "many%3:00:00::"], [37, "observer%1:18:01::"], [40, "mislead%2:32:00::"], [43, "fact%1:09:01::"], [45, "minimize%2:32:01::"], [47, "degree%1:26:01::"], [49, "change%1:24:00::"], [51, "take_place%2:30:00::"], [54, "early%3:00:00::"], [55, "first%5:00:00:ordinal:00"], [56, "millennium%1:28:00::"]]
+    wn30_key: [[1, "modern%3:00:00:nonclassical:00"], [2, "scholar%1:18:00::"], [4, "urge%2:32:00::"], [8, "keep%2:42:00::"], [10, "mind%1:09:00::"], [12, "fundamental%3:00:00:important:00"], [13, "continuity%1:26:00::"], [15, "aegean%3:01:01::"], [16, "development%1:22:02::"], [18, "early%3:00:00::"], [19, "times%1:28:01::"], [21, "granted%3:00:00:acknowledged:00"], [22, "occasional%3:00:00:infrequent:00"], [23, "irruption%1:04:00::"], [25, "people%1:14:00::"], [27, "idea%1:09:00::"], [29, "outside%1:15:01::"], [31, "be%2:42:03::"], [32, "correct%3:00:00::"], [35, "all_too%4:02:00::"], [36, "many%3:00:00::"], [37, "observer%1:18:01::"], [40, "mislead%2:32:00::"], [43, "fact%1:09:01::"], [45, "minimize%2:32:01::"], [47, "degree%1:26:01::"], [49, "change%1:24:00::"], [51, "take_place%2:30:00::"], [54, "early%3:00:00::"], [55, "first%3:00:00:ordinal:00"], [56, "millennium%1:28:00::"]]
+Ps63:
+    lemmas: ["The", "focus", "of", "novelty", "in", "this", "world", "now", "lie_in", "the", "southeastern", "district", "of", "the", "greek", "mainland", ",", "and", "by", "800", "virtually", "the", "entire", "aegean", ",", "always", "except", "its", "northern", "shore", ",", "have", "accept", "the", "geometric", "style", "of", "pottery", "."]
+    oewn2026_key: [[1, "oewn-05712641-n"], [3, "oewn-04807845-n"], [6, "oewn-07982551-n"], [7, "oewn-00049971-r"], [8, "oewn-02659476-v"], [10, "oewn-01608100-s"], [11, "oewn-08569713-n"], [14, "oewn-03027715-a"], [15, "oewn-09369017-n"], [22, "oewn-00517305-s"], [23, "oewn-09211506-n"], [25, "oewn-00019801-r"], [26, "oewn-00617464-v"], [28, "oewn-01605879-s"], [29, "oewn-09456346-n"], [32, "oewn-02240906-v"], [34, "oewn-01988074-s"], [35, "oewn-04936080-n"], [37, "oewn-03999061-n"]]
+    paragraph: '5'
+    pos: ["DT", "NN", "IN", "NN", "RB", "RB", "NN", "RB", "VBP", "DT", "JJ", "NNS", "IN", "DT", "JJ", "NN", ",", "CC", "IN", "CD", "RB", "DT", "JJ", "NNP", ",", "RB", "VBG", "PRP$", "JJ", "NNS", ",", "VBD", "VBN", "DT", "JJ", "NN", "IN", "NN", "."]
+    text: ' The focus of novelty in this world now lay_in the south-eastern districts of the
+  Greek mainland, and by 800 virtually the entire Aegean, always excepting its northern
+  shores, had accepted the Geometric style of pottery.'
+    tokens: [[1, 4], [5, 10], [11, 13], [14, 21], [22, 24], [25, 29], [30, 35], [36, 39], [40, 46], [47, 50], [51, 64], [65, 74], [75, 77], [78, 81], [82, 87], [88, 96], [96, 97], [98, 101], [102, 104], [105, 108], [109, 118], [119, 122], [123, 129], [130, 136], [136, 137], [138, 144], [145, 154], [155, 158], [159, 167], [168, 174], [174, 175], [176, 179], [180, 188], [189, 192], [193, 202], [203, 208], [209, 211], [212, 219], [219, 220]]
+    wn16_key: [[1, "focus%1:09:00::"], [3, "novelty%1:07:00::"], [6, "world%1:14:01::"], [7, "now%4:02:05::"], [8, "lie_in%2:42:00::"], [10, "southeastern%5:00:00:south:00"], [11, "district%1:15:00::"], [14, "greek%3:01:01::"], [15, "mainland%1:17:00::"], [20, "virtually%4:02:00::"], [22, "entire%5:00:01:whole:00"], [23, "aegean%1:17:00::"], [25, "always%4:02:00::"], [26, "except%2:31:00::"], [28, "northern%5:00:02:north:00"], [29, "shore%1:17:00::"], [32, "accept%2:40:00::"], [34, "geometric%5:00:00:nonrepresentational:00"], [35, "style%1:07:00::"], [37, "pottery%1:06:00::"]]
+    wn30_key: [[1, "focus%1:09:00::"], [3, "novelty%1:07:00::"], [6, "world%1:14:01::"], [7, "now%4:02:05::"], [8, "lie_in%2:42:00::"], [10, "southeastern%3:00:00:south:00"], [11, "district%1:15:00::"], [14, "greek%3:01:01::"], [15, "mainland%1:17:00::"], [22, "entire%3:00:01:whole:00"], [23, "aegean%1:17:00::"], [25, "always%4:02:00::"], [26, "except%2:31:00::"], [28, "northern%3:00:02:north:00"], [29, "shore%1:17:00::"], [32, "accept%2:40:00::"], [34, "geometric%3:00:00:nonrepresentational:00"], [35, "style%1:07:00::"], [37, "pottery%1:06:00::"]]
+2xae:
+    lemmas: ["While", "protogeometric", "vase", "usually", "turn_up", ",", "especially", "outside", "greece", "proper", ",", "together", "with", "as_many", "or", "more", "example", "of", "local", "stamp", ",", "these", "\"", "non", "greek", "\"", "pattern", "have", "mostly", "vanish", "by", "the", "late", "ninth", "century", "."]
+    oewn2026_key: [[1, "oewn-01988513-s"], [2, "oewn-04529463-n"], [3, "oewn-00107608-r"], [4, "oewn-00424655-v"], [6, "oewn-00084573-r"], [8, "oewn-08798733-n"], [9, "oewn-01108582-s"], [15, "oewn-01560748-a"], [16, "oewn-05828980-n"], [18, "oewn-01110098-a"], [19, "oewn-13936581-n"], [24, "oewn-03027715-a"], [26, "oewn-03183448-n"], [28, "oewn-00006486-r"], [29, "oewn-00427911-v"], [32, "oewn-00820050-a"], [33, "oewn-02210918-s"], [34, "oewn-15230328-n"]]
+    paragraph: '5'
+    pos: ["IN", "JJ", "NNS", "RB", "VBP", ",", "RB", "IN", "NNP", "JJ", ",", "RB", "IN", "JJ", "CC", "JJR", "NNS", "IN", "JJ", "NN", ",", "DT", "``", "JJ", "JJ", "``", "NNS", "VBD", "RB", "VBN", "IN", "DT", "JJ", "JJ", "NN", "."]
+    text: ' While Protogeometric vases usually turn_up, especially outside Greece proper, together
+  with as_many or more examples of local stamp, these " non Greek " patterns had mostly
+  vanished by the later ninth century.'
+    tokens: [[1, 6], [7, 21], [22, 27], [28, 35], [36, 43], [43, 44], [45, 55], [56, 63], [64, 70], [71, 77], [77, 78], [79, 87], [88, 92], [93, 100], [101, 103], [104, 108], [109, 117], [118, 120], [121, 126], [127, 132], [132, 133], [134, 139], [140, 141], [142, 145], [146, 151], [152, 153], [154, 162], [163, 166], [167, 173], [174, 182], [183, 185], [186, 189], [190, 195], [196, 201], [202, 209], [209, 210]]
+    wn16_key: [[1, "protogeometric%5:00:00:nonrepresentational:00"], [2, "vase%1:06:00::"], [3, "usually%4:02:00::"], [4, "turn_up%2:30:00::"], [6, "especially%4:02:00::"], [8, "greece%1:15:00::"], [9, "proper%5:00:00:specific:00"], [11, "together%4:02:04::"], [13, "as_many%5:00:00:equal:00"], [15, "more%3:00:02::"], [16, "example%1:09:00::"], [18, "local%3:00:01::"], [19, "stamp%1:25:00::"], [23, "non%5:00:00:negative:02"], [24, "greek%3:01:01::"], [26, "pattern%1:06:00::"], [28, "mostly%4:02:00::"], [29, "vanish%2:30:00::"], [32, "late%3:00:00::"], [33, "ninth%5:00:00:ordinal:00"], [34, "century%1:28:00::"]]
+    wn30_key: [[1, "protogeometric%3:00:00:nonrepresentational:00"], [2, "vase%1:06:00::"], [3, "usually%4:02:00::"], [4, "turn_up%2:30:00::"], [6, "especially%4:02:00::"], [8, "greece%1:15:00::"], [9, "proper%3:00:00:specific:00"], [15, "more%3:00:02::"], [16, "example%1:09:00::"], [18, "local%3:00:01::"], [19, "stamp%1:25:00::"], [24, "greek%3:01:01::"], [26, "pattern%1:06:00::"], [28, "mostly%4:02:00::"], [29, "vanish%2:30:00::"], [32, "late%3:00:00::"], [33, "ninth%3:00:00:ordinal:00"], [34, "century%1:28:00::"]]
+d50i:
+    lemmas: ["In", "their", "place", "come", "local", "variation", "within", "the", "common", "style", "-", "tentative", ",", "as_it_were", ",", "in", "protogeometric", "product", "but", "truly", "distinct", "and", "sharply", "defined", "as", "the", "geometric", "spirit", "develop", "."]
+    oewn2026_key: [[2, "oewn-00722683-n"], [3, "oewn-00342572-v"], [4, "oewn-01110098-a"], [5, "oewn-07351990-n"], [8, "oewn-02159888-s"], [9, "oewn-04936080-n"], [11, "oewn-00558544-s"], [13, "oewn-00153834-r"], [16, "oewn-01988513-s"], [17, "oewn-04014270-n"], [19, "oewn-00037620-r"], [20, "oewn-00782933-a"], [22, "oewn-00212949-r"], [23, "oewn-00700633-a"], [26, "oewn-01988074-s"], [27, "oewn-14549784-n"], [28, "oewn-00546637-v"]]
+    paragraph: '5'
+    pos: ["IN", "PRP$", "NN", "VBD", "JJ", "NNS", "IN", "DT", "JJ", "NN", ":", "JJ", ",", "RB", ",", "IN", "JJ", "NNS", "CC", "RB", "JJ", "CC", "RB", "JJ", "IN", "DT", "JJ", "NN", "VBD", "."]
+    text: ' In their place came local variations within the common style - tentative, as_it_were,
+  in Protogeometric products but truly distinct and sharply defined as the Geometric
+  spirit developed.'
+    tokens: [[1, 3], [4, 9], [10, 15], [16, 20], [21, 26], [27, 37], [38, 44], [45, 48], [49, 55], [56, 61], [62, 63], [64, 73], [73, 74], [75, 85], [85, 86], [87, 89], [90, 104], [105, 113], [114, 117], [118, 123], [124, 132], [133, 136], [137, 144], [145, 152], [153, 155], [156, 159], [160, 169], [170, 176], [177, 186], [186, 187]]
+    wn16_key: [[2, "place%1:04:01::"], [3, "come%2:30:01::"], [4, "local%3:00:01::"], [5, "variation%1:11:01::"], [8, "common%5:00:00:shared:00"], [9, "style%1:07:00::"], [11, "tentative%5:00:00:conditional:00"], [13, "as_it_were%4:02:00::"], [16, "protogeometric%5:00:00:nonrepresentational:00"], [17, "product%1:06:00::"], [19, "truly%4:02:00::"], [20, "distinct%3:00:00::"], [22, "sharply%4:02:01::"], [23, "defined%3:00:00::"], [26, "geometric%5:00:00:nonrepresentational:00"], [27, "spirit%1:26:00::"], [28, "develop%2:30:06::"]]
+    wn30_key: [[2, "place%1:04:01::"], [3, "come%2:30:01::"], [4, "local%3:00:01::"], [5, "variation%1:11:01::"], [8, "common%3:00:00:shared:00"], [9, "style%1:07:00::"], [11, "tentative%3:00:00:conditional:00"], [13, "as_it_were%4:02:00::"], [16, "protogeometric%3:00:00:nonrepresentational:00"], [17, "product%1:06:00::"], [19, "truly%4:02:00::"], [20, "distinct%3:00:00::"], [22, "sharply%4:02:01::"], [23, "defined%3:00:00::"], [26, "geometric%3:00:00:nonrepresentational:00"], [27, "spirit%1:26:00::"], [28, "develop%2:30:06::"]]
+MIT6:
+    lemmas: ["attica", ",", "though", "important", ",", "be", "not", "the", "only", "teacher", "of", "this", "age", "."]
+    oewn2026_key: [[0, "oewn-08804135-n"], [3, "oewn-01278672-a"], [5, "oewn-02610777-v"], [6, "oewn-00024432-r"], [8, "oewn-02222405-s"], [9, "oewn-10713754-n"], [12, "oewn-15278839-n"]]
+    paragraph: '5'
+    pos: ["NNP", ",", "IN", "JJ", ",", "VBD", "RB", "DT", "JJ", "NN", "RB", "RB", "NN", "."]
+    text: ' Attica, though important, was not the only teacher of this age.'
+    tokens: [[1, 7], [7, 8], [9, 15], [16, 25], [25, 26], [27, 30], [31, 34], [35, 38], [39, 43], [44, 51], [52, 54], [55, 59], [60, 63], [63, 64]]
+    wn16_key: [[0, "attica%1:15:00::"], [3, "important%3:00:00::"], [5, "be%2:42:03::"], [6, "not%4:02:00::"], [8, "only%5:00:00:single(a):00"], [9, "teacher%1:18:00::"], [12, "age%1:28:02::"]]
+    wn30_key: [[0, "attica%1:15:00::"], [3, "important%3:00:00::"], [5, "be%2:42:03::"], [6, "not%4:02:00::"], [8, "only%3:00:00:single:05"], [9, "teacher%1:18:00::"], [12, "age%1:28:02::"]]
+zDlU:
+    lemmas: ["One", "can", "take", "a", "vase", "of", "about", "800", "bc", "and", ",", "without", "any", "knowledge", "of", "its", "place_of_origin", ",", "venture", "to", "assign", "it", "to", "a", "specific", "area", ";", "imitation", "and", "borrowing", "of", "motif", "now", "become", "ascertainable", "."]
+    oewn2026_key: [[2, "oewn-00736077-v"], [4, "oewn-04529463-n"], [13, "oewn-00023451-n"], [16, "oewn-08527477-n"], [18, "oewn-00918880-v"], [20, "oewn-00728262-v"], [24, "oewn-01106714-a"], [25, "oewn-08514304-n"], [27, "oewn-01022878-n"], [29, "oewn-00085191-n"], [31, "oewn-03794547-n"], [32, "oewn-00049971-r"], [33, "oewn-00149403-v"], [34, "oewn-00742373-s"]]
+    paragraph: '5'
+    pos: ["CD", "MD", "VB", "DT", "NN", "IN", "IN", "CD", "NN", "CC", ",", "IN", "DT", "NN", "IN", "PRP$", "NN", ",", "VB", "TO", "VB", "PRP", "TO", "DT", "JJ", "NN", ":", "NN", "CC", "NN", "IN", "NNS", "RB", "VBP", "JJ", "."]
+    text: ' One can take a vase of about 800 B.C. and, without any knowledge of its place_of_origin,
+  venture to assign it to a specific area; imitation and borrowing of motifs now become
+  ascertainable.'
+    tokens: [[1, 4], [5, 8], [9, 13], [14, 15], [16, 20], [21, 23], [24, 29], [30, 33], [34, 38], [39, 42], [42, 43], [44, 51], [52, 55], [56, 65], [66, 68], [69, 72], [73, 88], [88, 89], [90, 97], [98, 100], [101, 107], [108, 110], [111, 113], [114, 115], [116, 124], [125, 129], [129, 130], [131, 140], [141, 144], [145, 154], [155, 157], [158, 164], [165, 168], [169, 175], [176, 189], [189, 190]]
+    wn16_key: [[2, "take%2:31:03::"], [4, "vase%1:06:00::"], [8, "bc%1:28:00::"], [13, "knowledge%1:03:00::"], [16, "place_of_origin%1:15:00::"], [18, "venture%2:32:00::"], [20, "assign%2:31:02::"], [24, "specific%3:00:00::"], [25, "area%1:15:01::"], [27, "imitation%1:04:00::"], [29, "borrowing%1:04:01::"], [31, "motif%1:06:00::"], [32, "now%4:02:05::"], [33, "become%2:30:00::"], [34, "ascertainable%5:00:00:determinable:00"]]
+    wn30_key: [[2, "take%2:31:03::"], [4, "vase%1:06:00::"], [13, "knowledge%1:03:00::"], [16, "place_of_origin%1:15:00::"], [18, "venture%2:32:00::"], [20, "assign%2:31:02::"], [24, "specific%3:00:00::"], [25, "area%1:15:01::"], [27, "imitation%1:04:00::"], [29, "borrowing%1:04:01::"], [31, "motif%1:06:00::"], [32, "now%4:02:05::"], [33, "become%2:30:00::"], [34, "ascertainable%3:00:00:determinable:00"]]
++MQM:
+    lemmas: ["The", "potter", "of", "the", "aegean_island", "thus", "stand", "apart", "from", "those", "of", "the", "mainland", ",", "and", "in", "greece", "itself", "argive", ",", "corinthian", ",", "attic", ",", "boeotian", ",", "and", "other", "geometric", "sequence", "have", "each", "their", "own", "hallmark", "."]
+    oewn2026_key: [[1, "oewn-10480372-n"], [4, "oewn-08800479-n"], [5, "oewn-00122019-r"], [6, "oewn-02617408-v"], [7, "oewn-00182561-r"], [12, "oewn-09369017-n"], [16, "oewn-08798733-n"], [18, "oewn-03029301-a"], [20, "oewn-02855933-a"], [22, "oewn-03028799-a"], [24, "oewn-03028981-a"], [27, "oewn-02076759-a"], [28, "oewn-01988074-s"], [29, "oewn-08476263-n"], [30, "oewn-02636270-v"], [33, "oewn-01773236-s"], [34, "oewn-04739783-n"]]
+    paragraph: '5'
+    pos: ["DT", "NNS", "IN", "DT", "NNS", "RB", "VBD", "RB", "IN", "DT", "IN", "DT", "NN", ",", "CC", "IN", "NNP", "PRP", "JJ", ",", "JJ", ",", "JJ", ",", "JJ", ",", "CC", "JJ", "JJ", "NNS", "VBP", "DT", "PRP$", "JJ", "NNS", "."]
+    text: ' The potters of the Aegean_islands thus stood apart from those of the mainland, and
+  in Greece itself Argive, Corinthian, Attic, Boeotian, and other Geometric sequences
+  have each their own hallmarks.'
+    tokens: [[1, 4], [5, 12], [13, 15], [16, 19], [20, 34], [35, 39], [40, 45], [46, 51], [52, 56], [57, 62], [63, 65], [66, 69], [70, 78], [78, 79], [80, 83], [84, 86], [87, 93], [94, 100], [101, 107], [107, 108], [109, 119], [119, 120], [121, 126], [126, 127], [128, 136], [136, 137], [138, 141], [142, 147], [148, 157], [158, 167], [168, 172], [173, 177], [178, 183], [184, 187], [188, 197], [197, 198]]
+    wn16_key: [[1, "potter%1:18:00::"], [4, "aegean_island%1:15:00::"], [5, "thus%4:02:01::"], [6, "stand%2:42:04::"], [7, "apart%4:02:03::"], [12, "mainland%1:17:00::"], [16, "greece%1:15:00::"], [18, "argive%3:01:00::"], [20, "corinthian%3:00:00::"], [22, "attic%3:01:00::"], [24, "boeotian%3:01:00::"], [27, "other%3:00:00::"], [28, "geometric%5:00:00:nonrepresentational:00"], [29, "sequence%1:14:00::"], [30, "have%2:42:00::"], [33, "own%5:00:00:personal:00"], [34, "hallmark%1:07:00::"]]
+    wn30_key: [[1, "potter%1:18:00::"], [4, "aegean_island%1:15:00::"], [5, "thus%4:02:01::"], [6, "stand%2:42:04::"], [7, "apart%4:02:03::"], [12, "mainland%1:17:00::"], [16, "greece%1:15:00::"], [18, "argive%3:01:00::"], [20, "corinthian%3:01:02::"], [22, "attic%3:01:00::"], [24, "boeotian%3:01:00::"], [27, "other%3:00:00::"], [28, "geometric%3:00:00:nonrepresentational:00"], [29, "sequence%1:14:00::"], [30, "have%2:42:00::"], [33, "own%3:00:00:personal:00"], [34, "hallmark%1:07:00::"]]
+FGor:
+    lemmas: ["These", "local", "variation", "be", "to", "become", "ever", "sharp", "in", "the", "next", "century", "and", "a", "half", "."]
+    oewn2026_key: [[1, "oewn-01110098-a"], [2, "oewn-07351990-n"], [5, "oewn-00149403-v"], [6, "oewn-00213902-r"], [7, "oewn-00783911-s"], [10, "oewn-00128838-s"], [11, "oewn-15230328-n"], [14, "oewn-13758939-n"]]
+    paragraph: '5'
+    pos: ["DT", "JJ", "NNS", "VBD", "TO", "VB", "RB", "JJR", "IN", "DT", "JJ", "NN", "CC", "DT", "NN", "."]
+    text: ' These local variations were to become ever sharper in the next century and a half.
+
+  '
+    tokens: [[1, 6], [7, 12], [13, 23], [24, 28], [29, 31], [32, 38], [39, 43], [44, 51], [52, 54], [55, 58], [59, 63], [64, 71], [72, 75], [76, 77], [78, 82], [82, 83]]
+    wn16_key: [[1, "local%3:00:01::"], [2, "variation%1:11:01::"], [5, "become%2:30:00::"], [6, "ever%4:02:05::"], [7, "sharp%5:00:00:distinct:00"], [10, "next%5:00:00:succeeding(a):00"], [11, "century%1:28:00::"], [14, "half%1:23:00::"]]
+    wn30_key: [[1, "local%3:00:01::"], [2, "variation%1:11:01::"], [5, "become%2:30:00::"], [6, "ever%4:02:05::"], [7, "sharp%3:00:00:distinct:00"], [10, "next%3:00:00:succeeding:00"], [11, "century%1:28:00::"], [14, "half%1:23:00::"]]
+DKSI:
+    lemmas: ["The", "same", "conclusion", "can", "be", "draw", "from", "the", "other", "physical", "evidence", "of", "the", "dark_ages", ",", "from", "linguistic", "distribution", ",", "and", "from", "the", "survival", "of", "early", "social", ",", "political", ",", "and", "religious", "pattern", "into", "late", "age", "."]
+    oewn2026_key: [[1, "oewn-02075880-a"], [2, "oewn-05846685-n"], [5, "oewn-00732743-v"], [8, "oewn-02076759-a"], [9, "oewn-00629845-s"], [10, "oewn-05832256-n"], [13, "oewn-15284095-n"], [16, "oewn-02853330-a"], [17, "oewn-05094504-n"], [22, "oewn-13985502-n"], [24, "oewn-01733616-s"], [25, "oewn-02256093-a"], [27, "oewn-01819670-a"], [30, "oewn-02063669-s"], [31, "oewn-00411260-n"], [33, "oewn-00820050-a"], [34, "oewn-15278839-n"]]
+    paragraph: '6'
+    pos: ["DT", "JJ", "NNS", "MD", "VB", "VBN", "VB", "DT", "JJ", "JJ", "NN", "IN", "DT", "NNS", ",", "IN", "JJ", "NN", ",", "CC", "IN", "DT", "NNS", "IN", "JJ", "JJ", ",", "JJ", ",", "CC", "JJ", "NNS", "IN", "JJ", "NNS", "."]
+    text: ' The same conclusions can be drawn from the other physical evidence of the Dark_ages,
+  from linguistic distribution, and from the survivals of early social, political,
+  and religious patterns into later ages.'
+    tokens: [[1, 4], [5, 9], [10, 21], [22, 25], [26, 28], [29, 34], [35, 39], [40, 43], [44, 49], [50, 58], [59, 67], [68, 70], [71, 74], [75, 84], [84, 85], [86, 90], [91, 101], [102, 114], [114, 115], [116, 119], [120, 124], [125, 128], [129, 138], [139, 141], [142, 147], [148, 154], [154, 155], [156, 165], [165, 166], [167, 170], [171, 180], [181, 189], [190, 194], [195, 200], [201, 205], [205, 206]]
+    wn16_key: [[1, "same%3:00:02::"], [2, "conclusion%1:09:00::"], [5, "draw%2:31:00::"], [8, "other%3:00:00::"], [9, "physical%5:00:00:material:01"], [10, "evidence%1:09:00::"], [13, "dark_ages%1:28:00::"], [16, "linguistic%3:01:00::"], [17, "distribution%1:07:00::"], [22, "survival%1:26:00::"], [24, "early%5:00:00:past:00"], [25, "social%3:00:00::"], [27, "political%3:00:00::"], [30, "religious%3:01:00::"], [31, "pattern%1:04:00::"], [33, "late%3:00:00::"], [34, "age%1:28:02::"]]
+    wn30_key: [[1, "same%3:00:02::"], [2, "conclusion%1:09:00::"], [5, "draw%2:31:00::"], [8, "other%3:00:00::"], [9, "physical%3:00:00:material:01"], [10, "evidence%1:09:00::"], [13, "dark_ages%1:28:00::"], [16, "linguistic%3:01:00::"], [17, "distribution%1:07:00::"], [22, "survival%1:26:00::"], [24, "early%3:00:00:past:00"], [25, "social%3:00:00::"], [27, "political%3:00:00::"], [30, "religious%3:00:00:sacred:00"], [31, "pattern%1:04:00::"], [33, "late%3:00:00::"], [34, "age%1:28:02::"]]
+MdKi:
+    lemmas: ["By", "800", "bc", "the", "aegean", "be", "an", "area", "of", "common", "tongue", "and", "of", "common", "culture", "."]
+    oewn2026_key: [[4, "oewn-09211506-n"], [5, "oewn-02622439-v"], [7, "oewn-08514304-n"], [9, "oewn-00494722-a"], [10, "oewn-06916947-n"], [13, "oewn-00494722-a"], [14, "oewn-05759791-n"]]
+    paragraph: '6'
+    pos: ["IN", "CD", "NN", "DT", "NNP", "VBD", "DT", "NN", "IN", "JJ", "NN", "CC", "IN", "JJ", "NN", "."]
+    text: ' By 800 B.C. the Aegean was an area of common tongue and of common culture.'
+    tokens: [[1, 3], [4, 7], [8, 12], [13, 16], [17, 23], [24, 27], [28, 30], [31, 35], [36, 38], [39, 45], [46, 52], [53, 56], [57, 59], [60, 66], [67, 74], [74, 75]]
+    wn16_key: [[2, "bc%1:28:00::"], [4, "aegean%1:17:00::"], [5, "be%2:42:06::"], [7, "area%1:15:01::"], [9, "common%3:00:02::"], [10, "tongue%1:10:00::"], [13, "common%3:00:02::"], [14, "culture%1:09:00::"]]
+    wn30_key: [[4, "aegean%1:17:00::"], [5, "be%2:42:06::"], [7, "area%1:15:01::"], [9, "common%3:00:02::"], [10, "tongue%1:10:00::"], [13, "common%3:00:02::"], [14, "culture%1:09:00::"]]
+Bw+K:
+    lemmas: ["On", "these", "pillar", "rest", "that", "solid", "basis", "for", "life", "and", "thought", "which", "be", "soon", "to", "be", "manifest", "in", "the", "remarkably", "unlimited", "ken", "of", "the", "iliad", "."]
+    oewn2026_key: [[2, "oewn-05922436-n"], [3, "oewn-01548665-v"], [5, "oewn-01128873-s"], [6, "oewn-13813124-n"], [8, "oewn-13984978-n"], [10, "oewn-05963348-n"], [13, "oewn-00034309-r"], [16, "oewn-00822637-v"], [19, "oewn-00107917-r"], [20, "oewn-01418456-a"], [21, "oewn-05813165-n"], [24, "oewn-06393695-n"]]
+    paragraph: '6'
+    pos: ["IN", "DT", "NNS", "VBD", "IN", "JJ", "NN", "IN", "NN", "CC", "NN", "WDT", "VBD", "RB", "TO", "VB", "VBN", "IN", "DT", "RB", "JJ", "NN", "IN", "DT", "NNP", "."]
+    text: ' On these pillars rested that solid basis for life and thought which was soon to
+  be manifested in the remarkably unlimited ken of the Iliad.'
+    tokens: [[1, 3], [4, 9], [10, 17], [18, 24], [25, 29], [30, 35], [36, 41], [42, 45], [46, 50], [51, 54], [55, 62], [63, 68], [69, 72], [73, 77], [78, 80], [81, 83], [84, 94], [95, 97], [98, 101], [102, 112], [113, 122], [123, 126], [127, 129], [130, 133], [134, 139], [139, 140]]
+    wn16_key: [[2, "pillar%1:09:00::"], [3, "rest%2:35:00::"], [5, "solid%5:00:00:good:01;solid%5:00:00:sound:01"], [6, "basis%1:24:00::"], [8, "life%1:26:00::"], [10, "thought%1:09:02::"], [13, "soon%4:02:00::"], [16, "manifest%2:32:00::"], [19, "remarkably%4:02:00::"], [20, "unlimited%3:00:00::"], [21, "ken%1:09:00::"], [24, "iliad%1:10:00::"]]
+    wn30_key: [[2, "pillar%1:09:00::"], [3, "rest%2:35:00::"], [5, "solid%3:00:00:good:01;solid%3:00:00:sound:01"], [6, "basis%1:24:00::"], [8, "life%1:26:00::"], [10, "thought%1:09:02::"], [13, "soon%4:02:00::"], [16, "manifest%2:32:00::"], [19, "remarkably%4:02:00::"], [20, "unlimited%3:00:00::"], [21, "ken%1:09:00::"], [24, "iliad%1:10:00::"]]
+SqCo:
+    lemmas: ["everywhere", "within", "the", "common", "pattern", ",", "however", ",", "one", "find", "local", "diversity", ";", "greek", "history", "and", "culture", "be", "enduringly", "fertilize", ",", "and", "plague", ",", "by", "the", "interplay", "of", "these", "conjoined", "yet", "opposed", "factor", "."]
+    oewn2026_key: [[0, "oewn-00026137-r"], [3, "oewn-00494722-a"], [4, "oewn-05947513-n"], [6, "oewn-00027761-r"], [9, "oewn-02253273-v"], [10, "oewn-01110098-a"], [11, "oewn-04758560-n"], [13, "oewn-03027715-a"], [14, "oewn-15146348-n"], [16, "oewn-08304765-n"], [18, "oewn-00251832-r"], [19, "oewn-00503838-v"], [22, "oewn-02777278-v"], [26, "oewn-00039949-n"], [29, "oewn-02119735-s"], [31, "oewn-01667221-a"], [32, "oewn-07342405-n"]]
+    paragraph: '6'
+    pos: ["RB", "IN", "DT", "JJ", "NN", ",", "RB", ",", "CD", "VBZ", "JJ", "NN", ":", "JJ", "NN", "CC", "NN", "VBD", "RB", "VBN", ",", "CC", "VBN", ",", "IN", "DT", "NN", "IN", "DT", "JJ", "RB", "JJ", "NNS", "."]
+    text: ' Everywhere within the common pattern, however, one finds local diversity; Greek
+  history and culture were enduringly fertilized, and plagued, by the interplay of
+  these conjoined yet opposed factors.
+
+  '
+    tokens: [[1, 11], [12, 18], [19, 22], [23, 29], [30, 37], [37, 38], [39, 46], [46, 47], [48, 51], [52, 57], [58, 63], [64, 73], [73, 74], [75, 80], [81, 88], [89, 92], [93, 100], [101, 105], [106, 116], [117, 127], [127, 128], [129, 132], [133, 140], [140, 141], [142, 144], [145, 148], [149, 158], [159, 161], [162, 167], [168, 177], [178, 181], [182, 189], [190, 197], [197, 198]]
+    wn16_key: [[0, "everywhere%4:02:00::"], [3, "common%3:00:02::"], [4, "pattern%1:09:01::"], [6, "however%4:02:00::"], [9, "find%2:40:02::"], [10, "local%3:00:01::"], [11, "diversity%1:07:02::"], [13, "greek%3:01:01::"], [14, "history%1:28:00::"], [16, "culture%1:14:00::"], [18, "enduringly%4:02:00::"], [19, "fertilize%2:30:00::"], [22, "plague%2:43:00::"], [26, "interplay%1:04:00::"], [29, "conjoined%5:00:00:joint:00"], [31, "opposed%3:00:00::"], [32, "factor%1:11:00::"]]
+    wn30_key: [[0, "everywhere%4:02:00::"], [3, "common%3:00:02::"], [4, "pattern%1:09:01::"], [6, "however%4:02:00::"], [9, "find%2:40:02::"], [10, "local%3:00:01::"], [11, "diversity%1:07:02::"], [13, "greek%3:01:01::"], [14, "history%1:28:00::"], [16, "culture%1:14:00::"], [18, "enduringly%4:02:00::"], [19, "fertilize%2:30:00::"], [22, "plague%2:43:00::"], [26, "interplay%1:04:00::"], [29, "conjoined%3:00:00:joint:00"], [31, "opposed%3:00:00::"], [32, "factor%1:11:00::"]]
+RrOF:
+    lemmas: ["further", "we", "cannot", "go", ",", "for", "the", "dark_ages", "deserve", "their", "name", "."]
+    oewn2026_key: [[0, "oewn-00030035-r"], [3, "oewn-00342215-v"], [7, "oewn-15284095-n"], [8, "oewn-02652462-v"], [10, "oewn-06344646-n"]]
+    paragraph: '7'
+    pos: ["RB", "PRP", "MD", "VB", ",", "IN", "DT", "NNS", "VBP", "PRP$", "NN", "."]
+    text: ' Further we cannot go, for the Dark_ages deserve their name.'
+    tokens: [[1, 8], [9, 11], [12, 18], [19, 21], [21, 22], [23, 26], [27, 30], [31, 40], [41, 48], [49, 54], [55, 59], [59, 60]]
+    wn16_key: [[0, "further%4:02:00::"], [3, "go%2:30:01::"], [7, "dark_ages%1:28:00::"], [8, "deserve%2:42:00::"], [10, "name%1:10:00::"]]
+    wn30_key: [[0, "further%4:02:00::"], [3, "go%2:30:01::"], [7, "dark_ages%1:28:00::"], [8, "deserve%2:42:00::"], [10, "name%1:10:00::"]]
+Igi4:
+    lemmas: ["many", "aspect", "of", "civilization", "be", "not_yet", "sufficiently", "crystallize", "to", "find", "expression", ",", "nor", "could", "the", "simple", "economic", "and", "social", "foundation", "of", "this", "world", "support", "a", "lofty", "structure", "."]
+    oewn2026_key: [[0, "oewn-01555990-a"], [1, "oewn-04740358-n"], [3, "oewn-08128749-n"], [6, "oewn-00146607-r"], [7, "oewn-00622730-v"], [9, "oewn-00523831-v"], [10, "oewn-07154581-n"], [15, "oewn-02182456-a"], [16, "oewn-02727475-a"], [18, "oewn-02256093-a"], [19, "oewn-13812924-n"], [22, "oewn-07982551-n"], [23, "oewn-01219607-v"], [25, "oewn-01208145-s"], [26, "oewn-04348764-n"]]
+    paragraph: '7'
+    pos: ["JJ", "NNS", "IN", "NN", "VBD", "RB", "RB", "VBD", "TO", "VB", "NN", ",", "CC", "MD", "DT", "JJ", "JJ", "CC", "JJ", "NNS", "RB", "RB", "NN", "VBP", "DT", "JJ", "NN", "."]
+    text: ' Many aspects of civilization were not_yet sufficiently crystallized to find expression,
+  nor could the simple economic and social foundations of this world support a lofty
+  structure.'
+    tokens: [[1, 5], [6, 13], [14, 16], [17, 29], [30, 34], [35, 42], [43, 55], [56, 68], [69, 71], [72, 76], [77, 87], [87, 88], [89, 92], [93, 98], [99, 102], [103, 109], [110, 118], [119, 122], [123, 129], [130, 141], [142, 144], [145, 149], [150, 155], [156, 163], [164, 165], [166, 171], [172, 181], [181, 182]]
+    wn16_key: [[0, "many%3:00:00::"], [1, "aspect%1:07:02::"], [3, "civilization%1:14:00::"], [5, "not_yet%4:02:00::"], [6, "sufficiently%4:02:00::"], [7, "crystallize%2:31:00::"], [9, "find%2:30:00::"], [10, "expression%1:10:04::"], [15, "simple%3:00:02::"], [16, "economic%3:01:01::"], [18, "social%3:00:00::"], [19, "foundation%1:24:00::"], [22, "world%1:14:01::"], [23, "support%2:35:00::"], [25, "lofty%5:00:00:high:01"], [26, "structure%1:06:00::"]]
+    wn30_key: [[0, "many%3:00:00::"], [1, "aspect%1:07:02::"], [3, "civilization%1:14:00::"], [6, "sufficiently%4:02:00::"], [7, "crystallize%2:31:00::"], [9, "find%2:30:00::"], [10, "expression%1:10:04::"], [15, "simple%3:00:02::"], [16, "economic%3:01:01::"], [18, "social%3:00:00::"], [19, "foundation%1:24:00::"], [22, "world%1:14:01::"], [23, "support%2:35:00::"], [25, "lofty%3:00:00:high:01"], [26, "structure%1:06:00::"]]
+ncVR:
+    lemmas: ["The", "epic_poem", ",", "the", "consolidation", "of", "the", "greek", "pantheon", ",", "the", "rise", "of", "firm", "political_unit", ",", "the", "self-awareness", "which", "could", "permit", "painted", "and", "sculptured", "representation", "of", "man", "-", "all", "these", "have", "to", "await", "the", "progress", "of", "following", "decade", "."]
+    oewn2026_key: [[1, "oewn-06391344-n"], [4, "oewn-07389233-n"], [7, "oewn-03027715-a"], [8, "oewn-08170236-n"], [11, "oewn-07339517-n"], [13, "oewn-02137652-s"], [14, "oewn-08376876-n"], [17, "oewn-05684449-n"], [20, "oewn-00803980-v"], [21, "oewn-01578282-s"], [23, "oewn-00318378-s"], [24, "oewn-04083958-n"], [26, "oewn-10306910-n"], [32, "oewn-00721987-v"], [34, "oewn-00250368-n"], [36, "oewn-00128838-s"], [37, "oewn-15229779-n"]]
+    paragraph: '7'
+    pos: ["DT", "NNS", ",", "DT", "NN", "IN", "DT", "JJ", "NN", ",", "DT", "NN", "IN", "JJ", "NNS", ",", "DT", "NN", "WDT", "VB", "VB", "JJ", "CC", "JJ", "NNS", "IN", "NNS", ":", "DT", "DT", "VB", "VB", "VB", "DT", "NN", "IN", "JJ", "NNS", "."]
+    text: ' The epic_poems, the consolidation of the Greek pantheon, the rise of firm political_units,
+  the self-awareness which could permit painted and sculptured representations of
+  men - all these had to await the progress of following decades.'
+    tokens: [[1, 4], [5, 15], [15, 16], [17, 20], [21, 34], [35, 37], [38, 41], [42, 47], [48, 56], [56, 57], [58, 61], [62, 66], [67, 69], [70, 74], [75, 90], [90, 91], [92, 95], [96, 110], [111, 116], [117, 122], [123, 129], [130, 137], [138, 141], [142, 152], [153, 168], [169, 171], [172, 175], [176, 177], [178, 181], [182, 187], [188, 191], [192, 194], [195, 200], [201, 204], [205, 213], [214, 216], [217, 226], [227, 234], [234, 235]]
+    wn16_key: [[1, "epic_poem%1:10:00::"], [4, "consolidation%1:11:00::"], [7, "greek%3:01:01::"], [8, "pantheon%1:14:00::"], [11, "rise%1:11:00::"], [13, "firm%5:00:00:settled:02"], [14, "political_unit%1:14:00::"], [17, "self-awareness%1:09:00::"], [20, "permit%2:32:00::"], [21, "painted%5:00:00:delineated:00"], [23, "sculptured%5:00:00:carved:00"], [24, "representation%1:06:00::"], [26, "man%1:18:00::"], [32, "await%2:31:00::"], [34, "progress%1:04:01::"], [36, "following%5:00:02:succeeding(a):00"], [37, "decade%1:28:00::"]]
+    wn30_key: [[1, "epic_poem%1:10:00::"], [4, "consolidation%1:11:00::"], [7, "greek%3:01:01::"], [8, "pantheon%1:14:00::"], [11, "rise%1:11:00::"], [13, "firm%3:00:00:settled:02"], [14, "political_unit%1:14:00::"], [17, "self-awareness%1:09:00::"], [20, "permit%2:32:00::"], [21, "painted%3:00:00:artificial:00"], [23, "sculptured%3:00:00:carved:00"], [24, "representation%1:06:00::"], [26, "man%1:18:00::"], [32, "await%2:31:00::"], [34, "progress%1:04:01::"], [36, "following%3:00:02:succeeding:00"], [37, "decade%1:28:00::"]]
+ewl0:
+    lemmas: ["What", "we", "have", "see", "in", "this", "chapter", ",", "we", "have", "see", "only", "dimly", ",", "and", "yet", "the", "result", ",", "however", "general", ",", "be", "worth", "the", "search", "."]
+    oewn2026_key: [[3, "oewn-00600349-v"], [6, "oewn-06407785-n"], [10, "oewn-00592510-v"], [11, "oewn-00005103-r"], [12, "oewn-00213113-r"], [15, "oewn-00028191-r"], [17, "oewn-11430739-n"], [19, "oewn-00028974-r"], [20, "oewn-01105084-a"], [22, "oewn-02610777-v"], [23, "oewn-02596626-s"], [25, "oewn-00638597-n"]]
+    paragraph: '7'
+    pos: ["WP", "PRP", "VBP", "VBN", "RB", "RB", "NN", ",", "PRP", "VBP", "VBN", "RB", "RB", ",", "CC", "RB", "DT", "NNS", ",", "RB", "JJ", ",", "VBP", "JJ", "DT", "NN", "."]
+    text: ' What we have seen in this chapter, we have seen only dimly, and yet the results,
+  however general, are worth the search.'
+    tokens: [[1, 5], [6, 8], [9, 13], [14, 18], [19, 21], [22, 26], [27, 34], [34, 35], [36, 38], [39, 43], [44, 48], [49, 53], [54, 59], [59, 60], [61, 64], [65, 68], [69, 72], [73, 80], [80, 81], [82, 89], [90, 97], [97, 98], [99, 102], [103, 108], [109, 112], [113, 119], [119, 120]]
+    wn16_key: [[3, "see%2:31:02::"], [6, "chapter%1:10:00::"], [10, "see%2:31:01::"], [11, "only%4:02:02::"], [12, "dimly%4:02:00::"], [15, "yet%4:02:02::"], [17, "result%1:19:00::"], [19, "however%4:02:02::"], [20, "general%3:00:00::"], [22, "be%2:42:03::"], [23, "worth%5:00:00:worthy:00"], [25, "search%1:04:02::"]]
+    wn30_key: [[3, "see%2:31:02::"], [6, "chapter%1:10:00::"], [10, "see%2:31:01::"], [11, "only%4:02:02::"], [12, "dimly%4:02:00::"], [15, "yet%4:02:02::"], [17, "result%1:19:00::"], [19, "however%4:02:02::"], [20, "general%3:00:00::"], [22, "be%2:42:03::"], [23, "worth%3:00:00:worthy:00"], [25, "search%1:04:02::"]]
+vokq:
+    lemmas: ["These", "be", "the", "century", "in", "which", "the", "inhabitant", "of", "the", "aegean", "world", "settle", "firmly", "into", "their", "mind", "and", "into", "their", "institution", "the", "foundation", "of", "the", "hellenic", "outlook", ",", "independent", "of", "outside", "force", "."]
+    oewn2026_key: [[1, "oewn-02622439-v"], [3, "oewn-15230328-n"], [7, "oewn-09643248-n"], [10, "oewn-03028672-a"], [11, "oewn-07982551-n"], [12, "oewn-00416323-v"], [13, "oewn-00226317-r"], [16, "oewn-05619057-n"], [20, "oewn-08070328-n"], [22, "oewn-03391862-n"], [25, "oewn-03027318-a"], [26, "oewn-06205574-n"], [28, "oewn-00735050-s"], [30, "oewn-01350597-s"], [31, "oewn-05201846-n"]]
+    paragraph: '7'
+    pos: ["DT", "VBP", "DT", "NNS", "RB", "RB", "DT", "NNS", "IN", "DT", "JJ", "NN", "VBD", "RB", "IN", "PRP$", "NNS", "CC", "IN", "PRP$", "NNS", "DT", "NNS", "IN", "DT", "JJ", "NN", ",", "JJ", "IN", "JJ", "NNS", "."]
+    text: ' These are the centuries in which the inhabitants of the Aegean world settled firmly
+  into their minds and into their institutions the foundations of the Hellenic outlook,
+  independent of outside forces.
+
+  '
+    tokens: [[1, 6], [7, 10], [11, 14], [15, 24], [25, 27], [28, 33], [34, 37], [38, 49], [50, 52], [53, 56], [57, 63], [64, 69], [70, 77], [78, 84], [85, 89], [90, 95], [96, 101], [102, 105], [106, 110], [111, 116], [117, 129], [130, 133], [134, 145], [146, 148], [149, 152], [153, 161], [162, 169], [169, 170], [171, 182], [183, 185], [186, 193], [194, 200], [200, 201]]
+    wn16_key: [[1, "be%2:42:06::"], [3, "century%1:28:00::"], [7, "inhabitant%1:18:00::"], [10, "aegean%3:01:01::"], [11, "world%1:14:01::"], [12, "settle%2:30:02::"], [13, "firmly%4:02:03::"], [16, "mind%1:09:00::"], [20, "institution%1:14:00::"], [22, "foundation%1:06:00::"], [25, "hellenic%3:01:00::"], [26, "outlook%1:09:01::"], [28, "independent%5:00:00:absolute:00"], [30, "outside%5:00:00:extramural:00"], [31, "force%1:07:01::"]]
+    wn30_key: [[1, "be%2:42:06::"], [3, "century%1:28:00::"], [7, "inhabitant%1:18:00::"], [10, "aegean%3:01:01::"], [11, "world%1:14:01::"], [12, "settle%2:30:02::"], [13, "firmly%4:02:03::"], [16, "mind%1:09:00::"], [20, "institution%1:14:00::"], [22, "foundation%1:06:00::"], [25, "hellenic%3:01:00::"], [26, "outlook%1:09:01::"], [28, "independent%3:00:00:nonpartisan:00"], [30, "outside%3:00:00:extramural:00"], [31, "force%1:07:01::"]]
+YAS+:
+    lemmas: ["To", "interpret", ",", "indeed", ",", "the", "era", "from", "1000", "to", "800", "as", "a", "period", "mainly", "of", "consolidation", "may", "be", "a", "necessary", "but", "unfortunate", "defect", "bear", "of", "our", "lack", "of", "detailed", "information", ";", "if", "we", "could", "see", "more", "deeply", ",", "we", "probably", "would", "find", "many", "side", "issue", "and", "wrong", "turning", "which", "come", "to", "an", "end", "within", "the", "period", "."]
+    oewn2026_key: [[1, "oewn-01690027-v"], [6, "oewn-15273375-n"], [13, "oewn-15137796-n"], [14, "oewn-00074163-r"], [16, "oewn-01239980-n"], [18, "oewn-02610777-v"], [20, "oewn-01584458-a"], [22, "oewn-01053161-a"], [23, "oewn-05170169-n"], [24, "oewn-01655681-v"], [27, "oewn-14472871-n"], [29, "oewn-00311231-s"], [30, "oewn-05824413-n"], [35, "oewn-00592510-v"], [36, "oewn-00099891-r"], [37, "oewn-00174785-r"], [40, "oewn-00139421-r"], [42, "oewn-02253273-v"], [43, "oewn-01555990-a"], [44, "oewn-02450419-a"], [45, "oewn-05822776-n"], [47, "oewn-02042744-a"], [48, "oewn-00196264-n"], [50, "oewn-00543200-v"], [53, "oewn-14586552-n"], [56, "oewn-15137796-n"]]
+    paragraph: '8'
+    pos: ["TO", "VB", ",", "RB", ",", "DT", "NN", "IN", "CD", "TO", "CD", "IN", "DT", "NN", "RB", "IN", "NN", "MD", "VB", "DT", "JJ", "CC", "JJ", "NN", "VBN", "IN", "PRP$", "NN", "IN", "JJ", "NN", ":", "IN", "PRP", "MD", "VB", "RBR", "RB", ",", "PRP", "RB", "MD", "VB", "JJ", "JJ", "NNS", "CC", "JJ", "NNS", "WDT", "VBD", "VB", "VB", "NN", "IN", "DT", "NN", "."]
+    text: ' To interpret, indeed, the era from 1000 to 800 as a period mainly of consolidation
+  may be a necessary but unfortunate defect born of our lack of detailed information;
+  if we could see more deeply, we probably would find many side issues and wrong turnings
+  which came to an end within the period.'
+    tokens: [[1, 3], [4, 13], [13, 14], [15, 21], [21, 22], [23, 26], [27, 30], [31, 35], [36, 40], [41, 43], [44, 47], [48, 50], [51, 52], [53, 59], [60, 66], [67, 69], [70, 83], [84, 87], [88, 90], [91, 92], [93, 102], [103, 106], [107, 118], [119, 125], [126, 130], [131, 133], [134, 137], [138, 142], [143, 145], [146, 154], [155, 166], [166, 167], [168, 170], [171, 173], [174, 179], [180, 183], [184, 188], [189, 195], [195, 196], [197, 199], [200, 208], [209, 214], [215, 219], [220, 224], [225, 229], [230, 236], [237, 240], [241, 246], [247, 255], [256, 261], [262, 266], [267, 269], [270, 272], [273, 276], [277, 283], [284, 287], [288, 294], [294, 295]]
+    wn16_key: [[1, "interpret%2:36:01::"], [6, "era%1:28:00::"], [13, "period%1:28:00::"], [14, "mainly%4:02:00::"], [16, "consolidation%1:04:00::"], [18, "be%2:42:03::"], [20, "necessary%3:00:00::"], [22, "unfortunate%3:00:00::"], [23, "defect%1:07:01::"], [24, "bear%2:36:00::"], [27, "lack%1:26:00::"], [29, "detailed%5:00:00:careful:00"], [30, "information%1:09:00::"], [35, "see%2:31:01::"], [36, "more%4:02:00::"], [37, "deeply%4:02:00::"], [40, "probably%4:02:00::"], [42, "find%2:40:02::"], [43, "many%3:00:00::"], [44, "side%5:00:00:incidental:00"], [45, "issue%1:09:01::"], [47, "wrong%3:00:01::"], [48, "turning%1:04:01::"], [50, "come%2:42:01::"], [53, "end%1:26:00::"], [56, "period%1:28:00::"]]
+    wn30_key: [[1, "interpret%2:36:01::"], [6, "era%1:28:00::"], [13, "period%1:28:00::"], [14, "mainly%4:02:00::"], [16, "consolidation%1:04:00::"], [18, "be%2:42:03::"], [20, "necessary%3:00:00::"], [22, "unfortunate%3:00:00::"], [23, "defect%1:07:01::"], [24, "bear%2:36:00::"], [27, "lack%1:26:00::"], [29, "detailed%3:00:00:careful:00"], [30, "information%1:09:00::"], [35, "see%2:31:01::"], [36, "more%4:02:00::"], [37, "deeply%4:02:00::"], [40, "probably%4:02:00::"], [42, "find%2:40:02::"], [43, "many%3:00:00::"], [44, "side%3:00:00::"], [45, "issue%1:09:01::"], [47, "wrong%3:00:01::"], [48, "turning%1:04:01::"], [50, "come%2:30:03::"], [53, "end%1:26:00::"], [56, "period%1:28:00::"]]
+6eZ9:
+    lemmas: ["The", "historian", "can", "only", "point_out", "those", "line", "which", "be", "major", "enough", "to", "find", "reflection", "in", "our", "limited", "evidence", ",", "and", "must", "hope", "that", "future", "excavation", "will", "enrich", "our", "understanding", "."]
+    oewn2026_key: [[1, "oewn-10196781-n"], [3, "oewn-00005103-r"], [4, "oewn-01060446-v"], [6, "oewn-08393816-n"], [8, "oewn-02610777-v"], [9, "oewn-01475771-a"], [10, "oewn-00146749-r"], [12, "oewn-00523831-v"], [13, "oewn-06893299-n"], [16, "oewn-00531396-s"], [17, "oewn-05832256-n"], [21, "oewn-01830665-v"], [23, "oewn-01736519-a"], [24, "oewn-00943790-n"], [26, "oewn-00171599-v"], [28, "oewn-05813483-n"]]
+    paragraph: '8'
+    pos: ["DT", "NN", "MD", "RB", "VB", "DT", "NNS", "WDT", "VBD", "JJ", "RB", "TO", "VB", "NN", "IN", "PRP$", "JJ", "NN", ",", "CC", "MD", "VB", "IN", "JJ", "NNS", "MD", "VB", "PRP$", "NN", "."]
+    text: ' The historian can only point_out those lines which were major enough to find reflection
+  in our limited evidence, and must hope that future excavations will enrich our understanding.'
+    tokens: [[1, 4], [5, 14], [15, 18], [19, 23], [24, 33], [34, 39], [40, 45], [46, 51], [52, 56], [57, 62], [63, 69], [70, 72], [73, 77], [78, 88], [89, 91], [92, 95], [96, 103], [104, 112], [112, 113], [114, 117], [118, 122], [123, 127], [128, 132], [133, 139], [140, 151], [152, 156], [157, 163], [164, 167], [168, 181], [181, 182]]
+    wn16_key: [[1, "historian%1:18:00::"], [3, "only%4:02:02::"], [4, "point_out%2:32:01::"], [6, "line%1:14:02::"], [8, "be%2:42:03::"], [9, "major%3:00:06::"], [10, "enough%4:02:00::"], [12, "find%2:30:00::"], [13, "reflection%1:10:01::"], [16, "limited%5:00:00:noncomprehensive:00"], [17, "evidence%1:09:00::"], [21, "hope%2:37:01::"], [23, "future%3:00:00::"], [24, "excavation%1:04:01::"], [26, "enrich%2:30:00::"], [28, "understanding%1:09:01::"]]
+    wn30_key: [[1, "historian%1:18:00::"], [3, "only%4:02:02::"], [4, "point_out%2:32:01::"], [6, "line%1:14:02::"], [8, "be%2:42:03::"], [9, "major%3:00:06::"], [10, "enough%4:02:00::"], [12, "find%2:30:00::"], [13, "reflection%1:10:01::"], [16, "limited%3:00:00:noncomprehensive:00"], [17, "evidence%1:09:00::"], [21, "hope%2:37:01::"], [23, "future%3:00:00::"], [24, "excavation%1:04:01::"], [26, "enrich%2:30:00::"], [28, "understanding%1:09:01::"]]
+9ZNO:
+    lemmas: ["Throughout", "the", "dark_ages", ",", "it", "be", "clear", ",", "the", "greek", "world", "have", "be", "develop", "slowly", "but", "consistently", "."]
+    oewn2026_key: [[2, "oewn-15284095-n"], [5, "oewn-02610777-v"], [6, "oewn-00429900-a"], [9, "oewn-03027715-a"], [10, "oewn-07982551-n"], [13, "oewn-00411945-v"], [14, "oewn-00162829-r"], [16, "oewn-00121358-r"]]
+    paragraph: '8'
+    pos: ["IN", "DT", "NNS", ",", "PRP", "VBZ", "JJ", ",", "DT", "JJ", "NN", "VBD", "VBN", "VBG", "RB", "CC", "RB", "."]
+    text: ' Throughout the Dark_ages, it is clear, the Greek world had been developing slowly
+  but consistently.'
+    tokens: [[1, 11], [12, 15], [16, 25], [25, 26], [27, 29], [30, 32], [33, 38], [38, 39], [40, 43], [44, 49], [50, 55], [56, 59], [60, 64], [65, 75], [76, 82], [83, 86], [87, 99], [99, 100]]
+    wn16_key: [[2, "dark_ages%1:28:00::"], [5, "be%2:42:03::"], [6, "clear%3:00:00::"], [9, "greek%3:01:01::"], [10, "world%1:14:01::"], [13, "develop%2:30:09::"], [14, "slowly%4:02:02::"], [16, "consistently%4:02:00::"]]
+    wn30_key: [[2, "dark_ages%1:28:00::"], [5, "be%2:42:03::"], [6, "clear%3:00:00::"], [9, "greek%3:01:01::"], [10, "world%1:14:01::"], [13, "develop%2:30:09::"], [14, "slowly%4:02:02::"], [16, "consistently%4:02:00::"]]
+oYBN:
+    lemmas: ["The", "pace", "could", "now", "be", "accelerate", ",", "for", "the", "inhabitant", "of", "the", "aegean", "stood_on_firm_ground", "."]
+    oewn2026_key: [[1, "oewn-15305715-n"], [3, "oewn-00049971-r"], [5, "oewn-00439133-v"], [9, "oewn-09643248-n"], [12, "oewn-09211506-n"]]
+    paragraph: '8'
+    pos: ["DT", "NN", "MD", "RB", "VB", "VBN", ",", "IN", "DT", "NNS", "IN", "DT", "NN", "NN", "."]
+    text: ' The pace could now be accelerated, for the inhabitants of the Aegean stood_on_firm_ground.
+
+  '
+    tokens: [[1, 4], [5, 9], [10, 15], [16, 19], [20, 22], [23, 34], [34, 35], [36, 39], [40, 43], [44, 55], [56, 58], [59, 62], [63, 69], [70, 90], [90, 91]]
+    wn16_key: [[1, "pace%1:28:00::"], [3, "now%4:02:05::"], [5, "accelerate%2:30:00::"], [9, "inhabitant%1:18:00::"], [12, "aegean%1:17:00::"]]
+    wn30_key: [[1, "pace%1:28:00::"], [3, "now%4:02:05::"], [5, "accelerate%2:30:00::"], [9, "inhabitant%1:18:00::"], [12, "aegean%1:17:00::"]]
+tTMe:
+    lemmas: ["The", "landscape", "of", "greek", "history", "broaden", "widely", ",", "and", "rather", "abruptly", ",", "in", "the", "eighth", "century", "bc", ",", "the", "age", "of", "homer", "'s", "\"", "rosy", "fingered", "dawn", "\"", "."]
+    oewn2026_key: [[3, "oewn-03027715-a"], [4, "oewn-15146348-n"], [5, "oewn-00318370-v"], [6, "oewn-00497722-r"], [9, "oewn-00018764-r"], [10, "oewn-81484980-r"], [14, "oewn-02210792-s"], [15, "oewn-15230328-n"], [19, "oewn-15278839-n"], [21, "oewn-11077376-n"], [24, "oewn-00372673-s"], [25, "oewn-00949257-a"], [26, "oewn-15193837-n"]]
+    paragraph: '9'
+    pos: ["DT", "NN", "IN", "JJ", "NN", "VBZ", "RB", ",", "CC", "RB", "RB", ",", "IN", "DT", "JJ", "NN", "NN", ",", "DT", "NN", "IN", "NNP", "POS", "``", "JJ", "JJ", "NN", "''", "."]
+    text: ' The landscape of Greek history broadens widely, and rather abruptly, in the eighth
+  century B.C., the age of Homer''s " rosy fingered Dawn ".'
+    tokens: [[1, 4], [5, 14], [15, 17], [18, 23], [24, 31], [32, 40], [41, 47], [47, 48], [49, 52], [53, 59], [60, 68], [68, 69], [70, 72], [73, 76], [77, 83], [84, 91], [92, 96], [96, 97], [98, 101], [102, 105], [106, 108], [109, 114], [114, 116], [117, 118], [119, 123], [124, 132], [133, 137], [138, 139], [139, 140]]
+    wn16_key: [[3, "greek%3:01:01::"], [4, "history%1:28:00::"], [5, "broaden%2:30:01::"], [6, "widely%4:02:00::"], [9, "rather%4:02:04::"], [10, "abruptly%4:02:00::"], [14, "eighth%5:00:00:ordinal:00"], [15, "century%1:28:00::"], [16, "bc%1:28:00::"], [19, "age%1:28:02::"], [21, "homer%1:18:00::"], [24, "rosy%5:00:00:chromatic:00"], [25, "fingered%3:00:00::"], [26, "dawn%1:28:00::"]]
+    wn30_key: [[3, "greek%3:01:01::"], [4, "history%1:28:00::"], [5, "broaden%2:30:01::"], [6, "widely%4:02:01::"], [9, "rather%4:02:04::"], [10, "abruptly%4:02:00::"], [14, "eighth%3:00:00:ordinal:00"], [15, "century%1:28:00::"], [19, "age%1:28:02::"], [21, "homer%1:18:00::"], [24, "rosy%3:00:00:chromatic:00"], [25, "fingered%3:00:00::"], [26, "dawn%1:28:00::"]]
+1WQ8:
+    lemmas: ["The", "first", "slanting", "ray", "of", "the", "new", "day", "cannot", "yet", "dispel", "all", "the", "dark", "shadow", "which", "lie", "across", "the", "aegean", "world", ";", "but", "our", "evidence", "grow", "considerably", "in", "variety", "and", "show", "more", "unmistakably", "some", "of", "the", "line", "of", "change", "."]
+    oewn2026_key: [[1, "oewn-01014459-a"], [2, "oewn-01237620-s"], [3, "oewn-11448137-n"], [6, "oewn-01645077-a"], [7, "oewn-15190004-n"], [9, "oewn-00028314-r"], [10, "oewn-02006752-v"], [11, "oewn-02277044-a"], [13, "oewn-00273948-a"], [14, "oewn-14008429-n"], [16, "oewn-02696550-v"], [19, "oewn-03028672-a"], [20, "oewn-07982551-n"], [24, "oewn-05832256-n"], [25, "oewn-00231172-v"], [26, "oewn-00014747-r"], [28, "oewn-04758560-n"], [30, "oewn-00666706-v"], [31, "oewn-00099891-r"], [32, "oewn-00213360-r"], [36, "oewn-08393816-n"], [38, "oewn-13881240-n"]]
+    paragraph: '9'
+    pos: ["DT", "JJ", "JJ", "NNS", "IN", "DT", "JJ", "NN", "MD", "RB", "VB", "JJ", "DT", "JJ", "NNS", "WDT", "VBP", "IN", "DT", "JJ", "NN", ":", "CC", "PRP$", "NN", "VBZ", "RB", "IN", "NN", "CC", "VBZ", "RBR", "RB", "DT", "IN", "DT", "NNS", "IN", "NN", "."]
+    text: ' The first slanting rays of the new day cannot yet dispel all the dark shadows which
+  lie across the Aegean world; but our evidence grows considerably in variety and
+  shows more unmistakably some of the lines of change.'
+    tokens: [[1, 4], [5, 10], [11, 19], [20, 24], [25, 27], [28, 31], [32, 35], [36, 39], [40, 46], [47, 50], [51, 57], [58, 61], [62, 65], [66, 70], [71, 78], [79, 84], [85, 88], [89, 95], [96, 99], [100, 106], [107, 112], [112, 113], [114, 117], [118, 121], [122, 130], [131, 136], [137, 149], [150, 152], [153, 160], [161, 164], [165, 170], [171, 175], [176, 188], [189, 193], [194, 196], [197, 200], [201, 206], [207, 209], [210, 216], [216, 217]]
+    wn16_key: [[1, "first%3:00:00::"], [2, "slanting%5:00:00:inclined:01"], [3, "ray%1:19:00::"], [6, "new%3:00:00::"], [7, "day%1:28:02::"], [9, "yet%4:02:04::"], [10, "dispel%2:38:00::"], [11, "all%3:00:00::"], [13, "dark%3:00:01::"], [14, "shadow%1:26:01::"], [16, "lie%2:42:00::"], [19, "aegean%3:01:01::"], [20, "world%1:14:01::"], [24, "evidence%1:09:00::"], [25, "grow%2:30:00::"], [26, "considerably%4:02:01::"], [28, "variety%1:07:00::"], [30, "show%2:31:00::"], [31, "more%4:02:00::"], [32, "unmistakably%4:02:00::"], [36, "line%1:14:02::"], [38, "change%1:24:00::"]]
+    wn30_key: [[1, "first%3:00:00::"], [2, "slanting%3:00:00:inclined:01"], [3, "ray%1:19:00::"], [6, "new%3:00:00::"], [7, "day%1:28:02::"], [9, "yet%4:02:04::"], [10, "dispel%2:38:00::"], [11, "all%3:00:00::"], [13, "dark%3:00:01::"], [14, "shadow%1:26:01::"], [16, "lie%2:42:00::"], [19, "aegean%3:01:01::"], [20, "world%1:14:01::"], [24, "evidence%1:09:00::"], [25, "grow%2:30:00::"], [26, "considerably%4:02:01::"], [28, "variety%1:07:00::"], [30, "show%2:31:00::"], [31, "more%4:02:00::"], [32, "unmistakably%4:02:00::"], [36, "line%1:14:02::"], [38, "change%1:24:00::"]]
+1LQW:
+    lemmas: ["For", "this", "period", ",", "as", "for", "early", "century", ",", "pottery", "remain", "the", "most", "secure", "source", ";", "the", "ceramic", "material", "of", "the", "age", "be", "more", "abundant", ",", "more", "diversified", ",", "and", "more", "indicative_of", "the", "hope", "and", "fear", "of", "its", "maker", ",", "who", "begin", "to", "show", "scene", "of", "human", "life", "and", "death", "."]
+    oewn2026_key: [[2, "oewn-15137796-n"], [6, "oewn-01733616-s"], [7, "oewn-15230328-n"], [9, "oewn-03999061-n"], [10, "oewn-00117793-v"], [12, "oewn-00112352-r"], [13, "oewn-02101168-a"], [14, "oewn-06687867-n"], [17, "oewn-03026954-a"], [18, "oewn-14604877-n"], [21, "oewn-15278839-n"], [22, "oewn-02610777-v"], [23, "oewn-00099891-r"], [24, "oewn-00013906-a"], [26, "oewn-00099891-r"], [27, "oewn-00786685-a"], [30, "oewn-00099891-r"], [33, "oewn-07526972-n"], [35, "oewn-07534492-n"], [38, "oewn-10303761-n"], [41, "oewn-00346415-v"], [43, "oewn-01690851-v"], [44, "oewn-05941982-n"], [46, "oewn-02754015-a"], [47, "oewn-13984685-n"], [49, "oewn-13985834-n"]]
+    paragraph: '9'
+    pos: ["IN", "DT", "NN", ",", "IN", "IN", "JJR", "NNS", ",", "NN", "VBZ", "RB", "RBS", "JJ", "NN", ":", "DT", "JJ", "NN", "IN", "DT", "NN", "VBZ", "RBR", "JJ", ",", "RBR", "JJ", ",", "CC", "RB", "JJ", "DT", "NNS", "CC", "NNS", "IN", "PRP$", "NNS", ",", "WP", "VBP", "TO", "VB", "NNS", "IN", "JJ", "NN", "CC", "NN", "."]
+    text: ' For this period, as for earlier centuries, pottery remains the most secure source;
+  the ceramic material of the age is more abundant, more diversified, and more indicative_of
+  the hopes and fears of its makers, who begin to show scenes of human life and death.'
+    tokens: [[1, 4], [5, 9], [10, 16], [16, 17], [18, 20], [21, 24], [25, 32], [33, 42], [42, 43], [44, 51], [52, 59], [60, 63], [64, 68], [69, 75], [76, 82], [82, 83], [84, 87], [88, 95], [96, 104], [105, 107], [108, 111], [112, 115], [116, 118], [119, 123], [124, 132], [132, 133], [134, 138], [139, 150], [150, 151], [152, 155], [156, 160], [161, 174], [175, 178], [179, 184], [185, 188], [189, 194], [195, 197], [198, 201], [202, 208], [208, 209], [210, 213], [214, 219], [220, 222], [223, 227], [228, 234], [235, 237], [238, 243], [244, 248], [249, 252], [253, 258], [258, 259]]
+    wn16_key: [[2, "period%1:28:00::"], [6, "early%5:00:00:past:00"], [7, "century%1:28:00::"], [9, "pottery%1:06:00::"], [10, "remain%2:30:00::"], [12, "most%4:02:00::"], [13, "secure%3:00:02::"], [14, "source%1:10:00::"], [17, "ceramic%3:01:00::"], [18, "material%1:27:00::"], [21, "age%1:28:02::"], [22, "be%2:42:03::"], [23, "more%4:02:00::"], [24, "abundant%3:00:00::"], [26, "more%4:02:00::"], [27, "diversified%3:00:00::"], [30, "more%4:02:00::"], [31, "indicative_of%5:00:00:communicative:00"], [33, "hope%1:12:01::"], [35, "fear%1:12:00::"], [38, "maker%1:18:00::"], [41, "begin%2:30:00::"], [43, "show%2:36:00::"], [44, "scene%1:09:00::"], [46, "human%3:01:00::"], [47, "life%1:26:02::"], [49, "death%1:26:00::"]]
+    wn30_key: [[2, "period%1:28:00::"], [6, "early%3:00:00:past:00"], [7, "century%1:28:00::"], [9, "pottery%1:06:00::"], [10, "remain%2:30:00::"], [12, "most%4:02:00::"], [13, "secure%3:00:02::"], [14, "source%1:10:00::"], [17, "ceramic%3:01:00::"], [18, "material%1:27:00::"], [21, "age%1:28:02::"], [22, "be%2:42:03::"], [23, "more%4:02:00::"], [24, "abundant%3:00:00::"], [26, "more%4:02:00::"], [27, "diversified%3:00:00::"], [30, "more%4:02:00::"], [33, "hope%1:12:01::"], [35, "fear%1:12:00::"], [38, "maker%1:18:00::"], [41, "begin%2:30:00::"], [43, "show%2:36:00::"], [44, "scene%1:09:00::"], [46, "human%3:01:00::"], [47, "life%1:26:02::"], [49, "death%1:26:00::"]]
+gTBH:
+    lemmas: ["figurine", "and", "simple", "chapel", "presage", "the", "emergence", "of", "sculpture", "and", "architecture", "in", "greece", ";", "object", "in", "gold", ",", "ivory", ",", "and", "bronze", "grow", "more", "numerous", "."]
+    oewn2026_key: [[0, "oewn-03341404-n"], [2, "oewn-02182456-a"], [3, "oewn-03010734-n"], [4, "oewn-00873606-v"], [6, "oewn-07339273-n"], [8, "oewn-00939472-n"], [10, "oewn-02737730-n"], [12, "oewn-08798733-n"], [14, "oewn-00002684-n"], [16, "oewn-14662977-n"], [18, "oewn-14781726-n"], [21, "oewn-14741436-n"], [22, "oewn-00125649-v"], [23, "oewn-01559526-a"], [24, "oewn-01556776-s"]]
+    paragraph: '9'
+    pos: ["NNS", "CC", "JJ", "NNS", "VBP", "DT", "NN", "IN", "NN", "CC", "NN", "IN", "NNP", ":", "NNS", "IN", "NN", ",", "NN", ",", "CC", "NN", "VBP", "JJ", "JJ", "."]
+    text: ' Figurines and simple chapels presage the emergence of sculpture and architecture
+  in Greece; objects in gold, ivory, and bronze grow more numerous.'
+    tokens: [[1, 10], [11, 14], [15, 21], [22, 29], [30, 37], [38, 41], [42, 51], [52, 54], [55, 64], [65, 68], [69, 81], [82, 84], [85, 91], [91, 92], [93, 100], [101, 103], [104, 108], [108, 109], [110, 115], [115, 116], [117, 120], [121, 127], [128, 132], [133, 137], [138, 146], [146, 147]]
+    wn16_key: [[0, "figurine%1:06:00::"], [2, "simple%3:00:02::"], [3, "chapel%1:06:00::"], [4, "presage%2:32:00::"], [6, "emergence%1:11:01::"], [8, "sculpture%1:04:00::"], [10, "architecture%1:06:00::"], [12, "greece%1:15:00::"], [14, "object%1:03:00::"], [16, "gold%1:27:00::"], [18, "ivory%1:27:00::"], [21, "bronze%1:27:00::"], [22, "grow%2:30:03::"], [23, "more%3:00:01::"], [24, "numerous%5:00:00:many:00"]]
+    wn30_key: [[0, "figurine%1:06:00::"], [2, "simple%3:00:02::"], [3, "chapel%1:06:00::"], [4, "presage%2:32:00::"], [6, "emergence%1:11:01::"], [8, "sculpture%1:04:00::"], [10, "architecture%1:06:00::"], [12, "greece%1:15:00::"], [14, "object%1:03:00::"], [16, "gold%1:27:00::"], [18, "ivory%1:27:00::"], [21, "bronze%1:27:00::"], [22, "grow%2:30:03::"], [23, "more%3:00:01::"], [24, "numerous%3:00:00:many:00"]]
+6Alg:
+    lemmas: ["Since", "writing", "be", "practice", "in", "the", "aegean", "before", "the", "end", "of", "the", "century", ",", "we", "may", "hope", "that", "the", "detail", "of", "tradition", "will", "now", "be", "occasionally", "useful", "."]
+    oewn2026_key: [[1, "oewn-00615511-n"], [3, "oewn-02574587-v"], [6, "oewn-09211506-n"], [9, "oewn-15291722-n"], [12, "oewn-15230328-n"], [16, "oewn-01830665-v"], [19, "oewn-05825971-n"], [21, "oewn-05817771-n"], [23, "oewn-00049013-r"], [24, "oewn-02610777-v"], [25, "oewn-00021667-r"], [26, "oewn-02505612-a"]]
+    paragraph: '9'
+    pos: ["IN", "NN", "VBD", "VBN", "IN", "DT", "NNP", "IN", "DT", "NN", "IN", "DT", "NN", ",", "PRP", "MD", "VB", "IN", "DT", "NNS", "IN", "NN", "MD", "RB", "VB", "RB", "JJ", "."]
+    text: ' Since writing was practiced in the Aegean before the end of the century, we may
+  hope that the details of tradition will now be occasionally useful.'
+    tokens: [[1, 6], [7, 14], [15, 18], [19, 28], [29, 31], [32, 35], [36, 42], [43, 49], [50, 53], [54, 57], [58, 60], [61, 64], [65, 72], [72, 73], [74, 76], [77, 80], [81, 85], [86, 90], [91, 94], [95, 102], [103, 105], [106, 115], [116, 120], [121, 124], [125, 127], [128, 140], [141, 147], [147, 148]]
+    wn16_key: [[1, "writing%1:04:01::"], [3, "practice%2:41:00::"], [6, "aegean%1:17:00::"], [9, "end%1:28:00::"], [12, "century%1:28:00::"], [16, "hope%2:37:01::"], [19, "detail%1:09:00::"], [21, "tradition%1:09:01::"], [23, "now%4:02:00::"], [24, "be%2:42:03::"], [25, "occasionally%4:02:00::"], [26, "useful%3:00:00::"]]
+    wn30_key: [[1, "writing%1:04:01::"], [3, "practice%2:41:00::"], [6, "aegean%1:17:00::"], [9, "end%1:28:00::"], [12, "century%1:28:00::"], [16, "hope%2:37:01::"], [19, "detail%1:09:00::"], [21, "tradition%1:09:01::"], [23, "now%4:02:00::"], [24, "be%2:42:03::"], [25, "occasionally%4:02:00::"], [26, "useful%3:00:00::"]]
+5x7B:
+    lemmas: ["Though", "it", "be", "not", "easy", "to", "apply", "the", "evidence", "of", "the", "iliad", "to", "any", "specific", "era", ",", "this", "marvelous", "product", "of", "the", "epic", "tradition", "have", "certainly", "take_shape", "definitive", "shape", "by", "750", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"], [3, "oewn-00024432-r"], [4, "oewn-00752852-a"], [6, "oewn-01161188-v"], [8, "oewn-06656171-n"], [11, "oewn-06393695-n"], [14, "oewn-01106714-a"], [15, "oewn-15273375-n"], [18, "oewn-01681111-s"], [19, "oewn-04014270-n"], [22, "oewn-03027102-a"], [23, "oewn-05817771-n"], [25, "oewn-00145758-r"], [26, "oewn-02629987-v"], [27, "oewn-00944238-s"]]
+    paragraph: '9'
+    pos: ["IN", "PRP", "VBZ", "RB", "JJ", "TO", "VB", "DT", "NN", "IN", "DT", "NNP", "TO", "DT", "JJ", "NN", ",", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "VBD", "RB", "VBN", "JJ", "NN", "IN", "CD", "."]
+    text: ' Though it is not easy to apply the evidence of the Iliad to any specific era, this
+  marvelous product of the epic tradition had certainly taken definitive shape by
+  750.
+
+  '
+    tokens: [[1, 7], [8, 10], [11, 13], [14, 17], [18, 22], [23, 25], [26, 31], [32, 35], [36, 44], [45, 47], [48, 51], [52, 57], [58, 60], [61, 64], [65, 73], [74, 77], [77, 78], [79, 83], [84, 93], [94, 101], [102, 104], [105, 108], [109, 113], [114, 123], [124, 127], [128, 137], [138, 143], [144, 154], [155, 160], [161, 163], [164, 167], [167, 168]]
+    wn16_key: [[2, "be%2:42:03::"], [3, "not%4:02:00::"], [4, "easy%3:00:01::"], [6, "apply%2:34:00::"], [8, "evidence%1:10:01::"], [11, "iliad%1:10:00::"], [14, "specific%3:00:00::"], [15, "era%1:28:00::"], [18, "marvelous%5:00:00:extraordinary:00"], [19, "product%1:06:00::"], [22, "epic%3:01:00::"], [23, "tradition%1:09:01::"], [25, "certainly%4:02:00::"], [26, "take_shape%2:42:00::"], [27, "definitive%5:00:00:explicit:00"]]
+    wn30_key: [[2, "be%2:42:03::"], [3, "not%4:02:00::"], [4, "easy%3:00:01::"], [6, "apply%2:34:00::"], [8, "evidence%1:10:01::"], [11, "iliad%1:10:00::"], [14, "specific%3:00:00::"], [15, "era%1:28:00::"], [18, "marvelous%3:00:00:extraordinary:00"], [19, "product%1:06:00::"], [22, "epic%3:01:00::"], [23, "tradition%1:09:01::"], [25, "certainly%4:02:00::"], [26, "take_shape%2:42:00::"], [27, "definitive%3:00:00:explicit:00"]]
+3fj0:
+    lemmas: ["The", "dipylon_geometric", "pottery", "of", "athens", "and", "the", "iliad", "be", "amazing", "manifestation", "of", "the", "inherent", "potentiality", "of", "greek", "civilization", ";", "but", "both", "be", "among", "the", "last", "product", "of", "a", "phase", "which", "be", "end", "."]
+    oewn2026_key: [[2, "oewn-03999061-n"], [4, "oewn-08803195-n"], [7, "oewn-06393695-n"], [8, "oewn-02610777-v"], [9, "oewn-01285602-s"], [10, "oewn-06811416-n"], [13, "oewn-01351376-s"], [14, "oewn-14506204-n"], [16, "oewn-03027715-a"], [17, "oewn-08128749-n"], [21, "oewn-02661230-v"], [24, "oewn-01016876-a"], [25, "oewn-04014270-n"], [28, "oewn-15315573-n"], [31, "oewn-02741293-v"]]
+    paragraph: '10'
+    pos: ["DT", "NNP", "NN", "IN", "NNP", "CC", "DT", "NNP", "VBP", "JJ", "NNS", "IN", "DT", "JJ", "NNS", "IN", "JJ", "NN", ":", "CC", "DT", "VBD", "IN", "DT", "JJ", "NNS", "IN", "DT", "NN", "WDT", "VBD", "VBG", "."]
+    text: ' The Dipylon_Geometric pottery of Athens and the Iliad are amazing manifestations
+  of the inherent potentialities of Greek civilization; but both were among the last
+  products of a phase which was ending.'
+    tokens: [[1, 4], [5, 22], [23, 30], [31, 33], [34, 40], [41, 44], [45, 48], [49, 54], [55, 58], [59, 66], [67, 81], [82, 84], [85, 88], [89, 97], [98, 112], [113, 115], [116, 121], [122, 134], [134, 135], [136, 139], [140, 144], [145, 149], [150, 155], [156, 159], [160, 164], [165, 173], [174, 176], [177, 178], [179, 184], [185, 190], [191, 194], [195, 201], [201, 202]]
+    wn16_key: [[2, "pottery%1:06:00::"], [4, "athens%1:15:00::"], [7, "iliad%1:10:00::"], [8, "be%2:42:03::"], [9, "amazing%5:00:00:impressive:00"], [10, "manifestation%1:10:00::"], [13, "inherent%5:00:00:intrinsic:00"], [14, "potentiality%1:26:00::"], [16, "greek%3:01:01::"], [17, "civilization%1:14:00::"], [21, "be%2:42:05::"], [24, "last%3:00:00::"], [25, "product%1:06:00::"], [28, "phase%1:28:00::"], [31, "end%2:42:01::"]]
+    wn30_key: [[2, "pottery%1:06:00::"], [4, "athens%1:15:00::"], [7, "iliad%1:10:00::"], [8, "be%2:42:03::"], [9, "amazing%3:00:00:impressive:00"], [10, "manifestation%1:10:00::"], [13, "inherent%3:00:00:intrinsic:00"], [14, "potentiality%1:26:00::"], [16, "greek%3:01:01::"], [17, "civilization%1:14:00::"], [21, "be%2:42:05::"], [24, "last%3:00:00::"], [25, "product%1:06:00::"], [28, "phase%1:28:00::"], [31, "end%2:42:01::"]]
+9qXc:
+    lemmas: ["greek", "civilization", "be", "swirl", "toward", "its", "great", "revolution", ",", "in", "which", "the", "developed", "quality", "of", "the", "hellenic", "outlook", "be", "suddenly", "to", "break", "forth", "."]
+    oewn2026_key: [[0, "oewn-03027715-a"], [1, "oewn-08128749-n"], [3, "oewn-02051599-v"], [6, "oewn-01389817-s"], [7, "oewn-07438709-n"], [12, "oewn-00745450-a"], [13, "oewn-04994869-n"], [16, "oewn-03027318-a"], [17, "oewn-06205574-n"], [19, "oewn-81484980-r"], [21, "oewn-01789214-v"], [22, "oewn-00234667-r"]]
+    paragraph: '10'
+    pos: ["JJ", "NN", "VBD", "VBG", "IN", "PRP$", "JJ", "NN", ",", "RB", "RB", "DT", "JJ", "NNS", "IN", "DT", "JJ", "NN", "VBD", "RB", "TO", "VB", "RB", "."]
+    text: ' Greek civilization was swirling toward its great revolution, in which the developed
+  qualities of the Hellenic outlook were suddenly to break forth.'
+    tokens: [[1, 6], [7, 19], [20, 23], [24, 32], [33, 39], [40, 43], [44, 49], [50, 60], [60, 61], [62, 64], [65, 70], [71, 74], [75, 84], [85, 94], [95, 97], [98, 101], [102, 110], [111, 118], [119, 123], [124, 132], [133, 135], [136, 141], [142, 147], [147, 148]]
+    wn16_key: [[0, "greek%3:01:01::"], [1, "civilization%1:14:00::"], [3, "swirl%2:38:00::"], [6, "great%5:00:01:large:00"], [7, "revolution%1:11:01::"], [12, "developed%3:00:00::"], [13, "quality%1:07:01::"], [16, "hellenic%5:00:00:classical:00"], [17, "outlook%1:09:01::"], [19, "suddenly%4:02:00::"], [21, "break%2:37:00::"], [22, "forth%4:02:00::"]]
+    wn30_key: [[0, "greek%3:01:01::"], [1, "civilization%1:14:00::"], [3, "swirl%2:38:00::"], [6, "great%3:00:01:large:00"], [7, "revolution%1:11:01::"], [12, "developed%3:00:00::"], [13, "quality%1:07:01::"], [16, "hellenic%3:00:00:classical:00"], [17, "outlook%1:09:01::"], [19, "suddenly%4:02:00::"], [21, "break%2:37:00::"], [22, "forth%4:02:00::"]]
+OHf1:
+    lemmas: ["The", "revolution", "be", "well", "underway", "before", "700", "bc", ",", "and", "premonitory", "sign", "go_back", "virtually", "across", "the", "century", "."]
+    oewn2026_key: [[1, "oewn-07438709-n"], [2, "oewn-02610777-v"], [3, "oewn-00013241-r"], [4, "oewn-00670007-s"], [10, "oewn-01889325-s"], [11, "oewn-06659006-n"], [12, "oewn-02729826-v"], [16, "oewn-15230328-n"]]
+    paragraph: '10'
+    pos: ["DT", "NN", "VBD", "RB", "JJ", "IN", "CD", "NN", ",", "CC", "JJ", "NNS", "VBP", "RB", "IN", "DT", "NN", "."]
+    text: ' The revolution was well under_way before 700 B.C., and premonitory signs go_back
+  virtually across the century.'
+    tokens: [[1, 4], [5, 15], [16, 19], [20, 24], [25, 34], [35, 41], [42, 45], [46, 50], [50, 51], [52, 55], [56, 67], [68, 73], [74, 81], [82, 91], [92, 98], [99, 102], [103, 110], [110, 111]]
+    wn16_key: [[1, "revolution%1:11:01::"], [2, "be%2:42:03::"], [3, "well%4:02:05::"], [4, "underway%5:00:00:current:00"], [7, "bc%1:28:00::"], [10, "premonitory%5:00:00:prophetic:00"], [11, "sign%1:10:05::"], [12, "go_back%2:42:00::"], [13, "virtually%4:02:00::"], [16, "century%1:28:00::"]]
+    wn30_key: [[1, "revolution%1:11:01::"], [2, "be%2:42:03::"], [3, "well%4:02:05::"], [4, "underway%3:00:00:current:00"], [10, "premonitory%3:00:00:prophetic:00"], [11, "sign%1:10:05::"], [12, "go_back%2:42:00::"], [16, "century%1:28:00::"]]
+X3Vi:
+    lemmas: ["The", "era", ",", "however", ",", "be", "janus-faced", "."]
+    oewn2026_key: [[1, "oewn-15273375-n"], [3, "oewn-00027761-r"], [5, "oewn-02610777-v"], [6, "oewn-02485167-s"]]
+    paragraph: '10'
+    pos: ["DT", "NN", ",", "RB", ",", "VBZ", "JJ", "."]
+    text: ' The era, however, is Janus-faced.'
+    tokens: [[1, 4], [5, 8], [8, 9], [10, 17], [17, 18], [19, 21], [22, 33], [33, 34]]
+    wn16_key: [[1, "era%1:28:00::"], [3, "however%4:02:00::"], [5, "be%2:42:03::"], [6, "janus-faced%5:00:00:bipolar:00"]]
+    wn30_key: [[1, "era%1:28:00::"], [3, "however%4:02:00::"], [5, "be%2:42:03::"], [6, "janus-faced%3:00:00:bipolar:00"]]
+3vV8:
+    lemmas: ["While", "many", "token", "point", "forward", ",", "the", "main", "achievement", "stand", "as", "a", "culmination", "of", "the", "simple", "pattern", "of", "the", "dark_ages", "."]
+    oewn2026_key: [[1, "oewn-01555990-a"], [2, "oewn-06808603-n"], [3, "oewn-02719059-v"], [4, "oewn-00075708-r"], [7, "oewn-01280536-s"], [8, "oewn-00035910-n"], [9, "oewn-02617408-v"], [12, "oewn-15316435-n"], [15, "oewn-02182456-a"], [16, "oewn-00411260-n"], [19, "oewn-15284095-n"]]
+    paragraph: '10'
+    pos: ["IN", "JJ", "NNS", "VBP", "RB", ",", "DT", "JJ", "NNS", "VBP", "IN", "DT", "NN", "IN", "DT", "JJ", "NNS", "IN", "DT", "NNS", "."]
+    text: ' While many tokens point forward, the main achievements stand as a culmination of
+  the simple patterns of the Dark_ages.'
+    tokens: [[1, 6], [7, 11], [12, 18], [19, 24], [25, 32], [32, 33], [34, 37], [38, 42], [43, 55], [56, 61], [62, 64], [65, 66], [67, 78], [79, 81], [82, 85], [86, 92], [93, 101], [102, 104], [105, 108], [109, 118], [118, 119]]
+    wn16_key: [[1, "many%3:00:00::"], [2, "token%1:10:00::"], [3, "point%2:42:00::"], [4, "forward%4:02:02::"], [7, "main%5:00:00:important:00"], [8, "achievement%1:04:00::"], [9, "stand%2:42:04::"], [12, "culmination%1:28:00::"], [15, "simple%3:00:02::"], [16, "pattern%1:04:00::"], [19, "dark_ages%1:28:00::"]]
+    wn30_key: [[1, "many%3:00:00::"], [2, "token%1:10:00::"], [3, "point%2:42:00::"], [4, "forward%4:02:02::"], [7, "main%3:00:00:important:00"], [8, "achievement%1:04:00::"], [9, "stand%2:42:04::"], [12, "culmination%1:28:00::"], [15, "simple%3:00:02::"], [16, "pattern%1:04:00::"], [19, "dark_ages%1:28:00::"]]
+59Y2:
+    lemmas: ["The", "dominant", "pottery", "of", "the", "century", "be", "geometric", ";", "political", "organization", "revolve_about", "the", "basileus", ";", "trade", "be", "just", "begin", "to", "expand", ";", "the", "god", "who", "protect", "the", "greek", "countryside", "be", "only", "now", "put_on", "their", "sharply", "anthropomorphic", "dress", "."]
+    oewn2026_key: [[1, "oewn-00794782-a"], [2, "oewn-03999061-n"], [5, "oewn-15230328-n"], [6, "oewn-02610777-v"], [7, "oewn-01988074-s"], [9, "oewn-01819670-a"], [10, "oewn-08024893-n"], [11, "oewn-02682306-v"], [13, "oewn-09861253-n"], [15, "oewn-01093829-n"], [17, "oewn-00033695-r"], [18, "oewn-00346415-v"], [20, "oewn-00311168-v"], [23, "oewn-09528550-n"], [25, "oewn-01130619-v"], [27, "oewn-03027715-a"], [28, "oewn-08662608-n"], [30, "oewn-00005103-r"], [31, "oewn-00049971-r"], [32, "oewn-00050369-v"], [34, "oewn-00050485-r"], [35, "oewn-01262195-s"], [36, "oewn-02759103-n"]]
+    paragraph: '10'
+    pos: ["DT", "JJ", "NN", "IN", "DT", "NN", "VBD", "JJ", ":", "JJ", "NN", "VB", "DT", "NN", ":", "NN", "VBD", "RB", "VBG", "TO", "VB", ":", "DT", "NNS", "WP", "VBD", "DT", "JJ", "NN", "VBD", "RB", "RB", "VBP", "PRP$", "RB", "JJ", "NN", "."]
+    text: ' The dominant pottery of the century was Geometric; political organization revolved_about
+  the basileis; trade was just beginning to expand; the gods who protected the Greek
+  countryside were only now putting_on their sharply anthropomorphic dress.
+
+  '
+    tokens: [[1, 4], [5, 13], [14, 21], [22, 24], [25, 28], [29, 36], [37, 40], [41, 50], [50, 51], [52, 61], [62, 74], [75, 89], [90, 93], [94, 102], [102, 103], [104, 109], [110, 113], [114, 118], [119, 128], [129, 131], [132, 138], [138, 139], [140, 143], [144, 148], [149, 152], [153, 162], [163, 166], [167, 172], [173, 184], [185, 189], [190, 194], [195, 198], [199, 209], [210, 215], [216, 223], [224, 239], [240, 245], [245, 246]]
+    wn16_key: [[1, "dominant%3:00:01::"], [2, "pottery%1:06:00::"], [5, "century%1:28:00::"], [6, "be%2:42:03::"], [7, "geometric%5:00:00:nonrepresentational:00"], [9, "political%3:00:00::"], [10, "organization%1:14:00::"], [11, "revolve_about%2:42:00::"], [13, "basileus%1:18:00::"], [15, "trade%1:04:05::"], [17, "just%4:02:01::"], [18, "begin%2:30:00::"], [20, "expand%2:30:01::"], [23, "god%1:18:01::"], [25, "protect%2:33:00::"], [27, "greek%3:01:01::"], [28, "countryside%1:15:00::"], [30, "only%4:02:02::"], [31, "now%4:02:05::"], [32, "put_on%2:29:00::"], [34, "sharply%4:02:00::"], [35, "anthropomorphic%5:00:00:human:00"], [36, "dress%1:06:01::"]]
+    wn30_key: [[1, "dominant%3:00:01::"], [2, "pottery%1:06:00::"], [5, "century%1:28:00::"], [6, "be%2:42:03::"], [7, "geometric%3:00:00:nonrepresentational:00"], [9, "political%3:00:00::"], [10, "organization%1:14:00::"], [11, "revolve_about%2:42:00::"], [13, "basileus%1:18:00::"], [15, "trade%1:04:05::"], [17, "just%4:02:01::"], [18, "begin%2:30:00::"], [20, "expand%2:30:01::"], [23, "god%1:18:01::"], [25, "protect%2:33:00::"], [27, "greek%3:01:01::"], [28, "countryside%1:15:00::"], [30, "only%4:02:02::"], [31, "now%4:02:05::"], [32, "put_on%2:29:00::"], [34, "sharply%4:02:00::"], [35, "anthropomorphic%3:00:00:human:00"], [36, "dress%1:06:01::"]]
+OjUw:
+    lemmas: ["The", "modern", "student", ",", "who", "know", "what", "be", "to", "come", "next", ",", "be", "likely", "to", "place", "first", "the", "factor", "of", "change", "which", "be", "visible", "in", "the", "eighth", "century", "."]
+    oewn2026_key: [[1, "oewn-01539804-a"], [2, "oewn-10271476-n"], [5, "oewn-00596016-v"], [9, "oewn-00342572-v"], [10, "oewn-00054750-r"], [12, "oewn-02610777-v"], [13, "oewn-01414308-a"], [15, "oewn-00659723-v"], [16, "oewn-00256094-r"], [18, "oewn-07342405-n"], [20, "oewn-11432841-n"], [22, "oewn-02610777-v"], [23, "oewn-02525399-a"], [26, "oewn-02210792-s"], [27, "oewn-15230328-n"]]
+    paragraph: '11'
+    pos: ["DT", "JJ", "NN", ",", "WP", "VBZ", "WP", "VBD", "TO", "VB", "RB", ",", "VBZ", "JJ", "TO", "VB", "RB", "DT", "NNS", "IN", "NN", "WDT", "VBP", "JJ", "IN", "DT", "JJ", "NN", "."]
+    text: ' The modern student, who knows what was to come next, is likely to place first the
+  factors of change which are visible in the eighth century.'
+    tokens: [[1, 4], [5, 11], [12, 19], [19, 20], [21, 24], [25, 30], [31, 35], [36, 39], [40, 42], [43, 47], [48, 52], [52, 53], [54, 56], [57, 63], [64, 66], [67, 72], [73, 78], [79, 82], [83, 90], [91, 93], [94, 100], [101, 106], [107, 110], [111, 118], [119, 121], [122, 125], [126, 132], [133, 140], [140, 141]]
+    wn16_key: [[1, "modern%3:00:00::"], [2, "student%1:18:01::"], [5, "know%2:31:01::"], [9, "come%2:30:01::"], [10, "next%4:02:00::"], [12, "be%2:42:03::"], [13, "likely%3:00:00::"], [15, "place%2:31:01::"], [16, "first%4:02:01::"], [18, "factor%1:11:00::"], [20, "change%1:19:00::"], [22, "be%2:42:03::"], [23, "visible%3:00:00::"], [26, "eighth%5:00:00:ordinal:00"], [27, "century%1:28:00::"]]
+    wn30_key: [[1, "modern%3:00:00::"], [2, "student%1:18:01::"], [5, "know%2:31:01::"], [9, "come%2:30:01::"], [10, "next%4:02:00::"], [12, "be%2:42:03::"], [13, "likely%3:00:00::"], [15, "place%2:31:01::"], [16, "first%4:02:01::"], [18, "factor%1:11:00::"], [20, "change%1:19:00::"], [22, "be%2:42:03::"], [23, "visible%3:00:00::"], [26, "eighth%3:00:00:ordinal:00"], [27, "century%1:28:00::"]]
+9aBW:
+    lemmas: ["not", "all", "man", "of", "the", "period", "would", "have", "accept", "this", "emphasis", "."]
+    oewn2026_key: [[0, "oewn-00024432-r"], [2, "oewn-10306910-n"], [5, "oewn-15137796-n"], [8, "oewn-00799359-v"], [10, "oewn-14458332-n"]]
+    paragraph: '11'
+    pos: ["RB", "DT", "NNS", "IN", "DT", "NN", "MD", "VB", "VBN", "DT", "NN", "."]
+    text: ' Not all men of the period would have accepted this emphasis.'
+    tokens: [[1, 4], [5, 8], [9, 12], [13, 15], [16, 19], [20, 26], [27, 32], [33, 37], [38, 46], [47, 51], [52, 60], [60, 61]]
+    wn16_key: [[0, "not%4:02:00::"], [2, "man%1:18:00::"], [5, "period%1:28:00::"], [8, "accept%2:32:00::"], [10, "emphasis%1:26:00::"]]
+    wn30_key: [[0, "not%4:02:00::"], [2, "man%1:18:00::"], [5, "period%1:28:00::"], [8, "accept%2:32:00::"], [10, "emphasis%1:26:00::"]]
+RfYX:
+    lemmas: ["many", "potter", "cling_to", "the", "past", "the", "more", "determinedly", "as", "they", "be", "confront", "with", "radically", "new", "idea", ";", "the", "poet", "of", "the", "iliad", "deliberately", "archaize", "."]
+    oewn2026_key: [[0, "oewn-01555990-a"], [1, "oewn-10480372-n"], [2, "oewn-01222867-v"], [4, "oewn-15145765-n"], [6, "oewn-00099891-r"], [7, "oewn-00213506-r"], [11, "oewn-01068455-v"], [13, "oewn-00179828-r"], [14, "oewn-01645077-a"], [15, "oewn-05842164-n"], [18, "oewn-10463768-n"], [21, "oewn-06393695-n"], [22, "oewn-00062868-r"], [23, "oewn-00523148-v"]]
+    paragraph: '11'
+    pos: ["JJ", "NNS", "VBP", "DT", "NN", "DT", "RBR", "RB", "IN", "PRP", "VBD", "VBN", "IN", "RB", "JJ", "NNS", ":", "DT", "NN", "IN", "DT", "NNP", "RB", "VBD", "."]
+    text: ' Many potters clung_to the past the more determinedly as they were confronted with
+  radically new ideas; the poet of the Iliad deliberately archaized.'
+    tokens: [[1, 5], [6, 13], [14, 22], [23, 26], [27, 31], [32, 35], [36, 40], [41, 53], [54, 56], [57, 61], [62, 66], [67, 77], [78, 82], [83, 92], [93, 96], [97, 102], [102, 103], [104, 107], [108, 112], [113, 115], [116, 119], [120, 125], [126, 138], [139, 148], [148, 149]]
+    wn16_key: [[0, "many%3:00:00::"], [1, "potter%1:18:00::"], [2, "cling_to%2:35:00::"], [4, "past%1:28:00::"], [6, "more%4:02:00::"], [7, "determinedly%4:02:00::"], [11, "confront%2:32:03::"], [13, "radically%4:02:00::"], [14, "new%3:00:00::"], [15, "idea%1:09:00::"], [18, "poet%1:18:00::"], [21, "iliad%1:10:00::"], [22, "deliberately%4:02:00::"], [23, "archaize%2:30:00::"]]
+    wn30_key: [[0, "many%3:00:00::"], [1, "potter%1:18:00::"], [2, "cling_to%2:35:00::"], [4, "past%1:28:00::"], [6, "more%4:02:00::"], [7, "determinedly%4:02:00::"], [11, "confront%2:32:03::"], [13, "radically%4:02:00::"], [14, "new%3:00:00::"], [15, "idea%1:09:00::"], [18, "poet%1:18:00::"], [21, "iliad%1:10:00::"], [22, "deliberately%4:02:00::"], [23, "archaize%2:30:00::"]]
+3bbs:
+    lemmas: ["Although", "it", "be", "not", "possible", "to", "sunder", "old", "and", "new", "in", "this", "era", ",", "I", "shall", "consider", "in", "the", "present", "chapter", "primarily", "the", "first", "decade", "of", "the", "eighth", "century", "and", "shall", "interpret", "them", "as", "an", "apogee", "of", "the", "first", "stage", "of", "greek", "civilization", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"], [3, "oewn-00024432-r"], [4, "oewn-01826770-a"], [6, "oewn-00336624-v"], [7, "oewn-01642580-a"], [9, "oewn-01645077-a"], [12, "oewn-15273375-n"], [16, "oewn-02170904-v"], [19, "oewn-01735600-a"], [20, "oewn-06407785-n"], [21, "oewn-00074163-r"], [23, "oewn-01014459-a"], [24, "oewn-15229779-n"], [27, "oewn-02210792-s"], [28, "oewn-15230328-n"], [31, "oewn-01690027-v"], [35, "oewn-15316435-n"], [38, "oewn-01014459-a"], [39, "oewn-15315573-n"], [41, "oewn-03027715-a"], [42, "oewn-08128749-n"]]
+    paragraph: '11'
+    pos: ["IN", "PRP", "VBZ", "RB", "JJ", "TO", "VB", "JJ", "CC", "JJ", "RB", "RB", "NN", ",", "PRP", "MD", "VB", "IN", "DT", "JJ", "NN", "RB", "DT", "JJ", "NNS", "IN", "DT", "JJ", "NN", "CC", "MD", "VB", "PRP", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "IN", "JJ", "NN", "."]
+    text: ' Although it is not possible to sunder old and new in this era, I shall consider
+  in the present chapter primarily the first decades of the eighth century and shall
+  interpret them as an apogee of the first stage of Greek civilization.
+
+  '
+    tokens: [[1, 9], [10, 12], [13, 15], [16, 19], [20, 28], [29, 31], [32, 38], [39, 42], [43, 46], [47, 50], [51, 53], [54, 58], [59, 62], [62, 63], [64, 65], [66, 71], [72, 80], [81, 83], [84, 87], [88, 95], [96, 103], [104, 113], [114, 117], [118, 123], [124, 131], [132, 134], [135, 138], [139, 145], [146, 153], [154, 157], [158, 163], [164, 173], [174, 178], [179, 181], [182, 184], [185, 191], [192, 194], [195, 198], [199, 204], [205, 210], [211, 213], [214, 219], [220, 232], [232, 233]]
+    wn16_key: [[2, "be%2:42:03::"], [3, "not%4:02:00::"], [4, "possible%3:00:00::"], [6, "sunder%2:30:00::"], [7, "old%3:00:01::"], [9, "new%3:00:00::"], [12, "era%1:28:00::"], [16, "consider%2:39:00::"], [19, "present%3:00:01::"], [20, "chapter%1:10:00::"], [21, "primarily%4:02:01::"], [23, "first%3:00:00::"], [24, "decade%1:28:00::"], [27, "eighth%5:00:00:ordinal:00"], [28, "century%1:28:00::"], [31, "interpret%2:36:01::"], [35, "apogee%1:28:00::"], [38, "first%3:00:00::"], [39, "stage%1:28:00::"], [41, "greek%3:01:01::"], [42, "civilization%1:14:00::"]]
+    wn30_key: [[2, "be%2:42:03::"], [3, "not%4:02:00::"], [4, "possible%3:00:00::"], [6, "sunder%2:30:00::"], [7, "old%3:00:01::"], [9, "new%3:00:00::"], [12, "era%1:28:00::"], [16, "consider%2:39:00::"], [19, "present%3:00:01::"], [20, "chapter%1:10:00::"], [21, "primarily%4:02:01::"], [23, "first%3:00:00::"], [24, "decade%1:28:00::"], [27, "eighth%3:00:00:ordinal:00"], [28, "century%1:28:00::"], [31, "interpret%2:36:01::"], [35, "apogee%1:28:00::"], [38, "first%3:00:00::"], [39, "stage%1:28:00::"], [41, "greek%3:01:01::"], [42, "civilization%1:14:00::"]]
+3XCA:
+    lemmas: ["On", "this", "principle", "of", "division", "I", "must", "postpone", "the", "evolution", "of", "sculpture", ",", "architecture", ",", "society", ",", "and", "politics", ";", "for", "the", "development", "in", "these", "area", "make_sense", "only", "if", "they", "be", "connected", "to", "the", "age", "of", "revolution", "itself", "."]
+    oewn2026_key: [[2, "oewn-05922132-n"], [4, "oewn-00386599-n"], [7, "oewn-02648898-v"], [9, "oewn-13486023-n"], [11, "oewn-00939472-n"], [13, "oewn-02737730-n"], [15, "oewn-07982754-n"], [18, "oewn-13862918-n"], [22, "oewn-13486023-n"], [25, "oewn-05823643-n"], [26, "oewn-02625692-v"], [27, "oewn-00009062-r"], [30, "oewn-02610777-v"], [31, "oewn-01980375-s"], [34, "oewn-15278839-n"], [36, "oewn-07438709-n"]]
+    paragraph: '12'
+    pos: ["IN", "DT", "NN", "IN", "NN", "PRP", "MD", "VB", "DT", "NN", "IN", "NN", ",", "NN", ",", "NN", ",", "CC", "NNS", ":", "IN", "DT", "NNS", "IN", "DT", "NNS", "VBP", "RB", "IN", "PRP", "VBP", "JJ", "TO", "DT", "NN", "IN", "NN", "PRP", "."]
+    text: ' On this principle of division I must postpone the evolution of sculpture, architecture,
+  society, and politics; for the developments in these areas make_sense only if they
+  are connected to the age of revolution itself.'
+    tokens: [[1, 3], [4, 8], [9, 18], [19, 21], [22, 30], [31, 32], [33, 37], [38, 46], [47, 50], [51, 60], [61, 63], [64, 73], [73, 74], [75, 87], [87, 88], [89, 96], [96, 97], [98, 101], [102, 110], [110, 111], [112, 115], [116, 119], [120, 132], [133, 135], [136, 141], [142, 147], [148, 158], [159, 163], [164, 166], [167, 171], [172, 175], [176, 185], [186, 188], [189, 192], [193, 196], [197, 199], [200, 210], [211, 217], [217, 218]]
+    wn16_key: [[2, "principle%1:09:03::"], [4, "division%1:04:00::"], [7, "postpone%2:42:00::"], [9, "evolution%1:22:01::"], [11, "sculpture%1:04:00::"], [13, "architecture%1:06:00::"], [15, "society%1:14:00::"], [18, "politics%1:24:00::"], [22, "development%1:22:02::"], [25, "area%1:09:00::"], [26, "make_sense%2:42:00::"], [27, "only%4:02:01::"], [30, "be%2:42:03::"], [31, "connected%5:00:02:related:02"], [34, "age%1:28:02::"], [36, "revolution%1:11:01::"]]
+    wn30_key: [[2, "principle%1:09:03::"], [4, "division%1:04:00::"], [7, "postpone%2:42:00::"], [9, "evolution%1:22:01::"], [11, "sculpture%1:04:00::"], [13, "architecture%1:06:00::"], [15, "society%1:14:00::"], [18, "politics%1:24:00::"], [22, "development%1:22:02::"], [25, "area%1:09:00::"], [26, "make_sense%2:42:00::"], [27, "only%4:02:01::"], [30, "be%2:42:03::"], [31, "connected%3:00:00:related:02"], [34, "age%1:28:02::"], [36, "revolution%1:11:01::"]]
+MKc0:
+    lemmas: ["The", "growing", "contact", "between", "aegean", "and", "orient", "be", "also", "a", "phase", "which", "should", "be", "link", "primarily", "to", "the", "remarkable", "broadening", "of", "hellenic", "culture", "after", "750", "."]
+    oewn2026_key: [[1, "oewn-03082307-a"], [2, "oewn-00040035-n"], [4, "oewn-09211506-n"], [6, "oewn-08580157-n"], [7, "oewn-02610777-v"], [8, "oewn-00048072-r"], [10, "oewn-15315573-n"], [14, "oewn-00715072-v"], [15, "oewn-00074163-r"], [18, "oewn-01683076-s"], [19, "oewn-00251464-n"], [21, "oewn-03027318-a"], [22, "oewn-05993821-n"]]
+    paragraph: '12'
+    pos: ["DT", "JJ", "NNS", "IN", "NNP", "CC", "NNP", "VBP", "RB", "DT", "NN", "WDT", "MD", "VB", "VBN", "RB", "TO", "DT", "JJ", "NN", "IN", "JJ", "NN", "IN", "CD", "."]
+    text: ' The growing contacts between Aegean and Orient are also a phase which should be
+  linked primarily to the remarkable broadening of Hellenic culture after 750.'
+    tokens: [[1, 4], [5, 12], [13, 21], [22, 29], [30, 36], [37, 40], [41, 47], [48, 51], [52, 56], [57, 58], [59, 64], [65, 70], [71, 77], [78, 80], [81, 87], [88, 97], [98, 100], [101, 104], [105, 115], [116, 126], [127, 129], [130, 138], [139, 146], [147, 152], [153, 156], [156, 157]]
+    wn16_key: [[1, "growing%5:00:00:increasing:00"], [2, "contact%1:04:02::"], [4, "aegean%1:17:00::"], [6, "orient%1:15:00::"], [7, "be%2:42:03::"], [8, "also%4:02:00::"], [10, "phase%1:28:00::"], [14, "link%2:31:00::"], [15, "primarily%4:02:01::"], [18, "remarkable%5:00:00:extraordinary:00"], [19, "broadening%1:04:00::"], [21, "hellenic%5:00:00:classical:00"], [22, "culture%1:09:01::"]]
+    wn30_key: [[1, "growing%3:01:00::"], [2, "contact%1:04:02::"], [4, "aegean%1:17:00::"], [6, "orient%1:15:00::"], [7, "be%2:42:03::"], [8, "also%4:02:00::"], [10, "phase%1:28:00::"], [14, "link%2:31:00::"], [15, "primarily%4:02:01::"], [18, "remarkable%3:00:00:extraordinary:00"], [19, "broadening%1:04:00::"], [21, "hellenic%3:00:00:classical:00"], [22, "culture%1:09:01::"]]
+kN/n:
+    lemmas: ["We", "shall", "not", "be", "able", "entirely", "to", "pass_over", "these", "connection", "to", "the", "east", "as", "we", "consider", "Ripe_Geometric", "pottery", ",", "the", "epic", "and", "the", "myth", ",", "and", "the", "religious", "evolution", "of", "early", "greece", ";", "the", "important", "point", ",", "however", ",", "be", "that", "these", "magnificent", "achievement", ",", "unlike", "those", "of", "later", "decade", ",", "be", "only", "incidentally", "influence", "by", "oriental", "model", "."]
+    oewn2026_key: [[2, "oewn-00024432-r"], [3, "oewn-02610777-v"], [4, "oewn-00001740-a"], [5, "oewn-00008423-r"], [7, "oewn-00618188-v"], [9, "oewn-05771913-n"], [12, "oewn-08580157-n"], [15, "oewn-02170904-v"], [17, "oewn-03999061-n"], [20, "oewn-06391344-n"], [23, "oewn-06384303-n"], [27, "oewn-02063669-s"], [28, "oewn-13486023-n"], [30, "oewn-01733616-s"], [31, "oewn-08798733-n"], [34, "oewn-01278672-a"], [35, "oewn-05825971-n"], [37, "oewn-00027761-r"], [39, "oewn-02622439-v"], [42, "oewn-01288468-s"], [43, "oewn-00035910-n"], [45, "oewn-01413335-a"], [48, "oewn-00124357-s"], [49, "oewn-15229779-n"], [52, "oewn-00005103-r"], [53, "oewn-00213709-r"], [54, "oewn-00702806-v"], [56, "oewn-00829356-s"], [57, "oewn-05933998-n"]]
+    paragraph: '12'
+    pos: ["PRP", "MD", "RB", "VB", "JJ", "RB", "TO", "VB", "DT", "NNS", "TO", "DT", "NNP", "IN", "PRP", "VBP", "NNP", "NN", ",", "DT", "NN", "CC", "DT", "NN", ",", "CC", "DT", "JJ", "NN", "IN", "JJ", "NNP", ":", "DT", "JJ", "NN", ",", "RB", ",", "VBZ", "IN", "DT", "JJ", "NNS", ",", "JJ", "DT", "IN", "JJ", "NNS", ",", "VBD", "RB", "RB", "VBN", "IN", "JJ", "NNS", "."]
+    text: ' We shall not be able entirely to pass_over these connections to the East as we consider
+  Ripe_Geometric pottery, the epic and the myth, and the religious evolution of early
+  Greece; the important point, however, is that these magnificent achievements, unlike
+  those of later decades, were only incidentally influenced by Oriental models.'
+    tokens: [[1, 3], [4, 9], [10, 13], [14, 16], [17, 21], [22, 30], [31, 33], [34, 43], [44, 49], [50, 61], [62, 64], [65, 68], [69, 73], [74, 76], [77, 79], [80, 88], [89, 103], [104, 111], [111, 112], [113, 116], [117, 121], [122, 125], [126, 129], [130, 134], [134, 135], [136, 139], [140, 143], [144, 153], [154, 163], [164, 166], [167, 172], [173, 179], [179, 180], [181, 184], [185, 194], [195, 200], [200, 201], [202, 209], [209, 210], [211, 213], [214, 218], [219, 224], [225, 236], [237, 249], [249, 250], [251, 257], [258, 263], [264, 266], [267, 272], [273, 280], [280, 281], [282, 286], [287, 291], [292, 304], [305, 315], [316, 318], [319, 327], [328, 334], [334, 335]]
+    wn16_key: [[2, "not%4:02:00::"], [3, "be%2:42:03::"], [4, "able%3:00:00::"], [5, "entirely%4:02:00::"], [7, "pass_over%2:31:00::"], [9, "connection%1:09:00::"], [12, "east%1:15:00::"], [15, "consider%2:39:00::"], [17, "pottery%1:06:00::"], [20, "epic%1:10:00::"], [23, "myth%1:10:00::"], [27, "religious%3:01:00::"], [28, "evolution%1:22:01::"], [30, "early%5:00:00:past:00"], [31, "greece%1:15:00::"], [34, "important%3:00:00::"], [35, "point%1:09:01::"], [37, "however%4:02:00::"], [39, "be%2:42:06::"], [42, "magnificent%5:00:00:impressive:00"], [43, "achievement%1:04:00::"], [45, "unlike%3:00:00::"], [48, "later%5:00:00:subsequent:00"], [49, "decade%1:28:00::"], [52, "only%4:02:02::"], [53, "incidentally%4:02:01::"], [54, "influence%2:31:00::"], [56, "oriental%5:00:00:eastern:01"], [57, "model%1:09:01::"]]
+    wn30_key: [[2, "not%4:02:00::"], [3, "be%2:42:03::"], [4, "able%3:00:00::"], [5, "entirely%4:02:00::"], [7, "pass_over%2:31:00::"], [9, "connection%1:09:00::"], [12, "east%1:15:00::"], [15, "consider%2:39:00::"], [17, "pottery%1:06:00::"], [20, "epic%1:10:00::"], [23, "myth%1:10:00::"], [27, "religious%3:00:00:sacred:00"], [28, "evolution%1:22:01::"], [30, "early%3:00:00:past:00"], [31, "greece%1:15:00::"], [34, "important%3:00:00::"], [35, "point%1:09:01::"], [37, "however%4:02:00::"], [39, "be%2:42:06::"], [42, "magnificent%3:00:00:impressive:00"], [43, "achievement%1:04:00::"], [45, "unlike%3:00:00::"], [48, "later%3:00:00:subsequent:00"], [49, "decade%1:28:00::"], [52, "only%4:02:02::"], [53, "incidentally%4:02:01::"], [54, "influence%2:31:00::"], [56, "oriental%3:00:00:eastern:01"], [57, "model%1:09:01::"]]
+dvGi:
+    lemmas: ["The", "antecedent", "of", "dipylon", "vase", "and", "of", "the", "iliad", "lie_in", "the", "aegean", "past", "."]
+    oewn2026_key: [[1, "oewn-07341480-n"], [3, "oewn-03029172-a"], [4, "oewn-04529463-n"], [8, "oewn-06393695-n"], [9, "oewn-02659476-v"], [11, "oewn-03028672-a"], [12, "oewn-15145765-n"]]
+    paragraph: '12'
+    pos: ["DT", "NNS", "IN", "JJ", "NNS", "CC", "IN", "DT", "NN", "VB", "DT", "JJ", "NN", "."]
+    text: ' The antecedents of Dipylon vases and of the Iliad lie_in the Aegean past.
+
+  '
+    tokens: [[1, 4], [5, 16], [17, 19], [20, 27], [28, 33], [34, 37], [38, 40], [41, 44], [45, 50], [51, 57], [58, 61], [62, 68], [69, 73], [73, 74]]
+    wn16_key: [[1, "antecedent%1:11:00::"], [3, "dipylon%3:01:00::"], [4, "vase%1:06:00::"], [8, "iliad%1:10:00::"], [9, "lie_in%2:42:00::"], [11, "aegean%3:01:01::"], [12, "past%1:28:00::"]]
+    wn30_key: [[1, "antecedent%1:11:00::"], [3, "dipylon%3:01:00::"], [4, "vase%1:06:00::"], [8, "iliad%1:10:00::"], [9, "lie_in%2:42:00::"], [11, "aegean%3:01:01::"], [12, "past%1:28:00::"]]
+GFHK:
+    lemmas: ["The", "pottery", "of", "the", "first_half", "of", "the", "eighth", "century", "be", "commonly", "called", "Ripe_Geometric", "."]
+    oewn2026_key: [[1, "oewn-03999061-n"], [4, "oewn-15282902-n"], [7, "oewn-02210792-s"], [8, "oewn-15230328-n"], [10, "oewn-00107608-r"]]
+    paragraph: '13'
+    pos: ["DT", "NN", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "VBZ", "RB", "JJ", "NNP", "."]
+    text: ' The pottery of the first_half of the eighth century is commonly called Ripe_Geometric.'
+    tokens: [[1, 4], [5, 12], [13, 15], [16, 19], [20, 30], [31, 33], [34, 37], [38, 44], [45, 52], [53, 55], [56, 64], [65, 71], [72, 86], [86, 87]]
+    wn16_key: [[1, "pottery%1:06:00::"], [4, "first_half%1:28:00::"], [7, "eighth%5:00:00:ordinal:00"], [8, "century%1:28:00::"], [10, "commonly%4:02:00::"], [11, "called%5:00:01:titled:00"]]
+    wn30_key: [[1, "pottery%1:06:00::"], [4, "first_half%1:28:00::"], [7, "eighth%3:00:00:ordinal:00"], [8, "century%1:28:00::"], [10, "commonly%4:02:00::"]]
+iOZS:
+    lemmas: ["The", "severe", "yet", "harmonious", "vase", "of", "the", "previous", "fifty", "year", ",", "the", "strong", "geometric", "style", "of", "the", "late", "ninth", "century", ",", "display", "as", "firm", "a", "mastery", "of", "the", "principle", "underlying", "geometric", "pottery", ";", "but", "artist", "now", "be", "ready", "to", "refine", "and", "elaborate", "their", "inheritance", "."]
+    oewn2026_key: [[1, "oewn-01796896-s"], [3, "oewn-00897322-s"], [4, "oewn-04529463-n"], [7, "oewn-00128009-s"], [8, "oewn-02198871-s"], [9, "oewn-15228587-n"], [12, "oewn-02328781-a"], [13, "oewn-01988074-s"], [14, "oewn-04936080-n"], [17, "oewn-00820050-a"], [18, "oewn-02210918-s"], [19, "oewn-15230328-n"], [21, "oewn-02144506-v"], [23, "oewn-00845738-s"], [25, "oewn-05649804-n"], [28, "oewn-05922132-n"], [29, "oewn-00945209-s"], [30, "oewn-01988074-s"], [31, "oewn-03999061-n"], [34, "oewn-09831743-n"], [35, "oewn-00049971-r"], [36, "oewn-02610777-v"], [37, "oewn-01936911-a"], [39, "oewn-00474948-v"], [41, "oewn-00957633-v"], [43, "oewn-00084405-n"]]
+    paragraph: '13'
+    pos: ["DT", "JJ", "RB", "JJ", "NNS", "IN", "DT", "JJ", "JJ", "NNS", ",", "DT", "JJ", "JJ", "NN", "IN", "DT", "JJ", "JJ", "NN", ",", "VB", "IN", "JJ", "DT", "NN", "IN", "DT", "NNS", "JJ", "JJ", "NN", ":", "CC", "NNS", "RB", "VBD", "JJ", "TO", "VB", "CC", "VB", "PRP$", "NN", "."]
+    text: ' The severe yet harmonious vases of the previous fifty years, the Strong Geometric
+  style of the late ninth century, display as firm a mastery of the principles underlying
+  Geometric pottery; but artists now were ready to refine and elaborate their inheritance.'
+    tokens: [[1, 4], [5, 11], [12, 15], [16, 26], [27, 32], [33, 35], [36, 39], [40, 48], [49, 54], [55, 60], [60, 61], [62, 65], [66, 72], [73, 82], [83, 88], [89, 91], [92, 95], [96, 100], [101, 106], [107, 114], [114, 115], [116, 123], [124, 126], [127, 131], [132, 133], [134, 141], [142, 144], [145, 148], [149, 159], [160, 170], [171, 180], [181, 188], [188, 189], [190, 193], [194, 201], [202, 205], [206, 210], [211, 216], [217, 219], [220, 226], [227, 230], [231, 240], [241, 246], [247, 258], [258, 259]]
+    wn16_key: [[1, "severe%5:00:00:plain:01"], [3, "harmonious%5:00:00:balanced:00"], [4, "vase%1:06:00::"], [7, "previous%5:00:00:preceding(a):00"], [8, "fifty%5:00:00:cardinal:00"], [9, "year%1:28:01::"], [12, "strong%3:00:00::"], [13, "geometric%5:00:00:nonrepresentational:00"], [14, "style%1:07:00::"], [17, "late%3:00:00::"], [18, "ninth%5:00:00:ordinal:00"], [19, "century%1:28:00::"], [21, "display%2:39:00::"], [23, "firm%5:00:00:forceful:00"], [25, "mastery%1:09:00::"], [28, "principle%1:09:03::"], [29, "underlying%5:00:00:implicit:00"], [30, "geometric%5:00:00:nonrepresentational:00"], [31, "pottery%1:06:00::"], [34, "artist%1:18:00::"], [35, "now%4:02:05::"], [36, "be%2:42:03::"], [37, "ready%3:00:00::"], [39, "refine%2:30:01::"], [41, "elaborate%2:32:00::"], [43, "inheritance%1:04:00::"]]
+    wn30_key: [[1, "severe%3:00:00:plain:01"], [3, "harmonious%3:00:00:balanced:00"], [4, "vase%1:06:00::"], [7, "previous%3:00:00:preceding:00"], [8, "fifty%3:00:00:cardinal:00"], [9, "year%1:28:01::"], [12, "strong%3:00:00::"], [13, "geometric%3:00:00:nonrepresentational:00"], [14, "style%1:07:00::"], [17, "late%3:00:00::"], [18, "ninth%3:00:00:ordinal:00"], [19, "century%1:28:00::"], [21, "display%2:39:00::"], [23, "firm%3:00:00:forceful:00"], [25, "mastery%1:09:00::"], [28, "principle%1:09:03::"], [29, "underlying%3:00:00:implicit:00"], [30, "geometric%3:00:00:nonrepresentational:00"], [31, "pottery%1:06:00::"], [34, "artist%1:18:00::"], [35, "now%4:02:05::"], [36, "be%2:42:03::"], [37, "ready%3:00:00::"], [39, "refine%2:30:01::"], [41, "elaborate%2:32:00::"], [43, "inheritance%1:04:00::"]]
+wSMT:
+    lemmas: ["The", "vase", "which", "result", "have", "different", "shape", ",", "far", "more", "complex", "decoration", ",", "and", "a", "larger", "sense", "of", "style", "."]
+    oewn2026_key: [[1, "oewn-04529463-n"], [3, "oewn-02640346-v"], [4, "oewn-02636270-v"], [5, "oewn-02072149-a"], [6, "oewn-05071206-n"], [8, "oewn-00101873-r"], [9, "oewn-00099891-r"], [10, "oewn-02183738-a"], [11, "oewn-03174056-n"], [15, "oewn-01386690-s"], [16, "oewn-05685345-n"], [18, "oewn-04936080-n"]]
+    paragraph: '13'
+    pos: ["DT", "NNS", "WDT", "VBD", "VBD", "JJ", "NNS", ",", "RB", "RBR", "JJ", "NN", ",", "CC", "DT", "JJR", "NN", "IN", "NN", "."]
+    text: ' The vases which resulted had different shapes, far more complex decoration, and
+  a larger sense of style.
+
+  '
+    tokens: [[1, 4], [5, 10], [11, 16], [17, 25], [26, 29], [30, 39], [40, 46], [46, 47], [48, 51], [52, 56], [57, 64], [65, 75], [75, 76], [77, 80], [81, 82], [83, 89], [90, 95], [96, 98], [99, 104], [104, 105]]
+    wn16_key: [[1, "vase%1:06:00::"], [3, "result%2:42:00::"], [4, "have%2:42:00::"], [5, "different%3:00:00::"], [6, "shape%1:07:00::"], [8, "far%4:02:02::"], [9, "more%4:02:00::"], [10, "complex%3:00:00::"], [11, "decoration%1:06:00::"], [15, "larger%5:00:00:large:00"], [16, "sense%1:09:05::"], [18, "style%1:07:00::"]]
+    wn30_key: [[1, "vase%1:06:00::"], [3, "result%2:42:00::"], [4, "have%2:42:00::"], [5, "different%3:00:00::"], [6, "shape%1:07:00::"], [8, "far%4:02:02::"], [9, "more%4:02:00::"], [10, "complex%3:00:00::"], [11, "decoration%1:06:00::"], [15, "larger%3:00:00:large:00"], [16, "sense%1:09:05::"], [18, "style%1:07:00::"]]
+fLjw:
+    lemmas: ["Beyond", "the", "aesthetic", "and", "technical", "aspect", "of", "this", "expansion", "we", "must", "consider", "the", "change", "in", "pottery", "style", "on", "broad", "line", "."]
+    oewn2026_key: [[2, "oewn-03002795-a"], [4, "oewn-02820043-a"], [5, "oewn-05859151-n"], [8, "oewn-00366535-n"], [11, "oewn-02170904-v"], [13, "oewn-13881240-n"], [15, "oewn-03999061-n"], [16, "oewn-04936080-n"], [18, "oewn-00528239-s"], [19, "oewn-05781046-n"]]
+    paragraph: '14'
+    pos: ["IN", "DT", "JJ", "CC", "JJ", "NNS", "RB", "RB", "NN", "PRP", "MD", "VB", "DT", "NN", "IN", "NN", "NN", "IN", "JJR", "NNS", "."]
+    text: ' Beyond the aesthetic and technical aspects of this expansion we must consider the
+  change in pottery style on broader lines.'
+    tokens: [[1, 7], [8, 11], [12, 21], [22, 25], [26, 35], [36, 43], [44, 46], [47, 51], [52, 61], [62, 64], [65, 69], [70, 78], [79, 82], [83, 89], [90, 92], [93, 100], [101, 106], [107, 109], [110, 117], [118, 123], [123, 124]]
+    wn16_key: [[2, "aesthetic%3:01:00::"], [4, "technical%3:01:00::"], [5, "aspect%1:09:00::"], [8, "expansion%1:04:00::"], [11, "consider%2:39:00::"], [13, "change%1:24:00::"], [15, "pottery%1:06:00::"], [16, "style%1:07:00::"], [18, "broad%5:00:00:comprehensive:00"], [19, "line%1:09:01::"]]
+    wn30_key: [[2, "aesthetic%3:01:00::"], [4, "technical%3:01:00::"], [5, "aspect%1:09:00::"], [8, "expansion%1:04:00::"], [11, "consider%2:39:00::"], [13, "change%1:24:00::"], [15, "pottery%1:06:00::"], [16, "style%1:07:00::"], [18, "broad%3:00:00:comprehensive:00"], [19, "line%1:09:01::"]]
+kQAS:
+    lemmas: ["In", "earlier", "century", "man", "have", "have", "enough", "to", "do", "in", "rebuild", "a", "fundamental", "sense", "of", "order", "after", "chaos", "."]
+    oewn2026_key: [[1, "oewn-00818180-s"], [2, "oewn-15230328-n"], [3, "oewn-10306910-n"], [5, "oewn-02208144-v"], [6, "oewn-13601618-n"], [10, "oewn-01659445-v"], [12, "oewn-01280207-s"], [13, "oewn-05685345-n"], [15, "oewn-13991994-n"], [17, "oewn-13999769-n"]]
+    paragraph: '14'
+    pos: ["IN", "JJR", "NNS", "NNS", "VBD", "VBN", "NN", "TO", "VB", "VB", "VBG", "DT", "JJ", "NN", "IN", "NN", "IN", "NN", "."]
+    text: ' In earlier centuries men had had enough to do in rebuilding a fundamental sense
+  of order after chaos.'
+    tokens: [[1, 3], [4, 11], [12, 21], [22, 25], [26, 29], [30, 33], [34, 40], [41, 43], [44, 46], [47, 49], [50, 60], [61, 62], [63, 74], [75, 80], [81, 83], [84, 89], [90, 95], [96, 101], [101, 102]]
+    wn16_key: [[1, "earlier%5:00:00:past:00"], [2, "century%1:28:00::"], [3, "man%1:18:00::"], [5, "have%2:40:01::"], [6, "enough%1:23:00::"], [10, "rebuild%2:36:00::"], [12, "fundamental%5:00:00:important:00"], [13, "sense%1:09:05::"], [15, "order%1:26:00::"], [17, "chaos%1:26:00::"]]
+    wn30_key: [[1, "earlier%3:00:00:early:00"], [2, "century%1:28:00::"], [3, "man%1:18:00::"], [5, "have%2:40:01::"], [6, "enough%1:23:00::"], [10, "rebuild%2:36:00::"], [12, "fundamental%3:00:00:important:00"], [13, "sense%1:09:05::"], [15, "order%1:26:00::"], [17, "chaos%1:26:00::"]]
+SGdS:
+    lemmas: ["They", "have", "have_to", "work_on", "very", "simple", "foundation", "and", "have", "not", "dare", "to", "give", "rein", "to", "impulse", "."]
+    oewn2026_key: [[3, "oewn-02420169-v"], [4, "oewn-00032295-r"], [5, "oewn-02182456-a"], [6, "oewn-13812924-n"], [9, "oewn-00024432-r"], [12, "oewn-02344167-v"], [15, "oewn-07505719-n"]]
+    paragraph: '14'
+    pos: ["PRP", "VBD", "VB", "VB", "RB", "JJ", "NNS", "CC", "VBD", "RB", "VB", "TO", "VB", "NN", "TO", "NNS", "."]
+    text: ' They had had_to work_on very simple foundations and had not dared to give rein to
+  impulses.'
+    tokens: [[1, 5], [6, 9], [10, 16], [17, 24], [25, 29], [30, 36], [37, 48], [49, 52], [53, 56], [57, 60], [61, 66], [67, 69], [70, 74], [75, 79], [80, 82], [83, 91], [91, 92]]
+    wn16_key: [[3, "work_on%2:41:00::"], [4, "very%4:02:00::"], [5, "simple%3:00:02::"], [6, "foundation%1:24:00::"], [9, "not%4:02:00::"], [12, "give%2:40:05::"], [15, "impulse%1:12:01::"]]
+    wn30_key: [[3, "work_on%2:41:00::"], [4, "very%4:02:00::"], [5, "simple%3:00:02::"], [6, "foundation%1:24:00::"], [9, "not%4:02:00::"], [12, "give%2:40:05::"], [15, "impulse%1:12:01::"]]
+pAkK:
+    lemmas: ["The", "potter", ",", "in_particular", ",", "have", "virtually", "eschew", "freehand", "drawing", ",", "elaborate", "motif", ",", "and", "the", "curving", "line", "of", "nature", ",", "while", "yet", "express", "a", "belief", "that", "there", "be", "order", "in", "the", "universe", "."]
+    oewn2026_key: [[1, "oewn-10480372-n"], [3, "oewn-00250244-r"], [7, "oewn-00813811-v"], [8, "oewn-01691672-s"], [9, "oewn-07016235-n"], [11, "oewn-01800442-s"], [12, "oewn-03794547-n"], [16, "oewn-02322682-a"], [17, "oewn-13886392-n"], [22, "oewn-00028191-r"], [23, "oewn-00945869-v"], [25, "oewn-05950141-n"], [28, "oewn-02610777-v"], [29, "oewn-14520294-n"], [32, "oewn-09489410-n"]]
+    paragraph: '14'
+    pos: ["DT", "NNS", ",", "RB", ",", "VBD", "RB", "VBN", "JJ", "NN", ",", "JJ", "NNS", ",", "CC", "DT", "JJ", "NNS", "IN", "NN", ",", "IN", "RB", "VBG", "DT", "NN", "IN", "EX", "VBD", "NN", "IN", "DT", "NN", "."]
+    text: ' The potters, in_particular, had virtually eschewed freehand drawing, elaborate motifs,
+  and the curving lines of nature, while yet expressing a belief that there was order
+  in the universe.'
+    tokens: [[1, 4], [5, 12], [12, 13], [14, 27], [27, 28], [29, 32], [33, 42], [43, 51], [52, 60], [61, 68], [68, 69], [70, 79], [80, 86], [86, 87], [88, 91], [92, 95], [96, 103], [104, 109], [110, 112], [113, 119], [119, 120], [121, 126], [127, 130], [131, 141], [142, 143], [144, 150], [151, 155], [156, 161], [162, 165], [166, 171], [172, 174], [175, 178], [179, 187], [187, 188]]
+    wn16_key: [[1, "potter%1:18:00::"], [3, "in_particular%4:02:00::"], [6, "virtually%4:02:00::"], [7, "eschew%2:32:00::"], [8, "freehand%5:00:00:original:00"], [9, "drawing%1:10:00::"], [11, "elaborate%5:00:00:fancy:00"], [12, "motif%1:06:00::"], [16, "curving%3:00:00::"], [17, "line%1:25:00::"], [19, "nature%1:26:00::"], [22, "yet%4:02:02::"], [23, "express%2:32:01::"], [25, "belief%1:09:00::"], [28, "be%2:42:04::"], [29, "order%1:26:02::"], [32, "universe%1:17:00::"]]
+    wn30_key: [[1, "potter%1:18:00::"], [3, "in_particular%4:02:00::"], [7, "eschew%2:32:00::"], [8, "freehand%3:00:00:original:00"], [9, "drawing%1:10:00::"], [11, "elaborate%3:00:00:fancy:00"], [12, "motif%1:06:00::"], [16, "curving%3:00:00::"], [17, "line%1:25:00::"], [22, "yet%4:02:02::"], [23, "express%2:32:01::"], [25, "belief%1:09:00::"], [28, "be%2:42:04::"], [29, "order%1:26:02::"], [32, "universe%1:17:00::"]]
+dfrw:
+    lemmas: ["In", "their", "vase", "be", "embody", "the", "basic", "aesthetic", "and", "logical", "characteristic", "of", "greek", "civilization", ",", "at_first", "hesitantly", "in", "protogeometric", "work", ",", "and", "then", "more", "confidently", "in", "the", "initial", "stage", "of", "the", "geometric", "style", "."]
+    oewn2026_key: [[2, "oewn-04529463-n"], [4, "oewn-02704285-v"], [6, "oewn-01861659-a"], [7, "oewn-03002795-a"], [9, "oewn-00466504-a"], [10, "oewn-04738737-n"], [12, "oewn-03027715-a"], [13, "oewn-08128749-n"], [16, "oewn-00147156-r"], [18, "oewn-01988513-s"], [19, "oewn-04606723-n"], [22, "oewn-00118527-r"], [23, "oewn-00099891-r"], [24, "oewn-00214025-r"], [27, "oewn-01015570-s"], [28, "oewn-15315573-n"], [31, "oewn-01988074-s"], [32, "oewn-04936080-n"]]
+    paragraph: '14'
+    pos: ["IN", "PRP$", "NNS", "VBD", "VBN", "DT", "JJ", "JJ", "CC", "JJ", "NNS", "IN", "JJ", "NN", ",", "RB", "RB", "IN", "JJ", "NN", ",", "RB", "RB", "RBR", "RB", "IN", "DT", "JJ", "NNS", "IN", "DT", "JJ", "NN", "."]
+    text: ' In their vases were embodied the basic aesthetic and logical characteristics of
+  Greek civilization, at_first hesitantly in Protogeometric work, and_then more confidently
+  in the initial stages of the Geometric style.'
+    tokens: [[1, 3], [4, 9], [10, 15], [16, 20], [21, 29], [30, 33], [34, 39], [40, 49], [50, 53], [54, 61], [62, 77], [78, 80], [81, 86], [87, 99], [99, 100], [101, 109], [110, 120], [121, 123], [124, 138], [139, 143], [143, 144], [145, 148], [149, 153], [154, 158], [159, 170], [171, 173], [174, 177], [178, 185], [186, 192], [193, 195], [196, 199], [200, 209], [210, 215], [215, 216]]
+    wn16_key: [[2, "vase%1:06:00::"], [4, "embody%2:42:01::"], [6, "basic%3:00:00::"], [7, "aesthetic%3:01:00::"], [9, "logical%5:00:00:coherent:00"], [10, "characteristic%1:07:00::"], [12, "greek%3:01:01::"], [13, "civilization%1:14:00::"], [15, "at_first%4:02:00::"], [16, "hesitantly%4:02:00::"], [18, "protogeometric%5:00:00:nonrepresentational:00"], [19, "work%1:06:00::"], [23, "more%4:02:00::"], [24, "confidently%4:02:00::"], [27, "initial%5:00:00:first:00"], [28, "stage%1:28:00::"], [31, "geometric%5:00:00:nonrepresentational:00"], [32, "style%1:07:00::"]]
+    wn30_key: [[2, "vase%1:06:00::"], [4, "embody%2:42:01::"], [6, "basic%3:00:00::"], [7, "aesthetic%3:01:00::"], [9, "logical%3:00:05::"], [10, "characteristic%1:07:00::"], [12, "greek%3:01:01::"], [13, "civilization%1:14:00::"], [16, "hesitantly%4:02:00::"], [18, "protogeometric%3:00:00:nonrepresentational:00"], [19, "work%1:06:00::"], [22, "then%4:02:00::"], [23, "more%4:02:00::"], [24, "confidently%4:02:00::"], [27, "initial%3:00:00:first:00"], [28, "stage%1:28:00::"], [31, "geometric%3:00:00:nonrepresentational:00"], [32, "style%1:07:00::"]]
+W7ut:
+    lemmas: ["By", "800", "social", "and", "cultural", "security", "have", "be", "achieve", ",", "at_least", "on", "a", "simple", "plane", ";", "it", "be", "time", "to", "take", "big", "step", ",", "to", "venture", "on", "experiment", "."]
+    oewn2026_key: [[2, "oewn-02809193-a"], [4, "oewn-02883805-a"], [5, "oewn-14562870-n"], [8, "oewn-02531751-v"], [10, "oewn-00105348-r"], [13, "oewn-02182456-a"], [14, "oewn-13964858-n"], [17, "oewn-02610777-v"], [18, "oewn-15270326-n"], [20, "oewn-02605633-v"], [21, "oewn-01385012-a"], [22, "oewn-00175261-n"], [25, "oewn-00918880-v"], [27, "oewn-00787613-n"]]
+    paragraph: '14'
+    pos: ["IN", "CD", "JJ", "CC", "JJ", "NN", "VBD", "VBN", "VBN", ",", "RB", "IN", "DT", "JJ", "NN", ":", "PRP", "VBD", "NN", "TO", "VB", "JJR", "NNS", ",", "TO", "VB", "IN", "NNS", "."]
+    text: ' By 800 social and cultural security had been achieved, at_least on a simple plane;
+  it was time to take bigger steps, to venture on experiments.
+
+  '
+    tokens: [[1, 3], [4, 7], [8, 14], [15, 18], [19, 27], [28, 36], [37, 40], [41, 45], [46, 54], [54, 55], [56, 64], [65, 67], [68, 69], [70, 76], [77, 82], [82, 83], [84, 86], [87, 90], [91, 95], [96, 98], [99, 103], [104, 110], [111, 116], [116, 117], [118, 120], [121, 128], [129, 131], [132, 143], [143, 144]]
+    wn16_key: [[2, "social%3:01:00::"], [4, "cultural%3:01:00::"], [5, "security%1:26:00::"], [8, "achieve%2:41:00::"], [10, "at_least%4:02:01::"], [13, "simple%3:00:02::"], [14, "plane%1:26:00::"], [17, "be%2:42:03::"], [18, "time%1:28:06::"], [20, "take%2:41:04::"], [21, "big%3:00:01::"], [22, "step%1:04:02::"], [25, "venture%2:32:00::"], [27, "experiment%1:04:01::"]]
+    wn30_key: [[2, "social%3:01:00::"], [4, "cultural%3:01:00::"], [5, "security%1:26:00::"], [8, "achieve%2:41:00::"], [10, "at_least%4:02:01::"], [13, "simple%3:00:02::"], [14, "plane%1:26:00::"], [17, "be%2:42:03::"], [18, "time%1:28:06::"], [20, "take%2:41:04::"], [21, "big%3:00:01::"], [22, "step%1:04:02::"], [25, "venture%2:32:00::"], [27, "experiment%1:04:01::"]]
+T6kV:
+    lemmas: ["Ripe_Geometric", "potter", "continue", "to", "employ", "the", "old", "syntax", "of", "ornament", "and", "shape", "and", "make", "use", "of", "the", "well-defined", "though", "limited", "range", "of", "motif", "which", "they", "have", "inherit", "."]
+    oewn2026_key: [[1, "oewn-10480372-n"], [2, "oewn-02690747-v"], [4, "oewn-01161188-v"], [6, "oewn-01642580-a"], [7, "oewn-08453213-n"], [9, "oewn-03174056-n"], [11, "oewn-00028005-n"], [13, "oewn-02566500-v"], [14, "oewn-00948944-n"], [17, "oewn-00783378-s"], [19, "oewn-01417858-a"], [20, "oewn-05132642-n"], [22, "oewn-03794547-n"], [26, "oewn-02320505-v"]]
+    paragraph: '15'
+    pos: ["NNP", "NNS", "VBD", "TO", "VB", "DT", "JJ", "NN", "IN", "NNS", "CC", "NNS", "CC", "VBD", "NN", "VB", "DT", "JJ", "IN", "JJ", "NN", "IN", "NNS", "WDT", "PRP", "VBD", "VBN", "."]
+    text: ' Ripe_Geometric potters continued to employ the old syntax of ornaments and shapes
+  and made use of the well-defined though limited range of motifs which they had inherited.'
+    tokens: [[1, 15], [16, 23], [24, 33], [34, 36], [37, 43], [44, 47], [48, 51], [52, 58], [59, 61], [62, 71], [72, 75], [76, 82], [83, 86], [87, 91], [92, 95], [96, 98], [99, 102], [103, 115], [116, 122], [123, 130], [131, 136], [137, 139], [140, 146], [147, 152], [153, 157], [158, 161], [162, 171], [171, 172]]
+    wn16_key: [[1, "potter%1:18:00::"], [2, "continue%2:42:01::"], [4, "employ%2:34:00::"], [6, "old%3:00:01::"], [7, "syntax%1:14:00::"], [9, "ornament%1:06:00::"], [11, "shape%1:03:00::"], [13, "make%2:41:00::"], [14, "use%1:04:00::"], [17, "well-defined%5:00:00:distinct:00"], [19, "limited%3:00:00::"], [20, "range%1:07:00::"], [22, "motif%1:06:00::"], [26, "inherit%2:40:00::"]]
+    wn30_key: [[1, "potter%1:18:00::"], [2, "continue%2:42:01::"], [4, "employ%2:34:00::"], [6, "old%3:00:01::"], [7, "syntax%1:14:00::"], [9, "ornament%1:06:00::"], [11, "shape%1:03:00::"], [13, "make%2:41:00::"], [14, "use%1:04:00::"], [17, "well-defined%3:00:00:distinct:00"], [19, "limited%3:00:00::"], [20, "range%1:07:00::"], [22, "motif%1:06:00::"], [26, "inherit%2:40:00::"]]
+89JM:
+    lemmas: ["In", "these", "respect", "the", "vase", "of", "the", "early", "eighth", "century", "represent", "a", "culmination", "of", "earlier", "line", "of", "progress", "."]
+    oewn2026_key: [[2, "oewn-05828314-n"], [4, "oewn-04529463-n"], [7, "oewn-00816521-a"], [8, "oewn-02210792-s"], [9, "oewn-15230328-n"], [10, "oewn-02626667-v"], [12, "oewn-15316435-n"], [14, "oewn-00818180-s"], [15, "oewn-08393816-n"], [17, "oewn-00250368-n"]]
+    paragraph: '15'
+    pos: ["IN", "DT", "NNS", "DT", "NNS", "IN", "DT", "JJ", "JJ", "NN", "VBP", "DT", "NN", "IN", "JJR", "NNS", "IN", "NN", "."]
+    text: ' In these respects the vases of the early eighth century represent a culmination
+  of earlier lines of progress.'
+    tokens: [[1, 3], [4, 9], [10, 18], [19, 22], [23, 28], [29, 31], [32, 35], [36, 41], [42, 48], [49, 56], [57, 66], [67, 68], [69, 80], [81, 83], [84, 91], [92, 97], [98, 100], [101, 109], [109, 110]]
+    wn16_key: [[2, "respect%1:09:00::"], [4, "vase%1:06:00::"], [7, "early%3:00:00::"], [8, "eighth%5:00:00:ordinal:00"], [9, "century%1:28:00::"], [10, "represent%2:42:00::"], [12, "culmination%1:28:00::"], [14, "earlier%5:00:00:past:00"], [15, "line%1:14:02::"], [17, "progress%1:04:01::"]]
+    wn30_key: [[2, "respect%1:09:00::"], [4, "vase%1:06:00::"], [7, "early%3:00:00::"], [8, "eighth%3:00:00:ordinal:00"], [9, "century%1:28:00::"], [10, "represent%2:42:00::"], [12, "culmination%1:28:00::"], [14, "earlier%3:00:00:early:00"], [15, "line%1:14:02::"], [17, "progress%1:04:01::"]]
++WOy:
+    lemmas: ["To", "the", "ancestral", "lore", ",", "however", ",", "new", "material", "be", "add", "."]
+    oewn2026_key: [[2, "oewn-01317151-s"], [3, "oewn-05994266-n"], [5, "oewn-00027761-r"], [7, "oewn-01645077-a"], [8, "oewn-14604877-n"], [10, "oewn-00182551-v"]]
+    paragraph: '15'
+    pos: ["TO", "DT", "JJ", "NN", ",", "RB", ",", "JJ", "NNS", "VB", "VBN", "."]
+    text: ' To the ancestral lore, however, new materials were added.'
+    tokens: [[1, 3], [4, 7], [8, 17], [18, 22], [22, 23], [24, 31], [31, 32], [33, 36], [37, 46], [47, 51], [52, 57], [57, 58]]
+    wn16_key: [[2, "ancestral%5:00:00:inheritable:00"], [3, "lore%1:09:00::"], [5, "however%4:02:00::"], [7, "new%3:00:00::"], [8, "material%1:27:00::"], [10, "add%2:30:00::"]]
+    wn30_key: [[2, "ancestral%3:00:00:inheritable:00"], [3, "lore%1:09:00::"], [5, "however%4:02:00::"], [7, "new%3:00:00::"], [8, "material%1:27:00::"], [10, "add%2:30:00::"]]
+nW3Q:
+    lemmas: ["painter", "leave", "less", "and", "less", "of", "a", "vase", "in", "a", "plain", "dark", "color", ";", "instead", "they", "divide", "the", "surface", "into", "many", "band", "or", "cover", "it", "by", "all-over", "pattern", "into", "which", "freehand", "drawing", "begin", "to", "creep", "."]
+    oewn2026_key: [[0, "oewn-10411352-n"], [1, "oewn-00136799-v"], [2, "oewn-01559809-a"], [7, "oewn-04529463-n"], [10, "oewn-01790415-a"], [11, "oewn-00410517-a"], [12, "oewn-04963771-n"], [14, "oewn-00063710-r"], [16, "oewn-01559703-v"], [18, "oewn-04369112-n"], [20, "oewn-01555990-a"], [21, "oewn-02787755-n"], [23, "oewn-01335412-v"], [27, "oewn-03183448-n"], [30, "oewn-01691672-s"], [31, "oewn-00937756-n"], [32, "oewn-00346415-v"], [34, "oewn-01915881-v"]]
+    paragraph: '15'
+    pos: ["NNS", "VBD", "JJR", "CC", "NN", "JJ", "DT", "NN", "IN", "DT", "JJ", "JJ", "NN", ":", "RB", "PRP", "VBD", "DT", "NN", "IN", "JJ", "NNS", "CC", "VBD", "PRP", "IN", "IN", "NNS", "IN", "WDT", "JJ", "NN", "VBD", "TO", "VB", "."]
+    text: ' Painters left less and less of a vase in a plain dark color; instead they divided
+  the surface into many bands or covered it by all-over patterns into which freehand
+  drawing began to creep.'
+    tokens: [[1, 9], [10, 14], [15, 19], [20, 23], [24, 28], [29, 31], [32, 33], [34, 38], [39, 41], [42, 43], [44, 49], [50, 54], [55, 60], [60, 61], [62, 69], [70, 74], [75, 82], [83, 86], [87, 94], [95, 99], [100, 104], [105, 110], [111, 113], [114, 121], [122, 124], [125, 127], [128, 136], [137, 145], [146, 150], [151, 156], [157, 165], [166, 173], [174, 179], [180, 182], [183, 188], [188, 189]]
+    wn16_key: [[0, "painter%1:18:00::"], [1, "leave%2:30:02::"], [2, "less%3:00:00::"], [4, "less%1:23:00::"], [7, "vase%1:06:00::"], [10, "plain%3:00:02::"], [11, "dark%3:00:02::"], [12, "color%1:07:00::"], [14, "instead%4:02:00::"], [16, "divide%2:35:01::"], [18, "surface%1:06:00::"], [20, "many%3:00:00::"], [21, "band%1:06:01::"], [23, "cover%2:35:00::"], [27, "pattern%1:06:00::"], [30, "freehand%5:00:00:original:00"], [31, "drawing%1:04:01::"], [32, "begin%2:30:00::"], [34, "creep%2:38:04::"]]
+    wn30_key: [[0, "painter%1:18:00::"], [1, "leave%2:30:02::"], [2, "less%3:00:00::"], [7, "vase%1:06:00::"], [10, "plain%3:00:02::"], [11, "dark%3:00:02::"], [12, "color%1:07:00::"], [14, "instead%4:02:00::"], [16, "divide%2:35:01::"], [18, "surface%1:06:00::"], [20, "many%3:00:00::"], [21, "band%1:06:01::"], [23, "cover%2:35:00::"], [27, "pattern%1:06:00::"], [30, "freehand%3:00:00:original:00"], [31, "drawing%1:04:01::"], [32, "begin%2:30:00::"], [34, "creep%2:38:04::"]]
+LKhc:
+    lemmas: ["wavy", "line", ",", "feather", "like", "pattern", ",", "rosette", "of", "indefinitely", "floral", "nature", ",", "bird", "either", "singly", "or", "in", "stylized", "row", ",", "animal", "in", "solemn", "frieze", "band", "(", "see", "plate", "11", "-", "12", ")", "-", "all", "these", "turn_up", "in", "the", "more", "developed", "fabric", "as", "preliminary", "sign", "that", "the", "potter", "be", "broaden", "their", "gaze", "."]
+    oewn2026_key: [[0, "oewn-00914876-s"], [1, "oewn-13886392-n"], [3, "oewn-89570581-n"], [4, "oewn-01412553-a"], [5, "oewn-03183448-n"], [7, "oewn-04116993-n"], [9, "oewn-00205211-r"], [10, "oewn-01793214-s"], [11, "oewn-04733982-n"], [13, "oewn-01505702-n"], [15, "oewn-00083891-r"], [18, "oewn-01576997-s"], [19, "oewn-08448447-n"], [21, "oewn-00015568-n"], [24, "oewn-03401923-n"], [25, "oewn-02787755-n"], [28, "oewn-03966958-n"], [34, "oewn-02277044-a"], [36, "oewn-00424655-v"], [39, "oewn-01559526-a"], [40, "oewn-00745450-a"], [41, "oewn-03314753-n"], [43, "oewn-00881395-s"], [44, "oewn-06659006-n"], [47, "oewn-10480372-n"], [49, "oewn-00318370-v"], [51, "oewn-00880326-n"]]
+    paragraph: '15'
+    pos: ["JJ", "NNS", ",", "NN", "JJ", "NNS", ",", "NNS", "IN", "RB", "JJ", "NN", ",", "NNS", "DT", "RB", "CC", "IN", "JJ", "NNS", ",", "NNS", "IN", "JJ", "NN", "NNS", "RB", "RB", "NNP", "CD", ":", "CD", "NN", ":", "JJ", "DT", "VB", "IN", "DT", "JJ", "JJ", "NNS", "IN", "JJ", "NNS", "IN", "DT", "NNS", "VBD", "VBG", "PRP$", "NN", "."]
+    text: ' Wavy lines, feather like patterns, rosettes of indefinitely floral nature, birds
+  either singly or in stylized rows, animals in solemn frieze bands (see Plates 11
+  - 12) - all these turned_up in the more developed fabrics as preliminary signs that
+  the potters were broadening their gaze.'
+    tokens: [[1, 5], [6, 11], [11, 12], [13, 20], [21, 25], [26, 34], [34, 35], [36, 44], [45, 47], [48, 60], [61, 67], [68, 74], [74, 75], [76, 81], [82, 88], [89, 95], [96, 98], [99, 101], [102, 110], [111, 115], [115, 116], [117, 124], [125, 127], [128, 134], [135, 141], [142, 147], [148, 149], [149, 152], [153, 159], [160, 162], [163, 164], [165, 167], [167, 168], [169, 170], [171, 174], [175, 180], [181, 190], [191, 193], [194, 197], [198, 202], [203, 212], [213, 220], [221, 223], [224, 235], [236, 241], [242, 246], [247, 250], [251, 258], [259, 263], [264, 274], [275, 280], [281, 285], [285, 286]]
+    wn16_key: [[0, "wavy%5:00:00:uneven:00"], [1, "line%1:25:00::"], [3, "feather%1:05:00::"], [4, "like%3:00:00::"], [5, "pattern%1:06:00::"], [7, "rosette%1:06:00::"], [9, "indefinitely%4:02:00::"], [10, "floral%5:00:00:patterned:00"], [11, "nature%1:07:02::"], [13, "bird%1:05:00::"], [15, "singly%4:02:00::"], [18, "stylized%5:00:00:artificial:00"], [19, "row%1:14:00::"], [21, "animal%1:03:00::"], [23, "solemn%5:00:00:formal:01"], [24, "frieze%1:06:01::"], [25, "band%1:06:01::"], [27, "see%4:02:00::"], [28, "plate%1:06:06::"], [34, "all%3:00:00::"], [36, "turn_up%2:30:00::"], [39, "more%3:00:01::"], [40, "developed%3:00:00::"], [41, "fabric%1:06:00::"], [43, "preliminary%5:00:00:exploratory:00"], [44, "sign%1:10:05::"], [47, "potter%1:18:00::"], [49, "broaden%2:30:01::"], [51, "gaze%1:04:00::"]]
+    wn30_key: [[0, "wavy%3:00:00:uneven:00"], [1, "line%1:25:00::"], [3, "feather%1:05:00::"], [4, "like%3:00:00::"], [5, "pattern%1:06:00::"], [7, "rosette%1:06:00::"], [9, "indefinitely%4:02:00::"], [10, "floral%3:00:00:patterned:00"], [11, "nature%1:07:02::"], [13, "bird%1:05:00::"], [15, "singly%4:02:00::"], [18, "stylized%3:00:00:artificial:00"], [19, "row%1:14:00::"], [21, "animal%1:03:00::"], [24, "frieze%1:06:01::"], [25, "band%1:06:01::"], [28, "plate%1:06:06::"], [34, "all%3:00:00::"], [36, "turn_up%2:30:00::"], [39, "more%3:00:01::"], [40, "developed%3:00:00::"], [41, "fabric%1:06:00::"], [43, "preliminary%3:00:00:exploratory:00"], [44, "sign%1:10:05::"], [47, "potter%1:18:00::"], [49, "broaden%2:30:01::"], [51, "gaze%1:04:00::"]]
+D7TI:
+    lemmas: ["The", "row", "of", "animal", "and", "bird", ",", "in_particular", ",", "suggest", "awareness", "of", "oriental", "animal", "frieze", ",", "transmit", "perhaps", "via", "syrian", "silver", "bowl", "and", "textile", ",", "but", "the", "specific", "form", "of", "these", "row", "on", "local", "vase", "and", "metal", "product", "be", "nonetheless", "greek", "."]
+    oewn2026_key: [[1, "oewn-08448447-n"], [3, "oewn-00015568-n"], [5, "oewn-01505702-n"], [7, "oewn-00250244-r"], [9, "oewn-00932768-v"], [10, "oewn-05683749-n"], [12, "oewn-00829356-s"], [13, "oewn-00015568-n"], [14, "oewn-03401923-n"], [16, "oewn-02084180-v"], [17, "oewn-00301501-r"], [19, "oewn-03028032-a"], [20, "oewn-01533172-s"], [21, "oewn-02884435-n"], [23, "oewn-03314753-n"], [27, "oewn-01106714-a"], [28, "oewn-04684871-n"], [31, "oewn-08448447-n"], [33, "oewn-01110098-a"], [34, "oewn-04529463-n"], [36, "oewn-01531539-a"], [37, "oewn-04014270-n"], [38, "oewn-02610777-v"], [39, "oewn-00027761-r"], [40, "oewn-03027715-a"]]
+    paragraph: '15'
+    pos: ["DT", "NNS", "IN", "NNS", "CC", "NNS", ",", "RB", ",", "VBP", "NN", "IN", "JJ", "NN", "NNS", ",", "VBN", "RB", "IN", "JJ", "JJ", "NN", "CC", "NNS", ",", "CC", "DT", "JJ", "NNS", "IN", "DT", "NNS", "IN", "JJ", "NNS", "CC", "JJ", "NNS", "VBP", "RB", "JJ", "."]
+    text: ' The rows of animals and birds, in_particular, suggest awareness of Oriental animal
+  friezes, transmitted perhaps via Syrian silver bowls and textiles, but the specific
+  forms of these rows on local vases and metal products are nonetheless Greek.'
+    tokens: [[1, 4], [5, 9], [10, 12], [13, 20], [21, 24], [25, 30], [30, 31], [32, 45], [45, 46], [47, 54], [55, 64], [65, 67], [68, 76], [77, 83], [84, 91], [91, 92], [93, 104], [105, 112], [113, 116], [117, 123], [124, 130], [131, 136], [137, 140], [141, 149], [149, 150], [151, 154], [155, 158], [159, 167], [168, 173], [174, 176], [177, 182], [183, 187], [188, 190], [191, 196], [197, 202], [203, 206], [207, 212], [213, 221], [222, 225], [226, 237], [238, 243], [243, 244]]
+    wn16_key: [[1, "row%1:14:00::"], [3, "animal%1:03:00::"], [5, "bird%1:05:00::"], [7, "in_particular%4:02:00::"], [9, "suggest%2:32:01::"], [10, "awareness%1:09:00::"], [12, "oriental%5:00:00:eastern:01"], [13, "animal%1:03:00::"], [14, "frieze%1:06:01::"], [16, "transmit%2:38:00::"], [17, "perhaps%4:02:00::"], [19, "syrian%3:01:00::"], [20, "silver%5:00:00:metallic:00"], [21, "bowl%1:06:01::"], [23, "textile%1:06:00::"], [27, "specific%3:00:00::"], [28, "form%1:07:00::"], [31, "row%1:14:00::"], [33, "local%3:00:01::"], [34, "vase%1:06:00::"], [36, "metal%3:00:00::"], [37, "product%1:06:00::"], [38, "be%2:42:03::"], [39, "nonetheless%4:02:00::"], [40, "greek%3:01:01::"]]
+    wn30_key: [[1, "row%1:14:00::"], [3, "animal%1:03:00::"], [5, "bird%1:05:00::"], [7, "in_particular%4:02:00::"], [9, "suggest%2:32:02::"], [10, "awareness%1:09:00::"], [12, "oriental%3:00:00:eastern:01"], [13, "animal%1:03:00::"], [14, "frieze%1:06:01::"], [16, "transmit%2:38:00::"], [17, "perhaps%4:02:00::"], [19, "syrian%3:01:00::"], [20, "silver%3:00:00:metallic:00"], [21, "bowl%1:06:01::"], [23, "textile%1:06:00::"], [27, "specific%3:00:00::"], [28, "form%1:07:00::"], [31, "row%1:14:00::"], [33, "local%3:00:01::"], [34, "vase%1:06:00::"], [36, "metal%3:00:00::"], [37, "product%1:06:00::"], [38, "be%2:42:03::"], [39, "nonetheless%4:02:00::"], [40, "greek%3:01:01::"]]
+de8x:
+    lemmas: ["Though", "the", "spread", "of", "this", "type", "of", "decoration", "in", "the", "aegean", "have", "not_yet", "be", "precisely", "determine", ",", "it", "seem", "to", "appear", "first", "in", "the", "cyclades", ",", "which", "be", "among", "the", "leading", "exporter", "of", "pottery", "throughout", "the", "century", "."]
+    oewn2026_key: [[2, "oewn-07460496-n"], [5, "oewn-05848697-n"], [7, "oewn-03174056-n"], [10, "oewn-09211506-n"], [14, "oewn-00159432-r"], [15, "oewn-00701581-v"], [18, "oewn-02137900-v"], [20, "oewn-00423043-v"], [21, "oewn-00104262-r"], [24, "oewn-08307849-n"], [27, "oewn-02661230-v"], [30, "oewn-02347411-s"], [31, "oewn-10093422-n"], [33, "oewn-03999061-n"], [36, "oewn-15230328-n"]]
+    paragraph: '15'
+    pos: ["IN", "DT", "NN", "RB", "RB", "NN", "IN", "NN", "IN", "DT", "NNP", "VBZ", "RB", "VBN", "RB", "VBN", ",", "PRP", "VBZ", "TO", "VB", "RB", "IN", "DT", "NNP", ",", "WDT", "VBD", "IN", "DT", "JJ", "NNS", "IN", "NN", "IN", "DT", "NN", "."]
+    text: ' Though the spread of this type of decoration in the Aegean has not_yet been precisely
+  determined, it seems to appear first in the Cyclades, which were among the leading
+  exporters of pottery throughout the century.
+
+  '
+    tokens: [[1, 7], [8, 11], [12, 18], [19, 21], [22, 26], [27, 31], [32, 34], [35, 45], [46, 48], [49, 52], [53, 59], [60, 63], [64, 71], [72, 76], [77, 86], [87, 97], [97, 98], [99, 101], [102, 107], [108, 110], [111, 117], [118, 123], [124, 126], [127, 130], [131, 139], [139, 140], [141, 146], [147, 151], [152, 157], [158, 161], [162, 169], [170, 179], [180, 182], [183, 190], [191, 201], [202, 205], [206, 213], [213, 214]]
+    wn16_key: [[2, "spread%1:11:00::"], [5, "type%1:09:00::"], [7, "decoration%1:06:00::"], [10, "aegean%1:17:00::"], [12, "not_yet%4:02:00::"], [14, "precisely%4:02:00::"], [15, "determine%2:31:01::"], [18, "seem%2:39:00::"], [20, "appear%2:30:00::"], [21, "first%4:02:02::"], [24, "cyclades%1:14:00::"], [27, "be%2:42:05::"], [30, "leading%5:00:00:superior:01"], [31, "exporter%1:18:00::"], [33, "pottery%1:06:00::"], [36, "century%1:28:00::"]]
+    wn30_key: [[2, "spread%1:11:00::"], [5, "type%1:09:00::"], [7, "decoration%1:06:00::"], [10, "aegean%1:17:00::"], [14, "precisely%4:02:00::"], [15, "determine%2:31:01::"], [18, "seem%2:39:00::"], [20, "appear%2:30:00::"], [21, "first%4:02:02::"], [24, "cyclades%1:14:00::"], [27, "be%2:42:05::"], [30, "leading%3:00:00:superior:01"], [31, "exporter%1:18:00::"], [33, "pottery%1:06:00::"], [36, "century%1:28:00::"]]
+e+0d:
+    lemmas: ["As", "the", "material", "at", "the", "command", "of", "the", "potter", "grow", "and", "the", "volume", "of", "their", "production", "increase", ",", "the", "local", "variation", "within", "a", "common", "style", "become", "more", "evident", "."]
+    oewn2026_key: [[2, "oewn-14604877-n"], [5, "oewn-04726652-n"], [8, "oewn-10480372-n"], [9, "oewn-00231172-v"], [12, "oewn-05106651-n"], [15, "oewn-04014270-n"], [16, "oewn-00156409-v"], [19, "oewn-01110098-a"], [20, "oewn-07351990-n"], [23, "oewn-02159888-s"], [24, "oewn-04936080-n"], [25, "oewn-00149403-v"], [26, "oewn-00099891-r"], [27, "oewn-01622528-s"]]
+    paragraph: '16'
+    pos: ["IN", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NNS", "VBD", "CC", "DT", "NN", "IN", "PRP$", "NN", "VBD", ",", "DT", "JJ", "NNS", "IN", "DT", "JJ", "NN", "VBD", "RBR", "JJ", "."]
+    text: ' As the material at the command of the potters grew and the volume of their production
+  increased, the local variations within a common style became more evident.'
+    tokens: [[1, 3], [4, 7], [8, 16], [17, 19], [20, 23], [24, 31], [32, 34], [35, 38], [39, 46], [47, 51], [52, 55], [56, 59], [60, 66], [67, 69], [70, 75], [76, 86], [87, 96], [96, 97], [98, 101], [102, 107], [108, 118], [119, 125], [126, 127], [128, 134], [135, 140], [141, 147], [148, 152], [153, 160], [160, 161]]
+    wn16_key: [[2, "material%1:27:00::"], [5, "command%1:07:02::"], [8, "potter%1:18:00::"], [9, "grow%2:30:00::"], [12, "volume%1:07:03::"], [15, "production%1:06:00::"], [16, "increase%2:30:00::"], [19, "local%3:00:01::"], [20, "variation%1:11:01::"], [23, "common%5:00:00:shared:00"], [24, "style%1:07:00::"], [25, "become%2:30:00::"], [26, "more%4:02:00::"], [27, "evident%5:00:00:obvious:00"]]
+    wn30_key: [[2, "material%1:27:00::"], [5, "command%1:07:02::"], [8, "potter%1:18:00::"], [9, "grow%2:30:00::"], [12, "volume%1:07:03::"], [15, "production%1:06:00::"], [16, "increase%2:30:00::"], [19, "local%3:00:01::"], [20, "variation%1:11:01::"], [23, "common%3:00:00:shared:00"], [24, "style%1:07:00::"], [25, "become%2:30:00::"], [26, "more%4:02:00::"], [27, "evident%3:00:00:obvious:00"]]
+CIzi:
+    lemmas: ["plate", "12", "illustrate", "four", "example", ",", "which", "be", "ripe", "or", "Late_Geometric", "work", "of", "common", "spirit", "but", "of", "different", "school", "."]
+    oewn2026_key: [[0, "oewn-03966958-n"], [2, "oewn-01023137-v"], [3, "oewn-02194304-s"], [4, "oewn-05828980-n"], [7, "oewn-02610777-v"], [11, "oewn-04606723-n"], [13, "oewn-00494722-a"], [14, "oewn-14549784-n"], [17, "oewn-02072149-a"], [18, "oewn-08292106-n"]]
+    paragraph: '16'
+    pos: ["NN", "CD", "VBZ", "JJ", "NNS", ",", "WDT", "VBP", "JJ", "CC", "NNP", "NN", "IN", "JJ", "NN", "CC", "IN", "JJ", "NNS", "."]
+    text: ' Plate 12 illustrates four examples, which are Ripe or Late_Geometric work of common
+  spirit but of different schools.
+
+  '
+    tokens: [[1, 6], [7, 9], [10, 21], [22, 26], [27, 35], [35, 36], [37, 42], [43, 46], [47, 51], [52, 54], [55, 69], [70, 74], [75, 77], [78, 84], [85, 91], [92, 95], [96, 98], [99, 108], [109, 116], [116, 117]]
+    wn16_key: [[0, "plate%1:06:06::"], [2, "illustrate%2:32:00::"], [3, "four%5:00:00:cardinal:00"], [4, "example%1:09:00::"], [7, "be%2:42:03::"], [11, "work%1:06:00::"], [13, "common%3:00:02::"], [14, "spirit%1:26:00::"], [17, "different%3:00:00::"], [18, "school%1:14:02::"]]
+    wn30_key: [[0, "plate%1:06:06::"], [2, "illustrate%2:32:00::"], [3, "four%3:00:00:cardinal:00"], [4, "example%1:09:00::"], [7, "be%2:42:03::"], [11, "work%1:06:00::"], [13, "common%3:00:02::"], [14, "spirit%1:26:00::"], [17, "different%3:00:00::"], [18, "school%1:14:02::"]]

@@ -1,0 +1,1120 @@
+_meta:
+    lemmas:
+        type: seq
+        base: tokens
+        data: string
+    oewn2026_key:
+        type: element
+        base: tokens
+        data: string
+    paragraph:
+        type: characters
+    pos:
+        type: seq
+        base: tokens
+        data: string
+    text:
+        type: characters
+    tokens:
+        type: span
+        base: text
+    wn16_key:
+        type: element
+        base: tokens
+        data: string
+    wn30_key:
+        type: element
+        base: tokens
+        data: string
+cw/I:
+    lemmas: ["die", "Frist", "ist", "um", ",", "und", "wiederum", "verstrichen", "sind", "sieben", "Jahr", ",", "the", "maestro", "quote", "The", "flying_dutchman", ",", "as", "he", "tell", "of", "his", "career", "and", "wandering", ",", "explain", "that", "the", "number", "seven", "have", "significantly", "recur", "in", "his", "life", "several_times", "."]
+    oewn2026_key: [[14, "oewn-01025268-v"], [20, "oewn-00955248-v"], [27, "oewn-00941308-v"], [34, "oewn-00343988-v"]]
+    paragraph: '0'
+    pos: ["NNP", "FW", "FW", "FW", ",", "FW", "FW", "FW", "FW", "FW", "FW", ",", "DT", "NNP", "VBD", "DT", "NN", ",", "IN", "PRP", "VBD", "IN", "PRP$", "NN", "CC", "NNS", ",", "VBG", "IN", "DT", "NN", "CD", "VBD", "RB", "VBN", "IN", "PRP$", "NN", "RB", "."]
+    text: 'Die Frist ist um, und wiederum verstrichen sind sieben Jahr, the Maestro quoted The
+  Flying_Dutchman, as he told of his career and wanderings, explaining that the number
+  seven had significantly recurred in his life several_times.
+
+  '
+    tokens: [[0, 3], [4, 9], [10, 13], [14, 16], [16, 17], [18, 21], [22, 30], [31, 42], [43, 47], [48, 54], [55, 59], [59, 60], [61, 64], [65, 72], [73, 79], [80, 83], [84, 99], [99, 100], [101, 103], [104, 106], [107, 111], [112, 114], [115, 118], [119, 125], [126, 129], [130, 140], [140, 141], [142, 152], [153, 157], [158, 161], [162, 168], [169, 174], [175, 178], [179, 192], [193, 201], [202, 204], [205, 208], [209, 213], [214, 227], [227, 228]]
+    wn16_key: [[14, "quote%2:32:00::"], [20, "tell%2:32:01::"], [27, "explain%2:32:00::"], [34, "recur%2:30:00::"]]
+    wn30_key: [[14, "quote%2:32:00::"], [20, "tell%2:32:01::"], [27, "explain%2:32:00::"], [34, "recur%2:30:00::"]]
+WH5X:
+    lemmas: ["The", "music_director", "of", "the", "pittsburgh", "symphony_orchestra", ",", "William_Steinberg", ",", "have", "mold", "his", "group", "into", "a", "prominent", "musical_organization", ",", "which", "be", "his", "life", "."]
+    oewn2026_key: [[10, "oewn-01700922-v"], [19, "oewn-02703567-v"]]
+    paragraph: '1'
+    pos: ["DT", "NN", "IN", "DT", "NNP", "NN", ",", "NNP", ",", "VBZ", "VBN", "PRP$", "NN", "IN", "DT", "JJ", "NN", ",", "WDT", "VBZ", "PRP$", "NN", "."]
+    text: ' The music_director of the Pittsburgh Symphony_Orchestra, William_Steinberg, has
+  molded his group into a prominent musical_organization, which is his life.'
+    tokens: [[1, 4], [5, 19], [20, 22], [23, 26], [27, 37], [38, 56], [56, 57], [58, 75], [75, 76], [77, 80], [81, 87], [88, 91], [92, 97], [98, 102], [103, 104], [105, 114], [115, 135], [135, 136], [137, 142], [143, 145], [146, 149], [150, 154], [154, 155]]
+    wn16_key: [[10, "mold%2:36:02::"], [19, "be%2:42:08::"]]
+    wn30_key: [[10, "mold%2:36:02::"], [19, "be%2:42:08::"]]
+J97s:
+    lemmas: ["When", "he", "add", "to", "his", "pittsburgh", "commitment", "the", "directorship", "of", "the", "london_philharmonic_orchestra", "in", "1958", ",", "he", "conduct", "one_hundred", "fifty", "concert", "within", "nine", "month", ",", "\"", "commute", "\"", "between", "the", "two", "city", "."]
+    oewn2026_key: [[2, "oewn-00182551-v"], [16, "oewn-01736802-v"], [25, "oewn-02065774-v"]]
+    paragraph: '1'
+    pos: ["WRB", "PRP", "VBD", "TO", "PRP$", "NNP", "NNS", "DT", "NN", "IN", "DT", "NNP", "IN", "CD", ",", "PRP", "VBD", "JJ", "CD", "NNS", "IN", "CD", "NNS", ",", "``", "VBG", "''", "IN", "DT", "CD", "NNS", "."]
+    text: ' When he added to his Pittsburgh commitments the directorship of the London_Philharmonic_Orchestra
+  in 1958, he conducted one_hundred fifty concerts within nine months, " commuting
+  " between the two cities.'
+    tokens: [[1, 5], [6, 8], [9, 14], [15, 17], [18, 21], [22, 32], [33, 44], [45, 48], [49, 61], [62, 64], [65, 68], [69, 98], [99, 101], [102, 106], [106, 107], [108, 110], [111, 120], [121, 132], [133, 138], [139, 147], [148, 154], [155, 159], [160, 166], [166, 167], [168, 169], [170, 179], [180, 181], [182, 189], [190, 193], [194, 197], [198, 204], [204, 205]]
+    wn16_key: [[2, "add%2:30:00::"], [16, "conduct%2:36:00::"], [25, "commute%2:38:00::"]]
+    wn30_key: [[2, "add%2:30:00::"], [16, "conduct%2:36:00::"], [25, "commute%2:38:00::"]]
+hkcr:
+    lemmas: ["This", "schedule", "become", "too", "strenuous", ",", "even", "for", "the", "energetic", "and", "conscientious", "mr._steinberg", "."]
+    oewn2026_key: [[2, "oewn-00149403-v"]]
+    paragraph: '1'
+    pos: ["DT", "NN", "VBD", "RB", "JJ", ",", "RB", "IN", "DT", "JJ", "CC", "JJ", "NNP", "."]
+    text: ' This schedule became too strenuous, even for the energetic and conscientious Mr._Steinberg.'
+    tokens: [[1, 5], [6, 14], [15, 21], [22, 25], [26, 35], [35, 36], [37, 41], [42, 45], [46, 49], [50, 59], [60, 63], [64, 77], [78, 91], [91, 92]]
+    wn16_key: [[2, "become%2:30:00::"]]
+    wn30_key: [[2, "become%2:30:00::"]]
+LgXQ:
+    lemmas: ["His", "london", "contract", "be", "rescind", ",", "and", "now", ",", "he", "explain", "cheerfully", ",", "as", "a", "bright", "smile", "lighten", "his", "intense", ",", "mobile", "face", ",", "\"", "I", "conduct", "only", "one_hundred", "and", "twenty", "concert", "\"", "!"]
+    oewn2026_key: [[4, "oewn-00801460-v"], [10, "oewn-00941308-v"], [17, "oewn-01818041-v"], [26, "oewn-01736802-v"]]
+    paragraph: '1'
+    pos: ["PRP$", "NNP", "NN", "VBD", "VBN", ",", "CC", "RB", ",", "PRP", "VBZ", "RB", ",", "IN", "DT", "JJ", "NN", "VBZ", "PRP$", "JJ", ",", "JJ", "NN", ",", "``", "PRP", "VBP", "RB", "JJ", "CC", "CD", "NNS", "''", "."]
+    text: ' His London contract was rescinded, and now, he explains cheerfully, as a bright
+  smile lightens his intense, mobile face, " I conduct only one_hundred and twenty
+  concerts "!
+
+  '
+    tokens: [[1, 4], [5, 11], [12, 20], [21, 24], [25, 34], [34, 35], [36, 39], [40, 43], [43, 44], [45, 47], [48, 56], [57, 67], [67, 68], [69, 71], [72, 73], [74, 80], [81, 86], [87, 95], [96, 99], [100, 107], [107, 108], [109, 115], [116, 120], [120, 121], [122, 123], [124, 125], [126, 133], [134, 138], [139, 150], [151, 154], [155, 161], [162, 170], [171, 172], [172, 173]]
+    wn16_key: [[4, "rescind%2:32:00::"], [10, "explain%2:32:00::"], [17, "lighten%2:37:01::"], [26, "conduct%2:36:00::"]]
+    wn30_key: [[4, "rescind%2:32:00::"], [10, "explain%2:32:00::"], [17, "lighten%2:37:01::"], [26, "conduct%2:36:00::"]]
+7HQH:
+    lemmas: ["Our", "meeting", "take_place", "in", "may", ",", "1961", ",", "during", "one", "of", "the", "maestro", "'s", "stop-over", "in", "new_york", ",", "before", "he", "leave", "for", "europe", "."]
+    oewn2026_key: [[2, "oewn-00340744-v"], [20, "oewn-02013448-v"]]
+    paragraph: '2'
+    pos: ["PRP$", "NN", "VB", "IN", "NNP", ",", "CD", ",", "IN", "CD", "IN", "DT", "NNP", "POS", "NNS", "IN", "NN", ",", "IN", "PRP", "VBD", "IN", "NNP", "."]
+    text: ' Our meeting took_place in May, 1961, during one of the Maestro''s stop-overs in
+  New_York, before he left for Europe.'
+    tokens: [[1, 4], [5, 12], [13, 23], [24, 26], [27, 30], [30, 31], [32, 36], [36, 37], [38, 44], [45, 48], [49, 51], [52, 55], [56, 63], [63, 65], [66, 76], [77, 79], [80, 88], [88, 89], [90, 96], [97, 99], [100, 104], [105, 108], [109, 115], [115, 116]]
+    wn16_key: [[2, "take_place%2:30:00::"], [20, "leave%2:38:01::"]]
+    wn30_key: [[2, "take_place%2:30:00::"], [20, "leave%2:38:01::"]]
+CEtb:
+    lemmas: ["As", "we", "begin", "to", "converse", "in", "the", "lounge", "of", "his", "fifth_avenue", "hotel", ",", "his", "restlessness", "and", "sensitivity", "to", "light", "and", "sound", "become", "immediately", "apparent", "."]
+    oewn2026_key: [[2, "oewn-00346415-v"], [4, "oewn-00966726-v"], [21, "oewn-00149403-v"]]
+    paragraph: '2'
+    pos: ["IN", "PRP", "VBD", "TO", "VB", "IN", "DT", "NN", "IN", "PRP$", "NNP", "NN", ",", "PRP$", "NN", "CC", "NN", "TO", "NN", "CC", "NN", "VBD", "RB", "JJ", "."]
+    text: ' As we began to converse in the lounge of his Fifth_Avenue hotel, his restlessness
+  and sensitivity to light and sound became immediately apparent.'
+    tokens: [[1, 3], [4, 6], [7, 12], [13, 15], [16, 24], [25, 27], [28, 31], [32, 38], [39, 41], [42, 45], [46, 58], [59, 64], [64, 65], [66, 69], [70, 82], [83, 86], [87, 98], [99, 101], [102, 107], [108, 111], [112, 117], [118, 124], [125, 136], [137, 145], [145, 146]]
+    wn16_key: [[2, "begin%2:30:00::"], [4, "converse%2:32:00::"], [21, "become%2:30:00::"]]
+    wn30_key: [[2, "begin%2:30:00::"], [4, "converse%2:32:00::"], [21, "become%2:30:00::"]]
+hfH0:
+    lemmas: ["seek", "an", "obscure", ",", "dark", ",", "relatively", "quiet", "corner", "in", "the", "airy", "room", "otherwise", "suffuse", "with", "afternoon", "sunshine", ",", "he", "ask", "if", "the", "soft", "background", "music", "could", "be", "turn_off", "."]
+    oewn2026_key: [[0, "oewn-01318273-v"], [14, "oewn-00455206-v"], [20, "oewn-00754499-v"], [28, "oewn-01513208-v"]]
+    paragraph: '2'
+    pos: ["VBG", "DT", "JJ", ",", "JJ", ",", "RB", "JJ", "NN", "IN", "DT", "JJ", "NN", "RB", "VBN", "IN", "NN", "NN", ",", "PRP", "VBD", "IN", "DT", "JJ", "NN", "NN", "MD", "VB", "VB", "."]
+    text: ' Seeking an obscure, dark, relatively quiet corner in the airy room otherwise suffused
+  with afternoon sunshine, he asked if the soft background music could be turned_off.'
+    tokens: [[1, 8], [9, 11], [12, 19], [19, 20], [21, 25], [25, 26], [27, 37], [38, 43], [44, 50], [51, 53], [54, 57], [58, 62], [63, 67], [68, 77], [78, 86], [87, 91], [92, 101], [102, 110], [110, 111], [112, 114], [115, 120], [121, 123], [124, 127], [128, 132], [133, 143], [144, 149], [150, 155], [156, 158], [159, 169], [169, 170]]
+    wn16_key: [[0, "seek%2:35:00::"], [14, "suffuse%2:30:01::"], [20, "ask%2:32:01::"], [28, "turn_off%2:35:00::"]]
+    wn30_key: [[0, "seek%2:35:00::"], [14, "suffuse%2:30:01::"], [20, "ask%2:32:01::"], [28, "turn_off%2:35:00::"]]
+QVa8:
+    lemmas: ["unfortunately", ",", "it", "be", "Muzak", ",", "which", "automatically", "be", "pipe_in", "the", "public", "rooms", ",", "and", "which", "nolens", "volens", "have", "to", "be", "endure", "."]
+    oewn2026_key: [[3, "oewn-02622439-v"], [9, "oewn-01439024-v"], [21, "oewn-00670017-v"]]
+    paragraph: '2'
+    pos: ["RB", ",", "PRP", "VBD", "NNP", ",", "WDT", "RB", "VBZ", "VB", "DT", "JJ", "NNS", ",", "CC", "WDT", "FW", "FW", "VB", "VB", "VB", "VBN", "."]
+    text: ' Unfortunately, it was Muzak, which automatically is piped_into the public rooms,
+  and which nolens volens had to be endured.'
+    tokens: [[1, 14], [14, 15], [16, 18], [19, 22], [23, 28], [28, 29], [30, 35], [36, 49], [50, 52], [53, 63], [64, 67], [68, 74], [75, 80], [80, 81], [82, 85], [86, 91], [92, 98], [99, 105], [106, 109], [110, 112], [113, 115], [116, 123], [123, 124]]
+    wn16_key: [[3, "be%2:42:06::"], [9, "pipe_in%2:35:00::"], [21, "endure%2:31:00::"]]
+    wn30_key: [[3, "be%2:42:06::"], [9, "pipe_in%2:35:00::"], [21, "endure%2:31:00::"]]
+KXbF:
+    lemmas: ["As", "he", "talk_about", "himself", ",", "time_and_again", "stuff", "and", "drag", "on", "his", "pipe", ",", "steinberg", "begin", "to", "relax", "and", "the", "initial", "hurried", "feeling", "grow", "faint", "and", "be", "dispel", "."]
+    oewn2026_key: [[2, "oewn-01036184-v"], [6, "oewn-01527659-v"], [8, "oewn-01201647-v"], [14, "oewn-00346415-v"], [16, "oewn-00026378-v"], [22, "oewn-00125649-v"], [26, "oewn-02006752-v"]]
+    paragraph: '2'
+    pos: ["IN", "PRP", "VBD", "PRP", ",", "RB", "VBG", "CC", "VBG", "VB", "PRP$", "NN", ",", "NNP", "VBD", "TO", "VB", "CC", "DT", "JJ", "JJ", "NN", "VBD", "JJ", "CC", "VBD", "VBN", "."]
+    text: ' As he talked_about himself, time_and_again stuffing and dragging on his pipe, Steinberg
+  began to relax and the initial hurried feeling grew faint and was dispelled.
+
+  '
+    tokens: [[1, 3], [4, 6], [7, 19], [20, 27], [27, 28], [29, 43], [44, 52], [53, 56], [57, 65], [66, 68], [69, 72], [73, 77], [77, 78], [79, 88], [89, 94], [95, 97], [98, 103], [104, 107], [108, 111], [112, 119], [120, 127], [128, 135], [136, 140], [141, 146], [147, 150], [151, 154], [155, 164], [164, 165]]
+    wn16_key: [[2, "talk_about%2:32:00::"], [6, "stuff%2:35:00::"], [8, "drag%2:34:00::"], [14, "begin%2:30:00::"], [16, "relax%2:29:00::"], [22, "grow%2:30:03::"], [26, "dispel%2:38:00::"]]
+    wn30_key: [[2, "talk_about%2:32:00::"], [6, "stuff%2:35:00::"], [8, "drag%2:34:00::"], [14, "begin%2:30:00::"], [16, "relax%2:29:00::"], [22, "grow%2:30:03::"], [26, "dispel%2:38:00::"]]
+MoI8:
+    lemmas: ["do", "he", "come", "from", "a", "musical", "family", "?"]
+    oewn2026_key: [[2, "oewn-02631420-v"]]
+    paragraph: '3'
+    pos: ["VBD", "PRP", "VB", "VB", "DT", "JJ", "NN", "."]
+    text: ' Did he come from a musical family?'
+    tokens: [[1, 4], [5, 7], [8, 12], [13, 17], [18, 19], [20, 27], [28, 34], [34, 35]]
+    wn16_key: [[2, "come%2:42:04::"]]
+    wn30_key: [[2, "come%2:42:04::"]]
+s3Oe:
+    lemmas: ["Yes", ":", "though", "not", "professional", "musician", ",", "they", "be", "a", "music-loving", "family", "."]
+    oewn2026_key: [[8, "oewn-02622439-v"]]
+    paragraph: '3'
+    pos: ["UH", ":", "IN", "RB", "JJ", "NNS", ",", "PRP", "VBD", "DT", "JJ", "NN", "."]
+    text: ' Yes: though not professional musicians, they were a music-loving family.'
+    tokens: [[1, 4], [4, 5], [6, 12], [13, 16], [17, 29], [30, 39], [39, 40], [41, 45], [46, 50], [51, 52], [53, 65], [66, 72], [72, 73]]
+    wn16_key: [[8, "be%2:42:06::"]]
+    wn30_key: [[8, "be%2:42:06::"]]
+q5cZ:
+    lemmas: ["In", "his", "native", "cologne", ",", "where", "his", "mother", "teach", "him", "to", "play", "the", "piano", ",", "he", "be", "able", "to", "read", "note", "before", "he", "learn", "the", "alphabet", "."]
+    oewn2026_key: [[8, "oewn-00830768-v"], [11, "oewn-01730049-v"], [16, "oewn-02610777-v"], [19, "oewn-00626756-v"], [23, "oewn-00599310-v"]]
+    paragraph: '3'
+    pos: ["IN", "PRP$", "JJ", "NNP", ",", "WRB", "PRP$", "NN", "VBD", "PRP", "TO", "VB", "DT", "NN", ",", "PRP", "VBD", "JJ", "VB", "VB", "NNS", "IN", "PRP", "VBD", "DT", "NN", "."]
+    text: ' In his native Cologne, where his mother taught him to play the piano, he was able
+  to read notes before he learned the alphabet.'
+    tokens: [[1, 3], [4, 7], [8, 14], [15, 22], [22, 23], [24, 29], [30, 33], [34, 40], [41, 47], [48, 51], [52, 54], [55, 59], [60, 63], [64, 69], [69, 70], [71, 73], [74, 77], [78, 82], [83, 85], [86, 90], [91, 96], [97, 103], [104, 106], [107, 114], [115, 118], [119, 127], [127, 128]]
+    wn16_key: [[8, "teach%2:32:00::"], [11, "play%2:36:01::"], [16, "be%2:42:03::"], [19, "read%2:31:00::"], [23, "learn%2:31:00::"]]
+    wn30_key: [[8, "teach%2:32:00::"], [11, "play%2:36:01::"], [16, "be%2:42:03::"], [19, "read%2:31:00::"], [23, "learn%2:31:00::"]]
+HV49:
+    lemmas: ["She", "even", "devise", "a", "system", "of", "colors", ",", "whereby", "the", "boy", "could", "easily", "distinguish", "the", "different", "note", "values", "."]
+    oewn2026_key: [[2, "oewn-01635953-v"], [13, "oewn-02197640-v"]]
+    paragraph: '3'
+    pos: ["PRP", "RB", "VBD", "DT", "NN", "IN", "NNS", ",", "WRB", "DT", "NN", "MD", "RB", "VB", "DT", "JJ", "NN", "NNS", "."]
+    text: ' She even devised a system of colors, whereby the boy could easily distinguish the
+  different note values.'
+    tokens: [[1, 4], [5, 9], [10, 17], [18, 19], [20, 26], [27, 29], [30, 36], [36, 37], [38, 45], [46, 49], [50, 53], [54, 59], [60, 66], [67, 78], [79, 82], [83, 92], [93, 97], [98, 104], [104, 105]]
+    wn16_key: [[2, "devise%2:36:00::"], [13, "distinguish%2:39:00::"]]
+    wn30_key: [[2, "devise%2:36:00::"], [13, "distinguish%2:39:00::"]]
+nVJQ:
+    lemmas: ["When", "he", "start", "school", "at", "the", "age", "of", "five-and-a-half", ",", "he", "could", "not", "understand", "why", "the", "alphabet", "begin", "with", "the", "letter", "A", ",", "instead", "of", "c", ",", "as", "in", "the", "scale", "."]
+    oewn2026_key: [[2, "oewn-00349400-v"], [13, "oewn-00590283-v"], [17, "oewn-02614382-v"]]
+    paragraph: '3'
+    pos: ["WRB", "PRP", "VBD", "NN", "IN", "DT", "NN", "IN", "NN", ",", "PRP", "MD", "RB", "VB", "WRB", "DT", "NN", "VBZ", "IN", "DT", "NN", "DT", ",", "RB", "IN", "NN", ",", "IN", "IN", "DT", "NN", "."]
+    text: ' When he started school at the age of five-and-a-half, he could not understand why
+  the alphabet begins with the letter A, instead of C, as in the scale.'
+    tokens: [[1, 5], [6, 8], [9, 16], [17, 23], [24, 26], [27, 30], [31, 34], [35, 37], [38, 53], [53, 54], [55, 57], [58, 63], [64, 67], [68, 78], [79, 82], [83, 86], [87, 95], [96, 102], [103, 107], [108, 111], [112, 118], [119, 120], [120, 121], [122, 129], [130, 132], [133, 134], [134, 135], [136, 138], [139, 141], [142, 145], [146, 151], [151, 152]]
+    wn16_key: [[2, "start%2:30:01::"], [13, "understand%2:31:00::"], [17, "begin%2:42:00::"]]
+    wn30_key: [[2, "start%2:30:01::"], [13, "understand%2:31:00::"], [17, "begin%2:42:00::"]]
+eFQ6:
+    lemmas: ["Because", ",", "like", "many", "other", "child", ",", "he", "intensely", "dislike", "practice", "czerny_etude", ",", "he", "compose", "his", "own", "study", "."]
+    oewn2026_key: [[9, "oewn-01780648-v"], [10, "oewn-01727101-v"], [14, "oewn-01709353-v"]]
+    paragraph: '3'
+    pos: ["RB", ",", "IN", "JJ", "JJ", "NNS", ",", "PRP", "RB", "VBD", "VBG", "NNP", ",", "PRP", "VBD", "PRP$", "JJ", "NNS", "."]
+    text: ' Because, like many other children, he intensely disliked practicing Czerny_Etudes,
+  he composed his own studies.'
+    tokens: [[1, 8], [8, 9], [10, 14], [15, 19], [20, 25], [26, 34], [34, 35], [36, 38], [39, 48], [49, 57], [58, 68], [69, 82], [82, 83], [84, 86], [87, 95], [96, 99], [100, 103], [104, 111], [111, 112]]
+    wn16_key: [[9, "dislike%2:37:00::"], [10, "practice%2:36:00::"], [14, "compose%2:36:03::"]]
+    wn30_key: [[9, "dislike%2:37:00::"], [10, "practice%2:36:00::"], [14, "compose%2:36:03::"]]
+n/+G:
+    lemmas: ["When", "he", "be", "eight", "he", "begin", "violin_lesson", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"], [5, "oewn-00349400-v"]]
+    paragraph: '3'
+    pos: ["WRB", "PRP", "VBD", "CD", "PRP", "VBD", "NN", "."]
+    text: ' When he was eight he began violin_lessons.'
+    tokens: [[1, 5], [6, 8], [9, 12], [13, 18], [19, 21], [22, 27], [28, 42], [42, 43]]
+    wn16_key: [[2, "be%2:42:03::"], [5, "begin%2:30:01::"]]
+    wn30_key: [[2, "be%2:42:03::"], [5, "begin%2:30:01::"]]
+j09O:
+    lemmas: ["soon", "he", "be", "play", "in", "the", "cologne_municipal_orchestra", ",", "and", "during", "world_war", "1", ",", ",", "when", "musician", "be", "scarce", ",", "he", "join", "the", "opera", "orchestra", "as_well", "."]
+    oewn2026_key: [[3, "oewn-01728928-v"], [16, "oewn-02610777-v"], [20, "oewn-02439823-v"]]
+    paragraph: '3'
+    pos: ["RB", "PRP", "VBD", "VBG", "IN", "DT", "NNP", ",", "CC", "IN", "NN", "CD", ",", ",", "WRB", "NNS", "VBD", "JJ", ",", "PRP", "VBD", "DT", "NN", "NN", "RB", "."]
+    text: ' Soon he was playing in the Cologne_Municipal_Orchestra, and during World_War 1,,
+  when musicians were scarce, he joined the opera orchestra as_well.'
+    tokens: [[1, 5], [6, 8], [9, 12], [13, 20], [21, 23], [24, 27], [28, 55], [55, 56], [57, 60], [61, 67], [68, 77], [78, 79], [79, 80], [80, 81], [82, 86], [87, 96], [97, 101], [102, 108], [108, 109], [110, 112], [113, 119], [120, 123], [124, 129], [130, 139], [140, 147], [147, 148]]
+    wn16_key: [[3, "play%2:36:12::"], [16, "be%2:42:03::"], [20, "join%2:41:00::"]]
+    wn30_key: [[3, "play%2:36:12::"], [16, "be%2:42:03::"], [20, "join%2:41:00::"]]
+ovKZ:
+    lemmas: ["steinberg", "claim", "that", "these", "early", "years", "of", "orchestra", "participation", "be", "of", "invaluable", "help", "to", "his", "career", "."]
+    oewn2026_key: [[1, "oewn-00758383-v"], [9, "oewn-02610777-v"]]
+    paragraph: '3'
+    pos: ["NNP", "VBZ", "IN", "DT", "JJ", "NNS", "IN", "NN", "NN", "VBD", "IN", "JJ", "NN", "TO", "PRP$", "NN", "."]
+    text: ' Steinberg claims that these early years of orchestra participation were of invaluable
+  help to his career.'
+    tokens: [[1, 10], [11, 17], [18, 22], [23, 28], [29, 34], [35, 40], [41, 43], [44, 53], [54, 67], [68, 72], [73, 75], [76, 86], [87, 91], [92, 94], [95, 98], [99, 105], [105, 106]]
+    wn16_key: [[1, "claim%2:32:00::"], [9, "be%2:42:03::"]]
+    wn30_key: [[1, "claim%2:32:00::"], [9, "be%2:42:03::"]]
+uZTH:
+    lemmas: ["\"", "By", "observe", "the", "conductor", "\"", ",", "he", "say", "with", "a", "twinkle", "in", "his", "eyes", ",", "\"", "I", "learn", "how", "not", "to", "conduct", "\"", "."]
+    oewn2026_key: [[2, "oewn-02123398-v"], [8, "oewn-01011267-v"], [18, "oewn-00599310-v"], [22, "oewn-01736802-v"]]
+    paragraph: '3'
+    pos: ["``", "IN", "VBG", "DT", "NN", "''", ",", "PRP", "VBZ", "IN", "DT", "NN", "IN", "PRP$", "NNS", ",", "``", "PRP", "VBD", "WRB", "RB", "TO", "VB", "``", "."]
+    text: ' " By observing the conductor ", he says with a twinkle in his eyes, " I learned
+  how not to conduct ".
+
+  '
+    tokens: [[1, 2], [3, 5], [6, 15], [16, 19], [20, 29], [30, 31], [31, 32], [33, 35], [36, 40], [41, 45], [46, 47], [48, 55], [56, 58], [59, 62], [63, 67], [67, 68], [69, 70], [71, 72], [73, 80], [81, 84], [85, 88], [89, 91], [92, 99], [100, 101], [101, 102]]
+    wn16_key: [[2, "observe%2:39:01::"], [8, "say%2:32:00::"], [18, "learn%2:31:00::"], [22, "conduct%2:36:00::"]]
+    wn30_key: [[2, "observe%2:39:01::"], [8, "say%2:32:00::"], [18, "learn%2:31:00::"], [22, "conduct%2:36:00::"]]
+MAuM:
+    lemmas: ["The", "musician", "run_away", "from", "school", "when", "he", "be", "fifteen", ",", "but", "this", "escapade", "do", "not", "save", "him", "from", "the", "gymnasium", "."]
+    oewn2026_key: [[2, "oewn-02079296-v"], [7, "oewn-02610777-v"], [15, "oewn-02556565-v"]]
+    paragraph: '4'
+    pos: ["DT", "NN", "VB", "IN", "NN", "WRB", "PRP", "VBD", "CD", ",", "CC", "DT", "NN", "VBD", "RB", "VB", "PRP", "IN", "DT", "NNP", "."]
+    text: ' The musician ran_away from school when he was fifteen, but this escapade did not
+  save him from the Gymnasium.'
+    tokens: [[1, 4], [5, 13], [14, 22], [23, 27], [28, 34], [35, 39], [40, 42], [43, 46], [47, 54], [54, 55], [56, 59], [60, 64], [65, 73], [74, 77], [78, 81], [82, 86], [87, 90], [91, 95], [96, 99], [100, 109], [109, 110]]
+    wn16_key: [[2, "run_away%2:38:00::"], [7, "be%2:42:03::"], [15, "save%2:41:01::"]]
+    wn30_key: [[2, "run_away%2:38:00::"], [7, "be%2:42:03::"], [15, "save%2:41:01::"]]
+ttz6:
+    lemmas: ["simultaneously", ",", "he", "pursue", "his", "musical", "study", "at", "the", "conservatory", ",", "receive", "sound", "training", "in", "counterpoint", "and", "harmony", ",", "as_well", "in", "the", "violin", "and", "piano", "."]
+    oewn2026_key: [[3, "oewn-02380222-v"], [11, "oewn-02112480-v"]]
+    paragraph: '4'
+    pos: ["RB", ",", "PRP", "VBD", "PRP$", "JJ", "NNS", "IN", "DT", "NN", ",", "VBG", "NN", "NN", "IN", "NN", "CC", "NN", ",", "RB", "IN", "DT", "NN", "CC", "NN", "."]
+    text: ' Simultaneously, he pursued his musical studies at the conservatory, receiving sound
+  training in counterpoint and harmony, as_well in the violin and piano.'
+    tokens: [[1, 15], [15, 16], [17, 19], [20, 27], [28, 31], [32, 39], [40, 47], [48, 50], [51, 54], [55, 67], [67, 68], [69, 78], [79, 84], [85, 93], [94, 96], [97, 109], [110, 113], [114, 121], [121, 122], [123, 130], [131, 133], [134, 137], [138, 144], [145, 148], [149, 154], [154, 155]]
+    wn16_key: [[3, "pursue%2:41:00::"], [11, "receive%2:39:03::"]]
+    wn30_key: [[3, "pursue%2:41:00::"], [11, "receive%2:39:03::"]]
+4G1Y:
+    lemmas: ["His", "professional", "career", "begin", "when", "he", "be", "twenty", ";", "he", "become", "Otto_Klemperer", "'s", "personal", "assistant", "at", "the", "cologne_opera", ",", "and", "a", "year", "later", "be", "promote", "to", "the", "position", "of", "regular", "conductor", "."]
+    oewn2026_key: [[3, "oewn-00346415-v"], [6, "oewn-02610777-v"], [10, "oewn-02632685-v"], [24, "oewn-02402779-v"]]
+    paragraph: '4'
+    pos: ["PRP$", "JJ", "NN", "VBD", "WRB", "PRP", "VBD", "CD", ":", "PRP", "VBD", "NNP", "POS", "JJ", "NN", "IN", "DT", "NNP", ",", "CC", "DT", "NN", "RB", "VBD", "VBN", "TO", "DT", "NN", "IN", "JJ", "NN", "."]
+    text: ' His professional career began when he was twenty; he became Otto_Klemperer''s personal
+  assistant at the Cologne_Opera, and a year later was promoted to the position of
+  regular conductor.
+
+  '
+    tokens: [[1, 4], [5, 17], [18, 24], [25, 30], [31, 35], [36, 38], [39, 42], [43, 49], [49, 50], [51, 53], [54, 60], [61, 75], [75, 77], [78, 86], [87, 96], [97, 99], [100, 103], [104, 117], [117, 118], [119, 122], [123, 124], [125, 129], [130, 135], [136, 139], [140, 148], [149, 151], [152, 155], [156, 164], [165, 167], [168, 175], [176, 185], [185, 186]]
+    wn16_key: [[3, "begin%2:30:00::"], [6, "be%2:42:03::"], [10, "become%2:42:01::"], [24, "promote%2:41:00::"]]
+    wn30_key: [[3, "begin%2:30:00::"], [6, "be%2:42:03::"], [10, "become%2:42:01::"], [24, "promote%2:41:00::"]]
+Vqvx:
+    lemmas: ["be", "n't", "this", "an", "unusually", "young", "age", "to", "fill", "such", "a", "responsible", "post", "?"]
+    oewn2026_key: [[8, "oewn-02399325-v"]]
+    paragraph: '5'
+    pos: ["VBD", "RB", "DT", "DT", "RB", "JJ", "NN", "TO", "VB", "JJ", "DT", "JJ", "NN", "."]
+    text: ' Wasn''t this an unusually young age to fill such a responsible post?'
+    tokens: [[1, 4], [4, 7], [8, 12], [13, 15], [16, 25], [26, 31], [32, 35], [36, 38], [39, 43], [44, 48], [49, 50], [51, 62], [63, 67], [67, 68]]
+    wn16_key: [[8, "fill%2:41:00::"]]
+    wn30_key: [[8, "fill%2:41:00::"]]
+smpW:
+    lemmas: ["Yes", ",", "the", "maestro", "assent", "."]
+    oewn2026_key: [[4, "oewn-00805801-v"]]
+    paragraph: '5'
+    pos: ["UH", ",", "DT", "NNP", "VBD", "."]
+    text: ' Yes, the Maestro assented.
+
+  '
+    tokens: [[1, 4], [4, 5], [6, 9], [10, 17], [18, 26], [26, 27]]
+    wn16_key: [[4, "assent%2:32:00::"]]
+    wn30_key: [[4, "assent%2:32:00::"]]
+lku4:
+    lemmas: ["have", "he", "always", "wish", "to", "be", "a", "conductor", "?"]
+    oewn2026_key: [[3, "oewn-01828678-v"], [5, "oewn-02450790-v"]]
+    paragraph: '6'
+    pos: ["VBN", "PRP", "RB", "VBD", "VB", "VB", "DT", "NN", "."]
+    text: ' Had he always wished to be a conductor?'
+    tokens: [[1, 4], [5, 7], [8, 14], [15, 21], [22, 24], [25, 27], [28, 29], [30, 39], [39, 40]]
+    wn16_key: [[3, "wish%2:37:00::"], [5, "be%2:41:00::"]]
+    wn30_key: [[3, "wish%2:37:00::"], [5, "be%2:41:00::"]]
+M7Sn:
+    lemmas: ["No", ",", "originally", "he", "have", "hope", "to", "become", "a", "concert", "pianist", "and", "have", "even", "perform", "as_such", "."]
+    oewn2026_key: [[5, "oewn-01830665-v"], [7, "oewn-02632685-v"], [14, "oewn-01718067-v"]]
+    paragraph: '6'
+    pos: ["DT", ",", "RB", "PRP", "VBD", "VBN", "TO", "VB", "DT", "NN", "NN", "CC", "VBD", "RB", "VBN", "RB", "."]
+    text: ' No, originally he had hoped to become a concert pianist and had even performed as_such.'
+    tokens: [[1, 3], [3, 4], [5, 15], [16, 18], [19, 22], [23, 28], [29, 31], [32, 38], [39, 40], [41, 48], [49, 56], [57, 60], [61, 64], [65, 69], [70, 79], [80, 87], [87, 88]]
+    wn16_key: [[5, "hope%2:37:01::"], [7, "become%2:42:01::"], [14, "perform%2:36:01::"]]
+    wn30_key: [[5, "hope%2:37:01::"], [7, "become%2:42:01::"], [14, "perform%2:36:01::"]]
+NA7T:
+    lemmas: ["however", ",", "when", "he", "assume", "the", "duty", "of", "a", "conductor", ",", "he", "relinquish", "his", "career", "as", "a", "pianist", "."]
+    oewn2026_key: [[4, "oewn-02386868-v"], [12, "oewn-02321284-v"]]
+    paragraph: '6'
+    pos: ["RB", ",", "WRB", "PRP", "VBD", "DT", "NNS", "IN", "DT", "NN", ",", "PRP", "VBD", "PRP$", "NN", "IN", "DT", "NN", "."]
+    text: ' However, when he assumed the duties of a conductor, he relinquished his career as
+  a pianist.
+
+  '
+    tokens: [[1, 8], [8, 9], [10, 14], [15, 17], [18, 25], [26, 29], [30, 36], [37, 39], [40, 41], [42, 51], [51, 52], [53, 55], [56, 68], [69, 72], [73, 79], [80, 82], [83, 84], [85, 92], [92, 93]]
+    wn16_key: [[4, "assume%2:41:00::"], [12, "relinquish%2:40:01::"]]
+    wn30_key: [[4, "assume%2:41:00::"], [12, "relinquish%2:40:01::"]]
+CGv4:
+    lemmas: ["Five", "years", "be", "spend", "with", "the", "cologne_opera", ",", "after", "which", "he", "be", "call", "to", "prague", "by", "alexander_von_zemlinsky", ",", "teacher", "of", "arnold_scho", "^", "nberg", "and", "Erich_Korngold", "."]
+    oewn2026_key: [[3, "oewn-02714280-v"], [12, "oewn-00794133-v"]]
+    paragraph: '7'
+    pos: ["CD", "NNS", "VBD", "VBN", "IN", "DT", "NNP", ",", "IN", "WDT", "PRP", "VB", "VBN", "TO", "NNP", "IN", "NNP", ",", "NN", "IN", "NNP", "NN", "NN", "CC", "NNP", "."]
+    text: ' Five years were spent with the Cologne_Opera, after which he was called to Prague
+  by Alexander_von_Zemlinsky, teacher of Arnold_Scho ^ nberg and Erich_Korngold.'
+    tokens: [[1, 5], [6, 11], [12, 16], [17, 22], [23, 27], [28, 31], [32, 45], [45, 46], [47, 52], [53, 58], [59, 61], [62, 65], [66, 72], [73, 75], [76, 82], [83, 85], [86, 109], [109, 110], [111, 118], [119, 121], [122, 133], [134, 135], [136, 141], [142, 145], [146, 160], [160, 161]]
+    wn16_key: [[3, "spend%2:42:00::"], [12, "call%2:32:05::"]]
+    wn30_key: [[3, "spend%2:42:00::"], [12, "call%2:32:05::"]]
+5s40:
+    lemmas: ["In", "1927", "he", "succeed", "Zemlinsky", "as", "opera", "director", "of", "the", "german", "theater", "at", "prague", "."]
+    oewn2026_key: [[3, "oewn-02411715-v"]]
+    paragraph: '7'
+    pos: ["IN", "CD", "PRP", "VBD", "NNP", "IN", "NN", "NN", "IN", "DT", "JJ", "NNP", "IN", "NNP", "."]
+    text: ' In 1927 he succeeded Zemlinsky as opera director of the German Theater at Prague.'
+    tokens: [[1, 3], [4, 8], [9, 11], [12, 21], [22, 31], [32, 34], [35, 40], [41, 49], [50, 52], [53, 56], [57, 63], [64, 71], [72, 74], [75, 81], [81, 82]]
+    wn16_key: [[3, "succeed%2:41:01::"]]
+    wn30_key: [[3, "succeed%2:41:01::"]]
+LjB5:
+    lemmas: ["During", "his", "tenure", "he", "also", "fulfill", "guest", "engagement", "at", "the", "berlin_state_opera", "."]
+    oewn2026_key: [[5, "oewn-01644397-v"]]
+    paragraph: '7'
+    pos: ["IN", "PRP$", "NN", "PRP", "RB", "VBD", "NN", "NNS", "IN", "DT", "NNP", "."]
+    text: ' During his tenure he also fulfilled guest engagements at the Berlin_State_Opera.'
+    tokens: [[1, 7], [8, 11], [12, 18], [19, 21], [22, 26], [27, 36], [37, 42], [43, 54], [55, 57], [58, 61], [62, 80], [80, 81]]
+    wn16_key: [[5, "fulfill%2:36:00::"]]
+    wn30_key: [[5, "fulfill%2:36:00::"]]
+xAW6:
+    lemmas: ["Two", "years", "later", "he", "become", "director", "of", "the", "frankfurt_opera", ",", "where", "he", "remain", "until", "he", "lose", "this", "position", "in", "1933", "through", "the", "rise", "of", "the", "hitler", "regime", "."]
+    oewn2026_key: [[4, "oewn-02632685-v"], [12, "oewn-02733337-v"], [15, "oewn-02292634-v"]]
+    paragraph: '7'
+    pos: ["CD", "NNS", "RB", "PRP", "VBD", "NN", "IN", "DT", "NNP", ",", "WRB", "PRP", "VBD", "IN", "PRP", "VBD", "DT", "NN", "IN", "CD", "IN", "DT", "NN", "IN", "DT", "NNP", "NN", "."]
+    text: ' Two years later he became director of the Frankfurt_Opera, where he remained until
+  he lost this position in 1933 through the rise of the Hitler regime.'
+    tokens: [[1, 4], [5, 10], [11, 16], [17, 19], [20, 26], [27, 35], [36, 38], [39, 42], [43, 58], [58, 59], [60, 65], [66, 68], [69, 77], [78, 83], [84, 86], [87, 91], [92, 96], [97, 105], [106, 108], [109, 113], [114, 121], [122, 125], [126, 130], [131, 133], [134, 137], [138, 144], [145, 151], [151, 152]]
+    wn16_key: [[4, "become%2:42:01::"], [12, "remain%2:42:03::"], [15, "lose%2:40:02::"]]
+    wn30_key: [[4, "become%2:42:01::"], [12, "remain%2:42:03::"], [15, "lose%2:40:02::"]]
+zl/r:
+    lemmas: ["During", "these", "years", "the", "youthful", "conductor", "have", "contribute", "greatly", "to", "the", "high", "level", "of", "musical", "life", "in", "germany", "."]
+    oewn2026_key: [[7, "oewn-02329474-v"]]
+    paragraph: '7'
+    pos: ["IN", "DT", "NNS", "DT", "JJ", "NN", "VBD", "VBN", "RB", "TO", "DT", "JJ", "NN", "IN", "JJ", "NN", "IN", "NNP", "."]
+    text: ' During these years the youthful conductor had contributed greatly to the high level
+  of musical life in Germany.'
+    tokens: [[1, 7], [8, 13], [14, 19], [20, 23], [24, 32], [33, 42], [43, 46], [47, 58], [59, 66], [67, 69], [70, 73], [74, 78], [79, 84], [85, 87], [88, 95], [96, 100], [101, 103], [104, 111], [111, 112]]
+    wn16_key: [[7, "contribute%2:40:01::"]]
+    wn30_key: [[7, "contribute%2:40:01::"]]
+91PD:
+    lemmas: ["He", "have", "present", "the", "first", "german", "performance", "of", "puccini", "'s", "Manon_Lescaut", "and", "de", "falla", "'s", "la_vida_breve", "."]
+    oewn2026_key: [[2, "oewn-01715304-v"]]
+    paragraph: '7'
+    pos: ["PRP", "VBD", "VBN", "DT", "JJ", "JJ", "NNS", "IN", "NNP", "POS", "NNP", "CC", "FW", "NNP", "POS", "NNP", "."]
+    text: ' He had presented the first German performances of Puccini''s Manon_Lescaut and de
+  Falla''s La_Vida_Breve.'
+    tokens: [[1, 3], [4, 7], [8, 17], [18, 21], [22, 27], [28, 34], [35, 47], [48, 50], [51, 58], [58, 60], [61, 74], [75, 78], [79, 81], [82, 87], [87, 89], [90, 103], [103, 104]]
+    wn16_key: [[2, "present%2:36:00::"]]
+    wn30_key: [[2, "present%2:36:00::"]]
+vM8R:
+    lemmas: ["The", "frankfurt", "years", "be", "particularly", "noteworthy", "for", "his", "performance", "of", "berg", "'s", "Wozzek", "soon", "after", "the", "berlin", "premiere", "under", "Erich_Kleiber", ",", "and", "the", "world", "premiere", "of", "Scho", "^", "nberg", "'s", "Von", "heute", "auf", "morgen", "."]
+    oewn2026_key: [[3, "oewn-02610777-v"]]
+    paragraph: '7'
+    pos: ["DT", "NNP", "NNS", "VBD", "RB", "JJ", "IN", "PRP$", "NN", "IN", "NNP", "POS", "NNP", "RB", "IN", "DT", "NNP", "NN", "IN", "NNP", ",", "CC", "DT", "NN", "NN", "IN", "NNP", "NN", "NN", "POS", "NNP", "FW", "FW", "FW", "."]
+    text: ' The Frankfurt years were particularly noteworthy for his performance of Berg''s
+  Wozzek soon after the Berlin premiere under Erich_Kleiber, and the world premiere
+  of Scho ^ nberg''s Von heute auf morgen.'
+    tokens: [[1, 4], [5, 14], [15, 20], [21, 25], [26, 38], [39, 49], [50, 53], [54, 57], [58, 69], [70, 72], [73, 77], [77, 79], [80, 86], [87, 91], [92, 97], [98, 101], [102, 108], [109, 117], [118, 123], [124, 137], [137, 138], [139, 142], [143, 146], [147, 152], [153, 161], [162, 164], [165, 169], [170, 171], [172, 177], [177, 179], [180, 183], [184, 189], [190, 193], [194, 200], [200, 201]]
+    wn16_key: [[3, "be%2:42:03::"]]
+    wn30_key: [[3, "be%2:42:03::"]]
+3E/k:
+    lemmas: ["At", "the", "outset", "of", "his", "career", ",", "steinberg", "have", "dedicate", "himself", "to", "the", "advancement", "of", "contemporary", "music", "by", "vow", "to", "do", "a", "Scho", "^", "nberg", "work", "every_year", "."]
+    oewn2026_key: [[9, "oewn-00888984-v"], [18, "oewn-00888280-v"], [20, "oewn-01716563-v"]]
+    paragraph: '7'
+    pos: ["IN", "DT", "NN", "IN", "PRP$", "NN", ",", "NNP", "VBD", "VBN", "PRP", "TO", "DT", "NN", "IN", "JJ", "NN", "IN", "VBG", "TO", "VB", "DT", "NNP", "NN", "NN", "NN", "RB", "."]
+    text: ' At the outset of his career, Steinberg had dedicated himself to the advancement
+  of contemporary music by vowing to do a Scho ^ nberg work every_year.'
+    tokens: [[1, 3], [4, 7], [8, 14], [15, 17], [18, 21], [22, 28], [28, 29], [30, 39], [40, 43], [44, 53], [54, 61], [62, 64], [65, 68], [69, 80], [81, 83], [84, 96], [97, 102], [103, 105], [106, 112], [113, 115], [116, 118], [119, 120], [121, 125], [126, 127], [128, 133], [134, 138], [139, 149], [149, 150]]
+    wn16_key: [[9, "dedicate%2:32:00::"], [18, "vow%2:32:00::"], [20, "do%2:36:01::"]]
+    wn30_key: [[9, "dedicate%2:32:00::"], [18, "vow%2:32:00::"], [20, "do%2:36:01::"]]
+RMep:
+    lemmas: ["In", "frankfurt", ",", "too", ",", "he", "direct", "the", "museum", "and", "opera_house", "concert", "which", ",", "in_addition", "to", "the", "standard", "repertoire", ",", "feature", "novelty", "like", "Erdmann", "'s", "piano_concerto", "and", "mahler", "'s", "sixth_symphony", "."]
+    oewn2026_key: [[6, "oewn-01736802-v"], [20, "oewn-02636270-v"]]
+    paragraph: '7'
+    pos: ["IN", "NNP", ",", "RB", ",", "PRP", "VBD", "DT", "NNP", "CC", "NN", "NNS", "WDT", ",", "RB", "TO", "DT", "JJ", "NN", ",", "VBD", "NNS", "IN", "NN", "POS", "NNP", "CC", "NNP", "POS", "NNP", "."]
+    text: ' In Frankfurt, too, he directed the Museum and Opera_House concerts which, in_addition
+  to the standard repertoire, featured novelties like Erdmann''s Piano_Concerto and
+  Mahler''s Sixth_Symphony.
+
+  '
+    tokens: [[1, 3], [4, 13], [13, 14], [15, 18], [18, 19], [20, 22], [23, 31], [32, 35], [36, 42], [43, 46], [47, 58], [59, 67], [68, 73], [73, 74], [75, 86], [87, 89], [90, 93], [94, 102], [103, 113], [113, 114], [115, 123], [124, 133], [134, 138], [139, 146], [146, 148], [149, 163], [164, 167], [168, 174], [174, 176], [177, 191], [191, 192]]
+    wn16_key: [[6, "direct%2:36:02::"], [20, "feature%2:42:00::"]]
+    wn30_key: [[6, "direct%2:36:02::"], [20, "feature%2:42:00::"]]
+iE0F:
+    lemmas: ["Because", "of", "the", "political", "upheaval", "in", "germany", "in", "the", "1930", "'s", ",", "steinberg", "be", "force", "to", "restrict", "his", "activity", "to", "the", "jewish", "community", "."]
+    oewn2026_key: [[14, "oewn-02510211-v"], [16, "oewn-02514936-v"]]
+    paragraph: '8'
+    pos: ["IN", "IN", "DT", "JJ", "NN", "IN", "NNP", "IN", "DT", "CD", "POS", ",", "NNP", "VBD", "VBN", "TO", "VB", "PRP$", "NNS", "TO", "DT", "JJ", "NN", "."]
+    text: ' Because of the political upheaval in Germany in the 1930''s, Steinberg was forced
+  to restrict his activities to the Jewish community.'
+    tokens: [[1, 8], [9, 11], [12, 15], [16, 25], [26, 34], [35, 37], [38, 45], [46, 48], [49, 52], [53, 57], [57, 59], [59, 60], [61, 70], [71, 74], [75, 81], [82, 84], [85, 93], [94, 97], [98, 108], [109, 111], [112, 115], [116, 122], [123, 132], [132, 133]]
+    wn16_key: [[14, "force%2:41:00::"], [16, "restrict%2:41:00::"]]
+    wn30_key: [[14, "force%2:41:00::"], [16, "restrict%2:41:00::"]]
+F0dj:
+    lemmas: ["Through", "the", "frankfurt_jewish_kulturbund", "he", "begin", "to", "give", "sonata", "recital", "in", "synagogue", ",", "with", "cellist_emanuel_feuermann", "."]
+    oewn2026_key: [[4, "oewn-00346415-v"], [6, "oewn-01737358-v"]]
+    paragraph: '8'
+    pos: ["IN", "DT", "NNP", "PRP", "VBD", "TO", "VB", "NN", "NNS", "IN", "NNS", ",", "IN", "NNP", "."]
+    text: ' Through the Frankfurt_Jewish_Kulturbund he began to give sonata recitals in synagogues,
+  with Cellist_Emanuel_Feuermann.'
+    tokens: [[1, 8], [9, 12], [13, 40], [41, 43], [44, 49], [50, 52], [53, 57], [58, 64], [65, 73], [74, 76], [77, 87], [87, 88], [89, 93], [94, 119], [119, 120]]
+    wn16_key: [[4, "begin%2:30:00::"], [6, "give%2:36:02::"]]
+    wn30_key: [[4, "begin%2:30:00::"], [6, "give%2:36:02::"]]
+qAML:
+    lemmas: ["As", "more_and_more", "jewish", "musician", "lose", "their", "job", "with", "professional", "organization", "steinberg", "unite", "them", "into", "the", "frankfurt_kulturbund_orchestra", ",", "which", "also", "give", "guest", "performance", "in", "other", "german", "city", "."]
+    oewn2026_key: [[4, "oewn-02292634-v"], [11, "oewn-02475258-v"], [19, "oewn-01737358-v"]]
+    paragraph: '8'
+    pos: ["IN", "RB", "JJ", "NNS", "VBD", "PRP$", "NNS", "IN", "JJ", "NNS", "NNP", "VBD", "PRP", "IN", "DT", "NNP", ",", "WDT", "RB", "VBD", "NN", "NNS", "IN", "JJ", "JJ", "NNS", "."]
+    text: ' As more_and_more Jewish musicians lost their jobs with professional organizations
+  Steinberg united them into the Frankfurt_Kulturbund_Orchestra, which also gave guest
+  performances in other German cities.'
+    tokens: [[1, 3], [4, 17], [18, 24], [25, 34], [35, 39], [40, 45], [46, 50], [51, 55], [56, 68], [69, 82], [83, 92], [93, 99], [100, 104], [105, 109], [110, 113], [114, 144], [144, 145], [146, 151], [152, 156], [157, 161], [162, 167], [168, 180], [181, 183], [184, 189], [190, 196], [197, 203], [203, 204]]
+    wn16_key: [[4, "lose%2:40:02::"], [11, "unite%2:41:00::"], [19, "give%2:36:02::"]]
+    wn30_key: [[4, "lose%2:40:02::"], [11, "unite%2:41:00::"], [19, "give%2:36:02::"]]
+JVCb:
+    lemmas: ["In", "1936", "he", "accept", "the", "leadership", "of", "the", "berlin_kulturbund", "."]
+    oewn2026_key: [[3, "oewn-02306786-v"]]
+    paragraph: '8'
+    pos: ["IN", "CD", "PRP", "VBD", "DT", "NN", "IN", "DT", "NNP", "."]
+    text: ' In 1936 he accepted the leadership of the Berlin_Kulturbund.'
+    tokens: [[1, 3], [4, 8], [9, 11], [12, 20], [21, 24], [25, 35], [36, 38], [39, 42], [43, 60], [60, 61]]
+    wn16_key: [[3, "accept%2:40:01::"]]
+    wn30_key: [[3, "accept%2:40:01::"]]
+NNt/:
+    lemmas: ["In", "the", "fall", "of_that", "year", "the", "good", "musician", "of", "the", "berlin", "and", "frankfurt_kulturbund", "orchestra", "join", "under", "the", "combined", "effort", "of", "Bronislaw_Hubermann", "and", "steinberg", "to", "become", "the", "palestine_orchestra", "-", "now", "known", "as", "the", "israel_philharmonic_orchestra", "-", "with", "steinberg", "as", "founder-conductor", "."]
+    oewn2026_key: [[14, "oewn-01293672-v"], [24, "oewn-02632685-v"]]
+    paragraph: '8'
+    pos: ["IN", "DT", "NN", "RB", "NN", "DT", "JJS", "NNS", "IN", "DT", "NNP", "CC", "NNP", "NNS", "VBD", "IN", "DT", "JJ", "NNS", "IN", "NNP", "CC", "NNP", "TO", "VB", "DT", "NNP", ":", "RB", "JJ", "IN", "DT", "NNP", ":", "RB", "NNP", "IN", "NN", "."]
+    text: ' In the fall of_that year the best musicians of the Berlin and Frankfurt_Kulturbund
+  orchestras joined under the combined efforts of Bronislaw_Hubermann and Steinberg
+  to become the Palestine_Orchestra - now known as the Israel_Philharmonic_Orchestra
+  - with Steinberg as founder-conductor.
+
+  '
+    tokens: [[1, 3], [4, 7], [8, 12], [13, 20], [21, 25], [26, 29], [30, 34], [35, 44], [45, 47], [48, 51], [52, 58], [59, 62], [63, 83], [84, 94], [95, 101], [102, 107], [108, 111], [112, 120], [121, 128], [129, 131], [132, 151], [152, 155], [156, 165], [166, 168], [169, 175], [176, 179], [180, 199], [200, 201], [202, 205], [206, 211], [212, 214], [215, 218], [219, 248], [249, 250], [251, 255], [256, 265], [266, 268], [269, 286], [286, 287]]
+    wn16_key: [[14, "join%2:35:00::"], [24, "become%2:42:01::"]]
+    wn30_key: [[14, "join%2:35:00::"], [24, "become%2:42:01::"]]
+zukC:
+    lemmas: ["In", "1938", ",", "at", "the", "insistence", "of", "arturo_toscanini", ",", "steinberg", "leave", "germany", "for", "the", "united_states", ",", "by", "way", "of", "switzerland", "."]
+    oewn2026_key: [[10, "oewn-02013448-v"]]
+    paragraph: '9'
+    pos: ["IN", "CD", ",", "IN", "DT", "NN", "IN", "NNP", ",", "NNP", "VBD", "NNP", "IN", "DT", "NN", ",", "IN", "NN", "IN", "NNP", "."]
+    text: ' In 1938, at the insistence of Arturo_Toscanini, Steinberg left Germany for the United_States,
+  by way of Switzerland.'
+    tokens: [[1, 3], [4, 8], [8, 9], [10, 12], [13, 16], [17, 27], [28, 30], [31, 47], [47, 48], [49, 58], [59, 63], [64, 71], [72, 75], [76, 79], [80, 93], [93, 94], [95, 97], [98, 101], [102, 104], [105, 116], [116, 117]]
+    wn16_key: [[10, "leave%2:38:01::"]]
+    wn30_key: [[10, "leave%2:38:01::"]]
+a8c7:
+    lemmas: ["After", "he", "have", "spend", "the", "first", "three", "years", "in", "new_york", "as", "associate", "conductor", ",", "at", "toscanini", "'s", "invitation", ",", "of", "the", "NBC_Orchestra", ",", "he", "make", "numerous", "guest", "appearance", "throughout", "the", "united_states", "and", "latin_america", "."]
+    oewn2026_key: [[3, "oewn-02714280-v"], [24, "oewn-02566500-v"]]
+    paragraph: '9'
+    pos: ["IN", "PRP", "VBD", "VBN", "DT", "JJ", "CD", "NNS", "RB", "NN", "IN", "JJ", "NN", ",", "IN", "NNP", "POS", "NN", ",", "IN", "DT", "NNP", ",", "PRP", "VBD", "JJ", "NN", "NNS", "IN", "DT", "NN", "CC", "NN", "."]
+    text: ' After he had spent the first three years in New_York as associate conductor, at
+  Toscanini''s invitation, of the NBC_Orchestra, he made numerous guest appearances
+  throughout the United_States and Latin_America.'
+    tokens: [[1, 6], [7, 9], [10, 13], [14, 19], [20, 23], [24, 29], [30, 35], [36, 41], [42, 44], [45, 53], [54, 56], [57, 66], [67, 76], [76, 77], [78, 80], [81, 90], [90, 92], [93, 103], [103, 104], [105, 107], [108, 111], [112, 125], [125, 126], [127, 129], [130, 134], [135, 143], [144, 149], [150, 161], [162, 172], [173, 176], [177, 190], [191, 194], [195, 208], [208, 209]]
+    wn16_key: [[3, "spend%2:42:00::"], [24, "make%2:41:00::"]]
+    wn30_key: [[3, "spend%2:42:00::"], [24, "make%2:41:00::"]]
+oeHu:
+    lemmas: ["In", "1945", "he", "become", "conductor", "of", "the", "buffalo_philharmonic", "."]
+    oewn2026_key: [[3, "oewn-02632685-v"]]
+    paragraph: '9'
+    pos: ["IN", "CD", "PRP", "VBD", "NN", "IN", "DT", "NNP", "."]
+    text: ' In 1945 he became conductor of the Buffalo_Philharmonic.'
+    tokens: [[1, 3], [4, 8], [9, 11], [12, 18], [19, 28], [29, 31], [32, 35], [36, 56], [56, 57]]
+    wn16_key: [[3, "become%2:42:01::"]]
+    wn30_key: [[3, "become%2:42:01::"]]
+RxzV:
+    lemmas: ["Seven", "years", "later", "he", "be", "ask", "to", "become", "director", "of", "the", "pittsburgh_symphony", "."]
+    oewn2026_key: [[5, "oewn-00754499-v"], [7, "oewn-02632685-v"]]
+    paragraph: '9'
+    pos: ["CD", "NNS", "RB", "PRP", "VBD", "VBN", "TO", "VB", "NN", "IN", "DT", "NNP", "."]
+    text: ' Seven years later he was asked to become director of the Pittsburgh_Symphony.'
+    tokens: [[1, 6], [7, 12], [13, 18], [19, 21], [22, 25], [26, 31], [32, 34], [35, 41], [42, 50], [51, 53], [54, 57], [58, 77], [77, 78]]
+    wn16_key: [[5, "ask%2:32:01::"], [7, "become%2:42:01::"]]
+    wn30_key: [[5, "ask%2:32:01::"], [7, "become%2:42:01::"]]
+u2W0:
+    lemmas: ["Since", "1944", "he", "have", "also", "conduct", "regularly", "at", "the", "san_francisco", "opera", ",", "where", "he", "make", "his", "debut", "with", "a", "memorable", "performance", "of", "verdi", "'s", "falstaff", "."]
+    oewn2026_key: [[5, "oewn-01736802-v"], [14, "oewn-02566500-v"]]
+    paragraph: '9'
+    pos: ["IN", "CD", "PRP", "VBZ", "RB", "VBN", "RB", "IN", "DT", "NN", "NNP", ",", "WRB", "PRP", "VBD", "PRP$", "NN", "IN", "DT", "JJ", "NN", "IN", "NNP", "POS", "NNP", "."]
+    text: ' Since 1944 he has also conducted regularly at the San_Francisco Opera, where he
+  made his debut with a memorable performance of Verdi''s Falstaff.'
+    tokens: [[1, 6], [7, 11], [12, 14], [15, 18], [19, 23], [24, 33], [34, 43], [44, 46], [47, 50], [51, 64], [65, 70], [70, 71], [72, 77], [78, 80], [81, 85], [86, 89], [90, 95], [96, 100], [101, 102], [103, 112], [113, 124], [125, 127], [128, 133], [133, 135], [136, 144], [144, 145]]
+    wn16_key: [[5, "conduct%2:36:00::"], [14, "make%2:41:00::"]]
+    wn30_key: [[5, "conduct%2:36:00::"], [14, "make%2:41:00::"]]
+E9+O:
+    lemmas: ["In", "recent", "years", "he", "have", "travel", "widely", "in", "europe", ",", "conduct", "in", "italy", ",", "france", ",", "austria", ",", "and", "switzerland", "."]
+    oewn2026_key: [[5, "oewn-01839438-v"], [10, "oewn-01736802-v"]]
+    paragraph: '9'
+    pos: ["IN", "JJ", "NNS", "PRP", "VBZ", "VBN", "RB", "IN", "NNP", ",", "VBG", "IN", "NNP", ",", "NNP", ",", "NNP", ",", "CC", "NNP", "."]
+    text: ' In recent years he has traveled widely in Europe, conducting in Italy, France, Austria,
+  and Switzerland.'
+    tokens: [[1, 3], [4, 10], [11, 16], [17, 19], [20, 23], [24, 32], [33, 39], [40, 42], [43, 49], [49, 50], [51, 61], [62, 64], [65, 70], [70, 71], [72, 78], [78, 79], [80, 87], [87, 88], [89, 92], [93, 104], [104, 105]]
+    wn16_key: [[5, "travel%2:38:00::"], [10, "conduct%2:36:00::"]]
+    wn30_key: [[5, "travel%2:38:00::"], [10, "conduct%2:36:00::"]]
+9Ymv:
+    lemmas: ["He", "return", "to", "germany", "for_the_first_time", "in", "1953", ",", "where", "he", "have", "since", "conduct", "in", "cologne", ",", "frankfurt", ",", "and", "berlin", "."]
+    oewn2026_key: [[1, "oewn-02008888-v"], [12, "oewn-01736802-v"]]
+    paragraph: '9'
+    pos: ["PRP", "VBD", "VB", "NNP", "RB", "IN", "CD", ",", "WRB", "PRP", "VBZ", "IN", "VBN", "IN", "NNP", ",", "NNP", ",", "CC", "NNP", "."]
+    text: ' He returned to Germany for_the_first_time in 1953, where he has since conducted
+  in Cologne, Frankfurt, and Berlin.
+
+  '
+    tokens: [[1, 3], [4, 12], [13, 15], [16, 23], [24, 42], [43, 45], [46, 50], [50, 51], [52, 57], [58, 60], [61, 64], [65, 70], [71, 80], [81, 83], [84, 91], [91, 92], [93, 102], [102, 103], [104, 107], [108, 114], [114, 115]]
+    wn16_key: [[1, "return%2:38:00::"], [12, "conduct%2:36:00::"]]
+    wn30_key: [[1, "return%2:38:00::"], [12, "conduct%2:36:00::"]]
+EsUt:
+    lemmas: ["Where", "in", "europe", "be", "he", "go", "now", "?"]
+    oewn2026_key: [[5, "oewn-01839438-v"]]
+    paragraph: '10'
+    pos: ["WRB", "IN", "NNP", "VBD", "PRP", "VBG", "RB", "."]
+    text: ' Where in Europe was he going now?
+
+  '
+    tokens: [[1, 6], [7, 9], [10, 16], [17, 20], [21, 23], [24, 29], [30, 33], [33, 34]]
+    wn16_key: [[5, "go%2:38:00::"]]
+    wn30_key: [[5, "go%2:38:00::"]]
+mBC/:
+    lemmas: ["first_of_all", ",", "to", "italy", "for", "a", "short", "vacation", "-", "forte_dei_marmi", ",", "a", "place", "he", "love", "."]
+    oewn2026_key: [[14, "oewn-01832678-v"]]
+    paragraph: '11'
+    pos: ["RB", ",", "TO", "NNP", "IN", "DT", "JJ", "NN", ":", "NNP", ",", "DT", "NN", "PRP", "VBZ", "."]
+    text: ' First_of_all, to Italy for a short vacation - Forte_dei_Marmi, a place he loves.'
+    tokens: [[1, 13], [13, 14], [15, 17], [18, 23], [24, 27], [28, 29], [30, 35], [36, 44], [45, 46], [47, 62], [62, 63], [64, 65], [66, 71], [72, 74], [75, 80], [80, 81]]
+    wn16_key: [[14, "love%2:37:02::"]]
+    wn30_key: [[14, "love%2:37:02::"]]
+3jWY:
+    lemmas: ["Since", "it", "be", "not", "far", "from", "Viareggio", ",", "he", "will", "visit", "puccini", "'s", "house", ",", "as", "he", "never", "fail", "to", "do", ",", "to", "pay", "his", "respect_to", "the", "memory", "of", "the", "composer", "of", "la_boheme", ",", "which", "he", "consider", "one", "of", "puccini", "'s", "masterpiece", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"], [10, "oewn-01847631-v"], [18, "oewn-02534950-v"], [20, "oewn-02566500-v"], [23, "oewn-01062366-v"], [36, "oewn-00692380-v"]]
+    paragraph: '11'
+    pos: ["IN", "PRP", "VBZ", "RB", "RB", "IN", "NNP", ",", "PRP", "MD", "VB", "NNP", "POS", "NN", ",", "IN", "PRP", "RB", "VBZ", "TO", "VB", ",", "TO", "VB", "PRP$", "NN", "DT", "NN", "IN", "DT", "NN", "IN", "NNP", ",", "WDT", "PRP", "VBZ", "CD", "IN", "NNP", "POS", "NNS", "."]
+    text: ' Since it is not far from Viareggio, he will visit Puccini''s house, as he never
+  fails to do, to pay his respects_to the memory of the composer of La_Boheme, which
+  he considers one of Puccini''s masterpieces.'
+    tokens: [[1, 6], [7, 9], [10, 12], [13, 16], [17, 20], [21, 25], [26, 35], [35, 36], [37, 39], [40, 44], [45, 50], [51, 58], [58, 60], [61, 66], [66, 67], [68, 70], [71, 73], [74, 79], [80, 85], [86, 88], [89, 91], [91, 92], [93, 95], [96, 99], [100, 103], [104, 115], [116, 119], [120, 126], [127, 129], [130, 133], [134, 142], [143, 145], [146, 155], [155, 156], [157, 162], [163, 165], [166, 175], [176, 179], [180, 182], [183, 190], [190, 192], [193, 205], [205, 206]]
+    wn16_key: [[2, "be%2:42:03::"], [10, "visit%2:38:00::"], [18, "fail%2:41:02::"], [20, "do%2:41:01::"], [23, "pay%2:32:00::"], [36, "consider%2:31:00::"]]
+    wn30_key: [[2, "be%2:42:03::"], [10, "visit%2:38:00::"], [18, "fail%2:41:02::"], [20, "do%2:41:01::"], [23, "pay%2:32:00::"], [36, "consider%2:31:00::"]]
+0MCJ:
+    lemmas: ["steinberg", "speak", "with", "warmth", "and", "enthusiasm", "about", "italy", ":", "\"", "rome", "be", "my", "second", "home", "."]
+    oewn2026_key: [[1, "oewn-00964479-v"], [11, "oewn-02622439-v"]]
+    paragraph: '11'
+    pos: ["NNP", "VBD", "IN", "NN", "CC", "NN", "IN", "NNP", ":", "``", "NNP", "VBZ", "PRP$", "JJ", "NN", "."]
+    text: ' Steinberg spoke with warmth and enthusiasm about Italy: " Rome is my second home.'
+    tokens: [[1, 10], [11, 16], [17, 21], [22, 28], [29, 32], [33, 43], [44, 49], [50, 55], [55, 56], [57, 58], [59, 63], [64, 66], [67, 69], [70, 76], [77, 81], [81, 82]]
+    wn16_key: [[1, "speak%2:32:01::"], [11, "be%2:42:06::"]]
+    wn30_key: [[1, "speak%2:32:01::"], [11, "be%2:42:06::"]]
+tW/l:
+    lemmas: ["I", "consider", "it", "the", "center", "of", "the", "world", "and", "make", "it", "a", "point", "to", "be", "there", "once", "a", "year", "\"", "."]
+    oewn2026_key: [[1, "oewn-00692380-v"], [9, "oewn-00120124-v"], [14, "oewn-02661230-v"]]
+    paragraph: '11'
+    pos: ["PRP", "VBP", "PRP", "DT", "NN", "IN", "DT", "NN", "CC", "VB", "VB", "DT", "NN", "VB", "VB", "RB", "RB", "DT", "NN", "''", "."]
+    text: ' I consider it the center of the world and make it a point to be there once a year
+  ".'
+    tokens: [[1, 2], [3, 11], [12, 14], [15, 18], [19, 25], [26, 28], [29, 32], [33, 38], [39, 42], [43, 47], [48, 50], [51, 52], [53, 58], [59, 61], [62, 64], [65, 70], [71, 75], [76, 77], [78, 82], [83, 84], [84, 85]]
+    wn16_key: [[1, "consider%2:31:00::"], [9, "make%2:30:00::"], [14, "be%2:42:04::"]]
+    wn30_key: [[1, "consider%2:31:00::"], [9, "make%2:30:00::"], [14, "be%2:42:04::"]]
+wFnS:
+    lemmas: ["He", "will", "conduct", "two", "concert", "at", "the", "Accademia_di_Santa_Cecilia", ",", "as_well", "as", "concert", "in", "munich", "and", "cologne", "."]
+    oewn2026_key: [[2, "oewn-01736802-v"]]
+    paragraph: '11'
+    pos: ["PRP", "MD", "VB", "CD", "NNS", "IN", "DT", "NNP", ",", "RB", "IN", "NNS", "IN", "NNP", "CC", "NNP", "."]
+    text: ' He will conduct two concerts at the Accademia_di_Santa_Cecilia, as_well as concerts
+  in Munich and Cologne.'
+    tokens: [[1, 3], [4, 8], [9, 16], [17, 20], [21, 29], [30, 32], [33, 36], [37, 63], [63, 64], [65, 72], [73, 75], [76, 84], [85, 87], [88, 94], [95, 98], [99, 106], [106, 107]]
+    wn16_key: [[2, "conduct%2:36:00::"]]
+    wn30_key: [[2, "conduct%2:36:00::"]]
+Kqrk:
+    lemmas: ["\"", "then", "I", "return", "to", "the", "united_states", "for", "engagement", "at", "the", "hollywood_bowl", "and", "in", "philadelphia", "\"", ",", "he", "add", "."]
+    oewn2026_key: [[3, "oewn-02008888-v"], [18, "oewn-01029183-v"]]
+    paragraph: '11'
+    pos: ["``", "RB", "PRP", "VB", "VB", "DT", "NN", "IN", "NNS", "IN", "DT", "NNP", "CC", "IN", "NNP", "``", ",", "PRP", "VBD", "."]
+    text: ' " Then I return to the United_States for engagements at the Hollywood_Bowl and in
+  Philadelphia ", he added.
+
+  '
+    tokens: [[1, 2], [3, 7], [8, 9], [10, 16], [17, 19], [20, 23], [24, 37], [38, 41], [42, 53], [54, 56], [57, 60], [61, 75], [76, 79], [80, 82], [83, 95], [96, 97], [97, 98], [99, 101], [102, 107], [107, 108]]
+    wn16_key: [[3, "return%2:38:00::"], [18, "add%2:32:01::"]]
+    wn30_key: [[3, "return%2:38:00::"], [18, "add%2:32:01::"]]
+GQl+:
+    lemmas: ["The", "forthcoming", "season", "in", "pittsburgh", "also", "promise", "to", "be", "of", "unusual", "interest", "."]
+    oewn2026_key: [[6, "oewn-00919743-v"], [8, "oewn-02610777-v"]]
+    paragraph: '12'
+    pos: ["DT", "JJ", "NN", "IN", "NNP", "RB", "VBZ", "TO", "VB", "IN", "JJ", "NN", "."]
+    text: ' The forthcoming season in Pittsburgh also promises to be of unusual interest.'
+    tokens: [[1, 4], [5, 16], [17, 23], [24, 26], [27, 37], [38, 42], [43, 51], [52, 54], [55, 57], [58, 60], [61, 68], [69, 77], [77, 78]]
+    wn16_key: [[6, "promise%2:32:02::"], [8, "be%2:42:03::"]]
+    wn30_key: [[6, "promise%2:32:02::"], [8, "be%2:42:03::"]]
+nRCf:
+    lemmas: ["There", "will", "be", "premiere", "of", "new", "works", ",", "make", "possible", "through", "ford_foundation", "commission", ":", "Carlisle_Floyd", "'s", "mystery", ",", "with", "phylli_curtin", "as", "soprano", "soloist", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"], [8, "oewn-01620211-v"]]
+    paragraph: '12'
+    pos: ["EX", "MD", "VB", "NNS", "IN", "JJ", "NNS", ",", "VBD", "JJ", "IN", "NNP", "NNS", ":", "NNP", "POS", "NN", ",", "IN", "NNP", "IN", "NN", "NN", "."]
+    text: ' There will be premieres of new works, made possible through Ford_Foundation commissions:
+  Carlisle_Floyd''s Mystery, with Phyllis_Curtin as soprano soloist.'
+    tokens: [[1, 6], [7, 11], [12, 14], [15, 24], [25, 27], [28, 31], [32, 37], [37, 38], [39, 43], [44, 52], [53, 60], [61, 76], [77, 88], [88, 89], [90, 104], [104, 106], [107, 114], [114, 115], [116, 120], [121, 135], [136, 138], [139, 146], [147, 154], [154, 155]]
+    wn16_key: [[2, "be%2:42:04::"], [8, "make%2:36:00::"]]
+    wn30_key: [[2, "be%2:42:04::"], [8, "make%2:36:00::"]]
+w1v3:
+    lemmas: ["other", "world", "premiere", "will", "be", "gardner_read", "'s", "third_symphony", "and", "Burle_Marx", "'s", "samba_concertante", "."]
+    oewn2026_key: [[4, "oewn-02622439-v"]]
+    paragraph: '12'
+    pos: ["JJ", "NN", "NNS", "MD", "VB", "NNP", "POS", "NNP", "CC", "NNP", "POS", "NNP", "."]
+    text: ' Other world premieres will be Gardner_Read''s Third_Symphony and Burle_Marx''s Samba_Concertante.
+
+  '
+    tokens: [[1, 6], [7, 12], [13, 22], [23, 27], [28, 30], [31, 43], [43, 45], [46, 60], [61, 64], [65, 75], [75, 77], [78, 95], [95, 96]]
+    wn16_key: [[4, "be%2:42:06::"]]
+    wn30_key: [[4, "be%2:42:06::"]]
+kyop:
+    lemmas: ["\"", "And", "next", "year", "we", "will", "do", "-", "also", "a", "ford", "commission", "-", "a", "piano", "concerto", "by", "Elliott_Carter", ",", "with", "jacob_lateiner", "as", "soloist", "."]
+    oewn2026_key: [[6, "oewn-01716563-v"]]
+    paragraph: '13'
+    pos: ["``", "CC", "JJ", "NN", "PRP", "MD", "VB", ":", "RB", "DT", "NNP", "NN", ":", "DT", "NN", "NN", "IN", "NNP", ",", "IN", "NNP", "IN", "NN", "."]
+    text: ' " And next year we will do - also a Ford commission - a piano concerto by Elliott_Carter,
+  with Jacob_Lateiner as soloist.'
+    tokens: [[1, 2], [3, 6], [7, 11], [12, 16], [17, 19], [20, 24], [25, 27], [28, 29], [30, 34], [35, 36], [37, 41], [42, 52], [53, 54], [55, 56], [57, 62], [63, 71], [72, 74], [75, 89], [89, 90], [91, 95], [96, 110], [111, 113], [114, 121], [121, 122]]
+    wn16_key: [[6, "do%2:36:01::"]]
+    wn30_key: [[6, "do%2:36:01::"]]
+rtKl:
+    lemmas: ["of_course", ",", "I", "shall", "conduct", "mahler", "and", "bruckner", "works", "in", "the", "coming", "season", ",", "as_usual", "."]
+    oewn2026_key: [[4, "oewn-01736802-v"]]
+    paragraph: '13'
+    pos: ["RB", ",", "PRP", "MD", "VB", "NNP", "CC", "NNP", "NNS", "IN", "DT", "JJ", "NN", ",", "RB", "."]
+    text: ' Of_course, I shall conduct Mahler and Bruckner works in the coming season, as_usual.'
+    tokens: [[1, 10], [10, 11], [12, 13], [14, 19], [20, 27], [28, 34], [35, 38], [39, 47], [48, 53], [54, 56], [57, 60], [61, 67], [68, 74], [74, 75], [76, 84], [84, 85]]
+    wn16_key: [[4, "conduct%2:36:00::"]]
+    wn30_key: [[4, "conduct%2:36:00::"]]
+mtO/:
+    lemmas: ["We", "'ll", "play", "bruckner", "'s", "fifth_symphony", "in", "the", "original", "version", ",", "and", "mahler", "'s", "seventh", "-", "the_least", "accessible", ",", "known", ",", "and", "played", "of", "mahler", "'s", "works", "."]
+    oewn2026_key: [[2, "oewn-01728336-v"]]
+    paragraph: '13'
+    pos: ["PRP", "MD", "VB", "NNP", "POS", "NNP", "IN", "DT", "JJ", "NN", ",", "CC", "NNP", "POS", "NNP", ":", "RB", "JJ", ",", "JJ", ",", "CC", "JJ", "IN", "NNP", "POS", "NNS", "."]
+    text: ' We''ll play Bruckner''s Fifth_Symphony in the original version, and Mahler''s Seventh
+  - the_least accessible, known, and played of Mahler''s works.'
+    tokens: [[1, 3], [3, 6], [7, 11], [12, 20], [20, 22], [23, 37], [38, 40], [41, 44], [45, 53], [54, 61], [61, 62], [63, 66], [67, 73], [73, 75], [76, 83], [84, 85], [86, 95], [96, 106], [106, 107], [108, 113], [113, 114], [115, 118], [119, 125], [126, 128], [129, 135], [135, 137], [138, 143], [143, 144]]
+    wn16_key: [[2, "play%2:36:00::"]]
+    wn30_key: [[2, "play%2:36:00::"]]
+real:
+    lemmas: ["My", "pittsburgher", "have", "become", "real", "addict", "to", "mahler", "and", "bruckner", "\"", "."]
+    oewn2026_key: [[3, "oewn-02632685-v"]]
+    paragraph: '13'
+    pos: ["PRP$", "NNPS", "VBP", "VBN", "JJ", "NNS", "TO", "NNP", "CC", "NNP", "``", "."]
+    text: ' My Pittsburghers have become real addicts to Mahler and Bruckner ".
+
+  '
+    tokens: [[1, 3], [4, 17], [18, 22], [23, 29], [30, 34], [35, 42], [43, 45], [46, 52], [53, 56], [57, 65], [66, 67], [67, 68]]
+    wn16_key: [[3, "become%2:42:01::"]]
+    wn30_key: [[3, "become%2:42:01::"]]
+tq8K:
+    lemmas: ["He", "add", "that", "he", "also", "stress", "the", "works", "of", "these", "favorite", "masters", "on_tour", ",", "especially", "mahler", "'s", "first", "and", "fourth", "symphony", ",", "and", "das_lied_von_der_erde", ",", "and", "bruckner", "'s", "sixth", "-", "which", "be", "rarely", "play", "-", "and", "seventh", "."]
+    oewn2026_key: [[1, "oewn-01029183-v"], [5, "oewn-01015376-v"], [33, "oewn-01728336-v"]]
+    paragraph: '14'
+    pos: ["PRP", "VBD", "IN", "PRP", "RB", "VBZ", "DT", "NNS", "IN", "DT", "JJ", "NNS", "NN", ",", "RB", "NNP", "POS", "NNP", "CC", "NNP", "NNS", ",", "CC", "NNP", ",", "CC", "NNP", "POS", "NNP", ":", "WDT", "VBZ", "RB", "VBN", ":", "CC", "NNP", "."]
+    text: ' He added that he also stresses the works of these favorite masters on_tour, especially
+  Mahler''s First and Fourth symphonies, and Das_Lied_von_der_Erde, and Bruckner''s
+  Sixth - which is rarely played - and Seventh.'
+    tokens: [[1, 3], [4, 9], [10, 14], [15, 17], [18, 22], [23, 31], [32, 35], [36, 41], [42, 44], [45, 50], [51, 59], [60, 67], [68, 75], [75, 76], [77, 87], [88, 94], [94, 96], [97, 102], [103, 106], [107, 113], [114, 124], [124, 125], [126, 129], [130, 151], [151, 152], [153, 156], [157, 165], [165, 167], [168, 173], [174, 175], [176, 181], [182, 184], [185, 191], [192, 198], [199, 200], [201, 204], [205, 212], [212, 213]]
+    wn16_key: [[1, "add%2:32:01::"], [5, "stress%2:30:00::"], [33, "play%2:36:00::"]]
+    wn30_key: [[1, "add%2:32:01::"], [5, "stress%2:32:00::"], [33, "play%2:36:00::"]]
+c+ql:
+    lemmas: ["bruckner", "'s", "eighth", "he", "refer", "to", "as", "\"", "my", "travel", "symphony", "\"", "."]
+    oewn2026_key: [[4, "oewn-01026199-v"]]
+    paragraph: '14'
+    pos: ["NNP", "POS", "NNP", "PRP", "VBZ", "VB", "IN", "``", "PRP$", "NN", "NN", "''", "."]
+    text: ' Bruckner''s Eighth he refers to as " my travel symphony ".'
+    tokens: [[1, 9], [9, 11], [12, 18], [19, 21], [22, 28], [29, 31], [32, 34], [35, 36], [37, 39], [40, 46], [47, 55], [56, 57], [57, 58]]
+    wn16_key: [[4, "refer%2:32:01::"]]
+    wn30_key: [[4, "refer%2:32:01::"]]
++NHN:
+    lemmas: ["He", "recall", "that", "in", "california", "after", "a", "critic", "have", "attack", "him", "for", "\"", "still", "try", "to", "sell", "bruckner", "to", "the", "american", "\"", ",", "the", "public", "'s", "response", "at", "the", "next", "concert", "be", "a", "standing_ovation", "."]
+    oewn2026_key: [[1, "oewn-00609334-v"], [9, "oewn-01121587-v"], [14, "oewn-02535833-v"], [16, "oewn-00769680-v"], [31, "oewn-02622439-v"]]
+    paragraph: '14'
+    pos: ["PRP", "VBD", "IN", "IN", "NNP", "IN", "DT", "NN", "VBD", "VBN", "PRP", "IN", "``", "RB", "VBG", "TO", "VB", "NNP", "TO", "DT", "NNPS", "``", ",", "DT", "JJ", "POS", "NN", "IN", "DT", "JJ", "NN", "VBD", "DT", "NN", "."]
+    text: ' He recalled that in California after a critic had attacked him for " still trying
+  to sell Bruckner to the Americans ", the public''s response at the next concert
+  was a standing_ovation.
+
+  '
+    tokens: [[1, 3], [4, 12], [13, 17], [18, 20], [21, 31], [32, 37], [38, 39], [40, 46], [47, 50], [51, 59], [60, 63], [64, 67], [68, 69], [70, 75], [76, 82], [83, 85], [86, 90], [91, 99], [100, 102], [103, 106], [107, 116], [117, 118], [118, 119], [120, 123], [124, 130], [130, 132], [133, 141], [142, 144], [145, 148], [149, 153], [154, 161], [162, 165], [166, 167], [168, 184], [184, 185]]
+    wn16_key: [[1, "recall%2:31:00::"], [9, "attack%2:33:00::"], [14, "try%2:41:00::"], [16, "sell%2:32:00::"], [31, "be%2:42:06::"]]
+    wn30_key: [[1, "recall%2:31:00::"], [9, "attack%2:33:00::"], [14, "try%2:41:00::"], [16, "sell%2:32:00::"], [31, "be%2:42:06::"]]
+X93T:
+    lemmas: ["\"", "now", "that", "bruno_walter", "be", "virtually", "in", "retirement", "and", "my", "dear", "friend", "Dimitri_Mitropoulos", "be", "no_longer", "with", "us", ",", "I", "be", "probably", "the", "only", "one", "-", "with", "the", "possible", "exception", "of", "leonard_bernstein", "-", "who", "have", "this", "special", "affinity", "for", "and", "champion", "the", "works", "of", "bruckner", "and", "mahler", "\"", "."]
+    oewn2026_key: [[4, "oewn-02610777-v"], [13, "oewn-02610777-v"], [19, "oewn-02622439-v"], [33, "oewn-02636270-v"], [39, "oewn-01151604-v"]]
+    paragraph: '15'
+    pos: ["``", "RB", "IN", "NNP", "VBZ", "RB", "IN", "NN", "CC", "PRP$", "JJ", "NN", "NNP", "VBZ", "RB", "IN", "PRP", ",", "PRP", "VBP", "RB", "DT", "RB", "CD", ":", "IN", "DT", "JJ", "NN", "IN", "NNP", ":", "WP", "VBZ", "DT", "JJ", "NN", "RB", "CC", "VB", "DT", "NNS", "IN", "NNP", "CC", "NNP", "``", "."]
+    text: ' " Now that Bruno_Walter is virtually in retirement and my dear friend Dimitri_Mitropoulos
+  is no_longer with us, I am probably the only one - with the possible exception of
+  Leonard_Bernstein - who has this special affinity for and champions the works of
+  Bruckner and Mahler ".
+
+  '
+    tokens: [[1, 2], [3, 6], [7, 11], [12, 24], [25, 27], [28, 37], [38, 40], [41, 51], [52, 55], [56, 58], [59, 63], [64, 70], [71, 90], [91, 93], [94, 103], [104, 108], [109, 111], [111, 112], [113, 114], [115, 117], [118, 126], [127, 130], [131, 135], [136, 139], [140, 141], [142, 146], [147, 150], [151, 159], [160, 169], [170, 172], [173, 190], [191, 192], [193, 196], [197, 200], [201, 205], [206, 213], [214, 222], [223, 226], [227, 230], [231, 240], [241, 244], [245, 250], [251, 253], [254, 262], [263, 266], [267, 273], [274, 275], [275, 276]]
+    wn16_key: [[4, "be%2:42:03::"], [13, "be%2:42:03::"], [19, "be%2:42:06::"], [33, "have%2:42:00::"], [39, "champion%2:33:00::"]]
+    wn30_key: [[4, "be%2:42:03::"], [13, "be%2:42:03::"], [19, "be%2:42:06::"], [33, "have%2:42:00::"], [39, "champion%2:33:00::"]]
+umyP:
+    lemmas: ["Since", "he", "introduce", "so_much", "modern", "music", ",", "I", "could", "not", "resist", "ask", "how", "he", "feel", "about", "it", "."]
+    oewn2026_key: [[2, "oewn-01645979-v"], [10, "oewn-01119003-v"], [11, "oewn-00899241-v"], [14, "oewn-00717144-v"]]
+    paragraph: '16'
+    pos: ["IN", "PRP", "VBZ", "RB", "JJ", "NN", ",", "PRP", "MD", "RB", "VB", "VBG", "WRB", "PRP", "VBD", "IN", "PRP", "."]
+    text: ' Since he introduces so_much modern music, I could not resist asking how he felt
+  about it.
+
+  '
+    tokens: [[1, 6], [7, 9], [10, 20], [21, 28], [29, 35], [36, 41], [41, 42], [43, 44], [45, 50], [51, 54], [55, 61], [62, 68], [69, 72], [73, 75], [76, 80], [81, 86], [87, 89], [89, 90]]
+    wn16_key: [[2, "introduce%2:36:00::"], [10, "resist%2:33:00::"], [11, "ask%2:32:00::"], [14, "feel%2:31:00::"]]
+    wn30_key: [[2, "introduce%2:36:00::"], [10, "resist%2:33:00::"], [11, "ask%2:32:00::"], [14, "feel%2:31:00::"]]
+7/Y1:
+    lemmas: ["\"", "There", "be", "always", "and", "at_all_times", "a", "contemporary", "music", "and", "it", "express", "the", "era", "in_which", "it", "be", "create", "."]
+    oewn2026_key: [[2, "oewn-02609706-v"], [11, "oewn-01062889-v"], [17, "oewn-01689208-v"]]
+    paragraph: '17'
+    pos: ["``", "EX", "VBD", "RB", "CC", "RB", "DT", "JJ", "NN", "CC", "PRP", "VBZ", "DT", "NN", "RB", "PRP", "VBD", "VBN", "."]
+    text: ' " There was always and at_all_times a contemporary music and it expresses the era
+  in_which it was created.'
+    tokens: [[1, 2], [3, 8], [9, 12], [13, 19], [20, 23], [24, 36], [37, 38], [39, 51], [52, 57], [58, 61], [62, 64], [65, 74], [75, 78], [79, 82], [83, 91], [92, 94], [95, 98], [99, 106], [106, 107]]
+    wn16_key: [[2, "be%2:42:00::"], [11, "express%2:32:02::"], [17, "create%2:36:01::"]]
+    wn30_key: [[2, "be%2:42:00::"], [11, "express%2:32:02::"], [17, "create%2:36:01::"]]
+AnZt:
+    lemmas: ["But", "I", "usually", "stick_to", "the", "old", "phrase", ":", "'", "Ich", "habe", "ein", "Amt", ",", "aber", "keine", "Meinung", "(", "I", "hold", "an", "office", ",", "but", "I", "do", "not", "feel", "entitle", "to", "have", "an", "opinion", ")", "."]
+    oewn2026_key: [[19, "oewn-02307200-v"], [27, "oewn-00717144-v"], [28, "oewn-02452235-v"], [30, "oewn-02208144-v"]]
+    paragraph: '17'
+    pos: ["CC", "PRP", "RB", "VB", "DT", "JJ", "NN", ":", "POS", "FW", "FW", "FW", "FW", ",", "FW", "FW", "FW", "NNP", "PRP", "VBP", "DT", "NN", ",", "CC", "PRP", "VBP", "RB", "VB", "VBN", "TO", "VB", "VB", "NN", "NN", "."]
+    text: ' But I usually stick_to the old phrase:'' Ich habe ein Amt, aber keine Meinung (I
+  hold an office, but I do not feel entitled to have an opinion).'
+    tokens: [[1, 4], [5, 6], [7, 14], [15, 23], [24, 27], [28, 31], [32, 38], [38, 39], [39, 40], [41, 44], [45, 49], [50, 53], [54, 57], [57, 58], [59, 63], [64, 69], [70, 77], [78, 79], [79, 80], [81, 85], [86, 88], [89, 95], [95, 96], [97, 100], [101, 102], [103, 105], [106, 109], [110, 114], [115, 123], [124, 126], [127, 131], [132, 134], [135, 142], [142, 143], [143, 144]]
+    wn16_key: [[3, "stick_to%2:42:00::"], [19, "hold%2:40:04::"], [27, "feel%2:31:00::"], [28, "entitle%2:41:00::"], [30, "have%2:40:00::"]]
+    wn30_key: [[19, "hold%2:40:04::"], [27, "feel%2:31:00::"], [28, "entitle%2:41:00::"], [30, "have%2:40:00::"]]
+GbIW:
+    lemmas: ["I", "consider", "it", "to", "be", "my", "job", "to", "expose", "the", "public", "to", "what", "be", "be", "write", "today", "\"", "."]
+    oewn2026_key: [[1, "oewn-00692380-v"], [4, "oewn-02622439-v"], [8, "oewn-02116512-v"], [15, "oewn-01709353-v"]]
+    paragraph: '17'
+    pos: ["PRP", "VBP", "PRP", "TO", "VB", "PRP$", "NN", "TO", "VB", "DT", "JJ", "TO", "WP", "VBZ", "VBG", "VBN", "NN", "''", "."]
+    text: ' I consider it to be my job to expose the public to what is being written today ".
+
+  '
+    tokens: [[1, 2], [3, 11], [12, 14], [15, 17], [18, 20], [21, 23], [24, 27], [28, 30], [31, 37], [38, 41], [42, 48], [49, 51], [52, 56], [57, 59], [60, 65], [66, 73], [74, 79], [80, 81], [81, 82]]
+    wn16_key: [[1, "consider%2:31:00::"], [4, "be%2:42:06::"], [8, "expose%2:39:02::"], [15, "write%2:36:04::"]]
+    wn30_key: [[1, "consider%2:31:00::"], [4, "be%2:42:06::"], [8, "expose%2:39:02::"], [15, "write%2:36:04::"]]
+HjT0:
+    lemmas: ["With", "all", "his", "musical", "activity", ",", "do", "he", "have", "the", "time", "and", "inclination", "to", "do", "anything", "else", "?"]
+    oewn2026_key: [[8, "oewn-02208144-v"], [14, "oewn-02567910-v"]]
+    paragraph: '18'
+    pos: ["IN", "DT", "PRP$", "JJ", "NNS", ",", "VBD", "PRP", "VB", "DT", "NN", "CC", "NN", "TO", "VB", "NN", "RB", "."]
+    text: ' With all his musical activities, did he have the time and inclination to do anything
+  else?'
+    tokens: [[1, 5], [6, 9], [10, 13], [14, 21], [22, 32], [32, 33], [34, 37], [38, 40], [41, 45], [46, 49], [50, 54], [55, 58], [59, 70], [71, 73], [74, 76], [77, 85], [86, 90], [90, 91]]
+    wn16_key: [[8, "have%2:40:01::"], [14, "do%2:41:04::"]]
+    wn30_key: [[8, "have%2:40:01::"], [14, "do%2:41:04::"]]
+O+lu:
+    lemmas: ["He", "have", "just", "pay", "a", "brief", "visit", "to", "the", "frick_collection", "to", "admire", "his", "favorite", "painting", "by", "rembrandt", "and", "Franz_Hals", "."]
+    oewn2026_key: [[3, "oewn-00734247-v"], [11, "oewn-02169125-v"]]
+    paragraph: '18'
+    pos: ["PRP", "VBD", "RB", "VBN", "DT", "JJ", "NN", "TO", "DT", "NNP", "TO", "VB", "PRP$", "JJ", "NNS", "IN", "NNP", "CC", "NNP", "."]
+    text: ' He had just paid a brief visit to the Frick_Collection to admire his favorite paintings
+  by Rembrandt and Franz_Hals.'
+    tokens: [[1, 3], [4, 7], [8, 12], [13, 17], [18, 19], [20, 25], [26, 31], [32, 34], [35, 38], [39, 55], [56, 58], [59, 65], [66, 69], [70, 78], [79, 88], [89, 91], [92, 101], [102, 105], [106, 116], [116, 117]]
+    wn16_key: [[3, "pay%2:31:00::"], [11, "admire%2:39:00::"]]
+    wn30_key: [[3, "pay%2:31:00::"], [11, "admire%2:39:00::"]]
+78tx:
+    lemmas: ["He", "be", "not", "enthusiastic", "over", "the", "newly", "acquired", "Claude_Lorrain", ",", "but", "reminisce", "with", "pleasure", "over", "a", "poussin", "exhibit", "he", "have", "be", "able", "to", "see", "in", "paris", "a", "year", "ago", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [11, "oewn-00612609-v"], [20, "oewn-02610777-v"], [23, "oewn-02133754-v"]]
+    paragraph: '18'
+    pos: ["PRP", "VBD", "RB", "JJ", "IN", "DT", "RB", "JJ", "NNP", ",", "CC", "VBD", "IN", "NN", "IN", "DT", "NNP", "NN", "PRP", "VBD", "VBN", "JJ", "VB", "VB", "IN", "NNP", "DT", "NN", "RB", "."]
+    text: ' He was not enthusiastic over the newly acquired Claude_Lorrain, but reminisced with
+  pleasure over a Poussin exhibit he had been able to see in Paris a year ago.
+
+  '
+    tokens: [[1, 3], [4, 7], [8, 11], [12, 24], [25, 29], [30, 33], [34, 39], [40, 48], [49, 63], [63, 64], [65, 68], [69, 79], [80, 84], [85, 93], [94, 98], [99, 100], [101, 108], [109, 116], [117, 119], [120, 123], [124, 128], [129, 133], [134, 136], [137, 140], [141, 143], [144, 149], [150, 151], [152, 156], [157, 160], [160, 161]]
+    wn16_key: [[1, "be%2:42:03::"], [11, "reminisce%2:31:00::"], [20, "be%2:42:03::"], [23, "see%2:39:00::"]]
+    wn30_key: [[1, "be%2:42:03::"], [11, "reminisce%2:31:00::"], [20, "be%2:42:03::"], [23, "see%2:39:00::"]]
+tcyP:
+    lemmas: ["and_how", "do", "he", "feel", "about", "modern", "art", "?"]
+    oewn2026_key: [[3, "oewn-00717144-v"]]
+    paragraph: '19'
+    pos: ["RB", "VBD", "PRP", "VB", "IN", "JJ", "NN", "."]
+    text: ' And_how did he feel about modern art?'
+    tokens: [[1, 8], [9, 12], [13, 15], [16, 20], [21, 26], [27, 33], [34, 37], [37, 38]]
+    wn16_key: [[3, "feel%2:31:00::"]]
+    wn30_key: [[3, "feel%2:31:00::"]]
+sBI/:
+    lemmas: ["again", "steinberg", "be", "cautious", "and", "reply", "with", "a", "smile", "that", "he", "be", "not", "expose", "to_it", "enough", "to", "hazard", "comment", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"], [5, "oewn-00817348-v"], [13, "oewn-02116512-v"], [17, "oewn-00918880-v"]]
+    paragraph: '19'
+    pos: ["RB", "NNP", "VBD", "JJ", "CC", "VBD", "IN", "DT", "NN", "IN", "PRP", "VBD", "RB", "VBN", "RB", "RB", "TO", "VB", "NNS", "."]
+    text: ' Again Steinberg was cautious and replied with a smile that he was not exposed to_it
+  enough to hazard comments.'
+    tokens: [[1, 6], [7, 16], [17, 20], [21, 29], [30, 33], [34, 41], [42, 46], [47, 48], [49, 54], [55, 59], [60, 62], [63, 66], [67, 70], [71, 78], [79, 84], [85, 91], [92, 94], [95, 101], [102, 110], [110, 111]]
+    wn16_key: [[2, "be%2:42:03::"], [5, "reply%2:32:00::"], [13, "expose%2:39:02::"], [17, "hazard%2:32:00::"]]
+    wn30_key: [[2, "be%2:42:03::"], [5, "reply%2:32:00::"], [13, "expose%2:39:02::"], [17, "hazard%2:32:00::"]]
+ctek:
+    lemmas: ["\"", "As", "my", "wife", "put", "it", "\"", ",", "he", "say", ",", "again", "with", "a", "twinkle", "in", "his", "eyes", ",", "\"", "all", "you", "know", "be", "your", "music", "."]
+    oewn2026_key: [[4, "oewn-00983308-v"], [9, "oewn-01011267-v"], [22, "oewn-00597330-v"], [23, "oewn-02622439-v"]]
+    paragraph: '19'
+    pos: ["``", "IN", "PRP$", "NN", "VBZ", "PRP", "``", ",", "PRP", "VBD", ",", "RB", "IN", "DT", "NN", "IN", "PRP$", "NNS", ",", "''", "DT", "PRP", "VBP", "VBZ", "PRP$", "NN", "."]
+    text: ' " As my wife puts it ", he said, again with a twinkle in his eyes, " all you know
+  is your music.'
+    tokens: [[1, 2], [3, 5], [6, 8], [9, 13], [14, 18], [19, 21], [22, 23], [23, 24], [25, 27], [28, 32], [32, 33], [34, 39], [40, 44], [45, 46], [47, 54], [55, 57], [58, 61], [62, 66], [66, 67], [68, 69], [70, 73], [74, 77], [78, 82], [83, 85], [86, 90], [91, 96], [96, 97]]
+    wn16_key: [[4, "put%2:32:00::"], [9, "say%2:32:00::"], [22, "know%2:31:03::"], [23, "be%2:42:06::"]]
+    wn30_key: [[4, "put%2:32:00::"], [9, "say%2:32:00::"], [22, "know%2:31:03::"], [23, "be%2:42:06::"]]
+Q5Fs:
+    lemmas: ["But", "after_all", ",", "you", "never", "learn", "anything", "else", "\"", "!"]
+    oewn2026_key: [[5, "oewn-00599310-v"]]
+    paragraph: '19'
+    pos: ["CC", "RB", ",", "PRP", "RB", "VBD", "NN", "RB", "``", "."]
+    text: ' But after_all, you never learned anything else "!
+
+  '
+    tokens: [[1, 4], [5, 14], [14, 15], [16, 19], [20, 25], [26, 33], [34, 42], [43, 47], [48, 49], [49, 50]]
+    wn16_key: [[5, "learn%2:31:00::"]]
+    wn30_key: [[5, "learn%2:31:00::"]]
+Cqms:
+    lemmas: ["What", "do", "he", "do", "for", "relaxation", "?"]
+    oewn2026_key: [[3, "oewn-01716563-v"]]
+    paragraph: '20'
+    pos: ["WP", "VBD", "PRP", "VB", "IN", "NN", "."]
+    text: ' What did he do for relaxation?'
+    tokens: [[1, 5], [6, 9], [10, 12], [13, 15], [16, 19], [20, 30], [30, 31]]
+    wn16_key: [[3, "do%2:36:01::"]]
+    wn30_key: [[3, "do%2:36:01::"]]
+Hc7E:
+    lemmas: ["Like", "his", "late", "colleague", ",", "mitropoulo", ",", "he", "read", "mystery_story", ",", "in_particular", "sir_arthur_conan_doyle", "."]
+    oewn2026_key: [[8, "oewn-00626756-v"]]
+    paragraph: '20'
+    pos: ["IN", "PRP$", "JJ", "NN", ",", "NNP", ",", "PRP", "VBZ", "NN", ",", "RB", "NNP", "."]
+    text: ' Like his late colleague, Mitropoulos, he reads mystery_stories, in_particular Sir_Arthur_Conan_Doyle.'
+    tokens: [[1, 5], [6, 9], [10, 14], [15, 24], [24, 25], [26, 37], [37, 38], [39, 41], [42, 47], [48, 63], [63, 64], [65, 78], [79, 101], [101, 102]]
+    wn16_key: [[8, "read%2:31:00::"]]
+    wn30_key: [[8, "read%2:31:00::"]]
+sh4/:
+    lemmas: ["He", "cite", "Heine", "and", "stendhal", "as", "favorite", "in", "literature", "."]
+    oewn2026_key: [[1, "oewn-01026199-v"]]
+    paragraph: '20'
+    pos: ["PRP", "VBD", "NNP", "CC", "NNP", "IN", "NNS", "IN", "NN", "."]
+    text: ' He cited Heine and Stendhal as favorites in literature.
+
+  '
+    tokens: [[1, 3], [4, 9], [10, 15], [16, 19], [20, 28], [29, 31], [32, 41], [42, 44], [45, 55], [55, 56]]
+    wn16_key: [[1, "cite%2:32:00::"]]
+    wn30_key: [[1, "cite%2:32:00::"]]
+MIdT:
+    lemmas: ["But", "his", "prime", "interest", ",", "apart", "from", "music", ",", "he", "insist", "seriously", ",", "be", "his", "family", "-", "his", "wife", ",", "daughter", "and", "son", "."]
+    oewn2026_key: [[10, "oewn-00820635-v"], [13, "oewn-02622439-v"]]
+    paragraph: '21'
+    pos: ["CC", "PRP$", "JJ", "NN", ",", "RB", "IN", "NN", ",", "PRP", "VBD", "RB", ",", "VBD", "PRP$", "NN", ":", "PRP$", "NN", ",", "NN", "CC", "NN", "."]
+    text: ' But his prime interest, apart from music, he insisted seriously, was his family
+  - his wife, daughter and son.'
+    tokens: [[1, 4], [5, 8], [9, 14], [15, 23], [23, 24], [25, 30], [31, 35], [36, 41], [41, 42], [43, 45], [46, 54], [55, 64], [64, 65], [66, 69], [70, 73], [74, 80], [81, 82], [83, 86], [87, 91], [91, 92], [93, 101], [102, 105], [106, 109], [109, 110]]
+    wn16_key: [[10, "insist%2:32:00::"], [13, "be%2:42:06::"]]
+    wn30_key: [[10, "insist%2:32:00::"], [13, "be%2:42:06::"]]
+i/Xz:
+    lemmas: ["At", "the", "moment", "he", "be", "excited", "about", "his", "son", "'s", "have", "receive", "the", "Prix", "de", "rome", "in", "archaeology", "and", "be", "look_forward", "to", "be", "present", "this", "summer", "at", "the", "excavation", "of", "an", "Etruscan", "tomb", "."]
+    oewn2026_key: [[4, "oewn-02610777-v"], [11, "oewn-02214901-v"], [20, "oewn-00722421-v"], [22, "oewn-02610777-v"]]
+    paragraph: '21'
+    pos: ["IN", "DT", "NN", "PRP", "VBD", "JJ", "IN", "PRP$", "NN", "POS", "VBG", "VBN", "DT", "NNP", "FW", "NNP", "IN", "NN", "CC", "VBD", "VB", "VB", "VBG", "JJ", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
+    text: ' At the moment he was excited about his son''s having received the Prix de Rome in
+  archaeology and was looking_forward to being present this summer at the excavation
+  of an Etruscan tomb.'
+    tokens: [[1, 3], [4, 7], [8, 14], [15, 17], [18, 21], [22, 29], [30, 35], [36, 39], [40, 43], [43, 45], [46, 52], [53, 61], [62, 65], [66, 70], [71, 73], [74, 78], [79, 81], [82, 93], [94, 97], [98, 101], [102, 117], [118, 120], [121, 126], [127, 134], [135, 139], [140, 146], [147, 149], [150, 153], [154, 164], [165, 167], [168, 170], [171, 179], [180, 184], [184, 185]]
+    wn16_key: [[4, "be%2:42:03::"], [11, "receive%2:40:00::"], [20, "look_forward%2:31:00::"], [22, "be%2:42:04::"]]
+    wn30_key: [[4, "be%2:42:03::"], [11, "receive%2:40:00::"], [20, "look_forward%2:31:00::"], [22, "be%2:42:04::"]]
+Bj8H:
+    lemmas: ["\"", "Both", "child", "be", "musical", "and", "my", "wife", "be", "a", "music_lover", "of", "unfailing", "instinct", "and", "judgment", "\"", "."]
+    oewn2026_key: [[3, "oewn-02610777-v"], [8, "oewn-02622439-v"]]
+    paragraph: '21'
+    pos: ["``", "DT", "NNS", "VBP", "JJ", "CC", "PRP$", "NN", "VBZ", "DT", "NN", "IN", "JJ", "NN", "CC", "NN", "''", "."]
+    text: ' " Both children are musical and my wife is a music_lover of unfailing instinct and
+  judgment ".'
+    tokens: [[1, 2], [3, 7], [8, 16], [17, 20], [21, 28], [29, 32], [33, 35], [36, 40], [41, 43], [44, 45], [46, 57], [58, 60], [61, 70], [71, 79], [80, 83], [84, 92], [93, 94], [94, 95]]
+    wn16_key: [[3, "be%2:42:03::"], [8, "be%2:42:06::"]]
+    wn30_key: [[3, "be%2:42:03::"], [8, "be%2:42:06::"]]
+B3p4:
+    lemmas: ["\"", "be", "the", "attitude", "of", "german", "youth", "comparable_to", "that", "of", "\"", "the", "angry", "young_man", "'", "of", "england", "\"", "?", "be", "the", "topic", "for", "a", "round-table", "discussion", "at", "the", "Bayerische_Rundfunk", "in", "munich", "."]
+    oewn2026_key: [[19, "oewn-02622439-v"]]
+    paragraph: '21'
+    pos: ["``", "VBZ", "DT", "NN", "IN", "JJ", "NN", "JJ", "IN", "IN", "``", "DT", "JJ", "NN", "''", "IN", "NNP", "``", ".", "VBD", "DT", "NN", "IN", "DT", "JJ", "NN", "IN", "DT", "NNP", "IN", "NNP", "."]
+    text: ' " Is the attitude of German youth comparable_to that of " the angry young_men''
+  of England "? was the topic for a round-table discussion at the Bayerische_Rundfunk
+  in Munich.
+
+  '
+    tokens: [[1, 2], [3, 5], [6, 9], [10, 18], [19, 21], [22, 28], [29, 34], [35, 48], [49, 53], [54, 56], [57, 58], [59, 62], [63, 68], [69, 78], [78, 79], [80, 82], [83, 90], [91, 92], [92, 93], [94, 97], [98, 101], [102, 107], [108, 111], [112, 113], [114, 125], [126, 136], [137, 139], [140, 143], [144, 163], [164, 166], [167, 173], [173, 174]]
+    wn16_key: [[19, "be%2:42:06::"]]
+    wn30_key: [[19, "be%2:42:06::"]]
+codV:
+    lemmas: ["I", "be", "chairman", ",", "the", "only", "not", "youthful", "participant", "."]
+    oewn2026_key: [[1, "oewn-02450790-v"]]
+    paragraph: '22'
+    pos: ["PRP", "VBD", "NN", ",", "DT", "RB", "RB", "JJ", "NN", "."]
+    text: ' I was chairman, the only not youthful participant.'
+    tokens: [[1, 2], [3, 6], [7, 15], [15, 16], [17, 20], [21, 25], [26, 29], [30, 38], [39, 50], [50, 51]]
+    wn16_key: [[1, "be%2:41:00::"]]
+    wn30_key: [[1, "be%2:41:00::"]]
+sDvY:
+    lemmas: ["Since", "attack", "serve", "to", "stimulate", "interest", "in", "broadcast", ",", "I", "add", "to", "my", "opening", "statement", "a", "sentence", "in_which", "I", "claim", "that", "german", "youth", "seem", "to", "lack", "the", "enthusiasm", "which", "be", "a", "necessary", "ingredient", "of", "anger", ",", "and", "might", "be", "classify", "as", "uninterested", "and", "bored", "rather_than", "angry", "."]
+    oewn2026_key: [[2, "oewn-02676187-v"], [4, "oewn-00772482-v"], [10, "oewn-00182551-v"], [19, "oewn-00758383-v"], [23, "oewn-02137900-v"], [25, "oewn-02638434-v"], [29, "oewn-02622439-v"], [39, "oewn-00656296-v"]]
+    paragraph: '22'
+    pos: ["IN", "NN", "VBZ", "TO", "VB", "NN", "IN", "NNS", ",", "PRP", "VBD", "TO", "PRP$", "NN", "NN", "DT", "NN", "RB", "PRP", "VBD", "IN", "JJ", "NN", "VBD", "TO", "VB", "DT", "NN", "WDT", "VBZ", "DT", "JJ", "NN", "IN", "NN", ",", "CC", "MD", "VB", "VBN", "VB", "JJ", "CC", "JJ", "RB", "JJ", "."]
+    text: ' Since attack serves to stimulate interest in broadcasts, I added to my opening statement
+  a sentence in_which I claimed that German youth seemed to lack the enthusiasm which
+  is a necessary ingredient of anger, and might be classified as uninterested and
+  bored rather_than angry.'
+    tokens: [[1, 6], [7, 13], [14, 20], [21, 23], [24, 33], [34, 42], [43, 45], [46, 56], [56, 57], [58, 59], [60, 65], [66, 68], [69, 71], [72, 79], [80, 89], [90, 91], [92, 100], [101, 109], [110, 111], [112, 119], [120, 124], [125, 131], [132, 137], [138, 144], [145, 147], [148, 152], [153, 156], [157, 167], [168, 173], [174, 176], [177, 178], [179, 188], [189, 199], [200, 202], [203, 208], [208, 209], [210, 213], [214, 219], [220, 222], [223, 233], [234, 236], [237, 249], [250, 253], [254, 259], [260, 271], [272, 277], [277, 278]]
+    wn16_key: [[2, "serve%2:42:01::"], [4, "stimulate%2:32:01::"], [10, "add%2:30:00::"], [19, "claim%2:32:00::"], [23, "seem%2:39:00::"], [25, "lack%2:42:00::"], [29, "be%2:42:06::"], [39, "classify%2:31:00::"]]
+    wn30_key: [[2, "serve%2:42:01::"], [4, "stimulate%2:32:01::"], [10, "add%2:30:00::"], [19, "claim%2:32:00::"], [23, "seem%2:39:00::"], [25, "lack%2:42:00::"], [29, "be%2:42:06::"], [39, "classify%2:31:00::"]]
+qFk5:
+    lemmas: ["I", "be", "far", "from", "convinced", "of", "the", "truth", "of", "my", "statement", ",", "but", "could", "not", "think_of", "anything", "that", "might", "evoke", "response", "more_quickly", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [15, "oewn-01637684-v"], [19, "oewn-01650408-v"]]
+    paragraph: '22'
+    pos: ["PRP", "VBD", "RB", "IN", "JJ", "IN", "DT", "NN", "IN", "PRP$", "NN", ",", "CC", "MD", "RB", "VB", "NN", "WDT", "MD", "VB", "NNS", "RB", "."]
+    text: ' I was far from convinced of the truth of my statement, but could not think_of anything
+  that might evoke responses more_quickly.
+
+  '
+    tokens: [[1, 2], [3, 6], [7, 10], [11, 15], [16, 25], [26, 28], [29, 32], [33, 38], [39, 41], [42, 44], [45, 54], [54, 55], [56, 59], [60, 65], [66, 69], [70, 78], [79, 87], [88, 92], [93, 98], [99, 104], [105, 114], [115, 127], [127, 128]]
+    wn16_key: [[1, "be%2:42:03::"], [15, "think_of%2:36:00::"], [19, "evoke%2:36:00::"]]
+    wn30_key: [[1, "be%2:42:03::"], [15, "think_of%2:36:00::"], [19, "evoke%2:36:00::"]]
+xRo1:
+    lemmas: ["\"", "It", "be", "easy", "for", "you", "to", "talk", "\"", ";", "counter", "a", "twenty", "year", "old", "law_student", ",", "\"", "you", "travel", "around", "the", "world", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"], [7, "oewn-00964479-v"], [10, "oewn-00817041-v"], [19, "oewn-01839438-v"]]
+    paragraph: '23'
+    pos: ["``", "PRP", "VBZ", "JJ", "IN", "PRP", "TO", "VB", "``", ":", "VBD", "DT", "CD", "NN", "JJ", "NN", ",", "``", "PRP", "VBP", "RB", "DT", "NN", "."]
+    text: ' " It is easy for you to talk "; countered a twenty year old law_student, " you travel
+  around the world.'
+    tokens: [[1, 2], [3, 5], [6, 8], [9, 13], [14, 17], [18, 21], [22, 24], [25, 29], [30, 31], [31, 32], [33, 42], [43, 44], [45, 51], [52, 56], [57, 60], [61, 72], [72, 73], [74, 75], [76, 79], [80, 86], [87, 93], [94, 97], [98, 103], [103, 104]]
+    wn16_key: [[2, "be%2:42:03::"], [7, "talk%2:32:01::"], [10, "counter%2:32:00::"], [19, "travel%2:38:00::"]]
+    wn30_key: [[2, "be%2:42:03::"], [7, "talk%2:32:01::"], [10, "counter%2:32:00::"], [19, "travel%2:38:00::"]]
+L/+6:
+    lemmas: ["We", "would", "like", "to", "do", "that", "too", "\"", "."]
+    oewn2026_key: [[2, "oewn-01828678-v"], [4, "oewn-02566500-v"]]
+    paragraph: '23'
+    pos: ["PRP", "VB", "VB", "TO", "VB", "IN", "RB", "``", "."]
+    text: ' We would like to do that too ".
+
+  '
+    tokens: [[1, 3], [4, 9], [10, 14], [15, 17], [18, 20], [21, 25], [26, 29], [30, 31], [31, 32]]
+    wn16_key: [[2, "like%2:37:01::"], [4, "do%2:41:01::"]]
+    wn30_key: [[2, "like%2:37:01::"], [4, "do%2:41:01::"]]
+N1Uu:
+    lemmas: ["\"", "But", "you", "want", "a", "job", "guarantee", "when", "you", "return", "\"", ",", "I", "continue", "my", "attack", "."]
+    oewn2026_key: [[3, "oewn-01829179-v"], [6, "oewn-00891621-v"], [9, "oewn-02008888-v"], [13, "oewn-02690747-v"]]
+    paragraph: '24'
+    pos: ["``", "CC", "PRP", "VBP", "DT", "NN", "VBN", "WRB", "PRP", "VBP", "``", ",", "PRP", "VBD", "PRP$", "NN", "."]
+    text: ' " But you want a job guaranteed when you return ", I continued my attack.'
+    tokens: [[1, 2], [3, 6], [7, 10], [11, 15], [16, 17], [18, 21], [22, 32], [33, 37], [38, 41], [42, 48], [49, 50], [50, 51], [52, 53], [54, 63], [64, 66], [67, 73], [73, 74]]
+    wn16_key: [[3, "want%2:37:00::"], [6, "guarantee%2:32:00::"], [9, "return%2:38:00::"], [13, "continue%2:42:01::"]]
+    wn30_key: [[3, "want%2:37:00::"], [6, "guarantee%2:32:00::"], [9, "return%2:38:00::"], [13, "continue%2:42:01::"]]
+ZpVw:
+    lemmas: ["\"", "You", "must", "have", "some", "security", "\"", ",", "say", "a", "young", "clerk", "."]
+    oewn2026_key: [[3, "oewn-02208144-v"], [8, "oewn-01011267-v"]]
+    paragraph: '24'
+    pos: ["``", "PRP", "MD", "VB", "DT", "NN", "''", ",", "VBD", "DT", "JJ", "NN", "."]
+    text: ' " You must have some security ", said a young clerk.
+
+  '
+    tokens: [[1, 2], [3, 6], [7, 11], [12, 16], [17, 21], [22, 30], [31, 32], [32, 33], [34, 38], [39, 40], [41, 46], [47, 52], [52, 53]]
+    wn16_key: [[3, "have%2:40:00::"], [8, "say%2:32:00::"]]
+    wn30_key: [[3, "have%2:40:00::"], [8, "say%2:32:00::"]]
+8d6H:
+    lemmas: ["When", "I", "mention", "that", "for", "my", "first", "long", "voyage", "I", "do", "not", "even", "have", "the", "money", "for", "the", "return", "fare", ",", "but", "have", "trust", "to", "luck", "that", "I", "would", "earn", "a", "sufficient", "amount", ",", "the", "young", "people", "look", "at", "me", "doubtingly", "."]
+    oewn2026_key: [[2, "oewn-01022014-v"], [13, "oewn-02208144-v"], [23, "oewn-00723022-v"], [29, "oewn-02294200-v"], [37, "oewn-02134989-v"]]
+    paragraph: '25'
+    pos: ["WRB", "PRP", "VBD", "IN", "IN", "PRP$", "JJ", "JJ", "NN", "PRP", "VBD", "RB", "RB", "VB", "DT", "NN", "IN", "DT", "NN", "NN", ",", "CC", "VBD", "VBN", "TO", "NN", "IN", "PRP", "MD", "VB", "DT", "JJ", "NN", ",", "DT", "JJ", "NNS", "VBD", "VB", "PRP", "RB", "."]
+    text: ' When I mentioned that for my first long voyage I did not even have the money for
+  the return fare, but had trusted to luck that I would earn a sufficient amount,
+  the young people looked at me doubtingly.'
+    tokens: [[1, 5], [6, 7], [8, 17], [18, 22], [23, 26], [27, 29], [30, 35], [36, 40], [41, 47], [48, 49], [50, 53], [54, 57], [58, 62], [63, 67], [68, 71], [72, 77], [78, 81], [82, 85], [86, 92], [93, 97], [97, 98], [99, 102], [103, 106], [107, 114], [115, 117], [118, 122], [123, 127], [128, 129], [130, 135], [136, 140], [141, 142], [143, 153], [154, 160], [160, 161], [162, 165], [166, 171], [172, 178], [179, 185], [186, 188], [189, 191], [192, 202], [202, 203]]
+    wn16_key: [[2, "mention%2:32:00::"], [13, "have%2:40:00::"], [23, "trust%2:31:02::"], [29, "earn%2:40:01::"], [37, "look%2:39:00::"]]
+    wn30_key: [[2, "mention%2:32:00::"], [13, "have%2:40:00::"], [23, "trust%2:31:02::"], [29, "earn%2:40:01::"], [37, "look%2:39:00::"]]
+bfut:
+    lemmas: ["One", "girl", "express", "what", "be", "obviously", "in", "their", "mind", "."]
+    oewn2026_key: [[2, "oewn-00942415-v"], [4, "oewn-02661230-v"]]
+    paragraph: '25'
+    pos: ["CD", "NN", "VBD", "WP", "VBD", "RB", "IN", "PRP$", "NNS", "."]
+    text: ' One girl expressed what was obviously in their minds.
+
+  '
+    tokens: [[1, 4], [5, 9], [10, 19], [20, 24], [25, 28], [29, 38], [39, 41], [42, 47], [48, 53], [53, 54]]
+    wn16_key: [[2, "express%2:32:00::"], [4, "be%2:42:04::"]]
+    wn30_key: [[2, "express%2:32:00::"], [4, "be%2:42:04::"]]
+T+I2:
+    lemmas: ["\"", "Would", "you", "advise", "us", "to", "act", "the", "same", "way", "?"]
+    oewn2026_key: [[3, "oewn-00874568-v"], [6, "oewn-00010428-v"]]
+    paragraph: '26'
+    pos: ["``", "MD", "PRP", "VB", "PRP", "TO", "VB", "DT", "JJ", "NN", "."]
+    text: ' " Would you advise us to act the same way?'
+    tokens: [[1, 2], [3, 8], [9, 12], [13, 19], [20, 22], [23, 25], [26, 29], [30, 33], [34, 38], [39, 42], [42, 43]]
+    wn16_key: [[3, "advise%2:32:00::"], [6, "act%2:29:00::"]]
+    wn30_key: [[3, "advise%2:32:00::"], [6, "act%2:29:00::"]]
+WvcT:
+    lemmas: ["You", "might", "have", "fail", "."]
+    oewn2026_key: [[3, "oewn-02534046-v"]]
+    paragraph: '26'
+    pos: ["PRP", "MD", "VB", "VBN", "."]
+    text: ' You might have failed.'
+    tokens: [[1, 4], [5, 10], [11, 15], [16, 22], [22, 23]]
+    wn16_key: [[3, "fail%2:41:00::"]]
+    wn30_key: [[3, "fail%2:41:00::"]]
+lZZs:
+    lemmas: ["I", "think", "it", "be", "rather", "foolhardy", "to", "trust", "to", "luck", "\"", "."]
+    oewn2026_key: [[1, "oewn-00691086-v"], [3, "oewn-02610777-v"], [7, "oewn-00690278-v"]]
+    paragraph: '26'
+    pos: ["PRP", "VBP", "PRP", "VBZ", "RB", "JJ", "TO", "VB", "TO", "NN", "''", "."]
+    text: ' I think it is rather foolhardy to trust to luck ".
+
+  '
+    tokens: [[1, 2], [3, 8], [9, 11], [12, 14], [15, 21], [22, 31], [32, 34], [35, 40], [41, 43], [44, 48], [49, 50], [50, 51]]
+    wn16_key: [[1, "think%2:31:01::"], [3, "be%2:42:03::"], [7, "trust%2:31:00::"]]
+    wn30_key: [[1, "think%2:31:01::"], [3, "be%2:42:03::"], [7, "trust%2:31:00::"]]
+lkpg:
+    lemmas: ["other", "mention", "that", "I", "might", "have", "have", "to", "ask", "friend", "or", "even", "stranger", "for", "help", "and", "that", "to", "be", "stranded", "in_a_foreign_country", "without", "sufficient", "funds", "do", "not", "contribute", "to", "international", "understanding", "."]
+    oewn2026_key: [[1, "oewn-01022014-v"], [8, "oewn-00754499-v"], [18, "oewn-02610777-v"], [26, "oewn-02329474-v"]]
+    paragraph: '27'
+    pos: ["NNS", "VBD", "IN", "PRP", "MD", "VB", "VB", "VB", "VB", "NNS", "CC", "RB", "NNS", "IN", "NN", "CC", "RB", "TO", "VB", "JJ", "RB", "IN", "JJ", "NNS", "VBD", "RB", "VB", "VB", "JJ", "NN", "."]
+    text: ' Others mentioned that I might have had to ask friends or even strangers for help
+  and that to be stranded in_a_foreign_country without sufficient funds did not contribute
+  to international understanding.
+
+  '
+    tokens: [[1, 7], [8, 17], [18, 22], [23, 24], [25, 30], [31, 35], [36, 39], [40, 42], [43, 46], [47, 54], [55, 57], [58, 62], [63, 72], [73, 76], [77, 81], [82, 85], [86, 90], [91, 93], [94, 96], [97, 105], [106, 126], [127, 134], [135, 145], [146, 151], [152, 155], [156, 159], [160, 170], [171, 173], [174, 187], [188, 201], [201, 202]]
+    wn16_key: [[1, "mention%2:32:00::"], [8, "ask%2:32:01::"], [18, "be%2:42:03::"], [26, "contribute%2:40:01::"]]
+    wn30_key: [[1, "mention%2:32:00::"], [8, "ask%2:32:01::"], [18, "be%2:42:03::"], [26, "contribute%2:40:01::"]]
+6CdW:
+    lemmas: ["The", "debate", "need", "no", "additional", "controversy", "and", "soon", "I", "could", "ask", "each", "individually", "what", "he", "expect", "from", "life", ",", "what", "his", "hope", "be", "and", "what", "his", "fear", "."]
+    oewn2026_key: [[2, "oewn-01191258-v"], [10, "oewn-00899241-v"], [15, "oewn-00721658-v"], [22, "oewn-02622439-v"]]
+    paragraph: '28'
+    pos: ["DT", "NN", "VBD", "DT", "JJ", "NN", "CC", "RB", "PRP", "MD", "VB", "DT", "RB", "WP", "PRP", "VBD", "IN", "NN", ",", "WP", "PRP$", "NNS", "VBD", "CC", "WP", "PRP$", "NNS", "."]
+    text: ' The debate needed no additional controversy and soon I could ask each individually
+  what he expected from life, what his hopes were and what his fears.
+
+  '
+    tokens: [[1, 4], [5, 11], [12, 18], [19, 21], [22, 32], [33, 44], [45, 48], [49, 53], [54, 55], [56, 61], [62, 65], [66, 70], [71, 83], [84, 88], [89, 91], [92, 100], [101, 105], [106, 110], [110, 111], [112, 116], [117, 120], [121, 126], [127, 131], [132, 135], [136, 140], [141, 144], [145, 150], [150, 151]]
+    wn16_key: [[2, "need%2:34:00::"], [10, "ask%2:32:00::"], [15, "expect%2:31:00::"], [22, "be%2:42:06::"]]
+    wn30_key: [[2, "need%2:34:00::"], [10, "ask%2:32:00::"], [15, "expect%2:31:00::"], [22, "be%2:42:06::"]]
+w9QU:
+    lemmas: ["Though", "the", "four", "boy", "and", "two", "girl", ",", "the", "young", "nineteen", "years", "of_age", ",", "the", "old", "twenty-four", ",", "come", "from", "varying", "background", "and", "have", "different", "professional", "and", "personal", "interest", ",", "there", "be", "surprising", "agreement", "among", "them", "."]
+    oewn2026_key: [[18, "oewn-02631420-v"], [23, "oewn-02208144-v"], [31, "oewn-02609706-v"]]
+    paragraph: '29'
+    pos: ["IN", "DT", "CD", "NNS", "CC", "CD", "NNS", ",", "DT", "JJS", "CD", "NNS", "JJ", ",", "DT", "JJS", "CD", ",", "VBD", "VB", "JJ", "NNS", "CC", "VBD", "JJ", "JJ", "CC", "JJ", "NNS", ",", "EX", "VBD", "JJ", "NN", "IN", "PRP", "."]
+    text: ' Though the four boys and two girls, the youngest nineteen years of_age, the oldest
+  twenty-four, came from varying backgrounds and had different professional and personal
+  interests, there was surprising agreement among them.'
+    tokens: [[1, 7], [8, 11], [12, 16], [17, 21], [22, 25], [26, 29], [30, 35], [35, 36], [37, 40], [41, 49], [50, 58], [59, 64], [65, 71], [71, 72], [73, 76], [77, 83], [84, 95], [95, 96], [97, 101], [102, 106], [107, 114], [115, 126], [127, 130], [131, 134], [135, 144], [145, 157], [158, 161], [162, 170], [171, 180], [180, 181], [182, 187], [188, 191], [192, 202], [203, 212], [213, 218], [219, 223], [223, 224]]
+    wn16_key: [[18, "come%2:42:04::"], [23, "have%2:40:00::"], [31, "be%2:42:00::"]]
+    wn30_key: [[18, "come%2:42:04::"], [23, "have%2:40:00::"], [31, "be%2:42:00::"]]
+O9zj:
+    lemmas: ["What", "they", "wish", "for", "most", "be", "security", ";", "what", "they", "fear", "most", "be", "war", "or", "political", "instability", "in", "their", "own", "country", "."]
+    oewn2026_key: [[2, "oewn-00905166-v"], [5, "oewn-02622439-v"], [10, "oewn-01784548-v"], [12, "oewn-02622439-v"]]
+    paragraph: '29'
+    pos: ["WP", "PRP", "VBD", "IN", "RBS", "VBD", "NN", ":", "WP", "PRP", "VBD", "RBS", "VBD", "NN", "CC", "JJ", "NN", "IN", "PRP$", "JJ", "NN", "."]
+    text: ' What they wished for most was security; what they feared most was war or political
+  instability in their own country.
+
+  '
+    tokens: [[1, 5], [6, 10], [11, 17], [18, 21], [22, 26], [27, 30], [31, 39], [39, 40], [41, 45], [46, 50], [51, 57], [58, 62], [63, 66], [67, 70], [71, 73], [74, 83], [84, 95], [96, 98], [99, 104], [105, 108], [109, 116], [116, 117]]
+    wn16_key: [[2, "wish%2:37:00::"], [5, "be%2:42:06::"], [10, "fear%2:37:03::"], [12, "be%2:42:06::"]]
+    wn30_key: [[2, "wish%2:37:00::"], [5, "be%2:42:06::"], [10, "fear%2:37:03::"], [12, "be%2:42:06::"]]
+V8Na:
+    lemmas: ["The", "ideal", "home", ",", "they", "agree", ",", "would", "be", "a", "small", "private", "house", "or", "a", "city", "apartment", "of", "four", "to", "five", "rooms", ",", "just", "enough", "for", "a", "family", "consist_of", "husband", ",", "wife", ",", "and", "two", "child", "."]
+    oewn2026_key: [[5, "oewn-00807038-v"], [8, "oewn-02622439-v"]]
+    paragraph: '30'
+    pos: ["DT", "JJ", "NN", ",", "PRP", "VBD", ",", "MD", "VB", "DT", "JJ", "JJ", "NN", "CC", "DT", "NN", "NN", "IN", "CD", "TO", "CD", "NNS", ",", "RB", "RB", "IN", "DT", "NN", "VB", "NN", ",", "NN", ",", "CC", "CD", "NNS", "."]
+    text: ' The ideal home, they agreed, would be a small private house or a city apartment
+  of four to five rooms, just enough for a family consisting_of husband, wife, and
+  two children.'
+    tokens: [[1, 4], [5, 10], [11, 15], [15, 16], [17, 21], [22, 28], [28, 29], [30, 35], [36, 38], [39, 40], [41, 46], [47, 54], [55, 60], [61, 63], [64, 65], [66, 70], [71, 80], [81, 83], [84, 88], [89, 91], [92, 96], [97, 102], [102, 103], [104, 108], [109, 115], [116, 119], [120, 121], [122, 128], [129, 142], [143, 150], [150, 151], [152, 156], [156, 157], [158, 161], [162, 165], [166, 174], [174, 175]]
+    wn16_key: [[5, "agree%2:32:00::"], [8, "be%2:42:06::"], [28, "consist_of%2:42:00::"]]
+    wn30_key: [[5, "agree%2:32:00::"], [8, "be%2:42:06::"]]
+hVRi:
+    lemmas: ["No", "one", "want", "a", "larger", "family", "or", "no", "child", ",", "and", "none", "hoped_for", "a", "castle", "or", "say", "that", "live", "in", "less", "settled", "circumstances", "would", "be", "satisfactory", "."]
+    oewn2026_key: [[2, "oewn-01829179-v"], [16, "oewn-01011267-v"], [18, "oewn-02655932-v"], [24, "oewn-02610777-v"]]
+    paragraph: '30'
+    pos: ["DT", "CD", "VBD", "DT", "JJR", "NN", "CC", "DT", "NNS", ",", "CC", "NN", "JJ", "DT", "NN", "CC", "VBD", "IN", "VBG", "VB", "JJR", "JJ", "NNS", "MD", "VB", "JJ", "."]
+    text: ' No one wanted a larger family or no children, and none hoped_for a castle or said
+  that living in less settled circumstances would be satisfactory.
+
+  '
+    tokens: [[1, 3], [4, 7], [8, 14], [15, 16], [17, 23], [24, 30], [31, 33], [34, 36], [37, 45], [45, 46], [47, 50], [51, 55], [56, 65], [66, 67], [68, 74], [75, 77], [78, 82], [83, 87], [88, 94], [95, 97], [98, 102], [103, 110], [111, 124], [125, 130], [131, 133], [134, 146], [146, 147]]
+    wn16_key: [[2, "want%2:37:00::"], [16, "say%2:32:00::"], [18, "live%2:42:08::"], [24, "be%2:42:03::"]]
+    wn30_key: [[2, "want%2:37:00::"], [16, "say%2:32:00::"], [18, "live%2:42:08::"], [24, "be%2:42:03::"]]
+XD10:
+    lemmas: ["All", "express", "interest", "in", "world", "affairs", "but", "no", "one", "offer", "to", "make", "any", "sacrifice", "to", "satisfy", "this", "interest", "."]
+    oewn2026_key: [[1, "oewn-00942415-v"], [9, "oewn-02429959-v"], [11, "oewn-02566500-v"], [15, "oewn-02677669-v"]]
+    paragraph: '31'
+    pos: ["DT", "VBN", "NN", "IN", "NN", "NNS", "CC", "DT", "NN", "VBD", "TO", "VB", "DT", "NNS", "TO", "VB", "DT", "NN", "."]
+    text: ' All expressed interest in world affairs but no one offered to make any sacrifices
+  to satisfy this interest.
+
+  '
+    tokens: [[1, 4], [5, 14], [15, 23], [24, 26], [27, 32], [33, 40], [41, 44], [45, 47], [48, 51], [52, 59], [60, 62], [63, 67], [68, 71], [72, 82], [83, 85], [86, 93], [94, 98], [99, 107], [107, 108]]
+    wn16_key: [[1, "express%2:32:00::"], [9, "offer%2:41:00::"], [11, "make%2:41:00::"], [15, "satisfy%2:42:00::"]]
+    wn30_key: [[1, "express%2:32:00::"], [9, "offer%2:41:00::"], [11, "make%2:41:00::"], [15, "satisfy%2:42:00::"]]

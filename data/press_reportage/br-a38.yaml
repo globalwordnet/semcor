@@ -1,0 +1,961 @@
+_meta:
+    lemmas:
+        type: seq
+        base: tokens
+        data: string
+    oewn2026_key:
+        type: element
+        base: tokens
+        data: string
+    paragraph:
+        type: characters
+    pos:
+        type: seq
+        base: tokens
+        data: string
+    text:
+        type: characters
+    tokens:
+        type: span
+        base: text
+    wn16_key:
+        type: element
+        base: tokens
+        data: string
+    wn30_key:
+        type: element
+        base: tokens
+        data: string
+toDY:
+    lemmas: ["The", "masters", "golf", "tournament", "prove", "last", "monday", "what", "it", "can", "do", "to", "the", "strong", "man", "and", "the", "staunch", "nerves", "."]
+    oewn2026_key: [[4, "oewn-00666706-v"], [10, "oewn-02566500-v"]]
+    paragraph: '0'
+    pos: ["DT", "NNP", "NN", "NN", "VBD", "JJ", "NNP", "WP", "PRP", "MD", "VB", "TO", "DT", "JJS", "NNS", "CC", "DT", "JJS", "NNS", "."]
+    text: The Masters golf tournament proved last Monday what it can do to the strongest men
+      and the staunchest nerves.
+    tokens: [[0, 3], [4, 11], [12, 16], [17, 27], [28, 34], [35, 39], [40, 46], [47, 51], [52, 54], [55, 58], [59, 61], [62, 64], [65, 68], [69, 78], [79, 82], [83, 86], [87, 90], [91, 101], [102, 108], [108, 109]]
+    wn16_key: [[4, "prove%2:31:00::"], [10, "do%2:41:01::"]]
+    wn30_key: [[4, "prove%2:31:00::"], [10, "do%2:41:01::"]]
+bfgU:
+    lemmas: ["gary_player", ",", "the", "small", ",", "trim", "south_african", ",", "be", "the", "eventual", "winner", ",", "but", "in_all", "his", "25", "years", "he", "never", "spend", "a", "more", "harrowing", "afternoon", "as", "he", "wait", "for", "the", "victory", "to", "drop", "in", "his", "lap", "."]
+    oewn2026_key: [[8, "oewn-02610777-v"], [20, "oewn-02714280-v"], [27, "oewn-02644022-v"], [32, "oewn-01989937-v"]]
+    paragraph: '0'
+    pos: ["NNP", ",", "DT", "JJ", ",", "JJ", "NN", ",", "VBD", "DT", "JJ", "NN", ",", "CC", "RB", "PRP$", "CD", "NNS", "PRP", "RB", "VBD", "DT", "RBR", "JJ", "NN", "IN", "PRP", "VBD", "VB", "DT", "NN", "TO", "VB", "VB", "PRP$", "NN", "."]
+    text: ' Gary_Player, the small, trim South_African, was the eventual winner, but in_all
+  his 25 years he never spent a more harrowing afternoon as he waited for the victory
+  to drop in his lap.'
+    tokens: [[1, 12], [12, 13], [14, 17], [18, 23], [23, 24], [25, 29], [30, 43], [43, 44], [45, 48], [49, 52], [53, 61], [62, 68], [68, 69], [70, 73], [74, 80], [81, 84], [85, 87], [88, 93], [94, 96], [97, 102], [103, 108], [109, 110], [111, 115], [116, 125], [126, 135], [136, 138], [139, 141], [142, 148], [149, 152], [153, 156], [157, 164], [165, 167], [168, 172], [173, 175], [176, 179], [180, 183], [183, 184]]
+    wn16_key: [[8, "be%2:42:03::"], [20, "spend%2:42:00::"], [27, "wait%2:42:00::"], [32, "drop%2:38:05::"]]
+    wn30_key: [[8, "be%2:42:03::"], [20, "spend%2:42:00::"], [27, "wait%2:42:00::"], [32, "drop%2:38:05::"]]
+Jp3A:
+    lemmas: ["arnold_palmer", ",", "the", "defending", "champion", ",", "lose", "his", "title", "on", "the", "72", "nd", "hole", "after", "a_few", "minutes", "of", "misfortune", "that", "leave", "even", "his", "fellow", "pro", "gape", "in", "disbelief", "."]
+    oewn2026_key: [[6, "oewn-02292634-v"], [20, "oewn-02735289-v"], [25, "oewn-02168962-v"]]
+    paragraph: '0'
+    pos: ["NNP", ",", "DT", "JJ", "NN", ",", "VBD", "PRP$", "NN", "IN", "DT", "CD", "CC", "NN", "IN", "JJ", "NNS", "IN", "NN", "WDT", "VBD", "RB", "PRP$", "NN", "NNS", "VB", "IN", "NN", "."]
+    text: ' Arnold_Palmer, the defending champion, lost his title on the 72 nd hole after a_few
+  minutes of misfortune that left even his fellow pros gaping in disbelief.
+
+  '
+    tokens: [[1, 14], [14, 15], [16, 19], [20, 29], [30, 38], [38, 39], [40, 44], [45, 48], [49, 54], [55, 57], [58, 61], [62, 64], [65, 67], [68, 72], [73, 78], [79, 84], [85, 92], [93, 95], [96, 106], [107, 111], [112, 116], [117, 121], [122, 125], [126, 132], [133, 137], [138, 144], [145, 147], [148, 157], [157, 158]]
+    wn16_key: [[6, "lose%2:40:02::"], [20, "leave%2:42:02::"], [25, "gape%2:39:00::"]]
+    wn30_key: [[6, "lose%2:40:02::"], [20, "leave%2:42:02::"], [25, "gape%2:39:00::"]]
+UdHZ:
+    lemmas: ["\"", "just", "when", "you", "think", "you", "have", "it", "lick", ",", "this", "golf_course", "can", "get_up", "and", "bite", "you", "\"", ",", "player", "have", "say", "one", "afternoon", "midway", "through", "the", "tournament", "."]
+    oewn2026_key: [[4, "oewn-00633399-v"], [8, "oewn-00636568-v"], [13, "oewn-01978076-v"], [15, "oewn-01448551-v"], [21, "oewn-01018011-v"]]
+    paragraph: '1'
+    pos: ["``", "RB", "WRB", "PRP", "VBP", "PRP", "VBP", "PRP", "VBN", ",", "DT", "NN", "MD", "VB", "CC", "VB", "PRP", "``", ",", "NNP", "VBD", "VBN", "CD", "NN", "RB", "IN", "DT", "NN", "."]
+    text: ' " Just when you think you have it licked, this golf_course can get_up and bite you
+  ", Player had said one afternoon midway through the tournament.'
+    tokens: [[1, 2], [3, 7], [8, 12], [13, 16], [17, 22], [23, 26], [27, 31], [32, 34], [35, 41], [41, 42], [43, 47], [48, 59], [60, 63], [64, 70], [71, 74], [75, 79], [80, 83], [84, 85], [85, 86], [87, 93], [94, 97], [98, 102], [103, 106], [107, 116], [117, 123], [124, 131], [132, 135], [136, 146], [146, 147]]
+    wn16_key: [[4, "think%2:31:03::"], [8, "lick%2:31:00::"], [13, "get_up%2:38:00::"], [15, "bite%2:35:00::"], [21, "say%2:32:01::"]]
+    wn30_key: [[4, "think%2:31:03::"], [8, "lick%2:31:00::"], [13, "get_up%2:38:00::"], [15, "bite%2:35:00::"], [21, "say%2:32:01::"]]
+qmrU:
+    lemmas: ["And", "that", "be", "just", "what", "happen", "on", "the", "last", "few", "hole", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"], [5, "oewn-00344828-v"]]
+    paragraph: '1'
+    pos: ["CC", "RB", "VBZ", "RB", "WP", "VBD", "IN", "DT", "JJ", "JJ", "NNS", "."]
+    text: ' And that is just what happened on the last few holes.'
+    tokens: [[1, 4], [5, 9], [10, 12], [13, 17], [18, 22], [23, 31], [32, 34], [35, 38], [39, 43], [44, 47], [48, 53], [53, 54]]
+    wn16_key: [[2, "be%2:42:03::"], [5, "happen%2:30:01::"]]
+    wn30_key: [[2, "be%2:42:03::"], [5, "happen%2:30:01::"]]
+sXY5:
+    lemmas: ["The", "augusta_national", "golf_club", "course", "get_up", "and", "bite", "both", "player", "and", "palmer", "."]
+    oewn2026_key: [[4, "oewn-01978076-v"], [6, "oewn-01448551-v"]]
+    paragraph: '1'
+    pos: ["DT", "NNP", "NN", "NNP", "VB", "CC", "VBD", "DT", "NNP", "CC", "NNP", "."]
+    text: ' The Augusta_National Golf_Club Course got_up and bit both Player and Palmer.
+
+  '
+    tokens: [[1, 4], [5, 21], [22, 31], [32, 38], [39, 45], [46, 49], [50, 53], [54, 58], [59, 65], [66, 69], [70, 76], [76, 77]]
+    wn16_key: [[4, "get_up%2:38:00::"], [6, "bite%2:35:00::"]]
+    wn30_key: [[4, "get_up%2:38:00::"], [6, "bite%2:35:00::"]]
+1DSc:
+    lemmas: ["player", "be", "the", "first", "to", "feel", "its", "tooth", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [5, "oewn-01212242-v"]]
+    paragraph: '2'
+    pos: ["NNP", "VBD", "VB", "NN", "TO", "VB", "PRP$", "NNS", "."]
+    text: ' Player was the first to feel its teeth.'
+    tokens: [[1, 7], [8, 11], [12, 15], [16, 21], [22, 24], [25, 29], [30, 33], [34, 39], [39, 40]]
+    wn16_key: [[1, "be%2:42:03::"], [5, "feel%2:35:00::"]]
+    wn30_key: [[1, "be%2:42:03::"], [5, "feel%2:35:00::"]]
+4KWg:
+    lemmas: ["After", "play", "a", "splendid", "first", "nine", "hole", "in", "34", "-", "two", "stroke", "under", "par", "-", "on", "this", "fifth", "and", "final", "day", "of", "the", "tournament", "(", "sunday", "'s", "fourth", "round", "have", "be", "wash_out", "by", "a", "violent", "rainstorm", "when", "it", "be", "only", "half", "complete", ")", ",", "player", "'s", "game", "rapidly", "fall", "to", "piece", "."]
+    oewn2026_key: [[1, "oewn-01075360-v"], [31, "oewn-02600830-v"], [38, "oewn-02450790-v"], [41, "oewn-00485097-v"], [48, "oewn-00147635-v"]]
+    paragraph: '2'
+    pos: ["IN", "VBG", "DT", "JJ", "JJ", "CD", "NNS", "IN", "CD", ":", "CD", "NNS", "IN", "NN", ":", "IN", "DT", "JJ", "CC", "JJ", "NN", "IN", "DT", "NN", "NNP", "NNP", "POS", "JJ", "NN", "VBD", "VBN", "VBN", "IN", "DT", "JJ", "NN", "WRB", "PRP", "VBD", "RB", "NN", "VBN", "NNP", ",", "NNP", "POS", "NN", "RB", "VBD", "VB", "NNS", "."]
+    text: ' After playing a splendid first nine holes in 34 - two strokes under par - on this
+  fifth and final day of the tournament (Sunday''s fourth round had been washed_out
+  by a violent rainstorm when it was only half completed), Player''s game rapidly
+  fell to pieces.'
+    tokens: [[1, 6], [7, 14], [15, 16], [17, 25], [26, 31], [32, 36], [37, 42], [43, 45], [46, 48], [49, 50], [51, 54], [55, 62], [63, 68], [69, 72], [73, 74], [75, 77], [78, 82], [83, 88], [89, 92], [93, 98], [99, 102], [103, 105], [106, 109], [110, 120], [121, 122], [122, 128], [128, 130], [131, 137], [138, 143], [144, 147], [148, 152], [153, 163], [164, 166], [167, 168], [169, 176], [177, 186], [187, 191], [192, 194], [195, 198], [199, 203], [204, 208], [209, 218], [218, 219], [219, 220], [221, 227], [227, 229], [230, 234], [235, 242], [243, 247], [248, 250], [251, 257], [257, 258]]
+    wn16_key: [[1, "play%2:33:00::"], [31, "wash_out%2:41:00::"], [38, "be%2:41:00::"], [41, "complete%2:30:02::"], [48, "fall%2:30:08::"]]
+    wn30_key: [[1, "play%2:33:00::"], [31, "wash_out%2:41:00::"], [38, "be%2:41:00::"], [41, "complete%2:30:02::"], [48, "fall%2:30:08::"]]
+mh/y:
+    lemmas: ["He", "bogey", "the", "10", "th", "."]
+    oewn2026_key: [[1, "oewn-01601842-v"]]
+    paragraph: '2'
+    pos: ["PRP", "VBD", "DT", "CD", "DT", "."]
+    text: ' He bogeyed the 10 th.'
+    tokens: [[1, 3], [4, 11], [12, 15], [16, 18], [19, 21], [21, 22]]
+    wn16_key: [[1, "bogey%2:35:00::"]]
+    wn30_key: [[1, "bogey%2:35:00::"]]
+TgjW:
+    lemmas: ["After", "a", "journey", "through", "woods", "and", "stream", "he", "double_bogey", "the", "13", "th", "."]
+    oewn2026_key: [[8, "oewn-01601706-v"]]
+    paragraph: '2'
+    pos: ["IN", "DT", "NN", "IN", "NNS", "CC", "NN", "PRP", "VBD", "DT", "CD", "DT", "."]
+    text: ' After a journey through woods and stream he double-bogeyed the 13 th.'
+    tokens: [[1, 6], [7, 8], [9, 16], [17, 24], [25, 30], [31, 34], [35, 41], [42, 44], [45, 59], [60, 63], [64, 66], [67, 69], [69, 70]]
+    wn16_key: [[8, "double_bogey%2:35:00::"]]
+    wn30_key: [[8, "double_bogey%2:35:00::"]]
+lAbO:
+    lemmas: ["He", "bogey", "the", "15", "th", "by", "miss", "a", "short", "putt", "and", "finally", "scramble", "through", "the", "last", "three", "hole", "without", "further", "mishap", "for", "a", "2", "-", "over-par", "74", "and", "a", "72", "-", "hole", "total", "of", "280", "."]
+    oewn2026_key: [[1, "oewn-01601842-v"], [6, "oewn-01240465-v"], [12, "oewn-01890327-v"]]
+    paragraph: '2'
+    pos: ["PRP", "VBD", "DT", "CD", "DT", "IN", "VBG", "DT", "JJ", "NN", "CC", "RB", "VBD", "IN", "DT", "JJ", "CD", "NNS", "IN", "JJ", "NN", "IN", "DT", "CD", ":", "JJ", "CD", "CC", "DT", "CD", ":", "NN", "JJ", "IN", "CD", "."]
+    text: ' He bogeyed the 15 th by missing a short putt and finally scrambled through the last
+  three holes without further mishap for a 2 - over-par 74 and a 72 - hole total of
+  280.
+
+  '
+    tokens: [[1, 3], [4, 11], [12, 15], [16, 18], [19, 21], [22, 24], [25, 32], [33, 34], [35, 40], [41, 45], [46, 49], [50, 57], [58, 67], [68, 75], [76, 79], [80, 84], [85, 90], [91, 96], [97, 104], [105, 112], [113, 119], [120, 123], [124, 125], [126, 127], [128, 129], [130, 138], [139, 141], [142, 145], [146, 147], [148, 150], [151, 152], [153, 157], [158, 163], [164, 166], [167, 170], [170, 171]]
+    wn16_key: [[1, "bogey%2:35:00::"], [6, "miss%2:33:00::"], [12, "scramble%2:38:00::"]]
+    wn30_key: [[1, "bogey%2:35:00::"], [6, "miss%2:35:00::"], [12, "scramble%2:38:00::"]]
+bgvE:
+    lemmas: ["As", "he", "sign", "his", "scorecard", "and", "walk", "off", "the", "course", ",", "player", "be", "almost", "in", "tears", "."]
+    oewn2026_key: [[2, "oewn-00998530-v"], [6, "oewn-01908923-v"], [12, "oewn-02610777-v"]]
+    paragraph: '3'
+    pos: ["IN", "PRP", "VBD", "PRP$", "NN", "CC", "VBD", "IN", "DT", "NN", ",", "NNP", "VBD", "RB", "IN", "NNS", "."]
+    text: ' As he signed his scorecard and walked off the course, Player was almost in tears.'
+    tokens: [[1, 3], [4, 6], [7, 13], [14, 17], [18, 27], [28, 31], [32, 38], [39, 42], [43, 46], [47, 53], [53, 54], [55, 61], [62, 65], [66, 72], [73, 75], [76, 81], [81, 82]]
+    wn16_key: [[2, "sign%2:32:02::"], [6, "walk%2:38:00::"], [12, "be%2:42:03::"]]
+    wn30_key: [[2, "sign%2:32:02::"], [6, "walk%2:38:00::"], [12, "be%2:42:03::"]]
+RMMJ:
+    lemmas: ["He", "could", "read", "on", "the", "nearby", "scoreboard", "that", "palmer", ",", "by", "then", "play", "the", "15", "th", "hole", ",", "be", "lead", "him", "by", "a", "stroke", "."]
+    oewn2026_key: [[2, "oewn-00626756-v"], [12, "oewn-01075360-v"], [19, "oewn-02693227-v"]]
+    paragraph: '3'
+    pos: ["PRP", "MD", "VB", "IN", "DT", "JJ", "NN", "IN", "NNP", ",", "IN", "RB", "VBG", "DT", "CD", "DT", "NN", ",", "VBD", "VBG", "PRP", "IN", "DT", "NN", "."]
+    text: ' He could read on the nearby scoreboard that Palmer, by then playing the 15 th hole,
+  was leading him by a stroke.'
+    tokens: [[1, 3], [4, 9], [10, 14], [15, 17], [18, 21], [22, 28], [29, 39], [40, 44], [45, 51], [51, 52], [53, 55], [56, 60], [61, 68], [69, 72], [73, 75], [76, 78], [79, 83], [83, 84], [85, 88], [89, 96], [97, 100], [101, 103], [104, 105], [106, 112], [112, 113]]
+    wn16_key: [[2, "read%2:31:00::"], [12, "play%2:33:00::"], [19, "lead%2:42:01::"]]
+    wn30_key: [[2, "read%2:31:00::"], [12, "play%2:33:00::"], [19, "lead%2:42:01::"]]
+FDXz:
+    lemmas: ["palmer", "have", "start", "the", "round", "four", "stroke", "behind", "player", ",", "and", "at", "one", "point", "in", "the", "afternoon", "have", "trail", "by", "as_many", "as", "six", "stroke", "."]
+    oewn2026_key: [[2, "oewn-02614382-v"], [18, "oewn-02062680-v"]]
+    paragraph: '3'
+    pos: ["NNP", "VBD", "VBN", "DT", "NN", "CD", "NNS", "IN", "NNP", ",", "CC", "IN", "CD", "NN", "IN", "DT", "NN", "VBD", "VBN", "RB", "JJ", "IN", "CD", "NNS", "."]
+    text: ' Palmer had started the round four strokes behind Player, and at one point in the
+  afternoon had trailed by as_many as six strokes.'
+    tokens: [[1, 7], [8, 11], [12, 19], [20, 23], [24, 29], [30, 34], [35, 42], [43, 49], [50, 56], [56, 57], [58, 61], [62, 64], [65, 68], [69, 74], [75, 77], [78, 81], [82, 91], [92, 95], [96, 103], [104, 106], [107, 114], [115, 117], [118, 121], [122, 129], [129, 130]]
+    wn16_key: [[2, "start%2:42:00::"], [18, "trail%2:38:02::"]]
+    wn30_key: [[2, "start%2:42:00::"], [18, "trail%2:38:02::"]]
+6v7O:
+    lemmas: ["now", "all", "he", "have", "to", "do", "be", "finish", "in", "even", "par", "to", "collect", "the", "trophy", "and", "the", "biggest", "single", "paycheck", "in", "golf", "."]
+    oewn2026_key: [[3, "oewn-00065141-v;oewn-02383544-v;oewn-02746620-v"], [5, "oewn-02567910-v"], [7, "oewn-02615799-v"], [12, "oewn-02222955-v"]]
+    paragraph: '3'
+    pos: ["RB", "DT", "PRP", "VBD", "VB", "VB", "VB", "VB", "IN", "RB", "NN", "TO", "VB", "DT", "NN", "CC", "DT", "RBS", "JJ", "NN", "IN", "NN", "."]
+    text: ' Now all he had to do was finish in even par to collect the trophy and the biggest
+  single paycheck in golf.
+
+  '
+    tokens: [[1, 4], [5, 8], [9, 11], [12, 15], [16, 18], [19, 21], [22, 25], [26, 32], [33, 35], [36, 40], [41, 44], [45, 47], [48, 55], [56, 59], [60, 66], [67, 70], [71, 74], [75, 82], [83, 89], [90, 98], [99, 101], [102, 106], [106, 107]]
+    wn16_key: [[3, "have%2:42:05::"], [5, "do%2:41:04::"], [7, "finish%2:42:00::"], [12, "collect%2:40:01::"]]
+    wn30_key: [[3, "have%2:29:02::;have%2:41:00::;have%2:42:12::"], [5, "do%2:41:04::"], [7, "finish%2:42:00::"], [12, "collect%2:40:01::"]]
+JhJS:
+    lemmas: ["When", "palmer", "hit", "a", "good", "straight", "drive", "up", "the", "fairway", "on", "the", "72", "nd", "hole", ",", "he", "seem", "to", "have", "the", "championship", "won", "."]
+    oewn2026_key: [[2, "oewn-01407698-v"], [17, "oewn-02137900-v"]]
+    paragraph: '4'
+    pos: ["WRB", "NNP", "VBD", "DT", "JJ", "JJ", "NN", "VB", "DT", "NN", "IN", "DT", "CD", "CC", "NN", ",", "PRP", "VBD", "TO", "VB", "DT", "NN", "JJ", "."]
+    text: ' When Palmer hit a good straight drive up the fairway on the 72 nd hole, he seemed
+  to have the championship won.'
+    tokens: [[1, 5], [6, 12], [13, 16], [17, 18], [19, 23], [24, 32], [33, 38], [39, 41], [42, 45], [46, 53], [54, 56], [57, 60], [61, 63], [64, 66], [67, 71], [71, 72], [73, 75], [76, 82], [83, 85], [86, 90], [91, 94], [95, 107], [108, 111], [111, 112]]
+    wn16_key: [[2, "hit%2:35:03::"], [17, "seem%2:39:00::"]]
+    wn30_key: [[2, "hit%2:35:03::"], [17, "seem%2:39:00::"]]
+Uqh8:
+    lemmas: ["But", "the", "seven-iron", "shot", "he", "use", "to", "approach", "the", "green", "stray", "into", "a", "bunker", "and", "lodge", "in", "a", "slight", "depression", "."]
+    oewn2026_key: [[5, "oewn-01161188-v"], [7, "oewn-02057865-v"], [10, "oewn-01929647-v"], [15, "oewn-01530857-v"]]
+    paragraph: '4'
+    pos: ["CC", "DT", "NN", "NN", "PRP", "VBD", "TO", "VB", "DT", "JJ", "VBD", "IN", "DT", "NN", "CC", "VBD", "VB", "DT", "JJ", "NN", "."]
+    text: ' But the seven-iron shot he used to approach the green strayed into a bunker and
+  lodged in a slight depression.'
+    tokens: [[1, 4], [5, 8], [9, 19], [20, 24], [25, 27], [28, 32], [33, 35], [36, 44], [45, 48], [49, 54], [55, 62], [63, 67], [68, 69], [70, 76], [77, 80], [81, 87], [88, 90], [91, 92], [93, 99], [100, 110], [110, 111]]
+    wn16_key: [[5, "use%2:34:01::"], [7, "approach%2:38:00::"], [10, "stray%2:38:00::"], [15, "lodge%2:35:00::"]]
+    wn30_key: [[5, "use%2:34:01::"], [7, "approach%2:38:00::"], [10, "stray%2:38:00::"], [15, "lodge%2:35:00::"]]
+jcv3:
+    lemmas: ["In", "try", "to", "hit", "it", "out", "with", "a", "sand_wedge", "palmer", "bounce", "the", "ball", "over", "the", "green", ",", "past", "spectator", "and", "down", "the", "slope", "toward", "a", "tv", "tower", "."]
+    oewn2026_key: [[1, "oewn-02535833-v"], [3, "oewn-01407698-v"], [10, "oewn-01407043-v"]]
+    paragraph: '4'
+    pos: ["IN", "VBG", "TO", "VB", "PRP", "IN", "IN", "DT", "NN", "NNP", "VBD", "DT", "NN", "VB", "DT", "JJ", ",", "JJ", "NNS", "CC", "RB", "DT", "NN", "IN", "DT", "NN", "NN", "."]
+    text: ' In trying to hit it out with a sand_wedge Palmer bounced the ball over the green,
+  past spectators and down the slope toward a TV tower.
+
+  '
+    tokens: [[1, 3], [4, 10], [11, 13], [14, 17], [18, 20], [21, 24], [25, 29], [30, 31], [32, 42], [43, 49], [50, 57], [58, 61], [62, 66], [67, 71], [72, 75], [76, 81], [81, 82], [83, 87], [88, 98], [99, 102], [103, 107], [108, 111], [112, 117], [118, 124], [125, 126], [127, 129], [130, 135], [135, 136]]
+    wn16_key: [[1, "try%2:41:00::"], [3, "hit%2:35:03::"], [10, "bounce%2:35:03::"]]
+    wn30_key: [[1, "try%2:41:00::"], [3, "hit%2:35:03::"], [10, "bounce%2:35:03::"]]
+mkBM:
+    lemmas: ["afterwards", ",", "palmer", "tell", "Charlie_Coe", ",", "his", "last-round", "partner", ",", "that", "he", "simply", "play", "the", "hole", "too", "fast", "."]
+    oewn2026_key: [[3, "oewn-01011267-v"], [13, "oewn-01075360-v"]]
+    paragraph: '5'
+    pos: ["RB", ",", "NNP", "VBD", "NNP", ",", "PRP$", "JJ", "NN", ",", "IN", "PRP", "RB", "VBD", "DT", "NN", "RB", "RB", "."]
+    text: ' Afterwards, Palmer told Charlie_Coe, his last-round partner, that he simply played
+  the hole too fast.'
+    tokens: [[1, 11], [11, 12], [13, 19], [20, 24], [25, 36], [36, 37], [38, 41], [42, 52], [53, 60], [60, 61], [62, 66], [67, 69], [70, 76], [77, 83], [84, 87], [88, 92], [93, 96], [97, 101], [101, 102]]
+    wn16_key: [[3, "tell%2:32:04::"], [13, "play%2:33:00::"]]
+    wn30_key: [[3, "tell%2:32:04::"], [13, "play%2:33:00::"]]
+C6o4:
+    lemmas: ["He", "do", "seem", "hasty", "on", "his", "second", "and", "third", "shot", ",", "but", "then", "there", "be", "an", "agonizing", "wait", "of", "several", "minutes", "while", "Coe", "graciously", "putt", "out", ",", "give", "palmer", "a", "chance", "to", "recover", "his", "composure", ",", "which", "he", "have", "quite", "visibly", "lose", "."]
+    oewn2026_key: [[2, "oewn-02137900-v"], [14, "oewn-02703567-v"], [24, "oewn-01406194-v"], [27, "oewn-02344167-v"], [32, "oewn-02252785-v"], [41, "oewn-02292634-v"]]
+    paragraph: '5'
+    pos: ["PRP", "VBD", "VB", "JJ", "IN", "PRP$", "JJ", "CC", "JJ", "NNS", ",", "CC", "RB", "EX", "VBD", "DT", "JJ", "NN", "IN", "JJ", "NNS", "IN", "NNP", "RB", "VBD", "RB", ",", "VBG", "NNP", "DT", "NN", "TO", "VB", "PRP$", "NN", ",", "WDT", "PRP", "VBD", "RB", "RB", "VBN", "."]
+    text: ' He did seem hasty on his second and third shots, but then there was an agonizing
+  wait of several minutes while Coe graciously putted out, giving Palmer a chance
+  to recover his composure, which he had quite visibly lost.
+
+  '
+    tokens: [[1, 3], [4, 7], [8, 12], [13, 18], [19, 21], [22, 25], [26, 32], [33, 36], [37, 42], [43, 48], [48, 49], [50, 53], [54, 58], [59, 64], [65, 68], [69, 71], [72, 81], [82, 86], [87, 89], [90, 97], [98, 105], [106, 111], [112, 115], [116, 126], [127, 133], [134, 137], [137, 138], [139, 145], [146, 152], [153, 154], [155, 161], [162, 164], [165, 172], [173, 176], [177, 186], [186, 187], [188, 193], [194, 196], [197, 200], [201, 206], [207, 214], [215, 219], [219, 220]]
+    wn16_key: [[2, "seem%2:39:00::"], [14, "be%2:42:08::"], [24, "putt%2:35:00::"], [27, "give%2:40:05::"], [32, "recover%2:40:00::"], [41, "lose%2:40:02::"]]
+    wn30_key: [[2, "seem%2:39:00::"], [14, "be%2:42:08::"], [24, "putt%2:35:00::"], [27, "give%2:40:05::"], [32, "recover%2:40:00::"], [41, "lose%2:40:02::"]]
+SP+5:
+    lemmas: ["When", "the", "shaken", "palmer", "finally", "do", "hit", "his", "fourth", "shot", ",", "he", "overshoot", "the", "hole", "by", "15", "foot", "."]
+    oewn2026_key: [[6, "oewn-01407698-v"], [12, "oewn-01137645-v"]]
+    paragraph: '6'
+    pos: ["WRB", "DT", "JJ", "NNP", "RB", "VBD", "VB", "PRP$", "JJ", "NN", ",", "PRP", "VBD", "DT", "NN", "IN", "CD", "NNS", "."]
+    text: ' When the shaken Palmer finally did hit his fourth shot, he overshot the hole by
+  15 feet.'
+    tokens: [[1, 5], [6, 9], [10, 16], [17, 23], [24, 31], [32, 35], [36, 39], [40, 43], [44, 50], [51, 55], [55, 56], [57, 59], [60, 68], [69, 72], [73, 77], [78, 80], [81, 83], [84, 88], [88, 89]]
+    wn16_key: [[6, "hit%2:35:03::"], [12, "overshoot%2:33:00::"]]
+    wn30_key: [[6, "hit%2:35:03::"], [12, "overshoot%2:33:00::"]]
+Qz+x:
+    lemmas: ["palmer", "be", "now", "putt", "merely", "for", "a", "tie", ",", "and", "player", ",", "who", "be", "sit", "beside", "his", "wife", "and", "watch", "it", "all", "on", "television", "in", "tournament_chairman_clifford_robert", "'", "clubhouse", "apartment", ",", "stare", "in", "amazement", "when", "palmer", "miss", "the", "putt", "."]
+    oewn2026_key: [[3, "oewn-01406194-v"], [14, "oewn-01545905-v"], [19, "oewn-02155378-v"], [30, "oewn-02137210-v"], [35, "oewn-01240465-v"]]
+    paragraph: '6'
+    pos: ["NNP", "VBD", "RB", "VBG", "RB", "IN", "DT", "NN", ",", "CC", "NNP", ",", "WP", "VBD", "VBG", "IN", "PRP$", "NN", "CC", "VBG", "PRP", "DT", "IN", "NN", "IN", "NNP", "POS", "NN", "NN", ",", "VBD", "IN", "NN", "WRB", "NNP", "VBD", "DT", "NN", "."]
+    text: ' Palmer was now putting merely for a tie, and Player, who was sitting beside his
+  wife and watching it all on television in Tournament_Chairman_Clifford_Roberts''
+  clubhouse apartment, stared in amazement when Palmer missed the putt.
+
+  '
+    tokens: [[1, 7], [8, 11], [12, 15], [16, 23], [24, 30], [31, 34], [35, 36], [37, 40], [40, 41], [42, 45], [46, 52], [52, 53], [54, 57], [58, 61], [62, 69], [70, 76], [77, 80], [81, 85], [86, 89], [90, 98], [99, 101], [102, 105], [106, 108], [109, 119], [120, 122], [123, 159], [159, 160], [161, 170], [171, 180], [180, 181], [182, 188], [189, 191], [192, 201], [202, 206], [207, 213], [214, 220], [221, 224], [225, 229], [229, 230]]
+    wn16_key: [[3, "putt%2:35:00::"], [14, "sit%2:35:00::"], [19, "watch%2:39:05::"], [30, "stare%2:39:00::"], [35, "miss%2:33:00::"]]
+    wn30_key: [[3, "putt%2:35:00::"], [14, "sit%2:35:00::"], [19, "watch%2:39:05::"], [30, "stare%2:39:00::"], [35, "miss%2:35:00::"]]
+k3iI:
+    lemmas: ["palmer", "'s", "281", "for", "the", "four", "round", "at", "augusta", "be", "a", "comfortable", "four", "stroke", "ahead", "of", "the", "next", "close", "pro", ",", "but", "it", "be", "barely", "good", "enough", "for", "a", "second-place", "tie", "with", "Coe", "."]
+    oewn2026_key: [[9, "oewn-02610777-v"], [23, "oewn-02610777-v"]]
+    paragraph: '7'
+    pos: ["NNP", "POS", "CD", "IN", "DT", "CD", "NNS", "IN", "NNP", "VBD", "DT", "JJ", "CD", "NNS", "RB", "IN", "DT", "JJ", "JJS", "FW", ",", "CC", "PRP", "VBD", "RB", "JJ", "RB", "IN", "DT", "JJ", "NN", "IN", "NNP", "."]
+    text: ' Palmer''s 281 for the four rounds at Augusta was a comfortable four strokes ahead
+  of the next closest pro, but it was barely good enough for a second-place tie with
+  Coe.'
+    tokens: [[1, 7], [7, 9], [10, 13], [14, 17], [18, 21], [22, 26], [27, 33], [34, 36], [37, 44], [45, 48], [49, 50], [51, 62], [63, 67], [68, 75], [76, 81], [82, 84], [85, 88], [89, 93], [94, 101], [102, 105], [105, 106], [107, 110], [111, 113], [114, 117], [118, 124], [125, 129], [130, 136], [137, 140], [141, 142], [143, 155], [156, 159], [160, 164], [165, 168], [168, 169]]
+    wn16_key: [[9, "be%2:42:03::"], [23, "be%2:42:03::"]]
+    wn30_key: [[9, "be%2:42:03::"], [23, "be%2:42:03::"]]
+TD92:
+    lemmas: ["The", "lean", "and", "leathery", "oklahoma", "amateur", ",", "who", "have", "be", "play", "topnotch", "tournament", "golf", "for", "many", "years", ",", "refuse", "to", "let", "the", "masters", "jitters", "overtake", "him", "and", "close", "the", "tournament", "with", "his", "second", "straight", "69", "."]
+    oewn2026_key: [[10, "oewn-01075360-v"], [18, "oewn-00799092-v"], [20, "oewn-02427979-v"], [24, "oewn-01157556-v"], [27, "oewn-02430760-v"]]
+    paragraph: '7'
+    pos: ["DT", "JJ", "CC", "JJ", "NNP", "NN", ",", "WP", "VBZ", "VBN", "VBG", "JJ", "NN", "NN", "IN", "JJ", "NNS", ",", "VBD", "TO", "VB", "DT", "NNP", "NNS", "VBP", "PRP", "CC", "VBD", "DT", "NN", "IN", "PRP$", "JJ", "JJ", "CD", "."]
+    text: ' The lean and leathery Oklahoma amateur, who has been playing topnotch tournament
+  golf for many years, refused to let the Masters jitters overtake him and closed
+  the tournament with his second straight 69.
+
+  '
+    tokens: [[1, 4], [5, 9], [10, 13], [14, 22], [23, 31], [32, 39], [39, 40], [41, 44], [45, 48], [49, 53], [54, 61], [62, 70], [71, 81], [82, 86], [87, 90], [91, 95], [96, 101], [101, 102], [103, 110], [111, 113], [114, 117], [118, 121], [122, 129], [130, 137], [138, 146], [147, 150], [151, 154], [155, 161], [162, 165], [166, 176], [177, 181], [182, 185], [186, 192], [193, 201], [202, 204], [204, 205]]
+    wn16_key: [[10, "play%2:33:00::"], [18, "refuse%2:32:00::"], [20, "let%2:41:00::"], [24, "overtake%2:33:00::"], [27, "close%2:41:01::"]]
+    wn30_key: [[10, "play%2:33:00::"], [18, "refuse%2:32:00::"], [20, "let%2:41:00::"], [24, "overtake%2:33:00::"], [27, "close%2:41:01::"]]
+WxMk:
+    lemmas: ["Until", "late", "last", "saturday", "afternoon", "palmer", "have", "play", "seven", "consecutive", "round_of_golf", "at", "the", "masters", "-", "four", "last", "year", "and", "three", "this", "-", "without", "ever", "be", "out", "of", "first", "place", "."]
+    oewn2026_key: [[7, "oewn-01075360-v"], [24, "oewn-02610777-v"]]
+    paragraph: '8'
+    pos: ["IN", "JJ", "JJ", "NNP", "NN", "NNP", "VBD", "VBN", "CD", "JJ", "NN", "IN", "DT", "NNP", ":", "CD", "JJ", "NN", "CC", "CD", "DT", ":", "IN", "RB", "VBG", "IN", "IN", "JJ", "NN", "."]
+    text: ' Until late last Saturday afternoon Palmer had played seven consecutive rounds_of_golf
+  at the Masters - four last year and three this - without ever being out of first
+  place.'
+    tokens: [[1, 6], [7, 11], [12, 16], [17, 25], [26, 35], [36, 42], [43, 46], [47, 53], [54, 59], [60, 71], [72, 86], [87, 89], [90, 93], [94, 101], [102, 103], [104, 108], [109, 113], [114, 118], [119, 122], [123, 128], [129, 133], [134, 135], [136, 143], [144, 148], [149, 154], [155, 158], [159, 161], [162, 167], [168, 173], [173, 174]]
+    wn16_key: [[7, "play%2:33:00::"], [24, "be%2:42:03::"]]
+    wn30_key: [[7, "play%2:33:00::"], [24, "be%2:42:03::"]]
+dhSP:
+    lemmas: ["As", "evening", "approach", "and", "palmer", "finish", "his", "saturday", "round", "with", "a", "disappointing", "one-over-par", "73", ",", "this", "remarkable", "record", "be", "still", "intact", ",", "thanks", "to", "his", "thursday", "and", "friday", "round", "of", "68", "and", "69", "."]
+    oewn2026_key: [[2, "oewn-01853713-v"], [5, "oewn-02615799-v"], [18, "oewn-02450790-v"]]
+    paragraph: '8'
+    pos: ["IN", "NN", "VBD", "CC", "NNP", "VBD", "PRP$", "NNP", "NN", "IN", "DT", "JJ", "JJ", "CD", ",", "DT", "JJ", "NN", "VBD", "RB", "JJ", ",", "NNS", "TO", "PRP$", "NNP", "CC", "NNP", "NNS", "IN", "CD", "CC", "CD", "."]
+    text: ' As evening approached and Palmer finished his Saturday round with a disappointing
+  one-over-par 73, this remarkable record was still intact, thanks to his Thursday
+  and Friday rounds of 68 and 69.'
+    tokens: [[1, 3], [4, 11], [12, 22], [23, 26], [27, 33], [34, 42], [43, 46], [47, 55], [56, 61], [62, 66], [67, 68], [69, 82], [83, 95], [96, 98], [98, 99], [100, 104], [105, 115], [116, 122], [123, 126], [127, 132], [133, 139], [139, 140], [141, 147], [148, 150], [151, 154], [155, 163], [164, 167], [168, 174], [175, 181], [182, 184], [185, 187], [188, 191], [192, 194], [194, 195]]
+    wn16_key: [[2, "approach%2:38:01::"], [5, "finish%2:42:00::"], [18, "be%2:41:00::"]]
+    wn30_key: [[2, "approach%2:38:01::"], [5, "finish%2:42:00::"], [18, "be%2:41:00::"]]
+wcZw:
+    lemmas: ["His", "three-round", "total", "of", "210", "be", "three", "stroke", "good", "than", "the", "next", "good", "score", ",", "a", "213", "by", "bill_collins", ",", "the", "tall", "and", "deliberate", "Baltimorean", "who", "have", "be", "play", "very_well", "all", "winter", "long", "."]
+    oewn2026_key: [[5, "oewn-02610777-v"], [28, "oewn-01075360-v"]]
+    paragraph: '8'
+    pos: ["PRP$", "JJ", "NN", "IN", "CD", "VBD", "CD", "NNS", "JJR", "IN", "DT", "JJ", "JJS", "NN", ",", "DT", "CD", "IN", "NNP", ",", "DT", "JJ", "CC", "JJ", "NNP", "WP", "VBD", "VBN", "VBG", "RB", "DT", "NN", "JJ", "."]
+    text: ' His three-round total of 210 was three strokes better than the next best score,
+  a 213 by Bill_Collins, the tall and deliberate Baltimorean who had been playing
+  very_well all winter long.
+
+  '
+    tokens: [[1, 4], [5, 16], [17, 22], [23, 25], [26, 29], [30, 33], [34, 39], [40, 47], [48, 54], [55, 59], [60, 63], [64, 68], [69, 73], [74, 79], [79, 80], [81, 82], [83, 86], [87, 89], [90, 102], [102, 103], [104, 107], [108, 112], [113, 116], [117, 127], [128, 139], [140, 143], [144, 147], [148, 152], [153, 160], [161, 170], [171, 174], [175, 181], [182, 186], [186, 187]]
+    wn16_key: [[5, "be%2:42:03::"], [28, "play%2:33:00::"]]
+    wn30_key: [[5, "be%2:42:03::"], [28, "play%2:33:00::"]]
+XMWZ:
+    lemmas: ["But", "palmer", "know", ",", "as", "do", "everybody", "else", "at", "augusta", ",", "that", "his", "streak", "be", "about", "to", "be", "break", "."]
+    oewn2026_key: [[2, "oewn-00596016-v"], [14, "oewn-02610777-v"], [17, "oewn-02450790-v"], [18, "oewn-00364717-v"]]
+    paragraph: '9'
+    pos: ["CC", "NNP", "VBD", ",", "IN", "VBD", "NN", "RB", "IN", "NNP", ",", "IN", "PRP$", "NN", "VBD", "VB", "TO", "VB", "VBN", "."]
+    text: ' But Palmer knew, as did everybody else at Augusta, that his streak was about to
+  be broken.'
+    tokens: [[1, 4], [5, 11], [12, 16], [16, 17], [18, 20], [21, 24], [25, 34], [35, 39], [40, 42], [43, 50], [50, 51], [52, 56], [57, 60], [61, 67], [68, 71], [72, 77], [78, 80], [81, 83], [84, 90], [90, 91]]
+    wn16_key: [[2, "know%2:31:02::"], [14, "be%2:42:03::"], [17, "be%2:41:00::"], [18, "break%2:30:03::"]]
+    wn30_key: [[2, "know%2:31:02::"], [14, "be%2:42:03::"], [17, "be%2:41:00::"], [18, "break%2:30:03::"]]
+3TmG:
+    lemmas: ["half", "an", "hour", "after", "he", "finish", "his", "round", ",", "player", "hole_out", "at", "the", "18", "th", "green", "with", "a", "69", "and", "a", "three-round", "total", "of", "206", ",", "four", "stroke", "ahead", "of", "palmer", "."]
+    oewn2026_key: [[5, "oewn-02615799-v"], [10, "oewn-01410807-v"]]
+    paragraph: '9'
+    pos: ["NN", "DT", "NN", "IN", "PRP", "VBD", "PRP$", "NN", ",", "NNP", "VB", "IN", "DT", "CD", "DT", "NN", "IN", "DT", "CD", "CC", "DT", "JJ", "NN", "IN", "CD", ",", "CD", "NNS", "RB", "IN", "NNP", "."]
+    text: ' Half an hour after he finished his round, Player holed_out at the 18 th green with
+  a 69 and a three-round total of 206, four strokes ahead of Palmer.
+
+  '
+    tokens: [[1, 5], [6, 8], [9, 13], [14, 19], [20, 22], [23, 31], [32, 35], [36, 41], [41, 42], [43, 49], [50, 59], [60, 62], [63, 66], [67, 69], [70, 72], [73, 78], [79, 83], [84, 85], [86, 88], [89, 92], [93, 94], [95, 106], [107, 112], [113, 115], [116, 119], [119, 120], [121, 125], [126, 133], [134, 139], [140, 142], [143, 149], [149, 150]]
+    wn16_key: [[5, "finish%2:42:00::"], [10, "hole_out%2:35:00::"]]
+    wn30_key: [[5, "finish%2:42:00::"], [10, "hole_out%2:35:00::"]]
+UmjM:
+    lemmas: ["More_than", "a", "streak", "have", "end", "."]
+    oewn2026_key: [[4, "oewn-02615799-v"]]
+    paragraph: '10'
+    pos: ["RB", "DT", "NN", "VBD", "VBN", "."]
+    text: ' More_than a streak had ended.'
+    tokens: [[1, 10], [11, 12], [13, 19], [20, 23], [24, 29], [29, 30]]
+    wn16_key: [[4, "end%2:42:00::"]]
+    wn30_key: [[4, "end%2:42:00::"]]
+OySA:
+    lemmas: ["Long", "after", "the", "erratic", "climate", "and", "the", "washed-out", "final", "round", "on", "sunday", "have", "become", "meteorological", "footnote", ",", "the", "1961", "masters", "will", "be", "remembered", "as", "the", "scene", "of", "the", "mano", "a", "mano", "between", "arnold_palmer", "and", "gary_player", "."]
+    oewn2026_key: [[13, "oewn-02632685-v"]]
+    paragraph: '10'
+    pos: ["NNP", "IN", "DT", "JJ", "NN", "CC", "DT", "JJ", "JJ", "NN", "VB", "NNP", "VBP", "VBN", "JJ", "NNS", ",", "DT", "CD", "NNP", "MD", "VB", "JJ", "IN", "DT", "NN", "IN", "DT", "NN", "DT", "NN", "IN", "NNP", "CC", "NNP", "."]
+    text: ' Long after the erratic climate and the washed-out final round on Sunday have become
+  meteorological footnotes, the 1961 Masters will be remembered as the scene of the
+  mano a mano between Arnold_Palmer and Gary_Player.'
+    tokens: [[1, 5], [6, 11], [12, 15], [16, 23], [24, 31], [32, 35], [36, 39], [40, 50], [51, 56], [57, 62], [63, 65], [66, 72], [73, 77], [78, 84], [85, 99], [100, 109], [109, 110], [111, 114], [115, 119], [120, 127], [128, 132], [133, 135], [136, 146], [147, 149], [150, 153], [154, 159], [160, 162], [163, 166], [167, 171], [172, 173], [174, 178], [179, 186], [187, 200], [201, 204], [205, 216], [216, 217]]
+    wn16_key: [[13, "become%2:42:01::"]]
+    wn30_key: [[13, "become%2:42:01::"]]
+11L3:
+    lemmas: ["Unlike", "most", "such", "sport", "rivalry", ",", "it", "appear", "to", "have", "develop", "almost", "spontaneously", ",", "although", "this", "be", "not", "exactly", "the", "case", "."]
+    oewn2026_key: [[7, "oewn-02137900-v"], [10, "oewn-02630344-v"], [16, "oewn-02609706-v"]]
+    paragraph: '10'
+    pos: ["IN", "JJS", "JJ", "NNS", "NNS", ",", "PRP", "VBD", "TO", "VB", "VBN", "RB", "RB", ",", "IN", "DT", "VBD", "RB", "RB", "DT", "NN", "."]
+    text: ' Unlike most such sports rivalries, it appeared to have developed almost spontaneously,
+  although this was not exactly the case.
+
+  '
+    tokens: [[1, 7], [8, 12], [13, 17], [18, 24], [25, 34], [34, 35], [36, 38], [39, 47], [48, 50], [51, 55], [56, 65], [66, 72], [73, 86], [86, 87], [88, 96], [97, 101], [102, 105], [106, 109], [110, 117], [118, 121], [122, 126], [126, 127]]
+    wn16_key: [[7, "appear%2:39:00::"], [10, "develop%2:42:00::"], [16, "be%2:42:00::"]]
+    wn30_key: [[7, "appear%2:39:00::"], [10, "develop%2:42:00::"], [16, "be%2:42:00::"]]
+yVo9:
+    lemmas: ["When", "the", "winter", "tour", "begin", "at", "los_angeles", "last", "january", "there", "be", "no", "one", "in_sight", "to", "challenge", "palmer", "'s", "towering", "prestige", "."]
+    oewn2026_key: [[4, "oewn-00346415-v"], [10, "oewn-02703567-v"], [15, "oewn-00870790-v"]]
+    paragraph: '11'
+    pos: ["WRB", "DT", "NN", "NN", "VBD", "IN", "NN", "JJ", "NNP", "EX", "VBD", "DT", "NN", "JJ", "TO", "VB", "NNP", "POS", "JJ", "NN", "."]
+    text: ' When the winter tour began at Los_Angeles last January there was no one in_sight
+  to challenge Palmer''s towering prestige.'
+    tokens: [[1, 5], [6, 9], [10, 16], [17, 21], [22, 27], [28, 30], [31, 42], [43, 47], [48, 55], [56, 61], [62, 65], [66, 68], [69, 72], [73, 81], [82, 84], [85, 94], [95, 101], [101, 103], [104, 112], [113, 121], [121, 122]]
+    wn16_key: [[4, "begin%2:30:00::"], [10, "be%2:42:08::"], [15, "challenge%2:32:01::"]]
+    wn30_key: [[4, "begin%2:30:00::"], [10, "be%2:42:08::"], [15, "challenge%2:32:01::"]]
+PMWF:
+    lemmas: ["As", "if", "to", "confirm", "his", "stature", ",", "he", "quickly", "win", "three", "of", "the", "first", "eight", "tournament", "."]
+    oewn2026_key: [[3, "oewn-00667804-v"], [9, "oewn-01102556-v"]]
+    paragraph: '11'
+    pos: ["IN", "IN", "TO", "VB", "PRP$", "NN", ",", "PRP", "RB", "VBD", "CD", "IN", "DT", "JJ", "CD", "NNS", "."]
+    text: ' As if to confirm his stature, he quickly won three of the first eight tournaments.'
+    tokens: [[1, 3], [4, 6], [7, 9], [10, 17], [18, 21], [22, 29], [29, 30], [31, 33], [34, 41], [42, 45], [46, 51], [52, 54], [55, 58], [59, 64], [65, 70], [71, 82], [82, 83]]
+    wn16_key: [[3, "confirm%2:31:00::"], [9, "win%2:33:00::"]]
+    wn30_key: [[3, "confirm%2:31:00::"], [9, "win%2:33:00::"]]
+r07s:
+    lemmas: ["player", "win", "only", "one", "."]
+    oewn2026_key: [[1, "oewn-01102556-v"]]
+    paragraph: '11'
+    pos: ["NNP", "VBD", "RB", "CD", "."]
+    text: ' Player won only one.'
+    tokens: [[1, 7], [8, 11], [12, 16], [17, 20], [20, 21]]
+    wn16_key: [[1, "win%2:33:00::"]]
+    wn30_key: [[1, "win%2:33:00::"]]
+kJ88:
+    lemmas: ["But", "as", "the", "tour", "reach", "pensacola", "a", "month", "ago", ",", "player", "be", "lead", "palmer", "in", "official", "winnings", "by", "a_few", "hundred", "dollar", ",", "and", "the", "rest", "of", "the", "field", "be", "somewhere", "off", "in", "nowhere", "."]
+    oewn2026_key: [[4, "oewn-02010848-v"], [12, "oewn-02693227-v"], [28, "oewn-02610777-v"]]
+    paragraph: '11'
+    pos: ["CC", "IN", "DT", "NN", "VBD", "NNP", "DT", "NN", "RB", ",", "NNP", "VBD", "VBG", "NNP", "IN", "NN", "NNS", "IN", "JJ", "CD", "NNS", ",", "CC", "DT", "NN", "IN", "DT", "NN", "VBD", "RB", "IN", "IN", "RB", "."]
+    text: ' But as the tour reached Pensacola a month ago, Player was leading Palmer in official
+  winnings by a_few hundred dollars, and the rest of the field was somewhere off in
+  nowhere.'
+    tokens: [[1, 4], [5, 7], [8, 11], [12, 16], [17, 24], [25, 34], [35, 36], [37, 42], [43, 46], [46, 47], [48, 54], [55, 58], [59, 66], [67, 73], [74, 76], [77, 85], [86, 94], [95, 97], [98, 103], [104, 111], [112, 119], [119, 120], [121, 124], [125, 128], [129, 133], [134, 136], [137, 140], [141, 146], [147, 150], [151, 160], [161, 164], [165, 167], [168, 175], [175, 176]]
+    wn16_key: [[4, "reach%2:38:00::"], [12, "lead%2:42:01::"], [28, "be%2:42:03::"]]
+    wn30_key: [[4, "reach%2:38:00::"], [12, "lead%2:42:01::"], [28, "be%2:42:03::"]]
+S6TV:
+    lemmas: ["On", "the", "final", "round", "at", "pensacola", ",", "the", "luck", "of", "the", "draw", "pair", "palmer", "and", "player", "in", "the", "same", "threesome", "and", ",", "although", "it", "be", "far", "from", "obvious", "at_the_time", ",", "the", "gallery", "be", "treat", "to", "the", "first", "chapter", "of_what", "promise", "to", "be", "one", "of", "the_most", "exciting", "duel", "in", "sport", "for", "a", "long_time", "to", "come", "."]
+    oewn2026_key: [[12, "oewn-02496079-v"], [24, "oewn-02610777-v"], [33, "oewn-02266449-v"], [39, "oewn-00885532-v"], [41, "oewn-02450790-v"], [53, "oewn-00342572-v"]]
+    paragraph: '11'
+    pos: ["IN", "DT", "JJ", "NN", "IN", "NNP", ",", "DT", "NN", "IN", "DT", "NN", "VBD", "NNP", "CC", "NNP", "IN", "DT", "JJ", "NN", "CC", ",", "IN", "PRP", "VBD", "RB", "IN", "JJ", "RB", ",", "DT", "NN", "VB", "VBN", "VB", "DT", "JJ", "NN", "RB", "VBZ", "TO", "VB", "CD", "IN", "RB", "JJ", "NNS", "IN", "NN", "IN", "DT", "NN", "TO", "VB", "."]
+    text: ' On the final round at Pensacola, the luck of the draw paired Palmer and Player in
+  the same threesome and, although it was far from obvious at_the_time, the gallery
+  was treated to the first chapter of_what promises to be one of the_most exciting
+  duels in sport for a long_time to come.
+
+  '
+    tokens: [[1, 3], [4, 7], [8, 13], [14, 19], [20, 22], [23, 32], [32, 33], [34, 37], [38, 42], [43, 45], [46, 49], [50, 54], [55, 61], [62, 68], [69, 72], [73, 79], [80, 82], [83, 86], [87, 91], [92, 101], [102, 105], [105, 106], [107, 115], [116, 118], [119, 122], [123, 126], [127, 131], [132, 139], [140, 151], [151, 152], [153, 156], [157, 164], [165, 168], [169, 176], [177, 179], [180, 183], [184, 189], [190, 197], [198, 205], [206, 214], [215, 217], [218, 220], [221, 224], [225, 227], [228, 236], [237, 245], [246, 251], [252, 254], [255, 260], [261, 264], [265, 266], [267, 276], [277, 279], [280, 284], [284, 285]]
+    wn16_key: [[12, "pair%2:41:00::"], [24, "be%2:42:03::"], [33, "treat%2:40:00::"], [39, "promise%2:32:00::"], [41, "be%2:41:00::"], [53, "come%2:30:01::"]]
+    wn30_key: [[12, "pair%2:41:00::"], [24, "be%2:42:03::"], [33, "treat%2:40:00::"], [39, "promise%2:32:00::"], [41, "be%2:41:00::"], [53, "come%2:30:01::"]]
+3/FY:
+    lemmas: ["on_that", "final", "sunday", "at", "pensacola", "neither", "palmer", "nor", "player", "be", "lead", "the", "tournament", "and", ",", "as", "it", "turn_out", ",", "neither", "win", "it", "."]
+    oewn2026_key: [[10, "oewn-02693227-v"], [17, "oewn-02640214-v"], [20, "oewn-01102556-v"]]
+    paragraph: '12'
+    pos: ["RB", "JJ", "NNP", "IN", "NNP", "DT", "NNP", "CC", "NNP", "VBD", "VBG", "DT", "NN", "CC", ",", "IN", "PRP", "VB", ",", "DT", "VBD", "PRP", "."]
+    text: ' On_that final Sunday at Pensacola neither Palmer nor Player was leading the tournament
+  and, as it turned_out, neither won it.'
+    tokens: [[1, 8], [9, 14], [15, 21], [22, 24], [25, 34], [35, 42], [43, 49], [50, 53], [54, 60], [61, 64], [65, 72], [73, 76], [77, 87], [88, 91], [91, 92], [93, 95], [96, 98], [99, 109], [109, 110], [111, 118], [119, 122], [123, 125], [125, 126]]
+    wn16_key: [[10, "lead%2:42:01::"], [17, "turn_out%2:42:01::"], [20, "win%2:33:00::"]]
+    wn30_key: [[10, "lead%2:42:01::"], [17, "turn_out%2:42:01::"], [20, "win%2:33:00::"]]
+4iPY:
+    lemmas: ["But", "whichever", "of", "these", "two", "finish", "ahead", "of", "the", "other", "would", "be", "the", "undisputed", "financial", "leader", "of", "the", "tour", "."]
+    oewn2026_key: [[5, "oewn-02615799-v"], [11, "oewn-02703567-v"]]
+    paragraph: '12'
+    pos: ["CC", "WDT", "IN", "DT", "CD", "VBD", "RB", "IN", "DT", "NN", "MD", "VB", "DT", "JJ", "JJ", "NN", "IN", "DT", "NN", "."]
+    text: ' But whichever of these two finished ahead of the other would be the undisputed financial
+  leader of the tour.'
+    tokens: [[1, 4], [5, 14], [15, 17], [18, 23], [24, 27], [28, 36], [37, 42], [43, 45], [46, 49], [50, 55], [56, 61], [62, 64], [65, 68], [69, 79], [80, 89], [90, 96], [97, 99], [100, 103], [104, 108], [108, 109]]
+    wn16_key: [[5, "finish%2:42:00::"], [11, "be%2:42:08::"]]
+    wn30_key: [[5, "finish%2:42:00::"], [11, "be%2:42:08::"]]
+PCcJ:
+    lemmas: ["player", "immediately", "prove", "he", "be", "not", "in_the_least", "awe", "by", "the", "dramatic", "proximity", "of", "palmer", "."]
+    oewn2026_key: [[2, "oewn-00666706-v"], [7, "oewn-01783561-v"]]
+    paragraph: '12'
+    pos: ["NNP", "RB", "VBD", "PRP", "VBD", "RB", "RB", "VB", "IN", "DT", "JJ", "NN", "IN", "NNP", "."]
+    text: ' Player immediately proved he was not in_the_least awed by the dramatic proximity
+  of Palmer.'
+    tokens: [[1, 7], [8, 19], [20, 26], [27, 29], [30, 33], [34, 37], [38, 50], [51, 55], [56, 58], [59, 62], [63, 71], [72, 81], [82, 84], [85, 91], [91, 92]]
+    wn16_key: [[2, "prove%2:31:00::"], [7, "awe%2:37:00::"]]
+    wn30_key: [[2, "prove%2:31:00::"], [7, "awe%2:37:00::"]]
+8pRZ:
+    lemmas: ["He", "outplay", "palmer", "all_around", "the", "course", "and", "finish", "with", "a", "tremendous", "65", "to", "palmer", "'s", "71", "."]
+    oewn2026_key: [[1, "oewn-01157423-v"], [7, "oewn-02615799-v"]]
+    paragraph: '12'
+    pos: ["PRP", "VBD", "NNP", "RB", "DT", "NN", "CC", "VBD", "IN", "DT", "JJ", "CD", "TO", "NNP", "POS", "CD", "."]
+    text: ' He outplayed Palmer all_around the course and finished with a tremendous 65 to Palmer''s
+  71.'
+    tokens: [[1, 3], [4, 13], [14, 20], [21, 31], [32, 35], [36, 42], [43, 46], [47, 55], [56, 60], [61, 62], [63, 73], [74, 76], [77, 79], [80, 86], [86, 88], [89, 91], [91, 92]]
+    wn16_key: [[1, "outplay%2:33:00::"], [7, "finish%2:42:00::"]]
+    wn30_key: [[1, "outplay%2:33:00::"], [7, "finish%2:42:00::"]]
+c3f1:
+    lemmas: ["thereafter", ",", "until", "the", "masters", ",", "player", "gradually", "increase", "his", "lead", "over", "palmer", "in", "winnings", "and", "add", "one", "more", "tournament", "victory", "at", "miami", "."]
+    oewn2026_key: [[8, "oewn-00156409-v"], [16, "oewn-00182551-v"]]
+    paragraph: '12'
+    pos: ["RB", ",", "IN", "DT", "NNP", ",", "NNP", "RB", "VBD", "PRP$", "NN", "IN", "NNP", "IN", "NNS", "CC", "VBD", "CD", "JJR", "NN", "NN", "IN", "NNP", "."]
+    text: ' Thereafter, until the Masters, Player gradually increased his lead over Palmer in
+  winnings and added one more tournament victory at Miami.'
+    tokens: [[1, 11], [11, 12], [13, 18], [19, 22], [23, 30], [30, 31], [32, 38], [39, 48], [49, 58], [59, 62], [63, 67], [68, 72], [73, 79], [80, 82], [83, 91], [92, 95], [96, 101], [102, 105], [106, 110], [111, 121], [122, 129], [130, 132], [133, 138], [138, 139]]
+    wn16_key: [[8, "increase%2:30:00::"], [16, "add%2:30:00::"]]
+    wn30_key: [[8, "increase%2:30:00::"], [16, "add%2:30:00::"]]
+fkGj:
+    lemmas: ["When", "they", "reach", "augusta", "last", "week", ",", "together", "they", "have", "win", "five", "of", "the", "13", "tournament", "to_date", "."]
+    oewn2026_key: [[2, "oewn-02024442-v"], [10, "oewn-01102556-v"]]
+    paragraph: '12'
+    pos: ["WRB", "PRP", "VBD", "NNP", "JJ", "NN", ",", "RB", "PRP", "VBD", "VBN", "CD", "IN", "DT", "CD", "NNS", "RB", "."]
+    text: ' When they reached Augusta last week, together they had won five of the 13 tournaments
+  to_date.
+
+  '
+    tokens: [[1, 5], [6, 10], [11, 18], [19, 26], [27, 31], [32, 36], [36, 37], [38, 46], [47, 51], [52, 55], [56, 59], [60, 64], [65, 67], [68, 71], [72, 74], [75, 86], [87, 94], [94, 95]]
+    wn16_key: [[2, "reach%2:38:01::"], [10, "win%2:33:00::"]]
+    wn30_key: [[2, "reach%2:38:01::"], [10, "win%2:33:00::"]]
+rsYD:
+    lemmas: ["On", "thursday", ",", "the", "first", "day", "of", "the", "masters", ",", "the", "contest", "between", "palmer", "and", "player", "develop", "instantly", "."]
+    oewn2026_key: [[16, "oewn-02630344-v"]]
+    paragraph: '13'
+    pos: ["IN", "NNP", ",", "DT", "JJ", "NN", "IN", "DT", "NNP", ",", "DT", "NN", "IN", "NNP", "CC", "NNP", "VBD", "RB", "."]
+    text: ' On Thursday, the first day of the Masters, the contest between Palmer and Player
+  developed instantly.'
+    tokens: [[1, 3], [4, 12], [12, 13], [14, 17], [18, 23], [24, 27], [28, 30], [31, 34], [35, 42], [42, 43], [44, 47], [48, 55], [56, 63], [64, 70], [71, 74], [75, 81], [82, 91], [92, 101], [101, 102]]
+    wn16_key: [[16, "develop%2:42:00::"]]
+    wn30_key: [[16, "develop%2:42:00::"]]
+gGqX:
+    lemmas: ["It", "be", "a", "dismal", ",", "drizzly", "day", "but", "a", "good", "one", "on_which", "to", "score", "over", "the", "augusta_national", "course", "."]
+    oewn2026_key: [[1, "oewn-02450790-v"], [13, "oewn-01114241-v"]]
+    paragraph: '13'
+    pos: ["PRP", "VBD", "DT", "JJ", ",", "JJ", "NN", "CC", "DT", "JJ", "CD", "RB", "TO", "VB", "IN", "DT", "NNP", "NN", "."]
+    text: ' It was a dismal, drizzly day but a good one on_which to score over the Augusta_National
+  course.'
+    tokens: [[1, 3], [4, 7], [8, 9], [10, 16], [16, 17], [18, 25], [26, 29], [30, 33], [34, 35], [36, 40], [41, 44], [45, 53], [54, 56], [57, 62], [63, 67], [68, 71], [72, 88], [89, 95], [95, 96]]
+    wn16_key: [[1, "be%2:41:00::"], [13, "score%2:33:00::"]]
+    wn30_key: [[1, "be%2:41:00::"], [13, "score%2:33:00::"]]
+4Hqw:
+    lemmas: ["The", "usually", "skiddy", "greens", "be", "moist", "and", "soft", ",", "so", "the", "golfer", "be", "able", "to", "strike", "their", "approach_shot", "boldly", "at", "the", "flag-stick", "and", "putt", "firmly", "toward", "the", "hole", "without", "too_much", "worry", "about", "the", "consequence", "."]
+    oewn2026_key: [[4, "oewn-02610777-v"], [12, "oewn-02610777-v"], [15, "oewn-01412877-v"], [23, "oewn-01406194-v"]]
+    paragraph: '13'
+    pos: ["DT", "RB", "JJ", "NNS", "VBD", "JJ", "CC", "JJ", ",", "RB", "DT", "NNS", "VBD", "JJ", "VB", "VB", "PRP$", "NN", "RB", "IN", "DT", "NN", "CC", "VB", "RB", "IN", "DT", "NN", "IN", "RB", "NN", "VB", "DT", "NNS", "."]
+    text: ' The usually skiddy greens were moist and soft, so the golfers were able to strike
+  their approach_shots boldly at the flag-stick and putt firmly toward the hole without
+  too_much worry about the consequences.'
+    tokens: [[1, 4], [5, 12], [13, 19], [20, 26], [27, 31], [32, 37], [38, 41], [42, 46], [46, 47], [48, 50], [51, 54], [55, 62], [63, 67], [68, 72], [73, 75], [76, 82], [83, 88], [89, 103], [104, 110], [111, 113], [114, 117], [118, 128], [129, 132], [133, 137], [138, 144], [145, 151], [152, 155], [156, 160], [161, 168], [169, 177], [178, 183], [184, 189], [190, 193], [194, 206], [206, 207]]
+    wn16_key: [[4, "be%2:42:03::"], [12, "be%2:42:03::"], [15, "strike%2:35:00::"], [23, "putt%2:35:00::"]]
+    wn30_key: [[4, "be%2:42:03::"], [12, "be%2:42:03::"], [15, "strike%2:35:00::"], [23, "putt%2:35:00::"]]
+6whL:
+    lemmas: ["palmer", "'s", "4", "-", "under-par", "68", "get", "him", "off", "to", "an", "early", "lead", ",", "which", "he", "share", "with", "bob_rosburg", "."]
+    oewn2026_key: [[6, "oewn-00120604-v"], [16, "oewn-02724184-v"]]
+    paragraph: '13'
+    pos: ["NNP", "POS", "CD", ":", "JJ", "CD", "VBD", "PRP", "RB", "TO", "DT", "JJ", "NN", ",", "WDT", "PRP", "VBD", "IN", "NNP", "."]
+    text: ' Palmer''s 4 - under-par 68 got him off to an early lead, which he shared with Bob_Rosburg.'
+    tokens: [[1, 7], [7, 9], [10, 11], [12, 13], [14, 23], [24, 26], [27, 30], [31, 34], [35, 38], [39, 41], [42, 44], [45, 50], [51, 55], [55, 56], [57, 62], [63, 65], [66, 72], [73, 77], [78, 89], [89, 90]]
+    wn16_key: [[6, "get%2:30:02::"], [16, "share%2:42:00::"]]
+    wn30_key: [[6, "get%2:30:02::"], [16, "share%2:42:00::"]]
+UpOF:
+    lemmas: ["But", "player", "be", "only", "one", "stroke", "back", ",", "with", "a", "69", "."]
+    oewn2026_key: [[2, "oewn-02610777-v"]]
+    paragraph: '13'
+    pos: ["CC", "NNP", "VBD", "RB", "CD", "NN", "RB", ",", "IN", "DT", "CD", "."]
+    text: ' But Player was only one stroke back, with a 69.
+
+  '
+    tokens: [[1, 4], [5, 11], [12, 15], [16, 20], [21, 24], [25, 31], [32, 36], [36, 37], [38, 42], [43, 44], [45, 47], [47, 48]]
+    wn16_key: [[2, "be%2:42:03::"]]
+    wn30_key: [[2, "be%2:42:03::"]]
+xsJ9:
+    lemmas: ["even_so", ",", "it", "be", "still", "not", "clear", "to", "many", "in", "the", "enormous", "horde", "of", "spectator", "-", "unquestionably", "the", "large", "golf", "crowd", "ever", "-", "that", "this", "tournament", "be", "to", "be", ",", "essentially", ",", "a", "match", "between", "palmer", "and", "player", "."]
+    oewn2026_key: [[3, "oewn-02610777-v"], [26, "oewn-02610777-v"], [28, "oewn-02670846-v"]]
+    paragraph: '14'
+    pos: ["RB", ",", "PRP", "VBD", "RB", "RB", "JJ", "TO", "JJ", "IN", "DT", "JJ", "NN", "IN", "NNS", ":", "RB", "DT", "JJS", "NN", "NN", "RB", ":", "IN", "DT", "NN", "VBD", "TO", "VB", ",", "RB", ",", "DT", "NN", "IN", "NNP", "CC", "NNP", "."]
+    text: ' Even_so, it was still not clear to many in the enormous horde of spectators - unquestionably
+  the largest golf crowd ever - that this tournament was to be, essentially, a match
+  between Palmer and Player.'
+    tokens: [[1, 8], [8, 9], [10, 12], [13, 16], [17, 22], [23, 26], [27, 32], [33, 35], [36, 40], [41, 43], [44, 47], [48, 56], [57, 62], [63, 65], [66, 76], [77, 78], [79, 93], [94, 97], [98, 105], [106, 110], [111, 116], [117, 121], [122, 123], [124, 128], [129, 133], [134, 144], [145, 148], [149, 151], [152, 154], [154, 155], [156, 167], [167, 168], [169, 170], [171, 176], [177, 184], [185, 191], [192, 195], [196, 202], [202, 203]]
+    wn16_key: [[3, "be%2:42:03::"], [26, "be%2:42:03::"], [28, "be%2:42:07::"]]
+    wn30_key: [[3, "be%2:42:03::"], [26, "be%2:42:03::"], [28, "be%2:42:07::"]]
+dpmu:
+    lemmas: ["A_lot_of", "people", "be", "still", "think_about", "jack_nicklaus", ",", "the", "spectacular", "young", "amateur", ",", "who", "have", "a", "70", ";", "or", "ken_venturi", ",", "who", "have", "a", "somewhat", "shaky", "72", "but", "be", "bound_to", "do", "good", ";", "or", "Rosburg", ",", "whose", "accurate", "short", "game", "and", "supersensitive", "putter", "can", "overcome", "so", "many_of", "augusta", "'s", "treachery", ";", "or", "even", "old", "byron_nelson", ",", "whose", "excellent", "71", "make", "one", "wonder", "if", "he", "have", "solve", "the", "geriatric", "aspect", "of", "golf", "."]
+    oewn2026_key: [[4, "oewn-00736371-v"], [13, "oewn-02360592-v"], [21, "oewn-02360592-v"], [27, "oewn-02610777-v"], [43, "oewn-01111038-v"], [58, "oewn-01649617-v"], [60, "oewn-00731363-v"], [64, "oewn-00636568-v"]]
+    paragraph: '14'
+    pos: ["JJ", "NNS", "VBD", "RB", "VB", "NNP", ",", "DT", "JJ", "JJ", "NN", ",", "WP", "VBD", "DT", "CD", ":", "CC", "NNP", ",", "WP", "VBD", "DT", "RB", "JJ", "CD", "CC", "VBD", "JJ", "VBP", "JJR", ":", "CC", "NNP", ",", "WP$", "JJ", "JJ", "NN", "CC", "JJ", "NN", "MD", "VB", "RB", "JJ", "NNP", "POS", "NNS", ":", "CC", "RB", "JJ", "NNP", ",", "WP$", "JJ", "CD", "VBD", "CD", "VB", "IN", "PRP", "VBD", "VBN", "DT", "JJ", "NNS", "IN", "NN", "."]
+    text: ' A_lot_of people were still thinking_about Jack_Nicklaus, the spectacular young amateur,
+  who had a 70; or Ken_Venturi, who had a somewhat shaky 72 but was bound_to do better;
+  or Rosburg, whose accurate short game and supersensitive putter can overcome so
+  many_of Augusta''s treacheries; or even old Byron_Nelson, whose excellent 71 made
+  one wonder if he had solved the geriatric aspects of golf.'
+    tokens: [[1, 9], [10, 16], [17, 21], [22, 27], [28, 42], [43, 56], [56, 57], [58, 61], [62, 73], [74, 79], [80, 87], [87, 88], [89, 92], [93, 96], [97, 98], [99, 101], [101, 102], [103, 105], [106, 117], [117, 118], [119, 122], [123, 126], [127, 128], [129, 137], [138, 143], [144, 146], [147, 150], [151, 154], [155, 163], [164, 166], [167, 173], [173, 174], [175, 177], [178, 185], [185, 186], [187, 192], [193, 201], [202, 207], [208, 212], [213, 216], [217, 231], [232, 238], [239, 242], [243, 251], [252, 254], [255, 262], [263, 270], [270, 272], [273, 284], [284, 285], [286, 288], [289, 293], [294, 297], [298, 310], [310, 311], [312, 317], [318, 327], [328, 330], [331, 335], [336, 339], [340, 346], [347, 349], [350, 352], [353, 356], [357, 363], [364, 367], [368, 377], [378, 385], [386, 388], [389, 393], [393, 394]]
+    wn16_key: [[4, "think_about%2:31:05::"], [13, "have%2:40:02::"], [21, "have%2:40:02::"], [27, "be%2:42:03::"], [43, "overcome%2:33:01::"], [58, "make%2:36:15::"], [60, "wonder%2:31:00::"], [64, "solve%2:31:00::"]]
+    wn30_key: [[4, "think_about%2:31:05::"], [13, "have%2:40:02::"], [21, "have%2:40:02::"], [27, "be%2:42:03::"], [43, "overcome%2:33:01::"], [58, "make%2:36:15::"], [60, "wonder%2:31:00::"], [64, "solve%2:31:00::"]]
+yNHg:
+    lemmas: ["(", "On", "thursday", "nobody", "except", "Charlie_Coe", "be", "think_of", "Charlie_Coe", ".", ")"]
+    oewn2026_key: [[7, "oewn-00732037-v"]]
+    paragraph: '14'
+    pos: ["NNP", "IN", "NNP", "NN", "IN", "NNP", "VBD", "VB", "NNP", ".", "NN"]
+    text: ' (On Thursday nobody except Charlie_Coe was thinking_of Charlie_Coe.)
+
+  '
+    tokens: [[1, 2], [2, 4], [5, 13], [14, 20], [21, 27], [28, 39], [40, 43], [44, 55], [56, 67], [67, 68], [68, 69]]
+    wn16_key: [[7, "think_of%2:31:02::"]]
+    wn30_key: [[7, "think_of%2:31:02::"]]
+jirY:
+    lemmas: ["On", "friday", ",", "a", "day", "as", "cloudless", "and", "lovely", "as", "thursday", "have", "be", "gray", "and", "ugly", ",", "the", "plot", "of", "the", "tournament", "come", "clearly", "into", "focus", "."]
+    oewn2026_key: [[12, "oewn-02610777-v"], [22, "oewn-00342572-v"]]
+    paragraph: '15'
+    pos: ["IN", "NNP", ",", "DT", "NN", "IN", "JJ", "CC", "JJ", "IN", "NNP", "VBD", "VBN", "JJ", "CC", "JJ", ",", "DT", "NN", "IN", "DT", "NN", "VBD", "RB", "IN", "NN", "."]
+    text: ' On Friday, a day as cloudless and lovely as Thursday had been gray and ugly, the
+  plot of the tournament came clearly into focus.'
+    tokens: [[1, 3], [4, 10], [10, 11], [12, 13], [14, 17], [18, 20], [21, 30], [31, 34], [35, 41], [42, 44], [45, 53], [54, 57], [58, 62], [63, 67], [68, 71], [72, 76], [76, 77], [78, 81], [82, 86], [87, 89], [90, 93], [94, 104], [105, 109], [110, 117], [118, 122], [123, 128], [128, 129]]
+    wn16_key: [[12, "be%2:42:03::"], [22, "come%2:30:01::"]]
+    wn30_key: [[12, "be%2:42:03::"], [22, "come%2:30:01::"]]
+pMyM:
+    lemmas: ["Rosburg", "have", "start", "early", "in", "the", "day", ",", "and", "by", "the", "time", "palmer", "and", "player", "be", "on", "the", "course", "-", "separate", ",", "as", "they", "be", "destine", "to", "be", "for", "the", "rest", "of", "the", "weekend", ",", "by", "about", "half", "an", "hour", "-", "they", "could", "see", "on", "the", "numerous", "scoreboard", "spot", "around", "the", "course", "that", "Rosburg", ",", "who", "end", "with", "a", "73", ",", "be", "not", "have", "a", "good_day", "."]
+    oewn2026_key: [[2, "oewn-02614382-v"], [15, "oewn-02661230-v"], [20, "oewn-02035003-v"], [25, "oewn-00748465-v"], [27, "oewn-02610777-v"], [43, "oewn-02133754-v"], [48, "oewn-02158742-v"], [56, "oewn-02615799-v"], [63, "oewn-02112480-v"]]
+    paragraph: '15'
+    pos: ["NNP", "VBD", "VBN", "JJ", "IN", "DT", "NN", ",", "CC", "IN", "DT", "NN", "NNP", "CC", "NNP", "VBD", "RB", "DT", "NN", ":", "VBN", ",", "IN", "PRP", "VBD", "VBN", "TO", "VB", "IN", "DT", "NN", "IN", "DT", "NN", ",", "IN", "IN", "NN", "DT", "NN", ":", "PRP", "MD", "VB", "IN", "DT", "JJ", "NNS", "VBN", "IN", "DT", "NN", "IN", "NNP", ",", "WP", "VBD", "IN", "DT", "CD", ",", "VBD", "RB", "VBG", "DT", "NN", "."]
+    text: ' Rosburg had started early in the day, and by the time Palmer and Player were on
+  the course - separated, as they were destined to be for the rest of the weekend,
+  by about half an hour - they could see on the numerous scoreboards spotted around
+  the course that Rosburg, who ended with a 73, was not having a good_day.
+
+  '
+    tokens: [[1, 8], [9, 12], [13, 20], [21, 26], [27, 29], [30, 33], [34, 37], [37, 38], [39, 42], [43, 45], [46, 49], [50, 54], [55, 61], [62, 65], [66, 72], [73, 77], [78, 80], [81, 84], [85, 91], [92, 93], [94, 103], [103, 104], [105, 107], [108, 112], [113, 117], [118, 126], [127, 129], [130, 132], [133, 136], [137, 140], [141, 145], [146, 148], [149, 152], [153, 160], [160, 161], [162, 164], [165, 170], [171, 175], [176, 178], [179, 183], [184, 185], [186, 190], [191, 196], [197, 200], [201, 203], [204, 207], [208, 216], [217, 228], [229, 236], [237, 243], [244, 247], [248, 254], [255, 259], [260, 267], [267, 268], [269, 272], [273, 278], [279, 283], [284, 285], [286, 288], [288, 289], [290, 293], [294, 297], [298, 304], [305, 306], [307, 315], [315, 316]]
+    wn16_key: [[2, "start%2:42:00::"], [15, "be%2:42:05::"], [20, "separate%2:38:01::"], [25, "destine%2:32:00::"], [27, "be%2:42:03::"], [43, "see%2:39:00::"], [48, "spot%2:39:00::"], [56, "end%2:42:00::"], [63, "have%2:39:06::"]]
+    wn30_key: [[2, "start%2:42:00::"], [15, "be%2:42:05::"], [20, "separate%2:38:01::"], [25, "destine%2:32:00::"], [27, "be%2:42:03::"], [43, "see%2:39:00::"], [48, "spot%2:39:00::"], [56, "end%2:42:00::"], [63, "have%2:39:06::"]]
+ld7E:
+    lemmas: ["As", "player", "begin", "his", "second", "round", "in", "a", "twosome", "with", "amateur", "bill_hyndman", ",", "his", "share", "of", "the", "gallery", "be", "not", "conspicuously", "large", "for", "a", "contender", "."]
+    oewn2026_key: [[18, "oewn-02610777-v"]]
+    paragraph: '16'
+    pos: ["IN", "NNP", "VB", "PRP$", "JJ", "NN", "IN", "DT", "NN", "IN", "NN", "NNP", ",", "PRP$", "NN", "IN", "DT", "NN", "VBD", "RB", "RB", "JJ", "IN", "DT", "NN", "."]
+    text: ' As Player began his second round in a twosome with amateur Bill_Hyndman, his share
+  of the gallery was not conspicuously large for a contender.'
+    tokens: [[1, 3], [4, 10], [11, 16], [17, 20], [21, 27], [28, 33], [34, 36], [37, 38], [39, 46], [47, 51], [52, 59], [60, 72], [72, 73], [74, 77], [78, 83], [84, 86], [87, 90], [91, 98], [99, 102], [103, 106], [107, 120], [121, 126], [127, 130], [131, 132], [133, 142], [142, 143]]
+    wn16_key: [[2, "begin%2:36:00::"], [18, "be%2:42:03::"]]
+    wn30_key: [[18, "be%2:42:03::"]]
+27bn:
+    lemmas: ["player", "begin", "with", "a", "birdie", "on", "the", "first", "hole", ",", "add", "five", "straight", "par", "and_then", "another", "birdie", "at", "the", "9", "th", "."]
+    oewn2026_key: [[10, "oewn-00182551-v"]]
+    paragraph: '16'
+    pos: ["NNP", "VB", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", ",", "VBD", "CD", "JJ", "NNS", "RB", "DT", "NN", "IN", "DT", "CD", "DT", "."]
+    text: ' Player began with a birdie on the first hole, added five straight pars and_then
+  another birdie at the 9 th.'
+    tokens: [[1, 7], [8, 13], [14, 18], [19, 20], [21, 27], [28, 30], [31, 34], [35, 40], [41, 45], [45, 46], [47, 52], [53, 57], [58, 66], [67, 71], [72, 80], [81, 88], [89, 95], [96, 98], [99, 102], [103, 104], [105, 107], [107, 108]]
+    wn16_key: [[1, "begin%2:36:00::"], [10, "add%2:30:00::"]]
+    wn30_key: [[10, "add%2:30:00::"]]
+qJTQ:
+    lemmas: ["On", "the", "back", "nine", "he", "begin", "to", "acquire", "the", "tidal_wave", "of", "a", "gallery", "that", "stay", "with", "him", "the", "rest", "of", "the", "tournament", "."]
+    oewn2026_key: [[5, "oewn-00346415-v"], [7, "oewn-02215637-v"], [14, "oewn-02733337-v"]]
+    paragraph: '16'
+    pos: ["IN", "DT", "RB", "CD", "PRP", "VBD", "TO", "VB", "DT", "NN", "IN", "DT", "NN", "WDT", "VBD", "IN", "PRP", "DT", "NN", "IN", "DT", "NN", "."]
+    text: ' On the back nine he began to acquire the tidal_wave of a gallery that stayed with
+  him the rest of the tournament.'
+    tokens: [[1, 3], [4, 7], [8, 12], [13, 17], [18, 20], [21, 26], [27, 29], [30, 37], [38, 41], [42, 52], [53, 55], [56, 57], [58, 65], [66, 70], [71, 77], [78, 82], [83, 86], [87, 90], [91, 95], [96, 98], [99, 102], [103, 113], [113, 114]]
+    wn16_key: [[5, "begin%2:30:00::"], [7, "acquire%2:40:00::"], [14, "stay%2:42:02::"]]
+    wn30_key: [[5, "begin%2:30:00::"], [7, "acquire%2:40:00::"], [14, "stay%2:42:02::"]]
+r5hb:
+    lemmas: ["He", "birdie", "the", "13", "th", ",", "the", "15", "th", "and", "the", "18", "th", "-", "five", "birdie", ",", "one", "bogey", "and", "12", "par", "for", "a", "68", "."]
+    oewn2026_key: [[1, "oewn-01601428-v"]]
+    paragraph: '16'
+    pos: ["PRP", "VBD", "DT", "CD", "DT", ",", "DT", "CD", "DT", "CC", "DT", "CD", "DT", ":", "CD", "NNS", ",", "CD", "NN", "CC", "CD", "NNS", "IN", "DT", "CD", "."]
+    text: ' He birdied the 13 th, the 15 th and the 18 th - five birdies, one bogey and 12 pars
+  for a 68.
+
+  '
+    tokens: [[1, 3], [4, 11], [12, 15], [16, 18], [19, 21], [21, 22], [23, 26], [27, 29], [30, 32], [33, 36], [37, 40], [41, 43], [44, 46], [47, 48], [49, 53], [54, 61], [61, 62], [63, 66], [67, 72], [73, 76], [77, 79], [80, 84], [85, 88], [89, 90], [91, 93], [93, 94]]
+    wn16_key: [[1, "birdie%2:35:00::"]]
+    wn30_key: [[1, "birdie%2:35:00::"]]
+9iDU:
+    lemmas: ["start", "half", "an", "hour", "behind", "player", "in", "company", "with", "british", "open_champion_kel_nagle", ",", "palmer", "birdie", "the", "2", "nd", ",", "the", "9", "th", ",", "the", "13", "th", "and", "the", "16", "th", "-", "four", "birdie", ",", "one", "bogey", "and", "13", "par", "for", "a", "69", "."]
+    oewn2026_key: [[0, "oewn-02614382-v"], [13, "oewn-01601428-v"]]
+    paragraph: '17'
+    pos: ["VBG", "NN", "DT", "NN", "IN", "NNP", "IN", "NN", "IN", "JJ", "NNP", ",", "NNP", "VBD", "DT", "CD", "CC", ",", "DT", "CD", "DT", ",", "DT", "CD", "DT", "CC", "DT", "CD", "DT", ":", "CD", "NNS", ",", "CD", "NN", "CC", "CD", "NNS", "IN", "DT", "CD", "."]
+    text: ' Starting half an hour behind Player in company with British Open_Champion_Kel_Nagle,
+  Palmer birdied the 2 nd, the 9 th, the 13 th and the 16 th - four birdies, one bogey
+  and 13 pars for a 69.'
+    tokens: [[1, 9], [10, 14], [15, 17], [18, 22], [23, 29], [30, 36], [37, 39], [40, 47], [48, 52], [53, 60], [61, 84], [84, 85], [86, 92], [93, 100], [101, 104], [105, 106], [107, 109], [109, 110], [111, 114], [115, 116], [117, 119], [119, 120], [121, 124], [125, 127], [128, 130], [131, 134], [135, 138], [139, 141], [142, 144], [145, 146], [147, 151], [152, 159], [159, 160], [161, 164], [165, 170], [171, 174], [175, 177], [178, 182], [183, 186], [187, 188], [189, 191], [191, 192]]
+    wn16_key: [[0, "start%2:42:00::"], [13, "birdie%2:35:00::"]]
+    wn30_key: [[0, "start%2:42:00::"], [13, "birdie%2:35:00::"]]
+GE+8:
+    lemmas: ["The", "roar", "of", "palmer", "'s", "gallery", "as", "he", "sink", "a", "thrilling", "putt", "would", "roll", "out", "across", "the", "parklike", "landscape", "of", "augusta", ",", "only", "to", "be", "answer", "moment", "later", "by", "the", "roar", "of", "player", "'s", "gallery", "for", "a", "similar", "triumph", "."]
+    oewn2026_key: [[8, "oewn-01990883-v"], [13, "oewn-02202528-v"], [24, "oewn-02610777-v"], [25, "oewn-00721514-v"]]
+    paragraph: '17'
+    pos: ["DT", "NN", "IN", "NNP", "POS", "NN", "IN", "PRP", "VBD", "DT", "JJ", "NN", "MD", "VB", "RB", "IN", "DT", "JJ", "NN", "IN", "NNP", ",", "RB", "TO", "VB", "VBN", "NNS", "RB", "IN", "DT", "NN", "IN", "NNP", "POS", "NN", "IN", "DT", "JJ", "NN", "."]
+    text: ' The roar of Palmer''s gallery as he sank a thrilling putt would roll out across
+  the parklike landscape of Augusta, only to be answered moments later by the roar
+  of Player''s gallery for a similar triumph.'
+    tokens: [[1, 4], [5, 9], [10, 12], [13, 19], [19, 21], [22, 29], [30, 32], [33, 35], [36, 40], [41, 42], [43, 52], [53, 57], [58, 63], [64, 68], [69, 72], [73, 79], [80, 83], [84, 92], [93, 102], [103, 105], [106, 113], [113, 114], [115, 119], [120, 122], [123, 125], [126, 134], [135, 142], [143, 148], [149, 151], [152, 155], [156, 160], [161, 163], [164, 170], [170, 172], [173, 180], [181, 184], [185, 186], [187, 194], [195, 202], [202, 203]]
+    wn16_key: [[8, "sink%2:38:02::"], [13, "roll%2:39:00::"], [24, "be%2:42:03::"], [25, "answer%2:31:02::"]]
+    wn30_key: [[8, "sink%2:38:02::"], [13, "roll%2:39:00::"], [24, "be%2:42:03::"], [25, "answer%2:31:02::"]]
+OFYP:
+    lemmas: ["At", "one", "point", "late", "in", "the", "day", ",", "when", "palmer", "be", "line_up", "a", "25", "-", "foot", "putt", "on", "the", "16", "th", ",", "a", "thunderous", "cheer", "from", "the", "direction", "of", "the", "18", "th", "green", "unmistakably", "announce", "that", "player", "have", "birdie", "the", "final", "hole", "."]
+    oewn2026_key: [[11, "oewn-00465234-v"], [34, "oewn-00967903-v"], [38, "oewn-01601428-v"]]
+    paragraph: '17'
+    pos: ["IN", "CD", "NN", "JJ", "IN", "DT", "NN", ",", "WRB", "NNP", "VBD", "VB", "DT", "CD", ":", "NN", "NN", "IN", "DT", "CD", "DT", ",", "DT", "JJ", "NN", "IN", "DT", "NN", "IN", "DT", "CD", "DT", "JJ", "RB", "VBD", "IN", "NNP", "VBD", "VBN", "DT", "JJ", "NN", "."]
+    text: ' At one point late in the day, when Palmer was lining_up a 25 - foot putt on the
+  16 th, a thunderous cheer from the direction of the 18 th green unmistakably announced
+  that Player had birdied the final hole.'
+    tokens: [[1, 3], [4, 7], [8, 13], [14, 18], [19, 21], [22, 25], [26, 29], [29, 30], [31, 35], [36, 42], [43, 46], [47, 56], [57, 58], [59, 61], [62, 63], [64, 68], [69, 73], [74, 76], [77, 80], [81, 83], [84, 86], [86, 87], [88, 89], [90, 100], [101, 106], [107, 111], [112, 115], [116, 125], [126, 128], [129, 132], [133, 135], [136, 138], [139, 144], [145, 157], [158, 167], [168, 172], [173, 179], [180, 183], [184, 191], [192, 195], [196, 201], [202, 206], [206, 207]]
+    wn16_key: [[11, "line_up%2:30:00::"], [34, "announce%2:32:02::"], [38, "birdie%2:35:00::"]]
+    wn30_key: [[11, "line_up%2:30:00::"], [34, "announce%2:32:02::"], [38, "birdie%2:35:00::"]]
+F765:
+    lemmas: ["Without", "so_much", "as", "a", "grimace", "or", "a", "gesture", "to", "show", "that", "he", "have", "notice", "(", "although", "he", "later", "admit", "that", "he", "have", ")", "palmer", "proceed", "to", "sink", "his", "25", "-", "footer", ",", "and", "his", "gallery", "send", "its", "explosive", "vocalization", "roll", "back", "along", "the", "intervening", "fairway", "in_reply", "."]
+    oewn2026_key: [[9, "oewn-02141597-v"], [13, "oewn-02158938-v"], [18, "oewn-00818972-v"], [24, "oewn-00783045-v"], [26, "oewn-01990883-v"], [35, "oewn-01955339-v"], [39, "oewn-02693093-v"]]
+    paragraph: '17'
+    pos: ["IN", "RB", "IN", "DT", "NN", "CC", "DT", "NN", "TO", "VB", "IN", "PRP", "VBD", "VBN", "NN", "IN", "PRP", "RB", "VBD", "IN", "PRP", "VBD", "NNP", "NNP", "VBD", "TO", "VB", "PRP$", "CD", ":", "NN", ",", "CC", "PRP$", "NN", "VBD", "PRP$", "JJ", "NN", "VBG", "RB", "IN", "DT", "JJ", "NNS", "RB", "."]
+    text: ' Without so_much as a grimace or a gesture to show that he had noticed (although
+  he later admitted that he had) Palmer proceeded to sink his 25 - footer, and his
+  gallery sent its explosive vocalization rolling back along the intervening fairways
+  in_reply.
+
+  '
+    tokens: [[1, 8], [9, 16], [17, 19], [20, 21], [22, 29], [30, 32], [33, 34], [35, 42], [43, 45], [46, 50], [51, 55], [56, 58], [59, 62], [63, 70], [71, 72], [72, 80], [81, 83], [84, 89], [90, 98], [99, 103], [104, 106], [107, 110], [110, 111], [112, 118], [119, 128], [129, 131], [132, 136], [137, 140], [141, 143], [144, 145], [146, 152], [152, 153], [154, 157], [158, 161], [162, 169], [170, 174], [175, 178], [179, 188], [189, 201], [202, 209], [210, 214], [215, 220], [221, 224], [225, 236], [237, 245], [246, 254], [254, 255]]
+    wn16_key: [[9, "show%2:39:00::"], [13, "notice%2:39:04::"], [18, "admit%2:32:00::"], [24, "proceed%2:32:00::"], [26, "sink%2:38:02::"], [35, "send%2:38:01::"], [39, "roll%2:42:00::"]]
+    wn30_key: [[9, "show%2:39:00::"], [13, "notice%2:39:04::"], [18, "admit%2:32:00::"], [24, "proceed%2:32:00::"], [26, "sink%2:38:02::"], [35, "send%2:38:01::"], [39, "roll%2:42:00::"]]
+9dOd:
+    lemmas: ["Anyone", "who", "now", "doubt", "that", "a", "personal", "duel", "be", "under_way", "have", "only", "to", "watch", "how", "these", "exceptionally", "gifted", "golfer", "be", "play", "this", "most", "difficult", "golf_course", "."]
+    oewn2026_key: [[3, "oewn-00689196-v"], [8, "oewn-02610777-v"], [13, "oewn-02155378-v"], [20, "oewn-01075360-v"]]
+    paragraph: '18'
+    pos: ["NN", "WP", "RB", "VBD", "IN", "DT", "JJ", "NN", "VBD", "JJ", "VBD", "RB", "TO", "VB", "WRB", "DT", "RB", "JJ", "NNS", "VBD", "VBG", "DT", "RBS", "JJ", "NN", "."]
+    text: ' Anyone who now doubted that a personal duel was under_way had only to watch how
+  these exceptionally gifted golfers were playing this most difficult golf_course.'
+    tokens: [[1, 7], [8, 11], [12, 15], [16, 23], [24, 28], [29, 30], [31, 39], [40, 44], [45, 48], [49, 58], [59, 62], [63, 67], [68, 70], [71, 76], [77, 80], [81, 86], [87, 100], [101, 107], [108, 115], [116, 120], [121, 128], [129, 133], [134, 138], [139, 148], [149, 160], [160, 161]]
+    wn16_key: [[3, "doubt%2:31:00::"], [8, "be%2:42:03::"], [13, "watch%2:39:05::"], [20, "play%2:33:00::"]]
+    wn30_key: [[3, "doubt%2:31:00::"], [8, "be%2:42:03::"], [13, "watch%2:39:05::"], [20, "play%2:33:00::"]]
+grnX:
+    lemmas: ["It", "be", "almost", "axiomatic", "that", "golfer", "who", "dominate", "the", "game", "of", "golf", "for", "any", "period_of_time", "attack", "their", "shot", "with", "a", "vehemence", "border_on", "violence", "."]
+    oewn2026_key: [[1, "oewn-02610777-v"], [7, "oewn-02545000-v"], [15, "oewn-01120867-v"], [21, "oewn-02709812-v"]]
+    paragraph: '18'
+    pos: ["PRP", "VBZ", "RB", "JJ", "IN", "NNS", "WP", "VBP", "DT", "NN", "IN", "NN", "IN", "DT", "NN", "VB", "PRP$", "NNS", "IN", "DT", "NN", "VB", "NN", "."]
+    text: ' It is almost axiomatic that golfers who dominate the game of golf for any period_of_time
+  attack their shots with a vehemence bordering_on violence.'
+    tokens: [[1, 3], [4, 6], [7, 13], [14, 23], [24, 28], [29, 36], [37, 40], [41, 49], [50, 53], [54, 58], [59, 61], [62, 66], [67, 70], [71, 74], [75, 89], [90, 96], [97, 102], [103, 108], [109, 113], [114, 115], [116, 125], [126, 138], [139, 147], [147, 148]]
+    wn16_key: [[1, "be%2:42:03::"], [7, "dominate%2:41:00::"], [15, "attack%2:33:01::"], [21, "border_on%2:42:00::"]]
+    wn30_key: [[1, "be%2:42:03::"], [7, "dominate%2:41:00::"], [15, "attack%2:33:01::"], [21, "border_on%2:42:00::"]]
+ozbe:
+    lemmas: ["The", "bad_luck", "that", "can", "so", "often", "mar", "a", "well-played", "round_of_golf", "be", "simply", "overpower", "and", "obliterate", "by", "the", "contemptuous", "boldness", "of", "these", "champion", "."]
+    oewn2026_key: [[6, "oewn-00478872-v"], [12, "oewn-01112928-v"], [14, "oewn-00479761-v"]]
+    paragraph: '18'
+    pos: ["DT", "NN", "WDT", "MD", "RB", "RB", "VB", "DT", "JJ", "NN", "VBZ", "RB", "VBN", "CC", "VBN", "IN", "DT", "JJ", "NN", "IN", "DT", "NNS", "."]
+    text: ' The bad_luck that can so often mar a well-played round_of_golf is simply overpowered
+  and obliterated by the contemptuous boldness of these champions.'
+    tokens: [[1, 4], [5, 13], [14, 18], [19, 22], [23, 25], [26, 31], [32, 35], [36, 37], [38, 49], [50, 63], [64, 66], [67, 73], [74, 85], [86, 89], [90, 101], [102, 104], [105, 108], [109, 121], [122, 130], [131, 133], [134, 139], [140, 149], [149, 150]]
+    wn16_key: [[6, "mar%2:30:00::"], [12, "overpower%2:33:00::"], [14, "obliterate%2:30:02::"]]
+    wn30_key: [[6, "mar%2:30:00::"], [12, "overpower%2:33:00::"], [14, "obliterate%2:30:02::"]]
+98tR:
+    lemmas: ["bob_jones", "play", "that", "way", "."]
+    oewn2026_key: [[1, "oewn-01075360-v"]]
+    paragraph: '18'
+    pos: ["NNP", "VBD", "IN", "NN", "."]
+    text: ' Bob_Jones played that way.'
+    tokens: [[1, 10], [11, 17], [18, 22], [23, 26], [26, 27]]
+    wn16_key: [[1, "play%2:33:00::"]]
+    wn30_key: [[1, "play%2:33:00::"]]
+mXYc:
+    lemmas: ["byron_nelson", "do", ",", "hogan", "do", "."]
+    oewn2026_key: []
+    paragraph: '18'
+    pos: ["NNP", "VBD", ",", "NNP", "VBD", "."]
+    text: ' Byron_Nelson did, Hogan did.'
+    tokens: [[1, 13], [14, 17], [17, 18], [19, 24], [25, 28], [28, 29]]
+    wn16_key: []
+    wn30_key: []
+FOYM:
+    lemmas: ["And", "last", "week", "at", "the", "master_palmer", "and", "player", "do", "."]
+    oewn2026_key: []
+    paragraph: '18'
+    pos: ["CC", "JJ", "NN", "IN", "DT", "NNP", "CC", "NNP", "VBD", "."]
+    text: ' And last week at the Masters_Palmer and Player did.
+
+  '
+    tokens: [[1, 4], [5, 9], [10, 14], [15, 17], [18, 21], [22, 36], [37, 40], [41, 47], [48, 51], [51, 52]]
+    wn16_key: []
+    wn30_key: []
+BcVf:
+    lemmas: ["As", "the", "third", "round", "of", "the", "tournament", "begin", "on", "saturday", "and", "the", "duel", "be", "resume", "in_earnest", ",", "it", "be", "player", "'s", "superior", "aggressiveness", "that", "carry", "him", "into", "the", "lead", "."]
+    oewn2026_key: [[7, "oewn-02614382-v"], [14, "oewn-00350758-v"], [18, "oewn-02610777-v"], [24, "oewn-01452567-v"]]
+    paragraph: '19'
+    pos: ["IN", "DT", "JJ", "NN", "IN", "DT", "NN", "VBD", "IN", "NNP", "CC", "DT", "NN", "VBD", "VBN", "RB", ",", "PRP", "VBD", "NNP", "POS", "JJ", "NN", "WDT", "VBD", "PRP", "IN", "DT", "NN", "."]
+    text: ' As the third round of the tournament began on Saturday and the duel was resumed
+  in_earnest, it was Player''s superior aggressiveness that carried him into the lead.'
+    tokens: [[1, 3], [4, 7], [8, 13], [14, 19], [20, 22], [23, 26], [27, 37], [38, 43], [44, 46], [47, 55], [56, 59], [60, 63], [64, 68], [69, 72], [73, 80], [81, 91], [91, 92], [93, 95], [96, 99], [100, 106], [106, 108], [109, 117], [118, 132], [133, 137], [138, 145], [146, 149], [150, 154], [155, 158], [159, 163], [163, 164]]
+    wn16_key: [[7, "begin%2:42:00::"], [14, "resume%2:30:00::"], [18, "be%2:42:03::"], [24, "carry%2:35:02::"]]
+    wn30_key: [[7, "begin%2:42:00::"], [14, "resume%2:30:00::"], [18, "be%2:42:03::"], [24, "carry%2:35:02::"]]
+yaF1:
+    lemmas: ["This", "day", "palmer", "have", "start", "first", "."]
+    oewn2026_key: [[4, "oewn-02614382-v"]]
+    paragraph: '19'
+    pos: ["DT", "NN", "NNP", "VBD", "VBN", "JJ", "."]
+    text: ' This day Palmer had started first.'
+    tokens: [[1, 5], [6, 9], [10, 16], [17, 20], [21, 28], [29, 34], [34, 35]]
+    wn16_key: [[4, "start%2:42:00::"]]
+    wn30_key: [[4, "start%2:42:00::"]]
+dFyw:
+    lemmas: ["As", "player", "step", "on", "the", "first", "tee", "he", "know", "that", "palmer", "have", "birdie", "the", "first", "two", "hole", "and", "already", "be", "2", "under", "par", "for", "the", "day", "."]
+    oewn2026_key: [[2, "oewn-02095677-v"], [8, "oewn-00596016-v"], [12, "oewn-01601428-v"], [19, "oewn-02610777-v"]]
+    paragraph: '19'
+    pos: ["IN", "NNP", "VBD", "IN", "DT", "JJ", "NN", "PRP", "VBD", "IN", "NNP", "VBD", "VBN", "DT", "JJ", "CD", "NNS", "CC", "RB", "VBD", "CD", "IN", "NN", "IN", "DT", "NN", "."]
+    text: ' As Player stepped on the first tee he knew that Palmer had birdied the first two
+  holes and already was 2 under par for the day.'
+    tokens: [[1, 3], [4, 10], [11, 18], [19, 21], [22, 25], [26, 31], [32, 35], [36, 38], [39, 43], [44, 48], [49, 55], [56, 59], [60, 67], [68, 71], [72, 77], [78, 81], [82, 87], [88, 91], [92, 99], [100, 103], [104, 105], [106, 111], [112, 115], [116, 119], [120, 123], [124, 127], [127, 128]]
+    wn16_key: [[2, "step%2:38:01::"], [8, "know%2:31:01::"], [12, "birdie%2:35:00::"], [19, "be%2:42:03::"]]
+    wn30_key: [[2, "step%2:38:01::"], [8, "know%2:31:01::"], [12, "birdie%2:35:00::"], [19, "be%2:42:03::"]]
+mf6C:
+    lemmas: ["player", "immediately", "proceed", "to", "follow_suit", "."]
+    oewn2026_key: [[2, "oewn-00783045-v"], [4, "oewn-02681414-v"]]
+    paragraph: '19'
+    pos: ["NNP", "RB", "VBD", "TO", "VB", "."]
+    text: ' Player immediately proceeded to follow_suit.'
+    tokens: [[1, 7], [8, 19], [20, 29], [30, 32], [33, 44], [44, 45]]
+    wn16_key: [[2, "proceed%2:32:00::"], [4, "follow_suit%2:42:00::"]]
+    wn30_key: [[2, "proceed%2:32:00::"], [4, "follow_suit%2:42:00::"]]
+Kqc2:
+    lemmas: ["in_fact", ",", "he", "go_on", "to", "birdie", "the", "6", "th", "and", "8", "th", "as_well", ",", "to", "go", "4", "under", "par", "for", "the", "first", "eight", "hole", "."]
+    oewn2026_key: [[3, "oewn-00783045-v"], [5, "oewn-01601428-v"], [15, "oewn-02377696-v"]]
+    paragraph: '19'
+    pos: ["RB", ",", "PRP", "VBD", "TO", "VB", "DT", "CD", "DT", "CC", "CD", "DT", "RB", ",", "TO", "VB", "CD", "IN", "NN", "IN", "DT", "JJ", "CD", "NNS", "."]
+    text: ' In_fact, he went_on to birdie the 6 th and 8 th as_well, to go 4 under par for the
+  first eight holes.
+
+  '
+    tokens: [[1, 8], [8, 9], [10, 12], [13, 20], [21, 23], [24, 30], [31, 34], [35, 36], [37, 39], [40, 43], [44, 45], [46, 48], [49, 56], [56, 57], [58, 60], [61, 63], [64, 65], [66, 71], [72, 75], [76, 79], [80, 83], [84, 89], [90, 95], [96, 101], [101, 102]]
+    wn16_key: [[3, "go_on%2:32:00::"], [5, "birdie%2:35:00::"], [15, "go%2:41:00::"]]
+    wn30_key: [[3, "go_on%2:32:00::"], [5, "birdie%2:35:00::"], [15, "go%2:41:00::"]]
+WpDu:
+    lemmas: ["But", "player", "'s", "real", "test", "come", "on", "the", "ninth", "hole", ",", "a", "downhill", "dogleg", "to", "the", "left", "measure", "420", "yard", "."]
+    oewn2026_key: [[5, "oewn-00342572-v"], [17, "oewn-00490773-v"]]
+    paragraph: '20'
+    pos: ["CC", "NNP", "POS", "JJ", "NN", "VBD", "RB", "DT", "JJ", "NN", ",", "DT", "JJ", "NN", "TO", "DT", "JJ", "VB", "CD", "NNS", "."]
+    text: ' But Player''s real test came on the ninth hole, a downhill dogleg to the left measuring
+  420 yards.'
+    tokens: [[1, 4], [5, 11], [11, 13], [14, 18], [19, 23], [24, 28], [29, 31], [32, 35], [36, 41], [42, 46], [46, 47], [48, 49], [50, 58], [59, 65], [66, 68], [69, 72], [73, 77], [78, 87], [88, 91], [92, 97], [97, 98]]
+    wn16_key: [[5, "come%2:30:01::"], [17, "measure%2:30:00::"]]
+    wn30_key: [[5, "come%2:30:01::"], [17, "measure%2:30:00::"]]
+hgOf:
+    lemmas: ["He", "hit", "a", "poor", "tee", "shot", ",", "pull", "it", "off", "into", "the", "pine", "woods", "separate", "the", "9", "th", "and", "first", "fairway", "."]
+    oewn2026_key: [[1, "oewn-01407698-v"], [7, "oewn-02588700-v"], [14, "oewn-02627934-v"]]
+    paragraph: '20'
+    pos: ["PRP", "VBD", "DT", "JJ", "NN", "NN", ",", "VBG", "PRP", "IN", "IN", "DT", "NN", "NNS", "VBG", "DT", "CD", "DT", "CC", "JJ", "NNS", "."]
+    text: ' He hit a poor tee shot, pulling it off into the pine woods separating the 9 th and
+  first fairways.'
+    tokens: [[1, 3], [4, 7], [8, 9], [10, 14], [15, 18], [19, 23], [23, 24], [25, 32], [33, 35], [36, 39], [40, 44], [45, 48], [49, 53], [54, 59], [60, 70], [71, 74], [75, 76], [77, 79], [80, 83], [84, 89], [90, 98], [98, 99]]
+    wn16_key: [[1, "hit%2:35:03::"], [7, "pull%2:41:00::"], [14, "separate%2:42:00::"]]
+    wn30_key: [[1, "hit%2:35:03::"], [7, "pull%2:41:00::"], [14, "separate%2:42:00::"]]
+gk5p:
+    lemmas: ["have", "hit", "one", "of", "the", "tree", ",", "the", "ball", "come", "to", "rest", "not", "more_than", "160", "yard", "out", "."]
+    oewn2026_key: [[1, "oewn-01407698-v"], [9, "oewn-02009962-v"], [11, "oewn-01548665-v"]]
+    paragraph: '20'
+    pos: ["VBG", "VBN", "CD", "IN", "DT", "NNS", ",", "DT", "NN", "VBD", "RB", "VB", "RB", "RB", "CD", "NNS", "RB", "."]
+    text: ' Having hit one of the trees, the ball came to rest not more_than 160 yards out.'
+    tokens: [[1, 7], [8, 11], [12, 15], [16, 18], [19, 22], [23, 28], [28, 29], [30, 33], [34, 38], [39, 43], [44, 46], [47, 51], [52, 55], [56, 65], [66, 69], [70, 75], [76, 79], [79, 80]]
+    wn16_key: [[1, "hit%2:35:03::"], [9, "come%2:38:04::"], [11, "rest%2:35:00::"]]
+    wn30_key: [[1, "hit%2:35:03::"], [9, "come%2:38:04::"], [11, "rest%2:35:00::"]]
+vWnQ:
+    lemmas: ["player", "then", "have", "the", "choice", "of", "punch", "the", "ball", "safely", "out", "of", "the", "woods", "to", "the", "9", "th", "fairway", "and", "settle", "for", "a", "bogey", "5", ",", "or", "gambling", "."]
+    oewn2026_key: [[2, "oewn-02209474-v"], [6, "oewn-01417939-v"], [20, "oewn-00700621-v"]]
+    paragraph: '20'
+    pos: ["NNP", "RB", "VBD", "DT", "NN", "IN", "VBG", "DT", "NN", "RB", "IN", "IN", "DT", "NNS", "TO", "DT", "CD", "DT", "NN", "CC", "VB", "IN", "DT", "NN", "CD", ",", "CC", "NN", "."]
+    text: ' Player then had the choice of punching the ball safely out of the woods to the 9
+  th fairway and settling for a bogey 5, or gambling.'
+    tokens: [[1, 7], [8, 12], [13, 16], [17, 20], [21, 27], [28, 30], [31, 39], [40, 43], [44, 48], [49, 55], [56, 59], [60, 62], [63, 66], [67, 72], [73, 75], [76, 79], [80, 81], [82, 84], [85, 92], [93, 96], [97, 105], [106, 109], [110, 111], [112, 117], [118, 119], [119, 120], [121, 123], [124, 132], [132, 133]]
+    wn16_key: [[2, "have%2:40:04::"], [6, "punch%2:35:00::"], [20, "settle%2:31:00::"]]
+    wn30_key: [[2, "have%2:40:04::"], [6, "punch%2:35:00::"], [20, "settle%2:31:00::"]]
+ZGdY:
+    lemmas: ["The", "latter", "involve", "hit", "a", "full", "four-wood", "out", "to", "the", "first", "fairway", "and", "toward", "the", "clubhouse", ",", "hope", "to", "slice", "it", "back", "to", "the", "deeply", "bunker", "9", "th", "green", "."]
+    oewn2026_key: [[2, "oewn-02634015-v"], [3, "oewn-01407698-v"], [17, "oewn-01815408-v"], [19, "oewn-01411612-v"], [25, "oewn-01406932-v"]]
+    paragraph: '20'
+    pos: ["DT", "NN", "VBD", "VBG", "DT", "JJ", "JJ", "RB", "TO", "DT", "JJ", "NN", "CC", "IN", "DT", "NN", ",", "VBG", "TO", "VB", "PRP", "RB", "TO", "DT", "RB", "VB", "CD", "DT", "NN", "."]
+    text: ' The latter involved hitting a full four-wood out to the first fairway and toward
+  the clubhouse, hoping to slice it back to the deeply bunkered 9 th green.
+
+  '
+    tokens: [[1, 4], [5, 11], [12, 20], [21, 28], [29, 30], [31, 35], [36, 45], [46, 49], [50, 52], [53, 56], [57, 62], [63, 70], [71, 74], [75, 81], [82, 85], [86, 95], [95, 96], [97, 103], [104, 106], [107, 112], [113, 115], [116, 120], [121, 123], [124, 127], [128, 134], [135, 143], [144, 145], [146, 148], [149, 154], [154, 155]]
+    wn16_key: [[2, "involve%2:42:07::"], [3, "hit%2:35:03::"], [17, "hope%2:37:00::"], [19, "slice%2:35:02::"], [25, "bunker%2:35:00::"]]
+    wn30_key: [[2, "involve%2:42:07::"], [3, "hit%2:35:03::"], [17, "hope%2:37:00::"], [19, "slice%2:35:02::"], [25, "bunker%2:35:00::"]]
+D7gv:
+    lemmas: ["\"", "I", "be", "hit", "the", "ball", "well", "\"", ",", "player", "say", "later", ",", "\"", "and", "I", "feel", "strong", "."]
+    oewn2026_key: [[3, "oewn-01407698-v"], [10, "oewn-01011267-v"], [16, "oewn-00105712-v"]]
+    paragraph: '21'
+    pos: ["``", "PRP", "VBD", "VBG", "DT", "NN", "RB", "``", ",", "NNP", "VBD", "RB", ",", "''", "CC", "PRP", "VBD", "JJ", "."]
+    text: ' " I was hitting the ball well ", Player said later, " and I felt strong.'
+    tokens: [[1, 2], [3, 4], [5, 8], [9, 16], [17, 20], [21, 25], [26, 30], [31, 32], [32, 33], [34, 40], [41, 45], [46, 51], [51, 52], [53, 54], [55, 58], [59, 60], [61, 65], [66, 72], [72, 73]]
+    wn16_key: [[3, "hit%2:35:03::"], [10, "say%2:32:00::"], [16, "feel%2:29:00::"]]
+    wn30_key: [[3, "hit%2:35:03::"], [10, "say%2:32:00::"], [16, "feel%2:29:00::"]]
+W8M3:
+    lemmas: ["When", "you", "'re", "play", "like", "that", "you", "'d", "good", "attack", "\"", "."]
+    oewn2026_key: [[3, "oewn-01075360-v"], [9, "oewn-01120867-v"]]
+    paragraph: '21'
+    pos: ["WRB", "PRP", "VBP", "VBG", "IN", "IN", "PRP", "MD", "JJR", "VB", "``", "."]
+    text: ' When you''re playing like that you''d better attack ".
+
+  '
+    tokens: [[1, 5], [6, 9], [9, 12], [13, 20], [21, 25], [26, 30], [31, 34], [34, 36], [37, 43], [44, 50], [51, 52], [52, 53]]
+    wn16_key: [[3, "play%2:33:00::"], [9, "attack%2:33:01::"]]
+    wn30_key: [[3, "play%2:33:00::"], [9, "attack%2:33:01::"]]
+KaU+:
+    lemmas: ["player", "attack", "with", "his", "four-wood", "and", "hit", "a", "shot", "that", "few", "who", "see", "it", "will", "ever", "forget", "."]
+    oewn2026_key: [[1, "oewn-01120867-v"], [6, "oewn-01407698-v"], [12, "oewn-02133754-v"], [16, "oewn-00611721-v"]]
+    paragraph: '22'
+    pos: ["NNP", "VBD", "IN", "PRP$", "JJ", "CC", "VBD", "DT", "NN", "IN", "JJ", "WP", "VBD", "PRP", "MD", "RB", "VB", "."]
+    text: ' Player attacked with his four-wood and hit a shot that few who saw it will ever
+  forget.'
+    tokens: [[1, 7], [8, 16], [17, 21], [22, 25], [26, 35], [36, 39], [40, 43], [44, 45], [46, 50], [51, 55], [56, 59], [60, 63], [64, 67], [68, 70], [71, 75], [76, 80], [81, 87], [87, 88]]
+    wn16_key: [[1, "attack%2:33:01::"], [6, "hit%2:35:03::"], [12, "see%2:39:00::"], [16, "forget%2:31:01::"]]
+    wn30_key: [[1, "attack%2:33:01::"], [6, "hit%2:35:03::"], [12, "see%2:39:00::"], [16, "forget%2:31:01::"]]
+jGpU:
+    lemmas: ["It", "strike", "the", "9", "th", "green", "on_the_fly", "and", "stop", "just", "off", "the", "edge", "."]
+    oewn2026_key: [[8, "oewn-01864781-v"]]
+    paragraph: '22'
+    pos: ["PRP", "VB", "DT", "CD", "DT", "JJ", "RB", "CC", "VBD", "RB", "IN", "DT", "NN", "."]
+    text: ' It struck the 9 th green on_the_fly and stopped just off the edge.'
+    tokens: [[1, 3], [4, 10], [11, 14], [15, 16], [17, 19], [20, 25], [26, 36], [37, 40], [41, 48], [49, 53], [54, 57], [58, 61], [62, 66], [66, 67]]
+    wn16_key: [[1, "strike%2:35:04::"], [8, "stop%2:38:00::"]]
+    wn30_key: [[8, "stop%2:38:00::"]]
+7PyQ:
+    lemmas: ["From", "there", "he", "chip", "back", "and", "sink", "his", "putt", "for", "a", "par", "4", "."]
+    oewn2026_key: [[3, "oewn-01261569-v"], [6, "oewn-01990883-v"]]
+    paragraph: '22'
+    pos: ["IN", "EX", "PRP", "VBD", "RB", "CC", "VBD", "PRP$", "NN", "IN", "DT", "NN", "CD", "."]
+    text: ' From there he chipped back and sank his putt for a par 4.
+
+  '
+    tokens: [[1, 5], [6, 11], [12, 14], [15, 22], [23, 27], [28, 31], [32, 36], [37, 40], [41, 45], [46, 49], [50, 51], [52, 55], [56, 57], [57, 58]]
+    wn16_key: [[3, "chip%2:35:03::"], [6, "sink%2:38:02::"]]
+    wn30_key: [[3, "chip%2:35:03::"], [6, "sink%2:38:02::"]]
+DDrp:
+    lemmas: ["palmer", ",", "meanwhile", ",", "have", "be", "have", "his", "trouble", "."]
+    oewn2026_key: [[6, "oewn-02112480-v"]]
+    paragraph: '23'
+    pos: ["NNP", ",", "RB", ",", "VBD", "VBN", "VBG", "PRP$", "NNS", "."]
+    text: ' Palmer, meanwhile, had been having his troubles.'
+    tokens: [[1, 7], [7, 8], [9, 18], [18, 19], [20, 23], [24, 28], [29, 35], [36, 39], [40, 48], [48, 49]]
+    wn16_key: [[6, "have%2:39:06::"]]
+    wn30_key: [[6, "have%2:39:06::"]]
+fI3T:
+    lemmas: ["They", "start", "on", "the", "4", "th", "hole", ",", "a", "220", "-", "yard", "par-3", "."]
+    oewn2026_key: [[1, "oewn-02614382-v"]]
+    paragraph: '23'
+    pos: ["PRP", "VBD", "IN", "DT", "CD", "DT", "NN", ",", "DT", "CD", ":", "NN", "NN", "."]
+    text: ' They started on the 4 th hole, a 220 - yard par-3.'
+    tokens: [[1, 5], [6, 13], [14, 16], [17, 20], [21, 22], [23, 25], [26, 30], [30, 31], [32, 33], [34, 37], [38, 39], [40, 44], [45, 50], [50, 51]]
+    wn16_key: [[1, "start%2:42:00::"]]
+    wn30_key: [[1, "start%2:42:00::"]]
+kisK:
+    lemmas: ["On_this_day", "the", "wind", "have", "switch", "180", "'", "from", "the", "northwest", "to", "the", "southeast", ",", "and", "nearly", "every", "shot", "on", "the", "course", "be", "different", "from", "the", "previous", "few", "days", "."]
+    oewn2026_key: [[4, "oewn-00380830-v"]]
+    paragraph: '23'
+    pos: ["RB", "DT", "NN", "VBD", "VBN", "CD", "''", "IN", "DT", "RB", "TO", "DT", "RB", ",", "CC", "RB", "DT", "NN", "IN", "DT", "NN", "VB", "JJ", "IN", "DT", "JJ", "JJ", "NNS", "."]
+    text: ' On_this_day the wind had switched 180'' from the northwest to the southeast, and
+  nearly every shot on the course was different from the previous few days.'
+    tokens: [[1, 12], [13, 16], [17, 21], [22, 25], [26, 34], [35, 38], [38, 39], [40, 44], [45, 48], [49, 58], [59, 61], [62, 65], [66, 75], [75, 76], [77, 80], [81, 87], [88, 93], [94, 98], [99, 101], [102, 105], [106, 112], [113, 116], [117, 126], [127, 131], [132, 135], [136, 144], [145, 148], [149, 153], [153, 154]]
+    wn16_key: [[4, "switch%2:30:01::"]]
+    wn30_key: [[4, "switch%2:30:01::"]]
+Autf:
+    lemmas: ["At", "the", "4", "th", "tee", "palmer", "choose", "to", "hit", "a", "one-iron", "when", "a", "three-wood", "be", "the", "proper", "club", ",", "so", "he", "put", "the", "ball", "in", "a", "bunker", "in_front", "of", "the", "green", "."]
+    oewn2026_key: [[6, "oewn-00681856-v"], [8, "oewn-01407698-v"], [14, "oewn-02610777-v"], [21, "oewn-01496398-v"]]
+    paragraph: '23'
+    pos: ["IN", "DT", "CD", "DT", "NN", "NNP", "VBD", "TO", "VB", "DT", "JJ", "WRB", "DT", "JJ", "VBD", "DT", "JJ", "NN", ",", "RB", "PRP", "VBD", "DT", "NN", "IN", "DT", "NN", "RB", "IN", "DT", "NN", "."]
+    text: ' At the 4 th tee Palmer chose to hit a one-iron when a three-wood was the proper
+  club, so he put the ball in a bunker in_front of the green.'
+    tokens: [[1, 3], [4, 7], [8, 9], [10, 12], [13, 16], [17, 23], [24, 29], [30, 32], [33, 36], [37, 38], [39, 47], [48, 52], [53, 54], [55, 65], [66, 69], [70, 73], [74, 80], [81, 85], [85, 86], [87, 89], [90, 92], [93, 96], [97, 100], [101, 105], [106, 108], [109, 110], [111, 117], [118, 126], [127, 129], [130, 133], [134, 139], [139, 140]]
+    wn16_key: [[6, "choose%2:31:01::"], [8, "hit%2:35:03::"], [14, "be%2:42:03::"], [21, "put%2:35:05::"]]
+    wn30_key: [[6, "choose%2:31:01::"], [8, "hit%2:35:03::"], [14, "be%2:42:03::"], [21, "put%2:35:05::"]]
+DAcK:
+    lemmas: ["His", "bogey", "4", "on", "this", "hole", "and", "subsequent", "bogey", "at", "5", "and", "7", "along", "with", "a", "birdie", "at", "8", "bring", "him", "back", "to", "even", "par", "."]
+    oewn2026_key: [[19, "oewn-02081903-v"]]
+    paragraph: '23'
+    pos: ["PRP$", "NN", "CD", "IN", "DT", "NN", "CC", "JJ", "NNS", "IN", "CD", "CC", "CD", "IN", "IN", "DT", "NN", "IN", "CD", "VBD", "PRP", "RB", "TO", "RB", "NN", "."]
+    text: ' His bogey 4 on this hole and subsequent bogeys at 5 and 7 along with a birdie at
+  8 brought him back to even par.
+
+  '
+    tokens: [[1, 4], [5, 10], [11, 12], [13, 15], [16, 20], [21, 25], [26, 29], [30, 40], [41, 47], [48, 50], [51, 52], [53, 56], [57, 58], [59, 64], [65, 69], [70, 71], [72, 78], [79, 81], [82, 83], [84, 91], [92, 95], [96, 100], [101, 103], [104, 108], [109, 112], [112, 113]]
+    wn16_key: [[19, "bring%2:38:00::"]]
+    wn30_key: [[19, "bring%2:38:00::"]]
+l18w:
+    lemmas: ["start", "the", "second", "nine", ",", "palmer", "be", "already", "four", "stroke", "behind", "player", "and", "know", "it", "."]
+    oewn2026_key: [[0, "oewn-02614382-v"], [6, "oewn-02610777-v"], [13, "oewn-00596016-v"]]
+    paragraph: '24'
+    pos: ["VBG", "DT", "JJ", "CD", ",", "NNP", "VBD", "RB", "CD", "NNS", "IN", "NNP", "CC", "VBD", "PRP", "."]
+    text: ' Starting the second nine, Palmer was already four strokes behind Player and knew
+  it.
+
+  '
+    tokens: [[1, 9], [10, 13], [14, 20], [21, 25], [25, 26], [27, 33], [34, 37], [38, 45], [46, 50], [51, 58], [59, 65], [66, 72], [73, 76], [77, 81], [82, 84], [84, 85]]
+    wn16_key: [[0, "start%2:42:00::"], [6, "be%2:42:03::"], [13, "know%2:31:01::"]]
+    wn30_key: [[0, "start%2:42:00::"], [6, "be%2:42:03::"], [13, "know%2:31:01::"]]
