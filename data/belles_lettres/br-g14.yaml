@@ -3,7 +3,7 @@ _meta:
         type: seq
         base: tokens
         data: string
-    oewn2026_key:
+    oewn_key:
         type: element
         base: tokens
         data: string
@@ -28,7 +28,7 @@ _meta:
         data: string
 t1CU:
     lemmas: ["There", "be", "fence", "in", "the", "old", "day", "when", "we", "be", "child", "."]
-    oewn2026_key: [[2, "oewn-03332179-n"], [5, "oewn-01733798-s"], [6, "oewn-15274047-n"], [9, "oewn-02610777-v"], [10, "oewn-09937051-n"]]
+    oewn_key: [[2, "oewn-03332179-n"], [5, "oewn-01733798-s"], [6, "oewn-15274047-n"], [9, "oewn-02610777-v"], [10, "oewn-09937051-n"]]
     paragraph: '0'
     pos: ["EX", "VB", "NNS", "VB", "DT", "JJ", "NNS", "WRB", "PRP", "VBD", "NNS", "."]
     text: There were fences in the old days when we were children.
@@ -37,7 +37,7 @@ t1CU:
     wn30_key: [[2, "fence%1:06:00::"], [5, "old%3:00:03:past:00"], [6, "day%1:28:05::"], [9, "be%2:42:03::"], [10, "child%1:18:00::"]]
 Sa9J:
     lemmas: ["Across", "the", "front", "of", "a", "yard", "and", "down", "the", "side", ",", "they", "be", "iron", ",", "either", "spiked", "along", "the", "top", "or", "arched", "in", "half", "circle", "."]
-    oewn2026_key: [[2, "oewn-08591019-n"], [5, "oewn-04618236-n"], [9, "oewn-08666920-n"], [12, "oewn-02610777-v"], [13, "oewn-14666595-n"], [16, "oewn-01816637-s"], [19, "oewn-08681598-n"], [21, "oewn-02323141-s"], [23, "oewn-00526673-s"], [24, "oewn-13896141-n"]]
+    oewn_key: [[2, "oewn-08591019-n"], [5, "oewn-04618236-n"], [9, "oewn-08666920-n"], [12, "oewn-02610777-v"], [13, "oewn-14666595-n"], [16, "oewn-01816637-s"], [19, "oewn-08681598-n"], [21, "oewn-02323141-s"], [23, "oewn-00526673-s"], [24, "oewn-13896141-n"]]
     paragraph: '0'
     pos: ["IN", "DT", "NN", "IN", "DT", "NN", "CC", "RB", "DT", "NN", ",", "PRP", "VBD", "NN", ",", "DT", "JJ", "IN", "DT", "NN", "CC", "JJ", "IN", "JJ", "NNS", "."]
     text: ' Across the front of a yard and down the side, they were iron, either spiked along
@@ -47,7 +47,7 @@ Sa9J:
     wn30_key: [[2, "front%1:15:00::"], [5, "yard%1:06:02::"], [9, "side%1:15:02::"], [12, "be%2:42:03::"], [13, "iron%1:27:00::"], [16, "spiked%3:00:01:pointed:00"], [19, "top%1:15:01::"], [21, "arched%3:00:00:curved:00"], [23, "half%3:00:00:incomplete:00"], [24, "circle%1:25:00::"]]
 m0vW:
     lemmas: ["alley", "fence", "be", "make", "of", "solid", "board", "high", "than", "one", "'s", "head", ",", "but", "not", "so", "high", "as", "the", "golden_glow", "in", "a", "corner", "or", "the", "hollyhock", "that", "grow", "in", "a", "line", "against", "them", "."]
-    oewn2026_key: [[0, "oewn-02700618-n"], [1, "oewn-03332179-n"], [3, "oewn-01658171-v"], [5, "oewn-02271436-a"], [6, "oewn-15126421-n"], [7, "oewn-01207229-a"], [11, "oewn-05546258-n"], [14, "oewn-00024432-r"], [15, "oewn-00147630-r"], [16, "oewn-01207229-a"], [19, "oewn-12029516-n"], [22, "oewn-03114532-n"], [25, "oewn-12194828-n"], [27, "oewn-00231983-v"], [30, "oewn-08447160-n"]]
+    oewn_key: [[0, "oewn-02700618-n"], [1, "oewn-03332179-n"], [3, "oewn-01658171-v"], [5, "oewn-02271436-a"], [6, "oewn-15126421-n"], [7, "oewn-01207229-a"], [11, "oewn-05546258-n"], [14, "oewn-00024432-r"], [15, "oewn-00147630-r"], [16, "oewn-01207229-a"], [19, "oewn-12029516-n"], [22, "oewn-03114532-n"], [25, "oewn-12194828-n"], [27, "oewn-00231983-v"], [30, "oewn-08447160-n"]]
     paragraph: '0'
     pos: ["NNP", "NNS", "VB", "VBN", "VB", "JJ", "NNS", "JJR", "IN", "NNP", "POS", "NN", ",", "CC", "RB", "RB", "JJ", "IN", "DT", "NN", "IN", "DT", "NN", "CC", "DT", "NNS", "WDT", "VBD", "IN", "DT", "NN", "IN", "PRP", "."]
     text: ' Alley fences were made of solid boards higher than one''s head, but not so high
@@ -57,7 +57,7 @@ m0vW:
     wn30_key: [[0, "alley%1:06:00::"], [1, "fence%1:06:00::"], [3, "make%2:36:13::"], [5, "solid%3:00:02::"], [6, "board%1:27:00::"], [7, "high%3:00:01::"], [11, "head%1:08:00::"], [14, "not%4:02:00::"], [15, "so%4:02:02::"], [16, "high%3:00:01::"], [19, "golden_glow%1:20:00::"], [22, "corner%1:06:02::"], [25, "hollyhock%1:20:02::"], [27, "grow%2:30:02::"], [30, "line%1:14:01::"]]
 qx35:
     lemmas: ["side", "fence", "be", "hidden", "beneath", "lilac", "and", "hundred_leaf", "rose", ";", "front", "fence", "be", "cover", "with", "virginia_creeper", "or", "trumpet_vine", "or", "honeysuckle", "."]
-    oewn2026_key: [[0, "oewn-02450419-a"], [1, "oewn-03332179-n"], [2, "oewn-02610777-v"], [3, "oewn-02527874-s"], [5, "oewn-12330866-n"], [8, "oewn-12640957-n"], [10, "oewn-00199739-a"], [11, "oewn-03332179-n"], [13, "oewn-01210571-v"], [15, "oewn-13169167-n"], [17, "oewn-12834995-n"], [19, "oewn-12694881-n"]]
+    oewn_key: [[0, "oewn-02450419-a"], [1, "oewn-03332179-n"], [2, "oewn-02610777-v"], [3, "oewn-02527874-s"], [5, "oewn-12330866-n"], [8, "oewn-12640957-n"], [10, "oewn-00199739-a"], [11, "oewn-03332179-n"], [13, "oewn-01210571-v"], [15, "oewn-13169167-n"], [17, "oewn-12834995-n"], [19, "oewn-12694881-n"]]
     paragraph: '0'
     pos: ["JJ", "NNS", "VBD", "JJ", "IN", "NNS", "CC", "NN", "NNS", ":", "JJ", "NNS", "VBD", "VBN", "IN", "NN", "CC", "NN", "CC", "NN", "."]
     text: ' Side fences were hidden beneath lilacs and hundred_leaf roses; front fences were
@@ -67,7 +67,7 @@ qx35:
     wn30_key: [[0, "side%3:00:00::"], [1, "fence%1:06:00::"], [2, "be%2:42:03::"], [3, "hidden%3:00:00:invisible:00"], [5, "lilac%1:20:00::"], [8, "rose%1:20:00::"], [10, "front%3:00:00::"], [11, "fence%1:06:00::"], [13, "cover%2:35:01::"], [15, "virginia_creeper%1:20:00::"], [17, "trumpet_vine%1:20:01::"], [19, "honeysuckle%1:20:01::"]]
 pz7V:
     lemmas: ["square", "corner_post", "-", "and", "gatepost", "be", "an", "openwork", "pattern", "of", "cast_iron", "foliage", ";", "they", "be", "top", "by", "steeple", "complete", "in", "every", "detail", ":", "high-pitched", "roof", ",", "pinnacle", ",", "and", "narrow", "gable", "."]
-    oewn2026_key: [[0, "oewn-02050637-a"], [1, "oewn-03114853-n"], [4, "oewn-03433259-n"], [5, "oewn-02610777-v"], [7, "oewn-03855199-n"], [8, "oewn-03183448-n"], [10, "oewn-14826091-n"], [11, "oewn-03381923-n"], [15, "oewn-02674870-v"], [17, "oewn-04319570-n"], [18, "oewn-00522139-a"], [21, "oewn-13832132-n"], [23, "oewn-01237825-s"], [24, "oewn-04112162-n"], [26, "oewn-03949542-n"], [29, "oewn-02572618-a"], [30, "oewn-03414303-n"]]
+    oewn_key: [[0, "oewn-02050637-a"], [1, "oewn-03114853-n"], [4, "oewn-03433259-n"], [5, "oewn-02610777-v"], [7, "oewn-03855199-n"], [8, "oewn-03183448-n"], [10, "oewn-14826091-n"], [11, "oewn-03381923-n"], [15, "oewn-02674870-v"], [17, "oewn-04319570-n"], [18, "oewn-00522139-a"], [21, "oewn-13832132-n"], [23, "oewn-01237825-s"], [24, "oewn-04112162-n"], [26, "oewn-03949542-n"], [29, "oewn-02572618-a"], [30, "oewn-03414303-n"]]
     paragraph: '0'
     pos: ["JJ", "NN", ":", "NN", "NNS", "VBD", "DT", "NN", "NN", "IN", "NN", "NN", ":", "PRP", "VBD", "VBN", "IN", "NNS", "JJ", "IN", "DT", "NN", ":", "JJ", "NN", ",", "NN", ",", "CC", "JJ", "NN", "."]
     text: ' Square corner - and gate_posts were an open-work pattern of cast-iron foliage; they
@@ -78,7 +78,7 @@ pz7V:
     wn30_key: [[0, "square%3:00:00::"], [1, "corner_post%1:06:00::"], [4, "gatepost%1:06:00::"], [5, "be%2:42:03::"], [7, "openwork%1:06:00::"], [8, "pattern%1:06:00::"], [10, "cast_iron%1:27:00::"], [11, "foliage%1:06:00::"], [15, "top%2:42:00::"], [17, "steeple%1:06:00::"], [18, "complete%3:00:00::"], [21, "detail%1:24:00::"], [23, "high-pitched%3:00:00:inclined:01"], [24, "roof%1:06:00::"], [26, "pinnacle%1:06:00::"], [29, "narrow%3:00:00::"], [30, "gable%1:06:00::"]]
 CyK2:
     lemmas: ["On", "these", "post", "the", "gate", "swing", "open", "with", "a", "squeak", "and", "shut", "with", "a", "metallic", "clang", "."]
-    oewn2026_key: [[2, "oewn-03994528-n"], [4, "oewn-03432206-n"], [5, "oewn-01881348-v"], [6, "oewn-01656822-a"], [9, "oewn-07410223-n"], [11, "oewn-01349660-v"], [14, "oewn-01531539-a"], [15, "oewn-07394744-n"]]
+    oewn_key: [[2, "oewn-03994528-n"], [4, "oewn-03432206-n"], [5, "oewn-01881348-v"], [6, "oewn-01656822-a"], [9, "oewn-07410223-n"], [11, "oewn-01349660-v"], [14, "oewn-01531539-a"], [15, "oewn-07394744-n"]]
     paragraph: '0'
     pos: ["IN", "DT", "NNS", "DT", "NNS", "VBD", "JJ", "IN", "DT", "NN", "CC", "VB", "IN", "DT", "JJ", "NN", "."]
     text: ' On these posts the gates swung open with a squeak and shut with a metallic clang.
@@ -89,7 +89,7 @@ CyK2:
     wn30_key: [[2, "post%1:06:00::"], [4, "gate%1:06:00::"], [5, "swing%2:38:00::"], [6, "open%3:00:01::"], [9, "squeak%1:11:00::"], [11, "shut%2:35:06::"], [14, "metallic%3:00:00::"], [15, "clang%1:11:00::"]]
 pONP:
     lemmas: ["The", "only", "extended", "view", "possible", "to", "anyone", "less", "tall", "than", "the", "fence", "be", "that", "obtain", "from", "an", "upper", "bough", "of", "the", "apple_tree", "."]
-    oewn2026_key: [[1, "oewn-02222405-s"], [2, "oewn-01389168-s"], [3, "oewn-05941982-n"], [4, "oewn-01826770-a"], [7, "oewn-01559809-a"], [8, "oewn-02393670-a"], [11, "oewn-03332179-n"], [12, "oewn-02622439-v"], [14, "oewn-02242867-v"], [17, "oewn-01208990-s"], [18, "oewn-13186625-n"], [21, "oewn-12654399-n"]]
+    oewn_key: [[1, "oewn-02222405-s"], [2, "oewn-01389168-s"], [3, "oewn-05941982-n"], [4, "oewn-01826770-a"], [7, "oewn-01559809-a"], [8, "oewn-02393670-a"], [11, "oewn-03332179-n"], [12, "oewn-02622439-v"], [14, "oewn-02242867-v"], [17, "oewn-01208990-s"], [18, "oewn-13186625-n"], [21, "oewn-12654399-n"]]
     paragraph: '1'
     pos: ["DT", "JJ", "JJ", "NN", "JJ", "TO", "NNP", "JJ", "JJ", "IN", "DT", "NNS", "VBD", "WDT", "VBN", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "."]
     text: ' The only extended view possible to anyone less tall than the fences was that obtained
@@ -99,7 +99,7 @@ pONP:
     wn30_key: [[1, "only%3:00:00:single:05"], [2, "extended%3:00:00:large:00"], [3, "view%1:09:01::"], [4, "possible%3:00:00::"], [7, "less%3:00:00::"], [8, "tall%3:00:00::"], [11, "fence%1:06:00::"], [12, "be%2:42:06::"], [14, "obtain%2:40:00::"], [17, "upper%3:00:00:high:01"], [18, "bough%1:20:00::"], [21, "apple_tree%1:20:00::"]]
 g/yD:
     lemmas: ["The", "primary", "quality", "of", "that", "view", "seem", ",", "now", ",", "to", "have", "be", "its", "quietness", ",", "but", "that", "cannot", "at", "the", "time", "have", "impress", "us", "."]
-    oewn2026_key: [[1, "oewn-01280536-s"], [2, "oewn-04731092-n"], [5, "oewn-06218486-n"], [6, "oewn-02137900-v"], [8, "oewn-00049971-r"], [12, "oewn-02622439-v"], [14, "oewn-04990105-n"], [21, "oewn-15147173-n"], [23, "oewn-01771801-v"]]
+    oewn_key: [[1, "oewn-01280536-s"], [2, "oewn-04731092-n"], [5, "oewn-06218486-n"], [6, "oewn-02137900-v"], [8, "oewn-00049971-r"], [12, "oewn-02622439-v"], [14, "oewn-04990105-n"], [21, "oewn-15147173-n"], [23, "oewn-01771801-v"]]
     paragraph: '1'
     pos: ["DT", "JJ", "NN", "RB", "RB", "NN", "VBZ", ",", "RB", ",", "TO", "VB", "VBN", "PRP$", "NN", ",", "CC", "WDT", "MD", "RB", "RB", "NN", "VB", "VBN", "PRP", "."]
     text: ' The primary quality of that view seems, now, to have been its quietness, but that
@@ -109,7 +109,7 @@ g/yD:
     wn30_key: [[1, "primary%3:00:00:important:00"], [2, "quality%1:07:00::"], [5, "view%1:09:02::"], [6, "seem%2:39:00::"], [8, "now%4:02:05::"], [12, "be%2:42:06::"], [14, "quietness%1:07:00::"], [21, "time%1:28:00::"], [23, "impress%2:37:01::"]]
 Xf+c:
     lemmas: ["What", "one", "actually", "remember", "be", "its", "greenness", "."]
-    oewn2026_key: [[2, "oewn-00150568-r"], [3, "oewn-00609334-v"], [4, "oewn-02622439-v"], [6, "oewn-05123890-n"]]
+    oewn_key: [[2, "oewn-00150568-r"], [3, "oewn-00609334-v"], [4, "oewn-02622439-v"], [6, "oewn-05123890-n"]]
     paragraph: '1'
     pos: ["WP", "NNP", "RB", "VBZ", "VBZ", "PRP$", "NN", "."]
     text: ' What one actually remembers is its greenness.'
@@ -118,7 +118,7 @@ Xf+c:
     wn30_key: [[2, "actually%4:02:01::"], [3, "remember%2:31:00::"], [4, "be%2:42:06::"], [6, "greenness%1:07:02::"]]
 NsUG:
     lemmas: ["From", "high", "in", "the", "tree", ",", "the", "whole", "block", "lie", "within", "range", "of", "the", "eye", ",", "but", "the", "ground", "be", "almost", "nowhere", "visible", "."]
-    oewn2026_key: [[1, "oewn-00358753-r"], [4, "oewn-13124818-n"], [7, "oewn-00516809-a"], [8, "oewn-08659720-n"], [9, "oewn-02696550-v"], [11, "oewn-08646496-n"], [14, "oewn-05318579-n"], [18, "oewn-09357302-n"], [19, "oewn-02610777-v"], [20, "oewn-00073433-r"], [21, "oewn-00025873-r"], [22, "oewn-02525399-a"]]
+    oewn_key: [[1, "oewn-00358753-r"], [4, "oewn-13124818-n"], [7, "oewn-00516809-a"], [8, "oewn-08659720-n"], [9, "oewn-02696550-v"], [11, "oewn-08646496-n"], [14, "oewn-05318579-n"], [18, "oewn-09357302-n"], [19, "oewn-02610777-v"], [20, "oewn-00073433-r"], [21, "oewn-00025873-r"], [22, "oewn-02525399-a"]]
     paragraph: '1'
     pos: ["IN", "RB", "IN", "DT", "NN", ",", "DT", "JJ", "NN", "VBD", "IN", "NN", "IN", "DT", "NN", ",", "CC", "DT", "NN", "VBD", "RB", "RB", "JJ", "."]
     text: ' From high in the tree, the whole block lay within range of the eye, but the ground
@@ -128,7 +128,7 @@ NsUG:
     wn30_key: [[1, "high%4:02:00::"], [4, "tree%1:20:00::"], [7, "whole%3:00:00::"], [8, "block%1:15:00::"], [9, "lie%2:42:00::"], [11, "range%1:15:01::"], [14, "eye%1:08:00::"], [18, "ground%1:17:00::"], [19, "be%2:42:03::"], [20, "almost%4:02:00::"], [21, "nowhere%4:02:00::"], [22, "visible%3:00:00::"]]
 CA18:
     lemmas: ["One", "look", "down", "on", "a", "sea", "of", "leaf", ",", "a", "breaking", "wave", "of", "flower", "."]
-    oewn2026_key: [[1, "oewn-02134989-v"], [2, "oewn-00095870-r"], [5, "oewn-13799183-n"], [7, "oewn-13173519-n"], [11, "oewn-00346921-n"], [13, "oewn-11689786-n"]]
+    oewn_key: [[1, "oewn-02134989-v"], [2, "oewn-00095870-r"], [5, "oewn-13799183-n"], [7, "oewn-13173519-n"], [11, "oewn-00346921-n"], [13, "oewn-11689786-n"]]
     paragraph: '1'
     pos: ["CD", "VBD", "RP", "VB", "DT", "NN", "IN", "NNS", ",", "DT", "JJ", "NN", "IN", "NN", "."]
     text: ' One looked down on a sea of leaves, a breaking wave of flower.'
@@ -137,7 +137,7 @@ CA18:
     wn30_key: [[1, "look%2:39:00::"], [2, "down%4:02:00::"], [5, "sea%1:23:00::"], [7, "leaf%1:20:00::"], [11, "wave%1:04:02::"], [13, "flower%1:20:02::"]]
 zmNJ:
     lemmas: ["Every", "path", "from", "back", "door", "to", "barn", "be", "cover", "by", "a", "grape_arbor", ",", "and", "every", "yard", "have", "its", "fruit_tree", "."]
-    oewn2026_key: [[1, "oewn-03905025-n"], [3, "oewn-00199168-a"], [4, "oewn-03228735-n"], [6, "oewn-02796518-n"], [8, "oewn-01210571-v"], [11, "oewn-03458387-n"], [15, "oewn-04618236-n"], [16, "oewn-02208144-v"], [18, "oewn-12672582-n"]]
+    oewn_key: [[1, "oewn-03905025-n"], [3, "oewn-00199168-a"], [4, "oewn-03228735-n"], [6, "oewn-02796518-n"], [8, "oewn-01210571-v"], [11, "oewn-03458387-n"], [15, "oewn-04618236-n"], [16, "oewn-02208144-v"], [18, "oewn-12672582-n"]]
     paragraph: '1'
     pos: ["DT", "NN", "IN", "JJ", "NN", "TO", "NN", "VBD", "VBN", "IN", "DT", "NN", ",", "CC", "DT", "NN", "VBD", "PRP$", "NNS", "."]
     text: ' Every path from back door to barn was covered by a grape-arbor, and every yard had
@@ -147,7 +147,7 @@ zmNJ:
     wn30_key: [[1, "path%1:06:00::"], [3, "back%3:00:00::"], [4, "door%1:06:01::"], [6, "barn%1:06:00::"], [8, "cover%2:35:01::"], [11, "grape_arbor%1:06:00::"], [15, "yard%1:06:02::"], [16, "have%2:40:00::"], [18, "fruit_tree%1:20:00::"]]
 BFxN:
     lemmas: ["in", "the", "center", "of", "any", "open", "space", "remaining", "our", "grandfather", "have", "plant", "syringa", "and", "sweet_shrub", ",", "snowball", ",", "rose_of_sharon", "and", "balm_of_gilead", "."]
-    oewn2026_key: [[2, "oewn-08540894-n"], [5, "oewn-01892719-s"], [6, "oewn-08670545-n"], [7, "oewn-00929746-s"], [9, "oewn-10161911-n"], [11, "oewn-01570056-v"], [12, "oewn-12812089-n"], [14, "oewn-11721535-n"], [16, "oewn-11857489-n"], [18, "oewn-12200424-n"], [20, "oewn-11642401-n"]]
+    oewn_key: [[2, "oewn-08540894-n"], [5, "oewn-01892719-s"], [6, "oewn-08670545-n"], [7, "oewn-00929746-s"], [9, "oewn-10161911-n"], [11, "oewn-01570056-v"], [12, "oewn-12812089-n"], [14, "oewn-11721535-n"], [16, "oewn-11857489-n"], [18, "oewn-12200424-n"], [20, "oewn-11642401-n"]]
     paragraph: '1'
     pos: ["RB", "RB", "NN", "IN", "DT", "JJ", "NN", "JJ", "PRP$", "NNS", "VBD", "VBN", "NN", "CC", "NN", ",", "NN", ",", "NN", "CC", "NN", "."]
     text: ' In the center of any open space remaining our grandfathers had planted syringa and
@@ -157,7 +157,7 @@ BFxN:
     wn30_key: [[2, "center%1:15:01::"], [5, "open%3:00:00:unprotected:00"], [6, "space%1:15:00::"], [7, "remaining%3:00:00:unexhausted:00"], [9, "grandfather%1:18:00::"], [11, "plant%2:35:00::"], [12, "syringa%1:20:02::"], [14, "sweet_shrub%1:20:00::"], [16, "snowball%1:20:00::"], [18, "rose_of_sharon%1:20:00::"], [20, "balm_of_gilead%1:20:01::"]]
 mD0w:
     lemmas: ["From", "above", "one", "could", "only", "occasionally", "catch_a_glimpse", "of", "life", "on", "the", "floor", "of", "this", "green", "sea", ":", "a", "neighbor", "'s", "gingham", "skirt", "flash", "into", "sight", "for", "an", "instant", "on", "the", "path", "beneath", "her", "grape_arbor", ",", "or", "the", "movement", "of", "hand", "above", "a", "clothesline", "and", "the", "flutter", "of", "garment", "hang", "there", ",", "halfway", "down", "the", "block", "."]
-    oewn2026_key: [[4, "oewn-00005103-r"], [5, "oewn-00021667-r"], [6, "oewn-02134344-v"], [8, "oewn-00006269-n"], [11, "oewn-09304990-n;oewn-09305114-n"], [14, "oewn-00377031-s"], [15, "oewn-13799183-n"], [18, "oewn-10372030-n"], [20, "oewn-03442651-n"], [21, "oewn-04237870-n"], [22, "oewn-00425644-v"], [24, "oewn-00883327-n"], [27, "oewn-15271921-n"], [30, "oewn-03905025-n"], [33, "oewn-03458387-n"], [37, "oewn-00332776-n"], [39, "oewn-05572223-n"], [42, "oewn-03055137-n"], [45, "oewn-00349397-n"], [47, "oewn-03423924-n"], [48, "oewn-01484705-v"], [51, "oewn-00256895-r"], [54, "oewn-08659720-n"]]
+    oewn_key: [[4, "oewn-00005103-r"], [5, "oewn-00021667-r"], [6, "oewn-02134344-v"], [8, "oewn-00006269-n"], [11, "oewn-09304990-n;oewn-09305114-n"], [14, "oewn-00377031-s"], [15, "oewn-13799183-n"], [18, "oewn-10372030-n"], [20, "oewn-03442651-n"], [21, "oewn-04237870-n"], [22, "oewn-00425644-v"], [24, "oewn-00883327-n"], [27, "oewn-15271921-n"], [30, "oewn-03905025-n"], [33, "oewn-03458387-n"], [37, "oewn-00332776-n"], [39, "oewn-05572223-n"], [42, "oewn-03055137-n"], [45, "oewn-00349397-n"], [47, "oewn-03423924-n"], [48, "oewn-01484705-v"], [51, "oewn-00256895-r"], [54, "oewn-08659720-n"]]
     paragraph: '1'
     pos: ["IN", "IN", "CD", "MD", "RB", "RB", "VB", "IN", "NN", "IN", "DT", "NN", "RB", "RB", "JJ", "NN", ":", "DT", "NN", "POS", "NN", "NN", "VBG", "IN", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "IN", "PRP$", "NN", ",", "CC", "DT", "NN", "IN", "NNS", "IN", "DT", "NN", "CC", "DT", "NN", "IN", "NNS", "VBN", "EX", ",", "RB", "RB", "DT", "NN", "."]
     text: ' From above one could only occasionally catch_a_glimpse of life on the floor of this
@@ -171,7 +171,7 @@ mD0w:
     wn30_key: [[4, "only%4:02:02::"], [5, "occasionally%4:02:00::"], [6, "catch_a_glimpse%2:39:00::"], [8, "life%1:03:00::"], [11, "floor%1:17:00::;floor%1:17:01::"], [14, "green%3:00:00:chromatic:00"], [15, "sea%1:23:00::"], [18, "neighbor%1:18:00::"], [20, "gingham%1:06:00::"], [21, "skirt%1:06:00::"], [22, "flash%2:30:03::"], [24, "sight%1:04:00::"], [27, "instant%1:28:01::"], [30, "path%1:06:00::"], [33, "grape_arbor%1:06:00::"], [37, "movement%1:04:00::"], [39, "hand%1:08:00::"], [42, "clothesline%1:06:00::"], [45, "flutter%1:04:00::"], [47, "garment%1:06:00::"], [48, "hang%2:35:03::"], [51, "halfway%4:02:00::"], [54, "block%1:15:00::"]]
 VwkK:
     lemmas: ["That", "be", "one", "epoch", ":", "the", "apple_tree", "epoch", "."]
-    oewn2026_key: [[1, "oewn-02622439-v"], [2, "oewn-01682215-s"], [3, "oewn-15273375-n"], [6, "oewn-12654399-n"], [7, "oewn-15273375-n"]]
+    oewn_key: [[1, "oewn-02622439-v"], [2, "oewn-01682215-s"], [3, "oewn-15273375-n"], [6, "oewn-12654399-n"], [7, "oewn-15273375-n"]]
     paragraph: '2'
     pos: ["DT", "VBD", "JJ", "NN", ":", "DT", "NN", "NN", "."]
     text: ' That was one epoch: the apple-tree epoch.'
@@ -180,7 +180,7 @@ VwkK:
     wn30_key: [[1, "be%2:42:06::"], [2, "one%3:00:00:extraordinary:00"], [3, "epoch%1:28:00::"], [6, "apple_tree%1:20:00::"], [7, "epoch%1:28:00::"]]
 I2jx:
     lemmas: ["Another", "have", "end", "before", "it", "begin", "."]
-    oewn2026_key: [[2, "oewn-02615799-v"], [5, "oewn-00346415-v"]]
+    oewn_key: [[2, "oewn-02615799-v"], [5, "oewn-00346415-v"]]
     paragraph: '2'
     pos: ["DT", "VBD", "VBN", "IN", "PRP", "VBD", "."]
     text: ' Another had ended before it began.'
@@ -189,7 +189,7 @@ I2jx:
     wn30_key: [[2, "end%2:42:00::"], [5, "begin%2:30:00::"]]
 K6qq:
     lemmas: ["time", "be", "a", "queer", "thing", "and", "memory", "a", "queer", ";", "the", "trick", "that", "time", "play_with", "memory", "and", "memory", "with", "time", "be", "queer", "of", "all", "."]
-    oewn2026_key: [[0, "oewn-00028468-n"], [1, "oewn-02610777-v"], [3, "oewn-00971199-s"], [4, "oewn-04431553-n"], [6, "oewn-05768199-n"], [8, "oewn-00971199-s"], [11, "oewn-00172439-n"], [13, "oewn-00028468-n"], [15, "oewn-05768199-n"], [17, "oewn-05768199-n"], [19, "oewn-00028468-n"], [20, "oewn-02610777-v"], [21, "oewn-00971199-s"]]
+    oewn_key: [[0, "oewn-00028468-n"], [1, "oewn-02610777-v"], [3, "oewn-00971199-s"], [4, "oewn-04431553-n"], [6, "oewn-05768199-n"], [8, "oewn-00971199-s"], [11, "oewn-00172439-n"], [13, "oewn-00028468-n"], [15, "oewn-05768199-n"], [17, "oewn-05768199-n"], [19, "oewn-00028468-n"], [20, "oewn-02610777-v"], [21, "oewn-00971199-s"]]
     paragraph: '2'
     pos: ["NNP", "VBZ", "DT", "JJR", "NN", "CC", "NN", "JJR", "JJ", ":", "DT", "NNS", "IN", "NN", "VB", "NN", "CC", "NN", "IN", "NN", "VBP", "JJ", "IN", "DT", "."]
     text: ' Time is a queer thing and memory a queerer; the tricks that time plays_with memory
@@ -199,7 +199,7 @@ K6qq:
     wn30_key: [[0, "time%1:03:00::"], [1, "be%2:42:03::"], [3, "queer%3:00:00:strange:00"], [4, "thing%1:06:01::"], [6, "memory%1:09:01::"], [8, "queer%3:00:00:strange:00"], [11, "trick%1:04:05::"], [13, "time%1:03:00::"], [15, "memory%1:09:01::"], [17, "memory%1:09:01::"], [19, "time%1:03:00::"], [20, "be%2:42:03::"], [21, "queer%3:00:00:strange:00"]]
 gxpp:
     lemmas: ["From", "maturity", "one", "look_back", "at", "the", "succession", "of", "year", ",", "count", "them", "and", "make", "them", "many", ",", "yet", "cannot", "feel", "length", "in", "the", "number", ",", "however", "large", "."]
-    oewn2026_key: [[1, "oewn-15177777-n"], [3, "oewn-00698180-v"], [6, "oewn-08476919-n"], [8, "oewn-15228587-n"], [10, "oewn-00950103-v"], [13, "oewn-00120124-v"], [15, "oewn-01555990-a"], [19, "oewn-02110460-v"], [20, "oewn-05058400-n"], [23, "oewn-13603216-n"], [25, "oewn-00028974-r"], [26, "oewn-01385012-a"]]
+    oewn_key: [[1, "oewn-15177777-n"], [3, "oewn-00698180-v"], [6, "oewn-08476919-n"], [8, "oewn-15228587-n"], [10, "oewn-00950103-v"], [13, "oewn-00120124-v"], [15, "oewn-01555990-a"], [19, "oewn-02110460-v"], [20, "oewn-05058400-n"], [23, "oewn-13603216-n"], [25, "oewn-00028974-r"], [26, "oewn-01385012-a"]]
     paragraph: '2'
     pos: ["IN", "NN", "CD", "VB", "IN", "DT", "NN", "IN", "NNS", ",", "VBZ", "PRP", "CC", "VBZ", "PRP", "JJ", ",", "RB", "MD", "VB", "NN", "IN", "DT", "NN", ",", "RB", "JJ", "."]
     text: ' From maturity one looks_back at the succession of years, counts them and makes them
@@ -209,7 +209,7 @@ gxpp:
     wn30_key: [[1, "maturity%1:28:00::"], [3, "look_back%2:31:00::"], [6, "succession%1:14:00::"], [8, "year%1:28:01::"], [10, "count%2:32:00::"], [13, "make%2:30:00::"], [15, "many%3:00:00::"], [19, "feel%2:39:00::"], [20, "length%1:07:01::"], [23, "number%1:23:00::"], [25, "however%4:02:02::"], [26, "large%3:00:00::"]]
 10GN:
     lemmas: ["In", "a", "stream", "that", "turn", "a", "millwheel", "there", "be", "a_lot", "of", "water", ";", "the", "millpond", "be", "quiet", ",", "its", "surface", "dark", "and", "shadowed", ",", "and", "there", "do", "not", "seem", "to", "be", "much", "water", "in", "it", "."]
-    oewn2026_key: [[2, "oewn-09471510-n"], [4, "oewn-02094251-v"], [6, "oewn-03772738-n"], [8, "oewn-02661230-v"], [9, "oewn-00059709-r"], [11, "oewn-14869913-n"], [14, "oewn-09378158-n"], [15, "oewn-02610777-v"], [16, "oewn-01925383-a"], [19, "oewn-08677970-n"], [20, "oewn-00273948-a"], [22, "oewn-00277728-s"], [27, "oewn-00024432-r"], [28, "oewn-02137900-v"], [31, "oewn-01557986-a"], [32, "oewn-14869913-n"]]
+    oewn_key: [[2, "oewn-09471510-n"], [4, "oewn-02094251-v"], [6, "oewn-03772738-n"], [8, "oewn-02661230-v"], [9, "oewn-00059709-r"], [11, "oewn-14869913-n"], [14, "oewn-09378158-n"], [15, "oewn-02610777-v"], [16, "oewn-01925383-a"], [19, "oewn-08677970-n"], [20, "oewn-00273948-a"], [22, "oewn-00277728-s"], [27, "oewn-00024432-r"], [28, "oewn-02137900-v"], [31, "oewn-01557986-a"], [32, "oewn-14869913-n"]]
     paragraph: '2'
     pos: ["IN", "DT", "NN", "WDT", "VBZ", "DT", "NN", "EX", "VBZ", "RB", "JJ", "NN", ":", "DT", "NN", "VBZ", "JJ", ",", "PRP$", "NN", "JJ", "CC", "JJ", ",", "CC", "EX", "VBZ", "RB", "VB", "TO", "VB", "JJ", "NN", "IN", "PRP", "."]
     text: ' In a stream that turns a mill-wheel there is a_lot of water; the mill-pond is quiet,
@@ -219,7 +219,7 @@ gxpp:
     wn30_key: [[2, "stream%1:17:00::"], [4, "turn%2:38:02::"], [6, "millwheel%1:06:00::"], [8, "be%2:42:05::"], [9, "a_lot%4:02:00::"], [11, "water%1:27:00::"], [14, "millpond%1:17:00::"], [15, "be%2:42:03::"], [16, "quiet%3:00:01::"], [19, "surface%1:15:00::"], [20, "dark%3:00:01::"], [22, "shadowed%3:00:00:shaded:01"], [27, "not%4:02:00::"], [28, "seem%2:39:00::"], [31, "much%3:00:00::"], [32, "water%1:27:00::"]]
 uWHE:
     lemmas: ["time", "in", "the", "sum", "be", "nothing", "."]
-    oewn2026_key: [[0, "oewn-00028468-n"], [3, "oewn-04360881-n"], [4, "oewn-02622439-v"], [5, "oewn-13762308-n"]]
+    oewn_key: [[0, "oewn-00028468-n"], [3, "oewn-04360881-n"], [4, "oewn-02622439-v"], [5, "oewn-13762308-n"]]
     paragraph: '2'
     pos: ["NN", "NN", "NN", "NN", "VBZ", "NN", "."]
     text: ' Time in the sum is nothing.'
@@ -228,7 +228,7 @@ uWHE:
     wn30_key: [[0, "time%1:03:00::"], [3, "sum%1:06:00::"], [4, "be%2:42:06::"], [5, "nothing%1:23:00::"]]
 vcKy:
     lemmas: ["And", "yet", "-", "a", "year", "to", "a", "child", "be", "an", "eternity", ",", "and", "in", "the", "memory", "that", "phase", "of", "one", "'s", "being", "-", "a", "certain", "mental", "landscape", "-", "will", "seem", "to", "have", "endure", "without", "beginning", "and", "without", "end", "."]
-    oewn2026_key: [[1, "oewn-00028191-r"], [4, "oewn-15228587-n"], [7, "oewn-09937051-n"], [8, "oewn-02622439-v"], [10, "oewn-15298392-n"], [15, "oewn-05943778-n"], [17, "oewn-15315573-n"], [21, "oewn-13977471-n"], [24, "oewn-00704329-s"], [25, "oewn-01784531-a"], [26, "oewn-08664477-n"], [29, "oewn-02137900-v"], [32, "oewn-02624202-v"], [34, "oewn-15290329-n"], [37, "oewn-15291722-n"]]
+    oewn_key: [[1, "oewn-00028191-r"], [4, "oewn-15228587-n"], [7, "oewn-09937051-n"], [8, "oewn-02622439-v"], [10, "oewn-15298392-n"], [15, "oewn-05943778-n"], [17, "oewn-15315573-n"], [21, "oewn-13977471-n"], [24, "oewn-00704329-s"], [25, "oewn-01784531-a"], [26, "oewn-08664477-n"], [29, "oewn-02137900-v"], [32, "oewn-02624202-v"], [34, "oewn-15290329-n"], [37, "oewn-15291722-n"]]
     paragraph: '2'
     pos: ["CC", "RB", ":", "DT", "NN", "TO", "DT", "NN", "VBZ", "DT", "NN", ",", "CC", "IN", "DT", "NN", "IN", "NN", "IN", "CD", "POS", "NN", ":", "DT", "JJ", "JJ", "NN", ":", "MD", "VB", "TO", "VB", "VBN", "NN", "NN", "CC", "RB", "NN", "."]
     text: ' And yet - a year to a child is an eternity, and in the memory that phase of one''s
@@ -239,7 +239,7 @@ vcKy:
     wn30_key: [[1, "yet%4:02:02::"], [4, "year%1:28:01::"], [7, "child%1:18:00::"], [8, "be%2:42:06::"], [10, "eternity%1:28:01::"], [15, "memory%1:09:02::"], [17, "phase%1:28:00::"], [21, "being%1:26:00::"], [24, "certain%3:00:00:definite:00"], [25, "mental%3:00:00::"], [26, "landscape%1:15:00::"], [29, "seem%2:39:00::"], [32, "endure%2:42:00::"], [34, "beginning%1:28:00::"], [37, "end%1:28:00::"]]
 A0s2:
     lemmas: ["The", "part", "of", "the", "mind", "that", "preserve", "date", "and", "event", "may", "remonstrate", ",", "\"", "It", "could", "have", "be", "like", "that", "for", "only", "a_little", "while", "\"", ";", "but", "true", "memory", "do", "not", "count", "nor", "add", ":", "it", "hold", "fast", "to", "thing", "that", "be", "and", "they", "be", "outside", "of", "time", "."]
-    oewn2026_key: [[1, "oewn-13831419-n"], [4, "oewn-05770146-n"], [6, "oewn-02284977-v"], [7, "oewn-15184543-n"], [9, "oewn-00029677-n"], [11, "oewn-00912508-v"], [21, "oewn-00005103-r"], [22, "oewn-00034050-r"], [23, "oewn-15271164-n"], [27, "oewn-02469730-a"], [28, "oewn-05768199-n"], [30, "oewn-00024432-r"], [31, "oewn-00950103-v"], [33, "oewn-00951320-v"], [36, "oewn-02687605-v"], [37, "oewn-00086892-r"], [39, "oewn-13967020-n"], [41, "oewn-02609706-v"], [44, "oewn-02661230-v"], [47, "oewn-00028468-n"]]
+    oewn_key: [[1, "oewn-13831419-n"], [4, "oewn-05770146-n"], [6, "oewn-02284977-v"], [7, "oewn-15184543-n"], [9, "oewn-00029677-n"], [11, "oewn-00912508-v"], [21, "oewn-00005103-r"], [22, "oewn-00034050-r"], [23, "oewn-15271164-n"], [27, "oewn-02469730-a"], [28, "oewn-05768199-n"], [30, "oewn-00024432-r"], [31, "oewn-00950103-v"], [33, "oewn-00951320-v"], [36, "oewn-02687605-v"], [37, "oewn-00086892-r"], [39, "oewn-13967020-n"], [41, "oewn-02609706-v"], [44, "oewn-02661230-v"], [47, "oewn-00028468-n"]]
     paragraph: '2'
     pos: ["DT", "NN", "IN", "DT", "NN", "WDT", "VBZ", "NNS", "CC", "NNS", "MD", "VB", ",", "``", "PRP", "MD", "VB", "VB", "IN", "IN", "IN", "RB", "RB", "NN", "``", ":", "CC", "JJ", "NN", "VBZ", "RB", "VB", "CC", "VB", ":", "PRP", "VBZ", "RB", "TO", "NNS", "WDT", "VBD", "CC", "PRP", "VBP", "IN", "IN", "NN", "."]
     text: ' The part of the mind that preserves dates and events may remonstrate, " It could
@@ -252,7 +252,7 @@ A0s2:
     wn30_key: [[1, "part%1:24:00::"], [4, "mind%1:09:01::"], [6, "preserve%2:40:00::"], [7, "date%1:28:00::"], [9, "event%1:03:00::"], [11, "remonstrate%2:32:00::"], [21, "only%4:02:02::"], [22, "a_little%4:02:00::"], [23, "while%1:28:00::"], [27, "true%3:00:00::"], [28, "memory%1:09:01::"], [30, "not%4:02:00::"], [31, "count%2:32:00::"], [33, "add%2:32:00::"], [36, "hold%2:42:00::"], [37, "fast%4:02:02::"], [39, "thing%1:26:00::"], [41, "be%2:42:00::"], [44, "be%2:42:05::"], [47, "time%1:03:00::"]]
 ufvq:
     lemmas: ["once", ",", "then", "-", "for", "how", "many", "year", "or", "how", "few", "do", "not", "matter", "-", "my", "world", "be", "bound", "round", "by", "fence", ",", "when", "I", "be", "too", "small", "to", "reach", "the", "apple_tree", "bough", ",", "to", "twist", "my", "knee", "over", "it", "and", "pull_up", "myself", "up", "."]
-    oewn2026_key: [[0, "oewn-00119765-r"], [2, "oewn-00118928-r"], [6, "oewn-01555990-a"], [7, "oewn-15228587-n"], [10, "oewn-01557242-a"], [12, "oewn-00024432-r"], [13, "oewn-02651923-v"], [16, "oewn-09503939-n"], [17, "oewn-02610777-v"], [18, "oewn-00253820-a"], [19, "oewn-00071856-r"], [21, "oewn-03332179-n"], [25, "oewn-02610777-v"], [26, "oewn-00047930-r"], [27, "oewn-01394303-a"], [29, "oewn-02691488-v"], [31, "oewn-12654399-n"], [32, "oewn-13186625-n"], [35, "oewn-01282617-v"], [37, "oewn-05581233-n"], [41, "oewn-01986700-v"]]
+    oewn_key: [[0, "oewn-00119765-r"], [2, "oewn-00118928-r"], [6, "oewn-01555990-a"], [7, "oewn-15228587-n"], [10, "oewn-01557242-a"], [12, "oewn-00024432-r"], [13, "oewn-02651923-v"], [16, "oewn-09503939-n"], [17, "oewn-02610777-v"], [18, "oewn-00253820-a"], [19, "oewn-00071856-r"], [21, "oewn-03332179-n"], [25, "oewn-02610777-v"], [26, "oewn-00047930-r"], [27, "oewn-01394303-a"], [29, "oewn-02691488-v"], [31, "oewn-12654399-n"], [32, "oewn-13186625-n"], [35, "oewn-01282617-v"], [37, "oewn-05581233-n"], [41, "oewn-01986700-v"]]
     paragraph: '3'
     pos: ["RB", ",", "RB", ":", "IN", "WRB", "JJ", "NNS", "CC", "WRB", "JJ", "VBZ", "RB", "VB", ":", "PRP$", "NN", "VBD", "JJ", "RB", "IN", "NNS", ",", "WRB", "PRP", "VBD", "RB", "JJ", "TO", "VB", "DT", "NN", "NN", ",", "TO", "VB", "PRP$", "NN", "IN", "PRP", "CC", "VB", "PRP", "RB", "."]
     text: ' Once, then - for how many years or how few does not matter - my world was bound
@@ -263,7 +263,7 @@ ufvq:
     wn30_key: [[0, "once%4:02:00::"], [2, "then%4:02:02::"], [6, "many%3:00:00::"], [7, "year%1:28:01::"], [10, "few%3:00:00::"], [12, "not%4:02:00::"], [13, "matter%2:42:00::"], [16, "world%1:17:02::"], [17, "be%2:42:03::"], [18, "bound%3:00:01::"], [19, "round%4:02:00::"], [21, "fence%1:06:00::"], [25, "be%2:42:03::"], [26, "too%4:02:00::"], [27, "small%3:00:00::"], [29, "reach%2:42:00::"], [31, "apple_tree%1:20:00::"], [32, "bough%1:20:00::"], [35, "twist%2:35:02::"], [37, "knee%1:08:00::"], [41, "pull_up%2:38:03::"]]
 /Wc6:
     lemmas: ["That", "world", "be", "in", "scale", "with", "my", "own", "smallness", "."]
-    oewn2026_key: [[1, "oewn-09503939-n"], [2, "oewn-02610777-v"], [4, "oewn-13839074-n"], [7, "oewn-01773236-s"], [8, "oewn-05113933-n"]]
+    oewn_key: [[1, "oewn-09503939-n"], [2, "oewn-02610777-v"], [4, "oewn-13839074-n"], [7, "oewn-01773236-s"], [8, "oewn-05113933-n"]]
     paragraph: '3'
     pos: ["DT", "NN", "VBD", "IN", "NN", "IN", "PRP$", "JJ", "NN", "."]
     text: ' That world was in scale with my own smallness.'
@@ -272,7 +272,7 @@ ufvq:
     wn30_key: [[1, "world%1:17:02::"], [2, "be%2:42:03::"], [4, "scale%1:24:01::"], [7, "own%3:00:00:personal:00"], [8, "smallness%1:07:00::"]]
 cGFz:
     lemmas: ["I", "have", "no", "picture", "in", "my", "mind", "of", "the", "garden", "as_a_whole", "-", "that", "I", "could", "not", "see", "-", "but", "certain", "aspect", "of", "certain", "corner", "linger", "in", "the", "memory", ":", "windblown", ",", "frostbitten", ",", "white", "chrysanthemum", "beneath", "a", "window", ",", "with", "their", "brittle", "brown", "leaf", "and", "their", "sharp", "scent", "of", "november", ";", "ripe", "pear", "lie", "in", "long", "grass", ",", "to", "be", "turn_over", "by", "a", "dusty", "slippered", "foot", ",", "cautiously", ",", "lest", "bee", "still", "work", "in", "the", "ragged", ",", "brown", "edged", "hole", ";", "hot", "colored", "verbena", "in", "the", "corner", "between", "the", "dining_room", "wall", "and", "the", "side", "porch", ",", "where", "we", "pass", "on_the_way", "to", "the", "pump", "with", "the", "half", "gourd", "tie", "to", "it", "as", "a", "cup", "by", "my", "grandmother", "for", "our", "childish", "pleasure", "in", "drink", "from", "it", "."]
-    oewn2026_key: [[1, "oewn-02208144-v"], [3, "oewn-05945422-n"], [6, "oewn-05770146-n"], [9, "oewn-03422659-n"], [15, "oewn-00024432-r"], [16, "oewn-01638974-v"], [19, "oewn-00704329-s"], [20, "oewn-05941982-n"], [22, "oewn-00704329-s"], [23, "oewn-08561994-n"], [24, "oewn-02737117-v"], [27, "oewn-05943778-n"], [29, "oewn-02321916-s"], [31, "oewn-01082361-s"], [33, "oewn-00394166-a"], [34, "oewn-11971740-n"], [37, "oewn-04594951-n"], [41, "oewn-00711942-s"], [42, "oewn-00373173-s"], [43, "oewn-13173519-n"], [47, "oewn-05722413-n"], [49, "oewn-15238202-n"], [51, "oewn-01496321-a"], [52, "oewn-07783823-n"], [53, "oewn-02696550-v"], [55, "oewn-01436368-a"], [56, "oewn-12122650-n"], [60, "oewn-01913971-v"], [63, "oewn-01700799-s"], [64, "oewn-02163920-s"], [65, "oewn-05570899-n"], [67, "oewn-00283532-r"], [70, "oewn-02209508-n"], [71, "oewn-00031700-r"], [72, "oewn-02418610-v"], [75, "oewn-00916245-s"], [77, "oewn-00373173-s"], [78, "oewn-00259277-s"], [79, "oewn-09327371-n"], [81, "oewn-02542535-s"], [82, "oewn-00395623-a"], [83, "oewn-12935683-n"], [86, "oewn-03114532-n"], [89, "oewn-03205385-n"], [90, "oewn-04554141-n"], [93, "oewn-02450419-a"], [94, "oewn-03990739-n"], [98, "oewn-02054081-v"], [99, "oewn-00172731-r"], [102, "oewn-04028192-n"], [105, "oewn-00519479-s"], [106, "oewn-03454395-n"], [107, "oewn-01357376-v"], [112, "oewn-03152175-n"], [115, "oewn-10162267-n"], [118, "oewn-01496164-s"], [119, "oewn-07505853-n"], [121, "oewn-01172332-v"]]
+    oewn_key: [[1, "oewn-02208144-v"], [3, "oewn-05945422-n"], [6, "oewn-05770146-n"], [9, "oewn-03422659-n"], [15, "oewn-00024432-r"], [16, "oewn-01638974-v"], [19, "oewn-00704329-s"], [20, "oewn-05941982-n"], [22, "oewn-00704329-s"], [23, "oewn-08561994-n"], [24, "oewn-02737117-v"], [27, "oewn-05943778-n"], [29, "oewn-02321916-s"], [31, "oewn-01082361-s"], [33, "oewn-00394166-a"], [34, "oewn-11971740-n"], [37, "oewn-04594951-n"], [41, "oewn-00711942-s"], [42, "oewn-00373173-s"], [43, "oewn-13173519-n"], [47, "oewn-05722413-n"], [49, "oewn-15238202-n"], [51, "oewn-01496321-a"], [52, "oewn-07783823-n"], [53, "oewn-02696550-v"], [55, "oewn-01436368-a"], [56, "oewn-12122650-n"], [60, "oewn-01913971-v"], [63, "oewn-01700799-s"], [64, "oewn-02163920-s"], [65, "oewn-05570899-n"], [67, "oewn-00283532-r"], [70, "oewn-02209508-n"], [71, "oewn-00031700-r"], [72, "oewn-02418610-v"], [75, "oewn-00916245-s"], [77, "oewn-00373173-s"], [78, "oewn-00259277-s"], [79, "oewn-09327371-n"], [81, "oewn-02542535-s"], [82, "oewn-00395623-a"], [83, "oewn-12935683-n"], [86, "oewn-03114532-n"], [89, "oewn-03205385-n"], [90, "oewn-04554141-n"], [93, "oewn-02450419-a"], [94, "oewn-03990739-n"], [98, "oewn-02054081-v"], [99, "oewn-00172731-r"], [102, "oewn-04028192-n"], [105, "oewn-00519479-s"], [106, "oewn-03454395-n"], [107, "oewn-01357376-v"], [112, "oewn-03152175-n"], [115, "oewn-10162267-n"], [118, "oewn-01496164-s"], [119, "oewn-07505853-n"], [121, "oewn-01172332-v"]]
     paragraph: '3'
     pos: ["PRP", "VBP", "DT", "NN", "IN", "PRP$", "NN", "IN", "DT", "NN", "JJ", ":", "IN", "PRP", "MD", "RB", "VB", ":", "CC", "JJ", "NNS", "IN", "JJ", "NNS", "VBP", "IN", "DT", "NN", ":", "JJ", ",", "JJ", ",", "JJ", "NNS", "IN", "DT", "NN", ",", "IN", "PRP$", "JJ", "JJ", "NNS", "CC", "PRP$", "JJ", "NN", "IN", "NNP", ":", "JJ", "NNS", "VBG", "VB", "JJ", "NN", ",", "TO", "VB", "VB", "IN", "DT", "JJ", "JJ", "NN", ",", "RB", ",", "IN", "NNS", "RB", "VBD", "IN", "DT", "JJ", ",", "JJ", "JJ", "NNS", ":", "JJ", "JJ", "NNS", "IN", "DT", "NN", "IN", "DT", "NN", "NN", "CC", "DT", "JJ", "NN", ",", "WRB", "PRP", "VBD", "RB", "TO", "DT", "NN", "IN", "DT", "JJ", "NN", "VBN", "RB", "RB", "IN", "DT", "NN", "IN", "PRP$", "NN", "IN", "PRP$", "JJ", "NN", "IN", "VB", "RB", "RB", "."]
     text: ' I have no picture in my mind of the garden as_a_whole - that I could not see - but
@@ -290,7 +290,7 @@ cGFz:
     wn30_key: [[1, "have%2:40:00::"], [3, "picture%1:09:00::"], [6, "mind%1:09:01::"], [9, "garden%1:06:01::"], [15, "not%4:02:00::"], [16, "see%2:36:00::"], [19, "certain%3:00:00:definite:00"], [20, "aspect%1:09:01::"], [22, "certain%3:00:00:definite:00"], [23, "corner%1:15:02::"], [24, "linger%2:42:02::"], [27, "memory%1:09:02::"], [29, "windblown%3:00:00:crooked:01"], [31, "frostbitten%3:00:00:frozen:00"], [33, "white%3:00:01::"], [34, "chrysanthemum%1:20:01::"], [37, "window%1:06:00::"], [41, "brittle%3:00:00:breakable:00"], [42, "brown%3:00:00:chromatic:00"], [43, "leaf%1:20:00::"], [47, "scent%1:09:01::"], [49, "november%1:28:00::"], [51, "ripe%3:00:00::"], [52, "pear%1:13:00::"], [53, "lie%2:42:00::"], [55, "long%3:00:01::"], [56, "grass%1:20:00::"], [60, "turn_over%2:38:02::"], [63, "dusty%3:00:00:covered:00"], [64, "slippered%3:00:00:shod:00"], [65, "foot%1:08:01::"], [67, "cautiously%4:02:00::"], [70, "bee%1:05:00::"], [71, "still%4:02:01::"], [72, "work%2:41:02::"], [75, "ragged%3:00:00:uneven:00"], [77, "brown%3:00:00:chromatic:00"], [78, "edged%3:00:00:bordered:00"], [79, "hole%1:17:01::"], [81, "hot%3:00:00:warm:03"], [82, "colored%3:00:00::"], [83, "verbena%1:20:00::"], [86, "corner%1:06:02::"], [89, "dining_room%1:06:00::"], [90, "wall%1:06:00::"], [93, "side%3:00:00::"], [94, "porch%1:06:00::"], [98, "pass%2:38:00::"], [99, "on_the_way%4:02:00::"], [102, "pump%1:06:00::"], [105, "half%3:00:00:fractional:00"], [106, "gourd%1:06:00::"], [107, "tie%2:35:01::"], [112, "cup%1:06:00::"], [115, "grandmother%1:18:00::"], [118, "childish%3:00:00:immature:02"], [119, "pleasure%1:12:00::"], [121, "drink%2:34:00::"]]
 Smsk:
     lemmas: ["It", "be", "mother", "who", "plant", "the", "verbena", "."]
-    oewn2026_key: [[1, "oewn-02622439-v"], [2, "oewn-10352098-n"], [4, "oewn-01570056-v"], [6, "oewn-12935683-n"]]
+    oewn_key: [[1, "oewn-02622439-v"], [2, "oewn-10352098-n"], [4, "oewn-01570056-v"], [6, "oewn-12935683-n"]]
     paragraph: '4'
     pos: ["PRP", "VBD", "NN", "WP", "VBD", "DT", "NNS", "."]
     text: ' It was mother who planted the verbenas.'
@@ -299,7 +299,7 @@ Smsk:
     wn30_key: [[1, "be%2:42:06::"], [2, "mother%1:18:00::"], [4, "plant%2:35:00::"], [6, "verbena%1:20:00::"]]
 7axI:
     lemmas: ["I", "think", "that", "my", "grandmother", "be", "not", "an", "impassioned", "gardener", ":"]
-    oewn2026_key: [[1, "oewn-00633399-v"], [4, "oewn-10162267-n"], [5, "oewn-02610777-v"], [6, "oewn-00024432-r"], [8, "oewn-01730449-s"], [9, "oewn-10140190-n"]]
+    oewn_key: [[1, "oewn-00633399-v"], [4, "oewn-10162267-n"], [5, "oewn-02610777-v"], [6, "oewn-00024432-r"], [8, "oewn-01730449-s"], [9, "oewn-10140190-n"]]
     paragraph: '4'
     pos: ["PRP", "VBP", "IN", "PRP$", "NN", "VBD", "RB", "DT", "JJ", "NN", ":"]
     text: ' I think that my grandmother was not an impassioned gardener:'
@@ -308,7 +308,7 @@ Smsk:
     wn30_key: [[1, "think%2:31:03::"], [4, "grandmother%1:18:00::"], [5, "be%2:42:03::"], [6, "not%4:02:00::"], [8, "impassioned%3:00:00:passionate:00"], [9, "gardener%1:18:00::"]]
 j3x2:
     lemmas: ["she", "be", "too", "indulgent", "a", "lover", "of", "dog", "and", "grandchild", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-00047930-r"], [3, "oewn-01767671-s"], [5, "oewn-10097373-n"], [7, "oewn-02086723-n"], [9, "oewn-10161110-n"]]
+    oewn_key: [[1, "oewn-02610777-v"], [2, "oewn-00047930-r"], [3, "oewn-01767671-s"], [5, "oewn-10097373-n"], [7, "oewn-02086723-n"], [9, "oewn-10161110-n"]]
     paragraph: '4'
     pos: ["PRP", "VBD", "RB", "JJ", "DT", "NN", "IN", "NNS", "CC", "NNS", "."]
     text: ' she was too indulgent a lover of dogs and grandchildren.'
@@ -317,7 +317,7 @@ j3x2:
     wn30_key: [[1, "be%2:42:03::"], [2, "too%4:02:00::"], [3, "indulgent%3:00:00:permissive:01"], [5, "lover%1:18:01::"], [7, "dog%1:05:00::"], [9, "grandchild%1:18:00::"]]
 ejE2:
     lemmas: ["My", "great_grandmother", ",", "I", "have", "be", "tell", ",", "make", "her", "garden", "her", "great", "pride", ";", "she", "cherish", "rare", "and", "delicate", "plant", "like", "oleander", "in", "tub", "and", "wallflower", "and", "lemon", "verbena", "in", "pot", "that", "have", "to", "be", "winter", "in", "the", "cellar", ";", "she", "fill", "the", "waste", "spot", "of", "the", "yard", "with", "common", "thing", "like", "the", "garden_heliotrope", "in", "a", "corner", "by", "the", "woodshed", ",", "and", "the", "plantain_lily", "along", "the", "west_side", "of", "the", "house", "."]
-    oewn2026_key: [[1, "oewn-10165110-n"], [6, "oewn-00954556-v"], [8, "oewn-00120124-v"], [10, "oewn-03422659-n"], [12, "oewn-01682025-s"], [13, "oewn-07546924-n"], [16, "oewn-01780135-v"], [17, "oewn-00017062-s"], [19, "oewn-00709335-a"], [20, "oewn-00017402-n"], [22, "oewn-11794456-n"], [24, "oewn-04500676-n"], [26, "oewn-11907588-n"], [28, "oewn-04973720-n"], [29, "oewn-12935683-n"], [31, "oewn-03997420-n"], [33, "oewn-00065141-v;oewn-02383544-v;oewn-02746620-v"], [36, "oewn-02715447-v"], [39, "oewn-02803656-n"], [42, "oewn-00453467-v"], [44, "oewn-14880414-n"], [45, "oewn-08682181-n"], [48, "oewn-04618236-n"], [50, "oewn-00973799-s"], [51, "oewn-04431553-n"], [54, "oewn-12971074-n"], [57, "oewn-08561994-n"], [60, "oewn-04605645-n"], [64, "oewn-12478276-n"], [67, "oewn-08668168-n"], [70, "oewn-03549540-n"]]
+    oewn_key: [[1, "oewn-10165110-n"], [6, "oewn-00954556-v"], [8, "oewn-00120124-v"], [10, "oewn-03422659-n"], [12, "oewn-01682025-s"], [13, "oewn-07546924-n"], [16, "oewn-01780135-v"], [17, "oewn-00017062-s"], [19, "oewn-00709335-a"], [20, "oewn-00017402-n"], [22, "oewn-11794456-n"], [24, "oewn-04500676-n"], [26, "oewn-11907588-n"], [28, "oewn-04973720-n"], [29, "oewn-12935683-n"], [31, "oewn-03997420-n"], [33, "oewn-00065141-v;oewn-02383544-v;oewn-02746620-v"], [36, "oewn-02715447-v"], [39, "oewn-02803656-n"], [42, "oewn-00453467-v"], [44, "oewn-14880414-n"], [45, "oewn-08682181-n"], [48, "oewn-04618236-n"], [50, "oewn-00973799-s"], [51, "oewn-04431553-n"], [54, "oewn-12971074-n"], [57, "oewn-08561994-n"], [60, "oewn-04605645-n"], [64, "oewn-12478276-n"], [67, "oewn-08668168-n"], [70, "oewn-03549540-n"]]
     paragraph: '4'
     pos: ["PRP$", "NN", ",", "PRP", "VBP", "VBN", "VBN", ",", "VBD", "PRP$", "NN", "PRP$", "JJ", "NN", ":", "PRP", "VBD", "JJ", "CC", "JJ", "NNS", "IN", "NNS", "IN", "NNS", "CC", "NNS", "CC", "NN", "NNS", "IN", "NNS", "WDT", "VBD", "TO", "VB", "VBN", "IN", "DT", "NN", ":", "PRP", "VBD", "DT", "NN", "NNS", "IN", "DT", "NN", "IN", "JJ", "NNS", "IN", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NN", ",", "CC", "DT", "NNS", "IN", "DT", "NN", "IN", "DT", "NN", "."]
     text: ' My great_grandmother, I have been told, made her garden her great pride; she cherished
@@ -330,7 +330,7 @@ ejE2:
     wn30_key: [[1, "great_grandmother%1:18:00::"], [6, "tell%2:32:00::"], [8, "make%2:30:00::"], [10, "garden%1:06:01::"], [12, "great%3:00:01:extraordinary:00"], [13, "pride%1:12:01::"], [16, "cherish%2:37:00::"], [17, "rare%3:00:00:scarce:00"], [19, "delicate%3:00:00::"], [20, "plant%1:03:00::"], [22, "oleander%1:20:00::"], [24, "tub%1:06:00::"], [26, "wallflower%1:20:02::"], [28, "lemon%1:07:00::"], [29, "verbena%1:20:00::"], [31, "pot%1:06:04::"], [33, "have%2:29:02::;have%2:41:00::;have%2:42:12::"], [36, "winter%2:42:00::"], [39, "cellar%1:06:00::"], [42, "fill%2:30:01::"], [44, "waste%1:27:00::"], [45, "spot%1:15:01::"], [48, "yard%1:06:02::"], [50, "common%3:00:00:familiar:02"], [51, "thing%1:06:01::"], [54, "garden_heliotrope%1:20:00::"], [57, "corner%1:15:02::"], [60, "woodshed%1:06:00::"], [64, "plantain_lily%1:20:00::"], [67, "west_side%1:15:00::"], [70, "house%1:06:00::"]]
 +n9e:
     lemmas: ["These", "my", "grandmother", "leave", "in", "their", "place", "(", "they", "be", "still", "there", ",", "more", "persistent", "and", "long-lived", "than", "the", "generation", "of", "man", ")", "and", "plant", "other", "like", "them", ",", "that", "flourish", "without", "careful", "tending", "."]
-    oewn2026_key: [[2, "oewn-10162267-n"], [3, "oewn-00136799-v"], [6, "oewn-08639173-n"], [9, "oewn-02661230-v"], [10, "oewn-00031700-r"], [13, "oewn-00099891-r"], [14, "oewn-00595708-s"], [16, "oewn-01442370-s"], [19, "oewn-08386333-n"], [21, "oewn-02475618-n"], [24, "oewn-01570056-v"], [30, "oewn-00311168-v"], [32, "oewn-00309819-a"], [33, "oewn-00656128-n"]]
+    oewn_key: [[2, "oewn-10162267-n"], [3, "oewn-00136799-v"], [6, "oewn-08639173-n"], [9, "oewn-02661230-v"], [10, "oewn-00031700-r"], [13, "oewn-00099891-r"], [14, "oewn-00595708-s"], [16, "oewn-01442370-s"], [19, "oewn-08386333-n"], [21, "oewn-02475618-n"], [24, "oewn-01570056-v"], [30, "oewn-00311168-v"], [32, "oewn-00309819-a"], [33, "oewn-00656128-n"]]
     paragraph: '4'
     pos: ["DT", "PRP$", "NN", "VBN", "IN", "PRP$", "NNS", "VBP", "PRP", "VBP", "RB", "EX", ",", "RBR", "JJ", "CC", "JJ", "IN", "DT", "NNS", "IN", "NN", "CD", "CC", "VBN", "NNS", "IN", "PRP", ",", "WDT", "VBD", "IN", "JJ", "NN", "."]
     text: ' These my grandmother left in their places (they are still there, more persistent
@@ -341,7 +341,7 @@ ejE2:
     wn30_key: [[2, "grandmother%1:18:00::"], [3, "leave%2:30:02::"], [6, "place%1:15:05::"], [9, "be%2:42:05::"], [10, "still%4:02:01::"], [13, "more%4:02:00::"], [14, "persistent%3:00:00:continual:00"], [16, "long-lived%3:00:00:long:02"], [19, "generation%1:14:01::"], [21, "man%1:05:00::"], [24, "plant%2:35:00::"], [30, "flourish%2:30:01::"], [32, "careful%3:00:00::"], [33, "tending%1:04:00::"]]
 Rdl3:
     lemmas: ["three", "of", "these", "only", "be", "protect", "from", "us", "by", "stern", "commandment", ":", "the", "rose", ",", "whose", "petal", "may_not", "be", "collect", "until", "they", "have", "fall", ",", "to", "be", "make", "into", "perfume", "or", "rose", "tea", "to", "drink", ";", "the", "peony", ",", "whose", "tight", "sticky", "bud", "would", "be", "blight", "by", "the", "laying_on", "of_a", "finger", ",", "although", "they", "be", "not", "apparently", "harm", "by", "the", "ant", "that", "crawl", "over", "them", ";", "and", "the", "poppy", "."]
-    oewn2026_key: [[0, "oewn-02194219-s"], [3, "oewn-00009062-r"], [5, "oewn-01130619-v"], [9, "oewn-00714774-s"], [10, "oewn-07184499-n"], [13, "oewn-12640957-n"], [16, "oewn-11710924-n"], [19, "oewn-01383303-v"], [23, "oewn-01976312-v"], [27, "oewn-00120124-v"], [29, "oewn-03922150-n"], [31, "oewn-12640957-n"], [32, "oewn-07949514-n"], [34, "oewn-01172332-v"], [37, "oewn-11739755-n"], [40, "oewn-01450193-a"], [41, "oewn-00053931-s"], [42, "oewn-11695365-n"], [45, "oewn-02777278-v"], [48, "oewn-00139261-n"], [50, "oewn-05574137-n"], [55, "oewn-00024432-r"], [56, "oewn-00040353-r"], [57, "oewn-00102340-v"], [60, "oewn-02222138-n"], [62, "oewn-01889838-v"], [68, "oewn-11921038-n"]]
+    oewn_key: [[0, "oewn-02194219-s"], [3, "oewn-00009062-r"], [5, "oewn-01130619-v"], [9, "oewn-00714774-s"], [10, "oewn-07184499-n"], [13, "oewn-12640957-n"], [16, "oewn-11710924-n"], [19, "oewn-01383303-v"], [23, "oewn-01976312-v"], [27, "oewn-00120124-v"], [29, "oewn-03922150-n"], [31, "oewn-12640957-n"], [32, "oewn-07949514-n"], [34, "oewn-01172332-v"], [37, "oewn-11739755-n"], [40, "oewn-01450193-a"], [41, "oewn-00053931-s"], [42, "oewn-11695365-n"], [45, "oewn-02777278-v"], [48, "oewn-00139261-n"], [50, "oewn-05574137-n"], [55, "oewn-00024432-r"], [56, "oewn-00040353-r"], [57, "oewn-00102340-v"], [60, "oewn-02222138-n"], [62, "oewn-01889838-v"], [68, "oewn-11921038-n"]]
     paragraph: '4'
     pos: ["JJ", "IN", "DT", "RB", "VBD", "VBN", "IN", "PRP", "IN", "JJ", "NN", ":", "DT", "NNS", ",", "WP$", "NNS", "VB", "VB", "VBN", "IN", "PRP", "VBD", "VBN", ",", "TO", "VB", "VBN", "IN", "NN", "CC", "NN", "NN", "TO", "VB", ":", "DT", "NNS", ",", "WP$", "JJ", "JJ", "NNS", "MD", "VB", "VB", "IN", "DT", "NN", "NN", "NN", ",", "IN", "PRP", "VBD", "RB", "RB", "VBN", "IN", "DT", "NNS", "WDT", "VBD", "IN", "PRP", ":", "CC", "DT", "NNS", "."]
     text: ' Three of these only were protected from us by stern commandment: the roses, whose
@@ -354,7 +354,7 @@ Rdl3:
     wn30_key: [[0, "three%3:00:00:cardinal:00"], [3, "only%4:02:01::"], [5, "protect%2:33:00::"], [9, "stern%3:00:00:demanding:01"], [10, "commandment%1:10:00::"], [13, "rose%1:20:00::"], [16, "petal%1:20:00::"], [19, "collect%2:35:00::"], [23, "fall%2:38:03::"], [27, "make%2:30:00::"], [29, "perfume%1:06:00::"], [31, "rose%1:20:00::"], [32, "tea%1:13:00::"], [34, "drink%2:34:00::"], [37, "peony%1:20:00::"], [40, "tight%3:00:01::"], [41, "sticky%3:00:00:adhesive:00"], [42, "bud%1:20:02::"], [45, "blight%2:43:00::"], [48, "laying_on%1:04:00::"], [50, "finger%1:08:00::"], [55, "not%4:02:00::"], [56, "apparently%4:02:00::"], [57, "harm%2:29:00::"], [60, "ant%1:05:00::"], [62, "crawl%2:38:00::"], [68, "poppy%1:20:00::"]]
 iR4v:
     lemmas: ["I", "have", "more_than", "once", "sit", "cross-legged", "in", "the", "grass", "through", "a", "long", "summer", "morning", "and", "watch", "without", "touch", "while", "a", "poppy", "bud", "high", "than", "my", "head", "slowly", "but", "visibly", "push", "off", "its", "cap", ",", "unfold", ",", "and", "shake", "out", "like", "a", "banner", "in", "the", "sun", "its", "flaming", "vermilion", "petal", "."]
-    oewn2026_key: [[3, "oewn-00119765-r"], [4, "oewn-01545905-v"], [5, "oewn-00293335-r"], [8, "oewn-12122650-n"], [11, "oewn-01440837-a"], [12, "oewn-15262047-n"], [13, "oewn-15190336-n"], [15, "oewn-02133118-v"], [17, "oewn-01208838-v"], [20, "oewn-11921038-n"], [21, "oewn-11695365-n"], [22, "oewn-01207229-a"], [25, "oewn-05546258-n"], [26, "oewn-00162829-r"], [28, "oewn-00384120-r"], [29, "oewn-01875972-v"], [32, "oewn-02958501-n"], [34, "oewn-02058913-v"], [37, "oewn-01893603-v"], [41, "oewn-02791044-n"], [44, "oewn-11505767-n"], [47, "oewn-00386250-s"], [48, "oewn-11710924-n"]]
+    oewn_key: [[3, "oewn-00119765-r"], [4, "oewn-01545905-v"], [5, "oewn-00293335-r"], [8, "oewn-12122650-n"], [11, "oewn-01440837-a"], [12, "oewn-15262047-n"], [13, "oewn-15190336-n"], [15, "oewn-02133118-v"], [17, "oewn-01208838-v"], [20, "oewn-11921038-n"], [21, "oewn-11695365-n"], [22, "oewn-01207229-a"], [25, "oewn-05546258-n"], [26, "oewn-00162829-r"], [28, "oewn-00384120-r"], [29, "oewn-01875972-v"], [32, "oewn-02958501-n"], [34, "oewn-02058913-v"], [37, "oewn-01893603-v"], [41, "oewn-02791044-n"], [44, "oewn-11505767-n"], [47, "oewn-00386250-s"], [48, "oewn-11710924-n"]]
     paragraph: '4'
     pos: ["PRP", "VBP", "RB", "RB", "VBD", "RB", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "NN", "CC", "VBD", "IN", "VBG", "IN", "DT", "NN", "NN", "JJR", "IN", "PRP$", "NN", "RB", "CC", "RB", "VBD", "IN", "PRP$", "NN", ",", "VBD", ",", "CC", "VBD", "IN", "IN", "DT", "NN", "IN", "DT", "NN", "PRP$", "JJ", "JJ", "NNS", "."]
     text: ' I have more_than once sat cross-legged in the grass through a long summer morning
@@ -366,7 +366,7 @@ iR4v:
     wn30_key: [[3, "once%4:02:00::"], [4, "sit%2:35:00::"], [5, "cross-legged%4:02:00::"], [8, "grass%1:20:00::"], [11, "long%3:00:02::"], [12, "summer%1:28:00::"], [13, "morning%1:28:00::"], [15, "watch%2:39:02::"], [17, "touch%2:35:00::"], [20, "poppy%1:20:00::"], [21, "bud%1:20:02::"], [22, "high%3:00:01::"], [25, "head%1:08:00::"], [26, "slowly%4:02:02::"], [28, "visibly%4:02:00::"], [29, "push%2:38:00::"], [32, "cap%1:06:03::"], [34, "unfold%2:38:00::"], [37, "shake%2:38:00::"], [41, "banner%1:06:00::"], [44, "sun%1:19:00::"], [47, "vermilion%3:00:00:chromatic:00"], [48, "petal%1:20:00::"]]
 Rwmn:
     lemmas: ["other", "flower", "we", "might", "gather", "as", "we", "please", ":", "myrtle", "and", "white_violet", "from", "beneath", "the", "lilac", ";", "the", "lilac", "themselves", ",", "that", "bloom", "so", "prodigally", "but", "for_the_most_part", "beyond", "our", "reach", ";", "snowball", ";", "hollyhock", "blossom", "that", ",", "turn", "upside-down", ",", "make", "pink", "petticoated", "lady", ";", "and", "the", "little", ",", "dark_blue", "larkspur", "that", "scatter", "its", "seed", "everywhere", "."]
-    oewn2026_key: [[0, "oewn-02076759-a"], [1, "oewn-11689786-n"], [4, "oewn-01383303-v"], [7, "oewn-01828900-v"], [9, "oewn-11798561-n"], [11, "oewn-12408961-n"], [15, "oewn-12330866-n"], [18, "oewn-12330866-n"], [22, "oewn-00295007-v"], [23, "oewn-00147630-r"], [24, "oewn-00434339-r"], [26, "oewn-00006486-r"], [29, "oewn-08646496-n"], [31, "oewn-11857489-n"], [33, "oewn-12194181-n"], [34, "oewn-11689786-n"], [37, "oewn-01911251-v"], [38, "oewn-02476782-s"], [40, "oewn-01620211-v"], [41, "oewn-04978183-n"], [42, "oewn-00458469-s"], [43, "oewn-10262834-n"], [47, "oewn-01394303-a"], [49, "oewn-04976880-n"], [50, "oewn-11753781-n"], [52, "oewn-01504315-v"], [54, "oewn-11704458-n"], [55, "oewn-00026137-r"]]
+    oewn_key: [[0, "oewn-02076759-a"], [1, "oewn-11689786-n"], [4, "oewn-01383303-v"], [7, "oewn-01828900-v"], [9, "oewn-11798561-n"], [11, "oewn-12408961-n"], [15, "oewn-12330866-n"], [18, "oewn-12330866-n"], [22, "oewn-00295007-v"], [23, "oewn-00147630-r"], [24, "oewn-00434339-r"], [26, "oewn-00006486-r"], [29, "oewn-08646496-n"], [31, "oewn-11857489-n"], [33, "oewn-12194181-n"], [34, "oewn-11689786-n"], [37, "oewn-01911251-v"], [38, "oewn-02476782-s"], [40, "oewn-01620211-v"], [41, "oewn-04978183-n"], [42, "oewn-00458469-s"], [43, "oewn-10262834-n"], [47, "oewn-01394303-a"], [49, "oewn-04976880-n"], [50, "oewn-11753781-n"], [52, "oewn-01504315-v"], [54, "oewn-11704458-n"], [55, "oewn-00026137-r"]]
     paragraph: '4'
     pos: ["JJ", "NNS", "PRP", "MD", "VB", "IN", "PRP", "VBD", ":", "NN", "CC", "NNS", "IN", "IN", "DT", "NNS", ":", "DT", "NNS", "PRP", ",", "WDT", "VBD", "RB", "RB", "CC", "RB", "IN", "PRP$", "NN", ":", "NNS", ":", "NN", "NNS", "RB", ",", "VBD", "JJ", ",", "VBP", "NN", "JJ", "NNS", ":", "CC", "DT", "JJ", ",", "NN", "NN", "WDT", "VBD", "PRP$", "NN", "RB", "."]
     text: ' Other flowers we might gather as we pleased: myrtle and white_violets from beneath
@@ -380,7 +380,7 @@ Rwmn:
     wn30_key: [[0, "other%3:00:00::"], [1, "flower%1:20:02::"], [4, "gather%2:35:00::"], [7, "please%2:37:01::"], [9, "myrtle%1:20:02::"], [11, "white_violet%1:20:00::"], [15, "lilac%1:20:00::"], [18, "lilac%1:20:00::"], [22, "bloom%2:30:00::"], [23, "so%4:02:02::"], [24, "prodigally%4:02:01::"], [26, "for_the_most_part%4:02:00::"], [29, "reach%1:15:00::"], [31, "snowball%1:20:00::"], [33, "hollyhock%1:20:01::"], [34, "blossom%1:20:00::"], [37, "turn%2:38:00::"], [38, "upside-down%3:00:00:turned:00"], [40, "make%2:36:00::"], [41, "pink%1:07:00::"], [42, "petticoated%3:00:00:clothed:00"], [43, "lady%1:18:02::"], [47, "little%3:00:01::"], [49, "dark_blue%1:07:00::"], [50, "larkspur%1:20:00::"], [52, "scatter%2:35:01::"], [54, "seed%1:20:02::"], [55, "everywhere%4:02:00::"]]
 2G7E:
     lemmas: ["more", "potent", "a", "charm", "to", "bring", "back", "that", "time_of_life", "than", "this", "record", "of", "a_few", "picture", "and", "a_few", "remembered", "fact", "would", "be", "a", "catalogue", "of", "the", "minutia", "which", "be", "of", "the", "very", "stuff", "of", "the", "mind", ",", "intrinsic", ",", "because", "they", "be", "known", "in_the_beginning", "not", "by", "the", "eye", "alone", "but", "by", "the", "hand", "that", "hold", "them", "."]
-    oewn2026_key: [[0, "oewn-01559526-a"], [1, "oewn-01836317-s"], [3, "oewn-03013287-n"], [5, "oewn-01441539-v"], [6, "oewn-00075535-r"], [8, "oewn-15169331-n"], [11, "oewn-06659969-n"], [13, "oewn-01557697-s"], [14, "oewn-03937282-n"], [16, "oewn-01557697-s"], [18, "oewn-05825522-n"], [20, "oewn-02622439-v"], [22, "oewn-06499734-n"], [25, "oewn-05828034-n"], [27, "oewn-02626667-v"], [30, "oewn-01845232-s"], [31, "oewn-14604877-n"], [34, "oewn-05619057-n"], [36, "oewn-01351106-a"], [41, "oewn-01378100-a"], [42, "oewn-00168316-r"], [43, "oewn-00024432-r"], [46, "oewn-05711254-n"], [47, "oewn-00009062-r"], [51, "oewn-05572223-n"], [53, "oewn-01219234-v"]]
+    oewn_key: [[0, "oewn-01559526-a"], [1, "oewn-01836317-s"], [3, "oewn-03013287-n"], [5, "oewn-01441539-v"], [6, "oewn-00075535-r"], [8, "oewn-15169331-n"], [11, "oewn-06659969-n"], [13, "oewn-01557697-s"], [14, "oewn-03937282-n"], [16, "oewn-01557697-s"], [18, "oewn-05825522-n"], [20, "oewn-02622439-v"], [22, "oewn-06499734-n"], [25, "oewn-05828034-n"], [27, "oewn-02626667-v"], [30, "oewn-01845232-s"], [31, "oewn-14604877-n"], [34, "oewn-05619057-n"], [36, "oewn-01351106-a"], [41, "oewn-01378100-a"], [42, "oewn-00168316-r"], [43, "oewn-00024432-r"], [46, "oewn-05711254-n"], [47, "oewn-00009062-r"], [51, "oewn-05572223-n"], [53, "oewn-01219234-v"]]
     paragraph: '5'
     pos: ["JJ", "JJ", "DT", "NN", "TO", "VB", "RB", "IN", "NN", "IN", "DT", "NN", "IN", "JJ", "NNS", "CC", "JJ", "JJ", "NNS", "MD", "VB", "DT", "NN", "IN", "DT", "NNS", "WDT", "VBP", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", ",", "JJ", ",", "IN", "PRP", "VBD", "JJ", "RB", "RB", "IN", "DT", "NN", "RB", "CC", "IN", "DT", "NN", "WDT", "VBD", "PRP", "."]
     text: ' More potent a charm to bring back that time_of_life than this record of a_few pictures
@@ -392,7 +392,7 @@ Rwmn:
     wn30_key: [[0, "more%3:00:01::"], [1, "potent%3:00:00:influential:00"], [3, "charm%1:06:00::"], [5, "bring%2:35:04::"], [6, "back%4:02:05::"], [8, "time_of_life%1:28:00::"], [11, "record%1:10:03::"], [13, "a_few%3:00:00:few:00"], [14, "picture%1:06:00::"], [16, "a_few%3:00:00:few:00"], [18, "fact%1:09:01::"], [20, "be%2:42:06::"], [22, "catalogue%1:10:01::"], [25, "minutia%1:09:00::"], [27, "be%2:42:02::"], [30, "very%3:00:00:precise:00"], [31, "stuff%1:27:00::"], [34, "mind%1:09:00::"], [36, "intrinsic%3:00:00::"], [41, "known%3:00:00::"], [42, "in_the_beginning%4:02:01::"], [43, "not%4:02:00::"], [46, "eye%1:09:01::"], [47, "alone%4:02:00::"], [51, "hand%1:08:00::"], [53, "hold%2:35:00::"]]
 zCsM:
     lemmas: ["flower", ",", "stone", ",", "and", "small", "creature", ",", "living", "and", "dead", "."]
-    oewn2026_key: [[0, "oewn-11689786-n"], [2, "oewn-09438954-n"], [5, "oewn-01394303-a"], [6, "oewn-00015568-n"], [8, "oewn-02766901-a"], [10, "oewn-00096133-a"]]
+    oewn_key: [[0, "oewn-11689786-n"], [2, "oewn-09438954-n"], [5, "oewn-01394303-a"], [6, "oewn-00015568-n"], [8, "oewn-02766901-a"], [10, "oewn-00096133-a"]]
     paragraph: '5'
     pos: ["NNS", ",", "NNS", ",", "CC", "JJ", "NNS", ",", "JJ", "CC", "JJ", "."]
     text: ' Flowers, stones, and small creatures, living and dead.'
@@ -401,7 +401,7 @@ zCsM:
     wn30_key: [[0, "flower%1:20:02::"], [2, "stone%1:17:00::"], [5, "small%3:00:00::"], [6, "creature%1:03:00::"], [8, "living%3:01:00::"], [10, "dead%3:00:01::"]]
 De7Y:
     lemmas: ["pale", "yellow", "snapdragon", "that", "by", "pinch", "could", "be", "make", "to", "bite", ";", "seedpod", "of", "the", "balsam", "that", "snap", "like", "firecracker", "at", "a", "touch", ";", "red", "and", "yellow", "columbine", "whose", "round", "tipped", "spur", "be", "pick_off", "and", "eat", "for", "the", "honey", "in", "them", ";", "morning_glory", "bud", "which", "could", "be", "so", "grasp", "and", "squeeze", "that", "they", "burst", "like", "a", "blown-up", "paper_bag", ";", "bright", "flower", "from", "the", "trumpet_vine", "that", "make", "\"", "gloves", "\"", "on", "the", "end", "of", "ten", "waggle", "finger", "."]
-    oewn2026_key: [[0, "oewn-00410069-s"], [1, "oewn-00386818-s"], [2, "oewn-12898004-n"], [5, "oewn-01459400-v"], [8, "oewn-00772482-v"], [10, "oewn-01448551-v"], [12, "oewn-13159832-n"], [15, "oewn-11573137-n"], [17, "oewn-02187297-v"], [19, "oewn-03349961-n"], [22, "oewn-07424192-n"], [24, "oewn-00382159-s"], [26, "oewn-00386818-s"], [27, "oewn-11747560-n"], [29, "oewn-02048059-a"], [30, "oewn-02439568-a"], [31, "oewn-13109895-n"], [33, "oewn-01595377-v"], [35, "oewn-01170802-v"], [38, "oewn-07874954-n"], [42, "oewn-12847276-n"], [43, "oewn-11695365-n"], [47, "oewn-00147962-r"], [48, "oewn-01218568-v"], [50, "oewn-01596858-v"], [53, "oewn-00306798-v"], [57, "oewn-04129919-n"], [59, "oewn-00403922-s"], [60, "oewn-11689786-n"], [63, "oewn-12834995-n"], [65, "oewn-00120124-v"], [71, "oewn-08583557-n"], [73, "oewn-02194935-s"], [74, "oewn-01902585-v"], [75, "oewn-05574137-n"]]
+    oewn_key: [[0, "oewn-00410069-s"], [1, "oewn-00386818-s"], [2, "oewn-12898004-n"], [5, "oewn-01459400-v"], [8, "oewn-00772482-v"], [10, "oewn-01448551-v"], [12, "oewn-13159832-n"], [15, "oewn-11573137-n"], [17, "oewn-02187297-v"], [19, "oewn-03349961-n"], [22, "oewn-07424192-n"], [24, "oewn-00382159-s"], [26, "oewn-00386818-s"], [27, "oewn-11747560-n"], [29, "oewn-02048059-a"], [30, "oewn-02439568-a"], [31, "oewn-13109895-n"], [33, "oewn-01595377-v"], [35, "oewn-01170802-v"], [38, "oewn-07874954-n"], [42, "oewn-12847276-n"], [43, "oewn-11695365-n"], [47, "oewn-00147962-r"], [48, "oewn-01218568-v"], [50, "oewn-01596858-v"], [53, "oewn-00306798-v"], [57, "oewn-04129919-n"], [59, "oewn-00403922-s"], [60, "oewn-11689786-n"], [63, "oewn-12834995-n"], [65, "oewn-00120124-v"], [71, "oewn-08583557-n"], [73, "oewn-02194935-s"], [74, "oewn-01902585-v"], [75, "oewn-05574137-n"]]
     paragraph: '5'
     pos: ["JJ", "JJ", "NNS", "IN", "IN", "VB", "MD", "VB", "VBN", "TO", "VB", ":", "NNS", "IN", "DT", "NNS", "WDT", "VBD", "IN", "NNS", "IN", "DT", "NN", ":", "JJ", "JJ", "JJ", "NNS", "WP$", "JJ", "JJ", "NN", "VBD", "VB", "CC", "VBD", "IN", "DT", "NN", "IN", "PRP", ":", "NN", "NNS", "WDT", "MD", "VB", "RB", "VBN", "CC", "VBN", "IN", "PRP", "VBP", "IN", "DT", "JJ", "NN", ":", "JJ", "NNS", "IN", "DT", "NN", "WDT", "VBD", "``", "NN", "''", "IN", "DT", "NNS", "IN", "JJ", "VB", "NNS", "."]
     text: ' Pale yellow snapdragons that by pinching could be made to bite; seed-pods of the
@@ -415,7 +415,7 @@ De7Y:
     wn30_key: [[0, "pale%3:00:00:light:05"], [1, "yellow%3:00:00:chromatic:00"], [2, "snapdragon%1:20:00::"], [5, "pinch%2:35:00::"], [8, "make%2:32:00::"], [10, "bite%2:35:00::"], [12, "seedpod%1:20:00::"], [15, "balsam%1:20:00::"], [17, "snap%2:39:00::"], [19, "firecracker%1:06:00::"], [22, "touch%1:11:00::"], [24, "red%3:00:01:chromatic:00"], [26, "yellow%3:00:00:chromatic:00"], [27, "columbine%1:20:00::"], [29, "round%3:00:00::"], [30, "tipped%3:00:00::"], [31, "spur%1:20:00::"], [33, "pick_off%2:35:00::"], [35, "eat%2:34:00::"], [38, "honey%1:13:00::"], [42, "morning_glory%1:20:00::"], [43, "bud%1:20:02::"], [47, "so%4:02:05::"], [48, "grasp%2:35:00::"], [50, "squeeze%2:35:05::"], [53, "burst%2:30:09::"], [57, "paper_bag%1:06:00::"], [59, "bright%3:00:00:colorful:00"], [60, "flower%1:20:02::"], [63, "trumpet_vine%1:20:01::"], [65, "make%2:30:00::"], [71, "end%1:15:00::"], [73, "ten%3:00:00:cardinal:00"], [74, "waggle%2:38:00::"], [75, "finger%1:08:00::"]]
 7nCo:
     lemmas: ["fuzzy", "caterpillar", ",", "snail", "with", "their", "sensitive", "horn", ",", "struggling", "grasshopper", "hold", "by", "their", "long", "hind_leg", "and", "command", "to", "\"", "spit", "tobacco", ",", "spit", "\"", "."]
-    oewn2026_key: [[0, "oewn-00215757-s"], [1, "oewn-02311989-n"], [3, "oewn-01947031-n"], [6, "oewn-02110761-a"], [7, "oewn-01328494-n"], [9, "oewn-02467919-s"], [10, "oewn-02229081-n"], [11, "oewn-01219234-v"], [14, "oewn-01436368-a"], [15, "oewn-02467257-n"], [17, "oewn-00753573-v"], [20, "oewn-00101710-v"], [21, "oewn-04449965-n"], [23, "oewn-00101710-v"]]
+    oewn_key: [[0, "oewn-00215757-s"], [1, "oewn-02311989-n"], [3, "oewn-01947031-n"], [6, "oewn-02110761-a"], [7, "oewn-01328494-n"], [9, "oewn-02467919-s"], [10, "oewn-02229081-n"], [11, "oewn-01219234-v"], [14, "oewn-01436368-a"], [15, "oewn-02467257-n"], [17, "oewn-00753573-v"], [20, "oewn-00101710-v"], [21, "oewn-04449965-n"], [23, "oewn-00101710-v"]]
     paragraph: '5'
     pos: ["JJ", "NNS", ",", "NNS", "IN", "PRP$", "JJ", "NNS", ",", "JJ", "NNS", "VBN", "VB", "PRP$", "JJ", "NNS", "CC", "VBD", "TO", "``", "VB", "NN", ",", "VB", "''", "."]
     text: ' Fuzzy caterpillars, snails with their sensitive horns, struggling grasshoppers held
@@ -425,7 +425,7 @@ De7Y:
     wn30_key: [[0, "fuzzy%3:00:00:hairy:00"], [1, "caterpillar%1:05:00::"], [3, "snail%1:05:00::"], [6, "sensitive%3:00:01::"], [7, "horn%1:05:02::"], [9, "struggling%3:00:00:troubled:00"], [10, "grasshopper%1:05:00::"], [11, "hold%2:35:00::"], [14, "long%3:00:01::"], [15, "hind_leg%1:05:00::"], [17, "command%2:32:00::"], [20, "spit%2:29:00::"], [21, "tobacco%1:06:00::"], [23, "spit%2:29:00::"]]
 Augv:
     lemmas: ["dead", "fledgling", "bird", ",", "their", "squashed", "looking", "nakedness", "and", "the", "odor", "of", "decay", "that", "cling_to", "the", "hand", "when", "they", "have", "be", "bury", "in", "our", "graveyard", "in_front_of", "the", "purple", "flag", "."]
-    oewn2026_key: [[0, "oewn-07962243-n"], [1, "oewn-01099816-s"], [2, "oewn-01505702-n"], [5, "oewn-03166154-a"], [6, "oewn-01880985-s"], [7, "oewn-14479586-n"], [10, "oewn-04987257-n"], [12, "oewn-11464739-n"], [14, "oewn-01222867-v"], [16, "oewn-05572223-n"], [21, "oewn-02461925-v"], [24, "oewn-08538806-n"], [27, "oewn-00381374-s"], [28, "oewn-12432427-n"]]
+    oewn_key: [[0, "oewn-07962243-n"], [1, "oewn-01099816-s"], [2, "oewn-01505702-n"], [5, "oewn-03166154-a"], [6, "oewn-01880985-s"], [7, "oewn-14479586-n"], [10, "oewn-04987257-n"], [12, "oewn-11464739-n"], [14, "oewn-01222867-v"], [16, "oewn-05572223-n"], [21, "oewn-02461925-v"], [24, "oewn-08538806-n"], [27, "oewn-00381374-s"], [28, "oewn-12432427-n"]]
     paragraph: '5'
     pos: ["NN", "JJ", "NNS", ",", "PRP$", "JJ", "JJ", "NN", "CC", "DT", "NN", "IN", "NN", "IN", "VBP", "DT", "NN", "WRB", "PRP", "VBD", "VBN", "VBN", "IN", "PRP$", "NN", "IN", "DT", "JJ", "NNS", "."]
     text: ' Dead fledgling birds, their squashed looking nakedness and the odor of decay that
@@ -436,7 +436,7 @@ Augv:
     wn30_key: [[0, "dead%1:14:00::"], [1, "fledgling%3:00:00:fledged:00"], [2, "bird%1:05:00::"], [5, "squashed%3:44:00::"], [6, "looking%3:00:00:superficial:00"], [7, "nakedness%1:26:00::"], [10, "odor%1:07:00::"], [12, "decay%1:19:00::"], [14, "cling_to%2:35:00::"], [16, "hand%1:08:00::"], [21, "bury%2:41:00::"], [24, "graveyard%1:15:00::"], [27, "purple%3:00:00:chromatic:00"], [28, "flag%1:20:00::"]]
 p55l:
     lemmas: ["And", "the", "cast", "shell", "of", "a", "locust", ",", "straw", "colored", "and", "transparent", ",", "weigh", "nothing", ",", "fragile", "but", "entire", ",", "with", "eye", "like", "bubble", "and", "a", "gaping", "slit", "down", "its", "back", "."]
-    oewn2026_key: [[3, "oewn-01906397-n"], [6, "oewn-02229622-n"], [8, "oewn-00385354-s"], [9, "oewn-00395623-a"], [11, "oewn-00433489-s"], [13, "oewn-02710678-v"], [14, "oewn-13762308-n"], [16, "oewn-00712660-s"], [18, "oewn-00517795-s"], [21, "oewn-05318579-n"], [23, "oewn-09252616-n"], [26, "oewn-01659008-s"], [27, "oewn-04249068-n"], [30, "oewn-05566350-n"]]
+    oewn_key: [[3, "oewn-01906397-n"], [6, "oewn-02229622-n"], [8, "oewn-00385354-s"], [9, "oewn-00395623-a"], [11, "oewn-00433489-s"], [13, "oewn-02710678-v"], [14, "oewn-13762308-n"], [16, "oewn-00712660-s"], [18, "oewn-00517795-s"], [21, "oewn-05318579-n"], [23, "oewn-09252616-n"], [26, "oewn-01659008-s"], [27, "oewn-04249068-n"], [30, "oewn-05566350-n"]]
     paragraph: '5'
     pos: ["CC", "DT", "JJ", "NN", "IN", "DT", "NN", ",", "JJ", "JJ", "CC", "JJ", ",", "VBG", "NN", ",", "JJ", "CC", "JJ", ",", "IN", "NNS", "IN", "NNS", "CC", "DT", "JJ", "NN", "RB", "PRP$", "NN", "."]
     text: ' And the cast shell of a locust, straw colored and transparent, weighing nothing,
@@ -446,7 +446,7 @@ p55l:
     wn30_key: [[3, "shell%1:05:02::"], [6, "locust%1:05:00::"], [8, "straw%3:00:00:chromatic:00"], [9, "colored%3:00:00::"], [11, "transparent%3:00:00:clear:02"], [13, "weigh%2:42:01::"], [14, "nothing%1:23:00::"], [16, "fragile%3:00:00:breakable:00"], [18, "entire%3:00:02:whole:00"], [21, "eye%1:08:00::"], [23, "bubble%1:17:00::"], [26, "gaping%3:00:00:open:08"], [27, "slit%1:06:00::"], [30, "back%1:08:00::"]]
 BBBs:
     lemmas: ["Every", "morning", "early", ",", "in", "the", "summer", ",", "we", "search", "the", "trunk", "of", "the", "tree", "as", "high", "as", "we", "could", "reach", "for", "the", "locust", "shell", ",", "carefully", "detach", "their", "hooked", "claw", "from", "the", "bark", "where", "they", "hang", ",", "and", "stable", "them", ",", "a", "weird", "faery", "herd", ",", "in", "an", "angle", "between", "the", "high", "root", "of", "the", "tulip_tree", ",", "where", "no", "grass", "grow", "in", "the", "dense", "shade", "."]
-    oewn2026_key: [[1, "oewn-15190336-n"], [2, "oewn-00101231-r"], [6, "oewn-15262047-n"], [9, "oewn-02158139-v"], [11, "oewn-13186713-n"], [14, "oewn-13124818-n"], [16, "oewn-00358753-r"], [20, "oewn-02691488-v"], [23, "oewn-02229622-n"], [24, "oewn-01906397-n"], [26, "oewn-00154701-r"], [27, "oewn-01301254-v"], [29, "oewn-02320034-s"], [30, "oewn-02159184-n"], [33, "oewn-13183195-n"], [36, "oewn-01484705-v"], [39, "oewn-02465338-v"], [43, "oewn-01579817-s"], [45, "oewn-08010773-n"], [49, "oewn-13910202-n"], [52, "oewn-01207229-a"], [53, "oewn-13145876-n"], [56, "oewn-11732751-n"], [60, "oewn-12122650-n"], [61, "oewn-00231983-v"], [64, "oewn-02425186-s"], [65, "oewn-14008098-n"]]
+    oewn_key: [[1, "oewn-15190336-n"], [2, "oewn-00101231-r"], [6, "oewn-15262047-n"], [9, "oewn-02158139-v"], [11, "oewn-13186713-n"], [14, "oewn-13124818-n"], [16, "oewn-00358753-r"], [20, "oewn-02691488-v"], [23, "oewn-02229622-n"], [24, "oewn-01906397-n"], [26, "oewn-00154701-r"], [27, "oewn-01301254-v"], [29, "oewn-02320034-s"], [30, "oewn-02159184-n"], [33, "oewn-13183195-n"], [36, "oewn-01484705-v"], [39, "oewn-02465338-v"], [43, "oewn-01579817-s"], [45, "oewn-08010773-n"], [49, "oewn-13910202-n"], [52, "oewn-01207229-a"], [53, "oewn-13145876-n"], [56, "oewn-11732751-n"], [60, "oewn-12122650-n"], [61, "oewn-00231983-v"], [64, "oewn-02425186-s"], [65, "oewn-14008098-n"]]
     paragraph: '5'
     pos: ["DT", "NN", "RB", ",", "IN", "DT", "NN", ",", "PRP", "VBD", "DT", "NNS", "IN", "DT", "NNS", "RB", "RB", "IN", "PRP", "MD", "VB", "IN", "DT", "NN", "NNS", ",", "RB", "VBD", "PRP$", "JJ", "NNS", "IN", "DT", "NN", "WRB", "PRP", "VBD", ",", "CC", "VBD", "PRP", ",", "DT", "JJ", "JJ", "NN", ",", "IN", "DT", "NN", "IN", "DT", "JJ", "NNS", "IN", "DT", "NN", ",", "WRB", "DT", "NN", "VBD", "IN", "DT", "JJ", "NN", "."]
     text: ' Every morning early, in the summer, we searched the trunks of the trees as high
@@ -458,7 +458,7 @@ BBBs:
     wn30_key: [[1, "morning%1:28:00::"], [2, "early%4:02:01::"], [6, "summer%1:28:00::"], [9, "search%2:39:00::"], [11, "trunk%1:20:00::"], [14, "tree%1:20:00::"], [16, "high%4:02:00::"], [20, "reach%2:42:00::"], [23, "locust%1:05:00::"], [24, "shell%1:05:02::"], [26, "carefully%4:02:00::"], [27, "detach%2:35:01::"], [29, "hooked%3:00:00:crooked:01"], [30, "claw%1:05:02::"], [33, "bark%1:20:00::"], [36, "hang%2:35:03::"], [39, "stable%2:41:00::"], [43, "weird%3:00:00:supernatural:00"], [45, "herd%1:14:00::"], [49, "angle%1:25:00::"], [52, "high%3:00:01::"], [53, "root%1:20:00::"], [56, "tulip_tree%1:20:00::"], [60, "grass%1:20:00::"], [61, "grow%2:30:02::"], [64, "dense%3:00:00:thick:02"], [65, "shade%1:26:00::"]]
 Eql7:
     lemmas: ["We", "collect", "\"", "lucky", "stone", "\"", "-", "all", "the", "creamy", "translucent", "pebble", ",", "wear", "smooth", "and", "round", ",", "that", "we", "could", "find", "in", "the", "driveway", "."]
-    oewn2026_key: [[1, "oewn-02309962-v"], [3, "oewn-01471012-a"], [4, "oewn-09438954-n"], [9, "oewn-00374873-s"], [10, "oewn-00434341-s"], [11, "oewn-09410916-n"], [13, "oewn-00470295-v"], [14, "oewn-02252363-a"], [16, "oewn-02048059-a"], [21, "oewn-02158938-v"], [24, "oewn-03249091-n"]]
+    oewn_key: [[1, "oewn-02309962-v"], [3, "oewn-01471012-a"], [4, "oewn-09438954-n"], [9, "oewn-00374873-s"], [10, "oewn-00434341-s"], [11, "oewn-09410916-n"], [13, "oewn-00470295-v"], [14, "oewn-02252363-a"], [16, "oewn-02048059-a"], [21, "oewn-02158938-v"], [24, "oewn-03249091-n"]]
     paragraph: '5'
     pos: ["PRP", "VBD", "``", "JJ", "NNS", "''", ":", "DT", "DT", "JJ", "JJ", "NNS", ",", "VB", "JJ", "CC", "JJ", ",", "IN", "PRP", "MD", "VB", "IN", "DT", "NN", "."]
     text: ' We collected " lucky stones " - all the creamy translucent pebbles, worn smooth
@@ -468,7 +468,7 @@ Eql7:
     wn30_key: [[1, "collect%2:40:00::"], [3, "lucky%3:00:00::"], [4, "stone%1:17:00::"], [9, "creamy%3:00:00:chromatic:00"], [10, "translucent%3:00:00:clear:02"], [11, "pebble%1:17:00::"], [13, "wear%2:30:00::"], [14, "smooth%3:00:02::"], [16, "round%3:00:00::"], [21, "find%2:39:02::"], [24, "driveway%1:06:00::"]]
 nOGX:
     lemmas: ["When", "these", "have", "be", "pocket", ",", "we", "could", "still", "spend", "a", "morning", "crack", "open", "other", "pebble", "for", "our", "delight", "in", "see", "how", "much", "pretty", "they", "be", "inside", "than", "their", "dull", "exterior", "indicate", "."]
-    oewn2026_key: [[4, "oewn-02283437-v"], [8, "oewn-00031700-r"], [9, "oewn-02714280-v"], [11, "oewn-15190336-n"], [12, "oewn-00337070-v"], [13, "oewn-01657344-a"], [15, "oewn-09410916-n"], [18, "oewn-07506178-n"], [20, "oewn-02133754-v"], [22, "oewn-00059624-r"], [23, "oewn-00221674-s"], [25, "oewn-02610777-v"], [29, "oewn-00284569-a"], [30, "oewn-08631047-n"], [31, "oewn-00930203-v"]]
+    oewn_key: [[4, "oewn-02283437-v"], [8, "oewn-00031700-r"], [9, "oewn-02714280-v"], [11, "oewn-15190336-n"], [12, "oewn-00337070-v"], [13, "oewn-01657344-a"], [15, "oewn-09410916-n"], [18, "oewn-07506178-n"], [20, "oewn-02133754-v"], [22, "oewn-00059624-r"], [23, "oewn-00221674-s"], [25, "oewn-02610777-v"], [29, "oewn-00284569-a"], [30, "oewn-08631047-n"], [31, "oewn-00930203-v"]]
     paragraph: '5'
     pos: ["WRB", "DT", "VBD", "VBN", "VBN", ",", "PRP", "MD", "RB", "VB", "DT", "NN", "VBG", "JJ", "JJ", "NNS", "IN", "PRP$", "NN", "VB", "VBG", "WRB", "RB", "JJR", "PRP", "VBD", "IN", "IN", "PRP$", "JJ", "NNS", "VBD", "."]
     text: ' When these had been pocketed, we could still spend a morning cracking open other
@@ -479,7 +479,7 @@ nOGX:
     wn30_key: [[4, "pocket%2:40:00::"], [8, "still%4:02:01::"], [9, "spend%2:42:00::"], [11, "morning%1:28:00::"], [12, "crack%2:30:01::"], [13, "open%3:00:02::"], [15, "pebble%1:17:00::"], [18, "delight%1:12:00::"], [20, "see%2:39:00::"], [22, "much%4:02:00::"], [23, "pretty%3:00:00:beautiful:00"], [25, "be%2:42:03::"], [29, "dull%3:00:02::"], [30, "exterior%1:15:00::"], [31, "indicate%2:32:04::"]]
 eo9/:
     lemmas: ["We", "show", "them", "to", "each", "other", "and", "say", "\"", "Would", "you", "have", "guess", "\"", "?"]
-    oewn2026_key: [[1, "oewn-02153218-v"], [7, "oewn-01011267-v"], [12, "oewn-00633399-v"]]
+    oewn_key: [[1, "oewn-02153218-v"], [7, "oewn-01011267-v"], [12, "oewn-00633399-v"]]
     paragraph: '5'
     pos: ["PRP", "VBD", "PRP", "TO", "DT", "JJ", "CC", "VBD", "``", "MD", "PRP", "VBP", "VBN", "''", "."]
     text: ' We showed them to each other and said " Would you have guessed "?'
@@ -488,7 +488,7 @@ eo9/:
     wn30_key: [[1, "show%2:39:02::"], [7, "say%2:32:00::"], [12, "guess%2:31:00::"]]
 xhq5:
     lemmas: ["squat", "on", "our", "haunch", "beside", "the", "flat", "stone", "we", "break", "them", "on", ",", "we", "be", "safe", "behind", "the", "high", "closed", "gate", "at", "the", "end", "of", "the", "drive", ":", "safe", "from", "interruption", "and", "the", "observation", "and", "possible", "amusement", "of", "the", "passerby", "."]
-    oewn2026_key: [[0, "oewn-01548096-v"], [3, "oewn-05564105-n"], [6, "oewn-00913184-s"], [7, "oewn-09438954-n"], [9, "oewn-00335806-v"], [14, "oewn-02610777-v"], [15, "oewn-02065233-a"], [18, "oewn-01207229-a"], [19, "oewn-01657224-a"], [20, "oewn-03432206-n"], [23, "oewn-08583557-n"], [26, "oewn-03249091-n"], [28, "oewn-02065233-a"], [30, "oewn-00384760-n"], [33, "oewn-00881437-n"], [35, "oewn-00044573-a"], [36, "oewn-07506616-n"], [39, "oewn-10424417-n"]]
+    oewn_key: [[0, "oewn-01548096-v"], [3, "oewn-05564105-n"], [6, "oewn-00913184-s"], [7, "oewn-09438954-n"], [9, "oewn-00335806-v"], [14, "oewn-02610777-v"], [15, "oewn-02065233-a"], [18, "oewn-01207229-a"], [19, "oewn-01657224-a"], [20, "oewn-03432206-n"], [23, "oewn-08583557-n"], [26, "oewn-03249091-n"], [28, "oewn-02065233-a"], [30, "oewn-00384760-n"], [33, "oewn-00881437-n"], [35, "oewn-00044573-a"], [36, "oewn-07506616-n"], [39, "oewn-10424417-n"]]
     paragraph: '5'
     pos: ["VBG", "IN", "PRP$", "NNS", "IN", "DT", "JJ", "NN", "PRP", "VBD", "PRP", "RB", ",", "PRP", "VBD", "JJ", "IN", "DT", "JJ", "JJ", "NNS", "IN", "DT", "NN", "IN", "DT", "NN", ":", "JJ", "IN", "NN", "CC", "DT", "NN", "CC", "JJ", "NN", "IN", "DT", "NNS", "."]
     text: ' Squatting on our haunches beside the flat stone we broke them on, we were safe behind
@@ -499,7 +499,7 @@ xhq5:
     wn30_key: [[0, "squat%2:35:00::"], [3, "haunch%1:08:01::"], [6, "flat%3:00:00:even:01"], [7, "stone%1:17:00::"], [9, "break%2:30:10::"], [14, "be%2:42:03::"], [15, "safe%3:00:01::"], [18, "high%3:00:01::"], [19, "closed%3:00:04::"], [20, "gate%1:06:00::"], [23, "end%1:15:00::"], [26, "drive%1:06:01::"], [28, "safe%3:00:01::"], [30, "interruption%1:04:00::"], [33, "observation%1:04:00::"], [35, "possible%3:00:04::"], [36, "amusement%1:12:00::"], [39, "passerby%1:18:00::"]]
 k0YR:
     lemmas: ["thus", "shielded", ",", "we", "play", "many", "foolish", "game", "in", "comfortable", "unselfconsciousness", ";", "even", "when", "the", "fence", "become", "a", "part", "of", "the", "game", "-", "when", "a", "vine", "embowered", "gatepost", "be", "the", "sleeping_beauty", "'s", "enchanted", "castle", ",", "or", "when", "person", "let_down", "her", "golden", "hair", "from", "beneath", "the", "crocketed", "spire", ",", "even", "then", "we", "pay", "little", "heed", "to", "those", "who", "go_by", "on", "the", "path", "outside", "."]
-    oewn2026_key: [[0, "oewn-00122019-r"], [1, "oewn-01891965-s"], [4, "oewn-01075360-v"], [5, "oewn-01555990-a"], [6, "oewn-02580838-a"], [7, "oewn-00431591-n"], [9, "oewn-00481320-a"], [10, "oewn-05684941-n"], [12, "oewn-00017907-r"], [15, "oewn-03332179-n"], [16, "oewn-02632685-v"], [18, "oewn-13831419-n"], [21, "oewn-00431591-n"], [25, "oewn-13121436-n"], [27, "oewn-03433259-n"], [28, "oewn-02622439-v"], [30, "oewn-10630633-n"], [32, "oewn-00868658-a"], [33, "oewn-03883763-n"], [37, "oewn-00007846-n"], [38, "oewn-01977139-v"], [40, "oewn-00371003-s"], [41, "oewn-05262259-n"], [45, "oewn-00058619-s"], [46, "oewn-04319570-n"], [48, "oewn-00017907-r"], [49, "oewn-00118799-r"], [51, "oewn-01062366-v"], [52, "oewn-01558903-a"], [53, "oewn-05710673-n"], [57, "oewn-02055618-v"], [60, "oewn-03905025-n"], [61, "oewn-00111662-r"]]
+    oewn_key: [[0, "oewn-00122019-r"], [1, "oewn-01891965-s"], [4, "oewn-01075360-v"], [5, "oewn-01555990-a"], [6, "oewn-02580838-a"], [7, "oewn-00431591-n"], [9, "oewn-00481320-a"], [10, "oewn-05684941-n"], [12, "oewn-00017907-r"], [15, "oewn-03332179-n"], [16, "oewn-02632685-v"], [18, "oewn-13831419-n"], [21, "oewn-00431591-n"], [25, "oewn-13121436-n"], [27, "oewn-03433259-n"], [28, "oewn-02622439-v"], [30, "oewn-10630633-n"], [32, "oewn-00868658-a"], [33, "oewn-03883763-n"], [37, "oewn-00007846-n"], [38, "oewn-01977139-v"], [40, "oewn-00371003-s"], [41, "oewn-05262259-n"], [45, "oewn-00058619-s"], [46, "oewn-04319570-n"], [48, "oewn-00017907-r"], [49, "oewn-00118799-r"], [51, "oewn-01062366-v"], [52, "oewn-01558903-a"], [53, "oewn-05710673-n"], [57, "oewn-02055618-v"], [60, "oewn-03905025-n"], [61, "oewn-00111662-r"]]
     paragraph: '5'
     pos: ["RB", "JJ", ",", "PRP", "VBD", "JJ", "JJ", "NNS", "IN", "JJ", "NN", ":", "RB", "WRB", "DT", "NNS", "VBD", "DT", "NN", "IN", "DT", "NN", ":", "WRB", "DT", "NN", "JJ", "NN", "VBD", "DT", "NN", "POS", "JJ", "NN", ",", "CC", "WRB", "NN", "VB", "PRP$", "JJ", "NN", "IN", "IN", "DT", "JJ", "NN", ",", "RB", "RB", "PRP", "VBD", "JJ", "NN", "TO", "DT", "WP", "VBP", "IN", "DT", "NN", "RB", "."]
     text: ' Thus shielded, we played many foolish games in comfortable unselfconsciousness;
@@ -514,7 +514,7 @@ k0YR:
     wn30_key: [[0, "thus%4:02:01::"], [1, "shielded%3:00:00:protected:00"], [4, "play%2:33:00::"], [5, "many%3:00:00::"], [6, "foolish%3:00:00::"], [7, "game%1:04:01::"], [9, "comfortable%3:00:01::"], [10, "unselfconsciousness%1:09:00::"], [12, "even%4:02:00::"], [15, "fence%1:06:00::"], [16, "become%2:42:01::"], [18, "part%1:24:00::"], [21, "game%1:04:01::"], [25, "vine%1:20:00::"], [27, "gatepost%1:06:00::"], [28, "be%2:42:06::"], [30, "sleeping_beauty%1:18:00::"], [32, "enchanted%3:00:00::"], [33, "castle%1:06:02::"], [37, "person%1:03:00::"], [38, "let_down%2:38:00::"], [40, "golden%3:00:00:chromatic:00"], [41, "hair%1:08:00::"], [45, "crocketed%3:00:00:adorned:00"], [46, "spire%1:06:00::"], [48, "even%4:02:00::"], [49, "then%4:02:01::"], [51, "pay%2:32:00::"], [52, "little%3:00:03::"], [53, "heed%1:09:00::"], [57, "go_by%2:38:01::"], [60, "path%1:06:00::"], [61, "outside%4:02:01::"]]
 v3dC:
     lemmas: ["We", "enjoy", "a", "paradoxical", "freedom", "when", "we", "be", "still", "too", "young", "for", "school", "."]
-    oewn2026_key: [[1, "oewn-01824240-v"], [3, "oewn-00943164-s"], [4, "oewn-14015308-n"], [7, "oewn-02610777-v"], [8, "oewn-00031700-r"], [9, "oewn-00047930-r"], [10, "oewn-01651383-a"], [12, "oewn-05765533-n"]]
+    oewn_key: [[1, "oewn-01824240-v"], [3, "oewn-00943164-s"], [4, "oewn-14015308-n"], [7, "oewn-02610777-v"], [8, "oewn-00031700-r"], [9, "oewn-00047930-r"], [10, "oewn-01651383-a"], [12, "oewn-05765533-n"]]
     paragraph: '6'
     pos: ["PRP", "VBD", "DT", "JJ", "NN", "WRB", "PRP", "VBD", "RB", "RB", "JJ", "IN", "NN", "."]
     text: ' We enjoyed a paradoxical freedom when we were still too young for school.'
@@ -523,7 +523,7 @@ v3dC:
     wn30_key: [[1, "enjoy%2:37:00::"], [3, "paradoxical%3:00:00:inexplicable:00"], [4, "freedom%1:26:00::"], [7, "be%2:42:03::"], [8, "still%4:02:01::"], [9, "too%4:02:00::"], [10, "young%3:00:00::"], [12, "school%1:09:00::"]]
 Jdej:
     lemmas: ["In", "the", "heat", "of", "the", "summer", ",", "the", "garden", "solitude", "be", "ours", "alone", ";", "our", "elder", "stay", "in", "the", "dark", "house", "or", "sit", "fan", "on", "the", "front_porch", "."]
-    oewn2026_key: [[2, "oewn-05733472-n"], [5, "oewn-15262047-n"], [8, "oewn-03422659-n"], [9, "oewn-14438476-n"], [10, "oewn-02610777-v"], [12, "oewn-00009062-r"], [15, "oewn-10068026-n"], [16, "oewn-01861378-v"], [19, "oewn-00273948-a"], [20, "oewn-03549540-n"], [22, "oewn-01545905-v"], [23, "oewn-01889573-v"], [26, "oewn-03404592-n"]]
+    oewn_key: [[2, "oewn-05733472-n"], [5, "oewn-15262047-n"], [8, "oewn-03422659-n"], [9, "oewn-14438476-n"], [10, "oewn-02610777-v"], [12, "oewn-00009062-r"], [15, "oewn-10068026-n"], [16, "oewn-01861378-v"], [19, "oewn-00273948-a"], [20, "oewn-03549540-n"], [22, "oewn-01545905-v"], [23, "oewn-01889573-v"], [26, "oewn-03404592-n"]]
     paragraph: '6'
     pos: ["IN", "DT", "NN", "IN", "DT", "NN", ",", "DT", "NN", "NNS", "VBD", "PRP", "RB", ":", "PRP$", "NNS", "VBD", "IN", "DT", "JJ", "NN", "CC", "VBD", "VBG", "IN", "DT", "NN", "."]
     text: ' In the heat of the summer, the garden solitudes were ours alone; our elders stayed
@@ -533,7 +533,7 @@ Jdej:
     wn30_key: [[2, "heat%1:09:00::"], [5, "summer%1:28:00::"], [8, "garden%1:06:01::"], [9, "solitude%1:26:00::"], [10, "be%2:42:03::"], [12, "alone%4:02:00::"], [15, "elder%1:18:00::"], [16, "stay%2:38:00::"], [19, "dark%3:00:01::"], [20, "house%1:06:00::"], [22, "sit%2:35:00::"], [23, "fan%2:38:00::"], [26, "front_porch%1:06:00::"]]
 fvkF:
     lemmas: ["They", "never", "trouble_oneself", "about", "us", "while", "we", "be", "play", ",", "because", "the", "fence", "form", "such", "a", "definite", "boundary", "and", "\"", "do", "n't", "go_out", "outside", "the", "gate", "\"", "be", "a", "command", "so", "impossible", "of", "misinterpretation", "."]
-    oewn2026_key: [[1, "oewn-00021214-r"], [2, "oewn-02513113-v"], [8, "oewn-02423786-v"], [12, "oewn-03332179-n"], [13, "oewn-02627475-v"], [14, "oewn-00148422-r"], [16, "oewn-00703896-a"], [17, "oewn-13926085-n"], [22, "oewn-02019450-v"], [25, "oewn-03432206-n"], [27, "oewn-02610777-v"], [29, "oewn-07182782-n"], [30, "oewn-00147630-r"], [31, "oewn-02427488-s"], [33, "oewn-07189084-n"]]
+    oewn_key: [[1, "oewn-00021214-r"], [2, "oewn-02513113-v"], [8, "oewn-02423786-v"], [12, "oewn-03332179-n"], [13, "oewn-02627475-v"], [14, "oewn-00148422-r"], [16, "oewn-00703896-a"], [17, "oewn-13926085-n"], [22, "oewn-02019450-v"], [25, "oewn-03432206-n"], [27, "oewn-02610777-v"], [29, "oewn-07182782-n"], [30, "oewn-00147630-r"], [31, "oewn-02427488-s"], [33, "oewn-07189084-n"]]
     paragraph: '6'
     pos: ["PRP", "RB", "VBZ", "IN", "PRP", "IN", "PRP", "VBD", "VBG", ",", "IN", "DT", "NN", "VBD", "RB", "DT", "JJ", "NN", "CC", "``", "VBP", "RB", "VB", "RB", "DT", "NN", "''", "VBD", "DT", "NN", "RB", "JJ", "IN", "NN", "."]
     text: ' They never troubled_themselves about us while we were playing, because the fence
@@ -544,7 +544,7 @@ fvkF:
     wn30_key: [[1, "never%4:02:00::"], [2, "trouble_oneself%2:41:00::"], [8, "play%2:41:03::"], [12, "fence%1:06:00::"], [13, "form%2:42:00::"], [14, "such%4:02:00::"], [16, "definite%3:00:00::"], [17, "boundary%1:25:00::"], [22, "go_out%2:38:00::"], [25, "gate%1:06:00::"], [27, "be%2:42:03::"], [29, "command%1:10:00::"], [30, "so%4:02:02::"], [31, "impossible%3:00:00:unthinkable:00"], [33, "misinterpretation%1:10:00::"]]
 NQNz:
     lemmas: ["We", "be", "not", ",", "however", ",", "entirely", "unacquainted_with", "the", "varying", "aspect", "of", "the", "street", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-00024432-r"], [4, "oewn-00027761-r"], [6, "oewn-00008423-r"], [7, "oewn-00970149-s"], [9, "oewn-02517573-s"], [10, "oewn-04740358-n"], [13, "oewn-04341737-n"]]
+    oewn_key: [[1, "oewn-02610777-v"], [2, "oewn-00024432-r"], [4, "oewn-00027761-r"], [6, "oewn-00008423-r"], [7, "oewn-00970149-s"], [9, "oewn-02517573-s"], [10, "oewn-04740358-n"], [13, "oewn-04341737-n"]]
     paragraph: '6'
     pos: ["PRP", "VBD", "RB", ",", "RB", ",", "RB", "JJ", "DT", "JJ", "NNS", "IN", "DT", "NN", "."]
     text: ' We were not, however, entirely unacquainted_with the varying aspects of the street.'
@@ -553,7 +553,7 @@ NQNz:
     wn30_key: [[1, "be%2:42:03::"], [2, "not%4:02:00::"], [4, "however%4:02:00::"], [6, "entirely%4:02:00::"], [7, "unacquainted_with%3:00:00:unfamiliar:00"], [9, "varying%3:00:00:varied:00"], [10, "aspect%1:07:02::"], [13, "street%1:06:00::"]]
 a9Av:
     lemmas: ["We", "be", "forbidden", "to", "swing", "on", "the", "gate", ",", "lest", "they", "sag", "on", "their", "hinge", "in", "a", "poor_white_trash", "way", ",", "but", "we", "could", "stand", "on", "them", ",", "when", "they", "be", "latched", ",", "rest", "our", "chin", "on", "the", "top", ",", "and", "stare", "and", "stare", ",", "commit", "to", "memory", ",", "quite", "unintentionally", ",", "all", "the", "detail", "that", "lie", "before", "our", "eye", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-01765887-s"], [4, "oewn-01881348-v"], [7, "oewn-03432206-n"], [11, "oewn-01989538-v"], [14, "oewn-03526239-n"], [17, "oewn-09662205-n"], [18, "oewn-04936080-n"], [23, "oewn-01548893-v"], [29, "oewn-02610777-v"], [32, "oewn-01505585-v"], [34, "oewn-05607372-n"], [37, "oewn-08681092-n"], [40, "oewn-02137210-v"], [42, "oewn-02137210-v"], [44, "oewn-00888984-v"], [46, "oewn-05768199-n"], [48, "oewn-00019243-r"], [49, "oewn-00063188-r"], [53, "oewn-13832132-n"], [55, "oewn-02696550-v"], [58, "oewn-05318579-n"]]
+    oewn_key: [[1, "oewn-02610777-v"], [2, "oewn-01765887-s"], [4, "oewn-01881348-v"], [7, "oewn-03432206-n"], [11, "oewn-01989538-v"], [14, "oewn-03526239-n"], [17, "oewn-09662205-n"], [18, "oewn-04936080-n"], [23, "oewn-01548893-v"], [29, "oewn-02610777-v"], [32, "oewn-01505585-v"], [34, "oewn-05607372-n"], [37, "oewn-08681092-n"], [40, "oewn-02137210-v"], [42, "oewn-02137210-v"], [44, "oewn-00888984-v"], [46, "oewn-05768199-n"], [48, "oewn-00019243-r"], [49, "oewn-00063188-r"], [53, "oewn-13832132-n"], [55, "oewn-02696550-v"], [58, "oewn-05318579-n"]]
     paragraph: '6'
     pos: ["PRP", "VBD", "JJ", "TO", "VB", "IN", "DT", "NNS", ",", "IN", "PRP", "VBP", "IN", "PRP$", "NNS", "IN", "DT", "NN", "NN", ",", "CC", "PRP", "MD", "VB", "IN", "PRP", ",", "WRB", "PRP", "VBD", "JJ", ",", "VB", "PRP$", "NNS", "IN", "DT", "NN", ",", "CC", "VB", "CC", "VB", ",", "VBG", "VB", "NN", ",", "RB", "RB", ",", "PDT", "DT", "NNS", "WDT", "VBP", "IN", "PRP$", "NNS", "."]
     text: ' We were forbidden to swing on the gates, lest they sag on their hinges in a poor-white-trash
@@ -567,7 +567,7 @@ a9Av:
     wn30_key: [[1, "be%2:42:03::"], [2, "forbidden%3:00:00:impermissible:00"], [4, "swing%2:38:00::"], [7, "gate%1:06:00::"], [11, "sag%2:38:00::"], [14, "hinge%1:06:00::"], [17, "poor_white_trash%1:18:00::"], [18, "way%1:07:01::"], [23, "stand%2:35:00::"], [29, "be%2:42:03::"], [32, "rest%2:35:02::"], [34, "chin%1:08:00::"], [37, "top%1:15:00::"], [40, "stare%2:39:00::"], [42, "stare%2:39:00::"], [44, "commit%2:32:01::"], [46, "memory%1:09:01::"], [48, "quite%4:02:02::"], [49, "unintentionally%4:02:00::"], [53, "detail%1:24:00::"], [55, "lie%2:42:00::"], [58, "eye%1:08:00::"]]
 o2fM:
     lemmas: ["The", "street", "that", "be", "full", "now", "of", "traffic", "and", "parked", "car", "then", "and", "for", "many", "year", "drowse", "on", "an", "august", "afternoon", "in", "the", "shade", "of", "the", "curbside", "tree", ",", "and", "silence", "be", "a", "weight", ",", "almost", "palpable", ",", "in", "the", "air", "."]
-    oewn2026_key: [[1, "oewn-04341737-n"], [3, "oewn-02610777-v"], [4, "oewn-01086845-a"], [5, "oewn-00049013-r"], [7, "oewn-08442260-n"], [9, "oewn-03163313-a"], [10, "oewn-02961779-n"], [11, "oewn-00118799-r"], [14, "oewn-01555990-a"], [15, "oewn-15228587-n"], [16, "oewn-00015296-v"], [19, "oewn-15237251-n"], [20, "oewn-15191238-n"], [23, "oewn-14008098-n"], [26, "oewn-03154197-n"], [27, "oewn-13124818-n"], [30, "oewn-04989456-n"], [31, "oewn-02610777-v"], [33, "oewn-04578374-n"], [35, "oewn-00073433-r"], [36, "oewn-01721570-a"], [40, "oewn-08670889-n"]]
+    oewn_key: [[1, "oewn-04341737-n"], [3, "oewn-02610777-v"], [4, "oewn-01086845-a"], [5, "oewn-00049013-r"], [7, "oewn-08442260-n"], [9, "oewn-03163313-a"], [10, "oewn-02961779-n"], [11, "oewn-00118799-r"], [14, "oewn-01555990-a"], [15, "oewn-15228587-n"], [16, "oewn-00015296-v"], [19, "oewn-15237251-n"], [20, "oewn-15191238-n"], [23, "oewn-14008098-n"], [26, "oewn-03154197-n"], [27, "oewn-13124818-n"], [30, "oewn-04989456-n"], [31, "oewn-02610777-v"], [33, "oewn-04578374-n"], [35, "oewn-00073433-r"], [36, "oewn-01721570-a"], [40, "oewn-08670889-n"]]
     paragraph: '7'
     pos: ["DT", "NN", "RB", "VBZ", "JJ", "RB", "IN", "NN", "CC", "JJ", "NNS", "RB", "CC", "IN", "JJ", "NNS", "VBN", "IN", "DT", "NNP", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "NNS", ",", "CC", "NN", "VBD", "DT", "NN", ",", "RB", "JJ", ",", "RB", "RB", "NN", "."]
     text: ' The street that is full now of traffic and parked cars then and for many years drowsed
@@ -578,7 +578,7 @@ o2fM:
     wn30_key: [[1, "street%1:06:00::"], [3, "be%2:42:03::"], [4, "full%3:00:00::"], [5, "now%4:02:00::"], [7, "traffic%1:14:00::"], [9, "parked%3:44:00::"], [10, "car%1:06:00::"], [11, "then%4:02:01::"], [14, "many%3:00:00::"], [15, "year%1:28:01::"], [16, "drowse%2:29:01::"], [19, "august%1:28:00::"], [20, "afternoon%1:28:00::"], [23, "shade%1:26:00::"], [26, "curbside%1:06:00::"], [27, "tree%1:20:00::"], [30, "silence%1:07:00::"], [31, "be%2:42:03::"], [33, "weight%1:06:00::"], [35, "almost%4:02:00::"], [36, "palpable%3:00:00::"], [40, "air%1:15:00::"]]
 KOdG:
     lemmas: ["Every", "slight", "sound", "that", "rise", "against", "that", "pressure", "fall_away", "again", ",", "crushed", "beneath", "it", "."]
-    oewn2026_key: [[1, "oewn-02172469-s"], [2, "oewn-07385893-n"], [4, "oewn-02630344-v"], [7, "oewn-05202630-n"], [8, "oewn-00148292-v"], [9, "oewn-00040777-r"], [11, "oewn-02248412-s"]]
+    oewn_key: [[1, "oewn-02172469-s"], [2, "oewn-07385893-n"], [4, "oewn-02630344-v"], [7, "oewn-05202630-n"], [8, "oewn-00148292-v"], [9, "oewn-00040777-r"], [11, "oewn-02248412-s"]]
     paragraph: '7'
     pos: ["DT", "JJ", "NN", "WDT", "VBD", "IN", "IN", "NN", "VB", "RB", ",", "JJ", "IN", "PRP", "."]
     text: ' Every slight sound that rose against that pressure fell_away again, crushed beneath
@@ -588,7 +588,7 @@ KOdG:
     wn30_key: [[1, "slight%3:00:00:insignificant:00"], [2, "sound%1:11:00::"], [4, "rise%2:42:01::"], [7, "pressure%1:07:00::"], [8, "fall_away%2:30:01::"], [9, "again%4:02:00::"], [11, "crushed%3:00:00:rough:00"]]
 ymdt:
     lemmas: ["A", "hay", "wagon", "move", "slowly", "along", "the", "gutter", ",", "the", "top", "of", "it", "sweep", "by", "the", "low", "bough", "of", "the", "maple", "tree", ",", "and", "loose", "straw", "be", "leave", "hang", "tangled", "among", "the", "leaf", "."]
-    oewn2026_key: [[1, "oewn-07818002-n"], [2, "oewn-04550444-n"], [3, "oewn-01839438-v"], [4, "oewn-00162829-r"], [7, "oewn-03476596-n"], [10, "oewn-08681092-n"], [13, "oewn-01874036-v"], [16, "oewn-01209146-a"], [17, "oewn-13186625-n"], [20, "oewn-12773426-n"], [21, "oewn-13124818-n"], [24, "oewn-01065803-s"], [25, "oewn-14830069-n"], [27, "oewn-02735289-v"], [28, "oewn-01484705-v"], [29, "oewn-00255923-a"], [32, "oewn-13173519-n"]]
+    oewn_key: [[1, "oewn-07818002-n"], [2, "oewn-04550444-n"], [3, "oewn-01839438-v"], [4, "oewn-00162829-r"], [7, "oewn-03476596-n"], [10, "oewn-08681092-n"], [13, "oewn-01874036-v"], [16, "oewn-01209146-a"], [17, "oewn-13186625-n"], [20, "oewn-12773426-n"], [21, "oewn-13124818-n"], [24, "oewn-01065803-s"], [25, "oewn-14830069-n"], [27, "oewn-02735289-v"], [28, "oewn-01484705-v"], [29, "oewn-00255923-a"], [32, "oewn-13173519-n"]]
     paragraph: '7'
     pos: ["DT", "NN", "NN", "VBD", "RB", "IN", "DT", "NN", ",", "DT", "NN", "RB", "RB", "VBD", "IN", "DT", "JJ", "NNS", "IN", "DT", "NN", "NNS", ",", "CC", "JJ", "NNS", "VB", "VB", "VB", "JJ", "IN", "DT", "NNS", "."]
     text: ' A hay wagon moved slowly along the gutter, the top of it swept by the low boughs
@@ -598,7 +598,7 @@ ymdt:
     wn30_key: [[1, "hay%1:13:00::"], [2, "wagon%1:06:00::"], [3, "move%2:38:03::"], [4, "slowly%4:02:02::"], [7, "gutter%1:06:00::"], [10, "top%1:15:00::"], [13, "sweep%2:38:01::"], [16, "low%3:00:01::"], [17, "bough%1:20:00::"], [20, "maple%1:20:02::"], [21, "tree%1:20:00::"], [24, "loose%3:00:01:free:00"], [25, "straw%1:27:01::"], [27, "leave%2:42:02::"], [28, "hang%2:35:03::"], [29, "tangled%3:00:00::"], [32, "leaf%1:20:00::"]]
 q9V9:
     lemmas: ["A", "wheel", "squeak", "on", "a", "hub", ",", "be", "still", ",", "and", "squeak", "again", "."]
-    oewn2026_key: [[1, "oewn-04582285-n"], [2, "oewn-02176108-v"], [5, "oewn-03552838-n"], [7, "oewn-02610777-v"], [8, "oewn-01925827-s"], [11, "oewn-02176108-v"], [12, "oewn-00040777-r"]]
+    oewn_key: [[1, "oewn-04582285-n"], [2, "oewn-02176108-v"], [5, "oewn-03552838-n"], [7, "oewn-02610777-v"], [8, "oewn-01925827-s"], [11, "oewn-02176108-v"], [12, "oewn-00040777-r"]]
     paragraph: '7'
     pos: ["DT", "NN", "VBD", "IN", "DT", "NN", ",", "VBD", "JJ", ",", "CC", "VBD", "RB", "."]
     text: ' A wheel squeaked on a hub, was still, and squeaked again.'
@@ -607,7 +607,7 @@ q9V9:
     wn30_key: [[1, "wheel%1:06:00::"], [2, "squeak%2:39:00::"], [5, "hub%1:06:00::"], [7, "be%2:42:03::"], [8, "still%3:00:00:quiet:01"], [11, "squeak%2:39:00::"], [12, "again%4:02:00::"]]
 IOzd:
     lemmas: ["If", "a", "child", "watch", "its", "progress", "he", "whisper", ",", "\"", "hay", ",", "hay", ",", "load", "of", "hay", "-", "make", "a", "wish", "and", "turn_away", "\"", ",", "and", "then", "stare", "rigidly", "in", "the", "opposite", "direction", "until", "the", "sound", "of", "the", "horse", "'", "foot", "return", "no_more", "."]
-    oewn2026_key: [[2, "oewn-09937051-n"], [3, "oewn-02154940-v"], [5, "oewn-07459865-n"], [7, "oewn-00917783-v"], [10, "oewn-07818002-n"], [12, "oewn-07818002-n"], [14, "oewn-13794608-n"], [16, "oewn-07818002-n"], [18, "oewn-02566500-v"], [20, "oewn-07200530-n"], [22, "oewn-01912802-v"], [26, "oewn-00118527-r"], [27, "oewn-02137210-v"], [28, "oewn-00196288-r"], [31, "oewn-02078543-s"], [32, "oewn-08697710-n"], [35, "oewn-05726201-n"], [38, "oewn-02377103-n"], [40, "oewn-02156097-n"], [41, "oewn-02008888-v"], [42, "oewn-00031911-r"]]
+    oewn_key: [[2, "oewn-09937051-n"], [3, "oewn-02154940-v"], [5, "oewn-07459865-n"], [7, "oewn-00917783-v"], [10, "oewn-07818002-n"], [12, "oewn-07818002-n"], [14, "oewn-13794608-n"], [16, "oewn-07818002-n"], [18, "oewn-02566500-v"], [20, "oewn-07200530-n"], [22, "oewn-01912802-v"], [26, "oewn-00118527-r"], [27, "oewn-02137210-v"], [28, "oewn-00196288-r"], [31, "oewn-02078543-s"], [32, "oewn-08697710-n"], [35, "oewn-05726201-n"], [38, "oewn-02377103-n"], [40, "oewn-02156097-n"], [41, "oewn-02008888-v"], [42, "oewn-00031911-r"]]
     paragraph: '7'
     pos: ["IN", "DT", "NN", "VBD", "PRP$", "NN", "PRP", "VBD", ",", "``", "NN", ",", "NN", ",", "NN", "IN", "NN", ":", "VB", "VB", "NN", "CC", "VB", "''", ",", "RB", "RB", "VBD", "RB", "RB", "RB", "JJ", "NN", "IN", "DT", "NN", "IN", "DT", "NNS", "POS", "NNS", "VBD", "RB", "."]
     text: ' If a child watched its progress he whispered, " Hay, hay, load of hay - make a wish
@@ -618,7 +618,7 @@ IOzd:
     wn30_key: [[2, "child%1:18:00::"], [3, "watch%2:39:00::"], [5, "progress%1:11:00::"], [7, "whisper%2:32:00::"], [10, "hay%1:13:00::"], [12, "hay%1:13:00::"], [14, "load%1:23:00::"], [16, "hay%1:13:00::"], [18, "make%2:41:00::"], [20, "wish%1:10:00::"], [22, "turn_away%2:38:02::"], [26, "then%4:02:00::"], [27, "stare%2:39:00::"], [28, "rigidly%4:02:00::"], [31, "opposite%3:00:02:other:00"], [32, "direction%1:15:00::"], [35, "sound%1:09:00::"], [38, "horse%1:05:00::"], [40, "foot%1:05:01::"], [41, "return%2:38:00::"], [42, "no_more%4:02:01::"]]
 0WMj:
     lemmas: ["When", "the", "hay", "wagon", "have", "go", ",", "and", "an", "interval", "pass", ",", "a", "huckster", "'s", "cart", "might", "turn", "the", "corner", "."]
-    oewn2026_key: [[2, "oewn-07818002-n"], [3, "oewn-04550444-n"], [5, "oewn-01852660-v"], [9, "oewn-15294470-n"], [10, "oewn-02076777-v"], [13, "oewn-10210135-n"], [15, "oewn-02974308-n"], [17, "oewn-01913805-v"], [19, "oewn-03114137-n"]]
+    oewn_key: [[2, "oewn-07818002-n"], [3, "oewn-04550444-n"], [5, "oewn-01852660-v"], [9, "oewn-15294470-n"], [10, "oewn-02076777-v"], [13, "oewn-10210135-n"], [15, "oewn-02974308-n"], [17, "oewn-01913805-v"], [19, "oewn-03114137-n"]]
     paragraph: '7'
     pos: ["WRB", "DT", "NN", "NN", "VBD", "VBN", ",", "CC", "DT", "NN", "VBD", ",", "DT", "NN", "POS", "NN", "MD", "VB", "DT", "NN", "."]
     text: ' When the hay wagon had gone, and an interval passed, a huckster''s cart might turn
@@ -628,7 +628,7 @@ IOzd:
     wn30_key: [[2, "hay%1:13:00::"], [3, "wagon%1:06:00::"], [5, "go%2:38:01::"], [9, "interval%1:28:00::"], [10, "pass%2:38:03::"], [13, "huckster%1:18:00::"], [15, "cart%1:06:00::"], [17, "turn%2:38:03::"], [19, "corner%1:06:00::"]]
 yD5n:
     lemmas: ["The", "horse", "walk", ",", "the", "rein", "be", "slack", ",", "the", "huckster", "ride", "with", "bowed", "shoulder", ",", "his", "forearm", "across", "his", "knee", "."]
-    oewn2026_key: [[1, "oewn-02377103-n"], [2, "oewn-01908923-v"], [5, "oewn-04079663-n"], [6, "oewn-02610777-v"], [7, "oewn-02413057-s"], [10, "oewn-10210135-n"], [11, "oewn-01959843-v"], [14, "oewn-05556473-n"], [17, "oewn-05571956-n"], [20, "oewn-05581233-n"]]
+    oewn_key: [[1, "oewn-02377103-n"], [2, "oewn-01908923-v"], [5, "oewn-04079663-n"], [6, "oewn-02610777-v"], [7, "oewn-02413057-s"], [10, "oewn-10210135-n"], [11, "oewn-01959843-v"], [14, "oewn-05556473-n"], [17, "oewn-05571956-n"], [20, "oewn-05581233-n"]]
     paragraph: '7'
     pos: ["DT", "NN", "VBD", ",", "DT", "NNS", "VBD", "JJ", ",", "DT", "NN", "VBD", "IN", "JJ", "NNS", ",", "PRP$", "NNS", "IN", "PRP$", "NNS", "."]
     text: ' The horse walked, the reins were slack, the huckster rode with bowed shoulders,
@@ -638,7 +638,7 @@ yD5n:
     wn30_key: [[1, "horse%1:05:00::"], [2, "walk%2:38:00::"], [5, "rein%1:06:00::"], [6, "be%2:42:03::"], [7, "slack%3:00:00:lax:01"], [10, "huckster%1:18:00::"], [11, "ride%2:38:00::"], [14, "shoulder%1:08:00::"], [17, "forearm%1:08:00::"], [20, "knee%1:08:00::"]]
 YUWb:
     lemmas: ["sleepily", ",", "as", "if", "half", "reluctant", "to", "break", "the", "silence", ",", "he", "lift", "his", "voice", ":", "\"", "rhubarb", "nice", "fresh", "rhubarb", "today", "\"", "!"]
-    oewn2026_key: [[0, "oewn-00460296-r"], [4, "oewn-00008300-r"], [5, "oewn-00815538-s"], [7, "oewn-00364717-v"], [9, "oewn-04989456-n"], [12, "oewn-00988106-v"], [14, "oewn-07125323-n"], [17, "oewn-07729012-n"], [18, "oewn-01590750-a"], [19, "oewn-01071383-a"], [20, "oewn-07729012-n"], [21, "oewn-15180961-n"]]
+    oewn_key: [[0, "oewn-00460296-r"], [4, "oewn-00008300-r"], [5, "oewn-00815538-s"], [7, "oewn-00364717-v"], [9, "oewn-04989456-n"], [12, "oewn-00988106-v"], [14, "oewn-07125323-n"], [17, "oewn-07729012-n"], [18, "oewn-01590750-a"], [19, "oewn-01071383-a"], [20, "oewn-07729012-n"], [21, "oewn-15180961-n"]]
     paragraph: '7'
     pos: ["RB", ",", "IN", "IN", "RB", "JJ", "TO", "VB", "DT", "NN", ",", "PRP", "VBD", "PRP$", "NN", ":", "``", "NN", "JJ", "JJ", "NN", "NN", "''", "."]
     text: ' Sleepily, as if half reluctant to break the silence, he lifted his voice: " Rhu-beb
@@ -648,7 +648,7 @@ YUWb:
     wn30_key: [[0, "sleepily%4:02:00::"], [4, "half%4:02:00::"], [5, "reluctant%3:00:00:uneager:00"], [7, "break%2:30:03::"], [9, "silence%1:07:00::"], [12, "lift%2:32:02::"], [14, "voice%1:10:00::"], [17, "rhubarb%1:13:00::"], [18, "nice%3:00:00::"], [19, "fresh%3:00:01::"], [20, "rhubarb%1:13:00::"], [21, "today%1:28:01::"]]
 IRxq:
     lemmas: ["The", "lazy", "singsong", "be", "spaced", "in", "time", "like", "the", "drone", "of", "a", "bumblebee", "."]
-    oewn2026_key: [[1, "oewn-00984495-s"], [2, "oewn-07099119-n"], [3, "oewn-02610777-v"], [4, "oewn-00544502-s"], [6, "oewn-00028468-n"], [9, "oewn-07098752-n"], [12, "oewn-02212276-n"]]
+    oewn_key: [[1, "oewn-00984495-s"], [2, "oewn-07099119-n"], [3, "oewn-02610777-v"], [4, "oewn-00544502-s"], [6, "oewn-00028468-n"], [9, "oewn-07098752-n"], [12, "oewn-02212276-n"]]
     paragraph: '7'
     pos: ["DT", "JJ", "NN", "VBD", "JJ", "RB", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "."]
     text: ' The lazy sing-song was spaced in time like the drone of a bumble-bee.'
@@ -657,7 +657,7 @@ IRxq:
     wn30_key: [[1, "lazy%3:00:00:slow:01"], [2, "singsong%1:10:00::"], [3, "be%2:42:03::"], [4, "spaced%3:00:00:distributed:00"], [6, "time%1:03:00::"], [9, "drone%1:10:00::"], [12, "bumblebee%1:05:00::"]]
 6+J0:
     lemmas: ["No", "one", "seem", "to", "hear", "him", ",", "no", "one", "heed", "."]
-    oewn2026_key: [[2, "oewn-02137900-v"], [4, "oewn-02174146-v"], [9, "oewn-02577816-v"]]
+    oewn_key: [[2, "oewn-02137900-v"], [4, "oewn-02174146-v"], [9, "oewn-02577816-v"]]
     paragraph: '7'
     pos: ["DT", "CD", "VBD", "TO", "VB", "PRP", ",", "DT", "NN", "VBD", "."]
     text: ' No one seemed to hear him, no one heeded.'
@@ -666,7 +666,7 @@ IRxq:
     wn30_key: [[2, "seem%2:39:00::"], [4, "hear%2:39:00::"], [9, "heed%2:41:00::"]]
 Iy3R:
     lemmas: ["The", "horse", "plod", "on", ",", "and", "he", "repeat", "his", "call", "."]
-    oewn2026_key: [[1, "oewn-02377103-n"], [2, "oewn-01925197-v"], [3, "oewn-00068768-r"], [7, "oewn-00960366-v"], [9, "oewn-07135232-n"]]
+    oewn_key: [[1, "oewn-02377103-n"], [2, "oewn-01925197-v"], [3, "oewn-00068768-r"], [7, "oewn-00960366-v"], [9, "oewn-07135232-n"]]
     paragraph: '7'
     pos: ["DT", "NN", "VBD", "RB", ",", "CC", "PRP", "VBD", "PRP$", "NN", "."]
     text: ' The horse plodded on, and he repeated his call.'
@@ -675,7 +675,7 @@ Iy3R:
     wn30_key: [[1, "horse%1:05:00::"], [2, "plod%2:38:00::"], [3, "on%4:02:00::"], [7, "repeat%2:32:00::"], [9, "call%1:10:02::"]]
 RETJ:
     lemmas: ["It", "become", "so", "monotonous", "as", "to", "seem", "a", "part", "of", "the", "quietness", "."]
-    oewn2026_key: [[1, "oewn-00149403-v"], [2, "oewn-00147630-r"], [3, "oewn-01545995-s"], [6, "oewn-02137900-v"], [8, "oewn-09408804-n"], [11, "oewn-04990105-n"]]
+    oewn_key: [[1, "oewn-00149403-v"], [2, "oewn-00147630-r"], [3, "oewn-01545995-s"], [6, "oewn-02137900-v"], [8, "oewn-09408804-n"], [11, "oewn-04990105-n"]]
     paragraph: '7'
     pos: ["PRP", "VBD", "RB", "JJ", "RB", "TO", "VB", "DT", "NN", "IN", "DT", "NN", "."]
     text: ' It became so monotonous as to seem a part of the quietness.'
@@ -684,7 +684,7 @@ RETJ:
     wn30_key: [[1, "become%2:30:00::"], [2, "so%4:02:02::"], [3, "monotonous%3:00:00:unmodulated:00"], [6, "seem%2:39:00::"], [8, "part%1:17:00::"], [11, "quietness%1:07:00::"]]
 hdIY:
     lemmas: ["After", "his", "passage", ",", "the", "street", "be", "empty", "again", "."]
-    oewn2026_key: [[2, "oewn-00309941-n"], [5, "oewn-04341737-n"], [6, "oewn-02610777-v"], [7, "oewn-01090234-a"], [8, "oewn-00040777-r"]]
+    oewn_key: [[2, "oewn-00309941-n"], [5, "oewn-04341737-n"], [6, "oewn-02610777-v"], [7, "oewn-01090234-a"], [8, "oewn-00040777-r"]]
     paragraph: '7'
     pos: ["IN", "PRP$", "NN", ",", "DT", "NN", "VBD", "JJ", "RB", "."]
     text: ' After his passage, the street was empty again.'
@@ -693,7 +693,7 @@ hdIY:
     wn30_key: [[2, "passage%1:04:00::"], [5, "street%1:06:00::"], [6, "be%2:42:03::"], [7, "empty%3:00:00::"], [8, "again%4:02:00::"]]
 klmx:
     lemmas: ["The", "sun", "move", "slantwise", "across", "the", "sky", "and", "down", ";", "the", "tree", "'", "shadow", "circle", "from", "street", "to", "sidewalk", ",", "from", "sidewalk", "to", "lawn", "."]
-    oewn2026_key: [[1, "oewn-09473312-n"], [2, "oewn-01839438-v"], [3, "oewn-00459469-r"], [6, "oewn-09459612-n"], [8, "oewn-00095870-r"], [11, "oewn-13124818-n"], [13, "oewn-14008429-n"], [16, "oewn-04341737-n"], [18, "oewn-04222469-n"], [21, "oewn-04222469-n"], [23, "oewn-08609148-n"]]
+    oewn_key: [[1, "oewn-09473312-n"], [2, "oewn-01839438-v"], [3, "oewn-00459469-r"], [6, "oewn-09459612-n"], [8, "oewn-00095870-r"], [11, "oewn-13124818-n"], [13, "oewn-14008429-n"], [16, "oewn-04341737-n"], [18, "oewn-04222469-n"], [21, "oewn-04222469-n"], [23, "oewn-08609148-n"]]
     paragraph: '7'
     pos: ["DT", "NN", "VBD", "RB", "IN", "DT", "NN", "CC", "RB", ":", "DT", "NNS", "POS", "NNS", "VB", "IN", "NN", "TO", "NN", ",", "IN", "NN", "TO", "NN", "."]
     text: ' The sun moved slant-wise across the sky and down; the trees'' shadows circled from
@@ -703,7 +703,7 @@ klmx:
     wn30_key: [[1, "sun%1:17:00::"], [2, "move%2:38:03::"], [3, "slantwise%4:02:00::"], [6, "sky%1:17:00::"], [8, "down%4:02:00::"], [11, "tree%1:20:00::"], [13, "shadow%1:26:01::"], [16, "street%1:06:00::"], [18, "sidewalk%1:06:00::"], [21, "sidewalk%1:06:00::"], [23, "lawn%1:15:00::"]]
 wzVr:
     lemmas: ["At", "four", "o'clock", ",", "or", "four", "thirty", ",", "the", "coming", "of", "the", "newsboy", "mark", "the", "end", "of", "the", "day", ";", "he", "toss", "a", "paper", "toward", "every", "front_door", ",", "and", "housewife", "come", "down", "to", "their", "steps", "to", "pick_up", "them", "up", "and", "read", "what", "their", "neighbor", "have", "be", "do", "."]
-    oewn2026_key: [[1, "oewn-02194304-s"], [2, "oewn-00198594-r"], [5, "oewn-02194304-s"], [6, "oewn-02196945-s"], [9, "oewn-00049569-n"], [12, "oewn-09917055-n"], [13, "oewn-00923709-v"], [15, "oewn-15291722-n"], [18, "oewn-15161405-n"], [21, "oewn-01517157-v"], [23, "oewn-06277798-n"], [26, "oewn-03404155-n"], [29, "oewn-10209395-n"], [30, "oewn-02009962-v"], [34, "oewn-04305309-n"], [36, "oewn-01210022-v"], [40, "oewn-00626756-v"], [43, "oewn-10372030-n"], [46, "oewn-02566500-v"]]
+    oewn_key: [[1, "oewn-02194304-s"], [2, "oewn-00198594-r"], [5, "oewn-02194304-s"], [6, "oewn-02196945-s"], [9, "oewn-00049569-n"], [12, "oewn-09917055-n"], [13, "oewn-00923709-v"], [15, "oewn-15291722-n"], [18, "oewn-15161405-n"], [21, "oewn-01517157-v"], [23, "oewn-06277798-n"], [26, "oewn-03404155-n"], [29, "oewn-10209395-n"], [30, "oewn-02009962-v"], [34, "oewn-04305309-n"], [36, "oewn-01210022-v"], [40, "oewn-00626756-v"], [43, "oewn-10372030-n"], [46, "oewn-02566500-v"]]
     paragraph: '7'
     pos: ["IN", "JJ", "RB", ",", "CC", "JJ", "JJ", ",", "DT", "NN", "IN", "DT", "NN", "VBD", "DT", "NN", "IN", "DT", "NN", ":", "PRP", "VBD", "DT", "NN", "IN", "DT", "NN", ",", "CC", "NNS", "VBD", "VB", "TO", "PRP$", "NNS", "TO", "VB", "PRP", "RB", "CC", "VB", "WP", "PRP$", "NNS", "VBD", "VBN", "VBG", "."]
     text: ' At four o_''_clock, or four thirty, the coming of the newsboy marked the end of
@@ -716,7 +716,7 @@ wzVr:
     wn30_key: [[1, "four%3:00:00:cardinal:00"], [2, "o'clock%4:02:00::"], [5, "four%3:00:00:cardinal:00"], [6, "thirty%3:00:00:cardinal:00"], [9, "coming%1:04:01::"], [12, "newsboy%1:18:00::"], [13, "mark%2:32:02::"], [15, "end%1:28:00::"], [18, "day%1:28:04::"], [21, "toss%2:35:05::"], [23, "paper%1:10:03::"], [26, "front_door%1:06:00::"], [29, "housewife%1:18:00::"], [30, "come%2:38:04::"], [34, "steps%1:06:00::"], [36, "pick_up%2:35:01::"], [40, "read%2:31:00::"], [43, "neighbor%1:18:00::"], [46, "do%2:41:01::"]]
 pL0y:
     lemmas: ["The", "street", "of", "any", "county", "town", "be", "like", "this", "on", "any", "sunshiny", "afternoon", "in", "summer", ";", "they", "be", "like", "this", "fifty", "odd", "year", "ago", ",", "and", "yesterday", "."]
-    oewn2026_key: [[1, "oewn-04341737-n"], [4, "oewn-08563758-n"], [5, "oewn-08683242-n"], [6, "oewn-02610777-v"], [12, "oewn-15191238-n"], [14, "oewn-15262047-n"], [17, "oewn-02610777-v"], [20, "oewn-02198871-s"], [21, "oewn-00919497-s"], [22, "oewn-15228587-n"], [23, "oewn-00074361-r"], [26, "oewn-15181147-n"]]
+    oewn_key: [[1, "oewn-04341737-n"], [4, "oewn-08563758-n"], [5, "oewn-08683242-n"], [6, "oewn-02610777-v"], [12, "oewn-15191238-n"], [14, "oewn-15262047-n"], [17, "oewn-02610777-v"], [20, "oewn-02198871-s"], [21, "oewn-00919497-s"], [22, "oewn-15228587-n"], [23, "oewn-00074361-r"], [26, "oewn-15181147-n"]]
     paragraph: '8'
     pos: ["DT", "NNS", "IN", "DT", "NN", "NN", "VBD", "IN", "DT", "IN", "DT", "JJ", "NN", "IN", "NN", ":", "PRP", "VBD", "IN", "DT", "JJ", "JJ", "NNS", "RB", ",", "CC", "NN", "."]
     text: ' The streets of any county town were like this on any sunshiny afternoon in summer;
@@ -726,7 +726,7 @@ pL0y:
     wn30_key: [[1, "street%1:06:00::"], [4, "county%1:15:00::"], [5, "town%1:15:00::"], [6, "be%2:42:03::"], [12, "afternoon%1:28:00::"], [14, "summer%1:28:00::"], [17, "be%2:42:03::"], [20, "fifty%3:00:00:cardinal:00"], [21, "odd%3:00:00:inexact:00"], [22, "year%1:28:01::"], [23, "ago%4:02:00::"], [26, "yesterday%1:28:01::"]]
 SCNg:
     lemmas: ["But", "the", "fence", "be", "still", "in_place", "fifty", "odd", "years", "ago", ",", "and", "when", "we", "stand", "on", "the", "gate", "to", "look", "over", ",", "the", "sidewalk", "under", "our", "eye", "be", "not", "cement", "but", "two", "row", "of", "paving_stone", "with", "grass", "between", "and", "on", "both", "side", "."]
-    oewn2026_key: [[2, "oewn-03332179-n"], [3, "oewn-02661230-v"], [4, "oewn-00031700-r"], [5, "oewn-00257669-r"], [6, "oewn-02198871-s"], [7, "oewn-00919497-s"], [8, "oewn-15178747-n"], [9, "oewn-00074361-r"], [14, "oewn-01548893-v"], [17, "oewn-03432206-n"], [19, "oewn-02134989-v"], [20, "oewn-00228167-r"], [23, "oewn-04222469-n"], [26, "oewn-05318579-n"], [27, "oewn-02610777-v"], [28, "oewn-00024432-r"], [29, "oewn-14828657-n"], [31, "oewn-02194109-s"], [32, "oewn-08448447-n"], [34, "oewn-03907152-n"], [36, "oewn-12122650-n"], [37, "oewn-00252367-r"], [41, "oewn-08666920-n"]]
+    oewn_key: [[2, "oewn-03332179-n"], [3, "oewn-02661230-v"], [4, "oewn-00031700-r"], [5, "oewn-00257669-r"], [6, "oewn-02198871-s"], [7, "oewn-00919497-s"], [8, "oewn-15178747-n"], [9, "oewn-00074361-r"], [14, "oewn-01548893-v"], [17, "oewn-03432206-n"], [19, "oewn-02134989-v"], [20, "oewn-00228167-r"], [23, "oewn-04222469-n"], [26, "oewn-05318579-n"], [27, "oewn-02610777-v"], [28, "oewn-00024432-r"], [29, "oewn-14828657-n"], [31, "oewn-02194109-s"], [32, "oewn-08448447-n"], [34, "oewn-03907152-n"], [36, "oewn-12122650-n"], [37, "oewn-00252367-r"], [41, "oewn-08666920-n"]]
     paragraph: '8'
     pos: ["CC", "DT", "NNS", "VBD", "RB", "RB", "JJ", "JJ", "NNS", "RB", ",", "CC", "WRB", "PRP", "VBD", "IN", "DT", "NN", "TO", "VB", "RP", ",", "DT", "NN", "IN", "PRP$", "NNS", "VBD", "RB", "NN", "CC", "JJ", "NNS", "IN", "NNS", "IN", "NN", "RB", "CC", "IN", "DT", "NNS", "."]
     text: ' But the fences were still in_place fifty odd years ago, and when we stood on the
@@ -737,7 +737,7 @@ SCNg:
     wn30_key: [[2, "fence%1:06:00::"], [3, "be%2:42:05::"], [4, "still%4:02:01::"], [5, "in_place%4:02:00::"], [6, "fifty%3:00:00:cardinal:00"], [7, "odd%3:00:00:inexact:00"], [8, "years%1:28:00::"], [9, "ago%4:02:00::"], [14, "stand%2:35:00::"], [17, "gate%1:06:00::"], [19, "look%2:39:00::"], [20, "over%4:02:01::"], [23, "sidewalk%1:06:00::"], [26, "eye%1:08:00::"], [27, "be%2:42:03::"], [28, "not%4:02:00::"], [29, "cement%1:27:03::"], [31, "two%3:00:00:cardinal:00"], [32, "row%1:14:00::"], [34, "paving_stone%1:06:00::"], [36, "grass%1:20:00::"], [37, "between%4:02:00::"], [41, "side%1:15:02::"]]
 7D9t:
     lemmas: ["The", "curb", "be", "a", "line", "of", "stone", "lay", "edgewise", "in", "the", "dirt", "and", "tilt", "this", "way", "and", "that", "by", "frost", "in", "the", "ground", "or", "the", "root", "of", "tree", "."]
-    oewn2026_key: [[1, "oewn-03153586-n"], [2, "oewn-02622439-v"], [4, "oewn-08447160-n"], [6, "oewn-04333222-n"], [7, "oewn-01496967-v"], [8, "oewn-00326736-r"], [11, "oewn-14868863-n"], [13, "oewn-02042202-v"], [15, "oewn-08697710-n"], [19, "oewn-14939773-n"], [22, "oewn-14867162-n"], [25, "oewn-13145876-n"], [27, "oewn-13124818-n"]]
+    oewn_key: [[1, "oewn-03153586-n"], [2, "oewn-02622439-v"], [4, "oewn-08447160-n"], [6, "oewn-04333222-n"], [7, "oewn-01496967-v"], [8, "oewn-00326736-r"], [11, "oewn-14868863-n"], [13, "oewn-02042202-v"], [15, "oewn-08697710-n"], [19, "oewn-14939773-n"], [22, "oewn-14867162-n"], [25, "oewn-13145876-n"], [27, "oewn-13124818-n"]]
     paragraph: '8'
     pos: ["DT", "NN", "VBD", "DT", "NN", "IN", "NN", "VBN", "RB", "IN", "DT", "NN", "CC", "VB", "DT", "NN", "CC", "IN", "IN", "NN", "IN", "DT", "NN", "CC", "DT", "NNS", "IN", "NNS", "."]
     text: ' The curb was a line of stone laid edgewise in the dirt and tilted this way and that
@@ -747,7 +747,7 @@ SCNg:
     wn30_key: [[1, "curb%1:06:00::"], [2, "be%2:42:06::"], [4, "line%1:14:01::"], [6, "stone%1:06:00::"], [7, "lay%2:35:01::"], [8, "edgewise%4:02:00::"], [11, "dirt%1:27:01::"], [13, "tilt%2:38:00::"], [15, "way%1:15:00::"], [19, "frost%1:27:00::"], [22, "ground%1:27:00::"], [25, "root%1:20:00::"], [27, "tree%1:20:00::"]]
 OEq1:
     lemmas: ["opposite", "every", "gate", "be", "a", "hitching_post", "or", "a", "stone", "carriage", "step", ",", "set", "with", "a", "rusty", "iron", "ring", "for", "tie", "a", "horse", "."]
-    oewn2026_key: [[2, "oewn-03432206-n"], [3, "oewn-02661230-v"], [5, "oewn-03528153-n"], [8, "oewn-14720954-n"], [9, "oewn-02971932-n"], [10, "oewn-04322052-n"], [12, "oewn-01685966-s"], [15, "oewn-02060498-s"], [16, "oewn-14666595-n"], [17, "oewn-03539152-n"], [19, "oewn-01288043-v"], [21, "oewn-02377103-n"]]
+    oewn_key: [[2, "oewn-03432206-n"], [3, "oewn-02661230-v"], [5, "oewn-03528153-n"], [8, "oewn-14720954-n"], [9, "oewn-02971932-n"], [10, "oewn-04322052-n"], [12, "oewn-01685966-s"], [15, "oewn-02060498-s"], [16, "oewn-14666595-n"], [17, "oewn-03539152-n"], [19, "oewn-01288043-v"], [21, "oewn-02377103-n"]]
     paragraph: '8'
     pos: ["JJ", "DT", "NN", "VBD", "DT", "NN", "CC", "DT", "NN", "NN", "NN", ",", "JJ", "IN", "DT", "JJ", "NN", "NN", "IN", "VBG", "DT", "NN", "."]
     text: ' Opposite every gate was a hitching_post or a stone carriage step, set with a rusty
@@ -757,7 +757,7 @@ OEq1:
     wn30_key: [[2, "gate%1:06:00::"], [3, "be%2:42:05::"], [5, "hitching_post%1:06:00::"], [8, "stone%1:27:00::"], [9, "carriage%1:06:00::"], [10, "step%1:06:00::"], [12, "set%3:00:00:arranged:00"], [15, "rusty%3:00:00:rusted:00"], [16, "iron%1:27:00::"], [17, "ring%1:06:02::"], [19, "tie%2:35:00::"], [21, "horse%1:05:00::"]]
 yF5R:
     lemmas: ["The", "street", "be", "unpaved", "and", "rise", "steeply", "toward", "the", "center", ";", "it", "be", "mud", "in", "wet", "weather", "and", "dust", ",", "ankle-deep", ",", "in", "dry", ",", "and", "could", "be", "cross", "only", "at", "the", "corner", "where", "there", "be", "stepping_stone", "."]
-    oewn2026_key: [[1, "oewn-04341737-n"], [2, "oewn-02610777-v"], [3, "oewn-01744236-a"], [5, "oewn-00154951-v"], [6, "oewn-00468169-r"], [9, "oewn-08540894-n"], [12, "oewn-02610777-v"], [13, "oewn-14980464-n"], [15, "oewn-02558087-a"], [16, "oewn-11545095-n"], [18, "oewn-14864016-n"], [20, "oewn-00695449-s"], [23, "oewn-02562150-a"], [28, "oewn-01916152-v"], [29, "oewn-00009062-r"], [32, "oewn-03114137-n"], [36, "oewn-09468339-n"]]
+    oewn_key: [[1, "oewn-04341737-n"], [2, "oewn-02610777-v"], [3, "oewn-01744236-a"], [5, "oewn-00154951-v"], [6, "oewn-00468169-r"], [9, "oewn-08540894-n"], [12, "oewn-02610777-v"], [13, "oewn-14980464-n"], [15, "oewn-02558087-a"], [16, "oewn-11545095-n"], [18, "oewn-14864016-n"], [20, "oewn-00695449-s"], [23, "oewn-02562150-a"], [28, "oewn-01916152-v"], [29, "oewn-00009062-r"], [32, "oewn-03114137-n"], [36, "oewn-09468339-n"]]
     paragraph: '8'
     pos: ["DT", "NN", "VBD", "JJ", "CC", "VBD", "RB", "IN", "DT", "NN", ":", "PRP", "VBD", "NN", "IN", "JJ", "NN", "CC", "NN", ",", "JJ", ",", "IN", "JJ", ",", "CC", "MD", "VB", "VBN", "RB", "IN", "DT", "NN", "WRB", "EX", "VBD", "NNS", "."]
     text: ' The street was unpaved and rose steeply toward the center; it was mud in wet weather
@@ -768,7 +768,7 @@ yF5R:
     wn30_key: [[1, "street%1:06:00::"], [2, "be%2:42:03::"], [3, "unpaved%3:00:00::"], [5, "rise%2:30:00::"], [6, "steeply%4:02:00::"], [9, "center%1:15:01::"], [12, "be%2:42:03::"], [13, "mud%1:27:00::"], [15, "wet%3:00:01::"], [16, "weather%1:19:00::"], [18, "dust%1:27:00::"], [20, "ankle-deep%3:00:00:shallow:01"], [23, "dry%3:00:01::"], [28, "cross%2:38:00::"], [29, "only%4:02:01::"], [32, "corner%1:06:00::"], [36, "stepping_stone%1:17:00::"]]
 Vxbt:
     lemmas: ["It", "have", "a", "bucolic", "atmosphere", "that", "it", "have", "lose", "long_since", "."]
-    oewn2026_key: [[1, "oewn-02636270-v"], [3, "oewn-02058608-s"], [4, "oewn-14548451-n"], [8, "oewn-02292634-v"], [9, "oewn-00022855-r"]]
+    oewn_key: [[1, "oewn-02636270-v"], [3, "oewn-02058608-s"], [4, "oewn-14548451-n"], [8, "oewn-02292634-v"], [9, "oewn-00022855-r"]]
     paragraph: '8'
     pos: ["PRP", "VBD", "DT", "JJ", "NN", "IN", "PRP", "VBZ", "VBN", "RB", "."]
     text: ' It had a bucolic atmosphere that it has lost long_since.'
@@ -777,7 +777,7 @@ Vxbt:
     wn30_key: [[1, "have%2:42:00::"], [3, "bucolic%3:00:01:rural:00"], [4, "atmosphere%1:26:01::"], [8, "lose%2:40:02::"], [9, "long_since%4:02:01::"]]
 okPo:
     lemmas: ["The", "hoofmark", "of", "cattle", "and", "the", "footprint", "of", "bare", "foot", "in", "the", "mud", "or", "in", "the", "dust", "be", "as", "numerous", "as", "the", "trace", "of", "shod", "horse", "."]
-    oewn2026_key: [[3, "oewn-02405077-n"], [6, "oewn-06657802-n"], [8, "oewn-00460031-s"], [9, "oewn-05570899-n"], [12, "oewn-14980464-n"], [16, "oewn-14864016-n"], [17, "oewn-02610777-v"], [19, "oewn-01556776-s"], [22, "oewn-04470508-n"], [24, "oewn-02163351-a"], [25, "oewn-02377103-n"]]
+    oewn_key: [[3, "oewn-02405077-n"], [6, "oewn-06657802-n"], [8, "oewn-00460031-s"], [9, "oewn-05570899-n"], [12, "oewn-14980464-n"], [16, "oewn-14864016-n"], [17, "oewn-02610777-v"], [19, "oewn-01556776-s"], [22, "oewn-04470508-n"], [24, "oewn-02163351-a"], [25, "oewn-02377103-n"]]
     paragraph: '8'
     pos: ["DT", "NN", "IN", "NNS", "CC", "DT", "NNS", "IN", "JJ", "NNS", "IN", "DT", "NN", "CC", "IN", "DT", "NN", "VBD", "RB", "JJ", "IN", "DT", "NNS", "IN", "JJ", "NNS", "."]
     text: ' The hoofmarks of cattle and the prints of bare feet in the mud or in the dust were
@@ -787,7 +787,7 @@ okPo:
     wn30_key: [[3, "cattle%1:05:00::"], [6, "footprint%1:10:00::"], [8, "bare%3:00:00:unclothed:00"], [9, "foot%1:08:01::"], [12, "mud%1:27:00::"], [16, "dust%1:27:00::"], [17, "be%2:42:03::"], [19, "numerous%3:00:00:many:00"], [22, "trace%1:06:00::"], [24, "shod%3:00:00::"], [25, "horse%1:05:00::"]]
 YsGO:
     lemmas: ["cows", "be", "keep", "in", "backyard", "barn", ",", "boy", "be", "hire", "to", "drive", "them", "to", "and", "from", "the", "pasture", "on", "the", "edge", "of", "town", ",", "and", "familiar", "to", "the", "ear", ",", "morning", "and", "evening", ",", "be", "the", "boy", "'", "coaxing", "voice", ",", "the", "thud", "of", "hoof", ",", "and", "the", "thwack", "of", "a", "stick", "on", "cowhide", "."]
-    oewn2026_key: [[0, "oewn-02405077-n"], [2, "oewn-02207710-v"], [4, "oewn-02775202-n"], [5, "oewn-02796518-n"], [7, "oewn-10305010-n"], [9, "oewn-02414542-v"], [11, "oewn-02060895-v"], [17, "oewn-08633625-n"], [20, "oewn-13926085-n"], [22, "oewn-08683242-n"], [25, "oewn-00968795-a"], [28, "oewn-05328447-n"], [30, "oewn-15190336-n"], [32, "oewn-15191509-n"], [34, "oewn-02610777-v"], [36, "oewn-10305010-n"], [38, "oewn-01774701-s"], [39, "oewn-07125323-n"], [42, "oewn-07411545-n"], [44, "oewn-02156611-n"], [48, "oewn-00134387-n"], [51, "oewn-13186544-n"], [53, "oewn-14786427-n"]]
+    oewn_key: [[0, "oewn-02405077-n"], [2, "oewn-02207710-v"], [4, "oewn-02775202-n"], [5, "oewn-02796518-n"], [7, "oewn-10305010-n"], [9, "oewn-02414542-v"], [11, "oewn-02060895-v"], [17, "oewn-08633625-n"], [20, "oewn-13926085-n"], [22, "oewn-08683242-n"], [25, "oewn-00968795-a"], [28, "oewn-05328447-n"], [30, "oewn-15190336-n"], [32, "oewn-15191509-n"], [34, "oewn-02610777-v"], [36, "oewn-10305010-n"], [38, "oewn-01774701-s"], [39, "oewn-07125323-n"], [42, "oewn-07411545-n"], [44, "oewn-02156611-n"], [48, "oewn-00134387-n"], [51, "oewn-13186544-n"], [53, "oewn-14786427-n"]]
     paragraph: '8'
     pos: ["NNS", "VBD", "VBN", "VB", "NN", "NNS", ",", "NNS", "VBD", "VBN", "TO", "VB", "PRP", "TO", "CC", "IN", "DT", "NN", "IN", "DT", "NN", "IN", "NN", ",", "CC", "JJ", "TO", "DT", "NN", ",", "NN", "CC", "NN", ",", "VBD", "DT", "NNS", "POS", "JJ", "NNS", ",", "DT", "NN", "IN", "NNS", ",", "CC", "DT", "NN", "IN", "DT", "NN", "VB", "NN", "."]
     text: ' Cows were kept in backyard barns, boys were hired to drive them to and from the

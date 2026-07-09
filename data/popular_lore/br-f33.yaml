@@ -3,7 +3,7 @@ _meta:
         type: seq
         base: tokens
         data: string
-    oewn2026_key:
+    oewn_key:
         type: element
         base: tokens
         data: string
@@ -28,7 +28,7 @@ _meta:
         data: string
 R3mS:
     lemmas: ["In", "a_few", "school", "district", "one", "find", "a", "link", "between", "school", "and", "job", "."]
-    oewn2026_key: [[1, "oewn-01557697-s"], [2, "oewn-08293641-n"], [3, "oewn-08569713-n"], [5, "oewn-02133338-v"], [7, "oewn-13814904-n"], [9, "oewn-08293641-n"], [11, "oewn-00583425-n"]]
+    oewn_key: [[1, "oewn-01557697-s"], [2, "oewn-08293641-n"], [3, "oewn-08569713-n"], [5, "oewn-02133338-v"], [7, "oewn-13814904-n"], [9, "oewn-08293641-n"], [11, "oewn-00583425-n"]]
     paragraph: '0'
     pos: ["IN", "JJ", "NN", "NNS", "CD", "VBZ", "DT", "NN", "IN", "NN", "CC", "NN", "."]
     text: In a_few school districts one finds a link between school and job.
@@ -37,7 +37,7 @@ R3mS:
     wn30_key: [[1, "a_few%3:00:00:few:00"], [2, "school%1:14:00::"], [3, "district%1:15:00::"], [5, "find%2:39:01::"], [7, "link%1:24:00::"], [9, "school%1:14:00::"], [11, "job%1:04:00::"]]
 AvOJ:
     lemmas: ["In", "those", "vocational_program", "organize", "with", "group", "money", ",", "there", "may", "be", "a", "close", "tie", "between", "the", "labor_union", "and", "a", "local", "employer", "on_the_one_hand", "and", "the", "vocational", "teacher", "on", "the", "other", "."]
-    oewn2026_key: [[2, "oewn-05919306-n"], [3, "oewn-02453050-v"], [5, "oewn-00031563-n"], [6, "oewn-13405730-n"], [10, "oewn-02610777-v"], [12, "oewn-00453543-a"], [13, "oewn-13970354-n"], [16, "oewn-08249977-n"], [20, "oewn-10074465-n"], [21, "oewn-00120682-r"], [24, "oewn-02851363-a"], [25, "oewn-10713754-n"], [28, "oewn-02076759-a"]]
+    oewn_key: [[2, "oewn-05919306-n"], [3, "oewn-02453050-v"], [5, "oewn-00031563-n"], [6, "oewn-13405730-n"], [10, "oewn-02610777-v"], [12, "oewn-00453543-a"], [13, "oewn-13970354-n"], [16, "oewn-08249977-n"], [20, "oewn-10074465-n"], [21, "oewn-00120682-r"], [24, "oewn-02851363-a"], [25, "oewn-10713754-n"], [28, "oewn-02076759-a"]]
     paragraph: '0'
     pos: ["IN", "DT", "NNS", "VBN", "IN", "NN", "NN", ",", "EX", "MD", "VB", "DT", "JJ", "NN", "IN", "DT", "NN", "CC", "DT", "JJ", "NN", "RB", "CC", "DT", "JJ", "NN", "IN", "DT", "JJ", "."]
     text: ' In those vocational_programs organized with Smith-Hughes money, there may be a close
@@ -48,7 +48,7 @@ AvOJ:
     wn30_key: [[2, "vocational_program%1:09:00::"], [3, "organize%2:41:01::"], [5, "group%1:03:00::"], [6, "money%1:21:00::"], [10, "be%2:42:04::"], [12, "close%3:00:02::"], [13, "tie%1:26:00::"], [16, "labor_union%1:14:00::"], [20, "employer%1:18:00::"], [21, "on_the_one_hand%4:02:00::"], [24, "vocational%3:01:00::"], [25, "teacher%1:18:00::"], [28, "other%3:00:00::"]]
 lMtf:
     lemmas: ["In", "these", "case", "a", "graduate", "may", "enter", "directly", "into", "an", "apprentice", "program", ",", "save", "a", "year", "because", "of", "his", "vocational", "course", "in", "grade", "11", "and", "12", "."]
-    oewn2026_key: [[2, "oewn-13966452-n"], [4, "oewn-09805779-n"], [6, "oewn-01084999-v"], [7, "oewn-00049277-r"], [10, "oewn-09821287-n"], [11, "oewn-05907694-n"], [13, "oewn-00550632-v"], [15, "oewn-15228587-n"], [19, "oewn-02851363-a"], [20, "oewn-00886144-n"], [22, "oewn-08255384-n"]]
+    oewn_key: [[2, "oewn-13966452-n"], [4, "oewn-09805779-n"], [6, "oewn-01084999-v"], [7, "oewn-00049277-r"], [10, "oewn-09821287-n"], [11, "oewn-05907694-n"], [13, "oewn-00550632-v"], [15, "oewn-15228587-n"], [19, "oewn-02851363-a"], [20, "oewn-00886144-n"], [22, "oewn-08255384-n"]]
     paragraph: '0'
     pos: ["IN", "DT", "NNS", "DT", "NN", "MD", "VB", "RB", "IN", "DT", "NN", "NN", ",", "VBG", "DT", "NN", "IN", "IN", "PRP$", "JJ", "NNS", "IN", "NNS", "CD", "CC", "CD", "."]
     text: ' In these cases a graduate may enter directly into an apprentice program, saving
@@ -58,7 +58,7 @@ lMtf:
     wn30_key: [[2, "case%1:26:00::"], [4, "graduate%1:18:00::"], [6, "enter%2:33:00::"], [7, "directly%4:02:07::"], [10, "apprentice%1:18:00::"], [11, "program%1:09:01::"], [13, "save%2:30:00::"], [15, "year%1:28:01::"], [19, "vocational%3:01:00::"], [20, "course%1:04:01::"], [22, "grade%1:14:00::"]]
 zGwU:
     lemmas: ["The", "apprentice", "program", "will", "involve", "further", "education", "on", "a", "part-time", "basis", ",", "usually", "at", "night", ",", "perhaps", "use", "some", "of", "the", "same", "equipment", "of", "the", "high_school", "."]
-    oewn2026_key: [[1, "oewn-09821287-n"], [2, "oewn-05907694-n"], [4, "oewn-02642216-v"], [6, "oewn-00884975-n"], [9, "oewn-01093061-a"], [10, "oewn-13813124-n"], [12, "oewn-00107608-r"], [14, "oewn-15192074-n"], [16, "oewn-00301501-r"], [17, "oewn-01161188-v"], [21, "oewn-02075880-a"], [22, "oewn-03298959-n"], [25, "oewn-08426574-n"]]
+    oewn_key: [[1, "oewn-09821287-n"], [2, "oewn-05907694-n"], [4, "oewn-02642216-v"], [6, "oewn-00884975-n"], [9, "oewn-01093061-a"], [10, "oewn-13813124-n"], [12, "oewn-00107608-r"], [14, "oewn-15192074-n"], [16, "oewn-00301501-r"], [17, "oewn-01161188-v"], [21, "oewn-02075880-a"], [22, "oewn-03298959-n"], [25, "oewn-08426574-n"]]
     paragraph: '0'
     pos: ["DT", "NN", "NN", "MD", "VB", "JJ", "NN", "IN", "DT", "JJ", "NN", ",", "RB", "IN", "NN", ",", "RB", "VBG", "DT", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "."]
     text: ' The apprentice program will involve further education on a part-time basis, usually
@@ -68,7 +68,7 @@ zGwU:
     wn30_key: [[1, "apprentice%1:18:00::"], [2, "program%1:09:01::"], [4, "involve%2:42:00::"], [6, "education%1:04:00::"], [9, "part-time%3:00:00::"], [10, "basis%1:24:00::"], [12, "usually%4:02:00::"], [14, "night%1:28:00::"], [16, "perhaps%4:02:00::"], [17, "use%2:34:01::"], [21, "same%3:00:02::"], [22, "equipment%1:06:00::"], [25, "high_school%1:14:00::"]]
 0/Je:
     lemmas: ["These", "opportunity", "be", "to", "be", "find", "in", "certain", "city", "in", "such_as", "craft", "as", "auto_mechanics", ",", "carpentry", ",", "drafting", ",", "electrical_work", ",", "tool-and-die_work", ",", "and", "sheet_metal", "work", "."]
-    oewn2026_key: [[1, "oewn-14507501-n"], [5, "oewn-02253273-v"], [7, "oewn-00704329-s"], [8, "oewn-08542298-n"], [11, "oewn-00607485-n"], [13, "oewn-00608300-n"], [15, "oewn-00608890-n"], [17, "oewn-00609152-n"], [19, "oewn-00609380-n"], [21, "oewn-00619776-n"], [24, "oewn-04196525-n"], [25, "oewn-00576778-n"]]
+    oewn_key: [[1, "oewn-14507501-n"], [5, "oewn-02253273-v"], [7, "oewn-00704329-s"], [8, "oewn-08542298-n"], [11, "oewn-00607485-n"], [13, "oewn-00608300-n"], [15, "oewn-00608890-n"], [17, "oewn-00609152-n"], [19, "oewn-00609380-n"], [21, "oewn-00619776-n"], [24, "oewn-04196525-n"], [25, "oewn-00576778-n"]]
     paragraph: '0'
     pos: ["DT", "NNS", "VBP", "TO", "VB", "VBN", "IN", "JJ", "NNS", "IN", "JJ", "NNS", "IN", "NNS", ",", "NN", ",", "NN", ",", "NN", ",", "NN", ",", "CC", "NN", "NN", "."]
     text: ' These opportunities are to be found in certain cities in such crafts as auto_mechanics,
@@ -80,7 +80,7 @@ zGwU:
     wn30_key: [[1, "opportunity%1:26:00::"], [5, "find%2:40:02::"], [7, "certain%3:00:00:definite:00"], [8, "city%1:15:00::"], [11, "craft%1:04:00::"], [13, "auto_mechanics%1:04:00::"], [15, "carpentry%1:04:00::"], [17, "drafting%1:04:02::"], [19, "electrical_work%1:04:00::"], [21, "tool-and-die_work%1:04:00::"], [24, "sheet_metal%1:06:00::"], [25, "work%1:04:00::"]]
 8ifB:
     lemmas: ["formally", "organized", "vocational_program", "support", "by", "federal", "funds", "allow", "high_school", "student", "to", "gain", "experience", "in", "a", "field", "of", "work", "which", "be", "likely", "to", "lead", "to", "a", "full-time", "job", "on", "graduation", "."]
-    oewn2026_key: [[0, "oewn-00188003-r"], [1, "oewn-01674474-a"], [2, "oewn-05919306-n"], [3, "oewn-02223876-v"], [5, "oewn-02736565-a"], [6, "oewn-13377127-n"], [7, "oewn-02427979-v"], [8, "oewn-08426574-n"], [9, "oewn-10685137-n"], [11, "oewn-02297086-v"], [12, "oewn-05766056-n"], [15, "oewn-01099024-n"], [17, "oewn-00585404-n"], [19, "oewn-02610777-v"], [20, "oewn-01414308-a"], [22, "oewn-02641740-v"], [25, "oewn-01092828-a"], [26, "oewn-00583425-n"], [28, "oewn-00212914-n"]]
+    oewn_key: [[0, "oewn-00188003-r"], [1, "oewn-01674474-a"], [2, "oewn-05919306-n"], [3, "oewn-02223876-v"], [5, "oewn-02736565-a"], [6, "oewn-13377127-n"], [7, "oewn-02427979-v"], [8, "oewn-08426574-n"], [9, "oewn-10685137-n"], [11, "oewn-02297086-v"], [12, "oewn-05766056-n"], [15, "oewn-01099024-n"], [17, "oewn-00585404-n"], [19, "oewn-02610777-v"], [20, "oewn-01414308-a"], [22, "oewn-02641740-v"], [25, "oewn-01092828-a"], [26, "oewn-00583425-n"], [28, "oewn-00212914-n"]]
     paragraph: '1'
     pos: ["RB", "JJ", "NNS", "VBN", "IN", "JJ", "NNS", "VBP", "NN", "NNS", "TO", "VB", "NN", "IN", "DT", "NN", "IN", "NN", "WDT", "VBZ", "JJ", "TO", "VB", "VB", "DT", "JJ", "NN", "IN", "NN", "."]
     text: ' Formally organized vocational_programs supported by federal funds allow high_school
@@ -91,7 +91,7 @@ zGwU:
     wn30_key: [[0, "formally%4:02:01::"], [1, "organized%3:00:02::"], [2, "vocational_program%1:09:00::"], [3, "support%2:40:00::"], [5, "federal%3:01:02::"], [6, "funds%1:21:00::"], [7, "allow%2:41:00::"], [8, "high_school%1:14:00::"], [9, "student%1:18:00::"], [11, "gain%2:40:03::"], [12, "experience%1:09:01::"], [15, "field%1:04:00::"], [17, "work%1:04:01::"], [19, "be%2:42:03::"], [20, "likely%3:00:00::"], [22, "lead%2:42:04::"], [25, "full-time%3:00:00::"], [26, "job%1:04:00::"], [28, "graduation%1:04:01::"]]
 Lh4v:
     lemmas: ["The", "\"", "diversified", "occupation", "\"", "program", "be", "a", "part-time", "trade", "preparatory", "program", "conduct", "over", "two", "school_year", "on", "a", "cooperative", "basis", "between", "the", "school", "and", "local", "industrial", "and", "business", "employer", "."]
-    oewn2026_key: [[2, "oewn-00786685-a"], [3, "oewn-00583425-n"], [5, "oewn-05907694-n"], [6, "oewn-02610777-v"], [8, "oewn-01093061-a"], [9, "oewn-00607485-n"], [10, "oewn-00127702-s"], [11, "oewn-05907694-n"], [12, "oewn-02450374-v"], [14, "oewn-02194109-s"], [15, "oewn-15228361-n"], [18, "oewn-02119388-s"], [19, "oewn-13813124-n"], [22, "oewn-08293641-n"], [25, "oewn-02759407-a"], [28, "oewn-10074465-n"]]
+    oewn_key: [[2, "oewn-00786685-a"], [3, "oewn-00583425-n"], [5, "oewn-05907694-n"], [6, "oewn-02610777-v"], [8, "oewn-01093061-a"], [9, "oewn-00607485-n"], [10, "oewn-00127702-s"], [11, "oewn-05907694-n"], [12, "oewn-02450374-v"], [14, "oewn-02194109-s"], [15, "oewn-15228361-n"], [18, "oewn-02119388-s"], [19, "oewn-13813124-n"], [22, "oewn-08293641-n"], [25, "oewn-02759407-a"], [28, "oewn-10074465-n"]]
     paragraph: '1'
     pos: ["DT", "``", "JJ", "NNS", "``", "NN", "VBZ", "DT", "JJ", "NN", "JJ", "NN", "VBN", "IN", "JJ", "NNS", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "CC", "JJ", "JJ", "CC", "JJ", "NNS", "."]
     text: ' The " diversified occupations " program is a part-time trade preparatory program
@@ -102,7 +102,7 @@ Lh4v:
     wn30_key: [[2, "diversified%3:00:00::"], [3, "occupation%1:04:00::"], [5, "program%1:09:01::"], [6, "be%2:42:03::"], [8, "part-time%3:00:00::"], [9, "trade%1:04:00::"], [10, "preparatory%3:00:00:preceding:00"], [11, "program%1:09:01::"], [12, "conduct%2:41:00::"], [14, "two%3:00:00:cardinal:00"], [15, "school_year%1:28:00::"], [18, "cooperative%3:00:00:joint:00"], [19, "basis%1:24:00::"], [22, "school%1:14:00::"], [25, "industrial%3:01:00::"], [28, "employer%1:18:00::"]]
 55sK:
     lemmas: ["The", "\"", "distributive", "education", "\"", "program", "operate", "in_a_similar_way", ",", "with", "arrangement", "between", "the", "school", "and", "employer", "in", "merchandising", "field", "."]
-    oewn2026_key: [[2, "oewn-00469904-a"], [3, "oewn-00884975-n"], [5, "oewn-05907694-n"], [6, "oewn-02448714-v"], [7, "oewn-00166776-r"], [10, "oewn-05803052-n"], [13, "oewn-08293641-n"], [15, "oewn-10074465-n"], [17, "oewn-01115160-n"], [18, "oewn-01099024-n"]]
+    oewn_key: [[2, "oewn-00469904-a"], [3, "oewn-00884975-n"], [5, "oewn-05907694-n"], [6, "oewn-02448714-v"], [7, "oewn-00166776-r"], [10, "oewn-05803052-n"], [13, "oewn-08293641-n"], [15, "oewn-10074465-n"], [17, "oewn-01115160-n"], [18, "oewn-01099024-n"]]
     paragraph: '1'
     pos: ["DT", "``", "JJ", "NN", "''", "NN", "VBZ", "RB", ",", "IN", "NNS", "IN", "DT", "NN", "CC", "NNS", "IN", "NN", "NNS", "."]
     text: ' The " distributive education " program operates in_a_similar_way, with arrangements
@@ -112,7 +112,7 @@ Lh4v:
     wn30_key: [[2, "distributive%3:00:00::"], [3, "education%1:04:00::"], [5, "program%1:09:01::"], [6, "operate%2:41:00::"], [7, "in_a_similar_way%4:02:02::"], [10, "arrangement%1:09:01::"], [13, "school%1:14:00::"], [15, "employer%1:18:00::"], [17, "merchandising%1:04:00::"], [18, "field%1:04:00::"]]
 7ceo:
     lemmas: ["In", "both", "case", "the", "student", "attend", "school", "half-time", "and", "work", "in", "a", "regular", "job", "the", "other", "half", "."]
-    oewn2026_key: [[2, "oewn-07323507-n"], [4, "oewn-10685137-n"], [5, "oewn-02618797-v"], [6, "oewn-08293641-n"], [7, "oewn-00254209-r"], [9, "oewn-02415985-v"], [12, "oewn-01966104-a"], [13, "oewn-00583425-n"], [15, "oewn-02076759-a"], [16, "oewn-13758939-n"]]
+    oewn_key: [[2, "oewn-07323507-n"], [4, "oewn-10685137-n"], [5, "oewn-02618797-v"], [6, "oewn-08293641-n"], [7, "oewn-00254209-r"], [9, "oewn-02415985-v"], [12, "oewn-01966104-a"], [13, "oewn-00583425-n"], [15, "oewn-02076759-a"], [16, "oewn-13758939-n"]]
     paragraph: '1'
     pos: ["IN", "DT", "NNS", "DT", "NN", "VBZ", "NN", "RB", "CC", "VBZ", "IN", "DT", "JJ", "NN", "DT", "JJ", "NN", "."]
     text: ' In both cases the student attends school half-time and works in a regular job the
@@ -122,7 +122,7 @@ Lh4v:
     wn30_key: [[2, "case%1:11:00::"], [4, "student%1:18:00::"], [5, "attend%2:42:00::"], [6, "school%1:14:00::"], [7, "half-time%4:02:00::"], [9, "work%2:41:00::"], [12, "regular%3:00:00::"], [13, "job%1:04:00::"], [15, "other%3:00:00::"], [16, "half%1:23:00::"]]
 88mr:
     lemmas: ["He", "receive", "remuneration", "for", "his", "work", "."]
-    oewn2026_key: [[1, "oewn-02214901-v"], [2, "oewn-13300285-n"], [5, "oewn-00576778-n"]]
+    oewn_key: [[1, "oewn-02214901-v"], [2, "oewn-13300285-n"], [5, "oewn-00576778-n"]]
     paragraph: '1'
     pos: ["PRP", "VBZ", "NN", "IN", "PRP$", "NN", "."]
     text: ' He receives remuneration for his work.'
@@ -131,7 +131,7 @@ Lh4v:
     wn30_key: [[1, "receive%2:40:00::"], [2, "remuneration%1:21:00::"], [5, "work%1:04:00::"]]
 gk/h:
     lemmas: ["In", "a_few", "place", "cooperative", "program", "between", "school", "and", "employer", "in", "clerical", "work", "have", "show", "the", "same", "possibility", "for", "allow", "the", "student", ",", "while", "still", "in", "school", ",", "to", "develop", "skill", "which", "be", "immediately", "marketable", "upon", "graduation", "."]
-    oewn2026_key: [[1, "oewn-01557697-s"], [2, "oewn-08659612-n"], [3, "oewn-02119388-s"], [4, "oewn-05907694-n"], [6, "oewn-08293641-n"], [8, "oewn-10074465-n"], [10, "oewn-02708768-a"], [11, "oewn-00585404-n"], [13, "oewn-02153218-v"], [15, "oewn-02070074-a"], [16, "oewn-05960047-n"], [18, "oewn-02427979-v"], [20, "oewn-10685137-n"], [23, "oewn-00031700-r"], [25, "oewn-08293641-n"], [28, "oewn-00546637-v"], [29, "oewn-05645403-n"], [31, "oewn-02610777-v"], [32, "oewn-00049277-r"], [33, "oewn-02069402-s"], [35, "oewn-00212914-n"]]
+    oewn_key: [[1, "oewn-01557697-s"], [2, "oewn-08659612-n"], [3, "oewn-02119388-s"], [4, "oewn-05907694-n"], [6, "oewn-08293641-n"], [8, "oewn-10074465-n"], [10, "oewn-02708768-a"], [11, "oewn-00585404-n"], [13, "oewn-02153218-v"], [15, "oewn-02070074-a"], [16, "oewn-05960047-n"], [18, "oewn-02427979-v"], [20, "oewn-10685137-n"], [23, "oewn-00031700-r"], [25, "oewn-08293641-n"], [28, "oewn-00546637-v"], [29, "oewn-05645403-n"], [31, "oewn-02610777-v"], [32, "oewn-00049277-r"], [33, "oewn-02069402-s"], [35, "oewn-00212914-n"]]
     paragraph: '1'
     pos: ["IN", "JJ", "NN", "JJ", "NNS", "IN", "NNS", "CC", "NNS", "IN", "JJ", "NN", "VBP", "VBN", "DT", "JJ", "NNS", "IN", "VBG", "DT", "NN", ",", "IN", "RB", "IN", "NN", ",", "TO", "VB", "NNS", "WDT", "VBP", "RB", "JJ", "IN", "NN", "."]
     text: ' In a_few places cooperative programs between schools and employers in clerical work
@@ -144,7 +144,7 @@ gk/h:
     wn30_key: [[1, "a_few%3:00:00:few:00"], [2, "place%1:15:01::"], [3, "cooperative%3:00:00:joint:00"], [4, "program%1:09:01::"], [6, "school%1:14:00::"], [8, "employer%1:18:00::"], [10, "clerical%3:01:01::"], [11, "work%1:04:01::"], [13, "show%2:39:02::"], [15, "same%3:00:00::"], [16, "possibility%1:09:03::"], [18, "allow%2:41:00::"], [20, "student%1:18:00::"], [23, "still%4:02:01::"], [25, "school%1:14:00::"], [28, "develop%2:30:06::"], [29, "skill%1:09:01::"], [31, "be%2:42:03::"], [32, "immediately%4:02:00::"], [33, "marketable%3:00:01:salable:00"], [35, "graduation%1:04:01::"]]
 Dn4q:
     lemmas: ["adult_education", "course", ",", "work-study_program", "of", "various", "sort", "-", "these", "be", "all", "evidence", "of", "a", "continuing", "interest", "of", "the", "school", "in", "further", "educational", "opportunity", "for", "out-of-school", "youth", "."]
-    oewn2026_key: [[0, "oewn-00886975-n"], [1, "oewn-00886144-n"], [3, "oewn-00892751-n"], [5, "oewn-02073069-s"], [6, "oewn-05847533-n"], [9, "oewn-02626667-v"], [11, "oewn-05832256-n"], [14, "oewn-00600632-s"], [15, "oewn-05690773-n"], [18, "oewn-08293641-n"], [20, "oewn-02560630-v"], [21, "oewn-02957558-a"], [22, "oewn-14507501-n"], [24, "oewn-01067179-s"], [25, "oewn-07960326-n"]]
+    oewn_key: [[0, "oewn-00886975-n"], [1, "oewn-00886144-n"], [3, "oewn-00892751-n"], [5, "oewn-02073069-s"], [6, "oewn-05847533-n"], [9, "oewn-02626667-v"], [11, "oewn-05832256-n"], [14, "oewn-00600632-s"], [15, "oewn-05690773-n"], [18, "oewn-08293641-n"], [20, "oewn-02560630-v"], [21, "oewn-02957558-a"], [22, "oewn-14507501-n"], [24, "oewn-01067179-s"], [25, "oewn-07960326-n"]]
     paragraph: '2'
     pos: ["NN", "NNS", ",", "NNS", "IN", "JJ", "NNS", ":", "DT", "VBP", "DT", "NN", "IN", "DT", "JJ", "NN", "IN", "DT", "NNS", "IN", "VBG", "JJ", "NNS", "IN", "JJ", "NN", "."]
     text: ' Adult_education courses, work-study_programs of various sorts - these are all evidence
@@ -155,7 +155,7 @@ Dn4q:
     wn30_key: [[0, "adult_education%1:04:00::"], [1, "course%1:04:01::"], [3, "work-study_program%1:04:00::"], [5, "various%3:00:02:different:00"], [6, "sort%1:09:00::"], [9, "be%2:42:02::"], [11, "evidence%1:09:00::"], [14, "continuing%3:00:00:continued:00"], [15, "interest%1:09:00::"], [18, "school%1:14:00::"], [20, "further%2:41:00::"], [21, "educational%3:01:00::"], [22, "opportunity%1:26:00::"], [24, "out-of-school%3:00:00:free:00"], [25, "youth%1:14:00::"]]
 dc/h:
     lemmas: ["in_general", ",", "however", ",", "it", "may", "be", "say", "that", "when", "a", "boy", "or", "a", "girl", "leave", "the", "high_school", ",", "the", "school", "authority", "play", "little", "or", "no", "part", "in", "the", "decision", "of", "what", "happen", "next", "."]
-    oewn2026_key: [[0, "oewn-00042364-r"], [2, "oewn-00029193-r"], [7, "oewn-01011267-v"], [11, "oewn-10305010-n"], [14, "oewn-10104064-n"], [15, "oewn-02388582-v"], [17, "oewn-08426574-n"], [20, "oewn-08293641-n"], [21, "oewn-09844011-n"], [22, "oewn-02375741-v"], [23, "oewn-01558903-a"], [26, "oewn-00721817-n"], [29, "oewn-05846685-n"], [32, "oewn-00340744-v"], [33, "oewn-00054750-r"]]
+    oewn_key: [[0, "oewn-00042364-r"], [2, "oewn-00029193-r"], [7, "oewn-01011267-v"], [11, "oewn-10305010-n"], [14, "oewn-10104064-n"], [15, "oewn-02388582-v"], [17, "oewn-08426574-n"], [20, "oewn-08293641-n"], [21, "oewn-09844011-n"], [22, "oewn-02375741-v"], [23, "oewn-01558903-a"], [26, "oewn-00721817-n"], [29, "oewn-05846685-n"], [32, "oewn-00340744-v"], [33, "oewn-00054750-r"]]
     paragraph: '2'
     pos: ["RB", ",", "RB", ",", "PRP", "MD", "VB", "VBD", "IN", "WRB", "DT", "NN", "CC", "DT", "NN", "VBZ", "DT", "NN", ",", "DT", "NN", "NNS", "VBP", "JJ", "CC", "DT", "NN", "IN", "DT", "NN", "RB", "RB", "VBZ", "RB", "."]
     text: ' In_general, however, it may be said that when a boy or a girl leaves the high_school,
@@ -165,7 +165,7 @@ dc/h:
     wn30_key: [[0, "in_general%4:02:00::"], [2, "however%4:02:04::"], [7, "say%2:32:00::"], [11, "boy%1:18:00::"], [14, "girl%1:18:02::"], [15, "leave%2:41:00::"], [17, "high_school%1:14:00::"], [20, "school%1:14:00::"], [21, "authority%1:18:01::"], [22, "play%2:41:12::"], [23, "little%3:00:03::"], [26, "part%1:04:01::"], [29, "decision%1:09:00::"], [32, "happen%2:30:00::"], [33, "next%4:02:00::"]]
 yLov:
     lemmas: ["If", "the", "student", "drop_out", "of", "high_school", ",", "the", "break", "with", "the", "school", "be", "even", "more", "complete", "."]
-    oewn2026_key: [[2, "oewn-10685137-n"], [3, "oewn-01085437-v"], [5, "oewn-08426574-n"], [8, "oewn-07328414-n"], [11, "oewn-08293641-n"], [12, "oewn-02610777-v"], [13, "oewn-00017907-r"], [14, "oewn-00099891-r"], [15, "oewn-00522139-a"]]
+    oewn_key: [[2, "oewn-10685137-n"], [3, "oewn-01085437-v"], [5, "oewn-08426574-n"], [8, "oewn-07328414-n"], [11, "oewn-08293641-n"], [12, "oewn-02610777-v"], [13, "oewn-00017907-r"], [14, "oewn-00099891-r"], [15, "oewn-00522139-a"]]
     paragraph: '2'
     pos: ["IN", "DT", "NN", "VB", "IN", "NN", ",", "DT", "NN", "VB", "DT", "NN", "VBZ", "RB", "RBR", "JJ", "."]
     text: ' If the student drops_out of high_school, the break with the school is even more
@@ -175,7 +175,7 @@ yLov:
     wn30_key: [[2, "student%1:18:00::"], [3, "drop_out%2:33:00::"], [5, "high_school%1:14:00::"], [8, "break%1:11:03::"], [11, "school%1:14:00::"], [12, "be%2:42:03::"], [13, "even%4:02:00::"], [14, "more%4:02:00::"], [15, "complete%3:00:00::"]]
 GrYQ:
     lemmas: ["When", "there", "be", "employment", "opportunity", "for", "youth", ",", "this", "arrangement", "-", "or", "lack", "of", "arrangement", "-", "work_out", "quite", "well", "."]
-    oewn2026_key: [[2, "oewn-02609706-v"], [3, "oewn-13991539-n"], [4, "oewn-14507501-n"], [6, "oewn-07960326-n"], [9, "oewn-05803052-n"], [12, "oewn-14472871-n"], [14, "oewn-05803052-n"], [16, "oewn-02617141-v"], [17, "oewn-00019243-r"], [18, "oewn-00011555-r"]]
+    oewn_key: [[2, "oewn-02609706-v"], [3, "oewn-13991539-n"], [4, "oewn-14507501-n"], [6, "oewn-07960326-n"], [9, "oewn-05803052-n"], [12, "oewn-14472871-n"], [14, "oewn-05803052-n"], [16, "oewn-02617141-v"], [17, "oewn-00019243-r"], [18, "oewn-00011555-r"]]
     paragraph: '2'
     pos: ["WRB", "EX", "VBZ", "NN", "NN", "IN", "NN", ",", "DT", "NN", ":", "CC", "NN", "IN", "NN", ":", "VB", "RB", "RB", "."]
     text: ' When there is employment opportunity for youth, this arrangement - or lack of arrangement
@@ -185,7 +185,7 @@ GrYQ:
     wn30_key: [[2, "be%2:42:00::"], [3, "employment%1:26:00::"], [4, "opportunity%1:26:00::"], [6, "youth%1:14:00::"], [9, "arrangement%1:09:01::"], [12, "lack%1:26:00::"], [14, "arrangement%1:09:01::"], [16, "work_out%2:42:00::"], [17, "quite%4:02:02::"], [18, "well%4:02:00::"]]
 +lH4:
     lemmas: ["indeed", ",", "in", "some", "period", "of", "our", "history", "and", "in", "some", "neighborhood", "the", "job", "opportunity", "have", "be", "so", "good", "that", "undoubtedly", "a", "great", "many", "boy", "who", "be", "potential", "member", "of", "the", "profession", "quit", "school", "at", "an", "early", "age", "and", "go", "to", "work", "."]
-    oewn2026_key: [[0, "oewn-00038035-r"], [3, "oewn-02275064-a"], [4, "oewn-15137796-n"], [7, "oewn-15146348-n"], [10, "oewn-02275064-a"], [11, "oewn-08658688-n"], [13, "oewn-00583425-n"], [14, "oewn-14507501-n"], [16, "oewn-02610777-v"], [17, "oewn-00147630-r"], [18, "oewn-01126910-a"], [20, "oewn-00079373-r"], [22, "oewn-01389817-s"], [24, "oewn-10305010-n"], [26, "oewn-02610777-v"], [27, "oewn-00044573-a"], [28, "oewn-10326901-n"], [31, "oewn-08129062-n"], [32, "oewn-02686624-v"], [33, "oewn-08293641-n"], [36, "oewn-01653059-s"], [37, "oewn-15170131-n"], [41, "oewn-02415985-v"]]
+    oewn_key: [[0, "oewn-00038035-r"], [3, "oewn-02275064-a"], [4, "oewn-15137796-n"], [7, "oewn-15146348-n"], [10, "oewn-02275064-a"], [11, "oewn-08658688-n"], [13, "oewn-00583425-n"], [14, "oewn-14507501-n"], [16, "oewn-02610777-v"], [17, "oewn-00147630-r"], [18, "oewn-01126910-a"], [20, "oewn-00079373-r"], [22, "oewn-01389817-s"], [24, "oewn-10305010-n"], [26, "oewn-02610777-v"], [27, "oewn-00044573-a"], [28, "oewn-10326901-n"], [31, "oewn-08129062-n"], [32, "oewn-02686624-v"], [33, "oewn-08293641-n"], [36, "oewn-01653059-s"], [37, "oewn-15170131-n"], [41, "oewn-02415985-v"]]
     paragraph: '2'
     pos: ["RB", ",", "IN", "JJ", "NNS", "IN", "PRP$", "NN", "CC", "IN", "JJ", "NNS", "DT", "NN", "NNS", "VBP", "VBN", "RB", "JJ", "IN", "RB", "DT", "JJ", "JJ", "NNS", "WP", "VBD", "JJ", "NNS", "IN", "DT", "NNS", "VBP", "NN", "IN", "DT", "JJ", "NN", "CC", "VB", "VB", "VB", "."]
     text: ' Indeed, in some periods of our history and in some neighborhoods the job opportunities
@@ -196,7 +196,7 @@ GrYQ:
     wn30_key: [[0, "indeed%4:02:03::"], [3, "some%3:00:00::"], [4, "period%1:28:00::"], [7, "history%1:28:00::"], [10, "some%3:00:00::"], [11, "neighborhood%1:15:00::"], [13, "job%1:04:00::"], [14, "opportunity%1:26:00::"], [16, "be%2:42:03::"], [17, "so%4:02:02::"], [18, "good%3:00:01::"], [20, "undoubtedly%4:02:00::"], [22, "great%3:00:01:large:00"], [24, "boy%1:18:00::"], [26, "be%2:42:03::"], [27, "potential%3:00:00::"], [28, "member%1:18:00::"], [31, "profession%1:14:00::"], [32, "quit%2:42:04::"], [33, "school%1:14:00::"], [36, "early%3:00:00:young:00"], [37, "age%1:28:00::"], [41, "work%2:41:00::"]]
 G+4y:
     lemmas: ["statistically", "this", "have", "represent", "a", "loss", "to", "the", "nation", ",", "although", "one", "must", "admit", "that", "in", "an", "individual", "case", "the", "decision", "in", "retrospect", "may", "have", "be", "a", "wise", "one", "."]
-    oewn2026_key: [[0, "oewn-00079498-r"], [3, "oewn-02626667-v"], [5, "oewn-13348698-n"], [8, "oewn-08183451-n"], [13, "oewn-00818972-v"], [17, "oewn-02160589-s"], [18, "oewn-07323507-n"], [20, "oewn-00163453-n"], [22, "oewn-05796034-n"], [25, "oewn-02610777-v"], [27, "oewn-02579686-a"]]
+    oewn_key: [[0, "oewn-00079498-r"], [3, "oewn-02626667-v"], [5, "oewn-13348698-n"], [8, "oewn-08183451-n"], [13, "oewn-00818972-v"], [17, "oewn-02160589-s"], [18, "oewn-07323507-n"], [20, "oewn-00163453-n"], [22, "oewn-05796034-n"], [25, "oewn-02610777-v"], [27, "oewn-02579686-a"]]
     paragraph: '2'
     pos: ["RB", "DT", "VBZ", "VBN", "DT", "NN", "TO", "DT", "NN", ",", "IN", "CD", "MD", "VB", "IN", "IN", "DT", "JJ", "NN", "DT", "NN", "IN", "NN", "MD", "VB", "VBN", "DT", "JJ", "CD", "."]
     text: ' Statistically this has represented a loss to the nation, although one must admit
@@ -206,7 +206,7 @@ G+4y:
     wn30_key: [[0, "statistically%4:02:00::"], [3, "represent%2:42:00::"], [5, "loss%1:21:01::"], [8, "nation%1:14:01::"], [13, "admit%2:32:00::"], [17, "individual%3:00:00:independent:00"], [18, "case%1:11:00::"], [20, "decision%1:04:00::"], [22, "retrospect%1:09:00::"], [25, "be%2:42:03::"], [27, "wise%3:00:00::"]]
 kwI0:
     lemmas: ["I", "make", "no", "attempt", "to", "measure", "the", "enduring", "satisfaction", "and", "material", "well-being", "of", "a", "man", "who", "go", "to", "work", "on", "graduation", "from", "high_school", "and", "be", "highly", "successful", "in", "the", "business", "which", "he", "enter", "."]
-    oewn2026_key: [[1, "oewn-02566500-v"], [3, "oewn-00787849-n"], [5, "oewn-00490773-v"], [7, "oewn-01759375-s"], [8, "oewn-14010164-n"], [10, "oewn-02588172-s"], [11, "oewn-14470991-n"], [14, "oewn-10306910-n"], [18, "oewn-02415985-v"], [20, "oewn-00212914-n"], [22, "oewn-08426574-n"], [24, "oewn-02610777-v"], [25, "oewn-00089896-r"], [26, "oewn-02339254-a"], [29, "oewn-00583425-n"], [32, "oewn-01084999-v"]]
+    oewn_key: [[1, "oewn-02566500-v"], [3, "oewn-00787849-n"], [5, "oewn-00490773-v"], [7, "oewn-01759375-s"], [8, "oewn-14010164-n"], [10, "oewn-02588172-s"], [11, "oewn-14470991-n"], [14, "oewn-10306910-n"], [18, "oewn-02415985-v"], [20, "oewn-00212914-n"], [22, "oewn-08426574-n"], [24, "oewn-02610777-v"], [25, "oewn-00089896-r"], [26, "oewn-02339254-a"], [29, "oewn-00583425-n"], [32, "oewn-01084999-v"]]
     paragraph: '2'
     pos: ["PRP", "VBP", "DT", "NN", "TO", "VB", "DT", "JJ", "NN", "CC", "JJ", "NN", "IN", "DT", "NN", "WP", "VB", "VB", "VB", "IN", "NN", "IN", "NN", "CC", "VBD", "RB", "JJ", "IN", "DT", "NN", "WDT", "PRP", "VBD", "."]
     text: ' I make no attempt to measure the enduring satisfaction and material well-being of
@@ -217,7 +217,7 @@ kwI0:
     wn30_key: [[1, "make%2:41:00::"], [3, "attempt%1:04:00::"], [5, "measure%2:30:00::"], [7, "enduring%3:00:00:permanent:00"], [8, "satisfaction%1:26:00::"], [10, "material%3:00:00:worldly:00"], [11, "well-being%1:26:00::"], [14, "man%1:18:00::"], [18, "work%2:41:00::"], [20, "graduation%1:04:01::"], [22, "high_school%1:14:00::"], [24, "be%2:42:03::"], [25, "highly%4:02:01::"], [26, "successful%3:00:00::"], [29, "business%1:04:00::"], [32, "enter%2:33:00::"]]
 V7yX:
     lemmas: ["He", "may", "or", "may_not", "be", "\"", "better_off", "\"", "than", "his", "classmate", "who", "go_on", "to", "a", "college", "and", "professional", "school", "."]
-    oewn2026_key: [[4, "oewn-02610777-v"], [6, "oewn-01051901-s"], [10, "oewn-10579534-n"], [12, "oewn-01996535-v"], [15, "oewn-08295090-n"], [17, "oewn-01876050-a"], [18, "oewn-08293641-n"]]
+    oewn_key: [[4, "oewn-02610777-v"], [6, "oewn-01051901-s"], [10, "oewn-10579534-n"], [12, "oewn-01996535-v"], [15, "oewn-08295090-n"], [17, "oewn-01876050-a"], [18, "oewn-08293641-n"]]
     paragraph: '2'
     pos: ["PRP", "MD", "CC", "VB", "VB", "``", "JJ", "''", "IN", "PRP$", "NN", "WP", "VBP", "TO", "DT", "NN", "CC", "JJ", "NN", "."]
     text: ' He may or may_not be " better_off " than his classmate who went_on to a college
@@ -227,7 +227,7 @@ V7yX:
     wn30_key: [[4, "be%2:42:03::"], [6, "better_off%3:00:00:fortunate:00"], [10, "classmate%1:18:00::"], [12, "go_on%2:38:00::"], [15, "college%1:14:00::"], [17, "professional%3:00:02::"], [18, "school%1:14:00::"]]
 6vWD:
     lemmas: ["But", "in", "the", "next", "decade", "the", "nation", "need_to", "educate", "for", "the", "profession", "all", "the", "potential", "professional", "talent", "."]
-    oewn2026_key: [[3, "oewn-00128838-s"], [4, "oewn-15229779-n"], [6, "oewn-08183451-n"], [8, "oewn-02392628-v"], [11, "oewn-08129062-n"], [14, "oewn-01890275-s"], [15, "oewn-02850580-a"], [16, "oewn-10709374-n"]]
+    oewn_key: [[3, "oewn-00128838-s"], [4, "oewn-15229779-n"], [6, "oewn-08183451-n"], [8, "oewn-02392628-v"], [11, "oewn-08129062-n"], [14, "oewn-01890275-s"], [15, "oewn-02850580-a"], [16, "oewn-10709374-n"]]
     paragraph: '2'
     pos: ["CC", "IN", "DT", "JJ", "NNS", "DT", "NN", "VB", "VB", "IN", "DT", "NNS", "DT", "DT", "JJ", "JJ", "NN", "."]
     text: ' But in the next decades the nation needs_to educate for the professions all the
@@ -239,7 +239,7 @@ V7yX:
     wn30_key: [[3, "next%3:00:00:succeeding:00"], [4, "decade%1:28:00::"], [6, "nation%1:14:01::"], [8, "educate%2:41:00::"], [11, "profession%1:14:00::"], [14, "potential%3:00:00:prospective:00"], [15, "professional%3:01:01::"], [16, "talent%1:18:00::"]]
 W6mq:
     lemmas: ["In", "a", "later", "chapter", "deal", "with", "the", "suburban", "school", ",", "I", "shall", "discuss", "the", "importance", "of", "arrange", "a", "program", "for", "the", "academically", "talented", "and", "highly", "gifted", "youth", "in", "any", "high_school", "where", "he", "be", "find", "."]
-    oewn2026_key: [[2, "oewn-00124357-s"], [3, "oewn-06407785-n"], [4, "oewn-01035399-v"], [7, "oewn-02815413-a"], [8, "oewn-08293641-n"], [12, "oewn-01036184-v"], [14, "oewn-05175788-n"], [16, "oewn-01651668-v"], [18, "oewn-05907694-n"], [21, "oewn-00122170-r"], [22, "oewn-01122955-a"], [24, "oewn-00089896-r"], [25, "oewn-01122955-a"], [26, "oewn-07960326-n"], [29, "oewn-08426574-n"], [33, "oewn-02253273-v"]]
+    oewn_key: [[2, "oewn-00124357-s"], [3, "oewn-06407785-n"], [4, "oewn-01035399-v"], [7, "oewn-02815413-a"], [8, "oewn-08293641-n"], [12, "oewn-01036184-v"], [14, "oewn-05175788-n"], [16, "oewn-01651668-v"], [18, "oewn-05907694-n"], [21, "oewn-00122170-r"], [22, "oewn-01122955-a"], [24, "oewn-00089896-r"], [25, "oewn-01122955-a"], [26, "oewn-07960326-n"], [29, "oewn-08426574-n"], [33, "oewn-02253273-v"]]
     paragraph: '3'
     pos: ["IN", "DT", "JJ", "NN", "VBG", "VB", "DT", "JJ", "NN", ",", "PRP", "MD", "VB", "DT", "NN", "IN", "VBG", "DT", "NN", "IN", "DT", "RB", "JJ", "CC", "RB", "JJ", "NN", "IN", "DT", "NN", "WRB", "PRP", "VB", "VBN", "."]
     text: ' In a later chapter dealing with the suburban school, I shall discuss the importance
@@ -250,7 +250,7 @@ W6mq:
     wn30_key: [[2, "later%3:00:00:subsequent:00"], [3, "chapter%1:10:00::"], [4, "deal%2:32:08::"], [7, "suburban%3:01:00::"], [8, "school%1:14:00::"], [12, "discuss%2:32:01::"], [14, "importance%1:07:00::"], [16, "arrange%2:36:03::"], [18, "program%1:09:01::"], [21, "academically%4:02:00::"], [22, "talented%3:00:00::"], [24, "highly%4:02:01::"], [25, "gifted%3:00:00::"], [26, "youth%1:14:00::"], [29, "high_school%1:14:00::"], [33, "find%2:40:02::"]]
 GYGd:
     lemmas: ["In", "the", "negro", "neighborhood", "and", "also", "to", "some", "extent", "in", "the", "mixed", "neighborhood", "the", "problem", "may", "be", "one", "of", "identification", "and", "motivation", "."]
-    oewn2026_key: [[2, "oewn-09659490-n"], [3, "oewn-08658688-n"], [5, "oewn-00048072-r"], [7, "oewn-02275064-a"], [8, "oewn-13964158-n"], [11, "oewn-01202626-s"], [12, "oewn-08658688-n"], [14, "oewn-14434009-n"], [16, "oewn-02622439-v"], [19, "oewn-00152838-n"], [21, "oewn-00023953-n"]]
+    oewn_key: [[2, "oewn-09659490-n"], [3, "oewn-08658688-n"], [5, "oewn-00048072-r"], [7, "oewn-02275064-a"], [8, "oewn-13964158-n"], [11, "oewn-01202626-s"], [12, "oewn-08658688-n"], [14, "oewn-14434009-n"], [16, "oewn-02622439-v"], [19, "oewn-00152838-n"], [21, "oewn-00023953-n"]]
     paragraph: '3'
     pos: ["IN", "DT", "NNP", "NNS", "CC", "RB", "RB", "JJ", "NN", "IN", "DT", "JJ", "NNS", "DT", "NN", "MD", "VB", "CD", "IN", "NN", "CC", "NN", "."]
     text: ' In the Negro neighborhoods and also to some extent in the mixed neighborhoods the
@@ -260,7 +260,7 @@ GYGd:
     wn30_key: [[2, "negro%1:18:00::"], [3, "neighborhood%1:15:00::"], [5, "also%4:02:00::"], [7, "some%3:00:00::"], [8, "extent%1:26:00::"], [11, "mixed%3:00:00:heterogeneous:00"], [12, "neighborhood%1:15:00::"], [14, "problem%1:26:00::"], [16, "be%2:42:06::"], [19, "identification%1:04:00::"], [21, "motivation%1:03:00::"]]
 lVS/:
     lemmas: ["high", "motivation", "towards", "higher_education", "must", "start", "early", "enough", "so_that", "by", "the", "time", "the", "boy", "or", "girl", "reach", "grade", "9", "he", "or", "she", "have", "at_least", "develop", "those", "basic", "skill", "which", "be", "essential", "for", "academic", "work", "."]
-    oewn2026_key: [[0, "oewn-01213526-a"], [1, "oewn-00023953-n"], [3, "oewn-00888377-n"], [5, "oewn-00346415-v"], [6, "oewn-00101231-r"], [7, "oewn-00146749-r"], [11, "oewn-07324217-n"], [13, "oewn-10305010-n"], [15, "oewn-10104064-n"], [16, "oewn-02010848-v"], [17, "oewn-08255384-n"], [23, "oewn-00105348-r"], [24, "oewn-00546637-v"], [27, "oewn-05645403-n"], [29, "oewn-02610777-v"], [30, "oewn-01584714-s"], [32, "oewn-02610356-a"], [33, "oewn-05763880-n"]]
+    oewn_key: [[0, "oewn-01213526-a"], [1, "oewn-00023953-n"], [3, "oewn-00888377-n"], [5, "oewn-00346415-v"], [6, "oewn-00101231-r"], [7, "oewn-00146749-r"], [11, "oewn-07324217-n"], [13, "oewn-10305010-n"], [15, "oewn-10104064-n"], [16, "oewn-02010848-v"], [17, "oewn-08255384-n"], [23, "oewn-00105348-r"], [24, "oewn-00546637-v"], [27, "oewn-05645403-n"], [29, "oewn-02610777-v"], [30, "oewn-01584714-s"], [32, "oewn-02610356-a"], [33, "oewn-05763880-n"]]
     paragraph: '3'
     pos: ["JJ", "NN", "IN", "NN", "MD", "VB", "RB", "RB", "RB", "IN", "DT", "NN", "DT", "NN", "CC", "NN", "VBZ", "NN", "JJ", "PRP", "CC", "PRP", "VBZ", "RB", "VBD", "DT", "JJ", "NNS", "WDT", "VBP", "JJ", "IN", "JJ", "NN", "."]
     text: ' High motivation towards higher_education must start early enough so_that by the
@@ -271,7 +271,7 @@ lVS/:
     wn30_key: [[0, "high%3:00:02::"], [1, "motivation%1:03:00::"], [3, "higher_education%1:04:00::"], [5, "start%2:30:00::"], [6, "early%4:02:01::"], [7, "enough%4:02:00::"], [11, "time%1:11:00::"], [13, "boy%1:18:00::"], [15, "girl%1:18:02::"], [16, "reach%2:38:00::"], [17, "grade%1:14:00::"], [23, "at_least%4:02:01::"], [24, "develop%2:30:06::"], [27, "skill%1:09:01::"], [29, "be%2:42:03::"], [30, "essential%3:00:00:necessary:00"], [32, "academic%3:01:00::"], [33, "work%1:09:00::"]]
 mM5L:
     lemmas: ["undoubtedly", "far", "more", "can", "be", "do", "in", "the", "lower", "grade", "in", "this", "regard", "in", "the", "negro", "school", "."]
-    oewn2026_key: [[0, "oewn-00079373-r"], [1, "oewn-00101873-r"], [2, "oewn-11210173-n"], [5, "oewn-02566500-v"], [9, "oewn-08255384-n"], [12, "oewn-05828314-n"], [15, "oewn-00244035-s"], [16, "oewn-08293641-n"]]
+    oewn_key: [[0, "oewn-00079373-r"], [1, "oewn-00101873-r"], [2, "oewn-11210173-n"], [5, "oewn-02566500-v"], [9, "oewn-08255384-n"], [12, "oewn-05828314-n"], [15, "oewn-00244035-s"], [16, "oewn-08293641-n"]]
     paragraph: '3'
     pos: ["RB", "RB", "NN", "MD", "VB", "VBN", "VB", "DT", "JJ", "NNS", "RB", "RB", "NN", "IN", "DT", "JJ", "NNS", "."]
     text: ' Undoubtedly far more can be done in the lower grades in this regard in the Negro
@@ -281,7 +281,7 @@ mM5L:
     wn30_key: [[0, "undoubtedly%4:02:00::"], [1, "far%4:02:02::"], [2, "more%1:18:00::"], [5, "do%2:41:01::"], [9, "grade%1:14:00::"], [12, "regard%1:09:00::"], [15, "negro%3:00:00:black:02"], [16, "school%1:14:00::"]]
 yn12:
     lemmas: ["however", ",", "the", "teacher", "can", "only", "go", "so", "far", "if", "the", "attitude", "of", "the", "community", "and", "the", "family", "be", "anti-intellectual", "."]
-    oewn2026_key: [[3, "oewn-10713754-n"], [5, "oewn-00005103-r"], [6, "oewn-02377696-v"], [7, "oewn-00148162-r"], [8, "oewn-00102040-r"], [11, "oewn-06202938-n"], [14, "oewn-08240723-n"], [17, "oewn-10256001-n"], [18, "oewn-02610777-v"], [19, "oewn-01336838-s"]]
+    oewn_key: [[3, "oewn-10713754-n"], [5, "oewn-00005103-r"], [6, "oewn-02377696-v"], [7, "oewn-00148162-r"], [8, "oewn-00102040-r"], [11, "oewn-06202938-n"], [14, "oewn-08240723-n"], [17, "oewn-10256001-n"], [18, "oewn-02610777-v"], [19, "oewn-01336838-s"]]
     paragraph: '3'
     pos: ["RB", ",", "DT", "NN", "MD", "RB", "VB", "RB", "RB", "IN", "DT", "NN", "IN", "DT", "NN", "CC", "DT", "NN", "VBZ", "JJ", "."]
     text: ' However, the teacher can only go so far if the attitude of the community and the
@@ -291,7 +291,7 @@ yn12:
     wn30_key: [[3, "teacher%1:18:00::"], [5, "only%4:02:02::"], [6, "go%2:41:00::"], [7, "so%4:02:07::"], [8, "far%4:02:04::"], [11, "attitude%1:09:00::"], [14, "community%1:14:00::"], [17, "family%1:18:00::"], [18, "be%2:42:03::"], [19, "anti-intellectual%3:00:00:nonintellectual:00"]]
 Nsng:
     lemmas: ["And", "the", "fact", "remain", "that", "there", "be", "today", "few", "shining", "example", "of", "negro", "in", "position", "of", "intellectual", "leadership", "."]
-    oewn2026_key: [[2, "oewn-05825522-n"], [3, "oewn-02643676-v"], [6, "oewn-02609706-v"], [7, "oewn-15287732-n"], [8, "oewn-01557242-a"], [9, "oewn-02352738-s"], [10, "oewn-05933998-n"], [12, "oewn-09659490-n"], [14, "oewn-13968971-n"], [16, "oewn-01335338-a"], [17, "oewn-14456827-n"]]
+    oewn_key: [[2, "oewn-05825522-n"], [3, "oewn-02643676-v"], [6, "oewn-02609706-v"], [7, "oewn-15287732-n"], [8, "oewn-01557242-a"], [9, "oewn-02352738-s"], [10, "oewn-05933998-n"], [12, "oewn-09659490-n"], [14, "oewn-13968971-n"], [16, "oewn-01335338-a"], [17, "oewn-14456827-n"]]
     paragraph: '3'
     pos: ["CC", "DT", "NN", "VBZ", "IN", "EX", "VBP", "NN", "JJ", "JJ", "NNS", "IN", "NNS", "IN", "NNS", "IN", "JJ", "NN", "."]
     text: ' And the fact remains that there are today few shining examples of Negroes in positions
@@ -301,7 +301,7 @@ Nsng:
     wn30_key: [[2, "fact%1:09:01::"], [3, "remain%2:42:05::"], [6, "be%2:42:00::"], [7, "today%1:28:00::"], [8, "few%3:00:00::"], [9, "shining%3:00:00:superior:02"], [10, "example%1:09:01::"], [12, "negro%1:18:00::"], [14, "position%1:26:00::"], [16, "intellectual%3:00:00::"], [17, "leadership%1:26:00::"]]
 yB1x:
     lemmas: ["This", "be", "not", "due_to", "any", "policy", "of", "discrimination", "on_the_part_of", "the", "northern", "university", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-00024432-r"], [5, "oewn-05910115-n"], [7, "oewn-01156043-n"], [10, "oewn-01610335-a"], [11, "oewn-08303084-n"]]
+    oewn_key: [[1, "oewn-02610777-v"], [2, "oewn-00024432-r"], [5, "oewn-05910115-n"], [7, "oewn-01156043-n"], [10, "oewn-01610335-a"], [11, "oewn-08303084-n"]]
     paragraph: '3'
     pos: ["DT", "VBZ", "RB", "JJ", "DT", "NN", "IN", "NN", "IN", "DT", "JJ", "NNS", "."]
     text: ' This is not due_to any policy of discrimination on_the_part_of the Northern universities.'
@@ -310,7 +310,7 @@ yB1x:
     wn30_key: [[1, "be%2:42:03::"], [2, "not%4:02:00::"], [5, "policy%1:09:00::"], [7, "discrimination%1:04:00::"], [10, "northern%3:00:02::"], [11, "university%1:14:00::"]]
 APvP:
     lemmas: ["quite", "the", "contrary", ",", "as", "I", "can", "testify", "from", "personal", "experience", "as", "a", "former", "university", "president", "."]
-    oewn2026_key: [[0, "oewn-00019039-r"], [2, "oewn-13880801-n"], [7, "oewn-01016830-v"], [9, "oewn-01771841-a"], [10, "oewn-05766056-n"], [13, "oewn-01734051-s"], [14, "oewn-08303084-n"], [15, "oewn-10488335-n"]]
+    oewn_key: [[0, "oewn-00019039-r"], [2, "oewn-13880801-n"], [7, "oewn-01016830-v"], [9, "oewn-01771841-a"], [10, "oewn-05766056-n"], [13, "oewn-01734051-s"], [14, "oewn-08303084-n"], [15, "oewn-10488335-n"]]
     paragraph: '3'
     pos: ["RB", "DT", "NN", ",", "IN", "PRP", "MD", "VB", "IN", "JJ", "NN", "IN", "DT", "JJ", "NN", "NN", "."]
     text: ' Quite the contrary, as I can testify from personal experience as a former university
@@ -320,7 +320,7 @@ APvP:
     wn30_key: [[0, "quite%4:02:01::"], [2, "contrary%1:24:01::"], [7, "testify%2:32:01::"], [9, "personal%3:00:00::"], [10, "experience%1:09:01::"], [13, "former%3:00:02:past:00"], [14, "university%1:14:00::"], [15, "president%1:18:02::"]]
 TKqj:
     lemmas: ["rather", "we", "see", "here", "another", "vicious_circle", "."]
-    oewn2026_key: [[0, "oewn-00099264-r"], [2, "oewn-02133338-v"], [3, "oewn-00109541-r"], [5, "oewn-13594571-n"]]
+    oewn_key: [[0, "oewn-00099264-r"], [2, "oewn-02133338-v"], [3, "oewn-00109541-r"], [5, "oewn-13594571-n"]]
     paragraph: '3'
     pos: ["RB", "PRP", "VBP", "RB", "DT", "NN", "."]
     text: ' Rather we see here another vicious_circle.'
@@ -329,7 +329,7 @@ TKqj:
     wn30_key: [[0, "rather%4:02:02::"], [2, "see%2:39:02::"], [3, "here%4:02:02::"], [5, "vicious_circle%1:22:00::"]]
 42k+:
     lemmas: ["The", "absence", "of", "successful", "negro", "in", "the", "world", "of", "scholarship", "and", "science", "have", "tend", "to", "tamp_down", "enthusiasm", "among", "negro", "youth", "for", "academic", "career", "."]
-    oewn2026_key: [[1, "oewn-13984260-n"], [3, "oewn-02339254-a"], [4, "oewn-09659490-n"], [7, "oewn-07982551-n"], [9, "oewn-05994884-n"], [13, "oewn-02725274-v"], [16, "oewn-05678187-n"], [18, "oewn-09659490-n"], [19, "oewn-07960326-n"], [21, "oewn-02610356-a"], [22, "oewn-00584283-n"]]
+    oewn_key: [[1, "oewn-13984260-n"], [3, "oewn-02339254-a"], [4, "oewn-09659490-n"], [7, "oewn-07982551-n"], [9, "oewn-05994884-n"], [13, "oewn-02725274-v"], [16, "oewn-05678187-n"], [18, "oewn-09659490-n"], [19, "oewn-07960326-n"], [21, "oewn-02610356-a"], [22, "oewn-00584283-n"]]
     paragraph: '3'
     pos: ["DT", "NN", "IN", "JJ", "NNS", "IN", "DT", "NN", "IN", "NN", "CC", "NN", "VBZ", "VBN", "JJ", "VB", "NN", "IN", "NNP", "NN", "IN", "JJ", "NNS", "."]
     text: ' The absence of successful Negroes in the world of scholarship and science has tended
@@ -339,7 +339,7 @@ TKqj:
     wn30_key: [[1, "absence%1:26:00::"], [3, "successful%3:00:00::"], [4, "negro%1:18:00::"], [7, "world%1:14:01::"], [9, "scholarship%1:09:00::"], [13, "tend%2:42:01::"], [16, "enthusiasm%1:09:00::"], [18, "negro%1:18:00::"], [19, "youth%1:14:00::"], [21, "academic%3:01:00::"], [22, "career%1:04:00::"]]
 fXBp:
     lemmas: ["I", "believe", "the", "situation", "be", "improve", ",", "but", "the", "success", "story", "need_to", "be", "heavily", "publicize", "."]
-    oewn2026_key: [[1, "oewn-00685199-v"], [3, "oewn-13948785-n"], [5, "oewn-00205454-v"], [9, "oewn-00064472-n"], [10, "oewn-07235754-n"], [13, "oewn-00177869-r"], [14, "oewn-00956640-v"]]
+    oewn_key: [[1, "oewn-00685199-v"], [3, "oewn-13948785-n"], [5, "oewn-00205454-v"], [9, "oewn-00064472-n"], [10, "oewn-07235754-n"], [13, "oewn-00177869-r"], [14, "oewn-00956640-v"]]
     paragraph: '3'
     pos: ["PRP", "VBP", "DT", "NN", "VBZ", "VBG", ",", "CC", "DT", "NN", "NNS", "VB", "VB", "RB", "VBN", "."]
     text: ' I believe the situation is improving, but the success stories need_to be heavily
@@ -349,7 +349,7 @@ fXBp:
     wn30_key: [[1, "believe%2:31:00::"], [3, "situation%1:26:01::"], [5, "improve%2:30:00::"], [9, "success%1:04:00::"], [10, "story%1:10:03::"], [13, "heavily%4:02:00::"], [14, "publicize%2:32:00::"]]
 UadB:
     lemmas: ["here", "again", "we", "run_into", "the", "roadblock", "that", "negro", "do", "not", "like", "to", "be", "designate", "as", "negro", "in", "the", "press", "."]
-    oewn2026_key: [[0, "oewn-00109541-r"], [1, "oewn-00040777-r"], [3, "oewn-02736201-v"], [5, "oewn-05698721-n"], [7, "oewn-09659490-n"], [9, "oewn-00024432-r"], [10, "oewn-01828678-v"], [13, "oewn-01032165-v"], [15, "oewn-09659490-n"], [18, "oewn-06274022-n"]]
+    oewn_key: [[0, "oewn-00109541-r"], [1, "oewn-00040777-r"], [3, "oewn-02736201-v"], [5, "oewn-05698721-n"], [7, "oewn-09659490-n"], [9, "oewn-00024432-r"], [10, "oewn-01828678-v"], [13, "oewn-01032165-v"], [15, "oewn-09659490-n"], [18, "oewn-06274022-n"]]
     paragraph: '3'
     pos: ["RB", "RB", "PRP", "VBP", "DT", "NN", "IN", "NNS", "VBP", "RB", "VB", "TO", "VB", "VBN", "IN", "NNS", "IN", "DT", "NN", "."]
     text: ' Here again we run_into the roadblock that Negroes do not like to be designated as
@@ -359,7 +359,7 @@ UadB:
     wn30_key: [[0, "here%4:02:02::"], [1, "again%4:02:00::"], [3, "run_into%2:42:01::"], [5, "roadblock%1:09:00::"], [7, "negro%1:18:00::"], [9, "not%4:02:00::"], [10, "like%2:37:01::"], [13, "designate%2:32:00::"], [15, "negro%1:18:00::"], [18, "press%1:10:00::"]]
 eoTm:
     lemmas: ["How", "can", "the", "vicious_circle", "be", "break", "?"]
-    oewn2026_key: [[3, "oewn-13594571-n"], [5, "oewn-00364717-v"]]
+    oewn_key: [[3, "oewn-13594571-n"], [5, "oewn-00364717-v"]]
     paragraph: '3'
     pos: ["WRB", "MD", "DT", "NN", "VB", "VBN", "."]
     text: ' How can the vicious_circle be broken?'
@@ -368,7 +368,7 @@ eoTm:
     wn30_key: [[3, "vicious_circle%1:22:00::"], [5, "break%2:30:03::"]]
 qRif:
     lemmas: ["This", "be", "a", "problem", "to", "which", "leader", "of", "opinion", ",", "both", "negro", "and", "white", ",", "should", "devote", "far", "more", "attention", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [3, "oewn-14434009-n"], [6, "oewn-09646208-n"], [8, "oewn-05958593-n"], [11, "oewn-09659490-n"], [13, "oewn-09660255-n"], [16, "oewn-00734247-v"], [17, "oewn-00101873-r"], [18, "oewn-01559526-a"], [19, "oewn-00656128-n"]]
+    oewn_key: [[1, "oewn-02610777-v"], [3, "oewn-14434009-n"], [6, "oewn-09646208-n"], [8, "oewn-05958593-n"], [11, "oewn-09659490-n"], [13, "oewn-09660255-n"], [16, "oewn-00734247-v"], [17, "oewn-00101873-r"], [18, "oewn-01559526-a"], [19, "oewn-00656128-n"]]
     paragraph: '3'
     pos: ["DT", "VBZ", "DT", "NN", "RB", "RB", "NNS", "IN", "NN", ",", "DT", "NNP", "CC", "NN", ",", "MD", "VB", "RB", "JJR", "NN", "."]
     text: ' This is a problem to which leaders of opinion, both Negro and white, should devote
@@ -378,7 +378,7 @@ qRif:
     wn30_key: [[1, "be%2:42:03::"], [3, "problem%1:26:00::"], [6, "leader%1:18:00::"], [8, "opinion%1:09:01::"], [11, "negro%1:18:00::"], [13, "white%1:18:00::"], [16, "devote%2:31:00::"], [17, "far%4:02:02::"], [18, "more%3:00:01::"], [19, "attention%1:04:01::"]]
 k8Cq:
     lemmas: ["It", "be", "at_least", "as", "important", "as", "the", "more", "dramatic", "attempt", "to", "break_down", "barrier", "of", "inequality", "in", "the", "south", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-00105032-r"], [3, "oewn-00022585-r"], [4, "oewn-01278672-a"], [7, "oewn-00099891-r"], [8, "oewn-01287304-s"], [9, "oewn-00787849-n"], [11, "oewn-01106247-v"], [12, "oewn-05698721-n"], [14, "oewn-04759476-n"], [17, "oewn-09073186-n"]]
+    oewn_key: [[1, "oewn-02610777-v"], [2, "oewn-00105032-r"], [3, "oewn-00022585-r"], [4, "oewn-01278672-a"], [7, "oewn-00099891-r"], [8, "oewn-01287304-s"], [9, "oewn-00787849-n"], [11, "oewn-01106247-v"], [12, "oewn-05698721-n"], [14, "oewn-04759476-n"], [17, "oewn-09073186-n"]]
     paragraph: '3'
     pos: ["PRP", "VBZ", "RB", "RB", "JJ", "IN", "DT", "RBR", "JJ", "NNS", "TO", "VB", "NNS", "IN", "NN", "IN", "DT", "NNP", "."]
     text: ' It is at_least as important as the more dramatic attempts to break_down barriers
@@ -390,7 +390,7 @@ k8Cq:
     wn30_key: [[1, "be%2:42:03::"], [2, "at_least%4:02:00::"], [3, "as%4:02:00::"], [4, "important%3:00:00::"], [7, "more%4:02:00::"], [8, "dramatic%3:00:00:impressive:00"], [9, "attempt%1:04:00::"], [11, "break_down%2:33:00::"], [12, "barrier%1:09:00::"], [14, "inequality%1:07:00::"], [17, "south%1:15:01::"]]
 iplQ:
     lemmas: ["I", "should_like", "to", "underline", "four", "point", "I", "make", "in", "my", "first", "report", "with", "respect_to", "vocational", "education", "."]
-    oewn2026_key: [[3, "oewn-01016618-v"], [4, "oewn-02194304-s"], [5, "oewn-05825971-n"], [10, "oewn-01014459-a"], [11, "oewn-07233130-n"], [14, "oewn-02851363-a"], [15, "oewn-00884975-n"]]
+    oewn_key: [[3, "oewn-01016618-v"], [4, "oewn-02194304-s"], [5, "oewn-05825971-n"], [10, "oewn-01014459-a"], [11, "oewn-07233130-n"], [14, "oewn-02851363-a"], [15, "oewn-00884975-n"]]
     paragraph: '4'
     pos: ["PRP", "VB", "TO", "VB", "JJ", "NNS", "PRP", "VBD", "IN", "PRP$", "JJ", "NN", "IN", "NN", "JJ", "NN", "."]
     text: ' I should_like to underline four points I made in my first report with respect_to
@@ -400,7 +400,7 @@ iplQ:
     wn30_key: [[3, "underline%2:32:00::"], [4, "four%3:00:00:cardinal:00"], [5, "point%1:09:01::"], [10, "first%3:00:00::"], [11, "report%1:10:03::"], [14, "vocational%3:01:00::"], [15, "education%1:04:00::"]]
 B5AJ:
     lemmas: ["first_and_foremost", ",", "vocational", "course", "should", "not", "replace", "course", "which", "be", "essential", "part", "of", "the", "required", "academic_program", "for", "graduation", "."]
-    oewn2026_key: [[2, "oewn-02851363-a"], [3, "oewn-00886144-n"], [5, "oewn-00024432-r"], [6, "oewn-02410532-v"], [7, "oewn-00886144-n"], [9, "oewn-02610777-v"], [10, "oewn-01584714-s"], [11, "oewn-13831419-n"], [14, "oewn-00851890-s"], [15, "oewn-05918324-n"], [17, "oewn-00212914-n"]]
+    oewn_key: [[2, "oewn-02851363-a"], [3, "oewn-00886144-n"], [5, "oewn-00024432-r"], [6, "oewn-02410532-v"], [7, "oewn-00886144-n"], [9, "oewn-02610777-v"], [10, "oewn-01584714-s"], [11, "oewn-13831419-n"], [14, "oewn-00851890-s"], [15, "oewn-05918324-n"], [17, "oewn-00212914-n"]]
     paragraph: '4'
     pos: ["RB", ",", "JJ", "NNS", "MD", "RB", "VB", "NNS", "WDT", "VBP", "JJ", "NNS", "IN", "DT", "JJ", "NN", "IN", "NN", "."]
     text: ' First_and_foremost, vocational courses should not replace courses which are essential
@@ -410,7 +410,7 @@ B5AJ:
     wn30_key: [[2, "vocational%3:01:00::"], [3, "course%1:04:01::"], [5, "not%4:02:00::"], [6, "replace%2:41:00::"], [7, "course%1:04:01::"], [9, "be%2:42:03::"], [10, "essential%3:00:00:necessary:00"], [11, "part%1:24:00::"], [14, "required%3:00:00:obligatory:00"], [15, "academic_program%1:09:00::"], [17, "graduation%1:04:01::"]]
 BTdD:
     lemmas: ["second", ",", "vocational", "course", "should", "be", "provide", "in", "grade", "11", "and", "12", "and", "not", "require", "more_than", "half", "the", "student", "'s", "time", "in", "those", "year", ";", "however", ",", "for", "slow", "learner", "and", "prospective", "dropout", "these", "course", "ought_to", "begin", "earlier", "."]
-    oewn2026_key: [[0, "oewn-00103431-r"], [2, "oewn-02851363-a"], [3, "oewn-00886144-n"], [6, "oewn-02332196-v"], [8, "oewn-08255384-n"], [13, "oewn-00024432-r"], [14, "oewn-02634015-v"], [16, "oewn-13758939-n"], [18, "oewn-10685137-n"], [20, "oewn-15295388-n"], [23, "oewn-15228587-n"], [25, "oewn-00029193-r"], [28, "oewn-00442596-s"], [29, "oewn-10271476-n"], [31, "oewn-01889997-a"], [32, "oewn-10015463-n"], [34, "oewn-00886144-n"], [36, "oewn-02614382-v"], [37, "oewn-00260528-r"]]
+    oewn_key: [[0, "oewn-00103431-r"], [2, "oewn-02851363-a"], [3, "oewn-00886144-n"], [6, "oewn-02332196-v"], [8, "oewn-08255384-n"], [13, "oewn-00024432-r"], [14, "oewn-02634015-v"], [16, "oewn-13758939-n"], [18, "oewn-10685137-n"], [20, "oewn-15295388-n"], [23, "oewn-15228587-n"], [25, "oewn-00029193-r"], [28, "oewn-00442596-s"], [29, "oewn-10271476-n"], [31, "oewn-01889997-a"], [32, "oewn-10015463-n"], [34, "oewn-00886144-n"], [36, "oewn-02614382-v"], [37, "oewn-00260528-r"]]
     paragraph: '4'
     pos: ["RB", ",", "JJ", "NNS", "MD", "VB", "VBN", "IN", "NNS", "CD", "CC", "CD", "CC", "RB", "VB", "RB", "NN", "DT", "NN", "POS", "NN", "IN", "DT", "NNS", ":", "RB", ",", "IN", "JJ", "NNS", "CC", "JJ", "NNS", "DT", "NNS", "VB", "VBP", "RBR", "."]
     text: ' Second, vocational courses should be provided in grades 11 and 12 and not require
@@ -421,7 +421,7 @@ BTdD:
     wn30_key: [[0, "second%4:02:00::"], [2, "vocational%3:01:00::"], [3, "course%1:04:01::"], [6, "provide%2:40:00::"], [8, "grade%1:14:00::"], [13, "not%4:02:00::"], [14, "require%2:42:00::"], [16, "half%1:23:00::"], [18, "student%1:18:00::"], [20, "time%1:28:05::"], [23, "year%1:28:01::"], [25, "however%4:02:04::"], [28, "slow%3:00:00:stupid:00"], [29, "learner%1:18:00::"], [31, "prospective%3:00:00::"], [32, "dropout%1:18:00::"], [34, "course%1:04:01::"], [36, "begin%2:42:00::"], [37, "earlier%4:02:02::"]]
 1ohy:
     lemmas: ["third", ",", "the", "significance", "of", "the", "vocational", "course", "be", "that", "those", "enrolled", "be", "keenly", "interested", "in", "the", "work", ";", "they", "realize", "the", "relevance", "of", "what", "they", "be", "learn", "to", "their", "future", "career", ",", "and", "this", "sense", "of", "purpose", "be", "carry_over", "to", "the", "academic", "course", "which", "they", "be", "study", "at_the_same_time", "."]
-    oewn2026_key: [[0, "oewn-00103536-r"], [3, "oewn-05177340-n"], [6, "oewn-02851363-a"], [7, "oewn-00886144-n"], [8, "oewn-02622439-v"], [12, "oewn-02610777-v"], [13, "oewn-00386914-r"], [14, "oewn-01345290-a"], [17, "oewn-05763880-n"], [20, "oewn-00592510-v"], [22, "oewn-13816629-n"], [27, "oewn-00601387-v"], [30, "oewn-01736519-a"], [31, "oewn-00584283-n"], [35, "oewn-05685345-n"], [37, "oewn-04871431-n"], [39, "oewn-02083577-v"], [42, "oewn-02610356-a"], [43, "oewn-00886144-n"], [47, "oewn-00608800-v"], [48, "oewn-00121107-r"]]
+    oewn_key: [[0, "oewn-00103536-r"], [3, "oewn-05177340-n"], [6, "oewn-02851363-a"], [7, "oewn-00886144-n"], [8, "oewn-02622439-v"], [12, "oewn-02610777-v"], [13, "oewn-00386914-r"], [14, "oewn-01345290-a"], [17, "oewn-05763880-n"], [20, "oewn-00592510-v"], [22, "oewn-13816629-n"], [27, "oewn-00601387-v"], [30, "oewn-01736519-a"], [31, "oewn-00584283-n"], [35, "oewn-05685345-n"], [37, "oewn-04871431-n"], [39, "oewn-02083577-v"], [42, "oewn-02610356-a"], [43, "oewn-00886144-n"], [47, "oewn-00608800-v"], [48, "oewn-00121107-r"]]
     paragraph: '4'
     pos: ["RB", ",", "DT", "NN", "IN", "DT", "JJ", "NNS", "VBZ", "IN", "DT", "JJ", "VBP", "RB", "JJ", "IN", "DT", "NN", ":", "PRP", "VBP", "DT", "NN", "RB", "RB", "PRP", "VBP", "VBG", "TO", "PRP$", "JJ", "NNS", ",", "CC", "DT", "NN", "IN", "NN", "VBZ", "VB", "TO", "DT", "JJ", "NNS", "WDT", "PRP", "VBP", "VBG", "RB", "."]
     text: ' Third, the significance of the vocational courses is that those enrolled are keenly
@@ -433,7 +433,7 @@ BTdD:
     wn30_key: [[0, "third%4:02:00::"], [3, "significance%1:07:00::"], [6, "vocational%3:01:00::"], [7, "course%1:04:01::"], [8, "be%2:42:06::"], [12, "be%2:42:03::"], [13, "keenly%4:02:00::"], [14, "interested%3:00:00::"], [17, "work%1:09:00::"], [20, "realize%2:31:00::"], [22, "relevance%1:24:00::"], [27, "learn%2:31:02::"], [30, "future%3:00:00::"], [31, "career%1:04:00::"], [35, "sense%1:09:05::"], [37, "purpose%1:07:01::"], [39, "carry_over%2:38:01::"], [42, "academic%3:01:00::"], [43, "course%1:04:01::"], [47, "study%2:31:03::"], [48, "at_the_same_time%4:02:05::"]]
 bSlN:
     lemmas: ["fourth", ",", "the", "type", "of", "vocational", "training_program", "should", "be", "related", "to", "the", "employment", "opportunity", "in", "the", "general", "locality", "."]
-    oewn2026_key: [[0, "oewn-00346567-r"], [3, "oewn-05848697-n"], [5, "oewn-02851363-a"], [6, "oewn-05918515-n"], [9, "oewn-01979885-a"], [12, "oewn-00585404-n"], [13, "oewn-14507501-n"], [16, "oewn-01105084-a"], [17, "oewn-08658688-n"]]
+    oewn_key: [[0, "oewn-00346567-r"], [3, "oewn-05848697-n"], [5, "oewn-02851363-a"], [6, "oewn-05918515-n"], [9, "oewn-01979885-a"], [12, "oewn-00585404-n"], [13, "oewn-14507501-n"], [16, "oewn-01105084-a"], [17, "oewn-08658688-n"]]
     paragraph: '4'
     pos: ["RB", ",", "DT", "NN", "IN", "JJ", "NNS", "MD", "VB", "JJ", "VB", "DT", "NN", "NNS", "IN", "DT", "JJ", "NN", "."]
     text: ' Fourth, the type of vocational training_programs should be related to the employment
@@ -443,7 +443,7 @@ bSlN:
     wn30_key: [[0, "fourth%4:02:00::"], [3, "type%1:09:00::"], [5, "vocational%3:01:00::"], [6, "training_program%1:09:00::"], [9, "related%3:00:02::"], [12, "employment%1:04:00::"], [13, "opportunity%1:26:00::"], [16, "general%3:00:00::"], [17, "locality%1:15:00::"]]
 YT29:
     lemmas: ["This", "last", "point", "be", "important", "because", "if", "high_school", "pupil", "be", "aware", "that", "few", ",", "if", "any", ",", "graduate", "who", "have", "choose", "a", "certain", "vocational_program", "have", "obtain", "a", "job", "as", "a", "consequence", "of", "the", "training", ",", "the", "whole", "idea", "of", "relevance", "disappear", "."]
-    oewn2026_key: [[1, "oewn-01734561-s"], [2, "oewn-05825971-n"], [3, "oewn-02610777-v"], [4, "oewn-01278672-a"], [7, "oewn-08426574-n"], [8, "oewn-10685137-n"], [9, "oewn-02610777-v"], [10, "oewn-00191603-a"], [12, "oewn-01557242-a"], [17, "oewn-09805779-n"], [20, "oewn-00676526-v"], [22, "oewn-00704329-s"], [23, "oewn-05919306-n"], [25, "oewn-02242867-v"], [27, "oewn-00583425-n"], [30, "oewn-07308725-n"], [33, "oewn-00895653-n"], [36, "oewn-00516809-a"], [37, "oewn-05842164-n"], [39, "oewn-13816629-n"], [40, "oewn-00427911-v"]]
+    oewn_key: [[1, "oewn-01734561-s"], [2, "oewn-05825971-n"], [3, "oewn-02610777-v"], [4, "oewn-01278672-a"], [7, "oewn-08426574-n"], [8, "oewn-10685137-n"], [9, "oewn-02610777-v"], [10, "oewn-00191603-a"], [12, "oewn-01557242-a"], [17, "oewn-09805779-n"], [20, "oewn-00676526-v"], [22, "oewn-00704329-s"], [23, "oewn-05919306-n"], [25, "oewn-02242867-v"], [27, "oewn-00583425-n"], [30, "oewn-07308725-n"], [33, "oewn-00895653-n"], [36, "oewn-00516809-a"], [37, "oewn-05842164-n"], [39, "oewn-13816629-n"], [40, "oewn-00427911-v"]]
     paragraph: '4'
     pos: ["DT", "JJ", "NN", "VBZ", "JJ", "IN", "IN", "NN", "NNS", "VBP", "JJ", "IN", "JJ", ",", "IN", "DT", ",", "NNS", "WP", "VBP", "VBN", "DT", "JJ", "NN", "VBP", "VBN", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NN", ",", "DT", "JJ", "NN", "IN", "NN", "VBZ", "."]
     text: ' This last point is important because if high_school pupils are aware that few, if
@@ -454,7 +454,7 @@ YT29:
     wn30_key: [[1, "last%3:00:00:past:00"], [2, "point%1:09:01::"], [3, "be%2:42:03::"], [4, "important%3:00:00::"], [7, "high_school%1:14:00::"], [8, "pupil%1:18:00::"], [9, "be%2:42:03::"], [10, "aware%3:00:00::"], [12, "few%3:00:00::"], [17, "graduate%1:18:00::"], [20, "choose%2:31:00::"], [22, "certain%3:00:00:definite:00"], [23, "vocational_program%1:09:00::"], [25, "obtain%2:40:00::"], [27, "job%1:04:00::"], [30, "consequence%1:11:00::"], [33, "training%1:04:00::"], [36, "whole%3:00:00::"], [37, "idea%1:09:00::"], [39, "relevance%1:24:00::"], [40, "disappear%2:30:00::"]]
 J2qJ:
     lemmas: ["vocational", "training", "which", "hold", "no", "hope", "that", "the", "skill", "develop", "will", "be", "in_fact", "a", "marketable", "skill", "become", "just", "another", "school", "\"", "chore", "\"", "for", "those", "whose", "interest", "in", "their", "study", "have", "begin", "to", "falter", "."]
-    oewn2026_key: [[0, "oewn-02851363-a"], [1, "oewn-00895653-n"], [3, "oewn-02208144-v"], [5, "oewn-05959600-n"], [8, "oewn-05645403-n"], [9, "oewn-00546637-v"], [11, "oewn-02610777-v"], [12, "oewn-00149927-r"], [14, "oewn-02069402-s"], [15, "oewn-05645403-n"], [16, "oewn-02632685-v"], [17, "oewn-00005103-r"], [19, "oewn-08293641-n"], [21, "oewn-00720957-n"], [26, "oewn-05690773-n"], [29, "oewn-05763880-n"], [31, "oewn-00346415-v"], [33, "oewn-02746079-v"]]
+    oewn_key: [[0, "oewn-02851363-a"], [1, "oewn-00895653-n"], [3, "oewn-02208144-v"], [5, "oewn-05959600-n"], [8, "oewn-05645403-n"], [9, "oewn-00546637-v"], [11, "oewn-02610777-v"], [12, "oewn-00149927-r"], [14, "oewn-02069402-s"], [15, "oewn-05645403-n"], [16, "oewn-02632685-v"], [17, "oewn-00005103-r"], [19, "oewn-08293641-n"], [21, "oewn-00720957-n"], [26, "oewn-05690773-n"], [29, "oewn-05763880-n"], [31, "oewn-00346415-v"], [33, "oewn-02746079-v"]]
     paragraph: '4'
     pos: ["JJ", "NN", "WDT", "VBZ", "DT", "NN", "IN", "DT", "NN", "VBN", "MD", "VB", "RB", "DT", "JJ", "NN", "VBZ", "RB", "DT", "NN", "``", "NN", "''", "IN", "DT", "WP$", "NN", "IN", "PRP$", "NNS", "VBZ", "VBN", "TO", "VB", "."]
     text: ' Vocational training which holds no hope that the skill developed will be in_fact
@@ -465,7 +465,7 @@ J2qJ:
     wn30_key: [[0, "vocational%3:01:00::"], [1, "training%1:04:00::"], [3, "hold%2:40:00::"], [5, "hope%1:09:00::"], [8, "skill%1:09:01::"], [9, "develop%2:30:06::"], [11, "be%2:42:03::"], [12, "in_fact%4:02:00::"], [14, "marketable%3:00:01:salable:00"], [15, "skill%1:09:01::"], [16, "become%2:42:01::"], [17, "just%4:02:00::"], [19, "school%1:14:00::"], [21, "chore%1:04:00::"], [26, "interest%1:09:00::"], [29, "study%1:09:03::"], [31, "begin%2:30:00::"], [33, "falter%2:42:00::"]]
 wyPf:
     lemmas: ["Those", "who", ",", "because", "of", "population", "mobility", "and", "the", "reputed", "desire", "of", "employer", "to", "train", "their", "own", "employee", ",", "would", "limit", "vocational", "education", "to", "general", "rather_than", "specific", "skill", "ought_to", "bear_in_mind", "the", "importance", "of", "motivation", "in", "any", "kind", "of", "school", "experience", "."]
-    oewn2026_key: [[5, "oewn-08196797-n"], [6, "oewn-04780590-n"], [10, "oewn-04952234-n"], [12, "oewn-10074465-n"], [14, "oewn-00604693-v"], [16, "oewn-01773236-s"], [17, "oewn-10073616-n"], [20, "oewn-00234091-v"], [21, "oewn-02851363-a"], [22, "oewn-00884975-n"], [24, "oewn-01105084-a"], [26, "oewn-01106714-a"], [27, "oewn-05645403-n"], [29, "oewn-00611060-v"], [31, "oewn-05175788-n"], [33, "oewn-00023953-n"], [36, "oewn-05847533-n"], [38, "oewn-08293641-n"], [39, "oewn-05993469-n"]]
+    oewn_key: [[5, "oewn-08196797-n"], [6, "oewn-04780590-n"], [10, "oewn-04952234-n"], [12, "oewn-10074465-n"], [14, "oewn-00604693-v"], [16, "oewn-01773236-s"], [17, "oewn-10073616-n"], [20, "oewn-00234091-v"], [21, "oewn-02851363-a"], [22, "oewn-00884975-n"], [24, "oewn-01105084-a"], [26, "oewn-01106714-a"], [27, "oewn-05645403-n"], [29, "oewn-00611060-v"], [31, "oewn-05175788-n"], [33, "oewn-00023953-n"], [36, "oewn-05847533-n"], [38, "oewn-08293641-n"], [39, "oewn-05993469-n"]]
     paragraph: '4'
     pos: ["DT", "WP", ",", "IN", "IN", "NN", "NN", "CC", "DT", "JJ", "NN", "IN", "NNS", "TO", "VB", "PRP$", "JJ", "NNS", ",", "MD", "VB", "JJ", "NN", "TO", "JJ", "RB", "JJ", "NNS", "VB", "VB", "DT", "NN", "IN", "NN", "IN", "DT", "NN", "RB", "NN", "NN", "."]
     text: ' Those who, because of population mobility and the reputed desire of employers to
@@ -479,7 +479,7 @@ wyPf:
     wn30_key: [[5, "population%1:14:00::"], [6, "mobility%1:07:00::"], [10, "desire%1:07:00::"], [12, "employer%1:18:00::"], [14, "train%2:31:01::"], [16, "own%3:00:00:personal:00"], [17, "employee%1:18:00::"], [20, "limit%2:30:01::"], [21, "vocational%3:01:00::"], [22, "education%1:04:00::"], [24, "general%3:00:00::"], [26, "specific%3:00:00::"], [27, "skill%1:09:01::"], [29, "bear_in_mind%2:31:00::"], [31, "importance%1:07:00::"], [33, "motivation%1:03:00::"], [36, "kind%1:09:00::"], [38, "school%1:14:00::"], [39, "experience%1:09:00::"]]
 UwPT:
     lemmas: ["I", "have", "be", "use", "the", "word", "\"", "vocational", "\"", "as", "a", "layman", "would", "at_first_sight", "think", "it", "should", "be", "use", "."]
-    oewn2026_key: [[3, "oewn-01161188-v"], [5, "oewn-06297048-n"], [7, "oewn-02851363-a"], [11, "oewn-80845973-n"], [13, "oewn-00103874-r"], [14, "oewn-00633399-v"], [18, "oewn-01161188-v"]]
+    oewn_key: [[3, "oewn-01161188-v"], [5, "oewn-06297048-n"], [7, "oewn-02851363-a"], [11, "oewn-80845973-n"], [13, "oewn-00103874-r"], [14, "oewn-00633399-v"], [18, "oewn-01161188-v"]]
     paragraph: '5'
     pos: ["PRP", "VBP", "VBN", "VBG", "DT", "NN", "``", "JJ", "''", "IN", "DT", "NN", "MD", "RB", "VB", "PRP", "MD", "VB", "VBN", "."]
     text: ' I have been using the word " vocational " as a layman would at_first_sight think
@@ -489,7 +489,7 @@ UwPT:
     wn30_key: [[3, "use%2:34:01::"], [5, "word%1:10:00::"], [7, "vocational%3:01:00::"], [11, "layman%1:18:00::"], [13, "at_first_sight%4:02:00::"], [14, "think%2:31:03::"], [18, "use%2:34:01::"]]
 +L9X:
     lemmas: ["I", "intend", "to", "include", "under", "the", "term", "all", "the", "practical", "course", "open", "to", "boy", "and", "girl", "."]
-    oewn2026_key: [[1, "oewn-00710367-v"], [3, "oewn-00686739-v"], [6, "oewn-06314878-n"], [9, "oewn-01840022-a"], [10, "oewn-00886144-n"], [11, "oewn-00186809-s"], [13, "oewn-10305010-n"], [15, "oewn-10104064-n"]]
+    oewn_key: [[1, "oewn-00710367-v"], [3, "oewn-00686739-v"], [6, "oewn-06314878-n"], [9, "oewn-01840022-a"], [10, "oewn-00886144-n"], [11, "oewn-00186809-s"], [13, "oewn-10305010-n"], [15, "oewn-10104064-n"]]
     paragraph: '5'
     pos: ["PRP", "VBP", "TO", "VB", "IN", "DT", "NN", "DT", "DT", "JJ", "NNS", "JJ", "JJ", "NNS", "CC", "NNS", "."]
     text: ' I intend to include under the term all the practical courses open to boys and girls.'
@@ -498,7 +498,7 @@ UwPT:
     wn30_key: [[1, "intend%2:31:00::"], [3, "include%2:31:00::"], [6, "term%1:10:00::"], [9, "practical%3:00:00::"], [10, "course%1:04:01::"], [11, "open%3:00:00:available:00"], [13, "boy%1:18:00::"], [15, "girl%1:18:02::"]]
 oW7z:
     lemmas: ["These", "course", "develop", "skill", "other_than", "those", "we", "think_of", "when", "we", "use", "the", "adjective", "\"", "academic", "\"", "."]
-    oewn2026_key: [[1, "oewn-00886144-n"], [2, "oewn-00546637-v"], [3, "oewn-05645403-n"], [7, "oewn-00732037-v"], [10, "oewn-01161188-v"], [12, "oewn-06332695-n"], [14, "oewn-02610356-a"]]
+    oewn_key: [[1, "oewn-00886144-n"], [2, "oewn-00546637-v"], [3, "oewn-05645403-n"], [7, "oewn-00732037-v"], [10, "oewn-01161188-v"], [12, "oewn-06332695-n"], [14, "oewn-02610356-a"]]
     paragraph: '5'
     pos: ["DT", "NNS", "VBP", "NNS", "JJ", "DT", "PRP", "VBP", "WRB", "PRP", "VBP", "DT", "NN", "``", "JJ", "''", "."]
     text: ' These courses develop skills other_than those we think_of when we use the adjective
@@ -508,7 +508,7 @@ oW7z:
     wn30_key: [[1, "course%1:04:01::"], [2, "develop%2:30:06::"], [3, "skill%1:09:01::"], [7, "think_of%2:31:02::"], [10, "use%2:34:01::"], [12, "adjective%1:10:00::"], [14, "academic%3:01:00::"]]
 r/3x:
     lemmas: ["practically", "all_of", "these", "practical", "skill", "be", "of", "such", "a", "nature", "that", "a", "degree", "of", "mastery", "can", "be", "obtain", "in", "high_school", "sufficient", "to", "enable", "the", "youth", "to", "get", "a", "job", "at_once", "on", "the", "basis", "of", "the", "skill", "."]
-    oewn2026_key: [[0, "oewn-00054282-r"], [3, "oewn-01840022-a"], [4, "oewn-05645403-n"], [5, "oewn-02610777-v"], [7, "oewn-01558587-s"], [9, "oewn-04733982-n"], [12, "oewn-13962925-n"], [14, "oewn-05649804-n"], [17, "oewn-02242867-v"], [19, "oewn-08426574-n"], [20, "oewn-02343832-a"], [22, "oewn-00513958-v"], [24, "oewn-10824010-n"], [26, "oewn-02215637-v"], [28, "oewn-00583425-n"], [29, "oewn-00049277-r"], [32, "oewn-13813124-n"], [35, "oewn-05645403-n"]]
+    oewn_key: [[0, "oewn-00054282-r"], [3, "oewn-01840022-a"], [4, "oewn-05645403-n"], [5, "oewn-02610777-v"], [7, "oewn-01558587-s"], [9, "oewn-04733982-n"], [12, "oewn-13962925-n"], [14, "oewn-05649804-n"], [17, "oewn-02242867-v"], [19, "oewn-08426574-n"], [20, "oewn-02343832-a"], [22, "oewn-00513958-v"], [24, "oewn-10824010-n"], [26, "oewn-02215637-v"], [28, "oewn-00583425-n"], [29, "oewn-00049277-r"], [32, "oewn-13813124-n"], [35, "oewn-05645403-n"]]
     paragraph: '5'
     pos: ["RB", "JJ", "DT", "JJ", "NNS", "VBP", "IN", "JJ", "DT", "NN", "IN", "DT", "NN", "IN", "NN", "MD", "VB", "VBN", "IN", "NN", "JJ", "TO", "VB", "DT", "NN", "TO", "VB", "DT", "NN", "RB", "IN", "DT", "NN", "IN", "DT", "NN", "."]
     text: ' Practically all_of these practical skills are of such a nature that a degree of
@@ -519,7 +519,7 @@ r/3x:
     wn30_key: [[0, "practically%4:02:00::"], [3, "practical%3:00:00::"], [4, "skill%1:09:01::"], [5, "be%2:42:03::"], [7, "such%3:00:00:much:00"], [9, "nature%1:07:02::"], [12, "degree%1:26:01::"], [14, "mastery%1:09:00::"], [17, "obtain%2:40:00::"], [19, "high_school%1:14:00::"], [20, "sufficient%3:00:00::"], [22, "enable%2:30:00::"], [24, "youth%1:18:00::"], [26, "get%2:40:00::"], [28, "job%1:04:00::"], [29, "at_once%4:02:00::"], [32, "basis%1:24:00::"], [35, "skill%1:09:01::"]]
 6nKK:
     lemmas: ["They", "be", "in", "this", "sense", "skill", "marketable", "immediately", "on", "graduation", "from", "high_school", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [5, "oewn-05645403-n"], [6, "oewn-02069402-s"], [7, "oewn-00049277-r"], [9, "oewn-00212914-n"], [11, "oewn-08426574-n"]]
+    oewn_key: [[1, "oewn-02610777-v"], [5, "oewn-05645403-n"], [6, "oewn-02069402-s"], [7, "oewn-00049277-r"], [9, "oewn-00212914-n"], [11, "oewn-08426574-n"]]
     paragraph: '5'
     pos: ["PRP", "VBP", "RB", "RB", "NN", "NNS", "JJ", "RB", "IN", "NN", "IN", "NN", "."]
     text: ' They are in this sense skills marketable immediately on graduation from high_school.'
@@ -528,7 +528,7 @@ r/3x:
     wn30_key: [[1, "be%2:42:03::"], [5, "skill%1:09:01::"], [6, "marketable%3:00:01:salable:00"], [7, "immediately%4:02:00::"], [9, "graduation%1:04:01::"], [11, "high_school%1:14:00::"]]
 VPgv:
     lemmas: ["to_be_sure", ",", "in", "tool-and-die_work", "and", "in", "the", "building", "trade", ",", "the", "first", "job", "must", "be", "often", "on", "an", "apprentice", "basis", ",", "but", "two", "year", "of", "half-time", "vocational", "training", "enable", "the", "young", "man", "thus", "to", "anticipate", "one", "year", "of", "apprentice", "status", "."]
-    oewn2026_key: [[0, "oewn-00151192-r"], [3, "oewn-00619776-n"], [7, "oewn-01106542-n"], [8, "oewn-00607485-n"], [11, "oewn-01014459-a"], [12, "oewn-00583425-n"], [14, "oewn-02610777-v"], [15, "oewn-00035445-r"], [18, "oewn-09821287-n"], [19, "oewn-13813124-n"], [22, "oewn-02194109-s"], [23, "oewn-15228587-n"], [25, "oewn-01093309-s"], [26, "oewn-02851363-a"], [27, "oewn-00895653-n"], [28, "oewn-00513958-v"], [30, "oewn-01651383-a"], [31, "oewn-10306910-n"], [32, "oewn-00122019-r"], [34, "oewn-02571406-v"], [35, "oewn-00706087-s"], [36, "oewn-15228587-n"], [38, "oewn-09821287-n"], [39, "oewn-13968971-n"]]
+    oewn_key: [[0, "oewn-00151192-r"], [3, "oewn-00619776-n"], [7, "oewn-01106542-n"], [8, "oewn-00607485-n"], [11, "oewn-01014459-a"], [12, "oewn-00583425-n"], [14, "oewn-02610777-v"], [15, "oewn-00035445-r"], [18, "oewn-09821287-n"], [19, "oewn-13813124-n"], [22, "oewn-02194109-s"], [23, "oewn-15228587-n"], [25, "oewn-01093309-s"], [26, "oewn-02851363-a"], [27, "oewn-00895653-n"], [28, "oewn-00513958-v"], [30, "oewn-01651383-a"], [31, "oewn-10306910-n"], [32, "oewn-00122019-r"], [34, "oewn-02571406-v"], [35, "oewn-00706087-s"], [36, "oewn-15228587-n"], [38, "oewn-09821287-n"], [39, "oewn-13968971-n"]]
     paragraph: '5'
     pos: ["RB", ",", "IN", "NN", "CC", "IN", "DT", "NN", "NNS", ",", "DT", "JJ", "NN", "MD", "VB", "RB", "IN", "DT", "NN", "NN", ",", "CC", "JJ", "NNS", "IN", "JJ", "JJ", "NN", "VBZ", "DT", "JJ", "NN", "RB", "TO", "VB", "JJ", "NN", "IN", "NN", "NN", "."]
     text: ' To_be_sure, in tool-and-die_work and in the building trades, the first job must
@@ -539,7 +539,7 @@ VPgv:
     wn30_key: [[0, "to_be_sure%4:02:00::"], [3, "tool-and-die_work%1:04:00::"], [7, "building%1:04:01::"], [8, "trade%1:04:00::"], [11, "first%3:00:00::"], [12, "job%1:04:00::"], [14, "be%2:42:03::"], [15, "often%4:02:00::"], [18, "apprentice%1:18:00::"], [19, "basis%1:24:00::"], [22, "two%3:00:00:cardinal:00"], [23, "year%1:28:01::"], [25, "half-time%3:00:00:part-time:00"], [26, "vocational%3:01:00::"], [27, "training%1:04:00::"], [28, "enable%2:30:00::"], [30, "young%3:00:00::"], [31, "man%1:18:00::"], [32, "thus%4:02:01::"], [34, "anticipate%2:41:00::"], [35, "one%3:00:00:indefinite:00"], [36, "year%1:28:01::"], [38, "apprentice%1:18:00::"], [39, "status%1:26:00::"]]
 N3c0:
     lemmas: ["similarly", ",", "a", "girl", "who", "graduate", "with", "a", "good", "working", "knowledge", "of", "stenography", "and", "the", "use", "of", "clerical", "machine", "and", "who", "be", "able", "to", "get", "a", "job", "at_once", "may", "wish", "to", "improve", "her", "skill", "and", "knowledge", "by", "a", "year", "or", "two", "of", "further", "study", "in", "a", "community_college", "or", "secretarial_school", "."]
-    oewn2026_key: [[0, "oewn-00138870-r"], [3, "oewn-10104064-n"], [5, "oewn-02269205-v"], [8, "oewn-01126910-a"], [9, "oewn-01841834-s"], [10, "oewn-00023451-n"], [12, "oewn-06361497-n"], [15, "oewn-00948944-n"], [17, "oewn-02708768-a"], [18, "oewn-03705309-n"], [21, "oewn-02610777-v"], [22, "oewn-00001740-a"], [24, "oewn-02215637-v"], [26, "oewn-00583425-n"], [27, "oewn-00049277-r"], [29, "oewn-00905166-v"], [31, "oewn-00206293-v"], [33, "oewn-05645403-n"], [35, "oewn-00023451-n"], [38, "oewn-15228587-n"], [40, "oewn-02194109-s"], [43, "oewn-05763880-n"], [46, "oewn-08299463-n"], [48, "oewn-08301768-n"]]
+    oewn_key: [[0, "oewn-00138870-r"], [3, "oewn-10104064-n"], [5, "oewn-02269205-v"], [8, "oewn-01126910-a"], [9, "oewn-01841834-s"], [10, "oewn-00023451-n"], [12, "oewn-06361497-n"], [15, "oewn-00948944-n"], [17, "oewn-02708768-a"], [18, "oewn-03705309-n"], [21, "oewn-02610777-v"], [22, "oewn-00001740-a"], [24, "oewn-02215637-v"], [26, "oewn-00583425-n"], [27, "oewn-00049277-r"], [29, "oewn-00905166-v"], [31, "oewn-00206293-v"], [33, "oewn-05645403-n"], [35, "oewn-00023451-n"], [38, "oewn-15228587-n"], [40, "oewn-02194109-s"], [43, "oewn-05763880-n"], [46, "oewn-08299463-n"], [48, "oewn-08301768-n"]]
     paragraph: '5'
     pos: ["RB", ",", "DT", "NN", "WP", "VBZ", "IN", "DT", "JJ", "JJ", "NN", "IN", "NN", "CC", "DT", "NN", "IN", "JJ", "NNS", "CC", "WP", "VBZ", "JJ", "VB", "VB", "DT", "NN", "RB", "MD", "VB", "VB", "VB", "PRP$", "NN", "CC", "NN", "IN", "DT", "NN", "CC", "JJ", "IN", "JJ", "NN", "IN", "DT", "NN", "CC", "NN", "."]
     text: ' Similarly, a girl who graduates with a good working knowledge of stenography and
@@ -551,7 +551,7 @@ N3c0:
     wn30_key: [[0, "similarly%4:02:00::"], [3, "girl%1:18:02::"], [5, "graduate%2:40:00::"], [8, "good%3:00:01::"], [9, "working%3:00:00:practical:00"], [10, "knowledge%1:03:00::"], [12, "stenography%1:10:00::"], [15, "use%1:04:00::"], [17, "clerical%3:01:01::"], [18, "machine%1:06:00::"], [21, "be%2:42:03::"], [22, "able%3:00:00::"], [24, "get%2:40:00::"], [26, "job%1:04:00::"], [27, "at_once%4:02:00::"], [29, "wish%2:37:00::"], [31, "improve%2:30:01::"], [33, "skill%1:09:01::"], [35, "knowledge%1:03:00::"], [38, "year%1:28:01::"], [40, "two%3:00:00:cardinal:00"], [43, "study%1:09:03::"], [46, "community_college%1:14:00::"], [48, "secretarial_school%1:14:00::"]]
 fV0G:
     lemmas: ["of_course", ",", "it", "can", "be", "argue", "that", "an", "ability", "to", "write", "english", "correctly", "and", "with", "some", "degree", "of", "elegance", "be", "a", "marketable", "skill", "."]
-    oewn2026_key: [[0, "oewn-00039019-r"], [5, "oewn-00774234-v"], [8, "oewn-05624029-n"], [10, "oewn-01702148-v"], [11, "oewn-06959794-n"], [12, "oewn-00205350-r"], [16, "oewn-13962925-n"], [18, "oewn-04819517-n"], [19, "oewn-02610777-v"], [21, "oewn-02069402-s"], [22, "oewn-05645403-n"]]
+    oewn_key: [[0, "oewn-00039019-r"], [5, "oewn-00774234-v"], [8, "oewn-05624029-n"], [10, "oewn-01702148-v"], [11, "oewn-06959794-n"], [12, "oewn-00205350-r"], [16, "oewn-13962925-n"], [18, "oewn-04819517-n"], [19, "oewn-02610777-v"], [21, "oewn-02069402-s"], [22, "oewn-05645403-n"]]
     paragraph: '5'
     pos: ["RB", ",", "PRP", "MD", "VB", "VBN", "IN", "DT", "NN", "TO", "VB", "NNP", "RB", "CC", "IN", "DT", "NN", "IN", "NN", "VBZ", "DT", "JJ", "NN", "."]
     text: ' Of_course, it can be argued that an ability to write English correctly and with
@@ -561,7 +561,7 @@ fV0G:
     wn30_key: [[0, "of_course%4:02:00::"], [5, "argue%2:32:02::"], [8, "ability%1:09:00::"], [10, "write%2:36:00::"], [11, "english%1:10:00::"], [12, "correctly%4:02:01::"], [16, "degree%1:26:01::"], [18, "elegance%1:07:00::"], [19, "be%2:42:03::"], [21, "marketable%3:00:01:salable:00"], [22, "skill%1:09:01::"]]
 b9yE:
     lemmas: ["so", ",", "too", ",", "be", "the", "mathematical", "competence", "of", "a", "college", "graduate", "who", "have", "major", "in", "mathematics", "."]
-    oewn2026_key: [[0, "oewn-00148308-r"], [2, "oewn-00048072-r"], [4, "oewn-02610777-v"], [6, "oewn-02949213-a"], [7, "oewn-05160767-n"], [10, "oewn-08295090-n"], [11, "oewn-09805779-n"], [14, "oewn-00609022-v"], [16, "oewn-06009822-n"]]
+    oewn_key: [[0, "oewn-00148308-r"], [2, "oewn-00048072-r"], [4, "oewn-02610777-v"], [6, "oewn-02949213-a"], [7, "oewn-05160767-n"], [10, "oewn-08295090-n"], [11, "oewn-09805779-n"], [14, "oewn-00609022-v"], [16, "oewn-06009822-n"]]
     paragraph: '5'
     pos: ["RB", ",", "RB", ",", "VBZ", "DT", "JJ", "NN", "IN", "DT", "NN", "NN", "WP", "VBZ", "VBN", "VB", "NN", "."]
     text: ' So, too, is the mathematical competence of a college graduate who has majored in
@@ -571,7 +571,7 @@ b9yE:
     wn30_key: [[0, "so%4:02:08::"], [2, "too%4:02:01::"], [4, "be%2:42:03::"], [6, "mathematical%3:01:00::"], [7, "competence%1:07:00::"], [10, "college%1:14:00::"], [11, "graduate%1:18:00::"], [14, "major%2:31:09::"], [16, "mathematics%1:09:00::"]]
 Pk34:
     lemmas: ["in_a_sense", "almost", "all", "high_school", "and", "college", "course", "could", "be", "consider", "as", "vocational", "to", "the", "extent", "that", "later", "in", "life", "the", "student", "in", "his", "vocation", "(", "which", "may", "be", "a", "profession", ")", "will", "be", "call_upon", "to", "use", "some", "of", "the", "skill", "develop", "and", "the", "competence", "obtain", "."]
-    oewn2026_key: [[1, "oewn-00073433-r"], [3, "oewn-08426574-n"], [5, "oewn-08295090-n"], [6, "oewn-00886144-n"], [9, "oewn-00692380-v"], [11, "oewn-02851363-a"], [14, "oewn-13964158-n"], [16, "oewn-00156621-r"], [18, "oewn-15165365-n"], [20, "oewn-10685137-n"], [23, "oewn-00584283-n"], [27, "oewn-02622439-v"], [29, "oewn-00611221-n"], [35, "oewn-01161188-v"], [39, "oewn-05645403-n"], [40, "oewn-00546637-v"], [43, "oewn-05160767-n"], [44, "oewn-02242867-v"]]
+    oewn_key: [[1, "oewn-00073433-r"], [3, "oewn-08426574-n"], [5, "oewn-08295090-n"], [6, "oewn-00886144-n"], [9, "oewn-00692380-v"], [11, "oewn-02851363-a"], [14, "oewn-13964158-n"], [16, "oewn-00156621-r"], [18, "oewn-15165365-n"], [20, "oewn-10685137-n"], [23, "oewn-00584283-n"], [27, "oewn-02622439-v"], [29, "oewn-00611221-n"], [35, "oewn-01161188-v"], [39, "oewn-05645403-n"], [40, "oewn-00546637-v"], [43, "oewn-05160767-n"], [44, "oewn-02242867-v"]]
     paragraph: '5'
     pos: ["RB", "RB", "DT", "NN", "CC", "NN", "NNS", "MD", "VB", "VBN", "IN", "JJ", "NN", "NN", "NN", "IN", "RB", "IN", "NN", "DT", "NN", "IN", "PRP$", "NN", "NN", "WDT", "MD", "VB", "DT", "NN", "NN", "MD", "VB", "VB", "TO", "VB", "DT", "IN", "DT", "NNS", "VBD", "CC", "DT", "NN", "VBN", "."]
     text: ' In_a_sense almost all high_school and college courses could be considered as vocational
@@ -582,7 +582,7 @@ Pk34:
     wn30_key: [[1, "almost%4:02:00::"], [3, "high_school%1:14:00::"], [5, "college%1:14:00::"], [6, "course%1:04:01::"], [9, "consider%2:31:00::"], [11, "vocational%3:01:00::"], [14, "extent%1:26:00::"], [16, "later%4:02:02::"], [18, "life%1:28:00::"], [20, "student%1:18:00::"], [23, "vocation%1:04:00::"], [27, "be%2:42:06::"], [29, "profession%1:04:00::"], [35, "use%2:34:01::"], [39, "skill%1:09:01::"], [40, "develop%2:30:06::"], [43, "competence%1:07:00::"], [44, "obtain%2:40:00::"]]
 4E1C:
     lemmas: ["In_spite_of", "the", "shading", "of", "one", "type", "of", "course", "into", "another", ",", "I", "believe", "it", "be", "useful", "to", "talk_about", "vocational", "course", "as", "apart", "from", "academic", "course", "."]
-    oewn2026_key: [[2, "oewn-01005878-n"], [4, "oewn-02071831-s"], [5, "oewn-05848697-n"], [7, "oewn-00886144-n"], [12, "oewn-00685199-v"], [14, "oewn-02610777-v"], [15, "oewn-02505612-a"], [17, "oewn-01036184-v"], [18, "oewn-02851363-a"], [19, "oewn-00886144-n"], [21, "oewn-00182242-r"], [23, "oewn-02610356-a"], [24, "oewn-00886144-n"]]
+    oewn_key: [[2, "oewn-01005878-n"], [4, "oewn-02071831-s"], [5, "oewn-05848697-n"], [7, "oewn-00886144-n"], [12, "oewn-00685199-v"], [14, "oewn-02610777-v"], [15, "oewn-02505612-a"], [17, "oewn-01036184-v"], [18, "oewn-02851363-a"], [19, "oewn-00886144-n"], [21, "oewn-00182242-r"], [23, "oewn-02610356-a"], [24, "oewn-00886144-n"]]
     paragraph: '5'
     pos: ["RB", "DT", "NN", "IN", "JJ", "NN", "RB", "NN", "IN", "DT", ",", "PRP", "VBP", "PRP", "VBZ", "JJ", "VB", "VB", "JJ", "NNS", "IN", "RB", "IN", "JJ", "NNS", "."]
     text: ' In_spite_of the shading of one type of course into another, I believe it is useful
@@ -592,7 +592,7 @@ Pk34:
     wn30_key: [[2, "shading%1:04:00::"], [4, "one%3:00:00:same:00"], [5, "type%1:09:00::"], [7, "course%1:04:01::"], [12, "believe%2:31:00::"], [14, "be%2:42:03::"], [15, "useful%3:00:00::"], [17, "talk_about%2:32:00::"], [18, "vocational%3:01:00::"], [19, "course%1:04:01::"], [21, "apart%4:02:01::"], [23, "academic%3:01:00::"], [24, "course%1:04:01::"]]
 tZKb:
     lemmas: ["perhaps", "a", "course", "in", "typewriting", "might", "be", "regard_as", "the", "exception", "which", "prove", "the", "rule", "."]
-    oewn2026_key: [[0, "oewn-00301501-r"], [2, "oewn-00886144-n"], [4, "oewn-06414208-n"], [7, "oewn-00691692-v"], [9, "oewn-05715216-n"], [11, "oewn-00666706-v"], [13, "oewn-05675457-n"]]
+    oewn_key: [[0, "oewn-00301501-r"], [2, "oewn-00886144-n"], [4, "oewn-06414208-n"], [7, "oewn-00691692-v"], [9, "oewn-05715216-n"], [11, "oewn-00666706-v"], [13, "oewn-05675457-n"]]
     paragraph: '5'
     pos: ["RB", "DT", "NN", "IN", "NN", "MD", "VB", "VBG", "DT", "NN", "WDT", "VBZ", "DT", "NN", "."]
     text: ' Perhaps a course in typewriting might be regarded_as the exception which proves
@@ -602,7 +602,7 @@ tZKb:
     wn30_key: [[0, "perhaps%4:02:00::"], [2, "course%1:04:01::"], [4, "typewriting%1:10:00::"], [7, "regard_as%2:31:00::"], [9, "exception%1:09:00::"], [11, "prove%2:31:00::"], [13, "rule%1:09:01::"]]
 E1WN:
     lemmas: ["today", "many", "college", "bound", "student", "try", "to", "take", "a", "course", "in", "personal", "typing", ",", "as", "they", "feel", "a", "certain", "degree", "of", "mastery", "of", "this", "skill", "be", "almost", "essential", "for", "one", "who", "propose", "to", "do", "academic", "work", "in", "college", "and", "a", "professional", "school", "."]
-    oewn2026_key: [[0, "oewn-15287732-n"], [1, "oewn-01555990-a"], [2, "oewn-08295090-n"], [3, "oewn-01687482-s"], [4, "oewn-10685137-n"], [5, "oewn-02535833-v"], [7, "oewn-00601387-v"], [9, "oewn-00886144-n"], [11, "oewn-01771841-a"], [12, "oewn-06414208-n"], [16, "oewn-00717144-v"], [18, "oewn-00704329-s"], [19, "oewn-13962925-n"], [21, "oewn-05649804-n"], [24, "oewn-05645403-n"], [25, "oewn-02610777-v"], [26, "oewn-00073433-r"], [27, "oewn-01584714-s"], [31, "oewn-00710809-v"], [33, "oewn-02566500-v"], [34, "oewn-02610356-a"], [35, "oewn-05763880-n"], [37, "oewn-08295090-n"], [40, "oewn-02850390-a"], [41, "oewn-08293641-n"]]
+    oewn_key: [[0, "oewn-15287732-n"], [1, "oewn-01555990-a"], [2, "oewn-08295090-n"], [3, "oewn-01687482-s"], [4, "oewn-10685137-n"], [5, "oewn-02535833-v"], [7, "oewn-00601387-v"], [9, "oewn-00886144-n"], [11, "oewn-01771841-a"], [12, "oewn-06414208-n"], [16, "oewn-00717144-v"], [18, "oewn-00704329-s"], [19, "oewn-13962925-n"], [21, "oewn-05649804-n"], [24, "oewn-05645403-n"], [25, "oewn-02610777-v"], [26, "oewn-00073433-r"], [27, "oewn-01584714-s"], [31, "oewn-00710809-v"], [33, "oewn-02566500-v"], [34, "oewn-02610356-a"], [35, "oewn-05763880-n"], [37, "oewn-08295090-n"], [40, "oewn-02850390-a"], [41, "oewn-08293641-n"]]
     paragraph: '5'
     pos: ["NN", "JJ", "NN", "JJ", "NNS", "VB", "TO", "VB", "DT", "NN", "IN", "JJ", "NN", ",", "IN", "PRP", "VBP", "DT", "JJ", "NN", "IN", "NN", "RB", "RB", "NN", "VBZ", "RB", "JJ", "IN", "CD", "WP", "VBZ", "TO", "VB", "JJ", "NN", "IN", "NN", "CC", "DT", "JJ", "NN", "."]
     text: ' Today many college bound students try to take a course in personal typing, as they
@@ -615,7 +615,7 @@ E1WN:
     wn30_key: [[0, "today%1:28:00::"], [1, "many%3:00:00::"], [2, "college%1:14:00::"], [3, "bound%3:00:00:oriented:00"], [4, "student%1:18:00::"], [5, "try%2:41:00::"], [7, "take%2:31:02::"], [9, "course%1:04:01::"], [11, "personal%3:00:00::"], [12, "typing%1:10:00::"], [16, "feel%2:31:00::"], [18, "certain%3:00:00:definite:00"], [19, "degree%1:26:01::"], [21, "mastery%1:09:00::"], [24, "skill%1:09:01::"], [25, "be%2:42:03::"], [26, "almost%4:02:00::"], [27, "essential%3:00:00:necessary:00"], [31, "propose%2:31:01::"], [33, "do%2:41:01::"], [34, "academic%3:01:00::"], [35, "work%1:09:00::"], [37, "college%1:14:00::"], [40, "professional%3:01:00::"], [41, "school%1:14:00::"]]
 KbeB:
     lemmas: ["Most_of", "our", "largest", "city", "have", "one", "or", "more", "separate", "vocational", "or", "technical", "high_school", "."]
-    oewn2026_key: [[3, "oewn-08542298-n"], [4, "oewn-02208144-v"], [5, "oewn-00706087-s"], [7, "oewn-01560748-a"], [8, "oewn-00162033-s"], [9, "oewn-02851363-a"], [11, "oewn-02820431-a"], [12, "oewn-08426574-n"]]
+    oewn_key: [[3, "oewn-08542298-n"], [4, "oewn-02208144-v"], [5, "oewn-00706087-s"], [7, "oewn-01560748-a"], [8, "oewn-00162033-s"], [9, "oewn-02851363-a"], [11, "oewn-02820431-a"], [12, "oewn-08426574-n"]]
     paragraph: '6'
     pos: ["JJ", "PRP$", "JJ", "NNS", "VBP", "JJ", "CC", "JJ", "JJ", "JJ", "CC", "JJ", "NNS", "."]
     text: ' Most_of our largest cities have one or more separate vocational or technical high_schools.'
@@ -624,7 +624,7 @@ KbeB:
     wn30_key: [[3, "city%1:15:00::"], [4, "have%2:40:00::"], [5, "one%3:00:00:indefinite:00"], [7, "more%3:00:02::"], [8, "separate%3:00:00:detached:00"], [9, "vocational%3:01:00::"], [11, "technical%3:01:03::"], [12, "high_school%1:14:00::"]]
 iMJK:
     lemmas: ["in", "this", "respect", ",", "public", "education", "in", "the", "large", "city", "differ", "from", "education", "in", "the", "smaller", "city", "and", "consolidated", "school", "district", "."]
-    oewn2026_key: [[2, "oewn-05828314-n"], [4, "oewn-01867145-a"], [5, "oewn-00884975-n"], [8, "oewn-01385012-a"], [9, "oewn-08542298-n"], [10, "oewn-02672316-v"], [12, "oewn-00884975-n"], [15, "oewn-01397927-s"], [16, "oewn-08542298-n"], [18, "oewn-02486112-s"], [19, "oewn-08293641-n"], [20, "oewn-08569713-n"]]
+    oewn_key: [[2, "oewn-05828314-n"], [4, "oewn-01867145-a"], [5, "oewn-00884975-n"], [8, "oewn-01385012-a"], [9, "oewn-08542298-n"], [10, "oewn-02672316-v"], [12, "oewn-00884975-n"], [15, "oewn-01397927-s"], [16, "oewn-08542298-n"], [18, "oewn-02486112-s"], [19, "oewn-08293641-n"], [20, "oewn-08569713-n"]]
     paragraph: '6'
     pos: ["RB", "RB", "NN", ",", "JJ", "NN", "IN", "DT", "JJ", "NNS", "VBZ", "IN", "NN", "IN", "DT", "JJR", "NNS", "CC", "JJ", "NN", "NNS", "."]
     text: ' In this respect, public education in the large cities differs from education in
@@ -634,7 +634,7 @@ iMJK:
     wn30_key: [[2, "respect%1:09:00::"], [4, "public%3:00:00::"], [5, "education%1:04:00::"], [8, "large%3:00:00::"], [9, "city%1:15:00::"], [10, "differ%2:42:00::"], [12, "education%1:04:00::"], [15, "smaller%3:00:00:small:00"], [16, "city%1:15:00::"], [18, "consolidated%3:00:00:united:00"], [19, "school%1:14:00::"], [20, "district%1:15:00::"]]
 sbMh:
     lemmas: ["The", "neighborhood", "high_school", "be", "not", ",", "strictly_speaking", ",", "comprehensive", "school", ",", "because", "some", "of", "the", "boy", "and", "girl", "may", "be", "attend", "a", "vocational", "or", "technical", "high_school", "instead", "of", "the", "local", "school", "."]
-    oewn2026_key: [[1, "oewn-08658688-n"], [2, "oewn-08426574-n"], [3, "oewn-02610777-v"], [4, "oewn-00024432-r"], [6, "oewn-00150568-r"], [8, "oewn-00527630-a"], [9, "oewn-08293641-n"], [15, "oewn-10305010-n"], [17, "oewn-10104064-n"], [20, "oewn-02618797-v"], [22, "oewn-02851363-a"], [24, "oewn-02820431-a"], [25, "oewn-08426574-n"], [29, "oewn-01110098-a"], [30, "oewn-08293641-n"]]
+    oewn_key: [[1, "oewn-08658688-n"], [2, "oewn-08426574-n"], [3, "oewn-02610777-v"], [4, "oewn-00024432-r"], [6, "oewn-00150568-r"], [8, "oewn-00527630-a"], [9, "oewn-08293641-n"], [15, "oewn-10305010-n"], [17, "oewn-10104064-n"], [20, "oewn-02618797-v"], [22, "oewn-02851363-a"], [24, "oewn-02820431-a"], [25, "oewn-08426574-n"], [29, "oewn-01110098-a"], [30, "oewn-08293641-n"]]
     paragraph: '6'
     pos: ["DT", "NN", "NNS", "VBP", "RB", ",", "RB", ",", "JJ", "NNS", ",", "IN", "DT", "IN", "DT", "NNS", "CC", "NNS", "MD", "VB", "VBG", "DT", "JJ", "CC", "JJ", "NN", "RB", "IN", "DT", "JJ", "NN", "."]
     text: ' The neighborhood high_schools are not, strictly_speaking, comprehensive schools,
@@ -645,7 +645,7 @@ sbMh:
     wn30_key: [[1, "neighborhood%1:15:00::"], [2, "high_school%1:14:00::"], [3, "be%2:42:03::"], [4, "not%4:02:00::"], [6, "strictly_speaking%4:02:00::"], [8, "comprehensive%3:00:00::"], [9, "school%1:14:00::"], [15, "boy%1:18:00::"], [17, "girl%1:18:02::"], [20, "attend%2:42:00::"], [22, "vocational%3:01:00::"], [24, "technical%3:01:03::"], [25, "high_school%1:14:00::"], [29, "local%3:00:01::"], [30, "school%1:14:00::"]]
 7AE/:
     lemmas: ["indeed", ",", "one", "school_superintendent", "in", "a", "large", "city", "object", "to", "the", "use", "of", "the", "term", "comprehensive", "high_school", "for", "the", "senior_high_school", "in", "his", "city", ",", "because", "these", "school", "do", "not", "offer", "strictly", "vocational_program", "."]
-    oewn2026_key: [[0, "oewn-00038035-r"], [2, "oewn-01682215-s"], [3, "oewn-10579675-n"], [6, "oewn-01385012-a"], [7, "oewn-08542298-n"], [8, "oewn-00809123-v"], [11, "oewn-00948944-n"], [14, "oewn-06314878-n"], [15, "oewn-00527630-a"], [16, "oewn-08426574-n"], [19, "oewn-08426574-n"], [22, "oewn-08542298-n"], [26, "oewn-08293641-n"], [28, "oewn-00024432-r"], [29, "oewn-02332196-v"], [30, "oewn-00180598-r"], [31, "oewn-05919306-n"]]
+    oewn_key: [[0, "oewn-00038035-r"], [2, "oewn-01682215-s"], [3, "oewn-10579675-n"], [6, "oewn-01385012-a"], [7, "oewn-08542298-n"], [8, "oewn-00809123-v"], [11, "oewn-00948944-n"], [14, "oewn-06314878-n"], [15, "oewn-00527630-a"], [16, "oewn-08426574-n"], [19, "oewn-08426574-n"], [22, "oewn-08542298-n"], [26, "oewn-08293641-n"], [28, "oewn-00024432-r"], [29, "oewn-02332196-v"], [30, "oewn-00180598-r"], [31, "oewn-05919306-n"]]
     paragraph: '6'
     pos: ["RB", ",", "JJ", "NN", "IN", "DT", "JJ", "NN", "VB", "TO", "DT", "NN", "IN", "DT", "NN", "JJ", "NN", "IN", "DT", "NNS", "IN", "PRP$", "NN", ",", "IN", "DT", "NNS", "VBP", "RB", "VB", "RB", "NNPS", "."]
     text: ' Indeed, one school_superintendent in a large city objects to the use of the term
@@ -656,7 +656,7 @@ sbMh:
     wn30_key: [[0, "indeed%4:02:03::"], [2, "one%3:00:00:extraordinary:00"], [3, "school_superintendent%1:18:00::"], [6, "large%3:00:00::"], [7, "city%1:15:00::"], [8, "object%2:32:00::"], [11, "use%1:04:00::"], [14, "term%1:10:00::"], [15, "comprehensive%3:00:00::"], [16, "high_school%1:14:00::"], [19, "senior_high_school%1:14:00::"], [22, "city%1:15:00::"], [26, "school%1:14:00::"], [28, "not%4:02:00::"], [29, "offer%2:40:02::"], [30, "strictly%4:02:00::"], [31, "vocational_program%1:09:00::"]]
 14Sp:
     lemmas: ["He", "prefer", "to", "designate", "such", "school", "as", "\"", "general", "\"", "high_school", "."]
-    oewn2026_key: [[1, "oewn-01830440-v"], [3, "oewn-01032165-v"], [4, "oewn-01558587-s"], [5, "oewn-08293641-n"], [8, "oewn-01105084-a"], [10, "oewn-08426574-n"]]
+    oewn_key: [[1, "oewn-01830440-v"], [3, "oewn-01032165-v"], [4, "oewn-01558587-s"], [5, "oewn-08293641-n"], [8, "oewn-01105084-a"], [10, "oewn-08426574-n"]]
     paragraph: '6'
     pos: ["PRP", "VBZ", "TO", "VB", "JJ", "NNS", "IN", "``", "JJ", "''", "NNS", "."]
     text: ' He prefers to designate such schools as " general " high_schools.'
@@ -665,7 +665,7 @@ sbMh:
     wn30_key: [[1, "prefer%2:37:00::"], [3, "designate%2:32:00::"], [4, "such%3:00:00:much:00"], [5, "school%1:14:00::"], [8, "general%3:00:00::"], [10, "high_school%1:14:00::"]]
 QKQZ:
     lemmas: ["The", "suburban", "high_school", ",", "it", "be", "worth", "note", ",", "also", "be", "not", "a", "widely", "comprehensive", "high_school", "because", "of", "the", "absence", "of", "vocational_program", "."]
-    oewn2026_key: [[1, "oewn-02815413-a"], [2, "oewn-08426574-n"], [5, "oewn-02610777-v"], [6, "oewn-02596626-s"], [7, "oewn-01022014-v"], [9, "oewn-00048072-r"], [10, "oewn-02610777-v"], [11, "oewn-00024432-r"], [13, "oewn-00497722-r"], [14, "oewn-00527630-a"], [15, "oewn-08426574-n"], [19, "oewn-13984260-n"], [21, "oewn-05919306-n"]]
+    oewn_key: [[1, "oewn-02815413-a"], [2, "oewn-08426574-n"], [5, "oewn-02610777-v"], [6, "oewn-02596626-s"], [7, "oewn-01022014-v"], [9, "oewn-00048072-r"], [10, "oewn-02610777-v"], [11, "oewn-00024432-r"], [13, "oewn-00497722-r"], [14, "oewn-00527630-a"], [15, "oewn-08426574-n"], [19, "oewn-13984260-n"], [21, "oewn-05919306-n"]]
     paragraph: '6'
     pos: ["DT", "JJ", "NN", ",", "PRP", "VBZ", "JJ", "VBG", ",", "RB", "VBZ", "RB", "DT", "RB", "JJ", "NN", "IN", "IN", "DT", "NN", "IN", "NN", "."]
     text: ' The suburban high_school, it is worth noting, also is not a widely comprehensive
@@ -675,7 +675,7 @@ QKQZ:
     wn30_key: [[1, "suburban%3:01:00::"], [2, "high_school%1:14:00::"], [5, "be%2:42:03::"], [6, "worth%3:00:00:worthy:00"], [7, "note%2:32:00::"], [9, "also%4:02:00::"], [10, "be%2:42:03::"], [11, "not%4:02:00::"], [13, "widely%4:02:01::"], [14, "comprehensive%3:00:00::"], [15, "high_school%1:14:00::"], [19, "absence%1:26:00::"], [21, "vocational_program%1:09:00::"]]
 qej9:
     lemmas: ["The", "reason", "be", "that", "there", "be", "a", "lack", "of", "interest", "on", "the", "part", "of", "the", "community", "."]
-    oewn2026_key: [[1, "oewn-06752739-n"], [2, "oewn-02622439-v"], [5, "oewn-02609706-v"], [7, "oewn-14472871-n"], [9, "oewn-05690773-n"], [12, "oewn-05679818-n"], [15, "oewn-08240723-n"]]
+    oewn_key: [[1, "oewn-06752739-n"], [2, "oewn-02622439-v"], [5, "oewn-02609706-v"], [7, "oewn-14472871-n"], [9, "oewn-05690773-n"], [12, "oewn-05679818-n"], [15, "oewn-08240723-n"]]
     paragraph: '6'
     pos: ["DT", "NN", "VBZ", "IN", "EX", "VBZ", "DT", "NN", "IN", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "."]
     text: ' The reason is that there is a lack of interest on the part of the community.'
@@ -684,7 +684,7 @@ qej9:
     wn30_key: [[1, "reason%1:10:01::"], [2, "be%2:42:06::"], [5, "be%2:42:00::"], [7, "lack%1:26:00::"], [9, "interest%1:09:00::"], [12, "part%1:09:02::"], [15, "community%1:14:00::"]]
 37KD:
     lemmas: ["therefore", "employment", "and", "education", "in", "all", "the", "school", "in", "a", "metropolitan", "area", "be", "related", "in", "different", "way", "from", "those", "which", "be", "characteristic", "of", "the", "comprehensive", "high_school", "describe", "in", "my", "first", "report", "."]
-    oewn2026_key: [[0, "oewn-00043413-r"], [1, "oewn-13991539-n"], [3, "oewn-00884975-n"], [5, "oewn-02277044-a"], [7, "oewn-08293641-n"], [10, "oewn-02876454-a"], [11, "oewn-08514304-n"], [12, "oewn-02610777-v"], [13, "oewn-01979885-a"], [15, "oewn-02072149-a"], [16, "oewn-04936080-n"], [20, "oewn-02610777-v"], [21, "oewn-00358006-a"], [24, "oewn-00527630-a"], [25, "oewn-08426574-n"], [26, "oewn-00967067-v"], [29, "oewn-01014459-a"], [30, "oewn-07233130-n"]]
+    oewn_key: [[0, "oewn-00043413-r"], [1, "oewn-13991539-n"], [3, "oewn-00884975-n"], [5, "oewn-02277044-a"], [7, "oewn-08293641-n"], [10, "oewn-02876454-a"], [11, "oewn-08514304-n"], [12, "oewn-02610777-v"], [13, "oewn-01979885-a"], [15, "oewn-02072149-a"], [16, "oewn-04936080-n"], [20, "oewn-02610777-v"], [21, "oewn-00358006-a"], [24, "oewn-00527630-a"], [25, "oewn-08426574-n"], [26, "oewn-00967067-v"], [29, "oewn-01014459-a"], [30, "oewn-07233130-n"]]
     paragraph: '6'
     pos: ["RB", "NN", "CC", "NN", "RB", "JJ", "DT", "NNS", "IN", "DT", "JJ", "NN", "VBP", "JJ", "IN", "JJ", "NNS", "IN", "DT", "WDT", "VBP", "JJ", "VB", "DT", "JJ", "NN", "VBN", "IN", "PRP$", "JJ", "NN", "."]
     text: ' Therefore employment and education in all the schools in a metropolitan area are
@@ -697,7 +697,7 @@ qej9:
     wn30_key: [[0, "therefore%4:02:00::"], [1, "employment%1:26:00::"], [3, "education%1:04:00::"], [5, "all%3:00:00::"], [7, "school%1:14:00::"], [10, "metropolitan%3:01:00::"], [11, "area%1:15:01::"], [12, "be%2:42:03::"], [13, "related%3:00:02::"], [15, "different%3:00:00::"], [16, "way%1:07:01::"], [20, "be%2:42:03::"], [21, "characteristic%3:00:00::"], [24, "comprehensive%3:00:00::"], [25, "high_school%1:14:00::"], [26, "describe%2:32:01::"], [29, "first%3:00:00::"], [30, "report%1:10:03::"]]
 D9ht:
     lemmas: ["The", "separate", "vocational", "or", "technical", "high_school", "in", "the", "large", "city", "must", "be", "reckon", "as", "permanent", "institution", "."]
-    oewn2026_key: [[1, "oewn-00162033-s"], [2, "oewn-02851363-a"], [4, "oewn-02820431-a"], [5, "oewn-08426574-n"], [8, "oewn-01385012-a"], [9, "oewn-08542298-n"], [12, "oewn-00692380-v"], [14, "oewn-01758923-a"], [15, "oewn-08070328-n"]]
+    oewn_key: [[1, "oewn-00162033-s"], [2, "oewn-02851363-a"], [4, "oewn-02820431-a"], [5, "oewn-08426574-n"], [8, "oewn-01385012-a"], [9, "oewn-08542298-n"], [12, "oewn-00692380-v"], [14, "oewn-01758923-a"], [15, "oewn-08070328-n"]]
     paragraph: '7'
     pos: ["DT", "JJ", "JJ", "CC", "JJ", "NNS", "IN", "DT", "JJ", "NNS", "MD", "VB", "VBN", "IN", "JJ", "NNS", "."]
     text: ' The separate vocational or technical high_schools in the large cities must be reckoned
@@ -707,7 +707,7 @@ D9ht:
     wn30_key: [[1, "separate%3:00:00:detached:00"], [2, "vocational%3:01:00::"], [4, "technical%3:01:03::"], [5, "high_school%1:14:00::"], [8, "large%3:00:00::"], [9, "city%1:15:00::"], [12, "reckon%2:31:00::"], [14, "permanent%3:00:00::"], [15, "institution%1:14:00::"]]
 E3Vj:
     lemmas: ["by_and_large", "their", "program", "be", "satisfactorily", "connected", "both", "to", "the", "employment", "situation", "and", "to", "the", "reality", "of", "the", "apprentice", "system", "."]
-    oewn2026_key: [[0, "oewn-00156754-r"], [2, "oewn-05907694-n"], [3, "oewn-02610777-v"], [4, "oewn-00015830-r"], [5, "oewn-01980375-s"], [9, "oewn-13991539-n"], [10, "oewn-13950416-n"], [14, "oewn-13978747-n"], [17, "oewn-09821287-n"], [18, "oewn-05734541-n"]]
+    oewn_key: [[0, "oewn-00156754-r"], [2, "oewn-05907694-n"], [3, "oewn-02610777-v"], [4, "oewn-00015830-r"], [5, "oewn-01980375-s"], [9, "oewn-13991539-n"], [10, "oewn-13950416-n"], [14, "oewn-13978747-n"], [17, "oewn-09821287-n"], [18, "oewn-05734541-n"]]
     paragraph: '7'
     pos: ["RB", "PRP$", "NNS", "VBP", "RB", "JJ", "DT", "TO", "DT", "NN", "NN", "CC", "TO", "DT", "NNS", "IN", "DT", "NN", "NN", "."]
     text: ' By_and_large their programs are satisfactorily connected both to the employment
@@ -717,7 +717,7 @@ E3Vj:
     wn30_key: [[0, "by_and_large%4:02:00::"], [2, "program%1:09:01::"], [3, "be%2:42:03::"], [4, "satisfactorily%4:02:00::"], [5, "connected%3:00:00:related:02"], [9, "employment%1:26:00::"], [10, "situation%1:26:00::"], [14, "reality%1:26:01::"], [17, "apprentice%1:18:00::"], [18, "system%1:09:02::"]]
 dtqB:
     lemmas: ["It", "be", "not", "often", "realize", "to_what_degree", "certain", "trade", "be", "in", "many", "community", "closed", "area", "of", "employment", ",", "except", "for", "a", "lucky", "few", "."]
-    oewn2026_key: [[2, "oewn-00024432-r"], [3, "oewn-00035445-r"], [4, "oewn-00592510-v"], [6, "oewn-00704329-s"], [7, "oewn-00607485-n"], [8, "oewn-02610777-v"], [10, "oewn-01555990-a"], [11, "oewn-08240723-n"], [12, "oewn-02483852-s"], [13, "oewn-14537641-n"], [15, "oewn-13991539-n"], [20, "oewn-01052909-s"], [21, "oewn-08404805-n"]]
+    oewn_key: [[2, "oewn-00024432-r"], [3, "oewn-00035445-r"], [4, "oewn-00592510-v"], [6, "oewn-00704329-s"], [7, "oewn-00607485-n"], [8, "oewn-02610777-v"], [10, "oewn-01555990-a"], [11, "oewn-08240723-n"], [12, "oewn-02483852-s"], [13, "oewn-14537641-n"], [15, "oewn-13991539-n"], [20, "oewn-01052909-s"], [21, "oewn-08404805-n"]]
     paragraph: '7'
     pos: ["PRP", "VBZ", "RB", "RB", "VBN", "RB", "JJ", "NNS", "VBP", "IN", "JJ", "NNS", "JJ", "NNS", "IN", "NN", ",", "IN", "IN", "DT", "JJ", "NN", "."]
     text: ' It is not often realized to_what_degree certain trades are in many communities closed
@@ -727,7 +727,7 @@ dtqB:
     wn30_key: [[2, "not%4:02:00::"], [3, "often%4:02:00::"], [4, "realize%2:31:00::"], [6, "certain%3:00:00:definite:00"], [7, "trade%1:04:00::"], [8, "be%2:42:03::"], [10, "many%3:00:00::"], [11, "community%1:14:00::"], [12, "closed%3:00:00:union:00"], [13, "area%1:26:00::"], [15, "employment%1:26:00::"], [20, "lucky%3:00:00:fortunate:00"], [21, "few%1:14:00::"]]
 qY8M:
     lemmas: ["One", "have_to", "talk", "confidentially", "with", "some", "of", "the", "director", "of", "vocational", "high_school", "to", "realize", "that", "a", "boy", "cannot", "just", "say", ",", "\"", "I", "want", "to", "be", "a", "plumber", "\"", ",", "and", "then", ",", "by", "do", "good", "work", ",", "find", "a", "job", "."]
-    oewn2026_key: [[2, "oewn-00964479-v"], [3, "oewn-00170623-r"], [8, "oewn-10034684-n"], [10, "oewn-02851363-a"], [11, "oewn-08426574-n"], [13, "oewn-00592510-v"], [16, "oewn-10305010-n"], [18, "oewn-00247755-r"], [19, "oewn-01011267-v"], [23, "oewn-01829179-v"], [25, "oewn-02450790-v"], [27, "oewn-10462606-n"], [31, "oewn-00118527-r"], [34, "oewn-02566500-v"], [35, "oewn-01126910-a"], [36, "oewn-00576778-n"], [38, "oewn-02218118-v"], [40, "oewn-00583425-n"]]
+    oewn_key: [[2, "oewn-00964479-v"], [3, "oewn-00170623-r"], [8, "oewn-10034684-n"], [10, "oewn-02851363-a"], [11, "oewn-08426574-n"], [13, "oewn-00592510-v"], [16, "oewn-10305010-n"], [18, "oewn-00247755-r"], [19, "oewn-01011267-v"], [23, "oewn-01829179-v"], [25, "oewn-02450790-v"], [27, "oewn-10462606-n"], [31, "oewn-00118527-r"], [34, "oewn-02566500-v"], [35, "oewn-01126910-a"], [36, "oewn-00576778-n"], [38, "oewn-02218118-v"], [40, "oewn-00583425-n"]]
     paragraph: '7'
     pos: ["CD", "VB", "VB", "RB", "IN", "DT", "IN", "DT", "NNS", "IN", "JJ", "NNS", "TO", "VB", "IN", "DT", "NN", "MD", "RB", "VBP", ",", "``", "PRP", "VBP", "VB", "VB", "DT", "NN", "''", ",", "RB", "RB", ",", "IN", "VBG", "JJ", "NN", ",", "VBP", "DT", "NN", "."]
     text: ' One has_to talk confidentially with some of the directors of vocational high_schools
@@ -738,7 +738,7 @@ qY8M:
     wn30_key: [[2, "talk%2:32:01::"], [3, "confidentially%4:02:01::"], [8, "director%1:18:00::"], [10, "vocational%3:01:00::"], [11, "high_school%1:14:00::"], [13, "realize%2:31:00::"], [16, "boy%1:18:00::"], [18, "just%4:02:03::"], [19, "say%2:32:00::"], [23, "want%2:37:00::"], [25, "be%2:41:00::"], [27, "plumber%1:18:00::"], [31, "then%4:02:00::"], [34, "do%2:41:01::"], [35, "good%3:00:01::"], [36, "work%1:04:00::"], [38, "find%2:40:01::"], [40, "job%1:04:00::"]]
 BaU5:
     lemmas: ["It", "be", "far", "more", "difficult", "in", "many", "community", "to", "obtain", "admission", "to", "an", "apprentice", "program", "which", "involve", "union", "approval", "than", "to", "get_into", "the", "most", "selective", "medical_school", "in", "the", "nation", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-00101873-r"], [3, "oewn-00099891-r"], [4, "oewn-00748528-a"], [6, "oewn-01555990-a"], [7, "oewn-08240723-n"], [9, "oewn-02242867-v"], [10, "oewn-01250738-n"], [13, "oewn-09821287-n"], [14, "oewn-05907694-n"], [16, "oewn-02642216-v"], [17, "oewn-08249977-n"], [18, "oewn-14435778-n"], [21, "oewn-02244187-v"], [23, "oewn-00112352-r"], [24, "oewn-00779252-s"], [25, "oewn-08300428-n"]]
+    oewn_key: [[1, "oewn-02610777-v"], [2, "oewn-00101873-r"], [3, "oewn-00099891-r"], [4, "oewn-00748528-a"], [6, "oewn-01555990-a"], [7, "oewn-08240723-n"], [9, "oewn-02242867-v"], [10, "oewn-01250738-n"], [13, "oewn-09821287-n"], [14, "oewn-05907694-n"], [16, "oewn-02642216-v"], [17, "oewn-08249977-n"], [18, "oewn-14435778-n"], [21, "oewn-02244187-v"], [23, "oewn-00112352-r"], [24, "oewn-00779252-s"], [25, "oewn-08300428-n"]]
     paragraph: '7'
     pos: ["PRP", "VBZ", "RB", "RBR", "JJ", "IN", "JJ", "NNS", "TO", "VB", "NN", "TO", "DT", "NN", "NN", "WDT", "VBZ", "NN", "NN", "RB", "TO", "VB", "RB", "RBS", "JJ", "NN", "IN", "DT", "NN", "."]
     text: ' It is far more difficult in many communities to obtain admission to an apprentice
@@ -749,7 +749,7 @@ BaU5:
     wn30_key: [[1, "be%2:42:03::"], [2, "far%4:02:02::"], [3, "more%4:02:00::"], [4, "difficult%3:00:00::"], [6, "many%3:00:00::"], [7, "community%1:14:00::"], [9, "obtain%2:40:00::"], [10, "admission%1:04:00::"], [13, "apprentice%1:18:00::"], [14, "program%1:09:01::"], [16, "involve%2:42:00::"], [17, "union%1:14:01::"], [18, "approval%1:26:00::"], [21, "get_into%2:40:00::"], [23, "most%4:02:00::"], [24, "selective%3:00:00:discriminating:00"], [25, "medical_school%1:14:00::"]]
 00fp:
     lemmas: ["two", "story", "will", "illustrate", "what", "I", "have_in_mind", "."]
-    oewn2026_key: [[0, "oewn-02194109-s"], [1, "oewn-07235754-n"], [3, "oewn-01023137-v"], [6, "oewn-00732037-v"]]
+    oewn_key: [[0, "oewn-02194109-s"], [1, "oewn-07235754-n"], [3, "oewn-01023137-v"], [6, "oewn-00732037-v"]]
     paragraph: '7'
     pos: ["JJ", "NNS", "MD", "VB", "WP", "PRP", "VBP", "."]
     text: ' Two stories will illustrate what I have_in_mind.'
@@ -758,7 +758,7 @@ BaU5:
     wn30_key: [[0, "two%3:00:00:cardinal:00"], [1, "story%1:10:03::"], [3, "illustrate%2:32:00::"], [6, "have_in_mind%2:31:01::"]]
 VPf+:
     lemmas: ["one", "vocational", "instructor", "in", "a", "city", "vocational_school", ",", "speak", "of", "his", "course", "in", "a", "certain", "field", ",", "say", "he", "have", "no", "difficulty", "place", "all", "student", "in", "job", "outside", "of", "the", "city", "."]
-    oewn2026_key: [[0, "oewn-00706087-s"], [1, "oewn-02851363-a"], [2, "oewn-10713754-n"], [5, "oewn-08542298-n"], [6, "oewn-08302515-n"], [8, "oewn-00964479-v"], [11, "oewn-00886144-n"], [14, "oewn-00704329-s"], [15, "oewn-06005806-n"], [17, "oewn-01011267-v"], [19, "oewn-00120854-v"], [21, "oewn-00625102-n"], [22, "oewn-02543626-v"], [24, "oewn-10685137-n"], [26, "oewn-00583425-n"], [30, "oewn-08542298-n"]]
+    oewn_key: [[0, "oewn-00706087-s"], [1, "oewn-02851363-a"], [2, "oewn-10713754-n"], [5, "oewn-08542298-n"], [6, "oewn-08302515-n"], [8, "oewn-00964479-v"], [11, "oewn-00886144-n"], [14, "oewn-00704329-s"], [15, "oewn-06005806-n"], [17, "oewn-01011267-v"], [19, "oewn-00120854-v"], [21, "oewn-00625102-n"], [22, "oewn-02543626-v"], [24, "oewn-10685137-n"], [26, "oewn-00583425-n"], [30, "oewn-08542298-n"]]
     paragraph: '7'
     pos: ["JJ", "JJ", "NN", "IN", "DT", "NN", "NN", ",", "VBG", "IN", "PRP$", "NN", "IN", "DT", "JJ", "NN", ",", "VBD", "PRP", "VBD", "DT", "NN", "VBG", "DT", "NNS", "IN", "NNS", "IN", "IN", "DT", "NN", "."]
     text: ' One vocational instructor in a city vocational_school, speaking of his course in
@@ -769,7 +769,7 @@ VPf+:
     wn30_key: [[0, "one%3:00:00:indefinite:00"], [1, "vocational%3:01:00::"], [2, "instructor%1:18:00::"], [5, "city%1:15:00::"], [6, "vocational_school%1:14:00::"], [8, "speak%2:32:01::"], [11, "course%1:04:01::"], [14, "certain%3:00:00:definite:00"], [15, "field%1:09:00::"], [17, "say%2:32:00::"], [19, "have%2:30:01::"], [21, "difficulty%1:04:00::"], [22, "place%2:41:00::"], [24, "student%1:18:00::"], [26, "job%1:04:00::"], [30, "city%1:15:00::"]]
 DF71:
     lemmas: ["In", "the", "city", ",", "he", "say", ",", "the", "waiting_list", "for", "those", "who", "want", "to", "join", "the", "union", "be", "so", "long", "that", "unless", "a", "boy", "have", "an", "inside_track", "he", "can", "n't", "get_in", "."]
-    oewn2026_key: [[2, "oewn-08542298-n"], [5, "oewn-01011267-v"], [8, "oewn-06509004-n"], [12, "oewn-01829179-v"], [14, "oewn-02439823-v"], [16, "oewn-08249977-n"], [18, "oewn-00147630-r"], [19, "oewn-01440837-a"], [23, "oewn-10305010-n"], [24, "oewn-02208144-v"], [26, "oewn-05166358-n"], [30, "oewn-02244187-v"]]
+    oewn_key: [[2, "oewn-08542298-n"], [5, "oewn-01011267-v"], [8, "oewn-06509004-n"], [12, "oewn-01829179-v"], [14, "oewn-02439823-v"], [16, "oewn-08249977-n"], [18, "oewn-00147630-r"], [19, "oewn-01440837-a"], [23, "oewn-10305010-n"], [24, "oewn-02208144-v"], [26, "oewn-05166358-n"], [30, "oewn-02244187-v"]]
     paragraph: '7'
     pos: ["IN", "DT", "NN", ",", "PRP", "VBD", ",", "DT", "NN", "IN", "DT", "WP", "VBP", "VB", "VB", "DT", "NN", "VBZ", "RB", "JJ", "IN", "IN", "DT", "NN", "VBZ", "DT", "NN", "PRP", "MD", "RB", "VB", "."]
     text: ' In the city, he said, the waiting_list for those who want to join the union is so
@@ -779,7 +779,7 @@ DF71:
     wn30_key: [[2, "city%1:15:00::"], [5, "say%2:32:00::"], [8, "waiting_list%1:10:00::"], [12, "want%2:37:00::"], [14, "join%2:41:00::"], [16, "union%1:14:01::"], [18, "so%4:02:02::"], [19, "long%3:00:02::"], [23, "boy%1:18:00::"], [24, "have%2:40:00::"], [26, "inside_track%1:07:00::"], [30, "get_in%2:40:01::"]]
 dNVH:
     lemmas: ["In", "a", "far", "distant", "part", "of", "the", "united_states", ",", "I", "be", "talk", "to", "an", "instructor", "about", "a", "boy", "who", "in", "the", "twelfth", "grade", "be", "do", "special", "work", "."]
-    oewn2026_key: [[2, "oewn-00101873-r"], [3, "oewn-00447582-a"], [4, "oewn-13831419-n"], [7, "oewn-09067337-n"], [11, "oewn-00964479-v"], [14, "oewn-10713754-n"], [17, "oewn-10305010-n"], [21, "oewn-02211298-s"], [22, "oewn-08255384-n"], [24, "oewn-02566500-v"], [25, "oewn-01107719-s"], [26, "oewn-00576778-n"]]
+    oewn_key: [[2, "oewn-00101873-r"], [3, "oewn-00447582-a"], [4, "oewn-13831419-n"], [7, "oewn-09067337-n"], [11, "oewn-00964479-v"], [14, "oewn-10713754-n"], [17, "oewn-10305010-n"], [21, "oewn-02211298-s"], [22, "oewn-08255384-n"], [24, "oewn-02566500-v"], [25, "oewn-01107719-s"], [26, "oewn-00576778-n"]]
     paragraph: '7'
     pos: ["IN", "DT", "RB", "JJ", "NN", "IN", "DT", "NNS", ",", "PRP", "VBD", "VBG", "NN", "DT", "NN", "IN", "DT", "NN", "WP", "IN", "DT", "JJ", "NN", "VBD", "VBG", "JJ", "NN", "."]
     text: ' In a far distant part of the United_States, I was talking to an instructor about
@@ -789,7 +789,7 @@ dNVH:
     wn30_key: [[2, "far%4:02:02::"], [3, "distant%3:00:01::"], [4, "part%1:24:00::"], [7, "united_states%1:15:00::"], [11, "talk%2:32:01::"], [14, "instructor%1:18:00::"], [17, "boy%1:18:00::"], [21, "twelfth%3:00:00:ordinal:00"], [22, "grade%1:14:00::"], [24, "do%2:41:01::"], [25, "special%3:00:01:specific:00"], [26, "work%1:04:00::"]]
 JTnr:
     lemmas: ["\"", "What", "do", "he", "have_in_mind", "to", "do", "when", "he", "graduate", "\"", "?"]
-    oewn2026_key: [[4, "oewn-00732037-v"], [6, "oewn-02574587-v"], [9, "oewn-02269205-v"]]
+    oewn_key: [[4, "oewn-00732037-v"], [6, "oewn-02574587-v"], [9, "oewn-02269205-v"]]
     paragraph: '7'
     pos: ["``", "WP", "VBZ", "PRP", "VB", "VB", "VB", "WRB", "PRP", "VBZ", "''", "."]
     text: ' " What does he have_in_mind to do when he graduates "?'
@@ -798,7 +798,7 @@ JTnr:
     wn30_key: [[4, "have_in_mind%2:31:01::"], [6, "do%2:41:02::"], [9, "graduate%2:40:00::"]]
 DfA5:
     lemmas: ["\"", "Oh", ",", "he", "'ll", "be", "a", "plumber", "\"", ",", "come", "the", "answer", "."]
-    oewn2026_key: [[5, "oewn-02450790-v"], [7, "oewn-10462606-n"], [10, "oewn-00342572-v"], [12, "oewn-06758700-n"]]
+    oewn_key: [[5, "oewn-02450790-v"], [7, "oewn-10462606-n"], [10, "oewn-00342572-v"], [12, "oewn-06758700-n"]]
     paragraph: '7'
     pos: ["``", "UH", ",", "PRP", "MD", "VB", "DT", "NN", "''", ",", "VBD", "DT", "NN", "."]
     text: ' " Oh, he''ll be a plumber ", came the answer.'
@@ -807,7 +807,7 @@ DfA5:
     wn30_key: [[5, "be%2:41:00::"], [7, "plumber%1:18:00::"], [10, "come%2:30:01::"], [12, "answer%1:10:01::"]]
 rWGK:
     lemmas: ["\"", "But", "be", "n't", "it", "almost", "impossible", "to", "get_into", "the", "union", "\"", "?"]
-    oewn2026_key: [[5, "oewn-00073433-r"], [6, "oewn-01828578-a"], [8, "oewn-02244187-v"], [10, "oewn-08249977-n"]]
+    oewn_key: [[5, "oewn-00073433-r"], [6, "oewn-01828578-a"], [8, "oewn-02244187-v"], [10, "oewn-08249977-n"]]
     paragraph: '7'
     pos: ["``", "CC", "VBZ", "RB", "PRP", "RB", "JJ", "TO", "VB", "DT", "NN", "''", "."]
     text: ' " But isn''t it almost impossible to get_into the union "?'
@@ -816,7 +816,7 @@ rWGK:
     wn30_key: [[5, "almost%4:02:00::"], [6, "impossible%3:00:00::"], [8, "get_into%2:40:00::"], [10, "union%1:14:01::"]]
 yYL5:
     lemmas: ["I", "ask", "."]
-    oewn2026_key: [[1, "oewn-00899241-v"]]
+    oewn_key: [[1, "oewn-00899241-v"]]
     paragraph: '7'
     pos: ["PRP", "VBD", "."]
     text: ' I asked.'
@@ -825,7 +825,7 @@ yYL5:
     wn30_key: [[1, "ask%2:32:00::"]]
 C656:
     lemmas: ["\"", "He", "'ll", "have", "no", "difficulty", "\"", ",", "I", "be", "tell", "."]
-    oewn2026_key: [[3, "oewn-00120854-v"], [5, "oewn-00625102-n"], [10, "oewn-00954556-v"]]
+    oewn_key: [[3, "oewn-00120854-v"], [5, "oewn-00625102-n"], [10, "oewn-00954556-v"]]
     paragraph: '7'
     pos: ["``", "PRP", "MD", "VB", "DT", "NN", "''", ",", "PRP", "VBD", "VBN", "."]
     text: ' " He''ll have no difficulty ", I was told.'
@@ -834,7 +834,7 @@ C656:
     wn30_key: [[3, "have%2:30:01::"], [5, "difficulty%1:04:00::"], [10, "tell%2:32:00::"]]
 QZrB:
     lemmas: ["\"", "He", "have", "very", "good", "connection", "\"", "."]
-    oewn2026_key: [[2, "oewn-02208144-v"], [3, "oewn-00032295-r"], [4, "oewn-01126910-a"], [5, "oewn-09975626-n"]]
+    oewn_key: [[2, "oewn-02208144-v"], [3, "oewn-00032295-r"], [4, "oewn-01126910-a"], [5, "oewn-09975626-n"]]
     paragraph: '7'
     pos: ["``", "PRP", "VBZ", "RB", "JJ", "NNS", "''", "."]
     text: ' " He has very good connections ".
@@ -845,7 +845,7 @@ QZrB:
     wn30_key: [[2, "have%2:40:00::"], [3, "very%4:02:00::"], [4, "good%3:00:01::"], [5, "connection%1:18:01::"]]
 brdf:
     lemmas: ["In", "my", "view", ",", "there", "should", "be", "a", "school", "which", "offer", "significant", "vocational_program", "for", "boy", "within", "easy", "reach", "of", "every", "family", "in", "a", "city", "."]
-    oewn2026_key: [[2, "oewn-06794876-n"], [6, "oewn-02610777-v"], [8, "oewn-08293641-n"], [10, "oewn-02332196-v"], [11, "oewn-00627729-s"], [12, "oewn-05919306-n"], [14, "oewn-10305010-n"], [16, "oewn-00752852-a"], [17, "oewn-05132642-n"], [19, "oewn-02277553-s"], [20, "oewn-08094856-n"], [23, "oewn-08542298-n"]]
+    oewn_key: [[2, "oewn-06794876-n"], [6, "oewn-02610777-v"], [8, "oewn-08293641-n"], [10, "oewn-02332196-v"], [11, "oewn-00627729-s"], [12, "oewn-05919306-n"], [14, "oewn-10305010-n"], [16, "oewn-00752852-a"], [17, "oewn-05132642-n"], [19, "oewn-02277553-s"], [20, "oewn-08094856-n"], [23, "oewn-08542298-n"]]
     paragraph: '8'
     pos: ["IN", "PRP$", "NN", ",", "EX", "MD", "VB", "DT", "NN", "WDT", "VBZ", "JJ", "NN", "IN", "NNS", "IN", "JJ", "NN", "IN", "JJ", "NN", "IN", "DT", "NN", "."]
     text: ' In my view, there should be a school which offers significant vocational_programs
@@ -855,7 +855,7 @@ brdf:
     wn30_key: [[2, "view%1:10:00::"], [6, "be%2:42:04::"], [8, "school%1:14:00::"], [10, "offer%2:40:02::"], [11, "significant%3:00:00:considerable:00"], [12, "vocational_program%1:09:00::"], [14, "boy%1:18:00::"], [16, "easy%3:00:01::"], [17, "reach%1:07:00::"], [19, "every%3:00:00:all:00"], [20, "family%1:14:02::"], [23, "city%1:15:00::"]]
 QO0T:
     lemmas: ["ideally", "these", "school", "should", "be", "so", "located", "that", "one", "or", "more", "should", "be", "in", "the", "area", "where", "demand", "for", "practical", "course", "be", "at", "the", "highest", "."]
-    oewn2026_key: [[0, "oewn-00196820-r"], [2, "oewn-08293641-n"], [4, "oewn-02610777-v"], [5, "oewn-00147962-r"], [6, "oewn-02133811-s"], [8, "oewn-00706087-s"], [10, "oewn-01560748-a"], [12, "oewn-02661230-v"], [15, "oewn-08514304-n"], [17, "oewn-14472592-n"], [19, "oewn-01840022-a"], [20, "oewn-00886144-n"], [21, "oewn-02610777-v"]]
+    oewn_key: [[0, "oewn-00196820-r"], [2, "oewn-08293641-n"], [4, "oewn-02610777-v"], [5, "oewn-00147962-r"], [6, "oewn-02133811-s"], [8, "oewn-00706087-s"], [10, "oewn-01560748-a"], [12, "oewn-02661230-v"], [15, "oewn-08514304-n"], [17, "oewn-14472592-n"], [19, "oewn-01840022-a"], [20, "oewn-00886144-n"], [21, "oewn-02610777-v"]]
     paragraph: '8'
     pos: ["RB", "DT", "NNS", "MD", "VB", "RB", "JJ", "IN", "JJ", "CC", "JJR", "MD", "VB", "IN", "DT", "NN", "WRB", "NN", "IN", "JJ", "NNS", "VBZ", "IN", "DT", "JJ", "."]
     text: ' Ideally these schools should be so located that one or more should be in the area
@@ -867,7 +867,7 @@ QO0T:
     wn30_key: [[0, "ideally%4:02:00::"], [2, "school%1:14:00::"], [4, "be%2:42:03::"], [5, "so%4:02:05::"], [6, "located%3:00:00:settled:01"], [8, "one%3:00:00:indefinite:00"], [10, "more%3:00:02::"], [12, "be%2:42:05::"], [15, "area%1:15:01::"], [17, "demand%1:26:00::"], [19, "practical%3:00:00::"], [20, "course%1:04:01::"], [21, "be%2:42:03::"]]
 aQw9:
     lemmas: ["An", "excellent", "example", "of", "a", "successful", "location", "of", "a", "new", "vocational", "high_school", "be", "the", "group", "in", "chicago", "."]
-    oewn2026_key: [[1, "oewn-02351216-s"], [2, "oewn-05933998-n"], [5, "oewn-02339254-a"], [6, "oewn-01053255-n"], [9, "oewn-01645077-a"], [10, "oewn-02851363-a"], [11, "oewn-08426574-n"], [12, "oewn-02622439-v"], [14, "oewn-00031563-n"], [16, "oewn-09105928-n"]]
+    oewn_key: [[1, "oewn-02351216-s"], [2, "oewn-05933998-n"], [5, "oewn-02339254-a"], [6, "oewn-01053255-n"], [9, "oewn-01645077-a"], [10, "oewn-02851363-a"], [11, "oewn-08426574-n"], [12, "oewn-02622439-v"], [14, "oewn-00031563-n"], [16, "oewn-09105928-n"]]
     paragraph: '9'
     pos: ["DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "IN", "DT", "JJ", "JJ", "NN", "VBZ", "DT", "NN", "IN", "NNP", "."]
     text: ' An excellent example of a successful location of a new vocational high_school is
@@ -877,7 +877,7 @@ aQw9:
     wn30_key: [[1, "excellent%3:00:00:superior:02"], [2, "example%1:09:01::"], [5, "successful%3:00:00::"], [6, "location%1:04:02::"], [9, "new%3:00:00::"], [10, "vocational%3:01:00::"], [11, "high_school%1:14:00::"], [12, "be%2:42:06::"], [14, "group%1:03:00::"], [16, "chicago%1:15:00::"]]
 0hdu:
     lemmas: ["located", "in", "a", "bad", "slum_area", "now", "undergo", "redevelopment", ",", "this", "school", "and", "its", "program", "be", "especially", "tailor", "to", "the", "vocational", "aim", "of", "its", "student", "."]
-    oewn2026_key: [[0, "oewn-02133811-s"], [3, "oewn-01129296-a"], [4, "oewn-08669407-n"], [5, "oewn-00049013-r"], [7, "oewn-00265962-n"], [10, "oewn-08293641-n"], [13, "oewn-05907694-n"], [15, "oewn-00084573-r"], [16, "oewn-00302443-v"], [19, "oewn-02851363-a"], [20, "oewn-05990115-n"], [23, "oewn-10685137-n"]]
+    oewn_key: [[0, "oewn-02133811-s"], [3, "oewn-01129296-a"], [4, "oewn-08669407-n"], [5, "oewn-00049013-r"], [7, "oewn-00265962-n"], [10, "oewn-08293641-n"], [13, "oewn-05907694-n"], [15, "oewn-00084573-r"], [16, "oewn-00302443-v"], [19, "oewn-02851363-a"], [20, "oewn-05990115-n"], [23, "oewn-10685137-n"]]
     paragraph: '9'
     pos: ["JJ", "IN", "DT", "JJ", "NN", "RB", "VB", "NN", ",", "DT", "NN", "CC", "PRP$", "NN", "VBP", "RB", "VBN", "TO", "DT", "JJ", "NNS", "IN", "PRP$", "NNS", "."]
     text: ' Located in a bad slum_area now undergoing redevelopment, this school and its program
@@ -887,7 +887,7 @@ aQw9:
     wn30_key: [[0, "located%3:00:00:settled:01"], [3, "bad%3:00:00::"], [4, "slum_area%1:15:00::"], [5, "now%4:02:00::"], [7, "redevelopment%1:04:00::"], [10, "school%1:14:00::"], [13, "program%1:09:01::"], [15, "especially%4:02:00::"], [16, "tailor%2:30:00::"], [19, "vocational%3:01:00::"], [20, "aim%1:09:01::"], [23, "student%1:18:00::"]]
 BkSU:
     lemmas: ["hardly_a", "window", "have", "be", "break", "since", "group", "first", "be", "open", "(", "and", "vandalism", "in", "school", "be", "a", "major", "problem", "in", "many", "slum_area", ")", "."]
-    oewn2026_key: [[0, "oewn-01557851-s"], [1, "oewn-04594951-n"], [4, "oewn-00335806-v"], [6, "oewn-00031563-n"], [7, "oewn-00104262-r"], [9, "oewn-02431018-v"], [12, "oewn-01252403-n"], [14, "oewn-08293641-n"], [15, "oewn-02610777-v"], [17, "oewn-01474453-a"], [18, "oewn-14434009-n"], [20, "oewn-01555990-a"], [21, "oewn-08669407-n"]]
+    oewn_key: [[0, "oewn-01557851-s"], [1, "oewn-04594951-n"], [4, "oewn-00335806-v"], [6, "oewn-00031563-n"], [7, "oewn-00104262-r"], [9, "oewn-02431018-v"], [12, "oewn-01252403-n"], [14, "oewn-08293641-n"], [15, "oewn-02610777-v"], [17, "oewn-01474453-a"], [18, "oewn-14434009-n"], [20, "oewn-01555990-a"], [21, "oewn-08669407-n"]]
     paragraph: '9'
     pos: ["JJ", "NN", "VBZ", "VBN", "VBN", "IN", "NNP", "RB", "VBD", "VBN", "NN", "CC", "NN", "IN", "NNS", "VBZ", "DT", "JJ", "NN", "IN", "JJ", "NN", "FW", "."]
     text: ' Hardly_a window has been broken since Dunbar first was opened (and vandalism in
@@ -897,7 +897,7 @@ BkSU:
     wn30_key: [[0, "hardly_a%3:00:00:few:00"], [1, "window%1:06:00::"], [4, "break%2:30:10::"], [6, "group%1:03:00::"], [7, "first%4:02:02::"], [9, "open%2:41:00::"], [12, "vandalism%1:04:00::"], [14, "school%1:14:00::"], [15, "be%2:42:03::"], [17, "major%3:00:02::"], [18, "problem%1:26:00::"], [20, "many%3:00:00::"], [21, "slum_area%1:15:00::"]]
 awHV:
     lemmas: ["I", "discover", "in", "the", "course", "of", "a", "visit", "there", "that", "almost", "all", "the", "pupil", "be", "negro", "."]
-    oewn2026_key: [[1, "oewn-01641524-v"], [4, "oewn-08393816-n"], [7, "oewn-01235721-n"], [8, "oewn-00109919-r"], [10, "oewn-00073433-r"], [13, "oewn-10685137-n"], [14, "oewn-02622439-v"], [15, "oewn-09659490-n"]]
+    oewn_key: [[1, "oewn-01641524-v"], [4, "oewn-08393816-n"], [7, "oewn-01235721-n"], [8, "oewn-00109919-r"], [10, "oewn-00073433-r"], [13, "oewn-10685137-n"], [14, "oewn-02622439-v"], [15, "oewn-09659490-n"]]
     paragraph: '9'
     pos: ["PRP", "VBD", "IN", "DT", "NN", "IN", "DT", "NN", "RB", "IN", "RB", "PDT", "DT", "NNS", "VBD", "NNPS", "."]
     text: ' I discovered in the course of a visit there that almost all the pupils were Negroes.'
@@ -906,7 +906,7 @@ awHV:
     wn30_key: [[1, "discover%2:31:00::"], [4, "course%1:14:00::"], [7, "visit%1:04:02::"], [8, "there%4:02:00::"], [10, "almost%4:02:00::"], [13, "pupil%1:18:00::"], [14, "be%2:42:06::"], [15, "negro%1:18:00::"]]
 GcrU:
     lemmas: ["They", "be", "learn", "trade", "as", "diverse", "as", "shoe_repairing", ",", "bricklaying", ",", "carpentry", ",", "cabinet", "making", ",", "auto_mechanics", ",", "and", "airplane_mechanics", "."]
-    oewn2026_key: [[2, "oewn-00599310-v"], [3, "oewn-00607485-n"], [4, "oewn-00022585-r"], [5, "oewn-02075123-s"], [7, "oewn-00619105-n"], [9, "oewn-00608573-n"], [11, "oewn-00608890-n"], [13, "oewn-02936496-n"], [14, "oewn-00925809-n"], [16, "oewn-00608300-n"], [19, "oewn-00608190-n"]]
+    oewn_key: [[2, "oewn-00599310-v"], [3, "oewn-00607485-n"], [4, "oewn-00022585-r"], [5, "oewn-02075123-s"], [7, "oewn-00619105-n"], [9, "oewn-00608573-n"], [11, "oewn-00608890-n"], [13, "oewn-02936496-n"], [14, "oewn-00925809-n"], [16, "oewn-00608300-n"], [19, "oewn-00608190-n"]]
     paragraph: '9'
     pos: ["PRP", "VBD", "VBG", "NNS", "RB", "JJ", "IN", "NN", ",", "NN", ",", "NN", ",", "NN", "NN", ",", "NNS", ",", "CC", "NNS", "."]
     text: ' They were learning trades as diverse as shoe_repairing, bricklaying, carpentry,
@@ -916,7 +916,7 @@ GcrU:
     wn30_key: [[2, "learn%2:31:00::"], [3, "trade%1:04:00::"], [4, "as%4:02:00::"], [5, "diverse%3:00:02:different:00"], [7, "shoe_repairing%1:04:00::"], [9, "bricklaying%1:04:00::"], [11, "carpentry%1:04:00::"], [13, "cabinet%1:06:00::"], [14, "making%1:04:00::"], [16, "auto_mechanics%1:04:00::"], [19, "airplane_mechanics%1:04:00::"]]
 kwkg:
     lemmas: ["The", "physical", "facility", "at", "group", "be", "impressive", ",", "but", "more", "impressive", "be", "the", "attitude", "of", "the", "pupil", "."]
-    oewn2026_key: [[1, "oewn-00629845-s"], [2, "oewn-03319968-n"], [4, "oewn-00031563-n"], [5, "oewn-02610777-v"], [6, "oewn-01285124-a"], [9, "oewn-00099891-r"], [10, "oewn-01285124-a"], [11, "oewn-02610777-v"], [13, "oewn-06202938-n"], [16, "oewn-10685137-n"]]
+    oewn_key: [[1, "oewn-00629845-s"], [2, "oewn-03319968-n"], [4, "oewn-00031563-n"], [5, "oewn-02610777-v"], [6, "oewn-01285124-a"], [9, "oewn-00099891-r"], [10, "oewn-01285124-a"], [11, "oewn-02610777-v"], [13, "oewn-06202938-n"], [16, "oewn-10685137-n"]]
     paragraph: '9'
     pos: ["DT", "JJ", "NNS", "IN", "NNP", "VBP", "JJ", ",", "CC", "RBR", "JJ", "VBZ", "DT", "NN", "IN", "DT", "NNS", "."]
     text: ' The physical facilities at Dunbar are impressive, but more impressive is the attitude

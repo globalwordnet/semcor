@@ -3,7 +3,7 @@ _meta:
         type: seq
         base: tokens
         data: string
-    oewn2026_key:
+    oewn_key:
         type: element
         base: tokens
         data: string
@@ -28,7 +28,7 @@ _meta:
         data: string
 Se3s:
     lemmas: ["\"", "He", "must", "have", "forgive", "me", "\"", ",", "Henrietta", "murmur", "to", "the", "room", "."]
-    oewn2026_key: [[4, "oewn-00905339-v"], [9, "oewn-01045986-v"]]
+    oewn_key: [[4, "oewn-00905339-v"], [9, "oewn-01045986-v"]]
     paragraph: '0'
     pos: ["``", "PRP", "MD", "VB", "VBN", "PRP", "``", ",", "NNP", "VBD", "TO", "DT", "NN", "."]
     text: '" He must have forgiven me ", Henrietta murmured to the room.'
@@ -37,7 +37,7 @@ Se3s:
     wn30_key: [[4, "forgive%2:32:00::"], [9, "murmur%2:32:00::"]]
 f3Nh:
     lemmas: ["The", "absolution", "of", "Doaty", "'s", "last", "will", "and", "testament", "be", "proof", "enough", "of_that", ";", "Doaty", "would", "never", "have", "leave", "her", "house", "to", "a", "godless", "woman", "."]
-    oewn2026_key: [[9, "oewn-02610777-v"], [18, "oewn-02233837-v"]]
+    oewn_key: [[9, "oewn-02610777-v"], [18, "oewn-02233837-v"]]
     paragraph: '0'
     pos: ["DT", "NN", "IN", "NNP", "POS", "NN", "MD", "CC", "NN", "VBD", "NN", "RB", "RB", ":", "NNP", "MD", "RB", "VB", "VBN", "PRP$", "NN", "TO", "DT", "JJ", "NN", "."]
     text: ' The absolution of Doaty''s last will and testament was proof enough of_that; Doaty
@@ -49,7 +49,7 @@ f3Nh:
     wn30_key: [[9, "be%2:42:03::"], [18, "leave%2:40:01::"]]
 EvBp:
     lemmas: ["She", "find", "herself", "wish", "an", "old", "wish", ",", "that", "she", "have", "tell", "Doaty", "she", "be", "run_away", ",", "that", "she", "have", "leave", "something", "more", "behind", "her", "than", "the", "loving", ",", "sorry", "note", "and", "her", "good", "garnet", "pin", "."]
-    oewn2026_key: [[1, "oewn-02133338-v"], [3, "oewn-00905166-v"], [11, "oewn-00954556-v"], [15, "oewn-02079296-v"], [20, "oewn-00615374-v"]]
+    oewn_key: [[1, "oewn-02133338-v"], [3, "oewn-00905166-v"], [11, "oewn-00954556-v"], [15, "oewn-02079296-v"], [20, "oewn-00615374-v"]]
     paragraph: '1'
     pos: ["PRP", "VBD", "PRP", "VBG", "DT", "JJ", "NN", ",", "IN", "PRP", "VBD", "VBN", "NNP", "PRP", "VB", "VB", ",", "IN", "PRP", "VB", "VBN", "NN", "JJR", "IN", "PRP", "IN", "DT", "JJ", ",", "JJ", "NN", "CC", "PRP$", "JJS", "NN", "NN", "."]
     text: ' She found herself wishing an old wish, that she had told Doaty she was running_away,
@@ -60,7 +60,7 @@ EvBp:
     wn30_key: [[1, "find%2:39:01::"], [3, "wish%2:32:02::"], [11, "tell%2:32:00::"], [15, "run_away%2:38:00::"], [20, "leave%2:31:05::"]]
 Uh9Q:
     lemmas: ["perhaps", "Doaty", "have", "guess", "already", "and", "keep", "her", "counsel", "."]
-    oewn2026_key: [[3, "oewn-00633399-v"], [6, "oewn-02584957-v"]]
+    oewn_key: [[3, "oewn-00633399-v"], [6, "oewn-02584957-v"]]
     paragraph: '1'
     pos: ["RB", "NNP", "VBD", "VBN", "RB", "CC", "VBD", "PRP$", "NN", "."]
     text: ' Perhaps Doaty had guessed already and kept her counsel.
@@ -71,7 +71,7 @@ Uh9Q:
     wn30_key: [[3, "guess%2:31:00::"], [6, "keep%2:41:03::"]]
 V4DR:
     lemmas: ["Henrietta", "think", ",", "It", "'s", "extraordinary", "how", "much", "she", "always", "know", "about", "both", "of", "us", "."]
-    oewn2026_key: [[1, "oewn-00630153-v"], [10, "oewn-00597330-v"]]
+    oewn_key: [[1, "oewn-00630153-v"], [10, "oewn-00597330-v"]]
     paragraph: '2'
     pos: ["NNP", "VBD", ",", "PRP", "VBZ", "JJ", "WRB", "JJ", "PRP", "RB", "VBD", "IN", "DT", "IN", "PRP", "."]
     text: ' Henrietta thought, It''s extraordinary how much she always knew about both of us.'
@@ -80,7 +80,7 @@ V4DR:
     wn30_key: [[1, "think%2:31:00::"], [10, "know%2:31:03::"]]
 9E1/:
     lemmas: ["There", "have", "be", "more", "to", "know", "about", "Hetty", ",", "inevitably", ",", "and", "most_of", "it", "unfavorable", "."]
-    oewn2026_key: [[5, "oewn-00597330-v"]]
+    oewn_key: [[5, "oewn-00597330-v"]]
     paragraph: '2'
     pos: ["EX", "VBD", "VB", "JJR", "TO", "VB", "IN", "NNP", ",", "RB", ",", "CC", "JJ", "PRP", "JJ", "."]
     text: ' There had been more to know about Hetty, inevitably, and most_of it unfavorable.'
@@ -89,7 +89,7 @@ V4DR:
     wn30_key: [[5, "know%2:31:03::"]]
 3jVF:
     lemmas: ["Adelia", "be", "the", "good", "one", ",", "or", ",", "if_not", "always", "good", ",", "less", "frequently", "tempt", "."]
-    oewn2026_key: [[1, "oewn-02622439-v"], [14, "oewn-00795447-v"]]
+    oewn_key: [[1, "oewn-02622439-v"], [14, "oewn-00795447-v"]]
     paragraph: '2'
     pos: ["NNP", "VBD", "DT", "JJ", "CD", ",", "CC", ",", "RB", "RB", "JJ", ",", "RBR", "RB", "VBN", "."]
     text: ' Adelia was the good one, or, if_not always good, less frequently tempted.'
@@ -98,7 +98,7 @@ V4DR:
     wn30_key: [[1, "be%2:42:06::"], [14, "tempt%2:32:01::"]]
 XHxr:
     lemmas: ["Their", "childhood", "would", "have", "be", "quite", "circumspect", "without", "Hetty", "'s", "flair", "for", "drama", ",", "especially", "through", "the", "long", "summer", "."]
-    oewn2026_key: [[4, "oewn-02610777-v"]]
+    oewn_key: [[4, "oewn-02610777-v"]]
     paragraph: '2'
     pos: ["PRP$", "NN", "MD", "VB", "VBN", "RB", "JJ", "IN", "NNP", "POS", "NN", "IN", "NN", ",", "RB", "IN", "DT", "JJ", "NNS", "."]
     text: ' Their childhood would have been quite circumspect without Hetty''s flair for drama,
@@ -108,7 +108,7 @@ XHxr:
     wn30_key: [[4, "be%2:42:03::"]]
 p0Mn:
     lemmas: ["In", "winter", ",", "in", "the", "city", ",", "there", "have", "be", "the", "Maneret_School", ",", "which", "teach", "excellently", "with", "a", "kind_of", "austere", "passion", "for", "knowledge", ";", "there", "have", "be", "lesson", "in", "french", "from", "a", "small", "polish", "nobleman", "with", "a", "really", "profound", "distaste", "for", "his", "pupil", ";", "there", "have", "be", "the", "dancing", "class", "-", "miss_craddock", ",", "thin", "and", "tireless", ",", "with", "her", "supervising", "wand", "and", "her", "everlasting", "one-two-three", ",", "one-two-three", "."]
-    oewn2026_key: [[9, "oewn-02661230-v"], [14, "oewn-00830768-v"], [26, "oewn-02610777-v"], [46, "oewn-02610777-v"]]
+    oewn_key: [[9, "oewn-02661230-v"], [14, "oewn-00830768-v"], [26, "oewn-02610777-v"], [46, "oewn-02610777-v"]]
     paragraph: '2'
     pos: ["IN", "NN", ",", "IN", "DT", "NN", ",", "EX", "VBD", "VBN", "DT", "NNP", ",", "WDT", "VBD", "RB", "IN", "DT", "RB", "JJ", "NN", "IN", "NN", ":", "EX", "VBD", "VBN", "NNS", "IN", "JJ", "IN", "DT", "JJ", "JJ", "NN", "IN", "DT", "RB", "JJ", "NN", "IN", "PRP$", "NNS", ":", "EX", "VBD", "VBN", "DT", "NN", "NN", ":", "NNP", ",", "JJ", "CC", "JJ", ",", "IN", "PRP$", "JJ", "NN", "CC", "PRP$", "JJ", "NN", ",", "NN", "."]
     text: ' In winter, in the city, there had been the Maneret_School, which taught excellently
@@ -121,7 +121,7 @@ p0Mn:
     wn30_key: [[9, "be%2:42:05::"], [14, "teach%2:32:00::"], [26, "be%2:42:04::"], [46, "be%2:42:04::"]]
 zF9P:
     lemmas: ["There", "have", "be", "supper", "party", "and", "tea", ",", "fete", "and", "little", "ball", ",", "mama", "small", "and", "pretty", "and", "gay", "and", "papa", "enormously", "jocular", ",", "enormously", "possessive", ",", "the", "sun", "around", "which", "the", "Blackwell", "planet", "revolve", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"], [34, "oewn-02047875-v"]]
+    oewn_key: [[2, "oewn-02610777-v"], [34, "oewn-02047875-v"]]
     paragraph: '2'
     pos: ["EX", "VBD", "VBN", "NN", "NNS", "CC", "NNS", ",", "NNS", "CC", "JJ", "NNS", ",", "NNP", "JJ", "CC", "RB", "CC", "JJ", "CC", "NNP", "RB", "JJ", ",", "RB", "JJ", ",", "DT", "NN", "IN", "WDT", "DT", "NNP", "NNS", "VBD", "."]
     text: ' There had been supper parties and teas, fetes and little balls, Mama small and pretty
@@ -134,7 +134,7 @@ zF9P:
     wn30_key: [[2, "be%2:42:04::"], [34, "revolve%2:38:01::"]]
 aYBf:
     lemmas: ["mama", "have", "die", "before", "the", "corruption", "of", "the", "family_circle", ",", "the", "interruption", "of", "charles", "."]
-    oewn2026_key: [[2, "oewn-00359085-v"]]
+    oewn_key: [[2, "oewn-00359085-v"]]
     paragraph: '3'
     pos: ["NNP", "VBD", "VBN", "RB", "DT", "NN", "IN", "DT", "NN", ",", "DT", "NN", "IN", "NNP", "."]
     text: ' Mama had died before the corruption of the family_circle, the interruption of Charles.'
@@ -143,7 +143,7 @@ aYBf:
     wn30_key: [[2, "die%2:30:00::"]]
 ItL9:
     lemmas: ["It", "be", "safe", "to", "assume", "that", "papa", ",", "sigh", "heavily", ",", "have", "say", "many_times", "to", "his", "remaining", "daughter", ",", "\"", "thank", "god", "your", "poor", "mother", "be", "spare", "this", "\"", ",", "and", "indeed", "it", "might", "be", "true", "that", "it", "have", "be", "easy", "for", "Henrietta", "to", "leave", ",", "with", "her", "hand", "in", "charles", "'", "hand", ",", "just", "because", "her", "\"", "poor", "mother", "\"", "be", "gone", "already", "and", "would", "never", "know", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [4, "oewn-00633898-v"], [8, "oewn-00004032-v"], [12, "oewn-01011267-v"], [20, "oewn-00893836-v"], [26, "oewn-02570589-v"], [34, "oewn-02610777-v"], [39, "oewn-02610777-v"], [44, "oewn-02013448-v"], [61, "oewn-02610777-v"], [67, "oewn-00596016-v"]]
+    oewn_key: [[1, "oewn-02610777-v"], [4, "oewn-00633898-v"], [8, "oewn-00004032-v"], [12, "oewn-01011267-v"], [20, "oewn-00893836-v"], [26, "oewn-02570589-v"], [34, "oewn-02610777-v"], [39, "oewn-02610777-v"], [44, "oewn-02013448-v"], [61, "oewn-02610777-v"], [67, "oewn-00596016-v"]]
     paragraph: '3'
     pos: ["PRP", "VBD", "JJ", "TO", "VB", "IN", "NNP", ",", "VBG", "RB", ",", "VBD", "VBN", "RB", "TO", "PRP$", "JJ", "NN", ",", "``", "VB", "NNP", "PRP$", "JJ", "NN", "VBD", "VBN", "DT", "``", ",", "CC", "RB", "PRP", "MD", "VB", "JJ", "IN", "PRP", "VBD", "VBN", "JJR", "IN", "NNP", "TO", "VB", ",", "IN", "PRP$", "NN", "IN", "NNP", "POS", "NN", ",", "RB", "IN", "PRP$", "``", "JJ", "NN", "''", "VBD", "JJ", "RB", "CC", "MD", "RB", "VB", "."]
     text: ' It was safe to assume that Papa, sighing heavily, had said many_times to his remaining
@@ -155,7 +155,7 @@ ItL9:
     wn30_key: [[1, "be%2:42:03::"], [4, "assume%2:31:00::"], [8, "sigh%2:29:00::"], [12, "say%2:32:00::"], [20, "thank%2:32:00::"], [26, "spare%2:41:01::"], [34, "be%2:42:03::"], [39, "be%2:42:03::"], [44, "leave%2:38:01::"], [61, "be%2:42:03::"], [67, "know%2:31:01::"]]
 xJFP:
     lemmas: ["mama", "be", "vulnerable", ";", "one", "have", "always", "feel", "the", "need", "to", "make", "a", "safe", "world", "around", "her", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [7, "oewn-01775456-v"], [11, "oewn-01620211-v"]]
+    oewn_key: [[1, "oewn-02610777-v"], [7, "oewn-01775456-v"], [11, "oewn-01620211-v"]]
     paragraph: '3'
     pos: ["NNP", "VBD", "JJ", ":", "CD", "VBD", "RB", "VBN", "DT", "NN", "VB", "VB", "DT", "JJ", "NN", "IN", "PRP$", "."]
     text: ' Mama was vulnerable; one had always felt the need to make a safe world around her.
@@ -166,7 +166,7 @@ xJFP:
     wn30_key: [[1, "be%2:42:03::"], [7, "feel%2:37:00::"], [11, "make%2:36:00::"]]
 QlOb:
     lemmas: ["But", "I", "would", "have", "go", "anyway", ",", "think", "Henrietta", "."]
-    oewn2026_key: [[4, "oewn-01839438-v"], [7, "oewn-00630153-v"]]
+    oewn_key: [[4, "oewn-01839438-v"], [7, "oewn-00630153-v"]]
     paragraph: '4'
     pos: ["CC", "PRP", "MD", "VB", "VBN", "RB", ",", "VBD", "NNP", "."]
     text: ' But I would have gone anyway, thought Henrietta.'
@@ -175,7 +175,7 @@ QlOb:
     wn30_key: [[4, "go%2:38:00::"], [7, "think%2:31:00::"]]
 IVA4:
     lemmas: ["She", "have", "always", "be", "able", "to", "ignore", "the", "moral", "question", "because", "there", "have", "be", "no", "choice", "."]
-    oewn2026_key: [[3, "oewn-02610777-v"], [6, "oewn-01061436-v"]]
+    oewn_key: [[3, "oewn-02610777-v"], [6, "oewn-01061436-v"]]
     paragraph: '4'
     pos: ["PRP", "VBD", "RB", "VBN", "JJ", "VB", "VB", "DT", "JJ", "NN", "IN", "EX", "VBD", "VB", "DT", "NN", "."]
     text: ' She had always been able to ignore the moral question because there had been no
@@ -185,7 +185,7 @@ IVA4:
     wn30_key: [[3, "be%2:42:03::"], [6, "ignore%2:32:02::"]]
 yAIt:
     lemmas: ["only", "at", "this", "moment", "-", "perhaps", "because", "it", "be", "before", "dawn", "and", "she", "be", "lie", "in", "Doaty", "'s", "bed", "-", "she", "find", "herself", "examine", "how", "other", "might", "regard", "her", "."]
-    oewn2026_key: [[8, "oewn-02610777-v"], [14, "oewn-01549783-v"], [21, "oewn-02133338-v"], [23, "oewn-00646245-v"], [27, "oewn-00692380-v"]]
+    oewn_key: [[8, "oewn-02610777-v"], [14, "oewn-01549783-v"], [21, "oewn-02133338-v"], [23, "oewn-00646245-v"], [27, "oewn-00692380-v"]]
     paragraph: '4'
     pos: ["RB", "IN", "DT", "NN", ":", "RB", "IN", "PRP", "VBD", "IN", "NN", "CC", "PRP", "VB", "VBG", "IN", "NNP", "POS", "NN", ":", "PRP", "VBD", "PRP", "VBG", "WRB", "NNS", "MD", "VB", "PRP$", "."]
     text: ' Only at this moment - perhaps because it was before dawn and she was lying in Doaty''s
@@ -195,7 +195,7 @@ yAIt:
     wn30_key: [[8, "be%2:42:03::"], [14, "lie%2:35:00::"], [21, "find%2:39:01::"], [23, "examine%2:31:00::"], [27, "regard%2:31:00::"]]
 F56K:
     lemmas: ["perhaps", "they", "would", "argue", "that", "morality", "consist_of", "just", "of_that", "ability", "to", "see", "a", "choice", "."]
-    oewn2026_key: [[3, "oewn-00774234-v"], [11, "oewn-00592510-v"]]
+    oewn_key: [[3, "oewn-00774234-v"], [11, "oewn-00592510-v"]]
     paragraph: '4'
     pos: ["RB", "PRP", "MD", "VB", "IN", "NN", "VB", "RB", "RB", "NN", "TO", "VB", "DT", "NN", "."]
     text: ' Perhaps they would argue that morality consisted just of_that ability to see a choice.
@@ -206,7 +206,7 @@ F56K:
     wn30_key: [[3, "argue%2:32:02::"], [11, "see%2:31:01::"]]
 bZwa:
     lemmas: ["She", "turn", "on", "her", "side", ",", "find", "the", "idea", "oppressive", "."]
-    oewn2026_key: [[1, "oewn-01911251-v"], [6, "oewn-00717144-v"]]
+    oewn_key: [[1, "oewn-01911251-v"], [6, "oewn-00717144-v"]]
     paragraph: '5'
     pos: ["PRP", "VBD", "IN", "PRP$", "NN", ",", "VBG", "DT", "NN", "JJ", "."]
     text: ' She turned on her side, finding the idea oppressive.'
@@ -215,7 +215,7 @@ bZwa:
     wn30_key: [[1, "turn%2:38:00::"], [6, "find%2:31:10::"]]
 Umur:
     lemmas: ["If", "Adelia", "have", "feel", "about", "someone", "as", "Henrietta", "feel", "about", "charles", ",", "would", "she", "have", "run_away", "with", "him", "?"]
-    oewn2026_key: [[3, "oewn-01775456-v"], [8, "oewn-01775456-v"], [15, "oewn-02079296-v"]]
+    oewn_key: [[3, "oewn-01775456-v"], [8, "oewn-01775456-v"], [15, "oewn-02079296-v"]]
     paragraph: '5'
     pos: ["IN", "NNP", "VBD", "VBN", "RB", "NN", "IN", "NNP", "VBD", "IN", "NNP", ",", "MD", "PRP", "VBP", "VB", "IN", "PRP", "."]
     text: ' If Adelia had felt about someone as Henrietta felt about Charles, would she have
@@ -227,7 +227,7 @@ Umur:
     wn30_key: [[3, "feel%2:37:00::"], [8, "feel%2:37:00::"], [15, "run_away%2:38:00::"]]
 0vA5:
     lemmas: ["impossible", "to", "imagine", "Adelia", "feel", "so", "about", "anyone", "."]
-    oewn2026_key: [[2, "oewn-01639939-v"], [4, "oewn-01775456-v"]]
+    oewn_key: [[2, "oewn-01639939-v"], [4, "oewn-01775456-v"]]
     paragraph: '6'
     pos: ["JJ", "TO", "VB", "NNP", "VB", "RB", "IN", "NN", "."]
     text: ' Impossible to imagine Adelia feeling so about anyone.'
@@ -236,7 +236,7 @@ Umur:
     wn30_key: [[2, "imagine%2:36:00::"], [4, "feel%2:37:00::"]]
 BrOm:
     lemmas: ["No", "temptation", ",", "no", "sin", "."]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '6'
     pos: ["DT", "NN", ",", "DT", "NN", "."]
     text: ' No temptation, no sin.
@@ -247,7 +247,7 @@ BrOm:
     wn30_key: []
 1gu9:
     lemmas: ["No", "temptation", ",", "no", "virtue", "?"]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '7'
     pos: ["DT", "NN", ",", "DT", "NN", "."]
     text: ' No temptation, no virtue?
@@ -258,7 +258,7 @@ BrOm:
     wn30_key: []
 X8R2:
     lemmas: ["A", "curious", "thought", "to", "end", "a", "curious", "night", "."]
-    oewn2026_key: [[4, "oewn-02741293-v"]]
+    oewn_key: [[4, "oewn-02741293-v"]]
     paragraph: '8'
     pos: ["DT", "JJ", "NN", "TO", "VB", "DT", "JJ", "NN", "."]
     text: ' A curious thought to end a curious night.'
@@ -267,7 +267,7 @@ X8R2:
     wn30_key: [[4, "end%2:42:01::"]]
 uJo9:
     lemmas: ["The_birds", "be", "really", "awake", "now", "in", "a", "colloquy", "of", "music", ",", "and", "light", "be", "begin", "to", "creep", "across", "the", "room", ",", "touch", "sill", "and", "door", ",", "table", "and", "chair", "and", "all_of", "Doaty", "'s", "flower", "in", "their", "artificial", "blossom", "and", "leaf", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [14, "oewn-00346415-v"], [16, "oewn-02064516-v"], [21, "oewn-01208838-v"]]
+    oewn_key: [[1, "oewn-02610777-v"], [14, "oewn-00346415-v"], [16, "oewn-02064516-v"], [21, "oewn-01208838-v"]]
     paragraph: '8'
     pos: ["NN", "VBD", "RB", "JJ", "RB", "IN", "DT", "NN", "IN", "NN", ",", "CC", "NN", "VBD", "VBG", "TO", "VB", "IN", "DT", "NN", ",", "VBG", "NN", "CC", "NN", ",", "NN", "CC", "NN", "CC", "JJ", "NNP", "POS", "NNS", "IN", "PRP$", "JJ", "NN", "CC", "NN", "."]
     text: ' The_birds were really awake now in a colloquy of music, and light was beginning
@@ -280,7 +280,7 @@ uJo9:
     wn30_key: [[1, "be%2:42:03::"], [14, "begin%2:30:00::"], [16, "creep%2:38:06::"], [21, "touch%2:35:00::"]]
 RpAa:
     lemmas: ["Before_anything_else", ",", "she", "would", "go", "to", "Doaty", "'s", "grave", "with", "flower", "from", "Doaty", "'s", "forgotten", "garden", "."]
-    oewn2026_key: [[4, "oewn-01839438-v"]]
+    oewn_key: [[4, "oewn-01839438-v"]]
     paragraph: '9'
     pos: ["RB", ",", "PRP", "MD", "VB", "VB", "NNP", "POS", "JJ", "IN", "NNS", "IN", "NNP", "POS", "JJ", "NN", "."]
     text: ' Before_anything_else, she would go to Doaty''s grave with flowers from Doaty''s
@@ -290,7 +290,7 @@ RpAa:
     wn30_key: [[4, "go%2:38:00::"]]
 7STk:
     lemmas: ["Everything", "must", "wait", "upon", "this", "mission", ",", "this", "sentimental", "duty", "of", "a", "pilgrim", "whose", "nature", "avoid", "graveyard", "."]
-    oewn2026_key: [[2, "oewn-02647547-v"], [15, "oewn-00813037-v"]]
+    oewn_key: [[2, "oewn-02647547-v"], [15, "oewn-00813037-v"]]
     paragraph: '9'
     pos: ["NN", "MD", "VB", "IN", "DT", "NN", ",", "DT", "JJ", "NN", "IN", "DT", "NN", "WP$", "NN", "VBD", "NNS", "."]
     text: ' Everything must wait upon this mission, this sentimental duty of a pilgrim whose
@@ -300,7 +300,7 @@ RpAa:
     wn30_key: [[2, "wait%2:42:01::"], [15, "avoid%2:32:00::"]]
 UjtK:
     lemmas: ["She", "close", "her", "eyes", ",", "remember", "the", "small", "french", "cemetery", ",", "enclosed", "by", "stone_wall", "."]
-    oewn2026_key: [[1, "oewn-01347791-v"], [5, "oewn-00612810-v"]]
+    oewn_key: [[1, "oewn-01347791-v"], [5, "oewn-00612810-v"]]
     paragraph: '9'
     pos: ["PRP", "VBD", "PRP$", "NNS", ",", "VBG", "DT", "JJ", "JJ", "NN", ",", "JJ", "IN", "NN", "."]
     text: ' She closed her eyes, remembering the small French cemetery, enclosed by stone_walls.'
@@ -309,7 +309,7 @@ UjtK:
     wn30_key: [[1, "close%2:35:00::"], [5, "remember%2:31:02::"]]
 f9pu:
     lemmas: ["It", "have", "always", "seem", "to", "rain", "there", ",", "and", "even", "the", "grass", "be", "gray", "."]
-    oewn2026_key: [[3, "oewn-02137900-v"], [5, "oewn-02762516-v"], [12, "oewn-02610777-v"]]
+    oewn_key: [[3, "oewn-02137900-v"], [5, "oewn-02762516-v"], [12, "oewn-02610777-v"]]
     paragraph: '9'
     pos: ["PRP", "VBD", "RB", "VBN", "TO", "VB", "EX", ",", "CC", "RB", "DT", "NN", "VBD", "JJ", "."]
     text: ' It had always seemed to rain there, and even the grass was gray.
@@ -320,7 +320,7 @@ f9pu:
     wn30_key: [[3, "seem%2:39:00::"], [5, "rain%2:43:00::"], [12, "be%2:42:03::"]]
 0Bwg:
     lemmas: ["After", "the", "sad", "impatient", "moment", ",", "wait", "for", "comfort", "which", "could", "not", "come", ",", "she", "slip", "out_of_bed", "and", "go", "to", "the", "open", "window", "."]
-    oewn2026_key: [[6, "oewn-02644022-v"], [12, "oewn-00342572-v"], [15, "oewn-01892288-v"], [18, "oewn-01839438-v"]]
+    oewn_key: [[6, "oewn-02644022-v"], [12, "oewn-00342572-v"], [15, "oewn-01892288-v"], [18, "oewn-01839438-v"]]
     paragraph: '10'
     pos: ["IN", "DT", "JJ", "JJ", "NN", ",", "VBG", "VB", "NN", "WDT", "MD", "RB", "VB", ",", "PRP", "VBD", "JJ", "CC", "VBD", "VB", "DT", "JJ", "NN", "."]
     text: ' After the sad impatient moment, waiting for comfort which could not come, she slipped
@@ -330,7 +330,7 @@ f9pu:
     wn30_key: [[6, "wait%2:42:00::"], [12, "come%2:30:01::"], [15, "slip%2:38:01::"], [18, "go%2:38:00::"]]
 rQOb:
     lemmas: ["The", "garden", "below", "be", "lacy", "with", "dew", "and", "enchanting", "in", "its", "small", "wildness", "."]
-    oewn2026_key: [[3, "oewn-02610777-v"]]
+    oewn_key: [[3, "oewn-02610777-v"]]
     paragraph: '10'
     pos: ["DT", "NN", "IN", "VBD", "JJ", "IN", "NN", "CC", "JJ", "IN", "PRP$", "JJ", "NN", "."]
     text: ' The garden below was lacy with dew and enchanting in its small wildness.'
@@ -339,7 +339,7 @@ rQOb:
     wn30_key: [[3, "be%2:42:03::"]]
 rZoc:
     lemmas: ["lean", "out", ",", "she", "could", "see", "a", "tangle", "of", "rosebush", "and", "honeysuckle", ",", "one", "not_quite", "come_to", "bloom", ",", "one", "just", "beyond", "it", "."]
-    oewn2026_key: [[0, "oewn-02042202-v"], [5, "oewn-02133754-v"], [15, "oewn-02532477-v"]]
+    oewn_key: [[0, "oewn-02042202-v"], [5, "oewn-02133754-v"], [15, "oewn-02532477-v"]]
     paragraph: '10'
     pos: ["VB", "RB", ",", "PRP", "MD", "VB", "DT", "NN", "IN", "NN", "CC", "NN", ",", "CD", "RB", "VB", "NN", ",", "CD", "RB", "IN", "PRP", "."]
     text: ' Leaning out, she could see a tangle of rosebush and honeysuckle, one not_quite come_to
@@ -349,7 +349,7 @@ rZoc:
     wn30_key: [[0, "lean%2:38:00::"], [5, "see%2:39:00::"], [15, "come_to%2:41:00::"]]
 iJlN:
     lemmas: ["On", "a", "thrusting", "spray", "thick_with", "thorn", "and", "dewdrop", "and", "swelling", "pink", "bud", ",", "like", "a", "summer", "valentine", ",", "a", "bird", "balance", "and", "sing", ",", "nondescriptly", "brown", "and", "alive", "with", "its", "own", "music", ",", "a_little", "engine", "of", "song", "."]
-    oewn2026_key: [[20, "oewn-01605239-v"], [22, "oewn-01733312-v"]]
+    oewn_key: [[20, "oewn-01605239-v"], [22, "oewn-01733312-v"]]
     paragraph: '10'
     pos: ["IN", "DT", "JJ", "NN", "JJ", "NNS", "CC", "NNS", "CC", "JJ", "JJ", "NNS", ",", "IN", "DT", "NN", "NNP", ",", "DT", "NN", "VBN", "CC", "VBN", ",", "RB", "JJ", "CC", "JJ", "IN", "PRP$", "JJ", "NN", ",", "RB", "NN", "IN", "NN", "."]
     text: ' On a thrusting spray thick_with thorns and dewdrops and swelling pink buds, like
@@ -362,7 +362,7 @@ iJlN:
     wn30_key: [[20, "balance%2:35:00::"], [22, "sing%2:36:00::"]]
 ZvsW:
     lemmas: ["It", "be", "so", "pretty", "and", "artless", "that", "she", "feel", "like", "a", "child", "again", "and", "would", "have", "enjoy", "run_out", "barefoot", "to", "play", "on", "the", "wet", "grass", "with", "all", "the", "growing", "things", ",", "but", "Doaty", "never", "permit", "bare", "foot", "and", "she", "be", "decidedly", "not", "a", "child", "but", "une", "femme", "d", "'", "un", "certain", "age", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [8, "oewn-00692071-v"], [16, "oewn-01824240-v"], [17, "oewn-02014892-v"], [20, "oewn-02423786-v"], [34, "oewn-00803980-v"], [39, "oewn-02610777-v"]]
+    oewn_key: [[1, "oewn-02610777-v"], [8, "oewn-00692071-v"], [16, "oewn-01824240-v"], [17, "oewn-02014892-v"], [20, "oewn-02423786-v"], [34, "oewn-00803980-v"], [39, "oewn-02610777-v"]]
     paragraph: '11'
     pos: ["PRP", "VBD", "RB", "RB", "CC", "JJ", "IN", "PRP", "VBD", "VB", "DT", "NN", "RB", "CC", "MD", "VB", "VBN", "VB", "RB", "TO", "VB", "VB", "DT", "JJ", "NN", "IN", "DT", "DT", "JJ", "NNS", ",", "CC", "NNP", "RB", "VBD", "JJ", "NNS", "CC", "PRP", "VBD", "RB", "RB", "DT", "NN", "CC", "FW", "FW", "FW", "''", "FW", "JJ", "NN", "."]
     text: ' It was so pretty and artless that she felt like a child again and would have enjoyed
@@ -374,7 +374,7 @@ ZvsW:
     wn30_key: [[1, "be%2:42:03::"], [8, "feel%2:31:01::"], [16, "enjoy%2:37:00::"], [17, "run_out%2:38:02::"], [20, "play%2:41:03::"], [34, "permit%2:32:00::"], [39, "be%2:42:03::"]]
 itxG:
     lemmas: ["feel", "suddenly", "neat", "and", "subdued", ",", "she", "dress", "quite", "soberly", "and", "go", "downstair", "."]
-    oewn2026_key: [[0, "oewn-01775456-v"], [7, "oewn-00046251-v"], [11, "oewn-01839438-v"]]
+    oewn_key: [[0, "oewn-01775456-v"], [7, "oewn-00046251-v"], [11, "oewn-01839438-v"]]
     paragraph: '11'
     pos: ["VBG", "RB", "JJ", "CC", "JJ", ",", "PRP", "VBD", "RB", "RB", "CC", "VBD", "NN", "."]
     text: ' Feeling suddenly neat and subdued, she dressed quite soberly and went downstairs.
@@ -385,7 +385,7 @@ itxG:
     wn30_key: [[0, "feel%2:37:00::"], [7, "dress%2:29:00::"], [11, "go%2:38:00::"]]
 IQLD:
     lemmas: ["rosa", ",", "unbelievably", ",", "be", "not_yet", "up", "and", "about", ",", "reassurance", "that", "rosa", "be", "human", "."]
-    oewn2026_key: [[4, "oewn-02610777-v"], [13, "oewn-02610777-v"]]
+    oewn_key: [[4, "oewn-02610777-v"], [13, "oewn-02610777-v"]]
     paragraph: '12'
     pos: ["NNP", ",", "RB", ",", "VBD", "RB", "RB", "CC", "RB", ",", "NN", "IN", "NNP", "VBD", "JJ", "."]
     text: ' Rosa, unbelievably, was not_yet up and about, reassurance that Rosa was human.'
@@ -394,7 +394,7 @@ IQLD:
     wn30_key: [[4, "be%2:42:03::"], [13, "be%2:42:03::"]]
 fdBm:
     lemmas: ["feel", "protective", "toward", "this", "sleeping", "being", ",", "Henrietta", "find", "a", "yesterday", "bun", "and", "milk", "in", "a", "white", "jug", ",", "a", "breakfast", "which", "be", "somewhat", "the", "equivalent", "of", "go", "barefoot", "."]
-    oewn2026_key: [[0, "oewn-01775456-v"], [8, "oewn-02253273-v"], [22, "oewn-02622439-v"], [27, "oewn-01839438-v"]]
+    oewn_key: [[0, "oewn-01775456-v"], [8, "oewn-02253273-v"], [22, "oewn-02622439-v"], [27, "oewn-01839438-v"]]
     paragraph: '12'
     pos: ["VBG", "JJ", "IN", "DT", "JJ", "NN", ",", "NNP", "VBD", "DT", "NN", "NN", "CC", "NN", "IN", "DT", "JJ", "NN", ",", "DT", "NN", "WDT", "VBD", "RB", "DT", "NN", "IN", "VBG", "RB", "."]
     text: ' Feeling protective toward this sleeping being, Henrietta found a yesterday bun and
@@ -406,7 +406,7 @@ fdBm:
     wn30_key: [[0, "feel%2:37:00::"], [8, "find%2:40:02::"], [22, "be%2:42:06::"], [27, "go%2:38:00::"]]
 UbqV:
     lemmas: ["outside", ",", "the", "garden", ",", "the", "tame", "wilderness", ",", "yield", "a", "patchwork", "bouquet", "of", "daisy", ",", "sweet_william", ",", "scented", "stock", "and", "lady", "'s", "bedstraw", ",", "which", "she", "tie", "with", "long", "grass", "and", "take", "back", "to", "show", "rosa", ",", "who", "be", "now", "stir", "about", "the", "kitchen", "and", "harangue", "folly", "."]
-    oewn2026_key: [[9, "oewn-01632192-v"], [27, "oewn-01288043-v"], [32, "oewn-02081903-v"], [35, "oewn-02153218-v"], [41, "oewn-01897981-v"], [46, "oewn-00992281-v"]]
+    oewn_key: [[9, "oewn-01632192-v"], [27, "oewn-01288043-v"], [32, "oewn-02081903-v"], [35, "oewn-02153218-v"], [41, "oewn-01897981-v"], [46, "oewn-00992281-v"]]
     paragraph: '13'
     pos: ["RB", ",", "DT", "NN", ",", "DT", "JJ", "NN", ",", "VBD", "DT", "NN", "NN", "IN", "NNS", ",", "NN", ",", "JJ", "NN", "CC", "NN", "POS", "NN", ",", "WDT", "PRP", "VBD", "IN", "JJ", "NNS", "CC", "VBD", "RB", "TO", "VB", "NNP", ",", "WP", "VBD", "RB", "VBG", "IN", "DT", "NN", "CC", "VBG", "NNP", "."]
     text: ' Outside, the garden, the tame wilderness, yielded a patchwork bouquet of daisies,
@@ -418,7 +418,7 @@ UbqV:
     wn30_key: [[9, "yield%2:36:00::"], [27, "tie%2:35:00::"], [32, "take%2:38:10::"], [35, "show%2:39:02::"], [41, "stir%2:38:00::"], [46, "harangue%2:32:00::"]]
 XZMW:
     lemmas: ["The", "poodle", "come", "gleefully", "to", "Henrietta", "and", "beg", "for", "the", "flower", ",", "supplicate", "the", "air", "with", "prayerful", "forepaw", "."]
-    oewn2026_key: [[2, "oewn-01853188-v"], [7, "oewn-00784104-v"], [12, "oewn-00760672-v"]]
+    oewn_key: [[2, "oewn-01853188-v"], [7, "oewn-00784104-v"], [12, "oewn-00760672-v"]]
     paragraph: '13'
     pos: ["DT", "NN", "VBD", "RB", "TO", "NNP", "CC", "VBN", "IN", "DT", "NNS", ",", "VBG", "DT", "NN", "IN", "JJ", "NNS", "."]
     text: ' The poodle came gleefully to Henrietta and begged for the flowers, supplicating
@@ -430,7 +430,7 @@ XZMW:
     wn30_key: [[2, "come%2:38:00::"], [7, "beg%2:32:01::"], [12, "supplicate%2:32:00::"]]
 VuDY:
     lemmas: ["Henrietta", "hold", "her", "bouquet", "out_of_reach", "and", "say", "it", "be", "for", "Doaty", "."]
-    oewn2026_key: [[1, "oewn-02687605-v;oewn-01219234-v"], [6, "oewn-01011267-v"], [8, "oewn-02610777-v"]]
+    oewn_key: [[1, "oewn-02687605-v;oewn-01219234-v"], [6, "oewn-01011267-v"], [8, "oewn-02610777-v"]]
     paragraph: '14'
     pos: ["NNP", "VBD", "PRP$", "NN", "JJ", "CC", "VBD", "PRP", "VBD", "IN", "NNP", "."]
     text: ' Henrietta held her bouquet out_of_reach and said it was for Doaty.'
@@ -439,7 +439,7 @@ VuDY:
     wn30_key: [[1, "hold%2:42:00::;hold%2:35:00::"], [6, "say%2:32:00::"], [8, "be%2:42:03::"]]
 bPUa:
     lemmas: ["\"", "rummage", "in", "the", "dew", "\"", ",", "say", "rosa", "coldly", "."]
-    oewn2026_key: [[1, "oewn-01321709-v"], [7, "oewn-01011267-v"]]
+    oewn_key: [[1, "oewn-01321709-v"], [7, "oewn-01011267-v"]]
     paragraph: '14'
     pos: ["``", "VBG", "IN", "DT", "NN", "''", ",", "VBD", "NNP", "RB", "."]
     text: ' " Rummaging in the dew ", said Rosa coldly.'
@@ -448,7 +448,7 @@ bPUa:
     wn30_key: [[1, "rummage%2:35:00::"], [7, "say%2:32:00::"]]
 IT3/:
     lemmas: ["\"", "go", "change", "your", "shoes", "before", "you", "turn_around", "\"", "."]
-    oewn2026_key: [[2, "oewn-00551194-v;oewn-00169266-v"], [7, "oewn-01882942-v"]]
+    oewn_key: [[2, "oewn-00551194-v;oewn-00169266-v"], [7, "oewn-01882942-v"]]
     paragraph: '14'
     pos: ["''", "VB", "VB", "PRP$", "NNS", "IN", "PRP", "VBP", "``", "."]
     text: ' " Go change your shoes before you turn_around ".'
@@ -457,7 +457,7 @@ IT3/:
     wn30_key: [[2, "change%2:30:05::;change%2:30:03::"], [7, "turn_around%2:38:00::"]]
 46UP:
     lemmas: ["She", "sound", "so", "exactly", "like", "Doaty", "that", "Henrietta", "obey", "her", "under", "the", "clear", "impression", "that", "she", "could", "either", "comply", "or", "stay", "home", "."]
-    oewn2026_key: [[1, "oewn-02139513-v"], [8, "oewn-02548492-v"], [18, "oewn-02547977-v"], [20, "oewn-01861378-v"]]
+    oewn_key: [[1, "oewn-02139513-v"], [8, "oewn-02548492-v"], [18, "oewn-02547977-v"], [20, "oewn-01861378-v"]]
     paragraph: '14'
     pos: ["PRP", "VBD", "RB", "RB", "IN", "NNP", "IN", "NNP", "VBD", "PRP", "IN", "DT", "JJ", "NN", "IN", "PRP", "MD", "DT", "VB", "CC", "VB", "NN", "."]
     text: ' She sounded so exactly like Doaty that Henrietta obeyed her under the clear impression
@@ -467,7 +467,7 @@ IT3/:
     wn30_key: [[1, "sound%2:39:03::"], [8, "obey%2:41:00::"], [18, "comply%2:41:00::"], [20, "stay%2:38:00::"]]
 Wivx:
     lemmas: ["folly", "dance", ",", "eager_for", "whatever", "lie", "beyond", "the", "door", "."]
-    oewn2026_key: [[1, "oewn-01898642-v"], [5, "oewn-02659476-v"]]
+    oewn_key: [[1, "oewn-01898642-v"], [5, "oewn-02659476-v"]]
     paragraph: '14'
     pos: ["NNP", "VBD", ",", "JJ", "WDT", "VBD", "IN", "DT", "NN", "."]
     text: ' Folly danced, eager_for whatever lay beyond the door.
@@ -478,7 +478,7 @@ Wivx:
     wn30_key: [[1, "dance%2:38:01::"], [5, "lie%2:42:01::"]]
 iUZV:
     lemmas: ["To", "a", "Blackwell", ",", "there", "be", "only", "one", "church", "."]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '15'
     pos: ["TO", "DT", "NNP", ",", "EX", "VB", "RB", "CD", "NN", "."]
     text: ' To a Blackwell, there was only one church.'
@@ -487,7 +487,7 @@ iUZV:
     wn30_key: []
 pEHX:
     lemmas: ["The", "cemetery", "slumber", "just", "behind", "it", ",", "and", "the", "way", "lie", "through", "the", "village", "and", "close_to", "the", "sea", "."]
-    oewn2026_key: [[2, "oewn-00014735-v"], [10, "oewn-02696550-v"]]
+    oewn_key: [[2, "oewn-00014735-v"], [10, "oewn-02696550-v"]]
     paragraph: '15'
     pos: ["DT", "NN", "VBD", "RB", "IN", "PRP", ",", "CC", "DT", "NN", "VBD", "IN", "DT", "NN", "CC", "RB", "DT", "NN", "."]
     text: ' The cemetery slumbered just behind it, and the way lay through the village and close_to
@@ -497,7 +497,7 @@ pEHX:
     wn30_key: [[2, "slumber%2:29:00::"], [10, "lie%2:42:00::"]]
 ZqEJ:
     lemmas: ["for_the_first_time", "in", "thirty", "years", ",", "Henrietta", "walk", "down", "the", "narrow", "street", "with", "its", "shuttered", "shop", "just", "stir", "and", "its", "inhabitant", "eye", "her", "with", "the", "frank", "curiosity", "."]
-    oewn2026_key: [[6, "oewn-01908923-v"], [16, "oewn-01897981-v"], [20, "oewn-02171496-v"]]
+    oewn_key: [[6, "oewn-01908923-v"], [16, "oewn-01897981-v"], [20, "oewn-02171496-v"]]
     paragraph: '15'
     pos: ["RB", "IN", "CD", "NNS", ",", "NNP", "VBD", "RB", "DT", "JJ", "NN", "IN", "PRP$", "JJ", "NNS", "RB", "VBG", "CC", "PRP$", "NNS", "VBG", "PRP", "IN", "DT", "JJS", "NN", "."]
     text: ' For_the_first_time in thirty years, Henrietta walked down the narrow street with
@@ -508,7 +508,7 @@ ZqEJ:
     wn30_key: [[6, "walk%2:38:00::"], [16, "stir%2:38:00::"], [20, "eye%2:39:00::"]]
 UANV:
     lemmas: ["She", "smile", "and", "bow", ",", "recall", "the", "princess-in-a-carriage", "feeling", "she", "have", "enjoy", "when", "she", "be", "a", "child", "."]
-    oewn2026_key: [[1, "oewn-00028558-v"], [3, "oewn-00900454-v"], [5, "oewn-00609334-v"], [11, "oewn-01824240-v"], [14, "oewn-02622439-v"]]
+    oewn_key: [[1, "oewn-00028558-v"], [3, "oewn-00900454-v"], [5, "oewn-00609334-v"], [11, "oewn-01824240-v"], [14, "oewn-02622439-v"]]
     paragraph: '15'
     pos: ["PRP", "VBD", "CC", "VBD", ",", "VBG", "DT", "NN", "NN", "PRP", "VBD", "VBN", "WRB", "PRP", "VBD", "DT", "NN", "."]
     text: ' She smiled and bowed, recalling the princess-in-a-carriage feeling she had enjoyed
@@ -518,7 +518,7 @@ UANV:
     wn30_key: [[1, "smile%2:29:00::"], [3, "bow%2:32:00::"], [5, "recall%2:31:00::"], [11, "enjoy%2:37:00::"], [14, "be%2:42:06::"]]
 8Xin:
     lemmas: ["now", ",", "some", "of", "the", "acknowledgment", "be", "cautious", ",", "but", "all", "be", "interested", "."]
-    oewn2026_key: [[6, "oewn-02610777-v"], [11, "oewn-02610777-v"]]
+    oewn_key: [[6, "oewn-02610777-v"], [11, "oewn-02610777-v"]]
     paragraph: '15'
     pos: ["RB", ",", "DT", "IN", "DT", "NNS", "VBD", "JJ", ",", "CC", "DT", "VBD", "JJ", "."]
     text: ' Now, some of the acknowledgments were cautious, but all were interested.
@@ -529,7 +529,7 @@ UANV:
     wn30_key: [[6, "be%2:42:03::"], [11, "be%2:42:03::"]]
 UC6U:
     lemmas: ["An", "old_man", ",", "sit", "against", "the", "wall", "of", "a", "cottage", "and", "wait", "for", "the", "sun", "to", "find", "him", ",", "give", "her", "a", "more_than", "reflective", "look", "as", "she", "pass", ",", "the", "sap", "still", "plainly", "rise", "in", "his", "branch", "."]
-    oewn2026_key: [[3, "oewn-01545905-v"], [11, "oewn-02644022-v"], [16, "oewn-02253273-v"], [19, "oewn-01062189-v"], [27, "oewn-02054081-v"], [33, "oewn-01972576-v"]]
+    oewn_key: [[3, "oewn-01545905-v"], [11, "oewn-02644022-v"], [16, "oewn-02253273-v"], [19, "oewn-01062189-v"], [27, "oewn-02054081-v"], [33, "oewn-01972576-v"]]
     paragraph: '16'
     pos: ["DT", "NN", ",", "VBG", "IN", "DT", "NN", "IN", "DT", "NN", "CC", "VBG", "VB", "DT", "NN", "TO", "VB", "PRP", ",", "VBD", "PRP$", "DT", "RB", "JJ", "NN", "IN", "PRP", "VBD", ",", "DT", "NN", "RB", "RB", "VBG", "IN", "PRP$", "NNS", "."]
     text: ' An old_man, sitting against the wall of a cottage and waiting for the sun to find
@@ -540,7 +540,7 @@ UC6U:
     wn30_key: [[3, "sit%2:35:00::"], [11, "wait%2:42:00::"], [16, "find%2:40:02::"], [19, "give%2:32:00::"], [27, "pass%2:38:00::"], [33, "rise%2:38:00::"]]
 1Oou:
     lemmas: ["On", "an", "impulse", ",", "she", "turn", "back", "and", "say", "good_morning", "."]
-    oewn2026_key: [[5, "oewn-01911251-v"], [8, "oewn-01011267-v"]]
+    oewn_key: [[5, "oewn-01911251-v"], [8, "oewn-01011267-v"]]
     paragraph: '16'
     pos: ["IN", "DT", "NN", ",", "PRP", "VBD", "RB", "CC", "VBD", "NN", "."]
     text: ' On an impulse, she turned back and said good_morning.
@@ -551,7 +551,7 @@ UC6U:
     wn30_key: [[5, "turn%2:38:00::"], [8, "say%2:32:00::"]]
 k5OJ:
     lemmas: ["He", "cup", "his", "ear", "and", "shake", "his", "head", "at", "her", "repetition", ",", "announce", "in", "a", "nettled", "way", "that", "he", "have", "hear", "her", "the", "first", "time", "."]
-    oewn2026_key: [[1, "oewn-00478759-v"], [5, "oewn-01893603-v"], [12, "oewn-00976399-v"], [20, "oewn-02174146-v"]]
+    oewn_key: [[1, "oewn-00478759-v"], [5, "oewn-01893603-v"], [12, "oewn-00976399-v"], [20, "oewn-02174146-v"]]
     paragraph: '17'
     pos: ["PRP", "VBD", "PRP$", "NN", "CC", "VBD", "PRP$", "NN", "IN", "PRP$", "NN", ",", "VBG", "IN", "DT", "JJ", "NN", "IN", "PRP", "VBD", "VBN", "PRP$", "DT", "JJ", "NN", "."]
     text: ' He cupped his ear and shook his head at her repetition, announcing in a nettled
@@ -561,7 +561,7 @@ k5OJ:
     wn30_key: [[1, "cup%2:30:00::"], [5, "shake%2:38:00::"], [12, "announce%2:32:00::"], [20, "hear%2:39:00::"]]
 FRT9:
     lemmas: ["He", "then", "offer", "his", "own", "estimate", "of", "the", "weather", ",", "which", "be", "unenthusiastic", "."]
-    oewn2026_key: [[2, "oewn-02332196-v"], [11, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-02332196-v"], [11, "oewn-02610777-v"]]
     paragraph: '17'
     pos: ["PRP", "RB", "VBD", "PRP$", "JJ", "NN", "IN", "DT", "NN", ",", "WDT", "VBD", "JJ", "."]
     text: ' He then offered his own estimate of the weather, which was unenthusiastic.'
@@ -570,7 +570,7 @@ FRT9:
     wn30_key: [[2, "offer%2:40:02::"], [11, "be%2:42:03::"]]
 1HH5:
     lemmas: ["\"", "summer", "'s", "be", "slow", "to", "come", "\"", ",", "he", "say", "."]
-    oewn2026_key: [[3, "oewn-02610777-v"], [6, "oewn-02009962-v"], [10, "oewn-01011267-v"]]
+    oewn_key: [[3, "oewn-02610777-v"], [6, "oewn-02009962-v"], [10, "oewn-01011267-v"]]
     paragraph: '17'
     pos: ["``", "NN", "POS", "VBN", "JJ", "TO", "VB", "``", ",", "PRP", "VBD", "."]
     text: ' " Summer''s been slow to come ", he said.'
@@ -579,7 +579,7 @@ FRT9:
     wn30_key: [[3, "be%2:42:03::"], [6, "come%2:38:04::"], [10, "say%2:32:00::"]]
 ocvY:
     lemmas: ["\"", "It", "be", "my", "dryin_'_out", "time", "\"", "."]
-    oewn2026_key: [[2, "oewn-02622439-v"]]
+    oewn_key: [[2, "oewn-02622439-v"]]
     paragraph: '17'
     pos: ["``", "PRP", "VBZ", "PRP$", "JJ", "NN", "''", "."]
     text: ' " It''s my dryin_''_out time ".'
@@ -588,7 +588,7 @@ ocvY:
     wn30_key: [[2, "be%2:42:06::"]]
 QHGs:
     lemmas: ["He", "scowl", "at", "her", "flower", "."]
-    oewn2026_key: [[1, "oewn-00033845-v"]]
+    oewn_key: [[1, "oewn-00033845-v"]]
     paragraph: '17'
     pos: ["PRP", "VBD", "IN", "PRP$", "NNS", "."]
     text: ' He scowled at her flowers.
@@ -599,7 +599,7 @@ QHGs:
     wn30_key: [[1, "scowl%2:29:00::"]]
 /SE6:
     lemmas: ["\"", "I", "'m", "take", "them", "to", "the", "cemetery", "\"", ",", "say", "Henrietta", ",", "out", "of", "a", "vague", "feeling", "of", "hospitality", "."]
-    oewn2026_key: [[3, "oewn-02003830-v"], [10, "oewn-01011267-v"]]
+    oewn_key: [[3, "oewn-02003830-v"], [10, "oewn-01011267-v"]]
     paragraph: '18'
     pos: ["``", "PRP", "VBP", "VBG", "PRP", "TO", "DT", "NN", "''", ",", "VBD", "NNP", ",", "IN", "IN", "DT", "JJ", "NN", "IN", "NN", "."]
     text: ' " I''m taking them to the cemetery ", said Henrietta, out of a vague feeling of
@@ -611,7 +611,7 @@ QHGs:
     wn30_key: [[3, "take%2:38:09::"], [10, "say%2:32:00::"]]
 LqT7:
     lemmas: ["\"", "They", "'ll", "be", "take", "'", "me", "next", "\"", ",", "he", "say", "pleasantly", ",", "\"", "but", "not", "so", "soon", "'s", "they", "plan", "."]
-    oewn2026_key: [[4, "oewn-02003830-v"], [11, "oewn-01011267-v"], [21, "oewn-00706993-v"]]
+    oewn_key: [[4, "oewn-02003830-v"], [11, "oewn-01011267-v"], [21, "oewn-00706993-v"]]
     paragraph: '19'
     pos: ["``", "PRP", "MD", "VB", "VBN", "''", "PRP", "JJ", "''", ",", "PRP", "VBD", "RB", ",", "''", "CC", "RB", "RB", "RB", "POS", "PRP", "VBP", "."]
     text: ' " They''ll be takin'' me next ", he said pleasantly, " but not so soon''s they plan.'
@@ -620,7 +620,7 @@ LqT7:
     wn30_key: [[4, "take%2:38:09::"], [11, "say%2:32:00::"], [21, "plan%2:31:01::"]]
 Q+Wv:
     lemmas: ["see", "half", "of", "'", "em", "in", "their", "graves", "before", "I", "choose", "my", "own", "coffin", "."]
-    oewn2026_key: [[0, "oewn-02133338-v"], [10, "oewn-00676526-v"]]
+    oewn_key: [[0, "oewn-02133338-v"], [10, "oewn-00676526-v"]]
     paragraph: '19'
     pos: ["VB", "NN", "IN", "''", "PRP", "IN", "PRP$", "NNS", "IN", "PRP", "VBP", "PRP$", "JJ", "NN", "."]
     text: ' See half of'' em in their graves before I choose my own coffin.'
@@ -629,7 +629,7 @@ Q+Wv:
     wn30_key: [[0, "see%2:39:02::"], [10, "choose%2:31:00::"]]
 75MQ:
     lemmas: ["It", "'s", "dry_out", "'", "myself", "out", "that", "do_it", "\"", "."]
-    oewn2026_key: [[2, "oewn-00219829-v"]]
+    oewn_key: [[2, "oewn-00219829-v"]]
     paragraph: '19'
     pos: ["PRP", "VBZ", "VB", "''", "PRP", "IN", "IN", "VB", "''", "."]
     text: ' It''s dryin'' myself out that does_it ".'
@@ -638,7 +638,7 @@ Q+Wv:
     wn30_key: [[2, "dry_out%2:30:00::"]]
 CvE8:
     lemmas: ["He", "regard", "her", "with", "rise", "hope", "."]
-    oewn2026_key: [[1, "oewn-02137650-v"], [4, "oewn-00154951-v"]]
+    oewn_key: [[1, "oewn-02137650-v"], [4, "oewn-00154951-v"]]
     paragraph: '19'
     pos: ["PRP", "VBD", "PRP", "IN", "VBG", "NN", "."]
     text: ' He regarded her with rising hope.'
@@ -647,7 +647,7 @@ CvE8:
     wn30_key: [[1, "regard%2:39:00::"], [4, "rise%2:30:00::"]]
 IEXa:
     lemmas: ["\"", "You", "'d", "like", "to", "hear", "how", "I", "go_about", "it", "\"", "."]
-    oewn2026_key: [[5, "oewn-00600349-v"], [8, "oewn-02444146-v"]]
+    oewn_key: [[5, "oewn-00600349-v"], [8, "oewn-02444146-v"]]
     paragraph: '19'
     pos: ["``", "PRP", "MD", "IN", "TO", "VB", "WRB", "PRP", "VBP", "PRP", "``", "."]
     text: ' " You''d like to hear how I go_about it ".
@@ -658,7 +658,7 @@ IEXa:
     wn30_key: [[5, "hear%2:31:00::"], [8, "go_about%2:41:00::"]]
 EsVj:
     lemmas: ["\"", "It", "'s", "nice", "of", "you", "\"", ",", "Henrietta", "say", "doubtfully", "."]
-    oewn2026_key: [[9, "oewn-01011267-v"]]
+    oewn_key: [[9, "oewn-01011267-v"]]
     paragraph: '20'
     pos: ["``", "PRP", "VBZ", "JJ", "IN", "PRP", "``", ",", "NNP", "VBD", "RB", "."]
     text: ' " It''s nice of you ", Henrietta said doubtfully.
@@ -669,7 +669,7 @@ EsVj:
     wn30_key: [[9, "say%2:32:00::"]]
 Qraz:
     lemmas: ["\"", "y", "be", "welcome", "\"", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-02610777-v"]]
     paragraph: '21'
     pos: ["``", "NN", "VBP", "JJ", "''", "."]
     text: ' " Y''re welcome ".'
@@ -678,7 +678,7 @@ Qraz:
     wn30_key: [[2, "be%2:42:03::"]]
 kxJv:
     lemmas: ["He", "straighten", "himself", ",", "soldierly", "against", "the", "wall", ",", "and", "pull", "his", "sprawled", "foot", "together", "so", "they", "stand", "side_by_side", "in", "their", "old", "boot", "."]
-    oewn2026_key: [[1, "oewn-01986058-v"], [10, "oewn-01450719-v"], [17, "oewn-02617408-v"]]
+    oewn_key: [[1, "oewn-01986058-v"], [10, "oewn-01450719-v"], [17, "oewn-02617408-v"]]
     paragraph: '21'
     pos: ["PRP", "VBD", "PRP", ",", "RB", "IN", "DT", "NN", ",", "CC", "VBD", "PRP$", "JJ", "NNS", "RB", "RB", "PRP", "VBD", "JJ", "IN", "PRP$", "JJ", "NNS", "."]
     text: ' He straightened himself, soldierly against the wall, and pulled his sprawled feet
@@ -688,7 +688,7 @@ kxJv:
     wn30_key: [[1, "straighten%2:38:01::"], [10, "pull%2:35:00::"], [17, "stand%2:42:04::"]]
 IZ/x:
     lemmas: ["His", "stick", "cease", "to", "be", "a", "thing", "to", "rest", "his", "chin", "on", "and", "become", "a", "pointer", "for", "emphasize", "the", "finer", "aspect", "of", "his", "text", "."]
-    oewn2026_key: [[2, "oewn-02686624-v"], [4, "oewn-02622439-v"], [8, "oewn-01546513-v"], [13, "oewn-02632685-v"], [17, "oewn-01015376-v"]]
+    oewn_key: [[2, "oewn-02686624-v"], [4, "oewn-02622439-v"], [8, "oewn-01546513-v"], [13, "oewn-02632685-v"], [17, "oewn-01015376-v"]]
     paragraph: '21'
     pos: ["PRP$", "NN", "VBD", "TO", "VB", "DT", "NN", "TO", "VB", "PRP$", "NN", "RB", "CC", "VBD", "DT", "NN", "IN", "VBG", "DT", "JJR", "NNS", "IN", "PRP$", "NN", "."]
     text: ' His stick ceased to be a thing to rest his chin on and became a pointer for emphasizing
@@ -698,7 +698,7 @@ IZ/x:
     wn30_key: [[2, "cease%2:42:00::"], [4, "be%2:42:06::"], [8, "rest%2:35:01::"], [13, "become%2:42:01::"], [17, "emphasize%2:32:00::"]]
 oK/B:
     lemmas: ["\"", "Every_month", ",", "f", "'", "r", "three", "days", "\"", ",", "he", "say", "happily", ",", "\"", "I", "take", "no", "water", "into", "my", "system", ",", "no", "water", "whatsoever", "."]
-    oewn2026_key: [[11, "oewn-01011267-v"], [16, "oewn-01159300-v"]]
+    oewn_key: [[11, "oewn-01011267-v"], [16, "oewn-01159300-v"]]
     paragraph: '21'
     pos: ["``", "RB", ",", "NN", "POS", "NN", "CD", "NNS", "''", ",", "PRP", "VBD", "RB", ",", "``", "PRP", "VBP", "DT", "NN", "IN", "PRP$", "NN", ",", "DT", "NN", "RB", "."]
     text: ' " Every_month, f'' r three days ", he said happily, " I take no water into my system,
@@ -708,7 +708,7 @@ oK/B:
     wn30_key: [[11, "say%2:32:00::"], [16, "take%2:34:00::"]]
 fW1g:
     lemmas: ["It", "rest", "the", "tissue", "\"", "."]
-    oewn2026_key: [[1, "oewn-00781646-v"]]
+    oewn_key: [[1, "oewn-00781646-v"]]
     paragraph: '21'
     pos: ["PRP", "VBZ", "DT", "NNS", "``", "."]
     text: ' It rests the tissues ".
@@ -719,7 +719,7 @@ fW1g:
     wn30_key: [[1, "rest%2:32:01::"]]
 bUJg:
     lemmas: ["Henrietta", "murmur", "that", "she", "could", "quite", "see", "how", "it", "would", ",", "and", "he", "nod", "approval", "of", "her", "womanly", "good_sense", "."]
-    oewn2026_key: [[1, "oewn-01045986-v"], [6, "oewn-00592510-v"], [13, "oewn-00900197-v"]]
+    oewn_key: [[1, "oewn-01045986-v"], [6, "oewn-00592510-v"], [13, "oewn-00900197-v"]]
     paragraph: '22'
     pos: ["NNP", "VBD", "IN", "PRP", "MD", "RB", "VB", "WRB", "PRP", "MD", ",", "CC", "PRP", "VBD", "NN", "IN", "PRP$", "JJ", "NN", "."]
     text: ' Henrietta murmured that she could quite see how it would, and he nodded approval
@@ -729,7 +729,7 @@ bUJg:
     wn30_key: [[1, "murmur%2:32:00::"], [6, "see%2:31:01::"], [13, "nod%2:32:01::"]]
 EWVJ:
     lemmas: ["\"", "rest", "the", "tissue", "\"", ",", "he", "say", ",", "\"", "and", "pacify", "the", "system", "."]
-    oewn2026_key: [[1, "oewn-00781646-v"], [7, "oewn-01011267-v"], [11, "oewn-01769244-v"]]
+    oewn_key: [[1, "oewn-00781646-v"], [7, "oewn-01011267-v"], [11, "oewn-01769244-v"]]
     paragraph: '22'
     pos: ["``", "VBZ", "DT", "NNS", "``", ",", "PRP", "VBD", ",", "''", "CC", "VBZ", "DT", "NN", "."]
     text: ' " Rests the tissues ", he said, " and pacifies the system.'
@@ -738,7 +738,7 @@ EWVJ:
     wn30_key: [[1, "rest%2:32:01::"], [7, "say%2:32:00::"], [11, "pacify%2:37:00::"]]
 BM7F:
     lemmas: ["My", "dad", "do_it", ",", "and", "he", "live", "to", "a", "great", "age", "\"", "."]
-    oewn2026_key: [[6, "oewn-02624202-v"]]
+    oewn_key: [[6, "oewn-02624202-v"]]
     paragraph: '22'
     pos: ["PRP$", "NN", "VB", ",", "CC", "PRP", "VBD", "TO", "DT", "JJ", "NN", "''", "."]
     text: ' My dad did_it, and he lived to a great age ".'
@@ -747,7 +747,7 @@ BM7F:
     wn30_key: [[6, "live%2:42:04::"]]
 mrSW:
     lemmas: ["He", "look", "up", "at", "her", "sharply", "."]
-    oewn2026_key: [[1, "oewn-02134989-v"]]
+    oewn_key: [[1, "oewn-02134989-v"]]
     paragraph: '22'
     pos: ["PRP", "VBD", "RB", "IN", "PRP$", "RB", "."]
     text: ' He looked up at her sharply.'
@@ -756,7 +756,7 @@ mrSW:
     wn30_key: [[1, "look%2:39:00::"]]
 HbVR:
     lemmas: ["\"", "do", "n't", "remember", ",", "do", "you", "\"", "?"]
-    oewn2026_key: [[3, "oewn-00609334-v"]]
+    oewn_key: [[3, "oewn-00609334-v"]]
     paragraph: '22'
     pos: ["``", "VB", "RB", "VB", ",", "VBP", "PRP", "``", "."]
     text: ' " Don''t remember, do you "?
@@ -767,7 +767,7 @@ HbVR:
     wn30_key: [[3, "remember%2:31:00::"]]
 LuRf:
     lemmas: ["She", "do", "suddenly", ",", "through", "the", "link", "of", "memory", "with", "his", "father", ",", "old", "titus", ",", "who", "must", "have", "be", "in", "his", "nineties", "when", "Henrietta", "run_away", "."]
-    oewn2026_key: [[19, "oewn-02610777-v"], [25, "oewn-02079296-v"]]
+    oewn_key: [[19, "oewn-02610777-v"], [25, "oewn-02079296-v"]]
     paragraph: '23'
     pos: ["PRP", "VBD", "RB", ",", "IN", "DT", "NN", "IN", "NN", "IN", "PRP$", "NN", ",", "JJ", "NNP", ",", "WP", "MD", "VB", "VBN", "IN", "PRP$", "NNS", "WRB", "NNP", "VB", "."]
     text: ' She did suddenly, through the link of memory with his father, old Titus, who must
@@ -777,7 +777,7 @@ LuRf:
     wn30_key: [[19, "be%2:42:03::"], [25, "run_away%2:38:00::"]]
 WD7V:
     lemmas: ["next", "to", "the", "blackwell", ",", "titus", "have", "own", "the", "island", "most", ",", "and", "she", "and", "Adelia", "have", "often", "stand", "in", "front", "of", "him", ",", "silence", "by", "his", "terrible", "years", "-", "a", "scanty", "man", "with", "a", "thin", "beard", "and", "very", "deep-set", "blue", "eyes", "like", "a", "mariner", ",", "more", "aged", "than", "possible", "."]
-    oewn2026_key: [[7, "oewn-02209474-v"], [18, "oewn-02740363-v"], [24, "oewn-00462448-v"]]
+    oewn_key: [[7, "oewn-02209474-v"], [18, "oewn-02740363-v"], [24, "oewn-00462448-v"]]
     paragraph: '23'
     pos: ["JJ", "TO", "DT", "NNPS", ",", "NNP", "VBD", "VBN", "DT", "NN", "RBS", ",", "CC", "PRP", "CC", "NNP", "VBD", "RB", "VBN", "VB", "NN", "IN", "PRP", ",", "VBN", "IN", "PRP$", "JJ", "NNS", ":", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "CC", "RB", "JJ", "JJ", "NNS", "IN", "DT", "NN", ",", "RBR", "JJ", "IN", "JJ", "."]
     text: ' Next to the Blackwells, Titus had owned the island most, and she and Adelia had
@@ -788,7 +788,7 @@ WD7V:
     wn30_key: [[7, "own%2:40:00::"], [18, "stand%2:42:03::"], [24, "silence%2:30:00::"]]
 clHC:
     lemmas: ["He", "have", "never", "speak", "once", "to", "the", "awed", "sister", ",", "but", "his", "son", "have", "be", "friendly", ",", "a", "big", "fellow", "of", "fifty", "or", "more", ",", "a", "fishing-boat", "captain", "and", "powerful", "like", "the", "sea", "."]
-    oewn2026_key: [[3, "oewn-00944022-v"], [14, "oewn-02610777-v"]]
+    oewn_key: [[3, "oewn-00944022-v"], [14, "oewn-02610777-v"]]
     paragraph: '23'
     pos: ["PRP", "VBD", "RB", "VBN", "RB", "TO", "DT", "JJ", "NNS", ",", "CC", "PRP$", "NN", "VBD", "VBN", "JJ", ",", "DT", "JJ", "NN", "IN", "CD", "CC", "JJR", ",", "DT", "NN", "NN", "CC", "JJ", "IN", "DT", "NN", "."]
     text: ' He had never spoken once to the awed sisters, but his son had been friendly, a big
@@ -798,7 +798,7 @@ clHC:
     wn30_key: [[3, "speak%2:32:00::"], [14, "be%2:42:03::"]]
 ZORr:
     lemmas: ["It", "must", "be", "that", "son", "who", "sit", "before", "her", "now", ",", "shriveled", "to", "half", "his", "size", "and", "half", "his", "sense", "."]
-    oewn2026_key: [[2, "oewn-02622439-v"], [6, "oewn-01545905-v"]]
+    oewn_key: [[2, "oewn-02622439-v"], [6, "oewn-01545905-v"]]
     paragraph: '23'
     pos: ["PRP", "MD", "VB", "IN", "NN", "WP", "VBD", "IN", "PRP$", "RB", ",", "JJ", "TO", "JJ", "PRP$", "NN", "CC", "JJ", "PRP$", "NNS", "."]
     text: ' It must be that son who sat before her now, shriveled to half his size and half
@@ -810,7 +810,7 @@ ZORr:
     wn30_key: [[2, "be%2:42:06::"], [6, "sit%2:35:00::"]]
 BJQH:
     lemmas: ["She", "say", "gently", ",", "\"", "of_course", "I", "remember", "you", "\"", "."]
-    oewn2026_key: [[1, "oewn-01011267-v"], [7, "oewn-00609334-v"]]
+    oewn_key: [[1, "oewn-01011267-v"], [7, "oewn-00609334-v"]]
     paragraph: '24'
     pos: ["PRP", "VBD", "RB", ",", "``", "RB", "PRP", "VBP", "PRP", "``", "."]
     text: ' She said gently, " Of_course I remember you ".
@@ -821,7 +821,7 @@ BJQH:
     wn30_key: [[1, "say%2:32:00::"], [7, "remember%2:31:00::"]]
 baiG:
     lemmas: ["\"", "not", "so", "well", "'s", "I", "remember", "you", "\"", ",", "he", "say", "."]
-    oewn2026_key: [[6, "oewn-00609334-v"], [11, "oewn-01011267-v"]]
+    oewn_key: [[6, "oewn-00609334-v"], [11, "oewn-01011267-v"]]
     paragraph: '25'
     pos: ["``", "RB", "RB", "RB", "POS", "PRP", "VBP", "PRP", "``", ",", "PRP", "VBD", "."]
     text: ' " Not so well''s I remember you ", he said.'
@@ -830,7 +830,7 @@ baiG:
     wn30_key: [[6, "remember%2:31:00::"], [11, "say%2:32:00::"]]
 Jodg:
     lemmas: ["\"", "y", "be", "the", "young", "Blackwell", "woman", "."]
-    oewn2026_key: [[2, "oewn-02622439-v"]]
+    oewn_key: [[2, "oewn-02622439-v"]]
     paragraph: '25'
     pos: ["``", "NN", "VBP", "DT", "JJ", "NNP", "NN", "."]
     text: ' " Y''re the young Blackwell woman.'
@@ -839,7 +839,7 @@ Jodg:
     wn30_key: [[2, "be%2:42:06::"]]
 J8Nj:
     lemmas: ["run_away", "on", "a", "black", "night", "with", "a", "lawful", "wedded", "man", "."]
-    oewn2026_key: [[0, "oewn-02079296-v"]]
+    oewn_key: [[0, "oewn-02079296-v"]]
     paragraph: '25'
     pos: ["VB", "IN", "DT", "JJ", "NN", "IN", "DT", "JJ", "JJ", "NN", "."]
     text: ' Ran_away on a black night with a lawful wedded man.'
@@ -848,7 +848,7 @@ J8Nj:
     wn30_key: [[0, "run_away%2:38:00::"]]
 HIpr:
     lemmas: ["I", "know", "all", "about", "you", "\"", "."]
-    oewn2026_key: [[1, "oewn-00597330-v"]]
+    oewn_key: [[1, "oewn-00597330-v"]]
     paragraph: '25'
     pos: ["PRP", "VBP", "DT", "IN", "PRP", "``", "."]
     text: ' I know all about you ".
@@ -859,7 +859,7 @@ HIpr:
     wn30_key: [[1, "know%2:31:03::"]]
 qgA8:
     lemmas: ["\"", "You", "do", "seem", "to", "\"", ",", "say", "Henrietta", ",", "impressed", "."]
-    oewn2026_key: [[3, "oewn-02137900-v"], [7, "oewn-01011267-v"]]
+    oewn_key: [[3, "oewn-02137900-v"], [7, "oewn-01011267-v"]]
     paragraph: '26'
     pos: ["``", "PRP", "VBP", "VB", "TO", "``", ",", "VBD", "NNP", ",", "JJ", "."]
     text: ' " You do seem to ", said Henrietta, impressed.
@@ -870,7 +870,7 @@ qgA8:
     wn30_key: [[3, "seem%2:39:00::"], [7, "say%2:32:00::"]]
 qZOs:
     lemmas: ["\"", "Ca", "n't", "blame", "a", "man", "for", "leave", "'", "his", "wife", "\"", ",", "he", "say", "quite", "cheerfully", "."]
-    oewn2026_key: [[3, "oewn-00844451-v"], [7, "oewn-00615374-v"], [14, "oewn-01011267-v"]]
+    oewn_key: [[3, "oewn-00844451-v"], [7, "oewn-00615374-v"], [14, "oewn-01011267-v"]]
     paragraph: '27'
     pos: ["``", "MD", "RB", "VB", "DT", "NN", "IN", "VB", "''", "PRP$", "NN", "''", ",", "PRP", "VBD", "RB", "RB", "."]
     text: ' " Can''t blame a man for leavin'' his wife ", he said quite cheerfully.'
@@ -879,7 +879,7 @@ qZOs:
     wn30_key: [[3, "blame%2:32:01::"], [7, "leave%2:31:05::"], [14, "say%2:32:00::"]]
 8IGH:
     lemmas: ["\"", "leave", "mine", "many_a", "time", ",", "only", "she", "never", "know", "it", "."]
-    oewn2026_key: [[1, "oewn-00615374-v"], [9, "oewn-00596016-v"]]
+    oewn_key: [[1, "oewn-00615374-v"], [9, "oewn-00596016-v"]]
     paragraph: '27'
     pos: ["``", "VBN", "NN", "JJ", "NN", ",", "RB", "PRP", "RB", "VBD", "PRP", "."]
     text: ' " Left mine many_a time, only she never knew it.'
@@ -888,7 +888,7 @@ qZOs:
     wn30_key: [[1, "leave%2:31:05::"], [9, "know%2:31:01::"]]
 ZdOS:
     lemmas: ["man", "in", "a", "boat", ",", "there", "'s", "a_lot_of", "place", "he", "can", "put_in", "at", "and", "a_lot_of", "reason", "he", "can", "be", "away", "for", "a_bit", "."]
-    oewn2026_key: [[11, "oewn-01075052-v"], [18, "oewn-02610777-v"]]
+    oewn_key: [[11, "oewn-01075052-v"], [18, "oewn-02610777-v"]]
     paragraph: '27'
     pos: ["NN", "IN", "DT", "NN", ",", "EX", "VBZ", "JJ", "NNS", "PRP", "MD", "VB", "RB", "CC", "JJ", "NNS", "PRP", "MD", "VB", "RB", "IN", "RB", "."]
     text: ' Man in a boat, there''s a_lot_of places he can put_in at and a_lot_of reasons he
@@ -898,7 +898,7 @@ ZdOS:
     wn30_key: [[11, "put_in%2:33:00::"], [18, "be%2:42:03::"]]
 jST7:
     lemmas: ["Any", "harm", "in_that", "\"", "?"]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '27'
     pos: ["DT", "NN", "RB", "''", "."]
     text: ' Any harm in_that "?
@@ -909,7 +909,7 @@ jST7:
     wn30_key: []
 +Xll:
     lemmas: ["\"", "probably", "\"", ",", "say", "Henrietta", "dryly", "."]
-    oewn2026_key: [[4, "oewn-01011267-v"]]
+    oewn_key: [[4, "oewn-01011267-v"]]
     paragraph: '28'
     pos: ["``", "RB", "''", ",", "VBD", "NNP", "RB", "."]
     text: ' " Probably ", said Henrietta dryly.
@@ -920,7 +920,7 @@ jST7:
     wn30_key: [[4, "say%2:32:00::"]]
 F3N+:
     lemmas: ["He", "give", "a", "short", "hard", "laugh", "and", "look", "at", "her", "knowingly", "."]
-    oewn2026_key: [[1, "oewn-02568816-v"], [7, "oewn-02134989-v"]]
+    oewn_key: [[1, "oewn-02568816-v"], [7, "oewn-02134989-v"]]
     paragraph: '29'
     pos: ["PRP", "VBD", "DT", "JJ", "JJ", "NN", "CC", "VBD", "VB", "PRP$", "RB", "."]
     text: ' He gave a short hard laugh and looked at her knowingly.'
@@ -929,7 +929,7 @@ F3N+:
     wn30_key: [[1, "give%2:41:00::"], [7, "look%2:39:00::"]]
 QcRY:
     lemmas: ["\"", "You", "'d", "be", "the", "one", "to", "say", "\"", ",", "he", "observe", ",", "and", "she", "find", "herself", "like", "his", "approval", "none", "too", "well", ",", "but", "she", "could", "not", "defend", "herself", "and", "say", "that", "her", "action", "be", "\"", "different", "\"", ",", "since", "all", "action", "have", "their", "own", "laws", "."]
-    oewn2026_key: [[3, "oewn-02622439-v"], [7, "oewn-01011267-v"], [11, "oewn-02123398-v"], [15, "oewn-02133338-v"], [17, "oewn-01781131-v"], [28, "oewn-00896689-v"], [31, "oewn-01018011-v"], [35, "oewn-02610777-v"], [43, "oewn-02636270-v"]]
+    oewn_key: [[3, "oewn-02622439-v"], [7, "oewn-01011267-v"], [11, "oewn-02123398-v"], [15, "oewn-02133338-v"], [17, "oewn-01781131-v"], [28, "oewn-00896689-v"], [31, "oewn-01018011-v"], [35, "oewn-02610777-v"], [43, "oewn-02636270-v"]]
     paragraph: '29'
     pos: ["``", "PRP", "MD", "VB", "DT", "CD", "TO", "VB", "``", ",", "PRP", "VBD", ",", "CC", "PRP", "VBD", "PRP", "VBG", "PRP$", "NN", "NN", "RB", "RB", ",", "CC", "PRP", "MD", "RB", "VB", "PRP", "CC", "VB", "IN", "PRP$", "NNS", "VBD", "``", "JJ", "''", ",", "IN", "DT", "NNS", "VBD", "PRP$", "JJ", "NNS", "."]
     text: ' " You''d be the one to say ", he observed, and she found herself liking his approval
@@ -940,7 +940,7 @@ QcRY:
     wn30_key: [[3, "be%2:42:06::"], [7, "say%2:32:00::"], [11, "observe%2:39:01::"], [15, "find%2:39:01::"], [17, "like%2:37:05::"], [28, "defend%2:32:00::"], [31, "say%2:32:01::"], [35, "be%2:42:03::"], [43, "have%2:42:00::"]]
 TnRp:
     lemmas: ["only", ",", "this", "old_man", "'s", "connivance", "be", "even_less", "to", "her", "taste", "than", "selma_cotter", "'s", "open", "censure", "."]
-    oewn2026_key: [[6, "oewn-02610777-v"]]
+    oewn_key: [[6, "oewn-02610777-v"]]
     paragraph: '29'
     pos: ["RB", ",", "DT", "NN", "POS", "NN", "VBD", "RB", "TO", "PRP$", "NN", "IN", "NNP", "POS", "JJ", "NN", "."]
     text: ' Only, this old_man''s connivance was even_less to her taste than Selma_Cotter''s
@@ -950,7 +950,7 @@ TnRp:
     wn30_key: [[6, "be%2:42:03::"]]
 8g5s:
     lemmas: ["Well", ",", "she", "have", "not", "come_back", "to", "great_island", "to", "be", "understand", ",", "praise", "or", "condemn", "."]
-    oewn2026_key: [[10, "oewn-00595453-v"], [12, "oewn-00858506-v"], [14, "oewn-00865823-v"]]
+    oewn_key: [[10, "oewn-00595453-v"], [12, "oewn-00858506-v"], [14, "oewn-00865823-v"]]
     paragraph: '29'
     pos: ["UH", ",", "PRP", "VBD", "RB", "VB", "VB", "NNP", "TO", "VB", "VBN", ",", "VBN", "CC", "VBN", "."]
     text: ' Well, she had not come_back to Great_Island to be understood, praised or condemned.'
@@ -959,7 +959,7 @@ TnRp:
     wn30_key: [[10, "understand%2:31:04::"], [12, "praise%2:32:00::"], [14, "condemn%2:32:00::"]]
 TEKj:
     lemmas: ["She", "have", "come", "to", "make_peace", "her", "peace", "with", "the", "past", ",", "and", "of_that", "past", "this", "ancient", "of", "the", "earth", "be", "only", "a", "kind_of", "shadow", "."]
-    oewn2026_key: [[2, "oewn-01853188-v"], [4, "oewn-01095998-v"], [19, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-01853188-v"], [4, "oewn-01095998-v"], [19, "oewn-02610777-v"]]
     paragraph: '29'
     pos: ["PRP", "VBD", "VBN", "VB", "VB", "PRP$", "NN", "IN", "DT", "JJ", ",", "CC", "RB", "RB", "DT", "NN", "IN", "DT", "NN", "VBD", "RB", "DT", "RB", "NN", "."]
     text: ' She had come to make her peace with the past, and of_that past this ancient of the
@@ -971,7 +971,7 @@ TEKj:
     wn30_key: [[2, "come%2:38:00::"], [4, "make_peace%2:33:00::"], [19, "be%2:42:03::"]]
 96b3:
     lemmas: ["She", "start", "to", "move", "away", ",", "just_as", "a", "woman", "come_out", "of", "the", "cottage", ",", "a", "big-boned", ",", "drab-haired", "figure", "with", "a", "clean", "apron", "tied", "over", "her", "limp", "print", "dress", "."]
-    oewn2026_key: [[1, "oewn-00346415-v"], [3, "oewn-01839438-v"], [9, "oewn-00424655-v"]]
+    oewn_key: [[1, "oewn-00346415-v"], [3, "oewn-01839438-v"], [9, "oewn-00424655-v"]]
     paragraph: '30'
     pos: ["PRP", "VBD", "TO", "VB", "RB", ",", "RB", "DT", "NN", "VB", "IN", "DT", "NN", ",", "DT", "JJ", ",", "JJ", "NN", "IN", "DT", "JJ", "NN", "JJ", "IN", "PRP$", "JJ", "NN", "NN", "."]
     text: ' She started to move away, just_as a woman came_out of the cottage, a big-boned,
@@ -981,7 +981,7 @@ TEKj:
     wn30_key: [[1, "start%2:30:00::"], [3, "move%2:38:03::"], [9, "come_out%2:30:00::"]]
 LCN8:
     lemmas: ["She", "smile", "vaguely", "at", "Henrietta", "and", "speak_to", "the", "old_man", "."]
-    oewn2026_key: [[1, "oewn-00028558-v"]]
+    oewn_key: [[1, "oewn-00028558-v"]]
     paragraph: '30'
     pos: ["PRP", "VBD", "RB", "IN", "NNP", "CC", "VB", "DT", "NN", "."]
     text: ' She smiled vaguely at Henrietta and spoke_to the old_man.'
@@ -990,7 +990,7 @@ LCN8:
     wn30_key: [[1, "smile%2:29:00::"]]
 szlF:
     lemmas: ["\"", "You", "'ve", "not", "have", "your", "breakfast", "yet", ",", "gran", "'", "dad", "\"", "."]
-    oewn2026_key: [[4, "oewn-01159300-v"]]
+    oewn_key: [[4, "oewn-01159300-v"]]
     paragraph: '30'
     pos: ["``", "PRP", "VBP", "RB", "VBN", "PRP$", "NN", "RB", ",", "NN", "POS", "NN", "''", "."]
     text: ' " You''ve not had your breakfast yet, gran'' dad ".
@@ -1001,7 +1001,7 @@ szlF:
     wn30_key: [[4, "have%2:34:00::"]]
 J1Js:
     lemmas: ["\"", "y", "'", "r", "dam", "'", "porridge", "be", "no", "breakfast", "\"", ",", "he", "say", "."]
-    oewn2026_key: [[7, "oewn-02622439-v"], [13, "oewn-01011267-v"]]
+    oewn_key: [[7, "oewn-02622439-v"], [13, "oewn-01011267-v"]]
     paragraph: '31'
     pos: ["``", "NN", "''", "NN", "NN", "''", "NN", "VBZ", "DT", "NN", "''", ",", "PRP", "VBD", "."]
     text: ' " Y'' r dam'' porridge is no breakfast ", he said.'
@@ -1010,7 +1010,7 @@ J1Js:
     wn30_key: [[7, "be%2:42:06::"], [13, "say%2:32:00::"]]
 cJ5n:
     lemmas: ["\"", "milk", "and", "sops", "\"", "!"]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '31'
     pos: ["``", "NN", "CC", "NNS", "''", "."]
     text: ' " Milk and sops "!'
@@ -1019,7 +1019,7 @@ cJ5n:
     wn30_key: []
 PYkd:
     lemmas: ["He", "beat", "the", "air", "with", "his", "stick", ",", "and", "it", "fall", "from", "his", "claw", "and", "clatter", "on", "the", "stone", "."]
-    oewn2026_key: [[1, "oewn-01884106-v"], [10, "oewn-01976312-v"], [15, "oewn-02176571-v"]]
+    oewn_key: [[1, "oewn-01884106-v"], [10, "oewn-01976312-v"], [15, "oewn-02176571-v"]]
     paragraph: '31'
     pos: ["PRP", "VBD", "DT", "NN", "IN", "PRP$", "NN", ",", "CC", "PRP", "VBD", "IN", "PRP$", "NNS", "CC", "VBN", "IN", "DT", "NNS", "."]
     text: ' He beat the air with his stick, and it fell from his claws and clattered on the
@@ -1031,7 +1031,7 @@ PYkd:
     wn30_key: [[1, "beat%2:38:00::"], [10, "fall%2:38:03::"], [15, "clatter%2:39:00::"]]
 JMnf:
     lemmas: ["\"", "He", "be", "owly", "today", "\"", ",", "his", "grand-daughter", "say", "wearily", ",", "and", "bend", "to", "pick_up", "it", "up", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"], [9, "oewn-01011267-v"], [13, "oewn-02036982-v"], [15, "oewn-01980103-v"]]
+    oewn_key: [[2, "oewn-02610777-v"], [9, "oewn-01011267-v"], [13, "oewn-02036982-v"], [15, "oewn-01980103-v"]]
     paragraph: '32'
     pos: ["``", "PRP", "VBZ", "RB", "NN", "''", ",", "PRP$", "NN", "VBD", "RB", ",", "CC", "VB", "TO", "VB", "PRP", "RB", "."]
     text: ' " He''s owly today ", his grand-daughter said wearily, and bent to pick it up.'
@@ -1040,7 +1040,7 @@ JMnf:
     wn30_key: [[2, "be%2:42:03::"], [9, "say%2:32:00::"], [13, "bend%2:38:01::"], [15, "pick_up%2:38:01::"]]
 fZqG:
     lemmas: ["\"", "He", "'s", "get", "this", "idea", "about", "dry_out", "\"", "."]
-    oewn2026_key: [[3, "oewn-02112480-v"], [7, "oewn-00219829-v"]]
+    oewn_key: [[3, "oewn-02112480-v"], [7, "oewn-00219829-v"]]
     paragraph: '32'
     pos: ["``", "PRP", "VBZ", "VBN", "DT", "NN", "IN", "VB", "''", "."]
     text: ' " He''s got this idea about drying_out ".
@@ -1051,7 +1051,7 @@ fZqG:
     wn30_key: [[3, "get%2:39:00::"], [7, "dry_out%2:30:00::"]]
 XTH4:
     lemmas: ["\"", "It", "be", "n't", "an", "idea", "\"", "!"]
-    oewn2026_key: [[2, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-02610777-v"]]
     paragraph: '33'
     pos: ["``", "PRP", "VBP", "RB", "DT", "NN", "''", "."]
     text: ' " It ain''t an idea "!
@@ -1062,7 +1062,7 @@ XTH4:
     wn30_key: [[2, "be%2:42:03::"]]
 mn6A:
     lemmas: ["\"", "If", "it", "be", "n't", "an", "idea", "\"", ",", "she", "say", ",", "\"", "how", "come", "it", "you", "can", "drink", "beer", "but", "not", "water", "\"", "?"]
-    oewn2026_key: [[3, "oewn-02610777-v"], [10, "oewn-01011267-v"], [18, "oewn-01172332-v"]]
+    oewn_key: [[3, "oewn-02610777-v"], [10, "oewn-01011267-v"], [18, "oewn-01172332-v"]]
     paragraph: '34'
     pos: ["``", "IN", "PRP", "VBP", "RB", "DT", "NN", "''", ",", "PRP", "VBD", ",", "''", "WRB", "VBZ", "PRP", "PRP", "MD", "VB", "NN", "CC", "RB", "NN", "''", "."]
     text: ' " If it ain''t an idea ", she said, " how comes it you can drink beer but not water
@@ -1074,7 +1074,7 @@ mn6A:
     wn30_key: [[3, "be%2:42:03::"], [10, "say%2:32:00::"], [18, "drink%2:34:00::"]]
 5pCH:
     lemmas: ["He", "look", "piously", "to", "heaven", "and", "say", ",", "\"", "beer", "do", "n't", "affect", "the", "tissue", "none", "\"", ",", "and", "the", "ingenious", "hypocrisy", "of_this", "defense", "please", "Henrietta", "so_that", "she", "forgive", "him", "his", "stint", "of", "malevolence", "."]
-    oewn2026_key: [[1, "oewn-02134989-v"], [6, "oewn-01011267-v"], [12, "oewn-00019441-v"], [24, "oewn-01819595-v"], [28, "oewn-00905339-v"]]
+    oewn_key: [[1, "oewn-02134989-v"], [6, "oewn-01011267-v"], [12, "oewn-00019441-v"], [24, "oewn-01819595-v"], [28, "oewn-00905339-v"]]
     paragraph: '35'
     pos: ["PRP", "VBD", "RB", "TO", "NN", "CC", "VBD", ",", "``", "NN", "VBP", "RB", "VB", "DT", "NNS", "NN", "''", ",", "CC", "DT", "JJ", "NN", "RB", "NN", "VBD", "NNP", "RB", "PRP", "VBD", "PRP", "PRP$", "NN", "IN", "NN", "."]
     text: ' He looked piously to heaven and said, " Beer don''t affect the tissues none ", and
@@ -1087,7 +1087,7 @@ mn6A:
     wn30_key: [[1, "look%2:39:00::"], [6, "say%2:32:00::"], [12, "affect%2:29:00::"], [24, "please%2:37:00::"], [28, "forgive%2:32:00::"]]
 bUXq:
     lemmas: ["His", "grand-daughter", "sigh", "."]
-    oewn2026_key: [[2, "oewn-00004032-v"]]
+    oewn_key: [[2, "oewn-00004032-v"]]
     paragraph: '36'
     pos: ["PRP$", "NN", "VBD", "."]
     text: ' His grand-daughter sighed.'
@@ -1096,7 +1096,7 @@ bUXq:
     wn30_key: [[2, "sigh%2:29:00::"]]
 QpJ0:
     lemmas: ["\"", "come_on", ",", "do", "."]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '36'
     pos: ["``", "VB", ",", "VBP", "."]
     text: ' " Come_on, do.'
@@ -1105,7 +1105,7 @@ QpJ0:
     wn30_key: []
 7uMN:
     lemmas: ["The", "child", "be", "eat", ",", "and", "miss_blackwell", "be", "on", "her", "way", "somewheres", "\"", "."]
-    oewn2026_key: [[3, "oewn-01170802-v"], [7, "oewn-02610777-v"]]
+    oewn_key: [[3, "oewn-01170802-v"], [7, "oewn-02610777-v"]]
     paragraph: '36'
     pos: ["DT", "NNS", "VBP", "VBG", ",", "CC", "NNP", "VB", "IN", "PRP$", "NN", "RB", "''", "."]
     text: ' The children are eating, and Miss_Blackwell''s on her way somewheres ".
@@ -1116,7 +1116,7 @@ QpJ0:
     wn30_key: [[3, "eat%2:34:00::"], [7, "be%2:42:03::"]]
 jBOk:
     lemmas: ["\"", "To", "the", "graveyard", "."]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '37'
     pos: ["``", "TO", "DT", "NN", "."]
     text: ' " To the graveyard.'
@@ -1125,7 +1125,7 @@ jBOk:
     wn30_key: []
 My+M:
     lemmas: ["Who", "be", "n't", "\"", "?"]
-    oewn2026_key: [[1, "oewn-02610777-v"]]
+    oewn_key: [[1, "oewn-02610777-v"]]
     paragraph: '37'
     pos: ["WP", "VBP", "RB", "``", "."]
     text: ' Who ain''t "?
@@ -1136,7 +1136,7 @@ My+M:
     wn30_key: [[1, "be%2:42:03::"]]
 scV8:
     lemmas: ["\"", "not", "me", "."]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '38'
     pos: ["``", "RB", "PRP", "."]
     text: ' " Not me.'
@@ -1145,7 +1145,7 @@ scV8:
     wn30_key: []
 ZVKD:
     lemmas: ["I", "'ve", "get", "a", "day", "'s", "work", "to", "do", "."]
-    oewn2026_key: [[2, "oewn-02215637-v"], [8, "oewn-02567910-v"]]
+    oewn_key: [[2, "oewn-02215637-v"], [8, "oewn-02567910-v"]]
     paragraph: '38'
     pos: ["PRP", "VBP", "VBN", "DT", "NN", "POS", "NN", "TO", "VB", "."]
     text: ' I''ve got a day''s work to do.'
@@ -1154,7 +1154,7 @@ ZVKD:
     wn30_key: [[2, "get%2:40:00::"], [8, "do%2:41:04::"]]
 wA5t:
     lemmas: ["-", "You", "'ll", "be", "visit", "miss_doaty", ",", "ma_'_am", "\"", "?"]
-    oewn2026_key: [[4, "oewn-02498679-v"]]
+    oewn_key: [[4, "oewn-02498679-v"]]
     paragraph: '38'
     pos: [":", "PRP", "MD", "VB", "VBG", "NNP", ",", "NN", "''", "."]
     text: ' - You''ll be visiting Miss_Doaty, ma_''_am "?
@@ -1165,7 +1165,7 @@ wA5t:
     wn30_key: [[4, "visit%2:41:02::"]]
 iFif:
     lemmas: ["Henrietta", "nod", "."]
-    oewn2026_key: [[1, "oewn-00899973-v"]]
+    oewn_key: [[1, "oewn-00899973-v"]]
     paragraph: '39'
     pos: ["NNP", "VBD", "."]
     text: ' Henrietta nodded.'
@@ -1174,7 +1174,7 @@ iFif:
     wn30_key: [[1, "nod%2:32:00::"]]
 qNyo:
     lemmas: ["How", "much", "they", "know", "about", "her", "!"]
-    oewn2026_key: [[3, "oewn-00597330-v"]]
+    oewn_key: [[3, "oewn-00597330-v"]]
     paragraph: '39'
     pos: ["WRB", "JJ", "PRP", "VBD", "IN", "PRP$", "."]
     text: ' How much they knew about her!
@@ -1185,7 +1185,7 @@ qNyo:
     wn30_key: [[3, "know%2:31:03::"]]
 90BX:
     lemmas: ["The", "woman", "(", "she", "must", "have", "be", "a", "tiny", "baby", "when", "Hetty", "and", "Delia", "have", "stand", "arm", "in", "arm", ",", "watch", "great", "age", "grow", "small", ")", "answer", "the", "nod", "with", "her", "own", "."]
-    oewn2026_key: [[6, "oewn-02622439-v"], [15, "oewn-02617408-v"], [20, "oewn-02133118-v"], [23, "oewn-00125649-v"], [26, "oewn-00817348-v"]]
+    oewn_key: [[6, "oewn-02622439-v"], [15, "oewn-02617408-v"], [20, "oewn-02133118-v"], [23, "oewn-00125649-v"], [26, "oewn-00817348-v"]]
     paragraph: '40'
     pos: ["DT", "NN", "VBD", "PRP", "MD", "VB", "VBN", "DT", "JJ", "NN", "WRB", "NNP", "CC", "NNP", "VBD", "VBN", "NN", "IN", "NN", ",", "VBG", "JJ", "NN", "VB", "JJ", "NN", "VBD", "DT", "NN", "IN", "PRP$", "JJ", "."]
     text: ' The woman (she must have been a tiny baby when Hetty and Delia had stood arm in
@@ -1195,7 +1195,7 @@ qNyo:
     wn30_key: [[6, "be%2:42:06::"], [15, "stand%2:42:04::"], [20, "watch%2:39:02::"], [23, "grow%2:30:03::"], [26, "answer%2:32:00::"]]
 s6Ds:
     lemmas: ["\"", "god", "rest", "her", "soul", ",", "she", "be", "a", "sweet", "one", "."]
-    oewn2026_key: [[2, "oewn-00781646-v"], [7, "oewn-02622439-v"]]
+    oewn_key: [[2, "oewn-00781646-v"], [7, "oewn-02622439-v"]]
     paragraph: '40'
     pos: ["``", "NNP", "VB", "PRP$", "NN", ",", "PRP", "VBD", "DT", "JJ", "CD", "."]
     text: ' " God rest her soul, she was a sweet one.'
@@ -1204,7 +1204,7 @@ s6Ds:
     wn30_key: [[2, "rest%2:32:01::"], [7, "be%2:42:06::"]]
 nhkE:
     lemmas: ["come", "on", "now", "\"", "."]
-    oewn2026_key: [[0, "oewn-01853188-v"]]
+    oewn_key: [[0, "oewn-01853188-v"]]
     paragraph: '40'
     pos: ["VB", "RB", "RB", "``", "."]
     text: ' Come on now ".'
@@ -1213,7 +1213,7 @@ nhkE:
     wn30_key: [[0, "come%2:38:00::"]]
 jTGA:
     lemmas: ["She", "put", "a", "strong", "hand", "under", "the", "old_man", "'s", "arm", "and", "lift", "him", "up", ",", "patiently", ",", "with", "the", "gentle", "cruelty", "and", "necessary", "tyranny", "that", "the", "young", "show", "toward", "the", "very", "old", "."]
-    oewn2026_key: [[1, "oewn-01496967-v"], [11, "oewn-01978076-v"], [27, "oewn-00945869-v"]]
+    oewn_key: [[1, "oewn-01496967-v"], [11, "oewn-01978076-v"], [27, "oewn-00945869-v"]]
     paragraph: '40'
     pos: ["PRP", "VBD", "DT", "JJ", "NN", "IN", "DT", "NN", "POS", "NN", "CC", "VBD", "PRP", "RB", ",", "RB", ",", "IN", "DT", "JJ", "NN", "CC", "JJ", "NN", "IN", "DT", "JJ", "VB", "IN", "DT", "RB", "JJ", "."]
     text: ' She put a strong hand under the old_man''s arm and lifted him up, patiently, with
@@ -1223,7 +1223,7 @@ jTGA:
     wn30_key: [[1, "put%2:35:00::"], [11, "lift%2:38:00::"], [27, "show%2:32:02::"]]
 4JjD:
     lemmas: ["He", "mumble", "at", "her", "but", "let", "himself", "be", "lead", "off", "inside", "the", "house", ",", "shuffle", "mightily", "to", "make", "it", "clear", "how", "weak", "and", "aged", "he", "be", "and_how", "he", "be", "buffet", "about", "by", "those", "who", "still", "have", "their", "wicked", "strength", "."]
-    oewn2026_key: [[1, "oewn-01046405-v"], [5, "oewn-02427979-v"], [8, "oewn-02003830-v"], [14, "oewn-01921542-v"], [17, "oewn-00120124-v"], [25, "oewn-02610777-v"], [29, "oewn-01420359-v"], [35, "oewn-02208144-v"]]
+    oewn_key: [[1, "oewn-01046405-v"], [5, "oewn-02427979-v"], [8, "oewn-02003830-v"], [14, "oewn-01921542-v"], [17, "oewn-00120124-v"], [25, "oewn-02610777-v"], [29, "oewn-01420359-v"], [35, "oewn-02208144-v"]]
     paragraph: '40'
     pos: ["PRP", "VBD", "IN", "PRP$", "CC", "VB", "PRP", "VBP", "VBN", "IN", "IN", "DT", "NN", ",", "VB", "RB", "TO", "VB", "VB", "JJ", "WRB", "JJ", "CC", "JJ", "PRP", "VBD", "RB", "PRP", "VBD", "VBN", "IN", "IN", "DT", "WP", "RB", "VBD", "PRP$", "JJ", "NN", "."]
     text: ' He mumbled at her but let himself be led off inside the house, shuffling mightily
@@ -1236,7 +1236,7 @@ jTGA:
     wn30_key: [[1, "mumble%2:32:00::"], [5, "let%2:41:00::"], [8, "lead%2:38:01::"], [14, "shuffle%2:38:00::"], [17, "make%2:30:00::"], [25, "be%2:42:03::"], [29, "buffet%2:35:00::"], [35, "have%2:40:00::"]]
 52ET:
     lemmas: ["There", "be", "a", "gabble", "of", "voice", "from", "indoor", ",", "young", "hungry", "sound", "like", "cat", "after", "fish", ",", "and", "a", "burst", "of", "swearing", "from", "the", "old_man", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"]]
+    oewn_key: [[1, "oewn-02610777-v"]]
     paragraph: '41'
     pos: ["EX", "VBD", "DT", "NN", "IN", "NNS", "IN", "NN", ",", "JJ", "JJ", "NN", "IN", "NNS", "IN", "NN", ",", "CC", "DT", "NN", "IN", "NN", "IN", "DT", "NN", "."]
     text: ' There was a gabble of voices from indoors, young hungry sounds like cats after fish,
@@ -1246,7 +1246,7 @@ jTGA:
     wn30_key: [[1, "be%2:42:04::"]]
 Gi12:
     lemmas: ["Henrietta", "look", "down", "at", "her", "bouquet", ",", "still", "lively", "with", "its", "color", "and", "scent", ",", "and", "set", "her", "foot", "on", "their", "journey", "'s", "way", "again", ",", "leave", "the", "village", "street", "and", "cross", "the", "first", "field", ",", "folly", "dance", "ahead", "of", "her", "."]
-    oewn2026_key: [[1, "oewn-02134989-v"], [16, "oewn-00299677-v"], [26, "oewn-02013448-v"], [31, "oewn-01916152-v"], [37, "oewn-01898642-v"]]
+    oewn_key: [[1, "oewn-02134989-v"], [16, "oewn-00299677-v"], [26, "oewn-02013448-v"], [31, "oewn-01916152-v"], [37, "oewn-01898642-v"]]
     paragraph: '41'
     pos: ["NNP", "VBD", "RB", "IN", "PRP$", "NN", ",", "RB", "JJ", "IN", "PRP$", "NN", "CC", "NN", ",", "CC", "VB", "PRP$", "NNS", "IN", "PRP$", "NN", "POS", "NN", "RB", ",", "VBG", "DT", "NN", "NN", "CC", "VBG", "DT", "JJ", "NN", ",", "NNP", "VBG", "RB", "IN", "PRP$", "."]
     text: ' Henrietta looked down at her bouquet, still lively with its color and scent, and
@@ -1259,7 +1259,7 @@ Gi12:
     wn30_key: [[1, "look%2:39:00::"], [16, "set%2:30:01::"], [26, "leave%2:38:01::"], [31, "cross%2:38:00::"], [37, "dance%2:38:01::"]]
 I8Tx:
     lemmas: ["At", "the", "edge", "of", "the", "field", ",", "the", "wild", "rolling", "land", "take_over", ",", "dotted", "with", "fat", "round", "bush", "like", "sheep", "."]
-    oewn2026_key: [[11, "oewn-02279327-v"]]
+    oewn_key: [[11, "oewn-02279327-v"]]
     paragraph: '42'
     pos: ["IN", "DT", "NN", "IN", "DT", "NN", ",", "DT", "JJ", "NN", "NN", "VB", ",", "JJ", "IN", "JJ", "NN", "NNS", "IN", "NN", "."]
     text: ' At the edge of the field, the wild rolling land took_over, dotted with fat round
@@ -1269,7 +1269,7 @@ I8Tx:
     wn30_key: [[11, "take_over%2:40:07::"]]
 vCtx:
     lemmas: ["They", "be", "cover", "with", "tiny", "white", "blossom", ",", "their", "scant", "roots", "claw", "at", "the", "stony", "ground", ",", "and", "wild", "bird", "dart", "in", "and", "about", "and", "through", "them", "so", "they", "be", "nearly", "alive", "with", "the", "rustle", "and", "cry", "."]
-    oewn2026_key: [[2, "oewn-02693758-v"], [11, "oewn-01216068-v"], [20, "oewn-01903884-v"], [29, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-02693758-v"], [11, "oewn-01216068-v"], [20, "oewn-01903884-v"], [29, "oewn-02610777-v"]]
     paragraph: '42'
     pos: ["PRP", "VBD", "VBN", "IN", "JJ", "JJ", "NNS", ",", "PRP$", "JJ", "NNS", "VBG", "IN", "DT", "JJ", "NN", ",", "CC", "JJ", "NNS", "VBN", "RB", "CC", "RB", "CC", "IN", "PRP", "RB", "PRP", "VBD", "RB", "JJ", "IN", "DT", "NN", "CC", "NN", "."]
     text: ' They were covered with tiny white blossoms, their scant roots clawing at the stony
@@ -1282,7 +1282,7 @@ vCtx:
     wn30_key: [[2, "cover%2:42:01::"], [11, "claw%2:35:01::"], [20, "dart%2:38:01::"], [29, "be%2:42:03::"]]
 sO6d:
     lemmas: ["The", "air", "be", "full", "of", "sound", "too", "but", "placid", "one", ",", "a", "terrestrial", "humming", "as", "much", "out", "of", "the", "earth", "as", "out_of_the_blue", "sky", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-02610777-v"]]
     paragraph: '43'
     pos: ["DT", "NN", "VBD", "JJ", "VB", "NN", "RB", "CC", "JJ", "NNS", ",", "DT", "JJ", "NN", "IN", "JJ", "IN", "IN", "DT", "NN", "IN", "RB", "NN", "."]
     text: ' The air was full of sounds too but placid ones, a terrestrial humming as much out
@@ -1292,7 +1292,7 @@ sO6d:
     wn30_key: [[2, "be%2:42:03::"]]
 1IAV:
     lemmas: ["She", "feel", "mindless", ",", "walk", ",", "and", "almost", "easy", "until", "the", "church", "spire", "tell", "her", "she", "be", "near", "the", "cemetery", ",", "and", "she", "catch", "herself", "wonder", "what", "she", "would", "say", "to", "Doaty", "."]
-    oewn2026_key: [[1, "oewn-01775456-v"], [4, "oewn-01908923-v"], [13, "oewn-00954556-v"], [16, "oewn-02661230-v"], [23, "oewn-02122438-v"], [25, "oewn-00927081-v"], [29, "oewn-01011267-v"]]
+    oewn_key: [[1, "oewn-01775456-v"], [4, "oewn-01908923-v"], [13, "oewn-00954556-v"], [16, "oewn-02661230-v"], [23, "oewn-02122438-v"], [25, "oewn-00927081-v"], [29, "oewn-01011267-v"]]
     paragraph: '43'
     pos: ["PRP", "VBD", "JJ", ",", "VB", ",", "CC", "RB", "JJ", "IN", "DT", "NN", "NN", "VBD", "PRP$", "PRP", "VBD", "IN", "DT", "NN", ",", "CC", "PRP", "VBD", "PRP", "VBG", "WP", "PRP", "MD", "VB", "TO", "NNP", "."]
     text: ' She felt mindless, walking, and almost easy until the church spire told her she
@@ -1304,7 +1304,7 @@ sO6d:
     wn30_key: [[1, "feel%2:37:00::"], [4, "walk%2:38:00::"], [13, "tell%2:32:00::"], [16, "be%2:42:05::"], [23, "catch%2:39:01::"], [25, "wonder%2:32:01::"], [29, "say%2:32:00::"]]
 iWLC:
     lemmas: ["Both", "church", "and", "graveyard", "be", "smaller", "than", "she", "remember", "them", "(", "how", "many", "things", "have", "lessen", "while", "she", "be", "gone", "away", ")", "but", "the", "headstone", "have", "grow", "so", "thick", "in", "thirty", "years", "that", "to", "find", "one", "name", "\"", "Dorothy_Tredding", "\"", "seem", "suddenly", "impossible", "."]
-    oewn2026_key: [[4, "oewn-02610777-v"], [8, "oewn-00609334-v"], [15, "oewn-00151509-v"], [18, "oewn-02610777-v"], [26, "oewn-00125649-v"], [34, "oewn-02290474-v"], [36, "oewn-01030757-v"], [40, "oewn-02137900-v"]]
+    oewn_key: [[4, "oewn-02610777-v"], [8, "oewn-00609334-v"], [15, "oewn-00151509-v"], [18, "oewn-02610777-v"], [26, "oewn-00125649-v"], [34, "oewn-02290474-v"], [36, "oewn-01030757-v"], [40, "oewn-02137900-v"]]
     paragraph: '44'
     pos: ["DT", "NN", "CC", "NN", "VBD", "JJR", "IN", "PRP", "VBD", "PRP", "CD", "WRB", "JJ", "NNS", "VBD", "VBN", "IN", "PRP", "VBD", "JJ", "RB", "CD", "CC", "DT", "NNS", "VBD", "VBN", "RB", "JJ", "IN", "CD", "NNS", "RB", "TO", "VB", "CD", "VBN", "``", "NNP", "''", "VBD", "RB", "JJ", "."]
     text: ' Both church and graveyard were smaller than she remembered them (how many things
@@ -1317,7 +1317,7 @@ iWLC:
     wn30_key: [[4, "be%2:42:03::"], [8, "remember%2:31:00::"], [15, "lessen%2:30:00::"], [18, "be%2:42:03::"], [26, "grow%2:30:03::"], [34, "find%2:40:00::"], [36, "name%2:32:03::"], [40, "seem%2:39:00::"]]
 N+yB:
     lemmas: ["She", "sit_down", "on", "the", "near", ",", "fallen", "with", "age", "and", "gray", "with", "sea-damp", ",", "her", "finger", "trace", "the", "indecipherable", "carved", "letters", "padded", "with", "green", "moss", "."]
-    oewn2026_key: [[1, "oewn-01988916-v"], [16, "oewn-01585566-v"]]
+    oewn_key: [[1, "oewn-01988916-v"], [16, "oewn-01585566-v"]]
     paragraph: '45'
     pos: ["PRP", "VBP", "IN", "DT", "JJS", ",", "JJ", "IN", "NN", "CC", "JJ", "IN", "JJ", ",", "PRP$", "NNS", "VBG", "DT", "JJ", "JJ", "NNS", "JJ", "IN", "JJ", "NN", "."]
     text: ' She sat_down on the nearest, fallen with age and gray with sea-damp, her fingers
@@ -1327,7 +1327,7 @@ N+yB:
     wn30_key: [[1, "sit_down%2:38:00::"], [16, "trace%2:35:00::"]]
 lHxM:
     lemmas: ["The", "day", "'s", "sun", "be", "gather", "its", "strength", "in", "gold", ",", "and", "she", "wish", "she", "have", "bring", "her", "parasol", ",", "if", "only", "to", "shade", "Doaty", "'s", "flower", "."]
-    oewn2026_key: [[5, "oewn-01383303-v"], [13, "oewn-01828678-v"], [16, "oewn-02081903-v"], [23, "oewn-02774660-v"]]
+    oewn_key: [[5, "oewn-01383303-v"], [13, "oewn-01828678-v"], [16, "oewn-02081903-v"], [23, "oewn-02774660-v"]]
     paragraph: '45'
     pos: ["DT", "NN", "POS", "NN", "VBD", "VBG", "PRP$", "NN", "IN", "NN", ",", "CC", "PRP", "VBD", "PRP", "VBD", "VBN", "PRP$", "NN", ",", "IN", "RB", "TO", "VB", "NNP", "POS", "NNS", "."]
     text: ' The day''s sun was gathering its strength in gold, and she wished she had brought
@@ -1337,7 +1337,7 @@ lHxM:
     wn30_key: [[5, "gather%2:35:00::"], [13, "wish%2:37:02::"], [16, "bring%2:38:00::"], [23, "shade%2:43:00::"]]
 H9x3:
     lemmas: ["A", "small", ",", "rock-carved", "angel", "watch", "her", "from", "a", "nearby", "tomb", ",", "the", "only", "angel", "in", "the", "cemetery", "."]
-    oewn2026_key: [[5, "oewn-02460829-v"]]
+    oewn_key: [[5, "oewn-02460829-v"]]
     paragraph: '45'
     pos: ["DT", "JJ", ",", "JJ", "NN", "VBD", "PRP", "IN", "DT", "JJ", "NN", ",", "DT", "JJ", "NN", "IN", "DT", "NN", "."]
     text: ' A small, rock-carved angel watched her from a nearby tomb, the only angel in the
@@ -1349,7 +1349,7 @@ H9x3:
     wn30_key: [[5, "watch%2:41:00::"]]
 Yn4G:
     lemmas: ["She", "remember", ",", "suddenly", ",", "a", "night", "of", "savage", "moonlight", "and", "scudding", "cloud", "when", "she", "and", "Adelia", ",", "have", "dare", "each", "other", ",", "have", "steal", "out", "of", "their", "great", "safe", "house", "and", "come", "here", ",", "hand_in_hand", ",", "hope", "and", "fear", "ghost", "."]
-    oewn2026_key: [[1, "oewn-00609334-v"], [19, "oewn-00869761-v"], [24, "oewn-01892288-v"], [32, "oewn-01853188-v"], [37, "oewn-00707813-v"], [39, "oewn-01784021-v"]]
+    oewn_key: [[1, "oewn-00609334-v"], [19, "oewn-00869761-v"], [24, "oewn-01892288-v"], [32, "oewn-01853188-v"], [37, "oewn-00707813-v"], [39, "oewn-01784021-v"]]
     paragraph: '46'
     pos: ["PRP", "VBD", ",", "RB", ",", "DT", "NN", "IN", "JJ", "NN", "CC", "JJ", "NNS", "WRB", "PRP", "CC", "NNP", ",", "VBG", "VBN", "DT", "JJ", ",", "VBD", "VBN", "IN", "IN", "PRP$", "JJ", "JJ", "NN", "CC", "VB", "RB", ",", "RB", ",", "VBG", "CC", "VBG", "NNS", "."]
     text: ' She remembered, suddenly, a night of savage moonlight and scudding clouds when she

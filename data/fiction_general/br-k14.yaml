@@ -3,7 +3,7 @@ _meta:
         type: seq
         base: tokens
         data: string
-    oewn2026_key:
+    oewn_key:
         type: element
         base: tokens
         data: string
@@ -28,7 +28,7 @@ _meta:
         data: string
 pnp7:
     lemmas: ["He", "bring", "with", "him", "a", "mixture", "of", "myrrh", "and", "aloes", ",", "of", "about", "a_hundred", "pound", "'", "weight", "."]
-    oewn2026_key: [[1, "oewn-02081903-v"], [5, "oewn-14610438-n"], [7, "oewn-12713636-n"], [9, "oewn-02701225-n"], [14, "oewn-13742201-n"], [16, "oewn-05034009-n"]]
+    oewn_key: [[1, "oewn-02081903-v"], [5, "oewn-14610438-n"], [7, "oewn-12713636-n"], [9, "oewn-02701225-n"], [14, "oewn-13742201-n"], [16, "oewn-05034009-n"]]
     paragraph: '0'
     pos: ["PRP", "VBD", "VB", "PRP", "DT", "NN", "IN", "NN", "CC", "NNS", ",", "IN", "IN", "JJ", "NNS", "POS", "NN", "."]
     text: He brought with him a mixture of myrrh and aloes, of about a_hundred pounds' weight.
@@ -37,7 +37,7 @@ pnp7:
     wn30_key: [[1, "bring%2:38:00::"], [5, "mixture%1:27:00::"], [7, "myrrh%1:20:00::"], [9, "aloes%1:06:00::"], [14, "pound%1:23:09::"], [16, "weight%1:07:00::"]]
 UL1Z:
     lemmas: ["They", "take", "jesus", "'s", "body", ",", "then", ",", "and", "wrap", "it", "in", "winding-clothes", "with", "the", "spice", ";", "that", "is", "how", "the", "jew", "prepare", "a", "body", "for", "burial", "."]
-    oewn2026_key: [[1, "oewn-01216829-v"], [2, "oewn-11103646-n"], [4, "oewn-05223633-n"], [6, "oewn-00118527-r"], [9, "oewn-01285811-v"], [12, "oewn-03884813-n"], [15, "oewn-15074578-n"], [21, "oewn-09700747-n"], [22, "oewn-00407168-v"], [24, "oewn-05223633-n"], [26, "oewn-07466297-n"]]
+    oewn_key: [[1, "oewn-01216829-v"], [2, "oewn-11103646-n"], [4, "oewn-05223633-n"], [6, "oewn-00118527-r"], [9, "oewn-01285811-v"], [12, "oewn-03884813-n"], [15, "oewn-15074578-n"], [21, "oewn-09700747-n"], [22, "oewn-00407168-v"], [24, "oewn-05223633-n"], [26, "oewn-07466297-n"]]
     paragraph: '0'
     pos: ["PRP", "VBD", "NNP", "POS", "NN", ",", "RB", ",", "CC", "VBD", "PRP", "IN", "NNS", "IN", "DT", "NNS", ":", "RB", "RB", "WRB", "DT", "NNPS", "VBP", "DT", "NN", "IN", "NN", "."]
     text: ' They took Jesus''s body, then, and wrapped it in winding-clothes with the spices;
@@ -49,7 +49,7 @@ UL1Z:
     wn30_key: [[1, "take%2:35:00::"], [2, "jesus%1:18:00::"], [4, "body%1:08:00::"], [6, "then%4:02:00::"], [9, "wrap%2:35:00::"], [12, "winding-clothes%1:06:00::"], [15, "spice%1:27:00::"], [21, "jew%1:18:00::"], [22, "prepare%2:30:00::"], [24, "body%1:08:00::"], [26, "burial%1:11:00::"]]
 FcfU:
     lemmas: ["list", "as", "present", "at", "the", "descent", "be", "person", ",", "person", "'s", "sister", ",", "mary_magdalene", ",", "person", ",", "person", ",", "person", "."]
-    oewn2026_key: [[0, "oewn-02477646-v"], [2, "oewn-01852337-a"], [5, "oewn-07377946-n"], [6, "oewn-02610777-v"], [7, "oewn-00007846-n"], [9, "oewn-00007846-n"], [11, "oewn-10622393-n"], [13, "oewn-11182572-n"], [15, "oewn-00007846-n"], [17, "oewn-00007846-n"], [19, "oewn-00007846-n"]]
+    oewn_key: [[0, "oewn-02477646-v"], [2, "oewn-01852337-a"], [5, "oewn-07377946-n"], [6, "oewn-02610777-v"], [7, "oewn-00007846-n"], [9, "oewn-00007846-n"], [11, "oewn-10622393-n"], [13, "oewn-11182572-n"], [15, "oewn-00007846-n"], [17, "oewn-00007846-n"], [19, "oewn-00007846-n"]]
     paragraph: '1'
     pos: ["VBN", "IN", "JJ", "IN", "DT", "NNP", "VBD", "NNP", ",", "NNP", "POS", "NN", ",", "NN", ",", "NNP", ",", "NNP", ",", "NNP", "."]
     text: ' Listed as present at the Descent were Mary, Mary''s sister, Mary_Magdalene, John,
@@ -59,7 +59,7 @@ FcfU:
     wn30_key: [[0, "list%2:41:00::"], [2, "present%3:00:02::"], [5, "descent%1:11:00::"], [6, "be%2:42:04::"], [7, "person%1:03:00::"], [9, "person%1:03:00::"], [11, "sister%1:18:00::"], [13, "mary_magdalene%1:18:00::"], [15, "person%1:03:00::"], [17, "person%1:03:00::"], [19, "person%1:03:00::"]]
 b8gz:
     lemmas: ["search", "as", "he", "might", ",", "he", "could", "find", "no", "place", "where", "the", "bible", "speak", "of", "a", "moment", "when", "person", "could", "have", "be", "alone", "with", "jesus", "."]
-    oewn2026_key: [[0, "oewn-02158139-v"], [7, "oewn-02290474-v"], [9, "oewn-06412750-n"], [12, "oewn-06443410-n"], [13, "oewn-00964479-v"], [16, "oewn-15269461-n"], [18, "oewn-00007846-n"], [21, "oewn-02610777-v"], [22, "oewn-02257510-s"], [24, "oewn-11103646-n"]]
+    oewn_key: [[0, "oewn-02158139-v"], [7, "oewn-02290474-v"], [9, "oewn-06412750-n"], [12, "oewn-06443410-n"], [13, "oewn-00964479-v"], [16, "oewn-15269461-n"], [18, "oewn-00007846-n"], [21, "oewn-02610777-v"], [22, "oewn-02257510-s"], [24, "oewn-11103646-n"]]
     paragraph: '1'
     pos: ["VB", "IN", "PRP", "MD", ",", "PRP", "MD", "VB", "DT", "NN", "WRB", "DT", "NNP", "VBD", "IN", "DT", "NN", "WRB", "NNP", "MD", "VB", "VBN", "JJ", "IN", "NNP", "."]
     text: ' Search as he might, he could find no place where the Bible spoke of a moment when
@@ -69,7 +69,7 @@ b8gz:
     wn30_key: [[0, "search%2:39:00::"], [7, "find%2:40:00::"], [9, "place%1:10:00::"], [12, "bible%1:10:00::"], [13, "speak%2:32:01::"], [16, "moment%1:28:00::"], [18, "person%1:03:00::"], [21, "be%2:42:03::"], [22, "alone%3:00:00:unsocial:00"], [24, "jesus%1:18:00::"]]
 24I7:
     lemmas: ["mostly", "the", "scene", "be", "crowded", "with", "mourner", ",", "such_as", "the", "dramatic", "Dell'Arca_Lamentation", "in", "location", ",", "where", "the", "grief-stricken", "spectator", "have", "usurp", "person", "'s", "last", "poignant", "moment", "."]
-    oewn2026_key: [[0, "oewn-00006486-r"], [2, "oewn-08663538-n"], [3, "oewn-02610777-v"], [4, "oewn-00561916-a"], [6, "oewn-10354959-n"], [10, "oewn-00798380-a"], [13, "oewn-00027365-n"], [17, "oewn-01367733-s"], [18, "oewn-10652848-n"], [20, "oewn-02279327-v"], [21, "oewn-00007846-n"], [23, "oewn-01013868-s"], [24, "oewn-01716627-s"], [25, "oewn-15269461-n"]]
+    oewn_key: [[0, "oewn-00006486-r"], [2, "oewn-08663538-n"], [3, "oewn-02610777-v"], [4, "oewn-00561916-a"], [6, "oewn-10354959-n"], [10, "oewn-00798380-a"], [13, "oewn-00027365-n"], [17, "oewn-01367733-s"], [18, "oewn-10652848-n"], [20, "oewn-02279327-v"], [21, "oewn-00007846-n"], [23, "oewn-01013868-s"], [24, "oewn-01716627-s"], [25, "oewn-15269461-n"]]
     paragraph: '1'
     pos: ["RB", "DT", "NN", "VBD", "JJ", "IN", "NNS", ",", "JJ", "DT", "JJ", "NNP", "IN", "NNP", ",", "WRB", "DT", "JJ", "NNS", "VBD", "VBN", "NNP", "POS", "JJ", "JJ", "NN", "."]
     text: ' Mostly the scene was crowded with mourners, such_as the dramatic Dell''Arca_Lamentation
@@ -82,7 +82,7 @@ b8gz:
     wn30_key: [[0, "mostly%4:02:00::"], [2, "scene%1:15:00::"], [3, "be%2:42:03::"], [4, "crowded%3:00:00::"], [6, "mourner%1:18:00::"], [10, "dramatic%3:00:00::"], [13, "location%1:03:00::"], [17, "grief-stricken%3:00:00:sorrowful:00"], [18, "spectator%1:18:00::"], [20, "usurp%2:40:00::"], [21, "person%1:03:00::"], [23, "last%3:00:00:closing:00"], [24, "poignant%3:00:00:painful:00"], [25, "moment%1:28:00::"]]
 AOb3:
     lemmas: ["In", "his", "concept", "there", "could", "be", "no_one", "else", "present", "."]
-    oewn2026_key: [[2, "oewn-05844071-n"], [5, "oewn-02610777-v"], [8, "oewn-01852337-a"]]
+    oewn_key: [[2, "oewn-05844071-n"], [5, "oewn-02610777-v"], [8, "oewn-01852337-a"]]
     paragraph: '2'
     pos: ["IN", "PRP$", "NN", "EX", "MD", "VB", "NN", "RB", "JJ", "."]
     text: ' In his concept there could be no_one else present.
@@ -93,7 +93,7 @@ AOb3:
     wn30_key: [[2, "concept%1:09:00::"], [5, "be%2:42:04::"], [8, "present%3:00:02::"]]
 ctoH:
     lemmas: ["His", "first", "desire", "be", "to", "create", "a", "mother", "and", "son", "alone", "in", "the", "universe", "."]
-    oewn2026_key: [[1, "oewn-01014459-a"], [2, "oewn-07499405-n"], [3, "oewn-02622439-v"], [5, "oewn-01620211-v"], [7, "oewn-10352098-n"], [9, "oewn-10643436-n"], [10, "oewn-02257510-s"], [13, "oewn-09489410-n"]]
+    oewn_key: [[1, "oewn-01014459-a"], [2, "oewn-07499405-n"], [3, "oewn-02622439-v"], [5, "oewn-01620211-v"], [7, "oewn-10352098-n"], [9, "oewn-10643436-n"], [10, "oewn-02257510-s"], [13, "oewn-09489410-n"]]
     paragraph: '3'
     pos: ["PRP$", "JJ", "NN", "VBD", "TO", "VB", "DT", "NN", "CC", "NN", "JJ", "IN", "DT", "NN", "."]
     text: ' His first desire was to create a mother and son alone in the universe.'
@@ -102,7 +102,7 @@ ctoH:
     wn30_key: [[1, "first%3:00:00::"], [2, "desire%1:12:00::"], [3, "be%2:42:06::"], [5, "create%2:36:00::"], [7, "mother%1:18:00::"], [9, "son%1:18:00::"], [10, "alone%3:00:00:unsocial:00"], [13, "universe%1:17:00::"]]
 7cPj:
     lemmas: ["When", "might", "person", "have", "have", "that", "moment", "to", "hold", "her", "child", "on", "her", "lap", "?"]
-    oewn2026_key: [[2, "oewn-00007846-n"], [4, "oewn-02208144-v"], [6, "oewn-15269461-n"], [8, "oewn-01219234-v"], [10, "oewn-09937706-n"], [13, "oewn-05570228-n"]]
+    oewn_key: [[2, "oewn-00007846-n"], [4, "oewn-02208144-v"], [6, "oewn-15269461-n"], [8, "oewn-01219234-v"], [10, "oewn-09937706-n"], [13, "oewn-05570228-n"]]
     paragraph: '3'
     pos: ["WRB", "MD", "NNP", "VB", "VBN", "IN", "NN", "TO", "VB", "PRP$", "NN", "IN", "PRP$", "NN", "."]
     text: ' When might Mary have had that moment to hold her child on her lap?'
@@ -111,7 +111,7 @@ ctoH:
     wn30_key: [[2, "person%1:03:00::"], [4, "have%2:40:00::"], [6, "moment%1:28:00::"], [8, "hold%2:35:00::"], [10, "child%1:18:01::"], [13, "lap%1:08:00::"]]
 m/7N:
     lemmas: ["perhaps", "after", "the", "soldier", "have", "lay", "him", "on", "the", "ground", ",", "while", "person", "be", "at", "person", "'s", "ask", "for", "christ", "'s", "body", ",", "person", "be", "gather", "his", "mixture", "of", "myrrh", "and", "aloes", ",", "and", "the", "other", "have", "go_home", "to", "mourn", "."]
-    oewn2026_key: [[0, "oewn-00301501-r"], [3, "oewn-10641415-n"], [5, "oewn-01547474-v"], [9, "oewn-09357302-n"], [12, "oewn-00007846-n"], [13, "oewn-02661230-v"], [15, "oewn-00007846-n"], [17, "oewn-00754499-v"], [19, "oewn-11103646-n"], [21, "oewn-05223633-n"], [23, "oewn-00007846-n"], [25, "oewn-01383303-v"], [27, "oewn-14610438-n"], [29, "oewn-12713636-n"], [31, "oewn-02701225-n"], [37, "oewn-02009510-v"], [39, "oewn-01801062-v"]]
+    oewn_key: [[0, "oewn-00301501-r"], [3, "oewn-10641415-n"], [5, "oewn-01547474-v"], [9, "oewn-09357302-n"], [12, "oewn-00007846-n"], [13, "oewn-02661230-v"], [15, "oewn-00007846-n"], [17, "oewn-00754499-v"], [19, "oewn-11103646-n"], [21, "oewn-05223633-n"], [23, "oewn-00007846-n"], [25, "oewn-01383303-v"], [27, "oewn-14610438-n"], [29, "oewn-12713636-n"], [31, "oewn-02701225-n"], [37, "oewn-02009510-v"], [39, "oewn-01801062-v"]]
     paragraph: '3'
     pos: ["RB", "IN", "DT", "NNS", "VBD", "VBN", "PRP", "RB", "RB", "NN", ",", "IN", "NN", "VBD", "IN", "NN", "POS", "VB", "VB", "NNP", "POS", "NN", ",", "NNP", "VBD", "VBG", "PRP$", "NN", "IN", "NN", "CC", "NNS", ",", "CC", "DT", "NNS", "VBD", "VB", "TO", "VB", "."]
     text: ' Perhaps after the soldiers had laid him on the ground, while Joseph_of_Arimathea
@@ -122,7 +122,7 @@ m/7N:
     wn30_key: [[0, "perhaps%4:02:00::"], [3, "soldier%1:18:00::"], [5, "lay%2:35:00::"], [9, "ground%1:17:00::"], [12, "person%1:03:00::"], [13, "be%2:42:05::"], [15, "person%1:03:00::"], [17, "ask%2:32:01::"], [19, "christ%1:18:00::"], [21, "body%1:08:00::"], [23, "person%1:03:00::"], [25, "gather%2:35:00::"], [27, "mixture%1:27:00::"], [29, "myrrh%1:20:00::"], [31, "aloes%1:06:00::"], [37, "go_home%2:38:00::"], [39, "mourn%2:37:00::"]]
 R98G:
     lemmas: ["Those", "who", "see", "his", "finished", "pieta", "would", "take", "the", "place", "of", "the", "biblical", "witness", "."]
-    oewn2026_key: [[2, "oewn-02133754-v"], [4, "oewn-01008652-a"], [7, "oewn-02399325-v"], [9, "oewn-00722683-n"], [12, "oewn-02865406-a"], [13, "oewn-10652848-n"]]
+    oewn_key: [[2, "oewn-02133754-v"], [4, "oewn-01008652-a"], [7, "oewn-02399325-v"], [9, "oewn-00722683-n"], [12, "oewn-02865406-a"], [13, "oewn-10652848-n"]]
     paragraph: '3'
     pos: ["DT", "WP", "VBD", "PRP$", "JJ", "NNP", "MD", "VB", "VB", "NN", "VB", "DT", "JJ", "NNS", "."]
     text: ' Those who saw his finished Pieta would take the place of the biblical witnesses.'
@@ -131,7 +131,7 @@ R98G:
     wn30_key: [[2, "see%2:39:00::"], [4, "finished%3:00:02::"], [7, "take%2:41:00::"], [9, "place%1:04:01::"], [12, "biblical%3:01:00::"], [13, "witness%1:18:01::"]]
 H2RX:
     lemmas: ["They", "would", "feel", "what", "person", "be", "undergo", "."]
-    oewn2026_key: [[2, "oewn-01775456-v"], [4, "oewn-00007846-n"]]
+    oewn_key: [[2, "oewn-01775456-v"], [4, "oewn-00007846-n"]]
     paragraph: '3'
     pos: ["PRP", "MD", "VB", "WP", "NNP", "VBD", "VB", "."]
     text: ' They would feel what Mary was undergoing.'
@@ -140,7 +140,7 @@ H2RX:
     wn30_key: [[2, "feel%2:37:00::"], [4, "person%1:03:00::"]]
 sIFO:
     lemmas: ["There", "would", "be", "no", "halo", ",", "no", "angel", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"], [4, "oewn-04958893-n"], [7, "oewn-09562026-n"]]
+    oewn_key: [[2, "oewn-02610777-v"], [4, "oewn-04958893-n"], [7, "oewn-09562026-n"]]
     paragraph: '3'
     pos: ["EX", "MD", "VB", "DT", "NNS", ",", "DT", "NNS", "."]
     text: ' There would be no halos, no angels.'
@@ -149,7 +149,7 @@ sIFO:
     wn30_key: [[2, "be%2:42:04::"], [4, "halo%1:07:00::"], [7, "angel%1:18:00::"]]
 +vgJ:
     lemmas: ["These", "would", "be", "two", "human_being", ",", "whom", "god", "have", "choose", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"], [3, "oewn-02194109-s"], [4, "oewn-02474924-n"], [7, "oewn-09559169-n"], [9, "oewn-00676526-v"]]
+    oewn_key: [[2, "oewn-02610777-v"], [3, "oewn-02194109-s"], [4, "oewn-02474924-n"], [7, "oewn-09559169-n"], [9, "oewn-00676526-v"]]
     paragraph: '3'
     pos: ["DT", "MD", "VB", "JJ", "NNS", ",", "WP", "NNP", "VBD", "VBN", "."]
     text: ' These would be two human_beings, whom God had chosen.
@@ -160,7 +160,7 @@ sIFO:
     wn30_key: [[2, "be%2:42:04::"], [3, "two%3:00:00:cardinal:00"], [4, "human_being%1:05:00::"], [7, "god%1:18:00::"], [9, "choose%2:31:00::"]]
 FWs8:
     lemmas: ["He", "feel", "close", "to", "person", ",", "have", "spend", "so", "long", "concentrate_on", "the", "beginning", "of", "her", "journey", "."]
-    oewn2026_key: [[1, "oewn-01775456-v"], [2, "oewn-00453543-a"], [4, "oewn-00007846-n"], [7, "oewn-02714280-v"], [8, "oewn-00147630-r"], [9, "oewn-01440837-a"], [10, "oewn-02682306-v"], [12, "oewn-07305628-n"], [15, "oewn-00307252-n"]]
+    oewn_key: [[1, "oewn-01775456-v"], [2, "oewn-00453543-a"], [4, "oewn-00007846-n"], [7, "oewn-02714280-v"], [8, "oewn-00147630-r"], [9, "oewn-01440837-a"], [10, "oewn-02682306-v"], [12, "oewn-07305628-n"], [15, "oewn-00307252-n"]]
     paragraph: '4'
     pos: ["PRP", "VBD", "JJ", "RB", "NNP", ",", "VBG", "VBN", "RB", "JJ", "VB", "DT", "NN", "IN", "PRP$", "NN", "."]
     text: ' He felt close to Mary, having spent so long concentrating_on the beginning of her
@@ -170,7 +170,7 @@ FWs8:
     wn30_key: [[1, "feel%2:37:00::"], [2, "close%3:00:02::"], [4, "person%1:03:00::"], [7, "spend%2:42:00::"], [8, "so%4:02:02::"], [9, "long%3:00:02::"], [10, "concentrate_on%2:42:00::"], [12, "beginning%1:11:00::"], [15, "journey%1:04:00::"]]
 vDCt:
     lemmas: ["now", "she", "be", "intensely", "alive", ",", "anguished", ";", "her", "son", "be", "dead", "."]
-    oewn2026_key: [[0, "oewn-00049013-r"], [2, "oewn-02610777-v"], [3, "oewn-00192471-r"], [4, "oewn-00808685-s"], [6, "oewn-01367501-s"], [9, "oewn-10643436-n"], [10, "oewn-02610777-v"], [11, "oewn-00096133-a"]]
+    oewn_key: [[0, "oewn-00049013-r"], [2, "oewn-02610777-v"], [3, "oewn-00192471-r"], [4, "oewn-00808685-s"], [6, "oewn-01367501-s"], [9, "oewn-10643436-n"], [10, "oewn-02610777-v"], [11, "oewn-00096133-a"]]
     paragraph: '4'
     pos: ["RB", "PRP", "VBD", "RB", "JJ", ",", "JJ", ":", "PRP$", "NN", "VBD", "JJ", "."]
     text: ' Now she was intensely alive, anguished; her son was dead.'
@@ -179,7 +179,7 @@ vDCt:
     wn30_key: [[0, "now%4:02:00::"], [2, "be%2:42:03::"], [3, "intensely%4:02:00::"], [4, "alive%3:00:00:lively:00"], [6, "anguished%3:00:00:sorrowful:00"], [9, "son%1:18:00::"], [10, "be%2:42:03::"], [11, "dead%3:00:01::"]]
 lV+d:
     lemmas: ["Even_though", "he", "would", "later", "be", "resurrect", ",", "he", "be", "at", "this", "moment", "dead", "indeed", ",", "the", "expression", "on", "his", "face", "reflect", "what", "he", "have", "go_through", "on", "the", "cross", "."]
-    oewn2026_key: [[3, "oewn-00156621-r"], [5, "oewn-00098271-v"], [8, "oewn-02610777-v"], [11, "oewn-15269461-n"], [12, "oewn-00096133-a"], [13, "oewn-00038035-r"], [16, "oewn-04687095-n"], [19, "oewn-05608392-n"], [20, "oewn-02141357-v"], [24, "oewn-02114674-v"], [27, "oewn-03140183-n"]]
+    oewn_key: [[3, "oewn-00156621-r"], [5, "oewn-00098271-v"], [8, "oewn-02610777-v"], [11, "oewn-15269461-n"], [12, "oewn-00096133-a"], [13, "oewn-00038035-r"], [16, "oewn-04687095-n"], [19, "oewn-05608392-n"], [20, "oewn-02141357-v"], [24, "oewn-02114674-v"], [27, "oewn-03140183-n"]]
     paragraph: '4'
     pos: ["RB", "PRP", "MD", "RB", "VB", "VBN", ",", "PRP", "VBD", "IN", "DT", "NN", "JJ", "RB", ",", "DT", "NN", "IN", "PRP$", "NN", "VBG", "WP", "PRP", "VBD", "VB", "IN", "DT", "NN", "."]
     text: ' Even_though he would later be resurrected, he was at this moment dead indeed, the
@@ -189,7 +189,7 @@ lV+d:
     wn30_key: [[3, "later%4:02:02::"], [5, "resurrect%2:29:00::"], [8, "be%2:42:03::"], [11, "moment%1:28:00::"], [12, "dead%3:00:01::"], [13, "indeed%4:02:03::"], [16, "expression%1:07:00::"], [19, "face%1:08:00::"], [20, "reflect%2:39:01::"], [24, "go_through%2:39:00::"], [27, "cross%1:06:01::"]]
 Sh/z:
     lemmas: ["In", "his", "sculpture", "therefore", "it", "would", "not", "be", "possible", "for", "him", "to", "project", "anything", "of", "what", "jesus", "feel", "for", "his", "mother", ";", "only", "what", "person", "feel", "for", "her", "son", "."]
-    oewn2026_key: [[2, "oewn-04164381-n"], [3, "oewn-00043413-r"], [6, "oewn-00024432-r"], [7, "oewn-02610777-v"], [8, "oewn-01826770-a"], [12, "oewn-00745209-v"], [16, "oewn-11103646-n"], [17, "oewn-01775456-v"], [20, "oewn-10352098-n"], [22, "oewn-00009062-r"], [24, "oewn-00007846-n"], [25, "oewn-01775456-v"], [28, "oewn-10643436-n"]]
+    oewn_key: [[2, "oewn-04164381-n"], [3, "oewn-00043413-r"], [6, "oewn-00024432-r"], [7, "oewn-02610777-v"], [8, "oewn-01826770-a"], [12, "oewn-00745209-v"], [16, "oewn-11103646-n"], [17, "oewn-01775456-v"], [20, "oewn-10352098-n"], [22, "oewn-00009062-r"], [24, "oewn-00007846-n"], [25, "oewn-01775456-v"], [28, "oewn-10643436-n"]]
     paragraph: '4'
     pos: ["IN", "PRP$", "NN", "RB", "PRP", "MD", "RB", "VB", "JJ", "IN", "PRP", "TO", "VB", "NN", "RB", "RB", "NNP", "VBD", "VB", "PRP$", "NN", ":", "RB", "WP", "NNP", "VBD", "VB", "PRP$", "NN", "."]
     text: ' In his sculpture therefore it would not be possible for him to project anything
@@ -199,7 +199,7 @@ Sh/z:
     wn30_key: [[2, "sculpture%1:06:00::"], [3, "therefore%4:02:00::"], [6, "not%4:02:00::"], [7, "be%2:42:03::"], [8, "possible%3:00:00::"], [12, "project%2:32:00::"], [16, "jesus%1:18:00::"], [17, "feel%2:37:00::"], [20, "mother%1:18:00::"], [22, "only%4:02:01::"], [24, "person%1:03:00::"], [25, "feel%2:37:00::"], [28, "son%1:18:00::"]]
 8psY:
     lemmas: ["jesus", "'", "inert", "body", "would", "be", "passive", ",", "his", "eye", "closed", "."]
-    oewn2026_key: [[0, "oewn-11103646-n"], [2, "oewn-01569431-s"], [3, "oewn-05223633-n"], [5, "oewn-02610777-v"], [6, "oewn-00039705-a"], [9, "oewn-05318579-n"], [10, "oewn-01659588-a"]]
+    oewn_key: [[0, "oewn-11103646-n"], [2, "oewn-01569431-s"], [3, "oewn-05223633-n"], [5, "oewn-02610777-v"], [6, "oewn-00039705-a"], [9, "oewn-05318579-n"], [10, "oewn-01659588-a"]]
     paragraph: '4'
     pos: ["NNP", "POS", "JJ", "NN", "MD", "VB", "JJ", ",", "PRP$", "NNS", "JJ", "."]
     text: ' Jesus'' inert body would be passive, his eyes closed.'
@@ -208,7 +208,7 @@ Sh/z:
     wn30_key: [[0, "jesus%1:18:00::"], [2, "inert%3:00:00:nonmoving:00"], [3, "body%1:08:00::"], [5, "be%2:42:03::"], [6, "passive%3:00:01::"], [9, "eye%1:08:00::"], [10, "closed%3:00:03::"]]
 n8HJ:
     lemmas: ["person", "would", "have_to", "carry", "the", "human", "communication", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [3, "oewn-01062889-v"], [5, "oewn-01261689-a"], [6, "oewn-00033319-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [3, "oewn-01062889-v"], [5, "oewn-01261689-a"], [6, "oewn-00033319-n"]]
     paragraph: '4'
     pos: ["NNP", "MD", "VB", "VB", "DT", "JJ", "NN", "."]
     text: ' Mary would have_to carry the human communication.'
@@ -217,7 +217,7 @@ n8HJ:
     wn30_key: [[0, "person%1:03:00::"], [3, "carry%2:32:02::"], [5, "human%3:00:00::"], [6, "communication%1:03:00::"]]
 FEDi:
     lemmas: ["This", "seem", "right", "to", "him", "."]
-    oewn2026_key: [[1, "oewn-02137900-v"], [2, "oewn-01885314-s"]]
+    oewn_key: [[1, "oewn-02137900-v"], [2, "oewn-01885314-s"]]
     paragraph: '4'
     pos: ["DT", "VBD", "JJ", "TO", "PRP", "."]
     text: ' This seemed right to him.
@@ -228,7 +228,7 @@ FEDi:
     wn30_key: [[1, "seem%2:39:00::"], [2, "right%3:00:01:proper:00"]]
 16lz:
     lemmas: ["It", "be", "a", "relief", "to", "shift", "in", "his", "mind", "to", "technical", "problem", "."]
-    oewn2026_key: [[1, "oewn-02622439-v"], [3, "oewn-07508420-n"], [5, "oewn-00380830-v"], [8, "oewn-05619057-n"], [10, "oewn-02820043-a"], [11, "oewn-06796860-n"]]
+    oewn_key: [[1, "oewn-02622439-v"], [3, "oewn-07508420-n"], [5, "oewn-00380830-v"], [8, "oewn-05619057-n"], [10, "oewn-02820043-a"], [11, "oewn-06796860-n"]]
     paragraph: '5'
     pos: ["PRP", "VBD", "DT", "NN", "TO", "VB", "IN", "PRP$", "NN", "TO", "JJ", "NNS", "."]
     text: ' It was a relief to shift in his mind to technical problems.'
@@ -237,7 +237,7 @@ FEDi:
     wn30_key: [[1, "be%2:42:06::"], [3, "relief%1:12:00::"], [5, "shift%2:30:00::"], [8, "mind%1:09:00::"], [10, "technical%3:01:00::"], [11, "problem%1:10:00::"]]
 OFrl:
     lemmas: ["Since", "his", "christ", "be", "to", "be", "life-size", ",", "how", "be", "person", "to", "hold", "him", "on", "her", "lap", "without", "the", "relationship", "seem", "ungainly", "?"]
-    oewn2026_key: [[2, "oewn-11103646-n"], [5, "oewn-02610777-v"], [6, "oewn-01391589-s"], [10, "oewn-00007846-n"], [12, "oewn-01219234-v"], [16, "oewn-05570228-n"], [19, "oewn-13951421-n"], [20, "oewn-02137900-v"], [21, "oewn-01144412-s"]]
+    oewn_key: [[2, "oewn-11103646-n"], [5, "oewn-02610777-v"], [6, "oewn-01391589-s"], [10, "oewn-00007846-n"], [12, "oewn-01219234-v"], [16, "oewn-05570228-n"], [19, "oewn-13951421-n"], [20, "oewn-02137900-v"], [21, "oewn-01144412-s"]]
     paragraph: '5'
     pos: ["IN", "PRP$", "NNP", "VBD", "TO", "VB", "JJ", ",", "WRB", "VBD", "NNP", "TO", "VB", "PRP", "IN", "PRP$", "NN", "IN", "DT", "NN", "VBG", "JJ", "."]
     text: ' Since his Christ was to be life_size, how was Mary to hold him on her lap without
@@ -247,7 +247,7 @@ OFrl:
     wn30_key: [[2, "christ%1:18:00::"], [5, "be%2:42:03::"], [6, "life-size%3:00:00:large:00"], [10, "person%1:03:00::"], [12, "hold%2:35:00::"], [16, "lap%1:08:00::"], [19, "relationship%1:26:00::"], [20, "seem%2:39:00::"], [21, "ungainly%3:00:00:awkward:00"]]
 Abzk:
     lemmas: ["His", "person", "would", "be", "slender", "of", "limb", "and", "delicate", "of", "proportion", ",", "yet", "she", "must", "hold", "this", "full-grown", "man", "as", "securely", "and", "convincingly", "as", "she", "would", "a", "child", "."]
-    oewn2026_key: [[1, "oewn-00007846-n"], [3, "oewn-02610777-v"], [4, "oewn-02573296-s"], [6, "oewn-05567877-n"], [8, "oewn-01955211-s"], [10, "oewn-13921008-n"], [15, "oewn-02208144-v;oewn-01219234-v"], [17, "oewn-01491979-s"], [18, "oewn-10306910-n"], [20, "oewn-00226317-r"], [22, "oewn-00194221-r"], [27, "oewn-09937706-n"]]
+    oewn_key: [[1, "oewn-00007846-n"], [3, "oewn-02610777-v"], [4, "oewn-02573296-s"], [6, "oewn-05567877-n"], [8, "oewn-01955211-s"], [10, "oewn-13921008-n"], [15, "oewn-02208144-v;oewn-01219234-v"], [17, "oewn-01491979-s"], [18, "oewn-10306910-n"], [20, "oewn-00226317-r"], [22, "oewn-00194221-r"], [27, "oewn-09937706-n"]]
     paragraph: '5'
     pos: ["PRP$", "NNP", "MD", "VB", "JJR", "IN", "NN", "CC", "JJ", "IN", "NN", ",", "RB", "PRP", "MD", "VB", "DT", "JJ", "NN", "RB", "RB", "CC", "RB", "RB", "PRP", "MD", "DT", "NN", "."]
     text: ' His Mary would be slender of limb and delicate of proportion, yet she must hold
@@ -259,7 +259,7 @@ Abzk:
     wn30_key: [[1, "person%1:03:00::"], [3, "be%2:42:03::"], [4, "slender%3:00:00:narrow:00"], [6, "limb%1:08:00::"], [8, "delicate%3:00:00:refined:01"], [10, "proportion%1:25:00::"], [15, "hold%2:40:00::;hold%2:35:00::"], [17, "full-grown%3:00:00:mature:01"], [18, "man%1:18:00::"], [20, "securely%4:02:00::"], [22, "convincingly%4:02:00::"], [27, "child%1:18:01::"]]
 7JZn:
     lemmas: ["There", "be", "only", "one", "way", "to", "accomplish", "this", ":", "by", "design", ",", "by", "draw", "diagram", "and", "sketch", "in", "which", "he", "probe", "the", "remote", "corner", "of", "his", "mind", "for", "creative", "idea", "to", "carry", "his", "concept", "."]
-    oewn2026_key: [[1, "oewn-02609706-v"], [2, "oewn-00009062-r"], [3, "oewn-02071831-s"], [4, "oewn-00173531-n"], [6, "oewn-02531751-v"], [10, "oewn-00929892-n"], [13, "oewn-01694189-v"], [14, "oewn-03191083-n"], [16, "oewn-04234206-n"], [20, "oewn-01229439-v"], [22, "oewn-00444934-s"], [23, "oewn-08561994-n"], [26, "oewn-05619057-n"], [28, "oewn-00646272-a"], [29, "oewn-05842164-n"], [31, "oewn-01062889-v"], [33, "oewn-05844071-n"]]
+    oewn_key: [[1, "oewn-02609706-v"], [2, "oewn-00009062-r"], [3, "oewn-02071831-s"], [4, "oewn-00173531-n"], [6, "oewn-02531751-v"], [10, "oewn-00929892-n"], [13, "oewn-01694189-v"], [14, "oewn-03191083-n"], [16, "oewn-04234206-n"], [20, "oewn-01229439-v"], [22, "oewn-00444934-s"], [23, "oewn-08561994-n"], [26, "oewn-05619057-n"], [28, "oewn-00646272-a"], [29, "oewn-05842164-n"], [31, "oewn-01062889-v"], [33, "oewn-05844071-n"]]
     paragraph: '6'
     pos: ["EX", "VBD", "RB", "JJ", "NN", "TO", "VB", "DT", ":", "RB", "NN", ",", "IN", "VBG", "NNS", "CC", "NNS", "RB", "RB", "PRP", "VBD", "DT", "JJS", "NN", "IN", "PRP$", "NN", "IN", "JJ", "NNS", "TO", "VB", "PRP$", "NN", "."]
     text: ' There was only one way to accomplish this: by design, by drawing diagrams and sketches
@@ -272,7 +272,7 @@ Abzk:
     wn30_key: [[1, "be%2:42:00::"], [2, "only%4:02:01::"], [3, "one%3:00:00:same:00"], [4, "way%1:04:01::"], [6, "accomplish%2:41:00::"], [10, "design%1:04:00::"], [13, "draw%2:36:00::"], [14, "diagram%1:06:00::"], [16, "sketch%1:06:00::"], [20, "probe%2:35:00::"], [22, "remote%3:00:01:far:00"], [23, "corner%1:15:02::"], [26, "mind%1:09:00::"], [28, "creative%3:00:00::"], [29, "idea%1:09:00::"], [31, "carry%2:32:02::"], [33, "concept%1:09:00::"]]
 Tl0W:
     lemmas: ["He", "start", "by", "make", "free", "sketch", "to", "loosen_up", "his", "thinking", "so_that", "image", "would", "appear", "on", "paper", "."]
-    oewn2026_key: [[1, "oewn-00346415-v"], [3, "oewn-01620211-v"], [5, "oewn-04234206-n"], [7, "oewn-01482312-v"], [9, "oewn-05778923-n"], [11, "oewn-05936904-n"], [13, "oewn-00423043-v"], [15, "oewn-14998823-n"]]
+    oewn_key: [[1, "oewn-00346415-v"], [3, "oewn-01620211-v"], [5, "oewn-04234206-n"], [7, "oewn-01482312-v"], [9, "oewn-05778923-n"], [11, "oewn-05936904-n"], [13, "oewn-00423043-v"], [15, "oewn-14998823-n"]]
     paragraph: '7'
     pos: ["PRP", "VBD", "IN", "VBG", "JJ", "NNS", "TO", "VB", "PRP$", "NN", "RB", "NNS", "MD", "VB", "RB", "NN", "."]
     text: ' He started by making free sketches to loosen_up his thinking so_that images would
@@ -282,7 +282,7 @@ Tl0W:
     wn30_key: [[1, "start%2:30:00::"], [3, "make%2:36:00::"], [5, "sketch%1:06:00::"], [7, "loosen_up%2:35:00::"], [9, "thinking%1:09:00::"], [11, "image%1:09:00::"], [13, "appear%2:30:00::"], [15, "paper%1:27:00::"]]
 Czn5:
     lemmas: ["visually", ",", "these", "approximate", "what", "he", "be", "feel", "within", "himself", "."]
-    oewn2026_key: [[0, "oewn-00133950-r"], [3, "oewn-02672137-v"], [7, "oewn-01775456-v"]]
+    oewn_key: [[0, "oewn-00133950-r"], [3, "oewn-02672137-v"], [7, "oewn-01775456-v"]]
     paragraph: '7'
     pos: ["RB", ",", "DT", "VBD", "WP", "PRP", "VBD", "VBG", "IN", "PRP", "."]
     text: ' Visually, these approximated what he was feeling within himself.'
@@ -291,7 +291,7 @@ Czn5:
     wn30_key: [[0, "visually%4:02:00::"], [3, "approximate%2:42:00::"], [7, "feel%2:37:00::"]]
 SgRf:
     lemmas: ["at_the_same_time", "he", "start", "walk", "the", "street", ",", "peer", "at", "the", "people", "pass", "or", "shop_at", "the", "stall", ",", "store", "up", "fresh", "impression", "of", "what", "they", "look_like", ",", "how", "they", "move", "."]
-    oewn2026_key: [[2, "oewn-00346415-v"], [3, "oewn-01908923-v"], [5, "oewn-04341737-n"], [7, "oewn-02173409-v"], [10, "oewn-07958392-n"], [11, "oewn-02055618-v"], [13, "oewn-02471557-v"], [15, "oewn-04306353-n"], [17, "oewn-02287351-v"], [19, "oewn-01645893-s"], [20, "oewn-05925333-n"], [24, "oewn-02671694-v"], [28, "oewn-01835473-v"]]
+    oewn_key: [[2, "oewn-00346415-v"], [3, "oewn-01908923-v"], [5, "oewn-04341737-n"], [7, "oewn-02173409-v"], [10, "oewn-07958392-n"], [11, "oewn-02055618-v"], [13, "oewn-02471557-v"], [15, "oewn-04306353-n"], [17, "oewn-02287351-v"], [19, "oewn-01645893-s"], [20, "oewn-05925333-n"], [24, "oewn-02671694-v"], [28, "oewn-01835473-v"]]
     paragraph: '7'
     pos: ["JJ", "PRP", "VBD", "VBG", "DT", "NNS", ",", "VBG", "IN", "DT", "NNS", "VB", "CC", "VB", "DT", "NNS", ",", "VBG", "IN", "JJ", "NNS", "RB", "RB", "PRP", "VBP", ",", "WRB", "PRP", "VBD", "."]
     text: ' At_the_same_time he started walking the streets, peering at the people passing or
@@ -302,7 +302,7 @@ SgRf:
     wn30_key: [[2, "start%2:30:00::"], [3, "walk%2:38:00::"], [5, "street%1:06:00::"], [7, "peer%2:39:00::"], [10, "people%1:14:00::"], [11, "pass%2:38:05::"], [13, "shop_at%2:41:00::"], [15, "stall%1:06:01::"], [17, "store%2:40:02::"], [19, "fresh%3:00:00:new:00"], [20, "impression%1:09:00::"], [24, "look_like%2:42:00::"], [28, "move%2:38:00::"]]
 GVfZ:
     lemmas: ["in_particular", "he", "seek", "the", "gentle", ",", "sweet-faced", "nun", ",", "with", "head_covering", "and", "veil", "come", "to", "the", "middle", "of", "their", "forehead", ",", "remember", "their", "expression", "until", "he", "reach", "home", "and", "set_down", "them", "down", "on", "paper", "."]
-    oewn2026_key: [[0, "oewn-00250244-r"], [2, "oewn-01318273-v"], [4, "oewn-01376241-s"], [6, "oewn-00237792-s"], [7, "oewn-10387708-n"], [10, "oewn-03507475-n"], [12, "oewn-03507475-n"], [13, "oewn-02692647-v"], [16, "oewn-08540894-n"], [19, "oewn-05610303-n"], [21, "oewn-00611237-v"], [23, "oewn-04687095-n"], [26, "oewn-02010848-v"], [27, "oewn-08577045-n"], [29, "oewn-01022365-v"], [33, "oewn-14998823-n"]]
+    oewn_key: [[0, "oewn-00250244-r"], [2, "oewn-01318273-v"], [4, "oewn-01376241-s"], [6, "oewn-00237792-s"], [7, "oewn-10387708-n"], [10, "oewn-03507475-n"], [12, "oewn-03507475-n"], [13, "oewn-02692647-v"], [16, "oewn-08540894-n"], [19, "oewn-05610303-n"], [21, "oewn-00611237-v"], [23, "oewn-04687095-n"], [26, "oewn-02010848-v"], [27, "oewn-08577045-n"], [29, "oewn-01022365-v"], [33, "oewn-14998823-n"]]
     paragraph: '7'
     pos: ["RB", "PRP", "VBD", "DT", "JJ", ",", "JJ", "NNS", ",", "IN", "NNS", "CC", "NNS", "VBG", "VB", "DT", "NN", "IN", "PRP$", "NNS", ",", "VBG", "PRP$", "NNS", "IN", "PRP", "VBD", "NN", "CC", "VBD", "PRP", "RB", "RB", "NN", "."]
     text: ' In_particular he sought the gentle, sweet-faced nuns, with head_coverings and veils
@@ -315,7 +315,7 @@ GVfZ:
     wn30_key: [[0, "in_particular%4:02:00::"], [2, "seek%2:35:00::"], [4, "gentle%3:00:01:kind:00"], [6, "sweet-faced%3:00:00:faced:00"], [7, "nun%1:18:00::"], [10, "head_covering%1:06:00::"], [12, "veil%1:06:00::"], [13, "come%2:42:03::"], [16, "middle%1:15:00::"], [19, "forehead%1:08:00::"], [21, "remember%2:31:01::"], [23, "expression%1:07:00::"], [26, "reach%2:38:00::"], [27, "home%1:15:04::"], [29, "set_down%2:32:00::"], [33, "paper%1:27:00::"]]
 GsNB:
     lemmas: ["discover", "that", "drapery", "could", "be", "design", "to", "serve", "structural", "purpose", ",", "he", "begin", "a", "study", "of", "the", "anatomy", "of", "fold", "."]
-    oewn2026_key: [[0, "oewn-02291532-v"], [2, "oewn-03155743-n"], [5, "oewn-01641910-v"], [7, "oewn-02676679-v"], [8, "oewn-01094286-s"], [9, "oewn-05156572-n"], [12, "oewn-00349400-v"], [14, "oewn-04234206-n"], [17, "oewn-00647430-n"], [19, "oewn-13930429-n"]]
+    oewn_key: [[0, "oewn-02291532-v"], [2, "oewn-03155743-n"], [5, "oewn-01641910-v"], [7, "oewn-02676679-v"], [8, "oewn-01094286-s"], [9, "oewn-05156572-n"], [12, "oewn-00349400-v"], [14, "oewn-04234206-n"], [17, "oewn-00647430-n"], [19, "oewn-13930429-n"]]
     paragraph: '8'
     pos: ["VBG", "IN", "NNS", "MD", "VB", "VBN", "TO", "VB", "JJ", "NNS", ",", "PRP", "VBD", "DT", "NN", "IN", "DT", "NN", "IN", "NN", "."]
     text: ' Discovering that draperies could be designed to serve structural purposes, he began
@@ -325,7 +325,7 @@ GsNB:
     wn30_key: [[0, "discover%2:40:00::"], [2, "drapery%1:06:00::"], [5, "design%2:36:02::"], [7, "serve%2:42:03::"], [8, "structural%3:00:00:functional:00"], [9, "purpose%1:07:00::"], [12, "begin%2:30:01::"], [14, "study%1:06:01::"], [17, "anatomy%1:04:00::"], [19, "fold%1:25:00::"]]
 TpRK:
     lemmas: ["He", "improvise", "as", "he", "go_along", ",", "complete", "a", "life-size", "clay", "figure", ",", "then", "buy", "yard", "of", "an", "inexpensive", "material", "from", "a", "draper", ",", "wet", "the", "lightweight", "cloth", "in", "a", "basin", "and", "cover", "it", "over", "with", "clay", "that", "person", "bring", "from", "the", "bank", "of", "the", "tiber", ",", "to", "the", "consistency", "of", "thick", "mud", "."]
-    oewn2026_key: [[1, "oewn-01732719-v"], [4, "oewn-02690747-v"], [6, "oewn-00485097-v"], [8, "oewn-01391589-s"], [9, "oewn-14837352-n"], [10, "oewn-03340545-n"], [12, "oewn-00118527-r"], [13, "oewn-02211988-v"], [14, "oewn-13672065-n"], [17, "oewn-00937468-a"], [18, "oewn-03314753-n"], [21, "oewn-10051915-n"], [23, "oewn-00215377-v"], [25, "oewn-01190276-s"], [26, "oewn-03314753-n"], [29, "oewn-02804691-n"], [31, "oewn-01335412-v"], [35, "oewn-14837352-n"], [37, "oewn-00007846-n"], [38, "oewn-02081903-v"], [41, "oewn-09236472-n"], [48, "oewn-04941723-n"], [50, "oewn-02424186-a"], [51, "oewn-14980464-n"]]
+    oewn_key: [[1, "oewn-01732719-v"], [4, "oewn-02690747-v"], [6, "oewn-00485097-v"], [8, "oewn-01391589-s"], [9, "oewn-14837352-n"], [10, "oewn-03340545-n"], [12, "oewn-00118527-r"], [13, "oewn-02211988-v"], [14, "oewn-13672065-n"], [17, "oewn-00937468-a"], [18, "oewn-03314753-n"], [21, "oewn-10051915-n"], [23, "oewn-00215377-v"], [25, "oewn-01190276-s"], [26, "oewn-03314753-n"], [29, "oewn-02804691-n"], [31, "oewn-01335412-v"], [35, "oewn-14837352-n"], [37, "oewn-00007846-n"], [38, "oewn-02081903-v"], [41, "oewn-09236472-n"], [48, "oewn-04941723-n"], [50, "oewn-02424186-a"], [51, "oewn-14980464-n"]]
     paragraph: '8'
     pos: ["PRP", "VBD", "IN", "PRP", "VB", ",", "VBG", "DT", "JJ", "NN", "NN", ",", "RB", "VBD", "NNS", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", ",", "VB", "DT", "JJ", "NN", "IN", "DT", "NN", "CC", "VBD", "PRP", "IN", "IN", "NN", "IN", "NNP", "VBD", "IN", "DT", "NN", "IN", "DT", "NNP", ",", "TO", "DT", "NN", "IN", "JJ", "NN", "."]
     text: ' He improvised as he went_along, completing a life-size clay figure, then bought
@@ -337,7 +337,7 @@ TpRK:
     wn30_key: [[1, "improvise%2:36:00::"], [4, "go_along%2:42:00::"], [6, "complete%2:30:02::"], [8, "life-size%3:00:00:large:00"], [9, "clay%1:27:00::"], [10, "figure%1:06:00::"], [12, "then%4:02:00::"], [13, "buy%2:40:00::"], [14, "yard%1:23:00::"], [17, "inexpensive%3:00:00::"], [18, "material%1:06:00::"], [21, "draper%1:18:00::"], [23, "wet%2:30:00::"], [25, "lightweight%3:00:00:light:01"], [26, "cloth%1:06:00::"], [29, "basin%1:06:00::"], [31, "cover%2:35:00::"], [35, "clay%1:27:00::"], [37, "person%1:03:00::"], [38, "bring%2:38:00::"], [41, "bank%1:17:01::"], [48, "consistency%1:07:00::"], [50, "thick%3:00:02::"], [51, "mud%1:27:00::"]]
 TG47:
     lemmas: ["No", "fold", "could", "be", "accidental", ",", "each", "turn", "of", "the", "drapery", "have", "to", "serve", "organically", ",", "to", "cover", "the", "person", "'s", "slender", "leg", "and", "foot", "so", "that", "they", "would", "give", "substantive", "support", "to", "christ", "'s", "body", ",", "to", "intensify", "her", "inner", "turmoil", "."]
-    oewn2026_key: [[1, "oewn-13930429-n"], [3, "oewn-02610777-v"], [7, "oewn-07366212-n"], [10, "oewn-03155743-n"], [13, "oewn-02676679-v"], [14, "oewn-00114489-r"], [17, "oewn-01210571-v"], [19, "oewn-00007846-n"], [21, "oewn-00994085-s"], [22, "oewn-05568420-n;oewn-13936864-n"], [24, "oewn-05570899-n"], [29, "oewn-02321848-v"], [30, "oewn-00905143-s"], [31, "oewn-04367588-n"], [33, "oewn-11103646-n"], [35, "oewn-05223633-n"], [38, "oewn-00227591-v"], [40, "oewn-00955021-s"], [41, "oewn-07529759-n"]]
+    oewn_key: [[1, "oewn-13930429-n"], [3, "oewn-02610777-v"], [7, "oewn-07366212-n"], [10, "oewn-03155743-n"], [13, "oewn-02676679-v"], [14, "oewn-00114489-r"], [17, "oewn-01210571-v"], [19, "oewn-00007846-n"], [21, "oewn-00994085-s"], [22, "oewn-05568420-n;oewn-13936864-n"], [24, "oewn-05570899-n"], [29, "oewn-02321848-v"], [30, "oewn-00905143-s"], [31, "oewn-04367588-n"], [33, "oewn-11103646-n"], [35, "oewn-05223633-n"], [38, "oewn-00227591-v"], [40, "oewn-00955021-s"], [41, "oewn-07529759-n"]]
     paragraph: '8'
     pos: ["DT", "NN", "MD", "VB", "JJ", ",", "DT", "NN", "IN", "DT", "NN", "VB", "VB", "VB", "RB", ",", "TO", "VB", "DT", "NNP", "POS", "JJ", "NNS", "CC", "NNS", "RB", "RB", "PRP", "MD", "VB", "JJ", "NN", "TO", "NNP", "POS", "NN", ",", "TO", "VB", "PRP$", "JJ", "NN", "."]
     text: ' No fold could be accidental, each turn of the drapery had to serve organically,
@@ -348,7 +348,7 @@ TG47:
     wn30_key: [[1, "fold%1:25:00::"], [3, "be%2:42:03::"], [7, "turn%1:11:00::"], [10, "drapery%1:06:00::"], [13, "serve%2:42:03::"], [14, "organically%4:02:01::"], [17, "cover%2:35:01::"], [19, "person%1:03:00::"], [21, "slender%3:00:00:thin:03"], [22, "leg%1:08:01::;leg%1:25:00::"], [24, "foot%1:08:01::"], [29, "give%2:40:03::"], [30, "substantive%3:00:00:essential:00"], [31, "support%1:06:01::"], [33, "christ%1:18:00::"], [35, "body%1:08:00::"], [38, "intensify%2:30:01::"], [40, "inner%3:00:00:inward:00"], [41, "turmoil%1:12:00::"]]
 JDYX:
     lemmas: ["When", "the", "cloth", "dry", "and", "stiffen", ",", "he", "see", "what", "adjustment", "have", "to", "be", "make", "."]
-    oewn2026_key: [[2, "oewn-03314753-n"], [3, "oewn-00219829-v"], [5, "oewn-00419488-v"], [8, "oewn-00600349-v"], [10, "oewn-00200556-n"], [14, "oewn-02566500-v"]]
+    oewn_key: [[2, "oewn-03314753-n"], [3, "oewn-00219829-v"], [5, "oewn-00419488-v"], [8, "oewn-00600349-v"], [10, "oewn-00200556-n"], [14, "oewn-02566500-v"]]
     paragraph: '8'
     pos: ["WRB", "DT", "NN", "VBD", "CC", "VBD", ",", "PRP", "VBD", "WP", "NNS", "VB", "VB", "VB", "VBN", "."]
     text: ' When the cloth dried and stiffened, he saw what adjustments had to be made.
@@ -359,7 +359,7 @@ JDYX:
     wn30_key: [[2, "cloth%1:06:00::"], [3, "dry%2:30:00::"], [5, "stiffen%2:30:00::"], [8, "see%2:31:02::"], [10, "adjustment%1:04:00::"], [14, "make%2:41:00::"]]
 84Z9:
     lemmas: ["\"", "so", "that", "'s", "sculpture", "\"", ",", "comment", "person", "wryly", ",", "when", "he", "have", "sluice", "down", "the", "floor", "for", "a", "week", ",", "\"", "make", "mud", "pie", "\"", "."]
-    oewn2026_key: [[4, "oewn-04164381-n"], [7, "oewn-01060446-v"], [8, "oewn-00007846-n"], [9, "oewn-00226460-r"], [14, "oewn-00456323-v"], [17, "oewn-03370438-n"], [20, "oewn-15194920-n"], [23, "oewn-01620211-v"], [24, "oewn-14980464-n"], [25, "oewn-07641102-n"]]
+    oewn_key: [[4, "oewn-04164381-n"], [7, "oewn-01060446-v"], [8, "oewn-00007846-n"], [9, "oewn-00226460-r"], [14, "oewn-00456323-v"], [17, "oewn-03370438-n"], [20, "oewn-15194920-n"], [23, "oewn-01620211-v"], [24, "oewn-14980464-n"], [25, "oewn-07641102-n"]]
     paragraph: '9'
     pos: ["``", "RB", "RB", "POS", "NN", "''", ",", "VBD", "NNP", "RB", ",", "WRB", "PRP", "VBD", "VBN", "RB", "DT", "NN", "IN", "DT", "NN", ",", "``", "VBG", "NN", "NNS", "''", "."]
     text: ' " So that''s sculpture ", commented Argiento wryly, when he had sluiced down the
@@ -371,7 +371,7 @@ JDYX:
     wn30_key: [[4, "sculpture%1:06:00::"], [7, "comment%2:32:00::"], [8, "person%1:03:00::"], [9, "wryly%4:02:00::"], [14, "sluice%2:30:01::"], [17, "floor%1:06:00::"], [20, "week%1:28:00::"], [23, "make%2:36:00::"], [24, "mud%1:27:00::"], [25, "pie%1:13:00::"]]
 s2Jd:
     lemmas: ["person", "grin", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-00029018-v"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-00029018-v"]]
     paragraph: '10'
     pos: ["NNP", "VBD", "."]
     text: ' Michelangelo grinned.'
@@ -380,7 +380,7 @@ s2Jd:
     wn30_key: [[0, "person%1:03:00::"], [1, "grin%2:29:00::"]]
 KVZy:
     lemmas: ["\"", "see", ",", "person", ",", "if", "you", "control", "the", "way", "these", "fold", "be", "bunch", ",", "like", "this", ",", "or", "make", "to", "flow", ",", "you", "can", "enrich", "the", "body", "attitude", "."]
-    oewn2026_key: [[1, "oewn-00592510-v"], [3, "oewn-00007846-n"], [7, "oewn-01227308-v"], [9, "oewn-04936080-n"], [11, "oewn-13930429-n"], [13, "oewn-02031257-v"], [19, "oewn-00772482-v"], [21, "oewn-02070438-v"], [25, "oewn-00171599-v"], [27, "oewn-05223633-n"], [28, "oewn-05087073-n"]]
+    oewn_key: [[1, "oewn-00592510-v"], [3, "oewn-00007846-n"], [7, "oewn-01227308-v"], [9, "oewn-04936080-n"], [11, "oewn-13930429-n"], [13, "oewn-02031257-v"], [19, "oewn-00772482-v"], [21, "oewn-02070438-v"], [25, "oewn-00171599-v"], [27, "oewn-05223633-n"], [28, "oewn-05087073-n"]]
     paragraph: '10'
     pos: ["``", "VB", ",", "NNP", ",", "IN", "PRP", "VBP", "DT", "NN", "DT", "NN", "VBP", "VBN", ",", "IN", "DT", ",", "CC", "VBN", "TO", "VB", ",", "PRP", "MD", "VB", "DT", "NN", "NNS", "."]
     text: ' " See, Argiento, if you control the way these folds are bunched, like this, or made
@@ -390,7 +390,7 @@ KVZy:
     wn30_key: [[1, "see%2:31:01::"], [3, "person%1:03:00::"], [7, "control%2:35:00::"], [9, "way%1:07:01::"], [11, "fold%1:25:00::"], [13, "bunch%2:38:00::"], [19, "make%2:32:00::"], [21, "flow%2:38:01::"], [25, "enrich%2:30:00::"], [27, "body%1:08:00::"], [28, "attitude%1:07:01::"]]
 BkKy:
     lemmas: ["They", "can", "have", "as", "much", "tactile", "appeal", "as", "flesh_and_bone", "\"", "."]
-    oewn2026_key: [[2, "oewn-02208144-v"], [4, "oewn-01557986-a"], [5, "oewn-02880379-a"], [6, "oewn-04694682-n"]]
+    oewn_key: [[2, "oewn-02208144-v"], [4, "oewn-01557986-a"], [5, "oewn-02880379-a"], [6, "oewn-04694682-n"]]
     paragraph: '10'
     pos: ["PRP", "MD", "VB", "RB", "JJ", "JJ", "NN", "IN", "NN", "''", "."]
     text: ' They can have as much tactile appeal as flesh_and_bone ".
@@ -401,7 +401,7 @@ BkKy:
     wn30_key: [[2, "have%2:40:00::"], [4, "much%3:00:00::"], [5, "tactile%3:01:00::"], [6, "appeal%1:07:00::"]]
 E1q/:
     lemmas: ["He", "go_into", "the", "location", ",", "want", "to", "draw", "hebraic", "face", "so_that", "he", "could", "reach", "a", "visual", "understanding", "of", "how", "christ", "might", "have", "look", "."]
-    oewn2026_key: [[1, "oewn-02020375-v"], [3, "oewn-00027365-n"], [5, "oewn-01829179-v"], [7, "oewn-01694189-v"], [8, "oewn-03050601-a"], [9, "oewn-05608392-n"], [13, "oewn-02531751-v"], [15, "oewn-02880845-a"], [16, "oewn-05813483-n"], [19, "oewn-11103646-n"], [22, "oewn-00033592-v"]]
+    oewn_key: [[1, "oewn-02020375-v"], [3, "oewn-00027365-n"], [5, "oewn-01829179-v"], [7, "oewn-01694189-v"], [8, "oewn-03050601-a"], [9, "oewn-05608392-n"], [13, "oewn-02531751-v"], [15, "oewn-02880845-a"], [16, "oewn-05813483-n"], [19, "oewn-11103646-n"], [22, "oewn-00033592-v"]]
     paragraph: '11'
     pos: ["PRP", "VBD", "DT", "NN", ",", "VBG", "VB", "VB", "JJ", "NNS", "RB", "PRP", "MD", "VB", "DT", "JJ", "NN", "IN", "WRB", "NNP", "MD", "VB", "VBN", "."]
     text: ' He went_into the Jewish_quarter, wanting to draw Hebraic faces so_that he could
@@ -411,7 +411,7 @@ E1q/:
     wn30_key: [[1, "go_into%2:38:00::"], [3, "location%1:03:00::"], [5, "want%2:37:00::"], [7, "draw%2:36:00::"], [8, "hebraic%3:01:00::"], [9, "face%1:08:00::"], [13, "reach%2:41:00::"], [15, "visual%3:01:04::"], [16, "understanding%1:09:01::"], [19, "christ%1:18:00::"], [22, "look%2:29:00::"]]
 t+/M:
     lemmas: ["The", "jewish", "section", "be", "in", "location", ",", "near", "the", "tiber", "at", "the", "church", "of", "group", "."]
-    oewn2026_key: [[1, "oewn-02933576-a"], [2, "oewn-08665897-n"], [3, "oewn-02661230-v"], [5, "oewn-00027365-n"], [7, "oewn-00446553-a"], [12, "oewn-03031762-n"], [14, "oewn-00031563-n"]]
+    oewn_key: [[1, "oewn-02933576-a"], [2, "oewn-08665897-n"], [3, "oewn-02661230-v"], [5, "oewn-00027365-n"], [7, "oewn-00446553-a"], [12, "oewn-03031762-n"], [14, "oewn-00031563-n"]]
     paragraph: '11'
     pos: ["DT", "JJ", "NN", "VBD", "IN", "NNP", ",", "JJ", "DT", "NNP", "IN", "DT", "NN", "IN", "NN", "."]
     text: ' The Jewish section was in Trastevere, near the Tiber at the church of San_Francesco_a_Ripa.'
@@ -420,7 +420,7 @@ t+/M:
     wn30_key: [[1, "jewish%3:01:01::"], [2, "section%1:15:01::"], [3, "be%2:42:05::"], [5, "location%1:03:00::"], [7, "near%3:00:00::"], [12, "church%1:06:00::"], [14, "group%1:03:00::"]]
 ZFmp:
     lemmas: ["The", "colony", "have", "be", "small", "until", "the", "Spanish_Inquisition_of_1492", "drive", "many", "jew", "into", "location", "."]
-    oewn2026_key: [[1, "oewn-08390976-n"], [3, "oewn-02610777-v"], [4, "oewn-01394303-a"], [8, "oewn-02511007-v"], [9, "oewn-01555990-a"], [10, "oewn-09700747-n"], [12, "oewn-00027365-n"]]
+    oewn_key: [[1, "oewn-08390976-n"], [3, "oewn-02610777-v"], [4, "oewn-01394303-a"], [8, "oewn-02511007-v"], [9, "oewn-01555990-a"], [10, "oewn-09700747-n"], [12, "oewn-00027365-n"]]
     paragraph: '11'
     pos: ["DT", "NN", "VBD", "VBN", "JJ", "IN", "DT", "CD", "VBD", "JJ", "NNPS", "IN", "NNP", "."]
     text: ' The colony had been small until the Spanish_Inquisition_of_1492 drove many Jews
@@ -430,7 +430,7 @@ ZFmp:
     wn30_key: [[1, "colony%1:14:00::"], [3, "be%2:42:03::"], [4, "small%3:00:00::"], [8, "drive%2:41:02::"], [9, "many%3:00:00::"], [10, "jew%1:18:00::"], [12, "location%1:03:00::"]]
 rRqw:
     lemmas: ["here", ",", "for_the_most_part", ",", "they", "be", "well", "treat", ",", "as", "a", "\"", "reminder", "of", "the", "old_testament", "heritage", "of", "christianity", "\"", ";", "many_of", "their", "gifted", "member", "be", "prominent", "in", "the", "vatican", "as", "physician", ",", "musician", ",", "banker", "."]
-    oewn2026_key: [[0, "oewn-00109541-r"], [2, "oewn-00006486-r"], [6, "oewn-00011555-r"], [7, "oewn-02519853-v"], [12, "oewn-05821727-n"], [15, "oewn-06461405-n"], [16, "oewn-05677641-n"], [18, "oewn-06236188-n"], [23, "oewn-01122955-a"], [24, "oewn-10326901-n"], [25, "oewn-02610777-v"], [26, "oewn-00581973-s"], [29, "oewn-04530675-n"], [31, "oewn-10040615-n"], [33, "oewn-10360025-n"], [35, "oewn-09857212-n"]]
+    oewn_key: [[0, "oewn-00109541-r"], [2, "oewn-00006486-r"], [6, "oewn-00011555-r"], [7, "oewn-02519853-v"], [12, "oewn-05821727-n"], [15, "oewn-06461405-n"], [16, "oewn-05677641-n"], [18, "oewn-06236188-n"], [23, "oewn-01122955-a"], [24, "oewn-10326901-n"], [25, "oewn-02610777-v"], [26, "oewn-00581973-s"], [29, "oewn-04530675-n"], [31, "oewn-10040615-n"], [33, "oewn-10360025-n"], [35, "oewn-09857212-n"]]
     paragraph: '11'
     pos: ["RB", ",", "RB", ",", "PRP", "VB", "RB", "VBN", ",", "IN", "DT", "``", "NN", "IN", "DT", "NN", "NN", "IN", "NNP", "``", ":", "JJ", "PRP$", "JJ", "NNS", "VBD", "JJ", "IN", "DT", "NNP", "IN", "NNS", ",", "NNS", ",", "NNS", "."]
     text: ' Here, for_the_most_part, they were well treated, as a " reminder of the Old_Testament
@@ -443,7 +443,7 @@ rRqw:
     wn30_key: [[0, "here%4:02:02::"], [2, "for_the_most_part%4:02:00::"], [6, "well%4:02:00::"], [7, "treat%2:41:00::"], [12, "reminder%1:09:00::"], [15, "old_testament%1:10:00::"], [16, "heritage%1:09:00::"], [18, "christianity%1:09:00::"], [23, "gifted%3:00:00::"], [24, "member%1:18:00::"], [25, "be%2:42:03::"], [26, "prominent%3:00:02:conspicuous:00"], [29, "vatican%1:06:00::"], [31, "physician%1:18:00::"], [33, "musician%1:18:01::"], [35, "banker%1:18:00::"]]
 Imcj:
     lemmas: ["The", "man", "do", "not", "object", "to", "his", "sketch", "them", "while", "they", "go_about", "their", "work", ",", "but", "no_one", "could", "be", "persuade", "to", "come", "to", "his", "studio", "to", "pose", "."]
-    oewn2026_key: [[1, "oewn-10306910-n"], [3, "oewn-00024432-r"], [4, "oewn-00809123-v"], [7, "oewn-01701523-v"], [11, "oewn-02444146-v"], [13, "oewn-00585404-n"], [19, "oewn-02592213-v"], [21, "oewn-01853188-v"], [24, "oewn-04351324-n"], [26, "oewn-02147248-v"]]
+    oewn_key: [[1, "oewn-10306910-n"], [3, "oewn-00024432-r"], [4, "oewn-00809123-v"], [7, "oewn-01701523-v"], [11, "oewn-02444146-v"], [13, "oewn-00585404-n"], [19, "oewn-02592213-v"], [21, "oewn-01853188-v"], [24, "oewn-04351324-n"], [26, "oewn-02147248-v"]]
     paragraph: '12'
     pos: ["DT", "NNS", "VBD", "RB", "VB", "TO", "PRP$", "VBG", "PRP", "IN", "PRP", "VBP", "PRP$", "NN", ",", "CC", "NN", "MD", "VB", "VBN", "TO", "VB", "VB", "PRP$", "NN", "TO", "VB", "."]
     text: ' The men did not object to his sketching them while they went_about their work, but
@@ -453,7 +453,7 @@ Imcj:
     wn30_key: [[1, "man%1:18:00::"], [3, "not%4:02:00::"], [4, "object%2:32:00::"], [7, "sketch%2:36:00::"], [11, "go_about%2:41:00::"], [13, "work%1:04:01::"], [19, "persuade%2:41:00::"], [21, "come%2:38:00::"], [24, "studio%1:06:00::"], [26, "pose%2:39:00::"]]
 ror3:
     lemmas: ["He", "be", "tell", "to", "ask", "for", "person", "at", "the", "synagogue", "on", "saturday", "afternoon", "."]
-    oewn2026_key: [[2, "oewn-00748704-v"], [4, "oewn-00754499-v"], [6, "oewn-00007846-n"], [9, "oewn-04381822-n"], [11, "oewn-15189617-n"], [12, "oewn-15191238-n"]]
+    oewn_key: [[2, "oewn-00748704-v"], [4, "oewn-00754499-v"], [6, "oewn-00007846-n"], [9, "oewn-04381822-n"], [11, "oewn-15189617-n"], [12, "oewn-15191238-n"]]
     paragraph: '12'
     pos: ["PRP", "VBD", "VBN", "TO", "VB", "VB", "NN", "IN", "DT", "NN", "IN", "NNP", "NN", "."]
     text: ' He was told to ask for Rabbi_Melzi at the synagogue on Saturday afternoon.'
@@ -462,7 +462,7 @@ ror3:
     wn30_key: [[2, "tell%2:32:02::"], [4, "ask%2:32:01::"], [6, "person%1:03:00::"], [9, "synagogue%1:06:00::"], [11, "saturday%1:28:00::"], [12, "afternoon%1:28:00::"]]
 dXhB:
     lemmas: ["person", "find", "the", "rabbi", "in", "the", "room", "of", "study", ",", "a", "gentle", "old_man", "with", "a", "white", "beard", "and", "luminous", "grey", "eye", ",", "robe", "in", "black", "gabardine", "with", "a", "skullcap", "on", "his", "head", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-02290474-v"], [3, "oewn-10521914-n"], [6, "oewn-04112987-n"], [8, "oewn-05792247-n"], [11, "oewn-01376241-s"], [12, "oewn-10395205-n"], [15, "oewn-00394166-a"], [16, "oewn-05269065-n"], [18, "oewn-00280198-s"], [19, "oewn-00390371-s"], [20, "oewn-05318579-n"], [22, "oewn-00051760-v"], [24, "oewn-00393873-a"], [25, "oewn-03414207-n"], [28, "oewn-04239262-n"], [31, "oewn-05546258-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-02290474-v"], [3, "oewn-10521914-n"], [6, "oewn-04112987-n"], [8, "oewn-05792247-n"], [11, "oewn-01376241-s"], [12, "oewn-10395205-n"], [15, "oewn-00394166-a"], [16, "oewn-05269065-n"], [18, "oewn-00280198-s"], [19, "oewn-00390371-s"], [20, "oewn-05318579-n"], [22, "oewn-00051760-v"], [24, "oewn-00393873-a"], [25, "oewn-03414207-n"], [28, "oewn-04239262-n"], [31, "oewn-05546258-n"]]
     paragraph: '12'
     pos: ["NNP", "VBD", "DT", "NN", "IN", "DT", "NN", "IN", "NN", ",", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "CC", "JJ", "JJ", "NNS", ",", "VBN", "IN", "JJ", "NN", "IN", "DT", "NN", "IN", "PRP$", "NN", "."]
     text: ' Michelangelo found the rabbi in the room of study, a gentle old_man with a white
@@ -472,7 +472,7 @@ dXhB:
     wn30_key: [[0, "person%1:03:00::"], [1, "find%2:40:00::"], [3, "rabbi%1:18:00::"], [6, "room%1:06:00::"], [8, "study%1:09:01::"], [11, "gentle%3:00:01:kind:00"], [12, "old_man%1:18:02::"], [15, "white%3:00:01::"], [16, "beard%1:08:00::"], [18, "luminous%3:00:00:bright:00"], [19, "grey%3:00:00:achromatic:00"], [20, "eye%1:08:00::"], [22, "robe%2:29:00::"], [24, "black%3:00:01::"], [25, "gabardine%1:06:00::"], [28, "skullcap%1:06:00::"], [31, "head%1:08:00::"]]
 qyD5:
     lemmas: ["He", "be", "read", "from", "the", "talmud", "with", "a", "group", "of", "man", "from", "his", "congregation", "."]
-    oewn2026_key: [[2, "oewn-00628065-v"], [8, "oewn-00031563-n"], [10, "oewn-10306910-n"], [13, "oewn-08007806-n"]]
+    oewn_key: [[2, "oewn-00628065-v"], [8, "oewn-00031563-n"], [10, "oewn-10306910-n"], [13, "oewn-08007806-n"]]
     paragraph: '12'
     pos: ["PRP", "VBD", "VBG", "IN", "DT", "NNP", "IN", "DT", "NN", "IN", "NNS", "IN", "PRP$", "NN", "."]
     text: ' He was reading from the Talmud with a group of men from his congregation.'
@@ -481,7 +481,7 @@ qyD5:
     wn30_key: [[2, "read%2:31:01::"], [8, "group%1:03:00::"], [10, "man%1:18:00::"], [13, "congregation%1:14:00::"]]
 CNoN:
     lemmas: ["When", "person", "explain", "why", "he", "have", "come", ",", "person", "reply", "gravely", ":"]
-    oewn2026_key: [[1, "oewn-00007846-n"], [2, "oewn-00941308-v"], [6, "oewn-02009962-v"], [8, "oewn-00007846-n"], [9, "oewn-00817348-v"], [10, "oewn-00185309-r"]]
+    oewn_key: [[1, "oewn-00007846-n"], [2, "oewn-00941308-v"], [6, "oewn-02009962-v"], [8, "oewn-00007846-n"], [9, "oewn-00817348-v"], [10, "oewn-00185309-r"]]
     paragraph: '12'
     pos: ["WRB", "NNP", "VBD", "WRB", "PRP", "VBD", "VBN", ",", "NN", "VBD", "RB", ":"]
     text: ' When Michelangelo explained why he had come, Rabbi_Melzi replied gravely:
@@ -492,7 +492,7 @@ CNoN:
     wn30_key: [[1, "person%1:03:00::"], [2, "explain%2:32:00::"], [6, "come%2:38:04::"], [8, "person%1:03:00::"], [9, "reply%2:32:00::"], [10, "gravely%4:02:00::"]]
 IwwV:
     lemmas: ["\"", "The", "bible", "forbid", "us", "to", "bow_down", "to", "or", "to", "make", "graven_image", "."]
-    oewn2026_key: [[2, "oewn-06443410-n"], [3, "oewn-00797525-v"], [6, "oewn-02067538-v"], [10, "oewn-01643749-v"], [11, "oewn-03565341-n"]]
+    oewn_key: [[2, "oewn-06443410-n"], [3, "oewn-00797525-v"], [6, "oewn-02067538-v"], [10, "oewn-01643749-v"], [11, "oewn-03565341-n"]]
     paragraph: '13'
     pos: ["``", "DT", "NNP", "VBZ", "PRP", "TO", "VB", "TO", "CC", "TO", "VB", "NNS", "."]
     text: ' " The Bible forbids us to bow_down to or to make graven_images.'
@@ -501,7 +501,7 @@ IwwV:
     wn30_key: [[2, "bible%1:10:00::"], [3, "forbid%2:32:00::"], [6, "bow_down%2:38:00::"], [10, "make%2:36:09::"], [11, "graven_image%1:06:00::"]]
 XwOp:
     lemmas: ["That", "is", "why", "our", "creative", "people", "give", "their", "time", "to", "literature", ",", "not", "to", "painting", "or", "sculpture", "\"", "."]
-    oewn2026_key: [[4, "oewn-00646272-a"], [5, "oewn-07958392-n"], [6, "oewn-02204104-v"], [8, "oewn-15295388-n"], [10, "oewn-06376048-n"], [12, "oewn-00024432-r"], [14, "oewn-00938436-n"], [16, "oewn-04164381-n"]]
+    oewn_key: [[4, "oewn-00646272-a"], [5, "oewn-07958392-n"], [6, "oewn-02204104-v"], [8, "oewn-15295388-n"], [10, "oewn-06376048-n"], [12, "oewn-00024432-r"], [14, "oewn-00938436-n"], [16, "oewn-04164381-n"]]
     paragraph: '13'
     pos: ["RB", "RB", "WRB", "PRP$", "JJ", "NNS", "VBP", "PRP$", "NN", "TO", "NN", ",", "RB", "TO", "NN", "CC", "NN", "''", "."]
     text: ' That is why our creative people give their time to literature, not to painting or
@@ -513,7 +513,7 @@ XwOp:
     wn30_key: [[4, "creative%3:00:00::"], [5, "people%1:14:00::"], [6, "give%2:40:00::"], [8, "time%1:28:05::"], [10, "literature%1:10:00::"], [12, "not%4:02:00::"], [14, "painting%1:04:00::"], [16, "sculpture%1:06:00::"]]
 z0Rj:
     lemmas: ["\"", "But", ",", "person", ",", "you", "do", "n't", "object", "to", "other", "create", "work_of_art", "\"", "?"]
-    oewn2026_key: [[3, "oewn-00007846-n"], [8, "oewn-00809123-v"], [11, "oewn-01620211-v"], [12, "oewn-04609048-n"]]
+    oewn_key: [[3, "oewn-00007846-n"], [8, "oewn-00809123-v"], [11, "oewn-01620211-v"], [12, "oewn-04609048-n"]]
     paragraph: '14'
     pos: ["``", "CC", ",", "NN", ",", "PRP", "VBP", "RB", "VB", "TO", "NNS", "VBG", "NN", "''", "."]
     text: ' " But, Rabbi_Melzi, you don''t object to others creating works_of_art "?
@@ -524,7 +524,7 @@ z0Rj:
     wn30_key: [[3, "person%1:03:00::"], [8, "object%2:32:00::"], [11, "create%2:36:00::"], [12, "work_of_art%1:06:00::"]]
 sNe9:
     lemmas: ["\"", "not", "at", "all", "."]
-    oewn2026_key: [[1, "oewn-00024432-r"], [3, "oewn-00008423-r"]]
+    oewn_key: [[1, "oewn-00024432-r"], [3, "oewn-00008423-r"]]
     paragraph: '15'
     pos: ["``", "RB", "RB", "RB", "."]
     text: ' " Not at all.'
@@ -533,7 +533,7 @@ sNe9:
     wn30_key: [[1, "not%4:02:00::"], [3, "all%4:02:00::"]]
 C+OK:
     lemmas: ["each", "religion", "have", "its", "own", "tenet", "\"", "."]
-    oewn2026_key: [[0, "oewn-02277394-s"], [1, "oewn-08098545-n"], [2, "oewn-02636270-v"], [4, "oewn-01773236-s"], [5, "oewn-06802899-n"]]
+    oewn_key: [[0, "oewn-02277394-s"], [1, "oewn-08098545-n"], [2, "oewn-02636270-v"], [4, "oewn-01773236-s"], [5, "oewn-06802899-n"]]
     paragraph: '15'
     pos: ["JJ", "NN", "VBZ", "PRP$", "JJ", "NNS", "''", "."]
     text: ' Each religion has its own tenets ".
@@ -544,7 +544,7 @@ C+OK:
     wn30_key: [[0, "each%3:00:00:all:00"], [1, "religion%1:14:00::"], [2, "have%2:42:00::"], [4, "own%3:00:00:personal:00"], [5, "tenet%1:10:00::"]]
 +6Cq:
     lemmas: ["\"", "I", "be", "carve", "a", "pieta", "from", "white", "location", "marble", "."]
-    oewn2026_key: [[3, "oewn-01259164-v"], [7, "oewn-00394166-a"], [8, "oewn-00027365-n"], [9, "oewn-14971945-n"]]
+    oewn_key: [[3, "oewn-01259164-v"], [7, "oewn-00394166-a"], [8, "oewn-00027365-n"], [9, "oewn-14971945-n"]]
     paragraph: '16'
     pos: ["``", "PRP", "VBP", "VBG", "DT", "NNP", "IN", "JJ", "NNP", "NN", "."]
     text: ' " I am carving a Pieta from white Carrara marble.'
@@ -553,7 +553,7 @@ C+OK:
     wn30_key: [[3, "carve%2:35:02::"], [7, "white%3:00:01::"], [8, "location%1:03:00::"], [9, "marble%1:27:00::"]]
 RUWI:
     lemmas: ["I", "wish", "to", "make", "jesus", "an", "authentic", "jew", "."]
-    oewn2026_key: [[1, "oewn-01828678-v"], [3, "oewn-01622033-v"], [4, "oewn-11103646-n"], [6, "oewn-01119377-s"], [7, "oewn-09700747-n"]]
+    oewn_key: [[1, "oewn-01828678-v"], [3, "oewn-01622033-v"], [4, "oewn-11103646-n"], [6, "oewn-01119377-s"], [7, "oewn-09700747-n"]]
     paragraph: '16'
     pos: ["PRP", "VBP", "VB", "VB", "NNP", "DT", "JJ", "NN", "."]
     text: ' I wish to make Jesus an authentic Jew.'
@@ -562,7 +562,7 @@ RUWI:
     wn30_key: [[1, "wish%2:37:00::"], [3, "make%2:36:05::"], [4, "jesus%1:18:00::"], [6, "authentic%3:00:00:genuine:00"], [7, "jew%1:18:00::"]]
 ilPa:
     lemmas: ["I", "cannot", "accomplish", "this", "if", "you", "will", "not", "help", "me", "\"", "."]
-    oewn2026_key: [[2, "oewn-02531751-v"], [7, "oewn-00024432-r"], [8, "oewn-02553283-v"]]
+    oewn_key: [[2, "oewn-02531751-v"], [7, "oewn-00024432-r"], [8, "oewn-02553283-v"]]
     paragraph: '16'
     pos: ["PRP", "MD", "VBP", "DT", "IN", "PRP", "MD", "RB", "VB", "PRP", "``", "."]
     text: ' I cannot accomplish this if you will not help me ".
@@ -573,7 +573,7 @@ ilPa:
     wn30_key: [[2, "accomplish%2:41:00::"], [7, "not%4:02:00::"], [8, "help%2:41:00::"]]
 ZEi9:
     lemmas: ["The", "rabbi", "say", "thoughtfully", ",", "\"", "I", "would", "not", "want", "my", "people", "to", "get_in", "trouble", "with", "the", "church", "\"", "."]
-    oewn2026_key: [[1, "oewn-10521914-n"], [2, "oewn-01011267-v"], [3, "oewn-00218268-r"], [8, "oewn-00024432-r"], [9, "oewn-01829179-v"], [11, "oewn-07958392-n"], [13, "oewn-02020375-v"], [17, "oewn-08099479-n"]]
+    oewn_key: [[1, "oewn-10521914-n"], [2, "oewn-01011267-v"], [3, "oewn-00218268-r"], [8, "oewn-00024432-r"], [9, "oewn-01829179-v"], [11, "oewn-07958392-n"], [13, "oewn-02020375-v"], [17, "oewn-08099479-n"]]
     paragraph: '17'
     pos: ["DT", "NN", "VBD", "RB", ",", "``", "PRP", "MD", "RB", "VB", "PRP$", "NNS", "TO", "VB", "NN", "IN", "DT", "NNP", "``", "."]
     text: ' The rabbi said thoughtfully, " I would not want my people to get_in trouble with
@@ -585,7 +585,7 @@ ZEi9:
     wn30_key: [[1, "rabbi%1:18:00::"], [2, "say%2:32:00::"], [3, "thoughtfully%4:02:00::"], [8, "not%4:02:00::"], [9, "want%2:37:00::"], [11, "people%1:14:00::"], [13, "get_in%2:38:01::"], [17, "church%1:14:00::"]]
 3M9z:
     lemmas: ["\"", "I", "be", "work", "for", "the", "cardinal", "of", "location", "."]
-    oewn2026_key: [[3, "oewn-02415985-v"], [6, "oewn-09913595-n"], [8, "oewn-00027365-n"]]
+    oewn_key: [[3, "oewn-02415985-v"], [6, "oewn-09913595-n"], [8, "oewn-00027365-n"]]
     paragraph: '18'
     pos: ["``", "PRP", "VBP", "VBG", "IN", "DT", "NNP", "IN", "NNP", "."]
     text: ' " I am working for the Cardinal of San_Dionigi.'
@@ -594,7 +594,7 @@ ZEi9:
     wn30_key: [[3, "work%2:41:00::"], [6, "cardinal%1:18:00::"], [8, "location%1:03:00::"]]
 j8LV:
     lemmas: ["I'm", "sure", "he", "would", "approve", "\"", "."]
-    oewn2026_key: [[1, "oewn-00337729-a"], [4, "oewn-00808164-v"]]
+    oewn_key: [[1, "oewn-00337729-a"], [4, "oewn-00808164-v"]]
     paragraph: '18'
     pos: ["PRP", "JJ", "PRP", "MD", "VB", "``", "."]
     text: ' I''m sure he would approve ".
@@ -605,7 +605,7 @@ j8LV:
     wn30_key: [[1, "sure%3:00:00::"], [4, "approve%2:32:00::"]]
 yXOb:
     lemmas: ["\"", "What", "kind", "of", "model", "would", "you", "prefer", "\"", "?"]
-    oewn2026_key: [[2, "oewn-05847533-n"], [4, "oewn-10344226-n"], [7, "oewn-01830440-v"]]
+    oewn_key: [[2, "oewn-05847533-n"], [4, "oewn-10344226-n"], [7, "oewn-01830440-v"]]
     paragraph: '19'
     pos: ["``", "WP", "NN", "RB", "NNS", "MD", "PRP", "VB", "''", "."]
     text: ' " What kind of models would you prefer "?
@@ -616,7 +616,7 @@ yXOb:
     wn30_key: [[2, "kind%1:09:00::"], [4, "model%1:18:00::"], [7, "prefer%2:37:00::"]]
 bR5b:
     lemmas: ["\"", "workman", "."]
-    oewn2026_key: [[1, "oewn-80039599-n"]]
+    oewn_key: [[1, "oewn-80039599-n"]]
     paragraph: '20'
     pos: ["``", "NNP", "."]
     text: ' " Workmen.'
@@ -625,7 +625,7 @@ bR5b:
     wn30_key: [[1, "workman%1:18:00::"]]
 kDFb:
     lemmas: ["In", "their", "mid-thirties", "."]
-    oewn2026_key: [[2, "oewn-15173998-n"]]
+    oewn_key: [[2, "oewn-15173998-n"]]
     paragraph: '20'
     pos: ["IN", "PRP$", "NNS", "."]
     text: ' In their mid_thirties.'
@@ -634,7 +634,7 @@ kDFb:
     wn30_key: [[2, "mid-thirties%1:28:00::"]]
 RWMJ:
     lemmas: ["not", "bulky", "laborer", ",", "but", "sinewy", "man", "."]
-    oewn2026_key: [[0, "oewn-00024432-r"], [1, "oewn-01387372-s"], [2, "oewn-10260997-n"], [5, "oewn-02455307-s"], [6, "oewn-10306910-n"]]
+    oewn_key: [[0, "oewn-00024432-r"], [1, "oewn-01387372-s"], [2, "oewn-10260997-n"], [5, "oewn-02455307-s"], [6, "oewn-10306910-n"]]
     paragraph: '20'
     pos: ["RB", "JJ", "NNS", ",", "CC", "JJ", "NNS", "."]
     text: ' Not bulky laborers, but sinewy men.'
@@ -643,7 +643,7 @@ RWMJ:
     wn30_key: [[0, "not%4:02:00::"], [1, "bulky%3:00:00:large:00"], [2, "laborer%1:18:00::"], [5, "sinewy%3:00:00:tough:01"], [6, "man%1:18:00::"]]
 3QwM:
     lemmas: ["With", "intelligence", "."]
-    oewn2026_key: [[1, "oewn-05625389-n"]]
+    oewn_key: [[1, "oewn-05625389-n"]]
     paragraph: '20'
     pos: ["IN", "NN", "."]
     text: ' With intelligence.'
@@ -652,7 +652,7 @@ RWMJ:
     wn30_key: [[1, "intelligence%1:09:00::"]]
 8OwL:
     lemmas: ["And", "sensitivity", "\"", "."]
-    oewn2026_key: [[1, "oewn-07527704-n"]]
+    oewn_key: [[1, "oewn-07527704-n"]]
     paragraph: '20'
     pos: ["CC", "NN", "''", "."]
     text: ' And sensitivity ".
@@ -663,7 +663,7 @@ RWMJ:
     wn30_key: [[1, "sensitivity%1:12:00::"]]
 PiP9:
     lemmas: ["person", "smile", "at", "him", "with", "infinitely", "old", "but", "merry", "eye", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-00028558-v"], [5, "oewn-00226558-r"], [6, "oewn-01648062-a"], [8, "oewn-01370567-s"], [9, "oewn-05318579-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-00028558-v"], [5, "oewn-00226558-r"], [6, "oewn-01648062-a"], [8, "oewn-01370567-s"], [9, "oewn-05318579-n"]]
     paragraph: '21'
     pos: ["NN", "VBD", "IN", "PRP", "IN", "RB", "JJ", "CC", "JJ", "NNS", "."]
     text: ' Rabbi_Melzi smiled at him with infinitely old but merry eyes.
@@ -674,7 +674,7 @@ PiP9:
     wn30_key: [[0, "person%1:03:00::"], [1, "smile%2:29:00::"], [5, "infinitely%4:02:00::"], [6, "old%3:00:02::"], [8, "merry%3:00:02:joyous:00"], [9, "eye%1:08:00::"]]
 BzZh:
     lemmas: ["\"", "leave", "me", "your", "address", "."]
-    oewn2026_key: [[1, "oewn-00360745-v"], [4, "oewn-08508037-n"]]
+    oewn_key: [[1, "oewn-00360745-v"], [4, "oewn-08508037-n"]]
     paragraph: '22'
     pos: ["``", "VB", "PRP", "PRP$", "NN", "."]
     text: ' " Leave me your address.'
@@ -683,7 +683,7 @@ BzZh:
     wn30_key: [[1, "leave%2:30:03::"], [4, "address%1:15:00::"]]
 t2pk:
     lemmas: ["I", "will", "send", "you", "the", "best", "the", "quarter", "have", "to", "offer", "\"", "."]
-    oewn2026_key: [[2, "oewn-01439891-v"], [5, "oewn-00229099-a"], [7, "oewn-08645494-n"], [8, "oewn-02208144-v"], [10, "oewn-02332196-v"]]
+    oewn_key: [[2, "oewn-01439891-v"], [5, "oewn-00229099-a"], [7, "oewn-08645494-n"], [8, "oewn-02208144-v"], [10, "oewn-02332196-v"]]
     paragraph: '22'
     pos: ["PRP", "MD", "VB", "PRP", "DT", "JJS", "DT", "NN", "VBZ", "VB", "VB", "``", "."]
     text: ' I will send you the best the quarter has to offer ".'
@@ -692,7 +692,7 @@ t2pk:
     wn30_key: [[2, "send%2:35:00::"], [5, "best%3:00:00::"], [7, "quarter%1:15:00::"], [8, "have%2:40:00::"], [10, "offer%2:40:02::"]]
 g3Oi:
     lemmas: ["person", "hurry", "to", "person", "'s", "solitary", "bachelor", "room", "with", "his", "sketch", ",", "ask", "the", "architect", "to", "design", "a", "stand", "which", "would", "simulate", "the", "seated", "person", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-02059573-v"], [3, "oewn-00007846-n"], [5, "oewn-02258174-s"], [6, "oewn-09849169-n"], [7, "oewn-04112987-n"], [10, "oewn-04234206-n"], [12, "oewn-00754499-v"], [14, "oewn-09824898-n"], [16, "oewn-01644092-v"], [18, "oewn-02800851-n"], [21, "oewn-01746767-v"], [23, "oewn-01242902-a"], [24, "oewn-00007846-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-02059573-v"], [3, "oewn-00007846-n"], [5, "oewn-02258174-s"], [6, "oewn-09849169-n"], [7, "oewn-04112987-n"], [10, "oewn-04234206-n"], [12, "oewn-00754499-v"], [14, "oewn-09824898-n"], [16, "oewn-01644092-v"], [18, "oewn-02800851-n"], [21, "oewn-01746767-v"], [23, "oewn-01242902-a"], [24, "oewn-00007846-n"]]
     paragraph: '22'
     pos: ["NNP", "VBD", "TO", "NNP", "POS", "JJ", "NN", "NN", "IN", "PRP$", "NNS", ",", "VBD", "DT", "NN", "TO", "VB", "DT", "NN", "WDT", "MD", "VB", "DT", "JJ", "NNP", "."]
     text: ' Michelangelo hurried to Sangallo''s solitary bachelor room with his sketches, asked
@@ -702,7 +702,7 @@ g3Oi:
     wn30_key: [[0, "person%1:03:00::"], [1, "hurry%2:38:00::"], [3, "person%1:03:00::"], [5, "solitary%3:00:01:unsocial:00"], [6, "bachelor%1:18:00::"], [7, "room%1:06:00::"], [10, "sketch%1:06:00::"], [12, "ask%2:32:01::"], [14, "architect%1:18:00::"], [16, "design%2:36:01::"], [18, "stand%1:06:00::"], [21, "simulate%2:36:04::"], [23, "seated%3:00:00::"], [24, "person%1:03:00::"]]
 yTe9:
     lemmas: ["person", "study", "the", "drawing", "and", "improvise", "a", "trestle", "couch", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-02170904-v"], [3, "oewn-07016235-n"], [5, "oewn-01732719-v"], [7, "oewn-04487058-n"], [8, "oewn-04263630-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-02170904-v"], [3, "oewn-07016235-n"], [5, "oewn-01732719-v"], [7, "oewn-04487058-n"], [8, "oewn-04263630-n"]]
     paragraph: '22'
     pos: ["NNP", "VBD", "DT", "NNS", "CC", "VBD", "DT", "NN", "NN", "."]
     text: ' Sangallo studied the drawings and improvised a trestle couch.'
@@ -711,7 +711,7 @@ yTe9:
     wn30_key: [[0, "person%1:03:00::"], [1, "study%2:39:00::"], [3, "drawing%1:10:00::"], [5, "improvise%2:36:00::"], [7, "trestle%1:06:01::"], [8, "couch%1:06:00::"]]
 v4UC:
     lemmas: ["person", "buy", "some", "scrap", "lumber", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-02211988-v"], [4, "oewn-14967718-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-02211988-v"], [4, "oewn-14967718-n"]]
     paragraph: '22'
     pos: ["NNP", "VBD", "DT", "JJ", "NN", "."]
     text: ' Michelangelo bought some scrap lumber.'
@@ -720,7 +720,7 @@ v4UC:
     wn30_key: [[0, "person%1:03:00::"], [1, "buy%2:40:00::"], [4, "lumber%1:27:00::"]]
 T0V/:
     lemmas: ["together", "he", "and", "person", "build", "the", "stand", ",", "cover", "it", "with", "blanket", "."]
-    oewn2026_key: [[0, "oewn-00117417-r"], [3, "oewn-00007846-n"], [4, "oewn-01658171-v"], [6, "oewn-02800851-n"], [8, "oewn-01210571-v"], [11, "oewn-02852392-n"]]
+    oewn_key: [[0, "oewn-00117417-r"], [3, "oewn-00007846-n"], [4, "oewn-01658171-v"], [6, "oewn-02800851-n"], [8, "oewn-01210571-v"], [11, "oewn-02852392-n"]]
     paragraph: '22'
     pos: ["RB", "PRP", "CC", "NNP", "VBD", "DT", "NN", ",", "VBG", "PRP", "IN", "NNS", "."]
     text: ' Together he and Argiento built the stand, covering it with blankets.
@@ -731,7 +731,7 @@ T0V/:
     wn30_key: [[0, "together%4:02:00::"], [3, "person%1:03:00::"], [4, "build%2:36:00::"], [6, "stand%1:06:00::"], [8, "cover%2:35:01::"], [11, "blanket%1:06:00::"]]
 hLj+:
     lemmas: ["His", "first", "model", "arrive", "at", "dusk", "."]
-    oewn2026_key: [[1, "oewn-01014459-a"], [2, "oewn-10344226-n"], [3, "oewn-02009962-v"], [5, "oewn-15194468-n"]]
+    oewn_key: [[1, "oewn-01014459-a"], [2, "oewn-10344226-n"], [3, "oewn-02009962-v"], [5, "oewn-15194468-n"]]
     paragraph: '23'
     pos: ["PRP$", "JJ", "NN", "VBN", "VB", "NN", "."]
     text: ' His first model arrived at dusk.'
@@ -740,7 +740,7 @@ hLj+:
     wn30_key: [[1, "first%3:00:00:ordinal:00"], [2, "model%1:18:00::"], [3, "arrive%2:38:00::"], [5, "dusk%1:28:00::"]]
 1z3S:
     lemmas: ["He", "hesitate", "for", "a", "moment", "when", "person", "ask", "him", "to", "disrobe", ",", "so", "person", "give", "him", "a", "piece", "of", "toweling", "to", "wrap", "around", "his", "loins", ",", "lead", "him", "to", "the", "kitchen", "to", "take_off", "his", "clothes", "."]
-    oewn2026_key: [[1, "oewn-02647119-v"], [4, "oewn-15269461-n"], [6, "oewn-00007846-n"], [7, "oewn-00754499-v"], [10, "oewn-00049617-v"], [13, "oewn-00007846-n"], [14, "oewn-02205012-v"], [17, "oewn-03938441-n"], [19, "oewn-04466845-n"], [21, "oewn-01285811-v"], [24, "oewn-05566188-n"], [26, "oewn-02003455-v"], [30, "oewn-03625099-n"], [32, "oewn-00050171-v"], [34, "oewn-02731365-n"]]
+    oewn_key: [[1, "oewn-02647119-v"], [4, "oewn-15269461-n"], [6, "oewn-00007846-n"], [7, "oewn-00754499-v"], [10, "oewn-00049617-v"], [13, "oewn-00007846-n"], [14, "oewn-02205012-v"], [17, "oewn-03938441-n"], [19, "oewn-04466845-n"], [21, "oewn-01285811-v"], [24, "oewn-05566188-n"], [26, "oewn-02003455-v"], [30, "oewn-03625099-n"], [32, "oewn-00050171-v"], [34, "oewn-02731365-n"]]
     paragraph: '23'
     pos: ["PRP", "VBD", "IN", "DT", "NN", "WRB", "NNP", "VBD", "PRP", "TO", "VB", ",", "RB", "NNP", "VBD", "PRP", "RB", "NN", "IN", "NN", "TO", "VB", "IN", "PRP$", "NNS", ",", "VBD", "PRP", "TO", "DT", "NN", "TO", "VB", "PRP$", "NNS", "."]
     text: ' He hesitated for a moment when Michelangelo asked him to disrobe, so Michelangelo
@@ -751,7 +751,7 @@ hLj+:
     wn30_key: [[1, "hesitate%2:42:01::"], [4, "moment%1:28:00::"], [6, "person%1:03:00::"], [7, "ask%2:32:01::"], [10, "disrobe%2:29:01::"], [13, "person%1:03:00::"], [14, "give%2:40:02::"], [17, "piece%1:06:00::"], [19, "toweling%1:06:00::"], [21, "wrap%2:35:00::"], [24, "loins%1:08:00::"], [26, "lead%2:38:00::"], [30, "kitchen%1:06:00::"], [32, "take_off%2:29:03::"], [34, "clothes%1:06:00::"]]
 eLTm:
     lemmas: ["He", "then", "drape", "him", "over", "the", "rough", "stand", ",", "explain", "that", "he", "be", "supposed", "to", "be", "recently", "dead", ",", "and", "be", "be", "hold", "on", "his", "mother", "'s", "lap", "."]
-    oewn2026_key: [[1, "oewn-00118527-r"], [2, "oewn-01545782-v"], [6, "oewn-02246206-a"], [7, "oewn-02800851-n"], [9, "oewn-00941308-v"], [12, "oewn-02610777-v"], [13, "oewn-01621407-s"], [15, "oewn-02610777-v"], [16, "oewn-00108184-r"], [17, "oewn-00096133-a"], [22, "oewn-01219234-v"], [25, "oewn-10352098-n"], [27, "oewn-05570228-n"]]
+    oewn_key: [[1, "oewn-00118527-r"], [2, "oewn-01545782-v"], [6, "oewn-02246206-a"], [7, "oewn-02800851-n"], [9, "oewn-00941308-v"], [12, "oewn-02610777-v"], [13, "oewn-01621407-s"], [15, "oewn-02610777-v"], [16, "oewn-00108184-r"], [17, "oewn-00096133-a"], [22, "oewn-01219234-v"], [25, "oewn-10352098-n"], [27, "oewn-05570228-n"]]
     paragraph: '23'
     pos: ["PRP", "RB", "VBD", "PRP", "IN", "DT", "JJ", "NN", ",", "VBD", "IN", "PRP", "VBD", "JJ", "VB", "VB", "RB", "JJ", ",", "CC", "VBD", "VBG", "VBN", "VB", "PRP$", "NN", "POS", "NN", "."]
     text: ' He then draped him over the rough stand, explained that he was supposed to be recently
@@ -761,7 +761,7 @@ eLTm:
     wn30_key: [[1, "then%4:02:00::"], [2, "drape%2:35:01::"], [6, "rough%3:00:00::"], [7, "stand%1:06:00::"], [9, "explain%2:32:00::"], [12, "be%2:42:03::"], [13, "supposed%3:00:00:obligated:00"], [15, "be%2:42:03::"], [16, "recently%4:02:00::"], [17, "dead%3:00:01::"], [22, "hold%2:35:00::"], [25, "mother%1:18:00::"], [27, "lap%1:08:00::"]]
 84Rd:
     lemmas: ["The", "model", "quite", "plainly", "think", "person", "crazy", ";", "only", "the", "instruction", "from", "his", "rabbi", "keep", "him", "from", "bolt", "."]
-    oewn2026_key: [[1, "oewn-10344226-n"], [2, "oewn-00019243-r"], [3, "oewn-00039730-r"], [4, "oewn-00691086-v"], [5, "oewn-00007846-n"], [6, "oewn-02082451-s"], [8, "oewn-00009062-r"], [10, "oewn-06799486-n"], [13, "oewn-10521914-n"], [14, "oewn-02455370-v"], [17, "oewn-01970046-v"]]
+    oewn_key: [[1, "oewn-10344226-n"], [2, "oewn-00019243-r"], [3, "oewn-00039730-r"], [4, "oewn-00691086-v"], [5, "oewn-00007846-n"], [6, "oewn-02082451-s"], [8, "oewn-00009062-r"], [10, "oewn-06799486-n"], [13, "oewn-10521914-n"], [14, "oewn-02455370-v"], [17, "oewn-01970046-v"]]
     paragraph: '23'
     pos: ["DT", "NN", "RB", "RB", "VBN", "NNP", "JJ", ":", "RB", "DT", "NNS", "IN", "PRP$", "NN", "VBD", "PRP", "IN", "VBG", "."]
     text: ' The model quite plainly thought Michelangelo crazy; only the instructions from his
@@ -771,7 +771,7 @@ eLTm:
     wn30_key: [[1, "model%1:18:00::"], [2, "quite%4:02:02::"], [3, "plainly%4:02:00::"], [4, "think%2:31:01::"], [5, "person%1:03:00::"], [6, "crazy%3:00:00:insane:00"], [8, "only%4:02:01::"], [10, "instruction%1:10:04::"], [13, "rabbi%1:18:00::"], [14, "keep%2:41:01::"], [17, "bolt%2:38:00::"]]
 8TIb:
     lemmas: ["But", "at", "the", "end", "of", "the", "sitting", ",", "when", "person", "show", "him", "the", "quick", ",", "free", "drawing", ",", "with", "the", "mother", "rough", "in", ",", "hold", "her", "son", ",", "the", "model", "grasp", "what", "person", "be_after", ",", "and", "promise", "to", "speak_to", "his", "friend", "."]
-    oewn2026_key: [[3, "oewn-07306517-n"], [6, "oewn-00345247-n"], [9, "oewn-00007846-n"], [10, "oewn-02153218-v"], [13, "oewn-01273596-s"], [16, "oewn-03239009-n"], [20, "oewn-10352098-n"], [21, "oewn-01758260-v"], [24, "oewn-01219234-v"], [26, "oewn-10643436-n"], [29, "oewn-10344226-n"], [30, "oewn-00589616-v"], [32, "oewn-00007846-n"], [33, "oewn-00706993-v"], [36, "oewn-00885532-v"], [40, "oewn-10132360-n"]]
+    oewn_key: [[3, "oewn-07306517-n"], [6, "oewn-00345247-n"], [9, "oewn-00007846-n"], [10, "oewn-02153218-v"], [13, "oewn-01273596-s"], [16, "oewn-03239009-n"], [20, "oewn-10352098-n"], [21, "oewn-01758260-v"], [24, "oewn-01219234-v"], [26, "oewn-10643436-n"], [29, "oewn-10344226-n"], [30, "oewn-00589616-v"], [32, "oewn-00007846-n"], [33, "oewn-00706993-v"], [36, "oewn-00885532-v"], [40, "oewn-10132360-n"]]
     paragraph: '23'
     pos: ["CC", "IN", "DT", "NN", "IN", "DT", "NN", ",", "WRB", "NNP", "VBD", "PRP", "DT", "JJ", ",", "JJ", "NNS", ",", "IN", "DT", "NN", "VBD", "RB", ",", "VBG", "PRP$", "NN", ",", "DT", "NN", "VBD", "WP", "NNP", "VB", ",", "CC", "VBD", "TO", "VB", "PRP$", "NNS", "."]
     text: ' But at the end of the sitting, when Michelangelo showed him the quick, free drawings,
@@ -782,7 +782,7 @@ eLTm:
     wn30_key: [[3, "end%1:11:00::"], [6, "sitting%1:04:01::"], [9, "person%1:03:00::"], [10, "show%2:39:02::"], [13, "quick%3:00:00:hurried:00"], [16, "drawing%1:06:00::"], [20, "mother%1:18:00::"], [21, "rough%2:36:01::"], [24, "hold%2:35:00::"], [26, "son%1:18:00::"], [29, "model%1:18:00::"], [30, "grasp%2:31:00::"], [32, "person%1:03:00::"], [33, "be_after%2:31:00::"], [36, "promise%2:32:00::"], [40, "friend%1:18:00::"]]
 7G4/:
     lemmas: ["He", "work", "for", "two", "hour", "a", "day", "with", "each", "model", "send", "by", "the", "rabbi", "."]
-    oewn2026_key: [[1, "oewn-02418610-v"], [3, "oewn-02194109-s"], [4, "oewn-15252642-n"], [6, "oewn-15180180-n"], [8, "oewn-02277394-s"], [9, "oewn-10344226-n"], [10, "oewn-01955339-v"], [13, "oewn-10521914-n"]]
+    oewn_key: [[1, "oewn-02418610-v"], [3, "oewn-02194109-s"], [4, "oewn-15252642-n"], [6, "oewn-15180180-n"], [8, "oewn-02277394-s"], [9, "oewn-10344226-n"], [10, "oewn-01955339-v"], [13, "oewn-10521914-n"]]
     paragraph: '23'
     pos: ["PRP", "VBD", "IN", "JJ", "NNS", "DT", "NN", "IN", "JJ", "NN", "VBN", "IN", "DT", "NN", "."]
     text: ' He worked for two hours a day with each model sent by the rabbi.
@@ -793,7 +793,7 @@ eLTm:
     wn30_key: [[1, "work%2:41:02::"], [3, "two%3:00:00:cardinal:00"], [4, "hour%1:28:00::"], [6, "day%1:28:00::"], [8, "each%3:00:00:all:00"], [9, "model%1:18:00::"], [10, "send%2:38:01::"], [13, "rabbi%1:18:00::"]]
 K9s8:
     lemmas: ["person", "present", "quite", "a", "different", "problem", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-02728538-v"], [2, "oewn-00019243-r"], [4, "oewn-02072149-a"], [5, "oewn-14434009-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-02728538-v"], [2, "oewn-00019243-r"], [4, "oewn-02072149-a"], [5, "oewn-14434009-n"]]
     paragraph: '24'
     pos: ["NNP", "VBD", "RB", "DT", "JJ", "NN", "."]
     text: ' Mary presented quite a different problem.'
@@ -802,7 +802,7 @@ K9s8:
     wn30_key: [[0, "person%1:03:00::"], [1, "present%2:42:00::"], [2, "quite%4:02:02::"], [4, "different%3:00:00::"], [5, "problem%1:26:00::"]]
 GPA9:
     lemmas: ["Though", "this", "sculpture", "must", "take_place", "thirty-three", "years", "after", "her", "moment", "of", "decision", ",", "he", "could", "not", "conceive_of", "her", "as", "a", "woman", "in", "her", "mid-fifties", ",", "old", ",", "wrinkled", ",", "broken", "in", "body", "and", "face", "by", "labor", "or", "worry", "."]
-    oewn2026_key: [[2, "oewn-04164381-n"], [4, "oewn-00340744-v"], [6, "oewn-15178747-n"], [9, "oewn-15269461-n"], [11, "oewn-00163453-n"], [15, "oewn-00024432-r"], [16, "oewn-01639939-v"], [20, "oewn-10807146-n"], [23, "oewn-15174602-n"], [25, "oewn-01648062-a"], [27, "oewn-01363329-a"], [29, "oewn-01899370-s"], [31, "oewn-05223633-n"], [33, "oewn-05608392-n"], [35, "oewn-00621992-n"], [37, "oewn-07539481-n"]]
+    oewn_key: [[2, "oewn-04164381-n"], [4, "oewn-00340744-v"], [6, "oewn-15178747-n"], [9, "oewn-15269461-n"], [11, "oewn-00163453-n"], [15, "oewn-00024432-r"], [16, "oewn-01639939-v"], [20, "oewn-10807146-n"], [23, "oewn-15174602-n"], [25, "oewn-01648062-a"], [27, "oewn-01363329-a"], [29, "oewn-01899370-s"], [31, "oewn-05223633-n"], [33, "oewn-05608392-n"], [35, "oewn-00621992-n"], [37, "oewn-07539481-n"]]
     paragraph: '24'
     pos: ["IN", "DT", "NN", "MD", "VB", "CD", "NNS", "IN", "PRP$", "NN", "IN", "NN", ",", "PRP", "MD", "RB", "VB", "PRP", "RB", "DT", "NN", "IN", "PRP$", "NNS", ",", "JJ", ",", "JJ", ",", "JJ", "JJ", "NN", "CC", "NN", "IN", "NN", "CC", "NN", "."]
     text: ' Though this sculpture must take_place thirty-three years after her moment of decision,
@@ -813,7 +813,7 @@ GPA9:
     wn30_key: [[2, "sculpture%1:06:00::"], [4, "take_place%2:30:00::"], [6, "years%1:28:00::"], [9, "moment%1:28:00::"], [11, "decision%1:04:00::"], [15, "not%4:02:00::"], [16, "conceive_of%2:36:01::"], [20, "woman%1:18:00::"], [23, "mid-fifties%1:28:00::"], [25, "old%3:00:02::"], [27, "wrinkled%3:00:00::"], [29, "broken%3:00:00:humble:00"], [31, "body%1:08:00::"], [33, "face%1:08:00::"], [35, "labor%1:04:00::"], [37, "worry%1:12:00::"]]
 Q0Vq:
     lemmas: ["His", "image", "of", "the_virgin", "have", "always", "be", "that", "of", "a", "young_woman", ",", "even", "as", "have", "his", "memory", "of", "his", "mother", "."]
-    oewn2026_key: [[1, "oewn-05936904-n"], [3, "oewn-11181402-n"], [5, "oewn-00019801-r"], [6, "oewn-02622439-v"], [10, "oewn-10149362-n"], [12, "oewn-00017907-r"], [16, "oewn-05768199-n"], [19, "oewn-10352098-n"]]
+    oewn_key: [[1, "oewn-05936904-n"], [3, "oewn-11181402-n"], [5, "oewn-00019801-r"], [6, "oewn-02622439-v"], [10, "oewn-10149362-n"], [12, "oewn-00017907-r"], [16, "oewn-05768199-n"], [19, "oewn-10352098-n"]]
     paragraph: '24'
     pos: ["PRP$", "NN", "IN", "NN", "VBD", "RB", "VBN", "IN", "IN", "DT", "NN", ",", "RB", "RB", "VBD", "PRP$", "NN", "IN", "PRP$", "NN", "."]
     text: ' His image of the_Virgin had always been that of a young_woman, even as had his memory
@@ -825,7 +825,7 @@ Q0Vq:
     wn30_key: [[1, "image%1:09:00::"], [3, "the_virgin%1:18:00::"], [5, "always%4:02:00::"], [6, "be%2:42:06::"], [10, "young_woman%1:18:00::"], [12, "even%4:02:00::"], [16, "memory%1:09:01::"], [19, "mother%1:18:00::"]]
 gLQE:
     lemmas: ["person", "introduce", "him", "into", "several", "roman", "home", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-00902866-v"], [4, "oewn-02276025-s"], [5, "oewn-02932638-a"], [6, "oewn-03264208-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-00902866-v"], [4, "oewn-02276025-s"], [5, "oewn-02932638-a"], [6, "oewn-03264208-n"]]
     paragraph: '25'
     pos: ["NN", "VBD", "PRP", "IN", "JJ", "JJ", "NNS", "."]
     text: ' Jacopo_Galli introduced him into several Roman homes.'
@@ -834,7 +834,7 @@ gLQE:
     wn30_key: [[0, "person%1:03:00::"], [1, "introduce%2:32:00::"], [4, "several%3:00:00:some:00"], [5, "roman%3:01:02::"], [6, "home%1:06:00::"]]
 Txse:
     lemmas: ["here", "he", "sketch", ",", "sit", "in", "their", "flowing", "gown", "of", "linen", "and", "silk", ",", "young_girl", "not_yet", "twenty", ",", "some", "about", "to", "be", "marry", ",", "some", "married", "a", "year", "or", "two", "."]
-    oewn2026_key: [[0, "oewn-00109247-r"], [2, "oewn-01701523-v"], [4, "oewn-02147248-v"], [8, "oewn-03455174-n"], [10, "oewn-03677847-n"], [12, "oewn-04226491-n"], [14, "oewn-10267055-n"], [16, "oewn-02195956-s"], [22, "oewn-02494483-v"], [25, "oewn-01484919-a"], [27, "oewn-15228587-n"], [29, "oewn-02194109-s"]]
+    oewn_key: [[0, "oewn-00109247-r"], [2, "oewn-01701523-v"], [4, "oewn-02147248-v"], [8, "oewn-03455174-n"], [10, "oewn-03677847-n"], [12, "oewn-04226491-n"], [14, "oewn-10267055-n"], [16, "oewn-02195956-s"], [22, "oewn-02494483-v"], [25, "oewn-01484919-a"], [27, "oewn-15228587-n"], [29, "oewn-02194109-s"]]
     paragraph: '25'
     pos: ["RB", "PRP", "VBD", ",", "VBG", "IN", "PRP$", "JJ", "NNS", "IN", "NN", "CC", "NN", ",", "NN", "RB", "JJ", ",", "DT", "RB", "TO", "VB", "VBN", ",", "DT", "JJ", "DT", "NN", "CC", "JJ", "."]
     text: ' Here he sketched, sitting in their flowing gowns of linen and silk, young_girls
@@ -844,7 +844,7 @@ Txse:
     wn30_key: [[0, "here%4:02:00::"], [2, "sketch%2:36:00::"], [4, "sit%2:39:00::"], [8, "gown%1:06:00::"], [10, "linen%1:06:01::"], [12, "silk%1:06:00::"], [14, "young_girl%1:18:00::"], [16, "twenty%3:00:00:cardinal:00"], [22, "marry%2:41:00::"], [25, "married%3:00:00::"], [27, "year%1:28:01::"], [29, "two%3:00:00:cardinal:00"]]
 Uwee:
     lemmas: ["Since", "the", "group", "have", "take", "only", "man", ",", "he", "have", "have", "no", "experience", "in", "the", "study", "of", "female", "anatomy", ";", "but", "he", "have", "sketch", "the", "woman", "of", "location", "in", "their", "field", "and", "home", "."]
-    oewn2026_key: [[2, "oewn-00031563-n"], [4, "oewn-02241406-v"], [5, "oewn-00009062-r"], [6, "oewn-10306910-n"], [10, "oewn-02208144-v"], [12, "oewn-05993469-n"], [15, "oewn-06005806-n"], [17, "oewn-01481113-a"], [18, "oewn-06067070-n"], [23, "oewn-01701523-v"], [25, "oewn-10807146-n"], [27, "oewn-00027365-n"], [30, "oewn-08587527-n"], [32, "oewn-03264208-n"]]
+    oewn_key: [[2, "oewn-00031563-n"], [4, "oewn-02241406-v"], [5, "oewn-00009062-r"], [6, "oewn-10306910-n"], [10, "oewn-02208144-v"], [12, "oewn-05993469-n"], [15, "oewn-06005806-n"], [17, "oewn-01481113-a"], [18, "oewn-06067070-n"], [23, "oewn-01701523-v"], [25, "oewn-10807146-n"], [27, "oewn-00027365-n"], [30, "oewn-08587527-n"], [32, "oewn-03264208-n"]]
     paragraph: '25'
     pos: ["IN", "DT", "NN", "VBD", "VBN", "RB", "NNS", ",", "PRP", "VBD", "VBN", "DT", "NN", "IN", "DT", "NN", "IN", "JJ", "NN", ":", "CC", "PRP", "VBD", "VBN", "DT", "NNS", "IN", "NNP", "IN", "PRP$", "NNS", "CC", "NNS", "."]
     text: ' Since the Santo_Spirito_hospital had taken only men, he had had no experience in
@@ -855,7 +855,7 @@ Uwee:
     wn30_key: [[2, "group%1:03:00::"], [4, "take%2:40:07::"], [5, "only%4:02:01::"], [6, "man%1:18:00::"], [10, "have%2:40:00::"], [12, "experience%1:09:00::"], [15, "study%1:09:02::"], [17, "female%3:00:00::"], [18, "anatomy%1:09:00::"], [23, "sketch%2:36:00::"], [25, "woman%1:18:00::"], [27, "location%1:03:00::"], [30, "field%1:15:00::"], [32, "home%1:06:00::"]]
 F4qM:
     lemmas: ["He", "be", "able", "to", "discern", "the", "body", "line", "of", "the", "roman", "woman", "under", "their", "robe", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-00001740-a"], [4, "oewn-02197640-v"], [6, "oewn-05223633-n"], [7, "oewn-13886392-n"], [10, "oewn-02932638-a"], [11, "oewn-10807146-n"], [14, "oewn-04104960-n"]]
+    oewn_key: [[1, "oewn-02610777-v"], [2, "oewn-00001740-a"], [4, "oewn-02197640-v"], [6, "oewn-05223633-n"], [7, "oewn-13886392-n"], [10, "oewn-02932638-a"], [11, "oewn-10807146-n"], [14, "oewn-04104960-n"]]
     paragraph: '25'
     pos: ["PRP", "VBD", "JJ", "VB", "VB", "DT", "NN", "NNS", "IN", "DT", "JJ", "NNS", "IN", "PRP$", "NNS", "."]
     text: ' He was able to discern the body lines of the Roman women under their robes.
@@ -866,7 +866,7 @@ F4qM:
     wn30_key: [[1, "be%2:42:03::"], [2, "able%3:00:00::"], [4, "discern%2:39:00::"], [6, "body%1:08:00::"], [7, "line%1:25:00::"], [10, "roman%3:01:02::"], [11, "woman%1:18:00::"], [14, "robe%1:06:00::"]]
 FvLx:
     lemmas: ["He", "spend", "concentrated", "week", "put", "his", "two", "figure", "together", ":", "a", "person", "who", "would", "be", "young", "and", "sensitive", ",", "yet", "strong", "enough", "to", "hold", "her", "son", "on", "her", "lap", ";", "and", "a", "jesus", "who", ",", "though", "lean", ",", "be", "strong", "even", "in", "death", "-", "a", "look", "he", "remember", "well", "from", "his", "experience", "in", "the", "dead_room", "of", "group", "."]
-    oewn2026_key: [[1, "oewn-02714280-v"], [2, "oewn-01514758-s"], [3, "oewn-15194920-n"], [4, "oewn-01496967-v"], [6, "oewn-02194109-s"], [7, "oewn-03340545-n"], [8, "oewn-00117901-r"], [11, "oewn-00007846-n"], [14, "oewn-02610777-v"], [15, "oewn-01651383-a"], [17, "oewn-02113270-a"], [20, "oewn-02328781-a"], [21, "oewn-00146749-r"], [23, "oewn-02687605-v;oewn-01219234-v"], [25, "oewn-10643436-n"], [28, "oewn-05570228-n"], [32, "oewn-11103646-n"], [36, "oewn-00991420-a"], [38, "oewn-02610777-v"], [39, "oewn-02328781-a"], [40, "oewn-00017907-r"], [42, "oewn-13985834-n"], [45, "oewn-04682072-n"], [47, "oewn-00609334-v"], [48, "oewn-00011555-r"], [51, "oewn-05993469-n"], [54, "oewn-03791032-n"], [56, "oewn-00031563-n"]]
+    oewn_key: [[1, "oewn-02714280-v"], [2, "oewn-01514758-s"], [3, "oewn-15194920-n"], [4, "oewn-01496967-v"], [6, "oewn-02194109-s"], [7, "oewn-03340545-n"], [8, "oewn-00117901-r"], [11, "oewn-00007846-n"], [14, "oewn-02610777-v"], [15, "oewn-01651383-a"], [17, "oewn-02113270-a"], [20, "oewn-02328781-a"], [21, "oewn-00146749-r"], [23, "oewn-02687605-v;oewn-01219234-v"], [25, "oewn-10643436-n"], [28, "oewn-05570228-n"], [32, "oewn-11103646-n"], [36, "oewn-00991420-a"], [38, "oewn-02610777-v"], [39, "oewn-02328781-a"], [40, "oewn-00017907-r"], [42, "oewn-13985834-n"], [45, "oewn-04682072-n"], [47, "oewn-00609334-v"], [48, "oewn-00011555-r"], [51, "oewn-05993469-n"], [54, "oewn-03791032-n"], [56, "oewn-00031563-n"]]
     paragraph: '26'
     pos: ["PRP", "VBD", "JJ", "NNS", "VBG", "PRP$", "JJ", "NNS", "RB", ":", "DT", "NNP", "WP", "MD", "VB", "JJ", "CC", "JJ", ",", "RB", "JJ", "RB", "TO", "VB", "PRP$", "NN", "IN", "PRP$", "NN", ":", "CC", "DT", "NNP", "WP", ",", "IN", "JJ", ",", "VBD", "JJ", "RB", "IN", "NN", ":", "DT", "NN", "PRP", "VBD", "RB", "IN", "PRP$", "NN", "IN", "DT", "NN", "IN", "NN", "."]
     text: ' He spent concentrated weeks putting his two figures together: a Mary who would be
@@ -878,7 +878,7 @@ FvLx:
     wn30_key: [[1, "spend%2:42:00::"], [2, "concentrated%3:00:00:intense:00"], [3, "week%1:28:00::"], [4, "put%2:35:00::"], [6, "two%3:00:00:cardinal:00"], [7, "figure%1:06:00::"], [8, "together%4:02:03::"], [11, "person%1:03:00::"], [14, "be%2:42:03::"], [15, "young%3:00:00::"], [17, "sensitive%3:00:02::"], [20, "strong%3:00:00::"], [21, "enough%4:02:00::"], [23, "hold%2:42:00::;hold%2:35:00::"], [25, "son%1:18:00::"], [28, "lap%1:08:00::"], [32, "jesus%1:18:00::"], [36, "lean%3:00:04::"], [38, "be%2:42:03::"], [39, "strong%3:00:00::"], [40, "even%4:02:00::"], [42, "death%1:26:00::"], [45, "look%1:07:00::"], [47, "remember%2:31:00::"], [48, "well%4:02:00::"], [51, "experience%1:09:00::"], [54, "dead_room%1:06:00::"], [56, "group%1:03:00::"]]
 oGd+:
     lemmas: ["He", "draw", "toward", "the", "composite", "design", "from", "his", "meticulously", "accurate", "memory", ",", "without", "need", "to", "consult", "his", "sketch", "."]
-    oewn2026_key: [[1, "oewn-01694189-v"], [4, "oewn-02185375-s"], [5, "oewn-03183984-n"], [8, "oewn-00195747-r"], [9, "oewn-00021803-a"], [10, "oewn-05768199-n"], [13, "oewn-14472592-n"], [15, "oewn-00878614-v"], [17, "oewn-04234206-n"]]
+    oewn_key: [[1, "oewn-01694189-v"], [4, "oewn-02185375-s"], [5, "oewn-03183984-n"], [8, "oewn-00195747-r"], [9, "oewn-00021803-a"], [10, "oewn-05768199-n"], [13, "oewn-14472592-n"], [15, "oewn-00878614-v"], [17, "oewn-04234206-n"]]
     paragraph: '26'
     pos: ["PRP", "VBD", "IN", "DT", "JJ", "NN", "IN", "PRP$", "RB", "JJ", "NN", ",", "IN", "NN", "VB", "VB", "PRP$", "NNS", "."]
     text: ' He drew toward the composite design from his meticulously accurate memory, without
@@ -890,7 +890,7 @@ oGd+:
     wn30_key: [[1, "draw%2:36:00::"], [4, "composite%3:00:00:complex:00"], [5, "design%1:06:01::"], [8, "meticulously%4:02:00::"], [9, "accurate%3:00:00::"], [10, "memory%1:09:01::"], [13, "need%1:26:00::"], [15, "consult%2:32:01::"], [17, "sketch%1:06:00::"]]
 1bj6:
     lemmas: ["soon", "he", "be", "ready", "to", "go", "into", "a", "three-dimensional_figure", "in", "clay", "."]
-    oewn2026_key: [[0, "oewn-00034309-r"], [2, "oewn-02610777-v"], [3, "oewn-01936911-a"], [5, "oewn-02377696-v"], [8, "oewn-13886094-n"], [10, "oewn-14837352-n"]]
+    oewn_key: [[0, "oewn-00034309-r"], [2, "oewn-02610777-v"], [3, "oewn-01936911-a"], [5, "oewn-02377696-v"], [8, "oewn-13886094-n"], [10, "oewn-14837352-n"]]
     paragraph: '27'
     pos: ["RB", "PRP", "VBD", "JJ", "TO", "VB", "VB", "DT", "NN", "IN", "NN", "."]
     text: ' Soon he was ready to go into a three-dimensional_figure in clay.'
@@ -899,7 +899,7 @@ oGd+:
     wn30_key: [[0, "soon%4:02:00::"], [2, "be%2:42:03::"], [3, "ready%3:00:00::"], [5, "go%2:41:00::"], [8, "three-dimensional_figure%1:25:00::"], [10, "clay%1:27:00::"]]
 rKzB:
     lemmas: ["here", "he", "would", "have", "free", "expression", "because", "the", "material", "could", "be", "move", "to", "distort", "form", "."]
-    oewn2026_key: [[0, "oewn-00109541-r"], [3, "oewn-02208144-v"], [4, "oewn-01065188-a"], [5, "oewn-07083988-n"], [8, "oewn-14604877-n"], [11, "oewn-01854282-v"], [13, "oewn-00837582-v"], [14, "oewn-05071206-n"]]
+    oewn_key: [[0, "oewn-00109541-r"], [3, "oewn-02208144-v"], [4, "oewn-01065188-a"], [5, "oewn-07083988-n"], [8, "oewn-14604877-n"], [11, "oewn-01854282-v"], [13, "oewn-00837582-v"], [14, "oewn-05071206-n"]]
     paragraph: '27'
     pos: ["RB", "PRP", "MD", "VB", "JJ", "NN", "IN", "DT", "NN", "MD", "VB", "VBN", "TO", "VB", "NNS", "."]
     text: ' Here he would have free expression because the material could be moved to distort
@@ -909,7 +909,7 @@ rKzB:
     wn30_key: [[0, "here%4:02:02::"], [3, "have%2:40:00::"], [4, "free%3:00:00::"], [5, "expression%1:10:01::"], [8, "material%1:27:00::"], [11, "move%2:38:01::"], [13, "distort%2:32:00::"], [14, "form%1:07:01::"]]
 R8zq:
     lemmas: ["When", "he", "want", "to", "emphasize", ",", "or", "get", "great", "intensity", ",", "he", "add", "or", "subtract", "clay", "."]
-    oewn2026_key: [[4, "oewn-01015376-v"], [7, "oewn-02215637-v"], [8, "oewn-01389817-s"], [9, "oewn-05043549-n"], [12, "oewn-00182551-v"], [14, "oewn-00642914-v"], [15, "oewn-14837352-n"]]
+    oewn_key: [[4, "oewn-01015376-v"], [7, "oewn-02215637-v"], [8, "oewn-01389817-s"], [9, "oewn-05043549-n"], [12, "oewn-00182551-v"], [14, "oewn-00642914-v"], [15, "oewn-14837352-n"]]
     paragraph: '27'
     pos: ["WRB", "PRP", "VB", "VB", "VB", ",", "CC", "VB", "JJR", "NN", ",", "PRP", "VBD", "CC", "VBN", "NN", "."]
     text: ' When he wanted to emphasize, or get greater intensity, he added or subtracted clay.'
@@ -918,7 +918,7 @@ R8zq:
     wn30_key: [[4, "emphasize%2:32:00::"], [7, "get%2:40:00::"], [8, "great%3:00:01:large:00"], [9, "intensity%1:07:00::"], [12, "add%2:30:00::"], [14, "subtract%2:31:00::"], [15, "clay%1:27:00::"]]
 r5//:
     lemmas: ["next", "he", "turn_to", "wax", "because", "there", "be", "a", "similarity", "of", "wax", "to", "marble", "in", "tactile", "quality", "and", "translucence", "."]
-    oewn2026_key: [[0, "oewn-00054750-r"], [3, "oewn-15118861-n"], [6, "oewn-02609706-v"], [8, "oewn-04750845-n"], [10, "oewn-15118861-n"], [12, "oewn-14971945-n"], [14, "oewn-02880379-a"], [15, "oewn-05857811-n"], [17, "oewn-04709699-n"]]
+    oewn_key: [[0, "oewn-00054750-r"], [3, "oewn-15118861-n"], [6, "oewn-02609706-v"], [8, "oewn-04750845-n"], [10, "oewn-15118861-n"], [12, "oewn-14971945-n"], [14, "oewn-02880379-a"], [15, "oewn-05857811-n"], [17, "oewn-04709699-n"]]
     paragraph: '27'
     pos: ["RB", "PRP", "VB", "NN", "IN", "EX", "VBD", "DT", "NN", "IN", "NN", "TO", "NN", "IN", "JJ", "NN", "CC", "NN", "."]
     text: ' Next he turned_to wax because there was a similarity of wax to marble in tactile
@@ -928,7 +928,7 @@ r5//:
     wn30_key: [[0, "next%4:02:00::"], [3, "wax%1:27:00::"], [6, "be%2:42:00::"], [8, "similarity%1:07:00::"], [10, "wax%1:27:00::"], [12, "marble%1:27:00::"], [14, "tactile%3:01:00::"], [15, "quality%1:09:00::"], [17, "translucence%1:07:00::"]]
 tba5:
     lemmas: ["He", "respect", "each", "of", "these", "approach", "technique", ",", "and", "keep", "them", "in", "character", ":"]
-    oewn2026_key: [[1, "oewn-00695834-v"], [5, "oewn-00942956-n"], [6, "oewn-05651035-n"], [9, "oewn-02687605-v"], [12, "oewn-05857811-n"]]
+    oewn_key: [[1, "oewn-00695834-v"], [5, "oewn-00942956-n"], [6, "oewn-05651035-n"], [9, "oewn-02687605-v"], [12, "oewn-05857811-n"]]
     paragraph: '27'
     pos: ["PRP", "VBD", "DT", "IN", "DT", "NN", "NNS", ",", "CC", "VBD", "PRP", "IN", "NN", ":"]
     text: ' He respected each of these approach techniques, and kept them in character:'
@@ -937,7 +937,7 @@ tba5:
     wn30_key: [[1, "respect%2:31:00::"], [5, "approach%1:04:02::"], [6, "technique%1:09:01::"], [9, "keep%2:42:00::"], [12, "character%1:09:00::"]]
 xg+E:
     lemmas: ["his", "quill", "drawing", "have", "a", "scratchiness", ",", "suggest", "skin", "texture", ";", "the", "clay", "he", "use", "plastically", "to", "suggest", "soft", "moving", "flesh", ",", "as", "in", "an", "abdomen", ",", "in", "a", "reclining", "torso", ";", "the", "wax", "he", "smooth_over", "to", "give", "the", "body", "surface", "an", "elastic", "pull", "."]
-    oewn2026_key: [[1, "oewn-04040377-n"], [2, "oewn-07016235-n"], [3, "oewn-02636270-v"], [5, "oewn-04956243-n"], [7, "oewn-00929401-v"], [8, "oewn-05245612-n"], [9, "oewn-04954054-n"], [12, "oewn-14837352-n"], [14, "oewn-01161188-v"], [15, "oewn-00227180-r"], [17, "oewn-00876925-v"], [18, "oewn-01156249-a"], [19, "oewn-01566164-a"], [20, "oewn-05275611-n"], [25, "oewn-05564576-n"], [30, "oewn-05557463-n"], [33, "oewn-15118861-n"], [35, "oewn-02521921-v"], [37, "oewn-01651214-v"], [39, "oewn-05223633-n"], [40, "oewn-04369112-n"], [42, "oewn-00846685-a"], [43, "oewn-11518440-n"]]
+    oewn_key: [[1, "oewn-04040377-n"], [2, "oewn-07016235-n"], [3, "oewn-02636270-v"], [5, "oewn-04956243-n"], [7, "oewn-00929401-v"], [8, "oewn-05245612-n"], [9, "oewn-04954054-n"], [12, "oewn-14837352-n"], [14, "oewn-01161188-v"], [15, "oewn-00227180-r"], [17, "oewn-00876925-v"], [18, "oewn-01156249-a"], [19, "oewn-01566164-a"], [20, "oewn-05275611-n"], [25, "oewn-05564576-n"], [30, "oewn-05557463-n"], [33, "oewn-15118861-n"], [35, "oewn-02521921-v"], [37, "oewn-01651214-v"], [39, "oewn-05223633-n"], [40, "oewn-04369112-n"], [42, "oewn-00846685-a"], [43, "oewn-11518440-n"]]
     paragraph: '27'
     pos: ["PRP$", "NN", "NNS", "VBD", "DT", "NN", ",", "VBG", "NN", "NN", ":", "DT", "NN", "PRP", "VBD", "RB", "TO", "VB", "JJ", "JJ", "NN", ",", "IN", "IN", "DT", "NN", ",", "IN", "DT", "JJ", "NN", ":", "DT", "NN", "PRP", "VBD", "TO", "VB", "DT", "NN", "NN", "DT", "JJ", "NN", "."]
     text: ' his quill drawings had a scratchiness, suggesting skin texture; the clay he used
@@ -948,7 +948,7 @@ xg+E:
     wn30_key: [[1, "quill%1:06:00::"], [2, "drawing%1:10:00::"], [3, "have%2:42:00::"], [5, "scratchiness%1:07:00::"], [7, "suggest%2:32:04::"], [8, "skin%1:08:00::"], [9, "texture%1:07:00::"], [12, "clay%1:27:00::"], [14, "use%2:34:01::"], [15, "plastically%4:02:00::"], [17, "suggest%2:32:00::"], [18, "soft%3:00:01::"], [19, "moving%3:00:02::"], [20, "flesh%1:08:02::"], [25, "abdomen%1:08:00::"], [30, "torso%1:08:00::"], [33, "wax%1:27:00::"], [35, "smooth_over%2:41:00::"], [37, "give%2:36:01::"], [39, "body%1:08:00::"], [40, "surface%1:06:00::"], [42, "elastic%3:00:00::"], [43, "pull%1:19:00::"]]
 XPLg:
     lemmas: ["yet", "he", "never", "allow", "these", "model", "to", "become", "fixed", "in", "his", "mind", ";", "they", "remain", "rough", "starting_point", "."]
-    oewn2026_key: [[2, "oewn-00021214-r"], [3, "oewn-00803980-v"], [5, "oewn-03782816-n"], [7, "oewn-00149403-v"], [8, "oewn-00348809-s"], [11, "oewn-05619057-n"], [14, "oewn-00117793-v"], [15, "oewn-00919090-s"], [16, "oewn-15290975-n"]]
+    oewn_key: [[2, "oewn-00021214-r"], [3, "oewn-00803980-v"], [5, "oewn-03782816-n"], [7, "oewn-00149403-v"], [8, "oewn-00348809-s"], [11, "oewn-05619057-n"], [14, "oewn-00117793-v"], [15, "oewn-00919090-s"], [16, "oewn-15290975-n"]]
     paragraph: '27'
     pos: ["RB", "PRP", "RB", "VBD", "DT", "NNS", "TO", "VB", "JJ", "IN", "PRP$", "NN", ":", "PRP", "VBD", "JJ", "NNS", "."]
     text: ' Yet he never allowed these models to become fixed in his mind; they remained rough
@@ -958,7 +958,7 @@ XPLg:
     wn30_key: [[2, "never%4:02:00::"], [3, "allow%2:32:00::"], [5, "model%1:06:00::"], [7, "become%2:30:00::"], [8, "fixed%3:00:00:unchangeable:00"], [11, "mind%1:09:00::"], [14, "remain%2:30:00::"], [15, "rough%3:00:00:inexact:00"], [16, "starting_point%1:28:00::"]]
 yShe:
     lemmas: ["When", "carve", "he", "be", "charged", "with", "spontaneous", "energy", ";", "too-careful", "or", "detailed", "study", "in", "clay", "and", "wax", "would", "have", "glue", "him", "down", "to", "a", "mere", "enlarge", "of", "his", "model", "."]
-    oewn2026_key: [[1, "oewn-01259164-v"], [3, "oewn-02610777-v"], [4, "oewn-00858176-s"], [6, "oewn-02290110-a"], [7, "oewn-04843914-n"], [9, "oewn-00311741-s"], [11, "oewn-00311231-s"], [12, "oewn-04234206-n"], [14, "oewn-14837352-n"], [16, "oewn-15118861-n"], [19, "oewn-00487786-v"], [24, "oewn-01103400-s"], [25, "oewn-00241179-v"], [28, "oewn-03782816-n"]]
+    oewn_key: [[1, "oewn-01259164-v"], [3, "oewn-02610777-v"], [4, "oewn-00858176-s"], [6, "oewn-02290110-a"], [7, "oewn-04843914-n"], [9, "oewn-00311741-s"], [11, "oewn-00311231-s"], [12, "oewn-04234206-n"], [14, "oewn-14837352-n"], [16, "oewn-15118861-n"], [19, "oewn-00487786-v"], [24, "oewn-01103400-s"], [25, "oewn-00241179-v"], [28, "oewn-03782816-n"]]
     paragraph: '27'
     pos: ["WRB", "VBG", "PRP", "VBD", "JJ", "IN", "JJ", "NN", ":", "JJ", "CC", "JJ", "NNS", "IN", "NN", "CC", "NN", "MD", "VB", "VBN", "PRP", "RB", "TO", "DT", "JJ", "VBG", "IN", "PRP$", "NN", "."]
     text: ' When carving he was charged with spontaneous energy; too_careful or detailed studies
@@ -970,7 +970,7 @@ yShe:
     wn30_key: [[1, "carve%2:35:02::"], [3, "be%2:42:03::"], [4, "charged%3:00:00:emotional:00"], [6, "spontaneous%3:00:00::"], [7, "energy%1:07:02::"], [9, "too-careful%3:00:00:careful:00"], [11, "detailed%3:00:00:careful:00"], [12, "study%1:06:01::"], [14, "clay%1:27:00::"], [16, "wax%1:27:00::"], [19, "glue%2:30:00::"], [24, "mere%3:00:00:specified:00"], [25, "enlarge%2:30:01::"], [28, "model%1:06:00::"]]
 1L8Z:
     lemmas: ["The", "true", "surge", "have", "to", "be", "inside", "the", "marble", "itself", "."]
-    oewn2026_key: [[1, "oewn-02469730-a"], [2, "oewn-07454840-n"], [5, "oewn-02661230-v"], [6, "oewn-00111558-r"], [8, "oewn-14971945-n"]]
+    oewn_key: [[1, "oewn-02469730-a"], [2, "oewn-07454840-n"], [5, "oewn-02661230-v"], [6, "oewn-00111558-r"], [8, "oewn-14971945-n"]]
     paragraph: '28'
     pos: ["DT", "JJ", "NN", "VB", "VB", "VB", "RB", "DT", "NN", "PRP", "."]
     text: ' The true surge had to be inside the marble itself.'
@@ -979,7 +979,7 @@ yShe:
     wn30_key: [[1, "true%3:00:00::"], [2, "surge%1:11:00::"], [5, "be%2:42:05::"], [6, "inside%4:02:01::"], [8, "marble%1:27:00::"]]
 HNdN:
     lemmas: ["drawing", "and", "model", "be", "his", "thinking", "."]
-    oewn2026_key: [[0, "oewn-07016235-n"], [2, "oewn-03782816-n"], [3, "oewn-02626667-v"], [5, "oewn-05778923-n"]]
+    oewn_key: [[0, "oewn-07016235-n"], [2, "oewn-03782816-n"], [3, "oewn-02626667-v"], [5, "oewn-05778923-n"]]
     paragraph: '28'
     pos: ["NN", "CC", "NNS", "VBD", "PRP$", "NN", "."]
     text: ' Drawing and models were his thinking.'
@@ -988,7 +988,7 @@ HNdN:
     wn30_key: [[0, "drawing%1:10:00::"], [2, "model%1:06:00::"], [3, "be%2:42:02::"], [5, "thinking%1:09:00::"]]
 nbot:
     lemmas: ["carve", "be", "action", "."]
-    oewn2026_key: [[0, "oewn-01259164-v"], [1, "oewn-02622439-v"], [2, "oewn-00038116-n"]]
+    oewn_key: [[0, "oewn-01259164-v"], [1, "oewn-02622439-v"], [2, "oewn-00038116-n"]]
     paragraph: '28'
     pos: ["VBG", "VBD", "NN", "."]
     text: ' Carving was action.
@@ -999,7 +999,7 @@ nbot:
     wn30_key: [[0, "carve%2:35:02::"], [1, "be%2:42:06::"], [2, "action%1:04:02::"]]
 Lbmk:
     lemmas: ["The", "arrangement", "with", "person", "be", "work", "well", ",", "except", "that", "sometimes", "person", "could", "not", "figure", "who", "be", "master", "and", "who", "apprentice", "."]
-    oewn2026_key: [[1, "oewn-05803052-n"], [3, "oewn-00007846-n"], [5, "oewn-01528454-v"], [6, "oewn-00011555-r"], [10, "oewn-00022332-r"], [11, "oewn-00007846-n"], [13, "oewn-00024432-r"], [14, "oewn-00713964-v"], [16, "oewn-02622439-v"], [17, "oewn-10318314-n"], [20, "oewn-09821287-n"]]
+    oewn_key: [[1, "oewn-05803052-n"], [3, "oewn-00007846-n"], [5, "oewn-01528454-v"], [6, "oewn-00011555-r"], [10, "oewn-00022332-r"], [11, "oewn-00007846-n"], [13, "oewn-00024432-r"], [14, "oewn-00713964-v"], [16, "oewn-02622439-v"], [17, "oewn-10318314-n"], [20, "oewn-09821287-n"]]
     paragraph: '29'
     pos: ["DT", "NN", "IN", "NNP", "VBD", "VBG", "RB", ",", "IN", "IN", "RB", "NNP", "MD", "RB", "VB", "WP", "VBD", "NN", "CC", "WP", "NN", "."]
     text: ' The arrangement with Argiento was working well, except that sometimes Michelangelo
@@ -1009,7 +1009,7 @@ Lbmk:
     wn30_key: [[1, "arrangement%1:09:01::"], [3, "person%1:03:00::"], [5, "work%2:35:02::"], [6, "well%4:02:00::"], [10, "sometimes%4:02:01::"], [11, "person%1:03:00::"], [13, "not%4:02:00::"], [14, "figure%2:31:01::"], [16, "be%2:42:06::"], [17, "master%1:18:03::"], [20, "apprentice%1:18:00::"]]
 IPgj:
     lemmas: ["person", "have", "be", "train", "so", "rigorously", "by", "the", "jesuit", "that", "person", "be", "unable", "to", "change", "his", "habit", ":", "up", "before", "dawn", "to", "scrub", "the", "floor", ",", "whether", "they", "be", "dirty", "or", "not", ";", "water", "boil", "on", "the", "fire", "for", "wash", "laundry", "every_day", ",", "the", "pot", "scour", "with", "river", "sand", "after", "each", "meal", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [3, "oewn-00604693-v"], [4, "oewn-00147630-r"], [5, "oewn-00227027-r"], [8, "oewn-10241190-n"], [10, "oewn-00007846-n"], [11, "oewn-02610777-v"], [12, "oewn-00002098-a"], [14, "oewn-00126072-v"], [16, "oewn-00415192-n"], [18, "oewn-00188413-s"], [20, "oewn-15193837-n"], [22, "oewn-01253792-v"], [24, "oewn-03370438-n"], [28, "oewn-02610777-v"], [29, "oewn-00420808-a"], [31, "oewn-00024432-r"], [33, "oewn-14869913-n"], [34, "oewn-00375692-v"], [37, "oewn-13502051-n"], [39, "oewn-01538034-v"], [40, "oewn-03653533-n"], [44, "oewn-03996832-n"], [45, "oewn-01253792-v"], [47, "oewn-09434308-n"], [48, "oewn-15043597-n"], [50, "oewn-02277394-s"], [51, "oewn-07589261-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [3, "oewn-00604693-v"], [4, "oewn-00147630-r"], [5, "oewn-00227027-r"], [8, "oewn-10241190-n"], [10, "oewn-00007846-n"], [11, "oewn-02610777-v"], [12, "oewn-00002098-a"], [14, "oewn-00126072-v"], [16, "oewn-00415192-n"], [18, "oewn-00188413-s"], [20, "oewn-15193837-n"], [22, "oewn-01253792-v"], [24, "oewn-03370438-n"], [28, "oewn-02610777-v"], [29, "oewn-00420808-a"], [31, "oewn-00024432-r"], [33, "oewn-14869913-n"], [34, "oewn-00375692-v"], [37, "oewn-13502051-n"], [39, "oewn-01538034-v"], [40, "oewn-03653533-n"], [44, "oewn-03996832-n"], [45, "oewn-01253792-v"], [47, "oewn-09434308-n"], [48, "oewn-15043597-n"], [50, "oewn-02277394-s"], [51, "oewn-07589261-n"]]
     paragraph: '29'
     pos: ["NNP", "VBD", "VBN", "VBN", "RB", "RB", "IN", "DT", "NNPS", "IN", "NNP", "VBD", "JJ", "TO", "VB", "PRP$", "NNS", ":", "JJ", "IN", "NN", "TO", "VB", "DT", "NNS", ",", "IN", "PRP", "VBD", "JJ", "CC", "RB", ":", "NN", "VBG", "IN", "DT", "NN", "IN", "VBG", "NN", "RB", ",", "DT", "NNS", "VBD", "IN", "NN", "NN", "IN", "JJ", "NN", "."]
     text: ' Argiento had been trained so rigorously by the Jesuits that Michelangelo was unable
@@ -1023,7 +1023,7 @@ IPgj:
     wn30_key: [[0, "person%1:03:00::"], [3, "train%2:31:01::"], [4, "so%4:02:02::"], [5, "rigorously%4:02:00::"], [8, "jesuit%1:18:00::"], [10, "person%1:03:00::"], [11, "be%2:42:03::"], [12, "unable%3:00:00::"], [14, "change%2:30:01::"], [16, "habit%1:04:02::"], [18, "up%3:00:00:awake:00"], [20, "dawn%1:28:00::"], [22, "scrub%2:35:00::"], [24, "floor%1:06:00::"], [28, "be%2:42:03::"], [29, "dirty%3:00:01::"], [31, "not%4:02:00::"], [33, "water%1:27:00::"], [34, "boil%2:30:01::"], [37, "fire%1:22:00::"], [39, "wash%2:35:00::"], [40, "laundry%1:06:01::"], [44, "pot%1:06:00::"], [45, "scour%2:35:01::"], [47, "river%1:17:00::"], [48, "sand%1:27:00::"], [50, "each%3:00:00:all:00"], [51, "meal%1:13:00::"]]
 /ufm:
     lemmas: ["\"", "person", ",", "this", "be", "senseless", "\"", ",", "he", "complain", ",", "not", "like", "to", "work", "on", "the", "wet", "floor", ",", "particularly", "in", "cold_weather", "."]
-    oewn2026_key: [[1, "oewn-00007846-n"], [4, "oewn-02610777-v"], [5, "oewn-01951756-s"], [9, "oewn-00909100-v"], [11, "oewn-00024432-r"], [12, "oewn-01828678-v"], [14, "oewn-02418610-v"], [17, "oewn-02558087-a"], [18, "oewn-03370438-n"], [20, "oewn-00084573-r"], [22, "oewn-11460108-n"]]
+    oewn_key: [[1, "oewn-00007846-n"], [4, "oewn-02610777-v"], [5, "oewn-01951756-s"], [9, "oewn-00909100-v"], [11, "oewn-00024432-r"], [12, "oewn-01828678-v"], [14, "oewn-02418610-v"], [17, "oewn-02558087-a"], [18, "oewn-03370438-n"], [20, "oewn-00084573-r"], [22, "oewn-11460108-n"]]
     paragraph: '30'
     pos: ["``", "NNP", ",", "DT", "VBZ", "JJ", "''", ",", "PRP", "VBD", ",", "RB", "VBG", "TO", "VB", "VB", "DT", "JJ", "NNS", ",", "RB", "IN", "NN", "."]
     text: ' " Argiento, this is senseless ", he complained, not liking to work on the wet floors,
@@ -1033,7 +1033,7 @@ IPgj:
     wn30_key: [[1, "person%1:03:00::"], [4, "be%2:42:03::"], [5, "senseless%3:00:00:unreasonable:00"], [9, "complain%2:32:00::"], [11, "not%4:02:00::"], [12, "like%2:37:01::"], [14, "work%2:41:02::"], [17, "wet%3:00:01::"], [18, "floor%1:06:00::"], [20, "particularly%4:02:00::"], [22, "cold_weather%1:19:00::"]]
 0R0F:
     lemmas: ["\"", "You", "be", "too", "clean", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"], [3, "oewn-00047930-r"], [4, "oewn-00418932-a"]]
+    oewn_key: [[2, "oewn-02610777-v"], [3, "oewn-00047930-r"], [4, "oewn-00418932-a"]]
     paragraph: '30'
     pos: ["``", "PRP", "VBP", "RB", "JJ", "."]
     text: ' " You''re too clean.'
@@ -1042,7 +1042,7 @@ IPgj:
     wn30_key: [[2, "be%2:42:03::"], [3, "too%4:02:00::"], [4, "clean%3:00:01::"]]
 QkKQ:
     lemmas: ["scrub", "the", "studio", "once", "a", "week", "."]
-    oewn2026_key: [[0, "oewn-01253792-v"], [2, "oewn-04351324-n"], [3, "oewn-00119765-r"], [5, "oewn-15194920-n"]]
+    oewn_key: [[0, "oewn-01253792-v"], [2, "oewn-04351324-n"], [3, "oewn-00119765-r"], [5, "oewn-15194920-n"]]
     paragraph: '30'
     pos: ["VB", "DT", "NN", "RB", "DT", "NN", "."]
     text: ' Scrub the studio once a week.'
@@ -1051,7 +1051,7 @@ QkKQ:
     wn30_key: [[0, "scrub%2:35:00::"], [2, "studio%1:06:00::"], [3, "once%4:02:00::"], [5, "week%1:28:00::"]]
 Vk06:
     lemmas: ["That", "'s", "enough", "\"", "."]
-    oewn2026_key: [[2, "oewn-00146749-r"]]
+    oewn_key: [[2, "oewn-00146749-r"]]
     paragraph: '30'
     pos: ["DT", "VBZ", "RB", "``", "."]
     text: ' That''s enough ".
@@ -1062,7 +1062,7 @@ Vk06:
     wn30_key: [[2, "enough%4:02:00::"]]
 Wd57:
     lemmas: ["\"", "No", "\"", ",", "say", "person", "stolidly", "."]
-    oewn2026_key: [[4, "oewn-01011267-v"], [5, "oewn-00007846-n"], [6, "oewn-00217685-r"]]
+    oewn_key: [[4, "oewn-01011267-v"], [5, "oewn-00007846-n"], [6, "oewn-00217685-r"]]
     paragraph: '31'
     pos: ["``", "DT", "''", ",", "VBD", "NNP", "RB", "."]
     text: ' " No ", said Argiento stolidly.'
@@ -1071,7 +1071,7 @@ Wd57:
     wn30_key: [[4, "say%2:32:00::"], [5, "person%1:03:00::"], [6, "stolidly%4:02:00::"]]
 jQZ/:
     lemmas: ["\"", "every_day", "."]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '31'
     pos: ["``", "RB", "."]
     text: ' " Every_day.'
@@ -1080,7 +1080,7 @@ jQZ/:
     wn30_key: []
 cut+:
     lemmas: ["Before", "dawn", "."]
-    oewn2026_key: [[1, "oewn-15193837-n"]]
+    oewn_key: [[1, "oewn-15193837-n"]]
     paragraph: '31'
     pos: ["IN", "NN", "."]
     text: ' Before dawn.'
@@ -1089,7 +1089,7 @@ cut+:
     wn30_key: [[1, "dawn%1:28:00::"]]
 Wqos:
     lemmas: ["I", "be", "teach", "\"", "."]
-    oewn2026_key: [[2, "oewn-00830768-v"]]
+    oewn_key: [[2, "oewn-00830768-v"]]
     paragraph: '31'
     pos: ["PRP", "VBD", "VBN", "``", "."]
     text: ' I was taught ".
@@ -1100,7 +1100,7 @@ Wqos:
     wn30_key: [[2, "teach%2:32:00::"]]
 cVVC:
     lemmas: ["\"", "And", "god", "help", "anyone", "who", "try", "to", "unteach", "you", "\"", "!"]
-    oewn2026_key: [[2, "oewn-09528550-n"], [3, "oewn-02553283-v"], [6, "oewn-02535833-v"], [8, "oewn-00832009-v"]]
+    oewn_key: [[2, "oewn-09528550-n"], [3, "oewn-02553283-v"], [6, "oewn-02535833-v"], [8, "oewn-00832009-v"]]
     paragraph: '32'
     pos: ["``", "CC", "NNP", "VB", "NN", "WP", "VBZ", "TO", "VB", "PRP", "``", "."]
     text: ' " And God help anyone who tries to unteach you "!'
@@ -1109,7 +1109,7 @@ cVVC:
     wn30_key: [[2, "god%1:18:01::"], [3, "help%2:41:00::"], [6, "try%2:41:00::"], [8, "unteach%2:32:00::"]]
 E3f/:
     lemmas: ["grumble", "person", ";", "yet", "he", "know", "that", "he", "have", "nothing", "to", "grumble", "about", ",", "for", "person", "make", "few", "demand", "on", "him", "."]
-    oewn2026_key: [[0, "oewn-00911526-v"], [1, "oewn-00007846-n"], [5, "oewn-00596016-v"], [8, "oewn-02208144-v"], [9, "oewn-13762308-n"], [11, "oewn-00911526-v"], [15, "oewn-00007846-n"], [16, "oewn-01620211-v"], [17, "oewn-01557242-a"], [18, "oewn-07205939-n"]]
+    oewn_key: [[0, "oewn-00911526-v"], [1, "oewn-00007846-n"], [5, "oewn-00596016-v"], [8, "oewn-02208144-v"], [9, "oewn-13762308-n"], [11, "oewn-00911526-v"], [15, "oewn-00007846-n"], [16, "oewn-01620211-v"], [17, "oewn-01557242-a"], [18, "oewn-07205939-n"]]
     paragraph: '32'
     pos: ["VBD", "NNP", ":", "RB", "PRP", "VBD", "IN", "PRP", "VBD", "NN", "TO", "VB", "RB", ",", "IN", "NNP", "VBD", "JJ", "NNS", "IN", "PRP", "."]
     text: ' grumbled Michelangelo; yet he knew that he had nothing to grumble about, for Argiento
@@ -1119,7 +1119,7 @@ E3f/:
     wn30_key: [[0, "grumble%2:32:01::"], [1, "person%1:03:00::"], [5, "know%2:31:01::"], [8, "have%2:40:00::"], [9, "nothing%1:23:00::"], [11, "grumble%2:32:01::"], [15, "person%1:03:00::"], [16, "make%2:36:00::"], [17, "few%3:00:00::"], [18, "demand%1:10:00::"]]
 oaE5:
     lemmas: ["The", "boy", "be", "become", "acquainted_with", "the", "contadini", "family", "that", "bring", "produce", "into", "location", "."]
-    oewn2026_key: [[1, "oewn-10305010-n"], [3, "oewn-00149403-v"], [7, "oewn-08094856-n"], [9, "oewn-02081903-v"], [10, "oewn-07721456-n"], [12, "oewn-00027365-n"]]
+    oewn_key: [[1, "oewn-10305010-n"], [3, "oewn-00149403-v"], [7, "oewn-08094856-n"], [9, "oewn-02081903-v"], [10, "oewn-07721456-n"], [12, "oewn-00027365-n"]]
     paragraph: '32'
     pos: ["DT", "NN", "VBD", "VBG", "JJ", "DT", "NNS", "NNS", "WDT", "VBD", "NN", "IN", "NNP", "."]
     text: ' The boy was becoming acquainted_with the contadini families that brought produce
@@ -1129,7 +1129,7 @@ oaE5:
     wn30_key: [[1, "boy%1:18:00::"], [3, "become%2:30:00::"], [7, "family%1:14:02::"], [9, "bring%2:38:00::"], [10, "produce%1:13:00::"], [12, "location%1:03:00::"]]
 yUgu:
     lemmas: ["On", "sunday", "he", "would", "walk", "mile", "into", "the", "campagna", "to", "visit", "with", "them", ",", "and", "in_particular", "to", "see", "their", "horse", "."]
-    oewn2026_key: [[1, "oewn-15188844-n"], [4, "oewn-01908923-v"], [5, "oewn-13672836-n"], [10, "oewn-02498679-v"], [15, "oewn-00250244-r"], [17, "oewn-02498679-v;oewn-02133754-v"], [19, "oewn-02377103-n"]]
+    oewn_key: [[1, "oewn-15188844-n"], [4, "oewn-01908923-v"], [5, "oewn-13672836-n"], [10, "oewn-02498679-v"], [15, "oewn-00250244-r"], [17, "oewn-02498679-v;oewn-02133754-v"], [19, "oewn-02377103-n"]]
     paragraph: '32'
     pos: ["IN", "NNS", "PRP", "MD", "VB", "NNS", "IN", "DT", "NN", "TO", "VB", "IN", "PRP", ",", "CC", "RB", "TO", "VB", "PRP$", "NNS", "."]
     text: ' On Sundays he would walk miles into the campagna to visit with them, and in_particular
@@ -1139,7 +1139,7 @@ yUgu:
     wn30_key: [[1, "sunday%1:28:00::"], [4, "walk%2:38:00::"], [5, "mile%1:23:01::"], [10, "visit%2:41:02::"], [15, "in_particular%4:02:00::"], [17, "see%2:41:10::;see%2:39:00::"], [19, "horse%1:05:00::"]]
 vyH1:
     lemmas: ["The", "one", "thing", "he", "miss", "from", "his", "farm", "in", "the", "location", "be", "the", "animal", ";", "frequently", "he", "would", "take_leave", "his", "leave", "of", "person", "by", "announce", ":"]
-    oewn2026_key: [[1, "oewn-02193977-s"], [2, "oewn-04431553-n"], [4, "oewn-01809490-v"], [7, "oewn-03327044-n"], [10, "oewn-00027365-n"], [11, "oewn-02622439-v"], [13, "oewn-00015568-n"], [15, "oewn-00035445-r"], [18, "oewn-02012411-v"], [22, "oewn-00007846-n"], [24, "oewn-00976399-v"]]
+    oewn_key: [[1, "oewn-02193977-s"], [2, "oewn-04431553-n"], [4, "oewn-01809490-v"], [7, "oewn-03327044-n"], [10, "oewn-00027365-n"], [11, "oewn-02622439-v"], [13, "oewn-00015568-n"], [15, "oewn-00035445-r"], [18, "oewn-02012411-v"], [22, "oewn-00007846-n"], [24, "oewn-00976399-v"]]
     paragraph: '32'
     pos: ["DT", "JJ", "NN", "PRP", "VBD", "IN", "PRP$", "NN", "IN", "DT", "NN", "VBD", "DT", "NNS", ":", "RB", "PRP", "MD", "VB", "PRP$", "VB", "IN", "NNP", "IN", "VBG", ":"]
     text: ' The one thing he missed from his farm in the Po_Valley was the animals; frequently
@@ -1151,7 +1151,7 @@ vyH1:
     wn30_key: [[1, "one%3:00:00:cardinal:00"], [2, "thing%1:06:01::"], [4, "miss%2:37:00::"], [7, "farm%1:06:00::"], [10, "location%1:03:00::"], [11, "be%2:42:06::"], [13, "animal%1:03:00::"], [15, "frequently%4:02:00::"], [18, "take_leave%2:38:00::"], [22, "person%1:03:00::"], [24, "announce%2:32:00::"]]
 mqY6:
     lemmas: ["\"", "today", "I", "go", "see", "the", "horse", "\"", "."]
-    oewn2026_key: [[1, "oewn-15287732-n"], [3, "oewn-01839438-v"], [4, "oewn-02498679-v;oewn-02133754-v"], [6, "oewn-02377103-n"]]
+    oewn_key: [[1, "oewn-15287732-n"], [3, "oewn-01839438-v"], [4, "oewn-02498679-v;oewn-02133754-v"], [6, "oewn-02377103-n"]]
     paragraph: '33'
     pos: ["``", "NN", "PRP", "VBP", "VB", "DT", "NNS", "``", "."]
     text: ' " Today I go see the horses ".
@@ -1162,7 +1162,7 @@ mqY6:
     wn30_key: [[1, "today%1:28:00::"], [3, "go%2:38:00::"], [4, "see%2:41:10::;see%2:39:00::"], [6, "horse%1:05:00::"]]
 jHnE:
     lemmas: ["It", "take", "a", "piece", "of", "bad_luck", "to", "show", "person", "that", "the", "boy", "be", "devoted", "to", "him", "."]
-    oewn2026_key: [[1, "oewn-02634015-v"], [3, "oewn-07324075-n"], [5, "oewn-11447956-n"], [7, "oewn-00666706-v"], [8, "oewn-00007846-n"], [11, "oewn-10305010-n"], [12, "oewn-02610777-v"], [13, "oewn-00521593-s"]]
+    oewn_key: [[1, "oewn-02634015-v"], [3, "oewn-07324075-n"], [5, "oewn-11447956-n"], [7, "oewn-00666706-v"], [8, "oewn-00007846-n"], [11, "oewn-10305010-n"], [12, "oewn-02610777-v"], [13, "oewn-00521593-s"]]
     paragraph: '34'
     pos: ["PRP", "VBD", "RB", "NN", "IN", "NN", "TO", "VB", "NNP", "IN", "DT", "NN", "VBD", "JJ", "JJ", "PRP", "."]
     text: ' It took a piece of bad_luck to show Michelangelo that the boy was devoted to him.'
@@ -1171,7 +1171,7 @@ jHnE:
     wn30_key: [[1, "take%2:42:00::"], [3, "piece%1:11:00::"], [5, "bad_luck%1:19:00::"], [7, "show%2:31:00::"], [8, "person%1:03:00::"], [11, "boy%1:18:00::"], [12, "be%2:42:03::"], [13, "devoted%3:00:02:dedicated:00"]]
 0ud9:
     lemmas: ["He", "be", "crouch", "over", "his", "anvil", "in", "the", "courtyard", "get", "his", "chisel", "into", "trim", ",", "when", "a", "splinter", "of", "steel", "fly", "into", "his", "eye", "and", "imbed", "itself", "in", "his", "pupil", "."]
-    oewn2026_key: [[2, "oewn-02066560-v"], [5, "oewn-02728797-n"], [8, "oewn-03124849-n"], [9, "oewn-00120604-v"], [11, "oewn-03024375-n"], [13, "oewn-14521095-n"], [17, "oewn-09465742-n"], [19, "oewn-14826620-n"], [20, "oewn-01944262-v"], [23, "oewn-05318579-n"], [25, "oewn-01531609-v"], [29, "oewn-05327733-n"]]
+    oewn_key: [[2, "oewn-02066560-v"], [5, "oewn-02728797-n"], [8, "oewn-03124849-n"], [9, "oewn-00120604-v"], [11, "oewn-03024375-n"], [13, "oewn-14521095-n"], [17, "oewn-09465742-n"], [19, "oewn-14826620-n"], [20, "oewn-01944262-v"], [23, "oewn-05318579-n"], [25, "oewn-01531609-v"], [29, "oewn-05327733-n"]]
     paragraph: '34'
     pos: ["PRP", "VBD", "VBN", "IN", "PRP$", "NN", "IN", "DT", "NN", "VBG", "PRP$", "NNS", "IN", "NN", ",", "WRB", "DT", "NN", "IN", "NN", "VBD", "IN", "PRP$", "NN", "CC", "VBD", "PRP", "IN", "PRP$", "NN", "."]
     text: ' He was crouched over his anvil in the courtyard getting his chisels into trim, when
@@ -1181,7 +1181,7 @@ jHnE:
     wn30_key: [[2, "crouch%2:38:00::"], [5, "anvil%1:06:00::"], [8, "courtyard%1:06:00::"], [9, "get%2:30:02::"], [11, "chisel%1:06:00::"], [13, "trim%1:26:00::"], [17, "splinter%1:17:00::"], [19, "steel%1:27:00::"], [20, "fly%2:38:00::"], [23, "eye%1:08:00::"], [25, "imbed%2:35:00::"], [29, "pupil%1:08:00::"]]
 GKA8:
     lemmas: ["He", "stumble", "into", "the", "house", ",", "eye", "burn", "like", "fire", "."]
-    oewn2026_key: [[1, "oewn-01905126-v"], [4, "oewn-03549540-n"], [6, "oewn-05318579-n"], [7, "oewn-02124916-v"], [9, "oewn-13502051-n"]]
+    oewn_key: [[1, "oewn-01905126-v"], [4, "oewn-03549540-n"], [6, "oewn-05318579-n"], [7, "oewn-02124916-v"], [9, "oewn-13502051-n"]]
     paragraph: '34'
     pos: ["PRP", "VBD", "IN", "DT", "NN", ",", "NNS", "VBG", "RB", "NN", "."]
     text: ' He stumbled into the house, eyes burning like fire.'
@@ -1190,7 +1190,7 @@ GKA8:
     wn30_key: [[1, "stumble%2:38:01::"], [4, "house%1:06:00::"], [6, "eye%1:08:00::"], [7, "burn%2:39:00::"], [9, "fire%1:22:00::"]]
 dpkC:
     lemmas: ["person", "make", "him", "lie_down", "on", "the", "bed", ",", "bring", "a", "pan", "of", "hot", "water", ",", "dip", "some", "clean", "white", "linen", "cloth", "and", "apply", "it", "to", "extract", "the", "splinter", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-01649617-v"], [3, "oewn-01989043-v"], [6, "oewn-02821967-n"], [8, "oewn-02081903-v"], [10, "oewn-03886228-n"], [12, "oewn-01250274-a"], [13, "oewn-14869913-n"], [15, "oewn-01579924-v"], [16, "oewn-02275064-a"], [17, "oewn-00418932-a"], [18, "oewn-00394166-a"], [19, "oewn-03677847-n"], [20, "oewn-03314753-n"], [22, "oewn-02314145-v"], [25, "oewn-01353852-v"], [27, "oewn-09465742-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-01649617-v"], [3, "oewn-01989043-v"], [6, "oewn-02821967-n"], [8, "oewn-02081903-v"], [10, "oewn-03886228-n"], [12, "oewn-01250274-a"], [13, "oewn-14869913-n"], [15, "oewn-01579924-v"], [16, "oewn-02275064-a"], [17, "oewn-00418932-a"], [18, "oewn-00394166-a"], [19, "oewn-03677847-n"], [20, "oewn-03314753-n"], [22, "oewn-02314145-v"], [25, "oewn-01353852-v"], [27, "oewn-09465742-n"]]
     paragraph: '34'
     pos: ["NNP", "VBD", "PRP", "VB", "IN", "DT", "NN", ",", "VBD", "DT", "NN", "IN", "JJ", "NN", ",", "VBD", "JJ", "JJ", "JJ", "NN", "NN", "CC", "VBD", "PRP", "TO", "VB", "DT", "NN", "."]
     text: ' Argiento made him lie_down on the bed, brought a pan of hot water, dipped some clean
@@ -1200,7 +1200,7 @@ dpkC:
     wn30_key: [[0, "person%1:03:00::"], [1, "make%2:36:15::"], [3, "lie_down%2:38:00::"], [6, "bed%1:06:00::"], [8, "bring%2:38:00::"], [10, "pan%1:06:01::"], [12, "hot%3:00:01::"], [13, "water%1:27:00::"], [15, "dip%2:35:00::"], [16, "some%3:00:00::"], [17, "clean%3:00:01::"], [18, "white%3:00:01::"], [19, "linen%1:06:01::"], [20, "cloth%1:06:00::"], [22, "apply%2:40:00::"], [25, "extract%2:35:04::"], [27, "splinter%1:17:00::"]]
 OR0P:
     lemmas: ["Though", "the", "pain", "be", "considerable", "person", "be", "not", "too", "concerned", "."]
-    oewn2026_key: [[2, "oewn-14346126-n"], [3, "oewn-02610777-v"], [4, "oewn-00626700-a"], [5, "oewn-00007846-n"], [6, "oewn-02610777-v"], [7, "oewn-00024432-r"], [8, "oewn-00047930-r"], [9, "oewn-00545823-a"]]
+    oewn_key: [[2, "oewn-14346126-n"], [3, "oewn-02610777-v"], [4, "oewn-00626700-a"], [5, "oewn-00007846-n"], [6, "oewn-02610777-v"], [7, "oewn-00024432-r"], [8, "oewn-00047930-r"], [9, "oewn-00545823-a"]]
     paragraph: '34'
     pos: ["IN", "DT", "NN", "VBD", "JJ", "NNP", "VBD", "RB", "RB", "JJ", "."]
     text: ' Though the pain was considerable Michelangelo was not too concerned.'
@@ -1209,7 +1209,7 @@ OR0P:
     wn30_key: [[2, "pain%1:26:00::"], [3, "be%2:42:03::"], [4, "considerable%3:00:00::"], [5, "person%1:03:00::"], [6, "be%2:42:03::"], [7, "not%4:02:00::"], [8, "too%4:02:00::"], [9, "concerned%3:00:00::"]]
 qL6g:
     lemmas: ["He", "assume", "he", "could", "blink", "the", "splinter", "out", "."]
-    oewn2026_key: [[1, "oewn-00633898-v"], [4, "oewn-00007739-v"], [6, "oewn-09465742-n"], [7, "oewn-00235144-r"]]
+    oewn_key: [[1, "oewn-00633898-v"], [4, "oewn-00007739-v"], [6, "oewn-09465742-n"], [7, "oewn-00235144-r"]]
     paragraph: '34'
     pos: ["PRP", "VBD", "PRP", "MD", "VB", "DT", "NN", "RP", "."]
     text: ' He assumed he could blink the splinter out.'
@@ -1218,7 +1218,7 @@ qL6g:
     wn30_key: [[1, "assume%2:31:00::"], [4, "blink%2:29:00::"], [6, "splinter%1:17:00::"], [7, "out%4:02:04::"]]
 OOb4:
     lemmas: ["But", "it", "would", "not", "come_out", "."]
-    oewn2026_key: [[3, "oewn-00024432-r"], [4, "oewn-00530070-v"]]
+    oewn_key: [[3, "oewn-00024432-r"], [4, "oewn-00530070-v"]]
     paragraph: '34'
     pos: ["CC", "PRP", "MD", "RB", "VB", "."]
     text: ' But it would not come.'
@@ -1227,7 +1227,7 @@ OOb4:
     wn30_key: [[3, "not%4:02:00::"], [4, "come_out%2:30:04::"]]
 NJNq:
     lemmas: ["person", "never", "leave", "his", "side", ",", "keep", "the", "water", "boil", ",", "apply", "hot", "compress", "throughout", "the", "night", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-00021214-r"], [2, "oewn-02013448-v"], [4, "oewn-08666920-n"], [6, "oewn-02687605-v"], [8, "oewn-14869913-n"], [9, "oewn-00375339-v"], [11, "oewn-02314145-v"], [12, "oewn-01250274-a"], [13, "oewn-03086454-n"], [16, "oewn-15192074-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-00021214-r"], [2, "oewn-02013448-v"], [4, "oewn-08666920-n"], [6, "oewn-02687605-v"], [8, "oewn-14869913-n"], [9, "oewn-00375339-v"], [11, "oewn-02314145-v"], [12, "oewn-01250274-a"], [13, "oewn-03086454-n"], [16, "oewn-15192074-n"]]
     paragraph: '34'
     pos: ["NNP", "RB", "VBD", "PRP$", "NN", ",", "VBG", "DT", "NN", "VBD", ",", "VBG", "JJ", "NNS", "IN", "DT", "NN", "."]
     text: ' Argiento never left his side, keeping the water boiled, applying hot compresses
@@ -1239,7 +1239,7 @@ NJNq:
     wn30_key: [[0, "person%1:03:00::"], [1, "never%4:02:00::"], [2, "leave%2:38:01::"], [4, "side%1:15:02::"], [6, "keep%2:42:00::"], [8, "water%1:27:00::"], [9, "boil%2:30:02::"], [11, "apply%2:40:00::"], [12, "hot%3:00:01::"], [13, "compress%1:06:00::"], [16, "night%1:28:00::"]]
 iTgD:
     lemmas: ["By", "the", "second", "day", "person", "begin", "to", "worry", ";", "and", "by", "the", "second", "night", "he", "be", "in", "a", "state", "of", "panic", ":", "he", "could", "see", "nothing", "out", "of", "the", "afflicted", "eye", "."]
-    oewn2026_key: [[2, "oewn-02209815-s"], [3, "oewn-15190004-n"], [4, "oewn-00007846-n"], [5, "oewn-00346415-v"], [7, "oewn-01771015-v"], [12, "oewn-02209815-s"], [13, "oewn-15192074-n"], [15, "oewn-02610777-v"], [18, "oewn-00024900-n"], [20, "oewn-07535851-n"], [24, "oewn-02133754-v"], [25, "oewn-13762308-n"], [26, "oewn-00235144-r"], [29, "oewn-02552918-s"], [30, "oewn-05318579-n"]]
+    oewn_key: [[2, "oewn-02209815-s"], [3, "oewn-15190004-n"], [4, "oewn-00007846-n"], [5, "oewn-00346415-v"], [7, "oewn-01771015-v"], [12, "oewn-02209815-s"], [13, "oewn-15192074-n"], [15, "oewn-02610777-v"], [18, "oewn-00024900-n"], [20, "oewn-07535851-n"], [24, "oewn-02133754-v"], [25, "oewn-13762308-n"], [26, "oewn-00235144-r"], [29, "oewn-02552918-s"], [30, "oewn-05318579-n"]]
     paragraph: '35'
     pos: ["IN", "DT", "JJ", "NN", "NNP", "VBD", "TO", "VB", ":", "CC", "IN", "DT", "JJ", "NN", "PRP", "VBD", "IN", "DT", "NN", "IN", "NN", ":", "PRP", "MD", "VB", "NN", "RB", "IN", "DT", "JJ", "NN", "."]
     text: ' By the second day Michelangelo began to worry; and by the second night he was in
@@ -1249,7 +1249,7 @@ iTgD:
     wn30_key: [[2, "second%3:00:00:ordinal:00"], [3, "day%1:28:02::"], [4, "person%1:03:00::"], [5, "begin%2:30:00::"], [7, "worry%2:37:00::"], [12, "second%3:00:00:ordinal:00"], [13, "night%1:28:00::"], [15, "be%2:42:03::"], [18, "state%1:03:00::"], [20, "panic%1:12:00::"], [24, "see%2:39:00::"], [25, "nothing%1:23:00::"], [26, "out%4:02:04::"], [29, "afflicted%3:00:00:ill:01"], [30, "eye%1:08:00::"]]
 xjZu:
     lemmas: ["At", "dawn", "person", "go_to", "person", "."]
-    oewn2026_key: [[1, "oewn-15193837-n"], [2, "oewn-00007846-n"], [3, "oewn-02618797-v"], [4, "oewn-00007846-n"]]
+    oewn_key: [[1, "oewn-15193837-n"], [2, "oewn-00007846-n"], [3, "oewn-02618797-v"], [4, "oewn-00007846-n"]]
     paragraph: '35'
     pos: ["IN", "NN", "NNP", "VB", "NNP", "."]
     text: ' At dawn Argiento went_to Jacopo_Galli.'
@@ -1258,7 +1258,7 @@ xjZu:
     wn30_key: [[1, "dawn%1:28:00::"], [2, "person%1:03:00::"], [3, "go_to%2:42:00::"], [4, "person%1:03:00::"]]
 S0i0:
     lemmas: ["person", "arrive", "with", "his", "family", "surgeon", ",", "person", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-02009962-v"], [4, "oewn-08094856-n"], [5, "oewn-10698621-n"], [7, "oewn-00007846-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-02009962-v"], [4, "oewn-08094856-n"], [5, "oewn-10698621-n"], [7, "oewn-00007846-n"]]
     paragraph: '35'
     pos: ["NNP", "VBD", "IN", "PRP$", "NN", "NN", ",", "NN", "."]
     text: ' Galli arrived with his family surgeon, Maestro_Lippi.'
@@ -1267,7 +1267,7 @@ S0i0:
     wn30_key: [[0, "person%1:03:00::"], [1, "arrive%2:38:00::"], [4, "family%1:14:02::"], [5, "surgeon%1:18:00::"], [7, "person%1:03:00::"]]
 Kmfi:
     lemmas: ["The", "surgeon", "carry", "a", "cage", "of", "live", "pigeon", "."]
-    oewn2026_key: [[1, "oewn-10698621-n"], [2, "oewn-01452567-v"], [4, "oewn-02940098-n"], [7, "oewn-01814550-n"]]
+    oewn_key: [[1, "oewn-10698621-n"], [2, "oewn-01452567-v"], [4, "oewn-02940098-n"], [7, "oewn-01814550-n"]]
     paragraph: '35'
     pos: ["DT", "NN", "VBD", "DT", "NN", "IN", "JJ", "NNS", "."]
     text: ' The surgeon carried a cage of live pigeons.'
@@ -1276,7 +1276,7 @@ Kmfi:
     wn30_key: [[1, "surgeon%1:18:00::"], [2, "carry%2:35:02::"], [4, "cage%1:06:00::"], [7, "pigeon%1:05:00::"]]
 zByx:
     lemmas: ["He", "tell", "person", "to", "take", "a", "bird", "out", "of", "the", "cage", ",", "cut", "a", "large", "vein", "under", "its", "wing", ",", "let", "the", "blood", "gush", "into", "person", "'s", "injured", "eye", "."]
-    oewn2026_key: [[1, "oewn-00748704-v"], [2, "oewn-00007846-n"], [4, "oewn-00173351-v"], [6, "oewn-01505702-n"], [7, "oewn-00235144-r"], [10, "oewn-02940098-n"], [12, "oewn-01555301-v"], [14, "oewn-01385012-a"], [15, "oewn-05426061-n"], [18, "oewn-04600068-n"], [20, "oewn-02427979-v"], [22, "oewn-05407190-n"], [23, "oewn-02072341-v"], [25, "oewn-00007846-n"], [27, "oewn-01320916-a"], [28, "oewn-05318579-n"]]
+    oewn_key: [[1, "oewn-00748704-v"], [2, "oewn-00007846-n"], [4, "oewn-00173351-v"], [6, "oewn-01505702-n"], [7, "oewn-00235144-r"], [10, "oewn-02940098-n"], [12, "oewn-01555301-v"], [14, "oewn-01385012-a"], [15, "oewn-05426061-n"], [18, "oewn-04600068-n"], [20, "oewn-02427979-v"], [22, "oewn-05407190-n"], [23, "oewn-02072341-v"], [25, "oewn-00007846-n"], [27, "oewn-01320916-a"], [28, "oewn-05318579-n"]]
     paragraph: '35'
     pos: ["PRP", "VBD", "NNP", "TO", "VB", "DT", "NN", "RB", "IN", "DT", "NN", ",", "VBD", "DT", "JJ", "NN", "IN", "PRP$", "NN", ",", "VBD", "DT", "NN", "VB", "IN", "NNP", "POS", "JJ", "NN", "."]
     text: ' He told Argiento to take a bird out of the cage, cut a large vein under its wing,
@@ -1288,7 +1288,7 @@ zByx:
     wn30_key: [[1, "tell%2:32:02::"], [2, "person%1:03:00::"], [4, "take%2:30:00::"], [6, "bird%1:05:00::"], [7, "out%4:02:04::"], [10, "cage%1:06:00::"], [12, "cut%2:35:00::"], [14, "large%3:00:00::"], [15, "vein%1:08:00::"], [18, "wing%1:06:00::"], [20, "let%2:41:00::"], [22, "blood%1:08:00::"], [23, "gush%2:38:00::"], [25, "person%1:03:00::"], [27, "injured%3:00:00::"], [28, "eye%1:08:00::"]]
 2v2r:
     lemmas: ["The", "surgeon", "come_back", "at", "dusk", ",", "cut", "the", "vein", "of", "a", "second", "pigeon", ",", "again", "wash", "out", "the", "eye", "."]
-    oewn2026_key: [[1, "oewn-10698621-n"], [4, "oewn-15194468-n"], [6, "oewn-01555301-v"], [8, "oewn-05426061-n"], [11, "oewn-02209815-s"], [12, "oewn-01814550-n"], [14, "oewn-00040777-r"], [15, "oewn-00036355-v"], [18, "oewn-05318579-n"]]
+    oewn_key: [[1, "oewn-10698621-n"], [4, "oewn-15194468-n"], [6, "oewn-01555301-v"], [8, "oewn-05426061-n"], [11, "oewn-02209815-s"], [12, "oewn-01814550-n"], [14, "oewn-00040777-r"], [15, "oewn-00036355-v"], [18, "oewn-05318579-n"]]
     paragraph: '36'
     pos: ["DT", "NN", "VB", "IN", "NN", ",", "VBD", "DT", "NN", "IN", "DT", "JJ", "NN", ",", "RB", "VBN", "VB", "DT", "NN", "."]
     text: ' The surgeon came_back at dusk, cut the vein of a second pigeon, again washed out

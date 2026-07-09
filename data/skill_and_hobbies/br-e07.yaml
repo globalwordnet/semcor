@@ -3,7 +3,7 @@ _meta:
         type: seq
         base: tokens
         data: string
-    oewn2026_key:
+    oewn_key:
         type: element
         base: tokens
         data: string
@@ -28,7 +28,7 @@ _meta:
         data: string
 No9w:
     lemmas: ["The", "design", "of", "a", "mechanical", "interlocking", "frame", "be", "much", "like", "a", "mechanical", "puzzle", ",", "but", "once", "understand", ",", "the", "principle", "can", "be", "apply", "to", "any", "track", "and", "signal", "arrangement", "."]
-    oewn2026_key: [[7, "oewn-02610777-v"], [16, "oewn-00590283-v"], [22, "oewn-01161188-v"]]
+    oewn_key: [[7, "oewn-02610777-v"], [16, "oewn-00590283-v"], [22, "oewn-01161188-v"]]
     paragraph: '0'
     pos: ["DT", "NN", "IN", "DT", "JJ", "JJ", "NN", "VBZ", "JJ", "IN", "DT", "JJ", "NN", ",", "CC", "RB", "VBN", ",", "DT", "NNS", "MD", "VB", "VBN", "VB", "DT", "NN", "CC", "NN", "NN", "."]
     text: The design of a mechanical interlocking frame is much like a mechanical puzzle, but
@@ -38,7 +38,7 @@ No9w:
     wn30_key: [[7, "be%2:42:03::"], [16, "understand%2:31:00::"], [22, "apply%2:34:00::"]]
 ZMMA:
     lemmas: ["In", "the", "frame", "be", "two", "set", "of", "bars", "which", "interact", "with", "each", "other", "to", "prevent", "the", "operator", "from", "make", "dangerous", "move", "."]
-    oewn2026_key: [[3, "oewn-02661230-v"], [9, "oewn-02382049-v"], [14, "oewn-02455370-v"]]
+    oewn_key: [[3, "oewn-02661230-v"], [9, "oewn-02382049-v"], [14, "oewn-02455370-v"]]
     paragraph: '0'
     pos: ["IN", "DT", "NN", "VBP", "CD", "NNS", "IN", "NNS", "WDT", "VBP", "IN", "DT", "JJ", "TO", "VB", "DT", "NN", "IN", "VBG", "JJ", "NNS", "."]
     text: ' In the frame are two sets of bars which interact with each other to prevent the
@@ -48,7 +48,7 @@ ZMMA:
     wn30_key: [[3, "be%2:42:05::"], [9, "interact%2:41:00::"], [14, "prevent%2:41:00::"]]
 7vnA:
     lemmas: ["The", "main", "set", "of", "bars", "be", "the", "\"", "tappet", "\"", "and", "one", "tappet", "be", "connected", "to", "each", "lever", "."]
-    oewn2026_key: [[5, "oewn-02622439-v"]]
+    oewn_key: [[5, "oewn-02622439-v"]]
     paragraph: '0'
     pos: ["DT", "JJ", "NN", "IN", "NNS", "VBP", "DT", "``", "NNS", "''", "CC", "CD", "NN", "VB", "JJ", "TO", "DT", "NN", "."]
     text: ' The main set of bars are the " tappets " and one tappet is connected to each lever.'
@@ -57,7 +57,7 @@ ZMMA:
     wn30_key: [[5, "be%2:42:06::"]]
 euJb:
     lemmas: ["If", "the", "lever", "be", "pull", "to", "clear", "a", "signal", "or", "move", "a", "switch", ",", "the", "tappet", "move", "a", "short", "distance", "lengthwise", "at_the_same_time", "."]
-    oewn2026_key: [[4, "oewn-01450719-v"], [6, "oewn-00195961-v"], [10, "oewn-01854282-v"], [16, "oewn-01835473-v"]]
+    oewn_key: [[4, "oewn-01450719-v"], [6, "oewn-00195961-v"], [10, "oewn-01854282-v"], [16, "oewn-01835473-v"]]
     paragraph: '0'
     pos: ["IN", "DT", "NN", "VBZ", "VBN", "TO", "VB", "DT", "NN", "CC", "VB", "DT", "NN", ",", "DT", "NN", "VBZ", "DT", "JJ", "NN", "RB", "RB", "."]
     text: ' If the lever is pulled to clear a signal or move a switch, the tappet moves a short
@@ -69,7 +69,7 @@ euJb:
     wn30_key: [[4, "pull%2:35:00::"], [6, "clear%2:30:09::"], [10, "move%2:38:01::"], [16, "move%2:38:00::"]]
 B+v4:
     lemmas: ["close", "behind", "the", "plane", "of", "the", "tappet", "be", "the", "locking", "bars", "."]
-    oewn2026_key: [[7, "oewn-02661230-v"]]
+    oewn_key: [[7, "oewn-02661230-v"]]
     paragraph: '1'
     pos: ["RB", "IN", "DT", "NN", "IN", "DT", "NNS", "VBP", "DT", "JJ", "NNS", "."]
     text: ' Close behind the plane of the tappets are the locking bars.'
@@ -78,7 +78,7 @@ B+v4:
     wn30_key: [[7, "be%2:42:05::"]]
 xt0Q:
     lemmas: ["These", "can", "also", "move", "a", "short", "distance", "but", "at", "right_angle", "to", "the", "tappet", "."]
-    oewn2026_key: [[3, "oewn-01835473-v"]]
+    oewn_key: [[3, "oewn-01835473-v"]]
     paragraph: '1'
     pos: ["DT", "MD", "RB", "VB", "DT", "JJ", "NN", "CC", "IN", "NN", "TO", "DT", "NNS", "."]
     text: ' These can also move a short distance but at right_angles to the tappets.'
@@ -87,7 +87,7 @@ xt0Q:
     wn30_key: [[3, "move%2:38:00::"]]
 exNn:
     lemmas: ["The", "number", "of", "locking", "bars", "require", "depend_on", "how", "many", "false", "move", "must", "be", "prevent", "."]
-    oewn2026_key: [[5, "oewn-02634015-v"], [6, "oewn-02717862-v"], [13, "oewn-02458316-v"]]
+    oewn_key: [[5, "oewn-02634015-v"], [6, "oewn-02717862-v"], [13, "oewn-02458316-v"]]
     paragraph: '1'
     pos: ["DT", "NN", "IN", "JJ", "NNS", "VBD", "VB", "WRB", "JJ", "JJ", "NNS", "MD", "VB", "VBN", "."]
     text: ' The number of locking bars required depends_on how many false moves must be prevented.
@@ -98,7 +98,7 @@ exNn:
     wn30_key: [[5, "require%2:42:00::"], [6, "depend_on%2:42:00::"], [13, "prevent%2:41:01::"]]
 ZjQW:
     lemmas: ["In", "the", "side", "of", "the", "tappet", "be", "notch", "with", "sloping", "side", ",", "and", "connection", "between", "the", "tappet", "and", "locking", "bars", "consist_of", "cam", "call", "\"", "dog", "\"", "."]
-    oewn2026_key: [[6, "oewn-02661230-v"], [22, "oewn-01030757-v"]]
+    oewn_key: [[6, "oewn-02661230-v"], [22, "oewn-01030757-v"]]
     paragraph: '2'
     pos: ["IN", "DT", "NNS", "IN", "DT", "NNS", "VBP", "NNS", "IN", "JJ", "NNS", ",", "CC", "NN", "IN", "DT", "NNS", "CC", "JJ", "NNS", "VB", "NNS", "VBN", "``", "NNS", "''", "."]
     text: ' In the sides of the tappets are notches with sloping sides, and connection between
@@ -108,7 +108,7 @@ ZjQW:
     wn30_key: [[6, "be%2:42:05::"], [22, "call%2:32:02::"]]
 NkBJ:
     lemmas: ["Two", "or", "more", "dog", "be", "mount", "on", "each", "locking", "bar", "."]
-    oewn2026_key: [[5, "oewn-01345886-v"]]
+    oewn_key: [[5, "oewn-01345886-v"]]
     paragraph: '2'
     pos: ["CD", "CC", "JJR", "NNS", "VBP", "VBN", "IN", "DT", "JJ", "NN", "."]
     text: ' Two or more dogs are mounted on each locking bar.'
@@ -117,7 +117,7 @@ NkBJ:
     wn30_key: [[5, "mount%2:35:00::"]]
 GyWv:
     lemmas: ["These", "slide", "into", "and", "out", "of", "the", "notch", "in", "the", "tappet", "as", "the", "tappet", "be", "move", ",", "lock", "and", "unlock", "them", "."]
-    oewn2026_key: [[1, "oewn-01874268-v"], [15, "oewn-01854282-v"], [17, "oewn-01513459-v"], [19, "oewn-01513921-v"]]
+    oewn_key: [[1, "oewn-01874268-v"], [15, "oewn-01854282-v"], [17, "oewn-01513459-v"], [19, "oewn-01513921-v"]]
     paragraph: '2'
     pos: ["DT", "VB", "IN", "CC", "IN", "IN", "DT", "NNS", "IN", "DT", "NNS", "IN", "DT", "NNS", "VBP", "VBN", ",", "VBG", "CC", "VBG", "PRP", "."]
     text: ' These slide into and out of the notches in the tappets as the tappets are moved,
@@ -129,7 +129,7 @@ GyWv:
     wn30_key: [[1, "slide%2:38:01::"], [15, "move%2:38:01::"], [17, "lock%2:35:01::"], [19, "unlock%2:35:01::"]]
 t4UA:
     lemmas: ["here", "'s", "how", "the", "scheme", "work", ":", "suppose", "the", "operator", "pull", "the", "lever", "to", "clear", "a", "particular", "signal", "."]
-    oewn2026_key: [[5, "oewn-01528454-v"], [7, "oewn-00919271-v"], [10, "oewn-01450719-v"], [14, "oewn-00195961-v"]]
+    oewn_key: [[5, "oewn-01528454-v"], [7, "oewn-00919271-v"], [10, "oewn-01450719-v"], [14, "oewn-00195961-v"]]
     paragraph: '3'
     pos: ["RB", "POS", "WRB", "DT", "NN", "VBZ", ":", "VB", "DT", "NN", "VBZ", "DT", "NN", "TO", "VB", "DT", "JJ", "NN", "."]
     text: ' Here''s how the scheme works: Suppose the operator pulls the lever to clear a particular
@@ -139,7 +139,7 @@ t4UA:
     wn30_key: [[5, "work%2:35:02::"], [7, "suppose%2:32:00::"], [10, "pull%2:35:00::"], [14, "clear%2:30:09::"]]
 sOb0:
     lemmas: ["This", "also", "pull", "the", "tappet", "connected", "to", "the", "particular", "lever", "and", "force", "any", "dog", "seat", "in", "the", "notch", "to_the_side", ",", "thus", "move", "one", "or", "more", "locking", "bars", "."]
-    oewn2026_key: [[2, "oewn-01450719-v"], [11, "oewn-01875972-v"], [21, "oewn-01854282-v"]]
+    oewn_key: [[2, "oewn-01450719-v"], [11, "oewn-01875972-v"], [21, "oewn-01854282-v"]]
     paragraph: '3'
     pos: ["DT", "RB", "VBZ", "DT", "NN", "JJ", "TO", "DT", "JJ", "NN", "CC", "VB", "DT", "NNS", "VBN", "IN", "DT", "NNS", "RB", ",", "RB", "VBG", "CD", "CC", "JJR", "JJ", "NNS", "."]
     text: ' This also pulls the tappet connected to the particular lever and forces any dogs
@@ -149,7 +149,7 @@ sOb0:
     wn30_key: [[2, "pull%2:35:00::"], [11, "force%2:38:00::"], [21, "move%2:38:01::"]]
 mwSc:
     lemmas: ["The", "dog", "on", "the", "other", "end", "of", "these", "locking", "bars", "be", "thus", "force", "into", "notch", "in", "other", "tappet", "."]
-    oewn2026_key: [[12, "oewn-01875972-v"]]
+    oewn_key: [[12, "oewn-01875972-v"]]
     paragraph: '3'
     pos: ["DT", "NNS", "IN", "DT", "JJ", "NNS", "IN", "DT", "JJ", "NNS", "VBP", "RB", "VBN", "VB", "NNS", "IN", "JJ", "NNS", "."]
     text: ' The dogs on the other ends of these locking bars are thus forced into notches in
@@ -159,7 +159,7 @@ mwSc:
     wn30_key: [[12, "force%2:38:00::"]]
 IvFq:
     lemmas: ["By", "this", "scheme", ",", "pull", "one", "signal", "to", "clear", "lock", "all", "the", "other", "switch", "and", "signal", "lever", "in", "safe", "position", "until", "the", "first", "signal", "be", "again", "restore", "to", "normal", "."]
-    oewn2026_key: [[4, "oewn-01450719-v"], [9, "oewn-01513459-v"], [26, "oewn-02558146-v"]]
+    oewn_key: [[4, "oewn-01450719-v"], [9, "oewn-01513459-v"], [26, "oewn-02558146-v"]]
     paragraph: '3'
     pos: ["IN", "DT", "NN", ",", "VBG", "CD", "NN", "TO", "JJ", "VB", "DT", "DT", "JJ", "NN", "CC", "NN", "NNS", "IN", "JJ", "NNS", "IN", "DT", "JJ", "NN", "VBZ", "RB", "VBN", "TO", "JJ", "."]
     text: ' By this scheme, pulling one signal to clear locks all the other switch and signal
@@ -171,7 +171,7 @@ IvFq:
     wn30_key: [[4, "pull%2:35:00::"], [9, "lock%2:35:01::"], [26, "restore%2:41:01::"]]
 pfCz:
     lemmas: ["interlocking", "signal", "be", "normally", "at", "stop", "or", "\"", "red", "\"", "position", ",", "and", "a", "lever", "must", "be", "pull", "to", "\"", "clear", "\"", "the", "signal", "."]
-    oewn2026_key: [[2, "oewn-02661230-v"], [17, "oewn-01450719-v"], [20, "oewn-00195961-v"]]
+    oewn_key: [[2, "oewn-02661230-v"], [17, "oewn-01450719-v"], [20, "oewn-00195961-v"]]
     paragraph: '4'
     pos: ["JJ", "NNS", "VBP", "RB", "IN", "NN", "CC", "``", "JJ", "''", "NN", ",", "CC", "DT", "NN", "MD", "VB", "VBN", "TO", "``", "VB", "''", "DT", "NN", "."]
     text: ' Interlocking signals are normally at stop or " red " position, and a lever must
@@ -181,7 +181,7 @@ pfCz:
     wn30_key: [[2, "be%2:42:05::"], [17, "pull%2:35:00::"], [20, "clear%2:30:09::"]]
 IGdK:
     lemmas: ["This", "be", "not", "necessarily", "to", "green", ",", "however", ",", "for", "in", "some", "situation", "only", "a", "yellow", "indication", "be", "give", "to", "a", "train", "to", "let", "it", "into", "the", "\"", "plant", "\"", "."]
-    oewn2026_key: [[1, "oewn-02661230-v"], [18, "oewn-02240624-v"], [23, "oewn-02427979-v"]]
+    oewn_key: [[1, "oewn-02661230-v"], [18, "oewn-02240624-v"], [23, "oewn-02427979-v"]]
     paragraph: '4'
     pos: ["DT", "VBZ", "RB", "RB", "TO", "JJ", ",", "RB", ",", "IN", "IN", "DT", "NNS", "RB", "DT", "JJ", "NN", "VBZ", "VBN", "TO", "DT", "NN", "TO", "VB", "PRP", "IN", "DT", "``", "NN", "''", "."]
     text: ' This is not necessarily to green, however, for in some situations only a yellow
@@ -193,7 +193,7 @@ IGdK:
     wn30_key: [[1, "be%2:42:05::"], [18, "give%2:40:07::"], [23, "let%2:41:00::"]]
 Z9i0:
     lemmas: ["There", "be", "other", "basic", "rule", "."]
-    oewn2026_key: [[1, "oewn-02609706-v"]]
+    oewn_key: [[1, "oewn-02609706-v"]]
     paragraph: '5'
     pos: ["EX", "VBP", "JJ", "JJ", "NNS", "."]
     text: ' There are other basic rules.'
@@ -202,7 +202,7 @@ Z9i0:
     wn30_key: [[1, "be%2:42:00::"]]
 GKP2:
     lemmas: ["A", "turnout", "may", "have", "two", "lever", ",", "one", "to", "actually", "move", "the", "switch", "point", ",", "the", "other", "to", "lock", "the", "point", "."]
-    oewn2026_key: [[3, "oewn-02208144-v"], [10, "oewn-01854282-v"], [18, "oewn-01513459-v"]]
+    oewn_key: [[3, "oewn-02208144-v"], [10, "oewn-01854282-v"], [18, "oewn-01513459-v"]]
     paragraph: '5'
     pos: ["DT", "NN", "MD", "VB", "CD", "NNS", ",", "CD", "TO", "RB", "VB", "DT", "NN", "NNS", ",", "DT", "JJ", "TO", "VB", "DT", "NNS", "."]
     text: ' A turnout may have two levers, one to actually move the switch points, the other
@@ -212,7 +212,7 @@ GKP2:
     wn30_key: [[3, "have%2:40:00::"], [10, "move%2:38:01::"], [18, "lock%2:35:01::"]]
 ohAM:
     lemmas: ["A", "signal", "cannot", "be", "clear", "until", "all", "the", "related", "turnout", "be", "properly", "throw", "and", "lock", "."]
-    oewn2026_key: [[4, "oewn-00195961-v"], [12, "oewn-01512805-v"], [14, "oewn-01513459-v"]]
+    oewn_key: [[4, "oewn-00195961-v"], [12, "oewn-01512805-v"], [14, "oewn-01513459-v"]]
     paragraph: '5'
     pos: ["DT", "NN", "MD", "VB", "VBN", "IN", "DT", "DT", "JJ", "NNS", "VBP", "RB", "VBN", "CC", "VBN", "."]
     text: ' A signal cannot be cleared until all the related turnouts are properly thrown and
@@ -222,7 +222,7 @@ ohAM:
     wn30_key: [[4, "clear%2:30:09::"], [12, "throw%2:35:01::"], [14, "lock%2:35:01::"]]
 KIVg:
     lemmas: ["such", "lock", "be", "nearly", "always", "use", "where", "the", "switch", "point", "\"", "face", "\"", "oncoming", "traffic", "."]
-    oewn2026_key: [[5, "oewn-01161188-v"], [11, "oewn-02699161-v"]]
+    oewn_key: [[5, "oewn-01161188-v"], [11, "oewn-02699161-v"]]
     paragraph: '5'
     pos: ["JJ", "NNS", "VBP", "RB", "RB", "VBN", "WRB", "DT", "NN", "NNS", "``", "VBP", "''", "JJ", "NN", "."]
     text: ' Such locks are nearly always used where the switch points " face " oncoming traffic.'
@@ -231,7 +231,7 @@ KIVg:
     wn30_key: [[5, "use%2:34:01::"], [11, "face%2:42:00::"]]
 d1pg:
     lemmas: ["The", "lock", "insure", "that", "the", "point", "be", "throw", "all_the_way", "with", "no", "chance", "that", "a", "wheel", "flange", "will", "snag", "on", "a", "partly", "throw", "point", "."]
-    oewn2026_key: [[2, "oewn-00892111-v"], [7, "oewn-01512805-v"], [17, "oewn-01330894-v"], [21, "oewn-01512805-v"]]
+    oewn_key: [[2, "oewn-00892111-v"], [7, "oewn-01512805-v"], [17, "oewn-01330894-v"], [21, "oewn-01512805-v"]]
     paragraph: '5'
     pos: ["DT", "NN", "VBZ", "RB", "DT", "NNS", "VBP", "VBN", "RB", "IN", "DT", "NN", "IN", "DT", "NN", "NN", "MD", "VB", "IN", "DT", "RB", "VBN", "NN", "."]
     text: ' The lock insures that the points are thrown all_the_way with no chance that a wheel
@@ -241,7 +241,7 @@ d1pg:
     wn30_key: [[2, "insure%2:32:04::"], [7, "throw%2:35:01::"], [17, "snag%2:35:00::"], [21, "throw%2:35:01::"]]
 vExW:
     lemmas: ["If", "the", "point", "be", "n't", "throw", "all_the_way", ",", "the", "turnout", "cannot", "be", "lock", ",", "and", "in_turn", ",", "the", "signal", "cannot", "be", "clear", "."]
-    oewn2026_key: [[5, "oewn-01512805-v"], [12, "oewn-01513459-v"], [21, "oewn-00195961-v"]]
+    oewn_key: [[5, "oewn-01512805-v"], [12, "oewn-01513459-v"], [21, "oewn-00195961-v"]]
     paragraph: '5'
     pos: ["IN", "DT", "NNS", "VBP", "RB", "VBN", "RB", ",", "DT", "NN", "MD", "VB", "VBN", ",", "CC", "RB", ",", "DT", "NN", "MD", "VB", "VBN", "."]
     text: ' If the points aren''t thrown all_the_way, the turnout cannot be locked, and in_turn,
@@ -251,7 +251,7 @@ vExW:
     wn30_key: [[5, "throw%2:35:01::"], [12, "lock%2:35:01::"], [21, "clear%2:30:09::"]]
 HRO7:
     lemmas: ["generally", ",", "these", "lock", "on", "turnout", "be_called", "\"", "facing", "point", "lock", "\"", "."]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '5'
     pos: ["RB", ",", "DT", "NNS", "IN", "NNS", "VB", "``", "JJ", "NN", "NNS", "''", "."]
     text: ' Generally, these locks on turnouts are_called " facing point locks ".
@@ -262,7 +262,7 @@ HRO7:
     wn30_key: []
 pcVt:
     lemmas: ["fig.", "1", "-", "6", "show", "typical", "arrangement", "of", "track", "and", "signal", "."]
-    oewn2026_key: [[4, "oewn-01690851-v"]]
+    oewn_key: [[4, "oewn-01690851-v"]]
     paragraph: '6'
     pos: ["NNS", "CD", ":", "CD", "VBP", "JJ", "NNS", "IN", "NN", "CC", "NNS", "."]
     text: ' Figs. 1 - 6 show typical arrangements of track and signals.'
@@ -271,7 +271,7 @@ pcVt:
     wn30_key: [[4, "show%2:36:00::"]]
 UeSa:
     lemmas: ["Each", "diagram", "be", "accompany", "by", "a", "\"", "dog", "chart", "\"", ",", "a", "list", "of", "the", "lever", "that", "show", "which", "other", "lever", "any", "particular", "lever", "will", "lock", "if", "pull", "."]
-    oewn2026_key: [[3, "oewn-02722040-v"], [17, "oewn-00925764-v"], [25, "oewn-01513459-v"], [27, "oewn-01450719-v"]]
+    oewn_key: [[3, "oewn-02722040-v"], [17, "oewn-00925764-v"], [25, "oewn-01513459-v"], [27, "oewn-01450719-v"]]
     paragraph: '6'
     pos: ["DT", "NN", "VB", "VBN", "VB", "DT", "``", "NN", "NN", "''", ",", "DT", "NN", "IN", "DT", "NNS", "IN", "VBP", "WDT", "JJ", "NNS", "DT", "JJ", "NN", "MD", "VB", "IN", "VBN", "."]
     text: ' Each diagram is accompanied by a " dog chart ", a list of the levers that show which
@@ -281,7 +281,7 @@ UeSa:
     wn30_key: [[3, "accompany%2:42:00::"], [17, "show%2:32:01::"], [25, "lock%2:35:01::"], [27, "pull%2:35:00::"]]
 sDBO:
     lemmas: ["The", "line", "connect", "the", "wedge-shaped", "dog", "represent", "the", "locking", "bars", "at", "right_angle", "to", "the", "tappet", "bars", "."]
-    oewn2026_key: [[2, "oewn-02628315-v"], [6, "oewn-00837915-v"]]
+    oewn_key: [[2, "oewn-02628315-v"], [6, "oewn-00837915-v"]]
     paragraph: '6'
     pos: ["DT", "NNS", "VBG", "DT", "JJ", "NNS", "VBP", "DT", "JJ", "NNS", "IN", "NN", "TO", "DT", "NN", "NNS", "."]
     text: ' The lines connecting the wedge-shaped dogs represent the locking bars at right_angles
@@ -293,7 +293,7 @@ sDBO:
     wn30_key: [[2, "connect%2:42:02::"], [6, "represent%2:32:02::"]]
 VRpc:
     lemmas: ["By", "study", "the", "track-signal", "diagram", "you", "'ll", "note", "several", "other", "details", "."]
-    oewn2026_key: [[1, "oewn-02170904-v"], [7, "oewn-02122959-v"]]
+    oewn_key: [[1, "oewn-02170904-v"], [7, "oewn-02122959-v"]]
     paragraph: '7'
     pos: ["IN", "VBG", "DT", "JJ", "NNS", "PRP", "MD", "VB", "JJ", "JJ", "NNS", "."]
     text: ' By studying the track-signal diagrams you''ll note several other details.'
@@ -302,7 +302,7 @@ VRpc:
     wn30_key: [[1, "study%2:39:00::"], [7, "note%2:39:00::"]]
 WmGD:
     lemmas: ["derail", "-", "mechanical", "track", "devices", "that", "actually", "guide", "the", "wheel", "off", "the", "rails", "if", "a", "train", "pass", "a", "\"", "stop", "\"", "signal", "-", "be", "use", "in", "many", "instance", "."]
-    oewn2026_key: [[7, "oewn-02003830-v"], [16, "oewn-02055618-v"], [24, "oewn-01161188-v"]]
+    oewn_key: [[7, "oewn-02003830-v"], [16, "oewn-02055618-v"], [24, "oewn-01161188-v"]]
     paragraph: '7'
     pos: ["NNS", ":", "JJ", "NN", "NNS", "IN", "RB", "VBP", "DT", "NNS", "IN", "DT", "NNS", "IN", "DT", "NN", "VBZ", "DT", "``", "NN", "''", "NN", ":", "VBP", "VBN", "IN", "JJ", "NNS", "."]
     text: ' Derails - mechanical track devices that actually guide the wheels off the rails
@@ -312,7 +312,7 @@ WmGD:
     wn30_key: [[7, "guide%2:38:00::"], [16, "pass%2:38:05::"], [24, "use%2:34:01::"]]
 iX16:
     lemmas: ["\"", "home", "\"", "signal", "have", "two", "blade", "."]
-    oewn2026_key: [[4, "oewn-02208144-v"]]
+    oewn_key: [[4, "oewn-02208144-v"]]
     paragraph: '7'
     pos: ["``", "NN", "''", "NNS", "VBP", "CD", "NNS", "."]
     text: ' " Home " signals have two blades.'
@@ -321,7 +321,7 @@ iX16:
     wn30_key: [[4, "have%2:40:00::"]]
 yNqI:
     lemmas: ["The", "blacked-in", "blade", "indicate", "a", "fixed", "aspect", "-", "the", "blade", "do", "not", "move", "."]
-    oewn2026_key: [[3, "oewn-00923271-v"], [12, "oewn-01835473-v"]]
+    oewn_key: [[3, "oewn-00923271-v"], [12, "oewn-01835473-v"]]
     paragraph: '7'
     pos: ["DT", "JJ", "NNS", "VBP", "DT", "JJ", "NN", ":", "DT", "NN", "VBZ", "RB", "VB", "."]
     text: ' The blacked-in blades indicate a fixed aspect - the blade does not move.'
@@ -330,7 +330,7 @@ yNqI:
     wn30_key: [[3, "indicate%2:32:01::"], [12, "move%2:38:00::"]]
 3LOm:
     lemmas: ["As", "an", "engineer", "approach", "the", "plant", "the", "position", "of", "the", "home", "signal", "be", "see", "in_advance", "when", "he", "pass", "the", "\"", "distant", "\"", "signal", "located", "beyond", "the", "limit", "of", "the", "interlocking", "plant", "."]
-    oewn2026_key: [[3, "oewn-02057865-v"], [13, "oewn-02133754-v"], [17, "oewn-02055618-v"]]
+    oewn_key: [[3, "oewn-02057865-v"], [13, "oewn-02133754-v"], [17, "oewn-02055618-v"]]
     paragraph: '7'
     pos: ["IN", "DT", "NN", "VBZ", "DT", "NN", "DT", "NN", "IN", "DT", "NN", "NN", "VBZ", "VBN", "RB", "WRB", "PRP", "VBZ", "DT", "``", "JJ", "''", "NN", "JJ", "IN", "DT", "NNS", "IN", "DT", "JJ", "NN", "."]
     text: ' As an engineer approaches the plant the position of the home signal is seen in_advance
@@ -341,7 +341,7 @@ yNqI:
     wn30_key: [[3, "approach%2:38:00::"], [13, "see%2:39:00::"], [17, "pass%2:38:05::"]]
 be64:
     lemmas: ["In", "some", "low-speed", "situation", ",", "the", "distant", "signal", "be_fixed", "at", "caution", "."]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '7'
     pos: ["IN", "DT", "JJ", "NNS", ",", "DT", "JJ", "NN", "VB", "IN", "NN", "."]
     text: ' In some low-speed situations, the distant signal is_fixed at caution.'
@@ -350,7 +350,7 @@ be64:
     wn30_key: []
 Tx0v:
     lemmas: ["In", "other", "instance", "where", "there", "be", "no", "automatic", "block", "signaling", ",", "the", "distant", "have", "only", "green", "and", "yellow", "aspect", "."]
-    oewn2026_key: [[5, "oewn-02610777-v"], [13, "oewn-02208144-v"]]
+    oewn_key: [[5, "oewn-02610777-v"], [13, "oewn-02208144-v"]]
     paragraph: '7'
     pos: ["IN", "JJ", "NNS", "WRB", "EX", "VBZ", "DT", "JJ", "NN", "NN", ",", "DT", "JJ", "VBZ", "RB", "JJ", "CC", "JJ", "NNS", "."]
     text: ' In other instances where there is no automatic block signaling, the distant has
@@ -362,7 +362,7 @@ Tx0v:
     wn30_key: [[5, "be%2:42:04::"], [13, "have%2:40:00::"]]
 9BeG:
     lemmas: ["So_much", "for", "the", "prototype", "."]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '8'
     pos: ["RB", "IN", "DT", "NN", "."]
     text: ' So_much for the prototype.
@@ -373,7 +373,7 @@ Tx0v:
     wn30_key: []
 JbHH:
     lemmas: ["The", "interlocking", "frame", "we", "build", "at", "the", "model", "railroader", "workshop", "and_then", "instal", "on", "paul_larson", "'s", "railroad", "follow", "the", "Fig.", "1", "scheme", "and", "be_shown", "begin", "in", "Fig.", "7", ",", "page", "65", ",", "and", "in", "the", "photo", "."]
-    oewn2026_key: [[4, "oewn-01658171-v"], [11, "oewn-01572394-v"], [16, "oewn-00150596-v"], [23, "oewn-02614382-v"]]
+    oewn_key: [[4, "oewn-01658171-v"], [11, "oewn-01572394-v"], [16, "oewn-00150596-v"], [23, "oewn-02614382-v"]]
     paragraph: '9'
     pos: ["DT", "JJ", "NN", "PRP", "VBD", "IN", "DT", "NN", "NNP", "NN", "RB", "VBN", "IN", "NNP", "POS", "NN", "VBZ", "DT", "NN", "CD", "NN", "CC", "VB", "VB", "IN", "NN", "CD", ",", "NN", "CD", ",", "CC", "IN", "DT", "NNS", "."]
     text: ' The interlocking frame we built at the Model Railroader workshop and_then installed
@@ -384,7 +384,7 @@ JbHH:
     wn30_key: [[4, "build%2:36:00::"], [11, "instal%2:35:00::"], [16, "follow%2:30:00::"], [23, "begin%2:42:00::"]]
 ADkX:
     lemmas: ["here", "'s", "how", "it", "can", "be", "build", "."]
-    oewn2026_key: [[6, "oewn-01658171-v"]]
+    oewn_key: [[6, "oewn-01658171-v"]]
     paragraph: '9'
     pos: ["RB", "POS", "WRB", "PRP", "MD", "VB", "VBN", "."]
     text: ' Here''s how it can be built.
@@ -395,7 +395,7 @@ ADkX:
     wn30_key: [[6, "build%2:36:00::"]]
 n2Wa:
     lemmas: ["The", "size", "of", "piece", "needed", "for", "the", "interlocking", "frame", "be_shown", "in", "the", "note", "within", "Fig.", "7", ",", "most_of", "the", "bars", "be", "1", "8", "\"", "brass", "in", "1", "4", "\"", "and", "1", "2", "\"", "width", "."]
-    oewn2026_key: [[20, "oewn-02610777-v"]]
+    oewn_key: [[20, "oewn-02610777-v"]]
     paragraph: '10'
     pos: ["DT", "NNS", "IN", "NNS", "JJ", "IN", "DT", "JJ", "NN", "VB", "IN", "DT", "NNS", "IN", "NN", "CD", ",", "JJ", "DT", "NNS", "VBG", "CD", "CD", "``", "NN", "IN", "CD", "CD", "''", "CC", "CD", "CD", "``", "NNS", "."]
     text: ' The sizes of pieces needed for the interlocking frame are_shown in the notes within
@@ -405,7 +405,7 @@ n2Wa:
     wn30_key: [[20, "be%2:42:03::"]]
 o6Ag:
     lemmas: ["You", "may", "change", "the", "dimension", "to", "suit", "a", "frame", "for", "more", "or", "fewer", "lever", "and", "lock", "as", "you", "wish", "."]
-    oewn2026_key: [[2, "oewn-00126072-v"], [6, "oewn-02705783-v"], [18, "oewn-01828678-v"]]
+    oewn_key: [[2, "oewn-00126072-v"], [6, "oewn-02705783-v"], [18, "oewn-01828678-v"]]
     paragraph: '10'
     pos: ["PRP", "MD", "VB", "DT", "NNS", "TO", "VB", "DT", "NN", "IN", "JJR", "CC", "JJR", "NNS", "CC", "NNS", "IN", "PRP", "VBP", "."]
     text: ' You may change the dimensions to suit a frame for more or fewer levers and locks
@@ -415,7 +415,7 @@ o6Ag:
     wn30_key: [[2, "change%2:30:01::"], [6, "suit%2:42:00::"], [18, "wish%2:37:02::"]]
 NHjn:
     lemmas: ["Our", "instructions", "assume", "you", "be", "build", "this", "particular", "frame", ",", "which", "be", "for", "a", "junction", "."]
-    oewn2026_key: [[2, "oewn-00633898-v"], [5, "oewn-01658171-v"], [11, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-00633898-v"], [5, "oewn-01658171-v"], [11, "oewn-02610777-v"]]
     paragraph: '10'
     pos: ["PRP$", "NNS", "VBP", "PRP", "VBP", "VBG", "DT", "JJ", "NN", ",", "WDT", "VBZ", "IN", "DT", "NN", "."]
     text: ' Our instructions assume you are building this particular frame, which is for a junction.
@@ -426,7 +426,7 @@ NHjn:
     wn30_key: [[2, "assume%2:31:00::"], [5, "build%2:36:00::"], [11, "be%2:42:03::"]]
 +zOj:
     lemmas: ["When", "cut", "the", "piece", ",", "dress", "the", "end", "smooth", ",", "and", "square", "with", "a", "smooth", "file", "or", "sanding", "disk", "."]
-    oewn2026_key: [[1, "oewn-01555301-v"], [5, "oewn-01268833-v"], [11, "oewn-00145268-v"]]
+    oewn_key: [[1, "oewn-01555301-v"], [5, "oewn-01268833-v"], [11, "oewn-00145268-v"]]
     paragraph: '11'
     pos: ["WRB", "VBG", "DT", "NNS", ",", "VBP", "DT", "NNS", "JJ", ",", "CC", "VB", "VB", "DT", "JJ", "NN", "CC", "NN", "NN", "."]
     text: ' When cutting the pieces, dress the ends smooth, and square with a smooth file or
@@ -436,7 +436,7 @@ NHjn:
     wn30_key: [[1, "cut%2:35:00::"], [5, "dress%2:35:02::"], [11, "square%2:30:00::"]]
 hCWD:
     lemmas: ["start", "with", "the", "right-hand", "piece", "\"", "b", "\"", ",", "*", "*", "f", ",", "solder", "it", "to", "the", "low", "piece", "\"", "A", "\"", "of", "the", "same", "material", "but", "12", "\"", "long", "."]
-    oewn2026_key: [[0, "oewn-00346415-v"], [13, "oewn-01598181-v"]]
+    oewn_key: [[0, "oewn-00346415-v"], [13, "oewn-01598181-v"]]
     paragraph: '11'
     pos: ["VB", "IN", "DT", "JJ", "NN", "``", "NNP", "''", ",", "SYM", "SYM", "NN", ",", "VB", "PRP", "TO", "DT", "JJR", "NN", "``", "DT", "''", "IN", "DT", "JJ", "NN", "CC", "CD", "``", "JJ", "."]
     text: ' Start with the right-hand piece " B ", * * f, soldering it to the lower piece "
@@ -446,7 +446,7 @@ hCWD:
     wn30_key: [[0, "start%2:30:00::"], [13, "solder%2:35:00::"]]
 FlZE:
     lemmas: ["let", "exactly", "1", "\"", "of", "\"", "A", "\"", "extend", "beyond", "\"", "b", "\"", "and", "use", "a", "square", "to", "check", "your", "angle", "to", "exactly", "90", "degree", "."]
-    oewn2026_key: [[0, "oewn-02427979-v"], [8, "oewn-02695935-v"], [14, "oewn-01161188-v"], [18, "oewn-00663742-v"]]
+    oewn_key: [[0, "oewn-02427979-v"], [8, "oewn-02695935-v"], [14, "oewn-01161188-v"], [18, "oewn-00663742-v"]]
     paragraph: '11'
     pos: ["VB", "RB", "CD", "``", "IN", "``", "DT", "''", "VB", "IN", "``", "NNP", "''", "CC", "VB", "DT", "NN", "TO", "VB", "PRP$", "NN", "TO", "RB", "CD", "NNS", "."]
     text: ' Let exactly 1 " of " A " extend beyond " B " and use a square to check your angle
@@ -458,7 +458,7 @@ FlZE:
     wn30_key: [[0, "let%2:41:00::"], [8, "extend%2:42:02::"], [14, "use%2:34:01::"], [18, "check%2:31:00::"]]
 n6b9:
     lemmas: ["now", "lay", "12", "piece", "of", "*", "*", "f", "cut", "5", "-", "3", "4", "\"", "long", "side_by_side", "but", "separate", "by", "12", "piece", "of", "the", "same", "material", "1", "2", "\"", "sq.", "."]
-    oewn2026_key: [[1, "oewn-01547474-v"], [17, "oewn-02473085-v"]]
+    oewn_key: [[1, "oewn-01547474-v"], [17, "oewn-02473085-v"]]
     paragraph: '12'
     pos: ["RB", "VBD", "CD", "NNS", "IN", "SYM", "SYM", "NN", "NN", "CD", ":", "CD", "CD", "``", "JJ", "JJ", "CC", "VBN", "IN", "CD", "NNS", "IN", "DT", "JJ", "NN", "CD", "CD", "``", "JJ", "."]
     text: ' Now lay 12 pieces of * * f cut 5 - 3 4 " long side_by_side but separated by 12 pieces
@@ -468,7 +468,7 @@ n6b9:
     wn30_key: [[1, "lay%2:35:00::"], [17, "separate%2:41:01::"]]
 IJh1:
     lemmas: ["This", "give", "you", "the", "spacing", "for", "locate", "the", "left-hand", "piece", "\"", "b", "\"", "."]
-    oewn2026_key: [[1, "oewn-02344167-v"], [6, "oewn-02291049-v"]]
+    oewn_key: [[1, "oewn-02344167-v"], [6, "oewn-02291049-v"]]
     paragraph: '12'
     pos: ["DT", "VBZ", "PRP", "DT", "NN", "IN", "VBG", "DT", "JJ", "NN", "``", "NNP", "''", "."]
     text: ' This gives you the spacing for locating the left-hand piece " B ".'
@@ -477,7 +477,7 @@ IJh1:
     wn30_key: [[1, "give%2:40:05::"], [6, "locate%2:40:00::"]]
 k1AM:
     lemmas: ["compress", "the", "assembly", "when", "you", "make", "the", "mark", "to", "show", "the", "location", "for", "\"", "b", "\"", "."]
-    oewn2026_key: [[0, "oewn-01391983-v"], [5, "oewn-01620211-v"], [9, "oewn-02141597-v"]]
+    oewn_key: [[0, "oewn-01391983-v"], [5, "oewn-01620211-v"], [9, "oewn-02141597-v"]]
     paragraph: '12'
     pos: ["VB", "DT", "NN", "WRB", "PRP", "VBP", "DT", "NN", "TO", "VB", "DT", "NN", "IN", "``", "NNP", "''", "."]
     text: ' Compress the assembly when you make the mark to show the location for " B ".'
@@ -486,7 +486,7 @@ k1AM:
     wn30_key: [[0, "compress%2:35:01::"], [5, "make%2:36:00::"], [9, "show%2:39:00::"]]
 l78m:
     lemmas: ["solder", "this", "second", "\"", "b", "\"", "to", "\"", "A", "\"", "at", "right_angle", "."]
-    oewn2026_key: [[0, "oewn-01598181-v"]]
+    oewn_key: [[0, "oewn-01598181-v"]]
     paragraph: '12'
     pos: ["VB", "DT", "JJ", "``", "NNP", "''", "TO", "``", "DT", "''", "IN", "NN", "."]
     text: ' Solder this second " B " to " A " at right_angles.'
@@ -495,7 +495,7 @@ l78m:
     wn30_key: [[0, "solder%2:35:00::"]]
 k/aF:
     lemmas: ["There", "should", "be", "10", "\"", "between", "the", "two", "parallel", "member", "and", "each", "should", "be", "1", "\"", "from", "an", "end", "of", "the", "long", "piece", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"], [13, "oewn-02661230-v"]]
+    oewn_key: [[2, "oewn-02610777-v"], [13, "oewn-02661230-v"]]
     paragraph: '12'
     pos: ["EX", "MD", "VB", "CD", "''", "IN", "DT", "CD", "JJ", "NNS", "CC", "DT", "MD", "VB", "CD", "''", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
     text: ' There should be 10 " between the two parallel members and each should be 1 " from
@@ -507,7 +507,7 @@ k/aF:
     wn30_key: [[2, "be%2:42:04::"], [13, "be%2:42:05::"]]
 5G+Y:
     lemmas: ["cap", "this", "assembly", "(", "with", "spacing", "bars", "in_place", ")", "with", "a", "*", "*", "f", "bar", "."]
-    oewn2026_key: [[0, "oewn-02699010-v"]]
+    oewn_key: [[0, "oewn-02699010-v"]]
     paragraph: '13'
     pos: ["VB", "DT", "NN", "NN", "IN", "NN", "NNS", "RB", "NN", "IN", "DT", "NN", "SYM", "NN", "NN", "."]
     text: ' Cap this assembly (with spacing bars in_place) with a * * f bar.'
@@ -516,7 +516,7 @@ k/aF:
     wn30_key: [[0, "cap%2:42:00::"]]
 bCql:
     lemmas: ["tack", "solder", "all", "the", "1", "2", "\"", "sq.", "piece", "to", "the", "10", "\"", "and", "12", "\"", "member", "."]
-    oewn2026_key: [[0, "oewn-01360132-v"], [1, "oewn-01598181-v"]]
+    oewn_key: [[0, "oewn-01360132-v"], [1, "oewn-01598181-v"]]
     paragraph: '13'
     pos: ["VB", "VB", "DT", "DT", "CD", "CD", "``", "JJ", "NNS", "TO", "DT", "CD", "``", "CC", "CD", "``", "NNS", "."]
     text: ' Tack solder all the 1 2 " sq. pieces to the 10 " and 12 " members.'
@@ -525,7 +525,7 @@ bCql:
     wn30_key: [[0, "tack%2:35:00::"], [1, "solder%2:35:00::"]]
 zFsP:
     lemmas: ["These", "will", "be", "drill", "and", "tap", "later_on", "."]
-    oewn2026_key: [[3, "oewn-01445640-v"], [5, "oewn-01405968-v"]]
+    oewn_key: [[3, "oewn-01445640-v"], [5, "oewn-01405968-v"]]
     paragraph: '13'
     pos: ["DT", "MD", "VB", "VBN", "CC", "VBN", "RB", "."]
     text: ' These will be drilled and tapped later_on.
@@ -536,7 +536,7 @@ zFsP:
     wn30_key: [[3, "drill%2:35:00::"], [5, "tap%2:35:02::"]]
 kj5B:
     lemmas: ["now", "cut", "five", "*", "*", "f", "locking", "bar", "spacer", "(", "which", "run", "horizontally", ")", "."]
-    oewn2026_key: [[1, "oewn-01555301-v"], [11, "oewn-02691775-v"]]
+    oewn_key: [[1, "oewn-01555301-v"], [11, "oewn-02691775-v"]]
     paragraph: '14'
     pos: ["RB", "VBN", "CD", "SYM", "SYM", "NN", "JJ", "NN", "NNS", "CD", "WDT", "VBP", "RB", "CD", "."]
     text: ' Now cut five * * f locking bar spacers (which run horizontally).'
@@ -545,7 +545,7 @@ kj5B:
     wn30_key: [[1, "cut%2:35:00::"], [11, "run%2:42:00::"]]
 a8HU:
     lemmas: ["position", "these", "use", "six", "intermediate", "temporary", "*", "*", "f", "spacer", "and", "locate", "the", "upper", "12", "\"", "bar", "\"", "A", "\"", "."]
-    oewn2026_key: [[0, "oewn-01991174-v"], [2, "oewn-01161188-v"], [11, "oewn-02700775-v"]]
+    oewn_key: [[0, "oewn-01991174-v"], [2, "oewn-01161188-v"], [11, "oewn-02700775-v"]]
     paragraph: '14'
     pos: ["VB", "DT", "VBG", "CD", "JJ", "JJ", "NN", "SYM", "NN", "NNS", "CC", "VB", "DT", "JJ", "CD", "``", "NN", "''", "DT", "''", "."]
     text: ' Position these using six intermediate temporary * * f spacers and locate the upper
@@ -555,7 +555,7 @@ a8HU:
     wn30_key: [[0, "position%2:38:00::"], [2, "use%2:34:01::"], [11, "locate%2:42:00::"]]
 RHQq:
     lemmas: ["solder", "it", "and", "the", "five", "locking", "bar", "spacer", "to", "the", "frame", "."]
-    oewn2026_key: [[0, "oewn-01598181-v"]]
+    oewn_key: [[0, "oewn-01598181-v"]]
     paragraph: '14'
     pos: ["VB", "PRP", "CC", "DT", "CD", "JJ", "NN", "NNS", "TO", "DT", "NN", "."]
     text: ' Solder it and the five locking bar spacers to the frame.'
@@ -564,7 +564,7 @@ RHQq:
     wn30_key: [[0, "solder%2:35:00::"]]
 +dHc:
     lemmas: ["now", "place", "12", "piece", "1", "2", "\"", "sq.", "on", "this", "edge", "as", "we", "do", "before", "and", "space", "them", "with", "the", "5", "-", "3", "4", "\"", "long", "\"", "tappet", "\"", ",", "as", "they", "be", "call", "."]
-    oewn2026_key: [[1, "oewn-01496967-v"], [16, "oewn-01992094-v"], [33, "oewn-01030757-v"]]
+    oewn_key: [[1, "oewn-01496967-v"], [16, "oewn-01992094-v"], [33, "oewn-01030757-v"]]
     paragraph: '14'
     pos: ["RB", "VB", "CD", "NNS", "CD", "CD", "``", "JJ", "IN", "DT", "NN", "IN", "PRP", "VBD", "RB", "CC", "VB", "PRP", "IN", "DT", "CD", ":", "CD", "CD", "``", "JJ", "''", "NNS", "''", ",", "IN", "PRP", "VB", "VBN", "."]
     text: ' Now place 12 pieces 1 2 " sq. on this edge as we did before and space them with
@@ -574,7 +574,7 @@ RHQq:
     wn30_key: [[1, "place%2:35:00::"], [16, "space%2:38:00::"], [33, "call%2:32:02::"]]
 KCMS:
     lemmas: ["cap", "with", "a", "*", "*", "f", "bar", "and", "tack", "solder", "in_place", "."]
-    oewn2026_key: [[0, "oewn-02699010-v"], [8, "oewn-01360132-v"], [9, "oewn-01598181-v"]]
+    oewn_key: [[0, "oewn-02699010-v"], [8, "oewn-01360132-v"], [9, "oewn-01598181-v"]]
     paragraph: '14'
     pos: ["VB", "IN", "DT", "NN", "SYM", "NN", "NN", "CC", "VB", "VB", "RB", "."]
     text: ' Cap with a * * f bar and tack solder in_place.'
@@ -583,7 +583,7 @@ KCMS:
     wn30_key: [[0, "cap%2:42:00::"], [8, "tack%2:35:00::"], [9, "solder%2:35:00::"]]
 ne/7:
     lemmas: ["cap", "the", "locking", "bar", "spacer", "with", "two", "*", "*", "f", "directly", "under", "the", "first", "two", "\"", "b", "\"", "piece", "."]
-    oewn2026_key: [[0, "oewn-02699010-v"]]
+    oewn_key: [[0, "oewn-02699010-v"]]
     paragraph: '14'
     pos: ["VB", "DT", "JJ", "NN", "NNS", "IN", "CD", "SYM", "SYM", "NN", "RB", "IN", "DT", "JJ", "CD", "``", "NNP", "''", "NNS", "."]
     text: ' Cap the locking bar spacers with two * * f directly under the first two " B " pieces.'
@@ -592,7 +592,7 @@ ne/7:
     wn30_key: [[0, "cap%2:42:00::"]]
 Ec12:
     lemmas: ["remove", "all", "the", "loose", "spacing", "bars", "."]
-    oewn2026_key: [[0, "oewn-00173351-v"]]
+    oewn_key: [[0, "oewn-00173351-v"]]
     paragraph: '14'
     pos: ["VB", "DT", "DT", "JJ", "NN", "NNS", "."]
     text: ' Remove all the loose spacing bars.
@@ -603,7 +603,7 @@ Ec12:
     wn30_key: [[0, "remove%2:30:00::"]]
 vG4Q:
     lemmas: ["mark", "and", "center_punch", "all", "the", "hole", "required", "for", "screw", "to", "hold", "this", "assembly", "together", "."]
-    oewn2026_key: [[0, "oewn-00509113-v"], [2, "oewn-01446359-v"], [10, "oewn-02687605-v"]]
+    oewn_key: [[0, "oewn-00509113-v"], [2, "oewn-01446359-v"], [10, "oewn-02687605-v"]]
     paragraph: '15'
     pos: ["VB", "CC", "VB", "PDT", "DT", "NNS", "JJ", "IN", "NNS", "TO", "VB", "DT", "NN", "RB", "."]
     text: ' Mark and center-punch all the holes required for screws to hold this assembly together.'
@@ -612,7 +612,7 @@ vG4Q:
     wn30_key: [[0, "mark%2:30:00::"], [2, "center_punch%2:35:00::"], [10, "hold%2:42:00::"]]
 AqBN:
     lemmas: ["See", "Fig.", "7", "."]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '15'
     pos: ["RB", "NN", "CD", "."]
     text: ' See Fig. 7.'
@@ -621,7 +621,7 @@ AqBN:
     wn30_key: []
 3ASz:
     lemmas: ["placement", "of", "these", "hole", "be", "not", "critical", ",", "but", "they", "should", "be", "locate", "so_that", "the", "center", "be", "about", "1", "8", "\"", "from", "any", "edge", "."]
-    oewn2026_key: [[4, "oewn-02610777-v"], [12, "oewn-02338685-v"], [16, "oewn-02610777-v"]]
+    oewn_key: [[4, "oewn-02610777-v"], [12, "oewn-02338685-v"], [16, "oewn-02610777-v"]]
     paragraph: '15'
     pos: ["NNP", "IN", "DT", "NNS", "VBZ", "RB", "JJ", ",", "CC", "PRP", "MD", "VB", "VB", "RB", "DT", "NNS", "VBP", "RB", "CD", "CD", "''", "IN", "DT", "NN", "."]
     text: ' Placement of these holes is not critical, but they should be located so_that the
@@ -631,7 +631,7 @@ AqBN:
     wn30_key: [[4, "be%2:42:03::"], [12, "locate%2:40:01::"], [16, "be%2:42:03::"]]
 dagE:
     lemmas: ["drill", "all", "no.", "50", "and", "counter-drill", "all", "except", "the", "\"", "A", "\"", "piece", "size", "43", "."]
-    oewn2026_key: [[0, "oewn-01445640-v"], [5, "oewn-01446250-v"]]
+    oewn_key: [[0, "oewn-01445640-v"], [5, "oewn-01446250-v"]]
     paragraph: '15'
     pos: ["VB", "DT", "NN", "CD", "CC", "VB", "DT", "IN", "DT", "``", "DT", "''", "NNS", "NN", "CD", "."]
     text: ' Drill all No. 50 and counter-drill all except the " A " pieces size 43.'
@@ -640,7 +640,7 @@ dagE:
     wn30_key: [[0, "drill%2:35:00::"], [5, "counter-drill%2:35:00::"]]
 2e5e:
     lemmas: ["tap", "the", "\"", "A", "\"", "piece", "2", "-", "56", "."]
-    oewn2026_key: [[0, "oewn-01405968-v"]]
+    oewn_key: [[0, "oewn-01405968-v"]]
     paragraph: '15'
     pos: ["VB", "DT", "``", "DT", "''", "NNS", "CD", ":", "CD", "."]
     text: ' Tap the " A " pieces 2 - 56.
@@ -651,7 +651,7 @@ dagE:
     wn30_key: [[0, "tap%2:35:02::"]]
 JcS/:
     lemmas: ["now", "unsolder", "and", "disassemble", "the", "frame", "except", "for", "the", "two", "12", "\"", "and", "the", "first", "two", "3", "-", "3", "4", "\"", "bars", "(", "\"", "A", "\"", "and", "\"", "b", "\"", "piece", ")", ",", "which", "be", "solder", "together", "."]
-    oewn2026_key: [[1, "oewn-01302253-v"], [3, "oewn-01661660-v"], [35, "oewn-01598181-v"]]
+    oewn_key: [[1, "oewn-01302253-v"], [3, "oewn-01661660-v"], [35, "oewn-01598181-v"]]
     paragraph: '16'
     pos: ["RB", "VB", "CC", "VB", "DT", "NN", "IN", "IN", "DT", "CD", "CD", "''", "CC", "DT", "JJ", "CD", "CD", ":", "CD", "CD", "''", "NNS", "VBP", "``", "DT", "''", "CC", "``", "NNP", "''", "NNS", "CD", ",", "WDT", "VBP", "VBN", "RB", "."]
     text: ' Now unsolder and disassemble the frame except for the two 12 " and the first two
@@ -661,7 +661,7 @@ JcS/:
     wn30_key: [[1, "unsolder%2:35:00::"], [3, "disassemble%2:36:00::"], [35, "solder%2:35:00::"]]
 G9+S:
     lemmas: ["Either", "lay", "the", "component", "aside", "in", "proper", "order", "or", "code", "them", "with", "numbers", "and", "letters", "so", "they", "may", "be", "replace", "in", "their", "proper", "position", "."]
-    oewn2026_key: [[1, "oewn-01547474-v"], [9, "oewn-01592644-v"], [19, "oewn-01311041-v"]]
+    oewn_key: [[1, "oewn-01547474-v"], [9, "oewn-01592644-v"], [19, "oewn-01311041-v"]]
     paragraph: '16'
     pos: ["CC", "VBD", "DT", "NNS", "RB", "IN", "JJ", "NN", "CC", "VB", "PRP", "IN", "NNS", "CC", "NNS", "RB", "PRP", "MD", "VB", "VBN", "IN", "PRP$", "JJ", "NNS", "."]
     text: ' Either lay the components aside in proper order or code them with numbers and letters
@@ -671,7 +671,7 @@ G9+S:
     wn30_key: [[1, "lay%2:35:00::"], [9, "code%2:35:00::"], [19, "replace%2:35:00::"]]
 4gK/:
     lemmas: ["dress", "all", "surface", "with", "a", "file", ",", "clean", "off", "all", "solder", "and", "drilling", "burr", "."]
-    oewn2026_key: [[0, "oewn-01268833-v"], [7, "oewn-01535377-v"]]
+    oewn_key: [[0, "oewn-01268833-v"], [7, "oewn-01535377-v"]]
     paragraph: '16'
     pos: ["VB", "DT", "NNS", "IN", "DT", "NN", ",", "VBG", "IN", "DT", "JJ", "CC", "NN", "NNS", "."]
     text: ' Dress all surfaces with a file, cleaning off all solder and drilling burrs.
@@ -682,7 +682,7 @@ G9+S:
     wn30_key: [[0, "dress%2:35:02::"], [7, "clean%2:35:00::"]]
 g1jT:
     lemmas: ["drill", "20", "no.", "47", "hole", "in", "the", "upper", "piece", "\"", "A", "\"", "as", "show", "in", "Fig.", "7", "."]
-    oewn2026_key: [[0, "oewn-01445640-v"], [13, "oewn-01690851-v"]]
+    oewn_key: [[0, "oewn-01445640-v"], [13, "oewn-01690851-v"]]
     paragraph: '17'
     pos: ["VB", "CD", "NN", "CD", "NNS", "IN", "DT", "JJ", "NN", "``", "DT", "''", "IN", "VBN", "IN", "NN", "CD", "."]
     text: ' Drill 20 No. 47 holes in the upper piece " A " as shown in Fig. 7.'
@@ -691,7 +691,7 @@ g1jT:
     wn30_key: [[0, "drill%2:35:00::"], [13, "show%2:36:00::"]]
 oAQs:
     lemmas: ["tap", "these", "3", "-", "48", "for", "mount", "the", "electrical_contact", "later_on", "."]
-    oewn2026_key: [[0, "oewn-01405968-v"], [6, "oewn-01345886-v"]]
+    oewn_key: [[0, "oewn-01405968-v"], [6, "oewn-01345886-v"]]
     paragraph: '17'
     pos: ["VB", "DT", "CD", ":", "CD", "IN", "VBG", "DT", "NN", "RB", "."]
     text: ' Tap these 3 - 48 for mounting the electrical_contact later_on.'
@@ -700,7 +700,7 @@ oAQs:
     wn30_key: [[0, "tap%2:35:02::"], [6, "mount%2:35:00::"]]
 0o97:
     lemmas: ["note", "6", "and", "8", "lock", "lever", "do", "n't", "require", "hole", "for", "contact", "."]
-    oewn2026_key: [[0, "oewn-02122959-v"], [8, "oewn-02634015-v"]]
+    oewn_key: [[0, "oewn-02122959-v"], [8, "oewn-02634015-v"]]
     paragraph: '17'
     pos: ["VB", "CD", "CC", "CD", "NN", "NNS", "VBP", "RB", "VB", "NNS", "IN", "NNS", "."]
     text: ' Note 6 and 8 lock levers don''t require holes for contacts.
@@ -711,7 +711,7 @@ oAQs:
     wn30_key: [[0, "note%2:39:00::"], [8, "require%2:42:00::"]]
 TBji:
     lemmas: ["now", "reassemble", "the", "frame", ",", "use", "*", "*", "f", "roundhead", "steel", "screw", "and", "nut", "."]
-    oewn2026_key: [[1, "oewn-01661207-v"], [5, "oewn-01161188-v"]]
+    oewn_key: [[1, "oewn-01661207-v"], [5, "oewn-01161188-v"]]
     paragraph: '18'
     pos: ["RB", "VB", "DT", "NN", ",", "VBG", "SYM", "SYM", "NN", "NN", "NN", "NNS", "CC", "NNS", "."]
     text: ' Now reassemble the frame, using * * f roundhead steel screws and nuts.'
@@ -720,7 +720,7 @@ TBji:
     wn30_key: [[1, "reassemble%2:36:00::"], [5, "use%2:34:01::"]]
 saQv:
     lemmas: ["put", "the", "12", "tappet", "and", "some", "*", "*", "f", "locking", "bar", "spacer", "in", "the", "frame", "to", "help", "align", "all", "the", "component", "before", "you", "tighten", "the", "screw", "."]
-    oewn2026_key: [[0, "oewn-01496967-v"], [16, "oewn-02553283-v"], [17, "oewn-02664945-v"], [23, "oewn-00421085-v"]]
+    oewn_key: [[0, "oewn-01496967-v"], [16, "oewn-02553283-v"], [17, "oewn-02664945-v"], [23, "oewn-00421085-v"]]
     paragraph: '18'
     pos: ["VB", "DT", "CD", "NNS", "CC", "DT", "SYM", "SYM", "NN", "JJ", "NN", "NNS", "IN", "DT", "NN", "TO", "VB", "VB", "PDT", "DT", "NNS", "IN", "PRP", "VBP", "DT", "NNS", "."]
     text: ' Put the 12 tappets and some * * f locking bar spacers in the frame to help align
@@ -730,7 +730,7 @@ saQv:
     wn30_key: [[0, "put%2:35:00::"], [16, "help%2:41:00::"], [17, "align%2:42:00::"], [23, "tighten%2:30:01::"]]
 AZvS:
     lemmas: ["be", "sure", "the", "tappet", "be", "not", "pinch", "by", "a", "twisted", "1", "2", "\"", "sq.", "spacer", "."]
-    oewn2026_key: [[0, "oewn-02610777-v"], [6, "oewn-01459400-v"]]
+    oewn_key: [[0, "oewn-02610777-v"], [6, "oewn-01459400-v"]]
     paragraph: '18'
     pos: ["VB", "JJ", "DT", "NNS", "VBP", "RB", "VBN", "IN", "DT", "JJ", "CD", "CD", "``", "JJ", "NN", "."]
     text: ' Be sure the tappets are not pinched by a twisted 1 2 " sq. spacer.'
@@ -739,7 +739,7 @@ AZvS:
     wn30_key: [[0, "be%2:42:03::"], [6, "pinch%2:35:00::"]]
 Xuxg:
     lemmas: ["As", "an", "anchor", "for", "the", "spring", "lock", ",", "insert", "a", "*", "*", "f", "bar", "in", "the", "lower", "left", "corner", "of", "the", "frame", "as", "show", "in", "Fig.", "7", "."]
-    oewn2026_key: [[8, "oewn-01424276-v"], [23, "oewn-01690851-v"]]
+    oewn_key: [[8, "oewn-01424276-v"], [23, "oewn-01690851-v"]]
     paragraph: '18'
     pos: ["IN", "DT", "NN", "IN", "DT", "NN", "NN", ",", "VBP", "DT", "SYM", "SYM", "NN", "NN", "IN", "DT", "RBR", "JJ", "NN", "IN", "DT", "NN", "IN", "VBN", "IN", "NN", "CD", "."]
     text: ' As an anchor for the spring lock, insert a * * f bar in the lower left corner of
@@ -749,7 +749,7 @@ Xuxg:
     wn30_key: [[8, "insert%2:35:00::"], [23, "show%2:36:00::"]]
 XO34:
     lemmas: ["drill", "a", "no.", "43", "hole", "through", "the", "piece", "and", "secure", "with", "a", "2", "-", "56", "nut", "and", "screw", "."]
-    oewn2026_key: [[0, "oewn-01445640-v"], [9, "oewn-01343121-v"]]
+    oewn_key: [[0, "oewn-01445640-v"], [9, "oewn-01343121-v"]]
     paragraph: '18'
     pos: ["VB", "DT", "NN", "CD", "NN", "IN", "DT", "NNS", "CC", "VB", "IN", "DT", "CD", ":", "CD", "NN", "CC", "NN", "."]
     text: ' Drill a No. 43 hole through the pieces and secure with a 2 - 56 nut and screw.'
@@ -758,7 +758,7 @@ XO34:
     wn30_key: [[0, "drill%2:35:00::"], [9, "secure%2:35:01::"]]
 XTwN:
     lemmas: ["drill", "two", "no.", "50", "hole", ",", "one", "in", "the", "insert", "and", "one", "in", "the", "locking", "bar", "spacer", "directly", "above", "it", ",", "and", "tap", "2", "-", "56", "."]
-    oewn2026_key: [[0, "oewn-01445640-v"], [22, "oewn-01405968-v"]]
+    oewn_key: [[0, "oewn-01445640-v"], [22, "oewn-01405968-v"]]
     paragraph: '18'
     pos: ["VB", "CD", "NN", "CD", "NNS", ",", "CD", "IN", "DT", "NN", "CC", "CD", "IN", "DT", "JJ", "NN", "NN", "RB", "IN", "PRP", ",", "CC", "VB", "CD", ":", "CD", "."]
     text: ' Drill two No. 50 holes, one in the insert and one in the locking bar spacer directly
@@ -768,7 +768,7 @@ XTwN:
     wn30_key: [[0, "drill%2:35:00::"], [22, "tap%2:35:02::"]]
 m9Qf:
     lemmas: ["number", "all", "the", "tappet", "bars", "before", "remove", "them", "so", "they", "can", "be", "replace", "in", "the", "same", "slot", "."]
-    oewn2026_key: [[0, "oewn-00950885-v"], [6, "oewn-00173351-v"], [12, "oewn-01311041-v"]]
+    oewn_key: [[0, "oewn-00950885-v"], [6, "oewn-00173351-v"], [12, "oewn-01311041-v"]]
     paragraph: '18'
     pos: ["VB", "PDT", "DT", "NN", "NNS", "IN", "VBG", "PRP", "RB", "PRP", "MD", "VB", "VBN", "IN", "DT", "JJ", "NNS", "."]
     text: ' Number all the tappet bars before removing them so they can be replaced in the same
@@ -778,7 +778,7 @@ m9Qf:
     wn30_key: [[0, "number%2:32:03::"], [6, "remove%2:30:00::"], [12, "replace%2:35:00::"]]
 0rsO:
     lemmas: ["remove", "all", "other", "loose", "piece", "and", "file", "the", "edge", "of", "the", "basic", "frame", "smooth", "."]
-    oewn2026_key: [[0, "oewn-00173351-v"], [6, "oewn-01389676-v"]]
+    oewn_key: [[0, "oewn-00173351-v"], [6, "oewn-01389676-v"]]
     paragraph: '18'
     pos: ["VB", "DT", "JJ", "JJ", "NNS", "CC", "VB", "DT", "NNS", "IN", "DT", "JJ", "NN", "JJ", "."]
     text: ' Remove all other loose pieces and file the edges of the basic frame smooth.'
@@ -787,7 +787,7 @@ m9Qf:
     wn30_key: [[0, "remove%2:30:00::"], [6, "file%2:35:00::"]]
 QAHT:
     lemmas: ["cut", "five", "piece", "of", "*", "*", "f", "brass", "bar", "stock", "3", "-", "3", "4", "\"", "long", "."]
-    oewn2026_key: [[0, "oewn-01555301-v"]]
+    oewn_key: [[0, "oewn-01555301-v"]]
     paragraph: '18'
     pos: ["VB", "CD", "NNS", "IN", "SYM", "SYM", "NN", "NN", "NN", "NN", "CD", ":", "CD", "CD", "``", "JJ", "."]
     text: ' Cut five pieces of * * f brass bar stock 3 - 3 4 " long.'
@@ -796,7 +796,7 @@ QAHT:
     wn30_key: [[0, "cut%2:35:00::"]]
 vzSq:
     lemmas: ["These", "be", "supporting", "member", "for", "the", "short", "locking", "bars", "."]
-    oewn2026_key: [[1, "oewn-02626667-v"]]
+    oewn_key: [[1, "oewn-02626667-v"]]
     paragraph: '18'
     pos: ["DT", "VBP", "JJ", "NNS", "IN", "DT", "JJ", "JJ", "NNS", "."]
     text: ' These are supporting members for the short locking bars.'
@@ -805,7 +805,7 @@ vzSq:
     wn30_key: [[1, "be%2:42:02::"]]
 /0EY:
     lemmas: ["locate", "their", "position", "in", "Fig.", "7", "and", "drill", "no.", "43", "to", "match", "the", "corresponding", "hole", "in", "the", "frame", "."]
-    oewn2026_key: [[0, "oewn-02700775-v"], [7, "oewn-01445640-v"], [11, "oewn-00457695-v"]]
+    oewn_key: [[0, "oewn-02700775-v"], [7, "oewn-01445640-v"], [11, "oewn-00457695-v"]]
     paragraph: '18'
     pos: ["VB", "PRP$", "NNS", "IN", "NN", "CD", "CC", "VB", "NN", "CD", "TO", "VB", "DT", "JJ", "NNS", "IN", "DT", "NN", "."]
     text: ' Locate their positions in Fig. 7 and drill No. 43 to match the corresponding holes
@@ -815,7 +815,7 @@ vzSq:
     wn30_key: [[0, "locate%2:42:00::"], [7, "drill%2:35:00::"], [11, "match%2:30:01::"]]
 krFx:
     lemmas: ["cut_off", "excess", "screw", "length", "and", "file", "flush", "with", "either", "frame", "or", "nut", "."]
-    oewn2026_key: [[0, "oewn-00293269-v"], [5, "oewn-01389676-v"]]
+    oewn_key: [[0, "oewn-00293269-v"], [5, "oewn-01389676-v"]]
     paragraph: '18'
     pos: ["VB", "JJ", "NN", "NNS", "CC", "VB", "JJ", "IN", "DT", "NN", "CC", "NN", "."]
     text: ' Cut_off excess screw lengths and file flush with either frame or nut.'
@@ -824,7 +824,7 @@ krFx:
     wn30_key: [[0, "cut_off%2:30:00::"], [5, "file%2:35:00::"]]
 Vxu3:
     lemmas: ["drill", "four", "No", ".19", "and", "four", "no.", "28", "hole", "in", "the", "12", "\"", "long", "\"", "A", "\"", "piece", "."]
-    oewn2026_key: [[0, "oewn-01445640-v"]]
+    oewn_key: [[0, "oewn-01445640-v"]]
     paragraph: '18'
     pos: ["VB", "CD", "DT", "CD", "CC", "CD", "NN", "CD", "NNS", "IN", "DT", "CD", "``", "JJ", "''", "DT", "''", "NNS", "."]
     text: ' Drill four No .19 and four No. 28 holes in the 12 " long " A " pieces.'
@@ -833,7 +833,7 @@ Vxu3:
     wn30_key: [[0, "drill%2:35:00::"]]
 5ObI:
     lemmas: ["locate", "the", "position", "from", "Fig.", "7", "."]
-    oewn2026_key: [[0, "oewn-02700775-v"]]
+    oewn_key: [[0, "oewn-02700775-v"]]
     paragraph: '18'
     pos: ["VB", "DT", "NN", "IN", "NN", "CD", "."]
     text: ' Locate the position from Fig. 7.
@@ -844,7 +844,7 @@ Vxu3:
     wn30_key: [[0, "locate%2:42:00::"]]
 Kx3R:
     lemmas: ["draw", "file", "no.", "1", "tappet", "to", "a", "smooth", "fit", "in", "its", "respective", "slot", "and", "square", "the", "end", "."]
-    oewn2026_key: [[0, "oewn-01450719-v"], [14, "oewn-00145268-v"]]
+    oewn_key: [[0, "oewn-01450719-v"], [14, "oewn-00145268-v"]]
     paragraph: '19'
     pos: ["VB", "NN", "NN", "CD", "NN", "TO", "DT", "JJ", "NN", "VB", "PRP$", "JJ", "NN", "CC", "VB", "DT", "NNS", "."]
     text: ' Draw file No. 1 tappet to a smooth fit in its respective slot and square the ends.'
@@ -853,7 +853,7 @@ Kx3R:
     wn30_key: [[0, "draw%2:35:03::"], [14, "square%2:30:00::"]]
 NEEf:
     lemmas: ["break", "the", "end", "corner", "with", "a", "slight", "45", "degree", "chamfer", "."]
-    oewn2026_key: [[0, "oewn-00259551-v"]]
+    oewn_key: [[0, "oewn-00259551-v"]]
     paragraph: '19'
     pos: ["VB", "DT", "NN", "NNS", "IN", "DT", "JJ", "CD", "NN", "NN", "."]
     text: ' Break the end corners with a slight 45 degree chamfer.'
@@ -862,7 +862,7 @@ NEEf:
     wn30_key: [[0, "break%2:30:06::"]]
 SNjq:
     lemmas: ["drill", "a", "no.", "50", "hole", "1", "-", "1", "4", "\"", "from", "one", "end", "and", "tap", "2", "-", "56", "."]
-    oewn2026_key: [[0, "oewn-01445640-v"], [14, "oewn-01405968-v"]]
+    oewn_key: [[0, "oewn-01445640-v"], [14, "oewn-01405968-v"]]
     paragraph: '19'
     pos: ["VB", "DT", "NN", "CD", "NN", "CD", ":", "CD", "CD", "''", "IN", "CD", "NN", "CC", "VB", "CD", ":", "CD", "."]
     text: ' Drill a No. 50 hole 1 - 1 4 " from one end and tap 2 - 56.'
@@ -871,7 +871,7 @@ SNjq:
     wn30_key: [[0, "drill%2:35:00::"], [14, "tap%2:35:02::"]]
 jFfT:
     lemmas: ["(", "See", "Fig.", "7", ".", ")"]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '19'
     pos: ["NNP", "RB", "NN", "CD", ".", "NN"]
     text: ' (See Fig. 7.)'
@@ -880,7 +880,7 @@ jFfT:
     wn30_key: []
 3K6i:
     lemmas: ["put", "a", "2", "-", "56", "roundhead", "screw", "into", "the", "hole", ",", "cut_off", "the", "excess", "threads", "and", "file", "flush", "with", "the", "underside", "of", "the", "bar", "."]
-    oewn2026_key: [[0, "oewn-01496967-v"], [11, "oewn-00293269-v"], [16, "oewn-01389676-v"]]
+    oewn_key: [[0, "oewn-01496967-v"], [11, "oewn-00293269-v"], [16, "oewn-01389676-v"]]
     paragraph: '19'
     pos: ["VB", "DT", "CD", ":", "CD", "NN", "NN", "IN", "DT", "NN", ",", "VBP", "DT", "JJ", "NNS", "CC", "VB", "JJ", "IN", "DT", "NN", "IN", "DT", "NN", "."]
     text: ' Put a 2 - 56 roundhead screw into the hole, cut_off the excess threads and file
@@ -890,7 +890,7 @@ jFfT:
     wn30_key: [[0, "put%2:35:00::"], [11, "cut_off%2:30:00::"], [16, "file%2:35:00::"]]
 z8Nm:
     lemmas: ["To", "find", "the", "other", "stop", "screw", "position", ",", "insert", "the", "tappet", "into", "the", "frame", "and", "hold", "the", "screw", "head", "tight", "against", "the", "frame", "edge", "."]
-    oewn2026_key: [[1, "oewn-00920843-v"], [8, "oewn-01424276-v"], [15, "oewn-02687605-v"]]
+    oewn_key: [[1, "oewn-00920843-v"], [8, "oewn-01424276-v"], [15, "oewn-02687605-v"]]
     paragraph: '19'
     pos: ["TO", "VB", "DT", "JJ", "NN", "NN", "NN", ",", "VBP", "DT", "NN", "IN", "DT", "NN", "CC", "VB", "DT", "NN", "NN", "JJ", "IN", "DT", "NN", "NN", "."]
     text: ' To find the other stop screw position, insert the tappet into the frame and hold
@@ -900,7 +900,7 @@ z8Nm:
     wn30_key: [[1, "find%2:32:00::"], [8, "insert%2:35:00::"], [15, "hold%2:42:00::"]]
 rFFN:
     lemmas: ["scribe", "a", "line", "across", "the", "bar", "on", "the", "other", "end", "of", "the", "tappet", ",", "1", "4", "\"", "plus", "half", "the", "diameter", "of", "the", "2", "-", "56", "screw", "head", "(", "about", "5", "64", "\"", ")", "away", "from", "the", "frame", "edge", "."]
-    oewn2026_key: [[0, "oewn-01278756-v"]]
+    oewn_key: [[0, "oewn-01278756-v"]]
     paragraph: '19'
     pos: ["VB", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", ",", "CD", "CD", "''", "CC", "JJ", "DT", "NN", "IN", "DT", "CD", ":", "CD", "NN", "NN", "CD", "IN", "CD", "CD", "``", "NN", "RB", "IN", "DT", "NN", "NN", "."]
     text: ' Scribe a line across the bar on the other end of the tappet, 1 4 " plus half the
@@ -910,7 +910,7 @@ rFFN:
     wn30_key: [[0, "scribe%2:35:00::"]]
 KI40:
     lemmas: ["total", "distance", "be", "about", "21", "64", "\"", "."]
-    oewn2026_key: [[2, "oewn-02670846-v"]]
+    oewn_key: [[2, "oewn-02670846-v"]]
     paragraph: '19'
     pos: ["JJ", "NN", "VBZ", "RB", "CD", "CD", "``", "."]
     text: ' Total distance is about 21 64 ".'
@@ -919,7 +919,7 @@ KI40:
     wn30_key: [[2, "be%2:42:07::"]]
 PiFR:
     lemmas: ["tend", "to", "make", "this", "dimension", "slightly", "undersize", "so", "you", "can", "file", "the", "screw", "head", "to", "get", "exactly", "1", "4", "\"", "tappet", "movement", "."]
-    oewn2026_key: [[0, "oewn-02725274-v"], [2, "oewn-00120124-v"], [10, "oewn-01389676-v"], [15, "oewn-00120604-v"]]
+    oewn_key: [[0, "oewn-02725274-v"], [2, "oewn-00120124-v"], [10, "oewn-01389676-v"], [15, "oewn-00120604-v"]]
     paragraph: '19'
     pos: ["VB", "VB", "VB", "DT", "NN", "RB", "JJ", "RB", "PRP", "MD", "VB", "DT", "NN", "NN", "TO", "VB", "RB", "CD", "CD", "``", "NN", "NN", "."]
     text: ' Tend to make this dimension slightly undersize so you can file the screw head to
@@ -929,7 +929,7 @@ PiFR:
     wn30_key: [[0, "tend%2:42:01::"], [2, "make%2:30:00::"], [10, "file%2:35:00::"], [15, "get%2:30:02::"]]
 +urj:
     lemmas: ["drill", "a", "no.", "50", "hole", ",", "tap", "2", "-", "56", "and", "insert", "a", "roundhead", "2", "-", "56", "screw", "as", "you", "do", "on", "the", "first", "end", "."]
-    oewn2026_key: [[0, "oewn-01445640-v"], [6, "oewn-01405968-v"], [11, "oewn-01424276-v"]]
+    oewn_key: [[0, "oewn-01445640-v"], [6, "oewn-01405968-v"], [11, "oewn-01424276-v"]]
     paragraph: '19'
     pos: ["VB", "DT", "NN", "CD", "NN", ",", "VB", "CD", ":", "CD", "CC", "VB", "DT", "NN", "CD", ":", "CD", "NN", "IN", "PRP", "VBD", "IN", "DT", "JJ", "NN", "."]
     text: ' Drill a No. 50 hole, tap 2 - 56 and insert a roundhead 2 - 56 screw as you did on
@@ -939,7 +939,7 @@ PiFR:
     wn30_key: [[0, "drill%2:35:00::"], [6, "tap%2:35:02::"], [11, "insert%2:35:00::"]]
 pnqB:
     lemmas: ["drill", "a", "no.", "47", "hole", "crosswise", "through", "the", "tappet", "at", "the", "position", "show", "in", "fig.", "7", "and", "8", "."]
-    oewn2026_key: [[0, "oewn-01445640-v"], [12, "oewn-01690851-v"]]
+    oewn_key: [[0, "oewn-01445640-v"], [12, "oewn-01690851-v"]]
     paragraph: '19'
     pos: ["VB", "DT", "NN", "CD", "NN", "RB", "IN", "DT", "NN", "IN", "DT", "NN", "VBN", "IN", "NNS", "CD", "CC", "CD", "."]
     text: ' Drill a No. 47 hole crosswise through the tappet at the position shown in Figs.
@@ -949,7 +949,7 @@ pnqB:
     wn30_key: [[0, "drill%2:35:00::"], [12, "show%2:36:00::"]]
 AbOY:
     lemmas: ["repeat", "these", "drill", "and", "tap", "operations", "for", "each", "of", "the", "tappet", "bars", "."]
-    oewn2026_key: [[0, "oewn-01738383-v"]]
+    oewn_key: [[0, "oewn-01738383-v"]]
     paragraph: '19'
     pos: ["VB", "DT", "NN", "CC", "NN", "NNS", "IN", "DT", "IN", "DT", "NN", "NNS", "."]
     text: ' Repeat these drill and tap operations for each of the tappet bars.
@@ -960,7 +960,7 @@ AbOY:
     wn30_key: [[0, "repeat%2:36:00::"]]
 rupV:
     lemmas: ["To", "each", "tappet", "except", "6", "and", "8", ",", "solder", "a", "*", "*", "f", "piece", "of", "brass", "and", "file", "to", "the", "tapered", "shape", "show", "in", "fig", ".6", "and", "8", "."]
-    oewn2026_key: [[8, "oewn-01598181-v"], [17, "oewn-01389676-v"], [22, "oewn-01690851-v"]]
+    oewn_key: [[8, "oewn-01598181-v"], [17, "oewn-01389676-v"], [22, "oewn-01690851-v"]]
     paragraph: '20'
     pos: ["TO", "DT", "NN", "IN", "CD", "CC", "CD", ",", "VBP", "DT", "NN", "SYM", "NN", "NN", "IN", "NN", "CC", "VB", "TO", "DT", "JJ", "NN", "VBN", "IN", "NNS", "CD", "CC", "CD", "."]
     text: ' To each tappet except 6 and 8, solder a * * f piece of brass and file to the tapered
@@ -970,7 +970,7 @@ rupV:
     wn30_key: [[8, "solder%2:35:00::"], [17, "file%2:35:00::"], [22, "show%2:36:00::"]]
 Idxq:
     lemmas: ["These", "will", "serve", "as", "lifting", "pad", "for", "the", "electrical_contacts", "."]
-    oewn2026_key: [[2, "oewn-02676679-v"]]
+    oewn_key: [[2, "oewn-02676679-v"]]
     paragraph: '20'
     pos: ["DT", "MD", "VB", "IN", "JJ", "NNS", "IN", "DT", "NN", "."]
     text: ' These will serve as lifting pads for the electrical_contacts.
@@ -981,7 +981,7 @@ Idxq:
     wn30_key: [[2, "serve%2:42:03::"]]
 vk+j:
     lemmas: ["fit", "the", "locking", "bars", "and", "make", "the", "locking", "piece", "be", "a", "rather", "tedious", "job", "since", "stop", "screw", ",", "tappet", "and", "locking", "bars", "must", "be", "remove", "and", "replace", "many_times", "."]
-    oewn2026_key: [[0, "oewn-00301318-v"], [5, "oewn-01624592-v"], [9, "oewn-02610777-v"], [24, "oewn-00173351-v"], [26, "oewn-01311041-v"]]
+    oewn_key: [[0, "oewn-00301318-v"], [5, "oewn-01624592-v"], [9, "oewn-02610777-v"], [24, "oewn-00173351-v"], [26, "oewn-01311041-v"]]
     paragraph: '21'
     pos: ["VBG", "DT", "JJ", "NNS", "CC", "VBG", "DT", "JJ", "NNS", "VBZ", "DT", "RB", "JJ", "NN", "IN", "NN", "NNS", ",", "NNS", "CC", "JJ", "NNS", "MD", "VB", "VBN", "CC", "VBN", "RB", "."]
     text: ' Fitting the locking bars and making the locking pieces is a rather tedious job since
@@ -991,7 +991,7 @@ vk+j:
     wn30_key: [[0, "fit%2:30:01::"], [5, "make%2:36:01::"], [9, "be%2:42:03::"], [24, "remove%2:30:00::"], [26, "replace%2:35:00::"]]
 l9Kz:
     lemmas: ["As", "the", "work", "progress", "the", "frame", "and", "moving", "parts", "become", "a", "sort_of", "chinese_puzzle", "where", "several", "piece", "must", "be", "remove", "before", "the", "part", "you", "be", "work_on", "be", "accessible", "."]
-    oewn2026_key: [[3, "oewn-00249545-v"], [9, "oewn-02632685-v"], [18, "oewn-00173351-v"], [24, "oewn-01672498-v"], [25, "oewn-02610777-v"]]
+    oewn_key: [[3, "oewn-00249545-v"], [9, "oewn-02632685-v"], [18, "oewn-00173351-v"], [24, "oewn-01672498-v"], [25, "oewn-02610777-v"]]
     paragraph: '21'
     pos: ["IN", "DT", "NN", "VBZ", "DT", "NN", "CC", "JJ", "NNS", "VBP", "DT", "RB", "NN", "WRB", "JJ", "NNS", "MD", "VB", "VBN", "IN", "DT", "NN", "PRP", "VBP", "VB", "VBZ", "JJ", "."]
     text: ' As the work progresses the frame and moving parts become a sort_of Chinese_puzzle
@@ -1001,7 +1001,7 @@ l9Kz:
     wn30_key: [[3, "progress%2:30:00::"], [9, "become%2:42:01::"], [18, "remove%2:30:00::"], [24, "work_on%2:36:00::"], [25, "be%2:42:03::"]]
 dxzW:
     lemmas: ["a_little", "extra", "work", "here", "will", "pay_off", "with", "a", "smooth", ",", "snug-fitting", "machine", "when", "you", "be", "finished", "."]
-    oewn2026_key: [[5, "oewn-02296965-v"], [14, "oewn-02610777-v"]]
+    oewn_key: [[5, "oewn-02296965-v"], [14, "oewn-02610777-v"]]
     paragraph: '21'
     pos: ["RB", "JJ", "NN", "RB", "MD", "VB", "IN", "DT", "JJ", ",", "JJ", "NN", "WRB", "PRP", "VBP", "JJ", "."]
     text: ' A_little extra work here will pay_off with a smooth, snug-fitting machine when you
@@ -1011,7 +1011,7 @@ dxzW:
     wn30_key: [[5, "pay_off%2:40:02::"], [14, "be%2:42:03::"]]
 mGGz:
     lemmas: ["Each", "completed", "locking", "bar", "should", "remain", "in_place", "as", "the", "work", "progress", "to", "insure", "snug", "fitting", "."]
-    oewn2026_key: [[5, "oewn-00117793-v"], [10, "oewn-01996535-v"], [12, "oewn-00892111-v"]]
+    oewn_key: [[5, "oewn-00117793-v"], [10, "oewn-01996535-v"], [12, "oewn-00892111-v"]]
     paragraph: '21'
     pos: ["DT", "JJ", "JJ", "NN", "MD", "VB", "RB", "IN", "DT", "NN", "VBZ", "VB", "VB", "JJ", "NN", "."]
     text: ' Each completed locking bar should remain in_place as the work progresses to insure
@@ -1023,7 +1023,7 @@ mGGz:
     wn30_key: [[5, "remain%2:30:00::"], [10, "progress%2:38:00::"], [12, "insure%2:32:04::"]]
 lWmG:
     lemmas: ["The", "order", "of", "fitting", "be", "not", "too", "important", "."]
-    oewn2026_key: [[4, "oewn-02610777-v"]]
+    oewn_key: [[4, "oewn-02610777-v"]]
     paragraph: '22'
     pos: ["DT", "NN", "IN", "JJ", "VBZ", "RB", "RB", "JJ", "."]
     text: ' The order of fitting is not too important.'
@@ -1032,7 +1032,7 @@ lWmG:
     wn30_key: [[4, "be%2:42:03::"]]
 x7ZK:
     lemmas: ["however", ",", "we", "start", "with", "the", "first", "row", "of", "bars", "and", "work", "our", "way", "back", "."]
-    oewn2026_key: [[3, "oewn-00346415-v"], [11, "oewn-02054955-v"]]
+    oewn_key: [[3, "oewn-00346415-v"], [11, "oewn-02054955-v"]]
     paragraph: '22'
     pos: ["RB", ",", "PRP", "VBD", "IN", "DT", "JJ", "NN", "IN", "NNS", "CC", "VBD", "PRP$", "NN", "RB", "."]
     text: ' However, we started with the first row of bars and worked our way back.'
@@ -1041,7 +1041,7 @@ x7ZK:
     wn30_key: [[3, "start%2:30:00::"], [11, "work%2:38:00::"]]
 eEiG:
     lemmas: ["Since", "the", "same", "method", "of", "shaping", "and", "fitting", "the", "dog", "and", "notch", "be", "use", "throughout", ",", "we", "will", "only", "describe", "the", "construction", "of", "one", "locking", "bar", "."]
-    oewn2026_key: [[13, "oewn-01161188-v"], [19, "oewn-00989103-v"]]
+    oewn_key: [[13, "oewn-01161188-v"], [19, "oewn-00989103-v"]]
     paragraph: '22'
     pos: ["IN", "DT", "JJ", "NN", "IN", "NN", "CC", "JJ", "DT", "NNS", "CC", "NNS", "VBZ", "VBN", "RB", ",", "PRP", "MD", "RB", "VB", "DT", "NN", "IN", "CD", "JJ", "NN", "."]
     text: ' Since the same method of shaping and fitting the dogs and notches is used throughout,
@@ -1051,7 +1051,7 @@ eEiG:
     wn30_key: [[13, "use%2:34:01::"], [19, "describe%2:32:00::"]]
 nP+r:
     lemmas: ["fig", ".7", "and", "8", "give", "all", "pertinent", "dimension", "."]
-    oewn2026_key: [[4, "oewn-02344167-v"]]
+    oewn_key: [[4, "oewn-02344167-v"]]
     paragraph: '22'
     pos: ["NNS", "CD", "CC", "CD", "VBP", "DT", "JJ", "NNS", "."]
     text: ' Figs .7 and 8 give all pertinent dimensions.'
@@ -1060,7 +1060,7 @@ nP+r:
     wn30_key: [[4, "give%2:40:05::"]]
 Ghzo:
     lemmas: ["All", "the", "bars", "be", "cut", "from", "*", "*", "f", "brass", "."]
-    oewn2026_key: [[4, "oewn-01555301-v"]]
+    oewn_key: [[4, "oewn-01555301-v"]]
     paragraph: '22'
     pos: ["PDT", "DT", "NNS", "VBP", "VBN", "IN", "SYM", "SYM", "NN", "NN", "."]
     text: ' All the bars are cut from * * f brass.'
@@ -1069,7 +1069,7 @@ Ghzo:
     wn30_key: [[4, "cut%2:35:00::"]]
 VFww:
     lemmas: ["The", "length", "of", "each", "piece", "be", "list", "at", "the", "bottom", "of", "Fig.", "7", "."]
-    oewn2026_key: [[6, "oewn-02477646-v"]]
+    oewn_key: [[6, "oewn-02477646-v"]]
     paragraph: '22'
     pos: ["DT", "NNS", "IN", "DT", "NN", "VBP", "VBN", "IN", "DT", "NN", "IN", "NN", "CD", "."]
     text: ' The lengths of each piece are listed at the bottom of Fig. 7.'
@@ -1078,7 +1078,7 @@ VFww:
     wn30_key: [[6, "list%2:41:00::"]]
 6Gt9:
     lemmas: ["bar", "\"", "c", "\"", "be", "2", "-", "3", "4", "\"", "long", "."]
-    oewn2026_key: [[4, "oewn-02610777-v"]]
+    oewn_key: [[4, "oewn-02610777-v"]]
     paragraph: '22'
     pos: ["NNP", "``", "NN", "''", "VBZ", "CD", ":", "CD", "CD", "``", "JJ", "."]
     text: ' Bar " C " is 2 - 3 4 " long.'
@@ -1087,7 +1087,7 @@ VFww:
     wn30_key: [[4, "be%2:42:03::"]]
 KMbC:
     lemmas: ["draw", "file", "the", "edge", ",", "square_up", "the", "end", "and", "put", "a", "slight", "chamfer", "on", "the", "edge", "so", "they", "will", "not", "snag", "in", "the", "frame", "."]
-    oewn2026_key: [[1, "oewn-01389676-v"], [5, "oewn-00145268-v"], [9, "oewn-01496967-v"], [20, "oewn-01330894-v"]]
+    oewn_key: [[1, "oewn-01389676-v"], [5, "oewn-00145268-v"], [9, "oewn-01496967-v"], [20, "oewn-01330894-v"]]
     paragraph: '22'
     pos: ["NN", "VB", "DT", "NNS", ",", "VBP", "DT", "NNS", "CC", "VB", "DT", "JJ", "NN", "IN", "DT", "NNS", "RB", "PRP", "MD", "RB", "VB", "IN", "DT", "NN", "."]
     text: ' Draw file the edges, square_up the ends and put a slight chamfer on the edges so
@@ -1099,7 +1099,7 @@ KMbC:
     wn30_key: [[1, "file%2:35:00::"], [5, "square_up%2:30:00::"], [9, "put%2:35:00::"], [20, "snag%2:35:00::"]]
 NXmR:
     lemmas: ["Fig.", "8", "give", "the", "dimension", "for", "locate", "the", "dog-pin", "hole", "."]
-    oewn2026_key: [[2, "oewn-02344167-v"], [6, "oewn-02338685-v"]]
+    oewn_key: [[2, "oewn-02344167-v"], [6, "oewn-02338685-v"]]
     paragraph: '23'
     pos: ["NN", "CD", "VBZ", "DT", "NNS", "IN", "VBG", "DT", "JJ", "NNS", "."]
     text: ' Fig. 8 gives the dimensions for locating the dog-pin holes.'
@@ -1108,7 +1108,7 @@ NXmR:
     wn30_key: [[2, "give%2:40:05::"], [6, "locate%2:40:01::"]]
 dNc0:
     lemmas: ["center_punch", "and", "drill", "the", "no.", "31", "hole", "7", "16", "\"", "from", "one", "end", "of", "the", "bar", "."]
-    oewn2026_key: [[0, "oewn-01446359-v"], [2, "oewn-01445640-v"]]
+    oewn_key: [[0, "oewn-01446359-v"], [2, "oewn-01445640-v"]]
     paragraph: '23'
     pos: ["VB", "CC", "VB", "DT", "NN", "CD", "NN", "CD", "CD", "''", "IN", "CD", "NN", "IN", "DT", "NN", "."]
     text: ' Center-punch and drill the No. 31 hole 7 16 " from one end of the bar.'
@@ -1117,7 +1117,7 @@ dNc0:
     wn30_key: [[0, "center_punch%2:35:00::"], [2, "drill%2:35:00::"]]
 6gY0:
     lemmas: ["chuck", "a", "length", "of", "1", "8", "\"", "dia.", "drill", "rod", "into", "a", "drill", "press", "or", "some", "similar", "turning", "device", "and", "while", "it", "be", "rotate", "file", "the", "end", "square", "and_then", "file", "a", "slight", "taper", "1", "8", "\"", "long", "."]
-    oewn2026_key: [[0, "oewn-01517157-v"], [23, "oewn-02048992-v"], [24, "oewn-01389676-v"], [29, "oewn-01389676-v"]]
+    oewn_key: [[0, "oewn-01517157-v"], [23, "oewn-02048992-v"], [24, "oewn-01389676-v"], [29, "oewn-01389676-v"]]
     paragraph: '23'
     pos: ["VB", "DT", "NN", "IN", "CD", "CD", "``", "NN", "NN", "NN", "IN", "DT", "NN", "NN", "CC", "DT", "JJ", "NN", "NN", "CC", "IN", "PRP", "VBZ", "VBG", "VB", "DT", "NN", "NN", "RB", "VBP", "DT", "JJ", "NN", "CD", "CD", "``", "JJ", "."]
     text: ' Chuck a length of 1 8 " dia. drill rod into a drill press or some similar turning
@@ -1128,7 +1128,7 @@ dNc0:
     wn30_key: [[0, "chuck%2:35:00::"], [23, "rotate%2:38:01::"], [24, "file%2:35:00::"], [29, "file%2:35:00::"]]
 UhNL:
     lemmas: ["cut", "the", "piece", "about", "9", "32", "\"", "or", "5", "16", "\"", "long", "and", "drive", "it", "into", "the", "No", ".31", "hole", "drill", "in", "the", "lock", "bar", "."]
-    oewn2026_key: [[0, "oewn-01555301-v"], [13, "oewn-01519166-v"], [20, "oewn-01445640-v"], [23, "oewn-01513459-v"]]
+    oewn_key: [[0, "oewn-01555301-v"], [13, "oewn-01519166-v"], [20, "oewn-01445640-v"], [23, "oewn-01513459-v"]]
     paragraph: '23'
     pos: ["VB", "DT", "NN", "IN", "CD", "CD", "''", "CC", "CD", "CD", "``", "JJ", "CC", "VBP", "PRP", "IN", "DT", "DT", "CD", "NN", "VBD", "VB", "DT", "VBG", "NN", "."]
     text: ' Cut the piece about 9 32 " or 5 16 " long and drive it into the No .31 hole drilled
@@ -1138,7 +1138,7 @@ UhNL:
     wn30_key: [[0, "cut%2:35:00::"], [13, "drive%2:35:00::"], [20, "drill%2:35:00::"], [23, "lock%2:35:01::"]]
 QTHo:
     lemmas: ["file", "the", "bottom", "edge", "flush", "with", "the", "bar", "and", "the", "top", "1", "8", "\"", "above", "the", "bar", "."]
-    oewn2026_key: [[0, "oewn-01389676-v"]]
+    oewn_key: [[0, "oewn-01389676-v"]]
     paragraph: '23'
     pos: ["VB", "DT", "NN", "NN", "JJ", "IN", "DT", "NN", "CC", "DT", "JJ", "CD", "CD", "''", "IN", "DT", "NN", "."]
     text: ' File the bottom edge flush with the bar and the top 1 8 " above the bar.'
@@ -1147,7 +1147,7 @@ QTHo:
     wn30_key: [[0, "file%2:35:00::"]]
 WoiJ:
     lemmas: ["This", "dog", "will", "engage", "a", "notch", "to", "be", "cut", "in", "tappet", "3", "."]
-    oewn2026_key: [[3, "oewn-00220541-v"], [8, "oewn-01555301-v"]]
+    oewn_key: [[3, "oewn-00220541-v"], [8, "oewn-01555301-v"]]
     paragraph: '23'
     pos: ["DT", "NN", "MD", "VB", "DT", "NN", "TO", "VB", "VBN", "IN", "NN", "CD", "."]
     text: ' This dog will engage a notch to be cut in tappet 3.
@@ -1158,7 +1158,7 @@ WoiJ:
     wn30_key: [[3, "engage%2:30:00::"], [8, "cut%2:35:00::"]]
 KRXT:
     lemmas: ["place", "the", "locking", "bar", "in", "proper", "position", "and", "insert", "tappet", "3", "."]
-    oewn2026_key: [[0, "oewn-01496967-v"], [8, "oewn-01424276-v"]]
+    oewn_key: [[0, "oewn-01496967-v"], [8, "oewn-01424276-v"]]
     paragraph: '24'
     pos: ["VB", "DT", "JJ", "NN", "IN", "JJ", "NN", "CC", "VB", "NN", "CD", "."]
     text: ' Place the locking bar in proper position and insert tappet 3.'
@@ -1167,7 +1167,7 @@ KRXT:
     wn30_key: [[0, "place%2:35:00::"], [8, "insert%2:35:00::"]]
 PLah:
     lemmas: ["scribe", "a", "line", "through", "the", "center", "of", "the", "pin", "and", "across", "the", "face", "of", "tappet", "3", ",", "parallel", "to", "piece", "\"", "A", "\"", "."]
-    oewn2026_key: [[0, "oewn-01278756-v"]]
+    oewn_key: [[0, "oewn-01278756-v"]]
     paragraph: '24'
     pos: ["VB", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "CC", "IN", "DT", "NN", "IN", "NN", "CD", ",", "JJ", "TO", "NN", "``", "DT", "''", "."]
     text: ' Scribe a line through the center of the pin and across the face of tappet 3, parallel
@@ -1177,7 +1177,7 @@ PLah:
     wn30_key: [[0, "scribe%2:35:00::"]]
 xBbx:
     lemmas: ["See", "the", "drawing", "for", "the", "shape", "of", "the", "notch", "."]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '24'
     pos: ["RB", "DT", "NNS", "IN", "DT", "NN", "IN", "DT", "NN", "."]
     text: ' See the drawings for the shape of the notch.'
@@ -1186,7 +1186,7 @@ xBbx:
     wn30_key: []
 Ju8P:
     lemmas: ["scribe", "v-shaped", "line", "on", "the", "bar", "and", "rough_out", "with", "either", "a", "hack", "saw", "or", "a", "cutting", "disk", "in", "a", "hand", "power_tool", "."]
-    oewn2026_key: [[0, "oewn-01278756-v"], [7, "oewn-01758260-v"]]
+    oewn_key: [[0, "oewn-01278756-v"], [7, "oewn-01758260-v"]]
     paragraph: '24'
     pos: ["VB", "JJ", "NNS", "IN", "DT", "NN", "CC", "VB", "IN", "DT", "DT", "NN", "NN", "CC", "DT", "JJ", "NN", "IN", "DT", "NN", "NN", "."]
     text: ' Scribe V-shaped lines on the bar and rough_out with either a hack saw or a cutting
@@ -1196,7 +1196,7 @@ Ju8P:
     wn30_key: [[0, "scribe%2:35:00::"], [7, "rough_out%2:36:00::"]]
 3/Sl:
     lemmas: ["We", "use", "the", "latter", "equipped", "with", "a", "carborundum", "disk", "about", ".020", "\"", "thick", "and", "1", "\"", "dia.", "fit", "on", "a", "1", "8", "\"", "dia.", "mandrel", "."]
-    oewn2026_key: [[1, "oewn-01161188-v"]]
+    oewn_key: [[1, "oewn-01161188-v"]]
     paragraph: '24'
     pos: ["PRP", "VBD", "DT", "NN", "JJ", "IN", "DT", "JJ", "NN", "IN", "CD", "``", "JJ", "CC", "CD", "``", "NN", "VBN", "IN", "DT", "CD", "CD", "``", "NN", "NN", "."]
     text: ' We used the latter equipped with a carborundum disk about .020 " thick and 1 " dia.
@@ -1206,7 +1206,7 @@ Ju8P:
     wn30_key: [[1, "use%2:34:01::"]]
 m4Tc:
     lemmas: ["such", "disk", "be", "very", "handy", "for", "cutting", "and", "shape", "small", "parts", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"], [8, "oewn-00142011-v"]]
+    oewn_key: [[2, "oewn-02610777-v"], [8, "oewn-00142011-v"]]
     paragraph: '24'
     pos: ["JJ", "NNS", "VBP", "RB", "JJ", "IN", "NN", "CC", "VBG", "JJ", "NNS", "."]
     text: ' Such disks are very handy for cutting and shaping small parts.'
@@ -1215,7 +1215,7 @@ m4Tc:
     wn30_key: [[2, "be%2:42:03::"], [8, "shape%2:30:00::"]]
 Hxfo:
     lemmas: ["file", "to", "a", "smooth", "finish", "."]
-    oewn2026_key: [[0, "oewn-01389676-v"]]
+    oewn_key: [[0, "oewn-01389676-v"]]
     paragraph: '24'
     pos: ["VB", "TO", "DT", "JJ", "NN", "."]
     text: ' File to a smooth finish.'
@@ -1224,7 +1224,7 @@ Hxfo:
     wn30_key: [[0, "file%2:35:00::"]]
 J0uA:
     lemmas: ["A", "Barrette", "swiss", "pattern", "file", "be", "handy", "since", "its", "triangular", "shape", "with", "only", "one", "cutting", "face", "will", "allow", "you", "to", "work", "a", "surface", "without", "mar", "an", "adjoining", "one", "."]
-    oewn2026_key: [[5, "oewn-02610777-v"], [17, "oewn-02427979-v"], [20, "oewn-01672498-v"], [24, "oewn-00478872-v"]]
+    oewn_key: [[5, "oewn-02610777-v"], [17, "oewn-02427979-v"], [20, "oewn-01672498-v"], [24, "oewn-00478872-v"]]
     paragraph: '24'
     pos: ["DT", "JJ", "JJ", "NN", "NN", "VBZ", "JJ", "IN", "PRP$", "JJ", "NN", "IN", "RB", "CD", "JJ", "NN", "MD", "VB", "PRP", "TO", "VB", "DT", "NN", "IN", "VBG", "DT", "JJ", "CD", "."]
     text: ' A Barrette Swiss pattern file is handy since its triangular shape with only one
@@ -1234,7 +1234,7 @@ J0uA:
     wn30_key: [[5, "be%2:42:03::"], [17, "allow%2:41:00::"], [20, "work%2:36:00::"], [24, "mar%2:30:00::"]]
 M3r4:
     lemmas: ["endeavor", "to", "get", "the", "notch", "as", "much", "alike", "as", "possible", "."]
-    oewn2026_key: [[0, "oewn-02536865-v"], [2, "oewn-00120604-v"]]
+    oewn_key: [[0, "oewn-02536865-v"], [2, "oewn-00120604-v"]]
     paragraph: '24'
     pos: ["VB", "TO", "VB", "DT", "NNS", "IN", "JJ", "RB", "IN", "JJ", "."]
     text: ' Endeavor to get the notches as much alike as possible.'
@@ -1243,7 +1243,7 @@ M3r4:
     wn30_key: [[0, "endeavor%2:41:00::"], [2, "get%2:30:02::"]]
 JgwH:
     lemmas: ["The", "notch", "should", "have", "a", "smooth", "finish", "so_that", "the", "steel", "dog", "will", "slide", "easily", "over", "it", "."]
-    oewn2026_key: [[3, "oewn-02208144-v"], [12, "oewn-01874268-v"]]
+    oewn_key: [[3, "oewn-02208144-v"], [12, "oewn-01874268-v"]]
     paragraph: '24'
     pos: ["DT", "NN", "MD", "VB", "DT", "JJ", "NN", "RB", "DT", "NN", "NN", "MD", "VB", "RB", "IN", "PRP", "."]
     text: ' The notch should have a smooth finish so_that the steel dog will slide easily over
@@ -1253,7 +1253,7 @@ JgwH:
     wn30_key: [[3, "have%2:40:00::"], [12, "slide%2:38:01::"]]
 WSAe:
     lemmas: ["assemble", "the", "parts", "in", "the", "frame", "and", "test", "the", "slide", "action", "of", "the", "mating", "piece", "."]
-    oewn2026_key: [[0, "oewn-01660471-v"], [7, "oewn-02537291-v"], [9, "oewn-01890481-v"]]
+    oewn_key: [[0, "oewn-01660471-v"], [7, "oewn-02537291-v"], [9, "oewn-01890481-v"]]
     paragraph: '24'
     pos: ["VB", "DT", "NNS", "IN", "DT", "NN", "CC", "VB", "DT", "VBG", "NN", "IN", "DT", "NN", "NNS", "."]
     text: ' Assemble the parts in the frame and test the sliding action of the mating pieces.'
@@ -1262,7 +1262,7 @@ WSAe:
     wn30_key: [[0, "assemble%2:36:00::"], [7, "test%2:41:00::"], [9, "slide%2:38:00::"]]
 Nk+/:
     lemmas: ["All", "match", "surface", "should", "be", "check", "frequently", "and", "mate", "on", "a", "cut", "and", "fit", "basis", "."]
-    oewn2026_key: [[1, "oewn-02663315-v"], [5, "oewn-00663742-v"], [8, "oewn-01295488-v"], [13, "oewn-02665841-v"]]
+    oewn_key: [[1, "oewn-02663315-v"], [5, "oewn-00663742-v"], [8, "oewn-01295488-v"], [13, "oewn-02665841-v"]]
     paragraph: '24'
     pos: ["DT", "VB", "NNS", "MD", "VB", "VBN", "RB", "CC", "VBN", "IN", "DT", "NN", "CC", "VB", "NN", "."]
     text: ' All matching surfaces should be checked frequently and mated on a cut and fit basis.
@@ -1273,7 +1273,7 @@ Nk+/:
     wn30_key: [[1, "match%2:42:00::"], [5, "check%2:31:00::"], [8, "mate%2:35:02::"], [13, "fit%2:42:02::"]]
 HO7t:
     lemmas: ["chuck", "a", "2", "\"", "or", "3", "\"", "piece", "of", "1", "8", "\"", "dia.", "drill", "rod", "in", "a", "drill", "press", "or", "electric", "hand_tool", "."]
-    oewn2026_key: [[0, "oewn-01517157-v"]]
+    oewn_key: [[0, "oewn-01517157-v"]]
     paragraph: '25'
     pos: ["VB", "DT", "CD", "''", "CC", "CD", "``", "NN", "IN", "CD", "CD", "``", "NN", "NN", "NN", "IN", "DT", "NN", "NN", "CC", "JJ", "NN", "."]
     text: ' Chuck a 2 " or 3 " piece of 1 8 " dia. drill rod in a drill press or electric hand_tool.'
@@ -1282,7 +1282,7 @@ HO7t:
     wn30_key: [[0, "chuck%2:35:00::"]]
 pQC8:
     lemmas: ["fashion", "a", "sharp", "scribing", "point", "about", "3", "64", "\"", "long", "on", "one", "end", ",", "use", "swiss", "pattern", "file", "."]
-    oewn2026_key: [[0, "oewn-01662082-v"], [14, "oewn-01161188-v"]]
+    oewn_key: [[0, "oewn-01662082-v"], [14, "oewn-01161188-v"]]
     paragraph: '25'
     pos: ["VB", "DT", "JJ", "NN", "NN", "IN", "CD", "CD", "``", "JJ", "IN", "CD", "NN", ",", "VBG", "JJ", "NN", "NNS", "."]
     text: ' Fashion a sharp scribing point about 3 64 " long on one end, using Swiss pattern
@@ -1292,7 +1292,7 @@ pQC8:
     wn30_key: [[0, "fashion%2:36:00::"], [14, "use%2:34:01::"]]
 ke5R:
     lemmas: ["This", "tool", "can", "also", "be", "make", "with", "a", "lathe", "."]
-    oewn2026_key: [[5, "oewn-01624592-v"]]
+    oewn_key: [[5, "oewn-01624592-v"]]
     paragraph: '25'
     pos: ["DT", "NN", "MD", "RB", "VB", "VBN", "IN", "DT", "NN", "."]
     text: ' This tool can also be made with a lathe.

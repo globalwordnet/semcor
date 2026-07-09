@@ -3,7 +3,7 @@ _meta:
         type: seq
         base: tokens
         data: string
-    oewn2026_key:
+    oewn_key:
         type: element
         base: tokens
         data: string
@@ -28,7 +28,7 @@ _meta:
         data: string
 FPvm:
     lemmas: ["The", "most", "beautiful", "bed", "of", "pansy", "I", "'ve", "see", "be", "in", "a", "south_dakota", "yard", "on", "a", "sizzling", "day", "."]
-    oewn2026_key: [[1, "oewn-00112352-r"], [2, "oewn-00219320-a"], [3, "oewn-02822609-n"], [5, "oewn-12411002-n"], [8, "oewn-02133754-v"], [9, "oewn-02661230-v"], [12, "oewn-09161650-n"], [13, "oewn-04618236-n"], [16, "oewn-01253046-s"], [17, "oewn-15182185-n"]]
+    oewn_key: [[1, "oewn-00112352-r"], [2, "oewn-00219320-a"], [3, "oewn-02822609-n"], [5, "oewn-12411002-n"], [8, "oewn-02133754-v"], [9, "oewn-02661230-v"], [12, "oewn-09161650-n"], [13, "oewn-04618236-n"], [16, "oewn-01253046-s"], [17, "oewn-15182185-n"]]
     paragraph: '0'
     pos: ["RB", "RBS", "JJ", "NN", "IN", "NNS", "PRP", "VBP", "VBN", "VBD", "IN", "DT", "NN", "NN", "IN", "DT", "JJ", "NN", "."]
     text: The most beautiful bed of pansies I've seen was in a South_Dakota yard on a sizzling
@@ -38,7 +38,7 @@ FPvm:
     wn30_key: [[1, "most%4:02:00::"], [2, "beautiful%3:00:00::"], [3, "bed%1:06:01::"], [5, "pansy%1:20:01::"], [8, "see%2:39:00::"], [9, "be%2:42:05::"], [12, "south_dakota%1:15:00::"], [13, "yard%1:06:02::"], [16, "sizzling%3:00:00:hot:01"], [17, "day%1:28:01::"]]
 tAoA:
     lemmas: ["pansy", "be", "supposed", "to", "like", "it", "cool", ",", "but", "those", "great", "velvety", "flower", "be", "healthy", "and", "perky", "in", "the", "glaring", "sun", "."]
-    oewn2026_key: [[0, "oewn-12411002-n"], [1, "oewn-02610777-v"], [2, "oewn-01621407-s"], [4, "oewn-01781131-v;oewn-01829904-v"], [6, "oewn-02540350-a"], [10, "oewn-01389817-s"], [11, "oewn-02246054-s"], [12, "oewn-11690372-n"], [13, "oewn-02610777-v"], [14, "oewn-01173787-a"], [16, "oewn-00364701-s"], [19, "oewn-00281710-s"], [20, "oewn-11505767-n"]]
+    oewn_key: [[0, "oewn-12411002-n"], [1, "oewn-02610777-v"], [2, "oewn-01621407-s"], [4, "oewn-01781131-v;oewn-01829904-v"], [6, "oewn-02540350-a"], [10, "oewn-01389817-s"], [11, "oewn-02246054-s"], [12, "oewn-11690372-n"], [13, "oewn-02610777-v"], [14, "oewn-01173787-a"], [16, "oewn-00364701-s"], [19, "oewn-00281710-s"], [20, "oewn-11505767-n"]]
     paragraph: '0'
     pos: ["NNS", "VBP", "JJ", "VB", "VB", "PRP", "JJ", ",", "CC", "DT", "JJ", "JJ", "NNS", "VBD", "JJ", "CC", "JJ", "IN", "DT", "JJ", "NN", "."]
     text: ' Pansies are supposed to like it cool, but those great velvety flowers were healthy
@@ -48,7 +48,7 @@ tAoA:
     wn30_key: [[0, "pansy%1:20:01::"], [1, "be%2:42:03::"], [2, "supposed%3:00:00:obligated:00"], [4, "like%2:37:05::;like%2:37:06::"], [6, "cool%3:00:01::"], [10, "great%3:00:01:large:00"], [11, "velvety%3:00:00:smooth:00"], [12, "flower%1:20:00::"], [13, "be%2:42:03::"], [14, "healthy%3:00:00::"], [16, "perky%3:00:00:cheerful:00"], [19, "glaring%3:00:00:bright:00"], [20, "sun%1:19:00::"]]
 DLm6:
     lemmas: ["I", "seek_out", "the", "gardener", "and", "ask", "him", "what", "he", "do", "to", "produce", "such", "beauty", "in", "that", "weather", "."]
-    oewn2026_key: [[1, "oewn-01320084-v"], [3, "oewn-10140190-n"], [5, "oewn-00899241-v"], [9, "oewn-02566500-v"], [11, "oewn-01743695-v"], [12, "oewn-01558587-s"], [13, "oewn-05934334-n"], [16, "oewn-11545095-n"]]
+    oewn_key: [[1, "oewn-01320084-v"], [3, "oewn-10140190-n"], [5, "oewn-00899241-v"], [9, "oewn-02566500-v"], [11, "oewn-01743695-v"], [12, "oewn-01558587-s"], [13, "oewn-05934334-n"], [16, "oewn-11545095-n"]]
     paragraph: '0'
     pos: ["PRP", "VBP", "DT", "NN", "CC", "VBD", "PRP", "WP", "PRP", "VBD", "TO", "VB", "JJ", "NNS", "RB", "RB", "NN", "."]
     text: ' I sought_out the gardener and asked him what he did to produce such beauties in
@@ -58,7 +58,7 @@ DLm6:
     wn30_key: [[1, "seek_out%2:35:00::"], [3, "gardener%1:18:00::"], [5, "ask%2:32:00::"], [9, "do%2:41:01::"], [11, "produce%2:36:05::"], [12, "such%3:00:00:much:00"], [13, "beauty%1:09:00::"], [16, "weather%1:19:00::"]]
 4Lmz:
     lemmas: ["He", "seem", "puzzle", "by", "my", "question", "."]
-    oewn2026_key: [[1, "oewn-02137900-v"], [2, "oewn-00624056-v"], [5, "oewn-07208256-n"]]
+    oewn_key: [[1, "oewn-02137900-v"], [2, "oewn-00624056-v"], [5, "oewn-07208256-n"]]
     paragraph: '0'
     pos: ["PRP", "VBD", "VBN", "IN", "PRP$", "NN", "."]
     text: ' He seemed puzzled by my question.'
@@ -67,7 +67,7 @@ DLm6:
     wn30_key: [[1, "seem%2:39:00::"], [2, "puzzle%2:31:00::"], [5, "question%1:10:00::"]]
 4fZC:
     lemmas: ["\"", "I", "just", "love", "them", "\"", ",", "he", "say", "."]
-    oewn2026_key: [[2, "oewn-00005103-r"], [3, "oewn-01779085-v"], [8, "oewn-01011267-v"]]
+    oewn_key: [[2, "oewn-00005103-r"], [3, "oewn-01779085-v"], [8, "oewn-01011267-v"]]
     paragraph: '0'
     pos: ["``", "PRP", "RB", "VBP", "PRP", "``", ",", "PRP", "VBD", "."]
     text: ' " I just love them ", he said.
@@ -78,7 +78,7 @@ DLm6:
     wn30_key: [[2, "just%4:02:00::"], [3, "love%2:37:00::"], [8, "say%2:32:00::"]]
 HDdG:
     lemmas: ["The", "more", "I", "talk", "with", "him", ",", "the", "more", "convinced", "I", "become", "that", "that", "be", "the", "secret", "of", "their", "riotous", "blooming", "."]
-    oewn2026_key: [[1, "oewn-00100262-r"], [3, "oewn-00964479-v"], [8, "oewn-00099891-r"], [9, "oewn-00338070-s"], [11, "oewn-00149403-v"], [14, "oewn-02622439-v"], [16, "oewn-06685887-n"], [19, "oewn-00015284-s"], [20, "oewn-13460563-n"]]
+    oewn_key: [[1, "oewn-00100262-r"], [3, "oewn-00964479-v"], [8, "oewn-00099891-r"], [9, "oewn-00338070-s"], [11, "oewn-00149403-v"], [14, "oewn-02622439-v"], [16, "oewn-06685887-n"], [19, "oewn-00015284-s"], [20, "oewn-13460563-n"]]
     paragraph: '1'
     pos: ["DT", "RBR", "PRP", "VBD", "IN", "PRP", ",", "DT", "RBR", "JJ", "PRP", "VBD", "IN", "WDT", "VBD", "DT", "NN", "IN", "PRP$", "JJ", "NN", "."]
     text: ' The more I talked with him, the more convinced I became that that was the secret
@@ -88,7 +88,7 @@ HDdG:
     wn30_key: [[1, "more%4:02:01::"], [3, "talk%2:32:01::"], [8, "more%4:02:00::"], [9, "convinced%3:00:00:certain:02"], [11, "become%2:30:00::"], [14, "be%2:42:06::"], [16, "secret%1:10:00::"], [19, "riotous%3:00:00:abundant:00"], [20, "blooming%1:22:00::"]]
 hUU4:
     lemmas: ["of_course", "his", "love", "be", "express", "in", "intelligent", "care", "."]
-    oewn2026_key: [[0, "oewn-00039019-r"], [2, "oewn-07558676-n"], [4, "oewn-00945869-v"], [6, "oewn-01950705-s"], [7, "oewn-00656128-n"]]
+    oewn_key: [[0, "oewn-00039019-r"], [2, "oewn-07558676-n"], [4, "oewn-00945869-v"], [6, "oewn-01950705-s"], [7, "oewn-00656128-n"]]
     paragraph: '1'
     pos: ["RB", "PRP$", "NN", "VBD", "VBN", "IN", "JJ", "NN", "."]
     text: ' Of_course his love was expressed in intelligent care.'
@@ -97,7 +97,7 @@ hUU4:
     wn30_key: [[0, "of_course%4:02:00::"], [2, "love%1:12:00::"], [4, "express%2:32:01::"], [6, "intelligent%3:00:00:reasonable:00"], [7, "care%1:04:01::"]]
 VqCo:
     lemmas: ["He", "plant", "the", "pansy", "seed", "himself", ",", "buy", "them", "from", "a", "pansy", "specialist", "."]
-    oewn2026_key: [[1, "oewn-01570056-v"], [3, "oewn-12411002-n"], [4, "oewn-13156591-n"], [7, "oewn-02211988-v"], [11, "oewn-12411002-n"], [12, "oewn-10651303-n"]]
+    oewn_key: [[1, "oewn-01570056-v"], [3, "oewn-12411002-n"], [4, "oewn-13156591-n"], [7, "oewn-02211988-v"], [11, "oewn-12411002-n"], [12, "oewn-10651303-n"]]
     paragraph: '1'
     pos: ["PRP", "VBD", "DT", "NN", "NNS", "PRP", ",", "VBG", "PRP", "IN", "DT", "NN", "NN", "."]
     text: ' He planted the pansy seeds himself, buying them from a pansy specialist.'
@@ -106,7 +106,7 @@ VqCo:
     wn30_key: [[1, "plant%2:35:00::"], [3, "pansy%1:20:01::"], [4, "seed%1:20:00::"], [7, "buy%2:40:00::"], [11, "pansy%1:20:01::"], [12, "specialist%1:18:00::"]]
 kqhb:
     lemmas: ["These", "specialist", ",", "I", "learn", ",", "have", "do", "a", "great_deal", "of", "work", "to", "improve", "the", "size", "and", "health", "of", "the", "plant", "and", "the", "resulting", "flower", "."]
-    oewn2026_key: [[1, "oewn-10651303-n"], [4, "oewn-00600349-v"], [7, "oewn-02566500-v"], [9, "oewn-13796604-n"], [11, "oewn-05763880-n"], [13, "oewn-00206293-v"], [15, "oewn-05106204-n"], [17, "oewn-14471374-n"], [20, "oewn-00017402-n"], [24, "oewn-11690372-n"]]
+    oewn_key: [[1, "oewn-10651303-n"], [4, "oewn-00600349-v"], [7, "oewn-02566500-v"], [9, "oewn-13796604-n"], [11, "oewn-05763880-n"], [13, "oewn-00206293-v"], [15, "oewn-05106204-n"], [17, "oewn-14471374-n"], [20, "oewn-00017402-n"], [24, "oewn-11690372-n"]]
     paragraph: '1'
     pos: ["DT", "NNS", ",", "PRP", "VBD", ",", "VBP", "VBN", "DT", "NN", "IN", "NN", "TO", "VB", "DT", "NN", "CC", "NN", "IN", "DT", "NNS", "CC", "DT", "JJ", "NNS", "."]
     text: ' These specialists, I learned, have done a great_deal of work to improve the size
@@ -116,7 +116,7 @@ kqhb:
     wn30_key: [[1, "specialist%1:18:00::"], [4, "learn%2:31:01::"], [7, "do%2:41:01::"], [9, "great_deal%1:23:00::"], [11, "work%1:09:00::"], [13, "improve%2:30:01::"], [15, "size%1:07:00::"], [17, "health%1:26:00::"], [20, "plant%1:03:00::"], [24, "flower%1:20:00::"]]
 bG7/:
     lemmas: ["Their", "seed", "produce", "vigorous", "blooming", "plant", "half", "again", "the", "size", "of", "the", "unimproved", "strain", "."]
-    oewn2026_key: [[1, "oewn-13156591-n"], [2, "oewn-01756303-v"], [3, "oewn-00878730-s"], [5, "oewn-00017402-n"], [6, "oewn-00008300-r"], [7, "oewn-00040777-r"], [9, "oewn-05106204-n"], [12, "oewn-01292352-a"], [13, "oewn-08128123-n"]]
+    oewn_key: [[1, "oewn-13156591-n"], [2, "oewn-01756303-v"], [3, "oewn-00878730-s"], [5, "oewn-00017402-n"], [6, "oewn-00008300-r"], [7, "oewn-00040777-r"], [9, "oewn-05106204-n"], [12, "oewn-01292352-a"], [13, "oewn-08128123-n"]]
     paragraph: '1'
     pos: ["PRP$", "NNS", "VBP", "JJ", "JJ", "NNS", "RB", "RB", "DT", "NN", "IN", "DT", "JJ", "NNS", "."]
     text: ' Their seeds produce vigorous blooming plants half again the size of the unimproved
@@ -128,7 +128,7 @@ bG7/:
     wn30_key: [[1, "seed%1:20:00::"], [2, "produce%2:36:02::"], [3, "vigorous%3:00:00:energetic:00"], [5, "plant%1:03:00::"], [6, "half%4:02:00::"], [7, "again%4:02:00::"], [9, "size%1:07:00::"], [12, "unimproved%3:00:00::"], [13, "strain%1:14:01::"]]
 Wrra:
     lemmas: ["I", "ask", "him", "if", "he", "take", "seed", "from", "his", "own", "plant", "."]
-    oewn2026_key: [[1, "oewn-00899241-v"], [5, "oewn-01216829-v"], [6, "oewn-13156591-n"], [9, "oewn-01773236-s"], [10, "oewn-00017402-n"]]
+    oewn_key: [[1, "oewn-00899241-v"], [5, "oewn-01216829-v"], [6, "oewn-13156591-n"], [9, "oewn-01773236-s"], [10, "oewn-00017402-n"]]
     paragraph: '2'
     pos: ["PRP", "VBD", "PRP", "IN", "PRP", "VBD", "NNS", "IN", "PRP$", "JJ", "NNS", "."]
     text: ' I asked him if he took seeds from his own plants.'
@@ -137,7 +137,7 @@ Wrra:
     wn30_key: [[1, "ask%2:32:00::"], [5, "take%2:35:00::"], [6, "seed%1:20:00::"], [9, "own%3:00:00:personal:00"], [10, "plant%1:03:00::"]]
 nS7F:
     lemmas: ["occasionally", ",", "when", "he", "have", "an", "unusual", "flower", "that", "he", "want", "more", "of", "he", "do", ";", "but", "pansy", "seed", ",", "he", "tell", "me", ",", "soon", "\"", "run_down", "\"", "."]
-    oewn2026_key: [[0, "oewn-00021667-r"], [4, "oewn-02208144-v"], [6, "oewn-00492026-a"], [7, "oewn-11690372-n"], [10, "oewn-01829179-v"], [11, "oewn-11210173-n"], [17, "oewn-12411002-n"], [18, "oewn-13156591-n"], [21, "oewn-01011267-v"], [24, "oewn-00034309-r"], [26, "oewn-00099271-v"]]
+    oewn_key: [[0, "oewn-00021667-r"], [4, "oewn-02208144-v"], [6, "oewn-00492026-a"], [7, "oewn-11690372-n"], [10, "oewn-01829179-v"], [11, "oewn-11210173-n"], [17, "oewn-12411002-n"], [18, "oewn-13156591-n"], [21, "oewn-01011267-v"], [24, "oewn-00034309-r"], [26, "oewn-00099271-v"]]
     paragraph: '2'
     pos: ["RB", ",", "WRB", "PRP", "VBD", "DT", "JJ", "NN", "IN", "PRP", "VBD", "NN", "JJ", "PRP", "VBD", ":", "CC", "NN", "NNS", ",", "PRP", "VBD", "PRP", ",", "RB", "``", "VB", "''", "."]
     text: ' Occasionally, when he had an unusual flower that he wanted more of he did; but pansy
@@ -147,7 +147,7 @@ nS7F:
     wn30_key: [[0, "occasionally%4:02:00::"], [4, "have%2:40:00::"], [6, "unusual%3:00:00::"], [7, "flower%1:20:00::"], [10, "want%2:37:00::"], [11, "more%1:18:00::"], [17, "pansy%1:20:01::"], [18, "seed%1:20:00::"], [21, "tell%2:32:04::"], [24, "soon%4:02:00::"], [26, "run_down%2:29:00::"]]
 MbqI:
     lemmas: ["It", "be", "best", "to", "buy", "them", "fresh", "from", "a", "dealer", "who", "be", "work", "to", "improve", "them", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-00229099-a"], [4, "oewn-02211988-v"], [6, "oewn-01071383-a"], [9, "oewn-10740102-n"], [12, "oewn-02418610-v"], [14, "oewn-00206293-v"]]
+    oewn_key: [[1, "oewn-02610777-v"], [2, "oewn-00229099-a"], [4, "oewn-02211988-v"], [6, "oewn-01071383-a"], [9, "oewn-10740102-n"], [12, "oewn-02418610-v"], [14, "oewn-00206293-v"]]
     paragraph: '2'
     pos: ["PRP", "VBZ", "JJS", "TO", "VB", "PRP", "JJ", "IN", "DT", "NN", "WP", "VBZ", "VBG", "TO", "VB", "PRP", "."]
     text: ' It''s best to buy them fresh from a dealer who is working to improve them.
@@ -158,7 +158,7 @@ MbqI:
     wn30_key: [[1, "be%2:42:03::"], [2, "best%3:00:00::"], [4, "buy%2:40:00::"], [6, "fresh%3:00:01::"], [9, "dealer%1:18:02::"], [12, "work%2:41:02::"], [14, "improve%2:30:01::"]]
 urZ2:
     lemmas: ["His", "soil", "be", "\"", "nothing", "special", "\"", ",", "just", "prairie", "land", ",", "but", "he", "have", "harrow", "in", "compost", "until", "it", "be", "loose", ",", "spongy", "and", "brown", "black", "."]
-    oewn2026_key: [[1, "oewn-14868863-n"], [2, "oewn-02610777-v"], [4, "oewn-13762308-n"], [5, "oewn-01683388-s"], [8, "oewn-00005103-r"], [9, "oewn-08637099-n"], [10, "oewn-09358146-n"], [15, "oewn-01746296-v"], [17, "oewn-14842271-n"], [20, "oewn-02610777-v"], [21, "oewn-00505233-a"], [23, "oewn-01158467-s"], [25, "oewn-00373173-s"], [26, "oewn-00393873-a"]]
+    oewn_key: [[1, "oewn-14868863-n"], [2, "oewn-02610777-v"], [4, "oewn-13762308-n"], [5, "oewn-01683388-s"], [8, "oewn-00005103-r"], [9, "oewn-08637099-n"], [10, "oewn-09358146-n"], [15, "oewn-01746296-v"], [17, "oewn-14842271-n"], [20, "oewn-02610777-v"], [21, "oewn-00505233-a"], [23, "oewn-01158467-s"], [25, "oewn-00373173-s"], [26, "oewn-00393873-a"]]
     paragraph: '3'
     pos: ["PRP$", "NN", "VBD", "``", "NN", "JJ", "''", ",", "RB", "NN", "NN", ",", "CC", "PRP", "VBD", "VBN", "IN", "NN", "IN", "PRP", "VBD", "JJ", ",", "JJ", "CC", "JJ", "JJ", "."]
     text: ' His soil was " nothing special ", just prairie land, but he had harrowed in compost
@@ -168,7 +168,7 @@ urZ2:
     wn30_key: [[1, "soil%1:27:01::"], [2, "be%2:42:03::"], [4, "nothing%1:23:00::"], [5, "special%3:00:00:extraordinary:00"], [8, "just%4:02:00::"], [9, "prairie%1:15:00::"], [10, "land%1:17:01::"], [15, "harrow%2:36:00::"], [17, "compost%1:27:00::"], [20, "be%2:42:03::"], [21, "loose%3:00:02::"], [23, "spongy%3:00:00:soft:01"], [25, "brown%3:00:00:chromatic:00"], [26, "black%3:00:01::"]]
 TLmy:
     lemmas: ["I", "finger", "it", "and", "have", "the", "feeling", "of", "adequacy", "that", "come_with", "the", "right", "texture", ",", "tilth", "and", "body", "."]
-    oewn2026_key: [[1, "oewn-01212242-v"], [4, "oewn-02112480-v"], [6, "oewn-05729447-n"], [8, "oewn-05119909-n"], [10, "oewn-02722040-v"], [12, "oewn-01885314-s"], [13, "oewn-04954054-n"], [15, "oewn-14519647-n"], [17, "oewn-04941723-n"]]
+    oewn_key: [[1, "oewn-01212242-v"], [4, "oewn-02112480-v"], [6, "oewn-05729447-n"], [8, "oewn-05119909-n"], [10, "oewn-02722040-v"], [12, "oewn-01885314-s"], [13, "oewn-04954054-n"], [15, "oewn-14519647-n"], [17, "oewn-04941723-n"]]
     paragraph: '3'
     pos: ["PRP", "VBD", "PRP", "CC", "VBD", "VB", "NN", "IN", "NN", "IN", "VBP", "DT", "JJ", "NN", ",", "NN", "CC", "NN", "."]
     text: ' I fingered it and had the feeling of adequacy that comes_with the right texture,
@@ -178,7 +178,7 @@ TLmy:
     wn30_key: [[1, "finger%2:35:05::"], [4, "have%2:39:06::"], [6, "feeling%1:09:01::"], [8, "adequacy%1:07:01::"], [10, "come_with%2:42:00::"], [12, "right%3:00:01:proper:00"], [13, "texture%1:07:00::"], [15, "tilth%1:26:00::"], [17, "body%1:07:00::"]]
 Ubsu:
     lemmas: ["It", "be", "n't", "easy", "to", "describe", "it", ",", "but", "every", "gardener", "know", "it", "when", "his", "finger", "touch", "such", "soil", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [3, "oewn-00752852-a"], [5, "oewn-00989103-v"], [10, "oewn-10140190-n"], [11, "oewn-00597330-v"], [15, "oewn-05574137-n"], [16, "oewn-01208838-v"], [17, "oewn-01558587-s"], [18, "oewn-14868863-n"]]
+    oewn_key: [[1, "oewn-02610777-v"], [3, "oewn-00752852-a"], [5, "oewn-00989103-v"], [10, "oewn-10140190-n"], [11, "oewn-00597330-v"], [15, "oewn-05574137-n"], [16, "oewn-01208838-v"], [17, "oewn-01558587-s"], [18, "oewn-14868863-n"]]
     paragraph: '3'
     pos: ["PRP", "VBZ", "RB", "JJ", "TO", "VB", "PRP", ",", "CC", "DT", "NN", "VBZ", "PRP", "WRB", "PRP$", "NNS", "VBP", "JJ", "NN", "."]
     text: ' It isn''t easy to describe it, but every gardener knows it when his fingers touch
@@ -190,7 +190,7 @@ Ubsu:
     wn30_key: [[1, "be%2:42:03::"], [3, "easy%3:00:01::"], [5, "describe%2:32:00::"], [10, "gardener%1:18:00::"], [11, "know%2:31:03::"], [15, "finger%1:08:00::"], [16, "touch%2:35:00::"], [17, "such%3:00:00:much:00"], [18, "soil%1:27:01::"]]
 26LJ:
     lemmas: ["nothing", "be", "easy", "to", "grow", "from", "seed", "than", "pansy", "."]
-    oewn2026_key: [[0, "oewn-13762308-n"], [1, "oewn-02610777-v"], [2, "oewn-00752852-a"], [4, "oewn-00246343-v"], [6, "oewn-13156591-n"], [8, "oewn-12411002-n"]]
+    oewn_key: [[0, "oewn-13762308-n"], [1, "oewn-02610777-v"], [2, "oewn-00752852-a"], [4, "oewn-00246343-v"], [6, "oewn-13156591-n"], [8, "oewn-12411002-n"]]
     paragraph: '4'
     pos: ["NN", "VBZ", "JJR", "TO", "VB", "IN", "NN", "IN", "NNS", "."]
     text: ' Nothing is easier to grow from seed than pansies.'
@@ -199,7 +199,7 @@ Ubsu:
     wn30_key: [[0, "nothing%1:23:00::"], [1, "be%2:42:03::"], [2, "easy%3:00:01::"], [4, "grow%2:30:01::"], [6, "seed%1:20:00::"], [8, "pansy%1:20:01::"]]
 J99Y:
     lemmas: ["They", "germinate", "quickly", ",", "the", "tiny", "plant", "appear", "in", "a", "week", ",", "and", "grow", "along", "lustily", "."]
-    oewn2026_key: [[1, "oewn-00357986-v"], [2, "oewn-00086161-r"], [5, "oewn-01395201-s"], [6, "oewn-00017402-n"], [7, "oewn-00423043-v"], [10, "oewn-15194920-n"], [13, "oewn-00231983-v"], [14, "oewn-00068768-r"], [15, "oewn-00247649-r"]]
+    oewn_key: [[1, "oewn-00357986-v"], [2, "oewn-00086161-r"], [5, "oewn-01395201-s"], [6, "oewn-00017402-n"], [7, "oewn-00423043-v"], [10, "oewn-15194920-n"], [13, "oewn-00231983-v"], [14, "oewn-00068768-r"], [15, "oewn-00247649-r"]]
     paragraph: '4'
     pos: ["PRP", "VBP", "RB", ",", "DT", "JJ", "NNS", "VBG", "IN", "DT", "NN", ",", "CC", "VB", "RB", "RB", "."]
     text: ' They germinate quickly, the tiny plants appearing in a week, and grow along lustily.'
@@ -208,7 +208,7 @@ J99Y:
     wn30_key: [[1, "germinate%2:30:00::"], [2, "quickly%4:02:00::"], [5, "tiny%3:00:00:small:00"], [6, "plant%1:03:00::"], [7, "appear%2:30:00::"], [10, "week%1:28:00::"], [13, "grow%2:30:02::"], [14, "along%4:02:01::"], [15, "lustily%4:02:00::"]]
 V9E8:
     lemmas: ["It", "do", "n't", "really", "matter", "which", "month", "of", "the", "year", "you", "sow", "them", ",", "but", "they", "germinate", "best", "when", "they", "have", "a", "wide", "variation", "of", "temperature", ",", "very", "warm", "follow", "by", "cool", "in", "the", "same", "24", "hour", "."]
-    oewn2026_key: [[3, "oewn-00150568-r"], [4, "oewn-02651923-v"], [6, "oewn-15234209-n"], [9, "oewn-15228587-n"], [11, "oewn-01503512-v"], [16, "oewn-00357986-v"], [17, "oewn-00189649-r"], [20, "oewn-02112480-v"], [22, "oewn-00528239-s"], [23, "oewn-07351990-n"], [25, "oewn-05018974-n"], [27, "oewn-00513282-r"], [28, "oewn-02539669-a"], [29, "oewn-02718647-v"], [31, "oewn-02540350-a"], [34, "oewn-02075880-a"], [35, "oewn-02196359-s"], [36, "oewn-15252642-n"]]
+    oewn_key: [[3, "oewn-00150568-r"], [4, "oewn-02651923-v"], [6, "oewn-15234209-n"], [9, "oewn-15228587-n"], [11, "oewn-01503512-v"], [16, "oewn-00357986-v"], [17, "oewn-00189649-r"], [20, "oewn-02112480-v"], [22, "oewn-00528239-s"], [23, "oewn-07351990-n"], [25, "oewn-05018974-n"], [27, "oewn-00513282-r"], [28, "oewn-02539669-a"], [29, "oewn-02718647-v"], [31, "oewn-02540350-a"], [34, "oewn-02075880-a"], [35, "oewn-02196359-s"], [36, "oewn-15252642-n"]]
     paragraph: '4'
     pos: ["PRP", "VBZ", "RB", "RB", "VB", "WDT", "NN", "IN", "DT", "NN", "PRP", "VBP", "PRP", ",", "CC", "PRP", "VBP", "RB", "WRB", "PRP", "VBP", "DT", "JJ", "NN", "IN", "NN", ",", "RB", "JJ", "VBN", "IN", "JJ", "IN", "DT", "JJ", "JJ", "NNS", "."]
     text: ' It doesn''t really matter which month of the year you sow them, but they germinate
@@ -221,7 +221,7 @@ V9E8:
     wn30_key: [[3, "really%4:02:04::"], [4, "matter%2:42:00::"], [6, "month%1:28:01::"], [9, "year%1:28:01::"], [11, "sow%2:35:00::"], [16, "germinate%2:30:00::"], [17, "best%4:02:01::"], [20, "have%2:39:06::"], [22, "wide%3:00:00:comprehensive:00"], [23, "variation%1:11:01::"], [25, "temperature%1:07:00::"], [27, "very%4:02:01::"], [28, "warm%3:00:01::"], [29, "follow%2:42:00::"], [31, "cool%3:00:01::"], [34, "same%3:00:02::"], [35, "24%3:00:00:cardinal:00"], [36, "hour%1:28:00::"]]
 nS7y:
     lemmas: ["I", "like", "to", "make", "a", "seedbed", "right", "in", "the", "open", ",", "though", "many", "people", "start", "them", "successfully", "in", "cold_frame", "."]
-    oewn2026_key: [[1, "oewn-01781131-v"], [3, "oewn-01620211-v"], [5, "oewn-04174183-n"], [6, "oewn-00206480-r"], [9, "oewn-08631308-n"], [12, "oewn-01555990-a"], [13, "oewn-07958392-n"], [14, "oewn-01631641-v"], [16, "oewn-00120824-r"], [18, "oewn-03071522-n"]]
+    oewn_key: [[1, "oewn-01781131-v"], [3, "oewn-01620211-v"], [5, "oewn-04174183-n"], [6, "oewn-00206480-r"], [9, "oewn-08631308-n"], [12, "oewn-01555990-a"], [13, "oewn-07958392-n"], [14, "oewn-01631641-v"], [16, "oewn-00120824-r"], [18, "oewn-03071522-n"]]
     paragraph: '5'
     pos: ["PRP", "VBP", "TO", "VB", "DT", "NN", "RB", "JJ", "JJ", "NN", ",", "IN", "JJ", "NNS", "VBP", "PRP", "RB", "IN", "NNS", "."]
     text: ' I like to make a seedbed right in the open, though many people start them successfully
@@ -231,7 +231,7 @@ nS7y:
     wn30_key: [[1, "like%2:37:05::"], [3, "make%2:36:00::"], [5, "seedbed%1:06:00::"], [6, "right%4:02:04::"], [9, "open%1:15:02::"], [12, "many%3:00:00::"], [13, "people%1:14:00::"], [14, "start%2:36:00::"], [16, "successfully%4:02:00::"], [18, "cold_frame%1:06:00::"]]
 ORLn:
     lemmas: ["pansy", "do", "n't", "have", "to", "be", "coddle", ";", "they", "'d", "rather", "have", "thing", "rugged", ",", "with", "only", "moderate", "protection", "on", "the", "cold", "day", "."]
-    oewn2026_key: [[0, "oewn-12411002-n"], [6, "oewn-02576182-v"], [10, "oewn-00116461-r"], [12, "oewn-05679169-n"], [13, "oewn-00710810-a"], [16, "oewn-00005103-r"], [17, "oewn-01535494-a"], [18, "oewn-04020673-n"], [21, "oewn-01254201-a"], [22, "oewn-15182185-n"]]
+    oewn_key: [[0, "oewn-12411002-n"], [6, "oewn-02576182-v"], [10, "oewn-00116461-r"], [12, "oewn-05679169-n"], [13, "oewn-00710810-a"], [16, "oewn-00005103-r"], [17, "oewn-01535494-a"], [18, "oewn-04020673-n"], [21, "oewn-01254201-a"], [22, "oewn-15182185-n"]]
     paragraph: '5'
     pos: ["NNS", "VBP", "RB", "VB", "VB", "VB", "VBN", ":", "PRP", "MD", "RB", "VB", "NNS", "JJ", ",", "IN", "RB", "JJ", "NN", "IN", "DT", "JJS", "NNS", "."]
     text: ' Pansies don''t have to be coddled; they''d rather have things rugged, with only
@@ -241,7 +241,7 @@ ORLn:
     wn30_key: [[0, "pansy%1:20:01::"], [6, "coddle%2:41:00::"], [10, "rather%4:02:01::"], [12, "thing%1:09:02::"], [13, "rugged%3:00:00::"], [16, "only%4:02:02::"], [17, "moderate%3:00:00::"], [18, "protection%1:06:00::"], [21, "cold%3:00:01::"], [22, "day%1:28:01::"]]
 AHdp:
     lemmas: ["If", "you", "do", "use", "a", "cold_frame", "be", "sure", "that", "its", "ventilation", "be", "adequate", "."]
-    oewn2026_key: [[3, "oewn-01161188-v"], [5, "oewn-03071522-n"], [6, "oewn-02610777-v"], [7, "oewn-00310538-s"], [10, "oewn-00267489-n"], [11, "oewn-02610777-v"], [12, "oewn-00051265-a"]]
+    oewn_key: [[3, "oewn-01161188-v"], [5, "oewn-03071522-n"], [6, "oewn-02610777-v"], [7, "oewn-00310538-s"], [10, "oewn-00267489-n"], [11, "oewn-02610777-v"], [12, "oewn-00051265-a"]]
     paragraph: '5'
     pos: ["IN", "PRP", "VBP", "VB", "DT", "NN", "VB", "JJ", "IN", "PRP$", "NN", "VBZ", "JJ", "."]
     text: ' If you do use a cold_frame be sure that its ventilation is adequate.
@@ -252,7 +252,7 @@ AHdp:
     wn30_key: [[3, "use%2:34:01::"], [5, "cold_frame%1:06:00::"], [6, "be%2:42:03::"], [7, "sure%3:00:00:careful:00"], [10, "ventilation%1:04:00::"], [11, "be%2:42:03::"], [12, "adequate%3:00:00::"]]
 SWuD:
     lemmas: ["For", "my", "seedbed", "I", "use", "good", "garden", "soil", "with", "a", "little", "sand", "added", "to", "encourage", "rooting", "."]
-    oewn2026_key: [[2, "oewn-04174183-n"], [4, "oewn-01161188-v"], [5, "oewn-01126910-a"], [6, "oewn-03422255-n"], [7, "oewn-14868863-n"], [10, "oewn-01558903-a"], [11, "oewn-15043597-n"], [14, "oewn-02560630-v"], [15, "oewn-13573327-n"]]
+    oewn_key: [[2, "oewn-04174183-n"], [4, "oewn-01161188-v"], [5, "oewn-01126910-a"], [6, "oewn-03422255-n"], [7, "oewn-14868863-n"], [10, "oewn-01558903-a"], [11, "oewn-15043597-n"], [14, "oewn-02560630-v"], [15, "oewn-13573327-n"]]
     paragraph: '6'
     pos: ["IN", "PRP$", "NN", "PRP", "VBP", "JJ", "NN", "NN", "IN", "RB", "JJ", "NN", "JJ", "TO", "VB", "NN", "."]
     text: ' For my seedbed I use good garden soil with a little sand added to encourage rooting.'
@@ -261,7 +261,7 @@ SWuD:
     wn30_key: [[2, "seedbed%1:06:00::"], [4, "use%2:34:01::"], [5, "good%3:00:01::"], [6, "garden%1:06:00::"], [7, "soil%1:27:01::"], [10, "little%3:00:03::"], [11, "sand%1:27:00::"], [14, "encourage%2:41:00::"], [15, "rooting%1:22:00::"]]
 jf7a:
     lemmas: ["I", "dig", "it", ",", "rake", "it", "smooth", ",", "sow", "the", "seed", "and", "wet", "them", "down", "with", "a", "fog", "spray", "."]
-    oewn2026_key: [[1, "oewn-01312361-v"], [4, "oewn-01309680-v"], [6, "oewn-02244586-a"], [8, "oewn-01503512-v"], [10, "oewn-13156591-n"], [12, "oewn-00215377-v"], [14, "oewn-02501639-a"], [17, "oewn-11478731-n"], [18, "oewn-02757108-n"]]
+    oewn_key: [[1, "oewn-01312361-v"], [4, "oewn-01309680-v"], [6, "oewn-02244586-a"], [8, "oewn-01503512-v"], [10, "oewn-13156591-n"], [12, "oewn-00215377-v"], [14, "oewn-02501639-a"], [17, "oewn-11478731-n"], [18, "oewn-02757108-n"]]
     paragraph: '6'
     pos: ["PRP", "VBP", "PRP", ",", "VB", "PRP", "JJ", ",", "VB", "DT", "NNS", "CC", "VB", "PRP", "JJ", "IN", "DT", "NN", "NN", "."]
     text: ' I dig it, rake it smooth, sow the seeds and wet them down with a fog spray.'
@@ -270,7 +270,7 @@ jf7a:
     wn30_key: [[1, "dig%2:35:00::"], [4, "rake%2:35:01::"], [6, "smooth%3:00:00::"], [8, "sow%2:35:00::"], [10, "seed%1:20:00::"], [12, "wet%2:30:00::"], [14, "down%3:00:00::"], [17, "fog%1:19:00::"], [18, "spray%1:06:00::"]]
 Gfl6:
     lemmas: ["then", "I", "cover", "the", "sow", "with", "a", "board", "."]
-    oewn2026_key: [[0, "oewn-00118527-r"], [2, "oewn-01210571-v"], [4, "oewn-01503512-v"], [7, "oewn-15126421-n"]]
+    oewn_key: [[0, "oewn-00118527-r"], [2, "oewn-01210571-v"], [4, "oewn-01503512-v"], [7, "oewn-15126421-n"]]
     paragraph: '6'
     pos: ["RB", "PRP", "VBP", "DT", "VB", "IN", "DT", "NN", "."]
     text: ' Then I cover the sowing with a board.'
@@ -279,7 +279,7 @@ Gfl6:
     wn30_key: [[0, "then%4:02:00::"], [2, "cover%2:35:01::"], [4, "sow%2:35:00::"], [7, "board%1:27:00::"]]
 2ELj:
     lemmas: ["This", "keep", "it", "cool", "and", "moist", "and", "protect", "it", "from", "bird", "."]
-    oewn2026_key: [[1, "oewn-02687605-v"], [3, "oewn-02540350-a"], [5, "oewn-02559590-s"], [7, "oewn-01130619-v"], [10, "oewn-01505702-n"]]
+    oewn_key: [[1, "oewn-02687605-v"], [3, "oewn-02540350-a"], [5, "oewn-02559590-s"], [7, "oewn-01130619-v"], [10, "oewn-01505702-n"]]
     paragraph: '6'
     pos: ["DT", "VBZ", "PRP", "JJ", "CC", "JJ", "CC", "VBZ", "PRP", "IN", "NNS", "."]
     text: ' This keeps it cool and moist and protects it from birds.'
@@ -288,7 +288,7 @@ Gfl6:
     wn30_key: [[1, "keep%2:42:00::"], [3, "cool%3:00:01::"], [5, "moist%3:00:00:wet:01"], [7, "protect%2:33:00::"], [10, "bird%1:05:00::"]]
 OQFj:
     lemmas: ["ant", "carry_away", "the", "seed", "so", "good", "be", "sure", "that", "there", "be", "no", "ant", "hill", "nearby", "."]
-    oewn2026_key: [[0, "oewn-02222138-n"], [1, "oewn-01436911-v"], [3, "oewn-13156591-n"], [6, "oewn-02610777-v"], [7, "oewn-00310538-s"], [10, "oewn-02610777-v"], [12, "oewn-02222138-n"], [13, "oewn-09325914-n"], [14, "oewn-00071721-r"]]
+    oewn_key: [[0, "oewn-02222138-n"], [1, "oewn-01436911-v"], [3, "oewn-13156591-n"], [6, "oewn-02610777-v"], [7, "oewn-00310538-s"], [10, "oewn-02610777-v"], [12, "oewn-02222138-n"], [13, "oewn-09325914-n"], [14, "oewn-00071721-r"]]
     paragraph: '6'
     pos: ["NNS", "VBP", "DT", "NNS", "RB", "JJR", "VB", "JJ", "IN", "EX", "VBP", "DT", "NN", "NNS", "RB", "."]
     text: ' Ants carry_away the seeds so better be sure that there are no ant hills nearby.
@@ -299,7 +299,7 @@ OQFj:
     wn30_key: [[0, "ant%1:05:00::"], [1, "carry_away%2:35:00::"], [3, "seed%1:20:00::"], [6, "be%2:42:03::"], [7, "sure%3:00:00:careful:00"], [10, "be%2:42:04::"], [12, "ant%1:05:00::"], [13, "hill%1:17:00::"], [14, "nearby%4:02:00::"]]
 mSyX:
     lemmas: ["When", "the", "first", "sprinkling", "of", "green", "appear", "I", "remove", "the", "board", "."]
-    oewn2026_key: [[2, "oewn-01014459-a"], [3, "oewn-13784106-n"], [5, "oewn-04974368-n"], [6, "oewn-00423043-v"], [8, "oewn-00173351-v"], [10, "oewn-15126421-n"]]
+    oewn_key: [[2, "oewn-01014459-a"], [3, "oewn-13784106-n"], [5, "oewn-04974368-n"], [6, "oewn-00423043-v"], [8, "oewn-00173351-v"], [10, "oewn-15126421-n"]]
     paragraph: '7'
     pos: ["WRB", "DT", "JJ", "NN", "IN", "NN", "VBZ", "PRP", "VB", "DT", "NN", "."]
     text: ' When the first sprinkling of green appears I remove the board.'
@@ -308,7 +308,7 @@ mSyX:
     wn30_key: [[2, "first%3:00:00::"], [3, "sprinkling%1:23:00::"], [5, "green%1:07:00::"], [6, "appear%2:30:00::"], [8, "remove%2:30:00::"], [10, "board%1:27:00::"]]
 ZLId:
     lemmas: ["A", "light", ",", "porous", "mulch", "apply", "now", "keep", "the", "root", "cool", "and", "the", "soil", "soft", "during", "these", "early", "day", "of", "growth", "."]
-    oewn2026_key: [[1, "oewn-00505439-s"], [3, "oewn-01776850-s"], [4, "oewn-03803418-n"], [5, "oewn-01366351-v"], [6, "oewn-00049971-r"], [7, "oewn-02687605-v"], [9, "oewn-13145876-n"], [10, "oewn-02540350-a"], [13, "oewn-14868863-n"], [14, "oewn-01156249-a"], [17, "oewn-00816521-a"], [18, "oewn-15182185-n"], [20, "oewn-13510240-n"]]
+    oewn_key: [[1, "oewn-00505439-s"], [3, "oewn-01776850-s"], [4, "oewn-03803418-n"], [5, "oewn-01366351-v"], [6, "oewn-00049971-r"], [7, "oewn-02687605-v"], [9, "oewn-13145876-n"], [10, "oewn-02540350-a"], [13, "oewn-14868863-n"], [14, "oewn-01156249-a"], [17, "oewn-00816521-a"], [18, "oewn-15182185-n"], [20, "oewn-13510240-n"]]
     paragraph: '7'
     pos: ["DT", "JJ", ",", "JJ", "NN", "VBD", "RB", "VBZ", "DT", "NNS", "JJ", "CC", "DT", "NN", "JJ", "IN", "DT", "JJ", "NNS", "IN", "NN", "."]
     text: ' A light, porous mulch applied now keeps the roots cool and the soil soft during
@@ -318,7 +318,7 @@ ZLId:
     wn30_key: [[1, "light%3:00:00:loose:02"], [3, "porous%3:00:00:permeable:00"], [4, "mulch%1:06:00::"], [5, "apply%2:35:00::"], [6, "now%4:02:05::"], [7, "keep%2:42:00::"], [9, "root%1:20:00::"], [10, "cool%3:00:01::"], [13, "soil%1:27:01::"], [14, "soft%3:00:01::"], [17, "early%3:00:00::"], [18, "day%1:28:01::"], [20, "growth%1:22:00::"]]
 +gYM:
     lemmas: ["I", "like", "sawdust", "for", "this", ",", "or", "hay", "."]
-    oewn2026_key: [[1, "oewn-01781131-v"], [2, "oewn-15044674-n"], [7, "oewn-07818002-n"]]
+    oewn_key: [[1, "oewn-01781131-v"], [2, "oewn-15044674-n"], [7, "oewn-07818002-n"]]
     paragraph: '7'
     pos: ["PRP", "VBP", "NN", "IN", "DT", ",", "CC", "NN", "."]
     text: ' I like sawdust for this, or hay.
@@ -329,7 +329,7 @@ ZLId:
     wn30_key: [[1, "like%2:37:05::"], [2, "sawdust%1:27:00::"], [7, "hay%1:13:00::"]]
 szuk:
     lemmas: ["When", "they", "have", "4", "to", "6", "leaf", "and", "be", "thrifty", "little", "plant", ",", "it", "be", "time", "to", "set", "them", "out", "where", "they", "be", "to", "remain", "."]
-    oewn2026_key: [[2, "oewn-02636270-v"], [3, "oewn-02194304-s"], [5, "oewn-02194472-s"], [6, "oewn-13173519-n"], [8, "oewn-02610777-v"], [9, "oewn-02429932-a"], [10, "oewn-01394303-a"], [11, "oewn-00017402-n"], [14, "oewn-02622439-v"], [15, "oewn-15270326-n"], [17, "oewn-01570056-v"], [24, "oewn-02733337-v"]]
+    oewn_key: [[2, "oewn-02636270-v"], [3, "oewn-02194304-s"], [5, "oewn-02194472-s"], [6, "oewn-13173519-n"], [8, "oewn-02610777-v"], [9, "oewn-02429932-a"], [10, "oewn-01394303-a"], [11, "oewn-00017402-n"], [14, "oewn-02622439-v"], [15, "oewn-15270326-n"], [17, "oewn-01570056-v"], [24, "oewn-02733337-v"]]
     paragraph: '8'
     pos: ["WRB", "PRP", "VBP", "JJ", "TO", "JJ", "NNS", "CC", "VBP", "JJ", "JJ", "NNS", ",", "PRP", "VBZ", "NN", "TO", "VB", "PRP", "IN", "WRB", "PRP", "VBP", "TO", "VB", "."]
     text: ' When they have 4 to 6 leaves and are thrifty little plants, it''s time to set them
@@ -339,7 +339,7 @@ szuk:
     wn30_key: [[2, "have%2:42:00::"], [3, "4%3:00:00:cardinal:00"], [5, "6%3:00:00:cardinal:00"], [6, "leaf%1:20:00::"], [8, "be%2:42:03::"], [9, "thrifty%3:00:00::"], [10, "little%3:00:01::"], [11, "plant%1:03:00::"], [14, "be%2:42:06::"], [15, "time%1:28:06::"], [17, "set%2:35:09::"], [24, "remain%2:42:03::"]]
 QFbz:
     lemmas: ["Every", "time", "you", "transplant", "a", "pansy", "you", "cause", "its", "flower", "to", "become", "smaller", "."]
-    oewn2026_key: [[1, "oewn-07324217-n"], [3, "oewn-01859141-v"], [5, "oewn-12411002-n"], [7, "oewn-00772482-v"], [9, "oewn-11690372-n"], [11, "oewn-00149403-v"], [12, "oewn-01397927-s"]]
+    oewn_key: [[1, "oewn-07324217-n"], [3, "oewn-01859141-v"], [5, "oewn-12411002-n"], [7, "oewn-00772482-v"], [9, "oewn-11690372-n"], [11, "oewn-00149403-v"], [12, "oewn-01397927-s"]]
     paragraph: '8'
     pos: ["DT", "NN", "PRP", "VBP", "DT", "NN", "PRP", "VBP", "PRP$", "NNS", "TO", "VB", "JJR", "."]
     text: ' Every time you transplant a pansy you cause its flowers to become smaller.'
@@ -348,7 +348,7 @@ QFbz:
     wn30_key: [[1, "time%1:11:00::"], [3, "transplant%2:38:00::"], [5, "pansy%1:20:01::"], [7, "cause%2:32:00::"], [9, "flower%1:20:00::"], [11, "become%2:30:00::"], [12, "smaller%3:00:00:small:00"]]
 Ix3U:
     lemmas: ["The", "moral", "be", ":", "do", "n't", "transplant", "it", "any", "oftener", "than", "you", "must", "."]
-    oewn2026_key: [[1, "oewn-06618397-n"], [2, "oewn-02622439-v"], [6, "oewn-01859141-v"]]
+    oewn_key: [[1, "oewn-06618397-n"], [2, "oewn-02622439-v"], [6, "oewn-01859141-v"]]
     paragraph: '8'
     pos: ["DT", "NN", "VBZ", ":", "VBP", "RB", "VB", "PRP", "DT", "RBR", "IN", "PRP", "MD", "."]
     text: ' The moral is: don''t transplant it any oftener than you must.'
@@ -357,7 +357,7 @@ Ix3U:
     wn30_key: [[1, "moral%1:10:00::"], [2, "be%2:42:06::"], [6, "transplant%2:38:00::"]]
 HCvx:
     lemmas: ["As_soon_as", "they", "be", "large", "enough", "to", "move", ",", "I", "put", "mine", "9", "inch", "apart", "where", "they", "be", "to", "bloom", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"], [3, "oewn-01385012-a"], [4, "oewn-00146749-r"], [6, "oewn-01854282-v"], [9, "oewn-01496967-v"], [11, "oewn-02194800-s"], [12, "oewn-13735405-n"], [13, "oewn-00182561-r"], [18, "oewn-00295007-v"]]
+    oewn_key: [[2, "oewn-02610777-v"], [3, "oewn-01385012-a"], [4, "oewn-00146749-r"], [6, "oewn-01854282-v"], [9, "oewn-01496967-v"], [11, "oewn-02194800-s"], [12, "oewn-13735405-n"], [13, "oewn-00182561-r"], [18, "oewn-00295007-v"]]
     paragraph: '8'
     pos: ["IN", "PRP", "VBP", "JJ", "RB", "TO", "VB", ",", "PRP", "VBD", "NN", "JJ", "NNS", "RB", "WRB", "PRP", "VBP", "TO", "VB", "."]
     text: ' As_soon_as they are large enough to move, I put mine 9 inches apart where they are
@@ -367,7 +367,7 @@ HCvx:
     wn30_key: [[2, "be%2:42:03::"], [3, "large%3:00:00::"], [4, "enough%4:02:00::"], [6, "move%2:38:01::"], [9, "put%2:35:00::"], [11, "9%3:00:00:cardinal:00"], [12, "inch%1:23:02::"], [13, "apart%4:02:03::"], [18, "bloom%2:30:00::"]]
 QE7P:
     lemmas: ["I", "put", "a", "little", "scoop", "of", "pulverized", "phosphate", "rock", "or", "steamed", "bonemeal", "into", "each", "hole", "with", "the", "plant", "."]
-    oewn2026_key: [[1, "oewn-01496967-v"], [3, "oewn-01394303-a"], [4, "oewn-13791457-n"], [6, "oewn-02241135-s"], [7, "oewn-15006824-n"], [8, "oewn-09438954-n"], [10, "oewn-00621563-s"], [11, "oewn-14806992-n"], [14, "oewn-09327371-n"], [17, "oewn-00017402-n"]]
+    oewn_key: [[1, "oewn-01496967-v"], [3, "oewn-01394303-a"], [4, "oewn-13791457-n"], [6, "oewn-02241135-s"], [7, "oewn-15006824-n"], [8, "oewn-09438954-n"], [10, "oewn-00621563-s"], [11, "oewn-14806992-n"], [14, "oewn-09327371-n"], [17, "oewn-00017402-n"]]
     paragraph: '8'
     pos: ["PRP", "VBD", "RB", "JJ", "NN", "IN", "JJ", "NN", "NN", "CC", "JJ", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "."]
     text: ' I put a little scoop of pulverized phosphate rock or steamed bone_meal into each
@@ -377,7 +377,7 @@ QE7P:
     wn30_key: [[1, "put%2:35:00::"], [3, "little%3:00:01::"], [4, "scoop%1:23:00::"], [6, "pulverized%3:00:00:fine:00"], [7, "phosphate%1:27:00::"], [8, "rock%1:17:01::"], [10, "steamed%3:00:00:cooked:00"], [11, "bonemeal%1:27:00::"], [14, "hole%1:17:01::"], [17, "plant%1:03:00::"]]
 Jw5E:
     lemmas: ["That", "encourage", "rooting", ",", "and", "the", "better", "developed", "the", "root", ",", "the", "large", "and", "more", "plentiful", "the", "flower", "."]
-    oewn2026_key: [[1, "oewn-02560630-v"], [2, "oewn-13573327-n"], [6, "oewn-00060145-r"], [7, "oewn-00745450-a"], [9, "oewn-13145876-n"], [12, "oewn-01385012-a"], [14, "oewn-00099891-r"], [15, "oewn-00014509-s"], [17, "oewn-11690372-n"]]
+    oewn_key: [[1, "oewn-02560630-v"], [2, "oewn-13573327-n"], [6, "oewn-00060145-r"], [7, "oewn-00745450-a"], [9, "oewn-13145876-n"], [12, "oewn-01385012-a"], [14, "oewn-00099891-r"], [15, "oewn-00014509-s"], [17, "oewn-11690372-n"]]
     paragraph: '8'
     pos: ["DT", "VBZ", "NN", ",", "CC", "DT", "RB", "JJ", "DT", "NNS", ",", "DT", "JJR", "CC", "RBR", "JJ", "DT", "NNS", "."]
     text: ' That encourages rooting, and the better developed the roots, the larger and more
@@ -389,7 +389,7 @@ Jw5E:
     wn30_key: [[1, "encourage%2:41:00::"], [2, "rooting%1:22:00::"], [6, "better%4:02:00::"], [7, "developed%3:00:00::"], [9, "root%1:20:00::"], [12, "large%3:00:00::"], [14, "more%4:02:00::"], [15, "plentiful%3:00:01:abundant:00"], [17, "flower%1:20:00::"]]
 empm:
     lemmas: ["pansy", "be", "glutton", "."]
-    oewn2026_key: [[0, "oewn-12411002-n"], [1, "oewn-02610777-v"], [2, "oewn-10152508-n"]]
+    oewn_key: [[0, "oewn-12411002-n"], [1, "oewn-02610777-v"], [2, "oewn-10152508-n"]]
     paragraph: '9'
     pos: ["NNS", "VBP", "NNS", "."]
     text: ' Pansies are gluttons.'
@@ -398,7 +398,7 @@ empm:
     wn30_key: [[0, "pansy%1:20:01::"], [1, "be%2:42:03::"], [2, "glutton%1:18:00::"]]
 NjFm:
     lemmas: ["I", "doubt", "if", "it", "be", "possible", "to", "overfeed", "them", "."]
-    oewn2026_key: [[1, "oewn-00689196-v"], [4, "oewn-02610777-v"], [5, "oewn-01826770-a"], [7, "oewn-01181827-v"]]
+    oewn_key: [[1, "oewn-00689196-v"], [4, "oewn-02610777-v"], [5, "oewn-01826770-a"], [7, "oewn-01181827-v"]]
     paragraph: '9'
     pos: ["PRP", "VBP", "IN", "PRP", "VBZ", "JJ", "TO", "VB", "PRP", "."]
     text: ' I doubt if it is possible to overfeed them.'
@@ -407,7 +407,7 @@ NjFm:
     wn30_key: [[1, "doubt%2:31:00::"], [4, "be%2:42:03::"], [5, "possible%3:00:00::"], [7, "overfeed%2:34:00::"]]
 3zV+:
     lemmas: ["I", "spade", "lot", "of", "compost", "into", "their", "bed", ";", "lack", "that", ",", "decayed", "manure", "spread_over", "the", "bed", "be", "fine", "."]
-    oewn2026_key: [[1, "oewn-01312909-v"], [2, "oewn-13796604-n"], [4, "oewn-14842271-n"], [7, "oewn-02822609-n"], [9, "oewn-02638434-v"], [12, "oewn-02283641-s"], [13, "oewn-14887672-n"], [14, "oewn-01210571-v"], [16, "oewn-02822609-n"], [17, "oewn-02610777-v"], [18, "oewn-02088253-s"]]
+    oewn_key: [[1, "oewn-01312909-v"], [2, "oewn-13796604-n"], [4, "oewn-14842271-n"], [7, "oewn-02822609-n"], [9, "oewn-02638434-v"], [12, "oewn-02283641-s"], [13, "oewn-14887672-n"], [14, "oewn-01210571-v"], [16, "oewn-02822609-n"], [17, "oewn-02610777-v"], [18, "oewn-02088253-s"]]
     paragraph: '9'
     pos: ["PRP", "VBP", "NNS", "JJ", "NN", "IN", "PRP$", "NN", ":", "VBG", "RB", ",", "JJ", "NN", "VB", "DT", "NN", "VBZ", "JJ", "."]
     text: ' I spade lots of compost into their bed; lacking that, decayed manure spread_over
@@ -417,7 +417,7 @@ NjFm:
     wn30_key: [[1, "spade%2:35:00::"], [2, "lot%1:23:00::"], [4, "compost%1:27:00::"], [7, "bed%1:06:01::"], [9, "lack%2:42:00::"], [12, "decayed%3:00:00:unsound:01"], [13, "manure%1:27:00::"], [14, "spread_over%2:35:00::"], [16, "bed%1:06:01::"], [17, "be%2:42:03::"], [18, "fine%3:00:00:satisfactory:00"]]
 uzHQ:
     lemmas: ["one", "year", "I", "simply", "set", "the", "plant", "in", "the", "remains", "of", "a", "compost", "pile", ",", "to", "which", "a_little", "sand", "have", "be", "add", ",", "and", "I", "have", "the", "most", "beautiful", "pansy", "in", "my", ",", "or", "any", "of", "my", "neighbor", "'", "experience", "."]
-    oewn2026_key: [[0, "oewn-02193977-s"], [1, "oewn-15228587-n"], [3, "oewn-00005103-r"], [4, "oewn-01570056-v"], [6, "oewn-00017402-n"], [9, "oewn-09430224-n"], [12, "oewn-14842271-n"], [13, "oewn-13271579-n"], [17, "oewn-00034050-r"], [18, "oewn-15043597-n"], [21, "oewn-00182551-v"], [25, "oewn-02208144-v"], [27, "oewn-00112352-r"], [28, "oewn-00219320-a"], [29, "oewn-12411002-n"], [34, "oewn-02275443-s"], [37, "oewn-10372030-n"], [39, "oewn-05993469-n"]]
+    oewn_key: [[0, "oewn-02193977-s"], [1, "oewn-15228587-n"], [3, "oewn-00005103-r"], [4, "oewn-01570056-v"], [6, "oewn-00017402-n"], [9, "oewn-09430224-n"], [12, "oewn-14842271-n"], [13, "oewn-13271579-n"], [17, "oewn-00034050-r"], [18, "oewn-15043597-n"], [21, "oewn-00182551-v"], [25, "oewn-02208144-v"], [27, "oewn-00112352-r"], [28, "oewn-00219320-a"], [29, "oewn-12411002-n"], [34, "oewn-02275443-s"], [37, "oewn-10372030-n"], [39, "oewn-05993469-n"]]
     paragraph: '9'
     pos: ["JJ", "NN", "PRP", "RB", "VBD", "DT", "NNS", "IN", "DT", "NNS", "IN", "DT", "NN", "NN", ",", "RB", "RB", "RB", "NN", "VBD", "VB", "VBN", ",", "CC", "PRP", "VBD", "RB", "RBS", "JJ", "NNS", "IN", "PRP$", ",", "CC", "JJ", "IN", "PRP$", "NNS", "POS", "NN", "."]
     text: ' One year I simply set the plants in the remains of a compost pile, to which a_little
@@ -428,7 +428,7 @@ uzHQ:
     wn30_key: [[0, "one%3:00:00:cardinal:00"], [1, "year%1:28:01::"], [3, "simply%4:02:00::"], [4, "set%2:35:09::"], [6, "plant%1:03:00::"], [9, "remains%1:17:00::"], [12, "compost%1:27:00::"], [13, "pile%1:21:00::"], [17, "a_little%4:02:00::"], [18, "sand%1:27:00::"], [21, "add%2:30:00::"], [25, "have%2:40:00::"], [27, "most%4:02:00::"], [28, "beautiful%3:00:00::"], [29, "pansy%1:20:01::"], [34, "any%3:00:00:some:00"], [37, "neighbor%1:18:00::"], [39, "experience%1:09:00::"]]
 d1wz:
     lemmas: ["in_addition", "to", "the", "rich", "soil", "they", "benefit", "by", "feeding", "of", "manure", "water", "every_other", "week", ",", "dilute", "to", "the", "color", "of", "weak", "tea", "."]
-    oewn2026_key: [[3, "oewn-01085028-s"], [4, "oewn-14868863-n"], [6, "oewn-02295422-v"], [8, "oewn-00840028-n"], [10, "oewn-14887672-n"], [11, "oewn-14869913-n"], [13, "oewn-15194920-n"], [15, "oewn-00226497-v"], [18, "oewn-04963771-n"], [20, "oewn-00759980-s"], [21, "oewn-07949514-n"]]
+    oewn_key: [[3, "oewn-01085028-s"], [4, "oewn-14868863-n"], [6, "oewn-02295422-v"], [8, "oewn-00840028-n"], [10, "oewn-14887672-n"], [11, "oewn-14869913-n"], [13, "oewn-15194920-n"], [15, "oewn-00226497-v"], [18, "oewn-04963771-n"], [20, "oewn-00759980-s"], [21, "oewn-07949514-n"]]
     paragraph: '9'
     pos: ["RB", "TO", "DT", "JJ", "NN", "PRP", "VBP", "IN", "NNS", "IN", "NN", "NN", "JJ", "NN", ",", "VBN", "TO", "DT", "NN", "IN", "JJ", "NN", "."]
     text: ' In_addition to the rich soil they benefit by feedings of manure water every_other
@@ -438,7 +438,7 @@ d1wz:
     wn30_key: [[3, "rich%3:00:00:fruitful:00"], [4, "soil%1:27:01::"], [6, "benefit%2:40:00::"], [8, "feeding%1:04:00::"], [10, "manure%1:27:00::"], [11, "water%1:27:00::"], [13, "week%1:28:00::"], [15, "dilute%2:30:00::"], [18, "color%1:07:00::"], [20, "weak%3:00:00:diluted:00"], [21, "tea%1:13:00::"]]
 xTl7:
     lemmas: ["As", "a", "substitute", "for", "this", ",", "organic", "fertilizer", "dissolve", "in", "water", "to", "half", "the", "strength", "in", "the", "direction", ",", "may", "be", "use", "."]
-    oewn2026_key: [[2, "oewn-05704390-n"], [6, "oewn-01683714-a"], [7, "oewn-14883495-n"], [8, "oewn-00448264-v"], [10, "oewn-14869913-n"], [12, "oewn-13758939-n"], [14, "oewn-05036872-n"], [17, "oewn-06799486-n"], [21, "oewn-01161188-v"]]
+    oewn_key: [[2, "oewn-05704390-n"], [6, "oewn-01683714-a"], [7, "oewn-14883495-n"], [8, "oewn-00448264-v"], [10, "oewn-14869913-n"], [12, "oewn-13758939-n"], [14, "oewn-05036872-n"], [17, "oewn-06799486-n"], [21, "oewn-01161188-v"]]
     paragraph: '9'
     pos: ["IN", "DT", "NN", "VB", "DT", ",", "JJ", "NN", "VBN", "IN", "NN", "TO", "NN", "DT", "NN", "IN", "DT", "NNS", ",", "MD", "VB", "VBN", "."]
     text: ' As a substitute for this, organic fertilizer dissolved in water to half the strength
@@ -450,7 +450,7 @@ xTl7:
     wn30_key: [[2, "substitute%1:09:00::"], [6, "organic%3:00:01::"], [7, "fertilizer%1:27:00::"], [8, "dissolve%2:30:01::"], [10, "water%1:27:00::"], [12, "half%1:23:00::"], [14, "strength%1:07:00::"], [17, "direction%1:10:02::"], [21, "use%2:34:01::"]]
 woab:
     lemmas: ["They", "need", "mulch", "."]
-    oewn2026_key: [[1, "oewn-01191258-v"], [2, "oewn-03803418-n"]]
+    oewn_key: [[1, "oewn-01191258-v"], [2, "oewn-03803418-n"]]
     paragraph: '10'
     pos: ["PRP", "VBP", "NN", "."]
     text: ' They need mulch.'
@@ -459,7 +459,7 @@ woab:
     wn30_key: [[1, "need%2:34:00::"], [2, "mulch%1:06:00::"]]
 0zJg:
     lemmas: ["We", "put", "a", "light", "mulch", "over", "the", "seedling", ";", "now", "we", "must", "use", "a", "heavy", "one", "."]
-    oewn2026_key: [[1, "oewn-01496967-v"], [3, "oewn-00505439-s"], [4, "oewn-03803418-n"], [7, "oewn-11573045-n"], [9, "oewn-00049013-r"], [12, "oewn-01161188-v"], [14, "oewn-00504399-s"]]
+    oewn_key: [[1, "oewn-01496967-v"], [3, "oewn-00505439-s"], [4, "oewn-03803418-n"], [7, "oewn-11573045-n"], [9, "oewn-00049013-r"], [12, "oewn-01161188-v"], [14, "oewn-00504399-s"]]
     paragraph: '10'
     pos: ["PRP", "VBD", "DT", "JJ", "NN", "IN", "DT", "NNS", ":", "RB", "PRP", "MD", "VB", "DT", "JJ", "CD", "."]
     text: ' We put a light mulch over the seedlings; now we must use a heavy one.'
@@ -468,7 +468,7 @@ woab:
     wn30_key: [[1, "put%2:35:00::"], [3, "light%3:00:00:loose:02"], [4, "mulch%1:06:00::"], [7, "seedling%1:20:00::"], [9, "now%4:02:00::"], [12, "use%2:34:01::"], [14, "heavy%3:00:00:compact:00"]]
 r4Ds:
     lemmas: ["three", "inch", "of", "porous", "material", "will", "do", "a", "good", "job", "of", "keep", "weed", "down", "and", "the", "soil", "moist", "and", "cool", "."]
-    oewn2026_key: [[0, "oewn-02194219-s"], [1, "oewn-13735405-n"], [3, "oewn-01776850-s"], [4, "oewn-14604877-n"], [6, "oewn-02566500-v"], [8, "oewn-01126910-a"], [9, "oewn-00720957-n"], [11, "oewn-02687605-v"], [12, "oewn-13105873-n"], [13, "oewn-00095870-r"], [16, "oewn-14868863-n"], [17, "oewn-02559590-s"], [19, "oewn-02540350-a"]]
+    oewn_key: [[0, "oewn-02194219-s"], [1, "oewn-13735405-n"], [3, "oewn-01776850-s"], [4, "oewn-14604877-n"], [6, "oewn-02566500-v"], [8, "oewn-01126910-a"], [9, "oewn-00720957-n"], [11, "oewn-02687605-v"], [12, "oewn-13105873-n"], [13, "oewn-00095870-r"], [16, "oewn-14868863-n"], [17, "oewn-02559590-s"], [19, "oewn-02540350-a"]]
     paragraph: '10'
     pos: ["JJ", "NNS", "IN", "JJ", "NN", "MD", "VB", "DT", "JJ", "NN", "IN", "VBG", "NNS", "RB", "CC", "DT", "NN", "JJ", "CC", "JJ", "."]
     text: ' Three inches of porous material will do a good job of keeping weeds down and the
@@ -480,7 +480,7 @@ r4Ds:
     wn30_key: [[0, "three%3:00:00:cardinal:00"], [1, "inch%1:23:02::"], [3, "porous%3:00:00:permeable:00"], [4, "material%1:27:00::"], [6, "do%2:41:01::"], [8, "good%3:00:01::"], [9, "job%1:04:01::"], [11, "keep%2:42:00::"], [12, "weed%1:20:00::"], [13, "down%4:02:00::"], [16, "soil%1:27:01::"], [17, "moist%3:00:00:wet:01"], [19, "cool%3:00:01::"]]
 0W9+:
     lemmas: ["When", "winter", "come", "be", "ready", "with", "additional", "mulch", "."]
-    oewn2026_key: [[1, "oewn-15262579-n"], [2, "oewn-00342572-v"], [3, "oewn-02610777-v"], [4, "oewn-01936911-a"], [6, "oewn-00049078-s"], [7, "oewn-03803418-n"]]
+    oewn_key: [[1, "oewn-15262579-n"], [2, "oewn-00342572-v"], [3, "oewn-02610777-v"], [4, "oewn-01936911-a"], [6, "oewn-00049078-s"], [7, "oewn-03803418-n"]]
     paragraph: '11'
     pos: ["WRB", "NN", "VBZ", "VB", "JJ", "IN", "JJ", "NN", "."]
     text: ' When winter comes be ready with additional mulch.'
@@ -489,7 +489,7 @@ r4Ds:
     wn30_key: [[1, "winter%1:28:00::"], [2, "come%2:30:01::"], [3, "be%2:42:03::"], [4, "ready%3:00:00::"], [6, "additional%3:00:03:additive:00"], [7, "mulch%1:06:00::"]]
 EQDV:
     lemmas: ["I", "like", "hay", "for", "this", "and", "apply", "it", "so_that", "only", "the", "top", "of", "the", "plant", "show", "right", "after", "a", "good", "frost", "."]
-    oewn2026_key: [[1, "oewn-01781131-v"], [2, "oewn-07818002-n"], [6, "oewn-01366351-v"], [9, "oewn-00009062-r"], [11, "oewn-08681598-n"], [14, "oewn-00017402-n"], [15, "oewn-02144017-v"], [16, "oewn-00105849-r"], [19, "oewn-01126910-a"], [20, "oewn-11460617-n"]]
+    oewn_key: [[1, "oewn-01781131-v"], [2, "oewn-07818002-n"], [6, "oewn-01366351-v"], [9, "oewn-00009062-r"], [11, "oewn-08681598-n"], [14, "oewn-00017402-n"], [15, "oewn-02144017-v"], [16, "oewn-00105849-r"], [19, "oewn-01126910-a"], [20, "oewn-11460617-n"]]
     paragraph: '11'
     pos: ["PRP", "VBP", "NN", "IN", "DT", "CC", "VB", "PRP", "RB", "RB", "DT", "NNS", "IN", "DT", "NNS", "VBP", "RB", "IN", "DT", "JJ", "NN", "."]
     text: ' I like hay for this and apply it so_that only the tops of the plants show right
@@ -499,7 +499,7 @@ EQDV:
     wn30_key: [[1, "like%2:37:05::"], [2, "hay%1:13:00::"], [6, "apply%2:35:00::"], [9, "only%4:02:01::"], [11, "top%1:15:01::"], [14, "plant%1:03:00::"], [15, "show%2:39:01::"], [16, "right%4:02:08::"], [19, "good%3:00:01::"], [20, "frost%1:19:00::"]]
 /kYH:
     lemmas: ["That", "keep_in", "the", "cold", ",", "retain", "moisture", "and", "prevent", "the", "heave", "of", "alternate", "freezing", "and", "thawing", "."]
-    oewn2026_key: [[1, "oewn-02502037-v"], [3, "oewn-05022301-n"], [5, "oewn-02288169-v"], [6, "oewn-14559033-n"], [8, "oewn-02458316-v"], [10, "oewn-02045051-v"], [12, "oewn-00679196-s"], [13, "oewn-13505847-n"], [15, "oewn-13587738-n"]]
+    oewn_key: [[1, "oewn-02502037-v"], [3, "oewn-05022301-n"], [5, "oewn-02288169-v"], [6, "oewn-14559033-n"], [8, "oewn-02458316-v"], [10, "oewn-02045051-v"], [12, "oewn-00679196-s"], [13, "oewn-13505847-n"], [15, "oewn-13587738-n"]]
     paragraph: '11'
     pos: ["DT", "VB", "DT", "NN", ",", "VBZ", "NN", "CC", "VBZ", "DT", "VB", "IN", "JJ", "NN", "CC", "NN", "."]
     text: ' That keeps_in the cold, retains moisture and prevents the heaving of alternate freezing
@@ -511,7 +511,7 @@ EQDV:
     wn30_key: [[1, "keep_in%2:41:00::"], [3, "cold%1:07:00::"], [5, "retain%2:40:00::"], [6, "moisture%1:26:00::"], [8, "prevent%2:41:01::"], [10, "heave%2:38:00::"], [12, "alternate%3:00:01:cyclic:01"], [13, "freezing%1:22:00::"], [15, "thawing%1:22:00::"]]
 ynhA:
     lemmas: ["do", "n't", "miss", "the", "pansy", "that", "appear", "from_time_to_time", "through", "the", "winter", "."]
-    oewn2026_key: [[2, "oewn-02132318-v"], [4, "oewn-12411002-n"], [6, "oewn-00423043-v"], [7, "oewn-00021667-r"], [10, "oewn-15262579-n"]]
+    oewn_key: [[2, "oewn-02132318-v"], [4, "oewn-12411002-n"], [6, "oewn-00423043-v"], [7, "oewn-00021667-r"], [10, "oewn-15262579-n"]]
     paragraph: '12'
     pos: ["VBP", "RB", "VB", "DT", "NNS", "WDT", "VBP", "RB", "IN", "DT", "NN", "."]
     text: ' Don''t miss the pansies that appear from_time_to_time through the winter.'
@@ -520,7 +520,7 @@ ynhA:
     wn30_key: [[2, "miss%2:39:00::"], [4, "pansy%1:20:01::"], [6, "appear%2:30:00::"], [7, "from_time_to_time%4:02:00::"], [10, "winter%1:28:00::"]]
 ibsv:
     lemmas: ["Whenever", "there", "be", "a", "thaw", "or", "a_few", "sunny", "day", ",", "you", "'ll", "be", "likely", "to", "find", "a", "brave", "little", "blossom", "or", "two", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"], [4, "oewn-13587738-n"], [6, "oewn-01557697-s"], [8, "oewn-15182185-n"], [12, "oewn-02610777-v"], [13, "oewn-01414308-a"], [15, "oewn-02253273-v"], [17, "oewn-00250985-s"], [18, "oewn-01394303-a"], [19, "oewn-11689786-n"], [21, "oewn-02194109-s"]]
+    oewn_key: [[2, "oewn-02610777-v"], [4, "oewn-13587738-n"], [6, "oewn-01557697-s"], [8, "oewn-15182185-n"], [12, "oewn-02610777-v"], [13, "oewn-01414308-a"], [15, "oewn-02253273-v"], [17, "oewn-00250985-s"], [18, "oewn-01394303-a"], [19, "oewn-11689786-n"], [21, "oewn-02194109-s"]]
     paragraph: '12'
     pos: ["WRB", "EX", "VBZ", "DT", "NN", "CC", "JJ", "JJ", "NNS", ",", "PRP", "MD", "VB", "JJ", "TO", "VB", "DT", "JJ", "JJ", "NN", "CC", "JJ", "."]
     text: ' Whenever there is a thaw or a_few sunny days, you''ll be likely to find a brave
@@ -530,7 +530,7 @@ ibsv:
     wn30_key: [[2, "be%2:42:04::"], [4, "thaw%1:22:00::"], [6, "a_few%3:00:00:few:00"], [8, "day%1:28:01::"], [12, "be%2:42:03::"], [13, "likely%3:00:00::"], [15, "find%2:40:02::"], [17, "brave%3:00:00:bold:00"], [18, "little%3:00:01::"], [19, "blossom%1:20:00::"], [21, "two%3:00:00:cardinal:00"]]
 GTH+:
     lemmas: ["If", "those", "be", "n't", "enough", "for", "you", ",", "why", "not", "grow", "some", "just", "for", "winter", "blooming", "?"]
-    oewn2026_key: [[2, "oewn-02610777-v"], [4, "oewn-00146749-r"], [9, "oewn-00024432-r"], [10, "oewn-00246343-v"], [12, "oewn-00005103-r"], [14, "oewn-15262579-n"], [15, "oewn-13460563-n"]]
+    oewn_key: [[2, "oewn-02610777-v"], [4, "oewn-00146749-r"], [9, "oewn-00024432-r"], [10, "oewn-00246343-v"], [12, "oewn-00005103-r"], [14, "oewn-15262579-n"], [15, "oewn-13460563-n"]]
     paragraph: '12'
     pos: ["IN", "DT", "VBP", "RB", "RB", "IN", "PRP", ",", "WRB", "RB", "VB", "DT", "RB", "IN", "NN", "NN", "."]
     text: ' If those aren''t enough for you, why not grow some just for winter blooming?'
@@ -539,7 +539,7 @@ GTH+:
     wn30_key: [[2, "be%2:42:03::"], [4, "enough%4:02:00::"], [9, "not%4:02:00::"], [10, "grow%2:30:01::"], [12, "just%4:02:00::"], [14, "winter%1:28:00::"], [15, "blooming%1:22:00::"]]
 gAdi:
     lemmas: ["The", "pansy", "I", "cherish", "most", "bloom", "for", "me", "in", "february", "during", "a", "particularly", "cold", "winter", "."]
-    oewn2026_key: [[1, "oewn-12411002-n"], [3, "oewn-01780135-v"], [5, "oewn-00295007-v"], [9, "oewn-15235282-n"], [12, "oewn-00084573-r"], [13, "oewn-01254201-a"], [14, "oewn-15262579-n"]]
+    oewn_key: [[1, "oewn-12411002-n"], [3, "oewn-01780135-v"], [5, "oewn-00295007-v"], [9, "oewn-15235282-n"], [12, "oewn-00084573-r"], [13, "oewn-01254201-a"], [14, "oewn-15262579-n"]]
     paragraph: '12'
     pos: ["DT", "NNS", "PRP", "VBD", "NN", "VB", "IN", "PRP", "IN", "NNP", "IN", "DT", "RB", "JJ", "NN", "."]
     text: ' The pansies I cherished most bloomed for me in February during a particularly cold
@@ -549,7 +549,7 @@ gAdi:
     wn30_key: [[1, "pansy%1:20:01::"], [3, "cherish%2:37:00::"], [5, "bloom%2:30:00::"], [9, "february%1:28:00::"], [12, "particularly%4:02:00::"], [13, "cold%3:00:01::"], [14, "winter%1:28:00::"]]
 v2pL:
     lemmas: ["I", "start", "the", "seed", "in", "a", "flat", "in", "june", "and", "set_out", "the", "little", "pansy", "in", "a", "cold_frame", "."]
-    oewn2026_key: [[1, "oewn-01631641-v"], [3, "oewn-13156591-n"], [6, "oewn-03364884-n"], [8, "oewn-15236602-n"], [10, "oewn-01476839-v"], [12, "oewn-01653473-s"], [13, "oewn-12411002-n"], [16, "oewn-03071522-n"]]
+    oewn_key: [[1, "oewn-01631641-v"], [3, "oewn-13156591-n"], [6, "oewn-03364884-n"], [8, "oewn-15236602-n"], [10, "oewn-01476839-v"], [12, "oewn-01653473-s"], [13, "oewn-12411002-n"], [16, "oewn-03071522-n"]]
     paragraph: '12'
     pos: ["PRP", "VBD", "DT", "NN", "IN", "DT", "NN", "IN", "NNP", "CC", "VB", "DT", "JJ", "NNS", "IN", "DT", "NN", "."]
     text: ' I started the seed in a flat in June and set_out the little pansies in a cold_frame.'
@@ -558,7 +558,7 @@ v2pL:
     wn30_key: [[1, "start%2:36:00::"], [3, "seed%1:20:00::"], [6, "flat%1:06:04::"], [8, "june%1:28:00::"], [10, "set_out%2:35:00::"], [12, "little%3:00:00:young:00"], [13, "pansy%1:20:01::"], [16, "cold_frame%1:06:00::"]]
 gUeZ:
     lemmas: ["(", "An", "unheated", "greenhouse", "would", "have", "be", "better", ",", "if", "I", "have", "have", "one", ".", ")"]
-    oewn2026_key: [[2, "oewn-01257368-s"], [3, "oewn-03462844-n"], [6, "oewn-02610777-v"], [7, "oewn-00231927-a"], [12, "oewn-02208144-v"]]
+    oewn_key: [[2, "oewn-01257368-s"], [3, "oewn-03462844-n"], [6, "oewn-02610777-v"], [7, "oewn-00231927-a"], [12, "oewn-02208144-v"]]
     paragraph: '12'
     pos: ["VB", "DT", "JJ", "NN", "MD", "VB", "VBN", "JJR", ",", "IN", "PRP", "VBD", "VBN", "CD", ".", "NN"]
     text: ' (An unheated greenhouse would have been better, if I had had one.)'
@@ -567,7 +567,7 @@ gUeZ:
     wn30_key: [[2, "unheated%3:00:00:cold:01"], [3, "greenhouse%1:06:00::"], [6, "be%2:42:03::"], [7, "better%3:00:00::"], [12, "have%2:40:00::"]]
 q/it:
     lemmas: ["The", "plant", "take", "zero", "night", "in_stride", "their", "stride", ",", "with", "nothing", "but", "a", "mat", "of", "straw", "over", "the", "glass", "to", "protect", "them", "."]
-    oewn2026_key: [[1, "oewn-00017402-n"], [2, "oewn-00671680-v"], [3, "oewn-02193771-s"], [4, "oewn-15192074-n"], [5, "oewn-00238273-r"], [10, "oewn-13762308-n"], [13, "oewn-03733328-n"], [15, "oewn-14984078-n"], [18, "oewn-14905454-n"], [20, "oewn-01130619-v"]]
+    oewn_key: [[1, "oewn-00017402-n"], [2, "oewn-00671680-v"], [3, "oewn-02193771-s"], [4, "oewn-15192074-n"], [5, "oewn-00238273-r"], [10, "oewn-13762308-n"], [13, "oewn-03733328-n"], [15, "oewn-14984078-n"], [18, "oewn-14905454-n"], [20, "oewn-01130619-v"]]
     paragraph: '12'
     pos: ["DT", "NNS", "VBD", "JJ", "NNS", "RB", "PRP$", "NN", ",", "IN", "NN", "CC", "DT", "NN", "IN", "NN", "IN", "DT", "NN", "TO", "VB", "PRP", "."]
     text: ' The plants took zero nights in their stride, with nothing but a mat of straw over
@@ -577,7 +577,7 @@ q/it:
     wn30_key: [[1, "plant%1:03:00::"], [2, "take%2:31:09::"], [3, "zero%3:00:00:cardinal:00"], [4, "night%1:28:00::"], [5, "in_stride%4:02:00::"], [10, "nothing%1:23:00::"], [13, "mat%1:06:00::"], [15, "straw%1:27:00::"], [18, "glass%1:27:00::"], [20, "protect%2:33:00::"]]
 RvrZ:
     lemmas: ["In", "response", "to", "the", "lengthening", "day", "of", "february", "they", "bud", ",", "then", "bloom", "their", "4", "-", "inch", "velvety", "flower", "."]
-    oewn2026_key: [[1, "oewn-11437102-n"], [5, "oewn-15190004-n"], [7, "oewn-15235282-n"], [9, "oewn-00346306-v"], [11, "oewn-00118527-r"], [12, "oewn-00295007-v"], [14, "oewn-02194304-s"], [16, "oewn-13735405-n"], [17, "oewn-02246054-s"], [18, "oewn-11690372-n"]]
+    oewn_key: [[1, "oewn-11437102-n"], [5, "oewn-15190004-n"], [7, "oewn-15235282-n"], [9, "oewn-00346306-v"], [11, "oewn-00118527-r"], [12, "oewn-00295007-v"], [14, "oewn-02194304-s"], [16, "oewn-13735405-n"], [17, "oewn-02246054-s"], [18, "oewn-11690372-n"]]
     paragraph: '12'
     pos: ["IN", "NN", "TO", "DT", "JJ", "NNS", "IN", "NNP", "PRP", "VBD", ",", "RB", "VBD", "PRP$", "JJ", ":", "NN", "JJ", "NNS", "."]
     text: ' In response to the lengthening days of February they budded, then bloomed their
@@ -587,7 +587,7 @@ RvrZ:
     wn30_key: [[1, "response%1:19:00::"], [5, "day%1:28:02::"], [7, "february%1:28:00::"], [9, "bud%2:30:02::"], [11, "then%4:02:00::"], [12, "bloom%2:30:00::"], [14, "4%3:00:00:cardinal:00"], [16, "inch%1:23:02::"], [17, "velvety%3:00:00:smooth:00"], [18, "flower%1:20:00::"]]
 +RQ/:
     lemmas: ["That", "cold_frame", "be", "my", "morale_builder", ";", "its", "mass", "of", "bright", "bloom", "set", "in", "a", "border", "of", "snow", "make", "my", "spirit", "rise", "every", "time", "I", "look", "at", "it", "."]
-    oewn2026_key: [[1, "oewn-03071522-n"], [2, "oewn-02622439-v"], [4, "oewn-05701502-n"], [7, "oewn-13796604-n"], [9, "oewn-00403922-s"], [10, "oewn-11689786-n"], [11, "oewn-01610349-v"], [14, "oewn-08583230-n"], [16, "oewn-15068330-n"], [17, "oewn-00772482-v"], [19, "oewn-14009303-n"], [20, "oewn-01822083-v"], [22, "oewn-07324217-n"], [24, "oewn-02134989-v"]]
+    oewn_key: [[1, "oewn-03071522-n"], [2, "oewn-02622439-v"], [4, "oewn-05701502-n"], [7, "oewn-13796604-n"], [9, "oewn-00403922-s"], [10, "oewn-11689786-n"], [11, "oewn-01610349-v"], [14, "oewn-08583230-n"], [16, "oewn-15068330-n"], [17, "oewn-00772482-v"], [19, "oewn-14009303-n"], [20, "oewn-01822083-v"], [22, "oewn-07324217-n"], [24, "oewn-02134989-v"]]
     paragraph: '12'
     pos: ["DT", "NN", "VBD", "PRP$", "NN", ":", "PRP$", "NN", "IN", "JJ", "NN", "VBN", "VB", "DT", "NN", "IN", "NN", "VBD", "PRP$", "NNS", "VBP", "DT", "NN", "PRP", "VBD", "VB", "PRP", "."]
     text: ' That cold_frame was my morale_builder; its mass of bright bloom set in a border
@@ -597,7 +597,7 @@ RvrZ:
     wn30_key: [[1, "cold_frame%1:06:00::"], [2, "be%2:42:06::"], [4, "morale_builder%1:09:00::"], [7, "mass%1:23:00::"], [9, "bright%3:00:00:colorful:00"], [10, "bloom%1:20:00::"], [11, "set%2:35:02::"], [14, "border%1:15:01::"], [16, "snow%1:27:00::"], [17, "make%2:32:00::"], [19, "spirit%1:26:01::"], [20, "rise%2:37:00::"], [22, "time%1:11:00::"], [24, "look%2:39:00::"]]
 v1VZ:
     lemmas: ["Like", "strawberry", "in", "december", ",", "pansy", "be", "far", "more", "exciting", "in", "february", "than", "in", "may", "."]
-    oewn2026_key: [[1, "oewn-07761916-n"], [3, "oewn-15238570-n"], [5, "oewn-12411002-n"], [6, "oewn-02610777-v"], [7, "oewn-00101873-r"], [8, "oewn-00099891-r"], [9, "oewn-00924255-a"], [11, "oewn-15235282-n"], [14, "oewn-15236280-n"]]
+    oewn_key: [[1, "oewn-07761916-n"], [3, "oewn-15238570-n"], [5, "oewn-12411002-n"], [6, "oewn-02610777-v"], [7, "oewn-00101873-r"], [8, "oewn-00099891-r"], [9, "oewn-00924255-a"], [11, "oewn-15235282-n"], [14, "oewn-15236280-n"]]
     paragraph: '12'
     pos: ["IN", "NNS", "IN", "NNP", ",", "NNS", "VBP", "RB", "RBR", "JJ", "IN", "NNP", "IN", "IN", "NNP", "."]
     text: ' Like strawberries in December, pansies are far more exciting in February than in
@@ -607,7 +607,7 @@ v1VZ:
     wn30_key: [[1, "strawberry%1:13:00::"], [3, "december%1:28:00::"], [5, "pansy%1:20:01::"], [6, "be%2:42:03::"], [7, "far%4:02:02::"], [8, "more%4:02:00::"], [9, "exciting%3:00:00::"], [11, "february%1:28:00::"], [14, "may%1:28:00::"]]
 NKq/:
     lemmas: ["try", "that", "late", "winter", "pickup", "when", "you", "be", "so", "tired_of", "cold", "and", "snow", "that", "you", "feel", "you", "just", "can't", "take", "another", "day", "of", "it", "."]
-    oewn2026_key: [[0, "oewn-02535833-v"], [2, "oewn-00820050-a"], [3, "oewn-15262579-n"], [4, "oewn-03937015-n"], [7, "oewn-02610777-v"], [8, "oewn-00147630-r"], [9, "oewn-01811926-s"], [10, "oewn-05022301-n"], [12, "oewn-11528800-n"], [15, "oewn-00717144-v"], [17, "oewn-00247755-r"], [19, "oewn-00671680-v"], [21, "oewn-15180180-n"]]
+    oewn_key: [[0, "oewn-02535833-v"], [2, "oewn-00820050-a"], [3, "oewn-15262579-n"], [4, "oewn-03937015-n"], [7, "oewn-02610777-v"], [8, "oewn-00147630-r"], [9, "oewn-01811926-s"], [10, "oewn-05022301-n"], [12, "oewn-11528800-n"], [15, "oewn-00717144-v"], [17, "oewn-00247755-r"], [19, "oewn-00671680-v"], [21, "oewn-15180180-n"]]
     paragraph: '12'
     pos: ["VB", "IN", "JJ", "NN", "NN", "WRB", "PRP", "VBP", "RB", "JJ", "NN", "CC", "NN", "IN", "PRP", "VBP", "PRP", "RB", "MD", "VBP", "DT", "NN", "RB", "RB", "."]
     text: ' Try that late winter pickup when you are so tired_of cold and snow that you feel
@@ -619,7 +619,7 @@ NKq/:
     wn30_key: [[0, "try%2:41:00::"], [2, "late%3:00:00::"], [3, "winter%1:28:00::"], [4, "pickup%1:06:03::"], [7, "be%2:42:03::"], [8, "so%4:02:02::"], [9, "tired_of%3:00:00:displeased:00"], [10, "cold%1:07:00::"], [12, "snow%1:19:00::"], [15, "feel%2:31:00::"], [17, "just%4:02:03::"], [19, "take%2:31:09::"], [21, "day%1:28:00::"]]
 ocKJ:
     lemmas: ["The", "day", "will", "come", ",", "in", "midsummer", ",", "when", "you", "find", "your", "plant", "become", "\"", "leggy", "\"", ",", "run", "to", "tall-growing", "foliage", "at", "the", "expense", "of", "blossom", "."]
-    oewn2026_key: [[1, "oewn-15148032-n"], [3, "oewn-00342572-v"], [6, "oewn-15246808-n"], [10, "oewn-02158938-v"], [12, "oewn-00017402-n"], [13, "oewn-00149403-v"], [15, "oewn-02394570-s"], [18, "oewn-02725274-v"], [20, "oewn-02394570-s"], [21, "oewn-13173519-n"], [24, "oewn-07435271-n"], [26, "oewn-11689786-n"]]
+    oewn_key: [[1, "oewn-15148032-n"], [3, "oewn-00342572-v"], [6, "oewn-15246808-n"], [10, "oewn-02158938-v"], [12, "oewn-00017402-n"], [13, "oewn-00149403-v"], [15, "oewn-02394570-s"], [18, "oewn-02725274-v"], [20, "oewn-02394570-s"], [21, "oewn-13173519-n"], [24, "oewn-07435271-n"], [26, "oewn-11689786-n"]]
     paragraph: '13'
     pos: ["DT", "NN", "MD", "VB", ",", "IN", "NN", ",", "WRB", "PRP", "VBP", "PRP$", "NNS", "VBG", "``", "JJ", "''", ",", "VBG", "TO", "JJ", "NN", "IN", "DT", "NN", "IN", "NNS", "."]
     text: ' The day will come, in midsummer, when you find your plants becoming " leggy ", running
@@ -629,7 +629,7 @@ ocKJ:
     wn30_key: [[1, "day%1:28:03::"], [3, "come%2:30:01::"], [6, "midsummer%1:28:00::"], [10, "find%2:39:02::"], [12, "plant%1:03:00::"], [13, "become%2:30:00::"], [15, "leggy%3:00:02:tall:00"], [18, "run%2:42:01::"], [20, "tall-growing%3:00:00:tall:00"], [21, "foliage%1:20:00::"], [24, "expense%1:11:00::"], [26, "blossom%1:20:00::"]]
 D1Bx:
     lemmas: ["try", "peg_down", "each", "separate", "branch", "to", "the", "earth", ",", "use", "a", "bobby_pin", "to", "hold", "it", "there", "."]
-    oewn2026_key: [[0, "oewn-02535833-v"], [1, "oewn-01342965-v"], [2, "oewn-02277394-s"], [3, "oewn-02116958-a"], [4, "oewn-13184148-n"], [7, "oewn-09357302-n"], [9, "oewn-01161188-v"], [11, "oewn-02863980-n"], [13, "oewn-02687605-v"], [15, "oewn-00109919-r"]]
+    oewn_key: [[0, "oewn-02535833-v"], [1, "oewn-01342965-v"], [2, "oewn-02277394-s"], [3, "oewn-02116958-a"], [4, "oewn-13184148-n"], [7, "oewn-09357302-n"], [9, "oewn-01161188-v"], [11, "oewn-02863980-n"], [13, "oewn-02687605-v"], [15, "oewn-00109919-r"]]
     paragraph: '13'
     pos: ["VB", "VB", "JJ", "JJ", "NN", "TO", "DT", "NN", ",", "VBG", "DT", "NN", "TO", "VB", "PRP", "RB", "."]
     text: ' Try pegging_down each separate branch to the earth, using a bobby_pin to hold it
@@ -639,7 +639,7 @@ D1Bx:
     wn30_key: [[0, "try%2:41:00::"], [1, "peg_down%2:35:00::"], [2, "each%3:00:00:all:00"], [3, "separate%3:00:00::"], [4, "branch%1:20:00::"], [7, "earth%1:17:01::"], [9, "use%2:34:01::"], [11, "bobby_pin%1:06:00::"], [13, "hold%2:42:00::"], [15, "there%4:02:00::"]]
 kiF9:
     lemmas: ["pick", "the", "flower", ",", "keep", "the", "soil", "dampen", ",", "and", "each", "of", "the", "pegged-down", "branch", "will", "take", "root", "and", "become", "a", "little", "plant", "and", "go_on", "bloom", "for", "the", "rest", "of", "the", "season", "."]
-    oewn2026_key: [[0, "oewn-01384737-v"], [2, "oewn-11690372-n"], [4, "oewn-02687605-v"], [6, "oewn-14868863-n"], [7, "oewn-00218382-v"], [13, "oewn-02103363-s"], [14, "oewn-13184148-n"], [17, "oewn-00358789-v"], [19, "oewn-02632685-v"], [21, "oewn-01394303-a"], [22, "oewn-00017402-n"], [24, "oewn-02690747-v"], [25, "oewn-00295007-v"], [28, "oewn-13833030-n"], [31, "oewn-15261272-n"]]
+    oewn_key: [[0, "oewn-01384737-v"], [2, "oewn-11690372-n"], [4, "oewn-02687605-v"], [6, "oewn-14868863-n"], [7, "oewn-00218382-v"], [13, "oewn-02103363-s"], [14, "oewn-13184148-n"], [17, "oewn-00358789-v"], [19, "oewn-02632685-v"], [21, "oewn-01394303-a"], [22, "oewn-00017402-n"], [24, "oewn-02690747-v"], [25, "oewn-00295007-v"], [28, "oewn-13833030-n"], [31, "oewn-15261272-n"]]
     paragraph: '13'
     pos: ["VB", "DT", "NNS", ",", "VB", "DT", "NN", "VBN", ",", "CC", "DT", "IN", "DT", "JJ", "NNS", "MD", "VB", "VB", "CC", "VB", "RB", "JJ", "NN", "CC", "VB", "VBG", "IN", "DT", "NN", "IN", "DT", "NN", "."]
     text: ' Pick the flowers, keep the soil dampened, and each of the pegged-down branches will
@@ -649,7 +649,7 @@ kiF9:
     wn30_key: [[0, "pick%2:35:01::"], [2, "flower%1:20:00::"], [4, "keep%2:42:00::"], [6, "soil%1:27:01::"], [7, "dampen%2:30:01::"], [13, "pegged-down%3:00:00:fastened:00"], [14, "branch%1:20:00::"], [17, "root%2:30:00::"], [19, "become%2:42:01::"], [21, "little%3:00:01::"], [22, "plant%1:03:00::"], [24, "go_on%2:42:00::"], [25, "bloom%2:30:00::"], [28, "rest%1:24:00::"], [31, "season%1:28:00::"]]
 TaTP:
     lemmas: ["As_soon_as", "an", "experimental", "tug", "assure", "you", "that", "root", "have", "taken_over", ",", "cut_off", "it", "off", "from", "the", "mother", "plant", "."]
-    oewn2026_key: [[2, "oewn-00863314-s"], [3, "oewn-00116320-n"], [4, "oewn-00892111-v"], [7, "oewn-13145876-n"], [11, "oewn-01301854-v"], [16, "oewn-10352098-n"], [17, "oewn-00017402-n"]]
+    oewn_key: [[2, "oewn-00863314-s"], [3, "oewn-00116320-n"], [4, "oewn-00892111-v"], [7, "oewn-13145876-n"], [11, "oewn-01301854-v"], [16, "oewn-10352098-n"], [17, "oewn-00017402-n"]]
     paragraph: '13'
     pos: ["IN", "DT", "JJ", "NN", "VBZ", "PRP", "IN", "NNS", "VBP", "JJ", ",", "VBD", "PRP", "RB", "IN", "DT", "NN", "NN", "."]
     text: ' As_soon_as an experimental tug assures you that roots have taken_over, cut it off
@@ -661,7 +661,7 @@ TaTP:
     wn30_key: [[2, "experimental%3:00:02:empirical:00"], [3, "tug%1:04:00::"], [4, "assure%2:32:03::"], [7, "root%1:20:00::"], [11, "cut_off%2:35:00::"], [16, "mother%1:18:00::"], [17, "plant%1:03:00::"]]
 xw46:
     lemmas: ["A", "second", "and", "also", "good", "practice", "be", "to", "shear", "off", "the", "top", ",", "leave", "an", "inch", "high", "stub", "with", "just", "a", "leaf", "or", "two", "on", "each", "branch", "."]
-    oewn2026_key: [[1, "oewn-02209815-s"], [3, "oewn-00048072-r"], [4, "oewn-01126910-a"], [5, "oewn-00411260-n"], [6, "oewn-02622439-v"], [8, "oewn-01323173-v"], [11, "oewn-08681092-n"], [13, "oewn-02736010-v"], [15, "oewn-13735405-n"], [16, "oewn-01207229-a"], [17, "oewn-09472806-n"], [19, "oewn-00005103-r"], [21, "oewn-13173519-n"], [23, "oewn-02194109-s"], [25, "oewn-02277394-s"], [26, "oewn-13184148-n"]]
+    oewn_key: [[1, "oewn-02209815-s"], [3, "oewn-00048072-r"], [4, "oewn-01126910-a"], [5, "oewn-00411260-n"], [6, "oewn-02622439-v"], [8, "oewn-01323173-v"], [11, "oewn-08681092-n"], [13, "oewn-02736010-v"], [15, "oewn-13735405-n"], [16, "oewn-01207229-a"], [17, "oewn-09472806-n"], [19, "oewn-00005103-r"], [21, "oewn-13173519-n"], [23, "oewn-02194109-s"], [25, "oewn-02277394-s"], [26, "oewn-13184148-n"]]
     paragraph: '14'
     pos: ["DT", "JJ", "CC", "RB", "JJ", "NN", "VBZ", "TO", "VB", "IN", "DT", "NNS", ",", "VBG", "DT", "NN", "JJ", "NN", "IN", "RB", "DT", "NN", "CC", "JJ", "IN", "JJ", "NN", "."]
     text: ' A second and also good practice is to shear off the tops, leaving an inch high stub
@@ -671,7 +671,7 @@ xw46:
     wn30_key: [[1, "second%3:00:00:ordinal:00"], [3, "also%4:02:00::"], [4, "good%3:00:01::"], [5, "practice%1:04:00::"], [6, "be%2:42:06::"], [8, "shear%2:35:00::"], [11, "top%1:15:00::"], [13, "leave%2:42:03::"], [15, "inch%1:23:02::"], [16, "high%3:00:01::"], [17, "stub%1:17:00::"], [19, "just%4:02:00::"], [21, "leaf%1:20:00::"], [23, "two%3:00:00:cardinal:00"], [25, "each%3:00:00:all:00"], [26, "branch%1:20:00::"]]
 /PR/:
     lemmas: ["These", "cut_down", "plant", "will", "bud", "and", "blossom", "in", "record", "time", "and", "will", "behave", "just", "as", "they", "do", "in", "early", "spring", "."]
-    oewn2026_key: [[1, "oewn-01325339-v"], [2, "oewn-00017402-n"], [4, "oewn-00358652-v"], [6, "oewn-00295007-v"], [9, "oewn-15295388-n"], [12, "oewn-00010428-v"], [13, "oewn-00159432-r"], [18, "oewn-00816521-a"], [19, "oewn-15261841-n"]]
+    oewn_key: [[1, "oewn-01325339-v"], [2, "oewn-00017402-n"], [4, "oewn-00358652-v"], [6, "oewn-00295007-v"], [9, "oewn-15295388-n"], [12, "oewn-00010428-v"], [13, "oewn-00159432-r"], [18, "oewn-00816521-a"], [19, "oewn-15261841-n"]]
     paragraph: '14'
     pos: ["DT", "VB", "NNS", "MD", "VB", "CC", "VB", "IN", "JJ", "NN", "CC", "MD", "VB", "RB", "RB", "PRP", "VB", "VB", "JJ", "NN", "."]
     text: ' These cut-down plants will bud and blossom in record time and will behave just as
@@ -681,7 +681,7 @@ xw46:
     wn30_key: [[1, "cut_down%2:35:03::"], [2, "plant%1:03:00::"], [4, "bud%2:30:00::"], [6, "blossom%2:30:01::"], [9, "time%1:28:05::"], [12, "behave%2:29:00::"], [13, "just%4:02:05::"], [18, "early%3:00:00::"], [19, "spring%1:28:00::"]]
 r97h:
     lemmas: ["I", "like", "to", "shear", "half", "my", "plant", "at_a_time", ",", "leave", "one", "half", "of", "them", "to", "blossom", "while", "the", "second_half", "be", "get_started", "on", "its", "new", "round", "of", "blooming", "."]
-    oewn2026_key: [[1, "oewn-01781131-v"], [3, "oewn-01323173-v"], [4, "oewn-13758939-n"], [6, "oewn-00017402-n"], [7, "oewn-00154319-r"], [9, "oewn-02735289-v"], [10, "oewn-02193977-s"], [11, "oewn-00008300-r"], [15, "oewn-00295007-v"], [18, "oewn-15282990-n"], [20, "oewn-00349195-v"], [23, "oewn-01645077-a"], [24, "oewn-15313066-n"], [26, "oewn-13460563-n"]]
+    oewn_key: [[1, "oewn-01781131-v"], [3, "oewn-01323173-v"], [4, "oewn-13758939-n"], [6, "oewn-00017402-n"], [7, "oewn-00154319-r"], [9, "oewn-02735289-v"], [10, "oewn-02193977-s"], [11, "oewn-00008300-r"], [15, "oewn-00295007-v"], [18, "oewn-15282990-n"], [20, "oewn-00349195-v"], [23, "oewn-01645077-a"], [24, "oewn-15313066-n"], [26, "oewn-13460563-n"]]
     paragraph: '14'
     pos: ["PRP", "VBP", "TO", "VB", "NN", "PRP$", "NNS", "RB", ",", "VBG", "JJ", "RB", "IN", "PRP", "TO", "VB", "IN", "DT", "NN", "VBZ", "VBN", "IN", "PRP$", "JJ", "NN", "IN", "NN", "."]
     text: ' I like to shear half my plants at_a_time, leaving one half of them to blossom while
@@ -693,7 +693,7 @@ r97h:
     wn30_key: [[1, "like%2:37:05::"], [3, "shear%2:35:00::"], [4, "half%1:23:00::"], [6, "plant%1:03:00::"], [7, "at_a_time%4:02:00::"], [9, "leave%2:42:02::"], [10, "one%3:00:00:cardinal:00"], [11, "half%4:02:00::"], [15, "blossom%2:30:01::"], [18, "second_half%1:28:00::"], [20, "get_started%2:30:00::"], [23, "new%3:00:00::"], [24, "round%1:28:01::"], [26, "blooming%1:22:00::"]]
 INXU:
     lemmas: ["probably", "no", "one", "need", "to", "tell", "you", "that", "the", "way", "to", "stop", "all", "bloom", "be", "to", "let", "the", "blossom", "go", "to", "seed", "."]
-    oewn2026_key: [[0, "oewn-00139421-r"], [5, "oewn-00954556-v"], [9, "oewn-00173531-n"], [11, "oewn-02565578-v"], [13, "oewn-13460563-n"], [14, "oewn-02622439-v"], [16, "oewn-02427979-v"], [18, "oewn-11689786-n"], [19, "oewn-00149403-v"], [21, "oewn-11704458-n;oewn-13156591-n"]]
+    oewn_key: [[0, "oewn-00139421-r"], [5, "oewn-00954556-v"], [9, "oewn-00173531-n"], [11, "oewn-02565578-v"], [13, "oewn-13460563-n"], [14, "oewn-02622439-v"], [16, "oewn-02427979-v"], [18, "oewn-11689786-n"], [19, "oewn-00149403-v"], [21, "oewn-11704458-n;oewn-13156591-n"]]
     paragraph: '15'
     pos: ["RB", "DT", "NN", "VB", "VB", "VB", "PRP", "IN", "DT", "NN", "TO", "VB", "DT", "NN", "VBZ", "TO", "VB", "DT", "NNS", "VBP", "VB", "NN", "."]
     text: ' Probably no one needs to tell you that the way to stop all bloom is to let the blossoms
@@ -703,7 +703,7 @@ INXU:
     wn30_key: [[0, "probably%4:02:00::"], [5, "tell%2:32:00::"], [9, "way%1:04:01::"], [11, "stop%2:41:00::"], [13, "bloom%1:22:00::"], [14, "be%2:42:06::"], [16, "let%2:41:00::"], [18, "blossom%1:20:00::"], [19, "go%2:30:04::"], [21, "seed%1:20:02::;seed%1:20:00::"]]
 BD7f:
     lemmas: ["nature", "'s", "aim", ",", "different", "from", "ours", ",", "be", "to", "provide", "for", "the", "coming", "generation", "."]
-    oewn2026_key: [[2, "oewn-05991037-n"], [4, "oewn-02072149-a"], [8, "oewn-02622439-v"], [10, "oewn-01185006-v"], [14, "oewn-08385834-n"]]
+    oewn_key: [[2, "oewn-05991037-n"], [4, "oewn-02072149-a"], [8, "oewn-02622439-v"], [10, "oewn-01185006-v"], [14, "oewn-08385834-n"]]
     paragraph: '15'
     pos: ["NN", "POS", "NN", ",", "JJ", "IN", "PRP", ",", "VBZ", "TO", "VB", "VB", "DT", "JJ", "NN", "."]
     text: ' Nature''s aim, different from ours, is to provide for the coming generation.'
@@ -712,7 +712,7 @@ BD7f:
     wn30_key: [[2, "aim%1:09:00::"], [4, "different%3:00:00::"], [8, "be%2:42:06::"], [10, "provide%2:34:00::"], [14, "generation%1:14:00::"]]
 SUji:
     lemmas: ["That", "done", ",", "her", "work", "be", "accomplished", "and", "she", "ignore", "the", "plant", "."]
-    oewn2026_key: [[1, "oewn-01007109-s"], [4, "oewn-00576778-n"], [5, "oewn-02610777-v"], [6, "oewn-00523272-s"], [9, "oewn-02123706-v"], [11, "oewn-00017402-n"]]
+    oewn_key: [[1, "oewn-01007109-s"], [4, "oewn-00576778-n"], [5, "oewn-02610777-v"], [6, "oewn-00523272-s"], [9, "oewn-02123706-v"], [11, "oewn-00017402-n"]]
     paragraph: '15'
     pos: ["DT", "JJ", ",", "PRP$", "NN", "VBZ", "JJ", "CC", "PRP", "VBZ", "DT", "NN", "."]
     text: ' That done, her work is accomplished and she ignores the plant.
@@ -723,7 +723,7 @@ SUji:
     wn30_key: [[1, "done%3:00:00:finished:01"], [4, "work%1:04:00::"], [5, "be%2:42:03::"], [6, "accomplished%3:00:00:complete:00"], [9, "ignore%2:39:00::"], [11, "plant%1:03:00::"]]
 rff7:
     lemmas: ["here", "be", "a", "word_of_advice", "when", "you", "go", "shopping", "for", "your", "pansy", "seed", "."]
-    oewn2026_key: [[0, "oewn-00109541-r"], [1, "oewn-02610777-v"], [3, "oewn-06685042-n"], [6, "oewn-02377696-v"], [7, "oewn-00082656-n"], [10, "oewn-12411002-n"], [11, "oewn-13156591-n"]]
+    oewn_key: [[0, "oewn-00109541-r"], [1, "oewn-02610777-v"], [3, "oewn-06685042-n"], [6, "oewn-02377696-v"], [7, "oewn-00082656-n"], [10, "oewn-12411002-n"], [11, "oewn-13156591-n"]]
     paragraph: '16'
     pos: ["RB", "VBZ", "DT", "NN", "WRB", "PRP", "VBP", "NN", "IN", "PRP$", "NN", "NNS", "."]
     text: ' Here is a word_of_advice when you go shopping for your pansy seeds.'
@@ -732,7 +732,7 @@ rff7:
     wn30_key: [[0, "here%4:02:02::"], [1, "be%2:42:04::"], [3, "word_of_advice%1:10:00::"], [6, "go%2:41:00::"], [7, "shopping%1:04:00::"], [10, "pansy%1:20:01::"], [11, "seed%1:20:00::"]]
 vHqX:
     lemmas: ["go_to", "a", "reputable", "grower", ",", "preferably", "a", "pansy", "specialist", "."]
-    oewn2026_key: [[0, "oewn-02618797-v"], [2, "oewn-01989711-a"], [3, "oewn-09799231-n"], [5, "oewn-00116461-r"], [7, "oewn-12411002-n"], [8, "oewn-10651303-n"]]
+    oewn_key: [[0, "oewn-02618797-v"], [2, "oewn-01989711-a"], [3, "oewn-09799231-n"], [5, "oewn-00116461-r"], [7, "oewn-12411002-n"], [8, "oewn-10651303-n"]]
     paragraph: '16'
     pos: ["VB", "DT", "JJ", "NN", ",", "RB", "DT", "NN", "NN", "."]
     text: ' Go_to a reputable grower, preferably a pansy specialist.'
@@ -741,7 +741,7 @@ vHqX:
     wn30_key: [[0, "go_to%2:42:00::"], [2, "reputable%3:00:00::"], [3, "grower%1:18:00::"], [5, "preferably%4:02:00::"], [7, "pansy%1:20:01::"], [8, "specialist%1:18:00::"]]
 lpbf:
     lemmas: ["It", "be", "no", "hard", "to", "raise", "big", ",", "healthy", ",", "blooming", "plant", "than", "weak", ",", "sickly", "little", "thing", ";", "in_fact", "it", "be", "easy", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-00051219-r"], [3, "oewn-00748528-a"], [5, "oewn-01743695-v"], [6, "oewn-01385012-a"], [8, "oewn-01173787-a"], [11, "oewn-00017402-n"], [13, "oewn-02332106-a"], [15, "oewn-01181678-s"], [16, "oewn-01394303-a"], [17, "oewn-04431553-n"], [19, "oewn-00149927-r"], [21, "oewn-02610777-v"], [22, "oewn-00752852-a"]]
+    oewn_key: [[1, "oewn-02610777-v"], [2, "oewn-00051219-r"], [3, "oewn-00748528-a"], [5, "oewn-01743695-v"], [6, "oewn-01385012-a"], [8, "oewn-01173787-a"], [11, "oewn-00017402-n"], [13, "oewn-02332106-a"], [15, "oewn-01181678-s"], [16, "oewn-01394303-a"], [17, "oewn-04431553-n"], [19, "oewn-00149927-r"], [21, "oewn-02610777-v"], [22, "oewn-00752852-a"]]
     paragraph: '16'
     pos: ["PRP", "VBZ", "RB", "JJR", "TO", "VB", "JJ", ",", "JJ", ",", "JJ", "NNS", "IN", "JJ", ",", "JJ", "JJ", "NNS", ":", "RB", "PRP", "VBZ", "JJR", "."]
     text: ' It is no harder to raise big, healthy, blooming plants than weak, sickly little
@@ -751,7 +751,7 @@ lpbf:
     wn30_key: [[1, "be%2:42:03::"], [2, "no%4:02:02::"], [3, "hard%3:00:06::"], [5, "raise%2:36:03::"], [6, "big%3:00:01::"], [8, "healthy%3:00:00::"], [11, "plant%1:03:00::"], [13, "weak%3:00:00::"], [15, "sickly%3:00:00:unhealthy:00"], [16, "little%3:00:01::"], [17, "thing%1:06:01::"], [19, "in_fact%4:02:00::"], [21, "be%2:42:03::"], [22, "easy%3:00:01::"]]
 DUi9:
     lemmas: ["But", "you", "will", "never", "get", "better", "flower", "than", "the", "seed", "you", "grow", "."]
-    oewn2026_key: [[3, "oewn-00021214-r"], [4, "oewn-02215637-v"], [5, "oewn-00231927-a"], [6, "oewn-11690372-n"], [9, "oewn-13156591-n"], [11, "oewn-00246343-v"]]
+    oewn_key: [[3, "oewn-00021214-r"], [4, "oewn-02215637-v"], [5, "oewn-00231927-a"], [6, "oewn-11690372-n"], [9, "oewn-13156591-n"], [11, "oewn-00246343-v"]]
     paragraph: '16'
     pos: ["CC", "PRP", "MD", "RB", "VB", "JJR", "NNS", "IN", "DT", "NN", "PRP", "VBP", "."]
     text: ' But you will never get better flowers than the seed you grow.
@@ -762,7 +762,7 @@ DUi9:
     wn30_key: [[3, "never%4:02:00::"], [4, "get%2:40:00::"], [5, "better%3:00:00::"], [6, "flower%1:20:00::"], [9, "seed%1:20:00::"], [11, "grow%2:30:01::"]]
 qFOj:
     lemmas: ["many", "people", "think", "that", "pansy", "last", "only", "a_few", "week", ",", "then", "their", "period", "of", "growth", "and", "bloom", "be", "over", "."]
-    oewn2026_key: [[0, "oewn-01555990-a"], [1, "oewn-07958392-n"], [2, "oewn-00633399-v"], [4, "oewn-12411002-n"], [5, "oewn-02624202-v"], [6, "oewn-00005103-r"], [7, "oewn-01557697-s"], [8, "oewn-15194920-n"], [10, "oewn-00118527-r"], [12, "oewn-15137796-n"], [14, "oewn-13510240-n"], [16, "oewn-13460563-n"], [17, "oewn-02610777-v"], [18, "oewn-01006696-s"]]
+    oewn_key: [[0, "oewn-01555990-a"], [1, "oewn-07958392-n"], [2, "oewn-00633399-v"], [4, "oewn-12411002-n"], [5, "oewn-02624202-v"], [6, "oewn-00005103-r"], [7, "oewn-01557697-s"], [8, "oewn-15194920-n"], [10, "oewn-00118527-r"], [12, "oewn-15137796-n"], [14, "oewn-13510240-n"], [16, "oewn-13460563-n"], [17, "oewn-02610777-v"], [18, "oewn-01006696-s"]]
     paragraph: '17'
     pos: ["JJ", "NNS", "VBP", "IN", "NNS", "VB", "RB", "JJ", "NNS", ",", "RB", "PRP$", "NN", "IN", "NN", "CC", "NN", "VBZ", "JJ", "."]
     text: ' Many people think that pansies last only a_few weeks, then their period of growth
@@ -772,7 +772,7 @@ qFOj:
     wn30_key: [[0, "many%3:00:00::"], [1, "people%1:14:00::"], [2, "think%2:31:03::"], [4, "pansy%1:20:01::"], [5, "last%2:42:01::"], [6, "only%4:02:02::"], [7, "a_few%3:00:00:few:00"], [8, "week%1:28:00::"], [10, "then%4:02:00::"], [12, "period%1:28:00::"], [14, "growth%1:22:00::"], [16, "bloom%1:22:00::"], [17, "be%2:42:03::"], [18, "over%3:00:01:finished:01"]]
 6s+5:
     lemmas: ["That", "be", "not", "true", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-00024432-r"], [3, "oewn-02469730-a"]]
+    oewn_key: [[1, "oewn-02610777-v"], [2, "oewn-00024432-r"], [3, "oewn-02469730-a"]]
     paragraph: '17'
     pos: ["RB", "VBZ", "RB", "JJ", "."]
     text: ' That is not true.'
@@ -781,7 +781,7 @@ qFOj:
     wn30_key: [[1, "be%2:42:03::"], [2, "not%4:02:00::"], [3, "true%3:00:00::"]]
 eO/N:
     lemmas: ["If", "the", "plant", "be", "care", "for", "and", "protect", "over", "the", "winter", ",", "the", "second", "year", "be", "more", "prolific", "than", "the", "first", "."]
-    oewn2026_key: [[2, "oewn-00017402-n"], [4, "oewn-02555993-v"], [7, "oewn-01130619-v"], [10, "oewn-15262579-n"], [13, "oewn-02209815-s"], [14, "oewn-15228587-n"], [15, "oewn-02610777-v"], [16, "oewn-00099891-r"], [17, "oewn-01871917-s"], [20, "oewn-01014459-a"]]
+    oewn_key: [[2, "oewn-00017402-n"], [4, "oewn-02555993-v"], [7, "oewn-01130619-v"], [10, "oewn-15262579-n"], [13, "oewn-02209815-s"], [14, "oewn-15228587-n"], [15, "oewn-02610777-v"], [16, "oewn-00099891-r"], [17, "oewn-01871917-s"], [20, "oewn-01014459-a"]]
     paragraph: '17'
     pos: ["IN", "DT", "NNS", "VBP", "VBN", "VB", "CC", "VBN", "IN", "DT", "NN", ",", "DT", "JJ", "NN", "VBZ", "RBR", "JJ", "IN", "DT", "JJ", "."]
     text: ' If the plants are cared for and protected over the winter, the second year is more
@@ -793,7 +793,7 @@ eO/N:
     wn30_key: [[2, "plant%1:03:00::"], [4, "care%2:41:13::"], [7, "protect%2:33:00::"], [10, "winter%1:28:00::"], [13, "second%3:00:00:ordinal:00"], [14, "year%1:28:01::"], [15, "be%2:42:03::"], [16, "more%4:02:00::"], [17, "prolific%3:00:00:productive:00"], [20, "first%3:00:00::"]]
 V1cg:
     lemmas: ["Would", "you", "like", "to", "grow", "exhibition", "pansy", "?"]
-    oewn2026_key: [[2, "oewn-01828678-v"], [4, "oewn-00246343-v"], [5, "oewn-00523201-n"], [6, "oewn-12411002-n"]]
+    oewn_key: [[2, "oewn-01828678-v"], [4, "oewn-00246343-v"], [5, "oewn-00523201-n"], [6, "oewn-12411002-n"]]
     paragraph: '18'
     pos: ["MD", "PRP", "VB", "TO", "VB", "NN", "NNS", "."]
     text: ' Would you like to grow exhibition pansies?'
@@ -802,7 +802,7 @@ V1cg:
     wn30_key: [[2, "like%2:37:01::"], [4, "grow%2:30:01::"], [5, "exhibition%1:04:00::"], [6, "pansy%1:20:01::"]]
 rDw8:
     lemmas: ["remove", "about", "half", "the", "branch", "from", "each", "plant", ",", "leave", "only", "the", "strong", "with", "the", "largest", "bud", "."]
-    oewn2026_key: [[0, "oewn-00173351-v"], [2, "oewn-13758939-n"], [4, "oewn-13184148-n"], [6, "oewn-02277394-s"], [7, "oewn-00017402-n"], [9, "oewn-00136799-v"], [10, "oewn-00009062-r"], [12, "oewn-02328781-a"], [16, "oewn-13185984-n"]]
+    oewn_key: [[0, "oewn-00173351-v"], [2, "oewn-13758939-n"], [4, "oewn-13184148-n"], [6, "oewn-02277394-s"], [7, "oewn-00017402-n"], [9, "oewn-00136799-v"], [10, "oewn-00009062-r"], [12, "oewn-02328781-a"], [16, "oewn-13185984-n"]]
     paragraph: '18'
     pos: ["VB", "IN", "NN", "DT", "NNS", "IN", "JJ", "NN", ",", "VBG", "RB", "DT", "JJS", "IN", "DT", "JJ", "NNS", "."]
     text: ' Remove about half the branches from each plant, leaving only the strongest with
@@ -812,7 +812,7 @@ rDw8:
     wn30_key: [[0, "remove%2:30:00::"], [2, "half%1:23:00::"], [4, "branch%1:20:00::"], [6, "each%3:00:00:all:00"], [7, "plant%1:03:00::"], [9, "leave%2:30:02::"], [10, "only%4:02:01::"], [12, "strong%3:00:00::"], [16, "bud%1:20:00::"]]
 73/R:
     lemmas: ["The", "flower", "will", "be", "huge", "."]
-    oewn2026_key: [[1, "oewn-11690372-n"], [3, "oewn-02610777-v"], [4, "oewn-01390253-s"]]
+    oewn_key: [[1, "oewn-11690372-n"], [3, "oewn-02610777-v"], [4, "oewn-01390253-s"]]
     paragraph: '18'
     pos: ["DT", "NNS", "MD", "VB", "JJ", "."]
     text: ' The flowers will be huge.
@@ -823,7 +823,7 @@ rDw8:
     wn30_key: [[1, "flower%1:20:00::"], [3, "be%2:42:03::"], [4, "huge%3:00:01:large:00"]]
 EiJx:
     lemmas: ["pansy", "have", "character", "."]
-    oewn2026_key: [[0, "oewn-12411002-n"], [1, "oewn-02636270-v"], [2, "oewn-04627573-n"]]
+    oewn_key: [[0, "oewn-12411002-n"], [1, "oewn-02636270-v"], [2, "oewn-04627573-n"]]
     paragraph: '19'
     pos: ["NNS", "VBP", "NN", "."]
     text: ' Pansies have character.'
@@ -832,7 +832,7 @@ EiJx:
     wn30_key: [[0, "pansy%1:20:01::"], [1, "have%2:42:00::"], [2, "character%1:07:01::"]]
 NbaY:
     lemmas: ["They", "stick_to", "their", "principle", ",", "insist", "upon", "their", "due", ",", "but", "grow", "and", "bloom", "with", "dependable", "regularity", "if", "give", "it", "."]
-    oewn2026_key: [[3, "oewn-06668133-n"], [5, "oewn-00820635-v"], [8, "oewn-05183609-n"], [11, "oewn-00231983-v"], [13, "oewn-00295007-v"], [15, "oewn-00727525-a"], [16, "oewn-05072380-n"], [18, "oewn-02344167-v"]]
+    oewn_key: [[3, "oewn-06668133-n"], [5, "oewn-00820635-v"], [8, "oewn-05183609-n"], [11, "oewn-00231983-v"], [13, "oewn-00295007-v"], [15, "oewn-00727525-a"], [16, "oewn-05072380-n"], [18, "oewn-02344167-v"]]
     paragraph: '19'
     pos: ["PRP", "VB", "PRP$", "NNS", ",", "VBP", "VB", "PRP$", "NN", ",", "CC", "VB", "CC", "VB", "IN", "JJ", "NN", "IN", "VBN", "PRP", "."]
     text: ' They stick_to their principles, insist upon their due, but grow and bloom with dependable
@@ -842,7 +842,7 @@ NbaY:
     wn30_key: [[3, "principle%1:10:00::"], [5, "insist%2:32:00::"], [8, "due%1:07:00::"], [11, "grow%2:30:02::"], [13, "bloom%2:30:00::"], [15, "dependable%3:00:00::"], [16, "regularity%1:07:04::"], [18, "give%2:40:05::"]]
 rknn:
     lemmas: ["treat", "them", "right", "and", "they", "'ll", "make", "a", "showing", "every_month", "in", "the", "year", "except", "the", "frigid", "one", "."]
-    oewn2026_key: [[0, "oewn-02519853-v"], [2, "oewn-00206553-r"], [6, "oewn-02566500-v"], [8, "oewn-00522265-n"], [12, "oewn-15228587-n"], [15, "oewn-01255223-s"]]
+    oewn_key: [[0, "oewn-02519853-v"], [2, "oewn-00206553-r"], [6, "oewn-02566500-v"], [8, "oewn-00522265-n"], [12, "oewn-15228587-n"], [15, "oewn-01255223-s"]]
     paragraph: '19'
     pos: ["VB", "PRP", "RB", "CC", "PRP", "MD", "VB", "VB", "NN", "RB", "IN", "DT", "NN", "IN", "DT", "JJ", "NNS", "."]
     text: ' Treat them right and they''ll make a showing every_month in the year except the
@@ -852,7 +852,7 @@ rknn:
     wn30_key: [[0, "treat%2:41:00::"], [2, "right%4:02:05::"], [6, "make%2:41:00::"], [8, "showing%1:04:00::"], [12, "year%1:28:01::"], [15, "frigid%3:00:00:cold:01"]]
 JwPt:
     lemmas: ["give", "them", "food", ",", "some", "shade", ",", "mulch", ",", "water", "and", "more", "food", ",", "and", "they", "'ll", "repay", "your", "solicitude", "with", "beauty", "."]
-    oewn2026_key: [[0, "oewn-01180862-v"], [2, "oewn-00021445-n"], [4, "oewn-02275064-a"], [5, "oewn-14008098-n"], [7, "oewn-03803418-n"], [9, "oewn-14869913-n"], [12, "oewn-00021445-n"], [17, "oewn-02289796-v"], [19, "oewn-07520446-n"], [21, "oewn-04691171-n"]]
+    oewn_key: [[0, "oewn-01180862-v"], [2, "oewn-00021445-n"], [4, "oewn-02275064-a"], [5, "oewn-14008098-n"], [7, "oewn-03803418-n"], [9, "oewn-14869913-n"], [12, "oewn-00021445-n"], [17, "oewn-02289796-v"], [19, "oewn-07520446-n"], [21, "oewn-04691171-n"]]
     paragraph: '19'
     pos: ["VB", "PRP", "NN", ",", "JJ", "NN", ",", "NN", ",", "NN", "CC", "JJ", "NN", ",", "CC", "PRP", "MD", "VB", "PRP$", "NN", "IN", "NN", "."]
     text: ' Give them food, some shade, mulch, water and more food, and they''ll repay your
@@ -864,7 +864,7 @@ JwPt:
     wn30_key: [[0, "give%2:34:00::"], [2, "food%1:03:00::"], [4, "some%3:00:00::"], [5, "shade%1:26:00::"], [7, "mulch%1:06:00::"], [9, "water%1:27:00::"], [12, "food%1:03:00::"], [17, "repay%2:40:00::"], [19, "solicitude%1:12:00::"], [21, "beauty%1:07:00::"]]
 f0oB:
     lemmas: ["A", "salad", "with", "greens", "and", "tomato", "be", "a", "popular", "and", "wonderfully", "healthful", "addition", "to", "a", "meal", ",", "but", "add", "an", "avocado", "and", "you", "have", "something", "really", "special", "."]
-    oewn2026_key: [[1, "oewn-07822197-n"], [3, "oewn-07725078-n"], [5, "oewn-07749993-n"], [6, "oewn-02610777-v"], [8, "oewn-01821123-a"], [10, "oewn-00184576-r"], [11, "oewn-01168307-a"], [12, "oewn-02682269-n"], [15, "oewn-07589261-n"], [18, "oewn-00182551-v"], [20, "oewn-07780823-n"], [23, "oewn-02208144-v"], [25, "oewn-00037620-r"], [26, "oewn-01683388-s"]]
+    oewn_key: [[1, "oewn-07822197-n"], [3, "oewn-07725078-n"], [5, "oewn-07749993-n"], [6, "oewn-02610777-v"], [8, "oewn-01821123-a"], [10, "oewn-00184576-r"], [11, "oewn-01168307-a"], [12, "oewn-02682269-n"], [15, "oewn-07589261-n"], [18, "oewn-00182551-v"], [20, "oewn-07780823-n"], [23, "oewn-02208144-v"], [25, "oewn-00037620-r"], [26, "oewn-01683388-s"]]
     paragraph: '20'
     pos: ["DT", "NN", "IN", "NNS", "CC", "NN", "VBZ", "DT", "JJ", "CC", "RB", "JJ", "NN", "TO", "DT", "NN", ",", "CC", "VB", "DT", "NN", "CC", "PRP", "VBP", "NN", "RB", "JJ", "."]
     text: ' A salad with greens and tomato is a popular and wonderfully healthful addition to
@@ -874,7 +874,7 @@ f0oB:
     wn30_key: [[1, "salad%1:13:00::"], [3, "greens%1:13:00::"], [5, "tomato%1:13:00::"], [6, "be%2:42:03::"], [8, "popular%3:00:00::"], [10, "wonderfully%4:02:00::"], [11, "healthful%3:00:00::"], [12, "addition%1:06:00::"], [15, "meal%1:13:00::"], [18, "add%2:30:00::"], [20, "avocado%1:13:00::"], [23, "have%2:40:00::"], [25, "really%4:02:03::"], [26, "special%3:00:00:extraordinary:00"]]
 034N:
     lemmas: ["This", "delightful", "tropical", "fruit", "have", "become", "well-known", "in", "the", "past", "thirty", "year", "because", "modern", "transportation", "method", "have", "make", "it", "possible", "to", "ship", "avocado", "anywhere", "in", "the", "united_states", "."]
-    oewn2026_key: [[1, "oewn-01813229-s"], [2, "oewn-02452975-s"], [3, "oewn-13155706-n"], [5, "oewn-00149403-v"], [6, "oewn-01379631-s"], [9, "oewn-01299212-s"], [10, "oewn-02196945-s"], [11, "oewn-15228587-n"], [13, "oewn-01539804-a"], [14, "oewn-00316812-n"], [15, "oewn-05668113-n"], [17, "oewn-00120124-v"], [19, "oewn-01826770-a"], [21, "oewn-01954657-v"], [22, "oewn-07780823-n"], [23, "oewn-00025699-r"], [26, "oewn-09067337-n"]]
+    oewn_key: [[1, "oewn-01813229-s"], [2, "oewn-02452975-s"], [3, "oewn-13155706-n"], [5, "oewn-00149403-v"], [6, "oewn-01379631-s"], [9, "oewn-01299212-s"], [10, "oewn-02196945-s"], [11, "oewn-15228587-n"], [13, "oewn-01539804-a"], [14, "oewn-00316812-n"], [15, "oewn-05668113-n"], [17, "oewn-00120124-v"], [19, "oewn-01826770-a"], [21, "oewn-01954657-v"], [22, "oewn-07780823-n"], [23, "oewn-00025699-r"], [26, "oewn-09067337-n"]]
     paragraph: '20'
     pos: ["DT", "JJ", "JJ", "NN", "VBZ", "VBN", "JJ", "RB", "RB", "JJ", "JJ", "NNS", "IN", "JJ", "NN", "NNS", "VBP", "VBN", "VB", "JJ", "TO", "VB", "NN", "RB", "IN", "DT", "NNS", "."]
     text: ' This delightful tropical fruit has become well-known in the past thirty years because
@@ -885,7 +885,7 @@ f0oB:
     wn30_key: [[1, "delightful%3:00:00:pleasing:00"], [2, "tropical%3:00:00:equatorial:00"], [3, "fruit%1:20:00::"], [5, "become%2:30:00::"], [6, "well-known%3:00:00:known:00"], [9, "past%3:00:00:outgoing:00"], [10, "thirty%3:00:00:cardinal:00"], [11, "year%1:28:01::"], [13, "modern%3:00:00::"], [14, "transportation%1:04:00::"], [15, "method%1:09:00::"], [17, "make%2:30:00::"], [19, "possible%3:00:00::"], [21, "ship%2:38:00::"], [22, "avocado%1:13:00::"], [23, "anywhere%4:02:00::"], [26, "united_states%1:15:00::"]]
 iMZM:
     lemmas: ["It", "have", "a", "great", "many", "asset", "to", "recommend", "it", "and", "if", "you", "have", "n't", "make", "avocado", "a", "part", "of", "your", "diet", "yet", ",", "you", "really", "should", "."]
-    oewn2026_key: [[1, "oewn-02636270-v"], [3, "oewn-01389817-s"], [4, "oewn-01555990-a"], [5, "oewn-05161764-n"], [7, "oewn-00884469-v"], [14, "oewn-00120124-v"], [15, "oewn-07780823-n"], [17, "oewn-13831419-n"], [20, "oewn-07576677-n"], [21, "oewn-00028314-r"], [24, "oewn-00037620-r"]]
+    oewn_key: [[1, "oewn-02636270-v"], [3, "oewn-01389817-s"], [4, "oewn-01555990-a"], [5, "oewn-05161764-n"], [7, "oewn-00884469-v"], [14, "oewn-00120124-v"], [15, "oewn-07780823-n"], [17, "oewn-13831419-n"], [20, "oewn-07576677-n"], [21, "oewn-00028314-r"], [24, "oewn-00037620-r"]]
     paragraph: '20'
     pos: ["PRP", "VBZ", "DT", "JJ", "JJ", "NNS", "TO", "VB", "PRP", "CC", "IN", "PRP", "VBP", "RB", "VBN", "NN", "DT", "NN", "IN", "PRP$", "NN", "RB", ",", "PRP", "RB", "MD", "."]
     text: ' It has a great many assets to recommend it and if you haven''t made avocado a part
@@ -897,7 +897,7 @@ iMZM:
     wn30_key: [[1, "have%2:42:00::"], [3, "great%3:00:01:large:00"], [4, "many%3:00:00::"], [5, "asset%1:07:00::"], [7, "recommend%2:32:00::"], [14, "make%2:30:00::"], [15, "avocado%1:13:00::"], [17, "part%1:24:00::"], [20, "diet%1:13:00::"], [21, "yet%4:02:04::"], [24, "really%4:02:03::"]]
 KtvT:
     lemmas: ["You", "will", "find", "that", "avocado", "be", "unlike", "any", "other", "fruit", "you", "have", "ever", "taste", "."]
-    oewn2026_key: [[2, "oewn-02158938-v"], [4, "oewn-07780823-n"], [5, "oewn-02610777-v"], [6, "oewn-01413335-a"], [8, "oewn-02076759-a"], [9, "oewn-13155706-n"], [12, "oewn-00147423-r"], [13, "oewn-02195992-v"]]
+    oewn_key: [[2, "oewn-02158938-v"], [4, "oewn-07780823-n"], [5, "oewn-02610777-v"], [6, "oewn-01413335-a"], [8, "oewn-02076759-a"], [9, "oewn-13155706-n"], [12, "oewn-00147423-r"], [13, "oewn-02195992-v"]]
     paragraph: '21'
     pos: ["PRP", "MD", "VB", "IN", "NN", "VBZ", "JJ", "DT", "JJ", "NN", "PRP", "VBP", "RB", "VBN", "."]
     text: ' You will find that avocado is unlike any other fruit you have ever tasted.'
@@ -906,7 +906,7 @@ KtvT:
     wn30_key: [[2, "find%2:31:09::"], [4, "avocado%1:13:00::"], [5, "be%2:42:03::"], [6, "unlike%3:00:00::"], [8, "other%3:00:00::"], [9, "fruit%1:20:00::"], [12, "ever%4:02:04::"], [13, "taste%2:39:00::"]]
 JcMn:
     lemmas: ["It", "be", "roughly", "shape", "like", "a", "large", "pear", ",", "and", "when", "properly", "ripen", ",", "its", "dark", "green", "skin", "cover", "a", "meaty", ",", "melon", "like", "pulp", "that", "have", "about", "the", "consistency", "of", "a", "ripe", "bartlett_pear", ",", "but", "oily", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-00007414-r"], [3, "oewn-01663142-v"], [6, "oewn-01385012-a"], [7, "oewn-07783823-n"], [11, "oewn-00197608-r"], [12, "oewn-00250738-v"], [15, "oewn-00410517-a"], [16, "oewn-04974368-n"], [17, "oewn-05245612-n"], [18, "oewn-01210571-v"], [20, "oewn-01503136-a"], [22, "oewn-07771387-n"], [23, "oewn-01412553-a"], [24, "oewn-13116794-n"], [26, "oewn-02636270-v"], [27, "oewn-00007414-r"], [29, "oewn-04941723-n"], [32, "oewn-01496321-a"], [33, "oewn-07784206-n"], [36, "oewn-00995782-s"]]
+    oewn_key: [[1, "oewn-02610777-v"], [2, "oewn-00007414-r"], [3, "oewn-01663142-v"], [6, "oewn-01385012-a"], [7, "oewn-07783823-n"], [11, "oewn-00197608-r"], [12, "oewn-00250738-v"], [15, "oewn-00410517-a"], [16, "oewn-04974368-n"], [17, "oewn-05245612-n"], [18, "oewn-01210571-v"], [20, "oewn-01503136-a"], [22, "oewn-07771387-n"], [23, "oewn-01412553-a"], [24, "oewn-13116794-n"], [26, "oewn-02636270-v"], [27, "oewn-00007414-r"], [29, "oewn-04941723-n"], [32, "oewn-01496321-a"], [33, "oewn-07784206-n"], [36, "oewn-00995782-s"]]
     paragraph: '21'
     pos: ["PRP", "VBZ", "RB", "VBN", "RB", "DT", "JJ", "NN", ",", "CC", "WRB", "RB", "VBN", ",", "PRP$", "JJ", "NN", "NN", "VBZ", "DT", "JJ", ",", "NN", "JJ", "NN", "WDT", "VBZ", "RB", "DT", "NN", "IN", "DT", "JJ", "NN", ",", "CC", "JJ", "."]
     text: ' It is roughly shaped like a large pear, and when properly ripened, its dark green
@@ -917,7 +917,7 @@ JcMn:
     wn30_key: [[1, "be%2:42:03::"], [2, "roughly%4:02:00::"], [3, "shape%2:36:00::"], [6, "large%3:00:00::"], [7, "pear%1:13:00::"], [11, "properly%4:02:00::"], [12, "ripen%2:30:00::"], [15, "dark%3:00:02::"], [16, "green%1:07:00::"], [17, "skin%1:08:00::"], [18, "cover%2:35:01::"], [20, "meaty%3:00:00::"], [22, "melon%1:13:00::"], [23, "like%3:00:00::"], [24, "pulp%1:20:00::"], [26, "have%2:42:00::"], [27, "about%4:02:00::"], [29, "consistency%1:07:00::"], [32, "ripe%3:00:00::"], [33, "bartlett_pear%1:13:00::"], [36, "oily%3:00:00:fatty:00"]]
 p3pV:
     lemmas: ["The", "avocado", "should", "have", "a", "\"", "give", "\"", "to", "it", ",", "as", "you", "hold", "it", ",", "when", "it", "be", "ripe", "."]
-    oewn2026_key: [[1, "oewn-07780823-n"], [3, "oewn-02636270-v"], [6, "oewn-05028317-n"], [13, "oewn-01219234-v"], [18, "oewn-02610777-v"], [19, "oewn-01496321-a"]]
+    oewn_key: [[1, "oewn-07780823-n"], [3, "oewn-02636270-v"], [6, "oewn-05028317-n"], [13, "oewn-01219234-v"], [18, "oewn-02610777-v"], [19, "oewn-01496321-a"]]
     paragraph: '21'
     pos: ["DT", "NN", "MD", "VB", "DT", "``", "NN", "''", "RB", "RB", ",", "IN", "PRP", "VBP", "PRP", ",", "WRB", "PRP", "VBZ", "JJ", "."]
     text: ' The avocado should have a " give " to it, as you hold it, when it is ripe.'
@@ -926,7 +926,7 @@ p3pV:
     wn30_key: [[1, "avocado%1:13:00::"], [3, "have%2:42:00::"], [6, "give%1:07:00::"], [13, "hold%2:35:00::"], [18, "be%2:42:03::"], [19, "ripe%3:00:00::"]]
 WvS+:
     lemmas: ["The", "flavor", "be", "neither", "sweet", ",", "like", "a", "pear", ",", "nor", "tart", "like", "an", "orange", ";", "it", "be", "subtle", "and", "rather", "bland", ",", "nut", "like", "."]
-    oewn2026_key: [[1, "oewn-05723811-n"], [2, "oewn-02610777-v"], [4, "oewn-02376904-a"], [8, "oewn-07783823-n"], [11, "oewn-02378028-s"], [14, "oewn-07763583-n"], [17, "oewn-02610777-v"], [18, "oewn-01750095-s"], [20, "oewn-00018764-r"], [21, "oewn-02408319-s"], [23, "oewn-13157333-n"], [24, "oewn-01412553-a"]]
+    oewn_key: [[1, "oewn-05723811-n"], [2, "oewn-02610777-v"], [4, "oewn-02376904-a"], [8, "oewn-07783823-n"], [11, "oewn-02378028-s"], [14, "oewn-07763583-n"], [17, "oewn-02610777-v"], [18, "oewn-01750095-s"], [20, "oewn-00018764-r"], [21, "oewn-02408319-s"], [23, "oewn-13157333-n"], [24, "oewn-01412553-a"]]
     paragraph: '21'
     pos: ["DT", "NN", "VBZ", "RB", "JJ", ",", "IN", "DT", "NN", ",", "CC", "JJ", "IN", "DT", "NN", ":", "PRP", "VBZ", "JJ", "CC", "RB", "JJ", ",", "NN", "JJ", "."]
     text: ' The flavor is neither sweet, like a pear, nor tart like an orange; it is subtle
@@ -936,7 +936,7 @@ WvS+:
     wn30_key: [[1, "flavor%1:09:00::"], [2, "be%2:42:03::"], [4, "sweet%3:00:02::"], [8, "pear%1:13:00::"], [11, "tart%3:00:00:sour:00"], [14, "orange%1:13:00::"], [17, "be%2:42:03::"], [18, "subtle%3:00:00:perceptive:00"], [20, "rather%4:02:04::"], [21, "bland%3:00:00:tasteless:01"], [23, "nut%1:20:00::"], [24, "like%3:00:00::"]]
 uYDO:
     lemmas: ["It", "be", "a", "flavor", "that", "might", "take", "a_little", "get", "used_to", "-", "not", "because", "it", "be", "unpleasant", ",", "but", "because", "the", "flavor", "be", "hard", "to", "define", "in", "the", "light", "of", "our", "experience", "with", "other", "fruit", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [3, "oewn-05723811-n"], [6, "oewn-02634015-v"], [7, "oewn-00034050-r"], [8, "oewn-00149403-v"], [9, "oewn-00024458-a"], [11, "oewn-00024432-r"], [14, "oewn-02610777-v"], [15, "oewn-01806732-a"], [20, "oewn-05723811-n"], [21, "oewn-02610777-v"], [22, "oewn-00748528-a"], [24, "oewn-02617665-v"], [30, "oewn-05993469-n"], [32, "oewn-02076759-a"], [33, "oewn-13155706-n"]]
+    oewn_key: [[1, "oewn-02610777-v"], [3, "oewn-05723811-n"], [6, "oewn-02634015-v"], [7, "oewn-00034050-r"], [8, "oewn-00149403-v"], [9, "oewn-00024458-a"], [11, "oewn-00024432-r"], [14, "oewn-02610777-v"], [15, "oewn-01806732-a"], [20, "oewn-05723811-n"], [21, "oewn-02610777-v"], [22, "oewn-00748528-a"], [24, "oewn-02617665-v"], [30, "oewn-05993469-n"], [32, "oewn-02076759-a"], [33, "oewn-13155706-n"]]
     paragraph: '21'
     pos: ["PRP", "VBZ", "DT", "NN", "WDT", "MD", "VB", "RB", "VBG", "JJ", ":", "RB", "IN", "PRP", "VBZ", "JJ", ",", "CC", "IN", "DT", "NN", "VBZ", "JJ", "TO", "VB", "IN", "DT", "NN", "IN", "PRP$", "NN", "IN", "JJ", "NNS", "."]
     text: ' It is a flavor that might take a_little getting used_to - not because it is unpleasant,
@@ -947,7 +947,7 @@ uYDO:
     wn30_key: [[1, "be%2:42:03::"], [3, "flavor%1:09:00::"], [6, "take%2:42:00::"], [7, "a_little%4:02:00::"], [8, "get%2:30:00::"], [9, "used_to%3:00:03::"], [11, "not%4:02:00::"], [14, "be%2:42:03::"], [15, "unpleasant%3:00:00::"], [20, "flavor%1:09:00::"], [21, "be%2:42:03::"], [22, "hard%3:00:06::"], [24, "define%2:42:00::"], [30, "experience%1:09:00::"], [32, "other%3:00:00::"], [33, "fruit%1:20:00::"]]
 EWpC:
     lemmas: ["sometimes", "it", "take", "several", "\"", "eating", "\"", "of", "avocado", "to", "catch", "that", "delightful", "quality", "in", "taste", "that", "have", "make", "it", "such", "a", "favorite", "throughout", "the", "world", "."]
-    oewn2026_key: [[0, "oewn-00022332-r"], [2, "oewn-02634015-v"], [3, "oewn-02276025-s"], [5, "oewn-00840028-n"], [8, "oewn-07780823-n"], [10, "oewn-02122438-v"], [12, "oewn-01813229-s"], [13, "oewn-04731092-n"], [15, "oewn-05723230-n"], [18, "oewn-00120124-v"], [20, "oewn-00148422-r"], [22, "oewn-05798763-n"], [23, "oewn-00103637-r"], [25, "oewn-02475618-n"]]
+    oewn_key: [[0, "oewn-00022332-r"], [2, "oewn-02634015-v"], [3, "oewn-02276025-s"], [5, "oewn-00840028-n"], [8, "oewn-07780823-n"], [10, "oewn-02122438-v"], [12, "oewn-01813229-s"], [13, "oewn-04731092-n"], [15, "oewn-05723230-n"], [18, "oewn-00120124-v"], [20, "oewn-00148422-r"], [22, "oewn-05798763-n"], [23, "oewn-00103637-r"], [25, "oewn-02475618-n"]]
     paragraph: '21'
     pos: ["RB", "PRP", "VBZ", "JJ", "``", "NNS", "''", "IN", "NN", "TO", "VB", "IN", "JJ", "NN", "IN", "NN", "WDT", "VBZ", "VBN", "VB", "RB", "DT", "NN", "RB", "RB", "NN", "."]
     text: ' Sometimes it takes several " eatings " of avocado to catch that delightful quality
@@ -957,7 +957,7 @@ EWpC:
     wn30_key: [[0, "sometimes%4:02:01::"], [2, "take%2:42:00::"], [3, "several%3:00:00:some:00"], [5, "eating%1:04:00::"], [8, "avocado%1:13:00::"], [10, "catch%2:39:01::"], [12, "delightful%3:00:00:pleasing:00"], [13, "quality%1:07:00::"], [15, "taste%1:09:02::"], [18, "make%2:30:00::"], [20, "such%4:02:00::"], [22, "favorite%1:09:00::"], [23, "throughout%4:02:00::"], [25, "world%1:05:00::"]]
 Pgzy:
     lemmas: ["once", "you", "become", "an", "avocado", "fan", ",", "you", "will", "look_forward", "to", "the", "season", "each_year", "with", "eager", "anticipation", "."]
-    oewn2026_key: [[0, "oewn-00182828-r"], [2, "oewn-02632685-v"], [4, "oewn-07780823-n"], [5, "oewn-10097373-n"], [9, "oewn-00722421-v"], [12, "oewn-15264376-n"], [13, "oewn-00082087-r"], [15, "oewn-00814485-a"], [16, "oewn-07526319-n"]]
+    oewn_key: [[0, "oewn-00182828-r"], [2, "oewn-02632685-v"], [4, "oewn-07780823-n"], [5, "oewn-10097373-n"], [9, "oewn-00722421-v"], [12, "oewn-15264376-n"], [13, "oewn-00082087-r"], [15, "oewn-00814485-a"], [16, "oewn-07526319-n"]]
     paragraph: '21'
     pos: ["RB", "PRP", "VBP", "DT", "NN", "NN", ",", "PRP", "MD", "VB", "VB", "DT", "NN", "RB", "IN", "JJ", "NN", "."]
     text: ' Once you become an avocado fan, you will look_forward to the season each_year with
@@ -969,7 +969,7 @@ Pgzy:
     wn30_key: [[0, "once%4:02:02::"], [2, "become%2:42:01::"], [4, "avocado%1:13:00::"], [5, "fan%1:18:00::"], [9, "look_forward%2:31:00::"], [12, "season%1:28:02::"], [13, "each_year%4:02:00::"], [15, "eager%3:00:00::"], [16, "anticipation%1:12:00::"]]
 x6ug:
     lemmas: ["today", ",", "refrigerated", "carrier", "have", "make", "the", "shipping", "of", "avocado", "possible", "to", "any", "place", "in", "the", "world", "."]
-    oewn2026_key: [[0, "oewn-15287732-n"], [2, "oewn-01256951-s"], [3, "oewn-02973559-n"], [5, "oewn-00120124-v"], [7, "oewn-01107164-n"], [9, "oewn-07780823-n"], [10, "oewn-01826770-a"], [12, "oewn-02275443-s"], [13, "oewn-08530790-n"], [16, "oewn-09293800-n"]]
+    oewn_key: [[0, "oewn-15287732-n"], [2, "oewn-01256951-s"], [3, "oewn-02973559-n"], [5, "oewn-00120124-v"], [7, "oewn-01107164-n"], [9, "oewn-07780823-n"], [10, "oewn-01826770-a"], [12, "oewn-02275443-s"], [13, "oewn-08530790-n"], [16, "oewn-09293800-n"]]
     paragraph: '22'
     pos: ["NN", ",", "JJ", "NNS", "VBP", "VBN", "DT", "NN", "IN", "NNS", "JJ", "RB", "JJ", "NN", "IN", "DT", "NN", "."]
     text: ' Today, refrigerated carriers have made the shipping of avocados possible to any
@@ -979,7 +979,7 @@ x6ug:
     wn30_key: [[0, "today%1:28:00::"], [2, "refrigerated%3:00:00:cold:01"], [3, "carrier%1:06:03::"], [5, "make%2:30:00::"], [7, "shipping%1:04:00::"], [9, "avocado%1:13:00::"], [10, "possible%3:00:00::"], [12, "any%3:00:00:some:00"], [13, "place%1:15:04::"], [16, "world%1:17:00::"]]
 0t8U:
     lemmas: ["The", "fruit", "be", "allow", "to", "mature", "on", "the", "tree", ",", "but", "it", "be", "still", "firm", "at", "this", "point", "."]
-    oewn2026_key: [[1, "oewn-13155706-n"], [3, "oewn-02427979-v"], [5, "oewn-00251067-v"], [8, "oewn-13124818-n"], [12, "oewn-02610777-v"], [13, "oewn-00031700-r"], [14, "oewn-01155243-s"], [17, "oewn-15205381-n"]]
+    oewn_key: [[1, "oewn-13155706-n"], [3, "oewn-02427979-v"], [5, "oewn-00251067-v"], [8, "oewn-13124818-n"], [12, "oewn-02610777-v"], [13, "oewn-00031700-r"], [14, "oewn-01155243-s"], [17, "oewn-15205381-n"]]
     paragraph: '22'
     pos: ["DT", "NN", "VB", "VBN", "VB", "VB", "IN", "DT", "NN", ",", "CC", "PRP", "VBZ", "RB", "JJ", "IN", "DT", "NN", "."]
     text: ' The fruit is allowed to mature on the tree, but it is still firm at this point.'
@@ -988,7 +988,7 @@ x6ug:
     wn30_key: [[1, "fruit%1:20:00::"], [3, "allow%2:41:00::"], [5, "mature%2:30:00::"], [8, "tree%1:20:00::"], [12, "be%2:42:03::"], [13, "still%4:02:01::"], [14, "firm%3:00:00:hard:01"], [17, "point%1:28:00::"]]
 HsDS:
     lemmas: ["It", "be", "bring", "to", "packinghouse", ",", "clean", "and", "grade", "as", "to", "size", "and", "quality", ",", "and", "pack", "in", "protective", "excelsior", "."]
-    oewn2026_key: [[2, "oewn-02081903-v"], [4, "oewn-03877694-n"], [6, "oewn-01535377-v"], [8, "oewn-00659723-v"], [11, "oewn-05106204-n"], [13, "oewn-04731092-n"], [16, "oewn-01485079-v"], [18, "oewn-01893175-a"], [19, "oewn-15001193-n"]]
+    oewn_key: [[2, "oewn-02081903-v"], [4, "oewn-03877694-n"], [6, "oewn-01535377-v"], [8, "oewn-00659723-v"], [11, "oewn-05106204-n"], [13, "oewn-04731092-n"], [16, "oewn-01485079-v"], [18, "oewn-01893175-a"], [19, "oewn-15001193-n"]]
     paragraph: '22'
     pos: ["PRP", "VBZ", "VBN", "VB", "NNS", ",", "VBN", "CC", "VBN", "RB", "TO", "NN", "CC", "NN", ",", "CC", "VBD", "IN", "JJ", "NN", "."]
     text: ' It is brought to packing_houses, cleaned and graded as to size and quality, and
@@ -998,7 +998,7 @@ HsDS:
     wn30_key: [[2, "bring%2:38:00::"], [4, "packinghouse%1:06:01::"], [6, "clean%2:35:00::"], [8, "grade%2:31:03::"], [11, "size%1:07:00::"], [13, "quality%1:07:00::"], [16, "pack%2:35:00::"], [18, "protective%3:00:00::"], [19, "excelsior%1:27:00::"]]
 mgdq:
     lemmas: ["The", "fruit", "be", "then", "cool", "to", "42", "'", "f", ",", "a", "temperature", "at", "which", "it", "lapse", "into", "a", "sort_of", "dormant", "state", "."]
-    oewn2026_key: [[1, "oewn-13155706-n"], [3, "oewn-00118799-r"], [4, "oewn-00371065-v"], [8, "oewn-13736746-n"], [11, "oewn-05018974-n"], [15, "oewn-00093079-v"], [18, "oewn-00018764-r"], [19, "oewn-00189643-s"], [20, "oewn-00024900-n"]]
+    oewn_key: [[1, "oewn-13155706-n"], [3, "oewn-00118799-r"], [4, "oewn-00371065-v"], [8, "oewn-13736746-n"], [11, "oewn-05018974-n"], [15, "oewn-00093079-v"], [18, "oewn-00018764-r"], [19, "oewn-00189643-s"], [20, "oewn-00024900-n"]]
     paragraph: '22'
     pos: ["DT", "NN", "VBZ", "RB", "VBN", "TO", "CD", "''", "NNP", ",", "DT", "NN", "IN", "WDT", "PRP", "VBZ", "IN", "DT", "RB", "JJ", "NN", "."]
     text: ' The fruit is then cooled to 42'' F., a temperature at which it lapses into a sort_of
@@ -1008,7 +1008,7 @@ mgdq:
     wn30_key: [[1, "fruit%1:20:00::"], [3, "then%4:02:01::"], [4, "cool%2:30:01::"], [8, "f%1:23:02::"], [11, "temperature%1:07:00::"], [15, "lapse%2:29:00::"], [18, "sort_of%4:02:00::"], [19, "dormant%3:00:00:asleep:00"], [20, "state%1:03:00::"]]
 4O3Z:
     lemmas: ["This", "cooling", "do", "not", "change", "the", "avocado", "in", "any", "way", ",", "it", "just", "delay", "the", "natural", "softening", "of", "the", "fruit", "until", "a", "grove", "like", "temperature", "(", "room_temperature", ")", "be", "restore", "."]
-    oewn2026_key: [[1, "oewn-13474333-n"], [3, "oewn-00024432-r"], [4, "oewn-00126072-v"], [6, "oewn-07780823-n"], [8, "oewn-02275443-s"], [9, "oewn-04936080-n"], [12, "oewn-00005103-r"], [13, "oewn-00460731-v"], [15, "oewn-01574358-a"], [16, "oewn-13578969-n"], [19, "oewn-13155706-n"], [22, "oewn-03468764-n"], [23, "oewn-01412553-a"], [24, "oewn-05018974-n"], [26, "oewn-05021626-n"], [29, "oewn-02558146-v"]]
+    oewn_key: [[1, "oewn-13474333-n"], [3, "oewn-00024432-r"], [4, "oewn-00126072-v"], [6, "oewn-07780823-n"], [8, "oewn-02275443-s"], [9, "oewn-04936080-n"], [12, "oewn-00005103-r"], [13, "oewn-00460731-v"], [15, "oewn-01574358-a"], [16, "oewn-13578969-n"], [19, "oewn-13155706-n"], [22, "oewn-03468764-n"], [23, "oewn-01412553-a"], [24, "oewn-05018974-n"], [26, "oewn-05021626-n"], [29, "oewn-02558146-v"]]
     paragraph: '22'
     pos: ["DT", "NN", "VBZ", "RB", "VB", "DT", "NN", "RB", "JJ", "NN", ",", "PRP", "RB", "VBZ", "DT", "JJ", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "JJ", "NN", "CD", "NN", "NN", "VBZ", "VBN", "."]
     text: ' This cooling does not change the avocado in any way, it just delays the natural
@@ -1018,7 +1018,7 @@ mgdq:
     wn30_key: [[1, "cooling%1:22:00::"], [3, "not%4:02:00::"], [4, "change%2:30:01::"], [6, "avocado%1:13:00::"], [8, "any%3:00:00:some:00"], [9, "way%1:07:01::"], [12, "just%4:02:00::"], [13, "delay%2:30:00::"], [15, "natural%3:00:01::"], [16, "softening%1:22:00::"], [19, "fruit%1:20:00::"], [22, "grove%1:06:00::"], [23, "like%3:00:00::"], [24, "temperature%1:07:00::"], [26, "room_temperature%1:07:00::"], [29, "restore%2:41:01::"]]
 BJ0Q:
     lemmas: ["This", "happen", "on", "the", "grocer", "'s", "shelf", "or", "in", "your", "kitchen", "."]
-    oewn2026_key: [[1, "oewn-00344828-v"], [4, "oewn-10167230-n"], [6, "oewn-04197095-n"], [10, "oewn-03625099-n"]]
+    oewn_key: [[1, "oewn-00344828-v"], [4, "oewn-10167230-n"], [6, "oewn-04197095-n"], [10, "oewn-03625099-n"]]
     paragraph: '22'
     pos: ["DT", "VBZ", "IN", "DT", "NN", "POS", "NN", "CC", "IN", "PRP$", "NN", "."]
     text: ' This happens on the grocer''s shelf or in your kitchen.
@@ -1029,7 +1029,7 @@ BJ0Q:
     wn30_key: [[1, "happen%2:30:01::"], [4, "grocer%1:18:00::"], [6, "shelf%1:06:00::"], [10, "kitchen%1:06:00::"]]
 p0ly:
     lemmas: ["one", "of", "the", "most", "attractive", "thing", "about", "avocado", "be", "that", "they", "do", "not", "require", "process", "of", "any", "kind", "."]
-    oewn2026_key: [[3, "oewn-00112352-r"], [4, "oewn-00172108-s"], [5, "oewn-04624646-n"], [7, "oewn-07780823-n"], [8, "oewn-02622439-v"], [12, "oewn-00024432-r"], [13, "oewn-02634015-v"], [14, "oewn-00516235-v"], [17, "oewn-05847533-n"]]
+    oewn_key: [[3, "oewn-00112352-r"], [4, "oewn-00172108-s"], [5, "oewn-04624646-n"], [7, "oewn-07780823-n"], [8, "oewn-02622439-v"], [12, "oewn-00024432-r"], [13, "oewn-02634015-v"], [14, "oewn-00516235-v"], [17, "oewn-05847533-n"]]
     paragraph: '23'
     pos: ["NN", "IN", "RB", "RBS", "JJ", "NNS", "IN", "NNS", "VBZ", "IN", "PRP", "VBP", "RB", "VB", "VB", "IN", "DT", "NN", "."]
     text: ' One of the most attractive things about avocados is that they do not require processing
@@ -1039,7 +1039,7 @@ p0ly:
     wn30_key: [[3, "most%4:02:00::"], [4, "attractive%3:00:00:appealing:00"], [5, "thing%1:07:00::"], [7, "avocado%1:13:00::"], [8, "be%2:42:06::"], [12, "not%4:02:00::"], [13, "require%2:42:00::"], [14, "process%2:30:00::"], [17, "kind%1:09:00::"]]
 J9XG:
     lemmas: ["There", "be", "no", "dyeing", "or", "waxing", "or", "gassing", "need", "."]
-    oewn2026_key: [[1, "oewn-02609706-v"], [3, "oewn-00276268-n"], [5, "oewn-00720640-n"], [7, "oewn-13507634-n"]]
+    oewn_key: [[1, "oewn-02609706-v"], [3, "oewn-00276268-n"], [5, "oewn-00720640-n"], [7, "oewn-13507634-n"]]
     paragraph: '23'
     pos: ["EX", "VBZ", "DT", "NN", "CC", "NN", "CC", "NN", "VB", "."]
     text: ' There is no dyeing or waxing or gassing needed.'
@@ -1048,7 +1048,7 @@ J9XG:
     wn30_key: [[1, "be%2:42:00::"], [3, "dyeing%1:04:00::"], [5, "waxing%1:04:00::"], [7, "gassing%1:22:00::"]]
 wv/1:
     lemmas: ["If", "the", "temperature", "be", "control", "properly", ",", "the", "avocado", "will", "delay", "its", "ripening", "until", "need", "."]
-    oewn2026_key: [[2, "oewn-05018974-n"], [4, "oewn-01227308-v"], [5, "oewn-00197608-r"], [8, "oewn-07780823-n"], [10, "oewn-00461855-v"], [12, "oewn-13533441-n"], [14, "oewn-02634015-v"]]
+    oewn_key: [[2, "oewn-05018974-n"], [4, "oewn-01227308-v"], [5, "oewn-00197608-r"], [8, "oewn-07780823-n"], [10, "oewn-00461855-v"], [12, "oewn-13533441-n"], [14, "oewn-02634015-v"]]
     paragraph: '23'
     pos: ["IN", "DT", "NN", "VBZ", "VBN", "RB", ",", "DT", "NN", "MD", "VB", "PRP$", "NN", "IN", "VBN", "."]
     text: ' If the temperature is controlled properly, the avocado will delay its ripening until
@@ -1058,7 +1058,7 @@ wv/1:
     wn30_key: [[2, "temperature%1:07:00::"], [4, "control%2:35:00::"], [5, "properly%4:02:00::"], [8, "avocado%1:13:00::"], [10, "delay%2:30:01::"], [12, "ripening%1:22:00::"], [14, "need%2:42:00::"]]
 7uP3:
     lemmas: ["And", "unlike", "other", "fruit", ",", "one", "cannot", "eat", "the", "skin", "of", "the", "avocado", "."]
-    oewn2026_key: [[2, "oewn-02076759-a"], [3, "oewn-13155706-n"], [7, "oewn-01170802-v"], [9, "oewn-05245612-n"], [12, "oewn-07780823-n"]]
+    oewn_key: [[2, "oewn-02076759-a"], [3, "oewn-13155706-n"], [7, "oewn-01170802-v"], [9, "oewn-05245612-n"], [12, "oewn-07780823-n"]]
     paragraph: '23'
     pos: ["CC", "IN", "JJ", "NNS", ",", "CD", "MD", "VBP", "DT", "NN", "IN", "DT", "NN", "."]
     text: ' And unlike other fruits, one cannot eat the skin of the avocado.'
@@ -1067,7 +1067,7 @@ wv/1:
     wn30_key: [[2, "other%3:00:00::"], [3, "fruit%1:20:00::"], [7, "eat%2:34:00::"], [9, "skin%1:08:00::"], [12, "avocado%1:13:00::"]]
 Nx5i:
     lemmas: ["It", "be", "thick", ",", "much", "like", "an", "eggplant", "'s", "skin", ",", "so", "that", "poison", "spray", ",", "if", "they", "be", "use", ",", "present", "no", "hazard", "to", "the", "consumer", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-02419189-a"], [4, "oewn-00059624-r"], [7, "oewn-07728819-n"], [9, "oewn-05245612-n"], [13, "oewn-15056943-n"], [14, "oewn-15077122-n"], [19, "oewn-01161188-v"], [21, "oewn-02728538-v"], [23, "oewn-14565454-n"], [26, "oewn-09635878-n"]]
+    oewn_key: [[1, "oewn-02610777-v"], [2, "oewn-02419189-a"], [4, "oewn-00059624-r"], [7, "oewn-07728819-n"], [9, "oewn-05245612-n"], [13, "oewn-15056943-n"], [14, "oewn-15077122-n"], [19, "oewn-01161188-v"], [21, "oewn-02728538-v"], [23, "oewn-14565454-n"], [26, "oewn-09635878-n"]]
     paragraph: '23'
     pos: ["PRP", "VBZ", "JJ", ",", "RB", "JJ", "DT", "NN", "POS", "NN", ",", "RB", "RB", "NN", "NNS", ",", "IN", "PRP", "VBP", "VBN", ",", "VBP", "DT", "NN", "TO", "DT", "NN", "."]
     text: ' It is thick, much like an egg_plant''s skin, so that poison sprays, if they are
@@ -1079,7 +1079,7 @@ Nx5i:
     wn30_key: [[1, "be%2:42:03::"], [2, "thick%3:00:01::"], [4, "much%4:02:00::"], [7, "eggplant%1:13:00::"], [9, "skin%1:08:00::"], [13, "poison%1:27:00::"], [14, "spray%1:27:01::"], [19, "use%2:34:01::"], [21, "present%2:42:00::"], [23, "hazard%1:26:00::"], [26, "consumer%1:18:00::"]]
 N6sH:
     lemmas: ["good", "taste", "and", "versatility", ",", "plus", "safety", "from", "spray", "poison", "would", "be", "enough", "to", "recommend", "the", "frequent", "use", "of", "such", "a", "fruit", ",", "even", "if", "its", "nutritional", "value", "be", "limited", "."]
-    oewn2026_key: [[0, "oewn-01126910-a"], [1, "oewn-05723230-n"], [3, "oewn-05649679-n"], [6, "oewn-14562074-n"], [8, "oewn-15077122-n"], [9, "oewn-15056943-n"], [11, "oewn-02610777-v"], [12, "oewn-02344113-s"], [14, "oewn-00884469-v"], [16, "oewn-01070231-a"], [17, "oewn-00948944-n"], [19, "oewn-01558587-s"], [21, "oewn-13155706-n"], [23, "oewn-00017907-r"], [26, "oewn-03013859-a"], [27, "oewn-05145753-n"], [28, "oewn-02610777-v"], [29, "oewn-01417858-a"]]
+    oewn_key: [[0, "oewn-01126910-a"], [1, "oewn-05723230-n"], [3, "oewn-05649679-n"], [6, "oewn-14562074-n"], [8, "oewn-15077122-n"], [9, "oewn-15056943-n"], [11, "oewn-02610777-v"], [12, "oewn-02344113-s"], [14, "oewn-00884469-v"], [16, "oewn-01070231-a"], [17, "oewn-00948944-n"], [19, "oewn-01558587-s"], [21, "oewn-13155706-n"], [23, "oewn-00017907-r"], [26, "oewn-03013859-a"], [27, "oewn-05145753-n"], [28, "oewn-02610777-v"], [29, "oewn-01417858-a"]]
     paragraph: '24'
     pos: ["JJ", "NN", "CC", "NN", ",", "CC", "NN", "IN", "NN", "NNS", "MD", "VB", "JJ", "TO", "VB", "DT", "JJ", "NN", "IN", "JJ", "DT", "NN", ",", "RB", "IN", "PRP$", "JJ", "NNS", "VBD", "JJ", "."]
     text: ' Good taste and versatility, plus safety from spray poisons would be enough to recommend
@@ -1089,7 +1089,7 @@ N6sH:
     wn30_key: [[0, "good%3:00:01::"], [1, "taste%1:09:02::"], [3, "versatility%1:09:00::"], [6, "safety%1:26:00::"], [8, "spray%1:27:01::"], [9, "poison%1:27:00::"], [11, "be%2:42:03::"], [12, "enough%3:00:00:sufficient:00"], [14, "recommend%2:32:00::"], [16, "frequent%3:00:00::"], [17, "use%1:04:00::"], [19, "such%3:00:00:much:00"], [21, "fruit%1:20:00::"], [23, "even%4:02:00::"], [26, "nutritional%3:01:00::"], [27, "value%1:07:00::"], [28, "be%2:42:03::"], [29, "limited%3:00:00::"]]
 mPka:
     lemmas: ["avocado", ",", "however", ",", "be", "very", "rich_in", "nutrient", "."]
-    oewn2026_key: [[0, "oewn-07780823-n"], [2, "oewn-00027761-r"], [4, "oewn-02610777-v"], [5, "oewn-00032295-r"], [7, "oewn-00021445-n"]]
+    oewn_key: [[0, "oewn-07780823-n"], [2, "oewn-00027761-r"], [4, "oewn-02610777-v"], [5, "oewn-00032295-r"], [7, "oewn-00021445-n"]]
     paragraph: '24'
     pos: ["NNP", ",", "RB", ",", "VBP", "RB", "JJ", "NNS", "."]
     text: ' Avocados, however, are very rich_in nutrients.'
@@ -1098,7 +1098,7 @@ mPka:
     wn30_key: [[0, "avocado%1:13:00::"], [2, "however%4:02:00::"], [4, "be%2:42:03::"], [5, "very%4:02:00::"], [7, "nutrient%1:03:00::"]]
 Ukdd:
     lemmas: ["Their", "main", "asset", "be", "an", "abundance", "of", "unsaturated", "fatty_acid", ",", "so", "necessary", "for", "maintain", "the", "good_health", "of", "the", "circulatory_system", "."]
-    oewn2026_key: [[1, "oewn-01280536-s"], [2, "oewn-05161764-n"], [3, "oewn-02622439-v"], [5, "oewn-05122340-n"], [7, "oewn-00761835-a"], [8, "oewn-14764406-n"], [10, "oewn-00147630-r"], [11, "oewn-01584458-a"], [13, "oewn-02284977-v"], [15, "oewn-14073193-n"], [18, "oewn-05519269-n"]]
+    oewn_key: [[1, "oewn-01280536-s"], [2, "oewn-05161764-n"], [3, "oewn-02622439-v"], [5, "oewn-05122340-n"], [7, "oewn-00761835-a"], [8, "oewn-14764406-n"], [10, "oewn-00147630-r"], [11, "oewn-01584458-a"], [13, "oewn-02284977-v"], [15, "oewn-14073193-n"], [18, "oewn-05519269-n"]]
     paragraph: '24'
     pos: ["PRP$", "JJ", "NN", "VBZ", "DT", "NN", "IN", "JJ", "NNS", ",", "RB", "JJ", "IN", "VBG", "DT", "NN", "IN", "DT", "NN", "."]
     text: ' Their main asset is an abundance of unsaturated fatty_acids, so necessary for maintaining
@@ -1108,7 +1108,7 @@ Ukdd:
     wn30_key: [[1, "main%3:00:00:important:00"], [2, "asset%1:07:00::"], [3, "be%2:42:06::"], [5, "abundance%1:07:00::"], [7, "unsaturated%3:00:01::"], [8, "fatty_acid%1:27:00::"], [10, "so%4:02:02::"], [11, "necessary%3:00:00::"], [13, "maintain%2:40:00::"], [15, "good_health%1:26:00::"], [18, "circulatory_system%1:08:00::"]]
 XX1Z:
     lemmas: ["aside", "from", "this", ",", "the", "average", "portion", "contain", "some", "protein", ",", "an", "appreciable", "amount", "of", "vitamin", "and", "vitamin_c", "-", "about", "one-tenth", "of", "the", "minimum", "daily", "requirement", ",", "and", "about", "a", "third", "of", "the", "official", "vitamin_e", "requirement", "."]
-    oewn2026_key: [[0, "oewn-00182242-r"], [5, "oewn-00488278-s"], [6, "oewn-13831419-n"], [7, "oewn-02635616-v"], [9, "oewn-14752903-n"], [12, "oewn-00627090-s"], [13, "oewn-00033914-n"], [15, "oewn-15113825-n"], [17, "oewn-15117865-n"], [19, "oewn-00007414-r"], [20, "oewn-13760467-n"], [23, "oewn-01499316-a"], [24, "oewn-01975230-s"], [25, "oewn-09390100-n"], [30, "oewn-13759330-n"], [33, "oewn-01636580-a"], [34, "oewn-15116976-n"], [35, "oewn-09390100-n"]]
+    oewn_key: [[0, "oewn-00182242-r"], [5, "oewn-00488278-s"], [6, "oewn-13831419-n"], [7, "oewn-02635616-v"], [9, "oewn-14752903-n"], [12, "oewn-00627090-s"], [13, "oewn-00033914-n"], [15, "oewn-15113825-n"], [17, "oewn-15117865-n"], [19, "oewn-00007414-r"], [20, "oewn-13760467-n"], [23, "oewn-01499316-a"], [24, "oewn-01975230-s"], [25, "oewn-09390100-n"], [30, "oewn-13759330-n"], [33, "oewn-01636580-a"], [34, "oewn-15116976-n"], [35, "oewn-09390100-n"]]
     paragraph: '24'
     pos: ["RB", "IN", "DT", ",", "DT", "JJ", "NN", "VBZ", "DT", "NN", ",", "DT", "JJ", "NN", "IN", "NNS", "CC", "NN", ":", "RB", "NN", "IN", "DT", "JJ", "JJ", "NN", ",", "CC", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "NN", "."]
     text: ' Aside from this, the average portion contains some protein, an appreciable amount
@@ -1119,7 +1119,7 @@ XX1Z:
     wn30_key: [[0, "aside%4:02:04::"], [5, "average%3:00:00:common:01"], [6, "portion%1:24:00::"], [7, "contain%2:42:00::"], [9, "protein%1:27:00::"], [12, "appreciable%3:00:00:considerable:00"], [13, "amount%1:03:00::"], [15, "vitamin%1:27:00::"], [17, "vitamin_c%1:27:00::"], [19, "about%4:02:00::"], [20, "one-tenth%1:23:00::"], [23, "minimum%3:00:00::"], [24, "daily%3:00:00:periodic:00"], [25, "requirement%1:17:00::"], [30, "third%1:23:00::"], [33, "official%3:00:00::"], [34, "vitamin_e%1:27:00::"], [35, "requirement%1:17:00::"]]
 36EM:
     lemmas: ["The", "b_vitamin", "be", "well", "represent", ",", "especially", "thiamin", "and", "riboflavin", "."]
-    oewn2026_key: [[1, "oewn-15115309-n"], [3, "oewn-00013891-r"], [4, "oewn-02547618-v"], [6, "oewn-00084573-r"], [7, "oewn-15115696-n"], [9, "oewn-15116040-n"]]
+    oewn_key: [[1, "oewn-15115309-n"], [3, "oewn-00013891-r"], [4, "oewn-02547618-v"], [6, "oewn-00084573-r"], [7, "oewn-15115696-n"], [9, "oewn-15116040-n"]]
     paragraph: '24'
     pos: ["DT", "NNS", "VB", "RB", "VBN", ",", "RB", "NN", "CC", "NN", "."]
     text: ' The B_vitamins are well represented, especially thiamin and riboflavin.'
@@ -1128,7 +1128,7 @@ XX1Z:
     wn30_key: [[1, "b_vitamin%1:27:00::"], [3, "well%4:02:08::"], [4, "represent%2:41:02::"], [6, "especially%4:02:00::"], [7, "thiamin%1:27:00::"], [9, "riboflavin%1:27:00::"]]
 ffHa:
     lemmas: ["calcium", ",", "phosphorus", "and", "iron", "be", "present", "in", "worthwhile", "amount", ",", "and", "eleven", "other", "mineral", "also", "have", "be", "find", "in", "vary", "trace", "amount", "."]
-    oewn2026_key: [[0, "oewn-14656826-n"], [2, "oewn-14673375-n"], [4, "oewn-14666595-n"], [5, "oewn-02610777-v"], [6, "oewn-01852337-a"], [8, "oewn-02598251-s"], [9, "oewn-00033914-n"], [12, "oewn-02195018-s"], [13, "oewn-02076759-a"], [14, "oewn-14686753-n"], [15, "oewn-00048072-r"], [18, "oewn-02158938-v"], [20, "oewn-02667330-v"], [21, "oewn-13795501-n"], [22, "oewn-00033914-n"]]
+    oewn_key: [[0, "oewn-14656826-n"], [2, "oewn-14673375-n"], [4, "oewn-14666595-n"], [5, "oewn-02610777-v"], [6, "oewn-01852337-a"], [8, "oewn-02598251-s"], [9, "oewn-00033914-n"], [12, "oewn-02195018-s"], [13, "oewn-02076759-a"], [14, "oewn-14686753-n"], [15, "oewn-00048072-r"], [18, "oewn-02158938-v"], [20, "oewn-02667330-v"], [21, "oewn-13795501-n"], [22, "oewn-00033914-n"]]
     paragraph: '24'
     pos: ["NN", ",", "NN", "CC", "NN", "VBP", "JJ", "IN", "JJ", "NNS", ",", "CC", "JJ", "JJ", "NNS", "RB", "VBP", "VB", "VBN", "IN", "VBG", "NN", "NNS", "."]
     text: ' Calcium, phosphorus and iron are present in worthwhile amounts, and eleven other
@@ -1138,7 +1138,7 @@ ffHa:
     wn30_key: [[0, "calcium%1:27:00::"], [2, "phosphorus%1:27:00::"], [4, "iron%1:27:00::"], [5, "be%2:42:03::"], [6, "present%3:00:02::"], [8, "worthwhile%3:00:00:worthy:00"], [9, "amount%1:03:00::"], [12, "eleven%3:00:00:cardinal:00"], [13, "other%3:00:00::"], [14, "mineral%1:27:00::"], [15, "also%4:02:00::"], [18, "find%2:39:02::"], [20, "vary%2:42:00::"], [21, "trace%1:23:00::"], [22, "amount%1:03:00::"]]
 cbff:
     lemmas: ["none", "of", "these", "value", "be", "destroy", ",", "not", "significantly", "alter", "by", "refrigeration", "storage", "."]
-    oewn2026_key: [[3, "oewn-05145753-n"], [5, "oewn-01622948-v"], [7, "oewn-00024432-r"], [8, "oewn-00006640-r"], [9, "oewn-00126072-v"], [11, "oewn-13569734-n"], [12, "oewn-00813016-n"]]
+    oewn_key: [[3, "oewn-05145753-n"], [5, "oewn-01622948-v"], [7, "oewn-00024432-r"], [8, "oewn-00006640-r"], [9, "oewn-00126072-v"], [11, "oewn-13569734-n"], [12, "oewn-00813016-n"]]
     paragraph: '24'
     pos: ["NN", "IN", "DT", "NNS", "VBZ", "VBN", ",", "RB", "RB", "VBN", "IN", "NN", "NN", "."]
     text: ' None of these values is destroyed, not significantly altered by refrigeration storage.
@@ -1149,7 +1149,7 @@ cbff:
     wn30_key: [[3, "value%1:07:00::"], [5, "destroy%2:36:00::"], [7, "not%4:02:00::"], [8, "significantly%4:02:03::"], [9, "alter%2:30:01::"], [11, "refrigeration%1:22:00::"], [12, "storage%1:04:01::"]]
 py0n:
     lemmas: ["person", ",", "of", "the", "group", ",", "location", ",", "florida", ",", "and", "the", "location", ",", "set_out", "to", "discover", "if", "avocado", ",", "because", "of", "their", "high", "content", "of", "unsaturated", "fatty_acid", ",", "would", "reduce", "the", "cholesterol", "of", "the", "blood", "in", "select", "patient", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [4, "oewn-00031563-n"], [6, "oewn-00027365-n"], [8, "oewn-09094188-n"], [12, "oewn-00027365-n"], [14, "oewn-00346415-v"], [16, "oewn-01641524-v"], [18, "oewn-07780823-n"], [23, "oewn-01213526-a"], [24, "oewn-13801586-n"], [26, "oewn-00761835-a"], [27, "oewn-14764406-n"], [30, "oewn-00430013-v"], [32, "oewn-15083111-n"], [35, "oewn-05407190-n"], [37, "oewn-00676526-v"], [38, "oewn-10425439-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [4, "oewn-00031563-n"], [6, "oewn-00027365-n"], [8, "oewn-09094188-n"], [12, "oewn-00027365-n"], [14, "oewn-00346415-v"], [16, "oewn-01641524-v"], [18, "oewn-07780823-n"], [23, "oewn-01213526-a"], [24, "oewn-13801586-n"], [26, "oewn-00761835-a"], [27, "oewn-14764406-n"], [30, "oewn-00430013-v"], [32, "oewn-15083111-n"], [35, "oewn-05407190-n"], [37, "oewn-00676526-v"], [38, "oewn-10425439-n"]]
     paragraph: '25'
     pos: ["NN", ",", "IN", "DT", "NNP", ",", "NNP", ",", "NNP", ",", "CC", "DT", "NN", ",", "VB", "TO", "VB", "IN", "NNS", ",", "IN", "IN", "PRP$", "JJ", "NN", "IN", "JJ", "NNS", ",", "MD", "VB", "DT", "NN", "IN", "DT", "NN", "IN", "VBN", "NNS", "."]
     text: ' Dr._Wilson_C._Grant, of the Veterans_''_Administration_Hospital, Coral_Gables, Florida,
@@ -1161,7 +1161,7 @@ py0n:
     wn30_key: [[0, "person%1:03:00::"], [4, "group%1:03:00::"], [6, "location%1:03:00::"], [8, "florida%1:15:00::"], [12, "location%1:03:00::"], [14, "set_out%2:30:00::"], [16, "discover%2:31:00::"], [18, "avocado%1:13:00::"], [23, "high%3:00:02::"], [24, "content%1:23:00::"], [26, "unsaturated%3:00:01::"], [27, "fatty_acid%1:27:00::"], [30, "reduce%2:30:00::"], [32, "cholesterol%1:27:00::"], [35, "blood%1:08:00::"], [37, "select%2:31:00::"], [38, "patient%1:18:00::"]]
 To1P:
     lemmas: ["The", "study", "comprise", "16", "male", "patient", ",", "range", "in", "age", "from", "27", "to", "72", "."]
-    oewn2026_key: [[1, "oewn-00645746-n"], [2, "oewn-02639437-v"], [3, "oewn-02195542-s"], [4, "oewn-01486984-s"], [5, "oewn-10425439-n"], [7, "oewn-02732914-v"], [9, "oewn-04931280-n"], [11, "oewn-02196647-s"]]
+    oewn_key: [[1, "oewn-00645746-n"], [2, "oewn-02639437-v"], [3, "oewn-02195542-s"], [4, "oewn-01486984-s"], [5, "oewn-10425439-n"], [7, "oewn-02732914-v"], [9, "oewn-04931280-n"], [11, "oewn-02196647-s"]]
     paragraph: '25'
     pos: ["DT", "NN", "VBD", "JJ", "JJ", "NNS", ",", "VBG", "IN", "NN", "IN", "JJ", "TO", "CD", "."]
     text: ' The study comprised 16 male patients, ranging in age from 27 to 72.'
@@ -1170,7 +1170,7 @@ To1P:
     wn30_key: [[1, "study%1:04:00::"], [2, "comprise%2:42:01::"], [3, "16%3:00:00:cardinal:00"], [4, "male%3:00:02:masculine:01"], [5, "patient%1:18:00::"], [7, "range%2:42:01::"], [9, "age%1:07:00::"], [11, "27%3:00:00:cardinal:00"]]
 syNa:
     lemmas: ["They", "be", "put", "on", "control", "diet", "to", "determine", "as", "accurately", "as", "possible", ",", "the", "normal", "cholesterol", "level", "of", "their", "blood", "."]
-    oewn2026_key: [[2, "oewn-01496398-v"], [4, "oewn-05806577-n"], [5, "oewn-07576677-n"], [7, "oewn-00920843-v"], [9, "oewn-00206226-r"], [11, "oewn-01826770-a"], [14, "oewn-01598231-a"], [15, "oewn-15083111-n"], [16, "oewn-05101152-n"], [19, "oewn-05407190-n"]]
+    oewn_key: [[2, "oewn-01496398-v"], [4, "oewn-05806577-n"], [5, "oewn-07576677-n"], [7, "oewn-00920843-v"], [9, "oewn-00206226-r"], [11, "oewn-01826770-a"], [14, "oewn-01598231-a"], [15, "oewn-15083111-n"], [16, "oewn-05101152-n"], [19, "oewn-05407190-n"]]
     paragraph: '25'
     pos: ["PRP", "VBD", "VBN", "JJ", "NN", "NNS", "TO", "VB", "RB", "RB", "RB", "JJ", ",", "DT", "JJ", "NN", "NN", "IN", "PRP$", "NN", "."]
     text: ' They were put on control diets to determine as accurately as possible, the normal
@@ -1180,7 +1180,7 @@ syNa:
     wn30_key: [[2, "put%2:35:05::"], [4, "control%1:09:02::"], [5, "diet%1:13:00::"], [7, "determine%2:32:00::"], [9, "accurately%4:02:02::"], [11, "possible%3:00:00::"], [14, "normal%3:00:01::"], [15, "cholesterol%1:27:00::"], [16, "level%1:07:00::"], [19, "blood%1:08:00::"]]
 UJpz:
     lemmas: ["then", "they", "be", "give", "12", "to", "1", "-", "12", "avocado", "per", "day", "as", "a", "substitute", "for", "part", "of", "their", "dietary", "fat", "consumption", "."]
-    oewn2026_key: [[0, "oewn-00118527-r"], [3, "oewn-01180862-v"], [4, "oewn-02195104-s"], [6, "oewn-02193977-s"], [8, "oewn-02195104-s"], [9, "oewn-07780823-n"], [11, "oewn-15180180-n"], [14, "oewn-05704390-n"], [16, "oewn-13831419-n"], [19, "oewn-02857207-a"], [20, "oewn-14888511-n"], [21, "oewn-00839759-n"]]
+    oewn_key: [[0, "oewn-00118527-r"], [3, "oewn-01180862-v"], [4, "oewn-02195104-s"], [6, "oewn-02193977-s"], [8, "oewn-02195104-s"], [9, "oewn-07780823-n"], [11, "oewn-15180180-n"], [14, "oewn-05704390-n"], [16, "oewn-13831419-n"], [19, "oewn-02857207-a"], [20, "oewn-14888511-n"], [21, "oewn-00839759-n"]]
     paragraph: '25'
     pos: ["RB", "PRP", "VBD", "VBN", "JJ", "TO", "JJ", ":", "JJ", "NNS", "IN", "NN", "IN", "DT", "NN", "VB", "NN", "IN", "PRP$", "JJ", "NN", "NN", "."]
     text: ' Then they were given 1_2 to 1 - 1_2 avocados per day as a substitute for part of

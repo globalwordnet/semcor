@@ -3,7 +3,7 @@ _meta:
         type: seq
         base: tokens
         data: string
-    oewn2026_key:
+    oewn_key:
         type: element
         base: tokens
         data: string
@@ -28,7 +28,7 @@ _meta:
         data: string
 LFMD:
     lemmas: ["An", "out-of-town", "writer", "come_up_to", "paul_richards", "today", "and", "ask", "the", "oriole", "manager", "if", "he", "think", "his", "ball_club", "would", "be", "improved", "this", "year", "."]
-    oewn2026_key: [[3, "oewn-00992687-v"], [7, "oewn-00899241-v"], [13, "oewn-00633399-v"], [17, "oewn-02610777-v"]]
+    oewn_key: [[3, "oewn-00992687-v"], [7, "oewn-00899241-v"], [13, "oewn-00633399-v"], [17, "oewn-02610777-v"]]
     paragraph: '0'
     pos: ["DT", "JJ", "NN", "VB", "NNP", "NN", "CC", "VBD", "DT", "NNP", "NN", "IN", "PRP", "VBD", "PRP$", "NN", "MD", "VB", "JJ", "DT", "NN", "."]
     text: 'An out-of-town writer came_up_to Paul_Richards today and asked the Oriole manager
@@ -40,7 +40,7 @@ LFMD:
     wn30_key: [[3, "come_up_to%2:32:00::"], [7, "ask%2:32:00::"], [13, "think%2:31:03::"], [17, "be%2:42:03::"]]
 KyIu:
     lemmas: ["now", "richards", ",", "of_course", ",", "be", "know", "as", "a", "deep", "thinker", "as", "baseball", "manager", "go", "."]
-    oewn2026_key: [[6, "oewn-00597330-v"]]
+    oewn_key: [[6, "oewn-00597330-v"]]
     paragraph: '1'
     pos: ["RB", "NNP", ",", "RB", ",", "VBZ", "VBN", "IN", "DT", "JJ", "NN", "IN", "NN", "NNS", "VBP", "."]
     text: ' Now Richards, of_course, is known as a deep thinker as baseball managers go.'
@@ -49,7 +49,7 @@ KyIu:
     wn30_key: [[6, "know%2:31:03::"]]
 hgJi:
     lemmas: ["He", "can", "often", "make", "the", "complex", "ridiculously", "simple", ",", "and", "vice_versa", "."]
-    oewn2026_key: [[3, "oewn-00120124-v"]]
+    oewn_key: [[3, "oewn-00120124-v"]]
     paragraph: '1'
     pos: ["PRP", "MD", "RB", "VB", "DT", "JJ", "RB", "JJ", ",", "CC", "RB", "."]
     text: ' He can often make the complex ridiculously simple, and vice_versa.'
@@ -58,7 +58,7 @@ hgJi:
     wn30_key: [[3, "make%2:30:00::"]]
 MjY2:
     lemmas: ["This", "happen", "to", "be", "vice_versa", ",", "but", "even_so", ",", "the", "answer", "be", "a", "masterpiece", "."]
-    oewn2026_key: [[1, "oewn-02600068-v"], [3, "oewn-02610777-v"], [11, "oewn-02610777-v"]]
+    oewn_key: [[1, "oewn-02600068-v"], [3, "oewn-02610777-v"], [11, "oewn-02610777-v"]]
     paragraph: '1'
     pos: ["DT", "VBD", "VB", "VB", "RB", ",", "CC", "RB", ",", "DT", "NN", "VBD", "DT", "NN", "."]
     text: ' This happened to be vice_versa, but even_so, the answer was a masterpiece.
@@ -69,7 +69,7 @@ MjY2:
     wn30_key: [[1, "happen%2:41:00::"], [3, "be%2:42:03::"], [11, "be%2:42:03::"]]
 JK9j:
     lemmas: ["\"", "It", "'s", "a", "whole", "lot", "easy", "\"", ",", "he", "say", ",", "\"", "to", "increase", "the", "population", "of", "nevada", ",", "than", "it", "be", "to", "increase", "the", "population", "of", "new_york_city", "\"", "."]
-    oewn2026_key: [[10, "oewn-01011267-v"], [14, "oewn-00153083-v"], [24, "oewn-00153083-v"]]
+    oewn_key: [[10, "oewn-01011267-v"], [14, "oewn-00153083-v"], [24, "oewn-00153083-v"]]
     paragraph: '2'
     pos: ["``", "PRP", "VBZ", "DT", "JJ", "NN", "JJR", "``", ",", "PRP", "VBD", ",", "''", "TO", "VB", "DT", "NN", "IN", "NNP", ",", "IN", "PRP", "VBZ", "TO", "VB", "DT", "NN", "IN", "NN", "''", "."]
     text: ' " It''s a whole lot easier ", he said, " to increase the population of Nevada, than
@@ -79,7 +79,7 @@ JK9j:
     wn30_key: [[10, "say%2:32:00::"], [14, "increase%2:30:02::"], [24, "increase%2:30:02::"]]
 fO2W:
     lemmas: ["And", "with_that", "he", "walk", "off", "to", "give", "instruction", "to", "a", "rookie", "pitcher", "."]
-    oewn2026_key: [[3, "oewn-01908923-v"], [6, "oewn-02301114-v"]]
+    oewn_key: [[3, "oewn-01908923-v"], [6, "oewn-02301114-v"]]
     paragraph: '2'
     pos: ["CC", "RB", "PRP", "VBD", "RB", "TO", "VB", "NN", "TO", "DT", "NN", "NN", "."]
     text: ' And with_that he walked off to give instruction to a rookie pitcher.
@@ -90,7 +90,7 @@ fO2W:
     wn30_key: [[3, "walk%2:38:00::"], [6, "give%2:40:09::"]]
 7e1c:
     lemmas: ["\"", "That", "be", "undoubtedly", "a", "hell", "of", "a", "quote", "\"", ",", "say", "the", "writer", ",", "scratch", "his", "head", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"], [11, "oewn-01011267-v"], [15, "oewn-02124339-v"]]
+    oewn_key: [[2, "oewn-02610777-v"], [11, "oewn-01011267-v"], [15, "oewn-02124339-v"]]
     paragraph: '3'
     pos: ["``", "RB", "VBZ", "RB", "DT", "NN", "IN", "DT", "NN", "''", ",", "VBD", "DT", "NN", ",", "VBG", "PRP$", "NN", "."]
     text: ' " That is undoubtedly a hell of a quote ", said the writer, scratching his head.'
@@ -99,7 +99,7 @@ fO2W:
     wn30_key: [[2, "be%2:42:03::"], [11, "say%2:32:00::"], [15, "scratch%2:39:00::"]]
 1P9T:
     lemmas: ["\"", "now", ",", "if", "I", "can", "just", "figure_out", "what", "he", "'s", "talk_about", ",", "I", "'ll", "use", "it", "\"", "."]
-    oewn2026_key: [[7, "oewn-00636568-v"], [11, "oewn-01036184-v"], [15, "oewn-01161188-v"]]
+    oewn_key: [[7, "oewn-00636568-v"], [11, "oewn-01036184-v"], [15, "oewn-01161188-v"]]
     paragraph: '3'
     pos: ["``", "RB", ",", "IN", "PRP", "MD", "RB", "VB", "WP", "PRP", "VBZ", "VB", ",", "PRP", "MD", "VB", "PRP", "``", "."]
     text: ' " Now, if I can just figure_out what he''s talking_about, I''ll use it ".
@@ -110,7 +110,7 @@ fO2W:
     wn30_key: [[7, "figure_out%2:31:00::"], [11, "talk_about%2:32:00::"], [15, "use%2:34:01::"]]
 YHAy:
     lemmas: ["This", "be", "just", "Richard", "'s", "way", "of", "say", "that", "last", "year", "the_Birds", "open", "spring_training", "with", "a_lot_of", "job", "wide_open", "."]
-    oewn2026_key: [[1, "oewn-02622439-v"], [7, "oewn-01011267-v"], [12, "oewn-02431018-v"]]
+    oewn_key: [[1, "oewn-02622439-v"], [7, "oewn-01011267-v"], [12, "oewn-02431018-v"]]
     paragraph: '4'
     pos: ["DT", "VBD", "RB", "NNP", "POS", "NN", "IN", "VBG", "IN", "JJ", "NN", "NN", "VBD", "NN", "IN", "JJ", "NNS", "JJ", "."]
     text: ' This was just Richard''s way of saying that last year the_Birds opened spring_training
@@ -120,7 +120,7 @@ YHAy:
     wn30_key: [[1, "be%2:42:06::"], [7, "say%2:32:00::"], [12, "open%2:41:00::"]]
 Kb3o:
     lemmas: ["Some", "brilliant", "rookie", "nail_down", "them", "down", ",", "so_that", "this", "spring", "just", "two", "spots", ",", "left", "and", "right", "field", ",", "be", "really", "up", "for", "grab", "."]
-    oewn2026_key: [[3, "oewn-02530563-v"], [19, "oewn-02610777-v"]]
+    oewn_key: [[3, "oewn-02530563-v"], [19, "oewn-02610777-v"]]
     paragraph: '4'
     pos: ["DT", "JJ", "NNS", "VBD", "PRP", "RB", ",", "RB", "DT", "NN", "RB", "CD", "NNS", ",", "JJ", "CC", "NN", "NN", ",", "VBP", "RB", "IN", "IN", "NNS", "."]
     text: ' Some brilliant rookies nailed them down, so_that this spring just two spots, left
@@ -132,7 +132,7 @@ Kb3o:
     wn30_key: [[3, "nail_down%2:41:00::"], [19, "be%2:42:03::"]]
 8Djw:
     lemmas: ["It", "should", "be", "easy", "to", "plug", "two", "spots", "than", "it", "be", "to", "fill", "the", "wholesale", "lots", "that", "be", "open", "last", "year", ",", "but", "so_far", "it", "have", "n't", "work", "that", "way", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"], [5, "oewn-01425540-v"], [10, "oewn-02610777-v"], [12, "oewn-02399325-v"], [17, "oewn-02610777-v"], [27, "oewn-02531113-v"]]
+    oewn_key: [[2, "oewn-02610777-v"], [5, "oewn-01425540-v"], [10, "oewn-02610777-v"], [12, "oewn-02399325-v"], [17, "oewn-02610777-v"], [27, "oewn-02531113-v"]]
     paragraph: '5'
     pos: ["PRP", "MD", "VB", "JJR", "TO", "VB", "CD", "NNS", "IN", "PRP", "VBD", "TO", "VB", "DT", "JJ", "NNS", "WDT", "VBD", "JJ", "JJ", "NN", ",", "CC", "RB", "PRP", "VBZ", "RB", "VBD", "IN", "NN", "."]
     text: ' It should be easier to plug two spots than it was to fill the wholesale lots that
@@ -144,7 +144,7 @@ Kb3o:
     wn30_key: [[2, "be%2:42:03::"], [5, "plug%2:35:01::"], [10, "be%2:42:03::"], [12, "fill%2:41:00::"], [17, "be%2:42:03::"], [27, "work%2:41:03::"]]
 HihB:
     lemmas: ["This", "angle", "of", "just", "where", "the", "oriole", "can", "look_for", "improvement", "this", "year", "be", "an", "interesting", "one", "."]
-    oewn2026_key: [[8, "oewn-01318273-v"], [12, "oewn-02610777-v"]]
+    oewn_key: [[8, "oewn-01318273-v"], [12, "oewn-02610777-v"]]
     paragraph: '6'
     pos: ["DT", "NN", "IN", "RB", "WRB", "DT", "NNP", "MD", "VB", "NN", "DT", "NN", "VBZ", "DT", "JJ", "CD", "."]
     text: ' This angle of just where the Orioles can look_for improvement this year is an interesting
@@ -154,7 +154,7 @@ HihB:
     wn30_key: [[8, "look_for%2:35:00::"], [12, "be%2:42:03::"]]
 /cRp:
     lemmas: ["You", "'d", "never", "guess", "it", "from", "the", "way", "they", "'ve", "play", "so_far", "this", "spring", ",", "but", "there", "remain", "a", "feeling", "among", "some", "around", "here", "that", "the", "oriole", "still", "have", "a", "chance", "to", "battle", "for", "the", "pennant", "in", "1961", "."]
-    oewn2026_key: [[3, "oewn-00637723-v"], [10, "oewn-01075360-v"], [17, "oewn-02733337-v"], [28, "oewn-02208144-v"], [32, "oewn-01094777-v"]]
+    oewn_key: [[3, "oewn-00637723-v"], [10, "oewn-01075360-v"], [17, "oewn-02733337-v"], [28, "oewn-02208144-v"], [32, "oewn-01094777-v"]]
     paragraph: '6'
     pos: ["PRP", "MD", "RB", "VB", "PRP", "IN", "DT", "NN", "PRP", "VBP", "VBN", "RB", "DT", "NN", ",", "CC", "EX", "VBZ", "DT", "NN", "IN", "DT", "IN", "RB", "IN", "DT", "NNP", "RB", "VB", "DT", "NN", "TO", "VB", "IN", "DT", "NN", "IN", "CD", "."]
     text: ' You''d never guess it from the way they''ve played so_far this spring, but there
@@ -167,7 +167,7 @@ HihB:
     wn30_key: [[3, "guess%2:31:02::"], [10, "play%2:33:00::"], [17, "remain%2:42:01::"], [28, "have%2:40:00::"], [32, "battle%2:33:00::"]]
 Gjm8:
     lemmas: ["obviously", ",", "if", "this", "club", "be", "go_to", "move", "from", "second", "to", "first", "in", "the", "american_league", ",", "it", "will", "have", "to", "show", "improvement", "someplace", "."]
-    oewn2026_key: [[7, "oewn-00540190-v"], [20, "oewn-02141597-v"]]
+    oewn_key: [[7, "oewn-00540190-v"], [20, "oewn-02141597-v"]]
     paragraph: '7'
     pos: ["RB", ",", "IN", "DT", "NN", "VBZ", "VB", "VB", "IN", "JJ", "TO", "JJ", "IN", "DT", "NNP", ",", "PRP", "MD", "VB", "VB", "VB", "NN", "RB", "."]
     text: ' Obviously, if this club is going_to move from second to first in the American_League,
@@ -177,7 +177,7 @@ Gjm8:
     wn30_key: [[7, "move%2:30:01::"], [20, "show%2:39:00::"]]
 9ezg:
     lemmas: ["Where", "can", "that", "improvement", "possibly", "come", "from", "?"]
-    oewn2026_key: [[5, "oewn-02631420-v"]]
+    oewn_key: [[5, "oewn-02631420-v"]]
     paragraph: '7'
     pos: ["WRB", "MD", "IN", "NN", "RB", "VB", "VB", "."]
     text: ' Where can that improvement possibly come from?
@@ -188,7 +188,7 @@ Gjm8:
     wn30_key: [[5, "come%2:42:04::"]]
 1ASL:
     lemmas: ["You", "certainly", "can", "n't", "expect", "the", "infield", "to", "do", "any", "good", "than", "it", "do", "last", "year", "."]
-    oewn2026_key: [[4, "oewn-00721658-v"], [8, "oewn-02623620-v"], [13, "oewn-02623620-v"]]
+    oewn_key: [[4, "oewn-00721658-v"], [8, "oewn-02623620-v"], [13, "oewn-02623620-v"]]
     paragraph: '8'
     pos: ["PRP", "RB", "MD", "RB", "VB", "DT", "NN", "TO", "VB", "DT", "JJR", "IN", "PRP", "VBD", "JJ", "NN", "."]
     text: ' You certainly cann''t expect the infield to do any better than it did last year.
@@ -199,7 +199,7 @@ Gjm8:
     wn30_key: [[4, "expect%2:31:00::"], [8, "do%2:42:00::"], [13, "do%2:42:00::"]]
 6Egd:
     lemmas: ["brooks_robinson", "be", "great", ",", "and", "it", "be", "conceivable", "that", "he", "'ll", "do", "even", "good", "in", "1961", "than", "he", "do", "in", "1960", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [6, "oewn-02610777-v"], [11, "oewn-02623620-v"], [18, "oewn-02623620-v"]]
+    oewn_key: [[1, "oewn-02610777-v"], [6, "oewn-02610777-v"], [11, "oewn-02623620-v"], [18, "oewn-02623620-v"]]
     paragraph: '9'
     pos: ["NNP", "VBZ", "JJ", ",", "CC", "PRP", "VBZ", "JJ", "IN", "PRP", "MD", "VB", "RB", "JJR", "IN", "CD", "IN", "PRP", "VBD", "VB", "CD", "."]
     text: ' Brooks_Robinson is great, and it is conceivable that he''ll do even better in 1961
@@ -209,7 +209,7 @@ Gjm8:
     wn30_key: [[1, "be%2:42:03::"], [6, "be%2:42:03::"], [11, "do%2:42:00::"], [18, "do%2:42:00::"]]
 Jklm:
     lemmas: ["You", "can", "n't", "expect", "it", ",", "though", "."]
-    oewn2026_key: [[3, "oewn-00721658-v"]]
+    oewn_key: [[3, "oewn-00721658-v"]]
     paragraph: '9'
     pos: ["PRP", "MD", "RB", "VB", "PRP", ",", "RB", "."]
     text: ' You cann''t expect it, though.'
@@ -218,7 +218,7 @@ Jklm:
     wn30_key: [[3, "expect%2:31:00::"]]
 S1gs:
     lemmas: ["Robby", "'s", "performance", "last", "year", "be", "tremendous", "."]
-    oewn2026_key: [[5, "oewn-02610777-v"]]
+    oewn_key: [[5, "oewn-02610777-v"]]
     paragraph: '9'
     pos: ["NNP", "POS", "NN", "JJ", "NN", "VBD", "JJ", "."]
     text: ' Robby''s performance last year was tremendous.
@@ -229,7 +229,7 @@ S1gs:
     wn30_key: [[5, "be%2:42:03::"]]
 qOkj:
     lemmas: ["It", "'s", "the", "same", "with", "ron_hansen", "and", "jim", "gentile", "."]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '10'
     pos: ["PRP", "VBZ", "DT", "JJ", "IN", "NNP", "CC", "NN", "NNP", "."]
     text: ' It''s the same with Ron_Hansen and jim Gentile.'
@@ -238,7 +238,7 @@ qOkj:
     wn30_key: []
 ZcBe:
     lemmas: ["If", "they", "do", "as_well", "as", "they", "do", "in", "1960", "there", "can", "be", "no", "complaint", "."]
-    oewn2026_key: [[2, "oewn-02623620-v"], [6, "oewn-02623620-v"]]
+    oewn_key: [[2, "oewn-02623620-v"], [6, "oewn-02623620-v"]]
     paragraph: '10'
     pos: ["IN", "PRP", "VBP", "RB", "IN", "PRP", "VBD", "VB", "CD", "EX", "MD", "VB", "DT", "NN", "."]
     text: ' If they do as_well as they did in 1960 there can be no complaint.'
@@ -247,7 +247,7 @@ ZcBe:
     wn30_key: [[2, "do%2:42:00::"], [6, "do%2:42:00::"]]
 k0wZ:
     lemmas: ["They", "should", "n't", "be", "ask", "to", "carry", "any_more", "of", "the", "burden", "."]
-    oewn2026_key: [[4, "oewn-00754499-v"], [6, "oewn-01220648-v"]]
+    oewn_key: [[4, "oewn-00754499-v"], [6, "oewn-01220648-v"]]
     paragraph: '10'
     pos: ["PRP", "MD", "RB", "VB", "VBN", "TO", "VB", "RB", "IN", "DT", "NN", "."]
     text: ' They shouldn''t be asked to carry any_more of the burden.
@@ -258,7 +258,7 @@ k0wZ:
     wn30_key: [[4, "ask%2:32:01::"], [6, "carry%2:35:09::"]]
 Gmma:
     lemmas: ["Hansen", "will", "be", "get", "a", "late", "spring_training", "start", ",", "which", "might", "very_well", "set_back", "him", "back", "."]
-    oewn2026_key: [[3, "oewn-02112480-v"], [12, "oewn-02457523-v"]]
+    oewn_key: [[3, "oewn-02112480-v"], [12, "oewn-02457523-v"]]
     paragraph: '11'
     pos: ["NNP", "MD", "VB", "VBG", "DT", "JJ", "NN", "NN", ",", "WDT", "MD", "RB", "VB", "PRP", "RB", "."]
     text: ' Hansen will be getting a late spring_training start, which might very_well set him
@@ -268,7 +268,7 @@ Gmma:
     wn30_key: [[3, "get%2:39:00::"], [12, "set_back%2:41:00::"]]
 BCn0:
     lemmas: ["He", "get_off", "to", "an", "exceptional", "start", "last", "season", ",", "and", "under_the_circumstances", "probably", "win", "n't", "duplicate", "it", "."]
-    oewn2026_key: [[14, "oewn-01738383-v"]]
+    oewn_key: [[14, "oewn-01738383-v"]]
     paragraph: '11'
     pos: ["PRP", "VB", "TO", "DT", "JJ", "NN", "JJ", "NN", ",", "CC", "RB", "RB", "VBD", "RB", "VB", "PRP", "."]
     text: ' He got_off to an exceptional start last season, and under_the_circumstances probably
@@ -280,7 +280,7 @@ BCn0:
     wn30_key: [[14, "duplicate%2:36:00::"]]
 kQsb:
     lemmas: ["There", "be", "some", "club", "which", "claim", "they", "learn", "something", "about", "pitch", "to", "him", "last", "year", "."]
-    oewn2026_key: [[7, "oewn-00600349-v"], [10, "oewn-01515257-v"]]
+    oewn_key: [[7, "oewn-00600349-v"], [10, "oewn-01515257-v"]]
     paragraph: '12'
     pos: ["EX", "VB", "DT", "NNS", "WDT", "NN", "PRP", "VBD", "NN", "IN", "VBG", "TO", "PRP", "JJ", "NN", "."]
     text: ' There are some clubs which claim they learned something about pitching to him last
@@ -290,7 +290,7 @@ kQsb:
     wn30_key: [[7, "learn%2:31:01::"], [10, "pitch%2:35:00::"]]
 ahfC:
     lemmas: ["They", "do", "n't", "expect", "to", "stop", "him", ",", "just", "slow_down", "him", "down", "some", "with", "the", "bat", "."]
-    oewn2026_key: [[3, "oewn-00721658-v"], [5, "oewn-02565578-v"], [9, "oewn-00441741-v"]]
+    oewn_key: [[3, "oewn-00721658-v"], [5, "oewn-02565578-v"], [9, "oewn-00441741-v"]]
     paragraph: '12'
     pos: ["PRP", "VBP", "RB", "VB", "TO", "VB", "PRP", ",", "RB", "VB", "PRP", "RB", "DT", "IN", "DT", "NN", "."]
     text: ' They don''t expect to stop him, just slow him down some with the bat.'
@@ -299,7 +299,7 @@ ahfC:
     wn30_key: [[3, "expect%2:31:00::"], [5, "stop%2:41:00::"], [9, "slow_down%2:30:04::"]]
 dfMo:
     lemmas: ["He", "'ll", "still", "be", "a", "top", "player", ",", "they", "concede", ",", "because", "he", "'s", "get", "a", "great", "glove", "and", "the", "long", "ball", "go_for", "him", "."]
-    oewn2026_key: [[3, "oewn-02610777-v"], [9, "oewn-00807711-v"], [14, "oewn-02215637-v"]]
+    oewn_key: [[3, "oewn-02610777-v"], [9, "oewn-00807711-v"], [14, "oewn-02215637-v"]]
     paragraph: '12'
     pos: ["PRP", "MD", "RB", "VB", "DT", "JJ", "NN", ",", "PRP", "VBP", ",", "IN", "PRP", "VBZ", "VBD", "DT", "JJ", "NN", "CC", "DT", "JJ", "NN", "VB", "PRP", "."]
     text: ' He''ll still be a top player, they concede, because he''s got a great glove and
@@ -309,7 +309,7 @@ dfMo:
     wn30_key: [[3, "be%2:42:03::"], [9, "concede%2:32:01::"], [14, "get%2:40:00::"]]
 Qtus:
     lemmas: ["But", "they", "expect", "to", "reduce", "his", "over-all", "offensive", "production", "."]
-    oewn2026_key: [[2, "oewn-00721658-v"], [4, "oewn-00430013-v"]]
+    oewn_key: [[2, "oewn-00721658-v"], [4, "oewn-00430013-v"]]
     paragraph: '12'
     pos: ["CC", "PRP", "VBP", "TO", "VB", "PRP$", "JJ", "JJ", "NN", "."]
     text: ' But they expect to reduce his over-all offensive production.
@@ -320,7 +320,7 @@ Qtus:
     wn30_key: [[2, "expect%2:31:00::"], [4, "reduce%2:30:00::"]]
 lQrd:
     lemmas: ["gentile", "can", "hardly", "do", "good", "than", "drive_in", "98", "run", "."]
-    oewn2026_key: [[6, "oewn-01116045-v"]]
+    oewn_key: [[6, "oewn-01116045-v"]]
     paragraph: '13'
     pos: ["NNP", "MD", "RB", "VB", "JJR", "IN", "VB", "CD", "NN", "."]
     text: ' Gentile can hardly do better than drive_in 98 runs.'
@@ -329,7 +329,7 @@ lQrd:
     wn30_key: [[6, "drive_in%2:33:00::"]]
 ZDlq:
     lemmas: ["do", "n't", "ask", "him", "more", "."]
-    oewn2026_key: [[2, "oewn-00754499-v"]]
+    oewn_key: [[2, "oewn-00754499-v"]]
     paragraph: '13'
     pos: ["VBP", "RB", "VB", "PRP", "JJR", "."]
     text: ' Don''t ask him more.
@@ -340,7 +340,7 @@ ZDlq:
     wn30_key: [[2, "ask%2:32:01::"]]
 naLP:
     lemmas: ["I", "have", "a", "hunch", "Marv_Breeding", "might", "move_up", "a", "notch", "."]
-    oewn2026_key: [[1, "oewn-02208144-v"], [6, "oewn-01973786-v"]]
+    oewn_key: [[1, "oewn-02208144-v"], [6, "oewn-01973786-v"]]
     paragraph: '14'
     pos: ["PRP", "VBP", "DT", "NN", "NNP", "MD", "VB", "DT", "NN", "."]
     text: ' I have a hunch Marv_Breeding might move_up a notch.'
@@ -349,7 +349,7 @@ naLP:
     wn30_key: [[1, "have%2:40:00::"], [6, "move_up%2:38:01::"]]
 s847:
     lemmas: ["But", "even_so", ",", "he", "have", "a", "good", "year", "in", "1960", "and", "win", "n't", "do", "too_much", "good", "."]
-    oewn2026_key: [[4, "oewn-00120854-v"]]
+    oewn_key: [[4, "oewn-00120854-v"]]
     paragraph: '14'
     pos: ["CC", "RB", ",", "PRP", "VBD", "DT", "JJ", "NN", "IN", "CD", "CC", "VBD", "RB", "VB", "RB", "JJR", "."]
     text: ' But even_so, he had a good year in 1960 and wonn''t do too_much better.
@@ -360,7 +360,7 @@ s847:
     wn30_key: [[4, "have%2:30:01::"]]
 tmRB:
     lemmas: ["so", ",", "all_in_all", ",", "the", "infield", "can", "n't", "be", "expect", "to", "supply", "the", "added", "improvement", "to", "propel", "the_Birds", "from", "second", "to", "first", "."]
-    oewn2026_key: [[9, "oewn-00721658-v"], [11, "oewn-02332196-v"], [16, "oewn-01514338-v"]]
+    oewn_key: [[9, "oewn-00721658-v"], [11, "oewn-02332196-v"], [16, "oewn-01514338-v"]]
     paragraph: '15'
     pos: ["RB", ",", "RB", ",", "DT", "NN", "MD", "RB", "VB", "VBN", "TO", "VB", "DT", "JJ", "NN", "TO", "VB", "NN", "IN", "JJ", "TO", "JJ", "."]
     text: ' So, all_in_all, the infield cann''t be expected to supply the added improvement
@@ -372,7 +372,7 @@ tmRB:
     wn30_key: [[9, "expect%2:31:00::"], [11, "supply%2:40:00::"], [16, "propel%2:35:00::"]]
 lKMy:
     lemmas: ["And", "the", "pitching", "will", "also", "have", "trouble", "do", "good", "."]
-    oewn2026_key: [[5, "oewn-00120854-v"], [7, "oewn-02623620-v"]]
+    oewn_key: [[5, "oewn-00120854-v"], [7, "oewn-02623620-v"]]
     paragraph: '16'
     pos: ["CC", "DT", "NN", "MD", "RB", "VB", "NN", "VBG", "JJR", "."]
     text: ' And the pitching will also have trouble doing better.'
@@ -381,7 +381,7 @@ lKMy:
     wn30_key: [[5, "have%2:30:01::"], [7, "do%2:42:00::"]]
 b3HE:
     lemmas: ["richards", "get", "a", "great", "performance", "out", "of", "his", "combination", "of", "youth", "and", "experience", "last", "season", "."]
-    oewn2026_key: [[1, "oewn-00120604-v"]]
+    oewn_key: [[1, "oewn-00120604-v"]]
     paragraph: '16'
     pos: ["NNP", "VBD", "DT", "JJ", "NN", "IN", "IN", "PRP$", "NN", "IN", "NN", "CC", "NN", "JJ", "NN", "."]
     text: ' Richards got a great performance out of his combination of youth and experience
@@ -393,7 +393,7 @@ b3HE:
     wn30_key: [[1, "get%2:30:02::"]]
 93mn:
     lemmas: ["Where", ",", "then", ",", "can", "we", "look_for", "improvement", "?"]
-    oewn2026_key: [[6, "oewn-01318273-v"]]
+    oewn_key: [[6, "oewn-01318273-v"]]
     paragraph: '17'
     pos: ["WRB", ",", "RB", ",", "MD", "PRP", "VB", "NN", "."]
     text: ' Where, then, can we look_for improvement?
@@ -404,7 +404,7 @@ b3HE:
     wn30_key: [[6, "look_for%2:35:00::"]]
 Bg3/:
     lemmas: ["\"", "From", "triando", ",", "brandt", "and", "walker", "\"", ",", "answer", "richards", "."]
-    oewn2026_key: [[9, "oewn-00817348-v"]]
+    oewn_key: [[9, "oewn-00817348-v"]]
     paragraph: '18'
     pos: ["``", "IN", "NNP", ",", "NNP", "CC", "NNP", "``", ",", "VBZ", "NNP", "."]
     text: ' " From Triandos, Brandt and Walker ", answers Richards.'
@@ -413,7 +413,7 @@ Bg3/:
     wn30_key: [[9, "answer%2:32:00::"]]
 qrBo:
     lemmas: ["\"", "They", "be", "the", "one", "we", "can", "expect", "to", "do", "good", "\"", "."]
-    oewn2026_key: [[2, "oewn-02622439-v"], [7, "oewn-00721658-v"], [9, "oewn-02623620-v"]]
+    oewn_key: [[2, "oewn-02622439-v"], [7, "oewn-00721658-v"], [9, "oewn-02623620-v"]]
     paragraph: '18'
     pos: ["``", "PRP", "VBP", "DT", "NNS", "PRP", "MD", "VB", "TO", "VB", "JJR", "``", "."]
     text: ' " They''re the ones we can expect to do better ".
@@ -424,7 +424,7 @@ qrBo:
     wn30_key: [[2, "be%2:42:06::"], [7, "expect%2:31:00::"], [9, "do%2:42:00::"]]
 6UmZ:
     lemmas: ["The", "man", "be", "right", ",", "and", "at", "this", "time", ",", "indication", "be", "that", "these", "three", "be", "ready", "for", "good", "season", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"], [11, "oewn-02622439-v"], [15, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-02610777-v"], [11, "oewn-02622439-v"], [15, "oewn-02610777-v"]]
     paragraph: '19'
     pos: ["DT", "NN", "VBZ", "NN", ",", "CC", "IN", "DT", "NN", ",", "NNS", "VBP", "IN", "DT", "CD", "VBP", "JJ", "IN", "JJR", "NNS", "."]
     text: ' The man is right, and at this time, indications are that these three are ready for
@@ -436,7 +436,7 @@ qrBo:
     wn30_key: [[2, "be%2:42:03::"], [11, "be%2:42:06::"], [15, "be%2:42:03::"]]
 0lMB:
     lemmas: ["triando", "have", "n't", "prove", "it", "yet", ",", "but", "he", "say", "he", "be", "convinced", "his", "thumb", "be", "all_right", "."]
-    oewn2026_key: [[3, "oewn-00666706-v"], [9, "oewn-01011267-v"], [11, "oewn-02610777-v"], [15, "oewn-02610777-v"]]
+    oewn_key: [[3, "oewn-00666706-v"], [9, "oewn-01011267-v"], [11, "oewn-02610777-v"], [15, "oewn-02610777-v"]]
     paragraph: '20'
     pos: ["NNP", "VBZ", "RB", "VBN", "PRP", "RB", ",", "CC", "PRP", "VBZ", "PRP", "VBZ", "JJ", "PRP$", "NN", "VBZ", "RB", "."]
     text: ' Triandos hasn''t proved it yet, but he says he''s convinced his thumb is all_right.'
@@ -445,7 +445,7 @@ qrBo:
     wn30_key: [[3, "prove%2:31:00::"], [9, "say%2:32:00::"], [11, "be%2:42:03::"], [15, "be%2:42:03::"]]
 OC9C:
     lemmas: ["He", "jam", "it", "this", "spring", "and", "have", "have", "to", "rest", "it", ",", "but", "he", "say", "the", "old", "injury", "have", "n't", "bother", "him", "."]
-    oewn2026_key: [[1, "oewn-01495601-v"], [7, "oewn-00065141-v;oewn-02383544-v;oewn-02746620-v"], [9, "oewn-00781646-v"], [14, "oewn-01011267-v"], [20, "oewn-02513385-v"]]
+    oewn_key: [[1, "oewn-01495601-v"], [7, "oewn-00065141-v;oewn-02383544-v;oewn-02746620-v"], [9, "oewn-00781646-v"], [14, "oewn-01011267-v"], [20, "oewn-02513385-v"]]
     paragraph: '20'
     pos: ["PRP", "VBD", "PRP", "DT", "NN", "CC", "VBZ", "VBN", "VB", "VB", "PRP", ",", "CC", "PRP", "VBZ", "DT", "JJ", "NN", "VBZ", "RB", "VBN", "PRP", "."]
     text: ' He jammed it this spring and has had to rest it, but he says the old injury hasn''t
@@ -455,7 +455,7 @@ OC9C:
     wn30_key: [[1, "jam%2:35:03::"], [7, "have%2:29:02::;have%2:41:00::;have%2:42:12::"], [9, "rest%2:32:01::"], [14, "say%2:32:00::"], [20, "bother%2:41:01::"]]
 ZBEW:
     lemmas: ["If", "he", "can", "bounce_back", "with", "one", "of", "those", "25", "home_run", "years", ",", "the", "club", "will", "have", "to", "be", "well", "off", "offensively", "."]
-    oewn2026_key: [[3, "oewn-00268897-v"], [15, "oewn-00065141-v;oewn-02383544-v;oewn-02746620-v"], [17, "oewn-02610777-v"]]
+    oewn_key: [[3, "oewn-00268897-v"], [15, "oewn-00065141-v;oewn-02383544-v;oewn-02746620-v"], [17, "oewn-02610777-v"]]
     paragraph: '20'
     pos: ["IN", "PRP", "MD", "VB", "IN", "CD", "IN", "DT", "CD", "NN", "NNS", ",", "DT", "NN", "MD", "VB", "VB", "VB", "RBR", "IN", "RB", "."]
     text: ' If he can bounce_back with one of those 25 home_runs years, the club will have to
@@ -467,7 +467,7 @@ ZBEW:
     wn30_key: [[3, "bounce_back%2:30:00::"], [15, "have%2:29:02::;have%2:41:00::;have%2:42:12::"], [17, "be%2:42:03::"]]
 k4xr:
     lemmas: ["I", "be", "still", "not", "convinced", ",", "though", ",", "I", "'ll", "have", "to", "see", "more", "of", "him", "before", "predict", "that", "big", "year", "for", "him", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [10, "oewn-00065141-v;oewn-02383544-v;oewn-02746620-v"], [12, "oewn-02133754-v"], [17, "oewn-00919743-v"]]
+    oewn_key: [[1, "oewn-02610777-v"], [10, "oewn-00065141-v;oewn-02383544-v;oewn-02746620-v"], [12, "oewn-02133754-v"], [17, "oewn-00919743-v"]]
     paragraph: '21'
     pos: ["PRP", "VBP", "RB", "RB", "JJ", ",", "RB", ",", "PRP", "MD", "VB", "VB", "VB", "JJR", "IN", "PRP", "IN", "VBG", "IN", "JJ", "NN", "IN", "PRP", "."]
     text: ' I''m still not convinced, though, I''ll have to see more of him before predicting
@@ -477,7 +477,7 @@ k4xr:
     wn30_key: [[1, "be%2:42:03::"], [10, "have%2:29:02::;have%2:41:00::;have%2:42:12::"], [12, "see%2:39:00::"], [17, "predict%2:32:00::"]]
 GhBh:
     lemmas: ["hank_foile", ",", "back_up", "by", "frank_house", "who", "will", "be", "within", "calling", "distance", "in", "the", "minors", ",", "make_up", "well", "second", "line", "catching", "than", "the_Birds", "have", "all", "last", "year", ",", "but", "gu", "be", "still", "that", "big", "man", "you", "need", "when", "you", "start", "talk", "pennant", "."]
-    oewn2026_key: [[2, "oewn-02561834-v"], [7, "oewn-02661230-v"], [15, "oewn-02626667-v"], [22, "oewn-02208144-v"], [29, "oewn-02610777-v"], [35, "oewn-02634015-v"], [38, "oewn-00346415-v"], [39, "oewn-00944022-v"]]
+    oewn_key: [[2, "oewn-02561834-v"], [7, "oewn-02661230-v"], [15, "oewn-02626667-v"], [22, "oewn-02208144-v"], [29, "oewn-02610777-v"], [35, "oewn-02634015-v"], [38, "oewn-00346415-v"], [39, "oewn-00944022-v"]]
     paragraph: '21'
     pos: ["NNP", ",", "VB", "IN", "NNP", "WP", "MD", "VB", "IN", "NN", "NN", "IN", "DT", "NNS", ",", "VB", "RBR", "JJ", "NN", "NN", "IN", "NN", "VBD", "DT", "JJ", "NN", ",", "CC", "NNP", "VBZ", "RB", "IN", "JJ", "NN", "PRP", "VBP", "WRB", "PRP", "VBP", "VBG", "NN", "."]
     text: ' Hank_Foiles, backed_up by Frank_House who will be within calling distance in the
@@ -490,7 +490,7 @@ GhBh:
     wn30_key: [[2, "back_up%2:41:00::"], [7, "be%2:42:05::"], [15, "make_up%2:42:00::"], [22, "have%2:40:00::"], [29, "be%2:42:03::"], [35, "need%2:42:00::"], [38, "start%2:30:00::"], [39, "talk%2:32:00::"]]
 OUtR:
     lemmas: ["To", "me", ",", "brandt", "look", "as", "though", "he", "could", "be", "in_for", "a", "fine", "year", "."]
-    oewn2026_key: [[4, "oewn-02137900-v"], [9, "oewn-02610777-v"]]
+    oewn_key: [[4, "oewn-02137900-v"], [9, "oewn-02610777-v"]]
     paragraph: '22'
     pos: ["TO", "PRP", ",", "NNP", "VBZ", "IN", "IN", "PRP", "MD", "VB", "JJ", "DT", "JJ", "NN", "."]
     text: ' To me, Brandt looks as though he could be in_for a fine year.'
@@ -499,7 +499,7 @@ OUtR:
     wn30_key: [[4, "look%2:39:01::"], [9, "be%2:42:03::"]]
 Imb9:
     lemmas: ["He", "have", "n't", "play", "too_much", ",", "because", "richards", "have", "be", "work_on", "him", "furiously", "in", "batting", "practice", "."]
-    oewn2026_key: [[3, "oewn-01075360-v"], [10, "oewn-01672498-v"]]
+    oewn_key: [[3, "oewn-01075360-v"], [10, "oewn-01672498-v"]]
     paragraph: '22'
     pos: ["PRP", "VBZ", "RB", "VBN", "RB", ",", "IN", "NNP", "VBZ", "VBN", "VBN", "PRP", "RB", "IN", "NN", "NN", "."]
     text: ' He hasn''t played too_much, because Richards has been working_on him furiously in
@@ -509,7 +509,7 @@ Imb9:
     wn30_key: [[3, "play%2:33:00::"], [10, "work_on%2:36:00::"]]
 xEtB:
     lemmas: ["He", "'s", "hit", "the", "ball", "hard", ",", "in", "the", "batting_cage", ",", "and", "his", "whole", "attitude", "be", "improved", "over", "this", "time", "last", "year", "."]
-    oewn2026_key: [[2, "oewn-01407698-v"], [15, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-01407698-v"], [15, "oewn-02610777-v"]]
     paragraph: '22'
     pos: ["PRP", "VBZ", "VBG", "DT", "NN", "JJ", ",", "IN", "DT", "NN", ",", "CC", "PRP$", "JJ", "NN", "VBZ", "JJ", "IN", "DT", "NN", "JJ", "NN", "."]
     text: ' He''s hitting the ball hard, in the batting_cage, and his whole attitude is improved
@@ -521,7 +521,7 @@ xEtB:
     wn30_key: [[2, "hit%2:35:03::"], [15, "be%2:42:03::"]]
 1RaH:
     lemmas: ["When", "he", "come", "to", "baltimore", ",", "he", "be", "leave", "a", "team", "which", "be", "supposed", "to", "win", "the", "national_league", "pennant", ",", "and", "he", "be", "join", "what", "seem", "to", "be", "a", "second", "division", "american_league", "club", "."]
-    oewn2026_key: [[2, "oewn-01853188-v"], [8, "oewn-02388582-v"], [12, "oewn-02610777-v"], [15, "oewn-01102556-v"], [23, "oewn-02439823-v"], [25, "oewn-02137900-v"], [27, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-01853188-v"], [8, "oewn-02388582-v"], [12, "oewn-02610777-v"], [15, "oewn-01102556-v"], [23, "oewn-02439823-v"], [25, "oewn-02137900-v"], [27, "oewn-02610777-v"]]
     paragraph: '23'
     pos: ["WRB", "PRP", "VBD", "VB", "NNP", ",", "PRP", "VBD", "VBG", "DT", "NN", "WDT", "VBD", "JJ", "VB", "VB", "DT", "NNP", "NN", ",", "CC", "PRP", "VBD", "VBG", "WP", "VBD", "TO", "VB", "DT", "JJ", "NN", "NNP", "NN", "."]
     text: ' When he came to Baltimore, he was leaving a team which was supposed to win the National_League
@@ -532,7 +532,7 @@ xEtB:
     wn30_key: [[2, "come%2:38:00::"], [8, "leave%2:41:00::"], [12, "be%2:42:03::"], [15, "win%2:33:00::"], [23, "join%2:41:00::"], [25, "seem%2:39:00::"], [27, "be%2:42:03::"]]
 8iZU:
     lemmas: ["He", "be", "down", ",", "hard", "to", "talk", "to", ",", "and", "far", "too", "nonchalant", "on", "the", "field", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [6, "oewn-00964479-v"]]
+    oewn_key: [[1, "oewn-02610777-v"], [6, "oewn-00964479-v"]]
     paragraph: '23'
     pos: ["PRP", "VBD", "RB", ",", "JJ", "TO", "VB", "TO", ",", "CC", "RB", "RB", "JJ", "IN", "DT", "NN", "."]
     text: ' He was down, hard to talk to, and far too nonchalant on the field.'
@@ -541,7 +541,7 @@ xEtB:
     wn30_key: [[1, "be%2:42:03::"], [6, "talk%2:32:01::"]]
 epfo:
     lemmas: ["As", "of", "now", ",", "that", "all", "seem", "behind", "him", "."]
-    oewn2026_key: [[6, "oewn-02137900-v"]]
+    oewn_key: [[6, "oewn-02137900-v"]]
     paragraph: '23'
     pos: ["IN", "IN", "RB", ",", "IN", "DT", "VBZ", "IN", "PRP", "."]
     text: ' As of now, that all seems behind him.'
@@ -550,7 +550,7 @@ epfo:
     wn30_key: [[6, "seem%2:39:00::"]]
 P8GS:
     lemmas: ["He", "'s", "be", "entirely", "different", "all", "spring", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-02610777-v"]]
     paragraph: '23'
     pos: ["PRP", "VBZ", "VBN", "RB", "JJ", "DT", "NN", "."]
     text: ' He''s been entirely different all spring.
@@ -561,7 +561,7 @@ P8GS:
     wn30_key: [[2, "be%2:42:03::"]]
 zHvk:
     lemmas: ["And", "walker", "look", "strong", ",", "seem", "to", "be", "throw", "good", "than", "he", "do", "last", "year", "."]
-    oewn2026_key: [[2, "oewn-02137900-v"], [5, "oewn-02137900-v"], [8, "oewn-01511000-v"]]
+    oewn_key: [[2, "oewn-02137900-v"], [5, "oewn-02137900-v"], [8, "oewn-01511000-v"]]
     paragraph: '24'
     pos: ["CC", "NNP", "VBZ", "JJR", ",", "VBZ", "TO", "VB", "VBG", "JJR", "IN", "PRP", "VBD", "JJ", "NN", "."]
     text: ' And Walker looks stronger, seems to be throwing better than he did last year.'
@@ -570,7 +570,7 @@ zHvk:
     wn30_key: [[2, "look%2:39:01::"], [5, "seem%2:39:00::"], [8, "throw%2:35:00::"]]
 TzPB:
     lemmas: ["let", "him", "bounce_back", ",", "and", "he", "could", "really", "set_up", "the", "staff", "."]
-    oewn2026_key: [[0, "oewn-02427979-v"], [2, "oewn-00268897-v"], [8, "oewn-00408773-v"]]
+    oewn_key: [[0, "oewn-02427979-v"], [2, "oewn-00268897-v"], [8, "oewn-00408773-v"]]
     paragraph: '24'
     pos: ["VB", "PRP", "VB", ",", "CC", "PRP", "MD", "RB", "VB", "DT", "NN", "."]
     text: ' Let him bounce_back, and he could really set_up the staff.
@@ -581,7 +581,7 @@ TzPB:
     wn30_key: [[0, "let%2:41:00::"], [2, "bounce_back%2:30:00::"], [8, "set_up%2:30:00::"]]
 eCb3:
     lemmas: ["so", ",", "if", "the", "oriole", "be", "to", "improve", ",", "brandt", ",", "triando", "and", "walker", "will", "have", "to", "do", "it", "."]
-    oewn2026_key: [[7, "oewn-00205454-v"], [15, "oewn-00065141-v;oewn-02383544-v;oewn-02746620-v"]]
+    oewn_key: [[7, "oewn-00205454-v"], [15, "oewn-00065141-v;oewn-02383544-v;oewn-02746620-v"]]
     paragraph: '25'
     pos: ["RB", ",", "IN", "DT", "NNP", "VBP", "TO", "VB", ",", "NNP", ",", "NNP", "CC", "NNP", "MD", "VB", "VB", "VB", "VB", "."]
     text: ' So, if the Orioles are to improve, Brandt, Triandos and Walker will have to do it.
@@ -592,7 +592,7 @@ eCb3:
     wn30_key: [[7, "improve%2:30:00::"], [15, "have%2:29:02::;have%2:41:00::;have%2:42:12::"]]
 +BbL:
     lemmas: ["so_far", "the", "platoon", "on", "left", "and", "right_fielder", "do", "n't", "seem", "capable_of", "carry", "the", "load", "."]
-    oewn2026_key: [[9, "oewn-02137900-v"], [11, "oewn-01220648-v"]]
+    oewn_key: [[9, "oewn-02137900-v"], [11, "oewn-01220648-v"]]
     paragraph: '26'
     pos: ["RB", "DT", "NNS", "IN", "JJ", "CC", "NN", "VBP", "RB", "VB", "JJ", "VBG", "DT", "NN", "."]
     text: ' So_far the platoons on left and right_fielders don''t seem capable_of carrying the
@@ -604,7 +604,7 @@ eCb3:
     wn30_key: [[9, "seem%2:39:00::"], [11, "carry%2:35:09::"]]
 UR8J:
     lemmas: ["of_course", ",", "this", "be", "n't", "take", "into", "consideration", "the", "population", "of", "nevada", "and", "new_york_city", ",", "but", "it", "be", "the", "way", "things", "look", "from", "here", "at", "this", "point", "."]
-    oewn2026_key: [[5, "oewn-02113499-v"], [17, "oewn-02610777-v"], [21, "oewn-02137900-v"]]
+    oewn_key: [[5, "oewn-02113499-v"], [17, "oewn-02610777-v"], [21, "oewn-02137900-v"]]
     paragraph: '27'
     pos: ["RB", ",", "DT", "VBZ", "RB", "VBG", "VB", "NN", "DT", "NN", "IN", "NNP", "CC", "NN", ",", "CC", "PRP", "VBZ", "DT", "NN", "NNS", "VBP", "IN", "RB", "IN", "DT", "NN", "."]
     text: ' Of_course, this isn''t taking into consideration the population of Nevada and New_York_city,
@@ -616,7 +616,7 @@ UR8J:
     wn30_key: [[5, "take%2:39:00::"], [17, "be%2:42:03::"], [21, "look%2:39:01::"]]
 WeRL:
     lemmas: ["be", "the", "mother", "of", "an", "\"", "autistic", "\"", "child", "at_fault", "?"]
-    oewn2026_key: [[0, "oewn-02610777-v"]]
+    oewn_key: [[0, "oewn-02610777-v"]]
     paragraph: '28'
     pos: ["VBZ", "DT", "NN", "IN", "DT", "``", "JJ", "''", "NN", "JJ", "."]
     text: ' Is the mother of an " autistic " child at_fault?'
@@ -625,7 +625,7 @@ WeRL:
     wn30_key: [[0, "be%2:42:03::"]]
 gecK:
     lemmas: ["(", "The", "\"", "autistic", "\"", "child", "be", "one", "who", "seem", "to", "lack", "a", "well-defined", "sense", "of", "self", "."]
-    oewn2026_key: [[6, "oewn-02622439-v"], [9, "oewn-02137900-v"], [11, "oewn-02638434-v"]]
+    oewn_key: [[6, "oewn-02622439-v"], [9, "oewn-02137900-v"], [11, "oewn-02638434-v"]]
     paragraph: '28'
     pos: ["NNP", "DT", "``", "JJ", "''", "NN", "VBZ", "CD", "WP", "VBZ", "TO", "VB", "DT", "JJ", "NN", "IN", "NN", "."]
     text: ' (The " autistic " child is one who seems to lack a well-defined sense of self.'
@@ -634,7 +634,7 @@ gecK:
     wn30_key: [[6, "be%2:42:06::"], [9, "seem%2:39:00::"], [11, "lack%2:42:00::"]]
 KJ9A:
     lemmas: ["He", "tend", "to", "treat", "himself", "and", "other", "people", "as", "if", "they", "be", "object", "-", "and", "sometimes", "he", "treat", "object", "as", "if", "they", "be", "people", ".", ")"]
-    oewn2026_key: [[1, "oewn-02725274-v"], [3, "oewn-02519853-v"], [11, "oewn-02622439-v"], [17, "oewn-02519853-v"], [22, "oewn-02622439-v"]]
+    oewn_key: [[1, "oewn-02725274-v"], [3, "oewn-02519853-v"], [11, "oewn-02622439-v"], [17, "oewn-02519853-v"], [22, "oewn-02622439-v"]]
     paragraph: '28'
     pos: ["PRP", "VBZ", "VB", "VB", "PRP", "CC", "JJ", "NNS", "IN", "IN", "PRP", "VBD", "NNS", ":", "CC", "RB", "PRP", "VBZ", "NNS", "IN", "IN", "PRP", "VBD", "NNS", ".", "NN"]
     text: ' He tends to treat himself and other people as if they were objects - and sometimes
@@ -644,7 +644,7 @@ KJ9A:
     wn30_key: [[1, "tend%2:42:01::"], [3, "treat%2:41:00::"], [11, "be%2:42:06::"], [17, "treat%2:41:00::"], [22, "be%2:42:06::"]]
 aLM+:
     lemmas: ["do", "his", "mother", "make", "him", "this", "way", "?"]
-    oewn2026_key: [[3, "oewn-00120124-v"]]
+    oewn_key: [[3, "oewn-00120124-v"]]
     paragraph: '28'
     pos: ["VBD", "PRP$", "NN", "VB", "PRP", "DT", "NN", "."]
     text: ' Did his mother make him this way?
@@ -655,7 +655,7 @@ aLM+:
     wn30_key: [[3, "make%2:30:00::"]]
 70J9:
     lemmas: ["Some", "people", "believe", "she", "do", "."]
-    oewn2026_key: [[2, "oewn-00691086-v"]]
+    oewn_key: [[2, "oewn-00691086-v"]]
     paragraph: '29'
     pos: ["DT", "NNS", "VBP", "PRP", "VBD", "."]
     text: ' Some people believe she did.
@@ -666,7 +666,7 @@ aLM+:
     wn30_key: [[2, "believe%2:31:04::"]]
 Cue1:
     lemmas: ["We", "think", "differently", "."]
-    oewn2026_key: [[1, "oewn-00691086-v"]]
+    oewn_key: [[1, "oewn-00691086-v"]]
     paragraph: '30'
     pos: ["PRP", "VBP", "RB", "."]
     text: ' We think differently.'
@@ -675,7 +675,7 @@ Cue1:
     wn30_key: [[1, "think%2:31:01::"]]
 C6ZH:
     lemmas: ["We", "believe", "that", "autism", ",", "like", "so", "many", "other", "conditions", "of", "defect", "and", "deviation", ",", "be", "to", "a", "large", "extent", "inborn", "."]
-    oewn2026_key: [[1, "oewn-00691086-v"], [15, "oewn-02610777-v"]]
+    oewn_key: [[1, "oewn-00691086-v"], [15, "oewn-02610777-v"]]
     paragraph: '30'
     pos: ["PRP", "VBP", "IN", "NN", ",", "IN", "RB", "JJ", "JJ", "NNS", "IN", "NN", "CC", "NN", ",", "VBZ", "TO", "DT", "JJ", "NN", "JJ", "."]
     text: ' We believe that autism, like so many other conditions of defect and deviation, is
@@ -685,7 +685,7 @@ C6ZH:
     wn30_key: [[1, "believe%2:31:04::"], [15, "be%2:42:03::"]]
 mwu6:
     lemmas: ["A", "mother", "can", "help", "a", "child", "adapt", "to", "his", "difficulty", "."]
-    oewn2026_key: [[3, "oewn-02553283-v"], [6, "oewn-00150107-v"]]
+    oewn_key: [[3, "oewn-02553283-v"], [6, "oewn-00150107-v"]]
     paragraph: '30'
     pos: ["DT", "NN", "MD", "VB", "DT", "NN", "VB", "TO", "PRP$", "NNS", "."]
     text: ' A mother can help a child adapt to his difficulties.
@@ -696,7 +696,7 @@ mwu6:
     wn30_key: [[3, "help%2:41:00::"], [6, "adapt%2:30:02::"]]
 pVuG:
     lemmas: ["sometimes", "she", "can", "-", "to", "a", "large", "extent", "-", "help", "him", "overcome", "them", "."]
-    oewn2026_key: [[9, "oewn-02553283-v"], [11, "oewn-01110559-v"]]
+    oewn_key: [[9, "oewn-02553283-v"], [11, "oewn-01110559-v"]]
     paragraph: '31'
     pos: ["RB", "PRP", "MD", ":", "TO", "DT", "JJ", "NN", ":", "VB", "PRP", "VB", "PRP", "."]
     text: ' Sometimes she can - to a large extent - help him overcome them.'
@@ -705,7 +705,7 @@ pVuG:
     wn30_key: [[9, "help%2:41:00::"], [11, "overcome%2:33:03::"]]
 Su4P:
     lemmas: ["But", "we", "do", "n't", "think", "she", "create", "them", "."]
-    oewn2026_key: [[4, "oewn-00691086-v"], [6, "oewn-01620211-v"]]
+    oewn_key: [[4, "oewn-00691086-v"], [6, "oewn-01620211-v"]]
     paragraph: '31'
     pos: ["CC", "PRP", "VBP", "RB", "VB", "PRP", "VBZ", "PRP", "."]
     text: ' But we don''t think she creates them.'
@@ -714,7 +714,7 @@ Su4P:
     wn30_key: [[4, "think%2:31:01::"], [6, "create%2:36:00::"]]
 OUEB:
     lemmas: ["We", "do", "n't", "think", "she", "can", "make", "her", "child", "defective", ",", "emotionally", "disturbed", "or", "autistic", "."]
-    oewn2026_key: [[3, "oewn-00691086-v"], [6, "oewn-00120124-v"]]
+    oewn_key: [[3, "oewn-00691086-v"], [6, "oewn-00120124-v"]]
     paragraph: '31'
     pos: ["PRP", "VBP", "RB", "VB", "PRP", "MD", "VB", "PRP$", "NN", "JJ", ",", "RB", "JJ", "CC", "JJ", "."]
     text: ' We don''t think she can make her child defective, emotionally disturbed or autistic.
@@ -725,7 +725,7 @@ OUEB:
     wn30_key: [[3, "think%2:31:01::"], [6, "make%2:30:00::"]]
 vWkX:
     lemmas: ["The", "mother", "of", "a", "difficult", "child", "can", "do", "a", "great_deal", "to", "help", "her", "own", "child", "and", "often", ",", "by", "share", "her", "experience", ",", "she", "can", "help", "other", "mother", "with", "the", "same", "problem", "."]
-    oewn2026_key: [[7, "oewn-02566500-v"], [11, "oewn-00081834-v"], [19, "oewn-02300169-v"], [25, "oewn-02553283-v"]]
+    oewn_key: [[7, "oewn-02566500-v"], [11, "oewn-00081834-v"], [19, "oewn-02300169-v"], [25, "oewn-02553283-v"]]
     paragraph: '32'
     pos: ["DT", "NN", "IN", "DT", "JJ", "NN", "MD", "VB", "DT", "NN", "TO", "VB", "PRP$", "JJ", "NN", "CC", "RB", ",", "IN", "VBG", "PRP$", "NNS", ",", "PRP", "MD", "VB", "JJ", "NNS", "IN", "DT", "JJ", "NN", "."]
     text: ' The mother of a difficult child can do a great_deal to help her own child and often,
@@ -735,7 +735,7 @@ vWkX:
     wn30_key: [[7, "do%2:41:01::"], [11, "help%2:29:00::"], [19, "share%2:40:01::"], [25, "help%2:41:00::"]]
 rIe2:
     lemmas: ["Since", "little", "be", "know", "about", "autism", ",", "and", "almost", "nothing", "have", "be", "write", "for", "the", "layman", ",", "we", "'d", "like", "to", "share", "one", "experienced", "mother", "'s", "comment", "."]
-    oewn2026_key: [[3, "oewn-00596016-v"], [12, "oewn-00995046-v"], [21, "oewn-02300169-v"]]
+    oewn_key: [[3, "oewn-00596016-v"], [12, "oewn-00995046-v"], [21, "oewn-02300169-v"]]
     paragraph: '32'
     pos: ["IN", "JJ", "VBZ", "VBN", "IN", "NN", ",", "CC", "RB", "NN", "VBZ", "VBN", "VBN", "IN", "DT", "NN", ",", "PRP", "MD", "IN", "TO", "VB", "CD", "JJ", "NN", "POS", "NNS", "."]
     text: ' Since little is known about autism, and almost nothing has been written for the
@@ -745,7 +745,7 @@ rIe2:
     wn30_key: [[3, "know%2:31:01::"], [12, "write%2:32:00::"], [21, "share%2:40:01::"]]
 /R8o:
     lemmas: ["She", "write", ":"]
-    oewn2026_key: [[1, "oewn-00995046-v"]]
+    oewn_key: [[1, "oewn-00995046-v"]]
     paragraph: '32'
     pos: ["PRP", "VBD", ":"]
     text: ' She wrote:
@@ -756,7 +756,7 @@ rIe2:
     wn30_key: [[1, "write%2:32:00::"]]
 fprp:
     lemmas: ["\"", "As", "the", "mother", "of", "an", "autistic", "child", "who", "be", "lacking", "in", "interest", "and", "enthusiasm", "about", "almost", "anything", ",", "I", "have", "to", "manipulate", "my", "son", "'s", "finger", "for", "him", "when", "he", "first", "play", "with", "a", "new", "toy", "."]
-    oewn2026_key: [[9, "oewn-02610777-v"], [20, "oewn-00065141-v;oewn-02383544-v;oewn-02746620-v"], [22, "oewn-02541995-v"], [32, "oewn-02423786-v"]]
+    oewn_key: [[9, "oewn-02610777-v"], [20, "oewn-00065141-v;oewn-02383544-v;oewn-02746620-v"], [22, "oewn-02541995-v"], [32, "oewn-02423786-v"]]
     paragraph: '33'
     pos: ["``", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "WP", "VBZ", "JJ", "IN", "NN", "CC", "NN", "IN", "RB", "NN", ",", "PRP", "VBP", "VB", "VB", "PRP$", "NN", "POS", "NNS", "IN", "PRP", "WRB", "PRP", "JJ", "VBZ", "VB", "DT", "JJ", "NN", "."]
     text: ' " As the mother of an autistic child who is lacking in interest and enthusiasm about
@@ -767,7 +767,7 @@ fprp:
     wn30_key: [[9, "be%2:42:03::"], [20, "have%2:29:02::;have%2:41:00::;have%2:42:12::"], [22, "manipulate%2:41:00::"], [32, "play%2:41:03::"]]
 MZeX:
     lemmas: ["He", "want", "me", "to", "do", "everything", "for", "him", "."]
-    oewn2026_key: [[1, "oewn-01829179-v"], [4, "oewn-02566500-v"]]
+    oewn_key: [[1, "oewn-01829179-v"], [4, "oewn-02566500-v"]]
     paragraph: '33'
     pos: ["PRP", "VBZ", "PRP", "TO", "VB", "NN", "IN", "PRP", "."]
     text: ' He wants me to do everything for him.
@@ -778,7 +778,7 @@ MZeX:
     wn30_key: [[1, "want%2:37:00::"], [4, "do%2:41:01::"]]
 sWnz:
     lemmas: ["\"", "You", "do", "n't", "believe", "that", "autistic", "child", "become", "autistic", "because", "of", "something", "that", "happen", "to", "them", "or", "because", "of", "the", "way", "their", "mother", "treat", "them", "."]
-    oewn2026_key: [[4, "oewn-00691086-v"], [8, "oewn-00149403-v"], [14, "oewn-00345297-v"], [24, "oewn-02519853-v"]]
+    oewn_key: [[4, "oewn-00691086-v"], [8, "oewn-00149403-v"], [14, "oewn-00345297-v"], [24, "oewn-02519853-v"]]
     paragraph: '34'
     pos: ["``", "PRP", "VBP", "RB", "VB", "IN", "JJ", "NNS", "VBP", "JJ", "IN", "IN", "NN", "IN", "VBZ", "VB", "PRP", "CC", "IN", "IN", "DT", "NN", "PRP$", "NN", "VBZ", "PRP", "."]
     text: ' " You don''t believe that autistic children become autistic because of something
@@ -788,7 +788,7 @@ sWnz:
     wn30_key: [[4, "believe%2:31:04::"], [8, "become%2:30:00::"], [14, "happen%2:30:02::"], [24, "treat%2:41:00::"]]
 8IXw:
     lemmas: ["But", "I", "do", "and", "my", "psychiatrist", "do", ",", "too", "."]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '34'
     pos: ["CC", "PRP", "VBP", "CC", "PRP$", "NN", "VBZ", ",", "RB", "."]
     text: ' But I do and my psychiatrist does, too.'
@@ -797,7 +797,7 @@ sWnz:
     wn30_key: []
 7TSJ:
     lemmas: ["I", "know", ",", "that", "my", "son", "want", "control", "and", "direction", ",", "but", "be", "autistic", "myself", "I", "cannot", "give", "full", "control", "or", "direction", "."]
-    oewn2026_key: [[1, "oewn-00596016-v"], [6, "oewn-01829179-v"], [12, "oewn-02610777-v"], [17, "oewn-02321848-v"]]
+    oewn_key: [[1, "oewn-00596016-v"], [6, "oewn-01829179-v"], [12, "oewn-02610777-v"], [17, "oewn-02321848-v"]]
     paragraph: '34'
     pos: ["PRP", "VBP", ",", "IN", "PRP$", "NN", "VBZ", "NN", "CC", "NN", ",", "CC", "VBG", "JJ", "PRP", "PRP", "MD", "VBP", "JJ", "NN", "CC", "NN", "."]
     text: ' I know, that my son wants control and direction, but being autistic myself I cannot
@@ -809,7 +809,7 @@ sWnz:
     wn30_key: [[1, "know%2:31:01::"], [6, "want%2:37:00::"], [12, "be%2:42:03::"], [17, "give%2:40:03::"]]
 QynS:
     lemmas: ["\"", "One", "thing", "I", "notice", "which", "I", "have", "seldom", "hear", "mention", "."]
-    oewn2026_key: [[4, "oewn-02122959-v"], [9, "oewn-02174146-v"], [10, "oewn-01026199-v"]]
+    oewn_key: [[4, "oewn-02122959-v"], [9, "oewn-02174146-v"], [10, "oewn-01026199-v"]]
     paragraph: '35'
     pos: ["``", "CD", "NN", "PRP", "VBP", "WDT", "PRP", "VB", "RB", "VBN", "VBN", "."]
     text: ' " One thing I notice which I have seldom heard mentioned.'
@@ -818,7 +818,7 @@ QynS:
     wn30_key: [[4, "notice%2:39:00::"], [9, "hear%2:39:00::"], [10, "mention%2:32:02::"]]
 hlIB:
     lemmas: ["This", "be", "that", "autistic", "people", "do", "n't", "enjoy", "physical", "contact", "with", "other", "-", "for_instance", ",", "my", "child", "and", "I", "."]
-    oewn2026_key: [[1, "oewn-02622439-v"], [7, "oewn-01824240-v"]]
+    oewn_key: [[1, "oewn-02622439-v"], [7, "oewn-01824240-v"]]
     paragraph: '35'
     pos: ["DT", "VBZ", "IN", "JJ", "NNS", "VBP", "RB", "VB", "JJ", "NN", "IN", "NNS", ":", "RB", ",", "PRP$", "NNS", "CC", "PRP", "."]
     text: ' This is that autistic people don''t enjoy physical contact with others - for_instance,
@@ -828,7 +828,7 @@ hlIB:
     wn30_key: [[1, "be%2:42:06::"], [7, "enjoy%2:37:00::"]]
 CC59:
     lemmas: ["When", "I", "hold", "my", "son", "he", "stiffen", "his", "whole", "body", "in", "my", "arms", "until", "he", "be", "as", "straight", "and", "stiff", "as", "a", "board", "."]
-    oewn2026_key: [[2, "oewn-01219234-v"], [6, "oewn-00418521-v"], [15, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-01219234-v"], [6, "oewn-00418521-v"], [15, "oewn-02610777-v"]]
     paragraph: '35'
     pos: ["WRB", "PRP", "VBP", "PRP$", "NN", "PRP", "VBZ", "PRP$", "JJ", "NN", "IN", "PRP$", "NNS", "IN", "PRP", "VBZ", "IN", "JJ", "CC", "JJ", "IN", "DT", "NN", "."]
     text: ' When I hold my son he stiffens his whole body in my arms until he is as straight
@@ -838,7 +838,7 @@ CC59:
     wn30_key: [[2, "hold%2:35:00::"], [6, "stiffen%2:30:01::"], [15, "be%2:42:03::"]]
 tcoD:
     lemmas: ["He", "push", "and", "straighten", "himself", "as", "if", "he", "can", "n't", "stand", "the", "feeling", "of", "be", "hold", "."]
-    oewn2026_key: [[1, "oewn-01875972-v"], [3, "oewn-02039626-v"], [10, "oewn-00670017-v"], [15, "oewn-01219234-v"]]
+    oewn_key: [[1, "oewn-01875972-v"], [3, "oewn-02039626-v"], [10, "oewn-00670017-v"], [15, "oewn-01219234-v"]]
     paragraph: '35'
     pos: ["PRP", "VBZ", "CC", "VBZ", "PRP", "IN", "IN", "PRP", "MD", "RB", "VB", "DT", "NN", "IN", "VBG", "VBN", "."]
     text: ' He pushes and straightens himself as if he cann''t stand the feeling of being held.'
@@ -847,7 +847,7 @@ tcoD:
     wn30_key: [[1, "push%2:38:00::"], [3, "straighten%2:38:00::"], [10, "stand%2:31:00::"], [15, "hold%2:35:00::"]]
 9ZeM:
     lemmas: ["Physical", "contact", "be", "uncomforatble", "for", "him", "\"", "!"]
-    oewn2026_key: [[2, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-02610777-v"]]
     paragraph: '35'
     pos: ["NNP", "NN", "VBZ", "JJ", "IN", "PRP", "``", "."]
     text: ' Physical contact is uncomforatble for him "!
@@ -858,7 +858,7 @@ tcoD:
     wn30_key: [[2, "be%2:42:03::"]]
 MIoF:
     lemmas: ["This", "mother", "be", "quite", "correct", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-02610777-v"]]
     paragraph: '36'
     pos: ["DT", "NN", "VBZ", "RB", "JJ", "."]
     text: ' This mother is quite correct.'
@@ -867,7 +867,7 @@ MIoF:
     wn30_key: [[2, "be%2:42:03::"]]
 fKaX:
     lemmas: ["As", "a", "rule", ",", "the", "autistic", "child", "do", "n't", "enjoy", "physical", "contact", "with", "other", "."]
-    oewn2026_key: [[9, "oewn-01832678-v"]]
+    oewn_key: [[9, "oewn-01832678-v"]]
     paragraph: '36'
     pos: ["IN", "DT", "NN", ",", "DT", "JJ", "NN", "VBZ", "RB", "VB", "JJ", "NN", "IN", "NNS", "."]
     text: ' As a rule, the autistic child doesn''t enjoy physical contact with others.'
@@ -876,7 +876,7 @@ fKaX:
     wn30_key: [[9, "enjoy%2:37:01::"]]
 Y8lV:
     lemmas: ["parent", "have", "to", "find", "other", "ways", "of", "comfort", "him", "."]
-    oewn2026_key: [[1, "oewn-00065141-v;oewn-02383544-v;oewn-02746620-v"], [3, "oewn-02218118-v"], [7, "oewn-00082061-v"]]
+    oewn_key: [[1, "oewn-00065141-v;oewn-02383544-v;oewn-02746620-v"], [3, "oewn-02218118-v"], [7, "oewn-00082061-v"]]
     paragraph: '36'
     pos: ["NNS", "VBP", "VB", "VB", "JJ", "NNS", "IN", "VB", "PRP", "."]
     text: ' Parents have to find other ways of comforting him.'
@@ -885,7 +885,7 @@ Y8lV:
     wn30_key: [[1, "have%2:29:02::;have%2:41:00::;have%2:42:12::"], [3, "find%2:40:01::"], [7, "comfort%2:29:00::"]]
 IjnQ:
     lemmas: ["For", "the", "young", "child", "this", "may", "be", "no_more_than", "provide", "food", ",", "light", "or", "movement", "."]
-    oewn2026_key: [[6, "oewn-02622439-v"], [8, "oewn-02332196-v"]]
+    oewn_key: [[6, "oewn-02622439-v"], [8, "oewn-02332196-v"]]
     paragraph: '36'
     pos: ["IN", "DT", "JJ", "NN", "DT", "MD", "VB", "RB", "VBG", "NN", ",", "NN", "CC", "NN", "."]
     text: ' For the young child this may be no_more_than providing food, light or movement.'
@@ -894,7 +894,7 @@ IjnQ:
     wn30_key: [[6, "be%2:42:06::"], [8, "provide%2:40:00::"]]
 CZZV:
     lemmas: ["As", "he", "grow", "older", "it", "may", "be", "a", "matter", "of", "provide", "some", "accustomed", "object", "(", "his", "\"", "magic", "\"", "thing", ")", "."]
-    oewn2026_key: [[2, "oewn-00125649-v"], [6, "oewn-02622439-v"], [10, "oewn-02332196-v"]]
+    oewn_key: [[2, "oewn-00125649-v"], [6, "oewn-02622439-v"], [10, "oewn-02332196-v"]]
     paragraph: '36'
     pos: ["IN", "PRP", "VBZ", "JJ", "PRP", "MD", "VB", "DT", "NN", "IN", "VBG", "DT", "JJ", "NN", "CD", "PRP$", "``", "NN", "''", "NN", "NN", "."]
     text: ' As he grows older it may be a matter of providing some accustomed object (his "
@@ -904,7 +904,7 @@ CZZV:
     wn30_key: [[2, "grow%2:30:03::"], [6, "be%2:42:06::"], [10, "provide%2:40:00::"]]
 aXKy:
     lemmas: ["Or", "certain", "words", "or", "ritual", "that", "child", "and", "adult", "go_through", "may", "do", "the", "trick", "."]
-    oewn2026_key: [[9, "oewn-02114674-v"], [11, "oewn-02566500-v"]]
+    oewn_key: [[9, "oewn-02114674-v"], [11, "oewn-02566500-v"]]
     paragraph: '36'
     pos: ["CC", "JJ", "NNS", "CC", "NNS", "IN", "NN", "CC", "NN", "VB", "MD", "VB", "VB", "NN", "."]
     text: ' Or certain words or rituals that child and adult go_through may do the trick.'
@@ -913,7 +913,7 @@ aXKy:
     wn30_key: [[9, "go_through%2:39:00::"], [11, "do%2:41:01::"]]
 PHMY:
     lemmas: ["The", "answer", "be", "different", "for", "each", "autistic", "child", ",", "but", "for", "most", "there", "be", "an", "answer", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-02610777-v"]]
     paragraph: '36'
     pos: ["DT", "NN", "VBZ", "JJ", "IN", "DT", "JJ", "NN", ",", "CC", "IN", "RBS", "EX", "VB", "DT", "NN", "."]
     text: ' The answer is different for each autistic child, but for most there is an answer.'
@@ -922,7 +922,7 @@ PHMY:
     wn30_key: [[2, "be%2:42:03::"]]
 Btu9:
     lemmas: ["only", "ingenuity", "will", "uncover", "it", "."]
-    oewn2026_key: [[3, "oewn-00935783-v"]]
+    oewn_key: [[3, "oewn-00935783-v"]]
     paragraph: '36'
     pos: ["RB", "NN", "MD", "VB", "PRP", "."]
     text: ' Only ingenuity will uncover it.
@@ -933,7 +933,7 @@ Btu9:
     wn30_key: [[3, "uncover%2:39:00::"]]
 TgBa:
     lemmas: ["\"", "dear", "doctor", ":", "We", "learn", "this", "year", "that", "our", "older", "son", ",", "daniel", ",", "be", "autistic", "."]
-    oewn2026_key: [[5, "oewn-00600349-v"], [15, "oewn-02610777-v"]]
+    oewn_key: [[5, "oewn-00600349-v"], [15, "oewn-02610777-v"]]
     paragraph: '37'
     pos: ["``", "NNP", "NNS", ":", "PRP", "VBD", "DT", "NN", "IN", "PRP$", "JJR", "NN", ",", "NNP", ",", "VBZ", "JJ", "."]
     text: ' " Dear Doctors: We learned this year that our older son, Daniel, is autistic.'
@@ -942,7 +942,7 @@ TgBa:
     wn30_key: [[5, "learn%2:31:01::"], [15, "be%2:42:03::"]]
 O0lN:
     lemmas: ["We", "do", "not", "accept", "the", "diagnosis", "at_once", ",", "but", "gradually", "we", "be", "come_to", "."]
-    oewn2026_key: [[3, "oewn-00688348-v"]]
+    oewn_key: [[3, "oewn-00688348-v"]]
     paragraph: '37'
     pos: ["PRP", "VBD", "RB", "VB", "DT", "NN", "RB", ",", "CC", "RB", "PRP", "VBP", "VB", "."]
     text: ' We did not accept the diagnosis at_once, but gradually we are coming_to.'
@@ -951,7 +951,7 @@ O0lN:
     wn30_key: [[3, "accept%2:31:00::"]]
 VaC8:
     lemmas: ["fortunately", ",", "there", "be", "a", "nursery_school", "which", "he", "have", "be", "able", "to", "attend", ",", "with", "a", "group", "of", "normal", "child", "."]
-    oewn2026_key: [[9, "oewn-02610777-v"], [12, "oewn-02618797-v"]]
+    oewn_key: [[9, "oewn-02610777-v"], [12, "oewn-02618797-v"]]
     paragraph: '37'
     pos: ["RB", ",", "EX", "VB", "DT", "NN", "WDT", "PRP", "VBZ", "VBN", "JJ", "VB", "VB", ",", "IN", "DT", "NN", "IN", "JJ", "NNS", "."]
     text: ' Fortunately, there is a nursery_school which he has been able to attend, with a
@@ -963,7 +963,7 @@ VaC8:
     wn30_key: [[9, "be%2:42:03::"], [12, "attend%2:42:00::"]]
 avA7:
     lemmas: ["\"", "I", "try", "to", "treat", "daniel", "as", "if", "he", "be", "normal", ",", "though", "of_course", "I", "realize", "he", "be", "far", "from_that", "at_present", "."]
-    oewn2026_key: [[2, "oewn-02535833-v"], [4, "oewn-02519853-v"], [9, "oewn-02610777-v"], [15, "oewn-00730579-v"], [17, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-02535833-v"], [4, "oewn-02519853-v"], [9, "oewn-02610777-v"], [15, "oewn-00730579-v"], [17, "oewn-02610777-v"]]
     paragraph: '38'
     pos: ["``", "PRP", "VBP", "TO", "VB", "NNP", "IN", "IN", "PRP", "VBD", "JJ", ",", "IN", "RB", "PRP", "VBP", "PRP", "VBZ", "RB", "RB", "RB", "."]
     text: ' " I try to treat Daniel as if he were normal, though of_course I realize he is far
@@ -973,7 +973,7 @@ avA7:
     wn30_key: [[2, "try%2:41:00::"], [4, "treat%2:41:00::"], [9, "be%2:42:03::"], [15, "realize%2:31:01::"], [17, "be%2:42:03::"]]
 qfyw:
     lemmas: ["What", "I", "do", "be", "to", "try", "to", "bring", "him", "into", "contact", "with", "reality", "as_much_as_possible", "."]
-    oewn2026_key: [[2, "oewn-02566500-v"], [3, "oewn-02622439-v"], [5, "oewn-02535833-v"], [7, "oewn-01441539-v"]]
+    oewn_key: [[2, "oewn-02566500-v"], [3, "oewn-02622439-v"], [5, "oewn-02535833-v"], [7, "oewn-01441539-v"]]
     paragraph: '38'
     pos: ["WP", "PRP", "VBP", "VBZ", "TO", "VB", "TO", "VB", "PRP", "IN", "NN", "IN", "NN", "RB", "."]
     text: ' What I do is to try to bring him into contact with reality as_much_as_possible.'
@@ -982,7 +982,7 @@ qfyw:
     wn30_key: [[2, "do%2:41:01::"], [3, "be%2:42:06::"], [5, "try%2:41:00::"], [7, "bring%2:35:04::"]]
 Chzj:
     lemmas: ["I", "try", "to", "give", "him", "as_many", "normal", "experience", "as", "possible", "."]
-    oewn2026_key: [[1, "oewn-02535833-v"], [3, "oewn-02321848-v"]]
+    oewn_key: [[1, "oewn-02535833-v"], [3, "oewn-02321848-v"]]
     paragraph: '38'
     pos: ["PRP", "VBP", "TO", "VB", "PRP", "JJ", "JJ", "NNS", "IN", "JJ", "."]
     text: ' I try to give him as_many normal experiences as possible.
@@ -993,7 +993,7 @@ Chzj:
     wn30_key: [[1, "try%2:41:00::"], [3, "give%2:40:03::"]]
 FZkV:
     lemmas: ["\"", "What", "be", "your", "experience", "with", "autistic", "child", "?"]
-    oewn2026_key: [[2, "oewn-02622439-v"]]
+    oewn_key: [[2, "oewn-02622439-v"]]
     paragraph: '39'
     pos: ["``", "WP", "VBZ", "PRP$", "NN", "IN", "JJ", "NNS", "."]
     text: ' " What is your experience with autistic children?'
@@ -1002,7 +1002,7 @@ FZkV:
     wn30_key: [[2, "be%2:42:06::"]]
 jLxc:
     lemmas: ["How", "do", "they", "turn_out", "later", "\"", "?"]
-    oewn2026_key: [[3, "oewn-02639962-v"]]
+    oewn_key: [[3, "oewn-02639962-v"]]
     paragraph: '39'
     pos: ["WRB", "VBP", "PRP", "VB", "RB", "''", "."]
     text: ' How do they turn_out later "?
@@ -1013,7 +1013,7 @@ jLxc:
     wn30_key: [[3, "turn_out%2:42:00::"]]
 mvZ5:
     lemmas: ["many", "autistic", "child", "grow_up", "to", "lead", "relatively", "normal", "life", "."]
-    oewn2026_key: [[3, "oewn-02546044-v"], [5, "oewn-01736802-v"]]
+    oewn_key: [[3, "oewn-02546044-v"], [5, "oewn-01736802-v"]]
     paragraph: '40'
     pos: ["JJ", "JJ", "NNS", "VBP", "TO", "VB", "RB", "JJ", "NNS", "."]
     text: ' Many autistic children grow_up to lead relatively normal lives.'
@@ -1022,7 +1022,7 @@ mvZ5:
     wn30_key: [[3, "grow_up%2:41:00::"], [5, "lead%2:36:00::"]]
 yZAd:
     lemmas: ["certainly", ",", "most", "continue", "to", "lack", "a", "certain", "warmth", "in", "communication", "with", "other", "people", ",", "but", "many", "adjust", "to", "school", ",", "even", "college", ",", "to", "job", "and", "even", "to", "marriage", "and", "parenthood", "."]
-    oewn2026_key: [[3, "oewn-02690747-v"], [5, "oewn-02638434-v"], [17, "oewn-00150107-v"]]
+    oewn_key: [[3, "oewn-02690747-v"], [5, "oewn-02638434-v"], [17, "oewn-00150107-v"]]
     paragraph: '40'
     pos: ["RB", ",", "JJS", "VBP", "TO", "VB", "DT", "JJ", "NN", "IN", "NN", "IN", "JJ", "NNS", ",", "CC", "JJ", "VBP", "TO", "NN", ",", "RB", "NN", ",", "TO", "NNS", "CC", "RB", "TO", "NN", "CC", "NN", "."]
     text: ' Certainly, most continue to lack a certain warmth in communication with other people,
@@ -1034,7 +1034,7 @@ yZAd:
     wn30_key: [[3, "continue%2:42:01::"], [5, "lack%2:42:00::"], [17, "adjust%2:30:01::"]]
 MNaM:
     lemmas: ["A", "first", "grader", "color", "picture", "one", "solid", "color", ",", "everything", "-", "sky", ",", "grass", ",", "boy", ",", "wagon", ",", "etc.", "."]
-    oewn2026_key: [[3, "oewn-00284671-v"]]
+    oewn_key: [[3, "oewn-00284671-v"]]
     paragraph: '41'
     pos: ["DT", "JJ", "NN", "VB", "NNS", "CD", "JJ", "NN", ",", "NN", ":", "NN", ",", "NN", ",", "NN", ",", "NN", ",", "FW", "."]
     text: ' A first grader colors pictures one solid color, everything - sky, grass, boy, wagon,
@@ -1044,7 +1044,7 @@ MNaM:
     wn30_key: [[3, "color%2:30:00::"]]
 xjur:
     lemmas: ["When", "different", "colors", "be", "use", ",", "she", "be", "just_as", "likely", "to", "color", "tree", "purple", ",", "hair", "green", ",", "etc.", "."]
-    oewn2026_key: [[4, "oewn-01161188-v"], [7, "oewn-02610777-v"], [11, "oewn-00284671-v"]]
+    oewn_key: [[4, "oewn-01161188-v"], [7, "oewn-02610777-v"], [11, "oewn-00284671-v"]]
     paragraph: '41'
     pos: ["WRB", "JJ", "NNS", "VBP", "VBN", ",", "PRP", "VBZ", "RB", "JJ", "TO", "VB", "NNS", "JJ", ",", "NN", "JJ", ",", "FW", "."]
     text: ' When different colors are used, she is just_as likely to color trees purple, hair
@@ -1056,7 +1056,7 @@ xjur:
     wn30_key: [[4, "use%2:34:01::"], [7, "be%2:42:03::"], [11, "color%2:30:00::"]]
 C/Ra:
     lemmas: ["The", "other", "child", "in", "the", "class", "use", "this", "same", "coloring_book", "and", "do", "a", "fairly", "good", "job", "with", "things", "their", "proper", "color", "."]
-    oewn2026_key: [[6, "oewn-01161188-v"], [11, "oewn-02566500-v"]]
+    oewn_key: [[6, "oewn-01161188-v"], [11, "oewn-02566500-v"]]
     paragraph: '42'
     pos: ["DT", "JJ", "NNS", "IN", "DT", "NN", "VBP", "DT", "JJ", "NN", "CC", "VB", "DT", "RB", "JJ", "NN", "IN", "NNS", "PRP$", "JJ", "NN", "."]
     text: ' The other children in the class use this same coloring_book and do a fairly good
@@ -1066,7 +1066,7 @@ C/Ra:
     wn30_key: [[6, "use%2:34:01::"], [11, "do%2:41:01::"]]
 lFEu:
     lemmas: ["Should", "I", "show", "my", "daughter", "how", "things", "should", "be", "color", "?"]
-    oewn2026_key: [[9, "oewn-00284671-v"]]
+    oewn_key: [[9, "oewn-00284671-v"]]
     paragraph: '42'
     pos: ["MD", "PRP", "VB", "PRP$", "NN", "WRB", "NNS", "MD", "VB", "VBN", "."]
     text: ' Should I show my daughter how things should be colored?'
@@ -1075,7 +1075,7 @@ lFEu:
     wn30_key: [[9, "color%2:30:00::"]]
 irwP:
     lemmas: ["She", "be", "an", "aggressive", ",", "nervous", "child", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"]]
+    oewn_key: [[1, "oewn-02610777-v"]]
     paragraph: '42'
     pos: ["PRP", "VBZ", "DT", "JJ", ",", "JJ", "NN", "."]
     text: ' She is an aggressive, nervous child.'
@@ -1084,7 +1084,7 @@ irwP:
     wn30_key: [[1, "be%2:42:03::"]]
 s9ni:
     lemmas: ["be", "a", "relaxed", "home", "atmosphere", "enough", "to", "help", "her", "outgrow", "these", "trait", "?"]
-    oewn2026_key: [[7, "oewn-02553283-v"]]
+    oewn_key: [[7, "oewn-02553283-v"]]
     paragraph: '42'
     pos: ["VBZ", "DT", "JJ", "NN", "NN", "RB", "TO", "VB", "PRP$", "VB", "DT", "NNS", "."]
     text: ' Is a relaxed home atmosphere enough to help her outgrow these traits?
@@ -1095,7 +1095,7 @@ s9ni:
     wn30_key: [[7, "help%2:41:00::"]]
 h9h/:
     lemmas: ["Her", "choice", "of", "one", "color", "mean", "she", "be", "simply", "enjoy", "the", "motor", "act", "of", "coloring", ",", "without", "have", "reach", "the", "point", "of", "select", "suitable", "colors", "for", "different", "object", "."]
-    oewn2026_key: [[5, "oewn-02641270-v"], [9, "oewn-01824240-v"], [18, "oewn-02026014-v"], [22, "oewn-00676526-v"]]
+    oewn_key: [[5, "oewn-02641270-v"], [9, "oewn-01824240-v"], [18, "oewn-02026014-v"], [22, "oewn-00676526-v"]]
     paragraph: '43'
     pos: ["PRP$", "NN", "IN", "CD", "NN", "VBZ", "PRP", "VBZ", "RB", "VBG", "DT", "NN", "NN", "IN", "NN", ",", "IN", "VBG", "VBN", "DT", "NN", "IN", "VBG", "JJ", "NNS", "IN", "JJ", "NNS", "."]
     text: ' Her choice of one color means she is simply enjoying the motor act of coloring,
@@ -1105,7 +1105,7 @@ h9h/:
     wn30_key: [[5, "mean%2:42:00::"], [9, "enjoy%2:37:00::"], [18, "reach%2:38:06::"], [22, "select%2:31:00::"]]
 Nhhq:
     lemmas: ["This", "immature", "use", "of", "crayon", "may", "suggest", "that", "she", "be", "a_little", "immature", "for", "the", "first_grade", "."]
-    oewn2026_key: [[6, "oewn-00932768-v"], [9, "oewn-02610777-v"]]
+    oewn_key: [[6, "oewn-00932768-v"], [9, "oewn-02610777-v"]]
     paragraph: '43'
     pos: ["DT", "JJ", "NN", "IN", "NNS", "MD", "VB", "IN", "PRP", "VBZ", "RB", "JJ", "IN", "DT", "NN", "."]
     text: ' This immature use of crayons may suggest that she is a_little immature for the first_grade.
@@ -1116,7 +1116,7 @@ Nhhq:
     wn30_key: [[6, "suggest%2:32:02::"], [9, "be%2:42:03::"]]
 1mvk:
     lemmas: ["No", ",", "coloring", "be", "n't", "exactly", "something", "you", "teach", "a", "child", "."]
-    oewn2026_key: [[3, "oewn-02610777-v"], [8, "oewn-00830768-v"]]
+    oewn_key: [[3, "oewn-02610777-v"], [8, "oewn-00830768-v"]]
     paragraph: '44'
     pos: ["DT", ",", "NN", "VBZ", "RB", "RB", "NN", "PRP", "VBP", "DT", "NN", "."]
     text: ' No, coloring isn''t exactly something you teach a child.'
@@ -1125,7 +1125,7 @@ Nhhq:
     wn30_key: [[3, "be%2:42:03::"], [8, "teach%2:32:00::"]]
 NPF1:
     lemmas: ["You", "sometimes", "give", "them", "a_little", "demonstration", ",", "a_little", "guidance", ",", "and", "suggestion", "about", "stay", "inside", "the", "line", "."]
-    oewn2026_key: [[2, "oewn-01737358-v"], [13, "oewn-00117793-v"]]
+    oewn_key: [[2, "oewn-01737358-v"], [13, "oewn-00117793-v"]]
     paragraph: '44'
     pos: ["PRP", "RB", "VBP", "PRP", "RB", "NN", ",", "RB", "NN", ",", "CC", "NNS", "IN", "VBG", "IN", "DT", "NNS", "."]
     text: ' You sometimes give them a_little demonstration, a_little guidance, and suggestions
@@ -1135,7 +1135,7 @@ NPF1:
     wn30_key: [[2, "give%2:36:02::"], [13, "stay%2:30:00::"]]
 bmL6:
     lemmas: ["But", "most", "learn", "to", "color", "and", "paint", "as", "and", "when", "they", "be", "ready", "with", "only", "a", "very", "little", "demonstration", "."]
-    oewn2026_key: [[2, "oewn-00599310-v"], [4, "oewn-00284671-v"], [6, "oewn-01688794-v"], [11, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-00599310-v"], [4, "oewn-00284671-v"], [6, "oewn-01688794-v"], [11, "oewn-02610777-v"]]
     paragraph: '44'
     pos: ["CC", "JJS", "VBP", "TO", "VB", "CC", "VB", "RB", "CC", "WRB", "PRP", "VBP", "JJ", "IN", "RB", "DT", "RB", "JJ", "NN", "."]
     text: ' But most learn to color and paint as and when they are ready with only a very little
@@ -1147,7 +1147,7 @@ bmL6:
     wn30_key: [[2, "learn%2:31:00::"], [4, "color%2:30:00::"], [6, "paint%2:36:01::"], [11, "be%2:42:03::"]]
 1QfW:
     lemmas: ["see", "in", "decorating", "circle", "of_late", "be", "a", "renewed", "interest", "in", "an", "old", "art", ":", "embroidery", "."]
-    oewn2026_key: [[0, "oewn-02133338-v"]]
+    oewn_key: [[0, "oewn-02133338-v"]]
     paragraph: '45'
     pos: ["VBN", "IN", "NN", "NNS", "RB", "VBZ", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", ":", "NN", "."]
     text: ' Seen in decorating circles of_late is a renewed interest in an old art: embroidery.'
@@ -1156,7 +1156,7 @@ bmL6:
     wn30_key: [[0, "see%2:39:02::"]]
 HX+d:
     lemmas: ["possibly", "responsible_for", "this", "be", "the", "incoming", "trend", "toward", "multicolor", "scheme", "in", "rooms", ",", "which", "seem", "slate", "to", "replace", "the", "one-color", "look", "to", "which", "we", "have", "be", "accustomed", "."]
-    oewn2026_key: [[3, "oewn-02610777-v"], [14, "oewn-02137900-v"], [15, "oewn-00711673-v"], [17, "oewn-02410532-v"], [25, "oewn-02610777-v"]]
+    oewn_key: [[3, "oewn-02610777-v"], [14, "oewn-02137900-v"], [15, "oewn-00711673-v"], [17, "oewn-02410532-v"], [25, "oewn-02610777-v"]]
     paragraph: '45'
     pos: ["RB", "JJ", "DT", "VBZ", "DT", "JJ", "NN", "IN", "JJ", "NNS", "IN", "NNS", ",", "WDT", "VBZ", "VBN", "TO", "VB", "DT", "JJ", "NN", "VB", "WDT", "PRP", "VBP", "VBN", "JJ", "."]
     text: ' Possibly responsible_for this is the incoming trend toward multicolor schemes in
@@ -1166,7 +1166,7 @@ HX+d:
     wn30_key: [[3, "be%2:42:03::"], [14, "seem%2:39:00::"], [15, "slate%2:31:00::"], [17, "replace%2:41:00::"], [25, "be%2:42:03::"]]
 WreV:
     lemmas: ["just_as", "a", "varitinted", "oriental", "rug", "may", "suggest", "the", "starting_point", "for", "a", "room", "scheme", ",", "so", "may", "some", "of", "the", "new", "version", "of", "embroidery", "."]
-    oewn2026_key: [[6, "oewn-00022092-v"]]
+    oewn_key: [[6, "oewn-00022092-v"]]
     paragraph: '45'
     pos: ["RB", "DT", "JJ", "JJ", "NN", "MD", "VB", "DT", "NN", "IN", "DT", "NN", "NN", ",", "RB", "MD", "DT", "IN", "DT", "JJS", "NNS", "IN", "NN", "."]
     text: ' Just_as a varitinted Oriental rug may suggest the starting_point for a room scheme,
@@ -1178,7 +1178,7 @@ WreV:
     wn30_key: [[6, "suggest%2:29:05::"]]
 VI6d:
     lemmas: ["One", "such", ",", "in_fact", ",", "be", "a", "rug", "."]
-    oewn2026_key: [[5, "oewn-02622439-v"]]
+    oewn_key: [[5, "oewn-02622439-v"]]
     paragraph: '46'
     pos: ["CD", "JJ", ",", "RB", ",", "VBZ", "DT", "NN", "."]
     text: ' One such, in_fact, is a rug.'
@@ -1187,7 +1187,7 @@ VI6d:
     wn30_key: [[5, "be%2:42:06::"]]
 e2Vq:
     lemmas: ["Though", "not", "actually", "crewel", "embroidery", ",", "it", "have", "that", "look", "with", "its", "over-stitched", "raised", "pattern", "in", "blue", ",", "pink", ",", "bronze", "and", "gold", "and", "a", "sauterne", "background", "."]
-    oewn2026_key: [[7, "oewn-02208144-v"]]
+    oewn_key: [[7, "oewn-02208144-v"]]
     paragraph: '46'
     pos: ["IN", "RB", "RB", "NN", "NN", ",", "PRP", "VBZ", "WDT", "NN", "IN", "PRP$", "JJ", "JJ", "NN", "IN", "JJ", ",", "JJ", ",", "NN", "CC", "NN", "CC", "DT", "JJ", "NN", "."]
     text: ' Though not actually crewel embroidery, it has that look with its over-stitched raised
@@ -1197,7 +1197,7 @@ e2Vq:
     wn30_key: [[7, "have%2:40:00::"]]
 jWcJ:
     lemmas: ["The", "twirled", ",", "stylized", "design", "of", "winding", "stem", "and", "floral", "form", "strongly", "suggest", "the", "embroidered", "pattern", "use", "so", "extensively", "for", "upholstery", "during", "the", "jacobean", "period", "in", "england", "."]
-    oewn2026_key: [[12, "oewn-00022092-v"], [16, "oewn-01161188-v"]]
+    oewn_key: [[12, "oewn-00022092-v"], [16, "oewn-01161188-v"]]
     paragraph: '46'
     pos: ["DT", "JJ", ",", "JJ", "NN", "IN", "JJ", "NNS", "CC", "JJ", "NNS", "RB", "VBZ", "DT", "JJ", "NNS", "VBN", "RB", "RB", "IN", "NN", "IN", "DT", "JJ", "NN", "IN", "NNP", "."]
     text: ' The twirled, stylized design of winding stems and floral forms strongly suggests
@@ -1210,7 +1210,7 @@ jWcJ:
     wn30_key: [[12, "suggest%2:29:05::"], [16, "use%2:34:01::"]]
 OSBJ:
     lemmas: ["traditional", "crewel", "embroidery", "which", "seem", "to", "be", "appear", "more_frequently", "this", "fall", "than", "in_the_past", "few", "years", "be", "still", "available", "in_this", "country", "."]
-    oewn2026_key: [[4, "oewn-02137900-v"], [7, "oewn-00423043-v"], [15, "oewn-02610777-v"]]
+    oewn_key: [[4, "oewn-02137900-v"], [7, "oewn-00423043-v"], [15, "oewn-02610777-v"]]
     paragraph: '47'
     pos: ["JJ", "NN", "NN", "WDT", "VBZ", "TO", "VB", "VBG", "RB", "DT", "NN", "IN", "RB", "JJ", "NNS", "VBZ", "RB", "JJ", "RB", "NN", "."]
     text: ' Traditional crewel embroidery which seems to be appearing more_frequently this fall
@@ -1220,7 +1220,7 @@ OSBJ:
     wn30_key: [[4, "seem%2:39:00::"], [7, "appear%2:30:00::"], [15, "be%2:42:03::"]]
 q7Xz:
     lemmas: ["The", "work", "be", "execute", "in", "england", "(", "by_hand", ")", "and", "can", "be", "work", "in", "any", "desired", "design", "and", "color", "."]
-    oewn2026_key: [[3, "oewn-01644397-v"], [12, "oewn-01672498-v"]]
+    oewn_key: [[3, "oewn-01644397-v"], [12, "oewn-01672498-v"]]
     paragraph: '47'
     pos: ["DT", "NN", "VBZ", "VBN", "IN", "NNP", "NNP", "RB", "NNP", "CC", "MD", "VB", "VBN", "IN", "DT", "JJ", "NN", "CC", "NN", "."]
     text: ' The work is executed in England (by_hand) and can be worked in any desired design
@@ -1232,7 +1232,7 @@ q7Xz:
     wn30_key: [[3, "execute%2:36:00::"], [12, "work%2:36:00::"]]
 Vmua:
     lemmas: ["Among", "some", "recent", "import", "be", "seat", "cover", "for", "one", "series", "of", "dining_room", "chair", "on_which", "be", "depict", "salad_plate", "overflowing_with", "tomato", "and", "greens", "and", "another", "set", "on", "which", "a", "pineapple", "be", "work", "in", "naturalistic", "color", "."]
-    oewn2026_key: [[4, "oewn-02661230-v"], [15, "oewn-01690851-v"], [29, "oewn-01672498-v"]]
+    oewn_key: [[4, "oewn-02661230-v"], [15, "oewn-01690851-v"], [29, "oewn-01672498-v"]]
     paragraph: '48'
     pos: ["IN", "DT", "JJ", "NNS", "VBD", "NN", "NN", "VB", "CD", "NN", "IN", "NN", "NNS", "RB", "VBD", "VBN", "NN", "JJ", "NNS", "CC", "NNS", "CC", "DT", "NN", "VB", "WDT", "DT", "NN", "VBD", "VBN", "IN", "JJ", "NN", "."]
     text: ' Among some recent imports were seat covers for one series of dining_room chairs
@@ -1245,7 +1245,7 @@ Vmua:
     wn30_key: [[4, "be%2:42:04::"], [15, "depict%2:36:00::"], [29, "work%2:36:00::"]]
 5xek:
     lemmas: ["For", "a", "particularly", "fabulous", "room", "which", "house", "a", "collection", "of", "fine", "english_chippendale", "furniture", ",", "fabric", "wall", "panel", "be", "embroider", "with", "a", "typically", "Chinese-inspired", "design", "of_this", "revered", "eighteenth_century", "period", "."]
-    oewn2026_key: [[6, "oewn-02707688-v"], [18, "oewn-01671502-v"]]
+    oewn_key: [[6, "oewn-02707688-v"], [18, "oewn-01671502-v"]]
     paragraph: '49'
     pos: ["IN", "DT", "RB", "JJ", "NN", "WDT", "VBZ", "DT", "NN", "IN", "JJ", "NNP", "NN", ",", "NN", "NN", "NNS", "VBD", "VBN", "IN", "DT", "RB", "JJ", "NN", "RB", "JJ", "NNP", "NN", "."]
     text: ' For a particularly fabulous room which houses a collection of fine English_Chippendale
@@ -1256,7 +1256,7 @@ Vmua:
     wn30_key: [[6, "house%2:42:02::"], [18, "embroider%2:36:00::"]]
 3fT4:
     lemmas: ["Since", "the", "work", "be", "do", "by_hand", ",", "the", "only", "limitation", ",", "it", "be", "say", ",", "\"", "be", "that", "of", "human", "conception", "\"", "."]
-    oewn2026_key: [[4, "oewn-01716563-v"], [13, "oewn-01018011-v"], [16, "oewn-02622439-v"]]
+    oewn_key: [[4, "oewn-01716563-v"], [13, "oewn-01018011-v"], [16, "oewn-02622439-v"]]
     paragraph: '49'
     pos: ["IN", "DT", "NN", "VBZ", "VBN", "RB", ",", "DT", "JJ", "NN", ",", "PRP", "VBZ", "VBD", ",", "''", "VBZ", "IN", "IN", "JJ", "NN", "''", "."]
     text: ' Since the work is done by_hand, the only limitation, it is said, " is that of human
@@ -1268,7 +1268,7 @@ Vmua:
     wn30_key: [[4, "do%2:36:01::"], [13, "say%2:32:01::"], [16, "be%2:42:06::"]]
 h2cy:
     lemmas: ["modern", "embroidered", "panel", ",", "framed", "and", "mean", "to", "be", "hang", "on", "the", "wall", ",", "be", "another", "aspect", "of_this", "trend", "."]
-    oewn2026_key: [[6, "oewn-00710367-v"], [9, "oewn-01483990-v"], [14, "oewn-02622439-v"]]
+    oewn_key: [[6, "oewn-00710367-v"], [9, "oewn-01483990-v"], [14, "oewn-02622439-v"]]
     paragraph: '50'
     pos: ["NNP", "JJ", "NNS", ",", "JJ", "CC", "VBN", "TO", "VB", "VBN", "VB", "DT", "NN", ",", "VBP", "DT", "NN", "RB", "NN", "."]
     text: ' Modern embroidered panels, framed and meant to be hung on the wall, are another
@@ -1278,7 +1278,7 @@ h2cy:
     wn30_key: [[6, "mean%2:31:00::"], [9, "hang%2:35:00::"], [14, "be%2:42:06::"]]
 MWPu:
     lemmas: ["These", "have", "never", "go_out", "of", "style", "in", "scandinavian", "home", "and", "now", "seem", "to", "be", "reappear", "here_and_there", "in", "shop", "which", "specialize", "in", "handicraft", "."]
-    oewn2026_key: [[3, "oewn-02673617-v"], [11, "oewn-02137900-v"], [14, "oewn-00427254-v"], [19, "oewn-00438402-v"]]
+    oewn_key: [[3, "oewn-02673617-v"], [11, "oewn-02137900-v"], [14, "oewn-00427254-v"], [19, "oewn-00438402-v"]]
     paragraph: '50'
     pos: ["DT", "VBP", "RB", "VB", "IN", "NN", "IN", "NNP", "NNS", "CC", "RB", "VBP", "TO", "VB", "VBG", "RB", "IN", "NNS", "WDT", "VBP", "IN", "NNS", "."]
     text: ' These have never gone_out of style in Scandinavian homes and now seem to be reappearing
@@ -1288,7 +1288,7 @@ MWPu:
     wn30_key: [[3, "go_out%2:42:00::"], [11, "seem%2:39:00::"], [14, "reappear%2:30:00::"], [19, "specialize%2:30:00::"]]
 7OY7:
     lemmas: ["An", "amateur", "decorator", "might", "try_her_hand_at", "a", "pair", "during", "the", "long", "winter", "evening", ",", "and", ",", "by", "pick_up", "her", "living_room", "color_scheme", ",", "add", "a", "decorative", "do-it-yourself", "note", "to", "the", "room", "."]
-    oewn2026_key: [[16, "oewn-00514838-v"], [21, "oewn-02329474-v"]]
+    oewn_key: [[16, "oewn-00514838-v"], [21, "oewn-02329474-v"]]
     paragraph: '50'
     pos: ["DT", "NN", "NN", "MD", "VB", "DT", "NN", "IN", "DT", "JJ", "NN", "NNS", ",", "CC", ",", "IN", "VB", "PRP$", "NN", "NN", ",", "VB", "DT", "JJ", "JJ", "NN", "TO", "DT", "NN", "."]
     text: ' An amateur decorator might try_her_hand_at a pair during the long winter evenings,

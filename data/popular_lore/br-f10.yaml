@@ -3,7 +3,7 @@ _meta:
         type: seq
         base: tokens
         data: string
-    oewn2026_key:
+    oewn_key:
         type: element
         base: tokens
         data: string
@@ -28,7 +28,7 @@ _meta:
         data: string
 +gsa:
     lemmas: ["person", "prove", "a", "man", "of", "prompt", "action", "when", "person", ",", "accompany", "by", "a", "friend", ",", "visit", "him", "in", "location", ",", "california", ",", "several", "month", "ago", "as", "a", "prospective", "patient", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-02639962-v"], [3, "oewn-10306910-n"], [6, "oewn-04843181-n"], [8, "oewn-00007846-n"], [10, "oewn-02722040-v"], [13, "oewn-10132360-n"], [15, "oewn-02498679-v"], [18, "oewn-00027365-n"], [20, "oewn-09083238-n"], [22, "oewn-02276025-s"], [23, "oewn-15234209-n"], [24, "oewn-00074361-r"], [27, "oewn-01889997-a"], [28, "oewn-10425439-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-02639962-v"], [3, "oewn-10306910-n"], [6, "oewn-04843181-n"], [8, "oewn-00007846-n"], [10, "oewn-02722040-v"], [13, "oewn-10132360-n"], [15, "oewn-02498679-v"], [18, "oewn-00027365-n"], [20, "oewn-09083238-n"], [22, "oewn-02276025-s"], [23, "oewn-15234209-n"], [24, "oewn-00074361-r"], [27, "oewn-01889997-a"], [28, "oewn-10425439-n"]]
     paragraph: '0'
     pos: ["NN", "VBD", "DT", "NN", "IN", "JJ", "NN", "WRB", "NN", ",", "VBN", "IN", "DT", "NN", ",", "VBD", "PRP", "IN", "NNP", ",", "NNP", ",", "JJ", "NNS", "RB", "IN", "DT", "JJ", "NN", "."]
     text: Franklin_D._Lee proved a man of prompt action when Mrs._Claire_Shaefer, accompanied
@@ -39,7 +39,7 @@ _meta:
     wn30_key: [[0, "person%1:03:00::"], [1, "prove%2:42:00::"], [3, "man%1:18:00::"], [6, "action%1:07:00::"], [8, "person%1:03:00::"], [10, "accompany%2:42:00::"], [13, "friend%1:18:00::"], [15, "visit%2:41:02::"], [18, "location%1:03:00::"], [20, "california%1:15:00::"], [22, "several%3:00:00:some:00"], [23, "month%1:28:01::"], [24, "ago%4:02:00::"], [27, "prospective%3:00:00::"], [28, "patient%1:18:00::"]]
 ZCIi:
     lemmas: ["\"", "doctor", "\"", "person", "ask", "her", "to", "lie_down", "on", "a", "bed", "and", "remove", "her", "shoe", "."]
-    oewn2026_key: [[1, "oewn-10040615-n"], [3, "oewn-00007846-n"], [4, "oewn-00754499-v"], [7, "oewn-01989043-v"], [10, "oewn-02821967-n"], [12, "oewn-00173351-v"], [14, "oewn-04206070-n"]]
+    oewn_key: [[1, "oewn-10040615-n"], [3, "oewn-00007846-n"], [4, "oewn-00754499-v"], [7, "oewn-01989043-v"], [10, "oewn-02821967-n"], [12, "oewn-00173351-v"], [14, "oewn-04206070-n"]]
     paragraph: '0'
     pos: ["``", "NN", "''", "NNP", "VBD", "PRP", "TO", "VB", "IN", "DT", "NN", "CC", "VB", "PRP$", "NNS", "."]
     text: ' " Doctor " Lee asked her to lie_down on a bed and remove her shoes.'
@@ -48,7 +48,7 @@ ZCIi:
     wn30_key: [[1, "doctor%1:18:00::"], [3, "person%1:03:00::"], [4, "ask%2:32:01::"], [7, "lie_down%2:38:00::"], [10, "bed%1:06:00::"], [12, "remove%2:30:00::"], [14, "shoe%1:06:00::"]]
 pXwF:
     lemmas: ["then", ",", "by", "squeeze", "her", "foot", "three", "time", ",", "he", "come_up", "-", "presto", "-", "with", "a", "different", "diagnosis", "with", "each", "squeeze", "."]
-    oewn2026_key: [[0, "oewn-00118527-r"], [3, "oewn-01450487-v"], [5, "oewn-05570899-n"], [6, "oewn-02194219-s"], [7, "oewn-07324217-n"], [10, "oewn-02631867-v"], [12, "oewn-00062352-r"], [16, "oewn-02077434-s"], [17, "oewn-00153547-n"], [20, "oewn-00357849-n"]]
+    oewn_key: [[0, "oewn-00118527-r"], [3, "oewn-01450487-v"], [5, "oewn-05570899-n"], [6, "oewn-02194219-s"], [7, "oewn-07324217-n"], [10, "oewn-02631867-v"], [12, "oewn-00062352-r"], [16, "oewn-02077434-s"], [17, "oewn-00153547-n"], [20, "oewn-00357849-n"]]
     paragraph: '0'
     pos: ["RB", ",", "IN", "VBG", "PRP$", "NN", "JJ", "NNS", ",", "PRP", "VB", ":", "RB", ":", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "."]
     text: ' Then, by squeezing her foot three times, he came_up - presto - with a different
@@ -58,7 +58,7 @@ pXwF:
     wn30_key: [[0, "then%4:02:00::"], [3, "squeeze%2:35:00::"], [5, "foot%1:08:01::"], [6, "three%3:00:00:cardinal:00"], [7, "time%1:11:00::"], [10, "come_up%2:42:00::"], [12, "presto%4:02:01::"], [16, "different%3:00:00:other:00"], [17, "diagnosis%1:04:00::"], [20, "squeeze%1:04:00::"]]
 3/cG:
     lemmas: ["She", "have", "-", "he", "inform", "her", "-", "kidney", "trouble", ",", "liver", "trouble", ",", "and", "a", "severe", "female", "disorder", "."]
-    oewn2026_key: [[1, "oewn-00065141-v"], [4, "oewn-00833312-v"], [7, "oewn-05340350-n"], [10, "oewn-05392877-n"], [15, "oewn-00654061-s"], [16, "oewn-01487758-s"], [17, "oewn-14075885-n"]]
+    oewn_key: [[1, "oewn-00065141-v"], [4, "oewn-00833312-v"], [7, "oewn-05340350-n"], [10, "oewn-05392877-n"], [15, "oewn-00654061-s"], [16, "oewn-01487758-s"], [17, "oewn-14075885-n"]]
     paragraph: '0'
     pos: ["PRP", "VBD", ":", "PRP", "VBD", "PRP$", ":", "NN", "NN", ",", "NN", "NN", ",", "CC", "DT", "JJ", "JJ", "NN", "."]
     text: ' She had - he informed her - kidney trouble, liver trouble, and a severe female disorder.'
@@ -67,7 +67,7 @@ pXwF:
     wn30_key: [[1, "have%2:29:02::"], [4, "inform%2:32:00::"], [7, "kidney%1:08:00::"], [10, "liver%1:08:00::"], [15, "severe%3:00:00:critical:03"], [16, "female%3:00:02:feminine:01"], [17, "disorder%1:26:03::"]]
 f0ZQ:
     lemmas: ["(", "He", "explain", "that", "he", "could", "diagnose", "these", "ailment", "from", "squeeze", "her", "foot", "because", "all_of", "the", "nervous_system", "be", "connected", "to", "it", ".", ")"]
-    oewn2026_key: [[2, "oewn-00941308-v"], [6, "oewn-00647205-v"], [8, "oewn-14078890-n"], [10, "oewn-01450487-v"], [12, "oewn-05570899-n"], [16, "oewn-05469891-n"], [17, "oewn-02610777-v"], [18, "oewn-00568364-a"]]
+    oewn_key: [[2, "oewn-00941308-v"], [6, "oewn-00647205-v"], [8, "oewn-14078890-n"], [10, "oewn-01450487-v"], [12, "oewn-05570899-n"], [16, "oewn-05469891-n"], [17, "oewn-02610777-v"], [18, "oewn-00568364-a"]]
     paragraph: '0'
     pos: ["VB", "PRP", "VBD", "IN", "PRP", "VB", "VB", "DT", "NNS", "IN", "VBG", "PRP$", "NN", "IN", "JJ", "DT", "NN", "VBD", "JJ", "RB", "RB", ".", "NN"]
     text: ' (He explained that he could diagnose these ailments from squeezing her foot because
@@ -77,7 +77,7 @@ f0ZQ:
     wn30_key: [[2, "explain%2:32:00::"], [6, "diagnose%2:31:00::"], [8, "ailment%1:26:00::"], [10, "squeeze%2:35:00::"], [12, "foot%1:08:01::"], [16, "nervous_system%1:08:00::"], [17, "be%2:42:03::"], [18, "connected%3:00:00::"]]
 1YNr:
     lemmas: ["He", "know", "just", "the", "thing", "for", "her", "-", "a", "treatment", "from", "his", "\"", "cosmic", "light", "ozone", "generator", "\"", "machine", "."]
-    oewn2026_key: [[1, "oewn-00597330-v"], [2, "oewn-00159432-r"], [4, "oewn-00034778-n"], [9, "oewn-00659325-n"], [13, "oewn-02713543-a"], [14, "oewn-11494354-n"], [15, "oewn-14997366-n"], [16, "oewn-03438787-n"], [18, "oewn-03705309-n"]]
+    oewn_key: [[1, "oewn-00597330-v"], [2, "oewn-00159432-r"], [4, "oewn-00034778-n"], [9, "oewn-00659325-n"], [13, "oewn-02713543-a"], [14, "oewn-11494354-n"], [15, "oewn-14997366-n"], [16, "oewn-03438787-n"], [18, "oewn-03705309-n"]]
     paragraph: '0'
     pos: ["PRP", "VBD", "RB", "DT", "NN", "IN", "PRP$", ":", "DT", "NN", "IN", "PRP$", "``", "JJ", "NN", "NN", "NN", "''", "NN", "."]
     text: ' He knew just the thing for her - a treatment from his " cosmic light ozone generator
@@ -89,7 +89,7 @@ f0ZQ:
     wn30_key: [[1, "know%2:31:03::"], [2, "just%4:02:05::"], [4, "thing%1:04:00::"], [9, "treatment%1:04:00::"], [13, "cosmic%3:01:00::"], [14, "light%1:19:00::"], [15, "ozone%1:27:00::"], [16, "generator%1:06:00::"], [18, "machine%1:06:00::"]]
 G9wp:
     lemmas: ["As", "he", "apply", "the", "applicator", "extend", "from", "the", "machine", "-", "which", "consist_of", "seven", "differently", "colored", "neon_tube", "superimpose", "on", "a", "rectangular", "base", "-", "to", "the", "supposedly", "diseased", "portion", "of", "person", "'s", "body", ",", "person", "keep_up", "a", "steady", "stream", "of", "pseudo", "scientific", "mumbo_jumbo", "."]
-    oewn2026_key: [[2, "oewn-01366351-v"], [4, "oewn-02733263-n"], [5, "oewn-02691775-v"], [8, "oewn-03705309-n"], [12, "oewn-02194609-s"], [13, "oewn-00114003-r"], [14, "oewn-00395623-a"], [15, "oewn-03823883-n"], [16, "oewn-01471892-v"], [19, "oewn-02056397-s"], [20, "oewn-03391862-n"], [24, "oewn-00155582-r"], [25, "oewn-01179790-s"], [26, "oewn-13831419-n"], [28, "oewn-00007846-n"], [30, "oewn-05223633-n"], [32, "oewn-00007846-n"], [33, "oewn-02685340-v"], [35, "oewn-02309241-a"], [36, "oewn-07421365-n"], [38, "oewn-01121995-s"], [39, "oewn-02091950-a"], [40, "oewn-06624773-n"]]
+    oewn_key: [[2, "oewn-01366351-v"], [4, "oewn-02733263-n"], [5, "oewn-02691775-v"], [8, "oewn-03705309-n"], [12, "oewn-02194609-s"], [13, "oewn-00114003-r"], [14, "oewn-00395623-a"], [15, "oewn-03823883-n"], [16, "oewn-01471892-v"], [19, "oewn-02056397-s"], [20, "oewn-03391862-n"], [24, "oewn-00155582-r"], [25, "oewn-01179790-s"], [26, "oewn-13831419-n"], [28, "oewn-00007846-n"], [30, "oewn-05223633-n"], [32, "oewn-00007846-n"], [33, "oewn-02685340-v"], [35, "oewn-02309241-a"], [36, "oewn-07421365-n"], [38, "oewn-01121995-s"], [39, "oewn-02091950-a"], [40, "oewn-06624773-n"]]
     paragraph: '1'
     pos: ["IN", "PRP", "VBD", "DT", "NN", "VBG", "IN", "DT", "NN", ":", "WDT", "VB", "JJ", "RB", "JJ", "NNS", "VBN", "IN", "DT", "JJ", "NN", ":", "TO", "DT", "RB", "JJ", "NNS", "IN", "NN", "POS", "NN", ",", "NNP", "VB", "DT", "JJ", "NN", "IN", "JJ", "JJ", "NN", "."]
     text: ' As he applied the applicator extending from the machine - which consisted_of seven
@@ -101,7 +101,7 @@ G9wp:
     wn30_key: [[2, "apply%2:35:00::"], [4, "applicator%1:06:00::"], [5, "extend%2:42:03::"], [8, "machine%1:06:00::"], [12, "seven%3:00:00:cardinal:00"], [13, "differently%4:02:00::"], [14, "colored%3:00:00::"], [15, "neon_tube%1:06:00::"], [16, "superimpose%2:35:00::"], [19, "rectangular%3:00:00:angular:00"], [20, "base%1:06:01::"], [24, "supposedly%4:02:00::"], [25, "diseased%3:00:00:unhealthy:00"], [26, "portion%1:24:00::"], [28, "person%1:03:00::"], [30, "body%1:08:00::"], [32, "person%1:03:00::"], [33, "keep_up%2:42:00::"], [35, "steady%3:00:00::"], [36, "stream%1:11:00::"], [38, "pseudo%3:00:00:counterfeit:00"], [39, "scientific%3:00:00::"], [40, "mumbo_jumbo%1:10:00::"]]
 +Mzc:
     lemmas: ["Yes", ",", "the", "ozone", "from", "his", "machine", "would", "cure", "practically", "everything", ",", "he", "assure", "her", "."]
-    oewn2026_key: [[3, "oewn-14997366-n"], [6, "oewn-03705309-n"], [8, "oewn-00081478-v"], [9, "oewn-00054282-r"], [13, "oewn-00778313-v"]]
+    oewn_key: [[3, "oewn-14997366-n"], [6, "oewn-03705309-n"], [8, "oewn-00081478-v"], [9, "oewn-00054282-r"], [13, "oewn-00778313-v"]]
     paragraph: '1'
     pos: ["UH", ",", "DT", "NN", "IN", "PRP$", "NN", "MD", "VB", "RB", "NN", ",", "PRP", "VBD", "PRP$", "."]
     text: ' Yes, the ozone from his machine would cure practically everything, he assured her.'
@@ -110,7 +110,7 @@ G9wp:
     wn30_key: [[3, "ozone%1:27:00::"], [6, "machine%1:06:00::"], [8, "cure%2:29:00::"], [9, "practically%4:02:00::"], [13, "assure%2:32:01::"]]
 E1Ze:
     lemmas: ["do", "she", "know", ",", "he", "ask", ",", "why", "the", "color", "of", "the", "tube", "be", "important", "to", "people", "'s", "health", "?"]
-    oewn2026_key: [[2, "oewn-00596016-v"], [5, "oewn-00899241-v"], [9, "oewn-04963771-n"], [12, "oewn-04500800-n"], [13, "oewn-02610777-v"], [14, "oewn-01278672-a"], [16, "oewn-07958392-n"], [18, "oewn-14471374-n"]]
+    oewn_key: [[2, "oewn-00596016-v"], [5, "oewn-00899241-v"], [9, "oewn-04963771-n"], [12, "oewn-04500800-n"], [13, "oewn-02610777-v"], [14, "oewn-01278672-a"], [16, "oewn-07958392-n"], [18, "oewn-14471374-n"]]
     paragraph: '1'
     pos: ["VBD", "PRP", "VBP", ",", "PRP", "VBD", ",", "WRB", "DT", "NNS", "IN", "DT", "NNS", "VBD", "JJ", "TO", "NNS", "POS", "NN", "."]
     text: ' Did she know, he asked, why the colors of the tubes were important to people''s
@@ -120,7 +120,7 @@ E1Ze:
     wn30_key: [[2, "know%2:31:01::"], [5, "ask%2:32:00::"], [9, "color%1:07:00::"], [12, "tube%1:06:00::"], [13, "be%2:42:03::"], [14, "important%3:00:00::"], [16, "people%1:14:00::"], [18, "health%1:26:00::"]]
 MVON:
     lemmas: ["The", "human_body", "-", "he", "point_out", ",", "for_example", "-", "require", "33", "unit", "of", "blue", "light", "."]
-    oewn2026_key: [[1, "oewn-05224424-n"], [4, "oewn-01015239-v"], [6, "oewn-00160239-r"], [8, "oewn-02634015-v"], [10, "oewn-13604927-n"], [12, "oewn-00371931-s"], [13, "oewn-11494354-n"]]
+    oewn_key: [[1, "oewn-05224424-n"], [4, "oewn-01015239-v"], [6, "oewn-00160239-r"], [8, "oewn-02634015-v"], [10, "oewn-13604927-n"], [12, "oewn-00371931-s"], [13, "oewn-11494354-n"]]
     paragraph: '1'
     pos: ["DT", "NN", ":", "PRP", "VB", ",", "RB", ":", "VBD", "CD", "NNS", "IN", "JJ", "NN", "."]
     text: ' The human_body - he pointed_out, for_example - required 33 units of blue light.'
@@ -129,7 +129,7 @@ MVON:
     wn30_key: [[1, "human_body%1:08:00::"], [4, "point_out%2:32:02::"], [6, "for_example%4:02:00::"], [8, "require%2:42:00::"], [10, "unit%1:23:00::"], [12, "blue%3:00:00:chromatic:00"], [13, "light%1:19:00::"]]
 Q3fa:
     lemmas: ["For", "that", "reason", ",", "he", "inform", "her", ",", "the", "lord", "make", "the", "sky", "blue", "."]
-    oewn2026_key: [[2, "oewn-09201896-n"], [5, "oewn-00833312-v"], [9, "oewn-09559474-n"], [10, "oewn-01622033-v"], [12, "oewn-09459612-n"], [13, "oewn-00371931-s"]]
+    oewn_key: [[2, "oewn-09201896-n"], [5, "oewn-00833312-v"], [9, "oewn-09559474-n"], [10, "oewn-01622033-v"], [12, "oewn-09459612-n"], [13, "oewn-00371931-s"]]
     paragraph: '1'
     pos: ["IN", "IN", "NN", ",", "PRP", "VBD", "PRP$", ",", "DT", "NNP", "VBD", "DT", "NN", "JJ", "."]
     text: ' For that reason, he informed her, the Lord made the sky blue.'
@@ -138,7 +138,7 @@ Q3fa:
     wn30_key: [[2, "reason%1:16:00::"], [5, "inform%2:32:00::"], [9, "lord%1:18:02::"], [10, "make%2:36:05::"], [12, "sky%1:17:00::"], [13, "blue%3:00:00:chromatic:00"]]
 e7cS:
     lemmas: ["continue", "glibly", "in", "this", "vein", ",", "he", "pause", "to", "comfort", "her", ":"]
-    oewn2026_key: [[0, "oewn-00783045-v"], [1, "oewn-00240144-r"], [4, "oewn-07103814-n"], [7, "oewn-00781106-v"], [9, "oewn-01818782-v"]]
+    oewn_key: [[0, "oewn-00783045-v"], [1, "oewn-00240144-r"], [4, "oewn-07103814-n"], [7, "oewn-00781106-v"], [9, "oewn-01818782-v"]]
     paragraph: '1'
     pos: ["VBG", "RB", "RB", "RB", "NN", ",", "PRP", "VBD", "TO", "VB", "PRP$", ":"]
     text: ' Continuing glibly in this vein, he paused to comfort her:
@@ -149,7 +149,7 @@ e7cS:
     wn30_key: [[0, "continue%2:32:00::"], [1, "glibly%4:02:00::"], [4, "vein%1:10:00::"], [7, "pause%2:32:01::"], [9, "comfort%2:37:01::"]]
 9vdB:
     lemmas: ["\"", "do", "n't", "you", "worry", "."]
-    oewn2026_key: [[4, "oewn-01771015-v"]]
+    oewn_key: [[4, "oewn-01771015-v"]]
     paragraph: '2'
     pos: ["``", "VBP", "RB", "PRP", "VB", "."]
     text: ' " Don''t you worry.'
@@ -158,7 +158,7 @@ e7cS:
     wn30_key: [[4, "worry%2:37:00::"]]
 DePa:
     lemmas: ["This", "machine", "will", "cure", "your", "cancer", "ridden", "body", "\"", "."]
-    oewn2026_key: [[1, "oewn-03705309-n"], [3, "oewn-00081478-v"], [5, "oewn-14263400-n"], [7, "oewn-05223633-n"]]
+    oewn_key: [[1, "oewn-03705309-n"], [3, "oewn-00081478-v"], [5, "oewn-14263400-n"], [7, "oewn-05223633-n"]]
     paragraph: '2'
     pos: ["DT", "NN", "MD", "VB", "PRP$", "NN", "JJ", "NN", "''", "."]
     text: ' This machine will cure your cancer ridden body ".
@@ -169,7 +169,7 @@ DePa:
     wn30_key: [[1, "machine%1:06:00::"], [3, "cure%2:29:00::"], [5, "cancer%1:26:00::"], [7, "body%1:08:00::"]]
 NpLK:
     lemmas: ["\"", "cancer", "\"", "!"]
-    oewn2026_key: [[1, "oewn-14263400-n"]]
+    oewn_key: [[1, "oewn-14263400-n"]]
     paragraph: '3'
     pos: ["``", "NNP", "''", "."]
     text: ' " Cancer "!'
@@ -178,7 +178,7 @@ NpLK:
     wn30_key: [[1, "cancer%1:26:00::"]]
 v2Wj:
     lemmas: ["person", "practically", "shriek", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-00054282-r"], [2, "oewn-00916373-v"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-00054282-r"], [2, "oewn-00916373-v"]]
     paragraph: '3'
     pos: ["NN", "RB", "VBD", "."]
     text: ' Mrs._Shaefer practically shrieked.'
@@ -187,7 +187,7 @@ v2Wj:
     wn30_key: [[0, "person%1:03:00::"], [1, "practically%4:02:00::"], [2, "shriek%2:32:00::"]]
 2TfL:
     lemmas: ["\"", "You", "do", "n't", "tell", "me", "I", "have", "cancer", "\"", "."]
-    oewn2026_key: [[4, "oewn-00954556-v"], [7, "oewn-00065141-v"], [8, "oewn-14263400-n"]]
+    oewn_key: [[4, "oewn-00954556-v"], [7, "oewn-00065141-v"], [8, "oewn-14263400-n"]]
     paragraph: '3'
     pos: ["``", "PRP", "VBD", "RB", "VB", "PRP", "PRP", "VBD", "NN", "''", "."]
     text: ' " You didn''t tell me I had cancer ".
@@ -198,7 +198,7 @@ v2Wj:
     wn30_key: [[4, "tell%2:32:00::"], [7, "have%2:29:02::"], [8, "cancer%1:26:00::"]]
 Qwz9:
     lemmas: ["\"", "You", "have", "it", ",", "all_right", "."]
-    oewn2026_key: [[2, "oewn-00065141-v"], [5, "oewn-00053690-r"]]
+    oewn_key: [[2, "oewn-00065141-v"], [5, "oewn-00053690-r"]]
     paragraph: '4'
     pos: ["``", "PRP", "VBP", "PRP", ",", "RB", "."]
     text: ' " You have it, all_right.'
@@ -207,7 +207,7 @@ Qwz9:
     wn30_key: [[2, "have%2:29:02::"], [5, "all_right%4:02:01::"]]
 v/xY:
     lemmas: ["But", "as_long_as", "you", "can", "have", "treatment", "from", "my", "machine", "you", "have", "nothing", "to", "worry", "about", "."]
-    oewn2026_key: [[4, "oewn-02112480-v"], [5, "oewn-00659325-n"], [8, "oewn-03705309-n"], [10, "oewn-02208144-v"], [11, "oewn-13762308-n"], [13, "oewn-01771015-v"]]
+    oewn_key: [[4, "oewn-02112480-v"], [5, "oewn-00659325-n"], [8, "oewn-03705309-n"], [10, "oewn-02208144-v"], [11, "oewn-13762308-n"], [13, "oewn-01771015-v"]]
     paragraph: '4'
     pos: ["CC", "IN", "PRP", "MD", "VB", "NN", "IN", "PRP$", "NN", "PRP", "VBP", "NN", "TO", "VB", "VB", "."]
     text: ' But as_long_as you can have treatment from my machine you have nothing to worry
@@ -217,7 +217,7 @@ v/xY:
     wn30_key: [[4, "have%2:39:06::"], [5, "treatment%1:04:00::"], [8, "machine%1:06:00::"], [10, "have%2:40:00::"], [11, "nothing%1:23:00::"], [13, "worry%2:37:00::"]]
 CK9Z:
     lemmas: ["Why", ",", "I", "once", "use", "this", "machine", "to", "cure", "a", "woman", "with", "97", "pound", "of", "cancer", "in", "her", "body", "\"", "."]
-    oewn2026_key: [[3, "oewn-00119765-r"], [4, "oewn-01161188-v"], [6, "oewn-03705309-n"], [8, "oewn-00081478-v"], [10, "oewn-10807146-n"], [13, "oewn-13742201-n"], [15, "oewn-14263400-n"], [18, "oewn-05223633-n"]]
+    oewn_key: [[3, "oewn-00119765-r"], [4, "oewn-01161188-v"], [6, "oewn-03705309-n"], [8, "oewn-00081478-v"], [10, "oewn-10807146-n"], [13, "oewn-13742201-n"], [15, "oewn-14263400-n"], [18, "oewn-05223633-n"]]
     paragraph: '4'
     pos: ["WRB", ",", "PRP", "RB", "VBD", "DT", "NN", "TO", "VB", "DT", "NN", "IN", "CD", "NNS", "IN", "NN", "IN", "PRP$", "NN", "''", "."]
     text: ' Why, I once used this machine to cure a woman with 97 pounds of cancer in her body
@@ -229,7 +229,7 @@ CK9Z:
     wn30_key: [[3, "once%4:02:00::"], [4, "use%2:34:01::"], [6, "machine%1:06:00::"], [8, "cure%2:29:00::"], [10, "woman%1:18:00::"], [13, "pound%1:23:09::"], [15, "cancer%1:26:00::"], [18, "body%1:08:00::"]]
 njnt:
     lemmas: ["He", "urge", "her", "to", "buy", "one", "of", "his", "machine", "-", "for", "$", "300", "."]
-    oewn2026_key: [[1, "oewn-00767694-v"], [4, "oewn-02211988-v"], [5, "oewn-02193977-s"], [8, "oewn-03705309-n"]]
+    oewn_key: [[1, "oewn-00767694-v"], [4, "oewn-02211988-v"], [5, "oewn-02193977-s"], [8, "oewn-03705309-n"]]
     paragraph: '5'
     pos: ["PRP", "VBD", "PRP", "TO", "VB", "JJ", "IN", "PRP$", "NNS", ":", "IN", "$", "CD", "."]
     text: ' He urged her to buy one of his machines - for $300.'
@@ -238,7 +238,7 @@ njnt:
     wn30_key: [[1, "urge%2:32:00::"], [4, "buy%2:40:00::"], [5, "one%3:00:00:cardinal:00"], [8, "machine%1:06:00::"]]
 7uKk:
     lemmas: ["When", "she", "say", "that", "she", "do", "n't", "have", "the", "money", ",", "he", "say", "that", "she", "could", "come_in", "for", "treatment", "with", "his", "office", "model", "until", "she", "be", "ready", "to", "buy", "one", "."]
-    oewn2026_key: [[2, "oewn-01011267-v"], [7, "oewn-02208144-v"], [9, "oewn-13405730-n"], [12, "oewn-01011267-v"], [16, "oewn-02020375-v"], [18, "oewn-00659325-n"], [21, "oewn-03847186-n"], [22, "oewn-05854179-n"], [25, "oewn-02610777-v"], [26, "oewn-01936911-a"], [28, "oewn-02211988-v"], [29, "oewn-02193977-s"]]
+    oewn_key: [[2, "oewn-01011267-v"], [7, "oewn-02208144-v"], [9, "oewn-13405730-n"], [12, "oewn-01011267-v"], [16, "oewn-02020375-v"], [18, "oewn-00659325-n"], [21, "oewn-03847186-n"], [22, "oewn-05854179-n"], [25, "oewn-02610777-v"], [26, "oewn-01936911-a"], [28, "oewn-02211988-v"], [29, "oewn-02193977-s"]]
     paragraph: '5'
     pos: ["WRB", "PRP", "VBD", "IN", "PRP", "VBD", "RB", "VB", "DT", "NN", ",", "PRP", "VBD", "IN", "PRP", "MD", "VB", "VB", "NN", "IN", "PRP$", "NN", "NN", "IN", "PRP", "VBD", "JJ", "TO", "VB", "JJ", "."]
     text: ' When she said that she didn''t have the money, he said that she could come_in for
@@ -248,7 +248,7 @@ njnt:
     wn30_key: [[2, "say%2:32:00::"], [7, "have%2:40:00::"], [9, "money%1:21:00::"], [12, "say%2:32:00::"], [16, "come_in%2:38:02::"], [18, "treatment%1:04:00::"], [21, "office%1:06:00::"], [22, "model%1:09:03::"], [25, "be%2:42:03::"], [26, "ready%3:00:00::"], [28, "buy%2:40:00::"], [29, "one%3:00:00:cardinal:00"]]
 YROz:
     lemmas: ["He", "then", "sell", "her", "mineral", "to", "cure", "her", "kidney", "ailment", ",", "a", "can", "of", "sage", "\"", "to", "make", "her", "look_like", "a", "girl", "again", "\"", ",", "and", "an", "application", "of", "plain", "mud", "to", "take_away", "her", "wrinkle", "away", "."]
-    oewn2026_key: [[1, "oewn-00118527-r"], [2, "oewn-02247246-v"], [4, "oewn-14686753-n"], [6, "oewn-00081478-v"], [8, "oewn-05340350-n"], [9, "oewn-14078890-n"], [12, "oewn-02950393-n"], [14, "oewn-07836473-n"], [17, "oewn-00120124-v"], [19, "oewn-02671694-v"], [21, "oewn-10104064-n"], [22, "oewn-00040777-r"], [27, "oewn-00713478-n"], [29, "oewn-00060864-s"], [30, "oewn-14980464-n"], [32, "oewn-00179456-v"], [34, "oewn-13928798-n"]]
+    oewn_key: [[1, "oewn-00118527-r"], [2, "oewn-02247246-v"], [4, "oewn-14686753-n"], [6, "oewn-00081478-v"], [8, "oewn-05340350-n"], [9, "oewn-14078890-n"], [12, "oewn-02950393-n"], [14, "oewn-07836473-n"], [17, "oewn-00120124-v"], [19, "oewn-02671694-v"], [21, "oewn-10104064-n"], [22, "oewn-00040777-r"], [27, "oewn-00713478-n"], [29, "oewn-00060864-s"], [30, "oewn-14980464-n"], [32, "oewn-00179456-v"], [34, "oewn-13928798-n"]]
     paragraph: '5'
     pos: ["PRP", "RB", "VBD", "PRP$", "NNS", "TO", "VB", "PRP$", "NN", "NN", ",", "DT", "NN", "IN", "NN", "''", "TO", "VB", "PRP$", "VB", "DT", "NN", "RB", "``", ",", "CC", "DT", "NN", "IN", "JJ", "NN", "TO", "VB", "PRP$", "NNS", "RB", "."]
     text: ' He then sold her minerals to cure her kidney ailment, a can of sage " to make her
@@ -260,7 +260,7 @@ YROz:
     wn30_key: [[1, "then%4:02:00::"], [2, "sell%2:40:00::"], [4, "mineral%1:27:00::"], [6, "cure%2:29:00::"], [8, "kidney%1:08:00::"], [9, "ailment%1:26:00::"], [12, "can%1:06:00::"], [14, "sage%1:13:00::"], [17, "make%2:30:00::"], [19, "look_like%2:42:00::"], [21, "girl%1:18:02::"], [22, "again%4:02:00::"], [27, "application%1:04:03::"], [29, "plain%3:00:00:unadorned:00"], [30, "mud%1:27:00::"], [32, "take_away%2:30:00::"], [34, "wrinkle%1:25:00::"]]
 o4Cn:
     lemmas: ["person", "renew", "his", "pressure", "on", "person", "to", "buy", "his", "machine", "when", "she", "visit", "him", "the", "next", "day", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-01634614-v"], [3, "oewn-05202630-n"], [5, "oewn-00007846-n"], [7, "oewn-02211988-v"], [9, "oewn-03705309-n"], [12, "oewn-02498679-v"], [15, "oewn-00128838-s"], [16, "oewn-15182185-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-01634614-v"], [3, "oewn-05202630-n"], [5, "oewn-00007846-n"], [7, "oewn-02211988-v"], [9, "oewn-03705309-n"], [12, "oewn-02498679-v"], [15, "oewn-00128838-s"], [16, "oewn-15182185-n"]]
     paragraph: '6'
     pos: ["NNP", "VBD", "PRP$", "NN", "IN", "NN", "TO", "VB", "PRP$", "NN", "WRB", "PRP", "VBD", "PRP", "DT", "JJ", "NN", "."]
     text: ' Lee renewed his pressure on Mrs._Shaefer to buy his machine when she visited him
@@ -270,7 +270,7 @@ o4Cn:
     wn30_key: [[0, "person%1:03:00::"], [1, "renew%2:36:00::"], [3, "pressure%1:07:00::"], [5, "person%1:03:00::"], [7, "buy%2:40:00::"], [9, "machine%1:06:00::"], [12, "visit%2:41:02::"], [15, "next%3:00:00:succeeding:00"], [16, "day%1:28:01::"]]
 tYCW:
     lemmas: ["After", "another", "treatment", "with", "the", "machine", ",", "he", "tell", "her", "that", "\"", "her", "entire", "body", "be", "shoot_through", "with", "tumor", "and", "cyst", "\"", "."]
-    oewn2026_key: [[2, "oewn-00659325-n"], [5, "oewn-03705309-n"], [8, "oewn-01011267-v"], [13, "oewn-00517795-s"], [14, "oewn-05223633-n"], [18, "oewn-14258682-n"], [20, "oewn-14226478-n"]]
+    oewn_key: [[2, "oewn-00659325-n"], [5, "oewn-03705309-n"], [8, "oewn-01011267-v"], [13, "oewn-00517795-s"], [14, "oewn-05223633-n"], [18, "oewn-14258682-n"], [20, "oewn-14226478-n"]]
     paragraph: '6'
     pos: ["IN", "JJ", "NN", "IN", "DT", "NN", ",", "PRP", "VBD", "PRP", "IN", "``", "PRP$", "JJ", "NN", "VBD", "VB", "IN", "NNS", "CC", "NNS", "''", "."]
     text: ' After another treatment with the machine, he told her that " her entire body was
@@ -280,7 +280,7 @@ tYCW:
     wn30_key: [[2, "treatment%1:04:00::"], [5, "machine%1:06:00::"], [8, "tell%2:32:04::"], [13, "entire%3:00:02:whole:00"], [14, "body%1:08:00::"], [18, "tumor%1:26:00::"], [20, "cyst%1:26:00::"]]
 cHd1:
     lemmas: ["He", "then", "sell", "her", "some", "capsule", "that", "he", "assert", "would", "take_care", "of", "the", "tumor", "and", "cyst", "until", "she", "could", "collect", "the", "money", "for", "buy", "his", "machine", "."]
-    oewn2026_key: [[1, "oewn-00118527-r"], [2, "oewn-02247246-v"], [4, "oewn-02275064-a"], [5, "oewn-02961022-n"], [8, "oewn-01013058-v"], [10, "oewn-02442554-v"], [13, "oewn-14258682-n"], [15, "oewn-14226478-n"], [19, "oewn-02309962-v"], [21, "oewn-13405730-n"], [23, "oewn-02211988-v"], [25, "oewn-03705309-n"]]
+    oewn_key: [[1, "oewn-00118527-r"], [2, "oewn-02247246-v"], [4, "oewn-02275064-a"], [5, "oewn-02961022-n"], [8, "oewn-01013058-v"], [10, "oewn-02442554-v"], [13, "oewn-14258682-n"], [15, "oewn-14226478-n"], [19, "oewn-02309962-v"], [21, "oewn-13405730-n"], [23, "oewn-02211988-v"], [25, "oewn-03705309-n"]]
     paragraph: '6'
     pos: ["PRP", "RB", "VBD", "PRP$", "JJ", "NNS", "IN", "PRP", "VBD", "MD", "VB", "VB", "DT", "NNS", "CC", "NNS", "IN", "PRP", "MD", "VB", "DT", "NN", "IN", "VBG", "PRP$", "NN", "."]
     text: ' He then sold her some capsules that he asserted would take_care of the tumors and
@@ -292,7 +292,7 @@ cHd1:
     wn30_key: [[1, "then%4:02:00::"], [2, "sell%2:40:00::"], [4, "some%3:00:00::"], [5, "capsule%1:06:00::"], [8, "assert%2:32:00::"], [10, "take_care%2:41:12::"], [13, "tumor%1:26:00::"], [15, "cyst%1:26:00::"], [19, "collect%2:40:00::"], [21, "money%1:21:00::"], [23, "buy%2:40:00::"], [25, "machine%1:06:00::"]]
 FueC:
     lemmas: ["When", "she", "submit", "to", "his", "treatment", "with", "the", "capsule", ",", "person", "feel", "intense", "pain", "."]
-    oewn2026_key: [[2, "oewn-00671680-v"], [5, "oewn-00659325-n"], [8, "oewn-02961022-n"], [10, "oewn-00007846-n"], [11, "oewn-02110460-v"], [12, "oewn-01513206-a"], [13, "oewn-14346126-n"]]
+    oewn_key: [[2, "oewn-00671680-v"], [5, "oewn-00659325-n"], [8, "oewn-02961022-n"], [10, "oewn-00007846-n"], [11, "oewn-02110460-v"], [12, "oewn-01513206-a"], [13, "oewn-14346126-n"]]
     paragraph: '7'
     pos: ["WRB", "PRP", "VBD", "VB", "PRP$", "NN", "IN", "DT", "NNS", ",", "NN", "VBD", "JJ", "NN", "."]
     text: ' When she submitted to his treatment with the capsules, Mrs._Shaefer felt intense
@@ -302,7 +302,7 @@ FueC:
     wn30_key: [[2, "submit%2:31:12::"], [5, "treatment%1:04:00::"], [8, "capsule%1:06:00::"], [10, "person%1:03:00::"], [11, "feel%2:39:00::"], [12, "intense%3:00:00::"], [13, "pain%1:26:00::"]]
 jJhH:
     lemmas: ["leave", "person", "'s", "office", ",", "person", "hurry", "over", "to", "her", "family", "physician", ",", "who", "treat", "her", "for", "burn", "tissue", "."]
-    oewn2026_key: [[0, "oewn-02013448-v"], [1, "oewn-00007846-n"], [3, "oewn-03847186-n"], [5, "oewn-00007846-n"], [6, "oewn-02059573-v"], [7, "oewn-00228167-r"], [10, "oewn-08094856-n"], [11, "oewn-10040615-n"], [14, "oewn-00078513-v"], [17, "oewn-02124916-v"], [18, "oewn-05274844-n"]]
+    oewn_key: [[0, "oewn-02013448-v"], [1, "oewn-00007846-n"], [3, "oewn-03847186-n"], [5, "oewn-00007846-n"], [6, "oewn-02059573-v"], [7, "oewn-00228167-r"], [10, "oewn-08094856-n"], [11, "oewn-10040615-n"], [14, "oewn-00078513-v"], [17, "oewn-02124916-v"], [18, "oewn-05274844-n"]]
     paragraph: '7'
     pos: ["VBG", "NNP", "POS", "NN", ",", "NN", "VBD", "RP", "TO", "PRP$", "NN", "NN", ",", "WP", "VBD", "PRP", "IN", "VB", "NN", "."]
     text: ' Leaving Lee''s office, Mrs._Shaefer hurried over to her family physician, who treated
@@ -312,7 +312,7 @@ jJhH:
     wn30_key: [[0, "leave%2:38:01::"], [1, "person%1:03:00::"], [3, "office%1:06:00::"], [5, "person%1:03:00::"], [6, "hurry%2:38:00::"], [7, "over%4:02:01::"], [10, "family%1:14:02::"], [11, "physician%1:18:00::"], [14, "treat%2:29:00::"], [17, "burn%2:39:00::"], [18, "tissue%1:08:00::"]]
 Wx6A:
     lemmas: ["For", "several", "day", ",", "she", "be", "ill", "as", "a", "result", "of", "person", "'s", "treatment", "."]
-    oewn2026_key: [[1, "oewn-02276025-s"], [2, "oewn-15180180-n"], [5, "oewn-02610777-v"], [6, "oewn-02552072-a"], [9, "oewn-07307418-n"], [11, "oewn-00007846-n"], [13, "oewn-00659325-n"]]
+    oewn_key: [[1, "oewn-02276025-s"], [2, "oewn-15180180-n"], [5, "oewn-02610777-v"], [6, "oewn-02552072-a"], [9, "oewn-07307418-n"], [11, "oewn-00007846-n"], [13, "oewn-00659325-n"]]
     paragraph: '7'
     pos: ["IN", "JJ", "NNS", ",", "PRP", "VBD", "JJ", "IN", "DT", "NN", "IN", "NNP", "POS", "NN", "."]
     text: ' For several days, she was ill as a result of Lee''s treatment.
@@ -323,7 +323,7 @@ Wx6A:
     wn30_key: [[1, "several%3:00:00:some:00"], [2, "day%1:28:00::"], [5, "be%2:42:03::"], [6, "ill%3:00:01::"], [9, "result%1:11:00::"], [11, "person%1:03:00::"], [13, "treatment%1:04:00::"]]
 89Ku:
     lemmas: ["person", "never", "get_around_to", "join", "the", "thousand", "or_so", "people", "who", "pay", "person", "some", "$", "30000", "for", "his", "ozone", "machine", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-00021214-r"], [2, "oewn-02433163-v"], [3, "oewn-02439823-v"], [5, "oewn-02206421-s"], [6, "oewn-00007414-r"], [7, "oewn-07958392-n"], [9, "oewn-02256551-v"], [10, "oewn-00007846-n"], [16, "oewn-14997366-n"], [17, "oewn-03705309-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-00021214-r"], [2, "oewn-02433163-v"], [3, "oewn-02439823-v"], [5, "oewn-02206421-s"], [6, "oewn-00007414-r"], [7, "oewn-07958392-n"], [9, "oewn-02256551-v"], [10, "oewn-00007846-n"], [16, "oewn-14997366-n"], [17, "oewn-03705309-n"]]
     paragraph: '8'
     pos: ["NN", "RB", "VB", "VBG", "DT", "JJ", "RB", "NNS", "WP", "VBD", "NNP", "DT", "$", "CD", "IN", "PRP$", "NN", "NNS", "."]
     text: ' Mrs._Shaefer never got_around_to joining the thousand or_so people who paid Lee
@@ -333,7 +333,7 @@ Wx6A:
     wn30_key: [[0, "person%1:03:00::"], [1, "never%4:02:00::"], [2, "get_around_to%2:41:00::"], [3, "join%2:41:00::"], [5, "thousand%3:00:00:cardinal:00"], [6, "or_so%4:02:00::"], [7, "people%1:14:00::"], [9, "pay%2:40:00::"], [10, "person%1:03:00::"], [16, "ozone%1:27:00::"], [17, "machine%1:06:00::"]]
 W0e4:
     lemmas: ["For", "person", "-", "who", "have", "be", "give", "a", "clean", "bill_of_health", "by", "her", "own", "physician", "at", "the", "time", "she", "visit", "person", "-", "and", "her", "friend", "be", "agent", "for", "the", "group", "and", "group", "."]
-    oewn2026_key: [[1, "oewn-00007846-n"], [6, "oewn-02240624-v"], [8, "oewn-01920489-s"], [9, "oewn-06490875-n"], [12, "oewn-01773236-s"], [13, "oewn-10040615-n"], [16, "oewn-07324217-n"], [18, "oewn-02498679-v"], [19, "oewn-00007846-n"], [23, "oewn-10132360-n"], [24, "oewn-02622439-v"], [25, "oewn-09796794-n"], [28, "oewn-00031563-n"], [30, "oewn-00031563-n"]]
+    oewn_key: [[1, "oewn-00007846-n"], [6, "oewn-02240624-v"], [8, "oewn-01920489-s"], [9, "oewn-06490875-n"], [12, "oewn-01773236-s"], [13, "oewn-10040615-n"], [16, "oewn-07324217-n"], [18, "oewn-02498679-v"], [19, "oewn-00007846-n"], [23, "oewn-10132360-n"], [24, "oewn-02622439-v"], [25, "oewn-09796794-n"], [28, "oewn-00031563-n"], [30, "oewn-00031563-n"]]
     paragraph: '8'
     pos: ["IN", "NN", ":", "WP", "VBD", "VBN", "VBN", "DT", "JJ", "NN", "IN", "PRP$", "JJ", "NN", "RB", "RB", "NN", "PRP", "VBD", "NNP", ":", "CC", "PRP$", "NN", "VBD", "NNS", "IN", "DT", "NN", "CC", "NN", "."]
     text: ' For Mrs._Shaefer - who had been given a clean bill_of_health by her own physician
@@ -344,7 +344,7 @@ W0e4:
     wn30_key: [[1, "person%1:03:00::"], [6, "give%2:40:07::"], [8, "clean%3:00:00:unqualified:02"], [9, "bill_of_health%1:10:00::"], [12, "own%3:00:00:personal:00"], [13, "physician%1:18:00::"], [16, "time%1:11:00::"], [18, "visit%2:41:02::"], [19, "person%1:03:00::"], [23, "friend%1:18:00::"], [24, "be%2:42:06::"], [25, "agent%1:18:02::"], [28, "group%1:03:00::"], [30, "group%1:03:00::"]]
 f29D:
     lemmas: ["And", "she", "feel", "amply", "reward", "for", "her", "suffering", "when", "the", "evidence", "of", "person", "'s", "quack", "shenanigan", ",", "gather", "by", "the", "tape_recorder", "under", "her", "friend", "'s", "clothing", ",", "prove", "adequate", "in", "court", "for", "convict", "person", "."]
-    oewn2026_key: [[2, "oewn-01775456-v"], [3, "oewn-00398920-r"], [4, "oewn-00789322-v"], [7, "oewn-07510467-n"], [10, "oewn-06746688-n"], [12, "oewn-00007846-n"], [14, "oewn-01917970-s"], [15, "oewn-00754297-n"], [17, "oewn-01383303-v"], [20, "oewn-04400182-n"], [23, "oewn-10132360-n"], [25, "oewn-03055525-n"], [27, "oewn-02639962-v"], [28, "oewn-00051265-a"], [30, "oewn-03125429-n"], [32, "oewn-00908320-v"], [33, "oewn-00007846-n"]]
+    oewn_key: [[2, "oewn-01775456-v"], [3, "oewn-00398920-r"], [4, "oewn-00789322-v"], [7, "oewn-07510467-n"], [10, "oewn-06746688-n"], [12, "oewn-00007846-n"], [14, "oewn-01917970-s"], [15, "oewn-00754297-n"], [17, "oewn-01383303-v"], [20, "oewn-04400182-n"], [23, "oewn-10132360-n"], [25, "oewn-03055525-n"], [27, "oewn-02639962-v"], [28, "oewn-00051265-a"], [30, "oewn-03125429-n"], [32, "oewn-00908320-v"], [33, "oewn-00007846-n"]]
     paragraph: '8'
     pos: ["CC", "PRP", "VBD", "RB", "VBN", "IN", "PRP$", "NN", "WRB", "DT", "NN", "IN", "NNP", "POS", "JJ", "NNS", ",", "VBN", "IN", "DT", "NN", "IN", "PRP$", "NN", "POS", "NN", ",", "VBD", "JJ", "IN", "NN", "IN", "VBG", "NN", "."]
     text: ' And she felt amply rewarded for her suffering when the evidence of Lee''s quack
@@ -355,7 +355,7 @@ f29D:
     wn30_key: [[2, "feel%2:37:00::"], [3, "amply%4:02:00::"], [4, "reward%2:32:00::"], [7, "suffering%1:12:01::"], [10, "evidence%1:10:00::"], [12, "person%1:03:00::"], [14, "quack%3:00:00:unqualified:01"], [15, "shenanigan%1:04:01::"], [17, "gather%2:35:00::"], [20, "tape_recorder%1:06:00::"], [23, "friend%1:18:00::"], [25, "clothing%1:06:00::"], [27, "prove%2:42:00::"], [28, "adequate%3:00:00::"], [30, "court%1:06:02::"], [32, "convict%2:32:00::"], [33, "person%1:03:00::"]]
 jWo5:
     lemmas: ["The", "charge", ":", "violation", "of", "the", "california", "medical_practice", "act", "by", "practice", "medicine", "without", "a", "license", "and", "sell", "misbranded", "drug", "."]
-    oewn2026_key: [[1, "oewn-06573933-n"], [3, "oewn-00747530-n"], [6, "oewn-09083238-n"], [7, "oewn-00633444-n"], [8, "oewn-06544086-n"], [10, "oewn-02574587-v"], [11, "oewn-00613447-n"], [14, "oewn-06561652-n"], [16, "oewn-02247246-v"], [17, "oewn-01407199-s"], [18, "oewn-03252323-n"]]
+    oewn_key: [[1, "oewn-06573933-n"], [3, "oewn-00747530-n"], [6, "oewn-09083238-n"], [7, "oewn-00633444-n"], [8, "oewn-06544086-n"], [10, "oewn-02574587-v"], [11, "oewn-00613447-n"], [14, "oewn-06561652-n"], [16, "oewn-02247246-v"], [17, "oewn-01407199-s"], [18, "oewn-03252323-n"]]
     paragraph: '8'
     pos: ["DT", "NN", ":", "NN", "IN", "DT", "NNP", "NNP", "NNP", "IN", "VBG", "NN", "IN", "DT", "NN", "CC", "VBG", "JJ", "NNS", "."]
     text: ' The charge: violation of the California Medical_Practices Act by practicing medicine
@@ -365,7 +365,7 @@ jWo5:
     wn30_key: [[1, "charge%1:10:00::"], [3, "violation%1:04:03::"], [6, "california%1:15:00::"], [7, "medical_practice%1:04:00::"], [8, "act%1:10:01::"], [10, "practice%2:41:00::"], [11, "medicine%1:04:00::"], [14, "license%1:10:00::"], [16, "sell%2:40:00::"], [17, "misbranded%3:00:00:illegal:00"], [18, "drug%1:06:00::"]]
 926q:
     lemmas: ["The", "sentence", ":", "360", "day", "'", "confinement", "in", "the", "county", "jail", "."]
-    oewn2026_key: [[1, "oewn-15249488-n"], [4, "oewn-15180180-n"], [6, "oewn-01149089-n"], [9, "oewn-08563758-n"], [10, "oewn-03597432-n"]]
+    oewn_key: [[1, "oewn-15249488-n"], [4, "oewn-15180180-n"], [6, "oewn-01149089-n"], [9, "oewn-08563758-n"], [10, "oewn-03597432-n"]]
     paragraph: '8'
     pos: ["DT", "NN", ":", "CD", "NNS", "POS", "NN", "IN", "DT", "NN", "NN", "."]
     text: ' The sentence: 360 days'' confinement in the county jail.
@@ -376,7 +376,7 @@ jWo5:
     wn30_key: [[1, "sentence%1:28:00::"], [4, "day%1:28:00::"], [6, "confinement%1:04:00::"], [9, "county%1:15:00::"], [10, "jail%1:06:00::"]]
 D2dq:
     lemmas: ["An", "isolated", "case", "of", "quackery", "?"]
-    oewn2026_key: [[1, "oewn-00596949-s"], [2, "oewn-07323507-n"], [4, "oewn-00634351-n"]]
+    oewn_key: [[1, "oewn-00596949-s"], [2, "oewn-07323507-n"], [4, "oewn-00634351-n"]]
     paragraph: '9'
     pos: ["DT", "JJ", "NN", "IN", "NN", "."]
     text: ' An isolated case of quackery?'
@@ -385,7 +385,7 @@ D2dq:
     wn30_key: [[1, "isolated%3:00:00:sporadic:00"], [2, "case%1:11:00::"], [4, "quackery%1:04:00::"]]
 jQcR:
     lemmas: ["by_no_means", "."]
-    oewn2026_key: [[0, "oewn-00057580-r"]]
+    oewn_key: [[0, "oewn-00057580-r"]]
     paragraph: '9'
     pos: ["RB", "."]
     text: ' By_no_means.'
@@ -394,7 +394,7 @@ jQcR:
     wn30_key: [[0, "by_no_means%4:02:00::"]]
 F/ny:
     lemmas: ["rather", ",", "it", "be", "typical", "of", "the", "thousand", "of", "quack", "who", "use", "phony", "therapeutic", "device", "to", "fatten", "themselves", "on", "the", "misery", "of", "hundred", "of", "thousand", "of", "american", "by", "rob", "them", "of", "millions", "of", "dollar", "and", "lure", "them", "away", "from", "legitimate", ",", "ethical", "medical", "treatment", "of", "serious", "disease", "."]
-    oewn2026_key: [[0, "oewn-00099264-r"], [3, "oewn-02610777-v"], [4, "oewn-02477858-a"], [7, "oewn-13772984-n"], [9, "oewn-10516787-n"], [11, "oewn-01161188-v"], [12, "oewn-01121219-s"], [13, "oewn-02925526-a"], [14, "oewn-03187746-n"], [16, "oewn-01197471-v"], [20, "oewn-14471799-n"], [22, "oewn-13772555-n"], [24, "oewn-13772984-n"], [26, "oewn-09758057-n"], [28, "oewn-02324030-v"], [33, "oewn-13683378-n"], [35, "oewn-00784574-v"], [37, "oewn-00234667-r"], [39, "oewn-01409612-a"], [41, "oewn-00908608-a"], [42, "oewn-01172532-a"], [43, "oewn-00659325-n"], [45, "oewn-00654061-s"], [46, "oewn-14093842-n"]]
+    oewn_key: [[0, "oewn-00099264-r"], [3, "oewn-02610777-v"], [4, "oewn-02477858-a"], [7, "oewn-13772984-n"], [9, "oewn-10516787-n"], [11, "oewn-01161188-v"], [12, "oewn-01121219-s"], [13, "oewn-02925526-a"], [14, "oewn-03187746-n"], [16, "oewn-01197471-v"], [20, "oewn-14471799-n"], [22, "oewn-13772555-n"], [24, "oewn-13772984-n"], [26, "oewn-09758057-n"], [28, "oewn-02324030-v"], [33, "oewn-13683378-n"], [35, "oewn-00784574-v"], [37, "oewn-00234667-r"], [39, "oewn-01409612-a"], [41, "oewn-00908608-a"], [42, "oewn-01172532-a"], [43, "oewn-00659325-n"], [45, "oewn-00654061-s"], [46, "oewn-14093842-n"]]
     paragraph: '9'
     pos: ["RB", ",", "PRP", "VBZ", "JJ", "IN", "DT", "NNS", "IN", "NNS", "WP", "VBP", "JJ", "JJ", "NNS", "TO", "VB", "PRP", "IN", "DT", "NNS", "IN", "NNS", "IN", "NNS", "IN", "NNPS", "IN", "VBG", "PRP", "IN", "NN", "IN", "NNS", "CC", "VBG", "PRP", "RB", "IN", "JJ", ",", "JJ", "JJ", "NN", "IN", "JJ", "NNS", "."]
     text: ' Rather, it is typical of the thousands of quacks who use phony therapeutic devices
@@ -406,7 +406,7 @@ F/ny:
     wn30_key: [[0, "rather%4:02:02::"], [3, "be%2:42:03::"], [4, "typical%3:00:00::"], [7, "thousand%1:23:00::"], [9, "quack%1:18:00::"], [11, "use%2:34:01::"], [12, "phony%3:00:00:counterfeit:00"], [13, "therapeutic%3:01:00::"], [14, "device%1:06:00::"], [16, "fatten%2:34:00::"], [20, "misery%1:26:00::"], [22, "hundred%1:23:00::"], [24, "thousand%1:23:00::"], [26, "american%1:18:00::"], [28, "rob%2:40:01::"], [33, "dollar%1:23:00::"], [35, "lure%2:32:00::"], [37, "away%4:02:00::"], [39, "legitimate%3:00:00::"], [41, "ethical%3:00:00::"], [42, "medical%3:00:00::"], [43, "treatment%1:04:00::"], [45, "serious%3:00:00:critical:03"], [46, "disease%1:26:00::"]]
 MlXu:
     lemmas: ["The", "machine", "quack", "make", "his", "person", "device", "out", "of", "odds_and_ends", "of", "metal", ",", "wire", ",", "and", "radio", "part", "."]
-    oewn2026_key: [[1, "oewn-03705309-n"], [2, "oewn-10516787-n"], [3, "oewn-01624592-v"], [5, "oewn-00007846-n"], [6, "oewn-03187746-n"], [9, "oewn-08416934-n"], [11, "oewn-14649636-n"], [13, "oewn-04601545-n"], [16, "oewn-04050813-n"], [17, "oewn-03898588-n"]]
+    oewn_key: [[1, "oewn-03705309-n"], [2, "oewn-10516787-n"], [3, "oewn-01624592-v"], [5, "oewn-00007846-n"], [6, "oewn-03187746-n"], [9, "oewn-08416934-n"], [11, "oewn-14649636-n"], [13, "oewn-04601545-n"], [16, "oewn-04050813-n"], [17, "oewn-03898588-n"]]
     paragraph: '9'
     pos: ["DT", "NN", "NN", "VBZ", "PRP$", "NN", "NNS", "IN", "IN", "NNS", "IN", "NNS", ",", "NNS", ",", "CC", "NN", "NNS", "."]
     text: ' The machine quack makes his Rube_Goldberg devices out of odds_and_ends of metals,
@@ -418,7 +418,7 @@ MlXu:
     wn30_key: [[1, "machine%1:06:00::"], [2, "quack%1:18:00::"], [3, "make%2:36:01::"], [5, "person%1:03:00::"], [6, "device%1:06:00::"], [9, "odds_and_ends%1:14:00::"], [11, "metal%1:27:00::"], [13, "wire%1:06:00::"], [16, "radio%1:06:01::"], [17, "part%1:06:00::"]]
 7fKj:
     lemmas: ["With", "these", "gadget", "-", "impressive", "to", "the", "gullible", "because", "of", "their", "flash", "light_bulb", ",", "tick", ",", "and", "buzz", "-", "he", "then", "carry_out", "a", "vicious", "medical", "con_game", ",", "capitalize", "on", "people", "'s", "respect", "for", "the", "electrical", "and", "atomic", "wonder", "of", "our", "scientific", "age", "."]
-    oewn2026_key: [[2, "oewn-02732963-n"], [4, "oewn-01285124-a"], [7, "oewn-02280235-s"], [11, "oewn-02164320-v"], [12, "oewn-03671250-n"], [14, "oewn-07412361-n"], [17, "oewn-07392834-n"], [20, "oewn-00118527-r"], [21, "oewn-01644397-v"], [23, "oewn-02524157-s"], [24, "oewn-02770888-a"], [25, "oewn-00780744-n"], [27, "oewn-02284617-v"], [29, "oewn-07958392-n"], [31, "oewn-14461018-n"], [34, "oewn-02837586-a"], [36, "oewn-02895923-a"], [37, "oewn-07304311-n"], [40, "oewn-02804097-a"], [41, "oewn-15278839-n"]]
+    oewn_key: [[2, "oewn-02732963-n"], [4, "oewn-01285124-a"], [7, "oewn-02280235-s"], [11, "oewn-02164320-v"], [12, "oewn-03671250-n"], [14, "oewn-07412361-n"], [17, "oewn-07392834-n"], [20, "oewn-00118527-r"], [21, "oewn-01644397-v"], [23, "oewn-02524157-s"], [24, "oewn-02770888-a"], [25, "oewn-00780744-n"], [27, "oewn-02284617-v"], [29, "oewn-07958392-n"], [31, "oewn-14461018-n"], [34, "oewn-02837586-a"], [36, "oewn-02895923-a"], [37, "oewn-07304311-n"], [40, "oewn-02804097-a"], [41, "oewn-15278839-n"]]
     paragraph: '10'
     pos: ["IN", "DT", "NNS", ":", "JJ", "TO", "DT", "JJ", "IN", "IN", "PRP$", "VBG", "NNS", ",", "NNS", ",", "CC", "NN", ":", "PRP", "RB", "VBD", "DT", "JJ", "JJ", "NN", ",", "VBG", "VB", "NNS", "POS", "NN", "IN", "DT", "JJ", "CC", "JJ", "NNS", "IN", "PRP$", "JJ", "NN", "."]
     text: ' With these gadgets - impressive to the gullible because of their flashing light_bulbs,
@@ -429,7 +429,7 @@ MlXu:
     wn30_key: [[2, "gadget%1:06:00::"], [4, "impressive%3:00:00::"], [7, "gullible%3:00:00:naive:00"], [11, "flash%2:39:00::"], [12, "light_bulb%1:06:00::"], [14, "tick%1:11:00::"], [17, "buzz%1:11:00::"], [20, "then%4:02:00::"], [21, "carry_out%2:36:00::"], [23, "vicious%3:00:00:wicked:00"], [24, "medical%3:01:00::"], [25, "con_game%1:04:00::"], [27, "capitalize%2:40:00::"], [29, "people%1:14:00::"], [31, "respect%1:26:00::"], [34, "electrical%3:01:00::"], [36, "atomic%3:01:00::"], [37, "wonder%1:11:00::"], [40, "scientific%3:01:00::"], [41, "age%1:28:02::"]]
 4sn9:
     lemmas: ["He", "milk", "the", "latest", "scientific", "advance", ",", "translate", "them", "into", "his", "own", "special", "person", "vocabulary", "to", "huckster", "his", "fake", "machine", "as", "a", "cure-all", "for", "everything", "from", "hay_fever", "to", "sexual", "impotence", "and", "cancer", "."]
-    oewn2026_key: [[1, "oewn-01167222-v"], [4, "oewn-02804097-a"], [5, "oewn-07371988-n"], [7, "oewn-00384213-v"], [11, "oewn-01773236-s"], [12, "oewn-02285760-s"], [13, "oewn-00007846-n"], [14, "oewn-06432321-n"], [16, "oewn-02307797-v"], [18, "oewn-01121219-s"], [19, "oewn-03705309-n"], [22, "oewn-03886467-n"], [26, "oewn-14557801-n"], [28, "oewn-02898882-a"], [29, "oewn-05211905-n"], [31, "oewn-14263400-n"]]
+    oewn_key: [[1, "oewn-01167222-v"], [4, "oewn-02804097-a"], [5, "oewn-07371988-n"], [7, "oewn-00384213-v"], [11, "oewn-01773236-s"], [12, "oewn-02285760-s"], [13, "oewn-00007846-n"], [14, "oewn-06432321-n"], [16, "oewn-02307797-v"], [18, "oewn-01121219-s"], [19, "oewn-03705309-n"], [22, "oewn-03886467-n"], [26, "oewn-14557801-n"], [28, "oewn-02898882-a"], [29, "oewn-05211905-n"], [31, "oewn-14263400-n"]]
     paragraph: '10'
     pos: ["PRP", "VB", "DT", "JJ", "JJ", "NNS", ",", "VBG", "PRP", "IN", "PRP$", "JJ", "JJ", "NNS", "NN", "TO", "VB", "PRP$", "JJ", "NNS", "IN", "DT", "NN", "IN", "NN", "IN", "NN", "TO", "JJ", "NN", "CC", "NN", "."]
     text: ' He milks the latest scientific advances, translating them into his own special Buck_Rogers
@@ -442,7 +442,7 @@ MlXu:
     wn30_key: [[1, "milk%2:34:00::"], [4, "scientific%3:01:00::"], [5, "advance%1:11:01::"], [7, "translate%2:30:01::"], [11, "own%3:00:00:personal:00"], [12, "special%3:00:00:specialized:00"], [13, "person%1:03:00::"], [14, "vocabulary%1:10:00::"], [16, "huckster%2:40:00::"], [18, "fake%3:00:00:counterfeit:00"], [19, "machine%1:06:00::"], [22, "cure-all%1:06:00::"], [26, "hay_fever%1:26:00::"], [28, "sexual%3:01:01::"], [29, "impotence%1:07:00::"], [31, "cancer%1:26:00::"]]
 NCYe:
     lemmas: ["The", "gadget", "faker", "operate", "or", "sell", "his", "phony", "machine", "for", "$", "5", "to", "$", "10000", "-", "anything", "the", "traffic", "will", "bear", "."]
-    oewn2026_key: [[1, "oewn-02732963-n"], [2, "oewn-10221154-n"], [3, "oewn-01227308-v"], [5, "oewn-02247246-v"], [7, "oewn-01121219-s"], [8, "oewn-03705309-n"], [11, "oewn-02194389-s"], [18, "oewn-08442260-n"], [20, "oewn-02296669-v"]]
+    oewn_key: [[1, "oewn-02732963-n"], [2, "oewn-10221154-n"], [3, "oewn-01227308-v"], [5, "oewn-02247246-v"], [7, "oewn-01121219-s"], [8, "oewn-03705309-n"], [11, "oewn-02194389-s"], [18, "oewn-08442260-n"], [20, "oewn-02296669-v"]]
     paragraph: '11'
     pos: ["DT", "NN", "NN", "VBZ", "CC", "VBZ", "PRP$", "JJ", "NNS", "IN", "$", "JJ", "TO", "$", "CD", ":", "NN", "DT", "NN", "MD", "VB", "."]
     text: ' The gadget faker operates or sells his phony machines for $5 to $10000 - anything
@@ -452,7 +452,7 @@ NCYe:
     wn30_key: [[1, "gadget%1:06:00::"], [2, "faker%1:18:00::"], [3, "operate%2:35:00::"], [5, "sell%2:40:00::"], [7, "phony%3:00:00:counterfeit:00"], [8, "machine%1:06:00::"], [11, "5%3:00:00:cardinal:00"], [18, "traffic%1:14:00::"], [20, "bear%2:40:01::"]]
 HK0L:
     lemmas: ["He", "may", "call", "himself", "a", "naprapath", ",", "a", "physical_therapist", ",", "an", "electrotherapist", ",", "a", "naturopath", ",", "a", "sanipractor", ",", "a", "medical", "cultist", ",", "a", "masseur", ",", "a", "\"", "doctor", "\"", "-", "or", "what", "have", "you", "."]
-    oewn2026_key: [[2, "oewn-01030757-v"], [5, "oewn-09648479-n"], [8, "oewn-10447528-n"], [11, "oewn-10069704-n"], [14, "oewn-10366841-n"], [20, "oewn-02770888-a"], [21, "oewn-10001900-n"], [24, "oewn-10317869-n"], [28, "oewn-10040615-n"]]
+    oewn_key: [[2, "oewn-01030757-v"], [5, "oewn-09648479-n"], [8, "oewn-10447528-n"], [11, "oewn-10069704-n"], [14, "oewn-10366841-n"], [20, "oewn-02770888-a"], [21, "oewn-10001900-n"], [24, "oewn-10317869-n"], [28, "oewn-10040615-n"]]
     paragraph: '11'
     pos: ["PRP", "MD", "VB", "PRP", "DT", "NN", ",", "DT", "NN", ",", "DT", "NN", ",", "DT", "NN", ",", "DT", "NN", ",", "DT", "JJ", "NN", ",", "DT", "NN", ",", "DT", "``", "NN", "''", ":", "CC", "WP", "VBP", "PRP", "."]
     text: ' He may call himself a naprapath, a physiotherapist, an electrotherapist, a naturopath,
@@ -462,7 +462,7 @@ HK0L:
     wn30_key: [[2, "call%2:32:02::"], [5, "naprapath%1:18:00::"], [8, "physical_therapist%1:18:00::"], [11, "electrotherapist%1:18:00::"], [14, "naturopath%1:18:00::"], [20, "medical%3:01:00::"], [21, "cultist%1:18:00::"], [24, "masseur%1:18:00::"], [28, "doctor%1:18:00::"]]
 aEgG:
     lemmas: ["not_only", "do", "these", "quack", "assume", "impressive", "title", ",", "but", "represent", "themselves", "as", "be", "associated", "with", "various", "scientific", "or", "impressive", "foundation", "-", "foundation", "which", "often", "have", "little", "more", "than", "a", "letterhead", "existence", "."]
-    oewn2026_key: [[3, "oewn-10516787-n"], [4, "oewn-02386868-v"], [5, "oewn-01285124-a"], [6, "oewn-06350786-n"], [9, "oewn-02705339-v"], [12, "oewn-02610777-v"], [15, "oewn-00496454-s"], [16, "oewn-02804097-a"], [18, "oewn-01285124-a"], [19, "oewn-08423443-n"], [21, "oewn-08423443-n"], [23, "oewn-00035445-r"], [24, "oewn-02208144-v"], [25, "oewn-00100552-r"], [26, "oewn-00100262-r"], [29, "oewn-06269680-n"], [30, "oewn-13977471-n"]]
+    oewn_key: [[3, "oewn-10516787-n"], [4, "oewn-02386868-v"], [5, "oewn-01285124-a"], [6, "oewn-06350786-n"], [9, "oewn-02705339-v"], [12, "oewn-02610777-v"], [15, "oewn-00496454-s"], [16, "oewn-02804097-a"], [18, "oewn-01285124-a"], [19, "oewn-08423443-n"], [21, "oewn-08423443-n"], [23, "oewn-00035445-r"], [24, "oewn-02208144-v"], [25, "oewn-00100552-r"], [26, "oewn-00100262-r"], [29, "oewn-06269680-n"], [30, "oewn-13977471-n"]]
     paragraph: '11'
     pos: ["RB", "VBP", "DT", "NNS", "VBP", "JJ", "NNS", ",", "CC", "VBP", "PRP", "IN", "VBG", "JJ", "VB", "JJ", "JJ", "CC", "JJ", "NNS", ":", "NNS", "WDT", "RB", "VBP", "RB", "RB", "RB", "DT", "NN", "NN", "."]
     text: ' Not_only do these quacks assume impressive titles, but represent themselves as being
@@ -475,7 +475,7 @@ aEgG:
     wn30_key: [[3, "quack%1:18:00::"], [4, "assume%2:41:00::"], [5, "impressive%3:00:00::"], [6, "title%1:10:02::"], [9, "represent%2:42:02::"], [12, "be%2:42:03::"], [15, "various%3:00:00:individual:00"], [16, "scientific%3:01:00::"], [18, "impressive%3:00:00::"], [19, "foundation%1:14:00::"], [21, "foundation%1:14:00::"], [23, "often%4:02:00::"], [24, "have%2:40:00::"], [25, "little%4:02:00::"], [26, "more%4:02:01::"], [29, "letterhead%1:10:00::"], [30, "existence%1:26:00::"]]
 iJWe:
     lemmas: ["The", "medical", "device", "pirate", "of", "today", ",", "of_course", ",", "be", "a", "far", "more", "sophisticated", "operator", "than", "his", "predecessor", "of", "yesteryear", "-", "the", "gallus", "snap", "hawker", "of", "snake_oil", "and", "other", "patent_medicine", "."]
-    oewn2026_key: [[1, "oewn-02770888-a"], [2, "oewn-03187746-n"], [3, "oewn-10457029-n"], [5, "oewn-15287732-n"], [7, "oewn-00039019-r"], [9, "oewn-02610777-v"], [11, "oewn-00101873-r"], [12, "oewn-01559526-a"], [13, "oewn-02278101-a"], [14, "oewn-10214185-n"], [17, "oewn-10484277-n"], [19, "oewn-15145765-n"], [22, "oewn-02890730-n"], [23, "oewn-00337875-v"], [24, "oewn-10431296-n"], [26, "oewn-15068146-n"], [28, "oewn-02076759-a"], [29, "oewn-03904633-n"]]
+    oewn_key: [[1, "oewn-02770888-a"], [2, "oewn-03187746-n"], [3, "oewn-10457029-n"], [5, "oewn-15287732-n"], [7, "oewn-00039019-r"], [9, "oewn-02610777-v"], [11, "oewn-00101873-r"], [12, "oewn-01559526-a"], [13, "oewn-02278101-a"], [14, "oewn-10214185-n"], [17, "oewn-10484277-n"], [19, "oewn-15145765-n"], [22, "oewn-02890730-n"], [23, "oewn-00337875-v"], [24, "oewn-10431296-n"], [26, "oewn-15068146-n"], [28, "oewn-02076759-a"], [29, "oewn-03904633-n"]]
     paragraph: '12'
     pos: ["DT", "JJ", "NN", "NN", "IN", "NN", ",", "RB", ",", "VBZ", "DT", "RB", "JJ", "JJ", "NN", "IN", "PRP$", "NN", "IN", "NN", ":", "DT", "NN", "VBG", "NN", "IN", "NN", "CC", "JJ", "NNS", "."]
     text: ' The medical device pirate of today, of_course, is a far more sophisticated operator
@@ -486,7 +486,7 @@ iJWe:
     wn30_key: [[1, "medical%3:01:00::"], [2, "device%1:06:00::"], [3, "pirate%1:18:01::"], [5, "today%1:28:00::"], [7, "of_course%4:02:00::"], [9, "be%2:42:03::"], [11, "far%4:02:02::"], [12, "more%3:00:01::"], [13, "sophisticated%3:00:00::"], [14, "operator%1:18:02::"], [17, "predecessor%1:18:00::"], [19, "yesteryear%1:28:00::"], [22, "gallus%1:06:00::"], [23, "snap%2:30:00::"], [24, "hawker%1:18:00::"], [26, "snake_oil%1:27:00::"], [28, "other%3:00:00::"], [29, "patent_medicine%1:06:00::"]]
 2nsO:
     lemmas: ["His", "plunder", "be", "therefore", "far", "high", "-", "run", "into", "hundred", "of", "millions", "."]
-    oewn2026_key: [[1, "oewn-13283562-n"], [2, "oewn-02610777-v"], [4, "oewn-00101873-r"], [5, "oewn-01213526-a"], [7, "oewn-02732914-v"], [9, "oewn-13772555-n"]]
+    oewn_key: [[1, "oewn-13283562-n"], [2, "oewn-02610777-v"], [4, "oewn-00101873-r"], [5, "oewn-01213526-a"], [7, "oewn-02732914-v"], [9, "oewn-13772555-n"]]
     paragraph: '12'
     pos: ["PRP$", "NN", "VBZ", "RB", "RB", "JJR", ":", "VBG", "VB", "NNS", "IN", "NN", "."]
     text: ' His plunder is therefore far higher - running into hundreds of millions.
@@ -497,7 +497,7 @@ iJWe:
     wn30_key: [[1, "plunder%1:21:00::"], [2, "be%2:42:03::"], [4, "far%4:02:02::"], [5, "high%3:00:02::"], [7, "run%2:42:07::"], [9, "hundred%1:23:00::"]]
 konj:
     lemmas: ["According_to", "the", "group", "(", "group", ")", ",", "\"", "doctor", "\"", "person", ",", "person", "and", "his", "clique", ",", "and", "person", "-", "to", "name", "three", "notorious", "device", "quack", "-", "succeed", ",", "respectively", ",", "in", "distribute", "10000", ",", "5000", ",", "and", "2000", "fake", "health", "machine", "."]
-    oewn2026_key: [[2, "oewn-00031563-n"], [4, "oewn-00031563-n"], [8, "oewn-10040615-n"], [10, "oewn-00007846-n"], [12, "oewn-00007846-n"], [15, "oewn-08257554-n"], [18, "oewn-00007846-n"], [21, "oewn-00947885-v"], [22, "oewn-02194219-s"], [23, "oewn-01991476-s"], [24, "oewn-03187746-n"], [25, "oewn-10516787-n"], [27, "oewn-02529837-v"], [29, "oewn-00138725-r"], [32, "oewn-02485579-v"], [39, "oewn-01121219-s"], [40, "oewn-14471374-n"], [41, "oewn-03705309-n"]]
+    oewn_key: [[2, "oewn-00031563-n"], [4, "oewn-00031563-n"], [8, "oewn-10040615-n"], [10, "oewn-00007846-n"], [12, "oewn-00007846-n"], [15, "oewn-08257554-n"], [18, "oewn-00007846-n"], [21, "oewn-00947885-v"], [22, "oewn-02194219-s"], [23, "oewn-01991476-s"], [24, "oewn-03187746-n"], [25, "oewn-10516787-n"], [27, "oewn-02529837-v"], [29, "oewn-00138725-r"], [32, "oewn-02485579-v"], [39, "oewn-01121219-s"], [40, "oewn-14471374-n"], [41, "oewn-03705309-n"]]
     paragraph: '13'
     pos: ["TO", "DT", "NNP", "NNP", "NNP", "NNP", ",", "``", "NN", "''", "NNP", ",", "NNS", "CC", "PRP$", "NN", ",", "CC", "NN", ":", "TO", "VB", "JJ", "JJ", "NN", "NNS", ":", "VBN", ",", "RB", ",", "IN", "VBG", "CD", ",", "CD", ",", "CC", "CD", "JJ", "NN", "NNS", "."]
     text: ' According_to the Food_and_Drug_Administration (FDA), " Doctor " Ghadiali, Dr._Albert_Abrams
@@ -510,7 +510,7 @@ konj:
     wn30_key: [[2, "group%1:03:00::"], [4, "group%1:03:00::"], [8, "doctor%1:18:00::"], [10, "person%1:03:00::"], [12, "person%1:03:00::"], [15, "clique%1:14:00::"], [18, "person%1:03:00::"], [21, "name%2:32:09::"], [22, "three%3:00:00:cardinal:00"], [23, "notorious%3:00:00:disreputable:00"], [24, "device%1:06:00::"], [25, "quack%1:18:00::"], [27, "succeed%2:41:00::"], [29, "respectively%4:02:00::"], [32, "distribute%2:41:00::"], [39, "fake%3:00:00:counterfeit:00"], [40, "health%1:26:00::"], [41, "machine%1:06:00::"]]
 F9pt:
     lemmas: ["authorities", "believe", "that", "many_of", "the", "doctor", "fraud", "use", "these", "false", "health", "gadget", "be", "still", "in", "business", "."]
-    oewn2026_key: [[0, "oewn-08067430-n"], [1, "oewn-00723022-v"], [5, "oewn-10040615-n"], [6, "oewn-10221154-n"], [7, "oewn-01161188-v"], [9, "oewn-02470951-a"], [10, "oewn-14471374-n"], [11, "oewn-02732963-n"], [12, "oewn-02610777-v"], [13, "oewn-00031700-r"], [15, "oewn-00583425-n"]]
+    oewn_key: [[0, "oewn-08067430-n"], [1, "oewn-00723022-v"], [5, "oewn-10040615-n"], [6, "oewn-10221154-n"], [7, "oewn-01161188-v"], [9, "oewn-02470951-a"], [10, "oewn-14471374-n"], [11, "oewn-02732963-n"], [12, "oewn-02610777-v"], [13, "oewn-00031700-r"], [15, "oewn-00583425-n"]]
     paragraph: '14'
     pos: ["NNS", "VBP", "IN", "JJ", "DT", "NN", "NNS", "VBG", "DT", "JJ", "NN", "NNS", "VBP", "RB", "IN", "NN", "."]
     text: ' Authorities believe that many_of the Doctor Frauds using these false health gadgets
@@ -520,7 +520,7 @@ F9pt:
     wn30_key: [[0, "authorities%1:14:00::"], [1, "believe%2:31:03::"], [5, "doctor%1:18:00::"], [6, "fraud%1:18:00::"], [7, "use%2:34:01::"], [9, "false%3:00:00::"], [10, "health%1:26:00::"], [11, "gadget%1:06:00::"], [12, "be%2:42:03::"], [13, "still%4:02:01::"], [15, "business%1:04:00::"]]
 ZuBz:
     lemmas: ["look_at", "the", "sum", "pay", "by", "two", "device", "quack", "victim", "in", "cleveland", "."]
-    oewn2026_key: [[0, "oewn-00736077-v"], [2, "oewn-13352213-n"], [3, "oewn-02256551-v"], [5, "oewn-02194109-s"], [6, "oewn-03187746-n"], [7, "oewn-10516787-n"], [8, "oewn-10772148-n"], [10, "oewn-09153394-n"]]
+    oewn_key: [[0, "oewn-00736077-v"], [2, "oewn-13352213-n"], [3, "oewn-02256551-v"], [5, "oewn-02194109-s"], [6, "oewn-03187746-n"], [7, "oewn-10516787-n"], [8, "oewn-10772148-n"], [10, "oewn-09153394-n"]]
     paragraph: '14'
     pos: ["VB", "DT", "NNS", "VBN", "IN", "JJ", "NN", "NN", "NNS", "IN", "NNP", "."]
     text: ' Look_at the sums paid by two device quack victims in Cleveland.'
@@ -529,7 +529,7 @@ ZuBz:
     wn30_key: [[0, "look_at%2:31:00::"], [2, "sum%1:21:00::"], [3, "pay%2:40:00::"], [5, "two%3:00:00:cardinal:00"], [6, "device%1:06:00::"], [7, "quack%1:18:00::"], [8, "victim%1:18:01::"], [10, "cleveland%1:15:00::"]]
 Aenx:
     lemmas: ["person", ",", "a", "dress_shop", "proprietor", ",", "pay", "$", "1020", "to", "a", "masseur", ",", "and", "person", ",", "a", "laborer", ",", "pay", "$", "4200", "to", "a", "chiropractor", "for", "treatment", "with", "two", "fake", "health", "machine", "-", "the", "\"", "radioclast", "\"", "and", "the", "\"", "diagnometer", "\"", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [3, "oewn-02882551-n"], [4, "oewn-10408623-n"], [6, "oewn-02256551-v"], [11, "oewn-10317869-n"], [14, "oewn-00007846-n"], [17, "oewn-10260997-n"], [19, "oewn-02256551-v"], [24, "oewn-09938658-n"], [26, "oewn-00659325-n"], [28, "oewn-02194109-s"], [29, "oewn-01121219-s"], [30, "oewn-14471374-n"], [31, "oewn-03705309-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [3, "oewn-02882551-n"], [4, "oewn-10408623-n"], [6, "oewn-02256551-v"], [11, "oewn-10317869-n"], [14, "oewn-00007846-n"], [17, "oewn-10260997-n"], [19, "oewn-02256551-v"], [24, "oewn-09938658-n"], [26, "oewn-00659325-n"], [28, "oewn-02194109-s"], [29, "oewn-01121219-s"], [30, "oewn-14471374-n"], [31, "oewn-03705309-n"]]
     paragraph: '14'
     pos: ["NN", ",", "DT", "NN", "NN", ",", "VBD", "$", "CD", "TO", "DT", "NN", ",", "CC", "NN", ",", "DT", "NN", ",", "VBD", "$", "CD", "TO", "DT", "NN", "IN", "NN", "IN", "JJ", "JJ", "NN", "NNS", ":", "DT", "``", "NN", "''", "CC", "DT", "``", "NN", "''", "."]
     text: ' Sarah_Gross, a dress_shop proprietor, paid $1020 to a masseur, and Mr._A., a laborer,
@@ -540,7 +540,7 @@ Aenx:
     wn30_key: [[0, "person%1:03:00::"], [3, "dress_shop%1:06:00::"], [4, "proprietor%1:18:00::"], [6, "pay%2:40:00::"], [11, "masseur%1:18:00::"], [14, "person%1:03:00::"], [17, "laborer%1:18:00::"], [19, "pay%2:40:00::"], [24, "chiropractor%1:18:00::"], [26, "treatment%1:04:00::"], [28, "two%3:00:00:cardinal:00"], [29, "fake%3:00:00:counterfeit:00"], [30, "health%1:26:00::"], [31, "machine%1:06:00::"]]
 puXE:
     lemmas: ["multiply", "these", "figure", "by", "the", "million", "of", "people", "know", "to", "be", "con", "by", "medical", "pirate", "annually", "."]
-    oewn2026_key: [[0, "oewn-00643334-v"], [2, "oewn-13352649-n"], [5, "oewn-13773673-n"], [7, "oewn-07958392-n"], [8, "oewn-00596016-v"], [11, "oewn-02578034-v"], [13, "oewn-02770888-a"], [14, "oewn-10457029-n"], [15, "oewn-00082087-r"]]
+    oewn_key: [[0, "oewn-00643334-v"], [2, "oewn-13352649-n"], [5, "oewn-13773673-n"], [7, "oewn-07958392-n"], [8, "oewn-00596016-v"], [11, "oewn-02578034-v"], [13, "oewn-02770888-a"], [14, "oewn-10457029-n"], [15, "oewn-00082087-r"]]
     paragraph: '14'
     pos: ["VB", "DT", "NNS", "IN", "DT", "NNS", "IN", "NNS", "VBN", "TO", "VB", "VBN", "IN", "JJ", "NNS", "RB", "."]
     text: ' Multiply these figures by the millions of people known to be conned by medical pirates
@@ -550,7 +550,7 @@ puXE:
     wn30_key: [[0, "multiply%2:31:00::"], [2, "figure%1:21:00::"], [5, "million%1:23:00::"], [7, "people%1:14:00::"], [8, "know%2:31:01::"], [11, "con%2:41:00::"], [13, "medical%3:01:00::"], [14, "pirate%1:18:01::"], [15, "annually%4:02:00::"]]
 Bz9d:
     lemmas: ["You", "will", "come_up", "with", "a", "frightening", "total", "."]
-    oewn2026_key: [[2, "oewn-01630816-v"], [5, "oewn-00195400-s"], [6, "oewn-05869651-n"]]
+    oewn_key: [[2, "oewn-01630816-v"], [5, "oewn-00195400-s"], [6, "oewn-05869651-n"]]
     paragraph: '14'
     pos: ["PRP", "MD", "VB", "VB", "DT", "JJ", "NN", "."]
     text: ' You will come_up with a frightening total.
@@ -561,7 +561,7 @@ Bz9d:
     wn30_key: [[2, "come_up%2:36:03::"], [5, "frightening%3:00:00:alarming:00"], [6, "total%1:09:00::"]]
 U7HO:
     lemmas: ["That", "'s", "why", "the", "group", ",", "the", "group", "(", "group", ")", ",", "and", "the", "person", "(", "group", ")", "have", "estimate", "the", "toll", "of", "mechanical", "quackery", "to", "be", "a", "substantial", "portion", "of", "the", "$", "610", "million", "or_so", "pay", "to", "medical", "charlatan", "annually", "."]
-    oewn2026_key: [[4, "oewn-00031563-n"], [7, "oewn-00031563-n"], [9, "oewn-00031563-n"], [14, "oewn-00007846-n"], [16, "oewn-00031563-n"], [19, "oewn-00674352-v"], [21, "oewn-13344771-n"], [23, "oewn-01503365-a"], [24, "oewn-00634351-n"], [26, "oewn-02626667-v"], [28, "oewn-00627729-s"], [29, "oewn-01087022-n"], [34, "oewn-13773673-n"], [35, "oewn-00007414-r"], [36, "oewn-02256551-v"], [38, "oewn-02770888-a"], [39, "oewn-10354495-n"], [40, "oewn-00082087-r"]]
+    oewn_key: [[4, "oewn-00031563-n"], [7, "oewn-00031563-n"], [9, "oewn-00031563-n"], [14, "oewn-00007846-n"], [16, "oewn-00031563-n"], [19, "oewn-00674352-v"], [21, "oewn-13344771-n"], [23, "oewn-01503365-a"], [24, "oewn-00634351-n"], [26, "oewn-02626667-v"], [28, "oewn-00627729-s"], [29, "oewn-01087022-n"], [34, "oewn-13773673-n"], [35, "oewn-00007414-r"], [36, "oewn-02256551-v"], [38, "oewn-02770888-a"], [39, "oewn-10354495-n"], [40, "oewn-00082087-r"]]
     paragraph: '15'
     pos: ["DT", "VBZ", "WRB", "DT", "NNP", ",", "DT", "NN", "FW", "NN", "FW", ",", "CC", "DT", "NN", "FW", "NNP", "NNP", "VBP", "VBN", "DT", "NN", "IN", "JJ", "NN", "TO", "VB", "DT", "JJ", "NN", "IN", "DT", "$", "CD", "NN", "RB", "VBN", "TO", "JJ", "NNS", "RB", "."]
     text: ' That''s why the FDA, the American_Medical_Association (AMA), and the National_Better_Business_Bureau
@@ -574,7 +574,7 @@ U7HO:
     wn30_key: [[4, "group%1:03:00::"], [7, "group%1:03:00::"], [9, "group%1:03:00::"], [14, "person%1:03:00::"], [16, "group%1:03:00::"], [19, "estimate%2:31:00::"], [21, "toll%1:21:00::"], [23, "mechanical%3:00:00::"], [24, "quackery%1:04:00::"], [26, "be%2:42:02::"], [28, "substantial%3:00:00:considerable:00"], [29, "portion%1:04:00::"], [34, "million%1:23:00::"], [35, "or_so%4:02:00::"], [36, "pay%2:40:00::"], [38, "medical%3:01:00::"], [39, "charlatan%1:18:00::"], [40, "annually%4:02:00::"]]
 ZTVW:
     lemmas: ["The", "postmaster_general", "recently", "report", "that", "mail_order", "fraud", "-", "among", "which", "fake", "therapeutic", "device", "figure", "prominently", "-", "be", "at", "the", "highest", "level", "in", "history", "."]
-    oewn2026_key: [[1, "oewn-10479330-n"], [2, "oewn-00108184-r"], [3, "oewn-00968841-v"], [5, "oewn-06542694-n"], [6, "oewn-00770581-n"], [10, "oewn-01121219-s"], [11, "oewn-02925526-a"], [12, "oewn-03187746-n"], [13, "oewn-02728082-v"], [14, "oewn-00209717-r"], [16, "oewn-02661230-v"], [20, "oewn-05101152-n"], [22, "oewn-15146348-n"]]
+    oewn_key: [[1, "oewn-10479330-n"], [2, "oewn-00108184-r"], [3, "oewn-00968841-v"], [5, "oewn-06542694-n"], [6, "oewn-00770581-n"], [10, "oewn-01121219-s"], [11, "oewn-02925526-a"], [12, "oewn-03187746-n"], [13, "oewn-02728082-v"], [14, "oewn-00209717-r"], [16, "oewn-02661230-v"], [20, "oewn-05101152-n"], [22, "oewn-15146348-n"]]
     paragraph: '16'
     pos: ["DT", "NN", "RB", "VBD", "IN", "NN", "NNS", ":", "IN", "WDT", "JJ", "JJ", "NNS", "VBP", "RB", ":", "VBP", "IN", "DT", "JJ", "NN", "IN", "NN", "."]
     text: ' The Postmaster_General recently reported that mail_order frauds - among which fake
@@ -584,7 +584,7 @@ ZTVW:
     wn30_key: [[1, "postmaster_general%1:18:00::"], [2, "recently%4:02:00::"], [3, "report%2:32:04::"], [5, "mail_order%1:10:00::"], [6, "fraud%1:04:00::"], [10, "fake%3:00:00:counterfeit:00"], [11, "therapeutic%3:01:00::"], [12, "device%1:06:00::"], [13, "figure%2:42:00::"], [14, "prominently%4:02:00::"], [16, "be%2:42:05::"], [20, "level%1:07:00::"], [22, "history%1:28:00::"]]
 YfEd:
     lemmas: ["similarly", ",", "the", "group", "(", "group", ")", ",", "the", "group", ",", "and", "the", "group", "have", "each", "state", "lately", "that", "medical", "quackery", "be", "at", "a", "new", "high", "."]
-    oewn2026_key: [[0, "oewn-00138870-r"], [3, "oewn-00031563-n"], [5, "oewn-00031563-n"], [9, "oewn-00031563-n"], [13, "oewn-00031563-n"], [16, "oewn-01011267-v"], [17, "oewn-00108184-r"], [19, "oewn-02770888-a"], [20, "oewn-00634351-n"], [21, "oewn-02661230-v"], [24, "oewn-01645077-a"], [25, "oewn-05104798-n"]]
+    oewn_key: [[0, "oewn-00138870-r"], [3, "oewn-00031563-n"], [5, "oewn-00031563-n"], [9, "oewn-00031563-n"], [13, "oewn-00031563-n"], [16, "oewn-01011267-v"], [17, "oewn-00108184-r"], [19, "oewn-02770888-a"], [20, "oewn-00634351-n"], [21, "oewn-02661230-v"], [24, "oewn-01645077-a"], [25, "oewn-05104798-n"]]
     paragraph: '16'
     pos: ["RB", ",", "DT", "NN", "FW", "NN", "FW", ",", "DT", "NN", ",", "CC", "DT", "NNP", "VBP", "DT", "VBN", "RB", "IN", "JJ", "NN", "VBZ", "IN", "DT", "JJ", "NN", "."]
     text: ' Similarly, the American_Cancer_Society (ACS), the Arthritis_and_Rheumatism_Foundation,
@@ -594,7 +594,7 @@ YfEd:
     wn30_key: [[0, "similarly%4:02:00::"], [3, "group%1:03:00::"], [5, "group%1:03:00::"], [9, "group%1:03:00::"], [13, "group%1:03:00::"], [16, "state%2:32:00::"], [17, "lately%4:02:00::"], [19, "medical%3:01:00::"], [20, "quackery%1:04:00::"], [21, "be%2:42:05::"], [24, "new%3:00:00::"], [25, "high%1:07:00::"]]
 KMFR:
     lemmas: ["for_example", ",", "the", "group", "have", "report", "it", "be", "receive", "four_times", "as", "many", "inquiry", "about", "quack", "device", "and", "10", "times", "as_many", "complaint", "compare", "with", "two", "year", "ago", "."]
-    oewn2026_key: [[0, "oewn-00160239-r"], [3, "oewn-00031563-n"], [5, "oewn-00968841-v"], [8, "oewn-02214901-v"], [9, "oewn-00346296-r"], [11, "oewn-01555990-a"], [12, "oewn-07208256-n"], [14, "oewn-01917970-s"], [15, "oewn-03187746-n"], [17, "oewn-02194935-s"], [21, "oewn-00654571-v"], [23, "oewn-02194109-s"], [24, "oewn-15228587-n"], [25, "oewn-00074361-r"]]
+    oewn_key: [[0, "oewn-00160239-r"], [3, "oewn-00031563-n"], [5, "oewn-00968841-v"], [8, "oewn-02214901-v"], [9, "oewn-00346296-r"], [11, "oewn-01555990-a"], [12, "oewn-07208256-n"], [14, "oewn-01917970-s"], [15, "oewn-03187746-n"], [17, "oewn-02194935-s"], [21, "oewn-00654571-v"], [23, "oewn-02194109-s"], [24, "oewn-15228587-n"], [25, "oewn-00074361-r"]]
     paragraph: '16'
     pos: ["RB", ",", "DT", "NNP", "VBZ", "VBN", "PRP", "VBD", "VBG", "RB", "JJ", "JJ", "NNS", "IN", "JJ", "NNS", "CC", "JJ", "NNS", "JJ", "NN", "VBN", "IN", "JJ", "NNS", "RB", "."]
     text: ' For_example, the BBB has reported it was receiving four_times as many inquiries
@@ -606,7 +606,7 @@ KMFR:
     wn30_key: [[0, "for_example%4:02:00::"], [3, "group%1:03:00::"], [5, "report%2:32:04::"], [8, "receive%2:40:00::"], [9, "four_times%4:02:00::"], [11, "many%3:00:00::"], [12, "inquiry%1:10:01::"], [14, "quack%3:00:00:unqualified:01"], [15, "device%1:06:00::"], [17, "10%3:00:00:cardinal:00"], [21, "compare%2:31:00::"], [23, "two%3:00:00:cardinal:00"], [24, "year%1:28:01::"], [25, "ago%4:02:00::"]]
 iO0B:
     lemmas: ["authorities", "hesitate", "to", "quote", "exact", "figure", ",", "however", ",", "believe", "that", "any", "sum", "they", "come_up", "with", "be", "only", "a", "surface", "manifestation", "-", "turn_up", "by", "their", "inevitably", "limit", "police", "-", "of", "the", "real", "loot", "of", "the", "medical", "racketeer", "."]
-    oewn2026_key: [[0, "oewn-08067430-n"], [1, "oewn-02646524-v"], [3, "oewn-01025268-v"], [4, "oewn-00634639-s"], [5, "oewn-13352649-n"], [7, "oewn-00027761-r"], [9, "oewn-00691086-v"], [11, "oewn-02275443-s"], [12, "oewn-13352213-n"], [14, "oewn-01630816-v"], [16, "oewn-02610777-v"], [17, "oewn-00005103-r"], [19, "oewn-02480566-a"], [20, "oewn-07337831-n"], [22, "oewn-02291049-v"], [25, "oewn-00209884-r"], [27, "oewn-02460361-v"], [31, "oewn-01939402-a"], [32, "oewn-13406389-n"], [35, "oewn-02770888-a"], [36, "oewn-10522840-n"]]
+    oewn_key: [[0, "oewn-08067430-n"], [1, "oewn-02646524-v"], [3, "oewn-01025268-v"], [4, "oewn-00634639-s"], [5, "oewn-13352649-n"], [7, "oewn-00027761-r"], [9, "oewn-00691086-v"], [11, "oewn-02275443-s"], [12, "oewn-13352213-n"], [14, "oewn-01630816-v"], [16, "oewn-02610777-v"], [17, "oewn-00005103-r"], [19, "oewn-02480566-a"], [20, "oewn-07337831-n"], [22, "oewn-02291049-v"], [25, "oewn-00209884-r"], [27, "oewn-02460361-v"], [31, "oewn-01939402-a"], [32, "oewn-13406389-n"], [35, "oewn-02770888-a"], [36, "oewn-10522840-n"]]
     paragraph: '17'
     pos: ["NNS", "VBP", "TO", "VB", "JJ", "NNS", ",", "RB", ",", "VBG", "IN", "JJ", "NN", "PRP", "VBP", "VB", "VBZ", "RB", "DT", "JJ", "NN", ":", "VB", "IN", "PRP$", "RB", "VB", "VBG", ":", "IN", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "."]
     text: ' Authorities hesitate to quote exact figures, however, believing that any sum they
@@ -617,7 +617,7 @@ iO0B:
     wn30_key: [[0, "authorities%1:14:00::"], [1, "hesitate%2:42:00::"], [3, "quote%2:32:00::"], [4, "exact%3:00:00:correct:00"], [5, "figure%1:21:00::"], [7, "however%4:02:00::"], [9, "believe%2:31:04::"], [11, "any%3:00:00:some:00"], [12, "sum%1:21:00::"], [14, "come_up%2:36:03::"], [16, "be%2:42:03::"], [17, "only%4:02:02::"], [19, "surface%3:00:00::"], [20, "manifestation%1:11:00::"], [22, "turn_up%2:40:00::"], [25, "inevitably%4:02:02::"], [27, "police%2:41:00::"], [31, "real%3:00:00::"], [32, "loot%1:21:01::"], [35, "medical%3:01:00::"], [36, "racketeer%1:18:00::"]]
 VLyv:
     lemmas: ["in", "this", "sense", ",", "authorities", "believe", "that", "all", "estimate", "of", "phony", "device", "quackery", "be", "conservative", "."]
-    oewn2026_key: [[4, "oewn-08067430-n"], [5, "oewn-00723022-v"], [7, "oewn-02277044-a"], [8, "oewn-00876924-n"], [10, "oewn-01121219-s"], [11, "oewn-03187746-n"], [12, "oewn-00634351-n"], [13, "oewn-02610777-v"], [14, "oewn-00576723-a"]]
+    oewn_key: [[4, "oewn-08067430-n"], [5, "oewn-00723022-v"], [7, "oewn-02277044-a"], [8, "oewn-00876924-n"], [10, "oewn-01121219-s"], [11, "oewn-03187746-n"], [12, "oewn-00634351-n"], [13, "oewn-02610777-v"], [14, "oewn-00576723-a"]]
     paragraph: '17'
     pos: ["RB", "RB", "NN", ",", "NNS", "VBP", "IN", "JJ", "NNS", "IN", "JJ", "NN", "NN", "VBP", "JJ", "."]
     text: ' In this sense, authorities believe that all estimates of phony device quackery are
@@ -629,7 +629,7 @@ VLyv:
     wn30_key: [[4, "authorities%1:14:00::"], [5, "believe%2:31:03::"], [7, "all%3:00:00::"], [8, "estimate%1:04:01::"], [10, "phony%3:00:00:counterfeit:00"], [11, "device%1:06:00::"], [12, "quackery%1:04:00::"], [13, "be%2:42:03::"], [14, "conservative%3:00:00::"]]
 Jerv:
     lemmas: ["The", "economic", "toll", "that", "the", "device", "quack", "extract", "be", "important", ",", "of_course", "."]
-    oewn2026_key: [[1, "oewn-02727475-a"], [2, "oewn-05171334-n"], [5, "oewn-03187746-n"], [6, "oewn-10516787-n"], [8, "oewn-02610777-v"], [9, "oewn-01278672-a"], [11, "oewn-00039019-r"]]
+    oewn_key: [[1, "oewn-02727475-a"], [2, "oewn-05171334-n"], [5, "oewn-03187746-n"], [6, "oewn-10516787-n"], [8, "oewn-02610777-v"], [9, "oewn-01278672-a"], [11, "oewn-00039019-r"]]
     paragraph: '18'
     pos: ["DT", "JJ", "NN", "IN", "DT", "NN", "NN", "VB", "VBZ", "JJ", ",", "RB", "."]
     text: ' The economic toll that the device quack extracts is important, of_course.'
@@ -638,7 +638,7 @@ Jerv:
     wn30_key: [[1, "economic%3:01:01::"], [2, "toll%1:07:01::"], [5, "device%1:06:00::"], [6, "quack%1:18:00::"], [8, "be%2:42:03::"], [9, "important%3:00:00::"], [11, "of_course%4:02:00::"]]
 lbM+:
     lemmas: ["But", "it", "be", "our", "health", "-", "more", "precious", "than", "all", "the", "money", "in", "the", "world", "-", "that", "these", "modern", "witch_doctor", "with", "their", "fake", "therapeutic", "gadget", "be", "gamble", "away", "."]
-    oewn2026_key: [[4, "oewn-14471374-n"], [6, "oewn-01559526-a"], [7, "oewn-01465547-s"], [11, "oewn-13405730-n"], [14, "oewn-09489410-n"], [18, "oewn-01539804-a"], [19, "oewn-10804220-n"], [22, "oewn-01121219-s"], [23, "oewn-02925526-a"], [24, "oewn-02732963-n"], [26, "oewn-02550045-v"], [27, "oewn-00235782-r"]]
+    oewn_key: [[4, "oewn-14471374-n"], [6, "oewn-01559526-a"], [7, "oewn-01465547-s"], [11, "oewn-13405730-n"], [14, "oewn-09489410-n"], [18, "oewn-01539804-a"], [19, "oewn-10804220-n"], [22, "oewn-01121219-s"], [23, "oewn-02925526-a"], [24, "oewn-02732963-n"], [26, "oewn-02550045-v"], [27, "oewn-00235782-r"]]
     paragraph: '18'
     pos: ["CC", "PRP", "VBZ", "PRP$", "NN", ":", "JJ", "JJ", "IN", "PDT", "DT", "NN", "IN", "DT", "NN", ":", "IN", "DT", "JJ", "NNS", "IN", "PRP$", "JJ", "JJ", "NNS", "VBP", "VBG", "RB", "."]
     text: ' But it is our health - more precious than all the money in the world - that these
@@ -648,7 +648,7 @@ lbM+:
     wn30_key: [[4, "health%1:26:00::"], [6, "more%3:00:01::"], [7, "precious%3:00:00:loved:00"], [11, "money%1:21:00::"], [14, "world%1:17:01::"], [18, "modern%3:00:00::"], [19, "witch_doctor%1:18:00::"], [22, "fake%3:00:00:counterfeit:00"], [23, "therapeutic%3:01:00::"], [24, "gadget%1:06:00::"], [26, "gamble%2:41:00::"], [27, "away%4:02:03::"]]
 daeY:
     lemmas: ["By", "prey", "on", "the", "sick", ",", "by", "play", "callously", "on", "the", "hope", "of", "the", "desperate", ",", "by", "cause", "the", "sufferer", "to", "delay", "proper", "medical_care", ",", "these", "medical", "ghoul", "create", "pain", "and", "misery", "by", "their", "very", "activity", "."]
-    oewn2026_key: [[1, "oewn-01206335-v"], [4, "oewn-02552072-a"], [7, "oewn-01165671-v"], [8, "oewn-00240256-r"], [11, "oewn-07556441-n"], [14, "oewn-10028189-n"], [17, "oewn-01649143-v"], [19, "oewn-10615055-n"], [21, "oewn-02648041-v"], [22, "oewn-01884565-a"], [23, "oewn-00658847-n"], [26, "oewn-02770888-a"], [27, "oewn-10164091-n"], [28, "oewn-01620211-v"], [29, "oewn-07509503-n"], [31, "oewn-14471799-n"], [34, "oewn-01845232-s"], [35, "oewn-00408356-n"]]
+    oewn_key: [[1, "oewn-01206335-v"], [4, "oewn-02552072-a"], [7, "oewn-01165671-v"], [8, "oewn-00240256-r"], [11, "oewn-07556441-n"], [14, "oewn-10028189-n"], [17, "oewn-01649143-v"], [19, "oewn-10615055-n"], [21, "oewn-02648041-v"], [22, "oewn-01884565-a"], [23, "oewn-00658847-n"], [26, "oewn-02770888-a"], [27, "oewn-10164091-n"], [28, "oewn-01620211-v"], [29, "oewn-07509503-n"], [31, "oewn-14471799-n"], [34, "oewn-01845232-s"], [35, "oewn-00408356-n"]]
     paragraph: '18'
     pos: ["IN", "VBG", "VB", "DT", "JJ", ",", "IN", "VBG", "RB", "IN", "DT", "NNS", "IN", "DT", "NN", ",", "IN", "VBG", "DT", "NN", "TO", "VB", "JJ", "NN", ",", "DT", "JJ", "NNS", "VBP", "NN", "CC", "NN", "IN", "PRP$", "JJ", "NN", "."]
     text: ' By preying on the sick, by playing callously on the hopes of the desperate, by causing
@@ -661,7 +661,7 @@ daeY:
     wn30_key: [[1, "prey%2:34:01::"], [4, "sick%3:00:01::"], [7, "play%2:34:13::"], [8, "callously%4:02:00::"], [11, "hope%1:12:00::"], [14, "desperate%1:18:00::"], [17, "cause%2:36:00::"], [19, "sufferer%1:18:00::"], [21, "delay%2:42:00::"], [22, "proper%3:00:00::"], [23, "medical_care%1:04:00::"], [26, "medical%3:01:00::"], [27, "ghoul%1:18:01::"], [28, "create%2:36:00::"], [29, "pain%1:12:00::"], [31, "misery%1:26:00::"], [34, "very%3:00:00:precise:00"], [35, "activity%1:04:00::"]]
 HOW5:
     lemmas: ["typically", ",", "person", "and", "person", "both", "lose", "more", "than", "their", "money", "as", "the", "result", "of", "their", "experience", "with", "their", "cleveland", "quack", "."]
-    oewn2026_key: [[0, "oewn-00129052-r"], [2, "oewn-00007846-n"], [4, "oewn-00007846-n"], [6, "oewn-02292634-v"], [7, "oewn-11210173-n"], [10, "oewn-13405730-n"], [13, "oewn-11430739-n"], [16, "oewn-07300108-n"], [19, "oewn-09153394-n"], [20, "oewn-10516787-n"]]
+    oewn_key: [[0, "oewn-00129052-r"], [2, "oewn-00007846-n"], [4, "oewn-00007846-n"], [6, "oewn-02292634-v"], [7, "oewn-11210173-n"], [10, "oewn-13405730-n"], [13, "oewn-11430739-n"], [16, "oewn-07300108-n"], [19, "oewn-09153394-n"], [20, "oewn-10516787-n"]]
     paragraph: '19'
     pos: ["RB", ",", "NN", "CC", "NN", "DT", "VBD", "NN", "RB", "PRP$", "NN", "IN", "DT", "NN", "IN", "PRP$", "NNS", "IN", "PRP$", "NNP", "NNS", "."]
     text: ' Typically, Sarah_Gross and Mr._A both lost more than their money as the result of
@@ -671,7 +671,7 @@ HOW5:
     wn30_key: [[0, "typically%4:02:00::"], [2, "person%1:03:00::"], [4, "person%1:03:00::"], [6, "lose%2:40:02::"], [7, "more%1:18:00::"], [10, "money%1:21:00::"], [13, "result%1:19:00::"], [16, "experience%1:11:00::"], [19, "cleveland%1:15:00::"], [20, "quack%1:18:00::"]]
 kad0:
     lemmas: ["person", "find", "that", "the", "treatment", "give", "her", "for", "a", "nervous", "ailment", "by", "the", "masseur", "be", "not", "help", "her", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-02158938-v"], [4, "oewn-00659325-n"], [5, "oewn-02314145-v"], [9, "oewn-02415704-s"], [10, "oewn-14078890-n"], [13, "oewn-10317869-n"], [15, "oewn-00024432-r"], [16, "oewn-00081834-v"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-02158938-v"], [4, "oewn-00659325-n"], [5, "oewn-02314145-v"], [9, "oewn-02415704-s"], [10, "oewn-14078890-n"], [13, "oewn-10317869-n"], [15, "oewn-00024432-r"], [16, "oewn-00081834-v"]]
     paragraph: '19'
     pos: ["NN", "VBD", "IN", "DT", "NNS", "VBN", "PRP", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "VBD", "RB", "VBG", "PRP$", "."]
     text: ' Sarah_Gross found that the treatments given her for a nervous ailment by the masseur
@@ -681,7 +681,7 @@ kad0:
     wn30_key: [[0, "person%1:03:00::"], [1, "find%2:39:02::"], [4, "treatment%1:04:00::"], [5, "give%2:40:14::"], [9, "nervous%3:00:00:tense:03"], [10, "ailment%1:26:00::"], [13, "masseur%1:18:00::"], [15, "not%4:02:00::"], [16, "help%2:29:00::"]]
 uIkj:
     lemmas: ["As", "a", "result", ",", "she", "consult", "medical", "authorities", "and", "learn", "that", "the", "device", "her", "quack", "\"", "doctor", "\"", "be", "use", "be", "phony", "."]
-    oewn2026_key: [[2, "oewn-11430739-n"], [5, "oewn-00879090-v"], [6, "oewn-02770888-a"], [7, "oewn-08067430-n"], [9, "oewn-00600349-v"], [12, "oewn-03187746-n"], [14, "oewn-01917970-s"], [16, "oewn-10040615-n"], [19, "oewn-01161188-v"], [20, "oewn-02610777-v"], [21, "oewn-01121219-s"]]
+    oewn_key: [[2, "oewn-11430739-n"], [5, "oewn-00879090-v"], [6, "oewn-02770888-a"], [7, "oewn-08067430-n"], [9, "oewn-00600349-v"], [12, "oewn-03187746-n"], [14, "oewn-01917970-s"], [16, "oewn-10040615-n"], [19, "oewn-01161188-v"], [20, "oewn-02610777-v"], [21, "oewn-01121219-s"]]
     paragraph: '19'
     pos: ["IN", "DT", "NN", ",", "PRP", "VBD", "JJ", "NNS", "CC", "VBD", "IN", "DT", "NNS", "PRP$", "JJ", "``", "NN", "''", "VBD", "VBG", "VBD", "JJ", "."]
     text: ' As a result, she consulted medical authorities and learned that the devices her
@@ -691,7 +691,7 @@ uIkj:
     wn30_key: [[2, "result%1:19:00::"], [5, "consult%2:32:02::"], [6, "medical%3:01:00::"], [7, "authorities%1:14:00::"], [9, "learn%2:31:01::"], [12, "device%1:06:00::"], [14, "quack%3:00:00:unqualified:01"], [16, "doctor%1:18:00::"], [19, "use%2:34:01::"], [20, "be%2:42:03::"], [21, "phony%3:00:00:counterfeit:00"]]
 of6d:
     lemmas: ["She", "suffer", "a", "nervous_breakdown", "and", "have", "to", "be", "institutionalize", "."]
-    oewn2026_key: [[1, "oewn-00064841-v"], [3, "oewn-14090143-n"], [8, "oewn-02353564-v"]]
+    oewn_key: [[1, "oewn-00064841-v"], [3, "oewn-14090143-n"], [8, "oewn-02353564-v"]]
     paragraph: '19'
     pos: ["PRP", "VBD", "DT", "NN", "CC", "VB", "VB", "VB", "VBN", "."]
     text: ' She suffered a nervous_breakdown and had to be institutionalized.
@@ -702,7 +702,7 @@ of6d:
     wn30_key: [[1, "suffer%2:37:00::"], [3, "nervous_breakdown%1:26:00::"], [8, "institutionalize%2:40:00::"]]
 LEkz:
     lemmas: ["person", ",", "her", "fellow", "townsman", ",", "also", "experience", "a", "nervous_breakdown", "just", "as_soon_as", "he", "discover", "that", "he", "have", "be", "bilk", "of", "his", "life", "savings", "by", "the", "limited", "practitioner", "who", "have", "be", "treat", "his", "wife", "-", "a", "woman", "suffer", "from", "an", "incurable", "disease", ",", "multiple_sclerosis", "-", "and", "himself", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [4, "oewn-83362969-n"], [6, "oewn-00048072-r"], [7, "oewn-02114674-v"], [9, "oewn-14090143-n"], [10, "oewn-00033695-r"], [13, "oewn-00600349-v"], [18, "oewn-02578849-v"], [21, "oewn-15165704-n"], [22, "oewn-13380745-n"], [25, "oewn-01417858-a"], [26, "oewn-10482426-n"], [30, "oewn-00078513-v"], [32, "oewn-10800308-n"], [35, "oewn-10807146-n"], [36, "oewn-00065410-v"], [39, "oewn-00350861-s"], [40, "oewn-14093842-n"], [42, "oewn-14117550-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [4, "oewn-83362969-n"], [6, "oewn-00048072-r"], [7, "oewn-02114674-v"], [9, "oewn-14090143-n"], [10, "oewn-00033695-r"], [13, "oewn-00600349-v"], [18, "oewn-02578849-v"], [21, "oewn-15165704-n"], [22, "oewn-13380745-n"], [25, "oewn-01417858-a"], [26, "oewn-10482426-n"], [30, "oewn-00078513-v"], [32, "oewn-10800308-n"], [35, "oewn-10807146-n"], [36, "oewn-00065410-v"], [39, "oewn-00350861-s"], [40, "oewn-14093842-n"], [42, "oewn-14117550-n"]]
     paragraph: '20'
     pos: ["NN", ",", "PRP$", "JJ", "NN", ",", "RB", "VBD", "DT", "NN", "RB", "RB", "PRP", "VBD", "IN", "PRP", "VBD", "VBN", "VBN", "IN", "PRP$", "NN", "NNS", "IN", "DT", "JJ", "NN", "WP", "VBD", "VBN", "VBG", "PRP$", "NN", ":", "DT", "NN", "VBG", "VB", "DT", "JJ", "NN", ",", "NN", ":", "CC", "PRP", "."]
     text: ' Mr._A., her fellow townsman, also experienced a nervous_breakdown just as_soon_as
@@ -714,7 +714,7 @@ LEkz:
     wn30_key: [[0, "person%1:03:00::"], [4, "townsman%1:18:00::"], [6, "also%4:02:00::"], [7, "experience%2:39:01::"], [9, "nervous_breakdown%1:26:00::"], [10, "just%4:02:01::"], [13, "discover%2:31:01::"], [18, "bilk%2:41:00::"], [21, "life%1:28:01::"], [22, "savings%1:21:00::"], [25, "limited%3:00:00::"], [26, "practitioner%1:18:00::"], [30, "treat%2:29:00::"], [32, "wife%1:18:00::"], [35, "woman%1:18:00::"], [36, "suffer%2:29:01::"], [39, "incurable%3:00:00:unalterable:00"], [40, "disease%1:26:00::"], [42, "multiple_sclerosis%1:26:00::"]]
 0GLW:
     lemmas: ["person", "have", "recover", ",", "but", "he", "be", ",", "justifiably", ",", "a", "bitter", "man", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-00092442-v"], [6, "oewn-02610777-v"], [8, "oewn-00240401-r"], [11, "oewn-00117555-s"], [12, "oewn-10306910-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [2, "oewn-00092442-v"], [6, "oewn-02610777-v"], [8, "oewn-00240401-r"], [11, "oewn-00117555-s"], [12, "oewn-10306910-n"]]
     paragraph: '20'
     pos: ["NN", "VBZ", "VBN", ",", "CC", "PRP", "VBZ", ",", "RB", ",", "DT", "JJ", "NN", "."]
     text: ' Mr._A has recovered, but he is, justifiably, a bitter man.'
@@ -723,7 +723,7 @@ LEkz:
     wn30_key: [[0, "person%1:03:00::"], [2, "recover%2:29:00::"], [6, "be%2:42:03::"], [8, "justifiably%4:02:00::"], [11, "bitter%3:00:00:resentful:00"], [12, "man%1:18:00::"]]
 nWzV:
     lemmas: ["\"", "That", "'s", "a", "lot", "of", "hard", "earned", "money", "to", "lose", "\"", ",", "he", "say", "today", "."]
-    oewn2026_key: [[4, "oewn-13796604-n"], [6, "oewn-00840083-s"], [7, "oewn-00824936-a"], [8, "oewn-13405730-n"], [10, "oewn-02292634-v"], [14, "oewn-01011267-v"], [15, "oewn-15287732-n"]]
+    oewn_key: [[4, "oewn-13796604-n"], [6, "oewn-00840083-s"], [7, "oewn-00824936-a"], [8, "oewn-13405730-n"], [10, "oewn-02292634-v"], [14, "oewn-01011267-v"], [15, "oewn-15287732-n"]]
     paragraph: '20'
     pos: ["``", "DT", "VBZ", "JJ", "NN", "JJ", "JJ", "JJ", "NN", "TO", "VB", "``", ",", "PRP", "VBZ", "NN", "."]
     text: ' " That''s a lot of hard earned money to lose ", he says today.'
@@ -732,7 +732,7 @@ nWzV:
     wn30_key: [[4, "lot%1:23:00::"], [6, "hard%3:00:01:effortful:00"], [7, "earned%3:00:00::"], [8, "money%1:21:00::"], [10, "lose%2:40:02::"], [14, "say%2:32:00::"], [15, "today%1:28:00::"]]
 ME/I:
     lemmas: ["\"", "Neither", "me", "nor", "my", "wife", "be", "help", "by", "that", "chiropractor", "'s", "treatment", "\"", "."]
-    oewn2026_key: [[5, "oewn-10800308-n"], [7, "oewn-00081834-v"], [10, "oewn-09938658-n"], [12, "oewn-00659325-n"]]
+    oewn_key: [[5, "oewn-10800308-n"], [7, "oewn-00081834-v"], [10, "oewn-09938658-n"], [12, "oewn-00659325-n"]]
     paragraph: '20'
     pos: ["``", "CC", "PRP", "CC", "PRP$", "NN", "VBD", "VBN", "IN", "IN", "NN", "POS", "NNS", "``", "."]
     text: ' " Neither me nor my wife were helped by that chiropractor''s treatments ".
@@ -743,7 +743,7 @@ ME/I:
     wn30_key: [[5, "wife%1:18:00::"], [7, "help%2:29:00::"], [10, "chiropractor%1:18:00::"], [12, "treatment%1:04:00::"]]
 y9Kp:
     lemmas: ["And", "there", "be", "the", "case", "of", "person", ",", "a", "machinist", ",", "who", "be", "refer", "by", "a", "friend", "to", "a", "health", "machine", "quack", "who", "treat", "him", "with", "a", "so-called", "diagnostic", "machine", "for", "what", "person", "say", "be", "a", "system", "full", "of", "arsenic", "and", "strychnine", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"], [4, "oewn-13966452-n"], [6, "oewn-00007846-n"], [9, "oewn-10298715-n"], [13, "oewn-01956757-v"], [16, "oewn-10132360-n"], [19, "oewn-14471374-n"], [20, "oewn-03705309-n"], [21, "oewn-10516787-n"], [23, "oewn-00078513-v"], [27, "oewn-01922936-s"], [28, "oewn-02987083-a"], [29, "oewn-03705309-n"], [32, "oewn-00007846-n"], [33, "oewn-01018011-v"], [34, "oewn-02622439-v"], [36, "oewn-05226371-n"], [37, "oewn-01086845-a"], [39, "oewn-14792380-n"], [41, "oewn-14739169-n"]]
+    oewn_key: [[2, "oewn-02610777-v"], [4, "oewn-13966452-n"], [6, "oewn-00007846-n"], [9, "oewn-10298715-n"], [13, "oewn-01956757-v"], [16, "oewn-10132360-n"], [19, "oewn-14471374-n"], [20, "oewn-03705309-n"], [21, "oewn-10516787-n"], [23, "oewn-00078513-v"], [27, "oewn-01922936-s"], [28, "oewn-02987083-a"], [29, "oewn-03705309-n"], [32, "oewn-00007846-n"], [33, "oewn-01018011-v"], [34, "oewn-02622439-v"], [36, "oewn-05226371-n"], [37, "oewn-01086845-a"], [39, "oewn-14792380-n"], [41, "oewn-14739169-n"]]
     paragraph: '21'
     pos: ["CC", "EX", "VBD", "DT", "NN", "IN", "NN", ",", "DT", "NN", ",", "WP", "VBD", "VBN", "IN", "DT", "NN", "TO", "DT", "NN", "NN", "NN", "WP", "VBD", "PRP", "IN", "DT", "JJ", "JJ", "NN", "IN", "WP", "NN", "VBD", "VBD", "DT", "NN", "JJ", "IN", "NN", "CC", "NN", "."]
     text: ' And there was the case of Tom_Hepker, a machinist, who was referred by a friend
@@ -754,7 +754,7 @@ y9Kp:
     wn30_key: [[2, "be%2:42:04::"], [4, "case%1:26:00::"], [6, "person%1:03:00::"], [9, "machinist%1:18:00::"], [13, "refer%2:38:00::"], [16, "friend%1:18:00::"], [19, "health%1:26:00::"], [20, "machine%1:06:00::"], [21, "quack%1:18:00::"], [23, "treat%2:29:00::"], [27, "so-called%3:00:00:questionable:00"], [28, "diagnostic%3:01:00::"], [29, "machine%1:06:00::"], [32, "person%1:03:00::"], [33, "say%2:32:01::"], [34, "be%2:42:06::"], [36, "system%1:08:01::"], [37, "full%3:00:00::"], [39, "arsenic%1:27:01::"], [41, "strychnine%1:27:00::"]]
 3/t6:
     lemmas: ["After", "his", "pain", "get_worse", ",", "person", "decide", "to", "see", "a", "real", "doctor", ",", "from", "whom", "he", "learn", "he", "be", "suffer", "from", "cancer", "of", "the", "lung", "."]
-    oewn2026_key: [[2, "oewn-05732639-n"], [3, "oewn-00269051-v"], [5, "oewn-00007846-n"], [6, "oewn-00701251-v"], [8, "oewn-02493953-v"], [10, "oewn-01939402-a"], [11, "oewn-10040615-n"], [16, "oewn-00600349-v"], [19, "oewn-00065410-v"], [21, "oewn-14263400-n"], [24, "oewn-05394887-n"]]
+    oewn_key: [[2, "oewn-05732639-n"], [3, "oewn-00269051-v"], [5, "oewn-00007846-n"], [6, "oewn-00701251-v"], [8, "oewn-02493953-v"], [10, "oewn-01939402-a"], [11, "oewn-10040615-n"], [16, "oewn-00600349-v"], [19, "oewn-00065410-v"], [21, "oewn-14263400-n"], [24, "oewn-05394887-n"]]
     paragraph: '21'
     pos: ["IN", "PRP$", "NNS", "VB", ",", "NNP", "VBD", "TO", "VB", "DT", "JJ", "NN", ",", "IN", "WP", "PRP", "VBD", "PRP", "VBD", "VBG", "VB", "NN", "IN", "DT", "NN", "."]
     text: ' After his pains got_worse, Tom decided to see a real doctor, from whom he learned
@@ -764,7 +764,7 @@ y9Kp:
     wn30_key: [[2, "pain%1:09:00::"], [3, "get_worse%2:30:00::"], [5, "person%1:03:00::"], [6, "decide%2:31:02::"], [8, "see%2:41:11::"], [10, "real%3:00:00::"], [11, "doctor%1:18:00::"], [16, "learn%2:31:01::"], [19, "suffer%2:29:01::"], [21, "cancer%1:26:00::"], [24, "lung%1:08:00::"]]
 KeYD:
     lemmas: ["Yes", ",", "person", "catch", "it", "in_time", "to", "stay", "alive", "."]
-    oewn2026_key: [[2, "oewn-00007846-n"], [3, "oewn-00601230-v"], [5, "oewn-00048179-r"], [7, "oewn-00117793-v"], [8, "oewn-00095301-a"]]
+    oewn_key: [[2, "oewn-00007846-n"], [3, "oewn-00601230-v"], [5, "oewn-00048179-r"], [7, "oewn-00117793-v"], [8, "oewn-00095301-a"]]
     paragraph: '21'
     pos: ["UH", ",", "NNP", "VBD", "PRP", "RB", "TO", "VB", "JJ", "."]
     text: ' Yes, Tom caught it in_time to stay alive.'
@@ -773,7 +773,7 @@ KeYD:
     wn30_key: [[2, "person%1:03:00::"], [3, "catch%2:31:00::"], [5, "in_time%4:02:00::"], [7, "stay%2:30:00::"], [8, "alive%3:00:01::"]]
 r6Me:
     lemmas: ["But", "he", "be", "a", "welfare_case", "now", "-", "a", "human", "wreck", "-", "thank", "to", "this", "modern", "witch_doctor", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"], [4, "oewn-10793468-n"], [5, "oewn-00049013-r"], [8, "oewn-02754145-a"], [9, "oewn-14447274-n"], [11, "oewn-00893836-v"], [14, "oewn-01539804-a"], [15, "oewn-10804220-n"]]
+    oewn_key: [[2, "oewn-02610777-v"], [4, "oewn-10793468-n"], [5, "oewn-00049013-r"], [8, "oewn-02754145-a"], [9, "oewn-14447274-n"], [11, "oewn-00893836-v"], [14, "oewn-01539804-a"], [15, "oewn-10804220-n"]]
     paragraph: '21'
     pos: ["CC", "PRP", "VBZ", "DT", "NN", "RB", ":", "DT", "JJ", "NN", ":", "VB", "TO", "DT", "JJ", "NN", "."]
     text: ' But he''s a welfare_case now - a human wreck - thanks to this modern witch_doctor.
@@ -784,7 +784,7 @@ r6Me:
     wn30_key: [[2, "be%2:42:03::"], [4, "welfare_case%1:18:00::"], [5, "now%4:02:00::"], [8, "human%3:01:01::"], [9, "wreck%1:26:00::"], [11, "thank%2:32:00::"], [14, "modern%3:00:00::"], [15, "witch_doctor%1:18:00::"]]
 yNUt:
     lemmas: ["But", "the", "machine", "quack", "can", "cause", "far", "more", "than", "just", "suffering", "."]
-    oewn2026_key: [[2, "oewn-03706297-n"], [3, "oewn-10516787-n"], [5, "oewn-01649143-v"], [6, "oewn-00101873-r"], [7, "oewn-11210173-n"], [9, "oewn-00005103-r"], [10, "oewn-07511603-n"]]
+    oewn_key: [[2, "oewn-03706297-n"], [3, "oewn-10516787-n"], [5, "oewn-01649143-v"], [6, "oewn-00101873-r"], [7, "oewn-11210173-n"], [9, "oewn-00005103-r"], [10, "oewn-07511603-n"]]
     paragraph: '22'
     pos: ["CC", "DT", "NN", "NN", "MD", "VB", "RB", "NN", "RB", "RB", "NN", "."]
     text: ' But the machine quack can cause far more than just suffering.'
@@ -793,7 +793,7 @@ yNUt:
     wn30_key: [[2, "machine%1:06:02::"], [3, "quack%1:18:00::"], [5, "cause%2:36:00::"], [6, "far%4:02:02::"], [7, "more%1:18:00::"], [9, "just%4:02:00::"], [10, "suffering%1:12:02::"]]
 w28T:
     lemmas: ["In", "such", "disease", "as", "cancer", ",", "tuberculosis", ",", "and", "heart_disease", ",", "early", "diagnosis", "and", "treatment", "be", "so", "vital", "that", "the", "waste_of_time", "by", "the", "patient", "with", "person", "'s", "cure-all", "gadget", "can", "prove", "fatal", "."]
-    oewn2026_key: [[1, "oewn-01558587-s"], [2, "oewn-14093842-n"], [4, "oewn-14263400-n"], [6, "oewn-14166897-n"], [9, "oewn-14126770-n"], [11, "oewn-00820993-a"], [12, "oewn-00153547-n"], [14, "oewn-00659325-n"], [15, "oewn-02610777-v"], [16, "oewn-00147630-r"], [17, "oewn-00907116-s"], [20, "oewn-00744798-n"], [23, "oewn-10425439-n"], [25, "oewn-00007846-n"], [27, "oewn-03886467-n"], [28, "oewn-02732963-n"], [30, "oewn-02639962-v"], [31, "oewn-00996879-a"]]
+    oewn_key: [[1, "oewn-01558587-s"], [2, "oewn-14093842-n"], [4, "oewn-14263400-n"], [6, "oewn-14166897-n"], [9, "oewn-14126770-n"], [11, "oewn-00820993-a"], [12, "oewn-00153547-n"], [14, "oewn-00659325-n"], [15, "oewn-02610777-v"], [16, "oewn-00147630-r"], [17, "oewn-00907116-s"], [20, "oewn-00744798-n"], [23, "oewn-10425439-n"], [25, "oewn-00007846-n"], [27, "oewn-03886467-n"], [28, "oewn-02732963-n"], [30, "oewn-02639962-v"], [31, "oewn-00996879-a"]]
     paragraph: '22'
     pos: ["IN", "JJ", "NNS", "IN", "NN", ",", "NN", ",", "CC", "NN", ",", "JJ", "NN", "CC", "NN", "VBP", "RB", "JJ", "IN", "DT", "NN", "IN", "DT", "NN", "IN", "NN", "POS", "NN", "NN", "MD", "VB", "JJ", "."]
     text: ' In such diseases as cancer, tuberculosis, and heart_disease, early diagnosis and
@@ -804,7 +804,7 @@ w28T:
     wn30_key: [[1, "such%3:00:00:much:00"], [2, "disease%1:26:00::"], [4, "cancer%1:26:00::"], [6, "tuberculosis%1:26:00::"], [9, "heart_disease%1:26:00::"], [11, "early%3:00:02::"], [12, "diagnosis%1:04:00::"], [14, "treatment%1:04:00::"], [15, "be%2:42:03::"], [16, "so%4:02:02::"], [17, "vital%3:00:00:indispensable:00"], [20, "waste_of_time%1:04:00::"], [23, "patient%1:18:00::"], [25, "person%1:03:00::"], [27, "cure-all%1:06:00::"], [28, "gadget%1:06:00::"], [30, "prove%2:42:00::"], [31, "fatal%3:00:00::"]]
 15/r:
     lemmas: ["moreover", ",", "the", "diabetic", "patient", "who", "rely_on", "cure", "by", "the", "quack", "device", "and", "therefore", "cut_off", "his", "insulin", "intake", "can", "be", "commit", "suicide", "."]
-    oewn2026_key: [[0, "oewn-00029763-r"], [3, "oewn-10030631-n"], [4, "oewn-10425439-n"], [7, "oewn-04081594-n"], [10, "oewn-01917970-s"], [11, "oewn-03187746-n"], [13, "oewn-00043413-r"], [14, "oewn-00293269-v"], [16, "oewn-05417989-n"], [17, "oewn-00839759-n"], [20, "oewn-02588700-v"], [21, "oewn-00223352-n"]]
+    oewn_key: [[0, "oewn-00029763-r"], [3, "oewn-10030631-n"], [4, "oewn-10425439-n"], [7, "oewn-04081594-n"], [10, "oewn-01917970-s"], [11, "oewn-03187746-n"], [13, "oewn-00043413-r"], [14, "oewn-00293269-v"], [16, "oewn-05417989-n"], [17, "oewn-00839759-n"], [20, "oewn-02588700-v"], [21, "oewn-00223352-n"]]
     paragraph: '22'
     pos: ["RB", ",", "DT", "NN", "NN", "WP", "VB", "NN", "IN", "DT", "JJ", "NN", "CC", "RB", "VBP", "PRP$", "NN", "NN", "MD", "VB", "VBG", "NN", "."]
     text: ' Moreover, the diabetic patient who relies_on cure by the quack device and therefore
@@ -814,7 +814,7 @@ w28T:
     wn30_key: [[0, "moreover%4:02:00::"], [3, "diabetic%1:18:00::"], [4, "patient%1:18:00::"], [7, "cure%1:06:00::"], [10, "quack%3:00:00:unqualified:01"], [11, "device%1:06:00::"], [13, "therefore%4:02:00::"], [14, "cut_off%2:30:00::"], [16, "insulin%1:08:00::"], [17, "intake%1:04:00::"], [20, "commit%2:41:00::"], [21, "suicide%1:04:00::"]]
 4va4:
     lemmas: ["for_instance", ":"]
-    oewn2026_key: [[0, "oewn-00160239-r"]]
+    oewn_key: [[0, "oewn-00160239-r"]]
     paragraph: '22'
     pos: ["RB", ":"]
     text: ' For_instance:
@@ -825,7 +825,7 @@ w28T:
     wn30_key: [[0, "for_instance%4:02:00::"]]
 +Kjq:
     lemmas: ["In", "location", ",", "some", "time", "ago", ",", "person", ",", "age", "27", ",", "a", "diabetic", "since", "he", "be", "six", ",", "stop", "use", "insulin", "because", "he", "have", "buy", "a", "\"", "magic", "spike", "\"", "-", "a", "glass", "tube", "about", "the", "size", "of", "a", "pencil", "fill", "with", "barium", "chloride", "worth", "a", "small", "fraction", "of", "a", "cent", "-", "sell", "by", "the", "group", "of", "location", "for", "$", "306", "as", "a", "cure-all", "."]
-    oewn2026_key: [[1, "oewn-00027365-n"], [3, "oewn-01556991-s"], [4, "oewn-15295388-n"], [5, "oewn-00074361-r"], [7, "oewn-00007846-n"], [9, "oewn-04931280-n"], [10, "oewn-02196647-s"], [13, "oewn-10030631-n"], [16, "oewn-02610777-v"], [17, "oewn-02194472-s"], [19, "oewn-02686624-v"], [20, "oewn-01167359-v"], [21, "oewn-05417989-n"], [25, "oewn-02211988-v"], [28, "oewn-01580464-s"], [29, "oewn-04282780-n"], [33, "oewn-14905454-n"], [34, "oewn-04500800-n"], [37, "oewn-05106204-n"], [40, "oewn-03914323-n"], [41, "oewn-01206513-v"], [43, "oewn-14654176-n"], [44, "oewn-15042171-n"], [45, "oewn-13786482-n"], [47, "oewn-01394303-a"], [48, "oewn-13754218-n"], [51, "oewn-13686626-n"], [53, "oewn-02247246-v"], [56, "oewn-00031563-n"], [58, "oewn-00027365-n"], [64, "oewn-03886467-n"]]
+    oewn_key: [[1, "oewn-00027365-n"], [3, "oewn-01556991-s"], [4, "oewn-15295388-n"], [5, "oewn-00074361-r"], [7, "oewn-00007846-n"], [9, "oewn-04931280-n"], [10, "oewn-02196647-s"], [13, "oewn-10030631-n"], [16, "oewn-02610777-v"], [17, "oewn-02194472-s"], [19, "oewn-02686624-v"], [20, "oewn-01167359-v"], [21, "oewn-05417989-n"], [25, "oewn-02211988-v"], [28, "oewn-01580464-s"], [29, "oewn-04282780-n"], [33, "oewn-14905454-n"], [34, "oewn-04500800-n"], [37, "oewn-05106204-n"], [40, "oewn-03914323-n"], [41, "oewn-01206513-v"], [43, "oewn-14654176-n"], [44, "oewn-15042171-n"], [45, "oewn-13786482-n"], [47, "oewn-01394303-a"], [48, "oewn-13754218-n"], [51, "oewn-13686626-n"], [53, "oewn-02247246-v"], [56, "oewn-00031563-n"], [58, "oewn-00027365-n"], [64, "oewn-03886467-n"]]
     paragraph: '23'
     pos: ["IN", "NNP", ",", "JJ", "NN", "RB", ",", "NN", ",", "NN", "JJ", ",", "DT", "NN", "IN", "PRP", "VBD", "JJ", ",", "VBD", "VBG", "NN", "IN", "PRP", "VBD", "VBN", "DT", "``", "JJ", "NN", "''", ":", "DT", "NN", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "VBN", "IN", "NN", "NN", "NN", "DT", "JJ", "NN", "IN", "DT", "NN", ":", "VBN", "IN", "DT", "NN", "IN", "NNP", "IN", "$", "CD", "IN", "DT", "NN", "."]
     text: ' In Chicago, some time ago, Mr._H., age 27, a diabetic since he was six, stopped
@@ -837,7 +837,7 @@ w28T:
     wn30_key: [[1, "location%1:03:00::"], [3, "some%3:00:00:many:00"], [4, "time%1:28:05::"], [5, "ago%4:02:00::"], [7, "person%1:03:00::"], [9, "age%1:07:00::"], [10, "27%3:00:00:cardinal:00"], [13, "diabetic%1:18:00::"], [16, "be%2:42:03::"], [17, "six%3:00:00:cardinal:00"], [19, "stop%2:42:00::"], [20, "use%2:34:02::"], [21, "insulin%1:08:00::"], [25, "buy%2:40:00::"], [28, "magic%3:00:00:supernatural:00"], [29, "spike%1:06:00::"], [33, "glass%1:27:00::"], [34, "tube%1:06:00::"], [37, "size%1:07:00::"], [40, "pencil%1:06:00::"], [41, "fill%2:34:01::"], [43, "barium%1:27:00::"], [44, "chloride%1:27:00::"], [45, "worth%1:23:00::"], [47, "small%3:00:00::"], [48, "fraction%1:23:00::"], [51, "cent%1:23:00::"], [53, "sell%2:40:00::"], [56, "group%1:03:00::"], [58, "location%1:03:00::"], [64, "cure-all%1:06:00::"]]
 tyTJ:
     lemmas: ["\"", "hang", "this", "around", "your", "neck", "or", "attach", "it", "to", "other", "part", "of", "your", "anatomy", ",", "and", "its", "ray", "will", "cure", "any", "disease", "you", "have", "\"", ",", "say", "the", "company", "."]
-    oewn2026_key: [[1, "oewn-01545450-v"], [5, "oewn-05554173-n"], [7, "oewn-01299048-v"], [10, "oewn-02076759-a"], [11, "oewn-05263841-n"], [14, "oewn-05224424-n"], [18, "oewn-11448137-n"], [20, "oewn-00081478-v"], [22, "oewn-14093842-n"], [24, "oewn-00065410-v"], [27, "oewn-01018011-v"], [29, "oewn-08074934-n"]]
+    oewn_key: [[1, "oewn-01545450-v"], [5, "oewn-05554173-n"], [7, "oewn-01299048-v"], [10, "oewn-02076759-a"], [11, "oewn-05263841-n"], [14, "oewn-05224424-n"], [18, "oewn-11448137-n"], [20, "oewn-00081478-v"], [22, "oewn-14093842-n"], [24, "oewn-00065410-v"], [27, "oewn-01018011-v"], [29, "oewn-08074934-n"]]
     paragraph: '23'
     pos: ["``", "VB", "DT", "IN", "PRP$", "NN", "CC", "VB", "PRP", "TO", "JJ", "NNS", "IN", "PRP$", "NN", ",", "CC", "PRP$", "NNS", "MD", "VB", "DT", "NN", "PRP", "VBP", "``", ",", "VBD", "DT", "NN", "."]
     text: ' " Hang this around your neck or attach it to other parts of your anatomy, and its
@@ -847,7 +847,7 @@ tyTJ:
     wn30_key: [[1, "hang%2:35:02::"], [5, "neck%1:08:00::"], [7, "attach%2:35:01::"], [10, "other%3:00:00::"], [11, "part%1:08:01::"], [14, "anatomy%1:08:00::"], [18, "ray%1:19:00::"], [20, "cure%2:29:00::"], [22, "disease%1:26:00::"], [24, "have%2:29:05::"], [27, "say%2:32:01::"], [29, "company%1:14:01::"]]
 ee1n:
     lemmas: ["person", "be", "dead", "today", "because", "he", "follow", "this", "advice", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-02610777-v"], [2, "oewn-00096133-a"], [3, "oewn-15287732-n"], [6, "oewn-02351891-v"], [8, "oewn-06684229-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-02610777-v"], [2, "oewn-00096133-a"], [3, "oewn-15287732-n"], [6, "oewn-02351891-v"], [8, "oewn-06684229-n"]]
     paragraph: '23'
     pos: ["NN", "VBZ", "JJ", "NN", "IN", "PRP", "VBD", "DT", "NN", "."]
     text: ' Mr._H. is dead today because he followed this advice.
@@ -858,7 +858,7 @@ ee1n:
     wn30_key: [[0, "person%1:03:00::"], [1, "be%2:42:03::"], [2, "dead%3:00:01::"], [3, "today%1:28:00::"], [6, "follow%2:40:00::"], [8, "advice%1:10:00::"]]
 whp7:
     lemmas: ["person", ",", "suffer", "from", "tuberculosis", ",", "be", "take", "by", "her", "husband", "to", "see", "person", ",", "a", "sanipractor", "-", "a", "licensed", "drugless", "healer", "-", "in", "location", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-00065410-v"], [4, "oewn-14166897-n"], [7, "oewn-02003830-v"], [10, "oewn-10213586-n"], [12, "oewn-02493953-v"], [13, "oewn-00007846-n"], [19, "oewn-00180111-s"], [20, "oewn-01169858-s"], [21, "oewn-10726882-n"], [24, "oewn-00027365-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [2, "oewn-00065410-v"], [4, "oewn-14166897-n"], [7, "oewn-02003830-v"], [10, "oewn-10213586-n"], [12, "oewn-02493953-v"], [13, "oewn-00007846-n"], [19, "oewn-00180111-s"], [20, "oewn-01169858-s"], [21, "oewn-10726882-n"], [24, "oewn-00027365-n"]]
     paragraph: '24'
     pos: ["NN", ",", "VBG", "VB", "NN", ",", "VBD", "VBN", "IN", "PRP$", "NN", "TO", "VB", "NN", ",", "DT", "NN", ":", "DT", "JJ", "JJ", "NN", ":", "IN", "NNP", "."]
     text: ' Doris_Hull, suffering from tuberculosis, was taken by her husband to see Otis_G._Carroll,
@@ -868,7 +868,7 @@ whp7:
     wn30_key: [[0, "person%1:03:00::"], [2, "suffer%2:29:01::"], [4, "tuberculosis%1:26:00::"], [7, "take%2:38:09::"], [10, "husband%1:18:00::"], [12, "see%2:41:11::"], [13, "person%1:03:00::"], [19, "licensed%3:00:00:authorized:00"], [20, "drugless%3:00:00:healthful:00"], [21, "healer%1:18:00::"], [24, "location%1:03:00::"]]
 UodO:
     lemmas: ["person", "diagnose", "person", "by", "take", "a", "drop", "of", "blood", "from", "her", "ear", "and", "put", "it", "on", "his", "\"", "radionic", "\"", "machine", "and", "twirl", "some", "knob", "(", "fee", "$", "50", ")", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-00647205-v"], [2, "oewn-00007846-n"], [4, "oewn-02210054-v"], [6, "oewn-13793544-n"], [8, "oewn-05407190-n"], [11, "oewn-05331437-n"], [13, "oewn-01496967-v"], [20, "oewn-03705309-n"], [22, "oewn-02052840-v"], [24, "oewn-03631305-n"], [26, "oewn-13341190-n"], [28, "oewn-02198871-s"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-00647205-v"], [2, "oewn-00007846-n"], [4, "oewn-02210054-v"], [6, "oewn-13793544-n"], [8, "oewn-05407190-n"], [11, "oewn-05331437-n"], [13, "oewn-01496967-v"], [20, "oewn-03705309-n"], [22, "oewn-02052840-v"], [24, "oewn-03631305-n"], [26, "oewn-13341190-n"], [28, "oewn-02198871-s"]]
     paragraph: '24'
     pos: ["NNP", "VBD", "NN", "IN", "VBG", "DT", "NN", "IN", "NN", "IN", "PRP$", "NN", "CC", "VBG", "PRP", "IN", "PRP$", "``", "JJ", "''", "NN", "CC", "VBG", "DT", "NNS", "CD", "NN", "$", "JJ", "CD", "."]
     text: ' Carroll diagnosed Mrs._Hull by taking a drop of blood from her ear and putting it
@@ -880,7 +880,7 @@ UodO:
     wn30_key: [[0, "person%1:03:00::"], [1, "diagnose%2:31:00::"], [2, "person%1:03:00::"], [4, "take%2:40:00::"], [6, "drop%1:23:00::"], [8, "blood%1:08:00::"], [11, "ear%1:08:01::"], [13, "put%2:35:00::"], [20, "machine%1:06:00::"], [22, "twirl%2:38:00::"], [24, "knob%1:06:00::"], [26, "fee%1:21:00::"], [28, "50%3:00:00:cardinal:00"]]
 bf2q:
     lemmas: ["His", "prescription", ":", "hot", "and", "cold", "compress", "to", "increase", "her", "absorption", "of", "water", "."]
-    oewn2026_key: [[1, "oewn-06801422-n"], [3, "oewn-01250274-a"], [5, "oewn-01254201-a"], [6, "oewn-03086454-n"], [8, "oewn-00156409-v"], [10, "oewn-13445095-n"], [12, "oewn-14869913-n"]]
+    oewn_key: [[1, "oewn-06801422-n"], [3, "oewn-01250274-a"], [5, "oewn-01254201-a"], [6, "oewn-03086454-n"], [8, "oewn-00156409-v"], [10, "oewn-13445095-n"], [12, "oewn-14869913-n"]]
     paragraph: '25'
     pos: ["PRP$", "NN", ":", "JJ", "CC", "JJ", "NNS", "TO", "VB", "PRP$", "NN", "IN", "NN", "."]
     text: ' His prescription: hot and cold compresses to increase her absorption of water.'
@@ -889,7 +889,7 @@ bf2q:
     wn30_key: [[1, "prescription%1:10:00::"], [3, "hot%3:00:01::"], [5, "cold%3:00:01::"], [6, "compress%1:06:00::"], [8, "increase%2:30:00::"], [10, "absorption%1:22:00::"], [12, "water%1:27:00::"]]
 J2i8:
     lemmas: ["Although", "she", "weigh", "only", "108", "pound", "when", "she", "visit", "him", ",", "person", "permit", "her", "to", "go", "on", "a", "10", "-", "day", "fast", "in", "which", "she", "take", "nothing", "but", "water", "."]
-    oewn2026_key: [[2, "oewn-02710678-v"], [3, "oewn-00005103-r"], [5, "oewn-13742201-n"], [8, "oewn-02498679-v"], [11, "oewn-00007846-n"], [12, "oewn-00803980-v"], [18, "oewn-02194935-s"], [20, "oewn-15180180-n"], [21, "oewn-01071904-n"], [25, "oewn-01159300-v"], [26, "oewn-13762308-n"], [28, "oewn-14869913-n"]]
+    oewn_key: [[2, "oewn-02710678-v"], [3, "oewn-00005103-r"], [5, "oewn-13742201-n"], [8, "oewn-02498679-v"], [11, "oewn-00007846-n"], [12, "oewn-00803980-v"], [18, "oewn-02194935-s"], [20, "oewn-15180180-n"], [21, "oewn-01071904-n"], [25, "oewn-01159300-v"], [26, "oewn-13762308-n"], [28, "oewn-14869913-n"]]
     paragraph: '25'
     pos: ["IN", "PRP", "VBD", "RB", "CD", "NNS", "WRB", "PRP", "VBD", "PRP", ",", "NNP", "VBD", "PRP", "TO", "VB", "VB", "DT", "JJ", ":", "NN", "NN", "RB", "RB", "PRP", "VBD", "NN", "CC", "NN", "."]
     text: ' Although she weighed only 108 pounds when she visited him, Carroll permitted her
@@ -899,7 +899,7 @@ J2i8:
     wn30_key: [[2, "weigh%2:42:01::"], [3, "only%4:02:02::"], [5, "pound%1:23:09::"], [8, "visit%2:41:02::"], [11, "person%1:03:00::"], [12, "permit%2:32:00::"], [18, "10%3:00:00:cardinal:00"], [20, "day%1:28:00::"], [21, "fast%1:04:00::"], [25, "take%2:34:00::"], [26, "nothing%1:23:00::"], [28, "water%1:27:00::"]]
 cC2J:
     lemmas: ["inevitably", ",", "person", "die", "of", "starvation", "and", "tuberculosis", ",", "weigh", "60", "pound", "."]
-    oewn2026_key: [[0, "oewn-00113314-r"], [2, "oewn-00007846-n"], [3, "oewn-00359085-v"], [5, "oewn-14063792-n"], [7, "oewn-14166897-n"], [9, "oewn-02710678-v"], [10, "oewn-02199823-s"], [11, "oewn-13742201-n"]]
+    oewn_key: [[0, "oewn-00113314-r"], [2, "oewn-00007846-n"], [3, "oewn-00359085-v"], [5, "oewn-14063792-n"], [7, "oewn-14166897-n"], [9, "oewn-02710678-v"], [10, "oewn-02199823-s"], [11, "oewn-13742201-n"]]
     paragraph: '25'
     pos: ["RB", ",", "NN", "VBD", "IN", "NN", "CC", "NN", ",", "VBG", "JJ", "NNS", "."]
     text: ' Inevitably, Mrs._Hull died of starvation and tuberculosis, weighing 60 pounds.'
@@ -908,7 +908,7 @@ cC2J:
     wn30_key: [[0, "inevitably%4:02:00::"], [2, "person%1:03:00::"], [3, "die%2:30:00::"], [5, "starvation%1:26:00::"], [7, "tuberculosis%1:26:00::"], [9, "weigh%2:42:01::"], [10, "60%3:00:00:cardinal:00"], [11, "pound%1:23:09::"]]
 KU2d:
     lemmas: ["moreover", ",", "her", "husband", "and", "child", "contract", "t.b.", "from", "her", "."]
-    oewn2026_key: [[0, "oewn-00029763-r"], [3, "oewn-10213586-n"], [5, "oewn-09937706-n"], [6, "oewn-00087488-v"], [7, "oewn-14166897-n"]]
+    oewn_key: [[0, "oewn-00029763-r"], [3, "oewn-10213586-n"], [5, "oewn-09937706-n"], [6, "oewn-00087488-v"], [7, "oewn-14166897-n"]]
     paragraph: '25'
     pos: ["RB", ",", "PRP$", "NN", "CC", "NN", "VBD", "NNP", "IN", "PRP$", "."]
     text: ' Moreover, her husband and child contracted T.B. from her.'
@@ -917,7 +917,7 @@ KU2d:
     wn30_key: [[0, "moreover%4:02:00::"], [3, "husband%1:18:00::"], [5, "child%1:18:01::"], [6, "contract%2:29:00::"], [7, "t.b.%1:26:00::"]]
 eWXn:
     lemmas: ["(", "small", "wonder", "a", "location", "jury", "award", "the", "husband", "$", "35823", "for", "his", "wife", "'s", "death", ".", ")"]
-    oewn2026_key: [[1, "oewn-01470449-s"], [2, "oewn-07304311-n"], [4, "oewn-00027365-n"], [5, "oewn-08431764-n"], [6, "oewn-02267085-v"], [8, "oewn-10213586-n"], [13, "oewn-10800308-n"], [15, "oewn-07370091-n"]]
+    oewn_key: [[1, "oewn-01470449-s"], [2, "oewn-07304311-n"], [4, "oewn-00027365-n"], [5, "oewn-08431764-n"], [6, "oewn-02267085-v"], [8, "oewn-10213586-n"], [13, "oewn-10800308-n"], [15, "oewn-07370091-n"]]
     paragraph: '25'
     pos: ["JJ", "JJ", "NN", "DT", "NNP", "NN", "VBD", "DT", "NN", "$", "CD", "IN", "PRP$", "NN", "POS", "NN", ".", "NN"]
     text: ' (Small wonder a Spokane jury awarded the husband $35823 for his wife''s death.)
@@ -928,7 +928,7 @@ eWXn:
     wn30_key: [[1, "small%3:00:00:lowercase:00"], [2, "wonder%1:11:00::"], [4, "location%1:03:00::"], [5, "jury%1:14:01::"], [6, "award%2:40:01::"], [8, "husband%1:18:00::"], [13, "wife%1:18:00::"], [15, "death%1:11:00::"]]
 4qi9:
     lemmas: ["In", "location", ",", "a_few", "year", "ago", ",", "a", "ghoul", "by", "the", "name", "of", "person", "sell", "electric", "blanket", "as", "a", "cure", "for", "cancer", "."]
-    oewn2026_key: [[1, "oewn-00027365-n"], [3, "oewn-01557697-s"], [4, "oewn-15228587-n"], [5, "oewn-00074361-r"], [8, "oewn-10164091-n"], [11, "oewn-06344646-n"], [13, "oewn-00007846-n"], [14, "oewn-02247246-v"], [15, "oewn-02837762-a"], [16, "oewn-02852392-n"], [19, "oewn-04081594-n"], [21, "oewn-14263400-n"]]
+    oewn_key: [[1, "oewn-00027365-n"], [3, "oewn-01557697-s"], [4, "oewn-15228587-n"], [5, "oewn-00074361-r"], [8, "oewn-10164091-n"], [11, "oewn-06344646-n"], [13, "oewn-00007846-n"], [14, "oewn-02247246-v"], [15, "oewn-02837762-a"], [16, "oewn-02852392-n"], [19, "oewn-04081594-n"], [21, "oewn-14263400-n"]]
     paragraph: '26'
     pos: ["IN", "NNP", ",", "JJ", "NNS", "RB", ",", "DT", "NN", "IN", "DT", "NN", "IN", "NN", "VBD", "JJ", "NNS", "IN", "DT", "NN", "IN", "NN", "."]
     text: ' In California, a_few years ago, a ghoul by the name of H._F._Bell sold electric
@@ -938,7 +938,7 @@ eWXn:
     wn30_key: [[1, "location%1:03:00::"], [3, "a_few%3:00:00:few:00"], [4, "year%1:28:01::"], [5, "ago%4:02:00::"], [8, "ghoul%1:18:01::"], [11, "name%1:10:00::"], [13, "person%1:03:00::"], [14, "sell%2:40:00::"], [15, "electric%3:01:00::"], [16, "blanket%1:06:00::"], [19, "cure%1:06:00::"], [21, "cancer%1:26:00::"]]
 8pcp:
     lemmas: ["He", "do", "this", "by", "the", "charming", "practice", "of", "buy_up", "used", "electric", "blanket", "for", "$", "5", "to", "$", "10", "from", "survivor", "of", "patient", "who", "have", "die", ",", "recondition", "them", ",", "and", "sell", "them", "at", "$", "185", "each", "."]
-    oewn2026_key: [[1, "oewn-02566500-v"], [5, "oewn-01813064-s"], [6, "oewn-00632621-n"], [8, "oewn-02279144-v"], [9, "oewn-01644709-s"], [10, "oewn-02837762-a"], [11, "oewn-02852392-n"], [14, "oewn-02194389-s"], [17, "oewn-02194935-s"], [19, "oewn-10700507-n"], [21, "oewn-10425439-n"], [24, "oewn-00359085-v"], [26, "oewn-00207996-v"], [30, "oewn-02247246-v"]]
+    oewn_key: [[1, "oewn-02566500-v"], [5, "oewn-01813064-s"], [6, "oewn-00632621-n"], [8, "oewn-02279144-v"], [9, "oewn-01644709-s"], [10, "oewn-02837762-a"], [11, "oewn-02852392-n"], [14, "oewn-02194389-s"], [17, "oewn-02194935-s"], [19, "oewn-10700507-n"], [21, "oewn-10425439-n"], [24, "oewn-00359085-v"], [26, "oewn-00207996-v"], [30, "oewn-02247246-v"]]
     paragraph: '26'
     pos: ["PRP", "VBD", "DT", "IN", "DT", "JJ", "NN", "IN", "VB", "JJ", "JJ", "NNS", "IN", "$", "JJ", "TO", "$", "JJ", "IN", "NNS", "IN", "NNS", "WP", "VBD", "VBN", ",", "VBG", "PRP", ",", "CC", "VBG", "PRP", "IN", "$", "CD", "DT", "."]
     text: ' He did this by the charming practice of buying_up used electric blankets for $5
@@ -949,7 +949,7 @@ eWXn:
     wn30_key: [[1, "do%2:41:01::"], [5, "charming%3:00:00:pleasing:00"], [6, "practice%1:04:03::"], [8, "buy_up%2:40:00::"], [9, "used%3:00:00:old:01"], [10, "electric%3:01:00::"], [11, "blanket%1:06:00::"], [14, "5%3:00:00:cardinal:00"], [17, "10%3:00:00:cardinal:00"], [19, "survivor%1:18:02::"], [21, "patient%1:18:00::"], [24, "die%2:30:00::"], [26, "recondition%2:30:00::"], [30, "sell%2:40:00::"]]
 Qixz:
     lemmas: ["When", "authorities", "convict", "him", "of", "practice", "medicine", "without", "a", "license", "(", "he", "get_off", "with", "a", "suspended", "sentence", "of", "three", "year", "because", "of", "his", "advanced", "age", "of", "77", ")", ",", "one", "of", "his", "victim", "be", "not", "around", "to", "testify", ":", "He", "be", "dead", "of", "cancer", "."]
-    oewn2026_key: [[1, "oewn-08067430-n"], [2, "oewn-00908320-v"], [5, "oewn-02574587-v"], [6, "oewn-00613447-n"], [9, "oewn-06561652-n"], [12, "oewn-00907012-v"], [16, "oewn-15249488-n"], [18, "oewn-02194219-s"], [19, "oewn-15228587-n"], [23, "oewn-00820408-s"], [24, "oewn-04931280-n"], [29, "oewn-13764713-n"], [32, "oewn-10772148-n"], [33, "oewn-02610777-v"], [34, "oewn-00024432-r"], [35, "oewn-00071565-r"], [37, "oewn-01016830-v"], [40, "oewn-02610777-v"], [41, "oewn-00096133-a"], [43, "oewn-14263400-n"]]
+    oewn_key: [[1, "oewn-08067430-n"], [2, "oewn-00908320-v"], [5, "oewn-02574587-v"], [6, "oewn-00613447-n"], [9, "oewn-06561652-n"], [12, "oewn-00907012-v"], [16, "oewn-15249488-n"], [18, "oewn-02194219-s"], [19, "oewn-15228587-n"], [23, "oewn-00820408-s"], [24, "oewn-04931280-n"], [29, "oewn-13764713-n"], [32, "oewn-10772148-n"], [33, "oewn-02610777-v"], [34, "oewn-00024432-r"], [35, "oewn-00071565-r"], [37, "oewn-01016830-v"], [40, "oewn-02610777-v"], [41, "oewn-00096133-a"], [43, "oewn-14263400-n"]]
     paragraph: '26'
     pos: ["WRB", "NNS", "VBD", "PRP", "IN", "VBG", "NN", "IN", "DT", "NN", "NN", "PRP", "VBZ", "IN", "DT", "JJ", "NN", "IN", "JJ", "NNS", "IN", "IN", "PRP$", "JJ", "NN", "IN", "CD", "CD", ",", "NN", "IN", "PRP$", "NNS", "VBD", "RB", "RB", "TO", "VB", ":", "PRP", "VBD", "JJ", "IN", "NN", "."]
     text: ' When authorities convicted him of practicing medicine without a license (he got_off
@@ -962,7 +962,7 @@ Qixz:
     wn30_key: [[1, "authorities%1:14:00::"], [2, "convict%2:32:00::"], [5, "practice%2:41:00::"], [6, "medicine%1:04:00::"], [9, "license%1:10:00::"], [12, "get_off%2:32:01::"], [16, "sentence%1:28:00::"], [18, "three%3:00:00:cardinal:00"], [19, "year%1:28:01::"], [23, "advanced%3:00:00:late:00"], [24, "age%1:07:00::"], [29, "one%1:23:00::"], [32, "victim%1:18:01::"], [33, "be%2:42:04::"], [34, "not%4:02:00::"], [35, "around%4:02:01::"], [37, "testify%2:32:01::"], [40, "be%2:42:03::"], [41, "dead%3:00:01::"], [43, "cancer%1:26:00::"]]
 tAZ+:
     lemmas: ["by_no_means", "be", "these", "isolated", "case", "."]
-    oewn2026_key: [[0, "oewn-00057580-r"], [1, "oewn-02610777-v"], [3, "oewn-00596949-s"], [4, "oewn-07323507-n"]]
+    oewn_key: [[0, "oewn-00057580-r"], [1, "oewn-02610777-v"], [3, "oewn-00596949-s"], [4, "oewn-07323507-n"]]
     paragraph: '27'
     pos: ["RB", "VBP", "DT", "JJ", "NNS", "."]
     text: ' By_no_means are these isolated cases.'
@@ -971,7 +971,7 @@ tAZ+:
     wn30_key: [[0, "by_no_means%4:02:00::"], [1, "be%2:42:03::"], [3, "isolated%3:00:00:sporadic:00"], [4, "case%1:11:00::"]]
 kBt9:
     lemmas: ["\"", "unfortunately", "\"", ",", "say", "person", ",", "who", "have", "prosecute", "many", "device", "quack", ",", "\"", "the", "ghoul", "who", "trade", "on", "the", "hope", "of", "the", "desperately", "ill", "often", "cannot", "be", "successfully", "prosecute", "because", "the", "patient", "who", "be", "the", "chief", "witness", "die", "before", "the", "case", "be", "call_up", "in", "court", "\"", "."]
-    oewn2026_key: [[1, "oewn-00043179-r"], [4, "oewn-01011267-v"], [5, "oewn-00007846-n"], [9, "oewn-02587562-v"], [10, "oewn-01555990-a"], [11, "oewn-03187746-n"], [12, "oewn-10516787-n"], [16, "oewn-10164091-n"], [18, "oewn-02265169-v"], [21, "oewn-07556441-n"], [24, "oewn-00073249-r"], [25, "oewn-02552072-a"], [26, "oewn-00035445-r"], [29, "oewn-00120824-r"], [30, "oewn-02587985-v"], [33, "oewn-10425439-n"], [35, "oewn-02622439-v"], [37, "oewn-01280536-s"], [38, "oewn-10652848-n"], [39, "oewn-00359085-v"], [42, "oewn-01185144-n"], [44, "oewn-01027464-v"], [46, "oewn-08346380-n"]]
+    oewn_key: [[1, "oewn-00043179-r"], [4, "oewn-01011267-v"], [5, "oewn-00007846-n"], [9, "oewn-02587562-v"], [10, "oewn-01555990-a"], [11, "oewn-03187746-n"], [12, "oewn-10516787-n"], [16, "oewn-10164091-n"], [18, "oewn-02265169-v"], [21, "oewn-07556441-n"], [24, "oewn-00073249-r"], [25, "oewn-02552072-a"], [26, "oewn-00035445-r"], [29, "oewn-00120824-r"], [30, "oewn-02587985-v"], [33, "oewn-10425439-n"], [35, "oewn-02622439-v"], [37, "oewn-01280536-s"], [38, "oewn-10652848-n"], [39, "oewn-00359085-v"], [42, "oewn-01185144-n"], [44, "oewn-01027464-v"], [46, "oewn-08346380-n"]]
     paragraph: '27'
     pos: ["``", "RB", "''", ",", "VBZ", "NNS", ",", "WP", "VBZ", "VBN", "JJ", "NN", "NNS", ",", "''", "DT", "NNS", "WP", "VBP", "IN", "DT", "NNS", "IN", "DT", "RB", "JJ", "RB", "MD", "VB", "RB", "VBN", "IN", "DT", "NNS", "WP", "VBP", "DT", "JJ", "NNS", "VBP", "VB", "DT", "NN", "VB", "VB", "IN", "NN", "''", "."]
     text: ' " Unfortunately ", says Chief_Postal_Inspector_David_H._Stephens, who has prosecuted
@@ -985,7 +985,7 @@ kBt9:
     wn30_key: [[1, "unfortunately%4:02:00::"], [4, "say%2:32:00::"], [5, "person%1:03:00::"], [9, "prosecute%2:41:00::"], [10, "many%3:00:00::"], [11, "device%1:06:00::"], [12, "quack%1:18:00::"], [16, "ghoul%1:18:01::"], [18, "trade%2:40:01::"], [21, "hope%1:12:00::"], [24, "desperately%4:02:00::"], [25, "ill%3:00:01::"], [26, "often%4:02:00::"], [29, "successfully%4:02:00::"], [30, "prosecute%2:41:01::"], [33, "patient%1:18:00::"], [35, "be%2:42:06::"], [37, "chief%3:00:02:important:00"], [38, "witness%1:18:01::"], [39, "die%2:30:00::"], [42, "case%1:04:00::"], [44, "call_up%2:32:03::"], [46, "court%1:14:00::"]]
 vxT/:
     lemmas: ["death", "!"]
-    oewn2026_key: [[0, "oewn-15168437-n"]]
+    oewn_key: [[0, "oewn-15168437-n"]]
     paragraph: '28'
     pos: ["NN", "."]
     text: ' Death!'
@@ -994,7 +994,7 @@ vxT/:
     wn30_key: [[0, "death%1:28:00::"]]
 vvny:
     lemmas: ["have", "no_doubt", "about", "it", "."]
-    oewn2026_key: [[0, "oewn-02636270-v"], [1, "oewn-00151192-r"]]
+    oewn_key: [[0, "oewn-02636270-v"], [1, "oewn-00151192-r"]]
     paragraph: '28'
     pos: ["VB", "RB", "IN", "PRP", "."]
     text: ' Have no_doubt about it.'
@@ -1003,7 +1003,7 @@ vvny:
     wn30_key: [[0, "have%2:42:00::"], [1, "no_doubt%4:02:00::"]]
 UkW4:
     lemmas: ["That", "'s", "where", "device", "quackery", "can", "lead", "."]
-    oewn2026_key: [[3, "oewn-03187746-n"], [4, "oewn-00634351-n"], [6, "oewn-02003830-v"]]
+    oewn_key: [[3, "oewn-03187746-n"], [4, "oewn-00634351-n"], [6, "oewn-02003830-v"]]
     paragraph: '28'
     pos: ["DT", "VBZ", "WRB", "NN", "NN", "MD", "VB", "."]
     text: ' That''s where device quackery can lead.'
@@ -1012,7 +1012,7 @@ UkW4:
     wn30_key: [[3, "device%1:06:00::"], [4, "quackery%1:04:00::"], [6, "lead%2:38:01::"]]
 DKgS:
     lemmas: ["The", "evidence", "show", "that", "fake", "therapeutic", "machine", ",", "substitute", "for", "valid", "medical", "cure", ",", "have", "hasten", "the", "death", "of", "thousand", "."]
-    oewn2026_key: [[1, "oewn-05832256-n"], [2, "oewn-01017253-v"], [4, "oewn-01121219-s"], [5, "oewn-02925526-a"], [6, "oewn-03705309-n"], [8, "oewn-02263424-v"], [10, "oewn-02508521-a"], [11, "oewn-02770888-a"], [12, "oewn-00081478-v"], [15, "oewn-01648064-v"], [17, "oewn-15168437-n"], [19, "oewn-13772984-n"]]
+    oewn_key: [[1, "oewn-05832256-n"], [2, "oewn-01017253-v"], [4, "oewn-01121219-s"], [5, "oewn-02925526-a"], [6, "oewn-03705309-n"], [8, "oewn-02263424-v"], [10, "oewn-02508521-a"], [11, "oewn-02770888-a"], [12, "oewn-00081478-v"], [15, "oewn-01648064-v"], [17, "oewn-15168437-n"], [19, "oewn-13772984-n"]]
     paragraph: '28'
     pos: ["DT", "NN", "VBZ", "IN", "JJ", "JJ", "NNS", ",", "VBN", "VB", "JJ", "JJ", "VB", ",", "VBP", "VBN", "DT", "NNS", "IN", "NNS", "."]
     text: ' The evidence shows that fake therapeutic machines, substituted for valid medical
@@ -1024,7 +1024,7 @@ DKgS:
     wn30_key: [[1, "evidence%1:09:00::"], [2, "show%2:32:00::"], [4, "fake%3:00:00:counterfeit:00"], [5, "therapeutic%3:01:00::"], [6, "machine%1:06:00::"], [8, "substitute%2:40:01::"], [10, "valid%3:00:00::"], [11, "medical%3:01:00::"], [12, "cure%2:29:00::"], [15, "hasten%2:36:00::"], [17, "death%1:28:00::"], [19, "thousand%1:23:00::"]]
 GQRY:
     lemmas: ["Who", "be", "the", "victim", "of", "the", "device", "quack", "?"]
-    oewn2026_key: [[1, "oewn-02622439-v"], [3, "oewn-10772148-n"], [6, "oewn-03187746-n"], [7, "oewn-10516787-n"]]
+    oewn_key: [[1, "oewn-02622439-v"], [3, "oewn-10772148-n"], [6, "oewn-03187746-n"], [7, "oewn-10516787-n"]]
     paragraph: '29'
     pos: ["WP", "VBP", "DT", "NNS", "IN", "DT", "NN", "NNS", "."]
     text: ' Who are the victims of the device quacks?'
@@ -1033,7 +1033,7 @@ GQRY:
     wn30_key: [[1, "be%2:42:06::"], [3, "victim%1:18:01::"], [6, "device%1:06:00::"], [7, "quack%1:18:00::"]]
 0zMm:
     lemmas: ["authorities", "say", "that", "oldster", "be", "a", "prime", "target", "."]
-    oewn2026_key: [[0, "oewn-08067430-n"], [1, "oewn-01018011-v"], [3, "oewn-10396222-n"], [4, "oewn-02610777-v"], [6, "oewn-01016587-s"], [7, "oewn-10490045-n"]]
+    oewn_key: [[0, "oewn-08067430-n"], [1, "oewn-01018011-v"], [3, "oewn-10396222-n"], [4, "oewn-02610777-v"], [6, "oewn-01016587-s"], [7, "oewn-10490045-n"]]
     paragraph: '29'
     pos: ["NNS", "VBP", "IN", "NNS", "VBP", "DT", "JJ", "NN", "."]
     text: ' Authorities say that oldsters are a prime target.'
@@ -1042,7 +1042,7 @@ GQRY:
     wn30_key: [[0, "authorities%1:14:00::"], [1, "say%2:32:01::"], [3, "oldster%1:18:00::"], [4, "be%2:42:03::"], [6, "prime%3:00:02:first:00"], [7, "target%1:18:00::"]]
 6YFB:
     lemmas: ["say", "person", ",", "director", "of", "the", "group", "'s", "group", ":", "\"", "quack", "be", "apt", "to", "direct", "their", "appeal", "directly", "to", "older", "people", ",", "or", "to", "sufferer", "from", "chronic", "ailment", "such_as", "arthritis", ",", "rheumatism", ",", "diabetes", ",", "and", "cancer", "."]
-    oewn2026_key: [[0, "oewn-01011267-v"], [1, "oewn-00007846-n"], [3, "oewn-10034960-n"], [6, "oewn-00031563-n"], [8, "oewn-00031563-n"], [11, "oewn-10516787-n"], [12, "oewn-02610777-v"], [13, "oewn-01295534-s"], [15, "oewn-01153025-v"], [17, "oewn-04694682-n"], [18, "oewn-00052386-r"], [20, "oewn-01648667-s"], [21, "oewn-07958392-n"], [25, "oewn-10615055-n"], [27, "oewn-00045343-a"], [28, "oewn-14078890-n"], [30, "oewn-14210023-n"], [32, "oewn-14103692-n"], [34, "oewn-14141287-n"], [37, "oewn-14263400-n"]]
+    oewn_key: [[0, "oewn-01011267-v"], [1, "oewn-00007846-n"], [3, "oewn-10034960-n"], [6, "oewn-00031563-n"], [8, "oewn-00031563-n"], [11, "oewn-10516787-n"], [12, "oewn-02610777-v"], [13, "oewn-01295534-s"], [15, "oewn-01153025-v"], [17, "oewn-04694682-n"], [18, "oewn-00052386-r"], [20, "oewn-01648667-s"], [21, "oewn-07958392-n"], [25, "oewn-10615055-n"], [27, "oewn-00045343-a"], [28, "oewn-14078890-n"], [30, "oewn-14210023-n"], [32, "oewn-14103692-n"], [34, "oewn-14141287-n"], [37, "oewn-14263400-n"]]
     paragraph: '29'
     pos: ["VBZ", "NN", ",", "NN", "IN", "DT", "NNP", "POS", "NN", ":", "``", "NNS", "VBP", "JJ", "TO", "VB", "PRP$", "NN", "RB", "TO", "JJR", "NNS", ",", "CC", "TO", "NNS", "IN", "JJ", "NNS", "JJ", "NN", ",", "NN", ",", "NN", ",", "CC", "NN", "."]
     text: ' Says Wallace_F._Jannsen, director of the FDA''s Division_of_Public_Information:
@@ -1053,7 +1053,7 @@ GQRY:
     wn30_key: [[0, "say%2:32:00::"], [1, "person%1:03:00::"], [3, "director%1:18:02::"], [6, "group%1:03:00::"], [8, "group%1:03:00::"], [11, "quack%1:18:00::"], [12, "be%2:42:03::"], [13, "apt%3:00:00:inclined:02"], [15, "direct%2:33:01::"], [17, "appeal%1:07:00::"], [18, "directly%4:02:00::"], [20, "older%3:00:00:old:02"], [21, "people%1:14:00::"], [25, "sufferer%1:18:00::"], [27, "chronic%3:00:00::"], [28, "ailment%1:26:00::"], [30, "arthritis%1:26:00::"], [32, "rheumatism%1:26:00::"], [34, "diabetes%1:26:00::"], [37, "cancer%1:26:00::"]]
 edHS:
     lemmas: ["people", "who", "have", "not", "be", "able", "to", "get", "relief", "from", "regular", "medical", "doctor", "be", "especially", "apt", "to", "be", "take_in", "by", "quack", "\"", "."]
-    oewn2026_key: [[0, "oewn-07958392-n"], [3, "oewn-00024432-r"], [4, "oewn-02610777-v"], [5, "oewn-00307461-s"], [7, "oewn-02215637-v"], [8, "oewn-14469215-n"], [10, "oewn-00491854-s"], [11, "oewn-02770888-a"], [12, "oewn-10040615-n"], [13, "oewn-02610777-v"], [14, "oewn-00084573-r"], [15, "oewn-01295534-s"], [18, "oewn-00856586-v"], [20, "oewn-10516787-n"]]
+    oewn_key: [[0, "oewn-07958392-n"], [3, "oewn-00024432-r"], [4, "oewn-02610777-v"], [5, "oewn-00307461-s"], [7, "oewn-02215637-v"], [8, "oewn-14469215-n"], [10, "oewn-00491854-s"], [11, "oewn-02770888-a"], [12, "oewn-10040615-n"], [13, "oewn-02610777-v"], [14, "oewn-00084573-r"], [15, "oewn-01295534-s"], [18, "oewn-00856586-v"], [20, "oewn-10516787-n"]]
     paragraph: '29'
     pos: ["NNS", "WP", "VBP", "RB", "VBN", "JJ", "VB", "VB", "NN", "IN", "JJ", "JJ", "NNS", "VBP", "RB", "JJ", "TO", "VB", "VB", "IN", "NNS", "''", "."]
     text: ' People who have not been able to get relief from regular medical doctors are especially
@@ -1063,7 +1063,7 @@ edHS:
     wn30_key: [[0, "people%1:14:00::"], [3, "not%4:02:00::"], [4, "be%2:42:03::"], [5, "able%3:00:00:capable:00"], [7, "get%2:40:00::"], [8, "relief%1:26:00::"], [10, "regular%3:00:00:usual:00"], [11, "medical%3:01:00::"], [12, "doctor%1:18:00::"], [13, "be%2:42:03::"], [14, "especially%4:02:00::"], [15, "apt%3:00:00:inclined:02"], [18, "take_in%2:32:00::"], [20, "quack%1:18:00::"]]
 0Cpy:
     lemmas: ["The", "victim", "of", "the", "quack", "be", "frequently", "poor", "people", ",", "like", "person", ",", "who", "scrape_up", "their", "life", "savings", "to", "offer", "as", "a", "sacrifice", "to", "person", "'s", "avarice", "."]
-    oewn2026_key: [[1, "oewn-10772148-n"], [4, "oewn-10516787-n"], [5, "oewn-02622439-v"], [6, "oewn-00035445-r"], [7, "oewn-02030204-a"], [8, "oewn-07958392-n"], [11, "oewn-00007846-n"], [14, "oewn-01387406-v"], [16, "oewn-15165704-n"], [17, "oewn-13380745-n"], [19, "oewn-02302103-v"], [22, "oewn-00206740-n"], [24, "oewn-00007846-n"], [26, "oewn-00759878-n"]]
+    oewn_key: [[1, "oewn-10772148-n"], [4, "oewn-10516787-n"], [5, "oewn-02622439-v"], [6, "oewn-00035445-r"], [7, "oewn-02030204-a"], [8, "oewn-07958392-n"], [11, "oewn-00007846-n"], [14, "oewn-01387406-v"], [16, "oewn-15165704-n"], [17, "oewn-13380745-n"], [19, "oewn-02302103-v"], [22, "oewn-00206740-n"], [24, "oewn-00007846-n"], [26, "oewn-00759878-n"]]
     paragraph: '29'
     pos: ["DT", "NNS", "IN", "DT", "NNS", "VBP", "RB", "JJ", "NNS", ",", "IN", "NNP", ",", "WP", "VBP", "PRP$", "NN", "NNS", "TO", "VB", "IN", "DT", "NN", "TO", "NN", "POS", "NN", "."]
     text: ' The victims of the quacks are frequently poor people, like Mr._A., who scrape_up
@@ -1073,7 +1073,7 @@ edHS:
     wn30_key: [[1, "victim%1:18:01::"], [4, "quack%1:18:00::"], [5, "be%2:42:06::"], [6, "frequently%4:02:00::"], [7, "poor%3:00:00::"], [8, "people%1:14:00::"], [11, "person%1:03:00::"], [14, "scrape_up%2:35:00::"], [16, "life%1:28:01::"], [17, "savings%1:21:00::"], [19, "offer%2:40:00::"], [22, "sacrifice%1:04:01::"], [24, "person%1:03:00::"], [26, "avarice%1:04:00::"]]
 zL6U:
     lemmas: ["They", "be", "often", "ignorant", "as_well_as", "underprivileged", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-00035445-r"], [3, "oewn-00834520-s"], [5, "oewn-01870421-a"]]
+    oewn_key: [[1, "oewn-02610777-v"], [2, "oewn-00035445-r"], [3, "oewn-00834520-s"], [5, "oewn-01870421-a"]]
     paragraph: '29'
     pos: ["PRP", "VBP", "RB", "JJ", "IN", "JJ", "."]
     text: ' They are often ignorant as_well_as underprivileged.

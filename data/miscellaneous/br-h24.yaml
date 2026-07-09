@@ -3,7 +3,7 @@ _meta:
         type: seq
         base: tokens
         data: string
-    oewn2026_key:
+    oewn_key:
         type: element
         base: tokens
         data: string
@@ -28,7 +28,7 @@ _meta:
         data: string
 0e6A:
     lemmas: ["If", "you", "elect", "to", "use", "the", "standard", "deduction", "or", "the", "tax", "table", ",", "and", "later", "find", "you", "should", "have", "itemize", "your", "deduction", ",", "you", "may", "do", "so", "by", "file", "an", "amended_return", "within", "the", "time", "prescribed", "for", "file", "a", "claim", "for", "refund", "."]
-    oewn2026_key: [[2, "oewn-00678783-v"], [4, "oewn-01161188-v"], [6, "oewn-02303673-a"], [7, "oewn-13350069-n"], [10, "oewn-13330021-n"], [11, "oewn-08283156-n"], [14, "oewn-00156621-r"], [15, "oewn-02158938-v"], [19, "oewn-00948137-v"], [21, "oewn-13350069-n"], [26, "oewn-00147962-r"], [28, "oewn-01003902-v"], [30, "oewn-06560982-n"], [33, "oewn-15295388-n"], [34, "oewn-02137098-s"], [36, "oewn-01003902-v"], [38, "oewn-01063869-n"], [40, "oewn-13303184-n"]]
+    oewn_key: [[2, "oewn-00678783-v"], [4, "oewn-01161188-v"], [6, "oewn-02303673-a"], [7, "oewn-13350069-n"], [10, "oewn-13330021-n"], [11, "oewn-08283156-n"], [14, "oewn-00156621-r"], [15, "oewn-02158938-v"], [19, "oewn-00948137-v"], [21, "oewn-13350069-n"], [26, "oewn-00147962-r"], [28, "oewn-01003902-v"], [30, "oewn-06560982-n"], [33, "oewn-15295388-n"], [34, "oewn-02137098-s"], [36, "oewn-01003902-v"], [38, "oewn-01063869-n"], [40, "oewn-13303184-n"]]
     paragraph: '0'
     pos: ["IN", "PRP", "VBP", "TO", "VB", "DT", "JJ", "NNP", "CC", "DT", "NNP", "NNP", ",", "CC", "RB", "VB", "PRP", "MD", "VB", "VBN", "PRP$", "NNS", ",", "PRP", "MD", "VB", "RB", "IN", "VBG", "DT", "NN", "IN", "DT", "NN", "JJ", "IN", "VBG", "DT", "NN", "IN", "NN", "."]
     text: If you elect to use the Standard Deduction or the Tax Table, and later find you should
@@ -39,7 +39,7 @@ _meta:
     wn30_key: [[2, "elect%2:31:00::"], [4, "use%2:34:01::"], [6, "standard%3:00:02::"], [7, "deduction%1:21:01::"], [10, "tax%1:21:00::"], [11, "table%1:14:00::"], [14, "later%4:02:02::"], [15, "find%2:31:09::"], [19, "itemize%2:32:00::"], [21, "deduction%1:21:01::"], [26, "so%4:02:05::"], [28, "file%2:32:02::"], [30, "amended_return%1:10:00::"], [33, "time%1:28:05::"], [34, "prescribed%3:00:00:settled:02"], [36, "file%2:32:02::"], [38, "claim%1:04:00::"], [40, "refund%1:21:00::"]]
 jwTK:
     lemmas: ["see", "You_May_Claim_a_Refund", ",", "page", "135", "."]
-    oewn2026_key: [[3, "oewn-06267274-n"]]
+    oewn_key: [[3, "oewn-06267274-n"]]
     paragraph: '0'
     pos: ["RB", "NN", ",", "NNP", "CD", "."]
     text: ' See You_May_Claim_a_Refund, Page 135.'
@@ -48,7 +48,7 @@ jwTK:
     wn30_key: [[3, "page%1:10:00::"]]
 piRG:
     lemmas: ["The", "same", "be", "true", "if", "you", "have", "itemize", "your", "deduction", "and", "later", "decide", "you", "should", "have", "use", "the", "standard", "deduction", "or", "tax", "table", "."]
-    oewn2026_key: [[1, "oewn-02075880-a"], [2, "oewn-02610777-v"], [3, "oewn-02469730-a"], [7, "oewn-00948137-v"], [9, "oewn-13350069-n"], [11, "oewn-00156621-r"], [12, "oewn-00699355-v"], [16, "oewn-01161188-v"], [18, "oewn-02303673-a"], [19, "oewn-13350069-n"], [21, "oewn-13330021-n"], [22, "oewn-08283156-n"]]
+    oewn_key: [[1, "oewn-02075880-a"], [2, "oewn-02610777-v"], [3, "oewn-02469730-a"], [7, "oewn-00948137-v"], [9, "oewn-13350069-n"], [11, "oewn-00156621-r"], [12, "oewn-00699355-v"], [16, "oewn-01161188-v"], [18, "oewn-02303673-a"], [19, "oewn-13350069-n"], [21, "oewn-13330021-n"], [22, "oewn-08283156-n"]]
     paragraph: '0'
     pos: ["DT", "JJ", "VBZ", "JJ", "IN", "PRP", "VBP", "VBN", "PRP$", "NNS", "CC", "RB", "VB", "PRP", "MD", "VB", "VBN", "DT", "JJ", "NNP", "CC", "NNP", "NNP", "."]
     text: ' The same is true if you have itemized your deductions and later decide you should
@@ -58,7 +58,7 @@ piRG:
     wn30_key: [[1, "same%3:00:02::"], [2, "be%2:42:03::"], [3, "true%3:00:00::"], [7, "itemize%2:32:00::"], [9, "deduction%1:21:01::"], [11, "later%4:02:02::"], [12, "decide%2:31:00::"], [16, "use%2:34:01::"], [18, "standard%3:00:02::"], [19, "deduction%1:21:01::"], [21, "tax%1:21:00::"], [22, "table%1:14:00::"]]
 EZ8V:
     lemmas: ["The", "word", "amended_return", "should", "be", "plainly", "write", "across", "the", "top", "of", "such", "return", "."]
-    oewn2026_key: [[1, "oewn-06297048-n"], [2, "oewn-06560982-n"], [5, "oewn-00039730-r"], [6, "oewn-00995046-v"], [9, "oewn-08681598-n"], [11, "oewn-01558587-s"], [12, "oewn-06560662-n"]]
+    oewn_key: [[1, "oewn-06297048-n"], [2, "oewn-06560982-n"], [5, "oewn-00039730-r"], [6, "oewn-00995046-v"], [9, "oewn-08681598-n"], [11, "oewn-01558587-s"], [12, "oewn-06560662-n"]]
     paragraph: '0'
     pos: ["DT", "NNS", "NN", "MD", "VB", "RB", "VBN", "IN", "DT", "NN", "IN", "JJ", "NN", "."]
     text: ' The words amended_return should be plainly written across the top of such return.
@@ -69,7 +69,7 @@ EZ8V:
     wn30_key: [[1, "word%1:10:00::"], [2, "amended_return%1:10:00::"], [5, "plainly%4:02:00::"], [6, "write%2:32:00::"], [9, "top%1:15:01::"], [11, "such%3:00:00:much:00"], [12, "return%1:10:01::"]]
 pX7h:
     lemmas: ["april", "15", "be", "usually", "the", "final", "date", "for", "file", "income_tax_return", "for", "most", "people", "because", "they", "use", "the", "calendar_year", "end", "on", "december", "31", "."]
-    oewn2026_key: [[0, "oewn-15235985-n"], [2, "oewn-02622439-v"], [3, "oewn-00107608-r"], [5, "oewn-01013868-s"], [6, "oewn-15184543-n"], [8, "oewn-01003902-v"], [9, "oewn-06560662-n"], [11, "oewn-01561513-a"], [12, "oewn-07958392-n"], [15, "oewn-01161188-v"], [17, "oewn-15227430-n"], [18, "oewn-02615799-v"], [20, "oewn-15238570-n"]]
+    oewn_key: [[0, "oewn-15235985-n"], [2, "oewn-02622439-v"], [3, "oewn-00107608-r"], [5, "oewn-01013868-s"], [6, "oewn-15184543-n"], [8, "oewn-01003902-v"], [9, "oewn-06560662-n"], [11, "oewn-01561513-a"], [12, "oewn-07958392-n"], [15, "oewn-01161188-v"], [17, "oewn-15227430-n"], [18, "oewn-02615799-v"], [20, "oewn-15238570-n"]]
     paragraph: '1'
     pos: ["NNP", "JJ", "VBZ", "RB", "DT", "JJ", "NN", "IN", "VBG", "NNS", "IN", "JJS", "NNS", "IN", "PRP", "VBP", "DT", "NN", "VBG", "IN", "NNP", "CD", "."]
     text: ' April 15 is usually the final date for filing income_tax_returns for most people
@@ -79,7 +79,7 @@ pX7h:
     wn30_key: [[0, "april%1:28:00::"], [2, "be%2:42:06::"], [3, "usually%4:02:00::"], [5, "final%3:00:00:closing:00"], [6, "date%1:28:00::"], [8, "file%2:32:02::"], [9, "income_tax_return%1:10:00::"], [11, "most%3:00:02::"], [12, "people%1:14:00::"], [15, "use%2:34:01::"], [17, "calendar_year%1:28:00::"], [18, "end%2:42:00::"], [20, "december%1:28:00::"]]
 54g7:
     lemmas: ["If", "you", "use", "a", "fiscal_year", ",", "a", "year", "end", "on", "the", "last", "day", "of", "any", "month", "other_than", "december", ",", "your", "return", "be_due", "on", "or", "before", "the", "15th", "day", "of", "the", "4th", "month", "after", "the", "close", "of", "your", "tax", "year", "."]
-    oewn2026_key: [[2, "oewn-01161188-v"], [4, "oewn-15227916-n"], [7, "oewn-15229093-n"], [8, "oewn-02615799-v"], [11, "oewn-01016876-a"], [12, "oewn-15180180-n"], [15, "oewn-15234209-n"], [17, "oewn-15238570-n"], [20, "oewn-06560662-n"], [21, "oewn-02640648-v"], [26, "oewn-02211645-s"], [27, "oewn-15180180-n"], [30, "oewn-02210112-s"], [31, "oewn-15234209-n"], [34, "oewn-15292365-n"], [37, "oewn-13330021-n"], [38, "oewn-15229093-n"]]
+    oewn_key: [[2, "oewn-01161188-v"], [4, "oewn-15227916-n"], [7, "oewn-15229093-n"], [8, "oewn-02615799-v"], [11, "oewn-01016876-a"], [12, "oewn-15180180-n"], [15, "oewn-15234209-n"], [17, "oewn-15238570-n"], [20, "oewn-06560662-n"], [21, "oewn-02640648-v"], [26, "oewn-02211645-s"], [27, "oewn-15180180-n"], [30, "oewn-02210112-s"], [31, "oewn-15234209-n"], [34, "oewn-15292365-n"], [37, "oewn-13330021-n"], [38, "oewn-15229093-n"]]
     paragraph: '1'
     pos: ["IN", "PRP", "VBP", "DT", "NN", ",", "DT", "NN", "VBG", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "JJ", "NNP", ",", "PRP$", "NN", "VB", "RB", "CC", "IN", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "IN", "PRP$", "NN", "NN", "."]
     text: ' If you use a fiscal_year, a year ending on the last day of any month other_than
@@ -92,7 +92,7 @@ pX7h:
     wn30_key: [[2, "use%2:34:01::"], [4, "fiscal_year%1:28:00::"], [7, "year%1:28:02::"], [8, "end%2:42:00::"], [11, "last%3:00:00::"], [12, "day%1:28:00::"], [15, "month%1:28:01::"], [17, "december%1:28:00::"], [20, "return%1:10:01::"], [21, "be_due%2:42:00::"], [26, "15th%3:00:00:ordinal:00"], [27, "day%1:28:00::"], [30, "4th%3:00:00:ordinal:00"], [31, "month%1:28:01::"], [34, "close%1:28:00::"], [37, "tax%1:21:00::"], [38, "year%1:28:02::"]]
 VaI/:
     lemmas: ["If", "the", "last", "day", "(", "due_date", ")", "for", "perform", "any", "act", "for", "tax", "purpose", ",", "such_as", "filing", "a", "return", "or", "make", "a", "tax", "payment", ",", "etc.", ",", "fall", "on", "saturday", ",", "sunday", ",", "or", "a", "legal_holiday", ",", "you", "may", "perform", "that", "act", "on", "the", "next", "succeeding", "day", "which", "be", "not", "a", "saturday", ",", "sunday", ",", "or", "legal_holiday", "."]
-    oewn2026_key: [[2, "oewn-01016876-a"], [3, "oewn-15180180-n"], [5, "oewn-15178185-n"], [8, "oewn-02379855-v"], [10, "oewn-00030657-n"], [12, "oewn-13330021-n"], [13, "oewn-05991037-n"], [16, "oewn-07182605-n"], [18, "oewn-06560662-n"], [20, "oewn-02566500-v"], [22, "oewn-13330021-n"], [23, "oewn-13299398-n"], [27, "oewn-00343098-v"], [29, "oewn-15189617-n"], [31, "oewn-15188844-n"], [35, "oewn-15224427-n"], [39, "oewn-02379855-v"], [41, "oewn-00030657-n"], [44, "oewn-00128838-s"], [45, "oewn-00128168-a"], [46, "oewn-15180180-n"], [48, "oewn-02622439-v"], [49, "oewn-00024432-r"], [51, "oewn-15189617-n"], [53, "oewn-15188844-n"], [56, "oewn-15224427-n"]]
+    oewn_key: [[2, "oewn-01016876-a"], [3, "oewn-15180180-n"], [5, "oewn-15178185-n"], [8, "oewn-02379855-v"], [10, "oewn-00030657-n"], [12, "oewn-13330021-n"], [13, "oewn-05991037-n"], [16, "oewn-07182605-n"], [18, "oewn-06560662-n"], [20, "oewn-02566500-v"], [22, "oewn-13330021-n"], [23, "oewn-13299398-n"], [27, "oewn-00343098-v"], [29, "oewn-15189617-n"], [31, "oewn-15188844-n"], [35, "oewn-15224427-n"], [39, "oewn-02379855-v"], [41, "oewn-00030657-n"], [44, "oewn-00128838-s"], [45, "oewn-00128168-a"], [46, "oewn-15180180-n"], [48, "oewn-02622439-v"], [49, "oewn-00024432-r"], [51, "oewn-15189617-n"], [53, "oewn-15188844-n"], [56, "oewn-15224427-n"]]
     paragraph: '2'
     pos: ["IN", "DT", "JJ", "NN", "NNP", "NNP", "NNP", "IN", "VBG", "DT", "NN", "IN", "NN", "NNS", ",", "JJ", "NN", "DT", "NN", "CC", "VBG", "DT", "NN", "NN", ",", "FW", ",", "VBZ", "VB", "NNP", ",", "NNP", ",", "CC", "DT", "NN", ",", "PRP", "MD", "VB", "IN", "NN", "VB", "DT", "JJ", "JJ", "NN", "WDT", "VBZ", "RB", "DT", "NNP", ",", "NNP", ",", "CC", "NN", "."]
     text: ' If the last day (due_date) for performing any act for tax purposes, such_as filing
@@ -104,7 +104,7 @@ VaI/:
     wn30_key: [[2, "last%3:00:00::"], [3, "day%1:28:00::"], [5, "due_date%1:28:00::"], [8, "perform%2:41:02::"], [10, "act%1:03:00::"], [12, "tax%1:21:00::"], [13, "purpose%1:09:00::"], [16, "filing%1:10:00::"], [18, "return%1:10:01::"], [20, "make%2:41:00::"], [22, "tax%1:21:00::"], [23, "payment%1:21:00::"], [27, "fall%2:30:00::"], [29, "saturday%1:28:00::"], [31, "sunday%1:28:00::"], [35, "legal_holiday%1:28:00::"], [39, "perform%2:41:02::"], [41, "act%1:03:00::"], [44, "next%3:00:00:succeeding:00"], [45, "succeeding%3:00:00::"], [46, "day%1:28:00::"], [48, "be%2:42:06::"], [49, "not%4:02:00::"], [51, "saturday%1:28:00::"], [53, "sunday%1:28:00::"], [56, "legal_holiday%1:28:00::"]]
 eEdK:
     lemmas: ["Since", "april", "15", ",", "1962", ",", "be", "on", "sunday", "your", "return", "for", "the", "calendar_year", "1961", "will", "be", "timely", "file", "if", "it", "be", "file", "on", "or", "before", "monday", ",", "april", "16", ",", "1962", "."]
-    oewn2026_key: [[1, "oewn-15235985-n"], [6, "oewn-00340744-v"], [8, "oewn-15188844-n"], [10, "oewn-06560662-n"], [13, "oewn-15227430-n"], [16, "oewn-02610777-v"], [17, "oewn-00275183-r"], [18, "oewn-01003902-v"], [22, "oewn-01003902-v"], [26, "oewn-15189026-n"], [28, "oewn-15235985-n"]]
+    oewn_key: [[1, "oewn-15235985-n"], [6, "oewn-00340744-v"], [8, "oewn-15188844-n"], [10, "oewn-06560662-n"], [13, "oewn-15227430-n"], [16, "oewn-02610777-v"], [17, "oewn-00275183-r"], [18, "oewn-01003902-v"], [22, "oewn-01003902-v"], [26, "oewn-15189026-n"], [28, "oewn-15235985-n"]]
     paragraph: '2'
     pos: ["IN", "NNP", "JJ", ",", "CD", ",", "VBZ", "VB", "NNP", "PRP$", "NN", "IN", "DT", "NN", "CD", "MD", "VB", "RB", "VBN", "IN", "PRP", "VBZ", "VBN", "RB", "CC", "IN", "NNP", ",", "NNP", "JJ", ",", "CD", "."]
     text: ' Since April 15, 1962, is on Sunday your return for the calendar_year 1961 will be
@@ -116,7 +116,7 @@ eEdK:
     wn30_key: [[1, "april%1:28:00::"], [6, "be%2:30:14::"], [8, "sunday%1:28:00::"], [10, "return%1:10:01::"], [13, "calendar_year%1:28:00::"], [16, "be%2:42:03::"], [17, "timely%4:02:00::"], [18, "file%2:32:02::"], [22, "file%2:32:02::"], [26, "monday%1:28:00::"], [28, "april%1:28:00::"]]
 D9Re:
     lemmas: ["If", "you", "mail", "a", "return", "or", "tax", "payment", ",", "you", "must", "place", "it", "in", "the", "mail", "in", "ample", "time", "to", "reach", "the", "district", "director", "on", "or", "before", "the", "due_date", "."]
-    oewn2026_key: [[2, "oewn-01440525-v"], [4, "oewn-06560662-n"], [6, "oewn-13330021-n"], [7, "oewn-13299398-n"], [11, "oewn-01496967-v"], [15, "oewn-06275051-n"], [17, "oewn-00106545-a"], [18, "oewn-15295388-n"], [20, "oewn-02024442-v"], [22, "oewn-08569713-n"], [23, "oewn-10034684-n"], [28, "oewn-15178185-n"]]
+    oewn_key: [[2, "oewn-01440525-v"], [4, "oewn-06560662-n"], [6, "oewn-13330021-n"], [7, "oewn-13299398-n"], [11, "oewn-01496967-v"], [15, "oewn-06275051-n"], [17, "oewn-00106545-a"], [18, "oewn-15295388-n"], [20, "oewn-02024442-v"], [22, "oewn-08569713-n"], [23, "oewn-10034684-n"], [28, "oewn-15178185-n"]]
     paragraph: '3'
     pos: ["IN", "PRP", "VBP", "DT", "NN", "CC", "NN", "NN", ",", "PRP", "MD", "VB", "PRP", "IN", "DT", "NNS", "IN", "JJ", "NN", "TO", "VB", "DT", "NN", "NN", "RB", "CC", "IN", "DT", "NN", "."]
     text: ' If you mail a return or tax payment, you must place it in the mails in ample time
@@ -128,7 +128,7 @@ D9Re:
     wn30_key: [[2, "mail%2:35:00::"], [4, "return%1:10:01::"], [6, "tax%1:21:00::"], [7, "payment%1:21:00::"], [11, "place%2:35:00::"], [15, "mail%1:10:00::"], [17, "ample%3:00:00::"], [18, "time%1:28:05::"], [20, "reach%2:38:01::"], [22, "district%1:15:00::"], [23, "director%1:18:00::"], [28, "due_date%1:28:00::"]]
 Yoaq:
     lemmas: ["If", "you", "be", "require", "to", "file", "a", "declaration_of_estimated_tax", "for", "the", "calendar_year", "1961", ",", "it", "be", "not", "necessary", "to", "pay", "the", "fourth", "installment", "otherwise", "due", "on", "january", "15", ",", "1962", ",", "if", "you", "file", "your", "income_tax_return", "Form_1040", ",", "and", "pay", "your", "tax", "in_full", "for", "the", "calendar_year", "1961", "by", "january", "31", ",", "1962", "."]
-    oewn2026_key: [[3, "oewn-00753573-v"], [5, "oewn-01003902-v"], [7, "oewn-06561106-n"], [10, "oewn-15227430-n"], [14, "oewn-02610777-v"], [15, "oewn-00024432-r"], [16, "oewn-01584458-a"], [18, "oewn-02256551-v"], [20, "oewn-02210112-s"], [21, "oewn-13322737-n"], [23, "oewn-00137425-a"], [25, "oewn-15234841-n"], [32, "oewn-01003902-v"], [34, "oewn-06560662-n"], [38, "oewn-02256551-v"], [40, "oewn-13330021-n"], [41, "oewn-00507076-r"], [44, "oewn-15227430-n"], [47, "oewn-15234841-n"]]
+    oewn_key: [[3, "oewn-00753573-v"], [5, "oewn-01003902-v"], [7, "oewn-06561106-n"], [10, "oewn-15227430-n"], [14, "oewn-02610777-v"], [15, "oewn-00024432-r"], [16, "oewn-01584458-a"], [18, "oewn-02256551-v"], [20, "oewn-02210112-s"], [21, "oewn-13322737-n"], [23, "oewn-00137425-a"], [25, "oewn-15234841-n"], [32, "oewn-01003902-v"], [34, "oewn-06560662-n"], [38, "oewn-02256551-v"], [40, "oewn-13330021-n"], [41, "oewn-00507076-r"], [44, "oewn-15227430-n"], [47, "oewn-15234841-n"]]
     paragraph: '4'
     pos: ["IN", "PRP", "VBD", "VBN", "TO", "VB", "DT", "NN", "IN", "DT", "NN", "CD", ",", "PRP", "VBZ", "RB", "JJ", "TO", "VB", "DT", "JJ", "NN", "RB", "JJ", "IN", "NNP", "JJ", ",", "CD", ",", "IN", "PRP", "VBP", "PRP$", "NN", "CD", ",", "CC", "VB", "PRP$", "NN", "RB", "IN", "DT", "NN", "CD", "IN", "NNP", "CD", ",", "CD", "."]
     text: ' If you were required to file a declaration_of_estimated_tax for the calendar_year
@@ -140,7 +140,7 @@ Yoaq:
     wn30_key: [[3, "require%2:32:00::"], [5, "file%2:32:02::"], [7, "declaration_of_estimated_tax%1:10:00::"], [10, "calendar_year%1:28:00::"], [14, "be%2:42:03::"], [15, "not%4:02:00::"], [16, "necessary%3:00:00::"], [18, "pay%2:40:00::"], [20, "fourth%3:00:00:ordinal:00"], [21, "installment%1:21:00::"], [23, "due%3:00:00::"], [25, "january%1:28:00::"], [32, "file%2:32:02::"], [34, "income_tax_return%1:10:00::"], [38, "pay%2:40:00::"], [40, "tax%1:21:00::"], [41, "in_full%4:02:00::"], [44, "calendar_year%1:28:00::"], [47, "january%1:28:00::"]]
 iQwh:
     lemmas: ["The", "filing", "of", "an", "original", "or", "amended", "declaration", ",", "otherwise", "due", "on", "january", "15", ",", "1962", ",", "be", "also", "waive", ",", "if", "you", "file", "your", "Form_1040", "for", "1961", "and", "pay", "the", "full", "tax", "by", "january", "31", ",", "1962", "."]
-    oewn2026_key: [[1, "oewn-07182605-n"], [4, "oewn-01016100-s"], [6, "oewn-00355201-a"], [7, "oewn-06748966-n"], [10, "oewn-00137425-a"], [12, "oewn-15234841-n"], [18, "oewn-00048072-r"], [19, "oewn-02539728-v"], [23, "oewn-01003902-v"], [29, "oewn-02256551-v"], [31, "oewn-00517305-s"], [32, "oewn-13330021-n"], [34, "oewn-15234841-n"]]
+    oewn_key: [[1, "oewn-07182605-n"], [4, "oewn-01016100-s"], [6, "oewn-00355201-a"], [7, "oewn-06748966-n"], [10, "oewn-00137425-a"], [12, "oewn-15234841-n"], [18, "oewn-00048072-r"], [19, "oewn-02539728-v"], [23, "oewn-01003902-v"], [29, "oewn-02256551-v"], [31, "oewn-00517305-s"], [32, "oewn-13330021-n"], [34, "oewn-15234841-n"]]
     paragraph: '4'
     pos: ["DT", "NN", "IN", "DT", "JJ", "CC", "JJ", "NN", ",", "RB", "JJ", "IN", "NNP", "JJ", ",", "CD", ",", "VBZ", "RB", "VBN", ",", "IN", "PRP", "VBP", "PRP$", "CD", "IN", "CD", "CC", "VB", "DT", "JJ", "NN", "IN", "NNP", "CD", ",", "CD", "."]
     text: ' The filing of an original or amended declaration, otherwise due on January 15, 1962,
@@ -151,7 +151,7 @@ iQwh:
     wn30_key: [[1, "filing%1:10:00::"], [4, "original%3:00:01:first:00"], [6, "amended%3:00:00::"], [7, "declaration%1:10:02::"], [10, "due%3:00:00::"], [12, "january%1:28:00::"], [18, "also%4:02:00::"], [19, "waive%2:41:00::"], [23, "file%2:32:02::"], [29, "pay%2:40:00::"], [31, "full%3:00:01:whole:00"], [32, "tax%1:21:00::"], [34, "january%1:28:00::"]]
 dNEW:
     lemmas: ["farmer", ",", "for", "these", "purpose", ",", "have", "until", "february", "15", ",", "1962", ",", "to", "file", "Form_1040", "and", "pay", "the", "tax", "in_full", "for", "the", "calendar_year", "1961", "."]
-    oewn2026_key: [[0, "oewn-10098586-n"], [4, "oewn-05991037-n"], [6, "oewn-02208144-v"], [8, "oewn-15235282-n"], [14, "oewn-01003902-v"], [17, "oewn-02256551-v"], [19, "oewn-13330021-n"], [20, "oewn-00507076-r"], [23, "oewn-15227430-n"]]
+    oewn_key: [[0, "oewn-10098586-n"], [4, "oewn-05991037-n"], [6, "oewn-02208144-v"], [8, "oewn-15235282-n"], [14, "oewn-01003902-v"], [17, "oewn-02256551-v"], [19, "oewn-13330021-n"], [20, "oewn-00507076-r"], [23, "oewn-15227430-n"]]
     paragraph: '4'
     pos: ["NNP", ",", "IN", "DT", "NNS", ",", "VBP", "IN", "NNP", "JJ", ",", "CD", ",", "TO", "VB", "CD", "CC", "VB", "DT", "NN", "RB", "IN", "DT", "NN", "CD", "."]
     text: ' Farmers, for these purposes, have until February 15, 1962, to file Form_1040 and
@@ -161,7 +161,7 @@ dNEW:
     wn30_key: [[0, "farmer%1:18:00::"], [4, "purpose%1:09:00::"], [6, "have%2:40:01::"], [8, "february%1:28:00::"], [14, "file%2:32:02::"], [17, "pay%2:40:00::"], [19, "tax%1:21:00::"], [20, "in_full%4:02:00::"], [23, "calendar_year%1:28:00::"]]
 GgyY:
     lemmas: ["fiscal_year", "taxpayer", "have", "until", "the", "last", "day", "of", "the", "first", "month", "follow", "the", "close", "of", "the", "fiscal_year", "(", "farmer", "until", "the", "15th", "day", "of", "the", "2d", "month", ")", "."]
-    oewn2026_key: [[0, "oewn-15227916-n"], [1, "oewn-10713659-n"], [2, "oewn-02208144-v"], [5, "oewn-01016876-a"], [6, "oewn-15180180-n"], [9, "oewn-01014459-a"], [10, "oewn-15234209-n"], [11, "oewn-02718647-v"], [13, "oewn-15292365-n"], [16, "oewn-15227916-n"], [18, "oewn-10098586-n"], [21, "oewn-02211645-s"], [22, "oewn-15180180-n"], [25, "oewn-02209815-s"], [26, "oewn-15234209-n"]]
+    oewn_key: [[0, "oewn-15227916-n"], [1, "oewn-10713659-n"], [2, "oewn-02208144-v"], [5, "oewn-01016876-a"], [6, "oewn-15180180-n"], [9, "oewn-01014459-a"], [10, "oewn-15234209-n"], [11, "oewn-02718647-v"], [13, "oewn-15292365-n"], [16, "oewn-15227916-n"], [18, "oewn-10098586-n"], [21, "oewn-02211645-s"], [22, "oewn-15180180-n"], [25, "oewn-02209815-s"], [26, "oewn-15234209-n"]]
     paragraph: '4'
     pos: ["NN", "NNS", "VBP", "IN", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "VBG", "DT", "NN", "IN", "DT", "NN", "FW", "NNS", "IN", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "NN", "."]
     text: ' Fiscal_year taxpayers have until the last day of the first month following the close
@@ -171,7 +171,7 @@ GgyY:
     wn30_key: [[0, "fiscal_year%1:28:00::"], [1, "taxpayer%1:18:00::"], [2, "have%2:40:01::"], [5, "last%3:00:00::"], [6, "day%1:28:00::"], [9, "first%3:00:00::"], [10, "month%1:28:01::"], [11, "follow%2:42:00::"], [13, "close%1:28:00::"], [16, "fiscal_year%1:28:00::"], [18, "farmer%1:18:00::"], [21, "15th%3:00:00:ordinal:00"], [22, "day%1:28:00::"], [25, "2d%3:00:00:ordinal:00"], [26, "month%1:28:01::"]]
 XvQr:
     lemmas: ["see", "chapter", "38", "."]
-    oewn2026_key: [[1, "oewn-06407785-n"]]
+    oewn_key: [[1, "oewn-06407785-n"]]
     paragraph: '4'
     pos: ["RB", "NNP", "CD", "."]
     text: ' See Chapter 38.
@@ -182,7 +182,7 @@ XvQr:
     wn30_key: [[1, "chapter%1:10:00::"]]
 5/01:
     lemmas: ["nonresident", "alien", "live", "in", "canada", "or", "mexico", "who", "earn", "wage", "in", "the", "united_states", "may", "be", "subject", "to", "withholding", "of", "tax", "on", "their", "wage", ",", "the", "same", "as", "if", "they", "be", "citizen", "of", "the", "united_states", "."]
-    oewn2026_key: [[0, "oewn-02132982-a"], [1, "oewn-10123254-n"], [2, "oewn-02655932-v"], [4, "oewn-08837973-n"], [6, "oewn-08758708-n"], [8, "oewn-02294200-v"], [9, "oewn-13300285-n"], [12, "oewn-09067337-n"], [14, "oewn-02610777-v"], [17, "oewn-00362018-n"], [19, "oewn-13330021-n"], [22, "oewn-13300285-n"], [29, "oewn-02622439-v"], [30, "oewn-09943131-n"], [33, "oewn-09067337-n"]]
+    oewn_key: [[0, "oewn-02132982-a"], [1, "oewn-10123254-n"], [2, "oewn-02655932-v"], [4, "oewn-08837973-n"], [6, "oewn-08758708-n"], [8, "oewn-02294200-v"], [9, "oewn-13300285-n"], [12, "oewn-09067337-n"], [14, "oewn-02610777-v"], [17, "oewn-00362018-n"], [19, "oewn-13330021-n"], [22, "oewn-13300285-n"], [29, "oewn-02622439-v"], [30, "oewn-09943131-n"], [33, "oewn-09067337-n"]]
     paragraph: '5'
     pos: ["JJ", "NNS", "VBG", "VB", "NNP", "CC", "NNP", "WP", "VBP", "NNS", "IN", "DT", "NNS", "MD", "VB", "JJ", "JJ", "NN", "IN", "NN", "IN", "PRP$", "NNS", ",", "DT", "RB", "IN", "IN", "PRP", "VBD", "NNS", "IN", "DT", "NNS", "."]
     text: ' Nonresident aliens living in Canada or Mexico who earn wages in the United_States
@@ -193,7 +193,7 @@ XvQr:
     wn30_key: [[0, "nonresident%3:00:00::"], [1, "alien%1:18:00::"], [2, "live%2:42:08::"], [4, "canada%1:15:00::"], [6, "mexico%1:15:00::"], [8, "earn%2:40:01::"], [9, "wage%1:21:00::"], [12, "united_states%1:15:00::"], [14, "be%2:42:03::"], [17, "withholding%1:04:00::"], [19, "tax%1:21:00::"], [22, "wage%1:21:00::"], [29, "be%2:42:06::"], [30, "citizen%1:18:00::"], [33, "united_states%1:15:00::"]]
 eKxk:
     lemmas: ["Their", "united_states", "tax_return", "be_due", "april", "16", ",", "1962", "."]
-    oewn2026_key: [[1, "oewn-09067337-n"], [2, "oewn-06560662-n"], [3, "oewn-02640648-v"], [4, "oewn-15235985-n"]]
+    oewn_key: [[1, "oewn-09067337-n"], [2, "oewn-06560662-n"], [3, "oewn-02640648-v"], [4, "oewn-15235985-n"]]
     paragraph: '5'
     pos: ["PRP$", "NN", "NN", "VB", "NNP", "JJ", ",", "CD", "."]
     text: ' Their United_States tax_returns are_due April 16, 1962.'
@@ -202,7 +202,7 @@ eKxk:
     wn30_key: [[1, "united_states%1:15:00::"], [2, "tax_return%1:10:00::"], [3, "be_due%2:42:00::"], [4, "april%1:28:00::"]]
 Rim+:
     lemmas: ["however", ",", "if", "their", "united_states", "income", "be", "not", "subject", "to", "the", "withholding", "of", "tax", "on", "wage", ",", "their", "return", "be_due", "june", "15", ",", "1962", ",", "if", "they", "use", "a", "calendar_year", ",", "or", "the", "15th", "day", "of", "the", "6th", "month", "after", "the", "close", "of", "their", "fiscal_year", "."]
-    oewn2026_key: [[0, "oewn-00027761-r"], [4, "oewn-09067337-n"], [5, "oewn-13276044-n"], [6, "oewn-02610777-v"], [7, "oewn-00024432-r"], [11, "oewn-00362018-n"], [13, "oewn-13330021-n"], [15, "oewn-13300285-n"], [18, "oewn-06560662-n"], [19, "oewn-02640648-v"], [20, "oewn-15236602-n"], [27, "oewn-01161188-v"], [29, "oewn-15227430-n"], [33, "oewn-02211645-s"], [34, "oewn-15180180-n"], [37, "oewn-02210523-s"], [38, "oewn-15234209-n"], [41, "oewn-15292365-n"], [44, "oewn-15227916-n"]]
+    oewn_key: [[0, "oewn-00027761-r"], [4, "oewn-09067337-n"], [5, "oewn-13276044-n"], [6, "oewn-02610777-v"], [7, "oewn-00024432-r"], [11, "oewn-00362018-n"], [13, "oewn-13330021-n"], [15, "oewn-13300285-n"], [18, "oewn-06560662-n"], [19, "oewn-02640648-v"], [20, "oewn-15236602-n"], [27, "oewn-01161188-v"], [29, "oewn-15227430-n"], [33, "oewn-02211645-s"], [34, "oewn-15180180-n"], [37, "oewn-02210523-s"], [38, "oewn-15234209-n"], [41, "oewn-15292365-n"], [44, "oewn-15227916-n"]]
     paragraph: '5'
     pos: ["RB", ",", "IN", "PRP$", "NN", "NN", "VBZ", "RB", "JJ", "JJ", "DT", "NN", "IN", "NN", "IN", "NNS", ",", "PRP$", "NNS", "VBP", "NNP", "JJ", ",", "CD", ",", "IN", "PRP", "VBP", "DT", "NN", ",", "CC", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "IN", "PRP$", "NN", "."]
     text: ' However, if their United_States income is not subject to the withholding of tax
@@ -215,7 +215,7 @@ Rim+:
     wn30_key: [[0, "however%4:02:00::"], [4, "united_states%1:15:00::"], [5, "income%1:21:00::"], [6, "be%2:42:03::"], [7, "not%4:02:00::"], [11, "withholding%1:04:00::"], [13, "tax%1:21:00::"], [15, "wage%1:21:00::"], [18, "return%1:10:01::"], [19, "be_due%2:42:00::"], [20, "june%1:28:00::"], [27, "use%2:34:01::"], [29, "calendar_year%1:28:00::"], [33, "15th%3:00:00:ordinal:00"], [34, "day%1:28:00::"], [37, "6th%3:00:00:ordinal:00"], [38, "month%1:28:01::"], [41, "close%1:28:00::"], [44, "fiscal_year%1:28:00::"]]
 +L4Y:
     lemmas: ["If", "you", "be", "a", "nonresident", "alien", "and", "a", "resident", "of", "puerto_rico", ",", "your", "return", "be_due", "also", "due", "june", "15", ",", "1962", ",", "or", "the", "15th", "day", "of", "the", "6th", "month", "after", "the", "close", "of", "your", "fiscal_year", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"], [4, "oewn-02132982-a"], [5, "oewn-10123254-n"], [8, "oewn-10543112-n"], [10, "oewn-08770807-n"], [13, "oewn-06560662-n"], [14, "oewn-02640648-v"], [15, "oewn-00048072-r"], [17, "oewn-15236602-n"], [24, "oewn-02211645-s"], [25, "oewn-15180180-n"], [28, "oewn-02210523-s"], [29, "oewn-15234209-n"], [32, "oewn-15292365-n"], [35, "oewn-15227916-n"]]
+    oewn_key: [[2, "oewn-02610777-v"], [4, "oewn-02132982-a"], [5, "oewn-10123254-n"], [8, "oewn-10543112-n"], [10, "oewn-08770807-n"], [13, "oewn-06560662-n"], [14, "oewn-02640648-v"], [15, "oewn-00048072-r"], [17, "oewn-15236602-n"], [24, "oewn-02211645-s"], [25, "oewn-15180180-n"], [28, "oewn-02210523-s"], [29, "oewn-15234209-n"], [32, "oewn-15292365-n"], [35, "oewn-15227916-n"]]
     paragraph: '6'
     pos: ["IN", "PRP", "VBP", "DT", "JJ", "NN", "CC", "DT", "NN", "IN", "NN", ",", "PRP$", "NN", "VBZ", "RB", "JJ", "NNP", "JJ", ",", "CD", ",", "CC", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "IN", "PRP$", "NN", "."]
     text: ' If you are a nonresident alien and a resident of Puerto_Rico, your return is also
@@ -227,7 +227,7 @@ Rim+:
     wn30_key: [[2, "be%2:42:03::"], [4, "nonresident%3:00:00::"], [5, "alien%1:18:00::"], [8, "resident%1:18:00::"], [10, "puerto_rico%1:15:00::"], [13, "return%1:10:01::"], [14, "be_due%2:42:00::"], [15, "also%4:02:00::"], [17, "june%1:28:00::"], [24, "15th%3:00:00:ordinal:00"], [25, "day%1:28:00::"], [28, "6th%3:00:00:ordinal:00"], [29, "month%1:28:01::"], [32, "close%1:28:00::"], [35, "fiscal_year%1:28:00::"]]
 ApSw:
     lemmas: ["If", "a", "taxpayer", "die", ",", "the", "executor", ",", "administrator", ",", "or", "legal", "representative", "must", "file", "the", "final", "return", "for", "the", "decedent", "on", "or", "before", "the", "15th", "day", "of", "the", "4th", "month", "follow", "the", "close", "of", "the", "deceased", "taxpayer", "'s", "normal", "tax", "year", "."]
-    oewn2026_key: [[2, "oewn-10713659-n"], [3, "oewn-00359085-v"], [6, "oewn-10090026-n"], [8, "oewn-09790166-n"], [11, "oewn-02764969-a"], [12, "oewn-10541628-n"], [14, "oewn-01003902-v"], [16, "oewn-01013868-s"], [17, "oewn-06560662-n"], [20, "oewn-10014481-n"], [25, "oewn-02211645-s"], [26, "oewn-15180180-n"], [29, "oewn-02210112-s"], [30, "oewn-15234209-n"], [31, "oewn-02718647-v"], [33, "oewn-15292365-n"], [36, "oewn-00096726-s"], [37, "oewn-10713659-n"], [39, "oewn-01598231-a"], [40, "oewn-13330021-n"], [41, "oewn-15229093-n"]]
+    oewn_key: [[2, "oewn-10713659-n"], [3, "oewn-00359085-v"], [6, "oewn-10090026-n"], [8, "oewn-09790166-n"], [11, "oewn-02764969-a"], [12, "oewn-10541628-n"], [14, "oewn-01003902-v"], [16, "oewn-01013868-s"], [17, "oewn-06560662-n"], [20, "oewn-10014481-n"], [25, "oewn-02211645-s"], [26, "oewn-15180180-n"], [29, "oewn-02210112-s"], [30, "oewn-15234209-n"], [31, "oewn-02718647-v"], [33, "oewn-15292365-n"], [36, "oewn-00096726-s"], [37, "oewn-10713659-n"], [39, "oewn-01598231-a"], [40, "oewn-13330021-n"], [41, "oewn-15229093-n"]]
     paragraph: '7'
     pos: ["IN", "DT", "NN", "VBZ", ",", "DT", "NN", ",", "NN", ",", "CC", "JJ", "NN", "MD", "VB", "DT", "JJ", "NN", "IN", "DT", "NN", "RB", "CC", "IN", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "VBG", "DT", "NN", "IN", "DT", "JJ", "NN", "POS", "JJ", "NN", "NN", "."]
     text: ' If a taxpayer dies, the executor, administrator, or legal representative must file
@@ -238,7 +238,7 @@ ApSw:
     wn30_key: [[2, "taxpayer%1:18:00::"], [3, "die%2:30:00::"], [6, "executor%1:18:00::"], [8, "administrator%1:18:01::"], [11, "legal%3:01:01::"], [12, "representative%1:18:00::"], [14, "file%2:32:02::"], [16, "final%3:00:00:closing:00"], [17, "return%1:10:01::"], [20, "decedent%1:18:00::"], [25, "15th%3:00:00:ordinal:00"], [26, "day%1:28:00::"], [29, "4th%3:00:00:ordinal:00"], [30, "month%1:28:01::"], [31, "follow%2:42:00::"], [33, "close%1:28:00::"], [36, "deceased%3:00:00:dead:01"], [37, "taxpayer%1:18:00::"], [39, "normal%3:00:01::"], [40, "tax%1:21:00::"], [41, "year%1:28:02::"]]
 OlMG:
     lemmas: ["suppose", "person", ",", "who", ",", "for", "1960", ",", "file", "on", "the", "basis", "of", "a", "calendar_year", ",", "die", "june", "20", ",", "1961", "."]
-    oewn2026_key: [[0, "oewn-00919271-v"], [1, "oewn-00007846-n"], [8, "oewn-01003902-v"], [11, "oewn-13813124-n"], [14, "oewn-15227430-n"], [16, "oewn-00359085-v"], [17, "oewn-15236602-n"]]
+    oewn_key: [[0, "oewn-00919271-v"], [1, "oewn-00007846-n"], [8, "oewn-01003902-v"], [11, "oewn-13813124-n"], [14, "oewn-15227430-n"], [16, "oewn-00359085-v"], [17, "oewn-15236602-n"]]
     paragraph: '7'
     pos: ["VB", "NNS", ",", "WP", ",", "IN", "CD", ",", "VBN", "IN", "DT", "NN", "IN", "DT", "NN", ",", "VBD", "NNP", "JJ", ",", "CD", "."]
     text: ' Suppose John_Jones, who, for 1960, filed on the basis of a calendar_year, died June
@@ -248,7 +248,7 @@ OlMG:
     wn30_key: [[0, "suppose%2:32:00::"], [1, "person%1:03:00::"], [8, "file%2:32:02::"], [11, "basis%1:24:00::"], [14, "calendar_year%1:28:00::"], [16, "die%2:30:00::"], [17, "june%1:28:00::"]]
 AjvC:
     lemmas: ["His", "return", "for", "the", "period", "january", "1", "to", "june", "20", ",", "1961", ",", "be_due", "april", "16", ",", "1962", "."]
-    oewn2026_key: [[1, "oewn-06560662-n"], [4, "oewn-15137796-n"], [5, "oewn-15234841-n"], [8, "oewn-15236602-n"], [13, "oewn-02640648-v"], [14, "oewn-15235985-n"]]
+    oewn_key: [[1, "oewn-06560662-n"], [4, "oewn-15137796-n"], [5, "oewn-15234841-n"], [8, "oewn-15236602-n"], [13, "oewn-02640648-v"], [14, "oewn-15235985-n"]]
     paragraph: '7'
     pos: ["PRP$", "NN", "IN", "DT", "NN", "NNP", "JJ", "TO", "NNP", "JJ", ",", "CD", ",", "VB", "NNP", "JJ", ",", "CD", "."]
     text: ' His return for the period January 1 to June 20, 1961, is_due April 16, 1962.
@@ -259,7 +259,7 @@ AjvC:
     wn30_key: [[1, "return%1:10:01::"], [4, "period%1:28:00::"], [5, "january%1:28:00::"], [8, "june%1:28:00::"], [13, "be_due%2:42:00::"], [14, "april%1:28:00::"]]
 9ZR+:
     lemmas: ["The", "return", "for", "a", "decedent", "may", "also", "serve", "as", "a", "claim", "for", "refund", "of", "an", "overpayment", "of", "tax", "."]
-    oewn2026_key: [[1, "oewn-06560662-n"], [4, "oewn-10014481-n"], [6, "oewn-00048072-r"], [7, "oewn-02676679-v"], [10, "oewn-01063869-n"], [12, "oewn-01124011-n"], [15, "oewn-13300069-n"], [17, "oewn-13330021-n"]]
+    oewn_key: [[1, "oewn-06560662-n"], [4, "oewn-10014481-n"], [6, "oewn-00048072-r"], [7, "oewn-02676679-v"], [10, "oewn-01063869-n"], [12, "oewn-01124011-n"], [15, "oewn-13300069-n"], [17, "oewn-13330021-n"]]
     paragraph: '8'
     pos: ["DT", "NN", "IN", "DT", "NN", "MD", "RB", "VB", "VB", "DT", "NN", "IN", "NN", "IN", "DT", "NN", "IN", "NN", "."]
     text: ' The return for a decedent may also serve as a claim for refund of an overpayment
@@ -269,7 +269,7 @@ AjvC:
     wn30_key: [[1, "return%1:10:01::"], [4, "decedent%1:18:00::"], [6, "also%4:02:00::"], [7, "serve%2:42:03::"], [10, "claim%1:04:00::"], [12, "refund%1:04:00::"], [15, "overpayment%1:21:00::"], [17, "tax%1:21:00::"]]
 7KRv:
     lemmas: ["In", "such", "a", "case", ",", "Form_1310", "should", "be", "complete", "and", "attach", "to", "the", "return", "."]
-    oewn2026_key: [[1, "oewn-01558587-s"], [3, "oewn-13966452-n"], [8, "oewn-01022740-v"], [10, "oewn-01299048-v"], [13, "oewn-06560662-n"]]
+    oewn_key: [[1, "oewn-01558587-s"], [3, "oewn-13966452-n"], [8, "oewn-01022740-v"], [10, "oewn-01299048-v"], [13, "oewn-06560662-n"]]
     paragraph: '8'
     pos: ["IN", "JJ", "DT", "NN", ",", "CD", "MD", "VB", "VBN", "CC", "VBN", "VB", "DT", "NN", "."]
     text: ' In such a case, Form_1310 should be completed and attached to the return.'
@@ -278,7 +278,7 @@ AjvC:
     wn30_key: [[1, "such%3:00:00:much:00"], [3, "case%1:26:00::"], [8, "complete%2:32:00::"], [10, "attach%2:35:01::"], [13, "return%1:10:01::"]]
 1yhm:
     lemmas: ["This", "form", "may", "be", "obtain", "from", "the", "local", "office", "of", "your", "district", "director", "."]
-    oewn2026_key: [[1, "oewn-06485234-n"], [4, "oewn-02242867-v"], [7, "oewn-01110098-a"], [8, "oewn-08354251-n"], [11, "oewn-08569713-n"], [12, "oewn-10034684-n"]]
+    oewn_key: [[1, "oewn-06485234-n"], [4, "oewn-02242867-v"], [7, "oewn-01110098-a"], [8, "oewn-08354251-n"], [11, "oewn-08569713-n"], [12, "oewn-10034684-n"]]
     paragraph: '8'
     pos: ["DT", "NN", "MD", "VB", "VBN", "IN", "DT", "JJ", "NN", "IN", "PRP$", "NN", "NN", "."]
     text: ' This form may be obtained from the local office of your district director.
@@ -289,7 +289,7 @@ AjvC:
     wn30_key: [[1, "form%1:10:01::"], [4, "obtain%2:40:00::"], [7, "local%3:00:01::"], [8, "office%1:14:01::"], [11, "district%1:15:00::"], [12, "director%1:18:00::"]]
 y35h:
     lemmas: ["return", "of", "estate", "or", "trust", "be_due", "on", "or", "before", "the", "15th", "day", "of", "the", "4th", "month", "after", "the", "close", "of", "the", "tax", "year", "."]
-    oewn2026_key: [[0, "oewn-06560662-n"], [2, "oewn-13271829-n"], [4, "oewn-13381671-n"], [5, "oewn-02640648-v"], [10, "oewn-02211645-s"], [11, "oewn-15180180-n"], [14, "oewn-02210112-s"], [15, "oewn-15234209-n"], [18, "oewn-15292365-n"], [21, "oewn-13330021-n"], [22, "oewn-15229093-n"]]
+    oewn_key: [[0, "oewn-06560662-n"], [2, "oewn-13271829-n"], [4, "oewn-13381671-n"], [5, "oewn-02640648-v"], [10, "oewn-02211645-s"], [11, "oewn-15180180-n"], [14, "oewn-02210112-s"], [15, "oewn-15234209-n"], [18, "oewn-15292365-n"], [21, "oewn-13330021-n"], [22, "oewn-15229093-n"]]
     paragraph: '9'
     pos: ["NNS", "IN", "NNS", "CC", "NNS", "VBP", "RB", "CC", "IN", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "NN", "."]
     text: ' Returns of estates or trusts are_due on or before the 15_th day of the 4_th month
@@ -301,7 +301,7 @@ y35h:
     wn30_key: [[0, "return%1:10:01::"], [2, "estate%1:21:02::"], [4, "trust%1:21:03::"], [5, "be_due%2:42:00::"], [10, "15th%3:00:00:ordinal:00"], [11, "day%1:28:00::"], [14, "4th%3:00:00:ordinal:00"], [15, "month%1:28:01::"], [18, "close%1:28:00::"], [21, "tax%1:21:00::"], [22, "year%1:28:02::"]]
 FvIB:
     lemmas: ["Under", "unusual", "circumstance", "a", "resident", "individual", "may", "be", "grant", "an", "extension", "of", "time", "to", "file", "a", "return", "."]
-    oewn2026_key: [[1, "oewn-00492026-a"], [2, "oewn-13965927-n"], [4, "oewn-02132790-a"], [5, "oewn-00007846-n"], [8, "oewn-02260270-v"], [10, "oewn-15297368-n"], [12, "oewn-15295388-n"], [14, "oewn-01003902-v"], [16, "oewn-06560662-n"]]
+    oewn_key: [[1, "oewn-00492026-a"], [2, "oewn-13965927-n"], [4, "oewn-02132790-a"], [5, "oewn-00007846-n"], [8, "oewn-02260270-v"], [10, "oewn-15297368-n"], [12, "oewn-15295388-n"], [14, "oewn-01003902-v"], [16, "oewn-06560662-n"]]
     paragraph: '10'
     pos: ["IN", "JJ", "NNS", "DT", "JJ", "NN", "MD", "VB", "VBN", "DT", "NN", "IN", "NN", "TO", "VB", "DT", "NN", "."]
     text: ' Under unusual circumstances a resident individual may be granted an extension of
@@ -311,7 +311,7 @@ FvIB:
     wn30_key: [[1, "unusual%3:00:00::"], [2, "circumstance%1:26:01::"], [4, "resident%3:00:00::"], [5, "individual%1:03:00::"], [8, "grant%2:40:01::"], [10, "extension%1:28:00::"], [12, "time%1:28:05::"], [14, "file%2:32:02::"], [16, "return%1:10:01::"]]
 hSdg:
     lemmas: ["You", "may", "apply", "for", "such", "an", "extension", "by", "file", "Form_2688", ",", "application_for_extension_of_time_to_file", ",", "with", "the", "person", "for", "your", "district", ",", "or", "you", "may", "make", "your", "application", "in", "a", "letter", "."]
-    oewn2026_key: [[2, "oewn-00767441-v"], [4, "oewn-01558587-s"], [6, "oewn-15297368-n"], [8, "oewn-01003902-v"], [15, "oewn-00007846-n"], [18, "oewn-08569713-n"], [25, "oewn-06524571-n"], [28, "oewn-06636668-n"]]
+    oewn_key: [[2, "oewn-00767441-v"], [4, "oewn-01558587-s"], [6, "oewn-15297368-n"], [8, "oewn-01003902-v"], [15, "oewn-00007846-n"], [18, "oewn-08569713-n"], [25, "oewn-06524571-n"], [28, "oewn-06636668-n"]]
     paragraph: '10'
     pos: ["PRP", "MD", "VB", "IN", "JJ", "DT", "NN", "IN", "VBG", "CD", ",", "VB", ",", "IN", "DT", "NN", "IN", "PRP$", "NN", ",", "CC", "PRP", "MD", "VB", "PRP$", "NN", "IN", "DT", "NN", "."]
     text: ' You may apply for such an extension by filing Form_2688, Application_For_Extension_Of_Time_To_File,
@@ -322,7 +322,7 @@ hSdg:
     wn30_key: [[2, "apply%2:32:00::"], [4, "such%3:00:00:much:00"], [6, "extension%1:28:00::"], [8, "file%2:32:02::"], [15, "person%1:03:00::"], [18, "district%1:15:00::"], [25, "application%1:10:00::"], [28, "letter%1:10:00::"]]
 JMK2:
     lemmas: ["Your", "application", "must", "include", "the", "following", "information", ":"]
-    oewn2026_key: [[1, "oewn-06524571-n"], [3, "oewn-02639021-v"], [5, "oewn-00128705-s"], [6, "oewn-06646883-n"]]
+    oewn_key: [[1, "oewn-06524571-n"], [3, "oewn-02639021-v"], [5, "oewn-00128705-s"], [6, "oewn-06646883-n"]]
     paragraph: '10'
     pos: ["PRP$", "NN", "MD", "VB", "DT", "JJ", "NN", ":"]
     text: ' Your application must include the following information:'
@@ -331,7 +331,7 @@ JMK2:
     wn30_key: [[1, "application%1:10:00::"], [3, "include%2:42:00::"], [5, "following%3:00:01:succeeding:00"], [6, "information%1:10:00::"]]
 gLU5:
     lemmas: ["(", "1", ")", "your", "reason", "for", "request", "an", "extension", ",", "(", "2", ")", "whether", "you", "file", "timely", "income_tax_return", "for", "the", "3", "preceding", "year", ",", "and", "(", "3", ")", "whether", "you", "be", "require", "to", "file", "an", "estimated", "return", "for", "the", "year", ",", "and", "if", "so", "whether", "you", "do", "file", "and", "have", "pay", "the", "estimated", "tax", "payment", "on", "or", "before", "the", "due_date", "."]
-    oewn2026_key: [[4, "oewn-09201896-n"], [6, "oewn-00754770-v"], [8, "oewn-15297368-n"], [15, "oewn-01003902-v"], [16, "oewn-01906883-s"], [17, "oewn-06560662-n"], [20, "oewn-02194219-s"], [21, "oewn-00126583-a"], [22, "oewn-15228587-n"], [31, "oewn-00753573-v"], [33, "oewn-01003902-v"], [36, "oewn-06560662-n"], [39, "oewn-15228587-n"], [47, "oewn-01003902-v"], [50, "oewn-02256551-v"], [53, "oewn-13330021-n"], [54, "oewn-13299398-n"], [59, "oewn-15178185-n"]]
+    oewn_key: [[4, "oewn-09201896-n"], [6, "oewn-00754770-v"], [8, "oewn-15297368-n"], [15, "oewn-01003902-v"], [16, "oewn-01906883-s"], [17, "oewn-06560662-n"], [20, "oewn-02194219-s"], [21, "oewn-00126583-a"], [22, "oewn-15228587-n"], [31, "oewn-00753573-v"], [33, "oewn-01003902-v"], [36, "oewn-06560662-n"], [39, "oewn-15228587-n"], [47, "oewn-01003902-v"], [50, "oewn-02256551-v"], [53, "oewn-13330021-n"], [54, "oewn-13299398-n"], [59, "oewn-15178185-n"]]
     paragraph: '10'
     pos: ["NN", "NN", "CD", "PRP$", "NNS", "IN", "VBG", "DT", "NN", ",", "NN", "NN", "NN", "IN", "PRP", "VBD", "JJ", "NNS", "IN", "DT", "JJ", "JJ", "NNS", ",", "CC", "NN", "NN", "NN", "IN", "PRP", "VBD", "VBN", "TO", "VB", "DT", "JJ", "NN", "IN", "DT", "NN", ",", "CC", "IN", "JJ", "IN", "PRP", "VBD", "VB", "CC", "VBP", "VBN", "DT", "JJ", "NN", "NNS", "RB", "CC", "IN", "DT", "NNS", "."]
     text: ' (1) your reasons for requesting an extension, (2) whether you filed timely income_tax_returns
@@ -343,7 +343,7 @@ gLU5:
     wn30_key: [[4, "reason%1:16:00::"], [6, "request%2:32:01::"], [8, "extension%1:28:00::"], [15, "file%2:32:02::"], [16, "timely%3:00:01:punctual:00"], [17, "income_tax_return%1:10:00::"], [20, "3%3:00:00:cardinal:00"], [21, "preceding%3:00:00::"], [22, "year%1:28:01::"], [31, "require%2:32:00::"], [33, "file%2:32:02::"], [36, "return%1:10:01::"], [39, "year%1:28:01::"], [47, "file%2:32:02::"], [50, "pay%2:40:00::"], [53, "tax%1:21:00::"], [54, "payment%1:21:00::"], [59, "due_date%1:28:00::"]]
 kO8d:
     lemmas: ["Any", "failure", "to", "file", "timely", "return", "or", "make", "estimated", "tax", "payment", "when", "due", "must", "be", "fully", "explain", "."]
-    oewn2026_key: [[1, "oewn-00067456-n"], [3, "oewn-01003902-v"], [4, "oewn-01906883-s"], [5, "oewn-06560662-n"], [7, "oewn-02566500-v"], [9, "oewn-13330021-n"], [10, "oewn-13299398-n"], [12, "oewn-00137425-a"], [15, "oewn-00010928-r"], [16, "oewn-00941308-v"]]
+    oewn_key: [[1, "oewn-00067456-n"], [3, "oewn-01003902-v"], [4, "oewn-01906883-s"], [5, "oewn-06560662-n"], [7, "oewn-02566500-v"], [9, "oewn-13330021-n"], [10, "oewn-13299398-n"], [12, "oewn-00137425-a"], [15, "oewn-00010928-r"], [16, "oewn-00941308-v"]]
     paragraph: '10'
     pos: ["DT", "NN", "TO", "VB", "JJ", "NNS", "CC", "VB", "JJ", "NN", "NNS", "WRB", "JJ", "MD", "VB", "RB", "VBN", "."]
     text: ' Any failure to file timely returns or make estimated tax payments when due must
@@ -353,7 +353,7 @@ kO8d:
     wn30_key: [[1, "failure%1:04:00::"], [3, "file%2:32:02::"], [4, "timely%3:00:01:punctual:00"], [5, "return%1:10:01::"], [7, "make%2:41:00::"], [9, "tax%1:21:00::"], [10, "payment%1:21:00::"], [12, "due%3:00:00::"], [15, "fully%4:02:02::"], [16, "explain%2:32:00::"]]
 m6KR:
     lemmas: ["extension", "be", "not", "grant", "as", "a", "matter_of_course", ",", "and", "the", "reason", "for", "your", "request", "must", "be", "substantial", "."]
-    oewn2026_key: [[0, "oewn-15297368-n"], [2, "oewn-00024432-r"], [3, "oewn-02260270-v"], [6, "oewn-07310468-n"], [10, "oewn-09201896-n"], [13, "oewn-06525357-n"], [15, "oewn-02610777-v"], [16, "oewn-00627729-s"]]
+    oewn_key: [[0, "oewn-15297368-n"], [2, "oewn-00024432-r"], [3, "oewn-02260270-v"], [6, "oewn-07310468-n"], [10, "oewn-09201896-n"], [13, "oewn-06525357-n"], [15, "oewn-02610777-v"], [16, "oewn-00627729-s"]]
     paragraph: '10'
     pos: ["NNS", "VBP", "RB", "VBN", "IN", "DT", "NN", ",", "CC", "DT", "NNS", "IN", "PRP$", "NN", "MD", "VB", "JJ", "."]
     text: ' Extensions are not granted as a matter_of_course, and the reasons for your request
@@ -363,7 +363,7 @@ m6KR:
     wn30_key: [[0, "extension%1:28:00::"], [2, "not%4:02:00::"], [3, "grant%2:40:01::"], [6, "matter_of_course%1:11:00::"], [10, "reason%1:16:00::"], [13, "request%1:10:01::"], [15, "be%2:42:03::"], [16, "substantial%3:00:00:considerable:00"]]
 RRcr:
     lemmas: ["If", "you", "be", "unable", "to", "sign", "the", "request", ",", "because", "of", "illness", "or", "other", "good", "cause", ",", "another", "person", "who", "stand", "in", "close", "personal", "or", "business_relationship", "to", "you", "may", "sign", "the", "request", "on", "your", "behalf", ",", "state", "the", "reason", "why", "you", "be", "unable", "to", "sign", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"], [3, "oewn-00002098-a"], [5, "oewn-00998530-v"], [7, "oewn-06525357-n"], [11, "oewn-14085287-n"], [13, "oewn-02076759-a"], [14, "oewn-01126910-a"], [15, "oewn-06753097-n"], [18, "oewn-00007846-n"], [20, "oewn-02740363-v"], [22, "oewn-00453543-a"], [23, "oewn-01771841-a"], [25, "oewn-13952070-n"], [29, "oewn-00998530-v"], [31, "oewn-06525357-n"], [34, "oewn-00722912-n"], [36, "oewn-01011267-v"], [38, "oewn-09201896-n"], [41, "oewn-02610777-v"], [42, "oewn-00002098-a"], [44, "oewn-00998530-v"]]
+    oewn_key: [[2, "oewn-02610777-v"], [3, "oewn-00002098-a"], [5, "oewn-00998530-v"], [7, "oewn-06525357-n"], [11, "oewn-14085287-n"], [13, "oewn-02076759-a"], [14, "oewn-01126910-a"], [15, "oewn-06753097-n"], [18, "oewn-00007846-n"], [20, "oewn-02740363-v"], [22, "oewn-00453543-a"], [23, "oewn-01771841-a"], [25, "oewn-13952070-n"], [29, "oewn-00998530-v"], [31, "oewn-06525357-n"], [34, "oewn-00722912-n"], [36, "oewn-01011267-v"], [38, "oewn-09201896-n"], [41, "oewn-02610777-v"], [42, "oewn-00002098-a"], [44, "oewn-00998530-v"]]
     paragraph: '10'
     pos: ["IN", "PRP", "VBP", "JJ", "TO", "VB", "DT", "NN", ",", "IN", "IN", "NN", "CC", "JJ", "JJ", "NN", ",", "DT", "NN", "WP", "VBZ", "VB", "JJ", "JJ", "CC", "NN", "TO", "PRP", "MD", "VB", "DT", "NN", "IN", "PRP$", "NN", ",", "VBG", "DT", "NN", "WRB", "PRP", "VBP", "JJ", "TO", "VB", "."]
     text: ' If you are unable to sign the request, because of illness or other good cause, another
@@ -374,7 +374,7 @@ RRcr:
     wn30_key: [[2, "be%2:42:03::"], [3, "unable%3:00:00::"], [5, "sign%2:32:02::"], [7, "request%1:10:01::"], [11, "illness%1:26:00::"], [13, "other%3:00:00::"], [14, "good%3:00:01::"], [15, "cause%1:10:00::"], [18, "person%1:03:00::"], [20, "stand%2:42:03::"], [22, "close%3:00:02::"], [23, "personal%3:00:00::"], [25, "business_relationship%1:26:00::"], [29, "sign%2:32:02::"], [31, "request%1:10:01::"], [34, "behalf%1:04:00::"], [36, "state%2:32:00::"], [38, "reason%1:16:00::"], [41, "be%2:42:03::"], [42, "unable%3:00:00::"], [44, "sign%2:32:02::"]]
 tA3h:
     lemmas: ["You", "should", "make", "any", "request", "for", "an", "extension", "early", "so", "that", "if", "it", "be", "refuse", ",", "your", "return", "may", "still", "be", "on_time", "."]
-    oewn2026_key: [[2, "oewn-02566500-v"], [4, "oewn-06525357-n"], [7, "oewn-15297368-n"], [8, "oewn-00101231-r"], [9, "oewn-00119259-r"], [14, "oewn-02242120-v"], [17, "oewn-06560662-n"], [19, "oewn-00031700-r"], [20, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-02566500-v"], [4, "oewn-06525357-n"], [7, "oewn-15297368-n"], [8, "oewn-00101231-r"], [9, "oewn-00119259-r"], [14, "oewn-02242120-v"], [17, "oewn-06560662-n"], [19, "oewn-00031700-r"], [20, "oewn-02610777-v"]]
     paragraph: '10'
     pos: ["PRP", "MD", "VB", "DT", "NN", "IN", "DT", "NN", "RB", "RB", "RB", "IN", "PRP", "VBZ", "VBN", ",", "PRP$", "NN", "MD", "RB", "VB", "JJ", "."]
     text: ' You should make any request for an extension early so that if it is refused, your
@@ -384,7 +384,7 @@ tA3h:
     wn30_key: [[2, "make%2:41:00::"], [4, "request%1:10:01::"], [7, "extension%1:28:00::"], [8, "early%4:02:01::"], [9, "so%4:02:06::"], [14, "refuse%2:40:00::"], [17, "return%1:10:01::"], [19, "still%4:02:01::"], [20, "be%2:42:03::"]]
 vgcy:
     lemmas: ["see_also", "interest_on_unpaid_tax", ",", "below", "."]
-    oewn2026_key: [[3, "oewn-00080132-r"]]
+    oewn_key: [[3, "oewn-00080132-r"]]
     paragraph: '10'
     pos: ["RB", "NN", ",", "RB", "."]
     text: ' See_also Interest_on_Unpaid_Taxes, below.
@@ -395,7 +395,7 @@ vgcy:
     wn30_key: [[3, "below%4:02:00::"]]
 wAh8:
     lemmas: ["citizen", "of", "the", "united_states", "who", ",", "on", "april", "15", ",", "be", "not", "in", "the", "united_states", "or", "puerto_rico", ",", "be", "allow", "an", "extension", "of", "time", "until", "june", "15", "for", "file", "the", "return", "for", "the", "preceding", "calendar_year", "."]
-    oewn2026_key: [[0, "oewn-09943131-n"], [3, "oewn-09067337-n"], [7, "oewn-15235985-n"], [10, "oewn-02661230-v"], [11, "oewn-00024432-r"], [14, "oewn-09067337-n"], [16, "oewn-08770807-n"], [19, "oewn-02260270-v"], [21, "oewn-15297368-n"], [23, "oewn-15295388-n"], [25, "oewn-15236602-n"], [28, "oewn-01003902-v"], [30, "oewn-06560662-n"], [33, "oewn-00126583-a"], [34, "oewn-15227430-n"]]
+    oewn_key: [[0, "oewn-09943131-n"], [3, "oewn-09067337-n"], [7, "oewn-15235985-n"], [10, "oewn-02661230-v"], [11, "oewn-00024432-r"], [14, "oewn-09067337-n"], [16, "oewn-08770807-n"], [19, "oewn-02260270-v"], [21, "oewn-15297368-n"], [23, "oewn-15295388-n"], [25, "oewn-15236602-n"], [28, "oewn-01003902-v"], [30, "oewn-06560662-n"], [33, "oewn-00126583-a"], [34, "oewn-15227430-n"]]
     paragraph: '11'
     pos: ["NNS", "IN", "DT", "NNS", "WP", ",", "IN", "NNP", "CD", ",", "VBP", "RB", "IN", "DT", "NN", "CC", "NN", ",", "VB", "VBN", "DT", "NN", "IN", "NN", "IN", "NNP", "CD", "IN", "VBG", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
     text: ' Citizens of the United_States who, on April 15, are not in the United_States or
@@ -406,7 +406,7 @@ wAh8:
     wn30_key: [[0, "citizen%1:18:00::"], [3, "united_states%1:15:00::"], [7, "april%1:28:00::"], [10, "be%2:42:05::"], [11, "not%4:02:00::"], [14, "united_states%1:15:00::"], [16, "puerto_rico%1:15:00::"], [19, "allow%2:40:00::"], [21, "extension%1:28:00::"], [23, "time%1:28:05::"], [25, "june%1:28:00::"], [28, "file%2:32:02::"], [30, "return%1:10:01::"], [33, "preceding%3:00:00::"], [34, "calendar_year%1:28:00::"]]
 WC6D:
     lemmas: ["An", "extension", "of", "2", "month", "beyond", "the", "regular", "due_date", "for", "file", "be", "also", "available", "to", "taxpayer", "make", "return", "for", "a", "fiscal_year", "."]
-    oewn2026_key: [[1, "oewn-15297368-n"], [3, "oewn-02194109-s"], [4, "oewn-15234209-n"], [7, "oewn-02375495-s"], [8, "oewn-15178185-n"], [10, "oewn-01003902-v"], [11, "oewn-02610777-v"], [12, "oewn-00048072-r"], [13, "oewn-00184353-a"], [15, "oewn-10713659-n"], [16, "oewn-02566500-v"], [17, "oewn-06560662-n"], [20, "oewn-15227916-n"]]
+    oewn_key: [[1, "oewn-15297368-n"], [3, "oewn-02194109-s"], [4, "oewn-15234209-n"], [7, "oewn-02375495-s"], [8, "oewn-15178185-n"], [10, "oewn-01003902-v"], [11, "oewn-02610777-v"], [12, "oewn-00048072-r"], [13, "oewn-00184353-a"], [15, "oewn-10713659-n"], [16, "oewn-02566500-v"], [17, "oewn-06560662-n"], [20, "oewn-15227916-n"]]
     paragraph: '11'
     pos: ["DT", "NN", "IN", "JJ", "NNS", "IN", "DT", "JJ", "NN", "IN", "VB", "VBZ", "RB", "JJ", "TO", "NNS", "VBG", "NNS", "IN", "DT", "NN", "."]
     text: ' An extension of 2 months beyond the regular due_date for filing is also available
@@ -418,7 +418,7 @@ WC6D:
     wn30_key: [[1, "extension%1:28:00::"], [3, "2%3:00:00:cardinal:00"], [4, "month%1:28:01::"], [7, "regular%3:00:00:scheduled:00"], [8, "due_date%1:28:00::"], [10, "file%2:32:02::"], [11, "be%2:42:03::"], [12, "also%4:02:00::"], [13, "available%3:00:00::"], [15, "taxpayer%1:18:00::"], [16, "make%2:41:00::"], [17, "return%1:10:01::"], [20, "fiscal_year%1:28:00::"]]
 LrdZ:
     lemmas: ["taxpayer", "reside", "or", "travel", "in", "alaska", "be", "also", "allow", "this", "extension", "of", "time", "for", "file", ",", "but", "those", "reside", "or", "travel", "in", "hawaii", "be", "not", "allow", "this", "automatic", "extension", "."]
-    oewn2026_key: [[0, "oewn-10713659-n"], [1, "oewn-02656647-v"], [3, "oewn-01849662-v"], [5, "oewn-09077478-n"], [7, "oewn-00048072-r"], [8, "oewn-02260270-v"], [10, "oewn-15297368-n"], [12, "oewn-15295388-n"], [14, "oewn-01003902-v"], [18, "oewn-02656647-v"], [20, "oewn-01849662-v"], [22, "oewn-09102030-n"], [24, "oewn-00024432-r"], [25, "oewn-02260270-v"], [27, "oewn-01503678-s"], [28, "oewn-15297368-n"]]
+    oewn_key: [[0, "oewn-10713659-n"], [1, "oewn-02656647-v"], [3, "oewn-01849662-v"], [5, "oewn-09077478-n"], [7, "oewn-00048072-r"], [8, "oewn-02260270-v"], [10, "oewn-15297368-n"], [12, "oewn-15295388-n"], [14, "oewn-01003902-v"], [18, "oewn-02656647-v"], [20, "oewn-01849662-v"], [22, "oewn-09102030-n"], [24, "oewn-00024432-r"], [25, "oewn-02260270-v"], [27, "oewn-01503678-s"], [28, "oewn-15297368-n"]]
     paragraph: '12'
     pos: ["NNPS", "VBG", "CC", "VBG", "IN", "NNP", "VBP", "RB", "VBN", "DT", "NN", "IN", "NN", "IN", "VB", ",", "CC", "DT", "VBG", "CC", "VBG", "IN", "NNP", "VBP", "RB", "VBN", "DT", "JJ", "NN", "."]
     text: ' Taxpayers residing or traveling in Alaska are also allowed this extension of time
@@ -431,7 +431,7 @@ LrdZ:
     wn30_key: [[0, "taxpayer%1:18:00::"], [1, "reside%2:42:00::"], [3, "travel%2:38:04::"], [5, "alaska%1:15:00::"], [7, "also%4:02:00::"], [8, "allow%2:40:00::"], [10, "extension%1:28:00::"], [12, "time%1:28:05::"], [14, "file%2:32:02::"], [18, "reside%2:42:00::"], [20, "travel%2:38:04::"], [22, "hawaii%1:15:01::"], [24, "not%4:02:00::"], [25, "allow%2:40:00::"], [27, "automatic%3:00:00:mechanical:00"], [28, "extension%1:28:00::"]]
 clFU:
     lemmas: ["military", "or", "naval", "personnel", "on_duty", "in", "alaska", "or", "outside", "the", "united_states", "and", "puerto_rico", "be", "also", "allow", "this", "automatic", "extension", "of", "time", "for", "file", "their", "return", "."]
-    oewn2026_key: [[0, "oewn-02775023-a"], [2, "oewn-02778473-a"], [3, "oewn-08224937-n"], [6, "oewn-09077478-n"], [10, "oewn-09067337-n"], [12, "oewn-08770807-n"], [14, "oewn-00048072-r"], [15, "oewn-02260270-v"], [17, "oewn-01503678-s"], [18, "oewn-15297368-n"], [20, "oewn-15295388-n"], [22, "oewn-01003902-v"], [24, "oewn-06560662-n"]]
+    oewn_key: [[0, "oewn-02775023-a"], [2, "oewn-02778473-a"], [3, "oewn-08224937-n"], [6, "oewn-09077478-n"], [10, "oewn-09067337-n"], [12, "oewn-08770807-n"], [14, "oewn-00048072-r"], [15, "oewn-02260270-v"], [17, "oewn-01503678-s"], [18, "oewn-15297368-n"], [20, "oewn-15295388-n"], [22, "oewn-01003902-v"], [24, "oewn-06560662-n"]]
     paragraph: '13'
     pos: ["JJ", "CC", "JJ", "NNP", "JJ", "IN", "NNP", "CC", "IN", "DT", "NNS", "CC", "NN", "VBP", "RB", "VBN", "DT", "JJ", "NN", "IN", "NN", "IN", "VBG", "PRP$", "NNS", "."]
     text: ' Military or Naval Personnel on_duty in Alaska or outside the United_States and Puerto_Rico
@@ -443,7 +443,7 @@ clFU:
     wn30_key: [[0, "military%3:01:00::"], [2, "naval%3:01:00::"], [3, "personnel%1:14:00::"], [6, "alaska%1:15:00::"], [10, "united_states%1:15:00::"], [12, "puerto_rico%1:15:00::"], [14, "also%4:02:00::"], [15, "allow%2:40:00::"], [17, "automatic%3:00:00:mechanical:00"], [18, "extension%1:28:00::"], [20, "time%1:28:05::"], [22, "file%2:32:02::"], [24, "return%1:10:01::"]]
 gjla:
     lemmas: ["You", "must", "attach", "a", "statement", "to", "your", "return", ",", "if", "you", "take_advantage", "of", "this", "automatic", "extension", ",", "show", "that", "you", "be", "in", "alaska", "or", "be", "outside", "the", "united_states", "or", "puerto_rico", "on", "april", "15", "or", "other", "due_date", "."]
-    oewn2026_key: [[2, "oewn-01299048-v"], [4, "oewn-06735202-n"], [7, "oewn-06560662-n"], [11, "oewn-02284617-v"], [14, "oewn-01503678-s"], [15, "oewn-15297368-n"], [17, "oewn-00666706-v"], [20, "oewn-02661230-v"], [22, "oewn-09077478-n"], [24, "oewn-02661230-v"], [27, "oewn-09067337-n"], [29, "oewn-08770807-n"], [31, "oewn-15235985-n"], [34, "oewn-02076759-a"], [35, "oewn-15178185-n"]]
+    oewn_key: [[2, "oewn-01299048-v"], [4, "oewn-06735202-n"], [7, "oewn-06560662-n"], [11, "oewn-02284617-v"], [14, "oewn-01503678-s"], [15, "oewn-15297368-n"], [17, "oewn-00666706-v"], [20, "oewn-02661230-v"], [22, "oewn-09077478-n"], [24, "oewn-02661230-v"], [27, "oewn-09067337-n"], [29, "oewn-08770807-n"], [31, "oewn-15235985-n"], [34, "oewn-02076759-a"], [35, "oewn-15178185-n"]]
     paragraph: '14'
     pos: ["PRP", "MD", "VB", "DT", "NN", "TO", "PRP$", "NN", ",", "IN", "PRP", "VB", "VB", "DT", "JJ", "NN", ",", "VBG", "IN", "PRP", "VBD", "IN", "NNP", "CC", "VBD", "IN", "DT", "NN", "CC", "NN", "IN", "NNP", "JJ", "CC", "JJ", "NN", "."]
     text: ' You must attach a statement to your return, if you take_advantage of this automatic
@@ -456,7 +456,7 @@ gjla:
     wn30_key: [[2, "attach%2:35:01::"], [4, "statement%1:10:00::"], [7, "return%1:10:01::"], [11, "take_advantage%2:40:00::"], [14, "automatic%3:00:00:mechanical:00"], [15, "extension%1:28:00::"], [17, "show%2:31:00::"], [20, "be%2:42:05::"], [22, "alaska%1:15:00::"], [24, "be%2:42:05::"], [27, "united_states%1:15:00::"], [29, "puerto_rico%1:15:00::"], [31, "april%1:28:00::"], [34, "other%3:00:00::"], [35, "due_date%1:28:00::"]]
 ORVD:
     lemmas: ["interest", "at", "the", "rate", "of", "6", "%", "a", "year", "must", "be", "pay", "on", "tax", "that", "be", "not", "pay", "on", "or", "before", "their", "due_date", "."]
-    oewn2026_key: [[0, "oewn-13339606-n"], [3, "oewn-13346032-n"], [5, "oewn-02194472-s"], [8, "oewn-15228587-n"], [11, "oewn-02256551-v"], [13, "oewn-13330021-n"], [16, "oewn-00024432-r"], [17, "oewn-02256551-v"], [22, "oewn-15178185-n"]]
+    oewn_key: [[0, "oewn-13339606-n"], [3, "oewn-13346032-n"], [5, "oewn-02194472-s"], [8, "oewn-15228587-n"], [11, "oewn-02256551-v"], [13, "oewn-13330021-n"], [16, "oewn-00024432-r"], [17, "oewn-02256551-v"], [22, "oewn-15178185-n"]]
     paragraph: '15'
     pos: ["NN", "IN", "DT", "NN", "IN", "JJ", "NN", "DT", "NN", "MD", "VB", "VBN", "IN", "NNS", "WDT", "VBP", "RB", "VBN", "RB", "CC", "IN", "PRP$", "NN", "."]
     text: ' Interest at the rate of 6% a year must be paid on taxes that are not paid on or
@@ -466,7 +466,7 @@ ORVD:
     wn30_key: [[0, "interest%1:21:00::"], [3, "rate%1:21:00::"], [5, "6%3:00:00:cardinal:00"], [8, "year%1:28:01::"], [11, "pay%2:40:00::"], [13, "tax%1:21:00::"], [16, "not%4:02:00::"], [17, "pay%2:40:00::"], [22, "due_date%1:28:00::"]]
 a9YY:
     lemmas: ["such", "interest", "must", "be", "pay", "even", "though", "an", "extension", "of", "time", "for", "file", "be", "grant", "."]
-    oewn2026_key: [[0, "oewn-01558587-s"], [1, "oewn-13339606-n"], [4, "oewn-02256551-v"], [5, "oewn-00018505-r"], [6, "oewn-00120034-r"], [8, "oewn-15297368-n"], [10, "oewn-15295388-n"], [12, "oewn-01003902-v"], [14, "oewn-02260270-v"]]
+    oewn_key: [[0, "oewn-01558587-s"], [1, "oewn-13339606-n"], [4, "oewn-02256551-v"], [5, "oewn-00018505-r"], [6, "oewn-00120034-r"], [8, "oewn-15297368-n"], [10, "oewn-15295388-n"], [12, "oewn-01003902-v"], [14, "oewn-02260270-v"]]
     paragraph: '15'
     pos: ["JJ", "NN", "MD", "VB", "VBN", "RB", "RB", "DT", "NN", "IN", "NN", "IN", "VB", "VBZ", "VBN", "."]
     text: ' Such interest must be paid even though an extension of time for filing is granted.
@@ -477,7 +477,7 @@ a9YY:
     wn30_key: [[0, "such%3:00:00:much:00"], [1, "interest%1:21:00::"], [4, "pay%2:40:00::"], [5, "even%4:02:03::"], [6, "though%4:02:01::"], [8, "extension%1:28:00::"], [10, "time%1:28:05::"], [12, "file%2:32:02::"], [14, "grant%2:40:01::"]]
 cvk+:
     lemmas: ["If", "your", "computation", "on", "Form_1040", "or", "Form_1040_A", "show", "you", "owe", "additional", "tax", ",", "it", "should", "be", "remit", "with", "your", "return", "unless", "you", "owe", "less_than", "$", "1", ",", "in", "which", "case", "it", "be", "forgive", "."]
-    oewn2026_key: [[2, "oewn-05810193-n"], [9, "oewn-02258764-v"], [10, "oewn-00049078-s"], [11, "oewn-13330021-n"], [16, "oewn-02259889-v"], [19, "oewn-06560662-n"], [22, "oewn-02258963-v"], [25, "oewn-02193977-s"], [29, "oewn-13966452-n"], [32, "oewn-02570341-v"]]
+    oewn_key: [[2, "oewn-05810193-n"], [9, "oewn-02258764-v"], [10, "oewn-00049078-s"], [11, "oewn-13330021-n"], [16, "oewn-02259889-v"], [19, "oewn-06560662-n"], [22, "oewn-02258963-v"], [25, "oewn-02193977-s"], [29, "oewn-13966452-n"], [32, "oewn-02570341-v"]]
     paragraph: '16'
     pos: ["IN", "PRP$", "NN", "IN", "CD", "CC", "DT", "VB", "PRP", "VBP", "JJ", "NN", ",", "PRP", "MD", "VB", "VBN", "IN", "PRP$", "NN", "IN", "PRP", "VBP", "RB", "$", "JJ", ",", "RB", "RB", "NN", "PRP", "VBZ", "VBN", "."]
     text: ' If your computation on Form_1040 or Form_1040_A shows you owe additional tax, it
@@ -488,7 +488,7 @@ cvk+:
     wn30_key: [[2, "computation%1:09:00::"], [9, "owe%2:40:00::"], [10, "additional%3:00:03:additive:00"], [11, "tax%1:21:00::"], [16, "remit%2:40:00::"], [19, "return%1:10:01::"], [22, "owe%2:40:01::"], [25, "1%3:00:00:cardinal:00"], [29, "case%1:26:00::"], [32, "forgive%2:41:00::"]]
 kn/P:
     lemmas: ["If", "payment", "be", "by", "cash", ",", "you", "should", "ask", "for", "a", "receipt", "."]
-    oewn2026_key: [[1, "oewn-01122769-n"], [2, "oewn-02610777-v"], [4, "oewn-13407787-n"], [8, "oewn-00754499-v"], [11, "oewn-06532213-n"]]
+    oewn_key: [[1, "oewn-01122769-n"], [2, "oewn-02610777-v"], [4, "oewn-13407787-n"], [8, "oewn-00754499-v"], [11, "oewn-06532213-n"]]
     paragraph: '16'
     pos: ["IN", "NN", "VBZ", "IN", "NN", ",", "PRP", "MD", "VB", "VB", "DT", "NN", "."]
     text: ' If payment is by cash, you should ask for a receipt.'
@@ -497,7 +497,7 @@ kn/P:
     wn30_key: [[1, "payment%1:04:00::"], [2, "be%2:42:03::"], [4, "cash%1:21:00::"], [8, "ask%2:32:01::"], [11, "receipt%1:10:00::"]]
 dBne:
     lemmas: ["If", "you", "file", "Form_1040_A", "and", "the", "person", "compute", "your", "tax", ",", "you", "will", "be", "send", "a", "bill", "if", "additional", "tax", "be_due", "."]
-    oewn2026_key: [[2, "oewn-01003902-v"], [6, "oewn-00007846-n"], [7, "oewn-00638921-v"], [9, "oewn-13330021-n"], [14, "oewn-01033289-v"], [16, "oewn-06528946-n"], [18, "oewn-00049078-s"], [19, "oewn-13330021-n"], [20, "oewn-02640648-v"]]
+    oewn_key: [[2, "oewn-01003902-v"], [6, "oewn-00007846-n"], [7, "oewn-00638921-v"], [9, "oewn-13330021-n"], [14, "oewn-01033289-v"], [16, "oewn-06528946-n"], [18, "oewn-00049078-s"], [19, "oewn-13330021-n"], [20, "oewn-02640648-v"]]
     paragraph: '16'
     pos: ["IN", "PRP", "VBP", "DT", "CC", "DT", "NN", "VBZ", "PRP$", "NN", ",", "PRP", "MD", "VB", "VBN", "DT", "NN", "IN", "JJ", "NN", "VB", "."]
     text: ' If you file Form_1040_A and the District_Director computes your tax, you will be
@@ -507,7 +507,7 @@ dBne:
     wn30_key: [[2, "file%2:32:02::"], [6, "person%1:03:00::"], [7, "compute%2:31:00::"], [9, "tax%1:21:00::"], [14, "send%2:32:00::"], [16, "bill%1:10:01::"], [18, "additional%3:00:03:additive:00"], [19, "tax%1:21:00::"], [20, "be_due%2:42:00::"]]
 nDfZ:
     lemmas: ["This", "bill", "should", "be", "pay", "within", "30", "day", "."]
-    oewn2026_key: [[1, "oewn-06528946-n"], [4, "oewn-02256551-v"], [6, "oewn-02196945-s"], [7, "oewn-15180180-n"]]
+    oewn_key: [[1, "oewn-06528946-n"], [4, "oewn-02256551-v"], [6, "oewn-02196945-s"], [7, "oewn-15180180-n"]]
     paragraph: '16'
     pos: ["DT", "NN", "MD", "VB", "VBN", "IN", "JJ", "NNS", "."]
     text: ' This bill should be paid within 30 days.
@@ -518,7 +518,7 @@ nDfZ:
     wn30_key: [[1, "bill%1:10:01::"], [4, "pay%2:40:00::"], [6, "30%3:00:00:cardinal:00"], [7, "day%1:28:00::"]]
 2zGt:
     lemmas: ["Whether", "the", "check", "be", "certify", "or", "uncertified", ",", "the", "tax", "be", "not", "pay", "until", "the", "check", "be", "pay", "."]
-    oewn2026_key: [[2, "oewn-13402907-n"], [3, "oewn-02610777-v"], [4, "oewn-02354809-v"], [6, "oewn-00343800-a"], [9, "oewn-13330021-n"], [11, "oewn-00024432-r"], [12, "oewn-02257739-v"], [15, "oewn-13402907-n"], [17, "oewn-02256551-v"]]
+    oewn_key: [[2, "oewn-13402907-n"], [3, "oewn-02610777-v"], [4, "oewn-02354809-v"], [6, "oewn-00343800-a"], [9, "oewn-13330021-n"], [11, "oewn-00024432-r"], [12, "oewn-02257739-v"], [15, "oewn-13402907-n"], [17, "oewn-02256551-v"]]
     paragraph: '17'
     pos: ["IN", "DT", "NN", "VBZ", "VBN", "CC", "JJ", ",", "DT", "NN", "VBZ", "RB", "VBN", "IN", "DT", "NN", "VBZ", "VBN", "."]
     text: ' Whether the check is certified or uncertified, the tax is not paid until the check
@@ -528,7 +528,7 @@ nDfZ:
     wn30_key: [[2, "check%1:21:00::"], [3, "be%2:42:03::"], [4, "certify%2:40:02::"], [6, "uncertified%3:00:00::"], [9, "tax%1:21:00::"], [11, "not%4:02:00::"], [12, "pay%2:40:04::"], [15, "check%1:21:00::"], [17, "pay%2:40:00::"]]
 NvyX:
     lemmas: ["If", "the", "check", "be", "not", "good", "and", "the", "april", "15", "or", "other", "due_date", "deadline", "elapse", ",", "addition", "to", "the", "tax", "may", "be", "incur", "."]
-    oewn2026_key: [[2, "oewn-13402907-n"], [3, "oewn-02610777-v"], [4, "oewn-00024432-r"], [5, "oewn-01126910-a"], [8, "oewn-15235985-n"], [11, "oewn-02076759-a"], [12, "oewn-15178185-n"], [13, "oewn-15204935-n"], [14, "oewn-02076777-v"], [16, "oewn-13776433-n"], [19, "oewn-13330021-n"], [22, "oewn-02726906-v"]]
+    oewn_key: [[2, "oewn-13402907-n"], [3, "oewn-02610777-v"], [4, "oewn-00024432-r"], [5, "oewn-01126910-a"], [8, "oewn-15235985-n"], [11, "oewn-02076759-a"], [12, "oewn-15178185-n"], [13, "oewn-15204935-n"], [14, "oewn-02076777-v"], [16, "oewn-13776433-n"], [19, "oewn-13330021-n"], [22, "oewn-02726906-v"]]
     paragraph: '17'
     pos: ["IN", "DT", "NN", "VBZ", "RB", "JJ", "CC", "DT", "NNP", "JJ", "CC", "JJ", "NN", "NN", "VBZ", ",", "NNS", "TO", "DT", "NN", "MD", "VB", "VBN", "."]
     text: ' If the check is not good and the April 15 or other due_date deadline elapses, additions
@@ -538,7 +538,7 @@ NvyX:
     wn30_key: [[2, "check%1:21:00::"], [3, "be%2:42:03::"], [4, "not%4:02:00::"], [5, "good%3:00:01::"], [8, "april%1:28:00::"], [11, "other%3:00:00::"], [12, "due_date%1:28:00::"], [13, "deadline%1:28:00::"], [14, "elapse%2:38:00::"], [16, "addition%1:23:00::"], [19, "tax%1:21:00::"], [22, "incur%2:42:00::"]]
 KEK7:
     lemmas: ["furthermore", ",", "a", "bad", "check", "may", "subject", "the", "maker", "to", "certain", "penalty", "."]
-    oewn2026_key: [[0, "oewn-00029763-r"], [3, "oewn-01129296-a"], [4, "oewn-13402907-n"], [6, "oewn-02115410-v"], [8, "oewn-10303761-n"], [10, "oewn-00704329-s"], [11, "oewn-13321578-n;oewn-01162829-n"]]
+    oewn_key: [[0, "oewn-00029763-r"], [3, "oewn-01129296-a"], [4, "oewn-13402907-n"], [6, "oewn-02115410-v"], [8, "oewn-10303761-n"], [10, "oewn-00704329-s"], [11, "oewn-13321578-n;oewn-01162829-n"]]
     paragraph: '17'
     pos: ["RB", ",", "DT", "JJ", "NN", "MD", "VB", "DT", "NN", "TO", "JJ", "NNS", "."]
     text: ' Furthermore, a bad check may subject the maker to certain penalties.'
@@ -547,7 +547,7 @@ KEK7:
     wn30_key: [[0, "furthermore%4:02:00::"], [3, "bad%3:00:00::"], [4, "check%1:21:00::"], [6, "subject%2:39:03::"], [8, "maker%1:18:00::"], [10, "certain%3:00:00:definite:00"], [11, "penalty%1:21:00::;penalty%1:04:00::"]]
 se3F:
     lemmas: ["All", "check", "and", "money_order", "should", "be", "make", "payable", "to", "internal_revenue_service", "."]
-    oewn2026_key: [[1, "oewn-13402907-n"], [3, "oewn-13401993-n"], [6, "oewn-00120124-v"], [7, "oewn-00137973-s"]]
+    oewn_key: [[1, "oewn-13402907-n"], [3, "oewn-13401993-n"], [6, "oewn-00120124-v"], [7, "oewn-00137973-s"]]
     paragraph: '17'
     pos: ["DT", "NNS", "CC", "NNS", "MD", "VB", "VBN", "JJ", "TO", "NNP", "."]
     text: ' All checks and money_orders should be made payable to Internal_Revenue_Service.
@@ -558,7 +558,7 @@ se3F:
     wn30_key: [[1, "check%1:21:00::"], [3, "money_order%1:21:00::"], [6, "make%2:30:00::"], [7, "payable%3:00:00:due:00"]]
 /suc:
     lemmas: ["An", "overpayment", "of", "income", "and", "social_security", "tax", "entitle", "you", "to", "a", "refund", "unless", "you", "indicate", "on", "the", "return", "that", "the", "overpayment", "should", "be", "apply", "to", "your", "succeeding", "year", "'s", "estimated", "tax", "."]
-    oewn2026_key: [[1, "oewn-13300069-n"], [3, "oewn-13276044-n"], [5, "oewn-01089863-n"], [6, "oewn-13330021-n"], [7, "oewn-02452235-v"], [11, "oewn-13303184-n"], [14, "oewn-00925764-v"], [17, "oewn-06560662-n"], [20, "oewn-13300069-n"], [23, "oewn-01161188-v"], [26, "oewn-00128168-a"], [27, "oewn-15228587-n"], [30, "oewn-13330021-n"]]
+    oewn_key: [[1, "oewn-13300069-n"], [3, "oewn-13276044-n"], [5, "oewn-01089863-n"], [6, "oewn-13330021-n"], [7, "oewn-02452235-v"], [11, "oewn-13303184-n"], [14, "oewn-00925764-v"], [17, "oewn-06560662-n"], [20, "oewn-13300069-n"], [23, "oewn-01161188-v"], [26, "oewn-00128168-a"], [27, "oewn-15228587-n"], [30, "oewn-13330021-n"]]
     paragraph: '18'
     pos: ["DT", "NN", "IN", "NN", "CC", "NN", "NNS", "VBZ", "PRP", "TO", "DT", "NN", "IN", "PRP", "VBP", "IN", "DT", "NN", "IN", "DT", "NN", "MD", "VB", "VBN", "VB", "PRP$", "JJ", "NN", "POS", "JJ", "NN", "."]
     text: ' An overpayment of income and social_security taxes entitles you to a refund unless
@@ -571,7 +571,7 @@ se3F:
     wn30_key: [[1, "overpayment%1:21:00::"], [3, "income%1:21:00::"], [5, "social_security%1:04:00::"], [6, "tax%1:21:00::"], [7, "entitle%2:41:00::"], [11, "refund%1:21:00::"], [14, "indicate%2:32:03::"], [17, "return%1:10:01::"], [20, "overpayment%1:21:00::"], [23, "apply%2:34:00::"], [26, "succeeding%3:00:00::"], [27, "year%1:28:01::"], [30, "tax%1:21:00::"]]
 NNJY:
     lemmas: ["If", "you", "file", "Form_1040_A", "and", "the", "person", "compute", "your", "tax", ",", "any", "refund", "to", "which", "you", "be", "entitled", "will", "be", "mail", "to", "you", "."]
-    oewn2026_key: [[2, "oewn-01003902-v"], [6, "oewn-00007846-n"], [7, "oewn-00638921-v"], [9, "oewn-13330021-n"], [12, "oewn-13303184-n"], [16, "oewn-02610777-v"], [17, "oewn-00855604-s"], [20, "oewn-01440525-v"]]
+    oewn_key: [[2, "oewn-01003902-v"], [6, "oewn-00007846-n"], [7, "oewn-00638921-v"], [9, "oewn-13330021-n"], [12, "oewn-13303184-n"], [16, "oewn-02610777-v"], [17, "oewn-00855604-s"], [20, "oewn-01440525-v"]]
     paragraph: '19'
     pos: ["IN", "PRP", "VBP", "DT", "CC", "DT", "NN", "VBZ", "PRP$", "NN", ",", "DT", "NN", "RB", "RB", "PRP", "VBP", "JJ", "MD", "VB", "VBN", "TO", "PRP", "."]
     text: ' If you file Form_1040_A and the District_Director computes your tax, any refund
@@ -583,7 +583,7 @@ NNJY:
     wn30_key: [[2, "file%2:32:02::"], [6, "person%1:03:00::"], [7, "compute%2:31:00::"], [9, "tax%1:21:00::"], [12, "refund%1:21:00::"], [16, "be%2:42:03::"], [17, "entitled%3:00:00:eligible:00"], [20, "mail%2:35:00::"]]
 AYJM:
     lemmas: ["If", "you", "file", "a", "Form_1040", ",", "you", "should", "indicate", "in", "the", "place", "provide", "that", "there", "be", "an", "overpayment", "of", "tax", "and", "the", "amount", "you", "want", "refund", "and", "the", "amount", "you", "want", "credit", "against", "your", "estimated", "tax", "."]
-    oewn2026_key: [[2, "oewn-01003902-v"], [8, "oewn-00925764-v"], [11, "oewn-06401196-n"], [12, "oewn-02332196-v"], [15, "oewn-02610777-v"], [17, "oewn-13300069-n"], [19, "oewn-13330021-n"], [22, "oewn-05115065-n"], [24, "oewn-01829179-v"], [25, "oewn-02289796-v"], [28, "oewn-05115065-n"], [30, "oewn-01829179-v"], [31, "oewn-02269560-v"], [35, "oewn-13330021-n"]]
+    oewn_key: [[2, "oewn-01003902-v"], [8, "oewn-00925764-v"], [11, "oewn-06401196-n"], [12, "oewn-02332196-v"], [15, "oewn-02610777-v"], [17, "oewn-13300069-n"], [19, "oewn-13330021-n"], [22, "oewn-05115065-n"], [24, "oewn-01829179-v"], [25, "oewn-02289796-v"], [28, "oewn-05115065-n"], [30, "oewn-01829179-v"], [31, "oewn-02269560-v"], [35, "oewn-13330021-n"]]
     paragraph: '20'
     pos: ["IN", "PRP", "VBP", "DT", "CD", ",", "PRP", "MD", "VB", "IN", "DT", "NN", "VBD", "IN", "EX", "VBZ", "DT", "NN", "IN", "NN", "CC", "DT", "NN", "PRP", "VBP", "VBN", "CC", "DT", "NN", "PRP", "VBP", "VBN", "IN", "PRP$", "JJ", "NN", "."]
     text: ' If you file a Form_1040, you should indicate in the place provided that there is
@@ -596,7 +596,7 @@ AYJM:
     wn30_key: [[2, "file%2:32:02::"], [8, "indicate%2:32:03::"], [11, "place%1:10:01::"], [12, "provide%2:40:00::"], [15, "be%2:42:04::"], [17, "overpayment%1:21:00::"], [19, "tax%1:21:00::"], [22, "amount%1:07:00::"], [24, "want%2:37:00::"], [25, "refund%2:40:00::"], [28, "amount%1:07:00::"], [30, "want%2:37:00::"], [31, "credit%2:40:00::"], [35, "tax%1:21:00::"]]
 XS9z:
     lemmas: ["refund", "of", "less_than", "$", "1", "will", "not", "be", "make", "unless", "you", "attach", "a", "separate", "application", "to", "your", "return", "request", "such", "a", "refund", "."]
-    oewn2026_key: [[0, "oewn-13303184-n"], [4, "oewn-02193977-s"], [6, "oewn-00024432-r"], [8, "oewn-00120124-v"], [11, "oewn-01299048-v"], [13, "oewn-02116958-a"], [14, "oewn-06524571-n"], [17, "oewn-06560662-n"], [18, "oewn-00754770-v"], [19, "oewn-01558587-s"], [21, "oewn-13303184-n"]]
+    oewn_key: [[0, "oewn-13303184-n"], [4, "oewn-02193977-s"], [6, "oewn-00024432-r"], [8, "oewn-00120124-v"], [11, "oewn-01299048-v"], [13, "oewn-02116958-a"], [14, "oewn-06524571-n"], [17, "oewn-06560662-n"], [18, "oewn-00754770-v"], [19, "oewn-01558587-s"], [21, "oewn-13303184-n"]]
     paragraph: '21'
     pos: ["NNS", "IN", "RB", "$", "JJ", "MD", "RB", "VB", "VBN", "IN", "PRP", "VBP", "DT", "JJ", "NN", "TO", "PRP$", "NN", "VBG", "JJ", "DT", "NN", "."]
     text: ' Refunds of less_than $1 will not be made unless you attach a separate application
@@ -608,7 +608,7 @@ XS9z:
     wn30_key: [[0, "refund%1:21:00::"], [4, "1%3:00:00:cardinal:00"], [6, "not%4:02:00::"], [8, "make%2:30:00::"], [11, "attach%2:35:01::"], [13, "separate%3:00:00::"], [14, "application%1:10:00::"], [17, "return%1:10:01::"], [18, "request%2:32:01::"], [19, "such%3:00:00:much:00"], [21, "refund%1:21:00::"]]
 0OGl:
     lemmas: ["send", "your", "return", "to", "the", "person", "for", "the", "district", "in", "which", "you", "have", "your", "legal", "residence", "or", "principal", "place_of_business", "."]
-    oewn2026_key: [[0, "oewn-01033289-v"], [2, "oewn-06560662-n"], [5, "oewn-00007846-n"], [8, "oewn-08569713-n"], [12, "oewn-02208144-v"], [14, "oewn-02508961-s"], [15, "oewn-08576500-n"], [17, "oewn-01280536-s"], [18, "oewn-03959296-n"]]
+    oewn_key: [[0, "oewn-01033289-v"], [2, "oewn-06560662-n"], [5, "oewn-00007846-n"], [8, "oewn-08569713-n"], [12, "oewn-02208144-v"], [14, "oewn-02508961-s"], [15, "oewn-08576500-n"], [17, "oewn-01280536-s"], [18, "oewn-03959296-n"]]
     paragraph: '22'
     pos: ["VB", "PRP$", "NN", "VB", "DT", "NN", "IN", "DT", "NN", "RB", "RB", "PRP", "VBP", "PRP$", "JJ", "NN", "CC", "JJ", "NN", "."]
     text: ' Send your return to the Director_of_Internal_Revenue for the district in which you
@@ -618,7 +618,7 @@ XS9z:
     wn30_key: [[0, "send%2:32:00::"], [2, "return%1:10:01::"], [5, "person%1:03:00::"], [8, "district%1:15:00::"], [12, "have%2:40:00::"], [14, "legal%3:00:00:valid:00"], [15, "residence%1:15:00::"], [17, "principal%3:00:00:important:00"], [18, "place_of_business%1:06:00::"]]
 aCk1:
     lemmas: ["If", "you", "have", "neither", "a", "legal", "residence", "nor", "a", "principal", "place_of_business", "in", "any", "internal_revenue", "district", ",", "your", "return", "should", "be", "file", "with", "the", "person", ",", "baltimore", "2", ",", "maryland", "."]
-    oewn2026_key: [[2, "oewn-02208144-v"], [5, "oewn-02508961-s"], [6, "oewn-08576500-n"], [9, "oewn-01280536-s"], [10, "oewn-03959296-n"], [13, "oewn-13282976-n"], [14, "oewn-08569713-n"], [17, "oewn-06560662-n"], [20, "oewn-01003902-v"], [23, "oewn-00007846-n"], [25, "oewn-09116965-n"], [28, "oewn-09116186-n"]]
+    oewn_key: [[2, "oewn-02208144-v"], [5, "oewn-02508961-s"], [6, "oewn-08576500-n"], [9, "oewn-01280536-s"], [10, "oewn-03959296-n"], [13, "oewn-13282976-n"], [14, "oewn-08569713-n"], [17, "oewn-06560662-n"], [20, "oewn-01003902-v"], [23, "oewn-00007846-n"], [25, "oewn-09116965-n"], [28, "oewn-09116186-n"]]
     paragraph: '22'
     pos: ["IN", "PRP", "VBP", "DT", "DT", "JJ", "NN", "CC", "DT", "JJ", "NN", "IN", "DT", "NN", "NN", ",", "PRP$", "NN", "MD", "VB", "VBN", "IN", "DT", "NN", ",", "NNP", "NN", ",", "NNP", "."]
     text: ' If you have neither a legal residence nor a principal place_of_business in any internal_revenue
@@ -629,7 +629,7 @@ aCk1:
     wn30_key: [[2, "have%2:40:00::"], [5, "legal%3:00:00:valid:00"], [6, "residence%1:15:00::"], [9, "principal%3:00:00:important:00"], [10, "place_of_business%1:06:00::"], [13, "internal_revenue%1:21:00::"], [14, "district%1:15:00::"], [17, "return%1:10:01::"], [20, "file%2:32:02::"], [23, "person%1:03:00::"], [25, "baltimore%1:15:00::"], [28, "maryland%1:15:00::"]]
 0iw6:
     lemmas: ["If", "your", "principal", "place", "of", "abode", "for", "the", "tax", "year", "be", "outside", "the", "united_states", "(", "include", "alaska", "and", "hawaii", ")", ",", "puerto_rico", ",", "or", "the", "virgin_islands", "and", "you", "have", "no", "legal", "residence", "or", "principal", "place_of_business", "in", "any", "internal_revenue", "district", "in", "the", "united_states", ",", "you", "should", "file", "your", "return", "with", "the", "office_of_international_operation", ",", "group", ",", "washington", "25", ",", "dc", "."]
-    oewn2026_key: [[2, "oewn-01280536-s"], [3, "oewn-08530790-n"], [5, "oewn-08576500-n"], [8, "oewn-13330021-n"], [9, "oewn-15229093-n"], [10, "oewn-02661230-v"], [13, "oewn-09067337-n"], [15, "oewn-02639021-v"], [16, "oewn-09077478-n"], [18, "oewn-09100742-n"], [21, "oewn-08770807-n"], [25, "oewn-08772362-n"], [28, "oewn-02208144-v"], [30, "oewn-02508961-s"], [31, "oewn-08576500-n"], [33, "oewn-01280536-s"], [34, "oewn-03959296-n"], [37, "oewn-13282976-n"], [38, "oewn-08569713-n"], [41, "oewn-09067337-n"], [45, "oewn-01003902-v"], [47, "oewn-06560662-n"], [52, "oewn-00031563-n"], [54, "oewn-09093291-n"], [57, "oewn-09092985-n"]]
+    oewn_key: [[2, "oewn-01280536-s"], [3, "oewn-08530790-n"], [5, "oewn-08576500-n"], [8, "oewn-13330021-n"], [9, "oewn-15229093-n"], [10, "oewn-02661230-v"], [13, "oewn-09067337-n"], [15, "oewn-02639021-v"], [16, "oewn-09077478-n"], [18, "oewn-09100742-n"], [21, "oewn-08770807-n"], [25, "oewn-08772362-n"], [28, "oewn-02208144-v"], [30, "oewn-02508961-s"], [31, "oewn-08576500-n"], [33, "oewn-01280536-s"], [34, "oewn-03959296-n"], [37, "oewn-13282976-n"], [38, "oewn-08569713-n"], [41, "oewn-09067337-n"], [45, "oewn-01003902-v"], [47, "oewn-06560662-n"], [52, "oewn-00031563-n"], [54, "oewn-09093291-n"], [57, "oewn-09092985-n"]]
     paragraph: '22'
     pos: ["IN", "PRP$", "JJ", "NN", "IN", "NN", "IN", "DT", "NN", "NN", "VBZ", "IN", "DT", "NN", "FW", "VBG", "NNP", "CC", "NNP", "NNP", ",", "NN", ",", "CC", "NN", "NNPS", "CC", "PRP", "VBP", "DT", "JJ", "NN", "CC", "JJ", "NN", "IN", "DT", "NN", "NN", "IN", "DT", "NNS", ",", "PRP", "MD", "VB", "PRP$", "NN", "IN", "DT", "NNP", ",", "NN", ",", "NNP", "NN", ",", "NN", "."]
     text: ' If your principal place of abode for the tax year is outside the United_States (including
@@ -644,7 +644,7 @@ aCk1:
     wn30_key: [[2, "principal%3:00:00:important:00"], [3, "place%1:15:04::"], [5, "abode%1:15:00::"], [8, "tax%1:21:00::"], [9, "year%1:28:02::"], [10, "be%2:42:05::"], [13, "united_states%1:15:00::"], [15, "include%2:42:00::"], [16, "alaska%1:15:00::"], [18, "hawaii%1:15:00::"], [21, "puerto_rico%1:15:00::"], [25, "virgin_islands%1:15:00::"], [28, "have%2:40:00::"], [30, "legal%3:00:00:valid:00"], [31, "residence%1:15:00::"], [33, "principal%3:00:00:important:00"], [34, "place_of_business%1:06:00::"], [37, "internal_revenue%1:21:00::"], [38, "district%1:15:00::"], [41, "united_states%1:15:00::"], [45, "file%2:32:02::"], [47, "return%1:10:01::"], [52, "group%1:03:00::"], [54, "washington%1:15:01::"], [57, "dc%1:15:00::"]]
 RAle:
     lemmas: ["The", "deduction", "allow", "in", "determine", "Adjusted_Gross_Income", "put", "all", "taxpayer", "on", "a", "comparable", "basis", "."]
-    oewn2026_key: [[1, "oewn-13350069-n"], [2, "oewn-00803980-v"], [4, "oewn-00920843-v"], [6, "oewn-01496398-v"], [8, "oewn-10713659-n"], [11, "oewn-00505894-a"], [12, "oewn-13813124-n"]]
+    oewn_key: [[1, "oewn-13350069-n"], [2, "oewn-00803980-v"], [4, "oewn-00920843-v"], [6, "oewn-01496398-v"], [8, "oewn-10713659-n"], [11, "oewn-00505894-a"], [12, "oewn-13813124-n"]]
     paragraph: '23'
     pos: ["DT", "NNS", "VBN", "VB", "VBG", "NN", "VBD", "DT", "NNS", "IN", "DT", "JJ", "NN", "."]
     text: ' The deductions allowed in determining Adjusted_Gross_Income put all taxpayers on
@@ -654,7 +654,7 @@ RAle:
     wn30_key: [[1, "deduction%1:21:01::"], [2, "allow%2:32:00::"], [4, "determine%2:32:00::"], [6, "put%2:35:05::"], [8, "taxpayer%1:18:00::"], [11, "comparable%3:00:00::"], [12, "basis%1:24:00::"]]
 2T4n:
     lemmas: ["It", "be", "the", "amount", "you", "enter", "on", "line", "9", ",", "page", "1", "of", "Form_1040", "."]
-    oewn2026_key: [[1, "oewn-02622439-v"], [3, "oewn-13352213-n"], [5, "oewn-01002259-v"], [7, "oewn-08610818-n"], [8, "oewn-02194800-s"], [10, "oewn-06267274-n"], [11, "oewn-02193977-s"]]
+    oewn_key: [[1, "oewn-02622439-v"], [3, "oewn-13352213-n"], [5, "oewn-01002259-v"], [7, "oewn-08610818-n"], [8, "oewn-02194800-s"], [10, "oewn-06267274-n"], [11, "oewn-02193977-s"]]
     paragraph: '23'
     pos: ["PRP", "VBZ", "DT", "NN", "PRP", "VBP", "JJ", "NN", "JJ", ",", "NN", "JJ", "IN", "CD", "."]
     text: ' It is the amount you enter on line 9, page 1 of Form_1040.'
@@ -663,7 +663,7 @@ RAle:
     wn30_key: [[1, "be%2:42:06::"], [3, "amount%1:21:00::"], [5, "enter%2:32:04::"], [7, "line%1:15:00::"], [8, "9%3:00:00:cardinal:00"], [10, "page%1:10:00::"], [11, "1%3:00:00:cardinal:00"]]
 oatQ:
     lemmas: ["Some", "deduction", "be", "subtract", "from", "gross", "income", "to", "determine", "Adjusted_Gross_Income", "."]
-    oewn2026_key: [[1, "oewn-13350069-n"], [3, "oewn-00642914-v"], [5, "oewn-01587229-a"], [6, "oewn-13276044-n"], [8, "oewn-00920843-v"]]
+    oewn_key: [[1, "oewn-13350069-n"], [3, "oewn-00642914-v"], [5, "oewn-01587229-a"], [6, "oewn-13276044-n"], [8, "oewn-00920843-v"]]
     paragraph: '23'
     pos: ["DT", "NNS", "VBP", "VBN", "IN", "JJ", "NNP", "TO", "VB", "NN", "."]
     text: ' Some deductions are subtracted from Gross Income to determine Adjusted_Gross_Income.'
@@ -672,7 +672,7 @@ oatQ:
     wn30_key: [[1, "deduction%1:21:01::"], [3, "subtract%2:31:00::"], [5, "gross%3:00:00::"], [6, "income%1:21:00::"], [8, "determine%2:32:00::"]]
 5V4x:
     lemmas: ["other", "deduction", "be", "subtract", "only", "from", "Adjusted_Gross_Income", "in", "arrive", "at", "Taxable_Income", "."]
-    oewn2026_key: [[0, "oewn-02076759-a"], [1, "oewn-13350069-n"], [3, "oewn-00642914-v"], [4, "oewn-00009062-r"], [8, "oewn-02009962-v"]]
+    oewn_key: [[0, "oewn-02076759-a"], [1, "oewn-13350069-n"], [3, "oewn-00642914-v"], [4, "oewn-00009062-r"], [8, "oewn-02009962-v"]]
     paragraph: '23'
     pos: ["JJ", "NNS", "VBP", "VBN", "RB", "IN", "NN", "IN", "VBG", "VB", "NNP", "."]
     text: ' Other deductions are subtracted only from Adjusted_Gross_Income in arriving at Taxable_Income.
@@ -683,7 +683,7 @@ oatQ:
     wn30_key: [[0, "other%3:00:00::"], [1, "deduction%1:21:01::"], [3, "subtract%2:31:00::"], [4, "only%4:02:01::"], [8, "arrive%2:38:00::"]]
 AyjA:
     lemmas: ["To", "compute", "your", "adjusted", "gross", "income", "you", "total", "all", "item", "of", "income", "."]
-    oewn2026_key: [[1, "oewn-00638921-v"], [3, "oewn-00351723-a"], [4, "oewn-01587229-a"], [5, "oewn-13276044-n"], [7, "oewn-00951320-v"], [9, "oewn-06494090-n"], [11, "oewn-13276044-n"]]
+    oewn_key: [[1, "oewn-00638921-v"], [3, "oewn-00351723-a"], [4, "oewn-01587229-a"], [5, "oewn-13276044-n"], [7, "oewn-00951320-v"], [9, "oewn-06494090-n"], [11, "oewn-13276044-n"]]
     paragraph: '24'
     pos: ["TO", "VB", "PRP$", "JJ", "JJ", "NN", "PRP", "VBP", "DT", "NNS", "IN", "NN", "."]
     text: ' To compute your adjusted gross income you total all items of income.'
@@ -692,7 +692,7 @@ AyjA:
     wn30_key: [[1, "compute%2:31:00::"], [3, "adjusted%3:00:00::"], [4, "gross%3:00:00::"], [5, "income%1:21:00::"], [7, "total%2:32:00::"], [9, "item%1:10:00::"], [11, "income%1:21:00::"]]
 7QJs:
     lemmas: ["(", "see", "chapter", "6", ".", ")"]
-    oewn2026_key: [[2, "oewn-06407785-n"], [3, "oewn-13766862-n"]]
+    oewn_key: [[2, "oewn-06407785-n"], [3, "oewn-13766862-n"]]
     paragraph: '24'
     pos: ["NNP", "RB", "NNP", "NN", ".", "NN"]
     text: ' (See Chapter 6.)'
@@ -701,7 +701,7 @@ AyjA:
     wn30_key: [[2, "chapter%1:10:00::"], [3, "6%1:23:00::"]]
 1xF8:
     lemmas: ["From", "this", "amount", "deduct", "the", "item", "indicate", "below", "."]
-    oewn2026_key: [[2, "oewn-13352213-n"], [3, "oewn-00642914-v"], [5, "oewn-06494090-n"], [6, "oewn-00929986-v"], [7, "oewn-00080132-r"]]
+    oewn_key: [[2, "oewn-13352213-n"], [3, "oewn-00642914-v"], [5, "oewn-06494090-n"], [6, "oewn-00929986-v"], [7, "oewn-00080132-r"]]
     paragraph: '24'
     pos: ["IN", "DT", "NN", "VB", "DT", "NNS", "VBD", "RB", "."]
     text: ' From this amount deduct the items indicated below.
@@ -712,7 +712,7 @@ AyjA:
     wn30_key: [[2, "amount%1:21:00::"], [3, "deduct%2:31:01::"], [5, "item%1:10:00::"], [6, "indicate%2:32:00::"], [7, "below%4:02:00::"]]
 3jXH:
     lemmas: ["businessman", "deduct", "all", "ordinary", "and", "necessary", "expense", "attributable", "to", "a", "trade", "or", "business", "."]
-    oewn2026_key: [[0, "oewn-09901459-n"], [1, "oewn-00642914-v"], [3, "oewn-01677162-a"], [5, "oewn-01584458-a"], [6, "oewn-13296518-n"], [7, "oewn-00172851-a"], [10, "oewn-00607485-n"], [12, "oewn-08077878-n"]]
+    oewn_key: [[0, "oewn-09901459-n"], [1, "oewn-00642914-v"], [3, "oewn-01677162-a"], [5, "oewn-01584458-a"], [6, "oewn-13296518-n"], [7, "oewn-00172851-a"], [10, "oewn-00607485-n"], [12, "oewn-08077878-n"]]
     paragraph: '25'
     pos: ["NNS", "VBP", "DT", "JJ", "CC", "JJ", "NNS", "JJ", "TO", "DT", "NN", "CC", "NN", "."]
     text: ' Businessmen deduct all ordinary and necessary expenses attributable to a trade or
@@ -724,7 +724,7 @@ AyjA:
     wn30_key: [[0, "businessman%1:18:00::"], [1, "deduct%2:31:01::"], [3, "ordinary%3:00:00::"], [5, "necessary%3:00:00::"], [6, "expense%1:21:00::"], [7, "attributable%3:00:00::"], [10, "trade%1:04:00::"], [12, "business%1:14:00::"]]
 AIx1:
     lemmas: ["If", "you", "hold", "property", "for", "the", "production", "of", "rent", "or", "royalty", "you", "subtract", ",", "in", "compute", "Adjusted_Gross_Income", ",", "ordinary", "and", "necessary", "expense", "and", "certain", "other", "deduction", "attributable", "to", "the", "property", "."]
-    oewn2026_key: [[2, "oewn-02307200-v;oewn-02208144-v"], [3, "oewn-13265007-n"], [6, "oewn-00914791-n"], [8, "oewn-13316680-n"], [10, "oewn-13278881-n"], [12, "oewn-00642914-v"], [15, "oewn-00638921-v"], [18, "oewn-01677162-a"], [20, "oewn-01584458-a"], [21, "oewn-13296518-n"], [23, "oewn-00704329-s"], [24, "oewn-02076759-a"], [25, "oewn-13350069-n"], [26, "oewn-00172851-a"], [29, "oewn-13265007-n"]]
+    oewn_key: [[2, "oewn-02307200-v;oewn-02208144-v"], [3, "oewn-13265007-n"], [6, "oewn-00914791-n"], [8, "oewn-13316680-n"], [10, "oewn-13278881-n"], [12, "oewn-00642914-v"], [15, "oewn-00638921-v"], [18, "oewn-01677162-a"], [20, "oewn-01584458-a"], [21, "oewn-13296518-n"], [23, "oewn-00704329-s"], [24, "oewn-02076759-a"], [25, "oewn-13350069-n"], [26, "oewn-00172851-a"], [29, "oewn-13265007-n"]]
     paragraph: '26'
     pos: ["IN", "PRP", "VBP", "NN", "IN", "DT", "NN", "IN", "NNS", "CC", "NNS", "PRP", "VBP", ",", "IN", "VBG", "NN", ",", "JJ", "CC", "JJ", "NNS", "CC", "JJ", "JJ", "NNS", "JJ", "TO", "DT", "NN", "."]
     text: ' If you hold property for the production of rents or royalties you subtract, in computing
@@ -735,7 +735,7 @@ AIx1:
     wn30_key: [[2, "hold%2:40:04::;hold%2:40:00::"], [3, "property%1:21:00::"], [6, "production%1:04:00::"], [8, "rent%1:21:00::"], [10, "royalty%1:21:00::"], [12, "subtract%2:31:00::"], [15, "compute%2:31:00::"], [18, "ordinary%3:00:00::"], [20, "necessary%3:00:00::"], [21, "expense%1:21:00::"], [23, "certain%3:00:00:definite:00"], [24, "other%3:00:00::"], [25, "deduction%1:21:01::"], [26, "attributable%3:00:00::"], [29, "property%1:21:00::"]]
 9NeF:
     lemmas: ["(", "see", "chapter", "15", ".", ")"]
-    oewn2026_key: [[2, "oewn-06407785-n"], [3, "oewn-13769609-n"]]
+    oewn_key: [[2, "oewn-06407785-n"], [3, "oewn-13769609-n"]]
     paragraph: '26'
     pos: ["NNP", "RB", "NNP", "NN", ".", "NN"]
     text: ' (See Chapter 15.)
@@ -746,7 +746,7 @@ AIx1:
     wn30_key: [[2, "chapter%1:10:00::"], [3, "15%1:23:00::"]]
 Qela:
     lemmas: ["outside", "salesman", "deduct", "all", "expense", "attributable", "to", "earn", "a", "salary", ",", "commission", ",", "or", "other", "compensation", "."]
-    oewn2026_key: [[0, "oewn-01350597-s"], [1, "oewn-10568094-n"], [2, "oewn-00642914-v"], [4, "oewn-13296518-n"], [5, "oewn-00172851-a"], [7, "oewn-02294200-v"], [9, "oewn-13300285-n"], [11, "oewn-13341882-n"], [14, "oewn-02076759-a"], [15, "oewn-13303573-n"]]
+    oewn_key: [[0, "oewn-01350597-s"], [1, "oewn-10568094-n"], [2, "oewn-00642914-v"], [4, "oewn-13296518-n"], [5, "oewn-00172851-a"], [7, "oewn-02294200-v"], [9, "oewn-13300285-n"], [11, "oewn-13341882-n"], [14, "oewn-02076759-a"], [15, "oewn-13303573-n"]]
     paragraph: '27'
     pos: ["JJ", "NNS", "VBP", "DT", "NNS", "JJ", "TO", "VBG", "DT", "NN", ",", "NN", ",", "CC", "JJ", "NN", "."]
     text: ' Outside salesmen deduct all expenses attributable to earning a salary, commission,
@@ -756,7 +756,7 @@ Qela:
     wn30_key: [[0, "outside%3:00:00:extramural:00"], [1, "salesman%1:18:00::"], [2, "deduct%2:31:01::"], [4, "expense%1:21:00::"], [5, "attributable%3:00:00::"], [7, "earn%2:40:01::"], [9, "salary%1:21:00::"], [11, "commission%1:21:00::"], [14, "other%3:00:00::"], [15, "compensation%1:21:00::"]]
 9yn7:
     lemmas: ["(", "see", "chapter", "10", ".", ")"]
-    oewn2026_key: [[2, "oewn-06407785-n"], [3, "oewn-13768652-n"]]
+    oewn_key: [[2, "oewn-06407785-n"], [3, "oewn-13768652-n"]]
     paragraph: '27'
     pos: ["NNP", "RB", "NNP", "NN", ".", "NN"]
     text: ' (See Chapter 10.)
@@ -767,7 +767,7 @@ Qela:
     wn30_key: [[2, "chapter%1:10:00::"], [3, "10%1:23:00::"]]
 mW22:
     lemmas: ["employee", "deduct", "expense", "of", "travel", ",", "meal", "and", "lodge", "while", "away", "from", "home", "in_connection_with", "the", "performance", "of", "their", "services", "as", "employee", "."]
-    oewn2026_key: [[0, "oewn-10073616-n"], [1, "oewn-00642914-v"], [2, "oewn-13296518-n"], [4, "oewn-00296527-n"], [6, "oewn-07589261-n"], [8, "oewn-02658589-v"], [12, "oewn-08577045-n"], [15, "oewn-00098324-n"], [18, "oewn-00586211-n"], [20, "oewn-10073616-n"]]
+    oewn_key: [[0, "oewn-10073616-n"], [1, "oewn-00642914-v"], [2, "oewn-13296518-n"], [4, "oewn-00296527-n"], [6, "oewn-07589261-n"], [8, "oewn-02658589-v"], [12, "oewn-08577045-n"], [15, "oewn-00098324-n"], [18, "oewn-00586211-n"], [20, "oewn-10073616-n"]]
     paragraph: '28'
     pos: ["NNS", "VBP", "NNS", "IN", "NN", ",", "NNS", "CC", "VBG", "VB", "VB", "IN", "NN", "IN", "DT", "NN", "IN", "PRP$", "NNS", "IN", "NNS", "."]
     text: ' Employees deduct expenses of travel, meals and lodging while away from home in_connection_with
@@ -777,7 +777,7 @@ mW22:
     wn30_key: [[0, "employee%1:18:00::"], [1, "deduct%2:31:01::"], [2, "expense%1:21:00::"], [4, "travel%1:04:00::"], [6, "meal%1:13:00::"], [8, "lodge%2:42:02::"], [12, "home%1:15:04::"], [15, "performance%1:04:00::"], [18, "services%1:04:00::"], [20, "employee%1:18:00::"]]
 QX4v:
     lemmas: ["They", "also", "deduct", "transportation", "expense", "incur", "in_connection_with", "the", "performance", "of", "services", "as", "employee", "even", "though", "they", "be", "not", "away", "from", "home", "."]
-    oewn2026_key: [[1, "oewn-00048072-r"], [2, "oewn-00642914-v"], [3, "oewn-00316812-n"], [4, "oewn-13296518-n"], [5, "oewn-02726906-v"], [8, "oewn-00098324-n"], [10, "oewn-00586211-n"], [12, "oewn-10073616-n"], [13, "oewn-00018505-r"], [14, "oewn-00120034-r"], [16, "oewn-02661230-v"], [17, "oewn-00024432-r"], [18, "oewn-00234667-r"], [20, "oewn-08577045-n"]]
+    oewn_key: [[1, "oewn-00048072-r"], [2, "oewn-00642914-v"], [3, "oewn-00316812-n"], [4, "oewn-13296518-n"], [5, "oewn-02726906-v"], [8, "oewn-00098324-n"], [10, "oewn-00586211-n"], [12, "oewn-10073616-n"], [13, "oewn-00018505-r"], [14, "oewn-00120034-r"], [16, "oewn-02661230-v"], [17, "oewn-00024432-r"], [18, "oewn-00234667-r"], [20, "oewn-08577045-n"]]
     paragraph: '28'
     pos: ["PRP", "RB", "VBP", "NN", "NNS", "VBD", "IN", "DT", "NN", "RB", "NNS", "IN", "NNS", "RB", "RB", "PRP", "VBP", "RB", "RB", "RB", "NN", "."]
     text: ' They also deduct transportation expenses incurred in_connection_with the performance
@@ -787,7 +787,7 @@ QX4v:
     wn30_key: [[1, "also%4:02:00::"], [2, "deduct%2:31:01::"], [3, "transportation%1:04:00::"], [4, "expense%1:21:00::"], [5, "incur%2:42:00::"], [8, "performance%1:04:00::"], [10, "services%1:04:00::"], [12, "employee%1:18:00::"], [13, "even%4:02:03::"], [14, "though%4:02:01::"], [16, "be%2:42:05::"], [17, "not%4:02:00::"], [18, "away%4:02:00::"], [20, "home%1:15:04::"]]
 As3m:
     lemmas: ["(", "see", "chapter", "12", ".", ")"]
-    oewn2026_key: [[2, "oewn-06407785-n"], [3, "oewn-13768925-n"]]
+    oewn_key: [[2, "oewn-06407785-n"], [3, "oewn-13768925-n"]]
     paragraph: '28'
     pos: ["NNP", "RB", "NNP", "NN", ".", "NN"]
     text: ' (See Chapter 12.)'
@@ -796,7 +796,7 @@ As3m:
     wn30_key: [[2, "chapter%1:10:00::"], [3, "12%1:23:00::"]]
 jif6:
     lemmas: ["If", "your", "employer", "reimburse", "you", "for", "expense", "incur", ",", "you", "deduct", "such", "expense", "if", "they", "otherwise", "qualify", "."]
-    oewn2026_key: [[2, "oewn-10074465-n"], [3, "oewn-02290050-v"], [6, "oewn-13296518-n"], [7, "oewn-02726906-v"], [10, "oewn-00642914-v"], [11, "oewn-01558587-s"], [12, "oewn-13296518-n"], [15, "oewn-00046442-r"], [16, "oewn-02684822-v"]]
+    oewn_key: [[2, "oewn-10074465-n"], [3, "oewn-02290050-v"], [6, "oewn-13296518-n"], [7, "oewn-02726906-v"], [10, "oewn-00642914-v"], [11, "oewn-01558587-s"], [12, "oewn-13296518-n"], [15, "oewn-00046442-r"], [16, "oewn-02684822-v"]]
     paragraph: '28'
     pos: ["IN", "PRP$", "NN", "VBZ", "PRP", "IN", "NNS", "VBN", ",", "PRP", "VBP", "JJ", "NNS", "IN", "PRP", "RB", "VBP", "."]
     text: ' If your employer reimburses you for expenses incurred, you deduct such expenses
@@ -806,7 +806,7 @@ jif6:
     wn30_key: [[2, "employer%1:18:00::"], [3, "reimburse%2:40:00::"], [6, "expense%1:21:00::"], [7, "incur%2:42:00::"], [10, "deduct%2:31:01::"], [11, "such%3:00:00:much:00"], [12, "expense%1:21:00::"], [15, "otherwise%4:02:01::"], [16, "qualify%2:42:00::"]]
 y5j5:
     lemmas: ["(", "see", "chapter", "10", ".", ")"]
-    oewn2026_key: [[2, "oewn-06407785-n"], [3, "oewn-13768652-n"]]
+    oewn_key: [[2, "oewn-06407785-n"], [3, "oewn-13768652-n"]]
     paragraph: '28'
     pos: ["NNP", "RB", "NNP", "NN", ".", "NN"]
     text: ' (See Chapter 10.)
@@ -817,7 +817,7 @@ y5j5:
     wn30_key: [[2, "chapter%1:10:00::"], [3, "10%1:23:00::"]]
 SmuL:
     lemmas: ["sick_pay", ",", "if", "include", "in", "your", "gross", "income", ",", "be", "deduct", "in", "arrive", "at", "Adjusted_Gross_Income", "."]
-    oewn2026_key: [[0, "oewn-13301818-n"], [3, "oewn-02639021-v"], [6, "oewn-01587229-a"], [7, "oewn-13276044-n"], [10, "oewn-00642914-v"], [12, "oewn-02009962-v"]]
+    oewn_key: [[0, "oewn-13301818-n"], [3, "oewn-02639021-v"], [6, "oewn-01587229-a"], [7, "oewn-13276044-n"], [10, "oewn-00642914-v"], [12, "oewn-02009962-v"]]
     paragraph: '29'
     pos: ["NN", ",", "IN", "VBN", "IN", "PRP$", "JJ", "NNP", ",", "VBZ", "VBN", "IN", "VBG", "VB", "NN", "."]
     text: ' Sick_pay, if included in your Gross Income, is deducted in arriving at Adjusted_Gross_Income.'
@@ -826,7 +826,7 @@ SmuL:
     wn30_key: [[0, "sick_pay%1:21:00::"], [3, "include%2:42:00::"], [6, "gross%3:00:00::"], [7, "income%1:21:00::"], [10, "deduct%2:31:01::"], [12, "arrive%2:38:00::"]]
 IMiN:
     lemmas: ["If", "your", "sick_pay", "be", "not", "include", "in", "your", "gross", "income", ",", "you", "may_not", "deduct", "it", "."]
-    oewn2026_key: [[2, "oewn-13301818-n"], [4, "oewn-00024432-r"], [5, "oewn-02639021-v"], [8, "oewn-01587229-a"], [9, "oewn-13276044-n"], [13, "oewn-00642914-v"]]
+    oewn_key: [[2, "oewn-13301818-n"], [4, "oewn-00024432-r"], [5, "oewn-02639021-v"], [8, "oewn-01587229-a"], [9, "oewn-13276044-n"], [13, "oewn-00642914-v"]]
     paragraph: '29'
     pos: ["IN", "PRP$", "NN", "VBZ", "RB", "VBN", "IN", "PRP$", "JJ", "NNP", ",", "PRP", "VB", "VB", "PRP", "."]
     text: ' If your sick_pay is not included in your Gross Income, you may_not deduct it.'
@@ -835,7 +835,7 @@ IMiN:
     wn30_key: [[2, "sick_pay%1:21:00::"], [4, "not%4:02:00::"], [5, "include%2:42:00::"], [8, "gross%3:00:00::"], [9, "income%1:21:00::"], [13, "deduct%2:31:01::"]]
 873b:
     lemmas: ["(", "see", "chapter", "9", ".", ")"]
-    oewn2026_key: [[2, "oewn-06407785-n"], [3, "oewn-13767410-n"]]
+    oewn_key: [[2, "oewn-06407785-n"], [3, "oewn-13767410-n"]]
     paragraph: '29'
     pos: ["NNP", "RB", "NNP", "NN", ".", "NN"]
     text: ' (See Chapter 9.)
@@ -846,7 +846,7 @@ IMiN:
     wn30_key: [[2, "chapter%1:10:00::"], [3, "9%1:23:00::"]]
 Ca3h:
     lemmas: ["If", "you", "be", "a", "life_tenant", ",", "you", "deduct", "allowable", "depreciation", "and", "depletion", "."]
-    oewn2026_key: [[2, "oewn-02622439-v"], [4, "oewn-10280908-n"], [7, "oewn-00642914-v"], [8, "oewn-00693155-s"], [9, "oewn-00365426-n"], [11, "oewn-00357025-n"]]
+    oewn_key: [[2, "oewn-02622439-v"], [4, "oewn-10280908-n"], [7, "oewn-00642914-v"], [8, "oewn-00693155-s"], [9, "oewn-00365426-n"], [11, "oewn-00357025-n"]]
     paragraph: '30'
     pos: ["IN", "PRP", "VBP", "DT", "NN", ",", "PRP", "VBP", "JJ", "NN", "CC", "NN", "."]
     text: ' If you are a life_tenant, you deduct allowable depreciation and depletion.'
@@ -855,7 +855,7 @@ Ca3h:
     wn30_key: [[2, "be%2:42:06::"], [4, "life_tenant%1:18:00::"], [7, "deduct%2:31:01::"], [8, "allowable%3:00:00:deductible:00"], [9, "depreciation%1:04:00::"], [11, "depletion%1:04:00::"]]
 A/z3:
     lemmas: ["If", "you", "be", "an", "income", "beneficiary", "of", "property", "hold", "in", "trust", "or", "an", "heir", ",", "legatee", ",", "or", "devisee", ",", "you", "may", "deduct", "allowable", "depreciation", "and", "depletion", ",", "if", "not", "deductible", "by", "the", "estate", "or", "trust", "."]
-    oewn2026_key: [[2, "oewn-02622439-v"], [4, "oewn-13276044-n"], [5, "oewn-09869529-n"], [7, "oewn-13265007-n"], [8, "oewn-02307200-v;oewn-02687605-v"], [10, "oewn-13381671-n"], [13, "oewn-10188177-n"], [15, "oewn-10273308-n"], [18, "oewn-10030286-n"], [22, "oewn-00642914-v"], [23, "oewn-00693155-s"], [24, "oewn-00365426-n"], [26, "oewn-00357025-n"], [29, "oewn-00024432-r"], [30, "oewn-00692950-a"], [33, "oewn-13271829-n"], [35, "oewn-13381671-n"]]
+    oewn_key: [[2, "oewn-02622439-v"], [4, "oewn-13276044-n"], [5, "oewn-09869529-n"], [7, "oewn-13265007-n"], [8, "oewn-02307200-v;oewn-02687605-v"], [10, "oewn-13381671-n"], [13, "oewn-10188177-n"], [15, "oewn-10273308-n"], [18, "oewn-10030286-n"], [22, "oewn-00642914-v"], [23, "oewn-00693155-s"], [24, "oewn-00365426-n"], [26, "oewn-00357025-n"], [29, "oewn-00024432-r"], [30, "oewn-00692950-a"], [33, "oewn-13271829-n"], [35, "oewn-13381671-n"]]
     paragraph: '30'
     pos: ["IN", "PRP", "VBP", "DT", "NN", "NN", "IN", "NN", "VBN", "VB", "NN", "CC", "DT", "NN", ",", "NN", ",", "CC", "NN", ",", "PRP", "MD", "VB", "JJ", "NN", "CC", "NN", ",", "RB", "RB", "JJ", "IN", "DT", "NN", "CC", "NN", "."]
     text: ' If you are an income beneficiary of property held in trust or an heir, legatee,
@@ -868,7 +868,7 @@ A/z3:
     wn30_key: [[2, "be%2:42:06::"], [4, "income%1:21:00::"], [5, "beneficiary%1:18:00::"], [7, "property%1:21:00::"], [8, "hold%2:40:04::;hold%2:42:00::"], [10, "trust%1:21:03::"], [13, "heir%1:18:00::"], [15, "legatee%1:18:00::"], [18, "devisee%1:18:00::"], [22, "deduct%2:31:01::"], [23, "allowable%3:00:00:deductible:00"], [24, "depreciation%1:04:00::"], [26, "depletion%1:04:00::"], [29, "not%4:02:00::"], [30, "deductible%3:00:00::"], [33, "estate%1:21:02::"], [35, "trust%1:21:03::"]]
 xV81:
     lemmas: ["deductible", "losses", "on", "sale", "or", "exchange", "of", "property", "be", "allowable", "in", "determine", "your", "Adjusted_Gross_Income", "."]
-    oewn2026_key: [[0, "oewn-00692950-a"], [1, "oewn-13350344-n"], [3, "oewn-01119862-n"], [5, "oewn-01111372-n"], [7, "oewn-13265007-n"], [8, "oewn-02610777-v"], [9, "oewn-00693155-s"], [11, "oewn-00920843-v"]]
+    oewn_key: [[0, "oewn-00692950-a"], [1, "oewn-13350344-n"], [3, "oewn-01119862-n"], [5, "oewn-01111372-n"], [7, "oewn-13265007-n"], [8, "oewn-02610777-v"], [9, "oewn-00693155-s"], [11, "oewn-00920843-v"]]
     paragraph: '31'
     pos: ["JJ", "NNS", "IN", "NNS", "CC", "NNS", "IN", "NN", "VBP", "JJ", "IN", "VBG", "PRP$", "NN", "."]
     text: ' Deductible losses on sales or exchanges of property are allowable in determining
@@ -878,7 +878,7 @@ xV81:
     wn30_key: [[0, "deductible%3:00:00::"], [1, "losses%1:21:00::"], [3, "sale%1:04:02::"], [5, "exchange%1:04:03::"], [7, "property%1:21:00::"], [8, "be%2:42:03::"], [9, "allowable%3:00:00:deductible:00"], [11, "determine%2:32:00::"]]
 ZDtQ:
     lemmas: ["(", "see", "chapter", "20", ".", ")"]
-    oewn2026_key: [[2, "oewn-06407785-n"], [3, "oewn-13770268-n"]]
+    oewn_key: [[2, "oewn-06407785-n"], [3, "oewn-13770268-n"]]
     paragraph: '31'
     pos: ["NNP", "RB", "NNP", "NN", ".", "NN"]
     text: ' (See Chapter 20.)
@@ -889,7 +889,7 @@ ZDtQ:
     wn30_key: [[2, "chapter%1:10:00::"], [3, "20%1:23:00::"]]
 XGFO:
     lemmas: ["You", "also", "deduct", "50", "%", "of", "the", "excess", "of", "net", "long-term", "capital_gain", "over", "net", "short-term", "capital_loss", "in", "determine", "Adjusted_Gross_Income", "."]
-    oewn2026_key: [[1, "oewn-00048072-r"], [2, "oewn-00642914-v"], [3, "oewn-02198871-s"], [7, "oewn-05127014-n"], [9, "oewn-01586869-a"], [10, "oewn-01443874-s"], [11, "oewn-13332852-n"], [13, "oewn-01586869-a"], [14, "oewn-01446733-s"], [15, "oewn-13333032-n"], [17, "oewn-00920843-v"]]
+    oewn_key: [[1, "oewn-00048072-r"], [2, "oewn-00642914-v"], [3, "oewn-02198871-s"], [7, "oewn-05127014-n"], [9, "oewn-01586869-a"], [10, "oewn-01443874-s"], [11, "oewn-13332852-n"], [13, "oewn-01586869-a"], [14, "oewn-01446733-s"], [15, "oewn-13333032-n"], [17, "oewn-00920843-v"]]
     paragraph: '32'
     pos: ["PRP", "RB", "VBP", "JJ", "NN", "IN", "DT", "NN", "IN", "JJ", "JJ", "NNS", "IN", "JJ", "JJ", "NNS", "IN", "VBG", "NN", "."]
     text: ' You also deduct 50% of the excess of net long-term capital_gains over net short-term
@@ -899,7 +899,7 @@ XGFO:
     wn30_key: [[1, "also%4:02:00::"], [2, "deduct%2:31:01::"], [3, "50%3:00:00:cardinal:00"], [7, "excess%1:07:02::"], [9, "net%3:00:00::"], [10, "long-term%3:00:00:long:02"], [11, "capital_gain%1:21:00::"], [13, "net%3:00:00::"], [14, "short-term%3:00:00:short:02"], [15, "capital_loss%1:21:00::"], [17, "determine%2:32:00::"]]
 re7R:
     lemmas: ["(", "see", "chapter", "24", ".", ")"]
-    oewn2026_key: [[2, "oewn-06407785-n"], [3, "oewn-13770762-n"]]
+    oewn_key: [[2, "oewn-06407785-n"], [3, "oewn-13770762-n"]]
     paragraph: '32'
     pos: ["NNP", "RB", "NNP", "NN", ".", "NN"]
     text: ' (See Chapter 24.)
@@ -910,7 +910,7 @@ re7R:
     wn30_key: [[2, "chapter%1:10:00::"], [3, "24%1:23:00::"]]
 B9W4:
     lemmas: ["certain", "other", "deduction", "be", "not", "allow", "in", "determine", "Adjusted_Gross_Income", "."]
-    oewn2026_key: [[0, "oewn-00704329-s"], [1, "oewn-02076759-a"], [2, "oewn-13350069-n"], [4, "oewn-00024432-r"], [5, "oewn-00803980-v"], [7, "oewn-00920843-v"]]
+    oewn_key: [[0, "oewn-00704329-s"], [1, "oewn-02076759-a"], [2, "oewn-13350069-n"], [4, "oewn-00024432-r"], [5, "oewn-00803980-v"], [7, "oewn-00920843-v"]]
     paragraph: '33'
     pos: ["JJ", "JJ", "NNS", "VB", "RB", "VBN", "VB", "VBG", "NN", "."]
     text: ' Certain other deductions are not allowed in determining Adjusted_Gross_Income.'
@@ -919,7 +919,7 @@ B9W4:
     wn30_key: [[0, "certain%3:00:00:definite:00"], [1, "other%3:00:00::"], [2, "deduction%1:21:01::"], [4, "not%4:02:00::"], [5, "allow%2:32:00::"], [7, "determine%2:32:00::"]]
 +RCC:
     lemmas: ["They", "may", "be", "claim", "only", "by", "itemize", "them", "on", "page", "2", "of", "Form_1040", "."]
-    oewn2026_key: [[3, "oewn-01020361-v"], [4, "oewn-00009062-r"], [6, "oewn-00948137-v"], [9, "oewn-06267274-n"], [10, "oewn-02194109-s"]]
+    oewn_key: [[3, "oewn-01020361-v"], [4, "oewn-00009062-r"], [6, "oewn-00948137-v"], [9, "oewn-06267274-n"], [10, "oewn-02194109-s"]]
     paragraph: '33'
     pos: ["PRP", "MD", "VB", "VBN", "RB", "IN", "VBG", "PRP", "IN", "NN", "JJ", "IN", "CD", "."]
     text: ' They may be claimed only by itemizing them on page 2 of Form_1040.'
@@ -928,7 +928,7 @@ B9W4:
     wn30_key: [[3, "claim%2:32:02::"], [4, "only%4:02:01::"], [6, "itemize%2:32:00::"], [9, "page%1:10:00::"], [10, "2%3:00:00:cardinal:00"]]
 rQms:
     lemmas: ["These", "deduction", "may_not", "be", "claim", "if", "you", "elect", "to", "use", "the", "standard", "deduction", "or", "tax", "table", "."]
-    oewn2026_key: [[1, "oewn-13350069-n"], [4, "oewn-01020361-v"], [7, "oewn-00678783-v"], [9, "oewn-01161188-v"], [11, "oewn-02303673-a"], [12, "oewn-13350069-n"], [14, "oewn-13330021-n"], [15, "oewn-08283156-n"]]
+    oewn_key: [[1, "oewn-13350069-n"], [4, "oewn-01020361-v"], [7, "oewn-00678783-v"], [9, "oewn-01161188-v"], [11, "oewn-02303673-a"], [12, "oewn-13350069-n"], [14, "oewn-13330021-n"], [15, "oewn-08283156-n"]]
     paragraph: '33'
     pos: ["DT", "NNS", "VB", "VB", "VBN", "IN", "PRP", "VBP", "TO", "VB", "DT", "JJ", "NN", "CC", "NN", "NNP", "."]
     text: ' These deductions may_not be claimed if you elect to use the Standard Deduction or
@@ -938,7 +938,7 @@ rQms:
     wn30_key: [[1, "deduction%1:21:01::"], [4, "claim%2:32:02::"], [7, "elect%2:31:00::"], [9, "use%2:34:01::"], [11, "standard%3:00:02::"], [12, "deduction%1:21:01::"], [14, "tax%1:21:00::"], [15, "table%1:14:00::"]]
 XbsA:
     lemmas: ["(", "see", "chapter", "30", "through", "37", ".", ")"]
-    oewn2026_key: [[2, "oewn-06407785-n"], [3, "oewn-13771547-n"]]
+    oewn_key: [[2, "oewn-06407785-n"], [3, "oewn-13771547-n"]]
     paragraph: '33'
     pos: ["NNP", "RB", "NNP", "NN", "IN", "CD", ".", "NN"]
     text: ' (See Chapters 30 through 37.)
@@ -949,7 +949,7 @@ XbsA:
     wn30_key: [[2, "chapter%1:10:00::"], [3, "30%1:23:00::"]]
 276d:
     lemmas: ["A", "minor", "be", "subject", "to", "tax", "on", "his", "own", "earnings", "even", "though", "his", "parent", "may", ",", "under", "local", "law", ",", "have", "the", "right", "to", "them", "and", "might", "actually", "have", "receive", "the", "money", "."]
-    oewn2026_key: [[1, "oewn-09937051-n"], [2, "oewn-02610777-v"], [5, "oewn-13330021-n"], [8, "oewn-01773236-s"], [9, "oewn-13300285-n"], [10, "oewn-00018505-r"], [11, "oewn-00120034-r"], [13, "oewn-10419190-n"], [17, "oewn-01110098-a"], [18, "oewn-08458195-n"], [20, "oewn-02208144-v"], [22, "oewn-05182180-n"], [27, "oewn-00150568-r"], [29, "oewn-02214901-v"], [31, "oewn-13405730-n"]]
+    oewn_key: [[1, "oewn-09937051-n"], [2, "oewn-02610777-v"], [5, "oewn-13330021-n"], [8, "oewn-01773236-s"], [9, "oewn-13300285-n"], [10, "oewn-00018505-r"], [11, "oewn-00120034-r"], [13, "oewn-10419190-n"], [17, "oewn-01110098-a"], [18, "oewn-08458195-n"], [20, "oewn-02208144-v"], [22, "oewn-05182180-n"], [27, "oewn-00150568-r"], [29, "oewn-02214901-v"], [31, "oewn-13405730-n"]]
     paragraph: '34'
     pos: ["DT", "NN", "VBZ", "JJ", "JJ", "NN", "JJ", "JJ", "JJ", "NNS", "RB", "RB", "PRP$", "NN", "MD", ",", "IN", "JJ", "NN", ",", "VBP", "DT", "NN", "TO", "PRP", "CC", "MD", "RB", "VB", "VBN", "DT", "NN", "."]
     text: ' A minor is subject to tax on his own earnings even though his parent may, under
@@ -959,7 +959,7 @@ XbsA:
     wn30_key: [[1, "minor%1:18:00::"], [2, "be%2:42:03::"], [5, "tax%1:21:00::"], [8, "own%3:00:00:personal:00"], [9, "earnings%1:21:00::"], [10, "even%4:02:03::"], [11, "though%4:02:01::"], [13, "parent%1:18:00::"], [17, "local%3:00:01::"], [18, "law%1:14:00::"], [20, "have%2:40:00::"], [22, "right%1:07:00::"], [27, "actually%4:02:01::"], [29, "receive%2:40:00::"], [31, "money%1:21:00::"]]
 laxL:
     lemmas: ["His", "income", "be", "not", "required", "to", "be", "include", "in", "the", "return", "of", "his", "parent", "."]
-    oewn2026_key: [[1, "oewn-13276044-n"], [2, "oewn-02610777-v"], [3, "oewn-00024432-r"], [7, "oewn-00686739-v"], [10, "oewn-06560662-n"], [13, "oewn-10419190-n"]]
+    oewn_key: [[1, "oewn-13276044-n"], [2, "oewn-02610777-v"], [3, "oewn-00024432-r"], [7, "oewn-00686739-v"], [10, "oewn-06560662-n"], [13, "oewn-10419190-n"]]
     paragraph: '34'
     pos: ["PRP$", "NN", "VBZ", "RB", "JJ", "TO", "VB", "VBN", "VB", "DT", "NN", "IN", "PRP$", "NN", "."]
     text: ' His income is not required to be included in the return of his parent.
@@ -970,7 +970,7 @@ laxL:
     wn30_key: [[1, "income%1:21:00::"], [2, "be%2:42:03::"], [3, "not%4:02:00::"], [7, "include%2:31:00::"], [10, "return%1:10:01::"], [13, "parent%1:18:00::"]]
 pcWr:
     lemmas: ["A", "minor", "child", "be", "allow", "a", "personal", "exemption", "of", "$", "600", "on", "his", "own", "return", "regardless", "of", "how", "much", "money", "he", "may", "earn", "."]
-    oewn2026_key: [[1, "oewn-01474869-a"], [2, "oewn-09937051-n"], [4, "oewn-00726112-v"], [6, "oewn-01771841-a"], [7, "oewn-14552475-n"], [13, "oewn-01773236-s"], [14, "oewn-06560662-n"], [15, "oewn-00119427-r"], [18, "oewn-01557986-a"], [19, "oewn-13405730-n"], [22, "oewn-02294200-v"]]
+    oewn_key: [[1, "oewn-01474869-a"], [2, "oewn-09937051-n"], [4, "oewn-00726112-v"], [6, "oewn-01771841-a"], [7, "oewn-14552475-n"], [13, "oewn-01773236-s"], [14, "oewn-06560662-n"], [15, "oewn-00119427-r"], [18, "oewn-01557986-a"], [19, "oewn-13405730-n"], [22, "oewn-02294200-v"]]
     paragraph: '35'
     pos: ["DT", "JJ", "NN", "VBZ", "VBN", "DT", "JJ", "NN", "IN", "$", "CD", "JJ", "JJ", "JJ", "NN", "RB", "RB", "WRB", "JJ", "NN", "PRP", "MD", "VB", "."]
     text: ' A minor child is allowed a personal exemption of $600 on his own return regardless
@@ -982,7 +982,7 @@ pcWr:
     wn30_key: [[1, "minor%3:00:03::"], [2, "child%1:18:00::"], [4, "allow%2:31:01::"], [6, "personal%3:00:00::"], [7, "exemption%1:26:00::"], [13, "own%3:00:00:personal:00"], [14, "return%1:10:01::"], [15, "regardless%4:02:00::"], [18, "much%3:00:00::"], [19, "money%1:21:00::"], [22, "earn%2:40:01::"]]
 nks/:
     lemmas: ["If", "your", "child", "be", "under", "19", "or", "be", "a", "student", "you", "may", "also", "claim", "an", "exemption", "for", "him", "if", "he", "qualify", "as", "your", "dependent", ",", "even", "though", "he", "earn", "$", "600", "or", "more", "."]
-    oewn2026_key: [[2, "oewn-09937706-n"], [3, "oewn-02610777-v"], [5, "oewn-02195844-s"], [7, "oewn-02622439-v"], [9, "oewn-10685137-n"], [12, "oewn-00048072-r"], [13, "oewn-01020361-v"], [15, "oewn-14552475-n"], [20, "oewn-02684822-v"], [23, "oewn-10024466-n"], [25, "oewn-00018505-r"], [26, "oewn-00120034-r"], [28, "oewn-02294200-v"], [32, "oewn-11210173-n"]]
+    oewn_key: [[2, "oewn-09937706-n"], [3, "oewn-02610777-v"], [5, "oewn-02195844-s"], [7, "oewn-02622439-v"], [9, "oewn-10685137-n"], [12, "oewn-00048072-r"], [13, "oewn-01020361-v"], [15, "oewn-14552475-n"], [20, "oewn-02684822-v"], [23, "oewn-10024466-n"], [25, "oewn-00018505-r"], [26, "oewn-00120034-r"], [28, "oewn-02294200-v"], [32, "oewn-11210173-n"]]
     paragraph: '36'
     pos: ["IN", "PRP$", "NN", "VBZ", "IN", "JJ", "CC", "VBZ", "VB", "NN", "PRP", "MD", "RB", "VB", "DT", "NN", "IN", "PRP", "IN", "PRP", "VBZ", "IN", "PRP$", "NN", ",", "RB", "RB", "PRP", "VBZ", "$", "CD", "CC", "NN", "."]
     text: ' If your child is under 19 or is a student you may also claim an exemption for him
@@ -992,7 +992,7 @@ nks/:
     wn30_key: [[2, "child%1:18:01::"], [3, "be%2:42:03::"], [5, "19%3:00:00:cardinal:00"], [7, "be%2:42:06::"], [9, "student%1:18:00::"], [12, "also%4:02:00::"], [13, "claim%2:32:02::"], [15, "exemption%1:26:00::"], [20, "qualify%2:42:00::"], [23, "dependent%1:18:00::"], [25, "even%4:02:03::"], [26, "though%4:02:01::"], [28, "earn%2:40:01::"], [32, "more%1:18:00::"]]
 g3mE:
     lemmas: ["see", "chapter", "5", "."]
-    oewn2026_key: [[1, "oewn-06407785-n"], [2, "oewn-13766661-n"]]
+    oewn_key: [[1, "oewn-06407785-n"], [2, "oewn-13766661-n"]]
     paragraph: '36'
     pos: ["RB", "NNP", "NN", "."]
     text: ' See Chapter 5.
@@ -1003,7 +1003,7 @@ g3mE:
     wn30_key: [[1, "chapter%1:10:00::"], [2, "5%1:23:00::"]]
 kaSs:
     lemmas: ["Your", "16", "year", "old", "son", "earn", "$", "720", "in", "1961", "."]
-    oewn2026_key: [[1, "oewn-02195542-s"], [2, "oewn-15228587-n"], [3, "oewn-01648062-a"], [4, "oewn-10643436-n"], [5, "oewn-02294200-v"]]
+    oewn_key: [[1, "oewn-02195542-s"], [2, "oewn-15228587-n"], [3, "oewn-01648062-a"], [4, "oewn-10643436-n"], [5, "oewn-02294200-v"]]
     paragraph: '37'
     pos: ["PRP$", "JJ", "NN", "JJ", "NN", "VBD", "$", "CD", "IN", "CD", "."]
     text: ' Your 16 year old son earned $720 in 1961.'
@@ -1012,7 +1012,7 @@ kaSs:
     wn30_key: [[1, "16%3:00:00:cardinal:00"], [2, "year%1:28:01::"], [3, "old%3:00:02::"], [4, "son%1:18:00::"], [5, "earn%2:40:01::"]]
 ez68:
     lemmas: ["You", "spend", "$", "800", "for", "his", "support", "."]
-    oewn2026_key: [[1, "oewn-02271905-v"], [6, "oewn-13386459-n"]]
+    oewn_key: [[1, "oewn-02271905-v"], [6, "oewn-13386459-n"]]
     paragraph: '37'
     pos: ["PRP", "VBD", "$", "CD", "IN", "PRP$", "NN", "."]
     text: ' You spent $800 for his support.'
@@ -1021,7 +1021,7 @@ ez68:
     wn30_key: [[1, "spend%2:40:00::"], [6, "support%1:21:00::"]]
 AuAS:
     lemmas: ["Since", "he", "have", "gross", "income", "of", "$", "600", "or", "more", ",", "he", "must", "file", "a", "return", "in", "which", "he", "may", "claim", "an", "exemption", "deduction", "of", "$", "600", "."]
-    oewn2026_key: [[2, "oewn-02208144-v"], [3, "oewn-01587229-a"], [4, "oewn-13276044-n"], [9, "oewn-11210173-n"], [13, "oewn-01003902-v"], [15, "oewn-06560662-n"], [20, "oewn-01020361-v"], [22, "oewn-14552475-n"], [23, "oewn-13350069-n"]]
+    oewn_key: [[2, "oewn-02208144-v"], [3, "oewn-01587229-a"], [4, "oewn-13276044-n"], [9, "oewn-11210173-n"], [13, "oewn-01003902-v"], [15, "oewn-06560662-n"], [20, "oewn-01020361-v"], [22, "oewn-14552475-n"], [23, "oewn-13350069-n"]]
     paragraph: '37'
     pos: ["IN", "PRP", "VBD", "JJ", "NN", "IN", "$", "CD", "CC", "NN", ",", "PRP", "MD", "VB", "DT", "NN", "RB", "RB", "PRP", "MD", "VB", "DT", "NN", "NN", "IN", "$", "CD", "."]
     text: ' Since he had gross income of $600 or more, he must file a return in which he may
@@ -1031,7 +1031,7 @@ AuAS:
     wn30_key: [[2, "have%2:40:00::"], [3, "gross%3:00:00::"], [4, "income%1:21:00::"], [9, "more%1:18:00::"], [13, "file%2:32:02::"], [15, "return%1:10:01::"], [20, "claim%2:32:02::"], [22, "exemption%1:26:00::"], [23, "deduction%1:21:01::"]]
 a9e9:
     lemmas: ["Since", "you", "contribute", "more_than", "half", "of", "his", "support", ",", "you", "may", "also", "claim", "an", "exemption", "for", "him", "on", "your", "return", "."]
-    oewn2026_key: [[2, "oewn-02313721-v"], [4, "oewn-13758939-n"], [7, "oewn-13386459-n"], [11, "oewn-00048072-r"], [12, "oewn-01020361-v"], [14, "oewn-14552475-n"], [19, "oewn-06560662-n"]]
+    oewn_key: [[2, "oewn-02313721-v"], [4, "oewn-13758939-n"], [7, "oewn-13386459-n"], [11, "oewn-00048072-r"], [12, "oewn-01020361-v"], [14, "oewn-14552475-n"], [19, "oewn-06560662-n"]]
     paragraph: '37'
     pos: ["IN", "PRP", "VBD", "RB", "NN", "IN", "PRP$", "NN", ",", "PRP", "MD", "RB", "VB", "DT", "NN", "IN", "PRP", "IN", "PRP$", "NN", "."]
     text: ' Since you contributed more_than half of his support, you may also claim an exemption
@@ -1043,7 +1043,7 @@ a9e9:
     wn30_key: [[2, "contribute%2:40:00::"], [4, "half%1:23:00::"], [7, "support%1:21:00::"], [11, "also%4:02:00::"], [12, "claim%2:32:02::"], [14, "exemption%1:26:00::"], [19, "return%1:10:01::"]]
 7T9+:
     lemmas: ["A", "minor", "who", "have", "gross", "income", "of", "less_than", "$", "600", "be", "entitled", "to", "a", "refund", "if", "income_tax", "be", "withhold", "from", "his", "wage", "."]
-    oewn2026_key: [[1, "oewn-09937051-n"], [3, "oewn-02208144-v"], [4, "oewn-01587229-a"], [5, "oewn-13276044-n"], [10, "oewn-02610777-v"], [11, "oewn-00855604-s"], [14, "oewn-13303184-n"], [16, "oewn-13331252-n"], [18, "oewn-02219783-v"], [21, "oewn-13300285-n"]]
+    oewn_key: [[1, "oewn-09937051-n"], [3, "oewn-02208144-v"], [4, "oewn-01587229-a"], [5, "oewn-13276044-n"], [10, "oewn-02610777-v"], [11, "oewn-00855604-s"], [14, "oewn-13303184-n"], [16, "oewn-13331252-n"], [18, "oewn-02219783-v"], [21, "oewn-13300285-n"]]
     paragraph: '38'
     pos: ["DT", "NN", "WP", "VBZ", "JJ", "NN", "IN", "RB", "$", "CD", "VBZ", "JJ", "TO", "DT", "NN", "IN", "NN", "VBD", "VBN", "IN", "PRP$", "NNS", "."]
     text: ' A minor who has gross income of less_than $600 is entitled to a refund if income_tax
@@ -1053,7 +1053,7 @@ a9e9:
     wn30_key: [[1, "minor%1:18:00::"], [3, "have%2:40:00::"], [4, "gross%3:00:00::"], [5, "income%1:21:00::"], [10, "be%2:42:03::"], [11, "entitled%3:00:00:eligible:00"], [14, "refund%1:21:00::"], [16, "income_tax%1:21:00::"], [18, "withhold%2:40:01::"], [21, "wage%1:21:00::"]]
 0AHD:
     lemmas: ["generally", ",", "the", "refund", "may", "be", "obtain", "by", "file", "Form_1040_A", "accompany", "by", "the", "withholding", "statement", "(", "form_w-2", ")", "."]
-    oewn2026_key: [[0, "oewn-00156754-r"], [3, "oewn-13303184-n"], [6, "oewn-02242867-v"], [8, "oewn-01003902-v"], [10, "oewn-02722040-v"], [13, "oewn-13332390-n"], [14, "oewn-06735202-n"]]
+    oewn_key: [[0, "oewn-00156754-r"], [3, "oewn-13303184-n"], [6, "oewn-02242867-v"], [8, "oewn-01003902-v"], [10, "oewn-02722040-v"], [13, "oewn-13332390-n"], [14, "oewn-06735202-n"]]
     paragraph: '38'
     pos: ["RB", ",", "DT", "NN", "MD", "VB", "VBN", "IN", "VBG", "DT", "VBN", "IN", "DT", "NN", "NN", "NNP", "NN", "NNP", "."]
     text: ' Generally, the refund may be obtained by filing Form_1040_A accompanied by the withholding
@@ -1063,7 +1063,7 @@ a9e9:
     wn30_key: [[0, "generally%4:02:02::"], [3, "refund%1:21:00::"], [6, "obtain%2:40:00::"], [8, "file%2:32:02::"], [10, "accompany%2:42:00::"], [13, "withholding%1:21:00::"], [14, "statement%1:10:00::"]]
 1ArI:
     lemmas: ["If", "he", "have", "income", "other_than", "wage", "subject", "to", "withholding", ",", "he", "may", "be", "require", "to", "file", "Form_1040", "."]
-    oewn2026_key: [[2, "oewn-02208144-v"], [3, "oewn-13276044-n"], [5, "oewn-13300285-n"], [8, "oewn-00362018-n"], [13, "oewn-00753573-v"], [15, "oewn-01003902-v"]]
+    oewn_key: [[2, "oewn-02208144-v"], [3, "oewn-13276044-n"], [5, "oewn-13300285-n"], [8, "oewn-00362018-n"], [13, "oewn-00753573-v"], [15, "oewn-01003902-v"]]
     paragraph: '38'
     pos: ["IN", "PRP", "VBD", "NN", "JJ", "NNS", "JJ", "JJ", "NN", ",", "PRP", "MD", "VB", "VBN", "TO", "VB", "CD", "."]
     text: ' If he had income other_than wages subject to withholding, he may be required to
@@ -1073,7 +1073,7 @@ a9e9:
     wn30_key: [[2, "have%2:40:00::"], [3, "income%1:21:00::"], [5, "wage%1:21:00::"], [8, "withholding%1:04:00::"], [13, "require%2:32:00::"], [15, "file%2:32:02::"]]
 lY2I:
     lemmas: ["see", "chapter", "1", "."]
-    oewn2026_key: [[1, "oewn-06407785-n"], [2, "oewn-13764713-n"]]
+    oewn_key: [[1, "oewn-06407785-n"], [2, "oewn-13764713-n"]]
     paragraph: '38'
     pos: ["RB", "NNP", "NN", "."]
     text: ' See Chapter 1.
@@ -1084,7 +1084,7 @@ lY2I:
     wn30_key: [[1, "chapter%1:10:00::"], [2, "1%1:23:00::"]]
 oNye:
     lemmas: ["If", "your", "child", "work", "for", "you", ",", "you", "may", "deduct", "reasonable", "wage", "you", "pay", "to", "him", "for", "services", "he", "render", "in", "your", "business", "."]
-    oewn2026_key: [[2, "oewn-09937706-n"], [3, "oewn-02415985-v"], [9, "oewn-00642914-v"], [10, "oewn-01536380-s"], [11, "oewn-13300285-n"], [13, "oewn-02256551-v"], [17, "oewn-00586211-n"], [19, "oewn-02332196-v"], [22, "oewn-08077878-n"]]
+    oewn_key: [[2, "oewn-09937706-n"], [3, "oewn-02415985-v"], [9, "oewn-00642914-v"], [10, "oewn-01536380-s"], [11, "oewn-13300285-n"], [13, "oewn-02256551-v"], [17, "oewn-00586211-n"], [19, "oewn-02332196-v"], [22, "oewn-08077878-n"]]
     paragraph: '39'
     pos: ["IN", "PRP$", "NN", "VBZ", "IN", "PRP", ",", "PRP", "MD", "VB", "JJ", "NNS", "PRP", "VBD", "TO", "PRP", "IN", "NNS", "PRP", "VBD", "IN", "PRP$", "NN", "."]
     text: ' If your child works for you, you may deduct reasonable wages you paid to him for
@@ -1094,7 +1094,7 @@ oNye:
     wn30_key: [[2, "child%1:18:01::"], [3, "work%2:41:00::"], [9, "deduct%2:31:01::"], [10, "reasonable%3:00:00:moderate:00"], [11, "wage%1:21:00::"], [13, "pay%2:40:00::"], [17, "services%1:04:00::"], [19, "render%2:40:02::"], [22, "business%1:14:00::"]]
 qRu9:
     lemmas: ["You", "may", "deduct", "these", "payment", "even", "though", "your", "child", "use", "the", "money", "to", "purchase", "his", "own", "clothing", "or", "other", "necessity", "which", "you", "be", "normally", "obligated", "to", "furnish", "him", ",", "and", "even", "though", "you", "may", "be", "entitled", "to", "his", "services", "."]
-    oewn2026_key: [[2, "oewn-00642914-v"], [4, "oewn-13299398-n"], [5, "oewn-00018505-r"], [6, "oewn-00120034-r"], [8, "oewn-09937706-n"], [9, "oewn-01161188-v"], [11, "oewn-13405730-n"], [13, "oewn-02211988-v"], [15, "oewn-01773236-s"], [16, "oewn-03055525-n"], [18, "oewn-02076759-a"], [19, "oewn-09390100-n"], [22, "oewn-02610777-v"], [23, "oewn-00107608-r"], [24, "oewn-01620626-a"], [26, "oewn-02332196-v"], [30, "oewn-00018505-r"], [31, "oewn-00120034-r"], [34, "oewn-02610777-v"], [35, "oewn-00855604-s"], [38, "oewn-00586211-n"]]
+    oewn_key: [[2, "oewn-00642914-v"], [4, "oewn-13299398-n"], [5, "oewn-00018505-r"], [6, "oewn-00120034-r"], [8, "oewn-09937706-n"], [9, "oewn-01161188-v"], [11, "oewn-13405730-n"], [13, "oewn-02211988-v"], [15, "oewn-01773236-s"], [16, "oewn-03055525-n"], [18, "oewn-02076759-a"], [19, "oewn-09390100-n"], [22, "oewn-02610777-v"], [23, "oewn-00107608-r"], [24, "oewn-01620626-a"], [26, "oewn-02332196-v"], [30, "oewn-00018505-r"], [31, "oewn-00120034-r"], [34, "oewn-02610777-v"], [35, "oewn-00855604-s"], [38, "oewn-00586211-n"]]
     paragraph: '39'
     pos: ["PRP", "MD", "VB", "DT", "NNS", "RB", "RB", "PRP$", "NN", "VBZ", "DT", "NN", "TO", "VB", "PRP$", "JJ", "NN", "CC", "JJ", "NNS", "WDT", "PRP", "VBP", "RB", "JJ", "TO", "VB", "PRP", ",", "CC", "RB", "RB", "PRP", "MD", "VB", "JJ", "TO", "PRP$", "NNS", "."]
     text: ' You may deduct these payments even though your child uses the money to purchase

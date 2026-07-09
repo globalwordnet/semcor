@@ -3,7 +3,7 @@ _meta:
         type: seq
         base: tokens
         data: string
-    oewn2026_key:
+    oewn_key:
         type: element
         base: tokens
         data: string
@@ -28,7 +28,7 @@ _meta:
         data: string
 9F4X:
     lemmas: ["farm", "machinery", "dealer", "bob_houtz", "tilt", "back", "in", "a", "battered", "chair", "and", "tell", "of", "a", "sharp", "pickup", "in", "sales", ":"]
-    oewn2026_key: [[4, "oewn-02042202-v"], [11, "oewn-01011267-v"]]
+    oewn_key: [[4, "oewn-02042202-v"], [11, "oewn-01011267-v"]]
     paragraph: '0'
     pos: ["NNP", "NN", "NN", "NNP", "VBZ", "RB", "IN", "DT", "JJ", "NN", "CC", "VBZ", "IN", "DT", "JJ", "NN", "IN", "NNS", ":"]
     text: 'Farm machinery dealer Bob_Houtz tilts back in a battered chair and tells of a sharp
@@ -38,7 +38,7 @@ _meta:
     wn30_key: [[4, "tilt%2:38:00::"], [11, "tell%2:32:04::"]]
 pMCB:
     lemmas: ["\"", "We", "'ve", "sell", "four", "corn", "picker", "since", "labor_day", "and", "have", "good", "prospect", "for", "10", "more", "."]
-    oewn2026_key: [[3, "oewn-02247246-v"], [10, "oewn-02208144-v"]]
+    oewn_key: [[3, "oewn-02247246-v"], [10, "oewn-02208144-v"]]
     paragraph: '0'
     pos: ["``", "PRP", "VBP", "VBN", "CD", "NN", "NNS", "IN", "NN", "CC", "VBP", "JJ", "NNS", "IN", "CD", "JJR", "."]
     text: ' " We''ve sold four corn pickers since Labor_Day and have good prospects for 10 more.'
@@ -47,7 +47,7 @@ pMCB:
     wn30_key: [[3, "sell%2:40:00::"], [10, "have%2:40:01::"]]
 v2Qw:
     lemmas: ["We", "sell", "only", "four", "picker", "all", "last", "year", "\"", "."]
-    oewn2026_key: [[1, "oewn-02247246-v"]]
+    oewn_key: [[1, "oewn-02247246-v"]]
     paragraph: '0'
     pos: ["PRP", "VBD", "RB", "CD", "NNS", "DT", "JJ", "NN", "''", "."]
     text: ' We sold only four pickers all last year ".
@@ -58,7 +58,7 @@ v2Qw:
     wn30_key: [[1, "sell%2:40:00::"]]
 4tQb:
     lemmas: ["gu_ehler", ",", "competitor", "of", "mr._houtz", "in_this", "farm", "community", ",", "say", "his", "business", "since", "august", "1", "be", "run", "50", "%", "above", "a", "year", "earlier", "."]
-    oewn2026_key: [[9, "oewn-01011267-v"], [16, "oewn-02448714-v"]]
+    oewn_key: [[9, "oewn-01011267-v"], [16, "oewn-02448714-v"]]
     paragraph: '1'
     pos: ["NNP", ",", "NN", "IN", "NNP", "RB", "NN", "NN", ",", "VBZ", "PRP$", "NN", "IN", "NNP", "CD", "VB", "VBG", "CD", "NN", "IN", "DT", "NN", "RBR", "."]
     text: ' Gus_Ehlers, competitor of Mr._Houtz in_this farm community, says his business since
@@ -68,7 +68,7 @@ v2Qw:
     wn30_key: [[9, "say%2:32:00::"], [16, "run%2:41:02::"]]
 5B+s:
     lemmas: ["\"", "Before", "then", ",", "my", "sales", "during", "much", "of", "the", "year", "have", "lag", "behind", "1960", "by", "20", "%", "\"", ",", "he", "say", "."]
-    oewn2026_key: [[12, "oewn-02001894-v"], [21, "oewn-01011267-v"]]
+    oewn_key: [[12, "oewn-02001894-v"], [21, "oewn-01011267-v"]]
     paragraph: '1'
     pos: ["``", "IN", "RB", ",", "PRP$", "NNS", "IN", "JJ", "IN", "DT", "NN", "VBD", "VBN", "IN", "CD", "IN", "CD", "NN", "''", ",", "PRP", "VBZ", "."]
     text: ' " Before then, my sales during much of the year had lagged behind 1960 by 20% ",
@@ -80,7 +80,7 @@ v2Qw:
     wn30_key: [[12, "lag%2:38:00::"], [21, "say%2:32:00::"]]
 lBCm:
     lemmas: ["Though", "the", "sales", "gain", "these", "two", "dealer", "be", "experience", "be", "above", "average", "for", "their", "business", ",", "farm", "equipment", "sales", "be", "climb", "in", "most", "rural_areas", "."]
-    oewn2026_key: [[8, "oewn-02114674-v"], [9, "oewn-02610777-v"], [20, "oewn-00434185-v"]]
+    oewn_key: [[8, "oewn-02114674-v"], [9, "oewn-02610777-v"], [20, "oewn-00434185-v"]]
     paragraph: '2'
     pos: ["IN", "DT", "NNS", "NNS", "DT", "CD", "NNS", "VBP", "VBG", "VBP", "IN", "JJ", "IN", "PRP$", "NN", ",", "NN", "NN", "NNS", "VBP", "VBG", "IN", "RBS", "NN", "."]
     text: ' Though the sales gains these two dealers are experiencing are above average for
@@ -90,7 +90,7 @@ lBCm:
     wn30_key: [[8, "experience%2:39:01::"], [9, "be%2:42:03::"], [20, "climb%2:30:00::"]]
 99if:
     lemmas: ["paradoxically", ",", "the", "sales", "rise", "be_due", "in", "large", "measure", "to", "government", "effort", "to", "slash", "farm", "output", "."]
-    oewn2026_key: [[5, "oewn-02640648-v"], [13, "oewn-00431214-v"]]
+    oewn_key: [[5, "oewn-02640648-v"], [13, "oewn-00431214-v"]]
     paragraph: '2'
     pos: ["RB", ",", "DT", "NNS", "NN", "VB", "IN", "JJ", "NN", "TO", "NNP", "NNS", "TO", "VB", "NN", "NN", "."]
     text: ' Paradoxically, the sales rise is_due in large measure to Government efforts to slash
@@ -100,7 +100,7 @@ lBCm:
     wn30_key: [[5, "be_due%2:42:00::"], [13, "slash%2:30:00::"]]
 PObF:
     lemmas: ["Although", "the", "administration", "'s", "program", "cut", "crop", "acreage", "to", "the", "lowest", "point", "since", "1934", ",", "farmer", ",", "with", "the", "help", "of", "extra", "fertilizer", "and", "good_weather", ",", "be", "get", "such", "high", "yield", "per", "acre", "that", "many", "be", "be", "force", "to", "buy", "new", "harvesting", "machine", "."]
-    oewn2026_key: [[5, "oewn-00430013-v"], [27, "oewn-00523831-v"], [37, "oewn-02510211-v"], [39, "oewn-02211988-v"]]
+    oewn_key: [[5, "oewn-00430013-v"], [27, "oewn-00523831-v"], [37, "oewn-02510211-v"], [39, "oewn-02211988-v"]]
     paragraph: '2'
     pos: ["IN", "DT", "NNP", "POS", "NN", "VB", "NN", "NN", "TO", "DT", "JJS", "NN", "IN", "CD", ",", "NNS", ",", "IN", "DT", "NN", "IN", "JJ", "NN", "CC", "NN", ",", "VBP", "VBG", "JJ", "JJ", "NNS", "IN", "NN", "IN", "JJ", "VBP", "VBG", "VBN", "TO", "VB", "JJ", "NN", "NNS", "."]
     text: ' Although the Administration''s program cut crop acreage to the lowest point since
@@ -111,7 +111,7 @@ PObF:
     wn30_key: [[5, "cut%2:30:06::"], [27, "get%2:30:03::"], [37, "force%2:41:00::"], [39, "buy%2:40:00::"]]
 AG4d:
     lemmas: ["fields", "of", "corn", "and", "some", "other", "crop", "in", "many", "case", "be", "so", "dense", "that", "older", "equipment", "cannot", "handle", "them", "efficiently", "."]
-    oewn2026_key: [[10, "oewn-02610777-v"], [17, "oewn-02441196-v"]]
+    oewn_key: [[10, "oewn-02610777-v"], [17, "oewn-02441196-v"]]
     paragraph: '2'
     pos: ["NNP", "IN", "NN", "CC", "DT", "JJ", "NNS", "IN", "JJ", "NNS", "VBP", "RB", "JJ", "IN", "JJR", "NN", "MD", "VBP", "PRP", "RB", "."]
     text: ' Fields of corn and some other crops in many cases are so dense that older equipment
@@ -121,7 +121,7 @@ AG4d:
     wn30_key: [[10, "be%2:42:03::"], [17, "handle%2:41:00::"]]
 E3hG:
     lemmas: ["The", "higher", "price_support", "provide", "by", "the", "new", "legislation", ",", "together", "with", "rising_prices", "for", "farm", "product", ",", "be", "push_up", "farm", "income", ",", "make", "it", "possible", "for", "farmer", "to", "afford", "the", "new", "machinery", "."]
-    oewn2026_key: [[3, "oewn-01185006-v"], [17, "oewn-01877523-v"], [21, "oewn-00120124-v"], [27, "oewn-01195161-v"]]
+    oewn_key: [[3, "oewn-01185006-v"], [17, "oewn-01877523-v"], [21, "oewn-00120124-v"], [27, "oewn-01195161-v"]]
     paragraph: '2'
     pos: ["DT", "JJR", "NN", "VBN", "IN", "DT", "JJ", "NN", ",", "RB", "IN", "NN", "IN", "NN", "NNS", ",", "VBP", "VB", "NN", "NN", ",", "VBG", "VB", "JJ", "IN", "NNS", "TO", "VB", "DT", "JJ", "NN", "."]
     text: ' The higher price_supports provided by the new legislation, together with rising_prices
@@ -134,7 +134,7 @@ E3hG:
     wn30_key: [[3, "provide%2:34:00::"], [17, "push_up%2:38:00::"], [21, "make%2:30:00::"], [27, "afford%2:34:00::"]]
 7Ycb:
     lemmas: ["Seven", "of", "the", "eight", "company", "that", "turn_out", "full", "line", "of", "farm", "machinery", "say", "sales", "by", "their", "dealer", "since", "the", "start", "of", "august", "have", "show", "gain", "average", "nearly", "10", "%", "above", "last", "year", "."]
-    oewn2026_key: [[6, "oewn-01626829-v"], [12, "oewn-01011267-v"], [25, "oewn-02651473-v"]]
+    oewn_key: [[6, "oewn-01626829-v"], [12, "oewn-01011267-v"], [25, "oewn-02651473-v"]]
     paragraph: '3'
     pos: ["CD", "IN", "DT", "CD", "NNS", "IN", "VBP", "JJ", "NNS", "IN", "NN", "NN", "VBP", "NNS", "IN", "PRP$", "NNS", "IN", "DT", "NN", "IN", "NNP", "VBP", "VB", "NNS", "VBG", "RB", "CD", "NN", "IN", "JJ", "NN", "."]
     text: ' Seven of the eight companies that turn_out full lines of farm machinery say sales
@@ -145,7 +145,7 @@ E3hG:
     wn30_key: [[6, "turn_out%2:36:01::"], [12, "say%2:32:00::"], [25, "average%2:42:00::"]]
 m65j:
     lemmas: ["\"", "In", "august", "our", "dealer", "sell", "13", "%", "more", "farm", "machinery", "than", "a", "year", "earlier", "and", "in", "september", "retail", "sales", "be", "14", "%", "higher", "than", "last", "year", "\"", ",", "say", "mark_v._keeler", ",", "farm", "equipment", "vice_president", "of", "international_harvester_co.", "."]
-    oewn2026_key: [[5, "oewn-02247246-v"], [20, "oewn-02610777-v"], [29, "oewn-01011267-v"]]
+    oewn_key: [[5, "oewn-02247246-v"], [20, "oewn-02610777-v"], [29, "oewn-01011267-v"]]
     paragraph: '3'
     pos: ["``", "IN", "NNP", "PRP$", "NNS", "VBD", "CD", "NN", "JJR", "NN", "NN", "IN", "DT", "NN", "RBR", "CC", "IN", "NNP", "JJ", "NNS", "VBD", "CD", "NN", "JJR", "IN", "JJ", "NN", "''", ",", "VBZ", "NNP", ",", "NN", "NN", "NN", "IN", "NNP", "."]
     text: ' " In August our dealers sold 13% more farm machinery than a year earlier and in
@@ -156,7 +156,7 @@ m65j:
     wn30_key: [[5, "sell%2:40:00::"], [20, "be%2:42:03::"], [29, "say%2:32:00::"]]
 A2Ht:
     lemmas: ["For", "the", "year", "to_date", ",", "sales", "of", "the", "company", "'s", "farm", "equipment", "dealer", "still", "lag", "about", "5", "%", "behind", "1960", "."]
-    oewn2026_key: [[14, "oewn-02001894-v"]]
+    oewn_key: [[14, "oewn-02001894-v"]]
     paragraph: '3'
     pos: ["IN", "DT", "NN", "RB", ",", "NNS", "IN", "DT", "NN", "POS", "NN", "NN", "NNS", "RB", "VBP", "IN", "CD", "NN", "IN", "CD", "."]
     text: ' For the year to_date, sales of the company''s farm equipment dealers still lag about
@@ -168,7 +168,7 @@ A2Ht:
     wn30_key: [[14, "lag%2:38:00::"]]
 qzPC:
     lemmas: ["Among", "individual", "dealer", "question", "in", "nearly", "a", "score", "of", "state", ",", "two", "out", "of", "three", "report", "their", "sales", "since", "august", "1", "show", "sizable", "gain", "from", "a", "year", "earlier", ",", "with", "the", "increase", "range", "from", "5", "%", "to", "50", "%", "."]
-    oewn2026_key: [[3, "oewn-00810517-v"], [15, "oewn-00968841-v"], [32, "oewn-02732914-v"]]
+    oewn_key: [[3, "oewn-00810517-v"], [15, "oewn-00968841-v"], [32, "oewn-02732914-v"]]
     paragraph: '4'
     pos: ["IN", "JJ", "NNS", "VBD", "IN", "RB", "DT", "NN", "IN", "NNS", ",", "CD", "IN", "IN", "CD", "VB", "PRP$", "NNS", "IN", "NNP", "CD", "VB", "JJ", "NNS", "IN", "DT", "NN", "RBR", ",", "IN", "DT", "NNS", "VBG", "IN", "CD", "NN", "TO", "CD", "NN", "."]
     text: ' Among individual dealers questioned in nearly a score of states, two out of three
@@ -179,7 +179,7 @@ qzPC:
     wn30_key: [[3, "question%2:32:09::"], [15, "report%2:32:04::"], [32, "range%2:42:01::"]]
 eF2b:
     lemmas: ["not", "all", "section", "be", "show", "an", "upswing", ",", "however", ";", "the", "drought-seared", "north_central", "state", "be", "the_most", "notable", "exception", "to", "the", "uptrend", "."]
-    oewn2026_key: [[14, "oewn-02610777-v"]]
+    oewn_key: [[14, "oewn-02610777-v"]]
     paragraph: '4'
     pos: ["RB", "DT", "NNS", "VBP", "VB", "DT", "NN", ",", "RB", ":", "DT", "JJ", "NNP", "NNS", "VBP", "RB", "JJ", "NNS", "TO", "DT", "NN", "."]
     text: ' Not all sections are showing an upswing, however; the drought-seared North_Central
@@ -191,7 +191,7 @@ eF2b:
     wn30_key: [[14, "be%2:42:03::"]]
 NpWR:
     lemmas: ["The", "significance", "of", "the", "pickup", "in", "farm", "machinery", "sales", "extend", "beyond", "the", "farm", "equipment", "industry", "."]
-    oewn2026_key: [[9, "oewn-00542026-v"]]
+    oewn_key: [[9, "oewn-00542026-v"]]
     paragraph: '5'
     pos: ["DT", "NN", "IN", "DT", "NN", "IN", "NN", "NN", "NNS", "VBZ", "IN", "DT", "NN", "NN", "NN", "."]
     text: ' The significance of the pickup in farm machinery sales extends beyond the farm equipment
@@ -201,7 +201,7 @@ NpWR:
     wn30_key: [[9, "extend%2:30:09::"]]
 LysB:
     lemmas: ["The", "demand", "for", "farm", "machinery", "be", "regard_as", "a", "yardstick", "of", "rural", "buying", "generally", "."]
-    oewn2026_key: [[6, "oewn-00691692-v"]]
+    oewn_key: [[6, "oewn-00691692-v"]]
     paragraph: '5'
     pos: ["DT", "NN", "IN", "NN", "NN", "VBZ", "VB", "DT", "NN", "IN", "JJ", "NN", "RB", "."]
     text: ' The demand for farm machinery is regarded_as a yardstick of rural buying generally.'
@@ -210,7 +210,7 @@ LysB:
     wn30_key: [[6, "regard_as%2:31:00::"]]
 6P36:
     lemmas: ["farmer", "spend", "more", "of", "their", "income", "on", "tractor", "and", "implement", "than", "on", "any", "other", "group", "of", "product", "."]
-    oewn2026_key: [[1, "oewn-02271905-v"]]
+    oewn_key: [[1, "oewn-02271905-v"]]
     paragraph: '5'
     pos: ["NNP", "VBP", "JJR", "IN", "PRP$", "NN", "IN", "NNS", "CC", "NNS", "RB", "IN", "DT", "JJ", "NN", "IN", "NNS", "."]
     text: ' Farmers spend more of their income on tractors and implements than on any other
@@ -220,7 +220,7 @@ LysB:
     wn30_key: [[1, "spend%2:40:00::"]]
 Cii8:
     lemmas: ["More_than", "20", "million", "people", "live", "on", "farm", "and", "they", "own", "a", "fourth", "of", "the", "nation", "'s", "truck", ",", "buy", "more", "gasoline", "than", "any", "other", "industry", "and", "provide", "a", "major", "market", "for", "home_appliance", ",", "chemical", "and", "other", "product", "."]
-    oewn2026_key: [[4, "oewn-02655932-v"], [9, "oewn-02209474-v"], [18, "oewn-02211988-v"], [26, "oewn-02332196-v"]]
+    oewn_key: [[4, "oewn-02655932-v"], [9, "oewn-02209474-v"], [18, "oewn-02211988-v"], [26, "oewn-02332196-v"]]
     paragraph: '5'
     pos: ["RB", "CD", "CD", "NNS", "VBP", "VB", "NNS", "CC", "PRP", "VBP", "DT", "JJ", "IN", "DT", "NN", "POS", "NNS", ",", "VB", "JJR", "NN", "IN", "DT", "JJ", "NN", "CC", "VBP", "DT", "JJ", "NN", "IN", "NN", ",", "NNS", "CC", "JJ", "NNS", "."]
     text: ' More_than 20 million people live on farms and they own a fourth of the nation''s
@@ -233,7 +233,7 @@ Cii8:
     wn30_key: [[4, "live%2:42:08::"], [9, "own%2:40:00::"], [18, "buy%2:40:00::"], [26, "provide%2:40:00::"]]
 TFoT:
     lemmas: ["farmer", "be", "so", "eager_for", "new", "machinery", "that", "they", "'re", "haggle", "less", "over", "price", "than", "they", "do", "a", "year", "ago", ",", "dealer", "report", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [9, "oewn-02264354-v"], [21, "oewn-00968841-v"]]
+    oewn_key: [[1, "oewn-02610777-v"], [9, "oewn-02264354-v"], [21, "oewn-00968841-v"]]
     paragraph: '6'
     pos: ["NNS", "VBP", "RB", "JJ", "JJ", "NN", "IN", "PRP", "VBP", "VBG", "JJR", "IN", "NNS", "IN", "PRP", "VBD", "DT", "NN", "RB", ",", "NNS", "VBP", "."]
     text: ' Farmers are so eager_for new machinery that they''re haggling less over prices than
@@ -245,7 +245,7 @@ TFoT:
     wn30_key: [[1, "be%2:42:03::"], [9, "haggle%2:40:00::"], [21, "report%2:32:04::"]]
 4VA/:
     lemmas: ["\"", "farmer", "be", "n't", "as", "price", "conscious", "as", "last", "year", "so", "we", "can", "get", "more", "money", "on", "a", "sale", "\"", ",", "say", "jack_martin", ",", "who", "sell", "J._I._Case", "tractor", "and", "implement", "in", "sioux_city", ",", "iowa", "."]
-    oewn2026_key: [[13, "oewn-02215637-v"], [21, "oewn-01011267-v"], [25, "oewn-02247246-v"]]
+    oewn_key: [[13, "oewn-02215637-v"], [21, "oewn-01011267-v"], [25, "oewn-02247246-v"]]
     paragraph: '7'
     pos: ["``", "NNP", "VBP", "RB", "IN", "NN", "JJ", "IN", "JJ", "NN", "RB", "PRP", "MD", "VB", "JJR", "NN", "IN", "DT", "NN", "''", ",", "VBZ", "NNP", ",", "WP", "VBZ", "NNP", "NNS", "CC", "NNS", "IN", "NNP", ",", "NNP", "."]
     text: ' " Farmers aren''t as price conscious as last year so we can get more money on a
@@ -256,7 +256,7 @@ TFoT:
     wn30_key: [[13, "get%2:40:00::"], [21, "say%2:32:00::"], [25, "sell%2:40:00::"]]
 b488:
     lemmas: ["\"", "This", "morning", ",", "we", "allow", "a", "farmer", "$", "600", "on", "the", "old", "picker", "he", "trade_in", "on", "a", "new", "$", "2700", "model", "."]
-    oewn2026_key: [[5, "oewn-02260270-v"], [15, "oewn-02264892-v"]]
+    oewn_key: [[5, "oewn-02260270-v"], [15, "oewn-02264892-v"]]
     paragraph: '7'
     pos: ["``", "DT", "NN", ",", "PRP", "VBD", "DT", "NN", "$", "CD", "IN", "DT", "JJ", "NN", "PRP", "VB", "IN", "DT", "JJ", "$", "CD", "NN", "."]
     text: ' " This morning, we allowed a farmer $600 on the old picker he traded_in on a new
@@ -266,7 +266,7 @@ b488:
     wn30_key: [[5, "allow%2:40:00::"], [15, "trade_in%2:40:00::"]]
 XAWY:
     lemmas: ["last", "year", ",", "we", "probably", "would", "have", "give", "him", "$", "700", "for", "a", "comparable", "machine", "\"", "."]
-    oewn2026_key: [[7, "oewn-02204104-v"]]
+    oewn_key: [[7, "oewn-02204104-v"]]
     paragraph: '7'
     pos: ["JJ", "NN", ",", "PRP", "RB", "MD", "VB", "VBN", "PRP", "$", "CD", "IN", "DT", "JJ", "NN", "''", "."]
     text: ' Last year, we probably would have given him $700 for a comparable machine ".'
@@ -275,7 +275,7 @@ XAWY:
     wn30_key: [[7, "give%2:40:00::"]]
 +7N2:
     lemmas: ["mr._martin", "sell", "21", "tractor", "in", "august", ";", "in", "august", "of", "1960", ",", "he", "sell", "seven", "."]
-    oewn2026_key: [[1, "oewn-02247246-v"], [13, "oewn-02247246-v"]]
+    oewn_key: [[1, "oewn-02247246-v"], [13, "oewn-02247246-v"]]
     paragraph: '7'
     pos: ["NNP", "VBD", "CD", "NNS", "IN", "NNP", ":", "IN", "NNP", "IN", "CD", ",", "PRP", "VBD", "CD", "."]
     text: ' Mr._Martin sold 21 tractors in August; in August of 1960, he sold seven.
@@ -286,7 +286,7 @@ XAWY:
     wn30_key: [[1, "sell%2:40:00::"], [13, "sell%2:40:00::"]]
 pGEh:
     lemmas: ["With", "dealer", "stocks", "of", "new", "equipment", "average", "about", "25", "%", "below", "a", "year", "ago", ",", "the", "affect", "of", "the", "rural", "recovery", "be", "be", "feel", "almost", "immediately", "by", "the", "country", "'s", "farm", "equipment", "manufacturer", "."]
-    oewn2026_key: [[6, "oewn-02651473-v"], [23, "oewn-02115034-v"]]
+    oewn_key: [[6, "oewn-02651473-v"], [23, "oewn-02115034-v"]]
     paragraph: '8'
     pos: ["IN", "NN", "NNS", "IN", "JJ", "NN", "VBG", "IN", "CD", "NN", "IN", "DT", "NN", "RB", ",", "DT", "NN", "IN", "DT", "JJ", "NN", "VBP", "VBG", "VBD", "RB", "RB", "IN", "DT", "NN", "POS", "NN", "NN", "NNS", "."]
     text: ' With dealer stocks of new equipment averaging about 25% below a year ago, the affects
@@ -297,7 +297,7 @@ pGEh:
     wn30_key: [[6, "average%2:42:00::"], [23, "feel%2:39:01::"]]
 5jcc:
     lemmas: ["for_example", ",", "farm", "equipment", "shipment", "of", "international_harvester", "in", "august", "climb", "about", "5", "%", "above", "a", "year", "earlier", ",", "mr._keeler", "report", "."]
-    oewn2026_key: [[9, "oewn-00434185-v"], [19, "oewn-00968841-v"]]
+    oewn_key: [[9, "oewn-00434185-v"], [19, "oewn-00968841-v"]]
     paragraph: '8'
     pos: ["RB", ",", "NN", "NN", "NNS", "IN", "NNP", "IN", "NNP", "VBD", "IN", "CD", "NN", "IN", "DT", "NN", "RBR", ",", "NNP", "VB", "."]
     text: ' For_example, farm equipment shipments of International_Harvester in August climbed
@@ -309,7 +309,7 @@ pGEh:
     wn30_key: [[9, "climb%2:30:00::"], [19, "report%2:32:04::"]]
 iKz/:
     lemmas: ["tractor", "production", "at", "Massey-Ferguson", ",", "ltd.", ",", "of", "toronto", "in", "july", "and", "august", "rise", "to", "2418", "unit", "from", "869", "in", "the_like", "period", "a", "year", "earlier", ",", "say", "john_staiger", ",", "vice_president", "."]
-    oewn2026_key: [[13, "oewn-00154951-v"], [26, "oewn-01011267-v"]]
+    oewn_key: [[13, "oewn-00154951-v"], [26, "oewn-01011267-v"]]
     paragraph: '9'
     pos: ["NNP", "NN", "IN", "NNP", ",", "NNP", ",", "IN", "NNP", "IN", "NNP", "CC", "NNP", "VBD", "TO", "CD", "NNS", "IN", "CD", "IN", "NN", "NN", "DT", "NN", "RBR", ",", "VBZ", "NNP", ",", "NN", "."]
     text: ' Tractor production at Massey-Ferguson, Ltd., of Toronto in July and August rose
@@ -321,7 +321,7 @@ iKz/:
     wn30_key: [[13, "rise%2:30:00::"], [26, "say%2:32:00::"]]
 nt5A:
     lemmas: ["With", "the", "low", "dealer", "inventory", "and", "the", "stepped-up", "demand", "some", "manufacturer", "believe", "there", "could", "be", "shortage", "of", "some", "implement", "."]
-    oewn2026_key: [[11, "oewn-00723022-v"], [14, "oewn-02609706-v"]]
+    oewn_key: [[11, "oewn-00723022-v"], [14, "oewn-02609706-v"]]
     paragraph: '10'
     pos: ["IN", "DT", "JJR", "NN", "NNS", "CC", "DT", "JJ", "NN", "DT", "NNS", "VBP", "EX", "MD", "VB", "NNS", "IN", "DT", "NNS", "."]
     text: ' With the lower dealer inventories and the stepped-up demand some manufacturers believe
@@ -331,7 +331,7 @@ nt5A:
     wn30_key: [[11, "believe%2:31:03::"], [14, "be%2:42:00::"]]
 wQNV:
     lemmas: ["Merritt_D._Hill", ",", "ford_motor_co.", "vice_president", ",", "say", "his", "company", "be", "start", "to", "get", "call", "daily", "from", "dealer", "demand", "immediate", "delivery", "or", "want", "earlier", "ship", "date", "on", "order", "for", "corn", "picker", "."]
-    oewn2026_key: [[5, "oewn-01011267-v"], [9, "oewn-00346415-v"], [11, "oewn-01068058-v"], [16, "oewn-00756987-v"], [20, "oewn-01829179-v"], [22, "oewn-01954657-v"]]
+    oewn_key: [[5, "oewn-01011267-v"], [9, "oewn-00346415-v"], [11, "oewn-01068058-v"], [16, "oewn-00756987-v"], [20, "oewn-01829179-v"], [22, "oewn-01954657-v"]]
     paragraph: '10'
     pos: ["NNP", ",", "NNP", "NN", ",", "VBZ", "PRP$", "NN", "VBZ", "VBG", "TO", "VB", "NN", "JJ", "IN", "NNS", "VBG", "JJ", "NN", "CC", "VBG", "RBR", "VB", "NNS", "IN", "NNS", "IN", "NN", "NNS", "."]
     text: ' Merritt_D._Hill, Ford_Motor_Co. vice_president, says his company is starting to
@@ -344,7 +344,7 @@ wQNV:
     wn30_key: [[5, "say%2:32:00::"], [9, "start%2:30:00::"], [11, "get%2:32:03::"], [16, "demand%2:32:00::"], [20, "want%2:37:00::"], [22, "ship%2:38:00::"]]
 L29P:
     lemmas: ["Except", "for", "a_few", "month", "in", "late", "1960", "and", "early", "1961", ",", "retail", "farm", "equipment", "sales", "have", "trail", "year-earlie", "level", "since", "the", "latter", "part", "of", "1959", "."]
-    oewn2026_key: [[16, "oewn-02062680-v"]]
+    oewn_key: [[16, "oewn-02062680-v"]]
     paragraph: '11'
     pos: ["IN", "IN", "JJ", "NNS", "IN", "JJ", "CD", "CC", "JJ", "CD", ",", "JJ", "NN", "NN", "NNS", "VBP", "VBN", "JJ", "NNS", "IN", "DT", "NN", "NN", "IN", "CD", "."]
     text: ' Except for a_few months in late 1960 and early 1961, retail farm equipment sales
@@ -354,7 +354,7 @@ L29P:
     wn30_key: [[16, "trail%2:38:02::"]]
 2dr4:
     lemmas: ["The", "rise", "in", "sales", "last", "winter", "be", "check", "when", "the", "government", "'s", "new", "feed_grain", "program", "be", "adopt", ";", "the", "program", "result", "in", "a", "cutback", "of", "around", "20", "%", "in", "planted", "acreage", "and", ",", "as", "a", "result", ",", "reduce", "the", "immediate", "need", "for", "machine", "."]
-    oewn2026_key: [[7, "oewn-00441241-v"], [16, "oewn-02351891-v"], [20, "oewn-02641740-v"], [37, "oewn-00430013-v"]]
+    oewn_key: [[7, "oewn-00441241-v"], [16, "oewn-02351891-v"], [20, "oewn-02641740-v"], [37, "oewn-00430013-v"]]
     paragraph: '11'
     pos: ["DT", "NN", "IN", "NNS", "JJ", "NN", "VBD", "VBN", "WRB", "DT", "NNP", "POS", "JJ", "NN", "NN", "VBD", "VBN", ":", "DT", "NN", "VBD", "VB", "DT", "NN", "IN", "IN", "CD", "NN", "IN", "JJ", "NN", "CC", ",", "IN", "DT", "NN", ",", "VBD", "DT", "JJ", "NN", "IN", "NNS", "."]
     text: ' The rise in sales last winter was checked when the Government''s new feed_grain
@@ -367,7 +367,7 @@ L29P:
     wn30_key: [[7, "check%2:30:02::"], [16, "adopt%2:40:02::"], [20, "result%2:42:02::"], [37, "reduce%2:30:00::"]]
 Hpvq:
     lemmas: ["nearly", "all_of", "the", "farm", "equipment", "manufacturer", "and", "dealer", "say", "the", "upturn", "in", "sales", "have", "result", "chiefly", "from", "the", "recent", "improvement", "in", "crop", "prospect", "."]
-    oewn2026_key: [[8, "oewn-01011267-v"], [14, "oewn-02640346-v"]]
+    oewn_key: [[8, "oewn-01011267-v"], [14, "oewn-02640346-v"]]
     paragraph: '12'
     pos: ["RB", "JJ", "DT", "NN", "NN", "NNS", "CC", "NNS", "VBP", "DT", "NN", "IN", "NNS", "VBZ", "VBN", "RB", "IN", "DT", "JJ", "NN", "IN", "NN", "NNS", "."]
     text: ' Nearly all_of the farm equipment manufacturers and dealers say the upturn in sales
@@ -377,7 +377,7 @@ Hpvq:
     wn30_key: [[8, "say%2:32:00::"], [14, "result%2:42:00::"]]
 cWli:
     lemmas: ["total", "farm", "output", "for", "this", "year", "be", "officially", "forecast", "at", "129", "%", "of", "the", "1947", "-", "49", "average", ",", "three", "point", "higher", "than", "the", "july_1", "estimate", "and", "exactly", "equal_to", "the", "final", "figure", "for", "1960", "."]
-    oewn2026_key: [[8, "oewn-00928443-v"]]
+    oewn_key: [[8, "oewn-00928443-v"]]
     paragraph: '12'
     pos: ["JJ", "NN", "NN", "IN", "DT", "NN", "VBZ", "RB", "VBN", "IN", "CD", "NN", "IN", "DT", "CD", ":", "CD", "JJ", ",", "CD", "NNS", "JJR", "IN", "DT", "NN", "NN", "CC", "RB", "JJ", "DT", "JJ", "NN", "IN", "CD", "."]
     text: ' Total farm output for this year is officially forecast at 129% of the 1947 - 49
@@ -390,7 +390,7 @@ cWli:
     wn30_key: [[8, "forecast%2:32:00::"]]
 oiP1:
     lemmas: ["The", "government", "also", "be", "aid", "farmer", "'", "income", "prospect", "."]
-    oewn2026_key: [[4, "oewn-02553283-v"]]
+    oewn_key: [[4, "oewn-02553283-v"]]
     paragraph: '13'
     pos: ["DT", "NNP", "RB", "VBZ", "VBG", "NNS", "POS", "NN", "NNS", "."]
     text: ' The Government also is aiding farmers'' income prospects.'
@@ -399,7 +399,7 @@ oiP1:
     wn30_key: [[4, "aid%2:41:00::"]]
 9wYa:
     lemmas: ["agriculture_department", "economist", "estimate", "the", "government", "this", "year", "will", "hand", "farmer", "$", "1.4", "billion", "in", "special", "subsidy", "and", "incentive", "payment", ",", "well", "above", "the", "record", "$", "1.1", "billion", "of", "1958", "and", "about", "double", "the", "$", "639", "million", "of", "1960", "."]
-    oewn2026_key: [[2, "oewn-00674352-v"], [8, "oewn-02235554-v"]]
+    oewn_key: [[2, "oewn-00674352-v"], [8, "oewn-02235554-v"]]
     paragraph: '13'
     pos: ["NN", "NNS", "VBP", "DT", "NNP", "DT", "NN", "MD", "VB", "NNS", "$", "CD", "CD", "IN", "JJ", "NNS", "CC", "NN", "NNS", ",", "RB", "IN", "DT", "NN", "$", "CD", "CD", "IN", "CD", "CC", "IN", "JJ", "DT", "$", "CD", "CD", "IN", "CD", "."]
     text: ' Agriculture_Department economists estimate the Government this year will hand farmers
@@ -410,7 +410,7 @@ oiP1:
     wn30_key: [[2, "estimate%2:31:00::"], [8, "hand%2:40:00::"]]
 OXZe:
     lemmas: ["price_support", "loan", "may", "total", "another", "$", "1", "billion", "this", "year", "."]
-    oewn2026_key: [[3, "oewn-02651091-v"]]
+    oewn_key: [[3, "oewn-02651091-v"]]
     paragraph: '13'
     pos: ["NN", "NNS", "MD", "VB", "DT", "$", "CD", "CD", "DT", "NN", "."]
     text: ' Price_support loans may total another $1 billion this year.'
@@ -419,7 +419,7 @@ OXZe:
     wn30_key: [[3, "total%2:42:00::"]]
 U2sU:
     lemmas: ["With", "cash", "receipts", "from", "marketing", "expect", "to", "be", "slightly", "above", "1960", ",", "farmer", "'", "gross_income", "be", "estimate", "at", "$", "39.5", "billion", ",", "$", "1.5", "billion", "above", "1960", "'s", "record", "high", "."]
-    oewn2026_key: [[5, "oewn-00721658-v"], [7, "oewn-02610777-v"], [16, "oewn-00674352-v"]]
+    oewn_key: [[5, "oewn-00721658-v"], [7, "oewn-02610777-v"], [16, "oewn-00674352-v"]]
     paragraph: '13'
     pos: ["IN", "NN", "NNS", "IN", "NNS", "VBN", "TO", "VB", "RB", "IN", "CD", ",", "NNS", "POS", "NN", "VBZ", "VBN", "IN", "$", "CD", "CD", ",", "$", "CD", "CD", "IN", "CD", "POS", "NN", "JJ", "."]
     text: ' With cash receipts from marketings expected to be slightly above 1960, farmers''
@@ -429,7 +429,7 @@ U2sU:
     wn30_key: [[5, "expect%2:31:00::"], [7, "be%2:42:03::"], [16, "estimate%2:31:00::"]]
 2u/R:
     lemmas: ["net_income", "may", "reach", "$", "12.7", "billion", ",", "up", "$", "1", "billion", "from", "1960", "and", "the", "high", "since", "1953", "."]
-    oewn2026_key: [[2, "oewn-02531751-v"]]
+    oewn_key: [[2, "oewn-02531751-v"]]
     paragraph: '13'
     pos: ["NN", "MD", "VB", "$", "CD", "CD", ",", "IN", "$", "CD", "CD", "IN", "CD", "CC", "DT", "JJS", "IN", "CD", "."]
     text: ' Net_income may reach $12.7 billion, up $1 billion from 1960 and the highest since
@@ -439,7 +439,7 @@ U2sU:
     wn30_key: [[2, "reach%2:41:00::"]]
 g58k:
     lemmas: ["The", "government", "report", "last", "week", "that", "the", "index", "of", "price", "receive", "by", "farmer", "rise", "in", "the", "month", "end", "at", "mid-september", "for", "the", "third", "consecutive", "month", ",", "reach", "242", "%", "of", "the", "1910", "-", "14", "average", "compare", "with", "237", "%", "at", "mid-july", "."]
-    oewn2026_key: [[2, "oewn-00968841-v"], [10, "oewn-02214901-v"], [13, "oewn-00154951-v"], [17, "oewn-02615799-v"], [26, "oewn-02531751-v"], [35, "oewn-00655291-v"]]
+    oewn_key: [[2, "oewn-00968841-v"], [10, "oewn-02214901-v"], [13, "oewn-00154951-v"], [17, "oewn-02615799-v"], [26, "oewn-02531751-v"], [35, "oewn-00655291-v"]]
     paragraph: '13'
     pos: ["DT", "NNP", "VBD", "JJ", "NN", "IN", "DT", "NN", "IN", "NNS", "VBN", "IN", "NNS", "VBD", "IN", "DT", "NN", "VBD", "IN", "NNP", "IN", "DT", "JJ", "JJ", "NN", ",", "VBG", "CD", "NN", "IN", "DT", "CD", ":", "CD", "JJ", "VBN", "IN", "CD", "NN", "IN", "NN", "."]
     text: ' The Government reported last week that the index of prices received by farmers rose
@@ -452,7 +452,7 @@ g58k:
     wn30_key: [[2, "report%2:32:04::"], [10, "receive%2:40:00::"], [13, "rise%2:30:00::"], [17, "end%2:42:00::"], [26, "reach%2:41:00::"], [35, "compare%2:31:01::"]]
 eYUV:
     lemmas: ["kennedy", "oppose", "any", "widespread", "relief", "from", "a", "high_court", "depletion", "ruling", "."]
-    oewn2026_key: [[1, "oewn-00777876-v"]]
+    oewn_key: [[1, "oewn-00777876-v"]]
     paragraph: '14'
     pos: ["NNP", "VBZ", "DT", "JJ", "NN", "IN", "DT", "NN", "NN", "NN", "."]
     text: ' Kennedy opposes any widespread relief from a High_Court depletion ruling.
@@ -463,7 +463,7 @@ eYUV:
     wn30_key: [[1, "oppose%2:32:01::"]]
 9zdt:
     lemmas: ["The", "supreme_court", "decision", "in", "mid-1960", "be", "in", "the", "case", "of", "a", "company", "make", "sewer", "pipe", "from", "clay", "which", "it", "mine", "."]
-    oewn2026_key: [[5, "oewn-02610777-v"], [12, "oewn-01624592-v"], [19, "oewn-01165936-v"]]
+    oewn_key: [[5, "oewn-02610777-v"], [12, "oewn-01624592-v"], [19, "oewn-01165936-v"]]
     paragraph: '15'
     pos: ["DT", "NN", "NN", "IN", "CD", "VBD", "IN", "DT", "NN", "IN", "DT", "NN", "VBG", "NN", "NN", "IN", "NN", "WDT", "PRP", "VBD", "."]
     text: ' The Supreme_Court decision in mid-1960 was in the case of a company making sewer
@@ -473,7 +473,7 @@ eYUV:
     wn30_key: [[5, "be%2:42:03::"], [12, "make%2:36:01::"], [19, "mine%2:34:00::"]]
 45BL:
     lemmas: ["The", "company", ",", "in", "figure", "its", "taxable", "earnings", ",", "deduct", "a", "percentage", "of", "the", "revenue", "it", "receive", "for", "its", "finished", "product", "."]
-    oewn2026_key: [[4, "oewn-00638921-v"], [9, "oewn-02219783-v"], [16, "oewn-02214901-v"]]
+    oewn_key: [[4, "oewn-00638921-v"], [9, "oewn-02219783-v"], [16, "oewn-02214901-v"]]
     paragraph: '15'
     pos: ["DT", "NN", ",", "IN", "VBG", "PRP$", "JJ", "NNS", ",", "VBD", "DT", "NN", "IN", "DT", "NN", "PRP", "VBD", "IN", "PRP$", "JJ", "NNS", "."]
     text: ' The company, in figuring its taxable earnings, deducted a percentage of the revenue
@@ -483,7 +483,7 @@ eYUV:
     wn30_key: [[4, "figure%2:31:00::"], [9, "deduct%2:40:00::"], [16, "receive%2:40:00::"]]
 iw2P:
     lemmas: ["such", "\"", "depletion", "allowance", "\"", ",", "in", "the", "form", "of", "percentage", "of", "sales", "be", "authorize", "by", "tax", "law", "for", "specified", "raw_material", "producer", "use_up", "their", "assets", "."]
-    oewn2026_key: [[14, "oewn-00804987-v"], [22, "oewn-01159815-v"]]
+    oewn_key: [[14, "oewn-00804987-v"], [22, "oewn-01159815-v"]]
     paragraph: '15'
     pos: ["JJ", "``", "NN", "NNS", "''", ",", "IN", "DT", "NN", "IN", "NNS", "IN", "NNS", "VBP", "VBN", "IN", "NN", "NN", "IN", "JJ", "NN", "NNS", "VBP", "PRP$", "NNS", "."]
     text: ' Such " depletion allowances ", in the form of percentages of sales are authorized
@@ -493,7 +493,7 @@ iw2P:
     wn30_key: [[14, "authorize%2:32:00::"], [22, "use_up%2:34:00::"]]
 ukpv:
     lemmas: ["The", "high_court", "hold", "that", "the", "company", "must", "apply", "its", "percentage", "allowance", "to", "the", "value", "of", "the", "raw_material", "remove", "from", "the", "ground", ",", "not", "to", "the", "revenue", "from", "finished", "product", "."]
-    oewn2026_key: [[2, "oewn-00695546-v"], [7, "oewn-01161188-v"], [17, "oewn-00173351-v"]]
+    oewn_key: [[2, "oewn-00695546-v"], [7, "oewn-01161188-v"], [17, "oewn-00173351-v"]]
     paragraph: '15'
     pos: ["DT", "NN", "VBD", "IN", "DT", "NN", "MD", "VB", "PRP$", "NN", "NN", "TO", "DT", "NN", "IN", "DT", "NN", "VBN", "IN", "DT", "NN", ",", "RB", "TO", "DT", "NN", "IN", "JJ", "NNS", "."]
     text: ' The High_Court held that the company must apply its percentage allowance to the
@@ -506,7 +506,7 @@ ukpv:
     wn30_key: [[2, "hold%2:31:01::"], [7, "apply%2:34:00::"], [17, "remove%2:30:00::"]]
 +wW0:
     lemmas: ["A", "measure", "pass", "by", "congress", "just", "before", "adjourn", "soften", "the", "ruling", "'s", "impact", ",", "on", "prior-year", "return", "still", "under", "review", ",", "for", "clay-mining", "company", "that", "make", "brick", "and", "tile", "product", "."]
-    oewn2026_key: [[2, "oewn-02472093-v"], [7, "oewn-00364950-v"], [8, "oewn-00390886-v"], [25, "oewn-01624592-v"]]
+    oewn_key: [[2, "oewn-02472093-v"], [7, "oewn-00364950-v"], [8, "oewn-00390886-v"], [25, "oewn-01624592-v"]]
     paragraph: '16'
     pos: ["DT", "NN", "VBN", "VB", "NNP", "RB", "IN", "VBG", "VBD", "DT", "NN", "POS", "NN", ",", "IN", "JJ", "NNS", "RB", "IN", "NN", ",", "IN", "NN", "NNS", "WDT", "VBP", "NN", "CC", "NN", "NNS", "."]
     text: ' A measure passed by Congress just before adjourning softened the ruling''s impact,
@@ -517,7 +517,7 @@ ukpv:
     wn30_key: [[2, "pass%2:41:02::"], [7, "adjourn%2:30:00::"], [8, "soften%2:30:02::"], [25, "make%2:36:01::"]]
 uk1z:
     lemmas: ["The", "measure", "allow", "such", "company", "in", "those", "years", "to", "apply", "their", "mineral", "depletion", "allowance", "to", "50", "%", "of", "the", "value", "of", "the", "finished", "product", "rather_than", "the", "low", "value", "of", "raw", "clay", "alone", "."]
-    oewn2026_key: [[2, "oewn-00803980-v"], [9, "oewn-01161188-v"]]
+    oewn_key: [[2, "oewn-00803980-v"], [9, "oewn-01161188-v"]]
     paragraph: '16'
     pos: ["DT", "NN", "VBZ", "JJ", "NNS", "IN", "DT", "NNS", "TO", "VB", "PRP$", "NN", "NN", "NNS", "TO", "CD", "NN", "IN", "DT", "NN", "IN", "DT", "JJ", "NNS", "RB", "DT", "JJR", "NN", "IN", "JJ", "NN", "RB", "."]
     text: ' The measure allows such companies in those years to apply their mineral depletion
@@ -530,7 +530,7 @@ uk1z:
     wn30_key: [[2, "allow%2:32:00::"], [9, "apply%2:34:00::"]]
 L9n2:
     lemmas: ["president_kennedy", ",", "in", "sign", "the", "relief", "measure", "into", "law", ",", "stress", "he", "regard", "it", "as", "an", "exception", "."]
-    oewn2026_key: [[3, "oewn-02470289-v"], [10, "oewn-01015376-v"], [12, "oewn-00692380-v"]]
+    oewn_key: [[3, "oewn-02470289-v"], [10, "oewn-01015376-v"], [12, "oewn-00692380-v"]]
     paragraph: '17'
     pos: ["NNP", ",", "IN", "VBG", "DT", "NN", "NN", "IN", "NN", ",", "VBD", "PRP", "VBD", "PRP", "IN", "DT", "NN", "."]
     text: ' President_Kennedy, in signing the relief measure into law, stressed he regarded
@@ -540,7 +540,7 @@ L9n2:
     wn30_key: [[3, "sign%2:41:00::"], [10, "stress%2:32:00::"], [12, "regard%2:31:00::"]]
 MVOi:
     lemmas: ["\"", "My", "approval", "of_this", "bill", "should", "not", "be", "view_as", "establish", "a", "precedent", "for", "the", "enactment", "of", "similar", "legislation", "for", "other", "mineral", "industry", "\"", ",", "the", "president", "say", "."]
-    oewn2026_key: [[8, "oewn-00695546-v"], [9, "oewn-00667394-v"], [26, "oewn-01011267-v"]]
+    oewn_key: [[8, "oewn-00695546-v"], [9, "oewn-00667394-v"], [26, "oewn-01011267-v"]]
     paragraph: '17'
     pos: ["``", "PRP$", "NN", "RB", "NN", "MD", "RB", "VB", "VB", "VBG", "DT", "NN", "IN", "DT", "NN", "IN", "JJ", "NN", "IN", "JJ", "NN", "NNS", "``", ",", "DT", "NNP", "VBD", "."]
     text: ' " My approval of_this bill should not be viewed_as establishing a precedent for
@@ -553,7 +553,7 @@ MVOi:
     wn30_key: [[8, "view_as%2:31:00::"], [9, "establish%2:31:02::"], [26, "say%2:32:00::"]]
 Jr6a:
     lemmas: ["charitable", "deduction", "come_in_for", "close", "scrutiny", "by", "the", "I._R._S.", "."]
-    oewn2026_key: [[2, "oewn-02735135-v"]]
+    oewn_key: [[2, "oewn-02735135-v"]]
     paragraph: '18'
     pos: ["JJ", "NNS", "VBP", "JJR", "NN", "IN", "DT", "NNP", "."]
     text: ' Charitable deductions come_in_for closer scrutiny by the I._R._S. .
@@ -564,7 +564,7 @@ Jr6a:
     wn30_key: [[2, "come_in_for%2:42:00::"]]
 ce5J:
     lemmas: ["The", "service", "announce", "that", "taxpayer", "make", "such", "claim", "may", "be", "call_on", "to", "furnish", "a", "statement", "from", "the", "recipient", "organization", "show", "the", "date", ",", "purpose", ",", "amount", "and", "other", "particular", "of", "the", "contribution", "."]
-    oewn2026_key: [[2, "oewn-00976399-v"], [5, "oewn-01620211-v"], [10, "oewn-00796302-v"], [12, "oewn-02332196-v"], [19, "oewn-02141597-v"]]
+    oewn_key: [[2, "oewn-00976399-v"], [5, "oewn-01620211-v"], [10, "oewn-00796302-v"], [12, "oewn-02332196-v"], [19, "oewn-02141597-v"]]
     paragraph: '19'
     pos: ["DT", "NNP", "VBD", "IN", "NNS", "VBG", "JJ", "NNS", "MD", "VB", "VB", "TO", "VB", "DT", "NN", "IN", "DT", "JJ", "NN", "VBG", "DT", "NN", ",", "NN", ",", "NN", "CC", "JJ", "NNS", "IN", "DT", "NN", "."]
     text: ' The Service announced that taxpayers making such claims may be called_on to furnish
@@ -575,7 +575,7 @@ ce5J:
     wn30_key: [[2, "announce%2:32:00::"], [5, "make%2:36:00::"], [10, "call_on%2:32:00::"], [12, "furnish%2:40:00::"], [19, "show%2:39:00::"]]
 fSzU:
     lemmas: ["request", "for", "substantiation", ",", "the", "service", "indicate", ",", "can", "be", "especially", "expect", "in", "case", "where", "it", "suspect", "the", "donor", "receive", "some", "material", "benefit", "in_return", ",", "such_as", "ticket", "to", "a", "show", "."]
-    oewn2026_key: [[6, "oewn-00929986-v"], [11, "oewn-00721658-v"], [16, "oewn-00923043-v"], [19, "oewn-02214901-v"]]
+    oewn_key: [[6, "oewn-00929986-v"], [11, "oewn-00721658-v"], [16, "oewn-00923043-v"], [19, "oewn-02214901-v"]]
     paragraph: '19'
     pos: ["NNS", "IN", "NN", ",", "DT", "NNP", "VBD", ",", "MD", "VB", "RB", "VBN", "IN", "NNS", "WRB", "PRP", "VBZ", "DT", "NN", "VBD", "DT", "NN", "NN", "RB", ",", "JJ", "NNS", "TO", "DT", "NN", "."]
     text: ' Requests for substantiation, the Service indicated, can be especially expected in
@@ -588,7 +588,7 @@ fSzU:
     wn30_key: [[6, "indicate%2:32:00::"], [11, "expect%2:31:00::"], [16, "suspect%2:32:00::"], [19, "receive%2:40:00::"]]
 FW/s:
     lemmas: ["In", "such", "instance", ",", "revenuer", "stress", ",", "the", "deduction", "must", "be", "reduce", "by", "the", "value", "of", "the", "benefit", "receive", "."]
-    oewn2026_key: [[5, "oewn-01015376-v"], [11, "oewn-00430013-v"], [18, "oewn-02214901-v"]]
+    oewn_key: [[5, "oewn-01015376-v"], [11, "oewn-00430013-v"], [18, "oewn-02214901-v"]]
     paragraph: '20'
     pos: ["IN", "JJ", "NN", ",", "NNS", "VBD", ",", "DT", "NN", "MD", "VB", "VBN", "IN", "DT", "NN", "IN", "DT", "NN", "VBD", "."]
     text: ' In such instance, revenuers stressed, the deduction must be reduced by the value
@@ -600,7 +600,7 @@ FW/s:
     wn30_key: [[5, "stress%2:32:00::"], [11, "reduce%2:30:00::"], [18, "receive%2:40:00::"]]
 vPAd:
     lemmas: ["A", "rule", "on", "the", "federal", "deductibility", "of", "state", "tax", "be", "contest", "."]
-    oewn2026_key: [[10, "oewn-00871260-v"]]
+    oewn_key: [[10, "oewn-00871260-v"]]
     paragraph: '21'
     pos: ["DT", "NN", "IN", "DT", "NNP", "NN", "IN", "NN", "NNS", "VBZ", "VBN", "."]
     text: ' A rule on the Federal deductibility of state taxes is contested.
@@ -611,7 +611,7 @@ vPAd:
     wn30_key: [[10, "contest%2:32:00::"]]
 b1T6:
     lemmas: ["A", "realty", "corporation", "in", "louisiana", "owe", "no", "tax", "under", "federal", "law", ",", "on", "its", "gain", "from", "the", "sale", "of", "property", "dispose", "of", "in_line", "with", "a", "plan", "of", "liquidation", "."]
-    oewn2026_key: [[5, "oewn-02258963-v"], [20, "oewn-02359918-v"]]
+    oewn_key: [[5, "oewn-02258963-v"], [20, "oewn-02359918-v"]]
     paragraph: '22'
     pos: ["DT", "NN", "NN", "IN", "NNP", "VBD", "DT", "NN", "IN", "NNP", "NN", ",", "IN", "PRP$", "NN", "IN", "DT", "NN", "IN", "NN", "VB", "VB", "RB", "IN", "DT", "NN", "IN", "NN", "."]
     text: ' A realty corporation in Louisiana owed no tax under Federal law, on its gain from
@@ -621,7 +621,7 @@ b1T6:
     wn30_key: [[5, "owe%2:40:01::"], [20, "dispose%2:40:11::"]]
 MH/w:
     lemmas: ["louisiana", ",", "however", ",", "collect", "an", "income_tax", "on", "the", "profits", "from", "the", "sale", "."]
-    oewn2026_key: [[4, "oewn-02222955-v"]]
+    oewn_key: [[4, "oewn-02222955-v"]]
     paragraph: '22'
     pos: ["NNP", ",", "RB", ",", "VBD", "DT", "NN", "IN", "DT", "NN", "VB", "DT", "NN", "."]
     text: ' Louisiana, however, collected an income_tax on the profits from the sale.'
@@ -630,7 +630,7 @@ MH/w:
     wn30_key: [[4, "collect%2:40:01::"]]
 e8+x:
     lemmas: ["The", "corporation", ",", "in", "file", "its", "final", "federal", "income", "return", ",", "claim", "the", "state", "tax", "payment", "as", "a", "deductible", "expense", ",", "as", "permit", "under", "U._S.", "tax", "law", "."]
-    oewn2026_key: [[4, "oewn-01003902-v"], [11, "oewn-01020361-v"], [22, "oewn-00803980-v"]]
+    oewn_key: [[4, "oewn-01003902-v"], [11, "oewn-01020361-v"], [22, "oewn-00803980-v"]]
     paragraph: '22'
     pos: ["DT", "NN", ",", "IN", "VBG", "PRP$", "JJ", "NNP", "NN", "NN", ",", "VBD", "DT", "NN", "NN", "NN", "IN", "DT", "JJ", "NN", ",", "IN", "VBN", "IN", "NNP", "NN", "NN", "."]
     text: ' The corporation, in filing its final Federal income return, claimed the state tax
@@ -642,7 +642,7 @@ e8+x:
     wn30_key: [[4, "file%2:32:02::"], [11, "claim%2:32:02::"], [22, "permit%2:32:00::"]]
 UwUk:
     lemmas: ["The", "revenue", "service", "disallow", "the", "claim", ",", "invoke", "a", "law", "provision", "that", "generally", "bar", "deduction", "for", "expense", "incur", "in", "connection", "with", "what", "it", "say", "be", "tax-exempt", "income", "."]
-    oewn2026_key: [[3, "oewn-00797525-v"], [7, "oewn-01026873-v"], [13, "oewn-00798250-v"], [17, "oewn-02726906-v"], [23, "oewn-01011267-v"], [24, "oewn-02610777-v"]]
+    oewn_key: [[3, "oewn-00797525-v"], [7, "oewn-01026873-v"], [13, "oewn-00798250-v"], [17, "oewn-02726906-v"], [23, "oewn-01011267-v"], [24, "oewn-02610777-v"]]
     paragraph: '23'
     pos: ["DT", "NN", "NNP", "VBD", "DT", "NN", ",", "VBG", "DT", "NN", "NN", "IN", "RB", "VBZ", "NNS", "IN", "NNS", "VBN", "IN", "NN", "IN", "WP", "PRP", "VBD", "VBD", "JJ", "NN", "."]
     text: ' The Revenue Service disallowed the claim, invoking a law provision that generally
@@ -653,7 +653,7 @@ UwUk:
     wn30_key: [[3, "disallow%2:32:00::"], [7, "invoke%2:32:01::"], [13, "bar%2:32:00::"], [17, "incur%2:42:00::"], [23, "say%2:32:00::"], [24, "be%2:42:03::"]]
 1pDL:
     lemmas: ["The", "tax_court", "reject", "this", "view", "."]
-    oewn2026_key: [[2, "oewn-00687584-v"]]
+    oewn_key: [[2, "oewn-00687584-v"]]
     paragraph: '23'
     pos: ["DT", "NNP", "VBD", "DT", "NN", "."]
     text: ' The Tax_Court rejected this view.'
@@ -662,7 +662,7 @@ UwUk:
     wn30_key: [[2, "reject%2:31:00::"]]
 j7fc:
     lemmas: ["It", "say", "the", "tax-freedom", "of", "the", "gain", "in_this", "case", "stem", "not", "from", "the", "exempt", "status", "of", "the", "income", "but", "from", "a", "special", "rule", "on", "corporate", "liquidation", "."]
-    oewn2026_key: [[1, "oewn-01011267-v"], [9, "oewn-02633834-v"]]
+    oewn_key: [[1, "oewn-01011267-v"], [9, "oewn-02633834-v"]]
     paragraph: '23'
     pos: ["PRP", "VBD", "DT", "NN", "IN", "DT", "NN", "RB", "NN", "VBD", "RB", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "CC", "IN", "DT", "JJ", "NN", "IN", "JJ", "NNS", "."]
     text: ' It said the tax-freedom of the gain in_this case stemmed not from the exempt status
@@ -674,7 +674,7 @@ j7fc:
     wn30_key: [[1, "say%2:32:00::"], [9, "stem%2:42:00::"]]
 OW1c:
     lemmas: ["The", "tax_court", "decision", "and", "a", "similar", "earlier", "finding", "by", "the", "ninth_circuit", "court_of_appeals", "challenge", "a", "year-old", "I._R._S.", "ruling", "on", "the", "subject", "."]
-    oewn2026_key: [[12, "oewn-00870790-v"]]
+    oewn_key: [[12, "oewn-00870790-v"]]
     paragraph: '24'
     pos: ["DT", "NNP", "NN", "CC", "DT", "JJ", "RBR", "NN", "IN", "DT", "NNP", "NN", "VBZ", "DT", "JJ", "NNP", "NN", "IN", "DT", "NN", "."]
     text: ' The Tax_Court decision and a similar earlier finding by the Ninth_Circuit Court_of_Appeals
@@ -684,7 +684,7 @@ OW1c:
     wn30_key: [[12, "challenge%2:32:01::"]]
 v8BQ:
     lemmas: ["The", "service", "have", "not", "say", "what", "its", "next", "step", "will", "be", "."]
-    oewn2026_key: [[4, "oewn-01011267-v"], [10, "oewn-02610777-v"]]
+    oewn_key: [[4, "oewn-01011267-v"], [10, "oewn-02610777-v"]]
     paragraph: '24'
     pos: ["DT", "NNP", "VBZ", "RB", "VBN", "WP", "PRP$", "JJ", "NN", "MD", "VB", "."]
     text: ' The Service has not said what its next step will be.
@@ -695,7 +695,7 @@ v8BQ:
     wn30_key: [[4, "say%2:32:00::"], [10, "be%2:42:03::"]]
 iBY1:
     lemmas: ["peace_corps", "volunteer", "be", "assure", "a", "tax_benefit", "under", "the", "law", "create", "the", "agency", "."]
-    oewn2026_key: [[3, "oewn-00892111-v"], [9, "oewn-01620211-v"]]
+    oewn_key: [[3, "oewn-00892111-v"], [9, "oewn-01620211-v"]]
     paragraph: '25'
     pos: ["NN", "NNS", "VBP", "VBN", "DT", "NN", "IN", "DT", "NN", "VBG", "DT", "NN", "."]
     text: ' Peace_Corps volunteers are assured a tax_benefit under the law creating the agency.'
@@ -704,7 +704,7 @@ iBY1:
     wn30_key: [[3, "assure%2:32:03::"], [9, "create%2:36:00::"]]
 ZsDf:
     lemmas: ["It", "provide", "that", "the", "$", "1800", "termination", "payment", "each", "cadet", "be", "to", "get", ",", "after", "serve", "a", "two-year", "hitch", "without", "pay", ",", "will", "be", "spread", "over", "both", "years", ",", "not", "tax", "in_its_entirety", "at", "a", "possibly", "higher", "rate", "in", "the", "year", "receive", "."]
-    oewn2026_key: [[1, "oewn-01065210-v"], [12, "oewn-02215637-v"], [15, "oewn-01097629-v"], [24, "oewn-02695141-v"], [30, "oewn-02312527-v"], [40, "oewn-02214901-v"]]
+    oewn_key: [[1, "oewn-01065210-v"], [12, "oewn-02215637-v"], [15, "oewn-01097629-v"], [24, "oewn-02695141-v"], [30, "oewn-02312527-v"], [40, "oewn-02214901-v"]]
     paragraph: '25'
     pos: ["PRP", "VBZ", "IN", "DT", "$", "CD", "NN", "NN", "DT", "NN", "VBZ", "TO", "VB", ",", "IN", "VBG", "DT", "JJ", "NN", "IN", "NN", ",", "MD", "VB", "VBN", "VB", "DT", "NNS", ",", "RB", "VBN", "RB", "IN", "DT", "RB", "JJR", "NN", "IN", "DT", "NN", "VBD", "."]
     text: ' It provides that the $1800 termination payment each cadet is to get, after serving
@@ -717,7 +717,7 @@ ZsDf:
     wn30_key: [[1, "provide%2:32:00::"], [12, "get%2:40:00::"], [15, "serve%2:33:00::"], [24, "spread%2:42:00::"], [30, "tax%2:40:00::"], [40, "receive%2:40:00::"]]
 dpiL:
     lemmas: ["The", "owner", "of", "a", "public_relations", "firm", "owe", "no", "income_tax", "on", "payment", "he", "receive", "from", "a", "client", "company", "and", "\"", "kick_back", "\"", "to", "the", "company", "'s", "advertising", "manager", ",", "the", "tax_court", "rule", "."]
-    oewn2026_key: [[6, "oewn-02258963-v"], [12, "oewn-02214901-v"], [19, "oewn-02360255-v"], [30, "oewn-00717773-v"]]
+    oewn_key: [[6, "oewn-02258963-v"], [12, "oewn-02214901-v"], [19, "oewn-02360255-v"], [30, "oewn-00717773-v"]]
     paragraph: '26'
     pos: ["DT", "NN", "IN", "DT", "NN", "NN", "VBD", "DT", "NN", "IN", "NNS", "PRP", "VBD", "IN", "DT", "NN", "NN", "CC", "``", "VB", "''", "TO", "DT", "NN", "POS", "NN", "NN", ",", "DT", "NNP", "VBD", "."]
     text: ' The owner of a public_relations firm owed no income_tax on payments he received
@@ -728,7 +728,7 @@ dpiL:
     wn30_key: [[6, "owe%2:40:01::"], [12, "receive%2:40:00::"], [19, "kick_back%2:40:00::"], [30, "rule%2:31:00::"]]
 CjiS:
     lemmas: ["The", "taxpayer", "testify", "that", "in_order_to", "retain", "the", "account", "he", "have", "to", "pad", "his", "invoice", "and", "pay", "the", "excess", "to", "the", "manager", "."]
-    oewn2026_key: [[2, "oewn-01016830-v"], [5, "oewn-02288169-v"], [11, "oewn-00958437-v"], [15, "oewn-02256551-v"]]
+    oewn_key: [[2, "oewn-01016830-v"], [5, "oewn-02288169-v"], [11, "oewn-00958437-v"], [15, "oewn-02256551-v"]]
     paragraph: '26'
     pos: ["DT", "NN", "VBD", "IN", "RB", "VBP", "DT", "NN", "PRP", "VB", "VB", "VB", "PRP$", "NNS", "CC", "VB", "DT", "JJ", "TO", "DT", "NN", "."]
     text: ' The taxpayer testified that in_order_to retain the account he had to pad his invoices
@@ -738,7 +738,7 @@ CjiS:
     wn30_key: [[2, "testify%2:32:01::"], [5, "retain%2:40:00::"], [11, "pad%2:32:00::"], [15, "pay%2:40:00::"]]
 TwTh:
     lemmas: ["The", "court", "uphold", "the", "taxpayer", "'s", "contention", "that", "these", "\"", "kickback", "\"", "be", "not", "his", "income", "though", "they", "pass_through", "his", "hands", "."]
-    oewn2026_key: [[2, "oewn-00898147-v"], [12, "oewn-02626667-v"], [18, "oewn-01919358-v"]]
+    oewn_key: [[2, "oewn-00898147-v"], [12, "oewn-02626667-v"], [18, "oewn-01919358-v"]]
     paragraph: '26'
     pos: ["DT", "NNP", "VBD", "DT", "NN", "POS", "NN", "IN", "DT", "``", "NNS", "''", "VBD", "RB", "PRP$", "NN", "IN", "PRP", "VBP", "PRP$", "NNS", "."]
     text: ' The Court upheld the taxpayer''s contention that these " kickbacks " were not his
@@ -748,7 +748,7 @@ TwTh:
     wn30_key: [[2, "uphold%2:32:02::"], [12, "be%2:42:02::"], [18, "pass_through%2:38:00::"]]
 Tvec:
     lemmas: ["The", "court", "limit", "its", "decision", "to", "the", "tax", "issue", "involve", ",", "comment", ":", "\"", "It", "be", "not", "our", "province", "to", "pass", "judgment", "on", "the", "morality", "of", "the", "transaction", "\"", "."]
-    oewn2026_key: [[2, "oewn-00234091-v"], [9, "oewn-02682907-v"], [11, "oewn-01060446-v"], [15, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-00234091-v"], [9, "oewn-02682907-v"], [11, "oewn-01060446-v"], [15, "oewn-02610777-v"]]
     paragraph: '26'
     pos: ["DT", "NNP", "VBD", "PRP$", "NN", "TO", "DT", "NN", "NN", "VBN", ",", "VBG", ":", "``", "PRP", "VBZ", "RB", "PRP$", "NN", "TO", "VB", "NN", "VB", "DT", "NN", "IN", "DT", "NN", "''", "."]
     text: ' The Court limited its decision to the tax issue involved, commenting: " It is not
@@ -760,7 +760,7 @@ Tvec:
     wn30_key: [[2, "limit%2:30:01::"], [9, "involve%2:42:01::"], [11, "comment%2:32:00::"], [15, "be%2:42:03::"]]
 xbve:
     lemmas: ["A", "portable", "kerosene", "range", "design", "for", "use", "aboard", "boat", "be", "sell", "with", "a", "special", "railing", "to", "keep", "it", "from", "move", "with", "the", "motion", "of", "the", "vessel", "."]
-    oewn2026_key: [[4, "oewn-00711454-v"], [10, "oewn-02247246-v"], [16, "oewn-02455370-v"], [19, "oewn-01835473-v"]]
+    oewn_key: [[4, "oewn-00711454-v"], [10, "oewn-02247246-v"], [16, "oewn-02455370-v"], [19, "oewn-01835473-v"]]
     paragraph: '27'
     pos: ["DT", "JJ", "NN", "NN", "VBN", "IN", "NN", "IN", "NNS", "VBZ", "VBN", "IN", "DT", "JJ", "NN", "TO", "VB", "PRP", "IN", "VBG", "IN", "DT", "NN", "IN", "DT", "NN", "."]
     text: ' A portable kerosene range designed for use aboard boats is sold with a special railing
@@ -770,7 +770,7 @@ xbve:
     wn30_key: [[4, "design%2:31:00::"], [10, "sell%2:40:00::"], [16, "keep%2:41:01::"], [19, "move%2:38:00::"]]
 acbH:
     lemmas: ["The", "revenue", "service", "say", "the", "addition", "of", "the", "attachment", "do", "not", "keep", "the", "range", "from", "come", "under", "the", "federal", "manufacturer", "'", "excise_tax", "on", "household-type", "appliance", "."]
-    oewn2026_key: [[3, "oewn-01011267-v"], [11, "oewn-02455370-v"], [15, "oewn-02735838-v"]]
+    oewn_key: [[3, "oewn-01011267-v"], [11, "oewn-02455370-v"], [15, "oewn-02735838-v"]]
     paragraph: '27'
     pos: ["DT", "NN", "NNP", "VBD", "DT", "NN", "IN", "DT", "NN", "VBZ", "RB", "VB", "DT", "NN", "IN", "VBG", "IN", "DT", "NNP", "NNS", "POS", "NN", "IN", "JJ", "NNS", "."]
     text: ' The Revenue Service said the addition of the attachment does not keep the range
@@ -782,7 +782,7 @@ acbH:
     wn30_key: [[3, "say%2:32:00::"], [11, "keep%2:41:01::"], [15, "come%2:42:00::"]]
 ub5p:
     lemmas: ["hire", "the", "wife", "for", "one", "'s", "company", "may", "win", "her", "tax-aided", "retirement", "income", "."]
-    oewn2026_key: [[0, "oewn-02414542-v"], [8, "oewn-02293158-v"]]
+    oewn_key: [[0, "oewn-02414542-v"], [8, "oewn-02293158-v"]]
     paragraph: '28'
     pos: ["VBG", "DT", "NN", "IN", "CD", "POS", "NN", "MD", "VB", "PRP$", "JJ", "NN", "NN", "."]
     text: ' Hiring the wife for one''s company may win her tax-aided retirement income.
@@ -793,7 +793,7 @@ ub5p:
     wn30_key: [[0, "hire%2:41:00::"], [8, "win%2:40:00::"]]
 oh2E:
     lemmas: ["A", "spouse", "employ", "by", "a", "corporation", "her", "husband", "control", ",", "for_example", ",", "may", "be", "entitle", "to", "distribution", "under", "the", "company", "'s", "pension", "plan", "as_well", "as", "to", "her", "own", "social_security", "coverage", "."]
-    oewn2026_key: [[2, "oewn-02414542-v"], [8, "oewn-02445887-v"], [14, "oewn-02452235-v"]]
+    oewn_key: [[2, "oewn-02414542-v"], [8, "oewn-02445887-v"], [14, "oewn-02452235-v"]]
     paragraph: '29'
     pos: ["DT", "NN", "VBN", "IN", "DT", "NN", "PRP$", "NN", "VB", ",", "RB", ",", "MD", "VB", "VBN", "TO", "NNS", "IN", "DT", "NN", "POS", "NN", "NN", "RB", "RB", "TO", "PRP$", "JJ", "NN", "NN", "."]
     text: ' A spouse employed by a corporation her husband controls, for_example, may be entitled
@@ -804,7 +804,7 @@ oh2E:
     wn30_key: [[2, "employ%2:41:00::"], [8, "control%2:41:00::"], [14, "entitle%2:41:00::"]]
 aXLV:
     lemmas: ["She", "would", "be", "tax", "on", "the", "pension", "when", "receive", ",", "of_course", ",", "but", "the", "company", "'s", "contribution", "would", "be", "tax-free", "."]
-    oewn2026_key: [[3, "oewn-02312527-v"], [8, "oewn-02214901-v"], [18, "oewn-02610777-v"]]
+    oewn_key: [[3, "oewn-02312527-v"], [8, "oewn-02214901-v"], [18, "oewn-02610777-v"]]
     paragraph: '29'
     pos: ["PRP", "MD", "VB", "VBN", "IN", "DT", "NNS", "WRB", "VBN", ",", "RB", ",", "CC", "DT", "NN", "POS", "NNS", "MD", "VB", "JJ", "."]
     text: ' She would be taxed on the pensions when received, of_course, but the company''s
@@ -816,7 +816,7 @@ aXLV:
     wn30_key: [[3, "tax%2:40:00::"], [8, "receive%2:40:00::"], [18, "be%2:42:03::"]]
 Ce7y:
     lemmas: ["A", "frequent", "pitfall", "in_this", "sort_of", "arrangement", ",", "expert", "warn", ",", "be", "a", "tendency", "to", "pay", "the", "wife", "more_than", "her", "job", "be", "worth", "and", "to", "set_aside", "an", "excessive", "amount", "for", "her", "as", "retirement", "income", "."]
-    oewn2026_key: [[8, "oewn-00871877-v"], [10, "oewn-02610777-v"], [14, "oewn-02256551-v"], [20, "oewn-02610777-v"], [24, "oewn-00726112-v"]]
+    oewn_key: [[8, "oewn-00871877-v"], [10, "oewn-02610777-v"], [14, "oewn-02256551-v"], [20, "oewn-02610777-v"], [24, "oewn-00726112-v"]]
     paragraph: '30'
     pos: ["DT", "JJ", "NN", "RB", "RB", "NN", ",", "NNS", "VBP", ",", "VBZ", "DT", "NN", "TO", "VB", "DT", "NN", "RB", "PRP$", "NN", "VBZ", "JJ", "CC", "TO", "VB", "DT", "JJ", "NN", "RB", "PRP", "IN", "NN", "NN", "."]
     text: ' A frequent pitfall in_this sort_of arrangement, experts warn, is a tendency to pay
@@ -827,7 +827,7 @@ Ce7y:
     wn30_key: [[8, "warn%2:32:00::"], [10, "be%2:42:03::"], [14, "pay%2:40:00::"], [20, "be%2:42:03::"], [24, "set_aside%2:31:00::"]]
 X7dI:
     lemmas: ["in_that", "event", ",", "they", "note", ",", "the", "revenue", "service", "might", "declare", "the", "pension", "plan", "be", "discriminatory", "and", "deny", "it", "tax", "privilege", "under", "the", "law", "."]
-    oewn2026_key: [[4, "oewn-01022014-v"], [10, "oewn-00824028-v"], [14, "oewn-02610777-v"], [17, "oewn-02217607-v"]]
+    oewn_key: [[4, "oewn-01022014-v"], [10, "oewn-00824028-v"], [14, "oewn-02610777-v"], [17, "oewn-02217607-v"]]
     paragraph: '30'
     pos: ["RB", "NN", ",", "PRP", "VBP", ",", "DT", "NN", "NNP", "MD", "VB", "DT", "NN", "NN", "VBZ", "JJ", "CC", "VB", "PRP", "NN", "NNS", "IN", "DT", "NN", "."]
     text: ' In_that event, they note, the Revenue Service might declare the pension plan is
@@ -839,7 +839,7 @@ X7dI:
     wn30_key: [[4, "note%2:32:00::"], [10, "declare%2:32:04::"], [14, "be%2:42:03::"], [17, "deny%2:40:00::"]]
 4iRP:
     lemmas: ["possible", "upshot", ":", "The", "company", "could", "be", "deny", "a", "deduction", "for", "its", "pension", "payment", ",", "or", "those", "payment", "for", "the", "wife", "and", "other", "employe", "could", "be", "rule", "taxable", "to", "them", "in", "the", "year", "make", "."]
-    oewn2026_key: [[7, "oewn-02217607-v"], [26, "oewn-00974031-v"], [33, "oewn-02566500-v"]]
+    oewn_key: [[7, "oewn-02217607-v"], [26, "oewn-00974031-v"], [33, "oewn-02566500-v"]]
     paragraph: '31'
     pos: ["JJ", "NNS", ":", "DT", "NN", "MD", "VB", "VBN", "DT", "NN", "IN", "PRP$", "NN", "NNS", ",", "CC", "DT", "NN", "IN", "DT", "NN", "CC", "JJ", "NNS", "MD", "VB", "VBN", "JJ", "TO", "PRP", "IN", "DT", "NN", "VBD", "."]
     text: ' Possible upshots: The company could be denied a deduction for its pension payments,
@@ -852,7 +852,7 @@ X7dI:
     wn30_key: [[7, "deny%2:40:00::"], [26, "rule%2:32:00::"], [33, "make%2:41:00::"]]
 Uk9K:
     lemmas: ["state_brief", ":", "voter", "in", "four", "county", "contain", "and", "border", "denver", "authorize", "the", "imposition", "of", "an", "additional", "2", "%", "sales_tax", "within", "that", "area", "."]
-    oewn2026_key: [[6, "oewn-02635616-v"], [8, "oewn-02716547-v"], [10, "oewn-00804987-v"]]
+    oewn_key: [[6, "oewn-02635616-v"], [8, "oewn-02716547-v"], [10, "oewn-00804987-v"]]
     paragraph: '32'
     pos: ["NNP", ":", "NNS", "IN", "CD", "NNS", "VBG", "CC", "VBG", "NNP", "VBD", "DT", "NN", "IN", "DT", "JJ", "CD", "NN", "NN", "IN", "IN", "NN", "."]
     text: ' State_Briefs: Voters in four counties containing and bordering Denver authorized
@@ -862,7 +862,7 @@ Uk9K:
     wn30_key: [[6, "contain%2:42:00::"], [8, "border%2:42:00::"], [10, "authorize%2:32:00::"]]
 255a:
     lemmas: ["colorado", "have", "a", "2", "%", "sales_tax", "."]
-    oewn2026_key: [[1, "oewn-02636270-v"]]
+    oewn_key: [[1, "oewn-02636270-v"]]
     paragraph: '32'
     pos: ["NNP", "VBZ", "DT", "CD", "NN", "NN", "."]
     text: ' Colorado has a 2% sales_tax.'
@@ -871,7 +871,7 @@ Uk9K:
     wn30_key: [[1, "have%2:42:00::"]]
 ts2a:
     lemmas: ["denver", "itself", "collect", "a", "1", "%", "sales_tax", "which", "be", "to", "be", "absorb", "in", "the", "higher", "area", "tax", "."]
-    oewn2026_key: [[2, "oewn-02222955-v"], [11, "oewn-00396604-v"]]
+    oewn_key: [[2, "oewn-02222955-v"], [11, "oewn-00396604-v"]]
     paragraph: '32'
     pos: ["NNP", "PRP", "VBZ", "DT", "CD", "NN", "NN", "WDT", "VBZ", "TO", "VB", "VBN", "IN", "DT", "JJR", "NN", "NN", "."]
     text: ' Denver itself collects a 1% sales_tax which is to be absorbed in the higher area
@@ -881,7 +881,7 @@ ts2a:
     wn30_key: [[2, "collect%2:40:01::"], [11, "absorb%2:30:00::"]]
 G3hv:
     lemmas: ["The", "washington", "state_supreme_court", "rule", "that", "the", "state", "'s", "occupation", "tax", "apply", "to", "sales", ",", "make", "at", "cost", "to", "an", "oil_company", ",", "by", "a", "wholly-owned", "subsidiary", "set_up", "to", "purchase", "certain", "supply", "without", "divulge", "the", "identity", "of", "the", "parent", "."]
-    oewn2026_key: [[3, "oewn-00717773-v"], [10, "oewn-02682599-v"], [14, "oewn-02566500-v"], [25, "oewn-02431950-v"], [27, "oewn-02211988-v"], [31, "oewn-00935783-v"]]
+    oewn_key: [[3, "oewn-00717773-v"], [10, "oewn-02682599-v"], [14, "oewn-02566500-v"], [25, "oewn-02431950-v"], [27, "oewn-02211988-v"], [31, "oewn-00935783-v"]]
     paragraph: '32'
     pos: ["DT", "NNP", "NN", "VBD", "IN", "DT", "NN", "POS", "NN", "NN", "VBN", "VB", "NNS", ",", "VBN", "IN", "NN", "TO", "DT", "NN", ",", "IN", "DT", "JJ", "NN", "VB", "TO", "VB", "JJ", "NNS", "IN", "VBG", "DT", "NN", "IN", "DT", "NN", "."]
     text: ' The Washington state_supreme_court ruled that the state''s occupation tax applied
@@ -892,7 +892,7 @@ G3hv:
     wn30_key: [[3, "rule%2:31:00::"], [10, "apply%2:42:00::"], [14, "make%2:41:00::"], [25, "set_up%2:41:02::"], [27, "purchase%2:40:00::"], [31, "divulge%2:32:00::"]]
 V93K:
     lemmas: ["The", "state", "'s", "occupation", "tax", "be", "compute", "on", "gross", "sales", "."]
-    oewn2026_key: [[6, "oewn-00638921-v"]]
+    oewn_key: [[6, "oewn-00638921-v"]]
     paragraph: '32'
     pos: ["DT", "NN", "POS", "NN", "NN", "VBZ", "VBN", "IN", "JJ", "NNS", "."]
     text: ' The state''s occupation tax is computed on gross sales.'
@@ -901,7 +901,7 @@ V93K:
     wn30_key: [[6, "compute%2:31:00::"]]
 u//0:
     lemmas: ["The", "court", "hold", "that", "the", "tax", "apply", "to", "non-profit", "sales", "because", "the", "corporation", "realize", "economic", "benefit", "by", "do", "business", "as", "two", "separate", "entity", "."]
-    oewn2026_key: [[2, "oewn-00695546-v"], [6, "oewn-02682599-v"], [13, "oewn-02294200-v"], [17, "oewn-02566500-v"]]
+    oewn_key: [[2, "oewn-00695546-v"], [6, "oewn-02682599-v"], [13, "oewn-02294200-v"], [17, "oewn-02566500-v"]]
     paragraph: '32'
     pos: ["DT", "NN", "VBD", "IN", "DT", "NN", "VBN", "VB", "JJ", "NNS", "IN", "DT", "NNS", "VBD", "JJ", "NNS", "IN", "VBG", "NN", "IN", "CD", "JJ", "NNS", "."]
     text: ' The court held that the tax applied to non-profit sales because the corporations
@@ -913,7 +913,7 @@ u//0:
     wn30_key: [[2, "hold%2:31:01::"], [6, "apply%2:42:00::"], [13, "realize%2:40:01::"], [17, "do%2:41:01::"]]
 Iytb:
     lemmas: ["consumer", "spending", "edge", "down", "in", "april", "after", "rise", "for", "two", "consecutive", "month", ",", "the", "government", "report", "."]
-    oewn2026_key: [[2, "oewn-02076429-v"], [7, "oewn-00154951-v"], [15, "oewn-00968841-v"]]
+    oewn_key: [[2, "oewn-02076429-v"], [7, "oewn-00154951-v"], [15, "oewn-00968841-v"]]
     paragraph: '33'
     pos: ["NNP", "NN", "VBD", "RB", "IN", "NNP", "IN", "VBG", "IN", "CD", "JJ", "NNS", ",", "DT", "NNP", "VBD", "."]
     text: ' Consumer spending edged down in April after rising for two consecutive months, the
@@ -925,7 +925,7 @@ Iytb:
     wn30_key: [[2, "edge%2:38:00::"], [7, "rise%2:30:00::"], [15, "report%2:32:04::"]]
 OqUc:
     lemmas: ["The", "commerce_department", "say", "seasonally", "adjusted", "sales", "of", "retail_store", "drop", "to", "slightly", "under", "$", "18", "billion", "in", "april", ",", "down", "1", "%", "from", "the", "march", "level", "of", "more_than", "$", "18.2", "billion", "."]
-    oewn2026_key: [[2, "oewn-01011267-v"], [8, "oewn-00433636-v"]]
+    oewn_key: [[2, "oewn-01011267-v"], [8, "oewn-00433636-v"]]
     paragraph: '34'
     pos: ["DT", "NN", "VBD", "RB", "JJ", "NNS", "IN", "NN", "VBD", "TO", "RB", "IN", "$", "CD", "CD", "IN", "NNP", ",", "RB", "CD", "NN", "IN", "DT", "NNP", "NN", "IN", "RB", "$", "CD", "CD", "."]
     text: ' The Commerce_Department said seasonally adjusted sales of retail_stores dropped
@@ -936,7 +936,7 @@ OqUc:
     wn30_key: [[2, "say%2:32:00::"], [8, "drop%2:30:00::"]]
 vdGq:
     lemmas: ["april", "sales", "also", "be", "5", "%", "below", "those", "of", "april", "last", "year", ",", "when", "volume", "reach", "a", "record", "for", "any", "month", ",", "$", "18.9", "billion", "(", "see", "chart", "on", "page", "One", ")", "."]
-    oewn2026_key: [[3, "oewn-02610777-v"], [15, "oewn-02531751-v"], [26, "oewn-02133754-v"]]
+    oewn_key: [[3, "oewn-02610777-v"], [15, "oewn-02531751-v"], [26, "oewn-02133754-v"]]
     paragraph: '34'
     pos: ["NNP", "NNS", "RB", "VBD", "CD", "NN", "IN", "DT", "IN", "NNP", "JJ", "NN", ",", "WRB", "NN", "VBD", "DT", "NN", "IN", "DT", "NN", ",", "$", "CD", "CD", "NN", "VBP", "NN", "IN", "NNP", "CD", "NNP", "."]
     text: ' April sales also were 5% below those of April last year, when volume reached a record
@@ -948,7 +948,7 @@ vdGq:
     wn30_key: [[3, "be%2:42:03::"], [15, "reach%2:41:00::"], [26, "see%2:39:00::"]]
 17tf:
     lemmas: ["The", "seasonal", "adjustment", "take_into_account", "such", "factor", "as", "easter", "be", "on", "april", "2", "this", "year", ",", "two_weeks", "earlier", "than", "in", "1960", ",", "and", "pre-easte", "buying", "be", "push", "into", "march", "."]
-    oewn2026_key: [[3, "oewn-00725507-v"], [8, "oewn-00340744-v"], [25, "oewn-01875972-v"]]
+    oewn_key: [[3, "oewn-00725507-v"], [8, "oewn-00340744-v"], [25, "oewn-01875972-v"]]
     paragraph: '35'
     pos: ["DT", "JJ", "NN", "VB", "JJ", "NNS", "IN", "NNP", "VBD", "VB", "NNP", "CD", "DT", "NN", ",", "NN", "RBR", "IN", "IN", "CD", ",", "CC", "JJ", "NN", "VBD", "VBN", "IN", "NNP", "."]
     text: ' The seasonal adjustment takes_into_account such factors as Easter was on April 2
@@ -961,7 +961,7 @@ vdGq:
     wn30_key: [[3, "take_into_account%2:31:00::"], [8, "be%2:30:14::"], [25, "push%2:38:00::"]]
 slUG:
     lemmas: ["commerce_department", "official", "be_inclined", "to", "explain", "the", "april", "sales", "decline", "as", "a", "reaction", "from", "a", "surge", "of", "consumer", "buy", "in", "march", "."]
-    oewn2026_key: [[4, "oewn-00941308-v"], [17, "oewn-02211988-v"]]
+    oewn_key: [[4, "oewn-00941308-v"], [17, "oewn-02211988-v"]]
     paragraph: '36'
     pos: ["NN", "NNS", "VB", "TO", "VB", "DT", "NNP", "NNS", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "IN", "NN", "VB", "VB", "NNP", "."]
     text: ' Commerce_Department officials were_inclined to explain the April sales decline as
@@ -971,7 +971,7 @@ slUG:
     wn30_key: [[4, "explain%2:32:00::"], [17, "buy%2:40:00::"]]
 lHni:
     lemmas: ["Adjusted", "sales", "that", "month", "be", "up", "a", "relatively", "steep", "2.5", "%", "from", "those", "of", "the", "month", "before", ",", "which", "in_turn", "be", "slightly", "higher", "than", "the", "january", "low", "of", "$", "17.8", "billion", "."]
-    oewn2026_key: [[4, "oewn-02610777-v"], [20, "oewn-02610777-v"]]
+    oewn_key: [[4, "oewn-02610777-v"], [20, "oewn-02610777-v"]]
     paragraph: '36'
     pos: ["NNP", "NNS", "IN", "NN", "VBD", "IN", "DT", "RB", "JJ", "CD", "NN", "IN", "DT", "IN", "DT", "NN", "RB", ",", "WDT", "RB", "VBD", "RB", "JJR", "IN", "DT", "NNP", "JJ", "IN", "$", "CD", "CD", "."]
     text: ' Adjusted sales that month were up a relatively steep 2.5% from those of the month

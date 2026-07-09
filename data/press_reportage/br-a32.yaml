@@ -3,7 +3,7 @@ _meta:
         type: seq
         base: tokens
         data: string
-    oewn2026_key:
+    oewn_key:
         type: element
         base: tokens
         data: string
@@ -28,7 +28,7 @@ _meta:
         data: string
 M8S4:
     lemmas: ["Enrique_Jorda", ",", "conductor", "and", "musical", "director", "of", "the", "san_francisco", "symphony", ",", "will", "fulfill", "two", "more", "guest", "conducting", "engagement", "in", "europe", "before", "return", "home", "to", "open", "the", "symphony", "'s", "Golden_Anniversary", "season", ",", "it", "be", "announce", "."]
-    oewn2026_key: [[12, "oewn-01644397-v"], [21, "oewn-02008888-v"], [24, "oewn-02431018-v"], [33, "oewn-00976399-v"]]
+    oewn_key: [[12, "oewn-01644397-v"], [21, "oewn-02008888-v"], [24, "oewn-02431018-v"], [33, "oewn-00976399-v"]]
     paragraph: '0'
     pos: ["NNP", ",", "NN", "CC", "JJ", "NN", "IN", "DT", "NN", "NNP", ",", "MD", "VB", "CD", "JJR", "NN", "NN", "NNS", "IN", "NNP", "IN", "VBG", "RB", "TO", "VB", "DT", "NN", "POS", "NNP", "NN", ",", "PRP", "VBD", "VBN", "."]
     text: 'Enrique_Jorda, conductor and musical director of the San_Francisco Symphony, will
@@ -41,7 +41,7 @@ M8S4:
     wn30_key: [[12, "fulfill%2:36:00::"], [21, "return%2:38:00::"], [24, "open%2:41:00::"], [33, "announce%2:32:00::"]]
 FtwN:
     lemmas: ["The", "guest", "assignment", "be", "schedule", "for", "november", "14", "and", "18", ",", "with", "the", "orchestra_sinfonica_siciliana", "in", "palermo", "and", "the", "orchestra", "of", "radio_cologne", "."]
-    oewn2026_key: [[4, "oewn-00680201-v"]]
+    oewn_key: [[4, "oewn-00680201-v"]]
     paragraph: '1'
     pos: ["DT", "NN", "NNS", "VBP", "VBN", "IN", "NNP", "CD", "CC", "CD", ",", "IN", "DT", "NNP", "IN", "NNP", "CC", "DT", "NNP", "IN", "NNP", "."]
     text: ' The guest assignments are scheduled for November 14 and 18, with the Orchestra_Sinfonica_Siciliana
@@ -51,7 +51,7 @@ FtwN:
     wn30_key: [[4, "schedule%2:31:00::"]]
 xGCI:
     lemmas: ["The", "season", "in", "san_francisco", "will", "open", "with", "a", "special", "gala_concert", "on", "november", "22", "."]
-    oewn2026_key: [[5, "oewn-02431018-v"]]
+    oewn_key: [[5, "oewn-02431018-v"]]
     paragraph: '1'
     pos: ["DT", "NN", "IN", "NN", "MD", "VB", "IN", "DT", "JJ", "NNP", "IN", "NNP", "CD", "."]
     text: ' The season in San_Francisco will open with a special Gala_Concert on November 22.
@@ -62,7 +62,7 @@ xGCI:
     wn30_key: [[5, "open%2:41:00::"]]
 klzc:
     lemmas: ["During", "his", "five-month", "visit", "abroad", ",", "Jorda", "recently", "conduct", "the", "Orchestre_Philharmonique", "de", "Bordeau", "in", "france", ",", "and", "the", "santa_cecilia_orchestra", "in", "rome", "."]
-    oewn2026_key: [[8, "oewn-01736802-v"]]
+    oewn_key: [[8, "oewn-01736802-v"]]
     paragraph: '2'
     pos: ["IN", "PRP$", "JJ", "NN", "RB", ",", "NNP", "RB", "VBD", "DT", "NNP", "FW", "NNP", "IN", "NNP", ",", "CC", "DT", "NNP", "IN", "NNP", "."]
     text: ' During his five-month visit abroad, Jorda recently conducted the Orchestre_Philharmonique
@@ -74,7 +74,7 @@ klzc:
     wn30_key: [[8, "conduct%2:36:00::"]]
 o0+o:
     lemmas: ["In", "announce", "Jorda", "'s", "return", ",", "the", "orchestra", "also", "announce", "that", "the", "sale", "of", "single", "ticket", "for", "the", "50", "th", "anniversary", "season", "will", "start", "at", "the", "sherman_clay", "box_office", "on", "wednesday", "."]
-    oewn2026_key: [[1, "oewn-00976399-v"], [9, "oewn-00976399-v"], [23, "oewn-02614382-v"]]
+    oewn_key: [[1, "oewn-00976399-v"], [9, "oewn-00976399-v"], [23, "oewn-02614382-v"]]
     paragraph: '3'
     pos: ["IN", "VBG", "NNP", "POS", "NN", ",", "DT", "NN", "RB", "VBD", "IN", "DT", "NN", "IN", "JJ", "NNS", "IN", "DT", "CD", "DT", "NN", "NN", "MD", "VB", "IN", "DT", "NNP", "NN", "IN", "NNP", "."]
     text: ' In announcing Jorda''s return, the orchestra also announced that the sale of single
@@ -87,7 +87,7 @@ o0+o:
     wn30_key: [[1, "announce%2:32:00::"], [9, "announce%2:32:00::"], [23, "start%2:42:00::"]]
 YXZO:
     lemmas: ["guest", "performer", "and", "conductor", "during", "the", "coming", "season", "will", "include", "many", "renowned", "artist", "who", "begin", "their", "career", "play", "with", "the", "orchestra", ",", "include", "violinist", "yehudi_menuhin", ",", "isaac_stern", ",", "Ruggiero_Ricci", "and", "david_abel", ";", "pianist", "leon", "Fleisher", ",", "ruth_slenczynka", "and", "stephen_bishop", "and", "conductor", "earl_bernard_murray", "."]
-    oewn2026_key: [[9, "oewn-02639021-v"], [17, "oewn-01728928-v"], [22, "oewn-02639021-v"]]
+    oewn_key: [[9, "oewn-02639021-v"], [17, "oewn-01728928-v"], [22, "oewn-02639021-v"]]
     paragraph: '4'
     pos: ["NN", "NNS", "CC", "NNS", "IN", "DT", "JJ", "NN", "MD", "VB", "JJ", "JJ", "NNS", "WP", "VB", "PRP$", "NNS", "VBG", "VB", "DT", "NN", ",", "VBG", "NNS", "NNP", ",", "NNP", ",", "NNP", "CC", "NNP", ":", "NNS", "NNP", "NN", ",", "NNP", "CC", "NNP", "CC", "NN", "NNP", "."]
     text: ' Guest performers and conductors during the coming season will include many renowned
@@ -101,7 +101,7 @@ YXZO:
     wn30_key: [[9, "include%2:42:00::"], [17, "play%2:36:12::"], [22, "include%2:42:00::"]]
 uKGk:
     lemmas: ["The", "leningrad_kirov_ballet", ",", "which", "open", "a", "series", "of", "performance", "friday", "night", "at", "the", "opera_house", ",", "be", ",", "I", "think", ",", "the", "fine", "\"", "classical", "\"", "ballet_company", "I", "have", "ever", "see", ",", "and", "the", "production", "of", "the", "Petipa-Tschaikowsky", "\"", "sleeping_beauty", "\"", "with", "which", "it", "begin", "the", "series", "be", "incomparably", "the", "fine", "I", "have", "ever", "have", "the", "pleasure", "of", "witness", "."]
-    oewn2026_key: [[4, "oewn-02431018-v"], [15, "oewn-02610777-v"], [18, "oewn-00691086-v"], [29, "oewn-02133754-v"], [46, "oewn-02610777-v"], [53, "oewn-02112480-v"], [57, "oewn-02132751-v"]]
+    oewn_key: [[4, "oewn-02431018-v"], [15, "oewn-02610777-v"], [18, "oewn-00691086-v"], [29, "oewn-02133754-v"], [46, "oewn-02610777-v"], [53, "oewn-02112480-v"], [57, "oewn-02132751-v"]]
     paragraph: '5'
     pos: ["DT", "NNP", ",", "WDT", "VBD", "DT", "NN", "IN", "NNS", "NNP", "NN", "IN", "DT", "NN", ",", "VBZ", ",", "PRP", "VBP", ",", "DT", "JJS", "``", "JJ", "''", "NN", "PRP", "VBP", "RB", "VBN", ",", "CC", "DT", "NN", "IN", "DT", "NNP", "``", "NN", "''", "IN", "WDT", "PRP", "VB", "DT", "NN", "VBZ", "RB", "DT", "JJS", "PRP", "VBP", "RB", "VBN", "DT", "NN", "IN", "VBG", "."]
     text: ' The Leningrad_Kirov_Ballet, which opened a series of performances Friday night at
@@ -115,7 +115,7 @@ uKGk:
     wn30_key: [[4, "open%2:41:00::"], [15, "be%2:42:03::"], [18, "think%2:31:01::"], [29, "see%2:39:00::"], [46, "be%2:42:03::"], [53, "have%2:39:06::"], [57, "witness%2:39:00::"]]
 /lee:
     lemmas: ["This", "work", "be", "no", "favorite", "of", "mine", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-02610777-v"]]
     paragraph: '6'
     pos: ["DT", "NN", "VBZ", "DT", "NN", "IN", "NN", "."]
     text: ' This work is no favorite of mine.'
@@ -124,7 +124,7 @@ uKGk:
     wn30_key: [[2, "be%2:42:03::"]]
 aKAp:
     lemmas: ["I", "be", "prepared", "to", "demonstrate", "at", "an", "ytime", "that", "it", "represent", "the", "spirit", "of", "imperial_russia", "in", "its", "most", "vulgar", ",", "infantile", ",", "and", "reactionary", "aspect", ";", "that", "its", "persistent", "use", "by", "ballet_company", "of", "the", "soviet", "regime", "indicate", "that", "that", "old", "spirit", "be", "just_as", "stultifying", "alive", "today", "as", "it", "ever", "be", ";", "that", "its", "presentation", "in_this", "country", "be", "part", "of", "a", "capitalist", "plot", "to", "boobify", "the", "american", "people", ";", "that", "its", "choreography", "be", "undistinguished", "and", "its", "score", "a", "shapeless", "assemblage", "of", "self-plagiarism", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [4, "oewn-00822637-v"], [10, "oewn-02729608-v"], [36, "oewn-00923271-v"], [41, "oewn-02610777-v"], [49, "oewn-02610777-v"], [56, "oewn-02610777-v"], [71, "oewn-02610777-v"]]
+    oewn_key: [[1, "oewn-02610777-v"], [4, "oewn-00822637-v"], [10, "oewn-02729608-v"], [36, "oewn-00923271-v"], [41, "oewn-02610777-v"], [49, "oewn-02610777-v"], [56, "oewn-02610777-v"], [71, "oewn-02610777-v"]]
     paragraph: '6'
     pos: ["PRP", "VBP", "JJ", "TO", "VB", "IN", "DT", "NN", "IN", "PRP", "VBZ", "DT", "NN", "IN", "NNP", "IN", "PRP$", "RBS", "JJ", ",", "JJ", ",", "CC", "JJ", "NN", ":", "IN", "PRP$", "JJ", "NN", "IN", "NN", "IN", "DT", "JJ", "NN", "VBZ", "IN", "IN", "JJ", "NN", "VBZ", "RB", "JJ", "JJ", "NN", "IN", "PRP", "RB", "VBD", ":", "IN", "PRP$", "NN", "RB", "NN", "VBZ", "NN", "VB", "DT", "JJ", "NN", "TO", "VB", "DT", "NNP", "NNS", ":", "IN", "PRP$", "NN", "VBZ", "JJ", "CC", "PRP$", "NN", "DT", "JJ", "NN", "IN", "NNS", "."]
     text: ' I am prepared to demonstrate at an ytime that it represents the spirit of Imperial_Russia
@@ -138,7 +138,7 @@ aKAp:
     wn30_key: [[1, "be%2:42:03::"], [4, "demonstrate%2:32:00::"], [10, "represent%2:42:01::"], [36, "indicate%2:32:01::"], [41, "be%2:42:03::"], [49, "be%2:42:03::"], [56, "be%2:42:03::"], [71, "be%2:42:03::"]]
 frvP:
     lemmas: ["All_of", "this", "be", "true", "and", "all_of", "it", "be", "totally", "meaningless", "in", "the", "face", "of", "the", "Kirov", "'s", "utterly", "captivating", "presentation", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"], [7, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-02610777-v"], [7, "oewn-02610777-v"]]
     paragraph: '6'
     pos: ["JJ", "DT", "VBZ", "JJ", "CC", "JJ", "PRP", "VBZ", "RB", "JJ", "IN", "DT", "NN", "IN", "DT", "NNP", "POS", "RB", "JJ", "NN", "."]
     text: ' All_of this is true and all_of it is totally meaningless in the face of the Kirov''s
@@ -150,7 +150,7 @@ frvP:
     wn30_key: [[2, "be%2:42:03::"], [7, "be%2:42:03::"]]
 yhbw:
     lemmas: ["The", "reason", "for", "this", "enchantment", "be", "numerous", ",", "but", "most_of", "them", "end", "in", "\"", "ovum", "\"", ",", "\"", "eva", "\"", ",", "or", "\"", "aya", "\"", "."]
-    oewn2026_key: [[5, "oewn-02610777-v"], [11, "oewn-02615799-v"]]
+    oewn_key: [[5, "oewn-02610777-v"], [11, "oewn-02615799-v"]]
     paragraph: '7'
     pos: ["DT", "NNS", "IN", "DT", "NN", "VBP", "JJ", ",", "CC", "JJ", "PRP", "VBP", "IN", "``", "NN", "''", ",", "``", "NN", "''", ",", "CC", "``", "NN", "''", "."]
     text: ' The reasons for this enchantment are numerous, but most_of them end in " ova ",
@@ -160,7 +160,7 @@ yhbw:
     wn30_key: [[5, "be%2:42:03::"], [11, "end%2:42:00::"]]
 ZH8U:
     lemmas: ["in_other_words", ",", "no", "merely", "male", "creature", "can", "resist", "that", "corps_de_ballet", "."]
-    oewn2026_key: [[7, "oewn-01119003-v"]]
+    oewn_key: [[7, "oewn-01119003-v"]]
     paragraph: '7'
     pos: ["RB", ",", "DT", "RB", "JJ", "NN", "MD", "VB", "IN", "NN", "."]
     text: ' In_other_words, no merely male creature can resist that corps_de_ballet.'
@@ -169,7 +169,7 @@ ZH8U:
     wn30_key: [[7, "resist%2:33:00::"]]
 ywOb:
     lemmas: ["It", "seem", "to", "have", "be", "choose", "exclusively", "from", "the", "winner", "of", "beauty", "contest", "-", "miss_omsk", ",", "miss_pinsk", ",", "miss_stalingr", "-", "oops", ",", "skip", "it", "."]
-    oewn2026_key: [[1, "oewn-02137900-v"], [5, "oewn-00676526-v"], [22, "oewn-00618188-v"]]
+    oewn_key: [[1, "oewn-02137900-v"], [5, "oewn-00676526-v"], [22, "oewn-00618188-v"]]
     paragraph: '7'
     pos: ["PRP", "VBZ", "TO", "VB", "VBN", "VBN", "RB", "IN", "DT", "NNS", "IN", "NN", "NNS", ":", "NNP", ",", "NNP", ",", "NNP", ":", "UH", ",", "VB", "PRP", "."]
     text: ' It seems to have been chosen exclusively from the winners of beauty contests - Miss_Omsk,
@@ -181,7 +181,7 @@ ywOb:
     wn30_key: [[1, "seem%2:39:00::"], [5, "choose%2:31:00::"], [22, "skip%2:31:01::"]]
 bn+1:
     lemmas: ["These", "quality", "alone", ",", "however", ",", "would", "not", "account_for", "their", "success", ",", "and", "it", "take", "me", "a", "while", "to", "discover", "the", "crowning", "virtue", "that", "complete", "this", "company", "'s", "collective", "personality", "."]
-    oewn2026_key: [[8, "oewn-02641114-v"], [14, "oewn-02272834-v"], [19, "oewn-02158938-v"], [24, "oewn-00456705-v"]]
+    oewn_key: [[8, "oewn-02641114-v"], [14, "oewn-02272834-v"], [19, "oewn-02158938-v"], [24, "oewn-00456705-v"]]
     paragraph: '8'
     pos: ["DT", "NNS", "RB", ",", "RB", ",", "MD", "RB", "VB", "PRP$", "NN", ",", "CC", "PRP", "VBD", "PRP", "DT", "RB", "TO", "VB", "DT", "JJ", "NN", "WDT", "VBZ", "DT", "NN", "POS", "JJ", "NN", "."]
     text: ' These qualities alone, however, would not account_for their success, and it took
@@ -192,7 +192,7 @@ bn+1:
     wn30_key: [[8, "account_for%2:42:00::"], [14, "take%2:40:06::"], [19, "discover%2:39:03::"], [24, "complete%2:30:00::"]]
 Q9VR:
     lemmas: ["It", "be", "a", "kind_of", "friendliness", "and", "frankness", "of", "address", "toward", "the", "audience", "which", "we", "have", "be", "lead", "to", "believe", "be", "peculiar_to", "the", "american", "ballet", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [16, "oewn-00773677-v"], [18, "oewn-00685199-v"], [19, "oewn-02610777-v"]]
+    oewn_key: [[1, "oewn-02610777-v"], [16, "oewn-00773677-v"], [18, "oewn-00685199-v"], [19, "oewn-02610777-v"]]
     paragraph: '8'
     pos: ["PRP", "VBZ", "DT", "RB", "NN", "CC", "NN", "IN", "NN", "IN", "DT", "NN", "WDT", "PRP", "VBP", "VBN", "VBN", "VB", "VB", "VBD", "JJ", "DT", "NNP", "NN", "."]
     text: ' It is a kind_of friendliness and frankness of address toward the audience which
@@ -202,7 +202,7 @@ Q9VR:
     wn30_key: [[1, "be%2:42:03::"], [16, "lead%2:32:00::"], [18, "believe%2:31:00::"], [19, "be%2:42:03::"]]
 r86u:
     lemmas: ["that", "convention", "of", "russian", "ballet", "whereby", "the", "girl", "convey", "the", "idea", "that", "they", "be", "all", "the", "daughter", "of", "impoverished", "grand_duke", "drive", "to", "thestage", "out", "of", "filial", "piety", ",", "be", "totally", "absent", "from", "the", "Kirov", "."]
-    oewn2026_key: [[8, "oewn-01062889-v"], [13, "oewn-02610777-v"], [20, "oewn-02511007-v"], [28, "oewn-02610777-v"]]
+    oewn_key: [[8, "oewn-01062889-v"], [13, "oewn-02610777-v"], [20, "oewn-02511007-v"], [28, "oewn-02610777-v"]]
     paragraph: '8'
     pos: ["IN", "NN", "IN", "NNP", "NN", "WRB", "DT", "NNS", "VBP", "DT", "NN", "IN", "PRP", "VBP", "PDT", "DT", "NNS", "IN", "JJ", "NN", "VBN", "VB", "NN", "IN", "IN", "JJ", "NN", ",", "VBZ", "RB", "JJ", "IN", "DT", "NNP", "."]
     text: ' that convention of Russian ballet whereby the girls convey the idea that they are
@@ -213,7 +213,7 @@ r86u:
     wn30_key: [[8, "convey%2:32:01::"], [13, "be%2:42:03::"], [20, "drive%2:41:02::"], [28, "be%2:42:03::"]]
 Np8b:
     lemmas: ["This", "be", "all", "the", "more", "remarkable", "because", "the", "Kirov", "be", "to", "ballet", "what", "senator_goldwater", "be", "to", "american", "politics", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [9, "oewn-02610777-v"], [14, "oewn-02610777-v"]]
+    oewn_key: [[1, "oewn-02610777-v"], [9, "oewn-02610777-v"], [14, "oewn-02610777-v"]]
     paragraph: '8'
     pos: ["DT", "VBZ", "DT", "DT", "RBR", "JJ", "IN", "DT", "NNP", "VBZ", "TO", "NN", "WP", "NNP", "VBZ", "TO", "NNP", "NNS", "."]
     text: ' This is all the more remarkable because the Kirov is to ballet what Senator_Goldwater
@@ -223,7 +223,7 @@ Np8b:
     wn30_key: [[1, "be%2:42:03::"], [9, "be%2:42:03::"], [14, "be%2:42:03::"]]
 7VbA:
     lemmas: ["But", ",", "obviously", ",", "at_least", "some", "things", "have", "change", "for", "the", "better", "in", "russia", "so_far", "as", "the", "ballet", "be", "concerned", "."]
-    oewn2026_key: [[8, "oewn-00109468-v"], [18, "oewn-02610777-v"]]
+    oewn_key: [[8, "oewn-00109468-v"], [18, "oewn-02610777-v"]]
     paragraph: '8'
     pos: ["CC", ",", "RB", ",", "RB", "DT", "NNS", "VBP", "VBN", "VB", "VB", "NN", "IN", "NNP", "RB", "IN", "DT", "NN", "VBZ", "JJ", "."]
     text: ' But, obviously, at_least some things have changed for the better in Russia so_far
@@ -235,7 +235,7 @@ Np8b:
     wn30_key: [[8, "change%2:30:00::"], [18, "be%2:42:03::"]]
 L/H8:
     lemmas: ["Irina_Kolpakova", ",", "the", "princess_aurora", "of", "friday", "'s", "performance", ",", "would", "be", "a", "change_for_the_better", "anywhere", ",", "at_any_time", ",", "no_matter", "who", "have", "have", "the", "role", "before", "."]
-    oewn2026_key: [[10, "oewn-02610777-v"], [20, "oewn-02636270-v"]]
+    oewn_key: [[10, "oewn-02610777-v"], [20, "oewn-02636270-v"]]
     paragraph: '9'
     pos: ["NNP", ",", "DT", "NNP", "IN", "NNP", "POS", "NN", ",", "MD", "VB", "DT", "VB", "RB", ",", "RB", ",", "RB", "WP", "VBD", "VBN", "DT", "NN", "RB", "."]
     text: ' Irina_Kolpakova, the Princess_Aurora of Friday''s performance, would be a change_for_the_better
@@ -245,7 +245,7 @@ L/H8:
     wn30_key: [[10, "be%2:42:03::"], [20, "have%2:42:00::"]]
 +uh/:
     lemmas: ["She", "be", "the_most", "beautiful", "thing", "you", "ever", "lay_eyes_on", ",", "and", "her", "dancing", "have", "a", "feminine", "suavity", ",", "lightness", ",", "sparkle", ",", "and", "refinement", "which", "be", "simply", "incomparable", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [7, "oewn-02134625-v"], [12, "oewn-02636270-v"], [24, "oewn-02610777-v"]]
+    oewn_key: [[1, "oewn-02610777-v"], [7, "oewn-02134625-v"], [12, "oewn-02636270-v"], [24, "oewn-02610777-v"]]
     paragraph: '9'
     pos: ["PRP", "VBZ", "RB", "JJ", "NN", "PRP", "RB", "VB", ",", "CC", "PRP$", "NN", "VBZ", "DT", "JJ", "NN", ",", "NN", ",", "NN", ",", "CC", "NN", "WDT", "VBP", "RB", "JJ", "."]
     text: ' She is the_most beautiful thing you ever laid_eyes_on, and her dancing has a feminine
@@ -257,7 +257,7 @@ L/H8:
     wn30_key: [[1, "be%2:42:03::"], [7, "lay_eyes_on%2:39:00::"], [12, "have%2:42:00::"], [24, "be%2:42:03::"]]
 5aTA:
     lemmas: ["Alla_Sizova", ",", "who", "seem", "to", "have", "make", "a", "special", "hit", "in", "the", "east", ",", "be", "delightful", "as", "the", "lady", "bluebird", "and", "her", "partner", ",", "Yuri_Soloviev", ",", "be", "wonderfully", "virile", ",", "acrobatic", ",", "and", "poetic", "all", "at_the_same_time", ",", "in", "a", "tradition", "not", "unlike", "that", "of", "nijinsky", "."]
-    oewn2026_key: [[3, "oewn-02137900-v"], [6, "oewn-02566500-v"], [14, "oewn-02610777-v"], [26, "oewn-02610777-v"]]
+    oewn_key: [[3, "oewn-02137900-v"], [6, "oewn-02566500-v"], [14, "oewn-02610777-v"], [26, "oewn-02610777-v"]]
     paragraph: '10'
     pos: ["NNP", ",", "WP", "VBZ", "TO", "VB", "VBN", "DT", "JJ", "NN", "IN", "DT", "NNP", ",", "VBD", "JJ", "IN", "DT", "NN", "NNP", "CC", "PRP$", "NN", ",", "NNP", ",", "VBD", "RB", "JJ", ",", "JJ", ",", "CC", "JJ", "DT", "RB", ",", "IN", "DT", "NN", "RB", "IN", "IN", "IN", "NN", "."]
     text: ' Alla_Sizova, who seems to have made a special hit in the East, was delightful as
@@ -268,7 +268,7 @@ L/H8:
     wn30_key: [[3, "seem%2:39:00::"], [6, "make%2:41:00::"], [14, "be%2:42:03::"], [26, "be%2:42:03::"]]
 hvG3:
     lemmas: ["Vladilen_Semenov", ",", "a", "fine", "\"", "danseur_noble", "\"", ";", "Konstantin_Shatilov", ",", "a", "great", "character", "dancer", ";", "and", "Inna_Zubkovskaya", ",", "an", "excellent", "lilac_fairy", ",", "be", "other", "outstanding", "member", "of", "the", "cast", ",", "but", "every", "member", "of", "the", "cast", "be", "magnificent", "."]
-    oewn2026_key: [[22, "oewn-02610777-v"], [36, "oewn-02610777-v"]]
+    oewn_key: [[22, "oewn-02610777-v"], [36, "oewn-02610777-v"]]
     paragraph: '10'
     pos: ["NNP", ",", "DT", "JJ", "``", "NN", "''", ":", "NNP", ",", "DT", "JJ", "NN", "NN", ":", "CC", "NNP", ",", "DT", "JJ", "NNP", ",", "VBD", "JJ", "JJ", "NNS", "IN", "DT", "NN", ",", "CC", "DT", "NN", "IN", "DT", "NN", "VBD", "JJ", "."]
     text: ' Vladilen_Semenov, a fine " danseur_noble "; Konstantin_Shatilov, a great character
@@ -281,7 +281,7 @@ hvG3:
     wn30_key: [[22, "be%2:42:03::"], [36, "be%2:42:03::"]]
 MIaT:
     lemmas: ["The", "production", ",", "design", "by", "simon_virsaladze", ",", "be", "completely", "traditional", "but", "traditional", "in", "the_right_way", "."]
-    oewn2026_key: [[3, "oewn-01644092-v"], [7, "oewn-02610777-v"]]
+    oewn_key: [[3, "oewn-01644092-v"], [7, "oewn-02610777-v"]]
     paragraph: '11'
     pos: ["DT", "NN", ",", "VBN", "IN", "NNP", ",", "VBD", "RB", "JJ", "CC", "JJ", "IN", "RB", "."]
     text: ' The production, designed by Simon_Virsaladze, was completely traditional but traditional
@@ -291,7 +291,7 @@ MIaT:
     wn30_key: [[3, "design%2:36:01::"], [7, "be%2:42:03::"]]
 e24H:
     lemmas: ["It", "be", "do", "with", "great", "taste", ",", "be", "big", "and", "spacious", ",", "sumptuous", "as", "the", "dream", "of", "any", "peasant", "in", "its", "courtly", "costume", ",", "but", "sumptuous", "in", "a", "muted", ",", "pastel-like", "style", ",", "with", "rich", ",", "quiet", "harmony", "of", "color", "between", "the", "costume", "themselves", "and", "between", "the", "costume", "and", "the", "scenery", "."]
-    oewn2026_key: [[2, "oewn-02566500-v"], [7, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-02566500-v"], [7, "oewn-02610777-v"]]
     paragraph: '11'
     pos: ["PRP", "VBD", "VBN", "IN", "JJ", "NN", ",", "VBD", "JJ", "CC", "JJ", ",", "JJ", "IN", "DT", "NNS", "IN", "DT", "NN", "IN", "PRP$", "JJ", "NNS", ",", "CC", "JJ", "IN", "DT", "JJ", ",", "JJ", "NN", ",", "IN", "JJ", ",", "JJ", "NNS", "IN", "NN", "IN", "DT", "NNS", "PRP", "CC", "IN", "DT", "NNS", "CC", "DT", "NN", "."]
     text: ' It was done with great taste, was big and spacious, sumptuous as the dreams of any
@@ -305,7 +305,7 @@ e24H:
     wn30_key: [[2, "do%2:41:01::"], [7, "be%2:42:03::"]]
 AwoH:
     lemmas: ["Evegeni_Dubovskoi", "conduct", "an", "exceptionally", "large", "orchestra", ",", "one", "contain", "excellent", "soloist", "-", "the", "violin", "solo", "by", "the", "concertmaster", ",", "guy_lumia", ",", "be", "especially", "fine", "-", "but", "one", "in_which", "the", "core", "of", "traveling", "player", "and", "the", "body", "of", "man", "add", "locally", "have", "not", "have", "time", "to", "achieve", "much", "unity", "."]
-    oewn2026_key: [[1, "oewn-01736802-v"], [8, "oewn-02635616-v"], [21, "oewn-02610777-v"], [38, "oewn-00182551-v"], [42, "oewn-02208144-v"], [45, "oewn-02531751-v"]]
+    oewn_key: [[1, "oewn-01736802-v"], [8, "oewn-02635616-v"], [21, "oewn-02610777-v"], [38, "oewn-00182551-v"], [42, "oewn-02208144-v"], [45, "oewn-02531751-v"]]
     paragraph: '12'
     pos: ["NNP", "VBD", "DT", "RB", "JJ", "NN", ",", "CD", "VBG", "JJ", "NNS", ":", "DT", "NN", "NNS", "IN", "DT", "NN", ",", "NNP", ",", "VBD", "RB", "JJ", ":", "CC", "CD", "RB", "DT", "NN", "IN", "JJ", "NNS", "CC", "DT", "NN", "IN", "NNS", "VBN", "RB", "VBN", "RB", "VBN", "NN", "TO", "VB", "JJ", "NN", "."]
     text: ' Evegeni_Dubovskoi conducted an exceptionally large orchestra, one containing excellent
@@ -319,7 +319,7 @@ AwoH:
     wn30_key: [[1, "conduct%2:36:00::"], [8, "contain%2:42:00::"], [21, "be%2:42:03::"], [38, "add%2:30:00::"], [42, "have%2:40:00::"], [45, "achieve%2:41:00::"]]
 SuoC:
     lemmas: ["mail_order", "be", "now", "be", "receive", "for", "the", "series", "of", "concert", "to", "be", "give", "this", "season", "under", "the", "auspex", "of", "the", "san_francisco", "chamber_music", "society", "."]
-    oewn2026_key: [[4, "oewn-02214901-v"], [12, "oewn-01737358-v"]]
+    oewn_key: [[4, "oewn-02214901-v"], [12, "oewn-01737358-v"]]
     paragraph: '13'
     pos: ["NN", "VBP", "RB", "VB", "VBN", "IN", "DT", "NN", "IN", "NNS", "TO", "VB", "VBN", "DT", "NN", "IN", "DT", "NNS", "IN", "DT", "NN", "NN", "NNP", "."]
     text: ' Mail_orders are now being received for the series of concerts to be given this season
@@ -331,7 +331,7 @@ SuoC:
     wn30_key: [[4, "receive%2:40:00::"], [12, "give%2:36:02::"]]
 df5M:
     lemmas: ["The", "season", "will", "open", "at", "the", "new", "hall", "of", "flower", "in", "golden_gate", "park", "on", "november", "20", "at", "8", ":", "30", "p.", "m.", "with", "a", "concert", "by", "the", "mills_chamber", "player", "."]
-    oewn2026_key: [[3, "oewn-02431018-v"]]
+    oewn_key: [[3, "oewn-02431018-v"]]
     paragraph: '14'
     pos: ["DT", "NN", "MD", "VB", "IN", "DT", "JJ", "NNP", "IN", "NNPS", "IN", "NN", "NNP", "IN", "NNP", "CD", "IN", "CD", ":", "CD", "NN", "NNP", "IN", "DT", "NN", "IN", "DT", "NNP", "NNPS", "."]
     text: ' The season will open at the new Hall of Flowers in Golden_Gate Park on November
@@ -343,7 +343,7 @@ df5M:
     wn30_key: [[3, "open%2:41:00::"]]
 OVbe:
     lemmas: ["Sustaining", "member", "may", "sign_up", "at", "$", "25", "for", "the", "ten-concert", "season", ";", "annual", "member", "may", "attend", "for", "$", "16", "."]
-    oewn2026_key: [[3, "oewn-01099720-v"], [15, "oewn-02618797-v"]]
+    oewn_key: [[3, "oewn-01099720-v"], [15, "oewn-02618797-v"]]
     paragraph: '15'
     pos: ["JJ", "NNS", "MD", "VB", "IN", "$", "CD", "IN", "DT", "JJ", "NN", ":", "JJ", "NNS", "MD", "VB", "IN", "$", "CD", "."]
     text: ' Sustaining members may sign_up at $25 for the ten-concert season; annual members
@@ -353,7 +353,7 @@ OVbe:
     wn30_key: [[3, "sign_up%2:33:00::"], [15, "attend%2:42:00::"]]
 uC0q:
     lemmas: ["participating", "member", "may", "attend", "five", "of", "the", "concert", "for", "$", "9", "(", "not", "all", "ten", "concert", "as", "be", "erroneously", "announce", "earlier", "in", "The", "chronicle", ")", "."]
-    oewn2026_key: [[3, "oewn-02618797-v"], [19, "oewn-00976399-v"]]
+    oewn_key: [[3, "oewn-02618797-v"], [19, "oewn-00976399-v"]]
     paragraph: '15'
     pos: ["JJ", "NNS", "MD", "VB", "CD", "IN", "DT", "NNS", "IN", "$", "CD", "CD", "RB", "DT", "CD", "NNS", "IN", "VBD", "RB", "VBN", "RBR", "IN", "DT", "NNP", "NNP", "."]
     text: ' Participating members may attend five of the concerts for $9 (not all ten concerts
@@ -365,7 +365,7 @@ uC0q:
     wn30_key: [[3, "attend%2:42:00::"], [19, "announce%2:32:00::"]]
 QCF7:
     lemmas: ["mail_order", "for", "the", "season", "and", "order", "for", "single", "ticket", "at", "$", "2", ",", "may", "be", "address", "to", "the", "society", ",", "1044", "chestnut", "street", ",", "san_francisco", "9", "."]
-    oewn2026_key: [[15, "oewn-00992844-v"]]
+    oewn_key: [[15, "oewn-00992844-v"]]
     paragraph: '16'
     pos: ["NN", "IN", "DT", "NN", "CC", "NNS", "IN", "JJ", "NNS", "IN", "$", "CD", ",", "MD", "VB", "VBN", "TO", "DT", "NN", ",", "CD", "NNP", "NN", ",", "NN", "CD", "."]
     text: ' Mail_orders for the season and orders for single tickets at $2, may be addressed
@@ -377,7 +377,7 @@ QCF7:
     wn30_key: [[15, "address%2:32:03::"]]
 IH8g:
     lemmas: ["san_francisco", "fireman", "busy", "themselves", "last", "week", "with", "their", "annual", "voluntary", "task", "of", "fix", "toy", "for", "distribution", "to", "needy", "child", "."]
-    oewn2026_key: [[2, "oewn-02420961-v"], [12, "oewn-00261534-v"]]
+    oewn_key: [[2, "oewn-02420961-v"], [12, "oewn-00261534-v"]]
     paragraph: '17'
     pos: ["NN", "NNS", "VBD", "PRP", "JJ", "NN", "IN", "PRP$", "JJ", "JJ", "NN", "IN", "VB", "NNS", "IN", "NN", "TO", "JJ", "NNS", "."]
     text: ' San_Francisco firemen busied themselves last week with their annual voluntary task
@@ -389,7 +389,7 @@ IH8g:
     wn30_key: [[2, "busy%2:41:00::"], [12, "fix%2:30:01::"]]
 fn5I:
     lemmas: ["fire_fighter", "local", "798", ",", "which", "be", "sponsor", "the", "toy", "program", "for", "the", "12", "th", "straight", "year", ",", "issue", "a", "call", "for", "San_Franciscans", "to", "turn_in", "discarded", "toy", ",", "which", "will", "be", "repair", "by", "off-duty", "fireman", "."]
-    oewn2026_key: [[6, "oewn-02224722-v"], [17, "oewn-00969657-v"], [23, "oewn-02298282-v"], [30, "oewn-00261534-v"]]
+    oewn_key: [[6, "oewn-02224722-v"], [17, "oewn-00969657-v"], [23, "oewn-02298282-v"], [30, "oewn-00261534-v"]]
     paragraph: '18'
     pos: ["NN", "JJ", "CD", ",", "WDT", "VBZ", "VBG", "DT", "NN", "NN", "IN", "DT", "CD", "DT", "JJ", "NN", ",", "VBD", "DT", "NN", "VB", "NNP", "TO", "VB", "JJ", "NNS", ",", "WDT", "MD", "VB", "VBN", "IN", "JJ", "NNS", "."]
     text: ' Fire_Fighters Local 798, which is sponsoring the toy program for the 12 th straight
@@ -402,7 +402,7 @@ fn5I:
     wn30_key: [[6, "sponsor%2:40:00::"], [17, "issue%2:32:00::"], [23, "turn_in%2:40:00::"], [30, "repair%2:30:00::"]]
 h8va:
     lemmas: ["toy", "will", "not", "be", "collect", "at", "firehouse", "this", "year", "."]
-    oewn2026_key: [[4, "oewn-02222955-v"]]
+    oewn_key: [[4, "oewn-02222955-v"]]
     paragraph: '19'
     pos: ["NNPS", "MD", "RB", "VB", "VBN", "IN", "NNS", "DT", "NN", "."]
     text: ' Toys will not be collected at firehouses this year.'
@@ -411,7 +411,7 @@ h8va:
     wn30_key: [[4, "collect%2:40:01::"]]
 Xldm:
     lemmas: ["They", "will", "be", "accept", "at_all", "branch", "of", "the", "bay_view_federal", "savings_and_loan_association", ",", "at", "a", "collection", "center", "in_the_center", "of", "the", "Stonestown", "mall", ",", "and", "at", "the", "junior", "museum", ",", "16", "th", "street", "and", "roosevelt", "way", "."]
-    oewn2026_key: [[3, "oewn-02240906-v"]]
+    oewn_key: [[3, "oewn-02240906-v"]]
     paragraph: '19'
     pos: ["PRP", "MD", "VB", "VBN", "RB", "NNS", "IN", "DT", "NNP", "NN", ",", "IN", "DT", "NN", "NN", "RB", "IN", "DT", "NNP", "NN", ",", "CC", "IN", "DT", "JJ", "NNP", ",", "CD", "DT", "NN", "CC", "NNP", "NN", "."]
     text: ' They will be accepted at_all branches of the Bay_View_Federal Savings_and_Loan_Association,
@@ -424,7 +424,7 @@ Xldm:
     wn30_key: [[3, "accept%2:40:00::"]]
 Htkv:
     lemmas: ["From", "the", "collection", "center", ",", "toy", "will", "be", "take", "to", "a", "warehouse", "at", "198", "second", "street", ",", "where", "they", "will", "be", "repair", "and", "make", "ready", "for", "distribution", "."]
-    oewn2026_key: [[8, "oewn-02081903-v"], [21, "oewn-00261534-v"], [23, "oewn-01620211-v"]]
+    oewn_key: [[8, "oewn-02081903-v"], [21, "oewn-00261534-v"], [23, "oewn-01620211-v"]]
     paragraph: '20'
     pos: ["IN", "DT", "NN", "NNS", ",", "NNS", "MD", "VB", "VBN", "VB", "DT", "NN", "IN", "CD", "JJ", "NN", ",", "WRB", "PRP", "MD", "VB", "VBN", "CC", "VBN", "JJ", "IN", "NN", "."]
     text: ' From the collection centers, toys will be taken to a warehouse at 198 Second street,
@@ -436,7 +436,7 @@ Htkv:
     wn30_key: [[8, "take%2:38:10::"], [21, "repair%2:30:00::"], [23, "make%2:36:00::"]]
 8kgT:
     lemmas: ["Any", "needy", "family", "live", "in", "san_francisco", "can", "obtain", "toy", "by", "write", "to", "christmas", "toy", ",", "676", "howard", "street", ",", "san_francisco", "5", ",", "and", "list", "the", "parent", "'s", "name_and_address", "and", "the", "age", "and", "sex", "of", "each", "child", "in", "the", "family", "between", "the", "age", "of", "1", "and", "12", "."]
-    oewn2026_key: [[3, "oewn-02655932-v"], [7, "oewn-02242867-v"], [10, "oewn-01009072-v"], [23, "oewn-00947885-v"]]
+    oewn_key: [[3, "oewn-02655932-v"], [7, "oewn-02242867-v"], [10, "oewn-01009072-v"], [23, "oewn-00947885-v"]]
     paragraph: '21'
     pos: ["DT", "JJ", "NN", "VBG", "VB", "NN", "MD", "VB", "NNS", "IN", "VBG", "TO", "NNP", "NNPS", ",", "CD", "NNP", "NN", ",", "NN", "CD", ",", "CC", "VBG", "DT", "NN", "POS", "NN", "CC", "DT", "NN", "CC", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NNS", "IN", "CD", "CC", "CD", "."]
     text: ' Any needy family living in San_Francisco can obtain toys by writing to Christmas
@@ -447,7 +447,7 @@ Htkv:
     wn30_key: [[3, "live%2:42:08::"], [7, "obtain%2:40:00::"], [10, "write%2:32:08::"], [23, "list%2:32:00::"]]
 yefW:
     lemmas: ["request", "must", "be", "mail", "by", "december", "5", "."]
-    oewn2026_key: [[3, "oewn-01440525-v"]]
+    oewn_key: [[3, "oewn-01440525-v"]]
     paragraph: '21'
     pos: ["NNS", "MD", "VB", "VB", "IN", "NNP", "CD", "."]
     text: ' Requests must be mailed_in by December 5.'
@@ -456,7 +456,7 @@ yefW:
     wn30_key: [[3, "mail%2:35:00::"]]
 hRuc:
     lemmas: ["famed", "cellist", "pablo_casals", "take", "his", "instrument", "to", "the", "east_room", "of", "the", "white_house", "yesterday", "and", "charm", "the", "staff", "with", "a", "two-hour", "rehearsal", "."]
-    oewn2026_key: [[3, "oewn-02081903-v"], [14, "oewn-01810472-v"]]
+    oewn_key: [[3, "oewn-02081903-v"], [14, "oewn-01810472-v"]]
     paragraph: '21'
     pos: ["JJ", "NN", "NNP", "VBD", "PRP$", "NN", "TO", "DT", "NNP", "IN", "DT", "NN", "NN", "CC", "VBD", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
     text: ' Famed cellist Pablo_Casals took his instrument to the East_Room of the White_House
@@ -466,7 +466,7 @@ hRuc:
     wn30_key: [[3, "take%2:38:10::"], [14, "charm%2:37:00::"]]
 fqtT:
     lemmas: ["He", "be", "get", "the", "feel", "of", "the", "room", "for", "a", "concert", "tomorrow", "night", "for", "puerto_rico", "governor_lui_munoz_marin", "."]
-    oewn2026_key: [[2, "oewn-02112480-v"]]
+    oewn_key: [[2, "oewn-02112480-v"]]
     paragraph: '21'
     pos: ["PRP", "VBD", "VBG", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "NN", "NN", "IN", "NN", "NNP", "."]
     text: ' He was getting the feel of the room for a concert tomorrow night for Puerto_Rico
@@ -476,7 +476,7 @@ fqtT:
     wn30_key: [[2, "get%2:39:00::"]]
 tiGX:
     lemmas: ["president_kennedy", "'s", "invitation", "to", "the", "Spanish-born", "master", "say", ",", "\"", "We", "feel", "your", "performance", "as", "one", "of", "the", "world", "'s", "greatest", "artist", "would", "lend", "distinction", "to", "the", "entertainment", "of", "our", "guest", "\"", "."]
-    oewn2026_key: [[7, "oewn-01011267-v"], [11, "oewn-00717144-v"], [23, "oewn-02329474-v"]]
+    oewn_key: [[7, "oewn-01011267-v"], [11, "oewn-00717144-v"], [23, "oewn-02329474-v"]]
     paragraph: '21'
     pos: ["NNP", "POS", "NN", "TO", "DT", "JJ", "NN", "VBD", ",", "``", "PRP", "VBP", "PRP$", "NN", "IN", "CD", "IN", "DT", "NN", "POS", "JJS", "NNS", "MD", "VB", "NN", "TO", "DT", "NN", "IN", "PRP$", "NNS", "''", "."]
     text: ' President_Kennedy''s invitation to the Spanish-born master said, " We feel your
@@ -489,7 +489,7 @@ tiGX:
     wn30_key: [[7, "say%2:32:00::"], [11, "feel%2:31:00::"], [23, "lend%2:40:01::"]]
 Hav4:
     lemmas: ["For", "a", "good", "many", "season", "I", "'ve", "be", "look", "at", "the", "naughty", "stuff", "on", "television", ",", "so", "the", "other", "night", "I", "think", "I", "ought", "to", "see", "how", "immorality", "be", "do", "on", "the", "other", "side", "of", "the", "fence", "in", "movie", "."]
-    oewn2026_key: [[8, "oewn-02134989-v"], [21, "oewn-00633399-v"], [25, "oewn-00600349-v"], [29, "oewn-02623620-v"]]
+    oewn_key: [[8, "oewn-02134989-v"], [21, "oewn-00633399-v"], [25, "oewn-00600349-v"], [29, "oewn-02623620-v"]]
     paragraph: '22'
     pos: ["IN", "DT", "JJ", "JJ", "NNS", "PRP", "VBP", "VBN", "VBG", "VB", "DT", "JJ", "NN", "IN", "NN", ",", "RB", "DT", "JJ", "NN", "PRP", "VBD", "PRP", "VB", "VB", "VB", "WRB", "NN", "VBZ", "VBG", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "VB", "NNS", "."]
     text: ' For a good many seasons I''ve been looking at the naughty stuff on television, so
@@ -500,7 +500,7 @@ Hav4:
     wn30_key: [[8, "look%2:39:00::"], [21, "think%2:31:03::"], [25, "see%2:31:02::"], [29, "do%2:42:00::"]]
 yXbG:
     lemmas: ["after_all", ",", "this", "year", "'s", "movie", "be", "next", "year", "'s", "television_show", "."]
-    oewn2026_key: [[6, "oewn-02622439-v"]]
+    oewn_key: [[6, "oewn-02622439-v"]]
     paragraph: '22'
     pos: ["RB", ",", "DT", "NN", "POS", "NNS", "VBP", "JJ", "NN", "POS", "NN", "."]
     text: ' After_all, this year''s movies are next year''s television_shows.
@@ -511,7 +511,7 @@ yXbG:
     wn30_key: [[6, "be%2:42:06::"]]
 4Mgh:
     lemmas: ["so", "I", "go", "to", "see", "\"", "la_dolce_vita", "\"", "."]
-    oewn2026_key: [[2, "oewn-01839438-v"], [4, "oewn-02155378-v"]]
+    oewn_key: [[2, "oewn-01839438-v"], [4, "oewn-02155378-v"]]
     paragraph: '23'
     pos: ["RB", "PRP", "VBD", "VB", "VB", "``", "NNP", "''", "."]
     text: ' So I went to see " La_Dolce_Vita ".
@@ -522,7 +522,7 @@ yXbG:
     wn30_key: [[2, "go%2:38:00::"], [4, "see%2:39:03::"]]
 WUZ4:
     lemmas: ["It", "have", "be", "bill", "as", "a", "towering", "monument", "to", "immorality", "."]
-    oewn2026_key: [[3, "oewn-00979185-v"]]
+    oewn_key: [[3, "oewn-00979185-v"]]
     paragraph: '24'
     pos: ["PRP", "VBZ", "VBN", "VBN", "IN", "DT", "JJ", "NN", "TO", "NN", "."]
     text: ' It has been billed as a towering monument to immorality.'
@@ -531,7 +531,7 @@ WUZ4:
     wn30_key: [[3, "bill%2:32:00::"]]
 04q9:
     lemmas: ["All", "the", "sin", "of", "ancient", "rome", "be", "say", "to", "be", "collect", "into", "this", "three-hour", "film", "."]
-    oewn2026_key: [[7, "oewn-01018011-v"], [10, "oewn-01383303-v"]]
+    oewn_key: [[7, "oewn-01018011-v"], [10, "oewn-01383303-v"]]
     paragraph: '24'
     pos: ["PDT", "DT", "NNS", "IN", "JJ", "NNP", "VBP", "VBN", "TO", "VB", "VBN", "IN", "DT", "JJ", "NN", "."]
     text: ' All the sins of ancient Rome are said to be collected into this three-hour film.'
@@ -540,7 +540,7 @@ WUZ4:
     wn30_key: [[7, "say%2:32:01::"], [10, "collect%2:35:00::"]]
 dYvA:
     lemmas: ["If", "that", "'s", "all", "the", "romans", "do", ",", "it", "'s", "a", "surprise", "to", "me", "that", "rome", "fall", "."]
-    oewn2026_key: [[6, "oewn-01716563-v"], [16, "oewn-02309487-v"]]
+    oewn_key: [[6, "oewn-01716563-v"], [16, "oewn-02309487-v"]]
     paragraph: '24'
     pos: ["IN", "IN", "VBZ", "DT", "DT", "NNPS", "VBD", ",", "PRP", "VBZ", "DT", "NN", "TO", "PRP", "IN", "NNP", "VBD", "."]
     text: ' If that''s all the Romans did, it''s a surprise to me that Rome fell.
@@ -551,7 +551,7 @@ dYvA:
     wn30_key: [[6, "do%2:36:01::"], [16, "fall%2:40:05::"]]
 tLAz:
     lemmas: ["After", "television", ",", "\"", "la_dolce_vita", "\"", "seem", "as", "harmless", "as", "a", "gray_line", "tour", "of", "north_beach", "at", "night", "."]
-    oewn2026_key: [[6, "oewn-02137900-v"]]
+    oewn_key: [[6, "oewn-02137900-v"]]
     paragraph: '25'
     pos: ["IN", "NN", ",", "``", "NNP", "''", "VBZ", "RB", "JJ", "IN", "DT", "NNP", "NN", "IN", "NNP", "IN", "NN", "."]
     text: ' After television, " La_Dolce_Vita " seems as harmless as a Gray_Line tour of North_Beach
@@ -561,7 +561,7 @@ tLAz:
     wn30_key: [[6, "seem%2:39:00::"]]
 LG0c:
     lemmas: ["I", "cannot", "imagine", "a", "single", "scene", "that_is", "n't", "do", "in", "a", "far", "naughty", "manner", "on", "tv", "every_week", "."]
-    oewn2026_key: [[2, "oewn-01639939-v"], [8, "oewn-01716563-v"]]
+    oewn_key: [[2, "oewn-01639939-v"], [8, "oewn-01716563-v"]]
     paragraph: '25'
     pos: ["PRP", "MD", "VB", "DT", "JJ", "NN", "RB", "RB", "VBN", "VB", "DT", "RB", "JJR", "NN", "IN", "NN", "RB", "."]
     text: ' I cannot imagine a single scene that_isn''t done in a far naughtier manner on TV
@@ -573,7 +573,7 @@ LG0c:
     wn30_key: [[2, "imagine%2:36:00::"], [8, "do%2:36:01::"]]
 cNS2:
     lemmas: ["I", "believe", "tv", "watcher", "will", "be", "bore", "."]
-    oewn2026_key: [[1, "oewn-00723022-v"], [6, "oewn-01825834-v"]]
+    oewn_key: [[1, "oewn-00723022-v"], [6, "oewn-01825834-v"]]
     paragraph: '26'
     pos: ["PRP", "VBP", "NN", "NNS", "MD", "VB", "VBN", "."]
     text: ' I believe TV watchers will be bored.
@@ -584,7 +584,7 @@ cNS2:
     wn30_key: [[1, "believe%2:31:03::"], [6, "bore%2:37:00::"]]
 67Sw:
     lemmas: ["\"", "la_dolce_vita", "\"", "have", "none", "of", "the", "senseless", "brutality", "or", "sadism", "of", "the", "average", "tv", "western", "."]
-    oewn2026_key: [[3, "oewn-02636270-v"]]
+    oewn_key: [[3, "oewn-02636270-v"]]
     paragraph: '27'
     pos: ["``", "NNP", "''", "VBZ", "NN", "IN", "DT", "JJ", "NN", "CC", "NN", "IN", "DT", "JJ", "NN", "JJ", "."]
     text: ' " La_Dolce_Vita " has none of the senseless brutality or sadism of the average TV
@@ -594,7 +594,7 @@ cNS2:
     wn30_key: [[3, "have%2:42:00::"]]
 ZyUi:
     lemmas: ["week", "in", ",", "week", "out", ",", "there", "be", "more", "sex", "to", "be", "see", "in", "\"", "The", "adventure", "of", "Ozzie", "and", "Harriet", "\"", "."]
-    oewn2026_key: [[7, "oewn-02610777-v"], [12, "oewn-02133754-v"]]
+    oewn_key: [[7, "oewn-02610777-v"], [12, "oewn-02133754-v"]]
     paragraph: '27'
     pos: ["NNP", "RB", ",", "NN", "RB", ",", "EX", "VBZ", "JJR", "NN", "TO", "VB", "VBN", "IN", "``", "DT", "NNS", "IN", "NNP", "CC", "NNP", "``", "."]
     text: ' Week in, week out, there is more sex to be seen in " The Adventures of Ozzie and
@@ -604,7 +604,7 @@ ZyUi:
     wn30_key: [[7, "be%2:42:04::"], [12, "see%2:39:00::"]]
 GT0F:
     lemmas: ["There", "be", "more", "decadence", "on", "\"", "77", "sunset_strip", "\"", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"]]
+    oewn_key: [[1, "oewn-02610777-v"]]
     paragraph: '27'
     pos: ["EX", "VBZ", "JJR", "NN", "IN", "``", "CD", "NNP", "''", "."]
     text: ' There is more decadence on " 77 Sunset_Strip ".'
@@ -613,7 +613,7 @@ GT0F:
     wn30_key: [[1, "be%2:42:04::"]]
 X1PB:
     lemmas: ["There", "be", "more", "obvious", "nymphomaniac", "on", "any", "private-eye", "series", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"]]
+    oewn_key: [[1, "oewn-02610777-v"]]
     paragraph: '27'
     pos: ["EX", "VBP", "RBR", "JJ", "NNS", "IN", "DT", "NN", "NN", "."]
     text: ' There are more obvious nymphomaniacs on any private-eye series.
@@ -624,7 +624,7 @@ X1PB:
     wn30_key: [[1, "be%2:42:04::"]]
 7qnW:
     lemmas: ["In", "another", "respect", ",", "television", "viewers", "will", "feel", "right", "at_home", "because", "most_of", "the", "actor", "be", "unknown", "."]
-    oewn2026_key: [[7, "oewn-01775456-v"], [14, "oewn-02610777-v"]]
+    oewn_key: [[7, "oewn-01775456-v"], [14, "oewn-02610777-v"]]
     paragraph: '28'
     pos: ["IN", "DT", "NN", ",", "NN", "NNS", "MD", "VB", "NN", "RB", "IN", "JJ", "DT", "NNS", "VBP", "NNS", "."]
     text: ' In another respect, television viewers will feel right at_home because most_of the
@@ -634,7 +634,7 @@ X1PB:
     wn30_key: [[7, "feel%2:37:00::"], [14, "be%2:42:03::"]]
 OWYQ:
     lemmas: ["With", "the", "exception", "of", "Lex_Barker", "and", "Anita_Ekberg", ",", "the", "credits", "be", "as", "unfamiliar", "as", "you", "'ll", "find", "on", "the", "robert_herridge_theater", "."]
-    oewn2026_key: [[10, "oewn-02610777-v"], [16, "oewn-02253273-v"]]
+    oewn_key: [[10, "oewn-02610777-v"], [16, "oewn-02253273-v"]]
     paragraph: '28'
     pos: ["IN", "DT", "NN", "IN", "NNP", "CC", "NNP", ",", "DT", "NNS", "VBP", "RB", "JJ", "IN", "PRP", "MD", "VB", "IN", "DT", "NNP", "."]
     text: ' With the exception of Lex_Barker and Anita_Ekberg, the credits are as unfamiliar
@@ -646,7 +646,7 @@ OWYQ:
     wn30_key: [[10, "be%2:42:03::"], [16, "find%2:40:02::"]]
 kH39:
     lemmas: ["Most_of", "the", "emphasis", "have", "be", "place", "on", "a", "\"", "wild", "party", "\"", "at", "a", "seaside", "villa", "."]
-    oewn2026_key: [[5, "oewn-01153025-v"]]
+    oewn_key: [[5, "oewn-01153025-v"]]
     paragraph: '29'
     pos: ["JJ", "DT", "NN", "VBZ", "VBN", "VBN", "IN", "DT", "``", "JJ", "NN", "''", "IN", "DT", "JJ", "NN", "."]
     text: ' Most_of the emphasis has been placed on a " wild party " at a seaside villa.'
@@ -655,7 +655,7 @@ kH39:
     wn30_key: [[5, "place%2:33:03::"]]
 Lus+:
     lemmas: ["producer", "fellini", "should", "have", "look", "at", "some", "of", "the", "old", "silent", "film", "where", "they", "really", "have", "party", "!"]
-    oewn2026_key: [[4, "oewn-02134989-v"], [15, "oewn-01737358-v"]]
+    oewn_key: [[4, "oewn-02134989-v"], [15, "oewn-01737358-v"]]
     paragraph: '29'
     pos: ["NN", "NNP", "MD", "VB", "VBN", "VB", "DT", "IN", "DT", "JJ", "JJ", "NNS", "WRB", "PRP", "RB", "VBD", "NNS", "."]
     text: ' Producer Fellini should have looked at some of the old silent films where they really
@@ -665,7 +665,7 @@ Lus+:
     wn30_key: [[4, "look%2:39:00::"], [15, "have%2:36:00::"]]
 SAoH:
     lemmas: ["The", "Dolce_Vita", "get-together", "boast", "a", "strip", "tease", "(", "carry", "as", "far", "as", "a", "black", "slip", ")", ";", "a", "lady", "drunk", "on", "her", "hands", "and", "knee", "who", "carry", "the", "hero", "around", "on", "her", "back", "while", "he", "throw", "pillow", "feather", "in", "her", "face", ";", "a", "frigid", "beauty", ",", "and", "three", "silly", "fairy", "."]
-    oewn2026_key: [[3, "oewn-02637740-v"], [8, "oewn-02567083-v"], [26, "oewn-01452567-v"], [35, "oewn-01511000-v"]]
+    oewn_key: [[3, "oewn-02637740-v"], [8, "oewn-02567083-v"], [26, "oewn-01452567-v"], [35, "oewn-01511000-v"]]
     paragraph: '29'
     pos: ["DT", "NNP", "NN", "VBD", "DT", "NN", "NN", "NN", "VBD", "RB", "RB", "IN", "DT", "JJ", "NN", "NN", ":", "DT", "NN", "JJ", "IN", "PRP$", "NNS", "CC", "NNS", "WP", "VBZ", "DT", "NN", "RB", "IN", "PRP$", "RB", "IN", "PRP", "VBZ", "NN", "NNS", "IN", "PRP$", "NN", ":", "DT", "JJ", "NN", ",", "CC", "CD", "JJ", "NNS", "."]
     text: ' The Dolce_Vita get-together boasted a strip tease (carried as far as a black slip);
@@ -678,7 +678,7 @@ SAoH:
     wn30_key: [[3, "boast%2:42:00::"], [8, "carry%2:41:00::"], [26, "carry%2:35:02::"], [35, "throw%2:35:00::"]]
 ZWmZ:
     lemmas: ["put", "them", "all_together", "and", "they", "spell", "the", "only", "four-lette", "word", "I", "can", "think_of", ":", "dull", "."]
-    oewn2026_key: [[0, "oewn-01496398-v"], [5, "oewn-01703755-v"], [12, "oewn-01637684-v"]]
+    oewn_key: [[0, "oewn-01496398-v"], [5, "oewn-01703755-v"], [12, "oewn-01637684-v"]]
     paragraph: '30'
     pos: ["VB", "PRP", "RB", "CC", "PRP", "VBP", "DT", "RB", "JJ", "NN", "PRP", "MD", "VB", ":", "JJ", "."]
     text: ' Put them all_together and they spell_out the only four-letter word I can think_of:
@@ -690,7 +690,7 @@ ZWmZ:
     wn30_key: [[0, "put%2:35:05::"], [5, "spell%2:36:00::"], [12, "think_of%2:36:00::"]]
 pQoK:
     lemmas: ["apparently", "fellini", "catch", "the", "crowd", "when", "its", "party", "have", "begin", "to", "pall", "."]
-    oewn2026_key: [[2, "oewn-01217985-v"], [9, "oewn-00346415-v"], [11, "oewn-00539279-v"]]
+    oewn_key: [[2, "oewn-01217985-v"], [9, "oewn-00346415-v"], [11, "oewn-00539279-v"]]
     paragraph: '31'
     pos: ["RB", "NNP", "VBD", "DT", "NN", "WRB", "PRP$", "NNS", "VBD", "VBN", "TO", "VB", "."]
     text: ' Apparently Fellini caught the crowd when its parties had begun to pall.'
@@ -699,7 +699,7 @@ pQoK:
     wn30_key: [[2, "catch%2:35:01::"], [9, "begin%2:30:00::"], [11, "pall%2:30:01::"]]
 gW3c:
     lemmas: ["What", "a", "swinging", "group", "they", "must", "have", "be", "when", "they", "first", "start", "entertaining", "!"]
-    oewn2026_key: [[7, "oewn-02610777-v"], [11, "oewn-00346415-v"]]
+    oewn_key: [[7, "oewn-02610777-v"], [11, "oewn-00346415-v"]]
     paragraph: '31'
     pos: ["WP", "DT", "JJ", "NN", "PRP", "MD", "VB", "VBN", "WRB", "PRP", "RB", "VBD", "NN", "."]
     text: ' What a swinging group they must have been when they first started entertaining!
@@ -710,7 +710,7 @@ gW3c:
     wn30_key: [[7, "be%2:42:03::"], [11, "start%2:30:00::"]]
 I2Bi:
     lemmas: ["As", "a", "moral", "shocker", "it", "be", "a", "dud", "."]
-    oewn2026_key: [[5, "oewn-02610777-v"]]
+    oewn_key: [[5, "oewn-02610777-v"]]
     paragraph: '32'
     pos: ["IN", "DT", "JJ", "NN", "PRP", "VBZ", "DT", "NN", "."]
     text: ' As a moral shocker it is a dud.'
@@ -719,7 +719,7 @@ I2Bi:
     wn30_key: [[5, "be%2:42:03::"]]
 a/8H:
     lemmas: ["But", "this", "do", "n't", "detract", "from", "its", "merit", "as", "an", "interesting", ",", "if_not", "great", ",", "film", "."]
-    oewn2026_key: [[4, "oewn-00533195-v"]]
+    oewn_key: [[4, "oewn-00533195-v"]]
     paragraph: '32'
     pos: ["CC", "DT", "VBZ", "RB", "VB", "VB", "PRP$", "NN", "IN", "DT", "JJ", ",", "RB", "JJ", ",", "NN", "."]
     text: ' But this doesn''t detract from its merit as an interesting, if_not great, film.'
@@ -728,7 +728,7 @@ a/8H:
     wn30_key: [[4, "detract%2:30:04::"]]
 GfRX:
     lemmas: ["The", "chronicle", "'s", "paine_knickerbocker", "sum_up", "it", "up", "neatly", ":"]
-    oewn2026_key: [[4, "oewn-01009951-v"]]
+    oewn_key: [[4, "oewn-01009951-v"]]
     paragraph: '32'
     pos: ["DT", "NNP", "POS", "NNP", "VBD", "PRP", "IN", "RB", ":"]
     text: ' The Chronicle''s Paine_Knickerbocker summed it up neatly:
@@ -739,7 +739,7 @@ GfRX:
     wn30_key: [[4, "sum_up%2:32:00::"]]
 5Thz:
     lemmas: ["\"", "This", "be", "a", "long", "picture", "and", "a", "controversial", "one", ",", "but", "basically", "it", "be", "a", "moral", ",", "enthralling", "and", "heartbreaking", "description", "of", "humans", "who", "have", "become", "unlinked", "from", "life", "as", "perhaps", "rome", "have", "from", "her", "traditional", "political", ",", "cultural", "and", "religious", "glory", "\"", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"], [14, "oewn-02610777-v"], [26, "oewn-00149403-v"]]
+    oewn_key: [[2, "oewn-02610777-v"], [14, "oewn-02610777-v"], [26, "oewn-00149403-v"]]
     paragraph: '33'
     pos: ["``", "DT", "VBZ", "DT", "JJ", "NN", "CC", "DT", "JJ", "CD", ",", "CC", "RB", "PRP", "VBZ", "DT", "JJ", ",", "JJ", "CC", "JJ", "NN", "IN", "NNS", "WP", "VBP", "VBN", "JJ", "RB", "NN", "IN", "RB", "NNP", "VBZ", "IN", "PRP$", "JJ", "JJ", ",", "JJ", "CC", "JJ", "NNS", "''", "."]
     text: ' " This is a long picture and a controversial one, but basically it is a moral, enthralling
@@ -752,7 +752,7 @@ GfRX:
     wn30_key: [[2, "be%2:42:03::"], [14, "be%2:42:03::"], [26, "become%2:30:00::"]]
 3cj3:
     lemmas: ["And", "when", "they", "sell", "it", "to", "television", "in", "a_couple_of", "years", ",", "it", "can", "be", "show", "without", "editing", "."]
-    oewn2026_key: [[3, "oewn-02247246-v"], [14, "oewn-02153218-v"]]
+    oewn_key: [[3, "oewn-02247246-v"], [14, "oewn-02153218-v"]]
     paragraph: '34'
     pos: ["CC", "WRB", "PRP", "VBP", "PRP", "TO", "NN", "IN", "JJ", "NNS", ",", "PRP", "MD", "VB", "VBN", "IN", "NN", "."]
     text: ' And when they sell it to television in a_couple_of years, it can be shown without
@@ -764,7 +764,7 @@ GfRX:
     wn30_key: [[3, "sell%2:40:00::"], [14, "show%2:39:02::"]]
 4eSe:
     lemmas: ["tonight_atlantic_monthly", "editor", "edward_week", "moderate", "a", "round_table", "of", "four", "russian", "writer", "in", "a", "discussion", "of", "soviet", "literature", "."]
-    oewn2026_key: [[3, "oewn-00815452-v"]]
+    oewn_key: [[3, "oewn-00815452-v"]]
     paragraph: '35'
     pos: ["NNP", "NN", "NNP", "VB", "DT", "NN", "IN", "CD", "NNP", "NNS", "IN", "DT", "NN", "IN", "JJ", "NN", "."]
     text: ' Tonight_Atlantic_Monthly editor Edward_Weeks moderates a round_table of four Russian
@@ -774,7 +774,7 @@ GfRX:
     wn30_key: [[3, "moderate%2:32:00::"]]
 HS88:
     lemmas: ["Among", "the", "subject", "discuss", "will", "be", "russian", "restriction", "on", "poet", "and", "writer", "in", "the", "ussr", "(", "channel", "9", "at", "9", ":", "30", ")", "."]
-    oewn2026_key: [[3, "oewn-00815640-v"]]
+    oewn_key: [[3, "oewn-00815640-v"]]
     paragraph: '35'
     pos: ["IN", "DT", "NNS", "VBN", "MD", "VB", "NNP", "NNS", "IN", "NNS", "CC", "NNS", "IN", "DT", "NNP", "NNP", "NNP", "CD", "IN", "CD", ":", "CD", "NN", "."]
     text: ' Among the subjects discussed will be Russian restrictions on poets and writers in
@@ -784,7 +784,7 @@ HS88:
     wn30_key: [[3, "discuss%2:32:00::"]]
 /Nl0:
     lemmas: ["person", "to", "person", "ventilate", "the", "home", "life", "of", "johnny_mercer", "and", "Joan_Collins", "-", "both", "in", "Southern_California", "(", "channel", "5", "at", "10", ":", "30", ")", "."]
-    oewn2026_key: [[3, "oewn-00489706-v"]]
+    oewn_key: [[3, "oewn-00489706-v"]]
     paragraph: '35'
     pos: ["NNP", "TO", "NNP", "VBZ", "DT", "NN", "NNS", "IN", "NNP", "CC", "NNP", ":", "DT", "IN", "NNP", "NNP", "NNP", "CD", "IN", "CD", ":", "CD", "NN", "."]
     text: ' Person to Person ventilates the home lives of Johnny_Mercer and Joan_Collins - both
@@ -794,7 +794,7 @@ HS88:
     wn30_key: [[3, "ventilate%2:30:00::"]]
 HPyK:
     lemmas: ["KQED_Summer_Music_Festival", "feature", "a", "live", "concert", "by", "the", "Capello", "de", "Musica", "(", "channel", "9", "at", "8", ":", "30", ")", "."]
-    oewn2026_key: [[1, "oewn-02636270-v"]]
+    oewn_key: [[1, "oewn-02636270-v"]]
     paragraph: '35'
     pos: ["NNP", "VBZ", "DT", "JJ", "NN", "IN", "DT", "NNP", "FW", "NNP", "NNP", "NNP", "CD", "IN", "CD", ":", "CD", "NN", "."]
     text: ' KQED_Summer_Music_Festival features a live concert by the Capello de Musica (Channel
@@ -806,7 +806,7 @@ HPyK:
     wn30_key: [[1, "feature%2:42:00::"]]
 e1ze:
     lemmas: ["NBC", "plan", "a", "new", "series", "of", "three", "long", "program", "explore", "america", "'s", "scientific", "plan", "titled", "\"", "threshold", "\"", ",", "to", "start", "in", "the", "fall", "."]
-    oewn2026_key: [[1, "oewn-00706993-v"], [9, "oewn-00649877-v"], [20, "oewn-02614382-v"]]
+    oewn_key: [[1, "oewn-00706993-v"], [9, "oewn-00649877-v"], [20, "oewn-02614382-v"]]
     paragraph: '36'
     pos: ["NNP", "VBZ", "DT", "JJ", "NN", "IN", "CD", "JJ", "NNS", "VBG", "NNP", "POS", "JJ", "NNS", "JJ", "``", "NNP", "''", ",", "TO", "VB", "IN", "DT", "NN", "."]
     text: ' NBC plans a new series of three long programs exploring America''s scientific plans
@@ -816,7 +816,7 @@ e1ze:
     wn30_key: [[1, "plan%2:31:01::"], [9, "explore%2:31:00::"], [20, "start%2:42:00::"]]
 xhU7:
     lemmas: ["\"", "science", "in", "action", "\"", ",", "san_francisco", "'s", "venerable", "television_program", ",", "will", "be", "see", "in", "hong_kong", "this", "fall", "in", "four", "language", ":", "mandarin", ",", "cantonese", ",", "Chiuchow", "and", "english", ",", "accord_to", "a", "tip", "from", "dr._robert_c._miller", "."]
-    oewn2026_key: [[13, "oewn-02155378-v"]]
+    oewn_key: [[13, "oewn-02155378-v"]]
     paragraph: '36'
     pos: ["``", "NN", "IN", "NNP", "``", ",", "NN", "POS", "JJ", "NN", ",", "MD", "VB", "VBN", "IN", "NNP", "DT", "NN", "VB", "CD", "NNS", ":", "NNP", ",", "NNP", ",", "NNP", "CC", "NNP", ",", "VB", "DT", "NN", "IN", "NNP", "."]
     text: ' " Science in Action ", San_Francisco''s venerable television_program, will be seen
@@ -827,7 +827,7 @@ xhU7:
     wn30_key: [[13, "see%2:39:03::"]]
 FTdh:
     lemmas: ["And", "you", "think", "you", "have", "language", "problem", "."]
-    oewn2026_key: [[2, "oewn-00691086-v"], [4, "oewn-02208144-v"]]
+    oewn_key: [[2, "oewn-00691086-v"], [4, "oewn-02208144-v"]]
     paragraph: '36'
     pos: ["CC", "PRP", "VBP", "PRP", "VBP", "NN", "NNS", "."]
     text: ' And you think you have language problems.
@@ -838,7 +838,7 @@ FTdh:
     wn30_key: [[2, "think%2:31:01::"], [4, "have%2:40:00::"]]
 SXwR:
     lemmas: ["The", "week", "go_along", "briskly", "enough", "."]
-    oewn2026_key: [[2, "oewn-02076777-v"]]
+    oewn_key: [[2, "oewn-02076777-v"]]
     paragraph: '37'
     pos: ["DT", "NN", "VB", "RB", "RB", "."]
     text: ' The week went_along briskly enough.'
@@ -847,7 +847,7 @@ SXwR:
     wn30_key: [[2, "go_along%2:38:02::"]]
 yUiV:
     lemmas: ["I", "buy", "a", "new", "little", "foreign", "bomb", "."]
-    oewn2026_key: [[1, "oewn-02211988-v"]]
+    oewn_key: [[1, "oewn-02211988-v"]]
     paragraph: '37'
     pos: ["PRP", "VBD", "DT", "JJ", "JJ", "JJ", "NN", "."]
     text: ' I bought a new little foreign bomb.'
@@ -856,7 +856,7 @@ yUiV:
     wn30_key: [[1, "buy%2:40:00::"]]
 Q3V7:
     lemmas: ["It", "be", "a", "british", "bomb", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"]]
+    oewn_key: [[1, "oewn-02610777-v"]]
     paragraph: '37'
     pos: ["PRP", "VBZ", "DT", "JJ", "NN", "."]
     text: ' It is a British bomb.'
@@ -865,7 +865,7 @@ Q3V7:
     wn30_key: [[1, "be%2:42:03::"]]
 8xFA:
     lemmas: ["very", "austere", "yet", "racy", "."]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '37'
     pos: ["RB", "JJ", "RB", "JJ", "."]
     text: ' Very austere yet racy.
@@ -876,7 +876,7 @@ Q3V7:
     wn30_key: []
 vXof:
     lemmas: ["It", "be", "very", "chic", "to", "drive", "foreign", "car", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [5, "oewn-01934845-v"]]
+    oewn_key: [[1, "oewn-02610777-v"], [5, "oewn-01934845-v"]]
     paragraph: '38'
     pos: ["PRP", "VBZ", "RB", "JJ", "TO", "VB", "JJ", "NNS", "."]
     text: ' It is very chic to drive foreign cars.'
@@ -885,7 +885,7 @@ vXof:
     wn30_key: [[1, "be%2:42:03::"], [5, "drive%2:38:01::"]]
 TF37:
     lemmas: ["With", "a", "foreign", "car", "you", "must", "wear", "a", "cap", "-", "it", "have", "a", "leather", "band", "in_the_back", "."]
-    oewn2026_key: [[6, "oewn-00052091-v"], [11, "oewn-02636270-v"]]
+    oewn_key: [[6, "oewn-00052091-v"], [11, "oewn-02636270-v"]]
     paragraph: '38'
     pos: ["IN", "DT", "JJ", "NN", "PRP", "MD", "VB", "DT", "NN", ":", "PRP", "VBZ", "DT", "NN", "NN", "RB", "."]
     text: ' With a foreign car you must wear a cap - it has a leather band in_the_back.'
@@ -894,7 +894,7 @@ TF37:
     wn30_key: [[6, "wear%2:29:00::"], [11, "have%2:42:00::"]]
 14Zg:
     lemmas: ["You", "must", "also", "wear", "a", "car", "coat", "."]
-    oewn2026_key: [[3, "oewn-00052091-v"]]
+    oewn_key: [[3, "oewn-00052091-v"]]
     paragraph: '38'
     pos: ["PRP", "MD", "RB", "VB", "DT", "NN", "NN", "."]
     text: ' You must also wear a car coat.
@@ -905,7 +905,7 @@ TF37:
     wn30_key: [[3, "wear%2:29:00::"]]
 xj9g:
     lemmas: ["The", "wardrobe", "for", "a", "foreign", "bomb", "be", "a_little", "expensive", "."]
-    oewn2026_key: [[6, "oewn-02610777-v"]]
+    oewn_key: [[6, "oewn-02610777-v"]]
     paragraph: '39'
     pos: ["DT", "NN", "IN", "DT", "JJ", "NN", "VBZ", "RB", "JJ", "."]
     text: ' The wardrobe for a foreign bomb is a_little expensive.'
@@ -914,7 +914,7 @@ xj9g:
     wn30_key: [[6, "be%2:42:03::"]]
 JeG4:
     lemmas: ["But", "we", "could", "n't", "really", "get_along", "without", "it", "."]
-    oewn2026_key: [[5, "oewn-02623620-v"]]
+    oewn_key: [[5, "oewn-02623620-v"]]
     paragraph: '39'
     pos: ["CC", "PRP", "MD", "RB", "RB", "VB", "IN", "PRP", "."]
     text: ' But we couldn''t really get_along without it.
@@ -925,7 +925,7 @@ JeG4:
     wn30_key: [[5, "get_along%2:42:00::"]]
 mWd4:
     lemmas: ["\"", "Where", "do", "you", "put", "the", "light", "fluid", ",", "ha", ",", "ha", "\"", "?", "ask", "the", "gas_station", "man", "."]
-    oewn2026_key: [[4, "oewn-01496967-v"], [14, "oewn-00899241-v"]]
+    oewn_key: [[4, "oewn-01496967-v"], [14, "oewn-00899241-v"]]
     paragraph: '40'
     pos: ["``", "WRB", "VBP", "PRP", "VB", "DT", "JJR", "NN", ",", "UH", ",", "UH", "``", ".", "VBD", "DT", "NN", "NN", "."]
     text: ' " Where do you put the lighter fluid, ha, ha "? asked the gas_station man.'
@@ -934,7 +934,7 @@ mWd4:
     wn30_key: [[4, "put%2:35:00::"], [14, "ask%2:32:00::"]]
 GM5m:
     lemmas: ["The", "present", "crop", "of", "small", "car", "be", "enrich", "american", "humor", "."]
-    oewn2026_key: [[7, "oewn-00171599-v"]]
+    oewn_key: [[7, "oewn-00171599-v"]]
     paragraph: '40'
     pos: ["DT", "JJ", "NN", "IN", "JJ", "NNS", "VBZ", "VBG", "NNP", "NN", "."]
     text: ' The present crop of small cars is enriching American humor.
@@ -945,7 +945,7 @@ GM5m:
     wn30_key: [[7, "enrich%2:30:00::"]]
 C/Pc:
     lemmas: ["gas_station", "people", "be", "very", "debonair", "about", "small", "car", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-02610777-v"]]
     paragraph: '41'
     pos: ["NN", "NNS", "VBP", "RB", "JJ", "IN", "JJ", "NNS", "."]
     text: ' Gas_station people are very debonair about small cars.
@@ -956,7 +956,7 @@ C/Pc:
     wn30_key: [[2, "be%2:42:03::"]]
 smtc:
     lemmas: ["When", "I", "drive", "a", "car", "with", "tail_fin", ",", "I", "have", "plenty", "status", "at", "the", "wind-and-wate", "oasis", "."]
-    oewn2026_key: [[2, "oewn-01934845-v"], [9, "oewn-02208144-v"]]
+    oewn_key: [[2, "oewn-01934845-v"], [9, "oewn-02208144-v"]]
     paragraph: '42'
     pos: ["WRB", "PRP", "VBD", "DT", "NN", "IN", "NN", ",", "PRP", "VBD", "NN", "NN", "IN", "DT", "JJ", "NNS", "."]
     text: ' When I drove a car with tail_fins, I had plenty status at the wind-and-water oases.'
@@ -965,7 +965,7 @@ smtc:
     wn30_key: [[2, "drive%2:38:01::"], [9, "have%2:40:00::"]]
 fi+S:
     lemmas: ["My", "car", "gulp", "20", "gallon", "without", "even", "wipe", "its", "mouth", "."]
-    oewn2026_key: [[2, "oewn-01204688-v"], [7, "oewn-01394891-v"]]
+    oewn_key: [[2, "oewn-01204688-v"], [7, "oewn-01394891-v"]]
     paragraph: '42'
     pos: ["PRP$", "NN", "VBD", "CD", "NNS", "IN", "RB", "VBG", "PRP$", "NN", "."]
     text: ' My car gulped 20 gallons without even wiping its mouth.
@@ -976,7 +976,7 @@ fi+S:
     wn30_key: [[2, "gulp%2:34:01::"], [7, "wipe%2:35:00::"]]
 EunF:
     lemmas: ["This", "excellent", "foreign", "bomb", "take", "only", "six", "."]
-    oewn2026_key: [[4, "oewn-02634015-v"]]
+    oewn_key: [[4, "oewn-02634015-v"]]
     paragraph: '43'
     pos: ["DT", "JJ", "JJ", "NN", "VBZ", "RB", "CD", "."]
     text: ' This excellent foreign bomb takes only six.
@@ -987,7 +987,7 @@ EunF:
     wn30_key: [[4, "take%2:42:00::"]]
 BX8V:
     lemmas: ["When", "I", "have", "my", "big", "job", "with", "the", "double", "headlight", "and", "yard", "of", "chrome", ",", "the", "gas", "people", "be", "happy", "to", "see", "me", "."]
-    oewn2026_key: [[2, "oewn-02208144-v"], [18, "oewn-02610777-v"], [21, "oewn-02026953-v"]]
+    oewn_key: [[2, "oewn-02208144-v"], [18, "oewn-02610777-v"], [21, "oewn-02026953-v"]]
     paragraph: '44'
     pos: ["WRB", "PRP", "VBD", "PRP$", "JJ", "NN", "IN", "DT", "JJ", "NNS", "CC", "NNS", "IN", "NN", ",", "DT", "NN", "NNS", "VBD", "JJ", "TO", "VB", "PRP", "."]
     text: ' When I had my big job with the double headlights and yards of chrome, the gas people
@@ -999,7 +999,7 @@ BX8V:
     wn30_key: [[2, "have%2:40:00::"], [18, "be%2:42:03::"], [21, "see%2:38:00::"]]
 zzLJ:
     lemmas: ["\"", "tire", "ok", "?"]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '45'
     pos: ["``", "NNS", "JJ", "."]
     text: ' " Tires OK?'
@@ -1008,7 +1008,7 @@ zzLJ:
     wn30_key: []
 +0r5:
     lemmas: ["check", "the", "oil", "and", "water", ",", "sir", "?", "\""]
-    oewn2026_key: [[0, "oewn-00663742-v"]]
+    oewn_key: [[0, "oewn-00663742-v"]]
     paragraph: '45'
     pos: ["VB", "DT", "NN", "CC", "NN", ",", "NN", ".", "''"]
     text: ' Check the oil and water, sir? "'
@@ -1017,7 +1017,7 @@ zzLJ:
     wn30_key: [[0, "check%2:31:00::"]]
 OOZf:
     lemmas: ["They", "polish", "the", "windshield", "."]
-    oewn2026_key: [[1, "oewn-01248201-v"]]
+    oewn_key: [[1, "oewn-01248201-v"]]
     paragraph: '45'
     pos: ["PRP", "VBD", "DT", "NN", "."]
     text: ' They polished the windshield.'
@@ -1026,7 +1026,7 @@ OOZf:
     wn30_key: [[1, "polish%2:35:00::"]]
 i3Qr:
     lemmas: ["They", "have", "a", "loving", "touch", "."]
-    oewn2026_key: [[1, "oewn-02208144-v"]]
+    oewn_key: [[1, "oewn-02208144-v"]]
     paragraph: '45'
     pos: ["PRP", "VBD", "DT", "JJ", "NN", "."]
     text: ' They had a loving touch.
@@ -1037,7 +1037,7 @@ i3Qr:
     wn30_key: [[1, "have%2:40:00::"]]
 L/jU:
     lemmas: ["The", "man", "stick_in", "the", "nozzle", "in", "the", "gas_tank", "."]
-    oewn2026_key: [[2, "oewn-00187671-v"]]
+    oewn_key: [[2, "oewn-00187671-v"]]
     paragraph: '46'
     pos: ["DT", "NN", "VBD", "DT", "NN", "IN", "DT", "NN", "."]
     text: ' The man stuck the nozzle in the gas_tank.'
@@ -1046,7 +1046,7 @@ L/jU:
     wn30_key: [[2, "stick_in%2:30:00::"]]
 NuEt:
     lemmas: ["\"", "What", "kind_of", "car", "be", "it", "\"", "?", "he", "ask", "gloomily", "."]
-    oewn2026_key: [[4, "oewn-02610777-v"], [9, "oewn-00899241-v"]]
+    oewn_key: [[4, "oewn-02610777-v"], [9, "oewn-00899241-v"]]
     paragraph: '46'
     pos: ["``", "WP", "RB", "NN", "VBZ", "PRP", "``", ".", "PRP", "VBD", "RB", "."]
     text: ' " What kind_of car is it "? he asked gloomily.
@@ -1057,7 +1057,7 @@ NuEt:
     wn30_key: [[4, "be%2:42:03::"], [9, "ask%2:32:00::"]]
 XAGO:
     lemmas: ["\"", "It", "be", "a", "british", "austin", ",", "the", "small", "they", "make", "\"", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"], [10, "oewn-01624592-v"]]
+    oewn_key: [[2, "oewn-02610777-v"], [10, "oewn-01624592-v"]]
     paragraph: '47'
     pos: ["``", "PRP", "VBZ", "DT", "JJ", "NNP", ",", "DT", "JJS", "PRP", "VBP", "``", "."]
     text: ' " It is a British Austin, the smallest they make ".
@@ -1068,7 +1068,7 @@ XAGO:
     wn30_key: [[2, "be%2:42:03::"], [10, "make%2:36:01::"]]
 LHOJ:
     lemmas: ["\"", "get", "much", "mileage", "\"", "?"]
-    oewn2026_key: [[1, "oewn-00523831-v"]]
+    oewn_key: [[1, "oewn-00523831-v"]]
     paragraph: '48'
     pos: ["``", "VB", "JJ", "NN", "''", "."]
     text: ' " Get much mileage "?
@@ -1079,7 +1079,7 @@ LHOJ:
     wn30_key: [[1, "get%2:30:03::"]]
 +LDT:
     lemmas: ["\"", "About", "35", "\"", "."]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '49'
     pos: ["``", "IN", "CD", "``", "."]
     text: ' " About 35 ".
@@ -1090,7 +1090,7 @@ LHOJ:
     wn30_key: []
 jvET:
     lemmas: ["The", "gas_station", "man", "sigh", "unhappily", "."]
-    oewn2026_key: [[3, "oewn-00004032-v"]]
+    oewn_key: [[3, "oewn-00004032-v"]]
     paragraph: '50'
     pos: ["DT", "NN", "NN", "VBD", "RB", "."]
     text: ' The gas_station man sighed unhappily.
@@ -1101,7 +1101,7 @@ jvET:
     wn30_key: [[3, "sigh%2:29:00::"]]
 FAt0:
     lemmas: ["\"", "What", "I", "always", "say", "be", "what", "if", "somebody", "clobber", "you", "in", "a_little", "car", "like", "that", "?"]
-    oewn2026_key: [[4, "oewn-01011267-v"], [5, "oewn-02610777-v"], [9, "oewn-01420070-v"]]
+    oewn_key: [[4, "oewn-01011267-v"], [5, "oewn-02610777-v"], [9, "oewn-01420070-v"]]
     paragraph: '51'
     pos: ["``", "WP", "PRP", "RB", "VBP", "VBZ", "WP", "IN", "NN", "VBZ", "PRP", "IN", "RB", "NN", "IN", "RB", "."]
     text: ' " What I always say is what if somebody clobbers you in a_little car like that?'
@@ -1110,7 +1110,7 @@ FAt0:
     wn30_key: [[4, "say%2:32:00::"], [5, "be%2:42:03::"], [9, "clobber%2:35:01::"]]
 c3EM:
     lemmas: ["crunch", ",", "that", "'s", "all", "she", "write", "\"", "."]
-    oewn2026_key: [[6, "oewn-00995046-v"]]
+    oewn_key: [[6, "oewn-00995046-v"]]
     paragraph: '51'
     pos: ["NN", ",", "IN", "VBZ", "DT", "PRP", "VBD", "``", "."]
     text: ' Crunch, that''s all she wrote ".
@@ -1121,7 +1121,7 @@ c3EM:
     wn30_key: [[6, "write%2:36:02::"]]
 aT0S:
     lemmas: ["\"", "I", "will", "die", "rich", "\"", "."]
-    oewn2026_key: [[3, "oewn-00359085-v"]]
+    oewn_key: [[3, "oewn-00359085-v"]]
     paragraph: '52'
     pos: ["``", "PRP", "MD", "VB", "JJ", "''", "."]
     text: ' " I will die rich ".
@@ -1132,7 +1132,7 @@ aT0S:
     wn30_key: [[3, "die%2:30:00::"]]
 VkA7:
     lemmas: ["\"", "That", "will", "be", "$", "1.80", "\"", ",", "say", "the", "gas_station", "man", "."]
-    oewn2026_key: [[3, "oewn-02610777-v"], [8, "oewn-01011267-v"]]
+    oewn_key: [[3, "oewn-02610777-v"], [8, "oewn-01011267-v"]]
     paragraph: '53'
     pos: ["``", "DT", "MD", "VB", "$", "CD", "``", ",", "VBD", "DT", "NN", "NN", "."]
     text: ' " That will be $1.80 ", said the gas_station man.'
@@ -1141,7 +1141,7 @@ VkA7:
     wn30_key: [[3, "be%2:42:03::"], [8, "say%2:32:00::"]]
 ljjR:
     lemmas: ["\"", "The", "windshield", "look", "pretty", "clean", "\"", "."]
-    oewn2026_key: [[3, "oewn-02137900-v"]]
+    oewn_key: [[3, "oewn-02137900-v"]]
     paragraph: '53'
     pos: ["``", "DT", "NN", "VBZ", "RB", "JJ", "''", "."]
     text: ' " The windshield looks pretty clean ".
@@ -1152,7 +1152,7 @@ ljjR:
     wn30_key: [[3, "look%2:39:01::"]]
 u3/T:
     lemmas: ["Ah", ",", "the", "fair-weathe", "friend", "of", "yesteryear", "!"]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '54'
     pos: ["UH", ",", "DT", "JJ", "NNS", "IN", "NN", "."]
     text: ' Ah, the fair-weather friends of yesteryear!'
@@ -1161,7 +1161,7 @@ u3/T:
     wn30_key: []
 aV5G:
     lemmas: ["When", "I", "wheel", "about", ",", "fin", "fore", "and", "aft", ",", "I", "be", "the", "darling", "of", "the", "doorman", "."]
-    oewn2026_key: [[2, "oewn-02050024-v"], [11, "oewn-02622439-v"]]
+    oewn_key: [[2, "oewn-02050024-v"], [11, "oewn-02622439-v"]]
     paragraph: '54'
     pos: ["WRB", "PRP", "VBD", "RB", ",", "VBN", "NN", "CC", "JJ", ",", "PRP", "VBD", "DT", "NN", "IN", "DT", "NNS", "."]
     text: ' When I wheeled about, finned fore and aft, I was the darling of the doormen.'
@@ -1170,7 +1170,7 @@ aV5G:
     wn30_key: [[2, "wheel%2:38:00::"], [11, "be%2:42:06::"]]
 uJsg:
     lemmas: ["dollar_bill", "skid", "off", "my", "hands", "and", "they", "tip", "their", "cap", "politely", "."]
-    oewn2026_key: [[1, "oewn-01874860-v"], [7, "oewn-02043389-v"]]
+    oewn_key: [[1, "oewn-01874860-v"], [7, "oewn-02043389-v"]]
     paragraph: '54'
     pos: ["NN", "VBD", "IN", "PRP$", "NNS", "CC", "PRP", "VBD", "PRP$", "NNS", "RB", "."]
     text: ' Dollar_bills skidded off my hands and they tipped their caps politely.
@@ -1181,7 +1181,7 @@ uJsg:
     wn30_key: [[1, "skid%2:38:03::"], [7, "tip%2:38:02::"]]
 coW9:
     lemmas: ["With", "a", "small", "bomb", ",", "I", "tuck", "it", "between", "cadillac", "."]
-    oewn2026_key: [[6, "oewn-01392430-v"]]
+    oewn_key: [[6, "oewn-01392430-v"]]
     paragraph: '55'
     pos: ["IN", "DT", "JJ", "NN", ",", "PRP", "VBP", "PRP", "IN", "NNPS", "."]
     text: ' With a small bomb, I tuck it between Cadillacs.'
@@ -1190,7 +1190,7 @@ coW9:
     wn30_key: [[6, "tuck%2:35:00::"]]
 5xcW:
     lemmas: ["(", "The", "last", "doorman", "that", "see", "me", "do", "that", "should", "calm", "himself", "."]
-    oewn2026_key: [[5, "oewn-02133754-v"], [7, "oewn-01716563-v"], [10, "oewn-01768652-v"]]
+    oewn_key: [[5, "oewn-02133754-v"], [7, "oewn-01716563-v"], [10, "oewn-01768652-v"]]
     paragraph: '55'
     pos: ["VB", "DT", "JJ", "NN", "WDT", "VBD", "PRP", "VB", "WDT", "MD", "VB", "PRP", "."]
     text: ' (The last doorman that saw me do that should calm himself.'
@@ -1199,7 +1199,7 @@ coW9:
     wn30_key: [[5, "see%2:39:00::"], [7, "do%2:36:01::"], [10, "calm%2:37:00::"]]
 jWqB:
     lemmas: ["high_blood_pressure", "can", "get_the_best", "of", "any", "of", "us", ".", ")"]
-    oewn2026_key: [[2, "oewn-01106429-v"]]
+    oewn_key: [[2, "oewn-01106429-v"]]
     paragraph: '55'
     pos: ["NN", "MD", "VB", "IN", "DT", "IN", "PRP", ".", "NN"]
     text: ' High_blood_pressure can get_the_best of any of us.)

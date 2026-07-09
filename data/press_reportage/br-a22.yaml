@@ -3,7 +3,7 @@ _meta:
         type: seq
         base: tokens
         data: string
-    oewn2026_key:
+    oewn_key:
         type: element
         base: tokens
         data: string
@@ -28,7 +28,7 @@ _meta:
         data: string
 Y8BS:
     lemmas: ["Emory_University", "'s", "board_of_trustees", "announce", "friday", "that", "it", "be", "prepare", "to", "accept", "student", "of", "any", "race", "as", "soon", "as", "the", "state", "'s", "tax", "laws", "make", "such", "a", "step", "possible", "."]
-    oewn2026_key: [[3, "oewn-00976399-v"], [7, "oewn-02610777-v"], [8, "oewn-00407168-v"], [10, "oewn-02241406-v"], [23, "oewn-00120124-v"]]
+    oewn_key: [[3, "oewn-00976399-v"], [7, "oewn-02610777-v"], [8, "oewn-00407168-v"], [10, "oewn-02241406-v"], [23, "oewn-00120124-v"]]
     paragraph: '0'
     pos: ["NNP", "POS", "NN", "VBD", "NNP", "IN", "PRP", "VBD", "VBN", "TO", "VB", "NNS", "IN", "DT", "NN", "RB", "RB", "IN", "DT", "NN", "POS", "NN", "NNS", "VBD", "JJ", "DT", "NN", "JJ", "."]
     text: 'Emory_University''s Board_of_Trustees announced Friday that it was prepared to accept
@@ -40,7 +40,7 @@ Y8BS:
     wn30_key: [[3, "announce%2:32:00::"], [7, "be%2:42:03::"], [8, "prepare%2:30:00::"], [10, "accept%2:40:03::"], [23, "make%2:30:00::"]]
 IDKH:
     lemmas: ["\"", "Emory_University", "'s", "charter", "and", "by-law", "have", "never", "require", "admission", "or", "rejection", "of", "student", "on", "the", "basis", "of", "race", "\"", ",", "board", "chairman", "henry_l._bowden", "state", "."]
-    oewn2026_key: [[8, "oewn-02634015-v"], [24, "oewn-01011267-v"]]
+    oewn_key: [[8, "oewn-02634015-v"], [24, "oewn-01011267-v"]]
     paragraph: '1'
     pos: ["``", "NNP", "POS", "NN", "CC", "NNS", "VBP", "RB", "VBN", "NN", "CC", "NN", "IN", "NNS", "IN", "DT", "NN", "IN", "NN", "''", ",", "NN", "NN", "NNP", "VBN", "."]
     text: ' " Emory_University''s charter and by-laws have never required admission or rejection
@@ -52,7 +52,7 @@ IDKH:
     wn30_key: [[8, "require%2:42:00::"], [24, "state%2:32:00::"]]
 FxxY:
     lemmas: ["But", "an", "official", "statement", "adopt", "by", "the", "33", "-", "man", "Emory", "board", "at", "its", "annual", "meeting", "friday", "note", "that", "state", "tax", "requirement", "at_present", "be", "a", "roadblock", "to", "accept", "negro", "."]
-    oewn2026_key: [[4, "oewn-02351891-v"], [17, "oewn-01022014-v"], [20, "oewn-02312527-v"], [23, "oewn-02610777-v"], [27, "oewn-02241406-v"]]
+    oewn_key: [[4, "oewn-02351891-v"], [17, "oewn-01022014-v"], [20, "oewn-02312527-v"], [23, "oewn-02610777-v"], [27, "oewn-02241406-v"]]
     paragraph: '2'
     pos: ["CC", "DT", "NN", "NN", "VBN", "IN", "DT", "CD", ":", "NN", "NNP", "NN", "IN", "PRP$", "JJ", "NN", "NNP", "VBD", "IN", "NN", "VB", "NNS", "RB", "VBP", "DT", "NN", "TO", "VBG", "NNPS", "."]
     text: ' But an official statement adopted by the 33 - man Emory board at its annual meeting
@@ -65,7 +65,7 @@ FxxY:
     wn30_key: [[4, "adopt%2:40:02::"], [17, "note%2:32:00::"], [20, "tax%2:40:00::"], [23, "be%2:42:03::"], [27, "accept%2:40:03::"]]
 bC7B:
     lemmas: ["The", "statement", "explain", "that", "under", "the", "georgia_constitution", "and", "state", "law", ",", "tax-exempt", "status", "be", "grant", "to", "educational_institutions", "only", "if", "they", "be", "segregated", "."]
-    oewn2026_key: [[2, "oewn-00894956-v"], [14, "oewn-02267085-v"], [20, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-00894956-v"], [14, "oewn-02267085-v"], [20, "oewn-02610777-v"]]
     paragraph: '3'
     pos: ["DT", "NN", "VBD", "IN", "IN", "DT", "NNP", "CC", "NN", "NN", ",", "JJ", "NN", "VBZ", "VBN", "TO", "NN", "RB", "IN", "PRP", "VBP", "JJ", "."]
     text: ' The statement explained that under the Georgia_Constitution and state law, tax-exempt
@@ -77,7 +77,7 @@ bC7B:
     wn30_key: [[2, "explain%2:32:02::"], [14, "grant%2:40:03::"], [20, "be%2:42:03::"]]
 RKWv:
     lemmas: ["\"", "Emory", "could", "not", "continue", "to", "operate", "accord", "to", "its", "present", "standard", "as", "an", "institution", "of", "higher", "learning", ",", "of", "true", "university", "grade", ",", "and", "meet", "its", "financial_obligations", ",", "without", "the", "tax-exemption", "privilege", "which", "be", "available", "to_it", "only", "so_long", "as", "it", "conform_to", "the", "aforementioned", "constitutional", "and", "statutory", "provisions", "\"", ",", "the", "statement", "say", "."]
-    oewn2026_key: [[4, "oewn-02690747-v"], [6, "oewn-01528454-v"], [7, "oewn-02705946-v"], [25, "oewn-01185870-v"], [41, "oewn-02674745-v"], [52, "oewn-02736688-v"]]
+    oewn_key: [[4, "oewn-02690747-v"], [6, "oewn-01528454-v"], [7, "oewn-02705946-v"], [25, "oewn-01185870-v"], [41, "oewn-02674745-v"], [52, "oewn-02736688-v"]]
     paragraph: '4'
     pos: ["``", "NNP", "MD", "RB", "VB", "TO", "VB", "VBG", "TO", "PRP$", "JJ", "NNS", "IN", "DT", "NN", "IN", "JJR", "NN", ",", "IN", "JJ", "NN", "NN", ",", "CC", "VB", "PRP$", "NN", ",", "IN", "DT", "NN", "NNS", "WDT", "VB", "JJ", "RB", "RB", "NN", "IN", "PRP", "VBD", "DT", "JJ", "JJ", "CC", "JJ", "NNS", "''", ",", "DT", "NN", "VBD", "."]
     text: ' " Emory could not continue to operate according to its present standards as an institution
@@ -92,7 +92,7 @@ RKWv:
     wn30_key: [[4, "continue%2:42:01::"], [6, "operate%2:35:03::"], [7, "accord%2:42:00::"], [25, "meet%2:34:00::"], [41, "conform_to%2:42:00::"], [52, "say%2:42:00::"]]
 ZVB1:
     lemmas: ["The", "statement", "do", "not", "mention", "what", "steps", "might", "be", "take", "to", "overcome", "the", "legal", "obstacle", "to", "desegregation", "."]
-    oewn2026_key: [[4, "oewn-01026199-v"], [9, "oewn-02605633-v"], [11, "oewn-01111038-v"]]
+    oewn_key: [[4, "oewn-01026199-v"], [9, "oewn-02605633-v"], [11, "oewn-01111038-v"]]
     paragraph: '5'
     pos: ["DT", "NN", "VBD", "RB", "VB", "WP", "NNS", "MD", "VB", "VBN", "VB", "VB", "DT", "JJ", "NNS", "TO", "NN", "."]
     text: ' The statement did not mention what steps might be taken to overcome the legal obstacles
@@ -104,7 +104,7 @@ ZVB1:
     wn30_key: [[4, "mention%2:32:02::"], [9, "take%2:41:04::"], [11, "overcome%2:33:01::"]]
 nj7q:
     lemmas: ["An", "Emory", "spokesman", "indicate", ",", "however", ",", "that", "the", "university", "itself", "do", "not", "intend", "to", "make", "any", "test", "of", "the", "laws", "."]
-    oewn2026_key: [[3, "oewn-00929986-v"], [13, "oewn-00711208-v"], [15, "oewn-02566500-v"]]
+    oewn_key: [[3, "oewn-00929986-v"], [13, "oewn-00711208-v"], [15, "oewn-02566500-v"]]
     paragraph: '6'
     pos: ["DT", "NNP", "NN", "VBD", ",", "RB", ",", "IN", "DT", "NN", "PRP", "VBD", "RB", "VB", "TO", "VB", "DT", "NN", "IN", "DT", "NNS", "."]
     text: ' An Emory spokesman indicated, however, that the university itself did not intend
@@ -116,7 +116,7 @@ nj7q:
     wn30_key: [[3, "indicate%2:32:00::"], [13, "intend%2:31:01::"], [15, "make%2:41:00::"]]
 DALm:
     lemmas: ["The", "georgia_constitution", "give", "the", "legislature", "the", "power", "to", "exempt", "college", "from", "property", "taxation", "if", ",", "among", "other", "criterion", ",", "\"", "all", "endowment", "to", "institution", "establish", "for", "white", "people", "shall", "be", "limit", "to", "white", "people", ",", "and", "all", "endowment", "to", "institution", "establish", "for", "colored", "people", "shall", "be", "limit", "to", "colored", "people", "\"", "."]
-    oewn2026_key: [[2, "oewn-02235554-v"], [8, "oewn-02570061-v"], [24, "oewn-02431950-v"], [29, "oewn-02610777-v"], [40, "oewn-02431950-v"], [45, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-02235554-v"], [8, "oewn-02570061-v"], [24, "oewn-02431950-v"], [29, "oewn-02610777-v"], [40, "oewn-02431950-v"], [45, "oewn-02610777-v"]]
     paragraph: '7'
     pos: ["DT", "NNP", "VBZ", "DT", "NNP", "DT", "NN", "TO", "VB", "NNS", "IN", "NN", "NN", "IN", ",", "IN", "JJ", "NNS", ",", "''", "DT", "NNS", "TO", "NNS", "VBN", "IN", "JJ", "NNS", "MD", "VB", "VB", "TO", "JJ", "NNS", ",", "CC", "DT", "NNS", "TO", "NNS", "VBN", "IN", "JJ", "NNS", "MD", "VB", "VB", "TO", "JJ", "NNS", "''", "."]
     text: ' The Georgia_Constitution gives the Legislature the power to exempt colleges from
@@ -130,7 +130,7 @@ DALm:
     wn30_key: [[2, "give%2:40:06::"], [8, "exempt%2:41:00::"], [24, "establish%2:41:00::"], [29, "be%2:42:03::"], [40, "establish%2:41:00::"], [45, "be%2:42:03::"]]
 gCnB:
     lemmas: ["at_least", "two", "private", "college", "in", "the", "atlanta", "area", "now", "or", "in_the_past", "have", "have", "integrated", "student", "body", ",", "but", "their", "tax-exempt", "status", "never", "have", "be", "challenge", "by", "the", "state", "."]
-    oewn2026_key: [[12, "oewn-02636270-v"], [24, "oewn-00870790-v"]]
+    oewn_key: [[12, "oewn-02636270-v"], [24, "oewn-00870790-v"]]
     paragraph: '8'
     pos: ["RB", "CD", "JJ", "NNS", "IN", "DT", "NNP", "NN", "RB", "CC", "RB", "VBP", "VBD", "JJ", "NN", "NNS", ",", "CC", "PRP$", "JJ", "NN", "RB", "VBZ", "VBN", "VBN", "IN", "DT", "NN", "."]
     text: ' At_least two private colleges in the Atlanta area now or in_the_past have had integrated
@@ -142,7 +142,7 @@ gCnB:
     wn30_key: [[12, "have%2:42:00::"], [24, "challenge%2:32:01::"]]
 8Gfa:
     lemmas: ["Emory", "be", "affiliated", "with", "the", "methodist_church", "."]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '9'
     pos: ["NNP", "VBZ", "JJ", "VB", "DT", "NN", "."]
     text: ' Emory is affiliated with the Methodist_Church.'
@@ -151,7 +151,7 @@ gCnB:
     wn30_key: []
 n4n0:
     lemmas: ["Some", "church", "leaders", ",", "both", "clerical", "and", "lay", ",", "have", "criticize", "the", "university", "for", "not", "take", "the", "lead", "in", "desegregation", "."]
-    oewn2026_key: [[10, "oewn-00828170-v"], [15, "oewn-00525762-v"]]
+    oewn_key: [[10, "oewn-00828170-v"], [15, "oewn-00525762-v"]]
     paragraph: '9'
     pos: ["DT", "NN", "NNS", ",", "DT", "JJ", "CC", "JJ", ",", "VBP", "VBN", "DT", "NN", "IN", "RB", "VBG", "VB", "NN", "IN", "NN", "."]
     text: ' Some church leaders, both clerical and lay, have criticized the university for not
@@ -163,7 +163,7 @@ n4n0:
     wn30_key: [[10, "criticize%2:32:00::"], [15, "take%2:30:01::"]]
 IFfb:
     lemmas: ["The", "student", "newspaper", ",", "The", "Emory_Wheel", ",", "as", "early", "as", "the", "fall", "of", "1954", "call_for", "desegregation", "."]
-    oewn2026_key: [[14, "oewn-00754770-v"]]
+    oewn_key: [[14, "oewn-00754770-v"]]
     paragraph: '10'
     pos: ["DT", "NN", "NN", ",", "DT", "NNP", ",", "RB", "JJ", "IN", "DT", "NN", "IN", "CD", "VB", "NN", "."]
     text: ' The student newspaper, The Emory_Wheel, as early as the fall of 1954 called_for
@@ -175,7 +175,7 @@ IFfb:
     wn30_key: [[14, "call_for%2:32:04::"]]
 rJDi:
     lemmas: ["\"", "From", "its", "beginning", "\"", ",", "the", "trustee", "'", "statement", "say", "friday", ",", "\"", "Emory_University", "have", "assume", "as", "its", "primary", "commitment", "a", "dedication", "to", "excellence", "in", "christian", "higher", "learning", "."]
-    oewn2026_key: [[10, "oewn-01011267-v"], [16, "oewn-02306786-v"]]
+    oewn_key: [[10, "oewn-01011267-v"], [16, "oewn-02306786-v"]]
     paragraph: '11'
     pos: ["``", "IN", "PRP$", "NN", "''", ",", "DT", "NNS", "POS", "NN", "VBD", "NNP", ",", "``", "NNP", "VBZ", "VBN", "IN", "PRP$", "JJ", "NN", "DT", "NN", "TO", "NN", "IN", "NNP", "JJR", "NN", "."]
     text: ' " From its beginning ", the trustees'' statement said Friday, " Emory_University
@@ -186,7 +186,7 @@ rJDi:
     wn30_key: [[10, "say%2:32:00::"], [16, "assume%2:40:01::"]]
 Wm+h:
     lemmas: ["teaching", ",", "research", "and", "study", ",", "accord", "to", "high", "standard", ",", "under", "christian", "influence", ",", "be", "paramount", "in", "the", "Emory_University", "policy", "."]
-    oewn2026_key: [[6, "oewn-02705946-v"], [15, "oewn-02610777-v"]]
+    oewn_key: [[6, "oewn-02705946-v"], [15, "oewn-02610777-v"]]
     paragraph: '11'
     pos: ["NN", ",", "NN", "CC", "NN", ",", "VBG", "TO", "JJS", "NNS", ",", "IN", "NNP", "NN", ",", "VBP", "JJ", "IN", "DT", "NNP", "NN", "."]
     text: ' Teaching, research and study, according to highest standards, under Christian influence,
@@ -198,7 +198,7 @@ Wm+h:
     wn30_key: [[6, "accord%2:42:00::"], [15, "be%2:42:03::"]]
 pDma:
     lemmas: ["\"", "As", "a", "private", "institution", ",", "support", "by", "generous", "individual", ",", "Emory_University", "will", "recognize", "no", "obligation", "and", "will", "adopt", "no", "policy", "that", "would", "conflict", "with", "its", "purpose", "to", "promote", "excellence", "in", "scholarship", "and", "christian", "education", "."]
-    oewn2026_key: [[6, "oewn-02223876-v"], [13, "oewn-00594278-v"], [18, "oewn-02351891-v"], [23, "oewn-02673287-v"], [28, "oewn-02560630-v"]]
+    oewn_key: [[6, "oewn-02223876-v"], [13, "oewn-00594278-v"], [18, "oewn-02351891-v"], [23, "oewn-02673287-v"], [28, "oewn-02560630-v"]]
     paragraph: '12'
     pos: ["``", "IN", "DT", "JJ", "NN", ",", "VBN", "IN", "JJ", "NNS", ",", "NNP", "MD", "VB", "DT", "NN", "CC", "MD", "VB", "DT", "NN", "WDT", "MD", "VB", "VB", "PRP$", "NN", "TO", "VB", "NN", "IN", "NN", "CC", "NNP", "NN", "."]
     text: ' " As a private institution, supported by generous individuals, Emory_University
@@ -211,7 +211,7 @@ pDma:
     wn30_key: [[6, "support%2:40:00::"], [13, "recognize%2:31:02::"], [18, "adopt%2:40:02::"], [23, "conflict%2:42:00::"], [28, "promote%2:41:01::"]]
 wV5x:
     lemmas: ["\"", "There", "be", "not", "now", ",", "nor", "have", "there", "ever", "be", "in", "Emory_University", "'s", "charter", "or", "by-law", "any", "requirement", "that", "student", "be", "admit", "or", "reject", "on", "the", "basis", "of", "race", ",", "color", "or", "creed", "."]
-    oewn2026_key: [[2, "oewn-02609706-v"], [10, "oewn-02609706-v"], [22, "oewn-02508185-v"], [24, "oewn-02242120-v"]]
+    oewn_key: [[2, "oewn-02609706-v"], [10, "oewn-02609706-v"], [22, "oewn-02508185-v"], [24, "oewn-02242120-v"]]
     paragraph: '13'
     pos: ["``", "EX", "VBZ", "RB", "RB", ",", "CC", "VBZ", "EX", "RB", "VBN", "IN", "NNP", "POS", "NN", "CC", "NNS", "DT", "NN", "IN", "NNS", "VBP", "VBN", "CC", "VBN", "IN", "DT", "NN", "IN", "NN", ",", "NN", "CC", "NN", "."]
     text: ' " There is not now, nor has there ever been in Emory_University''s charter or by-laws
@@ -222,7 +222,7 @@ wV5x:
     wn30_key: [[2, "be%2:42:00::"], [10, "be%2:42:00::"], [22, "admit%2:41:01::"], [24, "reject%2:40:00::"]]
 OisG:
     lemmas: ["insofar", "as", "its", "own", "governing", "document", "be", "concern", ",", "Emory_University", "could", "now", "consider", "application", "from", "prospective", "student", ",", "and_others", "seek", "application", "from", "prospective", "student", ",", "and_others", "seek", "the", "opportunity", "to", "study", "or", "work", "at", "the", "university", ",", "irrespective_of", "race", ",", "color", "or", "creed", "."]
-    oewn2026_key: [[7, "oewn-02681865-v"], [12, "oewn-02170904-v"], [19, "oewn-02245263-v"], [26, "oewn-02245263-v"], [30, "oewn-00608800-v"], [32, "oewn-02415985-v"]]
+    oewn_key: [[7, "oewn-02681865-v"], [12, "oewn-02170904-v"], [19, "oewn-02245263-v"], [26, "oewn-02245263-v"], [30, "oewn-00608800-v"], [32, "oewn-02415985-v"]]
     paragraph: '13'
     pos: ["RB", "IN", "PRP$", "JJ", "NN", "NNS", "VB", "VBN", ",", "NNP", "MD", "RB", "VB", "NNS", "IN", "JJ", "NNS", ",", "RB", "VBG", "NNS", "IN", "JJ", "NNS", ",", "RB", "VBG", "DT", "NN", "TO", "VB", "CC", "VB", "VB", "DT", "NN", ",", "RB", "NN", ",", "NN", "CC", "NN", "."]
     text: ' Insofar as its own governing documents are concerned, Emory_University could now
@@ -236,7 +236,7 @@ OisG:
     wn30_key: [[7, "concern%2:42:00::"], [12, "consider%2:39:00::"], [19, "seek%2:40:00::"], [26, "seek%2:40:00::"], [30, "study%2:31:03::"], [32, "work%2:41:00::"]]
 5oL/:
     lemmas: ["\"", "on_the_other_hand", ",", "Emory_University", "derive", "its", "corporate", "existence", "from", "the", "state", "of", "georgia", "."]
-    oewn2026_key: [[4, "oewn-02297086-v"]]
+    oewn_key: [[4, "oewn-02297086-v"]]
     paragraph: '14'
     pos: ["``", "RB", ",", "NNP", "VBZ", "PRP$", "JJ", "NN", "IN", "DT", "NNP", "IN", "NNP", "."]
     text: ' " On_the_other_hand, Emory_University derives its corporate existence from the State
@@ -248,7 +248,7 @@ OisG:
     wn30_key: [[4, "derive%2:40:00::"]]
 VA0d:
     lemmas: ["\"", "When", "and", "if", "it", "can", "do", "so", "without", "jeopardize", "constitutional", "and", "statutory", "tax-exemption", "privilege", "essential", "to", "the", "maintenance", "of", "its", "educational", "program", "and", "facility", ",", "Emory_University", "will", "consider", "application", "of", "person", "desire", "to", "study", "or", "work", "at", "the", "university", "without", "regard_to", "race", ",", "color", "or", "creed", ",", "continue", "university", "policy", "that", "all", "application", "shall", "be", "consider", "on", "the", "basis", "of", "intellectual", "and", "moral", "standard", "and", "other", "criterion", "design", "to", "assure", "the", "orderly", "and", "effective", "conduct", "of", "the", "university", "and", "the", "fulfillment", "of", "its", "mission", "as", "an", "institution", "of", "christian", "higher", "education", "\"", "."]
-    oewn2026_key: [[6, "oewn-02574587-v"], [9, "oewn-02550969-v"], [28, "oewn-02170904-v"], [32, "oewn-01830665-v"], [34, "oewn-00608800-v"], [36, "oewn-02415985-v"], [48, "oewn-02685709-v"], [56, "oewn-00952463-v"], [68, "oewn-01641910-v"], [70, "oewn-00892111-v"]]
+    oewn_key: [[6, "oewn-02574587-v"], [9, "oewn-02550969-v"], [28, "oewn-02170904-v"], [32, "oewn-01830665-v"], [34, "oewn-00608800-v"], [36, "oewn-02415985-v"], [48, "oewn-02685709-v"], [56, "oewn-00952463-v"], [68, "oewn-01641910-v"], [70, "oewn-00892111-v"]]
     paragraph: '15'
     pos: ["``", "WRB", "CC", "IN", "PRP", "MD", "VB", "RB", "IN", "VBG", "JJ", "CC", "JJ", "NN", "NNS", "JJ", "TO", "DT", "NN", "IN", "PRP$", "JJ", "NN", "CC", "NNS", ",", "NNP", "MD", "VB", "NNS", "IN", "NNS", "VBG", "TO", "VB", "CC", "VB", "VB", "DT", "NNP", "IN", "NN", "NN", ",", "NN", "CC", "NN", ",", "VBG", "NN", "NN", "IN", "DT", "NNS", "MD", "VB", "VBN", "IN", "DT", "NN", "IN", "JJ", "CC", "JJ", "NNS", "CC", "JJ", "NNS", "VBN", "TO", "VB", "DT", "JJ", "CC", "JJ", "NN", "IN", "DT", "NN", "CC", "DT", "NN", "IN", "PRP$", "NN", "IN", "DT", "NN", "IN", "NNP", "JJR", "NN", "''", "."]
     text: ' " When and if it can do so without jeopardizing constitutional and statutory tax-exemption
@@ -266,7 +266,7 @@ VA0d:
     wn30_key: [[6, "do%2:41:02::"], [9, "jeopardize%2:41:00::"], [28, "consider%2:39:00::"], [32, "desire%2:37:02::"], [34, "study%2:31:03::"], [36, "work%2:41:00::"], [48, "continue%2:42:00::"], [56, "consider%2:32:00::"], [68, "design%2:36:02::"], [70, "assure%2:32:03::"]]
 FQJq:
     lemmas: ["A", "young_man", "be", "kill", "and", "two", "other", "injure", "at", "midnight", "friday", "when", "the", "car", "they", "be", "ride", "slide", "into", "a", "utility", "pole", "on", "lake_avenue", "near", "Waddell_Street", ",", "ne", ",", "police", "say", "."]
-    oewn2026_key: [[3, "oewn-01326622-v"], [7, "oewn-00069650-v"], [16, "oewn-01959843-v"], [17, "oewn-01874268-v"], [30, "oewn-01011267-v"]]
+    oewn_key: [[3, "oewn-01326622-v"], [7, "oewn-00069650-v"], [16, "oewn-01959843-v"], [17, "oewn-01874268-v"], [30, "oewn-01011267-v"]]
     paragraph: '16'
     pos: ["DT", "NN", "VBD", "VBN", "CC", "CD", "NNS", "VBN", "IN", "NN", "NNP", "WRB", "DT", "NN", "PRP", "VBD", "VBG", "VBD", "IN", "DT", "NN", "NN", "IN", "NNP", "IN", "NNP", ",", "NNP", ",", "NN", "VBD", "."]
     text: ' A young_man was killed and two others injured at midnight Friday when the car they
@@ -279,7 +279,7 @@ FQJq:
     wn30_key: [[3, "kill%2:35:00::"], [7, "injure%2:29:00::"], [16, "ride%2:38:00::"], [17, "slide%2:38:01::"], [30, "say%2:32:00::"]]
 IZ2+:
     lemmas: ["The", "dead", "youth", "be", "identify", "as", "robert_e._sim", ",", "19", ",", "of", "1688", "oak_knoll_cir.", ",", "se", "."]
-    oewn2026_key: [[4, "oewn-00620568-v"]]
+    oewn_key: [[4, "oewn-00620568-v"]]
     paragraph: '17'
     pos: ["DT", "JJ", "NN", "VBD", "VBN", "IN", "NNP", ",", "CD", ",", "IN", "CD", "NNP", ",", "NNP", "."]
     text: ' The dead youth was identified as Robert_E._Sims, 19, of 1688 Oak_Knoll_Cir., SE.
@@ -290,7 +290,7 @@ IZ2+:
     wn30_key: [[4, "identify%2:31:00::"]]
 VAFn:
     lemmas: ["patrolman_g._e._hammon", "say", "the", "car", "evidently", "slide", "out_of_control", "on", "rain-slick", "street", "and", "slam", "into", "the", "pole", "."]
-    oewn2026_key: [[1, "oewn-01011267-v"], [5, "oewn-01874268-v"], [11, "oewn-01244955-v"]]
+    oewn_key: [[1, "oewn-01011267-v"], [5, "oewn-01874268-v"], [11, "oewn-01244955-v"]]
     paragraph: '18'
     pos: ["NNP", "VBD", "DT", "NN", "RB", "VBD", "RB", "IN", "JJ", "NNS", "CC", "VBD", "IN", "DT", "NN", "."]
     text: ' Patrolman_G._E._Hammons said the car evidently slid out_of_control on rain-slick
@@ -302,7 +302,7 @@ VAFn:
     wn30_key: [[1, "say%2:32:00::"], [5, "slide%2:38:01::"], [11, "slam%2:35:00::"]]
 D/Oq:
     lemmas: ["The", "other", "occupant", "be", "james_willard_olvey", ",", "18", ",", "of", "963", "ponce", "de", "leon_ave.", ",", "ne", ",", "and", "Larry_Coleman_Barnett", ",", "19", ",", "of", "704", "hill_st.", ",", "se", ",", "both", "of", "whom", "be", "treat", "at", "Grady_Hospital", "for", "severe", "laceration", "and", "bruise", "."]
-    oewn2026_key: [[3, "oewn-02670846-v"], [31, "oewn-00078513-v"]]
+    oewn_key: [[3, "oewn-02670846-v"], [31, "oewn-00078513-v"]]
     paragraph: '19'
     pos: ["DT", "JJ", "NNS", "VBD", "NNP", ",", "CD", ",", "IN", "CD", "NNP", "FW", "NNP", ",", "NNP", ",", "CC", "NNP", ",", "CD", ",", "IN", "CD", "NNP", ",", "NNP", ",", "DT", "IN", "WP", "VBD", "VBN", "IN", "NNP", "IN", "JJ", "NNS", "CC", "NNS", "."]
     text: ' The other occupants were James_Willard_Olvey, 18, of 963 Ponce de Leon_Ave., NE,
@@ -315,7 +315,7 @@ D/Oq:
     wn30_key: [[3, "be%2:42:07::"], [31, "treat%2:29:00::"]]
 jJdK:
     lemmas: ["The", "atlanta_negro", "student", "movement", "renew", "its", "demand", "for", "movie_theater", "integration", "friday", "and", "threaten", "picketing", "and", "\"", "stand-in", "\"", "if", "negotiation", "fail", "."]
-    oewn2026_key: [[4, "oewn-01634614-v"], [12, "oewn-00873067-v"], [20, "oewn-02534046-v"]]
+    oewn_key: [[4, "oewn-01634614-v"], [12, "oewn-00873067-v"], [20, "oewn-02534046-v"]]
     paragraph: '20'
     pos: ["DT", "NNP", "NN", "NN", "VBD", "PRP$", "NNS", "IN", "NN", "NN", "NNP", "CC", "VB", "NN", "CC", "``", "NNS", "''", "IN", "NNS", "VBD", "."]
     text: ' The Atlanta_Negro student movement renewed its demands for movie_theater integration
@@ -327,7 +327,7 @@ jJdK:
     wn30_key: [[4, "renew%2:36:00::"], [12, "threaten%2:32:00::"], [20, "fail%2:41:00::"]]
 QP+y:
     lemmas: ["The", "demand", "be", "set_forth", "in", "letters", "to", "seven", "owner", "of", "first-run", "theater", "by", "the", "committee", "on", "appeal", "for", "human_right", "."]
-    oewn2026_key: [[3, "oewn-01003339-v"]]
+    oewn_key: [[3, "oewn-01003339-v"]]
     paragraph: '21'
     pos: ["DT", "NNS", "VBD", "VB", "IN", "NNS", "TO", "CD", "NNS", "IN", "JJ", "NNS", "IN", "DT", "NNP", "IN", "NNP", "IN", "NN", "."]
     text: ' The demands were set_forth in letters to seven owners of first-run theaters by the
@@ -339,7 +339,7 @@ QP+y:
     wn30_key: [[3, "set_forth%2:32:00::"]]
 oe45:
     lemmas: ["\"", "We", "intend", "to", "attend", "the", "downtown", "theater", "before", "the", "first", "of", "the", "year", "\"", ",", "the", "identically", "word", "letters", "say", "."]
-    oewn2026_key: [[2, "oewn-00710367-v"], [4, "oewn-02618797-v"], [18, "oewn-00982485-v"], [20, "oewn-02736688-v"]]
+    oewn_key: [[2, "oewn-00710367-v"], [4, "oewn-02618797-v"], [18, "oewn-00982485-v"], [20, "oewn-02736688-v"]]
     paragraph: '22'
     pos: ["``", "PRP", "VBP", "TO", "VB", "DT", "NN", "NNS", "IN", "DT", "NN", "IN", "DT", "NN", "''", ",", "DT", "RB", "VBN", "NNS", "VBD", "."]
     text: ' " We intend to attend the downtown theaters before the first of the year ", the
@@ -351,7 +351,7 @@ oe45:
     wn30_key: [[2, "intend%2:31:00::"], [4, "attend%2:42:00::"], [18, "word%2:32:00::"], [20, "say%2:42:00::"]]
 +zgx:
     lemmas: ["The", "letters", "set", "a", "Nov.", "15", "deadline", "for", "the", "start", "of", "negotiation", "."]
-    oewn2026_key: [[2, "oewn-00949109-v"]]
+    oewn_key: [[2, "oewn-00949109-v"]]
     paragraph: '23'
     pos: ["DT", "NNS", "VBD", "DT", "NNP", "CD", "NN", "IN", "DT", "NN", "IN", "NNS", "."]
     text: ' The letters set a Nov. 15 deadline for the start of negotiations.'
@@ -360,7 +360,7 @@ oe45:
     wn30_key: [[2, "set%2:32:00::"]]
 skT1:
     lemmas: ["They", "indicate", "that", "stand-in", "and", "picketing", "would", "be", "start", "if", "theater", "owner", "fail", "to", "cooperate", "."]
-    oewn2026_key: [[1, "oewn-00929986-v"], [8, "oewn-00346415-v"], [12, "oewn-02534950-v"], [14, "oewn-02421408-v"]]
+    oewn_key: [[1, "oewn-00929986-v"], [8, "oewn-00346415-v"], [12, "oewn-02534950-v"], [14, "oewn-02421408-v"]]
     paragraph: '23'
     pos: ["PRP", "VBD", "IN", "NNS", "CC", "NN", "MD", "VB", "VBN", "IN", "NN", "NNS", "VBD", "TO", "VB", "."]
     text: ' They indicated that stand-ins and picketing would be started if theater owners failed
@@ -372,7 +372,7 @@ skT1:
     wn30_key: [[1, "indicate%2:32:00::"], [8, "start%2:30:00::"], [12, "fail%2:41:02::"], [14, "cooperate%2:41:00::"]]
 4UC5:
     lemmas: ["downtown", "and", "art", "theater", "manager", "and", "owner", ",", "contact", "friday", "night", "for", "comment", "on", "the", "COAHR", "request", ",", "say", "they", "have", "no", "knowledge", "of", "such", "a", "letter", ",", "and", "that", "it", "be", "not", "in", "the", "friday", "mail", "."]
-    oewn2026_key: [[8, "oewn-00745330-v"], [18, "oewn-01018011-v"], [20, "oewn-02208144-v"], [31, "oewn-02609706-v"]]
+    oewn_key: [[8, "oewn-00745330-v"], [18, "oewn-01018011-v"], [20, "oewn-02208144-v"], [31, "oewn-02609706-v"]]
     paragraph: '24'
     pos: ["NN", "CC", "NN", "NN", "NNS", "CC", "NNS", ",", "VBN", "NNP", "NN", "IN", "NN", "IN", "DT", "NNP", "NN", ",", "VBD", "PRP", "VBD", "DT", "NN", "IN", "JJ", "DT", "NN", ",", "CC", "IN", "PRP", "VBD", "RB", "IN", "DT", "NNP", "NN", "."]
     text: ' Downtown and art theater managers and owners, contacted Friday night for comment
@@ -383,7 +383,7 @@ skT1:
     wn30_key: [[8, "contact%2:32:00::"], [18, "say%2:32:01::"], [20, "have%2:40:00::"], [31, "be%2:42:00::"]]
 SZO0:
     lemmas: ["however", ",", "three", "of", "the", "manager", "do", "say", "that", "they", "would", "agree", "to", "attend", "the", "proposed", "meeting", "if", "all_of", "the", "other", "manager", "decide", "to", "attend", "."]
-    oewn2026_key: [[7, "oewn-01011267-v"], [11, "oewn-00766267-v"], [13, "oewn-02618797-v"], [22, "oewn-00699355-v"], [24, "oewn-02618797-v"]]
+    oewn_key: [[7, "oewn-01011267-v"], [11, "oewn-00766267-v"], [13, "oewn-02618797-v"], [22, "oewn-00699355-v"], [24, "oewn-02618797-v"]]
     paragraph: '24'
     pos: ["RB", ",", "CD", "IN", "DT", "NNS", "VBD", "VB", "IN", "PRP", "MD", "VB", "TO", "VB", "DT", "JJ", "NN", "IN", "JJ", "DT", "JJ", "NNS", "VBD", "TO", "VB", "."]
     text: ' However, three of the managers did say that they would agree to attend the proposed
@@ -395,7 +395,7 @@ SZO0:
     wn30_key: [[7, "say%2:32:00::"], [11, "agree%2:32:01::"], [13, "attend%2:42:00::"], [22, "decide%2:31:00::"], [24, "attend%2:42:00::"]]
 C3tb:
     lemmas: ["The", "COAHR", "letter", "come", "on", "the", "eve", "of", "a", "large", "gathering", "of", "theater", "manager", "and", "owner", "schedule", "to", "begin", "here", "sunday", "."]
-    oewn2026_key: [[3, "oewn-02749440-v"], [16, "oewn-00680201-v"], [18, "oewn-02614382-v"]]
+    oewn_key: [[3, "oewn-02749440-v"], [16, "oewn-00680201-v"], [18, "oewn-02614382-v"]]
     paragraph: '25'
     pos: ["DT", "NNP", "NN", "VBZ", "VB", "DT", "NN", "IN", "DT", "JJ", "NN", "IN", "NN", "NNS", "CC", "NNS", "VBN", "TO", "VB", "RB", "NNP", "."]
     text: ' The COAHR letter comes on the eve of a large gathering of theater managers and owners
@@ -405,7 +405,7 @@ C3tb:
     wn30_key: [[3, "come%2:42:05::"], [16, "schedule%2:31:00::"], [18, "begin%2:42:00::"]]
 +ZYK:
     lemmas: ["several", "theater", "operator", "say", ",", "however", ",", "that", "there", "be", "little", "likelihood", "of", "the", "subject", "be", "discuss", "during", "the", "three-day", "affair", "."]
-    oewn2026_key: [[3, "oewn-01011267-v"], [9, "oewn-02609706-v"], [16, "oewn-01036184-v"]]
+    oewn_key: [[3, "oewn-01011267-v"], [9, "oewn-02609706-v"], [16, "oewn-01036184-v"]]
     paragraph: '25'
     pos: ["JJ", "NN", "NNS", "VBD", ",", "RB", ",", "IN", "EX", "VBZ", "JJ", "NN", "IN", "DT", "NN", "VBG", "VBN", "IN", "DT", "JJ", "NN", "."]
     text: ' Several theater operators said, however, that there is little likelihood of the
@@ -417,7 +417,7 @@ C3tb:
     wn30_key: [[3, "say%2:32:00::"], [9, "be%2:42:00::"], [16, "discuss%2:32:01::"]]
 GoEu:
     lemmas: ["student", "leaders", "begin", "sporadic", "effort", "to", "negotiate", "theater", "integration", "several", "month", "ago", "."]
-    oewn2026_key: [[2, "oewn-02614382-v"], [6, "oewn-00763758-v"]]
+    oewn_key: [[2, "oewn-02614382-v"], [6, "oewn-00763758-v"]]
     paragraph: '26'
     pos: ["NN", "NNS", "VBD", "JJ", "NNS", "TO", "VB", "NN", "NN", "JJ", "NNS", "RB", "."]
     text: ' Student leaders began sporadic efforts to negotiate theater integration several
@@ -427,7 +427,7 @@ GoEu:
     wn30_key: [[2, "begin%2:42:00::"], [6, "negotiate%2:32:00::"]]
 F2Ri:
     lemmas: ["charles_a._black", ",", "COAHR", "chairman", ",", "say", "friday", "that", "three", "theater", "representative", "have", "agree", "to", "meet", "with", "the", "student", "on", "Oct.", "31", "but", "have", "fail", "to", "show_up", "."]
-    oewn2026_key: [[5, "oewn-01011267-v"], [12, "oewn-00766267-v"], [14, "oewn-02492581-v"], [23, "oewn-02534950-v"], [25, "oewn-00424655-v"]]
+    oewn_key: [[5, "oewn-01011267-v"], [12, "oewn-00766267-v"], [14, "oewn-02492581-v"], [23, "oewn-02534950-v"], [25, "oewn-00424655-v"]]
     paragraph: '26'
     pos: ["NNP", ",", "NNP", "NN", ",", "VBD", "NNP", "IN", "CD", "NN", "NNS", "VBD", "VBN", "TO", "VB", "VB", "DT", "NNS", "IN", "NNP", "CD", "CC", "VBD", "VBN", "TO", "VB", "."]
     text: ' Charles_A._Black, COAHR chairman, said Friday that three theater representatives
@@ -437,7 +437,7 @@ F2Ri:
     wn30_key: [[5, "say%2:32:00::"], [12, "agree%2:32:01::"], [14, "meet%2:41:01::"], [23, "fail%2:41:02::"], [25, "show_up%2:30:00::"]]
 snUd:
     lemmas: ["He", "decline", "to", "name", "the", "three", "."]
-    oewn2026_key: [[1, "oewn-00799092-v"], [3, "oewn-01028104-v"]]
+    oewn_key: [[1, "oewn-00799092-v"], [3, "oewn-01028104-v"]]
     paragraph: '26'
     pos: ["PRP", "VBD", "TO", "VB", "DT", "CD", "."]
     text: ' He declined to name the three.
@@ -448,7 +448,7 @@ snUd:
     wn30_key: [[1, "decline%2:32:00::"], [3, "name%2:32:02::"]]
 DFyx:
     lemmas: ["friday", "'s", "letters", "ask", "for", "a", "Nov.", "15", "meeting", "."]
-    oewn2026_key: [[3, "oewn-00754499-v"]]
+    oewn_key: [[3, "oewn-00754499-v"]]
     paragraph: '27'
     pos: ["NNP", "POS", "NNS", "VBD", "VB", "DT", "NNP", "CD", "NN", "."]
     text: ' Friday''s letters asked for a Nov. 15 meeting.'
@@ -457,7 +457,7 @@ DFyx:
     wn30_key: [[3, "ask%2:32:01::"]]
 Qbf/:
     lemmas: ["failure", "to", "attend", "the", "meeting", "or", "explain", "inability", "to", "attend", ",", "the", "letters", "say", ",", "would", "be", "consider", "a", "\"", "sign", "of", "indifference", "\"", "."]
-    oewn2026_key: [[2, "oewn-02618797-v"], [6, "oewn-00941308-v"], [9, "oewn-02618797-v"], [13, "oewn-01011267-v"], [17, "oewn-00692380-v"]]
+    oewn_key: [[2, "oewn-02618797-v"], [6, "oewn-00941308-v"], [9, "oewn-02618797-v"], [13, "oewn-01011267-v"], [17, "oewn-00692380-v"]]
     paragraph: '27'
     pos: ["NN", "TO", "VB", "DT", "NN", "CC", "VB", "NN", "TO", "VB", ",", "DT", "NNS", "VBD", ",", "MD", "VB", "VBN", "DT", "``", "NN", "IN", "NN", "''", "."]
     text: ' Failure to attend the meeting or explain inability to attend, the letters said,
@@ -469,7 +469,7 @@ Qbf/:
     wn30_key: [[2, "attend%2:42:00::"], [6, "explain%2:32:00::"], [9, "attend%2:42:00::"], [13, "say%2:32:00::"], [17, "consider%2:31:00::"]]
 qtpU:
     lemmas: ["black", "say", "COAHR", "\"", "hope", "to", "be", "able", "to", "integrate", "the", "theater", "without", "take", "direct_action", ",", "but", "we", "be", "pledge", "to", "use", "every", "legal", "and", "nonviolent", "means", "at", "our", "disposal", "\"", "."]
-    oewn2026_key: [[1, "oewn-01011267-v"], [4, "oewn-01815408-v"], [6, "oewn-02610777-v"], [9, "oewn-02487489-v"], [13, "oewn-02605633-v"], [19, "oewn-00886061-v"], [21, "oewn-01161188-v"]]
+    oewn_key: [[1, "oewn-01011267-v"], [4, "oewn-01815408-v"], [6, "oewn-02610777-v"], [9, "oewn-02487489-v"], [13, "oewn-02605633-v"], [19, "oewn-00886061-v"], [21, "oewn-01161188-v"]]
     paragraph: '28'
     pos: ["NNP", "VBD", "NNP", "``", "VBD", "TO", "VB", "JJ", "VB", "VB", "DT", "NNS", "IN", "VBG", "NN", ",", "CC", "PRP", "VBP", "VBN", "TO", "VBG", "DT", "JJ", "CC", "JJ", "NN", "IN", "PRP$", "NN", "''", "."]
     text: ' Black said COAHR " hoped to be able to integrate the theaters without taking direct_action,
@@ -481,7 +481,7 @@ qtpU:
     wn30_key: [[1, "say%2:32:00::"], [4, "hope%2:37:00::"], [6, "be%2:42:03::"], [9, "integrate%2:41:00::"], [13, "take%2:41:04::"], [19, "pledge%2:32:00::"], [21, "use%2:34:01::"]]
 7/6l:
     lemmas: ["A", "prepared", "statement", "release", "by", "the", "student", "group", "friday", "state", "that", "\"", "extensive", "research", "by", "COAHR", "into", "technique", "and", "method", "of", "theater", "integration", "in", "other", "city", "indicate", "that", "the", "presence", "of", "picket_line", "and", "stand-in", "before", "segregated", "theater", "cause", "a", "drop", "in", "profits", "\"", "."]
-    oewn2026_key: [[3, "oewn-00969657-v"], [9, "oewn-01011267-v"], [26, "oewn-00929986-v"], [37, "oewn-01649143-v"]]
+    oewn_key: [[3, "oewn-00969657-v"], [9, "oewn-01011267-v"], [26, "oewn-00929986-v"], [37, "oewn-01649143-v"]]
     paragraph: '29'
     pos: ["DT", "JJ", "NN", "VBN", "IN", "DT", "NN", "NN", "NNP", "VBD", "IN", "``", "JJ", "NN", "IN", "NNP", "IN", "NNS", "CC", "NNS", "IN", "NN", "NN", "IN", "JJ", "NNS", "VBD", "IN", "DT", "NN", "IN", "NN", "CC", "NNS", "IN", "JJ", "NNS", "VBZ", "DT", "NN", "VB", "NNS", "''", "."]
     text: ' A prepared statement released by the student group Friday stated that " extensive
@@ -495,7 +495,7 @@ qtpU:
     wn30_key: [[3, "release%2:32:00::"], [9, "state%2:32:00::"], [26, "indicate%2:32:00::"], [37, "cause%2:36:00::"]]
 VLR3:
     lemmas: ["Besides", "manager", "of", "downtown", "theater", ",", "the", "student", "send", "letters", "to", "owner", "of", "art", "theater", "in", "the", "uptown", "area", "and", "Buckhead", "."]
-    oewn2026_key: [[8, "oewn-01033289-v"]]
+    oewn_key: [[8, "oewn-01033289-v"]]
     paragraph: '30'
     pos: ["IN", "NNS", "IN", "NN", "NNS", ",", "DT", "NNS", "VBD", "NNS", "TO", "NNS", "IN", "NN", "NNS", "IN", "DT", "NN", "NN", "CC", "NNP", "."]
     text: ' Besides managers of downtown theaters, the students sent letters to owners of art
@@ -507,7 +507,7 @@ VLR3:
     wn30_key: [[8, "send%2:32:00::"]]
 z2rS:
     lemmas: ["Raymond_E._Killingsworth", ",", "72", ",", "die", "sunday", "at", "his", "home", "at", "357", "Venable_St.", ",", "nw", "."]
-    oewn2026_key: [[4, "oewn-00359085-v"]]
+    oewn_key: [[4, "oewn-00359085-v"]]
     paragraph: '31'
     pos: ["NNP", ",", "CD", ",", "VBD", "NNP", "IN", "PRP$", "NN", "IN", "CD", "NNP", ",", "NNP", "."]
     text: ' Raymond_E._Killingsworth, 72, died Sunday at his home at 357 Venable_St., NW.
@@ -518,7 +518,7 @@ z2rS:
     wn30_key: [[4, "die%2:30:00::"]]
 UPf/:
     lemmas: ["mr._kililngsworth", "be", "a", "foreman", "with", "s", "and", "w_cafeteria", "."]
-    oewn2026_key: [[1, "oewn-02661230-v"]]
+    oewn_key: [[1, "oewn-02661230-v"]]
     paragraph: '32'
     pos: ["NNP", "VBD", "DT", "NN", "IN", "NNP", "CC", "NNP", "."]
     text: ' Mr._Kililngsworth was a foreman with S and W_Cafeteria.'
@@ -527,7 +527,7 @@ UPf/:
     wn30_key: [[1, "be%2:42:05::"]]
 irS7:
     lemmas: ["He", "be_born", "in", "Pittsboro", ",", "Miss.", ",", "and", "be", "a", "veteran", "of", "world_war", "1", ",", "."]
-    oewn2026_key: [[1, "oewn-00361585-v"], [8, "oewn-02661230-v"]]
+    oewn_key: [[1, "oewn-00361585-v"], [8, "oewn-02661230-v"]]
     paragraph: '32'
     pos: ["PRP", "VB", "IN", "NNP", ",", "NNP", ",", "CC", "VBD", "DT", "NN", "IN", "NN", "CD", ",", "."]
     text: ' He was_born in Pittsboro, Miss., and was a veteran of World_War 1,.'
@@ -536,7 +536,7 @@ irS7:
     wn30_key: [[1, "be_born%2:30:00::"], [8, "be%2:42:05::"]]
 dw42:
     lemmas: ["He", "be", "a", "member", "of", "the", "baptist", "church", "."]
-    oewn2026_key: [[1, "oewn-02661230-v"]]
+    oewn_key: [[1, "oewn-02661230-v"]]
     paragraph: '32'
     pos: ["PRP", "VBD", "DT", "NN", "IN", "DT", "NNP", "NN", "."]
     text: ' He was a member of the Baptist church.
@@ -547,7 +547,7 @@ dw42:
     wn30_key: [[1, "be%2:42:05::"]]
 1vhl:
     lemmas: ["survivor", "include", "two", "brother", ",", "C._E._Killingsworth", ",", "atlanta", ",", "and", "john_killingsworth", ",", "warren", ",", "ohio", ";", "and", "two", "sister", ",", "miss_minnie_kililngsworth", "and", "mrs._bessie_bloom", ",", "both", "of", "gettysburg", ",", "Pa.", "."]
-    oewn2026_key: [[1, "oewn-02639021-v"]]
+    oewn_key: [[1, "oewn-02639021-v"]]
     paragraph: '33'
     pos: ["NNS", "VBP", "CD", "NNS", ",", "NNP", ",", "NNP", ",", "CC", "NNP", ",", "NNP", ",", "NNP", ":", "CC", "CD", "NNS", ",", "NNP", "CC", "NNP", ",", "DT", "IN", "NNP", ",", "NNP", "."]
     text: ' Survivors include two brothers, C._E._Killingsworth, Atlanta, and John_Killingsworth,
@@ -560,7 +560,7 @@ dw42:
     wn30_key: [[1, "include%2:42:00::"]]
 dn5e:
     lemmas: ["john_william_ball", ",", "68", ",", "of", "133", "Marietta_St._NW", ",", "apartment", "101", "b", ",", "die", "sunday", "at", "his", "home", "."]
-    oewn2026_key: [[12, "oewn-00359085-v"]]
+    oewn_key: [[12, "oewn-00359085-v"]]
     paragraph: '34'
     pos: ["NNP", ",", "CD", ",", "IN", "CD", "NNP", ",", "NN", "CD", "NNP", ",", "VBD", "NNP", "IN", "PRP$", "NN", "."]
     text: ' John_William_Ball, 68, of 133 Marietta_St._NW, Apartment 101 B, died Sunday at his
@@ -572,7 +572,7 @@ dn5e:
     wn30_key: [[12, "die%2:30:00::"]]
 rn8g:
     lemmas: ["mr._ball", "be", "a", "house_painter", "."]
-    oewn2026_key: [[1, "oewn-02661230-v"]]
+    oewn_key: [[1, "oewn-02661230-v"]]
     paragraph: '35'
     pos: ["NNP", "VBD", "DT", "NN", "."]
     text: ' Mr._Ball was a house_painter.'
@@ -581,7 +581,7 @@ rn8g:
     wn30_key: [[1, "be%2:42:05::"]]
 Y2UQ:
     lemmas: ["He", "be", "a", "member", "of", "the", "oakland_city", "methodist_church", "and", "a", "native", "of", "atlanta", "."]
-    oewn2026_key: [[1, "oewn-02661230-v"]]
+    oewn_key: [[1, "oewn-02661230-v"]]
     paragraph: '35'
     pos: ["PRP", "VBD", "DT", "NN", "IN", "DT", "NNP", "NN", "CC", "DT", "NN", "IN", "NNP", "."]
     text: ' He was a member of the Oakland_City Methodist_Church and a native of Atlanta.
@@ -592,7 +592,7 @@ Y2UQ:
     wn30_key: [[1, "be%2:42:05::"]]
 toIN:
     lemmas: ["funeral", "services", "will", "be", "at", "2", "p.", "m._Tuesday", "at", "Blanchard", "'s", "chapel", "with", "the", "Rev._J._H._Hearn", "officiate", "."]
-    oewn2026_key: [[3, "oewn-02609706-v"], [15, "oewn-02387229-v"]]
+    oewn_key: [[3, "oewn-02609706-v"], [15, "oewn-02387229-v"]]
     paragraph: '36'
     pos: ["NN", "NNS", "MD", "VB", "IN", "CD", "NN", "NNP", "IN", "NNP", "POS", "NNP", "IN", "DT", "NNP", "VB", "."]
     text: ' Funeral services will be at 2 p. m._Tuesday at Blanchard''s Chapel with the Rev._J._H._Hearn
@@ -604,7 +604,7 @@ toIN:
     wn30_key: [[3, "be%2:42:00::"], [15, "officiate%2:41:01::"]]
 wDxl:
     lemmas: ["survivor", "include", "his", "sister", ",", "mrs._emma_b._odom", "of", "atlanta", "."]
-    oewn2026_key: [[1, "oewn-02639021-v"]]
+    oewn_key: [[1, "oewn-02639021-v"]]
     paragraph: '37'
     pos: ["NNS", "VBP", "PRP$", "NN", ",", "NNP", "IN", "NNP", "."]
     text: ' Survivors include his sister, Mrs._Emma_B._Odom of Atlanta.
@@ -615,7 +615,7 @@ wDxl:
     wn30_key: [[1, "include%2:42:00::"]]
 GuD2:
     lemmas: ["mrs._lola_m._harris", ",", "a", "native", "of", "atlanta", ",", "die", "sunday", "at", "her", "home", "in", "garland", ",", "Tex.", "."]
-    oewn2026_key: [[7, "oewn-00359085-v"]]
+    oewn_key: [[7, "oewn-00359085-v"]]
     paragraph: '38'
     pos: ["NNP", ",", "DT", "NN", "IN", "NNP", ",", "VBD", "NNP", "IN", "PRP$", "NN", "IN", "NNP", ",", "NNP", "."]
     text: ' Mrs._Lola_M._Harris, a native of Atlanta, died Sunday at her home in Garland, Tex.
@@ -627,7 +627,7 @@ GuD2:
     wn30_key: [[7, "die%2:30:00::"]]
 F0xC:
     lemmas: ["survivor", "include", "a", "son", ",", "charles_r._fergeson", ",", "memphis", ",", "Tenn.", ";", "two", "daughter", ",", "mrs._gene_f._stoll", "and", "miss_nancy_harris", ",", "both", "of", "garland", ";", "her", "father", ",", "H._T._Simpson", ",", "greenville", ",", "S._C.", ",", "and", "three", "sister", ",", "mrs._w._e._little", "and", "mrs._hal_b._wansley", ",", "both", "of", "atlanta", ",", "and", "mrs._bill_wallace", ",", "wilmington", ",", "N._C.", "."]
-    oewn2026_key: [[1, "oewn-02639021-v"]]
+    oewn_key: [[1, "oewn-02639021-v"]]
     paragraph: '39'
     pos: ["NNS", "VBP", "DT", "NN", ",", "NNP", ",", "NNP", ",", "NNP", ":", "CD", "NNS", ",", "NNP", "CC", "NNP", ",", "DT", "IN", "NNP", ":", "PRP$", "NN", ",", "NNP", ",", "NNP", ",", "NNP", ",", "CC", "CD", "NNS", ",", "NNP", "CC", "NNP", ",", "DT", "IN", "NNP", ",", "CC", "NNP", ",", "NNP", ",", "NNP", "."]
     text: ' Survivors include a son, Charles_R._Fergeson, Memphis, Tenn.; two daughters, Mrs._Gene_F._Stoll
@@ -641,7 +641,7 @@ F0xC:
     wn30_key: [[1, "include%2:42:00::"]]
 nfKR:
     lemmas: ["A", "24", "-", "year-old", "atlanta", "man", "be", "arrest", "sunday", "after", "break", "into", "the", "home", "of", "relative", "in", "search", "of", "his", "wife", ",", "hit", "his", "uncle", "with", "a", "rock", "and", "assault", "two", "police_officer", "who", "try", "to", "subdue", "him", ",", "police", "say", "."]
-    oewn2026_key: [[7, "oewn-01217701-v"], [10, "oewn-02576599-v"], [22, "oewn-01402698-v"], [29, "oewn-01122487-v"], [33, "oewn-02535833-v"], [35, "oewn-00463047-v"], [39, "oewn-01011267-v"]]
+    oewn_key: [[7, "oewn-01217701-v"], [10, "oewn-02576599-v"], [22, "oewn-01402698-v"], [29, "oewn-01122487-v"], [33, "oewn-02535833-v"], [35, "oewn-00463047-v"], [39, "oewn-01011267-v"]]
     paragraph: '40'
     pos: ["DT", "CD", ":", "JJ", "NNP", "NN", "VBD", "VBN", "NNP", "IN", "VBG", "VB", "DT", "NN", "IN", "NNS", "IN", "NN", "IN", "PRP$", "NN", ",", "VBG", "PRP$", "NN", "IN", "DT", "NN", "CC", "VBG", "CD", "NN", "WP", "VBD", "TO", "VB", "PRP", ",", "NN", "VBD", "."]
     text: ' A 24 - year-old Atlanta man was arrested Sunday after breaking into the home of
@@ -654,7 +654,7 @@ nfKR:
     wn30_key: [[7, "arrest%2:35:00::"], [10, "break%2:41:11::"], [22, "hit%2:35:00::"], [29, "assault%2:33:00::"], [33, "try%2:41:00::"], [35, "subdue%2:30:01::"], [39, "say%2:32:00::"]]
 fs+o:
     lemmas: ["patrolman_j._w._slate", "and", "A._L._Crawford_Jr.", "say", "they", "arrest", "Ronald_M._Thomas", ",", "of", "1671", "Nakoma_St.", ",", "nw", ",", "after", "he", "assault", "the", "officer", "."]
-    oewn2026_key: [[3, "oewn-01011267-v"], [5, "oewn-01217701-v"], [16, "oewn-01122487-v"]]
+    oewn_key: [[3, "oewn-01011267-v"], [5, "oewn-01217701-v"], [16, "oewn-01122487-v"]]
     paragraph: '41'
     pos: ["NNP", "CC", "NNP", "VBD", "PRP", "VBD", "NNP", ",", "IN", "CD", "NNP", ",", "NNP", ",", "IN", "PRP", "VBD", "DT", "NNS", "."]
     text: ' Patrolmen_J._W._Slate and A._L._Crawford_Jr. said they arrested Ronald_M._Thomas,
@@ -666,7 +666,7 @@ fs+o:
     wn30_key: [[3, "say%2:32:00::"], [5, "arrest%2:35:00::"], [16, "assault%2:33:00::"]]
 gVkW:
     lemmas: ["The", "officer", "give", "this", "account", ":"]
-    oewn2026_key: [[2, "oewn-02344167-v"]]
+    oewn_key: [[2, "oewn-02344167-v"]]
     paragraph: '42'
     pos: ["DT", "NNS", "VBD", "DT", "NN", ":"]
     text: ' The officers gave this account:
@@ -677,7 +677,7 @@ gVkW:
     wn30_key: [[2, "give%2:40:05::"]]
 6lev:
     lemmas: ["thomas", "early", "sunday", "go_to", "the", "home", "of", "his", "uncle", "and", "aunt", ",", "mr.", "and", "mrs._r._c._thomas", ",", "511", "Blanche_St.", ",", "nw", ",", "look_for", "his", "wife", ",", "Margaret_Lou_Thomas", ",", "18", ",", "and", "their", "11", "-", "month-old", "baby", "."]
-    oewn2026_key: [[3, "oewn-02618797-v"], [21, "oewn-01318273-v"]]
+    oewn_key: [[3, "oewn-02618797-v"], [21, "oewn-01318273-v"]]
     paragraph: '43'
     pos: ["NNP", "JJ", "NNP", "VB", "DT", "NN", "IN", "PRP$", "NN", "CC", "NN", ",", "NNP", "CC", "NNP", ",", "CD", "NNP", ",", "NNP", ",", "VB", "PRP$", "NN", ",", "NNP", ",", "CD", ",", "CC", "PRP$", "CD", ":", "JJ", "NN", "."]
     text: ' Thomas early Sunday went_to the home of his uncle and aunt, Mr. and Mrs._R._C._Thomas,
@@ -690,7 +690,7 @@ gVkW:
     wn30_key: [[3, "go_to%2:42:00::"], [21, "look_for%2:35:00::"]]
 1oa5:
     lemmas: ["The", "young", "thomas", "rip", "a", "screen_door", ",", "break", "the", "latch", ",", "and", "after", "an", "argument", "strike", "his", "uncle", "with", "a", "rock", ",", "scratch", "his", "face", "."]
-    oewn2026_key: [[3, "oewn-01576107-v"], [7, "oewn-01372423-v"], [15, "oewn-01412877-v"], [22, "oewn-01311803-v"]]
+    oewn_key: [[3, "oewn-01576107-v"], [7, "oewn-01372423-v"], [15, "oewn-01412877-v"], [22, "oewn-01311803-v"]]
     paragraph: '44'
     pos: ["DT", "JJR", "NNP", "VBD", "DT", "NN", ",", "VBG", "DT", "NN", ",", "CC", "IN", "DT", "NN", "VBD", "PRP$", "NN", "IN", "DT", "NN", ",", "VBG", "PRP$", "NN", "."]
     text: ' The younger Thomas ripped a screen_door, breaking the latch, and after an argument
@@ -700,7 +700,7 @@ gVkW:
     wn30_key: [[3, "rip%2:35:00::"], [7, "break%2:35:01::"], [15, "strike%2:35:00::"], [22, "scratch%2:35:00::"]]
 3xbg:
     lemmas: ["He", "also", "strike", "his", "aunt", "and", "wife", ",", "and", "during", "the", "melee", "the", "baby", "also", "suffer", "scratch", "."]
-    oewn2026_key: [[2, "oewn-01412877-v"], [15, "oewn-02113644-v"]]
+    oewn_key: [[2, "oewn-01412877-v"], [15, "oewn-02113644-v"]]
     paragraph: '44'
     pos: ["PRP", "RB", "VBD", "PRP$", "NN", "CC", "NN", ",", "CC", "IN", "DT", "NN", "DT", "NN", "RB", "VBD", "NNS", "."]
     text: ' He also struck his aunt and wife, and during the melee the baby also suffered scratches.
@@ -711,7 +711,7 @@ gVkW:
     wn30_key: [[2, "strike%2:35:00::"], [15, "suffer%2:39:01::"]]
 NHv1:
     lemmas: ["When", "police", "arrive", "the", "man", "be", "still", "violent", ",", "slate", "say", "."]
-    oewn2026_key: [[2, "oewn-02009962-v"], [5, "oewn-02610777-v"], [10, "oewn-01011267-v"]]
+    oewn_key: [[2, "oewn-02009962-v"], [5, "oewn-02610777-v"], [10, "oewn-01011267-v"]]
     paragraph: '45'
     pos: ["WRB", "NN", "VBD", "DT", "NN", "VBD", "RB", "JJ", ",", "NNP", "VBD", "."]
     text: ' When police arrived the man was still violent, Slate said.
@@ -722,7 +722,7 @@ NHv1:
     wn30_key: [[2, "arrive%2:38:00::"], [5, "be%2:42:03::"], [10, "say%2:32:00::"]]
 hry+:
     lemmas: ["He", "attack", "one", "of", "the", "officer", "and", "be", "restrain", "."]
-    oewn2026_key: [[1, "oewn-01121587-v"], [8, "oewn-01303637-v"]]
+    oewn_key: [[1, "oewn-01121587-v"], [8, "oewn-01303637-v"]]
     paragraph: '46'
     pos: ["PRP", "VBD", "CD", "IN", "DT", "NNS", "CC", "VBD", "VBN", "."]
     text: ' He attacked one of the officers and was restrained.'
@@ -731,7 +731,7 @@ hry+:
     wn30_key: [[1, "attack%2:33:00::"], [8, "restrain%2:41:01::"]]
 +UIa:
     lemmas: ["About", "five", "minutes", "later", "he", "jump", "up", ",", "slate", "say", ",", "and", "strike", "the", "two", "policeman", "again", "."]
-    oewn2026_key: [[5, "oewn-01967949-v"], [9, "oewn-01011267-v"], [12, "oewn-01412877-v"]]
+    oewn_key: [[5, "oewn-01967949-v"], [9, "oewn-01011267-v"], [12, "oewn-01412877-v"]]
     paragraph: '46'
     pos: ["IN", "CD", "NNS", "RB", "PRP", "VBD", "RB", ",", "NNP", "VBD", ",", "CC", "VBD", "DT", "CD", "NNS", "RB", "."]
     text: ' About five minutes later he jumped up, Slate said, and struck the two policemen
@@ -743,7 +743,7 @@ hry+:
     wn30_key: [[5, "jump%2:38:00::"], [9, "say%2:32:00::"], [12, "strike%2:35:00::"]]
 Vyl1:
     lemmas: ["He", "be", "then", "subdue", "and", "place", "in", "the", "police_car", "to", "be", "take", "to", "Grady_Hospital", "for", "treatment", "of", "scratch", "receive", "in", "the", "melee", "."]
-    oewn2026_key: [[3, "oewn-00463047-v"], [5, "oewn-01496967-v"], [11, "oewn-02081903-v"], [18, "oewn-02112480-v"]]
+    oewn_key: [[3, "oewn-00463047-v"], [5, "oewn-01496967-v"], [11, "oewn-02081903-v"], [18, "oewn-02112480-v"]]
     paragraph: '47'
     pos: ["PRP", "VBD", "RB", "VBN", "CC", "VBN", "IN", "DT", "NN", "TO", "VB", "VBN", "VB", "NNP", "IN", "NN", "IN", "NNS", "VBN", "IN", "DT", "NN", "."]
     text: ' He was then subdued and placed in the police_car to be taken to Grady_Hospital for
@@ -753,7 +753,7 @@ Vyl1:
     wn30_key: [[3, "subdue%2:30:01::"], [5, "place%2:35:00::"], [11, "take%2:38:10::"], [18, "receive%2:39:03::"]]
 0Zz3:
     lemmas: ["then", "he", "attack", "the", "two", "officer", "again", "and", "be", "again", "restrain", ",", "slate", "relate", "."]
-    oewn2026_key: [[2, "oewn-01121587-v"], [10, "oewn-01303637-v"], [13, "oewn-00955090-v"]]
+    oewn_key: [[2, "oewn-01121587-v"], [10, "oewn-01303637-v"], [13, "oewn-00955090-v"]]
     paragraph: '47'
     pos: ["RB", "PRP", "VBD", "DT", "CD", "NNS", "RB", "CC", "VBD", "RB", "VBN", ",", "NNP", "VBN", "."]
     text: ' Then he attacked the two officers again and was again restrained, Slate related.
@@ -764,7 +764,7 @@ Vyl1:
     wn30_key: [[2, "attack%2:33:00::"], [10, "restrain%2:41:01::"], [13, "relate%2:32:00::"]]
 t5Va:
     lemmas: ["slate", "say", "he", "and", "crawford", "receive", "cut", "and", "scratch", "and", "their", "uniform", "be", "badly", "tear", "."]
-    oewn2026_key: [[1, "oewn-01011267-v"], [5, "oewn-02112480-v"], [14, "oewn-01576346-v"]]
+    oewn_key: [[1, "oewn-01011267-v"], [5, "oewn-02112480-v"], [14, "oewn-01576346-v"]]
     paragraph: '48'
     pos: ["NNP", "VBD", "PRP", "CC", "NNP", "VBD", "NNS", "CC", "NNS", "CC", "PRP$", "NNS", "VBD", "RB", "VBN", "."]
     text: ' Slate said he and Crawford received cuts and scratches and their uniforms were badly
@@ -776,7 +776,7 @@ t5Va:
     wn30_key: [[1, "say%2:32:00::"], [5, "receive%2:39:03::"], [14, "tear%2:35:00::"]]
 B5lL:
     lemmas: ["thomas", "be", "charge", "with", "four", "count", "of", "assault_and_battery", "."]
-    oewn2026_key: [[2, "oewn-00871595-v"]]
+    oewn_key: [[2, "oewn-00871595-v"]]
     paragraph: '49'
     pos: ["NNP", "VBD", "VBN", "IN", "CD", "NNS", "IN", "NN", "."]
     text: ' Thomas was charged with four counts of assault_and_battery.'
@@ -785,7 +785,7 @@ B5lL:
     wn30_key: [[2, "charge%2:32:00::"]]
 JUyX:
     lemmas: ["Two", "count", "of", "assault", "on", "an", "officer", ",", "resisting_arrest", ",", "disturbance", "and", "curse", ",", "police", "say", "."]
-    oewn2026_key: [[12, "oewn-00867051-v"], [15, "oewn-01011267-v"]]
+    oewn_key: [[12, "oewn-00867051-v"], [15, "oewn-01011267-v"]]
     paragraph: '49'
     pos: ["CD", "NNS", "IN", "NN", "IN", "DT", "NN", ",", "NN", ",", "NN", "CC", "VB", ",", "NN", "VBD", "."]
     text: ' Two counts of assault on an officer, resisting_arrest, disturbance and cursing,
@@ -795,7 +795,7 @@ JUyX:
     wn30_key: [[12, "curse%2:32:00::"], [15, "say%2:32:00::"]]
 Yoxg:
     lemmas: ["A", "hearing", "be", "set", "for", "8", ":", "30", "a.", "m._Tuesday", "."]
-    oewn2026_key: [[3, "oewn-00949109-v"]]
+    oewn_key: [[3, "oewn-00949109-v"]]
     paragraph: '49'
     pos: ["DT", "NN", "VBD", "VBN", "IN", "CD", ":", "CD", "NN", "NNP", "."]
     text: ' A hearing was set for 8: 30 a. m._Tuesday.
@@ -806,7 +806,7 @@ Yoxg:
     wn30_key: [[3, "set%2:32:00::"]]
 eAjo:
     lemmas: ["mrs._mary_self", ",", "who", "know", "more_than", "any", "other", "person", "about", "the", "5000", "city", "employe", "for", "whom", "she", "have", "keep", "personnel", "record", "over", "the", "years", ",", "have", "close", "her", "desk", "and", "retire", "."]
-    oewn2026_key: [[3, "oewn-00597330-v"], [17, "oewn-01187158-v"], [25, "oewn-02431242-v"], [29, "oewn-02384895-v"]]
+    oewn_key: [[3, "oewn-00597330-v"], [17, "oewn-01187158-v"], [25, "oewn-02431242-v"], [29, "oewn-02384895-v"]]
     paragraph: '50'
     pos: ["NNP", ",", "WP", "VBZ", "RB", "DT", "JJ", "NN", "IN", "DT", "CD", "NN", "NNS", "IN", "WP", "PRP", "VBZ", "VBN", "NNS", "NNS", "IN", "DT", "NNS", ",", "VBZ", "VBN", "PRP$", "NN", "CC", "VBN", "."]
     text: ' Mrs._Mary_Self, who knows more_than any other person about the 5000 city employes
@@ -819,7 +819,7 @@ eAjo:
     wn30_key: [[3, "know%2:31:03::"], [17, "keep%2:34:00::"], [25, "close%2:41:00::"], [29, "retire%2:41:01::"]]
 s698:
     lemmas: ["Over", "the", "weekend", ",", "mrs._self", ",", "personnel", "clerk", ",", "be", "a", "fete", "and", "honored", "guest", "of", "the", "atlanta_club", ",", "organization", "of", "woman", "employe", "at", "city_hall", "."]
-    oewn2026_key: [[9, "oewn-02610777-v"], [11, "oewn-02496526-v"]]
+    oewn_key: [[9, "oewn-02610777-v"], [11, "oewn-02496526-v"]]
     paragraph: '51'
     pos: ["IN", "DT", "NN", ",", "NNP", ",", "NNS", "NN", ",", "VBD", "DT", "VBN", "CC", "JJ", "NN", "IN", "DT", "NNP", ",", "NN", "IN", "NNS", "NNS", "IN", "NN", "."]
     text: ' Over the weekend, Mrs._Self, personnel clerk, was a feted and honored guest of the
@@ -831,7 +831,7 @@ s698:
     wn30_key: [[9, "be%2:42:03::"], [11, "fete%2:41:00::"]]
 YJFM:
     lemmas: ["After", "18", "years", "in", "the", "personnel_office", ",", "she", "have", "take", "a", "disability", "pension", "on", "advice", "of", "her", "doctor", "."]
-    oewn2026_key: [[9, "oewn-02240906-v"]]
+    oewn_key: [[9, "oewn-02240906-v"]]
     paragraph: '52'
     pos: ["IN", "CD", "NNS", "IN", "DT", "NN", ",", "PRP", "VBZ", "VBN", "DT", "NN", "NN", "IN", "NN", "IN", "PRP$", "NNS", "."]
     text: ' After 18 years in the personnel_office, she has taken a disability pension on advice
@@ -843,7 +843,7 @@ YJFM:
     wn30_key: [[9, "take%2:40:05::"]]
 wwhK:
     lemmas: ["As", "personnel", "clerk", ",", "she", "handle", "thousand", "of", "entry", ",", "range", "from", "appointment", "to", "job", ",", "to", "transfer", "to", "other", "employment", ",", "to", "pension", "."]
-    oewn2026_key: [[5, "oewn-02441196-v"], [10, "oewn-02732914-v"]]
+    oewn_key: [[5, "oewn-02441196-v"], [10, "oewn-02732914-v"]]
     paragraph: '53'
     pos: ["IN", "NNS", "NN", ",", "PRP", "VBD", "NNS", "IN", "NNS", ",", "VBG", "IN", "NNS", "TO", "NNS", ",", "TO", "NNS", "TO", "JJ", "NNS", ",", "TO", "NNS", "."]
     text: ' As personnel clerk, she handled thousands of entries, ranging from appointments
@@ -855,7 +855,7 @@ wwhK:
     wn30_key: [[5, "handle%2:41:00::"], [10, "range%2:42:01::"]]
 0Ctb:
     lemmas: ["\"", "I", "have", "enjoy", "it", "and", "will", "feel", "a_bit", "lost", "at_least", "for_a_while", "\"", ",", "she", "say", "wistfully", "friday", "."]
-    oewn2026_key: [[3, "oewn-01824240-v"], [7, "oewn-01775456-v"], [15, "oewn-01011267-v"]]
+    oewn_key: [[3, "oewn-01824240-v"], [7, "oewn-01775456-v"], [15, "oewn-01011267-v"]]
     paragraph: '54'
     pos: ["``", "PRP", "VBP", "VBN", "PRP", "CC", "MD", "VB", "RB", "JJ", "RB", "RB", "''", ",", "PRP", "VBD", "RB", "NNP", "."]
     text: ' " I have enjoyed it and will feel a_bit lost at_least for_a_while ", she said wistfully
@@ -867,7 +867,7 @@ wwhK:
     wn30_key: [[3, "enjoy%2:37:00::"], [7, "feel%2:37:00::"], [15, "say%2:32:00::"]]
 g9iv:
     lemmas: ["One", "of", "the", "large", "crowd", "in", "the", "club", "'s", "history", "turn_out", "to", "pay", "tribute", "to", "mrs._self", "and", "her", "service", "."]
-    oewn2026_key: [[10, "oewn-00426475-v"], [12, "oewn-01062366-v"]]
+    oewn_key: [[10, "oewn-00426475-v"], [12, "oewn-01062366-v"]]
     paragraph: '55'
     pos: ["CD", "IN", "DT", "JJS", "NNS", "IN", "DT", "NN", "POS", "NN", "VB", "TO", "VB", "NN", "TO", "NNP", "CC", "PRP$", "NN", "."]
     text: ' One of the largest crowds in the club''s history turned_out to pay tribute to Mrs._Self
@@ -879,7 +879,7 @@ g9iv:
     wn30_key: [[10, "turn_out%2:30:00::"], [12, "pay%2:32:00::"]]
 Fi4H:
     lemmas: ["georgia", "'s", "department_of_agriculture", "be", "intensify", "its", "fire_ant", "eradication", "program", "in", "an", "effort", "to", "stay", "ahead", "of", "the", "fast-spreading", "pest", "."]
-    oewn2026_key: [[4, "oewn-00291064-v"], [13, "oewn-00117793-v"]]
+    oewn_key: [[4, "oewn-00291064-v"], [13, "oewn-00117793-v"]]
     paragraph: '56'
     pos: ["NNP", "POS", "NN", "VBZ", "VBG", "PRP$", "NN", "NN", "NN", "IN", "DT", "NN", "TO", "VB", "RB", "IN", "DT", "JJ", "NN", "."]
     text: ' Georgia''s Department_of_Agriculture is intensifying its fire_ant eradication program
@@ -891,7 +891,7 @@ Fi4H:
     wn30_key: [[4, "intensify%2:30:02::"], [13, "stay%2:30:00::"]]
 zmIj:
     lemmas: ["The", "department", "be", "plan", "to", "expand", "its", "eradication", "program", "soon", "to", "four", "additional", "county", "-", "Troup", ",", "pierce", ",", "bryan", "and", "Bulloch", "-", "to", "treat", "132000", "acres", "infest", "by", "the", "ant", ",", "accord", "to", "W._E._Blasingame", "state", "entomologist", "."]
-    oewn2026_key: [[3, "oewn-00706993-v"], [5, "oewn-00258155-v"], [24, "oewn-00516235-v"], [27, "oewn-02024265-v"], [32, "oewn-02705946-v"]]
+    oewn_key: [[3, "oewn-00706993-v"], [5, "oewn-00258155-v"], [24, "oewn-00516235-v"], [27, "oewn-02024265-v"], [32, "oewn-02705946-v"]]
     paragraph: '57'
     pos: ["DT", "NN", "VBZ", "VBG", "TO", "VB", "PRP$", "NN", "NN", "RB", "TO", "CD", "JJ", "NNS", ":", "NNP", ",", "NNP", ",", "NNP", "CC", "NNP", ":", "TO", "VB", "CD", "NNS", "VB", "IN", "DT", "NNS", ",", "VBG", "TO", "NNP", "NN", "NN", "."]
     text: ' The department is planning to expand its eradication program soon to four additional
@@ -904,7 +904,7 @@ zmIj:
     wn30_key: [[3, "plan%2:31:01::"], [5, "expand%2:30:07::"], [24, "treat%2:30:01::"], [27, "infest%2:38:00::"], [32, "accord%2:42:00::"]]
 zq9x:
     lemmas: ["Low-flying", "plane", "will", "spread", "a", "granular-type", "chemical", ",", "heptachlor", ",", "over", "30000", "acres", "in", "Troup", ",", "37000", "acres", "in", "pierce", "and", "65000", "acres", "in", "Bulloch", "and", "bryan", "county", "."]
-    oewn2026_key: [[3, "oewn-02086937-v"]]
+    oewn_key: [[3, "oewn-02086937-v"]]
     paragraph: '58'
     pos: ["JJ", "NNS", "MD", "VB", "DT", "JJ", "NN", ",", "NN", ",", "IN", "CD", "NNS", "IN", "NNP", ",", "CD", "NNS", "IN", "NNP", "CC", "CD", "NNS", "IN", "NNP", "CC", "NNP", "NNS", "."]
     text: ' Low-flying planes will spread a granular-type chemical, heptachlor, over 30000 acres
@@ -916,7 +916,7 @@ zq9x:
     wn30_key: [[3, "spread%2:38:00::"]]
 uCmI:
     lemmas: ["The", "eradication", "effort", "be", "be", "push", "in", "Bibb", "and", "jones", "county", ",", "over", "37679", "acres", "."]
-    oewn2026_key: [[5, "oewn-00978685-v"]]
+    oewn_key: [[5, "oewn-00978685-v"]]
     paragraph: '59'
     pos: ["DT", "NN", "NN", "VBZ", "VBG", "VBN", "IN", "NNP", "CC", "NNP", "NNS", ",", "IN", "CD", "NNS", "."]
     text: ' The eradication effort is being pushed in Bibb and Jones counties, over 37679 acres.'
@@ -925,7 +925,7 @@ uCmI:
     wn30_key: [[5, "push%2:32:00::"]]
 Q3om:
     lemmas: ["The", "department", "have", "just", "finish", "treat", "20000", "acres", "in", "urban_areas", "of", "macon", "."]
-    oewn2026_key: [[4, "oewn-00485097-v"], [5, "oewn-00516235-v"]]
+    oewn_key: [[4, "oewn-00485097-v"], [5, "oewn-00516235-v"]]
     paragraph: '59'
     pos: ["DT", "NN", "VBZ", "RB", "VBN", "VBG", "CD", "NNS", "IN", "NN", "IN", "NNP", "."]
     text: ' The department has just finished treating 20000 acres in urban_areas of Macon.
@@ -936,7 +936,7 @@ Q3om:
     wn30_key: [[4, "finish%2:30:02::"], [5, "treat%2:30:01::"]]
 Z+Jz:
     lemmas: ["also", "be", "treat", "be", "houston", ",", "Bleckley", ",", "Tift", ",", "turner", "and", "dodge", "county", ",", "Blasingame", "say", "."]
-    oewn2026_key: [[2, "oewn-00516235-v"], [3, "oewn-02610777-v"], [16, "oewn-01011267-v"]]
+    oewn_key: [[2, "oewn-00516235-v"], [3, "oewn-02610777-v"], [16, "oewn-01011267-v"]]
     paragraph: '60'
     pos: ["RB", "VBG", "VBN", "VBP", "NNP", ",", "NNP", ",", "NNP", ",", "NNP", "CC", "NNP", "NNS", ",", "NNP", "VBD", "."]
     text: ' Also being treated are Houston, Bleckley, Tift, Turner and Dodge counties, Blasingame
@@ -946,7 +946,7 @@ Z+Jz:
     wn30_key: [[2, "treat%2:30:01::"], [3, "be%2:42:03::"], [16, "say%2:32:00::"]]
 gXf3:
     lemmas: ["The", "fire_ant", "be", "think", "to", "infest", "approximately", "two", "million", "acres", "of", "land", "in", "georgia", ",", "attack", "crop", ",", "young", "wildlife", "and", "livestock", "and", "can", "be", "a", "serious", "health", "menace", "to", "humans", "who", "be", "allergic", "to", "its", "venom", ",", "Blasingame", "say", "."]
-    oewn2026_key: [[3, "oewn-00633399-v"], [5, "oewn-02024265-v"], [15, "oewn-01120867-v"], [24, "oewn-02610777-v"], [32, "oewn-02670846-v"], [39, "oewn-01011267-v"]]
+    oewn_key: [[3, "oewn-00633399-v"], [5, "oewn-02024265-v"], [15, "oewn-01120867-v"], [24, "oewn-02610777-v"], [32, "oewn-02670846-v"], [39, "oewn-01011267-v"]]
     paragraph: '60'
     pos: ["DT", "NN", "VBZ", "VBN", "TO", "VB", "RB", "CD", "CD", "NNS", "IN", "NN", "IN", "NNP", ",", "VBG", "NNS", ",", "JJ", "NN", "CC", "NN", "CC", "MD", "VB", "DT", "JJ", "NN", "NN", "TO", "NNS", "WP", "VBP", "JJ", "TO", "PRP$", "NN", ",", "NNP", "VBD", "."]
     text: ' The fire_ant is thought to infest approximately two million acres of land in Georgia,
@@ -959,7 +959,7 @@ gXf3:
     wn30_key: [[3, "think%2:31:03::"], [5, "infest%2:38:00::"], [15, "attack%2:33:01::"], [24, "be%2:42:03::"], [32, "be%2:42:07::"], [39, "say%2:32:00::"]]
 5Orx:
     lemmas: ["The", "north-bound", "entrance", "to", "the", "expressway", "at", "14", "th", "street", "will", "be", "close", "during", "the", "afternoon", "rush", "traffic", "hours", "this", "week", "."]
-    oewn2026_key: [[12, "oewn-02431242-v"]]
+    oewn_key: [[12, "oewn-02431242-v"]]
     paragraph: '61'
     pos: ["DT", "JJ", "NN", "TO", "DT", "NNP", "IN", "CD", "DT", "NNP", "MD", "VB", "VBN", "IN", "DT", "NN", "NN", "NN", "NN", "DT", "NN", "."]
     text: ' The north-bound entrance to the Expressway at 14 th Street will be closed during
@@ -971,7 +971,7 @@ gXf3:
     wn30_key: [[12, "close%2:41:00::"]]
 VzWE:
     lemmas: ["This", "be", "be", "do", "so_that", "georgia_tech", "can", "complete", "the", "final", "phase", "of", "a", "traffic", "survey", "on", "the", "north_expressway", "."]
-    oewn2026_key: [[3, "oewn-02567910-v"], [7, "oewn-02569639-v"]]
+    oewn_key: [[3, "oewn-02567910-v"], [7, "oewn-02569639-v"]]
     paragraph: '62'
     pos: ["DT", "VBZ", "VBG", "VBN", "RB", "NNP", "MD", "VB", "DT", "JJ", "NN", "IN", "DT", "NN", "NN", "IN", "DT", "NNP", "."]
     text: ' This is being done so_that Georgia_Tech can complete the final phase of a traffic
@@ -981,7 +981,7 @@ VzWE:
     wn30_key: [[3, "do%2:41:04::"], [7, "complete%2:41:00::"]]
 zs99:
     lemmas: ["student", "have", "be", "use", "electric", "computer", "and", "high", "speed", "movie_camera", "during", "the", "study", "."]
-    oewn2026_key: [[3, "oewn-01161188-v"]]
+    oewn_key: [[3, "oewn-01161188-v"]]
     paragraph: '62'
     pos: ["NNS", "VBP", "VBN", "VBG", "JJ", "NNS", "CC", "JJ", "NN", "NN", "IN", "DT", "NN", "."]
     text: ' Students have been using electric computers and high speed movie_cameras during
@@ -991,7 +991,7 @@ zs99:
     wn30_key: [[3, "use%2:34:01::"]]
 9mND:
     lemmas: ["perhaps", "the", "engineer", "can", "find_out", "what", "cause", "all", "the", "congestion", "and", "suggest", "method", "to", "eliminate", "it", "."]
-    oewn2026_key: [[4, "oewn-00920843-v"], [6, "oewn-01649143-v"], [11, "oewn-00876925-v"], [14, "oewn-00472642-v"]]
+    oewn_key: [[4, "oewn-00920843-v"], [6, "oewn-01649143-v"], [11, "oewn-00876925-v"], [14, "oewn-00472642-v"]]
     paragraph: '62'
     pos: ["RB", "DT", "NNS", "MD", "VB", "WP", "VBZ", "PDT", "DT", "NN", "CC", "VBP", "NNS", "TO", "VB", "PRP", "."]
     text: ' Perhaps the engineers can find_out what causes all the congestion and suggest methods
@@ -1003,7 +1003,7 @@ zs99:
     wn30_key: [[4, "find_out%2:32:00::"], [6, "cause%2:36:00::"], [11, "suggest%2:32:00::"], [14, "eliminate%2:30:01::"]]
 VZ1p:
     lemmas: ["incidentally", ",", "14", "th", "street", "and", "the", "expressway", "be", "the", "high", "accident", "intersection", "during", "daylight", "hours", "."]
-    oewn2026_key: [[8, "oewn-02670846-v"]]
+    oewn_key: [[8, "oewn-02670846-v"]]
     paragraph: '63'
     pos: ["RB", ",", "CD", "DT", "NNP", "CC", "DT", "NNP", "VBZ", "DT", "JJ", "NN", "NN", "IN", "NN", "NNS", "."]
     text: ' Incidentally, 14 th Street and the Expressway is the high accident intersection
@@ -1013,7 +1013,7 @@ VZ1p:
     wn30_key: [[8, "be%2:42:07::"]]
 0KpQ:
     lemmas: ["It", "be", "follow", "by", "cain_street", "and", "piedmont_avenue", ",", "ne", ";", "the", "junction", "of", "the", "northeast", "and", "northwest_expressway", "and", "jones_avenue", "and", "Marietta_Street", ",", "nw", "."]
-    oewn2026_key: [[2, "oewn-02726419-v"]]
+    oewn_key: [[2, "oewn-02726419-v"]]
     paragraph: '63'
     pos: ["PRP", "VBZ", "VBN", "IN", "NNP", "CC", "NNP", ",", "NNP", ":", "DT", "NN", "IN", "DT", "NNP", "CC", "NNP", "CC", "NNP", "CC", "NNP", ",", "NNP", "."]
     text: ' It is followed by Cain_Street and Piedmont_Avenue, NE; the junction of the Northeast
@@ -1025,7 +1025,7 @@ VZ1p:
     wn30_key: [[2, "follow%2:42:02::"]]
 pkbp:
     lemmas: ["Four", "person", "die", "in", "georgia", "weekend", "traffic", "crash", ",", "two", "of", "them", "in", "a", "fiery", "crash", "near", "Snellville", ",", "the", "state_patrol", "say", "sunday", "."]
-    oewn2026_key: [[2, "oewn-00359085-v"], [21, "oewn-01011267-v"]]
+    oewn_key: [[2, "oewn-00359085-v"], [21, "oewn-01011267-v"]]
     paragraph: '64'
     pos: ["CD", "NNS", "VBD", "IN", "NNP", "NN", "NN", "NNS", ",", "CD", "IN", "PRP", "IN", "DT", "JJ", "NN", "IN", "NNP", ",", "DT", "NNP", "VBD", "NNP", "."]
     text: ' Four persons died in Georgia weekend traffic crashes, two of them in a fiery crash
@@ -1037,7 +1037,7 @@ pkbp:
     wn30_key: [[2, "die%2:30:00::"], [21, "say%2:32:00::"]]
 URgc:
     lemmas: ["The", "latest", "death", "report", "be", "that", "of", "4", "-", "year-old", "Claude_Douglas_Maynor", "of", "calvary", "."]
-    oewn2026_key: [[3, "oewn-00968841-v"], [4, "oewn-02670846-v"]]
+    oewn_key: [[3, "oewn-00968841-v"], [4, "oewn-02670846-v"]]
     paragraph: '65'
     pos: ["DT", "JJS", "NN", "VBD", "VBD", "IN", "IN", "CD", ":", "JJ", "NNP", "IN", "NNP", "."]
     text: ' The latest death reported was that of 4 - year-old Claude_Douglas_Maynor of Calvary.'
@@ -1046,7 +1046,7 @@ URgc:
     wn30_key: [[3, "report%2:32:04::"], [4, "be%2:42:07::"]]
 RoIr:
     lemmas: ["trooper", "say", "the", "child", "run", "into", "the", "path", "of", "a", "passing", "car", "a", "half-mile", "north", "of", "calvary", "on", "georgia", "111", "in", "Grady_County", "."]
-    oewn2026_key: [[1, "oewn-01011267-v"], [4, "oewn-01930264-v"]]
+    oewn_key: [[1, "oewn-01011267-v"], [4, "oewn-01930264-v"]]
     paragraph: '65'
     pos: ["NNS", "VBD", "DT", "NN", "VBD", "VB", "DT", "NN", "IN", "DT", "JJ", "NN", "DT", "JJ", "RB", "IN", "NNP", "IN", "NNP", "CD", "IN", "NNP", "."]
     text: ' Troopers said the child ran into the path of a passing car a half-mile north of
@@ -1058,7 +1058,7 @@ RoIr:
     wn30_key: [[1, "say%2:32:00::"], [4, "run%2:38:00::"]]
 ouQH:
     lemmas: ["That", "death", "occur", "at", "6", ":", "50", "p.", "m._Friday", "and", "be", "report", "sunday", ",", "the", "patrol", "say", "."]
-    oewn2026_key: [[2, "oewn-00340744-v"], [11, "oewn-00968841-v"], [16, "oewn-01011267-v"]]
+    oewn_key: [[2, "oewn-00340744-v"], [11, "oewn-00968841-v"], [16, "oewn-01011267-v"]]
     paragraph: '66'
     pos: ["DT", "NN", "VBD", "IN", "CD", ":", "CD", "NN", "NNP", "CC", "VBD", "VBN", "NNP", ",", "DT", "NN", "VBD", "."]
     text: ' That death occurred at 6: 50 p. m._Friday and was reported Sunday, the patrol said.
@@ -1069,7 +1069,7 @@ ouQH:
     wn30_key: [[2, "occur%2:30:00::"], [11, "report%2:32:04::"], [16, "say%2:32:00::"]]
 KWCn:
     lemmas: ["An", "auto", "overturn", ",", "skid", "into", "a", "stop", "tractor-trailer", "and", "burst", "into", "flame", "near", "Snellville", ",", "the", "patrol", "say", "."]
-    oewn2026_key: [[2, "oewn-01913390-v"], [4, "oewn-01874860-v"], [7, "oewn-01864781-v"], [10, "oewn-01789214-v"], [18, "oewn-01011267-v"]]
+    oewn_key: [[2, "oewn-01913390-v"], [4, "oewn-01874860-v"], [7, "oewn-01864781-v"], [10, "oewn-01789214-v"], [18, "oewn-01011267-v"]]
     paragraph: '67'
     pos: ["DT", "NN", "VBD", ",", "VBG", "IN", "DT", "VBN", "NN", "CC", "VB", "IN", "NNS", "IN", "NNP", ",", "DT", "NN", "VBD", "."]
     text: ' An auto overturned, skidding into a stopped tractor-trailer and burst into flames
@@ -1081,7 +1081,7 @@ KWCn:
     wn30_key: [[2, "overturn%2:38:00::"], [4, "skid%2:38:03::"], [7, "stop%2:38:00::"], [10, "burst%2:37:00::"], [18, "say%2:32:00::"]]
 v7Hc:
     lemmas: ["bobby_bester_hammett", ",", "21", ",", "of", "Rte.", "3", ",", "Lawrenceville", ",", "and", "mrs._lucille_herrington_jones", ",", "23", ",", "of", "Lawrenceville", ",", "die", "in", "the", "flaming", "car", ",", "the", "patrol", "say", "."]
-    oewn2026_key: [[18, "oewn-00359085-v"], [26, "oewn-01011267-v"]]
+    oewn_key: [[18, "oewn-00359085-v"], [26, "oewn-01011267-v"]]
     paragraph: '68'
     pos: ["NNP", ",", "CD", ",", "IN", "NNP", "CD", ",", "NNP", ",", "CC", "NNP", ",", "CD", ",", "IN", "NNP", ",", "VBD", "IN", "DT", "JJ", "NN", ",", "DT", "NN", "VBD", "."]
     text: ' Bobby_Bester_Hammett, 21, of Rte. 3, Lawrenceville, and Mrs._Lucille_Herrington_Jones,

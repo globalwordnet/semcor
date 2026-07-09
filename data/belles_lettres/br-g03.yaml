@@ -3,7 +3,7 @@ _meta:
         type: seq
         base: tokens
         data: string
-    oewn2026_key:
+    oewn_key:
         type: element
         base: tokens
         data: string
@@ -28,7 +28,7 @@ _meta:
         data: string
 saUI:
     lemmas: ["Can", "thermonuclear", "war", "be", "set_off", "by_accident", "?"]
-    oewn2026_key: [[4, "oewn-01647199-v"]]
+    oewn_key: [[4, "oewn-01647199-v"]]
     paragraph: '0'
     pos: ["MD", "JJ", "NN", "VB", "VB", "RB", "."]
     text: Can thermonuclear war be set_off by_accident?
@@ -37,7 +37,7 @@ saUI:
     wn30_key: [[4, "set_off%2:36:00::"]]
 ycEa:
     lemmas: ["What", "steps", "have", "be", "take", "to", "guard", "against", "the", "one", "sort_of", "mishap", "that", "could", "trigger", "the", "destruction", "of", "continent", "?"]
-    oewn2026_key: [[4, "oewn-02605633-v"], [6, "oewn-01131763-v"], [14, "oewn-01647199-v"]]
+    oewn_key: [[4, "oewn-02605633-v"], [6, "oewn-01131763-v"], [14, "oewn-01647199-v"]]
     paragraph: '0'
     pos: ["WP", "NNS", "VBP", "VBN", "VBN", "VB", "VB", "VB", "DT", "CD", "RB", "NN", "WDT", "MD", "VB", "DT", "NN", "IN", "NNS", "."]
     text: ' What steps have been taken to guard against the one sort_of mishap that could trigger
@@ -47,7 +47,7 @@ ycEa:
     wn30_key: [[4, "take%2:41:04::"], [6, "guard%2:33:00::"], [14, "trigger%2:36:00::"]]
 zq6w:
     lemmas: ["be", "we", "as", "safe", "as", "we", "should", "be", "from", "such", "a", "disaster", "?"]
-    oewn2026_key: [[0, "oewn-02610777-v"], [7, "oewn-02610777-v"]]
+    oewn_key: [[0, "oewn-02610777-v"], [7, "oewn-02610777-v"]]
     paragraph: '0'
     pos: ["VBP", "PRP", "RB", "JJ", "IN", "PRP", "MD", "VB", "VB", "JJ", "DT", "NN", "."]
     text: ' Are we as safe as we should be from such a disaster?'
@@ -56,7 +56,7 @@ zq6w:
     wn30_key: [[0, "be%2:42:03::"], [7, "be%2:42:03::"]]
 B/pc:
     lemmas: ["be", "anything", "be", "do", "to", "increase", "our", "margin", "of", "safety", "?"]
-    oewn2026_key: [[3, "oewn-02566500-v"], [5, "oewn-00156409-v"]]
+    oewn_key: [[3, "oewn-02566500-v"], [5, "oewn-00156409-v"]]
     paragraph: '0'
     pos: ["VBZ", "NN", "VBG", "VBN", "TO", "VB", "PRP$", "NN", "IN", "NN", "."]
     text: ' Is anything being done to increase our margin of safety?'
@@ -65,7 +65,7 @@ B/pc:
     wn30_key: [[3, "do%2:41:01::"], [5, "increase%2:30:00::"]]
 yVcj:
     lemmas: ["Will", "the", "danger", "increase", "or", "decrease", "?"]
-    oewn2026_key: [[3, "oewn-00156409-v"], [5, "oewn-00151509-v"]]
+    oewn_key: [[3, "oewn-00156409-v"], [5, "oewn-00151509-v"]]
     paragraph: '0'
     pos: ["MD", "DT", "NN", "VB", "CC", "VB", "."]
     text: ' Will the danger increase or decrease?
@@ -76,7 +76,7 @@ yVcj:
     wn30_key: [[3, "increase%2:30:00::"], [5, "decrease%2:30:00::"]]
 CDzT:
     lemmas: ["I", "have", "just", "ask", "these", "question", "in", "the", "pentagon", ",", "in", "the", "white_house", ",", "in", "office", "of", "key", "scientist", "across_the_country", "and", "aboard", "the", "submarine", "that", "prowl", "for", "month", "underwater", ",", "with", "neat", "row", "of", "green", "launch", "tube", "which", "contain", "polaris", "missile", "and", "which", "be", "affectionately", "known", "as", "\"", "sherwood_forest", "\"", "."]
-    oewn2026_key: [[3, "oewn-00786389-v"], [25, "oewn-01922297-v"], [38, "oewn-02706727-v"], [43, "oewn-02610777-v"]]
+    oewn_key: [[3, "oewn-00786389-v"], [25, "oewn-01922297-v"], [38, "oewn-02706727-v"], [43, "oewn-02610777-v"]]
     paragraph: '1'
     pos: ["PRP", "VBP", "RB", "VBN", "DT", "NNS", "IN", "DT", "NNP", ",", "IN", "DT", "NN", ",", "IN", "NNS", "IN", "JJ", "NNS", "RB", "CC", "IN", "DT", "NNS", "IN", "VB", "IN", "NNS", "JJ", ",", "IN", "JJ", "NNS", "IN", "JJ", "NN", "NNS", "WDT", "VBP", "NNP", "NNS", "CC", "WDT", "VBP", "RB", "JJ", "IN", "``", "NNP", "''", "."]
     text: ' I have just asked these questions in the Pentagon, in the White_House, in offices
@@ -88,7 +88,7 @@ CDzT:
     wn30_key: [[3, "ask%2:32:00::"], [25, "prowl%2:38:00::"], [38, "contain%2:42:13::"], [43, "be%2:42:03::"]]
 j/dq:
     lemmas: ["I", "ask", "the", "same", "question", "inside", "the", "launch-control", "rooms", "of", "an", "atlas", "missile", "base", "in", "wyoming", ",", "where", "officer", "who", "wear", "sidearm", "be", "man", "the", "\"", "commit", "button", "\"", "that", "could", "start", "a", "war", "-", "accidentally", "or", "by_design", "-", "and", "in", "the", "command", "center", "where", "other", "pistol-packing", "man", "could", "give", "order", "to", "push", "such", "button", "."]
-    oewn2026_key: [[1, "oewn-00786389-v"], [20, "oewn-00047462-v"], [23, "oewn-02426091-v"], [31, "oewn-00349400-v"], [49, "oewn-01062366-v"], [52, "oewn-01875972-v"]]
+    oewn_key: [[1, "oewn-00786389-v"], [20, "oewn-00047462-v"], [23, "oewn-02426091-v"], [31, "oewn-00349400-v"], [49, "oewn-01062366-v"], [52, "oewn-01875972-v"]]
     paragraph: '1'
     pos: ["PRP", "VBD", "DT", "JJ", "NNS", "IN", "DT", "NN", "NNS", "IN", "DT", "NNP", "NN", "NN", "IN", "NNP", ",", "WRB", "NNS", "WP", "VBP", "NNS", "VBP", "VBG", "DT", "``", "NN", "NNS", "''", "WDT", "MD", "VB", "DT", "NN", ":", "RB", "CC", "RB", ":", "CC", "IN", "DT", "NN", "NNS", "WRB", "JJ", "JJ", "NNS", "MD", "VB", "NNS", "TO", "VB", "JJ", "NNS", "."]
     text: ' I asked the same questions inside the launch-control rooms of an Atlas missile base
@@ -102,7 +102,7 @@ j/dq:
     wn30_key: [[1, "ask%2:32:00::"], [20, "wear%2:29:04::"], [23, "man%2:41:00::"], [31, "start%2:30:01::"], [49, "give%2:32:01::"], [52, "push%2:38:00::"]]
 V2hJ:
     lemmas: ["To", "the", "man", "in", "the", "instrument-jammed", "bomber", "cockpit", ",", "submarine", "compartment", "and", "the", "antiseptic", ",", "windowless", "rooms", "that", "would", "be", "the", "foxhole", "of", "tomorrow", "'s", "impersonal", "intercontinental", "war", ",", "the", "question", "seem", "farfetched", "."]
-    oewn2026_key: [[19, "oewn-02626667-v"], [31, "oewn-02137900-v"]]
+    oewn_key: [[19, "oewn-02626667-v"], [31, "oewn-02137900-v"]]
     paragraph: '2'
     pos: ["TO", "DT", "NNS", "IN", "DT", "JJ", "NN", "NNS", ",", "NN", "NNS", "CC", "DT", "JJ", ",", "JJ", "NNS", "WDT", "MD", "VB", "DT", "NNS", "IN", "NN", "POS", "JJ", "JJ", "NNS", ",", "DT", "NNS", "VBP", "JJ", "."]
     text: ' To the men in the instrument-jammed bomber cockpits, submarine compartments and
@@ -113,7 +113,7 @@ V2hJ:
     wn30_key: [[19, "be%2:42:02::"], [31, "seem%2:39:00::"]]
 96XM:
     lemmas: ["There", "be", "unceasing", "pressure", ",", "but", "its", "source", "be", "immediate", "."]
-    oewn2026_key: [[1, "oewn-02609706-v"], [8, "oewn-02610777-v"]]
+    oewn_key: [[1, "oewn-02609706-v"], [8, "oewn-02610777-v"]]
     paragraph: '2'
     pos: ["EX", "VBZ", "JJ", "NN", ",", "CC", "PRP$", "NNS", "VBP", "JJ", "."]
     text: ' There is unceasing pressure, but its sources are immediate.'
@@ -122,7 +122,7 @@ V2hJ:
     wn30_key: [[1, "be%2:42:00::"], [8, "be%2:42:03::"]]
 9/8f:
     lemmas: ["\"", "readiness", "exercise", "\"", "be", "almost", "continuous", "."]
-    oewn2026_key: [[4, "oewn-02610777-v"]]
+    oewn_key: [[4, "oewn-02610777-v"]]
     paragraph: '2'
     pos: ["``", "NN", "NNS", "''", "VBP", "RB", "JJ", "."]
     text: ' " Readiness exercises " are almost continuous.'
@@ -131,7 +131,7 @@ V2hJ:
     wn30_key: [[4, "be%2:42:03::"]]
 NSl2:
     lemmas: ["Each", "could", "be", "the", "real_thing", "."]
-    oewn2026_key: [[2, "oewn-02626667-v"]]
+    oewn_key: [[2, "oewn-02626667-v"]]
     paragraph: '2'
     pos: ["DT", "MD", "VB", "DT", "NN", "."]
     text: ' Each could be the real_thing.
@@ -142,7 +142,7 @@ NSl2:
     wn30_key: [[2, "be%2:42:02::"]]
 LjQP:
     lemmas: ["In", "the", "command", "center", "there", "be", "special", "clocks", "ready_to", "tick", "off", "the", "minutes", "elapse", "since", "\"", "e", "hour", "\"", "."]
-    oewn2026_key: [[5, "oewn-02609706-v"], [9, "oewn-02190110-v"], [13, "oewn-02076777-v"]]
+    oewn_key: [[5, "oewn-02609706-v"], [9, "oewn-02190110-v"], [13, "oewn-02076777-v"]]
     paragraph: '3'
     pos: ["IN", "DT", "NN", "NNS", "EX", "VBP", "JJ", "NNS", "JJ", "VB", "VB", "DT", "NNS", "VBN", "IN", "``", "NN", "NN", "''", "."]
     text: ' In the command centers there are special clocks ready_to tick off the minutes elapsed
@@ -152,7 +152,7 @@ LjQP:
     wn30_key: [[5, "be%2:42:00::"], [9, "tick%2:39:00::"], [13, "elapse%2:38:00::"]]
 RKvi:
     lemmas: ["\"", "e", "\"", "stand_for", "\"", "execution", "\"", "-", "the", "moment", "a", "\"", "go", "order", "\"", "would", "unleash", "an", "american", "nuclear", "strike", "."]
-    oewn2026_key: [[3, "oewn-00933814-v"], [16, "oewn-01478458-v"]]
+    oewn_key: [[3, "oewn-00933814-v"], [16, "oewn-01478458-v"]]
     paragraph: '3'
     pos: ["``", "NN", "''", "VB", "``", "NN", "''", ":", "DT", "NN", "DT", "``", "NN", "NN", "''", "MD", "VB", "DT", "NNP", "JJ", "NN", "."]
     text: ' " E " stands_for " execution " - the moment a " go order " would unleash an American
@@ -162,7 +162,7 @@ RKvi:
     wn30_key: [[3, "stand_for%2:32:00::"], [16, "unleash%2:35:01::"]]
 wAn6:
     lemmas: ["There", "be", "little", "time", "for", "the", "man", "in", "the", "command", "center", "to", "reflect", "about", "the", "implication", "of", "these", "clocks", "."]
-    oewn2026_key: [[1, "oewn-02609706-v"], [12, "oewn-00632042-v"]]
+    oewn_key: [[1, "oewn-02609706-v"], [12, "oewn-00632042-v"]]
     paragraph: '3'
     pos: ["EX", "VBZ", "JJ", "NN", "IN", "DT", "NNS", "IN", "DT", "NN", "NNS", "TO", "VB", "IN", "DT", "NNS", "IN", "DT", "NNS", "."]
     text: ' There is little time for the men in the command centers to reflect about the implications
@@ -172,7 +172,7 @@ wAn6:
     wn30_key: [[1, "be%2:42:00::"], [12, "reflect%2:31:00::"]]
 zEGz:
     lemmas: ["They", "be", "preoccupied", "ride_herd_on", "control_panel", ",", "switch", ",", "flashing", "colored", "light", "on", "pale", "green", "or", "gray", "console", "that", "look_like", "business", "machine", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [18, "oewn-02671694-v"]]
+    oewn_key: [[1, "oewn-02610777-v"], [18, "oewn-02671694-v"]]
     paragraph: '3'
     pos: ["PRP", "VBP", "JJ", "VB", "NN", ",", "NNS", ",", "JJ", "JJ", "NNS", "IN", "JJ", "JJ", "CC", "JJ", "NNS", "IN", "VB", "NN", "NNS", "."]
     text: ' They are preoccupied riding_herd_on control_panels, switches, flashing colored lights
@@ -182,7 +182,7 @@ zEGz:
     wn30_key: [[1, "be%2:42:03::"], [18, "look_like%2:42:00::"]]
 IN+u:
     lemmas: ["They", "know", "little", "about", "their", "machinery", "beyond", "mechanical", "details", "."]
-    oewn2026_key: [[1, "oewn-00596016-v"]]
+    oewn_key: [[1, "oewn-00596016-v"]]
     paragraph: '3'
     pos: ["PRP", "VBP", "JJ", "IN", "PRP$", "NN", "IN", "JJ", "NNS", "."]
     text: ' They know little about their machinery beyond mechanical details.'
@@ -191,7 +191,7 @@ IN+u:
     wn30_key: [[1, "know%2:31:01::"]]
 aZBO:
     lemmas: ["accidental", "war", "be", "so", "sensitive", "a", "subject", "that", "most_of", "the", "people", "who", "could", "become", "directly", "involved", "in", "one", "be", "tell", "just", "enough", "so", "they", "can", "perform", "their", "portion", "of", "incredibly", "complex", "task", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"], [13, "oewn-00149403-v"], [19, "oewn-01011267-v"], [25, "oewn-02567910-v"]]
+    oewn_key: [[2, "oewn-02610777-v"], [13, "oewn-00149403-v"], [19, "oewn-01011267-v"], [25, "oewn-02567910-v"]]
     paragraph: '3'
     pos: ["JJ", "NN", "VBZ", "RB", "JJ", "DT", "NN", "IN", "JJ", "DT", "NNS", "WP", "MD", "VB", "RB", "JJ", "IN", "CD", "VBP", "VBN", "RB", "RB", "RB", "PRP", "MD", "VB", "PRP$", "NNS", "IN", "RB", "JJ", "NNS", "."]
     text: ' Accidental war is so sensitive a subject that most_of the people who could become
@@ -204,7 +204,7 @@ aZBO:
     wn30_key: [[2, "be%2:42:03::"], [13, "become%2:30:00::"], [19, "tell%2:32:04::"], [25, "perform%2:41:00::"]]
 U5Qy:
     lemmas: ["Among", "the", "policy", "maker", ",", "general", ",", "physicist", ",", "psychologist", "and_others", "charge", "with", "control", "the", "action", "of", "the", "button", "pusher", "and", "their", "\"", "hardware", "\"", ",", "the", "answer", "to", "my", "question", "vary", "partly", "according", "to_a_man", "'s", "flair", "for", "what", "the", "professional", "in_this", "field", "call", "\"", "scenario", "\"", "."]
-    oewn2026_key: [[11, "oewn-02481345-v"], [13, "oewn-02445887-v"], [31, "oewn-00122978-v"], [43, "oewn-01030757-v"]]
+    oewn_key: [[11, "oewn-02481345-v"], [13, "oewn-02445887-v"], [31, "oewn-00122978-v"], [43, "oewn-01030757-v"]]
     paragraph: '4'
     pos: ["IN", "DT", "NN", "NNS", ",", "NNS", ",", "NNS", ",", "NNS", "RB", "VBN", "IN", "VBG", "DT", "NNS", "IN", "DT", "NN", "NNS", "CC", "PRP$", "``", "NN", "''", ",", "DT", "NNS", "TO", "PRP$", "NNS", "VBD", "RB", "JJ", "RB", "POS", "NN", "IN", "WP", "DT", "NNS", "RB", "NN", "VB", "''", "NNS", "''", "."]
     text: ' Among the policy makers, generals, physicists, psychologists and_others charged
@@ -216,7 +216,7 @@ U5Qy:
     wn30_key: [[11, "charge%2:41:00::"], [13, "control%2:41:00::"], [31, "vary%2:30:01::"], [43, "call%2:32:02::"]]
 JcxC:
     lemmas: ["As", "an", "air_force", "psychiatrist", "put", "it", ":", "\"", "You", "can", "n't", "have", "dry_run", "on", "this", "one", "\"", "."]
-    oewn2026_key: [[4, "oewn-00983308-v"], [11, "oewn-01737358-v"]]
+    oewn_key: [[4, "oewn-00983308-v"], [11, "oewn-01737358-v"]]
     paragraph: '4'
     pos: ["IN", "DT", "NN", "NN", "VBD", "PRP", ":", "``", "PRP", "MD", "RB", "VB", "NN", "IN", "DT", "CD", "``", "."]
     text: ' As an Air_Force psychiatrist put it: " You cann''t have dry_runs on this one ".'
@@ -225,7 +225,7 @@ JcxC:
     wn30_key: [[4, "put%2:32:00::"], [11, "have%2:36:00::"]]
 aaC1:
     lemmas: ["The", "expert", "be", "thus", "force", "to", "hypothesize", "sequence", "of", "event", "that", "have", "never", "occur", ",", "probably", "never", "will", "-", "but", "possibly", "might", "."]
-    oewn2026_key: [[4, "oewn-02510211-v"], [6, "oewn-00635105-v"], [13, "oewn-00340744-v"]]
+    oewn_key: [[4, "oewn-02510211-v"], [6, "oewn-00635105-v"], [13, "oewn-00340744-v"]]
     paragraph: '4'
     pos: ["DT", "NNS", "VBP", "RB", "VBN", "TO", "VB", "NNS", "IN", "NNS", "WDT", "VBP", "RB", "VBN", ",", "RB", "RB", "MD", ":", "CC", "RB", "MD", "."]
     text: ' The experts are thus forced to hypothesize sequences of events that have never occurred,
@@ -235,7 +235,7 @@ aaC1:
     wn30_key: [[4, "force%2:41:00::"], [6, "hypothesize%2:31:00::"], [13, "occur%2:30:00::"]]
 2h8o:
     lemmas: ["only", "one", "rule", "prevail", "in", "my", "conversation", "with", "these", "man", ":", "The", "more", "highly", "placed", "they", "be", "-", "that_is", ",", "the", "more", "they", "know", "-", "the", "more", "concerned", "they", "have", "become", "."]
-    oewn2026_key: [[3, "oewn-02653599-v"], [16, "oewn-02610777-v"], [23, "oewn-00596016-v"], [30, "oewn-00149403-v"]]
+    oewn_key: [[3, "oewn-02653599-v"], [16, "oewn-02610777-v"], [23, "oewn-00596016-v"], [30, "oewn-00149403-v"]]
     paragraph: '4'
     pos: ["RB", "CD", "NN", "VBD", "IN", "PRP$", "NNS", "IN", "DT", "NNS", ":", "DT", "RBR", "RB", "JJ", "PRP", "VBP", ":", "RB", ",", "DT", "JJR", "PRP", "VBP", ":", "DT", "RBR", "JJ", "PRP", "VBP", "VBN", "."]
     text: ' Only one rule prevailed in my conversations with these men: The more highly placed
@@ -247,7 +247,7 @@ aaC1:
     wn30_key: [[3, "prevail%2:42:00::"], [16, "be%2:42:03::"], [23, "know%2:31:01::"], [30, "become%2:30:00::"]]
 VP8T:
     lemmas: ["already", "accidental", "war", "be", "a", "silent", "guest", "at", "the", "discussion", "within", "the", "kennedy_administration", "about", "the", "urgency", "of", "disarmament", "and", "nearly", "all", "other", "question", "of", "national", "security", "."]
-    oewn2026_key: [[3, "oewn-02622439-v"]]
+    oewn_key: [[3, "oewn-02622439-v"]]
     paragraph: '5'
     pos: ["RB", "JJ", "NN", "VBZ", "DT", "JJ", "NN", "IN", "DT", "NNS", "IN", "DT", "NNP", "IN", "DT", "NN", "IN", "NN", "CC", "RB", "DT", "JJ", "NNS", "IN", "JJ", "NN", "."]
     text: ' Already accidental war is a silent guest at the discussions within the Kennedy_Administration
@@ -257,7 +257,7 @@ VP8T:
     wn30_key: [[3, "be%2:42:06::"]]
 Vh9n:
     lemmas: ["only", "recently", "new", "\"", "hole", "\"", "be", "discover", "in", "our", "safety", "measure", ",", "and", "a", "search", "be", "now", "on", "for", "more", "."]
-    oewn2026_key: [[7, "oewn-02158938-v"], [16, "oewn-02610777-v"]]
+    oewn_key: [[7, "oewn-02158938-v"], [16, "oewn-02610777-v"]]
     paragraph: '5'
     pos: ["RB", "RB", "JJ", "``", "NNS", "''", "VBD", "VBN", "IN", "PRP$", "NN", "NNS", ",", "CC", "DT", "NN", "VBZ", "RB", "IN", "IN", "JJR", "."]
     text: ' Only recently new " holes " were discovered in our safety measures, and a search
@@ -267,7 +267,7 @@ Vh9n:
     wn30_key: [[7, "discover%2:39:03::"], [16, "be%2:42:03::"]]
 f/zp:
     lemmas: ["work", "be", "under_way", "to", "see", "whether", "new", "restraining", "devices", "should", "be_installed", "on", "all", "nuclear_weapons", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [4, "oewn-00600349-v"]]
+    oewn_key: [[1, "oewn-02610777-v"], [4, "oewn-00600349-v"]]
     paragraph: '5'
     pos: ["NN", "VBZ", "JJ", "TO", "VB", "IN", "JJ", "NN", "NNS", "MD", "VB", "IN", "DT", "NN", "."]
     text: ' Work is under_way to see whether new restraining devices should be_installed on
@@ -279,7 +279,7 @@ f/zp:
     wn30_key: [[1, "be%2:42:03::"], [4, "see%2:31:02::"]]
 v/zN:
     lemmas: ["meanwhile", ",", "the", "expert", "speak", "of", "war", "trigger", "by", "\"", "false", "pre-emption", "\"", ",", "\"", "escalation", "\"", ",", "\"", "unauthorized", "behavior", "\"", "and", "other", "terms", "that", "will", "be", "discuss", "in_this", "report", "."]
-    oewn2026_key: [[4, "oewn-00964479-v"], [7, "oewn-01647199-v"], [28, "oewn-01036184-v"]]
+    oewn_key: [[4, "oewn-00964479-v"], [7, "oewn-01647199-v"], [28, "oewn-01036184-v"]]
     paragraph: '6'
     pos: ["RB", ",", "DT", "NNS", "VBP", "IN", "NNS", "VBN", "IN", "``", "JJ", "JJ", "''", ",", "``", "NN", "''", ",", "''", "JJ", "NN", "''", "CC", "JJ", "NNS", "WDT", "MD", "VB", "VBN", "RB", "NN", "."]
     text: ' Meanwhile, the experts speak of wars triggered by " false pre-emption ", " escalation
@@ -289,7 +289,7 @@ v/zN:
     wn30_key: [[4, "speak%2:32:01::"], [7, "trigger%2:36:00::"], [28, "discuss%2:32:01::"]]
 uycw:
     lemmas: ["They", "inhabit", "a", "secret", "world", "center", "on", "\"", "go", "code", "\"", "and", "\"", "gold", "phone", "\"", "."]
-    oewn2026_key: [[1, "oewn-02660511-v"], [5, "oewn-02682306-v"]]
+    oewn_key: [[1, "oewn-02660511-v"], [5, "oewn-02682306-v"]]
     paragraph: '6'
     pos: ["PRP", "VBP", "DT", "JJ", "NN", "VBN", "VB", "``", "NN", "NNS", "``", "CC", "''", "NN", "NNS", "''", "."]
     text: ' They inhabit a secret world centered on " go codes " and " gold phones ".'
@@ -298,7 +298,7 @@ uycw:
     wn30_key: [[1, "inhabit%2:42:02::"], [5, "center%2:42:00::"]]
 44W8:
     lemmas: ["Their", "conversation", "be", ",", "almost", "invariably", ",", "accompany", "by", "the", "same", "gesture", "-", "arms", "and", "pointed", "forefinger", "dart", "toward", "each", "other", "in", "arclike", "semicircular", "motion", "."]
-    oewn2026_key: [[7, "oewn-02722040-v"], [17, "oewn-01903701-v"]]
+    oewn_key: [[7, "oewn-02722040-v"], [17, "oewn-01903701-v"]]
     paragraph: '6'
     pos: ["PRP$", "NNS", "VBD", ",", "RB", "RB", ",", "VBN", "IN", "DT", "JJ", "NNS", ":", "NNS", "CC", "JJ", "NNS", "VBG", "IN", "DT", "NN", "IN", "JJ", "JJ", "NNS", "."]
     text: ' Their conversations were, almost invariably, accompanied by the same gestures -
@@ -308,7 +308,7 @@ uycw:
     wn30_key: [[7, "accompany%2:42:00::"], [17, "dart%2:38:02::"]]
 Mlgl:
     lemmas: ["One", "arm", "represent", "our", "bomber", "and", "missile", ",", "the", "other", "arm", "\"", "theirs", "\"", "."]
-    oewn2026_key: [[2, "oewn-01723161-v"]]
+    oewn_key: [[2, "oewn-01723161-v"]]
     paragraph: '6'
     pos: ["CD", "NN", "VBD", "PRP$", "NNS", "CC", "NNS", ",", "DT", "JJ", "NN", "``", "PRP", "''", "."]
     text: ' One arm represented our bombers and missiles, the other arm " theirs ".'
@@ -317,7 +317,7 @@ Mlgl:
     wn30_key: [[2, "represent%2:36:02::"]]
 mTar:
     lemmas: ["yet", "implicit_in", "each", "movement", "be", "the", "death", "of", "million", ",", "perhaps", "hundred", "of", "million", ",", "perhaps", "you", "and", "me", "-", "and", "the", "expert", "."]
-    oewn2026_key: [[4, "oewn-02610777-v"]]
+    oewn_key: [[4, "oewn-02610777-v"]]
     paragraph: '6'
     pos: ["RB", "JJ", "DT", "NN", "VBD", "DT", "NN", "IN", "NNS", ",", "RB", "NNS", "IN", "NNS", ",", "RB", "PRP", "CC", "PRP", ":", "CC", "DT", "NNS", "."]
     text: ' Yet implicit_in each movement was the death of millions, perhaps hundreds of millions,
@@ -329,7 +329,7 @@ mTar:
     wn30_key: [[4, "be%2:42:03::"]]
 jz3n:
     lemmas: ["These", "man", "be", "not", "callous", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-02610777-v"]]
     paragraph: '7'
     pos: ["DT", "NNS", "VBP", "RB", "JJ", "."]
     text: ' These men are not callous.'
@@ -338,7 +338,7 @@ jz3n:
     wn30_key: [[2, "be%2:42:03::"]]
 TBdF:
     lemmas: ["It", "be", "their", "job", "to", "think_about", "the", "unthinkable", "."]
-    oewn2026_key: [[1, "oewn-02622439-v"], [5, "oewn-00713544-v"]]
+    oewn_key: [[1, "oewn-02622439-v"], [5, "oewn-00713544-v"]]
     paragraph: '7'
     pos: ["PRP", "VBZ", "PRP$", "NN", "TO", "VB", "DT", "NN", "."]
     text: ' It is their job to think_about the unthinkable.'
@@ -347,7 +347,7 @@ TBdF:
     wn30_key: [[1, "be%2:42:06::"], [5, "think_about%2:31:03::"]]
 ivnb:
     lemmas: ["unanimously", "they", "believe", "that", "the", "world", "would", "become", "a", "safe", "place", "if", "more", "of", "us", "-", "and", "more", "russian", "and", "communist", "chinese", ",", "too", "-", "think_about", "accidental", "war", "."]
-    oewn2026_key: [[2, "oewn-00685199-v"], [7, "oewn-00149403-v"], [25, "oewn-00713544-v"]]
+    oewn_key: [[2, "oewn-00685199-v"], [7, "oewn-00149403-v"], [25, "oewn-00713544-v"]]
     paragraph: '7'
     pos: ["RB", "PRP", "VBP", "IN", "DT", "NN", "MD", "VB", "DT", "JJR", "NN", "IN", "JJR", "IN", "PRP", ":", "CC", "JJR", "NNPS", "CC", "NNP", "JJ", ",", "RB", ":", "VB", "JJ", "NN", "."]
     text: ' Unanimously they believe that the world would become a safer place if more of us
@@ -359,7 +359,7 @@ ivnb:
     wn30_key: [[2, "believe%2:31:00::"], [7, "become%2:30:00::"], [25, "think_about%2:31:03::"]]
 UZh6:
     lemmas: ["The", "first", "systematic", "thinking", "about", "this", "pandora", "'s", "box", "within", "pandora", "'s", "box", "be", "do", "four", "years", "ago", "by", "Fred_Ikle", ",", "a", "frail", ",", "meek-mannered", "Swiss-born", "sociologist", "."]
-    oewn2026_key: [[14, "oewn-02566500-v"]]
+    oewn_key: [[14, "oewn-02566500-v"]]
     paragraph: '8'
     pos: ["DT", "JJ", "JJ", "NN", "VB", "DT", "NNP", "POS", "NN", "IN", "NNP", "POS", "NNS", "VBD", "VBN", "CD", "NNS", "RB", "IN", "NNP", ",", "DT", "JJ", ",", "JJ", "JJ", "NN", "."]
     text: ' The first systematic thinking about this Pandora''s box within Pandora''s boxes
@@ -369,7 +369,7 @@ UZh6:
     wn30_key: [[14, "do%2:41:01::"]]
 v/Sm:
     lemmas: ["He", "be", ",", "and", "be", ",", "with", "the", "rand_corporation", ",", "a", "nonprofit", "pool", "of", "thinker", "finance", "by", "the", "U._S.", "air_force", "."]
-    oewn2026_key: [[1, "oewn-02450790-v"], [4, "oewn-02450790-v"], [15, "oewn-02222048-v"]]
+    oewn_key: [[1, "oewn-02450790-v"], [4, "oewn-02450790-v"], [15, "oewn-02222048-v"]]
     paragraph: '8'
     pos: ["PRP", "VBD", ",", "CC", "VBZ", ",", "IN", "DT", "NNP", ",", "DT", "JJ", "NN", "IN", "NNS", "VBN", "IN", "DT", "NNP", "NN", "."]
     text: ' He was, and is, with the RAND_Corporation, a nonprofit pool of thinkers financed
@@ -379,7 +379,7 @@ v/Sm:
     wn30_key: [[1, "be%2:41:00::"], [4, "be%2:41:00::"], [15, "finance%2:40:00::"]]
 f3q+:
     lemmas: ["His", "investigation", "make", "him", "the", "paul_revere", "of", "accidental", "war", ",", "and", "safety", "procedure", "be", "enormously", "increase", "."]
-    oewn2026_key: [[2, "oewn-00120124-v"], [15, "oewn-00156409-v"]]
+    oewn_key: [[2, "oewn-00120124-v"], [15, "oewn-00156409-v"]]
     paragraph: '8'
     pos: ["PRP$", "NNS", "VBD", "PRP", "DT", "NNP", "IN", "JJ", "NN", ",", "CC", "NN", "NNS", "VBD", "RB", "VBN", "."]
     text: ' His investigations made him the Paul_Revere of accidental war, and safety procedures
@@ -391,7 +391,7 @@ f3q+:
     wn30_key: [[2, "make%2:30:00::"], [15, "increase%2:30:00::"]]
 H/Ts:
     lemmas: ["In", "recent", "week", ",", "as", "a", "result", "of", "a", "sweeping", "defense_policy", "reappraisal", "by", "the", "kennedy_administration", ",", "basic", "united_states", "strategy", "have", "be", "modify", "-", "and", "large", "new", "sum", "allocate", "-", "to", "meet", "the", "accidental-war", "danger", "and", "to", "reduce", "it", "as", "quickly", "as", "possible", "."]
-    oewn2026_key: [[21, "oewn-00169614-v"], [27, "oewn-02238869-v"], [30, "oewn-01185870-v"], [36, "oewn-00430013-v"]]
+    oewn_key: [[21, "oewn-00169614-v"], [27, "oewn-02238869-v"], [30, "oewn-01185870-v"], [36, "oewn-00430013-v"]]
     paragraph: '9'
     pos: ["IN", "JJ", "NNS", ",", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "NN", "IN", "DT", "NNP", ",", "JJ", "NN", "NN", "VBZ", "VBN", "VBN", ":", "CC", "JJ", "JJ", "NNS", "VBN", ":", "TO", "VB", "DT", "NN", "NN", "CC", "TO", "VB", "PRP", "RB", "RB", "IN", "JJ", "."]
     text: ' In recent weeks, as a result of a sweeping defense_policy reappraisal by the Kennedy_Administration,
@@ -404,7 +404,7 @@ H/Ts:
     wn30_key: [[21, "modify%2:30:00::"], [27, "allocate%2:40:00::"], [30, "meet%2:41:02::"], [36, "reduce%2:30:00::"]]
 RJXG:
     lemmas: ["The", "chain", "start", "at", "bmew", "(", "ballistic_missile", "early_warning_system", ")", "in", "thule", ",", "greenland", "."]
-    oewn2026_key: [[2, "oewn-02614382-v"]]
+    oewn_key: [[2, "oewn-02614382-v"]]
     paragraph: '10'
     pos: ["DT", "NN", "VBZ", "IN", "NNP", "NNP", "NN", "NN", "NNP", "IN", "NNP", ",", "NNP", "."]
     text: ' The chain starts at BMEWS (Ballistic_Missile Early_Warning_System) in Thule, Greenland.'
@@ -413,7 +413,7 @@ RJXG:
     wn30_key: [[2, "start%2:42:00::"]]
 /NAu:
     lemmas: ["Its", "radar", "screen", "would", "register", "soviet", "missile", "shortly", "after", "they", "be", "launch", "against", "the", "united_states", "."]
-    oewn2026_key: [[4, "oewn-00924838-v"], [11, "oewn-01517287-v"]]
+    oewn_key: [[4, "oewn-00924838-v"], [11, "oewn-01517287-v"]]
     paragraph: '10'
     pos: ["PRP$", "NN", "NNS", "MD", "VB", "JJ", "NNS", "RB", "IN", "PRP", "VBP", "VBN", "IN", "DT", "NN", "."]
     text: ' Its radar screens would register Soviet missiles shortly after they are launched
@@ -423,7 +423,7 @@ RJXG:
     wn30_key: [[4, "register%2:32:00::"], [11, "launch%2:35:00::"]]
 dp0h:
     lemmas: ["bmew", "intelligence", "be", "simultaneously", "flash", "to", "NORAD", "(", "north_american", "air_defense", "command", ")", "in", "colorado_springs", ",", "colorado", ",", "for", "interpretation", ";", "to", "the", "sac", "command", "and", "control", "post", ",", "forty-five", "foot", "below", "the", "ground", "at", "Offutt", "air_force", "base", ",", "near", "omaha", ",", "nebraska", ";", "to", "the", "joint_war_room", "of", "the", "joint", "chief_of_staff", "in", "the", "pentagon", "and", "to", "the", "president", "."]
-    oewn2026_key: [[4, "oewn-00931471-v"]]
+    oewn_key: [[4, "oewn-00931471-v"]]
     paragraph: '10'
     pos: ["NNP", "NN", "VBZ", "RB", "VBN", "TO", "NNP", "FW", "NN", "NN", "NNP", "NN", "IN", "NN", ",", "NNP", ",", "IN", "NN", ":", "TO", "DT", "NNP", "NN", "CC", "NN", "NN", ",", "CD", "NNS", "IN", "DT", "NN", "IN", "NNP", "NN", "NNP", ",", "IN", "NNP", ",", "NNP", ":", "TO", "DT", "NNP", "IN", "DT", "NNP", "NN", "IN", "DT", "NNP", "CC", "TO", "DT", "NNP", "."]
     text: ' BMEWS intelligence is simultaneously flashed to NORAD (North_American Air_Defense
@@ -438,7 +438,7 @@ dp0h:
     wn30_key: [[4, "flash%2:32:00::"]]
 W00R:
     lemmas: ["telephone", ",", "teletype", ",", "several", "kind", "of", "radio", "system", "and", ",", "in", "some", "case", ",", "television", ",", "link", "all", "vital", "point", "."]
-    oewn2026_key: [[17, "oewn-01357376-v"]]
+    oewn_key: [[17, "oewn-01357376-v"]]
     paragraph: '11'
     pos: ["NNP", ",", "NNS", ",", "JJ", "NNS", "IN", "NN", "NNS", "CC", ",", "IN", "DT", "NNS", ",", "NN", ",", "VBP", "DT", "JJ", "NNS", "."]
     text: ' Telephones, Teletypes, several kinds of radio systems and, in some cases, television,
@@ -448,7 +448,7 @@ W00R:
     wn30_key: [[17, "link%2:35:00::"]]
 D3tJ:
     lemmas: ["alternate", "location", "exist", "for", "all", "key", "command", "center", "."]
-    oewn2026_key: [[2, "oewn-02609706-v"]]
+    oewn_key: [[2, "oewn-02609706-v"]]
     paragraph: '11'
     pos: ["JJ", "NNS", "VBP", "IN", "DT", "JJ", "NN", "NNS", "."]
     text: ' Alternate locations exist for all key command centers.'
@@ -457,7 +457,7 @@ D3tJ:
     wn30_key: [[2, "exist%2:42:00::"]]
 6nSr:
     lemmas: ["For", "last-ditch", "emergency", "sac", "have", "alternate", "command_post", "on", "KC-135", "jet", "tanker", "."]
-    oewn2026_key: [[4, "oewn-02208144-v"]]
+    oewn_key: [[4, "oewn-02208144-v"]]
     paragraph: '11'
     pos: ["IN", "JJ", "NNS", "NNP", "VBZ", "JJ", "NN", "IN", "NNP", "NN", "NNS", "."]
     text: ' For last-ditch emergencies SAC has alternate command_posts on KC-135 jet tankers.'
@@ -466,7 +466,7 @@ D3tJ:
     wn30_key: [[4, "have%2:40:00::"]]
 VOHy:
     lemmas: ["multiple", "circuit", ",", "routing", "and", "frequency", "make", "the", "chain", "as", "unbreakable", "as", "possible", "."]
-    oewn2026_key: [[6, "oewn-00120124-v"]]
+    oewn_key: [[6, "oewn-00120124-v"]]
     paragraph: '11'
     pos: ["NNP", "NNS", ",", "NNS", "CC", "NNS", "VBP", "DT", "NN", "RB", "JJ", "IN", "JJ", "."]
     text: ' Multiple circuits, routings and frequencies make the chain as unbreakable as possible.
@@ -477,7 +477,7 @@ VOHy:
     wn30_key: [[6, "make%2:30:00::"]]
 jJb0:
     lemmas: ["The", "same", "principle", "of", "\"", "redundancy", "\"", "apply", "to", "all", "communications", "on", "these", "special", "network", "."]
-    oewn2026_key: [[7, "oewn-02682599-v"]]
+    oewn_key: [[7, "oewn-02682599-v"]]
     paragraph: '12'
     pos: ["DT", "JJ", "NN", "IN", "``", "NN", "''", "VBZ", "VB", "DT", "NNS", "IN", "DT", "JJ", "NNS", "."]
     text: ' The same principle of " redundancy " applies to all communications on these special
@@ -487,7 +487,7 @@ jJb0:
     wn30_key: [[7, "apply%2:42:00::"]]
 fnf2:
     lemmas: ["And", "no", "message", "can", "be", "transmit", "on", "these", "circuit", "until", "sender", "and", "receiver", "authenticate", "in_advance", ",", "by", "special", "code", ",", "that", "the", "message", "actually", "come", "from", "their", "purported", "source", "."]
-    oewn2026_key: [[5, "oewn-00975088-v"], [13, "oewn-00666194-v"], [24, "oewn-02631420-v"]]
+    oewn_key: [[5, "oewn-00975088-v"], [13, "oewn-00666194-v"], [24, "oewn-02631420-v"]]
     paragraph: '12'
     pos: ["CC", "DT", "NNS", "MD", "VB", "VBN", "IN", "DT", "NNS", "IN", "NNS", "CC", "NNS", "VBP", "RB", ",", "IN", "JJ", "NNS", ",", "IN", "DT", "NNS", "RB", "VBP", "VB", "PRP$", "JJ", "NNS", "."]
     text: ' And no messages can be transmitted on these circuits until senders and receivers
@@ -498,7 +498,7 @@ fnf2:
     wn30_key: [[5, "transmit%2:32:00::"], [13, "authenticate%2:31:00::"], [24, "come%2:42:04::"]]
 pQ10:
     lemmas: ["additional", "code", "can", "be", "use", "to", "challenge", "and", "counterchallenge", "the", "authentication", "."]
-    oewn2026_key: [[4, "oewn-01161188-v"], [6, "oewn-00810005-v"], [8, "oewn-00810190-v"]]
+    oewn_key: [[4, "oewn-01161188-v"], [6, "oewn-00810005-v"], [8, "oewn-00810190-v"]]
     paragraph: '12'
     pos: ["JJ", "NNS", "MD", "VB", "VBN", "TO", "VB", "CC", "VB", "DT", "NNS", "."]
     text: ' Additional codes can be used to challenge and counterchallenge the authentications.
@@ -509,7 +509,7 @@ pQ10:
     wn30_key: [[4, "use%2:34:01::"], [6, "challenge%2:32:03::"], [8, "counterchallenge%2:32:00::"]]
 fkYf:
     lemmas: ["only", "the", "president", "be", "permit", "to", "authorize", "the", "use", "of", "nuclear_weapons", "."]
-    oewn2026_key: [[4, "oewn-00803980-v"], [6, "oewn-00804987-v"]]
+    oewn_key: [[4, "oewn-00803980-v"], [6, "oewn-00804987-v"]]
     paragraph: '13'
     pos: ["RB", "DT", "NNP", "VBZ", "VBN", "TO", "VB", "DT", "NN", "IN", "NN", "."]
     text: ' Only the President is permitted to authorize the use of nuclear_weapons.'
@@ -518,7 +518,7 @@ fkYf:
     wn30_key: [[4, "permit%2:32:00::"], [6, "authorize%2:32:00::"]]
 EqhH:
     lemmas: ["That", "'s", "the", "law", "."]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '13'
     pos: ["DT", "VBZ", "DT", "NN", "."]
     text: ' That''s the law.'
@@ -527,7 +527,7 @@ EqhH:
     wn30_key: []
 n6xq:
     lemmas: ["But", "what", "if", "somebody", "decide", "to", "break", "it", "?"]
-    oewn2026_key: [[4, "oewn-00699355-v"], [6, "oewn-02572443-v"]]
+    oewn_key: [[4, "oewn-00699355-v"], [6, "oewn-02572443-v"]]
     paragraph: '13'
     pos: ["CC", "WP", "IN", "NN", "VBZ", "TO", "VB", "PRP", "."]
     text: ' But what if somebody decides to break it?'
@@ -536,7 +536,7 @@ n6xq:
     wn30_key: [[4, "decide%2:31:00::"], [6, "break%2:41:00::"]]
 eesX:
     lemmas: ["The", "president", "cannot", "personally", "remove", "the", "safety", "devices", "from", "every", "nuclear", "trigger", "."]
-    oewn2026_key: [[4, "oewn-00173351-v"]]
+    oewn_key: [[4, "oewn-00173351-v"]]
     paragraph: '13'
     pos: ["DT", "NNP", "MD", "RB", "VB", "DT", "NN", "NNS", "IN", "DT", "JJ", "NN", "."]
     text: ' The President cannot personally remove the safety devices from every nuclear trigger.'
@@ -545,7 +545,7 @@ eesX:
     wn30_key: [[4, "remove%2:30:00::"]]
 dTJT:
     lemmas: ["He", "make", "the", "momentous", "decision", "."]
-    oewn2026_key: [[1, "oewn-02566500-v"]]
+    oewn_key: [[1, "oewn-02566500-v"]]
     paragraph: '13'
     pos: ["PRP", "VBZ", "DT", "JJ", "NN", "."]
     text: ' He makes the momentous decision.'
@@ -554,7 +554,7 @@ dTJT:
     wn30_key: [[1, "make%2:41:00::"]]
 7Lc5:
     lemmas: ["hundred", "of", "man", "be", "require", "to", "pass", "the", "word", "to", "the", "button", "pusher", "and", "to", "push", "the", "button", "."]
-    oewn2026_key: [[4, "oewn-02634015-v"], [6, "oewn-00744289-v"], [15, "oewn-01875972-v"]]
+    oewn_key: [[4, "oewn-02634015-v"], [6, "oewn-00744289-v"], [15, "oewn-01875972-v"]]
     paragraph: '13'
     pos: ["NNS", "IN", "NNS", "VBP", "VBN", "TO", "VB", "DT", "NN", "TO", "DT", "NN", "NNS", "CC", "TO", "VB", "DT", "NNS", "."]
     text: ' Hundreds of men are required to pass the word to the button pushers and to push
@@ -564,7 +564,7 @@ dTJT:
     wn30_key: [[4, "require%2:42:00::"], [6, "pass%2:32:01::"], [15, "push%2:38:00::"]]
 HI46:
     lemmas: ["What", "if", "one", "or", "more", "of", "them", "turn", "irrational", "or", "suddenly", ",", "coolly", ",", "decide", "to", "clobber", "the", "russian", "?"]
-    oewn2026_key: [[7, "oewn-00125649-v"], [14, "oewn-00699355-v"], [16, "oewn-01420070-v"]]
+    oewn_key: [[7, "oewn-00125649-v"], [14, "oewn-00699355-v"], [16, "oewn-01420070-v"]]
     paragraph: '13'
     pos: ["WP", "IN", "CD", "CC", "JJR", "IN", "PRP", "VBP", "JJ", "CC", "RB", ",", "RB", ",", "VBP", "TO", "VB", "DT", "NNPS", "."]
     text: ' What if one or more of them turn irrational or suddenly, coolly, decide to clobber
@@ -574,7 +574,7 @@ HI46:
     wn30_key: [[7, "turn%2:30:03::"], [14, "decide%2:31:00::"], [16, "clobber%2:35:01::"]]
 UFcp:
     lemmas: ["What", "if", "the", "president", "himself", ",", "in", "the", "language", "of", "the", "military", ",", "\"", "go_ape", "\"", "?"]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '13'
     pos: ["WP", "IN", "DT", "NNP", "PRP", ",", "IN", "DT", "NN", "IN", "DT", "JJ", ",", "``", "VB", "''", "."]
     text: ' What if the President himself, in the language of the military, " goes_ape "?'
@@ -583,7 +583,7 @@ UFcp:
     wn30_key: []
 3mhA:
     lemmas: ["Or", "singlehandedly", "decide", "to", "reverse", "national", "policy", "and", "hit", "the", "soviets", "without", "provocation", "?"]
-    oewn2026_key: [[2, "oewn-00699355-v"], [4, "oewn-00718035-v"], [8, "oewn-01126313-v"]]
+    oewn_key: [[2, "oewn-00699355-v"], [4, "oewn-00718035-v"], [8, "oewn-01126313-v"]]
     paragraph: '13'
     pos: ["CC", "RB", "VBD", "TO", "VB", "JJ", "NN", "CC", "VBD", "DT", "NNPS", "IN", "NN", "."]
     text: ' Or singlehandedly decided to reverse national policy and hit the Soviets without
@@ -595,7 +595,7 @@ UFcp:
     wn30_key: [[2, "decide%2:31:00::"], [4, "reverse%2:31:00::"], [8, "hit%2:33:00::"]]
 rKuN:
     lemmas: ["nobody", "can", "be", "absolutely", "certain", "of", "the", "answer", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-02610777-v"]]
     paragraph: '14'
     pos: ["NN", "MD", "VB", "RB", "JJ", "IN", "DT", "NNS", "."]
     text: ' Nobody can be absolutely certain of the answers.'
@@ -604,7 +604,7 @@ rKuN:
     wn30_key: [[2, "be%2:42:03::"]]
 HRdo:
     lemmas: ["however", ",", "the", "system", "be", "design", ",", "ingeniously", "and", "hopefully", ",", "so_that", "no", "one", "man", "could", "initiate", "a", "thermonuclear", "war", "."]
-    oewn2026_key: [[5, "oewn-00711454-v"], [16, "oewn-01631641-v"]]
+    oewn_key: [[5, "oewn-00711454-v"], [16, "oewn-01631641-v"]]
     paragraph: '14'
     pos: ["RB", ",", "DT", "NN", "VBZ", "VBN", ",", "RB", "CC", "RB", ",", "RB", "DT", "NN", "NN", "MD", "VB", "DT", "JJ", "NN", "."]
     text: ' However, the system is designed, ingeniously and hopefully, so_that no one man could
@@ -616,7 +616,7 @@ HRdo:
     wn30_key: [[5, "design%2:31:00::"], [16, "initiate%2:36:01::"]]
 Pn1W:
     lemmas: ["even", "the", "president", "cannot", "pick_up", "his", "telephone", "and", "give", "a", "\"", "go", "\"", "order", "."]
-    oewn2026_key: [[4, "oewn-01210022-v"], [8, "oewn-01062366-v"]]
+    oewn_key: [[4, "oewn-01210022-v"], [8, "oewn-01062366-v"]]
     paragraph: '15'
     pos: ["RB", "DT", "NNP", "MD", "VB", "PRP$", "NN", "CC", "VB", "DT", "``", "NN", "''", "NN", "."]
     text: ' Even the President cannot pick_up his telephone and give a " go " order.'
@@ -625,7 +625,7 @@ Pn1W:
     wn30_key: [[4, "pick_up%2:35:01::"], [8, "give%2:32:01::"]]
 4dBY:
     lemmas: ["even", "he", "do", "not", "know", "the", "one", "signal", "for", "a", "nuclear", "strike", "-", "the", "\"", "go", "code", "\"", "."]
-    oewn2026_key: [[4, "oewn-00596016-v"]]
+    oewn_key: [[4, "oewn-00596016-v"]]
     paragraph: '15'
     pos: ["RB", "PRP", "VBZ", "RB", "VB", "DT", "CD", "NN", "IN", "DT", "JJ", "NN", ":", "DT", "``", "NN", "NN", "''", "."]
     text: ' Even he does not know the one signal for a nuclear strike - the " go code ".'
@@ -634,7 +634,7 @@ Pn1W:
     wn30_key: [[4, "know%2:31:01::"]]
 mI1g:
     lemmas: ["In", "an", "emergency", "he", "would", "receive", "available", "intelligence", "on", "the", "\"", "gold-phone", "circuit", "\"", "."]
-    oewn2026_key: [[5, "oewn-02111702-v"]]
+    oewn_key: [[5, "oewn-02111702-v"]]
     paragraph: '15'
     pos: ["IN", "DT", "NN", "PRP", "MD", "VB", "JJ", "NN", "IN", "DT", "``", "NN", "NN", "''", "."]
     text: ' In an emergency he would receive available intelligence on the " gold-phone circuit
@@ -644,7 +644,7 @@ mI1g:
     wn30_key: [[5, "receive%2:39:00::"]]
 U6+R:
     lemmas: ["A", "system", "of", "\"", "gold", "\"", "-", "actually", "yellow", "-", "phone", "connect", "him", "with", "the", "office", "and", "action", "stations", "of", "the", "secretary", "of", "defense", ",", "the", "joint", "chief_of_staff", ",", "the", "sac", "commander", "and", "other", "key", "man", "."]
-    oewn2026_key: [[11, "oewn-01357376-v"]]
+    oewn_key: [[11, "oewn-01357376-v"]]
     paragraph: '15'
     pos: ["DT", "NN", "IN", "``", "NN", "''", ":", "RB", "JJ", ":", "NNS", "VBZ", "PRP", "IN", "DT", "NNS", "CC", "NN", "NNS", "IN", "DT", "NNP", "IN", "NNP", ",", "DT", "NNP", "NN", ",", "DT", "NNP", "NN", "CC", "JJ", "JJ", "NNS", "."]
     text: ' A system of " gold " - actually yellow - phones connects him with the offices and
@@ -655,7 +655,7 @@ U6+R:
     wn30_key: [[11, "connect%2:35:00::"]]
 52QY:
     lemmas: ["All", "can", "be_connected", "with", "the", "gold", "circuit", "from", "their", "home", "."]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '15'
     pos: ["DT", "MD", "VB", "IN", "DT", "NN", "NN", "IN", "PRP$", "NNS", "."]
     text: ' All can be_connected with the gold circuit from their homes.'
@@ -664,7 +664,7 @@ U6+R:
     wn30_key: []
 ZgyP:
     lemmas: ["All", "could", "help", "the", "president", "make", "his", "decision", "."]
-    oewn2026_key: [[2, "oewn-02553283-v"]]
+    oewn_key: [[2, "oewn-02553283-v"]]
     paragraph: '15'
     pos: ["DT", "MD", "VB", "DT", "NNP", "VB", "PRP$", "NN", "."]
     text: ' All could help the President make his decision.'
@@ -673,7 +673,7 @@ ZgyP:
     wn30_key: [[2, "help%2:41:00::"]]
 wo9S:
     lemmas: ["The", "talk", "would", "not", "be", "in", "code", ",", "but", "neither", "would", "it", "ramble", "."]
-    oewn2026_key: [[4, "oewn-02610777-v"], [12, "oewn-02690276-v"]]
+    oewn_key: [[4, "oewn-02610777-v"], [12, "oewn-02690276-v"]]
     paragraph: '15'
     pos: ["DT", "NN", "MD", "RB", "VB", "IN", "NN", ",", "CC", "DT", "MD", "PRP", "VB", "."]
     text: ' The talk would not be in code, but neither would it ramble.'
@@ -682,7 +682,7 @@ wo9S:
     wn30_key: [[4, "be%2:42:03::"], [12, "ramble%2:42:00::"]]
 YRez:
     lemmas: ["vital", "question", "would", "be", "quickly", "answer", "according", "to", "a", "preprepared", "agenda", "."]
-    oewn2026_key: [[5, "oewn-00637941-v"]]
+    oewn_key: [[5, "oewn-00637941-v"]]
     paragraph: '15'
     pos: ["JJ", "NNS", "MD", "VB", "RB", "VBN", "JJ", "TO", "DT", "JJ", "NN", "."]
     text: ' Vital questions would be quickly answered according to a preprepared agenda.'
@@ -691,7 +691,7 @@ YRez:
     wn30_key: [[5, "answer%2:31:00::"]]
 8m24:
     lemmas: ["officer", "who", "participate", "in", "the", "continual", "practice", "drill", "assure", "me", "that", "the", "president", "'s", "decision", "could", "be", "make", "and", "announce", "on", "the", "gold", "circuit", "within", "minutes", "after", "the", "first", "flash", "from", "bmew", "."]
-    oewn2026_key: [[2, "oewn-02455121-v"], [8, "oewn-01021652-v"], [19, "oewn-00967903-v"]]
+    oewn_key: [[2, "oewn-02455121-v"], [8, "oewn-01021652-v"], [19, "oewn-00967903-v"]]
     paragraph: '15'
     pos: ["NNS", "WP", "VBP", "IN", "DT", "JJ", "NN", "NNS", "VBD", "PRP", "IN", "DT", "NNP", "POS", "NN", "MD", "VB", "VBN", "CC", "VBN", "IN", "DT", "NN", "NN", "IN", "NNS", "IN", "DT", "JJ", "NN", "IN", "NNP", "."]
     text: ' Officers who participate in the continual practice drills assured me that the President''s
@@ -704,7 +704,7 @@ YRez:
     wn30_key: [[2, "participate%2:41:00::"], [8, "assure%2:32:00::"], [19, "announce%2:32:02::"]]
 /B74:
     lemmas: ["If", "communications", "work", ",", "his", "decision", "would", "be", "instantly", "know", "in_all", "command_post", "that", "would", "originate", "the", "actual", "go", "order", "."]
-    oewn2026_key: [[2, "oewn-02531113-v"], [9, "oewn-00596016-v"], [14, "oewn-01631641-v"]]
+    oewn_key: [[2, "oewn-02531113-v"], [9, "oewn-00596016-v"], [14, "oewn-01631641-v"]]
     paragraph: '16'
     pos: ["IN", "NNS", "VBP", ",", "PRP$", "NN", "MD", "VB", "RB", "VBN", "RB", "NN", "WDT", "MD", "VB", "DT", "JJ", "NN", "NN", "."]
     text: ' If communications work, his decision would be instantly known in_all command_posts
@@ -714,7 +714,7 @@ YRez:
     wn30_key: [[2, "work%2:41:03::"], [9, "know%2:31:01::"], [14, "originate%2:36:00::"]]
 GBhr:
     lemmas: ["For", "these", "center", ",", "too", ",", "be", "on", "the", "gold", "circuit", "."]
-    oewn2026_key: [[6, "oewn-02661230-v"]]
+    oewn_key: [[6, "oewn-02661230-v"]]
     paragraph: '16'
     pos: ["IN", "DT", "NNS", ",", "RB", ",", "VBP", "VB", "DT", "NN", "NN", "."]
     text: ' For these centers, too, are on the gold circuit.'
@@ -723,7 +723,7 @@ GBhr:
     wn30_key: [[6, "be%2:42:05::"]]
 OhDc:
     lemmas: ["They", "include", "the", "navy", "'s", "atlantic_command", "at", "norfolk", ",", "virginia", ",", "which", "be", "in_contact", "with", "the", "polaris", "sub", ";", "nato", "headquarters", "in", "europe", ";", "air_force", "forward", "headquarters", "in", "europe", "and", "in", "the", "pacific", ",", "which", "control", "tactical", "fighter", "on", "ship", "and", "land", "base", ";", "and", "sac", ",", "which", "control", "long-range", "bomber", "and", "atlas", "missile", "."]
-    oewn2026_key: [[1, "oewn-02639021-v"], [12, "oewn-02610777-v"], [35, "oewn-02445887-v"], [48, "oewn-02445887-v"]]
+    oewn_key: [[1, "oewn-02639021-v"], [12, "oewn-02610777-v"], [35, "oewn-02445887-v"], [48, "oewn-02445887-v"]]
     paragraph: '16'
     pos: ["PRP", "VBP", "DT", "NNP", "POS", "NNP", "IN", "NNP", ",", "NNP", ",", "WDT", "VBZ", "JJ", "IN", "DT", "NNP", "NNS", ":", "NNP", "NN", "IN", "NNP", ":", "NN", "RB", "NN", "IN", "NNP", "CC", "IN", "DT", "NNP", ",", "WDT", "VBP", "JJ", "NNS", "IN", "NNS", "CC", "NN", "NNS", ":", "CC", "NNP", ",", "WDT", "VBZ", "JJ", "NNS", "CC", "NNP", "NNS", "."]
     text: ' They include the Navy''s Atlantic_Command at Norfolk, Virginia, which is in_contact
@@ -737,7 +737,7 @@ OhDc:
     wn30_key: [[1, "include%2:42:00::"], [12, "be%2:42:03::"], [35, "control%2:41:00::"], [48, "control%2:41:00::"]]
 Bbe8:
     lemmas: ["let", "us", "look", "in", "on", "one", "of", "these", "nerve_center", "-", "sac", "at", "omaha", "-", "and", "see", "what", "must", "still", "happen", "before", "a", "wing", "of", "b-52", "bomber", "could", "drop", "their", "h-bomb", "."]
-    oewn2026_key: [[2, "oewn-02134989-v"], [15, "oewn-00600349-v"], [19, "oewn-00340744-v"], [27, "oewn-01981715-v"]]
+    oewn_key: [[2, "oewn-02134989-v"], [15, "oewn-00600349-v"], [19, "oewn-00340744-v"], [27, "oewn-01981715-v"]]
     paragraph: '17'
     pos: ["VB", "PRP", "VB", "RB", "IN", "CD", "IN", "DT", "NN", ":", "NNP", "IN", "NNP", ":", "CC", "VB", "WP", "MD", "RB", "VB", "IN", "DT", "NN", "IN", "NNP", "NNS", "MD", "VB", "PRP$", "NNP", "."]
     text: ' Let us look in on one of these nerve_centers - SAC at Omaha - and see what must
@@ -749,7 +749,7 @@ Bbe8:
     wn30_key: [[2, "look%2:39:00::"], [15, "see%2:31:02::"], [19, "happen%2:30:00::"], [27, "drop%2:38:01::"]]
 F4Xq:
     lemmas: ["In", "a", "word", ",", "plenty", "."]
-    oewn2026_key: []
+    oewn_key: []
     paragraph: '18'
     pos: ["IN", "DT", "NN", ",", "NN", "."]
     text: ' In a word, plenty.'
@@ -758,7 +758,7 @@ F4Xq:
     wn30_key: []
 MnvA:
     lemmas: ["The", "key", "man", "almost", "certainly", "would", "be", "Col._William_W._Wisman", ",", "sac", "'s", "senior", "controller", "."]
-    oewn2026_key: [[6, "oewn-02622439-v"]]
+    oewn_key: [[6, "oewn-02622439-v"]]
     paragraph: '18'
     pos: ["DT", "JJ", "NN", "RB", "RB", "MD", "VB", "NNP", ",", "NNP", "POS", "JJ", "NN", "."]
     text: ' The key man almost certainly would be Col._William_W._Wisman, SAC''s senior controller.'
@@ -767,7 +767,7 @@ MnvA:
     wn30_key: [[6, "be%2:42:06::"]]
 NKj0:
     lemmas: ["He", "or", "his", "deputy", "or", "one", "of", "their", "seven", "assistant", ",", "all", "full", "colonel", ",", "man", "the", "heart", "of", "the", "command_post", "twenty-four_hours", "a", "day", "."]
-    oewn2026_key: [[15, "oewn-02426091-v"]]
+    oewn_key: [[15, "oewn-02426091-v"]]
     paragraph: '18'
     pos: ["PRP", "CC", "PRP$", "NN", "CC", "CD", "IN", "PRP$", "CD", "NNS", ",", "DT", "JJ", "NNS", ",", "VBZ", "DT", "NN", "IN", "DT", "NN", "NN", "DT", "NN", "."]
     text: ' He or his deputy or one of their seven assistants, all full colonels, mans the heart
@@ -777,7 +777,7 @@ NKj0:
     wn30_key: [[15, "man%2:41:00::"]]
 Z3cH:
     lemmas: ["It", "be", "a", "quiet", "but", "impressive", "room", "-", "140", "foot", "long", ",", "thirty-nine", "foot", "wide", ",", "twenty-one", "foot", "high", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"]]
+    oewn_key: [[1, "oewn-02610777-v"]]
     paragraph: '18'
     pos: ["PRP", "VBZ", "DT", "JJ", "CC", "JJ", "NN", ":", "CD", "NNS", "JJ", ",", "CD", "NNS", "JJ", ",", "CD", "NNS", "JJ", "."]
     text: ' It is a quiet but impressive room - 140 feet long, thirty-nine feet wide, twenty-one
@@ -787,7 +787,7 @@ Z3cH:
     wn30_key: [[1, "be%2:42:03::"]]
 /Bak:
     lemmas: ["movable", "panel", "of", "floor-to-ceiling", "map", "and", "chart", "be", "crammed", "with", "intelligence", "information", "."]
-    oewn2026_key: [[7, "oewn-02610777-v"]]
+    oewn_key: [[7, "oewn-02610777-v"]]
     paragraph: '18'
     pos: ["JJ", "NNS", "IN", "JJ", "NNS", "CC", "NNS", "VBP", "JJ", "IN", "NN", "NN", "."]
     text: ' Movable panels of floor-to-ceiling maps and charts are crammed with intelligence
@@ -797,7 +797,7 @@ Z3cH:
     wn30_key: [[7, "be%2:42:03::"]]
 3Mh1:
     lemmas: ["And", "bill_wisman", ",", "forty-three", ",", "a", "farmer", "'s", "son", "from", "Beallsville", ",", "ohio", ",", "be", "a", "quiet", "but", "impressive", "man", "."]
-    oewn2026_key: [[14, "oewn-02610777-v"]]
+    oewn_key: [[14, "oewn-02610777-v"]]
     paragraph: '18'
     pos: ["CC", "NNP", ",", "CD", ",", "DT", "NN", "POS", "NN", "IN", "NNP", ",", "NNP", ",", "VBZ", "DT", "JJ", "CC", "JJ", "NN", "."]
     text: ' And Bill_Wisman, forty-three, a farmer''s son from Beallsville, Ohio, is a quiet
@@ -807,7 +807,7 @@ Z3cH:
     wn30_key: [[14, "be%2:42:03::"]]
 MztD:
     lemmas: ["His", "eyes", "be", "steady", "anchor", "of", "the", "deep", "brown", "."]
-    oewn2026_key: [[2, "oewn-02622439-v"]]
+    oewn_key: [[2, "oewn-02622439-v"]]
     paragraph: '18'
     pos: ["PRP$", "NNS", "VBP", "JJ", "NNS", "IN", "DT", "JJS", "JJ", "."]
     text: ' His eyes are steady anchors of the deepest brown.'
@@ -816,7 +816,7 @@ MztD:
     wn30_key: [[2, "be%2:42:06::"]]
 5hWx:
     lemmas: ["His", "movement", "and", "speech", "be", "precise", ",", "clear", "and", "quick", "."]
-    oewn2026_key: [[4, "oewn-02610777-v"]]
+    oewn_key: [[4, "oewn-02610777-v"]]
     paragraph: '18'
     pos: ["PRP$", "NNS", "CC", "NN", "VBP", "JJ", ",", "JJ", "CC", "JJ", "."]
     text: ' His movements and speech are precise, clear and quick.'
@@ -825,7 +825,7 @@ MztD:
     wn30_key: [[4, "be%2:42:03::"]]
 UqxT:
     lemmas: ["No", "question", "ruffle", "him", "or", "cause", "him", "to", "hesitate", "."]
-    oewn2026_key: [[2, "oewn-01792866-v"], [5, "oewn-00772482-v"], [8, "oewn-02646524-v"]]
+    oewn_key: [[2, "oewn-01792866-v"], [5, "oewn-00772482-v"], [8, "oewn-02646524-v"]]
     paragraph: '18'
     pos: ["DT", "NN", "VBZ", "PRP", "CC", "VBZ", "PRP", "TO", "VB", "."]
     text: ' No question ruffles him or causes him to hesitate.
@@ -836,7 +836,7 @@ UqxT:
     wn30_key: [[2, "ruffle%2:37:00::"], [5, "cause%2:32:00::"], [8, "hesitate%2:42:00::"]]
 UhTu:
     lemmas: ["Wisman", ",", "who", "have", "have", "the", "chief", "controller", "'s", "job", "for", "four", "years", ",", "call", "the", "signal", "for", "a", "team", "operate", "three", "row", "of", "dull-gray", "console", "studded", "with", "light", ",", "switch", "and", "button", "."]
-    oewn2026_key: [[4, "oewn-02208144-v"], [14, "oewn-00794133-v"], [20, "oewn-01227308-v"]]
+    oewn_key: [[4, "oewn-02208144-v"], [14, "oewn-00794133-v"], [20, "oewn-01227308-v"]]
     paragraph: '19'
     pos: ["NNP", ",", "WP", "VBZ", "VBD", "DT", "JJ", "NN", "POS", "NN", "IN", "CD", "NNS", ",", "VBZ", "DT", "NNS", "IN", "DT", "NN", "VBG", "CD", "NNS", "IN", "JJ", "NNS", "JJ", "IN", "NNS", ",", "NNS", "CC", "NNS", "."]
     text: ' Wisman, who has had the chief controller''s job for four years, calls the signals
@@ -847,7 +847,7 @@ UhTu:
     wn30_key: [[4, "have%2:40:00::"], [14, "call%2:32:05::"], [20, "operate%2:35:00::"]]
 39ER:
     lemmas: ["at_least", "a", "dozen", "man", ",", "some", "armed", ",", "be", "never", "far", "away", "from", "him", "."]
-    oewn2026_key: [[8, "oewn-02610777-v"]]
+    oewn_key: [[8, "oewn-02610777-v"]]
     paragraph: '19'
     pos: ["RB", "DT", "NN", "NNS", ",", "DT", "JJ", ",", "VBP", "RB", "RB", "RB", "IN", "PRP", "."]
     text: ' At_least a dozen men, some armed, are never far away from him.'
@@ -856,7 +856,7 @@ UhTu:
     wn30_key: [[8, "be%2:42:03::"]]
 rg+5:
     lemmas: ["in_front", "of", "him", "be", "a", "gold", "phone", "."]
-    oewn2026_key: [[3, "oewn-02661230-v"]]
+    oewn_key: [[3, "oewn-02661230-v"]]
     paragraph: '19'
     pos: ["RB", "IN", "PRP", "VBZ", "DT", "NN", "NN", "."]
     text: ' In_front of him is a gold phone.'
@@ -865,7 +865,7 @@ rg+5:
     wn30_key: [[3, "be%2:42:05::"]]
 MNPL:
     lemmas: ["In", "emergency", "the", "sac", "commander", ",", "Gen._Thomas_Power", ",", "or", "his", "deputy", "and", "their", "staff", "would", "occupy", "a", "balcony", "that", "stretch", "across", "the", "length", "of", "the", "room", "above", "Wisman", "and", "his", "staff", "."]
-    oewn2026_key: [[19, "oewn-02613865-v"]]
+    oewn_key: [[19, "oewn-02613865-v"]]
     paragraph: '19'
     pos: ["IN", "NNS", "DT", "NNP", "NN", ",", "NNP", ",", "CC", "PRP$", "NNS", "CC", "PRP$", "NN", "MD", "VB", "DT", "NN", "IN", "VBZ", "RB", "DT", "NN", "IN", "DT", "NN", "IN", "NNP", "CC", "PRP$", "NN", "."]
     text: ' In emergencies the SAC commander, Gen._Thomas_Power, or his deputies and their staff
@@ -876,7 +876,7 @@ MNPL:
     wn30_key: [[19, "stretch%2:42:00::"]]
 +szX:
     lemmas: ["At", "general_power", "'s", "seat", "in", "the", "balcony", "there", "be", "also", "a", "gold", "phone", "."]
-    oewn2026_key: [[8, "oewn-02661230-v"]]
+    oewn_key: [[8, "oewn-02661230-v"]]
     paragraph: '19'
     pos: ["IN", "NNP", "POS", "NN", "IN", "DT", "NN", "EX", "VBZ", "RB", "DT", "NN", "NN", "."]
     text: ' At General_Power''s seat in the balcony there is also a gold phone.'
@@ -885,7 +885,7 @@ MNPL:
     wn30_key: [[8, "be%2:42:05::"]]
 SEi6:
     lemmas: ["general_power", "would", "participate", "in", "the", "decision_making", "."]
-    oewn2026_key: [[2, "oewn-02455121-v"]]
+    oewn_key: [[2, "oewn-02455121-v"]]
     paragraph: '19'
     pos: ["NNP", "MD", "VB", "IN", "DT", "NN", "."]
     text: ' General_Power would participate in the decision_making.'
@@ -894,7 +894,7 @@ SEi6:
     wn30_key: [[2, "participate%2:41:00::"]]
 2h23:
     lemmas: ["Wisman", ",", "below", ",", "would", "listen_in", "and", "act", "."]
-    oewn2026_key: [[5, "oewn-02174748-v"], [7, "oewn-02372362-v"]]
+    oewn_key: [[5, "oewn-02174748-v"], [7, "oewn-02372362-v"]]
     paragraph: '19'
     pos: ["NNP", ",", "RB", ",", "MD", "VB", "CC", "VB", "."]
     text: ' Wisman, below, would listen_in and act.'
@@ -903,7 +903,7 @@ SEi6:
     wn30_key: [[5, "listen_in%2:39:01::"], [7, "act%2:41:00::"]]
 /3BL:
     lemmas: ["His", "console", "can", "give", "him", "instant", "contact", "with", "more_than", "seventy", "base", "around", "the", "world", "and", "with", "every", "sac", "aircraft", "."]
-    oewn2026_key: [[3, "oewn-02344167-v"]]
+    oewn_key: [[3, "oewn-02344167-v"]]
     paragraph: '19'
     pos: ["PRP$", "NNS", "MD", "VBP", "PRP", "NN", "NN", "IN", "RB", "CD", "NNS", "IN", "DT", "NN", "CC", "IN", "DT", "NNP", "NN", "."]
     text: ' His consoles can give him instant contact with more_than seventy bases around the
@@ -915,7 +915,7 @@ SEi6:
     wn30_key: [[3, "give%2:40:05::"]]
 zm0S:
     lemmas: ["He", "need", "only", "pick_up", "one", "of", "the", "two", "red", "telephone_receiver", "at", "his", "extreme", "left", ",", "right", "next", "to", "the", "big", "red", "button", "marked", "\"", "alert", "\"", "."]
-    oewn2026_key: [[3, "oewn-01210022-v"]]
+    oewn_key: [[3, "oewn-01210022-v"]]
     paragraph: '20'
     pos: ["PRP", "VBP", "RB", "VB", "CD", "IN", "DT", "CD", "JJ", "NN", "IN", "PRP$", "JJ", "RB", ",", "NN", "JJ", "TO", "DT", "JJ", "JJ", "NN", "JJ", "``", "JJ", "''", "."]
     text: ' He need only pick_up one of the two red telephone_receivers at his extreme left,
@@ -925,7 +925,7 @@ zm0S:
     wn30_key: [[3, "pick_up%2:35:01::"]]
 LjDE:
     lemmas: ["(", "There", "be", "two", "receiver", "in_case", "one", "should", "be", "drop", "and", "damage", ".", ")"]
-    oewn2026_key: [[2, "oewn-02609706-v"], [9, "oewn-01981715-v"], [11, "oewn-00259743-v"]]
+    oewn_key: [[2, "oewn-02609706-v"], [9, "oewn-01981715-v"], [11, "oewn-00259743-v"]]
     paragraph: '20'
     pos: ["NN", "EX", "VBP", "CD", "NNS", "RB", "CD", "MD", "VB", "VBN", "CC", "VBN", ".", "NN"]
     text: ' (There are two receivers in_case one should be dropped and damaged.)
@@ -936,7 +936,7 @@ LjDE:
     wn30_key: [[2, "be%2:42:00::"], [9, "drop%2:38:01::"], [11, "damage%2:30:00::"]]
 gf0Y:
     lemmas: ["But", "Wisman", ",", "too", ",", "do", "not", "know", "the", "go", "code", "."]
-    oewn2026_key: [[7, "oewn-00596016-v"]]
+    oewn_key: [[7, "oewn-00596016-v"]]
     paragraph: '21'
     pos: ["CC", "NNP", ",", "RB", ",", "VBZ", "RB", "VB", "DT", "NN", "NN", "."]
     text: ' But Wisman, too, does not know the go code.'
@@ -945,7 +945,7 @@ gf0Y:
     wn30_key: [[7, "know%2:31:01::"]]
 yr0r:
     lemmas: ["He", "must", "take", "it", "from", "\"", "the", "red", "box", "\"", "."]
-    oewn2026_key: [[2, "oewn-00173351-v"]]
+    oewn_key: [[2, "oewn-00173351-v"]]
     paragraph: '21'
     pos: ["PRP", "MD", "VB", "PRP", "IN", "``", "DT", "JJ", "NN", "''", "."]
     text: ' He must take it from " the red box ".'
@@ -954,7 +954,7 @@ yr0r:
     wn30_key: [[2, "take%2:30:00::"]]
 Gz+q:
     lemmas: ["in_point_of_fact", ",", "this", "be", "a", "beige", "box", "with", "a", "bright", "red", "door", ",", "about", "one", "and", "a", "half", "foot", "square", "and", "hang", "from", "the", "wall", "about", "six", "foot", "from", "the", "door", "to", "Wisman", "'s", "right", "."]
-    oewn2026_key: [[3, "oewn-02622439-v"], [21, "oewn-01484705-v"]]
+    oewn_key: [[3, "oewn-02622439-v"], [21, "oewn-01484705-v"]]
     paragraph: '21'
     pos: ["RB", ",", "DT", "VBZ", "DT", "JJ", "NN", "IN", "DT", "JJ", "JJ", "NN", ",", "IN", "CD", "CC", "DT", "NN", "NNS", "NN", "CC", "VB", "IN", "DT", "NN", "IN", "CD", "NNS", "IN", "DT", "NN", "TO", "NNP", "POS", "NN", "."]
     text: ' In_point_of_fact, this is a beige box with a bright red door, about one and a half
@@ -964,7 +964,7 @@ Gz+q:
     wn30_key: [[3, "be%2:42:06::"], [21, "hang%2:35:03::"]]
 Fegq:
     lemmas: ["The", "box", "be", "internally", "wire", "so", "the", "door", "can", "never", "be", "open", "without", "set_off", "a", "screeching", "klaxon", "(", "\"", "It", "'s", "real", "obnoxious", "\"", ")", "."]
-    oewn2026_key: [[4, "oewn-02359532-v"], [11, "oewn-01348685-v"], [13, "oewn-01647199-v"]]
+    oewn_key: [[4, "oewn-02359532-v"], [11, "oewn-01348685-v"], [13, "oewn-01647199-v"]]
     paragraph: '21'
     pos: ["DT", "NN", "VBZ", "RB", "VBN", "RB", "DT", "NN", "MD", "RB", "VB", "VBN", "IN", "VB", "DT", "JJ", "NN", "NN", "''", "PRP", "VBZ", "JJ", "JJ", "``", "NN", "."]
     text: ' The box is internally wired so the door can never be opened without setting_off
@@ -976,7 +976,7 @@ Fegq:
     wn30_key: [[4, "wire%2:40:00::"], [11, "open%2:35:00::"], [13, "set_off%2:36:00::"]]
 a6sO:
     lemmas: ["now", "we", "must", "become", "vague", ",", "for", "we", "be", "approach", "one", "of", "the", "nation", "'s", "most", "guarded", "secret", "."]
-    oewn2026_key: [[3, "oewn-00149403-v"], [9, "oewn-02057865-v"]]
+    oewn_key: [[3, "oewn-00149403-v"], [9, "oewn-02057865-v"]]
     paragraph: '22'
     pos: ["RB", "PRP", "MD", "VB", "JJ", ",", "IN", "PRP", "VBP", "VBG", "CD", "IN", "DT", "NN", "POS", "RBS", "JJ", "NNS", "."]
     text: ' Now we must become vague, for we are approaching one of the nation''s most guarded
@@ -986,7 +986,7 @@ a6sO:
     wn30_key: [[3, "become%2:30:00::"], [9, "approach%2:38:00::"]]
 eobv:
     lemmas: ["The", "code", "in", "the", "red", "box", "-", "there", "be", "several", "of", "them", "cover", "various", "contingency", "-", "be", "contain", "in", "a", "sealed", "X-ray-proof", "\"", "unique", "device", "\"", "."]
-    oewn2026_key: [[8, "oewn-02610777-v"], [12, "oewn-02681746-v"], [17, "oewn-02706727-v"]]
+    oewn_key: [[8, "oewn-02610777-v"], [12, "oewn-02681746-v"], [17, "oewn-02706727-v"]]
     paragraph: '22'
     pos: ["DT", "NNS", "IN", "DT", "JJ", "NN", ":", "EX", "VBP", "JJ", "IN", "PRP", "VBG", "JJ", "NNS", ":", "VBP", "VBN", "IN", "DT", "JJ", "JJ", "''", "JJ", "NN", "''", "."]
     text: ' The codes in the red box - there are several of them covering various contingencies
@@ -996,7 +996,7 @@ eobv:
     wn30_key: [[8, "be%2:42:03::"], [12, "cover%2:42:00::"], [17, "contain%2:42:13::"]]
 rkJo:
     lemmas: ["They", "be", "supply", ",", "a", "batch", "at_a_time", ",", "by", "a", "secret", "source", "and", "be", "continually", "change", "by", "Wisman", "or", "his", "staff", ",", "at_random", "interval", "."]
-    oewn2026_key: [[2, "oewn-02332196-v"], [15, "oewn-00122978-v"]]
+    oewn_key: [[2, "oewn-02332196-v"], [15, "oewn-00122978-v"]]
     paragraph: '22'
     pos: ["PRP", "VBP", "VBN", ",", "DT", "NN", "RB", ",", "IN", "DT", "JJ", "NN", "CC", "VBP", "RB", "VBN", "IN", "NNP", "CC", "PRP$", "NN", ",", "RB", "NNS", "."]
     text: ' They are supplied, a batch at_a_time, by a secret source and are continually changed
@@ -1008,7 +1008,7 @@ rkJo:
     wn30_key: [[2, "supply%2:40:00::"], [15, "change%2:30:02::"]]
 YaMV:
     lemmas: ["But", "even", "the", "contents", "of", "Wisman", "'s", "box", "cannot", "start", "a", "war", "."]
-    oewn2026_key: [[9, "oewn-00349400-v"]]
+    oewn_key: [[9, "oewn-00349400-v"]]
     paragraph: '23'
     pos: ["CC", "RB", "DT", "NNS", "IN", "NNP", "POS", "NN", "MD", "VB", "DT", "NN", "."]
     text: ' But even the contents of Wisman''s box cannot start a war.'
@@ -1017,7 +1017,7 @@ YaMV:
     wn30_key: [[9, "start%2:30:01::"]]
 hNPT:
     lemmas: ["They", "be", "mere", "fragment", ",", "just", "one", "portion", "of", "preprepared", "message", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"]]
+    oewn_key: [[1, "oewn-02610777-v"]]
     paragraph: '23'
     pos: ["PRP", "VBP", "JJ", "NNS", ",", "RB", "CD", "NN", "IN", "JJ", "NNS", "."]
     text: ' They are mere fragments, just one portion of preprepared messages.'
@@ -1026,7 +1026,7 @@ hNPT:
     wn30_key: [[1, "be%2:42:03::"]]
 reSu:
     lemmas: ["What", "these", "fragment", "be", "and_how", "they", "activate", "the", "go", "order", "may_not", "be_revealed", "."]
-    oewn2026_key: [[3, "oewn-02622439-v"], [6, "oewn-01647199-v"]]
+    oewn_key: [[3, "oewn-02622439-v"], [6, "oewn-01647199-v"]]
     paragraph: '23'
     pos: ["WP", "DT", "NNS", "VBP", "RB", "PRP", "VBP", "DT", "NN", "NN", "VB", "VB", "."]
     text: ' What these fragments are and_how they activate the go order may_not be_revealed.'
@@ -1035,7 +1035,7 @@ reSu:
     wn30_key: [[3, "be%2:42:06::"], [6, "activate%2:36:00::"]]
 FQ9C:
     lemmas: ["The", "piece", "must", "be", "place", "in", "the", "context", "of", "the", "prepared", "message", "by", "Wisman", "'s", "staff", "."]
-    oewn2026_key: [[4, "oewn-01496967-v"]]
+    oewn_key: [[4, "oewn-01496967-v"]]
     paragraph: '23'
     pos: ["DT", "NNS", "MD", "VB", "VBN", "IN", "DT", "NN", "IN", "DT", "JJ", "NNS", "IN", "NNP", "POS", "NN", "."]
     text: ' The pieces must be placed in the context of the prepared messages by Wisman''s staff.'
@@ -1044,7 +1044,7 @@ FQ9C:
     wn30_key: [[4, "place%2:35:00::"]]
 IjYK:
     lemmas: ["In_addition", "to", "the", "authentication", "and", "acknowledgment", "procedure", "which", "precede", "and", "follow", "the", "sending", "of", "the", "go", "message", ",", "again", "in", "special", "code", ",", "each", "message", "also", "contain", "an", "\"", "internal", "authenticator", "\"", ",", "another", "specific", "signal", "to", "convince", "the", "recipient", "that", "he", "be", "get", "the", "real_thing", "."]
-    oewn2026_key: [[8, "oewn-02718318-v"], [10, "oewn-02718647-v"], [26, "oewn-02635616-v"], [37, "oewn-00771598-v"], [43, "oewn-02215637-v"]]
+    oewn_key: [[8, "oewn-02718318-v"], [10, "oewn-02718647-v"], [26, "oewn-02635616-v"], [37, "oewn-00771598-v"], [43, "oewn-02215637-v"]]
     paragraph: '23'
     pos: ["RB", "TO", "DT", "NN", "CC", "NN", "NNS", "WDT", "VBP", "CC", "VBP", "DT", "NN", "IN", "DT", "NN", "NNS", ",", "RB", "IN", "JJ", "NNS", ",", "DT", "NN", "RB", "VBZ", "DT", "``", "JJ", "NN", "''", ",", "DT", "JJ", "NN", "TO", "VB", "DT", "NN", "IN", "PRP", "VBZ", "VBG", "DT", "NN", "."]
     text: ' In_addition to the authentication and acknowledgment procedures which precede and
@@ -1058,7 +1058,7 @@ IjYK:
     wn30_key: [[8, "precede%2:42:00::"], [10, "follow%2:42:00::"], [26, "contain%2:42:00::"], [37, "convince%2:32:00::"], [43, "get%2:40:00::"]]
 X3k3:
     lemmas: ["I", "ask", "Wisman", "what", "would", "happen", "if", "he", "break_out", "the", "go", "code", "and", "try", "to", "start", "transmit", "one", "."]
-    oewn2026_key: [[1, "oewn-00899241-v"], [5, "oewn-00340744-v"], [8, "oewn-01488358-v"], [13, "oewn-02535833-v"], [15, "oewn-00346415-v"], [16, "oewn-00975088-v"]]
+    oewn_key: [[1, "oewn-00899241-v"], [5, "oewn-00340744-v"], [8, "oewn-01488358-v"], [13, "oewn-02535833-v"], [15, "oewn-00346415-v"], [16, "oewn-00975088-v"]]
     paragraph: '24'
     pos: ["PRP", "VBD", "NNP", "WP", "MD", "VB", "IN", "PRP", "VBP", "DT", "NN", "NNS", "CC", "VBD", "TO", "VB", "VBG", "CD", "."]
     text: ' I asked Wisman what would happen if he broke_out the go codes and tried to start
@@ -1068,7 +1068,7 @@ X3k3:
     wn30_key: [[1, "ask%2:32:00::"], [5, "happen%2:30:00::"], [8, "break_out%2:35:00::"], [13, "try%2:41:00::"], [15, "start%2:30:00::"], [16, "transmit%2:32:00::"]]
 65hp:
     lemmas: ["\"", "I", "'d", "wind_up", "full_of", ".38", "bullet_hole", "\"", ",", "he", "say", ",", "and", "there", "be", "no", "question", "that", "he", "be", "talk_about", "bullet", "fire", "by", "his", "coworker", "."]
-    oewn2026_key: [[3, "oewn-00353212-v"], [10, "oewn-01011267-v"], [14, "oewn-02609706-v"], [20, "oewn-01036184-v"], [22, "oewn-01136251-v"]]
+    oewn_key: [[3, "oewn-00353212-v"], [10, "oewn-01011267-v"], [14, "oewn-02609706-v"], [20, "oewn-01036184-v"], [22, "oewn-01136251-v"]]
     paragraph: '24'
     pos: ["``", "PRP", "MD", "VB", "JJ", "CD", "NN", "``", ",", "PRP", "VBD", ",", "CC", "EX", "VBD", "DT", "NN", "IN", "PRP", "VBD", "VB", "NNS", "VBN", "IN", "PRP$", "NNS", "."]
     text: ' " I''d wind_up full_of .38 bullet_holes ", he said, and there was no question that
@@ -1080,7 +1080,7 @@ X3k3:
     wn30_key: [[3, "wind_up%2:30:02::"], [10, "say%2:32:00::"], [14, "be%2:42:00::"], [20, "talk_about%2:32:00::"], [22, "fire%2:33:00::"]]
 DVYD:
     lemmas: ["now", "let", "us", "imagine", "a", "wing", "of", "b-52", "'s", ",", "on", "alert", "near", "their", "\"", "positive", "control", "(", "or", "fail-safe", ")", "point", "\"", ",", "the", "spots", "on", "the", "map", ",", "many", "mile", "from", "soviet", "territory", ",", "beyond", "which", "they", "be", "forbid", "to", "fly", "without", "specific", "order", "to", "proceed", "to", "their", "target", "."]
-    oewn2026_key: [[3, "oewn-01639939-v"], [40, "oewn-00797525-v"], [42, "oewn-01944262-v"], [47, "oewn-01999581-v"]]
+    oewn_key: [[3, "oewn-01639939-v"], [40, "oewn-00797525-v"], [42, "oewn-01944262-v"], [47, "oewn-01999581-v"]]
     paragraph: '25'
     pos: ["RB", "VB", "PRP", "VB", "DT", "NN", "IN", "NNP", "POS", ",", "IN", "JJ", "IN", "PRP$", "``", "JJ", "NN", "NN", "CC", "JJ", "NN", "NNS", "''", ",", "DT", "NNS", "IN", "DT", "NN", ",", "JJ", "NNS", "IN", "JJ", "NN", ",", "IN", "WDT", "PRP", "VBP", "VBN", "TO", "VB", "IN", "JJ", "NNS", "TO", "VB", "TO", "PRP$", "NNS", "."]
     text: ' Now let us imagine a wing of B-52''s, on alert near their " positive control (or
@@ -1091,7 +1091,7 @@ DVYD:
     wn30_key: [[3, "imagine%2:36:00::"], [40, "forbid%2:32:00::"], [42, "fly%2:38:00::"], [47, "proceed%2:38:00::"]]
 0Yx0:
     lemmas: ["They", ",", "too", ",", "have", "fragment", "of", "the", "go", "code", "with", "them", "."]
-    oewn2026_key: [[4, "oewn-02208144-v"]]
+    oewn_key: [[4, "oewn-02208144-v"]]
     paragraph: '25'
     pos: ["PRP", ",", "RB", ",", "VBP", "NNS", "IN", "DT", "NN", "NN", "IN", "PRP", "."]
     text: ' They, too, have fragments of the go code with them.'
@@ -1100,7 +1100,7 @@ DVYD:
     wn30_key: [[4, "have%2:40:00::"]]
 Tjuy:
     lemmas: ["As", "Wisman", "put", "it", ",", "\"", "They", "have", "separate", "piece", "of", "the", "pie", ",", "and", "we", "have", "the", "whole", "pie", "."]
-    oewn2026_key: [[2, "oewn-00983308-v"], [7, "oewn-02208144-v"], [16, "oewn-02208144-v"]]
+    oewn_key: [[2, "oewn-00983308-v"], [7, "oewn-02208144-v"], [16, "oewn-02208144-v"]]
     paragraph: '25'
     pos: ["IN", "NNP", "VBD", "PRP", ",", "``", "PRP", "VBP", "JJ", "NNS", "IN", "DT", "NN", ",", "CC", "PRP", "VBP", "DT", "JJ", "NN", "."]
     text: ' As Wisman put it, " They have separate pieces of the pie, and we have the whole
@@ -1110,7 +1110,7 @@ Tjuy:
     wn30_key: [[2, "put%2:32:00::"], [7, "have%2:40:00::"], [16, "have%2:40:00::"]]
 FlLX:
     lemmas: ["once", "we", "send_out", "the", "whole", "pie", ",", "they", "can", "put", "their", "piece", "into", "it", "."]
-    oewn2026_key: [[2, "oewn-01439891-v"], [9, "oewn-01496967-v"]]
+    oewn_key: [[2, "oewn-01439891-v"], [9, "oewn-01496967-v"]]
     paragraph: '25'
     pos: ["RB", "PRP", "VBP", "DT", "JJ", "NN", ",", "PRP", "MD", "VB", "PRP$", "NNS", "IN", "PRP", "."]
     text: ' Once we send_out the whole pie, they can put their pieces into it.'
@@ -1119,7 +1119,7 @@ FlLX:
     wn30_key: [[2, "send_out%2:35:00::"], [9, "put%2:35:00::"]]
 xdM/:
     lemmas: ["Unless", "we", "send_out", "the", "whole", "pie", ",", "their", "piece", "mean", "nothing", "\"", "."]
-    oewn2026_key: [[2, "oewn-01439891-v"], [9, "oewn-02748357-v"]]
+    oewn_key: [[2, "oewn-01439891-v"], [9, "oewn-02748357-v"]]
     paragraph: '25'
     pos: ["IN", "PRP", "VBP", "DT", "JJ", "NN", ",", "PRP$", "NNS", "VBP", "NN", "''", "."]
     text: ' Unless we send_out the whole pie, their pieces mean nothing ".'
@@ -1128,7 +1128,7 @@ xdM/:
     wn30_key: [[2, "send_out%2:35:00::"], [9, "mean%2:42:03::"]]
 IhiA:
     lemmas: ["Why", "do", "Wisman", "'s", "ever-changing", "code", "always", "mesh", "with", "the", "fragment", "in", "possession", "of", "the", "button", "pusher", "?"]
-    oewn2026_key: [[7, "oewn-00406004-v"]]
+    oewn_key: [[7, "oewn-00406004-v"]]
     paragraph: '25'
     pos: ["WRB", "VBZ", "NNP", "POS", "JJ", "NN", "RB", "VBP", "VB", "DT", "NNS", "IN", "NN", "IN", "DT", "NN", "NNS", "."]
     text: ' Why does Wisman''s ever-changing code always mesh with the fragments in possession
@@ -1138,7 +1138,7 @@ IhiA:
     wn30_key: [[7, "mesh%2:30:00::"]]
 ccZu:
     lemmas: ["The", "answer", "be", "a", "cryptographic", "secret", "."]
-    oewn2026_key: [[2, "oewn-02622439-v"]]
+    oewn_key: [[2, "oewn-02622439-v"]]
     paragraph: '25'
     pos: ["DT", "NN", "VBZ", "DT", "JJ", "NN", "."]
     text: ' The answer is a cryptographic secret.'
@@ -1147,7 +1147,7 @@ ccZu:
     wn30_key: [[2, "be%2:42:06::"]]
 tDaF:
     lemmas: ["at_any_rate", ",", "three", "man", "out", "of", "a", "six-man", "b-52", "crew", "be", "require", "to", "copy", "down", "Wisman", "'s", "go-to-war", "message", "."]
-    oewn2026_key: [[11, "oewn-02634015-v"], [13, "oewn-01751182-v"]]
+    oewn_key: [[11, "oewn-02634015-v"], [13, "oewn-01751182-v"]]
     paragraph: '25'
     pos: ["RB", ",", "CD", "NNS", "IN", "IN", "DT", "JJ", "NNP", "NN", "VBP", "VBN", "TO", "VB", "RB", "NNP", "POS", "JJ", "NN", "."]
     text: ' At_any_rate, three men out of a six-man B-52 crew are required to copy down Wisman''s
@@ -1157,7 +1157,7 @@ tDaF:
     wn30_key: [[11, "require%2:42:00::"], [13, "copy%2:36:05::"]]
 nTEn:
     lemmas: ["Each", "must", "match", "Wisman", "'s", "\"", "pie", "\"", "with", "the", "fragment", "that", "he", "carry", "with", "him", "."]
-    oewn2026_key: [[2, "oewn-01295488-v"], [13, "oewn-02722977-v"]]
+    oewn_key: [[2, "oewn-01295488-v"], [13, "oewn-02722977-v"]]
     paragraph: '25'
     pos: ["DT", "MD", "VB", "NNP", "POS", "``", "NN", "''", "IN", "DT", "NN", "IN", "PRP", "VBZ", "IN", "PRP", "."]
     text: ' Each must match Wisman''s " pie " with the fragment that he carries with him.'
@@ -1166,7 +1166,7 @@ nTEn:
     wn30_key: [[2, "match%2:35:08::"], [13, "carry%2:42:01::"]]
 +tVh:
     lemmas: ["All", "three", "must", "compare", "note", "and", "agree", "to", "\"", "go", "\"", "."]
-    oewn2026_key: [[3, "oewn-00654571-v"], [6, "oewn-00807038-v"], [9, "oewn-01868216-v"]]
+    oewn_key: [[3, "oewn-00654571-v"], [6, "oewn-00807038-v"], [9, "oewn-01868216-v"]]
     paragraph: '25'
     pos: ["DT", "CD", "MD", "VB", "NNS", "CC", "VBP", "TO", "``", "VB", "''", "."]
     text: ' All three must compare notes and agree to " go ".
@@ -1177,7 +1177,7 @@ nTEn:
     wn30_key: [[3, "compare%2:31:00::"], [6, "agree%2:32:00::"], [9, "go%2:38:09::"]]
 Jkny:
     lemmas: ["After_that", ",", "it", "require", "several", "minutes", "of", "concentrated", "work", ",", "include", "six", "separate", "and", "deliberate", "action", "by", "a", "minimum", "of", "three", "man", "sit", "at", "three", "separate", "stations", "in", "a", "bomber", ",", "each", "with", "another", "man", "beside", "him", "to", "help", ",", "for", "an", "armed", "bomb", "to", "be_released", "."]
-    oewn2026_key: [[3, "oewn-02634015-v"], [10, "oewn-02639021-v"], [22, "oewn-01545905-v"], [38, "oewn-02553283-v"]]
+    oewn_key: [[3, "oewn-02634015-v"], [10, "oewn-02639021-v"], [22, "oewn-01545905-v"], [38, "oewn-02553283-v"]]
     paragraph: '26'
     pos: ["RB", ",", "PRP", "VBZ", "JJ", "NNS", "IN", "JJ", "NN", ",", "VBG", "CD", "JJ", "CC", "JJ", "NNS", "IN", "DT", "NN", "IN", "CD", "NNS", "VBG", "IN", "CD", "JJ", "NNS", "IN", "DT", "NN", ",", "DT", "IN", "DT", "NN", "IN", "PRP", "TO", "VB", ",", "IN", "DT", "JJ", "NN", "TO", "VB", "."]
     text: ' After_that, it requires several minutes of concentrated work, including six separate
@@ -1188,7 +1188,7 @@ Jkny:
     wn30_key: [[3, "require%2:42:00::"], [10, "include%2:42:00::"], [22, "sit%2:35:00::"], [38, "help%2:41:00::"]]
 Kdmb:
     lemmas: ["Unless", "all", "gadget", "be", "properly", "operate", "-", "and", "the", "wire", "and", "seal", "from", "the", "handle", "remove", "first", "-", "no", "damage", "can", "be", "do", "."]
-    oewn2026_key: [[5, "oewn-01227308-v"], [15, "oewn-00173351-v"], [22, "oewn-01649143-v"]]
+    oewn_key: [[5, "oewn-01227308-v"], [15, "oewn-00173351-v"], [22, "oewn-01649143-v"]]
     paragraph: '26'
     pos: ["IN", "DT", "NNS", "VBP", "RB", "VBN", ":", "CC", "DT", "NNS", "CC", "NNS", "IN", "DT", "NN", "VBN", "JJ", ":", "DT", "NN", "MD", "VB", "VBN", "."]
     text: ' Unless all gadgets are properly operated - and the wires and seals from the handles

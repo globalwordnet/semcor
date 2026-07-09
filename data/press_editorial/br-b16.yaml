@@ -3,7 +3,7 @@ _meta:
         type: seq
         base: tokens
         data: string
-    oewn2026_key:
+    oewn_key:
         type: element
         base: tokens
         data: string
@@ -28,7 +28,7 @@ _meta:
         data: string
 Tb0y:
     lemmas: ["no_doubt", "there", "have", "be", "moment", "during", "every", "presidency", "when", "the", "man", "in", "the", "white_house", "have", "have", "feelings", "of", "frustration", ",", "exasperation", ",", "exhaustion", ",", "and", "even", "panic", "."]
-    oewn2026_key: [[3, "oewn-02610777-v"], [15, "oewn-02112480-v"]]
+    oewn_key: [[3, "oewn-02610777-v"], [15, "oewn-02112480-v"]]
     paragraph: '0'
     pos: ["RB", "EX", "VBP", "VBN", "NNS", "IN", "DT", "NNP", "WRB", "DT", "NN", "IN", "DT", "NN", "VBZ", "VBN", "NNS", "IN", "NN", ",", "NN", ",", "NN", ",", "CC", "RB", "NN", "."]
     text: No_doubt there have been moments during every Presidency when the man in the White_House
@@ -38,7 +38,7 @@ Tb0y:
     wn30_key: [[3, "be%2:42:04::"], [15, "have%2:39:06::"]]
 CwMS:
     lemmas: ["This", "we", "can", "sympathetically", "understand", "."]
-    oewn2026_key: [[4, "oewn-00590283-v"]]
+    oewn_key: [[4, "oewn-00590283-v"]]
     paragraph: '0'
     pos: ["DT", "PRP", "MD", "RB", "VB", "."]
     text: ' This we can sympathetically understand.'
@@ -47,7 +47,7 @@ CwMS:
     wn30_key: [[4, "understand%2:31:00::"]]
 wXRX:
     lemmas: ["But", "no", "president", "ever", "before", "refer", "to", "his", "as", "a", "\"", "lousy", "job", "\"", "[", "as", "walter_trohan", "recently", "quote", "president_kennedy", "as", "do", "in", "conversation", "with", "Sen._Barry_Goldwater", "]", "."]
-    oewn2026_key: [[5, "oewn-00657226-v"], [18, "oewn-01025268-v"]]
+    oewn_key: [[5, "oewn-00657226-v"], [18, "oewn-01025268-v"]]
     paragraph: '0'
     pos: ["CC", "DT", "NNP", "RB", "IN", "VBN", "VB", "PRP", "IN", "DT", "``", "JJ", "NN", "''", "NN", "IN", "NNP", "RB", "VBD", "NNP", "IN", "VB", "VB", "NN", "IN", "NNP", "FW", "."]
     text: ' But no President ever before referred to his as a " lousy job " [as Walter_Trohan
@@ -59,7 +59,7 @@ wXRX:
     wn30_key: [[5, "refer%2:31:00::"], [18, "quote%2:32:00::"]]
 p7bM:
     lemmas: ["During", "his", "aggressive", "campaign", "to", "win", "his", "present", "position", ",", "mr._kennedy", "be", "vitriolic", "about", "this", "country", "'s", "\"", "prestige", "\"", "abroad", "."]
-    oewn2026_key: [[5, "oewn-01102556-v"], [11, "oewn-02610777-v"]]
+    oewn_key: [[5, "oewn-01102556-v"], [11, "oewn-02610777-v"]]
     paragraph: '1'
     pos: ["IN", "PRP$", "JJ", "NN", "TO", "VB", "PRP$", "JJ", "NN", ",", "NNP", "VBD", "JJ", "IN", "DT", "NN", "POS", "``", "NN", "''", "RB", "."]
     text: ' During his aggressive campaign to win his present position, Mr._Kennedy was vitriolic
@@ -69,7 +69,7 @@ p7bM:
     wn30_key: [[5, "win%2:33:00::"], [11, "be%2:42:03::"]]
 tcOL:
     lemmas: ["What", "do", "he", "think", "a", "remark", "like", "this", "\"", "lousy", "\"", "one", "do", "to", "our", "prestige", "and", "morale", "?"]
-    oewn2026_key: [[3, "oewn-00633399-v"]]
+    oewn_key: [[3, "oewn-00633399-v"]]
     paragraph: '1'
     pos: ["WP", "VBZ", "PRP", "VB", "DT", "NN", "IN", "DT", "``", "JJ", "''", "CD", "VBZ", "TO", "PRP$", "NN", "CC", "NN", "."]
     text: ' What does he think a remark like this " lousy " one does to our prestige and morale?
@@ -80,7 +80,7 @@ tcOL:
     wn30_key: [[3, "think%2:31:03::"]]
 RBe3:
     lemmas: ["If", "the", "president_of_the_united_states", "really", "feel", "he", "win", "himself", "a", "\"", "lousy", "job", "\"", ",", "then", "heaven", "help", "us", "all", "."]
-    oewn2026_key: [[4, "oewn-00717144-v"], [6, "oewn-01102556-v"], [16, "oewn-00081834-v"]]
+    oewn_key: [[4, "oewn-00717144-v"], [6, "oewn-01102556-v"], [16, "oewn-00081834-v"]]
     paragraph: '2'
     pos: ["IN", "DT", "NN", "RB", "VBZ", "PRP", "VBD", "PRP", "DT", "``", "JJ", "NN", "''", ",", "RB", "NN", "VBP", "PRP", "DT", "."]
     text: ' If the President_of_the_United_States really feels he won himself a " lousy job
@@ -92,7 +92,7 @@ RBe3:
     wn30_key: [[4, "feel%2:31:00::"], [6, "win%2:33:00::"], [16, "help%2:29:00::"]]
 s2lB:
     lemmas: ["defense_secretary_robert_s._mcnamara", "have", "ask", "congress", "for", "authority", "and", "funds", "to", "build", "fallout", "shelter", "cost", "about", "200", "million", "dollar", "."]
-    oewn2026_key: [[2, "oewn-00754499-v"], [9, "oewn-01658171-v"], [12, "oewn-02708368-v"]]
+    oewn_key: [[2, "oewn-00754499-v"], [9, "oewn-01658171-v"], [12, "oewn-02708368-v"]]
     paragraph: '3'
     pos: ["NNP", "VBZ", "VBN", "NNP", "IN", "NN", "CC", "NNS", "TO", "VB", "NN", "NNS", "VBG", "IN", "CD", "CD", "NNS", "."]
     text: ' Defense_Secretary_Robert_S._McNamara has asked Congress for authority and funds
@@ -102,7 +102,7 @@ s2lB:
     wn30_key: [[2, "ask%2:32:01::"], [9, "build%2:36:00::"], [12, "cost%2:42:00::"]]
 ctCM:
     lemmas: ["Why", "should", "congress", "even", "consider", "allow", "such", "a", "sum", "for", "that", "which", "can", "give", "no", "protection", "?"]
-    oewn2026_key: [[4, "oewn-00814706-v"], [5, "oewn-00803980-v"], [13, "oewn-01632595-v"]]
+    oewn_key: [[4, "oewn-00814706-v"], [5, "oewn-00803980-v"], [13, "oewn-01632595-v"]]
     paragraph: '3'
     pos: ["WRB", "MD", "NNP", "RB", "VB", "VBG", "JJ", "DT", "NN", "IN", "IN", "WDT", "MD", "VB", "DT", "NN", "."]
     text: ' Why should Congress even consider allowing such a sum for that which can give no
@@ -114,7 +114,7 @@ ctCM:
     wn30_key: [[4, "consider%2:32:02::"], [5, "allow%2:32:00::"], [13, "give%2:36:03::"]]
 lo4S:
     lemmas: ["top", "scientist", "have", "warn", "that", "an", "area", "hit", "by", "an", "atomic", "missile", "of", "massive", "power", "would", "be", "engulf", "in", "a", "suffocating", "fire", "storm", "which", "would", "persist", "for", "a", "long_time", "."]
-    oewn2026_key: [[3, "oewn-00871877-v"], [7, "oewn-01126313-v"], [17, "oewn-00602438-v"], [25, "oewn-02653599-v"]]
+    oewn_key: [[3, "oewn-00871877-v"], [7, "oewn-01126313-v"], [17, "oewn-00602438-v"], [25, "oewn-02653599-v"]]
     paragraph: '4'
     pos: ["JJ", "NNS", "VBP", "VBN", "IN", "DT", "NN", "VBN", "IN", "DT", "JJ", "NN", "IN", "JJ", "NN", "MD", "VB", "VBN", "IN", "DT", "JJ", "NN", "NN", "WDT", "MD", "VB", "IN", "DT", "NN", "."]
     text: ' Top scientists have warned that an area hit by an atomic missile of massive power
@@ -124,7 +124,7 @@ lo4S:
     wn30_key: [[3, "warn%2:32:00::"], [7, "hit%2:33:00::"], [17, "engulf%2:31:00::"], [25, "persist%2:42:00::"]]
 i8va:
     lemmas: ["The", "scientist", "have", "also", "warn", "that", "no", "life", "above", "ground", "or", "underground", ",", "sheltered", "or", "unsheltered", "could", "be", "expect", "to", "survive", "in", "an", "area", "at_least", "50", "mile", "in_diameter", "."]
-    oewn2026_key: [[4, "oewn-00871877-v"], [18, "oewn-00721658-v"], [20, "oewn-02626004-v"]]
+    oewn_key: [[4, "oewn-00871877-v"], [18, "oewn-00721658-v"], [20, "oewn-02626004-v"]]
     paragraph: '4'
     pos: ["DT", "NNS", "VBP", "RB", "VBN", "IN", "DT", "NN", "IN", "NN", "CC", "JJ", ",", "JJ", "CC", "JJ", "MD", "VB", "VBN", "TO", "VB", "IN", "DT", "NN", "RB", "CD", "NNS", "RB", "."]
     text: ' The scientists have also warned that no life above ground or underground, sheltered
@@ -136,7 +136,7 @@ i8va:
     wn30_key: [[4, "warn%2:32:00::"], [18, "expect%2:31:00::"], [20, "survive%2:42:02::"]]
 0cFN:
     lemmas: ["This", "sum", "spend", "for", "foreign", "economic", "aid", ",", "the", "peace_corps", ",", "food", "for", "peace", ",", "or", "any", "other", "program", "to", "solve", "the", "problem", "of", "the", "underdeveloped", "country", "would", "be", "an", "investment", "that", "would", "pay_off", "in", "world", "peace", ",", "increased", "world", "trade", ",", "and", "prosperity", "for", "every", "country", "on", "the", "globe", "."]
-    oewn2026_key: [[2, "oewn-02271905-v"], [20, "oewn-00636568-v"], [28, "oewn-02610777-v"], [33, "oewn-02296965-v"]]
+    oewn_key: [[2, "oewn-02271905-v"], [20, "oewn-00636568-v"], [28, "oewn-02610777-v"], [33, "oewn-02296965-v"]]
     paragraph: '5'
     pos: ["DT", "NN", "VBN", "IN", "JJ", "JJ", "NN", ",", "DT", "NN", ",", "NN", "IN", "NN", ",", "CC", "DT", "JJ", "NN", "TO", "VB", "DT", "NNS", "IN", "DT", "JJ", "NNS", "MD", "VB", "DT", "NN", "WDT", "MD", "VB", "IN", "NN", "NN", ",", "JJ", "NN", "NN", ",", "CC", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "."]
     text: ' This sum spent for foreign economic aid, the peace_corps, food for peace, or any
@@ -150,7 +150,7 @@ i8va:
     wn30_key: [[2, "spend%2:40:00::"], [20, "solve%2:31:00::"], [28, "be%2:42:03::"], [33, "pay_off%2:40:02::"]]
 ScmX:
     lemmas: ["let", "us", "prepare_for", "peace", ",", "instead", "of", "for", "a", "war", "which", "would", "mean", "the", "end", "of", "civilization", "."]
-    oewn2026_key: [[2, "oewn-00274056-v"], [12, "oewn-02641270-v"]]
+    oewn_key: [[2, "oewn-00274056-v"], [12, "oewn-02641270-v"]]
     paragraph: '6'
     pos: ["VB", "PRP", "VB", "NN", ",", "RB", "IN", "IN", "DT", "NN", "WDT", "MD", "VB", "DT", "NN", "IN", "NN", "."]
     text: ' Let us prepare_for peace, instead of for a war which would mean the end of civilization.
@@ -161,7 +161,7 @@ ScmX:
     wn30_key: [[2, "prepare_for%2:30:00::"], [12, "mean%2:42:00::"]]
 crLB:
     lemmas: ["It", "seem", "college", "be", "n't", "what", "it", "should", "be", "."]
-    oewn2026_key: [[1, "oewn-02139137-v"], [3, "oewn-02610777-v"], [8, "oewn-02610777-v"]]
+    oewn_key: [[1, "oewn-02139137-v"], [3, "oewn-02610777-v"], [8, "oewn-02610777-v"]]
     paragraph: '7'
     pos: ["PRP", "VBZ", "NN", "VBZ", "RB", "WP", "PRP", "MD", "VB", "."]
     text: ' It seems college isn''t what it should be.'
@@ -170,7 +170,7 @@ crLB:
     wn30_key: [[1, "seem%2:39:01::"], [3, "be%2:42:03::"], [8, "be%2:42:03::"]]
 3vwz:
     lemmas: ["I", "refer", "to", "the", "attire", "wear", "by", "the", "student", "."]
-    oewn2026_key: [[1, "oewn-01026199-v"], [5, "oewn-00052091-v"]]
+    oewn_key: [[1, "oewn-01026199-v"], [5, "oewn-00052091-v"]]
     paragraph: '7'
     pos: ["PRP", "VBP", "VB", "DT", "NN", "VBN", "IN", "DT", "NNS", "."]
     text: ' I refer to the attire worn by the students.'
@@ -179,7 +179,7 @@ crLB:
     wn30_key: [[1, "refer%2:32:01::"], [5, "wear%2:29:00::"]]
 tzg4:
     lemmas: ["Upon", "a", "visit", "to", "a", "local", "junior_college", "last", "week", ",", "I", "be", "shocked", "to", "see", "the", "young_lady", "wear", "short", "shorts", "and", "the", "young_man", "wear", "bermuda_shorts", "."]
-    oewn2026_key: [[11, "oewn-02610777-v"], [14, "oewn-02133754-v"], [17, "oewn-00052091-v"], [23, "oewn-00052091-v"]]
+    oewn_key: [[11, "oewn-02610777-v"], [14, "oewn-02133754-v"], [17, "oewn-00052091-v"], [23, "oewn-00052091-v"]]
     paragraph: '7'
     pos: ["IN", "DT", "NN", "TO", "DT", "JJ", "NN", "JJ", "NN", ",", "PRP", "VBD", "JJ", "TO", "VB", "DT", "NN", "VBG", "JJ", "NNS", "CC", "DT", "NN", "VBG", "NN", "."]
     text: ' Upon a visit to a local junior_college last week, I was shocked to see the young_ladies
@@ -191,7 +191,7 @@ tzg4:
     wn30_key: [[11, "be%2:42:03::"], [14, "see%2:39:00::"], [17, "wear%2:29:00::"], [23, "wear%2:29:00::"]]
 RsbU:
     lemmas: ["be", "this", "what", "our", "child", "be", "to", "come", "face_to_face", "with", "when", "they", "be", "ready", "for", "college", "in", "a_few", "years", "?"]
-    oewn2026_key: [[0, "oewn-02622439-v"], [7, "oewn-02009962-v"], [12, "oewn-02610777-v"]]
+    oewn_key: [[0, "oewn-02622439-v"], [7, "oewn-02009962-v"], [12, "oewn-02610777-v"]]
     paragraph: '8'
     pos: ["VBZ", "DT", "WP", "PRP$", "NNS", "VBP", "TO", "VB", "RB", "IN", "WRB", "PRP", "VBP", "JJ", "IN", "NN", "IN", "JJ", "NNS", "."]
     text: ' Is this what our children are to come face_to_face with when they are ready for
@@ -201,7 +201,7 @@ RsbU:
     wn30_key: [[0, "be%2:42:06::"], [7, "come%2:38:04::"], [12, "be%2:42:03::"]]
 ab5B:
     lemmas: ["education", "should", "be", "uppermost", "in", "their", "mind", ",", "but", "with", "this", "attire", "how", "can", "anyone", "think", "it", "be", "so", "?"]
-    oewn2026_key: [[2, "oewn-02610777-v"], [15, "oewn-00691086-v"], [17, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-02610777-v"], [15, "oewn-00691086-v"], [17, "oewn-02610777-v"]]
     paragraph: '8'
     pos: ["NNP", "MD", "VB", "JJS", "IN", "PRP$", "NNS", ",", "CC", "IN", "DT", "NN", "WRB", "MD", "NN", "VB", "PRP", "VBZ", "RB", "."]
     text: ' Education should be uppermost in their minds, but with this attire how can anyone
@@ -211,7 +211,7 @@ ab5B:
     wn30_key: [[2, "be%2:42:03::"], [15, "think%2:31:01::"], [17, "be%2:42:03::"]]
 zlXV:
     lemmas: ["It", "look", "more", "like", "they", "be", "go_to", "play", "at", "the", "beach", "instead", "of", "take", "lesson", "on", "better", "themselves", "."]
-    oewn2026_key: [[1, "oewn-02137900-v"], [7, "oewn-02423786-v"], [16, "oewn-00205454-v"]]
+    oewn_key: [[1, "oewn-02137900-v"], [7, "oewn-02423786-v"], [16, "oewn-00205454-v"]]
     paragraph: '8'
     pos: ["PRP", "VBZ", "JJR", "IN", "PRP", "VBP", "VB", "VB", "VB", "DT", "NN", "RB", "IN", "VBG", "NNS", "IN", "VBG", "PRP", "."]
     text: ' It looks more like they are going_to play at the beach instead of taking lessons
@@ -223,7 +223,7 @@ zlXV:
     wn30_key: [[1, "look%2:39:01::"], [7, "play%2:41:03::"], [16, "better%2:30:00::"]]
 tp3D:
     lemmas: ["high_school", "student", "have", "more", "sense", "of", "the", "way", "to", "dress", "than", "college_student", "."]
-    oewn2026_key: [[2, "oewn-02208144-v"], [9, "oewn-00046251-v"]]
+    oewn_key: [[2, "oewn-02208144-v"], [9, "oewn-00046251-v"]]
     paragraph: '9'
     pos: ["NN", "NNS", "VBP", "JJR", "NN", "IN", "DT", "NN", "TO", "VB", "IN", "NN", "."]
     text: ' High_school students have more sense of the way to dress than college_students.'
@@ -232,7 +232,7 @@ tp3D:
     wn30_key: [[2, "have%2:40:00::"], [9, "dress%2:29:00::"]]
 +Fax:
     lemmas: ["many", "high_school", "student", "go_past", "my", "house", "every_day", ",", "and", "they", "look_like", "perfect", "lady", "and", "gentleman", "."]
-    oewn2026_key: [[3, "oewn-02055618-v"], [10, "oewn-02671694-v"]]
+    oewn_key: [[3, "oewn-02055618-v"], [10, "oewn-02671694-v"]]
     paragraph: '9'
     pos: ["JJ", "NN", "NNS", "VBP", "PRP$", "NN", "RB", ",", "CC", "PRP", "VBP", "JJ", "NNS", "CC", "NNS", "."]
     text: ' Many high_school students go_past my house every_day, and they look_like perfect
@@ -242,7 +242,7 @@ tp3D:
     wn30_key: [[3, "go_past%2:38:00::"], [10, "look_like%2:42:00::"]]
 q/X7:
     lemmas: ["No_matter_how", "hot", "the", "day", ",", "they", "be", "dressed", "properly", "and", "not", "in", "shorts", "."]
-    oewn2026_key: [[6, "oewn-02610777-v"]]
+    oewn_key: [[6, "oewn-02610777-v"]]
     paragraph: '9'
     pos: ["RB", "JJ", "DT", "NN", ",", "PRP", "VBP", "JJ", "RB", "CC", "RB", "IN", "NNS", "."]
     text: ' No_matter_how hot the day, they are dressed properly and not in shorts.
@@ -253,7 +253,7 @@ q/X7:
     wn30_key: [[6, "be%2:42:03::"]]
 L05G:
     lemmas: ["The", "granting", "of", "the", "jan_masaryk", "award", "august", "13", "to", "senator_paul_douglas", "be", "a", "bitter", "example", "of", "misleading", "minority", "."]
-    oewn2026_key: [[10, "oewn-02622439-v"]]
+    oewn_key: [[10, "oewn-02622439-v"]]
     paragraph: '10'
     pos: ["DT", "NN", "IN", "DT", "NNP", "NN", "NNP", "CD", "TO", "NNP", "VBZ", "DT", "JJ", "NN", "IN", "JJ", "NNS", "."]
     text: ' The granting of the Jan_Masaryk award August 13 to Senator_Paul_Douglas is a bitter
@@ -265,7 +265,7 @@ L05G:
     wn30_key: [[10, "be%2:42:06::"]]
 dsah:
     lemmas: ["douglas", "have", "consistently", "vote", "to", "aid", "the", "people", "who", "kill", "Masaryk", ",", "and", "against", "principle", "Masaryk", "die", "to", "uphold", "."]
-    oewn2026_key: [[3, "oewn-02466737-v"], [5, "oewn-02553283-v"], [9, "oewn-01326622-v"], [16, "oewn-00359085-v"], [18, "oewn-00897613-v"]]
+    oewn_key: [[3, "oewn-02466737-v"], [5, "oewn-02553283-v"], [9, "oewn-01326622-v"], [16, "oewn-00359085-v"], [18, "oewn-00897613-v"]]
     paragraph: '11'
     pos: ["NNP", "VBZ", "RB", "VBN", "TO", "VB", "DT", "NNS", "WP", "VBD", "NNP", ",", "CC", "IN", "NNS", "NNP", "VBD", "TO", "VB", "."]
     text: ' Douglas has consistently voted to aid the people who killed Masaryk, and against
@@ -275,7 +275,7 @@ dsah:
     wn30_key: [[3, "vote%2:41:13::"], [5, "aid%2:41:00::"], [9, "kill%2:35:00::"], [16, "die%2:30:00::"], [18, "uphold%2:32:00::"]]
 W21V:
     lemmas: ["douglas", "have", "vote", "for", "aid", "to", "communist", "and", "for", "the", "destruction", "of", "individual", "freedom", "[", "public", "housing", ",", "foreign", "aid", ",", "etc", ".", "]", "."]
-    oewn2026_key: [[2, "oewn-02466737-v"]]
+    oewn_key: [[2, "oewn-02466737-v"]]
     paragraph: '11'
     pos: ["NNP", "VBZ", "VBN", "VB", "NN", "TO", "NNPS", "CC", "IN", "DT", "NN", "IN", "JJ", "NN", "CD", "JJ", "NN", ",", "JJ", "NN", ",", "FW", ".", "NN", "."]
     text: ' Douglas has voted for aid to Communists and for the destruction of individual freedom
@@ -287,7 +287,7 @@ W21V:
     wn30_key: [[2, "vote%2:41:13::"]]
 Px2W:
     lemmas: ["In", "today", "'s", "\"", "voice", "\"", ",", "the", "CTA", "be", "urge", "to", "reduce", "fare", "for", "senior_citizen", "."]
-    oewn2026_key: [[10, "oewn-00767694-v"], [12, "oewn-00430013-v"]]
+    oewn_key: [[10, "oewn-00767694-v"], [12, "oewn-00430013-v"]]
     paragraph: '12'
     pos: ["IN", "NN", "POS", "``", "NNP", "''", ",", "DT", "NNP", "VBZ", "VBN", "TO", "VB", "NNS", "IN", "NN", "."]
     text: ' In today''s " Voice ", the CTA is urged to reduce fares for senior_citizens.'
@@ -296,7 +296,7 @@ Px2W:
     wn30_key: [[10, "urge%2:32:00::"], [12, "reduce%2:30:00::"]]
 fohA:
     lemmas: ["rising", "costs", "have", "increase", "the", "difficulty", "of", "the", "elderly", ",", "and", "I", "would", "be", "the", "last", "to", "say", "they", "should", "not", "receive", "consideration", "."]
-    oewn2026_key: [[3, "oewn-00153083-v"], [13, "oewn-02622439-v"], [17, "oewn-01011267-v"], [21, "oewn-00523831-v"]]
+    oewn_key: [[3, "oewn-00153083-v"], [13, "oewn-02622439-v"], [17, "oewn-01011267-v"], [21, "oewn-00523831-v"]]
     paragraph: '12'
     pos: ["JJ", "NNS", "VBP", "VBN", "DT", "NNS", "IN", "DT", "JJ", ",", "CC", "PRP", "MD", "VB", "DT", "JJ", "TO", "VB", "PRP", "MD", "RB", "VB", "NN", "."]
     text: ' Rising costs have increased the difficulties of the elderly, and I would be the
@@ -306,7 +306,7 @@ fohA:
     wn30_key: [[3, "increase%2:30:02::"], [13, "be%2:42:06::"], [17, "say%2:32:00::"], [21, "receive%2:30:01::"]]
 aYrs:
     lemmas: ["But", "why", "be", "it", "the", "special", "responsibility", "of", "the", "CTA", "to", "help", "these", "people", "?"]
-    oewn2026_key: [[2, "oewn-02610777-v"], [11, "oewn-00081834-v"]]
+    oewn_key: [[2, "oewn-02610777-v"], [11, "oewn-00081834-v"]]
     paragraph: '12'
     pos: ["CC", "WRB", "VBZ", "PRP", "DT", "JJ", "NN", "IN", "DT", "NNP", "TO", "VB", "DT", "NNS", "."]
     text: ' But why is it the special responsibility of the CTA to help these people?
@@ -317,7 +317,7 @@ aYrs:
     wn30_key: [[2, "be%2:42:03::"], [11, "help%2:29:00::"]]
 fcjM:
     lemmas: ["Why", "should", "CTA", "regular", "rider", "subsidize", "reduced", "transportation", "for", "old", "people", "any_more", "than", "the", "people", "who", "drive", "their", "own", "car", "or", "walk", "to", "work", "should", "?"]
-    oewn2026_key: [[5, "oewn-02221492-v"], [16, "oewn-01934845-v"], [21, "oewn-01908923-v"]]
+    oewn_key: [[5, "oewn-02221492-v"], [16, "oewn-01934845-v"], [21, "oewn-01908923-v"]]
     paragraph: '13'
     pos: ["WRB", "MD", "NNP", "JJ", "NNS", "VBP", "JJ", "NN", "IN", "JJ", "NNS", "RB", "IN", "DT", "NNS", "WP", "VBP", "PRP$", "JJ", "NNS", "CC", "VB", "TO", "NN", "MD", "."]
     text: ' Why should CTA regular riders subsidize reduced transportation for old people any_more
@@ -327,7 +327,7 @@ fcjM:
     wn30_key: [[5, "subsidize%2:40:00::"], [16, "drive%2:38:01::"], [21, "walk%2:38:00::"]]
 plVo:
     lemmas: ["The", "welfare", "of", "citizen", ",", "old", "and", "young", ",", "be", "the", "responsibility", "of", "the", "community", ",", "not_only", "of_that", "part", "of_it", "that", "ride", "the", "CTA", "."]
-    oewn2026_key: [[9, "oewn-02610777-v"], [21, "oewn-01959843-v"]]
+    oewn_key: [[9, "oewn-02610777-v"], [21, "oewn-01959843-v"]]
     paragraph: '13'
     pos: ["DT", "NN", "IN", "NNS", ",", "JJ", "CC", "JJ", ",", "VBZ", "DT", "NN", "IN", "DT", "NN", ",", "RB", "RB", "NN", "RB", "IN", "VB", "DT", "NNP", "."]
     text: ' The welfare of citizens, old and young, is the responsibility of the community,
@@ -337,7 +337,7 @@ plVo:
     wn30_key: [[9, "be%2:42:03::"], [21, "ride%2:38:00::"]]
 TSTE:
     lemmas: ["CTA", "regular", "already", "subsidize", "transportation", "for", "school", "child", ",", "policeman", ",", "and", "fireman", "."]
-    oewn2026_key: [[3, "oewn-02221492-v"]]
+    oewn_key: [[3, "oewn-02221492-v"]]
     paragraph: '13'
     pos: ["NNP", "NNS", "RB", "VBP", "NN", "IN", "NN", "NNS", ",", "NNS", ",", "CC", "NNS", "."]
     text: ' CTA regulars already subsidize transportation for school children, policemen, and
@@ -349,7 +349,7 @@ TSTE:
     wn30_key: [[3, "subsidize%2:40:00::"]]
 DhD+:
     lemmas: ["In_reply", "to", "a", "letter", "in", "today", "'s", "\"", "voice", "\"", "urge", "the", "sale", "of", "meat", "after", "6", "p.", "m.", ",", "I", "wish", "to", "state", "the", "other", "side", "of", "the", "story", "."]
-    oewn2026_key: [[10, "oewn-00767694-v"], [21, "oewn-00905166-v"], [23, "oewn-01011267-v"]]
+    oewn_key: [[10, "oewn-00767694-v"], [21, "oewn-00905166-v"], [23, "oewn-01011267-v"]]
     paragraph: '14'
     pos: ["RB", "TO", "DT", "NN", "IN", "NN", "POS", "``", "NN", "''", "VBG", "DT", "NN", "IN", "NN", "IN", "CD", "NN", "NNP", ",", "PRP", "VBP", "VB", "VB", "DT", "JJ", "NN", "IN", "DT", "NN", "."]
     text: ' In_reply to a letter in today''s " voice " urging the sale of meat after 6 p. m.,
@@ -361,7 +361,7 @@ DhD+:
     wn30_key: [[10, "urge%2:32:00::"], [21, "wish%2:37:00::"], [23, "state%2:32:00::"]]
 TT1n:
     lemmas: ["I", "be", "the", "wife", "of", "the", "owner", "of", "a", "small", ",", "independent", "meat", "market", "."]
-    oewn2026_key: [[1, "oewn-02622439-v"]]
+    oewn_key: [[1, "oewn-02622439-v"]]
     paragraph: '15'
     pos: ["PRP", "VBP", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "JJ", ",", "JJ", "NN", "NN", "."]
     text: ' I am the wife of the owner of a small, independent meat market.'
@@ -370,7 +370,7 @@ TT1n:
     wn30_key: [[1, "be%2:42:06::"]]
 rnja:
     lemmas: ["My", "husband", "'s", "hours", "away_from_home", "for", "the", "past", "years", "have", "be", "from", "7", "a.", "m.", "to", "7", "p.", "m.", "the", "early", "part", "of", "the", "week", ",", "and", "as", "late", "as", "8", "or", "9", "on", "week-end", "."]
-    oewn2026_key: [[10, "oewn-02622439-v"]]
+    oewn_key: [[10, "oewn-02622439-v"]]
     paragraph: '15'
     pos: ["PRP$", "NN", "POS", "NNS", "RB", "IN", "DT", "JJ", "NNS", "VBP", "VBN", "VB", "CD", "NN", "NNP", "TO", "CD", "NN", "NNP", "DT", "JJ", "NN", "IN", "DT", "NN", ",", "CC", "RB", "JJ", "IN", "CD", "CC", "CD", "IN", "NNS", "."]
     text: ' My husband''s hours away_from_home for the past years have been from 7 a. m. to
@@ -380,7 +380,7 @@ rnja:
     wn30_key: [[10, "be%2:42:06::"]]
 CXoe:
     lemmas: ["now", "he", "be", "apparently", "expect", "to", "give_up", "his", "evening", "-", "and", "sunday", ",", "too", ",", "for", "this", "be", "come", "."]
-    oewn2026_key: [[4, "oewn-00757790-v"], [6, "oewn-02350643-v"], [18, "oewn-00342572-v"]]
+    oewn_key: [[4, "oewn-00757790-v"], [6, "oewn-02350643-v"], [18, "oewn-00342572-v"]]
     paragraph: '15'
     pos: ["RB", "PRP", "VBZ", "RB", "VBN", "TO", "VB", "PRP$", "NNS", ":", "CC", "NNPS", ",", "RB", ",", "IN", "DT", "VBZ", "VBG", "."]
     text: ' Now he is apparently expected to give_up his evenings - and Sundays, too, for this
@@ -392,7 +392,7 @@ CXoe:
     wn30_key: [[4, "expect%2:32:00::"], [6, "give_up%2:40:05::"], [18, "come%2:30:01::"]]
 06mF:
     lemmas: ["There", "be", "a", "trend", "to", "package", "meat", "at", "a", "central", "source", ",", "freeze", "it", ",", "and", "ship", "it", "to", "outlying", "store", ",", "where", "meat", "cutter", "will", "not", "be", "required", "."]
-    oewn2026_key: [[5, "oewn-01487784-v"], [12, "oewn-00376536-v"], [16, "oewn-01954657-v"], [27, "oewn-02610777-v"]]
+    oewn_key: [[5, "oewn-01487784-v"], [12, "oewn-00376536-v"], [16, "oewn-01954657-v"], [27, "oewn-02610777-v"]]
     paragraph: '16'
     pos: ["EX", "VB", "DT", "NN", "TO", "VB", "NN", "IN", "DT", "JJ", "NN", ",", "VB", "PRP", ",", "CC", "VBG", "PRP", "TO", "JJ", "NNS", ",", "WRB", "NN", "NNS", "MD", "RB", "VB", "JJ", "."]
     text: ' There is a trend to packaging meat at a central source, freezing it, and shipping
@@ -402,7 +402,7 @@ CXoe:
     wn30_key: [[5, "package%2:35:00::"], [12, "freeze%2:30:02::"], [16, "ship%2:38:00::"], [27, "be%2:42:03::"]]
 1QFu:
     lemmas: ["If", "a", "customer", "wish", "a", "special", "cut", ",", "it", "will", "not", "be", "available", "."]
-    oewn2026_key: [[3, "oewn-01828678-v"], [11, "oewn-02610777-v"]]
+    oewn_key: [[3, "oewn-01828678-v"], [11, "oewn-02610777-v"]]
     paragraph: '16'
     pos: ["IN", "DT", "NN", "VBZ", "DT", "JJ", "NN", ",", "PRP", "MD", "RB", "VB", "JJ", "."]
     text: ' If a customer wishes a special cut, it will not be available.'
@@ -411,7 +411,7 @@ CXoe:
     wn30_key: [[3, "wish%2:37:02::"], [11, "be%2:42:03::"]]
 U1Gl:
     lemmas: ["We", "be", "slowly", "be", "regiment", "to", "have", "everything", "package", ",", "whether", "we", "want", "it", "or", "not", "."]
-    oewn2026_key: [[4, "oewn-02447237-v"], [8, "oewn-01487784-v"], [12, "oewn-01829179-v"]]
+    oewn_key: [[4, "oewn-02447237-v"], [8, "oewn-01487784-v"], [12, "oewn-01829179-v"]]
     paragraph: '16'
     pos: ["PRP", "VBP", "RB", "VBG", "VB", "TO", "VBG", "NN", "VBN", ",", "IN", "PRP", "VBP", "PRP", "CC", "RB", "."]
     text: ' We are slowly being regimented to having everything packaged, whether we want it
@@ -423,7 +423,7 @@ U1Gl:
     wn30_key: [[4, "regiment%2:41:02::"], [8, "package%2:35:00::"], [12, "want%2:37:00::"]]
 GuX5:
     lemmas: ["most", "woman", ",", "in_this", "age", "of", "freezer", ",", "shop", "for", "the", "entire", "week", "on", "week-end", ",", "when", "price", "be", "low", "."]
-    oewn2026_key: [[8, "oewn-02330964-v"], [18, "oewn-02610777-v"]]
+    oewn_key: [[8, "oewn-02330964-v"], [18, "oewn-02610777-v"]]
     paragraph: '17'
     pos: ["JJS", "NNS", ",", "RB", "NN", "IN", "NNS", ",", "VB", "IN", "DT", "JJ", "NN", "IN", "NNS", ",", "WRB", "NNS", "VBP", "JJR", "."]
     text: ' Most women, in_this age of freezers, shop for the entire week on week-ends, when
@@ -433,7 +433,7 @@ GuX5:
     wn30_key: [[8, "shop%2:40:00::"], [18, "be%2:42:03::"]]
 ee2Z:
     lemmas: ["also", ",", "many", "working", "wife", "have", "child", "or", "husband", "who", "take_over", "the", "shopping", "chore", "for", "them", "."]
-    oewn2026_key: [[5, "oewn-02208144-v"], [10, "oewn-02306786-v"]]
+    oewn_key: [[5, "oewn-02208144-v"], [10, "oewn-02306786-v"]]
     paragraph: '17'
     pos: ["RB", ",", "JJ", "NN", "NNS", "VBP", "NNS", "CC", "NNS", "WP", "VBP", "DT", "NN", "NNS", "IN", "PRP", "."]
     text: ' Also, many working wives have children or husbands who take_over the shopping chores
@@ -445,7 +445,7 @@ ee2Z:
     wn30_key: [[5, "have%2:40:00::"], [10, "take_over%2:40:06::"]]
 bzpa:
     lemmas: ["independent", "market", "owner", "work", "six", "days", "a", "week", ";", "and", "my", "husband", "have", "n't", "have", "a", "vacation", "in", "14", "years", "."]
-    oewn2026_key: [[3, "oewn-02418610-v"], [14, "oewn-02112480-v"]]
+    oewn_key: [[3, "oewn-02418610-v"], [14, "oewn-02112480-v"]]
     paragraph: '18'
     pos: ["NNP", "NN", "NNS", "VBP", "CD", "NNS", "DT", "NN", ":", "CC", "PRP$", "NN", "VBZ", "RB", "VBD", "DT", "NN", "IN", "CD", "NNS", "."]
     text: ' Independent market owners work six days a week; and my husband hasn''t had a vacation
@@ -455,7 +455,7 @@ bzpa:
     wn30_key: [[3, "work%2:41:02::"], [14, "have%2:39:06::"]]
 FjKd:
     lemmas: ["No", ",", "we", "be", "not", "greedy", "."]
-    oewn2026_key: [[3, "oewn-02610777-v"]]
+    oewn_key: [[3, "oewn-02610777-v"]]
     paragraph: '18'
     pos: ["DT", ",", "PRP", "VBP", "RB", "JJ", "."]
     text: ' No, we are not greedy.'
@@ -464,7 +464,7 @@ FjKd:
     wn30_key: [[3, "be%2:42:03::"]]
 xswJ:
     lemmas: ["But", "if", "we", "close", "the", "store", "for", "a", "vacation", ",", "we", "would", "lose", "our", "customer", "to", "the", "chain_store", "in", "the", "next", "block", "."]
-    oewn2026_key: [[3, "oewn-02431242-v"], [12, "oewn-02292634-v"]]
+    oewn_key: [[3, "oewn-02431242-v"], [12, "oewn-02292634-v"]]
     paragraph: '18'
     pos: ["CC", "IN", "PRP", "VBD", "DT", "NN", "IN", "DT", "NN", ",", "PRP", "MD", "VB", "PRP$", "NNS", "TO", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
     text: ' But if we closed the store for a vacation, we would lose our customers to the chain_stores
@@ -476,7 +476,7 @@ xswJ:
     wn30_key: [[3, "close%2:41:00::"], [12, "lose%2:40:02::"]]
 Htzq:
     lemmas: ["The", "meat", "cutter", "'", "union", ",", "which", "have", "a", "history", "of", "be", "one", "of", "the", "fair", "and", "least", "corrupt", "in", "our", "area", ",", "represent", "the", "little", "corner", "market", "as_well", "as", "the", "large", "supermarket", "."]
-    oewn2026_key: [[7, "oewn-02208144-v"], [11, "oewn-02622439-v"], [23, "oewn-02547206-v"]]
+    oewn_key: [[7, "oewn-02208144-v"], [11, "oewn-02622439-v"], [23, "oewn-02547206-v"]]
     paragraph: '19'
     pos: ["DT", "NN", "NNS", "POS", "NN", ",", "WDT", "VBZ", "DT", "NN", "IN", "VBG", "CD", "IN", "DT", "JJS", "CC", "RBS", "JJ", "IN", "PRP$", "NN", ",", "VBZ", "DT", "JJ", "NN", "NNS", "RB", "IN", "DT", "JJ", "NNS", "."]
     text: ' The meat cutters'' union, which has a history of being one of the fairest and least
@@ -486,7 +486,7 @@ Htzq:
     wn30_key: [[7, "have%2:40:00::"], [11, "be%2:42:06::"], [23, "represent%2:41:00::"]]
 Tz3k:
     lemmas: ["What", "it", "be", "try", "to", "do", "be", "to", "protect", "the", "little", "man", ",", "too", ",", "as_well", "as", "try", "to", "maintain", "a", "flow", "of", "fresh", "meat", "to", "all", "store", ",", "with", "choice", "of", "cut", "be", "make", "by", "the", "consumer", ",", "not", "the", "store", "."]
-    oewn2026_key: [[3, "oewn-02535833-v"], [5, "oewn-02566500-v"], [6, "oewn-02622439-v"], [8, "oewn-01130619-v"], [17, "oewn-02535833-v"], [19, "oewn-02687605-v"], [34, "oewn-01759660-v"]]
+    oewn_key: [[3, "oewn-02535833-v"], [5, "oewn-02566500-v"], [6, "oewn-02622439-v"], [8, "oewn-01130619-v"], [17, "oewn-02535833-v"], [19, "oewn-02687605-v"], [34, "oewn-01759660-v"]]
     paragraph: '19'
     pos: ["WP", "PRP", "VBZ", "VBG", "TO", "VB", "VBZ", "TO", "VB", "DT", "JJ", "NN", ",", "RB", ",", "RB", "IN", "VBG", "TO", "VB", "DT", "NN", "IN", "JJ", "NN", "TO", "DT", "NNS", ",", "IN", "NN", "IN", "NN", "VBG", "VBN", "IN", "DT", "NN", ",", "RB", "DT", "NN", "."]
     text: ' What it is trying to do is to protect the little man, too, as_well as trying to
@@ -499,7 +499,7 @@ Tz3k:
     wn30_key: [[3, "try%2:41:00::"], [5, "do%2:41:01::"], [6, "be%2:42:06::"], [8, "protect%2:33:00::"], [17, "try%2:41:00::"], [19, "maintain%2:42:00::"], [34, "make%2:36:12::"]]
 19N7:
     lemmas: ["I", ",", "too", ",", "congratulate", "the", "american_legion", ",", "of_which", "I", "be", "proud", "to", "have", "be", "a", "member", "for", "more_than", "40", "years", ",", "on", "the", "recent", "state", "convention", "."]
-    oewn2026_key: [[4, "oewn-00883182-v"], [10, "oewn-02610777-v"], [14, "oewn-02622439-v"]]
+    oewn_key: [[4, "oewn-00883182-v"], [10, "oewn-02610777-v"], [14, "oewn-02622439-v"]]
     paragraph: '20'
     pos: ["PRP", ",", "RB", ",", "VBP", "DT", "NN", ",", "RB", "PRP", "VBP", "JJ", "TO", "VB", "VBN", "DT", "NN", "IN", "RB", "CD", "NNS", ",", "IN", "DT", "JJ", "NN", "NN", "."]
     text: ' I, too, congratulate the American_Legion, of_which I am proud to have been a member
@@ -511,7 +511,7 @@ Tz3k:
     wn30_key: [[4, "congratulate%2:32:00::"], [10, "be%2:42:03::"], [14, "be%2:42:06::"]]
 EU6k:
     lemmas: ["I", "regret", "that", "Bertha_Madeira", "[", "today", "'s", "\"", "voice", "\"", "]", "obtain", "incorrect", "information", "."]
-    oewn2026_key: [[1, "oewn-01800593-v"], [11, "oewn-02242867-v"]]
+    oewn_key: [[1, "oewn-01800593-v"], [11, "oewn-02242867-v"]]
     paragraph: '21'
     pos: ["PRP", "VBP", "IN", "NNP", "FW", "NN", "POS", "``", "NNP", "''", "NN", "VBD", "JJ", "NN", "."]
     text: ' I regret that Bertha_Madeira [today''s " Voice "] obtained incorrect information.'
@@ -520,7 +520,7 @@ EU6k:
     wn30_key: [[1, "regret%2:37:00::"], [11, "obtain%2:40:00::"]]
 zE80:
     lemmas: ["have", "I", "be", "grant", "the", "floor", "on", "a", "point", "of", "personal", "privilege", ",", "the_matte", "she", "raise", "would", "have", "be", "clarify", "."]
-    oewn2026_key: [[3, "oewn-02260270-v"], [15, "oewn-00943197-v"]]
+    oewn_key: [[3, "oewn-02260270-v"], [15, "oewn-00943197-v"]]
     paragraph: '21'
     pos: ["VBN", "PRP", "VBN", "VBN", "DT", "NN", "IN", "DT", "NN", "IN", "JJ", "NN", ",", "JJ", "PRP", "VBD", "MD", "VB", "VBN", "VB", "."]
     text: ' Had I been granted the floor on a point of personal privilege, the_matter she raised
@@ -532,7 +532,7 @@ zE80:
     wn30_key: [[3, "grant%2:40:01::"], [15, "raise%2:32:00::"]]
 AAZZ:
     lemmas: ["The", "resolution", "under", "discussion", "at", "the", "convention", "be", "to", "require", "the", "boards", "of", "election", "to", "instruct", "judges", "to", "properly", "display", "the", "american", "flag", "."]
-    oewn2026_key: [[7, "oewn-02610777-v"], [9, "oewn-00753573-v"], [15, "oewn-00751969-v"], [19, "oewn-02144506-v"]]
+    oewn_key: [[7, "oewn-02610777-v"], [9, "oewn-00753573-v"], [15, "oewn-00751969-v"], [19, "oewn-02144506-v"]]
     paragraph: '22'
     pos: ["DT", "NN", "IN", "NN", "IN", "DT", "NN", "VBD", "TO", "VB", "DT", "NNS", "IN", "NN", "TO", "VB", "NNS", "TO", "RB", "VB", "DT", "NNP", "NN", "."]
     text: ' The resolution under discussion at the convention was to require the boards of election
@@ -542,7 +542,7 @@ AAZZ:
     wn30_key: [[7, "be%2:42:03::"], [9, "require%2:32:00::"], [15, "instruct%2:32:01::"], [19, "display%2:39:00::"]]
 QUUe:
     lemmas: ["judges", "under", "the", "jurisdiction", "of", "the", "chicago", "board", "of", "election", "commissioner", "be", "instruct", "to", "do", "this", "."]
-    oewn2026_key: [[12, "oewn-00751969-v"], [14, "oewn-01716563-v"]]
+    oewn_key: [[12, "oewn-00751969-v"], [14, "oewn-01716563-v"]]
     paragraph: '22'
     pos: ["NNS", "IN", "DT", "NN", "IN", "DT", "NNP", "NN", "IN", "NN", "NNS", "VBP", "VBN", "TO", "VB", "DT", "."]
     text: ' Judges under the jurisdiction of the Chicago board of election commissioners are
@@ -554,7 +554,7 @@ QUUe:
     wn30_key: [[12, "instruct%2:32:01::"], [14, "do%2:36:01::"]]
 7vF+:
     lemmas: ["The", "resolution", "further", "ask", "that", "polling_place", "proprietor", "affix", "an", "attachment", "to", "their", "premises", "for", "the", "display", "of", "the", "flag", "."]
-    oewn2026_key: [[3, "oewn-00754499-v"], [7, "oewn-01331387-v"]]
+    oewn_key: [[3, "oewn-00754499-v"], [7, "oewn-01331387-v"]]
     paragraph: '23'
     pos: ["DT", "NN", "JJ", "VBD", "IN", "NN", "NNS", "VBP", "DT", "NN", "TO", "PRP$", "NNS", "IN", "DT", "NN", "IN", "DT", "NN", "."]
     text: ' The resolution further asked that polling_place proprietors affix an attachment
@@ -566,7 +566,7 @@ QUUe:
     wn30_key: [[3, "ask%2:32:01::"], [7, "affix%2:35:01::"]]
 rGcY:
     lemmas: ["It", "be", "my", "desire", "to", "advise", "the", "membership", "of", "the", "legion", "that", "the", "majority", "of", "polling_places", "be", "on", "private_property", "and", ",", "without", "an", "amendment", "to", "the", "law", ",", "we", "could", "not", "enforce", "this", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [5, "oewn-00874568-v"], [16, "oewn-02661230-v"], [31, "oewn-02565990-v"]]
+    oewn_key: [[1, "oewn-02610777-v"], [5, "oewn-00874568-v"], [16, "oewn-02661230-v"], [31, "oewn-02565990-v"]]
     paragraph: '24'
     pos: ["PRP", "VBD", "PRP$", "NN", "TO", "VB", "DT", "NN", "IN", "DT", "NNP", "IN", "DT", "NN", "IN", "NN", "VBP", "VB", "NN", "CC", ",", "IN", "DT", "NN", "TO", "DT", "NN", ",", "PRP", "MD", "RB", "VB", "DT", "."]
     text: ' It was my desire to advise the membership of the Legion that the majority of polling_places
@@ -577,7 +577,7 @@ rGcY:
     wn30_key: [[1, "be%2:42:03::"], [5, "advise%2:32:00::"], [16, "be%2:42:05::"], [31, "enforce%2:41:00::"]]
 hyid:
     lemmas: ["My", "discussion", "with_reference_to", "the", "resolution", "be", "that", "we", "should", "commend", "those", "citizen", "who", "serve", "as", "judges", "of", "election", "and", "who", "properly", "discharge", "their", "duty", "and", "polling_place", "proprietor", "who", "make", "available", "their", "private", "premises", ",", "and", "not", "by", "innuendo", "criticize", "them", "."]
-    oewn2026_key: [[5, "oewn-02610777-v"], [9, "oewn-00883916-v"], [13, "oewn-01097629-v"], [21, "oewn-02569639-v"], [28, "oewn-00120124-v"], [38, "oewn-00828170-v"]]
+    oewn_key: [[5, "oewn-02610777-v"], [9, "oewn-00883916-v"], [13, "oewn-01097629-v"], [21, "oewn-02569639-v"], [28, "oewn-00120124-v"], [38, "oewn-00828170-v"]]
     paragraph: '24'
     pos: ["PRP$", "NN", "JJ", "DT", "NN", "VBD", "IN", "PRP", "MD", "VB", "DT", "NNS", "WP", "VBP", "VB", "NNS", "IN", "NN", "CC", "WP", "RB", "VBP", "PRP$", "NN", "CC", "NN", "NNS", "WP", "VBP", "JJ", "PRP$", "JJ", "NNS", ",", "CC", "RB", "IN", "NN", "VBP", "PRP", "."]
     text: ' My discussion with_reference_to the resolution was that we should commend those
@@ -589,7 +589,7 @@ hyid:
     wn30_key: [[5, "be%2:42:03::"], [9, "commend%2:32:00::"], [13, "serve%2:33:00::"], [21, "discharge%2:41:00::"], [28, "make%2:30:00::"], [38, "criticize%2:32:00::"]]
 qrvF:
     lemmas: ["At_no_time", "do", "I", "attempt", "to", "seek", "approval", "or", "commendation", "for", "the", "member", "of", "the", "chicago", "board", "of", "election", "commissioner", "for", "the", "discharge", "of", "their", "duty", "."]
-    oewn2026_key: [[3, "oewn-02535833-v"], [5, "oewn-01318273-v"]]
+    oewn_key: [[3, "oewn-02535833-v"], [5, "oewn-01318273-v"]]
     paragraph: '24'
     pos: ["RB", "VBD", "PRP", "VB", "TO", "VB", "NN", "CC", "NN", "IN", "DT", "NNS", "IN", "DT", "NNP", "NN", "IN", "NN", "NNS", "IN", "DT", "NN", "IN", "PRP$", "NNS", "."]
     text: ' At_no_time did I attempt to seek approval or commendation for the members of the
@@ -601,7 +601,7 @@ qrvF:
     wn30_key: [[3, "attempt%2:41:00::"], [5, "seek%2:35:00::"]]
 kemM:
     lemmas: ["The", "illinois_commission", "for", "handicapped", "child", "wish", "to", "commend", "the", "recent", "announcement", "by", "the", "catholic", "charity", "of", "the", "archdiocese", "of", "chicago", "and", "DePaul", "university", "of", "the", "establishment", "of", "the", "institute", "for", "special_education", "at", "the", "university", "for", "the", "training", "of", "teacher", "for", "physically", "handicapped", "and", "mentally_retarded", "child", "."]
-    oewn2026_key: [[5, "oewn-00905166-v"], [7, "oewn-00883916-v"]]
+    oewn_key: [[5, "oewn-00905166-v"], [7, "oewn-00883916-v"]]
     paragraph: '25'
     pos: ["DT", "NNP", "IN", "NNP", "NNS", "VBZ", "VB", "VB", "DT", "JJ", "NN", "IN", "DT", "NNP", "NNS", "IN", "DT", "NN", "IN", "NNP", "CC", "NNP", "NN", "IN", "DT", "NN", "IN", "DT", "NNP", "IN", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "IN", "NNS", "IN", "RB", "JJ", "CC", "NN", "NNS", "."]
     text: ' The Illinois_Commission for Handicapped Children wishes to commend the recent announcement
@@ -615,7 +615,7 @@ kemM:
     wn30_key: [[5, "wish%2:37:00::"], [7, "commend%2:32:00::"]]
 XwAm:
     lemmas: ["In", "these", "days", "of", "serious", "shortage", "of", "properly", "trained", "teacher", "qualified", "to", "teach", "physically", "handicapped", "and", "mentally", "handicapped", "child", ",", "the", "establishment", "of", "such", "an", "institute", "will", "be", "a", "major", "contribution", "to", "the", "field", "."]
-    oewn2026_key: [[12, "oewn-00830768-v"], [27, "oewn-02622439-v"]]
+    oewn_key: [[12, "oewn-00830768-v"], [27, "oewn-02622439-v"]]
     paragraph: '26'
     pos: ["IN", "DT", "NNS", "IN", "JJ", "NN", "IN", "RB", "JJ", "NNS", "JJ", "TO", "VB", "RB", "JJ", "CC", "RB", "JJ", "NNS", ",", "DT", "NN", "IN", "JJ", "DT", "NN", "MD", "VB", "DT", "JJ", "NN", "TO", "DT", "NN", "."]
     text: ' In these days of serious shortage of properly trained teachers qualified to teach
@@ -628,7 +628,7 @@ XwAm:
     wn30_key: [[12, "teach%2:32:00::"], [27, "be%2:42:06::"]]
 D9gD:
     lemmas: ["The", "illinois_commission", "for", "handicapped", "child", ",", "which", "for", "20", "years", "have", "have", "the", "responsibility", "of", "coordinate", "the", "services", "of", "tax", "supported", "and", "voluntary", "organization", "serve", "handicapped", "child", ",", "of", "study", "the", "need", "of", "handicapped", "child", "in", "illinois", ",", "and", "of", "promote", "more", "adequate", "services", "for", "them", ",", "indeed", "welcome", "this", "new", "important", "resource", "which", "will", "help", "the", "people", "of", "illinois", "toward", "the", "goal", "of", "provide", "an", "education", "for", "all_of", "its", "child", "."]
-    oewn2026_key: [[11, "oewn-02208144-v"], [15, "oewn-02442752-v"], [24, "oewn-02546948-v"], [29, "oewn-00646245-v"], [40, "oewn-02560630-v"], [48, "oewn-02241988-v"], [55, "oewn-00081834-v"], [64, "oewn-02332196-v"]]
+    oewn_key: [[11, "oewn-02208144-v"], [15, "oewn-02442752-v"], [24, "oewn-02546948-v"], [29, "oewn-00646245-v"], [40, "oewn-02560630-v"], [48, "oewn-02241988-v"], [55, "oewn-00081834-v"], [64, "oewn-02332196-v"]]
     paragraph: '27'
     pos: ["DT", "NNP", "IN", "NNP", "NNS", ",", "WDT", "IN", "CD", "NNS", "VBZ", "VBN", "DT", "NN", "IN", "VBG", "DT", "NNS", "IN", "NN", "JJ", "CC", "JJ", "NNS", "VBG", "JJ", "NNS", ",", "IN", "VBG", "DT", "NN", "IN", "JJ", "NNS", "IN", "NNP", ",", "CC", "IN", "VBG", "RBR", "JJ", "NNS", "IN", "PRP", ",", "RB", "VBZ", "DT", "JJ", "JJ", "NN", "WDT", "MD", "VB", "DT", "NNS", "IN", "NNP", "IN", "DT", "NN", "IN", "VBG", "DT", "NN", "IN", "JJ", "PRP$", "NNS", "."]
     text: ' The Illinois_Commission for Handicapped Children, which for 20 years has had the
@@ -644,7 +644,7 @@ D9gD:
     wn30_key: [[11, "have%2:40:00::"], [15, "coordinate%2:41:00::"], [24, "serve%2:41:00::"], [29, "study%2:31:02::"], [40, "promote%2:41:01::"], [48, "welcome%2:40:00::"], [55, "help%2:29:00::"], [64, "provide%2:40:00::"]]
 OZa4:
     lemmas: ["I", "just", "want", "to", "let", "you", "know", "how", "much", "I", "enjoy", "your", "june", "25", "article", "on", "Liberace", ",", "and", "to", "thank", "you", "for", "it", "."]
-    oewn2026_key: [[2, "oewn-01829179-v"], [4, "oewn-00773535-v"], [6, "oewn-00596016-v"], [10, "oewn-01824240-v"], [20, "oewn-00893836-v"]]
+    oewn_key: [[2, "oewn-01829179-v"], [4, "oewn-00773535-v"], [6, "oewn-00596016-v"], [10, "oewn-01824240-v"], [20, "oewn-00893836-v"]]
     paragraph: '28'
     pos: ["PRP", "RB", "VBP", "VB", "VB", "PRP", "VB", "WRB", "JJ", "PRP", "VBD", "PRP$", "NNP", "CD", "NN", "IN", "NNP", ",", "CC", "TO", "VB", "PRP", "IN", "PRP", "."]
     text: ' I just want to let you know how much I enjoyed your June 25 article on Liberace,
@@ -654,7 +654,7 @@ OZa4:
     wn30_key: [[2, "want%2:37:00::"], [4, "let%2:32:00::"], [6, "know%2:31:01::"], [10, "enjoy%2:37:00::"], [20, "thank%2:32:00::"]]
 tTYJ:
     lemmas: ["please", "do", "put", "more", "picture", "and", "article", "in", "about", "Liberace", ",", "as", "he", "be", "truly", "one", "of", "our", "greatest", "entertainer", "and", "a", "really", "wonderful", "person", "."]
-    oewn2026_key: [[2, "oewn-01496967-v"], [13, "oewn-02622439-v"]]
+    oewn_key: [[2, "oewn-01496967-v"], [13, "oewn-02622439-v"]]
     paragraph: '28'
     pos: ["RB", "VBP", "VB", "JJR", "NNS", "CC", "NNS", "IN", "IN", "NNP", ",", "IN", "PRP", "VBZ", "RB", "CD", "IN", "PRP$", "JJS", "NNS", "CC", "DT", "RB", "JJ", "NN", "."]
     text: ' Please do put more pictures and articles in about Liberace, as he is truly one of
@@ -666,7 +666,7 @@ tTYJ:
     wn30_key: [[2, "put%2:35:00::"], [13, "be%2:42:06::"]]
 qJYH:
     lemmas: ["be", "this", ",", "perhaps", ",", "one", "of", "the", "things", "that", "be", "wrong", "with", "our", "country", "?"]
-    oewn2026_key: [[0, "oewn-02622439-v"], [10, "oewn-02610777-v"]]
+    oewn_key: [[0, "oewn-02622439-v"], [10, "oewn-02610777-v"]]
     paragraph: '29'
     pos: ["VBZ", "DT", ",", "RB", ",", "CD", "IN", "DT", "NNS", "RB", "VBZ", "JJ", "IN", "PRP$", "NN", "."]
     text: ' Is this, perhaps, one of the things that is wrong with our country?
@@ -677,7 +677,7 @@ qJYH:
     wn30_key: [[0, "be%2:42:06::"], [10, "be%2:42:03::"]]
 DmCD:
     lemmas: ["engineering", "graduate", "of", "illinois_institute", "of", "technology", "be", "report", "receive", "the", "highest", "average", "starting", "salary", "in", "the", "school", "'s", "history", "-", "$", "550", "a", "month", "."]
-    oewn2026_key: [[7, "oewn-00968841-v"], [8, "oewn-02214901-v"]]
+    oewn_key: [[7, "oewn-00968841-v"], [8, "oewn-02214901-v"]]
     paragraph: '30'
     pos: ["NN", "NNS", "IN", "NNP", "IN", "NNP", "VBP", "VBN", "VBG", "DT", "RBS", "JJ", "NN", "NNS", "IN", "DT", "NN", "POS", "NN", ":", "$", "CD", "DT", "NN", "."]
     text: ' Engineering graduates of Illinois_Institute of Technology are reported receiving
@@ -689,7 +689,7 @@ DmCD:
     wn30_key: [[7, "report%2:32:04::"], [8, "receive%2:40:00::"]]
 afmu:
     lemmas: ["My", "son", ",", "who", "have", "complete", "two", "years", "in", "engineering_school", ",", "have", "a", "summer", "job", "on", "a", "construction", "project", "as", "an", "unskilled", "laborer", "."]
-    oewn2026_key: [[5, "oewn-00485097-v"], [11, "oewn-02208144-v"]]
+    oewn_key: [[5, "oewn-00485097-v"], [11, "oewn-02208144-v"]]
     paragraph: '31'
     pos: ["PRP$", "NN", ",", "WP", "VBZ", "VBN", "CD", "NNS", "IN", "NN", ",", "VBZ", "DT", "NN", "NN", "IN", "DT", "NN", "NN", "IN", "DT", "JJ", "NN", "."]
     text: ' My son, who has completed two years in engineering_school, has a summer job on a
@@ -699,7 +699,7 @@ afmu:
     wn30_key: [[5, "complete%2:30:02::"], [11, "have%2:40:00::"]]
 SAER:
     lemmas: ["At", "a", "rate", "of", "$", "3.22", "an", "hour", "he", "be", "now", "earn", "approximately", "$", "580", "a", "month", "."]
-    oewn2026_key: [[11, "oewn-02294200-v"]]
+    oewn_key: [[11, "oewn-02294200-v"]]
     paragraph: '31'
     pos: ["IN", "DT", "NN", "IN", "$", "CD", "DT", "NN", "PRP", "VBZ", "RB", "VBG", "RB", "$", "CD", "DT", "NN", "."]
     text: ' At a rate of $3.22 an hour he is now earning approximately $580 a month.
@@ -710,7 +710,7 @@ SAER:
     wn30_key: [[11, "earn%2:40:01::"]]
 E10Y:
     lemmas: ["ironic", ",", "be", "it", "not", ",", "that", "after", "complete", "years", "of", "costly", "scientific", "training", "he", "will", "receive", "a", "cut", "in", "pay", "from", "what", "he", "be", "receive", "as", "an", "ordinary", "unskilled", "laborer", "?"]
-    oewn2026_key: [[2, "oewn-02610777-v"], [8, "oewn-00485097-v"], [16, "oewn-02214901-v"], [25, "oewn-02214901-v"]]
+    oewn_key: [[2, "oewn-02610777-v"], [8, "oewn-00485097-v"], [16, "oewn-02214901-v"], [25, "oewn-02214901-v"]]
     paragraph: '32'
     pos: ["JJ", ",", "VBZ", "PRP", "RB", ",", "IN", "IN", "VBG", "NNS", "IN", "JJ", "JJ", "NN", "PRP", "MD", "VB", "DT", "NN", "IN", "NN", "IN", "WP", "PRP", "VBZ", "VBG", "IN", "DT", "JJ", "JJ", "NN", "."]
     text: ' Ironic, is it not, that after completing years of costly scientific training he
@@ -722,7 +722,7 @@ E10Y:
     wn30_key: [[2, "be%2:42:03::"], [8, "complete%2:30:02::"], [16, "receive%2:40:00::"], [25, "receive%2:40:00::"]]
 Mrxf:
     lemmas: ["[", "editorial", "comment", "on", "this", "letter", "appear", "elsewhere", "on", "this", "page", ".", "]"]
-    oewn2026_key: [[6, "oewn-00423043-v"]]
+    oewn_key: [[6, "oewn-00423043-v"]]
     paragraph: '33'
     pos: ["JJ", "JJ", "NN", "VB", "DT", "NN", "VBZ", "RB", "IN", "DT", "NN", ".", "NN"]
     text: ' [Editorial comment on this letter appears elsewhere on this page.]
@@ -733,7 +733,7 @@ Mrxf:
     wn30_key: [[6, "appear%2:30:00::"]]
 AfSC:
     lemmas: ["Your", "july", "26", "editorial", "regarding", "the", "position", "of", "attorney_general", "robert_f._kennedy", "on", "prospective", "tax", "relief", "for", "du_Pont", "stockholder", "be", "base", "on", "an", "erroneous", "statement", "of", "fact", "."]
-    oewn2026_key: [[18, "oewn-00638550-v"]]
+    oewn_key: [[18, "oewn-00638550-v"]]
     paragraph: '34'
     pos: ["PRP$", "NNP", "CD", "NN", "JJ", "DT", "NN", "IN", "NN", "NNP", "IN", "JJ", "NN", "NN", "IN", "NNP", "NNS", "VB", "VBN", "VB", "DT", "JJ", "NN", "IN", "NN", "."]
     text: ' Your July 26 editorial regarding the position of Attorney_General Robert_F._Kennedy
@@ -744,7 +744,7 @@ AfSC:
     wn30_key: [[18, "base%2:31:00::"]]
 vXwy:
     lemmas: ["As", "a", "result", ",", "your", "criticism", "of", "attorney_general", "robert_f._kennedy", "and", "the", "department_of_justice", "be", "inaccurate", ",", "unwarranted", "and", "unfair", "."]
-    oewn2026_key: [[12, "oewn-02610777-v"]]
+    oewn_key: [[12, "oewn-02610777-v"]]
     paragraph: '34'
     pos: ["IN", "DT", "NN", ",", "PRP$", "NN", "IN", "NN", "NNP", "CC", "DT", "NN", "VBD", "JJ", ",", "JJ", "CC", "JJ", "."]
     text: ' As a result, your criticism of Attorney_General Robert_F._Kennedy and the department_of_justice
@@ -756,7 +756,7 @@ vXwy:
     wn30_key: [[12, "be%2:42:03::"]]
 vDhH:
     lemmas: ["The", "editorial", "concern", "legislative", "proposal", "to", "ease", "the", "tax", "burden", "on", "du_Pont", "stockholder", ",", "in", "connection", "with", "the", "united_states", "supreme_court", "ruling", "that", "du_Pont", "must", "divest", "itself", "of", "its", "extensive", "general", "motor", "stock", "holding", "."]
-    oewn2026_key: [[2, "oewn-02681865-v"], [6, "oewn-00519475-v"], [24, "oewn-02319255-v"]]
+    oewn_key: [[2, "oewn-02681865-v"], [6, "oewn-00519475-v"], [24, "oewn-02319255-v"]]
     paragraph: '35'
     pos: ["DT", "NN", "VBD", "JJ", "NNS", "TO", "VB", "DT", "NN", "NN", "IN", "NNP", "NNS", ",", "IN", "NN", "IN", "DT", "NN", "NN", "NN", "IN", "NNP", "MD", "VB", "PRP", "IN", "PRP$", "JJ", "NNP", "NNPS", "NN", "NNS", "."]
     text: ' The editorial concerned legislative proposals to ease the tax burden on du_Pont
@@ -767,7 +767,7 @@ vDhH:
     wn30_key: [[2, "concern%2:42:00::"], [6, "ease%2:30:00::"], [24, "divest%2:40:01::"]]
 Afda:
     lemmas: ["These", "proposal", "would", "reduce", "the", "amount", "of", "tax", "that", "du_Pont", "stockholder", "might", "have", "to", "pay", "-", "from", "an", "estimated", "1.1", "billion", "dollar", "under", "present", "law", "to", "as", "little", "as", "192", "million", "dollar", "."]
-    oewn2026_key: [[3, "oewn-00430013-v"], [12, "oewn-00065141-v;oewn-02383544-v;oewn-02746620-v"], [14, "oewn-02256551-v"]]
+    oewn_key: [[3, "oewn-00430013-v"], [12, "oewn-00065141-v;oewn-02383544-v;oewn-02746620-v"], [14, "oewn-02256551-v"]]
     paragraph: '35'
     pos: ["DT", "NNS", "MD", "VB", "DT", "NN", "IN", "NN", "IN", "NNP", "NNS", "MD", "VB", "VB", "VB", ":", "IN", "DT", "JJ", "CD", "CD", "NNS", "IN", "JJ", "NN", "TO", "RB", "JJ", "IN", "CD", "CD", "NNS", "."]
     text: ' These proposals would reduce the amount of tax that du_Pont stockholders might have
@@ -780,7 +780,7 @@ Afda:
     wn30_key: [[3, "reduce%2:30:00::"], [12, "have%2:29:02::;have%2:41:00::;have%2:42:12::"], [14, "pay%2:40:00::"]]
 5l5F:
     lemmas: ["congressman_wilbur_d._mill", ",", "chairman", "of", "the", "house", "ways", "and", "means", "committee", ",", "ask", "the", "department_of_justice", "for", "its", "view", "on", "these", "legislative", "proposal", "as", "they", "relate", "to", "anti-trust", "law_enforcement", "."]
-    oewn2026_key: [[11, "oewn-00754499-v"], [23, "oewn-02730292-v"]]
+    oewn_key: [[11, "oewn-00754499-v"], [23, "oewn-02730292-v"]]
     paragraph: '36'
     pos: ["NNP", ",", "NN", "IN", "DT", "NNP", "NNPS", "CC", "NNP", "NN", ",", "VBD", "DT", "NN", "IN", "PRP$", "NNS", "IN", "DT", "JJ", "NNS", "IN", "PRP", "VB", "VB", "JJ", "NN", "."]
     text: ' Congressman_Wilbur_D._Mills, chairman of the House Ways and Means committee, asked
@@ -791,7 +791,7 @@ Afda:
     wn30_key: [[11, "ask%2:32:01::"], [23, "relate%2:42:01::"]]
 JDBg:
     lemmas: ["The", "attorney_general", "respond", "by", "letter", "dated", "july", "19", "."]
-    oewn2026_key: [[2, "oewn-00817348-v"]]
+    oewn_key: [[2, "oewn-00817348-v"]]
     paragraph: '36'
     pos: ["DT", "NN", "VBD", "IN", "NN", "JJ", "NNP", "CD", "."]
     text: ' The attorney_general responded by letter dated July 19.'
@@ -800,7 +800,7 @@ JDBg:
     wn30_key: [[2, "respond%2:32:00::"]]
 LaHa:
     lemmas: ["copy", "of_this", "letter", "be", "make", "available", "to", "the", "press", "and", "public", "."]
-    oewn2026_key: [[4, "oewn-00120124-v"]]
+    oewn_key: [[4, "oewn-00120124-v"]]
     paragraph: '36'
     pos: ["NNS", "RB", "NN", "VBD", "VBN", "JJ", "TO", "DT", "NN", "CC", "JJ", "."]
     text: ' Copies of_this letter were made available to the press and public.
@@ -811,7 +811,7 @@ LaHa:
     wn30_key: [[4, "make%2:30:00::"]]
 0QTx:
     lemmas: ["in_this", "letter", ",", "mr._kennedy", "make", "it", "clear", "that", "he", "limit", "his", "comment", "only", "to", "one", "consideration", "-", "what", "effect", "the", "legislative", "proposal", "might", "have", "on", "future", "anti-trust", "judgment", "."]
-    oewn2026_key: [[4, "oewn-00120124-v"], [9, "oewn-00234091-v"]]
+    oewn_key: [[4, "oewn-00120124-v"], [9, "oewn-00234091-v"]]
     paragraph: '37'
     pos: ["RB", "NN", ",", "NNP", "VBD", "VB", "JJ", "IN", "PRP", "VBD", "PRP$", "NN", "RB", "TO", "CD", "NN", ":", "WP", "NN", "DT", "JJ", "NNS", "MD", "VB", "VB", "NN", "JJ", "NNS", "."]
     text: ' In_this letter, Mr._Kennedy made it clear that he limited his comment only to one
@@ -822,7 +822,7 @@ LaHa:
     wn30_key: [[4, "make%2:30:00::"], [9, "limit%2:30:01::"]]
 Hj2L:
     lemmas: ["There", "be", "a_number_of", "other", "consideration", "besides", "this", "one", "but", "it", "be", "for", "the", "congress", ",", "not", "the", "department_of_justice", ",", "to", "balance", "these", "various", "consideration", "and", "make", "a", "judgment", "about", "legislation", "."]
-    oewn2026_key: [[10, "oewn-02610777-v"], [20, "oewn-02678923-v"], [25, "oewn-02566500-v"]]
+    oewn_key: [[10, "oewn-02610777-v"], [20, "oewn-02678923-v"], [25, "oewn-02566500-v"]]
     paragraph: '37'
     pos: ["EX", "VB", "JJ", "JJ", "NNS", "IN", "DT", "CD", "CC", "PRP", "VBZ", "IN", "DT", "NNP", ",", "RB", "DT", "NN", ",", "TO", "VB", "DT", "JJ", "NNS", "CC", "VB", "DT", "NN", "IN", "NN", "."]
     text: ' There are a_number_of other considerations besides this one but it is for the Congress,
@@ -835,7 +835,7 @@ Hj2L:
     wn30_key: [[10, "be%2:42:03::"], [20, "balance%2:42:00::"], [25, "make%2:41:00::"]]
 Gho6:
     lemmas: ["yet", "your", "editorial", "say", ":", "\"", "now", "the", "attorney_general", "write", "that", "no", "consideration", "'", "justify", "any", "loss", "of", "revenue", "of_this", "proportion", "\"", "'", "."]
-    oewn2026_key: [[3, "oewn-02736688-v"], [9, "oewn-01702148-v"], [14, "oewn-00897737-v"]]
+    oewn_key: [[3, "oewn-02736688-v"], [9, "oewn-01702148-v"], [14, "oewn-00897737-v"]]
     paragraph: '38'
     pos: ["RB", "PRP$", "NN", "VBD", ":", "``", "RB", "DT", "NN", "VBZ", "IN", "DT", "NNS", "POS", "VB", "DT", "NN", "IN", "NN", "RB", "NN", "''", "''", "."]
     text: ' Yet your editorial said: " Now the attorney_general writes that no considerations''
@@ -845,7 +845,7 @@ Gho6:
     wn30_key: [[3, "say%2:42:00::"], [9, "write%2:36:00::"], [14, "justify%2:32:01::"]]
 NnHN:
     lemmas: ["What", "mr._kennedy", ",", "in_fact", ",", "write", "be", ":", "\"", "It", "be", "the", "department", "'s", "view", "that", "no", "anti-trust", "enforcement", "consideration", "justify", "any", "loss", "of", "revenue", "of_this", "proportion", "\"", "."]
-    oewn2026_key: [[5, "oewn-01702148-v"], [6, "oewn-02622439-v"], [10, "oewn-02610777-v"], [20, "oewn-00897737-v"]]
+    oewn_key: [[5, "oewn-01702148-v"], [6, "oewn-02622439-v"], [10, "oewn-02610777-v"], [20, "oewn-00897737-v"]]
     paragraph: '38'
     pos: ["WP", "NNP", ",", "RB", ",", "VBD", "VBD", ":", "``", "PRP", "VBZ", "DT", "NN", "POS", "NN", "IN", "DT", "JJ", "NN", "NNS", "VBP", "DT", "NN", "IN", "NN", "RB", "NN", "''", "."]
     text: ' What Mr._Kennedy, in_fact, wrote was: " It is the department''s view that no anti-trust
@@ -857,7 +857,7 @@ NnHN:
     wn30_key: [[5, "write%2:36:00::"], [6, "be%2:42:06::"], [10, "be%2:42:03::"], [20, "justify%2:32:01::"]]
 fEpD:
     lemmas: ["The", "editorial", ",", "by", "omit", "the", "words", "anti-trust", "enforcement", ",", "totally", "distort", "mr._kennedy", "'s", "view", "."]
-    oewn2026_key: [[4, "oewn-00617464-v"], [11, "oewn-00837582-v"]]
+    oewn_key: [[4, "oewn-00617464-v"], [11, "oewn-00837582-v"]]
     paragraph: '39'
     pos: ["DT", "NN", ",", "IN", "VBG", "DT", "NNS", "JJ", "NN", ",", "RB", "VB", "NNP", "POS", "NNS", "."]
     text: ' The editorial, by omitting the words anti-trust enforcement, totally distorted Mr._Kennedy''s
@@ -867,7 +867,7 @@ fEpD:
     wn30_key: [[4, "omit%2:31:01::"], [11, "distort%2:32:00::"]]
 auvj:
     lemmas: ["The", "headline", "be", "offensive", ",", "particularly", "in_view", "of", "the", "total", "inaccuracy", "of", "the", "editorial", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"]]
+    oewn_key: [[2, "oewn-02610777-v"]]
     paragraph: '39'
     pos: ["DT", "NN", "VBZ", "JJ", ",", "RB", "JJ", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "."]
     text: ' The headline is offensive, particularly in_view of the total inaccuracy of the editorial.
@@ -878,7 +878,7 @@ auvj:
     wn30_key: [[2, "be%2:42:03::"]]
 8OOw:
     lemmas: ["I", "concur", "most", "heartily", "with", "today", "'s", "letter", "on", "the", "futility", "of", "write", "to", "Sen._Dirksen", "and", "Sen._Douglas", "."]
-    oewn2026_key: [[1, "oewn-00807038-v"], [12, "oewn-00995046-v"]]
+    oewn_key: [[1, "oewn-00807038-v"], [12, "oewn-00995046-v"]]
     paragraph: '40'
     pos: ["PRP", "VBP", "JJS", "RB", "IN", "NN", "POS", "NN", "IN", "DT", "NN", "IN", "VBG", "TO", "NNP", "CC", "NNP", "."]
     text: ' I concur most heartily with today''s letter on the futility of writing to Sen._Dirksen
@@ -890,7 +890,7 @@ auvj:
     wn30_key: [[1, "concur%2:32:00::"], [12, "write%2:32:00::"]]
 8wBg:
     lemmas: ["But", "when", "you", "write", "to", "congresswoman_church", ",", "bless", "her", "heart", ",", "your", "letter", "be", "answer", "fully", "and", "completely", "."]
-    oewn2026_key: [[3, "oewn-00995046-v"], [14, "oewn-00817348-v"]]
+    oewn_key: [[3, "oewn-00995046-v"], [14, "oewn-00817348-v"]]
     paragraph: '41'
     pos: ["CC", "WRB", "PRP", "VBP", "TO", "NNP", ",", "VB", "PRP$", "NN", ",", "PRP$", "NN", "VBZ", "VBN", "RB", "CC", "RB", "."]
     text: ' But when you write to Congresswoman_Church, bless her heart, your letter is answered
@@ -900,7 +900,7 @@ auvj:
     wn30_key: [[3, "write%2:32:00::"], [14, "answer%2:32:00::"]]
 jcc9:
     lemmas: ["Should", "she", "disagree", ",", "she", "explain", "why", "in_detail", "."]
-    oewn2026_key: [[2, "oewn-00806464-v"], [5, "oewn-00941308-v"]]
+    oewn_key: [[2, "oewn-00806464-v"], [5, "oewn-00941308-v"]]
     paragraph: '41'
     pos: ["MD", "PRP", "VB", ",", "PRP", "VBZ", "WRB", "RB", "."]
     text: ' Should she disagree, she explains why in_detail.'
@@ -909,7 +909,7 @@ jcc9:
     wn30_key: [[2, "disagree%2:32:00::"], [5, "explain%2:32:00::"]]
 B8LI:
     lemmas: ["When", "she", "agree", ",", "you", "can", "rest", "assured", "her", "position", "will", "remain", "unchanged", "."]
-    oewn2026_key: [[2, "oewn-00807038-v"], [6, "oewn-01548665-v"], [11, "oewn-00117793-v"]]
+    oewn_key: [[2, "oewn-00807038-v"], [6, "oewn-01548665-v"], [11, "oewn-00117793-v"]]
     paragraph: '41'
     pos: ["WRB", "PRP", "VBZ", ",", "PRP", "MD", "VB", "JJ", "PRP$", "NN", "MD", "VB", "JJ", "."]
     text: ' When she agrees, you can rest assured her position will remain unchanged.
@@ -920,7 +920,7 @@ B8LI:
     wn30_key: [[2, "agree%2:32:00::"], [6, "rest%2:35:00::"], [11, "remain%2:30:00::"]]
 QkYZ:
     lemmas: ["I", "think", "we", "have", "the", "hard", "work", ",", "good", "representative", "in", "congress", "."]
-    oewn2026_key: [[1, "oewn-00691086-v"], [3, "oewn-02636270-v"], [6, "oewn-02418610-v"]]
+    oewn_key: [[1, "oewn-00691086-v"], [3, "oewn-02636270-v"], [6, "oewn-02418610-v"]]
     paragraph: '42'
     pos: ["PRP", "VBP", "PRP", "VBP", "DT", "JJS", "VB", ",", "JJS", "NN", "IN", "NNP", "."]
     text: ' I think we have the hardest working, best representative in Congress.
@@ -931,7 +931,7 @@ QkYZ:
     wn30_key: [[1, "think%2:31:01::"], [3, "have%2:42:00::"], [6, "work%2:41:02::"]]
 ZCCG:
     lemmas: ["A", "recent", "news_story", "report", "that", "frank_sinatra", "and", "dean_martin", "delay", "103", "airplane", "passenger", "10", "minutes", "in", "london", "while", "they", "finish", "their", "drink", "."]
-    oewn2026_key: [[3, "oewn-00968841-v"], [8, "oewn-00460731-v"], [18, "oewn-01199335-v"]]
+    oewn_key: [[3, "oewn-00968841-v"], [8, "oewn-00460731-v"], [18, "oewn-01199335-v"]]
     paragraph: '43'
     pos: ["DT", "JJ", "NN", "VBD", "IN", "NNP", "CC", "NNP", "VBD", "CD", "NN", "NNS", "CD", "NNS", "IN", "NNP", "IN", "PRP", "VBD", "PRP$", "NNS", "."]
     text: ' A recent news_story reported that Frank_Sinatra and Dean_Martin delayed 103 airplane
@@ -943,7 +943,7 @@ ZCCG:
     wn30_key: [[3, "report%2:32:04::"], [8, "delay%2:30:00::"], [18, "finish%2:34:00::"]]
 fQh0:
     lemmas: ["They", "do", "our", "country", "great", "harm", "by", "such", "action", "."]
-    oewn2026_key: [[1, "oewn-02566500-v"]]
+    oewn_key: [[1, "oewn-02566500-v"]]
     paragraph: '44'
     pos: ["PRP", "VBP", "PRP$", "NN", "JJ", "NN", "IN", "JJ", "NNS", "."]
     text: ' They do our country great harm by such actions.'
@@ -952,7 +952,7 @@ fQh0:
     wn30_key: [[1, "do%2:41:01::"]]
 Dyex:
     lemmas: ["Those", "in_the_public_eye", "should", "be", "good_example", "of", "american", "citizen", "while", "abroad", "."]
-    oewn2026_key: [[3, "oewn-02622439-v"]]
+    oewn_key: [[3, "oewn-02622439-v"]]
     paragraph: '44'
     pos: ["DT", "JJ", "MD", "VB", "NN", "IN", "NNP", "NNS", "IN", "RB", "."]
     text: ' Those in_the_public_eye should be good_examples of American citizens while abroad.
@@ -963,7 +963,7 @@ Dyex:
     wn30_key: [[3, "be%2:42:06::"]]
 5kAJ:
     lemmas: ["The", "plane", "should", "have", "start", "at", "the", "scheduled", "time", "and", "leave", "sinatra", "and", "martin", "to", "guzzle", "."]
-    oewn2026_key: [[4, "oewn-01861703-v;oewn-02018017-v"], [10, "oewn-00615374-v"], [15, "oewn-01173104-v"]]
+    oewn_key: [[4, "oewn-01861703-v;oewn-02018017-v"], [10, "oewn-00615374-v"], [15, "oewn-01173104-v"]]
     paragraph: '45'
     pos: ["DT", "NN", "MD", "VB", "VBN", "IN", "DT", "JJ", "NN", "CC", "VBD", "NNP", "CC", "NNP", "TO", "VB", "."]
     text: ' The plane should have started at the scheduled time and left Sinatra and Martin
@@ -975,7 +975,7 @@ Dyex:
     wn30_key: [[4, "start%2:38:01::;start%2:38:02::"], [10, "leave%2:31:05::"], [15, "guzzle%2:34:00::"]]
 4Wcu:
     lemmas: ["overt", "socialism", "mean", "government", "ownership", "and", "management", "of", "a", "nation", "'s", "main", "industry", "."]
-    oewn2026_key: [[2, "oewn-00933814-v"]]
+    oewn_key: [[2, "oewn-00933814-v"]]
     paragraph: '46'
     pos: ["JJ", "NN", "VBZ", "NN", "NN", "CC", "NN", "IN", "DT", "NN", "POS", "JJ", "NNS", "."]
     text: ' Overt socialism means government ownership and management of a nation''s main industries.'
@@ -984,7 +984,7 @@ Dyex:
     wn30_key: [[2, "mean%2:32:03::"]]
 jKv5:
     lemmas: ["In", "covert", "socialism", "-", "toward", "which", "america", "be", "move", "-", "private", "enterprise", "retain", "the", "ownership", "title", "to", "industry", "but", "government", "thru", "direct", "intervention", "and", "excessive", "regulation", "actually", "control", "them", "."]
-    oewn2026_key: [[8, "oewn-00124250-v"], [12, "oewn-02288169-v"], [27, "oewn-02516039-v"]]
+    oewn_key: [[8, "oewn-00124250-v"], [12, "oewn-02288169-v"], [27, "oewn-02516039-v"]]
     paragraph: '46'
     pos: ["IN", "JJ", "NN", ":", "IN", "WDT", "NNP", "VBZ", "VBG", ":", "JJ", "NN", "VBZ", "DT", "NN", "NN", "TO", "NNS", "CC", "NN", "NN", "JJ", "NN", "CC", "JJ", "NNS", "RB", "VBZ", "PRP", "."]
     text: ' In covert socialism - toward which America is moving - private enterprise retains
@@ -997,7 +997,7 @@ jKv5:
     wn30_key: [[8, "move%2:30:00::"], [12, "retain%2:40:00::"], [27, "control%2:41:01::"]]
 ckY8:
     lemmas: ["In_order_to", "attract", "new", "industry", ",", "15", "state", "or", "more", "be", "issue", "tax", "free", "bond", "to", "build", "government", "owned", "plant", "which", "be", "lease", "to", "private", "enterprise", "."]
-    oewn2026_key: [[1, "oewn-01507886-v"], [10, "oewn-02484912-v"], [15, "oewn-01658171-v"], [21, "oewn-02465622-v"]]
+    oewn_key: [[1, "oewn-01507886-v"], [10, "oewn-02484912-v"], [15, "oewn-01658171-v"], [21, "oewn-02465622-v"]]
     paragraph: '47'
     pos: ["RB", "VB", "JJ", "NNS", ",", "CD", "NNS", "CC", "JJR", "VBP", "VBG", "NN", "JJ", "NNS", "TO", "VB", "NN", "JJ", "NNS", "WDT", "VBP", "VBN", "TO", "JJ", "NN", "."]
     text: ' In_order_to attract new industries, 15 states or more are issuing tax free bonds
@@ -1007,7 +1007,7 @@ ckY8:
     wn30_key: [[1, "attract%2:35:00::"], [10, "issue%2:41:00::"], [15, "build%2:36:00::"], [21, "lease%2:41:00::"]]
 O142:
     lemmas: ["This", "be", "a", "step", "toward", "overt", "socialism", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"]]
+    oewn_key: [[1, "oewn-02610777-v"]]
     paragraph: '47'
     pos: ["DT", "VBZ", "DT", "NN", "IN", "JJ", "NN", "."]
     text: ' This is a step toward overt socialism.
@@ -1018,7 +1018,7 @@ O142:
     wn30_key: [[1, "be%2:42:03::"]]
 4a5L:
     lemmas: ["issue", "bond", "for", "plant", "construction", "have", "bring", "new", "industry", "to", "certain", "region", "."]
-    oewn2026_key: [[0, "oewn-02484912-v"], [6, "oewn-02081903-v"]]
+    oewn_key: [[0, "oewn-02484912-v"], [6, "oewn-02081903-v"]]
     paragraph: '48'
     pos: ["VB", "NNS", "IN", "NN", "NN", "VBZ", "VBN", "JJ", "NNS", "TO", "JJ", "NNS", "."]
     text: ' Issuing bonds for plant construction has brought new industries to certain regions.

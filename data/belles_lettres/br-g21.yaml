@@ -3,7 +3,7 @@ _meta:
         type: seq
         base: tokens
         data: string
-    oewn2026_key:
+    oewn_key:
         type: element
         base: tokens
         data: string
@@ -28,7 +28,7 @@ _meta:
         data: string
 vi+n:
     lemmas: ["american", "democratic", "thought", ",", "point_up", "the", "relation", "between", "the", "protestant", "movement", "in_this", "country", "and", "the", "development", "of", "a", "social", "religion", ",", "which", "he", "call", "the", "american", "democratic", "faith", "."]
-    oewn2026_key: [[0, "oewn-02938825-a"], [1, "oewn-00718584-a"], [2, "oewn-05963348-n"], [4, "oewn-01016195-v"], [6, "oewn-00032220-n"], [9, "oewn-02963959-a"], [10, "oewn-08481612-n"], [12, "oewn-08183451-n"], [15, "oewn-13486023-n"], [18, "oewn-02809193-a"], [19, "oewn-05955536-n"], [23, "oewn-01030757-v"], [25, "oewn-02938825-a"], [26, "oewn-00718584-a"], [27, "oewn-05955536-n"]]
+    oewn_key: [[0, "oewn-02938825-a"], [1, "oewn-00718584-a"], [2, "oewn-05963348-n"], [4, "oewn-01016195-v"], [6, "oewn-00032220-n"], [9, "oewn-02963959-a"], [10, "oewn-08481612-n"], [12, "oewn-08183451-n"], [15, "oewn-13486023-n"], [18, "oewn-02809193-a"], [19, "oewn-05955536-n"], [23, "oewn-01030757-v"], [25, "oewn-02938825-a"], [26, "oewn-00718584-a"], [27, "oewn-05955536-n"]]
     paragraph: '0'
     pos: ["JJ", "JJ", "NN", ",", "VB", "DT", "NN", "IN", "DT", "JJ", "NN", "RB", "NN", "CC", "DT", "NN", "IN", "DT", "JJ", "NN", ",", "WDT", "PRP", "VBD", "DT", "JJ", "JJ", "NN", "."]
     text: American democratic thought, pointed_up the relation between the Protestant movement
@@ -39,7 +39,7 @@ vi+n:
     wn30_key: [[0, "american%3:01:01::"], [1, "democratic%3:00:00::"], [2, "thought%1:09:02::"], [4, "point_up%2:32:00::"], [6, "relation%1:03:00::"], [9, "protestant%3:01:00::"], [10, "movement%1:14:00::"], [12, "country%1:14:01::"], [15, "development%1:22:02::"], [18, "social%3:01:00::"], [19, "religion%1:09:00::"], [23, "call%2:32:02::"], [25, "american%3:01:01::"], [26, "democratic%3:00:00::"], [27, "faith%1:09:00::"]]
 VRzF:
     lemmas: ["Those", "familiar_with", "his", "work", "will", "remember", "that", "he", "place", "the", "incipience", "of", "the", "democratic", "faith", "at", "around", "1850", "."]
-    oewn2026_key: [[3, "oewn-04606723-n"], [5, "oewn-00609334-v"], [8, "oewn-00620568-v"], [10, "oewn-15167972-n"], [13, "oewn-00718584-a"], [14, "oewn-05955536-n"], [16, "oewn-00007414-r"]]
+    oewn_key: [[3, "oewn-04606723-n"], [5, "oewn-00609334-v"], [8, "oewn-00620568-v"], [10, "oewn-15167972-n"], [13, "oewn-00718584-a"], [14, "oewn-05955536-n"], [16, "oewn-00007414-r"]]
     paragraph: '0'
     pos: ["DT", "JJ", "PRP$", "NN", "MD", "VB", "IN", "PRP", "VBD", "DT", "NN", "IN", "DT", "JJ", "NN", "IN", "RB", "CD", "."]
     text: ' Those familiar_with his work will remember that he placed the incipience of the
@@ -49,7 +49,7 @@ VRzF:
     wn30_key: [[3, "work%1:06:00::"], [5, "remember%2:31:00::"], [8, "place%2:31:00::"], [10, "incipience%1:28:00::"], [13, "democratic%3:00:00::"], [14, "faith%1:09:00::"], [16, "around%4:02:03::"]]
 2tFt:
     lemmas: ["And", "he", "describe", "it", "as", "a", "balanced", "polarity", "between", "the", "notion", "of", "the", "free", "individual", "and", "what", "he", "call", "the", "fundamental_law", "."]
-    oewn2026_key: [[2, "oewn-00989103-v"], [6, "oewn-00896734-a"], [7, "oewn-13878307-n"], [10, "oewn-05925333-n"], [13, "oewn-01065188-a"], [14, "oewn-00007846-n"], [18, "oewn-01030757-v"]]
+    oewn_key: [[2, "oewn-00989103-v"], [6, "oewn-00896734-a"], [7, "oewn-13878307-n"], [10, "oewn-05925333-n"], [13, "oewn-01065188-a"], [14, "oewn-00007846-n"], [18, "oewn-01030757-v"]]
     paragraph: '0'
     pos: ["CC", "PRP", "VBZ", "PRP", "IN", "DT", "JJ", "NN", "IN", "DT", "NNS", "IN", "DT", "JJ", "NN", "CC", "WP", "PRP", "VBD", "DT", "NN", "."]
     text: ' And he describes it as a balanced polarity between the notions of the free individual
@@ -61,7 +61,7 @@ VRzF:
     wn30_key: [[2, "describe%2:32:00::"], [6, "balanced%3:00:00::"], [7, "polarity%1:24:01::"], [10, "notion%1:09:02::"], [13, "free%3:00:00::"], [14, "individual%1:03:00::"], [18, "call%2:32:02::"]]
 PYSs:
     lemmas: ["I", "want", "to", "say", "more", "about", "person", "'s", "so-called", "fundamental_law", "."]
-    oewn2026_key: [[1, "oewn-01829179-v"], [3, "oewn-01011267-v"], [4, "oewn-00100262-r"], [6, "oewn-00007846-n"], [8, "oewn-01922936-s"]]
+    oewn_key: [[1, "oewn-01829179-v"], [3, "oewn-01011267-v"], [4, "oewn-00100262-r"], [6, "oewn-00007846-n"], [8, "oewn-01922936-s"]]
     paragraph: '1'
     pos: ["PRP", "VBP", "TO", "VB", "RB", "IN", "NNP", "POS", "JJ", "NN", "."]
     text: ' I want to say more about Gabriel''s so-called fundamental_law.'
@@ -70,7 +70,7 @@ PYSs:
     wn30_key: [[1, "want%2:37:00::"], [3, "say%2:32:00::"], [4, "more%4:02:01::"], [6, "person%1:03:00::"], [8, "so-called%3:00:00:questionable:00"]]
 eeJD:
     lemmas: ["But", "first", "I", "want", "to", "quote", "him", "on", "the", "relationship", "that", "he", "find", "between", "religion", "and", "politics", "in_this", "country", "and", "what", "happen", "to", "it", "."]
-    oewn2026_key: [[1, "oewn-00103286-r"], [3, "oewn-01829179-v"], [5, "oewn-01025268-v"], [9, "oewn-13802931-n"], [12, "oewn-00920843-v"], [14, "oewn-08098545-n"], [16, "oewn-13862918-n"], [18, "oewn-08183451-n"], [21, "oewn-00340744-v"]]
+    oewn_key: [[1, "oewn-00103286-r"], [3, "oewn-01829179-v"], [5, "oewn-01025268-v"], [9, "oewn-13802931-n"], [12, "oewn-00920843-v"], [14, "oewn-08098545-n"], [16, "oewn-13862918-n"], [18, "oewn-08183451-n"], [21, "oewn-00340744-v"]]
     paragraph: '1'
     pos: ["CC", "RB", "PRP", "VBP", "TO", "VB", "PRP", "IN", "DT", "NN", "IN", "PRP", "VBD", "IN", "NN", "CC", "NN", "RB", "NN", "CC", "WP", "VBD", "VB", "PRP", "."]
     text: ' But first I want to quote him on the relationship that he found between religion
@@ -80,7 +80,7 @@ eeJD:
     wn30_key: [[1, "first%4:02:00::"], [3, "want%2:37:00::"], [5, "quote%2:32:00::"], [9, "relationship%1:24:00::"], [12, "find%2:32:00::"], [14, "religion%1:14:00::"], [16, "politics%1:24:00::"], [18, "country%1:14:01::"], [21, "happen%2:30:00::"]]
 Wjnl:
     lemmas: ["He", "point_out", "that", "from", "the", "time", "of", "person", "on", "through", "World_War_1", ",", ",", "evangelical", "protestantism", "be", "a", "dominant", "influence", "in", "the", "social", "and", "political", "life", "of", "america", "."]
-    oewn2026_key: [[1, "oewn-01060446-v"], [5, "oewn-15147173-n"], [7, "oewn-00007846-n"], [13, "oewn-02934318-a"], [14, "oewn-06238680-n"], [15, "oewn-02610777-v"], [17, "oewn-00794782-a"], [18, "oewn-05201419-n"], [21, "oewn-02809193-a"], [23, "oewn-01819670-a"], [24, "oewn-13986528-n"], [26, "oewn-09067337-n"]]
+    oewn_key: [[1, "oewn-01060446-v"], [5, "oewn-15147173-n"], [7, "oewn-00007846-n"], [13, "oewn-02934318-a"], [14, "oewn-06238680-n"], [15, "oewn-02610777-v"], [17, "oewn-00794782-a"], [18, "oewn-05201419-n"], [21, "oewn-02809193-a"], [23, "oewn-01819670-a"], [24, "oewn-13986528-n"], [26, "oewn-09067337-n"]]
     paragraph: '1'
     pos: ["PRP", "VBP", "RB", "IN", "DT", "NN", "IN", "NNP", "IN", "IN", "CD", ",", ",", "JJ", "NNP", "VBD", "DT", "JJ", "NN", "IN", "DT", "JJ", "CC", "JJ", "NN", "IN", "NNP", "."]
     text: ' He points_out that from the time of Jackson on through World_War_1,, evangelical
@@ -90,7 +90,7 @@ Wjnl:
     wn30_key: [[1, "point_out%2:32:01::"], [5, "time%1:28:00::"], [7, "person%1:03:00::"], [13, "evangelical%3:01:01::"], [14, "protestantism%1:09:00::"], [15, "be%2:42:03::"], [17, "dominant%3:00:01::"], [18, "influence%1:07:00::"], [21, "social%3:01:00::"], [23, "political%3:00:00::"], [24, "life%1:26:01::"], [26, "america%1:15:00::"]]
 pvMf:
     lemmas: ["He", "term", "this", "early", "enthusiasm", "\"", "romantic_christianity", "\"", "and", "conclude", "that", "its", "similarity", "to", "democratic", "belief", "of_that", "day", "be", "so", "great", "that", "\"", "the", "doctrine", "of", "liberty", "seem", "but", "a", "secular", "version", "of", "its", "counterpart", "in", "evangelical", "protestantism", "\"", "."]
-    oewn2026_key: [[1, "oewn-01031675-v"], [3, "oewn-00816521-a"], [4, "oewn-05678187-n"], [9, "oewn-00636134-v"], [12, "oewn-04750845-n"], [14, "oewn-00718584-a"], [17, "oewn-15274047-n"], [18, "oewn-02610777-v"], [19, "oewn-00147630-r"], [20, "oewn-01682025-s"], [24, "oewn-05952149-n"], [26, "oewn-14017941-n"], [27, "oewn-02137900-v"], [30, "oewn-02064630-s"], [31, "oewn-05849159-n"], [34, "oewn-05703771-n"], [36, "oewn-02934318-a"], [37, "oewn-06238680-n"]]
+    oewn_key: [[1, "oewn-01031675-v"], [3, "oewn-00816521-a"], [4, "oewn-05678187-n"], [9, "oewn-00636134-v"], [12, "oewn-04750845-n"], [14, "oewn-00718584-a"], [17, "oewn-15274047-n"], [18, "oewn-02610777-v"], [19, "oewn-00147630-r"], [20, "oewn-01682025-s"], [24, "oewn-05952149-n"], [26, "oewn-14017941-n"], [27, "oewn-02137900-v"], [30, "oewn-02064630-s"], [31, "oewn-05849159-n"], [34, "oewn-05703771-n"], [36, "oewn-02934318-a"], [37, "oewn-06238680-n"]]
     paragraph: '1'
     pos: ["PRP", "VB", "DT", "JJ", "NN", "``", "NNP", "''", "CC", "VBZ", "IN", "PRP$", "NN", "TO", "JJ", "NN", "RB", "NN", "VBZ", "RB", "JJ", "IN", "``", "DT", "NN", "IN", "NN", "VBZ", "CC", "DT", "JJ", "NN", "IN", "PRP$", "NN", "IN", "JJ", "NNP", "``", "."]
     text: ' He terms this early enthusiasm " Romantic_Christianity " and concludes that its
@@ -102,7 +102,7 @@ pvMf:
     wn30_key: [[1, "term%2:32:00::"], [3, "early%3:00:00::"], [4, "enthusiasm%1:09:00::"], [9, "conclude%2:31:00::"], [12, "similarity%1:07:00::"], [14, "democratic%3:00:00::"], [17, "day%1:28:05::"], [18, "be%2:42:03::"], [19, "so%4:02:02::"], [20, "great%3:00:01:extraordinary:00"], [24, "doctrine%1:09:00::"], [26, "liberty%1:26:02::"], [27, "seem%2:39:00::"], [30, "secular%3:00:06:profane:00"], [31, "version%1:09:01::"], [34, "counterpart%1:09:00::"], [36, "evangelical%3:01:01::"], [37, "protestantism%1:09:00::"]]
 /WGO:
     lemmas: ["let", "me", "quote", "him", "even", "more", "fully", ",", "for", "his", "analysis", "be", "important", "to", "my", "theme", "."]
-    oewn2026_key: [[0, "oewn-02427979-v"], [2, "oewn-01025268-v"], [4, "oewn-00017907-r"], [5, "oewn-00099891-r"], [6, "oewn-00010928-r"], [10, "oewn-06387637-n"], [11, "oewn-02610777-v"], [12, "oewn-01278672-a"], [15, "oewn-06612141-n"]]
+    oewn_key: [[0, "oewn-02427979-v"], [2, "oewn-01025268-v"], [4, "oewn-00017907-r"], [5, "oewn-00099891-r"], [6, "oewn-00010928-r"], [10, "oewn-06387637-n"], [11, "oewn-02610777-v"], [12, "oewn-01278672-a"], [15, "oewn-06612141-n"]]
     paragraph: '1'
     pos: ["VB", "PRP", "VB", "PRP", "RB", "RBR", "RB", ",", "IN", "PRP$", "NN", "VBZ", "JJ", "TO", "PRP$", "NN", "."]
     text: ' Let me quote him even more fully, for his analysis is important to my theme.
@@ -113,7 +113,7 @@ pvMf:
     wn30_key: [[0, "let%2:41:00::"], [2, "quote%2:32:00::"], [4, "even%4:02:00::"], [5, "more%4:02:00::"], [6, "fully%4:02:02::"], [10, "analysis%1:10:00::"], [11, "be%2:42:03::"], [12, "important%3:00:00::"], [15, "theme%1:10:00::"]]
 g1wf:
     lemmas: ["He", "say", ":", "\"", "Beside", "the", "protestant", "philosophy", "of", "progress", ",", "as", "express", "in", "radical", "or", "conservative", "millenarianism", ",", "should", "be", "place", "the", "doctrine", "of", "the", "democratic", "faith", "which", "affirm", "it", "to", "be", "the", "duty", "of", "the", "destiny", "of", "the", "united_states", "to", "assist", "in", "the", "creation", "of", "a", "better", "world", "by", "keep", "lighted", "the", "beacon", "of", "democracy", "\"", "."]
-    oewn2026_key: [[1, "oewn-01011267-v"], [6, "oewn-08104536-n"], [7, "oewn-05952149-n"], [12, "oewn-01062889-v"], [14, "oewn-01539365-s"], [16, "oewn-00576723-a"], [17, "oewn-06199286-n"], [21, "oewn-01496967-v"], [23, "oewn-05952149-n"], [26, "oewn-00718584-a"], [27, "oewn-05955536-n"], [29, "oewn-00667804-v"], [32, "oewn-02610777-v"], [34, "oewn-00720746-n"], [37, "oewn-07344607-n"], [40, "oewn-08372718-n"], [42, "oewn-02553283-v"], [45, "oewn-00910190-n"], [48, "oewn-00233353-a"], [49, "oewn-02475618-n"], [51, "oewn-02687605-v"], [52, "oewn-00477115-a"], [54, "oewn-07278881-n"], [56, "oewn-06227040-n"]]
+    oewn_key: [[1, "oewn-01011267-v"], [6, "oewn-08104536-n"], [7, "oewn-05952149-n"], [12, "oewn-01062889-v"], [14, "oewn-01539365-s"], [16, "oewn-00576723-a"], [17, "oewn-06199286-n"], [21, "oewn-01496967-v"], [23, "oewn-05952149-n"], [26, "oewn-00718584-a"], [27, "oewn-05955536-n"], [29, "oewn-00667804-v"], [32, "oewn-02610777-v"], [34, "oewn-00720746-n"], [37, "oewn-07344607-n"], [40, "oewn-08372718-n"], [42, "oewn-02553283-v"], [45, "oewn-00910190-n"], [48, "oewn-00233353-a"], [49, "oewn-02475618-n"], [51, "oewn-02687605-v"], [52, "oewn-00477115-a"], [54, "oewn-07278881-n"], [56, "oewn-06227040-n"]]
     paragraph: '2'
     pos: ["PRP", "VBZ", ":", "''", "IN", "DT", "NN", "NN", "IN", "NN", ",", "IN", "VBN", "IN", "JJ", "CC", "JJ", "NN", ",", "MD", "VB", "VBN", "DT", "NN", "IN", "DT", "JJ", "NN", "WDT", "VBD", "PRP", "TO", "VB", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NNS", "TO", "VB", "IN", "DT", "NN", "IN", "DT", "JJR", "NN", "IN", "VBG", "JJ", "DT", "NN", "IN", "NN", "''", "."]
     text: ' He says: " Beside the Protestant philosophy of Progress, as expressed in radical
@@ -125,7 +125,7 @@ g1wf:
     wn30_key: [[1, "say%2:32:00::"], [6, "protestant%1:14:00::"], [7, "philosophy%1:09:01::"], [12, "express%2:32:02::"], [14, "radical%3:00:00:immoderate:00"], [16, "conservative%3:00:00::"], [17, "millenarianism%1:09:00::"], [21, "place%2:35:00::"], [23, "doctrine%1:09:00::"], [26, "democratic%3:00:00::"], [27, "faith%1:09:00::"], [29, "affirm%2:31:00::"], [32, "be%2:42:03::"], [34, "duty%1:04:02::"], [37, "destiny%1:11:00::"], [40, "united_states%1:14:00::"], [42, "assist%2:41:02::"], [45, "creation%1:04:00::"], [48, "better%3:00:02::"], [49, "world%1:05:00::"], [51, "keep%2:42:00::"], [52, "lighted%3:00:00::"], [54, "beacon%1:10:00::"], [56, "democracy%1:09:00::"]]
 9CK+:
     lemmas: ["He", "specify", ",", "\"", "in", "the", "middle", "period", "of", "the", "nineteenth", "century", "it", "be", "color", "by", "christian", "supernaturalism", ",", "in", "the", "twentieth", "century", "it", "be", "affect", "by", "naturalism", "."]
-    oewn2026_key: [[1, "oewn-01023982-v"], [6, "oewn-00819510-a"], [7, "oewn-15137796-n"], [10, "oewn-02212141-s"], [11, "oewn-15230328-n"], [14, "oewn-02542758-v"], [16, "oewn-02963612-a"], [17, "oewn-05961357-n"], [21, "oewn-02212385-s"], [22, "oewn-15230328-n"], [25, "oewn-00137133-v"], [27, "oewn-05982239-n"]]
+    oewn_key: [[1, "oewn-01023982-v"], [6, "oewn-00819510-a"], [7, "oewn-15137796-n"], [10, "oewn-02212141-s"], [11, "oewn-15230328-n"], [14, "oewn-02542758-v"], [16, "oewn-02963612-a"], [17, "oewn-05961357-n"], [21, "oewn-02212385-s"], [22, "oewn-15230328-n"], [25, "oewn-00137133-v"], [27, "oewn-05982239-n"]]
     paragraph: '2'
     pos: ["PRP", "VBZ", ",", "''", "RB", "RB", "JJ", "NN", "IN", "DT", "JJ", "NNP", "PRP", "VBD", "VBN", "IN", "JJ", "NN", ",", "IN", "DT", "JJ", "NNP", "PRP", "VB", "VBN", "VB", "NN", "."]
     text: ' He specifies, " In the middle period of the Nineteenth Century it was colored by
@@ -135,7 +135,7 @@ g1wf:
     wn30_key: [[1, "specify%2:32:00::"], [6, "middle%3:00:00::"], [7, "period%1:28:00::"], [10, "nineteenth%3:00:00:ordinal:00"], [11, "century%1:28:00::"], [14, "color%2:41:00::"], [16, "christian%3:01:00::"], [17, "supernaturalism%1:09:00::"], [21, "twentieth%3:00:00:ordinal:00"], [22, "century%1:28:00::"], [25, "affect%2:30:00::"], [27, "naturalism%1:09:00::"]]
 2Jz4:
     lemmas: ["But", "in", "every", "period", "it", "have", "be", "humanism", "\"", "."]
-    oewn2026_key: [[3, "oewn-15137796-n"], [6, "oewn-02622439-v"], [7, "oewn-05976269-n"]]
+    oewn_key: [[3, "oewn-15137796-n"], [6, "oewn-02622439-v"], [7, "oewn-05976269-n"]]
     paragraph: '2'
     pos: ["CC", "IN", "DT", "NN", "PRP", "VBZ", "VBN", "NN", "''", "."]
     text: ' But in every period it has been humanism ".'
@@ -144,7 +144,7 @@ g1wf:
     wn30_key: [[3, "period%1:28:00::"], [6, "be%2:42:06::"], [7, "humanism%1:09:01::"]]
 fBTe:
     lemmas: ["And", "let", "me", "add", ",", "utopianism", ",", "also", "."]
-    oewn2026_key: [[1, "oewn-02427979-v"], [3, "oewn-01029183-v"], [5, "oewn-06231268-n"], [7, "oewn-00048072-r"]]
+    oewn_key: [[1, "oewn-02427979-v"], [3, "oewn-01029183-v"], [5, "oewn-06231268-n"], [7, "oewn-00048072-r"]]
     paragraph: '2'
     pos: ["CC", "VB", "PRP", "VB", ",", "NN", ",", "RB", "."]
     text: ' And let me add, utopianism, also.
@@ -155,7 +155,7 @@ fBTe:
     wn30_key: [[1, "let%2:41:00::"], [3, "add%2:32:01::"], [5, "utopianism%1:09:00::"], [7, "also%4:02:00::"]]
 khv0:
     lemmas: ["Some", "fourteen", "or", "fifteen", "year", "ago", ",", "in", "an", "essay", "I", "call", "The", "leader_follow", "-", "Where", "?"]
-    oewn2026_key: [[1, "oewn-02195338-s"], [3, "oewn-02195432-s"], [4, "oewn-15228587-n"], [5, "oewn-00074361-r"], [9, "oewn-06421205-n"], [11, "oewn-01030757-v"]]
+    oewn_key: [[1, "oewn-02195338-s"], [3, "oewn-02195432-s"], [4, "oewn-15228587-n"], [5, "oewn-00074361-r"], [9, "oewn-06421205-n"], [11, "oewn-01030757-v"]]
     paragraph: '3'
     pos: ["DT", "JJ", "CC", "JJ", "NNS", "RB", ",", "IN", "DT", "NN", "PRP", "VBD", "DT", "NNP", ":", "WRB", "."]
     text: ' Some fourteen or fifteen years ago, in an essay I called The Leader_Follows - Where?'
@@ -164,7 +164,7 @@ khv0:
     wn30_key: [[1, "fourteen%3:00:00:cardinal:00"], [3, "fifteen%3:00:00:cardinal:00"], [4, "year%1:28:01::"], [5, "ago%4:02:00::"], [9, "essay%1:10:00::"], [11, "call%2:32:02::"]]
 GNSj:
     lemmas: ["I", "use", "his", "polarity", "to", "illustrate", "what", "I", "think", "have", "happen", "to", "us", "in_that", "form", "of", "liberalism", "we", "call", "progressivism", "."]
-    oewn2026_key: [[1, "oewn-01161188-v"], [3, "oewn-13878307-n"], [5, "oewn-01023137-v"], [8, "oewn-00691086-v"], [10, "oewn-00340744-v"], [14, "oewn-05847533-n"], [16, "oewn-06228560-n"], [18, "oewn-01030757-v"], [19, "oewn-06229656-n"]]
+    oewn_key: [[1, "oewn-01161188-v"], [3, "oewn-13878307-n"], [5, "oewn-01023137-v"], [8, "oewn-00691086-v"], [10, "oewn-00340744-v"], [14, "oewn-05847533-n"], [16, "oewn-06228560-n"], [18, "oewn-01030757-v"], [19, "oewn-06229656-n"]]
     paragraph: '3'
     pos: ["PRP", "VBD", "PRP$", "NN", "TO", "VB", "WP", "PRP", "VBD", "VBN", "VBN", "VB", "PRP", "RB", "NN", "IN", "NN", "PRP", "VBP", "NNP", "."]
     text: ' I used his polarity to illustrate what I thought had happened to us in_that form
@@ -174,7 +174,7 @@ GNSj:
     wn30_key: [[1, "use%2:34:01::"], [3, "polarity%1:24:01::"], [5, "illustrate%2:32:00::"], [8, "think%2:31:01::"], [10, "happen%2:30:00::"], [14, "form%1:09:01::"], [16, "liberalism%1:09:00::"], [18, "call%2:32:02::"], [19, "progressivism%1:09:00::"]]
 JQ7y:
     lemmas: ["It", "seem", "to", "me", "that", "the", "liberal", "have", "scrap", "the", "balanced", "polarity", "and", "repose", "both", "liberty", "and", "the", "fundamental_law", "in", "the", "common_man", "."]
-    oewn2026_key: [[1, "oewn-02137900-v"], [6, "oewn-10276453-n"], [8, "oewn-02228020-v"], [10, "oewn-00896734-a"], [11, "oewn-13878307-n"], [13, "oewn-01162961-v"], [15, "oewn-14017941-n"], [18, "oewn-06545639-n"], [21, "oewn-80699207-n"]]
+    oewn_key: [[1, "oewn-02137900-v"], [6, "oewn-10276453-n"], [8, "oewn-02228020-v"], [10, "oewn-00896734-a"], [11, "oewn-13878307-n"], [13, "oewn-01162961-v"], [15, "oewn-14017941-n"], [18, "oewn-06545639-n"], [21, "oewn-80699207-n"]]
     paragraph: '3'
     pos: ["PRP", "VBD", "TO", "PRP", "IN", "DT", "NNS", "VBD", "VBN", "DT", "JJ", "NN", "CC", "VBD", "DT", "NN", "CC", "DT", "NN", "IN", "DT", "NN", "."]
     text: ' It seemed to me that the liberals had scrapped the balanced polarity and reposed
@@ -184,7 +184,7 @@ JQ7y:
     wn30_key: [[1, "seem%2:39:00::"], [6, "liberal%1:18:00::"], [8, "scrap%2:40:00::"], [10, "balanced%3:00:00::"], [11, "polarity%1:24:01::"], [13, "repose%2:34:00::"], [15, "liberty%1:26:02::"], [18, "fundamental_law%1:10:00::"], [21, "common_man%1:18:00::"]]
 wC4y:
     lemmas: ["that_is_to_say", "person", "'s", "fundamental_law", "have", "be", "so", "much", "modify", "by", "this", "time", "that", "it", "be", "neither", "fundamental", "nor", "law", "anymore", "."]
-    oewn2026_key: [[0, "oewn-00190022-r"], [1, "oewn-00007846-n"], [3, "oewn-06545639-n"], [6, "oewn-00148162-r"], [7, "oewn-00059624-r"], [8, "oewn-00169614-v"], [11, "oewn-07324217-n"], [14, "oewn-02610777-v"], [16, "oewn-01862358-s"], [18, "oewn-05879538-n"], [19, "oewn-00032002-r"]]
+    oewn_key: [[0, "oewn-00190022-r"], [1, "oewn-00007846-n"], [3, "oewn-06545639-n"], [6, "oewn-00148162-r"], [7, "oewn-00059624-r"], [8, "oewn-00169614-v"], [11, "oewn-07324217-n"], [14, "oewn-02610777-v"], [16, "oewn-01862358-s"], [18, "oewn-05879538-n"], [19, "oewn-00032002-r"]]
     paragraph: '3'
     pos: ["RB", "NNP", "POS", "NN", "VBD", "VB", "RB", "RB", "VBN", "IN", "DT", "NN", "IN", "PRP", "VBD", "DT", "JJ", "CC", "NN", "RB", "."]
     text: ' That_is_to_say Gabriel''s fundamental_law had been so much modified by this time
@@ -194,7 +194,7 @@ wC4y:
     wn30_key: [[0, "that_is_to_say%4:02:00::"], [1, "person%1:03:00::"], [3, "fundamental_law%1:10:00::"], [6, "so%4:02:07::"], [7, "much%4:02:00::"], [8, "modify%2:30:00::"], [11, "time%1:11:00::"], [14, "be%2:42:03::"], [16, "fundamental%3:00:00:basic:00"], [18, "law%1:09:00::"], [19, "anymore%4:02:01::"]]
 87zq:
     lemmas: ["It", "be", "a", "weakness", "of", "person", "'s", "analysis", "that", "he", "never", "seem", "to", "realize", "that", "his", "so-called", "fundamental_law", "have", "already", "be", "cut", "loose", "from", "its", "foundation", "when", "it", "be", "adapt", "to", "democracy", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [3, "oewn-14486530-n"], [5, "oewn-00007846-n"], [7, "oewn-05780664-n"], [10, "oewn-00021214-r"], [11, "oewn-02137900-v"], [13, "oewn-00592510-v"], [16, "oewn-01922936-s"], [17, "oewn-06545639-n"], [19, "oewn-00032194-r"], [21, "oewn-01555301-v"], [22, "oewn-01065803-s"], [25, "oewn-13812924-n"], [29, "oewn-00150107-v"], [31, "oewn-06227040-n"]]
+    oewn_key: [[1, "oewn-02610777-v"], [3, "oewn-14486530-n"], [5, "oewn-00007846-n"], [7, "oewn-05780664-n"], [10, "oewn-00021214-r"], [11, "oewn-02137900-v"], [13, "oewn-00592510-v"], [16, "oewn-01922936-s"], [17, "oewn-06545639-n"], [19, "oewn-00032194-r"], [21, "oewn-01555301-v"], [22, "oewn-01065803-s"], [25, "oewn-13812924-n"], [29, "oewn-00150107-v"], [31, "oewn-06227040-n"]]
     paragraph: '3'
     pos: ["PRP", "VBZ", "DT", "NN", "IN", "NNP", "POS", "NN", "IN", "PRP", "RB", "VBZ", "TO", "VB", "IN", "PRP$", "JJ", "NN", "VBD", "RB", "VB", "VBN", "JJ", "IN", "PRP$", "NNS", "WRB", "PRP", "VBD", "VBN", "TO", "NN", "."]
     text: ' It is a weakness of Gabriel''s analysis that he never seems to realize that his
@@ -205,7 +205,7 @@ wC4y:
     wn30_key: [[1, "be%2:42:03::"], [3, "weakness%1:26:00::"], [5, "person%1:03:00::"], [7, "analysis%1:09:00::"], [10, "never%4:02:00::"], [11, "seem%2:39:00::"], [13, "realize%2:31:00::"], [16, "so-called%3:00:00:questionable:00"], [17, "fundamental_law%1:10:00::"], [19, "already%4:02:00::"], [21, "cut%2:35:00::"], [22, "loose%3:00:01:free:00"], [25, "foundation%1:24:00::"], [29, "adapt%2:30:02::"], [31, "democracy%1:09:00::"]]
 ONJ6:
     lemmas: ["And", "with", "progressivism", "the", "religion_of_humanity", "be", "replace", "what", "person", "call", "christian", "supernaturalism", "."]
-    oewn2026_key: [[2, "oewn-06229656-n"], [6, "oewn-02410532-v"], [8, "oewn-00007846-n"], [9, "oewn-01030757-v"], [10, "oewn-02963612-a"], [11, "oewn-05961357-n"]]
+    oewn_key: [[2, "oewn-06229656-n"], [6, "oewn-02410532-v"], [8, "oewn-00007846-n"], [9, "oewn-01030757-v"], [10, "oewn-02963612-a"], [11, "oewn-05961357-n"]]
     paragraph: '3'
     pos: ["CC", "IN", "NNP", "DT", "NNP", "VBD", "VBG", "WP", "NNP", "VBD", "JJ", "NN", "."]
     text: ' And with Progressivism the Religion_of_Humanity was replacing what Gabriel called
@@ -215,7 +215,7 @@ ONJ6:
     wn30_key: [[2, "progressivism%1:09:00::"], [6, "replace%2:41:00::"], [8, "person%1:03:00::"], [9, "call%2:32:02::"], [10, "christian%3:01:00::"], [11, "supernaturalism%1:09:00::"]]
 CFz+:
     lemmas: ["And", "the", "common_man", "be", "develop", "mythic", "power", ",", "or", "charisma", ",", "on_his_own", "."]
-    oewn2026_key: [[2, "oewn-80699207-n"], [4, "oewn-00546637-v"], [5, "oewn-03007480-a"], [6, "oewn-05198072-n"], [9, "oewn-04693886-n"]]
+    oewn_key: [[2, "oewn-80699207-n"], [4, "oewn-00546637-v"], [5, "oewn-03007480-a"], [6, "oewn-05198072-n"], [9, "oewn-04693886-n"]]
     paragraph: '3'
     pos: ["CC", "DT", "NN", "VBD", "VBG", "JJ", "NN", ",", "CC", "NN", ",", "JJ", "."]
     text: ' And the common_man was developing mythic power, or charisma, on_his_own.
@@ -226,7 +226,7 @@ CFz+:
     wn30_key: [[2, "common_man%1:18:00::"], [4, "develop%2:30:06::"], [5, "mythic%3:01:00::"], [6, "power%1:07:00::"], [9, "charisma%1:07:00::"]]
 AQH8:
     lemmas: ["During", "the", "decade", "that", "follow", ",", "the", "common_man", ",", "as", "that", "piece", "put", "it", ",", "grow", "uncomfortable", "as", "the", "voice", "of", "god", "and", "flee", "from", "behind", "person", ")", "only", "to", "learn", "from", "science", ",", "to", "his", "shocked", "relief", "that", "after_all", "there", "be", "no", "god", "he", "have", "to", "speak_for", "and", "that", "he", "be", "just", "an", "animal", "anyhow", "-", "that", "there", "be", "a", "chemical_formula", "for", "him", ",", "and", "that", "too", "much", "could", "n't", "be", "expect", "of", "him", "."]
-    oewn2026_key: [[2, "oewn-15229779-n"], [4, "oewn-02718647-v"], [7, "oewn-80699207-n"], [11, "oewn-06280049-n"], [12, "oewn-00983308-v"], [15, "oewn-00125649-v"], [16, "oewn-00481923-a"], [19, "oewn-10657783-n"], [21, "oewn-09559169-n"], [23, "oewn-02079709-v"], [26, "oewn-00007846-n"], [28, "oewn-00005103-r"], [30, "oewn-00600349-v"], [36, "oewn-00079166-s"], [37, "oewn-07508420-n"], [39, "oewn-00152363-r"], [41, "oewn-02609706-v"], [42, "oewn-02276242-a"], [43, "oewn-09559169-n"], [47, "oewn-02547838-v"], [51, "oewn-02610777-v"], [52, "oewn-00005103-r"], [54, "oewn-00015568-n"], [55, "oewn-00026948-r"], [61, "oewn-06829793-n"], [67, "oewn-00047930-r"], [68, "oewn-13798833-n"], [72, "oewn-00757790-v"]]
+    oewn_key: [[2, "oewn-15229779-n"], [4, "oewn-02718647-v"], [7, "oewn-80699207-n"], [11, "oewn-06280049-n"], [12, "oewn-00983308-v"], [15, "oewn-00125649-v"], [16, "oewn-00481923-a"], [19, "oewn-10657783-n"], [21, "oewn-09559169-n"], [23, "oewn-02079709-v"], [26, "oewn-00007846-n"], [28, "oewn-00005103-r"], [30, "oewn-00600349-v"], [36, "oewn-00079166-s"], [37, "oewn-07508420-n"], [39, "oewn-00152363-r"], [41, "oewn-02609706-v"], [42, "oewn-02276242-a"], [43, "oewn-09559169-n"], [47, "oewn-02547838-v"], [51, "oewn-02610777-v"], [52, "oewn-00005103-r"], [54, "oewn-00015568-n"], [55, "oewn-00026948-r"], [61, "oewn-06829793-n"], [67, "oewn-00047930-r"], [68, "oewn-13798833-n"], [72, "oewn-00757790-v"]]
     paragraph: '4'
     pos: ["IN", "DT", "NN", "WDT", "VBD", ",", "DT", "NN", ",", "IN", "IN", "NN", "VBD", "PRP", ",", "VBD", "JJ", "IN", "DT", "NNP", "IN", "NNP", "CC", "VBD", "IN", "IN", "NNP", "NNP", "RB", "TO", "VB", "IN", "NN", ",", "TO", "PRP$", "JJ", "NN", "IN", "RB", "EX", "VBD", "JJ", "NNP", "PRP", "VBD", "TO", "VB", "CC", "IN", "PRP", "VBD", "RB", "DT", "NN", "RB", ":", "IN", "EX", "VB", "DT", "NN", "IN", "PRP", ",", "CC", "IN", "RB", "NN", "MD", "RB", "VB", "VBN", "IN", "PRP", "."]
     text: ' During the decade that followed, the common_man, as that piece put it, grew uncomfortable
@@ -241,7 +241,7 @@ AQH8:
     wn30_key: [[2, "decade%1:28:00::"], [4, "follow%2:42:00::"], [7, "common_man%1:18:00::"], [11, "piece%1:10:02::"], [12, "put%2:32:00::"], [15, "grow%2:30:03::"], [16, "uncomfortable%3:00:01::"], [19, "voice%1:18:00::"], [21, "god%1:18:00::"], [23, "flee%2:38:00::"], [26, "person%1:03:00::"], [28, "only%4:02:02::"], [30, "learn%2:31:01::"], [36, "shocked%3:00:00:afraid:00"], [37, "relief%1:12:00::"], [39, "after_all%4:02:01::"], [41, "be%2:42:00::"], [42, "no%3:00:00::"], [43, "god%1:18:00::"], [47, "speak_for%2:41:00::"], [51, "be%2:42:03::"], [52, "just%4:02:00::"], [54, "animal%1:03:00::"], [55, "anyhow%4:02:00::"], [61, "chemical_formula%1:10:00::"], [67, "too%4:02:00::"], [68, "much%1:23:00::"], [72, "expect%2:32:00::"]]
 PHq1:
     lemmas: ["The", "socialism", "implicit_in", "the", "slogan", "of", "the", "roosevelt", "revolution", ",", "freedom", "from", "want", "and", "fear", ",", "seem", "a", "far", "cry", "from", "the", "individualism", "of", "the", "first_amendment", "to", "the", "constitution", ",", "or", "of", "the", "jacksonian", "frontier", "."]
-    oewn2026_key: [[1, "oewn-06230561-n"], [2, "oewn-00945209-s"], [4, "oewn-07166967-n"], [7, "oewn-11290013-n"], [8, "oewn-07438709-n"], [10, "oewn-14015308-n"], [12, "oewn-14517010-n"], [14, "oewn-07534492-n"], [16, "oewn-02137900-v"], [18, "oewn-00444378-a"], [19, "oewn-07167460-n"], [22, "oewn-05971968-n"], [33, "oewn-03087372-a"], [34, "oewn-08522423-n"]]
+    oewn_key: [[1, "oewn-06230561-n"], [2, "oewn-00945209-s"], [4, "oewn-07166967-n"], [7, "oewn-11290013-n"], [8, "oewn-07438709-n"], [10, "oewn-14015308-n"], [12, "oewn-14517010-n"], [14, "oewn-07534492-n"], [16, "oewn-02137900-v"], [18, "oewn-00444378-a"], [19, "oewn-07167460-n"], [22, "oewn-05971968-n"], [33, "oewn-03087372-a"], [34, "oewn-08522423-n"]]
     paragraph: '5'
     pos: ["DT", "NN", "JJ", "DT", "NN", "IN", "DT", "NNP", "NNP", ",", "NN", "IN", "NN", "CC", "NN", ",", "VBZ", "DT", "JJ", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "TO", "DT", "NNP", ",", "CC", "IN", "DT", "JJ", "NN", "."]
     text: ' The socialism implicit_in the slogan of the Roosevelt Revolution, freedom from want
@@ -252,7 +252,7 @@ PHq1:
     wn30_key: [[1, "socialism%1:09:00::"], [2, "implicit_in%3:00:00:implicit:00"], [4, "slogan%1:10:00::"], [7, "roosevelt%1:18:02::"], [8, "revolution%1:11:01::"], [10, "freedom%1:26:00::"], [12, "want%1:26:00::"], [14, "fear%1:12:00::"], [16, "seem%2:39:00::"], [18, "far%3:00:00::"], [19, "cry%1:10:03::"], [22, "individualism%1:09:01::"], [33, "jacksonian%3:01:00::"], [34, "frontier%1:15:00::"]]
 l2xE:
     lemmas: ["What", "have", "happen", "to", "the", "common_man", "?"]
-    oewn2026_key: [[2, "oewn-00340744-v"], [5, "oewn-80699207-n"]]
+    oewn_key: [[2, "oewn-00340744-v"], [5, "oewn-80699207-n"]]
     paragraph: '5'
     pos: ["WP", "VBD", "VBN", "VB", "DT", "NN", "."]
     text: ' What had happened to the common_man?
@@ -263,7 +263,7 @@ l2xE:
     wn30_key: [[2, "happen%2:30:00::"], [5, "common_man%1:18:00::"]]
 ttiI:
     lemmas: ["french", "egalitarianism", "have", "have", "only", "nominal", "influence", "in_this", "country", "before", "the", "day", "of", "popularism", "."]
-    oewn2026_key: [[0, "oewn-02969938-a"], [1, "oewn-05976455-n"], [3, "oewn-02208144-v"], [4, "oewn-00005103-r"], [5, "oewn-01499887-s"], [6, "oewn-05201419-n"], [8, "oewn-08185877-n"], [11, "oewn-15148032-n"]]
+    oewn_key: [[0, "oewn-02969938-a"], [1, "oewn-05976455-n"], [3, "oewn-02208144-v"], [4, "oewn-00005103-r"], [5, "oewn-01499887-s"], [6, "oewn-05201419-n"], [8, "oewn-08185877-n"], [11, "oewn-15148032-n"]]
     paragraph: '6'
     pos: ["JJ", "NNP", "VBD", "VBN", "RB", "JJ", "NN", "RB", "NN", "IN", "DT", "NNS", "IN", "NN", "."]
     text: ' French Egalitarianism had had only nominal influence in_this country before the
@@ -273,7 +273,7 @@ ttiI:
     wn30_key: [[0, "french%3:01:00::"], [1, "egalitarianism%1:09:00::"], [3, "have%2:40:00::"], [4, "only%4:02:02::"], [5, "nominal%3:00:00:minimal:00"], [6, "influence%1:07:00::"], [8, "country%1:14:00::"], [11, "day%1:28:03::"]]
 OfVY:
     lemmas: ["The", "riotous", "onrush", "of", "industrialism", "after", "the", "war_for_southern_independence", "and", "the", "general", "secular", "drift", "to", "the", "religion_of_humanity", ",", "however", ",", "prepare", "the", "way", "for", "a", "reception", "of", "the", "french_revolution", "'s", "socialistic", "offspring", "of", "one", "sort", "of", "another", "."]
-    oewn2026_key: [[1, "oewn-00015284-s"], [2, "oewn-07455217-n"], [4, "oewn-08381684-n"], [10, "oewn-01105084-a"], [11, "oewn-02064630-s"], [12, "oewn-13490877-n"], [19, "oewn-01758079-v"], [21, "oewn-00416689-n"], [24, "oewn-06643359-n"], [27, "oewn-01307498-n"], [29, "oewn-00298907-a"], [30, "oewn-07309665-n"], [32, "oewn-01682215-s"], [33, "oewn-05847533-n"], [35, "oewn-02077592-s"]]
+    oewn_key: [[1, "oewn-00015284-s"], [2, "oewn-07455217-n"], [4, "oewn-08381684-n"], [10, "oewn-01105084-a"], [11, "oewn-02064630-s"], [12, "oewn-13490877-n"], [19, "oewn-01758079-v"], [21, "oewn-00416689-n"], [24, "oewn-06643359-n"], [27, "oewn-01307498-n"], [29, "oewn-00298907-a"], [30, "oewn-07309665-n"], [32, "oewn-01682215-s"], [33, "oewn-05847533-n"], [35, "oewn-02077592-s"]]
     paragraph: '6'
     pos: ["DT", "JJ", "NN", "IN", "NN", "IN", "DT", "NNP", "CC", "DT", "JJ", "JJ", "NN", "TO", "DT", "NNP", ",", "RB", ",", "VBD", "DT", "NN", "IN", "DT", "NN", "IN", "NN", "NN", "POS", "JJ", "NN", "IN", "JJ", "NN", "RB", "JJ", "."]
     text: ' The riotous onrush of industrialism after the War_for_Southern_Independence and
@@ -285,7 +285,7 @@ OfVY:
     wn30_key: [[1, "riotous%3:00:00:abundant:00"], [2, "onrush%1:11:00::"], [4, "industrialism%1:14:00::"], [10, "general%3:00:00::"], [11, "secular%3:00:06:profane:00"], [12, "drift%1:22:01::"], [19, "prepare%2:36:02::"], [21, "way%1:04:00::"], [24, "reception%1:10:01::"], [27, "french_revolution%1:04:00::"], [29, "socialistic%3:00:00::"], [30, "offspring%1:11:00::"], [32, "one%3:00:00:extraordinary:00"], [33, "sort%1:09:00::"], [35, "another%3:00:00:other:00"]]
 ivzU:
     lemmas: ["The", "first", "of_which", "to", "find", "important", "place", "in", "our", "federal_government", "be", "the", "graduated", "income_tax", "under", "person", "."]
-    oewn2026_key: [[1, "oewn-13868396-n"], [4, "oewn-02218118-v"], [5, "oewn-01278672-a"], [6, "oewn-05619605-n"], [9, "oewn-08069301-n"], [10, "oewn-02622439-v"], [13, "oewn-13331252-n"], [15, "oewn-00007846-n"]]
+    oewn_key: [[1, "oewn-13868396-n"], [4, "oewn-02218118-v"], [5, "oewn-01278672-a"], [6, "oewn-05619605-n"], [9, "oewn-08069301-n"], [10, "oewn-02622439-v"], [13, "oewn-13331252-n"], [15, "oewn-00007846-n"]]
     paragraph: '6'
     pos: ["DT", "NN", "RB", "TO", "VB", "JJ", "NN", "IN", "PRP$", "NN", "VBD", "DT", "JJ", "NN", "IN", "NNP", "."]
     text: ' The first of_which to find important place in our federal_government was the graduated
@@ -295,7 +295,7 @@ ivzU:
     wn30_key: [[1, "first%1:24:00::"], [4, "find%2:40:01::"], [5, "important%3:00:00::"], [6, "place%1:09:00::"], [9, "federal_government%1:14:00::"], [10, "be%2:42:06::"], [13, "income_tax%1:21:00::"], [15, "person%1:03:00::"]]
 Wyhd:
     lemmas: ["moreover", "the", "centralization", "of", "our", "economy", "during", "the", "1920", "s", ",", "the", "dislocation", "of", "the", "depression", ",", "the", "common", "ethos", "of", "materialism", "everywhere", ",", "all", "contribute", "in", "various", "way", "to", "the", "face_lifting", "that", "replace", "person", "and", "the", "great_gatsby", "with", "the", "anonymous", "physiognomy", "of", "the", "little_people", "."]
-    oewn2026_key: [[0, "oewn-00029763-r"], [2, "oewn-01240437-n"], [5, "oewn-08383680-n"], [12, "oewn-00554399-n"], [15, "oewn-14512697-n"], [18, "oewn-00494722-a"], [19, "oewn-04730562-n"], [21, "oewn-14062792-n"], [22, "oewn-00026137-r"], [25, "oewn-02313721-v"], [27, "oewn-02073069-s"], [28, "oewn-04936080-n"], [31, "oewn-00266316-n"], [33, "oewn-02262575-v"], [34, "oewn-00007846-n"], [40, "oewn-00238244-s"], [41, "oewn-05609112-n"]]
+    oewn_key: [[0, "oewn-00029763-r"], [2, "oewn-01240437-n"], [5, "oewn-08383680-n"], [12, "oewn-00554399-n"], [15, "oewn-14512697-n"], [18, "oewn-00494722-a"], [19, "oewn-04730562-n"], [21, "oewn-14062792-n"], [22, "oewn-00026137-r"], [25, "oewn-02313721-v"], [27, "oewn-02073069-s"], [28, "oewn-04936080-n"], [31, "oewn-00266316-n"], [33, "oewn-02262575-v"], [34, "oewn-00007846-n"], [40, "oewn-00238244-s"], [41, "oewn-05609112-n"]]
     paragraph: '6'
     pos: ["RB", "DT", "NN", "IN", "PRP$", "NN", "IN", "DT", "CD", "PRP", ",", "DT", "NNS", "IN", "NNP", "NNP", ",", "DT", "JJ", "NN", "IN", "NNP", "RB", ",", "DT", "VBD", "IN", "JJ", "NNS", "TO", "DT", "NN", "WDT", "VBD", "NN", "CC", "DT", "NNP", "IN", "DT", "JJ", "NN", "IN", "DT", "NNS", "."]
     text: ' Moreover the centralization of our economy during the 1920 s, the dislocations of
@@ -309,7 +309,7 @@ Wyhd:
     wn30_key: [[0, "moreover%4:02:00::"], [2, "centralization%1:04:00::"], [5, "economy%1:14:00::"], [12, "dislocation%1:04:00::"], [15, "depression%1:26:02::"], [18, "common%3:00:02::"], [19, "ethos%1:07:00::"], [21, "materialism%1:26:00::"], [22, "everywhere%4:02:00::"], [25, "contribute%2:40:00::"], [27, "various%3:00:02:different:00"], [28, "way%1:07:01::"], [31, "face_lifting%1:04:01::"], [33, "replace%2:40:00::"], [34, "person%1:03:00::"], [40, "anonymous%3:00:00:faceless:00"], [41, "physiognomy%1:08:00::"]]
 S2B0:
     lemmas: ["however", ",", "it", "be", "important", "to", "trace", "the", "philosophy", "of", "the", "french_revolution", "to", "its", "source", "to", "understand", "the", "common", "democratic", "origin", "of", "individualism", "and", "socialism", "and", "the", "influence", "of", "the", "latter", "on", "the", "former", "."]
-    oewn2026_key: [[3, "oewn-02610777-v"], [4, "oewn-01278672-a"], [6, "oewn-00731071-v"], [8, "oewn-05952149-n"], [11, "oewn-01307498-n"], [14, "oewn-08524579-n"], [16, "oewn-00590283-v"], [18, "oewn-02159888-s"], [19, "oewn-00718584-a"], [20, "oewn-07338522-n"], [22, "oewn-05971803-n"], [24, "oewn-06230561-n"], [27, "oewn-11434722-n"], [30, "oewn-01051260-a"], [33, "oewn-01051000-a"]]
+    oewn_key: [[3, "oewn-02610777-v"], [4, "oewn-01278672-a"], [6, "oewn-00731071-v"], [8, "oewn-05952149-n"], [11, "oewn-01307498-n"], [14, "oewn-08524579-n"], [16, "oewn-00590283-v"], [18, "oewn-02159888-s"], [19, "oewn-00718584-a"], [20, "oewn-07338522-n"], [22, "oewn-05971803-n"], [24, "oewn-06230561-n"], [27, "oewn-11434722-n"], [30, "oewn-01051260-a"], [33, "oewn-01051000-a"]]
     paragraph: '7'
     pos: ["RB", ",", "PRP", "VBZ", "JJ", "TO", "VB", "DT", "NN", "IN", "NN", "NN", "TO", "PRP$", "NNS", "TO", "VB", "DT", "JJ", "JJ", "NN", "IN", "NN", "CC", "NN", "CC", "DT", "NN", "IN", "DT", "JJ", "IN", "DT", "JJ", "."]
     text: ' However, it is important to trace the philosophy of the French_Revolution to its
@@ -320,7 +320,7 @@ S2B0:
     wn30_key: [[3, "be%2:42:03::"], [4, "important%3:00:00::"], [6, "trace%2:31:00::"], [8, "philosophy%1:09:01::"], [11, "french_revolution%1:04:00::"], [14, "source%1:15:00::"], [16, "understand%2:31:00::"], [18, "common%3:00:00:shared:00"], [19, "democratic%3:00:00::"], [20, "origin%1:11:00::"], [22, "individualism%1:09:00::"], [24, "socialism%1:09:00::"], [27, "influence%1:19:00::"], [30, "latter%3:00:00::"], [33, "former%3:00:00::"]]
 wNbK:
     lemmas: ["That", "john_locke", "'s", "philosophy", "of", "the", "social_contract", "father", "the", "american_revolution", "with", "its", "declaration_of_independence", ",", "I", "believe", ",", "we", "generally", "accept", "."]
-    oewn2026_key: [[1, "oewn-11156788-n"], [3, "oewn-05952149-n"], [6, "oewn-13996048-n"], [7, "oewn-00054345-v"], [9, "oewn-01304577-n"], [12, "oewn-06524090-n"], [15, "oewn-00723022-v"], [18, "oewn-00156754-r"], [19, "oewn-00688348-v"]]
+    oewn_key: [[1, "oewn-11156788-n"], [3, "oewn-05952149-n"], [6, "oewn-13996048-n"], [7, "oewn-00054345-v"], [9, "oewn-01304577-n"], [12, "oewn-06524090-n"], [15, "oewn-00723022-v"], [18, "oewn-00156754-r"], [19, "oewn-00688348-v"]]
     paragraph: '7'
     pos: ["DT", "NN", "POS", "NN", "IN", "DT", "NN", "VBD", "DT", "NN", "IN", "PRP$", "NN", ",", "PRP", "VBP", ",", "PRP", "RB", "VBP", "."]
     text: ' That John_Locke''s philosophy of the social_contract fathered the American_Revolution
@@ -330,7 +330,7 @@ wNbK:
     wn30_key: [[1, "john_locke%1:18:00::"], [3, "philosophy%1:09:01::"], [6, "social_contract%1:26:00::"], [7, "father%2:29:00::"], [9, "american_revolution%1:04:00::"], [12, "declaration_of_independence%1:10:00::"], [15, "believe%2:31:03::"], [18, "generally%4:02:02::"], [19, "accept%2:31:00::"]]
 uFcY:
     lemmas: ["yet", ",", "after", "rousseau", "have", "give", "the", "social_contract", "a", "new", "twist", "with", "his", "notion", "of", "the", "general", "will", ",", "the", "same", "philosophy", ",", "it", "may", "be", "say", ",", "become", "the", "idea", "source", "of", "the", "french_revolution", "also", "."]
-    oewn2026_key: [[0, "oewn-00028191-r"], [3, "oewn-11292679-n"], [5, "oewn-01632595-v"], [7, "oewn-13996048-n"], [9, "oewn-01645077-a"], [10, "oewn-07188610-n"], [13, "oewn-05925333-n"], [16, "oewn-01105084-a"], [17, "oewn-05660438-n"], [20, "oewn-02075880-a"], [21, "oewn-05952149-n"], [26, "oewn-01011267-v"], [28, "oewn-02632685-v"], [30, "oewn-05842164-n"], [31, "oewn-05843082-n"], [34, "oewn-01307498-n"], [35, "oewn-00048072-r"]]
+    oewn_key: [[0, "oewn-00028191-r"], [3, "oewn-11292679-n"], [5, "oewn-01632595-v"], [7, "oewn-13996048-n"], [9, "oewn-01645077-a"], [10, "oewn-07188610-n"], [13, "oewn-05925333-n"], [16, "oewn-01105084-a"], [17, "oewn-05660438-n"], [20, "oewn-02075880-a"], [21, "oewn-05952149-n"], [26, "oewn-01011267-v"], [28, "oewn-02632685-v"], [30, "oewn-05842164-n"], [31, "oewn-05843082-n"], [34, "oewn-01307498-n"], [35, "oewn-00048072-r"]]
     paragraph: '7'
     pos: ["RB", ",", "IN", "NNP", "VBD", "VBN", "DT", "NN", "DT", "JJ", "NN", "IN", "PRP$", "NN", "IN", "DT", "JJ", "NNP", ",", "DT", "JJ", "NN", ",", "PRP", "MD", "VB", "VBN", ",", "VBD", "DT", "NN", "NN", "IN", "NN", "NN", "RB", "."]
     text: ' Yet, after Rousseau had given the social_contract a new twist with his notion of
@@ -343,7 +343,7 @@ uFcY:
     wn30_key: [[0, "yet%4:02:02::"], [3, "rousseau%1:18:00::"], [5, "give%2:36:03::"], [7, "social_contract%1:26:00::"], [9, "new%3:00:00::"], [10, "twist%1:10:00::"], [13, "notion%1:09:02::"], [16, "general%3:00:00::"], [17, "will%1:09:00::"], [20, "same%3:00:02::"], [21, "philosophy%1:09:01::"], [26, "say%2:32:00::"], [28, "become%2:42:01::"], [30, "idea%1:09:00::"], [31, "source%1:09:00::"], [34, "french_revolution%1:04:00::"], [35, "also%4:02:00::"]]
 ub5j:
     lemmas: ["The", "importance", "of", "rousseau", "'s", "twist", "have", "not", "always", "be", "clear", "to", "us", ",", "however", "."]
-    oewn2026_key: [[1, "oewn-05175788-n"], [3, "oewn-11292679-n"], [5, "oewn-07188610-n"], [7, "oewn-00024432-r"], [8, "oewn-00019801-r"], [9, "oewn-02610777-v"], [10, "oewn-00429900-a"]]
+    oewn_key: [[1, "oewn-05175788-n"], [3, "oewn-11292679-n"], [5, "oewn-07188610-n"], [7, "oewn-00024432-r"], [8, "oewn-00019801-r"], [9, "oewn-02610777-v"], [10, "oewn-00429900-a"]]
     paragraph: '8'
     pos: ["DT", "NN", "IN", "NNP", "POS", "NN", "VBZ", "RB", "RB", "VBN", "JJ", "TO", "PRP", ",", "RB", "."]
     text: ' The importance of Rousseau''s twist has not always been clear to us, however.'
@@ -352,7 +352,7 @@ ub5j:
     wn30_key: [[1, "importance%1:07:00::"], [3, "rousseau%1:18:00::"], [5, "twist%1:10:00::"], [7, "not%4:02:00::"], [8, "always%4:02:00::"], [9, "be%2:42:03::"], [10, "clear%3:00:00::"]]
 jYtf:
     lemmas: ["This", "notion", "of", "the", "general", "will", "give_rise", "to", "the", "commune_of_paris", "in", "the", "revolution", "and", "later", "bring", "napoleon", "to", "dictatorship", "."]
-    oewn2026_key: [[1, "oewn-05844922-n"], [4, "oewn-01105084-a"], [5, "oewn-05660438-n"], [6, "oewn-01756692-v"], [14, "oewn-00061741-r"], [15, "oewn-00135665-v"], [16, "oewn-11220266-n"], [18, "oewn-08457622-n"]]
+    oewn_key: [[1, "oewn-05844922-n"], [4, "oewn-01105084-a"], [5, "oewn-05660438-n"], [6, "oewn-01756692-v"], [14, "oewn-00061741-r"], [15, "oewn-00135665-v"], [16, "oewn-11220266-n"], [18, "oewn-08457622-n"]]
     paragraph: '8'
     pos: ["DT", "NN", "IN", "DT", "JJ", "NNP", "VB", "VB", "DT", "NNP", "IN", "DT", "NNP", "CC", "RB", "VBD", "NNP", "TO", "NN", "."]
     text: ' This notion of the General Will gave_rise to the Commune_of_Paris in the Revolution
@@ -362,7 +362,7 @@ jYtf:
     wn30_key: [[1, "notion%1:09:00::"], [4, "general%3:00:00::"], [5, "will%1:09:00::"], [6, "give_rise%2:36:01::"], [14, "later%4:02:01::"], [15, "bring%2:30:00::"], [16, "napoleon%1:18:00::"], [18, "dictatorship%1:14:00::"]]
 mWIJ:
     lemmas: ["And", "it", "be", "clearly", "argue", "by", "person", "of", "newcastle", ",", "in", "his", "remarkable", "long", "essay", ",", "The", "heresy_of_democracy", ",", "and", "in", "a", "more", "general", "way", "by", "person", ",", "in", "his", "New_Science_of_Politics", ",", "that", "this", "same", "rousseauan", "idea", ",", "descend", "through", "european", "democracy", ",", "be", "the", "source", "of", "person", "'s", "theory", "of", "the", "dictatorship", "of", "the", "proletariat", "."]
-    oewn2026_key: [[3, "oewn-00203770-r"], [4, "oewn-00774234-v"], [6, "oewn-00007846-n"], [8, "oewn-08899615-n"], [12, "oewn-02171017-s"], [13, "oewn-01436368-a"], [14, "oewn-06421205-n"], [22, "oewn-00100262-r"], [23, "oewn-00787396-s"], [24, "oewn-04936080-n"], [26, "oewn-00007846-n"], [34, "oewn-02075880-a"], [35, "oewn-02869628-a"], [36, "oewn-05842164-n"], [38, "oewn-02743062-v"], [40, "oewn-02979870-a"], [41, "oewn-06227040-n"], [43, "oewn-02610777-v"], [45, "oewn-05843082-n"], [47, "oewn-00007846-n"], [49, "oewn-05897536-n"], [52, "oewn-08457622-n"], [55, "oewn-08197557-n"]]
+    oewn_key: [[3, "oewn-00203770-r"], [4, "oewn-00774234-v"], [6, "oewn-00007846-n"], [8, "oewn-08899615-n"], [12, "oewn-02171017-s"], [13, "oewn-01436368-a"], [14, "oewn-06421205-n"], [22, "oewn-00100262-r"], [23, "oewn-00787396-s"], [24, "oewn-04936080-n"], [26, "oewn-00007846-n"], [34, "oewn-02075880-a"], [35, "oewn-02869628-a"], [36, "oewn-05842164-n"], [38, "oewn-02743062-v"], [40, "oewn-02979870-a"], [41, "oewn-06227040-n"], [43, "oewn-02610777-v"], [45, "oewn-05843082-n"], [47, "oewn-00007846-n"], [49, "oewn-05897536-n"], [52, "oewn-08457622-n"], [55, "oewn-08197557-n"]]
     paragraph: '8'
     pos: ["CC", "PRP", "VBZ", "RB", "VBN", "IN", "NN", "IN", "NNP", ",", "IN", "PRP$", "JJ", "JJ", "NN", ",", "DT", "NNP", ",", "CC", "IN", "DT", "RBR", "JJ", "NN", "IN", "NNP", ",", "IN", "PRP$", "NNP", ",", "IN", "DT", "JJ", "JJ", "NN", ",", "VBG", "IN", "JJ", "NN", ",", "VBZ", "DT", "NN", "IN", "NNP", "POS", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "."]
     text: ' And it is clearly argued by Lord_Percy of Newcastle, in his remarkable long essay,
@@ -374,7 +374,7 @@ mWIJ:
     wn30_key: [[3, "clearly%4:02:01::"], [4, "argue%2:32:02::"], [6, "person%1:03:00::"], [8, "newcastle%1:15:00::"], [12, "remarkable%3:00:00:significant:00"], [13, "long%3:00:01::"], [14, "essay%1:10:00::"], [22, "more%4:02:01::"], [23, "general%3:00:00:undiversified:00"], [24, "way%1:07:01::"], [26, "person%1:03:00::"], [34, "same%3:00:02::"], [35, "rousseauan%3:01:00::"], [36, "idea%1:09:00::"], [38, "descend%2:42:00::"], [40, "european%3:01:00::"], [41, "democracy%1:09:00::"], [43, "be%2:42:03::"], [45, "source%1:09:00::"], [47, "person%1:03:00::"], [49, "theory%1:09:01::"], [52, "dictatorship%1:14:00::"], [55, "proletariat%1:14:00::"]]
 DnRf:
     lemmas: ["This", "be", "important", "to", "understand", "the", "position", "that", "doctrinaire", "liberal", "find", "themselves", "in", "after", "World_War_2", ",", "and", "our", "great", "democratic", "victory", "that", "bring", "no", "peace", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-02168847-a"], [4, "oewn-00590283-v"], [6, "oewn-06206019-n"], [8, "oewn-01327223-s"], [9, "oewn-10276453-n"], [10, "oewn-02202295-v"], [18, "oewn-01281928-s"], [19, "oewn-00718584-a"], [20, "oewn-07488581-n"], [22, "oewn-01621566-v"], [23, "oewn-02276242-a"], [24, "oewn-13993147-n"]]
+    oewn_key: [[1, "oewn-02610777-v"], [2, "oewn-02168847-a"], [4, "oewn-00590283-v"], [6, "oewn-06206019-n"], [8, "oewn-01327223-s"], [9, "oewn-10276453-n"], [10, "oewn-02202295-v"], [18, "oewn-01281928-s"], [19, "oewn-00718584-a"], [20, "oewn-07488581-n"], [22, "oewn-01621566-v"], [23, "oewn-02276242-a"], [24, "oewn-13993147-n"]]
     paragraph: '8'
     pos: ["DT", "VBZ", "JJ", "TO", "VBG", "DT", "NN", "IN", "JJ", "NNS", "VBD", "PRP", "IN", "IN", "CD", ",", "CC", "PRP$", "JJ", "JJ", "NN", "WDT", "VBD", "JJ", "NN", "."]
     text: ' This is important to understanding the position that doctrinaire liberals found
@@ -387,7 +387,7 @@ DnRf:
     wn30_key: [[1, "be%2:42:03::"], [2, "important%3:00:04::"], [4, "understand%2:31:00::"], [6, "position%1:09:01::"], [8, "doctrinaire%3:00:00:instructive:00"], [9, "liberal%1:18:00::"], [10, "find%2:39:05::"], [18, "great%3:00:01:important:00"], [19, "democratic%3:00:00::"], [20, "victory%1:11:00::"], [22, "bring%2:36:01::"], [23, "no%3:00:00::"], [24, "peace%1:26:01::"]]
 S0RK:
     lemmas: ["The", "long", "road", "that", "have", "take", "liberal", "in_this", "country", "into", "the", "social", "religion", "of", "democracy", ",", "into", "a", "worship", "of", "man", ",", "lead", "logically", "to", "the", "marxist", "dream", "of", "a", "classless", "society", "under", "a", "socialist", "state", "."]
-    oewn2026_key: [[1, "oewn-01440837-a"], [2, "oewn-00174852-n"], [5, "oewn-02003830-v"], [6, "oewn-10276453-n"], [8, "oewn-08183451-n"], [11, "oewn-02809193-a"], [12, "oewn-05955536-n"], [14, "oewn-06227040-n"], [18, "oewn-01030597-n"], [20, "oewn-02475618-n"], [22, "oewn-00773677-v"], [23, "oewn-00365540-r"], [26, "oewn-02886586-a"], [27, "oewn-07499687-n"], [30, "oewn-00719121-s"], [31, "oewn-07982754-n"], [34, "oewn-00298907-a"], [35, "oewn-08195465-n"]]
+    oewn_key: [[1, "oewn-01440837-a"], [2, "oewn-00174852-n"], [5, "oewn-02003830-v"], [6, "oewn-10276453-n"], [8, "oewn-08183451-n"], [11, "oewn-02809193-a"], [12, "oewn-05955536-n"], [14, "oewn-06227040-n"], [18, "oewn-01030597-n"], [20, "oewn-02475618-n"], [22, "oewn-00773677-v"], [23, "oewn-00365540-r"], [26, "oewn-02886586-a"], [27, "oewn-07499687-n"], [30, "oewn-00719121-s"], [31, "oewn-07982754-n"], [34, "oewn-00298907-a"], [35, "oewn-08195465-n"]]
     paragraph: '9'
     pos: ["DT", "JJ", "NN", "WDT", "VBD", "VBN", "NNS", "RB", "NN", "IN", "DT", "JJ", "NN", "NN", "NN", ",", "IN", "DT", "NN", "IN", "NN", ",", "VBD", "RB", "TO", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "IN", "DT", "JJ", "NNP", "."]
     text: ' The long road that had taken liberals in_this country into the social religion of
@@ -398,7 +398,7 @@ S0RK:
     wn30_key: [[1, "long%3:00:02::"], [2, "road%1:04:00::"], [5, "take%2:38:09::"], [6, "liberal%1:18:00::"], [8, "country%1:14:01::"], [11, "social%3:01:00::"], [12, "religion%1:09:00::"], [14, "democracy%1:09:00::"], [18, "worship%1:04:00::"], [20, "man%1:05:00::"], [22, "lead%2:32:00::"], [23, "logically%4:02:01::"], [26, "marxist%3:01:00::"], [27, "dream%1:12:00::"], [30, "classless%3:00:00:democratic:00"], [31, "society%1:14:00::"], [34, "socialist%3:00:04::"], [35, "state%1:14:01::"]]
 hIXP:
     lemmas: ["And", "the", "ussr", "exist", "as", "the", "revolutionary", "experiment", "in", "radical", "socialism", ",", "the", "ultimate", "exemplar", "."]
-    oewn2026_key: [[2, "oewn-09025654-n"], [3, "oewn-02609706-v"], [6, "oewn-01647099-s"], [7, "oewn-05806051-n"], [9, "oewn-01539365-s"], [10, "oewn-06230561-n"], [13, "oewn-01582720-a"], [14, "oewn-05933998-n"]]
+    oewn_key: [[2, "oewn-09025654-n"], [3, "oewn-02609706-v"], [6, "oewn-01647099-s"], [7, "oewn-05806051-n"], [9, "oewn-01539365-s"], [10, "oewn-06230561-n"], [13, "oewn-01582720-a"], [14, "oewn-05933998-n"]]
     paragraph: '9'
     pos: ["CC", "DT", "NNP", "VBD", "IN", "DT", "JJ", "NN", "IN", "JJ", "NN", ",", "DT", "JJ", "NN", "."]
     text: ' And the USSR existed as the revolutionary experiment in radical socialism, the ultimate
@@ -408,7 +408,7 @@ hIXP:
     wn30_key: [[2, "ussr%1:15:00::"], [3, "exist%2:42:00::"], [6, "revolutionary%3:00:00:new:00"], [7, "experiment%1:09:00::"], [9, "radical%3:00:00:immoderate:00"], [10, "socialism%1:09:00::"], [13, "ultimate%3:00:00::"], [14, "exemplar%1:09:00::"]]
 NopJ:
     lemmas: ["And", "by", "the", "time", "the", "war", "end", ",", "liberal", "leadership", "in_this", "country", "be", "spiritually", "marxist", "."]
-    oewn2026_key: [[3, "oewn-15270326-n"], [5, "oewn-14004888-n"], [6, "oewn-02615799-v"], [8, "oewn-02038880-s"], [9, "oewn-08398167-n"], [11, "oewn-08562388-n"], [12, "oewn-02610777-v"], [13, "oewn-00212815-r"], [14, "oewn-02886586-a"]]
+    oewn_key: [[3, "oewn-15270326-n"], [5, "oewn-14004888-n"], [6, "oewn-02615799-v"], [8, "oewn-02038880-s"], [9, "oewn-08398167-n"], [11, "oewn-08562388-n"], [12, "oewn-02610777-v"], [13, "oewn-00212815-r"], [14, "oewn-02886586-a"]]
     paragraph: '9'
     pos: ["CC", "IN", "DT", "NN", "DT", "NN", "VBD", ",", "JJ", "NN", "RB", "NN", "VBD", "RB", "JJ", "."]
     text: ' And by the time the war ended, liberal leadership in_this country was spiritually
@@ -420,7 +420,7 @@ NopJ:
     wn30_key: [[3, "time%1:28:06::"], [5, "war%1:26:00::"], [6, "end%2:42:00::"], [8, "liberal%3:00:00:left:02"], [9, "leadership%1:14:00::"], [11, "country%1:15:00::"], [12, "be%2:42:03::"], [13, "spiritually%4:02:00::"], [14, "marxist%3:01:00::"]]
 ATJC:
     lemmas: ["We", "will", "recall", "that", "the", "still", "confident", "liberal", "of", "the", "person", "administration", "gather", "with", "other", "western", "utopian", "in", "san_francisco", "to", "set_up", "the", "legal", "framework", ",", "finally", "and", "at_last", ",", "to", "rationalize", "war", "-", "to", "rationalize", "want", "and", "fear", "-", "out", "of", "the", "world", ":", "the", "united_nations", "."]
-    oewn2026_key: [[2, "oewn-00609334-v"], [5, "oewn-00031700-r"], [6, "oewn-00339715-a"], [7, "oewn-10276453-n"], [10, "oewn-00007846-n"], [11, "oewn-08181484-n"], [12, "oewn-02433771-v"], [14, "oewn-02076759-a"], [15, "oewn-00828657-a"], [16, "oewn-10763013-n"], [18, "oewn-09088034-n"], [22, "oewn-01403566-a"], [23, "oewn-04940540-n"], [25, "oewn-00048441-r"], [27, "oewn-00048441-r"], [30, "oewn-00474253-v"], [31, "oewn-00975181-n"], [34, "oewn-00474253-v"], [35, "oewn-14517010-n"], [37, "oewn-07534492-n"], [42, "oewn-02475618-n"], [45, "oewn-08312501-n"]]
+    oewn_key: [[2, "oewn-00609334-v"], [5, "oewn-00031700-r"], [6, "oewn-00339715-a"], [7, "oewn-10276453-n"], [10, "oewn-00007846-n"], [11, "oewn-08181484-n"], [12, "oewn-02433771-v"], [14, "oewn-02076759-a"], [15, "oewn-00828657-a"], [16, "oewn-10763013-n"], [18, "oewn-09088034-n"], [22, "oewn-01403566-a"], [23, "oewn-04940540-n"], [25, "oewn-00048441-r"], [27, "oewn-00048441-r"], [30, "oewn-00474253-v"], [31, "oewn-00975181-n"], [34, "oewn-00474253-v"], [35, "oewn-14517010-n"], [37, "oewn-07534492-n"], [42, "oewn-02475618-n"], [45, "oewn-08312501-n"]]
     paragraph: '10'
     pos: ["PRP", "MD", "VB", "IN", "DT", "RB", "JJ", "NNS", "IN", "DT", "NNP", "NN", "VBN", "IN", "JJ", "JJ", "NNS", "IN", "NN", "TO", "JJ", "DT", "JJ", "NN", ",", "RB", "CC", "RB", ",", "TO", "VB", "NN", ":", "TO", "VB", "NN", "CC", "NN", ":", "IN", "IN", "DT", "NN", ":", "DT", "NNS", "."]
     text: ' We will recall that the still confident liberals of the Truman administration gathered
@@ -432,7 +432,7 @@ ATJC:
     wn30_key: [[2, "recall%2:31:00::"], [5, "still%4:02:01::"], [6, "confident%3:00:00::"], [7, "liberal%1:18:00::"], [10, "person%1:03:00::"], [11, "administration%1:14:00::"], [12, "gather%2:41:00::"], [14, "other%3:00:00::"], [15, "western%3:00:01::"], [16, "utopian%1:18:00::"], [18, "san_francisco%1:15:00::"], [22, "legal%3:00:00::"], [23, "framework%1:07:00::"], [25, "finally%4:02:00::"], [27, "at_last%4:02:00::"], [30, "rationalize%2:30:00::"], [31, "war%1:04:00::"], [34, "rationalize%2:30:00::"], [35, "want%1:26:00::"], [37, "fear%1:12:00::"], [42, "world%1:05:00::"], [45, "united_nations%1:14:00::"]]
 /RS4:
     lemmas: ["We", "of", "the", "liberal", "led", "world", "get", "all", "set", "for", "peace", "and", "rehabilitation", "."]
-    oewn2026_key: [[3, "oewn-10276453-n"], [5, "oewn-02475618-n"], [6, "oewn-00149403-v"], [8, "oewn-01937602-s"], [10, "oewn-13993147-n"], [12, "oewn-00269862-n"]]
+    oewn_key: [[3, "oewn-10276453-n"], [5, "oewn-02475618-n"], [6, "oewn-00149403-v"], [8, "oewn-01937602-s"], [10, "oewn-13993147-n"], [12, "oewn-00269862-n"]]
     paragraph: '10'
     pos: ["PRP", "IN", "DT", "NN", "JJ", "NN", "VBD", "DT", "JJ", "IN", "NN", "CC", "NN", "."]
     text: ' We of the liberal led world got all set for peace and rehabilitation.'
@@ -441,7 +441,7 @@ ATJC:
     wn30_key: [[3, "liberal%1:18:00::"], [5, "world%1:05:00::"], [6, "get%2:30:00::"], [8, "set%3:00:00:ready:00"], [10, "peace%1:26:01::"], [12, "rehabilitation%1:04:00::"]]
 U7A8:
     lemmas: ["then", "suddenly", "we", "find", "ourselves", "in", "the", "middle", "of", "another", "fight", ",", "an", "irrational", ",", "an", "indecent", ",", "an", "undeclared", "and", "immoral", "war", "with", "our", "strong", "(", "and", "some", "have", "think", "noble", ")", "ally", "."]
-    oewn2026_key: [[0, "oewn-00118799-r"], [1, "oewn-81484980-r"], [3, "oewn-02202295-v"], [7, "oewn-08540894-n"], [10, "oewn-01173452-n"], [13, "oewn-01932775-a"], [16, "oewn-01887000-s"], [19, "oewn-00691858-a"], [21, "oewn-02043484-s"], [22, "oewn-00975181-n"], [25, "oewn-01832697-s"], [30, "oewn-00691086-v"], [33, "oewn-08322872-n"]]
+    oewn_key: [[0, "oewn-00118799-r"], [1, "oewn-81484980-r"], [3, "oewn-02202295-v"], [7, "oewn-08540894-n"], [10, "oewn-01173452-n"], [13, "oewn-01932775-a"], [16, "oewn-01887000-s"], [19, "oewn-00691858-a"], [21, "oewn-02043484-s"], [22, "oewn-00975181-n"], [25, "oewn-01832697-s"], [30, "oewn-00691086-v"], [33, "oewn-08322872-n"]]
     paragraph: '10'
     pos: ["RB", "RB", "PRP", "VBD", "PRP", "RB", "RB", "NN", "IN", "DT", "NN", ",", "DT", "JJ", ",", "DT", "JJ", ",", "DT", "JJ", "CC", "JJ", "NN", "IN", "PRP$", "JJS", "NN", "CC", "DT", "VBD", "VBN", "JJ", "FW", "NN", "."]
     text: ' Then suddenly we found ourselves in the middle of another fight, an irrational,
@@ -454,7 +454,7 @@ U7A8:
     wn30_key: [[0, "then%4:02:01::"], [1, "suddenly%4:02:02::"], [3, "find%2:39:05::"], [7, "middle%1:15:00::"], [10, "fight%1:04:02::"], [13, "irrational%3:00:00::"], [16, "indecent%3:00:00:improper:00"], [19, "undeclared%3:00:00::"], [21, "immoral%3:00:00:wrong:01"], [22, "war%1:04:00::"], [25, "strong%3:00:00:powerful:00"], [30, "think%2:31:01::"], [33, "ally%1:14:00::"]]
 dRjp:
     lemmas: ["During", "the", "next", "five", "year", "the", "leaders", "of", "the", "fair_deal", "reluctantly", "back_down", "from", "the", "optimistic", "expectation", "of", "the", "new_deal", "."]
-    oewn2026_key: [[2, "oewn-00128838-s"], [3, "oewn-02194389-s"], [4, "oewn-15228587-n"], [6, "oewn-08398167-n"], [10, "oewn-00091747-r"], [11, "oewn-02001712-v"], [14, "oewn-01668036-a"], [15, "oewn-05953807-n"], [18, "oewn-06669854-n"]]
+    oewn_key: [[2, "oewn-00128838-s"], [3, "oewn-02194389-s"], [4, "oewn-15228587-n"], [6, "oewn-08398167-n"], [10, "oewn-00091747-r"], [11, "oewn-02001712-v"], [14, "oewn-01668036-a"], [15, "oewn-05953807-n"], [18, "oewn-06669854-n"]]
     paragraph: '11'
     pos: ["IN", "DT", "JJ", "JJ", "NNS", "DT", "NNS", "IN", "DT", "NN", "RB", "VB", "IN", "DT", "JJ", "NNS", "IN", "DT", "NN", "."]
     text: ' During the next five years the leaders of the Fair_Deal reluctantly backed_down
@@ -464,7 +464,7 @@ dRjp:
     wn30_key: [[2, "next%3:00:00:succeeding:00"], [3, "five%3:00:00:cardinal:00"], [4, "year%1:28:01::"], [6, "leaders%1:14:00::"], [10, "reluctantly%4:02:00::"], [11, "back_down%2:38:00::"], [14, "optimistic%3:00:00::"], [15, "expectation%1:09:00::"], [18, "new_deal%1:10:00::"]]
 uR+g:
     lemmas: ["During", "the", "next", "five", "year", "liberal", "leaders", "in", "the", "united_states", "sink", "in", "the", "cumulative", "confusion", "attendant", "upon", "and", "manifest", "in", "a", "negative", "policy", "of", "containment", "-", "and", "the", "bitter", "irony", "-", "enforce", "and", "enforceable", "only", "by", "threat", "of", "a", "weapon", "that", "we", "feel", "the", "greatest", "distaste", "for", "but", "could", "not", "abandon", ":"]
-    oewn2026_key: [[2, "oewn-00128838-s"], [3, "oewn-02194389-s"], [4, "oewn-15228587-n"], [5, "oewn-02038880-s"], [6, "oewn-08398167-n"], [9, "oewn-08372718-n"], [10, "oewn-01976145-v"], [13, "oewn-00048680-s"], [14, "oewn-05691387-n"], [15, "oewn-00123654-s"], [18, "oewn-00822637-v"], [21, "oewn-01132339-s"], [22, "oewn-05910115-n"], [28, "oewn-02444782-s"], [29, "oewn-04722351-n"], [31, "oewn-02565990-v"], [33, "oewn-00559447-a"], [34, "oewn-00009062-r"], [36, "oewn-06746225-n"], [39, "oewn-04572661-n"], [42, "oewn-01775456-v"], [44, "oewn-02351683-s"], [45, "oewn-07517908-n"], [49, "oewn-00024432-r"], [50, "oewn-02232523-v"]]
+    oewn_key: [[2, "oewn-00128838-s"], [3, "oewn-02194389-s"], [4, "oewn-15228587-n"], [5, "oewn-02038880-s"], [6, "oewn-08398167-n"], [9, "oewn-08372718-n"], [10, "oewn-01976145-v"], [13, "oewn-00048680-s"], [14, "oewn-05691387-n"], [15, "oewn-00123654-s"], [18, "oewn-00822637-v"], [21, "oewn-01132339-s"], [22, "oewn-05910115-n"], [28, "oewn-02444782-s"], [29, "oewn-04722351-n"], [31, "oewn-02565990-v"], [33, "oewn-00559447-a"], [34, "oewn-00009062-r"], [36, "oewn-06746225-n"], [39, "oewn-04572661-n"], [42, "oewn-01775456-v"], [44, "oewn-02351683-s"], [45, "oewn-07517908-n"], [49, "oewn-00024432-r"], [50, "oewn-02232523-v"]]
     paragraph: '11'
     pos: ["IN", "DT", "JJ", "JJ", "NNS", "JJ", "NNS", "IN", "DT", "NNS", "VBD", "VB", "DT", "JJ", "NN", "JJ", "RB", "CC", "VBN", "IN", "DT", "JJ", "NN", "IN", "NN", ":", "CC", "DT", "JJS", "NN", ":", "VB", "CC", "JJ", "RB", "IN", "NN", "IN", "DT", "NN", "IN", "PRP", "VBD", "DT", "JJS", "NN", "RB", "CC", "MD", "RB", "VB", ":"]
     text: ' During the next five years liberal leaders in the United_States sank in the cumulative
@@ -476,7 +476,7 @@ uR+g:
     wn30_key: [[2, "next%3:00:00:succeeding:00"], [3, "five%3:00:00:cardinal:00"], [4, "year%1:28:01::"], [5, "liberal%3:00:00:left:02"], [6, "leaders%1:14:00::"], [9, "united_states%1:14:00::"], [10, "sink%2:38:07::"], [13, "cumulative%3:00:00:additive:00"], [14, "confusion%1:09:00::"], [15, "attendant%3:00:00:subsequent:00"], [18, "manifest%2:32:00::"], [21, "negative%3:00:00:bad:00"], [22, "policy%1:09:00::"], [28, "bitter%3:00:00:intolerable:00"], [29, "irony%1:07:00::"], [31, "enforce%2:41:00::"], [33, "enforceable%3:00:00::"], [34, "only%4:02:01::"], [36, "threat%1:10:01::"], [39, "weapon%1:06:00::"], [42, "feel%2:37:00::"], [44, "greatest%3:00:00:superior:02"], [45, "distaste%1:12:00::"], [49, "not%4:02:00::"], [50, "abandon%2:40:01::"]]
 7qLQ:
     lemmas: ["the", "atom_bomb", "."]
-    oewn2026_key: [[1, "oewn-02756049-n"]]
+    oewn_key: [[1, "oewn-02756049-n"]]
     paragraph: '11'
     pos: ["DT", "NN", "."]
     text: ' the atom_bomb.'
@@ -485,7 +485,7 @@ uR+g:
     wn30_key: [[1, "atom_bomb%1:06:00::"]]
 liB7:
     lemmas: ["In", "1952", ",", "it", "will", "be", "remember", ",", "the", "group", "without", "positive", "program", "campaign", "on", "the", "popular", "disillusionment", "with", "liberal", "leadership", "and", "win", "overwhelmingly", "."]
-    oewn2026_key: [[6, "oewn-00609334-v"], [9, "oewn-00031563-n"], [11, "oewn-01825985-a"], [12, "oewn-06513302-n"], [13, "oewn-01096497-v"], [16, "oewn-00719814-s"], [17, "oewn-05996982-n"], [19, "oewn-02038880-s"], [20, "oewn-08398167-n"], [22, "oewn-01102556-v"], [23, "oewn-00241415-r"]]
+    oewn_key: [[6, "oewn-00609334-v"], [9, "oewn-00031563-n"], [11, "oewn-01825985-a"], [12, "oewn-06513302-n"], [13, "oewn-01096497-v"], [16, "oewn-00719814-s"], [17, "oewn-05996982-n"], [19, "oewn-02038880-s"], [20, "oewn-08398167-n"], [22, "oewn-01102556-v"], [23, "oewn-00241415-r"]]
     paragraph: '11'
     pos: ["IN", "CD", ",", "PRP", "MD", "VB", "VBN", ",", "DT", "NN", "IN", "JJ", "NN", "VBD", "IN", "DT", "JJ", "NN", "IN", "JJ", "NN", "CC", "VBD", "RB", "."]
     text: ' In 1952, it will be remembered, the G._O._P. without positive program campaigned
@@ -497,7 +497,7 @@ liB7:
     wn30_key: [[6, "remember%2:31:00::"], [9, "group%1:03:00::"], [11, "positive%3:00:04::"], [12, "program%1:10:04::"], [13, "campaign%2:33:01::"], [16, "popular%3:00:00:democratic:00"], [17, "disillusionment%1:09:00::"], [19, "liberal%3:00:00:left:02"], [20, "leadership%1:14:00::"], [22, "win%2:33:00::"], [23, "overwhelmingly%4:02:00::"]]
 bmkr:
     lemmas: ["all_of", "this", ",", "I", "know", ",", "be", "recent", "history", "familiar", "to", "you", "."]
-    oewn2026_key: [[4, "oewn-00596016-v"], [6, "oewn-02622439-v"], [7, "oewn-01646919-s"], [8, "oewn-06526084-n"], [9, "oewn-00968795-a"]]
+    oewn_key: [[4, "oewn-00596016-v"], [6, "oewn-02622439-v"], [7, "oewn-01646919-s"], [8, "oewn-06526084-n"], [9, "oewn-00968795-a"]]
     paragraph: '12'
     pos: ["JJ", "DT", ",", "PRP", "VBP", ",", "VBZ", "JJ", "NN", "JJ", "TO", "PRP", "."]
     text: ' All_of this, I know, is recent history familiar to you.'
@@ -506,7 +506,7 @@ bmkr:
     wn30_key: [[4, "know%2:31:01::"], [6, "be%2:42:06::"], [7, "recent%3:00:00:new:00"], [8, "history%1:10:00::"], [9, "familiar%3:00:00::"]]
 JHwp:
     lemmas: ["But", "I", "have", "be", "at", "some", "pains", "to", "review", "it", "as", "the", "drama", "of", "the", "common_man", ",", "to", "point_up", "what", "happen", "to", "him", "under", "person", "'s", "leadership", "."]
-    oewn2026_key: [[3, "oewn-02610777-v"], [6, "oewn-00790427-n"], [8, "oewn-00697955-v"], [12, "oewn-07305001-n"], [15, "oewn-80699207-n"], [18, "oewn-01016195-v"], [20, "oewn-00340744-v"], [24, "oewn-00007846-n"], [26, "oewn-01259004-n"]]
+    oewn_key: [[3, "oewn-02610777-v"], [6, "oewn-00790427-n"], [8, "oewn-00697955-v"], [12, "oewn-07305001-n"], [15, "oewn-80699207-n"], [18, "oewn-01016195-v"], [20, "oewn-00340744-v"], [24, "oewn-00007846-n"], [26, "oewn-01259004-n"]]
     paragraph: '12'
     pos: ["CC", "PRP", "VBP", "VBN", "IN", "DT", "NNS", "TO", "VB", "PRP", "IN", "DT", "NN", "IN", "DT", "NN", ",", "TO", "VB", "WP", "VBD", "VB", "PRP", "IN", "NNP", "POS", "NN", "."]
     text: ' But I have been at some pains to review it as the drama of the common_man, to point_up
@@ -518,7 +518,7 @@ JHwp:
     wn30_key: [[3, "be%2:42:03::"], [6, "pains%1:04:00::"], [8, "review%2:31:00::"], [12, "drama%1:11:00::"], [15, "common_man%1:18:00::"], [18, "point_up%2:32:00::"], [20, "happen%2:30:00::"], [24, "person%1:03:00::"], [26, "leadership%1:04:00::"]]
 6siA:
     lemmas: ["A", "perceptive", "journalist", ",", "person", ",", "have", "phrase", "it", "in", "the", "title", "of", "one", "of", "his", "book", "as", "The", "revolt", "Of", "The", "moderate", "."]
-    oewn2026_key: [[1, "oewn-01748360-a"], [2, "oewn-10244248-n"], [4, "oewn-00007846-n"], [7, "oewn-00982485-v"], [11, "oewn-06357831-n"], [13, "oewn-13764713-n"], [16, "oewn-06422547-n"], [19, "oewn-00964240-n"], [22, "oewn-09924290-n"]]
+    oewn_key: [[1, "oewn-01748360-a"], [2, "oewn-10244248-n"], [4, "oewn-00007846-n"], [7, "oewn-00982485-v"], [11, "oewn-06357831-n"], [13, "oewn-13764713-n"], [16, "oewn-06422547-n"], [19, "oewn-00964240-n"], [22, "oewn-09924290-n"]]
     paragraph: '13'
     pos: ["DT", "JJ", "NN", ",", "NN", ",", "VBZ", "VBN", "PRP", "IN", "DT", "NN", "IN", "NN", "IN", "PRP$", "NNS", "IN", "DT", "NN", "DT", "DT", "NNPS", "."]
     text: ' A perceptive journalist, Sam_Lubell, has phrased it in the title of one of his books
@@ -528,7 +528,7 @@ JHwp:
     wn30_key: [[1, "perceptive%3:00:00::"], [2, "journalist%1:18:00::"], [4, "person%1:03:00::"], [7, "phrase%2:32:00::"], [11, "title%1:10:01::"], [13, "one%1:23:00::"], [16, "book%1:10:00::"], [19, "revolt%1:04:00::"], [22, "moderate%1:18:00::"]]
 kwTV:
     lemmas: ["He", "open", "his", "discourse", ",", "however", ",", "with", "a", "review", "of", "the", "person", "inaugural", "festivity", "at", "which", "a", "sympathetic", "press", "have", "assemble", "its", "massive", "talent", ",", "all", "primed", "to", "catch", "some", "revelation", "of", "the", "emerging", "new", "age", "."]
-    oewn2026_key: [[1, "oewn-02431018-v"], [3, "oewn-06295430-n"], [9, "oewn-06422034-n"], [12, "oewn-00007846-n"], [13, "oewn-01293889-a"], [14, "oewn-00428985-n"], [18, "oewn-01375875-s"], [21, "oewn-02433771-v"], [23, "oewn-01392104-s"], [24, "oewn-10709374-n"], [27, "oewn-01937602-s"], [29, "oewn-00591299-v"], [30, "oewn-02275064-a"], [31, "oewn-07228055-n"], [34, "oewn-00003552-s"], [35, "oewn-02595137-a"], [36, "oewn-15278839-n"]]
+    oewn_key: [[1, "oewn-02431018-v"], [3, "oewn-06295430-n"], [9, "oewn-06422034-n"], [12, "oewn-00007846-n"], [13, "oewn-01293889-a"], [14, "oewn-00428985-n"], [18, "oewn-01375875-s"], [21, "oewn-02433771-v"], [23, "oewn-01392104-s"], [24, "oewn-10709374-n"], [27, "oewn-01937602-s"], [29, "oewn-00591299-v"], [30, "oewn-02275064-a"], [31, "oewn-07228055-n"], [34, "oewn-00003552-s"], [35, "oewn-02595137-a"], [36, "oewn-15278839-n"]]
     paragraph: '13'
     pos: ["PRP", "VBZ", "PRP$", "NN", ",", "RB", ",", "IN", "DT", "NN", "IN", "DT", "NNP", "JJ", "NNS", "IN", "WDT", "DT", "JJ", "NN", "VBD", "VBN", "PRP$", "JJ", "NNS", ",", "DT", "JJ", "JJ", "VB", "JJ", "NN", "IN", "DT", "JJ", "JJ", "NN", "."]
     text: ' He opens his discourse, however, with a review of the Eisenhower inaugural festivities
@@ -539,7 +539,7 @@ kwTV:
     wn30_key: [[1, "open%2:41:00::"], [3, "discourse%1:10:01::"], [9, "review%1:10:01::"], [12, "person%1:03:00::"], [13, "inaugural%3:00:00::"], [14, "festivity%1:04:00::"], [18, "sympathetic%3:00:00:kind:00"], [21, "assemble%2:41:00::"], [23, "massive%3:00:00:large:00"], [24, "talent%1:18:00::"], [27, "primed%3:00:00:ready:00"], [29, "catch%2:31:03::"], [30, "some%3:00:00::"], [31, "revelation%1:10:02::"], [34, "emerging%3:00:00:nascent:00"], [35, "new%3:00:09::"], [36, "age%1:28:02::"]]
 wbPY:
     lemmas: ["The", "show", "be", "colorful", ",", "indeed", ",", "exuberant", ",", "but", "the", "press", "for", "all", "its", "assiduity", "could", "detect", "no", "note", "of", "a", "fateful", "rendezvous", "with", "destiny", "."]
-    oewn2026_key: [[1, "oewn-06892571-n"], [2, "oewn-02610777-v"], [3, "oewn-00407944-a"], [5, "oewn-00038035-r"], [7, "oewn-02287457-s"], [13, "oewn-02277044-a"], [15, "oewn-04872733-n"], [17, "oewn-02158938-v"], [18, "oewn-02276242-a"], [19, "oewn-04734952-n"], [22, "oewn-00688390-s"], [23, "oewn-01234113-n"], [25, "oewn-09528047-n"]]
+    oewn_key: [[1, "oewn-06892571-n"], [2, "oewn-02610777-v"], [3, "oewn-00407944-a"], [5, "oewn-00038035-r"], [7, "oewn-02287457-s"], [13, "oewn-02277044-a"], [15, "oewn-04872733-n"], [17, "oewn-02158938-v"], [18, "oewn-02276242-a"], [19, "oewn-04734952-n"], [22, "oewn-00688390-s"], [23, "oewn-01234113-n"], [25, "oewn-09528047-n"]]
     paragraph: '13'
     pos: ["DT", "NN", "VBD", "JJ", ",", "RB", ",", "JJ", ",", "CC", "DT", "NN", "VB", "JJ", "PRP$", "NN", "MD", "VB", "JJ", "NN", "IN", "DT", "JJ", "NN", "IN", "NN", "."]
     text: ' The show was colorful, indeed, exuberant, but the press for all its assiduity could
@@ -551,7 +551,7 @@ wbPY:
     wn30_key: [[1, "show%1:10:03::"], [2, "be%2:42:03::"], [3, "colorful%3:00:03::"], [5, "indeed%4:02:03::"], [7, "exuberant%3:00:00:spirited:00"], [13, "all%3:00:00::"], [15, "assiduity%1:07:00::"], [17, "detect%2:39:00::"], [18, "no%3:00:00::"], [19, "note%1:07:00::"], [22, "fateful%3:00:00:decisive:00"], [23, "rendezvous%1:04:00::"], [25, "destiny%1:18:00::"]]
 bwDv:
     lemmas: ["person", "offer", "his", "book", "as", "an", "explanation", "of", "why", "there", "be", "no", "clue", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-00708386-v"], [3, "oewn-06422547-n"], [6, "oewn-06751030-n"], [11, "oewn-02276242-a"], [12, "oewn-06815643-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-00708386-v"], [3, "oewn-06422547-n"], [6, "oewn-06751030-n"], [11, "oewn-02276242-a"], [12, "oewn-06815643-n"]]
     paragraph: '14'
     pos: ["NNP", "VBZ", "PRP$", "NN", "IN", "DT", "NN", "IN", "WRB", "EX", "VB", "JJ", "NN", "."]
     text: ' Lubell offers his book as an explanation of why there was no clue.'
@@ -560,7 +560,7 @@ bwDv:
     wn30_key: [[0, "person%1:03:00::"], [1, "offer%2:31:00::"], [3, "book%1:10:00::"], [6, "explanation%1:10:00::"], [11, "no%3:00:00::"], [12, "clue%1:10:00::"]]
 rIxC:
     lemmas: ["And", "I", "select", "this", "sentence", "as", "its", "pertinent", "summation", ":", "\"", "in_essence", "the", "drama", "of", "his", "(", "person", "'s", ")", "presidency", "can", "be", "describe", "as", "the", "ordeal", "of", "a", "nation", "turn", "conservative", "and", "struggle", "-", "thus_far", "with", "but", "limited", "and", "precarious", "success", "-", "to", "give", "effective", "voice", "and", "force", "to_that", "conservatism", "\"", "."]
-    oewn2026_key: [[2, "oewn-00676526-v"], [4, "oewn-06295743-n"], [7, "oewn-00139582-s"], [8, "oewn-06481545-n"], [13, "oewn-07305001-n"], [17, "oewn-00007846-n"], [20, "oewn-15291076-n"], [23, "oewn-00989103-v"], [26, "oewn-07302435-n"], [29, "oewn-08185877-n"], [30, "oewn-00145958-v"], [31, "oewn-02037690-s"], [33, "oewn-02412468-v"], [35, "oewn-00028314-r"], [38, "oewn-01417858-a"], [40, "oewn-00826760-s"], [41, "oewn-00064472-n"], [44, "oewn-01651214-v"], [45, "oewn-00837737-a"], [46, "oewn-07087248-n"], [48, "oewn-05201846-n"], [50, "oewn-06225913-n"]]
+    oewn_key: [[2, "oewn-00676526-v"], [4, "oewn-06295743-n"], [7, "oewn-00139582-s"], [8, "oewn-06481545-n"], [13, "oewn-07305001-n"], [17, "oewn-00007846-n"], [20, "oewn-15291076-n"], [23, "oewn-00989103-v"], [26, "oewn-07302435-n"], [29, "oewn-08185877-n"], [30, "oewn-00145958-v"], [31, "oewn-02037690-s"], [33, "oewn-02412468-v"], [35, "oewn-00028314-r"], [38, "oewn-01417858-a"], [40, "oewn-00826760-s"], [41, "oewn-00064472-n"], [44, "oewn-01651214-v"], [45, "oewn-00837737-a"], [46, "oewn-07087248-n"], [48, "oewn-05201846-n"], [50, "oewn-06225913-n"]]
     paragraph: '14'
     pos: ["CC", "PRP", "VBP", "DT", "NN", "IN", "PRP$", "JJ", "NN", ":", "``", "RB", "DT", "NN", "IN", "PRP$", "NNP", "NNP", "POS", "NNP", "NNP", "MD", "VB", "VBN", "IN", "DT", "NN", "IN", "DT", "NN", "VBD", "JJ", "CC", "VB", ":", "RB", "RB", "CC", "JJ", "CC", "JJ", "NN", ":", "TO", "VB", "JJ", "NN", "CC", "NN", "RB", "NN", "''", "."]
     text: ' And I select this sentence as its pertinent summation: " In_essence the drama of
@@ -574,7 +574,7 @@ rIxC:
     wn30_key: [[2, "select%2:31:00::"], [4, "sentence%1:10:00::"], [7, "pertinent%3:00:00:apropos:00"], [8, "summation%1:10:00::"], [13, "drama%1:11:00::"], [17, "person%1:03:00::"], [20, "presidency%1:28:00::"], [23, "describe%2:32:00::"], [26, "ordeal%1:11:00::"], [29, "nation%1:14:00::"], [30, "turn%2:30:04::"], [31, "conservative%3:00:00:right:03"], [33, "struggle%2:41:00::"], [35, "thus_far%4:02:00::"], [38, "limited%3:00:00::"], [40, "precarious%3:00:00:uneasy:00"], [41, "success%1:04:00::"], [44, "give%2:36:01::"], [45, "effective%3:00:00::"], [46, "voice%1:10:01::"], [48, "force%1:07:01::"], [50, "conservatism%1:09:00::"]]
 3kxb:
     lemmas: ["I", "will", "assume", "that", "we", "be", "all", "aware", "of", "the", "continuing", "struggle", ",", "with", "its", "limited", "and", "precarious", "success", ",", "toward", "conservatism", "."]
-    oewn2026_key: [[2, "oewn-00633898-v"], [5, "oewn-02610777-v"], [6, "oewn-00008423-r"], [7, "oewn-00191603-a"], [10, "oewn-00600632-s"], [11, "oewn-00790634-n"], [15, "oewn-01417858-a"], [17, "oewn-00826760-s"], [18, "oewn-07333703-n"], [21, "oewn-06225913-n"]]
+    oewn_key: [[2, "oewn-00633898-v"], [5, "oewn-02610777-v"], [6, "oewn-00008423-r"], [7, "oewn-00191603-a"], [10, "oewn-00600632-s"], [11, "oewn-00790634-n"], [15, "oewn-01417858-a"], [17, "oewn-00826760-s"], [18, "oewn-07333703-n"], [21, "oewn-06225913-n"]]
     paragraph: '15'
     pos: ["PRP", "MD", "VB", "IN", "PRP", "VBP", "RB", "JJ", "JJ", "DT", "JJ", "NN", ",", "IN", "PRP$", "JJ", "CC", "JJ", "NN", ",", "IN", "NN", "."]
     text: ' I will assume that we are all aware of the continuing struggle, with its limited
@@ -584,7 +584,7 @@ rIxC:
     wn30_key: [[2, "assume%2:31:00::"], [5, "be%2:42:03::"], [6, "all%4:02:00::"], [7, "aware%3:00:00::"], [10, "continuing%3:00:00:continued:00"], [11, "struggle%1:04:01::"], [15, "limited%3:00:00::"], [17, "precarious%3:00:00:uneasy:00"], [18, "success%1:11:00::"], [21, "conservatism%1:09:00::"]]
 B3Am:
     lemmas: ["It", "have", "move_on", "various", "level", ",", "it", "have", "be", "clamorous", "and", "confused", "."]
-    oewn2026_key: [[2, "oewn-01996535-v"], [3, "oewn-02517830-s"], [4, "oewn-13962925-n"], [8, "oewn-02610777-v"], [9, "oewn-01926766-s"], [11, "oewn-00467212-s"]]
+    oewn_key: [[2, "oewn-01996535-v"], [3, "oewn-02517830-s"], [4, "oewn-13962925-n"], [8, "oewn-02610777-v"], [9, "oewn-01926766-s"], [11, "oewn-00467212-s"]]
     paragraph: '15'
     pos: ["PRP", "VBZ", "VB", "JJ", "NNS", ",", "PRP", "VBZ", "VBN", "JJ", "CC", "JJ", "."]
     text: ' It has moved_on various levels, it has been clamorous and confused.'
@@ -593,7 +593,7 @@ B3Am:
     wn30_key: [[2, "move_on%2:38:00::"], [3, "various%3:00:02:varied:00"], [4, "level%1:26:00::"], [8, "be%2:42:03::"], [9, "clamorous%3:00:00:noisy:00"], [11, "confused%3:00:00:incoherent:00"]]
 u0Z2:
     lemmas: ["obviously", "there", "have", "be", "no", "agreement", "on", "what", "american", "conservatism", "be", ",", "or", "rather", ",", "what", "it", "should", "be", "."]
-    oewn2026_key: [[0, "oewn-00039730-r"], [3, "oewn-02610777-v"], [4, "oewn-02276242-a"], [5, "oewn-04720704-n"], [8, "oewn-09758057-n"], [9, "oewn-06225913-n"], [10, "oewn-02622439-v"], [13, "oewn-00099264-r"], [18, "oewn-02610777-v"]]
+    oewn_key: [[0, "oewn-00039730-r"], [3, "oewn-02610777-v"], [4, "oewn-02276242-a"], [5, "oewn-04720704-n"], [8, "oewn-09758057-n"], [9, "oewn-06225913-n"], [10, "oewn-02622439-v"], [13, "oewn-00099264-r"], [18, "oewn-02610777-v"]]
     paragraph: '15'
     pos: ["RB", "EX", "VBZ", "VBN", "JJ", "NN", "IN", "WP", "NN", "NN", "VBZ", ",", "CC", "RB", ",", "WP", "PRP", "MD", "VB", "."]
     text: ' Obviously there has been no agreement on what American conservatism is, or rather,
@@ -603,7 +603,7 @@ u0Z2:
     wn30_key: [[0, "obviously%4:02:00::"], [3, "be%2:42:03::"], [4, "no%3:00:00::"], [5, "agreement%1:07:00::"], [8, "american%1:18:00::"], [9, "conservatism%1:09:00::"], [10, "be%2:42:06::"], [13, "rather%4:02:02::"], [18, "be%2:42:03::"]]
 hMqp:
     lemmas: ["For", "it", "be", "neglect", ",", "not", "to", "say", "nascent", ",", "when", "the", "struggle", "begin", "."]
-    oewn2026_key: [[3, "oewn-00618547-v"], [5, "oewn-00024432-r"], [7, "oewn-01018011-v"], [12, "oewn-00790634-n"], [13, "oewn-00349400-v"]]
+    oewn_key: [[3, "oewn-00618547-v"], [5, "oewn-00024432-r"], [7, "oewn-01018011-v"], [12, "oewn-00790634-n"], [13, "oewn-00349400-v"]]
     paragraph: '15'
     pos: ["IN", "PRP", "VBD", "VBN", ",", "RB", "TO", "VB", "JJ", ",", "WRB", "DT", "NN", "VBD", "."]
     text: ' For it was neglected, not to say nascent, when the struggle began.'
@@ -612,7 +612,7 @@ hMqp:
     wn30_key: [[3, "neglect%2:31:01::"], [5, "not%4:02:00::"], [7, "say%2:32:01::"], [12, "struggle%1:04:01::"], [13, "begin%2:30:01::"]]
 VRXU:
     lemmas: ["I", "see", "a", "piece", "the", "other", "day", "assail", "person", ",", "author", "of", "man_and_god_at_yale", "and", "publisher", "of", "the", "national_review", ",", "as", "no", "conservative", "at_all", ",", "but", "an", "old", "liberal", "."]
-    oewn2026_key: [[1, "oewn-02026953-v"], [3, "oewn-06280049-n"], [5, "oewn-01735069-s"], [6, "oewn-15148032-n"], [7, "oewn-01122487-v"], [8, "oewn-00007846-n"], [10, "oewn-10813654-n"], [14, "oewn-10510894-n"], [21, "oewn-09976635-n"], [22, "oewn-00057267-r"], [26, "oewn-01642580-a"], [27, "oewn-10276453-n"]]
+    oewn_key: [[1, "oewn-02026953-v"], [3, "oewn-06280049-n"], [5, "oewn-01735069-s"], [6, "oewn-15148032-n"], [7, "oewn-01122487-v"], [8, "oewn-00007846-n"], [10, "oewn-10813654-n"], [14, "oewn-10510894-n"], [21, "oewn-09976635-n"], [22, "oewn-00057267-r"], [26, "oewn-01642580-a"], [27, "oewn-10276453-n"]]
     paragraph: '15'
     pos: ["PRP", "VBD", "RB", "NN", "DT", "JJ", "NN", "VBG", "NN", ",", "NN", "IN", "NN", "CC", "NN", "IN", "DT", "NNP", ",", "IN", "DT", "NN", "RB", ",", "CC", "DT", "JJ", "NN", "."]
     text: ' I saw a piece the other day assailing William_Buckley, author of Man_And_God_At_Yale
@@ -622,7 +622,7 @@ VRXU:
     wn30_key: [[1, "see%2:38:00::"], [3, "piece%1:10:02::"], [5, "other%3:00:00:past:00"], [6, "day%1:28:03::"], [7, "assail%2:33:00::"], [8, "person%1:03:00::"], [10, "author%1:18:00::"], [14, "publisher%1:18:00::"], [21, "conservative%1:18:00::"], [22, "at_all%4:02:00::"], [26, "old%3:00:01::"], [27, "liberal%1:18:00::"]]
 Wdul:
     lemmas: ["I", "would", "agree", "with", "this", "view", "."]
-    oewn2026_key: [[2, "oewn-00807038-v"], [5, "oewn-05954491-n"]]
+    oewn_key: [[2, "oewn-00807038-v"], [5, "oewn-05954491-n"]]
     paragraph: '15'
     pos: ["PRP", "MD", "VB", "IN", "DT", "NN", "."]
     text: ' I would agree with this view.'
@@ -631,7 +631,7 @@ Wdul:
     wn30_key: [[2, "agree%2:32:00::"], [5, "view%1:09:04::"]]
 f1bq:
     lemmas: ["But", "I", "be", "not", "here", "to", "define", "conservatism", "."]
-    oewn2026_key: [[2, "oewn-02661230-v"], [3, "oewn-00024432-r"], [4, "oewn-00109541-r"], [6, "oewn-00959410-v"], [7, "oewn-06225913-n"]]
+    oewn_key: [[2, "oewn-02661230-v"], [3, "oewn-00024432-r"], [4, "oewn-00109541-r"], [6, "oewn-00959410-v"], [7, "oewn-06225913-n"]]
     paragraph: '15'
     pos: ["CC", "PRP", "VBP", "RB", "RB", "TO", "VB", "NN", "."]
     text: ' But I''m not here to define conservatism.
@@ -642,7 +642,7 @@ f1bq:
     wn30_key: [[2, "be%2:42:05::"], [3, "not%4:02:00::"], [4, "here%4:02:02::"], [6, "define%2:32:00::"], [7, "conservatism%1:09:00::"]]
 x39I:
     lemmas: ["What", "I", "be", "here", "to", "do", "be", "to", "report", "on", "the", "gyration", "of", "the", "struggle", "-", "a", "struggle", "that", "amount", "to", "self", "redefinition", "-", "to", "see", "if", "we", "can", "predict", "its", "future", "course", "."]
-    oewn2026_key: [[2, "oewn-02661230-v"], [3, "oewn-00109541-r"], [5, "oewn-02566500-v"], [6, "oewn-02622439-v"], [8, "oewn-00967067-v"], [11, "oewn-07455579-n"], [14, "oewn-00790634-n"], [17, "oewn-00790634-n"], [19, "oewn-02671069-v"], [21, "oewn-05683445-n"], [22, "oewn-06758323-n"], [25, "oewn-00600349-v"], [29, "oewn-00919743-v"], [32, "oewn-00039000-n"]]
+    oewn_key: [[2, "oewn-02661230-v"], [3, "oewn-00109541-r"], [5, "oewn-02566500-v"], [6, "oewn-02622439-v"], [8, "oewn-00967067-v"], [11, "oewn-07455579-n"], [14, "oewn-00790634-n"], [17, "oewn-00790634-n"], [19, "oewn-02671069-v"], [21, "oewn-05683445-n"], [22, "oewn-06758323-n"], [25, "oewn-00600349-v"], [29, "oewn-00919743-v"], [32, "oewn-00039000-n"]]
     paragraph: '16'
     pos: ["WP", "PRP", "VBP", "RB", "TO", "VB", "VBZ", "TO", "VB", "VB", "DT", "NNS", "IN", "DT", "NN", ":", "DT", "NN", "IN", "VBZ", "VB", "NN", "NN", ":", "TO", "VB", "IN", "PRP", "MD", "VB", "PRP$", "JJ", "NN", "."]
     text: ' What I am here to do is to report on the gyrations of the struggle - a struggle
@@ -654,7 +654,7 @@ x39I:
     wn30_key: [[2, "be%2:42:05::"], [3, "here%4:02:02::"], [5, "do%2:41:01::"], [6, "be%2:42:06::"], [8, "report%2:32:00::"], [11, "gyration%1:11:00::"], [14, "struggle%1:04:01::"], [17, "struggle%1:04:01::"], [19, "amount%2:42:03::"], [21, "self%1:09:00::"], [22, "redefinition%1:10:00::"], [25, "see%2:31:02::"], [29, "predict%2:32:00::"], [32, "course%1:04:00::"]]
 JEtt:
     lemmas: ["one", "of", "the", "obvious", "conclusion", "we", "can", "make", "on", "the", "basis", "of", "the", "last", "election", ",", "I", "suppose", ",", "be", "that", "we", ",", "the", "majority", ",", "be", "dissatisfied", "with", "person", "conservatism", "."]
-    oewn2026_key: [[0, "oewn-13764713-n"], [3, "oewn-01622205-a"], [4, "oewn-05789538-n"], [7, "oewn-00732743-v"], [10, "oewn-13813124-n"], [13, "oewn-01734561-s"], [14, "oewn-00182630-n"], [17, "oewn-00635105-v"], [19, "oewn-02622439-v"], [24, "oewn-13602270-n"], [26, "oewn-02610777-v"], [27, "oewn-00592856-s"], [29, "oewn-00007846-n"], [30, "oewn-06225913-n"]]
+    oewn_key: [[0, "oewn-13764713-n"], [3, "oewn-01622205-a"], [4, "oewn-05789538-n"], [7, "oewn-00732743-v"], [10, "oewn-13813124-n"], [13, "oewn-01734561-s"], [14, "oewn-00182630-n"], [17, "oewn-00635105-v"], [19, "oewn-02622439-v"], [24, "oewn-13602270-n"], [26, "oewn-02610777-v"], [27, "oewn-00592856-s"], [29, "oewn-00007846-n"], [30, "oewn-06225913-n"]]
     paragraph: '17'
     pos: ["NN", "IN", "DT", "JJ", "NNS", "PRP", "MD", "VB", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", ",", "PRP", "VBP", ",", "VBZ", "IN", "PRP", ",", "DT", "NN", ",", "VBD", "JJ", "IN", "NNP", "NN", "."]
     text: ' One of the obvious conclusions we can make on the basis of the last election, I
@@ -664,7 +664,7 @@ JEtt:
     wn30_key: [[0, "one%1:23:00::"], [3, "obvious%3:00:00::"], [4, "conclusion%1:09:01::"], [7, "make%2:31:00::"], [10, "basis%1:24:00::"], [13, "last%3:00:00:past:00"], [14, "election%1:04:01::"], [17, "suppose%2:31:01::"], [19, "be%2:42:06::"], [24, "majority%1:23:00::"], [26, "be%2:42:03::"], [27, "dissatisfied%3:00:00:discontented:00"], [29, "person%1:03:00::"], [30, "conservatism%1:09:00::"]]
 "5039":
     lemmas: ["though", ",", "to_be_sure", ",", "we", "give", "person", "no", "very", "positive", "approval", "in", "the", "margin", "of", "his", "preferment", "."]
-    oewn2026_key: [[0, "oewn-00120034-r"], [2, "oewn-00151192-r"], [5, "oewn-02321848-v"], [6, "oewn-00007846-n"], [7, "oewn-02276242-a"], [8, "oewn-00032295-r"], [9, "oewn-01823004-a"], [10, "oewn-01217882-n"], [13, "oewn-13926393-n"], [16, "oewn-00199480-n"]]
+    oewn_key: [[0, "oewn-00120034-r"], [2, "oewn-00151192-r"], [5, "oewn-02321848-v"], [6, "oewn-00007846-n"], [7, "oewn-02276242-a"], [8, "oewn-00032295-r"], [9, "oewn-01823004-a"], [10, "oewn-01217882-n"], [13, "oewn-13926393-n"], [16, "oewn-00199480-n"]]
     paragraph: '17'
     pos: ["RB", ",", "RB", ",", "PRP", "VBD", "NNP", "JJ", "RB", "JJ", "NN", "IN", "DT", "NN", "IN", "PRP$", "NN", "."]
     text: ' Though, to_be_sure, we gave Kennedy no very positive approval in the margin of his
@@ -676,7 +676,7 @@ JEtt:
     wn30_key: [[0, "though%4:02:01::"], [2, "to_be_sure%4:02:00::"], [5, "give%2:40:03::"], [6, "person%1:03:00::"], [7, "no%3:00:00::"], [8, "very%4:02:00::"], [9, "positive%3:00:01::"], [10, "approval%1:04:02::"], [13, "margin%1:25:00::"], [16, "preferment%1:04:00::"]]
 L9yW:
     lemmas: ["This", "be", ",", "however", ",", "symptomatic_of", "our", "national", "malaise", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [7, "oewn-02999870-a"], [8, "oewn-14470485-n"]]
+    oewn_key: [[1, "oewn-02610777-v"], [7, "oewn-02999870-a"], [8, "oewn-14470485-n"]]
     paragraph: '18'
     pos: ["DT", "VBZ", ",", "RB", ",", "JJ", "PRP$", "JJ", "NN", "."]
     text: ' This is, however, symptomatic_of our national malaise.'
@@ -685,7 +685,7 @@ L9yW:
     wn30_key: [[1, "be%2:42:03::"], [7, "national%3:01:02::"], [8, "malaise%1:26:00::"]]
 J/fc:
     lemmas: ["But", "before", "I", "try", "to", "diagnose", "it", ",", "I", "would", "offer", "other", "evidence", "."]
-    oewn2026_key: [[3, "oewn-02535833-v"], [5, "oewn-00647205-v"], [10, "oewn-02332196-v"], [11, "oewn-02076759-a"], [12, "oewn-06656171-n"]]
+    oewn_key: [[3, "oewn-02535833-v"], [5, "oewn-00647205-v"], [10, "oewn-02332196-v"], [11, "oewn-02076759-a"], [12, "oewn-06656171-n"]]
     paragraph: '18'
     pos: ["CC", "IN", "PRP", "VBP", "TO", "VB", "PRP", ",", "PRP", "MD", "VB", "JJ", "NN", "."]
     text: ' But before I try to diagnose it, I would offer other evidence.'
@@ -694,7 +694,7 @@ J/fc:
     wn30_key: [[3, "try%2:41:00::"], [5, "diagnose%2:31:00::"], [10, "offer%2:40:02::"], [11, "other%3:00:00::"], [12, "evidence%1:10:01::"]]
 WibT:
     lemmas: ["I", "will", "mention", "two", "volume", "of", "specific", "comment", "on", "this", "malaise", "that", "appear", "last", "year", "."]
-    oewn2026_key: [[2, "oewn-01026199-v"], [3, "oewn-02194109-s"], [4, "oewn-06425309-n"], [6, "oewn-01106714-a"], [7, "oewn-06775422-n"], [10, "oewn-14470485-n"], [12, "oewn-00426024-v"], [13, "oewn-01734561-s"], [14, "oewn-15228587-n"]]
+    oewn_key: [[2, "oewn-01026199-v"], [3, "oewn-02194109-s"], [4, "oewn-06425309-n"], [6, "oewn-01106714-a"], [7, "oewn-06775422-n"], [10, "oewn-14470485-n"], [12, "oewn-00426024-v"], [13, "oewn-01734561-s"], [14, "oewn-15228587-n"]]
     paragraph: '18'
     pos: ["PRP", "MD", "VB", "JJ", "NNS", "IN", "JJ", "NN", "VB", "DT", "NN", "WDT", "VBD", "JJ", "NN", "."]
     text: ' I will mention two volumes of specific comment on this malaise that appeared last
@@ -704,7 +704,7 @@ WibT:
     wn30_key: [[2, "mention%2:32:02::"], [3, "two%3:00:00:cardinal:00"], [4, "volume%1:10:00::"], [6, "specific%3:00:00::"], [7, "comment%1:10:01::"], [10, "malaise%1:26:00::"], [12, "appear%2:30:02::"], [13, "last%3:00:00:past:00"], [14, "year%1:28:01::"]]
 dQf/:
     lemmas: ["The", "earlier", "of", "them", "be", "an", "unofficial", "enterprise", ",", "sponsor", "by", "life", "magazine", ",", "under", "the", "title", "of", "the", "national", "purpose", "."]
-    oewn2026_key: [[1, "oewn-00818180-s"], [4, "oewn-02622439-v"], [6, "oewn-01637634-a"], [7, "oewn-00798547-n"], [9, "oewn-02224722-v"], [12, "oewn-08080139-n"], [16, "oewn-06354890-n"], [19, "oewn-02999528-a"], [20, "oewn-05991037-n"]]
+    oewn_key: [[1, "oewn-00818180-s"], [4, "oewn-02622439-v"], [6, "oewn-01637634-a"], [7, "oewn-00798547-n"], [9, "oewn-02224722-v"], [12, "oewn-08080139-n"], [16, "oewn-06354890-n"], [19, "oewn-02999528-a"], [20, "oewn-05991037-n"]]
     paragraph: '18'
     pos: ["DT", "JJR", "IN", "PRP", "VBD", "DT", "JJ", "NN", ",", "VBN", "IN", "NNP", "NN", ",", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
     text: ' The earlier of them was an unofficial enterprise, sponsored by Life magazine, under
@@ -714,7 +714,7 @@ dQf/:
     wn30_key: [[1, "earlier%3:00:00:early:00"], [4, "be%2:42:06::"], [6, "unofficial%3:00:00::"], [7, "enterprise%1:04:00::"], [9, "sponsor%2:40:00::"], [12, "magazine%1:14:00::"], [16, "title%1:10:00::"], [19, "national%3:01:00::"], [20, "purpose%1:09:00::"]]
 pVYE:
     lemmas: ["The", "contributor", "to", "this", "testament", "be", "all", "well-known", ":"]
-    oewn2026_key: [[1, "oewn-09980810-n"], [4, "oewn-05808280-n"], [5, "oewn-02610777-v"], [6, "oewn-00008423-r"], [7, "oewn-01379631-s"]]
+    oewn_key: [[1, "oewn-09980810-n"], [4, "oewn-05808280-n"], [5, "oewn-02610777-v"], [6, "oewn-00008423-r"], [7, "oewn-01379631-s"]]
     paragraph: '18'
     pos: ["DT", "NNS", "TO", "DT", "NN", "VBD", "RB", "JJ", ":"]
     text: ' The contributors to this testament were all well-known:'
@@ -723,7 +723,7 @@ pVYE:
     wn30_key: [[1, "contributor%1:18:01::"], [4, "testament%1:09:00::"], [5, "be%2:42:03::"], [6, "all%4:02:00::"], [7, "well-known%3:00:00:known:00"]]
 V3Wu:
     lemmas: ["a", "former", "democratic", "candidate", "for", "president", ",", "a", "new_deal", "poet", ",", "the", "magazine", "'s", "chief", "editorial", "writer", ",", "two", "newspaper_columnist", ",", "head", "of", "a", "national", "broadcasting_company", ",", "a", "popular", "protestant", "evangelist", ",", "etc.", "."]
-    oewn2026_key: [[1, "oewn-01733798-s"], [2, "oewn-02721266-a"], [3, "oewn-09909143-n"], [5, "oewn-00598380-n"], [8, "oewn-15286282-n"], [9, "oewn-10463768-n"], [12, "oewn-06607555-n"], [14, "oewn-01280536-s"], [15, "oewn-06279220-n"], [16, "oewn-10813654-n"], [18, "oewn-02194109-s"], [19, "oewn-10376291-n"], [21, "oewn-10182584-n"], [24, "oewn-01109533-a"], [25, "oewn-08018457-n"], [28, "oewn-01821123-a"], [29, "oewn-08104536-n"], [30, "oewn-10086818-n"], [32, "oewn-00104351-r"]]
+    oewn_key: [[1, "oewn-01733798-s"], [2, "oewn-02721266-a"], [3, "oewn-09909143-n"], [5, "oewn-00598380-n"], [8, "oewn-15286282-n"], [9, "oewn-10463768-n"], [12, "oewn-06607555-n"], [14, "oewn-01280536-s"], [15, "oewn-06279220-n"], [16, "oewn-10813654-n"], [18, "oewn-02194109-s"], [19, "oewn-10376291-n"], [21, "oewn-10182584-n"], [24, "oewn-01109533-a"], [25, "oewn-08018457-n"], [28, "oewn-01821123-a"], [29, "oewn-08104536-n"], [30, "oewn-10086818-n"], [32, "oewn-00104351-r"]]
     paragraph: '18'
     pos: ["DT", "JJ", "JJ", "NN", "IN", "NNP", ",", "DT", "NN", "NN", ",", "DT", "NN", "POS", "JJ", "NN", "NN", ",", "JJ", "NNS", ",", "NN", "IN", "DT", "JJ", "NN", ",", "DT", "JJ", "NN", "NN", ",", "RB", "."]
     text: ' a former Democratic candidate for President, a New_Deal poet, the magazine''s chief
@@ -734,7 +734,7 @@ V3Wu:
     wn30_key: [[1, "former%3:00:01:past:00"], [2, "democratic%3:01:00::"], [3, "candidate%1:18:01::"], [5, "president%1:04:04::"], [8, "new_deal%1:28:00::"], [9, "poet%1:18:00::"], [12, "magazine%1:10:00::"], [14, "chief%3:00:02:important:00"], [15, "editorial%1:10:00::"], [16, "writer%1:18:00::"], [18, "two%3:00:00:cardinal:00"], [19, "newspaper_columnist%1:18:00::"], [21, "head%1:18:00::"], [24, "national%3:00:01::"], [25, "broadcasting_company%1:14:00::"], [28, "popular%3:00:00::"], [29, "protestant%1:14:00::"], [30, "evangelist%1:18:00::"], [32, "etc.%4:02:00::"]]
 5Rq3:
     lemmas: ["What", "I", "want", "to", "point_out", "here", "be", "that", "all_of", "them", "be", "ex", "liberal", ",", "or", "modified", "liberal", ",", "with", "perhaps", "one", "exception", "."]
-    oewn2026_key: [[2, "oewn-01829179-v"], [4, "oewn-01060446-v"], [5, "oewn-00109541-r"], [6, "oewn-02622439-v"], [10, "oewn-02610777-v"], [12, "oewn-10276453-n"], [15, "oewn-01920023-s"], [16, "oewn-10276453-n"], [19, "oewn-00301501-r"], [20, "oewn-02071831-s"], [21, "oewn-05829606-n"]]
+    oewn_key: [[2, "oewn-01829179-v"], [4, "oewn-01060446-v"], [5, "oewn-00109541-r"], [6, "oewn-02622439-v"], [10, "oewn-02610777-v"], [12, "oewn-10276453-n"], [15, "oewn-01920023-s"], [16, "oewn-10276453-n"], [19, "oewn-00301501-r"], [20, "oewn-02071831-s"], [21, "oewn-05829606-n"]]
     paragraph: '18'
     pos: ["WP", "PRP", "VBP", "TO", "VB", "RB", "VBZ", "IN", "JJ", "PRP", "VBP", "JJ", "NNS", ",", "CC", "JJ", "NNS", ",", "IN", "RB", "JJ", "NN", "."]
     text: ' What I want to point_out here is that all_of them are ex liberals, or modified liberals,
@@ -744,7 +744,7 @@ V3Wu:
     wn30_key: [[2, "want%2:37:00::"], [4, "point_out%2:32:01::"], [5, "here%4:02:02::"], [6, "be%2:42:06::"], [10, "be%2:42:03::"], [12, "liberal%1:18:00::"], [15, "modified%3:00:00:qualified:02"], [16, "liberal%1:18:00::"], [19, "perhaps%4:02:00::"], [20, "one%3:00:00:same:00"], [21, "exception%1:09:01::"]]
 Hfqb:
     lemmas: ["I", "suppose", "we", "might", "classify", "person", "as", "an", "old", "liberal", "."]
-    oewn2026_key: [[1, "oewn-00919271-v"], [4, "oewn-00656296-v"], [5, "oewn-00007846-n"], [8, "oewn-01642580-a"], [9, "oewn-10276453-n"]]
+    oewn_key: [[1, "oewn-00919271-v"], [4, "oewn-00656296-v"], [5, "oewn-00007846-n"], [8, "oewn-01642580-a"], [9, "oewn-10276453-n"]]
     paragraph: '18'
     pos: ["PRP", "VBP", "PRP", "MD", "VB", "NN", "IN", "DT", "JJ", "NN", "."]
     text: ' I suppose we might classify Billy_Graham as an old liberal.'
@@ -753,7 +753,7 @@ Hfqb:
     wn30_key: [[1, "suppose%2:32:00::"], [4, "classify%2:31:00::"], [5, "person%1:03:00::"], [8, "old%3:00:01::"], [9, "liberal%1:18:00::"]]
 aLAw:
     lemmas: ["And", "I", "would", "further", "note", "that", "they", "all", "-", "with", "one", "exception", "again", "-", "sing", "in", "one", "key", "or", "another", "the", "same", "song", "."]
-    oewn2026_key: [[3, "oewn-00030839-r"], [4, "oewn-01022014-v"], [10, "oewn-02071831-s"], [11, "oewn-05829606-n"], [12, "oewn-00040777-r"], [14, "oewn-00939238-v"], [16, "oewn-02193977-s"], [17, "oewn-06876801-n"], [19, "oewn-02077592-s"], [21, "oewn-02075880-a"], [22, "oewn-07062058-n"]]
+    oewn_key: [[3, "oewn-00030839-r"], [4, "oewn-01022014-v"], [10, "oewn-02071831-s"], [11, "oewn-05829606-n"], [12, "oewn-00040777-r"], [14, "oewn-00939238-v"], [16, "oewn-02193977-s"], [17, "oewn-06876801-n"], [19, "oewn-02077592-s"], [21, "oewn-02075880-a"], [22, "oewn-07062058-n"]]
     paragraph: '18'
     pos: ["CC", "PRP", "MD", "RB", "VB", "IN", "PRP", "DT", ":", "IN", "JJ", "NN", "RB", ":", "VBD", "IN", "JJ", "NN", "CC", "JJ", "DT", "JJ", "NN", "."]
     text: ' And I would further note that they all - with one exception again - sang in one
@@ -763,7 +763,7 @@ aLAw:
     wn30_key: [[3, "further%4:02:03::"], [4, "note%2:32:00::"], [10, "one%3:00:00:same:00"], [11, "exception%1:09:01::"], [12, "again%4:02:00::"], [14, "sing%2:32:01::"], [16, "one%3:00:00:cardinal:00"], [17, "key%1:10:00::"], [19, "another%3:00:00:other:00"], [21, "same%3:00:02::"], [22, "song%1:10:00::"]]
 EsE1:
     lemmas: ["Its", "refrain", "be", ":", "\"", "let", "us", "return", "to", "the", "individualistic", "democracy", "of", "our", "forefather", "for", "our", "salvation", "\"", "."]
-    oewn2026_key: [[1, "oewn-07064217-n"], [2, "oewn-02622439-v"], [5, "oewn-02427979-v"], [7, "oewn-00387981-v"], [10, "oewn-00298763-s"], [11, "oewn-08378256-n"], [14, "oewn-10122569-n"], [17, "oewn-00180229-n"]]
+    oewn_key: [[1, "oewn-07064217-n"], [2, "oewn-02622439-v"], [5, "oewn-02427979-v"], [7, "oewn-00387981-v"], [10, "oewn-00298763-s"], [11, "oewn-08378256-n"], [14, "oewn-10122569-n"], [17, "oewn-00180229-n"]]
     paragraph: '18'
     pos: ["PRP$", "NN", "VBD", ":", "``", "VB", "PRP", "VB", "VB", "DT", "JJ", "NN", "IN", "PRP$", "NNS", "IN", "PRP$", "NN", "''", "."]
     text: ' Its refrain was: " Let us return to the individualistic democracy of our forefathers
@@ -775,7 +775,7 @@ EsE1:
     wn30_key: [[1, "refrain%1:10:00::"], [2, "be%2:42:06::"], [5, "let%2:41:00::"], [7, "return%2:30:00::"], [10, "individualistic%3:00:00:capitalistic:00"], [11, "democracy%1:14:00::"], [14, "forefather%1:18:00::"], [17, "salvation%1:04:01::"]]
 jb4I:
     lemmas: ["person", "express", "some", "reservation", "about", "this", "return", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-00945869-v"], [3, "oewn-05706585-n"], [6, "oewn-00090171-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-00945869-v"], [3, "oewn-05706585-n"], [6, "oewn-00090171-n"]]
     paragraph: '19'
     pos: ["NN", "VBD", "DT", "NNS", "IN", "DT", "NN", "."]
     text: ' Adlai_Stevenson expressed some reservations about this return.'
@@ -784,7 +784,7 @@ jb4I:
     wn30_key: [[0, "person%1:03:00::"], [1, "express%2:32:01::"], [3, "reservation%1:09:00::"], [6, "return%1:04:02::"]]
 gZX2:
     lemmas: ["other", "invoke", "technology", "and", "common_sense", "."]
-    oewn2026_key: [[1, "oewn-01026873-v"], [2, "oewn-06134474-n"], [4, "oewn-05622440-n"]]
+    oewn_key: [[1, "oewn-01026873-v"], [2, "oewn-06134474-n"], [4, "oewn-05622440-n"]]
     paragraph: '19'
     pos: ["NNS", "VBD", "NN", "CC", "NN", "."]
     text: ' Others invoked technology and common_sense.'
@@ -793,7 +793,7 @@ gZX2:
     wn30_key: [[1, "invoke%2:32:01::"], [2, "technology%1:09:00::"], [4, "common_sense%1:09:00::"]]
 eehR:
     lemmas: ["only", "person", "envision", "the", "possibility", "of", "our", "have", "\"", "outlive", "most_of", "what", "we", "used", "to", "regard_as", "the", "program", "of", "our", "national", "purpose", "\"", "."]
-    oewn2026_key: [[0, "oewn-00009062-r"], [1, "oewn-00007846-n"], [2, "oewn-01639763-v"], [4, "oewn-14505513-n"], [9, "oewn-02625819-v"], [13, "oewn-02375130-v"], [15, "oewn-00691692-v"], [17, "oewn-05907694-n"], [20, "oewn-02999528-a"], [21, "oewn-05991037-n"]]
+    oewn_key: [[0, "oewn-00009062-r"], [1, "oewn-00007846-n"], [2, "oewn-01639763-v"], [4, "oewn-14505513-n"], [9, "oewn-02625819-v"], [13, "oewn-02375130-v"], [15, "oewn-00691692-v"], [17, "oewn-05907694-n"], [20, "oewn-02999528-a"], [21, "oewn-05991037-n"]]
     paragraph: '19'
     pos: ["RB", "NN", "VBD", "DT", "NN", "IN", "PRP$", "VB", "``", "VBN", "JJ", "WP", "PRP", "JJ", "JJ", "VB", "DT", "NN", "IN", "PRP$", "JJ", "NNS", "``", "."]
     text: ' Only Walter_Lippman envisioned the possibility of our having " outlived most_of
@@ -805,7 +805,7 @@ eehR:
     wn30_key: [[0, "only%4:02:01::"], [1, "person%1:03:00::"], [2, "envision%2:36:01::"], [4, "possibility%1:26:00::"], [9, "outlive%2:42:00::"], [13, "use%2:41:03::"], [15, "regard_as%2:31:00::"], [17, "program%1:09:01::"], [20, "national%3:01:00::"], [21, "purpose%1:09:00::"]]
 O/eA:
     lemmas: ["But", "the", "most", "notable", "thing", "about", "the", "incantation", "of", "these", "ex", "liberal", "be", "that", "the", "onetime", "shibboleth", "of", "socialism", "be", "conspicuously", "absent", "."]
-    oewn2026_key: [[2, "oewn-01560125-a"], [3, "oewn-02171017-s"], [4, "oewn-05863569-n"], [7, "oewn-07174767-n"], [11, "oewn-10276453-n"], [12, "oewn-02622439-v"], [15, "oewn-01733798-s"], [16, "oewn-07096636-n"], [18, "oewn-06230561-n"], [19, "oewn-02610777-v"], [20, "oewn-00209717-r"], [21, "oewn-01853600-a"]]
+    oewn_key: [[2, "oewn-01560125-a"], [3, "oewn-02171017-s"], [4, "oewn-05863569-n"], [7, "oewn-07174767-n"], [11, "oewn-10276453-n"], [12, "oewn-02622439-v"], [15, "oewn-01733798-s"], [16, "oewn-07096636-n"], [18, "oewn-06230561-n"], [19, "oewn-02610777-v"], [20, "oewn-00209717-r"], [21, "oewn-01853600-a"]]
     paragraph: '20'
     pos: ["CC", "RB", "JJ", "JJ", "NN", "IN", "DT", "NN", "IN", "DT", "JJ", "NNS", "VBD", "IN", "DT", "JJ", "NN", "IN", "NN", "VBD", "RB", "JJ", "."]
     text: ' But the most notable thing about the incantation of these ex liberals was that the
@@ -817,7 +817,7 @@ O/eA:
     wn30_key: [[2, "most%3:00:01::"], [3, "notable%3:00:00:worthy:00"], [4, "thing%1:09:00::"], [7, "incantation%1:10:00::"], [11, "liberal%1:18:00::"], [12, "be%2:42:06::"], [15, "onetime%3:00:00:past:00"], [16, "shibboleth%1:10:00::"], [18, "socialism%1:09:00::"], [19, "be%2:42:03::"], [20, "conspicuously%4:02:01::"], [21, "absent%3:00:00::"]]
 Ha7m:
     lemmas: ["The", "second", "specific", "comment", "be", "the", "report", "of", "person", "'s", "commission_on_national_goal", ",", "titled", "goal_for_american", "."]
-    oewn2026_key: [[1, "oewn-02209815-s"], [2, "oewn-01106714-a"], [3, "oewn-06777755-n"], [4, "oewn-02622439-v"], [6, "oewn-07233130-n"], [8, "oewn-00007846-n"], [12, "oewn-01595634-s"]]
+    oewn_key: [[1, "oewn-02209815-s"], [2, "oewn-01106714-a"], [3, "oewn-06777755-n"], [4, "oewn-02622439-v"], [6, "oewn-07233130-n"], [8, "oewn-00007846-n"], [12, "oewn-01595634-s"]]
     paragraph: '21'
     pos: ["DT", "JJ", "JJ", "NN", "VBD", "DT", "NN", "IN", "NNP", "POS", "NN", ",", "JJ", "NNPS", "."]
     text: ' The second specific comment was the report of Eisenhower''s Commission_on_National_Goals,
@@ -827,7 +827,7 @@ Ha7m:
     wn30_key: [[1, "second%3:00:00:ordinal:00"], [2, "specific%3:00:00::"], [3, "comment%1:10:00::"], [4, "be%2:42:06::"], [6, "report%1:10:03::"], [8, "person%1:03:00::"], [12, "titled%3:00:00:noble:02"]]
 WhDZ:
     lemmas: ["They", ",", "perhaps", ",", "give", "the", "pitch", "of", "their", "position", "in", "the", "preface", "where", "it", "be", "say", "that", "person", "request", "that", "the", "commission", "be", "administer", "by", "the", "group", ",", "because", "it", "be", "nonpartisan", "."]
-    oewn2026_key: [[2, "oewn-00301501-r"], [4, "oewn-02240624-v"], [6, "oewn-07263321-n"], [9, "oewn-06218486-n"], [12, "oewn-06409546-n"], [16, "oewn-01011267-v"], [18, "oewn-00007846-n"], [19, "oewn-00755473-v"], [22, "oewn-08341444-n"], [24, "oewn-02436818-v"], [27, "oewn-00031563-n"], [31, "oewn-02610777-v"], [32, "oewn-00734736-a"]]
+    oewn_key: [[2, "oewn-00301501-r"], [4, "oewn-02240624-v"], [6, "oewn-07263321-n"], [9, "oewn-06218486-n"], [12, "oewn-06409546-n"], [16, "oewn-01011267-v"], [18, "oewn-00007846-n"], [19, "oewn-00755473-v"], [22, "oewn-08341444-n"], [24, "oewn-02436818-v"], [27, "oewn-00031563-n"], [31, "oewn-02610777-v"], [32, "oewn-00734736-a"]]
     paragraph: '21'
     pos: ["PRP", ",", "RB", ",", "VBD", "DT", "NN", "IN", "PRP$", "NN", "IN", "DT", "NN", "WRB", "PRP", "VBD", "VBD", "IN", "NNP", "VBD", "IN", "DT", "NNP", "VB", "VBN", "IN", "DT", "NN", ",", "IN", "PRP", "VBD", "JJ", "."]
     text: ' They, perhaps, gave the pitch of their position in the preface where it was said
@@ -838,7 +838,7 @@ WhDZ:
     wn30_key: [[2, "perhaps%4:02:00::"], [4, "give%2:40:07::"], [6, "pitch%1:10:00::"], [9, "position%1:09:00::"], [12, "preface%1:10:00::"], [16, "say%2:32:00::"], [18, "person%1:03:00::"], [19, "request%2:32:02::"], [22, "commission%1:14:00::"], [24, "administer%2:41:00::"], [27, "group%1:03:00::"], [31, "be%2:42:03::"], [32, "nonpartisan%3:00:00::"]]
 s3hZ:
     lemmas: ["The", "commission", "seem", "to", "represent", "the", "viewpoint", "of_what", "I", "would", "call", "the", "unconscious", "liberal", ",", "but", "not", "unconscious", "enough", ",", "to", "invoke", "the", "now", "taboo", "symbolism", "of", "socialism", "."]
-    oewn2026_key: [[1, "oewn-08341444-n"], [2, "oewn-02137900-v"], [4, "oewn-00837915-v"], [6, "oewn-06220098-n"], [10, "oewn-01030757-v"], [12, "oewn-00573907-a"], [13, "oewn-10276453-n"], [16, "oewn-00024432-r"], [17, "oewn-00573907-a"], [18, "oewn-00146749-r"], [21, "oewn-01633150-v"], [23, "oewn-00049013-r"], [24, "oewn-01765887-s"], [25, "oewn-06820707-n"], [27, "oewn-06230561-n"]]
+    oewn_key: [[1, "oewn-08341444-n"], [2, "oewn-02137900-v"], [4, "oewn-00837915-v"], [6, "oewn-06220098-n"], [10, "oewn-01030757-v"], [12, "oewn-00573907-a"], [13, "oewn-10276453-n"], [16, "oewn-00024432-r"], [17, "oewn-00573907-a"], [18, "oewn-00146749-r"], [21, "oewn-01633150-v"], [23, "oewn-00049013-r"], [24, "oewn-01765887-s"], [25, "oewn-06820707-n"], [27, "oewn-06230561-n"]]
     paragraph: '21'
     pos: ["DT", "NNP", "VBZ", "TO", "VB", "DT", "NN", "RB", "PRP", "MD", "VB", "DT", "JJ", "NN", ",", "CC", "RB", "JJ", "RB", ",", "TO", "VB", "DT", "RB", "JJ", "NN", "IN", "NN", "."]
     text: ' The Commission seems to represent the viewpoint of_what I would call the unconscious
@@ -848,7 +848,7 @@ s3hZ:
     wn30_key: [[1, "commission%1:14:00::"], [2, "seem%2:39:00::"], [4, "represent%2:32:02::"], [6, "viewpoint%1:09:00::"], [10, "call%2:32:02::"], [12, "unconscious%3:00:00::"], [13, "liberal%1:18:00::"], [16, "not%4:02:00::"], [17, "unconscious%3:00:00::"], [18, "enough%4:02:00::"], [21, "invoke%2:36:00::"], [23, "now%4:02:00::"], [24, "taboo%3:00:00:impermissible:00"], [25, "symbolism%1:10:00::"], [27, "socialism%1:09:00::"]]
 fncV:
     lemmas: ["And", "here", "again", "we", "hear", "the", "same", "refrain", "mention", "above", ":", "\"", "The", "paramount", "goal", "of", "the", "united_states", ",", "set", "long_ago", ",", "be", "to", "guard", "the", "right", "of", "the", "individual", ",", "ensure", "his", "development", ",", "enlarge", "his", "opportunity", "\"", "."]
-    oewn2026_key: [[1, "oewn-00109541-r"], [2, "oewn-00040777-r"], [4, "oewn-00600349-v"], [6, "oewn-01413922-a"], [7, "oewn-07064217-n"], [8, "oewn-01022014-v"], [13, "oewn-00795757-s"], [14, "oewn-05989760-n"], [17, "oewn-08372718-n"], [19, "oewn-00701581-v"], [20, "oewn-00022855-r"], [24, "oewn-01131763-v"], [26, "oewn-05182180-n"], [29, "oewn-00007846-n"], [31, "oewn-00892111-v"], [33, "oewn-13486023-n"], [35, "oewn-00154586-v"], [37, "oewn-14507501-n"]]
+    oewn_key: [[1, "oewn-00109541-r"], [2, "oewn-00040777-r"], [4, "oewn-00600349-v"], [6, "oewn-01413922-a"], [7, "oewn-07064217-n"], [8, "oewn-01022014-v"], [13, "oewn-00795757-s"], [14, "oewn-05989760-n"], [17, "oewn-08372718-n"], [19, "oewn-00701581-v"], [20, "oewn-00022855-r"], [24, "oewn-01131763-v"], [26, "oewn-05182180-n"], [29, "oewn-00007846-n"], [31, "oewn-00892111-v"], [33, "oewn-13486023-n"], [35, "oewn-00154586-v"], [37, "oewn-14507501-n"]]
     paragraph: '21'
     pos: ["CC", "RB", "RB", "PRP", "VBP", "DT", "JJ", "NN", "VBN", "IN", ":", "``", "DT", "JJ", "NN", "IN", "DT", "NNS", ",", "VBN", "RB", ",", "VBD", "TO", "VB", "DT", "NNS", "IN", "DT", "NN", ",", "VB", "PRP$", "NN", ",", "VB", "PRP$", "NN", "''", "."]
     text: ' And here again we hear the same refrain mentioned above: " The paramount goal of
@@ -859,7 +859,7 @@ fncV:
     wn30_key: [[1, "here%4:02:02::"], [2, "again%4:02:00::"], [4, "hear%2:31:00::"], [6, "same%3:00:04::"], [7, "refrain%1:10:00::"], [8, "mention%2:32:00::"], [13, "paramount%3:00:00:dominant:01"], [14, "goal%1:09:00::"], [17, "united_states%1:14:00::"], [19, "set%2:31:04::"], [20, "long_ago%4:02:00::"], [24, "guard%2:33:00::"], [26, "right%1:07:00::"], [29, "individual%1:03:00::"], [31, "ensure%2:32:00::"], [33, "development%1:22:02::"], [35, "enlarge%2:30:03::"], [37, "opportunity%1:26:00::"]]
 eUDx:
     lemmas: ["This", "group", "be", "secularist", "and", "their", "program", "tend", "to", "be", "technological", "."]
-    oewn2026_key: [[1, "oewn-00031563-n"], [2, "oewn-02610777-v"], [3, "oewn-10593982-n"], [6, "oewn-06513302-n"], [7, "oewn-02725274-v"], [9, "oewn-02610777-v"], [10, "oewn-02092125-s"]]
+    oewn_key: [[1, "oewn-00031563-n"], [2, "oewn-02610777-v"], [3, "oewn-10593982-n"], [6, "oewn-06513302-n"], [7, "oewn-02725274-v"], [9, "oewn-02610777-v"], [10, "oewn-02092125-s"]]
     paragraph: '21'
     pos: ["DT", "NN", "VBZ", "NN", "CC", "PRP$", "NN", "VBZ", "TO", "VB", "JJ", "."]
     text: ' This group is secularist and their program tends to be technological.
@@ -870,7 +870,7 @@ eUDx:
     wn30_key: [[1, "group%1:03:00::"], [2, "be%2:42:03::"], [3, "secularist%1:18:00::"], [6, "program%1:10:04::"], [7, "tend%2:42:01::"], [9, "be%2:42:03::"], [10, "technological%3:00:00:scientific:00"]]
 WqRB:
     lemmas: ["But", "it", "be", "the", "need", "to", "undertake", "these", "testament", "that", "I", "would", "submit", "here", "as", "symptom", "of", "the", "common_man", "'s", "malaise", "."]
-    oewn2026_key: [[2, "oewn-02622439-v"], [4, "oewn-09390888-n"], [6, "oewn-00891076-v"], [8, "oewn-05808280-n"], [12, "oewn-00879667-v"], [13, "oewn-00109541-r"], [15, "oewn-06811045-n"], [18, "oewn-80699207-n"], [20, "oewn-14470485-n"]]
+    oewn_key: [[2, "oewn-02622439-v"], [4, "oewn-09390888-n"], [6, "oewn-00891076-v"], [8, "oewn-05808280-n"], [12, "oewn-00879667-v"], [13, "oewn-00109541-r"], [15, "oewn-06811045-n"], [18, "oewn-80699207-n"], [20, "oewn-14470485-n"]]
     paragraph: '22'
     pos: ["CC", "PRP", "VBZ", "DT", "NN", "TO", "VB", "DT", "NNS", "IN", "PRP", "MD", "VB", "RB", "IN", "NN", "IN", "DT", "NN", "POS", "NN", "."]
     text: ' But it is the need to undertake these testaments that I would submit here as symptom
@@ -880,7 +880,7 @@ WqRB:
     wn30_key: [[2, "be%2:42:06::"], [4, "need%1:17:00::"], [6, "undertake%2:32:00::"], [8, "testament%1:09:00::"], [12, "submit%2:32:00::"], [13, "here%4:02:02::"], [15, "symptom%1:10:00::"], [18, "common_man%1:18:00::"], [20, "malaise%1:26:00::"]]
 2r1r:
     lemmas: ["And", "let", "me", "add", "person", "'s", "new", "book", "as", "another", "symptom", "of_it", ",", "particularly", "so", "in_view_of", "the", "attention", "time", "magazine", "give", "it", "when", "it", "come_out", "recently", "."]
-    oewn2026_key: [[1, "oewn-02427979-v"], [3, "oewn-01029183-v"], [4, "oewn-00007846-n"], [6, "oewn-01645077-a"], [7, "oewn-06422547-n"], [10, "oewn-06811045-n"], [13, "oewn-00084573-r"], [14, "oewn-00119259-r"], [17, "oewn-05862201-n"], [19, "oewn-06607555-n"], [20, "oewn-01062366-v"], [24, "oewn-00426920-v"], [25, "oewn-00108184-r"]]
+    oewn_key: [[1, "oewn-02427979-v"], [3, "oewn-01029183-v"], [4, "oewn-00007846-n"], [6, "oewn-01645077-a"], [7, "oewn-06422547-n"], [10, "oewn-06811045-n"], [13, "oewn-00084573-r"], [14, "oewn-00119259-r"], [17, "oewn-05862201-n"], [19, "oewn-06607555-n"], [20, "oewn-01062366-v"], [24, "oewn-00426920-v"], [25, "oewn-00108184-r"]]
     paragraph: '22'
     pos: ["CC", "VB", "PRP", "VB", "NNP", "POS", "JJ", "NN", "IN", "DT", "NN", "RB", ",", "RB", "RB", "IN", "DT", "NN", "NNP", "NN", "VBD", "PRP", "WRB", "PRP", "VB", "RB", "."]
     text: ' And let me add Murray''s new book as another symptom of_it, particularly so in_view_of
@@ -890,7 +890,7 @@ WqRB:
     wn30_key: [[1, "let%2:41:00::"], [3, "add%2:32:01::"], [4, "person%1:03:00::"], [6, "new%3:00:00::"], [7, "book%1:10:00::"], [10, "symptom%1:10:00::"], [13, "particularly%4:02:00::"], [14, "so%4:02:06::"], [17, "attention%1:09:02::"], [19, "magazine%1:10:00::"], [20, "give%2:32:01::"], [24, "come_out%2:30:01::"], [25, "recently%4:02:00::"]]
 O/yA:
     lemmas: ["person", "go_back", "to", "the", "declaration_of_independence", ",", "too", ",", "though", "I", "may", "add", ",", "with", "considerably", "more", "historical", "perception", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-00961746-v"], [4, "oewn-06524090-n"], [6, "oewn-00048072-r"], [11, "oewn-01029183-v"], [14, "oewn-00014747-r"], [15, "oewn-00099891-r"], [16, "oewn-02931434-a"], [17, "oewn-05844792-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-00961746-v"], [4, "oewn-06524090-n"], [6, "oewn-00048072-r"], [11, "oewn-01029183-v"], [14, "oewn-00014747-r"], [15, "oewn-00099891-r"], [16, "oewn-02931434-a"], [17, "oewn-05844792-n"]]
     paragraph: '22'
     pos: ["NN", "VB", "VB", "DT", "NN", ",", "RB", ",", "IN", "PRP", "MD", "VB", ",", "IN", "RB", "RBR", "JJ", "NN", "."]
     text: ' Father_Murray goes_back to the Declaration_of_Independence, too, though I may add,
@@ -902,7 +902,7 @@ O/yA:
     wn30_key: [[0, "person%1:03:00::"], [1, "go_back%2:32:00::"], [4, "declaration_of_independence%1:10:00::"], [6, "too%4:02:01::"], [11, "add%2:32:01::"], [14, "considerably%4:02:01::"], [15, "more%4:02:00::"], [16, "historical%3:01:00::"], [17, "perception%1:09:02::"]]
 esSm:
     lemmas: ["I", "will", "reserve", "discussion", "of_it", "for", "a", "moment", ",", "however", ",", "to", "return", "to", "person", "."]
-    oewn2026_key: [[2, "oewn-00726112-v"], [3, "oewn-07152793-n"], [7, "oewn-15271664-n"], [12, "oewn-00961556-v"], [14, "oewn-00007846-n"]]
+    oewn_key: [[2, "oewn-00726112-v"], [3, "oewn-07152793-n"], [7, "oewn-15271664-n"], [12, "oewn-00961556-v"], [14, "oewn-00007846-n"]]
     paragraph: '23'
     pos: ["PRP", "MD", "VB", "NN", "RB", "IN", "DT", "NN", ",", "RB", ",", "TO", "VB", "VB", "NN", "."]
     text: ' I will reserve discussion of_it for a moment, however, to return to President_Kennedy.'
@@ -911,7 +911,7 @@ esSm:
     wn30_key: [[2, "reserve%2:31:00::"], [3, "discussion%1:10:02::"], [7, "moment%1:28:01::"], [12, "return%2:32:00::"], [14, "person%1:03:00::"]]
 ANuW:
     lemmas: ["As", "symptomatic_of", "the", "common_man", "'s", "malaise", ",", "he", "be", "most", "significant", ":", "a", "liberal", "and", "a", "catholic", ",", "elect", "by", "the", "skin_of_his_tooth", "."]
-    oewn2026_key: [[3, "oewn-80699207-n"], [5, "oewn-14470485-n"], [8, "oewn-02610777-v"], [9, "oewn-00032295-r"], [10, "oewn-02168847-a"], [13, "oewn-10276453-n"], [16, "oewn-09699321-n"], [18, "oewn-02405902-v"]]
+    oewn_key: [[3, "oewn-80699207-n"], [5, "oewn-14470485-n"], [8, "oewn-02610777-v"], [9, "oewn-00032295-r"], [10, "oewn-02168847-a"], [13, "oewn-10276453-n"], [16, "oewn-09699321-n"], [18, "oewn-02405902-v"]]
     paragraph: '23'
     pos: ["IN", "JJ", "DT", "NN", "POS", "NN", ",", "PRP", "VBZ", "RBS", "JJ", ":", "DT", "NN", "CC", "DT", "NNP", ",", "VBN", "IN", "DT", "NNS", "."]
     text: ' As symptomatic_of the common_man''s malaise, he is most significant: a liberal and
@@ -921,7 +921,7 @@ ANuW:
     wn30_key: [[3, "common_man%1:18:00::"], [5, "malaise%1:26:00::"], [8, "be%2:42:03::"], [9, "most%4:02:01::"], [10, "significant%3:00:00::"], [13, "liberal%1:18:00::"], [16, "catholic%1:18:00::"], [18, "elect%2:41:00::"]]
 cSgp:
     lemmas: ["do", "that", "not", "suggest", "to", "you", "an", "uncertain", "and", "uneasy", ",", "not", "to", "say", "confused", ",", "state", "of", "the", "public", "mind", "?"]
-    oewn2026_key: [[2, "oewn-00024432-r"], [3, "oewn-00929401-v"], [7, "oewn-00338302-a"], [9, "oewn-00826017-a"], [11, "oewn-00024432-r"], [13, "oewn-00930921-v"], [14, "oewn-00437207-a"], [16, "oewn-00024900-n"], [19, "oewn-00495342-s"], [20, "oewn-05846466-n"]]
+    oewn_key: [[2, "oewn-00024432-r"], [3, "oewn-00929401-v"], [7, "oewn-00338302-a"], [9, "oewn-00826017-a"], [11, "oewn-00024432-r"], [13, "oewn-00930921-v"], [14, "oewn-00437207-a"], [16, "oewn-00024900-n"], [19, "oewn-00495342-s"], [20, "oewn-05846466-n"]]
     paragraph: '23'
     pos: ["VBZ", "IN", "RB", "VB", "TO", "PRP", "DT", "JJ", "CC", "JJ", ",", "RB", "RB", "VB", "JJ", ",", "NN", "IN", "DT", "JJ", "NN", "."]
     text: ' Does that not suggest to you an uncertain and uneasy, not to say confused, state
@@ -933,7 +933,7 @@ cSgp:
     wn30_key: [[2, "not%4:02:00::"], [3, "suggest%2:32:04::"], [7, "uncertain%3:00:02::"], [9, "uneasy%3:00:00::"], [11, "not%4:02:00::"], [13, "say%2:32:07::"], [14, "confused%3:00:00::"], [16, "state%1:03:00::"], [19, "public%3:00:00:common:02"], [20, "mind%1:09:04::"]]
 lb1/:
     lemmas: ["What", "be", "the", "common_man", "'s", "complaint", "?"]
-    oewn2026_key: [[1, "oewn-02622439-v"], [3, "oewn-80699207-n"], [5, "oewn-14078890-n"]]
+    oewn_key: [[1, "oewn-02622439-v"], [3, "oewn-80699207-n"], [5, "oewn-14078890-n"]]
     paragraph: '24'
     pos: ["WP", "VBZ", "DT", "NN", "POS", "NN", "."]
     text: ' What is the common_man''s complaint?'
@@ -942,7 +942,7 @@ lb1/:
     wn30_key: [[1, "be%2:42:06::"], [3, "common_man%1:18:00::"], [5, "complaint%1:26:00::"]]
 EpYf:
     lemmas: ["let", "'s", "take", "a", "panoramic", "look", "back", "over", "the", "course", "we", "have", "come", "."]
-    oewn2026_key: [[0, "oewn-02427979-v"], [2, "oewn-00736077-v"], [4, "oewn-02571853-s"], [5, "oewn-00878805-n"], [6, "oewn-00074673-r"], [9, "oewn-08393816-n"], [12, "oewn-01843632-v"]]
+    oewn_key: [[0, "oewn-02427979-v"], [2, "oewn-00736077-v"], [4, "oewn-02571853-s"], [5, "oewn-00878805-n"], [6, "oewn-00074673-r"], [9, "oewn-08393816-n"], [12, "oewn-01843632-v"]]
     paragraph: '24'
     pos: ["VB", "POS", "VB", "DT", "JJ", "NN", "RB", "IN", "DT", "NN", "PRP", "VBP", "VBN", "."]
     text: ' Let''s take a panoramic look back over the course we have come.'
@@ -951,7 +951,7 @@ EpYf:
     wn30_key: [[0, "let%2:41:00::"], [2, "take%2:31:03::"], [4, "panoramic%3:00:00:wide:00"], [5, "look%1:04:00::"], [6, "back%4:02:00::"], [9, "course%1:14:00::"], [12, "come%2:38:03::"]]
 lIk/:
     lemmas: ["have", "not", "that", "way", "be", "light", "always", "by", "the", "lamp", "of", "liberalism", "up", "until", "the", "turning", "back", "under", "person", "?"]
-    oewn2026_key: [[1, "oewn-00024432-r"], [3, "oewn-00416689-n"], [5, "oewn-00292635-v"], [6, "oewn-00019801-r"], [9, "oewn-03641539-n"], [11, "oewn-06228560-n"], [15, "oewn-00350856-n"], [16, "oewn-00075535-r"], [18, "oewn-00007846-n"]]
+    oewn_key: [[1, "oewn-00024432-r"], [3, "oewn-00416689-n"], [5, "oewn-00292635-v"], [6, "oewn-00019801-r"], [9, "oewn-03641539-n"], [11, "oewn-06228560-n"], [15, "oewn-00350856-n"], [16, "oewn-00075535-r"], [18, "oewn-00007846-n"]]
     paragraph: '24'
     pos: ["VBZ", "RB", "IN", "NN", "VBN", "VBN", "RB", "IN", "DT", "NN", "IN", "NN", "IN", "IN", "DT", "NN", "RB", "IN", "NNP", "."]
     text: ' Has not that way been lit always by the lamp of liberalism up until the turning
@@ -961,7 +961,7 @@ lIk/:
     wn30_key: [[1, "not%4:02:00::"], [3, "way%1:04:00::"], [5, "light%2:30:00::"], [6, "always%4:02:00::"], [9, "lamp%1:06:00::"], [11, "liberalism%1:09:00::"], [15, "turning%1:04:00::"], [16, "back%4:02:05::"], [18, "person%1:03:00::"]]
 a7o/:
     lemmas: ["And", "the", "basic", "character", "of_that", "liberalism", "have", "be", "spiritual", "rather", "than", "economic", "."]
-    oewn2026_key: [[2, "oewn-02302973-s"], [3, "oewn-04627573-n"], [5, "oewn-06228560-n"], [7, "oewn-02610777-v"], [8, "oewn-02589574-s"], [9, "oewn-00099264-r"], [11, "oewn-02727341-a"]]
+    oewn_key: [[2, "oewn-02302973-s"], [3, "oewn-04627573-n"], [5, "oewn-06228560-n"], [7, "oewn-02610777-v"], [8, "oewn-02589574-s"], [9, "oewn-00099264-r"], [11, "oewn-02727341-a"]]
     paragraph: '24'
     pos: ["CC", "DT", "JJ", "NN", "RB", "NN", "VBZ", "VBN", "JJ", "RB", "IN", "JJ", "."]
     text: ' And the basic character of_that liberalism has been spiritual rather than economic.'
@@ -970,7 +970,7 @@ a7o/:
     wn30_key: [[2, "basic%3:00:00:standard:01"], [3, "character%1:07:01::"], [5, "liberalism%1:09:00::"], [7, "be%2:42:03::"], [8, "spiritual%3:00:00:unworldly:00"], [9, "rather%4:02:02::"], [11, "economic%3:01:00::"]]
 PkwD:
     lemmas: ["person", "give", "it", "the", "name", "of", "protestant", "philosophy", "of", "progress", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-02321848-v"], [4, "oewn-06344646-n"], [6, "oewn-02963959-a"], [7, "oewn-05952149-n"], [9, "oewn-00250368-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-02321848-v"], [4, "oewn-06344646-n"], [6, "oewn-02963959-a"], [7, "oewn-05952149-n"], [9, "oewn-00250368-n"]]
     paragraph: '24'
     pos: ["NN", "VBD", "PRP", "DT", "NN", "IN", "JJ", "NN", "IN", "NNP", "."]
     text: ' Ralph_Gabriel gave it the name of Protestant philosophy of Progress.'
@@ -979,7 +979,7 @@ PkwD:
     wn30_key: [[0, "person%1:03:00::"], [1, "give%2:40:03::"], [4, "name%1:10:00::"], [6, "protestant%3:01:00::"], [7, "philosophy%1:09:01::"], [9, "progress%1:04:01::"]]
 KA/4:
     lemmas: ["But", "there", "be", "a", "subjective", "side", "to_that", "utopian", "outlook", "."]
-    oewn2026_key: [[2, "oewn-02610777-v"], [4, "oewn-01620077-a"], [5, "oewn-05861118-n"], [7, "oewn-03031707-a"], [8, "oewn-06205574-n"]]
+    oewn_key: [[2, "oewn-02610777-v"], [4, "oewn-01620077-a"], [5, "oewn-05861118-n"], [7, "oewn-03031707-a"], [8, "oewn-06205574-n"]]
     paragraph: '24'
     pos: ["CC", "EX", "VBZ", "DT", "JJ", "NN", "RB", "JJ", "NN", "."]
     text: ' But there''s a subjective side to_that utopian outlook.

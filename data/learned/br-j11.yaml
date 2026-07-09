@@ -3,7 +3,7 @@ _meta:
         type: seq
         base: tokens
         data: string
-    oewn2026_key:
+    oewn_key:
         type: element
         base: tokens
         data: string
@@ -28,7 +28,7 @@ _meta:
         data: string
 ue+v:
     lemmas: ["many", "other", "(", "probably", "nearly", "all", ")", "snake", "at", "maturity", "be", "already", "more_than", "half", "their", "final", "length", "."]
-    oewn2026_key: [[0, "oewn-01555990-a"], [1, "oewn-02076759-a"], [3, "oewn-00139421-r"], [4, "oewn-00073433-r"], [5, "oewn-02277044-a"], [7, "oewn-01729333-n"], [9, "oewn-15177777-n"], [10, "oewn-02610777-v"], [11, "oewn-00032194-r"], [13, "oewn-13758939-n"], [15, "oewn-01583536-s"], [16, "oewn-05136466-n"]]
+    oewn_key: [[0, "oewn-01555990-a"], [1, "oewn-02076759-a"], [3, "oewn-00139421-r"], [4, "oewn-00073433-r"], [5, "oewn-02277044-a"], [7, "oewn-01729333-n"], [9, "oewn-15177777-n"], [10, "oewn-02610777-v"], [11, "oewn-00032194-r"], [13, "oewn-13758939-n"], [15, "oewn-01583536-s"], [16, "oewn-05136466-n"]]
     paragraph: '0'
     pos: ["JJ", "JJ", "NN", "RB", "RB", "JJ", "CD", "NNS", "IN", "NN", "VBP", "RB", "RB", "NN", "PRP$", "JJ", "NN", "."]
     text: Many other (probably nearly all) snakes at maturity are already more_than half their
@@ -38,7 +38,7 @@ ue+v:
     wn30_key: [[0, "many%3:00:00::"], [1, "other%3:00:00::"], [3, "probably%4:02:00::"], [4, "nearly%4:02:00::"], [5, "all%3:00:00::"], [7, "snake%1:05:00::"], [9, "maturity%1:28:00::"], [10, "be%2:42:03::"], [11, "already%4:02:00::"], [13, "half%1:23:00::"], [15, "final%3:00:00:ultimate:00"], [16, "length%1:07:00::"]]
 t+b5:
     lemmas: ["person", "put", "length", "at", "maturity", "at", "two", "third", "the", "ultimate", "length", "for", "some", "rattlesnake", ",", "and", "person", "'s", "data", "on", "location", "garter_snake", "and", "ribbon_snake", "(", "thamnophis", ")", "show", "that", "the", "smallest", "gravid", "female", "be", "more_than", "half", "as", "long", "as", "the", "biggest", "adult", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-00675367-v"], [2, "oewn-05136466-n"], [4, "oewn-15177777-n"], [6, "oewn-02194109-s"], [7, "oewn-13759330-n"], [9, "oewn-01017558-s"], [10, "oewn-05136466-n"], [12, "oewn-02275064-a"], [13, "oewn-01757517-n"], [16, "oewn-00007846-n"], [18, "oewn-08479331-n"], [20, "oewn-00027365-n"], [21, "oewn-01737830-n"], [23, "oewn-01738218-n"], [25, "oewn-01737703-n"], [27, "oewn-01017253-v"], [31, "oewn-00174652-s"], [32, "oewn-01323363-n"], [33, "oewn-02610777-v"], [35, "oewn-00519479-s"], [37, "oewn-01436368-a"], [41, "oewn-01323947-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-00675367-v"], [2, "oewn-05136466-n"], [4, "oewn-15177777-n"], [6, "oewn-02194109-s"], [7, "oewn-13759330-n"], [9, "oewn-01017558-s"], [10, "oewn-05136466-n"], [12, "oewn-02275064-a"], [13, "oewn-01757517-n"], [16, "oewn-00007846-n"], [18, "oewn-08479331-n"], [20, "oewn-00027365-n"], [21, "oewn-01737830-n"], [23, "oewn-01738218-n"], [25, "oewn-01737703-n"], [27, "oewn-01017253-v"], [31, "oewn-00174652-s"], [32, "oewn-01323363-n"], [33, "oewn-02610777-v"], [35, "oewn-00519479-s"], [37, "oewn-01436368-a"], [41, "oewn-01323947-n"]]
     paragraph: '0'
     pos: ["NN", "VBD", "NN", "IN", "NN", "IN", "JJ", "NNS", "DT", "JJ", "NN", "IN", "JJ", "NNS", ",", "CC", "NN", "POS", "NNS", "IN", "NNP", "NN", "CC", "NN", "FW", "NN", "FW", "VBP", "IN", "DT", "JJ", "JJ", "NNS", "VBP", "RB", "JJ", "RB", "JJ", "RB", "DT", "JJ", "NNS", "."]
     text: ' Laurence_M_._Klauber put length at maturity at two thirds the ultimate length for
@@ -50,7 +50,7 @@ t+b5:
     wn30_key: [[0, "person%1:03:00::"], [1, "put%2:31:13::"], [2, "length%1:07:00::"], [4, "maturity%1:28:00::"], [6, "two%3:00:00:cardinal:00"], [7, "third%1:23:00::"], [9, "ultimate%3:00:00:last:00"], [10, "length%1:07:00::"], [12, "some%3:00:00::"], [13, "rattlesnake%1:05:00::"], [16, "person%1:03:00::"], [18, "data%1:14:00::"], [20, "location%1:03:00::"], [21, "garter_snake%1:05:00::"], [23, "ribbon_snake%1:05:00::"], [25, "thamnophis%1:05:00::"], [27, "show%2:32:00::"], [31, "gravid%3:00:00:pregnant:00"], [32, "female%1:05:00::"], [33, "be%2:42:03::"], [35, "half%3:00:00:fractional:00"], [37, "long%3:00:01::"], [41, "adult%1:05:00::"]]
 ae+H:
     lemmas: ["person", "state", "that", "\"", "when", "the", "snake", "reach", "its", "maturity", "it", "have", "already", "reach", "about", "its", "maximal", "length", "\"", ",", "but", "go_on", "to", "cite", "the", "reticulate", "python", "as", "an", "exception", ",", "with", "maximum", "length", "approximately", "three_times", "that", "at", "maturity", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-01011267-v"], [6, "oewn-01729333-n"], [7, "oewn-02010848-v"], [9, "oewn-15177777-n"], [12, "oewn-00032194-r"], [13, "oewn-02010848-v"], [16, "oewn-01498873-a"], [17, "oewn-05136466-n"], [21, "oewn-00783045-v"], [23, "oewn-01026199-v"], [25, "oewn-02013324-a"], [26, "oewn-01746246-n"], [29, "oewn-05829606-n"], [32, "oewn-01498873-a"], [33, "oewn-05136466-n"], [34, "oewn-00007414-r"], [35, "oewn-00478811-r"], [38, "oewn-15177777-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-01011267-v"], [6, "oewn-01729333-n"], [7, "oewn-02010848-v"], [9, "oewn-15177777-n"], [12, "oewn-00032194-r"], [13, "oewn-02010848-v"], [16, "oewn-01498873-a"], [17, "oewn-05136466-n"], [21, "oewn-00783045-v"], [23, "oewn-01026199-v"], [25, "oewn-02013324-a"], [26, "oewn-01746246-n"], [29, "oewn-05829606-n"], [32, "oewn-01498873-a"], [33, "oewn-05136466-n"], [34, "oewn-00007414-r"], [35, "oewn-00478811-r"], [38, "oewn-15177777-n"]]
     paragraph: '0'
     pos: ["NN", "VBZ", "IN", "``", "WRB", "DT", "NN", "VBZ", "PRP$", "NN", "PRP", "VBZ", "RB", "VBN", "IN", "PRP$", "JJ", "NN", "''", ",", "CC", "VB", "TO", "VB", "DT", "JJ", "NN", "IN", "DT", "NN", ",", "IN", "JJ", "NN", "RB", "RB", "IN", "IN", "NN", "."]
     text: ' Felix_Kopstein states that " when the snake reaches its maturity it has already
@@ -61,7 +61,7 @@ ae+H:
     wn30_key: [[0, "person%1:03:00::"], [1, "state%2:32:00::"], [6, "snake%1:05:00::"], [7, "reach%2:38:00::"], [9, "maturity%1:28:00::"], [12, "already%4:02:00::"], [13, "reach%2:38:00::"], [16, "maximal%3:00:00::"], [17, "length%1:07:00::"], [21, "go_on%2:32:00::"], [23, "cite%2:32:00::"], [25, "reticulate%3:00:00::"], [26, "python%1:05:00::"], [29, "exception%1:09:01::"], [32, "maximum%3:00:00::"], [33, "length%1:07:00::"], [34, "approximately%4:02:00::"], [35, "three_times%4:02:01::"], [38, "maturity%1:28:00::"]]
 Ad5v:
     lemmas: ["It", "be", "hard", "to", "understand", "how", "he", "conclude", "that", "most", "snake", "do", "not", "grow", "appreciably", "after", "attain", "maturity", ";", "he", "be", "work", "with", "species", "of", "location", ",", "so", "perhaps", "some", "tropical", "snake", "be", "unusual", "in", "this", "respect", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-00748528-a"], [4, "oewn-00592510-v"], [7, "oewn-00636134-v"], [9, "oewn-01561513-a"], [10, "oewn-01729333-n"], [12, "oewn-00024432-r"], [13, "oewn-00231983-v"], [14, "oewn-00007009-r"], [16, "oewn-02010848-v"], [17, "oewn-15177777-n"], [21, "oewn-02418610-v"], [23, "oewn-08127339-n"], [25, "oewn-00027365-n"], [28, "oewn-00301501-r"], [29, "oewn-01556991-s"], [30, "oewn-02452975-s"], [31, "oewn-01729333-n"], [32, "oewn-02610777-v"], [33, "oewn-00492026-a"], [36, "oewn-05828314-n"]]
+    oewn_key: [[1, "oewn-02610777-v"], [2, "oewn-00748528-a"], [4, "oewn-00592510-v"], [7, "oewn-00636134-v"], [9, "oewn-01561513-a"], [10, "oewn-01729333-n"], [12, "oewn-00024432-r"], [13, "oewn-00231983-v"], [14, "oewn-00007009-r"], [16, "oewn-02010848-v"], [17, "oewn-15177777-n"], [21, "oewn-02418610-v"], [23, "oewn-08127339-n"], [25, "oewn-00027365-n"], [28, "oewn-00301501-r"], [29, "oewn-01556991-s"], [30, "oewn-02452975-s"], [31, "oewn-01729333-n"], [32, "oewn-02610777-v"], [33, "oewn-00492026-a"], [36, "oewn-05828314-n"]]
     paragraph: '0'
     pos: ["PRP", "VBZ", "JJ", "TO", "VB", "WRB", "PRP", "VBD", "IN", "JJS", "NNS", "VBP", "RB", "VB", "RB", "IN", "VBG", "NN", ":", "PRP", "VBD", "VBG", "IN", "NNS", "IN", "NNP", ",", "RB", "RB", "JJ", "JJ", "NNS", "VBP", "JJ", "RB", "RB", "NN", "."]
     text: ' It is hard to understand how he concluded that most snakes do not grow appreciably
@@ -72,7 +72,7 @@ Ad5v:
     wn30_key: [[1, "be%2:42:03::"], [2, "hard%3:00:06::"], [4, "understand%2:31:01::"], [7, "conclude%2:31:00::"], [9, "most%3:00:02::"], [10, "snake%1:05:00::"], [12, "not%4:02:00::"], [13, "grow%2:30:02::"], [14, "appreciably%4:02:01::"], [16, "attain%2:38:00::"], [17, "maturity%1:28:00::"], [21, "work%2:41:02::"], [23, "species%1:14:00::"], [25, "location%1:03:00::"], [28, "perhaps%4:02:00::"], [29, "some%3:00:00:many:00"], [30, "tropical%3:00:00:equatorial:00"], [31, "snake%1:05:00::"], [32, "be%2:42:03::"], [33, "unusual%3:00:00::"], [36, "respect%1:09:00::"]]
 04Lq:
     lemmas: ["certain", "individual", "giant", "record", "later", "do", "fail", "to", "show", "a", "reasonable", "difference", "after", "maturity", ",", "but", "it", "be", "impossible", "to", "know", "whether", "this", "be_due", "to", "captive", "condition", "."]
-    oewn2026_key: [[0, "oewn-00704329-s"], [1, "oewn-00495505-a"], [2, "oewn-01326422-n"], [3, "oewn-01002259-v"], [4, "oewn-00061741-r"], [6, "oewn-02534950-v"], [8, "oewn-02153218-v"], [10, "oewn-01536380-s"], [11, "oewn-04756076-n"], [13, "oewn-15177777-n"], [17, "oewn-02610777-v"], [18, "oewn-01828578-a"], [20, "oewn-00596016-v"], [23, "oewn-02640648-v"], [25, "oewn-01068815-s"], [26, "oewn-13943868-n"]]
+    oewn_key: [[0, "oewn-00704329-s"], [1, "oewn-00495505-a"], [2, "oewn-01326422-n"], [3, "oewn-01002259-v"], [4, "oewn-00061741-r"], [6, "oewn-02534950-v"], [8, "oewn-02153218-v"], [10, "oewn-01536380-s"], [11, "oewn-04756076-n"], [13, "oewn-15177777-n"], [17, "oewn-02610777-v"], [18, "oewn-01828578-a"], [20, "oewn-00596016-v"], [23, "oewn-02640648-v"], [25, "oewn-01068815-s"], [26, "oewn-13943868-n"]]
     paragraph: '0'
     pos: ["JJ", "JJ", "NNS", "VBN", "RB", "VBD", "VB", "TO", "VB", "DT", "JJ", "NN", "IN", "NN", ",", "CC", "PRP", "VBZ", "JJ", "TO", "VB", "IN", "DT", "VB", "VB", "JJ", "NNS", "."]
     text: ' Certain individual giants recorded later did fail to show a reasonable difference
@@ -82,7 +82,7 @@ Ad5v:
     wn30_key: [[0, "certain%3:00:00:definite:00"], [1, "individual%3:00:00::"], [2, "giant%1:05:00::"], [3, "record%2:32:00::"], [4, "later%4:02:01::"], [6, "fail%2:41:02::"], [8, "show%2:39:02::"], [10, "reasonable%3:00:00:moderate:00"], [11, "difference%1:07:00::"], [13, "maturity%1:28:00::"], [17, "be%2:42:03::"], [18, "impossible%3:00:00::"], [20, "know%2:31:01::"], [23, "be_due%2:42:00::"], [25, "captive%3:00:00:unfree:00"], [26, "condition%1:26:00::"]]
 061R:
     lemmas: ["additional", "record", "of", "slow", "growth", "have", "be", "omit", "."]
-    oewn2026_key: [[0, "oewn-00049078-s"], [1, "oewn-06659969-n"], [3, "oewn-00983718-a"], [4, "oewn-13510240-n"], [7, "oewn-00617464-v"]]
+    oewn_key: [[0, "oewn-00049078-s"], [1, "oewn-06659969-n"], [3, "oewn-00983718-a"], [4, "oewn-13510240-n"], [7, "oewn-00617464-v"]]
     paragraph: '0'
     pos: ["JJ", "NNS", "IN", "JJ", "NN", "VBP", "VBN", "VBN", "."]
     text: ' Additional records of slow growth have been omitted.
@@ -93,7 +93,7 @@ Ad5v:
     wn30_key: [[0, "additional%3:00:03:additive:00"], [1, "record%1:10:03::"], [3, "slow%3:00:01::"], [4, "growth%1:22:00::"], [7, "omit%2:31:01::"]]
 7xF9:
     lemmas: ["It", "be", "possible", "to", "make", "a_few", "generalization", "about", "the", "six", "giant", "themselves", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-01826770-a"], [4, "oewn-00732743-v"], [5, "oewn-01557697-s"], [6, "oewn-05782412-n"], [9, "oewn-02194472-s"], [10, "oewn-01326422-n"]]
+    oewn_key: [[1, "oewn-02610777-v"], [2, "oewn-01826770-a"], [4, "oewn-00732743-v"], [5, "oewn-01557697-s"], [6, "oewn-05782412-n"], [9, "oewn-02194472-s"], [10, "oewn-01326422-n"]]
     paragraph: '1'
     pos: ["PRP", "VBZ", "JJ", "TO", "VB", "JJ", "NNS", "IN", "DT", "JJ", "NNS", "PRP", "."]
     text: ' It is possible to make a_few generalizations about the six giants themselves.'
@@ -102,7 +102,7 @@ Ad5v:
     wn30_key: [[1, "be%2:42:03::"], [2, "possible%3:00:00::"], [4, "make%2:31:00::"], [5, "a_few%3:00:00:few:00"], [6, "generalization%1:09:01::"], [9, "six%3:00:00:cardinal:00"], [10, "giant%1:05:00::"]]
 cp+w:
     lemmas: ["There", "seem", "to", "be", "a", "rough", "correlation", "between", "the", "initial", "and", "ultimate", "length", ",", "start", "with", "the", "smallest", "(", "boa_constrictor", ")", "and", "end", "with", "the", "largest", "(", "anaconda", ")", "."]
-    oewn2026_key: [[1, "oewn-02137900-v"], [5, "oewn-00919090-s"], [6, "oewn-13863850-n"], [9, "oewn-01015570-s"], [11, "oewn-01017558-s"], [12, "oewn-05136466-n"], [14, "oewn-01654152-v"], [19, "oewn-01744813-n"], [22, "oewn-02615799-v"], [27, "oewn-01745727-n"]]
+    oewn_key: [[1, "oewn-02137900-v"], [5, "oewn-00919090-s"], [6, "oewn-13863850-n"], [9, "oewn-01015570-s"], [11, "oewn-01017558-s"], [12, "oewn-05136466-n"], [14, "oewn-01654152-v"], [19, "oewn-01744813-n"], [22, "oewn-02615799-v"], [27, "oewn-01745727-n"]]
     paragraph: '1'
     pos: ["EX", "VBZ", "TO", "VB", "DT", "JJ", "NN", "IN", "DT", "JJ", "CC", "JJ", "NNS", ",", "VBG", "IN", "DT", "JJ", "FW", "NN", "FW", "CC", "VBG", "IN", "DT", "JJ", "FW", "NN", "NN", "."]
     text: ' There seems to be a rough correlation between the initial and ultimate lengths,
@@ -112,7 +112,7 @@ cp+w:
     wn30_key: [[1, "seem%2:39:00::"], [5, "rough%3:00:00:inexact:00"], [6, "correlation%1:24:00::"], [9, "initial%3:00:00:first:00"], [11, "ultimate%3:00:00:last:00"], [12, "length%1:07:00::"], [14, "start%2:36:01::"], [19, "boa_constrictor%1:05:00::"], [22, "end%2:42:00::"], [27, "anaconda%1:05:00::"]]
 AxSR:
     lemmas: ["data", "on", "the", "former", "be", "scanty", ",", "but", "there", "can", "be", "little", "doubt", "that", "the", "latter", "be_born", "sometimes", "be_born", "at", "a", "length", "greater", "than", "that", "of", "any", "of", "the", "other", ",", "thereby", "lend", "support", "to", "the", "belief", "that", "the", "anaconda", "do", ",", "indeed", ",", "attain", "the", "greatest", "length", "."]
-    oewn2026_key: [[0, "oewn-08479331-n"], [3, "oewn-01051000-a"], [4, "oewn-02610777-v"], [5, "oewn-00107633-s"], [10, "oewn-02609706-v"], [11, "oewn-01558903-a"], [12, "oewn-05706212-n"], [15, "oewn-01051260-a"], [16, "oewn-00361585-v"], [17, "oewn-00022332-r"], [18, "oewn-00361585-v"], [21, "oewn-05136466-n"], [22, "oewn-01398335-a"], [31, "oewn-00121886-r"], [32, "oewn-02329474-v"], [33, "oewn-05701884-n"], [36, "oewn-05950141-n"], [39, "oewn-01745727-n"], [42, "oewn-00038035-r"], [44, "oewn-02010848-v"], [46, "oewn-02351683-s"], [47, "oewn-05136466-n"]]
+    oewn_key: [[0, "oewn-08479331-n"], [3, "oewn-01051000-a"], [4, "oewn-02610777-v"], [5, "oewn-00107633-s"], [10, "oewn-02609706-v"], [11, "oewn-01558903-a"], [12, "oewn-05706212-n"], [15, "oewn-01051260-a"], [16, "oewn-00361585-v"], [17, "oewn-00022332-r"], [18, "oewn-00361585-v"], [21, "oewn-05136466-n"], [22, "oewn-01398335-a"], [31, "oewn-00121886-r"], [32, "oewn-02329474-v"], [33, "oewn-05701884-n"], [36, "oewn-05950141-n"], [39, "oewn-01745727-n"], [42, "oewn-00038035-r"], [44, "oewn-02010848-v"], [46, "oewn-02351683-s"], [47, "oewn-05136466-n"]]
     paragraph: '1'
     pos: ["NNS", "IN", "DT", "JJ", "VBP", "JJ", ",", "CC", "EX", "MD", "VB", "JJ", "NN", "IN", "DT", "JJ", "VBZ", "RB", "VBN", "IN", "DT", "NN", "JJR", "IN", "IN", "IN", "DT", "IN", "DT", "NNS", ",", "RB", "VBG", "NN", "VB", "DT", "NN", "IN", "DT", "NN", "VBZ", ",", "RB", ",", "VB", "DT", "JJS", "NN", "."]
     text: ' Data on the former are scanty, but there can be little doubt that the latter is
@@ -123,7 +123,7 @@ AxSR:
     wn30_key: [[0, "data%1:14:00::"], [3, "former%3:00:00::"], [4, "be%2:42:03::"], [5, "scanty%3:00:00:meager:00"], [10, "be%2:42:00::"], [11, "little%3:00:03::"], [12, "doubt%1:09:00::"], [15, "latter%3:00:00::"], [16, "be_born%2:30:00::"], [17, "sometimes%4:02:01::"], [18, "be_born%2:30:00::"], [21, "length%1:07:00::"], [22, "greater%3:00:00::"], [31, "thereby%4:02:00::"], [32, "lend%2:40:01::"], [33, "support%1:09:00::"], [36, "belief%1:09:00::"], [39, "anaconda%1:05:00::"], [42, "indeed%4:02:03::"], [44, "attain%2:38:00::"], [46, "greatest%3:00:00:superior:02"], [47, "length%1:07:00::"]]
 VyFJ:
     lemmas: ["For", "four", "of", "the", "six", "(", "the", "anaconda", "and", "the", "amethystine_python", "cannot", "be", "include", "for", "lack", "of", "data", ")", "there", "be", "also", "a", "correlation", "between", "size", "at", "maturity", "and", "maximum", "length", ",", "the", "boa_constrictor", "be", "the", "smallest", "and", "the", "indian_python", "the", "next", "in", "size", "at", "the", "former", "stage", "."]
-    oewn2026_key: [[1, "oewn-02194304-s"], [4, "oewn-02194472-s"], [7, "oewn-01745727-n"], [10, "oewn-01747196-n"], [13, "oewn-02454712-v"], [15, "oewn-14472871-n"], [17, "oewn-08479331-n"], [20, "oewn-02609706-v"], [21, "oewn-00048072-r"], [23, "oewn-13863850-n"], [25, "oewn-05106204-n"], [27, "oewn-15177777-n"], [29, "oewn-01498873-a"], [30, "oewn-05136466-n"], [33, "oewn-01744813-n"], [34, "oewn-02610777-v"], [39, "oewn-01746911-n"], [41, "oewn-00128838-s"], [43, "oewn-05106204-n"], [46, "oewn-01051000-a"], [47, "oewn-15315573-n"]]
+    oewn_key: [[1, "oewn-02194304-s"], [4, "oewn-02194472-s"], [7, "oewn-01745727-n"], [10, "oewn-01747196-n"], [13, "oewn-02454712-v"], [15, "oewn-14472871-n"], [17, "oewn-08479331-n"], [20, "oewn-02609706-v"], [21, "oewn-00048072-r"], [23, "oewn-13863850-n"], [25, "oewn-05106204-n"], [27, "oewn-15177777-n"], [29, "oewn-01498873-a"], [30, "oewn-05136466-n"], [33, "oewn-01744813-n"], [34, "oewn-02610777-v"], [39, "oewn-01746911-n"], [41, "oewn-00128838-s"], [43, "oewn-05106204-n"], [46, "oewn-01051000-a"], [47, "oewn-15315573-n"]]
     paragraph: '1'
     pos: ["IN", "JJ", "IN", "DT", "JJ", "CD", "DT", "NN", "CC", "DT", "NN", "MD", "VB", "VBN", "IN", "NN", "IN", "NNS", "VBP", "EX", "VBZ", "RB", "DT", "NN", "IN", "NN", "IN", "NN", "CC", "JJ", "NN", ",", "DT", "NN", "VBG", "DT", "JJ", "CC", "DT", "NN", "DT", "JJ", "IN", "NN", "IN", "DT", "JJ", "NN", "."]
     text: ' For four of the six (the anaconda and the amethystine_python cannot be included
@@ -137,7 +137,7 @@ VyFJ:
     wn30_key: [[1, "four%3:00:00:cardinal:00"], [4, "six%3:00:00:cardinal:00"], [7, "anaconda%1:05:00::"], [10, "amethystine_python%1:05:00::"], [13, "include%2:41:03::"], [15, "lack%1:26:00::"], [17, "data%1:14:00::"], [20, "be%2:42:00::"], [21, "also%4:02:00::"], [23, "correlation%1:24:00::"], [25, "size%1:07:00::"], [27, "maturity%1:28:00::"], [29, "maximum%3:00:00::"], [30, "length%1:07:00::"], [33, "boa_constrictor%1:05:00::"], [34, "be%2:42:03::"], [39, "indian_python%1:05:00::"], [41, "next%3:00:00:succeeding:00"], [43, "size%1:07:00::"], [46, "former%3:00:00::"], [47, "stage%1:28:00::"]]
 B8ej:
     lemmas: ["let", "us", "speculate", "a_little", "on", "the", "maximum", "size", "of", "the", "anaconda", "."]
-    oewn2026_key: [[0, "oewn-02427979-v"], [2, "oewn-00929020-v"], [3, "oewn-00034050-r"], [6, "oewn-01498873-a"], [7, "oewn-05106204-n"], [10, "oewn-01745727-n"]]
+    oewn_key: [[0, "oewn-02427979-v"], [2, "oewn-00929020-v"], [3, "oewn-00034050-r"], [6, "oewn-01498873-a"], [7, "oewn-05106204-n"], [10, "oewn-01745727-n"]]
     paragraph: '2'
     pos: ["VB", "PRP", "VB", "RB", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "."]
     text: ' Let us speculate a_little on the maximum size of the anaconda.'
@@ -146,7 +146,7 @@ B8ej:
     wn30_key: [[0, "let%2:41:00::"], [2, "speculate%2:32:00::"], [3, "a_little%4:02:00::"], [6, "maximum%3:00:00::"], [7, "size%1:07:00::"], [10, "anaconda%1:05:00::"]]
 ybXK:
     lemmas: ["If", ",", "in", "a", "certain", "part", "of", "the", "range", ",", "it", "start", "life", "1", "foot", "long", "than", "do", "any", "of", "the", "other", "(", "relatively", "large", ")", "giant", ",", "and", "reach", "maturity", "at", ",", "let", "us", "guess", ",", "18", "inch", "long", "than", "the", "other", ",", "a", "quadrupling", "of", "the", "maturity", "length", "would", "result", "in", "a", "maximum", "of", "(", "nearly", ")", "40", "foot", "."]
-    oewn2026_key: [[4, "oewn-00704329-s"], [5, "oewn-13831419-n"], [8, "oewn-05132642-n"], [11, "oewn-01654152-v"], [12, "oewn-15165365-n"], [13, "oewn-02193977-s"], [14, "oewn-13671663-n"], [15, "oewn-01436368-a"], [21, "oewn-02076759-a"], [23, "oewn-00162033-r"], [24, "oewn-01385012-a"], [26, "oewn-01326422-n"], [29, "oewn-02010848-v"], [30, "oewn-15177777-n"], [33, "oewn-02427979-v"], [35, "oewn-00674352-v"], [37, "oewn-02195747-s"], [38, "oewn-13671409-n"], [39, "oewn-01436368-a"], [45, "oewn-13565636-n"], [48, "oewn-15177777-n"], [49, "oewn-05136466-n"], [51, "oewn-02641740-v"], [54, "oewn-13798337-n"], [57, "oewn-00073433-r"], [59, "oewn-02197917-s"], [60, "oewn-13671663-n"]]
+    oewn_key: [[4, "oewn-00704329-s"], [5, "oewn-13831419-n"], [8, "oewn-05132642-n"], [11, "oewn-01654152-v"], [12, "oewn-15165365-n"], [13, "oewn-02193977-s"], [14, "oewn-13671663-n"], [15, "oewn-01436368-a"], [21, "oewn-02076759-a"], [23, "oewn-00162033-r"], [24, "oewn-01385012-a"], [26, "oewn-01326422-n"], [29, "oewn-02010848-v"], [30, "oewn-15177777-n"], [33, "oewn-02427979-v"], [35, "oewn-00674352-v"], [37, "oewn-02195747-s"], [38, "oewn-13671409-n"], [39, "oewn-01436368-a"], [45, "oewn-13565636-n"], [48, "oewn-15177777-n"], [49, "oewn-05136466-n"], [51, "oewn-02641740-v"], [54, "oewn-13798337-n"], [57, "oewn-00073433-r"], [59, "oewn-02197917-s"], [60, "oewn-13671663-n"]]
     paragraph: '2'
     pos: ["IN", ",", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", ",", "PRP", "VBZ", "NN", "JJ", "NN", "JJR", "IN", "VBP", "DT", "IN", "DT", "JJ", "NN", "RB", "JJ", "NN", "NNS", ",", "CC", "VBZ", "NN", "RB", ",", "VB", "PRP", "VB", ",", "JJ", "NNS", "JJ", "IN", "DT", "NNS", ",", "DT", "NN", "IN", "DT", "NN", "NN", "MD", "VB", "VB", "DT", "NN", "IN", "NN", "RB", "CD", "JJ", "NNS", "."]
     text: ' If, in a certain part of the range, it starts life 1 foot longer than do any of
@@ -160,7 +160,7 @@ ybXK:
     wn30_key: [[4, "certain%3:00:00:definite:00"], [5, "part%1:24:00::"], [8, "range%1:07:00::"], [11, "start%2:36:01::"], [12, "life%1:28:00::"], [13, "1%3:00:00:cardinal:00"], [14, "foot%1:23:00::"], [15, "long%3:00:01::"], [21, "other%3:00:00::"], [23, "relatively%4:02:00::"], [24, "large%3:00:00::"], [26, "giant%1:05:00::"], [29, "reach%2:38:00::"], [30, "maturity%1:28:00::"], [33, "let%2:41:00::"], [35, "guess%2:31:01::"], [37, "18%3:00:00:cardinal:00"], [38, "inch%1:23:00::"], [39, "long%3:00:01::"], [45, "quadrupling%1:22:00::"], [48, "maturity%1:28:00::"], [49, "length%1:07:00::"], [51, "result%2:42:02::"], [54, "maximum%1:23:00::"], [57, "nearly%4:02:00::"], [59, "40%3:00:00:cardinal:00"], [60, "foot%1:23:00::"]]
 QkrO:
     lemmas: ["When", "it", "come_to", "rate", "of", "early", "growth", ",", "the", "indian_python", "lead", "with", "a", "figure", "of", "about", "3", "foot", "6", "inch", "per_year", "for", "the", "first", "two", "year", ",", "more_or_less", "."]
-    oewn2026_key: [[2, "oewn-02681865-v"], [3, "oewn-15311467-n"], [5, "oewn-00820993-a"], [6, "oewn-13510240-n"], [9, "oewn-01746911-n"], [10, "oewn-02003455-v"], [13, "oewn-13763162-n"], [16, "oewn-02194219-s"], [17, "oewn-13671663-n"], [18, "oewn-02194472-s"], [19, "oewn-13671409-n"], [20, "oewn-00252039-r"], [23, "oewn-01014459-a"], [24, "oewn-02194109-s"], [25, "oewn-15228587-n"], [27, "oewn-00007414-r"]]
+    oewn_key: [[2, "oewn-02681865-v"], [3, "oewn-15311467-n"], [5, "oewn-00820993-a"], [6, "oewn-13510240-n"], [9, "oewn-01746911-n"], [10, "oewn-02003455-v"], [13, "oewn-13763162-n"], [16, "oewn-02194219-s"], [17, "oewn-13671663-n"], [18, "oewn-02194472-s"], [19, "oewn-13671409-n"], [20, "oewn-00252039-r"], [23, "oewn-01014459-a"], [24, "oewn-02194109-s"], [25, "oewn-15228587-n"], [27, "oewn-00007414-r"]]
     paragraph: '3'
     pos: ["WRB", "PRP", "VB", "NN", "IN", "JJ", "NN", ",", "DT", "NN", "VBZ", "IN", "DT", "NN", "IN", "IN", "JJ", "NNS", "JJ", "NNS", "RB", "IN", "DT", "JJ", "JJ", "NNS", ",", "RB", "."]
     text: ' When it comes_to rate of early growth, the Indian_python leads with a figure of
@@ -170,7 +170,7 @@ QkrO:
     wn30_key: [[2, "come_to%2:42:03::"], [3, "rate%1:28:00::"], [5, "early%3:00:02::"], [6, "growth%1:22:00::"], [9, "indian_python%1:05:00::"], [10, "lead%2:38:00::"], [13, "figure%1:23:00::"], [16, "3%3:00:00:cardinal:00"], [17, "foot%1:23:00::"], [18, "6%3:00:00:cardinal:00"], [19, "inch%1:23:00::"], [20, "per_year%4:02:00::"], [23, "first%3:00:00::"], [24, "two%3:00:00:cardinal:00"], [25, "year%1:28:01::"], [27, "more_or_less%4:02:00::"]]
 dNik:
     lemmas: ["The", "african", "rock_python", ",", "a", "close", "second", ",", "be", "follow", "in_turn", "by", "the", "reticulate", "python", "."]
-    oewn2026_key: [[1, "oewn-02953127-a"], [2, "oewn-01747042-n"], [5, "oewn-00448955-a"], [6, "oewn-02209815-s"], [9, "oewn-02726419-v"], [10, "oewn-00181906-r"], [13, "oewn-02013324-a"], [14, "oewn-01746246-n"]]
+    oewn_key: [[1, "oewn-02953127-a"], [2, "oewn-01747042-n"], [5, "oewn-00448955-a"], [6, "oewn-02209815-s"], [9, "oewn-02726419-v"], [10, "oewn-00181906-r"], [13, "oewn-02013324-a"], [14, "oewn-01746246-n"]]
     paragraph: '3'
     pos: ["DT", "JJ", "NN", ",", "DT", "JJ", "JJ", ",", "VBZ", "VBN", "RB", "IN", "DT", "JJ", "NN", "."]
     text: ' The African rock_python, a close second, is followed in_turn by the reticulate python.'
@@ -179,7 +179,7 @@ dNik:
     wn30_key: [[1, "african%3:01:00::"], [2, "rock_python%1:05:00::"], [5, "close%3:00:01::"], [6, "second%3:00:00:ordinal:00"], [9, "follow%2:42:02::"], [10, "in_turn%4:02:00::"], [13, "reticulate%3:00:00::"], [14, "python%1:05:00::"]]
 YOP3:
     lemmas: ["There", "be", "few", "data", "on", "the", "boa_constrictor", ",", "those", "for", "the", "anaconda", "be", "unconvincing", ",", "and", "there", "be", "nothing", "at_all", "on", "the", "amethystine_python", "."]
-    oewn2026_key: [[1, "oewn-02609706-v"], [2, "oewn-01557242-a"], [3, "oewn-08479331-n"], [6, "oewn-01744813-n"], [11, "oewn-01745727-n"], [12, "oewn-02610777-v"], [13, "oewn-00618080-a"], [17, "oewn-02609706-v"], [18, "oewn-13762308-n"], [19, "oewn-00057267-r"], [22, "oewn-01747196-n"]]
+    oewn_key: [[1, "oewn-02609706-v"], [2, "oewn-01557242-a"], [3, "oewn-08479331-n"], [6, "oewn-01744813-n"], [11, "oewn-01745727-n"], [12, "oewn-02610777-v"], [13, "oewn-00618080-a"], [17, "oewn-02609706-v"], [18, "oewn-13762308-n"], [19, "oewn-00057267-r"], [22, "oewn-01747196-n"]]
     paragraph: '3'
     pos: ["EX", "VBP", "JJ", "NNS", "IN", "DT", "NN", ",", "DT", "IN", "DT", "NN", "VBP", "JJ", ",", "CC", "EX", "VBZ", "NN", "RB", "IN", "DT", "NN", "."]
     text: ' There are few data on the boa_constrictor, those for the anaconda are unconvincing,
@@ -189,7 +189,7 @@ YOP3:
     wn30_key: [[1, "be%2:42:00::"], [2, "few%3:00:00::"], [3, "data%1:14:00::"], [6, "boa_constrictor%1:05:00::"], [11, "anaconda%1:05:00::"], [12, "be%2:42:03::"], [13, "unconvincing%3:00:00::"], [17, "be%2:42:00::"], [18, "nothing%1:23:00::"], [19, "at_all%4:02:00::"], [22, "amethystine_python%1:05:00::"]]
 wrtS:
     lemmas: ["It", "seem", "likely", "that", "the", "indian_python", "come_out", "ahead", "because", "record", "of", "its", "growth", "have", "be", "make", "more", "carefully", "and", "frequently", ";", "it", "respond", "exceptionally", "well", "to", "captivity", "and", "do", "not", "reach", "proportion", "that", "make", "it", "hard", "to", "keep", "."]
-    oewn2026_key: [[1, "oewn-02137900-v"], [2, "oewn-01414308-a"], [5, "oewn-01746911-n"], [6, "oewn-00661447-v"], [7, "oewn-00067181-r"], [9, "oewn-06659969-n"], [12, "oewn-13510240-n"], [15, "oewn-01620211-v"], [16, "oewn-00099891-r"], [17, "oewn-00154701-r"], [19, "oewn-00035445-r"], [22, "oewn-00719282-v"], [23, "oewn-00180279-r"], [24, "oewn-00011555-r"], [26, "oewn-14022691-n"], [29, "oewn-00024432-r"], [30, "oewn-02010848-v"], [31, "oewn-13837954-n"], [33, "oewn-00120124-v"], [35, "oewn-00748528-a"], [37, "oewn-02207710-v"]]
+    oewn_key: [[1, "oewn-02137900-v"], [2, "oewn-01414308-a"], [5, "oewn-01746911-n"], [6, "oewn-00661447-v"], [7, "oewn-00067181-r"], [9, "oewn-06659969-n"], [12, "oewn-13510240-n"], [15, "oewn-01620211-v"], [16, "oewn-00099891-r"], [17, "oewn-00154701-r"], [19, "oewn-00035445-r"], [22, "oewn-00719282-v"], [23, "oewn-00180279-r"], [24, "oewn-00011555-r"], [26, "oewn-14022691-n"], [29, "oewn-00024432-r"], [30, "oewn-02010848-v"], [31, "oewn-13837954-n"], [33, "oewn-00120124-v"], [35, "oewn-00748528-a"], [37, "oewn-02207710-v"]]
     paragraph: '3'
     pos: ["PRP", "VBZ", "JJ", "IN", "DT", "NN", "VB", "RB", "IN", "NNS", "IN", "PRP$", "NN", "VBP", "VBN", "VBN", "RBR", "RB", "CC", "RB", ":", "PRP", "VBZ", "RB", "RB", "TO", "NN", "CC", "VBZ", "RB", "VB", "NNS", "IN", "VBP", "VB", "JJ", "TO", "VB", "."]
     text: ' It seems likely that the Indian_python comes_out ahead because records of its growth
@@ -202,7 +202,7 @@ wrtS:
     wn30_key: [[1, "seem%2:39:00::"], [2, "likely%3:00:00::"], [5, "indian_python%1:05:00::"], [6, "come_out%2:31:00::"], [7, "ahead%4:02:00::"], [9, "record%1:10:03::"], [12, "growth%1:22:00::"], [15, "make%2:36:00::"], [16, "more%4:02:00::"], [17, "carefully%4:02:00::"], [19, "frequently%4:02:00::"], [22, "respond%2:31:00::"], [23, "exceptionally%4:02:00::"], [24, "well%4:02:00::"], [26, "captivity%1:26:02::"], [29, "not%4:02:00::"], [30, "reach%2:38:00::"], [31, "proportion%1:24:00::"], [33, "make%2:30:00::"], [35, "hard%3:00:06::"], [37, "keep%2:40:01::"]]
 9ib5:
     lemmas: ["I", "cannot", "make", "sense", "out", "of", "the", "figure", "for", "post", "maturity", "growth", ";", "at_best", "the", "annual", "increase", "appear", "to", "be", "a", "matter", "of", "inch", "rather_than", "foot", "."]
-    oewn2026_key: [[2, "oewn-00732743-v"], [7, "oewn-13763162-n"], [10, "oewn-15177777-n"], [11, "oewn-13510240-n"], [13, "oewn-00106462-r"], [15, "oewn-01976215-s"], [16, "oewn-05116247-n"], [17, "oewn-02137900-v"], [19, "oewn-02622439-v"], [21, "oewn-05679169-n"], [23, "oewn-13671409-n"], [25, "oewn-13671663-n"]]
+    oewn_key: [[2, "oewn-00732743-v"], [7, "oewn-13763162-n"], [10, "oewn-15177777-n"], [11, "oewn-13510240-n"], [13, "oewn-00106462-r"], [15, "oewn-01976215-s"], [16, "oewn-05116247-n"], [17, "oewn-02137900-v"], [19, "oewn-02622439-v"], [21, "oewn-05679169-n"], [23, "oewn-13671409-n"], [25, "oewn-13671663-n"]]
     paragraph: '4'
     pos: ["PRP", "MD", "VBP", "NN", "IN", "IN", "DT", "NNS", "IN", "JJ", "NN", "NN", ":", "RB", "DT", "JJ", "NN", "VBZ", "TO", "VB", "DT", "NN", "IN", "NNS", "RB", "NNS", "."]
     text: ' I cannot make sense out of the figures for post maturity growth; at_best the annual
@@ -212,7 +212,7 @@ wrtS:
     wn30_key: [[2, "make%2:31:00::"], [7, "figure%1:23:00::"], [10, "maturity%1:28:00::"], [11, "growth%1:22:00::"], [13, "at_best%4:02:00::"], [15, "annual%3:00:00:periodic:00"], [16, "increase%1:07:00::"], [17, "appear%2:39:00::"], [19, "be%2:42:06::"], [21, "matter%1:09:01::"], [23, "inch%1:23:00::"], [25, "foot%1:23:00::"]]
 ta6b:
     lemmas: ["Until", "better", "record", "have", "be", "keep", "over", "long", "period_of_time", "and", "much", "more", "be", "know", "about", "the", "maximum", "dimension", ",", "it", "will", "be", "wise", "to", "refrain_from", "draw", "conclusion", "."]
-    oewn2026_key: [[1, "oewn-00233353-a"], [2, "oewn-06659969-n"], [5, "oewn-00734575-v"], [7, "oewn-01440837-a"], [8, "oewn-15137796-n"], [10, "oewn-00059624-r"], [11, "oewn-11210173-n"], [13, "oewn-00596016-v"], [16, "oewn-01498873-a"], [17, "oewn-05100843-n"], [21, "oewn-02610777-v"], [22, "oewn-02579686-a"], [25, "oewn-00732743-v"], [26, "oewn-05846685-n"]]
+    oewn_key: [[1, "oewn-00233353-a"], [2, "oewn-06659969-n"], [5, "oewn-00734575-v"], [7, "oewn-01440837-a"], [8, "oewn-15137796-n"], [10, "oewn-00059624-r"], [11, "oewn-11210173-n"], [13, "oewn-00596016-v"], [16, "oewn-01498873-a"], [17, "oewn-05100843-n"], [21, "oewn-02610777-v"], [22, "oewn-02579686-a"], [25, "oewn-00732743-v"], [26, "oewn-05846685-n"]]
     paragraph: '4'
     pos: ["IN", "JJR", "NNS", "VBP", "VBN", "VBN", "IN", "JJR", "NN", "CC", "RB", "NN", "VBZ", "VBN", "IN", "DT", "JJ", "NNS", ",", "PRP", "MD", "VB", "JJ", "JJ", "VB", "VB", "NNS", "."]
     text: ' Until better records have been kept over longer periods_of_time and much more is
@@ -224,7 +224,7 @@ ta6b:
     wn30_key: [[1, "better%3:00:02::"], [2, "record%1:10:03::"], [5, "keep%2:31:00::"], [7, "long%3:00:02::"], [8, "period_of_time%1:28:00::"], [10, "much%4:02:00::"], [11, "more%1:18:00::"], [13, "know%2:31:01::"], [16, "maximum%3:00:00::"], [17, "dimension%1:07:00::"], [21, "be%2:42:03::"], [22, "wise%3:00:00::"], [25, "draw%2:31:00::"], [26, "conclusion%1:09:00::"]]
 vJll:
     lemmas: ["It", "be", "often", "state", "that", "the", "largest", "snake", "require", "five", "year", "to", "attain", "maturity", ",", "but", "this", "apparently", "be", "an", "overestimation", "."]
-    oewn2026_key: [[2, "oewn-00035445-r"], [3, "oewn-00879667-v"], [7, "oewn-01729333-n"], [8, "oewn-02634015-v"], [9, "oewn-02194389-s"], [10, "oewn-15228587-n"], [12, "oewn-02010848-v"], [13, "oewn-15177777-n"], [17, "oewn-00040353-r"], [18, "oewn-02610777-v"], [20, "oewn-06540983-n"]]
+    oewn_key: [[2, "oewn-00035445-r"], [3, "oewn-00879667-v"], [7, "oewn-01729333-n"], [8, "oewn-02634015-v"], [9, "oewn-02194389-s"], [10, "oewn-15228587-n"], [12, "oewn-02010848-v"], [13, "oewn-15177777-n"], [17, "oewn-00040353-r"], [18, "oewn-02610777-v"], [20, "oewn-06540983-n"]]
     paragraph: '5'
     pos: ["PRP", "VBZ", "RB", "VBN", "IN", "DT", "JJ", "NNS", "VBP", "JJ", "NNS", "TO", "VB", "NN", ",", "CC", "DT", "RB", "VBZ", "DT", "NN", "."]
     text: ' It is often stated that the largest snakes require five years to attain maturity,
@@ -234,7 +234,7 @@ vJll:
     wn30_key: [[2, "often%4:02:00::"], [3, "state%2:32:01::"], [7, "snake%1:05:00::"], [8, "require%2:42:00::"], [9, "five%3:00:00:cardinal:00"], [10, "year%1:28:01::"], [12, "attain%2:38:00::"], [13, "maturity%1:28:00::"], [17, "apparently%4:02:00::"], [18, "be%2:42:03::"], [20, "overestimation%1:10:00::"]]
 O+S8:
     lemmas: ["The", "best", "way", "to", "determine", "the", "correct", "figure", "(", "in", "captive", ")", "be", "by", "direct", "observation", "of", "pair", "isolate", "from", "birth", ",", "a", "method", "that", "produce", "surprising", "result", ":", "maturing", "of", "a", "male", "indian_python", "in", "less_than", "two", "year", ",", "his", "mate", "in", "less_than", "three", ";", "data", "on", "the", "boa_constrictor", "about", "match", "this", "."]
-    oewn2026_key: [[1, "oewn-00229099-a"], [2, "oewn-00173531-n"], [4, "oewn-00920843-v"], [6, "oewn-00634232-a"], [7, "oewn-13763162-n"], [10, "oewn-10495671-n"], [12, "oewn-02610777-v"], [14, "oewn-00764460-a"], [15, "oewn-01004898-n"], [17, "oewn-13765745-n"], [18, "oewn-00495205-v"], [20, "oewn-15167127-n"], [23, "oewn-05668113-n"], [25, "oewn-01756303-v"], [26, "oewn-02368019-a"], [27, "oewn-11430739-n"], [32, "oewn-01479992-a"], [33, "oewn-01746911-n"], [36, "oewn-02194109-s"], [37, "oewn-15228587-n"], [40, "oewn-10319970-n"], [43, "oewn-02194219-s"], [45, "oewn-08479331-n"], [48, "oewn-01744813-n"], [50, "oewn-02663315-v"]]
+    oewn_key: [[1, "oewn-00229099-a"], [2, "oewn-00173531-n"], [4, "oewn-00920843-v"], [6, "oewn-00634232-a"], [7, "oewn-13763162-n"], [10, "oewn-10495671-n"], [12, "oewn-02610777-v"], [14, "oewn-00764460-a"], [15, "oewn-01004898-n"], [17, "oewn-13765745-n"], [18, "oewn-00495205-v"], [20, "oewn-15167127-n"], [23, "oewn-05668113-n"], [25, "oewn-01756303-v"], [26, "oewn-02368019-a"], [27, "oewn-11430739-n"], [32, "oewn-01479992-a"], [33, "oewn-01746911-n"], [36, "oewn-02194109-s"], [37, "oewn-15228587-n"], [40, "oewn-10319970-n"], [43, "oewn-02194219-s"], [45, "oewn-08479331-n"], [48, "oewn-01744813-n"], [50, "oewn-02663315-v"]]
     paragraph: '5'
     pos: ["DT", "JJS", "NN", "TO", "VB", "DT", "JJ", "NN", "NN", "IN", "NNS", "NN", "VBZ", "IN", "JJ", "NN", "IN", "NNS", "VBN", "IN", "NN", ",", "DT", "NN", "WDT", "VBD", "JJ", "NNS", ":", "NN", "IN", "DT", "JJ", "NN", "IN", "RB", "JJ", "NNS", ",", "PRP$", "NN", "IN", "RB", "JJ", ":", "NNS", "IN", "DT", "NN", "IN", "VB", "DT", "."]
     text: ' The best way to determine the correct figure (in captives) is by direct observation
@@ -248,7 +248,7 @@ O+S8:
     wn30_key: [[1, "best%3:00:00::"], [2, "way%1:04:01::"], [4, "determine%2:32:00::"], [6, "correct%3:00:00::"], [7, "figure%1:23:00::"], [10, "captive%1:18:01::"], [12, "be%2:42:03::"], [14, "direct%3:00:00::"], [15, "observation%1:04:01::"], [17, "pair%1:23:00::"], [18, "isolate%2:30:00::"], [20, "birth%1:28:00::"], [23, "method%1:09:00::"], [25, "produce%2:36:02::"], [26, "surprising%3:00:00::"], [27, "result%1:19:00::"], [32, "male%3:00:00::"], [33, "indian_python%1:05:00::"], [36, "two%3:00:00:cardinal:00"], [37, "year%1:28:01::"], [40, "mate%1:18:01::"], [43, "three%3:00:00:cardinal:00"], [45, "data%1:14:00::"], [48, "boa_constrictor%1:05:00::"], [50, "match%2:42:00::"]]
 bo+f:
     lemmas: ["another", "approach", "be", "to", "estimate", "from", "the", "rate_of_growth", "and", "the", "smallest", "size", "at", "maturity", "."]
-    oewn2026_key: [[0, "oewn-02077592-s"], [1, "oewn-00942956-n"], [2, "oewn-02622439-v"], [4, "oewn-00713964-v"], [7, "oewn-15303811-n"], [11, "oewn-05106204-n"], [13, "oewn-15177777-n"]]
+    oewn_key: [[0, "oewn-02077592-s"], [1, "oewn-00942956-n"], [2, "oewn-02622439-v"], [4, "oewn-00713964-v"], [7, "oewn-15303811-n"], [11, "oewn-05106204-n"], [13, "oewn-15177777-n"]]
     paragraph: '6'
     pos: ["JJ", "NN", "VBZ", "TO", "VB", "IN", "DT", "NN", "CC", "DT", "JJ", "NN", "IN", "NN", "."]
     text: ' Another approach is to estimate from the rate_of_growth and the smallest size at
@@ -258,7 +258,7 @@ bo+f:
     wn30_key: [[0, "another%3:00:00:other:00"], [1, "approach%1:04:02::"], [2, "be%2:42:06::"], [4, "estimate%2:31:01::"], [7, "rate_of_growth%1:28:00::"], [11, "size%1:07:00::"], [13, "maturity%1:28:00::"]]
 im93:
     lemmas: ["result", "from", "this", "approach", "amply", "confirm", "the", "direct", "observation", ":"]
-    oewn2026_key: [[0, "oewn-06756201-n"], [3, "oewn-00942956-n"], [4, "oewn-00398920-r"], [5, "oewn-00667804-v"], [7, "oewn-00764460-a"], [8, "oewn-01004898-n"]]
+    oewn_key: [[0, "oewn-06756201-n"], [3, "oewn-00942956-n"], [4, "oewn-00398920-r"], [5, "oewn-00667804-v"], [7, "oewn-00764460-a"], [8, "oewn-01004898-n"]]
     paragraph: '6'
     pos: ["NNS", "IN", "DT", "NN", "RB", "VBP", "DT", "JJ", "NNS", ":"]
     text: ' Results from this approach amply confirm the direct observations:'
@@ -267,7 +267,7 @@ im93:
     wn30_key: [[0, "result%1:10:00::"], [3, "approach%1:04:02::"], [4, "amply%4:02:00::"], [5, "confirm%2:31:00::"], [7, "direct%3:00:00::"], [8, "observation%1:04:01::"]]
 eqzQ:
     lemmas: ["about", "three", "year", "be", "required", ",", "there", "be", "a", "possible", "slight", "difference", "between", "male", "and", "female", "in", "the", "time", "require", "."]
-    oewn2026_key: [[1, "oewn-02194219-s"], [2, "oewn-15228587-n"], [3, "oewn-02610777-v"], [4, "oewn-01585183-s"], [7, "oewn-02609706-v"], [9, "oewn-01826770-a"], [10, "oewn-01558903-a"], [11, "oewn-04756076-n"], [13, "oewn-09647338-n"], [15, "oewn-09642198-n"], [18, "oewn-15295388-n"], [19, "oewn-02634015-v"]]
+    oewn_key: [[1, "oewn-02194219-s"], [2, "oewn-15228587-n"], [3, "oewn-02610777-v"], [4, "oewn-01585183-s"], [7, "oewn-02609706-v"], [9, "oewn-01826770-a"], [10, "oewn-01558903-a"], [11, "oewn-04756076-n"], [13, "oewn-09647338-n"], [15, "oewn-09642198-n"], [18, "oewn-15295388-n"], [19, "oewn-02634015-v"]]
     paragraph: '6'
     pos: ["IN", "JJ", "NNS", "VBP", "JJ", ",", "EX", "VBG", "DT", "JJ", "JJ", "NN", "IN", "NNS", "CC", "NNS", "IN", "DT", "NN", "VBN", "."]
     text: ' about three years are required, there being a possible slight difference between
@@ -277,7 +277,7 @@ eqzQ:
     wn30_key: [[1, "three%3:00:00:cardinal:00"], [2, "year%1:28:01::"], [3, "be%2:42:03::"], [4, "required%3:00:00:necessary:00"], [7, "be%2:42:00::"], [9, "possible%3:00:00::"], [10, "slight%3:00:00::"], [11, "difference%1:07:00::"], [13, "male%1:18:00::"], [15, "female%1:18:00::"], [18, "time%1:28:05::"], [19, "require%2:42:00::"]]
 +SuE:
     lemmas: ["only", "the", "amethystine_python", "and", "the", "anaconda", "must", "be", "exclude", "for", "lack", "or", "paucity", "of", "data", "."]
-    oewn2026_key: [[0, "oewn-00009062-r"], [2, "oewn-01747196-n"], [5, "oewn-01745727-n"], [8, "oewn-02454205-v"], [10, "oewn-14472871-n"], [12, "oewn-05124440-n"], [14, "oewn-08479331-n"]]
+    oewn_key: [[0, "oewn-00009062-r"], [2, "oewn-01747196-n"], [5, "oewn-01745727-n"], [8, "oewn-02454205-v"], [10, "oewn-14472871-n"], [12, "oewn-05124440-n"], [14, "oewn-08479331-n"]]
     paragraph: '6'
     pos: ["RB", "DT", "NN", "CC", "DT", "NN", "VB", "VB", "VBN", "IN", "NN", "CC", "NN", "IN", "NNS", "."]
     text: ' Only the amethystine_python and the anaconda must be excluded for lack or paucity
@@ -289,7 +289,7 @@ eqzQ:
     wn30_key: [[0, "only%4:02:01::"], [2, "amethystine_python%1:05:00::"], [5, "anaconda%1:05:00::"], [8, "exclude%2:41:00::"], [10, "lack%1:26:00::"], [12, "paucity%1:07:01::"], [14, "data%1:14:00::"]]
 u///:
     lemmas: ["The", "following", "information", "on", "snake", "vary", "greatly", "in", "size", "(", "but", "all", "with", "less_than", "a", "10", "-", "foot", "maximum", ")", "show", ",", "when", "consider", "with", "the", "foregoing", ",", "that", "there", "be", "probably", "no", "correlation", "between", "the", "length", "of", "a", "snake", "and", "the", "time", "require", "for", "it", "to", "mature", "."]
-    oewn2026_key: [[1, "oewn-00128705-s"], [2, "oewn-06646883-n"], [4, "oewn-01729333-n"], [5, "oewn-02667330-v"], [6, "oewn-00057077-r"], [8, "oewn-05106204-n"], [15, "oewn-02194935-s"], [17, "oewn-13671663-n"], [18, "oewn-13798337-n"], [20, "oewn-01017253-v"], [23, "oewn-00952463-v"], [26, "oewn-00127107-s"], [30, "oewn-02609706-v"], [31, "oewn-00139421-r"], [33, "oewn-13863850-n"], [36, "oewn-05136466-n"], [39, "oewn-01729333-n"], [42, "oewn-15295388-n"], [43, "oewn-02634015-v"], [47, "oewn-00251067-v"]]
+    oewn_key: [[1, "oewn-00128705-s"], [2, "oewn-06646883-n"], [4, "oewn-01729333-n"], [5, "oewn-02667330-v"], [6, "oewn-00057077-r"], [8, "oewn-05106204-n"], [15, "oewn-02194935-s"], [17, "oewn-13671663-n"], [18, "oewn-13798337-n"], [20, "oewn-01017253-v"], [23, "oewn-00952463-v"], [26, "oewn-00127107-s"], [30, "oewn-02609706-v"], [31, "oewn-00139421-r"], [33, "oewn-13863850-n"], [36, "oewn-05136466-n"], [39, "oewn-01729333-n"], [42, "oewn-15295388-n"], [43, "oewn-02634015-v"], [47, "oewn-00251067-v"]]
     paragraph: '7'
     pos: ["DT", "JJ", "NN", "IN", "NNS", "VBG", "RB", "IN", "NN", "NN", "CC", "DT", "IN", "RB", "DT", "JJ", ":", "NN", "NN", "NN", "VBZ", ",", "WRB", "VBN", "IN", "DT", "JJ", ",", "IN", "EX", "VBZ", "RB", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "CC", "DT", "NN", "VBN", "IN", "PRP", "TO", "VB", "."]
     text: ' The following information on snakes varying greatly in size (but all with less_than
@@ -300,7 +300,7 @@ u///:
     wn30_key: [[1, "following%3:00:01:succeeding:00"], [2, "information%1:10:00::"], [4, "snake%1:05:00::"], [5, "vary%2:42:00::"], [6, "greatly%4:02:00::"], [8, "size%1:07:00::"], [15, "10%3:00:00:cardinal:00"], [17, "foot%1:23:00::"], [18, "maximum%1:23:00::"], [20, "show%2:32:00::"], [23, "consider%2:32:00::"], [26, "foregoing%3:00:00:preceding:00"], [30, "be%2:42:00::"], [31, "probably%4:02:00::"], [33, "correlation%1:24:00::"], [36, "length%1:07:00::"], [39, "snake%1:05:00::"], [42, "time%1:28:05::"], [43, "require%2:42:00::"], [47, "mature%2:30:00::"]]
 OU2z:
     lemmas: ["person", ",", "in", "his", "summary", "of", "the", "habit", "of", "the", "snake", "of", "the", "united_states", ",", "could", "supply", "data", "on", "the", "maturing", "period", "for", "only", "three", "species", "in_addition_to", "the", "rattler", ",", "which", "I", "shall", "consider", "separately", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [4, "oewn-06478678-n"], [7, "oewn-05676878-n"], [10, "oewn-01729333-n"], [13, "oewn-09067337-n"], [16, "oewn-02332196-v"], [17, "oewn-08479331-n"], [21, "oewn-15137796-n"], [23, "oewn-00005103-r"], [24, "oewn-02194219-s"], [25, "oewn-08127339-n"], [28, "oewn-01757517-n"], [33, "oewn-00814706-v"], [34, "oewn-00208995-r"]]
+    oewn_key: [[0, "oewn-00007846-n"], [4, "oewn-06478678-n"], [7, "oewn-05676878-n"], [10, "oewn-01729333-n"], [13, "oewn-09067337-n"], [16, "oewn-02332196-v"], [17, "oewn-08479331-n"], [21, "oewn-15137796-n"], [23, "oewn-00005103-r"], [24, "oewn-02194219-s"], [25, "oewn-08127339-n"], [28, "oewn-01757517-n"], [33, "oewn-00814706-v"], [34, "oewn-00208995-r"]]
     paragraph: '7'
     pos: ["NNP", ",", "IN", "PRP$", "NN", "IN", "DT", "NNS", "IN", "DT", "NNS", "IN", "DT", "NNS", ",", "VB", "VB", "NNS", "IN", "DT", "NN", "NN", "IN", "RB", "JJ", "NNS", "TO", "DT", "NNS", ",", "WDT", "PRP", "MD", "VB", "RB", "."]
     text: ' Oliver, in his summary of the habits of the snakes of the United_States, could supply
@@ -311,7 +311,7 @@ OU2z:
     wn30_key: [[0, "person%1:03:00::"], [4, "summary%1:10:00::"], [7, "habit%1:09:00::"], [10, "snake%1:05:00::"], [13, "united_states%1:15:00::"], [16, "supply%2:40:00::"], [17, "data%1:14:00::"], [21, "period%1:28:00::"], [23, "only%4:02:02::"], [24, "three%3:00:00:cardinal:00"], [25, "species%1:14:00::"], [28, "rattler%1:05:00::"], [33, "consider%2:32:02::"], [34, "separately%4:02:02::"]]
 j+WI:
     lemmas: ["These", "three", "be", "much", "alike", ":", "lined_snake", "(", "tropidoclonion", ")", ",", "one", "year", "and", "nine", "month", ";", "red-bellied_snake", "(", "storeria", ")", ",", "two", "year", ";", "cottonmouth", "(", "ancistrodon", ")", ",", "two", "year", "."]
-    oewn2026_key: [[1, "oewn-02194219-s"], [2, "oewn-02610777-v"], [3, "oewn-00059624-r"], [4, "oewn-01413463-a"], [6, "oewn-01738673-n"], [8, "oewn-01738539-n"], [11, "oewn-02193977-s"], [12, "oewn-15228587-n"], [14, "oewn-02194800-s"], [15, "oewn-15231092-n"], [17, "oewn-01740947-n"], [19, "oewn-01740816-n"], [22, "oewn-02194109-s"], [23, "oewn-15228587-n"], [25, "oewn-01757174-n"], [27, "oewn-01756831-n"], [30, "oewn-02194109-s"], [31, "oewn-15228587-n"]]
+    oewn_key: [[1, "oewn-02194219-s"], [2, "oewn-02610777-v"], [3, "oewn-00059624-r"], [4, "oewn-01413463-a"], [6, "oewn-01738673-n"], [8, "oewn-01738539-n"], [11, "oewn-02193977-s"], [12, "oewn-15228587-n"], [14, "oewn-02194800-s"], [15, "oewn-15231092-n"], [17, "oewn-01740947-n"], [19, "oewn-01740816-n"], [22, "oewn-02194109-s"], [23, "oewn-15228587-n"], [25, "oewn-01757174-n"], [27, "oewn-01756831-n"], [30, "oewn-02194109-s"], [31, "oewn-15228587-n"]]
     paragraph: '7'
     pos: ["DT", "JJ", "VBD", "RB", "JJ", ":", "NN", "FW", "NN", "FW", ",", "JJ", "NN", "CC", "JJ", "NNS", ":", "NNP", "NNP", "NNP", "NNP", ",", "JJ", "NNS", ":", "NN", "NN", "NN", "FW", ",", "JJ", "NNS", "."]
     text: ' These three were much alike: lined_snake (Tropidoclonion), one year and nine months;
@@ -321,7 +321,7 @@ j+WI:
     wn30_key: [[1, "three%3:00:00:cardinal:00"], [2, "be%2:42:03::"], [3, "much%4:02:00::"], [4, "alike%3:00:00::"], [6, "lined_snake%1:05:00::"], [8, "tropidoclonion%1:05:00::"], [11, "one%3:00:00:cardinal:00"], [12, "year%1:28:01::"], [14, "nine%3:00:00:cardinal:00"], [15, "month%1:28:00::"], [17, "red-bellied_snake%1:05:00::"], [19, "storeria%1:05:00::"], [22, "two%3:00:00:cardinal:00"], [23, "year%1:28:01::"], [25, "cottonmouth%1:05:00::"], [27, "ancistrodon%1:05:00::"], [30, "two%3:00:00:cardinal:00"], [31, "year%1:28:01::"]]
 8qiN:
     lemmas: ["person", "investigate", "the", "rattlesnake", "carefully", "himself", "and", "also", "summarize", "what", "other", "have", "find", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-00790800-v"], [3, "oewn-01757517-n"], [4, "oewn-00154701-r"], [7, "oewn-00048072-r"], [8, "oewn-01009951-v"], [12, "oewn-01641524-v"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-00790800-v"], [3, "oewn-01757517-n"], [4, "oewn-00154701-r"], [7, "oewn-00048072-r"], [8, "oewn-01009951-v"], [12, "oewn-01641524-v"]]
     paragraph: '7'
     pos: ["NNP", "VBD", "DT", "NNS", "RB", "PRP", "CC", "RB", "VBD", "WP", "NNS", "VBP", "VBN", "."]
     text: ' Klauber investigated the rattlesnakes carefully himself and also summarized what
@@ -331,7 +331,7 @@ j+WI:
     wn30_key: [[0, "person%1:03:00::"], [1, "investigate%2:32:00::"], [3, "rattlesnake%1:05:00::"], [4, "carefully%4:02:00::"], [7, "also%4:02:00::"], [8, "summarize%2:32:00::"], [12, "find%2:36:00::"]]
 67EF:
     lemmas: ["He", "conclude", "that", "in", "the", "southern", "species", ",", "which", "be", "rapidly", "growing", "type", ",", "female", "mate", "at", "the", "age", "of", "two", "and", "a", "half", "and", "bear", "the", "first", "young", "when", "they", "be", "three", "."]
-    oewn2026_key: [[1, "oewn-00636134-v"], [5, "oewn-01609663-a"], [6, "oewn-08127339-n"], [9, "oewn-02610777-v"], [10, "oewn-00086161-r"], [12, "oewn-05848697-n"], [14, "oewn-01323363-n"], [15, "oewn-01431486-v"], [18, "oewn-04931280-n"], [20, "oewn-02194109-s"], [23, "oewn-13758939-n"], [25, "oewn-00056644-v"], [27, "oewn-01014459-a"], [28, "oewn-01324070-n"], [31, "oewn-02610777-v"], [32, "oewn-02194219-s"]]
+    oewn_key: [[1, "oewn-00636134-v"], [5, "oewn-01609663-a"], [6, "oewn-08127339-n"], [9, "oewn-02610777-v"], [10, "oewn-00086161-r"], [12, "oewn-05848697-n"], [14, "oewn-01323363-n"], [15, "oewn-01431486-v"], [18, "oewn-04931280-n"], [20, "oewn-02194109-s"], [23, "oewn-13758939-n"], [25, "oewn-00056644-v"], [27, "oewn-01014459-a"], [28, "oewn-01324070-n"], [31, "oewn-02610777-v"], [32, "oewn-02194219-s"]]
     paragraph: '7'
     pos: ["PRP", "VBD", "IN", "IN", "DT", "JJ", "NNS", ",", "WDT", "VBP", "RB", "JJ", "NNS", ",", "NNS", "VBP", "IN", "DT", "NN", "IN", "JJ", "CC", "DT", "NN", "CC", "VB", "DT", "JJ", "NN", "WRB", "PRP", "VBP", "JJ", "."]
     text: ' He concluded that in the southern species, which are rapidly growing types, females
@@ -341,7 +341,7 @@ j+WI:
     wn30_key: [[1, "conclude%2:31:00::"], [5, "southern%3:00:01::"], [6, "species%1:14:00::"], [9, "be%2:42:03::"], [10, "rapidly%4:02:00::"], [12, "type%1:09:00::"], [14, "female%1:05:00::"], [15, "mate%2:35:00::"], [18, "age%1:07:00::"], [20, "two%3:00:00:cardinal:00"], [23, "half%1:23:00::"], [25, "bear%2:29:01::"], [27, "first%3:00:00::"], [28, "young%1:05:00::"], [31, "be%2:42:03::"], [32, "three%3:00:00:cardinal:00"]]
 FxPk:
     lemmas: ["other", "herpetologist", "have", "ascertain", "that", "in", "the", "northern", "united_states", "the", "prairie_rattlesnake", "may_not", "give_birth", "first", "birth", "until", "it", "be", "four", "or", "even", "five", "year", "old", ",", "and", "that", "the", "young", "may", "be_born", "every_other", "year", ",", "rather_than", "annually", "."]
-    oewn2026_key: [[0, "oewn-02076759-a"], [1, "oewn-10192340-n"], [3, "oewn-00920843-v"], [7, "oewn-01610335-a"], [8, "oewn-09067337-n"], [10, "oewn-01758730-n"], [12, "oewn-00056644-v"], [13, "oewn-01014459-a"], [17, "oewn-02610777-v"], [18, "oewn-02194304-s"], [20, "oewn-00017907-r"], [21, "oewn-02194389-s"], [22, "oewn-15228587-n"], [23, "oewn-01648062-a"], [28, "oewn-01324070-n"], [30, "oewn-00361585-v"], [32, "oewn-15228587-n"], [35, "oewn-00082087-r"]]
+    oewn_key: [[0, "oewn-02076759-a"], [1, "oewn-10192340-n"], [3, "oewn-00920843-v"], [7, "oewn-01610335-a"], [8, "oewn-09067337-n"], [10, "oewn-01758730-n"], [12, "oewn-00056644-v"], [13, "oewn-01014459-a"], [17, "oewn-02610777-v"], [18, "oewn-02194304-s"], [20, "oewn-00017907-r"], [21, "oewn-02194389-s"], [22, "oewn-15228587-n"], [23, "oewn-01648062-a"], [28, "oewn-01324070-n"], [30, "oewn-00361585-v"], [32, "oewn-15228587-n"], [35, "oewn-00082087-r"]]
     paragraph: '7'
     pos: ["JJ", "NNS", "VBP", "VBN", "IN", "IN", "DT", "JJ", "NNS", "DT", "NN", "VB", "VBP", "JJ", "NN", "IN", "PRP", "VBZ", "JJ", "CC", "RB", "JJ", "NNS", "JJ", ",", "CC", "IN", "DT", "NN", "MD", "VB", "JJ", "NN", ",", "RB", "RB", "."]
     text: ' Other herpetologists have ascertained that in the northern United_States the prairie_rattlesnake
@@ -352,7 +352,7 @@ FxPk:
     wn30_key: [[0, "other%3:00:00::"], [1, "herpetologist%1:18:00::"], [3, "ascertain%2:32:01::"], [7, "northern%3:00:02::"], [8, "united_states%1:15:00::"], [10, "prairie_rattlesnake%1:05:00::"], [12, "give_birth%2:29:00::"], [13, "first%3:00:00::"], [17, "be%2:42:03::"], [18, "four%3:00:00:cardinal:00"], [20, "even%4:02:00::"], [21, "five%3:00:00:cardinal:00"], [22, "year%1:28:01::"], [23, "old%3:00:02::"], [28, "young%1:05:00::"], [30, "be_born%2:30:00::"], [32, "year%1:28:01::"], [35, "annually%4:02:00::"]]
 7zjQ:
     lemmas: ["person", "'s", "study", "show", "that", "female", "common", "garter_snake", "and", "ribbon_snake", "of", "location", "mature", "at", "about", "the", "age", "of", "two", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-00645746-n"], [3, "oewn-01017253-v"], [5, "oewn-01481113-a"], [6, "oewn-00487699-a"], [7, "oewn-01737830-n"], [9, "oewn-01738218-n"], [11, "oewn-00027365-n"], [12, "oewn-00251067-v"], [14, "oewn-00007414-r"], [16, "oewn-04931280-n"], [18, "oewn-13765409-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [2, "oewn-00645746-n"], [3, "oewn-01017253-v"], [5, "oewn-01481113-a"], [6, "oewn-00487699-a"], [7, "oewn-01737830-n"], [9, "oewn-01738218-n"], [11, "oewn-00027365-n"], [12, "oewn-00251067-v"], [14, "oewn-00007414-r"], [16, "oewn-04931280-n"], [18, "oewn-13765409-n"]]
     paragraph: '7'
     pos: ["NNP", "POS", "NN", "VBD", "IN", "JJ", "JJ", "NN", "CC", "NN", "IN", "NNP", "VBP", "IN", "RB", "DT", "NN", "IN", "NN", "."]
     text: ' Carpenter''s study showed that female common garter and ribbon_snakes of Michigan
@@ -364,7 +364,7 @@ FxPk:
     wn30_key: [[0, "person%1:03:00::"], [2, "study%1:04:00::"], [3, "show%2:32:00::"], [5, "female%3:00:00::"], [6, "common%3:00:01::"], [7, "garter_snake%1:05:00::"], [9, "ribbon_snake%1:05:00::"], [11, "location%1:03:00::"], [12, "mature%2:30:00::"], [14, "about%4:02:00::"], [16, "age%1:07:00::"], [18, "two%1:23:00::"]]
 Lx/O:
     lemmas: ["oversized", "monster", "be", "never", "bring", "home", "either", "alive", "or", "preserved", ",", "and", "field", "measurement", "be", "obviously", "open_to", "doubt", "because", "of", "the", "universal", "tendency", "to", "exaggerate", "dimension", "."]
-    oewn2026_key: [[0, "oewn-01392927-s"], [1, "oewn-10129212-n"], [3, "oewn-00021214-r"], [4, "oewn-02081903-v"], [5, "oewn-00098390-r"], [7, "oewn-00095301-a"], [9, "oewn-00740790-a"], [12, "oewn-08587306-n"], [13, "oewn-00998911-n"], [14, "oewn-02610777-v"], [15, "oewn-00039730-r"], [17, "oewn-05706212-n"], [21, "oewn-00529364-s"], [22, "oewn-07514352-n"], [24, "oewn-00841513-v"], [25, "oewn-05100843-n"]]
+    oewn_key: [[0, "oewn-01392927-s"], [1, "oewn-10129212-n"], [3, "oewn-00021214-r"], [4, "oewn-02081903-v"], [5, "oewn-00098390-r"], [7, "oewn-00095301-a"], [9, "oewn-00740790-a"], [12, "oewn-08587306-n"], [13, "oewn-00998911-n"], [14, "oewn-02610777-v"], [15, "oewn-00039730-r"], [17, "oewn-05706212-n"], [21, "oewn-00529364-s"], [22, "oewn-07514352-n"], [24, "oewn-00841513-v"], [25, "oewn-05100843-n"]]
     paragraph: '8'
     pos: ["JJ", "NNS", "VBP", "RB", "VBN", "RB", "DT", "JJ", "CC", "JJ", ",", "CC", "NN", "NNS", "VBP", "RB", "JJ", "NN", "IN", "IN", "DT", "JJ", "NN", "TO", "VB", "NNS", "."]
     text: ' Oversized monsters are never brought home either alive or preserved, and field measurements
@@ -374,7 +374,7 @@ Lx/O:
     wn30_key: [[0, "oversized%3:00:00:large:00"], [1, "monster%1:18:01::"], [3, "never%4:02:00::"], [4, "bring%2:38:00::"], [5, "home%4:02:01::"], [7, "alive%3:00:01::"], [9, "preserved%3:00:01::"], [12, "field%1:15:01::"], [13, "measurement%1:04:00::"], [14, "be%2:42:03::"], [15, "obviously%4:02:00::"], [17, "doubt%1:09:00::"], [21, "universal%3:00:00:comprehensive:00"], [22, "tendency%1:12:00::"], [24, "exaggerate%2:32:00::"], [25, "dimension%1:07:00::"]]
 +vKP:
     lemmas: ["measurement", "of", "skin", "be", "of", "little", "value", ";", "every", "snake", "hide", "be", "noticeably", "long", "than", "its", "carcass", "and", "intentional", "stretching", "present", "no", "difficulty", "to", "the", "unscrupulous", "explorer", "."]
-    oewn2026_key: [[2, "oewn-01898376-n"], [3, "oewn-02610777-v"], [5, "oewn-01558903-a"], [6, "oewn-05145753-n"], [8, "oewn-02277945-s"], [9, "oewn-01729333-n"], [10, "oewn-01898376-n"], [11, "oewn-02610777-v"], [12, "oewn-00367464-r"], [13, "oewn-01436368-a"], [16, "oewn-01761398-n"], [18, "oewn-01341128-s"], [19, "oewn-00367347-n"], [20, "oewn-02153218-v"], [21, "oewn-02276242-a"], [22, "oewn-00625102-n"], [25, "oewn-02093044-a"], [26, "oewn-10092496-n"]]
+    oewn_key: [[2, "oewn-01898376-n"], [3, "oewn-02610777-v"], [5, "oewn-01558903-a"], [6, "oewn-05145753-n"], [8, "oewn-02277945-s"], [9, "oewn-01729333-n"], [10, "oewn-01898376-n"], [11, "oewn-02610777-v"], [12, "oewn-00367464-r"], [13, "oewn-01436368-a"], [16, "oewn-01761398-n"], [18, "oewn-01341128-s"], [19, "oewn-00367347-n"], [20, "oewn-02153218-v"], [21, "oewn-02276242-a"], [22, "oewn-00625102-n"], [25, "oewn-02093044-a"], [26, "oewn-10092496-n"]]
     paragraph: '8'
     pos: ["NN", "IN", "NNS", "VBP", "IN", "JJ", "NN", ":", "JJ", "NN", "NN", "VBZ", "RB", "JJR", "IN", "PRP$", "NN", "CC", "JJ", "NN", "VB", "JJ", "NN", "TO", "DT", "JJ", "NN", "."]
     text: ' Measurements of skins are of little value; every snake hide is noticeably longer
@@ -387,7 +387,7 @@ Lx/O:
     wn30_key: [[2, "skin%1:05:01::"], [3, "be%2:42:03::"], [5, "little%3:00:03::"], [6, "value%1:07:00::"], [8, "every%3:00:02:all:00"], [9, "snake%1:05:00::"], [10, "hide%1:05:00::"], [11, "be%2:42:03::"], [12, "noticeably%4:02:00::"], [13, "long%3:00:01::"], [16, "carcass%1:05:00::"], [18, "intentional%3:00:00:intended:00"], [19, "stretching%1:04:02::"], [20, "present%2:39:00::"], [21, "no%3:00:00::"], [22, "difficulty%1:04:00::"], [25, "unscrupulous%3:00:00::"], [26, "explorer%1:18:00::"]]
 oJ+9:
     lemmas: ["In_spite", "of", "all", "the", "pitfall", ",", "there", "be", "a", "certain", "amount", "of", "agreement", "on", "some", "of", "the", "giant", "."]
-    oewn2026_key: [[4, "oewn-05696795-n"], [7, "oewn-02609706-v"], [9, "oewn-00704329-s"], [10, "oewn-05115065-n"], [12, "oewn-04720704-n"], [17, "oewn-01326422-n"]]
+    oewn_key: [[4, "oewn-05696795-n"], [7, "oewn-02609706-v"], [9, "oewn-00704329-s"], [10, "oewn-05115065-n"], [12, "oewn-04720704-n"], [17, "oewn-01326422-n"]]
     paragraph: '9'
     pos: ["RB", "RB", "PDT", "DT", "NNS", ",", "EX", "VBZ", "DT", "JJ", "NN", "IN", "NN", "IN", "DT", "IN", "DT", "NNS", "."]
     text: ' In_spite of all the pitfalls, there is a certain amount of agreement on some of
@@ -397,7 +397,7 @@ oJ+9:
     wn30_key: [[4, "pitfall%1:09:00::"], [7, "be%2:42:00::"], [9, "certain%3:00:00:definite:00"], [10, "amount%1:07:00::"], [12, "agreement%1:07:00::"], [17, "giant%1:05:00::"]]
 ADJp:
     lemmas: ["The", "anaconda", "prove", "to", "be", "the", "fly_in_the_ointment", ",", "but", "the", "reason", "for", "this", "be", "not", "clear", ";", "the", "relatively", "wild", "condition", "still", "find", "in", "tropical", "location", "might", "be", "responsible", "."]
-    oewn2026_key: [[1, "oewn-01745727-n"], [2, "oewn-02639962-v"], [4, "oewn-02622439-v"], [6, "oewn-04719277-n"], [10, "oewn-06752739-n"], [13, "oewn-02610777-v"], [14, "oewn-00024432-r"], [15, "oewn-00429900-a"], [18, "oewn-00162033-r"], [19, "oewn-02397788-a"], [20, "oewn-13943868-n"], [21, "oewn-00031700-r"], [22, "oewn-02253273-v"], [24, "oewn-02452975-s"], [25, "oewn-00027365-n"], [27, "oewn-02610777-v"], [28, "oewn-02003477-a"]]
+    oewn_key: [[1, "oewn-01745727-n"], [2, "oewn-02639962-v"], [4, "oewn-02622439-v"], [6, "oewn-04719277-n"], [10, "oewn-06752739-n"], [13, "oewn-02610777-v"], [14, "oewn-00024432-r"], [15, "oewn-00429900-a"], [18, "oewn-00162033-r"], [19, "oewn-02397788-a"], [20, "oewn-13943868-n"], [21, "oewn-00031700-r"], [22, "oewn-02253273-v"], [24, "oewn-02452975-s"], [25, "oewn-00027365-n"], [27, "oewn-02610777-v"], [28, "oewn-02003477-a"]]
     paragraph: '9'
     pos: ["DT", "NN", "VBZ", "TO", "VB", "DT", "NN", ",", "CC", "DT", "NN", "IN", "DT", "VBZ", "RB", "JJ", ":", "DT", "RB", "JJ", "NNS", "RB", "VBN", "IN", "JJ", "NN", "MD", "VB", "JJ", "."]
     text: ' The anaconda proves to be the fly_in_the_ointment, but the reason for this is not
@@ -410,7 +410,7 @@ ADJp:
     wn30_key: [[1, "anaconda%1:05:00::"], [2, "prove%2:42:00::"], [4, "be%2:42:06::"], [6, "fly_in_the_ointment%1:07:00::"], [10, "reason%1:10:01::"], [13, "be%2:42:03::"], [14, "not%4:02:00::"], [15, "clear%3:00:00::"], [18, "relatively%4:02:00::"], [19, "wild%3:00:01::"], [20, "condition%1:26:00::"], [21, "still%4:02:01::"], [22, "find%2:40:02::"], [24, "tropical%3:00:00:equatorial:00"], [25, "location%1:03:00::"], [27, "be%2:42:03::"], [28, "responsible%3:00:00::"]]
 TEA3:
     lemmas: ["There", "be", "three", "level", "on", "which", "to", "treat", "the", "subject", "."]
-    oewn2026_key: [[1, "oewn-02609706-v"], [2, "oewn-02194219-s"], [3, "oewn-14451564-n"], [7, "oewn-01035399-v"], [9, "oewn-06005806-n"]]
+    oewn_key: [[1, "oewn-02609706-v"], [2, "oewn-02194219-s"], [3, "oewn-14451564-n"], [7, "oewn-01035399-v"], [9, "oewn-06005806-n"]]
     paragraph: '10'
     pos: ["EX", "VBP", "JJ", "NNS", "RB", "RB", "TO", "VB", "DT", "NN", "."]
     text: ' There are three levels on which to treat the subject.'
@@ -419,7 +419,7 @@ TEA3:
     wn30_key: [[1, "be%2:42:00::"], [2, "three%3:00:00:cardinal:00"], [3, "level%1:26:01::"], [7, "treat%2:32:00::"], [9, "subject%1:09:00::"]]
 tW3c:
     lemmas: ["The", "first", "be", "the", "strictly", "scientific", ",", "which", "demand", "concrete", "proof", "and", "therefore", "may", "err", "on", "the", "conservative", "side", "by", "wait", "for", "evidence", "in_the_flesh", "."]
-    oewn2026_key: [[1, "oewn-01014459-a"], [2, "oewn-02622439-v"], [4, "oewn-00180598-r"], [5, "oewn-02091950-a"], [8, "oewn-02634015-v"], [9, "oewn-00013179-a"], [10, "oewn-06660359-n"], [12, "oewn-00043413-r"], [14, "oewn-01929647-v"], [17, "oewn-00576723-a"], [18, "oewn-08425666-n"], [20, "oewn-02647547-v"], [22, "oewn-05832256-n"], [23, "oewn-01772978-s"]]
+    oewn_key: [[1, "oewn-01014459-a"], [2, "oewn-02622439-v"], [4, "oewn-00180598-r"], [5, "oewn-02091950-a"], [8, "oewn-02634015-v"], [9, "oewn-00013179-a"], [10, "oewn-06660359-n"], [12, "oewn-00043413-r"], [14, "oewn-01929647-v"], [17, "oewn-00576723-a"], [18, "oewn-08425666-n"], [20, "oewn-02647547-v"], [22, "oewn-05832256-n"], [23, "oewn-01772978-s"]]
     paragraph: '10'
     pos: ["DT", "JJ", "VBZ", "DT", "RB", "JJ", ",", "WDT", "VBZ", "JJ", "NN", "CC", "RB", "MD", "VB", "IN", "DT", "JJ", "NN", "IN", "VBG", "VB", "NN", "JJ", "."]
     text: ' The first is the strictly scientific, which demands concrete proof and therefore
@@ -429,7 +429,7 @@ tW3c:
     wn30_key: [[1, "first%3:00:00:ordinal:00"], [2, "be%2:42:06::"], [4, "strictly%4:02:00::"], [5, "scientific%3:00:00::"], [8, "demand%2:42:00::"], [9, "concrete%3:00:00::"], [10, "proof%1:10:00::"], [12, "therefore%4:02:00::"], [14, "err%2:38:00::"], [17, "conservative%3:00:00::"], [18, "side%1:14:00::"], [20, "wait%2:42:01::"], [22, "evidence%1:09:00::"], [23, "in_the_flesh%3:00:00:personal:00"]]
 nyFT:
     lemmas: ["This", "approach", "reject", "virtually", "all", "field", "measurement", "."]
-    oewn2026_key: [[1, "oewn-00942956-n"], [2, "oewn-00687584-v"], [3, "oewn-00112194-r"], [5, "oewn-08587306-n"], [6, "oewn-00998911-n"]]
+    oewn_key: [[1, "oewn-00942956-n"], [2, "oewn-00687584-v"], [3, "oewn-00112194-r"], [5, "oewn-08587306-n"], [6, "oewn-00998911-n"]]
     paragraph: '10'
     pos: ["DT", "NN", "VBZ", "RB", "DT", "NN", "NNS", "."]
     text: ' This approach rejects virtually all field measurements.'
@@ -438,7 +438,7 @@ nyFT:
     wn30_key: [[1, "approach%1:04:02::"], [2, "reject%2:31:00::"], [3, "virtually%4:02:01::"], [5, "field%1:15:01::"], [6, "measurement%1:04:00::"]]
 Y1S2:
     lemmas: ["The", "next", "level", "attempt", "to", "weigh", "varied", "evidence", "and", "come", "to", "a", "balanced", ",", "sensible", "conclusion", ";", "field", "measurement", "by", "experienced", "explorer", "be", "not", "reject", ",", "and", "even", "report", "of", "a", "less", "scientific", "nature", "be", "duly", "evaluate", "."]
-    oewn2026_key: [[1, "oewn-00128838-s"], [2, "oewn-14451564-n"], [3, "oewn-02535833-v"], [5, "oewn-00952463-v"], [6, "oewn-02516600-a"], [7, "oewn-05832256-n"], [9, "oewn-00543200-v"], [12, "oewn-00896734-a"], [14, "oewn-01950023-a"], [15, "oewn-05846685-n"], [17, "oewn-08587306-n"], [18, "oewn-00998911-n"], [20, "oewn-00938769-a"], [21, "oewn-10092496-n"], [23, "oewn-00024432-r"], [24, "oewn-00687584-v"], [27, "oewn-00017907-r"], [28, "oewn-07233130-n"], [31, "oewn-00100418-r"], [32, "oewn-02091950-a"], [33, "oewn-04733982-n"], [35, "oewn-00140318-r"], [36, "oewn-00683348-v"]]
+    oewn_key: [[1, "oewn-00128838-s"], [2, "oewn-14451564-n"], [3, "oewn-02535833-v"], [5, "oewn-00952463-v"], [6, "oewn-02516600-a"], [7, "oewn-05832256-n"], [9, "oewn-00543200-v"], [12, "oewn-00896734-a"], [14, "oewn-01950023-a"], [15, "oewn-05846685-n"], [17, "oewn-08587306-n"], [18, "oewn-00998911-n"], [20, "oewn-00938769-a"], [21, "oewn-10092496-n"], [23, "oewn-00024432-r"], [24, "oewn-00687584-v"], [27, "oewn-00017907-r"], [28, "oewn-07233130-n"], [31, "oewn-00100418-r"], [32, "oewn-02091950-a"], [33, "oewn-04733982-n"], [35, "oewn-00140318-r"], [36, "oewn-00683348-v"]]
     paragraph: '10'
     pos: ["DT", "JJ", "NN", "VB", "TO", "VB", "JJ", "NN", "CC", "VBN", "VB", "DT", "JJ", ",", "JJ", "NN", ":", "NN", "NNS", "IN", "JJ", "NNS", "VBP", "RB", "VBN", ",", "CC", "RB", "NNS", "IN", "DT", "RBR", "JJ", "NN", "VBP", "RB", "VBN", "."]
     text: ' The next level attempts to weigh varied evidence and come to a balanced, sensible
@@ -449,7 +449,7 @@ Y1S2:
     wn30_key: [[1, "next%3:00:00:succeeding:00"], [2, "level%1:26:01::"], [3, "attempt%2:41:00::"], [5, "weigh%2:32:00::"], [6, "varied%3:00:00::"], [7, "evidence%1:09:00::"], [9, "come%2:30:03::"], [12, "balanced%3:00:00::"], [14, "sensible%3:00:04::"], [15, "conclusion%1:09:00::"], [17, "field%1:15:01::"], [18, "measurement%1:04:00::"], [20, "experienced%3:00:00::"], [21, "explorer%1:18:00::"], [23, "not%4:02:00::"], [24, "reject%2:31:00::"], [27, "even%4:02:00::"], [28, "report%1:10:03::"], [31, "less%4:02:01::"], [32, "scientific%3:00:00::"], [33, "nature%1:07:02::"], [35, "duly%4:02:00::"], [36, "evaluate%2:31:00::"]]
 mu8U:
     lemmas: ["The", "third", "level", "lean_on", "a", "belief", "that", "a_lot", "of", "smoke", "mean", "some", "fire", "."]
-    oewn2026_key: [[1, "oewn-02209976-s"], [2, "oewn-14451564-n"], [3, "oewn-01592928-v"], [5, "oewn-05950141-n"], [9, "oewn-11528510-n"], [10, "oewn-00933814-v"], [11, "oewn-02275064-a"], [12, "oewn-13502051-n"]]
+    oewn_key: [[1, "oewn-02209976-s"], [2, "oewn-14451564-n"], [3, "oewn-01592928-v"], [5, "oewn-05950141-n"], [9, "oewn-11528510-n"], [10, "oewn-00933814-v"], [11, "oewn-02275064-a"], [12, "oewn-13502051-n"]]
     paragraph: '10'
     pos: ["DT", "JJ", "NN", "VB", "DT", "NN", "IN", "JJ", "JJ", "NN", "VBZ", "JJ", "NN", "."]
     text: ' The third level leans_on a belief that a_lot of smoke means some fire.'
@@ -458,7 +458,7 @@ mu8U:
     wn30_key: [[1, "third%3:00:00:ordinal:00"], [2, "level%1:26:01::"], [3, "lean_on%2:35:00::"], [5, "belief%1:09:00::"], [9, "smoke%1:19:00::"], [10, "mean%2:32:03::"], [11, "some%3:00:00::"], [12, "fire%1:22:00::"]]
 Rsi+:
     lemmas: ["The", "argument", "against", "this", "last", "approach", "be", "comparable_to", "that", "which", "reject", "story", "about", "hoop_snake", ",", "about", "snake", "that", "break", "themselves", "into", "many", "piece", "and", "join", "up", "again", ",", "or", "even", "of", "ghost", "that", "chase", "people", "out", "of", "graveyard", ";", "the", "mere", "pile_up", "of", "testimony", "do", "not", "prove", ",", "to", "the", "scientific", "mind", ",", "the", "existence", "of", "hoop_snake", ",", "joint_snake", ",", "or", "ghost", "."]
-    oewn2026_key: [[1, "oewn-06661469-n"], [4, "oewn-01016876-a"], [5, "oewn-00942956-n"], [6, "oewn-02610777-v"], [7, "oewn-00506343-s"], [10, "oewn-00687584-v"], [11, "oewn-07235754-n"], [13, "oewn-01730907-n"], [16, "oewn-01729333-n"], [18, "oewn-00334996-v"], [21, "oewn-01555990-a"], [22, "oewn-09408804-n"], [24, "oewn-02628315-v"], [26, "oewn-00040777-r"], [29, "oewn-00017907-r"], [31, "oewn-05906778-n"], [33, "oewn-00320765-n"], [34, "oewn-07958392-n"], [37, "oewn-08538806-n"], [40, "oewn-01103400-s"], [41, "oewn-01506930-v"], [43, "oewn-06745459-n"], [45, "oewn-00024432-r"], [46, "oewn-00666706-v"], [50, "oewn-02091950-a"], [51, "oewn-05619057-n"], [54, "oewn-13977471-n"], [56, "oewn-01730907-n"], [58, "oewn-01693107-n"], [61, "oewn-05906778-n"]]
+    oewn_key: [[1, "oewn-06661469-n"], [4, "oewn-01016876-a"], [5, "oewn-00942956-n"], [6, "oewn-02610777-v"], [7, "oewn-00506343-s"], [10, "oewn-00687584-v"], [11, "oewn-07235754-n"], [13, "oewn-01730907-n"], [16, "oewn-01729333-n"], [18, "oewn-00334996-v"], [21, "oewn-01555990-a"], [22, "oewn-09408804-n"], [24, "oewn-02628315-v"], [26, "oewn-00040777-r"], [29, "oewn-00017907-r"], [31, "oewn-05906778-n"], [33, "oewn-00320765-n"], [34, "oewn-07958392-n"], [37, "oewn-08538806-n"], [40, "oewn-01103400-s"], [41, "oewn-01506930-v"], [43, "oewn-06745459-n"], [45, "oewn-00024432-r"], [46, "oewn-00666706-v"], [50, "oewn-02091950-a"], [51, "oewn-05619057-n"], [54, "oewn-13977471-n"], [56, "oewn-01730907-n"], [58, "oewn-01693107-n"], [61, "oewn-05906778-n"]]
     paragraph: '10'
     pos: ["DT", "NN", "IN", "DT", "JJ", "NN", "VBZ", "JJ", "IN", "WDT", "VBZ", "NNS", "IN", "NNS", ",", "IN", "NNS", "WDT", "VBP", "PRP", "IN", "JJ", "NNS", "CC", "VB", "IN", "RB", ",", "CC", "RB", "IN", "NNS", "IN", "NN", "NNS", "IN", "IN", "NNS", ":", "DT", "JJ", "VB", "IN", "NN", "VBZ", "RB", "VB", ",", "TO", "DT", "JJ", "NN", ",", "DT", "NN", "IN", "NN", ",", "NN", ",", "CC", "NNS", "."]
     text: ' The argument against this last approach is comparable_to that which rejects stories
@@ -473,7 +473,7 @@ Rsi+:
     wn30_key: [[1, "argument%1:10:02::"], [4, "last%3:00:00::"], [5, "approach%1:04:02::"], [6, "be%2:42:03::"], [7, "comparable_to%3:00:00:comparable:00"], [10, "reject%2:31:00::"], [11, "story%1:10:03::"], [13, "hoop_snake%1:05:00::"], [16, "snake%1:05:00::"], [18, "break%2:30:00::"], [21, "many%3:00:00::"], [22, "piece%1:17:00::"], [24, "join%2:42:01::"], [26, "again%4:02:00::"], [29, "even%4:02:00::"], [31, "ghost%1:09:00::"], [33, "chase%1:04:00::"], [34, "people%1:14:00::"], [37, "graveyard%1:15:00::"], [40, "mere%3:00:00:specified:00"], [41, "pile_up%2:35:00::"], [43, "testimony%1:10:01::"], [45, "not%4:02:00::"], [46, "prove%2:31:00::"], [50, "scientific%3:00:00::"], [51, "mind%1:09:00::"], [54, "existence%1:26:00::"], [56, "hoop_snake%1:05:00::"], [58, "joint_snake%1:05:00::"], [61, "ghost%1:09:00::"]]
 ox0k:
     lemmas: ["person", "have", "recently", "use", "the", "second", "level", "approach", "with", "the", "largest", "snake", ",", "and", "have", "come", "to", "these", "conclusion", ":"]
-    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-00108184-r"], [3, "oewn-01161188-v"], [5, "oewn-02209815-s"], [6, "oewn-14451564-n"], [7, "oewn-00942956-n"], [11, "oewn-01729333-n"], [15, "oewn-00543200-v"], [18, "oewn-05846685-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [2, "oewn-00108184-r"], [3, "oewn-01161188-v"], [5, "oewn-02209815-s"], [6, "oewn-14451564-n"], [7, "oewn-00942956-n"], [11, "oewn-01729333-n"], [15, "oewn-00543200-v"], [18, "oewn-05846685-n"]]
     paragraph: '11'
     pos: ["NNP", "VBZ", "RB", "VBN", "DT", "JJ", "NN", "NN", "IN", "DT", "JJ", "NNS", ",", "CC", "VBZ", "VBN", "VB", "DT", "NNS", ":"]
     text: ' Oliver has recently used the second level approach with the largest snakes, and
@@ -483,7 +483,7 @@ ox0k:
     wn30_key: [[0, "person%1:03:00::"], [2, "recently%4:02:00::"], [3, "use%2:34:01::"], [5, "second%3:00:00:ordinal:00"], [6, "level%1:26:01::"], [7, "approach%1:04:02::"], [11, "snake%1:05:00::"], [15, "come%2:30:03::"], [18, "conclusion%1:09:00::"]]
 igF2:
     lemmas: ["the", "anaconda", "reach", "a", "length", "of", "at_least", "37", "foot", ",", "the", "reticulate", "python", "33", ",", "the", "african", "rock_python", "25", ",", "the", "amethystine_python", "at_least", "22", ",", "the", "indian_python", "20", ",", "and", "the", "boa_constrictor", "18", "-", "12", "."]
-    oewn2026_key: [[1, "oewn-01745727-n"], [2, "oewn-02010848-v"], [4, "oewn-05136466-n"], [6, "oewn-00105032-r"], [8, "oewn-13671663-n"], [11, "oewn-02013324-a"], [12, "oewn-01746246-n"], [16, "oewn-02953127-a"], [17, "oewn-01747042-n"], [18, "oewn-02196456-s"], [21, "oewn-01747196-n"], [22, "oewn-00105032-r"], [23, "oewn-02196164-s"], [26, "oewn-01746911-n"], [27, "oewn-02195956-s"], [31, "oewn-01744813-n"], [32, "oewn-02195747-s"], [34, "oewn-02195104-s"]]
+    oewn_key: [[1, "oewn-01745727-n"], [2, "oewn-02010848-v"], [4, "oewn-05136466-n"], [6, "oewn-00105032-r"], [8, "oewn-13671663-n"], [11, "oewn-02013324-a"], [12, "oewn-01746246-n"], [16, "oewn-02953127-a"], [17, "oewn-01747042-n"], [18, "oewn-02196456-s"], [21, "oewn-01747196-n"], [22, "oewn-00105032-r"], [23, "oewn-02196164-s"], [26, "oewn-01746911-n"], [27, "oewn-02195956-s"], [31, "oewn-01744813-n"], [32, "oewn-02195747-s"], [34, "oewn-02195104-s"]]
     paragraph: '11'
     pos: ["DT", "NN", "VBZ", "DT", "NN", "IN", "RB", "CD", "NNS", ",", "DT", "JJ", "NN", "CD", ",", "DT", "JJ", "NN", "JJ", ",", "DT", "NN", "RB", "JJ", ",", "DT", "NN", "JJ", ",", "CC", "DT", "NN", "JJ", ":", "JJ", "."]
     text: ' the anaconda reaches a length of at_least 37 feet, the reticulate python 33, the
@@ -496,7 +496,7 @@ igF2:
     wn30_key: [[1, "anaconda%1:05:00::"], [2, "reach%2:38:00::"], [4, "length%1:07:00::"], [6, "at_least%4:02:00::"], [8, "foot%1:23:00::"], [11, "reticulate%3:00:00::"], [12, "python%1:05:00::"], [16, "african%3:01:00::"], [17, "rock_python%1:05:00::"], [18, "25%3:00:00:cardinal:00"], [21, "amethystine_python%1:05:00::"], [22, "at_least%4:02:00::"], [23, "22%3:00:00:cardinal:00"], [26, "indian_python%1:05:00::"], [27, "20%3:00:00:cardinal:00"], [31, "boa_constrictor%1:05:00::"], [32, "18%3:00:00:cardinal:00"], [34, "12%3:00:00:cardinal:00"]]
 rWM5:
     lemmas: ["person", "also", "treat", "of", "the", "largest", "snake", ",", "but", "on", "the", "third", "level", ",", "and", "be", "chiefly", "concern", "with", "the", "anaconda", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-00048072-r"], [2, "oewn-01035399-v"], [6, "oewn-01729333-n"], [11, "oewn-02209976-s"], [12, "oewn-14451564-n"], [16, "oewn-00074163-r"], [17, "oewn-02684248-v"], [20, "oewn-01745727-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-00048072-r"], [2, "oewn-01035399-v"], [6, "oewn-01729333-n"], [11, "oewn-02209976-s"], [12, "oewn-14451564-n"], [16, "oewn-00074163-r"], [17, "oewn-02684248-v"], [20, "oewn-01745727-n"]]
     paragraph: '12'
     pos: ["NN", "RB", "VBZ", "IN", "DT", "JJ", "NNS", ",", "CC", "IN", "DT", "JJ", "NN", ",", "CC", "VBZ", "RB", "VBN", "IN", "DT", "NN", "."]
     text: ' Bernard_Heuvelmans also treats of the largest snakes, but on the third level, and
@@ -506,7 +506,7 @@ rWM5:
     wn30_key: [[0, "person%1:03:00::"], [1, "also%4:02:00::"], [2, "treat%2:32:00::"], [6, "snake%1:05:00::"], [11, "third%3:00:00:ordinal:00"], [12, "level%1:26:01::"], [16, "chiefly%4:02:00::"], [17, "concern%2:42:01::"], [20, "anaconda%1:05:00::"]]
 ObTz:
     lemmas: ["He", "reason", "that", "as", "anaconda", "30", "foot", "long", "be", "often", "find", ",", "some", "might", "be", "38", ",", "and", "occasional", "\"", "monstrous", "freak", "\"", "over", "50", "."]
-    oewn2026_key: [[1, "oewn-00636134-v"], [4, "oewn-01745727-n"], [5, "oewn-02196945-s"], [6, "oewn-13671663-n"], [7, "oewn-01436368-a"], [9, "oewn-00035445-r"], [10, "oewn-02253273-v"], [14, "oewn-02610777-v"], [18, "oewn-01071104-s"], [20, "oewn-01392672-s"], [21, "oewn-10129212-n"], [24, "oewn-02198871-s"]]
+    oewn_key: [[1, "oewn-00636134-v"], [4, "oewn-01745727-n"], [5, "oewn-02196945-s"], [6, "oewn-13671663-n"], [7, "oewn-01436368-a"], [9, "oewn-00035445-r"], [10, "oewn-02253273-v"], [14, "oewn-02610777-v"], [18, "oewn-01071104-s"], [20, "oewn-01392672-s"], [21, "oewn-10129212-n"], [24, "oewn-02198871-s"]]
     paragraph: '12'
     pos: ["PRP", "VBZ", "IN", "IN", "NN", "JJ", "NNS", "JJ", "VBP", "RB", "VBN", ",", "DT", "MD", "VB", "CD", ",", "CC", "JJ", "``", "JJ", "NNS", "''", "IN", "JJ", "."]
     text: ' He reasons that as anacondas 30 feet long are often found, some might be 38, and
@@ -516,7 +516,7 @@ ObTz:
     wn30_key: [[1, "reason%2:31:01::"], [4, "anaconda%1:05:00::"], [5, "30%3:00:00:cardinal:00"], [6, "foot%1:23:00::"], [7, "long%3:00:01::"], [9, "often%4:02:00::"], [10, "find%2:40:02::"], [14, "be%2:42:03::"], [18, "occasional%3:00:00:infrequent:00"], [20, "monstrous%3:00:00:large:00"], [21, "freak%1:18:00::"], [24, "50%3:00:00:cardinal:00"]]
 gcrj:
     lemmas: ["He", "reject", "dimension", "of", "70", "foot", "and", "more", "."]
-    oewn2026_key: [[1, "oewn-00687584-v"], [2, "oewn-05100843-n"], [4, "oewn-02200780-s"], [5, "oewn-13671663-n"], [7, "oewn-01560748-a"]]
+    oewn_key: [[1, "oewn-00687584-v"], [2, "oewn-05100843-n"], [4, "oewn-02200780-s"], [5, "oewn-13671663-n"], [7, "oewn-01560748-a"]]
     paragraph: '12'
     pos: ["PRP", "VBZ", "NNS", "IN", "JJ", "NNS", "CC", "JJR", "."]
     text: ' He rejects dimensions of 70 feet and more.'
@@ -525,7 +525,7 @@ gcrj:
     wn30_key: [[1, "reject%2:31:00::"], [2, "dimension%1:07:00::"], [4, "70%3:00:00:cardinal:00"], [5, "foot%1:23:00::"], [7, "more%3:00:02::"]]
 tJxI:
     lemmas: ["His", "thirteenth", "chapter", "include", "many", "exciting", "account", "of", "huge", "serpent", "with", "prodigious", "strength", ",", "but", "these", "seem", "to", "be", "give", "to", "complete", "his", "picture", ",", "not", "to", "be", "believe", "."]
-    oewn2026_key: [[1, "oewn-02211432-s"], [2, "oewn-06407785-n"], [3, "oewn-02639021-v"], [4, "oewn-01555990-a"], [5, "oewn-00924255-a"], [6, "oewn-06526084-n"], [8, "oewn-01390253-s"], [9, "oewn-01729333-n"], [11, "oewn-01387664-s"], [12, "oewn-05036872-n"], [16, "oewn-02137900-v"], [19, "oewn-02344167-v"], [21, "oewn-00456705-v"], [23, "oewn-13960108-n"], [25, "oewn-00024432-r"], [28, "oewn-00685199-v"]]
+    oewn_key: [[1, "oewn-02211432-s"], [2, "oewn-06407785-n"], [3, "oewn-02639021-v"], [4, "oewn-01555990-a"], [5, "oewn-00924255-a"], [6, "oewn-06526084-n"], [8, "oewn-01390253-s"], [9, "oewn-01729333-n"], [11, "oewn-01387664-s"], [12, "oewn-05036872-n"], [16, "oewn-02137900-v"], [19, "oewn-02344167-v"], [21, "oewn-00456705-v"], [23, "oewn-13960108-n"], [25, "oewn-00024432-r"], [28, "oewn-00685199-v"]]
     paragraph: '12'
     pos: ["PRP$", "JJ", "NN", "VBZ", "JJ", "JJ", "NNS", "IN", "JJ", "NNS", "IN", "JJ", "NN", ",", "CC", "DT", "VBP", "TO", "VB", "VBN", "TO", "VB", "PRP$", "NN", ",", "RB", "TO", "VB", "VBN", "."]
     text: ' His thirteenth chapter includes many exciting accounts of huge serpents with prodigious
@@ -537,7 +537,7 @@ tJxI:
     wn30_key: [[1, "thirteenth%3:00:00:ordinal:00"], [2, "chapter%1:10:00::"], [3, "include%2:42:00::"], [4, "many%3:00:00::"], [5, "exciting%3:00:00::"], [6, "account%1:10:00::"], [8, "huge%3:00:01:large:00"], [9, "serpent%1:05:00::"], [11, "prodigious%3:00:00:large:00"], [12, "strength%1:07:00::"], [16, "seem%2:39:00::"], [19, "give%2:40:05::"], [21, "complete%2:30:00::"], [23, "picture%1:26:00::"], [25, "not%4:02:00::"], [28, "believe%2:31:00::"]]
 RV6Q:
     lemmas: ["detailed", "information", "on", "record", "length", "of", "the", "giant", "be", "give", "in", "the", "section", "that", "follow", "."]
-    oewn2026_key: [[0, "oewn-00311231-s"], [1, "oewn-06646883-n"], [4, "oewn-05136466-n"], [7, "oewn-01326422-n"], [9, "oewn-02240624-v"], [12, "oewn-06403644-n"], [14, "oewn-02726419-v"]]
+    oewn_key: [[0, "oewn-00311231-s"], [1, "oewn-06646883-n"], [4, "oewn-05136466-n"], [7, "oewn-01326422-n"], [9, "oewn-02240624-v"], [12, "oewn-06403644-n"], [14, "oewn-02726419-v"]]
     paragraph: '13'
     pos: ["JJ", "NN", "IN", "JJ", "NNS", "IN", "DT", "NNS", "VBZ", "VBN", "VB", "DT", "NN", "WDT", "VBZ", "."]
     text: ' Detailed information on record lengths of the giants is given in the section that
@@ -549,7 +549,7 @@ RV6Q:
     wn30_key: [[0, "detailed%3:00:00:careful:00"], [1, "information%1:10:00::"], [4, "length%1:07:00::"], [7, "giant%1:05:00::"], [9, "give%2:40:07::"], [12, "section%1:10:00::"], [14, "follow%2:42:02::"]]
 ywLm:
     lemmas: ["discussion", "of", "the", "giant", "one_by_one", "will", "include", ",", "as_far_as_possible", ",", "data", "on", "these", "aspect", "of", "growth", ":"]
-    oewn2026_key: [[0, "oewn-07152793-n"], [3, "oewn-01326422-n"], [4, "oewn-00157510-r"], [6, "oewn-02639021-v"], [8, "oewn-00120125-r"], [10, "oewn-08479331-n"], [13, "oewn-05859151-n"], [15, "oewn-13510240-n"]]
+    oewn_key: [[0, "oewn-07152793-n"], [3, "oewn-01326422-n"], [4, "oewn-00157510-r"], [6, "oewn-02639021-v"], [8, "oewn-00120125-r"], [10, "oewn-08479331-n"], [13, "oewn-05859151-n"], [15, "oewn-13510240-n"]]
     paragraph: '14'
     pos: ["NNS", "IN", "DT", "NNS", "RB", "MD", "VB", ",", "RB", ",", "NNS", "IN", "DT", "NNS", "IN", "NN", ":"]
     text: ' Discussions of the giants one_by_one will include, as_far_as_possible, data on these
@@ -559,7 +559,7 @@ ywLm:
     wn30_key: [[0, "discussion%1:10:02::"], [3, "giant%1:05:00::"], [4, "one_by_one%4:02:00::"], [6, "include%2:42:00::"], [8, "as_far_as_possible%4:02:01::"], [10, "data%1:14:00::"], [13, "aspect%1:09:00::"], [15, "growth%1:22:00::"]]
 y9qR:
     lemmas: ["size", "at", "which", "life", "be", "start", "and", "at", "which", "sexual", "maturity", "be", "reach", ";", "time", "require", "to", "reach", "maturity", ";", "rate_of_growth", "both", "before", "and", "after", "this", "crucial", "stage", ";", "and", "maximum", "length", ",", "with", "confirmation", "or", "amplification", "of", "person", "'s", "figure", "."]
-    oewn2026_key: [[0, "oewn-05106204-n"], [3, "oewn-15165365-n"], [5, "oewn-01654152-v"], [9, "oewn-02898882-a"], [10, "oewn-15177777-n"], [12, "oewn-02010848-v"], [14, "oewn-15295388-n"], [15, "oewn-02634015-v"], [17, "oewn-02010848-v"], [18, "oewn-15177777-n"], [20, "oewn-15303811-n"], [26, "oewn-00658802-a"], [27, "oewn-15315573-n"], [30, "oewn-01498873-a"], [31, "oewn-05136466-n"], [34, "oewn-05833569-n"], [36, "oewn-00372295-n"], [38, "oewn-00007846-n"], [40, "oewn-13763162-n"]]
+    oewn_key: [[0, "oewn-05106204-n"], [3, "oewn-15165365-n"], [5, "oewn-01654152-v"], [9, "oewn-02898882-a"], [10, "oewn-15177777-n"], [12, "oewn-02010848-v"], [14, "oewn-15295388-n"], [15, "oewn-02634015-v"], [17, "oewn-02010848-v"], [18, "oewn-15177777-n"], [20, "oewn-15303811-n"], [26, "oewn-00658802-a"], [27, "oewn-15315573-n"], [30, "oewn-01498873-a"], [31, "oewn-05136466-n"], [34, "oewn-05833569-n"], [36, "oewn-00372295-n"], [38, "oewn-00007846-n"], [40, "oewn-13763162-n"]]
     paragraph: '14'
     pos: ["NN", "IN", "WDT", "NN", "VBZ", "VBN", "CC", "IN", "WDT", "JJ", "NN", "VBZ", "VBN", ":", "NN", "VBN", "TO", "VB", "NN", ":", "NN", "DT", "RB", "CC", "IN", "DT", "JJ", "NN", ":", "CC", "JJ", "NN", ",", "IN", "NN", "CC", "NN", "IN", "NNP", "POS", "NNS", "."]
     text: ' size at which life is started and at which sexual maturity is reached; time required
@@ -570,7 +570,7 @@ y9qR:
     wn30_key: [[0, "size%1:07:00::"], [3, "life%1:28:00::"], [5, "start%2:36:01::"], [9, "sexual%3:01:01::"], [10, "maturity%1:28:00::"], [12, "reach%2:38:00::"], [14, "time%1:28:05::"], [15, "require%2:42:00::"], [17, "reach%2:38:00::"], [18, "maturity%1:28:00::"], [20, "rate_of_growth%1:28:00::"], [26, "crucial%3:00:00::"], [27, "stage%1:28:00::"], [30, "maximum%3:00:00::"], [31, "length%1:07:00::"], [34, "confirmation%1:09:00::"], [36, "amplification%1:04:02::"], [38, "person%1:03:00::"], [40, "figure%1:23:00::"]]
 7TNm:
     lemmas: ["definite", "information", "on", "the", "growth", "of", "senile", "individual", "be", "lack", "."]
-    oewn2026_key: [[0, "oewn-00703896-a"], [1, "oewn-06646883-n"], [4, "oewn-13510240-n"], [6, "oewn-01649738-s"], [7, "oewn-10223458-n"], [8, "oewn-02610777-v"], [9, "oewn-02638434-v"]]
+    oewn_key: [[0, "oewn-00703896-a"], [1, "oewn-06646883-n"], [4, "oewn-13510240-n"], [6, "oewn-01649738-s"], [7, "oewn-10223458-n"], [8, "oewn-02610777-v"], [9, "oewn-02638434-v"]]
     paragraph: '14'
     pos: ["JJ", "NN", "IN", "DT", "NN", "IN", "JJ", "NNS", "VBZ", "VBG", "."]
     text: ' Definite information on the growth of senile individuals is lacking.
@@ -581,7 +581,7 @@ y9qR:
     wn30_key: [[0, "definite%3:00:00::"], [1, "information%1:10:00::"], [4, "growth%1:22:00::"], [6, "senile%3:00:00:old:02"], [7, "individual%1:18:00::"], [8, "be%2:42:03::"], [9, "lack%2:42:00::"]]
 iimy:
     lemmas: ["at_birth", ",", "this", "species", "vary", "considerably", "in", "size", "."]
-    oewn2026_key: [[3, "oewn-08127339-n"], [4, "oewn-02667330-v"], [5, "oewn-00014747-r"], [7, "oewn-05106204-n"]]
+    oewn_key: [[3, "oewn-08127339-n"], [4, "oewn-02667330-v"], [5, "oewn-00014747-r"], [7, "oewn-05106204-n"]]
     paragraph: '15'
     pos: ["RB", ",", "DT", "NN", "VBZ", "RB", "IN", "NN", "."]
     text: ' At_birth, this species varies considerably in size.'
@@ -590,7 +590,7 @@ iimy:
     wn30_key: [[3, "species%1:14:00::"], [4, "vary%2:42:00::"], [5, "considerably%4:02:01::"], [7, "size%1:07:00::"]]
 sP8T:
     lemmas: ["A", "brood", "of", "twenty-eight", "bear", "at", "group", ",", "near", "location", ",", "range", "in_length", "from", "22", "to", "33", "-", "1", "2", "inch", "and", "average", "29", "inch", "."]
-    oewn2026_key: [[1, "oewn-08007266-n"], [3, "oewn-13771286-n"], [4, "oewn-00056644-v"], [6, "oewn-00031563-n"], [9, "oewn-00027365-n"], [11, "oewn-02732914-v"], [14, "oewn-02196164-s"], [18, "oewn-02193977-s"], [19, "oewn-02194109-s"], [20, "oewn-13671409-n"], [22, "oewn-02651473-v"], [23, "oewn-02196848-s"], [24, "oewn-13671409-n"]]
+    oewn_key: [[1, "oewn-08007266-n"], [3, "oewn-13771286-n"], [4, "oewn-00056644-v"], [6, "oewn-00031563-n"], [9, "oewn-00027365-n"], [11, "oewn-02732914-v"], [14, "oewn-02196164-s"], [18, "oewn-02193977-s"], [19, "oewn-02194109-s"], [20, "oewn-13671409-n"], [22, "oewn-02651473-v"], [23, "oewn-02196848-s"], [24, "oewn-13671409-n"]]
     paragraph: '15'
     pos: ["DT", "NN", "IN", "NN", "VBN", "IN", "NN", ",", "IN", "NNP", ",", "VBD", "JJ", "IN", "JJ", "TO", "CD", ":", "JJ", "JJ", "NNS", "CC", "VBD", "JJ", "NNS", "."]
     text: ' A brood of twenty-eight born at Brookfield_Zoo, near Chicago, ranged in_length from
@@ -600,7 +600,7 @@ sP8T:
     wn30_key: [[1, "brood%1:14:00::"], [3, "twenty-eight%1:23:00::"], [4, "bear%2:29:01::"], [6, "group%1:03:00::"], [9, "location%1:03:00::"], [11, "range%2:42:01::"], [14, "22%3:00:00:cardinal:00"], [18, "1%3:00:00:cardinal:00"], [19, "2%3:00:00:cardinal:00"], [20, "inch%1:23:00::"], [22, "average%2:42:00::"], [23, "29%3:00:00:cardinal:00"], [24, "inch%1:23:00::"]]
 zJlH:
     lemmas: ["person", "give", "measurement", "of", "nineteen", "young", "anaconda", ",", "presumably", "member", "of", "a", "brood", ",", "from", "\"", "location", "\"", ";", "the", "extreme", "measurement", "of", "these", "fall", "between", "the", "lower_limit", "of", "the", "group", "brood", "and", "its", "average", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-02240624-v"], [4, "oewn-02195844-s"], [5, "oewn-01651383-a"], [6, "oewn-01745727-n"], [8, "oewn-00054490-r"], [9, "oewn-10326901-n"], [12, "oewn-08007266-n"], [16, "oewn-00027365-n"], [20, "oewn-08586694-n"], [24, "oewn-02735838-v"], [27, "oewn-13785524-n"], [30, "oewn-00031563-n"], [31, "oewn-08007266-n"], [34, "oewn-06031110-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-02240624-v"], [4, "oewn-02195844-s"], [5, "oewn-01651383-a"], [6, "oewn-01745727-n"], [8, "oewn-00054490-r"], [9, "oewn-10326901-n"], [12, "oewn-08007266-n"], [16, "oewn-00027365-n"], [20, "oewn-08586694-n"], [24, "oewn-02735838-v"], [27, "oewn-13785524-n"], [30, "oewn-00031563-n"], [31, "oewn-08007266-n"], [34, "oewn-06031110-n"]]
     paragraph: '15'
     pos: ["NN", "VBZ", "NN", "IN", "JJ", "JJ", "NNS", ",", "RB", "NNS", "IN", "DT", "NN", ",", "IN", "``", "NN", "''", ":", "DT", "NN", "NN", "IN", "DT", "VB", "IN", "DT", "NN", "IN", "DT", "NNP", "NN", "CC", "PRP$", "NN", "."]
     text: ' Lawrence_E_._Griffin gives measurements of nineteen young anacondas, presumably
@@ -611,7 +611,7 @@ zJlH:
     wn30_key: [[0, "person%1:03:00::"], [1, "give%2:40:07::"], [4, "nineteen%3:00:00:cardinal:00"], [5, "young%3:00:00::"], [6, "anaconda%1:05:00::"], [8, "presumably%4:02:00::"], [9, "member%1:18:00::"], [12, "brood%1:14:00::"], [16, "location%1:03:00::"], [20, "extreme%1:15:00::"], [24, "fall%2:42:03::"], [27, "lower_limit%1:23:00::"], [30, "group%1:03:00::"], [31, "brood%1:14:00::"], [34, "average%1:09:00::"]]
 bMoV:
     lemmas: ["person", "have", "two", "brood", "that", "average", "27", "inch", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-02208144-v"], [2, "oewn-02194109-s"], [3, "oewn-08007266-n"], [5, "oewn-02651473-v"], [6, "oewn-02196647-s"], [7, "oewn-13671409-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-02208144-v"], [2, "oewn-02194109-s"], [3, "oewn-08007266-n"], [5, "oewn-02651473-v"], [6, "oewn-02196647-s"], [7, "oewn-13671409-n"]]
     paragraph: '15'
     pos: ["NNS", "VBD", "JJ", "NNS", "WDT", "VBD", "JJ", "NNS", "."]
     text: ' Raymond_L_._Ditmars had two broods that averaged 27 inches.'
@@ -620,7 +620,7 @@ bMoV:
     wn30_key: [[0, "person%1:03:00::"], [1, "have%2:40:00::"], [2, "two%3:00:00:cardinal:00"], [3, "brood%1:14:00::"], [5, "average%2:42:00::"], [6, "27%3:00:00:cardinal:00"], [7, "inch%1:23:00::"]]
 wQFz:
     lemmas: ["person", "and", "person", "give", "approximately", "20", "inch", "as", "the", "average", "length", "of", "a", "brood", "of", "thirty", "from", "the", "region", "of", "the", "orinoco", "estuary", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-00007846-n"], [3, "oewn-02240624-v"], [4, "oewn-00007414-r"], [5, "oewn-02195956-s"], [6, "oewn-13671409-n"], [9, "oewn-01598728-s"], [10, "oewn-05136466-n"], [13, "oewn-08007266-n"], [15, "oewn-13771547-n"], [18, "oewn-08647614-n"], [21, "oewn-09402850-n"], [22, "oewn-09297406-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [2, "oewn-00007846-n"], [3, "oewn-02240624-v"], [4, "oewn-00007414-r"], [5, "oewn-02195956-s"], [6, "oewn-13671409-n"], [9, "oewn-01598728-s"], [10, "oewn-05136466-n"], [13, "oewn-08007266-n"], [15, "oewn-13771547-n"], [18, "oewn-08647614-n"], [21, "oewn-09402850-n"], [22, "oewn-09297406-n"]]
     paragraph: '15'
     pos: ["NN", "CC", "NN", "VBP", "RB", "JJ", "NNS", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "IN", "NN", "IN", "DT", "NN", "IN", "DT", "NNP", "NNS", "."]
     text: ' R_._R_._Mole and F_._W_._Urich give approximately 20 inches as the average length
@@ -630,7 +630,7 @@ wQFz:
     wn30_key: [[0, "person%1:03:00::"], [2, "person%1:03:00::"], [3, "give%2:40:07::"], [4, "approximately%4:02:00::"], [5, "20%3:00:00:cardinal:00"], [6, "inch%1:23:00::"], [9, "average%3:00:02:normal:01"], [10, "length%1:07:00::"], [13, "brood%1:14:00::"], [15, "thirty%1:23:00::"], [18, "region%1:15:00::"], [21, "orinoco%1:17:00::"], [22, "estuary%1:17:00::"]]
 WRe8:
     lemmas: ["person", "report", "26", "inch", "and", "2.4", "ounce", "(", "this", "snake", "must", "have", "be", "emaciated", ")", "for", "the", "length", "and", "the", "weight", "of", "a", "young", "anaconda", "from", "location", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-07233130-n"], [2, "oewn-02196552-s"], [3, "oewn-13671409-n"], [6, "oewn-13744627-n"], [9, "oewn-01729333-n"], [12, "oewn-02610777-v"], [13, "oewn-00992194-s"], [17, "oewn-05136466-n"], [20, "oewn-05034009-n"], [23, "oewn-01651383-a"], [24, "oewn-01745727-n"], [26, "oewn-00027365-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-07233130-n"], [2, "oewn-02196552-s"], [3, "oewn-13671409-n"], [6, "oewn-13744627-n"], [9, "oewn-01729333-n"], [12, "oewn-02610777-v"], [13, "oewn-00992194-s"], [17, "oewn-05136466-n"], [20, "oewn-05034009-n"], [23, "oewn-01651383-a"], [24, "oewn-01745727-n"], [26, "oewn-00027365-n"]]
     paragraph: '15'
     pos: ["NN", "NN", "JJ", "NNS", "CC", "CD", "NNS", "VBP", "DT", "NN", "MD", "VB", "VBN", "JJ", "NN", "IN", "DT", "NN", "CC", "DT", "NN", "IN", "DT", "JJ", "NN", "IN", "NN", "."]
     text: ' William_Beebe reports 26 inches and 2.4 ounces (this snake must have been emaciated)
@@ -640,7 +640,7 @@ WRe8:
     wn30_key: [[0, "person%1:03:00::"], [1, "report%1:10:03::"], [2, "26%3:00:00:cardinal:00"], [3, "inch%1:23:00::"], [6, "ounce%1:23:02::"], [9, "snake%1:05:00::"], [12, "be%2:42:03::"], [13, "emaciated%3:00:00:thin:03"], [17, "length%1:07:00::"], [20, "weight%1:07:00::"], [23, "young%3:00:00::"], [24, "anaconda%1:05:00::"], [26, "location%1:03:00::"]]
 a1Ld:
     lemmas: ["In", "contrast", ",", "person", "record", "the", "average", "length", "of", "seventy-two", "young", "of", "a", "19", "-", "foot", "female", "as", "38", "inch", ",", "and", "four", "young", "be_born", "in", "location", "at", "a", "length", "of", "35", "or", "36", "inch", "and", "a", "weight", "of", "from", "14", "to", "16", "ounce", "."]
-    oewn2026_key: [[1, "oewn-00653056-n"], [3, "oewn-00007846-n"], [4, "oewn-01002259-v"], [6, "oewn-01598728-s"], [7, "oewn-05136466-n"], [10, "oewn-01324070-n"], [13, "oewn-02195844-s"], [15, "oewn-13671663-n"], [16, "oewn-01323363-n"], [19, "oewn-13671409-n"], [22, "oewn-02194304-s"], [23, "oewn-01324070-n"], [24, "oewn-00361585-v"], [26, "oewn-00027365-n"], [29, "oewn-05136466-n"], [34, "oewn-13671409-n"], [37, "oewn-05034009-n"], [40, "oewn-02195338-s"], [42, "oewn-02195542-s"], [43, "oewn-13744627-n"]]
+    oewn_key: [[1, "oewn-00653056-n"], [3, "oewn-00007846-n"], [4, "oewn-01002259-v"], [6, "oewn-01598728-s"], [7, "oewn-05136466-n"], [10, "oewn-01324070-n"], [13, "oewn-02195844-s"], [15, "oewn-13671663-n"], [16, "oewn-01323363-n"], [19, "oewn-13671409-n"], [22, "oewn-02194304-s"], [23, "oewn-01324070-n"], [24, "oewn-00361585-v"], [26, "oewn-00027365-n"], [29, "oewn-05136466-n"], [34, "oewn-13671409-n"], [37, "oewn-05034009-n"], [40, "oewn-02195338-s"], [42, "oewn-02195542-s"], [43, "oewn-13744627-n"]]
     paragraph: '15'
     pos: ["IN", "NN", ",", "NNP", "VBD", "DT", "JJ", "NN", "IN", "JJ", "NN", "IN", "DT", "JJ", ":", "NN", "NN", "IN", "CD", "NNS", ",", "CC", "JJ", "NN", "VB", "IN", "NNP", "IN", "DT", "NN", "IN", "CD", "CC", "CD", "NNS", "CC", "DT", "NN", "RB", "IN", "JJ", "TO", "JJ", "NNS", "."]
     text: ' In contrast, Ditmars recorded the average length of seventy-two young of a 19 -
@@ -651,7 +651,7 @@ a1Ld:
     wn30_key: [[1, "contrast%1:04:00::"], [3, "person%1:03:00::"], [4, "record%2:32:00::"], [6, "average%3:00:02:normal:01"], [7, "length%1:07:00::"], [10, "young%1:05:00::"], [13, "19%3:00:00:cardinal:00"], [15, "foot%1:23:00::"], [16, "female%1:05:00::"], [19, "inch%1:23:00::"], [22, "four%3:00:00:cardinal:00"], [23, "young%1:05:00::"], [24, "be_born%2:30:00::"], [26, "location%1:03:00::"], [29, "length%1:07:00::"], [34, "inch%1:23:00::"], [37, "weight%1:07:00::"], [40, "14%3:00:00:cardinal:00"], [42, "16%3:00:00:cardinal:00"], [43, "ounce%1:23:02::"]]
 I1SJ:
     lemmas: ["person", "have", "a", "3", "-", "foot", "anaconda", "that", "weigh", "only", "9.8", "ounce", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-02208144-v"], [3, "oewn-02194219-s"], [5, "oewn-13671663-n"], [6, "oewn-01745727-n"], [8, "oewn-02710678-v"], [9, "oewn-00005103-r"], [11, "oewn-13744627-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-02208144-v"], [3, "oewn-02194219-s"], [5, "oewn-13671663-n"], [6, "oewn-01745727-n"], [8, "oewn-02710678-v"], [9, "oewn-00005103-r"], [11, "oewn-13744627-n"]]
     paragraph: '15'
     pos: ["NNP", "VBD", "DT", "JJ", ":", "NN", "NN", "WDT", "VBD", "RB", "CD", "NNS", "."]
     text: ' Beebe had a 3 - foot anaconda that weighed only 9.8 ounces.'
@@ -660,7 +660,7 @@ I1SJ:
     wn30_key: [[0, "person%1:03:00::"], [1, "have%2:40:00::"], [3, "3%3:00:00:cardinal:00"], [5, "foot%1:23:00::"], [6, "anaconda%1:05:00::"], [8, "weigh%2:42:01::"], [9, "only%4:02:02::"], [11, "ounce%1:23:02::"]]
 0vTb:
     lemmas: ["A", "difference", "between", "subspecies", "might", "explain", "the", "great", "range", "in", "size", "."]
-    oewn2026_key: [[1, "oewn-04756076-n"], [3, "oewn-08127614-n"], [5, "oewn-00894956-v"], [7, "oewn-01389817-s"], [8, "oewn-05132642-n"], [10, "oewn-05106204-n"]]
+    oewn_key: [[1, "oewn-04756076-n"], [3, "oewn-08127614-n"], [5, "oewn-00894956-v"], [7, "oewn-01389817-s"], [8, "oewn-05132642-n"], [10, "oewn-05106204-n"]]
     paragraph: '15'
     pos: ["DT", "NN", "IN", "NNS", "MD", "VB", "DT", "JJ", "NN", "IN", "NN", "."]
     text: ' A difference between subspecies might explain the great range in size.
@@ -671,7 +671,7 @@ I1SJ:
     wn30_key: [[1, "difference%1:07:00::"], [3, "subspecies%1:14:00::"], [5, "explain%2:32:02::"], [7, "great%3:00:01:large:00"], [8, "range%1:07:00::"], [10, "size%1:07:00::"]]
 MKd6:
     lemmas: ["I", "have", "little", "information", "on", "the", "anaconda", "'s", "rate_of_growth", "."]
-    oewn2026_key: [[1, "oewn-02208144-v"], [2, "oewn-01558903-a"], [3, "oewn-06646883-n"], [6, "oewn-01745727-n"], [8, "oewn-15303811-n"]]
+    oewn_key: [[1, "oewn-02208144-v"], [2, "oewn-01558903-a"], [3, "oewn-06646883-n"], [6, "oewn-01745727-n"], [8, "oewn-15303811-n"]]
     paragraph: '16'
     pos: ["PRP", "VBP", "JJ", "NN", "IN", "DT", "NN", "POS", "NN", "."]
     text: ' I have little information on the anaconda''s rate_of_growth.'
@@ -680,7 +680,7 @@ MKd6:
     wn30_key: [[1, "have%2:40:00::"], [2, "little%3:00:03::"], [3, "information%1:10:00::"], [6, "anaconda%1:05:00::"], [8, "rate_of_growth%1:28:00::"]]
 BZTs:
     lemmas: ["person", "have", "one", "that", "increase", "from", "19", "-", "1", "2", "inch", "to", "5", "foot", "3", "inch", "in", "five", "year", ",", "and", "person", "record", "a", "growth", "of", "from", "less_than", "4", "foot", "to", "nearly", "10", "in", "about", "six", "year", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [1, "oewn-02208144-v"], [4, "oewn-00156409-v"], [6, "oewn-02195844-s"], [10, "oewn-13735405-n"], [12, "oewn-02194389-s"], [13, "oewn-13671663-n"], [14, "oewn-02194219-s"], [15, "oewn-13735405-n"], [17, "oewn-02194389-s"], [18, "oewn-15228587-n"], [21, "oewn-00007846-n"], [22, "oewn-01002259-v"], [24, "oewn-13510240-n"], [28, "oewn-02194304-s"], [29, "oewn-13671663-n"], [31, "oewn-00073433-r"], [32, "oewn-02194935-s"], [35, "oewn-02194472-s"], [36, "oewn-15228587-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-02208144-v"], [4, "oewn-00156409-v"], [6, "oewn-02195844-s"], [10, "oewn-13735405-n"], [12, "oewn-02194389-s"], [13, "oewn-13671663-n"], [14, "oewn-02194219-s"], [15, "oewn-13735405-n"], [17, "oewn-02194389-s"], [18, "oewn-15228587-n"], [21, "oewn-00007846-n"], [22, "oewn-01002259-v"], [24, "oewn-13510240-n"], [28, "oewn-02194304-s"], [29, "oewn-13671663-n"], [31, "oewn-00073433-r"], [32, "oewn-02194935-s"], [35, "oewn-02194472-s"], [36, "oewn-15228587-n"]]
     paragraph: '16'
     pos: ["NN", "VBD", "NN", "WDT", "VBD", "IN", "JJ", ":", "CD", "CD", "NNS", "TO", "JJ", "NNS", "JJ", "NNS", "IN", "JJ", "NNS", ",", "CC", "NN", "VB", "DT", "NN", "RB", "IN", "RB", "JJ", "NNS", "TO", "RB", "JJ", "IN", "IN", "JJ", "NNS", "."]
     text: ' Hans_Schweizer had one that increased from 19 - 1 2 inches to 5 feet 3 inches in
@@ -691,7 +691,7 @@ BZTs:
     wn30_key: [[0, "person%1:03:00::"], [1, "have%2:40:00::"], [4, "increase%2:30:00::"], [6, "19%3:00:00:cardinal:00"], [10, "inch%1:23:02::"], [12, "5%3:00:00:cardinal:00"], [13, "foot%1:23:00::"], [14, "3%3:00:00:cardinal:00"], [15, "inch%1:23:02::"], [17, "five%3:00:00:cardinal:00"], [18, "year%1:28:01::"], [21, "person%1:03:00::"], [22, "record%2:32:00::"], [24, "growth%1:22:00::"], [28, "4%3:00:00:cardinal:00"], [29, "foot%1:23:00::"], [31, "nearly%4:02:00::"], [32, "10%3:00:00:cardinal:00"], [35, "six%3:00:00:cardinal:00"], [36, "year%1:28:01::"]]
 4Cab:
     lemmas: ["It", "be", "very", "unlikely", "that", "either", "of", "these", "anaconda", "be", "grow", "at", "a", "normal", "rate", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-00032295-r"], [3, "oewn-01415272-a"], [8, "oewn-01745727-n"], [10, "oewn-00231983-v"], [13, "oewn-01598231-a"], [14, "oewn-15311467-n"]]
+    oewn_key: [[1, "oewn-02610777-v"], [2, "oewn-00032295-r"], [3, "oewn-01415272-a"], [8, "oewn-01745727-n"], [10, "oewn-00231983-v"], [13, "oewn-01598231-a"], [14, "oewn-15311467-n"]]
     paragraph: '16'
     pos: ["PRP", "VBZ", "RB", "JJ", "IN", "DT", "IN", "DT", "NNS", "VBD", "VBG", "IN", "DT", "JJ", "NN", "."]
     text: ' It is very unlikely that either of these anacondas was growing at a normal rate.
@@ -702,7 +702,7 @@ BZTs:
     wn30_key: [[1, "be%2:42:03::"], [2, "very%4:02:00::"], [3, "unlikely%3:00:00::"], [8, "anaconda%1:05:00::"], [10, "grow%2:30:02::"], [13, "normal%3:00:01::"], [14, "rate%1:28:00::"]]
 bGhP:
     lemmas: ["In", "1948", ",", "person", ",", "the", "noted", "brazilian", "herpetologist", ",", "write", "a", "technical", "paper", "on", "the", "giant", "snake", "."]
-    oewn2026_key: [[3, "oewn-00007846-n"], [6, "oewn-01378757-s"], [7, "oewn-02978374-a"], [8, "oewn-10192340-n"], [10, "oewn-01702148-v"], [12, "oewn-01112409-a"], [13, "oewn-06421395-n"], [16, "oewn-01388707-s"], [17, "oewn-01729333-n"]]
+    oewn_key: [[3, "oewn-00007846-n"], [6, "oewn-01378757-s"], [7, "oewn-02978374-a"], [8, "oewn-10192340-n"], [10, "oewn-01702148-v"], [12, "oewn-01112409-a"], [13, "oewn-06421395-n"], [16, "oewn-01388707-s"], [17, "oewn-01729333-n"]]
     paragraph: '17'
     pos: ["IN", "CD", ",", "NN", ",", "DT", "JJ", "JJ", "NN", ",", "VBD", "DT", "JJ", "NN", "IN", "DT", "JJ", "NNS", "."]
     text: ' In 1948, Afranio_do_Amaral, the noted Brazilian herpetologist, wrote a technical
@@ -712,7 +712,7 @@ bGhP:
     wn30_key: [[3, "person%1:03:00::"], [6, "noted%3:00:00:known:00"], [7, "brazilian%3:01:00::"], [8, "herpetologist%1:18:00::"], [10, "write%2:36:02::"], [12, "technical%3:00:00::"], [13, "paper%1:10:01::"], [16, "giant%3:00:00:large:00"], [17, "snake%1:05:00::"]]
 kNGW:
     lemmas: ["He", "conclude", "that", "the", "anaconda", "'s", "maximum", "length", "be", "12", "or", "13", "(", "perhaps", "14", ")", "meter", ",", "which", "would", "approximate", "from", "39", "to", "42", "foot", "(", "14", "meter", "be", "slightly", "less", "that", "46", "foot", ")", "."]
-    oewn2026_key: [[1, "oewn-00636134-v"], [4, "oewn-01745727-n"], [6, "oewn-01498873-a"], [7, "oewn-05136466-n"], [8, "oewn-02610777-v"], [9, "oewn-02195104-s"], [11, "oewn-02195245-s"], [13, "oewn-00301501-r"], [14, "oewn-02195338-s"], [16, "oewn-13681046-n"], [20, "oewn-02672137-v"], [25, "oewn-13671663-n"], [27, "oewn-02195338-s"], [28, "oewn-13681046-n"], [29, "oewn-02610777-v"], [30, "oewn-00036695-r"], [31, "oewn-01559809-a"], [34, "oewn-13671663-n"]]
+    oewn_key: [[1, "oewn-00636134-v"], [4, "oewn-01745727-n"], [6, "oewn-01498873-a"], [7, "oewn-05136466-n"], [8, "oewn-02610777-v"], [9, "oewn-02195104-s"], [11, "oewn-02195245-s"], [13, "oewn-00301501-r"], [14, "oewn-02195338-s"], [16, "oewn-13681046-n"], [20, "oewn-02672137-v"], [25, "oewn-13671663-n"], [27, "oewn-02195338-s"], [28, "oewn-13681046-n"], [29, "oewn-02610777-v"], [30, "oewn-00036695-r"], [31, "oewn-01559809-a"], [34, "oewn-13671663-n"]]
     paragraph: '17'
     pos: ["PRP", "VBD", "IN", "DT", "NN", "POS", "JJ", "NN", "VBZ", "JJ", "CC", "JJ", "NN", "RB", "JJ", "CD", "NNS", ",", "WDT", "MD", "VB", "IN", "CD", "TO", "CD", "NNS", "JJ", "JJ", "NNS", "VBZ", "RB", "JJR", "IN", "CD", "NNS", "CD", "."]
     text: ' He concluded that the anaconda''s maximum length is 12 or 13 (perhaps 14) meters,
@@ -722,7 +722,7 @@ kNGW:
     wn30_key: [[1, "conclude%2:31:00::"], [4, "anaconda%1:05:00::"], [6, "maximum%3:00:00::"], [7, "length%1:07:00::"], [8, "be%2:42:03::"], [9, "12%3:00:00:cardinal:00"], [11, "13%3:00:00:cardinal:00"], [13, "perhaps%4:02:00::"], [14, "14%3:00:00:cardinal:00"], [16, "meter%1:23:00::"], [20, "approximate%2:42:00::"], [25, "foot%1:23:00::"], [27, "14%3:00:00:cardinal:00"], [28, "meter%1:23:00::"], [29, "be%2:42:04::"], [30, "slightly%4:02:01::"], [31, "less%3:00:00::"], [34, "foot%1:23:00::"]]
 Aaob:
     lemmas: ["thus", ",", "his", "estimate", "lie", "between", "person", "'s", "suggestion", "of", "at_least", "37", "foot", "and", "the", "50", "-", "foot", "\"", "monstrous", "freak", "\"", "intimate", "by", "person", "."]
-    oewn2026_key: [[0, "oewn-00043413-r"], [3, "oewn-05811387-n"], [4, "oewn-02696550-v"], [6, "oewn-00007846-n"], [8, "oewn-07177331-n"], [10, "oewn-00105032-r"], [12, "oewn-13671663-n"], [15, "oewn-02198871-s"], [17, "oewn-13671663-n"], [19, "oewn-01392672-s"], [20, "oewn-10129212-n"], [22, "oewn-00932768-v"], [24, "oewn-00007846-n"]]
+    oewn_key: [[0, "oewn-00043413-r"], [3, "oewn-05811387-n"], [4, "oewn-02696550-v"], [6, "oewn-00007846-n"], [8, "oewn-07177331-n"], [10, "oewn-00105032-r"], [12, "oewn-13671663-n"], [15, "oewn-02198871-s"], [17, "oewn-13671663-n"], [19, "oewn-01392672-s"], [20, "oewn-10129212-n"], [22, "oewn-00932768-v"], [24, "oewn-00007846-n"]]
     paragraph: '17'
     pos: ["RB", ",", "PRP$", "NN", "VBZ", "IN", "NNP", "POS", "NN", "IN", "RB", "CD", "NNS", "CC", "DT", "JJ", ":", "NN", "''", "JJ", "NNS", "''", "VBN", "IN", "NNPS", "."]
     text: ' Thus, his estimate lies between Oliver''s suggestion of at_least 37 feet and the
@@ -734,7 +734,7 @@ Aaob:
     wn30_key: [[0, "thus%4:02:00::"], [3, "estimate%1:09:00::"], [4, "lie%2:42:00::"], [6, "person%1:03:00::"], [8, "suggestion%1:10:00::"], [10, "at_least%4:02:00::"], [12, "foot%1:23:00::"], [15, "50%3:00:00:cardinal:00"], [17, "foot%1:23:00::"], [19, "monstrous%3:00:00:large:00"], [20, "freak%1:18:00::"], [22, "intimate%2:32:01::"], [24, "person%1:03:00::"]]
 30Vl:
     lemmas: ["The", "most", "convincing", "recent", "measurement", "of", "an", "anaconda", "be", "make", "in", "eastern", "location", "by", "person", ",", "a", "petroleum_geologist", "of", "the", "group", ",", "and", "report", "in", "1944", "by", "person", "."]
-    oewn2026_key: [[1, "oewn-00112352-r"], [2, "oewn-00617613-a"], [3, "oewn-01646919-s"], [7, "oewn-01745727-n"], [9, "oewn-02566500-v"], [11, "oewn-00827400-s"], [12, "oewn-00027365-n"], [14, "oewn-00007846-n"], [17, "oewn-10440137-n"], [20, "oewn-00031563-n"], [23, "oewn-00968841-v"], [27, "oewn-00007846-n"]]
+    oewn_key: [[1, "oewn-00112352-r"], [2, "oewn-00617613-a"], [3, "oewn-01646919-s"], [7, "oewn-01745727-n"], [9, "oewn-02566500-v"], [11, "oewn-00827400-s"], [12, "oewn-00027365-n"], [14, "oewn-00007846-n"], [17, "oewn-10440137-n"], [20, "oewn-00031563-n"], [23, "oewn-00968841-v"], [27, "oewn-00007846-n"]]
     paragraph: '18'
     pos: ["RB", "RBS", "JJ", "JJ", "NN", "IN", "DT", "NN", "VBD", "VBN", "IN", "JJ", "NNP", "IN", "NNP", ",", "DT", "NN", "IN", "DT", "NN", ",", "CC", "VBD", "IN", "CD", "IN", "NN", "."]
     text: ' The most convincing recent measurement of an anaconda was made in eastern Colombia
@@ -745,7 +745,7 @@ Aaob:
     wn30_key: [[1, "most%4:02:00::"], [2, "convincing%3:00:00::"], [3, "recent%3:00:00:new:00"], [7, "anaconda%1:05:00::"], [9, "make%2:41:00::"], [11, "eastern%3:00:02:east:00"], [12, "location%1:03:00::"], [14, "person%1:03:00::"], [17, "petroleum_geologist%1:18:00::"], [20, "group%1:03:00::"], [23, "report%2:32:04::"], [27, "person%1:03:00::"]]
 Q7sE:
     lemmas: ["however", ",", "as", "a", "field", "measurement", ",", "it", "be", "open_to", "question", "."]
-    oewn2026_key: [[0, "oewn-00027761-r"], [4, "oewn-08587306-n"], [8, "oewn-02610777-v"], [10, "oewn-07208256-n"]]
+    oewn_key: [[0, "oewn-00027761-r"], [4, "oewn-08587306-n"], [8, "oewn-02610777-v"], [10, "oewn-07208256-n"]]
     paragraph: '18'
     pos: ["RB", ",", "IN", "DT", "NN", "NN", ",", "PRP", "VBZ", "JJ", "NN", "."]
     text: ' However, as a field measurement, it is open_to question.'
@@ -754,7 +754,7 @@ Q7sE:
     wn30_key: [[0, "however%4:02:00::"], [4, "field%1:15:01::"], [8, "be%2:42:03::"], [10, "question%1:10:00::"]]
 kRiS:
     lemmas: ["person", "'s", "37", "-", "1", "2", "foot", "be", "partly", "based", "on", "this", "report", "and", "can", "be", "accept", "as", "probable", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [6, "oewn-13671663-n"], [7, "oewn-02610777-v"], [8, "oewn-00008102-r"], [9, "oewn-02359603-s"], [12, "oewn-07232584-n"], [16, "oewn-00688348-v"], [18, "oewn-01416084-a"]]
+    oewn_key: [[0, "oewn-00007846-n"], [6, "oewn-13671663-n"], [7, "oewn-02610777-v"], [8, "oewn-00008102-r"], [9, "oewn-02359603-s"], [12, "oewn-07232584-n"], [16, "oewn-00688348-v"], [18, "oewn-01416084-a"]]
     paragraph: '18'
     pos: ["NNP", "POS", "CD", ":", "CD", "CD", "NNS", "VBZ", "RB", "JJ", "IN", "DT", "NN", "CC", "MD", "VB", "VBN", "IN", "JJ", "."]
     text: ' Oliver''s 37 - 1 2 feet is partly based on this report and can be accepted as probable.'
@@ -763,7 +763,7 @@ kRiS:
     wn30_key: [[0, "person%1:03:00::"], [6, "foot%1:23:00::"], [7, "be%2:42:03::"], [8, "partly%4:02:00::"], [9, "based%3:00:00:supported:00"], [12, "report%1:10:01::"], [16, "accept%2:31:00::"], [18, "probable%3:00:00::"]]
 EYoA:
     lemmas: ["however", ",", "many", "herpetologist", "remain", "skeptical", "and", "would", "prefer", "a", "tentative", "maximum", "of", "about", "30", "foot", "."]
-    oewn2026_key: [[0, "oewn-00027761-r"], [2, "oewn-01555990-a"], [3, "oewn-10192340-n"], [4, "oewn-00117793-v"], [5, "oewn-00650269-s"], [8, "oewn-00681308-v"], [10, "oewn-00558544-s"], [11, "oewn-13798337-n"], [14, "oewn-02196945-s"], [15, "oewn-13671663-n"]]
+    oewn_key: [[0, "oewn-00027761-r"], [2, "oewn-01555990-a"], [3, "oewn-10192340-n"], [4, "oewn-00117793-v"], [5, "oewn-00650269-s"], [8, "oewn-00681308-v"], [10, "oewn-00558544-s"], [11, "oewn-13798337-n"], [14, "oewn-02196945-s"], [15, "oewn-13671663-n"]]
     paragraph: '18'
     pos: ["RB", ",", "JJ", "NNS", "VBP", "JJ", "CC", "MD", "VB", "DT", "JJ", "NN", "IN", "IN", "JJ", "NNS", "."]
     text: ' However, many herpetologists remain skeptical and would prefer a tentative maximum
@@ -775,7 +775,7 @@ EYoA:
     wn30_key: [[0, "however%4:02:00::"], [2, "many%3:00:00::"], [3, "herpetologist%1:18:00::"], [4, "remain%2:30:00::"], [5, "skeptical%3:00:00:incredulous:00"], [8, "prefer%2:31:00::"], [10, "tentative%3:00:00:conditional:00"], [11, "maximum%1:23:00::"], [14, "30%3:00:00:cardinal:00"], [15, "foot%1:23:00::"]]
 dIhD:
     lemmas: ["It", "be", "possible", "that", "especially", "large", "anaconda", "will", "prove", "to", "belong_to", "subspecies", "limit", "to", "a", "small", "area", "."]
-    oewn2026_key: [[1, "oewn-02610777-v"], [2, "oewn-01826770-a"], [4, "oewn-00084573-r"], [5, "oewn-01385012-a"], [6, "oewn-01745727-n"], [8, "oewn-02639962-v"], [10, "oewn-02725805-v"], [11, "oewn-08127614-n"], [15, "oewn-01394303-a"], [16, "oewn-08514304-n"]]
+    oewn_key: [[1, "oewn-02610777-v"], [2, "oewn-01826770-a"], [4, "oewn-00084573-r"], [5, "oewn-01385012-a"], [6, "oewn-01745727-n"], [8, "oewn-02639962-v"], [10, "oewn-02725805-v"], [11, "oewn-08127614-n"], [15, "oewn-01394303-a"], [16, "oewn-08514304-n"]]
     paragraph: '19'
     pos: ["PRP", "VBZ", "JJ", "IN", "RB", "JJ", "NNS", "MD", "VB", "TO", "VB", "NNS", "VB", "TO", "DT", "JJ", "NN", "."]
     text: ' It is possible that especially large anacondas will prove to belong_to subspecies
@@ -785,7 +785,7 @@ dIhD:
     wn30_key: [[1, "be%2:42:03::"], [2, "possible%3:00:00::"], [4, "especially%4:02:00::"], [5, "large%3:00:00::"], [6, "anaconda%1:05:00::"], [8, "prove%2:42:00::"], [10, "belong_to%2:42:00::"], [11, "subspecies%1:14:00::"], [15, "small%3:00:00::"], [16, "area%1:15:01::"]]
 nRqu:
     lemmas: ["In", "snake", "difference", "in", "size", "be", "a", "common", "characteristic", "of", "subspecies", "."]
-    oewn2026_key: [[1, "oewn-01729333-n"], [2, "oewn-04756076-n"], [4, "oewn-05106204-n"], [5, "oewn-02610777-v"], [7, "oewn-00487699-a"], [8, "oewn-05858316-n"], [10, "oewn-08127614-n"]]
+    oewn_key: [[1, "oewn-01729333-n"], [2, "oewn-04756076-n"], [4, "oewn-05106204-n"], [5, "oewn-02610777-v"], [7, "oewn-00487699-a"], [8, "oewn-05858316-n"], [10, "oewn-08127614-n"]]
     paragraph: '19'
     pos: ["IN", "NNS", "NN", "IN", "NN", "VBZ", "DT", "JJ", "NN", "IN", "NNS", "."]
     text: ' In snakes difference in size is a common characteristic of subspecies.
@@ -796,7 +796,7 @@ nRqu:
     wn30_key: [[1, "snake%1:05:00::"], [2, "difference%1:07:00::"], [4, "size%1:07:00::"], [5, "be%2:42:03::"], [7, "common%3:00:01::"], [8, "characteristic%1:09:00::"], [10, "subspecies%1:14:00::"]]
 T1Qi:
     lemmas: ["A", "colombian", "female", "'s", "brood", "of", "sixteen", "boa_constrictor", "bear", "in", "the", "group", "average", "20", "inch", "."]
-    oewn2026_key: [[1, "oewn-02979163-a"], [2, "oewn-01323363-n"], [4, "oewn-08007266-n"], [6, "oewn-02195542-s"], [7, "oewn-01744813-n"], [8, "oewn-00056644-v"], [11, "oewn-00031563-n"], [12, "oewn-02651473-v"], [13, "oewn-02195956-s"], [14, "oewn-13671409-n"]]
+    oewn_key: [[1, "oewn-02979163-a"], [2, "oewn-01323363-n"], [4, "oewn-08007266-n"], [6, "oewn-02195542-s"], [7, "oewn-01744813-n"], [8, "oewn-00056644-v"], [11, "oewn-00031563-n"], [12, "oewn-02651473-v"], [13, "oewn-02195956-s"], [14, "oewn-13671409-n"]]
     paragraph: '20'
     pos: ["DT", "JJ", "NN", "POS", "NN", "IN", "JJ", "NNS", "VBN", "IN", "DT", "NN", "VBD", "JJ", "NNS", "."]
     text: ' A Colombian female''s brood of sixteen boa_constrictors born in the Staten_Island_Zoo
@@ -806,7 +806,7 @@ T1Qi:
     wn30_key: [[1, "colombian%3:01:00::"], [2, "female%1:05:00::"], [4, "brood%1:14:00::"], [6, "sixteen%3:00:00:cardinal:00"], [7, "boa_constrictor%1:05:00::"], [8, "bear%2:29:01::"], [11, "group%1:03:00::"], [12, "average%2:42:00::"], [13, "20%3:00:00:cardinal:00"], [14, "inch%1:23:00::"]]
 NTi4:
     lemmas: ["This", "birth", "length", "seem", "to", "be", "typical", "."]
-    oewn2026_key: [[1, "oewn-15167127-n"], [2, "oewn-05136466-n"], [3, "oewn-02137900-v"], [5, "oewn-02610777-v"], [6, "oewn-00358636-s"]]
+    oewn_key: [[1, "oewn-15167127-n"], [2, "oewn-05136466-n"], [3, "oewn-02137900-v"], [5, "oewn-02610777-v"], [6, "oewn-00358636-s"]]
     paragraph: '20'
     pos: ["DT", "NN", "NN", "VBZ", "TO", "VB", "JJ", "."]
     text: ' This birth length seems to be typical.'
@@ -815,7 +815,7 @@ NTi4:
     wn30_key: [[1, "birth%1:28:00::"], [2, "length%1:07:00::"], [3, "seem%2:39:00::"], [5, "be%2:42:03::"], [6, "typical%3:00:00:characteristic:00"]]
 MWWD:
     lemmas: ["When", "some", "thirteen", "record", "of", "newly", "and", "recently", "bear", "individual", "be", "collate", ",", "little", "or", "no", "correlation", "between", "length", "and", "distribution", "can", "be", "detect", "."]
-    oewn2026_key: [[1, "oewn-02275064-a"], [2, "oewn-02195245-s"], [3, "oewn-06659969-n"], [5, "oewn-00113522-r"], [7, "oewn-00108184-r"], [8, "oewn-00056644-v"], [9, "oewn-10223458-n"], [11, "oewn-00663631-v"], [13, "oewn-01558903-a"], [16, "oewn-13863850-n"], [18, "oewn-05136466-n"], [20, "oewn-05094504-n"], [23, "oewn-02158938-v"]]
+    oewn_key: [[1, "oewn-02275064-a"], [2, "oewn-02195245-s"], [3, "oewn-06659969-n"], [5, "oewn-00113522-r"], [7, "oewn-00108184-r"], [8, "oewn-00056644-v"], [9, "oewn-10223458-n"], [11, "oewn-00663631-v"], [13, "oewn-01558903-a"], [16, "oewn-13863850-n"], [18, "oewn-05136466-n"], [20, "oewn-05094504-n"], [23, "oewn-02158938-v"]]
     paragraph: '20'
     pos: ["WRB", "JJ", "JJ", "NNS", "IN", "RB", "CC", "RB", "VBN", "NNS", "VBP", "VBN", ",", "JJ", "CC", "DT", "NN", "IN", "NN", "CC", "NN", "MD", "VB", "VBN", "."]
     text: ' When some thirteen records of newly and recently born individuals are collated,
@@ -825,7 +825,7 @@ MWWD:
     wn30_key: [[1, "some%3:00:00::"], [2, "thirteen%3:00:00:cardinal:00"], [3, "record%1:10:03::"], [5, "newly%4:02:00::"], [7, "recently%4:02:00::"], [8, "bear%2:29:01::"], [9, "individual%1:18:00::"], [11, "collate%2:31:00::"], [13, "little%3:00:03::"], [16, "correlation%1:24:00::"], [18, "length%1:07:00::"], [20, "distribution%1:07:00::"], [23, "detect%2:39:00::"]]
 dJmt:
     lemmas: ["The", "range", "be", "from", "14", "to", "25", "inch", ";", "the", "former", "figure", "be", "based", "on", "a", "somewhat", "unusual", "birth", "of", "four", "by", "a", "central_american", "female", "(", "see", "chapter", "on", "laying", ",", "brooding", ",", "hatching", ",", "and", "birth", ")", ",", "the", "latter", "on", "a", "\"", "normal", "\"", "newly", "bear", "individual", "."]
-    oewn2026_key: [[1, "oewn-05132642-n"], [2, "oewn-02626667-v"], [4, "oewn-02195338-s"], [6, "oewn-02196456-s"], [7, "oewn-13671409-n"], [10, "oewn-01051000-a"], [11, "oewn-13763162-n"], [12, "oewn-02610777-v"], [13, "oewn-02359603-s"], [16, "oewn-00036138-r"], [17, "oewn-00492026-a"], [18, "oewn-15167127-n"], [20, "oewn-13766444-n"], [23, "oewn-03015704-a"], [24, "oewn-01323363-n"], [27, "oewn-06407785-n"], [29, "oewn-13527680-n"], [31, "oewn-13462985-n"], [33, "oewn-13512667-n"], [36, "oewn-13554089-n"], [40, "oewn-01051260-a"], [44, "oewn-01598231-a"], [46, "oewn-00113522-r"], [47, "oewn-00056644-v"], [48, "oewn-10223458-n"]]
+    oewn_key: [[1, "oewn-05132642-n"], [2, "oewn-02626667-v"], [4, "oewn-02195338-s"], [6, "oewn-02196456-s"], [7, "oewn-13671409-n"], [10, "oewn-01051000-a"], [11, "oewn-13763162-n"], [12, "oewn-02610777-v"], [13, "oewn-02359603-s"], [16, "oewn-00036138-r"], [17, "oewn-00492026-a"], [18, "oewn-15167127-n"], [20, "oewn-13766444-n"], [23, "oewn-03015704-a"], [24, "oewn-01323363-n"], [27, "oewn-06407785-n"], [29, "oewn-13527680-n"], [31, "oewn-13462985-n"], [33, "oewn-13512667-n"], [36, "oewn-13554089-n"], [40, "oewn-01051260-a"], [44, "oewn-01598231-a"], [46, "oewn-00113522-r"], [47, "oewn-00056644-v"], [48, "oewn-10223458-n"]]
     paragraph: '20'
     pos: ["DT", "NN", "VBZ", "VB", "JJ", "TO", "JJ", "NNS", ":", "DT", "JJ", "NN", "VBZ", "JJ", "VB", "DT", "RB", "JJ", "NN", "IN", "NN", "IN", "DT", "JJ", "NN", "NN", "RB", "NN", "IN", "NNP", ",", "NNP", ",", "NNP", ",", "CC", "NNP", "NNP", ",", "DT", "JJ", "IN", "DT", "``", "JJ", "''", "RB", "VBN", "NN", "."]
     text: ' The range is from 14 to 25 inches; the former figure is based on a somewhat unusual
@@ -836,7 +836,7 @@ dJmt:
     wn30_key: [[1, "range%1:07:00::"], [2, "be%2:42:02::"], [4, "14%3:00:00:cardinal:00"], [6, "25%3:00:00:cardinal:00"], [7, "inch%1:23:00::"], [10, "former%3:00:00::"], [11, "figure%1:23:00::"], [12, "be%2:42:03::"], [13, "based%3:00:00:supported:00"], [16, "somewhat%4:02:00::"], [17, "unusual%3:00:00::"], [18, "birth%1:28:00::"], [20, "four%1:23:00::"], [23, "central_american%3:01:00::"], [24, "female%1:05:00::"], [27, "chapter%1:10:00::"], [29, "laying%1:22:00::"], [31, "brooding%1:22:00::"], [33, "hatching%1:22:00::"], [36, "birth%1:22:00::"], [40, "latter%3:00:00::"], [44, "normal%3:00:01::"], [46, "newly%4:02:00::"], [47, "bear%2:29:01::"], [48, "individual%1:18:00::"]]
 LkEm:
     lemmas: ["however", ",", "as", "so", "many", "of", "the", "record", "be", "not", "certainly", "based", "on", "newborn", "snake", ",", "these", "data", "must", "be", "take", "tentatively", ";", "final", "conclusion", "will", "have_to", "await", "the", "measurement", "of", "brood", "from", "definite", "locality", "."]
-    oewn2026_key: [[0, "oewn-00027761-r"], [3, "oewn-00147630-r"], [4, "oewn-01555990-a"], [7, "oewn-06659969-n"], [8, "oewn-02610777-v"], [9, "oewn-00024432-r"], [10, "oewn-00145758-r"], [11, "oewn-02359603-s"], [13, "oewn-01653626-s"], [14, "oewn-01729333-n"], [17, "oewn-08479331-n"], [20, "oewn-00626148-v"], [21, "oewn-00180698-r"], [23, "oewn-01583536-s"], [24, "oewn-05846685-n"], [27, "oewn-00721987-v"], [31, "oewn-08007266-n"], [33, "oewn-00703896-a"], [34, "oewn-08658688-n"]]
+    oewn_key: [[0, "oewn-00027761-r"], [3, "oewn-00147630-r"], [4, "oewn-01555990-a"], [7, "oewn-06659969-n"], [8, "oewn-02610777-v"], [9, "oewn-00024432-r"], [10, "oewn-00145758-r"], [11, "oewn-02359603-s"], [13, "oewn-01653626-s"], [14, "oewn-01729333-n"], [17, "oewn-08479331-n"], [20, "oewn-00626148-v"], [21, "oewn-00180698-r"], [23, "oewn-01583536-s"], [24, "oewn-05846685-n"], [27, "oewn-00721987-v"], [31, "oewn-08007266-n"], [33, "oewn-00703896-a"], [34, "oewn-08658688-n"]]
     paragraph: '20'
     pos: ["RB", ",", "IN", "RB", "JJ", "JJ", "DT", "NNS", "VBP", "RB", "RB", "JJ", "IN", "JJ", "NNS", ",", "DT", "NNS", "MD", "VB", "VBN", "RB", ":", "JJ", "NNS", "MD", "VB", "VB", "DT", "NN", "IN", "NNS", "IN", "JJ", "NNS", "."]
     text: ' However, as so many of the records are not certainly based on newborn snakes, these
@@ -849,7 +849,7 @@ LkEm:
     wn30_key: [[0, "however%4:02:00::"], [3, "so%4:02:02::"], [4, "many%3:00:00::"], [7, "record%1:10:03::"], [8, "be%2:42:03::"], [9, "not%4:02:00::"], [10, "certainly%4:02:00::"], [11, "based%3:00:00:supported:00"], [13, "newborn%3:00:00:young:00"], [14, "snake%1:05:00::"], [17, "data%1:14:00::"], [20, "take%2:31:07::"], [21, "tentatively%4:02:00::"], [23, "final%3:00:00:ultimate:00"], [24, "conclusion%1:09:00::"], [27, "await%2:31:00::"], [31, "brood%1:14:00::"], [33, "definite%3:00:00::"], [34, "locality%1:15:00::"]]
 HGzr:
     lemmas: ["person", "'s", "measurement", "of", "several", "very", "young", "specimen", "from", "location", "suggest", "that", "at_birth", "the", "female", "be", "slightly", "larger", "than", "the", "male", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [4, "oewn-00496454-s"], [5, "oewn-00032295-r"], [6, "oewn-01651383-a"], [7, "oewn-05830599-n"], [9, "oewn-00027365-n"], [10, "oewn-00932768-v"], [14, "oewn-01323363-n"], [15, "oewn-02610777-v"], [16, "oewn-00036695-r"], [17, "oewn-01386690-s"], [20, "oewn-01323721-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [4, "oewn-00496454-s"], [5, "oewn-00032295-r"], [6, "oewn-01651383-a"], [7, "oewn-05830599-n"], [9, "oewn-00027365-n"], [10, "oewn-00932768-v"], [14, "oewn-01323363-n"], [15, "oewn-02610777-v"], [16, "oewn-00036695-r"], [17, "oewn-01386690-s"], [20, "oewn-01323721-n"]]
     paragraph: '21'
     pos: ["NN", "POS", "NN", "IN", "JJ", "RB", "JJ", "NNS", "IN", "NNP", "VBP", "IN", "RB", "DT", "NN", "VBZ", "RB", "JJR", "IN", "DT", "NN", "."]
     text: ' Alphonse_R_._Hoge''s measurements of several very young specimens from Brazil suggest
@@ -861,7 +861,7 @@ HGzr:
     wn30_key: [[0, "person%1:03:00::"], [4, "several%3:00:00:individual:00"], [5, "very%4:02:00::"], [6, "young%3:00:00::"], [7, "specimen%1:09:00::"], [9, "location%1:03:00::"], [10, "suggest%2:32:02::"], [14, "female%1:05:00::"], [15, "be%2:42:03::"], [16, "slightly%4:02:01::"], [17, "larger%3:00:00:large:00"], [20, "male%1:05:00::"]]
 jM4Q:
     lemmas: ["I", "have", "surprisingly", "little", "information", "on", "the", "size", "and", "age", "at", "maturity", "."]
-    oewn2026_key: [[1, "oewn-02208144-v"], [2, "oewn-00146264-r"], [3, "oewn-01558903-a"], [4, "oewn-05824413-n"], [7, "oewn-05106204-n"], [9, "oewn-04931280-n"], [11, "oewn-15177777-n"]]
+    oewn_key: [[1, "oewn-02208144-v"], [2, "oewn-00146264-r"], [3, "oewn-01558903-a"], [4, "oewn-05824413-n"], [7, "oewn-05106204-n"], [9, "oewn-04931280-n"], [11, "oewn-15177777-n"]]
     paragraph: '22'
     pos: ["PRP", "VBP", "RB", "JJ", "NN", "IN", "DT", "NN", "CC", "NN", "IN", "NN", "."]
     text: ' I have surprisingly little information on the size and age at maturity.'
@@ -870,7 +870,7 @@ jM4Q:
     wn30_key: [[1, "have%2:40:00::"], [2, "surprisingly%4:02:00::"], [3, "little%3:00:03::"], [4, "information%1:09:00::"], [7, "size%1:07:00::"], [9, "age%1:07:00::"], [11, "maturity%1:28:00::"]]
 CFPV:
     lemmas: ["person", "have", "write", "to", "me", "of", "sexual_activity", "in", "february", "1943", "of", "young", "bear", "in", "march", "1940", "."]
-    oewn2026_key: [[0, "oewn-00007846-n"], [2, "oewn-00995046-v"], [6, "oewn-00845915-n"], [8, "oewn-15235282-n"], [11, "oewn-01324070-n"], [12, "oewn-00056644-v"], [14, "oewn-15235666-n"]]
+    oewn_key: [[0, "oewn-00007846-n"], [2, "oewn-00995046-v"], [6, "oewn-00845915-n"], [8, "oewn-15235282-n"], [11, "oewn-01324070-n"], [12, "oewn-00056644-v"], [14, "oewn-15235666-n"]]
     paragraph: '22'
     pos: ["NN", "VBZ", "VBN", "TO", "PRP", "IN", "NN", "IN", "NNP", "CD", "IN", "NN", "VBN", "IN", "NNP", "CD", "."]
     text: ' Carl_Kauffeld has written to me of sexual_activity in February 1943 of young born
@@ -880,7 +880,7 @@ CFPV:
     wn30_key: [[0, "person%1:03:00::"], [2, "write%2:32:01::"], [6, "sexual_activity%1:04:00::"], [8, "february%1:28:00::"], [11, "young%1:05:00::"], [12, "bear%2:29:01::"], [14, "march%1:28:00::"]]
 iEnO:
     lemmas: ["one", "female", ",", "collect", "on", "an", "island", "off", "the", "coast", "of", "location", ",", "be", "gravid", "and", "measure", "4", "foot", "8", "inch", "from", "snout", "to", "vent", "(", "her", "tail", "should", "be", "between", "6", "and", "7", "inch", "long", ")", "."]
-    oewn2026_key: [[0, "oewn-02193977-s"], [1, "oewn-01323363-n"], [3, "oewn-02310566-v"], [6, "oewn-09339360-n"], [9, "oewn-09451197-n"], [11, "oewn-00027365-n"], [13, "oewn-02610777-v"], [14, "oewn-00174652-s"], [16, "oewn-02710209-v"], [17, "oewn-02194304-s"], [18, "oewn-13671663-n"], [19, "oewn-02194712-s"], [20, "oewn-13671409-n"], [22, "oewn-02455268-n"], [24, "oewn-01326542-n"], [27, "oewn-02160209-n"], [29, "oewn-02610777-v"], [31, "oewn-02194472-s"], [33, "oewn-02194609-s"], [34, "oewn-13671409-n"], [35, "oewn-01436368-a"]]
+    oewn_key: [[0, "oewn-02193977-s"], [1, "oewn-01323363-n"], [3, "oewn-02310566-v"], [6, "oewn-09339360-n"], [9, "oewn-09451197-n"], [11, "oewn-00027365-n"], [13, "oewn-02610777-v"], [14, "oewn-00174652-s"], [16, "oewn-02710209-v"], [17, "oewn-02194304-s"], [18, "oewn-13671663-n"], [19, "oewn-02194712-s"], [20, "oewn-13671409-n"], [22, "oewn-02455268-n"], [24, "oewn-01326542-n"], [27, "oewn-02160209-n"], [29, "oewn-02610777-v"], [31, "oewn-02194472-s"], [33, "oewn-02194609-s"], [34, "oewn-13671409-n"], [35, "oewn-01436368-a"]]
     paragraph: '22'
     pos: ["JJ", "NN", ",", "VBN", "IN", "DT", "NN", "IN", "DT", "NN", "IN", "NNP", ",", "VBD", "JJ", "CC", "VBN", "JJ", "NNS", "JJ", "NNS", "IN", "NN", "TO", "NN", "CD", "PRP$", "NN", "MD", "VB", "IN", "JJ", "CC", "JJ", "NNS", "JJ", "NN", "."]
     text: ' One female, collected on an island off the coast of Nicaragua, was gravid and measured
@@ -890,7 +890,7 @@ iEnO:
     wn30_key: [[0, "one%3:00:00:cardinal:00"], [1, "female%1:05:00::"], [3, "collect%2:40:03::"], [6, "island%1:17:00::"], [9, "coast%1:17:00::"], [11, "location%1:03:00::"], [13, "be%2:42:03::"], [14, "gravid%3:00:00:pregnant:00"], [16, "measure%2:42:00::"], [17, "4%3:00:00:cardinal:00"], [18, "foot%1:23:00::"], [19, "8%3:00:00:cardinal:00"], [20, "inch%1:23:00::"], [22, "snout%1:05:00::"], [24, "vent%1:05:00::"], [27, "tail%1:05:00::"], [29, "be%2:42:03::"], [31, "6%3:00:00:cardinal:00"], [33, "7%3:00:00:cardinal:00"], [34, "inch%1:23:00::"], [35, "long%3:00:01::"]]
 V7nr:
     lemmas: ["The", "female", "from", "location", "which", "give_birth", "to", "four", "be", "only", "3", "foot", "11", "inch", "long", "."]
-    oewn2026_key: [[1, "oewn-01323363-n"], [3, "oewn-00027365-n"], [5, "oewn-00056644-v"], [7, "oewn-02194304-s"], [8, "oewn-02610777-v"], [9, "oewn-00005103-r"], [10, "oewn-02194219-s"], [11, "oewn-13671663-n"], [12, "oewn-02195018-s"], [13, "oewn-13671409-n"], [14, "oewn-01436368-a"]]
+    oewn_key: [[1, "oewn-01323363-n"], [3, "oewn-00027365-n"], [5, "oewn-00056644-v"], [7, "oewn-02194304-s"], [8, "oewn-02610777-v"], [9, "oewn-00005103-r"], [10, "oewn-02194219-s"], [11, "oewn-13671663-n"], [12, "oewn-02195018-s"], [13, "oewn-13671409-n"], [14, "oewn-01436368-a"]]
     paragraph: '22'
     pos: ["DT", "NN", "IN", "NN", "WDT", "VB", "VB", "JJ", "VBD", "RB", "JJ", "NNS", "JJ", "NNS", "JJ", "."]
     text: ' The female from Central_America which gave_birth to four was only 3 feet 11 inches
@@ -902,7 +902,7 @@ V7nr:
     wn30_key: [[1, "female%1:05:00::"], [3, "location%1:03:00::"], [5, "give_birth%2:29:00::"], [7, "four%3:00:00:cardinal:00"], [8, "be%2:42:03::"], [9, "only%4:02:02::"], [10, "3%3:00:00:cardinal:00"], [11, "foot%1:23:00::"], [12, "11%3:00:00:cardinal:00"], [13, "inch%1:23:00::"], [14, "long%3:00:01::"]]
 0yCY:
     lemmas: ["What", "data", "there", "be", "on", "growth", "indicate", "considerable", "variation", "in", "rate", ";", "unfortunately", ",", "no_one", "have", "keep", "complete", "record", "of", "one", "individual", ",", "whereas", "many", "have", "be", "make", "for", "a", "very", "short", "period_of_time", "."]
-    oewn2026_key: [[1, "oewn-08479331-n"], [3, "oewn-02609706-v"], [5, "oewn-13510240-n"], [6, "oewn-00925764-v"], [7, "oewn-00626700-a"], [8, "oewn-07351990-n"], [10, "oewn-15311467-n"], [12, "oewn-00043179-r"], [16, "oewn-00734575-v"], [17, "oewn-00522139-a"], [18, "oewn-06659969-n"], [20, "oewn-02193977-s"], [21, "oewn-10223458-n"], [24, "oewn-01555990-a"], [27, "oewn-02566500-v"], [30, "oewn-00032295-r"], [31, "oewn-01445077-a"], [32, "oewn-15137796-n"]]
+    oewn_key: [[1, "oewn-08479331-n"], [3, "oewn-02609706-v"], [5, "oewn-13510240-n"], [6, "oewn-00925764-v"], [7, "oewn-00626700-a"], [8, "oewn-07351990-n"], [10, "oewn-15311467-n"], [12, "oewn-00043179-r"], [16, "oewn-00734575-v"], [17, "oewn-00522139-a"], [18, "oewn-06659969-n"], [20, "oewn-02193977-s"], [21, "oewn-10223458-n"], [24, "oewn-01555990-a"], [27, "oewn-02566500-v"], [30, "oewn-00032295-r"], [31, "oewn-01445077-a"], [32, "oewn-15137796-n"]]
     paragraph: '23'
     pos: ["WP", "NNS", "RB", "VBP", "IN", "NN", "VBP", "JJ", "NN", "IN", "NN", ":", "RB", ",", "NN", "VBZ", "VBN", "JJ", "NNS", "IN", "JJ", "NN", ",", "IN", "JJ", "VBP", "VBN", "VBN", "JJ", "DT", "RB", "JJ", "NN", "."]
     text: ' What data there are on growth indicate considerable variation in rate; unfortunately,
@@ -913,7 +913,7 @@ V7nr:
     wn30_key: [[1, "data%1:14:00::"], [3, "be%2:42:00::"], [5, "growth%1:22:00::"], [6, "indicate%2:32:03::"], [7, "considerable%3:00:00::"], [8, "variation%1:11:01::"], [10, "rate%1:28:00::"], [12, "unfortunately%4:02:00::"], [16, "keep%2:31:00::"], [17, "complete%3:00:00::"], [18, "record%1:10:03::"], [20, "one%3:00:00:cardinal:00"], [21, "individual%1:18:00::"], [24, "many%3:00:00::"], [27, "make%2:41:00::"], [30, "very%4:02:00::"], [31, "short%3:00:02::"], [32, "period_of_time%1:28:00::"]]
 3kjC:
     lemmas: ["The", "result", "be", "too", "varied", "to", "allow", "generalization", "."]
-    oewn2026_key: [[1, "oewn-06756201-n"], [2, "oewn-02610777-v"], [3, "oewn-00047930-r"], [4, "oewn-02516600-a"], [6, "oewn-00803980-v"], [7, "oewn-05782412-n"]]
+    oewn_key: [[1, "oewn-06756201-n"], [2, "oewn-02610777-v"], [3, "oewn-00047930-r"], [4, "oewn-02516600-a"], [6, "oewn-00803980-v"], [7, "oewn-05782412-n"]]
     paragraph: '23'
     pos: ["DT", "NNS", "VBP", "RB", "JJ", "TO", "VB", "NN", "."]
     text: ' The results are too varied to allow generalization.
