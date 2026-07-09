@@ -8,11 +8,13 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "cerberus>=1.3.8",
     "teanga>=0.1.0",
 ]
 
 [project.scripts]
 semcor = "semcor:main"
+semcor-validate = "semcor.validate:main"
 
 [build-system]
 requires = ["uv_build>=0.11.25,<0.12.0"]
