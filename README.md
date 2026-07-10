@@ -182,6 +182,19 @@ uv run semcor-apply-deprecations --dry-run    # preview without writing
 
 Run `semcor-validate` afterwards to confirm the result.
 
+### `semcor-fix-leading-space`
+
+Strips a stray leading space from the `text` layer where present (an
+artifact of how sentences were originally split), shifting `tokens`
+offsets to match.
+
+```sh
+uv run semcor-fix-leading-space              # fix data/
+```
+
+Idempotent: documents without a leading space are left untouched, so
+it's safe to rerun.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.
