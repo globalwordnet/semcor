@@ -167,6 +167,21 @@ uv run semcor-validate --wordnet-dir /path/to/english-wordnet --namenet-dir /pat
 CI runs this on every push to `main` and on every pull request (see
 `.github/workflows/validate.yml`), cloning both fresh each time.
 
+### `semcor-apply-deprecations`
+
+Reads Open English Wordnet's `src/deprecations.csv` and rewrites
+`oewn_key` values from a deprecated synset to its successor (following
+chains, and skipping rows that split into multiple successors -- those
+need a human WSD call). Uses the same `--wordnet-dir`/`$SEMCOR_WORDNET_DIR`
+checkout as `semcor-validate`.
+
+```sh
+uv run semcor-apply-deprecations              # apply to data/
+uv run semcor-apply-deprecations --dry-run    # preview without writing
+```
+
+Run `semcor-validate` afterwards to confirm the result.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.
