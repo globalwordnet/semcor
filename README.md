@@ -209,6 +209,21 @@ uv run semcor-ufsac data/humor -o humor.xml       # export one directory/file
 attributes (`wn16_key`, `wn30_key`, `oewn_key`); it defaults to `oewn_key`
 only.
 
+### `semcor-merge`
+
+Merges `data/` into a single Teanga YAML file with one document per
+Brown Corpus file, instead of one per sentence -- the inverse of
+[`split_by_document.py`](https://github.com/jmccrae/semcor-wordnet-integration/blob/main/split_by_document.py),
+which produced `data/` in the first place. Sentence/paragraph boundaries
+are preserved as `sentence`/`paragraph` layers of character offsets, and
+each document carries `brown_id`/`genre` layers, since Teanga's own
+document IDs are content hashes with no other link back to a source file.
+
+```sh
+uv run semcor-merge                       # merge data/ into ./semcor.yaml
+uv run semcor-merge data/humor -o humor-merged.yaml
+```
+
 ## License
 
 See [LICENSE.md](LICENSE.md). This resource is derived from the Princeton
