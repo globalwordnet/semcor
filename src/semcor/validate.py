@@ -35,8 +35,8 @@ WORDNET_DIR = Path(
     or Path(__file__).resolve().parents[2] / "external" / "english-wordnet"
 )
 
-# libyaml's C loader is ~4x faster than the pure-Python one; the OEWN
-# source is ~45MB of YAML so this matters.
+# libyaml's C loader is ~4x faster than the pure-Python one; both the
+# ~45MB OEWN source and the ~45MB corpus are large enough for this to matter.
 _YAML_LOADER = yaml.CSafeLoader if getattr(yaml, "__with_libyaml__", False) else yaml.SafeLoader
 
 _META_LAYER_SCHEMA = {
@@ -77,7 +77,7 @@ def check_yaml_syntax(path: Path) -> tuple[object | None, str | None]:
     """Parse a YAML file, returning (data, None) or (None, error message)."""
     try:
         with path.open("r", encoding="utf-8") as f:
-            return yaml.safe_load(f), None
+            return yaml.load(f, Loader=_YAML_LOADER), None
     except yaml.YAMLError as e:
         return None, str(e)
 
