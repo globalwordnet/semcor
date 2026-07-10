@@ -121,6 +121,59 @@ release. As new OEWN versions are published, this repository aims to
 update `oewn_key` so downstream WSD work can target the current OEWN
 release.
 
+## Running the scripts
+
+Install dependencies with [uv](https://docs.astral.sh/uv/):
+
+```sh
+uv sync
+```
+
+### `semcor-validate`
+
+Checks every file under `data/` for YAML syntax, `_meta`/layer-schema
+correctness, in-bounds span/element offsets, valid Penn Treebank `pos`
+tags, and that every `oewn_key` resolves to a real synset.
+
+The last check needs a local checkout of
+[Open English Wordnet](https://github.com/globalwordnet/english-wordnet/).
+By default it looks for one at `external/english-wordnet`; set one up
+with either a fresh clone or a symlink to an existing checkout:
+
+```sh
+git clone --depth=1 https://github.com/globalwordnet/english-wordnet external/english-wordnet
+# or, if you already have a checkout elsewhere:
+ln -s /path/to/english-wordnet external/english-wordnet
+```
+
+`external/` is gitignored, so this is a one-time local setup step, not
+something to commit. You can point elsewhere instead, via `--wordnet-dir`
+or `$SEMCOR_WORDNET_DIR`. If no checkout can be found, the script exits
+with an error rather than silently skipping the `oewn_key` check.
+
+```sh
+uv run semcor-validate                       # validate data/
+uv run semcor-validate data/humor            # validate one directory/file
+uv run semcor-validate --wordnet-dir /path/to/english-wordnet
+```
+
+CI runs this on every push to `main` and on every pull request (see
+`.github/workflows/validate.yml`), cloning `english-wordnet` fresh each time.
+
+### `semcor-ufsac`
+
+Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.
+
+```sh
+uv run semcor-ufsac                               # oewn_key only, to stdout
+uv run semcor-ufsac --keys wn16_key wn30_key oewn_key -o semcor.xml
+uv run semcor-ufsac data/humor -o humor.xml       # export one directory/file
+```
+
+`--keys` selects which sense-key layer(s) to include as `<word>`
+attributes (`wn16_key`, `wn30_key`, `oewn_key`); it defaults to `oewn_key`
+only.
+
 ## License
 
 See [LICENSE.md](LICENSE.md). This resource is derived from the Princeton

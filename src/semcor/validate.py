@@ -262,10 +262,14 @@ def main() -> int:
     wordnet = load_wordnet(args.wordnet_dir)
     if wordnet is None:
         print(
-            f"Note: no Open English Wordnet checkout found at {args.wordnet_dir}, "
-            "skipping oewn_key validation.\n",
+            f"error: no Open English Wordnet checkout found at {args.wordnet_dir}\n"
+            "Set one up, e.g.:\n"
+            "  git clone --depth=1 https://github.com/globalwordnet/english-wordnet "
+            f"{args.wordnet_dir}\n"
+            "or point --wordnet-dir / $SEMCOR_WORDNET_DIR at an existing checkout.",
             file=sys.stderr,
         )
+        return 1
 
     total_errors = 0
     for path in files:
