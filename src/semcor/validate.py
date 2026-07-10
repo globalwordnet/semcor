@@ -11,11 +11,17 @@ Currently checks:
    layer (e.g. `wn16_key`/`wn30_key`/`oewn2026_key` indices are valid
    token indices: 0 <= x < len(tokens)).
 4. Every `pos` tag is a valid Penn Treebank tag.
+5. Every `oewn_key` refers to a real synset in an Open English Wordnet
+   checkout (see `load_wordnet`). `wn16_key`/`wn30_key` are not checked
+   against OEWN: they're legacy sense keys, preserved as originally
+   annotated, and routinely diverge from current OEWN synsets as the
+   corpus's `oewn_key` layer is reannotated against new OEWN releases.
 """
 
 from __future__ import annotations
 
 import argparse
+import os
 import sys
 from pathlib import Path
 
@@ -23,6 +29,15 @@ import yaml
 from cerberus import Validator
 
 DATA_DIR = Path(__file__).resolve().parents[2] / "data"
+
+WORDNET_DIR = Path(
+    os.environ.get("SEMCOR_WORDNET_DIR")
+    or Path(__file__).resolve().parents[2] / "external" / "english-wordnet"
+)
+
+# libyaml's C loader is ~4x faster than the pure-Python one; the OEWN
+# source is ~45MB of YAML so this matters.
+_YAML_LOADER = yaml.CSafeLoader if getattr(yaml, "__with_libyaml__", False) else yaml.SafeLoader
 
 _META_LAYER_SCHEMA = {
     "type": {
@@ -152,7 +167,55 @@ def check_pos_tags(data: dict) -> list[str]:
     return errors
 
 
-def validate_file(path: Path) -> list[str]:
+class WordNetIndex:
+    """Synset IDs parsed from an Open English Wordnet checkout."""
+
+    def __init__(self, synsets: set[str]) -> None:
+        self.synsets = synsets
+
+
+def load_wordnet(wordnet_dir: Path = WORDNET_DIR) -> WordNetIndex | None:
+    """Parse an Open English Wordnet checkout's `src/yaml/` synset sources.
+
+    Returns None if `wordnet_dir` doesn't look like a checkout (so callers
+    can skip wordnet-dependent checks rather than fail outright when a
+    contributor hasn't set one up locally).
+    """
+    yaml_dir = wordnet_dir / "src" / "yaml"
+    if not yaml_dir.is_dir():
+        return None
+
+    synsets: set[str] = set()
+    for path in sorted(yaml_dir.glob("*.yaml")):
+        # `entries-*.yaml` (lexical entries/sense keys) and `frames.yaml`
+        # aren't keyed by synset ID; every other file is.
+        if path.name.startswith("entries-") or path.name == "frames.yaml":
+            continue
+        with path.open("r", encoding="utf-8") as f:
+            data = yaml.load(f, Loader=_YAML_LOADER)
+        synsets.update(data.keys())
+
+    return WordNetIndex(synsets)
+
+
+def check_wordnet_ids(data: dict, wordnet: WordNetIndex) -> list[str]:
+    # A handful of tokens carry a genuinely ambiguous SemCor annotation:
+    # two or more synset IDs joined by ';' (e.g. `oewn-08562388-n;oewn-08185877-n`).
+    errors = []
+    for doc_id, doc in data.items():
+        if doc_id == "_meta" or not isinstance(doc, dict):
+            continue
+        for i, value in doc.get("oewn_key") or []:
+            for key in value.split(";"):
+                synset_id = key[len("oewn-"):] if key.startswith("oewn-") else key
+                if synset_id not in wordnet.synsets:
+                    errors.append(
+                        f"{doc_id}.oewn_key[{i}]: synset '{synset_id}' not found in Open English Wordnet"
+                    )
+    return errors
+
+
+def validate_file(path: Path, wordnet: WordNetIndex | None = None) -> list[str]:
     data, syntax_error = check_yaml_syntax(path)
     if syntax_error is not None:
         return [f"YAML syntax error: {syntax_error}"]
@@ -164,7 +227,10 @@ def validate_file(path: Path) -> list[str]:
         # Layer types/bases aren't trustworthy if _meta itself is malformed.
         return meta_errors
 
-    return check_layer_offsets(data) + check_pos_tags(data)
+    errors = check_layer_offsets(data) + check_pos_tags(data)
+    if wordnet is not None:
+        errors += check_wordnet_ids(data, wordnet)
+    return errors
 
 
 def main() -> int:
@@ -177,6 +243,13 @@ def main() -> int:
         type=Path,
         help="Files or directories to validate (default: data/)",
     )
+    parser.add_argument(
+        "--wordnet-dir",
+        type=Path,
+        default=WORDNET_DIR,
+        help="Path to an Open English Wordnet checkout, for validating "
+        "oewn_key (default: %(default)s, or $SEMCOR_WORDNET_DIR)",
+    )
     args = parser.parse_args()
 
     if args.paths:
@@ -186,9 +259,17 @@ def main() -> int:
     else:
         files = find_yaml_files()
 
+    wordnet = load_wordnet(args.wordnet_dir)
+    if wordnet is None:
+        print(
+            f"Note: no Open English Wordnet checkout found at {args.wordnet_dir}, "
+            "skipping oewn_key validation.\n",
+            file=sys.stderr,
+        )
+
     total_errors = 0
     for path in files:
-        errors = validate_file(path)
+        errors = validate_file(path, wordnet)
         if errors:
             total_errors += len(errors)
             print(f"{path}:")

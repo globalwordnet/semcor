@@ -60,3 +60,7 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
+
+# Local Open English Wordnet checkout/symlink, used by semcor-validate to
+# check oewn_key/wn30_key (see SEMCOR_WORDNET_DIR in src/semcor/validate.py)
+/external/
