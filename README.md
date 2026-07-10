@@ -80,7 +80,7 @@ _meta:
         type: element
         base: tokens
         data: string
-    oewn2026_key:
+    oewn_key:
         type: element
         base: tokens
         data: string
@@ -98,29 +98,28 @@ sOM7:
     paragraph: '0'
     wn16_key: [[1, "group%1:03:00::"], [2, "say%2:32:00::"], ...]
     wn30_key: [[1, "group%1:03:00::"], [2, "say%2:32:00::"], ...]
-    oewn2026_key: [[1, "oewn-00031563-n"], [2, "oewn-01011267-v"], ...]
+    oewn_key: [[1, "oewn-00031563-n"], [2, "oewn-01011267-v"], ...]
 ```
 
 - `text` is the raw sentence text; `tokens` are `[start, end]` character
   spans over `text`.
 - `lemmas` and `pos` give one value per token, in token order.
-- `wn16_key`, `wn30_key`, and `oewn2026_key` are sparse: each entry is a
+- `wn16_key`, `wn30_key`, and `oewn_key` are sparse: each entry is a
   `[token_index, sense_key]` pair, present only for tokens that carry a
   sense annotation. `wn16_key` and `wn30_key` preserve the original
-  WordNet 1.6 / 3.0 sense keys from the source SemCor release; `oewn2026_key`
+  WordNet 1.6 / 3.0 sense keys from the source SemCor release; `oewn_key`
   gives the corresponding [Open English Wordnet](https://github.com/globalwordnet/english-wordnet/)
-  synset ID for the OEWN release the key is named after, and is the layer
-  that will be updated as new OEWN versions are released.
+  synset ID, and is the layer that gets updated as new OEWN versions are
+  released.
 
 ## Wordnet alignment
 
 Because word senses and synset inventories change between wordnet
-releases, the `oewn*_key` layer(s) in this corpus are versioned against
-specific [Open English Wordnet](https://github.com/globalwordnet/english-wordnet/)
-releases (the current layer, `oewn2026_key`, targets the 2026 release).
-As new OEWN versions are published, this repository aims to add or update
-the corresponding key layer so downstream WSD work can target whichever
-OEWN release it needs.
+releases, the `oewn_key` layer in this corpus is kept aligned with the
+current [Open English Wordnet](https://github.com/globalwordnet/english-wordnet/)
+release. As new OEWN versions are published, this repository aims to
+update `oewn_key` so downstream WSD work can target the current OEWN
+release.
 
 ## License
 
