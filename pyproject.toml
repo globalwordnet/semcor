@@ -15,6 +15,7 @@ dependencies = [
 [project.scripts]
 semcor = "semcor:main"
 semcor-validate = "semcor.validate:main"
+semcor-ufsac = "semcor.ufsac:main"
 
 [build-system]
 requires = ["uv_build>=0.11.25,<0.12.0"]
