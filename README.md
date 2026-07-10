@@ -135,30 +135,37 @@ Checks every file under `data/` for YAML syntax, `_meta`/layer-schema
 correctness, in-bounds span/element offsets, valid Penn Treebank `pos`
 tags, and that every `oewn_key` resolves to a real synset.
 
-The last check needs a local checkout of
-[Open English Wordnet](https://github.com/globalwordnet/english-wordnet/).
-By default it looks for one at `external/english-wordnet`; set one up
-with either a fresh clone or a symlink to an existing checkout:
+The last check needs local checkouts of
+[Open English Wordnet](https://github.com/globalwordnet/english-wordnet/)
+and [Open English Namenet](https://github.com/globalwordnet/english-namenet/)
+(Namenet holds the proper-noun synsets — people, places, organisations,
+... — that aren't part of the base wordnet, but that `oewn_key` can still
+reference). By default they're looked for at `external/english-wordnet`
+and `external/english-namenet`; set them up with either a fresh clone or
+a symlink to an existing checkout:
 
 ```sh
 git clone --depth=1 https://github.com/globalwordnet/english-wordnet external/english-wordnet
-# or, if you already have a checkout elsewhere:
+git clone --depth=1 https://github.com/globalwordnet/english-namenet external/english-namenet
+# or, if you already have checkouts elsewhere:
 ln -s /path/to/english-wordnet external/english-wordnet
+ln -s /path/to/english-namenet external/english-namenet
 ```
 
 `external/` is gitignored, so this is a one-time local setup step, not
-something to commit. You can point elsewhere instead, via `--wordnet-dir`
-or `$SEMCOR_WORDNET_DIR`. If no checkout can be found, the script exits
-with an error rather than silently skipping the `oewn_key` check.
+something to commit. You can point elsewhere instead, via
+`--wordnet-dir`/`$SEMCOR_WORDNET_DIR` and `--namenet-dir`/`$SEMCOR_NAMENET_DIR`.
+If either checkout can't be found, the script exits with an error rather
+than silently skipping the `oewn_key` check.
 
 ```sh
 uv run semcor-validate                       # validate data/
 uv run semcor-validate data/humor            # validate one directory/file
-uv run semcor-validate --wordnet-dir /path/to/english-wordnet
+uv run semcor-validate --wordnet-dir /path/to/english-wordnet --namenet-dir /path/to/english-namenet
 ```
 
 CI runs this on every push to `main` and on every pull request (see
-`.github/workflows/validate.yml`), cloning `english-wordnet` fresh each time.
+`.github/workflows/validate.yml`), cloning both fresh each time.
 
 ### `semcor-ufsac`
 

@@ -12,10 +12,12 @@ Currently checks:
    token indices: 0 <= x < len(tokens)).
 4. Every `pos` tag is a valid Penn Treebank tag.
 5. Every `oewn_key` refers to a real synset in an Open English Wordnet
-   checkout (see `load_wordnet`). `wn16_key`/`wn30_key` are not checked
-   against OEWN: they're legacy sense keys, preserved as originally
-   annotated, and routinely diverge from current OEWN synsets as the
-   corpus's `oewn_key` layer is reannotated against new OEWN releases.
+   or Open English Namenet checkout (see `load_wordnet`; Namenet holds
+   the proper-noun synsets that aren't part of the base wordnet).
+   `wn16_key`/`wn30_key` are not checked against OEWN: they're legacy
+   sense keys, preserved as originally annotated, and routinely diverge
+   from current OEWN synsets as the corpus's `oewn_key` layer is
+   reannotated against new OEWN releases.
 """
 
 from __future__ import annotations
@@ -33,6 +35,11 @@ DATA_DIR = Path(__file__).resolve().parents[2] / "data"
 WORDNET_DIR = Path(
     os.environ.get("SEMCOR_WORDNET_DIR")
     or Path(__file__).resolve().parents[2] / "external" / "english-wordnet"
+)
+
+NAMENET_DIR = Path(
+    os.environ.get("SEMCOR_NAMENET_DIR")
+    or Path(__file__).resolve().parents[2] / "external" / "english-namenet"
 )
 
 # libyaml's C loader is ~4x faster than the pure-Python one; both the
@@ -168,20 +175,18 @@ def check_pos_tags(data: dict) -> list[str]:
 
 
 class WordNetIndex:
-    """Synset IDs parsed from an Open English Wordnet checkout."""
+    """Synset IDs parsed from Open English Wordnet + Namenet checkouts."""
 
     def __init__(self, synsets: set[str]) -> None:
         self.synsets = synsets
 
 
-def load_wordnet(wordnet_dir: Path = WORDNET_DIR) -> WordNetIndex | None:
-    """Parse an Open English Wordnet checkout's `src/yaml/` synset sources.
+def _load_synsets(yaml_dir: Path) -> set[str] | None:
+    """Parse a GWN-LMF-YAML directory's synset files into a set of synset IDs.
 
-    Returns None if `wordnet_dir` doesn't look like a checkout (so callers
-    can skip wordnet-dependent checks rather than fail outright when a
-    contributor hasn't set one up locally).
+    Returns None if `yaml_dir` doesn't exist (so callers can report a
+    clear setup error rather than fail outright).
     """
-    yaml_dir = wordnet_dir / "src" / "yaml"
     if not yaml_dir.is_dir():
         return None
 
@@ -195,7 +200,26 @@ def load_wordnet(wordnet_dir: Path = WORDNET_DIR) -> WordNetIndex | None:
             data = yaml.load(f, Loader=_YAML_LOADER)
         synsets.update(data.keys())
 
-    return WordNetIndex(synsets)
+    return synsets
+
+
+def load_wordnet(
+    wordnet_dir: Path = WORDNET_DIR, namenet_dir: Path = NAMENET_DIR
+) -> WordNetIndex | None:
+    """Parse an Open English Wordnet checkout's `src/yaml/`, plus Open
+    English Namenet's `data/curated/`: oewn_key can reference synsets
+    contributed by either, since Namenet holds the proper-noun synsets
+    (people, places, organisations, ...) that aren't part of the base
+    wordnet.
+
+    Returns None if either checkout is missing (so callers can report a
+    clear setup error rather than fail outright).
+    """
+    wordnet_synsets = _load_synsets(wordnet_dir / "src" / "yaml")
+    namenet_synsets = _load_synsets(namenet_dir / "data" / "curated")
+    if wordnet_synsets is None or namenet_synsets is None:
+        return None
+    return WordNetIndex(wordnet_synsets | namenet_synsets)
 
 
 def check_wordnet_ids(data: dict, wordnet: WordNetIndex) -> list[str]:
@@ -250,6 +274,14 @@ def main() -> int:
         help="Path to an Open English Wordnet checkout, for validating "
         "oewn_key (default: %(default)s, or $SEMCOR_WORDNET_DIR)",
     )
+    parser.add_argument(
+        "--namenet-dir",
+        type=Path,
+        default=NAMENET_DIR,
+        help="Path to an Open English Namenet checkout, for validating "
+        "oewn_key's proper-noun synsets (default: %(default)s, or "
+        "$SEMCOR_NAMENET_DIR)",
+    )
     args = parser.parse_args()
 
     if args.paths:
@@ -259,17 +291,25 @@ def main() -> int:
     else:
         files = find_yaml_files()
 
-    wordnet = load_wordnet(args.wordnet_dir)
-    if wordnet is None:
-        print(
-            f"error: no Open English Wordnet checkout found at {args.wordnet_dir}\n"
-            "Set one up, e.g.:\n"
-            "  git clone --depth=1 https://github.com/globalwordnet/english-wordnet "
-            f"{args.wordnet_dir}\n"
-            "or point --wordnet-dir / $SEMCOR_WORDNET_DIR at an existing checkout.",
-            file=sys.stderr,
-        )
+    missing = [
+        (args.wordnet_dir / "src" / "yaml", args.wordnet_dir, "Open English Wordnet", "english-wordnet", "--wordnet-dir", "SEMCOR_WORDNET_DIR"),
+        (args.namenet_dir / "data" / "curated", args.namenet_dir, "Open English Namenet", "english-namenet", "--namenet-dir", "SEMCOR_NAMENET_DIR"),
+    ]
+    had_missing = False
+    for yaml_dir, checkout_dir, display_name, repo, flag, env_var in missing:
+        if not yaml_dir.is_dir():
+            had_missing = True
+            print(
+                f"error: no {display_name} checkout found at {checkout_dir}\n"
+                "Set one up, e.g.:\n"
+                f"  git clone --depth=1 https://github.com/globalwordnet/{repo} {checkout_dir}\n"
+                f"or point {flag} / ${env_var} at an existing checkout.\n",
+                file=sys.stderr,
+            )
+    if had_missing:
         return 1
+
+    wordnet = load_wordnet(args.wordnet_dir, args.namenet_dir)
 
     total_errors = 0
     for path in files:

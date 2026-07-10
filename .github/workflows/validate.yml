@@ -18,6 +18,13 @@ jobs:
           path: external/english-wordnet
           depth: 1
 
+      - name: Checkout Open English Namenet
+        uses: actions/checkout@v4
+        with:
+          repository: globalwordnet/english-namenet
+          path: external/english-namenet
+          depth: 1
+
       - name: Install uv
         uses: astral-sh/setup-uv@v6
         with:
