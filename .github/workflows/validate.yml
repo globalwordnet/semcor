@@ -35,3 +35,6 @@ jobs:
 
       - name: Validate data/*.yaml
         run: uv run semcor-validate
+
+      - name: Check token positions haven't drifted
+        run: uv run semcor-check-tokens

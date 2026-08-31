@@ -21,6 +21,7 @@ semcor-apply-deprecations = "semcor.apply_deprecations:main"
 semcor-fix-leading-space = "semcor.fix_leading_space:main"
 semcor-merge = "semcor.merge:main"
 semcor-verify-brown = "semcor.verify_brown:main"
+semcor-check-tokens = "semcor.check_token_positions:main"
 
 [build-system]
 requires = ["uv_build>=0.11.25,<0.12.0"]
