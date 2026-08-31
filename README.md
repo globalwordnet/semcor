@@ -216,6 +216,26 @@ uv run semcor-fix-spurious-spacing --dry-run    # preview without writing
 
 Idempotent, like `semcor-fix-leading-space`.
 
+### `semcor-fix-capitalization-after-quote`
+
+Restores sentence-initial capitalization lost after a dialogue-closing
+quote + `.`/`?`/`!` (fixes #13), e.g. `"How''s Granny"? and sit` ->
+`"How''s Granny"? And sit`. Detects the pattern (`"`, then `.`/`?`/`!`,
+then a lowercase-starting word, whether that's later in the same
+SemCor sentence or the very next one) across the whole corpus, then
+only touches the subset independently confirmed correct against
+`nltk.corpus.brown` -- see the module docstring for the handful of
+excluded cases and why. Each fix is a single-character case change, so
+unlike the other `fix-*` scripts here, `tokens` offsets never need to
+shift.
+
+```sh
+uv run semcor-fix-capitalization-after-quote              # fix data/
+uv run semcor-fix-capitalization-after-quote --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.
