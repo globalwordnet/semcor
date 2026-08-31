@@ -36,5 +36,22 @@ jobs:
       - name: Validate data/*.yaml
         run: uv run semcor-validate
 
+  # A separate job (not a later step in `validate`) so a failure there --
+  # e.g. an oewn_key drifting out of sync with upstream Open English
+  # Wordnet -- can't silently skip this and hide a real tokens/text
+  # regression behind an unrelated one.
+  check-tokens:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --locked
+
       - name: Check token positions haven't drifted
         run: uv run semcor-check-tokens

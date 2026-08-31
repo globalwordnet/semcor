@@ -263,8 +263,10 @@ uv run semcor-check-tokens --generate   # regenerate the fixture from current da
 Only re-run `--generate` when a change deliberately affects one of the
 sampled tokens (e.g. splitting an over-merged token per #10) -- review
 the diff to confirm it's the change you intended, the same as reviewing
-any snapshot-test update. CI runs the verify mode alongside
-`semcor-validate` (see `.github/workflows/validate.yml`).
+any snapshot-test update. CI runs the verify mode as its own job (see
+`.github/workflows/validate.yml`), independent of `semcor-validate`'s
+job so a `oewn_key` drifting out of sync with upstream Open English
+Wordnet can't hide a real tokens/text regression behind it.
 
 ## License
 
