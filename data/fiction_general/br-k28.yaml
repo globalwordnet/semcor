@@ -174,14 +174,14 @@ l9f/:
     wn16_key: [[1, "eye%1:08:00::"], [3, "fasten%2:35:00::"], [6, "leg%1:08:01::"], [8, "bend%2:35:00::"], [11, "touch%2:39:00::"], [13, "knee%1:05:01::"]]
     wn30_key: [[1, "eye%1:08:00::"], [3, "fasten%2:35:00::"], [6, "leg%1:08:01::"], [8, "bend%2:35:00::"], [11, "touch%2:39:00::"], [13, "knee%1:05:01::"]]
 1LYR:
-    lemmas: ["\"", "If", "I", "catch", "you", "one", "more", "time", "down", "here", "without", "stocking", "\"", "-"]
+    lemmas: ["\"", "If", "I", "catch", "you", "one", "more", "time", "down", "here", "without", "stocking", "\"", "--"]
     oewn_key: [[3, "oewn-00727710-v"], [5, "oewn-02193977-s"], [7, "oewn-07324217-n"], [8, "oewn-02501639-a"], [9, "oewn-00109247-r"], [11, "oewn-04330957-n"]]
     paragraph: '4'
     pos: ["``", "IN", "PRP", "VBP", "PRP", "JJ", "JJ", "NN", "JJ", "RB", "IN", "NNS", "''", ":"]
-    text: '"If I catch you one more time down here without stockings" -
+    text: '"If I catch you one more time down here without stockings"--
 
   '
-    tokens: [[0, 1], [1, 3], [4, 5], [6, 11], [12, 15], [16, 19], [20, 24], [25, 29], [30, 34], [35, 39], [40, 47], [48, 57], [57, 58], [59, 60]]
+    tokens: [[0, 1], [1, 3], [4, 5], [6, 11], [12, 15], [16, 19], [20, 24], [25, 29], [30, 34], [35, 39], [40, 47], [48, 57], [57, 58], [58, 60]]
     wn16_key: [[3, "catch%2:31:01::"], [5, "one%5:00:00:cardinal:00"], [6, "more%5:00:00:added:00"], [7, "time%1:11:00::"], [8, "down%3:00:00::"], [9, "here%4:02:00::"], [11, "stocking%1:06:00::"]]
     wn30_key: [[3, "catch%2:31:01::"], [5, "one%3:00:00:cardinal:00"], [7, "time%1:11:00::"], [8, "down%3:00:00::"], [9, "here%4:02:00::"], [11, "stocking%1:06:00::"]]
 4sSD:
@@ -496,24 +496,23 @@ lkSI:
     wn16_key: [[4, "long_time%1:28:00::"], [6, "wait%2:42:01::"]]
     wn30_key: [[4, "long_time%1:28:00::"], [6, "wait%2:42:01::"]]
 7mX+:
-    lemmas: ["\"", "How", "many", "time", "have", "I", "tell", "you", "\"", "-", "he", "begin", ",", "and", "be", "almost", "glad", "when", "she", "cut_off", "him", "off", "-", "\"", "too", "many", "time", "\"", "!"]
+    lemmas: ["\"", "How", "many", "time", "have", "I", "tell", "you", "\"", "--", "he", "begin", ",", "and", "be", "almost", "glad", "when", "she", "cut_off", "him", "off", "--", "\"", "too", "many", "time", "\"", "!"]
     oewn_key: [[2, "oewn-01555990-a"], [3, "oewn-07324217-n"], [6, "oewn-01011267-v"], [11, "oewn-00346415-v"], [14, "oewn-02610777-v"], [15, "oewn-00073433-r"], [16, "oewn-01364330-a"], [19, "oewn-00780320-v"], [24, "oewn-00047930-r"], [25, "oewn-01555990-a"], [26, "oewn-07324217-n"]]
     paragraph: '16'
     pos: ["``", "WRB", "JJ", "NNS", "VBP", "PRP", "VBD", "PRP", "``", ":", "PRP", "VBD", ",", "CC", "VBD", "RB", "JJ", "WRB", "PRP", "VBD", "PRP", "IN", ":", "``", "RB", "JJ", "NNS", "''", "."]
-    text: '" How many times have I told you " - he began, and was almost glad when she cut
-  him off - " Too many times "!'
-    tokens: [[0, 1], [2, 5], [6, 10], [11, 16], [17, 21], [22, 23], [24, 28], [29, 32], [33, 34], [35, 36], [37, 39], [40, 45], [45, 46], [47, 50], [51, 54], [55, 61], [62, 66], [67, 71], [72, 75], [76, 79], [80, 83], [84, 87], [88, 89], [90, 91], [92, 95], [96, 100], [101, 106], [107, 108], [108, 109]]
+    text: '" How many times have I told you "--he began, and was almost glad when she cut him off--" Too many times "!'
+    tokens: [[0, 1], [2, 5], [6, 10], [11, 16], [17, 21], [22, 23], [24, 28], [29, 32], [33, 34], [34, 36], [36, 38], [39, 44], [44, 45], [46, 49], [50, 53], [54, 60], [61, 65], [66, 70], [71, 74], [75, 78], [79, 82], [83, 86], [86, 88], [88, 89], [90, 93], [94, 98], [99, 104], [105, 106], [106, 107]]
     wn16_key: [[2, "many%3:00:00::"], [3, "time%1:11:00::"], [6, "tell%2:32:04::"], [11, "begin%2:30:00::"], [14, "be%2:42:03::"], [15, "almost%4:02:00::"], [16, "glad%3:00:00::"], [19, "cut_off%2:32:00::"], [24, "too%4:02:00::"], [25, "many%3:00:00::"], [26, "time%1:11:00::"]]
     wn30_key: [[2, "many%3:00:00::"], [3, "time%1:11:00::"], [6, "tell%2:32:04::"], [11, "begin%2:30:00::"], [14, "be%2:42:03::"], [15, "almost%4:02:00::"], [16, "glad%3:00:00::"], [19, "cut_off%2:32:00::"], [24, "too%4:02:00::"], [25, "many%3:00:00::"], [26, "time%1:11:00::"]]
 aHYQ:
-    lemmas: ["-", "and", "flounce", "to", "the", "sink", ",", "where", "she", "begin", "noisily", "to", "wash", "her", "hand", "."]
+    lemmas: ["--", "and", "flounce", "to", "the", "sink", ",", "where", "she", "begin", "noisily", "to", "wash", "her", "hand", "."]
     oewn_key: [[2, "oewn-01928358-v"], [5, "oewn-04230655-n"], [9, "oewn-00346415-v"], [10, "oewn-00230871-r"], [12, "oewn-00036355-v"], [14, "oewn-05572223-n"]]
     paragraph: '16'
     pos: [":", "CC", "VBN", "TO", "DT", "NN", ",", "WRB", "PRP", "VBD", "RB", "TO", "VB", "PRP$", "NNS", "."]
-    text: '- and flounced to the sink, where she began noisily to wash her hands.
+    text: '--and flounced to the sink, where she began noisily to wash her hands.
 
   '
-    tokens: [[0, 1], [2, 5], [6, 14], [15, 17], [18, 21], [22, 26], [26, 27], [28, 33], [34, 37], [38, 43], [44, 51], [52, 54], [55, 59], [60, 63], [64, 69], [69, 70]]
+    tokens: [[0, 2], [2, 5], [6, 14], [15, 17], [18, 21], [22, 26], [26, 27], [28, 33], [34, 37], [38, 43], [44, 51], [52, 54], [55, 59], [60, 63], [64, 69], [69, 70]]
     wn16_key: [[2, "flounce%2:38:00::"], [5, "sink%1:06:00::"], [9, "begin%2:30:00::"], [10, "noisily%4:02:00::"], [12, "wash%2:29:00::"], [14, "hand%1:08:00::"]]
     wn30_key: [[2, "flounce%2:38:00::"], [5, "sink%1:06:00::"], [9, "begin%2:30:00::"], [10, "noisily%4:02:00::"], [12, "wash%2:29:00::"], [14, "hand%1:08:00::"]]
 hhn+:
@@ -585,14 +584,12 @@ sGXC:
     wn16_key: [[1, "doubt%2:31:00::"], [4, "hear%2:39:00::"], [9, "running%3:00:02::"], [10, "water%1:27:00::"]]
     wn30_key: [[1, "doubt%2:31:00::"], [4, "hear%2:39:00::"], [9, "running%3:00:02::"], [10, "water%1:27:00::"]]
 zJL7:
-    lemmas: ["He", "sit", "for_a_while", "with", "his", "hand", "on", "his", "knee", ",", "watch", "the", "bend", "of", "her", "back", "as", "she", "gather_up", "her", "thing", "-", "a", "comb", ",", "a", "bottle", "of", "aspirin", "-", "to", "take", "upstairs", "and", "pack", "."]
+    lemmas: ["He", "sit", "for_a_while", "with", "his", "hand", "on", "his", "knee", ",", "watch", "the", "bend", "of", "her", "back", "as", "she", "gather_up", "her", "thing", "--", "a", "comb", ",", "a", "bottle", "of", "aspirin", "--", "to", "take", "upstairs", "and", "pack", "."]
     oewn_key: [[1, "oewn-01545905-v"], [2, "oewn-00145441-r"], [5, "oewn-05572223-n"], [8, "oewn-02466696-n"], [10, "oewn-02154940-v"], [12, "oewn-07325609-n"], [15, "oewn-05566350-n"], [18, "oewn-01980103-v"], [20, "oewn-04431353-n"], [23, "oewn-03078859-n"], [26, "oewn-02879899-n"], [28, "oewn-02751623-n"], [31, "oewn-02081903-v"], [32, "oewn-00095095-r"], [34, "oewn-01485079-v"]]
     paragraph: '19'
     pos: ["PRP", "VBD", "RB", "IN", "PRP$", "NNS", "IN", "PRP$", "NNS", ",", "VBG", "DT", "NN", "IN", "PRP$", "NN", "IN", "PRP", "VBD", "PRP$", "NNS", ":", "DT", "NN", ",", "DT", "NN", "IN", "NN", ":", "TO", "VB", "RB", "CC", "VB", "."]
-    text: 'He sat for_a_while with his hands on his knees, watching the bend of her back as
-  she gathered_up her things - a comb, a bottle of aspirin - to take upstairs and
-  pack.'
-    tokens: [[0, 2], [3, 6], [7, 18], [19, 23], [24, 27], [28, 33], [34, 36], [37, 40], [41, 46], [46, 47], [48, 56], [57, 60], [61, 65], [66, 68], [69, 72], [73, 77], [78, 80], [81, 84], [85, 96], [97, 100], [101, 107], [108, 109], [110, 111], [112, 116], [116, 117], [118, 119], [120, 126], [127, 129], [130, 137], [138, 139], [140, 142], [143, 147], [148, 156], [157, 160], [161, 165], [165, 166]]
+    text: 'He sat for_a_while with his hands on his knees, watching the bend of her back as she gathered_up her things--a comb, a bottle of aspirin--to take upstairs and pack.'
+    tokens: [[0, 2], [3, 6], [7, 18], [19, 23], [24, 27], [28, 33], [34, 36], [37, 40], [41, 46], [46, 47], [48, 56], [57, 60], [61, 65], [66, 68], [69, 72], [73, 77], [78, 80], [81, 84], [85, 96], [97, 100], [101, 107], [107, 109], [109, 110], [111, 115], [115, 116], [117, 118], [119, 125], [126, 128], [129, 136], [136, 138], [138, 140], [141, 145], [146, 154], [155, 158], [159, 163], [163, 164]]
     wn16_key: [[1, "sit%2:35:00::"], [2, "for_a_while%4:02:01::"], [5, "hand%1:08:00::"], [8, "knee%1:05:01::"], [10, "watch%2:39:00::"], [12, "bend%1:11:00::"], [15, "back%1:08:00::"], [18, "gather_up%2:38:00::"], [20, "thing%1:06:00::"], [23, "comb%1:06:00::"], [26, "bottle%1:06:00::"], [28, "aspirin%1:06:00::"], [31, "take%2:38:10::"], [32, "upstairs%4:02:00::"], [34, "pack%2:35:00::"]]
     wn30_key: [[1, "sit%2:35:00::"], [2, "for_a_while%4:02:01::"], [5, "hand%1:08:00::"], [8, "knee%1:05:01::"], [10, "watch%2:39:00::"], [12, "bend%1:11:00::"], [15, "back%1:08:00::"], [18, "gather_up%2:38:00::"], [20, "thing%1:06:00::"], [23, "comb%1:06:00::"], [26, "bottle%1:06:00::"], [28, "aspirin%1:06:00::"], [31, "take%2:38:10::"], [32, "upstairs%4:02:00::"], [34, "pack%2:35:00::"]]
 Xxn9:
@@ -769,13 +766,12 @@ CnTv:
     wn16_key: [[0, "person%1:03:00::"], [1, "enjoy%2:34:00::"], [2, "see%2:39:00::"], [4, "start_out%2:38:00::"], [7, "wear%2:29:00::"], [9, "clothes%1:06:00::"], [11, "style%1:07:00::"]]
     wn30_key: [[0, "person%1:03:00::"], [1, "enjoy%2:34:00::"], [2, "see%2:39:00::"], [4, "start_out%2:38:00::"], [7, "wear%2:29:00::"], [9, "clothes%1:06:00::"], [11, "style%1:07:00::"]]
 svhW:
-    lemmas: ["When", "he", "be", "go_to", "town", ",", "nothing", "be", "good", "enough", "-", "he", "have", "curse", "at", "person", "once", "for", "leave", "a", "fleck", "of", "polish", "on", "his", "shoelace", "."]
+    lemmas: ["When", "he", "be", "go_to", "town", ",", "nothing", "be", "good", "enough", "--", "he", "have", "curse", "at", "person", "once", "for", "leave", "a", "fleck", "of", "polish", "on", "his", "shoelace", "."]
     oewn_key: [[3, "oewn-02618797-v"], [4, "oewn-08683242-n"], [6, "oewn-13762308-n"], [7, "oewn-02610777-v"], [8, "oewn-01126910-a"], [9, "oewn-00146749-r"], [13, "oewn-00867978-v"], [15, "oewn-00007846-n"], [16, "oewn-00119765-r"], [18, "oewn-00614532-v"], [20, "oewn-09244958-n"], [22, "oewn-04962337-n"], [25, "oewn-04207680-n"]]
     paragraph: '23'
     pos: ["WRB", "PRP", "VBD", "VB", "NN", ",", "NN", "VBD", "JJ", "RB", ":", "PRP", "VBD", "VBN", "IN", "NNP", "RB", "IN", "VBG", "DT", "NN", "IN", "NN", "IN", "PRP$", "NN", "."]
-    text: 'When he was going_to town, nothing was good enough - he had cursed at Winston once
-  for leaving a fleck of polish on his shoelace.'
-    tokens: [[0, 4], [5, 7], [8, 11], [12, 20], [21, 25], [25, 26], [27, 34], [35, 38], [39, 43], [44, 50], [51, 52], [53, 55], [56, 59], [60, 66], [67, 69], [70, 77], [78, 82], [83, 86], [87, 94], [95, 96], [97, 102], [103, 105], [106, 112], [113, 115], [116, 119], [120, 128], [128, 129]]
+    text: 'When he was going_to town, nothing was good enough--he had cursed at Winston once for leaving a fleck of polish on his shoelace.'
+    tokens: [[0, 4], [5, 7], [8, 11], [12, 20], [21, 25], [25, 26], [27, 34], [35, 38], [39, 43], [44, 50], [50, 52], [52, 54], [55, 58], [59, 65], [66, 68], [69, 76], [77, 81], [82, 85], [86, 93], [94, 95], [96, 101], [102, 104], [105, 111], [112, 114], [115, 118], [119, 127], [127, 128]]
     wn16_key: [[3, "go_to%2:38:00::"], [4, "town%1:15:00::"], [6, "nothing%1:23:00::"], [7, "be%2:42:03::"], [8, "good%3:00:01::"], [9, "enough%4:02:00::"], [13, "curse%2:32:02::"], [15, "person%1:03:00::"], [16, "once%4:02:00::"], [18, "leave%2:31:02::"], [20, "fleck%1:17:00::"], [22, "polish%1:07:00::"], [25, "shoelace%1:06:00::"]]
     wn30_key: [[3, "go_to%2:42:00::"], [4, "town%1:15:00::"], [6, "nothing%1:23:00::"], [7, "be%2:42:03::"], [8, "good%3:00:01::"], [9, "enough%4:02:00::"], [13, "curse%2:32:02::"], [15, "person%1:03:00::"], [16, "once%4:02:00::"], [18, "leave%2:31:02::"], [20, "fleck%1:17:00::"], [22, "polish%1:07:00::"], [25, "shoelace%1:06:00::"]]
 vt8Z:
@@ -947,13 +943,12 @@ EyDh:
     wn16_key: [[0, "person%1:03:00::"], [3, "surprised%3:00:00::"]]
     wn30_key: [[0, "person%1:03:00::"], [3, "surprised%3:00:00::"]]
 Xa4D:
-    lemmas: ["still", ",", "he", "have", "like", "the", "way", "she", "have", "look", ",", "in", "a", "fresh", ",", "neat", "cotton", "dress", "-", "citron", "yellow", ",", "if", "he", "remember", "."]
+    lemmas: ["still", ",", "he", "have", "like", "the", "way", "she", "have", "look", ",", "in", "a", "fresh", ",", "neat", "cotton", "dress", "--", "citron", "yellow", ",", "if", "he", "remember", "."]
     oewn_key: [[0, "oewn-00027761-r"], [4, "oewn-01781131-v"], [6, "oewn-04936080-n"], [9, "oewn-02137900-v"], [13, "oewn-01071383-a"], [15, "oewn-02432057-s"], [16, "oewn-14894229-n"], [17, "oewn-03241438-n"], [19, "oewn-07766425-n"], [20, "oewn-04972838-n"], [24, "oewn-00609334-v"]]
     paragraph: '26'
     pos: ["RB", ",", "PRP", "VBD", "VBN", "DT", "NN", "PRP", "VBD", "VBN", ",", "IN", "DT", "JJ", ",", "JJ", "NN", "NN", ":", "NN", "NN", ",", "IN", "PRP", "VBD", "."]
-    text: 'Still, he had liked the way she had looked, in a fresh, neat cotton dress - citron
-  yellow, if he remembered.'
-    tokens: [[0, 5], [5, 6], [7, 9], [10, 13], [14, 19], [20, 23], [24, 27], [28, 31], [32, 35], [36, 42], [42, 43], [44, 46], [47, 48], [49, 54], [54, 55], [56, 60], [61, 67], [68, 73], [74, 75], [76, 82], [83, 89], [89, 90], [91, 93], [94, 96], [97, 107], [107, 108]]
+    text: 'Still, he had liked the way she had looked, in a fresh, neat cotton dress--citron yellow, if he remembered.'
+    tokens: [[0, 5], [5, 6], [7, 9], [10, 13], [14, 19], [20, 23], [24, 27], [28, 31], [32, 35], [36, 42], [42, 43], [44, 46], [47, 48], [49, 54], [54, 55], [56, 60], [61, 67], [68, 73], [73, 75], [75, 81], [82, 88], [88, 89], [90, 92], [93, 95], [96, 106], [106, 107]]
     wn16_key: [[0, "still%4:02:04::"], [4, "like%2:37:05::"], [6, "way%1:07:01::"], [9, "look%2:39:01::"], [13, "fresh%3:00:01::"], [15, "neat%5:00:00:tidy:00"], [16, "cotton%1:27:01::"], [17, "dress%1:06:00::"], [19, "citron%1:13:00::"], [20, "yellow%1:07:00::"], [24, "remember%2:31:00::"]]
     wn30_key: [[0, "still%4:02:04::"], [4, "like%2:37:05::"], [6, "way%1:07:01::"], [9, "look%2:39:01::"], [13, "fresh%3:00:01::"], [15, "neat%3:00:00:tidy:00"], [16, "cotton%1:27:01::"], [17, "dress%1:06:00::"], [19, "citron%1:13:00::"], [20, "yellow%1:07:00::"], [24, "remember%2:31:00::"]]
 OuU8:
@@ -1660,12 +1655,12 @@ eqrh:
     wn16_key: []
     wn30_key: []
 wvc5:
-    lemmas: ["All", "I", "want", "be", "a", "picture", "-", "with", "a_few", "line", "."]
+    lemmas: ["All", "I", "want", "be", "a", "picture", "--", "with", "a_few", "line", "."]
     oewn_key: [[2, "oewn-01829179-v"], [3, "oewn-02622439-v"], [5, "oewn-03937282-n"], [8, "oewn-01557697-s"], [9, "oewn-07025650-n"]]
     paragraph: '52'
     pos: ["DT", "PRP", "VBP", "VBZ", "DT", "NN", ":", "IN", "JJ", "NNS", "."]
-    text: 'All I want is a picture - with a_few lines.'
-    tokens: [[0, 3], [4, 5], [6, 10], [11, 13], [14, 15], [16, 23], [24, 25], [26, 30], [31, 36], [37, 42], [42, 43]]
+    text: 'All I want is a picture--with a_few lines.'
+    tokens: [[0, 3], [4, 5], [6, 10], [11, 13], [14, 15], [16, 23], [23, 25], [25, 29], [30, 35], [36, 41], [41, 42]]
     wn16_key: [[2, "want%2:37:00::"], [3, "be%2:42:06::"], [5, "picture%1:06:00::"], [8, "a_few%5:00:00:few:00"], [9, "line%1:10:02::"]]
     wn30_key: [[2, "want%2:37:00::"], [3, "be%2:42:06::"], [5, "picture%1:06:00::"], [8, "a_few%3:00:00:few:00"], [9, "line%1:10:02::"]]
 oejT:
