@@ -47,14 +47,14 @@ D2mk:
     wn16_key: [[1, "be%2:42:00::"], [2, "time%1:11:00::"], [4, "be%2:42:03::"], [5, "n't%4:02:00::"], [6, "right%5:00:01:proper:00"], [8, "make%2:30:00::"], [10, "person%1:03:00::"], [11, "happy%3:00:00::"], [15, "time%1:11:00::"], [17, "come_in%2:38:02::"], [19, "kitchen%1:06:00::"], [21, "ask%2:32:01::"], [24, "peanut_butter%1:13:00::"], [25, "sandwich%1:13:00::"]]
     wn30_key: [[1, "be%2:42:00::"], [2, "time%1:11:00::"], [4, "be%2:42:03::"], [6, "right%3:00:01:proper:00"], [8, "make%2:30:00::"], [10, "person%1:03:00::"], [11, "happy%3:00:00::"], [15, "time%1:11:00::"], [17, "come_in%2:38:02::"], [19, "kitchen%1:06:00::"], [21, "ask%2:32:01::"], [24, "peanut_butter%1:13:00::"], [25, "sandwich%1:13:00::"]]
 WT4r:
-    lemmas: ["\"", "You", "know", "we", "do", "n't", "keep", "peanut_butter", "in_this", "house", "\"", ",", "he", "always", "tell", "her", "."]
-    oewn_key: [[2, "oewn-00596016-v"], [6, "oewn-02207166-v"], [7, "oewn-07871486-n"], [9, "oewn-03549540-n"], [13, "oewn-00019801-r"], [14, "oewn-01011267-v"]]
+    lemmas: ["\"", "You", "know", "we", "do", "n't", "keep", "peanut_butter", "in", "this", "house", "\"", ",", "he", "always", "tell", "her", "."]
+    oewn_key: [[2, "oewn-00596016-v"], [6, "oewn-02207166-v"], [7, "oewn-07871486-n"], [10, "oewn-03549540-n"], [14, "oewn-00019801-r"], [15, "oewn-01011267-v"]]
     paragraph: '0'
-    pos: ["``", "PRP", "VBP", "PRP", "VBP", "RB", "VB", "NN", "RB", "NN", "''", ",", "PRP", "RB", "VBD", "PRP$", "."]
-    text: '"You know we don''t keep peanut_butter in_this house", he always told her.'
-    tokens: [[0, 1], [1, 4], [5, 9], [10, 12], [13, 15], [15, 18], [19, 23], [24, 37], [38, 45], [46, 51], [51, 52], [52, 53], [54, 56], [57, 63], [64, 68], [69, 72], [72, 73]]
-    wn16_key: [[2, "know%2:31:01::"], [5, "n't%4:02:00::"], [6, "keep%2:40:00::"], [7, "peanut_butter%1:13:00::"], [9, "house%1:06:00::"], [13, "always%4:02:00::"], [14, "tell%2:32:04::"]]
-    wn30_key: [[2, "know%2:31:01::"], [6, "keep%2:40:00::"], [7, "peanut_butter%1:13:00::"], [9, "house%1:06:00::"], [13, "always%4:02:00::"], [14, "tell%2:32:04::"]]
+    pos: ["``", "PRP", "VBP", "PRP", "VBP", "RB", "VB", "NN", "IN", "DT", "NN", "''", ",", "PRP", "RB", "VBD", "PRP$", "."]
+    text: '"You know we don''t keep peanut_butter in this house", he always told her.'
+    tokens: [[0, 1], [1, 4], [5, 9], [10, 12], [13, 15], [15, 18], [19, 23], [24, 37], [38, 40], [41, 45], [46, 51], [51, 52], [52, 53], [54, 56], [57, 63], [64, 68], [69, 72], [72, 73]]
+    wn16_key: [[2, "know%2:31:01::"], [5, "n't%4:02:00::"], [6, "keep%2:40:00::"], [7, "peanut_butter%1:13:00::"], [10, "house%1:06:00::"], [14, "always%4:02:00::"], [15, "tell%2:32:04::"]]
+    wn30_key: [[2, "know%2:31:01::"], [6, "keep%2:40:00::"], [7, "peanut_butter%1:13:00::"], [10, "house%1:06:00::"], [14, "always%4:02:00::"], [15, "tell%2:32:04::"]]
 MBnN:
     lemmas: ["\"", "Why", ",", "person", "\"", ",", "she", "'d", "cry", ",", "\"", "I", "just_now", "see", "you", "eat", "it", "out", "of", "the", "jar", "\"", "!"]
     oewn_key: [[3, "oewn-00007846-n"], [8, "oewn-00976818-v"], [12, "oewn-00033695-r"], [13, "oewn-02133754-v"], [15, "oewn-01170802-v"], [17, "oewn-00235144-r"], [20, "oewn-03598713-n"]]
@@ -348,14 +348,14 @@ b7CX:
     wn16_key: [[1, "draw_back%2:38:00::"], [3, "embarrassed%5:00:00:discomposed:00"], [5, "pleased%3:00:00::"]]
     wn30_key: [[1, "draw_back%2:38:00::"], [3, "embarrassed%3:00:00:discomposed:00"], [5, "pleased%3:00:00::"]]
 VnUH:
-    lemmas: ["\"", "I", "think", "you", "be", "sick_to_death", "of_this", "big", "house", "."]
-    oewn_key: [[2, "oewn-00691086-v"], [4, "oewn-02610777-v"], [7, "oewn-01385012-a"], [8, "oewn-03549540-n"]]
+    lemmas: ["\"", "I", "think", "you", "be", "sick_to_death", "of", "this", "big", "house", "."]
+    oewn_key: [[2, "oewn-00691086-v"], [4, "oewn-02610777-v"], [8, "oewn-01385012-a"], [9, "oewn-03549540-n"]]
     paragraph: '10'
-    pos: ["``", "PRP", "VBD", "PRP", "VBD", "JJ", "RB", "JJ", "NN", "."]
-    text: '" I thought you was sick_to_death of_this big house.'
-    tokens: [[0, 1], [2, 3], [4, 11], [12, 15], [16, 19], [20, 33], [34, 41], [42, 45], [46, 51], [51, 52]]
-    wn16_key: [[2, "think%2:31:01::"], [4, "be%2:42:03::"], [7, "big%3:00:01::"], [8, "house%1:06:00::"]]
-    wn30_key: [[2, "think%2:31:01::"], [4, "be%2:42:03::"], [7, "big%3:00:01::"], [8, "house%1:06:00::"]]
+    pos: ["``", "PRP", "VBD", "PRP", "VBD", "JJ", "IN", "DT", "JJ", "NN", "."]
+    text: '" I thought you was sick_to_death of this big house.'
+    tokens: [[0, 1], [2, 3], [4, 11], [12, 15], [16, 19], [20, 33], [34, 36], [37, 41], [42, 45], [46, 51], [51, 52]]
+    wn16_key: [[2, "think%2:31:01::"], [4, "be%2:42:03::"], [8, "big%3:00:01::"], [9, "house%1:06:00::"]]
+    wn30_key: [[2, "think%2:31:01::"], [4, "be%2:42:03::"], [8, "big%3:00:01::"], [9, "house%1:06:00::"]]
 yP7j:
     lemmas: ["say", "you", "wear_out", "yourself", "out", ",", "clean", "all", "these", "empty", "room", "\"", "."]
     oewn_key: [[0, "oewn-01011267-v"], [2, "oewn-00074774-v"], [6, "oewn-01536230-v"], [9, "oewn-01090234-a"], [10, "oewn-04112987-n"]]

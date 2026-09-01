@@ -832,12 +832,12 @@ GSyP:
     wn16_key: [[0, "list%2:32:00::"], [3, "wed%2:41:00::"], [12, "be%2:42:03::"]]
     wn30_key: [[0, "list%2:32:00::"], [3, "wed%2:41:00::"], [12, "be%2:42:03::"]]
 2e4t:
-    lemmas: ["She", "be", "the", "former", "Judy_Chapman", ",", "daughter", "of", "john_s._chapman", "of_this", "city", "."]
+    lemmas: ["She", "be", "the", "former", "Judy_Chapman", ",", "daughter", "of", "john_s._chapman", "of", "this", "city", "."]
     oewn_key: [[1, "oewn-02670846-v"]]
     paragraph: '43'
-    pos: ["PRP", "VBZ", "DT", "JJ", "NNP", ",", "NN", "IN", "NNP", "RB", "NN", "."]
-    text: 'She is the former Judy_Chapman, daughter of John_S._Chapman of_this city.'
-    tokens: [[0, 3], [4, 6], [7, 10], [11, 17], [18, 30], [30, 31], [32, 40], [41, 43], [44, 59], [60, 67], [68, 72], [72, 73]]
+    pos: ["PRP", "VBZ", "DT", "JJ", "NNP", ",", "NN", "IN", "NNP", "IN", "DT", "NN", "."]
+    text: 'She is the former Judy_Chapman, daughter of John_S._Chapman of this city.'
+    tokens: [[0, 3], [4, 6], [7, 10], [11, 17], [18, 30], [30, 31], [32, 40], [41, 43], [44, 59], [60, 62], [63, 67], [68, 72], [72, 73]]
     wn16_key: [[1, "be%2:42:07::"]]
     wn30_key: [[1, "be%2:42:07::"]]
 waEK:
@@ -975,16 +975,14 @@ UDuV:
     wn16_key: [[10, "be%2:42:03::"], [13, "execute%2:41:02::"], [15, "be%2:42:03::"], [19, "use%2:34:01::"]]
     wn30_key: [[10, "be%2:42:03::"], [13, "execute%2:36:00::"], [15, "be%2:42:03::"], [19, "use%2:34:01::"]]
 +l9Q:
-    lemmas: ["most", "child", "love", "the", "animated", "puppet", "face", "and", "their", "flexible", "body", ",", "and", "they", "prefer", "to", "see", "them", "as", "though", "the", "puppet", "be", "in", "action", ",", "rather_than", "put_away", "in", "box", "."]
-    oewn_key: [[2, "oewn-01832678-v"], [14, "oewn-01830440-v"], [16, "oewn-01638974-v"], [22, "oewn-02610777-v"], [27, "oewn-01350360-v"]]
+    lemmas: ["most", "child", "love", "the", "animated", "puppet", "face", "and", "their", "flexible", "body", ",", "and", "they", "prefer", "to", "see", "them", "as", "though", "the", "puppet", "be", "in", "action", ",", "rather", "than", "put_away", "in", "box", "."]
+    oewn_key: [[2, "oewn-01832678-v"], [14, "oewn-01830440-v"], [16, "oewn-01638974-v"], [22, "oewn-02610777-v"], [28, "oewn-01350360-v"]]
     paragraph: '50'
-    pos: ["JJS", "NNS", "VBP", "DT", "JJ", "NN", "NNS", "CC", "PRP$", "JJ", "NNS", ",", "CC", "PRP", "VBP", "TO", "VB", "PRP", "IN", "IN", "DT", "NNS", "VBD", "IN", "NN", ",", "RB", "VB", "IN", "NNS", "."]
-    text: 'Most children love the animated puppet faces and their flexible bodies, and they
-  prefer to see them as though the puppets were in action, rather_than put_away in
-  boxes.'
-    tokens: [[0, 4], [5, 13], [14, 18], [19, 22], [23, 31], [32, 38], [39, 44], [45, 48], [49, 54], [55, 63], [64, 70], [70, 71], [72, 75], [76, 80], [81, 87], [88, 90], [91, 94], [95, 99], [100, 102], [103, 109], [110, 113], [114, 121], [122, 126], [127, 129], [130, 136], [136, 137], [138, 149], [150, 158], [159, 161], [162, 167], [167, 168]]
-    wn16_key: [[2, "love%2:37:02::"], [14, "prefer%2:37:00::"], [16, "see%2:36:00::"], [22, "be%2:42:03::"], [27, "put_away%2:35:01::"]]
-    wn30_key: [[2, "love%2:37:02::"], [14, "prefer%2:37:00::"], [16, "see%2:36:00::"], [22, "be%2:42:03::"], [27, "put_away%2:35:01::"]]
+    pos: ["JJS", "NNS", "VBP", "DT", "JJ", "NN", "NNS", "CC", "PRP$", "JJ", "NNS", ",", "CC", "PRP", "VBP", "TO", "VB", "PRP", "IN", "IN", "DT", "NNS", "VBD", "IN", "NN", ",", "IN", "IN", "VB", "IN", "NNS", "."]
+    text: 'Most children love the animated puppet faces and their flexible bodies, and they prefer to see them as though the puppets were in action, rather than put_away in boxes.'
+    tokens: [[0, 4], [5, 13], [14, 18], [19, 22], [23, 31], [32, 38], [39, 44], [45, 48], [49, 54], [55, 63], [64, 70], [70, 71], [72, 75], [76, 80], [81, 87], [88, 90], [91, 94], [95, 99], [100, 102], [103, 109], [110, 113], [114, 121], [122, 126], [127, 129], [130, 136], [136, 137], [138, 144], [145, 149], [150, 158], [159, 161], [162, 167], [167, 168]]
+    wn16_key: [[2, "love%2:37:02::"], [14, "prefer%2:37:00::"], [16, "see%2:36:00::"], [22, "be%2:42:03::"], [28, "put_away%2:35:01::"]]
+    wn30_key: [[2, "love%2:37:02::"], [14, "prefer%2:37:00::"], [16, "see%2:36:00::"], [22, "be%2:42:03::"], [28, "put_away%2:35:01::"]]
 lmuQ:
     lemmas: ["display", "as", "lamp", ",", "the", "puppet", "delight", "the", "child", "and", "be", "decorative", "accent", "."]
     oewn_key: [[0, "oewn-02144506-v"], [6, "oewn-01819595-v"], [10, "oewn-02670846-v"]]

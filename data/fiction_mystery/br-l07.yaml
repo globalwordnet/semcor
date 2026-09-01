@@ -214,12 +214,12 @@ ioNT:
     wn16_key: [[4, "look_for%2:35:00::"], [8, "marry%2:41:00::"], [14, "live%2:42:08::"], [23, "poison%2:35:00::"]]
     wn30_key: [[4, "look_for%2:35:00::"], [8, "marry%2:41:00::"], [14, "live%2:42:08::"], [23, "poison%2:35:00::"]]
 q6Ah:
-    lemmas: ["If", "there", "be", "such", "a", "person", ",", "I", "be", "afraid", "she", "get_away", "with_it", "."]
+    lemmas: ["If", "there", "be", "such", "a", "person", ",", "I", "be", "afraid", "she", "get_away", "with", "it", "."]
     oewn_key: [[8, "oewn-02610777-v"], [11, "oewn-00812391-v"]]
     paragraph: '9'
-    pos: ["IN", "EX", "VB", "JJ", "DT", "NN", ",", "PRP", "VBP", "JJ", "PRP", "VB", "RB", "."]
-    text: 'If there was such a person, I''m afraid she got_away with_it.'
-    tokens: [[0, 2], [3, 8], [9, 12], [13, 17], [18, 19], [20, 26], [26, 27], [28, 29], [29, 31], [32, 38], [39, 42], [43, 51], [52, 59], [59, 60]]
+    pos: ["IN", "EX", "VB", "JJ", "DT", "NN", ",", "PRP", "VBP", "JJ", "PRP", "VB", "IN", "PRP", "."]
+    text: 'If there was such a person, I''m afraid she got_away with it.'
+    tokens: [[0, 2], [3, 8], [9, 12], [13, 17], [18, 19], [20, 26], [26, 27], [28, 29], [29, 31], [32, 38], [39, 42], [43, 51], [52, 56], [57, 59], [59, 60]]
     wn16_key: [[8, "be%2:42:03::"], [11, "get_away%2:32:00::"]]
     wn30_key: [[8, "be%2:42:03::"], [11, "get_away%2:32:00::"]]
 1nwZ:
@@ -369,14 +369,14 @@ q9A9:
     wn16_key: [[2, "wish%2:32:00::"], [10, "dig_up%2:35:00::"]]
     wn30_key: [[2, "wish%2:32:00::"], [10, "dig_up%2:35:00::"]]
 KIFg:
-    lemmas: ["If", "you", "find_out", "anything", ",", "come_back", "on", "back", "here", "and", "we", "'ll", "get_started", "on_it", "\"", "."]
+    lemmas: ["If", "you", "find_out", "anything", ",", "come_back", "on", "back", "here", "and", "we", "'ll", "get_started", "on", "it", "\"", "."]
     oewn_key: [[2, "oewn-00920843-v"], [12, "oewn-00349195-v"]]
     paragraph: '11'
-    pos: ["IN", "PRP", "VBP", "NN", ",", "VB", "VB", "RB", "RB", "CC", "PRP", "MD", "VB", "RB", "''", "."]
-    text: 'If you find_out anything, come on back here and we''ll get_started on_it ".
+    pos: ["IN", "PRP", "VBP", "NN", ",", "VB", "VB", "RB", "RB", "CC", "PRP", "MD", "VB", "IN", "PRP", "''", "."]
+    text: 'If you find_out anything, come on back here and we''ll get_started on it ".
 
   '
-    tokens: [[0, 2], [3, 6], [7, 15], [16, 24], [24, 25], [26, 30], [31, 33], [34, 38], [39, 43], [44, 47], [48, 50], [50, 53], [54, 65], [66, 71], [72, 73], [73, 74]]
+    tokens: [[0, 2], [3, 6], [7, 15], [16, 24], [24, 25], [26, 30], [31, 33], [34, 38], [39, 43], [44, 47], [48, 50], [50, 53], [54, 65], [66, 68], [69, 71], [72, 73], [73, 74]]
     wn16_key: [[2, "find_out%2:32:00::"], [5, "come_back%2:38:00::"], [12, "get_started%2:30:00::"]]
     wn30_key: [[2, "find_out%2:32:00::"], [12, "get_started%2:30:00::"]]
 rbG5:
@@ -1385,14 +1385,14 @@ NBQY:
     wn16_key: [[4, "kill%2:35:00::"]]
     wn30_key: [[4, "kill%2:35:00::"]]
 YLO0:
-    lemmas: ["nobody", "could", "hear", "what", "be", "go_on", "in_this", "underground", "vault", "."]
+    lemmas: ["nobody", "could", "hear", "what", "be", "go_on", "in", "this", "underground", "vault", "."]
     oewn_key: [[2, "oewn-02174146-v"], [5, "oewn-00340744-v"]]
     paragraph: '51'
-    pos: ["NN", "MD", "VB", "WP", "VBD", "VB", "RB", "JJ", "NN", "."]
-    text: 'Nobody could hear what was going_on in_this underground vault.
+    pos: ["NN", "MD", "VB", "WP", "VBD", "VB", "IN", "DT", "JJ", "NN", "."]
+    text: 'Nobody could hear what was going_on in this underground vault.
 
   '
-    tokens: [[0, 6], [7, 12], [13, 17], [18, 22], [23, 26], [27, 35], [36, 43], [44, 55], [56, 61], [61, 62]]
+    tokens: [[0, 6], [7, 12], [13, 17], [18, 22], [23, 26], [27, 35], [36, 38], [39, 43], [44, 55], [56, 61], [61, 62]]
     wn16_key: [[2, "hear%2:39:00::"], [5, "go_on%2:30:00::"]]
     wn30_key: [[2, "hear%2:39:00::"], [5, "go_on%2:30:00::"]]
 dQrk:
