@@ -292,6 +292,27 @@ uv run semcor-fix-function-word-merges --dry-run    # preview without writing
 
 Idempotent, like the other `fix-*` scripts.
 
+### `semcor-fix-leftover-ampersand`
+
+Normalizes leftover `& & &` runs (27 sentences across 20 files) to a
+real ellipsis `...` (fixes #11), e.g. `sleeping together & & &".` ->
+`sleeping together ...".`. Unlike the rest of this stack, Brown isn't
+a reliable ground truth here -- checking these positions against
+`nltk.corpus.brown` mostly finds nothing at all there, consistent with
+this being a genuine "trails off" mark from the original printed
+source that Brown's own transcription dropped and this corpus's
+intermediate format tried (and, in these 27 cases, failed) to
+preserve, rather than spurious markup with a recoverable correct
+answer. See the module docstring for the reasoning and the existing
+`gap_before`/`gap_after` spacing pattern this fix relies on.
+
+```sh
+uv run semcor-fix-leftover-ampersand              # fix data/
+uv run semcor-fix-leftover-ampersand --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.
