@@ -236,6 +236,32 @@ uv run semcor-fix-capitalization-after-quote --dry-run    # preview without writ
 
 Idempotent, like the other `fix-*` scripts.
 
+### `semcor-fix-em-dash`
+
+Restores em dashes corrupted into a single, space-padded `-` (fixes
+#9), e.g. `three guns - one in the right pocket` ->
+`three guns--one in the right pocket` (Brown's own em-dash token is
+`--`, flush against its neighbours). Also restores a small number of
+number-range hyphens (`10 - 16` -> `10-16`) found to be a different,
+correctly-single-hyphen case during the same check.
+
+Unlike the other `fix-*` scripts, this doesn't re-derive what to fix
+from a pattern at runtime -- of 2,939 candidate tokens, cross-checking
+each one's context against `nltk.corpus.brown` found a third pattern
+(a hyphenated compound that's a single token in Brown, e.g. `80-hp`,
+split into three here) that needs token-merging rather than a
+whitespace/character edit, so isn't part of this fix at all (tracked
+separately as #24). `em-dash-fixes.yaml` lists exactly the 1,885
+confirmed fixes from that check; this script only applies that
+manifest, with no runtime NLTK dependency.
+
+```sh
+uv run semcor-fix-em-dash              # apply em-dash-fixes.yaml to data/
+uv run semcor-fix-em-dash --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.

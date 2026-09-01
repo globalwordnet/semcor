@@ -27,23 +27,21 @@ _meta:
         base: tokens
         data: string
 XWKd:
-    lemmas: ["The", "russian", "gymnast", "beat_the_tar_out_of", "the", "american", "gymnast", "in", "the", "1960", "olympics", "for", "one", "reason", "-", "they", "be", "better", "."]
+    lemmas: ["The", "russian", "gymnast", "beat_the_tar_out_of", "the", "american", "gymnast", "in", "the", "1960", "olympics", "for", "one", "reason", "--", "they", "be", "better", "."]
     oewn_key: [[1, "oewn-02968822-a"], [2, "oewn-10173163-n"], [5, "oewn-02938825-a"], [6, "oewn-10173163-n"], [10, "oewn-07471917-n"], [12, "oewn-02193977-s"], [13, "oewn-06752739-n"], [16, "oewn-02610777-v"], [17, "oewn-00231927-a"]]
     paragraph: '0'
     pos: ["DT", "JJ", "NNS", "IN", "DT", "JJ", "NNS", "IN", "DT", "CD", "NNPS", "IN", "JJ", "NN", ":", "PRP", "VBD", "JJR", "."]
-    text: The Russian gymnasts beat_the_tar_out_of the American gymnasts in the 1960 Olympics
-      for one reason - they were better.
-    tokens: [[0, 3], [4, 11], [12, 20], [21, 40], [41, 44], [45, 53], [54, 62], [63, 65], [66, 69], [70, 74], [75, 83], [84, 87], [88, 91], [92, 98], [99, 100], [101, 105], [106, 110], [111, 117], [117, 118]]
+    text: 'The Russian gymnasts beat_the_tar_out_of the American gymnasts in the 1960 Olympics for one reason--they were better.'
+    tokens: [[0, 3], [4, 11], [12, 20], [21, 40], [41, 44], [45, 53], [54, 62], [63, 65], [66, 69], [70, 74], [75, 83], [84, 87], [88, 91], [92, 98], [98, 100], [100, 104], [105, 109], [110, 116], [116, 117]]
     wn16_key: [[1, "russian%3:01:00::"], [2, "gymnast%1:18:00::"], [5, "american%3:01:01::"], [6, "gymnast%1:18:00::"], [10, "olympics%1:11:00::"], [12, "one%5:00:00:cardinal:00"], [13, "reason%1:10:01::"], [16, "be%2:42:03::"], [17, "better%3:00:00::"]]
     wn30_key: [[1, "russian%3:01:00::"], [2, "gymnast%1:18:00::"], [5, "american%3:01:01::"], [6, "gymnast%1:18:00::"], [10, "olympics%1:11:00::"], [12, "one%3:00:00:cardinal:00"], [13, "reason%1:10:01::"], [16, "be%2:42:03::"], [17, "better%3:00:00::"]]
 N1WH:
-    lemmas: ["They", "be", "better", "trained", ",", "better-looking", ",", "better", "built", ",", "better", "disciplined", "-", "and", "something", "else", "-", "they", "be", "better", "dancer", "."]
+    lemmas: ["They", "be", "better", "trained", ",", "better-looking", ",", "better", "built", ",", "better", "disciplined", "-", "and", "something", "else", "--", "they", "be", "better", "dancer", "."]
     oewn_key: [[1, "oewn-02610777-v"], [2, "oewn-00060145-r"], [3, "oewn-01918064-a"], [5, "oewn-00220542-s"], [7, "oewn-00060145-r"], [10, "oewn-00060145-r"], [11, "oewn-00601755-s"], [18, "oewn-02610777-v"], [19, "oewn-00231927-a"], [20, "oewn-10009040-n"]]
     paragraph: '0'
     pos: ["PRP", "VBD", "RB", "JJ", ",", "JJ", ",", "RB", "JJ", ",", "RB", "JJ", ":", "CC", "NN", "RB", ":", "PRP", "VBD", "JJR", "NNS", "."]
-    text: 'They were better trained, better_looking, better built, better disciplined - and
-  something else - they were better dancers.'
-    tokens: [[0, 4], [5, 9], [10, 16], [17, 24], [24, 25], [26, 40], [40, 41], [42, 48], [49, 54], [54, 55], [56, 62], [63, 74], [75, 76], [77, 80], [81, 90], [91, 95], [96, 97], [98, 102], [103, 107], [108, 114], [115, 122], [122, 123]]
+    text: 'They were better trained, better_looking, better built, better disciplined - and something else--they were better dancers.'
+    tokens: [[0, 4], [5, 9], [10, 16], [17, 24], [24, 25], [26, 40], [40, 41], [42, 48], [49, 54], [54, 55], [56, 62], [63, 74], [75, 76], [77, 80], [81, 90], [91, 95], [95, 97], [97, 101], [102, 106], [107, 113], [114, 121], [121, 122]]
     wn16_key: [[1, "be%2:42:03::"], [2, "better%4:02:00::"], [3, "trained%3:00:00::"], [5, "better-looking%5:00:00:beautiful:00"], [7, "better%4:02:00::"], [8, "built%5:00:00:collective:00"], [10, "better%4:02:00::"], [11, "disciplined%5:00:00:controlled:00"], [15, "else%4:02:01::"], [18, "be%2:42:03::"], [19, "better%3:00:00::"], [20, "dancer%1:18:00::"]]
     wn30_key: [[1, "be%2:42:03::"], [2, "better%4:02:00::"], [3, "trained%3:00:00::"], [5, "better-looking%3:00:00:beautiful:00"], [7, "better%4:02:00::"], [10, "better%4:02:00::"], [11, "disciplined%3:00:00:controlled:00"], [18, "be%2:42:03::"], [19, "better%3:00:00::"], [20, "dancer%1:18:00::"]]
 Xg2u:
@@ -1163,14 +1161,13 @@ dico:
     wn16_key: [[1, "be%2:42:03::"], [2, "very%4:02:00::"], [3, "important%3:00:00::"], [5, "parent%1:18:00::"], [7, "understand%2:31:01::"], [9, "early%4:02:01::"], [10, "training%1:04:00::"], [11, "be%2:42:03::"], [12, "imperative%3:00:00::"]]
     wn30_key: [[1, "be%2:42:03::"], [2, "very%4:02:00::"], [3, "important%3:00:00::"], [5, "parent%1:18:00::"], [7, "understand%2:31:01::"], [9, "early%4:02:01::"], [10, "training%1:04:00::"], [11, "be%2:42:03::"], [12, "imperative%3:00:00::"]]
 e021:
-    lemmas: ["And", "dancing_school", ",", "so", "helpful", "in", "artistic", "and", "psychological", "development", ",", "also", "contribute", "to", "this", "essential", "early", "training", "-", "and", "can", "contribute", "even", "more", "."]
+    lemmas: ["And", "dancing_school", ",", "so", "helpful", "in", "artistic", "and", "psychological", "development", ",", "also", "contribute", "to", "this", "essential", "early", "training", "--", "and", "can", "contribute", "even", "more", "."]
     oewn_key: [[1, "oewn-08295743-n"], [3, "oewn-00147630-r"], [4, "oewn-01199079-a"], [6, "oewn-03002630-a"], [8, "oewn-01785621-s"], [9, "oewn-13486023-n"], [11, "oewn-00048072-r"], [12, "oewn-02329474-v"], [15, "oewn-00903909-a"], [16, "oewn-00101231-r"], [17, "oewn-00895653-n"], [21, "oewn-02329474-v"], [22, "oewn-00017907-r"], [23, "oewn-11210173-n"]]
     paragraph: '18'
     pos: ["CC", "NN", ",", "RB", "JJ", "IN", "JJ", "CC", "JJ", "NN", ",", "RB", "VBZ", "VB", "DT", "JJ", "RB", "NN", ":", "CC", "VB", "VB", "RB", "NN", "."]
-    text: 'And dancing_school, so helpful in artistic and psychological development, also contributes
-  to this essential early training - and can contribute even more.
+    text: 'And dancing_school, so helpful in artistic and psychological development, also contributes to this essential early training--and can contribute even more.
 
   '
-    tokens: [[0, 3], [4, 18], [18, 19], [20, 22], [23, 30], [31, 33], [34, 42], [43, 46], [47, 60], [61, 72], [72, 73], [74, 78], [79, 90], [91, 93], [94, 98], [99, 108], [109, 114], [115, 123], [124, 125], [126, 129], [130, 133], [134, 144], [145, 149], [150, 154], [154, 155]]
+    tokens: [[0, 3], [4, 18], [18, 19], [20, 22], [23, 30], [31, 33], [34, 42], [43, 46], [47, 60], [61, 72], [72, 73], [74, 78], [79, 90], [91, 93], [94, 98], [99, 108], [109, 114], [115, 123], [123, 125], [125, 128], [129, 132], [133, 143], [144, 148], [149, 153], [153, 154]]
     wn16_key: [[1, "dancing_school%1:14:00::"], [3, "so%4:02:02::"], [4, "helpful%5:00:00:useful:00"], [6, "artistic%3:01:00::"], [8, "psychological%5:00:00:mental:00"], [9, "development%1:22:02::"], [11, "also%4:02:00::"], [12, "contribute%2:40:01::"], [15, "essential%3:00:00::"], [16, "early%4:02:01::"], [17, "training%1:04:00::"], [21, "contribute%2:40:01::"], [22, "even%4:02:00::"], [23, "more%1:23:00::"]]
     wn30_key: [[1, "dancing_school%1:14:00::"], [3, "so%4:02:02::"], [4, "helpful%3:00:00::"], [6, "artistic%3:01:00::"], [8, "psychological%3:00:00:mental:00"], [9, "development%1:22:02::"], [11, "also%4:02:00::"], [12, "contribute%2:40:01::"], [15, "essential%3:00:00::"], [16, "early%4:02:01::"], [17, "training%1:04:00::"], [21, "contribute%2:40:01::"], [22, "even%4:02:00::"], [23, "more%1:18:00::"]]
