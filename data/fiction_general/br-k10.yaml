@@ -55,14 +55,14 @@ y4eN:
     wn16_key: [[1, "group%1:03:00::"], [3, "other%3:00:00::"], [4, "place%1:15:00::"], [6, "prostitution%1:04:00::"], [8, "empty%2:30:00::"]]
     wn30_key: [[1, "group%1:03:00::"], [3, "other%3:00:00::"], [4, "place%1:15:00::"], [6, "prostitution%1:04:00::"], [8, "empty%2:30:00::"]]
 WF+e:
-    lemmas: ["The", "slit", "breeches", "have_to", "go", "."]
-    oewn_key: [[1, "oewn-05529165-n"], [2, "oewn-02899704-n"], [4, "oewn-00360569-v"]]
+    lemmas: ["The", "slit", "breeches", "have", "to", "go", "."]
+    oewn_key: [[1, "oewn-05529165-n"], [2, "oewn-02899704-n"], [5, "oewn-00360569-v"]]
     paragraph: '0'
-    pos: ["DT", "NN", "NN", "VB", "VB", "."]
-    text: 'The slit breeches had_to go.'
-    tokens: [[0, 3], [4, 8], [9, 17], [18, 24], [25, 27], [27, 28]]
-    wn16_key: [[1, "slit%1:08:00::"], [2, "breeches%1:06:00::"], [4, "go%2:30:08::"]]
-    wn30_key: [[1, "slit%1:08:00::"], [2, "breeches%1:06:00::"], [4, "go%2:30:08::"]]
+    pos: ["DT", "NN", "NN", "VBD", "TO", "VB", "."]
+    text: 'The slit breeches had to go.'
+    tokens: [[0, 3], [4, 8], [9, 17], [18, 21], [22, 24], [25, 27], [27, 28]]
+    wn16_key: [[1, "slit%1:08:00::"], [2, "breeches%1:06:00::"], [5, "go%2:30:08::"]]
+    wn30_key: [[1, "slit%1:08:00::"], [2, "breeches%1:06:00::"], [5, "go%2:30:08::"]]
 pw9P:
     lemmas: ["drunkenness", "be", "no_longer", "tolerate", "."]
     oewn_key: [[0, "oewn-14042038-n"], [2, "oewn-00031911-r"], [3, "oewn-00670017-v"]]
@@ -136,18 +136,16 @@ qQ8V:
     wn16_key: [[1, "finish%2:30:01::"], [3, "worship%1:04:00::"], [4, "service%1:04:01::"], [9, "be%2:42:04::"], [11, "brazen%5:00:00:unashamed:00"], [12, "attempt%1:04:00::"], [14, "dishonor%2:41:00::"], [15, "god%1:18:00::"], [17, "man%1:14:00::"]]
     wn30_key: [[1, "finish%2:30:01::"], [3, "worship%1:04:00::"], [4, "service%1:04:01::"], [9, "be%2:42:04::"], [11, "brazen%3:00:00:unashamed:00"], [12, "attempt%1:04:00::"], [14, "dishonor%2:41:00::"], [15, "god%1:18:00::"], [17, "man%1:05:00::"]]
 G0Eg:
-    lemmas: ["The", "next", "morning", ",", "as", "the", "clock", "strike", "nine", ",", "he", "appear", "at", "the", "council", "meeting", "in", "the", "location", "and", "insist", "that", "the", "couple", "would", "have_to", "be", "punish", "if", "the", "church", "be", "to", "be", "respect", "."]
-    oewn_key: [[1, "oewn-00128838-s"], [2, "oewn-15190336-n"], [6, "oewn-03050242-n"], [7, "oewn-00925593-v"], [8, "oewn-02194800-s"], [11, "oewn-00423043-v"], [14, "oewn-08327879-n"], [15, "oewn-08324519-n"], [18, "oewn-00027365-n"], [20, "oewn-00820635-v"], [23, "oewn-13765745-n"], [27, "oewn-02505278-v"], [30, "oewn-08099479-n"], [34, "oewn-00695834-v"]]
+    lemmas: ["The", "next", "morning", ",", "as", "the", "clock", "strike", "nine", ",", "he", "appear", "at", "the", "council", "meeting", "in", "the", "location", "and", "insist", "that", "the", "couple", "would", "have", "to", "be", "punish", "if", "the", "church", "be", "to", "be", "respect", "."]
+    oewn_key: [[1, "oewn-00128838-s"], [2, "oewn-15190336-n"], [6, "oewn-03050242-n"], [7, "oewn-00925593-v"], [8, "oewn-02194800-s"], [11, "oewn-00423043-v"], [14, "oewn-08327879-n"], [15, "oewn-08324519-n"], [18, "oewn-00027365-n"], [20, "oewn-00820635-v"], [23, "oewn-13765745-n"], [28, "oewn-02505278-v"], [31, "oewn-08099479-n"], [35, "oewn-00695834-v"]]
     paragraph: '2'
-    pos: ["DT", "JJ", "NN", ",", "IN", "DT", "NN", "VBD", "JJ", ",", "PRP", "VBD", "IN", "DT", "NNP", "NN", "IN", "DT", "NN", "CC", "VBD", "IN", "DT", "NN", "MD", "VB", "VB", "VBN", "IN", "DT", "NNP", "VBD", "TO", "VB", "VBN", "."]
-    text: 'The next morning, as the clock struck nine, he appeared at the Council meeting in
-  the Town_Hall and insisted that the couple would have_to be punished if the Church
-  was to be respected.
+    pos: ["DT", "JJ", "NN", ",", "IN", "DT", "NN", "VBD", "JJ", ",", "PRP", "VBD", "IN", "DT", "NNP", "NN", "IN", "DT", "NN", "CC", "VBD", "IN", "DT", "NN", "MD", "VBP", "TO", "VB", "VBN", "IN", "DT", "NNP", "VBD", "TO", "VB", "VBN", "."]
+    text: 'The next morning, as the clock struck nine, he appeared at the Council meeting in the Town_Hall and insisted that the couple would have to be punished if the Church was to be respected.
 
   '
-    tokens: [[0, 3], [4, 8], [9, 16], [16, 17], [18, 20], [21, 24], [25, 30], [31, 37], [38, 42], [42, 43], [44, 46], [47, 55], [56, 58], [59, 62], [63, 70], [71, 78], [79, 81], [82, 85], [86, 95], [96, 99], [100, 108], [109, 113], [114, 117], [118, 124], [125, 130], [131, 138], [139, 141], [142, 150], [151, 153], [154, 157], [158, 164], [165, 168], [169, 171], [172, 174], [175, 184], [184, 185]]
-    wn16_key: [[1, "next%5:00:00:succeeding(a):00"], [2, "morning%1:28:00::"], [6, "clock%1:06:00::"], [7, "strike%2:32:00::"], [8, "nine%5:00:00:cardinal:00"], [11, "appear%2:30:00::"], [14, "council%1:14:01::"], [15, "meeting%1:14:00::"], [18, "location%1:03:00::"], [20, "insist%2:32:00::"], [23, "couple%1:23:00::"], [27, "punish%2:41:00::"], [30, "church%1:14:00::"], [34, "respect%2:31:00::"]]
-    wn30_key: [[1, "next%3:00:00:succeeding:00"], [2, "morning%1:28:00::"], [6, "clock%1:06:00::"], [7, "strike%2:32:00::"], [8, "nine%3:00:00:cardinal:00"], [11, "appear%2:30:00::"], [14, "council%1:14:01::"], [15, "meeting%1:14:00::"], [18, "location%1:03:00::"], [20, "insist%2:32:00::"], [23, "couple%1:23:00::"], [27, "punish%2:41:00::"], [30, "church%1:14:00::"], [34, "respect%2:31:00::"]]
+    tokens: [[0, 3], [4, 8], [9, 16], [16, 17], [18, 20], [21, 24], [25, 30], [31, 37], [38, 42], [42, 43], [44, 46], [47, 55], [56, 58], [59, 62], [63, 70], [71, 78], [79, 81], [82, 85], [86, 95], [96, 99], [100, 108], [109, 113], [114, 117], [118, 124], [125, 130], [131, 135], [136, 138], [139, 141], [142, 150], [151, 153], [154, 157], [158, 164], [165, 168], [169, 171], [172, 174], [175, 184], [184, 185]]
+    wn16_key: [[1, "next%5:00:00:succeeding(a):00"], [2, "morning%1:28:00::"], [6, "clock%1:06:00::"], [7, "strike%2:32:00::"], [8, "nine%5:00:00:cardinal:00"], [11, "appear%2:30:00::"], [14, "council%1:14:01::"], [15, "meeting%1:14:00::"], [18, "location%1:03:00::"], [20, "insist%2:32:00::"], [23, "couple%1:23:00::"], [28, "punish%2:41:00::"], [31, "church%1:14:00::"], [35, "respect%2:31:00::"]]
+    wn30_key: [[1, "next%3:00:00:succeeding:00"], [2, "morning%1:28:00::"], [6, "clock%1:06:00::"], [7, "strike%2:32:00::"], [8, "nine%3:00:00:cardinal:00"], [11, "appear%2:30:00::"], [14, "council%1:14:01::"], [15, "meeting%1:14:00::"], [18, "location%1:03:00::"], [20, "insist%2:32:00::"], [23, "couple%1:23:00::"], [28, "punish%2:41:00::"], [31, "church%1:14:00::"], [35, "respect%2:31:00::"]]
 wUTK:
     lemmas: ["\"", "I", "have", "tell", "you", "before", ",", "and", "I", "tell", "you", "again", "\"", ",", "person", "say", "rudely", "."]
     oewn_key: [[3, "oewn-00748704-v"], [5, "oewn-00061477-r"], [9, "oewn-00748704-v"], [11, "oewn-00040777-r"], [14, "oewn-00007846-n"], [15, "oewn-01011267-v"], [16, "oewn-00220161-r"]]
@@ -427,14 +425,14 @@ eVTf:
     wn16_key: [[0, "person%1:03:00::"], [1, "close%2:35:00::"], [3, "eye%1:08:00::"], [5, "see%2:36:00::"], [6, "once_again%4:02:00::"], [8, "little%3:00:01::"], [9, "niche%1:25:00::"], [12, "mother%1:18:00::"], [14, "bedroom%1:06:00::"], [19, "kneel%2:35:00::"], [21, "tell%2:32:04::"], [23, "good%3:00:02::"], [24, "person%1:03:00::"], [27, "need%1:03:00::"]]
     wn30_key: [[0, "person%1:03:00::"], [1, "close%2:35:00::"], [3, "eye%1:08:00::"], [5, "see%2:36:00::"], [6, "once_again%4:02:00::"], [8, "little%3:00:01::"], [9, "niche%1:25:00::"], [12, "mother%1:18:00::"], [14, "bedroom%1:06:00::"], [19, "kneel%2:35:00::"], [21, "tell%2:32:04::"], [23, "good%3:00:02::"], [24, "person%1:03:00::"], [27, "need%1:03:00::"]]
 8PDa:
-    lemmas: ["The", "blue", "draped", "person", "be", "still", "there", ",", "but", "no_one", "kneel", "before", "her", "now", "."]
-    oewn_key: [[1, "oewn-00371931-s"], [2, "oewn-01699958-s"], [3, "oewn-00007846-n"], [4, "oewn-02661230-v"], [5, "oewn-00031700-r"], [6, "oewn-00109919-r"], [10, "oewn-01548431-v"], [13, "oewn-00049971-r"]]
+    lemmas: ["The", "blue", "draped", "person", "be", "still", "there", ",", "but", "no", "one", "kneel", "before", "her", "now", "."]
+    oewn_key: [[1, "oewn-00371931-s"], [2, "oewn-01699958-s"], [3, "oewn-00007846-n"], [4, "oewn-02661230-v"], [5, "oewn-00031700-r"], [6, "oewn-00109919-r"], [11, "oewn-01548431-v"], [14, "oewn-00049971-r"]]
     paragraph: '12'
-    pos: ["DT", "JJ", "JJ", "NNP", "VBD", "RB", "RB", ",", "CC", "NN", "VB", "IN", "PRP$", "RB", "."]
-    text: 'The blue draped Virgin was still there, but no_one knelt before her now.'
-    tokens: [[0, 3], [4, 8], [9, 15], [16, 22], [23, 26], [27, 32], [33, 38], [38, 39], [40, 43], [44, 50], [51, 56], [57, 63], [64, 67], [68, 71], [71, 72]]
-    wn16_key: [[1, "blue%5:00:00:chromatic:00"], [2, "draped%5:00:00:covered:00"], [3, "person%1:03:00::"], [4, "be%2:42:04::"], [5, "still%4:02:01::"], [6, "there%4:02:00::"], [10, "kneel%2:35:00::"], [13, "now%4:02:05::"]]
-    wn30_key: [[1, "blue%3:00:00:chromatic:00"], [2, "draped%3:00:00:covered:00"], [3, "person%1:03:00::"], [4, "be%2:42:04::"], [5, "still%4:02:01::"], [6, "there%4:02:00::"], [10, "kneel%2:35:00::"], [13, "now%4:02:05::"]]
+    pos: ["DT", "JJ", "JJ", "NNP", "VBD", "RB", "RB", ",", "CC", "DT", "NN", "VB", "IN", "PRP$", "RB", "."]
+    text: 'The blue draped Virgin was still there, but no one knelt before her now.'
+    tokens: [[0, 3], [4, 8], [9, 15], [16, 22], [23, 26], [27, 32], [33, 38], [38, 39], [40, 43], [44, 46], [47, 50], [51, 56], [57, 63], [64, 67], [68, 71], [71, 72]]
+    wn16_key: [[1, "blue%5:00:00:chromatic:00"], [2, "draped%5:00:00:covered:00"], [3, "person%1:03:00::"], [4, "be%2:42:04::"], [5, "still%4:02:01::"], [6, "there%4:02:00::"], [11, "kneel%2:35:00::"], [14, "now%4:02:05::"]]
+    wn30_key: [[1, "blue%3:00:00:chromatic:00"], [2, "draped%3:00:00:covered:00"], [3, "person%1:03:00::"], [4, "be%2:42:04::"], [5, "still%4:02:01::"], [6, "there%4:02:00::"], [11, "kneel%2:35:00::"], [14, "now%4:02:05::"]]
 eKcD:
     lemmas: ["not", "even", "person", ";", "she", ",", "too", ",", "pray", "only", "to", "god", "."]
     oewn_key: [[0, "oewn-00024432-r"], [1, "oewn-00017907-r"], [2, "oewn-00007846-n"], [6, "oewn-00048072-r"], [8, "oewn-00761989-v"], [9, "oewn-00009062-r"], [11, "oewn-09559169-n"]]
@@ -456,14 +454,14 @@ XPhW:
     wn16_key: [[2, "instant%1:28:01::"], [3, "person%1:03:00::"], [4, "long%2:37:01::"], [7, "sound%1:09:00::"], [10, "bell%1:06:00::"], [12, "location%1:03:00::"], [15, "touch%1:11:00::"], [18, "mother%1:18:00::"], [20, "hand%1:08:00::"], [23, "lilt%1:07:00::"], [25, "person%1:03:00::"], [27, "voice%1:10:00::"], [30, "square%3:00:00::"], [31, "raftered%5:00:00:ceilinged:00"], [32, "room%1:06:00::"], [35, "father%1:18:00::"], [37, "bass%1:10:01::"], [38, "tone%1:10:02::"], [39, "rumble%2:39:00::"], [42, "canon%1:10:00::"], [46, "sight%1:09:01::"], [49, "beloved%5:00:00:loved:00"], [50, "bishop%1:18:00::"]]
     wn30_key: [[2, "instant%1:28:01::"], [3, "person%1:03:00::"], [7, "sound%1:09:00::"], [10, "bell%1:06:00::"], [12, "location%1:03:00::"], [15, "touch%1:11:00::"], [18, "mother%1:18:00::"], [20, "hand%1:08:00::"], [23, "lilt%1:07:00::"], [25, "person%1:03:00::"], [27, "voice%1:10:00::"], [30, "square%3:00:00::"], [31, "raftered%3:00:00:ceilinged:00"], [32, "room%1:06:00::"], [35, "father%1:18:00::"], [37, "bass%1:10:01::"], [38, "tone%1:10:02::"], [39, "rumble%2:39:00::"], [42, "canon%1:10:00::"], [46, "sight%1:09:01::"], [49, "beloved%3:00:00:loved:00"], [50, "bishop%1:18:00::"]]
 BXDV:
-    lemmas: ["But", "he", "have_to", "follow", "the", "light", "."]
-    oewn_key: [[3, "oewn-02002464-v"], [5, "oewn-05815941-n"]]
+    lemmas: ["But", "he", "have", "to", "follow", "the", "light", "."]
+    oewn_key: [[4, "oewn-02002464-v"], [6, "oewn-05815941-n"]]
     paragraph: '12'
-    pos: ["CC", "PRP", "VB", "VBP", "DT", "NN", "."]
-    text: 'But he had_to follow the light.'
-    tokens: [[0, 3], [4, 6], [7, 13], [14, 20], [21, 24], [25, 30], [30, 31]]
-    wn16_key: [[3, "follow%2:38:00::"], [5, "light%1:09:00::"]]
-    wn30_key: [[3, "follow%2:38:00::"], [5, "light%1:09:00::"]]
+    pos: ["CC", "PRP", "VBD", "TO", "VBP", "DT", "NN", "."]
+    text: 'But he had to follow the light.'
+    tokens: [[0, 3], [4, 6], [7, 10], [11, 13], [14, 20], [21, 24], [25, 30], [30, 31]]
+    wn16_key: [[4, "follow%2:38:00::"], [6, "light%1:09:00::"]]
+    wn30_key: [[4, "follow%2:38:00::"], [6, "light%1:09:00::"]]
 4exO:
     lemmas: ["Unless", "god", "expect", "a", "man", "to", "believe", "the", "holy_scripture", ",", "why", "have", "He", "give", "them", "to", "him", "?"]
     oewn_key: [[1, "oewn-09559169-n"], [2, "oewn-00757790-v"], [4, "oewn-10306910-n"], [6, "oewn-00685199-v"], [8, "oewn-06443410-n"], [13, "oewn-02204104-v"]]

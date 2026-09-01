@@ -27,35 +27,34 @@ _meta:
         base: tokens
         data: string
 wGiU:
-    lemmas: ["once_again", ",", "as", "in", "the", "days", "of", "the", "founding", "father", ",", "america", "face", "a", "stern", "test", "."]
-    oewn_key: [[12, "oewn-01081176-v"]]
+    lemmas: ["once", "again", ",", "as", "in", "the", "days", "of", "the", "founding", "father", ",", "america", "face", "a", "stern", "test", "."]
+    oewn_key: [[13, "oewn-01081176-v"]]
     paragraph: '0'
-    pos: ["RB", ",", "IN", "IN", "DT", "NNS", "IN", "DT", "NNP", "NNPS", ",", "NNP", "VBZ", "DT", "JJ", "NN", "."]
-    text: Once_again, as in the days of the Founding Fathers, America faces a stern test.
-    tokens: [[0, 10], [10, 11], [12, 14], [15, 17], [18, 21], [22, 26], [27, 29], [30, 33], [34, 42], [43, 50], [50, 51], [52, 59], [60, 65], [66, 67], [68, 73], [74, 78], [78, 79]]
-    wn16_key: [[12, "face%2:33:00::"]]
-    wn30_key: [[12, "face%2:33:00::"]]
+    pos: ["RB", "RB", ",", "IN", "IN", "DT", "NNS", "IN", "DT", "NNP", "NNPS", ",", "NNP", "VBZ", "DT", "JJ", "NN", "."]
+    text: 'Once again, as in the days of the Founding Fathers, America faces a stern test.'
+    tokens: [[0, 4], [5, 10], [10, 11], [12, 14], [15, 17], [18, 21], [22, 26], [27, 29], [30, 33], [34, 42], [43, 50], [50, 51], [52, 59], [60, 65], [66, 67], [68, 73], [74, 78], [78, 79]]
+    wn16_key: [[13, "face%2:33:00::"]]
+    wn30_key: [[13, "face%2:33:00::"]]
 HWsP:
-    lemmas: ["That", "test", ",", "as", "president_kennedy", "forthrightly", "depict", "it", "in", "his", "state", "of", "the", "union", "message", ",", "will", "determine", "\"", "whether", "a", "nation", "organized", "and", "governed", "such_as", "ours", "can", "endure", "\"", "."]
-    oewn_key: [[6, "oewn-00989103-v"], [17, "oewn-00920843-v"], [28, "oewn-02624202-v"]]
+    lemmas: ["That", "test", ",", "as", "president_kennedy", "forthrightly", "depict", "it", "in", "his", "state", "of", "the", "union", "message", ",", "will", "determine", "\"", "whether", "a", "nation", "organized", "and", "governed", "such", "as", "ours", "can", "endure", "\"", "."]
+    oewn_key: [[6, "oewn-00989103-v"], [17, "oewn-00920843-v"], [29, "oewn-02624202-v"]]
     paragraph: '0'
-    pos: ["DT", "NN", ",", "IN", "NNP", "RB", "VBD", "PRP", "IN", "PRP$", "NNP", "IN", "DT", "NNP", "NN", ",", "MD", "VB", "''", "IN", "DT", "NN", "JJ", "CC", "JJ", "JJ", "PRP", "MD", "VB", "``", "."]
-    text: 'That test, as President_Kennedy forthrightly depicted it in his State of the Union message, will determine "whether a nation organized and governed such_as ours can endure".
+    pos: ["DT", "NN", ",", "IN", "NNP", "RB", "VBD", "PRP", "IN", "PRP$", "NNP", "IN", "DT", "NNP", "NN", ",", "MD", "VB", "''", "IN", "DT", "NN", "JJ", "CC", "JJ", "JJ", "IN", "PRP", "MD", "VB", "``", "."]
+    text: 'That test, as President_Kennedy forthrightly depicted it in his State of the Union message, will determine "whether a nation organized and governed such as ours can endure".
 
   '
-    tokens: [[0, 4], [5, 9], [9, 10], [11, 13], [14, 31], [32, 44], [45, 53], [54, 56], [57, 59], [60, 63], [64, 69], [70, 72], [73, 76], [77, 82], [83, 90], [90, 91], [92, 96], [97, 106], [107, 108], [108, 115], [116, 117], [118, 124], [125, 134], [135, 138], [139, 147], [148, 155], [156, 160], [161, 164], [165, 171], [171, 172], [172, 173]]
-    wn16_key: [[6, "depict%2:32:01::"], [17, "determine%2:32:00::"], [28, "endure%2:42:00::"]]
-    wn30_key: [[6, "depict%2:32:01::"], [17, "determine%2:32:00::"], [28, "endure%2:42:00::"]]
+    tokens: [[0, 4], [5, 9], [9, 10], [11, 13], [14, 31], [32, 44], [45, 53], [54, 56], [57, 59], [60, 63], [64, 69], [70, 72], [73, 76], [77, 82], [83, 90], [90, 91], [92, 96], [97, 106], [107, 108], [108, 115], [116, 117], [118, 124], [125, 134], [135, 138], [139, 147], [148, 152], [153, 155], [156, 160], [161, 164], [165, 171], [171, 172], [172, 173]]
+    wn16_key: [[6, "depict%2:32:01::"], [17, "determine%2:32:00::"], [29, "endure%2:42:00::"]]
+    wn30_key: [[6, "depict%2:32:01::"], [17, "determine%2:32:00::"], [29, "endure%2:42:00::"]]
 FUQS:
-    lemmas: ["It", "be", "well", "then", "that", "in_this", "hour", "both", "of", "\"", "national", "peril", "\"", "and", "of", "\"", "national", "opportunity", "\"", "we", "can", "take_counsel", "with", "the", "man", "who", "make", "the", "nation", "."]
-    oewn_key: [[1, "oewn-02610777-v"], [26, "oewn-01649143-v"]]
+    lemmas: ["It", "be", "well", "then", "that", "in", "this", "hour", "both", "of", "\"", "national", "peril", "\"", "and", "of", "\"", "national", "opportunity", "\"", "we", "can", "take_counsel", "with", "the", "man", "who", "make", "the", "nation", "."]
+    oewn_key: [[1, "oewn-02610777-v"], [27, "oewn-01649143-v"]]
     paragraph: '1'
-    pos: ["PRP", "VBZ", "JJ", "RB", "IN", "RB", "NN", "DT", "IN", "``", "JJ", "NN", "''", "CC", "IN", "``", "JJ", "NN", "''", "PRP", "MD", "VB", "IN", "DT", "NNS", "WP", "VBD", "DT", "NN", "."]
-    text: 'It is well then that in_this hour both of " national peril " and of " national opportunity
-  " we can take_counsel with the men who made the nation.'
-    tokens: [[0, 2], [3, 5], [6, 10], [11, 15], [16, 20], [21, 28], [29, 33], [34, 38], [39, 41], [42, 43], [44, 52], [53, 58], [59, 60], [61, 64], [65, 67], [68, 69], [70, 78], [79, 90], [91, 92], [93, 95], [96, 99], [100, 112], [113, 117], [118, 121], [122, 125], [126, 129], [130, 134], [135, 138], [139, 145], [145, 146]]
-    wn16_key: [[1, "be%2:42:03::"], [21, "take_counsel%2:31:00::"], [26, "make%2:36:08::"]]
-    wn30_key: [[1, "be%2:42:03::"], [26, "make%2:36:08::"]]
+    pos: ["PRP", "VBZ", "JJ", "RB", "IN", "IN", "DT", "NN", "DT", "IN", "``", "JJ", "NN", "''", "CC", "IN", "``", "JJ", "NN", "''", "PRP", "MD", "VB", "IN", "DT", "NNS", "WP", "VBD", "DT", "NN", "."]
+    text: 'It is well then that in this hour both of " national peril " and of " national opportunity " we can take_counsel with the men who made the nation.'
+    tokens: [[0, 2], [3, 5], [6, 10], [11, 15], [16, 20], [21, 23], [24, 28], [29, 33], [34, 38], [39, 41], [42, 43], [44, 52], [53, 58], [59, 60], [61, 64], [65, 67], [68, 69], [70, 78], [79, 90], [91, 92], [93, 95], [96, 99], [100, 112], [113, 117], [118, 121], [122, 125], [126, 129], [130, 134], [135, 138], [139, 145], [145, 146]]
+    wn16_key: [[1, "be%2:42:03::"], [22, "take_counsel%2:31:00::"], [27, "make%2:36:08::"]]
+    wn30_key: [[1, "be%2:42:03::"], [27, "make%2:36:08::"]]
 +1iG:
     lemmas: ["Incapable_of", "self-delusion", ",", "the", "founding", "father", "find", "the", "crisis", "of", "their", "time", "to", "be", "equally", "grave", ",", "and", "yet", "they", "have", "confidence", "that", "america", "would", "surmount", "it", "and", "that", "a", "republic", "of", "free", "peoples", "would", "prosper", "and", "serve", "as", "an", "example", "to", "a", "world", "ache", "for", "liberty", "."]
     oewn_key: [[6, "oewn-02133338-v"], [13, "oewn-02610777-v"], [20, "oewn-02208144-v"], [25, "oewn-01111038-v"], [37, "oewn-02676679-v"], [44, "oewn-01809651-v"]]
@@ -133,16 +132,16 @@ mvkq:
     wn16_key: [[3, "take_pains%2:41:00::"], [7, "preserve%2:40:01::"]]
     wn30_key: [[3, "take_pains%2:41:00::"], [7, "preserve%2:40:01::"]]
 kzYu:
-    lemmas: ["Their", "writings", "assume", "more_than", "dramatic", "or", "patriotic", "interest", "because", "of", "their", "conviction", "that", "the", "struggle", "in_which", "they", "be", "involve", "be", "neither", "selfish", "nor", "parochial", "but", ",", "rather", ",", "as", "washington", "in", "his", "last", "wartime", "circular", "remind", "his", "fellow", "countryman", ",", "that", "\"", "with", "our", "fate", "will", "the", "destiny", "of", "unborn", "million", "be", "involve", "\"", "."]
-    oewn_key: [[2, "oewn-00525762-v"], [18, "oewn-02683377-v"], [19, "oewn-02610777-v"], [35, "oewn-00879379-v"], [52, "oewn-02682907-v"]]
+    lemmas: ["Their", "writings", "assume", "more_than", "dramatic", "or", "patriotic", "interest", "because", "of", "their", "conviction", "that", "the", "struggle", "in", "which", "they", "be", "involve", "be", "neither", "selfish", "nor", "parochial", "but", ",", "rather", ",", "as", "washington", "in", "his", "last", "wartime", "circular", "remind", "his", "fellow", "countryman", ",", "that", "\"", "with", "our", "fate", "will", "the", "destiny", "of", "unborn", "million", "be", "involve", "\"", "."]
+    oewn_key: [[2, "oewn-00525762-v"], [19, "oewn-02683377-v"], [20, "oewn-02610777-v"], [36, "oewn-00879379-v"], [53, "oewn-02682907-v"]]
     paragraph: '3'
-    pos: ["PRP$", "NNS", "VBP", "RB", "JJ", "CC", "JJ", "NN", "IN", "IN", "PRP$", "NN", "IN", "DT", "NN", "RB", "PRP", "VB", "VBN", "VBD", "DT", "JJ", "CC", "JJ", "CC", ",", "RB", ",", "IN", "NNP", "IN", "PRP$", "JJ", "NN", "JJ", "VBD", "PRP$", "NN", "NNS", ",", "IN", "``", "IN", "PRP$", "NN", "MD", "DT", "NN", "IN", "JJ", "NNS", "VB", "VBN", "``", "."]
-    text: 'Their writings assume more_than dramatic or patriotic interest because of their conviction that the struggle in_which they were involved was neither selfish nor parochial but, rather, as Washington in his last wartime circular reminded his fellow countrymen, that "with our fate will the destiny of unborn millions be involved".
+    pos: ["PRP$", "NNS", "VBP", "RB", "JJ", "CC", "JJ", "NN", "IN", "IN", "PRP$", "NN", "IN", "DT", "NN", "IN", "WDT", "PRP", "VB", "VBN", "VBD", "DT", "JJ", "CC", "JJ", "CC", ",", "RB", ",", "IN", "NNP", "IN", "PRP$", "JJ", "NN", "JJ", "VBD", "PRP$", "NN", "NNS", ",", "IN", "``", "IN", "PRP$", "NN", "MD", "DT", "NN", "IN", "JJ", "NNS", "VB", "VBN", "``", "."]
+    text: 'Their writings assume more_than dramatic or patriotic interest because of their conviction that the struggle in which they were involved was neither selfish nor parochial but, rather, as Washington in his last wartime circular reminded his fellow countrymen, that "with our fate will the destiny of unborn millions be involved".
 
   '
-    tokens: [[0, 5], [6, 14], [15, 21], [22, 31], [32, 40], [41, 43], [44, 53], [54, 62], [63, 70], [71, 73], [74, 79], [80, 90], [91, 95], [96, 99], [100, 108], [109, 117], [118, 122], [123, 127], [128, 136], [137, 140], [141, 148], [149, 156], [157, 160], [161, 170], [171, 174], [174, 175], [176, 182], [182, 183], [184, 186], [187, 197], [198, 200], [201, 204], [205, 209], [210, 217], [218, 226], [227, 235], [236, 239], [240, 246], [247, 257], [257, 258], [259, 263], [264, 265], [265, 269], [270, 273], [274, 278], [279, 283], [284, 287], [288, 295], [296, 298], [299, 305], [306, 314], [315, 317], [318, 326], [326, 327], [327, 328]]
-    wn16_key: [[2, "assume%2:30:00::"], [18, "involve%2:42:04::"], [19, "be%2:42:03::"], [35, "remind%2:32:00::"], [52, "involve%2:42:01::"]]
-    wn30_key: [[2, "assume%2:30:00::"], [18, "involve%2:42:04::"], [19, "be%2:42:03::"], [35, "remind%2:32:00::"], [52, "involve%2:42:01::"]]
+    tokens: [[0, 5], [6, 14], [15, 21], [22, 31], [32, 40], [41, 43], [44, 53], [54, 62], [63, 70], [71, 73], [74, 79], [80, 90], [91, 95], [96, 99], [100, 108], [109, 111], [112, 117], [118, 122], [123, 127], [128, 136], [137, 140], [141, 148], [149, 156], [157, 160], [161, 170], [171, 174], [174, 175], [176, 182], [182, 183], [184, 186], [187, 197], [198, 200], [201, 204], [205, 209], [210, 217], [218, 226], [227, 235], [236, 239], [240, 246], [247, 257], [257, 258], [259, 263], [264, 265], [265, 269], [270, 273], [274, 278], [279, 283], [284, 287], [288, 295], [296, 298], [299, 305], [306, 314], [315, 317], [318, 326], [326, 327], [327, 328]]
+    wn16_key: [[2, "assume%2:30:00::"], [19, "involve%2:42:04::"], [20, "be%2:42:03::"], [36, "remind%2:32:00::"], [53, "involve%2:42:01::"]]
+    wn30_key: [[2, "assume%2:30:00::"], [19, "involve%2:42:04::"], [20, "be%2:42:03::"], [36, "remind%2:32:00::"], [53, "involve%2:42:01::"]]
 9MWr:
     lemmas: ["strong", "man", "with", "strong", "opinion", ",", "frank", "to_the_point", "of", "be", "refreshingly", "indiscreet", ",", "the", "founding", "Seven", "be", "essentially", "congenial", "mind", ",", "and", "their", "agreement", "with", "each", "other", "be", "more", "consequential", "than", "their", "difference", "."]
     oewn_key: [[9, "oewn-02610777-v"], [16, "oewn-02610777-v"], [27, "oewn-02610777-v"]]
@@ -155,19 +154,16 @@ kzYu:
     wn16_key: [[9, "be%2:42:03::"], [16, "be%2:42:03::"], [27, "be%2:42:03::"]]
     wn30_key: [[9, "be%2:42:03::"], [16, "be%2:42:03::"], [27, "be%2:42:03::"]]
 Cqqc:
-    lemmas: ["Even_though", "in", "most", "case", "the", "completion", "of", "the", "definitive", "edition", "of", "their", "writings", "be", "still", "years", "off", ",", "enough", "documentation", "have", "already", "be", "assemble", "to", "warrant", "draw", "a", "new", "composite", "profile", "of", "the", "leadership", "which", "perform", "the", "heroic", "dual", "feat", "of", "win", "american", "independence", "and", "found", "a", "new", "nation", "."]
-    oewn_key: [[13, "oewn-02610777-v"], [23, "oewn-01660471-v"], [25, "oewn-00898453-v"], [26, "oewn-00989103-v"], [35, "oewn-02379855-v"], [41, "oewn-02293158-v"], [45, "oewn-01650771-v"]]
+    lemmas: ["Even", "though", "in", "most", "case", "the", "completion", "of", "the", "definitive", "edition", "of", "their", "writings", "be", "still", "years", "off", ",", "enough", "documentation", "have", "already", "be", "assemble", "to", "warrant", "draw", "a", "new", "composite", "profile", "of", "the", "leadership", "which", "perform", "the", "heroic", "dual", "feat", "of", "win", "american", "independence", "and", "found", "a", "new", "nation", "."]
+    oewn_key: [[14, "oewn-02610777-v"], [24, "oewn-01660471-v"], [26, "oewn-00898453-v"], [27, "oewn-00989103-v"], [36, "oewn-02379855-v"], [42, "oewn-02293158-v"], [46, "oewn-01650771-v"]]
     paragraph: '4'
-    pos: ["RB", "IN", "JJS", "NNS", "DT", "NN", "IN", "DT", "JJ", "NNS", "IN", "PRP$", "NNS", "VBZ", "RB", "NNS", "RB", ",", "RB", "NN", "VBZ", "RB", "VBN", "VBN", "TO", "VB", "VBG", "DT", "JJ", "JJ", "NN", "IN", "DT", "NN", "WDT", "VBD", "DT", "JJ", "JJ", "NNS", "IN", "VBG", "NNP", "NN", "CC", "VBG", "DT", "JJ", "NN", "."]
-    text: 'Even_though in most cases the completion of the definitive editions of their writings
-  is still years off, enough documentation has already been assembled to warrant drawing
-  a new composite profile of the leadership which performed the heroic dual feats
-  of winning American independence and founding a new nation.
+    pos: ["RB", "IN", "IN", "JJS", "NNS", "DT", "NN", "IN", "DT", "JJ", "NNS", "IN", "PRP$", "NNS", "VBZ", "RB", "NNS", "RB", ",", "RB", "NN", "VBZ", "RB", "VBN", "VBN", "TO", "VB", "VBG", "DT", "JJ", "JJ", "NN", "IN", "DT", "NN", "WDT", "VBD", "DT", "JJ", "JJ", "NNS", "IN", "VBG", "NNP", "NN", "CC", "VBG", "DT", "JJ", "NN", "."]
+    text: 'Even though in most cases the completion of the definitive editions of their writings is still years off, enough documentation has already been assembled to warrant drawing a new composite profile of the leadership which performed the heroic dual feats of winning American independence and founding a new nation.
 
   '
-    tokens: [[0, 11], [12, 14], [15, 19], [20, 25], [26, 29], [30, 40], [41, 43], [44, 47], [48, 58], [59, 67], [68, 70], [71, 76], [77, 85], [86, 88], [89, 94], [95, 100], [101, 104], [104, 105], [106, 112], [113, 126], [127, 130], [131, 138], [139, 143], [144, 153], [154, 156], [157, 164], [165, 172], [173, 174], [175, 178], [179, 188], [189, 196], [197, 199], [200, 203], [204, 214], [215, 220], [221, 230], [231, 234], [235, 241], [242, 246], [247, 252], [253, 255], [256, 263], [264, 272], [273, 285], [286, 289], [290, 298], [299, 300], [301, 304], [305, 311], [311, 312]]
-    wn16_key: [[13, "be%2:42:03::"], [23, "assemble%2:36:00::"], [25, "warrant%2:32:00::"], [26, "draw%2:32:00::"], [35, "perform%2:41:02::"], [41, "win%2:40:00::"], [45, "found%2:36:00::"]]
-    wn30_key: [[13, "be%2:42:03::"], [23, "assemble%2:36:00::"], [25, "warrant%2:32:00::"], [26, "draw%2:32:00::"], [35, "perform%2:41:02::"], [41, "win%2:40:00::"], [45, "found%2:36:00::"]]
+    tokens: [[0, 4], [5, 11], [12, 14], [15, 19], [20, 25], [26, 29], [30, 40], [41, 43], [44, 47], [48, 58], [59, 67], [68, 70], [71, 76], [77, 85], [86, 88], [89, 94], [95, 100], [101, 104], [104, 105], [106, 112], [113, 126], [127, 130], [131, 138], [139, 143], [144, 153], [154, 156], [157, 164], [165, 172], [173, 174], [175, 178], [179, 188], [189, 196], [197, 199], [200, 203], [204, 214], [215, 220], [221, 230], [231, 234], [235, 241], [242, 246], [247, 252], [253, 255], [256, 263], [264, 272], [273, 285], [286, 289], [290, 298], [299, 300], [301, 304], [305, 311], [311, 312]]
+    wn16_key: [[14, "be%2:42:03::"], [24, "assemble%2:36:00::"], [26, "warrant%2:32:00::"], [27, "draw%2:32:00::"], [36, "perform%2:41:02::"], [42, "win%2:40:00::"], [46, "found%2:36:00::"]]
+    wn30_key: [[14, "be%2:42:03::"], [24, "assemble%2:36:00::"], [26, "warrant%2:32:00::"], [27, "draw%2:32:00::"], [36, "perform%2:41:02::"], [42, "win%2:40:00::"], [46, "found%2:36:00::"]]
 AsrT:
     lemmas: ["Before", "merge", "them", "into", "a", "common", "profile", "it", "be", "well", "to", "remember", "that", "their", "separate", "career", "be", "extraordinary", "."]
     oewn_key: [[1, "oewn-00368338-v"], [8, "oewn-02610777-v"], [11, "oewn-00611237-v"], [16, "oewn-02610777-v"]]
@@ -567,12 +563,12 @@ j/92:
     wn16_key: [[1, "serve%2:33:00::"]]
     wn30_key: [[1, "serve%2:33:00::"]]
 TdWC:
-    lemmas: ["john_adams", "take_to_heart", "the", "advice", "give", "him", "by", "his", "legal", "mentor", ",", "jeremiah_gridley", ",", "to", "\"", "pursue", "the", "study", "of", "the", "law", ",", "rather_than", "the", "gain", "of_it", "\"", "."]
+    lemmas: ["john_adams", "take_to_heart", "the", "advice", "give", "him", "by", "his", "legal", "mentor", ",", "jeremiah_gridley", ",", "to", "\"", "pursue", "the", "study", "of", "the", "law", ",", "rather", "than", "the", "gain", "of", "it", "\"", "."]
     oewn_key: [[1, "oewn-00618360-v"], [4, "oewn-02301114-v"], [15, "oewn-01320193-v"]]
     paragraph: '17'
-    pos: ["NNP", "VB", "DT", "NN", "VBN", "PRP", "IN", "PRP$", "JJ", "NN", ",", "NNP", ",", "TO", "``", "VB", "DT", "NN", "IN", "DT", "NN", ",", "RB", "DT", "NN", "RB", "''", "."]
-    text: 'John_Adams took_to_heart the advice given him by his legal mentor, Jeremiah_Gridley, to "pursue the study of the law, rather_than the gain of_it".'
-    tokens: [[0, 10], [11, 24], [25, 28], [29, 35], [36, 41], [42, 45], [46, 48], [49, 52], [53, 58], [59, 65], [65, 66], [67, 83], [83, 84], [85, 87], [88, 89], [89, 95], [96, 99], [100, 105], [106, 108], [109, 112], [113, 116], [116, 117], [118, 129], [130, 133], [134, 138], [139, 144], [144, 145], [145, 146]]
+    pos: ["NNP", "VB", "DT", "NN", "VBN", "PRP", "IN", "PRP$", "JJ", "NN", ",", "NNP", ",", "TO", "``", "VB", "DT", "NN", "IN", "DT", "NN", ",", "IN", "IN", "DT", "NN", "IN", "PRP", "''", "."]
+    text: 'John_Adams took_to_heart the advice given him by his legal mentor, Jeremiah_Gridley, to "pursue the study of the law, rather than the gain of it".'
+    tokens: [[0, 10], [11, 24], [25, 28], [29, 35], [36, 41], [42, 45], [46, 48], [49, 52], [53, 58], [59, 65], [65, 66], [67, 83], [83, 84], [85, 87], [88, 89], [89, 95], [96, 99], [100, 105], [106, 108], [109, 112], [113, 116], [116, 117], [118, 124], [125, 129], [130, 133], [134, 138], [139, 141], [142, 144], [144, 145], [145, 146]]
     wn16_key: [[1, "take_to_heart%2:31:00::"], [4, "give%2:40:09::"], [15, "pursue%2:35:00::"]]
     wn30_key: [[1, "take_to_heart%2:31:00::"], [4, "give%2:40:09::"], [15, "pursue%2:35:00::"]]
 JCQP:
@@ -609,15 +605,14 @@ Z3hD:
     wn16_key: [[7, "give_up%2:40:00::"], [12, "enter%2:33:00::"]]
     wn30_key: [[7, "give_up%2:40:00::"], [12, "enter%2:33:00::"]]
 zG6j:
-    lemmas: ["While", "he", "be", "handle", "the", "multi-million-dollar", "funding", "operations", "of", "the", "government", "he", "have_to", "resort", "to", "borrow", "small", "sum", "from", "friend", "."]
-    oewn_key: [[3, "oewn-02441196-v"], [13, "oewn-02596228-v"], [15, "oewn-02329022-v"]]
+    lemmas: ["While", "he", "be", "handle", "the", "multi-million-dollar", "funding", "operations", "of", "the", "government", "he", "have", "to", "resort", "to", "borrow", "small", "sum", "from", "friend", "."]
+    oewn_key: [[3, "oewn-02441196-v"], [14, "oewn-02596228-v"], [16, "oewn-02329022-v"]]
     paragraph: '18'
-    pos: ["IN", "PRP", "VBD", "VBG", "DT", "JJ", "NN", "NNS", "IN", "DT", "NNP", "PRP", "VB", "VB", "VB", "VBG", "JJ", "NNS", "IN", "NNS", "."]
-    text: 'While he was handling the multi-million-dollar funding operations of the Government
-  he had_to resort to borrowing small sums from friends.'
-    tokens: [[0, 5], [6, 8], [9, 12], [13, 21], [22, 25], [26, 46], [47, 54], [55, 65], [66, 68], [69, 72], [73, 83], [84, 86], [87, 93], [94, 100], [101, 103], [104, 113], [114, 119], [120, 124], [125, 129], [130, 137], [137, 138]]
-    wn16_key: [[3, "handle%2:41:00::"], [13, "resort%2:41:11::"], [15, "borrow%2:40:00::"]]
-    wn30_key: [[3, "handle%2:41:00::"], [13, "resort%2:41:11::"], [15, "borrow%2:40:00::"]]
+    pos: ["IN", "PRP", "VBD", "VBG", "DT", "JJ", "NN", "NNS", "IN", "DT", "NNP", "PRP", "VBD", "TO", "VB", "VB", "VBG", "JJ", "NNS", "IN", "NNS", "."]
+    text: 'While he was handling the multi-million-dollar funding operations of the Government he had to resort to borrowing small sums from friends.'
+    tokens: [[0, 5], [6, 8], [9, 12], [13, 21], [22, 25], [26, 46], [47, 54], [55, 65], [66, 68], [69, 72], [73, 83], [84, 86], [87, 90], [91, 93], [94, 100], [101, 103], [104, 113], [114, 119], [120, 124], [125, 129], [130, 137], [137, 138]]
+    wn16_key: [[3, "handle%2:41:00::"], [14, "resort%2:41:11::"], [16, "borrow%2:40:00::"]]
+    wn30_key: [[3, "handle%2:41:00::"], [14, "resort%2:41:11::"], [16, "borrow%2:40:00::"]]
 14DD:
     lemmas: ["\"", "If", "you", "can", "conveniently", "let", "me", "have", "twenty", "dollar", "\"", ",", "he", "write", "one", "friend", "in", "1791", "when", "he", "be", "secretary", "of", "the", "treasury", "."]
     oewn_key: [[5, "oewn-02427979-v"], [7, "oewn-02208144-v"], [13, "oewn-00995046-v"], [20, "oewn-02622439-v"]]
@@ -796,14 +791,14 @@ lzwI:
     wn16_key: [[1, "think%2:31:00::"], [6, "counsel%2:32:00::"]]
     wn30_key: [[1, "think%2:31:00::"], [6, "counsel%2:32:00::"]]
 PXr5:
-    lemmas: ["This", "new", "force", ",", "love_of_country", ",", "superimpose", "upon", "-", "if_not", "displace", "--", "affectionate", "tie", "to", "one", "'s", "own", "state", ",", "be", "epitomize", "by", "washington", "."]
-    oewn_key: [[6, "oewn-01471892-v"], [10, "oewn-02411141-v"], [21, "oewn-02704983-v"]]
+    lemmas: ["This", "new", "force", ",", "love_of_country", ",", "superimpose", "upon", "-", "if", "not", "displace", "--", "affectionate", "tie", "to", "one", "'s", "own", "state", ",", "be", "epitomize", "by", "washington", "."]
+    oewn_key: [[6, "oewn-01471892-v"], [11, "oewn-02411141-v"], [22, "oewn-02704983-v"]]
     paragraph: '25'
-    pos: ["DT", "JJ", "NN", ",", "NN", ",", "VBN", "IN", ":", "RB", "VBG", ":", "JJ", "NNS", "TO", "CD", "POS", "JJ", "NN", ",", "VBD", "VBN", "IN", "NNP", "."]
-    text: 'This new force, love_of_country, super-imposed upon - if_not displacing--affectionate ties to one''s own state, was epitomized by Washington.'
-    tokens: [[0, 4], [5, 8], [9, 14], [14, 15], [16, 31], [31, 32], [33, 46], [47, 51], [52, 53], [54, 60], [61, 71], [71, 73], [73, 85], [86, 90], [91, 93], [94, 97], [97, 99], [100, 103], [104, 109], [109, 110], [111, 114], [115, 125], [126, 128], [129, 139], [139, 140]]
-    wn16_key: [[6, "superimpose%2:35:00::"], [10, "displace%2:38:01::"], [21, "epitomize%2:42:00::"]]
-    wn30_key: [[6, "superimpose%2:35:00::"], [10, "displace%2:41:02::"], [21, "epitomize%2:42:00::"]]
+    pos: ["DT", "JJ", "NN", ",", "NN", ",", "VBN", "IN", ":", "IN", "RB", "VBG", ":", "JJ", "NNS", "TO", "CD", "POS", "JJ", "NN", ",", "VBD", "VBN", "IN", "NNP", "."]
+    text: 'This new force, love_of_country, super-imposed upon - if not displacing--affectionate ties to one''s own state, was epitomized by Washington.'
+    tokens: [[0, 4], [5, 8], [9, 14], [14, 15], [16, 31], [31, 32], [33, 46], [47, 51], [52, 53], [54, 56], [57, 60], [61, 71], [71, 73], [73, 85], [86, 90], [91, 93], [94, 97], [97, 99], [100, 103], [104, 109], [109, 110], [111, 114], [115, 125], [126, 128], [129, 139], [139, 140]]
+    wn16_key: [[6, "superimpose%2:35:00::"], [11, "displace%2:38:01::"], [22, "epitomize%2:42:00::"]]
+    wn30_key: [[6, "superimpose%2:35:00::"], [11, "displace%2:41:02::"], [22, "epitomize%2:42:00::"]]
 Qg//:
     lemmas: ["His", "first", "inaugural_address", "speak", "of", "\"", "my", "country", "whose", "voice", "I", "can", "never", "hear", "but", "with", "veneration", "and", "love", "\"", "."]
     oewn_key: [[3, "oewn-00944022-v"], [13, "oewn-02174146-v"]]
@@ -816,13 +811,12 @@ Qg//:
     wn16_key: [[3, "speak%2:32:00::"], [13, "hear%2:39:00::"]]
     wn30_key: [[3, "speak%2:32:00::"], [13, "hear%2:39:00::"]]
 uz7o:
-    lemmas: ["All", "seek", "the", "fruition", "of_that", "nationalism", "in", "a", "federal_government", "with", "substantial", "power", "."]
+    lemmas: ["All", "seek", "the", "fruition", "of", "that", "nationalism", "in", "a", "federal_government", "with", "substantial", "power", "."]
     oewn_key: [[1, "oewn-02245263-v"]]
     paragraph: '26'
-    pos: ["DT", "VBD", "DT", "NN", "RB", "NN", "IN", "DT", "NN", "IN", "JJ", "NNS", "."]
-    text: 'All sought the fruition of_that nationalism in a Federal_Government with substantial
-  powers.'
-    tokens: [[0, 3], [4, 10], [11, 14], [15, 23], [24, 31], [32, 43], [44, 46], [47, 48], [49, 67], [68, 72], [73, 84], [85, 91], [91, 92]]
+    pos: ["DT", "VBD", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "IN", "JJ", "NNS", "."]
+    text: 'All sought the fruition of that nationalism in a Federal_Government with substantial powers.'
+    tokens: [[0, 3], [4, 10], [11, 14], [15, 23], [24, 26], [27, 31], [32, 43], [44, 46], [47, 48], [49, 67], [68, 72], [73, 84], [85, 91], [91, 92]]
     wn16_key: [[1, "seek%2:40:00::"]]
     wn30_key: [[1, "seek%2:40:00::"]]
 kKHO:
@@ -869,17 +863,14 @@ VzSH:
     wn16_key: [[6, "formulate%2:32:00::"], [27, "prove%2:42:00::"]]
     wn30_key: [[6, "formulate%2:32:00::"], [27, "prove%2:42:00::"]]
 bA+t:
-    lemmas: ["In", "purchase", "louisiana", ",", "jefferson", "have_to", "adopt", "hamilton", "'s", "broad", "construction", "of", "the", "constitution", ",", "and", "so", "do", "madison", "in", "advocate", "the", "rechartering", "of", "hamilton", "'s", "bank", ",", "which", "he", "have", "so", "strenuously", "oppose", "at", "its", "inception", ",", "and", "in", "adopt", "a", "Hamiltonian", "protective_tariff", "."]
-    oewn_key: [[1, "oewn-02211988-v"], [6, "oewn-02351891-v"], [20, "oewn-00876672-v"], [33, "oewn-01093838-v"], [40, "oewn-02351891-v"]]
+    lemmas: ["In", "purchase", "louisiana", ",", "jefferson", "have", "to", "adopt", "hamilton", "'s", "broad", "construction", "of", "the", "constitution", ",", "and", "so", "do", "madison", "in", "advocate", "the", "rechartering", "of", "hamilton", "'s", "bank", ",", "which", "he", "have", "so", "strenuously", "oppose", "at", "its", "inception", ",", "and", "in", "adopt", "a", "Hamiltonian", "protective_tariff", "."]
+    oewn_key: [[1, "oewn-02211988-v"], [7, "oewn-02351891-v"], [21, "oewn-00876672-v"], [34, "oewn-01093838-v"], [41, "oewn-02351891-v"]]
     paragraph: '27'
-    pos: ["IN", "VBG", "NNP", ",", "NNP", "VB", "VB", "NNP", "POS", "JJ", "NN", "IN", "DT", "NNP", ",", "CC", "RB", "VBD", "NNP", "IN", "VBG", "DT", "NN", "IN", "NNP", "POS", "NN", ",", "WDT", "PRP", "VBD", "RB", "RB", "VBN", "IN", "PRP$", "NN", ",", "CC", "IN", "VBG", "DT", "JJ", "NN", "."]
-    text: 'In purchasing Louisiana, Jefferson had_to adopt Hamilton''s broad construction of
-  the Constitution, and so did Madison in advocating the rechartering of Hamilton''s
-  bank, which he had so strenuously opposed at its inception, and in adopting a Hamiltonian
-  protective_tariff.'
-    tokens: [[0, 2], [3, 13], [14, 23], [23, 24], [25, 34], [35, 41], [42, 47], [48, 56], [56, 58], [59, 64], [65, 77], [78, 80], [81, 84], [85, 97], [97, 98], [99, 102], [103, 105], [106, 109], [110, 117], [118, 120], [121, 131], [132, 135], [136, 148], [149, 151], [152, 160], [160, 162], [163, 167], [167, 168], [169, 174], [175, 177], [178, 181], [182, 184], [185, 196], [197, 204], [205, 207], [208, 211], [212, 221], [221, 222], [223, 226], [227, 229], [230, 238], [239, 240], [241, 252], [253, 270], [270, 271]]
-    wn16_key: [[1, "purchase%2:40:00::"], [6, "adopt%2:40:02::"], [20, "advocate%2:32:00::"], [33, "oppose%2:33:01::"], [40, "adopt%2:40:02::"]]
-    wn30_key: [[1, "purchase%2:40:00::"], [6, "adopt%2:40:02::"], [20, "advocate%2:32:00::"], [33, "oppose%2:33:01::"], [40, "adopt%2:40:02::"]]
+    pos: ["IN", "VBG", "NNP", ",", "NNP", "VBD", "TO", "VB", "NNP", "POS", "JJ", "NN", "IN", "DT", "NNP", ",", "CC", "RB", "VBD", "NNP", "IN", "VBG", "DT", "NN", "IN", "NNP", "POS", "NN", ",", "WDT", "PRP", "VBD", "RB", "RB", "VBN", "IN", "PRP$", "NN", ",", "CC", "IN", "VBG", "DT", "JJ", "NN", "."]
+    text: 'In purchasing Louisiana, Jefferson had to adopt Hamilton''s broad construction of the Constitution, and so did Madison in advocating the rechartering of Hamilton''s bank, which he had so strenuously opposed at its inception, and in adopting a Hamiltonian protective_tariff.'
+    tokens: [[0, 2], [3, 13], [14, 23], [23, 24], [25, 34], [35, 38], [39, 41], [42, 47], [48, 56], [56, 58], [59, 64], [65, 77], [78, 80], [81, 84], [85, 97], [97, 98], [99, 102], [103, 105], [106, 109], [110, 117], [118, 120], [121, 131], [132, 135], [136, 148], [149, 151], [152, 160], [160, 162], [163, 167], [167, 168], [169, 174], [175, 177], [178, 181], [182, 184], [185, 196], [197, 204], [205, 207], [208, 211], [212, 221], [221, 222], [223, 226], [227, 229], [230, 238], [239, 240], [241, 252], [253, 270], [270, 271]]
+    wn16_key: [[1, "purchase%2:40:00::"], [7, "adopt%2:40:02::"], [21, "advocate%2:32:00::"], [34, "oppose%2:33:01::"], [41, "adopt%2:40:02::"]]
+    wn30_key: [[1, "purchase%2:40:00::"], [7, "adopt%2:40:02::"], [21, "advocate%2:32:00::"], [34, "oppose%2:33:01::"], [41, "adopt%2:40:02::"]]
 kMiy:
     lemmas: ["indeed", ",", "the", "old", "jeffersonian", "be", "far", "more", "atune", "to", "the", "Hamilton-oriented", "whig", "than", "they", "be", "to", "the", "jacksonian", "democrat", "."]
     oewn_key: [[5, "oewn-02610777-v"], [15, "oewn-02610777-v"]]
@@ -893,14 +884,12 @@ kMiy:
     wn16_key: [[5, "be%2:42:03::"], [15, "be%2:42:03::"]]
     wn30_key: [[5, "be%2:42:03::"], [15, "be%2:42:03::"]]
 m6Um:
-    lemmas: ["When", ",", "in", "1832", ",", "the", "south_carolina", "nullifier", "adopt", "the", "principle", "of", "state", "interposition", "which", "madison", "have", "advance", "in", "his", "old", "virginia_resolve", ",", "they", "elicit", "no", "encouragement", "from_that", "senior", "statesman", "."]
+    lemmas: ["When", ",", "in", "1832", ",", "the", "south_carolina", "nullifier", "adopt", "the", "principle", "of", "state", "interposition", "which", "madison", "have", "advance", "in", "his", "old", "virginia_resolve", ",", "they", "elicit", "no", "encouragement", "from", "that", "senior", "statesman", "."]
     oewn_key: [[8, "oewn-02351891-v"], [17, "oewn-02560630-v"], [24, "oewn-01763170-v"]]
     paragraph: '28'
-    pos: ["WRB", ",", "IN", "CD", ",", "DT", "NN", "NNS", "VBD", "DT", "NN", "IN", "NN", "NN", "WDT", "NNP", "VBD", "VBN", "IN", "PRP$", "JJ", "NNP", ",", "PRP", "VBD", "DT", "NN", "RB", "JJ", "NN", "."]
-    text: 'When, in 1832, the South_Carolina nullifiers adopted the principle of state interposition
-  which Madison had advanced in his old Virginia_Resolve, they elicited no encouragement
-  from_that senior statesman.'
-    tokens: [[0, 4], [4, 5], [6, 8], [9, 13], [13, 14], [15, 18], [19, 33], [34, 44], [45, 52], [53, 56], [57, 66], [67, 69], [70, 75], [76, 89], [90, 95], [96, 103], [104, 107], [108, 116], [117, 119], [120, 123], [124, 127], [128, 144], [144, 145], [146, 150], [151, 159], [160, 162], [163, 176], [177, 186], [187, 193], [194, 203], [203, 204]]
+    pos: ["WRB", ",", "IN", "CD", ",", "DT", "NN", "NNS", "VBD", "DT", "NN", "IN", "NN", "NN", "WDT", "NNP", "VBD", "VBN", "IN", "PRP$", "JJ", "NNP", ",", "PRP", "VBD", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
+    text: 'When, in 1832, the South_Carolina nullifiers adopted the principle of state interposition which Madison had advanced in his old Virginia_Resolve, they elicited no encouragement from that senior statesman.'
+    tokens: [[0, 4], [4, 5], [6, 8], [9, 13], [13, 14], [15, 18], [19, 33], [34, 44], [45, 52], [53, 56], [57, 66], [67, 69], [70, 75], [76, 89], [90, 95], [96, 103], [104, 107], [108, 116], [117, 119], [120, 123], [124, 127], [128, 144], [144, 145], [146, 150], [151, 159], [160, 162], [163, 176], [177, 181], [182, 186], [187, 193], [194, 203], [203, 204]]
     wn16_key: [[8, "adopt%2:40:02::"], [17, "advance%2:41:01::"], [24, "elicit%2:37:00::"]]
     wn30_key: [[8, "adopt%2:40:02::"], [17, "advance%2:41:01::"], [24, "elicit%2:37:00::"]]
 c3hg:
@@ -914,14 +903,13 @@ c3hg:
     wn16_key: [[12, "pen%2:36:00::"], [19, "express%2:32:00::"], [30, "cherish%2:37:00::"], [32, "perpetuate%2:42:00::"]]
     wn30_key: [[12, "pen%2:36:00::"], [19, "express%2:32:00::"], [30, "cherish%2:37:00::"], [32, "perpetuate%2:42:00::"]]
 zeil:
-    lemmas: ["let", "the", "open", "enemy", "to_it", "be", "regard_as", "a", "pandora", "with", "her", "box", "opened", ";", "and", "the", "disguised", "one", ",", "as", "the", "serpent", "creep", "with", "his", "deadly", "wile", "into", "paradise", "\"", "."]
-    oewn_key: [[0, "oewn-02427979-v"], [6, "oewn-00691692-v"], [22, "oewn-01889838-v"]]
+    lemmas: ["let", "the", "open", "enemy", "to", "it", "be", "regard_as", "a", "pandora", "with", "her", "box", "opened", ";", "and", "the", "disguised", "one", ",", "as", "the", "serpent", "creep", "with", "his", "deadly", "wile", "into", "paradise", "\"", "."]
+    oewn_key: [[0, "oewn-02427979-v"], [7, "oewn-00691692-v"], [23, "oewn-01889838-v"]]
     paragraph: '28'
-    pos: ["VB", "DT", "JJ", "NN", "RB", "VB", "VB", "DT", "NNP", "IN", "PRP$", "NN", "JJ", ":", "CC", "DT", "JJ", "CD", ",", "IN", "DT", "NN", "VBG", "IN", "PRP$", "JJ", "NNS", "IN", "NNP", "``", "."]
-    text: 'Let the open enemy to_it be regarded_as a Pandora with her box opened; and the disguised
-  one, as the serpent creeping with his deadly wiles into Paradise ".
+    pos: ["VB", "DT", "JJ", "NN", "IN", "PRP", "VB", "VB", "DT", "NNP", "IN", "PRP$", "NN", "JJ", ":", "CC", "DT", "JJ", "CD", ",", "IN", "DT", "NN", "VBG", "IN", "PRP$", "JJ", "NNS", "IN", "NNP", "``", "."]
+    text: 'Let the open enemy to it be regarded_as a Pandora with her box opened; and the disguised one, as the serpent creeping with his deadly wiles into Paradise ".
 
   '
-    tokens: [[0, 3], [4, 7], [8, 12], [13, 18], [19, 24], [25, 27], [28, 39], [40, 41], [42, 49], [50, 54], [55, 58], [59, 62], [63, 69], [69, 70], [71, 74], [75, 78], [79, 88], [89, 92], [92, 93], [94, 96], [97, 100], [101, 108], [109, 117], [118, 122], [123, 126], [127, 133], [134, 139], [140, 144], [145, 153], [154, 155], [155, 156]]
-    wn16_key: [[0, "let%2:41:00::"], [6, "regard_as%2:31:00::"], [22, "creep%2:38:00::"]]
-    wn30_key: [[0, "let%2:41:00::"], [6, "regard_as%2:31:00::"], [22, "creep%2:38:00::"]]
+    tokens: [[0, 3], [4, 7], [8, 12], [13, 18], [19, 21], [22, 24], [25, 27], [28, 39], [40, 41], [42, 49], [50, 54], [55, 58], [59, 62], [63, 69], [69, 70], [71, 74], [75, 78], [79, 88], [89, 92], [92, 93], [94, 96], [97, 100], [101, 108], [109, 117], [118, 122], [123, 126], [127, 133], [134, 139], [140, 144], [145, 153], [154, 155], [155, 156]]
+    wn16_key: [[0, "let%2:41:00::"], [7, "regard_as%2:31:00::"], [23, "creep%2:38:00::"]]
+    wn30_key: [[0, "let%2:41:00::"], [7, "regard_as%2:31:00::"], [23, "creep%2:38:00::"]]

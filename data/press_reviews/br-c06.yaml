@@ -74,13 +74,12 @@ CvjI:
     wn16_key: [[2, "be%2:42:03::"], [17, "meet%2:34:00::"], [28, "be%2:42:03::"], [39, "be%2:42:03::"]]
     wn30_key: [[2, "be%2:42:03::"], [17, "meet%2:34:00::"], [28, "be%2:42:03::"], [39, "be%2:42:03::"]]
 VUlf:
-    lemmas: ["mr._kennan", "take", "careful", "account", "of", "every", "mitigating", "circumstance", "in", "recall", "the", "historical", "atmosphere", "in_which", "mistaken", "decision", "be", "take", "."]
+    lemmas: ["mr._kennan", "take", "careful", "account", "of", "every", "mitigating", "circumstance", "in", "recall", "the", "historical", "atmosphere", "in", "which", "mistaken", "decision", "be", "take", "."]
     oewn_key: [[1, "oewn-02605633-v"], [9, "oewn-00609334-v"]]
     paragraph: '2'
-    pos: ["NNP", "VBZ", "JJ", "NN", "IN", "DT", "JJ", "NN", "IN", "VBG", "DT", "JJ", "NN", "RB", "JJ", "NNS", "VBD", "VBN", "."]
-    text: 'Mr._Kennan takes careful account of every mitigating circumstance in recalling the
-  historical atmosphere in_which mistaken decisions were taken.'
-    tokens: [[0, 10], [11, 16], [17, 24], [25, 32], [33, 35], [36, 41], [42, 52], [53, 65], [66, 68], [69, 78], [79, 82], [83, 93], [94, 104], [105, 113], [114, 122], [123, 132], [133, 137], [138, 143], [143, 144]]
+    pos: ["NNP", "VBZ", "JJ", "NN", "IN", "DT", "JJ", "NN", "IN", "VBG", "DT", "JJ", "NN", "IN", "WDT", "JJ", "NNS", "VBD", "VBN", "."]
+    text: 'Mr._Kennan takes careful account of every mitigating circumstance in recalling the historical atmosphere in which mistaken decisions were taken.'
+    tokens: [[0, 10], [11, 16], [17, 24], [25, 32], [33, 35], [36, 41], [42, 52], [53, 65], [66, 68], [69, 78], [79, 82], [83, 93], [94, 104], [105, 107], [108, 113], [114, 122], [123, 132], [133, 137], [138, 143], [143, 144]]
     wn16_key: [[1, "take%2:41:04::"], [9, "recall%2:31:00::"]]
     wn30_key: [[1, "take%2:41:04::"], [9, "recall%2:31:00::"]]
 g3Qv:
@@ -98,15 +97,14 @@ g3Qv:
     wn16_key: [[2, "reject%2:31:00::"], [18, "contribute%2:41:12::"], [23, "appease%2:32:00::"], [26, "persist%2:42:00::"], [35, "reach%2:38:00::"]]
     wn30_key: [[2, "reject%2:31:00::"], [18, "contribute%2:41:12::"], [23, "appease%2:32:00::"], [26, "persist%2:42:00::"], [35, "reach%2:38:00::"]]
 ptfk:
-    lemmas: ["after_all", ",", "alger_hiss", ",", "subsequently", "convict", "of", "perjury", "in", "deny", "that", "he", "give", "secret", "state_department", "document", "to", "soviet", "agent", ",", "be", "at", "yalta", "."]
-    oewn_key: [[5, "oewn-00908320-v"], [9, "oewn-00818217-v"], [12, "oewn-02204104-v"], [20, "oewn-02661230-v"]]
+    lemmas: ["after", "all", ",", "alger_hiss", ",", "subsequently", "convict", "of", "perjury", "in", "deny", "that", "he", "give", "secret", "state_department", "document", "to", "soviet", "agent", ",", "be", "at", "yalta", "."]
+    oewn_key: [[6, "oewn-00908320-v"], [10, "oewn-00818217-v"], [13, "oewn-02204104-v"], [21, "oewn-02661230-v"]]
     paragraph: '3'
-    pos: ["RB", ",", "NNP", ",", "RB", "VBN", "IN", "NN", "IN", "VBG", "IN", "PRP", "VBD", "JJ", "NN", "NNS", "TO", "JJ", "NNS", ",", "VBD", "IN", "NNP", "."]
-    text: 'After_all, Alger_Hiss, subsequently convicted of perjury in denying that he gave
-  secret State_Department documents to Soviet agents, was at Yalta.'
-    tokens: [[0, 9], [9, 10], [11, 21], [21, 22], [23, 35], [36, 45], [46, 48], [49, 56], [57, 59], [60, 67], [68, 72], [73, 75], [76, 80], [81, 87], [88, 104], [105, 114], [115, 117], [118, 124], [125, 131], [131, 132], [133, 136], [137, 139], [140, 145], [145, 146]]
-    wn16_key: [[5, "convict%2:32:00::"], [9, "deny%2:32:00::"], [12, "give%2:40:00::"], [20, "be%2:42:05::"]]
-    wn30_key: [[5, "convict%2:32:00::"], [9, "deny%2:32:00::"], [12, "give%2:40:00::"], [20, "be%2:42:05::"]]
+    pos: ["IN", "PDT", ",", "NNP", ",", "RB", "VBN", "IN", "NN", "IN", "VBG", "IN", "PRP", "VBD", "JJ", "NN", "NNS", "TO", "JJ", "NNS", ",", "VBD", "IN", "NNP", "."]
+    text: 'After all, Alger_Hiss, subsequently convicted of perjury in denying that he gave secret State_Department documents to Soviet agents, was at Yalta.'
+    tokens: [[0, 5], [6, 9], [9, 10], [11, 21], [21, 22], [23, 35], [36, 45], [46, 48], [49, 56], [57, 59], [60, 67], [68, 72], [73, 75], [76, 80], [81, 87], [88, 104], [105, 114], [115, 117], [118, 124], [125, 131], [131, 132], [133, 136], [137, 139], [140, 145], [145, 146]]
+    wn16_key: [[6, "convict%2:32:00::"], [10, "deny%2:32:00::"], [13, "give%2:40:00::"], [21, "be%2:42:05::"]]
+    wn30_key: [[6, "convict%2:32:00::"], [10, "deny%2:32:00::"], [13, "give%2:40:00::"], [21, "be%2:42:05::"]]
 S2HD:
     lemmas: ["And", "Harry_Dexter_White", ",", "implicated", "in", "F._B._I.", "report", "in", "communist", "association", ",", "be", "one", "of", "the", "architect", "of", "the", "Morgenthau_Plan", ",", "which", "have", "it", "ever", "be", "put", "into", "full", "operation", ",", "would", "have", "simply", "hand", "germany", "to", "stalin", "."]
     oewn_key: [[11, "oewn-02622439-v"], [25, "oewn-01496398-v"], [33, "oewn-02235554-v"]]
@@ -119,17 +117,16 @@ S2HD:
     wn16_key: [[11, "be%2:42:06::"], [25, "put%2:35:05::"], [33, "hand%2:40:00::"]]
     wn30_key: [[11, "be%2:42:06::"], [25, "put%2:35:05::"], [33, "hand%2:40:00::"]]
 Us5A:
-    lemmas: ["One", "item", "in_this", "unhappy", "scheme", "be", "to", "have", "germany", "police", "exclusively", "by", "its", "continental", "neighbor", ",", "among", "whom", "only", "the", "soviet_union", "possess", "real", "military", "strength", "."]
-    oewn_key: [[5, "oewn-02622439-v"], [7, "oewn-00120604-v"], [9, "oewn-02460361-v"], [21, "oewn-02638248-v"]]
+    lemmas: ["One", "item", "in", "this", "unhappy", "scheme", "be", "to", "have", "germany", "police", "exclusively", "by", "its", "continental", "neighbor", ",", "among", "whom", "only", "the", "soviet_union", "possess", "real", "military", "strength", "."]
+    oewn_key: [[6, "oewn-02622439-v"], [8, "oewn-00120604-v"], [10, "oewn-02460361-v"], [22, "oewn-02638248-v"]]
     paragraph: '3'
-    pos: ["CD", "NN", "RB", "JJ", "NN", "VBD", "TO", "VB", "NNP", "VBN", "RB", "IN", "PRP$", "JJ", "NNS", ",", "IN", "WP", "RB", "DT", "NN", "VBD", "JJ", "JJ", "NN", "."]
-    text: 'One item in_this unhappy scheme was to have Germany policed exclusively by its continental
-  neighbors, among whom only the Soviet_Union possessed real military strength.
+    pos: ["CD", "NN", "IN", "DT", "JJ", "NN", "VBD", "TO", "VB", "NNP", "VBN", "RB", "IN", "PRP$", "JJ", "NNS", ",", "IN", "WP", "RB", "DT", "NN", "VBD", "JJ", "JJ", "NN", "."]
+    text: 'One item in this unhappy scheme was to have Germany policed exclusively by its continental neighbors, among whom only the Soviet_Union possessed real military strength.
 
   '
-    tokens: [[0, 3], [4, 8], [9, 16], [17, 24], [25, 31], [32, 35], [36, 38], [39, 43], [44, 51], [52, 59], [60, 71], [72, 74], [75, 78], [79, 90], [91, 100], [100, 101], [102, 107], [108, 112], [113, 117], [118, 121], [122, 134], [135, 144], [145, 149], [150, 158], [159, 167], [167, 168]]
-    wn16_key: [[5, "be%2:42:06::"], [7, "have%2:30:00::"], [9, "police%2:41:00::"], [21, "possess%2:42:00::"]]
-    wn30_key: [[5, "be%2:42:06::"], [7, "have%2:30:00::"], [9, "police%2:41:00::"], [21, "possess%2:42:00::"]]
+    tokens: [[0, 3], [4, 8], [9, 11], [12, 16], [17, 24], [25, 31], [32, 35], [36, 38], [39, 43], [44, 51], [52, 59], [60, 71], [72, 74], [75, 78], [79, 90], [91, 100], [100, 101], [102, 107], [108, 112], [113, 117], [118, 121], [122, 134], [135, 144], [145, 149], [150, 158], [159, 167], [167, 168]]
+    wn16_key: [[6, "be%2:42:06::"], [8, "have%2:30:00::"], [10, "police%2:41:00::"], [22, "possess%2:42:00::"]]
+    wn30_key: [[6, "be%2:42:06::"], [8, "have%2:30:00::"], [10, "police%2:41:00::"], [22, "possess%2:42:00::"]]
 G7ct:
     lemmas: ["It", "be", "quite", "probable", ",", "however", ",", "that", "stupidity", ",", "inexperience", "and", "childish", "adherence", "to", "slogan", "like", "\"", "unconditional", "surrender", "\"", "have", "more", "to", "do", "with", "the", "unsatisfactory", "settlement", "at", "the", "end", "of", "the", "war", "than", "treason", "or", "sympathy", "with", "communism", "."]
     oewn_key: [[1, "oewn-02610777-v"], [21, "oewn-02746620-v"], [24, "oewn-02623620-v"]]
@@ -140,27 +137,27 @@ G7ct:
     wn16_key: [[1, "be%2:42:03::"], [21, "have%2:42:12::"], [24, "do%2:42:00::"]]
     wn30_key: [[1, "be%2:42:03::"], [21, "have%2:42:12::"], [24, "do%2:42:00::"]]
 IcpO:
-    lemmas: ["mr._kennan", "sum_up", "his", "judgment", "of_what", "go_wrong", "this", "way", "."]
-    oewn_key: [[1, "oewn-01009951-v"], [5, "oewn-02534046-v"]]
+    lemmas: ["mr._kennan", "sum_up", "his", "judgment", "of", "what", "go_wrong", "this", "way", "."]
+    oewn_key: [[1, "oewn-01009951-v"], [6, "oewn-02534046-v"]]
     paragraph: '4'
-    pos: ["NNP", "VB", "PRP$", "NN", "RB", "VB", "DT", "NN", "."]
-    text: 'Mr._Kennan sums_up his judgment of_what went_wrong this way.
+    pos: ["NNP", "VB", "PRP$", "NN", "IN", "WDT", "VB", "DT", "NN", "."]
+    text: 'Mr._Kennan sums_up his judgment of what went_wrong this way.
 
   '
-    tokens: [[0, 10], [11, 18], [19, 22], [23, 31], [32, 39], [40, 50], [51, 55], [56, 59], [59, 60]]
-    wn16_key: [[1, "sum_up%2:32:00::"], [5, "go_wrong%2:41:00::"]]
-    wn30_key: [[1, "sum_up%2:32:00::"], [5, "go_wrong%2:41:00::"]]
+    tokens: [[0, 10], [11, 18], [19, 22], [23, 31], [32, 34], [35, 39], [40, 50], [51, 55], [56, 59], [59, 60]]
+    wn16_key: [[1, "sum_up%2:32:00::"], [6, "go_wrong%2:41:00::"]]
+    wn30_key: [[1, "sum_up%2:32:00::"], [6, "go_wrong%2:41:00::"]]
 kUGz:
-    lemmas: ["\"", "You", "see", ",", "first_of_all", "and", "in_a_sense", "as", "the", "source", "of", "all", "other", "ill", ",", "the", "unshakeable", "american", "commitment", "to", "the", "principle", "of", "unconditional", "surrender", ":", "The", "tendency", "to", "view", "any", "war", "in_which", "we", "might", "be", "involved", "not", "as", "a", "means", "of", "achieve", "limited", "objective", "in", "the", "way", "of", "change", "in", "a", "given", "status_quo", ",", "but", "as", "a", "struggle", "to", "the", "death", "between", "total", "virtue", "and", "total", "evil", ",", "with", "the", "result", "that", "the", "war", "have", "absolutely", "to", "be", "fight", "to", "the", "complete", "destruction", "of", "the", "enemy", "'s", "power", ",", "no_matter", "what", "disadvantage", "or", "complication", "this", "might", "involve", "for", "the", "more", "distant", "future", "\"", "."]
-    oewn_key: [[2, "oewn-00592510-v"], [29, "oewn-00692380-v"], [35, "oewn-02610777-v"], [42, "oewn-02531751-v"], [79, "oewn-01092746-v"], [97, "oewn-02642216-v"]]
+    lemmas: ["\"", "You", "see", ",", "first_of_all", "and", "in_a_sense", "as", "the", "source", "of", "all", "other", "ill", ",", "the", "unshakeable", "american", "commitment", "to", "the", "principle", "of", "unconditional", "surrender", ":", "The", "tendency", "to", "view", "any", "war", "in", "which", "we", "might", "be", "involved", "not", "as", "a", "means", "of", "achieve", "limited", "objective", "in", "the", "way", "of", "change", "in", "a", "given", "status_quo", ",", "but", "as", "a", "struggle", "to", "the", "death", "between", "total", "virtue", "and", "total", "evil", ",", "with", "the", "result", "that", "the", "war", "have", "absolutely", "to", "be", "fight", "to", "the", "complete", "destruction", "of", "the", "enemy", "'s", "power", ",", "no_matter", "what", "disadvantage", "or", "complication", "this", "might", "involve", "for", "the", "more", "distant", "future", "\"", "."]
+    oewn_key: [[2, "oewn-00592510-v"], [29, "oewn-00692380-v"], [36, "oewn-02610777-v"], [43, "oewn-02531751-v"], [80, "oewn-01092746-v"], [98, "oewn-02642216-v"]]
     paragraph: '5'
-    pos: ["``", "PRP", "VBP", ",", "RB", "CC", "RB", "IN", "DT", "NN", "IN", "DT", "JJ", "NNS", ",", "DT", "JJ", "NNP", "NN", "TO", "DT", "NN", "IN", "JJ", "NN", ":", "DT", "NN", "TO", "VB", "DT", "NN", "RB", "PRP", "MD", "VB", "JJ", "RB", "IN", "DT", "NN", "IN", "VBG", "JJ", "NNS", "IN", "DT", "NN", "IN", "NNS", "IN", "DT", "JJ", "NN", ",", "CC", "IN", "DT", "NN", "TO", "DT", "NN", "IN", "JJ", "NN", "CC", "JJ", "JJ", ",", "IN", "DT", "NN", "IN", "DT", "NN", "VBD", "RB", "TO", "VB", "VBN", "TO", "DT", "JJ", "NN", "IN", "DT", "NN", "POS", "NN", ",", "RB", "WP", "NNS", "CC", "NNS", "DT", "MD", "VB", "IN", "DT", "RBR", "JJ", "NN", "''", "."]
-    text: '"You see, first_of_all and in_a_sense as the source of all other ills, the unshakeable American commitment to the principle of unconditional surrender: The tendency to view any war in_which we might be involved not as a means of achieving limited objectives in the way of changes in a given status_quo, but as a struggle to the death between total virtue and total evil, with the result that the war had absolutely to be fought to the complete destruction of the enemy''s power, no_matter what disadvantages or complications this might involve for the more distant future".
+    pos: ["``", "PRP", "VBP", ",", "RB", "CC", "RB", "IN", "DT", "NN", "IN", "DT", "JJ", "NNS", ",", "DT", "JJ", "NNP", "NN", "TO", "DT", "NN", "IN", "JJ", "NN", ":", "DT", "NN", "TO", "VB", "DT", "NN", "IN", "WDT", "PRP", "MD", "VB", "JJ", "RB", "IN", "DT", "NN", "IN", "VBG", "JJ", "NNS", "IN", "DT", "NN", "IN", "NNS", "IN", "DT", "JJ", "NN", ",", "CC", "IN", "DT", "NN", "TO", "DT", "NN", "IN", "JJ", "NN", "CC", "JJ", "JJ", ",", "IN", "DT", "NN", "IN", "DT", "NN", "VBD", "RB", "TO", "VB", "VBN", "TO", "DT", "JJ", "NN", "IN", "DT", "NN", "POS", "NN", ",", "RB", "WP", "NNS", "CC", "NNS", "DT", "MD", "VB", "IN", "DT", "RBR", "JJ", "NN", "''", "."]
+    text: '"You see, first_of_all and in_a_sense as the source of all other ills, the unshakeable American commitment to the principle of unconditional surrender: The tendency to view any war in which we might be involved not as a means of achieving limited objectives in the way of changes in a given status_quo, but as a struggle to the death between total virtue and total evil, with the result that the war had absolutely to be fought to the complete destruction of the enemy''s power, no_matter what disadvantages or complications this might involve for the more distant future".
 
   '
-    tokens: [[0, 1], [1, 4], [5, 8], [8, 9], [10, 22], [23, 26], [27, 37], [38, 40], [41, 44], [45, 51], [52, 54], [55, 58], [59, 64], [65, 69], [69, 70], [71, 74], [75, 86], [87, 95], [96, 106], [107, 109], [110, 113], [114, 123], [124, 126], [127, 140], [141, 150], [150, 151], [152, 155], [156, 164], [165, 167], [168, 172], [173, 176], [177, 180], [181, 189], [190, 192], [193, 198], [199, 201], [202, 210], [211, 214], [215, 217], [218, 219], [220, 225], [226, 228], [229, 238], [239, 246], [247, 257], [258, 260], [261, 264], [265, 268], [269, 271], [272, 279], [280, 282], [283, 284], [285, 290], [291, 301], [301, 302], [303, 306], [307, 309], [310, 311], [312, 320], [321, 323], [324, 327], [328, 333], [334, 341], [342, 347], [348, 354], [355, 358], [359, 364], [365, 369], [369, 370], [371, 375], [376, 379], [380, 386], [387, 391], [392, 395], [396, 399], [400, 403], [404, 414], [415, 417], [418, 420], [421, 427], [428, 430], [431, 434], [435, 443], [444, 455], [456, 458], [459, 462], [463, 468], [468, 470], [471, 476], [476, 477], [478, 487], [488, 492], [493, 506], [507, 509], [510, 523], [524, 528], [529, 534], [535, 542], [543, 546], [547, 550], [551, 555], [556, 563], [564, 570], [570, 571], [571, 572]]
-    wn16_key: [[2, "see%2:31:01::"], [29, "view%2:31:00::"], [35, "be%2:42:03::"], [42, "achieve%2:41:00::"], [79, "fight%2:33:00::"], [97, "involve%2:42:00::"]]
-    wn30_key: [[2, "see%2:31:01::"], [29, "view%2:31:00::"], [35, "be%2:42:03::"], [42, "achieve%2:41:00::"], [79, "fight%2:33:00::"], [97, "involve%2:42:00::"]]
+    tokens: [[0, 1], [1, 4], [5, 8], [8, 9], [10, 22], [23, 26], [27, 37], [38, 40], [41, 44], [45, 51], [52, 54], [55, 58], [59, 64], [65, 69], [69, 70], [71, 74], [75, 86], [87, 95], [96, 106], [107, 109], [110, 113], [114, 123], [124, 126], [127, 140], [141, 150], [150, 151], [152, 155], [156, 164], [165, 167], [168, 172], [173, 176], [177, 180], [181, 183], [184, 189], [190, 192], [193, 198], [199, 201], [202, 210], [211, 214], [215, 217], [218, 219], [220, 225], [226, 228], [229, 238], [239, 246], [247, 257], [258, 260], [261, 264], [265, 268], [269, 271], [272, 279], [280, 282], [283, 284], [285, 290], [291, 301], [301, 302], [303, 306], [307, 309], [310, 311], [312, 320], [321, 323], [324, 327], [328, 333], [334, 341], [342, 347], [348, 354], [355, 358], [359, 364], [365, 369], [369, 370], [371, 375], [376, 379], [380, 386], [387, 391], [392, 395], [396, 399], [400, 403], [404, 414], [415, 417], [418, 420], [421, 427], [428, 430], [431, 434], [435, 443], [444, 455], [456, 458], [459, 462], [463, 468], [468, 470], [471, 476], [476, 477], [478, 487], [488, 492], [493, 506], [507, 509], [510, 523], [524, 528], [529, 534], [535, 542], [543, 546], [547, 550], [551, 555], [556, 563], [564, 570], [570, 571], [571, 572]]
+    wn16_key: [[2, "see%2:31:01::"], [29, "view%2:31:00::"], [36, "be%2:42:03::"], [43, "achieve%2:41:00::"], [80, "fight%2:33:00::"], [98, "involve%2:42:00::"]]
+    wn30_key: [[2, "see%2:31:01::"], [29, "view%2:31:00::"], [36, "be%2:42:03::"], [43, "achieve%2:41:00::"], [80, "fight%2:33:00::"], [98, "involve%2:42:00::"]]
 Rf/M:
     lemmas: ["recognize", "that", "there", "could", "have", "be", "no", "effective", "negotiated", "peace", "with", "hitler", ",", "he", "point_out", "the", "shocking", "failure", "to", "give", "support", "to", "the", "anti-Nazi", "underground", ",", "which", "very_nearly", "eliminate", "hitler", "in", "1944", "."]
     oewn_key: [[0, "oewn-00730579-v"], [5, "oewn-02610777-v"], [14, "oewn-01060446-v"], [19, "oewn-02321848-v"], [28, "oewn-00472642-v"]]
@@ -307,18 +304,16 @@ rOyD:
     wn16_key: [[5, "be%2:42:03::"], [21, "be%2:42:04::"]]
     wn30_key: [[5, "be%2:42:03::"], [21, "be%2:42:04::"]]
 sugZ:
-    lemmas: ["The", "scope", "and", "significance", "of_this", "intervention", "have", "be", "grossly", "exaggerate", "by", "communist", "propaganda", ";", "here", "kennan", ",", "operate", "with", "precise", "fact", "and", "figure", ",", "perform", "an", "excellent", "job", "of", "debunking", "."]
-    oewn_key: [[9, "oewn-00841513-v"], [17, "oewn-01112274-v"], [24, "oewn-02379855-v"]]
+    lemmas: ["The", "scope", "and", "significance", "of", "this", "intervention", "have", "be", "grossly", "exaggerate", "by", "communist", "propaganda", ";", "here", "kennan", ",", "operate", "with", "precise", "fact", "and", "figure", ",", "perform", "an", "excellent", "job", "of", "debunking", "."]
+    oewn_key: [[10, "oewn-00841513-v"], [18, "oewn-01112274-v"], [25, "oewn-02379855-v"]]
     paragraph: '11'
-    pos: ["DT", "NN", "CC", "NN", "RB", "NN", "VBP", "VBN", "RB", "VBN", "IN", "NNP", "NN", ":", "RB", "NNP", ",", "VBG", "IN", "JJ", "NNS", "CC", "NNS", ",", "VBZ", "DT", "JJ", "NN", "IN", "NN", "."]
-    text: 'The scope and significance of_this intervention have been grossly exaggerated by
-  Communist propaganda; here Kennan, operating with precise facts and figures, performs
-  an excellent job of debunking.
+    pos: ["DT", "NN", "CC", "NN", "IN", "DT", "NN", "VBP", "VBN", "RB", "VBN", "IN", "NNP", "NN", ":", "RB", "NNP", ",", "VBG", "IN", "JJ", "NNS", "CC", "NNS", ",", "VBZ", "DT", "JJ", "NN", "IN", "NN", "."]
+    text: 'The scope and significance of this intervention have been grossly exaggerated by Communist propaganda; here Kennan, operating with precise facts and figures, performs an excellent job of debunking.
 
   '
-    tokens: [[0, 3], [4, 9], [10, 13], [14, 26], [27, 34], [35, 47], [48, 52], [53, 57], [58, 65], [66, 77], [78, 80], [81, 90], [91, 101], [101, 102], [103, 107], [108, 114], [114, 115], [116, 125], [126, 130], [131, 138], [139, 144], [145, 148], [149, 156], [156, 157], [158, 166], [167, 169], [170, 179], [180, 183], [184, 186], [187, 196], [196, 197]]
-    wn16_key: [[9, "exaggerate%2:32:00::"], [17, "operate%2:33:00::"], [24, "perform%2:41:02::"]]
-    wn30_key: [[9, "exaggerate%2:32:00::"], [17, "operate%2:33:00::"], [24, "perform%2:41:02::"]]
+    tokens: [[0, 3], [4, 9], [10, 13], [14, 26], [27, 29], [30, 34], [35, 47], [48, 52], [53, 57], [58, 65], [66, 77], [78, 80], [81, 90], [91, 101], [101, 102], [103, 107], [108, 114], [114, 115], [116, 125], [126, 130], [131, 138], [139, 144], [145, 148], [149, 156], [156, 157], [158, 166], [167, 169], [170, 179], [180, 183], [184, 186], [187, 196], [196, 197]]
+    wn16_key: [[10, "exaggerate%2:32:00::"], [18, "operate%2:33:00::"], [25, "perform%2:41:02::"]]
+    wn30_key: [[10, "exaggerate%2:32:00::"], [18, "operate%2:33:00::"], [25, "perform%2:41:02::"]]
 tUf2:
     lemmas: ["Of", "many", "passage", "in", "the", "book", "that", "exemplify", "the", "author", "'s", "vivid", "style", ",", "the", "characterization", "of", "the", "two", "plebeian", "dictator", "whose", "crime", "make", "those", "of", "crowned", "autocrat", "pale", "by", "comparison", "may", "be", "select", "."]
     oewn_key: [[7, "oewn-02729608-v"], [23, "oewn-00120124-v"], [33, "oewn-00676526-v"]]
@@ -389,14 +384,14 @@ Pixw:
     wn16_key: [[21, "play%2:33:03::"], [31, "desire%2:37:00::"], [42, "possess%2:42:00::"], [48, "possess%2:42:00::"], [53, "rouse%2:38:01::"]]
     wn30_key: [[21, "play%2:33:03::"], [31, "desire%2:37:00::"], [42, "possess%2:42:00::"], [48, "possess%2:42:00::"], [53, "rouse%2:38:01::"]]
 9Kda:
-    lemmas: ["Two", "criticism", "of_this", "generally", "admirable", "and", "fascinating", "book", "involve", "the", "treatment", "of", "wartime", "diplomacy", "which", "be", "jagged", "at", "the", "edge", "--", "there", "be", "no", "mention", "of", "the", "potsdam_conference", "or", "the", "Morgenthau_Plan", "."]
-    oewn_key: [[8, "oewn-02682907-v"], [15, "oewn-02610777-v"], [22, "oewn-02610777-v"]]
+    lemmas: ["Two", "criticism", "of", "this", "generally", "admirable", "and", "fascinating", "book", "involve", "the", "treatment", "of", "wartime", "diplomacy", "which", "be", "jagged", "at", "the", "edge", "--", "there", "be", "no", "mention", "of", "the", "potsdam_conference", "or", "the", "Morgenthau_Plan", "."]
+    oewn_key: [[9, "oewn-02682907-v"], [16, "oewn-02610777-v"], [23, "oewn-02610777-v"]]
     paragraph: '16'
-    pos: ["CD", "NNS", "RB", "RB", "JJ", "CC", "JJ", "NN", "VBP", "DT", "NN", "IN", "NN", "NN", "WDT", "VBZ", "JJ", "IN", "DT", "NNS", ":", "EX", "VBZ", "DT", "NN", "IN", "DT", "NNP", "CC", "DT", "NNP", "."]
-    text: 'Two criticisms of_this generally admirable and fascinating book involve the treatment of wartime diplomacy which is jagged at the edges--there is no mention of the Potsdam_Conference or the Morgenthau_Plan.'
-    tokens: [[0, 3], [4, 14], [15, 22], [23, 32], [33, 42], [43, 46], [47, 58], [59, 63], [64, 71], [72, 75], [76, 85], [86, 88], [89, 96], [97, 106], [107, 112], [113, 115], [116, 122], [123, 125], [126, 129], [130, 135], [135, 137], [137, 142], [143, 145], [146, 148], [149, 156], [157, 159], [160, 163], [164, 182], [183, 185], [186, 189], [190, 205], [205, 206]]
-    wn16_key: [[8, "involve%2:42:01::"], [15, "be%2:42:03::"], [22, "be%2:42:04::"]]
-    wn30_key: [[8, "involve%2:42:01::"], [15, "be%2:42:03::"], [22, "be%2:42:04::"]]
+    pos: ["CD", "NNS", "IN", "DT", "RB", "JJ", "CC", "JJ", "NN", "VBP", "DT", "NN", "IN", "NN", "NN", "WDT", "VBZ", "JJ", "IN", "DT", "NNS", ":", "EX", "VBZ", "DT", "NN", "IN", "DT", "NNP", "CC", "DT", "NNP", "."]
+    text: 'Two criticisms of this generally admirable and fascinating book involve the treatment of wartime diplomacy which is jagged at the edges--there is no mention of the Potsdam_Conference or the Morgenthau_Plan.'
+    tokens: [[0, 3], [4, 14], [15, 17], [18, 22], [23, 32], [33, 42], [43, 46], [47, 58], [59, 63], [64, 71], [72, 75], [76, 85], [86, 88], [89, 96], [97, 106], [107, 112], [113, 115], [116, 122], [123, 125], [126, 129], [130, 135], [135, 137], [137, 142], [143, 145], [146, 148], [149, 156], [157, 159], [160, 163], [164, 182], [183, 185], [186, 189], [190, 205], [205, 206]]
+    wn16_key: [[9, "involve%2:42:01::"], [16, "be%2:42:03::"], [23, "be%2:42:04::"]]
+    wn30_key: [[9, "involve%2:42:01::"], [16, "be%2:42:03::"], [23, "be%2:42:04::"]]
 /14+:
     lemmas: ["And", "in", "a", "concluding", "chapter", "about", "america", "'s", "stance", "in", "the", "contemporary_world", ",", "one", "sense", "certain", "misplacement", "of", "emphasis", "and", "a", "failure", "to", "come_to_grips", "with", "the", "baffling", "riddle", "of", "our", "time", ":", "How", "to", "deal", "with", "a", "wily", "and", "aggressive", "enemy", "without", "appeasement", "and", "without", "war", "."]
     oewn_key: [[14, "oewn-02110460-v"], [23, "oewn-02442004-v"], [34, "oewn-02382855-v"]]
@@ -471,14 +466,14 @@ Jo3e:
     wn16_key: [[1, "be%2:42:00::"], [10, "be%2:42:03::"], [18, "kill%2:35:00::"]]
     wn30_key: [[1, "be%2:42:00::"], [10, "be%2:42:03::"], [18, "kill%2:35:00::"]]
 Dewy:
-    lemmas: ["by_and_large", ",", "robert_mcenroe", "'s", "adaptation", "of", "Maurice_Walsh", "'s", "film", ",", "\"", "The", "quiet", "man", "\"", ",", "provide", "the", "entertainment", "it", "set_out", "to", ",", "and", "we", "have", "a", "lively", "musical", "show", "if_not", "a", "superlative", "one", "."]
+    lemmas: ["by_and_large", ",", "robert_mcenroe", "'s", "adaptation", "of", "Maurice_Walsh", "'s", "film", ",", "\"", "The", "quiet", "man", "\"", ",", "provide", "the", "entertainment", "it", "set_out", "to", ",", "and", "we", "have", "a", "lively", "musical", "show", "if", "not", "a", "superlative", "one", "."]
     oewn_key: [[16, "oewn-02332196-v"], [20, "oewn-00346415-v"], [25, "oewn-02208144-v"]]
     paragraph: '17'
-    pos: ["RB", ",", "NNP", "POS", "NN", "IN", "NNP", "POS", "NN", ",", "``", "DT", "JJ", "NN", "''", ",", "VBZ", "DT", "NN", "PRP", "VB", "TO", ",", "CC", "PRP", "VBP", "DT", "JJ", "JJ", "NN", "RB", "DT", "JJ", "CD", "."]
-    text: 'By_and_large, Robert_McEnroe''s adaptation of Maurice_Walsh''s film, "The Quiet Man", provides the entertainment it set_out to, and we have a lively musical show if_not a superlative one.
+    pos: ["RB", ",", "NNP", "POS", "NN", "IN", "NNP", "POS", "NN", ",", "``", "DT", "JJ", "NN", "''", ",", "VBZ", "DT", "NN", "PRP", "VB", "TO", ",", "CC", "PRP", "VBP", "DT", "JJ", "JJ", "NN", "IN", "RB", "DT", "JJ", "CD", "."]
+    text: 'By_and_large, Robert_McEnroe''s adaptation of Maurice_Walsh''s film, "The Quiet Man", provides the entertainment it set_out to, and we have a lively musical show if not a superlative one.
 
   '
-    tokens: [[0, 12], [12, 13], [14, 28], [28, 30], [31, 41], [42, 44], [45, 58], [58, 60], [61, 65], [65, 66], [67, 68], [68, 71], [72, 77], [78, 81], [81, 82], [82, 83], [84, 92], [93, 96], [97, 110], [111, 113], [114, 121], [122, 124], [124, 125], [126, 129], [130, 132], [133, 137], [138, 139], [140, 146], [147, 154], [155, 159], [160, 166], [167, 168], [169, 180], [181, 184], [184, 185]]
+    tokens: [[0, 12], [12, 13], [14, 28], [28, 30], [31, 41], [42, 44], [45, 58], [58, 60], [61, 65], [65, 66], [67, 68], [68, 71], [72, 77], [78, 81], [81, 82], [82, 83], [84, 92], [93, 96], [97, 110], [111, 113], [114, 121], [122, 124], [124, 125], [126, 129], [130, 132], [133, 137], [138, 139], [140, 146], [147, 154], [155, 159], [160, 162], [163, 166], [167, 168], [169, 180], [181, 184], [184, 185]]
     wn16_key: [[16, "provide%2:40:00::"], [20, "set_out%2:30:00::"], [25, "have%2:40:00::"]]
     wn30_key: [[16, "provide%2:40:00::"], [20, "set_out%2:30:00::"], [25, "have%2:40:00::"]]
 xr9G:
@@ -645,17 +640,16 @@ Ybx8:
     wn16_key: [[2, "be%2:42:04::"], [8, "play%2:36:02::"], [15, "be%2:42:03::"], [27, "put%2:35:05::"], [40, "be%2:42:03::"]]
     wn30_key: [[2, "be%2:42:04::"], [8, "play%2:36:02::"], [15, "be%2:42:03::"], [27, "put%2:35:05::"], [40, "be%2:42:03::"]]
 0P1O:
-    lemmas: ["And", "in", "the", "role", "of", "Will", "Danaher", ",", "philip_bosco", "roar", "and", "sneer", "sufficiently", "to", "intimidate", "not_only", "one", "american", "but", "the", "whole", "british", "army", ",", "if", "he", "choose", "."]
-    oewn_key: [[9, "oewn-01048804-v"], [11, "oewn-00032771-v"], [14, "oewn-01784999-v"], [26, "oewn-00681856-v"]]
+    lemmas: ["And", "in", "the", "role", "of", "Will", "Danaher", ",", "philip_bosco", "roar", "and", "sneer", "sufficiently", "to", "intimidate", "not", "only", "one", "american", "but", "the", "whole", "british", "army", ",", "if", "he", "choose", "."]
+    oewn_key: [[9, "oewn-01048804-v"], [11, "oewn-00032771-v"], [14, "oewn-01784999-v"], [27, "oewn-00681856-v"]]
     paragraph: '22'
-    pos: ["CC", "IN", "DT", "NN", "IN", "MD", "NNP", ",", "NNP", "VBZ", "CC", "VBZ", "RB", "TO", "VB", "RB", "CD", "NNP", "CC", "DT", "JJ", "JJ", "NN", ",", "IN", "PRP", "VBD", "."]
-    text: 'And in the role of Will Danaher, Philip_Bosco roars and sneers sufficiently to intimidate
-  not_only one American but the whole British army, if he chose.
+    pos: ["CC", "IN", "DT", "NN", "IN", "MD", "NNP", ",", "NNP", "VBZ", "CC", "VBZ", "RB", "TO", "VB", "RB", "RB", "CD", "NNP", "CC", "DT", "JJ", "JJ", "NN", ",", "IN", "PRP", "VBD", "."]
+    text: 'And in the role of Will Danaher, Philip_Bosco roars and sneers sufficiently to intimidate not only one American but the whole British army, if he chose.
 
   '
-    tokens: [[0, 3], [4, 6], [7, 10], [11, 15], [16, 18], [19, 23], [24, 31], [31, 32], [33, 45], [46, 51], [52, 55], [56, 62], [63, 75], [76, 78], [79, 89], [90, 98], [99, 102], [103, 111], [112, 115], [116, 119], [120, 125], [126, 133], [134, 138], [138, 139], [140, 142], [143, 145], [146, 151], [151, 152]]
-    wn16_key: [[9, "roar%2:32:02::"], [11, "sneer%2:29:01::"], [14, "intimidate%2:37:00::"], [26, "choose%2:31:01::"]]
-    wn30_key: [[9, "roar%2:32:02::"], [11, "sneer%2:29:01::"], [14, "intimidate%2:37:00::"], [26, "choose%2:31:01::"]]
+    tokens: [[0, 3], [4, 6], [7, 10], [11, 15], [16, 18], [19, 23], [24, 31], [31, 32], [33, 45], [46, 51], [52, 55], [56, 62], [63, 75], [76, 78], [79, 89], [90, 93], [94, 98], [99, 102], [103, 111], [112, 115], [116, 119], [120, 125], [126, 133], [134, 138], [138, 139], [140, 142], [143, 145], [146, 151], [151, 152]]
+    wn16_key: [[9, "roar%2:32:02::"], [11, "sneer%2:29:01::"], [14, "intimidate%2:37:00::"], [27, "choose%2:31:01::"]]
+    wn30_key: [[9, "roar%2:32:02::"], [11, "sneer%2:29:01::"], [14, "intimidate%2:37:00::"], [27, "choose%2:31:01::"]]
 i7Qi:
     lemmas: ["\"", "Donnybrook", "\"", "be", "no", "\"", "Brigadoon", "\"", ",", "but", "it", "do", "have", "some", "very", "nice", "romantic", "background", "touch", "and", "some", "excellent", "dancing", "."]
     oewn_key: [[3, "oewn-02610777-v"], [12, "oewn-02636270-v"]]
@@ -676,12 +670,12 @@ i7Qi:
     wn16_key: [[2, "be%2:42:03::"]]
     wn30_key: [[2, "be%2:42:03::"]]
 +aOX:
-    lemmas: ["It", "sometimes", "threaten", "to", "linger", "in", "the", "memory", "after", "the", "final", "curtain", ",", "and", "some", "of_it", ",", "such_as", "the", "catchy", "\"", "Sez", "I", "\"", ",", "do", "."]
+    lemmas: ["It", "sometimes", "threaten", "to", "linger", "in", "the", "memory", "after", "the", "final", "curtain", ",", "and", "some", "of", "it", ",", "such", "as", "the", "catchy", "\"", "Sez", "I", "\"", ",", "do", "."]
     oewn_key: [[2, "oewn-00873444-v"], [4, "oewn-02015412-v"]]
     paragraph: '23'
-    pos: ["PRP", "RB", "VBZ", "TO", "VB", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", ",", "CC", "DT", "RB", ",", "JJ", "DT", "JJ", "``", "NNP", "PRP", "``", ",", "VBZ", "."]
-    text: 'It sometimes threatens to linger in the memory after the final curtain, and some of_it, such_as the catchy "Sez I", does.'
-    tokens: [[0, 2], [3, 12], [13, 22], [23, 25], [26, 32], [33, 35], [36, 39], [40, 46], [47, 52], [53, 56], [57, 62], [63, 70], [70, 71], [72, 75], [76, 80], [81, 86], [86, 87], [88, 95], [96, 99], [100, 106], [107, 108], [108, 111], [112, 113], [113, 114], [114, 115], [116, 120], [120, 121]]
+    pos: ["PRP", "RB", "VBZ", "TO", "VB", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", ",", "CC", "DT", "IN", "PRP", ",", "JJ", "IN", "DT", "JJ", "``", "NNP", "PRP", "``", ",", "VBZ", "."]
+    text: 'It sometimes threatens to linger in the memory after the final curtain, and some of it, such as the catchy "Sez I", does.'
+    tokens: [[0, 2], [3, 12], [13, 22], [23, 25], [26, 32], [33, 35], [36, 39], [40, 46], [47, 52], [53, 56], [57, 62], [63, 70], [70, 71], [72, 75], [76, 80], [81, 83], [84, 86], [86, 87], [88, 92], [93, 95], [96, 99], [100, 106], [107, 108], [108, 111], [112, 113], [113, 114], [114, 115], [116, 120], [120, 121]]
     wn16_key: [[2, "threaten%2:32:01::"], [4, "linger%2:38:01::"]]
     wn30_key: [[2, "threaten%2:32:01::"], [4, "linger%2:38:01::"]]
 dwU2:

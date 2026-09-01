@@ -347,17 +347,16 @@ YRln:
     wn16_key: [[3, "busy%3:00:00::"], [4, "life%1:26:02::"], [7, "only%4:02:02::"], [8, "do%2:41:04::;do%2:41:01::"], [9, "thing%1:04:00::"], [14, "do%2:41:04::;do%2:41:01::"]]
     wn30_key: [[3, "busy%3:00:00::"], [4, "life%1:26:02::"], [7, "only%4:02:02::"], [8, "do%2:41:04::;do%2:41:01::"], [9, "thing%1:04:00::"], [14, "do%2:41:04::;do%2:41:01::"]]
 1GRZ:
-    lemmas: ["This", "habit", "have", "become", "so", "fixed", "over", "the", "year", "that", "it", "seem", "futile", "to", "do", "anything", "for", "which", "no_one", "be", "wait", "."]
-    oewn_key: [[1, "oewn-00415192-n"], [3, "oewn-00149403-v"], [4, "oewn-00147630-r"], [5, "oewn-00348809-s"], [8, "oewn-15226340-n"], [11, "oewn-02137900-v"], [12, "oewn-01872762-s"], [14, "oewn-02567910-v;oewn-02566500-v"], [20, "oewn-00721987-v"]]
+    lemmas: ["This", "habit", "have", "become", "so", "fixed", "over", "the", "year", "that", "it", "seem", "futile", "to", "do", "anything", "for", "which", "no", "one", "be", "wait", "."]
+    oewn_key: [[1, "oewn-00415192-n"], [3, "oewn-00149403-v"], [4, "oewn-00147630-r"], [5, "oewn-00348809-s"], [8, "oewn-15226340-n"], [11, "oewn-02137900-v"], [12, "oewn-01872762-s"], [14, "oewn-02567910-v;oewn-02566500-v"], [21, "oewn-00721987-v"]]
     paragraph: '8'
-    pos: ["DT", "NN", "VBD", "VBN", "RB", "JJ", "IN", "DT", "NNS", "IN", "PRP", "VBD", "JJ", "TO", "VB", "NN", "IN", "WDT", "NN", "VB", "VBG", "."]
-    text: 'This habit had become so fixed over the years that it seemed futile to do anything
-  for which no_one was waiting.
+    pos: ["DT", "NN", "VBD", "VBN", "RB", "JJ", "IN", "DT", "NNS", "IN", "PRP", "VBD", "JJ", "TO", "VB", "NN", "IN", "WDT", "DT", "NN", "VB", "VBG", "."]
+    text: 'This habit had become so fixed over the years that it seemed futile to do anything for which no one was waiting.
 
   '
-    tokens: [[0, 4], [5, 10], [11, 14], [15, 21], [22, 24], [25, 30], [31, 35], [36, 39], [40, 45], [46, 50], [51, 53], [54, 60], [61, 67], [68, 70], [71, 73], [74, 82], [83, 86], [87, 92], [93, 99], [100, 103], [104, 111], [111, 112]]
-    wn16_key: [[1, "habit%1:04:02::"], [3, "become%2:30:00::"], [4, "so%4:02:02::"], [5, "fixed%5:00:00:unchangeable:00"], [8, "year%1:28:00::"], [11, "seem%2:39:00::"], [12, "futile%5:00:00:unproductive:00"], [14, "do%2:41:04::;do%2:41:01::"], [20, "wait%2:31:00::"]]
-    wn30_key: [[1, "habit%1:04:02::"], [3, "become%2:30:00::"], [4, "so%4:02:02::"], [5, "fixed%3:00:00:unchangeable:00"], [8, "year%1:28:00::"], [11, "seem%2:39:00::"], [12, "futile%3:00:00:unproductive:00"], [14, "do%2:41:04::;do%2:41:01::"], [20, "wait%2:31:00::"]]
+    tokens: [[0, 4], [5, 10], [11, 14], [15, 21], [22, 24], [25, 30], [31, 35], [36, 39], [40, 45], [46, 50], [51, 53], [54, 60], [61, 67], [68, 70], [71, 73], [74, 82], [83, 86], [87, 92], [93, 95], [96, 99], [100, 103], [104, 111], [111, 112]]
+    wn16_key: [[1, "habit%1:04:02::"], [3, "become%2:30:00::"], [4, "so%4:02:02::"], [5, "fixed%5:00:00:unchangeable:00"], [8, "year%1:28:00::"], [11, "seem%2:39:00::"], [12, "futile%5:00:00:unproductive:00"], [14, "do%2:41:04::;do%2:41:01::"], [21, "wait%2:31:00::"]]
+    wn30_key: [[1, "habit%1:04:02::"], [3, "become%2:30:00::"], [4, "so%4:02:02::"], [5, "fixed%3:00:00:unchangeable:00"], [8, "year%1:28:00::"], [11, "seem%2:39:00::"], [12, "futile%3:00:00:unproductive:00"], [14, "do%2:41:04::;do%2:41:01::"], [21, "wait%2:31:00::"]]
 SDnl:
     lemmas: ["He", "look", "at", "the", "luminous", "dial", "of", "his", "wrist_watch", "."]
     oewn_key: [[1, "oewn-02134989-v"], [4, "oewn-00280198-s"], [5, "oewn-03191380-n"], [8, "oewn-04615227-n"]]
@@ -967,12 +966,12 @@ pvNe:
     wn16_key: [[3, "look%2:39:01::"], [4, "very%4:02:00::"], [5, "efficient%3:00:00::"], [7, "shipshape%5:00:00:tidy:00"]]
     wn30_key: [[3, "look%2:39:01::"], [4, "very%4:02:00::"], [5, "efficient%3:00:00::"], [7, "shipshape%3:00:00:tidy:00"]]
 WW98:
-    lemmas: ["There", "be", "no", "question", "of_that", "."]
+    lemmas: ["There", "be", "no", "question", "of", "that", "."]
     oewn_key: [[3, "oewn-04764777-n"]]
     paragraph: '22'
-    pos: ["EX", "VB", "DT", "NN", "RB", "."]
-    text: 'There was no question of_that.'
-    tokens: [[0, 5], [6, 9], [10, 12], [13, 21], [22, 29], [29, 30]]
+    pos: ["EX", "VB", "DT", "NN", "IN", "DT", "."]
+    text: 'There was no question of that.'
+    tokens: [[0, 5], [6, 9], [10, 12], [13, 21], [22, 24], [25, 29], [29, 30]]
     wn16_key: [[3, "question%1:07:00::"]]
     wn30_key: [[3, "question%1:07:00::"]]
 +7tu:
@@ -1026,14 +1025,14 @@ SfSt:
     wn16_key: [[0, "instead%4:02:01::"], [3, "depress%2:37:00::"], [6, "news%1:10:00::"], [8, "person%1:03:00::"], [9, "be%2:42:03::"], [10, "actually%4:02:01::"], [11, "relieved%5:00:00:mitigated:00"]]
     wn30_key: [[0, "instead%4:02:01::"], [3, "depress%2:37:00::"], [6, "news%1:10:00::"], [8, "person%1:03:00::"], [9, "be%2:42:03::"], [10, "actually%4:02:01::"], [11, "relieved%3:00:00:mitigated:00"]]
 pIAK:
-    lemmas: ["at_least", "the", "moment", "be", "postponed", "when", "he", "had_to", "face", "the", "mystery", "of", "the", "power_tool", "."]
-    oewn_key: [[0, "oewn-00105348-r"], [2, "oewn-15269461-n"], [3, "oewn-02610777-v"], [8, "oewn-01081176-v"], [10, "oewn-05693343-n"], [13, "oewn-04003842-n"]]
+    lemmas: ["at_least", "the", "moment", "be", "postponed", "when", "he", "had", "to", "face", "the", "mystery", "of", "the", "power_tool", "."]
+    oewn_key: [[0, "oewn-00105348-r"], [2, "oewn-15269461-n"], [3, "oewn-02610777-v"], [9, "oewn-01081176-v"], [11, "oewn-05693343-n"], [14, "oewn-04003842-n"]]
     paragraph: '23'
-    pos: ["RB", "DT", "NN", "VBD", "JJ", "WRB", "PRP", "TO", "VBP", "DT", "NN", "IN", "DT", "NNS", "."]
-    text: 'At_least the moment was postponed when he had_to face the mystery of the power_tools.'
-    tokens: [[0, 8], [9, 12], [13, 19], [20, 23], [24, 33], [34, 38], [39, 41], [42, 48], [49, 53], [54, 57], [58, 65], [66, 68], [69, 72], [73, 84], [84, 85]]
-    wn16_key: [[0, "at_least%4:02:01::"], [2, "moment%1:28:00::"], [3, "be%2:42:03::"], [4, "postponed%5:00:00:delayed:00"], [8, "face%2:33:00::"], [10, "mystery%1:09:00::"], [13, "power_tool%1:06:00::"]]
-    wn30_key: [[0, "at_least%4:02:01::"], [2, "moment%1:28:00::"], [3, "be%2:42:03::"], [8, "face%2:33:00::"], [10, "mystery%1:09:00::"], [13, "power_tool%1:06:00::"]]
+    pos: ["RB", "DT", "NN", "VBD", "JJ", "WRB", "PRP", "VBD", "TO", "VBP", "DT", "NN", "IN", "DT", "NNS", "."]
+    text: 'At_least the moment was postponed when he had to face the mystery of the power_tools.'
+    tokens: [[0, 8], [9, 12], [13, 19], [20, 23], [24, 33], [34, 38], [39, 41], [42, 45], [46, 48], [49, 53], [54, 57], [58, 65], [66, 68], [69, 72], [73, 84], [84, 85]]
+    wn16_key: [[0, "at_least%4:02:01::"], [2, "moment%1:28:00::"], [3, "be%2:42:03::"], [4, "postponed%5:00:00:delayed:00"], [9, "face%2:33:00::"], [11, "mystery%1:09:00::"], [14, "power_tool%1:06:00::"]]
+    wn30_key: [[0, "at_least%4:02:01::"], [2, "moment%1:28:00::"], [3, "be%2:42:03::"], [9, "face%2:33:00::"], [11, "mystery%1:09:00::"], [14, "power_tool%1:06:00::"]]
 m/Nk:
     lemmas: ["He", "follow", "person", "up", "the", "cellar", "stairs", "."]
     oewn_key: [[1, "oewn-02002464-v"], [2, "oewn-00007846-n"], [5, "oewn-02803656-n"], [6, "oewn-04305309-n"]]

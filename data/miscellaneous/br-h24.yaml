@@ -825,14 +825,14 @@ SmuL:
     wn16_key: [[0, "sick_pay%1:21:00::"], [3, "include%2:42:00::"], [6, "gross%3:00:00::"], [7, "income%1:21:00::"], [10, "deduct%2:31:01::"], [12, "arrive%2:38:00::"]]
     wn30_key: [[0, "sick_pay%1:21:00::"], [3, "include%2:42:00::"], [6, "gross%3:00:00::"], [7, "income%1:21:00::"], [10, "deduct%2:31:01::"], [12, "arrive%2:38:00::"]]
 IMiN:
-    lemmas: ["If", "your", "sick_pay", "be", "not", "include", "in", "your", "gross", "income", ",", "you", "may_not", "deduct", "it", "."]
-    oewn_key: [[2, "oewn-13301818-n"], [4, "oewn-00024432-r"], [5, "oewn-02639021-v"], [8, "oewn-01587229-a"], [9, "oewn-13276044-n"], [13, "oewn-00642914-v"]]
+    lemmas: ["If", "your", "sick_pay", "be", "not", "include", "in", "your", "gross", "income", ",", "you", "may", "not", "deduct", "it", "."]
+    oewn_key: [[2, "oewn-13301818-n"], [4, "oewn-00024432-r"], [5, "oewn-02639021-v"], [8, "oewn-01587229-a"], [9, "oewn-13276044-n"], [14, "oewn-00642914-v"]]
     paragraph: '29'
-    pos: ["IN", "PRP$", "NN", "VBZ", "RB", "VBN", "IN", "PRP$", "JJ", "NNP", ",", "PRP", "VB", "VB", "PRP", "."]
-    text: 'If your sick_pay is not included in your Gross Income, you may_not deduct it.'
-    tokens: [[0, 2], [3, 7], [8, 16], [17, 19], [20, 23], [24, 32], [33, 35], [36, 40], [41, 46], [47, 53], [53, 54], [55, 58], [59, 66], [67, 73], [74, 76], [76, 77]]
-    wn16_key: [[2, "sick_pay%1:21:00::"], [4, "not%4:02:00::"], [5, "include%2:42:00::"], [8, "gross%3:00:00::"], [9, "income%1:21:00::"], [13, "deduct%2:31:01::"]]
-    wn30_key: [[2, "sick_pay%1:21:00::"], [4, "not%4:02:00::"], [5, "include%2:42:00::"], [8, "gross%3:00:00::"], [9, "income%1:21:00::"], [13, "deduct%2:31:01::"]]
+    pos: ["IN", "PRP$", "NN", "VBZ", "RB", "VBN", "IN", "PRP$", "JJ", "NNP", ",", "PRP", "MD", "RB", "VB", "PRP", "."]
+    text: 'If your sick_pay is not included in your Gross Income, you may not deduct it.'
+    tokens: [[0, 2], [3, 7], [8, 16], [17, 19], [20, 23], [24, 32], [33, 35], [36, 40], [41, 46], [47, 53], [53, 54], [55, 58], [59, 62], [63, 66], [67, 73], [74, 76], [76, 77]]
+    wn16_key: [[2, "sick_pay%1:21:00::"], [4, "not%4:02:00::"], [5, "include%2:42:00::"], [8, "gross%3:00:00::"], [9, "income%1:21:00::"], [14, "deduct%2:31:01::"]]
+    wn30_key: [[2, "sick_pay%1:21:00::"], [4, "not%4:02:00::"], [5, "include%2:42:00::"], [8, "gross%3:00:00::"], [9, "income%1:21:00::"], [14, "deduct%2:31:01::"]]
 873b:
     lemmas: ["(", "see", "chapter", "9", ".", ")"]
     oewn_key: [[2, "oewn-06407785-n"], [3, "oewn-13767410-n"]]
@@ -927,15 +927,14 @@ B9W4:
     wn16_key: [[3, "claim%2:32:02::"], [4, "only%4:02:01::"], [6, "itemize%2:32:00::"], [9, "page%1:10:00::"], [10, "2%5:00:00:cardinal:00"]]
     wn30_key: [[3, "claim%2:32:02::"], [4, "only%4:02:01::"], [6, "itemize%2:32:00::"], [9, "page%1:10:00::"], [10, "2%3:00:00:cardinal:00"]]
 rQms:
-    lemmas: ["These", "deduction", "may_not", "be", "claim", "if", "you", "elect", "to", "use", "the", "standard", "deduction", "or", "tax", "table", "."]
-    oewn_key: [[1, "oewn-13350069-n"], [4, "oewn-01020361-v"], [7, "oewn-00678783-v"], [9, "oewn-01161188-v"], [11, "oewn-02303673-a"], [12, "oewn-13350069-n"], [14, "oewn-13330021-n"], [15, "oewn-08283156-n"]]
+    lemmas: ["These", "deduction", "may", "not", "be", "claim", "if", "you", "elect", "to", "use", "the", "standard", "deduction", "or", "tax", "table", "."]
+    oewn_key: [[1, "oewn-13350069-n"], [5, "oewn-01020361-v"], [8, "oewn-00678783-v"], [10, "oewn-01161188-v"], [12, "oewn-02303673-a"], [13, "oewn-13350069-n"], [15, "oewn-13330021-n"], [16, "oewn-08283156-n"]]
     paragraph: '33'
-    pos: ["DT", "NNS", "VB", "VB", "VBN", "IN", "PRP", "VBP", "TO", "VB", "DT", "JJ", "NN", "CC", "NN", "NNP", "."]
-    text: 'These deductions may_not be claimed if you elect to use the Standard Deduction or
-  tax Table.'
-    tokens: [[0, 5], [6, 16], [17, 24], [25, 27], [28, 35], [36, 38], [39, 42], [43, 48], [49, 51], [52, 55], [56, 59], [60, 68], [69, 78], [79, 81], [82, 85], [86, 91], [91, 92]]
-    wn16_key: [[1, "deduction%1:21:01::"], [4, "claim%2:32:02::"], [7, "elect%2:31:00::"], [9, "use%2:34:01::"], [11, "standard%3:00:02::"], [12, "deduction%1:21:01::"], [14, "tax%1:21:00::"], [15, "table%1:14:00::"]]
-    wn30_key: [[1, "deduction%1:21:01::"], [4, "claim%2:32:02::"], [7, "elect%2:31:00::"], [9, "use%2:34:01::"], [11, "standard%3:00:02::"], [12, "deduction%1:21:01::"], [14, "tax%1:21:00::"], [15, "table%1:14:00::"]]
+    pos: ["DT", "NNS", "MD", "RB", "VB", "VBN", "IN", "PRP", "VBP", "TO", "VB", "DT", "JJ", "NN", "CC", "NN", "NNP", "."]
+    text: 'These deductions may not be claimed if you elect to use the Standard Deduction or tax Table.'
+    tokens: [[0, 5], [6, 16], [17, 20], [21, 24], [25, 27], [28, 35], [36, 38], [39, 42], [43, 48], [49, 51], [52, 55], [56, 59], [60, 68], [69, 78], [79, 81], [82, 85], [86, 91], [91, 92]]
+    wn16_key: [[1, "deduction%1:21:01::"], [5, "claim%2:32:02::"], [8, "elect%2:31:00::"], [10, "use%2:34:01::"], [12, "standard%3:00:02::"], [13, "deduction%1:21:01::"], [15, "tax%1:21:00::"], [16, "table%1:14:00::"]]
+    wn30_key: [[1, "deduction%1:21:01::"], [5, "claim%2:32:02::"], [8, "elect%2:31:00::"], [10, "use%2:34:01::"], [12, "standard%3:00:02::"], [13, "deduction%1:21:01::"], [15, "tax%1:21:00::"], [16, "table%1:14:00::"]]
 XbsA:
     lemmas: ["(", "see", "chapter", "30", "through", "37", ".", ")"]
     oewn_key: [[2, "oewn-06407785-n"], [3, "oewn-13771547-n"]]

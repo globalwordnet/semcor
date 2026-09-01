@@ -27,15 +27,14 @@ _meta:
         base: tokens
         data: string
 n8CB:
-    lemmas: ["It", "be", "a", "fortunate", "time", "in_which", "to", "build", ",", "for", "the", "seventeenth", "century", "be", "a", "great", "period", "in", "persian", "art", "."]
-    oewn_key: [[1, "oewn-02610777-v"], [7, "oewn-01658171-v"], [13, "oewn-02610777-v"]]
+    lemmas: ["It", "be", "a", "fortunate", "time", "in", "which", "to", "build", ",", "for", "the", "seventeenth", "century", "be", "a", "great", "period", "in", "persian", "art", "."]
+    oewn_key: [[1, "oewn-02610777-v"], [8, "oewn-01658171-v"], [14, "oewn-02610777-v"]]
     paragraph: '0'
-    pos: ["PRP", "VBD", "DT", "JJ", "NN", "RB", "TO", "VB", ",", "IN", "DT", "JJ", "NN", "VBD", "DT", "JJ", "NN", "IN", "NNP", "NN", "."]
-    text: It was a fortunate time in_which to build, for the seventeenth century was a great
-      period in Persian art.
-    tokens: [[0, 2], [3, 6], [7, 8], [9, 18], [19, 23], [24, 32], [33, 35], [36, 41], [41, 42], [43, 46], [47, 50], [51, 62], [63, 70], [71, 74], [75, 76], [77, 82], [83, 89], [90, 92], [93, 100], [101, 104], [104, 105]]
-    wn16_key: [[1, "be%2:42:03::"], [7, "build%2:36:00::"], [13, "be%2:42:03::"]]
-    wn30_key: [[1, "be%2:42:03::"], [7, "build%2:36:00::"], [13, "be%2:42:03::"]]
+    pos: ["PRP", "VBD", "DT", "JJ", "NN", "IN", "WDT", "TO", "VB", ",", "IN", "DT", "JJ", "NN", "VBD", "DT", "JJ", "NN", "IN", "NNP", "NN", "."]
+    text: 'It was a fortunate time in which to build, for the seventeenth century was a great period in Persian art.'
+    tokens: [[0, 2], [3, 6], [7, 8], [9, 18], [19, 23], [24, 26], [27, 32], [33, 35], [36, 41], [41, 42], [43, 46], [47, 50], [51, 62], [63, 70], [71, 74], [75, 76], [77, 82], [83, 89], [90, 92], [93, 100], [101, 104], [104, 105]]
+    wn16_key: [[1, "be%2:42:03::"], [8, "build%2:36:00::"], [14, "be%2:42:03::"]]
+    wn30_key: [[1, "be%2:42:03::"], [8, "build%2:36:00::"], [14, "be%2:42:03::"]]
 haTW:
     lemmas: ["The", "architect", ",", "the", "tile", "and", "carpet", "maker", ",", "the", "potter", ",", "painter", ",", "calligrapher", ",", "and", "metalsmith", "work", "through", "abba", "'s", "reign", "and", "those", "of", "his", "successor", "to", "enrich", "the", "city", "."]
     oewn_key: [[18, "oewn-02418610-v"], [29, "oewn-00171599-v"]]
@@ -48,26 +47,23 @@ haTW:
     wn16_key: [[18, "work%2:41:02::"], [29, "enrich%2:30:00::"]]
     wn30_key: [[18, "work%2:41:02::"], [29, "enrich%2:30:00::"]]
 5kbq:
-    lemmas: ["traveler", "enter", "from", "the", "desert", "be", "confound", "by", "what", "must", "have", "seem", "an", "illusion", ":", "a", "great", "garden", "fill", "with", "nightingale", "and", "rose", ",", "cut", "by", "canal", "and", "terraced", "promenade", ",", "stud", "with", "water_tank", "of", "turquoise", "tile", "in_which", "be", "reflect", "the", "glistening", "blue", "curve", "of", "a_hundred", "dome", "."]
-    oewn_key: [[1, "oewn-02020375-v"], [6, "oewn-00623406-v"], [11, "oewn-02137900-v"], [18, "oewn-02655144-v"], [24, "oewn-01555301-v"], [31, "oewn-02695724-v"], [39, "oewn-02140736-v"]]
+    lemmas: ["traveler", "enter", "from", "the", "desert", "be", "confound", "by", "what", "must", "have", "seem", "an", "illusion", ":", "a", "great", "garden", "fill", "with", "nightingale", "and", "rose", ",", "cut", "by", "canal", "and", "terraced", "promenade", ",", "stud", "with", "water_tank", "of", "turquoise", "tile", "in", "which", "be", "reflect", "the", "glistening", "blue", "curve", "of", "a_hundred", "dome", "."]
+    oewn_key: [[1, "oewn-02020375-v"], [6, "oewn-00623406-v"], [11, "oewn-02137900-v"], [18, "oewn-02655144-v"], [24, "oewn-01555301-v"], [31, "oewn-02695724-v"], [40, "oewn-02140736-v"]]
     paragraph: '0'
-    pos: ["NNP", "VBG", "IN", "DT", "NN", "VBD", "VBN", "IN", "WP", "MD", "VB", "VBN", "DT", "NN", ":", "DT", "JJ", "NN", "VBN", "IN", "NNS", "CC", "NNS", ",", "VBN", "IN", "NNS", "CC", "JJ", "NNS", ",", "VBN", "IN", "NN", "IN", "JJ", "NN", "RB", "VBD", "VBN", "DT", "JJ", "JJ", "NNS", "IN", "JJ", "NNS", "."]
-    text: 'Travelers entering from the desert were confounded by what must have seemed an illusion:
-  a great garden filled with nightingales and roses, cut by canals and terraced promenades,
-  studded with water_tanks of turquoise tile in_which were reflected the glistening
-  blue curves of a_hundred domes.'
-    tokens: [[0, 9], [10, 18], [19, 23], [24, 27], [28, 34], [35, 39], [40, 50], [51, 53], [54, 58], [59, 63], [64, 68], [69, 75], [76, 78], [79, 87], [87, 88], [89, 90], [91, 96], [97, 103], [104, 110], [111, 115], [116, 128], [129, 132], [133, 138], [138, 139], [140, 143], [144, 146], [147, 153], [154, 157], [158, 166], [167, 177], [177, 178], [179, 186], [187, 191], [192, 203], [204, 206], [207, 216], [217, 221], [222, 230], [231, 235], [236, 245], [246, 249], [250, 260], [261, 265], [266, 272], [273, 275], [276, 285], [286, 291], [291, 292]]
-    wn16_key: [[1, "enter%2:38:00::"], [6, "confound%2:31:02::"], [11, "seem%2:39:00::"], [18, "fill%2:42:00::"], [24, "cut%2:35:00::"], [31, "stud%2:42:00::"], [39, "reflect%2:39:00::"]]
-    wn30_key: [[1, "enter%2:38:00::"], [6, "confound%2:31:02::"], [11, "seem%2:39:00::"], [18, "fill%2:42:00::"], [24, "cut%2:35:00::"], [31, "stud%2:42:00::"], [39, "reflect%2:39:00::"]]
+    pos: ["NNP", "VBG", "IN", "DT", "NN", "VBD", "VBN", "IN", "WP", "MD", "VB", "VBN", "DT", "NN", ":", "DT", "JJ", "NN", "VBN", "IN", "NNS", "CC", "NNS", ",", "VBN", "IN", "NNS", "CC", "JJ", "NNS", ",", "VBN", "IN", "NN", "IN", "JJ", "NN", "IN", "WDT", "VBD", "VBN", "DT", "JJ", "JJ", "NNS", "IN", "JJ", "NNS", "."]
+    text: 'Travelers entering from the desert were confounded by what must have seemed an illusion: a great garden filled with nightingales and roses, cut by canals and terraced promenades, studded with water_tanks of turquoise tile in which were reflected the glistening blue curves of a_hundred domes.'
+    tokens: [[0, 9], [10, 18], [19, 23], [24, 27], [28, 34], [35, 39], [40, 50], [51, 53], [54, 58], [59, 63], [64, 68], [69, 75], [76, 78], [79, 87], [87, 88], [89, 90], [91, 96], [97, 103], [104, 110], [111, 115], [116, 128], [129, 132], [133, 138], [138, 139], [140, 143], [144, 146], [147, 153], [154, 157], [158, 166], [167, 177], [177, 178], [179, 186], [187, 191], [192, 203], [204, 206], [207, 216], [217, 221], [222, 224], [225, 230], [231, 235], [236, 245], [246, 249], [250, 260], [261, 265], [266, 272], [273, 275], [276, 285], [286, 291], [291, 292]]
+    wn16_key: [[1, "enter%2:38:00::"], [6, "confound%2:31:02::"], [11, "seem%2:39:00::"], [18, "fill%2:42:00::"], [24, "cut%2:35:00::"], [31, "stud%2:42:00::"], [40, "reflect%2:39:00::"]]
+    wn30_key: [[1, "enter%2:38:00::"], [6, "confound%2:31:02::"], [11, "seem%2:39:00::"], [18, "fill%2:42:00::"], [24, "cut%2:35:00::"], [31, "stud%2:42:00::"], [40, "reflect%2:39:00::"]]
 vfhQ:
-    lemmas: ["At", "the", "heart", "of", "all_of", "this", "be", "the", "square", ",", "which", "one", "such", "traveler", "declare", "to", "be", "\"", "as", "spacious", ",", "as", "pleasant", "and", "aromatick", "a", "market", "as", "any", "in", "the", "universe", "\"", "."]
-    oewn_key: [[6, "oewn-02661230-v"], [14, "oewn-00824028-v"], [16, "oewn-02610777-v"]]
+    lemmas: ["At", "the", "heart", "of", "all", "of", "this", "be", "the", "square", ",", "which", "one", "such", "traveler", "declare", "to", "be", "\"", "as", "spacious", ",", "as", "pleasant", "and", "aromatick", "a", "market", "as", "any", "in", "the", "universe", "\"", "."]
+    oewn_key: [[7, "oewn-02661230-v"], [15, "oewn-00824028-v"], [17, "oewn-02610777-v"]]
     paragraph: '0'
-    pos: ["IN", "DT", "NN", "IN", "JJ", "DT", "VBD", "DT", "NN", ",", "WDT", "CD", "JJ", "NN", "VBD", "VB", "VB", "''", "IN", "JJ", ",", "IN", "JJ", "CC", "JJ", "DT", "NNP", "IN", "DT", "IN", "DT", "NN", "''", "."]
-    text: 'At the heart of all_of this was the square, which one such traveler declared to be "as spacious, as pleasant and aromatick a Market as any in the Universe".'
-    tokens: [[0, 2], [3, 6], [7, 12], [13, 15], [16, 22], [23, 27], [28, 31], [32, 35], [36, 42], [42, 43], [44, 49], [50, 53], [54, 58], [59, 67], [68, 76], [77, 79], [80, 82], [83, 84], [84, 86], [87, 95], [95, 96], [97, 99], [100, 108], [109, 112], [113, 122], [123, 124], [125, 131], [132, 134], [135, 138], [139, 141], [142, 145], [146, 154], [154, 155], [155, 156]]
-    wn16_key: [[6, "be%2:42:05::"], [14, "declare%2:32:04::"], [16, "be%2:42:03::"]]
-    wn30_key: [[6, "be%2:42:05::"], [14, "declare%2:32:04::"], [16, "be%2:42:03::"]]
+    pos: ["IN", "DT", "NN", "IN", "PDT", "IN", "DT", "VBD", "DT", "NN", ",", "WDT", "CD", "JJ", "NN", "VBD", "VB", "VB", "''", "IN", "JJ", ",", "IN", "JJ", "CC", "JJ", "DT", "NNP", "IN", "DT", "IN", "DT", "NN", "''", "."]
+    text: 'At the heart of all of this was the square, which one such traveler declared to be "as spacious, as pleasant and aromatick a Market as any in the Universe".'
+    tokens: [[0, 2], [3, 6], [7, 12], [13, 15], [16, 19], [20, 22], [23, 27], [28, 31], [32, 35], [36, 42], [42, 43], [44, 49], [50, 53], [54, 58], [59, 67], [68, 76], [77, 79], [80, 82], [83, 84], [84, 86], [87, 95], [95, 96], [97, 99], [100, 108], [109, 112], [113, 122], [123, 124], [125, 131], [132, 134], [135, 138], [139, 141], [142, 145], [146, 154], [154, 155], [155, 156]]
+    wn16_key: [[7, "be%2:42:05::"], [15, "declare%2:32:04::"], [17, "be%2:42:03::"]]
+    wn30_key: [[7, "be%2:42:05::"], [15, "declare%2:32:04::"], [17, "be%2:42:03::"]]
 1cDc:
     lemmas: ["in_time", "isfahan", "come", "to", "be", "known", "as", "\"", "half", "the", "world", "\"", ",", "isfahan_nisf-i-jahan", "."]
     oewn_key: [[2, "oewn-00543200-v"], [4, "oewn-02610777-v"]]
@@ -100,47 +96,43 @@ FakR:
     wn16_key: [[2, "invade%2:33:00::"], [6, "fall%2:41:00::"], [12, "go%2:30:04::"], [17, "encroach%2:38:00::"]]
     wn30_key: [[2, "invade%2:33:00::"], [6, "fall%2:41:00::"], [12, "go%2:30:04::"], [17, "encroach%2:38:00::"]]
 mNKU:
-    lemmas: ["isfahan", "become", "more", "of", "a", "legend", "than", "a", "place", ",", "and", "now", "it", "be", "for", "many", "people", "simply", "a", "name", "to_which", "they", "attach", "their", "notion", "of", "old", "persia", "and", "sometimes", "of", "the", "east", "."]
-    oewn_key: [[1, "oewn-02632685-v"], [13, "oewn-02610777-v"], [22, "oewn-01293025-v"]]
+    lemmas: ["isfahan", "become", "more", "of", "a", "legend", "than", "a", "place", ",", "and", "now", "it", "be", "for", "many", "people", "simply", "a", "name", "to", "which", "they", "attach", "their", "notion", "of", "old", "persia", "and", "sometimes", "of", "the", "east", "."]
+    oewn_key: [[1, "oewn-02632685-v"], [13, "oewn-02610777-v"], [23, "oewn-01293025-v"]]
     paragraph: '1'
-    pos: ["NNP", "VBD", "JJR", "IN", "DT", "NN", "IN", "DT", "NN", ",", "CC", "RB", "PRP", "VBZ", "IN", "JJ", "NNS", "RB", "DT", "NN", "RB", "PRP", "VBP", "PRP$", "NNS", "IN", "JJ", "NNP", "CC", "RB", "IN", "DT", "NNP", "."]
-    text: 'Isfahan became more of a legend than a place, and now it is for many people simply
-  a name to_which they attach their notions of old Persia and sometimes of the East.'
-    tokens: [[0, 7], [8, 14], [15, 19], [20, 22], [23, 24], [25, 31], [32, 36], [37, 38], [39, 44], [44, 45], [46, 49], [50, 53], [54, 56], [57, 59], [60, 63], [64, 68], [69, 75], [76, 82], [83, 84], [85, 89], [90, 98], [99, 103], [104, 110], [111, 116], [117, 124], [125, 127], [128, 131], [132, 138], [139, 142], [143, 152], [153, 155], [156, 159], [160, 164], [164, 165]]
-    wn16_key: [[1, "become%2:42:01::"], [13, "be%2:42:03::"], [22, "attach%2:35:00::"]]
-    wn30_key: [[1, "become%2:42:01::"], [13, "be%2:42:03::"], [22, "attach%2:35:00::"]]
+    pos: ["NNP", "VBD", "JJR", "IN", "DT", "NN", "IN", "DT", "NN", ",", "CC", "RB", "PRP", "VBZ", "IN", "JJ", "NNS", "RB", "DT", "NN", "IN", "WDT", "PRP", "VBP", "PRP$", "NNS", "IN", "JJ", "NNP", "CC", "RB", "IN", "DT", "NNP", "."]
+    text: 'Isfahan became more of a legend than a place, and now it is for many people simply a name to which they attach their notions of old Persia and sometimes of the East.'
+    tokens: [[0, 7], [8, 14], [15, 19], [20, 22], [23, 24], [25, 31], [32, 36], [37, 38], [39, 44], [44, 45], [46, 49], [50, 53], [54, 56], [57, 59], [60, 63], [64, 68], [69, 75], [76, 82], [83, 84], [85, 89], [90, 92], [93, 98], [99, 103], [104, 110], [111, 116], [117, 124], [125, 127], [128, 131], [132, 138], [139, 142], [143, 152], [153, 155], [156, 159], [160, 164], [164, 165]]
+    wn16_key: [[1, "become%2:42:01::"], [13, "be%2:42:03::"], [23, "attach%2:35:00::"]]
+    wn30_key: [[1, "become%2:42:01::"], [13, "be%2:42:03::"], [23, "attach%2:35:00::"]]
 6QGi:
-    lemmas: ["They", "think_of", "it", "as", "a", "kind_of", "spooky", "museum", "in_which", "they", "may", "half", "see", "and", "half", "imagine", "the", "old", "splendor", "."]
-    oewn_key: [[1, "oewn-00691692-v"], [12, "oewn-02133754-v"], [15, "oewn-01639939-v"]]
+    lemmas: ["They", "think_of", "it", "as", "a", "kind_of", "spooky", "museum", "in", "which", "they", "may", "half", "see", "and", "half", "imagine", "the", "old", "splendor", "."]
+    oewn_key: [[1, "oewn-00691692-v"], [13, "oewn-02133754-v"], [16, "oewn-01639939-v"]]
     paragraph: '1'
-    pos: ["PRP", "VBP", "PRP", "IN", "DT", "RB", "JJ", "NN", "RB", "PRP", "MD", "JJ", "VB", "CC", "NN", "VBP", "DT", "JJ", "NN", "."]
-    text: 'They think_of it as a kind_of spooky museum in_which they may half see and half
-  imagine the old splendor.
+    pos: ["PRP", "VBP", "PRP", "IN", "DT", "RB", "JJ", "NN", "IN", "WDT", "PRP", "MD", "JJ", "VB", "CC", "NN", "VBP", "DT", "JJ", "NN", "."]
+    text: 'They think_of it as a kind_of spooky museum in which they may half see and half imagine the old splendor.
 
   '
-    tokens: [[0, 4], [5, 13], [14, 16], [17, 19], [20, 21], [22, 29], [30, 36], [37, 43], [44, 52], [53, 57], [58, 61], [62, 66], [67, 70], [71, 74], [75, 79], [80, 87], [88, 91], [92, 95], [96, 104], [104, 105]]
-    wn16_key: [[1, "think_of%2:31:01::"], [12, "see%2:39:00::"], [15, "imagine%2:36:00::"]]
-    wn30_key: [[1, "think_of%2:31:01::"], [12, "see%2:39:00::"], [15, "imagine%2:36:00::"]]
+    tokens: [[0, 4], [5, 13], [14, 16], [17, 19], [20, 21], [22, 29], [30, 36], [37, 43], [44, 46], [47, 52], [53, 57], [58, 61], [62, 66], [67, 70], [71, 74], [75, 79], [80, 87], [88, 91], [92, 95], [96, 104], [104, 105]]
+    wn16_key: [[1, "think_of%2:31:01::"], [13, "see%2:39:00::"], [16, "imagine%2:36:00::"]]
+    wn30_key: [[1, "think_of%2:31:01::"], [13, "see%2:39:00::"], [16, "imagine%2:36:00::"]]
 Palf:
-    lemmas: ["Those", "who", "actually", "get", "there", "find", "that", "it", "be", "n't", "spooky", "at_all", "but", "as", "brilliant", "as", "a", "tile", "in", "sunlight", "."]
+    lemmas: ["Those", "who", "actually", "get", "there", "find", "that", "it", "be", "n't", "spooky", "at", "all", "but", "as", "brilliant", "as", "a", "tile", "in", "sunlight", "."]
     oewn_key: [[3, "oewn-02009962-v"], [5, "oewn-02133338-v"], [8, "oewn-02610777-v"]]
     paragraph: '2'
-    pos: ["DT", "WP", "RB", "VBP", "RB", "VBP", "IN", "PRP", "VBZ", "RB", "JJ", "RB", "CC", "RB", "JJ", "IN", "DT", "NN", "IN", "NN", "."]
-    text: 'Those who actually get there find that it isn''t spooky at_all but as brilliant
-  as a tile in sunlight.'
-    tokens: [[0, 5], [6, 9], [10, 18], [19, 22], [23, 28], [29, 33], [34, 38], [39, 41], [42, 44], [44, 47], [48, 54], [55, 61], [62, 65], [66, 68], [69, 78], [79, 81], [82, 83], [84, 88], [89, 91], [92, 100], [100, 101]]
+    pos: ["DT", "WP", "RB", "VBP", "RB", "VBP", "IN", "PRP", "VBZ", "RB", "JJ", "IN", "PDT", "CC", "RB", "JJ", "IN", "DT", "NN", "IN", "NN", "."]
+    text: 'Those who actually get there find that it isn''t spooky at all but as brilliant as a tile in sunlight.'
+    tokens: [[0, 5], [6, 9], [10, 18], [19, 22], [23, 28], [29, 33], [34, 38], [39, 41], [42, 44], [44, 47], [48, 54], [55, 57], [58, 61], [62, 65], [66, 68], [69, 78], [79, 81], [82, 83], [84, 88], [89, 91], [92, 100], [100, 101]]
     wn16_key: [[3, "get%2:38:00::"], [5, "find%2:39:01::"], [8, "be%2:42:03::"]]
     wn30_key: [[3, "get%2:38:00::"], [5, "find%2:39:01::"], [8, "be%2:42:03::"]]
 tzNc:
-    lemmas: ["But", "even", "for", "them", "it", "remain", "a", "museum", ",", "or", "perhaps", "it", "would", "be", "more", "accurate", "to", "say", "a", "tomb", ",", "a", "tomb", "in_which", "persia", "lie", "well", "preserved", "but", "indeed", "dead", "."]
-    oewn_key: [[5, "oewn-00117793-v"], [13, "oewn-02610777-v"], [17, "oewn-01011267-v"], [25, "oewn-02740213-v"]]
+    lemmas: ["But", "even", "for", "them", "it", "remain", "a", "museum", ",", "or", "perhaps", "it", "would", "be", "more", "accurate", "to", "say", "a", "tomb", ",", "a", "tomb", "in", "which", "persia", "lie", "well", "preserved", "but", "indeed", "dead", "."]
+    oewn_key: [[5, "oewn-00117793-v"], [13, "oewn-02610777-v"], [17, "oewn-01011267-v"], [26, "oewn-02740213-v"]]
     paragraph: '2'
-    pos: ["CC", "RB", "IN", "PRP", "PRP", "VBZ", "DT", "NN", ",", "CC", "RB", "PRP", "MD", "VB", "RBR", "JJ", "TO", "VB", "DT", "NN", ",", "DT", "NN", "RB", "NNP", "VBZ", "RB", "JJ", "CC", "RB", "JJ", "."]
-    text: 'But even for them it remains a museum, or perhaps it would be more accurate to say
-  a tomb, a tomb in_which Persia lies well preserved but indeed dead.'
-    tokens: [[0, 3], [4, 8], [9, 12], [13, 17], [18, 20], [21, 28], [29, 30], [31, 37], [37, 38], [39, 41], [42, 49], [50, 52], [53, 58], [59, 61], [62, 66], [67, 75], [76, 78], [79, 82], [83, 84], [85, 89], [89, 90], [91, 92], [93, 97], [98, 106], [107, 113], [114, 118], [119, 123], [124, 133], [134, 137], [138, 144], [145, 149], [149, 150]]
-    wn16_key: [[5, "remain%2:30:00::"], [13, "be%2:42:03::"], [17, "say%2:32:00::"], [25, "lie%2:42:03::"]]
-    wn30_key: [[5, "remain%2:30:00::"], [13, "be%2:42:03::"], [17, "say%2:32:00::"], [25, "lie%2:42:03::"]]
+    pos: ["CC", "RB", "IN", "PRP", "PRP", "VBZ", "DT", "NN", ",", "CC", "RB", "PRP", "MD", "VB", "RBR", "JJ", "TO", "VB", "DT", "NN", ",", "DT", "NN", "IN", "WDT", "NNP", "VBZ", "RB", "JJ", "CC", "RB", "JJ", "."]
+    text: 'But even for them it remains a museum, or perhaps it would be more accurate to say a tomb, a tomb in which Persia lies well preserved but indeed dead.'
+    tokens: [[0, 3], [4, 8], [9, 12], [13, 17], [18, 20], [21, 28], [29, 30], [31, 37], [37, 38], [39, 41], [42, 49], [50, 52], [53, 58], [59, 61], [62, 66], [67, 75], [76, 78], [79, 82], [83, 84], [85, 89], [89, 90], [91, 92], [93, 97], [98, 100], [101, 106], [107, 113], [114, 118], [119, 123], [124, 133], [134, 137], [138, 144], [145, 149], [149, 150]]
+    wn16_key: [[5, "remain%2:30:00::"], [13, "be%2:42:03::"], [17, "say%2:32:00::"], [26, "lie%2:42:03::"]]
+    wn30_key: [[5, "remain%2:30:00::"], [13, "be%2:42:03::"], [17, "say%2:32:00::"], [26, "lie%2:42:03::"]]
 N6Ul:
     lemmas: ["Everyone", "be", "ready", "to", "grant", "the", "persian", "their", "history", ",", "but", "almost_no", "one", "be", "willing", "to", "acknowledge", "their", "present", "."]
     oewn_key: [[1, "oewn-02610777-v"], [4, "oewn-02260270-v"], [13, "oewn-02610777-v"], [16, "oewn-00818972-v"]]
@@ -173,26 +165,23 @@ M0lG:
     wn16_key: [[7, "be%2:42:06::"], [17, "survive%2:42:00::"]]
     wn30_key: [[7, "be%2:42:06::"], [17, "survive%2:42:00::"]]
 oq/Q:
-    lemmas: ["however", ",", "just_as", "all", "the", "building", "have", "not", "fall", "and", "flow", "back", "to", "their", "original", "mud", ",", "so", "the", "values", "which", "want", "them", "and", "see", "that", "they", "be_built", "have", "not", "all", "disappear", "."]
-    oewn_key: [[8, "oewn-02390295-v"], [10, "oewn-02070867-v"], [21, "oewn-01191258-v"], [24, "oewn-00664507-v"], [31, "oewn-00427911-v"]]
+    lemmas: ["however", ",", "just", "as", "all", "the", "building", "have", "not", "fall", "and", "flow", "back", "to", "their", "original", "mud", ",", "so", "the", "values", "which", "want", "them", "and", "see", "that", "they", "be_built", "have", "not", "all", "disappear", "."]
+    oewn_key: [[9, "oewn-02390295-v"], [11, "oewn-02070867-v"], [22, "oewn-01191258-v"], [25, "oewn-00664507-v"], [32, "oewn-00427911-v"]]
     paragraph: '3'
-    pos: ["RB", ",", "RB", "PDT", "DT", "NNS", "VBP", "RB", "VBN", "CC", "VBN", "RB", "TO", "PRP$", "JJ", "NN", ",", "RB", "DT", "NNS", "WDT", "VBD", "PRP", "CC", "VBD", "IN", "PRP", "VB", "VBP", "RB", "DT", "VBD", "."]
-    text: 'However, just_as all the buildings have not fallen and flowed back to their original
-  mud, so the values which wanted them and saw that they were_built have not all disappeared.'
-    tokens: [[0, 7], [7, 8], [9, 16], [17, 20], [21, 24], [25, 34], [35, 39], [40, 43], [44, 50], [51, 54], [55, 61], [62, 66], [67, 69], [70, 75], [76, 84], [85, 88], [88, 89], [90, 92], [93, 96], [97, 103], [104, 109], [110, 116], [117, 121], [122, 125], [126, 129], [130, 134], [135, 139], [140, 150], [151, 155], [156, 159], [160, 163], [164, 175], [175, 176]]
-    wn16_key: [[8, "fall%2:41:00::"], [10, "flow%2:38:00::"], [21, "want%2:34:00::"], [24, "see%2:31:03::"], [31, "disappear%2:30:00::"]]
-    wn30_key: [[8, "fall%2:41:00::"], [10, "flow%2:38:00::"], [21, "want%2:34:00::"], [24, "see%2:31:03::"], [31, "disappear%2:30:00::"]]
+    pos: ["RB", ",", "RB", "IN", "PDT", "DT", "NNS", "VBP", "RB", "VBN", "CC", "VBN", "RB", "TO", "PRP$", "JJ", "NN", ",", "RB", "DT", "NNS", "WDT", "VBD", "PRP", "CC", "VBD", "IN", "PRP", "VB", "VBP", "RB", "DT", "VBD", "."]
+    text: 'However, just as all the buildings have not fallen and flowed back to their original mud, so the values which wanted them and saw that they were_built have not all disappeared.'
+    tokens: [[0, 7], [7, 8], [9, 13], [14, 16], [17, 20], [21, 24], [25, 34], [35, 39], [40, 43], [44, 50], [51, 54], [55, 61], [62, 66], [67, 69], [70, 75], [76, 84], [85, 88], [88, 89], [90, 92], [93, 96], [97, 103], [104, 109], [110, 116], [117, 121], [122, 125], [126, 129], [130, 134], [135, 139], [140, 150], [151, 155], [156, 159], [160, 163], [164, 175], [175, 176]]
+    wn16_key: [[9, "fall%2:41:00::"], [11, "flow%2:38:00::"], [22, "want%2:34:00::"], [25, "see%2:31:03::"], [32, "disappear%2:30:00::"]]
+    wn30_key: [[9, "fall%2:41:00::"], [11, "flow%2:38:00::"], [22, "want%2:34:00::"], [25, "see%2:31:03::"], [32, "disappear%2:30:00::"]]
 /oWn:
-    lemmas: ["The", "values", "and", "talent", "which", "make", "the", "tile", "and", "the", "dome", ",", "the", "rug", ",", "the", "poem", "and", "the", "miniature", ",", "continue", "in", "certain", "social", "institution", "which", "rise", "above", "the", "ordinary", "life", "of_this", "city", ",", "as", "the", "great", "building", "rise", "above", "blank", "wall", "and", "dirty", "lane", "."]
-    oewn_key: [[5, "oewn-01624592-v"], [21, "oewn-02690747-v"], [27, "oewn-02702643-v"], [39, "oewn-02702643-v"]]
+    lemmas: ["The", "values", "and", "talent", "which", "make", "the", "tile", "and", "the", "dome", ",", "the", "rug", ",", "the", "poem", "and", "the", "miniature", ",", "continue", "in", "certain", "social", "institution", "which", "rise", "above", "the", "ordinary", "life", "of", "this", "city", ",", "as", "the", "great", "building", "rise", "above", "blank", "wall", "and", "dirty", "lane", "."]
+    oewn_key: [[5, "oewn-01624592-v"], [21, "oewn-02690747-v"], [27, "oewn-02702643-v"], [40, "oewn-02702643-v"]]
     paragraph: '3'
-    pos: ["DT", "NNS", "CC", "NNS", "WDT", "VBD", "DT", "NN", "CC", "DT", "NN", ",", "DT", "NN", ",", "DT", "NN", "CC", "DT", "JJ", ",", "VBP", "IN", "JJ", "JJ", "NNS", "WDT", "VBP", "IN", "DT", "JJ", "NN", "RB", "NN", ",", "IN", "DT", "JJ", "NNS", "VBP", "IN", "JJ", "NNS", "CC", "JJ", "NNS", "."]
-    text: 'The values and talents which made the tile and the dome, the rug, the poem and the
-  miniature, continue in certain social institutions which rise above the ordinary
-  life of_this city, as the great buildings rise above blank walls and dirty lanes.'
-    tokens: [[0, 3], [4, 10], [11, 14], [15, 22], [23, 28], [29, 33], [34, 37], [38, 42], [43, 46], [47, 50], [51, 55], [55, 56], [57, 60], [61, 64], [64, 65], [66, 69], [70, 74], [75, 78], [79, 82], [83, 92], [92, 93], [94, 102], [103, 105], [106, 113], [114, 120], [121, 133], [134, 139], [140, 144], [145, 150], [151, 154], [155, 163], [164, 168], [169, 176], [177, 181], [181, 182], [183, 185], [186, 189], [190, 195], [196, 205], [206, 210], [211, 216], [217, 222], [223, 228], [229, 232], [233, 238], [239, 244], [244, 245]]
-    wn16_key: [[5, "make%2:36:01::"], [21, "continue%2:42:01::"], [27, "rise%2:42:00::"], [39, "rise%2:42:00::"]]
-    wn30_key: [[5, "make%2:36:01::"], [21, "continue%2:42:01::"], [27, "rise%2:42:00::"], [39, "rise%2:42:00::"]]
+    pos: ["DT", "NNS", "CC", "NNS", "WDT", "VBD", "DT", "NN", "CC", "DT", "NN", ",", "DT", "NN", ",", "DT", "NN", "CC", "DT", "JJ", ",", "VBP", "IN", "JJ", "JJ", "NNS", "WDT", "VBP", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", ",", "IN", "DT", "JJ", "NNS", "VBP", "IN", "JJ", "NNS", "CC", "JJ", "NNS", "."]
+    text: 'The values and talents which made the tile and the dome, the rug, the poem and the miniature, continue in certain social institutions which rise above the ordinary life of this city, as the great buildings rise above blank walls and dirty lanes.'
+    tokens: [[0, 3], [4, 10], [11, 14], [15, 22], [23, 28], [29, 33], [34, 37], [38, 42], [43, 46], [47, 50], [51, 55], [55, 56], [57, 60], [61, 64], [64, 65], [66, 69], [70, 74], [75, 78], [79, 82], [83, 92], [92, 93], [94, 102], [103, 105], [106, 113], [114, 120], [121, 133], [134, 139], [140, 144], [145, 150], [151, 154], [155, 163], [164, 168], [169, 171], [172, 176], [177, 181], [181, 182], [183, 185], [186, 189], [190, 195], [196, 205], [206, 210], [211, 216], [217, 222], [223, 228], [229, 232], [233, 238], [239, 244], [244, 245]]
+    wn16_key: [[5, "make%2:36:01::"], [21, "continue%2:42:01::"], [27, "rise%2:42:00::"], [40, "rise%2:42:00::"]]
+    wn30_key: [[5, "make%2:36:01::"], [21, "continue%2:42:01::"], [27, "rise%2:42:00::"], [40, "rise%2:42:00::"]]
 XfyF:
     lemmas: ["often", ",", "too", ",", "the", "social", "institution", "be", "house", "in", "these", "pavilion", "and", "palace", "and", "bridges", ",", "for", "these", "great", "structure", "be", "not", "simply", "\"", "historical", "monument", "\"", ";", "they", "be", "the", "place", "where", "persian", "live", "."]
     oewn_key: [[8, "oewn-02707688-v"], [21, "oewn-02610777-v"], [30, "oewn-02622439-v"], [35, "oewn-02655932-v"]]
@@ -252,18 +241,14 @@ YTlz:
     wn16_key: [[4, "continue%2:42:01::"], [6, "center%2:42:00::"]]
     wn30_key: [[4, "continue%2:42:01::"], [6, "center%2:42:00::"]]
 aPW2:
-    lemmas: ["Those", "three", "other", "great", "activity", "of", "the", "persian", ",", "the", "bath", ",", "the", "teahouse", ",", "and", "the", "zur", "khaneh", "(", "the", "latter", "a", "kind_of", "club", "in_which", "a", "leader", "and", "a", "group", "of", "man", "in", "an", "octagonal", "pit", "move", "through", "a", "rite", "of", "calisthenics", ",", "dance", ",", "chanted", "poetry", ",", "and", "music", ")", ",", "do", "not", "take_place", "in", "building", "to_which", "entrance", "ticket", "be", "sell", ",", "but", "some", "of", "them", "occupy", "splendid", "example", "of", "persian", "domestic", "architecture", ":"]
-    oewn_key: [[37, "oewn-02377696-v"], [55, "oewn-00340744-v"], [62, "oewn-02247246-v"], [68, "oewn-02654741-v"]]
+    lemmas: ["Those", "three", "other", "great", "activity", "of", "the", "persian", ",", "the", "bath", ",", "the", "teahouse", ",", "and", "the", "zur", "khaneh", "(", "the", "latter", "a", "kind_of", "club", "in", "which", "a", "leader", "and", "a", "group", "of", "man", "in", "an", "octagonal", "pit", "move", "through", "a", "rite", "of", "calisthenics", ",", "dance", ",", "chanted", "poetry", ",", "and", "music", ")", ",", "do", "not", "take_place", "in", "building", "to", "which", "entrance", "ticket", "be", "sell", ",", "but", "some", "of", "them", "occupy", "splendid", "example", "of", "persian", "domestic", "architecture", ":"]
+    oewn_key: [[38, "oewn-02377696-v"], [56, "oewn-00340744-v"], [64, "oewn-02247246-v"], [70, "oewn-02654741-v"]]
     paragraph: '4'
-    pos: ["DT", "CD", "JJ", "JJ", "NNS", "IN", "DT", "NNPS", ",", "DT", "NN", ",", "DT", "NN", ",", "CC", "DT", "FW", "FW", "FW", "DT", "NN", "DT", "RB", "NN", "RB", "DT", "NN", "CC", "DT", "NN", "IN", "NNS", "IN", "DT", "JJ", "NN", "VB", "IN", "DT", "NN", "IN", "NNS", ",", "NN", ",", "JJ", "NN", ",", "CC", "NN", "NN", ",", "VBP", "RB", "VB", "IN", "NNS", "RB", "NN", "NNS", "VBP", "VBN", ",", "CC", "DT", "IN", "PRP", "VBP", "JJ", "NNS", "IN", "NNP", "JJ", "NN", ":"]
-    text: 'Those three other great activities of the Persians, the bath, the teahouse, and
-  the zur khaneh (the latter a kind_of club in_which a leader and a group of men in
-  an octagonal pit move through a rite of calisthenics, dance, chanted poetry, and
-  music), do not take_place in buildings to_which entrance tickets are sold, but some
-  of them occupy splendid examples of Persian domestic architecture:'
-    tokens: [[0, 5], [6, 11], [12, 17], [18, 23], [24, 34], [35, 37], [38, 41], [42, 50], [50, 51], [52, 55], [56, 60], [60, 61], [62, 65], [66, 74], [74, 75], [76, 79], [80, 83], [84, 87], [88, 94], [95, 96], [96, 99], [100, 106], [107, 108], [109, 116], [117, 121], [122, 130], [131, 132], [133, 139], [140, 143], [144, 145], [146, 151], [152, 154], [155, 158], [159, 161], [162, 164], [165, 174], [175, 178], [179, 183], [184, 191], [192, 193], [194, 198], [199, 201], [202, 214], [214, 215], [216, 221], [221, 222], [223, 230], [231, 237], [237, 238], [239, 242], [243, 248], [248, 249], [249, 250], [251, 253], [254, 257], [258, 268], [269, 271], [272, 281], [282, 290], [291, 299], [300, 307], [308, 311], [312, 316], [316, 317], [318, 321], [322, 326], [327, 329], [330, 334], [335, 341], [342, 350], [351, 359], [360, 362], [363, 370], [371, 379], [380, 392], [392, 393]]
-    wn16_key: [[37, "move%2:41:01::"], [55, "take_place%2:30:00::"], [62, "sell%2:40:00::"], [68, "occupy%2:42:00::"]]
-    wn30_key: [[37, "move%2:41:01::"], [55, "take_place%2:30:00::"], [62, "sell%2:40:00::"], [68, "occupy%2:42:00::"]]
+    pos: ["DT", "CD", "JJ", "JJ", "NNS", "IN", "DT", "NNPS", ",", "DT", "NN", ",", "DT", "NN", ",", "CC", "DT", "FW", "FW", "FW", "DT", "NN", "DT", "RB", "NN", "IN", "WDT", "DT", "NN", "CC", "DT", "NN", "IN", "NNS", "IN", "DT", "JJ", "NN", "VB", "IN", "DT", "NN", "IN", "NNS", ",", "NN", ",", "JJ", "NN", ",", "CC", "NN", "NN", ",", "VBP", "RB", "VB", "IN", "NNS", "IN", "WDT", "NN", "NNS", "VBP", "VBN", ",", "CC", "DT", "IN", "PRP", "VBP", "JJ", "NNS", "IN", "NNP", "JJ", "NN", ":"]
+    text: 'Those three other great activities of the Persians, the bath, the teahouse, and the zur khaneh (the latter a kind_of club in which a leader and a group of men in an octagonal pit move through a rite of calisthenics, dance, chanted poetry, and music), do not take_place in buildings to which entrance tickets are sold, but some of them occupy splendid examples of Persian domestic architecture:'
+    tokens: [[0, 5], [6, 11], [12, 17], [18, 23], [24, 34], [35, 37], [38, 41], [42, 50], [50, 51], [52, 55], [56, 60], [60, 61], [62, 65], [66, 74], [74, 75], [76, 79], [80, 83], [84, 87], [88, 94], [95, 96], [96, 99], [100, 106], [107, 108], [109, 116], [117, 121], [122, 124], [125, 130], [131, 132], [133, 139], [140, 143], [144, 145], [146, 151], [152, 154], [155, 158], [159, 161], [162, 164], [165, 174], [175, 178], [179, 183], [184, 191], [192, 193], [194, 198], [199, 201], [202, 214], [214, 215], [216, 221], [221, 222], [223, 230], [231, 237], [237, 238], [239, 242], [243, 248], [248, 249], [249, 250], [251, 253], [254, 257], [258, 268], [269, 271], [272, 281], [282, 284], [285, 290], [291, 299], [300, 307], [308, 311], [312, 316], [316, 317], [318, 321], [322, 326], [327, 329], [330, 334], [335, 341], [342, 350], [351, 359], [360, 362], [363, 370], [371, 379], [380, 392], [392, 393]]
+    wn16_key: [[38, "move%2:41:01::"], [56, "take_place%2:30:00::"], [64, "sell%2:40:00::"], [70, "occupy%2:42:00::"]]
+    wn30_key: [[38, "move%2:41:01::"], [56, "take_place%2:30:00::"], [64, "sell%2:40:00::"], [70, "occupy%2:42:00::"]]
 E9e0:
     lemmas: ["long", ",", "domed", ",", "chalk-white", "rooms", "with", "dais", "of", "turquoise", "tile", ",", "their", "end", "wall", "cut_through", "to", "the", "orchard", "and", "the", "sky", "by", "open", "arch", "."]
     oewn_key: [[15, "oewn-01916152-v"]]
@@ -277,16 +262,14 @@ E9e0:
     wn16_key: [[15, "cut_through%2:38:00::"]]
     wn30_key: [[15, "cut_through%2:38:00::"]]
 J894:
-    lemmas: ["But", "more", "important", ",", "and", "the", "thing", "which", "the", "casual", "traveler", "and", "the", "blind", "sojourner", "often", "do", "not", "see", ",", "be", "that", "these", "place", "and", "activity", "be", "often", "the", "setting", "in_which", "persian", "exercise", "their", "extraordinary", "aesthetic", "sensibility", "."]
-    oewn_key: [[18, "oewn-02133754-v"], [20, "oewn-02622439-v"], [26, "oewn-02626667-v"], [32, "oewn-01168409-v"]]
+    lemmas: ["But", "more", "important", ",", "and", "the", "thing", "which", "the", "casual", "traveler", "and", "the", "blind", "sojourner", "often", "do", "not", "see", ",", "be", "that", "these", "place", "and", "activity", "be", "often", "the", "setting", "in", "which", "persian", "exercise", "their", "extraordinary", "aesthetic", "sensibility", "."]
+    oewn_key: [[18, "oewn-02133754-v"], [20, "oewn-02622439-v"], [26, "oewn-02626667-v"], [33, "oewn-01168409-v"]]
     paragraph: '5'
-    pos: ["CC", "RBR", "JJ", ",", "CC", "DT", "NN", "WDT", "DT", "JJ", "NN", "CC", "DT", "JJ", "NN", "RB", "VBP", "RB", "VB", ",", "VBZ", "IN", "DT", "NNS", "CC", "NNS", "VBP", "RB", "DT", "NNS", "RB", "NNPS", "VBP", "PRP$", "JJ", "JJ", "NNS", "."]
-    text: 'But more important, and the thing which the casual traveler and the blind sojourner
-  often do not see, is that these places and activities are often the settings in_which
-  Persians exercise their extraordinary aesthetic sensibilities.'
-    tokens: [[0, 3], [4, 8], [9, 18], [18, 19], [20, 23], [24, 27], [28, 33], [34, 39], [40, 43], [44, 50], [51, 59], [60, 63], [64, 67], [68, 73], [74, 83], [84, 89], [90, 92], [93, 96], [97, 100], [100, 101], [102, 104], [105, 109], [110, 115], [116, 122], [123, 126], [127, 137], [138, 141], [142, 147], [148, 151], [152, 160], [161, 169], [170, 178], [179, 187], [188, 193], [194, 207], [208, 217], [218, 231], [231, 232]]
-    wn16_key: [[18, "see%2:39:00::"], [20, "be%2:42:06::"], [26, "be%2:42:02::"], [32, "exercise%2:34:00::"]]
-    wn30_key: [[18, "see%2:39:00::"], [20, "be%2:42:06::"], [26, "be%2:42:02::"], [32, "exercise%2:34:00::"]]
+    pos: ["CC", "RBR", "JJ", ",", "CC", "DT", "NN", "WDT", "DT", "JJ", "NN", "CC", "DT", "JJ", "NN", "RB", "VBP", "RB", "VB", ",", "VBZ", "IN", "DT", "NNS", "CC", "NNS", "VBP", "RB", "DT", "NNS", "IN", "WDT", "NNPS", "VBP", "PRP$", "JJ", "JJ", "NNS", "."]
+    text: 'But more important, and the thing which the casual traveler and the blind sojourner often do not see, is that these places and activities are often the settings in which Persians exercise their extraordinary aesthetic sensibilities.'
+    tokens: [[0, 3], [4, 8], [9, 18], [18, 19], [20, 23], [24, 27], [28, 33], [34, 39], [40, 43], [44, 50], [51, 59], [60, 63], [64, 67], [68, 73], [74, 83], [84, 89], [90, 92], [93, 96], [97, 100], [100, 101], [102, 104], [105, 109], [110, 115], [116, 122], [123, 126], [127, 137], [138, 141], [142, 147], [148, 151], [152, 160], [161, 163], [164, 169], [170, 178], [179, 187], [188, 193], [194, 207], [208, 217], [218, 231], [231, 232]]
+    wn16_key: [[18, "see%2:39:00::"], [20, "be%2:42:06::"], [26, "be%2:42:02::"], [33, "exercise%2:34:00::"]]
+    wn30_key: [[18, "see%2:39:00::"], [20, "be%2:42:06::"], [26, "be%2:42:02::"], [33, "exercise%2:34:00::"]]
 p7+2:
     lemmas: ["water", ",", "air", ",", "fruit", ",", "poetry", ",", "music", ",", "the", "human", "form", "--", "these", "things", "be", "important", "to", "persian", ",", "and", "they", "experience", "them", "with", "an", "intense", "and", "discriminating", "awareness", "."]
     oewn_key: [[16, "oewn-02610777-v"], [23, "oewn-00598039-v"]]
@@ -564,14 +547,14 @@ pM18:
     wn16_key: [[12, "give%2:38:00::"]]
     wn30_key: [[12, "give%2:38:00::"]]
 Fts2:
-    lemmas: ["From", "the", "terrace", "--", "eighteen", "in_all", "-", "broad", "flight_of_steps", "descend", "into", "the", "water", "or", "onto", "still", "more", "terrace", "barely", "above", "the", "level", "of", "the", "river", "."]
-    oewn_key: [[9, "oewn-01974840-v"]]
+    lemmas: ["From", "the", "terrace", "--", "eighteen", "in", "all", "-", "broad", "flight_of_steps", "descend", "into", "the", "water", "or", "onto", "still", "more", "terrace", "barely", "above", "the", "level", "of", "the", "river", "."]
+    oewn_key: [[10, "oewn-01974840-v"]]
     paragraph: '11'
-    pos: ["IN", "DT", "NNS", ":", "CD", "RB", ":", "JJ", "NN", "VBN", "IN", "DT", "NN", "CC", "IN", "RB", "RBR", "NNS", "RB", "IN", "DT", "NN", "IN", "DT", "NN", "."]
-    text: 'From the terraces--eighteen in_all - broad flights_of_steps descend into the water or onto still more terraces barely above the level of the river.'
-    tokens: [[0, 4], [5, 8], [9, 17], [17, 19], [19, 27], [28, 34], [35, 36], [37, 42], [43, 59], [60, 67], [68, 72], [73, 76], [77, 82], [83, 85], [86, 90], [91, 96], [97, 101], [102, 110], [111, 117], [118, 123], [124, 127], [128, 133], [134, 136], [137, 140], [141, 146], [146, 147]]
-    wn16_key: [[9, "descend%2:38:00::"]]
-    wn30_key: [[9, "descend%2:38:00::"]]
+    pos: ["IN", "DT", "NNS", ":", "CD", "IN", "PDT", ":", "JJ", "NN", "VBN", "IN", "DT", "NN", "CC", "IN", "RB", "RBR", "NNS", "RB", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+    text: 'From the terraces--eighteen in all - broad flights_of_steps descend into the water or onto still more terraces barely above the level of the river.'
+    tokens: [[0, 4], [5, 8], [9, 17], [17, 19], [19, 27], [28, 30], [31, 34], [35, 36], [37, 42], [43, 59], [60, 67], [68, 72], [73, 76], [77, 82], [83, 85], [86, 90], [91, 96], [97, 101], [102, 110], [111, 117], [118, 123], [124, 127], [128, 133], [134, 136], [137, 140], [141, 146], [146, 147]]
+    wn16_key: [[10, "descend%2:38:00::"]]
+    wn30_key: [[10, "descend%2:38:00::"]]
 Wq1O:
     lemmas: ["Out", "of", "water", ",", "brick", ",", "and", "tile", "they", "have", "make", "far", "more_than", "just", "a", "bridge", "."]
     oewn_key: [[10, "oewn-01620211-v"]]
@@ -727,14 +710,14 @@ jWj/:
     wn16_key: [[4, "stop%2:30:05::"], [12, "hear%2:39:00::"], [14, "quote%2:32:00::"]]
     wn30_key: [[4, "stop%2:30:05::"], [12, "hear%2:39:00::"], [14, "quote%2:32:00::"]]
 PGCS:
-    lemmas: ["poetry", "in", "persian", "life", "be", "far", "more_than", "a", "common", "ground", "on_which", "-", "in", "a", "society", "deeply", "fissured", "by", "antagonism", "--", "all", "may", "stand", "."]
-    oewn_key: [[4, "oewn-02610777-v"], [22, "oewn-02740363-v"]]
+    lemmas: ["poetry", "in", "persian", "life", "be", "far", "more_than", "a", "common", "ground", "on", "which", "-", "in", "a", "society", "deeply", "fissured", "by", "antagonism", "--", "all", "may", "stand", "."]
+    oewn_key: [[4, "oewn-02610777-v"], [23, "oewn-02740363-v"]]
     paragraph: '14'
-    pos: ["NNP", "IN", "NNP", "NN", "VBZ", "RB", "RB", "DT", "JJ", "NN", "RB", ":", "IN", "DT", "NN", "RB", "JJ", "IN", "NNS", ":", "DT", "MD", "VB", "."]
-    text: 'Poetry in Persian life is far more_than a common ground on_which - in a society deeply fissured by antagonisms--all may stand.'
-    tokens: [[0, 6], [7, 9], [10, 17], [18, 22], [23, 25], [26, 29], [30, 39], [40, 41], [42, 48], [49, 55], [56, 64], [65, 66], [67, 69], [70, 71], [72, 79], [80, 86], [87, 95], [96, 98], [99, 110], [110, 112], [112, 115], [116, 119], [120, 125], [125, 126]]
-    wn16_key: [[4, "be%2:42:03::"], [22, "stand%2:42:03::"]]
-    wn30_key: [[4, "be%2:42:03::"], [22, "stand%2:42:03::"]]
+    pos: ["NNP", "IN", "NNP", "NN", "VBZ", "RB", "RB", "DT", "JJ", "NN", "IN", "WDT", ":", "IN", "DT", "NN", "RB", "JJ", "IN", "NNS", ":", "DT", "MD", "VB", "."]
+    text: 'Poetry in Persian life is far more_than a common ground on which - in a society deeply fissured by antagonisms--all may stand.'
+    tokens: [[0, 6], [7, 9], [10, 17], [18, 22], [23, 25], [26, 29], [30, 39], [40, 41], [42, 48], [49, 55], [56, 58], [59, 64], [65, 66], [67, 69], [70, 71], [72, 79], [80, 86], [87, 95], [96, 98], [99, 110], [110, 112], [112, 115], [116, 119], [120, 125], [125, 126]]
+    wn16_key: [[4, "be%2:42:03::"], [23, "stand%2:42:03::"]]
+    wn30_key: [[4, "be%2:42:03::"], [23, "stand%2:42:03::"]]
 D8aL:
     lemmas: ["It", "contain", ",", "in_fact", ",", "their", "whole", "outlook", "on", "life", "."]
     oewn_key: [[1, "oewn-02706727-v"]]
@@ -823,12 +806,12 @@ QMun:
     wn16_key: [[16, "choose%2:31:00::"], [25, "know%2:31:03::"], [27, "sing%2:36:01::"], [39, "be%2:42:03::"]]
     wn30_key: [[16, "choose%2:31:00::"], [25, "know%2:31:03::"], [27, "sing%2:36:01::"], [39, "be%2:42:03::"]]
 89z+:
-    lemmas: ["Each", "mode", "be", "believe", "to", "have", "a", "specific", "attribute", "--", "one", "induce", "pleasure", ",", "another", "generosity", ",", "another", "love", ",", "and_so_on", ",", "to", "include", "all_of", "the", "emotion", "."]
+    lemmas: ["Each", "mode", "be", "believe", "to", "have", "a", "specific", "attribute", "--", "one", "induce", "pleasure", ",", "another", "generosity", ",", "another", "love", ",", "and_so_on", ",", "to", "include", "all", "of", "the", "emotion", "."]
     oewn_key: [[3, "oewn-00685199-v"], [5, "oewn-02208144-v"], [11, "oewn-01647592-v"], [23, "oewn-02639021-v"]]
     paragraph: '15'
-    pos: ["DT", "NN", "VBZ", "VBN", "TO", "VB", "DT", "JJ", "NN", ":", "CD", "VB", "NN", ",", "DT", "NN", ",", "DT", "NN", ",", "RB", ",", "TO", "VB", "JJ", "DT", "NNS", "."]
-    text: 'Each mode is believed to have a specific attribute--one inducing pleasure, another generosity, another love, and_so_on, to include all_of the emotions.'
-    tokens: [[0, 4], [5, 9], [10, 12], [13, 21], [22, 24], [25, 29], [30, 31], [32, 40], [41, 50], [50, 52], [52, 55], [56, 64], [65, 73], [73, 74], [75, 82], [83, 93], [93, 94], [95, 102], [103, 107], [107, 108], [109, 118], [118, 119], [120, 122], [123, 130], [131, 137], [138, 141], [142, 150], [150, 151]]
+    pos: ["DT", "NN", "VBZ", "VBN", "TO", "VB", "DT", "JJ", "NN", ":", "CD", "VB", "NN", ",", "DT", "NN", ",", "DT", "NN", ",", "RB", ",", "TO", "VB", "PDT", "IN", "DT", "NNS", "."]
+    text: 'Each mode is believed to have a specific attribute--one inducing pleasure, another generosity, another love, and_so_on, to include all of the emotions.'
+    tokens: [[0, 4], [5, 9], [10, 12], [13, 21], [22, 24], [25, 29], [30, 31], [32, 40], [41, 50], [50, 52], [52, 55], [56, 64], [65, 73], [73, 74], [75, 82], [83, 93], [93, 94], [95, 102], [103, 107], [107, 108], [109, 118], [118, 119], [120, 122], [123, 130], [131, 134], [135, 137], [138, 141], [142, 150], [150, 151]]
     wn16_key: [[3, "believe%2:31:00::"], [5, "have%2:40:00::"], [11, "induce%2:36:00::"], [23, "include%2:42:00::"]]
     wn30_key: [[3, "believe%2:31:00::"], [5, "have%2:40:00::"], [11, "induce%2:36:00::"], [23, "include%2:42:00::"]]
 8ipY:
@@ -852,16 +835,16 @@ QMun:
     wn16_key: [[14, "know%2:31:01::"], [20, "dwell%2:42:00::"], [26, "come%2:38:04::"], [45, "lie%2:35:00::"]]
     wn30_key: [[14, "know%2:31:01::"], [20, "dwell%2:42:00::"], [26, "come%2:38:04::"], [45, "lie%2:35:00::"]]
 Ri10:
-    lemmas: ["in_this", "true", "lover", "'s", "tomb", "inter", "A", "world", "of", "love", "lie", "sepulchred", "\"", "."]
-    oewn_key: [[5, "oewn-02461925-v"], [10, "oewn-02740213-v"]]
+    lemmas: ["in", "this", "true", "lover", "'s", "tomb", "inter", "A", "world", "of", "love", "lie", "sepulchred", "\"", "."]
+    oewn_key: [[6, "oewn-02461925-v"], [11, "oewn-02740213-v"]]
     paragraph: '15'
-    pos: ["RB", "JJ", "NN", "POS", "NN", "VBD", "DT", "NN", "IN", "NN", "VBZ", "JJ", "``", "."]
-    text: 'In_this true lover''s tomb interred A world of love lies sepulchred ".
+    pos: ["IN", "DT", "JJ", "NN", "POS", "NN", "VBD", "DT", "NN", "IN", "NN", "VBZ", "JJ", "``", "."]
+    text: 'In this true lover''s tomb interred A world of love lies sepulchred ".
 
   '
-    tokens: [[0, 7], [8, 12], [13, 18], [18, 20], [21, 25], [26, 34], [35, 36], [37, 42], [43, 45], [46, 50], [51, 55], [56, 66], [67, 68], [68, 69]]
-    wn16_key: [[5, "inter%2:41:00::"], [10, "lie%2:42:03::"]]
-    wn30_key: [[5, "inter%2:41:00::"], [10, "lie%2:42:03::"]]
+    tokens: [[0, 2], [3, 7], [8, 12], [13, 18], [18, 20], [21, 25], [26, 34], [35, 36], [37, 42], [43, 45], [46, 50], [51, 55], [56, 66], [67, 68], [68, 69]]
+    wn16_key: [[6, "inter%2:41:00::"], [11, "lie%2:42:03::"]]
+    wn30_key: [[6, "inter%2:41:00::"], [11, "lie%2:42:03::"]]
 U8SF:
     lemmas: ["These", "song", "(", "practically", "all", "persian", "music", ",", "for_that_matter", ")", "be", "limited", "to", "a", "range", "of", "two", "octave", "."]
     oewn_key: [[10, "oewn-02610777-v"]]

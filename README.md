@@ -262,6 +262,36 @@ uv run semcor-fix-em-dash --dry-run    # preview without writing
 
 Idempotent, like the other `fix-*` scripts.
 
+### `semcor-fix-function-word-merges`
+
+Splits spuriously merged function-word pairs back into two tokens
+(fixes #10), e.g. `in_which` (one token, tag `RB`) -> `in`/IN +
+`which`/WDT, matching Brown's actual tokenization. Unlike the other
+`fix-*` scripts, this changes the *number* of tokens in a sentence:
+`tokens`/`pos`/`lemmas` each go from one entry to two, and every
+`oewn_key`/`wn16_key`/`wn30_key` annotation after the split point
+shifts by one to keep pointing at the same word.
+
+Which merges are safe to split (and what to split them into) was
+decided offline, the same way as #9's `em-dash-fixes.yaml`: a
+candidate is a token that's exactly two closed-class function words
+joined by `_`, with *no* existing sense annotation at that token index
+-- an existing annotation is the corpus's own signal that occurrence
+was an intentional multiword unit (some occurrences of the same pair,
+e.g. `at_once`, are sense-tagged and some aren't, so this has to be
+decided per occurrence, not per word pair). Each survivor was then
+confirmed against `nltk.corpus.brown.tagged_words()` to get its real,
+context-dependent tags. See the module docstring for the full
+reasoning, including why a plain Open English Wordnet entry lookup
+was tried and rejected as the filter.
+
+```sh
+uv run semcor-fix-function-word-merges              # apply function-word-merge-fixes.yaml to data/
+uv run semcor-fix-function-word-merges --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.
