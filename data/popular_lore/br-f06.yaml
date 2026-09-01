@@ -128,14 +128,14 @@ Tyfi:
     wn16_key: [[6, "pop_up%2:39:00::"]]
     wn30_key: [[6, "pop_up%2:39:00::"]]
 /CyD:
-    lemmas: ["sixty-five", "years", "and", "you", "'ve", "have_it", "!"]
+    lemmas: ["sixty-five", "years", "and", "you", "'ve", "have", "it", "!"]
     oewn_key: []
     paragraph: '1'
-    pos: ["JJ", "NNS", "CC", "PRP", "VBP", "VB", "."]
-    text: 'Sixty-five years and you''ve had_it!
+    pos: ["JJ", "NNS", "CC", "PRP", "VBP", "VBD", "PRP", "."]
+    text: 'Sixty-five years and you''ve had it!
 
   '
-    tokens: [[0, 10], [11, 16], [17, 20], [21, 24], [24, 27], [28, 34], [34, 35]]
+    tokens: [[0, 10], [11, 16], [17, 20], [21, 24], [24, 27], [28, 31], [32, 34], [34, 35]]
     wn16_key: []
     wn30_key: []
 Z36y:
@@ -883,14 +883,14 @@ jlUy:
     wn16_key: [[2, "see%2:39:00::"], [10, "know%2:31:02::"], [15, "fall_off%2:35:00::"], [20, "sew%2:35:00::"], [26, "get_out%2:35:00::"]]
     wn30_key: [[2, "see%2:39:00::"], [10, "know%2:31:02::"], [15, "fall_off%2:35:00::"], [20, "sew%2:35:00::"], [26, "get_out%2:35:00::"]]
 hXjn:
-    lemmas: ["then_again", ",", "there", "'s", "always", "that", "lovely", "old", "pastime", "of", "hook", "or", "braid", "rug", "."]
-    oewn_key: [[10, "oewn-01676385-v"], [12, "oewn-01678612-v"]]
+    lemmas: ["then", "again", ",", "there", "'s", "always", "that", "lovely", "old", "pastime", "of", "hook", "or", "braid", "rug", "."]
+    oewn_key: [[11, "oewn-01676385-v"], [13, "oewn-01678612-v"]]
     paragraph: '18'
-    pos: ["RB", ",", "EX", "VBZ", "RB", "IN", "JJ", "JJ", "NN", "IN", "VBG", "CC", "VBG", "NNS", "."]
-    text: 'Then_again, there''s always that lovely old pastime of hooking or braiding rugs.'
-    tokens: [[0, 10], [10, 11], [12, 17], [17, 19], [20, 26], [27, 31], [32, 38], [39, 42], [43, 50], [51, 53], [54, 61], [62, 64], [65, 73], [74, 78], [78, 79]]
-    wn16_key: [[10, "hook%2:36:00::"], [12, "braid%2:36:00::"]]
-    wn30_key: [[10, "hook%2:36:00::"], [12, "braid%2:36:00::"]]
+    pos: ["RB", "RB", ",", "EX", "VBZ", "RB", "IN", "JJ", "JJ", "NN", "IN", "VBG", "CC", "VBG", "NNS", "."]
+    text: 'Then again, there''s always that lovely old pastime of hooking or braiding rugs.'
+    tokens: [[0, 4], [5, 10], [10, 11], [12, 17], [17, 19], [20, 26], [27, 31], [32, 38], [39, 42], [43, 50], [51, 53], [54, 61], [62, 64], [65, 73], [74, 78], [78, 79]]
+    wn16_key: [[11, "hook%2:36:00::"], [13, "braid%2:36:00::"]]
+    wn30_key: [[11, "hook%2:36:00::"], [13, "braid%2:36:00::"]]
 HVfW:
     lemmas: ["not", "for", "me", ",", "but", "perhaps", "just", "the", "thing", "for", "you", "."]
     oewn_key: []
@@ -1487,15 +1487,14 @@ Qkr0:
     wn16_key: [[5, "express%2:32:02::"], [12, "take_form%2:42:00::"]]
     wn30_key: [[5, "express%2:32:02::"], [12, "take_form%2:42:00::"]]
 EpEF:
-    lemmas: ["in_fact", "all_of", "our", "civilized", "world", "be", "the", "resultant", "of", "man", "'s", "projection", "of", "his", "imagination", "over", "the", "past", "60", "century", "or", "more", "."]
-    oewn_key: [[5, "oewn-02610777-v"]]
+    lemmas: ["in_fact", "all", "of", "our", "civilized", "world", "be", "the", "resultant", "of", "man", "'s", "projection", "of", "his", "imagination", "over", "the", "past", "60", "century", "or", "more", "."]
+    oewn_key: [[6, "oewn-02610777-v"]]
     paragraph: '32'
-    pos: ["RB", "JJ", "PRP$", "JJ", "NN", "VBZ", "DT", "NN", "IN", "NN", "POS", "NN", "IN", "PRP$", "NN", "IN", "DT", "JJ", "CD", "NNS", "CC", "JJR", "."]
-    text: 'In_fact all_of our civilized world is the resultant of man''s projection of his
-  imagination over the past 60 centuries or more.'
-    tokens: [[0, 7], [8, 14], [15, 18], [19, 28], [29, 34], [35, 37], [38, 41], [42, 51], [52, 54], [55, 58], [58, 60], [61, 71], [72, 74], [75, 78], [79, 90], [91, 95], [96, 99], [100, 104], [105, 107], [108, 117], [118, 120], [121, 125], [125, 126]]
-    wn16_key: [[5, "be%2:42:03::"]]
-    wn30_key: [[5, "be%2:42:03::"]]
+    pos: ["RB", "PDT", "IN", "PRP$", "JJ", "NN", "VBZ", "DT", "NN", "IN", "NN", "POS", "NN", "IN", "PRP$", "NN", "IN", "DT", "JJ", "CD", "NNS", "CC", "JJR", "."]
+    text: 'In_fact all of our civilized world is the resultant of man''s projection of his imagination over the past 60 centuries or more.'
+    tokens: [[0, 7], [8, 11], [12, 14], [15, 18], [19, 28], [29, 34], [35, 37], [38, 41], [42, 51], [52, 54], [55, 58], [58, 60], [61, 71], [72, 74], [75, 78], [79, 90], [91, 95], [96, 99], [100, 104], [105, 107], [108, 117], [118, 120], [121, 125], [125, 126]]
+    wn16_key: [[6, "be%2:42:03::"]]
+    wn30_key: [[6, "be%2:42:03::"]]
 J/TW:
     lemmas: ["It", "be", "in", "this", "one", "aspect", ",", "at_least", ",", "that", "man", "seem", "to", "be", "make", "in", "the", "image", "of", "his", "creator", "."]
     oewn_key: [[1, "oewn-02610777-v"], [11, "oewn-02137900-v"], [14, "oewn-01620211-v"]]
