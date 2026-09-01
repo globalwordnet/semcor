@@ -58,14 +58,14 @@ X/2G:
     wn16_key: [[2, "learn%2:31:00::"], [3, "much%1:23:00::"], [5, "interstellar%3:01:00::"], [6, "drive%1:04:04::"], [8, "a_hundred%5:00:00:cardinal:00"], [9, "year%1:28:01::"], [10, "ago%4:02:00::"], [17, "tell%2:32:00::"]]
     wn30_key: [[2, "learn%2:31:00::"], [3, "much%1:23:00::"], [5, "interstellar%3:01:00::"], [6, "drive%1:04:04::"], [9, "year%1:28:01::"], [10, "ago%4:02:00::"], [17, "tell%2:32:00::"]]
 aKEb:
-    lemmas: ["\"", "But", "the", "third", "ship", "come_back", "several", "year", "ago", "and", "report", "&", "&", "&", "\"", "."]
+    lemmas: ["\"", "But", "the", "third", "ship", "come_back", "several", "year", "ago", "and", "report", "...", "\"", "."]
     oewn_key: [[3, "oewn-02209976-s"], [4, "oewn-04201332-n"], [6, "oewn-02276025-s"], [7, "oewn-15228587-n"], [8, "oewn-00074361-r"], [10, "oewn-00967067-v"]]
     paragraph: '1'
-    pos: ["``", "CC", "DT", "JJ", "NN", "VB", "JJ", "NNS", "RB", "CC", "VBD", "CC", "CC", "CC", "''", "."]
-    text: '"But the third ship came_back several years ago and reported & & &".
+    pos: ["``", "CC", "DT", "JJ", "NN", "VB", "JJ", "NNS", "RB", "CC", "VBD", ".", "''", "."]
+    text: '"But the third ship came_back several years ago and reported ...".
 
   '
-    tokens: [[0, 1], [1, 4], [5, 8], [9, 14], [15, 19], [20, 29], [30, 37], [38, 43], [44, 47], [48, 51], [52, 60], [61, 62], [63, 64], [65, 66], [66, 67], [67, 68]]
+    tokens: [[0, 1], [1, 4], [5, 8], [9, 14], [15, 19], [20, 29], [30, 37], [38, 43], [44, 47], [48, 51], [52, 60], [61, 64], [64, 65], [65, 66]]
     wn16_key: [[3, "third%5:00:00:ordinal:00"], [4, "ship%1:06:00::"], [5, "come_back%2:38:00::"], [6, "several%5:00:00:some(a):00"], [7, "year%1:28:01::"], [8, "ago%4:02:00::"], [10, "report%2:32:00::"]]
     wn30_key: [[3, "third%3:00:00:ordinal:00"], [4, "ship%1:06:00::"], [6, "several%3:00:00:some:00"], [7, "year%1:28:01::"], [8, "ago%4:02:00::"], [10, "report%2:32:00::"]]
 jjk4:
@@ -430,14 +430,14 @@ y9Kk:
     wn16_key: [[2, "consider%2:39:00::"], [3, "several%5:00:00:some(a):00"], [6, "professional%1:18:00::"], [9, "be%2:42:06::"], [13, "suspicion%1:09:00::"]]
     wn30_key: [[2, "consider%2:39:00::"], [3, "several%3:00:00:some:00"], [6, "professional%1:18:00::"], [9, "be%2:42:06::"], [13, "suspicion%1:09:00::"]]
 7qpn:
-    lemmas: ["unfortunately", "&", "&", "&", "\"", "."]
+    lemmas: ["unfortunately", "...", "\"", "."]
     oewn_key: [[0, "oewn-00043179-r"]]
     paragraph: '12'
-    pos: ["RB", "CC", "CC", "CC", "''", "."]
-    text: 'Unfortunately & & & ".
+    pos: ["RB", ".", "''", "."]
+    text: 'Unfortunately ... ".
 
   '
-    tokens: [[0, 13], [14, 15], [16, 17], [18, 19], [20, 21], [21, 22]]
+    tokens: [[0, 13], [14, 17], [18, 19], [19, 20]]
     wn16_key: [[0, "unfortunately%4:02:00::"]]
     wn30_key: [[0, "unfortunately%4:02:00::"]]
 hDto:
@@ -460,14 +460,14 @@ rj7G:
     wn16_key: [[0, "then%4:02:00::"], [3, "say%2:32:00::"], [6, "unfortunately%4:02:00::"], [8, "only%4:02:01::"], [9, "one%5:00:00:cardinal:00"], [11, "linguist%1:18:01::"], [12, "exist%2:42:01::"], [16, "be%2:42:03::"], [17, "too%4:02:00::"], [18, "old%3:00:02::"], [21, "expedition%1:04:01::"]]
     wn30_key: [[0, "then%4:02:00::"], [3, "say%2:32:00::"], [6, "unfortunately%4:02:00::"], [8, "only%4:02:01::"], [9, "one%3:00:00:cardinal:00"], [11, "linguist%1:18:01::"], [12, "exist%2:42:01::"], [16, "be%2:42:03::"], [17, "too%4:02:00::"], [18, "old%3:00:02::"], [21, "expedition%1:04:01::"]]
 w2tN:
-    lemmas: ["therefore", "&", "&", "&", "\"", "."]
+    lemmas: ["therefore", "...", "\"", "."]
     oewn_key: [[0, "oewn-00043413-r"]]
     paragraph: '13'
-    pos: ["RB", "CC", "CC", "CC", "''", "."]
-    text: 'Therefore & & & ".
+    pos: ["RB", ".", "''", "."]
+    text: 'Therefore ... ".
 
   '
-    tokens: [[0, 9], [10, 11], [12, 13], [14, 15], [16, 17], [17, 18]]
+    tokens: [[0, 9], [10, 13], [14, 15], [15, 16]]
     wn16_key: [[0, "therefore%4:02:00::"]]
     wn30_key: [[0, "therefore%4:02:00::"]]
 OCyb:
