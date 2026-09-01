@@ -438,25 +438,25 @@ JFXF:
     wn16_key: [[1, "dead%5:00:00:precise:00"], [2, "center%1:15:01::"], [4, "three%5:00:00:cardinal:00"], [5, "hundred%5:00:00:cardinal:00"], [6, "yard%1:23:00::"], [9, "coroner%1:18:00::"], [10, "say%2:32:00::"], [15, "grin%2:29:00::"]]
     wn30_key: [[1, "dead%3:00:00:precise:00"], [2, "center%1:15:01::"], [4, "three%3:00:00:cardinal:00"], [5, "hundred%3:00:00:cardinal:00"], [6, "yard%1:23:00::"], [9, "coroner%1:18:00::"], [10, "say%2:32:00::"], [15, "grin%2:29:00::"]]
 ANBG:
-    lemmas: ["\"", "three", "shot", "in_that", "fella", "'", "fore", "he", "hit", "the", "ground", "!"]
-    oewn_key: [[1, "oewn-02194219-s"], [2, "oewn-04212826-n"], [4, "oewn-09927483-n"], [8, "oewn-01238728-v"], [10, "oewn-09357302-n"]]
+    lemmas: ["\"", "three", "shot", "in", "that", "fella", "'", "fore", "he", "hit", "the", "ground", "!"]
+    oewn_key: [[1, "oewn-02194219-s"], [2, "oewn-04212826-n"], [5, "oewn-09927483-n"], [9, "oewn-01238728-v"], [11, "oewn-09357302-n"]]
     paragraph: '11'
-    pos: ["``", "JJ", "NNS", "RB", "NN", "POS", "NN", "PRP", "VBD", "VB", "NN", "."]
-    text: '" Three shots in_that fella'' fore he hit the ground!'
-    tokens: [[0, 1], [2, 7], [8, 13], [14, 21], [22, 27], [27, 28], [29, 33], [34, 36], [37, 40], [41, 44], [45, 51], [51, 52]]
-    wn16_key: [[1, "three%5:00:00:cardinal:00"], [2, "shot%1:06:00::"], [4, "fella%1:18:00::"], [8, "hit%2:35:01::"], [10, "ground%1:17:00::"]]
-    wn30_key: [[1, "three%3:00:00:cardinal:00"], [2, "shot%1:06:00::"], [4, "fella%1:18:00::"], [8, "hit%2:35:01::"], [10, "ground%1:17:00::"]]
+    pos: ["``", "JJ", "NNS", "IN", "DT", "NN", "POS", "NN", "PRP", "VBD", "VB", "NN", "."]
+    text: '" Three shots in that fella'' fore he hit the ground!'
+    tokens: [[0, 1], [2, 7], [8, 13], [14, 16], [17, 21], [22, 27], [27, 28], [29, 33], [34, 36], [37, 40], [41, 44], [45, 51], [51, 52]]
+    wn16_key: [[1, "three%5:00:00:cardinal:00"], [2, "shot%1:06:00::"], [5, "fella%1:18:00::"], [9, "hit%2:35:01::"], [11, "ground%1:17:00::"]]
+    wn30_key: [[1, "three%3:00:00:cardinal:00"], [2, "shot%1:06:00::"], [5, "fella%1:18:00::"], [9, "hit%2:35:01::"], [11, "ground%1:17:00::"]]
 Q4tr:
-    lemmas: ["You", "reckon", "there", "be", "two", "man", "in_this", "state", "can", "shoot", "like", "that", "\"", "?"]
-    oewn_key: [[1, "oewn-00633399-v"], [3, "oewn-02609706-v"], [4, "oewn-02194109-s"], [5, "oewn-10306910-n"], [7, "oewn-08671935-n"], [9, "oewn-01137207-v"]]
+    lemmas: ["You", "reckon", "there", "be", "two", "man", "in", "this", "state", "can", "shoot", "like", "that", "\"", "?"]
+    oewn_key: [[1, "oewn-00633399-v"], [3, "oewn-02609706-v"], [4, "oewn-02194109-s"], [5, "oewn-10306910-n"], [8, "oewn-08671935-n"], [10, "oewn-01137207-v"]]
     paragraph: '11'
-    pos: ["PRP", "VBP", "EX", "VBZ", "JJ", "NNS", "RB", "NN", "MD", "VB", "IN", "IN", "``", "."]
-    text: 'You reckon there''s two men in_this state can shoot like that "?
+    pos: ["PRP", "VBP", "EX", "VBZ", "JJ", "NNS", "IN", "DT", "NN", "MD", "VB", "IN", "IN", "``", "."]
+    text: 'You reckon there''s two men in this state can shoot like that "?
 
   '
-    tokens: [[0, 3], [4, 10], [11, 16], [16, 18], [19, 22], [23, 26], [27, 34], [35, 40], [41, 44], [45, 50], [51, 55], [56, 60], [61, 62], [62, 63]]
-    wn16_key: [[1, "reckon%2:31:02::"], [3, "be%2:42:00::"], [4, "two%5:00:00:cardinal:00"], [5, "man%1:18:00::"], [7, "state%1:15:01::"], [9, "shoot%2:33:00::"]]
-    wn30_key: [[1, "reckon%2:31:02::"], [3, "be%2:42:00::"], [4, "two%3:00:00:cardinal:00"], [5, "man%1:18:00::"], [7, "state%1:15:01::"], [9, "shoot%2:33:00::"]]
+    tokens: [[0, 3], [4, 10], [11, 16], [16, 18], [19, 22], [23, 26], [27, 29], [30, 34], [35, 40], [41, 44], [45, 50], [51, 55], [56, 60], [61, 62], [62, 63]]
+    wn16_key: [[1, "reckon%2:31:02::"], [3, "be%2:42:00::"], [4, "two%5:00:00:cardinal:00"], [5, "man%1:18:00::"], [8, "state%1:15:01::"], [10, "shoot%2:33:00::"]]
+    wn30_key: [[1, "reckon%2:31:02::"], [3, "be%2:42:00::"], [4, "two%3:00:00:cardinal:00"], [5, "man%1:18:00::"], [8, "state%1:15:01::"], [10, "shoot%2:33:00::"]]
 Szml:
     lemmas: ["publicly", ",", "he", "deny", "everything", "."]
     oewn_key: [[0, "oewn-00163131-r"], [3, "oewn-00818217-v"]]
@@ -1077,16 +1077,14 @@ OL6c:
     wn16_key: [[1, "three%5:00:00:cardinal:00"], [2, "straight%5:00:00:continuous:01"], [3, "year%1:28:01::"], [5, "person%1:03:00::"], [6, "patrol%2:41:00::"], [8, "southern%3:00:01::"], [9, "wyoming%1:15:00::"], [10, "pasture%1:15:00::"], [14, "man%1:18:00::"], [16, "kill%2:35:00::"], [18, "person%1:03:00::"], [20, "person%1:03:00::"], [24, "kill%2:35:00::"], [25, "person%1:03:00::"], [27, "person%1:03:00::"], [30, "never%4:02:00::"], [31, "be%2:42:03::"], [32, "known%3:00:00::"]]
     wn30_key: [[1, "three%3:00:00:cardinal:00"], [2, "straight%3:00:00:continuous:01"], [3, "year%1:28:01::"], [5, "person%1:03:00::"], [6, "patrol%2:41:00::"], [8, "southern%3:00:01::"], [9, "wyoming%1:15:00::"], [10, "pasture%1:15:00::"], [14, "man%1:18:00::"], [16, "kill%2:35:00::"], [18, "person%1:03:00::"], [20, "person%1:03:00::"], [24, "kill%2:35:00::"], [25, "person%1:03:00::"], [27, "person%1:03:00::"], [30, "never%4:02:00::"], [31, "be%2:42:03::"], [32, "known%3:00:00::"]]
 1Gjm:
-    lemmas: ["It", "be", "possible", ",", "although", "highly", "doubtful", ",", "that", "he", "kill", "none", "at_all", "but", "merely", "let", "his", "reputation", "work", "for", "him", "by", "privately", "claim", "every", "unsolved", "murder", "in", "the", "state", "."]
-    oewn_key: [[1, "oewn-02610777-v"], [2, "oewn-01826770-a"], [5, "oewn-00089896-r"], [6, "oewn-01923360-s"], [10, "oewn-01326622-v"], [14, "oewn-00005103-r"], [15, "oewn-02427979-v"], [17, "oewn-14462760-n"], [18, "oewn-02531113-v"], [22, "oewn-00163336-r"], [23, "oewn-02280210-v"], [25, "oewn-02274920-a"], [26, "oewn-00221389-n"], [29, "oewn-08671935-n"]]
+    lemmas: ["It", "be", "possible", ",", "although", "highly", "doubtful", ",", "that", "he", "kill", "none", "at", "all", "but", "merely", "let", "his", "reputation", "work", "for", "him", "by", "privately", "claim", "every", "unsolved", "murder", "in", "the", "state", "."]
+    oewn_key: [[1, "oewn-02610777-v"], [2, "oewn-01826770-a"], [5, "oewn-00089896-r"], [6, "oewn-01923360-s"], [10, "oewn-01326622-v"], [15, "oewn-00005103-r"], [16, "oewn-02427979-v"], [18, "oewn-14462760-n"], [19, "oewn-02531113-v"], [23, "oewn-00163336-r"], [24, "oewn-02280210-v"], [26, "oewn-02274920-a"], [27, "oewn-00221389-n"], [30, "oewn-08671935-n"]]
     paragraph: '32'
-    pos: ["PRP", "VBZ", "JJ", ",", "IN", "RB", "JJ", ",", "IN", "PRP", "VBD", "NN", "RB", "CC", "RB", "VB", "PRP$", "NN", "VB", "IN", "PRP", "IN", "RB", "VBG", "DT", "JJ", "NN", "IN", "DT", "NN", "."]
-    text: 'It is possible, although highly doubtful, that he killed none at_all but merely
-  let his reputation work for him by privately claiming every unsolved murder in the
-  state.'
-    tokens: [[0, 2], [3, 5], [6, 14], [14, 15], [16, 24], [25, 31], [32, 40], [40, 41], [42, 46], [47, 49], [50, 56], [57, 61], [62, 68], [69, 72], [73, 79], [80, 83], [84, 87], [88, 98], [99, 103], [104, 107], [108, 111], [112, 114], [115, 124], [125, 133], [134, 139], [140, 148], [149, 155], [156, 158], [159, 162], [163, 168], [168, 169]]
-    wn16_key: [[1, "be%2:42:03::"], [2, "possible%3:00:00::"], [5, "highly%4:02:02::"], [6, "doubtful%5:00:00:questionable:00"], [10, "kill%2:35:00::"], [14, "merely%4:02:00::"], [15, "let%2:41:00::"], [17, "reputation%1:26:01::"], [18, "work%2:41:03::"], [22, "privately%4:02:00::"], [23, "claim%2:40:00::"], [25, "unsolved%3:00:00::"], [26, "murder%1:04:00::"], [29, "state%1:15:01::"]]
-    wn30_key: [[1, "be%2:42:03::"], [2, "possible%3:00:00::"], [5, "highly%4:02:01::"], [6, "doubtful%3:00:00:questionable:00"], [10, "kill%2:35:00::"], [14, "merely%4:02:00::"], [15, "let%2:41:00::"], [17, "reputation%1:26:01::"], [18, "work%2:41:03::"], [22, "privately%4:02:00::"], [23, "claim%2:40:00::"], [25, "unsolved%3:00:00::"], [26, "murder%1:04:00::"], [29, "state%1:15:01::"]]
+    pos: ["PRP", "VBZ", "JJ", ",", "IN", "RB", "JJ", ",", "IN", "PRP", "VBD", "NN", "IN", "PDT", "CC", "RB", "VB", "PRP$", "NN", "VB", "IN", "PRP", "IN", "RB", "VBG", "DT", "JJ", "NN", "IN", "DT", "NN", "."]
+    text: 'It is possible, although highly doubtful, that he killed none at all but merely let his reputation work for him by privately claiming every unsolved murder in the state.'
+    tokens: [[0, 2], [3, 5], [6, 14], [14, 15], [16, 24], [25, 31], [32, 40], [40, 41], [42, 46], [47, 49], [50, 56], [57, 61], [62, 64], [65, 68], [69, 72], [73, 79], [80, 83], [84, 87], [88, 98], [99, 103], [104, 107], [108, 111], [112, 114], [115, 124], [125, 133], [134, 139], [140, 148], [149, 155], [156, 158], [159, 162], [163, 168], [168, 169]]
+    wn16_key: [[1, "be%2:42:03::"], [2, "possible%3:00:00::"], [5, "highly%4:02:02::"], [6, "doubtful%5:00:00:questionable:00"], [10, "kill%2:35:00::"], [15, "merely%4:02:00::"], [16, "let%2:41:00::"], [18, "reputation%1:26:01::"], [19, "work%2:41:03::"], [23, "privately%4:02:00::"], [24, "claim%2:40:00::"], [26, "unsolved%3:00:00::"], [27, "murder%1:04:00::"], [30, "state%1:15:01::"]]
+    wn30_key: [[1, "be%2:42:03::"], [2, "possible%3:00:00::"], [5, "highly%4:02:01::"], [6, "doubtful%3:00:00:questionable:00"], [10, "kill%2:35:00::"], [15, "merely%4:02:00::"], [16, "let%2:41:00::"], [18, "reputation%1:26:01::"], [19, "work%2:41:03::"], [23, "privately%4:02:00::"], [24, "claim%2:40:00::"], [26, "unsolved%3:00:00::"], [27, "murder%1:04:00::"], [30, "state%1:15:01::"]]
 T8fk:
     lemmas: ["It", "be", "also", "possible", ",", "but", "equally", "doubtful", ",", "that", "he", "actually", "shoot", "down", "the", "hundred", "of", "man", "with", "which", "his", "legend", "credit", "him", "."]
     oewn_key: [[1, "oewn-02610777-v"], [2, "oewn-00048072-r"], [3, "oewn-01826770-a"], [6, "oewn-00022585-r"], [7, "oewn-01923360-s"], [11, "oewn-00150568-r"], [12, "oewn-01139564-v"], [15, "oewn-13772555-n"], [17, "oewn-10306910-n"], [21, "oewn-06383036-n"], [22, "oewn-00729105-v"]]
@@ -1120,14 +1118,14 @@ o6FA:
     wn16_key: [[2, "best%3:00:00::"], [3, "evidence%1:09:00::"], [4, "be%2:42:06::"], [7, "receive%2:40:00::"], [9, "monthly%3:01:00::"], [10, "wage%1:21:00::"], [12, "about%4:02:00::"], [16, "very%4:02:00::"], [17, "good%3:00:01::"], [18, "money%1:21:00::"], [21, "era%1:28:00::"], [23, "top%5:00:00:important:00"], [24, "hand%1:18:00::"], [25, "work%2:41:00::"], [28, "30%5:00:00:cardinal:00"], [30, "found%1:21:00::"]]
     wn30_key: [[2, "best%3:00:00::"], [3, "evidence%1:09:00::"], [4, "be%2:42:06::"], [7, "receive%2:40:00::"], [9, "monthly%3:00:00:periodic:00"], [10, "wage%1:21:00::"], [12, "about%4:02:00::"], [16, "very%4:02:00::"], [17, "good%3:00:01::"], [18, "money%1:21:00::"], [21, "era%1:28:00::"], [24, "hand%1:18:00::"], [25, "work%2:41:00::"], [28, "30%3:00:00:cardinal:00"], [30, "found%1:21:00::"]]
 PmlD:
-    lemmas: ["rumor", "have_it", "he", "slip", "two", "small", "rock", "under", "each", "victim", "'s", "head", "as", "a", "sort", "of", "trademark", "."]
-    oewn_key: [[0, "oewn-07238110-n"], [3, "oewn-00190001-v"], [4, "oewn-02194109-s"], [5, "oewn-01394303-a"], [6, "oewn-09438954-n"], [9, "oewn-10771761-n"], [11, "oewn-05546258-n"], [14, "oewn-05847533-n"], [16, "oewn-04739783-n"]]
+    lemmas: ["rumor", "have", "it", "he", "slip", "two", "small", "rock", "under", "each", "victim", "'s", "head", "as", "a", "sort", "of", "trademark", "."]
+    oewn_key: [[0, "oewn-07238110-n"], [4, "oewn-00190001-v"], [5, "oewn-02194109-s"], [6, "oewn-01394303-a"], [7, "oewn-09438954-n"], [10, "oewn-10771761-n"], [12, "oewn-05546258-n"], [15, "oewn-05847533-n"], [17, "oewn-04739783-n"]]
     paragraph: '33'
-    pos: ["NN", "VB", "PRP", "VBD", "JJ", "JJ", "NNS", "IN", "DT", "NN", "POS", "NN", "IN", "DT", "NN", "RB", "NN", "."]
-    text: 'Rumor had_it he slipped two small rocks under each victim''s head as a sort of trademark.'
-    tokens: [[0, 5], [6, 12], [13, 15], [16, 23], [24, 27], [28, 33], [34, 39], [40, 45], [46, 50], [51, 57], [57, 59], [60, 64], [65, 67], [68, 69], [70, 74], [75, 77], [78, 87], [87, 88]]
-    wn16_key: [[0, "rumor%1:10:00::"], [3, "slip%2:30:04::"], [4, "two%5:00:00:cardinal:00"], [5, "small%3:00:00::"], [6, "rock%1:17:01::"], [9, "victim%1:18:00::"], [11, "head%1:08:00::"], [14, "sort%1:09:00::"], [16, "trademark%1:07:00::"]]
-    wn30_key: [[0, "rumor%1:10:00::"], [3, "slip%2:30:04::"], [4, "two%3:00:00:cardinal:00"], [5, "small%3:00:00::"], [6, "rock%1:17:01::"], [9, "victim%1:18:00::"], [11, "head%1:08:00::"], [14, "sort%1:09:00::"], [16, "trademark%1:07:00::"]]
+    pos: ["NN", "VBD", "PRP", "PRP", "VBD", "JJ", "JJ", "NNS", "IN", "DT", "NN", "POS", "NN", "IN", "DT", "NN", "RB", "NN", "."]
+    text: 'Rumor had it he slipped two small rocks under each victim''s head as a sort of trademark.'
+    tokens: [[0, 5], [6, 9], [10, 12], [13, 15], [16, 23], [24, 27], [28, 33], [34, 39], [40, 45], [46, 50], [51, 57], [57, 59], [60, 64], [65, 67], [68, 69], [70, 74], [75, 77], [78, 87], [87, 88]]
+    wn16_key: [[0, "rumor%1:10:00::"], [4, "slip%2:30:04::"], [5, "two%5:00:00:cardinal:00"], [6, "small%3:00:00::"], [7, "rock%1:17:01::"], [10, "victim%1:18:00::"], [12, "head%1:08:00::"], [15, "sort%1:09:00::"], [17, "trademark%1:07:00::"]]
+    wn30_key: [[0, "rumor%1:10:00::"], [4, "slip%2:30:04::"], [5, "two%3:00:00:cardinal:00"], [6, "small%3:00:00::"], [7, "rock%1:17:01::"], [10, "victim%1:18:00::"], [12, "head%1:08:00::"], [15, "sort%1:09:00::"], [17, "trademark%1:07:00::"]]
 aPJ6:
     lemmas: ["(", "A", "detailed", "search", "of", "old", "coroner", "'s", "report", "fail", "to", "substantiate", "this", "in", "the", "slightest", ".", ")"]
     oewn_key: [[2, "oewn-00311231-s"], [3, "oewn-00638597-n"], [5, "oewn-01642580-a"], [6, "oewn-09985515-n"], [8, "oewn-07233130-n"], [9, "oewn-02534950-v"], [11, "oewn-00667804-v"]]

@@ -49,14 +49,14 @@ C9m2:
     wn16_key: [[1, "tie%2:35:00::"]]
     wn30_key: [[1, "tie%2:35:00::"]]
 eZc3:
-    lemmas: ["\"", "Hell", "with_it", "\"", "."]
+    lemmas: ["\"", "Hell", "with", "it", "\"", "."]
     oewn_key: []
     paragraph: '2'
-    pos: ["``", "UH", "RB", "''", "."]
-    text: '"Hell with_it".
+    pos: ["``", "UH", "IN", "PRP", "''", "."]
+    text: '"Hell with it".
 
   '
-    tokens: [[0, 1], [1, 5], [6, 13], [13, 14], [14, 15]]
+    tokens: [[0, 1], [1, 5], [6, 10], [11, 13], [13, 14], [14, 15]]
     wn16_key: []
     wn30_key: []
 ddt1:
@@ -459,14 +459,14 @@ t94X:
     wn16_key: [[1, "be%2:42:03::"]]
     wn30_key: [[1, "be%2:42:03::"]]
 PQBv:
-    lemmas: ["even", "Barton", "could", "not_quite", "believe", "it", "."]
-    oewn_key: [[4, "oewn-00685199-v"]]
+    lemmas: ["even", "Barton", "could", "not", "quite", "believe", "it", "."]
+    oewn_key: [[5, "oewn-00685199-v"]]
     paragraph: '20'
-    pos: ["RB", "NNP", "MD", "RB", "VB", "PRP", "."]
-    text: 'Even Barton could not_quite believe it.'
-    tokens: [[0, 4], [5, 11], [12, 17], [18, 27], [28, 35], [36, 38], [38, 39]]
-    wn16_key: [[4, "believe%2:31:00::"]]
-    wn30_key: [[4, "believe%2:31:00::"]]
+    pos: ["RB", "NNP", "MD", "RB", "RB", "VB", "PRP", "."]
+    text: 'Even Barton could not quite believe it.'
+    tokens: [[0, 4], [5, 11], [12, 17], [18, 21], [22, 27], [28, 35], [36, 38], [38, 39]]
+    wn16_key: [[5, "believe%2:31:00::"]]
+    wn30_key: [[5, "believe%2:31:00::"]]
 FQ81:
     lemmas: ["It", "have", "go", "without", "a", "hitch", "."]
     oewn_key: [[2, "oewn-02377696-v"]]
@@ -1365,12 +1365,12 @@ Zyyf:
     wn16_key: [[2, "come_up%2:38:02::"]]
     wn30_key: [[2, "come_up%2:38:02::"]]
 d35w:
-    lemmas: ["\"", "I", "be", "afraid", "of_this", "."]
+    lemmas: ["\"", "I", "be", "afraid", "of", "this", "."]
     oewn_key: [[2, "oewn-02610777-v"]]
     paragraph: '58'
-    pos: ["``", "PRP", "VBD", "JJ", "RB", "."]
-    text: '" I was afraid of_this.'
-    tokens: [[0, 1], [2, 3], [4, 7], [8, 14], [15, 22], [22, 23]]
+    pos: ["``", "PRP", "VBD", "JJ", "IN", "DT", "."]
+    text: '" I was afraid of this.'
+    tokens: [[0, 1], [2, 3], [4, 7], [8, 14], [15, 17], [18, 22], [22, 23]]
     wn16_key: [[2, "be%2:42:03::"]]
     wn30_key: [[2, "be%2:42:03::"]]
 OMHY:
@@ -1744,15 +1744,14 @@ e4Li:
     wn16_key: [[1, "live%2:42:06::"], [3, "breathe%2:42:00::"]]
     wn30_key: [[1, "live%2:42:06::"], [3, "breathe%2:42:00::"]]
 gqrb:
-    lemmas: ["No", "man", "could", "have", "reach", "his", "spot", "nor", "hold", "it", "without", "be", "ruthless", ",", "and", "Hague", "have", "make", "a", "virtue", "of", "ruthlessness", "all_of", "his", "life", "."]
+    lemmas: ["No", "man", "could", "have", "reach", "his", "spot", "nor", "hold", "it", "without", "be", "ruthless", ",", "and", "Hague", "have", "make", "a", "virtue", "of", "ruthlessness", "all", "of", "his", "life", "."]
     oewn_key: [[4, "oewn-02531751-v"], [8, "oewn-02307200-v"], [11, "oewn-02610777-v"], [17, "oewn-00120124-v"]]
     paragraph: '71'
-    pos: ["DT", "NN", "MD", "VB", "VBN", "PRP$", "NN", "CC", "VBD", "PRP", "IN", "VBG", "JJ", ",", "CC", "NNP", "VBD", "VBN", "DT", "NN", "IN", "NN", "JJ", "PRP$", "NN", "."]
-    text: 'No man could have reached his spot nor held it without being ruthless, and Hague
-  had made a virtue of ruthlessness all_of his life.
+    pos: ["DT", "NN", "MD", "VB", "VBN", "PRP$", "NN", "CC", "VBD", "PRP", "IN", "VBG", "JJ", ",", "CC", "NNP", "VBD", "VBN", "DT", "NN", "IN", "NN", "PDT", "IN", "PRP$", "NN", "."]
+    text: 'No man could have reached his spot nor held it without being ruthless, and Hague had made a virtue of ruthlessness all of his life.
 
   '
-    tokens: [[0, 2], [3, 6], [7, 12], [13, 17], [18, 25], [26, 29], [30, 34], [35, 38], [39, 43], [44, 46], [47, 54], [55, 60], [61, 69], [69, 70], [71, 74], [75, 80], [81, 84], [85, 89], [90, 91], [92, 98], [99, 101], [102, 114], [115, 121], [122, 125], [126, 130], [130, 131]]
+    tokens: [[0, 2], [3, 6], [7, 12], [13, 17], [18, 25], [26, 29], [30, 34], [35, 38], [39, 43], [44, 46], [47, 54], [55, 60], [61, 69], [69, 70], [71, 74], [75, 80], [81, 84], [85, 89], [90, 91], [92, 98], [99, 101], [102, 114], [115, 118], [119, 121], [122, 125], [126, 130], [130, 131]]
     wn16_key: [[4, "reach%2:41:00::"], [8, "hold%2:40:04::"], [11, "be%2:42:03::"], [17, "make%2:30:00::"]]
     wn30_key: [[4, "reach%2:41:00::"], [8, "hold%2:40:04::"], [11, "be%2:42:03::"], [17, "make%2:30:00::"]]
 Uj7G:

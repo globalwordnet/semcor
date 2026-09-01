@@ -80,16 +80,16 @@ U8zv:
     wn16_key: [[7, "say%2:32:00::"], [13, "review%2:32:00::"], [20, "visit%2:38:01::"]]
     wn30_key: [[7, "say%2:32:00::"], [13, "review%2:32:00::"], [20, "visit%2:38:01::"]]
 Q7WH:
-    lemmas: ["They", "also", "will", "visit", "property", "on_which", "appeal", "have", "be", "make", "."]
-    oewn_key: [[3, "oewn-01847990-v"], [9, "oewn-01649143-v"]]
+    lemmas: ["They", "also", "will", "visit", "property", "on", "which", "appeal", "have", "be", "make", "."]
+    oewn_key: [[3, "oewn-01847990-v"], [10, "oewn-01649143-v"]]
     paragraph: '2'
-    pos: ["PRP", "RB", "MD", "VB", "NNS", "RB", "NNS", "VBP", "VBN", "VBN", "."]
-    text: 'They also will visit properties on_which appeals have been made.
+    pos: ["PRP", "RB", "MD", "VB", "NNS", "IN", "WDT", "NNS", "VBP", "VBN", "VBN", "."]
+    text: 'They also will visit properties on which appeals have been made.
 
   '
-    tokens: [[0, 4], [5, 9], [10, 14], [15, 20], [21, 31], [32, 40], [41, 48], [49, 53], [54, 58], [59, 63], [63, 64]]
-    wn16_key: [[3, "visit%2:38:01::"], [9, "make%2:36:08::"]]
-    wn30_key: [[3, "visit%2:38:01::"], [9, "make%2:36:08::"]]
+    tokens: [[0, 4], [5, 9], [10, 14], [15, 20], [21, 31], [32, 34], [35, 40], [41, 48], [49, 53], [54, 58], [59, 63], [63, 64]]
+    wn16_key: [[3, "visit%2:38:01::"], [10, "make%2:36:08::"]]
+    wn30_key: [[3, "visit%2:38:01::"], [10, "make%2:36:08::"]]
 gKin:
     lemmas: ["Any", "adjustment", "which", "be", "make", ",", "mr._grenier", "say", "earlier", "this", "month", ",", "will", "appear", "on", "the", "balance", "of", "the", "tax_bill", "since", "most_of", "the", "town", "'s", "taxpayer", "take", "the", "option", "of", "pay", "quarterly", "with", "the", "balance", "due", "next", "year", "."]
     oewn_key: [[4, "oewn-01649143-v"], [7, "oewn-01011267-v"], [13, "oewn-00426920-v"], [26, "oewn-00676526-v"], [30, "oewn-02257739-v"]]
@@ -104,19 +104,16 @@ gKin:
     wn16_key: [[4, "make%2:36:08::"], [7, "say%2:32:00::"], [13, "appear%2:30:01::"], [26, "take%2:31:01::"], [30, "pay%2:40:04::"]]
     wn30_key: [[4, "make%2:36:08::"], [7, "say%2:32:00::"], [13, "appear%2:30:01::"], [26, "take%2:31:01::"], [30, "pay%2:40:04::"]]
 qQZX:
-    lemmas: ["john_pezza", ",", "69", ",", "of", "734", "hartford_avenue", ",", "providence", ",", "complain", "of", "shoulder", "pains", "after", "an", "accident", "in_which", "a", "car", "he", "be", "drive", "collide_with", "a", "car", "drive", "by", "Antonio_Giorgio", ",", "25", ",", "of", "12", "DeSoto_St.", ",", "providence", ",", "on", "greenville_avenue", "and", "cherry_hill_road", "in", "johnston", "yesterday", "."]
-    oewn_key: [[10, "oewn-00909100-v"], [22, "oewn-01934845-v"], [23, "oewn-01238728-v"], [26, "oewn-01934845-v"]]
+    lemmas: ["john_pezza", ",", "69", ",", "of", "734", "hartford_avenue", ",", "providence", ",", "complain", "of", "shoulder", "pains", "after", "an", "accident", "in", "which", "a", "car", "he", "be", "drive", "collide_with", "a", "car", "drive", "by", "Antonio_Giorgio", ",", "25", ",", "of", "12", "DeSoto_St.", ",", "providence", ",", "on", "greenville_avenue", "and", "cherry_hill_road", "in", "johnston", "yesterday", "."]
+    oewn_key: [[10, "oewn-00909100-v"], [23, "oewn-01934845-v"], [24, "oewn-01238728-v"], [27, "oewn-01934845-v"]]
     paragraph: '4'
-    pos: ["NNP", ",", "CD", ",", "IN", "CD", "NNP", ",", "NNP", ",", "VBD", "IN", "NN", "NNS", "IN", "DT", "NN", "RB", "DT", "NN", "PRP", "VBD", "VBG", "VB", "DT", "NN", "VBN", "IN", "NNP", ",", "CD", ",", "IN", "CD", "NNP", ",", "NNP", ",", "IN", "NNP", "CC", "NNP", "IN", "NNP", "NN", "."]
-    text: 'John_Pezza, 69, of 734 Hartford_Avenue, Providence, complained of shoulder pains
-  after an accident in_which a car he was driving collided_with a car driven by Antonio_Giorgio,
-  25, of 12 DeSoto_St., Providence, on Greenville_Avenue and Cherry_Hill_Road in Johnston
-  yesterday.
+    pos: ["NNP", ",", "CD", ",", "IN", "CD", "NNP", ",", "NNP", ",", "VBD", "IN", "NN", "NNS", "IN", "DT", "NN", "IN", "WDT", "DT", "NN", "PRP", "VBD", "VBG", "VB", "DT", "NN", "VBN", "IN", "NNP", ",", "CD", ",", "IN", "CD", "NNP", ",", "NNP", ",", "IN", "NNP", "CC", "NNP", "IN", "NNP", "NN", "."]
+    text: 'John_Pezza, 69, of 734 Hartford_Avenue, Providence, complained of shoulder pains after an accident in which a car he was driving collided_with a car driven by Antonio_Giorgio, 25, of 12 DeSoto_St., Providence, on Greenville_Avenue and Cherry_Hill_Road in Johnston yesterday.
 
   '
-    tokens: [[0, 10], [10, 11], [12, 14], [14, 15], [16, 18], [19, 22], [23, 38], [38, 39], [40, 50], [50, 51], [52, 62], [63, 65], [66, 74], [75, 80], [81, 86], [87, 89], [90, 98], [99, 107], [108, 109], [110, 113], [114, 116], [117, 120], [121, 128], [129, 142], [143, 144], [145, 148], [149, 155], [156, 158], [159, 174], [174, 175], [176, 178], [178, 179], [180, 182], [183, 185], [186, 196], [196, 197], [198, 208], [208, 209], [210, 212], [213, 230], [231, 234], [235, 251], [252, 254], [255, 263], [264, 273], [273, 274]]
-    wn16_key: [[10, "complain%2:32:00::"], [22, "drive%2:38:01::"], [23, "collide_with%2:35:00::"], [26, "drive%2:38:01::"]]
-    wn30_key: [[10, "complain%2:32:00::"], [22, "drive%2:38:01::"], [23, "collide_with%2:35:00::"], [26, "drive%2:38:01::"]]
+    tokens: [[0, 10], [10, 11], [12, 14], [14, 15], [16, 18], [19, 22], [23, 38], [38, 39], [40, 50], [50, 51], [52, 62], [63, 65], [66, 74], [75, 80], [81, 86], [87, 89], [90, 98], [99, 101], [102, 107], [108, 109], [110, 113], [114, 116], [117, 120], [121, 128], [129, 142], [143, 144], [145, 148], [149, 155], [156, 158], [159, 174], [174, 175], [176, 178], [178, 179], [180, 182], [183, 185], [186, 196], [196, 197], [198, 208], [208, 209], [210, 212], [213, 230], [231, 234], [235, 251], [252, 254], [255, 263], [264, 273], [273, 274]]
+    wn16_key: [[10, "complain%2:32:00::"], [23, "drive%2:38:01::"], [24, "collide_with%2:35:00::"], [27, "drive%2:38:01::"]]
+    wn30_key: [[10, "complain%2:32:00::"], [23, "drive%2:38:01::"], [24, "collide_with%2:35:00::"], [27, "drive%2:38:01::"]]
 J3K1:
     lemmas: ["mr._giorgio", "have", "start", "to", "turn", "left", "off", "greenville_avenue", "onto", "cherry_hill_road", "when", "his", "car", "be_struck_by", "the", "Pezza", "car", ",", "police", "say", "."]
     oewn_key: [[2, "oewn-01861703-v"], [4, "oewn-01913805-v"], [19, "oewn-01011267-v"]]
@@ -507,16 +504,14 @@ lXc6:
     wn16_key: [[3, "make%2:41:00::"], [7, "hear%2:41:00::"]]
     wn30_key: [[3, "make%2:41:00::"], [7, "hear%2:41:00::"]]
 0Ytp:
-    lemmas: ["The", "award", ",", "without", "interest", ",", "compare", "with", "a", "valuation", "of", "$", "57500", "place", "on", "the", "property", "by", "the", "property_owner", "'", "real_estate", "expert", ",", "and", "a", "valuation", "of", "$", "52500", "place", "on_it", "by", "the", "state", "'s", "expert", "."]
+    lemmas: ["The", "award", ",", "without", "interest", ",", "compare", "with", "a", "valuation", "of", "$", "57500", "place", "on", "the", "property", "by", "the", "property_owner", "'", "real_estate", "expert", ",", "and", "a", "valuation", "of", "$", "52500", "place", "on", "it", "by", "the", "state", "'s", "expert", "."]
     oewn_key: [[6, "oewn-02735507-v"], [13, "oewn-01496967-v"], [30, "oewn-01496967-v"]]
     paragraph: '27'
-    pos: ["DT", "NN", ",", "IN", "NN", ",", "VBN", "IN", "DT", "NN", "IN", "$", "CD", "VBN", "IN", "DT", "NN", "IN", "DT", "NN", "POS", "NN", "NN", ",", "CC", "DT", "NN", "IN", "$", "CD", "VBN", "RB", "IN", "DT", "NN", "POS", "NN", "."]
-    text: 'The award, without interest, compared with a valuation of $57500 placed on the property
-  by the property_owners'' real_estate expert, and a valuation of $52500 placed on_it
-  by the state''s expert.
+    pos: ["DT", "NN", ",", "IN", "NN", ",", "VBN", "IN", "DT", "NN", "IN", "$", "CD", "VBN", "IN", "DT", "NN", "IN", "DT", "NN", "POS", "NN", "NN", ",", "CC", "DT", "NN", "IN", "$", "CD", "VBN", "IN", "PRP", "IN", "DT", "NN", "POS", "NN", "."]
+    text: 'The award, without interest, compared with a valuation of $57500 placed on the property by the property_owners'' real_estate expert, and a valuation of $52500 placed on it by the state''s expert.
 
   '
-    tokens: [[0, 3], [4, 9], [9, 10], [11, 18], [19, 27], [27, 28], [29, 37], [38, 42], [43, 44], [45, 54], [55, 57], [58, 59], [59, 64], [65, 71], [72, 74], [75, 78], [79, 87], [88, 90], [91, 94], [95, 110], [110, 111], [112, 123], [124, 130], [130, 131], [132, 135], [136, 137], [138, 147], [148, 150], [151, 152], [152, 157], [158, 164], [165, 170], [171, 173], [174, 177], [178, 183], [183, 185], [186, 192], [192, 193]]
+    tokens: [[0, 3], [4, 9], [9, 10], [11, 18], [19, 27], [27, 28], [29, 37], [38, 42], [43, 44], [45, 54], [55, 57], [58, 59], [59, 64], [65, 71], [72, 74], [75, 78], [79, 87], [88, 90], [91, 94], [95, 110], [110, 111], [112, 123], [124, 130], [130, 131], [132, 135], [136, 137], [138, 147], [148, 150], [151, 152], [152, 157], [158, 164], [165, 167], [168, 170], [171, 173], [174, 177], [178, 183], [183, 185], [186, 192], [192, 193]]
     wn16_key: [[6, "compare%2:42:00::"], [13, "place%2:35:00::"], [30, "place%2:35:00::"]]
     wn30_key: [[6, "compare%2:42:00::"], [13, "place%2:35:00::"], [30, "place%2:35:00::"]]
 UF/9:
@@ -628,16 +623,16 @@ yDW+:
     wn16_key: [[3, "adopt%2:40:00::"], [22, "aid%2:41:00::"], [25, "help%2:41:00::"], [28, "reach%2:38:06::"]]
     wn30_key: [[3, "adopt%2:40:00::"], [22, "aid%2:41:00::"], [25, "help%2:41:00::"], [28, "reach%2:38:06::"]]
 KNmp:
-    lemmas: ["bernard_parrillo", ",", "20", ",", "of", "19", "fletcher_ave.", ",", "Cranston", ",", "be", "admit", "to", "Roger_Williams_Hospital", "shortly", "before", "11", ":", "30", "a.", "m.", "yesterday", "after", "a", "hunting", "accident", "in_which", "a", "shotgun", "he", "be", "carry", "discharge", "against", "his", "heel", "."]
-    oewn_key: [[11, "oewn-02508185-v"], [31, "oewn-02722977-v"], [32, "oewn-01136664-v"]]
+    lemmas: ["bernard_parrillo", ",", "20", ",", "of", "19", "fletcher_ave.", ",", "Cranston", ",", "be", "admit", "to", "Roger_Williams_Hospital", "shortly", "before", "11", ":", "30", "a.", "m.", "yesterday", "after", "a", "hunting", "accident", "in", "which", "a", "shotgun", "he", "be", "carry", "discharge", "against", "his", "heel", "."]
+    oewn_key: [[11, "oewn-02508185-v"], [32, "oewn-02722977-v"], [33, "oewn-01136664-v"]]
     paragraph: '34'
-    pos: ["NNP", ",", "CD", ",", "IN", "CD", "NNP", ",", "NNP", ",", "VBD", "VBN", "TO", "NNP", "RB", "IN", "CD", ":", "CD", "NN", "NNP", "NN", "IN", "DT", "NN", "NN", "RB", "DT", "NN", "PRP", "VBD", "VBG", "VBN", "IN", "PRP$", "NN", "."]
-    text: 'Bernard_Parrillo, 20, of 19 Fletcher_Ave., Cranston, was admitted to Roger_Williams_Hospital shortly before 11:30 a.m. yesterday after a hunting accident in_which a shotgun he was carrying discharged against his heel.
+    pos: ["NNP", ",", "CD", ",", "IN", "CD", "NNP", ",", "NNP", ",", "VBD", "VBN", "TO", "NNP", "RB", "IN", "CD", ":", "CD", "NN", "NNP", "NN", "IN", "DT", "NN", "NN", "IN", "WDT", "DT", "NN", "PRP", "VBD", "VBG", "VBN", "IN", "PRP$", "NN", "."]
+    text: 'Bernard_Parrillo, 20, of 19 Fletcher_Ave., Cranston, was admitted to Roger_Williams_Hospital shortly before 11:30 a.m. yesterday after a hunting accident in which a shotgun he was carrying discharged against his heel.
 
   '
-    tokens: [[0, 16], [16, 17], [18, 20], [20, 21], [22, 24], [25, 27], [28, 41], [41, 42], [43, 51], [51, 52], [53, 56], [57, 65], [66, 68], [69, 92], [93, 100], [101, 107], [108, 110], [110, 111], [111, 113], [114, 116], [116, 118], [119, 128], [129, 134], [135, 136], [137, 144], [145, 153], [154, 162], [163, 164], [165, 172], [173, 175], [176, 179], [180, 188], [189, 199], [200, 207], [208, 211], [212, 216], [216, 217]]
-    wn16_key: [[11, "admit%2:41:01::"], [31, "carry%2:42:01::"], [32, "discharge%2:33:02::"]]
-    wn30_key: [[11, "admit%2:41:01::"], [31, "carry%2:42:01::"], [32, "discharge%2:33:02::"]]
+    tokens: [[0, 16], [16, 17], [18, 20], [20, 21], [22, 24], [25, 27], [28, 41], [41, 42], [43, 51], [51, 52], [53, 56], [57, 65], [66, 68], [69, 92], [93, 100], [101, 107], [108, 110], [110, 111], [111, 113], [114, 116], [116, 118], [119, 128], [129, 134], [135, 136], [137, 144], [145, 153], [154, 156], [157, 162], [163, 164], [165, 172], [173, 175], [176, 179], [180, 188], [189, 199], [200, 207], [208, 211], [212, 216], [216, 217]]
+    wn16_key: [[11, "admit%2:41:01::"], [32, "carry%2:42:01::"], [33, "discharge%2:33:02::"]]
+    wn30_key: [[11, "admit%2:41:01::"], [32, "carry%2:42:01::"], [33, "discharge%2:33:02::"]]
 8p7h:
     lemmas: ["mr._parrillo", "be", "give", "first_aid", "at", "johnston_hose", "1", "."]
     oewn_key: [[2, "oewn-02314145-v"]]
@@ -1079,13 +1074,13 @@ tAwJ:
     wn16_key: [[7, "be%2:42:03::"], [15, "join%2:41:00::"]]
     wn30_key: [[7, "be%2:42:03::"], [15, "join%2:41:00::"]]
 KTdj:
-    lemmas: ["Prior", "to_that", "he", "be", "associated", "with", "long_island", "university", "in", "brooklyn", "."]
+    lemmas: ["Prior", "to", "that", "he", "be", "associated", "with", "long_island", "university", "in", "brooklyn", "."]
     oewn_key: []
     paragraph: '60'
-    pos: ["RB", "RB", "PRP", "VBD", "JJ", "VB", "NN", "NNP", "IN", "NNP", "."]
-    text: 'Prior to_that he was associated with Long_Island University in Brooklyn.
+    pos: ["RB", "IN", "DT", "PRP", "VBD", "JJ", "VB", "NN", "NNP", "IN", "NNP", "."]
+    text: 'Prior to that he was associated with Long_Island University in Brooklyn.
 
   '
-    tokens: [[0, 5], [6, 13], [14, 16], [17, 20], [21, 31], [32, 36], [37, 48], [49, 59], [60, 62], [63, 71], [71, 72]]
+    tokens: [[0, 5], [6, 8], [9, 13], [14, 16], [17, 20], [21, 31], [32, 36], [37, 48], [49, 59], [60, 62], [63, 71], [71, 72]]
     wn16_key: []
     wn30_key: []
