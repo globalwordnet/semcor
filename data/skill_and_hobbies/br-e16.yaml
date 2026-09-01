@@ -103,12 +103,12 @@ DVqA:
     wn16_key: [[6, "do%2:38:00::"], [14, "give%2:40:03::"]]
     wn30_key: [[6, "do%2:38:00::"], [14, "give%2:40:03::"]]
 hiLe:
-    lemmas: ["She", "also", "bank", "into", "a", "turn", "like", "a", "fine", "runabout", "--", "not", "dig", "in", "on_the_outside", "to", "throw", "passenger", "all_over", "the", "boat", "like", "many_a", "small", "cabin_cruiser", "."]
+    lemmas: ["She", "also", "bank", "into", "a", "turn", "like", "a", "fine", "runabout", "--", "not", "dig", "in", "on_the_outside", "to", "throw", "passenger", "all", "over", "the", "boat", "like", "many_a", "small", "cabin_cruiser", "."]
     oewn_key: [[2, "oewn-02043258-v"], [12, "oewn-01313763-v"], [16, "oewn-01511000-v"]]
     paragraph: '1'
-    pos: ["PRP", "RB", "VB", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", ":", "RB", "VB", "VB", "RB", "TO", "VB", "NNS", "RB", "DT", "NN", "IN", "JJ", "JJ", "NN", "."]
-    text: 'She also banks into a turn like a fine runabout--not digging in on_the_outside to throw passengers all_over the boat like many_a small cabin_cruiser.'
-    tokens: [[0, 3], [4, 8], [9, 14], [15, 19], [20, 21], [22, 26], [27, 31], [32, 33], [34, 38], [39, 47], [47, 49], [49, 52], [53, 60], [61, 63], [64, 78], [79, 81], [82, 87], [88, 98], [99, 107], [108, 111], [112, 116], [117, 121], [122, 128], [129, 134], [135, 148], [148, 149]]
+    pos: ["PRP", "RB", "VB", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", ":", "RB", "VB", "VB", "RB", "TO", "VB", "NNS", "RB", "IN", "DT", "NN", "IN", "JJ", "JJ", "NN", "."]
+    text: 'She also banks into a turn like a fine runabout--not digging in on_the_outside to throw passengers all over the boat like many_a small cabin_cruiser.'
+    tokens: [[0, 3], [4, 8], [9, 14], [15, 19], [20, 21], [22, 26], [27, 31], [32, 33], [34, 38], [39, 47], [47, 49], [49, 52], [53, 60], [61, 63], [64, 78], [79, 81], [82, 87], [88, 98], [99, 102], [103, 107], [108, 111], [112, 116], [117, 121], [122, 128], [129, 134], [135, 148], [148, 149]]
     wn16_key: [[2, "bank%2:38:00::"], [12, "dig%2:35:01::"], [16, "throw%2:35:00::"]]
     wn30_key: [[2, "bank%2:38:00::"], [12, "dig%2:35:01::"], [16, "throw%2:35:00::"]]
 vcnk:
@@ -218,15 +218,14 @@ fgKO:
     wn16_key: [[5, "cost%2:42:00::"]]
     wn30_key: [[5, "cost%2:42:00::"]]
 pYH5:
-    lemmas: ["consider", "what", "you", "have_to", "earn", "to", "be", "able", "to", "spend", "the", "$", "3000", "and", "your", "building", "time", "be", "well", "worth", "it", "."]
-    oewn_key: [[0, "oewn-00736077-v"], [4, "oewn-02294200-v"], [6, "oewn-02610777-v"], [9, "oewn-02271905-v"], [17, "oewn-02610777-v"]]
+    lemmas: ["consider", "what", "you", "have", "to", "earn", "to", "be", "able", "to", "spend", "the", "$", "3000", "and", "your", "building", "time", "be", "well", "worth", "it", "."]
+    oewn_key: [[0, "oewn-00736077-v"], [5, "oewn-02294200-v"], [7, "oewn-02610777-v"], [10, "oewn-02271905-v"], [18, "oewn-02610777-v"]]
     paragraph: '3'
-    pos: ["VB", "WP", "PRP", "VB", "VB", "TO", "VB", "JJ", "VB", "VB", "DT", "$", "CD", "CC", "PRP$", "NN", "NN", "VBZ", "RB", "JJ", "PRP", "."]
-    text: 'Consider what you have_to earn to be able to spend the $3000 and your building time
-  is well worth it.'
-    tokens: [[0, 8], [9, 13], [14, 17], [18, 25], [26, 30], [31, 33], [34, 36], [37, 41], [42, 44], [45, 50], [51, 54], [55, 56], [56, 60], [61, 64], [65, 69], [70, 78], [79, 83], [84, 86], [87, 91], [92, 97], [98, 100], [100, 101]]
-    wn16_key: [[0, "consider%2:31:01::"], [4, "earn%2:40:01::"], [6, "be%2:42:03::"], [9, "spend%2:40:00::"], [17, "be%2:42:03::"]]
-    wn30_key: [[0, "consider%2:31:01::"], [4, "earn%2:40:01::"], [6, "be%2:42:03::"], [9, "spend%2:40:00::"], [17, "be%2:42:03::"]]
+    pos: ["VB", "WP", "PRP", "VBP", "TO", "VB", "TO", "VB", "JJ", "VB", "VB", "DT", "$", "CD", "CC", "PRP$", "NN", "NN", "VBZ", "RB", "JJ", "PRP", "."]
+    text: 'Consider what you have to earn to be able to spend the $3000 and your building time is well worth it.'
+    tokens: [[0, 8], [9, 13], [14, 17], [18, 22], [23, 25], [26, 30], [31, 33], [34, 36], [37, 41], [42, 44], [45, 50], [51, 54], [55, 56], [56, 60], [61, 64], [65, 69], [70, 78], [79, 83], [84, 86], [87, 91], [92, 97], [98, 100], [100, 101]]
+    wn16_key: [[0, "consider%2:31:01::"], [5, "earn%2:40:01::"], [7, "be%2:42:03::"], [10, "spend%2:40:00::"], [18, "be%2:42:03::"]]
+    wn30_key: [[0, "consider%2:31:01::"], [5, "earn%2:40:01::"], [7, "be%2:42:03::"], [10, "spend%2:40:00::"], [18, "be%2:42:03::"]]
 Vxqo:
     lemmas: ["A", "Gator", "trailer", ",", "model", "565", ",", "be", "use", "to", "transport", "the", "boat", "to", "the", "waterway", "."]
     oewn_key: [[8, "oewn-01161188-v"], [10, "oewn-01957669-v"]]
@@ -269,16 +268,14 @@ v22a:
     wn16_key: [[5, "buy%2:40:00::"], [9, "rip%2:35:01::"]]
     wn30_key: [[5, "buy%2:40:00::"], [9, "rip%2:35:01::"]]
 yAPc:
-    lemmas: ["Besides", "flathead", "bronze", "screw", ",", "silicon", "bronze", "Stronghold", "nail", "(", "make", "by", "independent_nail", "+", "packing_co.", ",", "Bridgewater", ",", "mass", ".", ")", "be", "use", "extensively", "in", "assembly", "and", "Weldwood", "resorcinal", "glue", "be", "use", "in_all", "the", "joint", "."]
+    lemmas: ["Besides", "flathead", "bronze", "screw", ",", "silicon", "bronze", "Stronghold", "nail", "(", "make", "by", "independent_nail", "+", "packing_co.", ",", "Bridgewater", ",", "mass", ".", ")", "be", "use", "extensively", "in", "assembly", "and", "Weldwood", "resorcinal", "glue", "be", "use", "in", "all", "the", "joint", "."]
     oewn_key: [[10, "oewn-01620211-v"], [22, "oewn-01161188-v"], [31, "oewn-01161188-v"]]
     paragraph: '4'
-    pos: ["IN", "JJ", "NN", "NNS", ",", "NN", "NN", "JJ", "NNS", "NN", "VBN", "IN", "NNP", "CC", "NNP", ",", "NNP", ",", "NNP", ".", "NN", "VBP", "VBN", "RB", "IN", "NN", "CC", "NNP", "JJ", "NN", "VBZ", "VBN", "RB", "DT", "NNS", "."]
-    text: 'Besides flathead bronze screws, silicon bronze Stronghold nails (made by Independent_Nail
-  + Packing_Co., Bridgewater, Mass .) are used extensively in assembly and Weldwood
-  resorcinal glue is used in_all the joints.
+    pos: ["IN", "JJ", "NN", "NNS", ",", "NN", "NN", "JJ", "NNS", "NN", "VBN", "IN", "NNP", "CC", "NNP", ",", "NNP", ",", "NNP", ".", "NN", "VBP", "VBN", "RB", "IN", "NN", "CC", "NNP", "JJ", "NN", "VBZ", "VBN", "IN", "PDT", "DT", "NNS", "."]
+    text: 'Besides flathead bronze screws, silicon bronze Stronghold nails (made by Independent_Nail + Packing_Co., Bridgewater, Mass .) are used extensively in assembly and Weldwood resorcinal glue is used in all the joints.
 
   '
-    tokens: [[0, 7], [8, 16], [17, 23], [24, 30], [30, 31], [32, 39], [40, 46], [47, 57], [58, 63], [64, 65], [65, 69], [70, 72], [73, 89], [90, 91], [92, 103], [103, 104], [105, 116], [116, 117], [118, 122], [123, 124], [124, 125], [126, 129], [130, 134], [135, 146], [147, 149], [150, 158], [159, 162], [163, 171], [172, 182], [183, 187], [188, 190], [191, 195], [196, 202], [203, 206], [207, 213], [213, 214]]
+    tokens: [[0, 7], [8, 16], [17, 23], [24, 30], [30, 31], [32, 39], [40, 46], [47, 57], [58, 63], [64, 65], [65, 69], [70, 72], [73, 89], [90, 91], [92, 103], [103, 104], [105, 116], [116, 117], [118, 122], [123, 124], [124, 125], [126, 129], [130, 134], [135, 146], [147, 149], [150, 158], [159, 162], [163, 171], [172, 182], [183, 187], [188, 190], [191, 195], [196, 198], [199, 202], [203, 206], [207, 213], [213, 214]]
     wn16_key: [[10, "make%2:36:00::"], [22, "use%2:34:01::"], [31, "use%2:34:01::"]]
     wn30_key: [[10, "make%2:36:00::"], [22, "use%2:34:01::"], [31, "use%2:34:01::"]]
 KDaA:
@@ -330,13 +327,12 @@ k+Ho:
     wn16_key: [[4, "make%2:36:00::"], [9, "lap%2:42:00::"], [11, "glue%2:35:00::"], [13, "fasten%2:35:01::"]]
     wn30_key: [[4, "make%2:36:00::"], [9, "lap%2:42:00::"], [11, "glue%2:35:00::"], [13, "fasten%2:35:01::"]]
 VDpK:
-    lemmas: ["After", "notch", "it", "for", "the", "keelson", ",", "chine", "and", "batten", ",", "the", "half-inch", "plywood", "transom", "be", "secure", "to_it", "with", "glue", "and", "the", "same", "type", "nail", "."]
+    lemmas: ["After", "notch", "it", "for", "the", "keelson", ",", "chine", "and", "batten", ",", "the", "half-inch", "plywood", "transom", "be", "secure", "to", "it", "with", "glue", "and", "the", "same", "type", "nail", "."]
     oewn_key: [[1, "oewn-01279534-v"], [16, "oewn-01343121-v"]]
     paragraph: '6'
-    pos: ["IN", "VBG", "PRP", "IN", "DT", "NN", ",", "NNS", "CC", "NNS", ",", "DT", "JJ", "NN", "NN", "VBZ", "VBN", "RB", "IN", "NN", "CC", "DT", "JJ", "NN", "NNS", "."]
-    text: 'After notching it for the keelson, chines and battens, the half-inch plywood transom
-  is secured to_it with glue and the same type nails.'
-    tokens: [[0, 5], [6, 14], [15, 17], [18, 21], [22, 25], [26, 33], [33, 34], [35, 41], [42, 45], [46, 53], [53, 54], [55, 58], [59, 68], [69, 76], [77, 84], [85, 87], [88, 95], [96, 101], [102, 106], [107, 111], [112, 115], [116, 119], [120, 124], [125, 129], [130, 135], [135, 136]]
+    pos: ["IN", "VBG", "PRP", "IN", "DT", "NN", ",", "NNS", "CC", "NNS", ",", "DT", "JJ", "NN", "NN", "VBZ", "VBN", "IN", "PRP", "IN", "NN", "CC", "DT", "JJ", "NN", "NNS", "."]
+    text: 'After notching it for the keelson, chines and battens, the half-inch plywood transom is secured to it with glue and the same type nails.'
+    tokens: [[0, 5], [6, 14], [15, 17], [18, 21], [22, 25], [26, 33], [33, 34], [35, 41], [42, 45], [46, 53], [53, 54], [55, 58], [59, 68], [69, 76], [77, 84], [85, 87], [88, 95], [96, 98], [99, 101], [102, 106], [107, 111], [112, 115], [116, 119], [120, 124], [125, 129], [130, 135], [135, 136]]
     wn16_key: [[1, "notch%2:35:00::"], [16, "secure%2:35:01::"]]
     wn30_key: [[1, "notch%2:35:00::"], [16, "secure%2:35:01::"]]
 J7Dy:
@@ -359,15 +355,14 @@ J7Dy:
     wn16_key: [[3, "notch%2:35:00::"]]
     wn30_key: [[3, "notch%2:35:00::"]]
 eJPo:
-    lemmas: ["If", "notch", "for", "the", "batten", ",", "they", "would", "require", "more", "work", ",", "be", "weaken", "and", "limber", "hole", "would", "have_to", "be", "bore", "so_that", "bilge", "water", "could", "flow", "through", "."]
-    oewn_key: [[1, "oewn-01279534-v"], [8, "oewn-02634015-v"], [13, "oewn-00225327-v"], [20, "oewn-01445640-v"], [25, "oewn-02070867-v"]]
+    lemmas: ["If", "notch", "for", "the", "batten", ",", "they", "would", "require", "more", "work", ",", "be", "weaken", "and", "limber", "hole", "would", "have", "to", "be", "bore", "so", "that", "bilge", "water", "could", "flow", "through", "."]
+    oewn_key: [[1, "oewn-01279534-v"], [8, "oewn-02634015-v"], [13, "oewn-00225327-v"], [21, "oewn-01445640-v"], [27, "oewn-02070867-v"]]
     paragraph: '6'
-    pos: ["IN", "VBN", "IN", "DT", "NNS", ",", "PRP", "MD", "VB", "JJR", "NN", ",", "VB", "VB", "CC", "JJ", "NNS", "MD", "VB", "VB", "VBN", "RB", "NN", "NN", "MD", "VB", "RB", "."]
-    text: 'If notched for the battens, they would require more work, be weakened and limber
-  holes would have_to be bored so_that bilge water could flow through.'
-    tokens: [[0, 2], [3, 10], [11, 14], [15, 18], [19, 26], [26, 27], [28, 32], [33, 38], [39, 46], [47, 51], [52, 56], [56, 57], [58, 60], [61, 69], [70, 73], [74, 80], [81, 86], [87, 92], [93, 100], [101, 103], [104, 109], [110, 117], [118, 123], [124, 129], [130, 135], [136, 140], [141, 148], [148, 149]]
-    wn16_key: [[1, "notch%2:35:00::"], [8, "require%2:42:00::"], [13, "weaken%2:30:01::"], [20, "bore%2:35:00::"], [25, "flow%2:38:00::"]]
-    wn30_key: [[1, "notch%2:35:00::"], [8, "require%2:42:00::"], [13, "weaken%2:30:01::"], [20, "bore%2:35:00::"], [25, "flow%2:38:00::"]]
+    pos: ["IN", "VBN", "IN", "DT", "NNS", ",", "PRP", "MD", "VB", "JJR", "NN", ",", "VB", "VB", "CC", "JJ", "NNS", "MD", "VBP", "TO", "VB", "VBN", "IN", "IN", "NN", "NN", "MD", "VB", "RB", "."]
+    text: 'If notched for the battens, they would require more work, be weakened and limber holes would have to be bored so that bilge water could flow through.'
+    tokens: [[0, 2], [3, 10], [11, 14], [15, 18], [19, 26], [26, 27], [28, 32], [33, 38], [39, 46], [47, 51], [52, 56], [56, 57], [58, 60], [61, 69], [70, 73], [74, 80], [81, 86], [87, 92], [93, 97], [98, 100], [101, 103], [104, 109], [110, 112], [113, 117], [118, 123], [124, 129], [130, 135], [136, 140], [141, 148], [148, 149]]
+    wn16_key: [[1, "notch%2:35:00::"], [8, "require%2:42:00::"], [13, "weaken%2:30:01::"], [21, "bore%2:35:00::"], [27, "flow%2:38:00::"]]
+    wn30_key: [[1, "notch%2:35:00::"], [8, "require%2:42:00::"], [13, "weaken%2:30:01::"], [21, "bore%2:35:00::"], [27, "flow%2:38:00::"]]
 Qau1:
     lemmas: ["nowhere", "in", "the", "boat", "do", "the", "frame", "come", "in", "contact", "with", "the", "plywood", "planking", "."]
     oewn_key: [[7, "oewn-00342572-v"]]
@@ -723,13 +718,12 @@ zJ8g:
     wn16_key: [[3, "use%2:34:01::"]]
     wn30_key: [[3, "use%2:34:01::"]]
 74UY:
-    lemmas: ["plank", "the", "side", "first", ",", "use", "glue", "and", "one-inch", ",", "no.", "12", "Stronghold", "nail", "at_all", "batten", ",", "the", "stem", "and", "the", "transom", "."]
+    lemmas: ["plank", "the", "side", "first", ",", "use", "glue", "and", "one-inch", ",", "no.", "12", "Stronghold", "nail", "at", "all", "batten", ",", "the", "stem", "and", "the", "transom", "."]
     oewn_key: [[0, "oewn-01338841-v"], [5, "oewn-01161188-v"]]
     paragraph: '13'
-    pos: ["VB", "DT", "NNS", "JJ", ",", "VBG", "NN", "CC", "JJ", ",", "NN", "CD", "JJ", "NNS", "RB", "NNS", ",", "DT", "NN", "CC", "DT", "NN", "."]
-    text: 'Plank the sides first, using glue and one-inch, No. 12 Stronghold nails at_all battens,
-  the stem and the transom.'
-    tokens: [[0, 5], [6, 9], [10, 15], [16, 21], [21, 22], [23, 28], [29, 33], [34, 37], [38, 46], [46, 47], [48, 51], [52, 54], [55, 65], [66, 71], [72, 78], [79, 86], [86, 87], [88, 91], [92, 96], [97, 100], [101, 104], [105, 112], [112, 113]]
+    pos: ["VB", "DT", "NNS", "JJ", ",", "VBG", "NN", "CC", "JJ", ",", "NN", "CD", "JJ", "NNS", "IN", "PDT", "NNS", ",", "DT", "NN", "CC", "DT", "NN", "."]
+    text: 'Plank the sides first, using glue and one-inch, No. 12 Stronghold nails at all battens, the stem and the transom.'
+    tokens: [[0, 5], [6, 9], [10, 15], [16, 21], [21, 22], [23, 28], [29, 33], [34, 37], [38, 46], [46, 47], [48, 51], [52, 54], [55, 65], [66, 71], [72, 74], [75, 78], [79, 86], [86, 87], [88, 91], [92, 96], [97, 100], [101, 104], [105, 112], [112, 113]]
     wn16_key: [[0, "plank%2:35:00::"], [5, "use%2:34:01::"]]
     wn30_key: [[0, "plank%2:35:00::"], [5, "use%2:34:01::"]]
 C/ah:
@@ -933,15 +927,14 @@ pdxy:
     wn16_key: [[1, "use%2:34:01::"], [5, "mix_in%2:30:00::"], [11, "add%2:30:00::"]]
     wn30_key: [[1, "use%2:34:01::"], [5, "mix_in%2:30:00::"], [11, "add%2:30:00::"]]
 S839:
-    lemmas: ["use", "a", "cheap", "brush", ",", "coat", "one", "side", "of", "the", "bottom", "with", "the", "resin", "and_then", "apply", "the", "cloth", "."]
-    oewn_key: [[0, "oewn-01161188-v"], [5, "oewn-01266847-v"], [15, "oewn-01366351-v"]]
+    lemmas: ["use", "a", "cheap", "brush", ",", "coat", "one", "side", "of", "the", "bottom", "with", "the", "resin", "and", "then", "apply", "the", "cloth", "."]
+    oewn_key: [[0, "oewn-01161188-v"], [5, "oewn-01266847-v"], [16, "oewn-01366351-v"]]
     paragraph: '15'
-    pos: ["VBG", "DT", "JJ", "NN", ",", "VB", "CD", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "RB", "VBP", "DT", "NN", "."]
-    text: 'Using a cheap brush, coat one side of the bottom with the resin and_then apply the
-  cloth.'
-    tokens: [[0, 5], [6, 7], [8, 13], [14, 19], [19, 20], [21, 25], [26, 29], [30, 34], [35, 37], [38, 41], [42, 48], [49, 53], [54, 57], [58, 63], [64, 72], [73, 78], [79, 82], [83, 88], [88, 89]]
-    wn16_key: [[0, "use%2:34:01::"], [5, "coat%2:35:00::"], [15, "apply%2:35:00::"]]
-    wn30_key: [[0, "use%2:34:01::"], [5, "coat%2:35:00::"], [15, "apply%2:35:00::"]]
+    pos: ["VBG", "DT", "JJ", "NN", ",", "VB", "CD", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "CC", "RB", "VBP", "DT", "NN", "."]
+    text: 'Using a cheap brush, coat one side of the bottom with the resin and then apply the cloth.'
+    tokens: [[0, 5], [6, 7], [8, 13], [14, 19], [19, 20], [21, 25], [26, 29], [30, 34], [35, 37], [38, 41], [42, 48], [49, 53], [54, 57], [58, 63], [64, 67], [68, 72], [73, 78], [79, 82], [83, 88], [88, 89]]
+    wn16_key: [[0, "use%2:34:01::"], [5, "coat%2:35:00::"], [16, "apply%2:35:00::"]]
+    wn30_key: [[0, "use%2:34:01::"], [5, "coat%2:35:00::"], [16, "apply%2:35:00::"]]
 p/Fm:
     lemmas: ["When", "the", "cloth", "be", "smooth", ",", "apply", "another", "coat", "of", "resin", ",", "spread", "it", "with", "a", "paint_roller", "."]
     oewn_key: [[3, "oewn-02610777-v"], [6, "oewn-01366351-v"], [12, "oewn-01381221-v"]]
@@ -952,16 +945,16 @@ p/Fm:
     wn16_key: [[3, "be%2:42:03::"], [6, "apply%2:35:00::"], [12, "spread%2:35:00::"]]
     wn30_key: [[3, "be%2:42:03::"], [6, "apply%2:35:00::"], [12, "spread%2:35:00::"]]
 6eDT:
-    lemmas: ["be", "sure", "it", "be", "well", "saturated", "and_then", "allow", "it", "to", "harden", "."]
-    oewn_key: [[0, "oewn-02610777-v"], [3, "oewn-02610777-v"], [7, "oewn-00726112-v"], [10, "oewn-00444071-v"]]
+    lemmas: ["be", "sure", "it", "be", "well", "saturated", "and", "then", "allow", "it", "to", "harden", "."]
+    oewn_key: [[0, "oewn-02610777-v"], [3, "oewn-02610777-v"], [8, "oewn-00726112-v"], [11, "oewn-00444071-v"]]
     paragraph: '15'
-    pos: ["VB", "JJ", "PRP", "VBZ", "JJ", "JJ", "RB", "VBP", "PRP", "TO", "VB", "."]
-    text: 'Be sure it is well saturated and_then allow it to harden.
+    pos: ["VB", "JJ", "PRP", "VBZ", "JJ", "JJ", "CC", "RB", "VBP", "PRP", "TO", "VB", "."]
+    text: 'Be sure it is well saturated and then allow it to harden.
 
   '
-    tokens: [[0, 2], [3, 7], [8, 10], [11, 13], [14, 18], [19, 28], [29, 37], [38, 43], [44, 46], [47, 49], [50, 56], [56, 57]]
-    wn16_key: [[0, "be%2:42:03::"], [3, "be%2:42:03::"], [7, "allow%2:31:01::"], [10, "harden%2:30:00::"]]
-    wn30_key: [[0, "be%2:42:03::"], [3, "be%2:42:03::"], [7, "allow%2:31:01::"], [10, "harden%2:30:00::"]]
+    tokens: [[0, 2], [3, 7], [8, 10], [11, 13], [14, 18], [19, 28], [29, 32], [33, 37], [38, 43], [44, 46], [47, 49], [50, 56], [56, 57]]
+    wn16_key: [[0, "be%2:42:03::"], [3, "be%2:42:03::"], [8, "allow%2:31:01::"], [11, "harden%2:30:00::"]]
+    wn30_key: [[0, "be%2:42:03::"], [3, "be%2:42:03::"], [8, "allow%2:31:01::"], [11, "harden%2:30:00::"]]
 56SL:
     lemmas: ["When", "the", "whole", "bottom", "have", "harden", ",", "use", "a", "disk", "sander", "to", "feather", "the", "edge", "of", "the", "cloth", "at", "the", "keel", "line", "and", "near", "the", "spray", "rail", "."]
     oewn_key: [[5, "oewn-00444071-v"], [7, "oewn-01161188-v"], [12, "oewn-01275479-v"]]

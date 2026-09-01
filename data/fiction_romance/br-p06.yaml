@@ -326,17 +326,16 @@ rxXE:
     wn16_key: [[1, "call%2:32:02::"], [6, "go%2:41:00::"], [10, "make%2:29:08::"], [13, "bring%2:38:00::"]]
     wn30_key: [[1, "call%2:32:02::"], [6, "go%2:41:00::"], [10, "make%2:29:08::"], [13, "bring%2:38:00::"]]
 4CI9:
-    lemmas: ["They", "be", "up", "there", "in_that", "freezing", "climate", "and", "all_of", "us", "have", "to", "try", "and", "help", "them", "\"", "."]
-    oewn_key: [[1, "oewn-02661230-v"], [10, "oewn-00065141-v;oewn-02383544-v;oewn-02746620-v"], [12, "oewn-02535833-v"], [14, "oewn-02553283-v"]]
+    lemmas: ["They", "be", "up", "there", "in", "that", "freezing", "climate", "and", "all", "of", "us", "have", "to", "try", "and", "help", "them", "\"", "."]
+    oewn_key: [[1, "oewn-02661230-v"], [12, "oewn-00065141-v;oewn-02383544-v;oewn-02746620-v"], [14, "oewn-02535833-v"], [16, "oewn-02553283-v"]]
     paragraph: '10'
-    pos: ["PRP", "VBP", "IN", "EX", "RB", "JJ", "NN", "CC", "JJ", "PRP", "VBP", "VB", "VB", "CC", "VB", "PRP", "``", "."]
-    text: 'They''re up there in_that freezing climate and all_of us have to try and help them
-  ".
+    pos: ["PRP", "VBP", "IN", "EX", "IN", "DT", "JJ", "NN", "CC", "PDT", "IN", "PRP", "VBP", "VB", "VB", "CC", "VB", "PRP", "``", "."]
+    text: 'They''re up there in that freezing climate and all of us have to try and help them ".
 
   '
-    tokens: [[0, 4], [4, 7], [8, 10], [11, 16], [17, 24], [25, 33], [34, 41], [42, 45], [46, 52], [53, 55], [56, 60], [61, 63], [64, 67], [68, 71], [72, 76], [77, 81], [82, 83], [83, 84]]
-    wn16_key: [[1, "be%2:42:05::"], [10, "have%2:42:05::"], [12, "try%2:41:00::"], [14, "help%2:41:00::"]]
-    wn30_key: [[1, "be%2:42:05::"], [10, "have%2:29:02::;have%2:41:00::;have%2:42:12::"], [12, "try%2:41:00::"], [14, "help%2:41:00::"]]
+    tokens: [[0, 4], [4, 7], [8, 10], [11, 16], [17, 19], [20, 24], [25, 33], [34, 41], [42, 45], [46, 49], [50, 52], [53, 55], [56, 60], [61, 63], [64, 67], [68, 71], [72, 76], [77, 81], [82, 83], [83, 84]]
+    wn16_key: [[1, "be%2:42:05::"], [12, "have%2:42:05::"], [14, "try%2:41:00::"], [16, "help%2:41:00::"]]
+    wn30_key: [[1, "be%2:42:05::"], [12, "have%2:29:02::;have%2:41:00::;have%2:42:12::"], [14, "try%2:41:00::"], [16, "help%2:41:00::"]]
 7PMg:
     lemmas: ["\"", "Oh", "\"", "?"]
     oewn_key: []
@@ -705,16 +704,16 @@ sQYm:
     wn16_key: [[3, "be%2:41:00::"]]
     wn30_key: [[3, "be%2:41:00::"]]
 02kM:
-    lemmas: ["\"", "god", ",", "I", "take", "it", ",", "play", "no", "part", "in_this", "\"", ",", "she", "say", "waspishly", "."]
-    oewn_key: [[4, "oewn-00626148-v"], [7, "oewn-02375741-v"], [14, "oewn-01011267-v"]]
+    lemmas: ["\"", "god", ",", "I", "take", "it", ",", "play", "no", "part", "in", "this", "\"", ",", "she", "say", "waspishly", "."]
+    oewn_key: [[4, "oewn-00626148-v"], [7, "oewn-02375741-v"], [15, "oewn-01011267-v"]]
     paragraph: '24'
-    pos: ["``", "NNP", ",", "PRP", "VBP", "VB", ",", "VBZ", "DT", "NN", "RB", "''", ",", "PRP", "VBD", "RB", "."]
-    text: '"God, I take it, plays no part in_this", she said waspishly.
+    pos: ["``", "NNP", ",", "PRP", "VBP", "VB", ",", "VBZ", "DT", "NN", "IN", "DT", "''", ",", "PRP", "VBD", "RB", "."]
+    text: '"God, I take it, plays no part in this", she said waspishly.
 
   '
-    tokens: [[0, 1], [1, 4], [4, 5], [6, 7], [8, 12], [13, 15], [15, 16], [17, 22], [23, 25], [26, 30], [31, 38], [38, 39], [39, 40], [41, 44], [45, 49], [50, 59], [59, 60]]
-    wn16_key: [[4, "take%2:31:07::"], [7, "play%2:41:12::"], [14, "say%2:32:00::"]]
-    wn30_key: [[4, "take%2:31:07::"], [7, "play%2:41:12::"], [14, "say%2:32:00::"]]
+    tokens: [[0, 1], [1, 4], [4, 5], [6, 7], [8, 12], [13, 15], [15, 16], [17, 22], [23, 25], [26, 30], [31, 33], [34, 38], [38, 39], [39, 40], [41, 44], [45, 49], [50, 59], [59, 60]]
+    wn16_key: [[4, "take%2:31:07::"], [7, "play%2:41:12::"], [15, "say%2:32:00::"]]
+    wn30_key: [[4, "take%2:31:07::"], [7, "play%2:41:12::"], [15, "say%2:32:00::"]]
 ODCa:
     lemmas: ["\"", "god", "do", "n't", "have", "any", "appliance", "or", "cosmetic", "\"", ",", "he", "say", "heatedly", "before", "he", "catch", "himself", "."]
     oewn_key: [[4, "oewn-02209474-v"], [12, "oewn-01011267-v"], [16, "oewn-02516571-v"]]
@@ -734,16 +733,16 @@ JGoz:
     wn16_key: [[1, "sound%2:39:06::"], [5, "go_on%2:42:00::"]]
     wn30_key: [[1, "sound%2:39:06::"], [5, "go_on%2:42:00::"]]
 8Vkq:
-    lemmas: ["more", "people", "be", "pass", ";", "he", "have_to", "find", "some", "way", "to", "close", "this", "impossible", "conversation", "."]
-    oewn_key: [[3, "oewn-02055618-v"], [7, "oewn-02218118-v"], [11, "oewn-02430760-v"]]
+    lemmas: ["more", "people", "be", "pass", ";", "he", "have", "to", "find", "some", "way", "to", "close", "this", "impossible", "conversation", "."]
+    oewn_key: [[3, "oewn-02055618-v"], [8, "oewn-02218118-v"], [12, "oewn-02430760-v"]]
     paragraph: '25'
-    pos: ["RBR", "NNS", "VBD", "VBG", ":", "PRP", "VB", "VBP", "DT", "NN", "TO", "VB", "DT", "JJ", "NN", "."]
-    text: 'More people were passing; he had_to find some way to close this impossible conversation.
+    pos: ["RBR", "NNS", "VBD", "VBG", ":", "PRP", "VBD", "TO", "VBP", "DT", "NN", "TO", "VB", "DT", "JJ", "NN", "."]
+    text: 'More people were passing; he had to find some way to close this impossible conversation.
 
   '
-    tokens: [[0, 4], [5, 11], [12, 16], [17, 24], [24, 25], [26, 28], [29, 35], [36, 40], [41, 45], [46, 49], [50, 52], [53, 58], [59, 63], [64, 74], [75, 87], [87, 88]]
-    wn16_key: [[3, "pass%2:38:05::"], [7, "find%2:40:01::"], [11, "close%2:41:01::"]]
-    wn30_key: [[3, "pass%2:38:05::"], [7, "find%2:40:01::"], [11, "close%2:41:01::"]]
+    tokens: [[0, 4], [5, 11], [12, 16], [17, 24], [24, 25], [26, 28], [29, 32], [33, 35], [36, 40], [41, 45], [46, 49], [50, 52], [53, 58], [59, 63], [64, 74], [75, 87], [87, 88]]
+    wn16_key: [[3, "pass%2:38:05::"], [8, "find%2:40:01::"], [12, "close%2:41:01::"]]
+    wn30_key: [[3, "pass%2:38:05::"], [8, "find%2:40:01::"], [12, "close%2:41:01::"]]
 74Ld:
     lemmas: ["\"", "And", "whiskey", "\"", ",", "she", "say", ",", "smile", "and", "blink", "at", "the", "highball", "glasses", "."]
     oewn_key: [[6, "oewn-01011267-v"], [8, "oewn-00028558-v"], [10, "oewn-00007739-v"]]
@@ -981,16 +980,16 @@ ZCyQ:
     wn16_key: [[1, "feel%2:37:00::"]]
     wn30_key: [[1, "feel%2:37:00::"]]
 qUsK:
-    lemmas: ["With", "any", "luck", "at_all", "he", "could", "easily", "find", "a", "flowerpot", "."]
-    oewn_key: [[7, "oewn-02253273-v"]]
+    lemmas: ["With", "any", "luck", "at", "all", "he", "could", "easily", "find", "a", "flowerpot", "."]
+    oewn_key: [[8, "oewn-02253273-v"]]
     paragraph: '32'
-    pos: ["IN", "DT", "NN", "RB", "PRP", "MD", "RB", "VB", "DT", "NN", "."]
-    text: 'With any luck at_all he could easily find a flowerpot.
+    pos: ["IN", "DT", "NN", "IN", "PDT", "PRP", "MD", "RB", "VB", "DT", "NN", "."]
+    text: 'With any luck at all he could easily find a flowerpot.
 
   '
-    tokens: [[0, 4], [5, 8], [9, 13], [14, 20], [21, 23], [24, 29], [30, 36], [37, 41], [42, 43], [44, 53], [53, 54]]
-    wn16_key: [[7, "find%2:40:02::"]]
-    wn30_key: [[7, "find%2:40:02::"]]
+    tokens: [[0, 4], [5, 8], [9, 13], [14, 16], [17, 20], [21, 23], [24, 29], [30, 36], [37, 41], [42, 43], [44, 53], [53, 54]]
+    wn16_key: [[8, "find%2:40:02::"]]
+    wn30_key: [[8, "find%2:40:02::"]]
 +aKf:
     lemmas: ["Although", "it", "be", "only", "three", "o", "'", "clock", ",", "he", "stop", "in", "at", "the", "golden_calf", "."]
     oewn_key: [[2, "oewn-02610777-v"], [10, "oewn-01866904-v"]]
@@ -1131,17 +1130,16 @@ P+Z9:
     wn16_key: [[1, "be%2:42:03::"], [4, "see%2:39:00::"], [6, "play%2:33:01::"], [13, "arrange%2:35:00::"]]
     wn30_key: [[1, "be%2:42:03::"], [4, "see%2:39:00::"], [6, "play%2:33:01::"], [13, "arrange%2:35:00::"]]
 +2MZ:
-    lemmas: ["She", "sit_down", "and", "play", "two", "slot", "at_once", ",", "look", "grim", ",", "as", "if", "best", "by", "mechanical_devices", ",", "and", "owen", "feel", "sorry_for", "the", "lay-sister", "depend_on", "her", "support", "."]
-    oewn_key: [[1, "oewn-01988916-v"], [3, "oewn-01141337-v"], [8, "oewn-00033592-v"], [13, "oewn-01111670-v"], [19, "oewn-01775456-v"]]
+    lemmas: ["She", "sit_down", "and", "play", "two", "slot", "at", "once", ",", "look", "grim", ",", "as", "if", "best", "by", "mechanical_devices", ",", "and", "owen", "feel", "sorry_for", "the", "lay-sister", "depend_on", "her", "support", "."]
+    oewn_key: [[1, "oewn-01988916-v"], [3, "oewn-01141337-v"], [9, "oewn-00033592-v"], [14, "oewn-01111670-v"], [20, "oewn-01775456-v"]]
     paragraph: '36'
-    pos: ["PRP", "VB", "CC", "VBD", "CD", "NNS", "RB", ",", "VBG", "JJ", ",", "IN", "IN", "VBN", "IN", "NN", ",", "CC", "NNP", "VBD", "JJ", "DT", "NNS", "VB", "PRP$", "NN", "."]
-    text: 'She sat_down and played two slots at_once, looking grim, as if bested by mechanical_devices,
-  and Owen felt sorry_for the lay-sisters depending_on her support.
+    pos: ["PRP", "VB", "CC", "VBD", "CD", "NNS", "IN", "RB", ",", "VBG", "JJ", ",", "IN", "IN", "VBN", "IN", "NN", ",", "CC", "NNP", "VBD", "JJ", "DT", "NNS", "VB", "PRP$", "NN", "."]
+    text: 'She sat_down and played two slots at once, looking grim, as if bested by mechanical_devices, and Owen felt sorry_for the lay-sisters depending_on her support.
 
   '
-    tokens: [[0, 3], [4, 12], [13, 16], [17, 23], [24, 27], [28, 33], [34, 41], [41, 42], [43, 50], [51, 55], [55, 56], [57, 59], [60, 62], [63, 69], [70, 72], [73, 91], [91, 92], [93, 96], [97, 101], [102, 106], [107, 116], [117, 120], [121, 132], [133, 145], [146, 149], [150, 157], [157, 158]]
-    wn16_key: [[1, "sit_down%2:38:00::"], [3, "play%2:33:01::"], [8, "look%2:29:00::"], [13, "best%2:33:00::"], [19, "feel%2:37:00::"], [23, "depend_on%2:31:00::"]]
-    wn30_key: [[1, "sit_down%2:38:00::"], [3, "play%2:33:01::"], [8, "look%2:29:00::"], [13, "best%2:33:00::"], [19, "feel%2:37:00::"]]
+    tokens: [[0, 3], [4, 12], [13, 16], [17, 23], [24, 27], [28, 33], [34, 36], [37, 41], [41, 42], [43, 50], [51, 55], [55, 56], [57, 59], [60, 62], [63, 69], [70, 72], [73, 91], [91, 92], [93, 96], [97, 101], [102, 106], [107, 116], [117, 120], [121, 132], [133, 145], [146, 149], [150, 157], [157, 158]]
+    wn16_key: [[1, "sit_down%2:38:00::"], [3, "play%2:33:01::"], [9, "look%2:29:00::"], [14, "best%2:33:00::"], [20, "feel%2:37:00::"], [24, "depend_on%2:31:00::"]]
+    wn30_key: [[1, "sit_down%2:38:00::"], [3, "play%2:33:01::"], [9, "look%2:29:00::"], [14, "best%2:33:00::"], [20, "feel%2:37:00::"]]
 pyf1:
     lemmas: ["A", "dried-up", "cowboy", "sit_down", "next", "to", "him", "in", "the", "blonde", "'s", "place", "."]
     oewn_key: [[3, "oewn-01988916-v"]]
@@ -1210,15 +1208,14 @@ uIOq:
     wn16_key: [[4, "log%2:32:00::"], [9, "explain%2:32:00::"]]
     wn30_key: [[4, "log%2:32:00::"], [9, "explain%2:32:00::"]]
 UL7L:
-    lemmas: ["\"", "I", "keep", "all", "these", "play", "in_this", "little", "black_book", ",", "and", "I", "watch", "over", "a", "twelve-hour", "period", "to", "find_out", "what", "numbers", "be", "repeat", "."]
-    oewn_key: [[2, "oewn-02207166-v"], [12, "oewn-02460829-v"], [18, "oewn-00920843-v"], [22, "oewn-00343988-v"]]
+    lemmas: ["\"", "I", "keep", "all", "these", "play", "in", "this", "little", "black_book", ",", "and", "I", "watch", "over", "a", "twelve-hour", "period", "to", "find_out", "what", "numbers", "be", "repeat", "."]
+    oewn_key: [[2, "oewn-02207166-v"], [13, "oewn-02460829-v"], [19, "oewn-00920843-v"], [23, "oewn-00343988-v"]]
     paragraph: '39'
-    pos: ["``", "PRP", "VBP", "DT", "DT", "NN", "RB", "JJ", "NN", ",", "CC", "PRP", "VBP", "RB", "DT", "JJ", "NN", "TO", "VB", "WP", "NNS", "VBP", "VBG", "."]
-    text: '" I keep all these plays in_this little black_book, and I watch over a twelve-hour
-  period to find_out what numbers are repeating.'
-    tokens: [[0, 1], [2, 3], [4, 8], [9, 12], [13, 18], [19, 24], [25, 32], [33, 39], [40, 50], [50, 51], [52, 55], [56, 57], [58, 63], [64, 68], [69, 70], [71, 82], [83, 89], [90, 92], [93, 101], [102, 106], [107, 114], [115, 118], [119, 128], [128, 129]]
-    wn16_key: [[2, "keep%2:40:00::"], [12, "watch%2:41:00::"], [18, "find_out%2:32:00::"], [22, "repeat%2:30:00::"]]
-    wn30_key: [[2, "keep%2:40:00::"], [12, "watch%2:41:00::"], [18, "find_out%2:32:00::"], [22, "repeat%2:30:00::"]]
+    pos: ["``", "PRP", "VBP", "DT", "DT", "NN", "IN", "DT", "JJ", "NN", ",", "CC", "PRP", "VBP", "RB", "DT", "JJ", "NN", "TO", "VB", "WP", "NNS", "VBP", "VBG", "."]
+    text: '" I keep all these plays in this little black_book, and I watch over a twelve-hour period to find_out what numbers are repeating.'
+    tokens: [[0, 1], [2, 3], [4, 8], [9, 12], [13, 18], [19, 24], [25, 27], [28, 32], [33, 39], [40, 50], [50, 51], [52, 55], [56, 57], [58, 63], [64, 68], [69, 70], [71, 82], [83, 89], [90, 92], [93, 101], [102, 106], [107, 114], [115, 118], [119, 128], [128, 129]]
+    wn16_key: [[2, "keep%2:40:00::"], [13, "watch%2:41:00::"], [19, "find_out%2:32:00::"], [23, "repeat%2:30:00::"]]
+    wn30_key: [[2, "keep%2:40:00::"], [13, "watch%2:41:00::"], [19, "find_out%2:32:00::"], [23, "repeat%2:30:00::"]]
 R03a:
     lemmas: ["But", "roulette", "be", "not", "my", "game", "."]
     oewn_key: [[2, "oewn-02622439-v"]]

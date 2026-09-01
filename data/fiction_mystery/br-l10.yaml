@@ -322,12 +322,12 @@ dI48:
     wn16_key: [[2, "n't%4:02:00::"], [4, "ever%4:02:04::"], [6, "go_home%2:38:00::"]]
     wn30_key: [[4, "ever%4:02:04::"], [6, "go_home%2:38:00::"]]
 9ypI:
-    lemmas: ["\"", "It", "sure_as_hell", "do", "n't", "look", "like", "it", ",", "do_it", "?"]
+    lemmas: ["\"", "It", "sure_as_hell", "do", "n't", "look", "like", "it", ",", "do", "it", "?"]
     oewn_key: [[5, "oewn-02137900-v"]]
     paragraph: '12'
-    pos: ["``", "PRP", "NN", "VBZ", "RB", "VB", "VB", "PRP", ",", "VB", "."]
-    text: '" It sure_as_hell doesn''t look like it, does_it?'
-    tokens: [[0, 1], [2, 4], [5, 17], [18, 22], [22, 25], [26, 30], [31, 35], [36, 38], [38, 39], [40, 47], [47, 48]]
+    pos: ["``", "PRP", "NN", "VBZ", "RB", "VB", "VB", "PRP", ",", "VBZ", "PRP", "."]
+    text: '" It sure_as_hell doesn''t look like it, does it?'
+    tokens: [[0, 1], [2, 4], [5, 17], [18, 22], [22, 25], [26, 30], [31, 35], [36, 38], [38, 39], [40, 44], [45, 47], [47, 48]]
     wn16_key: [[4, "n't%4:02:00::"], [5, "look%2:39:01::"]]
     wn30_key: [[5, "look%2:39:01::"]]
 OPX/:
@@ -1813,17 +1813,16 @@ Dteh:
     wn16_key: [[2, "morning%1:28:00::"], [4, "person%1:03:00::"], [6, "return%1:04:01::"], [8, "however%4:02:04::"], [11, "strength%1:07:00::"], [12, "leave%2:31:05::"]]
     wn30_key: [[2, "morning%1:28:00::"], [4, "person%1:03:00::"], [6, "return%1:04:01::"], [8, "however%4:02:04::"], [11, "strength%1:07:00::"], [12, "leave%2:31:05::"]]
 +Nad:
-    lemmas: ["two", "hour", "of", "watch", "his", "serenely", "happy", "face", ",", "listen", "to", "his", "soft", "humming", "as", "he", "bend", "over", "his", "penciled", "figure", ",", "and", "person", "have_to", "leave", "."]
-    oewn_key: [[0, "oewn-02194109-s"], [1, "oewn-15252642-n"], [3, "oewn-02154940-v"], [5, "oewn-00452127-r"], [6, "oewn-01151786-a"], [7, "oewn-04686776-n"], [9, "oewn-02174335-v"], [12, "oewn-01457415-a"], [13, "oewn-01256531-n"], [16, "oewn-02036982-v"], [19, "oewn-03163722-a"], [20, "oewn-13763162-n"], [23, "oewn-00007846-n"], [25, "oewn-02019450-v"]]
+    lemmas: ["two", "hour", "of", "watch", "his", "serenely", "happy", "face", ",", "listen", "to", "his", "soft", "humming", "as", "he", "bend", "over", "his", "penciled", "figure", ",", "and", "person", "have", "to", "leave", "."]
+    oewn_key: [[0, "oewn-02194109-s"], [1, "oewn-15252642-n"], [3, "oewn-02154940-v"], [5, "oewn-00452127-r"], [6, "oewn-01151786-a"], [7, "oewn-04686776-n"], [9, "oewn-02174335-v"], [12, "oewn-01457415-a"], [13, "oewn-01256531-n"], [16, "oewn-02036982-v"], [19, "oewn-03163722-a"], [20, "oewn-13763162-n"], [23, "oewn-00007846-n"], [26, "oewn-02019450-v"]]
     paragraph: '93'
-    pos: ["JJ", "NNS", "IN", "VBG", "PRP$", "RB", "JJ", "NN", ",", "VBG", "VB", "PRP$", "JJ", "NN", "IN", "PRP", "VB", "VB", "PRP$", "JJ", "NNS", ",", "CC", "NN", "VB", "VB", "."]
-    text: 'Two hours of watching his serenely happy face, listening to his soft humming as
-  he bent over his penciled figures, and Blanche had_to leave.
+    pos: ["JJ", "NNS", "IN", "VBG", "PRP$", "RB", "JJ", "NN", ",", "VBG", "VB", "PRP$", "JJ", "NN", "IN", "PRP", "VB", "VB", "PRP$", "JJ", "NNS", ",", "CC", "NN", "VBD", "TO", "VB", "."]
+    text: 'Two hours of watching his serenely happy face, listening to his soft humming as he bent over his penciled figures, and Blanche had to leave.
 
   '
-    tokens: [[0, 3], [4, 9], [10, 12], [13, 21], [22, 25], [26, 34], [35, 40], [41, 45], [45, 46], [47, 56], [57, 59], [60, 63], [64, 68], [69, 76], [77, 79], [80, 82], [83, 87], [88, 92], [93, 96], [97, 105], [106, 113], [113, 114], [115, 118], [119, 126], [127, 133], [134, 139], [139, 140]]
-    wn16_key: [[0, "two%5:00:00:cardinal:00"], [1, "hour%1:28:00::"], [3, "watch%2:39:00::"], [5, "serenely%4:02:00::"], [6, "happy%3:00:00::"], [7, "face%1:07:00::"], [9, "listen%2:39:00::"], [12, "soft%3:00:04::"], [13, "humming%1:04:00::"], [16, "bend%2:38:01::"], [19, "penciled%3:44:00::"], [20, "figure%1:23:00::"], [23, "person%1:03:00::"], [25, "leave%2:38:00::"]]
-    wn30_key: [[0, "two%3:00:00:cardinal:00"], [1, "hour%1:28:00::"], [3, "watch%2:39:00::"], [5, "serenely%4:02:00::"], [6, "happy%3:00:00::"], [7, "face%1:07:00::"], [9, "listen%2:39:00::"], [12, "soft%3:00:04::"], [13, "humming%1:04:00::"], [16, "bend%2:38:01::"], [19, "penciled%3:44:00::"], [20, "figure%1:23:00::"], [23, "person%1:03:00::"], [25, "leave%2:38:00::"]]
+    tokens: [[0, 3], [4, 9], [10, 12], [13, 21], [22, 25], [26, 34], [35, 40], [41, 45], [45, 46], [47, 56], [57, 59], [60, 63], [64, 68], [69, 76], [77, 79], [80, 82], [83, 87], [88, 92], [93, 96], [97, 105], [106, 113], [113, 114], [115, 118], [119, 126], [127, 130], [131, 133], [134, 139], [139, 140]]
+    wn16_key: [[0, "two%5:00:00:cardinal:00"], [1, "hour%1:28:00::"], [3, "watch%2:39:00::"], [5, "serenely%4:02:00::"], [6, "happy%3:00:00::"], [7, "face%1:07:00::"], [9, "listen%2:39:00::"], [12, "soft%3:00:04::"], [13, "humming%1:04:00::"], [16, "bend%2:38:01::"], [19, "penciled%3:44:00::"], [20, "figure%1:23:00::"], [23, "person%1:03:00::"], [26, "leave%2:38:00::"]]
+    wn30_key: [[0, "two%3:00:00:cardinal:00"], [1, "hour%1:28:00::"], [3, "watch%2:39:00::"], [5, "serenely%4:02:00::"], [6, "happy%3:00:00::"], [7, "face%1:07:00::"], [9, "listen%2:39:00::"], [12, "soft%3:00:04::"], [13, "humming%1:04:00::"], [16, "bend%2:38:01::"], [19, "penciled%3:44:00::"], [20, "figure%1:23:00::"], [23, "person%1:03:00::"], [26, "leave%2:38:00::"]]
 jw0q:
     lemmas: ["She", "stay", "away", "for", "ten", "day", "."]
     oewn_key: [[1, "oewn-01861378-v"], [2, "oewn-00236283-r"], [4, "oewn-02194935-s"], [5, "oewn-15180180-n"]]

@@ -27,15 +27,14 @@ _meta:
         base: tokens
         data: string
 SZ1S:
-    lemmas: ["It", "be", "not", "within", "the", "scope", "of_this", "report", "elaborate", "in", "any", "great", "detail", "upon", "special", "district", "in", "rhode_island", "."]
-    oewn_key: [[1, "oewn-02610777-v"], [8, "oewn-00957633-v"]]
+    lemmas: ["It", "be", "not", "within", "the", "scope", "of", "this", "report", "elaborate", "in", "any", "great", "detail", "upon", "special", "district", "in", "rhode_island", "."]
+    oewn_key: [[1, "oewn-02610777-v"], [9, "oewn-00957633-v"]]
     paragraph: '0'
-    pos: ["PRP", "VBZ", "RB", "IN", "DT", "NN", "RB", "NN", "VB", "IN", "DT", "JJ", "NN", "IN", "JJ", "NNS", "IN", "NN", "."]
-    text: It is not within the scope of_this report elaborate in any great detail upon special
-      districts in Rhode_Island.
-    tokens: [[0, 2], [3, 5], [6, 9], [10, 16], [17, 20], [21, 26], [27, 34], [35, 41], [42, 51], [52, 54], [55, 58], [59, 64], [65, 71], [72, 76], [77, 84], [85, 94], [95, 97], [98, 110], [110, 111]]
-    wn16_key: [[1, "be%2:42:03::"], [8, "elaborate%2:32:00::"]]
-    wn30_key: [[1, "be%2:42:03::"], [8, "elaborate%2:32:00::"]]
+    pos: ["PRP", "VBZ", "RB", "IN", "DT", "NN", "IN", "DT", "NN", "VB", "IN", "DT", "JJ", "NN", "IN", "JJ", "NNS", "IN", "NN", "."]
+    text: 'It is not within the scope of this report elaborate in any great detail upon special districts in Rhode_Island.'
+    tokens: [[0, 2], [3, 5], [6, 9], [10, 16], [17, 20], [21, 26], [27, 29], [30, 34], [35, 41], [42, 51], [52, 54], [55, 58], [59, 64], [65, 71], [72, 76], [77, 84], [85, 94], [95, 97], [98, 110], [110, 111]]
+    wn16_key: [[1, "be%2:42:03::"], [9, "elaborate%2:32:00::"]]
+    wn30_key: [[1, "be%2:42:03::"], [9, "elaborate%2:32:00::"]]
 rnEe:
     lemmas: ["however", ",", "a", "word", "should", "be", "mention", "in", "regard_to", "them", "as", "independent", "unit", "of", "government", "."]
     oewn_key: [[6, "oewn-01026199-v"]]
@@ -204,17 +203,16 @@ WEhm:
     wn16_key: [[5, "close%2:35:06::"], [24, "close%2:35:06::"]]
     wn30_key: [[5, "close%2:35:06::"], [24, "close%2:35:06::"]]
 MD23:
-    lemmas: ["mississippi", "close", "its", "fiscal_year", "on", "june", "30", ",", "while", "all_of", "its", "city", "close", "their", "fiscal_years", "on", "september", "30", "."]
-    oewn_key: [[1, "oewn-02430760-v"], [12, "oewn-02430760-v"]]
+    lemmas: ["mississippi", "close", "its", "fiscal_year", "on", "june", "30", ",", "while", "all", "of", "its", "city", "close", "their", "fiscal_years", "on", "september", "30", "."]
+    oewn_key: [[1, "oewn-02430760-v"], [13, "oewn-02430760-v"]]
     paragraph: '8'
-    pos: ["NNP", "VBZ", "PRP$", "NN", "IN", "NNP", "CD", ",", "IN", "JJ", "PRP$", "NNS", "VBP", "PRP$", "NN", "IN", "NNP", "CD", "."]
-    text: 'Mississippi closes its fiscal_year on June 30, while all_of its cities close their
-  fiscal_years on September 30.
+    pos: ["NNP", "VBZ", "PRP$", "NN", "IN", "NNP", "CD", ",", "IN", "PDT", "IN", "PRP$", "NNS", "VBP", "PRP$", "NN", "IN", "NNP", "CD", "."]
+    text: 'Mississippi closes its fiscal_year on June 30, while all of its cities close their fiscal_years on September 30.
 
   '
-    tokens: [[0, 11], [12, 18], [19, 22], [23, 34], [35, 37], [38, 42], [43, 45], [45, 46], [47, 52], [53, 59], [60, 63], [64, 70], [71, 76], [77, 82], [83, 95], [96, 98], [99, 108], [109, 111], [111, 112]]
-    wn16_key: [[1, "close%2:41:01::"], [12, "close%2:41:01::"]]
-    wn30_key: [[1, "close%2:41:01::"], [12, "close%2:41:01::"]]
+    tokens: [[0, 11], [12, 18], [19, 22], [23, 34], [35, 37], [38, 42], [43, 45], [45, 46], [47, 52], [53, 56], [57, 59], [60, 63], [64, 70], [71, 76], [77, 82], [83, 95], [96, 98], [99, 108], [109, 111], [111, 112]]
+    wn16_key: [[1, "close%2:41:01::"], [13, "close%2:41:01::"]]
+    wn30_key: [[1, "close%2:41:01::"], [13, "close%2:41:01::"]]
 Dk6n:
     lemmas: ["pennsylvania", "close", "its", "fiscal_year", "on", "may", "31", "."]
     oewn_key: [[1, "oewn-02430760-v"]]
@@ -245,17 +243,16 @@ Dk6n:
     wn16_key: [[4, "have%2:42:00::"]]
     wn30_key: [[4, "have%2:42:00::"]]
 wj/A:
-    lemmas: ["however", ",", "only", "illinois", ",", "oregon", ",", "louisiana", "and", "rhode_island", "have", "a", "situation", "in_which", "the", "sundry", "unit", "of", "government", "vary", "widely", "in_relation_to", "fiscal", "uniformity", "."]
-    oewn_key: [[10, "oewn-02636270-v"], [19, "oewn-02667330-v"]]
+    lemmas: ["however", ",", "only", "illinois", ",", "oregon", ",", "louisiana", "and", "rhode_island", "have", "a", "situation", "in", "which", "the", "sundry", "unit", "of", "government", "vary", "widely", "in_relation_to", "fiscal", "uniformity", "."]
+    oewn_key: [[10, "oewn-02636270-v"], [20, "oewn-02667330-v"]]
     paragraph: '10'
-    pos: ["RB", ",", "RB", "NNP", ",", "NNP", ",", "NNP", "CC", "NN", "VBP", "DT", "NN", "RB", "DT", "JJ", "NNS", "IN", "NN", "VBP", "RB", "JJ", "JJ", "NN", "."]
-    text: 'However, only Illinois, Oregon, Louisiana and Rhode_Island have a situation in_which
-  the sundry units of government vary widely in_relation_to fiscal uniformity.
+    pos: ["RB", ",", "RB", "NNP", ",", "NNP", ",", "NNP", "CC", "NN", "VBP", "DT", "NN", "IN", "WDT", "DT", "JJ", "NNS", "IN", "NN", "VBP", "RB", "JJ", "JJ", "NN", "."]
+    text: 'However, only Illinois, Oregon, Louisiana and Rhode_Island have a situation in which the sundry units of government vary widely in_relation_to fiscal uniformity.
 
   '
-    tokens: [[0, 7], [7, 8], [9, 13], [14, 22], [22, 23], [24, 30], [30, 31], [32, 41], [42, 45], [46, 58], [59, 63], [64, 65], [66, 75], [76, 84], [85, 88], [89, 95], [96, 101], [102, 104], [105, 115], [116, 120], [121, 127], [128, 142], [143, 149], [150, 160], [160, 161]]
-    wn16_key: [[10, "have%2:42:00::"], [19, "vary%2:42:00::"]]
-    wn30_key: [[10, "have%2:42:00::"], [19, "vary%2:42:00::"]]
+    tokens: [[0, 7], [7, 8], [9, 13], [14, 22], [22, 23], [24, 30], [30, 31], [32, 41], [42, 45], [46, 58], [59, 63], [64, 65], [66, 75], [76, 78], [79, 84], [85, 88], [89, 95], [96, 101], [102, 104], [105, 115], [116, 120], [121, 127], [128, 142], [143, 149], [150, 160], [160, 161]]
+    wn16_key: [[10, "have%2:42:00::"], [20, "vary%2:42:00::"]]
+    wn30_key: [[10, "have%2:42:00::"], [20, "vary%2:42:00::"]]
 tK7d:
     lemmas: ["An", "excellent", "summary", "of", "advantage", "concern", "the", "uniform", "fiscal_year", "and", "coordinated", "fiscal", "calendar", "be", "contain", "in", "a", "paper", "present", "by", "a", "public", "finance", "authority", "recently", "."]
     oewn_key: [[5, "oewn-02681865-v"], [14, "oewn-02635616-v"], [18, "oewn-00991634-v"]]
@@ -334,15 +331,14 @@ CVx7:
     wn16_key: [[1, "fix%2:32:03::"], [10, "set%2:32:00::"]]
     wn30_key: [[1, "fix%2:32:03::"], [10, "set%2:32:00::"]]
 51eE:
-    lemmas: ["The", "uniform", "fiscal_year", "bring", "the", "town", "'s", "fiscal_year", "into", "line", "with_that", "of", "the", "school", ",", "which", "expend", "the", "large", "share", "of", "local", "disbursement", "."]
-    oewn_key: [[3, "oewn-01441539-v"], [16, "oewn-02271905-v"]]
+    lemmas: ["The", "uniform", "fiscal_year", "bring", "the", "town", "'s", "fiscal_year", "into", "line", "with", "that", "of", "the", "school", ",", "which", "expend", "the", "large", "share", "of", "local", "disbursement", "."]
+    oewn_key: [[3, "oewn-01441539-v"], [17, "oewn-02271905-v"]]
     paragraph: '15'
-    pos: ["DT", "NN", "NN", "VBZ", "DT", "NN", "POS", "NN", "IN", "NN", "RB", "IN", "DT", "NNS", ",", "WDT", "VBD", "DT", "JJS", "NN", "IN", "JJ", "NNS", "."]
-    text: 'The uniform fiscal_year brings the town''s fiscal_year into line with_that of the
-  schools, which expend the largest share of local disbursements.'
-    tokens: [[0, 3], [4, 11], [12, 23], [24, 30], [31, 34], [35, 39], [39, 41], [42, 53], [54, 58], [59, 63], [64, 73], [74, 76], [77, 80], [81, 88], [88, 89], [90, 95], [96, 102], [103, 106], [107, 114], [115, 120], [121, 123], [124, 129], [130, 143], [143, 144]]
-    wn16_key: [[3, "bring%2:35:04::"], [16, "expend%2:40:00::"]]
-    wn30_key: [[3, "bring%2:35:04::"], [16, "expend%2:40:00::"]]
+    pos: ["DT", "NN", "NN", "VBZ", "DT", "NN", "POS", "NN", "IN", "NN", "IN", "DT", "IN", "DT", "NNS", ",", "WDT", "VBD", "DT", "JJS", "NN", "IN", "JJ", "NNS", "."]
+    text: 'The uniform fiscal_year brings the town''s fiscal_year into line with that of the schools, which expend the largest share of local disbursements.'
+    tokens: [[0, 3], [4, 11], [12, 23], [24, 30], [31, 34], [35, 39], [39, 41], [42, 53], [54, 58], [59, 63], [64, 68], [69, 73], [74, 76], [77, 80], [81, 88], [88, 89], [90, 95], [96, 102], [103, 106], [107, 114], [115, 120], [121, 123], [124, 129], [130, 143], [143, 144]]
+    wn16_key: [[3, "bring%2:35:04::"], [17, "expend%2:40:00::"]]
+    wn30_key: [[3, "bring%2:35:04::"], [17, "expend%2:40:00::"]]
 m2TW:
     lemmas: ["This", "greatly", "simplify", "the", "town", "'s", "bookkeeping", "and", "financial", "reporting", "."]
     oewn_key: []
@@ -795,13 +791,12 @@ m002:
     wn16_key: [[2, "need%2:42:00::"], [4, "establish%2:41:00::"], [16, "base%2:31:00::"], [26, "show%2:36:00::"]]
     wn30_key: [[2, "need%2:42:00::"], [4, "establish%2:41:00::"], [16, "base%2:31:00::"], [26, "show%2:36:00::"]]
 5zfY:
-    lemmas: ["Six", "city", "and", "town", "be", "presently", "on", "a", "july_1", "-", "june", "30", "fiscal_year", "and", "have", "coordinate", "their", "tax_collection", "year", "with_it", "."]
+    lemmas: ["Six", "city", "and", "town", "be", "presently", "on", "a", "july_1", "-", "june", "30", "fiscal_year", "and", "have", "coordinate", "their", "tax_collection", "year", "with", "it", "."]
     oewn_key: [[4, "oewn-02610777-v"], [15, "oewn-02442752-v"]]
     paragraph: '28'
-    pos: ["CD", "NNS", "CC", "NNS", "VBP", "RB", "IN", "DT", "NN", ":", "NNP", "CD", "NN", "CC", "VBP", "VBN", "PRP$", "NN", "NN", "RB", "."]
-    text: 'Six cities and towns are presently on a July_1 - June 30 fiscal_year and have coordinated
-  their tax_collection year with_it.'
-    tokens: [[0, 3], [4, 10], [11, 14], [15, 20], [21, 24], [25, 34], [35, 37], [38, 39], [40, 46], [47, 48], [49, 53], [54, 56], [57, 68], [69, 72], [73, 77], [78, 89], [90, 95], [96, 110], [111, 115], [116, 123], [123, 124]]
+    pos: ["CD", "NNS", "CC", "NNS", "VBP", "RB", "IN", "DT", "NN", ":", "NNP", "CD", "NN", "CC", "VBP", "VBN", "PRP$", "NN", "NN", "IN", "PRP", "."]
+    text: 'Six cities and towns are presently on a July_1 - June 30 fiscal_year and have coordinated their tax_collection year with it.'
+    tokens: [[0, 3], [4, 10], [11, 14], [15, 20], [21, 24], [25, 34], [35, 37], [38, 39], [40, 46], [47, 48], [49, 53], [54, 56], [57, 68], [69, 72], [73, 77], [78, 89], [90, 95], [96, 110], [111, 115], [116, 120], [121, 123], [123, 124]]
     wn16_key: [[4, "be%2:42:03::"], [15, "coordinate%2:41:00::"]]
     wn30_key: [[4, "be%2:42:03::"], [15, "coordinate%2:41:00::"]]
 bmg3:
@@ -910,16 +905,14 @@ fFtv:
     wn16_key: [[11, "accomplish%2:36:00::"]]
     wn30_key: [[11, "accomplish%2:36:00::"]]
 6kAI:
-    lemmas: ["in_that", "both", "city", "end", "their", "fiscal_years", "on", "september", "30", ",", "they", "could", "levy", "tax", "for", "an", "interim", "period", "of", "nine", "month", ",", "commence", "with", "september", "30", "and", "end", "with", "june", "30", "."]
-    oewn_key: [[3, "oewn-00353480-v"], [12, "oewn-02311442-v"], [22, "oewn-00346415-v"], [27, "oewn-02615799-v"]]
+    lemmas: ["in", "that", "both", "city", "end", "their", "fiscal_years", "on", "september", "30", ",", "they", "could", "levy", "tax", "for", "an", "interim", "period", "of", "nine", "month", ",", "commence", "with", "september", "30", "and", "end", "with", "june", "30", "."]
+    oewn_key: [[4, "oewn-00353480-v"], [13, "oewn-02311442-v"], [23, "oewn-00346415-v"], [28, "oewn-02615799-v"]]
     paragraph: '32'
-    pos: ["RB", "DT", "NNS", "VBP", "PRP$", "NN", "IN", "NNP", "CD", ",", "PRP", "MD", "VB", "NNS", "IN", "DT", "JJ", "NN", "IN", "CD", "NNS", ",", "VBG", "IN", "NNP", "CD", "CC", "VBG", "IN", "NNP", "CD", "."]
-    text: 'In_that both cities end their fiscal_years on September 30, they could levy taxes
-  for an interim period of nine months, commencing with September 30 and ending with
-  June 30.'
-    tokens: [[0, 7], [8, 12], [13, 19], [20, 23], [24, 29], [30, 42], [43, 45], [46, 55], [56, 58], [58, 59], [60, 64], [65, 70], [71, 75], [76, 81], [82, 85], [86, 88], [89, 96], [97, 103], [104, 106], [107, 111], [112, 118], [118, 119], [120, 130], [131, 135], [136, 145], [146, 148], [149, 152], [153, 159], [160, 164], [165, 169], [170, 172], [172, 173]]
-    wn16_key: [[3, "end%2:30:01::"], [12, "levy%2:40:00::"], [22, "commence%2:30:00::"], [27, "end%2:42:00::"]]
-    wn30_key: [[3, "end%2:30:01::"], [12, "levy%2:40:00::"], [22, "commence%2:30:00::"], [27, "end%2:42:00::"]]
+    pos: ["IN", "IN", "DT", "NNS", "VBP", "PRP$", "NN", "IN", "NNP", "CD", ",", "PRP", "MD", "VB", "NNS", "IN", "DT", "JJ", "NN", "IN", "CD", "NNS", ",", "VBG", "IN", "NNP", "CD", "CC", "VBG", "IN", "NNP", "CD", "."]
+    text: 'In that both cities end their fiscal_years on September 30, they could levy taxes for an interim period of nine months, commencing with September 30 and ending with June 30.'
+    tokens: [[0, 2], [3, 7], [8, 12], [13, 19], [20, 23], [24, 29], [30, 42], [43, 45], [46, 55], [56, 58], [58, 59], [60, 64], [65, 70], [71, 75], [76, 81], [82, 85], [86, 88], [89, 96], [97, 103], [104, 106], [107, 111], [112, 118], [118, 119], [120, 130], [131, 135], [136, 145], [146, 148], [149, 152], [153, 159], [160, 164], [165, 169], [170, 172], [172, 173]]
+    wn16_key: [[4, "end%2:30:01::"], [13, "levy%2:40:00::"], [23, "commence%2:30:00::"], [28, "end%2:42:00::"]]
+    wn30_key: [[4, "end%2:30:01::"], [13, "levy%2:40:00::"], [23, "commence%2:30:00::"], [28, "end%2:42:00::"]]
 1/2x:
     lemmas: ["These", "three", "installment", "date", "would", "be", ":"]
     oewn_key: [[5, "oewn-02622439-v"]]
@@ -980,15 +973,14 @@ R6A1:
     wn16_key: [[4, "have%2:42:00::"], [7, "end%2:42:00::"]]
     wn30_key: [[4, "have%2:42:00::"], [7, "end%2:42:00::"]]
 QOsn:
-    lemmas: ["All_of", "these", "town", "will", "require", "adjustment", "of", "both", "their", "fiscal", "and", "tax_collection", "years", "."]
-    oewn_key: [[4, "oewn-02634015-v"]]
+    lemmas: ["All", "of", "these", "town", "will", "require", "adjustment", "of", "both", "their", "fiscal", "and", "tax_collection", "years", "."]
+    oewn_key: [[5, "oewn-02634015-v"]]
     paragraph: '33'
-    pos: ["JJ", "DT", "NNS", "MD", "VB", "NNS", "IN", "DT", "PRP$", "JJ", "CC", "NN", "NNS", "."]
-    text: 'All_of these towns will require adjustments of both their fiscal and tax_collection
-  years.'
-    tokens: [[0, 6], [7, 12], [13, 18], [19, 23], [24, 31], [32, 43], [44, 46], [47, 51], [52, 57], [58, 64], [65, 68], [69, 83], [84, 89], [89, 90]]
-    wn16_key: [[4, "require%2:42:00::"]]
-    wn30_key: [[4, "require%2:42:00::"]]
+    pos: ["PDT", "IN", "DT", "NNS", "MD", "VB", "NNS", "IN", "DT", "PRP$", "JJ", "CC", "NN", "NNS", "."]
+    text: 'All of these towns will require adjustments of both their fiscal and tax_collection years.'
+    tokens: [[0, 3], [4, 6], [7, 12], [13, 18], [19, 23], [24, 31], [32, 43], [44, 46], [47, 51], [52, 57], [58, 64], [65, 68], [69, 83], [84, 89], [89, 90]]
+    wn16_key: [[5, "require%2:42:00::"]]
+    wn30_key: [[5, "require%2:42:00::"]]
 vhhX:
     lemmas: ["assume", "an", "adjustment", "to", "the", "july_1", "-", "june", "30", "fiscal_year", ",", "the", "required", "adjustment", "of", "the", "tax_collection", "years", "and", "the", "town", "involve", "be", "show", "in", "table", "3", "."]
     oewn_key: [[0, "oewn-00633898-v"], [21, "oewn-02682907-v"], [23, "oewn-01690851-v"]]
@@ -1110,15 +1102,13 @@ oyay:
     wn16_key: [[6, "exist%2:42:00::"], [9, "stem%2:42:00::"]]
     wn30_key: [[6, "exist%2:42:00::"], [9, "stem%2:42:00::"]]
 hhPp:
-    lemmas: ["For", "those", "community", "which", "have", "financial", "difficulty", "in", "effect", "adjustment", ",", "there", "be", "a_number_of", "alternative", "any", "one", "of_which", "alone", ",", "or", "in", "combination", "with", "other", ",", "would", "minimize", "if_not", "even", "eliminate", "the", "problem", "."]
-    oewn_key: [[4, "oewn-02636270-v"], [8, "oewn-01646466-v"], [27, "oewn-00428755-v"], [30, "oewn-00472642-v"]]
+    lemmas: ["For", "those", "community", "which", "have", "financial", "difficulty", "in", "effect", "adjustment", ",", "there", "be", "a_number_of", "alternative", "any", "one", "of", "which", "alone", ",", "or", "in", "combination", "with", "other", ",", "would", "minimize", "if", "not", "even", "eliminate", "the", "problem", "."]
+    oewn_key: [[4, "oewn-02636270-v"], [8, "oewn-01646466-v"], [28, "oewn-00428755-v"], [32, "oewn-00472642-v"]]
     paragraph: '36'
-    pos: ["IN", "DT", "NNS", "WDT", "VBP", "JJ", "NNS", "IN", "VBG", "NNS", ",", "EX", "VB", "JJ", "NNS", "DT", "CD", "RB", "RB", ",", "CC", "IN", "NN", "IN", "NNS", ",", "MD", "VB", "RB", "RB", "VB", "DT", "NN", "."]
-    text: 'For those communities which have financial difficulties in effecting adjustments,
-  there are a_number_of alternatives any one of_which alone, or in combination with
-  others, would minimize if_not even eliminate the problem.
+    pos: ["IN", "DT", "NNS", "WDT", "VBP", "JJ", "NNS", "IN", "VBG", "NNS", ",", "EX", "VB", "JJ", "NNS", "DT", "CD", "IN", "WDT", "RB", ",", "CC", "IN", "NN", "IN", "NNS", ",", "MD", "VB", "IN", "RB", "RB", "VB", "DT", "NN", "."]
+    text: 'For those communities which have financial difficulties in effecting adjustments, there are a_number_of alternatives any one of which alone, or in combination with others, would minimize if not even eliminate the problem.
 
   '
-    tokens: [[0, 3], [4, 9], [10, 21], [22, 27], [28, 32], [33, 42], [43, 55], [56, 58], [59, 68], [69, 80], [80, 81], [82, 87], [88, 91], [92, 103], [104, 116], [117, 120], [121, 124], [125, 133], [134, 139], [139, 140], [141, 143], [144, 146], [147, 158], [159, 163], [164, 170], [170, 171], [172, 177], [178, 186], [187, 193], [194, 198], [199, 208], [209, 212], [213, 220], [220, 221]]
-    wn16_key: [[4, "have%2:42:00::"], [8, "effect%2:36:00::"], [27, "minimize%2:30:00::"], [30, "eliminate%2:30:01::"]]
-    wn30_key: [[4, "have%2:42:00::"], [8, "effect%2:36:00::"], [27, "minimize%2:30:00::"], [30, "eliminate%2:30:01::"]]
+    tokens: [[0, 3], [4, 9], [10, 21], [22, 27], [28, 32], [33, 42], [43, 55], [56, 58], [59, 68], [69, 80], [80, 81], [82, 87], [88, 91], [92, 103], [104, 116], [117, 120], [121, 124], [125, 127], [128, 133], [134, 139], [139, 140], [141, 143], [144, 146], [147, 158], [159, 163], [164, 170], [170, 171], [172, 177], [178, 186], [187, 189], [190, 193], [194, 198], [199, 208], [209, 212], [213, 220], [220, 221]]
+    wn16_key: [[4, "have%2:42:00::"], [8, "effect%2:36:00::"], [28, "minimize%2:30:00::"], [32, "eliminate%2:30:01::"]]
+    wn30_key: [[4, "have%2:42:00::"], [8, "effect%2:36:00::"], [28, "minimize%2:30:00::"], [32, "eliminate%2:30:01::"]]

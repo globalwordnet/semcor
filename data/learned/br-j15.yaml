@@ -344,16 +344,14 @@ HM4D:
     wn16_key: [[1, "clinical%3:01:00::"], [2, "impression%1:09:00::"], [5, "time%1:11:00::"], [6, "be%2:42:06::"], [8, "muscular_dystrophy%1:26:00::"], [10, "polymyositis%1:26:00::"]]
     wn30_key: [[1, "clinical%3:01:00::"], [2, "impression%1:09:00::"], [5, "time%1:11:00::"], [6, "be%2:42:06::"], [8, "muscular_dystrophy%1:26:00::"], [10, "polymyositis%1:26:00::"]]
 jXPZ:
-    lemmas: ["On", "feb", "12", ",", "1959", ",", "purify", "corticotropin", "(", "acth_gel", ")", ",", "20", "unit", "daily", "intramuscularly", ",", "be", "start", "but", "have_to", "be", "discontinue", "3", "week", "later", "because", "of", "excessive", "fluid", "retention", "."]
-    oewn_key: [[1, "oewn-15235282-n"], [6, "oewn-00476114-v"], [7, "oewn-05415456-n"], [12, "oewn-02195956-s"], [13, "oewn-13604927-n"], [14, "oewn-00081836-r"], [15, "oewn-00094603-r"], [18, "oewn-00349400-v"], [22, "oewn-02689663-v"], [23, "oewn-02194219-s"], [24, "oewn-15194920-n"], [25, "oewn-00061741-r"], [28, "oewn-01538069-s"], [29, "oewn-14964038-n"], [30, "oewn-00812259-n"]]
+    lemmas: ["On", "feb", "12", ",", "1959", ",", "purify", "corticotropin", "(", "acth_gel", ")", ",", "20", "unit", "daily", "intramuscularly", ",", "be", "start", "but", "have", "to", "be", "discontinue", "3", "week", "later", "because", "of", "excessive", "fluid", "retention", "."]
+    oewn_key: [[1, "oewn-15235282-n"], [6, "oewn-00476114-v"], [7, "oewn-05415456-n"], [12, "oewn-02195956-s"], [13, "oewn-13604927-n"], [14, "oewn-00081836-r"], [15, "oewn-00094603-r"], [18, "oewn-00349400-v"], [23, "oewn-02689663-v"], [24, "oewn-02194219-s"], [25, "oewn-15194920-n"], [26, "oewn-00061741-r"], [29, "oewn-01538069-s"], [30, "oewn-14964038-n"], [31, "oewn-00812259-n"]]
     paragraph: '6'
-    pos: ["IN", "NNP", "CD", ",", "CD", ",", "VBN", "NN", "NNP", "NN", "NNP", ",", "JJ", "NNS", "RB", "RB", ",", "VBD", "VBN", "CC", "VB", "VB", "VBN", "JJ", "NNS", "RB", "IN", "IN", "JJ", "NN", "NN", "."]
-    text: 'On Feb. 12, 1959, purified corticotropin (ACTH_Gel), 20 units daily intramuscularly,
-  was started but had_to be discontinued 3 weeks later because of excessive fluid
-  retention.'
-    tokens: [[0, 2], [3, 7], [8, 10], [10, 11], [12, 16], [16, 17], [18, 26], [27, 40], [41, 42], [42, 50], [50, 51], [51, 52], [53, 55], [56, 61], [62, 67], [68, 83], [83, 84], [85, 88], [89, 96], [97, 100], [101, 107], [108, 110], [111, 123], [124, 125], [126, 131], [132, 137], [138, 145], [146, 148], [149, 158], [159, 164], [165, 174], [174, 175]]
-    wn16_key: [[1, "feb%1:28:00::"], [6, "purify%2:30:00::"], [7, "corticotropin%1:08:00::"], [12, "20%5:00:00:cardinal:00"], [13, "unit%1:23:00::"], [14, "daily%4:02:00::"], [15, "intramuscularly%4:02:00::"], [18, "start%2:30:01::"], [22, "discontinue%2:42:01::"], [23, "3%5:00:00:cardinal:00"], [24, "week%1:28:00::"], [25, "later%4:02:01::"], [28, "excessive%5:00:00:immoderate:00"], [29, "fluid%1:27:02::"], [30, "retention%1:04:00::"]]
-    wn30_key: [[1, "feb%1:28:00::"], [6, "purify%2:30:00::"], [7, "corticotropin%1:08:00::"], [12, "20%3:00:00:cardinal:00"], [13, "unit%1:23:00::"], [14, "daily%4:02:00::"], [15, "intramuscularly%4:02:00::"], [18, "start%2:30:01::"], [22, "discontinue%2:42:01::"], [23, "3%3:00:00:cardinal:00"], [24, "week%1:28:00::"], [25, "later%4:02:01::"], [28, "excessive%3:00:00:immoderate:00"], [29, "fluid%1:27:02::"], [30, "retention%1:04:00::"]]
+    pos: ["IN", "NNP", "CD", ",", "CD", ",", "VBN", "NN", "NNP", "NN", "NNP", ",", "JJ", "NNS", "RB", "RB", ",", "VBD", "VBN", "CC", "VBD", "TO", "VB", "VBN", "JJ", "NNS", "RB", "IN", "IN", "JJ", "NN", "NN", "."]
+    text: 'On Feb. 12, 1959, purified corticotropin (ACTH_Gel), 20 units daily intramuscularly, was started but had to be discontinued 3 weeks later because of excessive fluid retention.'
+    tokens: [[0, 2], [3, 7], [8, 10], [10, 11], [12, 16], [16, 17], [18, 26], [27, 40], [41, 42], [42, 50], [50, 51], [51, 52], [53, 55], [56, 61], [62, 67], [68, 83], [83, 84], [85, 88], [89, 96], [97, 100], [101, 104], [105, 107], [108, 110], [111, 123], [124, 125], [126, 131], [132, 137], [138, 145], [146, 148], [149, 158], [159, 164], [165, 174], [174, 175]]
+    wn16_key: [[1, "feb%1:28:00::"], [6, "purify%2:30:00::"], [7, "corticotropin%1:08:00::"], [12, "20%5:00:00:cardinal:00"], [13, "unit%1:23:00::"], [14, "daily%4:02:00::"], [15, "intramuscularly%4:02:00::"], [18, "start%2:30:01::"], [23, "discontinue%2:42:01::"], [24, "3%5:00:00:cardinal:00"], [25, "week%1:28:00::"], [26, "later%4:02:01::"], [29, "excessive%5:00:00:immoderate:00"], [30, "fluid%1:27:02::"], [31, "retention%1:04:00::"]]
+    wn30_key: [[1, "feb%1:28:00::"], [6, "purify%2:30:00::"], [7, "corticotropin%1:08:00::"], [12, "20%3:00:00:cardinal:00"], [13, "unit%1:23:00::"], [14, "daily%4:02:00::"], [15, "intramuscularly%4:02:00::"], [18, "start%2:30:01::"], [23, "discontinue%2:42:01::"], [24, "3%3:00:00:cardinal:00"], [25, "week%1:28:00::"], [26, "later%4:02:01::"], [29, "excessive%3:00:00:immoderate:00"], [30, "fluid%1:27:02::"], [31, "retention%1:04:00::"]]
 gZVB:
     lemmas: ["From", "march", "3", "to", "may", "1", ",", "1949", ",", "the", "patient", "be", "maintain", "on", "dexamethasone", ",", "3", "to", "6", "mg", "daily", "."]
     oewn_key: [[1, "oewn-15235666-n"], [4, "oewn-15236280-n"], [10, "oewn-10425439-n"], [12, "oewn-02687605-v"], [14, "oewn-14777987-n"], [16, "oewn-02194219-s"], [18, "oewn-02194472-s"], [19, "oewn-13745171-n"], [20, "oewn-00081836-r"]]
@@ -990,15 +988,14 @@ NcgQ:
     wn16_key: [[1, "change%1:19:00::"], [2, "be%2:42:03::"], [3, "most%4:02:00::"], [4, "marked%5:00:00:noticeable:00"], [7, "gastrocnemius%1:08:00::"], [9, "biceps%1:08:00::"], [11, "less%4:02:00::"], [12, "evident%5:00:00:obvious:00"], [15, "pectoralis%1:08:00::"], [17, "diaphragm%1:08:00::"], [20, "transversus%1:08:00::"]]
     wn30_key: [[1, "change%1:19:00::"], [2, "be%2:42:03::"], [3, "most%4:02:00::"], [4, "marked%3:00:00:noticeable:00"], [7, "gastrocnemius%1:08:00::"], [9, "biceps%1:08:00::"], [11, "less%4:02:00::"], [12, "evident%3:00:00:obvious:00"], [15, "pectoralis%1:08:00::"], [17, "diaphragm%1:08:00::"]]
 dzhq:
-    lemmas: ["In", "the", "gastrocnemius", "and", "biceps", "there", "be", "many", "swollen", "and", "homogeneous", "necrotic", "fiber", "such_as", "that", "show", "in", "figure", "2", "."]
-    oewn_key: [[2, "oewn-05582264-n"], [4, "oewn-05586870-n"], [6, "oewn-02610777-v"], [7, "oewn-01555990-a"], [10, "oewn-01203294-a"], [11, "oewn-02994034-a"], [12, "oewn-14891040-n"], [15, "oewn-02153218-v"], [17, "oewn-07012307-n"]]
+    lemmas: ["In", "the", "gastrocnemius", "and", "biceps", "there", "be", "many", "swollen", "and", "homogeneous", "necrotic", "fiber", "such", "as", "that", "show", "in", "figure", "2", "."]
+    oewn_key: [[2, "oewn-05582264-n"], [4, "oewn-05586870-n"], [6, "oewn-02610777-v"], [7, "oewn-01555990-a"], [10, "oewn-01203294-a"], [11, "oewn-02994034-a"], [12, "oewn-14891040-n"], [16, "oewn-02153218-v"], [18, "oewn-07012307-n"]]
     paragraph: '20'
-    pos: ["IN", "DT", "NNS", "CC", "NNS", "EX", "VBD", "JJ", "JJ", "CC", "JJ", "JJ", "NNS", "JJ", "WDT", "VBN", "IN", "NNP", "CD", "."]
-    text: 'In the gastrocnemius and biceps there were many swollen and homogeneous necrotic
-  fibers such_as that shown in Figure 2.'
-    tokens: [[0, 2], [3, 6], [7, 20], [21, 24], [25, 31], [32, 37], [38, 42], [43, 47], [48, 55], [56, 59], [60, 71], [72, 80], [81, 87], [88, 95], [96, 100], [101, 106], [107, 109], [110, 116], [117, 118], [118, 119]]
-    wn16_key: [[2, "gastrocnemius%1:08:00::"], [4, "biceps%1:08:00::"], [6, "be%2:42:04::"], [7, "many%3:00:00::"], [8, "swollen%5:00:00:unhealthy:00"], [10, "homogeneous%3:00:00::"], [11, "necrotic%3:01:00::"], [12, "fiber%1:27:00::"], [15, "show%2:39:02::"], [17, "figure%1:10:00::"]]
-    wn30_key: [[2, "gastrocnemius%1:08:00::"], [4, "biceps%1:08:00::"], [6, "be%2:42:04::"], [7, "many%3:00:00::"], [10, "homogeneous%3:00:00::"], [11, "necrotic%3:01:00::"], [12, "fiber%1:27:00::"], [15, "show%2:39:02::"], [17, "figure%1:10:00::"]]
+    pos: ["IN", "DT", "NNS", "CC", "NNS", "EX", "VBD", "JJ", "JJ", "CC", "JJ", "JJ", "NNS", "JJ", "IN", "WDT", "VBN", "IN", "NNP", "CD", "."]
+    text: 'In the gastrocnemius and biceps there were many swollen and homogeneous necrotic fibers such as that shown in Figure 2.'
+    tokens: [[0, 2], [3, 6], [7, 20], [21, 24], [25, 31], [32, 37], [38, 42], [43, 47], [48, 55], [56, 59], [60, 71], [72, 80], [81, 87], [88, 92], [93, 95], [96, 100], [101, 106], [107, 109], [110, 116], [117, 118], [118, 119]]
+    wn16_key: [[2, "gastrocnemius%1:08:00::"], [4, "biceps%1:08:00::"], [6, "be%2:42:04::"], [7, "many%3:00:00::"], [8, "swollen%5:00:00:unhealthy:00"], [10, "homogeneous%3:00:00::"], [11, "necrotic%3:01:00::"], [12, "fiber%1:27:00::"], [16, "show%2:39:02::"], [18, "figure%1:10:00::"]]
+    wn30_key: [[2, "gastrocnemius%1:08:00::"], [4, "biceps%1:08:00::"], [6, "be%2:42:04::"], [7, "many%3:00:00::"], [10, "homogeneous%3:00:00::"], [11, "necrotic%3:01:00::"], [12, "fiber%1:27:00::"], [16, "show%2:39:02::"], [18, "figure%1:10:00::"]]
 RHHb:
     lemmas: ["such", "swollen", "fiber", "be", "deeply", "eosinophilic", ",", "contain", "a_few", "pyknotic", "nucleus", ",", "and", "show", "loss", "of", "cross", "striation", ",", "obliteration", "of", "myofibril", ",", "and", "prominent", "vacuolization", "."]
     oewn_key: [[0, "oewn-01558587-s"], [2, "oewn-14891040-n"], [3, "oewn-02610777-v"], [4, "oewn-00174785-r"], [5, "oewn-03021579-a"], [7, "oewn-02635616-v"], [8, "oewn-01557697-s"], [9, "oewn-03021419-a"], [10, "oewn-05442503-n"], [13, "oewn-02153218-v"], [14, "oewn-13530399-n"], [16, "oewn-01448808-s"], [17, "oewn-13931362-n"], [19, "oewn-00219075-n"], [21, "oewn-05467529-n"], [24, "oewn-00583156-s"], [25, "oewn-14101175-n"]]
@@ -1127,14 +1124,13 @@ V+Mn:
     wn16_key: [[0, "trichrome%5:00:00:colored:00"], [1, "stain%1:27:00::"], [2, "fail%2:41:02::"], [4, "show%2:32:00::"], [5, "fibrosis%1:26:00::"], [8, "involved%3:00:00::"], [9, "muscle%1:08:00::"]]
     wn30_key: [[0, "trichrome%3:00:00:colored:00"], [1, "stain%1:27:00::"], [2, "fail%2:41:02::"], [4, "show%2:32:00::"], [5, "fibrosis%1:26:00::"], [8, "involved%3:00:00::"], [9, "muscle%1:08:00::"]]
 9lzs:
-    lemmas: ["in", "all_of", "the", "section", "examine", ",", "the", "arteriole", "and", "small", "artery", "be", "essentially", "normal", "."]
-    oewn_key: [[3, "oewn-09451645-n"], [4, "oewn-00646245-v"], [7, "oewn-05344849-n"], [9, "oewn-01394303-a"], [10, "oewn-05341325-n"], [11, "oewn-02610777-v"], [12, "oewn-00003864-r"], [13, "oewn-01598231-a"]]
+    lemmas: ["in", "all", "of", "the", "section", "examine", ",", "the", "arteriole", "and", "small", "artery", "be", "essentially", "normal", "."]
+    oewn_key: [[4, "oewn-09451645-n"], [5, "oewn-00646245-v"], [8, "oewn-05344849-n"], [10, "oewn-01394303-a"], [11, "oewn-05341325-n"], [12, "oewn-02610777-v"], [13, "oewn-00003864-r"], [14, "oewn-01598231-a"]]
     paragraph: '20'
-    pos: ["RB", "JJ", "DT", "NNS", "VBN", ",", "DT", "NNS", "CC", "JJ", "NNS", "VBD", "RB", "JJ", "."]
-    text: 'In all_of the sections examined, the arterioles and small arteries were essentially
-  normal.
+    pos: ["RB", "PDT", "IN", "DT", "NNS", "VBN", ",", "DT", "NNS", "CC", "JJ", "NNS", "VBD", "RB", "JJ", "."]
+    text: 'In all of the sections examined, the arterioles and small arteries were essentially normal.
 
   '
-    tokens: [[0, 2], [3, 9], [10, 13], [14, 22], [23, 31], [31, 32], [33, 36], [37, 47], [48, 51], [52, 57], [58, 66], [67, 71], [72, 83], [84, 90], [90, 91]]
-    wn16_key: [[3, "section%1:17:00::"], [4, "examine%2:31:00::"], [7, "arteriole%1:08:00::"], [9, "small%3:00:00::"], [10, "artery%1:08:00::"], [11, "be%2:42:03::"], [12, "essentially%4:02:01::"], [13, "normal%3:00:01::"]]
-    wn30_key: [[3, "section%1:17:00::"], [4, "examine%2:31:00::"], [7, "arteriole%1:08:00::"], [9, "small%3:00:00::"], [10, "artery%1:08:00::"], [11, "be%2:42:03::"], [12, "essentially%4:02:01::"], [13, "normal%3:00:01::"]]
+    tokens: [[0, 2], [3, 6], [7, 9], [10, 13], [14, 22], [23, 31], [31, 32], [33, 36], [37, 47], [48, 51], [52, 57], [58, 66], [67, 71], [72, 83], [84, 90], [90, 91]]
+    wn16_key: [[4, "section%1:17:00::"], [5, "examine%2:31:00::"], [8, "arteriole%1:08:00::"], [10, "small%3:00:00::"], [11, "artery%1:08:00::"], [12, "be%2:42:03::"], [13, "essentially%4:02:01::"], [14, "normal%3:00:01::"]]
+    wn30_key: [[4, "section%1:17:00::"], [5, "examine%2:31:00::"], [8, "arteriole%1:08:00::"], [10, "small%3:00:00::"], [11, "artery%1:08:00::"], [12, "be%2:42:03::"], [13, "essentially%4:02:01::"], [14, "normal%3:00:01::"]]

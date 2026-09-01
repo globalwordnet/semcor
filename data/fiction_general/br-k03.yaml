@@ -158,15 +158,14 @@ s4Nu:
     wn16_key: [[0, "person%1:03:00::"], [1, "have%2:42:00::"], [3, "pleasant%3:00:00::"], [4, "glow%1:26:00::"], [7, "say%2:32:00::"], [11, "see%2:31:01::"], [18, "mean%2:31:01::"], [20, "president%1:18:00::"], [22, "person%1:03:00::"], [24, "be%2:42:03::"], [25, "romantic%1:18:00::"]]
     wn30_key: [[0, "person%1:03:00::"], [1, "have%2:42:00::"], [3, "pleasant%3:00:00::"], [4, "glow%1:26:00::"], [7, "say%2:32:00::"], [11, "see%2:31:01::"], [18, "mean%2:31:01::"], [20, "president%1:18:00::"], [22, "person%1:03:00::"], [24, "be%2:42:03::"], [25, "romantic%1:18:00::"]]
 ZsQD:
-    lemmas: ["A", "romantic", "be", "one", "who", "think", "the", "world", "be", "divinely", "inspire", "and", "all", "he", "have_to", "do", "be", "find", "the", "right", "key", ",", "and", "then", "divine", "justice", "and", "altruism", "will", "appear", "."]
-    oewn_key: [[1, "oewn-10557379-n"], [2, "oewn-02622439-v"], [5, "oewn-00691086-v"], [7, "oewn-09489410-n"], [9, "oewn-00191587-r"], [10, "oewn-01816687-v"], [16, "oewn-02622439-v"], [17, "oewn-00920843-v"], [19, "oewn-01885314-s"], [20, "oewn-03618503-n"], [23, "oewn-00118527-r"], [24, "oewn-01183091-s"], [25, "oewn-04857348-n"], [27, "oewn-04840507-n"], [29, "oewn-00423043-v"]]
+    lemmas: ["A", "romantic", "be", "one", "who", "think", "the", "world", "be", "divinely", "inspire", "and", "all", "he", "have", "to", "do", "be", "find", "the", "right", "key", ",", "and", "then", "divine", "justice", "and", "altruism", "will", "appear", "."]
+    oewn_key: [[1, "oewn-10557379-n"], [2, "oewn-02622439-v"], [5, "oewn-00691086-v"], [7, "oewn-09489410-n"], [9, "oewn-00191587-r"], [10, "oewn-01816687-v"], [17, "oewn-02622439-v"], [18, "oewn-00920843-v"], [20, "oewn-01885314-s"], [21, "oewn-03618503-n"], [24, "oewn-00118527-r"], [25, "oewn-01183091-s"], [26, "oewn-04857348-n"], [28, "oewn-04840507-n"], [30, "oewn-00423043-v"]]
     paragraph: '3'
-    pos: ["DT", "NN", "VBZ", "CD", "WP", "VBZ", "DT", "NN", "VBZ", "RB", "VBN", "CC", "DT", "PRP", "VB", "VBP", "VBZ", "VB", "DT", "JJ", "NN", ",", "RB", "RB", "JJ", "NN", "CC", "NN", "MD", "VB", "."]
-    text: 'A romantic is one who thinks the world is divinely inspired and all he has_to do
-  is find the right key, and then divine justice and altruism will appear.'
-    tokens: [[0, 1], [2, 10], [11, 13], [14, 17], [18, 21], [22, 28], [29, 32], [33, 38], [39, 41], [42, 50], [51, 59], [60, 63], [64, 67], [68, 70], [71, 77], [78, 80], [81, 83], [84, 88], [89, 92], [93, 98], [99, 102], [102, 103], [104, 107], [108, 112], [113, 119], [120, 127], [128, 131], [132, 140], [141, 145], [146, 152], [152, 153]]
-    wn16_key: [[1, "romantic%1:18:00::"], [2, "be%2:42:06::"], [5, "think%2:31:01::"], [7, "world%1:17:01::"], [9, "divinely%4:02:00::"], [10, "inspire%2:37:00::"], [16, "be%2:42:06::"], [17, "find%2:32:00::"], [19, "right%5:00:01:proper:00"], [20, "key%1:06:00::"], [23, "then%4:02:00::"], [24, "divine%5:00:00:heavenly:00"], [25, "justice%1:07:00::"], [27, "altruism%1:07:00::"], [29, "appear%2:30:00::"]]
-    wn30_key: [[1, "romantic%1:18:00::"], [2, "be%2:42:06::"], [5, "think%2:31:01::"], [7, "world%1:17:01::"], [9, "divinely%4:02:00::"], [10, "inspire%2:37:00::"], [16, "be%2:42:06::"], [17, "find%2:32:00::"], [19, "right%3:00:01:proper:00"], [20, "key%1:06:00::"], [23, "then%4:02:00::"], [24, "divine%3:00:00:heavenly:00"], [25, "justice%1:07:00::"], [27, "altruism%1:07:00::"], [29, "appear%2:30:00::"]]
+    pos: ["DT", "NN", "VBZ", "CD", "WP", "VBZ", "DT", "NN", "VBZ", "RB", "VBN", "CC", "DT", "PRP", "VBZ", "TO", "VBP", "VBZ", "VB", "DT", "JJ", "NN", ",", "RB", "RB", "JJ", "NN", "CC", "NN", "MD", "VB", "."]
+    text: 'A romantic is one who thinks the world is divinely inspired and all he has to do is find the right key, and then divine justice and altruism will appear.'
+    tokens: [[0, 1], [2, 10], [11, 13], [14, 17], [18, 21], [22, 28], [29, 32], [33, 38], [39, 41], [42, 50], [51, 59], [60, 63], [64, 67], [68, 70], [71, 74], [75, 77], [78, 80], [81, 83], [84, 88], [89, 92], [93, 98], [99, 102], [102, 103], [104, 107], [108, 112], [113, 119], [120, 127], [128, 131], [132, 140], [141, 145], [146, 152], [152, 153]]
+    wn16_key: [[1, "romantic%1:18:00::"], [2, "be%2:42:06::"], [5, "think%2:31:01::"], [7, "world%1:17:01::"], [9, "divinely%4:02:00::"], [10, "inspire%2:37:00::"], [17, "be%2:42:06::"], [18, "find%2:32:00::"], [20, "right%5:00:01:proper:00"], [21, "key%1:06:00::"], [24, "then%4:02:00::"], [25, "divine%5:00:00:heavenly:00"], [26, "justice%1:07:00::"], [28, "altruism%1:07:00::"], [30, "appear%2:30:00::"]]
+    wn30_key: [[1, "romantic%1:18:00::"], [2, "be%2:42:06::"], [5, "think%2:31:01::"], [7, "world%1:17:01::"], [9, "divinely%4:02:00::"], [10, "inspire%2:37:00::"], [17, "be%2:42:06::"], [18, "find%2:32:00::"], [20, "right%3:00:01:proper:00"], [21, "key%1:06:00::"], [24, "then%4:02:00::"], [25, "divine%3:00:00:heavenly:00"], [26, "justice%1:07:00::"], [28, "altruism%1:07:00::"], [30, "appear%2:30:00::"]]
 9CK8:
     lemmas: ["It", "'s", "like", "focus", "a", "camera", ";", "the", "distant", "ship", "be", "n't", "there", "until", "you", "get", "the", "focus", "."]
     oewn_key: [[3, "oewn-02166352-v"], [5, "oewn-02946154-n"], [8, "oewn-00447582-a"], [9, "oewn-04201332-n"], [10, "oewn-02661230-v"], [12, "oewn-00109919-r"], [15, "oewn-02215637-v"], [17, "oewn-04710583-n"]]
@@ -1210,15 +1209,14 @@ Znjl:
     wn16_key: [[0, "person%1:03:00::"], [1, "be%2:42:03::"], [3, "ideal%1:18:00::"]]
     wn30_key: [[0, "person%1:03:00::"], [1, "be%2:42:03::"], [3, "ideal%1:18:00::"]]
 BWXQ:
-    lemmas: ["at_the_same_time", ",", "you", "have_to", "face", "fact", "and", "realize", "that", "a", "man", "who", "'s", "be", "in", "the", "marine_corps", "all", "his", "life", "do", "n't", "understand", "much", "about", "politics", "."]
-    oewn_key: [[4, "oewn-01081176-v"], [5, "oewn-06648784-n"], [7, "oewn-00592510-v"], [10, "oewn-10306910-n"], [13, "oewn-02661230-v"], [16, "oewn-08209900-n"], [19, "oewn-15165704-n"], [22, "oewn-00590283-v"], [23, "oewn-01557986-a"], [25, "oewn-13862918-n"]]
+    lemmas: ["at_the_same_time", ",", "you", "have", "to", "face", "fact", "and", "realize", "that", "a", "man", "who", "'s", "be", "in", "the", "marine_corps", "all", "his", "life", "do", "n't", "understand", "much", "about", "politics", "."]
+    oewn_key: [[5, "oewn-01081176-v"], [6, "oewn-06648784-n"], [8, "oewn-00592510-v"], [11, "oewn-10306910-n"], [14, "oewn-02661230-v"], [17, "oewn-08209900-n"], [20, "oewn-15165704-n"], [23, "oewn-00590283-v"], [24, "oewn-01557986-a"], [26, "oewn-13862918-n"]]
     paragraph: '19'
-    pos: ["JJ", ",", "PRP", "VB", "VB", "NNS", "CC", "VBP", "IN", "DT", "NN", "WP", "POS", "VBN", "IN", "DT", "NNS", "DT", "PRP$", "NN", "VBZ", "RB", "VB", "JJ", "IN", "NNS", "."]
-    text: 'At_the_same_time, you have_to face facts and realize that a man who''s been in the
-  Marine_Corps all his life doesn''t understand much about politics.'
-    tokens: [[0, 16], [16, 17], [18, 21], [22, 29], [30, 34], [35, 40], [41, 44], [45, 52], [53, 57], [58, 59], [60, 63], [64, 67], [67, 69], [70, 74], [75, 77], [78, 81], [82, 94], [95, 98], [99, 102], [103, 107], [108, 112], [112, 115], [116, 126], [127, 131], [132, 137], [138, 146], [146, 147]]
-    wn16_key: [[0, "at_the_same_time%5:00:00:synchronous:00"], [4, "face%2:33:00::"], [5, "fact%1:10:01::"], [7, "realize%2:31:00::"], [10, "man%1:18:00::"], [13, "be%2:42:05::"], [16, "marine_corps%1:14:00::"], [19, "life%1:28:01::"], [21, "n't%4:02:00::"], [22, "understand%2:31:00::"], [23, "much%3:00:00::"], [25, "politics%1:24:00::"]]
-    wn30_key: [[4, "face%2:33:00::"], [5, "fact%1:10:01::"], [7, "realize%2:31:00::"], [10, "man%1:18:00::"], [13, "be%2:42:05::"], [16, "marine_corps%1:14:00::"], [19, "life%1:28:01::"], [22, "understand%2:31:00::"], [23, "much%3:00:00::"], [25, "politics%1:24:00::"]]
+    pos: ["JJ", ",", "PRP", "VBP", "TO", "VB", "NNS", "CC", "VBP", "IN", "DT", "NN", "WP", "POS", "VBN", "IN", "DT", "NNS", "DT", "PRP$", "NN", "VBZ", "RB", "VB", "JJ", "IN", "NNS", "."]
+    text: 'At_the_same_time, you have to face facts and realize that a man who''s been in the Marine_Corps all his life doesn''t understand much about politics.'
+    tokens: [[0, 16], [16, 17], [18, 21], [22, 26], [27, 29], [30, 34], [35, 40], [41, 44], [45, 52], [53, 57], [58, 59], [60, 63], [64, 67], [67, 69], [70, 74], [75, 77], [78, 81], [82, 94], [95, 98], [99, 102], [103, 107], [108, 112], [112, 115], [116, 126], [127, 131], [132, 137], [138, 146], [146, 147]]
+    wn16_key: [[0, "at_the_same_time%5:00:00:synchronous:00"], [5, "face%2:33:00::"], [6, "fact%1:10:01::"], [8, "realize%2:31:00::"], [11, "man%1:18:00::"], [14, "be%2:42:05::"], [17, "marine_corps%1:14:00::"], [20, "life%1:28:01::"], [22, "n't%4:02:00::"], [23, "understand%2:31:00::"], [24, "much%3:00:00::"], [26, "politics%1:24:00::"]]
+    wn30_key: [[5, "face%2:33:00::"], [6, "fact%1:10:01::"], [8, "realize%2:31:00::"], [11, "man%1:18:00::"], [14, "be%2:42:05::"], [17, "marine_corps%1:14:00::"], [20, "life%1:28:01::"], [23, "understand%2:31:00::"], [24, "much%3:00:00::"], [26, "politics%1:24:00::"]]
 /Xu2:
     lemmas: ["What", "do", "a", "monk", "know", "about", "sex", "\"", "?"]
     oewn_key: [[3, "oewn-10131898-n"], [4, "oewn-00596016-v"], [6, "oewn-00845915-n"]]
@@ -1243,14 +1241,14 @@ BWXQ:
     wn16_key: [[0, "person%1:03:00::"], [1, "listen%2:39:00::"], [4, "practiced%5:00:00:skilled:00"], [6, "deceptive%5:00:00:unreal:02"], [7, "calm%1:07:00::"], [10, "lawyer%1:18:00::"], [14, "face%1:07:00::"], [15, "be%2:42:05::"], [18, "shadow%1:26:01::"]]
     wn30_key: [[0, "person%1:03:00::"], [1, "listen%2:39:00::"], [4, "practiced%3:00:00:skilled:00"], [6, "deceptive%3:00:00:unreal:02"], [7, "calm%1:07:00::"], [10, "lawyer%1:18:00::"], [14, "face%1:07:00::"], [15, "be%2:42:05::"], [18, "shadow%1:26:01::"]]
 ttJ0:
-    lemmas: ["\"", "so", ",", "we", "have_to", "protect", "the", "old_man", "for", "his", "own", "good", "."]
-    oewn_key: [[5, "oewn-01130619-v"], [7, "oewn-10395205-n"], [10, "oewn-01773236-s"], [11, "oewn-04856472-n"]]
+    lemmas: ["\"", "so", ",", "we", "have", "to", "protect", "the", "old_man", "for", "his", "own", "good", "."]
+    oewn_key: [[6, "oewn-01130619-v"], [8, "oewn-10395205-n"], [11, "oewn-01773236-s"], [12, "oewn-04856472-n"]]
     paragraph: '21'
-    pos: ["``", "JJ", ",", "PRP", "VB", "VBP", "DT", "NN", "IN", "PRP$", "JJ", "NN", "."]
-    text: '" So, we have_to protect the old_man for his own good.'
-    tokens: [[0, 1], [2, 4], [4, 5], [6, 8], [9, 16], [17, 24], [25, 28], [29, 36], [37, 40], [41, 44], [45, 48], [49, 53], [53, 54]]
-    wn16_key: [[1, "so%5:00:00:true:00"], [5, "protect%2:33:00::"], [7, "old_man%1:18:02::"], [10, "own%5:00:00:personal:00"], [11, "good%1:07:01::"]]
-    wn30_key: [[5, "protect%2:33:00::"], [7, "old_man%1:18:02::"], [10, "own%3:00:00:personal:00"], [11, "good%1:07:01::"]]
+    pos: ["``", "JJ", ",", "PRP", "VBP", "TO", "VBP", "DT", "NN", "IN", "PRP$", "JJ", "NN", "."]
+    text: '" So, we have to protect the old_man for his own good.'
+    tokens: [[0, 1], [2, 4], [4, 5], [6, 8], [9, 13], [14, 16], [17, 24], [25, 28], [29, 36], [37, 40], [41, 44], [45, 48], [49, 53], [53, 54]]
+    wn16_key: [[1, "so%5:00:00:true:00"], [6, "protect%2:33:00::"], [8, "old_man%1:18:02::"], [11, "own%5:00:00:personal:00"], [12, "good%1:07:01::"]]
+    wn30_key: [[6, "protect%2:33:00::"], [8, "old_man%1:18:02::"], [11, "own%3:00:00:personal:00"], [12, "good%1:07:01::"]]
 vfwL:
     lemmas: ["You", "see", "what", "I", "mean", "."]
     oewn_key: [[1, "oewn-00592510-v"], [4, "oewn-00957180-v"]]
@@ -1261,15 +1259,14 @@ vfwL:
     wn16_key: [[1, "see%2:31:01::"], [4, "mean%2:32:01::"]]
     wn30_key: [[1, "see%2:31:01::"], [4, "mean%2:32:01::"]]
 VQHi:
-    lemmas: ["group", "be", "full", "of", "politician", ",", "and", "if", "you", "want", "to", "get_along_with", "them", ",", "you", "have_to", "be", "politic", "."]
-    oewn_key: [[0, "oewn-00031563-n"], [1, "oewn-02610777-v"], [2, "oewn-01086845-a"], [4, "oewn-10470837-n"], [9, "oewn-01829179-v"], [11, "oewn-02463998-v"], [16, "oewn-02610777-v"], [17, "oewn-01818685-a"]]
+    lemmas: ["group", "be", "full", "of", "politician", ",", "and", "if", "you", "want", "to", "get_along_with", "them", ",", "you", "have", "to", "be", "politic", "."]
+    oewn_key: [[0, "oewn-00031563-n"], [1, "oewn-02610777-v"], [2, "oewn-01086845-a"], [4, "oewn-10470837-n"], [9, "oewn-01829179-v"], [11, "oewn-02463998-v"], [17, "oewn-02610777-v"], [18, "oewn-01818685-a"]]
     paragraph: '21'
-    pos: ["NNP", "VBZ", "JJ", "JJ", "NNS", ",", "CC", "IN", "PRP", "VBP", "VB", "VB", "PRP", ",", "PRP", "VB", "VB", "JJ", "."]
-    text: 'Congress is full of politicians, and if you want to get_along_with them, you have_to
-  be politic.'
-    tokens: [[0, 8], [9, 11], [12, 16], [17, 19], [20, 31], [31, 32], [33, 36], [37, 39], [40, 43], [44, 48], [49, 51], [52, 66], [67, 71], [71, 72], [73, 76], [77, 84], [85, 87], [88, 95], [95, 96]]
-    wn16_key: [[0, "group%1:03:00::"], [1, "be%2:42:03::"], [2, "full%3:00:00::"], [4, "politician%1:18:01::"], [9, "want%2:37:00::"], [11, "get_along_with%2:41:00::"], [16, "be%2:42:03::"], [17, "politic%3:00:00::"]]
-    wn30_key: [[0, "group%1:03:00::"], [1, "be%2:42:03::"], [2, "full%3:00:00::"], [4, "politician%1:18:01::"], [9, "want%2:37:00::"], [11, "get_along_with%2:41:00::"], [16, "be%2:42:03::"], [17, "politic%3:00:00::"]]
+    pos: ["NNP", "VBZ", "JJ", "JJ", "NNS", ",", "CC", "IN", "PRP", "VBP", "VB", "VB", "PRP", ",", "PRP", "VBP", "TO", "VB", "JJ", "."]
+    text: 'Congress is full of politicians, and if you want to get_along_with them, you have to be politic.'
+    tokens: [[0, 8], [9, 11], [12, 16], [17, 19], [20, 31], [31, 32], [33, 36], [37, 39], [40, 43], [44, 48], [49, 51], [52, 66], [67, 71], [71, 72], [73, 76], [77, 81], [82, 84], [85, 87], [88, 95], [95, 96]]
+    wn16_key: [[0, "group%1:03:00::"], [1, "be%2:42:03::"], [2, "full%3:00:00::"], [4, "politician%1:18:01::"], [9, "want%2:37:00::"], [11, "get_along_with%2:41:00::"], [17, "be%2:42:03::"], [18, "politic%3:00:00::"]]
+    wn30_key: [[0, "group%1:03:00::"], [1, "be%2:42:03::"], [2, "full%3:00:00::"], [4, "politician%1:18:01::"], [9, "want%2:37:00::"], [11, "get_along_with%2:41:00::"], [17, "be%2:42:03::"], [18, "politic%3:00:00::"]]
 vgQl:
     lemmas: ["This", "be", "why", "I", "say", "we", "just", "can't", "go_ahead", "and", "disarm", "the", "german", "and", "pull_down", "our", "own", "defense", "."]
     oewn_key: [[1, "oewn-02622439-v"], [4, "oewn-01018011-v"], [6, "oewn-00005103-r"], [8, "oewn-00783350-v"], [10, "oewn-01090246-v"], [12, "oewn-09767053-n"], [14, "oewn-01665698-v"], [16, "oewn-01773236-s"], [17, "oewn-00956422-n"]]

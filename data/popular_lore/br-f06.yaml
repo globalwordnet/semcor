@@ -584,14 +584,14 @@ hMCl:
     wn16_key: [[4, "have%2:40:00::"]]
     wn30_key: [[4, "have%2:40:00::"]]
 PUGW:
-    lemmas: ["You", "'ve", "get_to", "learn", "to", "live", "with_it", "."]
+    lemmas: ["You", "'ve", "get_to", "learn", "to", "live", "with", "it", "."]
     oewn_key: [[3, "oewn-00599310-v"], [5, "oewn-02620422-v"]]
     paragraph: '10'
-    pos: ["PRP", "VBP", "VB", "VBP", "TO", "VB", "RB", "."]
-    text: 'You''ve got_to learn to live with_it.
+    pos: ["PRP", "VBP", "VB", "VBP", "TO", "VB", "IN", "PRP", "."]
+    text: 'You''ve got_to learn to live with it.
 
   '
-    tokens: [[0, 3], [3, 6], [7, 13], [14, 19], [20, 22], [23, 27], [28, 35], [35, 36]]
+    tokens: [[0, 3], [3, 6], [7, 13], [14, 19], [20, 22], [23, 27], [28, 32], [33, 35], [35, 36]]
     wn16_key: [[3, "learn%2:31:00::"], [5, "live%2:42:06::"]]
     wn30_key: [[3, "learn%2:31:00::"], [5, "live%2:42:06::"]]
 secg:
@@ -604,14 +604,14 @@ secg:
     wn16_key: []
     wn30_key: []
 aZNK:
-    lemmas: ["The", "question", "be", "\"", "How", "be", "you", "go_to", "live", "with_it", "\"", "?"]
+    lemmas: ["The", "question", "be", "\"", "How", "be", "you", "go_to", "live", "with", "it", "\"", "?"]
     oewn_key: [[2, "oewn-02622439-v"], [8, "oewn-02620422-v"]]
     paragraph: '11'
-    pos: ["DT", "NN", "VBZ", "``", "WRB", "VBP", "PRP", "VB", "VB", "RB", "''", "."]
-    text: 'The question is "How are you going_to live with_it"?
+    pos: ["DT", "NN", "VBZ", "``", "WRB", "VBP", "PRP", "VB", "VB", "IN", "PRP", "''", "."]
+    text: 'The question is "How are you going_to live with it"?
 
   '
-    tokens: [[0, 3], [4, 12], [13, 15], [16, 17], [17, 20], [21, 24], [25, 28], [29, 37], [38, 42], [43, 50], [50, 51], [51, 52]]
+    tokens: [[0, 3], [4, 12], [13, 15], [16, 17], [17, 20], [21, 24], [25, 28], [29, 37], [38, 42], [43, 47], [48, 50], [50, 51], [51, 52]]
     wn16_key: [[2, "be%2:42:06::"], [8, "live%2:42:06::"]]
     wn30_key: [[2, "be%2:42:06::"], [8, "live%2:42:06::"]]
 xwQ7:
@@ -872,17 +872,16 @@ rGLR:
     wn16_key: [[5, "be%2:42:03::"]]
     wn30_key: [[5, "be%2:42:03::"]]
 jlUy:
-    lemmas: ["When", "you", "see", "a", "needle", "in", "my", "hands", "you", "will", "know", "the", "family", "button", "have", "fall_off", "and", "I", "have_to", "sew", "them", "back", "on", ",", "or", "get_out", "the", "safety_pin", "."]
-    oewn_key: [[2, "oewn-02133754-v"], [10, "oewn-00596016-v"], [15, "oewn-01302626-v"], [19, "oewn-01331921-v"], [25, "oewn-01217161-v"]]
+    lemmas: ["When", "you", "see", "a", "needle", "in", "my", "hands", "you", "will", "know", "the", "family", "button", "have", "fall_off", "and", "I", "have", "to", "sew", "them", "back", "on", ",", "or", "get_out", "the", "safety_pin", "."]
+    oewn_key: [[2, "oewn-02133754-v"], [10, "oewn-00596016-v"], [15, "oewn-01302626-v"], [20, "oewn-01331921-v"], [26, "oewn-01217161-v"]]
     paragraph: '17'
-    pos: ["WRB", "PRP", "VBP", "DT", "NN", "IN", "PRP$", "NNS", "PRP", "MD", "VB", "DT", "NN", "NNS", "VBP", "VB", "CC", "PRP", "VB", "VBP", "PRP", "RB", "RB", ",", "CC", "VB", "DT", "NN", "."]
-    text: 'When you see a needle in my hands you will know the family buttons have fallen_off
-  and I have_to sew them back on, or get_out the safety_pins.
+    pos: ["WRB", "PRP", "VBP", "DT", "NN", "IN", "PRP$", "NNS", "PRP", "MD", "VB", "DT", "NN", "NNS", "VBP", "VB", "CC", "PRP", "VBP", "TO", "VBP", "PRP", "RB", "RB", ",", "CC", "VB", "DT", "NN", "."]
+    text: 'When you see a needle in my hands you will know the family buttons have fallen_off and I have to sew them back on, or get_out the safety_pins.
 
   '
-    tokens: [[0, 4], [5, 8], [9, 12], [13, 14], [15, 21], [22, 24], [25, 27], [28, 33], [34, 37], [38, 42], [43, 47], [48, 51], [52, 58], [59, 66], [67, 71], [72, 82], [83, 86], [87, 88], [89, 96], [97, 100], [101, 105], [106, 110], [111, 113], [113, 114], [115, 117], [118, 125], [126, 129], [130, 141], [141, 142]]
-    wn16_key: [[2, "see%2:39:00::"], [10, "know%2:31:02::"], [15, "fall_off%2:35:00::"], [19, "sew%2:35:00::"], [25, "get_out%2:35:00::"]]
-    wn30_key: [[2, "see%2:39:00::"], [10, "know%2:31:02::"], [15, "fall_off%2:35:00::"], [19, "sew%2:35:00::"], [25, "get_out%2:35:00::"]]
+    tokens: [[0, 4], [5, 8], [9, 12], [13, 14], [15, 21], [22, 24], [25, 27], [28, 33], [34, 37], [38, 42], [43, 47], [48, 51], [52, 58], [59, 66], [67, 71], [72, 82], [83, 86], [87, 88], [89, 93], [94, 96], [97, 100], [101, 105], [106, 110], [111, 113], [113, 114], [115, 117], [118, 125], [126, 129], [130, 141], [141, 142]]
+    wn16_key: [[2, "see%2:39:00::"], [10, "know%2:31:02::"], [15, "fall_off%2:35:00::"], [20, "sew%2:35:00::"], [26, "get_out%2:35:00::"]]
+    wn30_key: [[2, "see%2:39:00::"], [10, "know%2:31:02::"], [15, "fall_off%2:35:00::"], [20, "sew%2:35:00::"], [26, "get_out%2:35:00::"]]
 hXjn:
     lemmas: ["then_again", ",", "there", "'s", "always", "that", "lovely", "old", "pastime", "of", "hook", "or", "braid", "rug", "."]
     oewn_key: [[10, "oewn-01676385-v"], [12, "oewn-01678612-v"]]
@@ -992,17 +991,16 @@ mgx0:
     wn16_key: [[4, "do%2:36:01::"], [10, "try%2:41:00::"], [12, "see%2:31:02::"], [16, "do%2:36:01::"]]
     wn30_key: [[4, "do%2:36:01::"], [10, "try%2:41:00::"], [12, "see%2:31:02::"], [16, "do%2:36:01::"]]
 2rBx:
-    lemmas: ["Outside", "of", "cut", "your", "finger", ",", "maybe", "you", "would", "come_up", "with", "nothing", "at_all", ",", "but", "then_again", ",", "you", "might", "turn_out", "some", "dandy", "little", "gadget", "."]
-    oewn_key: [[2, "oewn-01555301-v"], [9, "oewn-01630816-v"], [19, "oewn-01626829-v"]]
+    lemmas: ["Outside", "of", "cut", "your", "finger", ",", "maybe", "you", "would", "come_up", "with", "nothing", "at", "all", ",", "but", "then", "again", ",", "you", "might", "turn_out", "some", "dandy", "little", "gadget", "."]
+    oewn_key: [[2, "oewn-01555301-v"], [9, "oewn-01630816-v"], [21, "oewn-01626829-v"]]
     paragraph: '21'
-    pos: ["IN", "IN", "VBG", "PRP$", "NNS", ",", "RB", "PRP", "MD", "VB", "VB", "NN", "RB", ",", "CC", "RB", ",", "PRP", "MD", "VB", "DT", "JJ", "JJ", "NNS", "."]
-    text: 'Outside of cutting your fingers, maybe you would come_up with nothing at_all, but
-  then_again, you might turn_out some dandy little gadgets.
+    pos: ["IN", "IN", "VBG", "PRP$", "NNS", ",", "RB", "PRP", "MD", "VB", "VB", "NN", "IN", "PDT", ",", "CC", "RB", "RB", ",", "PRP", "MD", "VB", "DT", "JJ", "JJ", "NNS", "."]
+    text: 'Outside of cutting your fingers, maybe you would come_up with nothing at all, but then again, you might turn_out some dandy little gadgets.
 
   '
-    tokens: [[0, 7], [8, 10], [11, 18], [19, 23], [24, 31], [31, 32], [33, 38], [39, 42], [43, 48], [49, 56], [57, 61], [62, 69], [70, 76], [76, 77], [78, 81], [82, 92], [92, 93], [94, 97], [98, 103], [104, 112], [113, 117], [118, 123], [124, 130], [131, 138], [138, 139]]
-    wn16_key: [[2, "cut%2:35:00::"], [9, "come_up%2:36:03::"], [19, "turn_out%2:36:01::"]]
-    wn30_key: [[2, "cut%2:35:00::"], [9, "come_up%2:36:03::"], [19, "turn_out%2:36:01::"]]
+    tokens: [[0, 7], [8, 10], [11, 18], [19, 23], [24, 31], [31, 32], [33, 38], [39, 42], [43, 48], [49, 56], [57, 61], [62, 69], [70, 72], [73, 76], [76, 77], [78, 81], [82, 86], [87, 92], [92, 93], [94, 97], [98, 103], [104, 112], [113, 117], [118, 123], [124, 130], [131, 138], [138, 139]]
+    wn16_key: [[2, "cut%2:35:00::"], [9, "come_up%2:36:03::"], [21, "turn_out%2:36:01::"]]
+    wn30_key: [[2, "cut%2:35:00::"], [9, "come_up%2:36:03::"], [21, "turn_out%2:36:01::"]]
 e3s1:
     lemmas: ["Some", "woman", "get", "a", "real", "thrill", "out", "of", "housework", "."]
     oewn_key: [[2, "oewn-00523831-v"]]
@@ -1356,15 +1354,14 @@ NMmU:
     wn16_key: [[3, "be%2:42:03::"]]
     wn30_key: [[3, "be%2:42:03::"]]
 67AK:
-    lemmas: ["What", "do_it", "mean", "to", "be", "creative", ",", "a", "term", "we", "hear", "with", "increasing", "frequency", "these", "days", "?"]
-    oewn_key: [[2, "oewn-00957180-v"], [4, "oewn-02610777-v"], [10, "oewn-02174146-v"]]
+    lemmas: ["What", "do", "it", "mean", "to", "be", "creative", ",", "a", "term", "we", "hear", "with", "increasing", "frequency", "these", "days", "?"]
+    oewn_key: [[3, "oewn-00957180-v"], [5, "oewn-02610777-v"], [11, "oewn-02174146-v"]]
     paragraph: '30'
-    pos: ["WP", "VB", "VB", "TO", "VB", "JJ", ",", "DT", "NN", "PRP", "VBP", "IN", "JJ", "NN", "DT", "NNS", "."]
-    text: 'What does_it mean to be creative, a term we hear with increasing frequency these
-  days?'
-    tokens: [[0, 4], [5, 12], [13, 17], [18, 20], [21, 23], [24, 32], [32, 33], [34, 35], [36, 40], [41, 43], [44, 48], [49, 53], [54, 64], [65, 74], [75, 80], [81, 85], [85, 86]]
-    wn16_key: [[2, "mean%2:32:01::"], [4, "be%2:42:03::"], [10, "hear%2:39:00::"]]
-    wn30_key: [[2, "mean%2:32:01::"], [4, "be%2:42:03::"], [10, "hear%2:39:00::"]]
+    pos: ["WP", "VBZ", "PRP", "VB", "TO", "VB", "JJ", ",", "DT", "NN", "PRP", "VBP", "IN", "JJ", "NN", "DT", "NNS", "."]
+    text: 'What does it mean to be creative, a term we hear with increasing frequency these days?'
+    tokens: [[0, 4], [5, 9], [10, 12], [13, 17], [18, 20], [21, 23], [24, 32], [32, 33], [34, 35], [36, 40], [41, 43], [44, 48], [49, 53], [54, 64], [65, 74], [75, 80], [81, 85], [85, 86]]
+    wn16_key: [[3, "mean%2:32:01::"], [5, "be%2:42:03::"], [11, "hear%2:39:00::"]]
+    wn30_key: [[3, "mean%2:32:01::"], [5, "be%2:42:03::"], [11, "hear%2:39:00::"]]
 YnoY:
     lemmas: ["When", "we", "turn_to", "noah_webster", "we", "find", "him", "helpful", "as_usual", "."]
     oewn_key: [[5, "oewn-00717144-v"]]
@@ -1500,28 +1497,25 @@ EpEF:
     wn16_key: [[5, "be%2:42:03::"]]
     wn30_key: [[5, "be%2:42:03::"]]
 J/TW:
-    lemmas: ["It", "be", "in_this", "one", "aspect", ",", "at_least", ",", "that", "man", "seem", "to", "be", "make", "in", "the", "image", "of", "his", "creator", "."]
-    oewn_key: [[1, "oewn-02610777-v"], [10, "oewn-02137900-v"], [13, "oewn-01620211-v"]]
+    lemmas: ["It", "be", "in", "this", "one", "aspect", ",", "at_least", ",", "that", "man", "seem", "to", "be", "make", "in", "the", "image", "of", "his", "creator", "."]
+    oewn_key: [[1, "oewn-02610777-v"], [11, "oewn-02137900-v"], [14, "oewn-01620211-v"]]
     paragraph: '32'
-    pos: ["PRP", "VBZ", "RB", "CD", "NN", ",", "RB", ",", "IN", "NN", "VBZ", "TO", "VB", "VBN", "IN", "DT", "NN", "IN", "PRP$", "NNP", "."]
-    text: 'It is in_this one aspect, at_least, that man seems to be made in the image of his
-  Creator.
+    pos: ["PRP", "VBZ", "IN", "DT", "CD", "NN", ",", "RB", ",", "IN", "NN", "VBZ", "TO", "VB", "VBN", "IN", "DT", "NN", "IN", "PRP$", "NNP", "."]
+    text: 'It is in this one aspect, at_least, that man seems to be made in the image of his Creator.
 
   '
-    tokens: [[0, 2], [3, 5], [6, 13], [14, 17], [18, 24], [24, 25], [26, 34], [34, 35], [36, 40], [41, 44], [45, 50], [51, 53], [54, 56], [57, 61], [62, 64], [65, 68], [69, 74], [75, 77], [78, 81], [82, 89], [89, 90]]
-    wn16_key: [[1, "be%2:42:03::"], [10, "seem%2:39:00::"], [13, "make%2:36:00::"]]
-    wn30_key: [[1, "be%2:42:03::"], [10, "seem%2:39:00::"], [13, "make%2:36:00::"]]
+    tokens: [[0, 2], [3, 5], [6, 8], [9, 13], [14, 17], [18, 24], [24, 25], [26, 34], [34, 35], [36, 40], [41, 44], [45, 50], [51, 53], [54, 56], [57, 61], [62, 64], [65, 68], [69, 74], [75, 77], [78, 81], [82, 89], [89, 90]]
+    wn16_key: [[1, "be%2:42:03::"], [11, "seem%2:39:00::"], [14, "make%2:36:00::"]]
+    wn30_key: [[1, "be%2:42:03::"], [11, "seem%2:39:00::"], [14, "make%2:36:00::"]]
 6yiz:
-    lemmas: ["Not_only", "can", "man", "project", "his", "imagination", "out", "into", "his", "environment", "in", "concrete", "form", ",", "but", "even", "more", "importantly", ",", "he", "can", "turn", "it", "inward", "to", "help", "create", "new", "and", "good", "form", "of", "himself", "."]
-    oewn_key: [[3, "oewn-01438648-v"], [21, "oewn-01911251-v"], [25, "oewn-02553283-v"], [26, "oewn-01620211-v"]]
+    lemmas: ["Not", "only", "can", "man", "project", "his", "imagination", "out", "into", "his", "environment", "in", "concrete", "form", ",", "but", "even", "more", "importantly", ",", "he", "can", "turn", "it", "inward", "to", "help", "create", "new", "and", "good", "form", "of", "himself", "."]
+    oewn_key: [[4, "oewn-01438648-v"], [22, "oewn-01911251-v"], [26, "oewn-02553283-v"], [27, "oewn-01620211-v"]]
     paragraph: '33'
-    pos: ["RB", "MD", "NN", "VB", "PRP$", "NN", "IN", "IN", "PRP$", "NN", "IN", "JJ", "NNS", ",", "CC", "RB", "RBR", "RB", ",", "PRP", "MD", "VB", "PRP", "RB", "TO", "VB", "VB", "JJ", "CC", "JJR", "NNS", "IN", "PRP", "."]
-    text: 'Not_only can man project his imagination out into his environment in concrete forms,
-  but even more importantly, he can turn it inward to help create new and better forms
-  of himself.'
-    tokens: [[0, 8], [9, 12], [13, 16], [17, 24], [25, 28], [29, 40], [41, 44], [45, 49], [50, 53], [54, 65], [66, 68], [69, 77], [78, 83], [83, 84], [85, 88], [89, 93], [94, 98], [99, 110], [110, 111], [112, 114], [115, 118], [119, 123], [124, 126], [127, 133], [134, 136], [137, 141], [142, 148], [149, 152], [153, 156], [157, 163], [164, 169], [170, 172], [173, 180], [180, 181]]
-    wn16_key: [[3, "project%2:35:01::"], [21, "turn%2:38:00::"], [25, "help%2:41:00::"], [26, "create%2:36:00::"]]
-    wn30_key: [[3, "project%2:35:01::"], [21, "turn%2:38:00::"], [25, "help%2:41:00::"], [26, "create%2:36:00::"]]
+    pos: ["RB", "RB", "MD", "NN", "VB", "PRP$", "NN", "IN", "IN", "PRP$", "NN", "IN", "JJ", "NNS", ",", "CC", "RB", "RBR", "RB", ",", "PRP", "MD", "VB", "PRP", "RB", "TO", "VB", "VB", "JJ", "CC", "JJR", "NNS", "IN", "PRP", "."]
+    text: 'Not only can man project his imagination out into his environment in concrete forms, but even more importantly, he can turn it inward to help create new and better forms of himself.'
+    tokens: [[0, 3], [4, 8], [9, 12], [13, 16], [17, 24], [25, 28], [29, 40], [41, 44], [45, 49], [50, 53], [54, 65], [66, 68], [69, 77], [78, 83], [83, 84], [85, 88], [89, 93], [94, 98], [99, 110], [110, 111], [112, 114], [115, 118], [119, 123], [124, 126], [127, 133], [134, 136], [137, 141], [142, 148], [149, 152], [153, 156], [157, 163], [164, 169], [170, 172], [173, 180], [180, 181]]
+    wn16_key: [[4, "project%2:35:01::"], [22, "turn%2:38:00::"], [26, "help%2:41:00::"], [27, "create%2:36:00::"]]
+    wn30_key: [[4, "project%2:35:01::"], [22, "turn%2:38:00::"], [26, "help%2:41:00::"], [27, "create%2:36:00::"]]
 vfev:
     lemmas: ["We", "recognize", "that", "young", "people", "through", "imaginative", "mind", "and", "body", "training", "can", "become", "athlete", ",", "acrobat", ",", "dancer", ",", "musician", "and", "artist", ",", "develop", "many", "potentiality", "."]
     oewn_key: [[1, "oewn-00730579-v"], [12, "oewn-00149403-v"], [23, "oewn-00546637-v"]]
@@ -1563,16 +1557,14 @@ TTBH:
     wn16_key: [[2, "realize%2:31:00::"], [12, "be%2:42:06::"], [18, "remake%2:36:00::"], [24, "be%2:42:03::"]]
     wn30_key: [[2, "realize%2:31:00::"], [12, "be%2:42:06::"], [18, "remake%2:36:00::"], [24, "be%2:42:03::"]]
 QWlK:
-    lemmas: ["so_far", "in", "history", "man", "have", "be", "too", "greatly", "over-occupied", "with", "project", "things", "into", "his", "environment", "rather_than", "first", "create", "the", "sort_of", "person", "who", "can", "make", "the", "high", "use", "of", "the", "things", "he", "have", "create", "."]
-    oewn_key: [[5, "oewn-02610777-v"], [10, "oewn-01438648-v"], [17, "oewn-01620211-v"], [23, "oewn-02026014-v"], [32, "oewn-01757596-v"]]
+    lemmas: ["so_far", "in", "history", "man", "have", "be", "too", "greatly", "over-occupied", "with", "project", "things", "into", "his", "environment", "rather", "than", "first", "create", "the", "sort_of", "person", "who", "can", "make", "the", "high", "use", "of", "the", "things", "he", "have", "create", "."]
+    oewn_key: [[5, "oewn-02610777-v"], [10, "oewn-01438648-v"], [18, "oewn-01620211-v"], [24, "oewn-02026014-v"], [33, "oewn-01757596-v"]]
     paragraph: '34'
-    pos: ["RB", "IN", "NN", "NN", "VBZ", "VBN", "RB", "RB", "JJ", "IN", "VBG", "NNS", "IN", "PRP$", "NN", "RB", "JJ", "VBG", "DT", "RB", "NN", "WP", "MD", "VB", "DT", "JJS", "NN", "IN", "DT", "NNS", "PRP", "VBZ", "VBN", "."]
-    text: 'So_far in history man has been too greatly over-occupied with projecting things
-  into his environment rather_than first creating the sort_of person who can make
-  the highest use of the things he has created.'
-    tokens: [[0, 6], [7, 9], [10, 17], [18, 21], [22, 25], [26, 30], [31, 34], [35, 42], [43, 56], [57, 61], [62, 72], [73, 79], [80, 84], [85, 88], [89, 100], [101, 112], [113, 118], [119, 127], [128, 131], [132, 139], [140, 146], [147, 150], [151, 154], [155, 159], [160, 163], [164, 171], [172, 175], [176, 178], [179, 182], [183, 189], [190, 192], [193, 196], [197, 204], [204, 205]]
-    wn16_key: [[5, "be%2:42:03::"], [10, "project%2:35:01::"], [17, "create%2:36:00::"], [23, "make%2:38:02::"], [32, "create%2:36:02::"]]
-    wn30_key: [[5, "be%2:42:03::"], [10, "project%2:35:01::"], [17, "create%2:36:00::"], [23, "make%2:38:02::"], [32, "create%2:36:02::"]]
+    pos: ["RB", "IN", "NN", "NN", "VBZ", "VBN", "RB", "RB", "JJ", "IN", "VBG", "NNS", "IN", "PRP$", "NN", "IN", "IN", "JJ", "VBG", "DT", "RB", "NN", "WP", "MD", "VB", "DT", "JJS", "NN", "IN", "DT", "NNS", "PRP", "VBZ", "VBN", "."]
+    text: 'So_far in history man has been too greatly over-occupied with projecting things into his environment rather than first creating the sort_of person who can make the highest use of the things he has created.'
+    tokens: [[0, 6], [7, 9], [10, 17], [18, 21], [22, 25], [26, 30], [31, 34], [35, 42], [43, 56], [57, 61], [62, 72], [73, 79], [80, 84], [85, 88], [89, 100], [101, 107], [108, 112], [113, 118], [119, 127], [128, 131], [132, 139], [140, 146], [147, 150], [151, 154], [155, 159], [160, 163], [164, 171], [172, 175], [176, 178], [179, 182], [183, 189], [190, 192], [193, 196], [197, 204], [204, 205]]
+    wn16_key: [[5, "be%2:42:03::"], [10, "project%2:35:01::"], [18, "create%2:36:00::"], [24, "make%2:38:02::"], [33, "create%2:36:02::"]]
+    wn30_key: [[5, "be%2:42:03::"], [10, "project%2:35:01::"], [18, "create%2:36:00::"], [24, "make%2:38:02::"], [33, "create%2:36:02::"]]
 viGU:
     lemmas: ["be", "not", "the", "present", "world", "crisis", "a", "race", "between", "things", "we", "have", "create", "which", "can", "now", "destroy", "us", "and", "between", "population", "of", "sufficient", "wisdom", "and", "character", "to", "forestall", "the", "tragedy", "."]
     oewn_key: [[12, "oewn-01757596-v"], [16, "oewn-01622948-v"], [27, "oewn-02458316-v"]]
@@ -1597,16 +1589,13 @@ onUN:
     wn16_key: [[10, "lend%2:40:01::"], [14, "be%2:42:03::"], [22, "hasten%2:41:00::"]]
     wn30_key: [[10, "lend%2:40:01::"], [14, "be%2:42:03::"], [22, "hasten%2:41:00::"]]
 ZCbG:
-    lemmas: ["sir_julian_huxley", "in", "his", "book", "uniqueness", "Of", "man", "make", "the", "novel", "point", "that", "just_as", "man", "be", "unique", "in", "be", "the", "only", "animal", "which", "require", "a", "long", "period", "of", "infancy", "and", "childhood", "under", "family", "protection", ",", "so", "be", "he", "the", "only", "animal", "who", "have", "a", "long", "period", "after", "the", "decline", "of", "his", "procreativity", "."]
-    oewn_key: [[7, "oewn-02566500-v"], [14, "oewn-02610777-v"], [17, "oewn-02622439-v"], [22, "oewn-02634015-v"], [35, "oewn-02622439-v"], [41, "oewn-02208144-v"]]
+    lemmas: ["sir_julian_huxley", "in", "his", "book", "uniqueness", "Of", "man", "make", "the", "novel", "point", "that", "just", "as", "man", "be", "unique", "in", "be", "the", "only", "animal", "which", "require", "a", "long", "period", "of", "infancy", "and", "childhood", "under", "family", "protection", ",", "so", "be", "he", "the", "only", "animal", "who", "have", "a", "long", "period", "after", "the", "decline", "of", "his", "procreativity", "."]
+    oewn_key: [[7, "oewn-02566500-v"], [15, "oewn-02610777-v"], [18, "oewn-02622439-v"], [23, "oewn-02634015-v"], [36, "oewn-02622439-v"], [42, "oewn-02208144-v"]]
     paragraph: '35'
-    pos: ["NNP", "IN", "PRP$", "NN", "NNP", "IN", "NN", "VBZ", "DT", "NN", "NN", "IN", "RB", "NN", "VBZ", "JJ", "IN", "VBG", "DT", "JJ", "NN", "WDT", "VBZ", "DT", "JJ", "NN", "IN", "NN", "CC", "NN", "IN", "NN", "NN", ",", "RB", "VBZ", "PRP", "DT", "JJ", "NN", "WP", "VBZ", "DT", "JJ", "NN", "IN", "DT", "NN", "IN", "PRP$", "NN", "."]
-    text: 'Sir_Julian_Huxley in his book Uniqueness Of Man makes the novel point that just_as
-  man is unique in being the only animal which requires a long period of infancy and
-  childhood under family protection, so is he the only animal who has a long period
-  after the decline of his procreativity.
+    pos: ["NNP", "IN", "PRP$", "NN", "NNP", "IN", "NN", "VBZ", "DT", "NN", "NN", "IN", "RB", "IN", "NN", "VBZ", "JJ", "IN", "VBG", "DT", "JJ", "NN", "WDT", "VBZ", "DT", "JJ", "NN", "IN", "NN", "CC", "NN", "IN", "NN", "NN", ",", "RB", "VBZ", "PRP", "DT", "JJ", "NN", "WP", "VBZ", "DT", "JJ", "NN", "IN", "DT", "NN", "IN", "PRP$", "NN", "."]
+    text: 'Sir_Julian_Huxley in his book Uniqueness Of Man makes the novel point that just as man is unique in being the only animal which requires a long period of infancy and childhood under family protection, so is he the only animal who has a long period after the decline of his procreativity.
 
   '
-    tokens: [[0, 17], [18, 20], [21, 24], [25, 29], [30, 40], [41, 43], [44, 47], [48, 53], [54, 57], [58, 63], [64, 69], [70, 74], [75, 82], [83, 86], [87, 89], [90, 96], [97, 99], [100, 105], [106, 109], [110, 114], [115, 121], [122, 127], [128, 136], [137, 138], [139, 143], [144, 150], [151, 153], [154, 161], [162, 165], [166, 175], [176, 181], [182, 188], [189, 199], [199, 200], [201, 203], [204, 206], [207, 209], [210, 213], [214, 218], [219, 225], [226, 229], [230, 233], [234, 235], [236, 240], [241, 247], [248, 253], [254, 257], [258, 265], [266, 268], [269, 272], [273, 286], [286, 287]]
-    wn16_key: [[7, "make%2:41:00::"], [14, "be%2:42:03::"], [17, "be%2:42:06::"], [22, "require%2:42:00::"], [35, "be%2:42:06::"], [41, "have%2:40:01::"]]
-    wn30_key: [[7, "make%2:41:00::"], [14, "be%2:42:03::"], [17, "be%2:42:06::"], [22, "require%2:42:00::"], [35, "be%2:42:06::"], [41, "have%2:40:01::"]]
+    tokens: [[0, 17], [18, 20], [21, 24], [25, 29], [30, 40], [41, 43], [44, 47], [48, 53], [54, 57], [58, 63], [64, 69], [70, 74], [75, 79], [80, 82], [83, 86], [87, 89], [90, 96], [97, 99], [100, 105], [106, 109], [110, 114], [115, 121], [122, 127], [128, 136], [137, 138], [139, 143], [144, 150], [151, 153], [154, 161], [162, 165], [166, 175], [176, 181], [182, 188], [189, 199], [199, 200], [201, 203], [204, 206], [207, 209], [210, 213], [214, 218], [219, 225], [226, 229], [230, 233], [234, 235], [236, 240], [241, 247], [248, 253], [254, 257], [258, 265], [266, 268], [269, 272], [273, 286], [286, 287]]
+    wn16_key: [[7, "make%2:41:00::"], [15, "be%2:42:03::"], [18, "be%2:42:06::"], [23, "require%2:42:00::"], [36, "be%2:42:06::"], [42, "have%2:40:01::"]]
+    wn30_key: [[7, "make%2:41:00::"], [15, "be%2:42:03::"], [18, "be%2:42:06::"], [23, "require%2:42:00::"], [36, "be%2:42:06::"], [42, "have%2:40:01::"]]

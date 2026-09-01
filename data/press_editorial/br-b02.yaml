@@ -27,16 +27,14 @@ _meta:
         base: tokens
         data: string
 2NUG:
-    lemmas: ["The", "inference", "have", "be", "too", "widely", "accept", "that", "because", "the", "communist", "have", "succeed", "in", "build", "barricade", "across", "berlin", "the", "free_world", "must", "acquiesce", "in", "dismemberment", "of_that", "living", "city", "."]
+    lemmas: ["The", "inference", "have", "be", "too", "widely", "accept", "that", "because", "the", "communist", "have", "succeed", "in", "build", "barricade", "across", "berlin", "the", "free_world", "must", "acquiesce", "in", "dismemberment", "of", "that", "living", "city", "."]
     oewn_key: [[6, "oewn-00799359-v"], [12, "oewn-02529837-v"], [14, "oewn-01658171-v"], [21, "oewn-00805801-v"]]
     paragraph: '0'
-    pos: ["DT", "NN", "VBZ", "VBN", "RB", "RB", "VBN", "IN", "IN", "DT", "NNPS", "VBP", "VBN", "VB", "VB", "NNS", "IN", "NNP", "DT", "NN", "MD", "VB", "IN", "NN", "RB", "JJ", "NN", "."]
-    text: 'The inference has been too widely accepted that because the Communists have succeeded
-  in building barricades across Berlin the free_world must acquiesce in dismemberment
-  of_that living city.
+    pos: ["DT", "NN", "VBZ", "VBN", "RB", "RB", "VBN", "IN", "IN", "DT", "NNPS", "VBP", "VBN", "VB", "VB", "NNS", "IN", "NNP", "DT", "NN", "MD", "VB", "IN", "NN", "IN", "DT", "JJ", "NN", "."]
+    text: 'The inference has been too widely accepted that because the Communists have succeeded in building barricades across Berlin the free_world must acquiesce in dismemberment of that living city.
 
   '
-    tokens: [[0, 3], [4, 13], [14, 17], [18, 22], [23, 26], [27, 33], [34, 42], [43, 47], [48, 55], [56, 59], [60, 70], [71, 75], [76, 85], [86, 88], [89, 97], [98, 108], [109, 115], [116, 122], [123, 126], [127, 137], [138, 142], [143, 152], [153, 155], [156, 169], [170, 177], [178, 184], [185, 189], [189, 190]]
+    tokens: [[0, 3], [4, 13], [14, 17], [18, 22], [23, 26], [27, 33], [34, 42], [43, 47], [48, 55], [56, 59], [60, 70], [71, 75], [76, 85], [86, 88], [89, 97], [98, 108], [109, 115], [116, 122], [123, 126], [127, 137], [138, 142], [143, 152], [153, 155], [156, 169], [170, 172], [173, 177], [178, 184], [185, 189], [189, 190]]
     wn16_key: [[6, "accept%2:32:00::"], [12, "succeed%2:41:00::"], [14, "build%2:36:00::"], [21, "acquiesce%2:32:00::"]]
     wn30_key: [[6, "accept%2:32:00::"], [12, "succeed%2:41:00::"], [14, "build%2:36:00::"], [21, "acquiesce%2:32:00::"]]
 lonx:
@@ -142,14 +140,14 @@ YfPy:
     wn16_key: [[2, "have%2:40:04::"], [9, "have%2:40:04::"], [14, "be%2:42:03::"]]
     wn30_key: [[2, "have%2:40:04::"], [9, "have%2:40:04::"], [14, "be%2:42:03::"]]
 wn3F:
-    lemmas: ["The_British", "and", "other", "reply", "to_that", "moscow", "note", "point_out", "effort", "of", "the", "communist", "authorities", "\"", "to", "integrate", "east_berlin", "into", "east_germany", "by", "isolate", "it", "from_the_outside", "and", "attempt", "to", "make", "it", "the", "capital", "of", "east_germany", "\"", "."]
-    oewn_key: [[7, "oewn-00926583-v"], [15, "oewn-00467564-v"], [20, "oewn-00496744-v"], [24, "oewn-01654835-v"], [26, "oewn-01620211-v"]]
+    lemmas: ["The_British", "and", "other", "reply", "to", "that", "moscow", "note", "point_out", "effort", "of", "the", "communist", "authorities", "\"", "to", "integrate", "east_berlin", "into", "east_germany", "by", "isolate", "it", "from_the_outside", "and", "attempt", "to", "make", "it", "the", "capital", "of", "east_germany", "\"", "."]
+    oewn_key: [[8, "oewn-00926583-v"], [16, "oewn-00467564-v"], [21, "oewn-00496744-v"], [25, "oewn-01654835-v"], [27, "oewn-01620211-v"]]
     paragraph: '6'
-    pos: ["NN", "CC", "JJ", "NN", "RB", "NNP", "NN", "VB", "NNS", "IN", "DT", "NNP", "NNS", "''", "TO", "VB", "NNP", "IN", "NN", "IN", "VBG", "PRP", "RB", "CC", "VBG", "TO", "VB", "VB", "DT", "NN", "IN", "NN", "''", "."]
-    text: 'The_British and other replies to_that Moscow note pointed_out efforts of the Communist authorities "to integrate East_Berlin into East_Germany by isolating it from_the_outside and attempting to make it the capital of East_Germany".'
-    tokens: [[0, 11], [12, 15], [16, 21], [22, 29], [30, 37], [38, 44], [45, 49], [50, 61], [62, 69], [70, 72], [73, 76], [77, 86], [87, 98], [99, 100], [100, 102], [103, 112], [113, 124], [125, 129], [130, 142], [143, 145], [146, 155], [156, 158], [159, 175], [176, 179], [180, 190], [191, 193], [194, 198], [199, 201], [202, 205], [206, 213], [214, 216], [217, 229], [229, 230], [230, 231]]
-    wn16_key: [[7, "point_out%2:32:03::"], [15, "integrate%2:30:00::"], [20, "isolate%2:30:02::"], [24, "attempt%2:36:00::"], [26, "make%2:36:00::"]]
-    wn30_key: [[7, "point_out%2:32:03::"], [15, "integrate%2:30:00::"], [20, "isolate%2:30:02::"], [24, "attempt%2:36:00::"], [26, "make%2:36:00::"]]
+    pos: ["NN", "CC", "JJ", "NN", "IN", "DT", "NNP", "NN", "VB", "NNS", "IN", "DT", "NNP", "NNS", "''", "TO", "VB", "NNP", "IN", "NN", "IN", "VBG", "PRP", "RB", "CC", "VBG", "TO", "VB", "VB", "DT", "NN", "IN", "NN", "''", "."]
+    text: 'The_British and other replies to that Moscow note pointed_out efforts of the Communist authorities "to integrate East_Berlin into East_Germany by isolating it from_the_outside and attempting to make it the capital of East_Germany".'
+    tokens: [[0, 11], [12, 15], [16, 21], [22, 29], [30, 32], [33, 37], [38, 44], [45, 49], [50, 61], [62, 69], [70, 72], [73, 76], [77, 86], [87, 98], [99, 100], [100, 102], [103, 112], [113, 124], [125, 129], [130, 142], [143, 145], [146, 155], [156, 158], [159, 175], [176, 179], [180, 190], [191, 193], [194, 198], [199, 201], [202, 205], [206, 213], [214, 216], [217, 229], [229, 230], [230, 231]]
+    wn16_key: [[8, "point_out%2:32:03::"], [16, "integrate%2:30:00::"], [21, "isolate%2:30:02::"], [25, "attempt%2:36:00::"], [27, "make%2:36:00::"]]
+    wn30_key: [[8, "point_out%2:32:03::"], [16, "integrate%2:30:00::"], [21, "isolate%2:30:02::"], [25, "attempt%2:36:00::"], [27, "make%2:36:00::"]]
 OGOh:
     lemmas: ["They", "insist", "on", "the", "\"", "fundamental", "fact", "\"", "that", "\"", "the", "whole", "of", "berlin", "have", "a", "quadripartite", "status", "\"", "."]
     oewn_key: [[1, "oewn-00820635-v"], [14, "oewn-02209474-v"]]
@@ -172,17 +170,16 @@ plAp:
     wn16_key: [[1, "be%2:42:03::"], [4, "acknowledge%2:31:00::"], [6, "recognize%2:31:02::"]]
     wn30_key: [[1, "be%2:42:03::"], [4, "acknowledge%2:32:00::"], [6, "recognize%2:31:02::"]]
 nOFI:
-    lemmas: ["There", "remain", ",", "of_course", ",", "the", "question", "of_what", "the", "west", "can", "do", "beyond", "diplomatic", "protest", "to", "prevent", "the", "illegal", "effort", "from", "become", "accomplished_facts", "."]
-    oewn_key: [[1, "oewn-02643676-v"], [11, "oewn-02566500-v"], [16, "oewn-02458316-v"], [21, "oewn-02632685-v"]]
+    lemmas: ["There", "remain", ",", "of_course", ",", "the", "question", "of", "what", "the", "west", "can", "do", "beyond", "diplomatic", "protest", "to", "prevent", "the", "illegal", "effort", "from", "become", "accomplished_facts", "."]
+    oewn_key: [[1, "oewn-02643676-v"], [12, "oewn-02566500-v"], [17, "oewn-02458316-v"], [22, "oewn-02632685-v"]]
     paragraph: '7'
-    pos: ["EX", "VBZ", ",", "RB", ",", "DT", "NN", "RB", "DT", "NNP", "MD", "VB", "IN", "JJ", "NN", "TO", "VB", "DT", "JJ", "NNS", "IN", "VBG", "NN", "."]
-    text: 'There remains, of_course, the question of_what the West can do beyond diplomatic
-  protest to prevent the illegal efforts from becoming accomplished_facts.
+    pos: ["EX", "VBZ", ",", "RB", ",", "DT", "NN", "IN", "WDT", "DT", "NNP", "MD", "VB", "IN", "JJ", "NN", "TO", "VB", "DT", "JJ", "NNS", "IN", "VBG", "NN", "."]
+    text: 'There remains, of_course, the question of what the West can do beyond diplomatic protest to prevent the illegal efforts from becoming accomplished_facts.
 
   '
-    tokens: [[0, 5], [6, 13], [13, 14], [15, 24], [24, 25], [26, 29], [30, 38], [39, 46], [47, 50], [51, 55], [56, 59], [60, 62], [63, 69], [70, 80], [81, 88], [89, 91], [92, 99], [100, 103], [104, 111], [112, 119], [120, 124], [125, 133], [134, 152], [152, 153]]
-    wn16_key: [[1, "remain%2:42:05::"], [11, "do%2:41:01::"], [16, "prevent%2:41:01::"], [21, "become%2:42:01::"]]
-    wn30_key: [[1, "remain%2:42:05::"], [11, "do%2:41:01::"], [16, "prevent%2:41:01::"], [21, "become%2:42:01::"]]
+    tokens: [[0, 5], [6, 13], [13, 14], [15, 24], [24, 25], [26, 29], [30, 38], [39, 41], [42, 46], [47, 50], [51, 55], [56, 59], [60, 62], [63, 69], [70, 80], [81, 88], [89, 91], [92, 99], [100, 103], [104, 111], [112, 119], [120, 124], [125, 133], [134, 152], [152, 153]]
+    wn16_key: [[1, "remain%2:42:05::"], [12, "do%2:41:01::"], [17, "prevent%2:41:01::"], [22, "become%2:42:01::"]]
+    wn30_key: [[1, "remain%2:42:05::"], [12, "do%2:41:01::"], [17, "prevent%2:41:01::"], [22, "become%2:42:01::"]]
 DOhX:
     lemmas: ["One", "ground", "of", "action", "certainly", "exist", "when", "fusillade", "of", "stray", "shot", "go", "over", "into", "west_berlin", "as", "communist", "\"", "vopos", "\"", "try", "to", "gun_down", "fleeing", "unarmed", "resident", "."]
     oewn_key: [[5, "oewn-02609706-v"], [11, "oewn-01839438-v"], [20, "oewn-02535833-v"], [22, "oewn-01139390-v"]]
@@ -214,16 +211,16 @@ g+Xx:
     wn16_key: [[3, "seem%2:39:00::"], [9, "feed_on%2:34:00::"], [15, "redress%2:41:00::"]]
     wn30_key: [[3, "seem%2:39:00::"], [9, "feed_on%2:34:00::"], [15, "redress%2:41:00::"]]
 zIIk:
-    lemmas: ["remember", "the", "step-by-step", "fate", "of", "danzig", "and", "the", "west", "german", "misgiving", "about", "\"", "salami", "\"", "tactics", ",", "it", "be", "to", "be", "hope", "that", "the", "dispatch", "of", "general_clay", "to", "west_berlin", "as", "president_kennedy", "'s", "representative", "will", "mark", "a", "stiffening", "of", "response", "not_only", "to", "future", "indignity", "and", "aggression", "but", "also", "to", "some", "that", "have", "pass", "."]
-    oewn_key: [[0, "oewn-00611237-v"], [18, "oewn-02610777-v"], [21, "oewn-01830665-v"], [34, "oewn-00923709-v"], [51, "oewn-02076777-v"]]
+    lemmas: ["remember", "the", "step-by-step", "fate", "of", "danzig", "and", "the", "west", "german", "misgiving", "about", "\"", "salami", "\"", "tactics", ",", "it", "be", "to", "be", "hope", "that", "the", "dispatch", "of", "general_clay", "to", "west_berlin", "as", "president_kennedy", "'s", "representative", "will", "mark", "a", "stiffening", "of", "response", "not", "only", "to", "future", "indignity", "and", "aggression", "but", "also", "to", "some", "that", "have", "pass", "."]
+    oewn_key: [[0, "oewn-00611237-v"], [18, "oewn-02610777-v"], [21, "oewn-01830665-v"], [34, "oewn-00923709-v"], [52, "oewn-02076777-v"]]
     paragraph: '9'
-    pos: ["VBG", "DT", "JJ", "NN", "IN", "NNP", "CC", "DT", "JJ", "JJ", "NNS", "IN", "``", "NNS", "''", "NNS", ",", "PRP", "VBZ", "TO", "VB", "VBN", "IN", "DT", "NN", "IN", "NNP", "TO", "NN", "IN", "NNP", "POS", "NN", "MD", "VB", "DT", "NN", "IN", "NN", "RB", "TO", "NN", "NNS", "CC", "NNS", "CC", "RB", "TO", "DT", "WDT", "VB", "VBN", "."]
-    text: 'Remembering the step-by-step fate of Danzig and the West German misgivings about "salami" tactics, it is to be hoped that the dispatch of General_Clay to West_Berlin as President_Kennedy''s representative will mark a stiffening of response not_only to future indignities and aggressions but also to some that have passed.
+    pos: ["VBG", "DT", "JJ", "NN", "IN", "NNP", "CC", "DT", "JJ", "JJ", "NNS", "IN", "``", "NNS", "''", "NNS", ",", "PRP", "VBZ", "TO", "VB", "VBN", "IN", "DT", "NN", "IN", "NNP", "TO", "NN", "IN", "NNP", "POS", "NN", "MD", "VB", "DT", "NN", "IN", "NN", "RB", "RB", "TO", "NN", "NNS", "CC", "NNS", "CC", "RB", "TO", "DT", "WDT", "VB", "VBN", "."]
+    text: 'Remembering the step-by-step fate of Danzig and the West German misgivings about "salami" tactics, it is to be hoped that the dispatch of General_Clay to West_Berlin as President_Kennedy''s representative will mark a stiffening of response not only to future indignities and aggressions but also to some that have passed.
 
   '
-    tokens: [[0, 11], [12, 15], [16, 28], [29, 33], [34, 36], [37, 43], [44, 47], [48, 51], [52, 56], [57, 63], [64, 74], [75, 80], [81, 82], [82, 88], [88, 89], [90, 97], [97, 98], [99, 101], [102, 104], [105, 107], [108, 110], [111, 116], [117, 121], [122, 125], [126, 134], [135, 137], [138, 150], [151, 153], [154, 165], [166, 168], [169, 186], [186, 188], [189, 203], [204, 208], [209, 213], [214, 215], [216, 226], [227, 229], [230, 238], [239, 247], [248, 250], [251, 257], [258, 269], [270, 273], [274, 285], [286, 289], [290, 294], [295, 297], [298, 302], [303, 307], [308, 312], [313, 319], [319, 320]]
-    wn16_key: [[0, "remember%2:31:01::"], [18, "be%2:42:03::"], [21, "hope%2:37:01::"], [34, "mark%2:32:02::"], [51, "pass%2:38:03::"]]
-    wn30_key: [[0, "remember%2:31:01::"], [18, "be%2:42:03::"], [21, "hope%2:37:01::"], [34, "mark%2:32:02::"], [51, "pass%2:38:03::"]]
+    tokens: [[0, 11], [12, 15], [16, 28], [29, 33], [34, 36], [37, 43], [44, 47], [48, 51], [52, 56], [57, 63], [64, 74], [75, 80], [81, 82], [82, 88], [88, 89], [90, 97], [97, 98], [99, 101], [102, 104], [105, 107], [108, 110], [111, 116], [117, 121], [122, 125], [126, 134], [135, 137], [138, 150], [151, 153], [154, 165], [166, 168], [169, 186], [186, 188], [189, 203], [204, 208], [209, 213], [214, 215], [216, 226], [227, 229], [230, 238], [239, 242], [243, 247], [248, 250], [251, 257], [258, 269], [270, 273], [274, 285], [286, 289], [290, 294], [295, 297], [298, 302], [303, 307], [308, 312], [313, 319], [319, 320]]
+    wn16_key: [[0, "remember%2:31:01::"], [18, "be%2:42:03::"], [21, "hope%2:37:01::"], [34, "mark%2:32:02::"], [52, "pass%2:38:03::"]]
+    wn30_key: [[0, "remember%2:31:01::"], [18, "be%2:42:03::"], [21, "hope%2:37:01::"], [34, "mark%2:32:02::"], [52, "pass%2:38:03::"]]
 ihhL:
     lemmas: ["thousand", "of", "buffalo", "(", "\"", "bison", "\"", "they", "will", "never", "be", "to", "the", "man", "on", "the", "street", ")", "graze", "like", "a", "mobile", "brown", "throw-rug", "upon", "the", "rolling", ",", "dusty-green", "grassland", "."]
     oewn_key: [[10, "oewn-02610777-v"], [18, "oewn-01578996-v"]]
@@ -466,17 +463,16 @@ JVNR:
     wn16_key: [[6, "have%2:40:00::"], [10, "elect%2:41:00::"], [26, "run%2:41:02::"]]
     wn30_key: [[6, "have%2:40:00::"], [10, "elect%2:41:00::"], [26, "run%2:41:02::"]]
 rDcH:
-    lemmas: ["In", "the", "central", "contest", ",", "that", "for", "mayor", ",", "they", "may", "have", "find", "some", "pertinent", "point", "in_what", "each", "faction", "have", "say", "about", "the", "other", "."]
-    oewn_key: [[12, "oewn-02253273-v"], [20, "oewn-01011267-v"]]
+    lemmas: ["In", "the", "central", "contest", ",", "that", "for", "mayor", ",", "they", "may", "have", "find", "some", "pertinent", "point", "in", "what", "each", "faction", "have", "say", "about", "the", "other", "."]
+    oewn_key: [[12, "oewn-02253273-v"], [21, "oewn-01011267-v"]]
     paragraph: '22'
-    pos: ["IN", "DT", "JJ", "NN", ",", "IN", "IN", "NNP", ",", "PRP", "MD", "VB", "VBN", "DT", "JJ", "NNS", "RB", "DT", "NN", "VBZ", "VBN", "IN", "DT", "NN", "."]
-    text: 'In the central contest, that for Mayor, they may have found some pertinent points
-  in_what each faction has said about the other.
+    pos: ["IN", "DT", "JJ", "NN", ",", "IN", "IN", "NNP", ",", "PRP", "MD", "VB", "VBN", "DT", "JJ", "NNS", "IN", "WDT", "DT", "NN", "VBZ", "VBN", "IN", "DT", "NN", "."]
+    text: 'In the central contest, that for Mayor, they may have found some pertinent points in what each faction has said about the other.
 
   '
-    tokens: [[0, 2], [3, 6], [7, 14], [15, 22], [22, 23], [24, 28], [29, 32], [33, 38], [38, 39], [40, 44], [45, 48], [49, 53], [54, 59], [60, 64], [65, 74], [75, 81], [82, 89], [90, 94], [95, 102], [103, 106], [107, 111], [112, 117], [118, 121], [122, 127], [127, 128]]
-    wn16_key: [[12, "find%2:40:02::"], [20, "say%2:32:00::"]]
-    wn30_key: [[12, "find%2:40:02::"], [20, "say%2:32:00::"]]
+    tokens: [[0, 2], [3, 6], [7, 14], [15, 22], [22, 23], [24, 28], [29, 32], [33, 38], [38, 39], [40, 44], [45, 48], [49, 53], [54, 59], [60, 64], [65, 74], [75, 81], [82, 84], [85, 89], [90, 94], [95, 102], [103, 106], [107, 111], [112, 117], [118, 121], [122, 127], [127, 128]]
+    wn16_key: [[12, "find%2:40:02::"], [21, "say%2:32:00::"]]
+    wn30_key: [[12, "find%2:40:02::"], [21, "say%2:32:00::"]]
 R/oB:
     lemmas: ["mayor_robert_f._wagner", "must", ",", "as", "his", "opponent", "demand", ",", "assume", "responsibility", "for", "his", "performance", "in", "office", "."]
     oewn_key: [[6, "oewn-00756987-v"], [8, "oewn-02306786-v"]]
@@ -574,15 +570,14 @@ wRZ5:
     wn16_key: [[7, "strengthen%2:30:01::"]]
     wn30_key: [[7, "strengthen%2:30:01::"]]
 2NrQ:
-    lemmas: ["mr._wagner", "might", "or", "may", "not", "be", "a", "\"", "new", "\"", "mayor", "in_this", "third", "term", ",", "now", "that", "he", "be", "free_of", "the", "pressure", "of", "those", "party", "leaders", "whom", "he", "call", "\"", "boss", "\"", "."]
-    oewn_key: [[5, "oewn-02622439-v"], [18, "oewn-02610777-v"], [28, "oewn-01030757-v"]]
+    lemmas: ["mr._wagner", "might", "or", "may", "not", "be", "a", "\"", "new", "\"", "mayor", "in", "this", "third", "term", ",", "now", "that", "he", "be", "free_of", "the", "pressure", "of", "those", "party", "leaders", "whom", "he", "call", "\"", "boss", "\"", "."]
+    oewn_key: [[5, "oewn-02622439-v"], [19, "oewn-02610777-v"], [29, "oewn-01030757-v"]]
     paragraph: '27'
-    pos: ["NNP", "MD", "CC", "VB", "RB", "VB", "DT", "``", "JJ", "''", "NNP", "RB", "JJ", "NN", ",", "RB", "IN", "PRP", "VBZ", "JJ", "DT", "NN", "IN", "DT", "NN", "NNS", "WP", "PRP", "VBZ", "``", "NNS", "''", "."]
-    text: 'Mr._Wagner might or might not be a " new " Mayor in_this third term, now that he
-  is free_of the pressure of those party leaders whom he calls " bosses ".'
-    tokens: [[0, 10], [11, 16], [17, 19], [20, 25], [26, 29], [30, 32], [33, 34], [35, 36], [37, 40], [41, 42], [43, 48], [49, 56], [57, 62], [63, 67], [67, 68], [69, 72], [73, 77], [78, 80], [81, 83], [84, 91], [92, 95], [96, 104], [105, 107], [108, 113], [114, 119], [120, 127], [128, 132], [133, 135], [136, 141], [142, 143], [144, 150], [151, 152], [152, 153]]
-    wn16_key: [[5, "be%2:42:06::"], [18, "be%2:42:03::"], [28, "call%2:32:02::"]]
-    wn30_key: [[5, "be%2:42:06::"], [18, "be%2:42:03::"], [28, "call%2:32:02::"]]
+    pos: ["NNP", "MD", "CC", "VB", "RB", "VB", "DT", "``", "JJ", "''", "NNP", "IN", "DT", "JJ", "NN", ",", "RB", "IN", "PRP", "VBZ", "JJ", "DT", "NN", "IN", "DT", "NN", "NNS", "WP", "PRP", "VBZ", "``", "NNS", "''", "."]
+    text: 'Mr._Wagner might or might not be a " new " Mayor in this third term, now that he is free_of the pressure of those party leaders whom he calls " bosses ".'
+    tokens: [[0, 10], [11, 16], [17, 19], [20, 25], [26, 29], [30, 32], [33, 34], [35, 36], [37, 40], [41, 42], [43, 48], [49, 51], [52, 56], [57, 62], [63, 67], [67, 68], [69, 72], [73, 77], [78, 80], [81, 83], [84, 91], [92, 95], [96, 104], [105, 107], [108, 113], [114, 119], [120, 127], [128, 132], [133, 135], [136, 141], [142, 143], [144, 150], [151, 152], [152, 153]]
+    wn16_key: [[5, "be%2:42:06::"], [19, "be%2:42:03::"], [29, "call%2:32:02::"]]
+    wn30_key: [[5, "be%2:42:06::"], [19, "be%2:42:03::"], [29, "call%2:32:02::"]]
 mLLL:
     lemmas: ["These", "be", ",", "of_course", ",", "the", "same", "people", "whose", "support", "he", "have", "only", "now", "reject", "to", "seek", "the", "independent", "vote", "."]
     oewn_key: [[1, "oewn-02622439-v"], [14, "oewn-02242120-v"], [16, "oewn-02245263-v"]]
@@ -704,15 +699,14 @@ w6Bu:
     wn16_key: [[2, "show%2:31:00::"], [8, "mean%2:31:00::"], [12, "say%2:32:00::"]]
     wn30_key: [[2, "show%2:31:00::"], [8, "mean%2:31:00::"], [12, "say%2:32:00::"]]
 Dcya:
-    lemmas: ["in_this", "case", "he", "have", "put", "the", "alternative", "clearly", "to", "mr._khrushchev", "for", "the", "third", "time", "."]
-    oewn_key: [[4, "oewn-00983308-v"]]
+    lemmas: ["in", "this", "case", "he", "have", "put", "the", "alternative", "clearly", "to", "mr._khrushchev", "for", "the", "third", "time", "."]
+    oewn_key: [[5, "oewn-00983308-v"]]
     paragraph: '33'
-    pos: ["RB", "NN", "PRP", "VBZ", "VBN", "DT", "NNS", "RB", "TO", "NNP", "IN", "DT", "JJ", "NN", "."]
-    text: 'In_this case he has put the alternatives clearly to Mr._Khrushchev for the third
-  time.'
-    tokens: [[0, 7], [8, 12], [13, 15], [16, 19], [20, 23], [24, 27], [28, 40], [41, 48], [49, 51], [52, 66], [67, 70], [71, 74], [75, 80], [81, 85], [85, 86]]
-    wn16_key: [[4, "put%2:32:00::"]]
-    wn30_key: [[4, "put%2:32:00::"]]
+    pos: ["IN", "DT", "NN", "PRP", "VBZ", "VBN", "DT", "NNS", "RB", "TO", "NNP", "IN", "DT", "JJ", "NN", "."]
+    text: 'In this case he has put the alternatives clearly to Mr._Khrushchev for the third time.'
+    tokens: [[0, 2], [3, 7], [8, 12], [13, 15], [16, 19], [20, 23], [24, 27], [28, 40], [41, 48], [49, 51], [52, 66], [67, 70], [71, 74], [75, 80], [81, 85], [85, 86]]
+    wn16_key: [[5, "put%2:32:00::"]]
+    wn30_key: [[5, "put%2:32:00::"]]
 sEGt:
     lemmas: ["At", "his", "press_conference", "mr._kennedy", "say", ",", "\"", "All", "we", "want", "in", "laos", "be", "peace", "not", "war", "."]
     oewn_key: [[4, "oewn-01011267-v"], [9, "oewn-01829179-v"], [12, "oewn-02622439-v"]]
@@ -732,17 +726,16 @@ F7bJ:
     wn16_key: []
     wn30_key: []
 kuQO:
-    lemmas: ["At", "the", "scene", "he", "have", "just_as", "clearly", "show", "his", "military", "strength", "in", "unprovocative", "but", "ready", "position", "."]
-    oewn_key: [[7, "oewn-02141597-v"]]
+    lemmas: ["At", "the", "scene", "he", "have", "just", "as", "clearly", "show", "his", "military", "strength", "in", "unprovocative", "but", "ready", "position", "."]
+    oewn_key: [[8, "oewn-02141597-v"]]
     paragraph: '33'
-    pos: ["IN", "DT", "NN", "PRP", "VBZ", "RB", "RB", "VBN", "PRP$", "JJ", "NN", "IN", "JJ", "CC", "JJ", "NN", "."]
-    text: 'At the scene he has just_as clearly shown his military strength in unprovocative
-  but ready position.
+    pos: ["IN", "DT", "NN", "PRP", "VBZ", "RB", "RB", "RB", "VBN", "PRP$", "JJ", "NN", "IN", "JJ", "CC", "JJ", "NN", "."]
+    text: 'At the scene he has just as clearly shown his military strength in unprovocative but ready position.
 
   '
-    tokens: [[0, 2], [3, 6], [7, 12], [13, 15], [16, 19], [20, 27], [28, 35], [36, 41], [42, 45], [46, 54], [55, 63], [64, 66], [67, 80], [81, 84], [85, 90], [91, 99], [99, 100]]
-    wn16_key: [[7, "show%2:39:00::"]]
-    wn30_key: [[7, "show%2:39:00::"]]
+    tokens: [[0, 2], [3, 6], [7, 12], [13, 15], [16, 19], [20, 24], [25, 27], [28, 35], [36, 41], [42, 45], [46, 54], [55, 63], [64, 66], [67, 80], [81, 84], [85, 90], [91, 99], [99, 100]]
+    wn16_key: [[8, "show%2:39:00::"]]
+    wn30_key: [[8, "show%2:39:00::"]]
 oOK5:
     lemmas: ["Since", "laos", "be", "of", "no_more", "purely", "military", "value", "to", "moscow", "itself", "than", "it", "be", "to", "washington", ",", "this", "approach", "might", "be", "expect", "to", "head_off", "mr._khrushchev", "for_the_moment", "."]
     oewn_key: [[2, "oewn-02610777-v"], [13, "oewn-02610777-v"], [21, "oewn-00721658-v"], [23, "oewn-02458770-v"]]

@@ -292,12 +292,12 @@ lku4:
     wn16_key: [[3, "wish%2:37:00::"], [5, "be%2:41:00::"]]
     wn30_key: [[3, "wish%2:37:00::"], [5, "be%2:41:00::"]]
 M7Sn:
-    lemmas: ["No", ",", "originally", "he", "have", "hope", "to", "become", "a", "concert", "pianist", "and", "have", "even", "perform", "as_such", "."]
+    lemmas: ["No", ",", "originally", "he", "have", "hope", "to", "become", "a", "concert", "pianist", "and", "have", "even", "perform", "as", "such", "."]
     oewn_key: [[5, "oewn-01830665-v"], [7, "oewn-02632685-v"], [14, "oewn-01718067-v"]]
     paragraph: '6'
-    pos: ["DT", ",", "RB", "PRP", "VBD", "VBN", "TO", "VB", "DT", "NN", "NN", "CC", "VBD", "RB", "VBN", "RB", "."]
-    text: 'No, originally he had hoped to become a concert pianist and had even performed as_such.'
-    tokens: [[0, 2], [2, 3], [4, 14], [15, 17], [18, 21], [22, 27], [28, 30], [31, 37], [38, 39], [40, 47], [48, 55], [56, 59], [60, 63], [64, 68], [69, 78], [79, 86], [86, 87]]
+    pos: ["DT", ",", "RB", "PRP", "VBD", "VBN", "TO", "VB", "DT", "NN", "NN", "CC", "VBD", "RB", "VBN", "IN", "JJ", "."]
+    text: 'No, originally he had hoped to become a concert pianist and had even performed as such.'
+    tokens: [[0, 2], [2, 3], [4, 14], [15, 17], [18, 21], [22, 27], [28, 30], [31, 37], [38, 39], [40, 47], [48, 55], [56, 59], [60, 63], [64, 68], [69, 78], [79, 81], [82, 86], [86, 87]]
     wn16_key: [[5, "hope%2:37:01::"], [7, "become%2:42:01::"], [14, "perform%2:36:01::"]]
     wn30_key: [[5, "hope%2:37:01::"], [7, "become%2:42:01::"], [14, "perform%2:36:01::"]]
 NA7T:
@@ -445,19 +445,16 @@ JVCb:
     wn16_key: [[3, "accept%2:40:01::"]]
     wn30_key: [[3, "accept%2:40:01::"]]
 NNt/:
-    lemmas: ["In", "the", "fall", "of_that", "year", "the", "good", "musician", "of", "the", "berlin", "and", "frankfurt_kulturbund", "orchestra", "join", "under", "the", "combined", "effort", "of", "Bronislaw_Hubermann", "and", "steinberg", "to", "become", "the", "palestine_orchestra", "-", "now", "known", "as", "the", "israel_philharmonic_orchestra", "-", "with", "steinberg", "as", "founder-conductor", "."]
-    oewn_key: [[14, "oewn-01293672-v"], [24, "oewn-02632685-v"]]
+    lemmas: ["In", "the", "fall", "of", "that", "year", "the", "good", "musician", "of", "the", "berlin", "and", "frankfurt_kulturbund", "orchestra", "join", "under", "the", "combined", "effort", "of", "Bronislaw_Hubermann", "and", "steinberg", "to", "become", "the", "palestine_orchestra", "-", "now", "known", "as", "the", "israel_philharmonic_orchestra", "-", "with", "steinberg", "as", "founder-conductor", "."]
+    oewn_key: [[15, "oewn-01293672-v"], [25, "oewn-02632685-v"]]
     paragraph: '8'
-    pos: ["IN", "DT", "NN", "RB", "NN", "DT", "JJS", "NNS", "IN", "DT", "NNP", "CC", "NNP", "NNS", "VBD", "IN", "DT", "JJ", "NNS", "IN", "NNP", "CC", "NNP", "TO", "VB", "DT", "NNP", ":", "RB", "JJ", "IN", "DT", "NNP", ":", "RB", "NNP", "IN", "NN", "."]
-    text: 'In the fall of_that year the best musicians of the Berlin and Frankfurt_Kulturbund
-  orchestras joined under the combined efforts of Bronislaw_Hubermann and Steinberg
-  to become the Palestine_Orchestra - now known as the Israel_Philharmonic_Orchestra
-  - with Steinberg as founder-conductor.
+    pos: ["IN", "DT", "NN", "IN", "DT", "NN", "DT", "JJS", "NNS", "IN", "DT", "NNP", "CC", "NNP", "NNS", "VBD", "IN", "DT", "JJ", "NNS", "IN", "NNP", "CC", "NNP", "TO", "VB", "DT", "NNP", ":", "RB", "JJ", "IN", "DT", "NNP", ":", "RB", "NNP", "IN", "NN", "."]
+    text: 'In the fall of that year the best musicians of the Berlin and Frankfurt_Kulturbund orchestras joined under the combined efforts of Bronislaw_Hubermann and Steinberg to become the Palestine_Orchestra - now known as the Israel_Philharmonic_Orchestra - with Steinberg as founder-conductor.
 
   '
-    tokens: [[0, 2], [3, 6], [7, 11], [12, 19], [20, 24], [25, 28], [29, 33], [34, 43], [44, 46], [47, 50], [51, 57], [58, 61], [62, 82], [83, 93], [94, 100], [101, 106], [107, 110], [111, 119], [120, 127], [128, 130], [131, 150], [151, 154], [155, 164], [165, 167], [168, 174], [175, 178], [179, 198], [199, 200], [201, 204], [205, 210], [211, 213], [214, 217], [218, 247], [248, 249], [250, 254], [255, 264], [265, 267], [268, 285], [285, 286]]
-    wn16_key: [[14, "join%2:35:00::"], [24, "become%2:42:01::"]]
-    wn30_key: [[14, "join%2:35:00::"], [24, "become%2:42:01::"]]
+    tokens: [[0, 2], [3, 6], [7, 11], [12, 14], [15, 19], [20, 24], [25, 28], [29, 33], [34, 43], [44, 46], [47, 50], [51, 57], [58, 61], [62, 82], [83, 93], [94, 100], [101, 106], [107, 110], [111, 119], [120, 127], [128, 130], [131, 150], [151, 154], [155, 164], [165, 167], [168, 174], [175, 178], [179, 198], [199, 200], [201, 204], [205, 210], [211, 213], [214, 217], [218, 247], [248, 249], [250, 254], [255, 264], [265, 267], [268, 285], [285, 286]]
+    wn16_key: [[15, "join%2:35:00::"], [25, "become%2:42:01::"]]
+    wn30_key: [[15, "join%2:35:00::"], [25, "become%2:42:01::"]]
 zukC:
     lemmas: ["In", "1938", ",", "at", "the", "insistence", "of", "arturo_toscanini", ",", "steinberg", "leave", "germany", "for", "the", "united_states", ",", "by", "way", "of", "switzerland", "."]
     oewn_key: [[10, "oewn-02013448-v"]]
@@ -722,15 +719,14 @@ umyP:
     wn16_key: [[2, "introduce%2:36:00::"], [10, "resist%2:33:00::"], [11, "ask%2:32:00::"], [14, "feel%2:31:00::"]]
     wn30_key: [[2, "introduce%2:36:00::"], [10, "resist%2:33:00::"], [11, "ask%2:32:00::"], [14, "feel%2:31:00::"]]
 7/Y1:
-    lemmas: ["\"", "There", "be", "always", "and", "at_all_times", "a", "contemporary", "music", "and", "it", "express", "the", "era", "in_which", "it", "be", "create", "."]
-    oewn_key: [[2, "oewn-02609706-v"], [11, "oewn-01062889-v"], [17, "oewn-01689208-v"]]
+    lemmas: ["\"", "There", "be", "always", "and", "at_all_times", "a", "contemporary", "music", "and", "it", "express", "the", "era", "in", "which", "it", "be", "create", "."]
+    oewn_key: [[2, "oewn-02609706-v"], [11, "oewn-01062889-v"], [18, "oewn-01689208-v"]]
     paragraph: '17'
-    pos: ["``", "EX", "VBD", "RB", "CC", "RB", "DT", "JJ", "NN", "CC", "PRP", "VBZ", "DT", "NN", "RB", "PRP", "VBD", "VBN", "."]
-    text: '" There was always and at_all_times a contemporary music and it expresses the era
-  in_which it was created.'
-    tokens: [[0, 1], [2, 7], [8, 11], [12, 18], [19, 22], [23, 35], [36, 37], [38, 50], [51, 56], [57, 60], [61, 63], [64, 73], [74, 77], [78, 81], [82, 90], [91, 93], [94, 97], [98, 105], [105, 106]]
-    wn16_key: [[2, "be%2:42:00::"], [11, "express%2:32:02::"], [17, "create%2:36:01::"]]
-    wn30_key: [[2, "be%2:42:00::"], [11, "express%2:32:02::"], [17, "create%2:36:01::"]]
+    pos: ["``", "EX", "VBD", "RB", "CC", "RB", "DT", "JJ", "NN", "CC", "PRP", "VBZ", "DT", "NN", "IN", "WDT", "PRP", "VBD", "VBN", "."]
+    text: '" There was always and at_all_times a contemporary music and it expresses the era in which it was created.'
+    tokens: [[0, 1], [2, 7], [8, 11], [12, 18], [19, 22], [23, 35], [36, 37], [38, 50], [51, 56], [57, 60], [61, 63], [64, 73], [74, 77], [78, 81], [82, 84], [85, 90], [91, 93], [94, 97], [98, 105], [105, 106]]
+    wn16_key: [[2, "be%2:42:00::"], [11, "express%2:32:02::"], [18, "create%2:36:01::"]]
+    wn30_key: [[2, "be%2:42:00::"], [11, "express%2:32:02::"], [18, "create%2:36:01::"]]
 AnZt:
     lemmas: ["But", "I", "usually", "stick_to", "the", "old", "phrase", ":", "'", "Ich", "habe", "ein", "Amt", ",", "aber", "keine", "Meinung", "(", "I", "hold", "an", "office", ",", "but", "I", "do", "not", "feel", "entitle", "to", "have", "an", "opinion", ")", "."]
     oewn_key: [[19, "oewn-02307200-v"], [27, "oewn-00717144-v"], [28, "oewn-02452235-v"], [30, "oewn-02208144-v"]]
@@ -794,15 +790,14 @@ tcyP:
     wn16_key: [[3, "feel%2:31:00::"]]
     wn30_key: [[3, "feel%2:31:00::"]]
 sBI/:
-    lemmas: ["again", "steinberg", "be", "cautious", "and", "reply", "with", "a", "smile", "that", "he", "be", "not", "expose", "to_it", "enough", "to", "hazard", "comment", "."]
-    oewn_key: [[2, "oewn-02610777-v"], [5, "oewn-00817348-v"], [13, "oewn-02116512-v"], [17, "oewn-00918880-v"]]
+    lemmas: ["again", "steinberg", "be", "cautious", "and", "reply", "with", "a", "smile", "that", "he", "be", "not", "expose", "to", "it", "enough", "to", "hazard", "comment", "."]
+    oewn_key: [[2, "oewn-02610777-v"], [5, "oewn-00817348-v"], [13, "oewn-02116512-v"], [18, "oewn-00918880-v"]]
     paragraph: '19'
-    pos: ["RB", "NNP", "VBD", "JJ", "CC", "VBD", "IN", "DT", "NN", "IN", "PRP", "VBD", "RB", "VBN", "RB", "RB", "TO", "VB", "NNS", "."]
-    text: 'Again Steinberg was cautious and replied with a smile that he was not exposed to_it
-  enough to hazard comments.'
-    tokens: [[0, 5], [6, 15], [16, 19], [20, 28], [29, 32], [33, 40], [41, 45], [46, 47], [48, 53], [54, 58], [59, 61], [62, 65], [66, 69], [70, 77], [78, 83], [84, 90], [91, 93], [94, 100], [101, 109], [109, 110]]
-    wn16_key: [[2, "be%2:42:03::"], [5, "reply%2:32:00::"], [13, "expose%2:39:02::"], [17, "hazard%2:32:00::"]]
-    wn30_key: [[2, "be%2:42:03::"], [5, "reply%2:32:00::"], [13, "expose%2:39:02::"], [17, "hazard%2:32:00::"]]
+    pos: ["RB", "NNP", "VBD", "JJ", "CC", "VBD", "IN", "DT", "NN", "IN", "PRP", "VBD", "RB", "VBN", "IN", "PRP", "RB", "TO", "VB", "NNS", "."]
+    text: 'Again Steinberg was cautious and replied with a smile that he was not exposed to it enough to hazard comments.'
+    tokens: [[0, 5], [6, 15], [16, 19], [20, 28], [29, 32], [33, 40], [41, 45], [46, 47], [48, 53], [54, 58], [59, 61], [62, 65], [66, 69], [70, 77], [78, 80], [81, 83], [84, 90], [91, 93], [94, 100], [101, 109], [109, 110]]
+    wn16_key: [[2, "be%2:42:03::"], [5, "reply%2:32:00::"], [13, "expose%2:39:02::"], [18, "hazard%2:32:00::"]]
+    wn30_key: [[2, "be%2:42:03::"], [5, "reply%2:32:00::"], [13, "expose%2:39:02::"], [18, "hazard%2:32:00::"]]
 ctek:
     lemmas: ["\"", "As", "my", "wife", "put", "it", "\"", ",", "he", "say", ",", "again", "with", "a", "twinkle", "in", "his", "eyes", ",", "\"", "all", "you", "know", "be", "your", "music", "."]
     oewn_key: [[4, "oewn-00983308-v"], [9, "oewn-01011267-v"], [22, "oewn-00597330-v"], [23, "oewn-02622439-v"]]
@@ -814,16 +809,16 @@ ctek:
     wn16_key: [[4, "put%2:32:00::"], [9, "say%2:32:00::"], [22, "know%2:31:03::"], [23, "be%2:42:06::"]]
     wn30_key: [[4, "put%2:32:00::"], [9, "say%2:32:00::"], [22, "know%2:31:03::"], [23, "be%2:42:06::"]]
 Q5Fs:
-    lemmas: ["But", "after_all", ",", "you", "never", "learn", "anything", "else", "\"", "!"]
-    oewn_key: [[5, "oewn-00599310-v"]]
+    lemmas: ["But", "after", "all", ",", "you", "never", "learn", "anything", "else", "\"", "!"]
+    oewn_key: [[6, "oewn-00599310-v"]]
     paragraph: '19'
-    pos: ["CC", "RB", ",", "PRP", "RB", "VBD", "NN", "RB", "``", "."]
-    text: 'But after_all, you never learned anything else "!
+    pos: ["CC", "IN", "PDT", ",", "PRP", "RB", "VBD", "NN", "RB", "``", "."]
+    text: 'But after all, you never learned anything else "!
 
   '
-    tokens: [[0, 3], [4, 13], [13, 14], [15, 18], [19, 24], [25, 32], [33, 41], [42, 46], [47, 48], [48, 49]]
-    wn16_key: [[5, "learn%2:31:00::"]]
-    wn30_key: [[5, "learn%2:31:00::"]]
+    tokens: [[0, 3], [4, 9], [10, 13], [13, 14], [15, 18], [19, 24], [25, 32], [33, 41], [42, 46], [47, 48], [48, 49]]
+    wn16_key: [[6, "learn%2:31:00::"]]
+    wn30_key: [[6, "learn%2:31:00::"]]
 Cqms:
     lemmas: ["What", "do", "he", "do", "for", "relaxation", "?"]
     oewn_key: [[3, "oewn-01716563-v"]]
@@ -903,17 +898,14 @@ codV:
     wn16_key: [[1, "be%2:41:00::"]]
     wn30_key: [[1, "be%2:41:00::"]]
 sDvY:
-    lemmas: ["Since", "attack", "serve", "to", "stimulate", "interest", "in", "broadcast", ",", "I", "add", "to", "my", "opening", "statement", "a", "sentence", "in_which", "I", "claim", "that", "german", "youth", "seem", "to", "lack", "the", "enthusiasm", "which", "be", "a", "necessary", "ingredient", "of", "anger", ",", "and", "might", "be", "classify", "as", "uninterested", "and", "bored", "rather_than", "angry", "."]
-    oewn_key: [[2, "oewn-02676187-v"], [4, "oewn-00772482-v"], [10, "oewn-00182551-v"], [19, "oewn-00758383-v"], [23, "oewn-02137900-v"], [25, "oewn-02638434-v"], [29, "oewn-02622439-v"], [39, "oewn-00656296-v"]]
+    lemmas: ["Since", "attack", "serve", "to", "stimulate", "interest", "in", "broadcast", ",", "I", "add", "to", "my", "opening", "statement", "a", "sentence", "in", "which", "I", "claim", "that", "german", "youth", "seem", "to", "lack", "the", "enthusiasm", "which", "be", "a", "necessary", "ingredient", "of", "anger", ",", "and", "might", "be", "classify", "as", "uninterested", "and", "bored", "rather", "than", "angry", "."]
+    oewn_key: [[2, "oewn-02676187-v"], [4, "oewn-00772482-v"], [10, "oewn-00182551-v"], [20, "oewn-00758383-v"], [24, "oewn-02137900-v"], [26, "oewn-02638434-v"], [30, "oewn-02622439-v"], [40, "oewn-00656296-v"]]
     paragraph: '22'
-    pos: ["IN", "NN", "VBZ", "TO", "VB", "NN", "IN", "NNS", ",", "PRP", "VBD", "TO", "PRP$", "NN", "NN", "DT", "NN", "RB", "PRP", "VBD", "IN", "JJ", "NN", "VBD", "TO", "VB", "DT", "NN", "WDT", "VBZ", "DT", "JJ", "NN", "IN", "NN", ",", "CC", "MD", "VB", "VBN", "VB", "JJ", "CC", "JJ", "RB", "JJ", "."]
-    text: 'Since attack serves to stimulate interest in broadcasts, I added to my opening statement
-  a sentence in_which I claimed that German youth seemed to lack the enthusiasm which
-  is a necessary ingredient of anger, and might be classified as uninterested and
-  bored rather_than angry.'
-    tokens: [[0, 5], [6, 12], [13, 19], [20, 22], [23, 32], [33, 41], [42, 44], [45, 55], [55, 56], [57, 58], [59, 64], [65, 67], [68, 70], [71, 78], [79, 88], [89, 90], [91, 99], [100, 108], [109, 110], [111, 118], [119, 123], [124, 130], [131, 136], [137, 143], [144, 146], [147, 151], [152, 155], [156, 166], [167, 172], [173, 175], [176, 177], [178, 187], [188, 198], [199, 201], [202, 207], [207, 208], [209, 212], [213, 218], [219, 221], [222, 232], [233, 235], [236, 248], [249, 252], [253, 258], [259, 270], [271, 276], [276, 277]]
-    wn16_key: [[2, "serve%2:42:01::"], [4, "stimulate%2:32:01::"], [10, "add%2:30:00::"], [19, "claim%2:32:00::"], [23, "seem%2:39:00::"], [25, "lack%2:42:00::"], [29, "be%2:42:06::"], [39, "classify%2:31:00::"]]
-    wn30_key: [[2, "serve%2:42:01::"], [4, "stimulate%2:32:01::"], [10, "add%2:30:00::"], [19, "claim%2:32:00::"], [23, "seem%2:39:00::"], [25, "lack%2:42:00::"], [29, "be%2:42:06::"], [39, "classify%2:31:00::"]]
+    pos: ["IN", "NN", "VBZ", "TO", "VB", "NN", "IN", "NNS", ",", "PRP", "VBD", "TO", "PRP$", "NN", "NN", "DT", "NN", "IN", "WDT", "PRP", "VBD", "IN", "JJ", "NN", "VBD", "TO", "VB", "DT", "NN", "WDT", "VBZ", "DT", "JJ", "NN", "IN", "NN", ",", "CC", "MD", "VB", "VBN", "VB", "JJ", "CC", "JJ", "IN", "IN", "JJ", "."]
+    text: 'Since attack serves to stimulate interest in broadcasts, I added to my opening statement a sentence in which I claimed that German youth seemed to lack the enthusiasm which is a necessary ingredient of anger, and might be classified as uninterested and bored rather than angry.'
+    tokens: [[0, 5], [6, 12], [13, 19], [20, 22], [23, 32], [33, 41], [42, 44], [45, 55], [55, 56], [57, 58], [59, 64], [65, 67], [68, 70], [71, 78], [79, 88], [89, 90], [91, 99], [100, 102], [103, 108], [109, 110], [111, 118], [119, 123], [124, 130], [131, 136], [137, 143], [144, 146], [147, 151], [152, 155], [156, 166], [167, 172], [173, 175], [176, 177], [178, 187], [188, 198], [199, 201], [202, 207], [207, 208], [209, 212], [213, 218], [219, 221], [222, 232], [233, 235], [236, 248], [249, 252], [253, 258], [259, 265], [266, 270], [271, 276], [276, 277]]
+    wn16_key: [[2, "serve%2:42:01::"], [4, "stimulate%2:32:01::"], [10, "add%2:30:00::"], [20, "claim%2:32:00::"], [24, "seem%2:39:00::"], [26, "lack%2:42:00::"], [30, "be%2:42:06::"], [40, "classify%2:31:00::"]]
+    wn30_key: [[2, "serve%2:42:01::"], [4, "stimulate%2:32:01::"], [10, "add%2:30:00::"], [20, "claim%2:32:00::"], [24, "seem%2:39:00::"], [26, "lack%2:42:00::"], [30, "be%2:42:06::"], [40, "classify%2:31:00::"]]
 qFk5:
     lemmas: ["I", "be", "far", "from", "convinced", "of", "the", "truth", "of", "my", "statement", ",", "but", "could", "not", "think_of", "anything", "that", "might", "evoke", "response", "more_quickly", "."]
     oewn_key: [[1, "oewn-02610777-v"], [15, "oewn-01637684-v"], [19, "oewn-01650408-v"]]

@@ -673,15 +673,14 @@ fygp:
     wn16_key: [[8, "obscure%2:39:00::"], [12, "concern%2:42:00::"]]
     wn30_key: [[8, "obscure%2:39:00::"], [12, "concern%2:42:00::"]]
 i9Pr:
-    lemmas: ["Prior", "to", "1942", ",", "automobile", "be", "the", "individual", "responsibility", "of", "the", "agency", "to_which", "assign", "."]
-    oewn_key: [[5, "oewn-02622439-v"], [13, "oewn-02233480-v"]]
+    lemmas: ["Prior", "to", "1942", ",", "automobile", "be", "the", "individual", "responsibility", "of", "the", "agency", "to", "which", "assign", "."]
+    oewn_key: [[5, "oewn-02622439-v"], [14, "oewn-02233480-v"]]
     paragraph: '31'
-    pos: ["RB", "TO", "CD", ",", "NNS", "VBD", "DT", "JJ", "NN", "IN", "DT", "NN", "RB", "VBN", "."]
-    text: 'Prior to 1942, automobiles were the individual responsibility of the agency to_which
-  assigned.'
-    tokens: [[0, 5], [6, 8], [9, 13], [13, 14], [15, 26], [27, 31], [32, 35], [36, 46], [47, 61], [62, 64], [65, 68], [69, 75], [76, 84], [85, 93], [93, 94]]
-    wn16_key: [[5, "be%2:42:06::"], [13, "assign%2:40:01::"]]
-    wn30_key: [[5, "be%2:42:06::"], [13, "assign%2:40:01::"]]
+    pos: ["RB", "TO", "CD", ",", "NNS", "VBD", "DT", "JJ", "NN", "IN", "DT", "NN", "IN", "WDT", "VBN", "."]
+    text: 'Prior to 1942, automobiles were the individual responsibility of the agency to which assigned.'
+    tokens: [[0, 5], [6, 8], [9, 13], [13, 14], [15, 26], [27, 31], [32, 35], [36, 46], [47, 61], [62, 64], [65, 68], [69, 75], [76, 78], [79, 84], [85, 93], [93, 94]]
+    wn16_key: [[5, "be%2:42:06::"], [14, "assign%2:40:01::"]]
+    wn30_key: [[5, "be%2:42:06::"], [14, "assign%2:40:01::"]]
 a9XE:
     lemmas: ["This", "responsibility", "include", "all", "phase", "of", "management", "."]
     oewn_key: [[2, "oewn-02639021-v"]]
@@ -858,21 +857,16 @@ GpMZ:
     wn16_key: [[1, "tie_in%2:42:00::"], [8, "upgrade%2:31:00::"], [18, "retain%2:40:00::"], [31, "become%2:30:00::"]]
     wn30_key: [[1, "tie_in%2:42:00::"], [8, "upgrade%2:31:00::"], [18, "retain%2:40:00::"], [31, "become%2:30:00::"]]
 hBsS:
-    lemmas: ["moreover", ",", "it", "allow", "the", "present", "management", "to", "reassign", "vehicle", "so_that", "mileage", "will", "be", "more", "uniformly", "distribute", "throughout", "the", "fleet", ";", "for_example", ",", "if", "one", "driver", "put_on", "22000", "mile", "per_year", "and", "another", "driver", "8000", "mile", "per_year", ",", "their", "car", "will", "be", "switch", "so_that", "both", "car", "will", "have", "30000", "mile", "after", "two", "years", ",", "rather_than", "44000", "mile", "(", "and", "related", "higher", "maintenance", "costs", ")", "and", "16000", "mile", "respectively", "\"", "."]
-    oewn_key: [[3, "oewn-02427979-v"], [8, "oewn-02398228-v"], [16, "oewn-01381221-v"], [26, "oewn-00184656-v"], [41, "oewn-02263812-v"], [46, "oewn-02208144-v"]]
+    lemmas: ["moreover", ",", "it", "allow", "the", "present", "management", "to", "reassign", "vehicle", "so", "that", "mileage", "will", "be", "more", "uniformly", "distribute", "throughout", "the", "fleet", ";", "for_example", ",", "if", "one", "driver", "put_on", "22000", "mile", "per_year", "and", "another", "driver", "8000", "mile", "per_year", ",", "their", "car", "will", "be", "switch", "so", "that", "both", "car", "will", "have", "30000", "mile", "after", "two", "years", ",", "rather_than", "44000", "mile", "(", "and", "related", "higher", "maintenance", "costs", ")", "and", "16000", "mile", "respectively", "\"", "."]
+    oewn_key: [[3, "oewn-02427979-v"], [8, "oewn-02398228-v"], [17, "oewn-01381221-v"], [27, "oewn-00184656-v"], [42, "oewn-02263812-v"], [48, "oewn-02208144-v"]]
     paragraph: '31'
-    pos: ["RB", ",", "PRP", "VBZ", "DT", "JJ", "NN", "TO", "VB", "NNS", "RB", "NN", "MD", "VB", "RBR", "RB", "VBN", "IN", "DT", "NN", ":", "RB", ",", "IN", "CD", "NN", "VB", "CD", "NNS", "RB", "CC", "DT", "NN", "CD", "NNS", "RB", ",", "PRP$", "NNS", "MD", "VB", "VBN", "RB", "DT", "NNS", "MD", "VB", "CD", "NNS", "IN", "CD", "NNS", ",", "RB", "CD", "NNS", "NN", "CC", "JJ", "JJR", "NN", "NNS", "CD", "CC", "CD", "NNS", "RB", "``", "."]
-    text: 'Moreover, it allows the present management to reassign vehicles so_that mileage
-  will be more uniformly distributed throughout the fleet; for_example, if one driver
-  puts_on 22000 miles per_year and another driver 8000 miles per_year, their cars
-  will be switched so_that both cars will have 30000 miles after two years, rather_than
-  44000 miles (and related higher maintenance costs) and 16000 miles respectively
-  ".
+    pos: ["RB", ",", "PRP", "VBZ", "DT", "JJ", "NN", "TO", "VB", "NNS", "IN", "IN", "NN", "MD", "VB", "RBR", "RB", "VBN", "IN", "DT", "NN", ":", "RB", ",", "IN", "CD", "NN", "VB", "CD", "NNS", "RB", "CC", "DT", "NN", "CD", "NNS", "RB", ",", "PRP$", "NNS", "MD", "VB", "VBN", "IN", "IN", "DT", "NNS", "MD", "VB", "CD", "NNS", "IN", "CD", "NNS", ",", "RB", "CD", "NNS", "NN", "CC", "JJ", "JJR", "NN", "NNS", "CD", "CC", "CD", "NNS", "RB", "``", "."]
+    text: 'Moreover, it allows the present management to reassign vehicles so that mileage will be more uniformly distributed throughout the fleet; for_example, if one driver puts_on 22000 miles per_year and another driver 8000 miles per_year, their cars will be switched so that both cars will have 30000 miles after two years, rather_than 44000 miles (and related higher maintenance costs) and 16000 miles respectively ".
 
   '
-    tokens: [[0, 8], [8, 9], [10, 12], [13, 19], [20, 23], [24, 31], [32, 42], [43, 45], [46, 54], [55, 63], [64, 71], [72, 79], [80, 84], [85, 87], [88, 92], [93, 102], [103, 114], [115, 125], [126, 129], [130, 135], [135, 136], [137, 148], [148, 149], [150, 152], [153, 156], [157, 163], [164, 171], [172, 177], [178, 183], [184, 192], [193, 196], [197, 204], [205, 211], [212, 216], [217, 222], [223, 231], [231, 232], [233, 238], [239, 243], [244, 248], [249, 251], [252, 260], [261, 268], [269, 273], [274, 278], [279, 283], [284, 288], [289, 294], [295, 300], [301, 306], [307, 310], [311, 316], [316, 317], [318, 329], [330, 335], [336, 341], [342, 343], [343, 346], [347, 354], [355, 361], [362, 373], [374, 379], [379, 380], [381, 384], [385, 390], [391, 396], [397, 409], [410, 411], [411, 412]]
-    wn16_key: [[3, "allow%2:41:00::"], [8, "reassign%2:41:00::"], [16, "distribute%2:35:01::"], [26, "put_on%2:30:00::"], [41, "switch%2:40:00::"], [46, "have%2:40:00::"]]
-    wn30_key: [[3, "allow%2:41:00::"], [8, "reassign%2:41:00::"], [16, "distribute%2:35:01::"], [26, "put_on%2:30:00::"], [41, "switch%2:40:00::"], [46, "have%2:40:00::"]]
+    tokens: [[0, 8], [8, 9], [10, 12], [13, 19], [20, 23], [24, 31], [32, 42], [43, 45], [46, 54], [55, 63], [64, 66], [67, 71], [72, 79], [80, 84], [85, 87], [88, 92], [93, 102], [103, 114], [115, 125], [126, 129], [130, 135], [135, 136], [137, 148], [148, 149], [150, 152], [153, 156], [157, 163], [164, 171], [172, 177], [178, 183], [184, 192], [193, 196], [197, 204], [205, 211], [212, 216], [217, 222], [223, 231], [231, 232], [233, 238], [239, 243], [244, 248], [249, 251], [252, 260], [261, 263], [264, 268], [269, 273], [274, 278], [279, 283], [284, 288], [289, 294], [295, 300], [301, 306], [307, 310], [311, 316], [316, 317], [318, 329], [330, 335], [336, 341], [342, 343], [343, 346], [347, 354], [355, 361], [362, 373], [374, 379], [379, 380], [381, 384], [385, 390], [391, 396], [397, 409], [410, 411], [411, 412]]
+    wn16_key: [[3, "allow%2:41:00::"], [8, "reassign%2:41:00::"], [17, "distribute%2:35:01::"], [27, "put_on%2:30:00::"], [42, "switch%2:40:00::"], [48, "have%2:40:00::"]]
+    wn30_key: [[3, "allow%2:41:00::"], [8, "reassign%2:41:00::"], [17, "distribute%2:35:01::"], [27, "put_on%2:30:00::"], [42, "switch%2:40:00::"], [48, "have%2:40:00::"]]
 0A7E:
     lemmas: ["The", "motor_pool", "be", "a", "completely", "centralized", "and", "mechanized", "operation", "."]
     oewn_key: [[2, "oewn-02610777-v"]]
@@ -1015,15 +1009,14 @@ SkkN:
     wn16_key: [[6, "handle%2:41:00::"]]
     wn30_key: [[6, "handle%2:41:00::"]]
 r6JE:
-    lemmas: ["request", "be", "make", "by", "the", "motor_pool", "along", "with", "any", "necessary", "cooperation", "from", "the", "agency", "to_which", "assignment", "of", "car", "will", "be", "make", "."]
-    oewn_key: [[2, "oewn-02566500-v"], [20, "oewn-02566500-v"]]
+    lemmas: ["request", "be", "make", "by", "the", "motor_pool", "along", "with", "any", "necessary", "cooperation", "from", "the", "agency", "to", "which", "assignment", "of", "car", "will", "be", "make", "."]
+    oewn_key: [[2, "oewn-02566500-v"], [21, "oewn-02566500-v"]]
     paragraph: '34'
-    pos: ["NNS", "VBP", "VBN", "IN", "DT", "NN", "IN", "IN", "DT", "JJ", "NN", "IN", "DT", "NNS", "RB", "NNS", "IN", "NNS", "MD", "VB", "VBN", "."]
-    text: 'Requests are made by the motor_pool along with any necessary cooperation from the
-  agencies to_which assignments of cars will be made.'
-    tokens: [[0, 8], [9, 12], [13, 17], [18, 20], [21, 24], [25, 35], [36, 41], [42, 46], [47, 50], [51, 60], [61, 72], [73, 77], [78, 81], [82, 90], [91, 99], [100, 111], [112, 114], [115, 119], [120, 124], [125, 127], [128, 132], [132, 133]]
-    wn16_key: [[2, "make%2:41:00::"], [20, "make%2:41:00::"]]
-    wn30_key: [[2, "make%2:41:00::"], [20, "make%2:41:00::"]]
+    pos: ["NNS", "VBP", "VBN", "IN", "DT", "NN", "IN", "IN", "DT", "JJ", "NN", "IN", "DT", "NNS", "IN", "WDT", "NNS", "IN", "NNS", "MD", "VB", "VBN", "."]
+    text: 'Requests are made by the motor_pool along with any necessary cooperation from the agencies to which assignments of cars will be made.'
+    tokens: [[0, 8], [9, 12], [13, 17], [18, 20], [21, 24], [25, 35], [36, 41], [42, 46], [47, 50], [51, 60], [61, 72], [73, 77], [78, 81], [82, 90], [91, 93], [94, 99], [100, 111], [112, 114], [115, 119], [120, 124], [125, 127], [128, 132], [132, 133]]
+    wn16_key: [[2, "make%2:41:00::"], [21, "make%2:41:00::"]]
+    wn30_key: [[2, "make%2:41:00::"], [21, "make%2:41:00::"]]
 Wa5K:
     lemmas: ["bid", "be", "evaluate", "by", "the", "division", "of", "purchase", "with", "the", "assistance", "of", "pool", "staff", ",", "and", "award", "for", "the", "purchase", "of", "the", "automobile", "be", "make", "to", "the", "lowest", "responsible", "bidder", "."]
     oewn_key: [[2, "oewn-00683348-v"], [24, "oewn-02566500-v"]]
@@ -1067,16 +1060,14 @@ qN03:
     wn16_key: [[4, "be%2:42:03::"]]
     wn30_key: [[4, "be%2:42:03::"]]
 YHwg:
-    lemmas: ["in_that", "ownership", "of", "all", "vehicle", "rest_on", "with", "the", "state", "motor_pool", ",", "car", "be", "pay", "for", "with", "funds", "appropriate", "to", "the", "agency", "but", "transfer", "to", "the", "rotary", "fund", "mention", "earlier", "."]
-    oewn_key: [[5, "oewn-02669721-v"], [13, "oewn-02256551-v"], [17, "oewn-00726112-v"], [22, "oewn-02236972-v"], [27, "oewn-01026199-v"]]
+    lemmas: ["in", "that", "ownership", "of", "all", "vehicle", "rest_on", "with", "the", "state", "motor_pool", ",", "car", "be", "pay", "for", "with", "funds", "appropriate", "to", "the", "agency", "but", "transfer", "to", "the", "rotary", "fund", "mention", "earlier", "."]
+    oewn_key: [[6, "oewn-02669721-v"], [14, "oewn-02256551-v"], [18, "oewn-00726112-v"], [23, "oewn-02236972-v"], [28, "oewn-01026199-v"]]
     paragraph: '35'
-    pos: ["RB", "NN", "IN", "DT", "NNS", "VBZ", "IN", "DT", "NN", "NN", ",", "NNS", "VBP", "VBN", "VB", "IN", "NNS", "VBN", "TO", "DT", "NNS", "CC", "VBN", "TO", "DT", "JJ", "NN", "VBN", "RBR", "."]
-    text: 'In_that ownership of all vehicles rests with the state motor_pool, cars are paid
-  for with funds appropriated to the agencies but transferred to the rotary fund mentioned
-  earlier.'
-    tokens: [[0, 7], [8, 17], [18, 20], [21, 24], [25, 33], [34, 39], [40, 44], [45, 48], [49, 54], [55, 65], [65, 66], [67, 71], [72, 75], [76, 80], [81, 84], [85, 89], [90, 95], [96, 108], [109, 111], [112, 115], [116, 124], [125, 128], [129, 140], [141, 143], [144, 147], [148, 154], [155, 159], [160, 169], [170, 177], [177, 178]]
-    wn16_key: [[5, "rest_on%2:42:00::"], [13, "pay%2:40:00::"], [17, "appropriate%2:31:00::"], [22, "transfer%2:40:01::"], [27, "mention%2:32:02::"]]
-    wn30_key: [[5, "rest_on%2:42:00::"], [13, "pay%2:40:00::"], [17, "appropriate%2:31:00::"], [22, "transfer%2:40:01::"], [27, "mention%2:32:02::"]]
+    pos: ["IN", "IN", "NN", "IN", "DT", "NNS", "VBZ", "IN", "DT", "NN", "NN", ",", "NNS", "VBP", "VBN", "VB", "IN", "NNS", "VBN", "TO", "DT", "NNS", "CC", "VBN", "TO", "DT", "JJ", "NN", "VBN", "RBR", "."]
+    text: 'In that ownership of all vehicles rests with the state motor_pool, cars are paid for with funds appropriated to the agencies but transferred to the rotary fund mentioned earlier.'
+    tokens: [[0, 2], [3, 7], [8, 17], [18, 20], [21, 24], [25, 33], [34, 39], [40, 44], [45, 48], [49, 54], [55, 65], [65, 66], [67, 71], [72, 75], [76, 80], [81, 84], [85, 89], [90, 95], [96, 108], [109, 111], [112, 115], [116, 124], [125, 128], [129, 140], [141, 143], [144, 147], [148, 154], [155, 159], [160, 169], [170, 177], [177, 178]]
+    wn16_key: [[6, "rest_on%2:42:00::"], [14, "pay%2:40:00::"], [18, "appropriate%2:31:00::"], [23, "transfer%2:40:01::"], [28, "mention%2:32:02::"]]
+    wn30_key: [[6, "rest_on%2:42:00::"], [14, "pay%2:40:00::"], [18, "appropriate%2:31:00::"], [23, "transfer%2:40:01::"], [28, "mention%2:32:02::"]]
 k/Po:
     lemmas: ["This", "be", "a", "normal", "governmental", "procedure", "which", "reflect", "more", "accurately", "cost-accounting", "principle", "."]
     oewn_key: [[1, "oewn-02622439-v"], [7, "oewn-02141357-v"]]
@@ -1110,16 +1101,14 @@ g6WX:
     wn16_key: [[8, "be%2:42:06::"], [13, "govern%2:41:02::"]]
     wn30_key: [[8, "be%2:42:06::"], [13, "govern%2:41:02::"]]
 wyov:
-    lemmas: ["The", "legislature", "'s", "role", "in", "policy", "determination", "in_this", "area", "for", "years", "have", "be", "confine", "almost", "solely", "to", "the", "amount", "of", "funds", "appropriate", "annually", "for", "the", "purchase", "and", "operation", "of", "vehicle", "."]
-    oewn_key: [[13, "oewn-01304044-v"], [21, "oewn-00726112-v"]]
+    lemmas: ["The", "legislature", "'s", "role", "in", "policy", "determination", "in", "this", "area", "for", "years", "have", "be", "confine", "almost", "solely", "to", "the", "amount", "of", "funds", "appropriate", "annually", "for", "the", "purchase", "and", "operation", "of", "vehicle", "."]
+    oewn_key: [[14, "oewn-01304044-v"], [22, "oewn-00726112-v"]]
     paragraph: '36'
-    pos: ["DT", "NN", "POS", "NN", "IN", "NN", "NN", "RB", "NN", "IN", "NNS", "VBZ", "VBN", "VBN", "RB", "RB", "TO", "DT", "NN", "IN", "NNS", "VBN", "RB", "IN", "DT", "NN", "CC", "NN", "IN", "NNS", "."]
-    text: 'The legislature''s role in policy determination in_this area for years has been
-  confined almost solely to the amount of funds appropriated annually for the purchase
-  and operation of vehicles.'
-    tokens: [[0, 3], [4, 15], [15, 17], [18, 22], [23, 25], [26, 32], [33, 46], [47, 54], [55, 59], [60, 63], [64, 69], [70, 73], [74, 78], [79, 87], [88, 94], [95, 101], [102, 104], [105, 108], [109, 115], [116, 118], [119, 124], [125, 137], [138, 146], [147, 150], [151, 154], [155, 163], [164, 167], [168, 177], [178, 180], [181, 189], [189, 190]]
-    wn16_key: [[13, "confine%2:30:01::"], [21, "appropriate%2:31:00::"]]
-    wn30_key: [[13, "confine%2:30:01::"], [21, "appropriate%2:31:00::"]]
+    pos: ["DT", "NN", "POS", "NN", "IN", "NN", "NN", "IN", "DT", "NN", "IN", "NNS", "VBZ", "VBN", "VBN", "RB", "RB", "TO", "DT", "NN", "IN", "NNS", "VBN", "RB", "IN", "DT", "NN", "CC", "NN", "IN", "NNS", "."]
+    text: 'The legislature''s role in policy determination in this area for years has been confined almost solely to the amount of funds appropriated annually for the purchase and operation of vehicles.'
+    tokens: [[0, 3], [4, 15], [15, 17], [18, 22], [23, 25], [26, 32], [33, 46], [47, 49], [50, 54], [55, 59], [60, 63], [64, 69], [70, 73], [74, 78], [79, 87], [88, 94], [95, 101], [102, 104], [105, 108], [109, 115], [116, 118], [119, 124], [125, 137], [138, 146], [147, 150], [151, 154], [155, 163], [164, 167], [168, 177], [178, 180], [181, 189], [189, 190]]
+    wn16_key: [[14, "confine%2:30:01::"], [22, "appropriate%2:31:00::"]]
+    wn30_key: [[14, "confine%2:30:01::"], [22, "appropriate%2:31:00::"]]
 MQXg:
     lemmas: ["The", "more", "meaningful", "policy", "have", "be_left", "to", "the", "judgment", "of", "the", "chief", "administrative", "officer", "of", "the", "state", "--", "the", "director", "of", "administration", "."]
     oewn_key: []

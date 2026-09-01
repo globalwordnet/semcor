@@ -27,15 +27,14 @@ _meta:
         base: tokens
         data: string
 hGFK:
-    lemmas: ["Elisabeth_Schwarzkopf", "sing", "so", "magnificently", "saturday", "night", "at", "hunter_college", "that", "it", "seem", "a", "pity", "to", "have_to", "register", "any", "complaint", "."]
-    oewn_key: [[1, "oewn-01733312-v"], [10, "oewn-02137900-v"], [15, "oewn-02477113-v"]]
+    lemmas: ["Elisabeth_Schwarzkopf", "sing", "so", "magnificently", "saturday", "night", "at", "hunter_college", "that", "it", "seem", "a", "pity", "to", "have", "to", "register", "any", "complaint", "."]
+    oewn_key: [[1, "oewn-01733312-v"], [10, "oewn-02137900-v"], [16, "oewn-02477113-v"]]
     paragraph: '0'
-    pos: ["NNP", "VBD", "RB", "RB", "NNP", "NN", "IN", "NNP", "IN", "PRP", "VBZ", "DT", "NN", "TO", "VB", "VB", "DT", "NNS", "."]
-    text: Elisabeth_Schwarzkopf sang so magnificently Saturday night at Hunter_College that
-      it seems a pity to have_to register any complaints.
-    tokens: [[0, 21], [22, 26], [27, 29], [30, 43], [44, 52], [53, 58], [59, 61], [62, 76], [77, 81], [82, 84], [85, 90], [91, 92], [93, 97], [98, 100], [101, 108], [109, 117], [118, 121], [122, 132], [132, 133]]
-    wn16_key: [[1, "sing%2:36:00::"], [10, "seem%2:39:00::"], [15, "register%2:41:00::"]]
-    wn30_key: [[1, "sing%2:36:00::"], [10, "seem%2:39:00::"], [15, "register%2:41:00::"]]
+    pos: ["NNP", "VBD", "RB", "RB", "NNP", "NN", "IN", "NNP", "IN", "PRP", "VBZ", "DT", "NN", "TO", "VBP", "TO", "VB", "DT", "NNS", "."]
+    text: 'Elisabeth_Schwarzkopf sang so magnificently Saturday night at Hunter_College that it seems a pity to have to register any complaints.'
+    tokens: [[0, 21], [22, 26], [27, 29], [30, 43], [44, 52], [53, 58], [59, 61], [62, 76], [77, 81], [82, 84], [85, 90], [91, 92], [93, 97], [98, 100], [101, 105], [106, 108], [109, 117], [118, 121], [122, 132], [132, 133]]
+    wn16_key: [[1, "sing%2:36:00::"], [10, "seem%2:39:00::"], [16, "register%2:41:00::"]]
+    wn30_key: [[1, "sing%2:36:00::"], [10, "seem%2:39:00::"], [16, "register%2:41:00::"]]
 omtt:
     lemmas: ["still", "a", "demurrer", "or", "two", "must", "be", "enter", "."]
     oewn_key: [[7, "oewn-01002259-v"]]
@@ -127,13 +126,12 @@ MNZq:
     wn16_key: [[3, "be%2:42:03::"]]
     wn30_key: [[3, "be%2:42:03::"]]
 iDv/:
-    lemmas: ["There", "be", "an", "extra", "pause", "here", ",", "a", "gasp", "or", "a", "sigh", "there", ",", "here_and_there", "an", "extra", "little", "twist", "of", "a", "word", "or", "note", ",", "all_in", "the", "interest", "of", "effect", "."]
+    lemmas: ["There", "be", "an", "extra", "pause", "here", ",", "a", "gasp", "or", "a", "sigh", "there", ",", "here_and_there", "an", "extra", "little", "twist", "of", "a", "word", "or", "note", ",", "all", "in", "the", "interest", "of", "effect", "."]
     oewn_key: [[1, "oewn-02609706-v"]]
     paragraph: '3'
-    pos: ["EX", "VBD", "DT", "JJ", "NN", "RB", ",", "DT", "NN", "CC", "DT", "NN", "EX", ",", "RB", "DT", "JJ", "JJ", "NN", "IN", "DT", "NN", "CC", "NN", ",", "JJ", "DT", "NN", "IN", "NN", "."]
-    text: 'There was an extra pause here, a gasp or a sigh there, here_and_there an extra little
-  twist of a word or note, all_in the interest of effect.'
-    tokens: [[0, 5], [6, 9], [10, 12], [13, 18], [19, 24], [25, 29], [29, 30], [31, 32], [33, 37], [38, 40], [41, 42], [43, 47], [48, 53], [53, 54], [55, 69], [70, 72], [73, 78], [79, 85], [86, 91], [92, 94], [95, 96], [97, 101], [102, 104], [105, 109], [109, 110], [111, 117], [118, 121], [122, 130], [131, 133], [134, 140], [140, 141]]
+    pos: ["EX", "VBD", "DT", "JJ", "NN", "RB", ",", "DT", "NN", "CC", "DT", "NN", "EX", ",", "RB", "DT", "JJ", "JJ", "NN", "IN", "DT", "NN", "CC", "NN", ",", "PDT", "IN", "DT", "NN", "IN", "NN", "."]
+    text: 'There was an extra pause here, a gasp or a sigh there, here_and_there an extra little twist of a word or note, all in the interest of effect.'
+    tokens: [[0, 5], [6, 9], [10, 12], [13, 18], [19, 24], [25, 29], [29, 30], [31, 32], [33, 37], [38, 40], [41, 42], [43, 47], [48, 53], [53, 54], [55, 69], [70, 72], [73, 78], [79, 85], [86, 91], [92, 94], [95, 96], [97, 101], [102, 104], [105, 109], [109, 110], [111, 114], [115, 117], [118, 121], [122, 130], [131, 133], [134, 140], [140, 141]]
     wn16_key: [[1, "be%2:42:00::"]]
     wn30_key: [[1, "be%2:42:00::"]]
 PCR7:
@@ -181,18 +179,16 @@ VObH:
     wn16_key: [[8, "be%2:42:00::"], [16, "be%2:42:03::"], [22, "need%2:42:00::"]]
     wn30_key: [[8, "be%2:42:00::"], [16, "be%2:42:03::"], [22, "need%2:42:00::"]]
 ZLYj:
-    lemmas: ["The", "dance", ",", "dancer", "and", "dance", "enthusiast", "(", "8500", "of", "them", ")", "have", "a", "much", "well", "time", "of_it", "at", "Lewisohn_Stadium", "on", "saturday", "night", "than", "all", "have", "have", "two", "night", "early", ",", "when", "stadium", "concert", "present", "the", "first", "of", "two", "dance", "program", "."]
-    oewn_key: [[12, "oewn-02112480-v"], [26, "oewn-02112480-v"], [34, "oewn-02153218-v"]]
+    lemmas: ["The", "dance", ",", "dancer", "and", "dance", "enthusiast", "(", "8500", "of", "them", ")", "have", "a", "much", "well", "time", "of", "it", "at", "Lewisohn_Stadium", "on", "saturday", "night", "than", "all", "have", "have", "two", "night", "early", ",", "when", "stadium", "concert", "present", "the", "first", "of", "two", "dance", "program", "."]
+    oewn_key: [[12, "oewn-02112480-v"], [27, "oewn-02112480-v"], [35, "oewn-02153218-v"]]
     paragraph: '5'
-    pos: ["DT", "NN", ",", "NNS", "CC", "NN", "NNS", "VBP", "CD", "IN", "PRP", "NNP", "VBD", "DT", "JJ", "RBR", "NN", "RB", "IN", "NNP", "IN", "NNP", "NN", "IN", "DT", "VBD", "VBN", "CD", "NNS", "JJR", ",", "WRB", "NNP", "NNPS", "VBD", "DT", "NN", "IN", "CD", "NN", "NNS", "."]
-    text: 'The dance, dancers and dance enthusiasts (8500 of them) had a much better time of_it
-  at Lewisohn_Stadium on Saturday night than all had had two nights earlier, when
-  Stadium Concerts presented the first of two dance programs.
+    pos: ["DT", "NN", ",", "NNS", "CC", "NN", "NNS", "VBP", "CD", "IN", "PRP", "NNP", "VBD", "DT", "JJ", "RBR", "NN", "IN", "PRP", "IN", "NNP", "IN", "NNP", "NN", "IN", "DT", "VBD", "VBN", "CD", "NNS", "JJR", ",", "WRB", "NNP", "NNPS", "VBD", "DT", "NN", "IN", "CD", "NN", "NNS", "."]
+    text: 'The dance, dancers and dance enthusiasts (8500 of them) had a much better time of it at Lewisohn_Stadium on Saturday night than all had had two nights earlier, when Stadium Concerts presented the first of two dance programs.
 
   '
-    tokens: [[0, 3], [4, 9], [9, 10], [11, 18], [19, 22], [23, 28], [29, 40], [41, 42], [42, 46], [47, 49], [50, 54], [54, 55], [56, 59], [60, 61], [62, 66], [67, 73], [74, 78], [79, 84], [85, 87], [88, 104], [105, 107], [108, 116], [117, 122], [123, 127], [128, 131], [132, 135], [136, 139], [140, 143], [144, 150], [151, 158], [158, 159], [160, 164], [165, 172], [173, 181], [182, 191], [192, 195], [196, 201], [202, 204], [205, 208], [209, 214], [215, 223], [223, 224]]
-    wn16_key: [[12, "have%2:39:06::"], [26, "have%2:39:06::"], [34, "present%2:39:00::"]]
-    wn30_key: [[12, "have%2:39:06::"], [26, "have%2:39:06::"], [34, "present%2:39:00::"]]
+    tokens: [[0, 3], [4, 9], [9, 10], [11, 18], [19, 22], [23, 28], [29, 40], [41, 42], [42, 46], [47, 49], [50, 54], [54, 55], [56, 59], [60, 61], [62, 66], [67, 73], [74, 78], [79, 81], [82, 84], [85, 87], [88, 104], [105, 107], [108, 116], [117, 122], [123, 127], [128, 131], [132, 135], [136, 139], [140, 143], [144, 150], [151, 158], [158, 159], [160, 164], [165, 172], [173, 181], [182, 191], [192, 195], [196, 201], [202, 204], [205, 208], [209, 214], [215, 223], [223, 224]]
+    wn16_key: [[12, "have%2:39:06::"], [27, "have%2:39:06::"], [35, "present%2:39:00::"]]
+    wn30_key: [[12, "have%2:39:06::"], [27, "have%2:39:06::"], [35, "present%2:39:00::"]]
 cGBF:
     lemmas: ["On", "saturday", ",", "the", "orchestra", "be", "sensibly", "situated", "down", "on", "the", "field", ",", "the", "stage", "floor", "be", "apparently", "in", "decent", "condition", "for", "dancing", ",", "and", "the", "order", "of", "the", "program", "improve", "."]
     oewn_key: [[16, "oewn-02610777-v"], [30, "oewn-00205454-v"]]
@@ -317,16 +313,16 @@ JxLY:
     wn16_key: [[9, "exploit%2:34:01::"], [19, "be%2:42:03::"]]
     wn30_key: [[9, "exploit%2:34:01::"], [19, "be%2:42:03::"]]
 VxAn:
-    lemmas: ["\"", "roots", "of", "the_Blues", "\"", "may_not", "be", "for", "gentle", "soul", ",", "but", "other", "should", "welcome", "its", "super-charged", "impact", "."]
-    oewn_key: [[14, "oewn-02241988-v"]]
+    lemmas: ["\"", "roots", "of", "the_Blues", "\"", "may", "not", "be", "for", "gentle", "soul", ",", "but", "other", "should", "welcome", "its", "super-charged", "impact", "."]
+    oewn_key: [[15, "oewn-02241988-v"]]
     paragraph: '14'
-    pos: ["``", "NNPS", "IN", "NN", "``", "VB", "VB", "IN", "JJ", "NNS", ",", "CC", "NNS", "MD", "VB", "PRP$", "JJ", "NN", "."]
-    text: '"Roots of the_Blues" may_not be for gentle souls, but others should welcome its super-charged impact.
+    pos: ["``", "NNPS", "IN", "NN", "``", "MD", "RB", "VB", "IN", "JJ", "NNS", ",", "CC", "NNS", "MD", "VB", "PRP$", "JJ", "NN", "."]
+    text: '"Roots of the_Blues" may not be for gentle souls, but others should welcome its super-charged impact.
 
   '
-    tokens: [[0, 1], [1, 6], [7, 9], [10, 19], [19, 20], [21, 28], [29, 31], [32, 35], [36, 42], [43, 48], [48, 49], [50, 53], [54, 60], [61, 67], [68, 75], [76, 79], [80, 93], [94, 100], [100, 101]]
-    wn16_key: [[14, "welcome%2:40:00::"]]
-    wn30_key: [[14, "welcome%2:40:00::"]]
+    tokens: [[0, 1], [1, 6], [7, 9], [10, 19], [19, 20], [21, 24], [25, 28], [29, 31], [32, 35], [36, 42], [43, 48], [48, 49], [50, 53], [54, 60], [61, 67], [68, 75], [76, 79], [80, 93], [94, 100], [100, 101]]
+    wn16_key: [[15, "welcome%2:40:00::"]]
+    wn30_key: [[15, "welcome%2:40:00::"]]
 JtC8:
     lemmas: ["\"", "perhaps", "it", "be", "good", "to", "stay", "at", "home", "."]
     oewn_key: [[3, "oewn-02610777-v"], [6, "oewn-00117793-v"]]
@@ -441,16 +437,14 @@ kNay:
     wn16_key: [[7, "assemble%2:36:00::"], [9, "put%2:35:00::"]]
     wn30_key: [[7, "assemble%2:36:00::"], [9, "put%2:35:00::"]]
 vbbL:
-    lemmas: ["mr._sansom", "actually", "write", "his", "with", "a", "nice", "ear", "for", "a", "gracefully", "composed", "sentence", ",", "with", "an", "intense", "relish", "in_all", "the", "metaphorical", "resource", "of", "english", ",", "with", "a", "thick", "shower", "of", "sophisticated", ",", "cultural", "reference", "."]
+    lemmas: ["mr._sansom", "actually", "write", "his", "with", "a", "nice", "ear", "for", "a", "gracefully", "composed", "sentence", ",", "with", "an", "intense", "relish", "in", "all", "the", "metaphorical", "resource", "of", "english", ",", "with", "a", "thick", "shower", "of", "sophisticated", ",", "cultural", "reference", "."]
     oewn_key: [[2, "oewn-00995046-v"]]
     paragraph: '17'
-    pos: ["NNP", "RB", "VBZ", "PRP", "IN", "DT", "JJ", "NN", "IN", "DT", "RB", "JJ", "NN", ",", "IN", "DT", "JJ", "NN", "RB", "DT", "JJ", "NNS", "IN", "NNP", ",", "IN", "DT", "JJ", "NN", "IN", "JJ", ",", "JJ", "NNS", "."]
-    text: 'Mr._Sansom actually writes his with a nice ear for a gracefully composed sentence,
-  with an intense relish in_all the metaphorical resources of English, with a thick
-  shower of sophisticated, cultural references.
+    pos: ["NNP", "RB", "VBZ", "PRP", "IN", "DT", "JJ", "NN", "IN", "DT", "RB", "JJ", "NN", ",", "IN", "DT", "JJ", "NN", "IN", "PDT", "DT", "JJ", "NNS", "IN", "NNP", ",", "IN", "DT", "JJ", "NN", "IN", "JJ", ",", "JJ", "NNS", "."]
+    text: 'Mr._Sansom actually writes his with a nice ear for a gracefully composed sentence, with an intense relish in all the metaphorical resources of English, with a thick shower of sophisticated, cultural references.
 
   '
-    tokens: [[0, 10], [11, 19], [20, 26], [27, 30], [31, 35], [36, 37], [38, 42], [43, 46], [47, 50], [51, 52], [53, 63], [64, 72], [73, 81], [81, 82], [83, 87], [88, 90], [91, 98], [99, 105], [106, 112], [113, 116], [117, 129], [130, 139], [140, 142], [143, 150], [150, 151], [152, 156], [157, 158], [159, 164], [165, 171], [172, 174], [175, 188], [188, 189], [190, 198], [199, 209], [209, 210]]
+    tokens: [[0, 10], [11, 19], [20, 26], [27, 30], [31, 35], [36, 37], [38, 42], [43, 46], [47, 50], [51, 52], [53, 63], [64, 72], [73, 81], [81, 82], [83, 87], [88, 90], [91, 98], [99, 105], [106, 108], [109, 112], [113, 116], [117, 129], [130, 139], [140, 142], [143, 150], [150, 151], [152, 156], [157, 158], [159, 164], [165, 171], [172, 174], [175, 188], [188, 189], [190, 198], [199, 209], [209, 210]]
     wn16_key: [[2, "write%2:32:00::"]]
     wn30_key: [[2, "write%2:32:00::"]]
 m2pz:
@@ -505,13 +499,12 @@ FKMf:
     wn16_key: [[1, "be%2:42:03::"], [6, "strive%2:41:00::"], [11, "compound%2:30:00::"]]
     wn30_key: [[1, "be%2:42:03::"], [6, "strive%2:41:00::"], [11, "compound%2:30:00::"]]
 X8Ym:
-    lemmas: ["William_Sansom", "write", "only", "about", "europe", "in_this", "book", "and", "frequently", "of", "such", "familiar", "place", "as", "london", ",", "vienna", ",", "the_French", "riviera", "and", "the", "norwegian", "fjord", "."]
+    lemmas: ["William_Sansom", "write", "only", "about", "europe", "in", "this", "book", "and", "frequently", "of", "such", "familiar", "place", "as", "london", ",", "vienna", ",", "the_French", "riviera", "and", "the", "norwegian", "fjord", "."]
     oewn_key: [[1, "oewn-00995046-v"]]
     paragraph: '19'
-    pos: ["NNP", "VBZ", "RB", "IN", "NNP", "RB", "NN", "CC", "RB", "IN", "JJ", "JJ", "NNS", "IN", "NNP", ",", "NNP", ",", "NN", "NNP", "CC", "DT", "JJ", "NNS", "."]
-    text: 'William_Sansom writes only about Europe in_this book and frequently of such familiar
-  places as London, Vienna, the_French Riviera and the Norwegian fjords.'
-    tokens: [[0, 14], [15, 21], [22, 26], [27, 32], [33, 39], [40, 47], [48, 52], [53, 56], [57, 67], [68, 70], [71, 75], [76, 84], [85, 91], [92, 94], [95, 101], [101, 102], [103, 109], [109, 110], [111, 121], [122, 129], [130, 133], [134, 137], [138, 147], [148, 154], [154, 155]]
+    pos: ["NNP", "VBZ", "RB", "IN", "NNP", "IN", "DT", "NN", "CC", "RB", "IN", "JJ", "JJ", "NNS", "IN", "NNP", ",", "NNP", ",", "NN", "NNP", "CC", "DT", "JJ", "NNS", "."]
+    text: 'William_Sansom writes only about Europe in this book and frequently of such familiar places as London, Vienna, the_French Riviera and the Norwegian fjords.'
+    tokens: [[0, 14], [15, 21], [22, 26], [27, 32], [33, 39], [40, 42], [43, 47], [48, 52], [53, 56], [57, 67], [68, 70], [71, 75], [76, 84], [85, 91], [92, 94], [95, 101], [101, 102], [103, 109], [109, 110], [111, 121], [122, 129], [130, 133], [134, 137], [138, 147], [148, 154], [154, 155]]
     wn16_key: [[1, "write%2:32:00::"]]
     wn30_key: [[1, "write%2:32:00::"]]
 DQVT:
@@ -553,14 +546,14 @@ MnKX:
     wn16_key: [[1, "transmit%2:40:10::"], [5, "write%2:32:00::"]]
     wn30_key: [[1, "transmit%2:40:10::"], [5, "write%2:32:00::"]]
 7LKg:
-    lemmas: ["This", "may_not", "be", "true", "of", "many", "writer", ",", "but", "it", "certainly", "be", "true", "of", "mr._sansom", "."]
-    oewn_key: [[2, "oewn-02610777-v"], [11, "oewn-02610777-v"]]
+    lemmas: ["This", "may", "not", "be", "true", "of", "many", "writer", ",", "but", "it", "certainly", "be", "true", "of", "mr._sansom", "."]
+    oewn_key: [[3, "oewn-02610777-v"], [12, "oewn-02610777-v"]]
     paragraph: '19'
-    pos: ["DT", "VB", "VB", "JJ", "IN", "JJ", "NNS", ",", "CC", "PRP", "RB", "VBZ", "JJ", "IN", "NNP", "."]
-    text: 'This may_not be true of many writers, but it certainly is true of Mr._Sansom.'
-    tokens: [[0, 4], [5, 12], [13, 15], [16, 20], [21, 23], [24, 28], [29, 36], [36, 37], [38, 41], [42, 44], [45, 54], [55, 57], [58, 62], [63, 65], [66, 76], [76, 77]]
-    wn16_key: [[2, "be%2:42:03::"], [11, "be%2:42:03::"]]
-    wn30_key: [[2, "be%2:42:03::"], [11, "be%2:42:03::"]]
+    pos: ["DT", "MD", "RB", "VB", "JJ", "IN", "JJ", "NNS", ",", "CC", "PRP", "RB", "VBZ", "JJ", "IN", "NNP", "."]
+    text: 'This may not be true of many writers, but it certainly is true of Mr._Sansom.'
+    tokens: [[0, 4], [5, 8], [9, 12], [13, 15], [16, 20], [21, 23], [24, 28], [29, 36], [36, 37], [38, 41], [42, 44], [45, 54], [55, 57], [58, 62], [63, 65], [66, 76], [76, 77]]
+    wn16_key: [[3, "be%2:42:03::"], [12, "be%2:42:03::"]]
+    wn30_key: [[3, "be%2:42:03::"], [12, "be%2:42:03::"]]
 kGMF:
     lemmas: ["so", "in", "these", "page", "one", "can", "share", "his", "wonder", "at", "the", "traditional", "fiesta", "of", "St._Torpetius", "that", "still", "persist", "in", "St._Tropez", ";", "at", "the", "sun", "and", "the", "heat", "of", "mediterranean", "land", ",", "always", "much", "bright", "and", "hot", "to", "an", "englishman", "than", "to", "an", "american", "used_to", "summer", "in", "new_york", "or", "kansas_city", ";", "at", "the", "supreme", "delight", "to", "be", "find", "in", "one", "of", "the", "world", "'s", "fine", "restaurant", ",", "la_bonne_auberge", ",", "which", "be", "situated", "on", "the", "seacoast", "twenty", "mile", "west", "of", "the", "nice", "airport", ";", "and", "at", "the", "infinite", "variety", "of", "london", "."]
     oewn_key: [[6, "oewn-02300169-v"], [17, "oewn-02653599-v"], [56, "oewn-02253273-v"], [69, "oewn-02610777-v"]]
@@ -729,16 +722,14 @@ MwVs:
     wn16_key: [[4, "write%2:32:00::"], [11, "mention%2:32:02::"], [24, "employ%2:34:00::"], [30, "need%2:42:02::"], [33, "see%2:39:03::"], [36, "be%2:42:03::"], [39, "encourage%2:41:00::"]]
     wn30_key: [[4, "write%2:32:00::"], [11, "mention%2:32:02::"], [24, "employ%2:34:00::"], [30, "need%2:34:01::"], [33, "see%2:39:03::"], [36, "be%2:42:03::"], [39, "encourage%2:41:00::"]]
 gpLG:
-    lemmas: ["The", "play", "'s", "device", "be", "to", "explore", "society", "'s", "obsession", "with", "disaster", "and", "violence", "through", "the", "eyes", "of", "a", "group", "of", "artist", "'s", "model", "who", "remain", "part", "of", "someone", "else", "'s", "painting", "rather_than", "just", "be", "themselves", "."]
-    oewn_key: [[4, "oewn-02610777-v"], [6, "oewn-00647924-v"], [25, "oewn-00117793-v"], [34, "oewn-02610777-v"]]
+    lemmas: ["The", "play", "'s", "device", "be", "to", "explore", "society", "'s", "obsession", "with", "disaster", "and", "violence", "through", "the", "eyes", "of", "a", "group", "of", "artist", "'s", "model", "who", "remain", "part", "of", "someone", "else", "'s", "painting", "rather", "than", "just", "be", "themselves", "."]
+    oewn_key: [[4, "oewn-02610777-v"], [6, "oewn-00647924-v"], [25, "oewn-00117793-v"], [35, "oewn-02610777-v"]]
     paragraph: '27'
-    pos: ["DT", "NN", "POS", "NN", "VBZ", "TO", "VB", "NN", "POS", "NN", "IN", "NN", "CC", "NN", "IN", "DT", "NNS", "IN", "DT", "NN", "IN", "NN", "POS", "NNS", "WP", "VBP", "NN", "IN", "NN", "RB", "POS", "NN", "RB", "RB", "VB", "PRP", "."]
-    text: 'The play''s device is to explore society''s obsession with disaster and violence
-  through the eyes of a group of artist''s models who remain part of someone else''s
-  painting rather_than just be themselves.'
-    tokens: [[0, 3], [4, 8], [8, 10], [11, 17], [18, 20], [21, 23], [24, 31], [32, 39], [39, 41], [42, 51], [52, 56], [57, 65], [66, 69], [70, 78], [79, 86], [87, 90], [91, 95], [96, 98], [99, 100], [101, 106], [107, 109], [110, 116], [116, 118], [119, 125], [126, 129], [130, 136], [137, 141], [142, 144], [145, 152], [153, 157], [157, 159], [160, 168], [169, 180], [181, 185], [186, 188], [189, 199], [199, 200]]
-    wn16_key: [[4, "be%2:42:03::"], [6, "explore%2:31:02::"], [25, "remain%2:30:00::"], [34, "be%2:42:03::"]]
-    wn30_key: [[4, "be%2:42:03::"], [6, "explore%2:31:02::"], [25, "remain%2:30:00::"], [34, "be%2:42:03::"]]
+    pos: ["DT", "NN", "POS", "NN", "VBZ", "TO", "VB", "NN", "POS", "NN", "IN", "NN", "CC", "NN", "IN", "DT", "NNS", "IN", "DT", "NN", "IN", "NN", "POS", "NNS", "WP", "VBP", "NN", "IN", "NN", "RB", "POS", "NN", "IN", "IN", "RB", "VB", "PRP", "."]
+    text: 'The play''s device is to explore society''s obsession with disaster and violence through the eyes of a group of artist''s models who remain part of someone else''s painting rather than just be themselves.'
+    tokens: [[0, 3], [4, 8], [8, 10], [11, 17], [18, 20], [21, 23], [24, 31], [32, 39], [39, 41], [42, 51], [52, 56], [57, 65], [66, 69], [70, 78], [79, 86], [87, 90], [91, 95], [96, 98], [99, 100], [101, 106], [107, 109], [110, 116], [116, 118], [119, 125], [126, 129], [130, 136], [137, 141], [142, 144], [145, 152], [153, 157], [157, 159], [160, 168], [169, 175], [176, 180], [181, 185], [186, 188], [189, 199], [199, 200]]
+    wn16_key: [[4, "be%2:42:03::"], [6, "explore%2:31:02::"], [25, "remain%2:30:00::"], [35, "be%2:42:03::"]]
+    wn30_key: [[4, "be%2:42:03::"], [6, "explore%2:31:02::"], [25, "remain%2:30:00::"], [35, "be%2:42:03::"]]
 nmuX:
     lemmas: ["In", "a", "succession", "of", "scene", "they", "appear", "in", "different", "guise", "--", "patron", "of", "a", "cafe", ",", "performer", "in", "a", "circus", "and", "participant", "in", "a", "family", "picnic", "--", "but", "in", "each", "instance", "they", "inevitably", "put", "ugliness", "before", "beauty", "."]
     oewn_key: [[6, "oewn-00423043-v"], [33, "oewn-01496967-v"]]
@@ -944,23 +935,16 @@ Lh7t:
     wn16_key: [[1, "be%2:42:03::"], [4, "see%2:39:03::"]]
     wn30_key: [[1, "be%2:42:03::"], [4, "see%2:39:03::"]]
 zUw6:
-    lemmas: ["The", "\"", "suite", "of", "old_russian", "dance", "\"", "that", "open", "that", "inaugural", "program", "with", "the", "slow", "and", "modest", "entrance", "of", "the", "maiden", "and", "build", "steadily", "into", "typical", "Moiseyev", "vigor", "and", "warmth", ";", "the", "amusing", "\"", "Yurochka", "\"", ",", "in_which", "a", "hard-to-please", "young_man", "be", "give", "his", "come-uppance", ";", "the", "lovely", "(", "and", "of_course", "vigorous", ")", "\"", "Polyanka", "\"", "or", "\"", "The", "meadow", "\"", ";", "the", "three", "Moldavian", "dance", "entitled", "\"", "Zhok", "\"", ";", "the", "sweet", "and", "funny", "little", "dance", "about", "potato", "planting", "called", "\"", "Bul", "'", "ba", "\"", ";", "and", "the", "hilarious", "picture", "of", "social", "life", "in", "an", "earlier", "day", "called", "\"", "city_quadrille", "\"", "be", "all", "just_as", "good", "as", "one", "remember", "them", "to", "have", "be", ",", "and", "they", "be", "welcome", "back", "."]
-    oewn_key: [[8, "oewn-02430309-v"], [22, "oewn-00253876-v"], [42, "oewn-02344167-v"], [102, "oewn-02610777-v"], [108, "oewn-00609334-v"], [112, "oewn-02610777-v"], [116, "oewn-02610777-v"]]
+    lemmas: ["The", "\"", "suite", "of", "old_russian", "dance", "\"", "that", "open", "that", "inaugural", "program", "with", "the", "slow", "and", "modest", "entrance", "of", "the", "maiden", "and", "build", "steadily", "into", "typical", "Moiseyev", "vigor", "and", "warmth", ";", "the", "amusing", "\"", "Yurochka", "\"", ",", "in", "which", "a", "hard-to-please", "young_man", "be", "give", "his", "come-uppance", ";", "the", "lovely", "(", "and", "of_course", "vigorous", ")", "\"", "Polyanka", "\"", "or", "\"", "The", "meadow", "\"", ";", "the", "three", "Moldavian", "dance", "entitled", "\"", "Zhok", "\"", ";", "the", "sweet", "and", "funny", "little", "dance", "about", "potato", "planting", "called", "\"", "Bul", "'", "ba", "\"", ";", "and", "the", "hilarious", "picture", "of", "social", "life", "in", "an", "earlier", "day", "called", "\"", "city_quadrille", "\"", "be", "all", "just", "as", "good", "as", "one", "remember", "them", "to", "have", "be", ",", "and", "they", "be", "welcome", "back", "."]
+    oewn_key: [[8, "oewn-02430309-v"], [22, "oewn-00253876-v"], [43, "oewn-02344167-v"], [103, "oewn-02610777-v"], [110, "oewn-00609334-v"], [114, "oewn-02610777-v"], [118, "oewn-02610777-v"]]
     paragraph: '38'
-    pos: ["DT", "``", "NN", "IN", "NNP", "NNS", "''", "WDT", "VBD", "IN", "JJ", "NN", "IN", "DT", "JJ", "CC", "JJ", "NN", "IN", "DT", "NNS", "CC", "VBN", "RB", "IN", "JJ", "NNP", "NN", "CC", "NN", ":", "DT", "JJ", "``", "NNP", "''", ",", "RB", "DT", "JJ", "NN", "VBZ", "VBN", "PRP$", "NN", ":", "DT", "JJ", "NN", "CC", "RB", "JJ", "NN", "``", "NNP", "''", "CC", "''", "DT", "NNP", "''", ":", "DT", "CD", "NNP", "NNS", "JJ", "``", "NNP", "''", ":", "DT", "JJ", "CC", "JJ", "JJ", "NN", "IN", "NN", "NN", "JJ", "``", "NNP", "''", "DT", "''", ":", "CC", "DT", "JJ", "NN", "IN", "JJ", "NN", "IN", "DT", "RBR", "NN", "JJ", "``", "NNP", "''", "VBP", "DT", "RB", "JJ", "IN", "CD", "VBZ", "PRP", "TO", "VB", "VBN", ",", "CC", "PRP", "VBP", "JJ", "RB", "."]
-    text: 'The " Suite of Old_Russian Dances " that opened that inaugural program with the
-  slow and modest entrance of the maidens and built steadily into typical Moiseyev
-  vigor and warmth; the amusing " Yurochka ", in_which a hard-to-please young_man
-  is given his come-uppance; the lovely (and of_course vigorous) " Polyanka " or "
-  The Meadow "; the three Moldavian dances entitled " Zhok "; the sweet and funny
-  little dance about potato planting called " Bul'' ba "; and the hilarious picture
-  of social life in an earlier day called " City_Quadrille " are all just_as good
-  as one remembers them to have been, and they are welcome back.
+    pos: ["DT", "``", "NN", "IN", "NNP", "NNS", "''", "WDT", "VBD", "IN", "JJ", "NN", "IN", "DT", "JJ", "CC", "JJ", "NN", "IN", "DT", "NNS", "CC", "VBN", "RB", "IN", "JJ", "NNP", "NN", "CC", "NN", ":", "DT", "JJ", "``", "NNP", "''", ",", "IN", "WDT", "DT", "JJ", "NN", "VBZ", "VBN", "PRP$", "NN", ":", "DT", "JJ", "NN", "CC", "RB", "JJ", "NN", "``", "NNP", "''", "CC", "''", "DT", "NNP", "''", ":", "DT", "CD", "NNP", "NNS", "JJ", "``", "NNP", "''", ":", "DT", "JJ", "CC", "JJ", "JJ", "NN", "IN", "NN", "NN", "JJ", "``", "NNP", "''", "DT", "''", ":", "CC", "DT", "JJ", "NN", "IN", "JJ", "NN", "IN", "DT", "RBR", "NN", "JJ", "``", "NNP", "''", "VBP", "DT", "RB", "RB", "JJ", "IN", "CD", "VBZ", "PRP", "TO", "VB", "VBN", ",", "CC", "PRP", "VBP", "JJ", "RB", "."]
+    text: 'The " Suite of Old_Russian Dances " that opened that inaugural program with the slow and modest entrance of the maidens and built steadily into typical Moiseyev vigor and warmth; the amusing " Yurochka ", in which a hard-to-please young_man is given his come-uppance; the lovely (and of_course vigorous) " Polyanka " or " The Meadow "; the three Moldavian dances entitled " Zhok "; the sweet and funny little dance about potato planting called " Bul'' ba "; and the hilarious picture of social life in an earlier day called " City_Quadrille " are all just as good as one remembers them to have been, and they are welcome back.
 
   '
-    tokens: [[0, 3], [4, 5], [6, 11], [12, 14], [15, 26], [27, 33], [34, 35], [36, 40], [41, 47], [48, 52], [53, 62], [63, 70], [71, 75], [76, 79], [80, 84], [85, 88], [89, 95], [96, 104], [105, 107], [108, 111], [112, 119], [120, 123], [124, 129], [130, 138], [139, 143], [144, 151], [152, 160], [161, 166], [167, 170], [171, 177], [177, 178], [179, 182], [183, 190], [191, 192], [193, 201], [202, 203], [203, 204], [205, 213], [214, 215], [216, 230], [231, 240], [241, 243], [244, 249], [250, 253], [254, 266], [266, 267], [268, 271], [272, 278], [279, 280], [280, 283], [284, 293], [294, 302], [302, 303], [304, 305], [306, 314], [315, 316], [317, 319], [320, 321], [322, 325], [326, 332], [333, 334], [334, 335], [336, 339], [340, 345], [346, 355], [356, 362], [363, 371], [372, 373], [374, 378], [379, 380], [380, 381], [382, 385], [386, 391], [392, 395], [396, 401], [402, 408], [409, 414], [415, 420], [421, 427], [428, 436], [437, 443], [444, 445], [446, 449], [449, 450], [451, 453], [454, 455], [455, 456], [457, 460], [461, 464], [465, 474], [475, 482], [483, 485], [486, 492], [493, 497], [498, 500], [501, 503], [504, 511], [512, 515], [516, 522], [523, 524], [525, 539], [540, 541], [542, 545], [546, 549], [550, 557], [558, 562], [563, 565], [566, 569], [570, 579], [580, 584], [585, 587], [588, 592], [593, 597], [597, 598], [599, 602], [603, 607], [608, 611], [612, 619], [620, 624], [624, 625]]
-    wn16_key: [[8, "open%2:41:01::"], [22, "build%2:30:00::"], [42, "give%2:40:05::"], [102, "be%2:42:03::"], [108, "remember%2:31:00::"], [112, "be%2:42:03::"], [116, "be%2:42:03::"]]
-    wn30_key: [[8, "open%2:41:01::"], [22, "build%2:30:00::"], [42, "give%2:40:05::"], [102, "be%2:42:03::"], [108, "remember%2:31:00::"], [112, "be%2:42:03::"], [116, "be%2:42:03::"]]
+    tokens: [[0, 3], [4, 5], [6, 11], [12, 14], [15, 26], [27, 33], [34, 35], [36, 40], [41, 47], [48, 52], [53, 62], [63, 70], [71, 75], [76, 79], [80, 84], [85, 88], [89, 95], [96, 104], [105, 107], [108, 111], [112, 119], [120, 123], [124, 129], [130, 138], [139, 143], [144, 151], [152, 160], [161, 166], [167, 170], [171, 177], [177, 178], [179, 182], [183, 190], [191, 192], [193, 201], [202, 203], [203, 204], [205, 207], [208, 213], [214, 215], [216, 230], [231, 240], [241, 243], [244, 249], [250, 253], [254, 266], [266, 267], [268, 271], [272, 278], [279, 280], [280, 283], [284, 293], [294, 302], [302, 303], [304, 305], [306, 314], [315, 316], [317, 319], [320, 321], [322, 325], [326, 332], [333, 334], [334, 335], [336, 339], [340, 345], [346, 355], [356, 362], [363, 371], [372, 373], [374, 378], [379, 380], [380, 381], [382, 385], [386, 391], [392, 395], [396, 401], [402, 408], [409, 414], [415, 420], [421, 427], [428, 436], [437, 443], [444, 445], [446, 449], [449, 450], [451, 453], [454, 455], [455, 456], [457, 460], [461, 464], [465, 474], [475, 482], [483, 485], [486, 492], [493, 497], [498, 500], [501, 503], [504, 511], [512, 515], [516, 522], [523, 524], [525, 539], [540, 541], [542, 545], [546, 549], [550, 554], [555, 557], [558, 562], [563, 565], [566, 569], [570, 579], [580, 584], [585, 587], [588, 592], [593, 597], [597, 598], [599, 602], [603, 607], [608, 611], [612, 619], [620, 624], [624, 625]]
+    wn16_key: [[8, "open%2:41:01::"], [22, "build%2:30:00::"], [43, "give%2:40:05::"], [103, "be%2:42:03::"], [110, "remember%2:31:00::"], [114, "be%2:42:03::"], [118, "be%2:42:03::"]]
+    wn30_key: [[8, "open%2:41:01::"], [22, "build%2:30:00::"], [43, "give%2:40:05::"], [103, "be%2:42:03::"], [110, "remember%2:31:00::"], [114, "be%2:42:03::"], [118, "be%2:42:03::"]]
 1B8d:
     lemmas: ["so", ",", "for_that_matter", ",", "be", "the", "new", "dance", "--", "the", "\"", "Kalmuk_Dance", "\"", "with", "its", "animal", "movement", ",", "that", "genial", "juggling", "act", "by", "Sergei_Tsvetkov", "called", "\"", "The", "platter", "\"", ",", "the", "rousing", "and", "beautiful", "betrothal", "celebration", "called", "\"", "summer", "\"", ",", "\"", "The", "Three", "shepherd", "\"", "of", "azerbaijan", "hop", "up", "on", "their", "staff", ",", "and", ",", "of_course", ",", "the", "trenchant", "\"", "rock", "'", "n", "'", "roll", "\"", "."]
     oewn_key: [[4, "oewn-02610777-v"], [48, "oewn-01970868-v"]]
