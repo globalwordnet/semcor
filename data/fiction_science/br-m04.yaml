@@ -196,12 +196,12 @@ q7XV:
     wn16_key: [[2, "be%2:42:03::"], [9, "hold%2:40:00::;hold%2:42:00::"]]
     wn30_key: [[2, "be%2:42:03::"], [9, "hold%2:40:00::;hold%2:42:00::"]]
 hcbo:
-    lemmas: ["But", "to", "the", "infuriation", "of", "scientist", ",", "for", "no", "known", "reason", "not", "all_of", "them", "do", "."]
+    lemmas: ["But", "to", "the", "infuriation", "of", "scientist", ",", "for", "no", "known", "reason", "not", "all", "of", "them", "do", "."]
     oewn_key: []
     paragraph: '6'
-    pos: ["CC", "TO", "DT", "NN", "IN", "NNS", ",", "IN", "DT", "JJ", "NN", "RB", "JJ", "PRP", "VBD", "."]
-    text: 'But to the infuriation of scientists, for no known reason not all_of them did.'
-    tokens: [[0, 3], [4, 6], [7, 10], [11, 22], [23, 25], [26, 36], [36, 37], [38, 41], [42, 44], [45, 50], [51, 57], [58, 61], [62, 68], [69, 73], [74, 77], [77, 78]]
+    pos: ["CC", "TO", "DT", "NN", "IN", "NNS", ",", "IN", "DT", "JJ", "NN", "RB", "PDT", "IN", "PRP", "VBD", "."]
+    text: 'But to the infuriation of scientists, for no known reason not all of them did.'
+    tokens: [[0, 3], [4, 6], [7, 10], [11, 22], [23, 25], [26, 36], [36, 37], [38, 41], [42, 44], [45, 50], [51, 57], [58, 61], [62, 65], [66, 68], [69, 73], [74, 77], [77, 78]]
     wn16_key: []
     wn30_key: []
 TSI4:
@@ -313,12 +313,12 @@ QSTJ:
     wn16_key: [[4, "be%2:42:03::"]]
     wn30_key: [[4, "be%2:42:03::"]]
 gK0p:
-    lemmas: ["This", "old", "world", "lose", "all_of", "its", "helium", "and", "trace", "gas", "long_ago", "."]
+    lemmas: ["This", "old", "world", "lose", "all", "of", "its", "helium", "and", "trace", "gas", "long_ago", "."]
     oewn_key: [[3, "oewn-02292634-v"]]
     paragraph: '10'
-    pos: ["DT", "JJ", "NN", "VBD", "JJ", "PRP$", "NN", "CC", "NN", "NNS", "RB", "."]
-    text: 'This old world lost all_of its helium and trace gases long_ago.'
-    tokens: [[0, 4], [5, 8], [9, 14], [15, 19], [20, 26], [27, 30], [31, 37], [38, 41], [42, 47], [48, 53], [54, 62], [62, 63]]
+    pos: ["DT", "JJ", "NN", "VBD", "PDT", "IN", "PRP$", "NN", "CC", "NN", "NNS", "RB", "."]
+    text: 'This old world lost all of its helium and trace gases long_ago.'
+    tokens: [[0, 4], [5, 8], [9, 14], [15, 19], [20, 23], [24, 26], [27, 30], [31, 37], [38, 41], [42, 47], [48, 53], [54, 62], [62, 63]]
     wn16_key: [[3, "lose%2:40:02::"]]
     wn30_key: [[3, "lose%2:40:02::"]]
 A3OQ:
@@ -380,12 +380,12 @@ BvIK:
     wn16_key: [[2, "think%2:31:01::"], [4, "be%2:42:03::"], [9, "interject%2:32:00::"]]
     wn30_key: [[2, "think%2:31:01::"], [4, "be%2:42:03::"], [9, "interject%2:32:00::"]]
 NjXA:
-    lemmas: ["\"", "I", "get", "no", "reading", "from", "them", "at_all", "."]
+    lemmas: ["\"", "I", "get", "no", "reading", "from", "them", "at", "all", "."]
     oewn_key: [[2, "oewn-02215637-v"]]
     paragraph: '12'
-    pos: ["``", "PRP", "VBP", "DT", "NNS", "IN", "PRP", "RB", "."]
-    text: '" I get no readings from them at_all.'
-    tokens: [[0, 1], [2, 3], [4, 7], [8, 10], [11, 19], [20, 24], [25, 29], [30, 36], [36, 37]]
+    pos: ["``", "PRP", "VBP", "DT", "NNS", "IN", "PRP", "IN", "PDT", "."]
+    text: '" I get no readings from them at all.'
+    tokens: [[0, 1], [2, 3], [4, 7], [8, 10], [11, 19], [20, 24], [25, 29], [30, 32], [33, 36], [36, 37]]
     wn16_key: [[2, "get%2:40:00::"]]
     wn30_key: [[2, "get%2:40:00::"]]
 JD1f:
@@ -468,15 +468,14 @@ QZKW:
     wn16_key: [[3, "know%2:31:01::"], [9, "work%2:35:02::"]]
     wn30_key: [[3, "know%2:31:01::"], [9, "work%2:35:02::"]]
 QLGg:
-    lemmas: ["\"", "I", "be", "not", "worried", "about", "you", "misread", "the", "dial", ",", "Nogol", ",", "just_about", "a", "lug", "like", "you", "read", "them", "at_all", "."]
-    oewn_key: [[2, "oewn-02610777-v"], [7, "oewn-00629355-v"], [18, "oewn-00924838-v"]]
+    lemmas: ["\"", "I", "be", "not", "worried", "about", "you", "misread", "the", "dial", ",", "Nogol", ",", "just", "about", "a", "lug", "like", "you", "read", "them", "at", "all", "."]
+    oewn_key: [[2, "oewn-02610777-v"], [7, "oewn-00629355-v"], [19, "oewn-00924838-v"]]
     paragraph: '15'
-    pos: ["``", "PRP", "VBP", "RB", "JJ", "VB", "PRP", "VBG", "DT", "NNS", ",", "NNP", ",", "RB", "DT", "NN", "IN", "PRP", "VBG", "PRP", "RB", "."]
-    text: '" I''m not worried about you mis-reading the dials, Nogol, just_about a lug like
-  you reading them at_all.'
-    tokens: [[0, 1], [2, 3], [3, 5], [6, 9], [10, 17], [18, 23], [24, 27], [28, 39], [40, 43], [44, 49], [49, 50], [51, 56], [56, 57], [58, 68], [69, 70], [71, 74], [75, 79], [80, 83], [84, 91], [92, 96], [97, 103], [103, 104]]
-    wn16_key: [[2, "be%2:42:03::"], [7, "misread%2:31:02::"], [18, "read%2:32:02::"]]
-    wn30_key: [[2, "be%2:42:03::"], [7, "misread%2:31:02::"], [18, "read%2:32:02::"]]
+    pos: ["``", "PRP", "VBP", "RB", "JJ", "VB", "PRP", "VBG", "DT", "NNS", ",", "NNP", ",", "RB", "IN", "DT", "NN", "IN", "PRP", "VBG", "PRP", "IN", "PDT", "."]
+    text: '" I''m not worried about you mis-reading the dials, Nogol, just about a lug like you reading them at all.'
+    tokens: [[0, 1], [2, 3], [3, 5], [6, 9], [10, 17], [18, 23], [24, 27], [28, 39], [40, 43], [44, 49], [49, 50], [51, 56], [56, 57], [58, 62], [63, 68], [69, 70], [71, 74], [75, 79], [80, 83], [84, 91], [92, 96], [97, 99], [100, 103], [103, 104]]
+    wn16_key: [[2, "be%2:42:03::"], [7, "misread%2:31:02::"], [19, "read%2:32:02::"]]
+    wn30_key: [[2, "be%2:42:03::"], [7, "misread%2:31:02::"], [19, "read%2:32:02::"]]
 5QMx:
     lemmas: ["remember", ",", "when", "the", "little_hand", "be", "straight", "up", "that", "'s", "negative", "."]
     oewn_key: [[0, "oewn-00611237-v"], [5, "oewn-02610777-v"]]
@@ -634,14 +633,14 @@ U2Bq:
     wn16_key: [[9, "find%2:39:02::"]]
     wn30_key: [[9, "find%2:39:02::"]]
 UTrm:
-    lemmas: ["Well", ",", "it", "have_to", "happen", "."]
-    oewn_key: [[4, "oewn-00340744-v"]]
+    lemmas: ["Well", ",", "it", "have", "to", "happen", "."]
+    oewn_key: [[5, "oewn-00340744-v"]]
     paragraph: '23'
-    pos: ["UH", ",", "PRP", "VB", "VB", "."]
-    text: 'Well, it has_to happen.'
-    tokens: [[0, 4], [4, 5], [6, 8], [9, 15], [16, 22], [22, 23]]
-    wn16_key: [[4, "happen%2:30:00::"]]
-    wn30_key: [[4, "happen%2:30:00::"]]
+    pos: ["UH", ",", "PRP", "VBZ", "TO", "VB", "."]
+    text: 'Well, it has to happen.'
+    tokens: [[0, 4], [4, 5], [6, 8], [9, 12], [13, 15], [16, 22], [22, 23]]
+    wn16_key: [[5, "happen%2:30:00::"]]
+    wn30_key: [[5, "happen%2:30:00::"]]
 0vmu:
     lemmas: ["Statistical", "average", "and", "all", "."]
     oewn_key: []
@@ -978,12 +977,12 @@ kimq:
     wn16_key: [[1, "suppose%2:32:00::"], [3, "be%2:42:06::"], [7, "kill%2:35:00::"]]
     wn30_key: [[1, "suppose%2:32:00::"], [3, "be%2:42:06::"], [7, "kill%2:35:00::"]]
 ZpbP:
-    lemmas: ["suppose", "it", "be", "something", "right_on", "the", "planet", ",", "native", "to_it", "."]
+    lemmas: ["suppose", "it", "be", "something", "right_on", "the", "planet", ",", "native", "to", "it", "."]
     oewn_key: [[0, "oewn-00919271-v"], [2, "oewn-02622439-v"]]
     paragraph: '35'
-    pos: ["VB", "PRP", "VBZ", "NN", "RB", "DT", "NN", ",", "JJ", "RB", "."]
-    text: 'Suppose it is something right_on the planet, native to_it.'
-    tokens: [[0, 7], [8, 10], [11, 13], [14, 23], [24, 32], [33, 36], [37, 43], [43, 44], [45, 51], [52, 57], [57, 58]]
+    pos: ["VB", "PRP", "VBZ", "NN", "RB", "DT", "NN", ",", "JJ", "IN", "PRP", "."]
+    text: 'Suppose it is something right_on the planet, native to it.'
+    tokens: [[0, 7], [8, 10], [11, 13], [14, 23], [24, 32], [33, 36], [37, 43], [43, 44], [45, 51], [52, 54], [55, 57], [57, 58]]
     wn16_key: [[0, "suppose%2:32:00::"], [2, "be%2:42:06::"]]
     wn30_key: [[0, "suppose%2:32:00::"], [2, "be%2:42:06::"]]
 8CHs:
@@ -1272,14 +1271,14 @@ wMjM:
     wn16_key: [[2, "fall%2:30:08::"], [13, "sleep%2:29:00::"]]
     wn30_key: [[2, "fall%2:30:08::"], [13, "sleep%2:29:00::"]]
 0jj1:
-    lemmas: ["never", "at_all", "."]
+    lemmas: ["never", "at", "all", "."]
     oewn_key: []
     paragraph: '49'
-    pos: ["RB", "RB", "."]
-    text: 'Never at_all.
+    pos: ["RB", "IN", "PDT", "."]
+    text: 'Never at all.
 
   '
-    tokens: [[0, 5], [6, 12], [12, 13]]
+    tokens: [[0, 5], [6, 8], [9, 12], [12, 13]]
     wn16_key: []
     wn30_key: []
 w7FF:
@@ -1292,26 +1291,25 @@ w7FF:
     wn16_key: [[5, "let%2:41:00::"], [8, "know%2:31:01::"]]
     wn30_key: [[5, "let%2:41:00::"], [8, "know%2:31:01::"]]
 gXjz:
-    lemmas: ["insomnia", "would", "ground", "him", "from", "the", "exploration_service", ",", "on", "physiological", "if_not", "psychological", "grounds", "."]
+    lemmas: ["insomnia", "would", "ground", "him", "from", "the", "exploration_service", ",", "on", "physiological", "if", "not", "psychological", "grounds", "."]
     oewn_key: [[2, "oewn-01505401-v"]]
     paragraph: '50'
-    pos: ["NN", "MD", "VB", "PRP", "IN", "DT", "NNP", ",", "IN", "JJ", "RB", "JJ", "NNS", "."]
-    text: 'Insomnia would ground him from the Exploration_Service, on physiological if_not
-  psychological grounds.'
-    tokens: [[0, 8], [9, 14], [15, 21], [22, 25], [26, 30], [31, 34], [35, 54], [54, 55], [56, 58], [59, 72], [73, 79], [80, 93], [94, 101], [101, 102]]
+    pos: ["NN", "MD", "VB", "PRP", "IN", "DT", "NNP", ",", "IN", "JJ", "IN", "RB", "JJ", "NNS", "."]
+    text: 'Insomnia would ground him from the Exploration_Service, on physiological if not psychological grounds.'
+    tokens: [[0, 8], [9, 14], [15, 21], [22, 25], [26, 30], [31, 34], [35, 54], [54, 55], [56, 58], [59, 72], [73, 75], [76, 79], [80, 93], [94, 101], [101, 102]]
     wn16_key: [[2, "ground%2:35:01::"]]
     wn30_key: [[2, "ground%2:35:01::"]]
 1flw:
-    lemmas: ["He", "have_to", "hide", "it", "."]
-    oewn_key: [[2, "oewn-02149298-v"]]
+    lemmas: ["He", "have", "to", "hide", "it", "."]
+    oewn_key: [[3, "oewn-02149298-v"]]
     paragraph: '50'
-    pos: ["PRP", "VB", "VBP", "PRP", "."]
-    text: 'He had_to hide it.
+    pos: ["PRP", "VBD", "TO", "VBP", "PRP", "."]
+    text: 'He had to hide it.
 
   '
-    tokens: [[0, 2], [3, 9], [10, 14], [15, 17], [17, 18]]
-    wn16_key: [[2, "hide%2:39:00::"]]
-    wn30_key: [[2, "hide%2:39:00::"]]
+    tokens: [[0, 2], [3, 6], [7, 9], [10, 14], [15, 17], [17, 18]]
+    wn16_key: [[3, "hide%2:39:00::"]]
+    wn30_key: [[3, "hide%2:39:00::"]]
 5z1p:
     lemmas: ["Over", "the", "years", ",", "he", "have", "have", "buddy", "in", "space", "in", "whom", "he", "think", "he", "could", "confide", "."]
     oewn_key: [[6, "oewn-02208144-v"], [13, "oewn-00691086-v"], [16, "oewn-00938497-v"]]
@@ -1351,28 +1349,27 @@ lwAs:
     wn16_key: [[6, "threaten%2:32:00::"], [8, "report%2:32:01::"]]
     wn30_key: [[6, "threaten%2:32:00::"], [8, "report%2:32:01::"]]
 4hH8:
-    lemmas: ["A", "man", "with", "insomnia", "had_better", "avoid", "bad", "dream", "of_that", "kind", "if", "he", "know", "what", "be", "good", "for", "him", "."]
-    oewn_key: [[5, "oewn-02458770-v"], [12, "oewn-00596016-v"], [14, "oewn-02610777-v"]]
+    lemmas: ["A", "man", "with", "insomnia", "had_better", "avoid", "bad", "dream", "of", "that", "kind", "if", "he", "know", "what", "be", "good", "for", "him", "."]
+    oewn_key: [[5, "oewn-02458770-v"], [13, "oewn-00596016-v"], [15, "oewn-02610777-v"]]
     paragraph: '51'
-    pos: ["DT", "NN", "IN", "NN", "VB", "VB", "JJ", "NNS", "RB", "NN", "IN", "PRP", "VBD", "WP", "VBD", "JJ", "IN", "PRP", "."]
-    text: 'A man with insomnia had_better avoid bad dreams of_that kind if he knew what was
-  good for him.
+    pos: ["DT", "NN", "IN", "NN", "VB", "VB", "JJ", "NNS", "IN", "DT", "NN", "IN", "PRP", "VBD", "WP", "VBD", "JJ", "IN", "PRP", "."]
+    text: 'A man with insomnia had_better avoid bad dreams of that kind if he knew what was good for him.
 
   '
-    tokens: [[0, 1], [2, 5], [6, 10], [11, 19], [20, 30], [31, 36], [37, 40], [41, 47], [48, 55], [56, 60], [61, 63], [64, 66], [67, 71], [72, 76], [77, 80], [81, 85], [86, 89], [90, 93], [93, 94]]
-    wn16_key: [[4, "had_better%2:42:00::"], [5, "avoid%2:41:01::"], [12, "know%2:31:01::"], [14, "be%2:42:03::"]]
-    wn30_key: [[5, "avoid%2:41:01::"], [12, "know%2:31:01::"], [14, "be%2:42:03::"]]
+    tokens: [[0, 1], [2, 5], [6, 10], [11, 19], [20, 30], [31, 36], [37, 40], [41, 47], [48, 50], [51, 55], [56, 60], [61, 63], [64, 66], [67, 71], [72, 76], [77, 80], [81, 85], [86, 89], [90, 93], [93, 94]]
+    wn16_key: [[4, "had_better%2:42:00::"], [5, "avoid%2:41:01::"], [13, "know%2:31:01::"], [15, "be%2:42:03::"]]
+    wn30_key: [[5, "avoid%2:41:01::"], [13, "know%2:31:01::"], [15, "be%2:42:03::"]]
 fSVh:
-    lemmas: ["Ekstrohm", "have_to", "hide", "his", "secret", "."]
-    oewn_key: [[2, "oewn-02149298-v"]]
+    lemmas: ["Ekstrohm", "have", "to", "hide", "his", "secret", "."]
+    oewn_key: [[3, "oewn-02149298-v"]]
     paragraph: '52'
-    pos: ["NNP", "VB", "VB", "PRP$", "JJ", "."]
-    text: 'Ekstrohm had_to hide his secret.
+    pos: ["NNP", "VBD", "TO", "VB", "PRP$", "JJ", "."]
+    text: 'Ekstrohm had to hide his secret.
 
   '
-    tokens: [[0, 8], [9, 15], [16, 20], [21, 24], [25, 31], [31, 32]]
-    wn16_key: [[2, "hide%2:39:00::"]]
-    wn30_key: [[2, "hide%2:39:00::"]]
+    tokens: [[0, 8], [9, 12], [13, 15], [16, 20], [21, 24], [25, 31], [31, 32]]
+    wn16_key: [[3, "hide%2:39:00::"]]
+    wn30_key: [[3, "hide%2:39:00::"]]
 3Xvx:
     lemmas: ["In", "a", "camp", ",", "instead", "of", "shipboard", ",", "hide", "the", "secret", "be", "easy", "."]
     oewn_key: [[8, "oewn-02149298-v"], [11, "oewn-02610777-v"]]
@@ -1383,14 +1380,14 @@ fSVh:
     wn16_key: [[8, "hide%2:39:00::"], [11, "be%2:42:03::"]]
     wn30_key: [[8, "hide%2:39:00::"], [11, "be%2:42:03::"]]
 3xUC:
-    lemmas: ["But", "the", "secret", "itself", "be", "just_as", "hard", "."]
+    lemmas: ["But", "the", "secret", "itself", "be", "just", "as", "hard", "."]
     oewn_key: [[4, "oewn-02610777-v"]]
     paragraph: '53'
-    pos: ["CC", "DT", "JJ", "PRP", "VBD", "RB", "JJ", "."]
-    text: 'But the secret itself was just_as hard.
+    pos: ["CC", "DT", "JJ", "PRP", "VBD", "RB", "RB", "JJ", "."]
+    text: 'But the secret itself was just as hard.
 
   '
-    tokens: [[0, 3], [4, 7], [8, 14], [15, 21], [22, 25], [26, 33], [34, 38], [38, 39]]
+    tokens: [[0, 3], [4, 7], [8, 14], [15, 21], [22, 25], [26, 30], [31, 33], [34, 38], [38, 39]]
     wn16_key: [[4, "be%2:42:03::"]]
     wn30_key: [[4, "be%2:42:03::"]]
 zsEB:
@@ -1461,17 +1458,16 @@ ss1F:
     wn16_key: [[2, "startle%2:37:00::"]]
     wn30_key: [[2, "startle%2:37:00::"]]
 9M1U:
-    lemmas: ["It", "take", "him", "a_few", "second", "to", "put", "his", "thought", "in_order", ",", "and_then", "he", "get_up", "from", "the", "bunk", "where", "he", "have", "be", "rest", ",", "sleeplessly", "."]
-    oewn_key: [[1, "oewn-02272834-v"], [6, "oewn-01496398-v"], [13, "oewn-01987278-v"], [21, "oewn-01548665-v"]]
+    lemmas: ["It", "take", "him", "a_few", "second", "to", "put", "his", "thought", "in_order", ",", "and", "then", "he", "get_up", "from", "the", "bunk", "where", "he", "have", "be", "rest", ",", "sleeplessly", "."]
+    oewn_key: [[1, "oewn-02272834-v"], [6, "oewn-01496398-v"], [14, "oewn-01987278-v"], [22, "oewn-01548665-v"]]
     paragraph: '58'
-    pos: ["PRP", "VBD", "PRP", "JJ", "NNS", "TO", "VB", "PRP$", "NNS", "JJ", ",", "RB", "PRP", "VB", "IN", "DT", "NN", "WRB", "PRP", "VBD", "VBN", "VBG", ",", "RB", "."]
-    text: 'It took him a_few seconds to put his thoughts in_order, and_then he got_up from
-  the bunk where he had been resting, sleeplessly.
+    pos: ["PRP", "VBD", "PRP", "JJ", "NNS", "TO", "VB", "PRP$", "NNS", "JJ", ",", "CC", "RB", "PRP", "VB", "IN", "DT", "NN", "WRB", "PRP", "VBD", "VBN", "VBG", ",", "RB", "."]
+    text: 'It took him a_few seconds to put his thoughts in_order, and then he got_up from the bunk where he had been resting, sleeplessly.
 
   '
-    tokens: [[0, 2], [3, 7], [8, 11], [12, 17], [18, 25], [26, 28], [29, 32], [33, 36], [37, 45], [46, 54], [54, 55], [56, 64], [65, 67], [68, 74], [75, 79], [80, 83], [84, 88], [89, 94], [95, 97], [98, 101], [102, 106], [107, 114], [114, 115], [116, 127], [127, 128]]
-    wn16_key: [[1, "take%2:40:06::"], [6, "put%2:35:05::"], [13, "get_up%2:38:01::"], [21, "rest%2:35:00::"]]
-    wn30_key: [[1, "take%2:40:06::"], [6, "put%2:35:05::"], [13, "get_up%2:38:01::"], [21, "rest%2:35:00::"]]
+    tokens: [[0, 2], [3, 7], [8, 11], [12, 17], [18, 25], [26, 28], [29, 32], [33, 36], [37, 45], [46, 54], [54, 55], [56, 59], [60, 64], [65, 67], [68, 74], [75, 79], [80, 83], [84, 88], [89, 94], [95, 97], [98, 101], [102, 106], [107, 114], [114, 115], [116, 127], [127, 128]]
+    wn16_key: [[1, "take%2:40:06::"], [6, "put%2:35:05::"], [14, "get_up%2:38:01::"], [22, "rest%2:35:00::"]]
+    wn30_key: [[1, "take%2:40:06::"], [6, "put%2:35:05::"], [14, "get_up%2:38:01::"], [22, "rest%2:35:00::"]]
 2SWK:
     lemmas: ["The", "angry", "burnt-red", "face", "of", "Ryan", "greet", "him", "."]
     oewn_key: [[6, "oewn-02202019-v"]]
@@ -1839,14 +1835,14 @@ BHjH:
     wn16_key: []
     wn30_key: []
 4erZ:
-    lemmas: ["suspicion", "be", "n't", "new_to", "him", "at_all", "."]
+    lemmas: ["suspicion", "be", "n't", "new_to", "him", "at", "all", "."]
     oewn_key: [[1, "oewn-02610777-v"]]
     paragraph: '75'
-    pos: ["NN", "VBD", "RB", "JJ", "PRP", "RB", "."]
-    text: 'Suspicion wasn''t new_to him at_all.
+    pos: ["NN", "VBD", "RB", "JJ", "PRP", "IN", "PDT", "."]
+    text: 'Suspicion wasn''t new_to him at all.
 
   '
-    tokens: [[0, 9], [10, 13], [13, 16], [17, 23], [24, 27], [28, 34], [34, 35]]
+    tokens: [[0, 9], [10, 13], [13, 16], [17, 23], [24, 27], [28, 30], [31, 34], [34, 35]]
     wn16_key: [[1, "be%2:42:03::"]]
     wn30_key: [[1, "be%2:42:03::"]]
 BRrs:
@@ -1916,16 +1912,16 @@ mLF8:
     wn16_key: []
     wn30_key: []
 3mAZ:
-    lemmas: ["You", "may_not", "be", "responsible", "\"", "."]
-    oewn_key: [[2, "oewn-02610777-v"]]
+    lemmas: ["You", "may", "not", "be", "responsible", "\"", "."]
+    oewn_key: [[3, "oewn-02610777-v"]]
     paragraph: '77'
-    pos: ["PRP", "VB", "VB", "JJ", "''", "."]
-    text: 'You may_not be responsible ".
+    pos: ["PRP", "MD", "RB", "VB", "JJ", "''", "."]
+    text: 'You may not be responsible ".
 
   '
-    tokens: [[0, 3], [4, 11], [12, 14], [15, 26], [27, 28], [28, 29]]
-    wn16_key: [[2, "be%2:42:03::"]]
-    wn30_key: [[2, "be%2:42:03::"]]
+    tokens: [[0, 3], [4, 7], [8, 11], [12, 14], [15, 26], [27, 28], [28, 29]]
+    wn16_key: [[3, "be%2:42:03::"]]
+    wn30_key: [[3, "be%2:42:03::"]]
 AJuw:
     lemmas: ["Ekstrohm", "scowl", "."]
     oewn_key: [[1, "oewn-00033845-v"]]
@@ -1967,13 +1963,13 @@ Tz/c:
     wn16_key: [[4, "plan%2:31:01::"], [6, "jump%2:33:00::"]]
     wn30_key: [[4, "plan%2:31:01::"], [6, "jump%2:33:00::"]]
 +kyG:
-    lemmas: ["Why", "do", "you", "have_to", "jump", "me", "the", "first", "time", "something", "go_wrong", "?"]
-    oewn_key: [[4, "oewn-01123596-v"], [10, "oewn-02534046-v"]]
+    lemmas: ["Why", "do", "you", "have", "to", "jump", "me", "the", "first", "time", "something", "go_wrong", "?"]
+    oewn_key: [[5, "oewn-01123596-v"], [11, "oewn-02534046-v"]]
     paragraph: '80'
-    pos: ["WRB", "VBP", "PRP", "VB", "VB", "PRP", "DT", "JJ", "NN", "NN", "VB", "."]
-    text: 'Why do you have_to jump me the first time something goes_wrong?
+    pos: ["WRB", "VBP", "PRP", "VBP", "TO", "VB", "PRP", "DT", "JJ", "NN", "NN", "VB", "."]
+    text: 'Why do you have to jump me the first time something goes_wrong?
 
   '
-    tokens: [[0, 3], [4, 6], [7, 10], [11, 18], [19, 23], [24, 26], [27, 30], [31, 36], [37, 41], [42, 51], [52, 62], [62, 63]]
-    wn16_key: [[4, "jump%2:33:00::"], [10, "go_wrong%2:41:00::"]]
-    wn30_key: [[4, "jump%2:33:00::"], [10, "go_wrong%2:41:00::"]]
+    tokens: [[0, 3], [4, 6], [7, 10], [11, 15], [16, 18], [19, 23], [24, 26], [27, 30], [31, 36], [37, 41], [42, 51], [52, 62], [62, 63]]
+    wn16_key: [[5, "jump%2:33:00::"], [11, "go_wrong%2:41:00::"]]
+    wn30_key: [[5, "jump%2:33:00::"], [11, "go_wrong%2:41:00::"]]

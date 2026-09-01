@@ -121,15 +121,14 @@ ek8s:
     wn16_key: [[3, "push%2:38:00::"], [10, "make%2:36:00::"], [18, "be%2:42:03::"], [20, "sling%2:35:00::"], [29, "ripple%2:38:00::"]]
     wn30_key: [[3, "push%2:38:00::"], [10, "make%2:36:00::"], [18, "be%2:42:03::"], [20, "sling%2:35:00::"], [29, "ripple%2:38:00::"]]
 e880:
-    lemmas: ["mr._podger", "sit_down", "in", "it", ",", "push", "himself", "back_and_forth", "in", "one", "or", "two", "slow", ",", "rhythmic", "motion", ",", "and_then", "swing", "his", "foot", "up", "into", "it", "."]
-    oewn_key: [[1, "oewn-01988916-v"], [5, "oewn-01875972-v"], [18, "oewn-02092012-v"]]
+    lemmas: ["mr._podger", "sit_down", "in", "it", ",", "push", "himself", "back_and_forth", "in", "one", "or", "two", "slow", ",", "rhythmic", "motion", ",", "and", "then", "swing", "his", "foot", "up", "into", "it", "."]
+    oewn_key: [[1, "oewn-01988916-v"], [5, "oewn-01875972-v"], [19, "oewn-02092012-v"]]
     paragraph: '4'
-    pos: ["NNP", "VB", "IN", "PRP", ",", "VBD", "PRP", "RB", "IN", "CD", "CC", "CD", "JJ", ",", "JJ", "NNS", ",", "RB", "VBD", "PRP$", "NNS", "IN", "IN", "PRP", "."]
-    text: 'Mr._Podger sat_down in it, pushed himself back_and_forth in one or two slow, rhythmic
-  motions, and_then swung his feet up into it.'
-    tokens: [[0, 10], [11, 19], [20, 22], [23, 25], [25, 26], [27, 33], [34, 41], [42, 56], [57, 59], [60, 63], [64, 66], [67, 70], [71, 75], [75, 76], [77, 85], [86, 93], [93, 94], [95, 103], [104, 109], [110, 113], [114, 118], [119, 121], [122, 126], [127, 129], [129, 130]]
-    wn16_key: [[1, "sit_down%2:38:00::"], [5, "push%2:38:00::"], [18, "swing%2:38:02::"]]
-    wn30_key: [[1, "sit_down%2:38:00::"], [5, "push%2:38:00::"], [18, "swing%2:38:02::"]]
+    pos: ["NNP", "VB", "IN", "PRP", ",", "VBD", "PRP", "RB", "IN", "CD", "CC", "CD", "JJ", ",", "JJ", "NNS", ",", "CC", "RB", "VBD", "PRP$", "NNS", "IN", "IN", "PRP", "."]
+    text: 'Mr._Podger sat_down in it, pushed himself back_and_forth in one or two slow, rhythmic motions, and then swung his feet up into it.'
+    tokens: [[0, 10], [11, 19], [20, 22], [23, 25], [25, 26], [27, 33], [34, 41], [42, 56], [57, 59], [60, 63], [64, 66], [67, 70], [71, 75], [75, 76], [77, 85], [86, 93], [93, 94], [95, 98], [99, 103], [104, 109], [110, 113], [114, 118], [119, 121], [122, 126], [127, 129], [129, 130]]
+    wn16_key: [[1, "sit_down%2:38:00::"], [5, "push%2:38:00::"], [19, "swing%2:38:02::"]]
+    wn30_key: [[1, "sit_down%2:38:00::"], [5, "push%2:38:00::"], [19, "swing%2:38:02::"]]
 SVR+:
     lemmas: ["He", "close", "his", "eyes", "and", "let", "the", "unintelligible", "drift", "of", "voice", "sweep", "pleasantly", "over", "him", "."]
     oewn_key: [[1, "oewn-01347791-v"], [5, "oewn-02427979-v"], [11, "oewn-01873556-v"]]
@@ -260,12 +259,12 @@ SVPC:
     wn16_key: [[2, "be%2:42:03::"], [6, "see%2:39:00::"], [8, "float%2:38:00::"], [16, "link%2:42:01::"]]
     wn30_key: [[2, "be%2:42:03::"], [6, "see%2:39:00::"], [8, "float%2:38:00::"], [16, "link%2:42:01::"]]
 9L5N:
-    lemmas: ["then", ",", "since", "the", "auction", "be", "be", "hold", "nearby", ",", "he", "have", "walk", "to_it", "."]
+    lemmas: ["then", ",", "since", "the", "auction", "be", "be", "hold", "nearby", ",", "he", "have", "walk", "to", "it", "."]
     oewn_key: [[7, "oewn-01737358-v"], [12, "oewn-01908923-v"]]
     paragraph: '7'
-    pos: ["RB", ",", "IN", "DT", "NN", "VBD", "VBG", "VBN", "JJ", ",", "PRP", "VBD", "VBN", "RB", "."]
-    text: 'Then, since the auction was being held nearby, he had walked to_it.'
-    tokens: [[0, 4], [4, 5], [6, 11], [12, 15], [16, 23], [24, 27], [28, 33], [34, 38], [39, 45], [45, 46], [47, 49], [50, 53], [54, 60], [61, 66], [66, 67]]
+    pos: ["RB", ",", "IN", "DT", "NN", "VBD", "VBG", "VBN", "JJ", ",", "PRP", "VBD", "VBN", "IN", "PRP", "."]
+    text: 'Then, since the auction was being held nearby, he had walked to it.'
+    tokens: [[0, 4], [4, 5], [6, 11], [12, 15], [16, 23], [24, 27], [28, 33], [34, 38], [39, 45], [45, 46], [47, 49], [50, 53], [54, 60], [61, 63], [64, 66], [66, 67]]
     wn16_key: [[7, "hold%2:36:00::"], [12, "walk%2:38:00::"]]
     wn30_key: [[7, "hold%2:36:00::"], [12, "walk%2:38:00::"]]
 KiKl:
@@ -319,18 +318,16 @@ OhqF:
     wn16_key: [[1, "take_a_chance%2:41:00::"]]
     wn30_key: [[1, "take_a_chance%2:41:00::"]]
 lt3w:
-    lemmas: ["take_off", "his", "hat", "and", "signal", "the", "driver", "with_it", ",", "mr._podger", "step", "into", "the", "road", ",", "lift", "the", "surprised", "turtle", "and", "consummate", "its", "road-crossing", "with", "what", "must", "have", "be", "a", "breath-taking", "suddenness", "."]
-    oewn_key: [[0, "oewn-00050171-v"], [4, "oewn-01041202-v"], [10, "oewn-01932791-v"], [15, "oewn-01978076-v"], [20, "oewn-01645174-v"], [27, "oewn-02610777-v"]]
+    lemmas: ["take_off", "his", "hat", "and", "signal", "the", "driver", "with", "it", ",", "mr._podger", "step", "into", "the", "road", ",", "lift", "the", "surprised", "turtle", "and", "consummate", "its", "road-crossing", "with", "what", "must", "have", "be", "a", "breath-taking", "suddenness", "."]
+    oewn_key: [[0, "oewn-00050171-v"], [4, "oewn-01041202-v"], [11, "oewn-01932791-v"], [16, "oewn-01978076-v"], [21, "oewn-01645174-v"], [28, "oewn-02610777-v"]]
     paragraph: '8'
-    pos: ["VB", "PRP$", "NN", "CC", "VBG", "DT", "NN", "RB", ",", "NNP", "VBD", "VB", "DT", "NN", ",", "VBD", "DT", "JJ", "NN", "CC", "VBD", "PRP$", "NN", "IN", "WP", "MD", "VB", "VBN", "DT", "JJ", "NN", "."]
-    text: 'Taking_off his hat and signaling the driver with_it, Mr._Podger stepped into the
-  road, lifted the surprised turtle and consummated its road-crossing with what must
-  have been a breath-taking suddenness.
+    pos: ["VB", "PRP$", "NN", "CC", "VBG", "DT", "NN", "IN", "PRP", ",", "NNP", "VBD", "VB", "DT", "NN", ",", "VBD", "DT", "JJ", "NN", "CC", "VBD", "PRP$", "NN", "IN", "WP", "MD", "VB", "VBN", "DT", "JJ", "NN", "."]
+    text: 'Taking_off his hat and signaling the driver with it, Mr._Podger stepped into the road, lifted the surprised turtle and consummated its road-crossing with what must have been a breath-taking suddenness.
 
   '
-    tokens: [[0, 10], [11, 14], [15, 18], [19, 22], [23, 32], [33, 36], [37, 43], [44, 51], [51, 52], [53, 63], [64, 71], [72, 76], [77, 80], [81, 85], [85, 86], [87, 93], [94, 97], [98, 107], [108, 114], [115, 118], [119, 130], [131, 134], [135, 148], [149, 153], [154, 158], [159, 163], [164, 168], [169, 173], [174, 175], [176, 189], [190, 200], [200, 201]]
-    wn16_key: [[0, "take_off%2:35:01::"], [4, "signal%2:32:00::"], [10, "step%2:38:00::"], [15, "lift%2:38:00::"], [20, "consummate%2:36:00::"], [27, "be%2:42:03::"]]
-    wn30_key: [[0, "take_off%2:29:03::"], [4, "signal%2:32:00::"], [10, "step%2:38:00::"], [15, "lift%2:38:00::"], [20, "consummate%2:36:00::"], [27, "be%2:42:03::"]]
+    tokens: [[0, 10], [11, 14], [15, 18], [19, 22], [23, 32], [33, 36], [37, 43], [44, 48], [49, 51], [51, 52], [53, 63], [64, 71], [72, 76], [77, 80], [81, 85], [85, 86], [87, 93], [94, 97], [98, 107], [108, 114], [115, 118], [119, 130], [131, 134], [135, 148], [149, 153], [154, 158], [159, 163], [164, 168], [169, 173], [174, 175], [176, 189], [190, 200], [200, 201]]
+    wn16_key: [[0, "take_off%2:35:01::"], [4, "signal%2:32:00::"], [11, "step%2:38:00::"], [16, "lift%2:38:00::"], [21, "consummate%2:36:00::"], [28, "be%2:42:03::"]]
+    wn30_key: [[0, "take_off%2:29:03::"], [4, "signal%2:32:00::"], [11, "step%2:38:00::"], [16, "lift%2:38:00::"], [21, "consummate%2:36:00::"], [28, "be%2:42:03::"]]
 BOrr:
     lemmas: ["The", "turtle", "immediately", "withdraw", "into", "its", "private", "council", "room", "to", "study", "the", "phenomenon", "."]
     oewn_key: [[3, "oewn-00496934-v"], [10, "oewn-00706154-v"]]
@@ -521,15 +518,14 @@ opI0:
     wn16_key: [[2, "pull%2:35:00::"], [8, "make%2:36:05::"], [15, "see%2:36:00::"], [27, "hope%2:37:00::"], [35, "lie%2:35:00::"]]
     wn30_key: [[2, "pull%2:35:00::"], [8, "make%2:36:05::"], [15, "see%2:36:00::"], [27, "hope%2:37:00::"], [35, "lie%2:35:00::"]]
 79gj:
-    lemmas: ["alacrity", ",", "the", "Podger", "cat", ",", "come", "by", "the", "hammock", ",", "rub", "her", "back", "briefly", "against", "it", ",", "and_then", ",", "sure", "of", "a", "welcome", ",", "hop", "up", "."]
-    oewn_key: [[6, "oewn-01853188-v"], [11, "oewn-01252288-v"], [25, "oewn-02099489-v"]]
+    lemmas: ["alacrity", ",", "the", "Podger", "cat", ",", "come", "by", "the", "hammock", ",", "rub", "her", "back", "briefly", "against", "it", ",", "and", "then", ",", "sure", "of", "a", "welcome", ",", "hop", "up", "."]
+    oewn_key: [[6, "oewn-01853188-v"], [11, "oewn-01252288-v"], [26, "oewn-02099489-v"]]
     paragraph: '14'
-    pos: ["NNP", ",", "DT", "NNP", "NN", ",", "VBD", "VB", "DT", "NN", ",", "VBD", "PRP$", "RB", "NN", "IN", "PRP", ",", "RB", ",", "JJ", "IN", "DT", "JJ", ",", "VBN", "RB", "."]
-    text: 'Alacrity, the Podger cat, came by the hammock, rubbed her back briefly against it,
-  and_then, sure of a welcome, hopped up.'
-    tokens: [[0, 8], [8, 9], [10, 13], [14, 20], [21, 24], [24, 25], [26, 30], [31, 33], [34, 37], [38, 45], [45, 46], [47, 53], [54, 57], [58, 62], [63, 70], [71, 78], [79, 81], [81, 82], [83, 91], [91, 92], [93, 97], [98, 100], [101, 102], [103, 110], [110, 111], [112, 118], [119, 121], [121, 122]]
-    wn16_key: [[6, "come%2:38:00::"], [11, "rub%2:35:00::"], [25, "hop%2:38:04::"]]
-    wn30_key: [[6, "come%2:38:00::"], [11, "rub%2:35:00::"], [25, "hop%2:38:04::"]]
+    pos: ["NNP", ",", "DT", "NNP", "NN", ",", "VBD", "VB", "DT", "NN", ",", "VBD", "PRP$", "RB", "NN", "IN", "PRP", ",", "CC", "RB", ",", "JJ", "IN", "DT", "JJ", ",", "VBN", "RB", "."]
+    text: 'Alacrity, the Podger cat, came by the hammock, rubbed her back briefly against it, and then, sure of a welcome, hopped up.'
+    tokens: [[0, 8], [8, 9], [10, 13], [14, 20], [21, 24], [24, 25], [26, 30], [31, 33], [34, 37], [38, 45], [45, 46], [47, 53], [54, 57], [58, 62], [63, 70], [71, 78], [79, 81], [81, 82], [83, 86], [87, 91], [91, 92], [93, 97], [98, 100], [101, 102], [103, 110], [110, 111], [112, 118], [119, 121], [121, 122]]
+    wn16_key: [[6, "come%2:38:00::"], [11, "rub%2:35:00::"], [26, "hop%2:38:04::"]]
+    wn30_key: [[6, "come%2:38:00::"], [11, "rub%2:35:00::"], [26, "hop%2:38:04::"]]
 ZCh3:
     lemmas: ["She", "remark", "that", "she", "find", "the", "night", "wind", "a_little", "chilly", ",", "and", "mr._podger", "take", "her", "inside", "the", "fringe", "."]
     oewn_key: [[1, "oewn-01022014-v"], [4, "oewn-00717144-v"], [13, "oewn-02003830-v"]]
@@ -751,17 +747,16 @@ mwMM:
     wn16_key: [[6, "dynamite%2:30:00::"]]
     wn30_key: [[6, "dynamite%2:30:00::"]]
 lHlo:
-    lemmas: ["In", "houston", ",", "there", "be", "a_few", "incident", "of", "friction", "between", "white", "and", "negro", ",", "none", "of_which", "be", "serious", "."]
-    oewn_key: [[4, "oewn-02610777-v"], [16, "oewn-02610777-v"]]
+    lemmas: ["In", "houston", ",", "there", "be", "a_few", "incident", "of", "friction", "between", "white", "and", "negro", ",", "none", "of", "which", "be", "serious", "."]
+    oewn_key: [[4, "oewn-02610777-v"], [17, "oewn-02610777-v"]]
     paragraph: '21'
-    pos: ["IN", "NNP", ",", "EX", "VBD", "JJ", "NNS", "IN", "NN", "IN", "NNS", "CC", "NNPS", ",", "NN", "RB", "VBD", "JJ", "."]
-    text: 'In Houston, there were a_few incidents of friction between whites and Negroes, none
-  of_which were serious.
+    pos: ["IN", "NNP", ",", "EX", "VBD", "JJ", "NNS", "IN", "NN", "IN", "NNS", "CC", "NNPS", ",", "NN", "IN", "WDT", "VBD", "JJ", "."]
+    text: 'In Houston, there were a_few incidents of friction between whites and Negroes, none of which were serious.
 
   '
-    tokens: [[0, 2], [3, 10], [10, 11], [12, 17], [18, 22], [23, 28], [29, 38], [39, 41], [42, 50], [51, 58], [59, 65], [66, 69], [70, 77], [77, 78], [79, 83], [84, 92], [93, 97], [98, 105], [105, 106]]
-    wn16_key: [[4, "be%2:42:04::"], [16, "be%2:42:03::"]]
-    wn30_key: [[4, "be%2:42:04::"], [16, "be%2:42:03::"]]
+    tokens: [[0, 2], [3, 10], [10, 11], [12, 17], [18, 22], [23, 28], [29, 38], [39, 41], [42, 50], [51, 58], [59, 65], [66, 69], [70, 77], [77, 78], [79, 83], [84, 86], [87, 92], [93, 97], [98, 105], [105, 106]]
+    wn16_key: [[4, "be%2:42:04::"], [17, "be%2:42:03::"]]
+    wn30_key: [[4, "be%2:42:04::"], [17, "be%2:42:03::"]]
 sHDH:
     lemmas: ["In", "each", "city", "quick", "public", "reaction", "and", "fast", "action", "by", "the", "city", "government", "halt", "the", "threat", "of", "more", "serious", "incident", "."]
     oewn_key: [[13, "oewn-02565578-v"]]
@@ -785,14 +780,14 @@ pt1X:
     wn16_key: [[7, "become%2:30:00::"], [18, "put%2:35:05::"]]
     wn30_key: [[7, "become%2:30:00::"], [18, "put%2:35:05::"]]
 zwnf:
-    lemmas: ["It", "be", "a", "\"", "stair-step", "\"", "plan", ",", "in_which", "desegregation", "begin", "in", "the", "first_grade", "."]
-    oewn_key: [[1, "oewn-02622439-v"], [10, "oewn-02614382-v"]]
+    lemmas: ["It", "be", "a", "\"", "stair-step", "\"", "plan", ",", "in", "which", "desegregation", "begin", "in", "the", "first_grade", "."]
+    oewn_key: [[1, "oewn-02622439-v"], [11, "oewn-02614382-v"]]
     paragraph: '23'
-    pos: ["PRP", "VBZ", "DT", "``", "JJ", "''", "NN", ",", "RB", "NN", "VBZ", "IN", "DT", "NN", "."]
-    text: 'It is a "stair-step" plan, in_which desegregation begins in the first_grade.'
-    tokens: [[0, 2], [3, 5], [6, 7], [8, 9], [9, 19], [19, 20], [21, 25], [25, 26], [27, 35], [36, 49], [50, 56], [57, 59], [60, 63], [64, 75], [75, 76]]
-    wn16_key: [[1, "be%2:42:06::"], [10, "begin%2:42:00::"]]
-    wn30_key: [[1, "be%2:42:06::"], [10, "begin%2:42:00::"]]
+    pos: ["PRP", "VBZ", "DT", "``", "JJ", "''", "NN", ",", "IN", "WDT", "NN", "VBZ", "IN", "DT", "NN", "."]
+    text: 'It is a "stair-step" plan, in which desegregation begins in the first_grade.'
+    tokens: [[0, 2], [3, 5], [6, 7], [8, 9], [9, 19], [19, 20], [21, 25], [25, 26], [27, 29], [30, 35], [36, 49], [50, 56], [57, 59], [60, 63], [64, 75], [75, 76]]
+    wn16_key: [[1, "be%2:42:06::"], [11, "begin%2:42:00::"]]
+    wn30_key: [[1, "be%2:42:06::"], [11, "begin%2:42:00::"]]
 N/0C:
     lemmas: ["each_year", "another", "grade", "be", "add", "to", "the", "process", ",", "until", "finally", "all", "12", "grade", "be", "integrated", "."]
     oewn_key: [[4, "oewn-00182551-v"], [14, "oewn-02610777-v"]]
@@ -804,16 +799,16 @@ N/0C:
     wn16_key: [[4, "add%2:30:00::"], [14, "be%2:42:03::"]]
     wn30_key: [[4, "add%2:30:00::"], [14, "be%2:42:03::"]]
 NOBT:
-    lemmas: ["The", "schedule", "be", "flexible", "so_that", "the", "program", "can", "be", "accelerate", "as", "the", "public", "become", "more", "tolerant", "or", "realize", "that", "it", "be", "something", "that", "have", "to", "be", "do", ",", "\"", "so", "why", "not", "now", "\"", "."]
-    oewn_key: [[2, "oewn-02610777-v"], [9, "oewn-00439133-v"], [13, "oewn-00149403-v"], [17, "oewn-00592510-v"], [20, "oewn-02622439-v"], [23, "oewn-00065141-v;oewn-02383544-v;oewn-02746620-v"], [26, "oewn-02566500-v"]]
+    lemmas: ["The", "schedule", "be", "flexible", "so", "that", "the", "program", "can", "be", "accelerate", "as", "the", "public", "become", "more", "tolerant", "or", "realize", "that", "it", "be", "something", "that", "have", "to", "be", "do", ",", "\"", "so", "why", "not", "now", "\"", "."]
+    oewn_key: [[2, "oewn-02610777-v"], [10, "oewn-00439133-v"], [14, "oewn-00149403-v"], [18, "oewn-00592510-v"], [21, "oewn-02622439-v"], [24, "oewn-00065141-v;oewn-02383544-v;oewn-02746620-v"], [27, "oewn-02566500-v"]]
     paragraph: '23'
-    pos: ["DT", "NNS", "VBP", "JJ", "RB", "DT", "NN", "MD", "VB", "VBN", "IN", "DT", "JJ", "VBZ", "RBR", "JJ", "CC", "VBZ", "IN", "PRP", "VBZ", "NN", "IN", "VBZ", "VB", "VB", "VBN", ",", "''", "RB", "WRB", "RB", "RB", "``", "."]
-    text: 'The schedules are flexible so_that the program can be accelerated as the public becomes more tolerant or realizes that it is something that has to be done, "so why not now".
+    pos: ["DT", "NNS", "VBP", "JJ", "IN", "IN", "DT", "NN", "MD", "VB", "VBN", "IN", "DT", "JJ", "VBZ", "RBR", "JJ", "CC", "VBZ", "IN", "PRP", "VBZ", "NN", "IN", "VBZ", "VB", "VB", "VBN", ",", "''", "RB", "WRB", "RB", "RB", "``", "."]
+    text: 'The schedules are flexible so that the program can be accelerated as the public becomes more tolerant or realizes that it is something that has to be done, "so why not now".
 
   '
-    tokens: [[0, 3], [4, 13], [14, 17], [18, 26], [27, 34], [35, 38], [39, 46], [47, 50], [51, 53], [54, 65], [66, 68], [69, 72], [73, 79], [80, 87], [88, 92], [93, 101], [102, 104], [105, 113], [114, 118], [119, 121], [122, 124], [125, 134], [135, 139], [140, 143], [144, 146], [147, 149], [150, 154], [154, 155], [156, 157], [157, 159], [160, 163], [164, 167], [168, 171], [171, 172], [172, 173]]
-    wn16_key: [[2, "be%2:42:03::"], [9, "accelerate%2:30:00::"], [13, "become%2:30:00::"], [17, "realize%2:31:00::"], [20, "be%2:42:06::"], [23, "have%2:42:05::"], [26, "do%2:41:01::"]]
-    wn30_key: [[2, "be%2:42:03::"], [9, "accelerate%2:30:00::"], [13, "become%2:30:00::"], [17, "realize%2:31:00::"], [20, "be%2:42:06::"], [23, "have%2:29:02::;have%2:41:00::;have%2:42:12::"], [26, "do%2:41:01::"]]
+    tokens: [[0, 3], [4, 13], [14, 17], [18, 26], [27, 29], [30, 34], [35, 38], [39, 46], [47, 50], [51, 53], [54, 65], [66, 68], [69, 72], [73, 79], [80, 87], [88, 92], [93, 101], [102, 104], [105, 113], [114, 118], [119, 121], [122, 124], [125, 134], [135, 139], [140, 143], [144, 146], [147, 149], [150, 154], [154, 155], [156, 157], [157, 159], [160, 163], [164, 167], [168, 171], [171, 172], [172, 173]]
+    wn16_key: [[2, "be%2:42:03::"], [10, "accelerate%2:30:00::"], [14, "become%2:30:00::"], [18, "realize%2:31:00::"], [21, "be%2:42:06::"], [24, "have%2:42:05::"], [27, "do%2:41:01::"]]
+    wn30_key: [[2, "be%2:42:03::"], [10, "accelerate%2:30:00::"], [14, "become%2:30:00::"], [18, "realize%2:31:00::"], [21, "be%2:42:06::"], [24, "have%2:29:02::;have%2:41:00::;have%2:42:12::"], [27, "do%2:41:01::"]]
 84EK:
     lemmas: ["The", "program", "have", "work", "well", "in", "both", "nashville", "and", "houston", "."]
     oewn_key: [[3, "oewn-02531113-v"]]
@@ -1052,16 +1047,16 @@ nDKf:
     wn16_key: [[3, "embolden%2:37:00::"], [8, "add%2:30:00::"]]
     wn30_key: [[3, "embolden%2:37:00::"], [8, "add%2:30:00::"]]
 bz4B:
-    lemmas: ["They", "realize", "that", "by", "act", "in_concert", ",", "rather_than", "individually", ",", "they", "will", "not", "be", "pick_out", "as", "object", "of", "retaliation", "--", "economic", "and", "otherwise", "."]
-    oewn_key: [[1, "oewn-00730579-v"], [4, "oewn-02372362-v"], [14, "oewn-00676526-v"]]
+    lemmas: ["They", "realize", "that", "by", "act", "in_concert", ",", "rather", "than", "individually", ",", "they", "will", "not", "be", "pick_out", "as", "object", "of", "retaliation", "--", "economic", "and", "otherwise", "."]
+    oewn_key: [[1, "oewn-00730579-v"], [4, "oewn-02372362-v"], [15, "oewn-00676526-v"]]
     paragraph: '32'
-    pos: ["PRP", "VBP", "IN", "IN", "VBG", "RB", ",", "RB", "RB", ",", "PRP", "MD", "RB", "VB", "VB", "IN", "NNS", "IN", "NN", ":", "JJ", "CC", "RB", "."]
-    text: 'They realize that by acting in_concert, rather_than individually, they will not be picked_out as objects of retaliation--economic and otherwise.
+    pos: ["PRP", "VBP", "IN", "IN", "VBG", "RB", ",", "IN", "IN", "RB", ",", "PRP", "MD", "RB", "VB", "VB", "IN", "NNS", "IN", "NN", ":", "JJ", "CC", "RB", "."]
+    text: 'They realize that by acting in_concert, rather than individually, they will not be picked_out as objects of retaliation--economic and otherwise.
 
   '
-    tokens: [[0, 4], [5, 12], [13, 17], [18, 20], [21, 27], [28, 38], [38, 39], [40, 51], [52, 64], [64, 65], [66, 70], [71, 75], [76, 79], [80, 82], [83, 93], [94, 96], [97, 104], [105, 107], [108, 119], [119, 121], [121, 129], [130, 133], [134, 143], [143, 144]]
-    wn16_key: [[1, "realize%2:31:01::"], [4, "act%2:41:00::"], [14, "pick_out%2:31:00::"]]
-    wn30_key: [[1, "realize%2:31:01::"], [4, "act%2:41:00::"], [14, "pick_out%2:31:00::"]]
+    tokens: [[0, 4], [5, 12], [13, 17], [18, 20], [21, 27], [28, 38], [38, 39], [40, 46], [47, 51], [52, 64], [64, 65], [66, 70], [71, 75], [76, 79], [80, 82], [83, 93], [94, 96], [97, 104], [105, 107], [108, 119], [119, 121], [121, 129], [130, 133], [134, 143], [143, 144]]
+    wn16_key: [[1, "realize%2:31:01::"], [4, "act%2:41:00::"], [15, "pick_out%2:31:00::"]]
+    wn30_key: [[1, "realize%2:31:01::"], [4, "act%2:41:00::"], [15, "pick_out%2:31:00::"]]
 ppZD:
     lemmas: ["Since", "move", "from", "a", "chicago", "suburb", "to", "Southern_California", "a_few", "month", "ago", ",", "I", "'ve", "be", "introduce", "to", "a", "new", "game", "called", "Lanesmanship", "."]
     oewn_key: [[1, "oewn-01859592-v"], [15, "oewn-00902866-v"]]

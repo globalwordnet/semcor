@@ -815,12 +815,12 @@ ci4u:
     wn16_key: [[0, "life%1:03:00::"], [2, "evolve%2:30:00::"], [4, "simple%3:00:02::"], [5, "combination%1:14:00::"], [7, "molecule%1:27:00::"], [10, "sea%1:17:00::"], [12, "complex%3:00:00::"], [13, "combination%1:14:00::"], [15, "man%1:05:01::"]]
     wn30_key: [[0, "life%1:03:00::"], [2, "evolve%2:30:00::"], [4, "simple%3:00:02::"], [5, "combination%1:14:00::"], [7, "molecule%1:27:00::"], [10, "sea%1:17:00::"], [12, "complex%3:00:00::"], [13, "combination%1:14:00::"], [15, "man%1:05:01::"]]
 JBlk:
-    lemmas: ["The", "land", ",", "too", ",", "be", "change", ",", "and", "earthquake", "be", "daily", "reminder", "of_this", "."]
+    lemmas: ["The", "land", ",", "too", ",", "be", "change", ",", "and", "earthquake", "be", "daily", "reminder", "of", "this", "."]
     oewn_key: [[1, "oewn-09357302-n"], [3, "oewn-00048072-r"], [6, "oewn-00109468-v"], [9, "oewn-07443554-n"], [10, "oewn-02622439-v"], [11, "oewn-01975230-s"], [12, "oewn-05821727-n"]]
     paragraph: '16'
-    pos: ["DT", "NN", ",", "RB", ",", "VBZ", "VBG", ",", "CC", "NNS", "VBP", "JJ", "NNS", "RB", "."]
-    text: 'The land, too, is changing, and earthquakes are daily reminders of_this.'
-    tokens: [[0, 3], [4, 8], [8, 9], [10, 13], [13, 14], [15, 17], [18, 26], [26, 27], [28, 31], [32, 43], [44, 47], [48, 53], [54, 63], [64, 71], [71, 72]]
+    pos: ["DT", "NN", ",", "RB", ",", "VBZ", "VBG", ",", "CC", "NNS", "VBP", "JJ", "NNS", "IN", "DT", "."]
+    text: 'The land, too, is changing, and earthquakes are daily reminders of this.'
+    tokens: [[0, 3], [4, 8], [8, 9], [10, 13], [13, 14], [15, 17], [18, 26], [26, 27], [28, 31], [32, 43], [44, 47], [48, 53], [54, 63], [64, 66], [67, 71], [71, 72]]
     wn16_key: [[1, "land%1:17:00::"], [3, "too%4:02:01::"], [6, "change%2:30:00::"], [9, "earthquake%1:11:00::"], [10, "be%2:42:06::"], [11, "daily%5:00:00:regular:00"], [12, "reminder%1:09:00::"]]
     wn30_key: [[1, "land%1:17:00::"], [3, "too%4:02:01::"], [6, "change%2:30:00::"], [9, "earthquake%1:11:00::"], [10, "be%2:42:06::"], [11, "daily%3:00:00:periodic:00"], [12, "reminder%1:09:00::"]]
 p2Dr:
@@ -887,16 +887,14 @@ BAe8:
     wn16_key: [[0, "superstition%1:09:00::"], [2, "often%4:02:00::"], [3, "blend%2:35:00::"], [5, "fact%1:09:01::"], [7, "color%2:32:00::"], [8, "report%1:10:01::"]]
     wn30_key: [[0, "superstition%1:09:00::"], [2, "often%4:02:00::"], [3, "blend%2:35:00::"], [5, "fact%1:09:01::"], [7, "color%2:32:00::"], [8, "report%1:10:01::"]]
 WiNO:
-    lemmas: ["We", "have", "learn", "from", "earthquake", "much", "of_what", "we", "now", "know", "about", "the", "earth", "'s", "interior", ",", "for", "they", "send", "wave", "through", "the", "earth", "which", "emerge", "with", "information", "about", "the", "material", "through", "which", "they", "have", "travel", "."]
-    oewn_key: [[2, "oewn-00599310-v"], [4, "oewn-07443554-n"], [5, "oewn-00059951-r"], [8, "oewn-00049013-r"], [9, "oewn-00596016-v"], [12, "oewn-09357302-n"], [14, "oewn-08605849-n"], [18, "oewn-01955339-v"], [19, "oewn-07360193-n"], [22, "oewn-09357302-n"], [24, "oewn-01994708-v"], [26, "oewn-06646883-n"], [29, "oewn-14604877-n"], [34, "oewn-01839438-v"]]
+    lemmas: ["We", "have", "learn", "from", "earthquake", "much", "of", "what", "we", "now", "know", "about", "the", "earth", "'s", "interior", ",", "for", "they", "send", "wave", "through", "the", "earth", "which", "emerge", "with", "information", "about", "the", "material", "through", "which", "they", "have", "travel", "."]
+    oewn_key: [[2, "oewn-00599310-v"], [4, "oewn-07443554-n"], [5, "oewn-00059951-r"], [9, "oewn-00049013-r"], [10, "oewn-00596016-v"], [13, "oewn-09357302-n"], [15, "oewn-08605849-n"], [19, "oewn-01955339-v"], [20, "oewn-07360193-n"], [23, "oewn-09357302-n"], [25, "oewn-01994708-v"], [27, "oewn-06646883-n"], [30, "oewn-14604877-n"], [35, "oewn-01839438-v"]]
     paragraph: '18'
-    pos: ["PRP", "VBP", "VBN", "IN", "NNS", "RB", "RB", "PRP", "RB", "VBP", "IN", "DT", "NN", "POS", "NN", ",", "IN", "PRP", "VBP", "NNS", "IN", "DT", "NN", "WDT", "VBP", "IN", "NN", "IN", "DT", "NNS", "IN", "WDT", "PRP", "VBP", "VBN", "."]
-    text: 'We have learned from earthquakes much of_what we now know about the earth''s interior,
-  for they send waves through the earth which emerge with information about the materials
-  through which they have traveled.'
-    tokens: [[0, 2], [3, 7], [8, 15], [16, 20], [21, 32], [33, 37], [38, 45], [46, 48], [49, 52], [53, 57], [58, 63], [64, 67], [68, 73], [73, 75], [76, 84], [84, 85], [86, 89], [90, 94], [95, 99], [100, 105], [106, 113], [114, 117], [118, 123], [124, 129], [130, 136], [137, 141], [142, 153], [154, 159], [160, 163], [164, 173], [174, 181], [182, 187], [188, 192], [193, 197], [198, 206], [206, 207]]
-    wn16_key: [[2, "learn%2:31:00::"], [4, "earthquake%1:11:00::"], [5, "much%4:02:06::"], [8, "now%4:02:00::"], [9, "know%2:31:01::"], [12, "earth%1:17:01::"], [14, "interior%1:15:01::"], [18, "send%2:38:01::"], [19, "wave%1:11:00::"], [22, "earth%1:17:01::"], [24, "emerge%2:38:00::"], [26, "information%1:10:00::"], [29, "material%1:27:00::"], [34, "travel%2:38:00::"]]
-    wn30_key: [[2, "learn%2:31:00::"], [4, "earthquake%1:11:00::"], [5, "much%4:02:06::"], [8, "now%4:02:00::"], [9, "know%2:31:01::"], [12, "earth%1:17:01::"], [14, "interior%1:15:01::"], [18, "send%2:38:01::"], [19, "wave%1:11:00::"], [22, "earth%1:17:01::"], [24, "emerge%2:38:00::"], [26, "information%1:10:00::"], [29, "material%1:27:00::"], [34, "travel%2:38:00::"]]
+    pos: ["PRP", "VBP", "VBN", "IN", "NNS", "RB", "IN", "WDT", "PRP", "RB", "VBP", "IN", "DT", "NN", "POS", "NN", ",", "IN", "PRP", "VBP", "NNS", "IN", "DT", "NN", "WDT", "VBP", "IN", "NN", "IN", "DT", "NNS", "IN", "WDT", "PRP", "VBP", "VBN", "."]
+    text: 'We have learned from earthquakes much of what we now know about the earth''s interior, for they send waves through the earth which emerge with information about the materials through which they have traveled.'
+    tokens: [[0, 2], [3, 7], [8, 15], [16, 20], [21, 32], [33, 37], [38, 40], [41, 45], [46, 48], [49, 52], [53, 57], [58, 63], [64, 67], [68, 73], [73, 75], [76, 84], [84, 85], [86, 89], [90, 94], [95, 99], [100, 105], [106, 113], [114, 117], [118, 123], [124, 129], [130, 136], [137, 141], [142, 153], [154, 159], [160, 163], [164, 173], [174, 181], [182, 187], [188, 192], [193, 197], [198, 206], [206, 207]]
+    wn16_key: [[2, "learn%2:31:00::"], [4, "earthquake%1:11:00::"], [5, "much%4:02:06::"], [9, "now%4:02:00::"], [10, "know%2:31:01::"], [13, "earth%1:17:01::"], [15, "interior%1:15:01::"], [19, "send%2:38:01::"], [20, "wave%1:11:00::"], [23, "earth%1:17:01::"], [25, "emerge%2:38:00::"], [27, "information%1:10:00::"], [30, "material%1:27:00::"], [35, "travel%2:38:00::"]]
+    wn30_key: [[2, "learn%2:31:00::"], [4, "earthquake%1:11:00::"], [5, "much%4:02:06::"], [9, "now%4:02:00::"], [10, "know%2:31:01::"], [13, "earth%1:17:01::"], [15, "interior%1:15:01::"], [19, "send%2:38:01::"], [20, "wave%1:11:00::"], [23, "earth%1:17:01::"], [25, "emerge%2:38:00::"], [27, "information%1:10:00::"], [30, "material%1:27:00::"], [35, "travel%2:38:00::"]]
 0jdt:
     lemmas: ["These", "wave", "have", "show", "that", "1800", "mile", "below", "the", "surface", "a", "liquid", "core", "begin", ",", "and", "that", "it", ",", "in_turn", ",", "have", "a", "solid", "inner", "core", "."]
     oewn_key: [[1, "oewn-07360193-n"], [3, "oewn-00666706-v"], [6, "oewn-13672836-n"], [9, "oewn-09474647-n"], [11, "oewn-02269142-a"], [12, "oewn-09279721-n"], [13, "oewn-02614382-v"], [19, "oewn-00181906-r"], [21, "oewn-02636270-v"], [23, "oewn-02267791-a"], [24, "oewn-00953480-a"], [25, "oewn-09279721-n"]]
@@ -983,17 +981,16 @@ YX0o:
     wn16_key: [[2, "also%4:02:00::"], [3, "develop%2:36:00::"], [4, "technique%1:09:00::"], [6, "recognize%2:39:01::"], [8, "locate%2:40:00::"], [9, "underground%5:00:00:subsurface:00"], [10, "nuclear%3:00:00::"], [11, "test%1:04:00::"], [14, "wave%1:11:00::"], [17, "ground%1:17:00::"], [20, "generate%2:36:00::"]]
     wn30_key: [[2, "also%4:02:00::"], [3, "develop%2:36:00::"], [4, "technique%1:09:00::"], [6, "recognize%2:39:01::"], [8, "locate%2:40:00::"], [9, "underground%3:00:00:subsurface:00"], [10, "nuclear%3:00:00::"], [11, "test%1:04:00::"], [14, "wave%1:11:00::"], [17, "ground%1:17:00::"], [20, "generate%2:36:00::"]]
 9Yvc:
-    lemmas: ["The", "following", "discussion", "of_this", "subject", "have", "be", "adapt", "from", "the", "book", "cause_of_catastrophe", "by", "person", "."]
-    oewn_key: [[1, "oewn-00128705-s"], [2, "oewn-07152793-n"], [4, "oewn-05822417-n"], [10, "oewn-06422547-n"], [13, "oewn-00007846-n"]]
+    lemmas: ["The", "following", "discussion", "of", "this", "subject", "have", "be", "adapt", "from", "the", "book", "cause_of_catastrophe", "by", "person", "."]
+    oewn_key: [[1, "oewn-00128705-s"], [2, "oewn-07152793-n"], [5, "oewn-05822417-n"], [11, "oewn-06422547-n"], [14, "oewn-00007846-n"]]
     paragraph: '21'
-    pos: ["DT", "JJ", "NN", "RB", "NN", "VBZ", "VBN", "VB", "IN", "DT", "NN", "NN", "IN", "NN", "."]
-    text: 'The following discussion of_this subject has been adapted from the book Causes_of_Catastrophe
-  by L._Don_Leet.
+    pos: ["DT", "JJ", "NN", "IN", "DT", "NN", "VBZ", "VBN", "VB", "IN", "DT", "NN", "NN", "IN", "NN", "."]
+    text: 'The following discussion of this subject has been adapted from the book Causes_of_Catastrophe by L._Don_Leet.
 
   '
-    tokens: [[0, 3], [4, 13], [14, 24], [25, 32], [33, 40], [41, 44], [45, 49], [50, 57], [58, 62], [63, 66], [67, 71], [72, 93], [94, 96], [97, 108], [108, 109]]
-    wn16_key: [[1, "following%5:00:01:succeeding(a):00"], [2, "discussion%1:10:02::"], [4, "subject%1:09:01::"], [7, "adapt%2:36:01::"], [10, "book%1:10:00::"], [13, "person%1:03:00::"]]
-    wn30_key: [[1, "following%3:00:01:succeeding:00"], [2, "discussion%1:10:02::"], [4, "subject%1:09:01::"], [10, "book%1:10:00::"], [13, "person%1:03:00::"]]
+    tokens: [[0, 3], [4, 13], [14, 24], [25, 27], [28, 32], [33, 40], [41, 44], [45, 49], [50, 57], [58, 62], [63, 66], [67, 71], [72, 93], [94, 96], [97, 108], [108, 109]]
+    wn16_key: [[1, "following%5:00:01:succeeding(a):00"], [2, "discussion%1:10:02::"], [5, "subject%1:09:01::"], [8, "adapt%2:36:01::"], [11, "book%1:10:00::"], [14, "person%1:03:00::"]]
+    wn30_key: [[1, "following%3:00:01:succeeding:00"], [2, "discussion%1:10:02::"], [5, "subject%1:09:01::"], [11, "book%1:10:00::"], [14, "person%1:03:00::"]]
 XqAV:
     lemmas: ["At", "twelve", "minute", "after", "five", "on", "the", "morning", "of", "wednesday", ",", "april", "18th", ",", "1906", ",", "san_francisco", "be", "shake", "by", "a", "severe", "earthquake", "."]
     oewn_key: [[1, "oewn-02195104-s"], [2, "oewn-15259561-n"], [4, "oewn-13766661-n"], [7, "oewn-15190336-n"], [9, "oewn-15189280-n"], [11, "oewn-15235985-n"], [12, "oewn-02212032-s"], [16, "oewn-09088034-n"], [18, "oewn-01893603-v"], [21, "oewn-02330284-s"], [22, "oewn-07443554-n"]]

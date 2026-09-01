@@ -27,14 +27,12 @@ _meta:
         base: tokens
         data: string
 emOA:
-    lemmas: ["At", "the", "westminster_kc", "dog_show", "in", "madison_square_garden", ",", "new_york", "on", "the", "second", "day", ",", "the", "final", "of", "the", "junior_class", "bring_out", "the_most", "competitive", "competition", "in", "the", "history", "of_this", "class", "."]
+    lemmas: ["At", "the", "westminster_kc", "dog_show", "in", "madison_square_garden", ",", "new_york", "on", "the", "second", "day", ",", "the", "final", "of", "the", "junior_class", "bring_out", "the_most", "competitive", "competition", "in", "the", "history", "of", "this", "class", "."]
     oewn_key: [[18, "oewn-02147756-v"]]
     paragraph: '0'
-    pos: ["IN", "DT", "NNP", "NN", "IN", "NNP", ",", "NN", "IN", "DT", "JJ", "NN", ",", "DT", "NNS", "IN", "DT", "NN", "VB", "RB", "JJ", "NN", "IN", "DT", "NN", "RB", "NNP", "."]
-    text: At the Westminster_KC Dog_Show in Madison_Square_Garden, New_York on the second day,
-      the Finals of the Junior_Class brought_out the_most competitive competition in the
-      history of_this Class.
-    tokens: [[0, 2], [3, 6], [7, 21], [22, 30], [31, 33], [34, 55], [55, 56], [57, 65], [66, 68], [69, 72], [73, 79], [80, 83], [83, 84], [85, 88], [89, 95], [96, 98], [99, 102], [103, 115], [116, 127], [128, 136], [137, 148], [149, 160], [161, 163], [164, 167], [168, 175], [176, 183], [184, 189], [189, 190]]
+    pos: ["IN", "DT", "NNP", "NN", "IN", "NNP", ",", "NN", "IN", "DT", "JJ", "NN", ",", "DT", "NNS", "IN", "DT", "NN", "VB", "RB", "JJ", "NN", "IN", "DT", "NN", "IN", "DT", "NNP", "."]
+    text: 'At the Westminster_KC Dog_Show in Madison_Square_Garden, New_York on the second day, the Finals of the Junior_Class brought_out the_most competitive competition in the history of this Class.'
+    tokens: [[0, 2], [3, 6], [7, 21], [22, 30], [31, 33], [34, 55], [55, 56], [57, 65], [66, 68], [69, 72], [73, 79], [80, 83], [83, 84], [85, 88], [89, 95], [96, 98], [99, 102], [103, 115], [116, 127], [128, 136], [137, 148], [149, 160], [161, 163], [164, 167], [168, 175], [176, 178], [179, 183], [184, 189], [189, 190]]
     wn16_key: [[18, "bring_out%2:39:00::"]]
     wn30_key: [[18, "bring_out%2:39:00::"]]
 V32+:
@@ -403,16 +401,14 @@ Wzp4:
     wn16_key: [[1, "give%2:40:03::"]]
     wn30_key: [[1, "give%2:40:03::"]]
 c6ZG:
-    lemmas: ["Before", "the", "junior", "enter", "the", "ring", "the", "steward", "announce", "that", "after_all", "junior", "have", "move", "their", "dog", "around", "the", "ring", "and", "set_up", "them", "up", ",", "they", "could", "relax", "with", "their", "dog", "."]
-    oewn_key: [[3, "oewn-02020375-v"], [8, "oewn-00976399-v"], [13, "oewn-01854282-v"], [20, "oewn-01466592-v"], [26, "oewn-00026378-v"]]
+    lemmas: ["Before", "the", "junior", "enter", "the", "ring", "the", "steward", "announce", "that", "after", "all", "junior", "have", "move", "their", "dog", "around", "the", "ring", "and", "set_up", "them", "up", ",", "they", "could", "relax", "with", "their", "dog", "."]
+    oewn_key: [[3, "oewn-02020375-v"], [8, "oewn-00976399-v"], [14, "oewn-01854282-v"], [21, "oewn-01466592-v"], [27, "oewn-00026378-v"]]
     paragraph: '16'
-    pos: ["IN", "DT", "NNS", "VBD", "DT", "NN", "DT", "NN", "VBD", "IN", "RB", "NNS", "VBD", "VBN", "PRP$", "NNS", "IN", "DT", "NN", "CC", "VBD", "PRP", "RB", ",", "PRP", "MD", "VB", "IN", "PRP$", "NNS", "."]
-    text: 'Before the Juniors entered the ring the Steward announced that after_all Juniors
-  had moved their dogs around the ring and set them up, they could relax with their
-  dogs.'
-    tokens: [[0, 6], [7, 10], [11, 18], [19, 26], [27, 30], [31, 35], [36, 39], [40, 47], [48, 57], [58, 62], [63, 72], [73, 80], [81, 84], [85, 90], [91, 96], [97, 101], [102, 108], [109, 112], [113, 117], [118, 121], [122, 125], [126, 130], [131, 133], [133, 134], [135, 139], [140, 145], [146, 151], [152, 156], [157, 162], [163, 167], [167, 168]]
-    wn16_key: [[3, "enter%2:38:00::"], [8, "announce%2:32:00::"], [13, "move%2:38:01::"], [20, "set_up%2:35:00::"], [26, "relax%2:29:00::"]]
-    wn30_key: [[3, "enter%2:38:00::"], [8, "announce%2:32:00::"], [13, "move%2:38:01::"], [20, "set_up%2:35:00::"], [26, "relax%2:29:00::"]]
+    pos: ["IN", "DT", "NNS", "VBD", "DT", "NN", "DT", "NN", "VBD", "IN", "IN", "PDT", "NNS", "VBD", "VBN", "PRP$", "NNS", "IN", "DT", "NN", "CC", "VBD", "PRP", "RB", ",", "PRP", "MD", "VB", "IN", "PRP$", "NNS", "."]
+    text: 'Before the Juniors entered the ring the Steward announced that after all Juniors had moved their dogs around the ring and set them up, they could relax with their dogs.'
+    tokens: [[0, 6], [7, 10], [11, 18], [19, 26], [27, 30], [31, 35], [36, 39], [40, 47], [48, 57], [58, 62], [63, 68], [69, 72], [73, 80], [81, 84], [85, 90], [91, 96], [97, 101], [102, 108], [109, 112], [113, 117], [118, 121], [122, 125], [126, 130], [131, 133], [133, 134], [135, 139], [140, 145], [146, 151], [152, 156], [157, 162], [163, 167], [167, 168]]
+    wn16_key: [[3, "enter%2:38:00::"], [8, "announce%2:32:00::"], [14, "move%2:38:01::"], [21, "set_up%2:35:00::"], [27, "relax%2:29:00::"]]
+    wn30_key: [[3, "enter%2:38:00::"], [8, "announce%2:32:00::"], [14, "move%2:38:01::"], [21, "set_up%2:35:00::"], [27, "relax%2:29:00::"]]
 8gdg:
     lemmas: ["From", "there", "on", ",", "each", "junior", "be", "go_to", "be", "judge", "individually", "."]
     oewn_key: [[9, "oewn-00674196-v"]]
@@ -467,12 +463,12 @@ Ebn/:
     wn16_key: [[3, "enter%2:38:00::"], [12, "state%2:32:00::"], [19, "be%2:42:03::"], [27, "hold%2:36:00::"]]
     wn30_key: [[3, "enter%2:38:00::"], [12, "state%2:32:00::"], [19, "be%2:42:03::"], [27, "hold%2:36:00::"]]
 6XNw:
-    lemmas: ["junior", "compete", "last", "year", "at", "american_kennel_club", "and", "canadian", "kennel_club", "recognized", "show", "to", "be", "eligible", "to", "compete", "in_this", "class", "--", "the", "final", "for", "the", "year", "."]
+    lemmas: ["junior", "compete", "last", "year", "at", "american_kennel_club", "and", "canadian", "kennel_club", "recognized", "show", "to", "be", "eligible", "to", "compete", "in", "this", "class", "--", "the", "final", "for", "the", "year", "."]
     oewn_key: [[1, "oewn-01074673-v"], [12, "oewn-02610777-v"], [15, "oewn-01074673-v"]]
     paragraph: '18'
-    pos: ["NNS", "VBD", "JJ", "NN", "IN", "NNP", "CC", "JJ", "NNP", "JJ", "NN", "TO", "VB", "JJ", "TO", "VB", "RB", "NNP", ":", "DT", "NNS", "IN", "DT", "NN", "."]
-    text: 'Juniors competed last year at American_Kennel_Club and Canadian Kennel_Club recognized shows to be eligible to compete in_this Class--the Finals for the year.'
-    tokens: [[0, 7], [8, 16], [17, 21], [22, 26], [27, 29], [30, 50], [51, 54], [55, 63], [64, 75], [76, 86], [87, 92], [93, 95], [96, 98], [99, 107], [108, 110], [111, 118], [119, 126], [127, 132], [132, 134], [134, 137], [138, 144], [145, 148], [149, 152], [153, 157], [157, 158]]
+    pos: ["NNS", "VBD", "JJ", "NN", "IN", "NNP", "CC", "JJ", "NNP", "JJ", "NN", "TO", "VB", "JJ", "TO", "VB", "IN", "DT", "NNP", ":", "DT", "NNS", "IN", "DT", "NN", "."]
+    text: 'Juniors competed last year at American_Kennel_Club and Canadian Kennel_Club recognized shows to be eligible to compete in this Class--the Finals for the year.'
+    tokens: [[0, 7], [8, 16], [17, 21], [22, 26], [27, 29], [30, 50], [51, 54], [55, 63], [64, 75], [76, 86], [87, 92], [93, 95], [96, 98], [99, 107], [108, 110], [111, 118], [119, 121], [122, 126], [127, 132], [132, 134], [134, 137], [138, 144], [145, 148], [149, 152], [153, 157], [157, 158]]
     wn16_key: [[1, "compete%2:33:00::"], [12, "be%2:42:03::"], [15, "compete%2:33:00::"]]
     wn30_key: [[1, "compete%2:33:00::"], [12, "be%2:42:03::"], [15, "compete%2:33:00::"]]
 rZQm:
@@ -497,14 +493,14 @@ XdLn:
     wn16_key: [[8, "be%2:42:06::"], [10, "teach%2:32:00::"], [12, "encourage%2:37:00::"], [15, "become%2:42:01::"]]
     wn30_key: [[8, "be%2:42:06::"], [10, "teach%2:32:00::"], [12, "encourage%2:37:00::"], [15, "become%2:42:01::"]]
 QhUj:
-    lemmas: ["many", "adult", "show", "at", "westminster", "today", "be", "product", "of_this", "class", ".", ")"]
+    lemmas: ["many", "adult", "show", "at", "westminster", "today", "be", "product", "of", "this", "class", ".", ")"]
     oewn_key: [[2, "oewn-02144017-v"], [6, "oewn-02610777-v"]]
     paragraph: '19'
-    pos: ["JJ", "NNS", "VBG", "IN", "NNP", "NN", "VBP", "NNS", "RB", "NNP", ".", "NN"]
-    text: 'Many adults showing at Westminster today are products of_this Class.)
+    pos: ["JJ", "NNS", "VBG", "IN", "NNP", "NN", "VBP", "NNS", "IN", "DT", "NNP", ".", "NN"]
+    text: 'Many adults showing at Westminster today are products of this Class.)
 
   '
-    tokens: [[0, 4], [5, 11], [12, 19], [20, 22], [23, 34], [35, 40], [41, 44], [45, 53], [54, 61], [62, 67], [67, 68], [68, 69]]
+    tokens: [[0, 4], [5, 11], [12, 19], [20, 22], [23, 34], [35, 40], [41, 44], [45, 53], [54, 56], [57, 61], [62, 67], [67, 68], [68, 69]]
     wn16_key: [[2, "show%2:39:01::"], [6, "be%2:42:03::"]]
     wn30_key: [[2, "show%2:39:01::"], [6, "be%2:42:03::"]]
 zrKr:
@@ -646,17 +642,16 @@ Fl7m:
     wn16_key: [[9, "show%2:39:02::"], [12, "be%2:42:03::"]]
     wn30_key: [[9, "show%2:39:02::"], [12, "be%2:42:03::"]]
 9l1A:
-    lemmas: ["most", "junior", "who", "be", "enter", "in", "the", "final", "be", "seasoned", "campaigner", "and", "not_only", "show", "and", "win", "in", "junior_class", "but", "score", "in", "the", "breed", "class", "as_well", "."]
-    oewn_key: [[4, "oewn-02476750-v"], [8, "oewn-02610777-v"], [13, "oewn-02144017-v"], [15, "oewn-01102556-v"], [19, "oewn-01114241-v"]]
+    lemmas: ["most", "junior", "who", "be", "enter", "in", "the", "final", "be", "seasoned", "campaigner", "and", "not", "only", "show", "and", "win", "in", "junior_class", "but", "score", "in", "the", "breed", "class", "as_well", "."]
+    oewn_key: [[4, "oewn-02476750-v"], [8, "oewn-02610777-v"], [14, "oewn-02144017-v"], [16, "oewn-01102556-v"], [20, "oewn-01114241-v"]]
     paragraph: '27'
-    pos: ["JJS", "NNS", "WP", "VBD", "VBN", "IN", "DT", "NNS", "VBP", "JJ", "NNS", "CC", "RB", "VB", "CC", "VB", "IN", "NN", "CC", "VB", "IN", "DT", "NNP", "NNS", "RB", "."]
-    text: 'Most Juniors who were entered in the Finals are seasoned campaigners and not_only
-  show and win in Junior_Classes but score in the Breed Classes as_well.
+    pos: ["JJS", "NNS", "WP", "VBD", "VBN", "IN", "DT", "NNS", "VBP", "JJ", "NNS", "CC", "RB", "RB", "VB", "CC", "VB", "IN", "NN", "CC", "VB", "IN", "DT", "NNP", "NNS", "RB", "."]
+    text: 'Most Juniors who were entered in the Finals are seasoned campaigners and not only show and win in Junior_Classes but score in the Breed Classes as_well.
 
   '
-    tokens: [[0, 4], [5, 12], [13, 16], [17, 21], [22, 29], [30, 32], [33, 36], [37, 43], [44, 47], [48, 56], [57, 68], [69, 72], [73, 81], [82, 86], [87, 90], [91, 94], [95, 97], [98, 112], [113, 116], [117, 122], [123, 125], [126, 129], [130, 135], [136, 143], [144, 151], [151, 152]]
-    wn16_key: [[4, "enter%2:41:06::"], [8, "be%2:42:03::"], [13, "show%2:39:01::"], [15, "win%2:33:00::"], [19, "score%2:33:00::"]]
-    wn30_key: [[4, "enter%2:41:06::"], [8, "be%2:42:03::"], [13, "show%2:39:01::"], [15, "win%2:33:00::"], [19, "score%2:33:00::"]]
+    tokens: [[0, 4], [5, 12], [13, 16], [17, 21], [22, 29], [30, 32], [33, 36], [37, 43], [44, 47], [48, 56], [57, 68], [69, 72], [73, 76], [77, 81], [82, 86], [87, 90], [91, 94], [95, 97], [98, 112], [113, 116], [117, 122], [123, 125], [126, 129], [130, 135], [136, 143], [144, 151], [151, 152]]
+    wn16_key: [[4, "enter%2:41:06::"], [8, "be%2:42:03::"], [14, "show%2:39:01::"], [16, "win%2:33:00::"], [20, "score%2:33:00::"]]
+    wn30_key: [[4, "enter%2:41:06::"], [8, "be%2:42:03::"], [14, "show%2:39:01::"], [16, "win%2:33:00::"], [20, "score%2:33:00::"]]
 iVxQ:
     lemmas: ["In", "1960", ",", "there", "be", "7287", "entry", "in", "the", "junior_class", "."]
     oewn_key: [[4, "oewn-02609706-v"]]
@@ -676,18 +671,16 @@ JmBd:
     wn16_key: [[4, "increase%2:30:00::"]]
     wn30_key: [[4, "increase%2:30:00::"]]
 Paj0:
-    lemmas: ["next", "year", "1962", ",", "at", "westminster", ",", "the", "bench_show_committee", "have", "raise", "the", "requirement", "so_that", "a", "junior", "must", "win", "3", "or", "more", "junior_class", "in_the_open", "division", "only", "to", "qualify", "for", "westminster", "."]
-    oewn_key: [[10, "oewn-00158311-v"], [17, "oewn-01102556-v"], [26, "oewn-00974223-v"]]
+    lemmas: ["next", "year", "1962", ",", "at", "westminster", ",", "the", "bench_show_committee", "have", "raise", "the", "requirement", "so", "that", "a", "junior", "must", "win", "3", "or", "more", "junior_class", "in_the_open", "division", "only", "to", "qualify", "for", "westminster", "."]
+    oewn_key: [[10, "oewn-00158311-v"], [18, "oewn-01102556-v"], [27, "oewn-00974223-v"]]
     paragraph: '28'
-    pos: ["JJ", "NN", "CD", ",", "IN", "NNP", ",", "DT", "NNP", "VBZ", "VBN", "DT", "NNS", "RB", "DT", "NN", "MD", "VB", "CD", "CC", "JJR", "NN", "JJ", "NN", "RB", "TO", "VB", "IN", "NNP", "."]
-    text: 'Next year 1962, at Westminster, the Bench_Show_Committee has raised the requirements
-  so_that a junior must win 3 or more junior_classes in_the_open division only to
-  qualify for Westminster.
+    pos: ["JJ", "NN", "CD", ",", "IN", "NNP", ",", "DT", "NNP", "VBZ", "VBN", "DT", "NNS", "IN", "IN", "DT", "NN", "MD", "VB", "CD", "CC", "JJR", "NN", "JJ", "NN", "RB", "TO", "VB", "IN", "NNP", "."]
+    text: 'Next year 1962, at Westminster, the Bench_Show_Committee has raised the requirements so that a junior must win 3 or more junior_classes in_the_open division only to qualify for Westminster.
 
   '
-    tokens: [[0, 4], [5, 9], [10, 14], [14, 15], [16, 18], [19, 30], [30, 31], [32, 35], [36, 56], [57, 60], [61, 67], [68, 71], [72, 84], [85, 92], [93, 94], [95, 101], [102, 106], [107, 110], [111, 112], [113, 115], [116, 120], [121, 135], [136, 147], [148, 156], [157, 161], [162, 164], [165, 172], [173, 176], [177, 188], [188, 189]]
-    wn16_key: [[10, "raise%2:30:01::"], [17, "win%2:33:00::"], [26, "qualify%2:32:02::"]]
-    wn30_key: [[10, "raise%2:30:01::"], [17, "win%2:33:00::"], [26, "qualify%2:32:02::"]]
+    tokens: [[0, 4], [5, 9], [10, 14], [14, 15], [16, 18], [19, 30], [30, 31], [32, 35], [36, 56], [57, 60], [61, 67], [68, 71], [72, 84], [85, 87], [88, 92], [93, 94], [95, 101], [102, 106], [107, 110], [111, 112], [113, 115], [116, 120], [121, 135], [136, 147], [148, 156], [157, 161], [162, 164], [165, 172], [173, 176], [177, 188], [188, 189]]
+    wn16_key: [[10, "raise%2:30:01::"], [18, "win%2:33:00::"], [27, "qualify%2:32:02::"]]
+    wn30_key: [[10, "raise%2:30:01::"], [18, "win%2:33:00::"], [27, "qualify%2:32:02::"]]
 K1J3:
     lemmas: ["percy_roberts", ",", "a", "leading", "judge", "will", "not", "be", "at", "the", "international_show", "this", "year", "for", "the", "junior", "judging", "contest", "as", "he", "have", "be", "invite", "to", "judge", "in", "australia", "in", "march", "."]
     oewn_key: [[7, "oewn-02610777-v"], [22, "oewn-00795242-v"], [24, "oewn-00674196-v"]]
@@ -732,15 +725,14 @@ AEzV:
     wn16_key: [[4, "try_out%2:41:00::"]]
     wn30_key: [[4, "try_out%2:41:00::"]]
 MPs0:
-    lemmas: ["Not_only", "be", "the", "contestant", "please", "with", "the", "class", ",", "but", "it", "arouse", "the", "interest", "of", "all_in", "attendance", "that", "day", "."]
-    oewn_key: [[4, "oewn-01819595-v"], [11, "oewn-01763170-v"]]
+    lemmas: ["Not", "only", "be", "the", "contestant", "please", "with", "the", "class", ",", "but", "it", "arouse", "the", "interest", "of", "all", "in", "attendance", "that", "day", "."]
+    oewn_key: [[5, "oewn-01819595-v"], [12, "oewn-01763170-v"]]
     paragraph: '31'
-    pos: ["RB", "VBD", "DT", "NNS", "VBN", "IN", "DT", "NNP", ",", "CC", "PRP", "VBD", "DT", "NN", "IN", "JJ", "NN", "IN", "NN", "."]
-    text: 'Not_only were the contestants pleased with the Class, but it aroused the interest
-  of all_in attendance that day.'
-    tokens: [[0, 8], [9, 13], [14, 17], [18, 29], [30, 37], [38, 42], [43, 46], [47, 52], [52, 53], [54, 57], [58, 60], [61, 68], [69, 72], [73, 81], [82, 84], [85, 91], [92, 102], [103, 107], [108, 111], [111, 112]]
-    wn16_key: [[4, "please%2:37:00::"], [11, "arouse%2:37:00::"]]
-    wn30_key: [[4, "please%2:37:00::"], [11, "arouse%2:37:00::"]]
+    pos: ["RB", "RB", "VBD", "DT", "NNS", "VBN", "IN", "DT", "NNP", ",", "CC", "PRP", "VBD", "DT", "NN", "IN", "PDT", "IN", "NN", "IN", "NN", "."]
+    text: 'Not only were the contestants pleased with the Class, but it aroused the interest of all in attendance that day.'
+    tokens: [[0, 3], [4, 8], [9, 13], [14, 17], [18, 29], [30, 37], [38, 42], [43, 46], [47, 52], [52, 53], [54, 57], [58, 60], [61, 68], [69, 72], [73, 81], [82, 84], [85, 88], [89, 91], [92, 102], [103, 107], [108, 111], [111, 112]]
+    wn16_key: [[5, "please%2:37:00::"], [12, "arouse%2:37:00::"]]
+    wn30_key: [[5, "please%2:37:00::"], [12, "arouse%2:37:00::"]]
 mloV:
     lemmas: ["The", "intermediate", "in", "the", "class", "with", "the", "judge", "be", "ask", "to", "pick", "4", "winner", "and", "give", "their", "reason", "but", "their", "decision", "do", "not", "affect", "the", "choice", "of", "the", "judge", "."]
     oewn_key: [[9, "oewn-00754499-v"], [11, "oewn-00678369-v"], [15, "oewn-02301114-v"], [23, "oewn-00019441-v"]]
@@ -768,14 +760,14 @@ QBfa:
     wn16_key: [[1, "suggest%2:32:03::"], [11, "accept%2:40:00::"], [14, "include%2:42:00::"], [29, "state%2:32:00::"], [39, "be%2:42:03::"]]
     wn30_key: [[1, "suggest%2:32:00::"], [11, "accept%2:40:00::"], [14, "include%2:42:00::"], [29, "state%2:32:00::"], [39, "be%2:42:03::"]]
 JXjR:
-    lemmas: ["This", "class", "can", "be", "just_as", "successful", "in", "the", "dog", "world", "if", "it", "be", "give", "a", "chance", "."]
-    oewn_key: [[3, "oewn-02610777-v"], [13, "oewn-02344167-v"]]
+    lemmas: ["This", "class", "can", "be", "just", "as", "successful", "in", "the", "dog", "world", "if", "it", "be", "give", "a", "chance", "."]
+    oewn_key: [[3, "oewn-02610777-v"], [14, "oewn-02344167-v"]]
     paragraph: '33'
-    pos: ["DT", "NNP", "MD", "VB", "RB", "JJ", "IN", "DT", "NN", "NN", "IN", "PRP", "VBZ", "VBN", "DT", "NN", "."]
-    text: 'This Class can be just_as successful in the dog world if it is given a chance.'
-    tokens: [[0, 4], [5, 10], [11, 14], [15, 17], [18, 25], [26, 36], [37, 39], [40, 43], [44, 47], [48, 53], [54, 56], [57, 59], [60, 62], [63, 68], [69, 70], [71, 77], [77, 78]]
-    wn16_key: [[3, "be%2:42:03::"], [13, "give%2:40:05::"]]
-    wn30_key: [[3, "be%2:42:03::"], [13, "give%2:40:05::"]]
+    pos: ["DT", "NNP", "MD", "VB", "RB", "RB", "JJ", "IN", "DT", "NN", "NN", "IN", "PRP", "VBZ", "VBN", "DT", "NN", "."]
+    text: 'This Class can be just as successful in the dog world if it is given a chance.'
+    tokens: [[0, 4], [5, 10], [11, 14], [15, 17], [18, 22], [23, 25], [26, 36], [37, 39], [40, 43], [44, 47], [48, 53], [54, 56], [57, 59], [60, 62], [63, 68], [69, 70], [71, 77], [77, 78]]
+    wn16_key: [[3, "be%2:42:03::"], [14, "give%2:40:05::"]]
+    wn30_key: [[3, "be%2:42:03::"], [14, "give%2:40:05::"]]
 2/pF:
     lemmas: ["last", "year", "robert_harris", ",", "a", "leading", "junior", "handler", "enter", "the", "dog_judging_contest", "(", "junior", ")", "at", "the", "international_kc", "of", "chicago", "show", "and", "have", "the", "high", "score", "in", "judging", "of", "any", "junior", "since", "the", "class", "'", "inception", "."]
     oewn_key: [[8, "oewn-01084999-v"], [21, "oewn-02208144-v"]]
@@ -824,15 +816,14 @@ H83y:
     wn16_key: [[18, "name%2:32:03::"], [23, "be%2:42:03::"], [28, "believe%2:31:04::"], [32, "have%2:40:00::"], [36, "exhibit%2:39:01::"], [40, "start%2:30:00::"]]
     wn30_key: [[18, "name%2:32:03::"], [23, "be%2:42:03::"], [28, "believe%2:31:04::"], [32, "have%2:40:00::"], [36, "exhibit%2:39:01::"], [40, "start%2:30:00::"]]
 EiFO:
-    lemmas: ["Some", "years", "ago", "this", "class", "be", "judge", "by", "celebrity", "who", "know", "nothing", "of_what", "be", "require", "of", "a", "junior", "'s", "ability", "to", "show", "a", "dog", "."]
-    oewn_key: [[6, "oewn-00674196-v"], [10, "oewn-00596016-v"], [14, "oewn-02634015-v"], [21, "oewn-02153218-v"]]
+    lemmas: ["Some", "years", "ago", "this", "class", "be", "judge", "by", "celebrity", "who", "know", "nothing", "of", "what", "be", "require", "of", "a", "junior", "'s", "ability", "to", "show", "a", "dog", "."]
+    oewn_key: [[6, "oewn-00674196-v"], [10, "oewn-00596016-v"], [15, "oewn-02634015-v"], [22, "oewn-02153218-v"]]
     paragraph: '35'
-    pos: ["DT", "NNS", "RB", "DT", "NNP", "VBD", "VBN", "IN", "NNS", "WP", "VBD", "NN", "RB", "VBD", "VBN", "IN", "DT", "JJ", "POS", "NN", "TO", "VB", "DT", "NN", "."]
-    text: 'Some years ago this Class was judged by celebrities who knew nothing of_what was
-  required of a Junior''s ability to show a dog.'
-    tokens: [[0, 4], [5, 10], [11, 14], [15, 19], [20, 25], [26, 29], [30, 36], [37, 39], [40, 51], [52, 55], [56, 60], [61, 68], [69, 76], [77, 80], [81, 89], [90, 92], [93, 94], [95, 101], [101, 103], [104, 111], [112, 114], [115, 119], [120, 121], [122, 125], [125, 126]]
-    wn16_key: [[6, "judge%2:31:02::"], [10, "know%2:31:01::"], [14, "require%2:42:00::"], [21, "show%2:39:02::"]]
-    wn30_key: [[6, "judge%2:31:02::"], [10, "know%2:31:01::"], [14, "require%2:42:00::"], [21, "show%2:39:02::"]]
+    pos: ["DT", "NNS", "RB", "DT", "NNP", "VBD", "VBN", "IN", "NNS", "WP", "VBD", "NN", "IN", "WDT", "VBD", "VBN", "IN", "DT", "JJ", "POS", "NN", "TO", "VB", "DT", "NN", "."]
+    text: 'Some years ago this Class was judged by celebrities who knew nothing of what was required of a Junior''s ability to show a dog.'
+    tokens: [[0, 4], [5, 10], [11, 14], [15, 19], [20, 25], [26, 29], [30, 36], [37, 39], [40, 51], [52, 55], [56, 60], [61, 68], [69, 71], [72, 76], [77, 80], [81, 89], [90, 92], [93, 94], [95, 101], [101, 103], [104, 111], [112, 114], [115, 119], [120, 121], [122, 125], [125, 126]]
+    wn16_key: [[6, "judge%2:31:02::"], [10, "know%2:31:01::"], [15, "require%2:42:00::"], [22, "show%2:39:02::"]]
+    wn30_key: [[6, "judge%2:31:02::"], [10, "know%2:31:01::"], [15, "require%2:42:00::"], [22, "show%2:39:02::"]]
 KfuT:
     lemmas: ["To", "overcome", "this", "unfair", "judging", ",", "the", "A._K._C.", "require", "that", "a", "licensed", "handler", "be", "present", "to", "judge", "the", "class", "."]
     oewn_key: [[1, "oewn-01110559-v"], [8, "oewn-02634015-v"], [13, "oewn-02661230-v"], [16, "oewn-00674196-v"]]
@@ -999,13 +990,12 @@ eCQT:
     wn16_key: [[7, "stop%2:38:00::"], [12, "remember%2:31:00::"], [16, "say%2:32:00::"], [18, "prefer%2:37:00::"]]
     wn30_key: [[7, "stop%2:38:00::"], [12, "remember%2:31:00::"], [16, "say%2:32:00::"], [18, "prefer%2:37:00::"]]
 Ry4j:
-    lemmas: ["so", "many_times", "I", "have", "wonder", "why", "veterinarian", "do", "not", "wipe", "the", "table", "clean", "before", "each", "new", "canine", "patient", "be", "place", "on_it", "for", "examination", "."]
+    lemmas: ["so", "many_times", "I", "have", "wonder", "why", "veterinarian", "do", "not", "wipe", "the", "table", "clean", "before", "each", "new", "canine", "patient", "be", "place", "on", "it", "for", "examination", "."]
     oewn_key: [[4, "oewn-00731363-v"], [9, "oewn-01394891-v"], [19, "oewn-01496967-v"]]
     paragraph: '44'
-    pos: ["RB", "RB", "PRP", "VBP", "VBN", "WRB", "NNS", "VBP", "RB", "VB", "DT", "NN", "JJ", "IN", "DT", "JJ", "JJ", "NN", "VBZ", "VBN", "RB", "IN", "NN", "."]
-    text: 'So many_times I have wondered why veterinarians do not wipe the table clean before
-  each new canine patient is placed on_it for examination.'
-    tokens: [[0, 2], [3, 13], [14, 15], [16, 20], [21, 29], [30, 33], [34, 47], [48, 50], [51, 54], [55, 59], [60, 63], [64, 69], [70, 75], [76, 82], [83, 87], [88, 91], [92, 98], [99, 106], [107, 109], [110, 116], [117, 122], [123, 126], [127, 138], [138, 139]]
+    pos: ["RB", "RB", "PRP", "VBP", "VBN", "WRB", "NNS", "VBP", "RB", "VB", "DT", "NN", "JJ", "IN", "DT", "JJ", "JJ", "NN", "VBZ", "VBN", "IN", "PRP", "IN", "NN", "."]
+    text: 'So many_times I have wondered why veterinarians do not wipe the table clean before each new canine patient is placed on it for examination.'
+    tokens: [[0, 2], [3, 13], [14, 15], [16, 20], [21, 29], [30, 33], [34, 47], [48, 50], [51, 54], [55, 59], [60, 63], [64, 69], [70, 75], [76, 82], [83, 87], [88, 91], [92, 98], [99, 106], [107, 109], [110, 116], [117, 119], [120, 122], [123, 126], [127, 138], [138, 139]]
     wn16_key: [[4, "wonder%2:31:00::"], [9, "wipe%2:35:00::"], [19, "place%2:35:00::"]]
     wn30_key: [[4, "wonder%2:31:00::"], [9, "wipe%2:35:00::"], [19, "place%2:35:00::"]]
 mGK5:

@@ -361,15 +361,14 @@ L29P:
     wn16_key: [[7, "check%2:30:02::"], [16, "adopt%2:40:02::"], [20, "result%2:42:02::"], [37, "reduce%2:30:00::"]]
     wn30_key: [[7, "check%2:30:02::"], [16, "adopt%2:40:02::"], [20, "result%2:42:02::"], [37, "reduce%2:30:00::"]]
 Hpvq:
-    lemmas: ["nearly", "all_of", "the", "farm", "equipment", "manufacturer", "and", "dealer", "say", "the", "upturn", "in", "sales", "have", "result", "chiefly", "from", "the", "recent", "improvement", "in", "crop", "prospect", "."]
-    oewn_key: [[8, "oewn-01011267-v"], [14, "oewn-02640346-v"]]
+    lemmas: ["nearly", "all", "of", "the", "farm", "equipment", "manufacturer", "and", "dealer", "say", "the", "upturn", "in", "sales", "have", "result", "chiefly", "from", "the", "recent", "improvement", "in", "crop", "prospect", "."]
+    oewn_key: [[9, "oewn-01011267-v"], [15, "oewn-02640346-v"]]
     paragraph: '12'
-    pos: ["RB", "JJ", "DT", "NN", "NN", "NNS", "CC", "NNS", "VBP", "DT", "NN", "IN", "NNS", "VBZ", "VBN", "RB", "IN", "DT", "JJ", "NN", "IN", "NN", "NNS", "."]
-    text: 'Nearly all_of the farm equipment manufacturers and dealers say the upturn in sales
-  has resulted chiefly from the recent improvement in crop prospects.'
-    tokens: [[0, 6], [7, 13], [14, 17], [18, 22], [23, 32], [33, 46], [47, 50], [51, 58], [59, 62], [63, 66], [67, 73], [74, 76], [77, 82], [83, 86], [87, 95], [96, 103], [104, 108], [109, 112], [113, 119], [120, 131], [132, 134], [135, 139], [140, 149], [149, 150]]
-    wn16_key: [[8, "say%2:32:00::"], [14, "result%2:42:00::"]]
-    wn30_key: [[8, "say%2:32:00::"], [14, "result%2:42:00::"]]
+    pos: ["RB", "PDT", "IN", "DT", "NN", "NN", "NNS", "CC", "NNS", "VBP", "DT", "NN", "IN", "NNS", "VBZ", "VBN", "RB", "IN", "DT", "JJ", "NN", "IN", "NN", "NNS", "."]
+    text: 'Nearly all of the farm equipment manufacturers and dealers say the upturn in sales has resulted chiefly from the recent improvement in crop prospects.'
+    tokens: [[0, 6], [7, 10], [11, 13], [14, 17], [18, 22], [23, 32], [33, 46], [47, 50], [51, 58], [59, 62], [63, 66], [67, 73], [74, 76], [77, 82], [83, 86], [87, 95], [96, 103], [104, 108], [109, 112], [113, 119], [120, 131], [132, 134], [135, 139], [140, 149], [149, 150]]
+    wn16_key: [[9, "say%2:32:00::"], [15, "result%2:42:00::"]]
+    wn30_key: [[9, "say%2:32:00::"], [15, "result%2:42:00::"]]
 cWli:
     lemmas: ["total", "farm", "output", "for", "this", "year", "be", "officially", "forecast", "at", "129", "%", "of", "the", "1947", "-", "49", "average", ",", "three", "point", "higher", "than", "the", "july_1", "estimate", "and", "exactly", "equal_to", "the", "final", "figure", "for", "1960", "."]
     oewn_key: [[8, "oewn-00928443-v"]]
@@ -510,16 +509,14 @@ ukpv:
     wn16_key: [[2, "pass%2:41:02::"], [7, "adjourn%2:30:00::"], [8, "soften%2:30:02::"], [25, "make%2:36:01::"]]
     wn30_key: [[2, "pass%2:41:02::"], [7, "adjourn%2:30:00::"], [8, "soften%2:30:02::"], [25, "make%2:36:01::"]]
 uk1z:
-    lemmas: ["The", "measure", "allow", "such", "company", "in", "those", "years", "to", "apply", "their", "mineral", "depletion", "allowance", "to", "50", "%", "of", "the", "value", "of", "the", "finished", "product", "rather_than", "the", "low", "value", "of", "raw", "clay", "alone", "."]
+    lemmas: ["The", "measure", "allow", "such", "company", "in", "those", "years", "to", "apply", "their", "mineral", "depletion", "allowance", "to", "50", "%", "of", "the", "value", "of", "the", "finished", "product", "rather", "than", "the", "low", "value", "of", "raw", "clay", "alone", "."]
     oewn_key: [[2, "oewn-00803980-v"], [9, "oewn-01161188-v"]]
     paragraph: '16'
-    pos: ["DT", "NN", "VBZ", "JJ", "NNS", "IN", "DT", "NNS", "TO", "VB", "PRP$", "NN", "NN", "NNS", "TO", "CD", "NN", "IN", "DT", "NN", "IN", "DT", "JJ", "NNS", "RB", "DT", "JJR", "NN", "IN", "JJ", "NN", "RB", "."]
-    text: 'The measure allows such companies in those years to apply their mineral depletion
-  allowances to 50% of the value of the finished products rather_than the lower value
-  of raw clay alone.
+    pos: ["DT", "NN", "VBZ", "JJ", "NNS", "IN", "DT", "NNS", "TO", "VB", "PRP$", "NN", "NN", "NNS", "TO", "CD", "NN", "IN", "DT", "NN", "IN", "DT", "JJ", "NNS", "IN", "IN", "DT", "JJR", "NN", "IN", "JJ", "NN", "RB", "."]
+    text: 'The measure allows such companies in those years to apply their mineral depletion allowances to 50% of the value of the finished products rather than the lower value of raw clay alone.
 
   '
-    tokens: [[0, 3], [4, 11], [12, 18], [19, 23], [24, 33], [34, 36], [37, 42], [43, 48], [49, 51], [52, 57], [58, 63], [64, 71], [72, 81], [82, 92], [93, 95], [96, 98], [98, 99], [100, 102], [103, 106], [107, 112], [113, 115], [116, 119], [120, 128], [129, 137], [138, 149], [150, 153], [154, 159], [160, 165], [166, 168], [169, 172], [173, 177], [178, 183], [183, 184]]
+    tokens: [[0, 3], [4, 11], [12, 18], [19, 23], [24, 33], [34, 36], [37, 42], [43, 48], [49, 51], [52, 57], [58, 63], [64, 71], [72, 81], [82, 92], [93, 95], [96, 98], [98, 99], [100, 102], [103, 106], [107, 112], [113, 115], [116, 119], [120, 128], [129, 137], [138, 144], [145, 149], [150, 153], [154, 159], [160, 165], [166, 168], [169, 172], [173, 177], [178, 183], [183, 184]]
     wn16_key: [[2, "allow%2:32:00::"], [9, "apply%2:34:00::"]]
     wn30_key: [[2, "allow%2:32:00::"], [9, "apply%2:34:00::"]]
 L9n2:
@@ -533,16 +530,16 @@ L9n2:
     wn16_key: [[3, "sign%2:41:00::"], [10, "stress%2:32:00::"], [12, "regard%2:31:00::"]]
     wn30_key: [[3, "sign%2:41:00::"], [10, "stress%2:32:00::"], [12, "regard%2:31:00::"]]
 MVOi:
-    lemmas: ["\"", "My", "approval", "of_this", "bill", "should", "not", "be", "view_as", "establish", "a", "precedent", "for", "the", "enactment", "of", "similar", "legislation", "for", "other", "mineral", "industry", "\"", ",", "the", "president", "say", "."]
-    oewn_key: [[8, "oewn-00695546-v"], [9, "oewn-00667394-v"], [26, "oewn-01011267-v"]]
+    lemmas: ["\"", "My", "approval", "of", "this", "bill", "should", "not", "be", "view_as", "establish", "a", "precedent", "for", "the", "enactment", "of", "similar", "legislation", "for", "other", "mineral", "industry", "\"", ",", "the", "president", "say", "."]
+    oewn_key: [[9, "oewn-00695546-v"], [10, "oewn-00667394-v"], [27, "oewn-01011267-v"]]
     paragraph: '17'
-    pos: ["``", "PRP$", "NN", "RB", "NN", "MD", "RB", "VB", "VB", "VBG", "DT", "NN", "IN", "DT", "NN", "IN", "JJ", "NN", "IN", "JJ", "NN", "NNS", "``", ",", "DT", "NNP", "VBD", "."]
-    text: '"My approval of_this bill should not be viewed_as establishing a precedent for the enactment of similar legislation for other mineral industries", the President said.
+    pos: ["``", "PRP$", "NN", "IN", "DT", "NN", "MD", "RB", "VB", "VB", "VBG", "DT", "NN", "IN", "DT", "NN", "IN", "JJ", "NN", "IN", "JJ", "NN", "NNS", "``", ",", "DT", "NNP", "VBD", "."]
+    text: '"My approval of this bill should not be viewed_as establishing a precedent for the enactment of similar legislation for other mineral industries", the President said.
 
   '
-    tokens: [[0, 1], [1, 3], [4, 12], [13, 20], [21, 25], [26, 32], [33, 36], [37, 39], [40, 49], [50, 62], [63, 64], [65, 74], [75, 78], [79, 82], [83, 92], [93, 95], [96, 103], [104, 115], [116, 119], [120, 125], [126, 133], [134, 144], [144, 145], [145, 146], [147, 150], [151, 160], [161, 165], [165, 166]]
-    wn16_key: [[8, "view_as%2:31:00::"], [9, "establish%2:31:02::"], [26, "say%2:32:00::"]]
-    wn30_key: [[8, "view_as%2:31:00::"], [9, "establish%2:31:02::"], [26, "say%2:32:00::"]]
+    tokens: [[0, 1], [1, 3], [4, 12], [13, 15], [16, 20], [21, 25], [26, 32], [33, 36], [37, 39], [40, 49], [50, 62], [63, 64], [65, 74], [75, 78], [79, 82], [83, 92], [93, 95], [96, 103], [104, 115], [116, 119], [120, 125], [126, 133], [134, 144], [144, 145], [145, 146], [147, 150], [151, 160], [161, 165], [165, 166]]
+    wn16_key: [[9, "view_as%2:31:00::"], [10, "establish%2:31:02::"], [27, "say%2:32:00::"]]
+    wn30_key: [[9, "view_as%2:31:00::"], [10, "establish%2:31:02::"], [27, "say%2:32:00::"]]
 Jr6a:
     lemmas: ["charitable", "deduction", "come_in_for", "close", "scrutiny", "by", "the", "I._R._S.", "."]
     oewn_key: [[2, "oewn-02735135-v"]]
@@ -566,16 +563,14 @@ ce5J:
     wn16_key: [[2, "announce%2:32:00::"], [5, "make%2:36:00::"], [10, "call_on%2:32:00::"], [12, "furnish%2:40:00::"], [19, "show%2:39:00::"]]
     wn30_key: [[2, "announce%2:32:00::"], [5, "make%2:36:00::"], [10, "call_on%2:32:00::"], [12, "furnish%2:40:00::"], [19, "show%2:39:00::"]]
 fSzU:
-    lemmas: ["request", "for", "substantiation", ",", "the", "service", "indicate", ",", "can", "be", "especially", "expect", "in", "case", "where", "it", "suspect", "the", "donor", "receive", "some", "material", "benefit", "in_return", ",", "such_as", "ticket", "to", "a", "show", "."]
+    lemmas: ["request", "for", "substantiation", ",", "the", "service", "indicate", ",", "can", "be", "especially", "expect", "in", "case", "where", "it", "suspect", "the", "donor", "receive", "some", "material", "benefit", "in_return", ",", "such", "as", "ticket", "to", "a", "show", "."]
     oewn_key: [[6, "oewn-00929986-v"], [11, "oewn-00721658-v"], [16, "oewn-00923043-v"], [19, "oewn-02214901-v"]]
     paragraph: '19'
-    pos: ["NNS", "IN", "NN", ",", "DT", "NNP", "VBD", ",", "MD", "VB", "RB", "VBN", "IN", "NNS", "WRB", "PRP", "VBZ", "DT", "NN", "VBD", "DT", "NN", "NN", "RB", ",", "JJ", "NNS", "TO", "DT", "NN", "."]
-    text: 'Requests for substantiation, the Service indicated, can be especially expected in
-  cases where it suspects the donor received some material benefit in_return, such_as
-  tickets to a show.
+    pos: ["NNS", "IN", "NN", ",", "DT", "NNP", "VBD", ",", "MD", "VB", "RB", "VBN", "IN", "NNS", "WRB", "PRP", "VBZ", "DT", "NN", "VBD", "DT", "NN", "NN", "RB", ",", "JJ", "IN", "NNS", "TO", "DT", "NN", "."]
+    text: 'Requests for substantiation, the Service indicated, can be especially expected in cases where it suspects the donor received some material benefit in_return, such as tickets to a show.
 
   '
-    tokens: [[0, 8], [9, 12], [13, 27], [27, 28], [29, 32], [33, 40], [41, 50], [50, 51], [52, 55], [56, 58], [59, 69], [70, 78], [79, 81], [82, 87], [88, 93], [94, 96], [97, 105], [106, 109], [110, 115], [116, 124], [125, 129], [130, 138], [139, 146], [147, 156], [156, 157], [158, 165], [166, 173], [174, 176], [177, 178], [179, 183], [183, 184]]
+    tokens: [[0, 8], [9, 12], [13, 27], [27, 28], [29, 32], [33, 40], [41, 50], [50, 51], [52, 55], [56, 58], [59, 69], [70, 78], [79, 81], [82, 87], [88, 93], [94, 96], [97, 105], [106, 109], [110, 115], [116, 124], [125, 129], [130, 138], [139, 146], [147, 156], [156, 157], [158, 162], [163, 165], [166, 173], [174, 176], [177, 178], [179, 183], [183, 184]]
     wn16_key: [[6, "indicate%2:32:00::"], [11, "expect%2:31:00::"], [16, "suspect%2:32:00::"], [19, "receive%2:40:00::"]]
     wn30_key: [[6, "indicate%2:32:00::"], [11, "expect%2:31:00::"], [16, "suspect%2:32:00::"], [19, "receive%2:40:00::"]]
 FW/s:
@@ -653,17 +648,16 @@ UwUk:
     wn16_key: [[2, "reject%2:31:00::"]]
     wn30_key: [[2, "reject%2:31:00::"]]
 j7fc:
-    lemmas: ["It", "say", "the", "tax-freedom", "of", "the", "gain", "in_this", "case", "stem", "not", "from", "the", "exempt", "status", "of", "the", "income", "but", "from", "a", "special", "rule", "on", "corporate", "liquidation", "."]
-    oewn_key: [[1, "oewn-01011267-v"], [9, "oewn-02633834-v"]]
+    lemmas: ["It", "say", "the", "tax-freedom", "of", "the", "gain", "in", "this", "case", "stem", "not", "from", "the", "exempt", "status", "of", "the", "income", "but", "from", "a", "special", "rule", "on", "corporate", "liquidation", "."]
+    oewn_key: [[1, "oewn-01011267-v"], [10, "oewn-02633834-v"]]
     paragraph: '23'
-    pos: ["PRP", "VBD", "DT", "NN", "IN", "DT", "NN", "RB", "NN", "VBD", "RB", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "CC", "IN", "DT", "JJ", "NN", "IN", "JJ", "NNS", "."]
-    text: 'It said the tax-freedom of the gain in_this case stemmed not from the exempt status
-  of the income but from a special rule on corporate liquidations.
+    pos: ["PRP", "VBD", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "VBD", "RB", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "CC", "IN", "DT", "JJ", "NN", "IN", "JJ", "NNS", "."]
+    text: 'It said the tax-freedom of the gain in this case stemmed not from the exempt status of the income but from a special rule on corporate liquidations.
 
   '
-    tokens: [[0, 2], [3, 7], [8, 11], [12, 23], [24, 26], [27, 30], [31, 35], [36, 43], [44, 48], [49, 56], [57, 60], [61, 65], [66, 69], [70, 76], [77, 83], [84, 86], [87, 90], [91, 97], [98, 101], [102, 106], [107, 108], [109, 116], [117, 121], [122, 124], [125, 134], [135, 147], [147, 148]]
-    wn16_key: [[1, "say%2:32:00::"], [9, "stem%2:42:00::"]]
-    wn30_key: [[1, "say%2:32:00::"], [9, "stem%2:42:00::"]]
+    tokens: [[0, 2], [3, 7], [8, 11], [12, 23], [24, 26], [27, 30], [31, 35], [36, 38], [39, 43], [44, 48], [49, 56], [57, 60], [61, 65], [66, 69], [70, 76], [77, 83], [84, 86], [87, 90], [91, 97], [98, 101], [102, 106], [107, 108], [109, 116], [117, 121], [122, 124], [125, 134], [135, 147], [147, 148]]
+    wn16_key: [[1, "say%2:32:00::"], [10, "stem%2:42:00::"]]
+    wn30_key: [[1, "say%2:32:00::"], [10, "stem%2:42:00::"]]
 OW1c:
     lemmas: ["The", "tax_court", "decision", "and", "a", "similar", "earlier", "finding", "by", "the", "ninth_circuit", "court_of_appeals", "challenge", "a", "year-old", "I._R._S.", "ruling", "on", "the", "subject", "."]
     oewn_key: [[12, "oewn-00870790-v"]]
@@ -814,17 +808,16 @@ Ce7y:
     wn16_key: [[8, "warn%2:32:00::"], [10, "be%2:42:03::"], [14, "pay%2:40:00::"], [20, "be%2:42:03::"], [24, "set_aside%2:31:00::"]]
     wn30_key: [[8, "warn%2:32:00::"], [10, "be%2:42:03::"], [14, "pay%2:40:00::"], [20, "be%2:42:03::"], [24, "set_aside%2:31:00::"]]
 X7dI:
-    lemmas: ["in_that", "event", ",", "they", "note", ",", "the", "revenue", "service", "might", "declare", "the", "pension", "plan", "be", "discriminatory", "and", "deny", "it", "tax", "privilege", "under", "the", "law", "."]
-    oewn_key: [[4, "oewn-01022014-v"], [10, "oewn-00824028-v"], [14, "oewn-02610777-v"], [17, "oewn-02217607-v"]]
+    lemmas: ["in", "that", "event", ",", "they", "note", ",", "the", "revenue", "service", "might", "declare", "the", "pension", "plan", "be", "discriminatory", "and", "deny", "it", "tax", "privilege", "under", "the", "law", "."]
+    oewn_key: [[5, "oewn-01022014-v"], [11, "oewn-00824028-v"], [15, "oewn-02610777-v"], [18, "oewn-02217607-v"]]
     paragraph: '30'
-    pos: ["RB", "NN", ",", "PRP", "VBP", ",", "DT", "NN", "NNP", "MD", "VB", "DT", "NN", "NN", "VBZ", "JJ", "CC", "VB", "PRP", "NN", "NNS", "IN", "DT", "NN", "."]
-    text: 'In_that event, they note, the Revenue Service might declare the pension plan is
-  discriminatory and deny it tax privileges under the law.
+    pos: ["IN", "DT", "NN", ",", "PRP", "VBP", ",", "DT", "NN", "NNP", "MD", "VB", "DT", "NN", "NN", "VBZ", "JJ", "CC", "VB", "PRP", "NN", "NNS", "IN", "DT", "NN", "."]
+    text: 'In that event, they note, the Revenue Service might declare the pension plan is discriminatory and deny it tax privileges under the law.
 
   '
-    tokens: [[0, 7], [8, 13], [13, 14], [15, 19], [20, 24], [24, 25], [26, 29], [30, 37], [38, 45], [46, 51], [52, 59], [60, 63], [64, 71], [72, 76], [77, 79], [80, 94], [95, 98], [99, 103], [104, 106], [107, 110], [111, 121], [122, 127], [128, 131], [132, 135], [135, 136]]
-    wn16_key: [[4, "note%2:32:00::"], [10, "declare%2:32:04::"], [14, "be%2:42:03::"], [17, "deny%2:40:00::"]]
-    wn30_key: [[4, "note%2:32:00::"], [10, "declare%2:32:04::"], [14, "be%2:42:03::"], [17, "deny%2:40:00::"]]
+    tokens: [[0, 2], [3, 7], [8, 13], [13, 14], [15, 19], [20, 24], [24, 25], [26, 29], [30, 37], [38, 45], [46, 51], [52, 59], [60, 63], [64, 71], [72, 76], [77, 79], [80, 94], [95, 98], [99, 103], [104, 106], [107, 110], [111, 121], [122, 127], [128, 131], [132, 135], [135, 136]]
+    wn16_key: [[5, "note%2:32:00::"], [11, "declare%2:32:04::"], [15, "be%2:42:03::"], [18, "deny%2:40:00::"]]
+    wn30_key: [[5, "note%2:32:00::"], [11, "declare%2:32:04::"], [15, "be%2:42:03::"], [18, "deny%2:40:00::"]]
 4iRP:
     lemmas: ["possible", "upshot", ":", "The", "company", "could", "be", "deny", "a", "deduction", "for", "its", "pension", "payment", ",", "or", "those", "payment", "for", "the", "wife", "and", "other", "employe", "could", "be", "rule", "taxable", "to", "them", "in", "the", "year", "make", "."]
     oewn_key: [[7, "oewn-02217607-v"], [26, "oewn-00974031-v"], [33, "oewn-02566500-v"]]

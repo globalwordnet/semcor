@@ -726,14 +726,14 @@ Y4rH:
     wn16_key: [[1, "catch%2:35:07::"], [7, "nod%2:32:01::"], [16, "swing%2:38:02::"]]
     wn30_key: [[1, "catch%2:35:07::"], [7, "nod%2:32:01::"], [16, "swing%2:38:02::"]]
 Masb:
-    lemmas: ["simmon", "and", "crosby", "jump", "the", "boy", "and", "it", "be", "all_over", "\"", "."]
+    lemmas: ["simmon", "and", "crosby", "jump", "the", "boy", "and", "it", "be", "all", "over", "\"", "."]
     oewn_key: [[3, "oewn-01123596-v"], [8, "oewn-02610777-v"]]
     paragraph: '20'
-    pos: ["NNP", "CC", "NNP", "VBD", "DT", "NN", "CC", "PRP", "VBD", "RB", "''", "."]
-    text: 'Simmons and Crosby jumped the boy and it was all_over ".
+    pos: ["NNP", "CC", "NNP", "VBD", "DT", "NN", "CC", "PRP", "VBD", "PDT", "RP", "''", "."]
+    text: 'Simmons and Crosby jumped the boy and it was all over ".
 
   '
-    tokens: [[0, 7], [8, 11], [12, 18], [19, 25], [26, 29], [30, 33], [34, 37], [38, 40], [41, 44], [45, 53], [54, 55], [55, 56]]
+    tokens: [[0, 7], [8, 11], [12, 18], [19, 25], [26, 29], [30, 33], [34, 37], [38, 40], [41, 44], [45, 48], [49, 53], [54, 55], [55, 56]]
     wn16_key: [[3, "jump%2:33:00::"], [8, "be%2:42:03::"]]
     wn30_key: [[3, "jump%2:33:00::"], [8, "be%2:42:03::"]]
 BHG4:
@@ -818,16 +818,14 @@ PCV2:
     wn16_key: [[8, "label%2:32:00::"], [12, "be%2:42:06::"], [15, "intend%2:31:01::"], [17, "insure%2:31:00::"], [23, "build_up%2:30:02::"], [32, "spend%2:40:00::"]]
     wn30_key: [[8, "label%2:32:00::"], [12, "be%2:42:06::"], [15, "intend%2:31:01::"], [17, "insure%2:31:00::"], [23, "build_up%2:30:02::"], [32, "spend%2:40:00::"]]
 4SJC:
-    lemmas: ["in_all", ",", "the", "senate", "sign", "a", "check", "for", "$", "46.7", "billion", ",", "which", "not_only", "include", "the", "extra", "$", "3.5", "billion", "request", "the", "week", "before", "by", "president_kennedy", ",", "but", "tack_on", "$", "754", "million", "more_than", "the", "president", "have", "ask", "for", "."]
-    oewn_key: [[4, "oewn-00998530-v"], [14, "oewn-02639021-v"], [20, "oewn-00754770-v"], [28, "oewn-01331195-v"], [36, "oewn-00754499-v"]]
+    lemmas: ["in", "all", ",", "the", "senate", "sign", "a", "check", "for", "$", "46.7", "billion", ",", "which", "not", "only", "include", "the", "extra", "$", "3.5", "billion", "request", "the", "week", "before", "by", "president_kennedy", ",", "but", "tack_on", "$", "754", "million", "more_than", "the", "president", "have", "ask", "for", "."]
+    oewn_key: [[5, "oewn-00998530-v"], [16, "oewn-02639021-v"], [22, "oewn-00754770-v"], [30, "oewn-01331195-v"], [38, "oewn-00754499-v"]]
     paragraph: '24'
-    pos: ["RB", ",", "DT", "NNP", "VBD", "DT", "NN", "VB", "$", "CD", "CD", ",", "WDT", "RB", "VBD", "DT", "JJ", "$", "CD", "CD", "VBD", "DT", "NN", "IN", "IN", "NNP", ",", "CC", "VB", "$", "CD", "CD", "RB", "DT", "NNP", "VBD", "VBN", "VB", "."]
-    text: 'In_all, the Senate signed a check for $46.7 billion, which not_only included the
-  extra $3.5 billion requested the week before by President_Kennedy, but tacked_on
-  $754 million more_than the President had asked for.'
-    tokens: [[0, 6], [6, 7], [8, 11], [12, 18], [19, 25], [26, 27], [28, 33], [34, 37], [38, 39], [39, 43], [44, 51], [51, 52], [53, 58], [59, 67], [68, 76], [77, 80], [81, 86], [87, 88], [88, 91], [92, 99], [100, 109], [110, 113], [114, 118], [119, 125], [126, 128], [129, 146], [146, 147], [148, 151], [152, 161], [162, 163], [163, 166], [167, 174], [175, 184], [185, 188], [189, 198], [199, 202], [203, 208], [209, 212], [212, 213]]
-    wn16_key: [[4, "sign%2:32:02::"], [14, "include%2:42:00::"], [20, "request%2:32:01::"], [28, "tack_on%2:35:00::"], [36, "ask%2:32:01::"]]
-    wn30_key: [[4, "sign%2:32:02::"], [14, "include%2:42:00::"], [20, "request%2:32:01::"], [28, "tack_on%2:35:00::"], [36, "ask%2:32:01::"]]
+    pos: ["IN", "PDT", ",", "DT", "NNP", "VBD", "DT", "NN", "VB", "$", "CD", "CD", ",", "WDT", "RB", "RB", "VBD", "DT", "JJ", "$", "CD", "CD", "VBD", "DT", "NN", "IN", "IN", "NNP", ",", "CC", "VB", "$", "CD", "CD", "RB", "DT", "NNP", "VBD", "VBN", "VB", "."]
+    text: 'In all, the Senate signed a check for $46.7 billion, which not only included the extra $3.5 billion requested the week before by President_Kennedy, but tacked_on $754 million more_than the President had asked for.'
+    tokens: [[0, 2], [3, 6], [6, 7], [8, 11], [12, 18], [19, 25], [26, 27], [28, 33], [34, 37], [38, 39], [39, 43], [44, 51], [51, 52], [53, 58], [59, 62], [63, 67], [68, 76], [77, 80], [81, 86], [87, 88], [88, 91], [92, 99], [100, 109], [110, 113], [114, 118], [119, 125], [126, 128], [129, 146], [146, 147], [148, 151], [152, 161], [162, 163], [163, 166], [167, 174], [175, 184], [185, 188], [189, 198], [199, 202], [203, 208], [209, 212], [212, 213]]
+    wn16_key: [[5, "sign%2:32:02::"], [16, "include%2:42:00::"], [22, "request%2:32:01::"], [30, "tack_on%2:35:00::"], [38, "ask%2:32:01::"]]
+    wn30_key: [[5, "sign%2:32:02::"], [16, "include%2:42:00::"], [22, "request%2:32:01::"], [30, "tack_on%2:35:00::"], [38, "ask%2:32:01::"]]
 kMMB:
     lemmas: ["(", "The", "senate", ",", "on", "its", "own", ",", "decide", "to", "provide", "additional", "b-52", "and", "other", "long-range", "bomber", "for", "the", "Strategic_Air_Command", ".", ")"]
     oewn_key: [[8, "oewn-00699355-v"], [10, "oewn-02332196-v"]]
