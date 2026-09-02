@@ -74,6 +74,25 @@ def _collapse_boundary_duplicates(words: list[str]) -> list[str]:
     return result
 
 
+_OPEN_QUOTE = "``"
+_CLOSE_QUOTE = "''"
+
+
+def _normalize_quotes(words: list[str]) -> list[str]:
+    """Collapse NLTK's tokenized `` ` ` ``/`''` quote convention to a plain
+    `"`, matching this corpus's own rendering.
+
+    That convention belongs to NLTK's own tokenization of Brown, not the
+    original Brown Corpus source text -- a more faithful plaintext
+    rendering of Brown (e.g. the bley-vroman/brown_nolines.txt
+    reformatting) already uses a plain `"` for both open and close, same
+    as this corpus. Without this, quote marks dominate every report (see
+    #14): ~11,780 of the ~21,000 divergences found before this
+    normalization were nothing but this convention mismatch.
+    """
+    return ['"' if w in (_OPEN_QUOTE, _CLOSE_QUOTE) else w for w in words]
+
+
 def load_semcor_doc(path: Path) -> tuple[str, list[tuple[str, int, int]]]:
     """Return a file's merged `text` plus (sentence_id, start, end) spans
     into it, in file order -- mirroring how merge.py concatenates
@@ -339,7 +358,7 @@ def main() -> int:
         if fileid is None or fileid not in brown.fileids():
             skipped.append(path)
             continue
-        words = _collapse_boundary_duplicates(list(brown.words(fileids=[fileid])))
+        words = _normalize_quotes(_collapse_boundary_duplicates(list(brown.words(fileids=[fileid]))))
         results[path] = diff_file(path, words)
 
     report = build_report(results, args.max_examples_per_file)
