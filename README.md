@@ -111,6 +111,15 @@ sOM7:
   gives the corresponding [Open English Wordnet](https://github.com/globalwordnet/english-wordnet/)
   synset ID, and is the layer that gets updated as new OEWN versions are
   released.
+- `text` renders both opening and closing quotation marks as a single
+  straight double-quote character (`"`). This is intentional, not a
+  lossy normalization: `nltk.corpus.brown` (used as the ground truth
+  for `semcor-verify-brown`, #12) represents quotes with its own
+  tokenization convention (`` `` `` opening, `''` closing), but that's
+  an artifact of NLTK's own tokenized rendering, not the original
+  Brown Corpus source text -- a more faithful plaintext rendering of
+  Brown (e.g. the widely-used `brown_nolines.txt` reformatting) already
+  uses a plain `"` for both, matching this corpus. See #14.
 
 ## Wordnet alignment
 
