@@ -224,6 +224,50 @@ uv run semcor-merge                       # merge data/ into ./semcor.yaml
 uv run semcor-merge data/humor -o humor-merged.yaml
 ```
 
+### `semcor-verify-brown`
+
+Diffs each `data/<genre>/br-*.yaml`'s merged `text` against the matching
+file in [NLTK](https://www.nltk.org/)'s Brown Corpus (`nltk.corpus.brown`,
+downloaded on first run), ignoring whitespace and underscores on both
+sides -- underscore-joined multiword collocations (`take_place`) and
+Brown's own tokenization spacing aren't divergences worth reporting; a
+character actually being added, removed, or changed is (see #5, #12).
+Produces a Markdown report and exits non-zero if anything diverges.
+
+```sh
+uv run semcor-verify-brown                        # check data/, report to stdout
+uv run semcor-verify-brown -o report.md           # write the report to a file
+uv run semcor-verify-brown data/humor             # check one directory/file
+```
+
+CI runs this on every push and pull request (see
+`.github/workflows/verify-brown.yml`) and uploads the report as a build
+artifact. It's currently red -- see #5 for the tracking issue and its
+sub-issues for what's been found so far.
+
+### `semcor-check-tokens`
+
+A regression tripwire for `tokens` spans silently drifting out of
+alignment with `text`: every fix that edits characters in `text` has to
+shift every `tokens` span at or after the edit to match, and
+`semcor-validate`'s bounds check can't tell a correctly-shifted span from
+one that now points at the wrong word. This checks a fixed sample of
+tokens (`token-position-samples.yaml`, ~12 per file, picked by sentence
+and index rather than absolute offset) against the current `data/*.yaml`.
+
+```sh
+uv run semcor-check-tokens              # verify against token-position-samples.yaml
+uv run semcor-check-tokens --generate   # regenerate the fixture from current data/
+```
+
+Only re-run `--generate` when a change deliberately affects one of the
+sampled tokens (e.g. splitting an over-merged token per #10) -- review
+the diff to confirm it's the change you intended, the same as reviewing
+any snapshot-test update. CI runs the verify mode as its own job (see
+`.github/workflows/validate.yml`), independent of `semcor-validate`'s
+job so a `oewn_key` drifting out of sync with upstream Open English
+Wordnet can't hide a real tokens/text regression behind it.
+
 ## License
 
 See [LICENSE.md](LICENSE.md). This resource is derived from the Princeton

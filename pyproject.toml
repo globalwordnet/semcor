@@ -9,6 +9,7 @@ authors = [
 requires-python = ">=3.14"
 dependencies = [
     "cerberus>=1.3.8",
+    "nltk>=3.9.1",
     "teanga>=0.1.0",
 ]
 
@@ -19,6 +20,8 @@ semcor-ufsac = "semcor.ufsac:main"
 semcor-apply-deprecations = "semcor.apply_deprecations:main"
 semcor-fix-leading-space = "semcor.fix_leading_space:main"
 semcor-merge = "semcor.merge:main"
+semcor-verify-brown = "semcor.verify_brown:main"
+semcor-check-tokens = "semcor.check_token_positions:main"
 
 [build-system]
 requires = ["uv_build>=0.11.25,<0.12.0"]

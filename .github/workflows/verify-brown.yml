@@ -1,0 +1,38 @@
+name: Verify against Brown Corpus
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verify-brown:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --locked
+
+      - name: Cache NLTK Brown Corpus
+        uses: actions/cache@v4
+        with:
+          path: ~/nltk_data
+          key: nltk-brown-corpus
+
+      # Expected to fail until #8, #9, #10, #11 (and whatever else it turns
+      # up) are fixed -- see #5, which stays open until this is green.
+      - name: Verify data/*.yaml against NLTK's Brown Corpus
+        run: uv run semcor-verify-brown -o brown-verification-report.md
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: brown-verification-report
+          path: brown-verification-report.md
