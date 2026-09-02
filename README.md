@@ -313,6 +313,39 @@ uv run semcor-fix-leftover-ampersand --dry-run    # preview without writing
 
 Idempotent, like the other `fix-*` scripts.
 
+### `semcor-fix-case-mismatches`
+
+Aligns capitalization with Brown wherever they differ by exactly one
+character's case, in either direction (fixes #28, which generalizes
+#13's narrower quote-triggered version). `semcor-verify-brown`'s
+whole-document alignment against `nltk.corpus.brown`, filtered to
+single-character case-only divergences, found 976 more instances
+beyond #13's 152: 861 places this corpus has lost a capital Brown has
+(`Despite` -> `despite`, `Larimer St.` -> `Larimer_st.`, plus
+embedded-title Title Case and foreign-name particles this corpus had
+*correctly* normalized away from Brown's inconsistent title-casing,
+e.g. `De Falla` -> `de Falla`), and 115 in the reverse direction --
+this corpus adding capitalization Brown's plaintext doesn't have at
+all (`the revolt of the moderates` -> `The Revolt Of The Moderates`).
+There's no clean rule separating "genuine bug" from "deliberate
+improvement over Brown" in that mix, so this fixes both directions
+unconditionally, with no exceptions carved out for any of the above
+categories -- see the module docstring and #28 for the full reasoning.
+
+Every fix is a single-character, same-length swap: no token/offset
+restructuring, unlike #9/#10. Only `text` (and, where the same
+position's `lemmas` entry already mirrors the surface case, `lemmas`)
+changes. `case-mismatch-fixes.yaml` lists all 976 confirmed fixes;
+this script only applies that manifest, with no runtime NLTK
+dependency.
+
+```sh
+uv run semcor-fix-case-mismatches              # apply case-mismatch-fixes.yaml to data/
+uv run semcor-fix-case-mismatches --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.
