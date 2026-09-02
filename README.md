@@ -355,6 +355,38 @@ uv run semcor-fix-case-mismatches --dry-run    # preview without writing
 
 Idempotent, like the other `fix-*` scripts.
 
+### `semcor-fix-thousands-separator-commas`
+
+Restores thousands-separator commas stripped from numbers (fixes #15),
+e.g. `126000` -> `126,000`. `semcor-verify-brown`'s alignment against
+`nltk.corpus.brown` found 411 confirmed single-token fixes across 324
+sentences in 114 files. Most are a plain missing comma, but two
+tokenization wrinkles meant the fix can't just copy Brown's aligned
+word verbatim: 168 cases where Brown merges a `$` prefix into the
+number as one word (`$1,200`) while this corpus keeps `$` as its own
+token, and 11 cases where Brown tokenizes a whole hyphenated compound
+(`75,000-ton`) as one word that this corpus already splits into
+several tokens. Both are handled by pulling out just the matching
+digit run from Brown's word rather than using it whole -- see the
+module docstring.
+
+A further ~52 missing commas are ordinary sentence commas (list items,
+appositives) with no shared cause, and are deliberately out of scope
+here -- see the issue this fixes for the follow-up.
+
+Every fix grows one token in place, expanding only that token's own
+span (never a neighbouring gap, since any surrounding whitespace here
+is legitimate, unlike #9's em-dash padding). `thousands-separator-fixes.yaml`
+lists all 411 confirmed fixes; this script only applies that manifest,
+with no runtime NLTK dependency.
+
+```sh
+uv run semcor-fix-thousands-separator-commas              # apply thousands-separator-fixes.yaml to data/
+uv run semcor-fix-thousands-separator-commas --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.
