@@ -753,14 +753,14 @@ BQcm:
     wn16_key: [[1, "world%1:14:00::"], [3, "best%3:00:00::"], [4, "golfer%1:18:00::"], [6, "shoot%2:35:01::"], [8, "par%1:23:00::"], [10, "come%2:38:04::"], [13, "last%5:00:00:closing:00"], [14, "hole%1:06:01::"], [17, "opening%3:00:00::"], [18, "round%1:04:03::"], [24, "intention%1:09:00::"], [26, "deliver%2:35:00::"], [28, "final%5:00:00:closing:00"], [29, "crusher%1:06:00::"]]
     wn30_key: [[1, "world%1:05:00::"], [3, "best%3:00:00::"], [4, "golfer%1:18:00::"], [6, "shoot%2:35:01::"], [8, "par%1:23:00::"], [10, "come%2:38:04::"], [13, "last%3:00:00:closing:00"], [14, "hole%1:06:01::"], [17, "opening%3:00:00::"], [18, "round%1:04:03::"], [24, "intention%1:09:00::"], [26, "deliver%2:35:00::"], [28, "final%3:00:00:closing:00"], [29, "crusher%1:06:00::"]]
 QMYs:
-    lemmas: ["He", "boom", "a", "280", "-", "yard", "drive", "."]
-    oewn_key: [[1, "oewn-01404426-v"], [5, "oewn-13672065-n"], [6, "oewn-00573526-n"]]
+    lemmas: ["He", "boom", "a", "280-yard", "drive", "."]
+    oewn_key: [[1, "oewn-01404426-v"], [3, "oewn-13672065-n"], [4, "oewn-00573526-n"]]
     paragraph: '33'
-    pos: ["PRP", "VBD", "DT", "CD", ":", "NN", "NN", "."]
-    text: 'He boomed a 280 - yard drive.'
-    tokens: [[0, 2], [3, 9], [10, 11], [12, 15], [16, 17], [18, 22], [23, 28], [28, 29]]
-    wn16_key: [[1, "boom%2:35:00::"], [5, "yard%1:23:00::"], [6, "drive%1:04:03::"]]
-    wn30_key: [[1, "boom%2:35:00::"], [5, "yard%1:23:00::"], [6, "drive%1:04:03::"]]
+    pos: ["PRP", "VBD", "DT", "NN", "NN", "."]
+    text: 'He boomed a 280-yard drive.'
+    tokens: [[0, 2], [3, 9], [10, 11], [12, 20], [21, 26], [26, 27]]
+    wn16_key: [[1, "boom%2:35:00::"], [3, "yard%1:23:00::"], [4, "drive%1:04:03::"]]
+    wn30_key: [[1, "boom%2:35:00::"], [3, "yard%1:23:00::"], [4, "drive%1:04:03::"]]
 Hwf9:
     lemmas: ["then", "the", "pixie", "and", "the", "zombie", "take_over", "while", "the", "banshee", "wail", "in", "the", "distance", "."]
     oewn_key: [[0, "oewn-00118527-r"], [2, "oewn-09563850-n"], [5, "oewn-10825242-n"], [6, "oewn-02279327-v"], [9, "oewn-09567391-n"], [10, "oewn-01048804-v"], [13, "oewn-05091408-n"]]
@@ -773,14 +773,14 @@ Hwf9:
     wn16_key: [[0, "then%4:02:00::"], [2, "pixie%1:18:00::"], [5, "zombie%1:18:00::"], [6, "take_over%2:40:07::"], [9, "banshee%1:18:00::"], [10, "wail%2:32:00::"], [13, "distance%1:07:00::"]]
     wn30_key: [[0, "then%4:02:00::"], [2, "pixie%1:18:00::"], [5, "zombie%1:18:00::"], [6, "take_over%2:40:07::"], [9, "banshee%1:18:00::"], [10, "wail%2:32:00::"], [13, "distance%1:07:00::"]]
 XTZm:
-    lemmas: ["On", "the", "narrow", "fairway", "of", "a", "508", "-", "yard", "hole", ",", "person", "whip", "into", "his", "second", "shot", "."]
-    oewn_key: [[2, "oewn-02572618-a"], [3, "oewn-08586848-n"], [8, "oewn-13672065-n"], [9, "oewn-03531985-n"], [11, "oewn-00007846-n"], [12, "oewn-01413739-v"], [15, "oewn-02209815-s"], [16, "oewn-00566339-n"]]
+    lemmas: ["On", "the", "narrow", "fairway", "of", "a", "508-yard", "hole", ",", "person", "whip", "into", "his", "second", "shot", "."]
+    oewn_key: [[2, "oewn-02572618-a"], [3, "oewn-08586848-n"], [6, "oewn-13672065-n"], [7, "oewn-03531985-n"], [9, "oewn-00007846-n"], [10, "oewn-01413739-v"], [13, "oewn-02209815-s"], [14, "oewn-00566339-n"]]
     paragraph: '34'
-    pos: ["IN", "DT", "JJ", "NN", "IN", "DT", "CD", ":", "NN", "NN", ",", "NNP", "VBD", "IN", "PRP$", "JJ", "NN", "."]
-    text: 'On the narrow fairway of a 508 - yard hole, Arnold whipped into his second shot.'
-    tokens: [[0, 2], [3, 6], [7, 13], [14, 21], [22, 24], [25, 26], [27, 30], [31, 32], [33, 37], [38, 42], [42, 43], [44, 50], [51, 58], [59, 63], [64, 67], [68, 74], [75, 79], [79, 80]]
-    wn16_key: [[2, "narrow%3:00:00::"], [3, "fairway%1:15:00::"], [8, "yard%1:23:00::"], [9, "hole%1:06:01::"], [11, "person%1:03:00::"], [12, "whip%2:35:00::"], [15, "second%5:00:00:ordinal:00"], [16, "shot%1:04:06::"]]
-    wn30_key: [[2, "narrow%3:00:00::"], [3, "fairway%1:15:00::"], [8, "yard%1:23:00::"], [9, "hole%1:06:01::"], [11, "person%1:03:00::"], [12, "whip%2:35:00::"], [15, "second%3:00:00:ordinal:00"], [16, "shot%1:04:06::"]]
+    pos: ["IN", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", ",", "NNP", "VBD", "IN", "PRP$", "JJ", "NN", "."]
+    text: 'On the narrow fairway of a 508-yard hole, Arnold whipped into his second shot.'
+    tokens: [[0, 2], [3, 6], [7, 13], [14, 21], [22, 24], [25, 26], [27, 35], [36, 40], [40, 41], [42, 48], [49, 56], [57, 61], [62, 65], [66, 72], [73, 77], [77, 78]]
+    wn16_key: [[2, "narrow%3:00:00::"], [3, "fairway%1:15:00::"], [6, "yard%1:23:00::"], [7, "hole%1:06:01::"], [9, "person%1:03:00::"], [10, "whip%2:35:00::"], [13, "second%5:00:00:ordinal:00"], [14, "shot%1:04:06::"]]
+    wn30_key: [[2, "narrow%3:00:00::"], [3, "fairway%1:15:00::"], [6, "yard%1:23:00::"], [7, "hole%1:06:01::"], [9, "person%1:03:00::"], [10, "whip%2:35:00::"], [13, "second%3:00:00:ordinal:00"], [14, "shot%1:04:06::"]]
 m8iZ:
     lemmas: ["The", "ball", "go", "off", "in", "a", "majestic", "arc", ",", "an", "out-of-bounds", "slice", "."]
     oewn_key: [[1, "oewn-02781674-n"], [2, "oewn-01839438-v"], [6, "oewn-01288228-s"], [7, "oewn-13897023-n"], [10, "oewn-00959239-s"], [11, "oewn-00573080-n"]]
@@ -1077,14 +1077,14 @@ cz2q:
     wn16_key: [[4, "first%4:02:02::"], [5, "win%2:33:00::"]]
     wn30_key: [[4, "first%4:02:02::"], [5, "win%2:33:00::"]]
 Wrau:
-    lemmas: ["It", "happen", "on", "the", "twelfth", "hole", ",", "a", "155", "-", "yarder", "."]
-    oewn_key: [[1, "oewn-00340744-v"], [4, "oewn-02211298-s"], [5, "oewn-03531985-n"], [10, "oewn-13672353-n"]]
+    lemmas: ["It", "happen", "on", "the", "twelfth", "hole", ",", "a", "155-yarder", "."]
+    oewn_key: [[1, "oewn-00340744-v"], [4, "oewn-02211298-s"], [5, "oewn-03531985-n"], [8, "oewn-13672353-n"]]
     paragraph: '46'
-    pos: ["PRP", "VBD", "IN", "DT", "JJ", "NN", ",", "DT", "CD", ":", "NN", "."]
-    text: 'It happened on the twelfth hole, a 155 - yarder.'
-    tokens: [[0, 2], [3, 11], [12, 14], [15, 18], [19, 26], [27, 31], [31, 32], [33, 34], [35, 38], [39, 40], [41, 47], [47, 48]]
-    wn16_key: [[1, "happen%2:30:00::"], [4, "twelfth%5:00:00:ordinal:00"], [5, "hole%1:06:01::"], [10, "yarder%1:07:00::"]]
-    wn30_key: [[1, "happen%2:30:00::"], [4, "twelfth%3:00:00:ordinal:00"], [5, "hole%1:06:01::"], [10, "yarder%1:23:00::"]]
+    pos: ["PRP", "VBD", "IN", "DT", "JJ", "NN", ",", "DT", "NN", "."]
+    text: 'It happened on the twelfth hole, a 155-yarder.'
+    tokens: [[0, 2], [3, 11], [12, 14], [15, 18], [19, 26], [27, 31], [31, 32], [33, 34], [35, 45], [45, 46]]
+    wn16_key: [[1, "happen%2:30:00::"], [4, "twelfth%5:00:00:ordinal:00"], [5, "hole%1:06:01::"], [8, "yarder%1:07:00::"]]
+    wn30_key: [[1, "happen%2:30:00::"], [4, "twelfth%3:00:00:ordinal:00"], [5, "hole%1:06:01::"], [8, "yarder%1:23:00::"]]
 teH3:
     lemmas: ["person", "'s", "iron", "shot", "from", "the", "tee", "burrow", "into", "the", "bunker", "guard", "the", "green", ",", "an", "embankment", "that", "have", "become", "soft", "and", "spongy", "from", "the", "rain", ",", "thereby", "bring", "local", "rule", "into", "force", "."]
     oewn_key: [[0, "oewn-00007846-n"], [2, "oewn-03590242-n"], [3, "oewn-00566339-n"], [6, "oewn-08679015-n"], [7, "oewn-02045912-v"], [10, "oewn-02923753-n"], [11, "oewn-01131763-v"], [13, "oewn-08632949-n"], [16, "oewn-03286971-n"], [19, "oewn-00149403-v"], [20, "oewn-01156249-a"], [22, "oewn-01158467-s"], [25, "oewn-11521799-n"], [27, "oewn-00121886-r"], [28, "oewn-01441539-v"], [30, "oewn-05854581-n"], [32, "oewn-05201846-n"]]

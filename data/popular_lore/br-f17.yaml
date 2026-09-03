@@ -449,15 +449,14 @@ EP7+:
     wn16_key: [[0, "person%1:03:00::"], [3, "leave%2:38:01::"], [4, "location%1:03:00::"], [6, "august%1:28:00::"], [10, "force%2:41:00::"], [12, "leave%2:40:00::"], [16, "cattle%1:05:00::"], [19, "group%1:03:00::"], [20, "post%1:15:00::"], [22, "location%1:03:00::"], [26, "location%1:03:00::"], [29, "reach%2:38:01::"], [30, "location%1:03:00::"], [34, "person%1:03:00::"], [35, "group%1:03:00::"], [36, "center%1:15:01::"], [38, "now%4:02:05::"], [39, "called%5:00:00:titled:00"], [41, "late%3:00:00::"], [44, "fall%1:28:00::"]]
     wn30_key: [[0, "person%1:03:00::"], [3, "leave%2:38:01::"], [4, "location%1:03:00::"], [6, "august%1:28:00::"], [10, "force%2:41:00::"], [12, "leave%2:30:03::"], [16, "cattle%1:05:00::"], [19, "group%1:03:00::"], [20, "post%1:15:00::"], [22, "location%1:03:00::"], [26, "location%1:03:00::"], [29, "reach%2:38:01::"], [30, "location%1:03:00::"], [34, "person%1:03:00::"], [35, "group%1:03:00::"], [36, "center%1:15:01::"], [38, "now%4:02:05::"], [41, "late%3:00:00::"], [44, "fall%1:28:00::"]]
 8rE8:
-    lemmas: ["He", "set_out", "on", "his", "700", "-", "mile", "return", "journey", "with", "five", "family", "of", "discontented", "and", "disappoint", "swiss", "who", "turn", "their", "eye", "toward", "the", "united_states", "."]
-    oewn_key: [[1, "oewn-00346415-v"], [6, "oewn-13672836-n"], [7, "oewn-00328841-n"], [8, "oewn-00307252-n"], [10, "oewn-02194389-s"], [11, "oewn-08094856-n"], [13, "oewn-00592317-a"], [15, "oewn-01802947-v"], [16, "oewn-09752747-n"], [18, "oewn-01911251-v"], [20, "oewn-05318579-n"], [23, "oewn-09067337-n"]]
+    lemmas: ["He", "set_out", "on", "his", "700-mile", "return", "journey", "with", "five", "family", "of", "discontented", "and", "disappoint", "swiss", "who", "turn", "their", "eye", "toward", "the", "united_states", "."]
+    oewn_key: [[1, "oewn-00346415-v"], [4, "oewn-13672836-n"], [5, "oewn-00328841-n"], [6, "oewn-00307252-n"], [8, "oewn-02194389-s"], [9, "oewn-08094856-n"], [11, "oewn-00592317-a"], [13, "oewn-01802947-v"], [14, "oewn-09752747-n"], [16, "oewn-01911251-v"], [18, "oewn-05318579-n"], [21, "oewn-09067337-n"]]
     paragraph: '7'
-    pos: ["PRP", "VB", "IN", "PRP$", "CD", ":", "NN", "NN", "NN", "IN", "JJ", "NNS", "IN", "JJ", "CC", "VB", "NNP", "WP", "VBD", "PRP$", "NNS", "IN", "DT", "NNS", "."]
-    text: 'He set_out on his 700 - mile return journey with five families of discontented and
-  disappointed Swiss who turned their eyes toward the United_States.'
-    tokens: [[0, 2], [3, 10], [11, 13], [14, 17], [18, 21], [22, 23], [24, 28], [29, 35], [36, 43], [44, 48], [49, 53], [54, 62], [63, 65], [66, 78], [79, 82], [83, 95], [96, 101], [102, 105], [106, 112], [113, 118], [119, 123], [124, 130], [131, 134], [135, 148], [148, 149]]
-    wn16_key: [[1, "set_out%2:30:00::"], [6, "mile%1:23:01::"], [7, "return%1:04:00::"], [8, "journey%1:04:00::"], [10, "five%5:00:00:cardinal:00"], [11, "family%1:14:02::"], [13, "discontented%3:00:00::"], [15, "disappoint%2:37:00::"], [16, "swiss%1:18:00::"], [18, "turn%2:38:00::"], [20, "eye%1:08:00::"], [23, "united_states%1:15:00::"]]
-    wn30_key: [[1, "set_out%2:30:00::"], [6, "mile%1:23:01::"], [7, "return%1:04:00::"], [8, "journey%1:04:00::"], [10, "five%3:00:00:cardinal:00"], [11, "family%1:14:02::"], [13, "discontented%3:00:00::"], [15, "disappoint%2:37:00::"], [16, "swiss%1:18:00::"], [18, "turn%2:38:00::"], [20, "eye%1:08:00::"], [23, "united_states%1:15:00::"]]
+    pos: ["PRP", "VB", "IN", "PRP$", "JJ", "NN", "NN", "IN", "JJ", "NNS", "IN", "JJ", "CC", "VB", "NNP", "WP", "VBD", "PRP$", "NNS", "IN", "DT", "NNS", "."]
+    text: 'He set_out on his 700-mile return journey with five families of discontented and disappointed Swiss who turned their eyes toward the United_States.'
+    tokens: [[0, 2], [3, 10], [11, 13], [14, 17], [18, 26], [27, 33], [34, 41], [42, 46], [47, 51], [52, 60], [61, 63], [64, 76], [77, 80], [81, 93], [94, 99], [100, 103], [104, 110], [111, 116], [117, 121], [122, 128], [129, 132], [133, 146], [146, 147]]
+    wn16_key: [[1, "set_out%2:30:00::"], [4, "mile%1:23:01::"], [5, "return%1:04:00::"], [6, "journey%1:04:00::"], [8, "five%5:00:00:cardinal:00"], [9, "family%1:14:02::"], [11, "discontented%3:00:00::"], [13, "disappoint%2:37:00::"], [14, "swiss%1:18:00::"], [16, "turn%2:38:00::"], [18, "eye%1:08:00::"], [21, "united_states%1:15:00::"]]
+    wn30_key: [[1, "set_out%2:30:00::"], [4, "mile%1:23:01::"], [5, "return%1:04:00::"], [6, "journey%1:04:00::"], [8, "five%3:00:00:cardinal:00"], [9, "family%1:14:02::"], [11, "discontented%3:00:00::"], [13, "disappoint%2:37:00::"], [14, "swiss%1:18:00::"], [16, "turn%2:38:00::"], [18, "eye%1:08:00::"], [21, "united_states%1:15:00::"]]
 z+pq:
     lemmas: ["observe", "their", "distressing", "condition", ",", "person", "allow", "these", "half", "starved", "immigrant", "to", "settle", "on", "the", "military", "reservation", "."]
     oewn_key: [[0, "oewn-02158938-v"], [2, "oewn-01192929-s"], [3, "oewn-13943868-n"], [5, "oewn-00007846-n"], [6, "oewn-02427979-v"], [8, "oewn-00008300-r"], [9, "oewn-02309019-s"], [10, "oewn-10219108-n"], [12, "oewn-00414801-v"], [15, "oewn-02775023-a"], [16, "oewn-08604729-n"]]
@@ -572,14 +571,14 @@ iUWi:
     wn16_key: [[1, "location%1:03:00::"], [4, "the_swiss%1:18:00::"], [5, "also%4:02:00::"], [6, "decide%2:31:00::"], [10, "lot%1:26:00::"], [13, "united_states%1:15:00::"], [18, "several%5:00:00:some(a):00"], [19, "family%1:14:02::"], [20, "pay%2:40:00::"], [21, "guide%1:18:00::"], [23, "take%2:38:09::"], [26, "location%1:03:00::"]]
     wn30_key: [[1, "location%1:03:00::"], [5, "also%4:02:00::"], [6, "decide%2:31:00::"], [10, "lot%1:26:00::"], [13, "united_states%1:15:00::"], [18, "several%3:00:00:some:00"], [19, "family%1:14:02::"], [20, "pay%2:40:00::"], [21, "guide%1:18:00::"], [23, "take%2:38:09::"], [26, "location%1:03:00::"]]
 vot6:
-    lemmas: ["The", "disaster", "of", "1825", "-", "1826", "cause", "more", "to", "leave", "."]
-    oewn_key: [[1, "oewn-14499874-n"], [6, "oewn-00772482-v"], [7, "oewn-11210173-n"], [9, "oewn-02019450-v"]]
+    lemmas: ["The", "disaster", "of", "1825-1826", "cause", "more", "to", "leave", "."]
+    oewn_key: [[1, "oewn-14499874-n"], [4, "oewn-00772482-v"], [5, "oewn-11210173-n"], [7, "oewn-02019450-v"]]
     paragraph: '10'
-    pos: ["DT", "NNS", "IN", "CD", ":", "CD", "VBD", "NN", "TO", "VB", "."]
-    text: 'The disasters of 1825 - 1826 caused more to leave.'
-    tokens: [[0, 3], [4, 13], [14, 16], [17, 21], [22, 23], [24, 28], [29, 35], [36, 40], [41, 43], [44, 49], [49, 50]]
-    wn16_key: [[1, "disaster%1:26:00::"], [6, "cause%2:32:00::"], [7, "more%1:23:00::"], [9, "leave%2:38:00::"]]
-    wn30_key: [[1, "disaster%1:26:00::"], [6, "cause%2:32:00::"], [7, "more%1:18:00::"], [9, "leave%2:38:00::"]]
+    pos: ["DT", "NNS", "IN", "CD", "VBD", "NN", "TO", "VB", "."]
+    text: 'The disasters of 1825-1826 caused more to leave.'
+    tokens: [[0, 3], [4, 13], [14, 16], [17, 26], [27, 33], [34, 38], [39, 41], [42, 47], [47, 48]]
+    wn16_key: [[1, "disaster%1:26:00::"], [4, "cause%2:32:00::"], [5, "more%1:23:00::"], [7, "leave%2:38:00::"]]
+    wn30_key: [[1, "disaster%1:26:00::"], [4, "cause%2:32:00::"], [5, "more%1:18:00::"], [7, "leave%2:38:00::"]]
 zE+X:
     lemmas: ["After", "heavy", "rain", "and", "an", "onslaught", "of", "mouse", ",", "snow", "fall", "on", "october", "15th", ",", "1825", ",", "and", "remain", "on", "the", "ground", "through", "a", "winter", "so", "cold", "that", "the", "ice", "on", "the", "red", "be", "five", "foot", "thick", "."]
     oewn_key: [[1, "oewn-01194226-a"], [2, "oewn-11521799-n"], [5, "oewn-07320778-n"], [7, "oewn-02332897-n"], [9, "oewn-15068330-n"], [10, "oewn-02762779-v"], [12, "oewn-15237911-n"], [13, "oewn-02211645-s"], [18, "oewn-00117793-v"], [21, "oewn-09357302-n"], [24, "oewn-15262579-n"], [25, "oewn-00147630-r"], [26, "oewn-01254201-a"], [29, "oewn-09331304-n"], [32, "oewn-09428827-n"], [33, "oewn-02610777-v"], [34, "oewn-02194389-s"], [35, "oewn-13671663-n"], [36, "oewn-02419189-a"]]

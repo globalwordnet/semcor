@@ -37,14 +37,14 @@ KxA0:
     wn16_key: [[2, "entrance%1:06:00::"], [3, "side%1:15:02::"], [6, "shelter%1:06:00::"], [8, "each%5:00:00:all(a):00"], [9, "roof%1:06:00::"], [10, "beam%1:06:00::"], [12, "rest_on%2:35:00::"], [14, "inside%5:00:00:interior:00"], [15, "4%5:00:00:cardinal:00"], [16, "inch%1:23:00::"], [19, "block%1:06:00::"], [20, "wall%1:06:00::"]]
     wn30_key: [[2, "entrance%1:06:00::"], [3, "side%1:15:02::"], [6, "shelter%1:06:00::"], [8, "each%3:00:00:all:00"], [9, "roof%1:06:00::"], [10, "beam%1:06:00::"], [12, "rest_on%2:35:00::"], [14, "inside%3:00:00:interior:00"], [15, "4%3:00:00:cardinal:00"], [16, "inch%1:23:00::"], [19, "block%1:06:00::"], [20, "wall%1:06:00::"]]
 01M4:
-    lemmas: ["The", "outside", "4", "-", "inch", "space", "be", "fill", "by", "mortar", "block", "on", "edge", "."]
-    oewn_key: [[1, "oewn-00955951-s"], [2, "oewn-02194304-s"], [4, "oewn-13671409-n"], [5, "oewn-08670545-n"], [7, "oewn-02655144-v"], [9, "oewn-01364994-v"], [10, "oewn-02855782-n"], [12, "oewn-08583230-n"]]
+    lemmas: ["The", "outside", "4-inch", "space", "be", "fill", "by", "mortar", "block", "on", "edge", "."]
+    oewn_key: [[1, "oewn-00955951-s"], [2, "oewn-13671409-n"], [3, "oewn-08670545-n"], [5, "oewn-02655144-v"], [7, "oewn-01364994-v"], [8, "oewn-02855782-n"], [10, "oewn-08583230-n"]]
     paragraph: '0'
-    pos: ["DT", "JJ", "JJ", ":", "NN", "NN", "VBZ", "VBN", "IN", "VBG", "NNS", "IN", "NN", "."]
-    text: 'The outside 4 - inch space is filled by mortaring blocks on edge.'
-    tokens: [[0, 3], [4, 11], [12, 13], [14, 15], [16, 20], [21, 26], [27, 29], [30, 36], [37, 39], [40, 49], [50, 56], [57, 59], [60, 64], [64, 65]]
-    wn16_key: [[1, "outside%5:00:00:exterior:00"], [2, "4%5:00:00:cardinal:00"], [4, "inch%1:23:00::"], [5, "space%1:15:00::"], [7, "fill%2:42:00::"], [9, "mortar%2:35:00::"], [10, "block%1:06:00::"], [12, "edge%1:15:00::"]]
-    wn30_key: [[1, "outside%3:00:00:exterior:00"], [2, "4%3:00:00:cardinal:00"], [4, "inch%1:23:00::"], [5, "space%1:15:00::"], [7, "fill%2:42:00::"], [9, "mortar%2:35:00::"], [10, "block%1:06:00::"], [12, "edge%1:15:00::"]]
+    pos: ["DT", "JJ", "JJ", "NN", "VBZ", "VBN", "IN", "VBG", "NNS", "IN", "NN", "."]
+    text: 'The outside 4-inch space is filled by mortaring blocks on edge.'
+    tokens: [[0, 3], [4, 11], [12, 18], [19, 24], [25, 27], [28, 34], [35, 37], [38, 47], [48, 54], [55, 57], [58, 62], [62, 63]]
+    wn16_key: [[1, "outside%5:00:00:exterior:00"], [2, "inch%1:23:00::"], [3, "space%1:15:00::"], [5, "fill%2:42:00::"], [7, "mortar%2:35:00::"], [8, "block%1:06:00::"], [10, "edge%1:15:00::"]]
+    wn30_key: [[1, "outside%3:00:00:exterior:00"], [2, "inch%1:23:00::"], [3, "space%1:15:00::"], [5, "fill%2:42:00::"], [7, "mortar%2:35:00::"], [8, "block%1:06:00::"], [10, "edge%1:15:00::"]]
 GJoe:
     lemmas: ["The", "wooden", "bracing", "between", "the", "roof", "beam", "be", "place", "flush", "with", "the", "inside", "of", "the", "wall", "."]
     oewn_key: [[1, "oewn-02586927-s"], [2, "oewn-02889840-n"], [5, "oewn-04112162-n"], [6, "oewn-02819085-n"], [8, "oewn-01496967-v"], [9, "oewn-00913656-s"], [12, "oewn-08605707-n"], [15, "oewn-04554141-n"]]
@@ -56,15 +56,14 @@ GJoe:
     wn16_key: [[1, "wooden%5:00:00:woody:00"], [2, "bracing%1:06:00::"], [5, "roof%1:06:00::"], [6, "beam%1:06:00::"], [8, "place%2:35:00::"], [9, "flush%5:00:00:even:01"], [12, "inside%1:15:00::"], [15, "wall%1:06:00::"]]
     wn30_key: [[1, "wooden%3:00:00:woody:00"], [2, "bracing%1:06:00::"], [5, "roof%1:06:00::"], [6, "beam%1:06:00::"], [8, "place%2:35:00::"], [9, "flush%3:00:00:even:01"], [12, "inside%1:15:00::"], [15, "wall%1:06:00::"]]
 Yrwg:
-    lemmas: ["mortar", "be", "pour", "between", "this", "bracing", "and", "the", "4", "-", "inch", "block", "on", "edge", "to", "complete", "the", "wall", "thickness", "for", "radiation", "shielding", "."]
-    oewn_key: [[0, "oewn-14980028-n"], [2, "oewn-02073479-v"], [5, "oewn-02889840-n"], [8, "oewn-02194304-s"], [10, "oewn-13671409-n"], [11, "oewn-02855782-n"], [13, "oewn-08583230-n"], [15, "oewn-00456705-v"], [17, "oewn-04554141-n"], [18, "oewn-05110372-n"], [20, "oewn-11519684-n"], [21, "oewn-00820023-n"]]
+    lemmas: ["mortar", "be", "pour", "between", "this", "bracing", "and", "the", "4-inch", "block", "on", "edge", "to", "complete", "the", "wall", "thickness", "for", "radiation", "shielding", "."]
+    oewn_key: [[0, "oewn-14980028-n"], [2, "oewn-02073479-v"], [5, "oewn-02889840-n"], [8, "oewn-13671409-n"], [9, "oewn-02855782-n"], [11, "oewn-08583230-n"], [13, "oewn-00456705-v"], [15, "oewn-04554141-n"], [16, "oewn-05110372-n"], [18, "oewn-11519684-n"], [19, "oewn-00820023-n"]]
     paragraph: '0'
-    pos: ["NNP", "VBZ", "VBN", "IN", "DT", "NN", "CC", "DT", "JJ", ":", "NN", "NNS", "IN", "NN", "TO", "VB", "DT", "NN", "NN", "IN", "NN", "NN", "."]
-    text: 'Mortar is poured between this bracing and the 4 - inch blocks on edge to complete
-  the wall thickness for radiation shielding.'
-    tokens: [[0, 6], [7, 9], [10, 16], [17, 24], [25, 29], [30, 37], [38, 41], [42, 45], [46, 47], [48, 49], [50, 54], [55, 61], [62, 64], [65, 69], [70, 72], [73, 81], [82, 85], [86, 90], [91, 100], [101, 104], [105, 114], [115, 124], [124, 125]]
-    wn16_key: [[0, "mortar%1:27:00::"], [2, "pour%2:38:03::"], [5, "bracing%1:06:00::"], [8, "4%5:00:00:cardinal:00"], [10, "inch%1:23:00::"], [11, "block%1:06:00::"], [13, "edge%1:15:00::"], [15, "complete%2:30:00::"], [17, "wall%1:06:00::"], [18, "thickness%1:07:01::"], [20, "radiation%1:19:00::"], [21, "shielding%1:04:00::"]]
-    wn30_key: [[0, "mortar%1:27:00::"], [2, "pour%2:38:03::"], [5, "bracing%1:06:00::"], [8, "4%3:00:00:cardinal:00"], [10, "inch%1:23:00::"], [11, "block%1:06:00::"], [13, "edge%1:15:00::"], [15, "complete%2:30:00::"], [17, "wall%1:06:00::"], [18, "thickness%1:07:01::"], [20, "radiation%1:19:00::"], [21, "shielding%1:04:00::"]]
+    pos: ["NNP", "VBZ", "VBN", "IN", "DT", "NN", "CC", "DT", "JJ", "NNS", "IN", "NN", "TO", "VB", "DT", "NN", "NN", "IN", "NN", "NN", "."]
+    text: 'Mortar is poured between this bracing and the 4-inch blocks on edge to complete the wall thickness for radiation shielding.'
+    tokens: [[0, 6], [7, 9], [10, 16], [17, 24], [25, 29], [30, 37], [38, 41], [42, 45], [46, 52], [53, 59], [60, 62], [63, 67], [68, 70], [71, 79], [80, 83], [84, 88], [89, 98], [99, 102], [103, 112], [113, 122], [122, 123]]
+    wn16_key: [[0, "mortar%1:27:00::"], [2, "pour%2:38:03::"], [5, "bracing%1:06:00::"], [8, "inch%1:23:00::"], [9, "block%1:06:00::"], [11, "edge%1:15:00::"], [13, "complete%2:30:00::"], [15, "wall%1:06:00::"], [16, "thickness%1:07:01::"], [18, "radiation%1:19:00::"], [19, "shielding%1:04:00::"]]
+    wn30_key: [[0, "mortar%1:27:00::"], [2, "pour%2:38:03::"], [5, "bracing%1:06:00::"], [8, "inch%1:23:00::"], [9, "block%1:06:00::"], [11, "edge%1:15:00::"], [13, "complete%2:30:00::"], [15, "wall%1:06:00::"], [16, "thickness%1:07:01::"], [18, "radiation%1:19:00::"], [19, "shielding%1:04:00::"]]
 qQ90:
     lemmas: ["(", "For", "detail", "see", "inset", ",", "fig", "5", ".", ")"]
     oewn_key: [[2, "oewn-05825971-n"], [4, "oewn-03578615-n"], [6, "oewn-07012307-n"], [7, "oewn-13766661-n"]]
@@ -216,17 +215,16 @@ M3RC:
     wn16_key: [[0, "brick%1:06:00::"], [1, "be%2:42:06::"], [3, "alternative%1:09:00::"]]
     wn30_key: [[0, "brick%1:06:00::"], [1, "be%2:42:06::"], [3, "alternative%1:09:00::"]]
 MAnD:
-    lemmas: ["If", "they", "be", "use", ",", "the", "wall", "and", "roof", "should", "be", "10", "inch", "thick", "to", "give", "the", "same", "protection", "as", "the", "8", "-", "inch", "solid", "concrete", "block", "."]
-    oewn_key: [[3, "oewn-01161188-v"], [6, "oewn-04554141-n"], [8, "oewn-04112162-n"], [10, "oewn-02610777-v"], [11, "oewn-02194935-s"], [12, "oewn-13671409-n"], [13, "oewn-02419189-a"], [15, "oewn-01632595-v"], [17, "oewn-02070074-a"], [18, "oewn-00819341-n"], [21, "oewn-02194712-s"], [23, "oewn-13671409-n"], [24, "oewn-02271436-a"], [25, "oewn-00013179-a"], [26, "oewn-02855782-n"]]
+    lemmas: ["If", "they", "be", "use", ",", "the", "wall", "and", "roof", "should", "be", "10", "inch", "thick", "to", "give", "the", "same", "protection", "as", "the", "8-inch", "solid", "concrete", "block", "."]
+    oewn_key: [[3, "oewn-01161188-v"], [6, "oewn-04554141-n"], [8, "oewn-04112162-n"], [10, "oewn-02610777-v"], [11, "oewn-02194935-s"], [12, "oewn-13671409-n"], [13, "oewn-02419189-a"], [15, "oewn-01632595-v"], [17, "oewn-02070074-a"], [18, "oewn-00819341-n"], [21, "oewn-13671409-n"], [22, "oewn-02271436-a"], [23, "oewn-00013179-a"], [24, "oewn-02855782-n"]]
     paragraph: '6'
-    pos: ["IN", "PRP", "VBP", "VBN", ",", "DT", "NNS", "CC", "NN", "MD", "VB", "JJ", "NNS", "JJ", "TO", "VB", "DT", "JJ", "NN", "IN", "DT", "JJ", ":", "NN", "JJ", "JJ", "NNS", "."]
-    text: 'If they are used, the walls and roof should be 10 inches thick to give the same
-  protection as the 8 - inch solid concrete blocks.
+    pos: ["IN", "PRP", "VBP", "VBN", ",", "DT", "NNS", "CC", "NN", "MD", "VB", "JJ", "NNS", "JJ", "TO", "VB", "DT", "JJ", "NN", "IN", "DT", "JJ", "JJ", "JJ", "NNS", "."]
+    text: 'If they are used, the walls and roof should be 10 inches thick to give the same protection as the 8-inch solid concrete blocks.
 
   '
-    tokens: [[0, 2], [3, 7], [8, 11], [12, 16], [16, 17], [18, 21], [22, 27], [28, 31], [32, 36], [37, 43], [44, 46], [47, 49], [50, 56], [57, 62], [63, 65], [66, 70], [71, 74], [75, 79], [80, 90], [91, 93], [94, 97], [98, 99], [100, 101], [102, 106], [107, 112], [113, 121], [122, 128], [128, 129]]
-    wn16_key: [[3, "use%2:34:01::"], [6, "wall%1:06:00::"], [8, "roof%1:06:00::"], [10, "be%2:42:03::"], [11, "10%5:00:00:cardinal:00"], [12, "inch%1:23:00::"], [13, "thick%3:00:01::"], [15, "give%2:36:03::"], [17, "same%3:00:00::"], [18, "protection%1:04:00::"], [21, "8%5:00:00:cardinal:00"], [23, "inch%1:23:00::"], [24, "solid%3:00:02::"], [25, "concrete%3:00:00::"], [26, "block%1:06:00::"]]
-    wn30_key: [[3, "use%2:34:01::"], [6, "wall%1:06:00::"], [8, "roof%1:06:00::"], [10, "be%2:42:03::"], [11, "10%3:00:00:cardinal:00"], [12, "inch%1:23:00::"], [13, "thick%3:00:01::"], [15, "give%2:36:03::"], [17, "same%3:00:00::"], [18, "protection%1:04:00::"], [21, "8%3:00:00:cardinal:00"], [23, "inch%1:23:00::"], [24, "solid%3:00:02::"], [25, "concrete%3:00:00::"], [26, "block%1:06:00::"]]
+    tokens: [[0, 2], [3, 7], [8, 11], [12, 16], [16, 17], [18, 21], [22, 27], [28, 31], [32, 36], [37, 43], [44, 46], [47, 49], [50, 56], [57, 62], [63, 65], [66, 70], [71, 74], [75, 79], [80, 90], [91, 93], [94, 97], [98, 104], [105, 110], [111, 119], [120, 126], [126, 127]]
+    wn16_key: [[3, "use%2:34:01::"], [6, "wall%1:06:00::"], [8, "roof%1:06:00::"], [10, "be%2:42:03::"], [11, "10%5:00:00:cardinal:00"], [12, "inch%1:23:00::"], [13, "thick%3:00:01::"], [15, "give%2:36:03::"], [17, "same%3:00:00::"], [18, "protection%1:04:00::"], [21, "inch%1:23:00::"], [22, "solid%3:00:02::"], [23, "concrete%3:00:00::"], [24, "block%1:06:00::"]]
+    wn30_key: [[3, "use%2:34:01::"], [6, "wall%1:06:00::"], [8, "roof%1:06:00::"], [10, "be%2:42:03::"], [11, "10%3:00:00:cardinal:00"], [12, "inch%1:23:00::"], [13, "thick%3:00:01::"], [15, "give%2:36:03::"], [17, "same%3:00:00::"], [18, "protection%1:04:00::"], [21, "inch%1:23:00::"], [22, "solid%3:00:02::"], [23, "concrete%3:00:00::"], [24, "block%1:06:00::"]]
 LCm5:
     lemmas: ["The", "illustration", "in", "fig", "8", "show", "how", "to", "lay", "a", "concrete", "block", "wall", "."]
     oewn_key: [[1, "oewn-07011893-n"], [3, "oewn-07012307-n"], [4, "oewn-13767226-n"], [8, "oewn-01655514-v"], [10, "oewn-14844350-n"], [11, "oewn-02855782-n"], [12, "oewn-04554141-n"]]
@@ -340,15 +338,14 @@ OEgF:
     wn16_key: [[1, "wall%1:06:00::"], [3, "hold%2:42:00::"], [4, "together%4:02:02::"], [6, "metal%1:27:00::"], [7, "tie%1:06:02::"], [8, "place%2:35:00::"], [11, "wet%3:00:01::"], [12, "mortar%1:27:00::"], [15, "wall%1:06:00::"], [17, "build%2:36:00::"]]
     wn30_key: [[1, "wall%1:06:00::"], [3, "hold%2:42:00::"], [4, "together%4:02:02::"], [6, "metal%1:27:00::"], [7, "tie%1:06:02::"], [8, "place%2:35:00::"], [11, "wet%3:00:01::"], [12, "mortar%1:27:00::"], [15, "wall%1:06:00::"], [17, "build%2:36:00::"]]
 Gedp:
-    lemmas: ["The", "roof", "show", "here", "(", "fig", "9", ")", "be", "a", "6", "-", "inch", "slab", "of", "reinforced_concrete", ",", "cover", "with", "at_least", "20", "inch", "of", "pit_run", "gravel", "."]
-    oewn_key: [[1, "oewn-04112162-n"], [2, "oewn-02153218-v"], [3, "oewn-00109247-r"], [5, "oewn-07012307-n"], [6, "oewn-13767410-n"], [8, "oewn-02622439-v"], [10, "oewn-02194472-s"], [12, "oewn-13671409-n"], [13, "oewn-04240514-n"], [15, "oewn-14828967-n"], [17, "oewn-01335412-v"], [19, "oewn-00105032-r"], [20, "oewn-02195956-s"], [21, "oewn-13671409-n"], [23, "oewn-14723482-n"], [24, "oewn-14723045-n"]]
+    lemmas: ["The", "roof", "show", "here", "(", "fig", "9", ")", "be", "a", "6-inch", "slab", "of", "reinforced_concrete", ",", "cover", "with", "at_least", "20", "inch", "of", "pit_run", "gravel", "."]
+    oewn_key: [[1, "oewn-04112162-n"], [2, "oewn-02153218-v"], [3, "oewn-00109247-r"], [5, "oewn-07012307-n"], [6, "oewn-13767410-n"], [8, "oewn-02622439-v"], [10, "oewn-13671409-n"], [11, "oewn-04240514-n"], [13, "oewn-14828967-n"], [15, "oewn-01335412-v"], [17, "oewn-00105032-r"], [18, "oewn-02195956-s"], [19, "oewn-13671409-n"], [21, "oewn-14723482-n"], [22, "oewn-14723045-n"]]
     paragraph: '11'
-    pos: ["DT", "NN", "VBN", "RB", "FW", "NN", "NN", "NN", "VBZ", "DT", "JJ", ":", "NN", "NN", "IN", "NN", ",", "VBN", "IN", "RB", "JJ", "NNS", "IN", "NN", "NN", "."]
-    text: 'The roof shown here (fig. 9) is a 6 - inch slab of reinforced_concrete, covered
-  with at_least 20 inches of pit-run gravel.'
-    tokens: [[0, 3], [4, 8], [9, 14], [15, 19], [20, 21], [21, 25], [26, 27], [27, 28], [29, 31], [32, 33], [34, 35], [36, 37], [38, 42], [43, 47], [48, 50], [51, 70], [70, 71], [72, 79], [80, 84], [85, 93], [94, 96], [97, 103], [104, 106], [107, 114], [115, 121], [121, 122]]
-    wn16_key: [[1, "roof%1:06:00::"], [2, "show%2:39:02::"], [3, "here%4:02:00::"], [5, "fig%1:10:00::"], [6, "9%1:23:00::"], [8, "be%2:42:06::"], [10, "6%5:00:00:cardinal:00"], [12, "inch%1:23:00::"], [13, "slab%1:06:00::"], [15, "reinforced_concrete%1:27:00::"], [17, "cover%2:35:00::"], [19, "at_least%4:02:00::"], [20, "20%5:00:00:cardinal:00"], [21, "inch%1:23:00::"], [23, "pit_run%1:27:00::"], [24, "gravel%1:27:00::"]]
-    wn30_key: [[1, "roof%1:06:00::"], [2, "show%2:39:02::"], [3, "here%4:02:00::"], [5, "fig%1:10:00::"], [6, "9%1:23:00::"], [8, "be%2:42:06::"], [10, "6%3:00:00:cardinal:00"], [12, "inch%1:23:00::"], [13, "slab%1:06:00::"], [15, "reinforced_concrete%1:27:00::"], [17, "cover%2:35:00::"], [19, "at_least%4:02:00::"], [20, "20%3:00:00:cardinal:00"], [21, "inch%1:23:00::"], [23, "pit_run%1:27:00::"], [24, "gravel%1:27:00::"]]
+    pos: ["DT", "NN", "VBN", "RB", "FW", "NN", "NN", "NN", "VBZ", "DT", "JJ", "NN", "IN", "NN", ",", "VBN", "IN", "RB", "JJ", "NNS", "IN", "NN", "NN", "."]
+    text: 'The roof shown here (fig. 9) is a 6-inch slab of reinforced_concrete, covered with at_least 20 inches of pit-run gravel.'
+    tokens: [[0, 3], [4, 8], [9, 14], [15, 19], [20, 21], [21, 25], [26, 27], [27, 28], [29, 31], [32, 33], [34, 40], [41, 45], [46, 48], [49, 68], [68, 69], [70, 77], [78, 82], [83, 91], [92, 94], [95, 101], [102, 104], [105, 112], [113, 119], [119, 120]]
+    wn16_key: [[1, "roof%1:06:00::"], [2, "show%2:39:02::"], [3, "here%4:02:00::"], [5, "fig%1:10:00::"], [6, "9%1:23:00::"], [8, "be%2:42:06::"], [10, "inch%1:23:00::"], [11, "slab%1:06:00::"], [13, "reinforced_concrete%1:27:00::"], [15, "cover%2:35:00::"], [17, "at_least%4:02:00::"], [18, "20%5:00:00:cardinal:00"], [19, "inch%1:23:00::"], [21, "pit_run%1:27:00::"], [22, "gravel%1:27:00::"]]
+    wn30_key: [[1, "roof%1:06:00::"], [2, "show%2:39:02::"], [3, "here%4:02:00::"], [5, "fig%1:10:00::"], [6, "9%1:23:00::"], [8, "be%2:42:06::"], [10, "inch%1:23:00::"], [11, "slab%1:06:00::"], [13, "reinforced_concrete%1:27:00::"], [15, "cover%2:35:00::"], [17, "at_least%4:02:00::"], [18, "20%3:00:00:cardinal:00"], [19, "inch%1:23:00::"], [21, "pit_run%1:27:00::"], [22, "gravel%1:27:00::"]]
 msDM:
     lemmas: ["An", "alternate", "roof", ",", "perhaps", "more", "within", "do-it-yourself", "reach", ",", "could", "be", "construct", "of", "heavy", "wooden", "roof", "beam", ",", "overlay", "with", "board", "and", "waterproofing", "."]
     oewn_key: [[1, "oewn-01859862-s"], [2, "oewn-04112162-n"], [4, "oewn-00301501-r"], [5, "oewn-00099891-r"], [7, "oewn-00677744-s"], [8, "oewn-05631411-n"], [12, "oewn-01658171-v"], [14, "oewn-01188475-a"], [15, "oewn-02586927-s"], [16, "oewn-04112162-n"], [17, "oewn-02819085-n"], [19, "oewn-01339317-v"], [21, "oewn-15126421-n"], [23, "oewn-00831760-n"]]
@@ -778,15 +775,14 @@ DzrJ:
     wn16_key: [[0, "lighting%1:26:00::"], [1, "be%2:42:03::"], [3, "important%3:00:00::"], [4, "consideration%1:09:01::"]]
     wn30_key: [[0, "lighting%1:26:00::"], [1, "be%2:42:03::"], [3, "important%3:00:00::"], [4, "consideration%1:09:01::"]]
 jEl1:
-    lemmas: ["continuous", "low-level", "lighting", "may", "be", "provide", "in", "the", "shelter", "by_means_of", "a", "4", "-", "cell", "hot-shot", "battery", "to", "which", "be", "wire", "a", "150", "-", "milliampere", "flashlight", "type", "bulb", "."]
-    oewn_key: [[0, "oewn-00597095-a"], [1, "oewn-01215672-s"], [2, "oewn-14006789-n"], [5, "oewn-02332196-v"], [8, "oewn-04198638-n"], [11, "oewn-02194304-s"], [13, "oewn-02994503-n"], [15, "oewn-02813606-n"], [19, "oewn-02359532-v"], [23, "oewn-13659092-n"], [24, "oewn-03363983-n"], [25, "oewn-05848697-n"], [26, "oewn-03671250-n"]]
+    lemmas: ["continuous", "low-level", "lighting", "may", "be", "provide", "in", "the", "shelter", "by_means_of", "a", "4-cell", "hot-shot", "battery", "to", "which", "be", "wire", "a", "150", "-", "milliampere", "flashlight", "type", "bulb", "."]
+    oewn_key: [[0, "oewn-00597095-a"], [1, "oewn-01215672-s"], [2, "oewn-14006789-n"], [5, "oewn-02332196-v"], [8, "oewn-04198638-n"], [11, "oewn-02994503-n"], [13, "oewn-02813606-n"], [17, "oewn-02359532-v"], [21, "oewn-13659092-n"], [22, "oewn-03363983-n"], [23, "oewn-05848697-n"], [24, "oewn-03671250-n"]]
     paragraph: '28'
-    pos: ["JJ", "JJ", "NN", "MD", "VB", "VBN", "IN", "DT", "NN", "IN", "DT", "JJ", ":", "NN", "JJ", "NN", "RB", "RB", "VBZ", "VBN", "DT", "CD", ":", "NN", "NN", "NN", "NN", "."]
-    text: 'Continuous low-level lighting may be provided in the shelter by_means_of a 4 - cell
-  hot-shot battery to which is wired a 150 - milliampere flashlight type bulb.'
-    tokens: [[0, 10], [11, 20], [21, 29], [30, 33], [34, 36], [37, 45], [46, 48], [49, 52], [53, 60], [61, 72], [73, 74], [75, 76], [77, 78], [79, 83], [84, 92], [93, 100], [101, 103], [104, 109], [110, 112], [113, 118], [119, 120], [121, 124], [125, 126], [127, 138], [139, 149], [150, 154], [155, 159], [159, 160]]
-    wn16_key: [[0, "continuous%3:00:01::"], [1, "low-level%5:00:00:low:02"], [2, "lighting%1:26:00::"], [5, "provide%2:40:00::"], [8, "shelter%1:06:00::"], [11, "4%5:00:00:cardinal:00"], [13, "cell%1:06:00::"], [15, "battery%1:06:00::"], [19, "wire%2:40:00::"], [23, "milliampere%1:23:00::"], [24, "flashlight%1:06:00::"], [25, "type%1:09:00::"], [26, "bulb%1:06:00::"]]
-    wn30_key: [[0, "continuous%3:00:01::"], [1, "low-level%3:00:00:low:02"], [2, "lighting%1:26:00::"], [5, "provide%2:40:00::"], [8, "shelter%1:06:00::"], [11, "4%3:00:00:cardinal:00"], [13, "cell%1:06:00::"], [15, "battery%1:06:00::"], [19, "wire%2:40:00::"], [23, "milliampere%1:23:00::"], [24, "flashlight%1:06:00::"], [25, "type%1:09:00::"], [26, "bulb%1:06:00::"]]
+    pos: ["JJ", "JJ", "NN", "MD", "VB", "VBN", "IN", "DT", "NN", "IN", "DT", "JJ", "JJ", "NN", "RB", "RB", "VBZ", "VBN", "DT", "CD", ":", "NN", "NN", "NN", "NN", "."]
+    text: 'Continuous low-level lighting may be provided in the shelter by_means_of a 4-cell hot-shot battery to which is wired a 150 - milliampere flashlight type bulb.'
+    tokens: [[0, 10], [11, 20], [21, 29], [30, 33], [34, 36], [37, 45], [46, 48], [49, 52], [53, 60], [61, 72], [73, 74], [75, 81], [82, 90], [91, 98], [99, 101], [102, 107], [108, 110], [111, 116], [117, 118], [119, 122], [123, 124], [125, 136], [137, 147], [148, 152], [153, 157], [157, 158]]
+    wn16_key: [[0, "continuous%3:00:01::"], [1, "low-level%5:00:00:low:02"], [2, "lighting%1:26:00::"], [5, "provide%2:40:00::"], [8, "shelter%1:06:00::"], [11, "cell%1:06:00::"], [13, "battery%1:06:00::"], [17, "wire%2:40:00::"], [21, "milliampere%1:23:00::"], [22, "flashlight%1:06:00::"], [23, "type%1:09:00::"], [24, "bulb%1:06:00::"]]
+    wn30_key: [[0, "continuous%3:00:01::"], [1, "low-level%3:00:00:low:02"], [2, "lighting%1:26:00::"], [5, "provide%2:40:00::"], [8, "shelter%1:06:00::"], [11, "cell%1:06:00::"], [13, "battery%1:06:00::"], [17, "wire%2:40:00::"], [21, "milliampere%1:23:00::"], [22, "flashlight%1:06:00::"], [23, "type%1:09:00::"], [24, "bulb%1:06:00::"]]
 /tlJ:
     lemmas: ["test", "have", "show", "that", "such", "a", "device", ",", "with", "a", "fresh", "battery", ",", "will", "furnish", "light", "continuously", "for", "at_least", "10", "day", "."]
     oewn_key: [[0, "oewn-05807220-n"], [2, "oewn-00666706-v"], [6, "oewn-03187746-n"], [10, "oewn-01071383-a"], [11, "oewn-02813606-n"], [14, "oewn-02332196-v"], [15, "oewn-11494354-n"], [16, "oewn-00284287-r"], [18, "oewn-00105032-r"], [19, "oewn-02194935-s"], [20, "oewn-15180180-n"]]
