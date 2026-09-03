@@ -120,6 +120,22 @@ sOM7:
   Brown Corpus source text -- a more faithful plaintext rendering of
   Brown (e.g. the widely-used `brown_nolines.txt` reformatting) already
   uses a plain `"` for both, matching this corpus. See #14.
+- `text` sometimes renders a parenthetical as `[...]` (square brackets)
+  rather than `(...)`, e.g. `[of urbanization]`. This is also
+  intentional: every one of the 71 sentences with a `[`/`]` is a
+  textbook editorial-insertion bracket -- a clarification inserted into
+  a quotation (`[sic]`, `[of urbanization]`), a news-style source
+  citation (`[SR, Mar. 25]`), a bracketed alias (`Joseph [Joey]
+  Glimco`), a translator's inserted word (`the [Holy] Spirit`), or
+  genuine math/science interval notation (`[0, T]`) -- never a plain
+  parenthetical mangled into brackets. `brown_nolines.txt` has the
+  identical `[...]` at every sampled position, confirming this corpus's
+  brackets are a faithful rendering of the real source punctuation.
+  `nltk.corpus.brown` is the lossy side here: across its entire
+  500-file corpus it has only 2 literal `[` and 2 `]` characters total
+  (vs. 2,435/2,466 `(`/`)`), so it essentially never preserves the
+  bracket/paren distinction, which is why `semcor-verify-brown`
+  (nltk-based) flags these as divergences. See #18.
 
 ## Wordnet alignment
 
