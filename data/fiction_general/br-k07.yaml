@@ -1607,14 +1607,14 @@ zpt4:
     wn16_key: [[0, "plenty%1:07:00::"], [2, "room%1:23:00::"], [3, "there%4:02:00::"], [4, "now%4:02:00::"]]
     wn30_key: [[0, "plenty%1:07:00::"], [2, "room%1:23:00::"], [3, "there%4:02:00::"], [4, "now%4:02:00::"]]
 s2/N:
-    lemmas: ["All", "those", "dumb", "8", "-", "ball", "croak", "."]
-    oewn_key: [[2, "oewn-00442596-s"], [5, "oewn-02781674-n"], [6, "oewn-00359085-v"]]
+    lemmas: ["All", "those", "dumb", "8-Balls", "croak", "."]
+    oewn_key: [[2, "oewn-00442596-s"], [3, "oewn-02781674-n"], [4, "oewn-00359085-v"]]
     paragraph: '8'
-    pos: ["DT", "DT", "JJ", "JJ", ":", "NNS", "VBD", "."]
-    text: 'All those dumb 8 - Balls croaked.'
-    tokens: [[0, 3], [4, 9], [10, 14], [15, 16], [17, 18], [19, 24], [25, 32], [32, 33]]
-    wn16_key: [[2, "dumb%5:00:00:stupid:00"], [5, "ball%1:06:01::"], [6, "croak%2:30:00::"]]
-    wn30_key: [[2, "dumb%3:00:00:stupid:00"], [5, "ball%1:06:01::"], [6, "croak%2:30:00::"]]
+    pos: ["DT", "DT", "JJ", "NNS", "VBD", "."]
+    text: 'All those dumb 8-Balls croaked.'
+    tokens: [[0, 3], [4, 9], [10, 14], [15, 22], [23, 30], [30, 31]]
+    wn16_key: [[2, "dumb%5:00:00:stupid:00"], [3, "ball%1:06:01::"], [4, "croak%2:30:00::"]]
+    wn30_key: [[2, "dumb%3:00:00:stupid:00"], [3, "ball%1:06:01::"], [4, "croak%2:30:00::"]]
 iREM:
     lemmas: ["You", "can", "do", "anything", "with", "these", "dumb", "fuck", "if", "you", "know", "how", "."]
     oewn_key: [[6, "oewn-00442596-s"], [10, "oewn-00597330-v"]]
