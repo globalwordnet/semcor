@@ -430,6 +430,46 @@ uv run semcor-fix-formula-marker-spacing --dry-run    # preview without writing
 
 Idempotent, like the other `fix-*` scripts.
 
+### `semcor-fix-corrupted-ampersand`
+
+Restores literal `&` characters corrupted to `+` (fixes #17). #8/#9/#11
+established that this corpus decodes one Brown transcription escape
+convention -- a literal `&` marks a non-sentence-final abbreviation
+period (`Mr&` -> `Mr.`) -- but the original transcription needed a
+*different* escape for an actual, literal ampersand in running text,
+since `&` was already spoken for; it used `+`. This corpus never decoded
+that second convention, so `A & M` (Texas A&M) stayed as `A_+_M`.
+
+An exhaustive scan of every `+`-containing token in `data/*.yaml` (81
+total, not a sample) found 76 confirmed corruptions -- virtually all
+proper-noun ampersands (`Chesapeake + Ohio`, `Smith + Wesson`,
+`Standard + Poor's`, `AF + AM`, ...) -- each checked against
+`nltk.corpus.brown` and local context. A whole-document Brown diff
+alone (the method the rest of this stack uses) missed one real instance
+here (`SequenceMatcher`'s greedy matching absorbed a second, nearby `B +
+O` mention into an "equal" block once an earlier one was resolved),
+caught only by cross-checking against the direct token scan instead.
+`sls.hawaii.edu`'s raw dump (the more faithful source #16 used) isn't
+the right comparison for *this* fix: it has the identical undecoded `+`
+in all 76 places, since it preserves the same escape convention this
+corpus does -- `nltk.corpus.brown`, which decodes it, is the right
+ground truth here. The remaining 5 `+`-containing tokens are genuine,
+unrelated plus signs (statistical correlation values, an explanation of
+the `+` symbol itself, a school grade) and are correctly left alone.
+
+Every fix is a single-character, same-length swap, same as #28: no
+token/offset restructuring, so `tokens`/`pos`/`oewn_key`/`wn16_key`/
+`wn30_key` are untouched. `corrupted-ampersand-fixes.yaml` lists all 78
+confirmed `+` character offsets (two tokens have more than one); this
+script only applies that manifest, with no runtime NLTK dependency.
+
+```sh
+uv run semcor-fix-corrupted-ampersand              # apply corrupted-ampersand-fixes.yaml to data/
+uv run semcor-fix-corrupted-ampersand --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.
