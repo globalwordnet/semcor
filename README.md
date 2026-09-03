@@ -387,6 +387,49 @@ uv run semcor-fix-thousands-separator-commas --dry-run    # preview without writ
 
 Idempotent, like the other `fix-*` scripts.
 
+### `semcor-fix-formula-marker-spacing`
+
+Merges spuriously split `**f`/`**h` placeholder markers back into one
+token (fixes #16). Brown's 1961 transcription used `**<code>` as a
+placeholder for symbols it couldn't typeset directly -- `**f` where a
+math/science formula belongs (mostly `learned`-genre texts), `**h` as a
+paragraph-break marker (mostly `fiction_general` dialogue) -- but this
+corpus split each one across three tokens with spurious spaces
+(`text: '* * f'`) instead of keeping it glued as one. `nltk.corpus.brown`
+can't confirm this on its own, since its own rendering of these codes is
+inconsistent between occurrences (some become ad hoc letter codes,
+others stay as raw `**xx`); this was instead verified against
+http://www.sls.hawaii.edu/bley-vroman/brown_nolines.txt, a plaintext dump
+that preserves the original markup verbatim.
+
+An exhaustive scan of every `data/*.yaml` file found 602 of these 3-token
+runs to merge (580 bare `f`, 18 `h`, 4 `f-fold`/`f-inch` compound
+modifiers) across 342 sentences in 35 files, and a handful of
+differently-shaped occurrences deliberately left alone: an
+underscore-joined next token (`f_Numbers`, a second, independent
+word-fusion bug), one unrelated footnote-style lone `*`, and one dangling
+end-of-document `* *` whose own placeholder letter is missing entirely
+(real data loss, not a spacing bug) -- see the issue this fixes for the
+follow-up.
+
+Unlike the manifest-driven fixes above, this needs no manifest and no
+runtime NLTK dependency: the merge rule is fully determined by this
+corpus's own token structure (two adjacent `*` tokens immediately
+followed by a matching word token), recomputed from `data/` every run.
+Like #10, this changes the *number* of tokens (three become one) and the
+length of `text` (the two gaps between them are deleted); every
+`oewn_key`/`wn16_key`/`wn30_key` annotation past a merge point shifts
+down by two to match, and the trailing word token's own annotation (12
+of the 602, e.g. `**f` for a degree symbol + sense-tagged "F"/Fahrenheit)
+follows onto the merged token -- see the module docstring.
+
+```sh
+uv run semcor-fix-formula-marker-spacing              # fix data/
+uv run semcor-fix-formula-marker-spacing --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.
