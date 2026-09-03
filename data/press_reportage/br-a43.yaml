@@ -249,14 +249,14 @@ yIOy:
     wn16_key: [[1, "be%2:42:03::"], [19, "tax%2:40:00::"]]
     wn30_key: [[1, "be%2:42:03::"], [19, "tax%2:40:00::"]]
 8x1I:
-    lemmas: ["A", "new", "report", "on", "the", "earnings", "record", "of", "toll", "roads", "in", "the_most", "recent", "12", "-", "month", "period", "--", "end", "in", "february", "or", "march", "--", "show", "what", "be", "happen", "."]
-    oewn_key: [[18, "oewn-02615799-v"], [24, "oewn-00666706-v"], [27, "oewn-00340744-v"]]
+    lemmas: ["A", "new", "report", "on", "the", "earnings", "record", "of", "toll", "roads", "in", "the_most", "recent", "12-month", "period", "--", "end", "in", "february", "or", "march", "--", "show", "what", "be", "happen", "."]
+    oewn_key: [[16, "oewn-02615799-v"], [22, "oewn-00666706-v"], [25, "oewn-00340744-v"]]
     paragraph: '12'
-    pos: ["DT", "JJ", "NN", "VB", "DT", "NNS", "NNS", "IN", "NN", "NNS", "IN", "RB", "JJ", "CD", ":", "NN", "NN", ":", "VBG", "IN", "NNP", "CC", "NNP", ":", "VBZ", "WP", "VBZ", "VBG", "."]
-    text: 'A new report on the earnings records of toll roads in the_most recent 12 - month period--ending in February or March--shows what is happening.'
-    tokens: [[0, 1], [2, 5], [6, 12], [13, 15], [16, 19], [20, 28], [29, 36], [37, 39], [40, 44], [45, 50], [51, 53], [54, 62], [63, 69], [70, 72], [73, 74], [75, 80], [81, 87], [87, 89], [89, 95], [96, 98], [99, 107], [108, 110], [111, 116], [116, 118], [118, 123], [124, 128], [129, 131], [132, 141], [141, 142]]
-    wn16_key: [[18, "end%2:42:00::"], [24, "show%2:31:00::"], [27, "happen%2:30:00::"]]
-    wn30_key: [[18, "end%2:42:00::"], [24, "show%2:31:00::"], [27, "happen%2:30:00::"]]
+    pos: ["DT", "JJ", "NN", "VB", "DT", "NNS", "NNS", "IN", "NN", "NNS", "IN", "RB", "JJ", "JJ", "NN", ":", "VBG", "IN", "NNP", "CC", "NNP", ":", "VBZ", "WP", "VBZ", "VBG", "."]
+    text: 'A new report on the earnings records of toll roads in the_most recent 12-month period--ending in February or March--shows what is happening.'
+    tokens: [[0, 1], [2, 5], [6, 12], [13, 15], [16, 19], [20, 28], [29, 36], [37, 39], [40, 44], [45, 50], [51, 53], [54, 62], [63, 69], [70, 78], [79, 85], [85, 87], [87, 93], [94, 96], [97, 105], [106, 108], [109, 114], [114, 116], [116, 121], [122, 126], [127, 129], [130, 139], [139, 140]]
+    wn16_key: [[16, "end%2:42:00::"], [22, "show%2:31:00::"], [25, "happen%2:30:00::"]]
+    wn30_key: [[16, "end%2:42:00::"], [22, "show%2:31:00::"], [25, "happen%2:30:00::"]]
 poct:
     lemmas: ["The", "report", "be", "base", "on", "a", "survey", "by", "Blyth", "&", "company", ",", "investment_banker", "."]
     oewn_key: [[3, "oewn-00638550-v"]]
@@ -424,15 +424,14 @@ aX8D:
     wn16_key: [[4, "be%2:42:03::"], [11, "prove%2:31:00::"], [15, "do%2:36:02::"]]
     wn30_key: [[4, "be%2:42:03::"], [11, "prove%2:31:00::"], [15, "do%2:36:02::"]]
 66gF:
-    lemmas: ["The", "187", "-", "mile", "illinois_state", "toll", "highway", ",", "for_example", ",", "be", "not", "open", "over", "its", "entire", "length", "until", "december", ",", "1958", "."]
-    oewn_key: [[12, "oewn-02431018-v"]]
+    lemmas: ["The", "187-mile", "illinois_state", "toll", "highway", ",", "for_example", ",", "be", "not", "open", "over", "its", "entire", "length", "until", "december", ",", "1958", "."]
+    oewn_key: [[10, "oewn-02431018-v"]]
     paragraph: '20'
-    pos: ["DT", "CD", ":", "NN", "NNP", "NN", "NNP", ",", "RB", ",", "VBD", "RB", "VBN", "IN", "PRP$", "JJ", "NN", "IN", "NNP", ",", "CD", "."]
-    text: 'The 187 - mile Illinois_State Toll Highway, for_example, was not opened over its
-  entire length until December, 1958.'
-    tokens: [[0, 3], [4, 7], [8, 9], [10, 14], [15, 29], [30, 34], [35, 42], [42, 43], [44, 55], [55, 56], [57, 60], [61, 64], [65, 71], [72, 76], [77, 80], [81, 87], [88, 94], [95, 100], [101, 109], [109, 110], [111, 115], [115, 116]]
-    wn16_key: [[12, "open%2:41:00::"]]
-    wn30_key: [[12, "open%2:41:00::"]]
+    pos: ["DT", "JJ", "NNP", "NN", "NNP", ",", "RB", ",", "VBD", "RB", "VBN", "IN", "PRP$", "JJ", "NN", "IN", "NNP", ",", "CD", "."]
+    text: 'The 187-mile Illinois_State Toll Highway, for_example, was not opened over its entire length until December, 1958.'
+    tokens: [[0, 3], [4, 12], [13, 27], [28, 32], [33, 40], [40, 41], [42, 53], [53, 54], [55, 58], [59, 62], [63, 69], [70, 74], [75, 78], [79, 85], [86, 92], [93, 98], [99, 107], [107, 108], [109, 113], [113, 114]]
+    wn16_key: [[10, "open%2:41:00::"]]
+    wn30_key: [[10, "open%2:41:00::"]]
 fleh:
     lemmas: ["In", "the", "12", "month", "end", "in", "february", ",", "1960", ",", "the", "highway", "earn", "enough", "to", "cover", "64", "per_cent", "of", "its", "interest", "load", "--", "with", "the", "remainder", "pay_out", "of", "initial", "reserves", "."]
     oewn_key: [[4, "oewn-02615799-v"], [12, "oewn-02294200-v"], [15, "oewn-02635874-v"], [26, "oewn-02306463-v"]]
