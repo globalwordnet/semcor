@@ -136,6 +136,26 @@ sOM7:
   (vs. 2,435/2,466 `(`/`)`), so it essentially never preserves the
   bracket/paren distinction, which is why `semcor-verify-brown`
   (nltk-based) flags these as divergences. See #18.
+- `press_reportage` articles are missing datelines (`Washington,Feb.9--`),
+  bylines, and mid-article newspaper subheadlines (`nltk.corpus.brown`
+  has `..."no evidence" that any irregularities took place. Ask jail
+  deputies On other matters...` -- `Ask jail deputies` is a subheadline
+  sitting between two unrelated sentences) that Brown's plaintext still
+  has. Unlike the two notes above, this **is** a real, confirmed gap,
+  not a false alarm: a whole-document scan found 323 such deletions
+  across 38 of the genre's 44 files (86%), split between datelines/
+  bylines and the more numerous subheadline pattern. But it's also not
+  fixable the way #8-#31 fix things -- there's no corrupted or
+  mis-tokenized content in this corpus's own data to recover, because
+  the text was apparently never there to begin with: `brown_nolines.txt`
+  is missing the identical strings too (unlike #16/#18, where it was the
+  more complete source), pointing to the loss predating this corpus's
+  own construction, likely from however SemCor's annotators originally
+  prepared "clean" running prose from Brown decades ago. Restoring it
+  would mean synthesizing new, never-sense-tagged sentences from Brown
+  and deciding how they fit into this corpus's existing sentence IDs and
+  paragraph numbering -- a content-expansion project, not a bug fix. See
+  #32.
 
 ## Wordnet alignment
 
