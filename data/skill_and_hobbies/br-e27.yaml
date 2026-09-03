@@ -169,14 +169,14 @@ tfm2:
     wn16_key: [[2, "aid%1:07:00::"], [5, "prevention%1:04:00::"], [7, "bacterial%3:01:00::"], [8, "diarrhea%1:26:00::"], [10, "scours%1:26:00::"], [13, "feed%2:34:04::"], [14, "50%5:00:00:cardinal:00"], [15, "gram%1:23:00::"], [17, "ton%1:23:02::"], [19, "complete%3:00:00::"], [20, "feed%1:13:00::"]]
     wn30_key: [[2, "aid%1:07:00::"], [5, "prevention%1:04:00::"], [7, "bacterial%3:01:00::"], [8, "diarrhea%1:26:00::"], [10, "scours%1:26:00::"], [13, "feed%2:34:04::"], [14, "50%3:00:00:cardinal:00"], [15, "gram%1:23:00::"], [17, "ton%1:23:02::"], [19, "complete%3:00:00::"], [20, "feed%1:13:00::"]]
 AofZ:
-    lemmas: ["For", "the", "treatment", "of", "bacterial", "scours", ",", "feed", "100", "-", "200", "gram", "."]
-    oewn_key: [[2, "oewn-00659325-n"], [4, "oewn-02844429-a"], [5, "oewn-14295849-n"], [7, "oewn-01184318-v"], [8, "oewn-02203776-s"], [11, "oewn-13745822-n"]]
+    lemmas: ["For", "the", "treatment", "of", "bacterial", "scours", ",", "feed", "100-200", "gram", "."]
+    oewn_key: [[2, "oewn-00659325-n"], [4, "oewn-02844429-a"], [5, "oewn-14295849-n"], [7, "oewn-01184318-v"], [9, "oewn-13745822-n"]]
     paragraph: '6'
-    pos: ["IN", "DT", "NN", "IN", "JJ", "NNS", ",", "VB", "JJ", ":", "CD", "NNS", "."]
-    text: 'For the treatment of bacterial scours, feed 100 - 200 grams.'
-    tokens: [[0, 3], [4, 7], [8, 17], [18, 20], [21, 30], [31, 37], [37, 38], [39, 43], [44, 47], [48, 49], [50, 53], [54, 59], [59, 60]]
-    wn16_key: [[2, "treatment%1:04:00::"], [4, "bacterial%3:01:00::"], [5, "scours%1:26:00::"], [7, "feed%2:34:04::"], [8, "100%5:00:00:cardinal:00"], [11, "gram%1:23:00::"]]
-    wn30_key: [[2, "treatment%1:04:00::"], [4, "bacterial%3:01:00::"], [5, "scours%1:26:00::"], [7, "feed%2:34:04::"], [8, "100%3:00:00:cardinal:00"], [11, "gram%1:23:00::"]]
+    pos: ["IN", "DT", "NN", "IN", "JJ", "NNS", ",", "VB", "CD", "NNS", "."]
+    text: 'For the treatment of bacterial scours, feed 100-200 grams.'
+    tokens: [[0, 3], [4, 7], [8, 17], [18, 20], [21, 30], [31, 37], [37, 38], [39, 43], [44, 51], [52, 57], [57, 58]]
+    wn16_key: [[2, "treatment%1:04:00::"], [4, "bacterial%3:01:00::"], [5, "scours%1:26:00::"], [7, "feed%2:34:04::"], [9, "gram%1:23:00::"]]
+    wn30_key: [[2, "treatment%1:04:00::"], [4, "bacterial%3:01:00::"], [5, "scours%1:26:00::"], [7, "feed%2:34:04::"], [9, "gram%1:23:00::"]]
 nTvH:
     lemmas: ["For", "prevention", "or", "treatment", "of", "bacterial", "scours", ",", "feed", "0.1", "to", "5", "milligram", "per", "pound", "of", "body_weight", "daily", "."]
     oewn_key: [[1, "oewn-01079274-n"], [3, "oewn-00659325-n"], [5, "oewn-02844429-a"], [6, "oewn-14295849-n"], [8, "oewn-01184318-v"], [11, "oewn-02194389-s"], [12, "oewn-13745171-n"], [14, "oewn-13742201-n"], [16, "oewn-05034301-n"], [17, "oewn-00081836-r"]]
@@ -531,14 +531,14 @@ vTgP:
     wn16_key: [[4, "feed%2:34:04::"], [7, "rate%1:28:00::"], [9, "provide%2:40:00::"], [10, "10%5:00:00:cardinal:00"], [11, "milligram%1:23:00::"], [12, "des%1:27:00::"], [14, "head%1:05:00::"], [15, "daily%4:02:00::"]]
     wn30_key: [[4, "feed%2:34:04::"], [7, "rate%1:28:00::"], [9, "provide%2:40:00::"], [10, "10%3:00:00:cardinal:00"], [11, "milligram%1:23:00::"], [12, "des%1:27:00::"], [14, "head%1:05:00::"], [15, "daily%4:02:00::"]]
 GevL:
-    lemmas: ["The", "recommended", "10", "-", "milligram", "daily", "intake", "level", "should", "be", "maintain", "."]
-    oewn_key: [[2, "oewn-02194935-s"], [4, "oewn-13745171-n"], [5, "oewn-01975230-s"], [6, "oewn-00839759-n"], [7, "oewn-05101152-n"], [10, "oewn-02687605-v"]]
+    lemmas: ["The", "recommended", "10-milligram", "daily", "intake", "level", "should", "be", "maintain", "."]
+    oewn_key: [[2, "oewn-13745171-n"], [3, "oewn-01975230-s"], [4, "oewn-00839759-n"], [5, "oewn-05101152-n"], [8, "oewn-02687605-v"]]
     paragraph: '18'
-    pos: ["DT", "JJ", "JJ", ":", "NN", "JJ", "NN", "NN", "MD", "VB", "VBN", "."]
-    text: 'The recommended 10 - milligram daily intake level should be maintained.'
-    tokens: [[0, 3], [4, 15], [16, 18], [19, 20], [21, 30], [31, 36], [37, 43], [44, 49], [50, 56], [57, 59], [60, 70], [70, 71]]
-    wn16_key: [[1, "recommended%5:00:00:advisable:00"], [2, "10%5:00:00:cardinal:00"], [4, "milligram%1:23:00::"], [5, "daily%3:01:00::"], [6, "intake%1:04:00::"], [7, "level%1:07:00::"], [10, "maintain%2:42:00::"]]
-    wn30_key: [[2, "10%3:00:00:cardinal:00"], [4, "milligram%1:23:00::"], [5, "daily%3:00:00:periodic:00"], [6, "intake%1:04:00::"], [7, "level%1:07:00::"], [10, "maintain%2:42:00::"]]
+    pos: ["DT", "JJ", "JJ", "JJ", "NN", "NN", "MD", "VB", "VBN", "."]
+    text: 'The recommended 10-milligram daily intake level should be maintained.'
+    tokens: [[0, 3], [4, 15], [16, 28], [29, 34], [35, 41], [42, 47], [48, 54], [55, 57], [58, 68], [68, 69]]
+    wn16_key: [[1, "recommended%5:00:00:advisable:00"], [2, "milligram%1:23:00::"], [3, "daily%3:01:00::"], [4, "intake%1:04:00::"], [5, "level%1:07:00::"], [8, "maintain%2:42:00::"]]
+    wn30_key: [[2, "milligram%1:23:00::"], [3, "daily%3:00:00:periodic:00"], [4, "intake%1:04:00::"], [5, "level%1:07:00::"], [8, "maintain%2:42:00::"]]
 gsTZ:
     lemmas: ["It", "may", "be", "incorporate", "into", "cattle", "creep_feed", "in", "level", "from", "10", "to", "1.5", "milligram", "of", "diethylstilbestrol", "per", "pound", "of", "feed", "."]
     oewn_key: [[3, "oewn-00467564-v"], [5, "oewn-02405077-n"], [6, "oewn-07816612-n"], [8, "oewn-05101152-n"], [10, "oewn-02194935-s"], [13, "oewn-13745171-n"], [15, "oewn-14774301-n"], [17, "oewn-13742201-n"], [19, "oewn-07816067-n"]]

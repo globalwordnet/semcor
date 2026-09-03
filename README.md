@@ -486,6 +486,63 @@ uv run semcor-fix-corrupted-ampersand --dry-run    # preview without writing
 
 Idempotent, like the other `fix-*` scripts.
 
+### `semcor-fix-hyphen-compound-merge`
+
+Merges over-split hyphenated compound tokens back into one (fixes #24).
+Brown sometimes tokenizes a hyphenated compound modifier as a single
+token (`80-hp`, `1787-89`, `3-cm`), but this corpus split some of these
+into three tokens with spurious spaces (`80`, `-`, `hp`) -- the same
+surface symptom as #9's em-dash bug, but fixing it means merging tokens
+back together, not editing whitespace or a character.
+
+#9 already fixed the two other patterns behind a lone `-` surrounded by
+spaces (genuine em dashes and separate-token number ranges); of the
+~1,054 it couldn't confirm either way, a context-window search against
+`nltk.corpus.brown` (2 tokens of real context on each side of the
+hyphen, excluding its immediate neighbours since one of those is what
+might be swallowed into the compound -- stronger than #9's
+neighbour-only search, and something a whole-document diff can't do at
+all here, since stripping whitespace before comparing makes `80 - hp`
+and `80-hp` identical strings) found 315 confirmed compound merges. This
+fixes 289 of those: the *left* token must be purely numeric (`80`,
+`1787`, ...) -- 13 word-prefixed cases (`AFL-CIO`, `radio-TV`,
+`Class-D`, ...) are left for a follow-up issue, since a number's only
+possible sense is always its own generic cardinal/quantity identity
+(safe to drop once merged into a compound that isn't "a number"
+anymore) while a word carries a real, specific sense a merge would need
+an individual editorial call to resolve -- and a further 13 digit-prefix
+candidates turned out to be a byte-for-byte mismatch between this
+corpus's own content and Brown's merged surface (an abbreviation period
+Brown's word has that this corpus tokenizes separately, `per-cent` vs.
+`per_cent`, a `1/2` vs. `1_2` fraction, and one case spanning a *fourth*
+token this corpus splits off too) and are excluded rather than
+fabricating characters this corpus doesn't have.
+
+Every fix merges 3 tokens (number, `-`, word) into 1, closing the two
+whitespace gaps in `text` and shifting later `tokens`/`oewn_key`/
+`wn16_key`/`wn30_key` indices to match, the same token-count-and-length
+change #16's placeholder-marker merge makes -- with one addition #16
+never needed: the number token's own sense (if any -- always its
+generic cardinal/quantity identity, per the digit-only scope above) is
+dropped, while the word token's sense (if any) follows onto the merged
+token like #16's trailing-token case. See the module docstring for the
+full reasoning, including why each fix is located by scanning for its
+surface from an advancing cursor rather than trusting the manifest's
+stored index directly (same reasoning as #10's `split_sentence` --
+needed here too, since a sentence with more than one fix has every
+later index shifted by a merge before it).
+
+`hyphen-compound-merge-fixes.yaml` lists all 289 confirmed fixes;
+generated once, offline, against `nltk.corpus.brown`, this script has no
+runtime NLTK dependency and just applies that manifest.
+
+```sh
+uv run semcor-fix-hyphen-compound-merge              # apply hyphen-compound-merge-fixes.yaml to data/
+uv run semcor-fix-hyphen-compound-merge --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.

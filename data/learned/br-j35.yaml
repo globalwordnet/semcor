@@ -819,14 +819,13 @@ FjIR:
     wn16_key: [[2, "be%2:42:00::"], [4, "conceivable%5:00:00:thinkable:00"], [5, "sense%1:09:04::"], [7, "go_to%2:38:00::"], [9, "opposite%5:00:02:different:00"], [10, "extreme%1:07:00::"], [12, "select%2:31:00::"], [13, "item%1:24:00::"], [15, "form%1:10:00::"], [16, "be%2:42:03::"], [18, "most%3:00:01::"], [19, "unstable%3:00:00::"]]
     wn30_key: [[2, "be%2:42:00::"], [4, "conceivable%3:00:00:thinkable:00"], [5, "sense%1:09:04::"], [7, "go_to%2:42:00::"], [9, "opposite%3:00:02:different:00"], [10, "extreme%1:07:00::"], [12, "select%2:31:00::"], [13, "item%1:24:00::"], [15, "form%1:10:00::"], [16, "be%2:42:03::"], [18, "most%3:00:01::"], [19, "unstable%3:00:00::"]]
 vd1D:
-    lemmas: ["An", "attempted", "middle", "course", "might", "lead", "to", "device", "like", "a", "5000", "-", "word", "alphabetize", "dictionary", "from", "which", "every", "fiftieth", "word", "be", "select", "."]
-    oewn_key: [[1, "oewn-02341872-s"], [2, "oewn-01018550-s"], [3, "oewn-00039000-n"], [5, "oewn-02641740-v"], [7, "oewn-03187746-n"], [12, "oewn-06297048-n"], [13, "oewn-00280009-v"], [14, "oewn-06430544-n"], [18, "oewn-02215814-s"], [19, "oewn-06297048-n"], [21, "oewn-00676526-v"]]
+    lemmas: ["An", "attempted", "middle", "course", "might", "lead", "to", "device", "like", "a", "5000-word", "alphabetize", "dictionary", "from", "which", "every", "fiftieth", "word", "be", "select", "."]
+    oewn_key: [[1, "oewn-02341872-s"], [2, "oewn-01018550-s"], [3, "oewn-00039000-n"], [5, "oewn-02641740-v"], [7, "oewn-03187746-n"], [10, "oewn-06297048-n"], [11, "oewn-00280009-v"], [12, "oewn-06430544-n"], [16, "oewn-02215814-s"], [17, "oewn-06297048-n"], [19, "oewn-00676526-v"]]
     paragraph: '16'
-    pos: ["DT", "JJ", "JJ", "NN", "MD", "VB", "VB", "NNS", "IN", "DT", "CD", ":", "NN", "VB", "NN", "IN", "WDT", "DT", "JJ", "NN", "VBD", "VBN", "."]
-    text: 'An attempted middle course might lead to devices like a 5000 - word alphabetized
-  dictionary from which every fiftieth word was selected.
+    pos: ["DT", "JJ", "JJ", "NN", "MD", "VB", "VB", "NNS", "IN", "DT", "JJ", "VB", "NN", "IN", "WDT", "DT", "JJ", "NN", "VBD", "VBN", "."]
+    text: 'An attempted middle course might lead to devices like a 5000-word alphabetized dictionary from which every fiftieth word was selected.
 
   '
-    tokens: [[0, 2], [3, 12], [13, 19], [20, 26], [27, 32], [33, 37], [38, 40], [41, 48], [49, 53], [54, 55], [56, 60], [61, 62], [63, 67], [68, 80], [81, 91], [92, 96], [97, 102], [103, 108], [109, 117], [118, 122], [123, 126], [127, 135], [135, 136]]
-    wn16_key: [[1, "attempted%5:00:00:unsuccessful:00"], [2, "middle%5:00:00:intermediate:00"], [3, "course%1:04:00::"], [5, "lead%2:42:04::"], [7, "device%1:06:00::"], [12, "word%1:10:00::"], [13, "alphabetize%2:30:00::"], [14, "dictionary%1:10:00::"], [18, "fiftieth%5:00:00:ordinal:00"], [19, "word%1:10:00::"], [21, "select%2:31:00::"]]
-    wn30_key: [[1, "attempted%3:00:00:unsuccessful:00"], [2, "middle%3:00:00:intermediate:00"], [3, "course%1:04:00::"], [5, "lead%2:42:04::"], [7, "device%1:06:00::"], [12, "word%1:10:00::"], [13, "alphabetize%2:30:00::"], [14, "dictionary%1:10:00::"], [18, "fiftieth%3:00:00:ordinal:00"], [19, "word%1:10:00::"], [21, "select%2:31:00::"]]
+    tokens: [[0, 2], [3, 12], [13, 19], [20, 26], [27, 32], [33, 37], [38, 40], [41, 48], [49, 53], [54, 55], [56, 65], [66, 78], [79, 89], [90, 94], [95, 100], [101, 106], [107, 115], [116, 120], [121, 124], [125, 133], [133, 134]]
+    wn16_key: [[1, "attempted%5:00:00:unsuccessful:00"], [2, "middle%5:00:00:intermediate:00"], [3, "course%1:04:00::"], [5, "lead%2:42:04::"], [7, "device%1:06:00::"], [10, "word%1:10:00::"], [11, "alphabetize%2:30:00::"], [12, "dictionary%1:10:00::"], [16, "fiftieth%5:00:00:ordinal:00"], [17, "word%1:10:00::"], [19, "select%2:31:00::"]]
+    wn30_key: [[1, "attempted%3:00:00:unsuccessful:00"], [2, "middle%3:00:00:intermediate:00"], [3, "course%1:04:00::"], [5, "lead%2:42:04::"], [7, "device%1:06:00::"], [10, "word%1:10:00::"], [11, "alphabetize%2:30:00::"], [12, "dictionary%1:10:00::"], [16, "fiftieth%3:00:00:ordinal:00"], [17, "word%1:10:00::"], [19, "select%2:31:00::"]]
