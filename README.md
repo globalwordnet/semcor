@@ -543,6 +543,55 @@ uv run semcor-fix-hyphen-compound-merge --dry-run    # preview without writing
 
 Idempotent, like the other `fix-*` scripts.
 
+### `semcor-fix-dropped-commas`
+
+Restores 52 ordinary sentence commas dropped for no shared reason
+(fixes #31, split off from #15's own "smaller number of ordinary
+sentence commas dropped for unrelated reasons" carve-out). Unlike the
+rest of this stack there's no single mechanical cause -- re-running the
+whole-document `nltk.corpus.brown` alignment and isolating pure
+single-comma deletions not between two digits finds 52 independent,
+scattered drops (parenthetical/interruptive commas, appositive and list
+commas, a couple of comma-preceded quote attributions) -- but there's a
+clean, uniform *shape* to each fix once read in real context:
+
+- 46 sit at a plain token boundary and are fixed by inserting a brand
+  new `,` token, glued to the end of the token before it.
+- 6 (across 5 sentences -- one token needs two internal commas
+  restored) fall *inside* an existing token instead, because the words
+  on either side got joined by this corpus's own multiword convention
+  before the comma was ever dropped (`Department_of_Health_Education_and_Welfare`
+  missing "Health, Education, and Welfare"'s two commas, a movie title,
+  a legal citation, a person's name, a plural noun) -- fixed by growing
+  that one token's own span in place, the same shape #15/#17 use.
+  `lemmas` updated alongside only where it already mirrors the token's
+  surface (exactly or lowercased); left untouched where it's a real
+  WordNet lemma unrelated to the literal surface.
+
+A further 3 instances -- a whole `<digit>,` outline-number sequence
+(Brown's `3,`/`7,`/`4,` opening a new point in running prose) missing
+*completely*, not just a comma -- are a different, rarer shape of loss
+(a whole leading token gone, not an isolated punctuation slip) and are
+deliberately not fixed here; see the issue this fixes for the reasoning.
+
+Each `insert-token` fix is located by scanning for the surface of the
+token it attaches after, from a cursor seeded by its rank among that
+sentence's own fixes (not a plain scan from 0 -- an ordinary word like
+"God" can recur earlier in the same sentence for an unrelated reason,
+and a naive scan finds that decoy instead) -- see the module docstring
+for the full reasoning, including why each `grow-token` fix's relative
+offset needs the same rank-style shift when a token takes more than one
+comma. `dropped-comma-insert-fixes.yaml` and `dropped-comma-grow-fixes.yaml`
+list all 52 confirmed fixes; this script has no runtime NLTK dependency
+and just applies them.
+
+```sh
+uv run semcor-fix-dropped-commas              # apply both manifests to data/
+uv run semcor-fix-dropped-commas --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.
