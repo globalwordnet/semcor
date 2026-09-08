@@ -532,9 +532,10 @@ stored index directly (same reasoning as #10's `split_sentence` --
 needed here too, since a sentence with more than one fix has every
 later index shifted by a merge before it).
 
-`hyphen-compound-merge-fixes.yaml` lists all 289 confirmed fixes;
-generated once, offline, against `nltk.corpus.brown`, this script has no
-runtime NLTK dependency and just applies that manifest.
+`src/semcor/hyphen-compound-merge-fixes.yaml` lists all 289 confirmed
+fixes -- kept next to the script that reads it, since nothing else
+needs it; generated once, offline, against `nltk.corpus.brown`, this
+script has no runtime NLTK dependency and just applies that manifest.
 
 ```sh
 uv run semcor-fix-hyphen-compound-merge              # apply hyphen-compound-merge-fixes.yaml to data/
