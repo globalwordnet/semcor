@@ -425,9 +425,11 @@ the `+` symbol itself, a school grade) and are correctly left alone.
 
 Every fix is a single-character, same-length swap, same as #28: no
 token/offset restructuring, so `tokens`/`pos`/`oewn_key`/`wn16_key`/
-`wn30_key` are untouched. `corrupted-ampersand-fixes.yaml` lists all 78
-confirmed `+` character offsets (two tokens have more than one); this
-script only applies that manifest, with no runtime NLTK dependency.
+`wn30_key` are untouched. `src/semcor/corrupted-ampersand-fixes.yaml`
+-- kept next to the script that reads it, since nothing else needs it
+-- lists all 78 confirmed `+` character offsets (two tokens have more
+than one); this script only applies that manifest, with no runtime
+NLTK dependency.
 
 ```sh
 uv run semcor-fix-corrupted-ampersand              # apply corrupted-ampersand-fixes.yaml to data/
