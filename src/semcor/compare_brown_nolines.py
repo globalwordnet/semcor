@@ -22,10 +22,13 @@ file's first sentence (from `nltk.corpus.brown` -- used only to get each
 file's approximate opening words as a search anchor, never as the text
 being compared) and searches for those words with a cursor that only moves
 forward, so files are found in the same left-to-right order they appear in
-the reference text. The result is committed as `brown-nolines-offsets.yaml`
-so normal runs -- and CI -- never need NLTK at all, the same
-generate-the-manifest-once-offline pattern `em-dash-fixes.yaml` and
-`case-mismatch-fixes.yaml` already use.
+the reference text. The result is committed as
+`src/semcor/brown-nolines-offsets.yaml` -- next to the module that reads
+it, since nothing outside this one script has any use for it, unlike the
+repo-root `*-fixes.yaml` manifests that `semcor-validate`/CI and this
+corpus's own data all depend on -- so normal runs, and CI, never need
+NLTK at all, the same generate-the-manifest-once-offline pattern those
+manifests already use.
 
 Since `brown_nolines.txt` doesn't consistently render one sentence per
 line -- some paragraphs run several sentences together on one line, and
@@ -66,7 +69,7 @@ _SEARCH_WINDOW = 60_000
 _DEFAULT_NOLINES_FILE = Path(
     os.environ.get("SEMCOR_BROWN_NOLINES_FILE", "external/brown_nolines.txt")
 )
-_DEFAULT_OFFSETS_FILE = Path(__file__).resolve().parents[2] / "brown-nolines-offsets.yaml"
+_DEFAULT_OFFSETS_FILE = Path(__file__).resolve().parent / "brown-nolines-offsets.yaml"
 
 
 def brown_fileid_for(path: Path) -> str | None:
