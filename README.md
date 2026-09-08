@@ -641,6 +641,48 @@ uv run semcor-merge                       # merge data/ into ./semcor.yaml
 uv run semcor-merge data/humor -o humor-merged.yaml
 ```
 
+### `semcor-compare-brown-nolines`
+
+Renders `data/` as plain text, in the same document order as
+[`brown_nolines.txt`](http://www.sls.hawaii.edu/bley-vroman/brown_nolines.txt)
+(a plaintext reformatting of the whole 500-file Brown Corpus, used
+elsewhere in this repo -- #16/#18 -- as a more faithful reference than
+`nltk.corpus.brown`'s own tokenized rendering), and diffs the two,
+word-per-line, with `diff`. Meant as a coarse, whole-corpus health check --
+a single number to track across PRs -- rather than a replacement for the
+issue-by-issue fixes above.
+
+Needs a local copy of `brown_nolines.txt`:
+
+```sh
+curl -o external/brown_nolines.txt http://www.sls.hawaii.edu/bley-vroman/brown_nolines.txt
+```
+
+`brown_nolines.txt` has no markers between its 500 concatenated files, so
+locating where each of this corpus's 352 files starts in it is a one-time,
+offline step (needs a local `nltk` install, unlike everything else here)
+committed as `src/semcor/brown-nolines-offsets.yaml` (kept next to the
+script that reads it, rather than at the repo root like the other
+`*-fixes.yaml` manifests, since nothing else needs it); regenerate it
+only if `brown_nolines.txt` itself changes:
+
+```sh
+uv run semcor-compare-brown-nolines --regenerate-offsets
+```
+
+```sh
+uv run semcor-compare-brown-nolines              # compare data/ against external/brown_nolines.txt
+```
+
+Writes `brown-nolines-ours.txt`, `brown-nolines-reference.txt`, and
+`brown-nolines.diff` (all gitignored) and prints a divergent-word-line
+count. That count mixes several things together -- genuinely new,
+uncatalogued bugs, the accepted #32 dateline/byline/subheadline gap, and
+some tokenization-boundary noise (e.g. quote-adjacent spacing in
+heavily-quoted sentences that #8 deliberately left unfixed) -- so treat it
+as a trend to watch, not a target to zero out; read `brown-nolines.diff`
+itself to see what's actually driving a given number.
+
 ## License
 
 See [LICENSE.md](LICENSE.md). This resource is derived from the Princeton

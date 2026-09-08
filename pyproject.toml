@@ -30,6 +30,7 @@ semcor-fix-corrupted-ampersand = "semcor.fix_corrupted_ampersand:main"
 semcor-fix-hyphen-compound-merge = "semcor.fix_hyphen_compound_merge:main"
 semcor-fix-dropped-commas = "semcor.fix_dropped_commas:main"
 semcor-merge = "semcor.merge:main"
+semcor-compare-brown-nolines = "semcor.compare_brown_nolines:main"
 
 [build-system]
 requires = ["uv_build>=0.11.25,<0.12.0"]
