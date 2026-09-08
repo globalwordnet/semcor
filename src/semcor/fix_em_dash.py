@@ -30,8 +30,9 @@ The remaining ~unconfirmed instances (context didn't match Brown
 uniquely, usually because of a multiword-joined neighbour like
 `pointed_out`) are left untouched rather than guessed at.
 
-`em-dash-fixes.yaml` lists exactly the 1,885 confirmed (file, sentence,
-index, replacement) fixes to apply -- generated once, offline, by the
+`em-dash-fixes.yaml` (kept next to this module since nothing else needs
+it) lists exactly the 1,885 confirmed (file, sentence, index,
+replacement) fixes to apply -- generated once, offline, by the
 verification process above; this script has no runtime dependency on
 NLTK/Brown, it just applies that fixed manifest. Each fix expands the
 token's own span (`-` -> `--`, or leaves it `-`) and closes the
@@ -54,7 +55,7 @@ import yaml
 
 from semcor.validate import DATA_DIR, _YAML_LOADER, find_yaml_files
 
-MANIFEST_PATH = Path(__file__).resolve().parents[2] / "em-dash-fixes.yaml"
+MANIFEST_PATH = Path(__file__).resolve().parent / "em-dash-fixes.yaml"
 
 _DOC_BOUNDARY = re.compile(r"(?m)^(\S+):[ \t]*$")
 _TEXT_BLOCK = re.compile(r"(?m)^    text: .*?(?=\n    tokens: )", re.S)

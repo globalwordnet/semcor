@@ -251,8 +251,9 @@ each one's context against `nltk.corpus.brown` found a third pattern
 (a hyphenated compound that's a single token in Brown, e.g. `80-hp`,
 split into three here) that needs token-merging rather than a
 whitespace/character edit, so isn't part of this fix at all (tracked
-separately as #24). `em-dash-fixes.yaml` lists exactly the 1,885
-confirmed fixes from that check; this script only applies that
+separately as #24). `src/semcor/em-dash-fixes.yaml` -- kept next to the
+script that reads it, since nothing else needs it -- lists exactly the
+1,885 confirmed fixes from that check; this script only applies that
 manifest, with no runtime NLTK dependency.
 
 ```sh
