@@ -30,7 +30,8 @@ grade (`B + student`) -- and are correctly left untouched.
 
 Every fix is a single-character, same-length swap, same as #28: no
 token/offset restructuring, so `tokens`/`pos`/`oewn_key`/`wn16_key`/
-`wn30_key` are untouched. `corrupted-ampersand-fixes.yaml` lists all 78
+`wn30_key` are untouched. `corrupted-ampersand-fixes.yaml` (kept next
+to this module since nothing else needs it) lists all 78
 confirmed `+` character offsets (two tokens have more than one); the
 target character is always `&`, so it isn't repeated per entry.
 Generated once, offline, against `nltk.corpus.brown`; this script has
@@ -49,7 +50,7 @@ import yaml
 
 from semcor.validate import DATA_DIR, _YAML_LOADER, find_yaml_files
 
-MANIFEST_PATH = Path(__file__).resolve().parents[2] / "corrupted-ampersand-fixes.yaml"
+MANIFEST_PATH = Path(__file__).resolve().parent / "corrupted-ampersand-fixes.yaml"
 
 _DOC_BOUNDARY = re.compile(r"(?m)^(\S+):[ \t]*$")
 _TEXT_BLOCK = re.compile(r"(?m)^    text: .*?(?=\n    tokens: )", re.S)
