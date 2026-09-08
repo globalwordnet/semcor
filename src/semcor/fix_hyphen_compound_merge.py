@@ -50,11 +50,12 @@ follows onto the merged token exactly like #16's trailing-token case.
 Neither token's sense ever conflicts with a sense on the hyphen itself
 (checked -- 0 of the 289 have one).
 
-`hyphen-compound-merge-fixes.yaml` lists all 289 confirmed `{file,
-sentence, index, replacement, pos}` fixes -- `index` is the *left*
-(numeric) token's index, `replacement` is Brown's merged surface, `pos`
-is Brown's tag at that position converted to this corpus's Penn
-Treebank convention (`NP` -> `NNP`, `-TL`/`-HL` suffixes stripped, same
+`src/semcor/hyphen-compound-merge-fixes.yaml` lists all 289 confirmed
+`{file, sentence, index, replacement, pos}` fixes -- kept next to this
+module since nothing else needs it -- `index` is the *left* (numeric)
+token's index, `replacement` is Brown's merged surface, `pos` is
+Brown's tag at that position converted to this corpus's Penn Treebank
+convention (`NP` -> `NNP`, `-TL`/`-HL` suffixes stripped, same
 conversion #10 already does for its own Brown-tag lookups). Generated
 once, offline, against `nltk.corpus.brown`; this script has no runtime
 NLTK dependency and just applies that manifest.
@@ -72,7 +73,7 @@ import yaml
 
 from semcor.validate import DATA_DIR, _YAML_LOADER, find_yaml_files
 
-MANIFEST_PATH = Path(__file__).resolve().parents[2] / "hyphen-compound-merge-fixes.yaml"
+MANIFEST_PATH = Path(__file__).resolve().parent / "hyphen-compound-merge-fixes.yaml"
 
 _DOC_BOUNDARY = re.compile(r"(?m)^(\S+):[ \t]*$")
 _TEXT_BLOCK = re.compile(r"(?m)^    text: .*?(?=\n    tokens: )", re.S)
