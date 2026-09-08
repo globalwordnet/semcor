@@ -267,54 +267,50 @@ zjEK:
     wn16_key: [[2, "step%1:04:02::"], [4, "computer%1:06:00::"], [5, "memory%1:06:00::"], [7, "separate%2:41:01::"], [9, "three%5:00:00:cardinal:00"], [10, "region%1:15:00::"], [12, "cell%1:06:03::"], [17, "use%2:34:01::"], [19, "storage%1:04:01::"], [22, "form%1:10:00::"], [25, "text%1:10:00::"], [26, "form%1:10:00::"], [27, "list%1:10:00::"], [29, "cell%1:06:03::"], [36, "reserve%2:40:00::"], [38, "information%1:10:00::"], [39, "cell%1:06:03::"], [41, "text%1:10:00::"], [42, "form%1:10:00::"]]
     wn30_key: [[2, "step%1:04:02::"], [4, "computer%1:06:00::"], [5, "memory%1:06:00::"], [7, "separate%2:41:01::"], [9, "three%3:00:00:cardinal:00"], [10, "region%1:15:00::"], [12, "cell%1:06:03::"], [17, "use%2:34:01::"], [19, "storage%1:04:01::"], [22, "form%1:10:00::"], [25, "text%1:10:00::"], [26, "form%1:10:00::"], [27, "list%1:10:00::"], [29, "cell%1:06:03::"], [38, "information%1:10:00::"], [39, "cell%1:06:03::"], [41, "text%1:10:00::"], [42, "form%1:10:00::"]]
 sPjm:
-    lemmas: ["When", "an", "occurrence", "*", "*", "f", "be", "isolate", "during", "text", "reading", ",", "a", "random_memory", "address", "*", "*", "f", ",", "the", "address", "of", "a", "cell", "in", "the", "X-region", ",", "be", "compute", "from", "the", "form", "of", "*", "*", "f", "."]
-    oewn_key: [[2, "oewn-07298313-n"], [7, "oewn-00496744-v"], [9, "oewn-06399623-n"], [10, "oewn-05816802-n"], [13, "oewn-04059869-n"], [14, "oewn-06367922-n"], [20, "oewn-06367922-n"], [23, "oewn-02995166-n"], [29, "oewn-00638921-v"], [32, "oewn-06301417-n"]]
+    lemmas: ["When", "an", "occurrence", "**f", "be", "isolate", "during", "text", "reading", ",", "a", "random_memory", "address", "**f", ",", "the", "address", "of", "a", "cell", "in", "the", "X-region", ",", "be", "compute", "from", "the", "form", "of", "**f", "."]
+    oewn_key: [[2, "oewn-07298313-n"], [5, "oewn-00496744-v"], [7, "oewn-06399623-n"], [8, "oewn-05816802-n"], [11, "oewn-04059869-n"], [12, "oewn-06367922-n"], [16, "oewn-06367922-n"], [19, "oewn-02995166-n"], [25, "oewn-00638921-v"], [28, "oewn-06301417-n"]]
     paragraph: '7'
-    pos: ["WRB", "DT", "NN", "SYM", "SYM", "NN", "VBZ", "VBN", "IN", "NN", "NN", ",", "DT", "NN", "NN", "SYM", "SYM", "NN", ",", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NN", ",", "VBZ", "VBN", "IN", "DT", "NN", "IN", "SYM", "SYM", "NN", "."]
-    text: 'When an occurrence * * f is isolated during text reading, a random_memory address
-  * * f, the address of a cell in the X-region, is computed from the form of * * f.'
-    tokens: [[0, 4], [5, 7], [8, 18], [19, 20], [21, 22], [23, 24], [25, 27], [28, 36], [37, 43], [44, 48], [49, 56], [56, 57], [58, 59], [60, 73], [74, 81], [82, 83], [84, 85], [86, 87], [87, 88], [89, 92], [93, 100], [101, 103], [104, 105], [106, 110], [111, 113], [114, 117], [118, 126], [126, 127], [128, 130], [131, 139], [140, 144], [145, 148], [149, 153], [154, 156], [157, 158], [159, 160], [161, 162], [162, 163]]
-    wn16_key: [[2, "occurrence%1:11:00::"], [7, "isolate%2:30:02::"], [9, "text%1:10:00::"], [10, "reading%1:09:00::"], [13, "random_memory%1:06:00::"], [14, "address%1:10:04::"], [20, "address%1:10:04::"], [23, "cell%1:06:03::"], [29, "compute%2:31:00::"], [32, "form%1:10:00::"]]
-    wn30_key: [[2, "occurrence%1:11:00::"], [7, "isolate%2:30:02::"], [9, "text%1:10:00::"], [10, "reading%1:09:00::"], [13, "random_memory%1:06:00::"], [14, "address%1:10:04::"], [20, "address%1:10:04::"], [23, "cell%1:06:03::"], [29, "compute%2:31:00::"], [32, "form%1:10:00::"]]
+    pos: ["WRB", "DT", "NN", "NN", "VBZ", "VBN", "IN", "NN", "NN", ",", "DT", "NN", "NN", "NN", ",", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NN", ",", "VBZ", "VBN", "IN", "DT", "NN", "IN", "NN", "."]
+    text: 'When an occurrence **f is isolated during text reading, a random_memory address **f, the address of a cell in the X-region, is computed from the form of **f.'
+    tokens: [[0, 4], [5, 7], [8, 18], [19, 22], [23, 25], [26, 34], [35, 41], [42, 46], [47, 54], [54, 55], [56, 57], [58, 71], [72, 79], [80, 83], [83, 84], [85, 88], [89, 96], [97, 99], [100, 101], [102, 106], [107, 109], [110, 113], [114, 122], [122, 123], [124, 126], [127, 135], [136, 140], [141, 144], [145, 149], [150, 152], [153, 156], [156, 157]]
+    wn16_key: [[2, "occurrence%1:11:00::"], [5, "isolate%2:30:02::"], [7, "text%1:10:00::"], [8, "reading%1:09:00::"], [11, "random_memory%1:06:00::"], [12, "address%1:10:04::"], [16, "address%1:10:04::"], [19, "cell%1:06:03::"], [25, "compute%2:31:00::"], [28, "form%1:10:00::"]]
+    wn30_key: [[2, "occurrence%1:11:00::"], [5, "isolate%2:30:02::"], [7, "text%1:10:00::"], [8, "reading%1:09:00::"], [11, "random_memory%1:06:00::"], [12, "address%1:10:04::"], [16, "address%1:10:04::"], [19, "cell%1:06:03::"], [25, "compute%2:31:00::"], [28, "form%1:10:00::"]]
 bDih:
-    lemmas: ["let", "*", "*", "f", "denote", "the", "form", "of", "*", "*", "f", "."]
-    oewn_key: [[4, "oewn-00933429-v"], [6, "oewn-06301417-n"]]
+    lemmas: ["let", "**f", "denote", "the", "form", "of", "**f", "."]
+    oewn_key: [[2, "oewn-00933429-v"], [4, "oewn-06301417-n"]]
     paragraph: '7'
-    pos: ["VB", "SYM", "SYM", "NN", "VB", "DT", "NN", "IN", "SYM", "SYM", "NN", "."]
-    text: 'Let * * f denote the form of * * f.'
-    tokens: [[0, 3], [4, 5], [6, 7], [8, 9], [10, 16], [17, 20], [21, 25], [26, 28], [29, 30], [31, 32], [33, 34], [34, 35]]
-    wn16_key: [[4, "denote%2:32:00::"], [6, "form%1:10:00::"]]
-    wn30_key: [[4, "denote%2:32:00::"], [6, "form%1:10:00::"]]
+    pos: ["VB", "NN", "VB", "DT", "NN", "IN", "NN", "."]
+    text: 'Let **f denote the form of **f.'
+    tokens: [[0, 3], [4, 7], [8, 14], [15, 18], [19, 23], [24, 26], [27, 30], [30, 31]]
+    wn16_key: [[2, "denote%2:32:00::"], [4, "form%1:10:00::"]]
+    wn30_key: [[2, "denote%2:32:00::"], [4, "form%1:10:00::"]]
 V3NM:
-    lemmas: ["If", "cell", "*", "*", "f", "have", "not", "previously", "be", "assign", "as", "the", "information", "cell", "of", "a", "form", "in", "the", "text", "form", "list", ",", "it", "be", "now", "assign", "as", "the", "information", "cell", "of", "*", "*", "f", "."]
-    oewn_key: [[1, "oewn-02995166-n"], [6, "oewn-00024432-r"], [7, "oewn-00061170-r"], [9, "oewn-02233480-v"], [12, "oewn-06646883-n"], [13, "oewn-02995166-n"], [16, "oewn-06301417-n"], [19, "oewn-06399623-n"], [20, "oewn-06301417-n"], [21, "oewn-06492991-n"], [25, "oewn-00049971-r"], [26, "oewn-02233480-v"], [29, "oewn-06646883-n"], [30, "oewn-02995166-n"]]
+    lemmas: ["If", "cell", "**f", "have", "not", "previously", "be", "assign", "as", "the", "information", "cell", "of", "a", "form", "in", "the", "text", "form", "list", ",", "it", "be", "now", "assign", "as", "the", "information", "cell", "of", "**f", "."]
+    oewn_key: [[1, "oewn-02995166-n"], [4, "oewn-00024432-r"], [5, "oewn-00061170-r"], [7, "oewn-02233480-v"], [10, "oewn-06646883-n"], [11, "oewn-02995166-n"], [14, "oewn-06301417-n"], [17, "oewn-06399623-n"], [18, "oewn-06301417-n"], [19, "oewn-06492991-n"], [23, "oewn-00049971-r"], [24, "oewn-02233480-v"], [27, "oewn-06646883-n"], [28, "oewn-02995166-n"]]
     paragraph: '7'
-    pos: ["IN", "NN", "SYM", "SYM", "NN", "VBZ", "RB", "RB", "VBN", "VBN", "IN", "DT", "NN", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "NN", "NN", ",", "PRP", "VBZ", "RB", "VBN", "IN", "DT", "NN", "NN", "IN", "SYM", "SYM", "NN", "."]
-    text: 'If cell * * f has not previously been assigned as the information cell of a form
-  in the text form list, it is now assigned as the information cell of * * f.'
-    tokens: [[0, 2], [3, 7], [8, 9], [10, 11], [12, 13], [14, 17], [18, 21], [22, 32], [33, 37], [38, 46], [47, 49], [50, 53], [54, 65], [66, 70], [71, 73], [74, 75], [76, 80], [81, 83], [84, 87], [88, 92], [93, 97], [98, 102], [102, 103], [104, 106], [107, 109], [110, 113], [114, 122], [123, 125], [126, 129], [130, 141], [142, 146], [147, 149], [150, 151], [152, 153], [154, 155], [155, 156]]
-    wn16_key: [[1, "cell%1:06:03::"], [6, "not%4:02:00::"], [7, "previously%4:02:00::"], [9, "assign%2:40:01::"], [12, "information%1:10:00::"], [13, "cell%1:06:03::"], [16, "form%1:10:00::"], [19, "text%1:10:00::"], [20, "form%1:10:00::"], [21, "list%1:10:00::"], [25, "now%4:02:05::"], [26, "assign%2:40:01::"], [29, "information%1:10:00::"], [30, "cell%1:06:03::"]]
-    wn30_key: [[1, "cell%1:06:03::"], [6, "not%4:02:00::"], [7, "previously%4:02:00::"], [9, "assign%2:40:01::"], [12, "information%1:10:00::"], [13, "cell%1:06:03::"], [16, "form%1:10:00::"], [19, "text%1:10:00::"], [20, "form%1:10:00::"], [21, "list%1:10:00::"], [25, "now%4:02:05::"], [26, "assign%2:40:01::"], [29, "information%1:10:00::"], [30, "cell%1:06:03::"]]
+    pos: ["IN", "NN", "NN", "VBZ", "RB", "RB", "VBN", "VBN", "IN", "DT", "NN", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "NN", "NN", ",", "PRP", "VBZ", "RB", "VBN", "IN", "DT", "NN", "NN", "IN", "NN", "."]
+    text: 'If cell **f has not previously been assigned as the information cell of a form in the text form list, it is now assigned as the information cell of **f.'
+    tokens: [[0, 2], [3, 7], [8, 11], [12, 15], [16, 19], [20, 30], [31, 35], [36, 44], [45, 47], [48, 51], [52, 63], [64, 68], [69, 71], [72, 73], [74, 78], [79, 81], [82, 85], [86, 90], [91, 95], [96, 100], [100, 101], [102, 104], [105, 107], [108, 111], [112, 120], [121, 123], [124, 127], [128, 139], [140, 144], [145, 147], [148, 151], [151, 152]]
+    wn16_key: [[1, "cell%1:06:03::"], [4, "not%4:02:00::"], [5, "previously%4:02:00::"], [7, "assign%2:40:01::"], [10, "information%1:10:00::"], [11, "cell%1:06:03::"], [14, "form%1:10:00::"], [17, "text%1:10:00::"], [18, "form%1:10:00::"], [19, "list%1:10:00::"], [23, "now%4:02:05::"], [24, "assign%2:40:01::"], [27, "information%1:10:00::"], [28, "cell%1:06:03::"]]
+    wn30_key: [[1, "cell%1:06:03::"], [4, "not%4:02:00::"], [5, "previously%4:02:00::"], [7, "assign%2:40:01::"], [10, "information%1:10:00::"], [11, "cell%1:06:03::"], [14, "form%1:10:00::"], [17, "text%1:10:00::"], [18, "form%1:10:00::"], [19, "list%1:10:00::"], [23, "now%4:02:05::"], [24, "assign%2:40:01::"], [27, "information%1:10:00::"], [28, "cell%1:06:03::"]]
 xYdG:
-    lemmas: ["The", "form", "itself", "be", "store", "in", "the", "next", "available", "cell", "of", "the", "W-region", ",", "begin", "in", "cell", "*", "*", "f", "."]
+    lemmas: ["The", "form", "itself", "be", "store", "in", "the", "next", "available", "cell", "of", "the", "W-region", ",", "begin", "in", "cell", "**f", "."]
     oewn_key: [[1, "oewn-06301417-n"], [4, "oewn-02285938-v"], [7, "oewn-00128838-s"], [8, "oewn-00184353-a"], [9, "oewn-02995166-n"], [14, "oewn-02614382-v"], [16, "oewn-02995166-n"]]
     paragraph: '7'
-    pos: ["DT", "NN", "PRP", "VBZ", "VBN", "IN", "DT", "JJ", "JJ", "NNS", "IN", "DT", "NN", ",", "VBG", "IN", "NN", "SYM", "SYM", "NN", "."]
-    text: 'The form itself is stored in the next available cells of the W-region, beginning
-  in cell * * f.'
-    tokens: [[0, 3], [4, 8], [9, 15], [16, 18], [19, 25], [26, 28], [29, 32], [33, 37], [38, 47], [48, 53], [54, 56], [57, 60], [61, 69], [69, 70], [71, 80], [81, 83], [84, 88], [89, 90], [91, 92], [93, 94], [94, 95]]
+    pos: ["DT", "NN", "PRP", "VBZ", "VBN", "IN", "DT", "JJ", "JJ", "NNS", "IN", "DT", "NN", ",", "VBG", "IN", "NN", "NN", "."]
+    text: 'The form itself is stored in the next available cells of the W-region, beginning in cell **f.'
+    tokens: [[0, 3], [4, 8], [9, 15], [16, 18], [19, 25], [26, 28], [29, 32], [33, 37], [38, 47], [48, 53], [54, 56], [57, 60], [61, 69], [69, 70], [71, 80], [81, 83], [84, 88], [89, 92], [92, 93]]
     wn16_key: [[1, "form%1:10:00::"], [4, "store%2:40:00::"], [7, "next%5:00:00:succeeding(a):00"], [8, "available%3:00:00::"], [9, "cell%1:06:03::"], [14, "begin%2:42:00::"], [16, "cell%1:06:03::"]]
     wn30_key: [[1, "form%1:10:00::"], [4, "store%2:40:00::"], [7, "next%3:00:00:succeeding:00"], [8, "available%3:00:00::"], [9, "cell%1:06:03::"], [14, "begin%2:42:00::"], [16, "cell%1:06:03::"]]
 WwtK:
-    lemmas: ["The", "address", "*", "*", "f", "and", "the", "number", "of", "cell", "require", "to", "store", "the", "form", "be", "write", "in", "*", "*", "f", ";", "the", "information", "cell", "*", "*", "f", "be", "save", "to", "represent", "the", "text", "occurrence", "."]
-    oewn_key: [[1, "oewn-06367922-n"], [7, "oewn-05128718-n"], [9, "oewn-02995166-n"], [10, "oewn-02634015-v"], [12, "oewn-02285938-v"], [14, "oewn-06301417-n"], [16, "oewn-01000931-v"], [23, "oewn-06646883-n"], [24, "oewn-02995166-n"], [29, "oewn-02230274-v"], [31, "oewn-02705339-v"], [33, "oewn-06399623-n"], [34, "oewn-07298313-n"]]
+    lemmas: ["The", "address", "**f", "and", "the", "number", "of", "cell", "require", "to", "store", "the", "form", "be", "write", "in", "**f", ";", "the", "information", "cell", "**f", "be", "save", "to", "represent", "the", "text", "occurrence", "."]
+    oewn_key: [[1, "oewn-06367922-n"], [5, "oewn-05128718-n"], [7, "oewn-02995166-n"], [8, "oewn-02634015-v"], [10, "oewn-02285938-v"], [12, "oewn-06301417-n"], [14, "oewn-01000931-v"], [19, "oewn-06646883-n"], [20, "oewn-02995166-n"], [23, "oewn-02230274-v"], [25, "oewn-02705339-v"], [27, "oewn-06399623-n"], [28, "oewn-07298313-n"]]
     paragraph: '7'
-    pos: ["DT", "NN", "SYM", "SYM", "NN", "CC", "DT", "NN", "IN", "NNS", "VBN", "TO", "VB", "DT", "NN", "VBP", "VBN", "IN", "SYM", "SYM", "NN", ":", "DT", "NN", "NN", "SYM", "SYM", "NN", "VBZ", "VBN", "TO", "VB", "DT", "NN", "NN", "."]
-    text: 'The address * * f and the number of cells required to store the form are written
-  in * * f; the information cell * * f is saved to represent the text occurrence.'
-    tokens: [[0, 3], [4, 11], [12, 13], [14, 15], [16, 17], [18, 21], [22, 25], [26, 32], [33, 35], [36, 41], [42, 50], [51, 53], [54, 59], [60, 63], [64, 68], [69, 72], [73, 80], [81, 83], [84, 85], [86, 87], [88, 89], [89, 90], [91, 94], [95, 106], [107, 111], [112, 113], [114, 115], [116, 117], [118, 120], [121, 126], [127, 129], [130, 139], [140, 143], [144, 148], [149, 159], [159, 160]]
-    wn16_key: [[1, "address%1:10:04::"], [7, "number%1:07:00::"], [9, "cell%1:06:03::"], [10, "require%2:42:00::"], [12, "store%2:40:00::"], [14, "form%1:10:00::"], [16, "write%2:32:03::"], [23, "information%1:10:00::"], [24, "cell%1:06:03::"], [29, "save%2:40:00::"], [31, "represent%2:42:02::"], [33, "text%1:10:00::"], [34, "occurrence%1:11:00::"]]
-    wn30_key: [[1, "address%1:10:04::"], [7, "number%1:07:00::"], [9, "cell%1:06:03::"], [10, "require%2:42:00::"], [12, "store%2:40:00::"], [14, "form%1:10:00::"], [16, "write%2:32:03::"], [23, "information%1:10:00::"], [24, "cell%1:06:03::"], [29, "save%2:40:00::"], [31, "represent%2:42:02::"], [33, "text%1:10:00::"], [34, "occurrence%1:11:00::"]]
+    pos: ["DT", "NN", "NN", "CC", "DT", "NN", "IN", "NNS", "VBN", "TO", "VB", "DT", "NN", "VBP", "VBN", "IN", "NN", ":", "DT", "NN", "NN", "NN", "VBZ", "VBN", "TO", "VB", "DT", "NN", "NN", "."]
+    text: 'The address **f and the number of cells required to store the form are written in **f; the information cell **f is saved to represent the text occurrence.'
+    tokens: [[0, 3], [4, 11], [12, 15], [16, 19], [20, 23], [24, 30], [31, 33], [34, 39], [40, 48], [49, 51], [52, 57], [58, 61], [62, 66], [67, 70], [71, 78], [79, 81], [82, 85], [85, 86], [87, 90], [91, 102], [103, 107], [108, 111], [112, 114], [115, 120], [121, 123], [124, 133], [134, 137], [138, 142], [143, 153], [153, 154]]
+    wn16_key: [[1, "address%1:10:04::"], [5, "number%1:07:00::"], [7, "cell%1:06:03::"], [8, "require%2:42:00::"], [10, "store%2:40:00::"], [12, "form%1:10:00::"], [14, "write%2:32:03::"], [19, "information%1:10:00::"], [20, "cell%1:06:03::"], [23, "save%2:40:00::"], [25, "represent%2:42:02::"], [27, "text%1:10:00::"], [28, "occurrence%1:11:00::"]]
+    wn30_key: [[1, "address%1:10:04::"], [5, "number%1:07:00::"], [7, "cell%1:06:03::"], [8, "require%2:42:00::"], [10, "store%2:40:00::"], [12, "form%1:10:00::"], [14, "write%2:32:03::"], [19, "information%1:10:00::"], [20, "cell%1:06:03::"], [23, "save%2:40:00::"], [25, "represent%2:42:02::"], [27, "text%1:10:00::"], [28, "occurrence%1:11:00::"]]
 acvx:
     lemmas: ["text", "reading", "continue", "with", "the", "next", "occurrence", "."]
     oewn_key: [[0, "oewn-06399623-n"], [1, "oewn-05816802-n"], [2, "oewn-02690747-v"], [5, "oewn-00128838-s"], [6, "oewn-07298313-n"]]
@@ -327,54 +323,50 @@ acvx:
     wn16_key: [[0, "text%1:10:00::"], [1, "reading%1:09:00::"], [2, "continue%2:42:01::"], [5, "next%5:00:00:succeeding(a):00"], [6, "occurrence%1:11:00::"]]
     wn30_key: [[0, "text%1:10:00::"], [1, "reading%1:09:00::"], [2, "continue%2:42:01::"], [5, "next%3:00:00:succeeding:00"], [6, "occurrence%1:11:00::"]]
 ggow:
-    lemmas: ["let", "us", "assume", "that", "*", "*", "f", "be", "identical", "to", "the", "form", "of", "an", "occurrence", "*", "*", "f", "which", "precede", "*", "*", "f", "in", "the", "text", "."]
-    oewn_key: [[2, "oewn-00633898-v"], [7, "oewn-02610777-v"], [8, "oewn-02071531-s"], [11, "oewn-06301417-n"], [14, "oewn-07298313-n"], [19, "oewn-02698528-v"], [25, "oewn-06399623-n"]]
+    lemmas: ["let", "us", "assume", "that", "**f", "be", "identical", "to", "the", "form", "of", "an", "occurrence", "**f", "which", "precede", "**f", "in", "the", "text", "."]
+    oewn_key: [[2, "oewn-00633898-v"], [5, "oewn-02610777-v"], [6, "oewn-02071531-s"], [9, "oewn-06301417-n"], [12, "oewn-07298313-n"], [15, "oewn-02698528-v"], [19, "oewn-06399623-n"]]
     paragraph: '8'
-    pos: ["VB", "PRP", "VB", "IN", "SYM", "SYM", "NN", "VBZ", "JJ", "VB", "DT", "NN", "IN", "DT", "NN", "SYM", "SYM", "NN", "WDT", "VBD", "SYM", "SYM", "NN", "IN", "DT", "NN", "."]
-    text: 'Let us assume that * * f is identical to the form of an occurrence * * f which preceded
-  * * f in the text.'
-    tokens: [[0, 3], [4, 6], [7, 13], [14, 18], [19, 20], [21, 22], [23, 24], [25, 27], [28, 37], [38, 40], [41, 44], [45, 49], [50, 52], [53, 55], [56, 66], [67, 68], [69, 70], [71, 72], [73, 78], [79, 87], [88, 89], [90, 91], [92, 93], [94, 96], [97, 100], [101, 105], [105, 106]]
-    wn16_key: [[2, "assume%2:31:00::"], [7, "be%2:42:03::"], [8, "identical%5:00:00:same:00"], [11, "form%1:10:00::"], [14, "occurrence%1:11:00::"], [19, "precede%2:42:01::"], [25, "text%1:10:00::"]]
-    wn30_key: [[2, "assume%2:31:00::"], [7, "be%2:42:03::"], [8, "identical%3:00:00:same:00"], [11, "form%1:10:00::"], [14, "occurrence%1:11:00::"], [19, "precede%2:42:01::"], [25, "text%1:10:00::"]]
+    pos: ["VB", "PRP", "VB", "IN", "NN", "VBZ", "JJ", "VB", "DT", "NN", "IN", "DT", "NN", "NN", "WDT", "VBD", "NN", "IN", "DT", "NN", "."]
+    text: 'Let us assume that **f is identical to the form of an occurrence **f which preceded **f in the text.'
+    tokens: [[0, 3], [4, 6], [7, 13], [14, 18], [19, 22], [23, 25], [26, 35], [36, 38], [39, 42], [43, 47], [48, 50], [51, 53], [54, 64], [65, 68], [69, 74], [75, 83], [84, 87], [88, 90], [91, 94], [95, 99], [99, 100]]
+    wn16_key: [[2, "assume%2:31:00::"], [5, "be%2:42:03::"], [6, "identical%5:00:00:same:00"], [9, "form%1:10:00::"], [12, "occurrence%1:11:00::"], [15, "precede%2:42:01::"], [19, "text%1:10:00::"]]
+    wn30_key: [[2, "assume%2:31:00::"], [5, "be%2:42:03::"], [6, "identical%3:00:00:same:00"], [9, "form%1:10:00::"], [12, "occurrence%1:11:00::"], [15, "precede%2:42:01::"], [19, "text%1:10:00::"]]
 gwiT:
-    lemmas: ["When", "this", "situation", "exist", ",", "the", "address", "*", "*", "f", "will", "equal", "*", "*", "f", "which", "be", "produce", "from", "*", "*", "f", "."]
-    oewn_key: [[2, "oewn-13950416-n"], [3, "oewn-02609706-v"], [6, "oewn-06367922-n"], [11, "oewn-02670846-v"], [17, "oewn-01756303-v"]]
+    lemmas: ["When", "this", "situation", "exist", ",", "the", "address", "**f", "will", "equal", "**f", "which", "be", "produce", "from", "**f", "."]
+    oewn_key: [[2, "oewn-13950416-n"], [3, "oewn-02609706-v"], [6, "oewn-06367922-n"], [9, "oewn-02670846-v"], [13, "oewn-01756303-v"]]
     paragraph: '8'
-    pos: ["WRB", "DT", "NN", "VBZ", ",", "DT", "NN", "SYM", "SYM", "NN", "MD", "VB", "SYM", "SYM", "NN", "WDT", "VBD", "VBN", "IN", "SYM", "SYM", "NN", "."]
-    text: 'When this situation exists, the address * * f will equal * * f which was produced
-  from * * f.'
-    tokens: [[0, 4], [5, 9], [10, 19], [20, 26], [26, 27], [28, 31], [32, 39], [40, 41], [42, 43], [44, 45], [46, 50], [51, 56], [57, 58], [59, 60], [61, 62], [63, 68], [69, 72], [73, 81], [82, 86], [87, 88], [89, 90], [91, 92], [92, 93]]
-    wn16_key: [[2, "situation%1:26:00::"], [3, "exist%2:42:00::"], [6, "address%1:10:04::"], [11, "equal%2:42:00::"], [17, "produce%2:36:02::"]]
-    wn30_key: [[2, "situation%1:26:00::"], [3, "exist%2:42:00::"], [6, "address%1:10:04::"], [11, "equal%2:42:00::"], [17, "produce%2:36:02::"]]
+    pos: ["WRB", "DT", "NN", "VBZ", ",", "DT", "NN", "NN", "MD", "VB", "NN", "WDT", "VBD", "VBN", "IN", "NN", "."]
+    text: 'When this situation exists, the address **f will equal **f which was produced from **f.'
+    tokens: [[0, 4], [5, 9], [10, 19], [20, 26], [26, 27], [28, 31], [32, 39], [40, 43], [44, 48], [49, 54], [55, 58], [59, 64], [65, 68], [69, 77], [78, 82], [83, 86], [86, 87]]
+    wn16_key: [[2, "situation%1:26:00::"], [3, "exist%2:42:00::"], [6, "address%1:10:04::"], [9, "equal%2:42:00::"], [13, "produce%2:36:02::"]]
+    wn30_key: [[2, "situation%1:26:00::"], [3, "exist%2:42:00::"], [6, "address%1:10:04::"], [9, "equal%2:42:00::"], [13, "produce%2:36:02::"]]
 fbkk:
-    lemmas: ["If", "*", "*", "f", "be", "assign", "as", "the", "information", "cell", "for", "*", "*", "f", ",", "the", "routine", "can", "detect", "that", "*", "*", "f", "be", "identical", "to", "*", "*", "f", "by", "compare", "*", "*", "f", "with", "the", "form", "store", "at", "location", "*", "*", "f", "."]
-    oewn_key: [[5, "oewn-02233480-v"], [8, "oewn-06646883-n"], [9, "oewn-02995166-n"], [16, "oewn-06594579-n"], [18, "oewn-02158938-v"], [23, "oewn-02610777-v"], [24, "oewn-02071531-s"], [30, "oewn-00654571-v"], [36, "oewn-06301417-n"], [37, "oewn-02285938-v"], [39, "oewn-00027365-n"]]
+    lemmas: ["If", "**f", "be", "assign", "as", "the", "information", "cell", "for", "**f", ",", "the", "routine", "can", "detect", "that", "**f", "be", "identical", "to", "**f", "by", "compare", "**f", "with", "the", "form", "store", "at", "location", "**f", "."]
+    oewn_key: [[3, "oewn-02233480-v"], [6, "oewn-06646883-n"], [7, "oewn-02995166-n"], [12, "oewn-06594579-n"], [14, "oewn-02158938-v"], [17, "oewn-02610777-v"], [18, "oewn-02071531-s"], [22, "oewn-00654571-v"], [26, "oewn-06301417-n"], [27, "oewn-02285938-v"], [29, "oewn-00027365-n"]]
     paragraph: '8'
-    pos: ["IN", "SYM", "SYM", "NN", "VBD", "VBN", "IN", "DT", "NN", "NN", "IN", "SYM", "SYM", "NN", ",", "DT", "NN", "MD", "VB", "IN", "SYM", "SYM", "NN", "VBZ", "JJ", "VB", "SYM", "SYM", "NN", "IN", "VBG", "SYM", "SYM", "NN", "IN", "DT", "NN", "VBN", "IN", "NN", "SYM", "SYM", "NN", "."]
-    text: 'If * * f was assigned as the information cell for * * f, the routine can detect
-  that * * f is identical to * * f by comparing * * f with the form stored at location
-  * * f.'
-    tokens: [[0, 2], [3, 4], [5, 6], [7, 8], [9, 12], [13, 21], [22, 24], [25, 28], [29, 40], [41, 45], [46, 49], [50, 51], [52, 53], [54, 55], [55, 56], [57, 60], [61, 68], [69, 72], [73, 79], [80, 84], [85, 86], [87, 88], [89, 90], [91, 93], [94, 103], [104, 106], [107, 108], [109, 110], [111, 112], [113, 115], [116, 125], [126, 127], [128, 129], [130, 131], [132, 136], [137, 140], [141, 145], [146, 152], [153, 155], [156, 164], [165, 166], [167, 168], [169, 170], [170, 171]]
-    wn16_key: [[5, "assign%2:40:01::"], [8, "information%1:10:00::"], [9, "cell%1:06:03::"], [16, "routine%1:10:00::"], [18, "detect%2:39:00::"], [23, "be%2:42:03::"], [24, "identical%5:00:00:same:00"], [30, "compare%2:31:00::"], [36, "form%1:10:00::"], [37, "store%2:40:00::"], [39, "location%1:03:00::"]]
-    wn30_key: [[5, "assign%2:40:01::"], [8, "information%1:10:00::"], [9, "cell%1:06:03::"], [16, "routine%1:10:00::"], [18, "detect%2:39:00::"], [23, "be%2:42:03::"], [24, "identical%3:00:00:same:00"], [30, "compare%2:31:00::"], [36, "form%1:10:00::"], [37, "store%2:40:00::"], [39, "location%1:03:00::"]]
+    pos: ["IN", "NN", "VBD", "VBN", "IN", "DT", "NN", "NN", "IN", "NN", ",", "DT", "NN", "MD", "VB", "IN", "NN", "VBZ", "JJ", "VB", "NN", "IN", "VBG", "NN", "IN", "DT", "NN", "VBN", "IN", "NN", "NN", "."]
+    text: 'If **f was assigned as the information cell for **f, the routine can detect that **f is identical to **f by comparing **f with the form stored at location **f.'
+    tokens: [[0, 2], [3, 6], [7, 10], [11, 19], [20, 22], [23, 26], [27, 38], [39, 43], [44, 47], [48, 51], [51, 52], [53, 56], [57, 64], [65, 68], [69, 75], [76, 80], [81, 84], [85, 87], [88, 97], [98, 100], [101, 104], [105, 107], [108, 117], [118, 121], [122, 126], [127, 130], [131, 135], [136, 142], [143, 145], [146, 154], [155, 158], [158, 159]]
+    wn16_key: [[3, "assign%2:40:01::"], [6, "information%1:10:00::"], [7, "cell%1:06:03::"], [12, "routine%1:10:00::"], [14, "detect%2:39:00::"], [17, "be%2:42:03::"], [18, "identical%5:00:00:same:00"], [22, "compare%2:31:00::"], [26, "form%1:10:00::"], [27, "store%2:40:00::"], [29, "location%1:03:00::"]]
+    wn30_key: [[3, "assign%2:40:01::"], [6, "information%1:10:00::"], [7, "cell%1:06:03::"], [12, "routine%1:10:00::"], [14, "detect%2:39:00::"], [17, "be%2:42:03::"], [18, "identical%3:00:00:same:00"], [22, "compare%2:31:00::"], [26, "form%1:10:00::"], [27, "store%2:40:00::"], [29, "location%1:03:00::"]]
 FSvq:
-    lemmas: ["The", "address", "*", "*", "f", "be", "store", "in", "the", "cell", "*", "*", "f", "."]
-    oewn_key: [[1, "oewn-06367922-n"], [6, "oewn-02285938-v"], [9, "oewn-02995166-n"]]
+    lemmas: ["The", "address", "**f", "be", "store", "in", "the", "cell", "**f", "."]
+    oewn_key: [[1, "oewn-06367922-n"], [4, "oewn-02285938-v"], [7, "oewn-02995166-n"]]
     paragraph: '8'
-    pos: ["DT", "NN", "SYM", "SYM", "NN", "VBZ", "VBN", "IN", "DT", "NN", "SYM", "SYM", "NN", "."]
-    text: 'The address * * f is stored in the cell * * f.'
-    tokens: [[0, 3], [4, 11], [12, 13], [14, 15], [16, 17], [18, 20], [21, 27], [28, 30], [31, 34], [35, 39], [40, 41], [42, 43], [44, 45], [45, 46]]
-    wn16_key: [[1, "address%1:10:04::"], [6, "store%2:40:00::"], [9, "cell%1:06:03::"]]
-    wn30_key: [[1, "address%1:10:04::"], [6, "store%2:40:00::"], [9, "cell%1:06:03::"]]
+    pos: ["DT", "NN", "NN", "VBZ", "VBN", "IN", "DT", "NN", "NN", "."]
+    text: 'The address **f is stored in the cell **f.'
+    tokens: [[0, 3], [4, 11], [12, 15], [16, 18], [19, 25], [26, 28], [29, 32], [33, 37], [38, 41], [41, 42]]
+    wn16_key: [[1, "address%1:10:04::"], [4, "store%2:40:00::"], [7, "cell%1:06:03::"]]
+    wn30_key: [[1, "address%1:10:04::"], [4, "store%2:40:00::"], [7, "cell%1:06:03::"]]
 /N1H:
-    lemmas: ["When", ",", "as", "in", "this", "case", ",", "the", "two", "form", "match", ",", "the", "address", "*", "*", "f", "be", "save", "to", "represent", "the", "occurrence", "*", "*", "f", "."]
-    oewn_key: [[5, "oewn-07323507-n"], [8, "oewn-02194109-s"], [9, "oewn-06301417-n"], [10, "oewn-02663315-v"], [13, "oewn-06367922-n"], [18, "oewn-02230274-v"], [20, "oewn-02705339-v"], [22, "oewn-07298313-n"]]
+    lemmas: ["When", ",", "as", "in", "this", "case", ",", "the", "two", "form", "match", ",", "the", "address", "**f", "be", "save", "to", "represent", "the", "occurrence", "**f", "."]
+    oewn_key: [[5, "oewn-07323507-n"], [8, "oewn-02194109-s"], [9, "oewn-06301417-n"], [10, "oewn-02663315-v"], [13, "oewn-06367922-n"], [16, "oewn-02230274-v"], [18, "oewn-02705339-v"], [20, "oewn-07298313-n"]]
     paragraph: '8'
-    pos: ["WRB", ",", "IN", "IN", "DT", "NN", ",", "JJ", "JJ", "NNS", "VB", ",", "DT", "NN", "SYM", "SYM", "NN", "VBZ", "VBN", "TO", "VB", "DT", "NN", "SYM", "SYM", "NN", "."]
-    text: 'When, as in this case, the two forms match, the address * * f is saved to represent the occurrence * * f.'
-    tokens: [[0, 4], [4, 5], [6, 8], [9, 11], [12, 16], [17, 21], [21, 22], [23, 26], [27, 30], [31, 36], [37, 42], [42, 43], [44, 47], [48, 55], [56, 57], [58, 59], [60, 61], [62, 64], [65, 70], [71, 73], [74, 83], [84, 87], [88, 98], [99, 100], [101, 102], [103, 104], [104, 105]]
-    wn16_key: [[5, "case%1:11:00::"], [8, "two%5:00:00:cardinal:00"], [9, "form%1:10:00::"], [10, "match%2:42:00::"], [13, "address%1:10:04::"], [18, "save%2:40:00::"], [20, "represent%2:42:02::"], [22, "occurrence%1:11:00::"]]
-    wn30_key: [[5, "case%1:11:00::"], [8, "two%3:00:00:cardinal:00"], [9, "form%1:10:00::"], [10, "match%2:42:00::"], [13, "address%1:10:04::"], [18, "save%2:40:00::"], [20, "represent%2:42:02::"], [22, "occurrence%1:11:00::"]]
+    pos: ["WRB", ",", "IN", "IN", "DT", "NN", ",", "JJ", "JJ", "NNS", "VB", ",", "DT", "NN", "NN", "VBZ", "VBN", "TO", "VB", "DT", "NN", "NN", "."]
+    text: 'When, as in this case, the two forms match, the address **f is saved to represent the occurrence **f.'
+    tokens: [[0, 4], [4, 5], [6, 8], [9, 11], [12, 16], [17, 21], [21, 22], [23, 26], [27, 30], [31, 36], [37, 42], [42, 43], [44, 47], [48, 55], [56, 59], [60, 62], [63, 68], [69, 71], [72, 81], [82, 85], [86, 96], [97, 100], [100, 101]]
+    wn16_key: [[5, "case%1:11:00::"], [8, "two%5:00:00:cardinal:00"], [9, "form%1:10:00::"], [10, "match%2:42:00::"], [13, "address%1:10:04::"], [16, "save%2:40:00::"], [18, "represent%2:42:02::"], [20, "occurrence%1:11:00::"]]
+    wn30_key: [[5, "case%1:11:00::"], [8, "two%3:00:00:cardinal:00"], [9, "form%1:10:00::"], [10, "match%2:42:00::"], [13, "address%1:10:04::"], [16, "save%2:40:00::"], [18, "represent%2:42:02::"], [20, "occurrence%1:11:00::"]]
 mxEG:
     lemmas: ["text", "reading", "continue", "with", "the", "next", "occurrence", "."]
     oewn_key: [[0, "oewn-06399623-n"], [1, "oewn-05816802-n"], [2, "oewn-02690747-v"], [5, "oewn-00128838-s"], [6, "oewn-07298313-n"]]
@@ -417,37 +409,32 @@ wZJ1:
     wn16_key: [[0, "thus%4:02:00::"], [3, "more_than%4:02:00::"], [4, "one%5:00:00:cardinal:00"], [5, "distinct%5:00:00:different:00"], [6, "form%1:10:00::"], [7, "lead%2:42:03::"], [10, "particular%5:00:02:specific:00"], [11, "cell%1:06:03::"], [17, "chain%1:14:00::"], [19, "information%1:10:00::"], [20, "cell%1:06:03::"], [23, "create%2:36:00::"], [25, "accommodate%2:42:00::"], [27, "form%1:10:00::"], [29, "one%5:00:00:cardinal:00"], [30, "cell%1:06:03::"], [33, "chain%1:14:00::"], [36, "form%1:10:00::"]]
     wn30_key: [[0, "thus%4:02:00::"], [4, "one%3:00:00:cardinal:00"], [5, "distinct%3:00:00:different:00"], [6, "form%1:10:00::"], [7, "lead%2:42:03::"], [10, "particular%3:00:02:specific:00"], [11, "cell%1:06:03::"], [17, "chain%1:14:00::"], [19, "information%1:10:00::"], [20, "cell%1:06:03::"], [23, "create%2:36:00::"], [25, "accommodate%2:42:00::"], [27, "form%1:10:00::"], [29, "one%3:00:00:cardinal:00"], [30, "cell%1:06:03::"], [33, "chain%1:14:00::"], [36, "form%1:10:00::"]]
 fzSi:
-    lemmas: ["If", "*", "*", "f", "lead", "to", "an", "address", "*", "*", "f", "that", "be", "equal", "to", "the", "address", "compute", "from", "*", "*", "f", ",", "even", "though", "*", "*", "f", "do", "not", "match", "*", "*", "f", ",", "the", "chain", "of", "information", "cell", "be", "extend", "from", "*", "*", "f", "by", "store", "the", "address", "of", "the", "next", "available", "cell", "in", "the", "Y-region", ",", "*", "*", "f", ",", "in", "*", "*", "f", "."]
-    oewn_key: [[4, "oewn-02692313-v"], [7, "oewn-06367922-n"], [12, "oewn-02610777-v"], [13, "oewn-00893124-a"], [16, "oewn-06367922-n"], [17, "oewn-00638921-v"], [23, "oewn-00018505-r"], [24, "oewn-00120034-r"], [29, "oewn-00024432-r"], [30, "oewn-02663315-v"], [36, "oewn-08392981-n"], [38, "oewn-06646883-n"], [39, "oewn-02995166-n"], [41, "oewn-02691775-v"], [47, "oewn-02285938-v"], [49, "oewn-06367922-n"], [52, "oewn-00128838-s"], [53, "oewn-00184353-a"], [54, "oewn-02995166-n"]]
+    lemmas: ["If", "**f", "lead", "to", "an", "address", "**f", "that", "be", "equal", "to", "the", "address", "compute", "from", "**f", ",", "even", "though", "**f", "do", "not", "match", "**f", ",", "the", "chain", "of", "information", "cell", "be", "extend", "from", "**f", "by", "store", "the", "address", "of", "the", "next", "available", "cell", "in", "the", "Y-region", ",", "**f", ",", "in", "**f", "."]
+    oewn_key: [[2, "oewn-02692313-v"], [5, "oewn-06367922-n"], [8, "oewn-02610777-v"], [9, "oewn-00893124-a"], [12, "oewn-06367922-n"], [13, "oewn-00638921-v"], [17, "oewn-00018505-r"], [18, "oewn-00120034-r"], [21, "oewn-00024432-r"], [22, "oewn-02663315-v"], [26, "oewn-08392981-n"], [28, "oewn-06646883-n"], [29, "oewn-02995166-n"], [31, "oewn-02691775-v"], [35, "oewn-02285938-v"], [37, "oewn-06367922-n"], [40, "oewn-00128838-s"], [41, "oewn-00184353-a"], [42, "oewn-02995166-n"]]
     paragraph: '9'
-    pos: ["IN", "SYM", "SYM", "NN", "VBZ", "VB", "DT", "NN", "SYM", "SYM", "NN", "RB", "VBZ", "JJ", "VB", "DT", "NN", "VBN", "IN", "SYM", "SYM", "NN", ",", "RB", "RB", "SYM", "SYM", "NN", "VBZ", "RB", "VB", "SYM", "SYM", "NN", ",", "DT", "NN", "IN", "NN", "NNS", "VBZ", "VBN", "IN", "SYM", "SYM", "NN", "IN", "VBG", "DT", "NN", "IN", "DT", "JJ", "JJ", "NN", "IN", "DT", "NN", ",", "SYM", "SYM", "NN", ",", "IN", "SYM", "SYM", "NN", "."]
-    text: 'If * * f leads to an address * * f that is equal to the address computed from *
-  * f, even though * * f does not match * * f, the chain of information cells is extended
-  from * * f by storing the address of the next available cell in the Y-region, *
-  * f, in * * f.'
-    tokens: [[0, 2], [3, 4], [5, 6], [7, 8], [9, 14], [15, 17], [18, 20], [21, 28], [29, 30], [31, 32], [33, 34], [35, 39], [40, 42], [43, 48], [49, 51], [52, 55], [56, 63], [64, 72], [73, 77], [78, 79], [80, 81], [82, 83], [83, 84], [85, 89], [90, 96], [97, 98], [99, 100], [101, 102], [103, 107], [108, 111], [112, 117], [118, 119], [120, 121], [122, 123], [123, 124], [125, 128], [129, 134], [135, 137], [138, 149], [150, 155], [156, 158], [159, 167], [168, 172], [173, 174], [175, 176], [177, 178], [179, 181], [182, 189], [190, 193], [194, 201], [202, 204], [205, 208], [209, 213], [214, 223], [224, 228], [229, 231], [232, 235], [236, 244], [244, 245], [246, 247], [248, 249], [250, 251], [251, 252], [253, 255], [256, 257], [258, 259], [260, 261], [261, 262]]
-    wn16_key: [[4, "lead%2:42:03::"], [7, "address%1:10:04::"], [12, "be%2:42:03::"], [13, "equal%3:00:00::"], [16, "address%1:10:04::"], [17, "compute%2:31:00::"], [23, "even%4:02:03::"], [24, "though%4:02:00::"], [29, "not%4:02:00::"], [30, "match%2:42:00::"], [36, "chain%1:14:00::"], [38, "information%1:10:00::"], [39, "cell%1:06:03::"], [41, "extend%2:42:03::"], [47, "store%2:40:00::"], [49, "address%1:10:04::"], [52, "next%5:00:00:succeeding(a):00"], [53, "available%3:00:00::"], [54, "cell%1:06:03::"]]
-    wn30_key: [[4, "lead%2:42:03::"], [7, "address%1:10:04::"], [12, "be%2:42:03::"], [13, "equal%3:00:00::"], [16, "address%1:10:04::"], [17, "compute%2:31:00::"], [23, "even%4:02:03::"], [24, "though%4:02:01::"], [29, "not%4:02:00::"], [30, "match%2:42:00::"], [36, "chain%1:14:00::"], [38, "information%1:10:00::"], [39, "cell%1:06:03::"], [41, "extend%2:42:03::"], [47, "store%2:40:00::"], [49, "address%1:10:04::"], [52, "next%3:00:00:succeeding:00"], [53, "available%3:00:00::"], [54, "cell%1:06:03::"]]
+    pos: ["IN", "NN", "VBZ", "VB", "DT", "NN", "NN", "RB", "VBZ", "JJ", "VB", "DT", "NN", "VBN", "IN", "NN", ",", "RB", "RB", "NN", "VBZ", "RB", "VB", "NN", ",", "DT", "NN", "IN", "NN", "NNS", "VBZ", "VBN", "IN", "NN", "IN", "VBG", "DT", "NN", "IN", "DT", "JJ", "JJ", "NN", "IN", "DT", "NN", ",", "NN", ",", "IN", "NN", "."]
+    text: 'If **f leads to an address **f that is equal to the address computed from **f, even though **f does not match **f, the chain of information cells is extended from **f by storing the address of the next available cell in the Y-region, **f, in **f.'
+    tokens: [[0, 2], [3, 6], [7, 12], [13, 15], [16, 18], [19, 26], [27, 30], [31, 35], [36, 38], [39, 44], [45, 47], [48, 51], [52, 59], [60, 68], [69, 73], [74, 77], [77, 78], [79, 83], [84, 90], [91, 94], [95, 99], [100, 103], [104, 109], [110, 113], [113, 114], [115, 118], [119, 124], [125, 127], [128, 139], [140, 145], [146, 148], [149, 157], [158, 162], [163, 166], [167, 169], [170, 177], [178, 181], [182, 189], [190, 192], [193, 196], [197, 201], [202, 211], [212, 216], [217, 219], [220, 223], [224, 232], [232, 233], [234, 237], [237, 238], [239, 241], [242, 245], [245, 246]]
+    wn16_key: [[2, "lead%2:42:03::"], [5, "address%1:10:04::"], [8, "be%2:42:03::"], [9, "equal%3:00:00::"], [12, "address%1:10:04::"], [13, "compute%2:31:00::"], [17, "even%4:02:03::"], [18, "though%4:02:00::"], [21, "not%4:02:00::"], [22, "match%2:42:00::"], [26, "chain%1:14:00::"], [28, "information%1:10:00::"], [29, "cell%1:06:03::"], [31, "extend%2:42:03::"], [35, "store%2:40:00::"], [37, "address%1:10:04::"], [40, "next%5:00:00:succeeding(a):00"], [41, "available%3:00:00::"], [42, "cell%1:06:03::"]]
+    wn30_key: [[2, "lead%2:42:03::"], [5, "address%1:10:04::"], [8, "be%2:42:03::"], [9, "equal%3:00:00::"], [12, "address%1:10:04::"], [13, "compute%2:31:00::"], [17, "even%4:02:03::"], [18, "though%4:02:01::"], [21, "not%4:02:00::"], [22, "match%2:42:00::"], [26, "chain%1:14:00::"], [28, "information%1:10:00::"], [29, "cell%1:06:03::"], [31, "extend%2:42:03::"], [35, "store%2:40:00::"], [37, "address%1:10:04::"], [40, "next%3:00:00:succeeding:00"], [41, "available%3:00:00::"], [42, "cell%1:06:03::"]]
 Z+IG:
-    lemmas: ["The", "cell", "*", "*", "f", "become", "the", "second", "information", "cell", "in", "the", "chain", "and", "be", "assign", "as", "the", "information", "cell", "of", "*", "*", "f", "."]
-    oewn_key: [[1, "oewn-02995166-n"], [5, "oewn-02632685-v"], [7, "oewn-02209815-s"], [8, "oewn-06646883-n"], [9, "oewn-02995166-n"], [12, "oewn-08392981-n"], [15, "oewn-02233480-v"], [18, "oewn-06646883-n"], [19, "oewn-02995166-n"]]
+    lemmas: ["The", "cell", "**f", "become", "the", "second", "information", "cell", "in", "the", "chain", "and", "be", "assign", "as", "the", "information", "cell", "of", "**f", "."]
+    oewn_key: [[1, "oewn-02995166-n"], [3, "oewn-02632685-v"], [5, "oewn-02209815-s"], [6, "oewn-06646883-n"], [7, "oewn-02995166-n"], [10, "oewn-08392981-n"], [13, "oewn-02233480-v"], [16, "oewn-06646883-n"], [17, "oewn-02995166-n"]]
     paragraph: '9'
-    pos: ["DT", "NN", "NN", "SYM", "NN", "VBZ", "DT", "JJ", "NN", "NN", "IN", "DT", "NN", "CC", "VBZ", "VBN", "IN", "DT", "NN", "NN", "IN", "SYM", "SYM", "NN", "."]
-    text: 'The cell * * f becomes the second information cell in the chain and is assigned
-  as the information cell of * * f.'
-    tokens: [[0, 3], [4, 8], [9, 10], [11, 12], [13, 14], [15, 22], [23, 26], [27, 33], [34, 45], [46, 50], [51, 53], [54, 57], [58, 63], [64, 67], [68, 70], [71, 79], [80, 82], [83, 86], [87, 98], [99, 103], [104, 106], [107, 108], [109, 110], [111, 112], [112, 113]]
-    wn16_key: [[1, "cell%1:06:03::"], [5, "become%2:42:01::"], [7, "second%5:00:00:ordinal:00"], [8, "information%1:10:00::"], [9, "cell%1:06:03::"], [12, "chain%1:14:00::"], [15, "assign%2:40:01::"], [18, "information%1:10:00::"], [19, "cell%1:06:03::"]]
-    wn30_key: [[1, "cell%1:06:03::"], [5, "become%2:42:01::"], [7, "second%3:00:00:ordinal:00"], [8, "information%1:10:00::"], [9, "cell%1:06:03::"], [12, "chain%1:14:00::"], [15, "assign%2:40:01::"], [18, "information%1:10:00::"], [19, "cell%1:06:03::"]]
+    pos: ["DT", "NN", "NN", "VBZ", "DT", "JJ", "NN", "NN", "IN", "DT", "NN", "CC", "VBZ", "VBN", "IN", "DT", "NN", "NN", "IN", "NN", "."]
+    text: 'The cell **f becomes the second information cell in the chain and is assigned as the information cell of **f.'
+    tokens: [[0, 3], [4, 8], [9, 12], [13, 20], [21, 24], [25, 31], [32, 43], [44, 48], [49, 51], [52, 55], [56, 61], [62, 65], [66, 68], [69, 77], [78, 80], [81, 84], [85, 96], [97, 101], [102, 104], [105, 108], [108, 109]]
+    wn16_key: [[1, "cell%1:06:03::"], [3, "become%2:42:01::"], [5, "second%5:00:00:ordinal:00"], [6, "information%1:10:00::"], [7, "cell%1:06:03::"], [10, "chain%1:14:00::"], [13, "assign%2:40:01::"], [16, "information%1:10:00::"], [17, "cell%1:06:03::"]]
+    wn30_key: [[1, "cell%1:06:03::"], [3, "become%2:42:01::"], [5, "second%3:00:00:ordinal:00"], [6, "information%1:10:00::"], [7, "cell%1:06:03::"], [10, "chain%1:14:00::"], [13, "assign%2:40:01::"], [16, "information%1:10:00::"], [17, "cell%1:06:03::"]]
 ePx8:
-    lemmas: ["A", "third", "cell", "can", "be", "add", "by", "store", "the", "address", "of", "another", "Y-cell", "in", "*", "*", "f", ";", "similarly", ",", "as", "many", "cell", "be", "add", "as", "be", "require", "."]
-    oewn_key: [[1, "oewn-02209976-s"], [2, "oewn-02995166-n"], [5, "oewn-00182551-v"], [7, "oewn-02285938-v"], [9, "oewn-06367922-n"], [18, "oewn-00138870-r"], [22, "oewn-02995166-n"], [24, "oewn-00182551-v"], [27, "oewn-02634015-v"]]
+    lemmas: ["A", "third", "cell", "can", "be", "add", "by", "store", "the", "address", "of", "another", "Y-cell", "in", "**f", ";", "similarly", ",", "as", "many", "cell", "be", "add", "as", "be", "require", "."]
+    oewn_key: [[1, "oewn-02209976-s"], [2, "oewn-02995166-n"], [5, "oewn-00182551-v"], [7, "oewn-02285938-v"], [9, "oewn-06367922-n"], [16, "oewn-00138870-r"], [20, "oewn-02995166-n"], [22, "oewn-00182551-v"], [25, "oewn-02634015-v"]]
     paragraph: '9'
-    pos: ["DT", "JJ", "NN", "MD", "VB", "VBN", "IN", "VBG", "DT", "NN", "IN", "DT", "NN", "IN", "SYM", "SYM", "NN", ":", "RB", ",", "JJ", "JJ", "NNS", "VBP", "VBN", "IN", "VBP", "VBN", "."]
-    text: 'A third cell can be added by storing the address of another Y-cell in * * f; similarly,
-  as many cells are added as are required.'
-    tokens: [[0, 1], [2, 7], [8, 12], [13, 16], [17, 19], [20, 25], [26, 28], [29, 36], [37, 40], [41, 48], [49, 51], [52, 59], [60, 66], [67, 69], [70, 71], [72, 73], [74, 75], [75, 76], [77, 86], [86, 87], [88, 90], [91, 95], [96, 101], [102, 105], [106, 111], [112, 114], [115, 118], [119, 127], [127, 128]]
-    wn16_key: [[1, "third%5:00:00:ordinal:00"], [2, "cell%1:06:03::"], [5, "add%2:30:00::"], [7, "store%2:40:00::"], [9, "address%1:10:04::"], [18, "similarly%4:02:00::"], [22, "cell%1:06:03::"], [24, "add%2:30:00::"], [27, "require%2:42:00::"]]
-    wn30_key: [[1, "third%3:00:00:ordinal:00"], [2, "cell%1:06:03::"], [5, "add%2:30:00::"], [7, "store%2:40:00::"], [9, "address%1:10:04::"], [18, "similarly%4:02:00::"], [22, "cell%1:06:03::"], [24, "add%2:30:00::"], [27, "require%2:42:00::"]]
+    pos: ["DT", "JJ", "NN", "MD", "VB", "VBN", "IN", "VBG", "DT", "NN", "IN", "DT", "NN", "IN", "NN", ":", "RB", ",", "JJ", "JJ", "NNS", "VBP", "VBN", "IN", "VBP", "VBN", "."]
+    text: 'A third cell can be added by storing the address of another Y-cell in **f; similarly, as many cells are added as are required.'
+    tokens: [[0, 1], [2, 7], [8, 12], [13, 16], [17, 19], [20, 25], [26, 28], [29, 36], [37, 40], [41, 48], [49, 51], [52, 59], [60, 66], [67, 69], [70, 73], [73, 74], [75, 84], [84, 85], [86, 88], [89, 93], [94, 99], [100, 103], [104, 109], [110, 112], [113, 116], [117, 125], [125, 126]]
+    wn16_key: [[1, "third%5:00:00:ordinal:00"], [2, "cell%1:06:03::"], [5, "add%2:30:00::"], [7, "store%2:40:00::"], [9, "address%1:10:04::"], [16, "similarly%4:02:00::"], [20, "cell%1:06:03::"], [22, "add%2:30:00::"], [25, "require%2:42:00::"]]
+    wn30_key: [[1, "third%3:00:00:ordinal:00"], [2, "cell%1:06:03::"], [5, "add%2:30:00::"], [7, "store%2:40:00::"], [9, "address%1:10:04::"], [16, "similarly%4:02:00::"], [20, "cell%1:06:03::"], [22, "add%2:30:00::"], [25, "require%2:42:00::"]]
 2HIv:
     lemmas: ["Each", "information", "cell", "in", "the", "chain", "contain", "the", "address", "of", "the", "Y-cell", "where", "the", "form", "to", "which", "it", "be", "assign", "be", "store", "."]
     oewn_key: [[1, "oewn-06646883-n"], [2, "oewn-02995166-n"], [5, "oewn-08392981-n"], [6, "oewn-02635616-v"], [8, "oewn-06367922-n"], [14, "oewn-06301417-n"], [19, "oewn-02233480-v"], [21, "oewn-02285938-v"]]
@@ -470,26 +457,23 @@ ePx8:
     wn16_key: [[1, "cell%1:06:03::"], [4, "last%5:00:00:closing:00"], [7, "chain%1:14:00::"], [8, "also%4:02:00::"], [9, "contain%2:42:00::"], [11, "address%1:10:04::"], [16, "be%2:42:06::"], [18, "next%5:00:00:succeeding(a):00"], [19, "element%1:06:00::"], [22, "chain%1:14:00::"], [25, "absence%1:26:00::"], [27, "such%5:00:01:specified:00"], [29, "link%1:24:00::"], [32, "last%5:00:00:closing:00"], [33, "cell%1:06:03::"], [34, "indicate%2:32:01::"], [36, "end%1:15:00::"], [39, "chain%1:14:00::"]]
     wn30_key: [[1, "cell%1:06:03::"], [4, "last%3:00:00:closing:00"], [7, "chain%1:14:00::"], [8, "also%4:02:00::"], [9, "contain%2:42:00::"], [11, "address%1:10:04::"], [16, "be%2:42:06::"], [18, "next%3:00:00:succeeding:00"], [19, "element%1:06:00::"], [22, "chain%1:14:00::"], [25, "absence%1:26:00::"], [27, "such%3:00:00:much:00"], [29, "link%1:24:00::"], [32, "last%3:00:00:closing:00"], [33, "cell%1:06:03::"], [34, "indicate%2:32:01::"], [36, "end%1:15:00::"], [39, "chain%1:14:00::"]]
 hZgZ:
-    lemmas: ["hence", ",", "when", "the", "address", "*", "*", "f", "be", "compute", "from", "*", "*", "f", ",", "the", "cell", "*", "*", "f", "and", "all", "y-cell", "in", "its", "chain", "must", "be", "inspect", "to", "determine", "whether", "*", "*", "f", "be", "already", "in", "the", "form", "list", "or", "whether", "it", "should", "be", "add", "to", "the", "form", "list", "and", "the", "chain", "."]
-    oewn_key: [[0, "oewn-00043413-r"], [4, "oewn-06367922-n"], [9, "oewn-00638921-v"], [16, "oewn-02995166-n"], [21, "oewn-02277044-a"], [25, "oewn-08392981-n"], [28, "oewn-02169987-v"], [30, "oewn-00920843-v"], [35, "oewn-02661230-v"], [36, "oewn-00032194-r"], [39, "oewn-06301417-n"], [40, "oewn-06492991-n"], [46, "oewn-00182551-v"], [49, "oewn-06301417-n"], [50, "oewn-06492991-n"], [53, "oewn-08392981-n"]]
+    lemmas: ["hence", ",", "when", "the", "address", "**f", "be", "compute", "from", "**f", ",", "the", "cell", "**f", "and", "all", "y-cell", "in", "its", "chain", "must", "be", "inspect", "to", "determine", "whether", "**f", "be", "already", "in", "the", "form", "list", "or", "whether", "it", "should", "be", "add", "to", "the", "form", "list", "and", "the", "chain", "."]
+    oewn_key: [[0, "oewn-00043413-r"], [4, "oewn-06367922-n"], [7, "oewn-00638921-v"], [12, "oewn-02995166-n"], [15, "oewn-02277044-a"], [19, "oewn-08392981-n"], [22, "oewn-02169987-v"], [24, "oewn-00920843-v"], [27, "oewn-02661230-v"], [28, "oewn-00032194-r"], [31, "oewn-06301417-n"], [32, "oewn-06492991-n"], [38, "oewn-00182551-v"], [41, "oewn-06301417-n"], [42, "oewn-06492991-n"], [45, "oewn-08392981-n"]]
     paragraph: '9'
-    pos: ["RB", ",", "WRB", "DT", "NN", "SYM", "SYM", "NN", "VBZ", "VBN", "IN", "SYM", "SYM", "NN", ",", "DT", "NN", "SYM", "SYM", "NN", "CC", "JJ", "NNS", "IN", "PRP$", "NN", "MD", "VB", "VBN", "TO", "VB", "IN", "SYM", "SYM", "NN", "VBZ", "RB", "IN", "DT", "NN", "NN", "CC", "IN", "PRP", "MD", "VB", "VBN", "TO", "DT", "NN", "NN", "CC", "DT", "NN", "."]
-    text: 'Hence, when the address * * f is computed from * * f, the cell * * f and all Y-cells
-  in its chain must be inspected to determine whether * * f is already in the form
-  list or whether it should be added to the form list and the chain.'
-    tokens: [[0, 5], [5, 6], [7, 11], [12, 15], [16, 23], [24, 25], [26, 27], [28, 29], [30, 32], [33, 41], [42, 46], [47, 48], [49, 50], [51, 52], [52, 53], [54, 57], [58, 62], [63, 64], [65, 66], [67, 68], [69, 72], [73, 76], [77, 84], [85, 87], [88, 91], [92, 97], [98, 102], [103, 105], [106, 115], [116, 118], [119, 128], [129, 136], [137, 138], [139, 140], [141, 142], [143, 145], [146, 153], [154, 156], [157, 160], [161, 165], [166, 170], [171, 173], [174, 181], [182, 184], [185, 191], [192, 194], [195, 200], [201, 203], [204, 207], [208, 212], [213, 217], [218, 221], [222, 225], [226, 231], [231, 232]]
-    wn16_key: [[0, "hence%4:02:00::"], [4, "address%1:10:04::"], [9, "compute%2:31:00::"], [16, "cell%1:06:03::"], [21, "all%3:00:00::"], [25, "chain%1:14:00::"], [28, "inspect%2:39:00::"], [30, "determine%2:32:00::"], [35, "be%2:42:05::"], [36, "already%4:02:00::"], [39, "form%1:10:00::"], [40, "list%1:10:00::"], [46, "add%2:30:00::"], [49, "form%1:10:00::"], [50, "list%1:10:00::"], [53, "chain%1:14:00::"]]
-    wn30_key: [[0, "hence%4:02:00::"], [4, "address%1:10:04::"], [9, "compute%2:31:00::"], [16, "cell%1:06:03::"], [21, "all%3:00:00::"], [25, "chain%1:14:00::"], [28, "inspect%2:39:00::"], [30, "determine%2:32:00::"], [35, "be%2:42:05::"], [36, "already%4:02:00::"], [39, "form%1:10:00::"], [40, "list%1:10:00::"], [46, "add%2:30:00::"], [49, "form%1:10:00::"], [50, "list%1:10:00::"], [53, "chain%1:14:00::"]]
+    pos: ["RB", ",", "WRB", "DT", "NN", "NN", "VBZ", "VBN", "IN", "NN", ",", "DT", "NN", "NN", "CC", "JJ", "NNS", "IN", "PRP$", "NN", "MD", "VB", "VBN", "TO", "VB", "IN", "NN", "VBZ", "RB", "IN", "DT", "NN", "NN", "CC", "IN", "PRP", "MD", "VB", "VBN", "TO", "DT", "NN", "NN", "CC", "DT", "NN", "."]
+    text: 'Hence, when the address **f is computed from **f, the cell **f and all Y-cells in its chain must be inspected to determine whether **f is already in the form list or whether it should be added to the form list and the chain.'
+    tokens: [[0, 5], [5, 6], [7, 11], [12, 15], [16, 23], [24, 27], [28, 30], [31, 39], [40, 44], [45, 48], [48, 49], [50, 53], [54, 58], [59, 62], [63, 66], [67, 70], [71, 78], [79, 81], [82, 85], [86, 91], [92, 96], [97, 99], [100, 109], [110, 112], [113, 122], [123, 130], [131, 134], [135, 137], [138, 145], [146, 148], [149, 152], [153, 157], [158, 162], [163, 165], [166, 173], [174, 176], [177, 183], [184, 186], [187, 192], [193, 195], [196, 199], [200, 204], [205, 209], [210, 213], [214, 217], [218, 223], [223, 224]]
+    wn16_key: [[0, "hence%4:02:00::"], [4, "address%1:10:04::"], [7, "compute%2:31:00::"], [12, "cell%1:06:03::"], [15, "all%3:00:00::"], [19, "chain%1:14:00::"], [22, "inspect%2:39:00::"], [24, "determine%2:32:00::"], [27, "be%2:42:05::"], [28, "already%4:02:00::"], [31, "form%1:10:00::"], [32, "list%1:10:00::"], [38, "add%2:30:00::"], [41, "form%1:10:00::"], [42, "list%1:10:00::"], [45, "chain%1:14:00::"]]
+    wn30_key: [[0, "hence%4:02:00::"], [4, "address%1:10:04::"], [7, "compute%2:31:00::"], [12, "cell%1:06:03::"], [15, "all%3:00:00::"], [19, "chain%1:14:00::"], [22, "inspect%2:39:00::"], [24, "determine%2:32:00::"], [27, "be%2:42:05::"], [28, "already%4:02:00::"], [31, "form%1:10:00::"], [32, "list%1:10:00::"], [38, "add%2:30:00::"], [41, "form%1:10:00::"], [42, "list%1:10:00::"], [45, "chain%1:14:00::"]]
 KzCU:
-    lemmas: ["When", "the", "information", "cell", "for", "*", "*", "f", "have", "be", "determine", ",", "it", "be", "save", "as", "a", "representation", "of", "*", "*", "f", "."]
-    oewn_key: [[2, "oewn-06646883-n"], [3, "oewn-02995166-n"], [10, "oewn-00920843-v"], [14, "oewn-02230274-v"], [17, "oewn-05935308-n"]]
+    lemmas: ["When", "the", "information", "cell", "for", "**f", "have", "be", "determine", ",", "it", "be", "save", "as", "a", "representation", "of", "**f", "."]
+    oewn_key: [[2, "oewn-06646883-n"], [3, "oewn-02995166-n"], [8, "oewn-00920843-v"], [12, "oewn-02230274-v"], [15, "oewn-05935308-n"]]
     paragraph: '9'
-    pos: ["WRB", "DT", "NN", "NN", "IN", "SYM", "SYM", "NN", "VBZ", "VBN", "VBN", ",", "PRP", "VBZ", "VBN", "IN", "DT", "NN", "IN", "SYM", "SYM", "NN", "."]
-    text: 'When the information cell for * * f has been determined, it is saved as a representation
-  of * * f.'
-    tokens: [[0, 4], [5, 8], [9, 20], [21, 25], [26, 29], [30, 31], [32, 33], [34, 35], [36, 39], [40, 44], [45, 55], [55, 56], [57, 59], [60, 62], [63, 68], [69, 71], [72, 73], [74, 88], [89, 91], [92, 93], [94, 95], [96, 97], [97, 98]]
-    wn16_key: [[2, "information%1:10:00::"], [3, "cell%1:06:03::"], [10, "determine%2:32:00::"], [14, "save%2:40:00::"], [17, "representation%1:09:00::"]]
-    wn30_key: [[2, "information%1:10:00::"], [3, "cell%1:06:03::"], [10, "determine%2:32:00::"], [14, "save%2:40:00::"], [17, "representation%1:09:00::"]]
+    pos: ["WRB", "DT", "NN", "NN", "IN", "NN", "VBZ", "VBN", "VBN", ",", "PRP", "VBZ", "VBN", "IN", "DT", "NN", "IN", "NN", "."]
+    text: 'When the information cell for **f has been determined, it is saved as a representation of **f.'
+    tokens: [[0, 4], [5, 8], [9, 20], [21, 25], [26, 29], [30, 33], [34, 37], [38, 42], [43, 53], [53, 54], [55, 57], [58, 60], [61, 66], [67, 69], [70, 71], [72, 86], [87, 89], [90, 93], [93, 94]]
+    wn16_key: [[2, "information%1:10:00::"], [3, "cell%1:06:03::"], [8, "determine%2:32:00::"], [12, "save%2:40:00::"], [15, "representation%1:09:00::"]]
+    wn30_key: [[2, "information%1:10:00::"], [3, "cell%1:06:03::"], [8, "determine%2:32:00::"], [12, "save%2:40:00::"], [15, "representation%1:09:00::"]]
 BkKv:
     lemmas: ["text", "reading", "continue", "with", "the", "next", "occurrence", "."]
     oewn_key: [[0, "oewn-06399623-n"], [1, "oewn-05816802-n"], [2, "oewn-02690747-v"], [5, "oewn-00128838-s"], [6, "oewn-07298313-n"]]
@@ -591,26 +575,23 @@ nsGa:
     wn16_key: [[1, "dictionary%1:10:00::"], [2, "form%1:10:00::"], [4, "look_up%2:32:00::"], [7, "text%1:10:00::"], [8, "form%1:10:00::"], [9, "list%1:10:00::"], [12, "same%3:00:02::"], [13, "method%1:09:00::"], [14, "use%2:34:01::"], [16, "look_up%2:32:00::"], [18, "new%3:00:00::"], [19, "text%1:10:00::"], [20, "occurrence%1:11:00::"], [23, "form%1:10:00::"], [24, "list%1:10:00::"], [26, "text%1:10:00::"], [27, "reading%1:09:00::"]]
     wn30_key: [[1, "dictionary%1:10:00::"], [2, "form%1:10:00::"], [4, "look_up%2:32:00::"], [7, "text%1:10:00::"], [8, "form%1:10:00::"], [9, "list%1:10:00::"], [12, "same%3:00:02::"], [13, "method%1:09:00::"], [14, "use%2:34:01::"], [16, "look_up%2:32:00::"], [18, "new%3:00:00::"], [19, "text%1:10:00::"], [20, "occurrence%1:11:00::"], [23, "form%1:10:00::"], [24, "list%1:10:00::"], [26, "text%1:10:00::"], [27, "reading%1:09:00::"]]
 d3UE:
-    lemmas: ["A", "random", "address", "*", "*", "f", "that", "lie", "within", "the", "X-region", "of", "memory", "mention", "earlier", "be", "compute", "from", "the", "i-th", "dictionary", "form", "."]
-    oewn_key: [[1, "oewn-01930715-a"], [2, "oewn-06367922-n"], [7, "oewn-02696550-v"], [12, "oewn-03749767-n"], [13, "oewn-01026199-v"], [14, "oewn-00061477-r"], [16, "oewn-00638921-v"], [20, "oewn-06430544-n"], [21, "oewn-06301417-n"]]
+    lemmas: ["A", "random", "address", "**f", "that", "lie", "within", "the", "X-region", "of", "memory", "mention", "earlier", "be", "compute", "from", "the", "i-th", "dictionary", "form", "."]
+    oewn_key: [[1, "oewn-01930715-a"], [2, "oewn-06367922-n"], [5, "oewn-02696550-v"], [10, "oewn-03749767-n"], [11, "oewn-01026199-v"], [12, "oewn-00061477-r"], [14, "oewn-00638921-v"], [18, "oewn-06430544-n"], [19, "oewn-06301417-n"]]
     paragraph: '11'
-    pos: ["DT", "JJ", "NN", "SYM", "SYM", "NN", "WDT", "VBZ", "IN", "DT", "NN", "IN", "NN", "VBN", "RBR", "VBZ", "VBN", "IN", "DT", "NN", "NN", "NN", "."]
-    text: 'A random address * * f that lies within the X-region of memory mentioned earlier
-  is computed from the i-th dictionary form.'
-    tokens: [[0, 1], [2, 8], [9, 16], [17, 18], [19, 20], [21, 22], [23, 27], [28, 32], [33, 39], [40, 43], [44, 52], [53, 55], [56, 62], [63, 72], [73, 80], [81, 83], [84, 92], [93, 97], [98, 101], [102, 106], [107, 117], [118, 122], [122, 123]]
-    wn16_key: [[1, "random%3:00:00::"], [2, "address%1:10:04::"], [7, "lie%2:42:00::"], [12, "memory%1:06:00::"], [13, "mention%2:32:02::"], [14, "earlier%4:02:00::"], [16, "compute%2:31:00::"], [20, "dictionary%1:10:00::"], [21, "form%1:10:00::"]]
-    wn30_key: [[1, "random%3:00:00::"], [2, "address%1:10:04::"], [7, "lie%2:42:00::"], [12, "memory%1:06:00::"], [13, "mention%2:32:02::"], [14, "earlier%4:02:00::"], [16, "compute%2:31:00::"], [20, "dictionary%1:10:00::"], [21, "form%1:10:00::"]]
+    pos: ["DT", "JJ", "NN", "NN", "WDT", "VBZ", "IN", "DT", "NN", "IN", "NN", "VBN", "RBR", "VBZ", "VBN", "IN", "DT", "NN", "NN", "NN", "."]
+    text: 'A random address **f that lies within the X-region of memory mentioned earlier is computed from the i-th dictionary form.'
+    tokens: [[0, 1], [2, 8], [9, 16], [17, 20], [21, 25], [26, 30], [31, 37], [38, 41], [42, 50], [51, 53], [54, 60], [61, 70], [71, 78], [79, 81], [82, 90], [91, 95], [96, 99], [100, 104], [105, 115], [116, 120], [120, 121]]
+    wn16_key: [[1, "random%3:00:00::"], [2, "address%1:10:04::"], [5, "lie%2:42:00::"], [10, "memory%1:06:00::"], [11, "mention%2:32:02::"], [12, "earlier%4:02:00::"], [14, "compute%2:31:00::"], [18, "dictionary%1:10:00::"], [19, "form%1:10:00::"]]
+    wn30_key: [[1, "random%3:00:00::"], [2, "address%1:10:04::"], [5, "lie%2:42:00::"], [10, "memory%1:06:00::"], [11, "mention%2:32:02::"], [12, "earlier%4:02:00::"], [14, "compute%2:31:00::"], [18, "dictionary%1:10:00::"], [19, "form%1:10:00::"]]
 mGAg:
-    lemmas: ["If", "cell", "*", "*", "f", "be", "an", "information", "cell", ",", "it", "and", "any", "information", "cell", "in", "the", "Y-region", "that", "have", "be", "link", "to", "*", "*", "f", "each", "contain", "an", "address", "in", "the", "W-region", "where", "a", "potentially", "matching", "form", "be", "store", "."]
-    oewn_key: [[1, "oewn-02995166-n"], [5, "oewn-02622439-v"], [7, "oewn-06646883-n"], [8, "oewn-02995166-n"], [13, "oewn-06646883-n"], [14, "oewn-02995166-n"], [21, "oewn-01357376-v"], [27, "oewn-02635616-v"], [29, "oewn-06367922-n"], [35, "oewn-00302263-r"], [36, "oewn-01490161-s"], [37, "oewn-06301417-n"], [39, "oewn-02285938-v"]]
+    lemmas: ["If", "cell", "**f", "be", "an", "information", "cell", ",", "it", "and", "any", "information", "cell", "in", "the", "Y-region", "that", "have", "be", "link", "to", "**f", "each", "contain", "an", "address", "in", "the", "W-region", "where", "a", "potentially", "matching", "form", "be", "store", "."]
+    oewn_key: [[1, "oewn-02995166-n"], [3, "oewn-02622439-v"], [5, "oewn-06646883-n"], [6, "oewn-02995166-n"], [11, "oewn-06646883-n"], [12, "oewn-02995166-n"], [19, "oewn-01357376-v"], [23, "oewn-02635616-v"], [25, "oewn-06367922-n"], [31, "oewn-00302263-r"], [32, "oewn-01490161-s"], [33, "oewn-06301417-n"], [35, "oewn-02285938-v"]]
     paragraph: '11'
-    pos: ["IN", "NN", "SYM", "SYM", "NN", "VBZ", "DT", "NN", "NN", ",", "PRP", "CC", "DT", "NN", "NNS", "IN", "DT", "NN", "WDT", "VBP", "VBN", "VBN", "TO", "SYM", "SYM", "NN", "DT", "VBP", "DT", "NN", "IN", "DT", "NN", "WRB", "DT", "RB", "JJ", "NN", "VBZ", "VBN", "."]
-    text: 'If cell * * f is an information cell, it and any information cells in the Y-region
-  that have been linked to * * f each contain an address in the W-region where a potentially
-  matching form is stored.'
-    tokens: [[0, 2], [3, 7], [8, 9], [10, 11], [12, 13], [14, 16], [17, 19], [20, 31], [32, 36], [36, 37], [38, 40], [41, 44], [45, 48], [49, 60], [61, 66], [67, 69], [70, 73], [74, 82], [83, 87], [88, 92], [93, 97], [98, 104], [105, 107], [108, 109], [110, 111], [112, 113], [114, 118], [119, 126], [127, 129], [130, 137], [138, 140], [141, 144], [145, 153], [154, 159], [160, 161], [162, 173], [174, 182], [183, 187], [188, 190], [191, 197], [197, 198]]
-    wn16_key: [[1, "cell%1:06:03::"], [5, "be%2:42:06::"], [7, "information%1:10:00::"], [8, "cell%1:06:03::"], [13, "information%1:10:00::"], [14, "cell%1:06:03::"], [21, "link%2:35:00::"], [27, "contain%2:42:00::"], [29, "address%1:10:04::"], [35, "potentially%4:02:00::"], [36, "matching%5:00:02:matched:00"], [37, "form%1:10:00::"], [39, "store%2:40:00::"]]
-    wn30_key: [[1, "cell%1:06:03::"], [5, "be%2:42:06::"], [7, "information%1:10:00::"], [8, "cell%1:06:03::"], [13, "information%1:10:00::"], [14, "cell%1:06:03::"], [21, "link%2:35:00::"], [27, "contain%2:42:00::"], [29, "address%1:10:04::"], [35, "potentially%4:02:00::"], [36, "matching%3:00:02:matched:00"], [37, "form%1:10:00::"], [39, "store%2:40:00::"]]
+    pos: ["IN", "NN", "NN", "VBZ", "DT", "NN", "NN", ",", "PRP", "CC", "DT", "NN", "NNS", "IN", "DT", "NN", "WDT", "VBP", "VBN", "VBN", "TO", "NN", "DT", "VBP", "DT", "NN", "IN", "DT", "NN", "WRB", "DT", "RB", "JJ", "NN", "VBZ", "VBN", "."]
+    text: 'If cell **f is an information cell, it and any information cells in the Y-region that have been linked to **f each contain an address in the W-region where a potentially matching form is stored.'
+    tokens: [[0, 2], [3, 7], [8, 11], [12, 14], [15, 17], [18, 29], [30, 34], [34, 35], [36, 38], [39, 42], [43, 46], [47, 58], [59, 64], [65, 67], [68, 71], [72, 80], [81, 85], [86, 90], [91, 95], [96, 102], [103, 105], [106, 109], [110, 114], [115, 122], [123, 125], [126, 133], [134, 136], [137, 140], [141, 149], [150, 155], [156, 157], [158, 169], [170, 178], [179, 183], [184, 186], [187, 193], [193, 194]]
+    wn16_key: [[1, "cell%1:06:03::"], [3, "be%2:42:06::"], [5, "information%1:10:00::"], [6, "cell%1:06:03::"], [11, "information%1:10:00::"], [12, "cell%1:06:03::"], [19, "link%2:35:00::"], [23, "contain%2:42:00::"], [25, "address%1:10:04::"], [31, "potentially%4:02:00::"], [32, "matching%5:00:02:matched:00"], [33, "form%1:10:00::"], [35, "store%2:40:00::"]]
+    wn30_key: [[1, "cell%1:06:03::"], [3, "be%2:42:06::"], [5, "information%1:10:00::"], [6, "cell%1:06:03::"], [11, "information%1:10:00::"], [12, "cell%1:06:03::"], [19, "link%2:35:00::"], [23, "contain%2:42:00::"], [25, "address%1:10:04::"], [31, "potentially%4:02:00::"], [32, "matching%3:00:02:matched:00"], [33, "form%1:10:00::"], [35, "store%2:40:00::"]]
 2aD+:
     lemmas: ["The", "dictionary", "form", "be", "compare", "with", "each", "of", "these", "text", "form", "."]
     oewn_key: [[1, "oewn-06430544-n"], [2, "oewn-06301417-n"], [4, "oewn-00654571-v"], [9, "oewn-06399623-n"], [10, "oewn-06301417-n"]]
@@ -630,17 +611,16 @@ mGAg:
     wn16_key: [[2, "match%1:06:01::"], [4, "find%2:40:02::"], [7, "entry%1:10:01::"], [9, "make%2:36:00::"], [12, "table%1:14:00::"], [14, "dictionary%1:10:00::"], [15, "usage%1:04:00::"]]
     wn30_key: [[2, "match%1:06:01::"], [4, "find%2:40:02::"], [7, "entry%1:10:01::"], [9, "make%2:36:00::"], [12, "table%1:14:00::"], [14, "dictionary%1:10:00::"], [15, "usage%1:04:00::"]]
 q0Ph:
-    lemmas: ["If", "cell", "*", "*", "f", "be", "not", "an", "information", "cell", "we", "conclude", "that", "the", "i-th", "dictionary", "form", "be", "not", "in", "the", "text", "list", "."]
-    oewn_key: [[1, "oewn-02995166-n"], [5, "oewn-02622439-v"], [6, "oewn-00024432-r"], [8, "oewn-06646883-n"], [9, "oewn-02995166-n"], [11, "oewn-00636134-v"], [15, "oewn-06430544-n"], [16, "oewn-06301417-n"], [17, "oewn-02661230-v"], [18, "oewn-00024432-r"], [21, "oewn-06399623-n"], [22, "oewn-06492991-n"]]
+    lemmas: ["If", "cell", "**f", "be", "not", "an", "information", "cell", "we", "conclude", "that", "the", "i-th", "dictionary", "form", "be", "not", "in", "the", "text", "list", "."]
+    oewn_key: [[1, "oewn-02995166-n"], [3, "oewn-02622439-v"], [4, "oewn-00024432-r"], [6, "oewn-06646883-n"], [7, "oewn-02995166-n"], [9, "oewn-00636134-v"], [13, "oewn-06430544-n"], [14, "oewn-06301417-n"], [15, "oewn-02661230-v"], [16, "oewn-00024432-r"], [19, "oewn-06399623-n"], [20, "oewn-06492991-n"]]
     paragraph: '11'
-    pos: ["IN", "NN", "SYM", "SYM", "NN", "VBZ", "RB", "DT", "NN", "NN", "PRP", "VBP", "IN", "DT", "NN", "NN", "NN", "VBZ", "RB", "IN", "DT", "NN", "NN", "."]
-    text: 'If cell * * f is not an information cell we conclude that the i-th dictionary form
-  is not in the text list.
+    pos: ["IN", "NN", "NN", "VBZ", "RB", "DT", "NN", "NN", "PRP", "VBP", "IN", "DT", "NN", "NN", "NN", "VBZ", "RB", "IN", "DT", "NN", "NN", "."]
+    text: 'If cell **f is not an information cell we conclude that the i-th dictionary form is not in the text list.
 
   '
-    tokens: [[0, 2], [3, 7], [8, 9], [10, 11], [12, 13], [14, 16], [17, 20], [21, 23], [24, 35], [36, 40], [41, 43], [44, 52], [53, 57], [58, 61], [62, 66], [67, 77], [78, 82], [83, 85], [86, 89], [90, 92], [93, 96], [97, 101], [102, 106], [106, 107]]
-    wn16_key: [[1, "cell%1:06:03::"], [5, "be%2:42:06::"], [6, "not%4:02:00::"], [8, "information%1:10:00::"], [9, "cell%1:06:03::"], [11, "conclude%2:31:00::"], [15, "dictionary%1:10:00::"], [16, "form%1:10:00::"], [17, "be%2:42:05::"], [18, "not%4:02:00::"], [21, "text%1:10:00::"], [22, "list%1:10:00::"]]
-    wn30_key: [[1, "cell%1:06:03::"], [5, "be%2:42:06::"], [6, "not%4:02:00::"], [8, "information%1:10:00::"], [9, "cell%1:06:03::"], [11, "conclude%2:31:00::"], [15, "dictionary%1:10:00::"], [16, "form%1:10:00::"], [17, "be%2:42:05::"], [18, "not%4:02:00::"], [21, "text%1:10:00::"], [22, "list%1:10:00::"]]
+    tokens: [[0, 2], [3, 7], [8, 11], [12, 14], [15, 18], [19, 21], [22, 33], [34, 38], [39, 41], [42, 50], [51, 55], [56, 59], [60, 64], [65, 75], [76, 80], [81, 83], [84, 87], [88, 90], [91, 94], [95, 99], [100, 104], [104, 105]]
+    wn16_key: [[1, "cell%1:06:03::"], [3, "be%2:42:06::"], [4, "not%4:02:00::"], [6, "information%1:10:00::"], [7, "cell%1:06:03::"], [9, "conclude%2:31:00::"], [13, "dictionary%1:10:00::"], [14, "form%1:10:00::"], [15, "be%2:42:05::"], [16, "not%4:02:00::"], [19, "text%1:10:00::"], [20, "list%1:10:00::"]]
+    wn30_key: [[1, "cell%1:06:03::"], [3, "be%2:42:06::"], [4, "not%4:02:00::"], [6, "information%1:10:00::"], [7, "cell%1:06:03::"], [9, "conclude%2:31:00::"], [13, "dictionary%1:10:00::"], [14, "form%1:10:00::"], [15, "be%2:42:05::"], [16, "not%4:02:00::"], [19, "text%1:10:00::"], [20, "list%1:10:00::"]]
 NCzo:
     lemmas: ["These", "two", "step", "essentially", "complete", "the", "lookup", "operation", "."]
     oewn_key: [[1, "oewn-02194109-s"], [2, "oewn-00175261-n"], [3, "oewn-00003864-r"], [4, "oewn-00485097-v"], [6, "oewn-13574763-n"], [7, "oewn-13546128-n"]]
