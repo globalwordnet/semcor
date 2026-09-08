@@ -336,9 +336,10 @@ categories -- see the module docstring and #28 for the full reasoning.
 Every fix is a single-character, same-length swap: no token/offset
 restructuring, unlike #9/#10. Only `text` (and, where the same
 position's `lemmas` entry already mirrors the surface case, `lemmas`)
-changes. `case-mismatch-fixes.yaml` lists all 976 confirmed fixes;
-this script only applies that manifest, with no runtime NLTK
-dependency.
+changes. `src/semcor/case-mismatch-fixes.yaml` -- kept next to the
+script that reads it, since nothing else needs it -- lists all 976
+confirmed fixes; this script only applies that manifest, with no
+runtime NLTK dependency.
 
 ```sh
 uv run semcor-fix-case-mismatches              # apply case-mismatch-fixes.yaml to data/

@@ -40,7 +40,8 @@ the same position's `lemmas` entry happens to carry the same letter,
 `lemmas`) changes, so `tokens`/`pos`/`oewn_key`/`wn16_key`/`wn30_key`
 are untouched.
 
-`case-mismatch-fixes.yaml` lists all 976 confirmed fixes as (file,
+`case-mismatch-fixes.yaml` (kept next to this module since nothing
+else needs it) lists all 976 confirmed fixes as (file,
 sentence, offset, target) -- `offset` is the character position within
 that sentence's own `text` (not the whole merged document), `target`
 is the single character it should become. Generated once, offline,
@@ -60,7 +61,7 @@ import yaml
 
 from semcor.validate import DATA_DIR, _YAML_LOADER, find_yaml_files
 
-MANIFEST_PATH = Path(__file__).resolve().parents[2] / "case-mismatch-fixes.yaml"
+MANIFEST_PATH = Path(__file__).resolve().parent / "case-mismatch-fixes.yaml"
 
 _DOC_BOUNDARY = re.compile(r"(?m)^(\S+):[ \t]*$")
 _TEXT_BLOCK = re.compile(r"(?m)^    text: .*?(?=\n    tokens: )", re.S)
