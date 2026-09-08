@@ -85,28 +85,27 @@ QDS1:
     wn16_key: [[10, "be%2:42:03::"], [13, "get%2:40:00::"]]
     wn30_key: [[10, "be%2:42:03::"], [13, "get%2:40:00::"]]
 nRYy:
-    lemmas: ["Some", "dallas", "investment", "firm", "get", "only", "100", "share", ",", "for", "all_of", "their", "customer", "."]
+    lemmas: ["Some", "dallas", "investment", "firm", "get", "only", "100", "share", ",", "for", "all", "of", "their", "customer", "."]
     oewn_key: [[4, "oewn-02215637-v"]]
     paragraph: '3'
-    pos: ["DT", "NNP", "NN", "NNS", "VBD", "RB", "CD", "NNS", ",", "IN", "JJ", "PRP$", "NNS", "."]
-    text: 'Some Dallas investment firms got only 100 shares, for all_of their customers.
+    pos: ["DT", "NNP", "NN", "NNS", "VBD", "RB", "CD", "NNS", ",", "IN", "PDT", "IN", "PRP$", "NNS", "."]
+    text: 'Some Dallas investment firms got only 100 shares, for all of their customers.
 
   '
-    tokens: [[0, 4], [5, 11], [12, 22], [23, 28], [29, 32], [33, 37], [38, 41], [42, 48], [48, 49], [50, 53], [54, 60], [61, 66], [67, 76], [76, 77]]
+    tokens: [[0, 4], [5, 11], [12, 22], [23, 28], [29, 32], [33, 37], [38, 41], [42, 48], [48, 49], [50, 53], [54, 57], [58, 60], [61, 66], [67, 76], [76, 77]]
     wn16_key: [[4, "get%2:40:00::"]]
     wn30_key: [[4, "get%2:40:00::"]]
 tEDL:
-    lemmas: ["A", "measure", "of", "how", "hot", "the", "stock", "be", ",", "can", "be", "find", "in_what", "happen", "to", "it", "on", "the", "market", "as", "soon", "as", "trading", "begin", "."]
-    oewn_key: [[7, "oewn-02610777-v"], [11, "oewn-00920843-v"], [13, "oewn-00345297-v"], [23, "oewn-00346415-v"]]
+    lemmas: ["A", "measure", "of", "how", "hot", "the", "stock", "be", ",", "can", "be", "find", "in", "what", "happen", "to", "it", "on", "the", "market", "as", "soon", "as", "trading", "begin", "."]
+    oewn_key: [[7, "oewn-02610777-v"], [11, "oewn-00920843-v"], [14, "oewn-00345297-v"], [24, "oewn-00346415-v"]]
     paragraph: '4'
-    pos: ["DT", "NN", "IN", "WRB", "JJ", "DT", "NN", "VBD", ",", "MD", "VB", "VBN", "RB", "VBD", "VB", "PRP", "IN", "DT", "NN", "RB", "RB", "IN", "NN", "VBD", "."]
-    text: 'A measure of how hot the stock was, can be found in_what happened to it on the market
-  as soon as trading began.
+    pos: ["DT", "NN", "IN", "WRB", "JJ", "DT", "NN", "VBD", ",", "MD", "VB", "VBN", "IN", "WDT", "VBD", "VB", "PRP", "IN", "DT", "NN", "RB", "RB", "IN", "NN", "VBD", "."]
+    text: 'A measure of how hot the stock was, can be found in what happened to it on the market as soon as trading began.
 
   '
-    tokens: [[0, 1], [2, 9], [10, 12], [13, 16], [17, 20], [21, 24], [25, 30], [31, 34], [34, 35], [36, 39], [40, 42], [43, 48], [49, 56], [57, 65], [66, 68], [69, 71], [72, 74], [75, 78], [79, 85], [86, 88], [89, 93], [94, 96], [97, 104], [105, 110], [110, 111]]
-    wn16_key: [[7, "be%2:42:03::"], [11, "find%2:32:00::"], [13, "happen%2:30:02::"], [23, "begin%2:30:00::"]]
-    wn30_key: [[7, "be%2:42:03::"], [11, "find%2:32:00::"], [13, "happen%2:30:02::"], [23, "begin%2:30:00::"]]
+    tokens: [[0, 1], [2, 9], [10, 12], [13, 16], [17, 20], [21, 24], [25, 30], [31, 34], [34, 35], [36, 39], [40, 42], [43, 48], [49, 51], [52, 56], [57, 65], [66, 68], [69, 71], [72, 74], [75, 78], [79, 85], [86, 88], [89, 93], [94, 96], [97, 104], [105, 110], [110, 111]]
+    wn16_key: [[7, "be%2:42:03::"], [11, "find%2:32:00::"], [14, "happen%2:30:02::"], [24, "begin%2:30:00::"]]
+    wn30_key: [[7, "be%2:42:03::"], [11, "find%2:32:00::"], [14, "happen%2:30:02::"], [24, "begin%2:30:00::"]]
 kpzK:
     lemmas: ["The", "stock", "be", "sell", "in", "the", "underwriting", "at", "a", "price", "of", "$", "12.50", "a", "share", "."]
     oewn_key: [[3, "oewn-02247246-v"]]
@@ -117,27 +116,25 @@ kpzK:
     wn16_key: [[3, "sell%2:40:00::"]]
     wn30_key: [[3, "sell%2:40:00::"]]
 V+w2:
-    lemmas: ["The", "first", "over-the-counter", "trade", "wednesday", "afternoon", "at", "Eppler", ",", "Guerin", "+", "turner", ",", "the", "manage", "underwriter", ",", "be", "at", "$", "17", "a", "share", "."]
+    lemmas: ["The", "first", "over-the-counter", "trade", "wednesday", "afternoon", "at", "Eppler", ",", "Guerin", "&", "turner", ",", "the", "manage", "underwriter", ",", "be", "at", "$", "17", "a", "share", "."]
     oewn_key: [[14, "oewn-02441196-v"], [17, "oewn-02610777-v"]]
     paragraph: '5'
     pos: ["DT", "JJ", "JJ", "NN", "NNP", "NN", "IN", "NNP", ",", "NNP", "CC", "NNP", ",", "DT", "VBG", "NN", ",", "VBD", "IN", "$", "CD", "DT", "NN", "."]
-    text: 'The first over-the-counter trade Wednesday afternoon at Eppler, Guerin + Turner,
-  the managing underwriter, was at $17 a share.'
+    text: 'The first over-the-counter trade Wednesday afternoon at Eppler, Guerin & Turner, the managing underwriter, was at $17 a share.'
     tokens: [[0, 3], [4, 9], [10, 26], [27, 32], [33, 42], [43, 52], [53, 55], [56, 62], [62, 63], [64, 70], [71, 72], [73, 79], [79, 80], [81, 84], [85, 93], [94, 105], [105, 106], [107, 110], [111, 113], [114, 115], [115, 117], [118, 119], [120, 125], [125, 126]]
     wn16_key: [[14, "manage%2:41:00::"], [17, "be%2:42:03::"]]
     wn30_key: [[14, "manage%2:41:00::"], [17, "be%2:42:03::"]]
 2t8h:
-    lemmas: ["And", "from_that", "the", "stock", "move_up", "right_on", "up", "until", "it", "be", "trade", "thursday", "morning", "at", "around", "$", "22", "a", "share", "."]
-    oewn_key: [[4, "oewn-01973786-v"], [10, "oewn-02734659-v"]]
+    lemmas: ["And", "from", "that", "the", "stock", "move_up", "right_on", "up", "until", "it", "be", "trade", "thursday", "morning", "at", "around", "$", "22", "a", "share", "."]
+    oewn_key: [[5, "oewn-01973786-v"], [11, "oewn-02734659-v"]]
     paragraph: '5'
-    pos: ["CC", "RB", "DT", "NN", "VBD", "RB", "IN", "IN", "PRP", "VBD", "VBG", "NNP", "NN", "IN", "RB", "$", "CD", "DT", "NN", "."]
-    text: 'And from_that the stock moved right_on up until it was trading Thursday morning
-  at around $22 a share.
+    pos: ["CC", "IN", "DT", "DT", "NN", "VBD", "RB", "IN", "IN", "PRP", "VBD", "VBG", "NNP", "NN", "IN", "RB", "$", "CD", "DT", "NN", "."]
+    text: 'And from that the stock moved right_on up until it was trading Thursday morning at around $22 a share.
 
   '
-    tokens: [[0, 3], [4, 13], [14, 17], [18, 23], [24, 29], [30, 38], [39, 41], [42, 47], [48, 50], [51, 54], [55, 62], [63, 71], [72, 79], [80, 82], [83, 89], [90, 91], [91, 93], [94, 95], [96, 101], [101, 102]]
-    wn16_key: [[4, "move_up%2:38:01::"], [10, "trade%2:42:00::"]]
-    wn30_key: [[4, "move_up%2:38:01::"], [10, "trade%2:42:00::"]]
+    tokens: [[0, 3], [4, 8], [9, 13], [14, 17], [18, 23], [24, 29], [30, 38], [39, 41], [42, 47], [48, 50], [51, 54], [55, 62], [63, 71], [72, 79], [80, 82], [83, 89], [90, 91], [91, 93], [94, 95], [96, 101], [101, 102]]
+    wn16_key: [[5, "move_up%2:38:01::"], [11, "trade%2:42:00::"]]
+    wn30_key: [[5, "move_up%2:38:01::"], [11, "trade%2:42:00::"]]
 kX0k:
     lemmas: ["But", "the", "morton", "food", "issue", "be", "hot", "long", "before", "it", "be", "on", "the", "market", "."]
     oewn_key: [[5, "oewn-02610777-v"], [10, "oewn-02661230-v"]]
@@ -160,18 +157,16 @@ xgAx:
     wn16_key: [[12, "start%2:30:00::"], [13, "circulate%2:32:01::"], [26, "start%2:30:00::"], [27, "build_up%2:30:01::"]]
     wn30_key: [[12, "start%2:30:00::"], [13, "circulate%2:32:01::"], [26, "start%2:30:00::"], [27, "build_up%2:30:00::"]]
 TSJY:
-    lemmas: ["letters", "by", "the", "ream", "come_in", "from", "investment", "firm", "all_over", "the", "nation", ",", "all_of", "them", "want", "to", "get", "a", "part", "of", "the", "share", "that", "would", "be", "sell", "(", "185000", "to", "the", "public", "at", "$", "12.50", ",", "with", "another", "5000", "reserve", "for", "morton", "food", "employe", "at", "$", "11.50", "a", "share", ")", "."]
-    oewn_key: [[4, "oewn-02010723-v"], [14, "oewn-01829179-v"], [16, "oewn-02215637-v"], [25, "oewn-02247246-v"], [38, "oewn-00726112-v"]]
+    lemmas: ["letters", "by", "the", "ream", "come_in", "from", "investment", "firm", "all", "over", "the", "nation", ",", "all", "of", "them", "want", "to", "get", "a", "part", "of", "the", "share", "that", "would", "be", "sell", "(", "185,000", "to", "the", "public", "at", "$", "12.50", ",", "with", "another", "5,000", "reserve", "for", "morton", "food", "employe", "at", "$", "11.50", "a", "share", ")", "."]
+    oewn_key: [[4, "oewn-02010723-v"], [16, "oewn-01829179-v"], [18, "oewn-02215637-v"], [27, "oewn-02247246-v"], [40, "oewn-00726112-v"]]
     paragraph: '7'
-    pos: ["NNS", "IN", "DT", "NNS", "VB", "IN", "NN", "NNS", "RB", "DT", "NN", ",", "JJ", "PRP", "VBG", "VB", "VB", "DT", "NN", "IN", "DT", "NNS", "WDT", "MD", "VB", "VBN", "CD", "CD", "TO", "DT", "NN", "IN", "$", "CD", ",", "IN", "DT", "CD", "VBN", "IN", "NNP", "NNPS", "NNS", "IN", "$", "CD", "DT", "NN", "NN", "."]
-    text: 'Letters by the reams came_in from investment firms all_over the nation, all_of them
-  wanting to get a part of the shares that would be sold (185000 to the public at
-  $12.50, with another 5000 reserved for Morton Foods employes at $11.50 a share).
+    pos: ["NNS", "IN", "DT", "NNS", "VB", "IN", "NN", "NNS", "PDT", "IN", "DT", "NN", ",", "PDT", "IN", "PRP", "VBG", "VB", "VB", "DT", "NN", "IN", "DT", "NNS", "WDT", "MD", "VB", "VBN", "CD", "CD", "TO", "DT", "NN", "IN", "$", "CD", ",", "IN", "DT", "CD", "VBN", "IN", "NNP", "NNPS", "NNS", "IN", "$", "CD", "DT", "NN", "NN", "."]
+    text: 'Letters by the reams came_in from investment firms all over the nation, all of them wanting to get a part of the shares that would be sold (185,000 to the public at $12.50, with another 5,000 reserved for Morton Foods employes at $11.50 a share).
 
   '
-    tokens: [[0, 7], [8, 10], [11, 14], [15, 20], [21, 28], [29, 33], [34, 44], [45, 50], [51, 59], [60, 63], [64, 70], [70, 71], [72, 78], [79, 83], [84, 91], [92, 94], [95, 98], [99, 100], [101, 105], [106, 108], [109, 112], [113, 119], [120, 124], [125, 130], [131, 133], [134, 138], [139, 140], [140, 146], [147, 149], [150, 153], [154, 160], [161, 163], [164, 165], [165, 170], [170, 171], [172, 176], [177, 184], [185, 189], [190, 198], [199, 202], [203, 209], [210, 215], [216, 224], [225, 227], [228, 229], [229, 234], [235, 236], [237, 242], [242, 243], [243, 244]]
-    wn16_key: [[4, "come_in%2:38:01::"], [14, "want%2:37:00::"], [16, "get%2:40:00::"], [25, "sell%2:40:00::"], [38, "reserve%2:31:00::"]]
-    wn30_key: [[4, "come_in%2:38:01::"], [14, "want%2:37:00::"], [16, "get%2:40:00::"], [25, "sell%2:40:00::"], [38, "reserve%2:31:00::"]]
+    tokens: [[0, 7], [8, 10], [11, 14], [15, 20], [21, 28], [29, 33], [34, 44], [45, 50], [51, 54], [55, 59], [60, 63], [64, 70], [70, 71], [72, 75], [76, 78], [79, 83], [84, 91], [92, 94], [95, 98], [99, 100], [101, 105], [106, 108], [109, 112], [113, 119], [120, 124], [125, 130], [131, 133], [134, 138], [139, 140], [140, 147], [148, 150], [151, 154], [155, 161], [162, 164], [165, 166], [166, 171], [171, 172], [173, 177], [178, 185], [186, 191], [192, 200], [201, 204], [205, 211], [212, 217], [218, 226], [227, 229], [230, 231], [231, 236], [237, 238], [239, 244], [244, 245], [245, 246]]
+    wn16_key: [[4, "come_in%2:38:01::"], [16, "want%2:37:00::"], [18, "get%2:40:00::"], [27, "sell%2:40:00::"], [40, "reserve%2:31:00::"]]
+    wn30_key: [[4, "come_in%2:38:01::"], [16, "want%2:37:00::"], [18, "get%2:40:00::"], [27, "sell%2:40:00::"], [40, "reserve%2:31:00::"]]
 8Yqz:
     lemmas: ["There", "be", "even", "a", "cable", "in", "french", "from", "a", "bank", "in", "switzerland", "that", "have", "somehow", "learn", "about", "the", "dallas", "stock", "offering", "."]
     oewn_key: [[1, "oewn-02609706-v"], [15, "oewn-00600349-v"]]
@@ -224,42 +219,38 @@ kHT/:
     wn16_key: [[2, "allot%2:40:00::"], [9, "sell%2:40:00::"], [17, "be%2:42:00::"]]
     wn30_key: [[2, "allot%2:40:00::"], [9, "sell%2:40:00::"], [17, "be%2:42:00::"]]
 45bL:
-    lemmas: ["But", "the", "result", "of_it", "all", "be", ",", "E._G._T.", "partner", "dean_guerin", "believe", ",", "an", "effective", "distribution", "of", "the", "stock", "to", "owner", "all_over", "the", "nation", "."]
-    oewn_key: [[5, "oewn-02622439-v"], [10, "oewn-00691086-v"]]
+    lemmas: ["But", "the", "result", "of", "it", "all", "be", ",", "E._G._T.", "partner", "dean_guerin", "believe", ",", "an", "effective", "distribution", "of", "the", "stock", "to", "owner", "all", "over", "the", "nation", "."]
+    oewn_key: [[6, "oewn-02622439-v"], [11, "oewn-00691086-v"]]
     paragraph: '10'
-    pos: ["CC", "DT", "NN", "RB", "DT", "VBD", ",", "NNP", "NN", "NNP", "VBZ", ",", "DT", "JJ", "NN", "IN", "DT", "NN", "TO", "NNS", "RB", "DT", "NN", "."]
-    text: 'But the result of_it all was, E._G._T. partner Dean_Guerin believes, an effective
-  distribution of the stock to owners all_over the nation.
+    pos: ["CC", "DT", "NN", "IN", "PRP", "DT", "VBD", ",", "NNP", "NN", "NNP", "VBZ", ",", "DT", "JJ", "NN", "IN", "DT", "NN", "TO", "NNS", "PDT", "IN", "DT", "NN", "."]
+    text: 'But the result of it all was, E._G._T. partner Dean_Guerin believes, an effective distribution of the stock to owners all over the nation.
 
   '
-    tokens: [[0, 3], [4, 7], [8, 14], [15, 20], [21, 24], [25, 28], [28, 29], [30, 38], [39, 46], [47, 58], [59, 67], [67, 68], [69, 71], [72, 81], [82, 94], [95, 97], [98, 101], [102, 107], [108, 110], [111, 117], [118, 126], [127, 130], [131, 137], [137, 138]]
-    wn16_key: [[5, "be%2:42:06::"], [10, "believe%2:31:04::"]]
-    wn30_key: [[5, "be%2:42:06::"], [10, "believe%2:31:04::"]]
+    tokens: [[0, 3], [4, 7], [8, 14], [15, 17], [18, 20], [21, 24], [25, 28], [28, 29], [30, 38], [39, 46], [47, 58], [59, 67], [67, 68], [69, 71], [72, 81], [82, 94], [95, 97], [98, 101], [102, 107], [108, 110], [111, 117], [118, 121], [122, 126], [127, 130], [131, 137], [137, 138]]
+    wn16_key: [[6, "be%2:42:06::"], [11, "believe%2:31:04::"]]
+    wn30_key: [[6, "be%2:42:06::"], [11, "believe%2:31:04::"]]
 kQU6:
-    lemmas: ["\"", "I", "feel", "confident", "the", "stock", "will", "qualify", "for", "the", "'", "national", "list", "\"", "'", ",", "he", "say", ",", "mean", "its", "market_price", "would", "be", "quote", "regularly", "in", "newspaper", "all_over", "the", "country", "."]
+    lemmas: ["\"", "I", "feel", "confident", "the", "stock", "will", "qualify", "for", "the", "'", "national", "list", "\"", "'", ",", "he", "say", ",", "mean", "its", "market_price", "would", "be", "quote", "regularly", "in", "newspaper", "all", "over", "the", "country", "."]
     oewn_key: [[2, "oewn-01775456-v"], [7, "oewn-02684822-v"], [17, "oewn-01011267-v"], [19, "oewn-00732037-v"], [24, "oewn-01025268-v"]]
     paragraph: '11'
-    pos: ["``", "PRP", "VBP", "JJ", "DT", "NN", "MD", "VB", "IN", "DT", "POS", "JJ", "NN", "''", "''", ",", "PRP", "VBD", ",", "VBG", "PRP$", "NN", "MD", "VB", "VBN", "RB", "IN", "NNS", "RB", "DT", "NN", "."]
-    text: '" I feel confident the stock will qualify for the'' national list "'', he said,
-  meaning its market_price would be quoted regularly in newspapers all_over the country.
+    pos: ["``", "PRP", "VBP", "JJ", "DT", "NN", "MD", "VB", "IN", "DT", "POS", "JJ", "NN", "''", "''", ",", "PRP", "VBD", ",", "VBG", "PRP$", "NN", "MD", "VB", "VBN", "RB", "IN", "NNS", "PDT", "IN", "DT", "NN", "."]
+    text: '"I feel confident the stock will qualify for the'' national list"'', he said, meaning its market_price would be quoted regularly in newspapers all over the country.
 
   '
-    tokens: [[0, 1], [2, 3], [4, 8], [9, 18], [19, 22], [23, 28], [29, 33], [34, 41], [42, 45], [46, 49], [49, 50], [51, 59], [60, 64], [65, 66], [66, 67], [67, 68], [69, 71], [72, 76], [76, 77], [78, 85], [86, 89], [90, 102], [103, 108], [109, 111], [112, 118], [119, 128], [129, 131], [132, 142], [143, 151], [152, 155], [156, 163], [163, 164]]
+    tokens: [[0, 1], [1, 2], [3, 7], [8, 17], [18, 21], [22, 27], [28, 32], [33, 40], [41, 44], [45, 48], [48, 49], [50, 58], [59, 63], [63, 64], [64, 65], [65, 66], [67, 69], [70, 74], [74, 75], [76, 83], [84, 87], [88, 100], [101, 106], [107, 109], [110, 116], [117, 126], [127, 129], [130, 140], [141, 144], [145, 149], [150, 153], [154, 161], [161, 162]]
     wn16_key: [[2, "feel%2:37:00::"], [7, "qualify%2:42:00::"], [17, "say%2:32:00::"], [19, "mean%2:31:01::"], [24, "quote%2:32:00::"]]
     wn30_key: [[2, "feel%2:37:00::"], [7, "qualify%2:42:00::"], [17, "say%2:32:00::"], [19, "mean%2:31:01::"], [24, "quote%2:32:00::"]]
 VZT0:
-    lemmas: ["He", "be", "also", "pleased", "with", "the", "wide", "distribution", "because", "he", "think", "it", "prove", "again", "his", "argument", "that", "dallas", "investment", "man", "can", "do", "just_as", "good", "a", "job", "as", "the", "big", "new_york", "investment_banker", "claim", "only", "they", "can", "do", "."]
-    oewn_key: [[1, "oewn-02610777-v"], [10, "oewn-00691086-v"], [12, "oewn-01017253-v"], [21, "oewn-02574587-v"], [31, "oewn-00758383-v"], [35, "oewn-02574587-v"]]
+    lemmas: ["He", "be", "also", "pleased", "with", "the", "wide", "distribution", "because", "he", "think", "it", "prove", "again", "his", "argument", "that", "dallas", "investment", "man", "can", "do", "just", "as", "good", "a", "job", "as", "the", "big", "new_york", "investment_banker", "claim", "only", "they", "can", "do", "."]
+    oewn_key: [[1, "oewn-02610777-v"], [10, "oewn-00691086-v"], [12, "oewn-01017253-v"], [21, "oewn-02574587-v"], [32, "oewn-00758383-v"], [36, "oewn-02574587-v"]]
     paragraph: '12'
-    pos: ["PRP", "VBD", "RB", "JJ", "IN", "DT", "JJ", "NN", "IN", "PRP", "VBD", "PRP", "VBD", "RB", "PRP$", "NN", "IN", "NNP", "NN", "NNS", "MD", "VB", "RB", "JJ", "DT", "NN", "IN", "DT", "JJ", "NN", "NN", "VBP", "RB", "PRP", "MD", "VB", "."]
-    text: 'He was also pleased with the wide distribution because he thought it proved again
-  his argument that Dallas investment men can do just_as good a job as the big New_York
-  investment_bankers claim only they can do.
+    pos: ["PRP", "VBD", "RB", "JJ", "IN", "DT", "JJ", "NN", "IN", "PRP", "VBD", "PRP", "VBD", "RB", "PRP$", "NN", "IN", "NNP", "NN", "NNS", "MD", "VB", "RB", "RB", "JJ", "DT", "NN", "IN", "DT", "JJ", "NN", "NN", "VBP", "RB", "PRP", "MD", "VB", "."]
+    text: 'He was also pleased with the wide distribution because he thought it proved again his argument that Dallas investment men can do just as good a job as the big New_York investment_bankers claim only they can do.
 
   '
-    tokens: [[0, 2], [3, 6], [7, 11], [12, 19], [20, 24], [25, 28], [29, 33], [34, 46], [47, 54], [55, 57], [58, 65], [66, 68], [69, 75], [76, 81], [82, 85], [86, 94], [95, 99], [100, 106], [107, 117], [118, 121], [122, 125], [126, 128], [129, 136], [137, 141], [142, 143], [144, 147], [148, 150], [151, 154], [155, 158], [159, 167], [168, 186], [187, 192], [193, 197], [198, 202], [203, 206], [207, 209], [209, 210]]
-    wn16_key: [[1, "be%2:42:03::"], [10, "think%2:31:01::"], [12, "prove%2:32:00::"], [21, "do%2:41:02::"], [31, "claim%2:32:00::"], [35, "do%2:41:02::"]]
-    wn30_key: [[1, "be%2:42:03::"], [10, "think%2:31:01::"], [12, "prove%2:32:00::"], [21, "do%2:41:02::"], [31, "claim%2:32:00::"], [35, "do%2:41:02::"]]
+    tokens: [[0, 2], [3, 6], [7, 11], [12, 19], [20, 24], [25, 28], [29, 33], [34, 46], [47, 54], [55, 57], [58, 65], [66, 68], [69, 75], [76, 81], [82, 85], [86, 94], [95, 99], [100, 106], [107, 117], [118, 121], [122, 125], [126, 128], [129, 133], [134, 136], [137, 141], [142, 143], [144, 147], [148, 150], [151, 154], [155, 158], [159, 167], [168, 186], [187, 192], [193, 197], [198, 202], [203, 206], [207, 209], [209, 210]]
+    wn16_key: [[1, "be%2:42:03::"], [10, "think%2:31:01::"], [12, "prove%2:32:00::"], [21, "do%2:41:02::"], [32, "claim%2:32:00::"], [36, "do%2:41:02::"]]
+    wn30_key: [[1, "be%2:42:03::"], [10, "think%2:31:01::"], [12, "prove%2:32:00::"], [21, "do%2:41:02::"], [32, "claim%2:32:00::"], [36, "do%2:41:02::"]]
 3Zuc:
     lemmas: ["But", "what", "make", "the", "morton", "food_stock", "issue", "such", "a", "hot", "one", "?"]
     oewn_key: [[2, "oewn-00120124-v"]]
@@ -310,12 +301,10 @@ APSQ:
     oewn_key: [[8, "oewn-01508590-v"], [19, "oewn-00426024-v"], [21, "oewn-02609706-v"]]
     paragraph: '16'
     pos: ["JJ", ",", "DT", "``", "NN", "NN", "''", "VBZ", "VBN", "DT", "NN", "IN", "NNS", "RB", ",", "CC", "IN", "NNP", "NNPS", "VB", "EX", "VBD", "RB", "CD", "NN", "NNS", ":", "NNP", "CC", "NNP", ":", "IN", "DT", "NN", "."]
-    text: 'Second, the " potato_chip industry " has caught the fancy of investors lately, and
-  until Morton Foods came_along there were only two potato_chip stocks - Frito and
-  H._W._Lay - on the market.
+    text: 'Second, the "potato_chip industry" has caught the fancy of investors lately, and until Morton Foods came_along there were only two potato_chip stocks- Frito and H._W._Lay - on the market.
 
   '
-    tokens: [[0, 6], [6, 7], [8, 11], [12, 13], [14, 25], [26, 34], [35, 36], [37, 40], [41, 47], [48, 51], [52, 57], [58, 60], [61, 70], [71, 77], [77, 78], [79, 82], [83, 88], [89, 95], [96, 101], [102, 112], [113, 118], [119, 123], [124, 128], [129, 132], [133, 144], [145, 151], [152, 153], [154, 159], [160, 163], [164, 173], [174, 175], [176, 178], [179, 182], [183, 189], [189, 190]]
+    tokens: [[0, 6], [6, 7], [8, 11], [12, 13], [13, 24], [25, 33], [33, 34], [35, 38], [39, 45], [46, 49], [50, 55], [56, 58], [59, 68], [69, 75], [75, 76], [77, 80], [81, 86], [87, 93], [94, 99], [100, 110], [111, 116], [117, 121], [122, 126], [127, 130], [131, 142], [143, 149], [149, 150], [151, 156], [157, 160], [161, 170], [171, 172], [173, 175], [176, 179], [180, 186], [186, 187]]
     wn16_key: [[8, "catch%2:35:07::"], [19, "come_along%2:30:00::"], [21, "be%2:42:00::"]]
     wn30_key: [[8, "catch%2:35:07::"], [19, "come_along%2:30:00::"], [21, "be%2:42:00::"]]
 XJKj:
@@ -337,9 +326,8 @@ XJKj:
     oewn_key: [[7, "oewn-00525762-v"]]
     paragraph: '18'
     pos: ["CC", "JJ", ",", "DT", "NN", "NN", "VBZ", "VBN", "DT", "NN", "IN", "DT", "``", "NN", "''", "NN", "IN", "DT", "JJ", "NN", "RB", "."]
-    text: 'And third, the potato_chip industry has taken_on the flavor of a " growth " industry
-  in the public mind of_late.'
-    tokens: [[0, 3], [4, 9], [9, 10], [11, 14], [15, 26], [27, 35], [36, 39], [40, 48], [49, 52], [53, 59], [60, 62], [63, 64], [65, 66], [67, 73], [74, 75], [76, 84], [85, 87], [88, 91], [92, 98], [99, 103], [104, 111], [111, 112]]
+    text: 'And third, the potato_chip industry has taken_on the flavor of a "growth" industry in the public mind of_late.'
+    tokens: [[0, 3], [4, 9], [9, 10], [11, 14], [15, 26], [27, 35], [36, 39], [40, 48], [49, 52], [53, 59], [60, 62], [63, 64], [65, 66], [66, 72], [72, 73], [74, 82], [83, 85], [86, 89], [90, 96], [97, 101], [102, 109], [109, 110]]
     wn16_key: [[7, "take_on%2:30:00::"]]
     wn30_key: [[7, "take_on%2:30:00::"]]
 FZrt:
@@ -347,26 +335,23 @@ FZrt:
     oewn_key: [[6, "oewn-00692380-v"], [18, "oewn-00010428-v"], [22, "oewn-02618797-v"]]
     paragraph: '18'
     pos: ["NNPS", ",", "WDT", "JJ", "VBD", "VBN", "VBN", "``", "NN", "JJ", "''", "CC", "RB", "JJ", "NNS", ",", "VBP", "VBN", "VBG", "RB", "NN", ",", "VB", "RBR", "JJ", "NNS", "."]
-    text: 'Foods, which long had been considered " recession resistant " but hardly dynamic
-  stocks, have been acting like growth_stocks, going_to higher price-earnings ratios.
+    text: 'Foods, which long had been considered "recession resistant" but hardly dynamic stocks, have been acting like growth_stocks, going_to higher price-earnings ratios.
 
   '
-    tokens: [[0, 5], [5, 6], [7, 12], [13, 17], [18, 21], [22, 26], [27, 37], [38, 39], [40, 49], [50, 59], [60, 61], [62, 65], [66, 72], [73, 80], [81, 87], [87, 88], [89, 93], [94, 98], [99, 105], [106, 110], [111, 124], [124, 125], [126, 134], [135, 141], [142, 156], [157, 163], [163, 164]]
+    tokens: [[0, 5], [5, 6], [7, 12], [13, 17], [18, 21], [22, 26], [27, 37], [38, 39], [39, 48], [49, 58], [58, 59], [60, 63], [64, 70], [71, 78], [79, 85], [85, 86], [87, 91], [92, 96], [97, 103], [104, 108], [109, 122], [122, 123], [124, 132], [133, 139], [140, 154], [155, 161], [161, 162]]
     wn16_key: [[6, "consider%2:31:00::"], [18, "act%2:29:00::"], [22, "go_to%2:38:00::"]]
     wn30_key: [[6, "consider%2:31:00::"], [18, "act%2:29:00::"], [22, "go_to%2:42:00::"]]
 yBYs:
-    lemmas: ["The", "potato_chip", "industry", "these", "days", "be", "grow", ",", "not_only", "as", "a", "result", "of", "population", "increase", "and", "public", "acceptance", "of", "convenience_food", ",", "but", "also", "because", "of", "a", "combination", "of", "circumstances", "that", "have", "lead", "to", "growth", "by", "merger", "."]
-    oewn_key: [[6, "oewn-00231172-v"], [31, "oewn-02641740-v"]]
+    lemmas: ["The", "potato_chip", "industry", "these", "days", "be", "grow", ",", "not", "only", "as", "a", "result", "of", "population", "increase", "and", "public", "acceptance", "of", "convenience_food", ",", "but", "also", "because", "of", "a", "combination", "of", "circumstances", "that", "have", "lead", "to", "growth", "by", "merger", "."]
+    oewn_key: [[6, "oewn-00231172-v"], [32, "oewn-02641740-v"]]
     paragraph: '19'
-    pos: ["DT", "NN", "NN", "DT", "NNS", "VBZ", "VBG", ",", "RB", "IN", "DT", "NN", "IN", "NN", "NN", "CC", "JJ", "NN", "IN", "NN", ",", "CC", "RB", "IN", "IN", "DT", "NN", "IN", "NNS", "IN", "VBZ", "VBN", "VB", "NN", "IN", "NN", "."]
-    text: 'The potato_chip industry these days is growing, not_only as a result of population
-  increase and public acceptance of convenience_foods, but also because of a combination
-  of circumstances that has led to growth by merger.
+    pos: ["DT", "NN", "NN", "DT", "NNS", "VBZ", "VBG", ",", "RB", "RB", "IN", "DT", "NN", "IN", "NN", "NN", "CC", "JJ", "NN", "IN", "NN", ",", "CC", "RB", "IN", "IN", "DT", "NN", "IN", "NNS", "IN", "VBZ", "VBN", "VB", "NN", "IN", "NN", "."]
+    text: 'The potato_chip industry these days is growing, not only as a result of population increase and public acceptance of convenience_foods, but also because of a combination of circumstances that has led to growth by merger.
 
   '
-    tokens: [[0, 3], [4, 15], [16, 24], [25, 30], [31, 35], [36, 38], [39, 46], [46, 47], [48, 56], [57, 59], [60, 61], [62, 68], [69, 71], [72, 82], [83, 91], [92, 95], [96, 102], [103, 113], [114, 116], [117, 134], [134, 135], [136, 139], [140, 144], [145, 152], [153, 155], [156, 157], [158, 169], [170, 172], [173, 186], [187, 191], [192, 195], [196, 199], [200, 202], [203, 209], [210, 212], [213, 219], [219, 220]]
-    wn16_key: [[6, "grow%2:30:00::"], [31, "lead%2:42:04::"]]
-    wn30_key: [[6, "grow%2:30:00::"], [31, "lead%2:42:04::"]]
+    tokens: [[0, 3], [4, 15], [16, 24], [25, 30], [31, 35], [36, 38], [39, 46], [46, 47], [48, 51], [52, 56], [57, 59], [60, 61], [62, 68], [69, 71], [72, 82], [83, 91], [92, 95], [96, 102], [103, 113], [114, 116], [117, 134], [134, 135], [136, 139], [140, 144], [145, 152], [153, 155], [156, 157], [158, 169], [170, 172], [173, 186], [187, 191], [192, 195], [196, 199], [200, 202], [203, 209], [210, 212], [213, 219], [219, 220]]
+    wn16_key: [[6, "grow%2:30:00::"], [32, "lead%2:42:04::"]]
+    wn30_key: [[6, "grow%2:30:00::"], [32, "lead%2:42:04::"]]
 s2i7:
     lemmas: ["The", "history", "of", "the", "U._S.", "potato_chip", "industry", "be", "that", "many_of", "today", "'s", "successful", "company", "get_started", "during", "the", "deep", "depression", "days", "."]
     oewn_key: [[7, "oewn-02610777-v"], [14, "oewn-00349195-v"]]
@@ -462,15 +447,14 @@ M4we:
     wn16_key: [[3, "maintain%2:34:00::"], [11, "be%2:42:05::"], [12, "locate%2:42:00::"]]
     wn30_key: [[3, "maintain%2:34:00::"], [11, "be%2:42:05::"], [12, "locate%2:42:00::"]]
 /ZUm:
-    lemmas: ["It", "be", "no", "coincidence", "that", "the", "texas_cotton_ginner", "'s", "association", "be", "meet", "here", "this", "week", "for", "the", "46", "th", "time", "in", "their", "52", "-", "year", "history", "."]
+    lemmas: ["It", "be", "no", "coincidence", "that", "the", "texas_cotton_ginner", "'s", "association", "be", "meet", "here", "this", "week", "for", "the", "46", "th", "time", "in", "their", "52-year", "history", "."]
     oewn_key: [[1, "oewn-02622439-v"], [10, "oewn-02433771-v"]]
     paragraph: '26'
-    pos: ["PRP", "VBZ", "DT", "NN", "IN", "DT", "NNP", "POS", "NNP", "VBZ", "VBG", "RB", "DT", "NN", "IN", "DT", "CD", "DT", "NN", "IN", "PRP$", "CD", ":", "NN", "NN", "."]
-    text: 'It is no coincidence that the Texas_Cotton_Ginner''s Association is meeting here
-  this week for the 46 th time in their 52 - year history.
+    pos: ["PRP", "VBZ", "DT", "NN", "IN", "DT", "NNP", "POS", "NNP", "VBZ", "VBG", "RB", "DT", "NN", "IN", "DT", "CD", "DT", "NN", "IN", "PRP$", "JJ", "NN", "."]
+    text: 'It is no coincidence that the Texas_Cotton_Ginner''s Association is meeting here this week for the 46 th time in their 52-year history.
 
   '
-    tokens: [[0, 2], [3, 5], [6, 8], [9, 20], [21, 25], [26, 29], [30, 49], [49, 51], [52, 63], [64, 66], [67, 74], [75, 79], [80, 84], [85, 89], [90, 93], [94, 97], [98, 100], [101, 103], [104, 108], [109, 111], [112, 117], [118, 120], [121, 122], [123, 127], [128, 135], [135, 136]]
+    tokens: [[0, 2], [3, 5], [6, 8], [9, 20], [21, 25], [26, 29], [30, 49], [49, 51], [52, 63], [64, 66], [67, 74], [75, 79], [80, 84], [85, 89], [90, 93], [94, 97], [98, 100], [101, 103], [104, 108], [109, 111], [112, 117], [118, 125], [126, 133], [133, 134]]
     wn16_key: [[1, "be%2:42:06::"], [10, "meet%2:41:00::"]]
     wn30_key: [[1, "be%2:42:06::"], [10, "meet%2:41:00::"]]
 hvgi:
@@ -496,16 +480,14 @@ Yb+F:
     wn16_key: [[1, "weigh%2:42:01::"], [13, "make%2:30:00::"]]
     wn30_key: [[1, "weigh%2:42:01::"], [13, "make%2:30:00::"]]
 UJK1:
-    lemmas: ["A", "modern", "cotton", "gin", "plant", "cost", "in", "the", "neighborhood", "of", "$", "250000", ",", "and", "it", "'s", "a", "safe", "assumption", "that", "a", "large", "percentage", "of", "new", "gin", "in", "the", "U._S.", "and", "foreign", "country", "contain", "machinery", "make", "in_this", "area", "."]
+    lemmas: ["A", "modern", "cotton", "gin", "plant", "cost", "in", "the", "neighborhood", "of", "$", "250,000", ",", "and", "it", "'s", "a", "safe", "assumption", "that", "a", "large", "percentage", "of", "new", "gin", "in", "the", "U._S.", "and", "foreign", "country", "contain", "machinery", "make", "in", "this", "area", "."]
     oewn_key: [[5, "oewn-02708368-v"], [32, "oewn-02635616-v"], [34, "oewn-01624592-v"]]
     paragraph: '28'
-    pos: ["DT", "JJ", "NN", "NN", "NN", "VB", "IN", "DT", "NN", "IN", "$", "CD", ",", "CC", "PRP", "VBZ", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "IN", "JJ", "NNS", "IN", "DT", "NNP", "CC", "JJ", "NNS", "VBP", "NN", "VBD", "RB", "NN", "."]
-    text: 'A modern cotton gin plant costs in the neighborhood of $250000, and it''s a safe
-  assumption that a large percentage of new gins in the U._S. and foreign countries
-  contain machinery made in_this area.
+    pos: ["DT", "JJ", "NN", "NN", "NN", "VB", "IN", "DT", "NN", "IN", "$", "CD", ",", "CC", "PRP", "VBZ", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "IN", "JJ", "NNS", "IN", "DT", "NNP", "CC", "JJ", "NNS", "VBP", "NN", "VBD", "IN", "DT", "NN", "."]
+    text: 'A modern cotton gin plant costs in the neighborhood of $250,000, and it''s a safe assumption that a large percentage of new gins in the U._S. and foreign countries contain machinery made in this area.
 
   '
-    tokens: [[0, 1], [2, 8], [9, 15], [16, 19], [20, 25], [26, 31], [32, 34], [35, 38], [39, 51], [52, 54], [55, 56], [56, 62], [62, 63], [64, 67], [68, 70], [70, 72], [73, 74], [75, 79], [80, 90], [91, 95], [96, 97], [98, 103], [104, 114], [115, 117], [118, 121], [122, 126], [127, 129], [130, 133], [134, 139], [140, 143], [144, 151], [152, 161], [162, 169], [170, 179], [180, 184], [185, 192], [193, 197], [197, 198]]
+    tokens: [[0, 1], [2, 8], [9, 15], [16, 19], [20, 25], [26, 31], [32, 34], [35, 38], [39, 51], [52, 54], [55, 56], [56, 63], [63, 64], [65, 68], [69, 71], [71, 73], [74, 75], [76, 80], [81, 91], [92, 96], [97, 98], [99, 104], [105, 115], [116, 118], [119, 122], [123, 127], [128, 130], [131, 134], [135, 140], [141, 144], [145, 152], [153, 162], [163, 170], [171, 180], [181, 185], [186, 188], [189, 193], [194, 198], [198, 199]]
     wn16_key: [[5, "cost%2:42:00::"], [32, "contain%2:42:00::"], [34, "make%2:36:01::"]]
     wn30_key: [[5, "cost%2:42:00::"], [32, "contain%2:42:00::"], [34, "make%2:36:01::"]]
 m7im:
@@ -518,12 +500,12 @@ m7im:
     wn16_key: [[7, "originate_in%2:42:00::"]]
     wn30_key: [[7, "originate_in%2:42:00::"]]
 N//4:
-    lemmas: ["They", "'ve", "occupy", "a", "22", "-", "acre", "site", "since", "the", "early", "1900", "'s", "."]
+    lemmas: ["They", "'ve", "occupy", "a", "22-acre", "site", "since", "the", "early", "1900", "'s", "."]
     oewn_key: [[2, "oewn-02654741-v"]]
     paragraph: '29'
-    pos: ["PRP", "VBP", "VBN", "DT", "CD", ":", "NN", "NN", "IN", "DT", "JJ", "CD", "POS", "."]
-    text: 'They''ve occupied a 22 - acre site since the early 1900''s.'
-    tokens: [[0, 4], [4, 7], [8, 16], [17, 18], [19, 21], [22, 23], [24, 28], [29, 33], [34, 39], [40, 43], [44, 49], [50, 54], [54, 56], [56, 57]]
+    pos: ["PRP", "VBP", "VBN", "DT", "JJ", "NN", "IN", "DT", "JJ", "CD", "POS", "."]
+    text: 'They''ve occupied a 22-acre site since the early 1900''s.'
+    tokens: [[0, 4], [4, 7], [8, 16], [17, 18], [19, 26], [27, 31], [32, 37], [38, 41], [42, 47], [48, 52], [52, 54], [54, 55]]
     wn16_key: [[2, "occupy%2:42:00::"]]
     wn30_key: [[2, "occupy%2:42:00::"]]
 tjjy:
@@ -600,14 +582,14 @@ Tdqe:
     wn16_key: [[7, "do%2:41:01::"]]
     wn30_key: [[7, "do%2:41:01::"]]
 UlHM:
-    lemmas: ["The", "company", "sell", "a", "complete", "line", "of", "gin", "machinery", "all_over", "the", "cotton-growing", "world", "."]
+    lemmas: ["The", "company", "sell", "a", "complete", "line", "of", "gin", "machinery", "all", "over", "the", "cotton-growing", "world", "."]
     oewn_key: [[2, "oewn-02249738-v"]]
     paragraph: '33'
-    pos: ["DT", "NN", "VBZ", "DT", "JJ", "NN", "IN", "NN", "NN", "RB", "DT", "JJ", "NN", "."]
-    text: 'The company sells a complete line of gin machinery all_over the cotton-growing world.
+    pos: ["DT", "NN", "VBZ", "DT", "JJ", "NN", "IN", "NN", "NN", "RB", "IN", "DT", "JJ", "NN", "."]
+    text: 'The company sells a complete line of gin machinery all over the cotton-growing world.
 
   '
-    tokens: [[0, 3], [4, 11], [12, 17], [18, 19], [20, 28], [29, 33], [34, 36], [37, 40], [41, 50], [51, 59], [60, 63], [64, 78], [79, 84], [84, 85]]
+    tokens: [[0, 3], [4, 11], [12, 17], [18, 19], [20, 28], [29, 33], [34, 36], [37, 40], [41, 50], [51, 54], [55, 59], [60, 63], [64, 78], [79, 84], [84, 85]]
     wn16_key: [[2, "sell%2:40:01::"]]
     wn30_key: [[2, "sell%2:40:01::"]]
 KdkZ:
@@ -659,15 +641,14 @@ JuT8:
     wn16_key: [[4, "begin%2:30:00::"], [5, "make%2:36:01::"]]
     wn30_key: [[4, "begin%2:30:00::"], [5, "make%2:36:01::"]]
 54vd:
-    lemmas: ["presently", ",", "Hardwicke-Etter", "employ", "300", "-", "450", "people", ",", "depending_on", "the", "season", "of", "the", "year", "."]
+    lemmas: ["presently", ",", "Hardwicke-Etter", "employ", "300-450", "people", ",", "depending_on", "the", "season", "of", "the", "year", "."]
     oewn_key: [[3, "oewn-01161188-v"]]
     paragraph: '35'
-    pos: ["RB", ",", "NNP", "VBZ", "CD", ":", "CD", "NNS", ",", "JJ", "DT", "NN", "IN", "DT", "NN", "."]
-    text: 'Presently, Hardwicke-Etter employs 300 - 450 people, depending_on the season of
-  the year.
+    pos: ["RB", ",", "NNP", "VBZ", "CD", "NNS", ",", "JJ", "DT", "NN", "IN", "DT", "NN", "."]
+    text: 'Presently, Hardwicke-Etter employs 300-450 people, depending_on the season of the year.
 
   '
-    tokens: [[0, 9], [9, 10], [11, 26], [27, 34], [35, 38], [39, 40], [41, 44], [45, 51], [51, 52], [53, 65], [66, 69], [70, 76], [77, 79], [80, 83], [84, 88], [88, 89]]
+    tokens: [[0, 9], [9, 10], [11, 26], [27, 34], [35, 42], [43, 49], [49, 50], [51, 63], [64, 67], [68, 74], [75, 77], [78, 81], [82, 86], [86, 87]]
     wn16_key: [[3, "employ%2:34:00::"]]
     wn30_key: [[3, "employ%2:34:00::"]]
 0BK3:
@@ -790,8 +771,8 @@ vwcJ:
     oewn_key: [[2, "oewn-02622439-v"]]
     paragraph: '42'
     pos: ["DT", "NNP", "VBZ", "DT", "NN", "IN", "``", "JJ", "NN", "''", "."]
-    text: 'The Hinckley_Gin_Supply_Co. is a maker of " overhead equipment ".'
-    tokens: [[0, 3], [4, 27], [28, 30], [31, 32], [33, 38], [39, 41], [42, 43], [44, 52], [53, 62], [63, 64], [64, 65]]
+    text: 'The Hinckley_Gin_Supply_Co. is a maker of "overhead equipment".'
+    tokens: [[0, 3], [4, 27], [28, 30], [31, 32], [33, 38], [39, 41], [42, 43], [43, 51], [52, 61], [61, 62], [62, 63]]
     wn16_key: [[2, "be%2:42:06::"]]
     wn30_key: [[2, "be%2:42:06::"]]
 0Wjk:
@@ -878,15 +859,14 @@ utH6:
     wn16_key: [[1, "distribute%2:41:00::"]]
     wn30_key: [[1, "distribute%2:41:00::"]]
 m0T8:
-    lemmas: ["The", "firm", "also", "handle", "gin", "and", "oil", "mill", "supply", "such_as", "belting", ",", "bearing", ",", "etc.", "."]
+    lemmas: ["The", "firm", "also", "handle", "gin", "and", "oil", "mill", "supply", "such", "as", "belting", ",", "bearing", ",", "etc.", "."]
     oewn_key: [[3, "oewn-02441196-v"]]
     paragraph: '46'
-    pos: ["DT", "NN", "RB", "VBZ", "NN", "CC", "NN", "NN", "NNS", "JJ", "NN", ",", "NNS", ",", "FW", "."]
-    text: 'The firm also handles gin and oil mill supplies such_as belting, bearings, etc.
-  .
+    pos: ["DT", "NN", "RB", "VBZ", "NN", "CC", "NN", "NN", "NNS", "JJ", "IN", "NN", ",", "NNS", ",", "FW", "."]
+    text: 'The firm also handles gin and oil mill supplies such as belting, bearings, etc. .
 
   '
-    tokens: [[0, 3], [4, 8], [9, 13], [14, 21], [22, 25], [26, 29], [30, 33], [34, 38], [39, 47], [48, 55], [56, 63], [63, 64], [65, 73], [73, 74], [75, 79], [80, 81]]
+    tokens: [[0, 3], [4, 8], [9, 13], [14, 21], [22, 25], [26, 29], [30, 33], [34, 38], [39, 47], [48, 52], [53, 55], [56, 63], [63, 64], [65, 73], [73, 74], [75, 79], [80, 81]]
     wn16_key: [[3, "handle%2:41:00::"]]
     wn30_key: [[3, "handle%2:41:00::"]]
 56+W:
@@ -911,60 +891,56 @@ m0T8:
     wn16_key: [[7, "show%2:39:03::"], [11, "recover%2:30:00::"], [16, "characterize%2:42:01::"]]
     wn30_key: [[11, "recover%2:30:00::"], [16, "characterize%2:42:01::"]]
 ML9u:
-    lemmas: ["registration", "of", "new", "car", "in", "dallas_county", "crack", "the", "3000", "mark", "in", "march", "for_the_first_time", "this", "year", "."]
+    lemmas: ["registration", "of", "new", "car", "in", "dallas_county", "crack", "the", "3,000", "mark", "in", "march", "for_the_first_time", "this", "year", "."]
     oewn_key: [[6, "oewn-00540850-v"]]
     paragraph: '48'
     pos: ["NNS", "IN", "JJ", "NNS", "IN", "NNP", "VBD", "DT", "CD", "NN", "IN", "NNP", "RB", "DT", "NN", "."]
-    text: 'Registrations of new cars in Dallas_County cracked the 3000 mark in March for_the_first_time
-  this year.
+    text: 'Registrations of new cars in Dallas_County cracked the 3,000 mark in March for_the_first_time this year.
 
   '
-    tokens: [[0, 13], [14, 16], [17, 20], [21, 25], [26, 28], [29, 42], [43, 50], [51, 54], [55, 59], [60, 64], [65, 67], [68, 73], [74, 92], [93, 97], [98, 102], [102, 103]]
+    tokens: [[0, 13], [14, 16], [17, 20], [21, 25], [26, 28], [29, 42], [43, 50], [51, 54], [55, 60], [61, 65], [66, 68], [69, 74], [75, 93], [94, 98], [99, 103], [103, 104]]
     wn16_key: [[6, "crack%2:30:09::"]]
     wn30_key: [[6, "crack%2:30:09::"]]
 VqNE:
-    lemmas: ["total", "3399", ",", "sales", "jump", "14", "per_cent", "over", "february", "'s", "2963", "."]
+    lemmas: ["total", "3,399", ",", "sales", "jump", "14", "per_cent", "over", "february", "'s", "2,963", "."]
     oewn_key: [[0, "oewn-02651091-v"], [4, "oewn-01967949-v"]]
     paragraph: '49'
     pos: ["VBG", "CD", ",", "NNS", "VBD", "CD", "NN", "IN", "NNP", "POS", "CD", "."]
-    text: 'Totaling 3399, sales jumped 14 per_cent over February''s 2963.'
-    tokens: [[0, 8], [9, 13], [13, 14], [15, 20], [21, 27], [28, 30], [31, 39], [40, 44], [45, 53], [53, 55], [56, 60], [60, 61]]
+    text: 'Totaling 3,399, sales jumped 14 per_cent over February''s 2,963.'
+    tokens: [[0, 8], [9, 14], [14, 15], [16, 21], [22, 28], [29, 31], [32, 40], [41, 45], [46, 54], [54, 56], [57, 62], [62, 63]]
     wn16_key: [[0, "total%2:42:00::"], [4, "jump%2:38:00::"]]
     wn30_key: [[0, "total%2:42:00::"], [4, "jump%2:38:00::"]]
 97FM:
-    lemmas: ["however", ",", "compare", "with", "march", "1960", "new", "car", "sales", "of", "4441", ",", "this", "march", "be", "off", "23", "per_cent", "."]
+    lemmas: ["however", ",", "compare", "with", "march", "1960", "new", "car", "sales", "of", "4,441", ",", "this", "march", "be", "off", "23", "per_cent", "."]
     oewn_key: [[2, "oewn-00654571-v"], [14, "oewn-02610777-v"]]
     paragraph: '49'
     pos: ["RB", ",", "VBN", "IN", "NNP", "CD", "JJ", "NN", "NNS", "IN", "CD", ",", "DT", "NNP", "VBD", "JJ", "CD", "NN", "."]
-    text: 'However, compared with March 1960 new car sales of 4441, this March was off 23 per_cent.
+    text: 'However, compared with March 1960 new car sales of 4,441, this March was off 23 per_cent.
 
   '
-    tokens: [[0, 7], [7, 8], [9, 17], [18, 22], [23, 28], [29, 33], [34, 37], [38, 41], [42, 47], [48, 50], [51, 55], [55, 56], [57, 61], [62, 67], [68, 71], [72, 75], [76, 78], [79, 87], [87, 88]]
+    tokens: [[0, 7], [7, 8], [9, 17], [18, 22], [23, 28], [29, 33], [34, 37], [38, 41], [42, 47], [48, 50], [51, 56], [56, 57], [58, 62], [63, 68], [69, 72], [73, 76], [77, 79], [80, 88], [88, 89]]
     wn16_key: [[2, "compare%2:31:00::"], [14, "be%2:42:03::"]]
     wn30_key: [[2, "compare%2:31:00::"], [14, "be%2:42:03::"]]
 Y4tO:
-    lemmas: ["On", "a", "quarter-to-quarte", "comparison", ",", "the", "first_quarter", "of", "1961", "total", "of", "9273", "car", "be", "21", "per_cent", "behind", "the", "previous", "year", "'s", "3", "-", "month", "total", "of", "11744", "."]
+    lemmas: ["On", "a", "quarter-to-quarte", "comparison", ",", "the", "first_quarter", "of", "1961", "total", "of", "9,273", "car", "be", "21", "per_cent", "behind", "the", "previous", "year", "'s", "3", "-", "month", "total", "of", "11,744", "."]
     oewn_key: [[13, "oewn-02610777-v"]]
     paragraph: '50'
     pos: ["IN", "DT", "JJ", "NN", ",", "DT", "NN", "IN", "CD", "JJ", "IN", "CD", "NNS", "VBD", "CD", "NN", "IN", "DT", "JJ", "NN", "POS", "CD", ":", "NN", "JJ", "IN", "CD", "."]
-    text: 'On a quarter-to-quarter comparison, the first_quarter of 1961 total of 9273 cars
-  was 21 per_cent behind the previous year''s 3 - month total of 11744.
+    text: 'On a quarter-to-quarter comparison, the first_quarter of 1961 total of 9,273 cars was 21 per_cent behind the previous year''s 3 - month total of 11,744.
 
   '
-    tokens: [[0, 2], [3, 4], [5, 23], [24, 34], [34, 35], [36, 39], [40, 53], [54, 56], [57, 61], [62, 67], [68, 70], [71, 75], [76, 80], [81, 84], [85, 87], [88, 96], [97, 103], [104, 107], [108, 116], [117, 121], [121, 123], [124, 125], [126, 127], [128, 133], [134, 139], [140, 142], [143, 148], [148, 149]]
+    tokens: [[0, 2], [3, 4], [5, 23], [24, 34], [34, 35], [36, 39], [40, 53], [54, 56], [57, 61], [62, 67], [68, 70], [71, 76], [77, 81], [82, 85], [86, 88], [89, 97], [98, 104], [105, 108], [109, 117], [118, 122], [122, 124], [125, 126], [127, 128], [129, 134], [135, 140], [141, 143], [144, 150], [150, 151]]
     wn16_key: [[13, "be%2:42:03::"]]
     wn30_key: [[13, "be%2:42:03::"]]
 dXYV:
-    lemmas: ["This", "year-to-year", "decline", "for", "dallas_county", "closely", "follow", "the", "national", "trend", "-", "estimated", "sales", "of", "domestic", "car", "in", "the", "U._S.", "for", "first", "three", "month", "of", "1961", "be", "about", "1212000", "or", "80", "per_cent", "of", "the", "total", "in", "the", "first_quarter", "a", "year", "earlier", "."]
+    lemmas: ["This", "year-to-year", "decline", "for", "dallas_county", "closely", "follow", "the", "national", "trend", "-", "estimated", "sales", "of", "domestic", "car", "in", "the", "U._S.", "for", "first", "three", "month", "of", "1961", "be", "about", "1,212,000", "or", "80", "per_cent", "of", "the", "total", "in", "the", "first_quarter", "a", "year", "earlier", "."]
     oewn_key: [[6, "oewn-01748331-v"], [25, "oewn-02670846-v"]]
     paragraph: '51'
     pos: ["DT", "JJ", "NN", "IN", "NNP", "RB", "VBZ", "DT", "JJ", "NN", ":", "JJ", "NNS", "IN", "JJ", "NNS", "IN", "DT", "NNP", "IN", "JJ", "CD", "NNS", "IN", "CD", "VBD", "RB", "CD", "CC", "CD", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "DT", "NN", "RBR", "."]
-    text: 'This year-to-year decline for Dallas_County closely follows the national trend -
-  estimated sales of domestic cars in the U._S. for first three months of 1961 were
-  about 1212000 or 80 per_cent of the total in the first_quarter a year earlier.
+    text: 'This year-to-year decline for Dallas_County closely follows the national trend- estimated sales of domestic cars in the U._S. for first three months of 1961 were about 1,212,000 or 80 per_cent of the total in the first_quarter a year earlier.
 
   '
-    tokens: [[0, 4], [5, 17], [18, 25], [26, 29], [30, 43], [44, 51], [52, 59], [60, 63], [64, 72], [73, 78], [79, 80], [81, 90], [91, 96], [97, 99], [100, 108], [109, 113], [114, 116], [117, 120], [121, 126], [127, 130], [131, 136], [137, 142], [143, 149], [150, 152], [153, 157], [158, 162], [163, 168], [169, 176], [177, 179], [180, 182], [183, 191], [192, 194], [195, 198], [199, 204], [205, 207], [208, 211], [212, 225], [226, 227], [228, 232], [233, 240], [240, 241]]
+    tokens: [[0, 4], [5, 17], [18, 25], [26, 29], [30, 43], [44, 51], [52, 59], [60, 63], [64, 72], [73, 78], [78, 79], [80, 89], [90, 95], [96, 98], [99, 107], [108, 112], [113, 115], [116, 119], [120, 125], [126, 129], [130, 135], [136, 141], [142, 148], [149, 151], [152, 156], [157, 161], [162, 167], [168, 177], [178, 180], [181, 183], [184, 192], [193, 195], [196, 199], [200, 205], [206, 208], [209, 212], [213, 226], [227, 228], [229, 233], [234, 241], [241, 242]]
     wn16_key: [[6, "follow%2:36:00::"], [25, "be%2:42:07::"]]
     wn30_key: [[6, "follow%2:36:00::"], [25, "be%2:42:07::"]]
 8i8x:
@@ -1004,11 +980,10 @@ kLjd:
     oewn_key: [[12, "oewn-00120854-v"]]
     paragraph: '53'
     pos: ["RB", "CD", "JJ", "NNS", ":", "NNP", ",", "NNP", ",", "CC", "NNP", ":", "VBD", "JJ", "JJ", "NNS", "IN", "NNP", "NNS", "IN", "DT", "NN", "."]
-    text: 'Only three standard models - Buick, Chrysler, and Mercury - had slight year-to-year
-  gains in March sales in the county.
+    text: 'Only three standard models- Buick, Chrysler, and Mercury- had slight year-to-year gains in March sales in the county.
 
   '
-    tokens: [[0, 4], [5, 10], [11, 19], [20, 26], [27, 28], [29, 34], [34, 35], [36, 44], [44, 45], [46, 49], [50, 57], [58, 59], [60, 63], [64, 70], [71, 83], [84, 89], [90, 92], [93, 98], [99, 104], [105, 107], [108, 111], [112, 118], [118, 119]]
+    tokens: [[0, 4], [5, 10], [11, 19], [20, 26], [26, 27], [28, 33], [33, 34], [35, 43], [43, 44], [45, 48], [49, 56], [56, 57], [58, 61], [62, 68], [69, 81], [82, 87], [88, 90], [91, 96], [97, 102], [103, 105], [106, 109], [110, 116], [116, 117]]
     wn16_key: [[12, "have%2:30:01::"]]
     wn30_key: [[12, "have%2:30:01::"]]
 /ips:
@@ -1048,15 +1023,14 @@ rjMM:
     wn16_key: [[1, "provide%2:40:00::"], [8, "supplement%2:40:00::"]]
     wn30_key: [[1, "provide%2:40:00::"], [8, "supplement%2:40:00::"]]
 BFxU:
-    lemmas: ["More_than", "500", "junior", "and", "senior", "be", "take_part", "in", "the", "program", "and", "100", "firm", "offer", "job", "on", "an", "educational", "rather_than", "a", "need", "basis", "."]
+    lemmas: ["More_than", "500", "junior", "and", "senior", "be", "take_part", "in", "the", "program", "and", "100", "firm", "offer", "job", "on", "an", "educational", "rather", "than", "a", "need", "basis", "."]
     oewn_key: [[6, "oewn-02455121-v"], [13, "oewn-02332196-v"]]
     paragraph: '56'
-    pos: ["RB", "CD", "NNS", "CC", "NNS", "VBP", "VB", "IN", "DT", "NN", "CC", "CD", "NNS", "VBP", "NNS", "IN", "DT", "JJ", "RB", "DT", "NN", "NN", "."]
-    text: 'More_than 500 juniors and seniors are taking_part in the program and 100 firms offer
-  jobs on an educational rather_than a need basis.
+    pos: ["RB", "CD", "NNS", "CC", "NNS", "VBP", "VB", "IN", "DT", "NN", "CC", "CD", "NNS", "VBP", "NNS", "IN", "DT", "JJ", "IN", "IN", "DT", "NN", "NN", "."]
+    text: 'More_than 500 juniors and seniors are taking_part in the program and 100 firms offer jobs on an educational rather than a need basis.
 
   '
-    tokens: [[0, 9], [10, 13], [14, 21], [22, 25], [26, 33], [34, 37], [38, 49], [50, 52], [53, 56], [57, 64], [65, 68], [69, 72], [73, 78], [79, 84], [85, 89], [90, 92], [93, 95], [96, 107], [108, 119], [120, 121], [122, 126], [127, 132], [132, 133]]
+    tokens: [[0, 9], [10, 13], [14, 21], [22, 25], [26, 33], [34, 37], [38, 49], [50, 52], [53, 56], [57, 64], [65, 68], [69, 72], [73, 78], [79, 84], [85, 89], [90, 92], [93, 95], [96, 107], [108, 114], [115, 119], [120, 121], [122, 126], [127, 132], [132, 133]]
     wn16_key: [[6, "take_part%2:41:00::"], [13, "offer%2:40:02::"]]
     wn30_key: [[6, "take_part%2:41:00::"], [13, "offer%2:40:02::"]]
 AC42:
@@ -1115,15 +1089,13 @@ uDpo:
     wn16_key: [[18, "come%2:30:01::"]]
     wn30_key: [[18, "come%2:30:01::"]]
 Dxlb:
-    lemmas: ["The", "administration", "'s", "proposal", ",", "complex", "and", "sweeping", "as", "they", "be", ",", "all", "deal", "with", "fringe", "area", "of", "the", "housing", "market", "rather_than", "its", "core", ",", "state", "Caron_S._Stallard", ",", "first", "vice-president", "of", "the", "mortgage", "banker", "association", "of", "america", "."]
-    oewn_key: [[10, "oewn-02610777-v"], [13, "oewn-00736077-v;oewn-01035399-v"], [25, "oewn-01011267-v"]]
+    lemmas: ["The", "administration", "'s", "proposal", ",", "complex", "and", "sweeping", "as", "they", "be", ",", "all", "deal", "with", "fringe", "area", "of", "the", "housing", "market", "rather", "than", "its", "core", ",", "state", "Caron_S._Stallard", ",", "first", "vice-president", "of", "the", "mortgage", "banker", "association", "of", "america", "."]
+    oewn_key: [[10, "oewn-02610777-v"], [13, "oewn-00736077-v;oewn-01035399-v"], [26, "oewn-01011267-v"]]
     paragraph: '61'
-    pos: ["DT", "NNP", "POS", "NNS", ",", "JJ", "CC", "JJ", "IN", "PRP", "VBP", ",", "DT", "VB", "VB", "NN", "NNS", "IN", "DT", "NN", "NN", "RB", "PRP$", "NN", ",", "VBN", "NNP", ",", "JJ", "NN", "IN", "DT", "NNP", "NNPS", "NNP", "IN", "NNP", "."]
-    text: 'The Administration''s proposals, complex and sweeping as they are, all deal with
-  fringe areas of the housing market rather_than its core, stated Caron_S._Stallard,
-  first vice-president of the Mortgage Bankers Association of America.
+    pos: ["DT", "NNP", "POS", "NNS", ",", "JJ", "CC", "JJ", "IN", "PRP", "VBP", ",", "DT", "VB", "VB", "NN", "NNS", "IN", "DT", "NN", "NN", "IN", "IN", "PRP$", "NN", ",", "VBN", "NNP", ",", "JJ", "NN", "IN", "DT", "NNP", "NNPS", "NNP", "IN", "NNP", "."]
+    text: 'The Administration''s proposals, complex and sweeping as they are, all deal with fringe areas of the housing market rather than its core, stated Caron_S._Stallard, first vice-president of the Mortgage Bankers Association of America.
 
   '
-    tokens: [[0, 3], [4, 18], [18, 20], [21, 30], [30, 31], [32, 39], [40, 43], [44, 52], [53, 55], [56, 60], [61, 64], [64, 65], [66, 69], [70, 74], [75, 79], [80, 86], [87, 92], [93, 95], [96, 99], [100, 107], [108, 114], [115, 126], [127, 130], [131, 135], [135, 136], [137, 143], [144, 161], [161, 162], [163, 168], [169, 183], [184, 186], [187, 190], [191, 199], [200, 207], [208, 219], [220, 222], [223, 230], [230, 231]]
-    wn16_key: [[10, "be%2:42:03::"], [13, "deal%2:31:10::;deal%2:32:08::"], [25, "state%2:32:00::"]]
-    wn30_key: [[10, "be%2:42:03::"], [13, "deal%2:31:10::;deal%2:32:08::"], [25, "state%2:32:00::"]]
+    tokens: [[0, 3], [4, 18], [18, 20], [21, 30], [30, 31], [32, 39], [40, 43], [44, 52], [53, 55], [56, 60], [61, 64], [64, 65], [66, 69], [70, 74], [75, 79], [80, 86], [87, 92], [93, 95], [96, 99], [100, 107], [108, 114], [115, 121], [122, 126], [127, 130], [131, 135], [135, 136], [137, 143], [144, 161], [161, 162], [163, 168], [169, 183], [184, 186], [187, 190], [191, 199], [200, 207], [208, 219], [220, 222], [223, 230], [230, 231]]
+    wn16_key: [[10, "be%2:42:03::"], [13, "deal%2:31:10::;deal%2:32:08::"], [26, "state%2:32:00::"]]
+    wn30_key: [[10, "be%2:42:03::"], [13, "deal%2:31:10::;deal%2:32:08::"], [26, "state%2:32:00::"]]

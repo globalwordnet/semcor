@@ -111,6 +111,51 @@ sOM7:
   gives the corresponding [Open English Wordnet](https://github.com/globalwordnet/english-wordnet/)
   synset ID, and is the layer that gets updated as new OEWN versions are
   released.
+- `text` renders both opening and closing quotation marks as a single
+  straight double-quote character (`"`). This is intentional, not a
+  lossy normalization: `nltk.corpus.brown` (used as the ground truth
+  for `semcor-verify-brown`, #12) represents quotes with its own
+  tokenization convention (`` `` `` opening, `''` closing), but that's
+  an artifact of NLTK's own tokenized rendering, not the original
+  Brown Corpus source text -- a more faithful plaintext rendering of
+  Brown (e.g. the widely-used `brown_nolines.txt` reformatting) already
+  uses a plain `"` for both, matching this corpus. See #14.
+- `text` sometimes renders a parenthetical as `[...]` (square brackets)
+  rather than `(...)`, e.g. `[of urbanization]`. This is also
+  intentional: every one of the 71 sentences with a `[`/`]` is a
+  textbook editorial-insertion bracket -- a clarification inserted into
+  a quotation (`[sic]`, `[of urbanization]`), a news-style source
+  citation (`[SR, Mar. 25]`), a bracketed alias (`Joseph [Joey]
+  Glimco`), a translator's inserted word (`the [Holy] Spirit`), or
+  genuine math/science interval notation (`[0, T]`) -- never a plain
+  parenthetical mangled into brackets. `brown_nolines.txt` has the
+  identical `[...]` at every sampled position, confirming this corpus's
+  brackets are a faithful rendering of the real source punctuation.
+  `nltk.corpus.brown` is the lossy side here: across its entire
+  500-file corpus it has only 2 literal `[` and 2 `]` characters total
+  (vs. 2,435/2,466 `(`/`)`), so it essentially never preserves the
+  bracket/paren distinction, which is why `semcor-verify-brown`
+  (nltk-based) flags these as divergences. See #18.
+- `press_reportage` articles are missing datelines (`Washington,Feb.9--`),
+  bylines, and mid-article newspaper subheadlines (`nltk.corpus.brown`
+  has `..."no evidence" that any irregularities took place. Ask jail
+  deputies On other matters...` -- `Ask jail deputies` is a subheadline
+  sitting between two unrelated sentences) that Brown's plaintext still
+  has. Unlike the two notes above, this **is** a real, confirmed gap,
+  not a false alarm: a whole-document scan found 323 such deletions
+  across 38 of the genre's 44 files (86%), split between datelines/
+  bylines and the more numerous subheadline pattern. But it's also not
+  fixable the way #8-#31 fix things -- there's no corrupted or
+  mis-tokenized content in this corpus's own data to recover, because
+  the text was apparently never there to begin with: `brown_nolines.txt`
+  is missing the identical strings too (unlike #16/#18, where it was the
+  more complete source), pointing to the loss predating this corpus's
+  own construction, likely from however SemCor's annotators originally
+  prepared "clean" running prose from Brown decades ago. Restoring it
+  would mean synthesizing new, never-sense-tagged sentences from Brown
+  and deciding how they fit into this corpus's existing sentence IDs and
+  paragraph numbering -- a content-expansion project, not a bug fix. See
+  #32.
 
 ## Wordnet alignment
 
@@ -195,6 +240,282 @@ uv run semcor-fix-leading-space              # fix data/
 Idempotent: documents without a leading space are left untouched, so
 it's safe to rerun.
 
+### `semcor-fix-spurious-spacing`
+
+Closes spurious whitespace gaps in `text` that don't exist in the real
+Brown Corpus text (fixes #8): a space wrongly inserted just inside an
+opening/closing quote, around a `:` between two all-digit tokens
+(`11: 30`), or between two short letter(s)+period fragments that are
+actually one abbreviation split across tokens (`a. m.`), shifting
+`tokens` offsets to match. Only fixes a sentence's quotes when it
+contains exactly two -- an unambiguous, self-contained pair -- since
+neither a stray never-closed quote nor one nested inside another
+(both real, both confirmed to break simple open/close alternation) are
+reliably distinguishable from the ordinary case; see the module
+docstring for the full reasoning.
+
+```sh
+uv run semcor-fix-spurious-spacing              # fix data/
+uv run semcor-fix-spurious-spacing --dry-run    # preview without writing
+```
+
+Idempotent, like `semcor-fix-leading-space`.
+
+### `semcor-fix-em-dash`
+
+Restores em dashes corrupted into a single, space-padded `-` (fixes
+#9), e.g. `three guns - one in the right pocket` ->
+`three guns--one in the right pocket` (Brown's own em-dash token is
+`--`, flush against its neighbours). Also restores a small number of
+number-range hyphens (`10 - 16` -> `10-16`) found to be a different,
+correctly-single-hyphen case during the same check.
+
+Unlike the other `fix-*` scripts, this doesn't re-derive what to fix
+from a pattern at runtime -- of 2,939 candidate tokens, cross-checking
+each one's context against `nltk.corpus.brown` found a third pattern
+(a hyphenated compound that's a single token in Brown, e.g. `80-hp`,
+split into three here) that needs token-merging rather than a
+whitespace/character edit, so isn't part of this fix at all (tracked
+separately as #24). `src/semcor/em-dash-fixes.yaml` -- kept next to the
+script that reads it, since nothing else needs it -- lists exactly the
+1,885 confirmed fixes from that check; this script only applies that
+manifest, with no runtime NLTK dependency.
+
+```sh
+uv run semcor-fix-em-dash              # apply em-dash-fixes.yaml to data/
+uv run semcor-fix-em-dash --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
+### `semcor-fix-function-word-merges`
+
+Splits spuriously merged function-word pairs back into two tokens
+(fixes #10), e.g. `in_which` (one token, tag `RB`) -> `in`/IN +
+`which`/WDT, matching Brown's actual tokenization. Unlike the other
+`fix-*` scripts, this changes the *number* of tokens in a sentence:
+`tokens`/`pos`/`lemmas` each go from one entry to two, and every
+`oewn_key`/`wn16_key`/`wn30_key` annotation after the split point
+shifts by one to keep pointing at the same word.
+
+Which merges are safe to split (and what to split them into) was
+decided offline, the same way as #9's `em-dash-fixes.yaml`: a
+candidate is a token that's exactly two closed-class function words
+joined by `_`, with *no* existing sense annotation at that token index
+-- an existing annotation is the corpus's own signal that occurrence
+was an intentional multiword unit (some occurrences of the same pair,
+e.g. `at_once`, are sense-tagged and some aren't, so this has to be
+decided per occurrence, not per word pair). Each survivor was then
+confirmed against `nltk.corpus.brown.tagged_words()` to get its real,
+context-dependent tags. See the module docstring for the full
+reasoning, including why a plain Open English Wordnet entry lookup
+was tried and rejected as the filter.
+
+```sh
+uv run semcor-fix-function-word-merges              # apply function-word-merge-fixes.yaml to data/
+uv run semcor-fix-function-word-merges --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
+### `semcor-fix-leftover-ampersand`
+
+Normalizes leftover `& & &` runs (27 sentences across 20 files) to a
+real ellipsis `...` (fixes #11), e.g. `sleeping together & & &".` ->
+`sleeping together ...".`. Unlike the rest of this stack, Brown isn't
+a reliable ground truth here -- checking these positions against
+`nltk.corpus.brown` mostly finds nothing at all there, consistent with
+this being a genuine "trails off" mark from the original printed
+source that Brown's own transcription dropped and this corpus's
+intermediate format tried (and, in these 27 cases, failed) to
+preserve, rather than spurious markup with a recoverable correct
+answer. See the module docstring for the reasoning and the existing
+`gap_before`/`gap_after` spacing pattern this fix relies on.
+
+```sh
+uv run semcor-fix-leftover-ampersand              # fix data/
+uv run semcor-fix-leftover-ampersand --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
+### `semcor-fix-thousands-separator-commas`
+
+Restores thousands-separator commas stripped from numbers (fixes #15),
+e.g. `126000` -> `126,000`. `semcor-verify-brown`'s alignment against
+`nltk.corpus.brown` found 411 confirmed single-token fixes across 324
+sentences in 114 files. Most are a plain missing comma, but two
+tokenization wrinkles meant the fix can't just copy Brown's aligned
+word verbatim: 168 cases where Brown merges a `$` prefix into the
+number as one word (`$1,200`) while this corpus keeps `$` as its own
+token, and 11 cases where Brown tokenizes a whole hyphenated compound
+(`75,000-ton`) as one word that this corpus already splits into
+several tokens. Both are handled by pulling out just the matching
+digit run from Brown's word rather than using it whole -- see the
+module docstring.
+
+A further ~52 missing commas are ordinary sentence commas (list items,
+appositives) with no shared cause, and are deliberately out of scope
+here -- see the issue this fixes for the follow-up.
+
+Every fix grows one token in place, expanding only that token's own
+span (never a neighbouring gap, since any surrounding whitespace here
+is legitimate, unlike #9's em-dash padding).
+`src/semcor/thousands-separator-fixes.yaml` -- kept next to the script
+that reads it, since nothing else needs it -- lists all 411 confirmed
+fixes; this script only applies that manifest, with no runtime NLTK
+dependency.
+
+```sh
+uv run semcor-fix-thousands-separator-commas              # apply thousands-separator-fixes.yaml to data/
+uv run semcor-fix-thousands-separator-commas --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
+### `semcor-fix-formula-marker-spacing`
+
+Merges spuriously split `**f`/`**h` placeholder markers back into one
+token (fixes #16). Brown's 1961 transcription used `**<code>` as a
+placeholder for symbols it couldn't typeset directly -- `**f` where a
+math/science formula belongs (mostly `learned`-genre texts), `**h` as a
+paragraph-break marker (mostly `fiction_general` dialogue) -- but this
+corpus split each one across three tokens with spurious spaces
+(`text: '* * f'`) instead of keeping it glued as one. `nltk.corpus.brown`
+can't confirm this on its own, since its own rendering of these codes is
+inconsistent between occurrences (some become ad hoc letter codes,
+others stay as raw `**xx`); this was instead verified against
+http://www.sls.hawaii.edu/bley-vroman/brown_nolines.txt, a plaintext dump
+that preserves the original markup verbatim.
+
+An exhaustive scan of every `data/*.yaml` file found 602 of these 3-token
+runs to merge (580 bare `f`, 18 `h`, 4 `f-fold`/`f-inch` compound
+modifiers) across 342 sentences in 35 files, and a handful of
+differently-shaped occurrences deliberately left alone: an
+underscore-joined next token (`f_Numbers`, a second, independent
+word-fusion bug), one unrelated footnote-style lone `*`, and one dangling
+end-of-document `* *` whose own placeholder letter is missing entirely
+(real data loss, not a spacing bug) -- see the issue this fixes for the
+follow-up.
+
+Unlike the manifest-driven fixes above, this needs no manifest and no
+runtime NLTK dependency: the merge rule is fully determined by this
+corpus's own token structure (two adjacent `*` tokens immediately
+followed by a matching word token), recomputed from `data/` every run.
+Like #10, this changes the *number* of tokens (three become one) and the
+length of `text` (the two gaps between them are deleted); every
+`oewn_key`/`wn16_key`/`wn30_key` annotation past a merge point shifts
+down by two to match, and the trailing word token's own annotation (12
+of the 602, e.g. `**f` for a degree symbol + sense-tagged "F"/Fahrenheit)
+follows onto the merged token -- see the module docstring.
+
+```sh
+uv run semcor-fix-formula-marker-spacing              # fix data/
+uv run semcor-fix-formula-marker-spacing --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
+### `semcor-fix-corrupted-ampersand`
+
+Restores literal `&` characters corrupted to `+` (fixes #17). #8/#9/#11
+established that this corpus decodes one Brown transcription escape
+convention -- a literal `&` marks a non-sentence-final abbreviation
+period (`Mr&` -> `Mr.`) -- but the original transcription needed a
+*different* escape for an actual, literal ampersand in running text,
+since `&` was already spoken for; it used `+`. This corpus never decoded
+that second convention, so `A & M` (Texas A&M) stayed as `A_+_M`.
+
+An exhaustive scan of every `+`-containing token in `data/*.yaml` (81
+total, not a sample) found 76 confirmed corruptions -- virtually all
+proper-noun ampersands (`Chesapeake + Ohio`, `Smith + Wesson`,
+`Standard + Poor's`, `AF + AM`, ...) -- each checked against
+`nltk.corpus.brown` and local context. A whole-document Brown diff
+alone (the method the rest of this stack uses) missed one real instance
+here (`SequenceMatcher`'s greedy matching absorbed a second, nearby `B +
+O` mention into an "equal" block once an earlier one was resolved),
+caught only by cross-checking against the direct token scan instead.
+`sls.hawaii.edu`'s raw dump (the more faithful source #16 used) isn't
+the right comparison for *this* fix: it has the identical undecoded `+`
+in all 76 places, since it preserves the same escape convention this
+corpus does -- `nltk.corpus.brown`, which decodes it, is the right
+ground truth here. The remaining 5 `+`-containing tokens are genuine,
+unrelated plus signs (statistical correlation values, an explanation of
+the `+` symbol itself, a school grade) and are correctly left alone.
+
+Every fix is a single-character, same-length swap, same as #28: no
+token/offset restructuring, so `tokens`/`pos`/`oewn_key`/`wn16_key`/
+`wn30_key` are untouched. `src/semcor/corrupted-ampersand-fixes.yaml`
+-- kept next to the script that reads it, since nothing else needs it
+-- lists all 78 confirmed `+` character offsets (two tokens have more
+than one); this script only applies that manifest, with no runtime
+NLTK dependency.
+
+```sh
+uv run semcor-fix-corrupted-ampersand              # apply corrupted-ampersand-fixes.yaml to data/
+uv run semcor-fix-corrupted-ampersand --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
+### `semcor-fix-hyphen-compound-merge`
+
+Merges over-split hyphenated compound tokens back into one (fixes #24).
+Brown sometimes tokenizes a hyphenated compound modifier as a single
+token (`80-hp`, `1787-89`, `3-cm`), but this corpus split some of these
+into three tokens with spurious spaces (`80`, `-`, `hp`) -- the same
+surface symptom as #9's em-dash bug, but fixing it means merging tokens
+back together, not editing whitespace or a character.
+
+#9 already fixed the two other patterns behind a lone `-` surrounded by
+spaces (genuine em dashes and separate-token number ranges); of the
+~1,054 it couldn't confirm either way, a context-window search against
+`nltk.corpus.brown` (2 tokens of real context on each side of the
+hyphen, excluding its immediate neighbours since one of those is what
+might be swallowed into the compound -- stronger than #9's
+neighbour-only search, and something a whole-document diff can't do at
+all here, since stripping whitespace before comparing makes `80 - hp`
+and `80-hp` identical strings) found 315 confirmed compound merges. This
+fixes 289 of those: the *left* token must be purely numeric (`80`,
+`1787`, ...) -- 13 word-prefixed cases (`AFL-CIO`, `radio-TV`,
+`Class-D`, ...) are left for a follow-up issue, since a number's only
+possible sense is always its own generic cardinal/quantity identity
+(safe to drop once merged into a compound that isn't "a number"
+anymore) while a word carries a real, specific sense a merge would need
+an individual editorial call to resolve -- and a further 13 digit-prefix
+candidates turned out to be a byte-for-byte mismatch between this
+corpus's own content and Brown's merged surface (an abbreviation period
+Brown's word has that this corpus tokenizes separately, `per-cent` vs.
+`per_cent`, a `1/2` vs. `1_2` fraction, and one case spanning a *fourth*
+token this corpus splits off too) and are excluded rather than
+fabricating characters this corpus doesn't have.
+
+Every fix merges 3 tokens (number, `-`, word) into 1, closing the two
+whitespace gaps in `text` and shifting later `tokens`/`oewn_key`/
+`wn16_key`/`wn30_key` indices to match, the same token-count-and-length
+change #16's placeholder-marker merge makes -- with one addition #16
+never needed: the number token's own sense (if any -- always its
+generic cardinal/quantity identity, per the digit-only scope above) is
+dropped, while the word token's sense (if any) follows onto the merged
+token like #16's trailing-token case. See the module docstring for the
+full reasoning, including why each fix is located by scanning for its
+surface from an advancing cursor rather than trusting the manifest's
+stored index directly (same reasoning as #10's `split_sentence` --
+needed here too, since a sentence with more than one fix has every
+later index shifted by a merge before it).
+
+`src/semcor/hyphen-compound-merge-fixes.yaml` lists all 289 confirmed
+fixes -- kept next to the script that reads it, since nothing else
+needs it; generated once, offline, against `nltk.corpus.brown`, this
+script has no runtime NLTK dependency and just applies that manifest.
+
+```sh
+uv run semcor-fix-hyphen-compound-merge              # apply hyphen-compound-merge-fixes.yaml to data/
+uv run semcor-fix-hyphen-compound-merge --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.
@@ -223,6 +544,48 @@ document IDs are content hashes with no other link back to a source file.
 uv run semcor-merge                       # merge data/ into ./semcor.yaml
 uv run semcor-merge data/humor -o humor-merged.yaml
 ```
+
+### `semcor-compare-brown-nolines`
+
+Renders `data/` as plain text, in the same document order as
+[`brown_nolines.txt`](http://www.sls.hawaii.edu/bley-vroman/brown_nolines.txt)
+(a plaintext reformatting of the whole 500-file Brown Corpus, used
+elsewhere in this repo -- #16/#18 -- as a more faithful reference than
+`nltk.corpus.brown`'s own tokenized rendering), and diffs the two,
+word-per-line, with `diff`. Meant as a coarse, whole-corpus health check --
+a single number to track across PRs -- rather than a replacement for the
+issue-by-issue fixes above.
+
+Needs a local copy of `brown_nolines.txt`:
+
+```sh
+curl -o external/brown_nolines.txt http://www.sls.hawaii.edu/bley-vroman/brown_nolines.txt
+```
+
+`brown_nolines.txt` has no markers between its 500 concatenated files, so
+locating where each of this corpus's 352 files starts in it is a one-time,
+offline step (needs a local `nltk` install, unlike everything else here)
+committed as `src/semcor/brown-nolines-offsets.yaml` (kept next to the
+script that reads it, rather than at the repo root like the other
+`*-fixes.yaml` manifests, since nothing else needs it); regenerate it
+only if `brown_nolines.txt` itself changes:
+
+```sh
+uv run semcor-compare-brown-nolines --regenerate-offsets
+```
+
+```sh
+uv run semcor-compare-brown-nolines              # compare data/ against external/brown_nolines.txt
+```
+
+Writes `brown-nolines-ours.txt`, `brown-nolines-reference.txt`, and
+`brown-nolines.diff` (all gitignored) and prints a divergent-word-line
+count. That count mixes several things together -- genuinely new,
+uncatalogued bugs, the accepted #32 dateline/byline/subheadline gap, and
+some tokenization-boundary noise (e.g. quote-adjacent spacing in
+heavily-quoted sentences that #8 deliberately left unfixed) -- so treat it
+as a trend to watch, not a target to zero out; read `brown-nolines.diff`
+itself to see what's actually driving a given number.
 
 ### `semcor-verify-brown`
 

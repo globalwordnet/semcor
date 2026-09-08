@@ -38,14 +38,14 @@ _meta:
     wn16_key: [[4, "announce%2:32:00::"], [8, "reduce%2:30:00::"]]
     wn30_key: [[4, "announce%2:32:00::"], [8, "reduce%2:30:00::"]]
 BBk0:
-    lemmas: ["The", "current", "monthly", "payroll", "come", "to", "about", "$", "15000000", "."]
+    lemmas: ["The", "current", "monthly", "payroll", "come", "to", "about", "$", "15,000,000", "."]
     oewn_key: [[4, "oewn-02651091-v"]]
     paragraph: '0'
     pos: ["DT", "JJ", "JJ", "NN", "VBZ", "VB", "IN", "$", "CD", "."]
-    text: 'The current monthly payroll comes to about $15000000.
+    text: 'The current monthly payroll comes to about $15,000,000.
 
   '
-    tokens: [[0, 3], [4, 11], [12, 19], [20, 27], [28, 33], [34, 36], [37, 42], [43, 44], [44, 52], [52, 53]]
+    tokens: [[0, 3], [4, 11], [12, 19], [20, 27], [28, 33], [34, 36], [37, 42], [43, 44], [44, 54], [54, 55]]
     wn16_key: [[4, "come%2:42:12::"]]
     wn30_key: [[4, "come%2:42:12::"]]
 5I6z:
@@ -53,26 +53,23 @@ BBk0:
     oewn_key: [[7, "oewn-01011267-v"], [29, "oewn-02641628-v"]]
     paragraph: '1'
     pos: ["NNP", ",", "DT", "NN", "POS", "NN", ",", "VBD", ",", "``", "DT", "JJ", "NN", "IN", "NN", "NN", "JJ", "RB", "TO", "DT", "JJ", "NN", "IN", "DT", "NN", "IN", "JJ", "NNS", "VBZ", "VBN", "DT", "JJ", "NN", "''", "."]
-    text: 'Howard_E._Simpson, the railroad''s president, said, " A drastic decline in freight
-  loading due principally to the severe slump in the movement of heavy goods has necessitated
-  this regrettable action ".
+    text: 'Howard_E._Simpson, the railroad''s president, said, "A drastic decline in freight loading due principally to the severe slump in the movement of heavy goods has necessitated this regrettable action".
 
   '
-    tokens: [[0, 17], [17, 18], [19, 22], [23, 31], [31, 33], [34, 43], [43, 44], [45, 49], [49, 50], [51, 52], [53, 54], [55, 62], [63, 70], [71, 73], [74, 81], [82, 89], [90, 93], [94, 105], [106, 108], [109, 112], [113, 119], [120, 125], [126, 128], [129, 132], [133, 141], [142, 144], [145, 150], [151, 156], [157, 160], [161, 173], [174, 178], [179, 190], [191, 197], [198, 199], [199, 200]]
+    tokens: [[0, 17], [17, 18], [19, 22], [23, 31], [31, 33], [34, 43], [43, 44], [45, 49], [49, 50], [51, 52], [52, 53], [54, 61], [62, 69], [70, 72], [73, 80], [81, 88], [89, 92], [93, 104], [105, 107], [108, 111], [112, 118], [119, 124], [125, 127], [128, 131], [132, 140], [141, 143], [144, 149], [150, 155], [156, 159], [160, 172], [173, 177], [178, 189], [190, 196], [196, 197], [197, 198]]
     wn16_key: [[7, "say%2:32:00::"], [29, "necessitate%2:42:01::"]]
     wn30_key: [[7, "say%2:32:00::"], [29, "necessitate%2:42:01::"]]
 p6T9:
-    lemmas: ["The", "reduction", "in", "expense", "will", "affect", "employee", "in", "the", "thirteen", "state", "in_which", "the", "B.", "+", "O.", "operate", "."]
-    oewn_key: [[5, "oewn-02682907-v"], [16, "oewn-02448714-v"]]
+    lemmas: ["The", "reduction", "in", "expense", "will", "affect", "employee", "in", "the", "thirteen", "state", "in", "which", "the", "B.", "&", "O.", "operate", "."]
+    oewn_key: [[5, "oewn-02682907-v"], [17, "oewn-02448714-v"]]
     paragraph: '2'
-    pos: ["DT", "NN", "IN", "NNS", "MD", "VB", "NNS", "IN", "DT", "CD", "NNS", "RB", "DT", "NNP", "CC", "NNP", "VBZ", "."]
-    text: 'The reduction in expenses will affect employees in the thirteen states in_which
-  the B. + O. operates.
+    pos: ["DT", "NN", "IN", "NNS", "MD", "VB", "NNS", "IN", "DT", "CD", "NNS", "IN", "WDT", "DT", "NNP", "CC", "NNP", "VBZ", "."]
+    text: 'The reduction in expenses will affect employees in the thirteen states in which the B. & O. operates.
 
   '
-    tokens: [[0, 3], [4, 13], [14, 16], [17, 25], [26, 30], [31, 37], [38, 47], [48, 50], [51, 54], [55, 63], [64, 70], [71, 79], [80, 83], [84, 86], [87, 88], [89, 91], [92, 100], [100, 101]]
-    wn16_key: [[5, "affect%2:42:00::"], [16, "operate%2:41:00::"]]
-    wn30_key: [[5, "affect%2:42:00::"], [16, "operate%2:41:00::"]]
+    tokens: [[0, 3], [4, 13], [14, 16], [17, 25], [26, 30], [31, 37], [38, 47], [48, 50], [51, 54], [55, 63], [64, 70], [71, 73], [74, 79], [80, 83], [84, 86], [87, 88], [89, 91], [92, 100], [100, 101]]
+    wn16_key: [[5, "affect%2:42:00::"], [17, "operate%2:41:00::"]]
+    wn30_key: [[5, "affect%2:42:00::"], [17, "operate%2:41:00::"]]
 +Z7d:
     lemmas: ["It", "will", "be", "accomplish", "in_two_ways", ":"]
     oewn_key: [[3, "oewn-01644397-v"]]
@@ -95,14 +92,14 @@ KdE6:
     wn16_key: [[18, "belong_to%2:42:00::"]]
     wn30_key: [[18, "belong_to%2:42:00::"]]
 yb4j:
-    lemmas: ["There", "be", "about", "3325", "officer", "and", "employee", "in_this", "class", "."]
+    lemmas: ["There", "be", "about", "3,325", "officer", "and", "employee", "in", "this", "class", "."]
     oewn_key: [[1, "oewn-02609706-v"]]
     paragraph: '4'
-    pos: ["EX", "VBP", "RB", "CD", "NNS", "CC", "NNS", "RB", "NN", "."]
-    text: 'There are about 3325 officers and employees in_this class.
+    pos: ["EX", "VBP", "RB", "CD", "NNS", "CC", "NNS", "IN", "DT", "NN", "."]
+    text: 'There are about 3,325 officers and employees in this class.
 
   '
-    tokens: [[0, 5], [6, 9], [10, 15], [16, 20], [21, 29], [30, 33], [34, 43], [44, 51], [52, 57], [57, 58]]
+    tokens: [[0, 5], [6, 9], [10, 15], [16, 21], [22, 30], [31, 34], [35, 44], [45, 47], [48, 52], [53, 58], [58, 59]]
     wn16_key: [[1, "be%2:42:00::"]]
     wn30_key: [[1, "be%2:42:00::"]]
 Cuv4:
@@ -118,13 +115,11 @@ Cuv4:
     wn16_key: [[6, "bring_about%2:36:00::"]]
     wn30_key: []
 JFmj:
-    lemmas: ["Since", "the", "railroad", "cannot", "reduce", "the", "salary", "of", "individual", "union_member", "under", "contract", ",", "it", "must", "accomplish", "its", "payroll", "reduction", "by", "place", "some", "of", "the", "man", "on", "furlough", ",", "a", "B.", "+", "O.", "spokesman", "say", "."]
+    lemmas: ["Since", "the", "railroad", "cannot", "reduce", "the", "salary", "of", "individual", "union_member", "under", "contract", ",", "it", "must", "accomplish", "its", "payroll", "reduction", "by", "place", "some", "of", "the", "man", "on", "furlough", ",", "a", "B.", "&", "O.", "spokesman", "say", "."]
     oewn_key: [[4, "oewn-00430013-v"], [15, "oewn-01644397-v"], [20, "oewn-02397904-v"], [33, "oewn-01011267-v"]]
     paragraph: '6'
     pos: ["IN", "DT", "NN", "MD", "VB", "DT", "NN", "IN", "JJ", "NN", "IN", "NN", ",", "PRP", "MD", "VB", "PRP$", "NN", "NN", "IN", "VBG", "DT", "IN", "DT", "NNS", "IN", "NN", ",", "DT", "NNP", "CC", "NNP", "NN", "VBD", "."]
-    text: 'Since the railroad cannot reduce the salary of individual union_members under contract,
-  it must accomplish its payroll reduction by placing some of the men on furlough,
-  a B. + O. spokesman said.
+    text: 'Since the railroad cannot reduce the salary of individual union_members under contract, it must accomplish its payroll reduction by placing some of the men on furlough, a B. & O. spokesman said.
 
   '
     tokens: [[0, 5], [6, 9], [10, 18], [19, 25], [26, 32], [33, 36], [37, 43], [44, 46], [47, 57], [58, 71], [72, 77], [78, 86], [86, 87], [88, 90], [91, 95], [96, 106], [107, 110], [111, 118], [119, 128], [129, 131], [132, 139], [140, 144], [145, 147], [148, 151], [152, 155], [156, 158], [159, 167], [167, 168], [169, 170], [171, 173], [174, 175], [176, 178], [179, 188], [189, 193], [193, 194]]
@@ -314,18 +309,16 @@ SPYS:
     wn16_key: [[2, "be%2:42:05::"], [16, "say%2:32:00::"]]
     wn30_key: [[2, "be%2:42:05::"], [16, "say%2:32:00::"]]
 rk7O:
-    lemmas: ["The", "anne_arundel", "county", "school_superintendent", "have", "ask", "that", "the", "board_of_education", "return", "to", "the", "practice", "of", "recording", "its", "proceedings", "mechanically", "so_that", "there", "will", "be", "no_more", "question", "about", "who", "say", "what", "."]
-    oewn_key: [[5, "oewn-00754499-v"], [9, "oewn-00387981-v"], [21, "oewn-02609706-v"], [26, "oewn-01011267-v"]]
+    lemmas: ["The", "anne_arundel", "county", "school_superintendent", "have", "ask", "that", "the", "board_of_education", "return", "to", "the", "practice", "of", "recording", "its", "proceedings", "mechanically", "so", "that", "there", "will", "be", "no_more", "question", "about", "who", "say", "what", "."]
+    oewn_key: [[5, "oewn-00754499-v"], [9, "oewn-00387981-v"], [22, "oewn-02609706-v"], [27, "oewn-01011267-v"]]
     paragraph: '20'
-    pos: ["DT", "NNP", "NN", "NN", "VBZ", "VBN", "IN", "DT", "NN", "VB", "VB", "DT", "NN", "IN", "NN", "PRP$", "NNS", "RB", "RB", "EX", "MD", "VB", "RB", "NN", "IN", "WP", "VBD", "WP", "."]
-    text: 'The Anne_Arundel county school_superintendent has asked that the Board_of_Education
-  return to the practice of recording its proceedings mechanically so_that there will
-  be no_more question about who said what.
+    pos: ["DT", "NNP", "NN", "NN", "VBZ", "VBN", "IN", "DT", "NN", "VB", "VB", "DT", "NN", "IN", "NN", "PRP$", "NNS", "RB", "IN", "IN", "EX", "MD", "VB", "RB", "NN", "IN", "WP", "VBD", "WP", "."]
+    text: 'The Anne_Arundel county school_superintendent has asked that the Board_of_Education return to the practice of recording its proceedings mechanically so that there will be no_more question about who said what.
 
   '
-    tokens: [[0, 3], [4, 16], [17, 23], [24, 45], [46, 49], [50, 55], [56, 60], [61, 64], [65, 83], [84, 90], [91, 93], [94, 97], [98, 106], [107, 109], [110, 119], [120, 123], [124, 135], [136, 148], [149, 156], [157, 162], [163, 167], [168, 170], [171, 178], [179, 187], [188, 193], [194, 197], [198, 202], [203, 207], [207, 208]]
-    wn16_key: [[5, "ask%2:32:01::"], [9, "return%2:30:00::"], [21, "be%2:42:00::"], [26, "say%2:32:00::"]]
-    wn30_key: [[5, "ask%2:32:01::"], [9, "return%2:30:00::"], [21, "be%2:42:00::"], [26, "say%2:32:00::"]]
+    tokens: [[0, 3], [4, 16], [17, 23], [24, 45], [46, 49], [50, 55], [56, 60], [61, 64], [65, 83], [84, 90], [91, 93], [94, 97], [98, 106], [107, 109], [110, 119], [120, 123], [124, 135], [136, 148], [149, 151], [152, 156], [157, 162], [163, 167], [168, 170], [171, 178], [179, 187], [188, 193], [194, 197], [198, 202], [203, 207], [207, 208]]
+    wn16_key: [[5, "ask%2:32:01::"], [9, "return%2:30:00::"], [22, "be%2:42:00::"], [27, "say%2:32:00::"]]
+    wn30_key: [[5, "ask%2:32:01::"], [9, "return%2:30:00::"], [22, "be%2:42:00::"], [27, "say%2:32:00::"]]
 UBtA:
     lemmas: ["The", "proposal", "be", "make", "by", "dr._david_s._jenkin", "after", "he", "and", "mrs._d._ellwood_williams", ",", "Jr.", ",", "a", "board_member", "and", "long-time", "critic", "of", "the", "superintendent", ",", "argue", "for", "about", "fifteen", "minutes", "at", "this", "week", "'s", "meeting", "."]
     oewn_key: [[3, "oewn-01649143-v"], [22, "oewn-00774234-v"]]
@@ -369,9 +362,8 @@ DiJs:
     oewn_key: [[2, "oewn-01778057-v"], [4, "oewn-02112480-v"], [7, "oewn-00340548-v"], [12, "oewn-01060446-v"], [15, "oewn-01649143-v"]]
     paragraph: '24'
     pos: ["``", "PRP", "VBP", "TO", "VB", "DT", "NNS", "VB", "RB", "``", ",", "NNP", "VBD", "IN", "PRP", "VBD", "PRP$", "NN", "."]
-    text: '" I hate to have these things come_up again_and_again ", Dr._Jenkins commented as
-  he made his suggestion.'
-    tokens: [[0, 1], [2, 3], [4, 8], [9, 11], [12, 16], [17, 22], [23, 29], [30, 37], [38, 53], [54, 55], [55, 56], [57, 68], [69, 78], [79, 81], [82, 84], [85, 89], [90, 93], [94, 104], [104, 105]]
+    text: '"I hate to have these things come_up again_and_again", Dr._Jenkins commented as he made his suggestion.'
+    tokens: [[0, 1], [1, 2], [3, 7], [8, 10], [11, 15], [16, 21], [22, 28], [29, 36], [37, 52], [52, 53], [53, 54], [55, 66], [67, 76], [77, 79], [80, 82], [83, 87], [88, 91], [92, 102], [102, 103]]
     wn16_key: [[2, "hate%2:37:00::"], [4, "have%2:39:06::"], [7, "come_up%2:30:00::"], [12, "comment%2:32:00::"], [15, "make%2:36:08::"]]
     wn30_key: [[2, "hate%2:37:00::"], [4, "have%2:39:06::"], [7, "come_up%2:30:00::"], [12, "comment%2:32:00::"], [15, "make%2:36:08::"]]
 BL5C:
@@ -483,10 +475,10 @@ KMHl:
     oewn_key: [[3, "oewn-01018011-v"], [5, "oewn-02610777-v"]]
     paragraph: '31'
     pos: ["PRP$", "NN", "VBD", "VBN", "TO", "VB", ",", "``", "JJ", "''", "."]
-    text: 'His condition was said to be, " fair ".
+    text: 'His condition was said to be, "fair".
 
   '
-    tokens: [[0, 3], [4, 13], [14, 17], [18, 22], [23, 25], [26, 28], [28, 29], [30, 31], [32, 36], [37, 38], [38, 39]]
+    tokens: [[0, 3], [4, 13], [14, 17], [18, 22], [23, 25], [26, 28], [28, 29], [30, 31], [31, 35], [35, 36], [36, 37]]
     wn16_key: [[3, "say%2:32:01::"], [5, "be%2:42:03::"]]
     wn30_key: [[3, "say%2:32:01::"], [5, "be%2:42:03::"]]
 +P4G:
@@ -518,11 +510,10 @@ XS/q:
     oewn_key: [[5, "oewn-00909100-v"], [9, "oewn-02609706-v"], [23, "oewn-02525657-v"]]
     paragraph: '34'
     pos: ["DT", "NN", "IN", "DT", "NN", "VBD", "NN", "IN", "EX", "VBP", "``", "NNS", "''", "IN", "DT", "NN", "POS", "NN", "NN", "NN", "WDT", "MD", "VB", "VBN", "RB", "RB", "IN", "JJ", "."]
-    text: 'The vice_president of the City_Council complained yesterday that there are " deficiencies
-  " in the city''s snow clearing program which should be corrected as soon as possible.
+    text: 'The vice_president of the City_Council complained yesterday that there are "deficiencies" in the city''s snow clearing program which should be corrected as soon as possible.
 
   '
-    tokens: [[0, 3], [4, 18], [19, 21], [22, 25], [26, 38], [39, 49], [50, 59], [60, 64], [65, 70], [71, 74], [75, 76], [77, 89], [90, 91], [92, 94], [95, 98], [99, 103], [103, 105], [106, 110], [111, 119], [120, 127], [128, 133], [134, 140], [141, 143], [144, 153], [154, 156], [157, 161], [162, 164], [165, 173], [173, 174]]
+    tokens: [[0, 3], [4, 18], [19, 21], [22, 25], [26, 38], [39, 49], [50, 59], [60, 64], [65, 70], [71, 74], [75, 76], [76, 88], [88, 89], [90, 92], [93, 96], [97, 101], [101, 103], [104, 108], [109, 117], [118, 125], [126, 131], [132, 138], [139, 141], [142, 151], [152, 154], [155, 159], [160, 162], [163, 171], [171, 172]]
     wn16_key: [[5, "complain%2:32:00::"], [9, "be%2:42:00::"], [23, "correct%2:41:01::"]]
     wn30_key: [[5, "complain%2:32:00::"], [9, "be%2:42:00::"], [23, "correct%2:41:01::"]]
 muk/:
@@ -565,11 +556,10 @@ IDP0:
     oewn_key: [[2, "oewn-02610777-v"], [14, "oewn-01011267-v"]]
     paragraph: '37'
     pos: ["NNP", "MD", "VB", "JJ", "''", "RB", "RB", "IN", "DT", "JJ", "NN", "''", ",", "NNP", "VBD", "."]
-    text: 'Equipment should be in_operation " almost immediately after the first snowfall ",
-  Mr._Schaefer said.
+    text: 'Equipment should be in_operation "almost immediately after the first snowfall", Mr._Schaefer said.
 
   '
-    tokens: [[0, 9], [10, 16], [17, 19], [20, 32], [33, 34], [35, 41], [42, 53], [54, 59], [60, 63], [64, 69], [70, 78], [79, 80], [80, 81], [82, 94], [95, 99], [99, 100]]
+    tokens: [[0, 9], [10, 16], [17, 19], [20, 32], [33, 34], [34, 40], [41, 52], [53, 58], [59, 62], [63, 68], [69, 77], [77, 78], [78, 79], [80, 92], [93, 97], [97, 98]]
     wn16_key: [[2, "be%2:42:03::"], [14, "say%2:32:00::"]]
     wn30_key: [[2, "be%2:42:03::"], [14, "say%2:32:00::"]]
 2RDF:
@@ -577,12 +567,10 @@ IDP0:
     oewn_key: [[4, "oewn-02622439-v"], [10, "oewn-00828170-v"], [18, "oewn-02565578-v"]]
     paragraph: '38'
     pos: ["DT", "NNP", ",", "WP", "VBZ", "DT", "NNP", "NN", ",", "RB", "VBD", "NNP", ",", "NN", "NN", ",", "IN", "``", "VBG", "NN", "NNS", "''", "IN", "NNP", "NN", "IN", "DT", "NNP", "NN", "."]
-    text: 'The Councilman, who is the Administration floor_leader, also criticized Bernard_L._Werner,
-  public_works director, for " halting snow operations " on Tuesday night after the
-  Sunday storm.
+    text: 'The Councilman, who is the Administration floor_leader, also criticized Bernard_L._Werner, public_works director, for "halting snow operations" on Tuesday night after the Sunday storm.
 
   '
-    tokens: [[0, 3], [4, 14], [14, 15], [16, 19], [20, 22], [23, 26], [27, 41], [42, 54], [54, 55], [56, 60], [61, 71], [72, 89], [89, 90], [91, 103], [104, 112], [112, 113], [114, 117], [118, 119], [120, 127], [128, 132], [133, 143], [144, 145], [146, 148], [149, 156], [157, 162], [163, 168], [169, 172], [173, 179], [180, 185], [185, 186]]
+    tokens: [[0, 3], [4, 14], [14, 15], [16, 19], [20, 22], [23, 26], [27, 41], [42, 54], [54, 55], [56, 60], [61, 71], [72, 89], [89, 90], [91, 103], [104, 112], [112, 113], [114, 117], [118, 119], [119, 126], [127, 131], [132, 142], [142, 143], [144, 146], [147, 154], [155, 160], [161, 166], [167, 170], [171, 177], [178, 183], [183, 184]]
     wn16_key: [[4, "be%2:42:06::"], [10, "criticize%2:32:00::"], [18, "halt%2:41:00::"]]
     wn30_key: [[4, "be%2:42:06::"], [10, "criticize%2:32:00::"], [18, "halt%2:41:00::"]]
 tg/g:
@@ -620,12 +608,10 @@ kKxe:
     oewn_key: [[2, "oewn-00876672-v"], [14, "oewn-00798054-v"], [21, "oewn-02634015-v"], [23, "oewn-01161188-v"], [31, "oewn-02610777-v"], [34, "oewn-02565990-v"]]
     paragraph: '40'
     pos: ["NNP", "RB", "VBD", "IN", "DT", "NN", "NN", "NN", "NN", ",", "IN", "WDT", "NN", "VBZ", "VBN", "IN", "JJ", "NNS", "CC", "NNS", "VBP", "VBN", "TO", "VB", "NN", "CC", "NNS", "IN", "PRP", ",", "MD", "VB", "``", "RB", "VBN", "``", "."]
-    text: 'Mr._Schaefer also recommended that the snow emergency route plan, under which parking
-  is banned on key streets and cars are required to use snow_tires or chains on them,
-  should be " strictly enforced ".
+    text: 'Mr._Schaefer also recommended that the snow emergency route plan, under which parking is banned on key streets and cars are required to use snow_tires or chains on them, should be "strictly enforced".
 
   '
-    tokens: [[0, 12], [13, 17], [18, 29], [30, 34], [35, 38], [39, 43], [44, 53], [54, 59], [60, 64], [64, 65], [66, 71], [72, 77], [78, 85], [86, 88], [89, 95], [96, 98], [99, 102], [103, 110], [111, 114], [115, 119], [120, 123], [124, 132], [133, 135], [136, 139], [140, 150], [151, 153], [154, 160], [161, 163], [164, 168], [168, 169], [170, 176], [177, 179], [180, 181], [182, 190], [191, 199], [200, 201], [201, 202]]
+    tokens: [[0, 12], [13, 17], [18, 29], [30, 34], [35, 38], [39, 43], [44, 53], [54, 59], [60, 64], [64, 65], [66, 71], [72, 77], [78, 85], [86, 88], [89, 95], [96, 98], [99, 102], [103, 110], [111, 114], [115, 119], [120, 123], [124, 132], [133, 135], [136, 139], [140, 150], [151, 153], [154, 160], [161, 163], [164, 168], [168, 169], [170, 176], [177, 179], [180, 181], [181, 189], [190, 198], [198, 199], [199, 200]]
     wn16_key: [[2, "recommend%2:32:01::"], [14, "ban%2:32:00::"], [21, "require%2:42:00::"], [23, "use%2:34:01::"], [31, "be%2:42:03::"], [34, "enforce%2:41:00::"]]
     wn30_key: [[2, "recommend%2:32:01::"], [14, "ban%2:32:00::"], [21, "require%2:42:00::"], [23, "use%2:34:01::"], [31, "be%2:42:03::"], [34, "enforce%2:41:00::"]]
 +r6W:
@@ -633,12 +619,10 @@ kKxe:
     oewn_key: [[0, "oewn-00818972-v"], [8, "oewn-02209474-v"], [13, "oewn-01011267-v"], [15, "oewn-02610777-v"], [25, "oewn-00616690-v"], [32, "oewn-02624202-v"]]
     paragraph: '41'
     pos: ["VBG", "IN", "NN", "CC", "DT", "JJ", "NN", "MD", "VB", "NN", ",", "DT", "NNP", "VBD", "PRP", "VBZ", "RB", "JJ", "IN", "JJ", "NN", "NNS", "''", "RB", "VB", "VBN", "IN", "PRP$", "JJ", "NNS", "VBP", "TO", "VB", "``", "."]
-    text: 'Admitting that main_streets and the central business_district should have priority,
-  the Councilman said it is also essential that small shopping areas " not be overlooked
-  if our small merchants are to survive ".
+    text: 'Admitting that main_streets and the central business_district should have priority, the Councilman said it is also essential that small shopping areas "not be overlooked if our small merchants are to survive".
 
   '
-    tokens: [[0, 9], [10, 14], [15, 27], [28, 31], [32, 35], [36, 43], [44, 61], [62, 68], [69, 73], [74, 82], [82, 83], [84, 87], [88, 98], [99, 103], [104, 106], [107, 109], [110, 114], [115, 124], [125, 129], [130, 135], [136, 144], [145, 150], [151, 152], [153, 156], [157, 159], [160, 170], [171, 173], [174, 177], [178, 183], [184, 193], [194, 197], [198, 200], [201, 208], [209, 210], [210, 211]]
+    tokens: [[0, 9], [10, 14], [15, 27], [28, 31], [32, 35], [36, 43], [44, 61], [62, 68], [69, 73], [74, 82], [82, 83], [84, 87], [88, 98], [99, 103], [104, 106], [107, 109], [110, 114], [115, 124], [125, 129], [130, 135], [136, 144], [145, 150], [151, 152], [152, 155], [156, 158], [159, 169], [170, 172], [173, 176], [177, 182], [183, 192], [193, 196], [197, 199], [200, 207], [207, 208], [208, 209]]
     wn16_key: [[0, "admit%2:32:00::"], [8, "have%2:40:04::"], [13, "say%2:32:00::"], [15, "be%2:42:03::"], [25, "overlook%2:31:00::"], [32, "survive%2:42:01::"]]
     wn30_key: [[0, "admit%2:32:00::"], [8, "have%2:40:04::"], [13, "say%2:32:00::"], [15, "be%2:42:03::"], [25, "overlook%2:31:00::"], [32, "survive%2:42:01::"]]
 vq0B:
@@ -656,18 +640,16 @@ vq0B:
     wn16_key: [[0, "recount%2:32:00::"], [9, "cite%2:36:00::"], [23, "urge%2:32:03::"], [27, "be%2:42:03::"], [28, "set%2:30:02::"], [33, "leave%2:31:05::"], [42, "freeze%2:30:00::"]]
     wn30_key: [[0, "recount%2:32:00::"], [9, "cite%2:36:00::"], [23, "urge%2:32:03::"], [27, "be%2:42:03::"], [28, "set%2:30:02::"], [33, "leave%2:31:05::"], [42, "freeze%2:30:00::"]]
 9Vpe:
-    lemmas: ["The", "15", "-", "year-old", "adopted", "son", "of", "a", "washington", "attorney", "and", "his", "wife", ",", "who", "be", "murder", "early", "today", "in", "their", "Chesapeake", "Bay-front", "home", ",", "have", "be", "send", "to", "spring_grove_state_hospital", "for", "detention", "."]
-    oewn_key: [[16, "oewn-02488014-v"], [27, "oewn-01954657-v"]]
+    lemmas: ["The", "15-year-old", "adopted", "son", "of", "a", "washington", "attorney", "and", "his", "wife", ",", "who", "be", "murder", "early", "today", "in", "their", "Chesapeake", "Bay-front", "home", ",", "have", "be", "send", "to", "spring_grove_state_hospital", "for", "detention", "."]
+    oewn_key: [[14, "oewn-02488014-v"], [25, "oewn-01954657-v"]]
     paragraph: '43'
-    pos: ["DT", "CD", ":", "JJ", "JJ", "NN", "IN", "DT", "NNP", "NN", "CC", "PRP$", "NN", ",", "WP", "VBD", "VBN", "JJ", "NN", "IN", "PRP$", "NNP", "JJ", "NN", ",", "VBZ", "VBN", "VBN", "TO", "NNP", "IN", "NN", "."]
-    text: 'The 15 - year-old adopted son of a Washington attorney and his wife, who were murdered
-  early today in their Chesapeake Bay-front home, has been sent to Spring_Grove_State_Hospital
-  for detention.
+    pos: ["DT", "JJ", "JJ", "NN", "IN", "DT", "NNP", "NN", "CC", "PRP$", "NN", ",", "WP", "VBD", "VBN", "JJ", "NN", "IN", "PRP$", "NNP", "JJ", "NN", ",", "VBZ", "VBN", "VBN", "TO", "NNP", "IN", "NN", "."]
+    text: 'The 15-year-old adopted son of a Washington attorney and his wife, who were murdered early today in their Chesapeake Bay-front home, has been sent to Spring_Grove_State_Hospital for detention.
 
   '
-    tokens: [[0, 3], [4, 6], [7, 8], [9, 17], [18, 25], [26, 29], [30, 32], [33, 34], [35, 45], [46, 54], [55, 58], [59, 62], [63, 67], [67, 68], [69, 72], [73, 77], [78, 86], [87, 92], [93, 98], [99, 101], [102, 107], [108, 118], [119, 128], [129, 133], [133, 134], [135, 138], [139, 143], [144, 148], [149, 151], [152, 179], [180, 183], [184, 193], [193, 194]]
-    wn16_key: [[16, "murder%2:41:00::"], [27, "send%2:38:00::"]]
-    wn30_key: [[16, "murder%2:41:00::"], [27, "send%2:38:00::"]]
+    tokens: [[0, 3], [4, 15], [16, 23], [24, 27], [28, 30], [31, 32], [33, 43], [44, 52], [53, 56], [57, 60], [61, 65], [65, 66], [67, 70], [71, 75], [76, 84], [85, 90], [91, 96], [97, 99], [100, 105], [106, 116], [117, 126], [127, 131], [131, 132], [133, 136], [137, 141], [142, 146], [147, 149], [150, 177], [178, 181], [182, 191], [191, 192]]
+    wn16_key: [[14, "murder%2:41:00::"], [25, "send%2:38:00::"]]
+    wn30_key: [[14, "murder%2:41:00::"], [25, "send%2:38:00::"]]
 Z0MQ:
     lemmas: ["The", "victim", "be", "H._Malone_Dresbach", ",", "47", ",", "and", "his", "wife", ",", "Shirley", ",", "46", "."]
     oewn_key: [[2, "oewn-02622439-v"]]
@@ -886,15 +868,14 @@ n8X/:
     wn16_key: [[9, "establish%2:31:00::"]]
     wn30_key: [[9, "establish%2:31:00::"]]
 lowA:
-    lemmas: ["maryland", "contract", "for", "future", "construction", "during", "october", "total", "$", "77389000", ",", "up_to", "10", "per_cent", "compare", "to", "october", ",", "1960", ",", "F._W._Dodge", ",", "dodge_corporation", ",", "report", "."]
+    lemmas: ["maryland", "contract", "for", "future", "construction", "during", "october", "total", "$", "77,389,000", ",", "up_to", "10", "per_cent", "compare", "to", "october", ",", "1960", ",", "F._W._Dodge", ",", "dodge_corporation", ",", "report", "."]
     oewn_key: [[7, "oewn-02651091-v"], [14, "oewn-00654571-v"], [24, "oewn-00968841-v"]]
     paragraph: '58'
     pos: ["NN", "NNS", "IN", "NN", "NN", "IN", "NNP", "VBD", "$", "CD", ",", "JJ", "CD", "NN", "VBN", "TO", "NNP", ",", "CD", ",", "NNP", ",", "NNP", ",", "VBD", "."]
-    text: 'Maryland contracts for future construction during October totaled $77389000, up_to
-  10 per_cent compared to October, 1960, F._W._Dodge, Dodge_Corporation, reported.
+    text: 'Maryland contracts for future construction during October totaled $77,389,000, up_to 10 per_cent compared to October, 1960, F._W._Dodge, Dodge_Corporation, reported.
 
   '
-    tokens: [[0, 8], [9, 18], [19, 22], [23, 29], [30, 42], [43, 49], [50, 57], [58, 65], [66, 67], [67, 75], [75, 76], [77, 82], [83, 85], [86, 94], [95, 103], [104, 106], [107, 114], [114, 115], [116, 120], [120, 121], [122, 133], [133, 134], [135, 152], [152, 153], [154, 162], [162, 163]]
+    tokens: [[0, 8], [9, 18], [19, 22], [23, 29], [30, 42], [43, 49], [50, 57], [58, 65], [66, 67], [67, 77], [77, 78], [79, 84], [85, 87], [88, 96], [97, 105], [106, 108], [109, 116], [116, 117], [118, 122], [122, 123], [124, 135], [135, 136], [137, 154], [154, 155], [156, 164], [164, 165]]
     wn16_key: [[7, "total%2:42:00::"], [14, "compare%2:31:00::"], [24, "report%2:32:04::"]]
     wn30_key: [[7, "total%2:42:00::"], [14, "compare%2:31:00::"], [24, "report%2:32:04::"]]
 mM0v:
@@ -909,28 +890,25 @@ mM0v:
     wn16_key: [[1, "report%2:32:00::"]]
     wn30_key: [[1, "report%2:32:00::"]]
 eUIA:
-    lemmas: ["nonresidential", "at", "$", "20447000", ",", "down", "28", "per_cent", ";", "residential", "at", "$", "47101000", ",", "up", "100", "per_cent", ";", "and", "heavy", "engineering", "at", "$", "9841000", ",", "down", "45", "per_cent", "."]
+    lemmas: ["nonresidential", "at", "$", "20,447,000", ",", "down", "28", "per_cent", ";", "residential", "at", "$", "47,101,000", ",", "up", "100", "per_cent", ";", "and", "heavy", "engineering", "at", "$", "9,841,000", ",", "down", "45", "per_cent", "."]
     oewn_key: []
     paragraph: '60'
     pos: ["JJ", "IN", "$", "CD", ",", "RB", "CD", "NN", ":", "JJ", "IN", "$", "CD", ",", "IN", "CD", "NN", ":", "CC", "JJ", "NN", "IN", "$", "CD", ",", "RB", "CD", "NN", "."]
-    text: 'Nonresidential at $20447000, down 28 per_cent; residential at $47101000, up 100
-  per_cent; and heavy engineering at $9841000, down 45 per_cent.
+    text: 'Nonresidential at $20,447,000, down 28 per_cent; residential at $47,101,000, up 100 per_cent; and heavy engineering at $9,841,000, down 45 per_cent.
 
   '
-    tokens: [[0, 14], [15, 17], [18, 19], [19, 27], [27, 28], [29, 33], [34, 36], [37, 45], [45, 46], [47, 58], [59, 61], [62, 63], [63, 71], [71, 72], [73, 75], [76, 79], [80, 88], [88, 89], [90, 93], [94, 99], [100, 111], [112, 114], [115, 116], [116, 123], [123, 124], [125, 129], [130, 132], [133, 141], [141, 142]]
+    tokens: [[0, 14], [15, 17], [18, 19], [19, 29], [29, 30], [31, 35], [36, 38], [39, 47], [47, 48], [49, 60], [61, 63], [64, 65], [65, 75], [75, 76], [77, 79], [80, 83], [84, 92], [92, 93], [94, 97], [98, 103], [104, 115], [116, 118], [119, 120], [120, 129], [129, 130], [131, 135], [136, 138], [139, 147], [147, 148]]
     wn16_key: []
     wn30_key: []
 /Nd5:
-    lemmas: ["The", "cumulative", "total", "of", "construction", "contract", "for", "the", "first", "ten", "month", "of", "1961", "amount", "to", "$", "634517000", ",", "a", "4", "per_cent", "increase", "compare", "to", "the", "corresponding", "period", "of", "last", "year", "."]
+    lemmas: ["The", "cumulative", "total", "of", "construction", "contract", "for", "the", "first", "ten", "month", "of", "1961", "amount", "to", "$", "634,517,000", ",", "a", "4", "per_cent", "increase", "compare", "to", "the", "corresponding", "period", "of", "last", "year", "."]
     oewn_key: [[13, "oewn-02651091-v"], [22, "oewn-00654571-v"]]
     paragraph: '61'
     pos: ["DT", "JJ", "NN", "IN", "NN", "NNS", "IN", "DT", "JJ", "CD", "NNS", "IN", "CD", "VBD", "VB", "$", "CD", ",", "DT", "CD", "NN", "NN", "VBN", "TO", "DT", "JJ", "NN", "IN", "JJ", "NN", "."]
-    text: 'The cumulative total of construction contracts for the first ten months of 1961
-  amounted to $634517000, a 4 per_cent increase compared to the corresponding period
-  of last year.
+    text: 'The cumulative total of construction contracts for the first ten months of 1961 amounted to $634,517,000, a 4 per_cent increase compared to the corresponding period of last year.
 
   '
-    tokens: [[0, 3], [4, 14], [15, 20], [21, 23], [24, 36], [37, 46], [47, 50], [51, 54], [55, 60], [61, 64], [65, 71], [72, 74], [75, 79], [80, 88], [89, 91], [92, 93], [93, 102], [102, 103], [104, 105], [106, 107], [108, 116], [117, 125], [126, 134], [135, 137], [138, 141], [142, 155], [156, 162], [163, 165], [166, 170], [171, 175], [175, 176]]
+    tokens: [[0, 3], [4, 14], [15, 20], [21, 23], [24, 36], [37, 46], [47, 50], [51, 54], [55, 60], [61, 64], [65, 71], [72, 74], [75, 79], [80, 88], [89, 91], [92, 93], [93, 104], [104, 105], [106, 107], [108, 109], [110, 118], [119, 127], [128, 136], [137, 139], [140, 143], [144, 157], [158, 164], [165, 167], [168, 172], [173, 177], [177, 178]]
     wn16_key: [[13, "amount%2:42:01::"], [22, "compare%2:31:00::"]]
     wn30_key: [[13, "amount%2:42:01::"], [22, "compare%2:31:00::"]]
 VPhb:
@@ -945,15 +923,14 @@ VPhb:
     wn16_key: [[6, "show%2:32:04::"]]
     wn30_key: [[6, "show%2:32:04::"]]
 E2W8:
-    lemmas: ["nonresidential", "at", "$", "253355000", ",", "up", "22", "per_cent", ";", "residential", "at", "$", "278877000", ",", "up", "12", "per_cent", ";", "and", "heavy", "engineering", "at", "$", "102285000", ",", "down", "33", "per_cent", "."]
+    lemmas: ["nonresidential", "at", "$", "253,355,000", ",", "up", "22", "per_cent", ";", "residential", "at", "$", "278,877,000", ",", "up", "12", "per_cent", ";", "and", "heavy", "engineering", "at", "$", "102,285,000", ",", "down", "33", "per_cent", "."]
     oewn_key: []
     paragraph: '63'
     pos: ["JJ", "IN", "$", "CD", ",", "IN", "CD", "NN", ":", "JJ", "IN", "$", "CD", ",", "IN", "CD", "NN", ":", "CC", "JJ", "NN", "IN", "$", "CD", ",", "RB", "CD", "NN", "."]
-    text: 'Nonresidential at $253355000, up 22 per_cent; residential at $278877000, up 12 per_cent;
-  and heavy engineering at $102285000, down 33 per_cent.
+    text: 'Nonresidential at $253,355,000, up 22 per_cent; residential at $278,877,000, up 12 per_cent; and heavy engineering at $102,285,000, down 33 per_cent.
 
   '
-    tokens: [[0, 14], [15, 17], [18, 19], [19, 28], [28, 29], [30, 32], [33, 35], [36, 44], [44, 45], [46, 57], [58, 60], [61, 62], [62, 71], [71, 72], [73, 75], [76, 78], [79, 87], [87, 88], [89, 92], [93, 98], [99, 110], [111, 113], [114, 115], [115, 124], [124, 125], [126, 130], [131, 133], [134, 142], [142, 143]]
+    tokens: [[0, 14], [15, 17], [18, 19], [19, 30], [30, 31], [32, 34], [35, 37], [38, 46], [46, 47], [48, 59], [60, 62], [63, 64], [64, 75], [75, 76], [77, 79], [80, 82], [83, 91], [91, 92], [93, 96], [97, 102], [103, 114], [115, 117], [118, 119], [119, 130], [130, 131], [132, 136], [137, 139], [140, 148], [148, 149]]
     wn16_key: []
     wn30_key: []
 q8a/:
@@ -1043,15 +1020,14 @@ sZ5n:
     wn16_key: [[23, "predict%2:32:00::"]]
     wn30_key: [[23, "predict%2:32:00::"]]
 ZLJw:
-    lemmas: ["Sixty-seven", "living", "unit", "be", "be", "add", "to", "the", "165", "-", "unit", "harbor_view_apartment", "in", "the", "cherry_hill", "section", "."]
+    lemmas: ["Sixty-seven", "living", "unit", "be", "be", "add", "to", "the", "165-unit", "harbor_view_apartment", "in", "the", "cherry_hill", "section", "."]
     oewn_key: [[5, "oewn-00182551-v"]]
     paragraph: '70'
-    pos: ["CD", "JJ", "NNS", "VBP", "VB", "VBN", "TO", "DT", "CD", ":", "NN", "NNP", "IN", "DT", "NNP", "NN", "."]
-    text: 'Sixty-seven living units are being added to the 165 - unit Harbor_View_Apartments
-  in the Cherry_Hill section.
+    pos: ["CD", "JJ", "NNS", "VBP", "VB", "VBN", "TO", "DT", "JJ", "NNP", "IN", "DT", "NNP", "NN", "."]
+    text: 'Sixty-seven living units are being added to the 165-unit Harbor_View_Apartments in the Cherry_Hill section.
 
   '
-    tokens: [[0, 11], [12, 18], [19, 24], [25, 28], [29, 34], [35, 40], [41, 43], [44, 47], [48, 51], [52, 53], [54, 58], [59, 81], [82, 84], [85, 88], [89, 100], [101, 108], [108, 109]]
+    tokens: [[0, 11], [12, 18], [19, 24], [25, 28], [29, 34], [35, 40], [41, 43], [44, 47], [48, 56], [57, 79], [80, 82], [83, 86], [87, 98], [99, 106], [106, 107]]
     wn16_key: [[5, "add%2:30:00::"]]
     wn30_key: [[5, "add%2:30:00::"]]
 b8kL:
@@ -1065,15 +1041,14 @@ b8kL:
     wn16_key: [[4, "comprise%2:42:00::"]]
     wn30_key: [[4, "comprise%2:42:00::"]]
 wcz7:
-    lemmas: ["various", "of", "the", "apartment", "be", "of", "the", "terrace", "type", ",", "be", "on", "the", "ground_floor", "so_that", "entrance", "be", "direct", "."]
-    oewn_key: [[4, "oewn-02610777-v"], [10, "oewn-02610777-v"], [16, "oewn-02610777-v"]]
+    lemmas: ["various", "of", "the", "apartment", "be", "of", "the", "terrace", "type", ",", "be", "on", "the", "ground_floor", "so", "that", "entrance", "be", "direct", "."]
+    oewn_key: [[4, "oewn-02610777-v"], [10, "oewn-02610777-v"], [17, "oewn-02610777-v"]]
     paragraph: '71'
-    pos: ["JJ", "IN", "DT", "NNS", "VBP", "IN", "DT", "NN", "NN", ",", "VBG", "IN", "DT", "NN", "RB", "NN", "VBZ", "JJ", "."]
-    text: 'Various of the apartments are of the terrace type, being on the ground_floor so_that
-  entrance is direct.'
-    tokens: [[0, 7], [8, 10], [11, 14], [15, 25], [26, 29], [30, 32], [33, 36], [37, 44], [45, 49], [49, 50], [51, 56], [57, 59], [60, 63], [64, 76], [77, 84], [85, 93], [94, 96], [97, 103], [103, 104]]
-    wn16_key: [[4, "be%2:42:03::"], [10, "be%2:42:03::"], [16, "be%2:42:03::"]]
-    wn30_key: [[4, "be%2:42:03::"], [10, "be%2:42:03::"], [16, "be%2:42:03::"]]
+    pos: ["JJ", "IN", "DT", "NNS", "VBP", "IN", "DT", "NN", "NN", ",", "VBG", "IN", "DT", "NN", "IN", "IN", "NN", "VBZ", "JJ", "."]
+    text: 'Various of the apartments are of the terrace type, being on the ground_floor so that entrance is direct.'
+    tokens: [[0, 7], [8, 10], [11, 14], [15, 25], [26, 29], [30, 32], [33, 36], [37, 44], [45, 49], [49, 50], [51, 56], [57, 59], [60, 63], [64, 76], [77, 79], [80, 84], [85, 93], [94, 96], [97, 103], [103, 104]]
+    wn16_key: [[4, "be%2:42:03::"], [10, "be%2:42:03::"], [17, "be%2:42:03::"]]
+    wn30_key: [[4, "be%2:42:03::"], [10, "be%2:42:03::"], [17, "be%2:42:03::"]]
 gKZg:
     lemmas: ["other", ",", "which", "be", "reach", "by", "walk", "up", "a", "single", "flight_of_stairs", ",", "have", "balcony", "."]
     oewn_key: [[4, "oewn-02024442-v"], [6, "oewn-01908923-v"], [12, "oewn-02208144-v"]]
