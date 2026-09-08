@@ -516,6 +516,52 @@ uv run semcor-fix-hyphen-compound-merge --dry-run    # preview without writing
 
 Idempotent, like the other `fix-*` scripts.
 
+### `semcor-fix-underscore-hyphen-lexemes`
+
+Corrects underscore-joined lexemes that should be hyphenated (fixes
+#43). This corpus recognizes 54 hyphenated compounds (`self-acceptance`,
+`spring-training`, `pinch-hitters`, ...) as single WordNet-sensed
+multiword lexemes -- correctly, unlike a much larger, separate class #43
+also found (two ordinary, individually-tagged words with the hyphen
+missing entirely, e.g. `Yankee hatred` for Brown's `Yankee-hatred`; split
+off into #46, since 548 of those 549 turn out to already carry a real
+sense on one or both sides, needing an individual editorial call to
+decide what happens to it on a merge, the same way #24 needed one for
+its word-prefixed exclusions -- only 1 has no sense conflict and is fixed
+directly, `data/learned/br-j04.yaml`'s `spin spin` -> `spin-spin`) --
+but joins these 54 with `_` instead of the real `-` Brown's text has,
+e.g. `self_acceptance` where Brown has `self-acceptance`.
+
+Confirmed against `external/brown_nolines.txt` (the same reference
+`semcor-compare-brown-nolines` uses, not `nltk.corpus.brown`, whose own
+divergent tokenization this repo stopped trusting as ground truth per
+PR #19) via a context-window word search: each underscore-joined token's
+parts, rejoined with `-`, had to match a single word at a unique position
+in the reference, agreeing with at least one side's worth of the token's
+own immediate neighbouring words.
+
+Since `_` and `-` are both one character, this is a same-length,
+in-place substitution: only the literal characters at the token's
+existing span in `text` change, plus the same `_` -> `-` swap applied to
+whatever `lemmas` already has there (not overwritten with the corrected
+surface -- lemmatization can differ arbitrarily from the surface, e.g.
+surface `re_arguing` pairs with lemma `re-argue`, already hyphenated,
+nothing to fix). `oewn_key`/`wn16_key`/`wn30_key` never change: `oewn_key`
+encodes a synset ID, not spelling, and WordNet sense keys are spec'd to
+always use `_` for multiword lemmas regardless of surface spelling.
+
+`src/semcor/underscore-hyphen-lexeme-fixes.yaml` lists all 54 confirmed
+`{file, sentence, index, replacement}` fixes -- kept next to the script
+that reads it, since nothing else needs it; generated once, offline, this
+script has no NLTK dependency and just applies that manifest.
+
+```sh
+uv run semcor-fix-underscore-hyphen-lexemes              # apply underscore-hyphen-lexeme-fixes.yaml to data/
+uv run semcor-fix-underscore-hyphen-lexemes --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.
