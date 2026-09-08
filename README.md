@@ -155,7 +155,11 @@ sOM7:
   would mean synthesizing new, never-sense-tagged sentences from Brown
   and deciding how they fit into this corpus's existing sentence IDs and
   paragraph numbering -- a content-expansion project, not a bug fix. See
-  #32.
+  #32. The actual missing text has since been extracted (301 sections,
+  5,544 characters, across 38 files) into
+  [`pending-annotation/press-reportage-text-gaps.yaml`](pending-annotation/press-reportage-text-gaps.yaml)
+  so it's ready for that project whenever someone takes it on -- see
+  that section below.
 
 ## Wordnet alignment
 
@@ -681,6 +685,51 @@ any snapshot-test update. CI runs the verify mode as its own job (see
 job so a `oewn_key` drifting out of sync with upstream Open English
 Wordnet can't hide a real tokens/text regression behind it.
 
+## Pending annotation
+
+`pending-annotation/press-reportage-text-gaps.yaml` holds the actual text
+behind #32's dateline/byline/subheadline gap (see the note above) --
+extracted, not fixed, since restoring it is a content-expansion project
+(new, never-sense-tagged sentences) rather than a mechanical bug fix.
+301 entries, e.g.:
+
+```yaml
+- file: data/press_reportage/br-a01.yaml
+  position: before
+  anchor_sentence: AeuJ
+  anchor_paragraph: '20'
+  text: Ask jail deputies
+  pos: [VB-HL, NN-HL, NNS-HL]
+```
+
+- `file`/`anchor_sentence`/`position` say where this text belongs: it's
+  missing from `data/*.yaml` immediately `before` (or, for a document's
+  very last sentence, `after`) that sentence. `anchor_paragraph` is the
+  anchor sentence's own `paragraph` value, for context only -- the
+  restored text's own paragraph number is an editorial call, not
+  necessarily the same one.
+- `pos` is Brown's own Penn Treebank tag for each word, `-HL`/`-TL`
+  suffixed per Brown's own headline/title markup convention -- exactly
+  the mid-article subheadlines and datelines #32 found, confirming the
+  extraction's scope. Carried over so a future annotator doesn't have to
+  re-tag from scratch, though it still needs converting to this corpus's
+  own tagset conventions (`-HL`/`-TL` stripped, `NP`->`NNP`, etc., same
+  as #10/#24) and sense-tagging (`oewn_key`/`wn16_key`/`wn30_key`) before
+  it can actually be inserted as new sentences.
+
+Generated via a one-off scan (not committed, same as every other
+manifest generator in this repo) diffing each `press_reportage` file's
+merged `text` against `nltk.corpus.brown` -- the *only* available
+source for this content, unlike everywhere else in this repo:
+`brown_nolines.txt` is confirmed missing the identical strings too (see
+#32), so for this one purpose NLTK is the ground truth, not the thing
+being distrusted. A deletion is only extracted when it aligns exactly to
+whole Brown token boundaries (mid-token deletions are skipped, not
+rounded up to a whole token -- an early bug here mis-extracted
+`multi-million-dollar` as fully missing when only its `multi-` prefix
+was, `million`/`dollar` already present and sensed in this corpus as
+separate words).
+
 ## License
 
 See [LICENSE.md](LICENSE.md). This resource is derived from the Princeton
@@ -693,3 +742,5 @@ WordNet and the Open English Wordnet team is required.
 - `data/` — the corpus, one Teanga YAML file per Brown Corpus document,
   grouped by genre.
 - `src/` — tooling for working with and updating the corpus.
+- `pending-annotation/` — content extracted from Brown but not yet part
+  of the corpus (not sense-tagged) -- see [Pending annotation](#pending-annotation).
