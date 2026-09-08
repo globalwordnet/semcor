@@ -20,7 +20,8 @@ aligned word" doesn't work uniformly:
   already splits into several tokens, the same shape of tokenization
   difference #9 found and left out of scope for the em-dash fix.
 
-`thousands-separator-fixes.yaml`'s `replacement` for each entry is already
+`thousands-separator-fixes.yaml` (kept next to this module since
+nothing else needs it) has, for each entry, a `replacement` that's already
 just the matching digit run pulled out of Brown's aligned word (not the
 whole word) -- generated once, offline, against `nltk.corpus.brown`; this
 script has no runtime NLTK dependency and just applies that manifest.
@@ -49,7 +50,7 @@ import yaml
 
 from semcor.validate import DATA_DIR, _YAML_LOADER, find_yaml_files
 
-MANIFEST_PATH = Path(__file__).resolve().parents[2] / "thousands-separator-fixes.yaml"
+MANIFEST_PATH = Path(__file__).resolve().parent / "thousands-separator-fixes.yaml"
 
 _DOC_BOUNDARY = re.compile(r"(?m)^(\S+):[ \t]*$")
 _TEXT_BLOCK = re.compile(r"(?m)^    text: .*?(?=\n    tokens: )", re.S)
