@@ -66,7 +66,8 @@ had already changed shape.
    Brown tags are converted to Penn Treebank in both cases before
    being written to the manifest.
 
-`function-word-merge-fixes.yaml` lists all 2,091 fixes, each as (file,
+`function-word-merge-fixes.yaml` (kept next to this module since
+nothing else needs it) lists all 2,091 fixes, each as (file,
 sentence, index, word, pos1, pos2). `word` is the expected merged
 surface (`in_that`, `so_that`, ...); `index` is only a same-sentence
 ordering hint for when a sentence has more than one fix, not something
@@ -96,7 +97,7 @@ import yaml
 
 from semcor.validate import DATA_DIR, _YAML_LOADER, find_yaml_files
 
-MANIFEST_PATH = Path(__file__).resolve().parents[2] / "function-word-merge-fixes.yaml"
+MANIFEST_PATH = Path(__file__).resolve().parent / "function-word-merge-fixes.yaml"
 
 _DOC_BOUNDARY = re.compile(r"(?m)^(\S+):[ \t]*$")
 _TEXT_BLOCK = re.compile(r"(?m)^    text: .*?(?=\n    tokens: )", re.S)
