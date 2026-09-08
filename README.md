@@ -661,8 +661,10 @@ curl -o external/brown_nolines.txt http://www.sls.hawaii.edu/bley-vroman/brown_n
 `brown_nolines.txt` has no markers between its 500 concatenated files, so
 locating where each of this corpus's 352 files starts in it is a one-time,
 offline step (needs a local `nltk` install, unlike everything else here)
-committed as `brown-nolines-offsets.yaml`; regenerate it only if
-`brown_nolines.txt` itself changes:
+committed as `src/semcor/brown-nolines-offsets.yaml` (kept next to the
+script that reads it, rather than at the repo root like the other
+`*-fixes.yaml` manifests, since nothing else needs it); regenerate it
+only if `brown_nolines.txt` itself changes:
 
 ```sh
 uv run semcor-compare-brown-nolines --regenerate-offsets
