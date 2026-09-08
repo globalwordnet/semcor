@@ -532,7 +532,7 @@ directly, `data/learned/br-j04.yaml`'s `spin spin` -> `spin-spin`) --
 but joins these 54 with `_` instead of the real `-` Brown's text has,
 e.g. `self_acceptance` where Brown has `self-acceptance`.
 
-Confirmed against `external/brown_nolines.txt` (the same reference
+Confirmed against `src/semcor/brown-nolines.txt` (the same reference
 `semcor-compare-brown-nolines` uses, not `nltk.corpus.brown`, whose own
 divergent tokenization this repo stopped trusting as ground truth per
 PR #19) via a context-window word search: each underscore-joined token's
@@ -602,11 +602,11 @@ word-per-line, with `diff`. Meant as a coarse, whole-corpus health check --
 a single number to track across PRs -- rather than a replacement for the
 issue-by-issue fixes above.
 
-Needs a local copy of `brown_nolines.txt`:
-
-```sh
-curl -o external/brown_nolines.txt http://www.sls.hawaii.edu/bley-vroman/brown_nolines.txt
-```
+A copy of `brown_nolines.txt` is committed at
+`src/semcor/brown-nolines.txt` -- not fetched at run time -- since the
+reference text never changes and `www.sls.hawaii.edu` has proven
+unreliable to reach from CI runners. Pass `--nolines-file` or set
+`$SEMCOR_BROWN_NOLINES_FILE` to compare against a different copy instead.
 
 `brown_nolines.txt` has no markers between its 500 concatenated files, so
 locating where each of this corpus's 352 files starts in it is a one-time,
@@ -621,7 +621,7 @@ uv run semcor-compare-brown-nolines --regenerate-offsets
 ```
 
 ```sh
-uv run semcor-compare-brown-nolines              # compare data/ against external/brown_nolines.txt
+uv run semcor-compare-brown-nolines              # compare data/ against src/semcor/brown-nolines.txt
 ```
 
 Writes `brown-nolines-ours.txt`, `brown-nolines-reference.txt`, and
