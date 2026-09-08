@@ -11,7 +11,7 @@ individual editorial call to merge) -- but joins them with `_` instead of
 the real `-` Brown's text has, e.g. `self_acceptance` where Brown has
 `self-acceptance`.
 
-Confirmed against `external/brown_nolines.txt` (the same reference
+Confirmed against `src/semcor/brown-nolines.txt` (the same reference
 `semcor-compare-brown-nolines` uses -- not `nltk.corpus.brown`, which
 carries its own divergent tokenization this repo stopped trusting as
 ground truth per PR #19) via a context-window word search: for each

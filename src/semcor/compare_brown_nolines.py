@@ -30,6 +30,15 @@ corpus's own data all depend on -- so normal runs, and CI, never need
 NLTK at all, the same generate-the-manifest-once-offline pattern those
 manifests already use.
 
+`brown-nolines.txt` itself is committed too, next to its offsets file
+(`src/semcor/brown-nolines.txt`), rather than fetched at CI time from
+`www.sls.hawaii.edu`: that host has proven unreliable from GitHub-hosted
+runners (repeated `curl: (28) Failed to connect`), and there's no reason
+this comparison should depend on a third party's uptime at all -- the
+reference text doesn't change. `--nolines-file`/`$SEMCOR_BROWN_NOLINES_FILE`
+still exist to point at a different copy if the upstream file is ever
+updated.
+
 Since `brown_nolines.txt` doesn't consistently render one sentence per
 line -- some paragraphs run several sentences together on one line, and
 paragraph-vs-sentence line breaks don't line up with this corpus's own
@@ -67,7 +76,10 @@ _ANCHOR_WORDS = 6
 _SEARCH_WINDOW = 60_000
 
 _DEFAULT_NOLINES_FILE = Path(
-    os.environ.get("SEMCOR_BROWN_NOLINES_FILE", "external/brown_nolines.txt")
+    os.environ.get(
+        "SEMCOR_BROWN_NOLINES_FILE",
+        str(Path(__file__).resolve().parent / "brown-nolines.txt"),
+    )
 )
 _DEFAULT_OFFSETS_FILE = Path(__file__).resolve().parent / "brown-nolines-offsets.yaml"
 
@@ -272,7 +284,9 @@ def main() -> int:
     if not args.nolines_file.exists():
         print(
             f"error: {args.nolines_file} not found.\n\n"
-            "Download a local copy first, e.g.:\n"
+            "A copy is committed at src/semcor/brown-nolines.txt; pass "
+            "--nolines-file or set $SEMCOR_BROWN_NOLINES_FILE to point "
+            "elsewhere, or fetch a fresh copy with e.g.:\n"
             f"  curl -o {args.nolines_file} "
             "http://www.sls.hawaii.edu/bley-vroman/brown_nolines.txt",
             file=sys.stderr,

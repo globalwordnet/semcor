@@ -19,11 +19,6 @@ jobs:
       - name: Install dependencies
         run: uv sync --locked
 
-      - name: Download brown_nolines.txt
-        run: |
-          mkdir -p external
-          curl -sSf -o external/brown_nolines.txt http://www.sls.hawaii.edu/bley-vroman/brown_nolines.txt
-
       # Expected to fail until the divergences it finds (uncatalogued bugs,
       # the accepted #32 dateline/byline/subheadline gap, and tokenization-
       # boundary noise around quotes) are fixed or explicitly accounted for
