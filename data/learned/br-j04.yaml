@@ -902,15 +902,15 @@ wmUF:
     wn16_key: [[1, "value%1:09:00::"], [4, "estimate%2:31:00::"], [7, "gauss%1:23:00::"], [8, "be%2:42:07::"], [10, "microsecond%1:28:00::"]]
     wn30_key: [[1, "value%1:09:00::"], [4, "estimate%2:31:00::"], [7, "gauss%1:23:00::"], [8, "be%2:42:07::"], [10, "microsecond%1:28:00::"]]
 YGWS:
-    lemmas: ["A", "single", "measurement", "of", "the", "spin", "spin", "relaxation_time", "**f", "be", "obtain", "at", "10", "mc", "/", "sec", "by", "pulse", "method", "."]
-    oewn_key: [[1, "oewn-00495505-a"], [7, "oewn-15300301-n"], [10, "oewn-02242867-v"], [12, "oewn-02194935-s"], [13, "oewn-15305175-n"], [15, "oewn-15259923-n"], [17, "oewn-07415506-n"], [18, "oewn-05668113-n"]]
+    lemmas: ["A", "single", "measurement", "of", "the", "spin-spin", "relaxation_time", "**f", "be", "obtain", "at", "10", "mc", "/", "sec", "by", "pulse", "method", "."]
+    oewn_key: [[1, "oewn-00495505-a"], [6, "oewn-15300301-n"], [9, "oewn-02242867-v"], [11, "oewn-02194935-s"], [12, "oewn-15305175-n"], [14, "oewn-15259923-n"], [16, "oewn-07415506-n"], [17, "oewn-05668113-n"]]
     paragraph: '13'
-    pos: ["DT", "JJ", "NN", "IN", "DT", "JJ", "JJ", "NN", "NN", "VBD", "VBN", "IN", "JJ", "NN", ":", "NN", "IN", "NN", "NNS", "."]
-    text: 'A single measurement of the spin spin relaxation_time **f was obtained at 10 Mc
+    pos: ["DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "NN", "VBD", "VBN", "IN", "JJ", "NN", ":", "NN", "IN", "NN", "NNS", "."]
+    text: 'A single measurement of the spin-spin relaxation_time **f was obtained at 10 Mc
   / sec by pulse methods.'
-    tokens: [[0, 1], [2, 8], [9, 20], [21, 23], [24, 27], [28, 32], [33, 37], [38, 53], [54, 57], [58, 61], [62, 70], [71, 73], [74, 76], [77, 79], [80, 81], [82, 85], [86, 88], [89, 94], [95, 102], [102, 103]]
-    wn16_key: [[1, "single%3:00:00::"], [2, "measurement%1:07:00::"], [7, "relaxation_time%1:28:00::"], [10, "obtain%2:40:00::"], [12, "10%5:00:00:cardinal:00"], [13, "mc%1:28:00::"], [15, "sec%1:28:00::"], [17, "pulse%1:11:00::"], [18, "method%1:09:00::"]]
-    wn30_key: [[1, "single%3:00:00::"], [7, "relaxation_time%1:28:00::"], [10, "obtain%2:40:00::"], [12, "10%3:00:00:cardinal:00"], [13, "mc%1:28:00::"], [15, "sec%1:28:00::"], [17, "pulse%1:11:00::"], [18, "method%1:09:00::"]]
+    tokens: [[0, 1], [2, 8], [9, 20], [21, 23], [24, 27], [28, 37], [38, 53], [54, 57], [58, 61], [62, 70], [71, 73], [74, 76], [77, 79], [80, 81], [82, 85], [86, 88], [89, 94], [95, 102], [102, 103]]
+    wn16_key: [[1, "single%3:00:00::"], [2, "measurement%1:07:00::"], [6, "relaxation_time%1:28:00::"], [9, "obtain%2:40:00::"], [11, "10%5:00:00:cardinal:00"], [12, "mc%1:28:00::"], [14, "sec%1:28:00::"], [16, "pulse%1:11:00::"], [17, "method%1:09:00::"]]
+    wn30_key: [[1, "single%3:00:00::"], [6, "relaxation_time%1:28:00::"], [9, "obtain%2:40:00::"], [11, "10%3:00:00:cardinal:00"], [12, "mc%1:28:00::"], [14, "sec%1:28:00::"], [16, "pulse%1:11:00::"], [17, "method%1:09:00::"]]
 TIPi:
     lemmas: ["This", "measurement", "be", "obtain", "by", "person", "of", "the", "group", ",", "by", "observe", "the", "breadth", "of", "the", "free", "induction", "decay", "signal", "."]
     oewn_key: [[3, "oewn-02242867-v"], [5, "oewn-00007846-n"], [8, "oewn-00031563-n"], [11, "oewn-02460829-v"], [13, "oewn-05143415-n"], [17, "oewn-11488572-n"], [18, "oewn-13477740-n"], [19, "oewn-06804229-n"]]
