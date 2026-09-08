@@ -236,6 +236,84 @@ uv run semcor-fix-capitalization-after-quote --dry-run    # preview without writ
 
 Idempotent, like the other `fix-*` scripts.
 
+### `semcor-fix-em-dash`
+
+Restores em dashes corrupted into a single, space-padded `-` (fixes
+#9), e.g. `three guns - one in the right pocket` ->
+`three guns--one in the right pocket` (Brown's own em-dash token is
+`--`, flush against its neighbours). Also restores a small number of
+number-range hyphens (`10 - 16` -> `10-16`) found to be a different,
+correctly-single-hyphen case during the same check.
+
+Unlike the other `fix-*` scripts, this doesn't re-derive what to fix
+from a pattern at runtime -- of 2,939 candidate tokens, cross-checking
+each one's context against `nltk.corpus.brown` found a third pattern
+(a hyphenated compound that's a single token in Brown, e.g. `80-hp`,
+split into three here) that needs token-merging rather than a
+whitespace/character edit, so isn't part of this fix at all (tracked
+separately as #24). `src/semcor/em-dash-fixes.yaml` -- kept next to the
+script that reads it, since nothing else needs it -- lists exactly the
+1,885 confirmed fixes from that check; this script only applies that
+manifest, with no runtime NLTK dependency.
+
+```sh
+uv run semcor-fix-em-dash              # apply em-dash-fixes.yaml to data/
+uv run semcor-fix-em-dash --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
+### `semcor-fix-function-word-merges`
+
+Splits spuriously merged function-word pairs back into two tokens
+(fixes #10), e.g. `in_which` (one token, tag `RB`) -> `in`/IN +
+`which`/WDT, matching Brown's actual tokenization. Unlike the other
+`fix-*` scripts, this changes the *number* of tokens in a sentence:
+`tokens`/`pos`/`lemmas` each go from one entry to two, and every
+`oewn_key`/`wn16_key`/`wn30_key` annotation after the split point
+shifts by one to keep pointing at the same word.
+
+Which merges are safe to split (and what to split them into) was
+decided offline, the same way as #9's `em-dash-fixes.yaml`: a
+candidate is a token that's exactly two closed-class function words
+joined by `_`, with *no* existing sense annotation at that token index
+-- an existing annotation is the corpus's own signal that occurrence
+was an intentional multiword unit (some occurrences of the same pair,
+e.g. `at_once`, are sense-tagged and some aren't, so this has to be
+decided per occurrence, not per word pair). Each survivor was then
+confirmed against `nltk.corpus.brown.tagged_words()` to get its real,
+context-dependent tags. See the module docstring for the full
+reasoning, including why a plain Open English Wordnet entry lookup
+was tried and rejected as the filter.
+
+```sh
+uv run semcor-fix-function-word-merges              # apply function-word-merge-fixes.yaml to data/
+uv run semcor-fix-function-word-merges --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
+### `semcor-fix-leftover-ampersand`
+
+Normalizes leftover `& & &` runs (27 sentences across 20 files) to a
+real ellipsis `...` (fixes #11), e.g. `sleeping together & & &".` ->
+`sleeping together ...".`. Unlike the rest of this stack, Brown isn't
+a reliable ground truth here -- checking these positions against
+`nltk.corpus.brown` mostly finds nothing at all there, consistent with
+this being a genuine "trails off" mark from the original printed
+source that Brown's own transcription dropped and this corpus's
+intermediate format tried (and, in these 27 cases, failed) to
+preserve, rather than spurious markup with a recoverable correct
+answer. See the module docstring for the reasoning and the existing
+`gap_before`/`gap_after` spacing pattern this fix relies on.
+
+```sh
+uv run semcor-fix-leftover-ampersand              # fix data/
+uv run semcor-fix-leftover-ampersand --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.
