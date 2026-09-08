@@ -195,6 +195,27 @@ uv run semcor-fix-leading-space              # fix data/
 Idempotent: documents without a leading space are left untouched, so
 it's safe to rerun.
 
+### `semcor-fix-spurious-spacing`
+
+Closes spurious whitespace gaps in `text` that don't exist in the real
+Brown Corpus text (fixes #8): a space wrongly inserted just inside an
+opening/closing quote, around a `:` between two all-digit tokens
+(`11: 30`), or between two short letter(s)+period fragments that are
+actually one abbreviation split across tokens (`a. m.`), shifting
+`tokens` offsets to match. Only fixes a sentence's quotes when it
+contains exactly two -- an unambiguous, self-contained pair -- since
+neither a stray never-closed quote nor one nested inside another
+(both real, both confirmed to break simple open/close alternation) are
+reliably distinguishable from the ordinary case; see the module
+docstring for the full reasoning.
+
+```sh
+uv run semcor-fix-spurious-spacing              # fix data/
+uv run semcor-fix-spurious-spacing --dry-run    # preview without writing
+```
+
+Idempotent, like `semcor-fix-leading-space`.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.
