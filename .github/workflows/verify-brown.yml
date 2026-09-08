@@ -6,7 +6,7 @@ on:
   pull_request:
 
 jobs:
-  verify-brown:
+  compare-brown-nolines:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -19,20 +19,24 @@ jobs:
       - name: Install dependencies
         run: uv sync --locked
 
-      - name: Cache NLTK Brown Corpus
-        uses: actions/cache@v4
-        with:
-          path: ~/nltk_data
-          key: nltk-brown-corpus
+      - name: Download brown_nolines.txt
+        run: |
+          mkdir -p external
+          curl -sSf -o external/brown_nolines.txt http://www.sls.hawaii.edu/bley-vroman/brown_nolines.txt
 
-      # Expected to fail until #8, #9, #10, #11 (and whatever else it turns
-      # up) are fixed -- see #5, which stays open until this is green.
-      - name: Verify data/*.yaml against NLTK's Brown Corpus
-        run: uv run semcor-verify-brown -o brown-verification-report.md
+      # Expected to fail until the divergences it finds (uncatalogued bugs,
+      # the accepted #32 dateline/byline/subheadline gap, and tokenization-
+      # boundary noise around quotes) are fixed or explicitly accounted for
+      # -- see #5, which stays open until this is green.
+      - name: Compare data/*.yaml against brown_nolines.txt
+        run: uv run semcor-compare-brown-nolines
 
-      - name: Upload report
+      - name: Upload diff
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: brown-verification-report
-          path: brown-verification-report.md
+          name: brown-nolines-diff
+          path: |
+            brown-nolines.diff
+            brown-nolines-ours.txt
+            brown-nolines-reference.txt

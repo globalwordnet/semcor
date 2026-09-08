@@ -583,9 +583,14 @@ Writes `brown-nolines-ours.txt`, `brown-nolines-reference.txt`, and
 count. That count mixes several things together -- genuinely new,
 uncatalogued bugs, the accepted #32 dateline/byline/subheadline gap, and
 some tokenization-boundary noise (e.g. quote-adjacent spacing in
-heavily-quoted sentences that #8 deliberately left unfixed) -- so treat it
-as a trend to watch, not a target to zero out; read `brown-nolines.diff`
-itself to see what's actually driving a given number.
+heavily-quoted sentences that #8 deliberately left unfixed) -- so read
+`brown-nolines.diff` itself to see what's actually driving a given number,
+rather than the count alone. Exits non-zero if the count is nonzero.
+
+CI runs this on every push and pull request (see
+`.github/workflows/verify-brown.yml`) and uploads the generated
+`brown-nolines*` files as a build artifact. It's currently red -- see #5
+for the tracking issue and its sub-issues for what's been found so far.
 
 ### `semcor-verify-brown`
 
@@ -595,18 +600,17 @@ downloaded on first run), ignoring whitespace and underscores on both
 sides -- underscore-joined multiword collocations (`take_place`) and
 Brown's own tokenization spacing aren't divergences worth reporting; a
 character actually being added, removed, or changed is (see #5, #12).
-Produces a Markdown report and exits non-zero if anything diverges.
+Produces a Markdown report and exits non-zero if anything diverges. No
+longer wired into CI -- `semcor-compare-brown-nolines` above (diffing
+against `brown_nolines.txt` rather than NLTK's own tokenized rendering of
+Brown, per #16/#18) does that job now -- but still useful standalone for
+its per-file Markdown report.
 
 ```sh
 uv run semcor-verify-brown                        # check data/, report to stdout
 uv run semcor-verify-brown -o report.md           # write the report to a file
 uv run semcor-verify-brown data/humor             # check one directory/file
 ```
-
-CI runs this on every push and pull request (see
-`.github/workflows/verify-brown.yml`) and uploads the report as a build
-artifact. It's currently red -- see #5 for the tracking issue and its
-sub-issues for what's been found so far.
 
 ### `semcor-check-tokens`
 

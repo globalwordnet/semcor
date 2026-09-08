@@ -353,7 +353,7 @@ def main() -> int:
     print(f"{divergent_words} divergent word-line(s) across {changed_docs} document(s).")
     print(f"Generated: {ours_path}, {ref_path}")
     print(f"Full diff: {diff_path}")
-    return 0
+    return 1 if divergent_words else 0
 
 
 if __name__ == "__main__":
