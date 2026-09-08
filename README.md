@@ -378,9 +378,11 @@ here -- see the issue this fixes for the follow-up.
 
 Every fix grows one token in place, expanding only that token's own
 span (never a neighbouring gap, since any surrounding whitespace here
-is legitimate, unlike #9's em-dash padding). `thousands-separator-fixes.yaml`
-lists all 411 confirmed fixes; this script only applies that manifest,
-with no runtime NLTK dependency.
+is legitimate, unlike #9's em-dash padding).
+`src/semcor/thousands-separator-fixes.yaml` -- kept next to the script
+that reads it, since nothing else needs it -- lists all 411 confirmed
+fixes; this script only applies that manifest, with no runtime NLTK
+dependency.
 
 ```sh
 uv run semcor-fix-thousands-separator-commas              # apply thousands-separator-fixes.yaml to data/
