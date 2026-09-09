@@ -277,9 +277,21 @@ each one's context against `nltk.corpus.brown` found a third pattern
 split into three here) that needs token-merging rather than a
 whitespace/character edit, so isn't part of this fix at all (tracked
 separately as #24). `src/semcor/em-dash-fixes.yaml` -- kept next to the
-script that reads it, since nothing else needs it -- lists exactly the
-1,885 confirmed fixes from that check; this script only applies that
-manifest, with no runtime NLTK dependency.
+script that reads it, since nothing else needs it -- originally listed
+1,885 confirmed fixes from that check.
+
+#38 noted a further ~344 candidate `-` tokens #9's exact-neighbour-only
+search couldn't place, because the preceding word is multiword-joined
+in this corpus's own data (`social_welfare`) but appears as separate
+words in `brown-nolines.txt` (`social welfare-`). A second pass with a
+chunk-based, underscore-tolerant context-window search (same technique
+as #43/#51's) confirmed 299 more (one candidate excluded: a pre-existing,
+unrelated `fun_-` token-corruption anomaly, not a real dash), appended to
+the same manifest -- 2,184 entries total. No code changes were needed;
+the fix mechanism (glue `-` to the preceding word, leave the gap after
+untouched) was already exactly right, only the search needed to be
+better. This script only applies the manifest, with no runtime NLTK
+dependency.
 
 ```sh
 uv run semcor-fix-em-dash              # apply em-dash-fixes.yaml to data/
