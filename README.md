@@ -247,12 +247,26 @@ Brown Corpus text (fixes #8): a space wrongly inserted just inside an
 opening/closing quote, around a `:` between two all-digit tokens
 (`11: 30`), or between two short letter(s)+period fragments that are
 actually one abbreviation split across tokens (`a. m.`), shifting
-`tokens` offsets to match. Only fixes a sentence's quotes when it
-contains exactly two -- an unambiguous, self-contained pair -- since
-neither a stray never-closed quote nor one nested inside another
-(both real, both confirmed to break simple open/close alternation) are
-reliably distinguishable from the ordinary case; see the module
-docstring for the full reasoning.
+`tokens` offsets to match.
+
+Quote gaps are closed two ways. A sentence with exactly two `"` tokens
+is fixed by structural guess alone -- an unambiguous, self-contained
+pair, safe without checking anything else. Any other sentence's quotes
+(a lone quote continuing from/into another sentence, more than two in
+one, sequential pairs or nesting) aren't guessed at structurally --
+neither a stray never-closed quote nor same-glyph nesting (both real,
+both confirmed to break simple open/close alternation) are reliably
+distinguishable from the ordinary case this way. Instead,
+`src/semcor/quote-gap-fixes.yaml` verifies each quote's spacing
+directly against `src/semcor/brown-nolines.txt`: since that reference
+also collapsed both quote directions to a bare `"` (same loss, per
+#14), it can't disambiguate open-vs-close either, but it *does*
+preserve real spacing -- a unique word-context match around a quote
+tells us, per quote and per side independently, whether Brown's real
+text has that exact gap or not, with no need to know whether the
+sentence's quotes are nested, sequential, or cross a sentence boundary.
+2,750 such gaps (1,362 before a quote, 1,388 after) were confirmed this
+way; see the module docstring for the full reasoning.
 
 ```sh
 uv run semcor-fix-spurious-spacing              # fix data/
