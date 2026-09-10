@@ -588,6 +588,43 @@ uv run semcor-fix-underscore-hyphen-lexemes --dry-run    # preview without writi
 
 Idempotent, like the other `fix-*` scripts.
 
+### `semcor-fix-doubled-n-contraction`
+
+Fixes negated `can`/`won't` split as `cann't`/`wonn't` (fixes #42). When
+a negated `can` or `won't` splits into two tokens, this corpus keeps the
+modal's whole spelling as the first token (`can`, `won`) instead of the
+correct Penn-Treebank-style split (`ca`, `wo`), then starts the second
+token at `n't` anyway -- duplicating the shared `n` and rendering as
+`cann't`/`wonn't` (6 characters) once the two flush token spans are
+concatenated, instead of Brown's real 5-character `can't`/`won't`.
+
+Purely structural, no Brown/NLTK reference needed: a token pair `(i,
+i+1)` is this bug iff the spans are flush, `tokens[i+1]`'s surface is
+exactly `n't`, and `tokens[i]`'s surface is exactly `can` or `won` --
+166 confirmed instances (111 `can`, 55 `won`) across 89 files, with no
+false positives (this naturally excludes two other, unrelated anomalies
+noted in #42 -- a `cai` typo, a `could`-lemma-but-different-surface case
+-- since neither has surface `can`/`won` at that position).
+
+Token *count* never changes: this just resizes the first token's span
+by one character and shifts every later offset in the sentence left by
+one to match. `lemmas`/`pos`/every sense-key layer are untouched -- the
+lemma content was already correct (including the pre-existing, unrelated
+`win`/`will` lemmatization inconsistency for `won't`, out of scope here);
+only the surface character span was wrong.
+
+`src/semcor/doubled-n-contraction-fixes.yaml` lists all 166 confirmed
+`{file, sentence, index, word}` fixes -- kept next to the script that
+reads it, since nothing else needs it; generated once, offline, this
+script has no NLTK dependency and just applies that manifest.
+
+```sh
+uv run semcor-fix-doubled-n-contraction              # apply doubled-n-contraction-fixes.yaml to data/
+uv run semcor-fix-doubled-n-contraction --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-fix-case-mismatch`
 
 Corrects single-token case mismatches against Brown (fixes #13, #28).
