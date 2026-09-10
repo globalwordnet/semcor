@@ -27,14 +27,27 @@ inner pair backwards regardless -- also confirmed on a real sentence.
 Neither is reliably distinguishable from the ordinary case by any
 signal available here.
 
-So this only fixes a sentence's quotes when it contains *exactly two*
-`"` tokens: an unambiguous, self-contained open/close pair, with no
-cross-sentence state and no nesting question to get wrong. That's
-3,686 of the corpus's 6,613 quote-containing sentences; the rest (a
-lone quote continuing from/into another sentence, or more than two in
-one sentence, which could be sequential pairs or nesting) are left for
-a follow-up pass -- see #8's tracking issue for whether that's worth
-building out further.
+So a sentence's quotes are only fixed by *guessing* structure when it
+contains exactly two `"` tokens: an unambiguous, self-contained pair,
+with no cross-sentence state and no nesting question to get wrong.
+That covers 3,686 of the corpus's 6,613 quote-containing sentences.
+
+The rest don't need a structural guess at all, though: instead of
+inferring open/close direction, `quote-gap-fixes.yaml` verifies each
+quote's *actual* spacing directly against `brown-nolines.txt` -- the
+same reference `semcor-compare-brown-nolines` already trusts. Since
+that file also collapsed both quote directions to a bare `"` (same
+loss, per #14), it can't disambiguate open-vs-close either -- but it
+*does* preserve real spacing, which is the only thing this fix needs:
+building a word-context window around each quote (reusing this
+corpus's own whitespace/underscore conventions) and requiring a
+*unique* matching position in the reference confirms, per quote and
+per side independently, whether that specific gap should close --
+without ever needing to know whether the sentence's quotes are nested,
+sequential pairs, or one continuing from/into another sentence. 2,750
+such gaps (1,362 before, 1,388 after) were confirmed this way and are
+listed in the manifest; the rest (no unique context match, or the
+reference confirms a real gap belongs there too) are left untouched.
 
 Each fix is a whitespace-only edit: the character content of every
 token is unchanged, only the gap *between* certain adjacent token pairs
@@ -55,11 +68,14 @@ from __future__ import annotations
 import argparse
 import re
 import sys
+from collections import defaultdict
 from pathlib import Path
 
 import yaml
 
 from semcor.validate import DATA_DIR, _YAML_LOADER, find_yaml_files
+
+MANIFEST_PATH = Path(__file__).resolve().parent / "quote-gap-fixes.yaml"
 
 # A top-level document (or `_meta`) key: unindented, ending the line.
 _DOC_BOUNDARY = re.compile(r"(?m)^(\S+):[ \t]*$")
@@ -97,7 +113,18 @@ def _gap_before(tokens: list[list[int]], i: int) -> tuple[int, int] | None:
     return (end, start) if start > end else None
 
 
-def find_gaps(sent: dict) -> list[tuple[int, int]]:
+def load_manifest(path: Path = MANIFEST_PATH) -> dict[str, dict[str, list[tuple[int, str]]]]:
+    """Return {filename: {sentence_id: [(index, side), ...]}}."""
+    with path.open("r", encoding="utf-8") as f:
+        entries = yaml.safe_load(f) or []
+    by_file: dict[str, dict[str, list[tuple[int, str]]]] = defaultdict(lambda: defaultdict(list))
+    for entry in entries:
+        filename = Path(entry["file"]).name
+        by_file[filename][entry["sentence"]].append((entry["index"], entry["side"]))
+    return by_file
+
+
+def find_gaps(sent: dict, manifest_fixes: list[tuple[int, str]] | None = None) -> list[tuple[int, int]]:
     """Return the (start, end) character ranges in `sent['text']` that
     should be deleted -- each one a gap between two adjacent tokens that
     shouldn't have any whitespace between them.
@@ -110,15 +137,22 @@ def find_gaps(sent: dict) -> list[tuple[int, int]]:
     quote_indices = [i for i, surf in enumerate(surfaces) if surf == '"']
 
     # Only an unambiguous, self-contained pair -- see module docstring
-    # for why a lone quote (continues from/into another sentence) or
-    # more than two (sequential pairs vs. nesting, indistinguishable
-    # here) aren't safe to guess at.
+    # for why guessing structurally isn't safe for a lone quote or more
+    # than two. `manifest_fixes` (verified against Brown, not guessed)
+    # covers those cases instead, just below.
     if len(quote_indices) == 2:
         open_i, close_i = quote_indices
         g = _gap_after(tokens, open_i)
         if g:
             gaps.add(g)
         g = _gap_before(tokens, close_i)
+        if g:
+            gaps.add(g)
+
+    for index, side in manifest_fixes or []:
+        if index >= len(tokens) or text[tokens[index][0]:tokens[index][1]] != '"':
+            continue  # stale manifest entry -- skip rather than corrupt
+        g = _gap_before(tokens, index) if side == "before" else _gap_after(tokens, index)
         if g:
             gaps.add(g)
 
@@ -180,7 +214,9 @@ def _render_tokens(tokens: list[list[int]]) -> str:
     return f"    tokens: {tokens_yaml}"
 
 
-def fix_file(path: Path, dry_run: bool = False) -> list[tuple[str, int]]:
+def fix_file(
+    path: Path, manifest: dict, dry_run: bool = False
+) -> list[tuple[str, int]]:
     """Close spurious gaps in `path`.
 
     Returns a list of (sentence_id, gaps_closed) for every sentence
@@ -189,12 +225,13 @@ def fix_file(path: Path, dry_run: bool = False) -> list[tuple[str, int]]:
     with path.open("r", encoding="utf-8") as f:
         data = yaml.load(f, Loader=_YAML_LOADER)
 
+    file_fixes = manifest.get(path.name, {})
     affected: dict[str, tuple[str, list[list[int]]]] = {}
     counts: list[tuple[str, int]] = []
     for doc_id, doc in data.items():
         if doc_id == "_meta" or not isinstance(doc, dict):
             continue
-        gaps = find_gaps(doc)
+        gaps = find_gaps(doc, file_fixes.get(doc_id))
         if not gaps:
             continue
         new_text, new_tokens = apply_gaps(doc.get("text") or "", doc.get("tokens") or [], gaps)
@@ -250,6 +287,12 @@ def main() -> int:
         help="Files or directories to update (default: data/)",
     )
     parser.add_argument(
+        "--manifest",
+        type=Path,
+        default=MANIFEST_PATH,
+        help="Reference-verified quote-gap manifest to read (default: %(default)s)",
+    )
+    parser.add_argument(
         "--dry-run",
         action="store_true",
         help="Report what would change without writing anything",
@@ -263,11 +306,13 @@ def main() -> int:
     else:
         files = find_yaml_files(DATA_DIR)
 
+    manifest = load_manifest(args.manifest)
+
     total_gaps = 0
     total_sentences = 0
     changed_files = 0
     for path in files:
-        counts = fix_file(path, dry_run=args.dry_run)
+        counts = fix_file(path, manifest, dry_run=args.dry_run)
         if counts:
             changed_files += 1
             total_sentences += len(counts)
