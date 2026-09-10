@@ -247,12 +247,26 @@ Brown Corpus text (fixes #8): a space wrongly inserted just inside an
 opening/closing quote, around a `:` between two all-digit tokens
 (`11: 30`), or between two short letter(s)+period fragments that are
 actually one abbreviation split across tokens (`a. m.`), shifting
-`tokens` offsets to match. Only fixes a sentence's quotes when it
-contains exactly two -- an unambiguous, self-contained pair -- since
-neither a stray never-closed quote nor one nested inside another
-(both real, both confirmed to break simple open/close alternation) are
-reliably distinguishable from the ordinary case; see the module
-docstring for the full reasoning.
+`tokens` offsets to match.
+
+Quote gaps are closed two ways. A sentence with exactly two `"` tokens
+is fixed by structural guess alone -- an unambiguous, self-contained
+pair, safe without checking anything else. Any other sentence's quotes
+(a lone quote continuing from/into another sentence, more than two in
+one, sequential pairs or nesting) aren't guessed at structurally --
+neither a stray never-closed quote nor same-glyph nesting (both real,
+both confirmed to break simple open/close alternation) are reliably
+distinguishable from the ordinary case this way. Instead,
+`src/semcor/quote-gap-fixes.yaml` verifies each quote's spacing
+directly against `src/semcor/brown-nolines.txt`: since that reference
+also collapsed both quote directions to a bare `"` (same loss, per
+#14), it can't disambiguate open-vs-close either, but it *does*
+preserve real spacing -- a unique word-context match around a quote
+tells us, per quote and per side independently, whether Brown's real
+text has that exact gap or not, with no need to know whether the
+sentence's quotes are nested, sequential, or cross a sentence boundary.
+2,750 such gaps (1,362 before a quote, 1,388 after) were confirmed this
+way; see the module docstring for the full reasoning.
 
 ```sh
 uv run semcor-fix-spurious-spacing              # fix data/
@@ -277,9 +291,21 @@ each one's context against `nltk.corpus.brown` found a third pattern
 split into three here) that needs token-merging rather than a
 whitespace/character edit, so isn't part of this fix at all (tracked
 separately as #24). `src/semcor/em-dash-fixes.yaml` -- kept next to the
-script that reads it, since nothing else needs it -- lists exactly the
-1,885 confirmed fixes from that check; this script only applies that
-manifest, with no runtime NLTK dependency.
+script that reads it, since nothing else needs it -- originally listed
+1,885 confirmed fixes from that check.
+
+#38 noted a further ~344 candidate `-` tokens #9's exact-neighbour-only
+search couldn't place, because the preceding word is multiword-joined
+in this corpus's own data (`social_welfare`) but appears as separate
+words in `brown-nolines.txt` (`social welfare-`). A second pass with a
+chunk-based, underscore-tolerant context-window search (same technique
+as #43/#51's) confirmed 299 more (one candidate excluded: a pre-existing,
+unrelated `fun_-` token-corruption anomaly, not a real dash), appended to
+the same manifest -- 2,184 entries total. No code changes were needed;
+the fix mechanism (glue `-` to the preceding word, leave the gap after
+untouched) was already exactly right, only the search needed to be
+better. This script only applies the manifest, with no runtime NLTK
+dependency.
 
 ```sh
 uv run semcor-fix-em-dash              # apply em-dash-fixes.yaml to data/
@@ -595,6 +621,46 @@ script has no NLTK dependency and just applies that manifest.
 ```sh
 uv run semcor-fix-doubled-n-contraction              # apply doubled-n-contraction-fixes.yaml to data/
 uv run semcor-fix-doubled-n-contraction --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
+### `semcor-fix-case-mismatch`
+
+Corrects single-token case mismatches against Brown (fixes #13, #28).
+Both issues originally claimed a large number of these (152 and 976
+respectively) by comparing against `nltk.corpus.brown`, whose own
+tokenized rendering isn't reliable ground truth here -- e.g. #28 cited
+`nltk.corpus.brown` rendering `"Twilight of Southern Regionalism"` and
+`"the Prix de Rome"` in Title Case, but `src/semcor/brown-nolines.txt`
+(the reference this repo actually trusts) already has both lowercase,
+matching what this corpus had -- not a bug. Corrected via comments on
+#13/#28.
+
+Re-deriving the real scope against `brown-nolines.txt` (word-level
+diff, same method `semcor-compare-brown-nolines` uses) and verifying
+each candidate individually against real context finds only **8
+genuine instances**, in both directions (e.g. `savannah` -> `Savannah`,
+but also `Same` -> `same`), covering both issues' actual intent -- not
+just #13's narrower quote-terminal trigger.
+
+Every fix is a same-length, case-fold-preserving surface substitution:
+token *count*/spans are unaffected (case never changes string length).
+`lemmas` is updated too, but only where it's currently an exact,
+case-sensitive copy of the token's *old* surface -- several of the 8
+already have a different or differently-cased lemma (e.g. a generic
+`person`, or an already-lowercase sense-form) that's left untouched.
+`oewn_key`/`wn16_key`/`wn30_key` never change: sense keys already
+ignore surface casing.
+
+`src/semcor/case-mismatch-fixes.yaml` lists all 8 confirmed
+`{file, sentence, index, replacement}` fixes -- hand-verified against
+`brown-nolines.txt` individually rather than generated by an
+unsupervised scan, given how small the set is.
+
+```sh
+uv run semcor-fix-case-mismatch              # apply case-mismatch-fixes.yaml to data/
+uv run semcor-fix-case-mismatch --dry-run    # preview without writing
 ```
 
 Idempotent, like the other `fix-*` scripts.
