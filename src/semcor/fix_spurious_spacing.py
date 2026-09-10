@@ -44,10 +44,28 @@ corpus's own whitespace/underscore conventions) and requiring a
 *unique* matching position in the reference confirms, per quote and
 per side independently, whether that specific gap should close --
 without ever needing to know whether the sentence's quotes are nested,
-sequential pairs, or one continuing from/into another sentence. 2,750
-such gaps (1,362 before, 1,388 after) were confirmed this way and are
+sequential pairs, or one continuing from/into another sentence. 3,568
+such gaps (1,871 before, 1,697 after) were confirmed this way and are
 listed in the manifest; the rest (no unique context match, or the
 reference confirms a real gap belongs there too) are left untouched.
+
+The first pass (2,750 gaps, #8's initial extension) under-detected: its
+context-matching compared raw neighbouring words, so (a) a second,
+still-unfixed quote within the context window (e.g. both quotes in
+`" give priority "`) made an otherwise-unique match look ambiguous
+purely because of that *other* quote's own glue state, (b) only
+context on the side being tested was used, missing cases a short,
+repeated phrase (e.g. "a bit of trouble", appearing twice in one
+document) only disambiguates with both sides, and (c) a punctuation
+token already flush against the quote on the far side (e.g. the period
+in `trouble".`) was still counted as its own separate context word,
+misaligning everything past it by one slot. A follow-up pass fixed all
+three -- stripping quotes from context words, always using both sides
+(pulling extra words from neighbouring sentences in document order when
+the current sentence runs out), and skipping over the quote's own
+flush-adjacent run before gathering context from the far side -- and
+found 818 more genuine gaps the first pass had wrongly left
+unresolved.
 
 Each fix is a whitespace-only edit: the character content of every
 token is unchanged, only the gap *between* certain adjacent token pairs
