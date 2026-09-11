@@ -1160,12 +1160,35 @@ either side of it worked); tracked as a running "currently inside a
 span" state instead (capped at 50 words so a brace that never closes --
 brown_nolines.txt has a few more `}` than `{` -- doesn't mis-flag the
 rest of the document), which found ~1,600 brace-derived words instead
-of 462. `<...>` and `**f`/`**h` are left alone -- they look tangled up
-with the already-tracked formula-placeholder gap (#16/#34) rather than
-being clean reference-side noise. A separate, harder case -- the same
+of 462. `<...>` and `**f` are left alone -- they look tangled up with
+the already-tracked formula-placeholder gap (#16/#34) rather than being
+clean reference-side noise (`**h` turned out not to belong in that
+group -- see below). A separate, harder case -- the same
 ALL-CAPS paragraph-lead convention appearing with *no* brace wrapper at
 all (`YOU MAY DO AS YOU PLEASE with God now.`) -- has no signal to key
 off and is left unhandled.
+
+`**h`/`**H` (fixes #70) turned out to have no corresponding character
+anywhere in this corpus's own data at all, unlike `**f` -- confirmed
+against several instances in `data/press_reportage/br-a12.yaml` (`"40
+per cent **h their total passing yardage"` and `"86 tries **h.
+Tailback"` both have nothing at all where `**h` sits: this corpus's own
+text reads `"per cent their"`, `"tries. Tailback"`). Dropped outright,
+the same as the paragraph-break tokens, with the same care about the
+surrounding whitespace: an optional leading space is swallowed too, so
+two real words end up with exactly the single space between them that
+was already there, while a trailing character with no space of its own
+(`tries **h.` -> `tries.`) is left in place. **508 fewer** divergent
+word-lines with no `data/*.yaml` changes.
+
+Investigating this surfaced a related but separate bug: `**h` also
+leaks *into this corpus's own `text`*, un-decoded, in a handful of
+files (`data/fiction_general/br-k07.yaml` especially) -- there it
+consistently sits where an em dash reads naturally (`"the dumb jerk
+**h Coughlin grinned"`), unlike the reference-side instances above,
+which correspond to nothing at all. Left for a separate fix (#71)
+rather than folded into this one, since it changes `data/*.yaml`
+itself and needs its own verification.
 
 `brown_nolines.txt` has no markers between its 500 concatenated files, so
 locating where each of this corpus's 352 files starts in it is a one-time,

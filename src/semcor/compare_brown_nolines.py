@@ -83,11 +83,20 @@ copy:
   `_adopt_our_casing`, which aligns with `difflib` first (not a fixed word
   index) so one divergence earlier in the document doesn't throw off
   every brace-derived word after it.
+- '**h'/'**H' has no corresponding character anywhere in this corpus's
+  own data at all (fixes #70) -- confirmed against several instances in
+  `data/press_reportage/br-a12.yaml` ("40 per cent **h their total
+  passing yardage", "86 tries **h. Tailback" both have nothing at all
+  where '**h' sits: this corpus's own text reads "per cent their",
+  "tries. Tailback"). Dropped the same way as the paragraph-break
+  tokens (see `_DASH_MARKER_RE`), swallowing an optional leading space
+  so two real words end up with the single space that was already
+  between them.
 
-`<...>` (italics/drop-caps) and `**f`/`**h` (fraction and dash-like
-placeholders, mostly in `learned`-genre science text) are left alone --
-both look tangled up with the already-tracked formula-placeholder gap
-(#16/#34) rather than being a clean case of reference-side noise.
+`<...>` (italics/drop-caps) and `**f` (fraction-like placeholders,
+mostly in `learned`-genre science text) are left alone -- they look
+tangled up with the already-tracked formula-placeholder gap (#16/#34)
+rather than being a clean case of reference-side noise.
 """
 
 from __future__ import annotations
@@ -309,6 +318,18 @@ _PARA_BREAK_TOKEN_RE = re.compile(r"(?<!\S)[@#]+(?!\S)")
 # span rather than left behind as a spurious standalone '-'.
 _UNDERSCORE_SPAN_RE = re.compile(r"_[^_]{0,300}_-? ?")
 
+# '**h'/'**H' has no corresponding character anywhere in this corpus's own
+# data -- confirmed against several instances (e.g. `br-a12.yaml`'s "40
+# per cent **h their total passing yardage" and "86 tries **h. Tailback"
+# both have nothing at all where '**h' sits: "per cent their", "tries.
+# Tailback"), unlike '**f' (left alone -- tangled up with the
+# already-tracked formula-placeholder gap, #16/#34). The optional
+# leading space is swallowed too so two real words on either side end up
+# with exactly the single space between them that was already there
+# (`cent __**h__ their` -> `cent their`), while a trailing character with
+# no space of its own (`tries __**h__.` -> `tries.`) is left in place.
+_DASH_MARKER_RE = re.compile(r" ?\*\*[hH]")
+
 
 def decode_reference_text(text: str) -> str:
     """Undo brown_nolines.txt's transcription escapes -- see the module
@@ -317,6 +338,7 @@ def decode_reference_text(text: str) -> str:
     text = text.replace("&", ".").replace("+", "&")
     text = _UNDERSCORE_SPAN_RE.sub(" ", text)
     text = _PARA_BREAK_TOKEN_RE.sub(" ", text)
+    text = _DASH_MARKER_RE.sub("", text)
     # '~word' is a single-word small-caps marker (~MGM, ~IBM); '^' marks a
     # diaeresis on the previous letter (Hammarskjo^ld, nai^ve). Both are
     # pure typesetting overlays -- this corpus already normalizes the
