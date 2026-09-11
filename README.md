@@ -749,6 +749,50 @@ uv run semcor-fix-genitive-gap --dry-run    # preview without writing
 
 Idempotent, like the other `fix-*` scripts.
 
+### `semcor-fix-caret-diaeresis`
+
+Restores a word split around a literal `^` diaeresis escape (fixes #60).
+The original 1961 transcription marks a diaeresis over the *previous*
+letter with a literal `^` (`Hammarskjo^ld`, `nai^ve`) -- the same escape
+`semcor-compare-brown-nolines` already undoes on the *reference* side, but
+this corpus's own `text` should never have carried it at all (every other
+instance is already plain ASCII, e.g. `Hammarskjold`). **34 instances**
+leaked through uncorrected, in two shapes:
+
+- Embedded in one token's surface with no whitespace on either side
+  (`La^utner`, `Leverku^hn`, `Du^rer`, `Tonio_Kro^ger`, 8 instances, all
+  in `data/belles_lettres/br-g15.yaml`) -- just delete the stray
+  character, no token merge.
+- Split across multiple tokens by a spurious space around the `^`
+  (`Scho ^ nberg`, `nai ^ ve`, `Bo ^ o ^ k` for the double-diaeresis
+  `Böök`, and once fused as `^_vdingar` straight onto the next word --
+  26 instances). These need a token merge, the same token-count-changing
+  shape as `semcor-fix-hyphen-compound-merge`/`semcor-fix-function-word-merges`.
+
+At most one token in any merge range carries a WordNet sense (two, for
+`Lake_Va^ttern`, but both copies are identical) -- never a real
+sense-on-both-sides editorial choice like #43/#46's hyphen-pair
+remainder, so the merged token just keeps that one sense verbatim
+(`lemmas`/`pos`/every sense-key layer, taken from whichever index has it).
+When no fragment has a sense at all, its `lemmas` entries are themselves
+literal spelling fragments rather than placeholders, so the merged lemma
+is built the same way as the merged surface: concatenated with the same
+caret/space cleanup (`nai` + `ve` -> `naive`).
+
+`src/semcor/caret-diaeresis-fixes.yaml` lists all 34 confirmed `{file,
+sentence, lo, hi}` fixes (`lo`/`hi` are the first/last token index to
+collapse into one, inclusive; `lo == hi` for the no-merge embedded case)
+-- generated once, offline, by a full scan of every literal `^` in
+`data/*.yaml`, classified by whether it sits at a token's very start
+(merge with the preceding token) or mid-token (simple deletion).
+
+```sh
+uv run semcor-fix-caret-diaeresis              # apply caret-diaeresis-fixes.yaml to data/
+uv run semcor-fix-caret-diaeresis --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.
