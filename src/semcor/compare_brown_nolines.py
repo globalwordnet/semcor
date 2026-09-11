@@ -260,8 +260,13 @@ _PARA_BREAK_TOKEN_RE = re.compile(r"(?<!\S)[@#]+(?!\S)")
 # as prose -- either way, the span isn't part of the sentence and should
 # drop out of the comparison. The length cap keeps a single unpaired '_'
 # (a real transcription slip seen at least once in this file) from
-# swallowing unrelated text all the way to some unrelated later '_'.
-_UNDERSCORE_SPAN_RE = re.compile(r"_[^_]{0,300}_")
+# swallowing unrelated text all the way to some unrelated later '_'. A
+# dateline is often followed by its own '- ' separator before the real
+# prose starts (`_COLQUITT_- After a long...`, 123 instances, always
+# followed by a space) -- that dash is part of the same dateline
+# formatting, not a real word either, so it's swallowed along with the
+# span rather than left behind as a spurious standalone '-'.
+_UNDERSCORE_SPAN_RE = re.compile(r"_[^_]{0,300}_-? ?")
 
 
 def decode_reference_text(text: str) -> str:

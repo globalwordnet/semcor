@@ -884,8 +884,10 @@ corpus's own `text` never had to begin with, so -- unlike every `fix_*.py`
 script above -- the fix for these lives entirely on the reference side,
 in `decode_reference_text`/`_decode_and_split`, not in `data/*.yaml`:
 paragraph-break tokens (`@`, `##`, `#@#`), dateline/enumeration spans
-(`_WASHINGTON_`, `_(1)_`), single-word small-caps markers (`~MGM`), and a
-diaeresis marker (`Hammarskjo^ld`) are all dropped or stripped outright.
+(`_WASHINGTON_`, `_(1)_`, and the dateline's own `- ` separator right
+after it, `_COLQUITT_- After a long...`, 123 instances), single-word
+small-caps markers (`~MGM`), and a diaeresis marker (`Hammarskjo^ld`) are
+all dropped or stripped outright.
 A paragraph's ALL-CAPS lead-in words (`{DALLAS MAY GET} to hear...`) are
 real, present content (this corpus has `Dallas may get...`), just
 differently cased -- rather than guess at "correct" case from ALL CAPS
