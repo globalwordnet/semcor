@@ -709,6 +709,46 @@ uv run semcor-fix-hyphen-dropped-word-pair --dry-run    # preview without writin
 
 Idempotent, like the other `fix-*` scripts.
 
+### `semcor-fix-genitive-gap`
+
+Removes a spurious gap before a fused `'s_...` run (fixes #57). This
+corpus fuses multi-word proper nouns and idioms into a single token by
+joining their words with underscores (e.g. `Fulton_County_Grand_Jury`) --
+a deliberate, otherwise-correct convention. But when a genitive or
+contraction `'s` ends up fused to the word that *follows* it instead of
+staying flush with the word it actually belongs to, the corpus keeps a
+stray space or underscore immediately before the `'s`, e.g. `Al 's_Little_
+Cafe` for Brown's `Al's Little Cafe`, or (entirely inside one token)
+`Fulton_Tax_Commissioner_'s_Office` for Brown's `Fulton Tax Commissioner's
+Office`.
+
+Purely structural, no Brown/NLTK reference needed to decide *that* a fix
+applies -- no English text ever has a space before `'s` -- though every
+candidate was independently confirmed against `brown-nolines.txt` when
+building the manifest. This is unrelated to whether the fused run is its
+own separate token (the gap sits *between* two tokens, like
+`semcor-fix-hyphen-dropped-word-pair`) or sits in the middle of one larger
+token (the gap is internal to a single span, like
+`Fulton_Tax_Commissioner_'s_Office` above): deleting one character and
+shifting every later offset left by one, exactly like
+`semcor-fix-doubled-n-contraction`, handles both the same way since token
+spans are just integer offsets into `text`. **31 confirmed instances**
+across 20 files. `lemmas`/`pos`/every sense-key layer are untouched --
+only `text` and the shifted `tokens` offsets change.
+
+`src/semcor/genitive-gap-fixes.yaml` lists all 31 confirmed `{file,
+sentence, pos}` fixes (`pos` is the character offset of the space/
+underscore to delete) -- kept next to the script that reads it; generated
+once, offline, against `brown-nolines.txt`, this script has no NLTK
+dependency and just applies that manifest.
+
+```sh
+uv run semcor-fix-genitive-gap              # apply genitive-gap-fixes.yaml to data/
+uv run semcor-fix-genitive-gap --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.
