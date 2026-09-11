@@ -55,11 +55,45 @@ escaping -- shared by this corpus's source format and by
 ellipsis, a lone '&' is really a non-sentence-final abbreviation period, and
 '+' is really a literal '&'. Without this, every instance already fixed on
 this corpus's side would look like a divergence again here.
+
+`brown_nolines.txt` also carries several typesetting escapes of its own,
+none shared by this corpus's own `text` (unlike the '&'/'+' escaping
+above), so this side is where they get undone -- fixing this corpus's own
+data would be pointless when the "error" only exists in the reference
+copy:
+
+- A whole word made only of '@'/'#' ('@', '##', '#@#') is a paragraph
+  break, never content -- dropped entirely (see `_PARA_BREAK_TOKEN_RE`).
+- '_..._' wraps either a dateline that's genuinely and entirely missing
+  from this corpus (the accepted #32 gap) or a pure structural marker
+  (`_(1)_` enumeration, `_FOOTNOTES:_` headers) never carried as prose --
+  either way the span isn't part of the sentence, so it's dropped too
+  (see `_UNDERSCORE_SPAN_RE`).
+- '~word' is a single-word small-caps marker (`~MGM`, `~IBM`); '^' marks a
+  diaeresis on the previous letter (`Hammarskjo^ld`, `nai^ve`). Both are
+  pure typesetting overlays this corpus already normalizes away, so a bare
+  character deletion recovers the same plain-ASCII word this corpus has.
+- '{...}' wraps a paragraph's lead-in words, typeset in small caps/bold in
+  the original (`{DALLAS MAY GET} to hear a debate...` -- this corpus has
+  the same words, normal-cased: `Dallas may get...`). Reconstructing
+  "correct" case from ALL CAPS alone is lossy (an embedded proper noun
+  can't be told apart from an ordinary word), so instead of guessing, the
+  comparison borrows this corpus's own casing wherever the two already
+  agree case-insensitively at the same aligned position -- see
+  `_adopt_our_casing`, which aligns with `difflib` first (not a fixed word
+  index) so one divergence earlier in the document doesn't throw off
+  every brace-derived word after it.
+
+`<...>` (italics/drop-caps) and `**f`/`**h` (fraction and dash-like
+placeholders, mostly in `learned`-genre science text) are left alone --
+both look tangled up with the already-tracked formula-placeholder gap
+(#16/#34) rather than being a clean case of reference-side noise.
 """
 
 from __future__ import annotations
 
 import argparse
+import difflib
 import os
 import re
 import subprocess
@@ -213,17 +247,95 @@ def load_offsets(offsets_file: Path) -> dict[str, tuple[int, int]]:
 
 _ELLIPSIS_RUN_RE = re.compile(r"&\s*&\s*&")
 
+# A whole word made only of '@'/'#' is one of brown_nolines.txt's paragraph-
+# break tokens ('@', '##', '#@#') -- never real content, always followed by
+# a blank line. The lookarounds require the *whole* token to be '@'/'#', so
+# a subheadline like '#MERGER PROPOSED#' (real, if omitted, text -- see #32)
+# is left alone: its '#' is attached to a real word, not standalone.
+_PARA_BREAK_TOKEN_RE = re.compile(r"(?<!\S)[@#]+(?!\S)")
+
+# '_..._' wraps either a dateline that's genuinely and entirely missing from
+# this corpus (the accepted #32 gap) or a pure structural marker (`_(1)_`
+# enumeration, `_FOOTNOTES:_` headers) this corpus correctly never carried
+# as prose -- either way, the span isn't part of the sentence and should
+# drop out of the comparison. The length cap keeps a single unpaired '_'
+# (a real transcription slip seen at least once in this file) from
+# swallowing unrelated text all the way to some unrelated later '_'.
+_UNDERSCORE_SPAN_RE = re.compile(r"_[^_]{0,300}_")
+
 
 def decode_reference_text(text: str) -> str:
     """Undo brown_nolines.txt's transcription escapes -- see the module
     docstring."""
     text = _ELLIPSIS_RUN_RE.sub("...", text)
     text = text.replace("&", ".").replace("+", "&")
+    text = _UNDERSCORE_SPAN_RE.sub(" ", text)
+    text = _PARA_BREAK_TOKEN_RE.sub(" ", text)
+    # '~word' is a single-word small-caps marker (~MGM, ~IBM); '^' marks a
+    # diaeresis on the previous letter (Hammarskjo^ld, nai^ve). Both are
+    # pure typesetting overlays -- this corpus already normalizes the
+    # underlying word to plain ASCII either way, so a bare character
+    # deletion recovers it exactly.
+    text = text.replace("~", "").replace("^", "")
     return text
 
 
 def reference_doc_words(nolines_text: str, start: int, end: int) -> list[str]:
-    return decode_reference_text(nolines_text[start:end]).split()
+    words, _brace_flags = _decode_and_split(nolines_text, start, end)
+    return words
+
+
+def _decode_and_split(nolines_text: str, start: int, end: int) -> tuple[list[str], list[bool]]:
+    """Like `reference_doc_words`, but also flag which words came from a
+    `{...}` span -- a paragraph's lead-in words, typeset in small caps/bold
+    in the original (`{DALLAS MAY GET} to hear a debate...`). The words
+    themselves are real and present in this corpus, just normal-cased
+    (`Dallas may get...`) -- reconstructing "correct" case from ALL CAPS
+    alone is lossy (an embedded proper noun can't be told apart from an
+    ordinary word), so the flag lets the caller borrow this corpus's own
+    casing instead, position-for-position, wherever the two already agree
+    case-insensitively (see `main`). Braces are never assumed to be
+    balanced -- brown_nolines.txt has at least one unpaired `}` (a real
+    transcription slip) -- so each `{`/`}` is just deleted from whatever
+    word it's attached to and that word is flagged, independently of any
+    matching partner.
+    """
+    words = decode_reference_text(nolines_text[start:end]).split()
+    brace_flags = ["{" in w or "}" in w for w in words]
+    words = [w.replace("{", "").replace("}", "") for w in words]
+    return words, brace_flags
+
+
+def _adopt_our_casing(
+    ours_words: list[str], ref_words: list[str], brace_flags: list[bool]
+) -> None:
+    """Borrow this corpus's casing for brace-derived reference words,
+    in place.
+
+    A fixed `ref_words[i]` <-> `ours_words[i]` position pairing breaks as
+    soon as anything earlier in the document already diverges (a dropped
+    subheadline, an unhandled markup case, ...): every word after that
+    point is off by however many words the divergence added or removed,
+    so a same-index comparison stops finding the real match. Aligning the
+    two word lists with `difflib` first -- the same "match around
+    surrounding context" idea as `semcor-fix-hyphen-dropped-word-pair`,
+    just delegated to the standard library instead of a bespoke
+    context-window search -- re-syncs positions after each such
+    divergence, so a same-length `replace` block still finds the
+    brace-derived word's real counterpart.
+    """
+    matcher = difflib.SequenceMatcher(a=ours_words, b=ref_words, autojunk=False)
+    for tag, i1, i2, j1, j2 in matcher.get_opcodes():
+        if tag != "replace" or (i2 - i1) != (j2 - j1):
+            continue
+        for k in range(i2 - i1):
+            oi, rj = i1 + k, j1 + k
+            if (
+                brace_flags[rj]
+                and ref_words[rj] != ours_words[oi]
+                and ref_words[rj].lower() == ours_words[oi].lower()
+            ):
+                ref_words[rj] = ours_words[oi]
 
 
 def our_doc_words(path: Path) -> list[str]:
@@ -338,7 +450,8 @@ def main() -> int:
             start, end = offsets[fileid]
 
             ours_words = our_doc_words(path)
-            ref_words = reference_doc_words(nolines_text, start, end)
+            ref_words, brace_flags = _decode_and_split(nolines_text, start, end)
+            _adopt_our_casing(ours_words, ref_words, brace_flags)
             if ours_words != ref_words:
                 changed_docs += 1
 
