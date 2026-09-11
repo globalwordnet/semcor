@@ -331,6 +331,9 @@ def reference_doc_words(nolines_text: str, start: int, end: int) -> list[str]:
     return words
 
 
+_MAX_BRACE_SPAN = 50
+
+
 def _decode_and_split(nolines_text: str, start: int, end: int) -> tuple[list[str], list[bool]]:
     """Like `reference_doc_words`, but also flag which words came from a
     `{...}` span -- a paragraph's lead-in words, typeset in small caps/bold
@@ -340,14 +343,36 @@ def _decode_and_split(nolines_text: str, start: int, end: int) -> tuple[list[str
     alone is lossy (an embedded proper noun can't be told apart from an
     ordinary word), so the flag lets the caller borrow this corpus's own
     casing instead, position-for-position, wherever the two already agree
-    case-insensitively (see `main`). Braces are never assumed to be
-    balanced -- brown_nolines.txt has at least one unpaired `}` (a real
-    transcription slip) -- so each `{`/`}` is just deleted from whatever
-    word it's attached to and that word is flagged, independently of any
-    matching partner.
+    case-insensitively (see `main`).
+
+    A word only carries a literal `{`/`}` itself when it's flush against
+    the brace (`{DALLAS`, `GET}`) -- a middle word of a multi-word span
+    (`MAY`, above) has neither character, so flagging word-by-word missed
+    every interior word of every span longer than one word. Tracked as a
+    running "currently inside a span" state instead, so every word from
+    the opening `{` through the closing `}` (inclusive) is flagged.
+    Braces are never assumed to be reliably balanced -- brown_nolines.txt
+    has a handful more `}` than `{` (a real transcription slip) -- so an
+    opening brace that doesn't close within `_MAX_BRACE_SPAN` words is
+    treated as not a real span after all and un-flagged, rather than
+    leaving every word for the rest of the document mis-flagged.
     """
     words = decode_reference_text(nolines_text[start:end]).split()
-    brace_flags = ["{" in w or "}" in w for w in words]
+    brace_flags = [False] * len(words)
+    in_brace = False
+    span_start = 0
+    for i, w in enumerate(words):
+        if not in_brace and "{" in w:
+            in_brace = True
+            span_start = i
+        if in_brace:
+            brace_flags[i] = True
+            if "}" in w:
+                in_brace = False
+            elif i - span_start >= _MAX_BRACE_SPAN:
+                for k in range(span_start, i + 1):
+                    brace_flags[k] = False
+                in_brace = False
     words = [w.replace("{", "").replace("}", "") for w in words]
     return words, brace_flags
 

@@ -1021,9 +1021,22 @@ alone (lossy: an embedded proper noun looks identical to an ordinary
 word), the comparison borrows this corpus's own casing wherever the two
 already agree case-insensitively, aligned with `difflib` rather than a
 fixed word index so one earlier divergence in the document doesn't throw
-off every brace-derived word after it. `<...>` and `**f`/`**h` are left
-alone -- they look tangled up with the already-tracked formula-placeholder
-gap (#16/#34) rather than being clean reference-side noise.
+off every brace-derived word after it. A word only carries a literal
+`{`/`}` itself when it's flush against the brace (`{DALLAS`, `GET}`) --
+a middle word of a multi-word span (`MAY`, above) has neither character,
+so an earlier version of this check, done word-by-word, missed every
+interior word of every span longer than one word (`MAY` stayed
+unadopted, `-may`/`+MAY` in the diff, even though `DALLAS` and `GET` on
+either side of it worked); tracked as a running "currently inside a
+span" state instead (capped at 50 words so a brace that never closes --
+brown_nolines.txt has a few more `}` than `{` -- doesn't mis-flag the
+rest of the document), which found ~1,600 brace-derived words instead
+of 462. `<...>` and `**f`/`**h` are left alone -- they look tangled up
+with the already-tracked formula-placeholder gap (#16/#34) rather than
+being clean reference-side noise. A separate, harder case -- the same
+ALL-CAPS paragraph-lead convention appearing with *no* brace wrapper at
+all (`YOU MAY DO AS YOU PLEASE with God now.`) -- has no signal to key
+off and is left unhandled.
 
 `brown_nolines.txt` has no markers between its 500 concatenated files, so
 locating where each of this corpus's 352 files starts in it is a one-time,
