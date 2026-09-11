@@ -970,15 +970,21 @@ double-quote gap bug, but for single quotes, and specifically the
 opening side (the closing side, flush against the word it closes, is
 already correct).
 
-Detection: a standalone `'` token tagged `POS` (Brown's own tagger's
-closest approximation for a bare apostrophe -- `''` closing-quote and
-`POS` possessive are the two tags it can get) that's flush before and
-gapped after. Most `POS`-tagged candidates are correctly-placed plural
-possessives (`boys' toys`) with no scare-quote at all; verified against
-`src/semcor/brown-nolines.txt` via context-window matching, requiring
-the reference to confirm a literal quote character at the matched
-position, filters those out. **45 confirmed** this way (~75 more left
-unresolved, no unique context match, for a follow-up look).
+Detection: a standalone `'` token tagged `POS` or `''` (Brown's own
+tagger's two approximations for a bare apostrophe -- possessive and
+closing-quote respectively) that's flush before and gapped after. An
+initial pass only checked `POS`-tagged tokens, on the theory that `''`
+meant an already-correctly-placed closing quote -- but `sufficient'
+deductible' requirements` (tagged `''`, not `POS`) for Brown's
+`sufficient 'deductible' requirements` showed that assumption was wrong:
+plenty of misattached opening quotes get the closing-quote tag too, so
+both tags need checking, not just `POS`. Most candidates of either tag
+are correctly-placed plural possessives (`boys' toys`) with no
+scare-quote at all; verified against `src/semcor/brown-nolines.txt` via
+context-window matching, requiring the reference to confirm a literal
+quote character at the matched position, filters those out. **115
+confirmed** this way (~140 more left unresolved, no unique context
+match, for a follow-up look).
 
 Since the gap is always exactly one space, the fix is a same-length
 swap of the quote and the space immediately after it: only the quote's
@@ -986,7 +992,7 @@ own token span shifts by one; every other token, including the word it
 now introduces, keeps its existing span. `lemmas`/`pos`/every sense-key
 layer are completely untouched.
 
-`src/semcor/single-quote-gap-fixes.yaml` lists all 45 confirmed `{file,
+`src/semcor/single-quote-gap-fixes.yaml` lists all 115 confirmed `{file,
 sentence, index}` fixes -- generated once, offline, against
 `brown-nolines.txt`, this script has no NLTK dependency and just applies
 that manifest.
