@@ -1030,8 +1030,33 @@ locating where each of this corpus's 352 files starts in it is a one-time,
 offline step (needs a local `nltk` install, unlike everything else here)
 committed as `src/semcor/brown-nolines-offsets.yaml` (kept next to the
 script that reads it, rather than at the repo root like the other
-`*-fixes.yaml` manifests, since nothing else needs it); regenerate it
-only if `brown_nolines.txt` itself changes:
+`*-fixes.yaml` manifests, since nothing else needs it).
+
+The anchor search that finds each boundary matches at the first *word*
+of a file's first NLTK-tokenized sentence -- NLTK's own corpus reader
+already strips markup, so the match itself can never see it -- but a
+document's real opening is often a dateline's leading `_`, a
+subheadline's `#`, or an opening quote/paren/brace that belongs to
+*this* file, not a trailing leftover of the previous one. Left alone,
+that stranded opening character has no matching close within either
+file's own span (`_AUSTIN, TEXAS_- Committee approval...`: the anchor
+lands on `Committee`, so `_AUSTIN, TEXAS_-`'s own leading `_` looked like
+a dangling extra word at the tail of the *previous* file, since
+`decode_reference_text`'s `_UNDERSCORE_SPAN_RE` couldn't find its
+matching close within that file's own span either). `locate_file_
+boundaries` now backs the match up over any immediately preceding
+whitespace-delimited token(s) containing no alphanumeric character at
+all, stopping at a paragraph break (a blank line) so it never crosses
+into content that genuinely belongs to the previous file (e.g. a
+trailing `**f` formula placeholder right before a new file's own
+`#`-prefixed dateline). **88 of the 352 file boundaries** needed this
+adjustment (almost entirely single characters: `_`, `#`, `{`, `<`, `"`,
+`(`); regenerating dropped the divergent-word-line count by 109 with no
+`data/*.yaml` changes at all.
+
+Regenerate `brown-nolines-offsets.yaml` only if `brown_nolines.txt`
+itself changes, or if `locate_file_boundaries`'s own matching logic
+does:
 
 ```sh
 uv run semcor-compare-brown-nolines --regenerate-offsets

@@ -154,6 +154,45 @@ def _anchor_pattern(words: list[str]) -> re.Pattern[str]:
     )
 
 
+def _extend_start_backward(text: str, pos: int, floor: int) -> int:
+    """Back `pos` up over any immediately preceding whitespace-delimited
+    token(s) containing no alphanumeric character at all.
+
+    The anchor search below necessarily matches at the first *word* of a
+    file's first NLTK-tokenized sentence -- NLTK's own corpus reader
+    already strips markup, so the match itself can never see it -- but a
+    document's real opening is often a dateline's leading '_', a
+    subheadline's '#', or an opening quote/paren/brace that belongs to
+    *this* file, not a trailing leftover of the previous one (`_AUSTIN,
+    TEXAS_- Committee approval...`: the anchor lands on `Committee`,
+    stranding `_AUSTIN, TEXAS_-`'s own leading `_` as what looks like a
+    dangling extra word at the tail of the *previous* file once
+    `decode_reference_text` can't find its matching close within that
+    file's own span). Stops at a paragraph break (a blank line) so it
+    never crosses into unrelated content that genuinely belongs to the
+    previous file (e.g. a trailing `**f` formula placeholder right
+    before a new file's own `#`-prefixed dateline).
+    """
+    cur = pos
+    while True:
+        j = cur
+        while j > floor and not text[j - 1].isspace():
+            j -= 1
+        if j == cur:
+            break
+        token = text[j:cur]
+        if not token or any(c.isalnum() for c in token):
+            break
+        k = j
+        while k > floor and text[k - 1].isspace():
+            k -= 1
+        cur = j
+        if text[k:j].count("\n") >= 2:
+            break
+        cur = k
+    return cur
+
+
 def locate_file_boundaries(nolines_text: str, fileids: list[str]) -> dict[str, int]:
     """Find each Brown fileid's start offset in `nolines_text`.
 
@@ -176,13 +215,15 @@ def locate_file_boundaries(nolines_text: str, fileids: list[str]) -> dict[str, i
     for fileid in fileids:
         first_sent = brown.sents(fileids=[fileid])[0]
         words = _alnum_words(first_sent, _ANCHOR_WORDS)
+        search_start = cursor
         window = nolines_text[cursor : cursor + _SEARCH_WINDOW]
         found = False
         for k in range(min(_ANCHOR_WORDS, len(words)), 0, -1):
             m = _anchor_pattern(words[:k]).search(window)
             if m:
-                starts[fileid] = cursor + m.start()
-                cursor = cursor + m.start() + 1
+                match_pos = cursor + m.start()
+                starts[fileid] = _extend_start_backward(nolines_text, match_pos, search_start)
+                cursor = match_pos + 1
                 found = True
                 break
         if not found:
