@@ -874,6 +874,58 @@ uv run semcor-fix-comma-flush --dry-run    # preview without writing
 
 Idempotent, like the other `fix-*` scripts.
 
+### `semcor-fix-reconstruction-gaps`
+
+Closes every remaining spurious single-character gap found by a
+whole-document alignment against Brown's real text (fixes #63). Every
+narrower gap fix above (#8's quote-gaps, #57's `'s`, #61's abbreviation
+period, #62's comma) works from a *local* signal specific to its own
+pattern, which necessarily misses anything that doesn't match that
+shape. This one asks the general question directly instead: reusing the
+same per-document word-list alignment `semcor-compare-brown-nolines`
+already does (`difflib.SequenceMatcher`, the same alignment
+`_adopt_our_casing` uses for `{...}` spans), find every `replace` block
+where several of our words concatenate, verbatim and exactly, to one
+reference word. An exact match after whole-document alignment isn't a
+guess -- unlike quote direction (#8), which this repo already documents
+as unsafe to infer structurally -- so nesting/ambiguity concerns don't
+apply here.
+
+**2353 confirmed instances** across 293 files, covering #61's
+abbreviation-period remainder (`N._Y.` -> `N.Y.`, `p.m.` `.` ->
+`p.m..`), #62's comma-flush remainder (embedded number-range hyphens,
+`607_-_608.` -> `607-608.`), more of #8's own quote-gap pattern than the
+original context-window manifest could uniquely confirm, and a long
+tail of previously-uncatalogued shapes (ordinal suffixes `72nd`,
+race/time notation `2:36h;`, citation abbreviations `U.S.C.`,
+parenthetical flush-ness `(1955).`, apostrophe-prefixed names
+`B'dikkat`). Every merged gap turns out to be exactly one character -- a
+plain space or an underscore, never anything more complex. 15 further
+candidates are excluded because the gap spans a sentence boundary in
+this corpus's own data (e.g. `appellant".)` ending one sentence right
+before a lone `.` starts the next) -- a different, more structural
+issue, left for a separate look.
+
+Each fix is a single-character deletion, exactly like
+`semcor-fix-genitive-gap`: token *count* never changes, only the
+deleted position's own token and everything after it shift left by one.
+`lemmas`/`pos`/every sense-key layer are completely untouched across all
+293 files -- only `text` and the shifted `tokens` offsets change. A
+sentence needing more than one deletion is applied highest-position-first
+so an earlier deletion never invalidates a not-yet-applied position.
+
+`src/semcor/reconstruction-gap-fixes.yaml` lists all 2353 confirmed
+`{file, sentence, pos}` fixes -- generated once, offline, against
+`brown-nolines.txt`, this script has no NLTK dependency and just applies
+that manifest.
+
+```sh
+uv run semcor-fix-reconstruction-gaps              # apply reconstruction-gap-fixes.yaml to data/
+uv run semcor-fix-reconstruction-gaps --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.
