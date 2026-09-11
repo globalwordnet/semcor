@@ -795,6 +795,24 @@ reference text never changes and `www.sls.hawaii.edu` has proven
 unreliable to reach from CI runners. Pass `--nolines-file` or set
 `$SEMCOR_BROWN_NOLINES_FILE` to compare against a different copy instead.
 
+`brown_nolines.txt` also carries its own typesetting escapes that this
+corpus's own `text` never had to begin with, so -- unlike every `fix_*.py`
+script above -- the fix for these lives entirely on the reference side,
+in `decode_reference_text`/`_decode_and_split`, not in `data/*.yaml`:
+paragraph-break tokens (`@`, `##`, `#@#`), dateline/enumeration spans
+(`_WASHINGTON_`, `_(1)_`), single-word small-caps markers (`~MGM`), and a
+diaeresis marker (`Hammarskjo^ld`) are all dropped or stripped outright.
+A paragraph's ALL-CAPS lead-in words (`{DALLAS MAY GET} to hear...`) are
+real, present content (this corpus has `Dallas may get...`), just
+differently cased -- rather than guess at "correct" case from ALL CAPS
+alone (lossy: an embedded proper noun looks identical to an ordinary
+word), the comparison borrows this corpus's own casing wherever the two
+already agree case-insensitively, aligned with `difflib` rather than a
+fixed word index so one earlier divergence in the document doesn't throw
+off every brace-derived word after it. `<...>` and `**f`/`**h` are left
+alone -- they look tangled up with the already-tracked formula-placeholder
+gap (#16/#34) rather than being clean reference-side noise.
+
 `brown_nolines.txt` has no markers between its 500 concatenated files, so
 locating where each of this corpus's 352 files starts in it is a one-time,
 offline step (needs a local `nltk` install, unlike everything else here)
