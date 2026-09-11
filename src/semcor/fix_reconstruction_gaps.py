@@ -93,11 +93,17 @@ def fix_sentence(
     Returns (new_text, new_tokens), or None if every fix was already
     applied (e.g. a second run). Positions are applied highest-first so
     an earlier deletion never shifts a not-yet-applied position.
+
+    This manifest grows over time (each new sweep appends more entries
+    rather than replacing it), so a position from an earlier sweep can
+    already be out of range against a sentence a *later* sweep's fixes
+    already shrank -- out of range means already applied, same as a
+    non-space/underscore character there.
     """
     applied = False
     for pos in sorted(positions, reverse=True):
-        if text[pos] not in (" ", "_"):
-            continue  # already fixed -- no-op
+        if pos >= len(text) or text[pos] not in (" ", "_"):
+            continue  # already fixed (or stale/out of range) -- no-op
         text = text[:pos] + text[pos + 1 :]
         tokens = [
             [s - 1 if s > pos else s, e - 1 if e > pos else e]

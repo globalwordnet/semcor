@@ -548,18 +548,30 @@ Idempotent, like the other `fix-*` scripts.
 ### `semcor-fix-underscore-hyphen-lexemes`
 
 Corrects underscore-joined lexemes that should be hyphenated (fixes
-#43). This corpus recognizes 54 hyphenated compounds (`self-acceptance`,
-`spring-training`, `pinch-hitters`, ...) as single WordNet-sensed
-multiword lexemes -- correctly, unlike a much larger, separate class #43
-also found (two ordinary, individually-tagged words with the hyphen
-missing entirely, e.g. `Yankee hatred` for Brown's `Yankee-hatred`; split
-off into #46, since 548 of those 549 turn out to already carry a real
-sense on one or both sides, needing an individual editorial call to
-decide what happens to it on a merge, the same way #24 needed one for
-its word-prefixed exclusions -- only 1 has no sense conflict and is fixed
-directly, `data/learned/br-j04.yaml`'s `spin spin` -> `spin-spin`) --
-but joins these 54 with `_` instead of the real `-` Brown's text has,
-e.g. `self_acceptance` where Brown has `self-acceptance`.
+#43, #64). This corpus recognizes 71 hyphenated compounds
+(`self-acceptance`, `spring-training`, `pinch-hitters`, `ex-gambler`,
+...) as single WordNet-sensed multiword lexemes -- correctly, unlike a
+much larger, separate class #43 also found (two ordinary,
+individually-tagged words with the hyphen missing entirely, e.g.
+`Yankee hatred` for Brown's `Yankee-hatred`; split off into #46, since
+548 of those 549 turn out to already carry a real sense on one or both
+sides, needing an individual editorial call to decide what happens to
+it on a merge, the same way #24 needed one for its word-prefixed
+exclusions -- only 1 has no sense conflict and is fixed directly,
+`data/learned/br-j04.yaml`'s `spin spin` -> `spin-spin`) -- but joins
+these 71 with `_` instead of the real `-` Brown's text has, e.g.
+`self_acceptance` where Brown has `self-acceptance`. #64 re-ran the
+same signal (a token's surface has `_` where its own `lemmas` entry
+already has `-` at the same position) and found 17 more instances #43's
+original scan missed, each individually confirmed the same way; 74
+further raw candidates were correctly left alone because Brown's real
+text at that exact position genuinely has a plain space, not a hyphen
+-- the lemma's hyphen there is only WordNet's own dictionary-citation
+convention for the multiword entry (`such-and-such`, `upside-down`),
+and Brown is genuinely inconsistent between space and hyphen for some
+of these across different occurrences (`half hour`/`half-hour` both
+appear elsewhere), so each candidate needs its own check rather than a
+blanket rule.
 
 Confirmed against `src/semcor/brown-nolines.txt` (the same reference
 `semcor-compare-brown-nolines` uses, not `nltk.corpus.brown`, whose own
@@ -579,10 +591,21 @@ nothing to fix). `oewn_key`/`wn16_key`/`wn30_key` never change: `oewn_key`
 encodes a synset ID, not spelling, and WordNet sense keys are spec'd to
 always use `_` for multiword lemmas regardless of surface spelling.
 
-`src/semcor/underscore-hyphen-lexeme-fixes.yaml` lists all 54 confirmed
+`src/semcor/underscore-hyphen-lexeme-fixes.yaml` lists all 71 confirmed
 `{file, sentence, index, replacement}` fixes -- kept next to the script
 that reads it, since nothing else needs it; generated once, offline, this
 script has no NLTK dependency and just applies that manifest.
+
+`data/press_reportage/br-a02.yaml`'s `qwwa` needed an editorial
+restructure instead: Brown's real text is the hyphenated compound
+`junior-senior high teachers`, but this corpus had tokenized it as
+`junior` (sensed `junior_high%1:14:00::`) + `senior_high` (sensed
+`senior_high%1:14:00::`) -- borrowed from a different, superficially
+similar sentence elsewhere in the same document where `junior` alone
+eliding "high school" after an explicit "or" is genuinely correct, but
+neither sense fits the real `junior-senior` compound here. Retokenized
+by hand to `junior-senior` + `high` with both senses dropped rather
+than forced, the same "drop when nothing fits" precedent as #24/#46.
 
 ```sh
 uv run semcor-fix-underscore-hyphen-lexemes              # apply underscore-hyphen-lexeme-fixes.yaml to data/
@@ -891,8 +914,8 @@ guess -- unlike quote direction (#8), which this repo already documents
 as unsafe to infer structurally -- so nesting/ambiguity concerns don't
 apply here.
 
-**2353 confirmed instances** across 293 files, covering #61's
-abbreviation-period remainder (`N._Y.` -> `N.Y.`, `p.m.` `.` ->
+**2713 confirmed instances** across a growing set of files, covering
+#61's abbreviation-period remainder (`N._Y.` -> `N.Y.`, `p.m.` `.` ->
 `p.m..`), #62's comma-flush remainder (embedded number-range hyphens,
 `607_-_608.` -> `607-608.`), more of #8's own quote-gap pattern than the
 original context-window manifest could uniquely confirm, and a long
@@ -900,24 +923,34 @@ tail of previously-uncatalogued shapes (ordinal suffixes `72nd`,
 race/time notation `2:36h;`, citation abbreviations `U.S.C.`,
 parenthetical flush-ness `(1955).`, apostrophe-prefixed names
 `B'dikkat`). Every merged gap turns out to be exactly one character -- a
-plain space or an underscore, never anything more complex. 15 further
-candidates are excluded because the gap spans a sentence boundary in
-this corpus's own data (e.g. `appellant".)` ending one sentence right
-before a lone `.` starts the next) -- a different, more structural
-issue, left for a separate look.
+plain space or an underscore, never anything more complex. A further
+batch (#64) came from generalizing the alignment match from `replace`
+blocks where N of our words collapse to exactly 1 reference word to
+blocks where they partition into M (>1) reference words in order (e.g.
+`sixties`, `-` -> `sixties-` sitting right next to a *separate*
+`straight_backed` -> `straight-backed` fix, both inside one bigger
+`replace` block difflib didn't split on its own). 15 further candidates
+are excluded because the gap spans a sentence boundary in this corpus's
+own data (e.g. `appellant".)` ending one sentence right before a lone
+`.` starts the next) -- a different, more structural issue, left for a
+separate look.
 
 Each fix is a single-character deletion, exactly like
 `semcor-fix-genitive-gap`: token *count* never changes, only the
 deleted position's own token and everything after it shift left by one.
-`lemmas`/`pos`/every sense-key layer are completely untouched across all
-293 files -- only `text` and the shifted `tokens` offsets change. A
-sentence needing more than one deletion is applied highest-position-first
-so an earlier deletion never invalidates a not-yet-applied position.
+`lemmas`/`pos`/every sense-key layer are completely untouched -- only
+`text` and the shifted `tokens` offsets change. A sentence needing more
+than one deletion is applied highest-position-first so an earlier
+deletion never invalidates a not-yet-applied position. Since this
+manifest is meant to grow with each new sweep rather than being
+regenerated from scratch, a position from an earlier sweep can end up
+out of range against a sentence a *later* sweep's fixes already shrank
+-- treated the same as already-applied, not an error.
 
-`src/semcor/reconstruction-gap-fixes.yaml` lists all 2353 confirmed
-`{file, sentence, pos}` fixes -- generated once, offline, against
-`brown-nolines.txt`, this script has no NLTK dependency and just applies
-that manifest.
+`src/semcor/reconstruction-gap-fixes.yaml` lists all 2713 confirmed
+`{file, sentence, pos}` fixes -- generated offline against
+`brown-nolines.txt` in growing batches as new sweeps find more, this
+script has no NLTK dependency and just applies that manifest.
 
 ```sh
 uv run semcor-fix-reconstruction-gaps              # apply reconstruction-gap-fixes.yaml to data/
