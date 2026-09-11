@@ -982,9 +982,17 @@ both tags need checking, not just `POS`. Most candidates of either tag
 are correctly-placed plural possessives (`boys' toys`) with no
 scare-quote at all; verified against `src/semcor/brown-nolines.txt` via
 context-window matching, requiring the reference to confirm a literal
-quote character at the matched position, filters those out. **115
-confirmed** this way (~140 more left unresolved, no unique context
+quote character at the matched position, filters those out. **120
+confirmed** this way (~135 more left unresolved, no unique context
 match, for a follow-up look).
+
+A later pass found a blind spot: the scan only checked the *single* next
+token as the word a misattached quote should introduce, missing cases
+where that word is itself immediately followed by a flush contraction
+suffix that the reference renders as one word (`You` + `'re` ->
+`You're`) -- `think,' You're` for Brown's `think, 'You're` was missed
+this way on the first pass. Extending the match target through any
+further flush-adjacent tokens found **5 more** confirmed instances.
 
 Since the gap is always exactly one space, the fix is a same-length
 swap of the quote and the space immediately after it: only the quote's
@@ -992,7 +1000,7 @@ own token span shifts by one; every other token, including the word it
 now introduces, keeps its existing span. `lemmas`/`pos`/every sense-key
 layer are completely untouched.
 
-`src/semcor/single-quote-gap-fixes.yaml` lists all 115 confirmed `{file,
+`src/semcor/single-quote-gap-fixes.yaml` lists all 120 confirmed `{file,
 sentence, index}` fixes -- generated once, offline, against
 `brown-nolines.txt`, this script has no NLTK dependency and just applies
 that manifest.
@@ -1084,6 +1092,49 @@ that manifest.
 ```sh
 uv run semcor-fix-displaced-period              # apply displaced-period-fixes.yaml to data/
 uv run semcor-fix-displaced-period --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
+### `semcor-fix-quote-order`
+
+Swaps a mis-ordered closing quote pair back to the correct nesting order
+(fixes #72), e.g. `elected"'.` -> `elected'".`. When a double-quoted span
+contains a nested single-quoted word/phrase and both close at the same
+point, Brown's real text always closes the *inner* single quote before
+the *outer* double quote -- never the reverse. Detection: a `"` token
+immediately (flush) followed by a `'` token; a corpus-wide scan found 42
+raw candidates this shape, all at closing positions (none at opening
+positions, which would be the reverse, already-correct order).
+
+Each candidate was verified individually against
+`src/semcor/brown-nolines.txt` via context-window matching: reconstruct
+the target word with the pair swapped back (`elected` + `'` + `"`) and
+require a unique, context-confirmed match in the reference. **27
+confirmed** this way (5 of those matched a target that is unique in the
+*entire* reference document -- stronger evidence than the local context
+window needs, even though the automated context check itself came back
+ambiguous for those five, likely from noise elsewhere in their
+particular context window). The remaining 15 are left unfixed for a
+follow-up look: 5 are sentence-initial with no preceding word to
+reconstruct a target from, and the rest involve dialect apostrophes or
+other irregular preceding tokens that don't reconstruct cleanly.
+
+The fix is a pure 2-character content swap: the `"` and `'` characters
+trade places. Both belong to fixed-position single-character tokens, so
+no token span changes at all -- only the two characters' content
+changes. `tokens`/`lemmas`/`pos`/every sense-key layer are completely
+untouched.
+
+`src/semcor/quote-order-fixes.yaml` lists all 27 confirmed `{file,
+sentence, pos}` fixes (`pos` is the character offset of the `"` to swap
+with the `'` immediately after it) -- generated once, offline, against
+`brown-nolines.txt`, this script has no NLTK dependency and just applies
+that manifest.
+
+```sh
+uv run semcor-fix-quote-order              # apply quote-order-fixes.yaml to data/
+uv run semcor-fix-quote-order --dry-run    # preview without writing
 ```
 
 Idempotent, like the other `fix-*` scripts.
