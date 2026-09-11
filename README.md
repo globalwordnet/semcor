@@ -1050,6 +1050,38 @@ uv run semcor-fix-missing-space-gap --dry-run    # preview without writing
 
 Idempotent, like the other `fix-*` scripts.
 
+### `semcor-fix-displaced-period`
+
+Moves an abbreviation's period off the following number and back onto
+the abbreviation itself (fixes #69), e.g. `Nov .8` -> `Nov. 8`, `No .3`
+-> `No. 3`. Detection: a bare-letters token immediately followed by a
+single space then a `.` + digits token. Most matches for this shape are
+ordinary decimal numbers with a real word before them (`batted .365`,
+`the .028`) and are already correct -- confirmed individually against
+`src/semcor/brown-nolines.txt` (both shapes are genuinely present in
+Brown's real text, so this can't be a blanket rule). Only the **12
+instances** where the preceding word is itself a recognized abbreviation
+(`Nov`/`Oct`/`Sept`, `No`, `Figs`, `pp`) are real bugs.
+
+The fix is a 2-character swap: the gap (a space) and the following
+period trade places, moving the period onto the abbreviation and
+leaving a single space before the number. Token *count* never changes --
+the abbreviation token's own end and the number token's own start each
+shift by one character, and no other token in the sentence is affected.
+`lemmas`/`pos`/every sense-key layer are completely untouched.
+
+`src/semcor/displaced-period-fixes.yaml` lists all 12 confirmed `{file,
+sentence, pos}` fixes -- generated once, offline, against
+`brown-nolines.txt`, this script has no NLTK dependency and just applies
+that manifest.
+
+```sh
+uv run semcor-fix-displaced-period              # apply displaced-period-fixes.yaml to data/
+uv run semcor-fix-displaced-period --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.
