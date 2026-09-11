@@ -833,6 +833,47 @@ uv run semcor-fix-abbreviation-period-gap --dry-run    # preview without writing
 
 Idempotent, like the other `fix-*` scripts.
 
+### `semcor-fix-comma-flush`
+
+Moves a comma flush against the word before it inside a fused MWE token
+(fixes #62), e.g. `Opelika_,_Ala.` -> `Opelika,_Ala.`. This corpus fuses
+multi-word proper nouns and titles into a single token by joining their
+words with underscores (`Fulton_County_Grand_Jury`) -- a deliberate,
+otherwise-correct convention that breaks down for a comma the same way
+`semcor-fix-genitive-gap` (#57) found it breaks down for `'s`: a comma is
+always flush against the preceding word and followed by a space, never
+the reverse, but 20 confirmed tokens have an underscore on *both* sides
+of an embedded comma.
+
+Every one of the 20 was individually confirmed against
+`src/semcor/brown-nolines.txt`. 11 further raw candidates are
+deliberately excluded because fixing the comma alone still wouldn't
+match the reference: 6 also embed a numeric range needing its own flush
+hyphen (`400_-_401`, the same shape as #9's number ranges), 4 are
+Selective Service classification codes (`4_,_-_D`) using an entirely
+different escape convention in the reference, and 1
+(`Norman_B._Small_,_Jr.`) is missing a comma entirely compared to
+Brown's real text -- a content gap, not a spacing bug.
+
+Every fix is a same-token, in-place edit -- `str.replace("_,_", ",_")`
+per embedded comma (some tokens have more than one) -- shrinking that
+one token's own span and shifting every later token in the sentence left
+to match, the same mechanics as `semcor-fix-caret-diaeresis`'s embedded
+(no-merge) case. Token *count* never changes, so `lemmas`/`pos`/every
+sense-key layer are completely untouched.
+
+`src/semcor/comma-flush-fixes.yaml` lists all 20 confirmed `{file,
+sentence, index}` fixes -- generated once, offline, against
+`brown-nolines.txt`, this script has no NLTK dependency and just applies
+that manifest.
+
+```sh
+uv run semcor-fix-comma-flush              # apply comma-flush-fixes.yaml to data/
+uv run semcor-fix-comma-flush --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.
