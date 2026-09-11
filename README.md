@@ -668,6 +668,47 @@ uv run semcor-fix-case-mismatch --dry-run    # preview without writing
 
 Idempotent, like the other `fix-*` scripts.
 
+### `semcor-fix-hyphen-dropped-word-pair`
+
+Restores a hyphen dropped between two ordinary words (fixes #43/#46),
+e.g. `term end` -> `term-end`, `ever growing` -> `ever-growing`. #43
+found this shape; #46 split off the bulk of it (549 confirmed) because
+almost every instance already carries a real WordNet sense on *both*
+words, and merging them into one token (as #16/#24 do for other cases)
+would force picking which sense survives -- a real editorial call, not
+a mechanical one, and checking `external/english-wordnet`'s own source
+data confirms none of these compounds has its own sense to fall back on
+instead.
+
+That choice turns out to be unnecessary: a hyphen is exactly one
+character, the same width as the space it replaces, so the fix is a
+single-character substitution *between* the two existing tokens, not a
+merge. Both tokens' own spans, `lemmas`, `pos`, and every sense-key
+layer are completely untouched; only `text` changes, at exactly the
+gap position. This also covers the one hyphenated *range* found
+alongside the compound modifiers (`September October` for Brown's
+`September-October`, the same shape as `semcor-fix-hyphen-compound-merge`'s
+number ranges like `1960-1962`, which this corpus already keeps as
+separate tokens either).
+
+Re-verified against `src/semcor/brown-nolines.txt` with a context-window
+word search (unique match required, using both sides of the pair and
+pulling extra context from neighbouring sentences when the current one
+runs out) finds **522 confirmed instances** (508 with a sense on both
+words, 14 with a sense on only one, 0 with neither).
+
+`src/semcor/hyphen-dropped-word-pair-fixes.yaml` lists all 522
+confirmed `{file, sentence, index}` fixes -- kept next to the script
+that reads it; generated once, offline, against `brown-nolines.txt`,
+this script has no NLTK dependency and just applies that manifest.
+
+```sh
+uv run semcor-fix-hyphen-dropped-word-pair              # apply hyphen-dropped-word-pair-fixes.yaml to data/
+uv run semcor-fix-hyphen-dropped-word-pair --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.
