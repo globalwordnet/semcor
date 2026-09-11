@@ -959,6 +959,45 @@ uv run semcor-fix-reconstruction-gaps --dry-run    # preview without writing
 
 Idempotent, like the other `fix-*` scripts.
 
+### `semcor-fix-single-quote-gap`
+
+Moves an opening single quote flush against the word it introduces, not
+the word before it (fixes #67), e.g. `more' pro' letters than' con'` ->
+`more 'pro' letters than 'con'`. When a single quote marks emphasized/
+scare-quoted or dialect-elided speech, the *opening* quote is frequently
+flush against the *preceding* word instead -- the same shape as #8's
+double-quote gap bug, but for single quotes, and specifically the
+opening side (the closing side, flush against the word it closes, is
+already correct).
+
+Detection: a standalone `'` token tagged `POS` (Brown's own tagger's
+closest approximation for a bare apostrophe -- `''` closing-quote and
+`POS` possessive are the two tags it can get) that's flush before and
+gapped after. Most `POS`-tagged candidates are correctly-placed plural
+possessives (`boys' toys`) with no scare-quote at all; verified against
+`src/semcor/brown-nolines.txt` via context-window matching, requiring
+the reference to confirm a literal quote character at the matched
+position, filters those out. **45 confirmed** this way (~75 more left
+unresolved, no unique context match, for a follow-up look).
+
+Since the gap is always exactly one space, the fix is a same-length
+swap of the quote and the space immediately after it: only the quote's
+own token span shifts by one; every other token, including the word it
+now introduces, keeps its existing span. `lemmas`/`pos`/every sense-key
+layer are completely untouched.
+
+`src/semcor/single-quote-gap-fixes.yaml` lists all 45 confirmed `{file,
+sentence, index}` fixes -- generated once, offline, against
+`brown-nolines.txt`, this script has no NLTK dependency and just applies
+that manifest.
+
+```sh
+uv run semcor-fix-single-quote-gap              # apply single-quote-gap-fixes.yaml to data/
+uv run semcor-fix-single-quote-gap --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.
