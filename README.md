@@ -265,8 +265,11 @@ preserve real spacing -- a unique word-context match around a quote
 tells us, per quote and per side independently, whether Brown's real
 text has that exact gap or not, with no need to know whether the
 sentence's quotes are nested, sequential, or cross a sentence boundary.
-2,750 such gaps (1,362 before a quote, 1,388 after) were confirmed this
-way; see the module docstring for the full reasoning.
+3,568 such gaps (1,871 before a quote, 1,697 after) were confirmed this
+way; see the module docstring for the full reasoning, including a
+follow-up correction that found 818 gaps a first pass had wrongly left
+unresolved (context-matching bugs, not false positives -- the earlier
+2,750 were all correct, just incomplete).
 
 ```sh
 uv run semcor-fix-spurious-spacing              # fix data/
