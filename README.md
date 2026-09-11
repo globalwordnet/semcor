@@ -998,6 +998,58 @@ uv run semcor-fix-single-quote-gap --dry-run    # preview without writing
 
 Idempotent, like the other `fix-*` scripts.
 
+### `semcor-fix-missing-space-gap`
+
+Inserts a missing separator between two words that should be split
+apart (fixes #68), e.g. `(Kika)de` -> `(Kika) de`, `23dward` -> `23d
+ward`. Mirror image of `semcor-fix-reconstruction-gaps` (#63/#64):
+instead of finding N of our words that collapse to 1 reference word (an
+extra separator to remove), this looks for the reverse -- 1 of our
+words that should split into N reference words (a separator missing
+entirely) -- using the same whole-document `difflib` alignment plus an
+exact-concatenation check, run backwards. 205 raw candidates found.
+
+Two shapes, both a pure single-character insertion needing no lemma/
+pos/sense change -- verified by checking that every split point lands
+exactly on an existing token boundary (shape one) or strictly inside
+exactly one existing token's span (shape two):
+
+- **180 instances** where this corpus's own `tokens` *already* has the
+  words as separate, correctly tokenized tokens, flush against each
+  other with nothing between. A literal space is inserted; token
+  *count* never changes.
+- **21 instances** where the gap is missing *inside* a single existing
+  token that's otherwise correct -- a name (`Eligio_(Kika)de_la_Garza`),
+  an abbreviation (`D.C.` for "direct current"), or a historical
+  spelling this corpus's own sense already covers correctly
+  (`76-percent` for Brown's `76-per cent`, both meaning the same
+  `percent` sense -- confirmed as a real, common spelling with 102
+  occurrences of `per cent` in `brown-nolines.txt`, not a one-off typo).
+  This corpus's own established MWE-joining `_` is inserted instead of
+  a literal space (the same convention `e._g.` already uses elsewhere):
+  the token's own span just grows by one, rather than raising the kind
+  of editorial question #43/#46 hit for token *merges* about which half
+  (if either) keeps the sense.
+
+4 raw candidates are deliberately left alone: 2 are typos in
+`brown_nolines.txt` itself (confirmed directly in the reference file:
+`to d o whatever`, `the s ame level`), not bugs in this corpus's
+already-correctly-spelled `do`/`same`; 2 involve `**f`, the formula-
+placeholder escape already left alone elsewhere as tangled up with the
+already-tracked #16/#34 gap.
+
+`src/semcor/missing-space-fixes.yaml` lists all 201 confirmed `{file,
+sentence, pos, char}` fixes (`char` is `' '` or `'_'`, per the two
+shapes above) -- generated once, offline, against `brown-nolines.txt`,
+this script has no NLTK dependency and just applies that manifest.
+
+```sh
+uv run semcor-fix-missing-space-gap              # apply missing-space-fixes.yaml to data/
+uv run semcor-fix-missing-space-gap --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.
