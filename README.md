@@ -793,6 +793,46 @@ uv run semcor-fix-caret-diaeresis --dry-run    # preview without writing
 
 Idempotent, like the other `fix-*` scripts.
 
+### `semcor-fix-abbreviation-period-gap`
+
+Closes a spurious gap between an abbreviation period and the
+sentence-final period (fixes #61), e.g. `Jr. .` -> `Jr..`. When a
+sentence ends right after an abbreviation, Brown's own transcription
+keeps both the abbreviation's own period and the sentence's closing
+period as two adjacent, flush characters rather than eliding one -- the
+same convention already behind treating a lone `&` as a non-sentence-
+final abbreviation period (#9/#11/#17). This corpus already tokenizes
+that second period as its own token, just with a stray space before it
+instead of being flush.
+
+Detection: token `i` ends with `.` (and is longer than one character, so
+it's a real abbreviation, not the period itself), token `i + 1` is
+exactly `.`, with exactly one space between them -- 154 raw candidates.
+Verified against `src/semcor/brown-nolines.txt` with the same
+context-window word search #43/#8's follow-up use, confirming **100**;
+the other 54 are left alone, mostly multi-word underscore-joined
+abbreviations (`N._Y.`, `D._C.`, `U._S.`) where Brown's real text has no
+space between the parts either (`N.Y..`, not `N. Y..`) -- a related but
+distinct bug worth its own separate look.
+
+Just like `semcor-fix-genitive-gap`, this is a single-character deletion
+between two existing tokens: token *count* never changes, only the
+deleted position's own token and everything after it shift left by one.
+`lemmas`/`pos`/every sense-key layer are untouched -- only `text` and the
+shifted `tokens` offsets change.
+
+`src/semcor/abbreviation-period-gap-fixes.yaml` lists all 100 confirmed
+`{file, sentence, pos}` fixes (`pos` is the character offset of the space
+to delete) -- generated once, offline, against `brown-nolines.txt`, this
+script has no NLTK dependency and just applies that manifest.
+
+```sh
+uv run semcor-fix-abbreviation-period-gap              # apply abbreviation-period-gap-fixes.yaml to data/
+uv run semcor-fix-abbreviation-period-gap --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.
