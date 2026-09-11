@@ -27,12 +27,12 @@ _meta:
         base: tokens
         data: string
 bPDf:
-    lemmas: ["The", "providence_journal", "editorial", "(", "Jan.", "25", ")", "entitled", "\"", "east_greenwich", "face", "a", "housing_development", "problem", "\"", "point", "to", "a", "dilemma", "that", "face", "community", "such_as", "ours", "."]
+    lemmas: ["The", "providence_journal", "editorial", "(", "Jan.", "25", ")", "entitled", "\"", "east_greenwich", "face", "a", "housing_development", "problem", "\"", "point", "to", "a", "dilemma", "that", "face", "community", "such", "as", "ours", "."]
     oewn_key: [[15, "oewn-00925764-v"], [20, "oewn-01068455-v"]]
     paragraph: '0'
-    pos: ["DT", "NNP", "NN", "NNP", "NNP", "CD", "CD", "JJ", "``", "NNP", "VB", "DT", "NN", "NNP", "''", "VB", "VB", "DT", "NN", "WDT", "VBZ", "NNS", "JJ", "PRP", "."]
-    text: 'The Providence_Journal editorial (Jan. 25) entitled "East_Greenwich Faces a Housing_Development Problem" points to a dilemma that faces communities such_as ours.'
-    tokens: [[0, 3], [4, 22], [23, 32], [33, 34], [34, 38], [39, 41], [41, 42], [43, 51], [52, 53], [53, 67], [68, 73], [74, 75], [76, 95], [96, 103], [103, 104], [105, 111], [112, 114], [115, 116], [117, 124], [125, 129], [130, 135], [136, 147], [148, 155], [156, 160], [160, 161]]
+    pos: ["DT", "NNP", "NN", "NNP", "NNP", "CD", "CD", "JJ", "``", "NNP", "VB", "DT", "NN", "NNP", "''", "VB", "VB", "DT", "NN", "WDT", "VBZ", "NNS", "JJ", "IN", "PRP", "."]
+    text: 'The Providence_Journal editorial (Jan. 25) entitled "East_Greenwich Faces a Housing_Development Problem" points to a dilemma that faces communities such as ours.'
+    tokens: [[0, 3], [4, 22], [23, 32], [33, 34], [34, 38], [39, 41], [41, 42], [43, 51], [52, 53], [53, 67], [68, 73], [74, 75], [76, 95], [96, 103], [103, 104], [105, 111], [112, 114], [115, 116], [117, 124], [125, 129], [130, 135], [136, 147], [148, 152], [153, 155], [156, 160], [160, 161]]
     wn16_key: [[15, "point%2:32:00::"], [20, "face%2:32:03::"]]
     wn30_key: [[15, "point%2:32:00::"], [20, "face%2:32:03::"]]
 H/Ea:
@@ -48,15 +48,14 @@ H/Ea:
     wn16_key: [[5, "seem%2:39:01::"], [9, "be%2:42:03::"], [13, "be%2:42:03::"]]
     wn30_key: [[5, "seem%2:39:01::"], [9, "be%2:42:03::"], [13, "be%2:42:03::"]]
 oPMS:
-    lemmas: ["first_of_all", "there", "be", "ample", "area", "in", "east_greenwich", "already", "zoned", "in", "the", "classification", "similar", "to_that", "which", "petitioner", "request", "."]
-    oewn_key: [[2, "oewn-02610777-v"], [16, "oewn-00754770-v"]]
+    lemmas: ["first_of_all", "there", "be", "ample", "area", "in", "east_greenwich", "already", "zoned", "in", "the", "classification", "similar", "to", "that", "which", "petitioner", "request", "."]
+    oewn_key: [[2, "oewn-02610777-v"], [17, "oewn-00754770-v"]]
     paragraph: '1'
-    pos: ["RB", "EX", "VBZ", "JJ", "NN", "IN", "NNP", "RB", "JJ", "IN", "DT", "NN", "JJ", "RB", "WDT", "NN", "VBD", "."]
-    text: 'First_of_all there is ample area in East_Greenwich already zoned in the classification
-  similar to_that which petitioner requested.'
-    tokens: [[0, 12], [13, 18], [19, 21], [22, 27], [28, 32], [33, 35], [36, 50], [51, 58], [59, 64], [65, 67], [68, 71], [72, 86], [87, 94], [95, 102], [103, 108], [109, 119], [120, 129], [129, 130]]
-    wn16_key: [[2, "be%2:42:04::"], [16, "request%2:32:01::"]]
-    wn30_key: [[2, "be%2:42:04::"], [16, "request%2:32:01::"]]
+    pos: ["RB", "EX", "VBZ", "JJ", "NN", "IN", "NNP", "RB", "JJ", "IN", "DT", "NN", "JJ", "IN", "DT", "WDT", "NN", "VBD", "."]
+    text: 'First_of_all there is ample area in East_Greenwich already zoned in the classification similar to that which petitioner requested.'
+    tokens: [[0, 12], [13, 18], [19, 21], [22, 27], [28, 32], [33, 35], [36, 50], [51, 58], [59, 64], [65, 67], [68, 71], [72, 86], [87, 94], [95, 97], [98, 102], [103, 108], [109, 119], [120, 129], [129, 130]]
+    wn16_key: [[2, "be%2:42:04::"], [17, "request%2:32:01::"]]
+    wn30_key: [[2, "be%2:42:04::"], [17, "request%2:32:01::"]]
 gPZL:
     lemmas: ["This", "land", "be", "in", "various", "stage", "of", "development", "in", "several", "location", "throughout", "the", "town", "."]
     oewn_key: [[2, "oewn-02610777-v"]]
@@ -81,12 +80,10 @@ A36C:
     oewn_key: [[2, "oewn-02137900-v"], [4, "oewn-00923271-v"], [8, "oewn-02535833-v"], [12, "oewn-02565578-v"], [22, "oewn-02431950-v"], [32, "oewn-01195161-v"], [34, "oewn-02211988-v"], [37, "oewn-01658171-v"]]
     paragraph: '1'
     pos: ["DT", "MD", "VB", "TO", "VB", "IN", "PRP", "VBP", "VBG", "DT", "''", "TO", "VB", "DT", "NN", "IN", "NNS", "''", "CC", "VBP", "PRP", "``", "VB", "JJ", "NNS", "IN", "NN", "IN", "RB", "DT", "NN", "MD", "VB", "TO", "VB", "NN", "CC", "VB", "VB", "DT", "JJ", "NNS", "''", "."]
-    text: 'This would seem to indicate that we are trying neither " to halt an influx of migrants
-  " nor are we " setting_up such standards for development that only the well-to-do
-  could afford to buy land and build in the new sites ".
+    text: 'This would seem to indicate that we are trying neither "to halt an influx of migrants" nor are we "setting_up such standards for development that only the well-to-do could afford to buy land and build in the new sites".
 
   '
-    tokens: [[0, 4], [5, 10], [11, 15], [16, 18], [19, 27], [28, 32], [33, 35], [36, 39], [40, 46], [47, 54], [55, 56], [57, 59], [60, 64], [65, 67], [68, 74], [75, 77], [78, 86], [87, 88], [89, 92], [93, 96], [97, 99], [100, 101], [102, 112], [113, 117], [118, 127], [128, 131], [132, 143], [144, 148], [149, 153], [154, 157], [158, 168], [169, 174], [175, 181], [182, 184], [185, 188], [189, 193], [194, 197], [198, 203], [204, 206], [207, 210], [211, 214], [215, 220], [221, 222], [222, 223]]
+    tokens: [[0, 4], [5, 10], [11, 15], [16, 18], [19, 27], [28, 32], [33, 35], [36, 39], [40, 46], [47, 54], [55, 56], [56, 58], [59, 63], [64, 66], [67, 73], [74, 76], [77, 85], [85, 86], [87, 90], [91, 94], [95, 97], [98, 99], [99, 109], [110, 114], [115, 124], [125, 128], [129, 140], [141, 145], [146, 150], [151, 154], [155, 165], [166, 171], [172, 178], [179, 181], [182, 185], [186, 190], [191, 194], [195, 200], [201, 203], [204, 207], [208, 211], [212, 217], [217, 218], [218, 219]]
     wn16_key: [[2, "seem%2:39:00::"], [4, "indicate%2:32:01::"], [8, "try%2:41:00::"], [12, "halt%2:41:00::"], [22, "set_up%2:41:02::"], [32, "afford%2:34:00::"], [34, "buy%2:40:00::"], [37, "build%2:36:00::"]]
     wn30_key: [[2, "seem%2:39:00::"], [4, "indicate%2:32:01::"], [8, "try%2:41:00::"], [12, "halt%2:41:00::"], [22, "set_up%2:41:02::"], [32, "afford%2:34:00::"], [34, "buy%2:40:00::"], [37, "build%2:36:00::"]]
 FSJK:
@@ -110,13 +107,12 @@ FSJK:
     wn16_key: [[1, "be%2:42:03::"], [12, "help%2:41:00::"], [13, "pay%2:40:00::"]]
     wn30_key: [[1, "be%2:42:03::"], [12, "help%2:41:00::"], [13, "pay%2:40:00::"]]
 TUvM:
-    lemmas: ["Bostitch", ",", "Inc.", "be", "approximately", "half_way", "through", "a", "10", "-", "year", "exemption", "of", "their", "real_estate", "tax", "."]
+    lemmas: ["Bostitch", ",", "Inc.", "be", "approximately", "half_way", "through", "a", "10-year", "exemption", "of", "their", "real_estate", "tax", "."]
     oewn_key: [[3, "oewn-02610777-v"]]
     paragraph: '2'
-    pos: ["NNP", ",", "NNP", "VBZ", "RB", "RB", "IN", "DT", "CD", ":", "NN", "NN", "IN", "PRP$", "NN", "NN", "."]
-    text: 'Bostitch, Inc. is approximately half_way through a 10 - year exemption of their
-  real_estate tax.'
-    tokens: [[0, 8], [8, 9], [10, 14], [15, 17], [18, 31], [32, 40], [41, 48], [49, 50], [51, 53], [54, 55], [56, 60], [61, 70], [71, 73], [74, 79], [80, 91], [92, 95], [95, 96]]
+    pos: ["NNP", ",", "NNP", "VBZ", "RB", "RB", "IN", "DT", "JJ", "NN", "IN", "PRP$", "NN", "NN", "."]
+    text: 'Bostitch, Inc. is approximately half_way through a 10-year exemption of their real_estate tax.'
+    tokens: [[0, 8], [8, 9], [10, 14], [15, 17], [18, 31], [32, 40], [41, 48], [49, 50], [51, 58], [59, 68], [69, 71], [72, 77], [78, 89], [90, 93], [93, 94]]
     wn16_key: [[3, "be%2:42:03::"]]
     wn30_key: [[3, "be%2:42:03::"]]
 nZNo:
@@ -172,22 +168,21 @@ CbB0:
     wn16_key: [[3, "grow%2:30:00::"], [13, "grow%2:30:00::"]]
     wn30_key: [[3, "grow%2:30:00::"], [13, "grow%2:30:00::"]]
 TGHz:
-    lemmas: ["mr._richard_preston", ",", "executive_director", "of", "the", "new_hampshire", "state_planning", "and", "development_commission", ",", "in", "his", "remark", "to", "the", "governor_conference", "on", "Industrial_Development", "at", "providence", "on", "october", "8", ",", "1960", ",", "warn", "against", "the", "fallacy", "of", "attempt", "to", "attract", "industry", "solely", "to", "reduce", "the", "tax_rate", "or", "to", "underwrite", "municipal", "services", "such_as", "school", "when", "he", "say", ":", "\"", "If", "this", "be", "the", "fundamental", "reason", "for", "a", "community", "'s", "interest", "or", "if", "this", "be", "the", "basic", "approach", ",", "success", "if", "any", "will", "be", "difficult", "to", "obtain", "\"", "."]
-    oewn_key: [[26, "oewn-00871877-v"], [31, "oewn-02535833-v"], [33, "oewn-01507886-v"], [37, "oewn-00430013-v"], [42, "oewn-00891261-v"], [49, "oewn-01011267-v"], [54, "oewn-02610777-v"], [66, "oewn-02610777-v"], [75, "oewn-02610777-v"], [78, "oewn-02242867-v"]]
+    lemmas: ["mr._richard_preston", ",", "executive_director", "of", "the", "new_hampshire", "state_planning", "and", "development_commission", ",", "in", "his", "remark", "to", "the", "governor_conference", "on", "Industrial_Development", "at", "providence", "on", "october", "8", ",", "1960", ",", "warn", "against", "the", "fallacy", "of", "attempt", "to", "attract", "industry", "solely", "to", "reduce", "the", "tax_rate", "or", "to", "underwrite", "municipal", "services", "such", "as", "school", "when", "he", "say", ":", "\"", "If", "this", "be", "the", "fundamental", "reason", "for", "a", "community", "'s", "interest", "or", "if", "this", "be", "the", "basic", "approach", ",", "success", "if", "any", "will", "be", "difficult", "to", "obtain", "\"", "."]
+    oewn_key: [[26, "oewn-00871877-v"], [31, "oewn-02535833-v"], [33, "oewn-01507886-v"], [37, "oewn-00430013-v"], [42, "oewn-00891261-v"], [50, "oewn-01011267-v"], [55, "oewn-02610777-v"], [67, "oewn-02610777-v"], [76, "oewn-02610777-v"], [79, "oewn-02242867-v"]]
     paragraph: '3'
-    pos: ["NNP", ",", "NN", "IN", "DT", "NN", "NNP", "CC", "NNP", ",", "IN", "PRP$", "NNS", "TO", "DT", "NNP", "IN", "NNP", "IN", "NNP", "IN", "NNP", "CD", ",", "CD", ",", "VBN", "IN", "DT", "NN", "IN", "VBG", "TO", "VB", "NN", "RB", "TO", "VB", "DT", "NN", "CC", "TO", "VB", "JJ", "NNS", "JJ", "NNS", "WRB", "PRP", "VBD", ":", "''", "IN", "DT", "VBZ", "DT", "JJ", "NN", "IN", "DT", "NN", "POS", "NN", "CC", "IN", "DT", "VBZ", "DT", "JJ", "NN", ",", "NN", "IN", "DT", "MD", "VB", "JJ", "TO", "VB", "``", "."]
-    text: 'Mr._Richard_Preston, executive_director of the New_Hampshire State_Planning and Development_Commission, in his remarks to the Governors_Conference on Industrial_Development at Providence on October 8, 1960, warned against the fallacy of attempting to attract industry solely to reduce the tax_rate or to underwrite municipal services such_as schools when he said: "If this is the fundamental reason for a community''s interest or if this is the basic approach, success if any will be difficult to obtain".'
-    tokens: [[0, 19], [19, 20], [21, 39], [40, 42], [43, 46], [47, 60], [61, 75], [76, 79], [80, 102], [102, 103], [104, 106], [107, 110], [111, 118], [119, 121], [122, 125], [126, 146], [147, 149], [150, 172], [173, 175], [176, 186], [187, 189], [190, 197], [198, 199], [199, 200], [201, 205], [205, 206], [207, 213], [214, 221], [222, 225], [226, 233], [234, 236], [237, 247], [248, 250], [251, 258], [259, 267], [268, 274], [275, 277], [278, 284], [285, 288], [289, 297], [298, 300], [301, 303], [304, 314], [315, 324], [325, 333], [334, 341], [342, 349], [350, 354], [355, 357], [358, 362], [362, 363], [364, 365], [365, 367], [368, 372], [373, 375], [376, 379], [380, 391], [392, 398], [399, 402], [403, 404], [405, 414], [414, 416], [417, 425], [426, 428], [429, 431], [432, 436], [437, 439], [440, 443], [444, 449], [450, 458], [458, 459], [460, 467], [468, 470], [471, 474], [475, 479], [480, 482], [483, 492], [493, 495], [496, 502], [502, 503], [503, 504]]
-    wn16_key: [[26, "warn%2:32:00::"], [31, "attempt%2:41:00::"], [33, "attract%2:37:01::"], [37, "reduce%2:30:00::"], [42, "underwrite%2:32:01::"], [49, "say%2:32:00::"], [54, "be%2:42:03::"], [66, "be%2:42:03::"], [75, "be%2:42:03::"], [78, "obtain%2:40:00::"]]
-    wn30_key: [[26, "warn%2:32:00::"], [31, "attempt%2:41:00::"], [33, "attract%2:35:00::"], [37, "reduce%2:30:00::"], [42, "underwrite%2:32:01::"], [49, "say%2:32:00::"], [54, "be%2:42:03::"], [66, "be%2:42:03::"], [75, "be%2:42:03::"], [78, "obtain%2:40:00::"]]
+    pos: ["NNP", ",", "NN", "IN", "DT", "NN", "NNP", "CC", "NNP", ",", "IN", "PRP$", "NNS", "TO", "DT", "NNP", "IN", "NNP", "IN", "NNP", "IN", "NNP", "CD", ",", "CD", ",", "VBN", "IN", "DT", "NN", "IN", "VBG", "TO", "VB", "NN", "RB", "TO", "VB", "DT", "NN", "CC", "TO", "VB", "JJ", "NNS", "JJ", "IN", "NNS", "WRB", "PRP", "VBD", ":", "''", "IN", "DT", "VBZ", "DT", "JJ", "NN", "IN", "DT", "NN", "POS", "NN", "CC", "IN", "DT", "VBZ", "DT", "JJ", "NN", ",", "NN", "IN", "DT", "MD", "VB", "JJ", "TO", "VB", "``", "."]
+    text: 'Mr._Richard_Preston, executive_director of the New_Hampshire State_Planning and Development_Commission, in his remarks to the Governors_Conference on Industrial_Development at Providence on October 8, 1960, warned against the fallacy of attempting to attract industry solely to reduce the tax_rate or to underwrite municipal services such as schools when he said: "If this is the fundamental reason for a community''s interest or if this is the basic approach, success if any will be difficult to obtain".'
+    tokens: [[0, 19], [19, 20], [21, 39], [40, 42], [43, 46], [47, 60], [61, 75], [76, 79], [80, 102], [102, 103], [104, 106], [107, 110], [111, 118], [119, 121], [122, 125], [126, 146], [147, 149], [150, 172], [173, 175], [176, 186], [187, 189], [190, 197], [198, 199], [199, 200], [201, 205], [205, 206], [207, 213], [214, 221], [222, 225], [226, 233], [234, 236], [237, 247], [248, 250], [251, 258], [259, 267], [268, 274], [275, 277], [278, 284], [285, 288], [289, 297], [298, 300], [301, 303], [304, 314], [315, 324], [325, 333], [334, 338], [339, 341], [342, 349], [350, 354], [355, 357], [358, 362], [362, 363], [364, 365], [365, 367], [368, 372], [373, 375], [376, 379], [380, 391], [392, 398], [399, 402], [403, 404], [405, 414], [414, 416], [417, 425], [426, 428], [429, 431], [432, 436], [437, 439], [440, 443], [444, 449], [450, 458], [458, 459], [460, 467], [468, 470], [471, 474], [475, 479], [480, 482], [483, 492], [493, 495], [496, 502], [502, 503], [503, 504]]
+    wn16_key: [[26, "warn%2:32:00::"], [31, "attempt%2:41:00::"], [33, "attract%2:37:01::"], [37, "reduce%2:30:00::"], [42, "underwrite%2:32:01::"], [50, "say%2:32:00::"], [55, "be%2:42:03::"], [67, "be%2:42:03::"], [76, "be%2:42:03::"], [79, "obtain%2:40:00::"]]
+    wn30_key: [[26, "warn%2:32:00::"], [31, "attempt%2:41:00::"], [33, "attract%2:35:00::"], [37, "reduce%2:30:00::"], [42, "underwrite%2:32:01::"], [50, "say%2:32:00::"], [55, "be%2:42:03::"], [67, "be%2:42:03::"], [76, "be%2:42:03::"], [79, "obtain%2:40:00::"]]
 Kgfl:
     lemmas: ["He", "go_on", "to", "say", ":", "\"", "in_the_first_place", ",", "industry", "per_se", "be", "not", "dedicated_to", "the", "role", "of", "savior", "of", "foundering", "municipality", "."]
     oewn_key: [[1, "oewn-00783045-v"], [3, "oewn-01011267-v"], [10, "oewn-02610777-v"]]
     paragraph: '3'
     pos: ["PRP", "VBP", "TO", "VB", ":", "``", "RB", ",", "NN", "RB", "VBZ", "RB", "JJ", "DT", "NN", "IN", "NN", "IN", "JJ", "NNS", "."]
-    text: 'He went_on to say: " In_the_first_place, industry per_se is not dedicated_to the
-  role of savior of foundering municipalities.'
-    tokens: [[0, 2], [3, 10], [11, 13], [14, 17], [17, 18], [19, 20], [21, 39], [39, 40], [41, 49], [50, 56], [57, 59], [60, 63], [64, 76], [77, 80], [81, 85], [86, 88], [89, 95], [96, 98], [99, 109], [110, 124], [124, 125]]
+    text: 'He went_on to say: "In_the_first_place, industry per_se is not dedicated_to the role of savior of foundering municipalities.'
+    tokens: [[0, 2], [3, 10], [11, 13], [14, 17], [17, 18], [19, 20], [20, 38], [38, 39], [40, 48], [49, 55], [56, 58], [59, 62], [63, 75], [76, 79], [80, 84], [85, 87], [88, 94], [95, 97], [98, 108], [109, 123], [123, 124]]
     wn16_key: [[1, "go_on%2:32:00::"], [3, "say%2:32:00::"], [10, "be%2:42:03::"]]
     wn30_key: [[1, "go_on%2:32:00::"], [3, "say%2:32:00::"], [10, "be%2:42:03::"]]
 e1nb:
@@ -195,11 +190,10 @@ e1nb:
     oewn_key: [[1, "oewn-02610777-v"], [6, "oewn-02221342-v"], [16, "oewn-02610777-v"]]
     paragraph: '3'
     pos: ["PRP", "VBZ", "RB", "IN", "NN", "RB", "VBG", "JJ", "JJ", "NNS", "RB", "JJ", "DT", "NN", "WDT", "MD", "VB", "``", "."]
-    text: 'It is not in business for_the_purpose_of absorbing increased municipal costs no_matter_how
-  high a purpose that may be ".
+    text: 'It is not in business for_the_purpose_of absorbing increased municipal costs no_matter_how high a purpose that may be".
 
   '
-    tokens: [[0, 2], [3, 5], [6, 9], [10, 12], [13, 21], [22, 40], [41, 50], [51, 60], [61, 70], [71, 76], [77, 90], [91, 95], [96, 97], [98, 105], [106, 110], [111, 114], [115, 117], [118, 119], [119, 120]]
+    tokens: [[0, 2], [3, 5], [6, 9], [10, 12], [13, 21], [22, 40], [41, 50], [51, 60], [61, 70], [71, 76], [77, 90], [91, 95], [96, 97], [98, 105], [106, 110], [111, 114], [115, 117], [117, 118], [118, 119]]
     wn16_key: [[1, "be%2:42:03::"], [6, "absorb%2:40:00::"], [16, "be%2:42:03::"]]
     wn30_key: [[1, "be%2:42:03::"], [6, "absorb%2:40:00::"], [16, "be%2:42:03::"]]
 MKuz:
@@ -375,27 +369,23 @@ Uk6Y:
     wn16_key: [[6, "conduct%2:41:00::"], [11, "have%2:40:00::"]]
     wn30_key: [[6, "conduct%2:41:00::"], [11, "have%2:40:00::"]]
 9FK8:
-    lemmas: ["I", "feel", "compelled", "to", "write", "this", "because", "I", "be", "greatly", "concerned", "with", "the", "problem", "of", "community", "growth_rate", "and", "the", "relation", "between", "type", "of", "growth", "in", "a", "town", "such_as", "east_greenwich", "."]
+    lemmas: ["I", "feel", "compelled", "to", "write", "this", "because", "I", "be", "greatly", "concerned", "with", "the", "problem", "of", "community", "growth_rate", "and", "the", "relation", "between", "type", "of", "growth", "in", "a", "town", "such", "as", "east_greenwich", "."]
     oewn_key: [[1, "oewn-01775456-v"], [4, "oewn-01702148-v"], [8, "oewn-02610777-v"]]
     paragraph: '13'
-    pos: ["PRP", "VBP", "JJ", "TO", "VB", "DT", "IN", "PRP", "VBP", "RB", "JJ", "IN", "DT", "NN", "IN", "NN", "NN", "CC", "DT", "NN", "IN", "NNS", "IN", "NN", "IN", "DT", "NN", "JJ", "NNP", "."]
-    text: 'I feel compelled to write this because I am greatly concerned with the problem of
-  community growth_rate and the relation between types of growth in a town such_as
-  East_Greenwich.'
-    tokens: [[0, 1], [2, 6], [7, 16], [17, 19], [20, 25], [26, 30], [31, 38], [39, 40], [41, 43], [44, 51], [52, 61], [62, 66], [67, 70], [71, 78], [79, 81], [82, 91], [92, 103], [104, 107], [108, 111], [112, 120], [121, 128], [129, 134], [135, 137], [138, 144], [145, 147], [148, 149], [150, 154], [155, 162], [163, 177], [177, 178]]
+    pos: ["PRP", "VBP", "JJ", "TO", "VB", "DT", "IN", "PRP", "VBP", "RB", "JJ", "IN", "DT", "NN", "IN", "NN", "NN", "CC", "DT", "NN", "IN", "NNS", "IN", "NN", "IN", "DT", "NN", "JJ", "IN", "NNP", "."]
+    text: 'I feel compelled to write this because I am greatly concerned with the problem of community growth_rate and the relation between types of growth in a town such as East_Greenwich.'
+    tokens: [[0, 1], [2, 6], [7, 16], [17, 19], [20, 25], [26, 30], [31, 38], [39, 40], [41, 43], [44, 51], [52, 61], [62, 66], [67, 70], [71, 78], [79, 81], [82, 91], [92, 103], [104, 107], [108, 111], [112, 120], [121, 128], [129, 134], [135, 137], [138, 144], [145, 147], [148, 149], [150, 154], [155, 159], [160, 162], [163, 177], [177, 178]]
     wn16_key: [[1, "feel%2:37:00::"], [4, "write%2:36:00::"], [8, "be%2:42:03::"]]
     wn30_key: [[1, "feel%2:37:00::"], [4, "write%2:36:00::"], [8, "be%2:42:03::"]]
 rZyO:
-    lemmas: ["I", "believe", "it", "be", "an", "area", "in_which", "professional", "planner", "have", "fail", "to", "set", "adequate", "guide", "post", ";", "and", "yet", "they", "cannot", "ignore", "this", "problem", "because", "it", "concern", "the", "implementation", "of", "nearly", "all", "the", "planning", "program", "they", "have", "devise", "."]
-    oewn_key: [[1, "oewn-00691086-v"], [3, "oewn-02610777-v"], [10, "oewn-02534950-v"], [12, "oewn-00701581-v"], [21, "oewn-00802592-v"], [26, "oewn-02681865-v"], [37, "oewn-01635953-v"]]
+    lemmas: ["I", "believe", "it", "be", "an", "area", "in", "which", "professional", "planner", "have", "fail", "to", "set", "adequate", "guide", "post", ";", "and", "yet", "they", "cannot", "ignore", "this", "problem", "because", "it", "concern", "the", "implementation", "of", "nearly", "all", "the", "planning", "program", "they", "have", "devise", "."]
+    oewn_key: [[1, "oewn-00691086-v"], [3, "oewn-02610777-v"], [11, "oewn-02534950-v"], [13, "oewn-00701581-v"], [22, "oewn-00802592-v"], [27, "oewn-02681865-v"], [38, "oewn-01635953-v"]]
     paragraph: '13'
-    pos: ["PRP", "VBP", "PRP", "VBZ", "DT", "NN", "RB", "JJ", "NNS", "VBP", "VBN", "TO", "VB", "JJ", "NN", "NNS", ":", "CC", "RB", "PRP", "MD", "VBP", "DT", "NN", "IN", "PRP", "VBZ", "DT", "NN", "IN", "RB", "PDT", "DT", "NN", "NNS", "PRP", "VBP", "VBN", "."]
-    text: 'I believe it is an area in_which professional planners have failed to set adequate
-  guide posts; and yet they cannot ignore this problem because it concerns the implementation
-  of nearly all the planning programs they have devised.'
-    tokens: [[0, 1], [2, 9], [10, 12], [13, 15], [16, 18], [19, 23], [24, 32], [33, 45], [46, 54], [55, 59], [60, 66], [67, 69], [70, 73], [74, 82], [83, 88], [89, 94], [94, 95], [96, 99], [100, 103], [104, 108], [109, 115], [116, 122], [123, 127], [128, 135], [136, 143], [144, 146], [147, 155], [156, 159], [160, 174], [175, 177], [178, 184], [185, 188], [189, 192], [193, 201], [202, 210], [211, 215], [216, 220], [221, 228], [228, 229]]
-    wn16_key: [[1, "believe%2:31:04::"], [3, "be%2:42:03::"], [10, "fail%2:41:02::"], [12, "set%2:31:04::"], [21, "ignore%2:32:00::"], [26, "concern%2:42:00::"], [37, "devise%2:36:00::"]]
-    wn30_key: [[1, "believe%2:31:04::"], [3, "be%2:42:03::"], [10, "fail%2:41:02::"], [12, "set%2:31:04::"], [21, "ignore%2:32:00::"], [26, "concern%2:42:00::"], [37, "devise%2:36:00::"]]
+    pos: ["PRP", "VBP", "PRP", "VBZ", "DT", "NN", "IN", "WDT", "JJ", "NNS", "VBP", "VBN", "TO", "VB", "JJ", "NN", "NNS", ":", "CC", "RB", "PRP", "MD", "VBP", "DT", "NN", "IN", "PRP", "VBZ", "DT", "NN", "IN", "RB", "PDT", "DT", "NN", "NNS", "PRP", "VBP", "VBN", "."]
+    text: 'I believe it is an area in which professional planners have failed to set adequate guide posts; and yet they cannot ignore this problem because it concerns the implementation of nearly all the planning programs they have devised.'
+    tokens: [[0, 1], [2, 9], [10, 12], [13, 15], [16, 18], [19, 23], [24, 26], [27, 32], [33, 45], [46, 54], [55, 59], [60, 66], [67, 69], [70, 73], [74, 82], [83, 88], [89, 94], [94, 95], [96, 99], [100, 103], [104, 108], [109, 115], [116, 122], [123, 127], [128, 135], [136, 143], [144, 146], [147, 155], [156, 159], [160, 174], [175, 177], [178, 184], [185, 188], [189, 192], [193, 201], [202, 210], [211, 215], [216, 220], [221, 228], [228, 229]]
+    wn16_key: [[1, "believe%2:31:04::"], [3, "be%2:42:03::"], [11, "fail%2:41:02::"], [13, "set%2:31:04::"], [22, "ignore%2:32:00::"], [27, "concern%2:42:00::"], [38, "devise%2:36:00::"]]
+    wn30_key: [[1, "believe%2:31:04::"], [3, "be%2:42:03::"], [11, "fail%2:41:02::"], [13, "set%2:31:04::"], [22, "ignore%2:32:00::"], [27, "concern%2:42:00::"], [38, "devise%2:36:00::"]]
 hRgM:
     lemmas: ["These", "program", "be", "volume", "of", "waste", "paper", "and", "lost", "hours", "if", "the", "citizen", "of", "a", "community", "must", "stand", "aside", "while", "land", "developer", "tell", "them", "when", ",", "where", ",", "and", "in_what_manner", "the", "community", "shall", "grow", "."]
     oewn_key: [[2, "oewn-02610777-v"], [17, "oewn-02617408-v"], [22, "oewn-00954556-v"], [33, "oewn-00231172-v"]]
@@ -449,12 +439,10 @@ aHtw:
     oewn_key: [[1, "oewn-02610777-v"], [6, "oewn-01011267-v"], [27, "oewn-02622439-v"], [37, "oewn-02622439-v"]]
     paragraph: '16'
     pos: ["PRP", "VBZ", "RB", "JJ", ",", "IN", "VBN", "IN", "DT", "JJ", "NN", "IN", "PRP$", "NN", ",", "``", "IN", "WP", "DT", "NNP", "VB", "``", ",", "IN", "``", "DT", "NN", "VBZ", "DT", "NN", ",", "RB", "IN", "PRP", ":", "DT", "NN", "VBZ", "RB", "IN", "DT", "NN", ",", "DT", "NN", "IN", "DT", "JJ", "''", "."]
-    text: 'It is indeed true, as stated in the famous novel of our day, " For Whom the Bell
-  Tolls ", that " no man is an island, entirely of itself; every man is a_piece of
-  the continent, a part of the main ".
+    text: 'It is indeed true, as stated in the famous novel of our day, "For Whom the Bell Tolls", that "no man is an island, entirely of itself; every man is a_piece of the continent, a part of the main".
 
   '
-    tokens: [[0, 2], [3, 5], [6, 12], [13, 17], [17, 18], [19, 21], [22, 28], [29, 31], [32, 35], [36, 42], [43, 48], [49, 51], [52, 55], [56, 59], [59, 60], [61, 62], [63, 66], [67, 71], [72, 75], [76, 80], [81, 86], [87, 88], [88, 89], [90, 94], [95, 96], [97, 99], [100, 103], [104, 106], [107, 109], [110, 116], [116, 117], [118, 126], [127, 129], [130, 136], [136, 137], [138, 143], [144, 147], [148, 150], [151, 158], [159, 161], [162, 165], [166, 175], [175, 176], [177, 178], [179, 183], [184, 186], [187, 190], [191, 195], [196, 197], [197, 198]]
+    tokens: [[0, 2], [3, 5], [6, 12], [13, 17], [17, 18], [19, 21], [22, 28], [29, 31], [32, 35], [36, 42], [43, 48], [49, 51], [52, 55], [56, 59], [59, 60], [61, 62], [62, 65], [66, 70], [71, 74], [75, 79], [80, 85], [85, 86], [86, 87], [88, 92], [93, 94], [94, 96], [97, 100], [101, 103], [104, 106], [107, 113], [113, 114], [115, 123], [124, 126], [127, 133], [133, 134], [135, 140], [141, 144], [145, 147], [148, 155], [156, 158], [159, 162], [163, 172], [172, 173], [174, 175], [176, 180], [181, 183], [184, 187], [188, 192], [192, 193], [193, 194]]
     wn16_key: [[1, "be%2:42:03::"], [6, "state%2:32:00::"], [27, "be%2:42:06::"], [37, "be%2:42:06::"]]
     wn30_key: [[1, "be%2:42:03::"], [6, "state%2:32:00::"], [27, "be%2:42:06::"], [37, "be%2:42:06::"]]
 d7k1:
@@ -654,17 +642,16 @@ lNwH:
     wn16_key: [[2, "tell%2:32:04::"], [11, "give%2:40:03::"]]
     wn30_key: [[2, "tell%2:32:04::"], [11, "give%2:40:03::"]]
 0co3:
-    lemmas: ["The", "concern", "they", "feel", "for", "me", "be", "such_as", "I", "shall", "never", "forget", "and", "for", "which", "I", "will", "always", "be", "grateful", "."]
-    oewn_key: [[3, "oewn-01775456-v"], [6, "oewn-02610777-v"], [11, "oewn-00611721-v"], [18, "oewn-02610777-v"]]
+    lemmas: ["The", "concern", "they", "feel", "for", "me", "be", "such", "as", "I", "shall", "never", "forget", "and", "for", "which", "I", "will", "always", "be", "grateful", "."]
+    oewn_key: [[3, "oewn-01775456-v"], [6, "oewn-02610777-v"], [12, "oewn-00611721-v"], [19, "oewn-02610777-v"]]
     paragraph: '27'
-    pos: ["DT", "NN", "PRP", "VBD", "VB", "PRP", "VBD", "JJ", "PRP", "MD", "RB", "VB", "CC", "IN", "WDT", "PRP", "MD", "RB", "VB", "JJ", "."]
-    text: 'The concern they felt for me was such_as I shall never forget and for which I will
-  always be grateful.
+    pos: ["DT", "NN", "PRP", "VBD", "VB", "PRP", "VBD", "JJ", "IN", "PRP", "MD", "RB", "VB", "CC", "IN", "WDT", "PRP", "MD", "RB", "VB", "JJ", "."]
+    text: 'The concern they felt for me was such as I shall never forget and for which I will always be grateful.
 
   '
-    tokens: [[0, 3], [4, 11], [12, 16], [17, 21], [22, 25], [26, 28], [29, 32], [33, 40], [41, 42], [43, 48], [49, 54], [55, 61], [62, 65], [66, 69], [70, 75], [76, 77], [78, 82], [83, 89], [90, 92], [93, 101], [101, 102]]
-    wn16_key: [[3, "feel%2:37:00::"], [6, "be%2:42:03::"], [11, "forget%2:31:01::"], [18, "be%2:42:03::"]]
-    wn30_key: [[3, "feel%2:37:00::"], [6, "be%2:42:03::"], [11, "forget%2:31:01::"], [18, "be%2:42:03::"]]
+    tokens: [[0, 3], [4, 11], [12, 16], [17, 21], [22, 25], [26, 28], [29, 32], [33, 37], [38, 40], [41, 42], [43, 48], [49, 54], [55, 61], [62, 65], [66, 69], [70, 75], [76, 77], [78, 82], [83, 89], [90, 92], [93, 101], [101, 102]]
+    wn16_key: [[3, "feel%2:37:00::"], [6, "be%2:42:03::"], [12, "forget%2:31:01::"], [19, "be%2:42:03::"]]
+    wn30_key: [[3, "feel%2:37:00::"], [6, "be%2:42:03::"], [12, "forget%2:31:01::"], [19, "be%2:42:03::"]]
 uTUS:
     lemmas: ["The", "rescue", "squad", "be", "to", "be", "praise", "immensely", "for", "the", "fine", "work", "they", "do", "in", "all", "kind", "of", "weather", "."]
     oewn_key: [[6, "oewn-00858506-v"], [13, "oewn-02566500-v"]]
@@ -756,11 +743,10 @@ Tds+:
     oewn_key: [[3, "oewn-01011267-v"], [13, "oewn-00120604-v"]]
     paragraph: '31'
     pos: ["DT", "NN", "MD", "VB", "PRP", "IN", "DT", "NN", "IN", "DT", "NN", "MD", "RB", "VB", "PRP$", "NN", "IN", "DT", "JJ", "NNS", "."]
-    text: 'No psychiatrist could tell me that the experience in a war cannot have its effect
-  in the ensuing years.
+    text: 'No psychiatrist could tell me that the experience in a war can not have its effect in the ensuing years.
 
   '
-    tokens: [[0, 2], [3, 15], [16, 21], [22, 26], [27, 29], [30, 34], [35, 38], [39, 49], [50, 52], [53, 54], [55, 58], [59, 62], [62, 65], [66, 70], [71, 74], [75, 81], [82, 84], [85, 88], [89, 96], [97, 102], [102, 103]]
+    tokens: [[0, 2], [3, 15], [16, 21], [22, 26], [27, 29], [30, 34], [35, 38], [39, 49], [50, 52], [53, 54], [55, 58], [59, 62], [63, 66], [67, 71], [72, 75], [76, 82], [83, 85], [86, 89], [90, 97], [98, 103], [103, 104]]
     wn16_key: [[3, "tell%2:32:04::"], [13, "have%2:30:00::"]]
     wn30_key: [[3, "tell%2:32:04::"], [13, "have%2:30:00::"]]
 M2PW:
@@ -938,26 +924,23 @@ AYq6:
     wn16_key: [[1, "seem%2:39:01::"], [9, "be%2:42:03::"]]
     wn30_key: [[1, "seem%2:39:01::"], [9, "be%2:42:03::"]]
 De9r:
-    lemmas: ["The", "american_medical_association", "be", "once_again", "grind_out", "its", "tear-soaked", "propaganda", "base", "upon", "the", "high", "cost", "of", "the", "veteran_administration", "medical", "program", "to", "the", "american", "taxpayer", "."]
-    oewn_key: [[4, "oewn-01757080-v"], [8, "oewn-00638550-v"]]
+    lemmas: ["The", "american_medical_association", "be", "once", "again", "grind_out", "its", "tear-soaked", "propaganda", "base", "upon", "the", "high", "cost", "of", "the", "veteran_administration", "medical", "program", "to", "the", "american", "taxpayer", "."]
+    oewn_key: [[5, "oewn-01757080-v"], [9, "oewn-00638550-v"]]
     paragraph: '37'
-    pos: ["DT", "NNP", "VBZ", "RB", "VB", "PRP$", "JJ", "NN", "VBN", "IN", "DT", "JJ", "NN", "IN", "DT", "NNP", "JJ", "NN", "TO", "DT", "NNP", "NN", "."]
-    text: 'The American_Medical_Association is once_again grinding_out its tear-soaked propaganda
-  based upon the high cost of the Veterans_Administration medical program to the American
-  taxpayer.'
-    tokens: [[0, 3], [4, 32], [33, 35], [36, 46], [47, 59], [60, 63], [64, 75], [76, 86], [87, 92], [93, 97], [98, 101], [102, 106], [107, 111], [112, 114], [115, 118], [119, 142], [143, 150], [151, 158], [159, 161], [162, 165], [166, 174], [175, 183], [183, 184]]
-    wn16_key: [[4, "grind_out%2:36:00::"], [8, "base%2:31:00::"]]
-    wn30_key: [[4, "grind_out%2:36:00::"], [8, "base%2:31:00::"]]
+    pos: ["DT", "NNP", "VBZ", "RB", "RB", "VB", "PRP$", "JJ", "NN", "VBN", "IN", "DT", "JJ", "NN", "IN", "DT", "NNP", "JJ", "NN", "TO", "DT", "NNP", "NN", "."]
+    text: 'The American_Medical_Association is once again grinding_out its tear-soaked propaganda based upon the high cost of the Veterans_Administration medical program to the American taxpayer.'
+    tokens: [[0, 3], [4, 32], [33, 35], [36, 40], [41, 46], [47, 59], [60, 63], [64, 75], [76, 86], [87, 92], [93, 97], [98, 101], [102, 106], [107, 111], [112, 114], [115, 118], [119, 142], [143, 150], [151, 158], [159, 161], [162, 165], [166, 174], [175, 183], [183, 184]]
+    wn16_key: [[5, "grind_out%2:36:00::"], [9, "base%2:31:00::"]]
+    wn30_key: [[5, "grind_out%2:36:00::"], [9, "base%2:31:00::"]]
 8DZU:
     lemmas: ["do", "they", ",", "the", "A._M._A.", ",", "offer", "any", "solution", "other_than", "outright", "abolition", "of", "a", "medical", "system", "unsurpassed", "anywhere", "in", "the", "world", "?"]
     oewn_key: [[6, "oewn-02302103-v"]]
     paragraph: '37'
     pos: ["VBP", "PRP", ",", "DT", "NNP", ",", "VBP", "DT", "NN", "JJ", "JJ", "NN", "IN", "DT", "JJ", "NN", "JJ", "RB", "IN", "DT", "NN", "."]
-    text: 'Do they, the A._M._A., offer any solution other_than outright abolition of a medical
-  system unsurpassed anywhere in the world?
+    text: 'Do they, the A.M.A., offer any solution other_than outright abolition of a medical system unsurpassed anywhere in the world?
 
   '
-    tokens: [[0, 2], [3, 7], [7, 8], [9, 12], [13, 21], [21, 22], [23, 28], [29, 32], [33, 41], [42, 52], [53, 61], [62, 71], [72, 74], [75, 76], [77, 84], [85, 91], [92, 103], [104, 112], [113, 115], [116, 119], [120, 125], [125, 126]]
+    tokens: [[0, 2], [3, 7], [7, 8], [9, 12], [13, 19], [19, 20], [21, 26], [27, 30], [31, 39], [40, 50], [51, 59], [60, 69], [70, 72], [73, 74], [75, 82], [83, 89], [90, 101], [102, 110], [111, 113], [114, 117], [118, 123], [123, 124]]
     wn16_key: [[6, "offer%2:40:00::"]]
     wn30_key: [[6, "offer%2:40:00::"]]
 Fd4w:
@@ -975,9 +958,8 @@ Fd4w:
     oewn_key: [[3, "oewn-00927081-v"], [13, "oewn-01081176-v"]]
     paragraph: '38'
     pos: ["RB", ",", "PRP", "VBP", "VB", "DT", "NN", "IN", "DT", "NNP", "IN", "DT", "NN", "VBG", "DT", "JJ", "."]
-    text: 'Nevertheless, we wonder at the stand of the A._M._A. on the health_problem confronting
-  the aged.'
-    tokens: [[0, 12], [12, 13], [14, 16], [17, 23], [24, 26], [27, 30], [31, 36], [37, 39], [40, 43], [44, 52], [53, 55], [56, 59], [60, 74], [75, 86], [87, 90], [91, 95], [95, 96]]
+    text: 'Nevertheless, we wonder at the stand of the A.M.A. on the health_problem confronting the aged.'
+    tokens: [[0, 12], [12, 13], [14, 16], [17, 23], [24, 26], [27, 30], [31, 36], [37, 39], [40, 43], [44, 50], [51, 53], [54, 57], [58, 72], [73, 84], [85, 88], [89, 93], [93, 94]]
     wn16_key: [[3, "wonder%2:32:01::"], [13, "confront%2:33:00::"]]
     wn30_key: [[3, "wonder%2:32:01::"], [13, "confront%2:33:00::"]]
 FElS:

@@ -126,16 +126,16 @@ M8lf:
     wn16_key: [[0, "increase%2:30:02::"], [1, "rate%1:28:00::"], [3, "gain%1:23:00::"], [5, "improve%2:30:01::"], [6, "feed%1:13:00::"], [7, "efficiency%1:24:00::"], [9, "aid%2:41:00::"], [12, "prevention%1:04:00::"], [14, "treatment%1:04:00::"], [16, "depending_on%5:00:00:conditional:00"], [17, "level%1:07:00::"], [18, "feed%2:34:04::"], [22, "early%3:00:02::"], [23, "stage%1:28:00::"], [25, "shipping_fever%1:26:00::"], [27, "prevent%2:41:01::"], [29, "treat%2:29:00::"], [30, "bacterial%3:01:00::"], [31, "diarrhea%1:26:00::"], [34, "aid%2:41:00::"], [36, "reduce%2:30:00::"], [37, "incidence%1:24:00::"], [39, "bloat%1:26:00::"], [41, "liver%1:08:00::"], [42, "abscess%1:26:00::"]]
     wn30_key: [[0, "increase%2:30:02::"], [1, "rate%1:28:00::"], [3, "gain%1:23:00::"], [5, "improve%2:30:01::"], [6, "feed%1:13:00::"], [7, "efficiency%1:24:00::"], [9, "aid%2:41:00::"], [12, "prevention%1:04:00::"], [14, "treatment%1:04:00::"], [16, "depending_on%3:00:00:conditional:00"], [17, "level%1:07:00::"], [18, "feed%2:34:04::"], [22, "early%3:00:02::"], [23, "stage%1:28:00::"], [25, "shipping_fever%1:26:00::"], [27, "prevent%2:41:01::"], [29, "treat%2:29:00::"], [30, "bacterial%3:01:00::"], [31, "diarrhea%1:26:00::"], [34, "aid%2:41:00::"], [36, "reduce%2:30:00::"], [37, "incidence%1:24:00::"], [39, "bloat%1:26:00::"], [41, "liver%1:08:00::"], [42, "abscess%1:26:00::"]]
 N1Yy:
-    lemmas: ["milk", "production", "may", "be", "increase", "by", "the", "anti", "infective", "property", "of_this", "drug", "."]
-    oewn_key: [[0, "oewn-07860018-n"], [1, "oewn-00914791-n"], [4, "oewn-00153083-v"], [7, "oewn-01822909-a"], [8, "oewn-01171978-s"], [9, "oewn-04923519-n"], [11, "oewn-03252323-n"]]
+    lemmas: ["milk", "production", "may", "be", "increase", "by", "the", "anti", "infective", "property", "of", "this", "drug", "."]
+    oewn_key: [[0, "oewn-07860018-n"], [1, "oewn-00914791-n"], [4, "oewn-00153083-v"], [7, "oewn-01822909-a"], [8, "oewn-01171978-s"], [9, "oewn-04923519-n"], [12, "oewn-03252323-n"]]
     paragraph: '4'
-    pos: ["NN", "NN", "MD", "VB", "VBN", "IN", "DT", "JJ", "JJ", "NNS", "RB", "NN", "."]
-    text: 'Milk production may be increased by the anti infective properties of_this drug.
+    pos: ["NN", "NN", "MD", "VB", "VBN", "IN", "DT", "JJ", "JJ", "NNS", "IN", "DT", "NN", "."]
+    text: 'Milk production may be increased by the anti infective properties of this drug.
 
   '
-    tokens: [[0, 4], [5, 15], [16, 19], [20, 22], [23, 32], [33, 35], [36, 39], [40, 44], [45, 54], [55, 65], [66, 73], [74, 78], [78, 79]]
-    wn16_key: [[0, "milk%1:13:01::"], [1, "production%1:04:00::"], [4, "increase%2:30:02::"], [7, "anti%5:00:00:counteractive:00"], [8, "infective%5:00:00:unhealthful:00"], [9, "property%1:07:00::"], [11, "drug%1:06:00::"]]
-    wn30_key: [[0, "milk%1:13:01::"], [1, "production%1:04:00::"], [4, "increase%2:30:02::"], [7, "anti%3:00:00::"], [8, "infective%3:00:00:unhealthful:00"], [9, "property%1:07:00::"], [11, "drug%1:06:00::"]]
+    tokens: [[0, 4], [5, 15], [16, 19], [20, 22], [23, 32], [33, 35], [36, 39], [40, 44], [45, 54], [55, 65], [66, 68], [69, 73], [74, 78], [78, 79]]
+    wn16_key: [[0, "milk%1:13:01::"], [1, "production%1:04:00::"], [4, "increase%2:30:02::"], [7, "anti%5:00:00:counteractive:00"], [8, "infective%5:00:00:unhealthful:00"], [9, "property%1:07:00::"], [12, "drug%1:06:00::"]]
+    wn30_key: [[0, "milk%1:13:01::"], [1, "production%1:04:00::"], [4, "increase%2:30:02::"], [7, "anti%3:00:00::"], [8, "infective%3:00:00:unhealthful:00"], [9, "property%1:07:00::"], [12, "drug%1:06:00::"]]
 2AuE:
     lemmas: ["To", "increase", "rate", "of", "gain", "and", "improve", "feed", "efficiency", ",", "feed", "75", "milligram", "per", "head", "in", "daily", "supplement", "."]
     oewn_key: [[1, "oewn-00153083-v"], [2, "oewn-15311467-n"], [4, "oewn-13776433-n"], [6, "oewn-00206293-v"], [7, "oewn-07816067-n"], [8, "oewn-13843205-n"], [10, "oewn-01184318-v"], [12, "oewn-13745171-n"], [14, "oewn-01320872-n"], [16, "oewn-01975230-s"], [17, "oewn-05118072-n"]]
@@ -169,14 +169,14 @@ tfm2:
     wn16_key: [[2, "aid%1:07:00::"], [5, "prevention%1:04:00::"], [7, "bacterial%3:01:00::"], [8, "diarrhea%1:26:00::"], [10, "scours%1:26:00::"], [13, "feed%2:34:04::"], [14, "50%5:00:00:cardinal:00"], [15, "gram%1:23:00::"], [17, "ton%1:23:02::"], [19, "complete%3:00:00::"], [20, "feed%1:13:00::"]]
     wn30_key: [[2, "aid%1:07:00::"], [5, "prevention%1:04:00::"], [7, "bacterial%3:01:00::"], [8, "diarrhea%1:26:00::"], [10, "scours%1:26:00::"], [13, "feed%2:34:04::"], [14, "50%3:00:00:cardinal:00"], [15, "gram%1:23:00::"], [17, "ton%1:23:02::"], [19, "complete%3:00:00::"], [20, "feed%1:13:00::"]]
 AofZ:
-    lemmas: ["For", "the", "treatment", "of", "bacterial", "scours", ",", "feed", "100", "-", "200", "gram", "."]
-    oewn_key: [[2, "oewn-00659325-n"], [4, "oewn-02844429-a"], [5, "oewn-14295849-n"], [7, "oewn-01184318-v"], [8, "oewn-02203776-s"], [11, "oewn-13745822-n"]]
+    lemmas: ["For", "the", "treatment", "of", "bacterial", "scours", ",", "feed", "100-200", "gram", "."]
+    oewn_key: [[2, "oewn-00659325-n"], [4, "oewn-02844429-a"], [5, "oewn-14295849-n"], [7, "oewn-01184318-v"], [9, "oewn-13745822-n"]]
     paragraph: '6'
-    pos: ["IN", "DT", "NN", "IN", "JJ", "NNS", ",", "VB", "JJ", ":", "CD", "NNS", "."]
-    text: 'For the treatment of bacterial scours, feed 100 - 200 grams.'
-    tokens: [[0, 3], [4, 7], [8, 17], [18, 20], [21, 30], [31, 37], [37, 38], [39, 43], [44, 47], [48, 49], [50, 53], [54, 59], [59, 60]]
-    wn16_key: [[2, "treatment%1:04:00::"], [4, "bacterial%3:01:00::"], [5, "scours%1:26:00::"], [7, "feed%2:34:04::"], [8, "100%5:00:00:cardinal:00"], [11, "gram%1:23:00::"]]
-    wn30_key: [[2, "treatment%1:04:00::"], [4, "bacterial%3:01:00::"], [5, "scours%1:26:00::"], [7, "feed%2:34:04::"], [8, "100%3:00:00:cardinal:00"], [11, "gram%1:23:00::"]]
+    pos: ["IN", "DT", "NN", "IN", "JJ", "NNS", ",", "VB", "CD", "NNS", "."]
+    text: 'For the treatment of bacterial scours, feed 100-200 grams.'
+    tokens: [[0, 3], [4, 7], [8, 17], [18, 20], [21, 30], [31, 37], [37, 38], [39, 43], [44, 51], [52, 57], [57, 58]]
+    wn16_key: [[2, "treatment%1:04:00::"], [4, "bacterial%3:01:00::"], [5, "scours%1:26:00::"], [7, "feed%2:34:04::"], [9, "gram%1:23:00::"]]
+    wn30_key: [[2, "treatment%1:04:00::"], [4, "bacterial%3:01:00::"], [5, "scours%1:26:00::"], [7, "feed%2:34:04::"], [9, "gram%1:23:00::"]]
 nTvH:
     lemmas: ["For", "prevention", "or", "treatment", "of", "bacterial", "scours", ",", "feed", "0.1", "to", "5", "milligram", "per", "pound", "of", "body_weight", "daily", "."]
     oewn_key: [[1, "oewn-01079274-n"], [3, "oewn-00659325-n"], [5, "oewn-02844429-a"], [6, "oewn-14295849-n"], [8, "oewn-01184318-v"], [11, "oewn-02194389-s"], [12, "oewn-13745171-n"], [14, "oewn-13742201-n"], [16, "oewn-05034301-n"], [17, "oewn-00081836-r"]]
@@ -234,9 +234,8 @@ ozHq:
     oewn_key: [[2, "oewn-00229099-a"], [3, "oewn-11430739-n"], [5, "oewn-01184318-v"], [7, "oewn-05101152-n"], [9, "oewn-02405077-n"], [10, "oewn-02194219-s"], [12, "oewn-02194389-s"], [13, "oewn-15180180-n"], [15, "oewn-00062110-n"], [19, "oewn-02194219-s"], [21, "oewn-02194389-s"], [22, "oewn-15180180-n"], [25, "oewn-00049115-n"], [28, "oewn-03331316-n"]]
     paragraph: '7'
     pos: ["IN", "DT", "JJS", "NNS", ",", "VBP", "DT", "NN", "TO", "NNS", "JJ", "TO", "JJ", "NNS", "JJ", "NN", "CC", ":", "CC", "JJ", "TO", "JJ", "NNS", "VBG", "PRP$", "NN", "IN", "PRP$", "NN", "."]
-    text: 'For the best results, feed this level to cattle 3 to 5 days preceding shipment and
-  / or 3 to 5 days following their arrival in your feed_lot.'
-    tokens: [[0, 3], [4, 7], [8, 12], [13, 20], [20, 21], [22, 26], [27, 31], [32, 37], [38, 40], [41, 47], [48, 49], [50, 52], [53, 54], [55, 59], [60, 69], [70, 78], [79, 82], [83, 84], [85, 87], [88, 89], [90, 92], [93, 94], [95, 99], [100, 109], [110, 115], [116, 123], [124, 126], [127, 131], [132, 140], [140, 141]]
+    text: 'For the best results, feed this level to cattle 3 to 5 days preceding shipment and/or 3 to 5 days following their arrival in your feed_lot.'
+    tokens: [[0, 3], [4, 7], [8, 12], [13, 20], [20, 21], [22, 26], [27, 31], [32, 37], [38, 40], [41, 47], [48, 49], [50, 52], [53, 54], [55, 59], [60, 69], [70, 78], [79, 82], [82, 83], [83, 85], [86, 87], [88, 90], [91, 92], [93, 97], [98, 107], [108, 113], [114, 121], [122, 124], [125, 129], [130, 138], [138, 139]]
     wn16_key: [[2, "best%3:00:00::"], [3, "result%1:19:00::"], [5, "feed%2:34:04::"], [7, "level%1:07:00::"], [9, "cattle%1:05:00::"], [10, "3%5:00:00:cardinal:00"], [12, "5%5:00:00:cardinal:00"], [13, "day%1:28:00::"], [15, "shipment%1:04:00::"], [19, "3%5:00:00:cardinal:00"], [21, "5%5:00:00:cardinal:00"], [22, "day%1:28:00::"], [25, "arrival%1:04:01::"], [28, "feedlot%1:06:00::"]]
     wn30_key: [[2, "best%3:00:00::"], [3, "result%1:19:00::"], [5, "feed%2:34:04::"], [7, "level%1:07:00::"], [9, "cattle%1:05:00::"], [10, "3%3:00:00:cardinal:00"], [12, "5%3:00:00:cardinal:00"], [13, "day%1:28:00::"], [15, "shipment%1:04:00::"], [19, "3%3:00:00:cardinal:00"], [21, "5%3:00:00:cardinal:00"], [22, "day%1:28:00::"], [25, "arrival%1:04:01::"], [28, "feedlot%1:06:00::"]]
 wnHv:
@@ -281,16 +280,16 @@ RZo7:
     wn16_key: [[0, "increase%2:30:02::"], [1, "gain%1:23:00::"], [3, "improve%2:30:01::"], [4, "feed%1:13:00::"], [5, "efficiency%1:24:00::"], [8, "reduce%2:30:00::"], [9, "loss%1:21:01::"], [11, "bacterial%3:01:00::"], [12, "infection%1:26:00::"], [13, "list%2:41:00::"], [18, "feed%2:34:04::"], [20, "section%1:10:00::"]]
     wn30_key: [[0, "increase%2:30:02::"], [1, "gain%1:23:00::"], [3, "improve%2:30:01::"], [4, "feed%1:13:00::"], [5, "efficiency%1:24:00::"], [8, "reduce%2:30:00::"], [9, "loss%1:21:01::"], [11, "bacterial%3:01:00::"], [12, "infection%1:26:00::"], [13, "list%2:41:00::"], [18, "feed%2:34:04::"], [20, "section%1:10:00::"]]
 03Sd:
-    lemmas: ["milk", "production", "may", "be", "increase", "by", "the", "anti", "infective", "property", "of_this", "drug", "."]
-    oewn_key: [[0, "oewn-07860018-n"], [1, "oewn-00914791-n"], [4, "oewn-00153083-v"], [7, "oewn-01822909-a"], [8, "oewn-01171978-s"], [9, "oewn-04923519-n"], [11, "oewn-03252323-n"]]
+    lemmas: ["milk", "production", "may", "be", "increase", "by", "the", "anti", "infective", "property", "of", "this", "drug", "."]
+    oewn_key: [[0, "oewn-07860018-n"], [1, "oewn-00914791-n"], [4, "oewn-00153083-v"], [7, "oewn-01822909-a"], [8, "oewn-01171978-s"], [9, "oewn-04923519-n"], [12, "oewn-03252323-n"]]
     paragraph: '9'
-    pos: ["NN", "NN", "MD", "VB", "VBN", "IN", "DT", "JJ", "JJ", "NNS", "RB", "NN", "."]
-    text: 'Milk production may be increased by the anti infective properties of_this drug.
+    pos: ["NN", "NN", "MD", "VB", "VBN", "IN", "DT", "JJ", "JJ", "NNS", "IN", "DT", "NN", "."]
+    text: 'Milk production may be increased by the anti infective properties of this drug.
 
   '
-    tokens: [[0, 4], [5, 15], [16, 19], [20, 22], [23, 32], [33, 35], [36, 39], [40, 44], [45, 54], [55, 65], [66, 73], [74, 78], [78, 79]]
-    wn16_key: [[0, "milk%1:13:01::"], [1, "production%1:04:00::"], [4, "increase%2:30:02::"], [7, "anti%5:00:00:counteractive:00"], [8, "infective%5:00:00:unhealthful:00"], [9, "property%1:07:00::"], [11, "drug%1:06:00::"]]
-    wn30_key: [[0, "milk%1:13:01::"], [1, "production%1:04:00::"], [4, "increase%2:30:02::"], [7, "anti%3:00:00::"], [8, "infective%3:00:00:unhealthful:00"], [9, "property%1:07:00::"], [11, "drug%1:06:00::"]]
+    tokens: [[0, 4], [5, 15], [16, 19], [20, 22], [23, 32], [33, 35], [36, 39], [40, 44], [45, 54], [55, 65], [66, 68], [69, 73], [74, 78], [78, 79]]
+    wn16_key: [[0, "milk%1:13:01::"], [1, "production%1:04:00::"], [4, "increase%2:30:02::"], [7, "anti%5:00:00:counteractive:00"], [8, "infective%5:00:00:unhealthful:00"], [9, "property%1:07:00::"], [12, "drug%1:06:00::"]]
+    wn30_key: [[0, "milk%1:13:01::"], [1, "production%1:04:00::"], [4, "increase%2:30:02::"], [7, "anti%3:00:00::"], [8, "infective%3:00:00:unhealthful:00"], [9, "property%1:07:00::"], [12, "drug%1:06:00::"]]
 VWuw:
     lemmas: ["not", "less", "than", "70", "milligram", "of", "aureomycin", "per", "head", "daily", "to", "aid", "in", "the", "prevention", "of", "liver", "abscess", "in", "feedlot", "beef_cattle", "."]
     oewn_key: [[0, "oewn-00024432-r"], [1, "oewn-00100077-r"], [3, "oewn-02200780-s"], [4, "oewn-13745171-n"], [6, "oewn-03027098-n"], [8, "oewn-01320872-n"], [9, "oewn-00081836-r"], [11, "oewn-02553283-v"], [14, "oewn-01079274-n"], [16, "oewn-05392877-n"], [17, "oewn-14335599-n"], [19, "oewn-03331316-n"], [20, "oewn-02406838-n"]]
@@ -306,9 +305,8 @@ b0KE:
     oewn_key: [[0, "oewn-01079274-n"], [2, "oewn-02844429-a"], [3, "oewn-14171109-n"], [5, "oewn-14296122-n"], [9, "oewn-05162155-n"], [11, "oewn-00352464-n"], [13, "oewn-13348698-n"], [15, "oewn-03121972-a"], [16, "oewn-14198031-n"], [18, "oewn-01305746-a"], [19, "oewn-14295525-n"], [21, "oewn-14296122-n"], [22, "oewn-05878987-n"]]
     paragraph: '10'
     pos: ["NNP", "IN", "JJ", "NN", ",", "NN", ",", "IN", "DT", "NN", "IN", "NN", "IN", "NNS", "JJ", "JJ", "NNS", "VBP", "JJ", "NN", ":", "NN", "NN", "NN", "."]
-    text: 'Prevention of bacterial pneumonia, shipping_fever, as an aid in reduction of losses
-  due_to respiratory infections (infectious rhinotracheitis - shipping_fever complex).'
-    tokens: [[0, 10], [11, 13], [14, 23], [24, 33], [33, 34], [35, 49], [49, 50], [51, 53], [54, 56], [57, 60], [61, 63], [64, 73], [74, 76], [77, 83], [84, 90], [91, 102], [103, 113], [114, 115], [115, 125], [126, 141], [142, 143], [144, 158], [159, 166], [166, 167], [167, 168]]
+    text: 'Prevention of bacterial pneumonia, shipping_fever, as an aid in reduction of losses due_to respiratory infections (infectious rhinotracheitis- shipping_fever complex).'
+    tokens: [[0, 10], [11, 13], [14, 23], [24, 33], [33, 34], [35, 49], [49, 50], [51, 53], [54, 56], [57, 60], [61, 63], [64, 73], [74, 76], [77, 83], [84, 90], [91, 102], [103, 113], [114, 115], [115, 125], [126, 141], [141, 142], [143, 157], [158, 165], [165, 166], [166, 167]]
     wn16_key: [[0, "prevention%1:04:00::"], [2, "bacterial%3:01:00::"], [3, "pneumonia%1:26:00::"], [5, "shipping_fever%1:26:00::"], [9, "aid%1:07:00::"], [11, "reduction%1:04:00::"], [13, "loss%1:21:01::"], [14, "due_to%5:00:00:attributable:00"], [15, "respiratory%3:01:00::"], [16, "infection%1:26:00::"], [18, "infectious%3:00:00::"], [19, "rhinotracheitis%1:26:00::"], [21, "shipping_fever%1:26:00::"], [22, "complex%1:09:00::"]]
     wn30_key: [[0, "prevention%1:04:00::"], [2, "bacterial%3:01:00::"], [3, "pneumonia%1:26:00::"], [5, "shipping_fever%1:26:00::"], [9, "aid%1:07:00::"], [11, "reduction%1:04:00::"], [13, "loss%1:21:01::"], [15, "respiratory%3:01:00::"], [16, "infection%1:26:00::"], [18, "infectious%3:00:00::"], [19, "rhinotracheitis%1:26:00::"], [21, "shipping_fever%1:26:00::"], [22, "complex%1:09:00::"]]
 n9ZK:
@@ -386,13 +384,10 @@ Aizd:
     oewn_key: [[1, "oewn-02405077-n"], [3, "oewn-01184318-v"], [4, "oewn-02332196-v"], [6, "oewn-00839759-n"], [9, "oewn-13745171-n"], [11, "oewn-03027098-n"], [13, "oewn-13742201-n"], [15, "oewn-05034301-n"], [16, "oewn-00081836-r"], [17, "oewn-02553283-v"], [20, "oewn-00352464-n"], [22, "oewn-02844429-a"], [23, "oewn-14395318-n"], [27, "oewn-01079274-n"], [29, "oewn-14288360-n"], [34, "oewn-00352464-n"], [36, "oewn-13348698-n"], [38, "oewn-03121972-a"], [39, "oewn-14198031-n"], [41, "oewn-01305746-a"], [42, "oewn-14295525-n"], [44, "oewn-14296122-n"], [45, "oewn-05878987-n"]]
     paragraph: '11'
     pos: ["IN", "NNS", ",", "VB", "VBG", "DT", "NN", "IN", "CD", "NN", "IN", "NN", "IN", "NN", "IN", "NN", "RB", "VB", "IN", "DT", "NN", "IN", "JJ", "NN", ",", "IN", "DT", "NN", "IN", "NN", ",", "CC", "IN", "DT", "NN", "IN", "NNS", "JJ", "JJ", "NN", "CD", "JJ", "NN", ":", "NN", "NN", "NN", "."]
-    text: 'For cows, feed providing an intake of 0.1 milligram of Aureomycin per pound of body_weight
-  daily aids in the reduction of bacterial diarrhea, in the prevention of foot_rot,
-  and in the reduction of losses due_to respiratory infection (infectious rhinotracheitis
-  - shipping_fever complex).
+    text: 'For cows, feed providing an intake of 0.1 milligram of Aureomycin per pound of body_weight daily aids in the reduction of bacterial diarrhea, in the prevention of foot_rot, and in the reduction of losses due_to respiratory infection (infectious rhinotracheitis- shipping_fever complex).
 
   '
-    tokens: [[0, 3], [4, 8], [8, 9], [10, 14], [15, 24], [25, 27], [28, 34], [35, 37], [38, 41], [42, 51], [52, 54], [55, 65], [66, 69], [70, 75], [76, 78], [79, 90], [91, 96], [97, 101], [102, 104], [105, 108], [109, 118], [119, 121], [122, 131], [132, 140], [140, 141], [142, 144], [145, 148], [149, 159], [160, 162], [163, 171], [171, 172], [173, 176], [177, 179], [180, 183], [184, 193], [194, 196], [197, 203], [204, 210], [211, 222], [223, 232], [233, 234], [234, 244], [245, 260], [261, 262], [263, 277], [278, 285], [285, 286], [286, 287]]
+    tokens: [[0, 3], [4, 8], [8, 9], [10, 14], [15, 24], [25, 27], [28, 34], [35, 37], [38, 41], [42, 51], [52, 54], [55, 65], [66, 69], [70, 75], [76, 78], [79, 90], [91, 96], [97, 101], [102, 104], [105, 108], [109, 118], [119, 121], [122, 131], [132, 140], [140, 141], [142, 144], [145, 148], [149, 159], [160, 162], [163, 171], [171, 172], [173, 176], [177, 179], [180, 183], [184, 193], [194, 196], [197, 203], [204, 210], [211, 222], [223, 232], [233, 234], [234, 244], [245, 260], [260, 261], [262, 276], [277, 284], [284, 285], [285, 286]]
     wn16_key: [[1, "cows%1:05:00::"], [3, "feed%2:34:04::"], [4, "provide%2:40:00::"], [6, "intake%1:04:00::"], [9, "milligram%1:23:00::"], [11, "aureomycin%1:06:00::"], [13, "pound%1:23:09::"], [15, "body_weight%1:07:00::"], [16, "daily%4:02:00::"], [17, "aid%2:41:00::"], [20, "reduction%1:04:00::"], [22, "bacterial%3:01:00::"], [23, "diarrhea%1:26:00::"], [27, "prevention%1:04:00::"], [29, "foot_rot%1:26:00::"], [34, "reduction%1:04:00::"], [36, "loss%1:21:01::"], [37, "due_to%5:00:00:attributable:00"], [38, "respiratory%3:01:00::"], [39, "infection%1:26:00::"], [41, "infectious%3:00:00::"], [42, "rhinotracheitis%1:26:00::"], [44, "shipping_fever%1:26:00::"], [45, "complex%1:09:00::"]]
     wn30_key: [[1, "cows%1:05:00::"], [3, "feed%2:34:04::"], [4, "provide%2:40:00::"], [6, "intake%1:04:00::"], [9, "milligram%1:23:00::"], [11, "aureomycin%1:06:00::"], [13, "pound%1:23:09::"], [15, "body_weight%1:07:00::"], [16, "daily%4:02:00::"], [17, "aid%2:41:00::"], [20, "reduction%1:04:00::"], [22, "bacterial%3:01:00::"], [23, "diarrhea%1:26:00::"], [27, "prevention%1:04:00::"], [29, "foot_rot%1:26:00::"], [34, "reduction%1:04:00::"], [36, "loss%1:21:01::"], [38, "respiratory%3:01:00::"], [39, "infection%1:26:00::"], [41, "infectious%3:00:00::"], [42, "rhinotracheitis%1:26:00::"], [44, "shipping_fever%1:26:00::"], [45, "complex%1:09:00::"]]
 LYfg:
@@ -508,9 +503,8 @@ nJzg:
     oewn_key: [[3, "oewn-00467564-v"], [5, "oewn-00522139-a"], [6, "oewn-07816067-n"], [9, "oewn-05101152-n"], [12, "oewn-13745171-n"], [14, "oewn-14774301-n"], [16, "oewn-13742201-n"], [18, "oewn-07581290-n"], [20, "oewn-00633898-v"], [21, "oewn-00015568-n"], [22, "oewn-01159300-v"], [24, "oewn-02196456-s"], [25, "oewn-13742201-n"], [26, "oewn-00081836-r"]]
     paragraph: '18'
     pos: ["DT", "MD", "VB", "VBN", "IN", "JJ", "NN", "IN", "DT", "NN", "IN", "CD", "NN", "IN", "NN", "IN", "NN", "IN", "NN", ":", "VBG", "NN", "VBZ", "IN", "JJ", "NNS", "RB", "."]
-    text: 'This may be incorporated in complete feeds at the level of 0.4 milligram of diethylstilbestrol
-  per pound of ration - assuming animal consumes about 25 pounds daily.'
-    tokens: [[0, 4], [5, 8], [9, 11], [12, 24], [25, 27], [28, 36], [37, 42], [43, 45], [46, 49], [50, 55], [56, 58], [59, 62], [63, 72], [73, 75], [76, 94], [95, 98], [99, 104], [105, 107], [108, 114], [115, 116], [117, 125], [126, 132], [133, 141], [142, 147], [148, 150], [151, 157], [158, 163], [163, 164]]
+    text: 'This may be incorporated in complete feeds at the level of 0.4 milligram of diethylstilbestrol per pound of ration- assuming animal consumes about 25 pounds daily.'
+    tokens: [[0, 4], [5, 8], [9, 11], [12, 24], [25, 27], [28, 36], [37, 42], [43, 45], [46, 49], [50, 55], [56, 58], [59, 62], [63, 72], [73, 75], [76, 94], [95, 98], [99, 104], [105, 107], [108, 114], [114, 115], [116, 124], [125, 131], [132, 140], [141, 146], [147, 149], [150, 156], [157, 162], [162, 163]]
     wn16_key: [[3, "incorporate%2:30:00::"], [5, "complete%3:00:00::"], [6, "feed%1:13:00::"], [9, "level%1:07:00::"], [12, "milligram%1:23:00::"], [14, "diethylstilbestrol%1:27:00::"], [16, "pound%1:23:09::"], [18, "ration%1:13:01::"], [20, "assume%2:31:00::"], [21, "animal%1:03:00::"], [22, "consume%2:34:00::"], [24, "25%5:00:00:cardinal:00"], [25, "pound%1:23:09::"], [26, "daily%4:02:00::"]]
     wn30_key: [[3, "incorporate%2:30:00::"], [5, "complete%3:00:00::"], [6, "feed%1:13:00::"], [9, "level%1:07:00::"], [12, "milligram%1:23:00::"], [14, "diethylstilbestrol%1:27:00::"], [16, "pound%1:23:09::"], [18, "ration%1:13:01::"], [20, "assume%2:31:00::"], [21, "animal%1:03:00::"], [22, "consume%2:34:00::"], [24, "25%3:00:00:cardinal:00"], [25, "pound%1:23:09::"], [26, "daily%4:02:00::"]]
 vTgP:
@@ -532,14 +526,14 @@ vTgP:
     wn16_key: [[4, "feed%2:34:04::"], [7, "rate%1:28:00::"], [9, "provide%2:40:00::"], [10, "10%5:00:00:cardinal:00"], [11, "milligram%1:23:00::"], [12, "des%1:27:00::"], [14, "head%1:05:00::"], [15, "daily%4:02:00::"]]
     wn30_key: [[4, "feed%2:34:04::"], [7, "rate%1:28:00::"], [9, "provide%2:40:00::"], [10, "10%3:00:00:cardinal:00"], [11, "milligram%1:23:00::"], [12, "des%1:27:00::"], [14, "head%1:05:00::"], [15, "daily%4:02:00::"]]
 GevL:
-    lemmas: ["The", "recommended", "10", "-", "milligram", "daily", "intake", "level", "should", "be", "maintain", "."]
-    oewn_key: [[2, "oewn-02194935-s"], [4, "oewn-13745171-n"], [5, "oewn-01975230-s"], [6, "oewn-00839759-n"], [7, "oewn-05101152-n"], [10, "oewn-02687605-v"]]
+    lemmas: ["The", "recommended", "10-milligram", "daily", "intake", "level", "should", "be", "maintain", "."]
+    oewn_key: [[2, "oewn-13745171-n"], [3, "oewn-01975230-s"], [4, "oewn-00839759-n"], [5, "oewn-05101152-n"], [8, "oewn-02687605-v"]]
     paragraph: '18'
-    pos: ["DT", "JJ", "JJ", ":", "NN", "JJ", "NN", "NN", "MD", "VB", "VBN", "."]
-    text: 'The recommended 10 - milligram daily intake level should be maintained.'
-    tokens: [[0, 3], [4, 15], [16, 18], [19, 20], [21, 30], [31, 36], [37, 43], [44, 49], [50, 56], [57, 59], [60, 70], [70, 71]]
-    wn16_key: [[1, "recommended%5:00:00:advisable:00"], [2, "10%5:00:00:cardinal:00"], [4, "milligram%1:23:00::"], [5, "daily%3:01:00::"], [6, "intake%1:04:00::"], [7, "level%1:07:00::"], [10, "maintain%2:42:00::"]]
-    wn30_key: [[2, "10%3:00:00:cardinal:00"], [4, "milligram%1:23:00::"], [5, "daily%3:00:00:periodic:00"], [6, "intake%1:04:00::"], [7, "level%1:07:00::"], [10, "maintain%2:42:00::"]]
+    pos: ["DT", "JJ", "JJ", "JJ", "NN", "NN", "MD", "VB", "VBN", "."]
+    text: 'The recommended 10-milligram daily intake level should be maintained.'
+    tokens: [[0, 3], [4, 15], [16, 28], [29, 34], [35, 41], [42, 47], [48, 54], [55, 57], [58, 68], [68, 69]]
+    wn16_key: [[1, "recommended%5:00:00:advisable:00"], [2, "milligram%1:23:00::"], [3, "daily%3:01:00::"], [4, "intake%1:04:00::"], [5, "level%1:07:00::"], [8, "maintain%2:42:00::"]]
+    wn30_key: [[2, "milligram%1:23:00::"], [3, "daily%3:00:00:periodic:00"], [4, "intake%1:04:00::"], [5, "level%1:07:00::"], [8, "maintain%2:42:00::"]]
 gsTZ:
     lemmas: ["It", "may", "be", "incorporate", "into", "cattle", "creep_feed", "in", "level", "from", "10", "to", "1.5", "milligram", "of", "diethylstilbestrol", "per", "pound", "of", "feed", "."]
     oewn_key: [[3, "oewn-00467564-v"], [5, "oewn-02405077-n"], [6, "oewn-07816612-n"], [8, "oewn-05101152-n"], [10, "oewn-02194935-s"], [13, "oewn-13745171-n"], [15, "oewn-14774301-n"], [17, "oewn-13742201-n"], [19, "oewn-07816067-n"]]
@@ -824,9 +818,8 @@ fbb3:
     oewn_key: [[0, "oewn-01320304-n"], [1, "oewn-02405077-n"], [3, "oewn-02194109-s"], [5, "oewn-02194389-s"], [6, "oewn-13745822-n"], [8, "oewn-14795804-n"], [9, "oewn-00081836-r"], [11, "oewn-02406838-n"], [12, "oewn-01890537-n"], [17, "oewn-13745822-n"], [18, "oewn-00081836-r"], [19, "oewn-00558079-s"], [20, "oewn-05034009-n"], [22, "oewn-00015568-n"]]
     paragraph: '35'
     pos: ["NN", "NNS", ":", "JJ", ":", "JJ", "NNS", "IN", "NN", "RB", ":", "NN", "NNS", ":", "CD", "TO", "CD", "NNS", "RB", "JJ", "NN", "IN", "NN", "."]
-    text: 'Feeder cattle - 2 - 5 grams of phenothiazine daily; beef calves - .5 to 1.5 grams
-  daily depending_on weight of animal.'
-    tokens: [[0, 6], [7, 13], [14, 15], [16, 17], [18, 19], [20, 21], [22, 27], [28, 30], [31, 44], [45, 50], [50, 51], [52, 56], [57, 63], [64, 65], [66, 68], [69, 71], [72, 75], [76, 81], [82, 87], [88, 100], [101, 107], [108, 110], [111, 117], [117, 118]]
+    text: 'Feeder cattle- 2-5 grams of phenothiazine daily; beef calves- .5 to 1.5 grams daily depending_on weight of animal.'
+    tokens: [[0, 6], [7, 13], [13, 14], [15, 16], [16, 17], [17, 18], [19, 24], [25, 27], [28, 41], [42, 47], [47, 48], [49, 53], [54, 60], [60, 61], [62, 64], [65, 67], [68, 71], [72, 77], [78, 83], [84, 96], [97, 103], [104, 106], [107, 113], [113, 114]]
     wn16_key: [[0, "feeder%1:05:00::"], [1, "cattle%1:05:00::"], [3, "2%5:00:00:cardinal:00"], [5, "5%5:00:00:cardinal:00"], [6, "gram%1:23:00::"], [8, "phenothiazine%1:27:00::"], [9, "daily%4:02:00::"], [11, "beef%1:05:00::"], [12, "calf%1:05:00::"], [17, "gram%1:23:00::"], [18, "daily%4:02:00::"], [19, "depending_on%5:00:00:conditional:00"], [20, "weight%1:07:00::"], [22, "animal%1:03:00::"]]
     wn30_key: [[0, "feeder%1:05:00::"], [1, "cattle%1:05:00::"], [3, "2%3:00:00:cardinal:00"], [5, "5%3:00:00:cardinal:00"], [6, "gram%1:23:00::"], [8, "phenothiazine%1:27:00::"], [9, "daily%4:02:00::"], [11, "beef%1:05:00::"], [12, "calf%1:05:00::"], [17, "gram%1:23:00::"], [18, "daily%4:02:00::"], [19, "depending_on%3:00:00:conditional:00"], [20, "weight%1:07:00::"], [22, "animal%1:03:00::"]]
 DPIL:
@@ -873,7 +866,7 @@ t3Y8:
     oewn_key: [[1, "oewn-00495505-a"], [2, "oewn-03229941-n"], [3, "oewn-00659325-n"], [5, "oewn-07860018-n"], [8, "oewn-02227100-v"], [10, "oewn-02194304-s"], [11, "oewn-15180180-n"], [13, "oewn-00659325-n"]]
     paragraph: '36'
     pos: ["VBG", "JJ", "NN", "NN", ",", "NN", "MD", "VB", "VBN", "IN", "JJ", "NNS", "VBG", "NN", "."]
-    text: 'Following single dose treatment, milk should be discarded for 4 days following treatment.
+    text: 'Following single-dose treatment, milk should be discarded for 4 days following treatment.
 
   '
     tokens: [[0, 9], [10, 16], [17, 21], [22, 31], [31, 32], [33, 37], [38, 44], [45, 47], [48, 57], [58, 61], [62, 63], [64, 68], [69, 78], [79, 88], [88, 89]]
@@ -892,14 +885,14 @@ zF0H:
     wn16_key: [[0, "aid%2:41:00::"], [2, "reduce%2:30:00::"], [4, "incidence%1:24:00::"], [6, "severity%1:07:01::"], [8, "bloat%1:26:00::"], [10, "beef%1:05:00::"], [12, "dairy_cattle%1:05:00::"], [14, "legume%1:20:00::"], [15, "pasture%1:13:00::"]]
     wn30_key: [[0, "aid%2:41:00::"], [2, "reduce%2:30:00::"], [4, "incidence%1:24:00::"], [6, "severity%1:07:01::"], [8, "bloat%1:26:00::"], [10, "beef%1:05:00::"], [12, "dairy_cattle%1:05:00::"], [14, "legume%1:20:00::"], [15, "pasture%1:13:00::"]]
 w4Mj:
-    lemmas: ["feed", "75000", "unit", "or", "75", "milligram", "per", "head", "daily", "."]
+    lemmas: ["feed", "75,000", "unit", "or", "75", "milligram", "per", "head", "daily", "."]
     oewn_key: [[0, "oewn-01184318-v"], [2, "oewn-13604927-n"], [5, "oewn-13745171-n"], [7, "oewn-01320872-n"], [8, "oewn-00081836-r"]]
     paragraph: '38'
     pos: ["VB", "CD", "NNS", "CC", "CD", "NNS", "IN", "NN", "RB", "."]
-    text: 'Feed 75000 units or 75 milligrams per head daily.
+    text: 'Feed 75,000 units or 75 milligrams per head daily.
 
   '
-    tokens: [[0, 4], [5, 10], [11, 16], [17, 19], [20, 22], [23, 33], [34, 37], [38, 42], [43, 48], [48, 49]]
+    tokens: [[0, 4], [5, 11], [12, 17], [18, 20], [21, 23], [24, 34], [35, 38], [39, 43], [44, 49], [49, 50]]
     wn16_key: [[0, "feed%2:34:04::"], [2, "unit%1:23:00::"], [5, "milligram%1:23:00::"], [7, "head%1:05:00::"], [8, "daily%4:02:00::"]]
     wn30_key: [[0, "feed%2:34:04::"], [2, "unit%1:23:00::"], [5, "milligram%1:23:00::"], [7, "head%1:05:00::"], [8, "daily%4:02:00::"]]
 5Kxb:
@@ -1058,12 +1051,8 @@ M6jL:
     oewn_key: [[1, "oewn-02609706-v"], [2, "oewn-02194219-s"], [3, "oewn-01280536-s"], [4, "oewn-02923548-n"], [5, "oewn-05848697-n"], [7, "oewn-02408826-n"], [9, "oewn-02406838-n"], [14, "oewn-08532013-n"], [15, "oewn-02923548-n"], [17, "oewn-02405077-n"], [18, "oewn-01182162-v"], [20, "oewn-00706087-s"], [21, "oewn-08666920-n"], [23, "oewn-07816067-n"], [25, "oewn-00187671-v"], [28, "oewn-02078291-s"], [29, "oewn-08666920-n"], [32, "oewn-03332179-n"], [34, "oewn-02805493-a"], [35, "oewn-00715425-n"], [36, "oewn-04550444-n"], [41, "oewn-01504234-s"], [42, "oewn-02923548-n"], [45, "oewn-02698724-v"], [48, "oewn-03331316-n"], [51, "oewn-00453467-v"], [54, "oewn-01503365-a"], [55, "oewn-03105548-n"], [57, "oewn-01059683-n"], [58, "oewn-04369112-n"], [63, "oewn-02285760-s"], [64, "oewn-02923548-n"], [67, "oewn-01036184-v"], [68, "oewn-00109247-r"], [71, "oewn-02427979-v"], [72, "oewn-02405077-n"], [74, "oewn-01182162-v"], [77, "oewn-08666920-n"]]
     paragraph: '49'
     pos: ["EX", "VBP", "JJ", "JJ", "NN", "NNS", "IN", "NN", "CC", "NN", ":", "NN", "CD", "CD", "NN", "NNS", ":", "NNS", "VBP", "IN", "JJ", "NN", "IN", "NN", "VBZ", "VB", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "IN", "JJ", "NN", "NNS", ":", "CD", "CD", "CD", "JJ", "NNS", ":", "PRP", "VBP", "IN", "DT", "NN", ",", "VBP", "VBN", "IN", "DT", "JJ", "NN", "IN", "NN", "NN", ":", "CD", "CD", "CD", "JJ", "NNS", ":", "IN", "VBN", "RB", ",", "PRP", "VBP", "NNS", "TO", "VB", "IN", "DT", "NNS", "."]
-    text: 'There are three principal feed_bunk types for dairy and beef_cattle: (1) Fence-line
-  bunks - cattle eat from one side while feed is put_in from the opposite side of
-  the fence by self unloading wagons; (2) Mechanized bunks - they sit within the feed_lot,
-  are filled by a mechanical conveyor above feeding surface; (3) Special bunks - as
-  discussed here, they permit cattle to eat from all sides.'
-    tokens: [[0, 5], [6, 9], [10, 15], [16, 25], [26, 35], [36, 41], [42, 45], [46, 51], [52, 55], [56, 67], [67, 68], [69, 70], [70, 71], [71, 72], [73, 83], [84, 89], [90, 91], [92, 98], [99, 102], [103, 107], [108, 111], [112, 116], [117, 122], [123, 127], [128, 130], [131, 137], [138, 142], [143, 146], [147, 155], [156, 160], [161, 163], [164, 167], [168, 173], [174, 176], [177, 181], [182, 191], [192, 198], [198, 199], [200, 201], [201, 202], [202, 203], [204, 214], [215, 220], [221, 222], [223, 227], [228, 231], [232, 238], [239, 242], [243, 251], [251, 252], [253, 256], [257, 263], [264, 266], [267, 268], [269, 279], [280, 288], [289, 294], [295, 302], [303, 310], [310, 311], [312, 313], [313, 314], [314, 315], [316, 323], [324, 329], [330, 331], [332, 334], [335, 344], [345, 349], [349, 350], [351, 355], [356, 362], [363, 369], [370, 372], [373, 376], [377, 381], [382, 385], [386, 391], [391, 392]]
+    text: 'There are three principal feed_bunk types for dairy and beef_cattle: (1) Fence-line bunks- cattle eat from one side while feed is put_in from the opposite side of the fence by self-unloading wagons; (2) Mechanized bunks- they sit within the feed_lot, are filled by a mechanical conveyor above feeding surface; (3) Special bunks- as discussed here, they permit cattle to eat from all sides.'
+    tokens: [[0, 5], [6, 9], [10, 15], [16, 25], [26, 35], [36, 41], [42, 45], [46, 51], [52, 55], [56, 67], [67, 68], [69, 70], [70, 71], [71, 72], [73, 83], [84, 89], [89, 90], [91, 97], [98, 101], [102, 106], [107, 110], [111, 115], [116, 121], [122, 126], [127, 129], [130, 136], [137, 141], [142, 145], [146, 154], [155, 159], [160, 162], [163, 166], [167, 172], [173, 175], [176, 180], [181, 190], [191, 197], [197, 198], [199, 200], [200, 201], [201, 202], [203, 213], [214, 219], [219, 220], [221, 225], [226, 229], [230, 236], [237, 240], [241, 249], [249, 250], [251, 254], [255, 261], [262, 264], [265, 266], [267, 277], [278, 286], [287, 292], [293, 300], [301, 308], [308, 309], [310, 311], [311, 312], [312, 313], [314, 321], [322, 327], [327, 328], [329, 331], [332, 341], [342, 346], [346, 347], [348, 352], [353, 359], [360, 366], [367, 369], [370, 373], [374, 378], [379, 382], [383, 388], [388, 389]]
     wn16_key: [[1, "be%2:42:00::"], [2, "three%5:00:00:cardinal:00"], [3, "principal%5:00:00:important:00"], [4, "feed_bunk%1:06:00::"], [5, "type%1:09:00::"], [7, "dairy_cattle%1:05:00::"], [9, "beef_cattle%1:05:00::"], [14, "fence_line%1:15:00::"], [15, "bunk%1:06:03::"], [17, "cattle%1:05:00::"], [18, "eat%2:34:02::"], [20, "one%5:00:01:single(a):00"], [21, "side%1:15:02::"], [23, "feed%1:13:00::"], [25, "put_in%2:30:00::"], [28, "opposite%5:00:01:other:00"], [29, "side%1:15:02::"], [32, "fence%1:06:00::"], [34, "self%5:00:00:same:02"], [35, "unloading%1:04:00::"], [36, "wagon%1:06:00::"], [41, "mechanized%5:00:00:mechanical:00"], [42, "bunk%1:06:03::"], [45, "sit%2:42:00::"], [48, "feedlot%1:06:00::"], [51, "fill%2:30:01::"], [54, "mechanical%3:00:00::"], [55, "conveyor%1:06:00::"], [57, "feeding%1:04:01::"], [58, "surface%1:06:00::"], [63, "special%5:00:00:specialized:00"], [64, "bunk%1:06:03::"], [67, "discuss%2:32:01::"], [68, "here%4:02:00::"], [71, "permit%2:41:00::"], [72, "cattle%1:05:00::"], [74, "eat%2:34:02::"], [77, "side%1:15:02::"]]
     wn30_key: [[1, "be%2:42:00::"], [2, "three%3:00:00:cardinal:00"], [3, "principal%3:00:00:important:00"], [4, "feed_bunk%1:06:00::"], [5, "type%1:09:00::"], [7, "dairy_cattle%1:05:00::"], [9, "beef_cattle%1:05:00::"], [14, "fence_line%1:15:00::"], [15, "bunk%1:06:03::"], [17, "cattle%1:05:00::"], [18, "eat%2:34:02::"], [20, "one%3:00:00:indefinite:00"], [21, "side%1:15:02::"], [23, "feed%1:13:00::"], [25, "put_in%2:30:00::"], [28, "opposite%3:00:01:other:00"], [29, "side%1:15:02::"], [32, "fence%1:06:00::"], [34, "self%3:01:00::"], [35, "unloading%1:04:00::"], [36, "wagon%1:06:00::"], [41, "mechanized%3:00:00:mechanical:00"], [42, "bunk%1:06:03::"], [45, "sit%2:42:00::"], [48, "feedlot%1:06:00::"], [51, "fill%2:30:01::"], [54, "mechanical%3:00:00::"], [55, "conveyor%1:06:00::"], [57, "feeding%1:04:01::"], [58, "surface%1:06:00::"], [63, "special%3:00:00:specialized:00"], [64, "bunk%1:06:03::"], [67, "discuss%2:32:01::"], [68, "here%4:02:00::"], [71, "permit%2:41:00::"], [72, "cattle%1:05:00::"], [74, "eat%2:34:02::"], [77, "side%1:15:02::"]]
 IcTy:
@@ -1152,8 +1141,7 @@ NNxn:
     oewn_key: [[0, "oewn-00453467-v"], [2, "oewn-02923548-n"], [5, "oewn-02075880-a"], [6, "oewn-02805493-a"], [7, "oewn-00715425-n"], [8, "oewn-04550444-n"], [9, "oewn-01161188-v"], [11, "oewn-00453467-v"], [12, "oewn-04227317-n"], [13, "oewn-01381221-v"], [14, "oewn-13296870-n"], [17, "oewn-04550444-n"], [19, "oewn-01560748-a;oewn-01559526-a"], [20, "oewn-00028468-n"], [22, "oewn-00578105-n"]]
     paragraph: '51'
     pos: ["VBG", "DT", "NNS", "IN", "DT", "JJ", "JJ", "NN", "NNS", "VBN", "JJ", "VB", "NNS", "VBZ", "NN", "IN", "DT", "NNS", "IN", "JJR", "NN", "CC", "NNS", "."]
-    text: 'Filling these bunks by the same self unloading wagons used to fill silos spreads
-  cost of the wagons over more time and operations.
+    text: 'Filling these bunks by the same self-unloading wagons used to fill silos spreads cost of the wagons over more time and operations.
 
   '
     tokens: [[0, 7], [8, 13], [14, 19], [20, 22], [23, 26], [27, 31], [32, 36], [37, 46], [47, 53], [54, 58], [59, 61], [62, 66], [67, 72], [73, 80], [81, 85], [86, 88], [89, 92], [93, 99], [100, 104], [105, 109], [110, 114], [115, 118], [119, 129], [129, 130]]

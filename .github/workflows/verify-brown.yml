@@ -1,0 +1,37 @@
+name: Verify against Brown Corpus
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  compare-brown-nolines:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --locked
+
+      # Expected to fail until the divergences it finds (uncatalogued bugs,
+      # the accepted #32 dateline/byline/subheadline gap, and tokenization-
+      # boundary noise around quotes) are fixed or explicitly accounted for
+      # -- see #5, which stays open until this is green.
+      - name: Compare data/*.yaml against brown_nolines.txt
+        run: uv run semcor-compare-brown-nolines
+
+      - name: Upload diff
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: brown-nolines-diff
+          path: |
+            brown-nolines.diff
+            brown-nolines-ours.txt
+            brown-nolines-reference.txt

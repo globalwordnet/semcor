@@ -9,6 +9,7 @@ authors = [
 requires-python = ">=3.14"
 dependencies = [
     "cerberus>=1.3.8",
+    "nltk>=3.9.1",
     "teanga>=0.1.0",
 ]
 
@@ -19,7 +20,30 @@ semcor-ufsac = "semcor.ufsac:main"
 semcor-apply-deprecations = "semcor.apply_deprecations:main"
 semcor-fix-leading-space = "semcor.fix_leading_space:main"
 semcor-fix-spurious-spacing = "semcor.fix_spurious_spacing:main"
+semcor-fix-em-dash = "semcor.fix_em_dash:main"
+semcor-fix-function-word-merges = "semcor.fix_function_word_merges:main"
+semcor-fix-leftover-ampersand = "semcor.fix_leftover_ampersand:main"
+semcor-fix-thousands-separator-commas = "semcor.fix_thousands_separator_commas:main"
+semcor-fix-formula-marker-spacing = "semcor.fix_formula_marker_spacing:main"
+semcor-fix-corrupted-ampersand = "semcor.fix_corrupted_ampersand:main"
+semcor-fix-hyphen-compound-merge = "semcor.fix_hyphen_compound_merge:main"
+semcor-fix-underscore-hyphen-lexemes = "semcor.fix_underscore_hyphen_lexemes:main"
+semcor-fix-doubled-n-contraction = "semcor.fix_doubled_n_contraction:main"
+semcor-fix-case-mismatch = "semcor.fix_case_mismatch:main"
+semcor-fix-hyphen-dropped-word-pair = "semcor.fix_hyphen_dropped_word_pair:main"
+semcor-fix-genitive-gap = "semcor.fix_genitive_gap:main"
+semcor-fix-caret-diaeresis = "semcor.fix_caret_diaeresis:main"
+semcor-fix-abbreviation-period-gap = "semcor.fix_abbreviation_period_gap:main"
+semcor-fix-comma-flush = "semcor.fix_comma_flush:main"
+semcor-fix-reconstruction-gaps = "semcor.fix_reconstruction_gaps:main"
+semcor-fix-single-quote-gap = "semcor.fix_single_quote_gap:main"
+semcor-fix-missing-space-gap = "semcor.fix_missing_space_gap:main"
+semcor-fix-displaced-period = "semcor.fix_displaced_period:main"
+semcor-fix-quote-order = "semcor.fix_quote_order:main"
 semcor-merge = "semcor.merge:main"
+semcor-compare-brown-nolines = "semcor.compare_brown_nolines:main"
+semcor-verify-brown = "semcor.verify_brown:main"
+semcor-check-tokens = "semcor.check_token_positions:main"
 
 [build-system]
 requires = ["uv_build>=0.11.25,<0.12.0"]

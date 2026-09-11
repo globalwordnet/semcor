@@ -27,15 +27,14 @@ _meta:
         base: tokens
         data: string
 HYQF:
-    lemmas: ["The", "average", "reader", "of_this", "magazine", "own", "more_than", "one", "gun", "(", "we", "run", "a", "survey", "to", "find_out", ")", "but", "he", "be", "always", "on", "the", "lookout", "for", "new", "and", "good", "arms", "."]
-    oewn_key: [[5, "oewn-02209474-v"], [11, "oewn-00518609-v"], [15, "oewn-00920843-v"], [19, "oewn-02610777-v"]]
+    lemmas: ["The", "average", "reader", "of", "this", "magazine", "own", "more_than", "one", "gun", "(", "we", "run", "a", "survey", "to", "find_out", ")", "but", "he", "be", "always", "on", "the", "lookout", "for", "new", "and", "good", "arms", "."]
+    oewn_key: [[6, "oewn-02209474-v"], [12, "oewn-00518609-v"], [16, "oewn-00920843-v"], [20, "oewn-02610777-v"]]
     paragraph: '0'
-    pos: ["DT", "JJ", "NN", "RB", "NN", "VBZ", "RB", "CD", "NN", "NN", "PRP", "VBD", "DT", "NN", "TO", "VB", "FW", "CC", "PRP", "VBZ", "RB", "IN", "DT", "NN", "IN", "JJ", "CC", "JJR", "NNS", "."]
-    text: The average reader of_this magazine owns more_than one gun (we ran a survey to find_out)
-      but he's always on the lookout for new and better arms.
-    tokens: [[0, 3], [4, 11], [12, 18], [19, 26], [27, 35], [36, 40], [41, 50], [51, 54], [55, 58], [59, 60], [60, 62], [63, 66], [67, 68], [69, 75], [76, 78], [79, 87], [87, 88], [89, 92], [93, 95], [95, 97], [98, 104], [105, 107], [108, 111], [112, 119], [120, 123], [124, 127], [128, 131], [132, 138], [139, 143], [143, 144]]
-    wn16_key: [[5, "own%2:40:00::"], [11, "run%2:30:07::"], [15, "find_out%2:32:00::"], [19, "be%2:42:03::"]]
-    wn30_key: [[5, "own%2:40:00::"], [11, "run%2:30:07::"], [15, "find_out%2:32:00::"], [19, "be%2:42:03::"]]
+    pos: ["DT", "JJ", "NN", "IN", "DT", "NN", "VBZ", "RB", "CD", "NN", "NN", "PRP", "VBD", "DT", "NN", "TO", "VB", "FW", "CC", "PRP", "VBZ", "RB", "IN", "DT", "NN", "IN", "JJ", "CC", "JJR", "NNS", "."]
+    text: 'The average reader of this magazine owns more_than one gun (we ran a survey to find_out) but he''s always on the lookout for new and better arms.'
+    tokens: [[0, 3], [4, 11], [12, 18], [19, 21], [22, 26], [27, 35], [36, 40], [41, 50], [51, 54], [55, 58], [59, 60], [60, 62], [63, 66], [67, 68], [69, 75], [76, 78], [79, 87], [87, 88], [89, 92], [93, 95], [95, 97], [98, 104], [105, 107], [108, 111], [112, 119], [120, 123], [124, 127], [128, 131], [132, 138], [139, 143], [143, 144]]
+    wn16_key: [[6, "own%2:40:00::"], [12, "run%2:30:07::"], [16, "find_out%2:32:00::"], [20, "be%2:42:03::"]]
+    wn30_key: [[6, "own%2:40:00::"], [12, "run%2:30:07::"], [16, "find_out%2:32:00::"], [20, "be%2:42:03::"]]
 kqH0:
     lemmas: ["He", "be", "more_than", "a", "reader", "of", "outdoor", "article", ";", "he", "be", "a", "real", "hunter", "and", "shooter", ",", "eager", "to", "improve", "his", "sport", "."]
     oewn_key: [[1, "oewn-02610777-v"], [10, "oewn-02610777-v"], [19, "oewn-00206293-v"]]
@@ -98,10 +97,10 @@ DW5s:
     oewn_key: [[0, "oewn-00626756-v"], [3, "oewn-00676526-v"], [8, "oewn-00346415-v"], [9, "oewn-00943477-v"]]
     paragraph: '0'
     pos: ["VB", "RB", ",", "VB", "PRP$", "NN", ":", "CC", "VB", "VBG", "DT", "NNS", "."]
-    text: 'Read on, take your pick - and start dropping those hints.
+    text: 'Read on, take your pick- and start dropping those hints.
 
   '
-    tokens: [[0, 4], [5, 7], [7, 8], [9, 13], [14, 18], [19, 23], [24, 25], [26, 29], [30, 35], [36, 44], [45, 50], [51, 56], [56, 57]]
+    tokens: [[0, 4], [5, 7], [7, 8], [9, 13], [14, 18], [19, 23], [23, 24], [25, 28], [29, 34], [35, 43], [44, 49], [50, 55], [55, 56]]
     wn16_key: [[0, "read%2:31:00::"], [3, "take%2:31:01::"], [8, "start%2:30:00::"], [9, "drop%2:32:00::"]]
     wn30_key: [[0, "read%2:31:00::"], [3, "take%2:31:01::"], [8, "start%2:30:00::"], [9, "drop%2:32:00::"]]
 BW4O:
@@ -109,9 +108,8 @@ BW4O:
     oewn_key: [[6, "oewn-02661230-v"], [17, "oewn-02684822-v"]]
     paragraph: '1'
     pos: ["NNP", "IN", "PRP$", "JJ", "NN", "MD", "VB", "CD", "NNS", ":", "DT", "NN", "CC", "DT", "NN", ":", "RB", "VBP", "IN", "JJ", "IN", "DT", "JJS", "NN", "."]
-    text: 'First on my own list would be two arms - a rifle and a handgun - that qualify as
-  new in the strictest sense.'
-    tokens: [[0, 5], [6, 8], [9, 11], [12, 15], [16, 20], [21, 26], [27, 29], [30, 33], [34, 38], [39, 40], [41, 42], [43, 48], [49, 52], [53, 54], [55, 62], [63, 64], [65, 69], [70, 77], [78, 80], [81, 84], [85, 87], [88, 91], [92, 101], [102, 107], [107, 108]]
+    text: 'First on my own list would be two arms- a rifle and a handgun- that qualify as new in the strictest sense.'
+    tokens: [[0, 5], [6, 8], [9, 11], [12, 15], [16, 20], [21, 26], [27, 29], [30, 33], [34, 38], [38, 39], [40, 41], [42, 47], [48, 51], [52, 53], [54, 61], [61, 62], [63, 67], [68, 75], [76, 78], [79, 82], [83, 85], [86, 89], [90, 99], [100, 105], [105, 106]]
     wn16_key: [[6, "be%2:42:05::"], [17, "qualify%2:42:00::"]]
     wn30_key: [[6, "be%2:42:05::"], [17, "qualify%2:42:00::"]]
 CzjA:
@@ -141,13 +139,10 @@ P3aX:
     oewn_key: [[9, "oewn-02610777-v"], [18, "oewn-00522376-v"], [28, "oewn-02610777-v"], [40, "oewn-01644092-v"], [42, "oewn-01875972-v"]]
     paragraph: '2'
     pos: ["NNP", "POS", "JJ", "NN", "NNP", "IN", "$", "CD", "CD", "VBZ", "DT", "JJ", "NN", "NN", "IN", "DT", "NN", "IN", "VB", "DT", "DT", "JJ", "NN", "IN", "JJ", "NNS", ":", "PRP", "VBZ", "DT", "JJ", ",", "NN", ",", "JJ", ",", "JJ", "JJ", "NN", "NN", "VBN", "TO", "VB", "DT", "JJ", "NN", "IN", "JJ", "NN", "CC", "IN", "JJ", "NN", "NN", "CC", "JJ", "NN", "IN", "PRP$", "RBS", "JJ", "NN", ":", "NN", "."]
-    text: 'Bill_Ruger''s long-awaited Deerstalker (under $110) is a new rifle action in a caliber
-  that upsets all the modern theory of high-velocity fans; it''s a short, light, quick-handling,
-  fast-firing little timber gun designed to push a heavy slug at modest velocity but
-  with lots_of killing power and ample range for our most popular big_game - whitetail.
+    text: 'Bill_Ruger''s long-awaited Deerstalker (under $110) is a new rifle action in a caliber that upsets all the modern theory of high-velocity fans; it''s a short, light, quick-handling, fast-firing little timber gun designed to push a heavy slug at modest velocity but with lots_of killing power and ample range for our most popular big_game- whitetail.
 
   '
-    tokens: [[0, 10], [10, 12], [13, 25], [26, 37], [38, 39], [39, 44], [45, 46], [46, 49], [49, 50], [51, 53], [54, 55], [56, 59], [60, 65], [66, 72], [73, 75], [76, 77], [78, 85], [86, 90], [91, 97], [98, 101], [102, 105], [106, 112], [113, 119], [120, 122], [123, 136], [137, 141], [141, 142], [143, 145], [145, 147], [148, 149], [150, 155], [155, 156], [157, 162], [162, 163], [164, 178], [178, 179], [180, 191], [192, 198], [199, 205], [206, 209], [210, 218], [219, 221], [222, 226], [227, 228], [229, 234], [235, 239], [240, 242], [243, 249], [250, 258], [259, 262], [263, 267], [268, 275], [276, 283], [284, 289], [290, 293], [294, 299], [300, 305], [306, 309], [310, 313], [314, 318], [319, 326], [327, 335], [336, 337], [338, 347], [347, 348]]
+    tokens: [[0, 10], [10, 12], [13, 25], [26, 37], [38, 39], [39, 44], [45, 46], [46, 49], [49, 50], [51, 53], [54, 55], [56, 59], [60, 65], [66, 72], [73, 75], [76, 77], [78, 85], [86, 90], [91, 97], [98, 101], [102, 105], [106, 112], [113, 119], [120, 122], [123, 136], [137, 141], [141, 142], [143, 145], [145, 147], [148, 149], [150, 155], [155, 156], [157, 162], [162, 163], [164, 178], [178, 179], [180, 191], [192, 198], [199, 205], [206, 209], [210, 218], [219, 221], [222, 226], [227, 228], [229, 234], [235, 239], [240, 242], [243, 249], [250, 258], [259, 262], [263, 267], [268, 275], [276, 283], [284, 289], [290, 293], [294, 299], [300, 305], [306, 309], [310, 313], [314, 318], [319, 326], [327, 335], [335, 336], [337, 346], [346, 347]]
     wn16_key: [[9, "be%2:42:03::"], [18, "upset%2:30:00::"], [28, "be%2:42:03::"], [40, "design%2:31:00::"], [42, "push%2:38:00::"]]
     wn30_key: [[9, "be%2:42:03::"], [18, "upset%2:30:00::"], [28, "be%2:42:03::"], [40, "design%2:31:00::"], [42, "push%2:38:00::"]]
 tzH4:
@@ -183,38 +178,33 @@ j16G:
     wn16_key: [[9, "come%2:42:01::"]]
     wn30_key: [[9, "come%2:30:03::"]]
 iJ7X:
-    lemmas: ["at_least", "five", "years", "ago", ",", "tom_robinson", "of", "marlin", "make_up", "an", "over", "/", "under", "double", "rifle", "for", "me", "in_this", "caliber", ",", "use", "the", "now", "defunct", "model", "90", "action", "in", "20", "-", "gauge", "size", "."]
-    oewn_key: [[8, "oewn-01757273-v"], [20, "oewn-01161188-v"]]
+    lemmas: ["at_least", "five", "years", "ago", ",", "tom_robinson", "of", "marlin", "make_up", "an", "over", "/", "under", "double", "rifle", "for", "me", "in", "this", "caliber", ",", "use", "the", "now", "defunct", "model", "90", "action", "in", "20-gauge", "size", "."]
+    oewn_key: [[8, "oewn-01757273-v"], [21, "oewn-01161188-v"]]
     paragraph: '4'
-    pos: ["RB", "CD", "NNS", "RB", ",", "NNP", "IN", "NNP", "VB", "DT", "IN", ":", "IN", "JJ", "NN", "IN", "PRP", "RB", "NN", ",", "VBG", "DT", "RB", "JJ", "NN", "CD", "NN", "IN", "CD", ":", "NN", "NN", "."]
-    text: 'At_least five years ago, Tom_Robinson of Marlin made_up an over / under double rifle
-  for me in_this caliber, using the now defunct Model 90 action in 20 - gauge size.'
-    tokens: [[0, 8], [9, 13], [14, 19], [20, 23], [23, 24], [25, 37], [38, 40], [41, 47], [48, 55], [56, 58], [59, 63], [64, 65], [66, 71], [72, 78], [79, 84], [85, 88], [89, 91], [92, 99], [100, 107], [107, 108], [109, 114], [115, 118], [119, 122], [123, 130], [131, 136], [137, 139], [140, 146], [147, 149], [150, 152], [153, 154], [155, 160], [161, 165], [165, 166]]
-    wn16_key: [[8, "make_up%2:36:03::"], [20, "use%2:34:01::"]]
-    wn30_key: [[8, "make_up%2:36:03::"], [20, "use%2:34:01::"]]
+    pos: ["RB", "CD", "NNS", "RB", ",", "NNP", "IN", "NNP", "VB", "DT", "IN", ":", "IN", "JJ", "NN", "IN", "PRP", "IN", "DT", "NN", ",", "VBG", "DT", "RB", "JJ", "NN", "CD", "NN", "IN", "NN", "NN", "."]
+    text: 'At_least five years ago, Tom_Robinson of Marlin made_up an over/under double rifle for me in this caliber, using the now defunct Model 90 action in 20-gauge size.'
+    tokens: [[0, 8], [9, 13], [14, 19], [20, 23], [23, 24], [25, 37], [38, 40], [41, 47], [48, 55], [56, 58], [59, 63], [63, 64], [64, 69], [70, 76], [77, 82], [83, 86], [87, 89], [90, 92], [93, 97], [98, 105], [105, 106], [107, 112], [113, 116], [117, 120], [121, 128], [129, 134], [135, 137], [138, 144], [145, 147], [148, 156], [157, 161], [161, 162]]
+    wn16_key: [[8, "make_up%2:36:03::"], [21, "use%2:34:01::"]]
+    wn30_key: [[8, "make_up%2:36:03::"], [21, "use%2:34:01::"]]
 Mq+r:
-    lemmas: ["After", "figure_out", "how", "to", "regulate", "the", "barrels", "so_that", "they", "shoot", "to", "the", "same", "point", "of", "impact", ",", "we", "fire", "this", "little", "20", "-", "inch-barrel", "job", "on", "my", "home_range", "and", "in", "marlin", "'s", "underground", "test", "gallery", "."]
-    oewn_key: [[1, "oewn-00636568-v"], [4, "oewn-00300122-v"], [9, "oewn-01137207-v"], [18, "oewn-01136251-v"]]
+    lemmas: ["After", "figure_out", "how", "to", "regulate", "the", "barrels", "so", "that", "they", "shoot", "to", "the", "same", "point", "of", "impact", ",", "we", "fire", "this", "little", "20-inch-barrel", "job", "on", "my", "home_range", "and", "in", "marlin", "'s", "underground", "test", "gallery", "."]
+    oewn_key: [[1, "oewn-00636568-v"], [4, "oewn-00300122-v"], [10, "oewn-01137207-v"], [19, "oewn-01136251-v"]]
     paragraph: '4'
-    pos: ["IN", "VB", "WRB", "TO", "VB", "DT", "NNS", "RB", "PRP", "VBD", "TO", "DT", "JJ", "NN", "IN", "NN", ",", "PRP", "VBD", "DT", "JJ", "CD", ":", "JJ", "NN", "IN", "PRP$", "NN", "CC", "IN", "NNP", "POS", "JJ", "NN", "NN", "."]
-    text: 'After figuring_out how to regulate the barrels so_that they shot to the same point
-  of impact, we fired this little 20 - inch-barrel job on my home_range and in Marlin''s
-  underground test gallery.'
-    tokens: [[0, 5], [6, 18], [19, 22], [23, 25], [26, 34], [35, 38], [39, 46], [47, 54], [55, 59], [60, 64], [65, 67], [68, 71], [72, 76], [77, 82], [83, 85], [86, 92], [92, 93], [94, 96], [97, 102], [103, 107], [108, 114], [115, 117], [118, 119], [120, 131], [132, 135], [136, 138], [139, 141], [142, 152], [153, 156], [157, 159], [160, 166], [166, 168], [169, 180], [181, 185], [186, 193], [193, 194]]
-    wn16_key: [[1, "figure_out%2:31:00::"], [4, "regulate%2:30:00::"], [9, "shoot%2:33:00::"], [18, "fire%2:33:00::"]]
-    wn30_key: [[1, "figure_out%2:31:00::"], [4, "regulate%2:30:00::"], [9, "shoot%2:33:00::"], [18, "fire%2:33:00::"]]
+    pos: ["IN", "VB", "WRB", "TO", "VB", "DT", "NNS", "IN", "IN", "PRP", "VBD", "TO", "DT", "JJ", "NN", "IN", "NN", ",", "PRP", "VBD", "DT", "JJ", "NN", "NN", "IN", "PRP$", "NN", "CC", "IN", "NNP", "POS", "JJ", "NN", "NN", "."]
+    text: 'After figuring_out how to regulate the barrels so that they shot to the same point of impact, we fired this little 20-inch-barrel job on my home_range and in Marlin''s underground test gallery.'
+    tokens: [[0, 5], [6, 18], [19, 22], [23, 25], [26, 34], [35, 38], [39, 46], [47, 49], [50, 54], [55, 59], [60, 64], [65, 67], [68, 71], [72, 76], [77, 82], [83, 85], [86, 92], [92, 93], [94, 96], [97, 102], [103, 107], [108, 114], [115, 129], [130, 133], [134, 136], [137, 139], [140, 150], [151, 154], [155, 157], [158, 164], [164, 166], [167, 178], [179, 183], [184, 191], [191, 192]]
+    wn16_key: [[1, "figure_out%2:31:00::"], [4, "regulate%2:30:00::"], [10, "shoot%2:33:00::"], [19, "fire%2:33:00::"]]
+    wn30_key: [[1, "figure_out%2:31:00::"], [4, "regulate%2:30:00::"], [10, "shoot%2:33:00::"], [19, "fire%2:33:00::"]]
 G0W9:
-    lemmas: ["We", "quickly", "ran_into", "the", "same", "trouble", "that", "plague", "bill_ruger", "in", "his", "first", "experiment", ":", "Three", "or", "four", "bullet", "would", "be", "place", "well", "in", "a", "six-inch", "bull", "at", "100", "yard", "and_then", ",", "unaccountably", ",", "one", "could", "stray", "far", "out", "of", "the", "group", "."]
+    lemmas: ["We", "quickly", "ran_into", "the", "same", "trouble", "that", "plague", "bill_ruger", "in", "his", "first", "experiment", ":", "Three", "or", "four", "bullet", "would", "be", "place", "well", "in", "a", "six-inch", "bull", "at", "100", "yard", "and", "then", ",", "unaccountably", ",", "one", "could", "stray", "far", "out", "of", "the", "group", "."]
     oewn_key: [[7, "oewn-01793315-v"], [20, "oewn-01496967-v"]]
     paragraph: '4'
-    pos: ["PRP", "RB", "VB", "DT", "JJ", "NN", "WDT", "VBD", "NNP", "IN", "PRP$", "JJ", "NNS", ":", "CD", "CC", "CD", "NNS", "MD", "VB", "VBN", "RB", "IN", "DT", "JJ", "NN", "IN", "CD", "NNS", "RB", ",", "RB", ",", "CD", "MD", "VB", "RB", "IN", "IN", "DT", "NN", "."]
-    text: 'We quickly ran_into the same trouble that plagued Bill_Ruger in his first experiments:
-  Three or four bullets would be placed well in a six-inch bull at 100 yards and_then,
-  unaccountably, one could stray far out of the group.
+    pos: ["PRP", "RB", "VB", "DT", "JJ", "NN", "WDT", "VBD", "NNP", "IN", "PRP$", "JJ", "NNS", ":", "CD", "CC", "CD", "NNS", "MD", "VB", "VBN", "RB", "IN", "DT", "JJ", "NN", "IN", "CD", "NNS", "CC", "RB", ",", "RB", ",", "CD", "MD", "VB", "RB", "IN", "IN", "DT", "NN", "."]
+    text: 'We quickly ran_into the same trouble that plagued Bill_Ruger in his first experiments: Three or four bullets would be placed well in a six-inch bull at 100 yards and then, unaccountably, one could stray far out of the group.
 
   '
-    tokens: [[0, 2], [3, 10], [11, 19], [20, 23], [24, 28], [29, 36], [37, 41], [42, 49], [50, 60], [61, 63], [64, 67], [68, 73], [74, 85], [85, 86], [87, 92], [93, 95], [96, 100], [101, 108], [109, 114], [115, 117], [118, 124], [125, 129], [130, 132], [133, 134], [135, 143], [144, 148], [149, 151], [152, 155], [156, 161], [162, 170], [170, 171], [172, 185], [185, 186], [187, 190], [191, 196], [197, 202], [203, 206], [207, 210], [211, 213], [214, 217], [218, 223], [223, 224]]
-    wn16_key: [[2, "ran_into%2:38:01::"], [7, "plague%2:37:00::"], [20, "place%2:35:00::"], [35, "stray%2:38:02::"]]
+    tokens: [[0, 2], [3, 10], [11, 19], [20, 23], [24, 28], [29, 36], [37, 41], [42, 49], [50, 60], [61, 63], [64, 67], [68, 73], [74, 85], [85, 86], [87, 92], [93, 95], [96, 100], [101, 108], [109, 114], [115, 117], [118, 124], [125, 129], [130, 132], [133, 134], [135, 143], [144, 148], [149, 151], [152, 155], [156, 161], [162, 165], [166, 170], [170, 171], [172, 185], [185, 186], [187, 190], [191, 196], [197, 202], [203, 206], [207, 210], [211, 213], [214, 217], [218, 223], [223, 224]]
+    wn16_key: [[2, "ran_into%2:38:01::"], [7, "plague%2:37:00::"], [20, "place%2:35:00::"], [36, "stray%2:38:02::"]]
     wn30_key: [[7, "plague%2:37:00::"], [20, "place%2:35:00::"]]
 lqHl:
     lemmas: ["Ruger", "learn", "that", "this", "be", "because", "the", "higher", "velocity", "achieve", "in", "a", "long", "barrel", "be", "upset", "the", "shape", "of", "the", "unjacketed", "revolver", "bullet", "."]
@@ -256,17 +246,16 @@ zPF/:
     wn16_key: [[5, "jump%2:38:04::"], [10, "hop-skip%2:38:00::"], [18, "catch%2:35:13::"]]
     wn30_key: [[5, "jump%2:38:04::"], [10, "hop-skip%2:38:00::"], [18, "catch%2:35:13::"]]
 +Sk1:
-    lemmas: ["He", "move", "only", "about", "30", "foot", "after", "the", "240", "-", "grain", "slug", "hit", "him", "-", "and", "this", "be", "after", "the", "bullet", "have", "pass_through", "a", "sapling", "."]
-    oewn_key: [[1, "oewn-01839438-v"], [12, "oewn-01238728-v"], [17, "oewn-00340744-v"], [22, "oewn-01917356-v"]]
+    lemmas: ["He", "move", "only", "about", "30", "foot", "after", "the", "240-grain", "slug", "hit", "him", "-", "and", "this", "be", "after", "the", "bullet", "have", "pass_through", "a", "sapling", "."]
+    oewn_key: [[1, "oewn-01839438-v"], [10, "oewn-01238728-v"], [15, "oewn-00340744-v"], [20, "oewn-01917356-v"]]
     paragraph: '5'
-    pos: ["PRP", "VBD", "RB", "IN", "CD", "NNS", "IN", "DT", "CD", ":", "NN", "NN", "VBD", "PRP", ":", "CC", "DT", "VBD", "RB", "DT", "NN", "VBD", "VB", "DT", "NN", "."]
-    text: 'He moved only about 30 feet after the 240 - grain slug hit him - and this was after
-  the bullet had passed_through a sapling.
+    pos: ["PRP", "VBD", "RB", "IN", "CD", "NNS", "IN", "DT", "JJ", "NN", "VBD", "PRP", ":", "CC", "DT", "VBD", "RB", "DT", "NN", "VBD", "VB", "DT", "NN", "."]
+    text: 'He moved only about 30 feet after the 240-grain slug hit him- and this was after the bullet had passed_through a sapling.
 
   '
-    tokens: [[0, 2], [3, 8], [9, 13], [14, 19], [20, 22], [23, 27], [28, 33], [34, 37], [38, 41], [42, 43], [44, 49], [50, 54], [55, 58], [59, 62], [63, 64], [65, 68], [69, 73], [74, 77], [78, 83], [84, 87], [88, 94], [95, 98], [99, 113], [114, 115], [116, 123], [123, 124]]
-    wn16_key: [[1, "move%2:38:03::"], [12, "hit%2:35:01::"], [17, "be%2:42:04::"], [22, "pass_through%2:38:01::"]]
-    wn30_key: [[1, "move%2:38:03::"], [12, "hit%2:35:01::"], [17, "be%2:30:14::"], [22, "pass_through%2:38:01::"]]
+    tokens: [[0, 2], [3, 8], [9, 13], [14, 19], [20, 22], [23, 27], [28, 33], [34, 37], [38, 47], [48, 52], [53, 56], [57, 60], [60, 61], [62, 65], [66, 70], [71, 74], [75, 80], [81, 84], [85, 91], [92, 95], [96, 110], [111, 112], [113, 120], [120, 121]]
+    wn16_key: [[1, "move%2:38:03::"], [10, "hit%2:35:01::"], [15, "be%2:42:04::"], [20, "pass_through%2:38:01::"]]
+    wn30_key: [[1, "move%2:38:03::"], [10, "hit%2:35:01::"], [15, "be%2:30:14::"], [20, "pass_through%2:38:01::"]]
 sd+h:
     lemmas: ["Three", "more", "deer", "have", "fall", "to", "this", "same", "gun", ",", "and", "all", "be", "one-shot", "kill", "."]
     oewn_key: [[4, "oewn-02626293-v"], [12, "oewn-02610777-v"]]
@@ -309,15 +298,14 @@ jrFZ:
     wn16_key: [[2, "point%2:33:00::"], [21, "be%2:42:03::"]]
     wn30_key: [[2, "point%2:33:00::"], [21, "be%2:42:03::"]]
 alSX:
-    lemmas: ["The", "240", "-", "grain", "bullet", "leave", "the", "muzzle", "at", "1850", "fps", ",", "which", "give", "it", "all", "the", "smash", "need", "at", "woods", "range", "."]
-    oewn_key: [[5, "oewn-02013448-v"], [13, "oewn-02321848-v"], [18, "oewn-02634015-v"]]
+    lemmas: ["The", "240-grain", "bullet", "leave", "the", "muzzle", "at", "1,850", "fps", ",", "which", "give", "it", "all", "the", "smash", "need", "at", "woods", "range", "."]
+    oewn_key: [[3, "oewn-02013448-v"], [11, "oewn-02321848-v"], [16, "oewn-02634015-v"]]
     paragraph: '7'
-    pos: ["DT", "CD", ":", "NN", "NN", "VBZ", "DT", "NN", "IN", "CD", "NNS", ",", "WDT", "VBZ", "PRP", "PDT", "DT", "NN", "VBN", "IN", "NNS", "NNS", "."]
-    text: 'The 240 - grain bullet leaves the muzzle at 1850 fps, which gives it all the smash
-  needed at woods ranges.'
-    tokens: [[0, 3], [4, 7], [8, 9], [10, 15], [16, 22], [23, 29], [30, 33], [34, 40], [41, 43], [44, 48], [49, 52], [52, 53], [54, 59], [60, 65], [66, 68], [69, 72], [73, 76], [77, 82], [83, 89], [90, 92], [93, 98], [99, 105], [105, 106]]
-    wn16_key: [[5, "leave%2:38:01::"], [13, "give%2:40:03::"], [18, "need%2:42:00::"]]
-    wn30_key: [[5, "leave%2:38:01::"], [13, "give%2:40:03::"], [18, "need%2:42:00::"]]
+    pos: ["DT", "JJ", "NN", "VBZ", "DT", "NN", "IN", "CD", "NNS", ",", "WDT", "VBZ", "PRP", "PDT", "DT", "NN", "VBN", "IN", "NNS", "NNS", "."]
+    text: 'The 240-grain bullet leaves the muzzle at 1,850 fps, which gives it all the smash needed at woods ranges.'
+    tokens: [[0, 3], [4, 13], [14, 20], [21, 27], [28, 31], [32, 38], [39, 41], [42, 47], [48, 51], [51, 52], [53, 58], [59, 64], [65, 67], [68, 71], [72, 75], [76, 81], [82, 88], [89, 91], [92, 97], [98, 104], [104, 105]]
+    wn16_key: [[3, "leave%2:38:01::"], [11, "give%2:40:03::"], [16, "need%2:42:00::"]]
+    wn30_key: [[3, "leave%2:38:01::"], [11, "give%2:40:03::"], [16, "need%2:42:00::"]]
 u5VP:
     lemmas: ["With", "five", "shot", "at", "the", "immediate", "command", "of", "the", "hunter", "'s", "trigger", "finger", ",", "the", "gun", "and", "load", "be", "a", "deadly", "combination", "."]
     oewn_key: [[18, "oewn-02622439-v"]]
@@ -335,32 +323,28 @@ u5VP:
     oewn_key: [[7, "oewn-02622439-v"], [10, "oewn-02441196-v"]]
     paragraph: '8'
     pos: ["DT", "JJ", "RB", "JJ", "NN", "DT", "NN", "VBD", "DT", "NN", "VBG", "DT", "JJ", "RB", "NN", "NN", ":", "DT", "CD", "NNP", "NN", "NNP", "."]
-    text: 'The second really new development this year was a revolver handling a different
-  sort_of varmint load - the .22 Remington_Jet Magnum Center_Fire.'
-    tokens: [[0, 3], [4, 10], [11, 17], [18, 21], [22, 33], [34, 38], [39, 43], [44, 47], [48, 49], [50, 58], [59, 67], [68, 69], [70, 79], [80, 87], [88, 95], [96, 100], [101, 102], [103, 106], [107, 110], [111, 124], [125, 131], [132, 143], [143, 144]]
+    text: 'The second really new development this year was a revolver handling a different sort_of varmint load- the .22 Remington_Jet Magnum Center_Fire.'
+    tokens: [[0, 3], [4, 10], [11, 17], [18, 21], [22, 33], [34, 38], [39, 43], [44, 47], [48, 49], [50, 58], [59, 67], [68, 69], [70, 79], [80, 87], [88, 95], [96, 100], [100, 101], [102, 105], [106, 109], [110, 123], [124, 130], [131, 142], [142, 143]]
     wn16_key: [[7, "be%2:42:06::"], [10, "handle%2:41:00::"]]
     wn30_key: [[7, "be%2:42:06::"], [10, "handle%2:41:00::"]]
 SlXC:
-    lemmas: ["at_present", "it", "be", "available", "in", "one", "model", ",", "the", "fine", "and", "familiar", "smith", "+", "Wesson", "magnum", "revolver", "(", "about", "$", "110", ")", ",", "long", "a", "top-quality", "handgun", "among", "target", "arms", "."]
+    lemmas: ["at_present", "it", "be", "available", "in", "one", "model", ",", "the", "fine", "and", "familiar", "smith", "&", "Wesson", "magnum", "revolver", "(", "about", "$", "110", ")", ",", "long", "a", "top-quality", "handgun", "among", "target", "arms", "."]
     oewn_key: [[2, "oewn-02610777-v"]]
     paragraph: '8'
     pos: ["RB", "PRP", "VBZ", "JJ", "IN", "CD", "NN", ",", "DT", "JJ", "CC", "JJ", "NNP", "CC", "NNP", "NN", "NN", "FW", "IN", "$", "CD", "CD", ",", "JJ", "DT", "JJ", "NN", "IN", "NN", "NNS", "."]
-    text: 'At_present it''s available in one model, the fine and familiar Smith + Wesson Magnum
-  revolver (about $110), long a top-quality handgun among target arms.'
+    text: 'At_present it''s available in one model, the fine and familiar Smith & Wesson Magnum revolver (about $110), long a top-quality handgun among target arms.'
     tokens: [[0, 10], [11, 13], [13, 15], [16, 25], [26, 28], [29, 32], [33, 38], [38, 39], [40, 43], [44, 48], [49, 52], [53, 61], [62, 67], [68, 69], [70, 76], [77, 83], [84, 92], [93, 94], [94, 99], [100, 101], [101, 104], [104, 105], [105, 106], [107, 111], [112, 113], [114, 125], [126, 133], [134, 139], [140, 146], [147, 151], [151, 152]]
     wn16_key: [[2, "be%2:42:03::"]]
     wn30_key: [[2, "be%2:42:03::"]]
 x5cj:
-    lemmas: ["The", "velocity", "of_this", ".22", "-", "caliber", ",", "40", "-", "grain", "bullet", "be", "rate", "at", "a", "very", "hot", "2460", "fps", ",", "and", "it", "be", "the", "flat", "shooting", "of", "any", "revolver", "cartridge", ",", "with", "a", "mid-range", "rise", "of", "about", "an", "inch", "over", "a", "100", "-", "yard", "range", "."]
-    oewn_key: [[12, "oewn-00659723-v"], [22, "oewn-02622439-v"]]
+    lemmas: ["The", "velocity", "of", "this", ".22", "-", "caliber", ",", "40", "-", "grain", "bullet", "be", "rate", "at", "a", "very", "hot", "2,460", "fps", ",", "and", "it", "be", "the", "flat", "shooting", "of", "any", "revolver", "cartridge", ",", "with", "a", "mid-range", "rise", "of", "about", "an", "inch", "over", "a", "100-yard", "range", "."]
+    oewn_key: [[13, "oewn-00659723-v"], [23, "oewn-02622439-v"]]
     paragraph: '8'
-    pos: ["DT", "NN", "RB", "CD", ":", "NN", ",", "CD", ":", "NN", "NN", "VBZ", "VBN", "IN", "DT", "RB", "JJ", "CD", "NNS", ",", "CC", "PRP", "VBZ", "DT", "JJS", "NN", "IN", "DT", "NN", "NN", ",", "IN", "DT", "JJ", "NN", "IN", "IN", "DT", "NN", "IN", "DT", "CD", ":", "NN", "NN", "."]
-    text: 'The velocity of_this .22 - caliber, 40 - grain bullet is rated at a very hot 2460
-  fps, and it''s the flattest shooting of any revolver cartridge, with a mid-range
-  rise of about an inch over a 100 - yard range.'
-    tokens: [[0, 3], [4, 12], [13, 20], [21, 24], [25, 26], [27, 34], [34, 35], [36, 38], [39, 40], [41, 46], [47, 53], [54, 56], [57, 62], [63, 65], [66, 67], [68, 72], [73, 76], [77, 81], [82, 85], [85, 86], [87, 90], [91, 93], [93, 95], [96, 99], [100, 108], [109, 117], [118, 120], [121, 124], [125, 133], [134, 143], [143, 144], [145, 149], [150, 151], [152, 161], [162, 166], [167, 169], [170, 175], [176, 178], [179, 183], [184, 188], [189, 190], [191, 194], [195, 196], [197, 201], [202, 207], [207, 208]]
-    wn16_key: [[12, "rate%2:31:00::"], [22, "be%2:42:06::"]]
-    wn30_key: [[12, "rate%2:31:00::"], [22, "be%2:42:06::"]]
+    pos: ["DT", "NN", "IN", "DT", "CD", ":", "NN", ",", "CD", ":", "NN", "NN", "VBZ", "VBN", "IN", "DT", "RB", "JJ", "CD", "NNS", ",", "CC", "PRP", "VBZ", "DT", "JJS", "NN", "IN", "DT", "NN", "NN", ",", "IN", "DT", "JJ", "NN", "IN", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
+    text: 'The velocity of this .22-caliber, 40-grain bullet is rated at a very hot 2,460 fps, and it''s the flattest shooting of any revolver cartridge, with a mid-range rise of about an inch over a 100-yard range.'
+    tokens: [[0, 3], [4, 12], [13, 15], [16, 20], [21, 24], [24, 25], [25, 32], [32, 33], [34, 36], [36, 37], [37, 42], [43, 49], [50, 52], [53, 58], [59, 61], [62, 63], [64, 68], [69, 72], [73, 78], [79, 82], [82, 83], [84, 87], [88, 90], [90, 92], [93, 96], [97, 105], [106, 114], [115, 117], [118, 121], [122, 130], [131, 140], [140, 141], [142, 146], [147, 148], [149, 158], [159, 163], [164, 166], [167, 172], [173, 175], [176, 180], [181, 185], [186, 187], [188, 196], [197, 202], [202, 203]]
+    wn16_key: [[13, "rate%2:31:00::"], [23, "be%2:42:06::"]]
+    wn30_key: [[13, "rate%2:31:00::"], [23, "be%2:42:06::"]]
 3IE4:
     lemmas: ["This", "be", "a", "varmint", "load", ",", "pure_and_simple", ";", "it", "be", "much", "too", "explosive", "for", "small", "edible", "game", "."]
     oewn_key: [[1, "oewn-02622439-v"], [9, "oewn-02610777-v"]]
@@ -383,13 +367,12 @@ aSsA:
     wn16_key: [[2, "cut%2:35:00::"], [9, "burst%2:30:00::"]]
     wn30_key: [[2, "cut%2:35:00::"], [9, "burst%2:30:00::"]]
 v4op:
-    lemmas: ["The_most", "intriguing", "aspect", "of", "the", "s", "+", "w", "magnum", "chamber", "for", "the", "new", "jet", "be", "that", "it", "can", "also", "fire", "standard", ".22", "rim-fire", "by", "means", "of", "adapter", "sleeve", "in", "the", "chambers", "."]
+    lemmas: ["The_most", "intriguing", "aspect", "of", "the", "s", "&", "w", "magnum", "chamber", "for", "the", "new", "jet", "be", "that", "it", "can", "also", "fire", "standard", ".22", "rim-fire", "by", "means", "of", "adapter", "sleeve", "in", "the", "chambers", "."]
     oewn_key: [[9, "oewn-02662158-v"], [14, "oewn-02622439-v"], [19, "oewn-01138209-v"]]
     paragraph: '9'
     pos: ["RB", "JJ", "NN", "IN", "DT", "NNP", "CC", "NNP", "NN", "VBD", "IN", "DT", "JJ", "NNP", "VBZ", "IN", "PRP", "MD", "RB", "VB", "JJ", "CD", "NNS", "IN", "RB", "IN", "NN", "NNS", "IN", "DT", "NNS", "."]
-    text: 'The_most intriguing aspect of the S + W Magnum chambered for the new Jet is that
-  it can also fire standard .22 rim-fires by means of adapter sleeves in the chambers.'
-    tokens: [[0, 8], [9, 19], [20, 26], [27, 29], [30, 33], [34, 35], [36, 37], [38, 39], [40, 46], [47, 56], [57, 60], [61, 64], [65, 68], [69, 72], [73, 75], [76, 80], [81, 83], [84, 87], [88, 92], [93, 97], [98, 106], [107, 110], [111, 120], [121, 123], [124, 129], [130, 132], [133, 140], [141, 148], [149, 151], [152, 155], [156, 164], [164, 165]]
+    text: 'The_most intriguing aspect of the S&W Magnum chambered for the new Jet is that it can also fire standard .22 rim-fires by means of adapter sleeves in the chambers.'
+    tokens: [[0, 8], [9, 19], [20, 26], [27, 29], [30, 33], [34, 35], [35, 36], [36, 37], [38, 44], [45, 54], [55, 58], [59, 62], [63, 66], [67, 70], [71, 73], [74, 78], [79, 81], [82, 85], [86, 90], [91, 95], [96, 104], [105, 108], [109, 118], [119, 121], [122, 127], [128, 130], [131, 138], [139, 146], [147, 149], [150, 153], [154, 162], [162, 163]]
     wn16_key: [[9, "chamber%2:42:00::"], [14, "be%2:42:06::"], [19, "fire%2:33:01::"]]
     wn30_key: [[9, "chamber%2:42:00::"], [14, "be%2:42:06::"], [19, "fire%2:33:01::"]]
 UVE+:
@@ -403,16 +386,14 @@ UVE+:
     wn16_key: [[3, "convert%2:30:00::"], [27, "be%2:42:03::"]]
     wn30_key: [[3, "convert%2:30:00::"], [27, "be%2:42:03::"]]
 Lf0H:
-    lemmas: ["The", "accuracy", "of", "the", "jet", "cartridge", "be", "fine", ";", "I", "test", "it", "in", "my", "scoped", "s", "+", "w", "and", "it", "be", "good", "enough", "to", "allow", "me", "to", "hit", "a", "chuck", "with", "every", "shot", "at", "100", "yard", "if", "I", "do", "my", "part", "by", "hold", "the", "handgun", "steadily", "."]
+    lemmas: ["The", "accuracy", "of", "the", "jet", "cartridge", "be", "fine", ";", "I", "test", "it", "in", "my", "scoped", "s", "&", "w", "and", "it", "be", "good", "enough", "to", "allow", "me", "to", "hit", "a", "chuck", "with", "every", "shot", "at", "100", "yard", "if", "I", "do", "my", "part", "by", "hold", "the", "handgun", "steadily", "."]
     oewn_key: [[6, "oewn-02610777-v"], [10, "oewn-02537291-v"], [20, "oewn-02610777-v"], [24, "oewn-02427979-v"], [27, "oewn-01238728-v"], [38, "oewn-02566500-v"], [42, "oewn-01219234-v"]]
     paragraph: '9'
     pos: ["DT", "NN", "IN", "DT", "NNP", "NN", "VBZ", "JJ", ":", "PRP", "VBD", "PRP", "IN", "PRP$", "NN", "NNP", "CC", "NNP", "CC", "PRP", "VBD", "JJ", "RB", "TO", "VB", "PRP", "TO", "VB", "DT", "NN", "IN", "DT", "NN", "IN", "CD", "NNS", "IN", "PRP", "VBD", "PRP$", "NN", "IN", "VBG", "DT", "NN", "RB", "."]
-    text: 'The accuracy of the Jet cartridge is fine; I tested it in my scoped S + W and it
-  was good enough to allow me to hit a chuck with every shot at 100 yards if I did
-  my part by holding the handgun steadily.
+    text: 'The accuracy of the Jet cartridge is fine; I tested it in my scoped S&W and it was good enough to allow me to hit a chuck with every shot at 100 yards if I did my part by holding the handgun steadily.
 
   '
-    tokens: [[0, 3], [4, 12], [13, 15], [16, 19], [20, 23], [24, 33], [34, 36], [37, 41], [41, 42], [43, 44], [45, 51], [52, 54], [55, 57], [58, 60], [61, 67], [68, 69], [70, 71], [72, 73], [74, 77], [78, 80], [81, 84], [85, 89], [90, 96], [97, 99], [100, 105], [106, 108], [109, 111], [112, 115], [116, 117], [118, 123], [124, 128], [129, 134], [135, 139], [140, 142], [143, 146], [147, 152], [153, 155], [156, 157], [158, 161], [162, 164], [165, 169], [170, 172], [173, 180], [181, 184], [185, 192], [193, 201], [201, 202]]
+    tokens: [[0, 3], [4, 12], [13, 15], [16, 19], [20, 23], [24, 33], [34, 36], [37, 41], [41, 42], [43, 44], [45, 51], [52, 54], [55, 57], [58, 60], [61, 67], [68, 69], [69, 70], [70, 71], [72, 75], [76, 78], [79, 82], [83, 87], [88, 94], [95, 97], [98, 103], [104, 106], [107, 109], [110, 113], [114, 115], [116, 121], [122, 126], [127, 132], [133, 137], [138, 140], [141, 144], [145, 150], [151, 153], [154, 155], [156, 159], [160, 162], [163, 167], [168, 170], [171, 178], [179, 182], [183, 190], [191, 199], [199, 200]]
     wn16_key: [[6, "be%2:42:03::"], [10, "test%2:41:00::"], [20, "be%2:42:03::"], [24, "allow%2:41:00::"], [27, "hit%2:35:01::"], [38, "do%2:41:01::"], [42, "hold%2:35:00::"]]
     wn30_key: [[6, "be%2:42:03::"], [10, "test%2:41:00::"], [20, "be%2:42:03::"], [24, "allow%2:41:00::"], [27, "hit%2:35:01::"], [38, "do%2:41:01::"], [42, "hold%2:35:00::"]]
 By2E:
@@ -466,23 +447,21 @@ SWrN:
     wn16_key: [[1, "have%2:42:00::"]]
     wn30_key: [[1, "have%2:42:00::"]]
 nGao:
-    lemmas: ["barrel", "weight", "vary", "sensibly", "with", "the", "various", "caliber", "available", ",", "and", "these", "include", "the", "standard", "bore", "(", "about", "$", "165", ")", "plus", "the", "magnum", "(", "around", "$", "170", ")", ";", "the", "latter", "include", "the", ".264", ",", ".300", "h", "+", "h", ",", ".338", ",", ".375", "and", ".458", "."]
+    lemmas: ["barrel", "weight", "vary", "sensibly", "with", "the", "various", "caliber", "available", ",", "and", "these", "include", "the", "standard", "bore", "(", "about", "$", "165", ")", "plus", "the", "magnum", "(", "around", "$", "170", ")", ";", "the", "latter", "include", "the", ".264", ",", ".300", "h", "&", "h", ",", ".338", ",", ".375", "and", ".458", "."]
     oewn_key: [[2, "oewn-02668375-v"], [12, "oewn-02639021-v"], [32, "oewn-02639021-v"]]
     paragraph: '11'
     pos: ["NN", "NNS", "VBP", "RB", "IN", "DT", "JJ", "NNS", "JJ", ",", "CC", "DT", "VBP", "DT", "JJ", "NNS", "NNP", "IN", "$", "CD", "CD", "CC", "DT", "NNS", "NNP", "IN", "$", "CD", "CD", ":", "DT", "NN", "VBP", "DT", "CD", ",", "CD", "NNP", "CC", "NNP", ",", "CD", ",", "CD", "CC", "CD", "."]
-    text: 'Barrel weights vary sensibly with the various calibers available, and these include
-  the standard bores (about $165) plus the Magnums (around $170); the latter include
-  the .264, .300 H + H, .338, .375 and .458.'
-    tokens: [[0, 6], [7, 14], [15, 19], [20, 28], [29, 33], [34, 37], [38, 45], [46, 54], [55, 64], [64, 65], [66, 69], [70, 75], [76, 83], [84, 87], [88, 96], [97, 102], [103, 104], [104, 109], [110, 111], [111, 114], [114, 115], [116, 120], [121, 124], [125, 132], [133, 134], [134, 140], [141, 142], [142, 145], [145, 146], [146, 147], [148, 151], [152, 158], [159, 166], [167, 170], [171, 175], [175, 176], [177, 181], [182, 183], [184, 185], [186, 187], [187, 188], [189, 193], [193, 194], [195, 199], [200, 203], [204, 208], [208, 209]]
+    text: 'Barrel weights vary sensibly with the various calibers available, and these include the standard bores (about $165) plus the Magnums (around $170); the latter include the .264, .300 H&H, .338, .375 and .458.'
+    tokens: [[0, 6], [7, 14], [15, 19], [20, 28], [29, 33], [34, 37], [38, 45], [46, 54], [55, 64], [64, 65], [66, 69], [70, 75], [76, 83], [84, 87], [88, 96], [97, 102], [103, 104], [104, 109], [110, 111], [111, 114], [114, 115], [116, 120], [121, 124], [125, 132], [133, 134], [134, 140], [141, 142], [142, 145], [145, 146], [146, 147], [148, 151], [152, 158], [159, 166], [167, 170], [171, 175], [175, 176], [177, 181], [182, 183], [183, 184], [184, 185], [185, 186], [187, 191], [191, 192], [193, 197], [198, 201], [202, 206], [206, 207]]
     wn16_key: [[2, "vary%2:42:01::"], [12, "include%2:42:00::"], [32, "include%2:42:00::"]]
     wn30_key: [[2, "vary%2:42:01::"], [12, "include%2:42:00::"], [32, "include%2:42:00::"]]
 0HqL:
-    lemmas: ["Shotgun-type", "rubber", "recoil", "pad", "be", "standard", "on", "all_of", "the", "magnum", "except", "the", ".264", "."]
+    lemmas: ["Shotgun-type", "rubber", "recoil", "pad", "be", "standard", "on", "all", "of", "the", "magnum", "except", "the", ".264", "."]
     oewn_key: [[4, "oewn-02610777-v"]]
     paragraph: '11'
-    pos: ["JJ", "NN", "NN", "NNS", "VBP", "JJ", "IN", "JJ", "DT", "NNS", "IN", "DT", "CD", "."]
-    text: 'Shotgun-type rubber recoil pads are standard on all_of the Magnums except the .264.'
-    tokens: [[0, 12], [13, 19], [20, 26], [27, 31], [32, 35], [36, 44], [45, 47], [48, 54], [55, 58], [59, 66], [67, 73], [74, 77], [78, 82], [82, 83]]
+    pos: ["JJ", "NN", "NN", "NNS", "VBP", "JJ", "IN", "PDT", "IN", "DT", "NNS", "IN", "DT", "CD", "."]
+    text: 'Shotgun-type rubber recoil pads are standard on all of the Magnums except the .264.'
+    tokens: [[0, 12], [13, 19], [20, 26], [27, 31], [32, 35], [36, 44], [45, 47], [48, 51], [52, 54], [55, 58], [59, 66], [67, 73], [74, 77], [78, 82], [82, 83]]
     wn16_key: [[4, "be%2:42:03::"]]
     wn30_key: [[4, "be%2:42:03::"]]
 dgC0:
@@ -506,14 +485,12 @@ YUIl:
     wn16_key: [[7, "make%2:36:01::"]]
     wn30_key: [[7, "make%2:36:01::"]]
 qvDL:
-    lemmas: ["The", ".222", "'s", "have", "the", "short", "action", ";", "the", ".243", "and", ".308", ",", "the", "medium", "action", ",", "and", "the", ".270", ",", "*", "*", "f", "and", "the", "magnum", ",", "the", "long", "action", "(", "about", "$", "135", "for", "the", "standard", "Coltsman", "and", "$", "200", "for", "the", "custom", "version", ")", "."]
+    lemmas: ["The", ".222", "'s", "have", "the", "short", "action", ";", "the", ".243", "and", ".308", ",", "the", "medium", "action", ",", "and", "the", ".270", ",", "**f", "and", "the", "magnum", ",", "the", "long", "action", "(", "about", "$", "135", "for", "the", "standard", "Coltsman", "and", "$", "200", "for", "the", "custom", "version", ")", "."]
     oewn_key: [[3, "oewn-02636270-v"]]
     paragraph: '12'
-    pos: ["DT", "CD", "POS", "VBP", "DT", "JJ", "NN", ":", "DT", "CD", "CC", "CD", ",", "DT", "NN", "NN", ",", "CC", "DT", "CD", ",", "SYM", "SYM", "NN", "CC", "DT", "NNS", ",", "DT", "JJ", "NN", "NN", "IN", "$", "CD", "IN", "DT", "NNP", "NN", "CC", "$", "CD", "IN", "DT", "NNP", "NN", "NN", "."]
-    text: 'The .222''s have the short action; the .243 and .308, the medium action, and the
-  .270, * * f and the Magnums, the long action (about $135 for the Standard Coltsman
-  and $200 for the Custom version).'
-    tokens: [[0, 3], [4, 8], [8, 10], [11, 15], [16, 19], [20, 25], [26, 32], [32, 33], [34, 37], [38, 42], [43, 46], [47, 51], [51, 52], [53, 56], [57, 63], [64, 70], [70, 71], [72, 75], [76, 79], [80, 84], [84, 85], [86, 87], [88, 89], [90, 91], [92, 95], [96, 99], [100, 107], [107, 108], [109, 112], [113, 117], [118, 124], [125, 126], [126, 131], [132, 133], [133, 136], [137, 140], [141, 144], [145, 153], [154, 162], [163, 166], [167, 168], [168, 171], [172, 175], [176, 179], [180, 186], [187, 194], [194, 195], [195, 196]]
+    pos: ["DT", "CD", "POS", "VBP", "DT", "JJ", "NN", ":", "DT", "CD", "CC", "CD", ",", "DT", "NN", "NN", ",", "CC", "DT", "CD", ",", "NN", "CC", "DT", "NNS", ",", "DT", "JJ", "NN", "NN", "IN", "$", "CD", "IN", "DT", "NNP", "NN", "CC", "$", "CD", "IN", "DT", "NNP", "NN", "NN", "."]
+    text: 'The .222''s have the short action; the .243 and .308, the medium action, and the .270, **f and the Magnums, the long action (about $135 for the Standard Coltsman and $200 for the Custom version).'
+    tokens: [[0, 3], [4, 8], [8, 10], [11, 15], [16, 19], [20, 25], [26, 32], [32, 33], [34, 37], [38, 42], [43, 46], [47, 51], [51, 52], [53, 56], [57, 63], [64, 70], [70, 71], [72, 75], [76, 79], [80, 84], [84, 85], [86, 89], [90, 93], [94, 97], [98, 105], [105, 106], [107, 110], [111, 115], [116, 122], [123, 124], [124, 129], [130, 131], [131, 134], [135, 138], [139, 142], [143, 151], [152, 160], [161, 164], [165, 166], [166, 169], [170, 173], [174, 177], [178, 184], [185, 192], [192, 193], [193, 194]]
     wn16_key: [[3, "have%2:42:00::"]]
     wn30_key: [[3, "have%2:42:00::"]]
 FOaY:
@@ -532,9 +509,8 @@ sMTb:
     oewn_key: [[3, "oewn-01645979-v"]]
     paragraph: '13'
     pos: ["NNP", "JJ", "VBZ", "VBN", "DT", "CD", "NN", ",", "DT", "NN", ",", "IN", "CD", "NNS", ":", "NN", "CC", "JJ", "FW", "RB", "$", "CD", "CC", "RB", "IN", "$", "CD", ",", "RB", "CD", "."]
-    text: 'High standard has introduced a .22 auto, the Sport-King, in two grades - field and
-  special (less_than $45 and just over $45, respectively).'
-    tokens: [[0, 4], [5, 13], [14, 17], [18, 28], [29, 30], [31, 34], [35, 39], [39, 40], [41, 44], [45, 55], [55, 56], [57, 59], [60, 63], [64, 70], [71, 72], [73, 78], [79, 82], [83, 90], [91, 92], [92, 101], [102, 103], [103, 105], [106, 109], [110, 114], [115, 119], [120, 121], [121, 123], [123, 124], [125, 137], [137, 138], [138, 139]]
+    text: 'High standard has introduced a .22 auto, the Sport-King, in two grades- field and special (less_than $45 and just over $45, respectively).'
+    tokens: [[0, 4], [5, 13], [14, 17], [18, 28], [29, 30], [31, 34], [35, 39], [39, 40], [41, 44], [45, 55], [55, 56], [57, 59], [60, 63], [64, 70], [70, 71], [72, 77], [78, 81], [82, 89], [90, 91], [91, 100], [101, 102], [102, 104], [105, 108], [109, 113], [114, 118], [119, 120], [120, 122], [122, 123], [124, 136], [136, 137], [137, 138]]
     wn16_key: [[3, "introduce%2:36:00::"]]
     wn30_key: [[3, "introduce%2:36:00::"]]
 Jtbx:
@@ -559,18 +535,16 @@ uANj:
     wn16_key: [[10, "be%2:42:06::"]]
     wn30_key: [[10, "be%2:42:06::"]]
 cD4d:
-    lemmas: ["previously", "known", "as", "jefferson_arm", ",", "kodiak", "have", "give", "this", "11", "-", "shot", "hammerless", "job", "an", "exceptionally", "fine", "stock", "design", ",", "and", "the", "260", "be", "the", "first", "autoloader", "to", "handle", ".22", "magnum", "rim-fire", "."]
-    oewn_key: [[7, "oewn-02321848-v"], [23, "oewn-02610777-v"], [28, "oewn-02441196-v"]]
+    lemmas: ["previously", "known", "as", "jefferson_arm", ",", "kodiak", "have", "give", "this", "11-shot", "hammerless", "job", "an", "exceptionally", "fine", "stock", "design", ",", "and", "the", "260", "be", "the", "first", "autoloader", "to", "handle", ".22", "magnum", "rim-fire", "."]
+    oewn_key: [[7, "oewn-02321848-v"], [21, "oewn-02610777-v"], [26, "oewn-02441196-v"]]
     paragraph: '14'
-    pos: ["RB", "JJ", "IN", "NNP", ",", "NNP", "VBZ", "VBN", "DT", "CD", ":", "NN", "JJ", "NN", "DT", "RB", "JJ", "NN", "NN", ",", "CC", "DT", "CD", "VBZ", "VB", "JJ", "NN", "TO", "VB", "CD", "NN", "NNS", "."]
-    text: 'Previously known as Jefferson_Arms, Kodiak has given this 11 - shot hammerless job
-  an exceptionally fine stock design, and the 260 is the first autoloader to handle
-  .22 Magnum rim-fires.
+    pos: ["RB", "JJ", "IN", "NNP", ",", "NNP", "VBZ", "VBN", "DT", "JJ", "JJ", "NN", "DT", "RB", "JJ", "NN", "NN", ",", "CC", "DT", "CD", "VBZ", "VB", "JJ", "NN", "TO", "VB", "CD", "NN", "NNS", "."]
+    text: 'Previously known as Jefferson_Arms, Kodiak has given this 11-shot hammerless job an exceptionally fine stock design, and the 260 is the first autoloader to handle .22 Magnum rim-fires.
 
   '
-    tokens: [[0, 10], [11, 16], [17, 19], [20, 34], [34, 35], [36, 42], [43, 46], [47, 52], [53, 57], [58, 60], [61, 62], [63, 67], [68, 78], [79, 82], [83, 85], [86, 99], [100, 104], [105, 110], [111, 117], [117, 118], [119, 122], [123, 126], [127, 130], [131, 133], [134, 137], [138, 143], [144, 154], [155, 157], [158, 164], [165, 168], [169, 175], [176, 185], [185, 186]]
-    wn16_key: [[7, "give%2:40:03::"], [23, "be%2:42:03::"], [28, "handle%2:41:00::"]]
-    wn30_key: [[7, "give%2:40:03::"], [23, "be%2:42:03::"], [28, "handle%2:41:00::"]]
+    tokens: [[0, 10], [11, 16], [17, 19], [20, 34], [34, 35], [36, 42], [43, 46], [47, 52], [53, 57], [58, 65], [66, 76], [77, 80], [81, 83], [84, 97], [98, 102], [103, 108], [109, 115], [115, 116], [117, 120], [121, 124], [125, 128], [129, 131], [132, 135], [136, 141], [142, 152], [153, 155], [156, 162], [163, 166], [167, 173], [174, 183], [183, 184]]
+    wn16_key: [[7, "give%2:40:03::"], [21, "be%2:42:03::"], [26, "handle%2:41:00::"]]
+    wn30_key: [[7, "give%2:40:03::"], [21, "be%2:42:03::"], [26, "handle%2:41:00::"]]
 IHPK:
     lemmas: ["marlin", "have", "make", "two", "contribution", "to", "the", "harvest", "of", "new", "offering", "."]
     oewn_key: [[2, "oewn-01759660-v"]]
@@ -605,53 +579,48 @@ LRTS:
     oewn_key: [[7, "oewn-02610777-v"]]
     paragraph: '15'
     pos: ["DT", "CD", "CD", "IN", "$", "CD", "CD", "VBZ", "DT", "RB", "JJR", "CD", "NN", ",", "DT", "CD", "IN", "DT", "CD", ":", "CC", "CD", ":", "NN", "NN", "."]
-    text: 'The 989 (about $40) is an even newer .22 auto, this one with a seven - or 12 - shot
-  clip.
+    text: 'The 989 (about $40) is an even newer .22 auto, this one with a seven- or 12-shot clip.
 
   '
-    tokens: [[0, 3], [4, 7], [8, 9], [9, 14], [15, 16], [16, 18], [18, 19], [20, 22], [23, 25], [26, 30], [31, 36], [37, 40], [41, 45], [45, 46], [47, 51], [52, 55], [56, 60], [61, 62], [63, 68], [69, 70], [71, 73], [74, 76], [77, 78], [79, 83], [84, 88], [88, 89]]
+    tokens: [[0, 3], [4, 7], [8, 9], [9, 14], [15, 16], [16, 18], [18, 19], [20, 22], [23, 25], [26, 30], [31, 36], [37, 40], [41, 45], [45, 46], [47, 51], [52, 55], [56, 60], [61, 62], [63, 68], [68, 69], [70, 72], [73, 75], [75, 76], [76, 80], [81, 85], [85, 86]]
     wn16_key: [[7, "be%2:42:03::"]]
     wn30_key: [[7, "be%2:42:03::"]]
 Vmkj:
-    lemmas: ["once_again", "the", "Mossberg", "Targo", "outfit", "have", "appear", ",", "but", "this", "time", "as", "a", "bolt-action", "rifle-shotgun", "combination", "."]
-    oewn_key: [[6, "oewn-00423043-v"]]
+    lemmas: ["once", "again", "the", "Mossberg", "Targo", "outfit", "have", "appear", ",", "but", "this", "time", "as", "a", "bolt-action", "rifle-shotgun", "combination", "."]
+    oewn_key: [[7, "oewn-00423043-v"]]
     paragraph: '16'
-    pos: ["RB", "DT", "JJ", "JJ", "NN", "VBZ", "VBN", ",", "CC", "DT", "NN", "IN", "DT", "JJ", "NN", "NN", "."]
-    text: 'Once_again the Mossberg Targo outfit has appeared, but this time as a bolt-action
-  rifle-shotgun combination.'
-    tokens: [[0, 10], [11, 14], [15, 23], [24, 29], [30, 36], [37, 40], [41, 49], [49, 50], [51, 54], [55, 59], [60, 64], [65, 67], [68, 69], [70, 81], [82, 95], [96, 107], [107, 108]]
-    wn16_key: [[6, "appear%2:30:00::"]]
-    wn30_key: [[6, "appear%2:30:00::"]]
+    pos: ["RB", "RB", "DT", "JJ", "JJ", "NN", "VBZ", "VBN", ",", "CC", "DT", "NN", "IN", "DT", "JJ", "NN", "NN", "."]
+    text: 'Once again the Mossberg Targo outfit has appeared, but this time as a bolt-action rifle-shotgun combination.'
+    tokens: [[0, 4], [5, 10], [11, 14], [15, 23], [24, 29], [30, 36], [37, 40], [41, 49], [49, 50], [51, 54], [55, 59], [60, 64], [65, 67], [68, 69], [70, 81], [82, 95], [96, 107], [107, 108]]
+    wn16_key: [[7, "appear%2:30:00::"]]
+    wn30_key: [[7, "appear%2:30:00::"]]
 6fgJ:
-    lemmas: ["The", "bore", "be", "unrifled", "but", "be", "provide", "with", "an", "insert", "tube", "which", "be", "rifled", "and", "which", ",", "surprisingly", ",", "give", "pretty", "fair", "accuracy", "even_though", "it", "be", "only", "3", "-", "1", "2", "inch", "long", "."]
-    oewn_key: [[2, "oewn-02610777-v"], [6, "oewn-02332196-v"], [12, "oewn-02610777-v"], [19, "oewn-02344167-v"], [25, "oewn-02610777-v"]]
+    lemmas: ["The", "bore", "be", "unrifled", "but", "be", "provide", "with", "an", "insert", "tube", "which", "be", "rifled", "and", "which", ",", "surprisingly", ",", "give", "pretty", "fair", "accuracy", "even", "though", "it", "be", "only", "3", "-", "1", "2", "inch", "long", "."]
+    oewn_key: [[2, "oewn-02610777-v"], [6, "oewn-02332196-v"], [12, "oewn-02610777-v"], [19, "oewn-02344167-v"], [26, "oewn-02610777-v"]]
     paragraph: '16'
-    pos: ["DT", "NN", "VBZ", "JJ", "CC", "VBZ", "VBN", "IN", "DT", "NN", "NN", "WDT", "VBZ", "JJ", "CC", "WDT", ",", "RB", ",", "VBZ", "RB", "JJ", "NN", "RB", "PRP", "VBZ", "RB", "CD", ":", "CD", "CD", "NNS", "JJ", "."]
-    text: 'The bore is unrifled but is provided with an insert tube which is rifled and which,
-  surprisingly, gives pretty fair accuracy even_though it''s only 3 - 1 2 inches long.'
-    tokens: [[0, 3], [4, 8], [9, 11], [12, 20], [21, 24], [25, 27], [28, 36], [37, 41], [42, 44], [45, 51], [52, 56], [57, 62], [63, 65], [66, 72], [73, 76], [77, 82], [82, 83], [84, 96], [96, 97], [98, 103], [104, 110], [111, 115], [116, 124], [125, 136], [137, 139], [139, 141], [142, 146], [147, 148], [149, 150], [151, 152], [153, 154], [155, 161], [162, 166], [166, 167]]
-    wn16_key: [[2, "be%2:42:03::"], [6, "provide%2:40:00::"], [12, "be%2:42:03::"], [19, "give%2:40:05::"], [25, "be%2:42:03::"]]
-    wn30_key: [[2, "be%2:42:03::"], [6, "provide%2:40:00::"], [12, "be%2:42:03::"], [19, "give%2:40:05::"], [25, "be%2:42:03::"]]
+    pos: ["DT", "NN", "VBZ", "JJ", "CC", "VBZ", "VBN", "IN", "DT", "NN", "NN", "WDT", "VBZ", "JJ", "CC", "WDT", ",", "RB", ",", "VBZ", "RB", "JJ", "NN", "RB", "IN", "PRP", "VBZ", "RB", "CD", ":", "CD", "CD", "NNS", "JJ", "."]
+    text: 'The bore is unrifled but is provided with an insert tube which is rifled and which, surprisingly, gives pretty fair accuracy even though it''s only 3 - 1 2 inches long.'
+    tokens: [[0, 3], [4, 8], [9, 11], [12, 20], [21, 24], [25, 27], [28, 36], [37, 41], [42, 44], [45, 51], [52, 56], [57, 62], [63, 65], [66, 72], [73, 76], [77, 82], [82, 83], [84, 96], [96, 97], [98, 103], [104, 110], [111, 115], [116, 124], [125, 129], [130, 136], [137, 139], [139, 141], [142, 146], [147, 148], [149, 150], [151, 152], [153, 154], [155, 161], [162, 166], [166, 167]]
+    wn16_key: [[2, "be%2:42:03::"], [6, "provide%2:40:00::"], [12, "be%2:42:03::"], [19, "give%2:40:05::"], [26, "be%2:42:03::"]]
+    wn30_key: [[2, "be%2:42:03::"], [6, "provide%2:40:00::"], [12, "be%2:42:03::"], [19, "give%2:40:05::"], [26, "be%2:42:03::"]]
 bJEA:
     lemmas: ["You", "can", "unscrew", "this", "tube", "and", "replace", "it", "with", "a", "smoothbore", "insert", "for", "use", "with", ".22", "shotshell", "-", "to", "break", "the", "little", "Targo", "clay", "target", "."]
     oewn_key: [[2, "oewn-01355231-v"], [6, "oewn-00162496-v"], [19, "oewn-01372423-v"]]
     paragraph: '16'
     pos: ["PRP", "MD", "VB", "DT", "NN", "CC", "VB", "PRP", "IN", "DT", "NN", "NN", "IN", "NN", "IN", "CD", "NNS", ":", "TO", "VB", "DT", "JJ", "JJ", "NN", "NNS", "."]
-    text: 'You can unscrew this tube and replace it with a smoothbore insert for use with .22
-  shotshells - to break the little Targo clay targets.'
-    tokens: [[0, 3], [4, 7], [8, 15], [16, 20], [21, 25], [26, 29], [30, 37], [38, 40], [41, 45], [46, 47], [48, 58], [59, 65], [66, 69], [70, 73], [74, 78], [79, 82], [83, 93], [94, 95], [96, 98], [99, 104], [105, 108], [109, 115], [116, 121], [122, 126], [127, 134], [134, 135]]
+    text: 'You can unscrew this tube and replace it with a smoothbore insert for use with .22 shotshells- to break the little Targo clay targets.'
+    tokens: [[0, 3], [4, 7], [8, 15], [16, 20], [21, 25], [26, 29], [30, 37], [38, 40], [41, 45], [46, 47], [48, 58], [59, 65], [66, 69], [70, 73], [74, 78], [79, 82], [83, 93], [93, 94], [95, 97], [98, 103], [104, 107], [108, 114], [115, 120], [121, 125], [126, 133], [133, 134]]
     wn16_key: [[2, "unscrew%2:35:00::"], [6, "replace%2:30:00::"], [19, "break%2:35:01::"]]
     wn30_key: [[2, "unscrew%2:35:00::"], [6, "replace%2:30:00::"], [19, "break%2:35:01::"]]
 XqeE:
-    lemmas: ["A", "trap", "for", "throw", "these", "miniature", "clay", "fasten", "to", "the", "barrel", "so_that", "the", "shooter", "can", "throw", "his", "own", "target", "."]
-    oewn_key: [[3, "oewn-01511000-v"], [7, "oewn-01346574-v"], [15, "oewn-01511000-v"]]
+    lemmas: ["A", "trap", "for", "throw", "these", "miniature", "clay", "fasten", "to", "the", "barrel", "so", "that", "the", "shooter", "can", "throw", "his", "own", "target", "."]
+    oewn_key: [[3, "oewn-01511000-v"], [7, "oewn-01346574-v"], [16, "oewn-01511000-v"]]
     paragraph: '16'
-    pos: ["DT", "NN", "IN", "VBG", "DT", "JJ", "NNS", "VB", "TO", "DT", "NN", "RB", "DT", "NN", "MD", "VB", "PRP$", "JJ", "NNS", "."]
-    text: 'A trap for throwing these miniature clays fastens to the barrel so_that the shooter
-  can throw his own targets.'
-    tokens: [[0, 1], [2, 6], [7, 10], [11, 19], [20, 25], [26, 35], [36, 41], [42, 49], [50, 52], [53, 56], [57, 63], [64, 71], [72, 75], [76, 83], [84, 87], [88, 93], [94, 97], [98, 101], [102, 109], [109, 110]]
-    wn16_key: [[3, "throw%2:35:00::"], [7, "fasten%2:35:00::"], [15, "throw%2:35:00::"]]
-    wn30_key: [[3, "throw%2:35:00::"], [7, "fasten%2:35:00::"], [15, "throw%2:35:00::"]]
+    pos: ["DT", "NN", "IN", "VBG", "DT", "JJ", "NNS", "VB", "TO", "DT", "NN", "IN", "IN", "DT", "NN", "MD", "VB", "PRP$", "JJ", "NNS", "."]
+    text: 'A trap for throwing these miniature clays fastens to the barrel so that the shooter can throw his own targets.'
+    tokens: [[0, 1], [2, 6], [7, 10], [11, 19], [20, 25], [26, 35], [36, 41], [42, 49], [50, 52], [53, 56], [57, 63], [64, 66], [67, 71], [72, 75], [76, 83], [84, 87], [88, 93], [94, 97], [98, 101], [102, 109], [109, 110]]
+    wn16_key: [[3, "throw%2:35:00::"], [7, "fasten%2:35:00::"], [16, "throw%2:35:00::"]]
+    wn30_key: [[3, "throw%2:35:00::"], [7, "fasten%2:35:00::"], [16, "throw%2:35:00::"]]
 ZGOE:
     lemmas: ["A", "spring", "trap", "for", "solid", "mounting", "and", "a", "regular", "hand", "trap", "be", "also", "available", "."]
     oewn_key: [[11, "oewn-02610777-v"]]
@@ -666,11 +635,10 @@ sroN:
     oewn_key: [[2, "oewn-02208144-v"]]
     paragraph: '16'
     pos: ["PRP", "MD", "VB", "PRP$", "NN", "IN", "DT", "JJ", "NN", ",", "DT", "CD", "NNP", "CD", "IN", "$", "CD", "CD", "CC", "DT", "JJ", ",", "DT", "CD", "NNP", "CD", "$", "CD", "JJR", "NN", "."]
-    text: 'You can have your choice of a seven-shot repeater, the 340 TR (about $40) or a single-shot,
-  the 320 TR ($10 less).
+    text: 'You can have your choice of a seven-shot repeater, the 340TR (about $40) or a single-shot, the 320TR ($10 less).
 
   '
-    tokens: [[0, 3], [4, 7], [8, 12], [13, 17], [18, 24], [25, 27], [28, 29], [30, 40], [41, 49], [49, 50], [51, 54], [55, 58], [59, 61], [62, 63], [63, 68], [69, 70], [70, 72], [72, 73], [74, 76], [77, 78], [79, 90], [90, 91], [92, 95], [96, 99], [100, 102], [103, 104], [104, 105], [105, 107], [108, 112], [112, 113], [113, 114]]
+    tokens: [[0, 3], [4, 7], [8, 12], [13, 17], [18, 24], [25, 27], [28, 29], [30, 40], [41, 49], [49, 50], [51, 54], [55, 58], [58, 60], [61, 62], [62, 67], [68, 69], [69, 71], [71, 72], [73, 75], [76, 77], [78, 89], [89, 90], [91, 94], [95, 98], [98, 100], [101, 102], [102, 103], [103, 105], [106, 110], [110, 111], [111, 112]]
     wn16_key: [[2, "have%2:40:00::"]]
     wn30_key: [[2, "have%2:40:00::"]]
 nDbg:
@@ -684,13 +652,12 @@ nDbg:
     wn16_key: [[2, "be%2:42:03::"], [17, "be%2:42:03::"], [21, "look%2:39:01::"], [23, "run_up%2:30:00::"]]
     wn30_key: [[2, "be%2:42:03::"], [17, "be%2:42:03::"], [21, "look%2:39:01::"], [23, "run_up%2:30:00::"]]
 2NvQ:
-    lemmas: ["They", "'ll", "travel", "50", "foot", "or", "more", "when", "throw", "from", "the", "spring", "trap", "but", "it", "be", "almost", "impossible", "to", "break", "one", "after", "it", "pass", "the", "35", "-", "foot", "mark", "."]
+    lemmas: ["They", "'ll", "travel", "50", "foot", "or", "more", "when", "throw", "from", "the", "spring", "trap", "but", "it", "be", "almost", "impossible", "to", "break", "one", "after", "it", "pass", "the", "35-foot", "mark", "."]
     oewn_key: [[2, "oewn-01839438-v"], [8, "oewn-01511000-v"], [15, "oewn-02610777-v"], [19, "oewn-01372423-v"], [23, "oewn-02055618-v"]]
     paragraph: '17'
-    pos: ["PRP", "MD", "VB", "CD", "NNS", "CC", "JJR", "WRB", "VBN", "IN", "DT", "NN", "NN", "CC", "PRP", "VBZ", "RB", "JJ", "TO", "VB", "CD", "IN", "PRP", "VBZ", "DT", "CD", ":", "NN", "NN", "."]
-    text: 'They''ll travel 50 feet or more when thrown from the spring trap but it''s almost
-  impossible to break one after it passes the 35 - foot mark.'
-    tokens: [[0, 4], [4, 7], [8, 14], [15, 17], [18, 22], [23, 25], [26, 30], [31, 35], [36, 42], [43, 47], [48, 51], [52, 58], [59, 63], [64, 67], [68, 70], [70, 72], [73, 79], [80, 90], [91, 93], [94, 99], [100, 103], [104, 109], [110, 112], [113, 119], [120, 123], [124, 126], [127, 128], [129, 133], [134, 138], [138, 139]]
+    pos: ["PRP", "MD", "VB", "CD", "NNS", "CC", "JJR", "WRB", "VBN", "IN", "DT", "NN", "NN", "CC", "PRP", "VBZ", "RB", "JJ", "TO", "VB", "CD", "IN", "PRP", "VBZ", "DT", "JJ", "NN", "."]
+    text: 'They''ll travel 50 feet or more when thrown from the spring trap but it''s almost impossible to break one after it passes the 35-foot mark.'
+    tokens: [[0, 4], [4, 7], [8, 14], [15, 17], [18, 22], [23, 25], [26, 30], [31, 35], [36, 42], [43, 47], [48, 51], [52, 58], [59, 63], [64, 67], [68, 70], [70, 72], [73, 79], [80, 90], [91, 93], [94, 99], [100, 103], [104, 109], [110, 112], [113, 119], [120, 123], [124, 131], [132, 136], [136, 137]]
     wn16_key: [[2, "travel%2:38:00::"], [8, "throw%2:35:00::"], [15, "be%2:42:03::"], [19, "break%2:35:01::"], [23, "pass%2:38:05::"]]
     wn30_key: [[2, "travel%2:38:00::"], [8, "throw%2:35:00::"], [15, "be%2:42:03::"], [19, "break%2:35:01::"], [23, "pass%2:38:05::"]]
 b1Hr:
@@ -758,14 +725,14 @@ pxuX:
     wn16_key: [[2, "be%2:42:03::"], [5, "beat%2:33:00::"], [11, "pack%2:35:00::"]]
     wn30_key: [[2, "be%2:42:03::"], [5, "beat%2:33:00::"], [11, "pack%2:35:00::"]]
 GAgL:
-    lemmas: ["presently", ",", "the", "742", "c", "be", "available", "in", "*", "*", "f", "."]
+    lemmas: ["presently", ",", "the", "742", "c", "be", "available", "in", "**f", "."]
     oewn_key: [[5, "oewn-02610777-v"]]
     paragraph: '19'
-    pos: ["RB", ",", "DT", "CD", "NN", "VBZ", "JJ", "IN", "SYM", "SYM", "NN", "."]
-    text: 'Presently, the 742 C is available in * * f.
+    pos: ["RB", ",", "DT", "CD", "NN", "VBZ", "JJ", "IN", "NN", "."]
+    text: 'Presently, the 742C is available in **f.
 
   '
-    tokens: [[0, 9], [9, 10], [11, 14], [15, 18], [19, 20], [21, 23], [24, 33], [34, 36], [37, 38], [39, 40], [41, 42], [42, 43]]
+    tokens: [[0, 9], [9, 10], [11, 14], [15, 18], [18, 19], [20, 22], [23, 32], [33, 35], [36, 39], [39, 40]]
     wn16_key: [[5, "be%2:42:03::"]]
     wn30_key: [[5, "be%2:42:03::"]]
 WhEs:
@@ -806,10 +773,8 @@ HVVT:
     oewn_key: [[4, "oewn-02622439-v"], [24, "oewn-01747665-v"], [31, "oewn-02637740-v"]]
     paragraph: '21'
     pos: ["RB", "JJ", "IN", "PRP", "VBZ", "DT", "NNP", "CD", "CD", "IN", "$", "CD", ",", "$", "CD", "IN", "DT", "NN", "NN", "NN", ":", "DT", "JJ", "JJ", "VBN", "IN", "DT", "JJ", "NNP", "JJ", "CC", "VBG", "DT", "JJ", "NN", "."]
-    text: 'The_most unusual of them is the Ithaca 49 (about $20, $5 for a saddle scabbard)
-  - a lever-action single-shot patterned after the famous Winchester lever-action
-  and featuring the Western look.'
-    tokens: [[0, 8], [9, 16], [17, 19], [20, 24], [25, 27], [28, 31], [32, 38], [39, 41], [42, 43], [43, 48], [49, 50], [50, 52], [52, 53], [54, 55], [55, 56], [57, 60], [61, 62], [63, 69], [70, 78], [78, 79], [80, 81], [82, 83], [84, 96], [97, 108], [109, 118], [119, 124], [125, 128], [129, 135], [136, 146], [147, 159], [160, 163], [164, 173], [174, 177], [178, 185], [186, 190], [190, 191]]
+    text: 'The_most unusual of them is the Ithaca 49 (about $20, $5 for a saddle scabbard)- a lever-action single-shot patterned after the famous Winchester lever-action and featuring the Western look.'
+    tokens: [[0, 8], [9, 16], [17, 19], [20, 24], [25, 27], [28, 31], [32, 38], [39, 41], [42, 43], [43, 48], [49, 50], [50, 52], [52, 53], [54, 55], [55, 56], [57, 60], [61, 62], [63, 69], [70, 78], [78, 79], [79, 80], [81, 82], [83, 95], [96, 107], [108, 117], [118, 123], [124, 127], [128, 134], [135, 145], [146, 158], [159, 162], [163, 172], [173, 176], [177, 184], [185, 189], [189, 190]]
     wn16_key: [[4, "be%2:42:06::"], [24, "pattern%2:36:00::"], [31, "feature%2:42:01::"]]
     wn30_key: [[4, "be%2:42:06::"], [24, "pattern%2:36:00::"], [31, "feature%2:42:01::"]]
 TJnw:
@@ -848,8 +813,8 @@ rDHX:
     oewn_key: [[1, "oewn-02622439-v"], [12, "oewn-02610777-v"], [26, "oewn-01529393-v"], [35, "oewn-01249990-v"]]
     paragraph: '22'
     pos: ["DT", "VBZ", "DT", "NN", "CD", "CD", "IN", "$", "CD", "CD", ":", "PRP", "VBZ", "DT", "JJ", "JJ", "IN", "DT", "JJ", "NN", ":", "NN", "NNP", ",", "DT", "NN", "VB", "DT", "NN", "DT", "NN", "VB", "CC", "DT", "NN", "VBN", "IN", "DT", "JJ", "NN", "."]
-    text: 'This is the Model 122 (about $20); it''s a single-shot bolt-action with an automatic safety - i.e., the safety goes_on every time the bolt is_lifted and the gun cocked for the next shot.'
-    tokens: [[0, 4], [5, 7], [8, 11], [12, 17], [18, 21], [22, 23], [23, 28], [29, 30], [30, 32], [32, 33], [33, 34], [35, 37], [37, 39], [40, 41], [42, 53], [54, 65], [66, 70], [71, 73], [74, 83], [84, 90], [91, 92], [93, 95], [95, 97], [97, 98], [99, 102], [103, 109], [110, 117], [118, 123], [124, 128], [129, 132], [133, 137], [138, 147], [148, 151], [152, 155], [156, 159], [160, 166], [167, 170], [171, 174], [175, 179], [180, 184], [184, 185]]
+    text: 'This is the Model 122 (about $20); it''s a single-shot bolt-action with an automatic safety- i.e., the safety goes_on every time the bolt is_lifted and the gun cocked for the next shot.'
+    tokens: [[0, 4], [5, 7], [8, 11], [12, 17], [18, 21], [22, 23], [23, 28], [29, 30], [30, 32], [32, 33], [33, 34], [35, 37], [37, 39], [40, 41], [42, 53], [54, 65], [66, 70], [71, 73], [74, 83], [84, 90], [90, 91], [92, 94], [94, 96], [96, 97], [98, 101], [102, 108], [109, 116], [117, 122], [123, 127], [128, 131], [132, 136], [137, 146], [147, 150], [151, 154], [155, 158], [159, 165], [166, 169], [170, 173], [174, 178], [179, 183], [183, 184]]
     wn16_key: [[1, "be%2:42:06::"], [12, "be%2:42:03::"], [26, "go_on%2:35:00::"], [35, "cock%2:35:00::"]]
     wn30_key: [[1, "be%2:42:06::"], [12, "be%2:42:03::"], [26, "go_on%2:35:00::"], [35, "cock%2:35:00::"]]
 xtMH:
@@ -862,18 +827,16 @@ xtMH:
     wn16_key: [[2, "be%2:42:03::"], [8, "be%2:42:06::"]]
     wn30_key: [[2, "be%2:42:03::"], [8, "be%2:42:06::"]]
 UZud:
-    lemmas: ["Another", "boy", "'s", "model", "be", "the", ".22", "single-shot", "Remington", "514", "c", "(", "around", "$", "20", ")", ",", "which", "come_with", "a", "21", "-", "inch", "barrel", "and", "a", "short", "-", "12", "-", "1", "2", "-", "inch", "-", "stock", ";", "it", "be", "just_right", "for", "a", "boy", "of", "12", "-", "1", "2", "."]
-    oewn_key: [[4, "oewn-02622439-v"], [18, "oewn-02722040-v"], [38, "oewn-02610777-v"]]
+    lemmas: ["Another", "boy", "'s", "model", "be", "the", ".22", "single-shot", "Remington", "514", "c", "(", "around", "$", "20", ")", ",", "which", "come_with", "a", "21-inch", "barrel", "and", "a", "short", "-", "12", "-", "1", "2", "-", "inch", "-", "stock", ";", "it", "be", "just_right", "for", "a", "boy", "of", "12", "-", "1", "2", "."]
+    oewn_key: [[4, "oewn-02622439-v"], [18, "oewn-02722040-v"], [36, "oewn-02610777-v"]]
     paragraph: '22'
-    pos: ["DT", "NN", "POS", "NN", "VBZ", "DT", "CD", "JJ", "NNP", "CD", "NN", "NNP", "IN", "$", "CD", "CD", ",", "WDT", "VBP", "DT", "CD", ":", "NN", "NN", "CC", "DT", "JJ", ":", "CD", ":", "CD", "CD", ":", "NN", ":", "NN", ":", "PRP", "VBZ", "RB", "IN", "DT", "NN", "IN", "CD", ":", "CD", "CD", "."]
-    text: 'Another boy''s model is the .22 single-shot Remington 514 C (around $20), which
-  comes_with a 21 - inch barrel and a short - 12 - 1 2 - inch - stock; it''s just_right
-  for a boy of 12 - 1 2.
+    pos: ["DT", "NN", "POS", "NN", "VBZ", "DT", "CD", "JJ", "NNP", "CD", "NN", "NNP", "IN", "$", "CD", "CD", ",", "WDT", "VBP", "DT", "JJ", "NN", "CC", "DT", "JJ", ":", "CD", ":", "CD", "CD", ":", "NN", ":", "NN", ":", "PRP", "VBZ", "RB", "IN", "DT", "NN", "IN", "CD", ":", "CD", "CD", "."]
+    text: 'Another boy''s model is the .22 single-shot Remington 514C (around $20), which comes_with a 21-inch barrel and a short - 12 - 1 2 - inch - stock; it''s just_right for a boy of 12 - 1 2.
 
   '
-    tokens: [[0, 7], [8, 11], [11, 13], [14, 19], [20, 22], [23, 26], [27, 30], [31, 42], [43, 52], [53, 56], [57, 58], [59, 60], [60, 66], [67, 68], [68, 70], [70, 71], [71, 72], [73, 78], [79, 89], [90, 91], [92, 94], [95, 96], [97, 101], [102, 108], [109, 112], [113, 114], [115, 120], [121, 122], [123, 125], [126, 127], [128, 129], [130, 131], [132, 133], [134, 138], [139, 140], [141, 146], [146, 147], [148, 150], [150, 152], [153, 163], [164, 167], [168, 169], [170, 173], [174, 176], [177, 179], [180, 181], [182, 183], [184, 185], [185, 186]]
-    wn16_key: [[4, "be%2:42:06::"], [18, "come_with%2:42:00::"], [38, "be%2:42:03::"]]
-    wn30_key: [[4, "be%2:42:06::"], [18, "come_with%2:42:00::"], [38, "be%2:42:03::"]]
+    tokens: [[0, 7], [8, 11], [11, 13], [14, 19], [20, 22], [23, 26], [27, 30], [31, 42], [43, 52], [53, 56], [56, 57], [58, 59], [59, 65], [66, 67], [67, 69], [69, 70], [70, 71], [72, 77], [78, 88], [89, 90], [91, 98], [99, 105], [106, 109], [110, 111], [112, 117], [118, 119], [120, 122], [123, 124], [125, 126], [127, 128], [129, 130], [131, 135], [136, 137], [138, 143], [143, 144], [145, 147], [147, 149], [150, 160], [161, 164], [165, 166], [167, 170], [171, 173], [174, 176], [177, 178], [179, 180], [181, 182], [182, 183]]
+    wn16_key: [[4, "be%2:42:06::"], [18, "come_with%2:42:00::"], [36, "be%2:42:03::"]]
+    wn30_key: [[4, "be%2:42:06::"], [18, "come_with%2:42:00::"], [36, "be%2:42:03::"]]
 r69e:
     lemmas: ["A", "beginner", "'s", "shotgun", "have", "also", "be", "introduce", "this", "year", "."]
     oewn_key: [[7, "oewn-01645979-v"]]
@@ -884,16 +847,14 @@ r69e:
     wn16_key: [[7, "introduce%2:36:00::"]]
     wn30_key: [[7, "introduce%2:36:00::"]]
 P9Qk:
-    lemmas: ["The", "single-barrel", "stevens", "940", "y", "(", "under", "$", "35", ")", "be", "make", "with", "a", "side", "lever", "rather_than", "a", "top-tang", "lever", "because", "many", "youngster", "be", "n't", "strong", "enough", "to", "operate", "a", "top", "tang", "to", "open", "a", "gun", "-", "and", "the", "side", "lever", "do", "indeed", "open", "very", "easily", "."]
-    oewn_key: [[11, "oewn-01624592-v"], [23, "oewn-02610777-v"], [28, "oewn-01227308-v"], [33, "oewn-01348685-v"], [43, "oewn-01349486-v"]]
+    lemmas: ["The", "single-barrel", "stevens", "940", "y", "(", "under", "$", "35", ")", "be", "make", "with", "a", "side", "lever", "rather", "than", "a", "top-tang", "lever", "because", "many", "youngster", "be", "n't", "strong", "enough", "to", "operate", "a", "top", "tang", "to", "open", "a", "gun", "-", "and", "the", "side", "lever", "do", "indeed", "open", "very", "easily", "."]
+    oewn_key: [[11, "oewn-01624592-v"], [24, "oewn-02610777-v"], [29, "oewn-01227308-v"], [34, "oewn-01348685-v"], [44, "oewn-01349486-v"]]
     paragraph: '23'
-    pos: ["DT", "JJ", "NNP", "CD", "NNP", "NN", "IN", "$", "CD", "CD", "VBZ", "VBN", "IN", "DT", "NN", "NN", "RB", "DT", "JJ", "NN", "IN", "JJ", "NNS", "VBP", "RB", "JJ", "RB", "TO", "VB", "DT", "JJ", "NN", "TO", "VB", "DT", "NN", ":", "CC", "DT", "NN", "NN", "VBZ", "RB", "VB", "RB", "RB", "."]
-    text: 'The single-barrel Stevens 940 Y (under $35) is made with a side lever rather_than
-  a top-tang lever because many youngsters aren''t strong enough to operate a top
-  tang to open a gun - and the side lever does indeed open very easily.'
-    tokens: [[0, 3], [4, 17], [18, 25], [26, 29], [30, 31], [32, 33], [33, 38], [39, 40], [40, 42], [42, 43], [44, 46], [47, 51], [52, 56], [57, 58], [59, 63], [64, 69], [70, 81], [82, 83], [84, 92], [93, 98], [99, 106], [107, 111], [112, 122], [123, 126], [126, 129], [130, 136], [137, 143], [144, 146], [147, 154], [155, 156], [157, 160], [161, 165], [166, 168], [169, 173], [174, 175], [176, 179], [180, 181], [182, 185], [186, 189], [190, 194], [195, 200], [201, 205], [206, 212], [213, 217], [218, 222], [223, 229], [229, 230]]
-    wn16_key: [[11, "make%2:36:01::"], [23, "be%2:42:03::"], [28, "operate%2:35:00::"], [33, "open%2:35:00::"], [43, "open%2:35:06::"]]
-    wn30_key: [[11, "make%2:36:01::"], [23, "be%2:42:03::"], [28, "operate%2:35:00::"], [33, "open%2:35:00::"], [43, "open%2:35:06::"]]
+    pos: ["DT", "JJ", "NNP", "CD", "NNP", "NN", "IN", "$", "CD", "CD", "VBZ", "VBN", "IN", "DT", "NN", "NN", "IN", "IN", "DT", "JJ", "NN", "IN", "JJ", "NNS", "VBP", "RB", "JJ", "RB", "TO", "VB", "DT", "JJ", "NN", "TO", "VB", "DT", "NN", ":", "CC", "DT", "NN", "NN", "VBZ", "RB", "VB", "RB", "RB", "."]
+    text: 'The single-barrel Stevens 940Y (under $35) is made with a side lever rather than a top-tang lever because many youngsters aren''t strong enough to operate a top tang to open a gun- and the side lever does indeed open very easily.'
+    tokens: [[0, 3], [4, 17], [18, 25], [26, 29], [29, 30], [31, 32], [32, 37], [38, 39], [39, 41], [41, 42], [43, 45], [46, 50], [51, 55], [56, 57], [58, 62], [63, 68], [69, 75], [76, 80], [81, 82], [83, 91], [92, 97], [98, 105], [106, 110], [111, 121], [122, 125], [125, 128], [129, 135], [136, 142], [143, 145], [146, 153], [154, 155], [156, 159], [160, 164], [165, 167], [168, 172], [173, 174], [175, 178], [178, 179], [180, 183], [184, 187], [188, 192], [193, 198], [199, 203], [204, 210], [211, 215], [216, 220], [221, 227], [227, 228]]
+    wn16_key: [[11, "make%2:36:01::"], [24, "be%2:42:03::"], [29, "operate%2:35:00::"], [34, "open%2:35:00::"], [44, "open%2:35:06::"]]
+    wn30_key: [[11, "make%2:36:01::"], [24, "be%2:42:03::"], [29, "operate%2:35:00::"], [34, "open%2:35:00::"], [44, "open%2:35:06::"]]
 RFbG:
     lemmas: ["This", "gun", "have", "a", "12", "-", "1", "2", "-", "inch", "stock", "and", "be", "available", "in", "either", "20", "or", ".410", "gauge", "."]
     oewn_key: [[2, "oewn-02636270-v"], [12, "oewn-02610777-v"]]
@@ -904,18 +865,16 @@ RFbG:
     wn16_key: [[2, "have%2:42:00::"], [12, "be%2:42:03::"]]
     wn30_key: [[2, "have%2:42:00::"], [12, "be%2:42:03::"]]
 cH8X:
-    lemmas: ["There", "'s", "another", "addition", "to", "the", "stevens", "line", ",", "the", "pump-action", "model", "77", "in", ".410", "(", "under", "$", "75", ")", ",", "which", "you", "may", "or", "may_not", "consider", "a", "kid", "'s", "gun", ";", "many", "experienced", "hunter", "like", "this", "gauge", "and", "type", "of", "scattergun", "too", "."]
-    oewn_key: [[26, "oewn-00692380-v"], [35, "oewn-01781131-v"]]
+    lemmas: ["There", "'s", "another", "addition", "to", "the", "stevens", "line", ",", "the", "pump-action", "model", "77", "in", ".410", "(", "under", "$", "75", ")", ",", "which", "you", "may", "or", "may", "not", "consider", "a", "kid", "'s", "gun", ";", "many", "experienced", "hunter", "like", "this", "gauge", "and", "type", "of", "scattergun", "too", "."]
+    oewn_key: [[27, "oewn-00692380-v"], [36, "oewn-01781131-v"]]
     paragraph: '23'
-    pos: ["EX", "VBZ", "DT", "NN", "TO", "DT", "NNP", "NN", ",", "DT", "JJ", "NN", "CD", "IN", "CD", "FW", "IN", "$", "CD", "CD", ",", "WDT", "PRP", "MD", "CC", "VB", "VBP", "DT", "NN", "POS", "NN", ":", "JJ", "JJ", "NNS", "VB", "DT", "NN", "CC", "NN", "IN", "NN", "RB", "."]
-    text: 'There''s another addition to the Stevens line, the pump-action Model 77 in .410
-  (under $75), which you may or may_not consider a kid''s gun; many experienced hunters
-  like this gauge and type of scattergun too.
+    pos: ["EX", "VBZ", "DT", "NN", "TO", "DT", "NNP", "NN", ",", "DT", "JJ", "NN", "CD", "IN", "CD", "FW", "IN", "$", "CD", "CD", ",", "WDT", "PRP", "MD", "CC", "MD", "RB", "VBP", "DT", "NN", "POS", "NN", ":", "JJ", "JJ", "NNS", "VB", "DT", "NN", "CC", "NN", "IN", "NN", "RB", "."]
+    text: 'There''s another addition to the Stevens line, the pump-action Model 77 in .410 (under $75), which you may or may not consider a kid''s gun; many experienced hunters like this gauge and type of scattergun too.
 
   '
-    tokens: [[0, 5], [5, 7], [8, 15], [16, 24], [25, 27], [28, 31], [32, 39], [40, 44], [44, 45], [46, 49], [50, 61], [62, 67], [68, 70], [71, 73], [74, 78], [79, 80], [80, 85], [86, 87], [87, 89], [89, 90], [90, 91], [92, 97], [98, 101], [102, 105], [106, 108], [109, 116], [117, 125], [126, 127], [128, 131], [131, 133], [134, 137], [137, 138], [139, 143], [144, 155], [156, 163], [164, 168], [169, 173], [174, 179], [180, 183], [184, 188], [189, 191], [192, 202], [203, 206], [206, 207]]
-    wn16_key: [[26, "consider%2:31:00::"], [35, "like%2:37:05::"]]
-    wn30_key: [[26, "consider%2:31:00::"], [35, "like%2:37:05::"]]
+    tokens: [[0, 5], [5, 7], [8, 15], [16, 24], [25, 27], [28, 31], [32, 39], [40, 44], [44, 45], [46, 49], [50, 61], [62, 67], [68, 70], [71, 73], [74, 78], [79, 80], [80, 85], [86, 87], [87, 89], [89, 90], [90, 91], [92, 97], [98, 101], [102, 105], [106, 108], [109, 112], [113, 116], [117, 125], [126, 127], [128, 131], [131, 133], [134, 137], [137, 138], [139, 143], [144, 155], [156, 163], [164, 168], [169, 173], [174, 179], [180, 183], [184, 188], [189, 191], [192, 202], [203, 206], [206, 207]]
+    wn16_key: [[27, "consider%2:31:00::"], [36, "like%2:37:05::"]]
+    wn30_key: [[27, "consider%2:31:00::"], [36, "like%2:37:05::"]]
 TZ+w:
     lemmas: ["Although", "there", "be", "no", "startling", "development", "in", "shotgun", "design", "this", "year", ",", "a_number_of", "new", "model", "and", "variation", "of", "existing", "model", "do", "hit", "the", "market", "."]
     oewn_key: [[2, "oewn-02610777-v"]]
@@ -927,19 +886,16 @@ TZ+w:
     wn16_key: [[2, "be%2:42:04::"]]
     wn30_key: [[2, "be%2:42:04::"]]
 ulxl:
-    lemmas: ["for_example", ",", "a", "browning", "trap", "version", "of", "the", "Superposed", "over", "/", "under", ",", "the", "broadway", "(", "from", "$", "350", "up", ",", "depending_on", "grade", ")", ",", "differ", "from", "standard", "model", "in_that", "it", "be", "equipped", "with", "a", "full", "beavertail", "fore", "end", ",", "a", "cushion", "recoil", "pad", "and", "a", "barrel-wide", "ventilated", "rib", "for", "fast", "sighting", "."]
-    oewn_key: [[25, "oewn-02672316-v"], [31, "oewn-02610777-v"]]
+    lemmas: ["for_example", ",", "a", "browning", "trap", "version", "of", "the", "Superposed", "over", "/", "under", ",", "the", "broadway", "(", "from", "$", "350", "up", ",", "depending_on", "grade", ")", ",", "differ", "from", "standard", "model", "in", "that", "it", "be", "equipped", "with", "a", "full", "beavertail", "fore", "end", ",", "a", "cushion", "recoil", "pad", "and", "a", "barrel-wide", "ventilated", "rib", "for", "fast", "sighting", "."]
+    oewn_key: [[25, "oewn-02672316-v"], [32, "oewn-02610777-v"]]
     paragraph: '24'
-    pos: ["RB", ",", "DT", "NNP", "NN", "NN", "IN", "DT", "NN", "IN", ":", "RB", ",", "DT", "NNP", "NNP", "IN", "$", "CD", "RB", ",", "JJ", "NN", "NN", ",", "VBZ", "IN", "JJ", "NNS", "RB", "PRP", "VBZ", "JJ", "IN", "DT", "JJ", "NN", "NN", "NN", ",", "DT", "NN", "NN", "NN", "CC", "DT", "JJ", "JJ", "NN", "IN", "RB", "NN", "."]
-    text: 'For_example, a Browning trap version of the Superposed over / under, the Broadway
-  (from $350 up, depending_on grade), differs from standard models in_that it is equipped
-  with a full beavertail fore end, a cushion recoil pad and a barrel-wide ventilated
-  rib for fast sighting.
+    pos: ["RB", ",", "DT", "NNP", "NN", "NN", "IN", "DT", "NN", "IN", ":", "RB", ",", "DT", "NNP", "NNP", "IN", "$", "CD", "RB", ",", "JJ", "NN", "NN", ",", "VBZ", "IN", "JJ", "NNS", "IN", "IN", "PRP", "VBZ", "JJ", "IN", "DT", "JJ", "NN", "NN", "NN", ",", "DT", "NN", "NN", "NN", "CC", "DT", "JJ", "JJ", "NN", "IN", "RB", "NN", "."]
+    text: 'For_example, a Browning trap version of the Superposed over/under, the Broadway (from $350 up, depending_on grade), differs from standard models in that it is equipped with a full beavertail fore end, a cushion recoil pad and a barrel-wide ventilated rib for fast sighting.
 
   '
-    tokens: [[0, 11], [11, 12], [13, 14], [15, 23], [24, 28], [29, 36], [37, 39], [40, 43], [44, 54], [55, 59], [60, 61], [62, 67], [67, 68], [69, 72], [73, 81], [82, 83], [83, 87], [88, 89], [89, 92], [93, 95], [95, 96], [97, 109], [110, 115], [115, 116], [116, 117], [118, 125], [126, 130], [131, 139], [140, 146], [147, 154], [155, 157], [158, 160], [161, 169], [170, 174], [175, 176], [177, 181], [182, 192], [193, 197], [198, 201], [201, 202], [203, 204], [205, 212], [213, 219], [220, 223], [224, 227], [228, 229], [230, 241], [242, 252], [253, 256], [257, 260], [261, 265], [266, 274], [274, 275]]
-    wn16_key: [[25, "differ%2:42:00::"], [31, "be%2:42:03::"]]
-    wn30_key: [[25, "differ%2:42:00::"], [31, "be%2:42:03::"]]
+    tokens: [[0, 11], [11, 12], [13, 14], [15, 23], [24, 28], [29, 36], [37, 39], [40, 43], [44, 54], [55, 59], [59, 60], [60, 65], [65, 66], [67, 70], [71, 79], [80, 81], [81, 85], [86, 87], [87, 90], [91, 93], [93, 94], [95, 107], [108, 113], [113, 114], [114, 115], [116, 123], [124, 128], [129, 137], [138, 144], [145, 147], [148, 152], [153, 155], [156, 158], [159, 167], [168, 172], [173, 174], [175, 179], [180, 190], [191, 195], [196, 199], [199, 200], [201, 202], [203, 210], [211, 217], [218, 221], [222, 225], [226, 227], [228, 239], [240, 250], [251, 254], [255, 258], [259, 263], [264, 272], [272, 273]]
+    wn16_key: [[25, "differ%2:42:00::"], [32, "be%2:42:03::"]]
+    wn30_key: [[25, "differ%2:42:00::"], [32, "be%2:42:03::"]]
 sACv:
     lemmas: ["The", "colt", "line", "now", "include", "a", "new", "scattergun", ",", "the", "standard", "or", "custom_pump", "model", "(", "about", "$", "90", "and", "$", "150", ",", "respectively", ")", "in", "12", ",", "16", "and", "20", "."]
     oewn_key: [[4, "oewn-02639021-v"]]
@@ -966,11 +922,10 @@ erjq:
     oewn_key: [[24, "oewn-02610777-v"], [35, "oewn-02252172-v"]]
     paragraph: '26'
     pos: ["PRP", "VBZ", "DT", "NN", "NNP", "IN", "$", "CD", "CD", ",", "DT", "CD", ":", "NN", "IN", ":", "IN", "RB", "DT", "JJ", "NNP", "CD", ":", "WDT", "VBD", "RB", "JJ", "DT", "NN", "IN", "NN", "DT", "JJ", "CD", "RB", "VBZ", "JJ", "NNS", "."]
-    text: 'It''s the Valmet (about $170), a 12 - gauge over / under very_much_like the old
-  Remington 32 - which was so fine a gun that today a used one still brings high prices.
+    text: 'It''s the Valmet (about $170), a 12-gauge over/under very_much_like the old Remington 32- which was so fine a gun that today a used one still brings high prices.
 
   '
-    tokens: [[0, 2], [2, 4], [5, 8], [9, 15], [16, 17], [17, 22], [23, 24], [24, 27], [27, 28], [28, 29], [30, 31], [32, 34], [35, 36], [37, 42], [43, 47], [48, 49], [50, 55], [56, 70], [71, 74], [75, 78], [79, 88], [89, 91], [92, 93], [94, 99], [100, 103], [104, 106], [107, 111], [112, 113], [114, 117], [118, 122], [123, 128], [129, 130], [131, 135], [136, 139], [140, 145], [146, 152], [153, 157], [158, 164], [164, 165]]
+    tokens: [[0, 2], [2, 4], [5, 8], [9, 15], [16, 17], [17, 22], [23, 24], [24, 27], [27, 28], [28, 29], [30, 31], [32, 34], [34, 35], [35, 40], [41, 45], [45, 46], [46, 51], [52, 66], [67, 70], [71, 74], [75, 84], [85, 87], [87, 88], [89, 94], [95, 98], [99, 101], [102, 106], [107, 108], [109, 112], [113, 117], [118, 123], [124, 125], [126, 130], [131, 134], [135, 140], [141, 147], [148, 152], [153, 159], [159, 160]]
     wn16_key: [[24, "be%2:42:03::"], [35, "bring%2:40:00::"]]
     wn30_key: [[24, "be%2:42:03::"], [35, "bring%2:40:00::"]]
 IhUH:
@@ -983,13 +938,12 @@ IhUH:
     wn16_key: [[3, "add%2:30:00::"]]
     wn30_key: [[3, "add%2:30:00::"]]
 h0hR:
-    lemmas: ["The", "Supermatic", "trophy", "(", "price", "begin", "at", "less_than", "$", "135", "and", "depend_on", "grade", "and", "optional", "feature", ")", "be", "a", "12", "-", "gauge", "auto", "."]
+    lemmas: ["The", "Supermatic", "trophy", "(", "price", "begin", "at", "less_than", "$", "135", "and", "depend_on", "grade", "and", "optional", "feature", ")", "be", "a", "12-gauge", "auto", "."]
     oewn_key: [[5, "oewn-02614382-v"], [11, "oewn-02717862-v"], [17, "oewn-02622439-v"]]
     paragraph: '27'
-    pos: ["DT", "JJ", "NNP", "NN", "NNS", "VBP", "IN", "RB", "$", "CD", "CC", "VB", "NN", "CC", "JJ", "NNS", "NN", "VBZ", "DT", "CD", ":", "NN", "NN", "."]
-    text: 'The Supermatic Trophy (prices begin at less_than $135 and depend_on grade and optional
-  features) is a 12 - gauge auto.'
-    tokens: [[0, 3], [4, 14], [15, 21], [22, 23], [23, 29], [30, 35], [36, 38], [39, 48], [49, 50], [50, 53], [54, 57], [58, 67], [68, 73], [74, 77], [78, 86], [87, 95], [95, 96], [97, 99], [100, 101], [102, 104], [105, 106], [107, 112], [113, 117], [117, 118]]
+    pos: ["DT", "JJ", "NNP", "NN", "NNS", "VBP", "IN", "RB", "$", "CD", "CC", "VB", "NN", "CC", "JJ", "NNS", "NN", "VBZ", "DT", "NN", "NN", "."]
+    text: 'The Supermatic Trophy (prices begin at less_than $135 and depend_on grade and optional features) is a 12-gauge auto.'
+    tokens: [[0, 3], [4, 14], [15, 21], [22, 23], [23, 29], [30, 35], [36, 38], [39, 48], [49, 50], [50, 53], [54, 57], [58, 67], [68, 73], [74, 77], [78, 86], [87, 95], [95, 96], [97, 99], [100, 101], [102, 110], [111, 115], [115, 116]]
     wn16_key: [[5, "begin%2:42:00::"], [11, "depend_on%2:42:00::"], [17, "be%2:42:06::"]]
     wn30_key: [[5, "begin%2:42:00::"], [11, "depend_on%2:42:00::"], [17, "be%2:42:06::"]]
 Ck6g:
@@ -1013,13 +967,12 @@ I49X:
     wn16_key: [[2, "be%2:42:03::"]]
     wn30_key: [[2, "be%2:42:03::"]]
 MSqi:
-    lemmas: ["Mossberg", "'s", "latest", "contribution", "to", "the", "field", "be", "the", "model", "500", "(", "from", "$", "73.50", ")", ";", "this", "be", "an", "improved", "version", "of", "the", "old", "model", "200", ",", "a", "pump-action", "12", "-", "gauge", "shotgun", "."]
+    lemmas: ["Mossberg", "'s", "latest", "contribution", "to", "the", "field", "be", "the", "model", "500", "(", "from", "$", "73.50", ")", ";", "this", "be", "an", "improved", "version", "of", "the", "old", "model", "200", ",", "a", "pump-action", "12-gauge", "shotgun", "."]
     oewn_key: [[7, "oewn-02622439-v"], [18, "oewn-02622439-v"]]
     paragraph: '28'
-    pos: ["JJ", "POS", "JJS", "NN", "TO", "DT", "NN", "VBZ", "DT", "NN", "CD", "CD", "IN", "$", "CD", "CD", ":", "DT", "VBZ", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "CD", ",", "DT", "JJ", "CD", ":", "NN", "NN", "."]
-    text: 'Mossberg''s latest contribution to the field is the Model 500 (from $73.50); this
-  is an improved version of the old Model 200, a pump-action 12 - gauge shotgun.'
-    tokens: [[0, 8], [8, 10], [11, 17], [18, 30], [31, 33], [34, 37], [38, 43], [44, 46], [47, 50], [51, 56], [57, 60], [61, 62], [62, 66], [67, 68], [68, 73], [73, 74], [74, 75], [76, 80], [81, 83], [84, 86], [87, 95], [96, 103], [104, 106], [107, 110], [111, 114], [115, 120], [121, 124], [124, 125], [126, 127], [128, 139], [140, 142], [143, 144], [145, 150], [151, 158], [158, 159]]
+    pos: ["JJ", "POS", "JJS", "NN", "TO", "DT", "NN", "VBZ", "DT", "NN", "CD", "CD", "IN", "$", "CD", "CD", ":", "DT", "VBZ", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "CD", ",", "DT", "JJ", "NN", "NN", "."]
+    text: 'Mossberg''s latest contribution to the field is the Model 500 (from $73.50); this is an improved version of the old Model 200, a pump-action 12-gauge shotgun.'
+    tokens: [[0, 8], [8, 10], [11, 17], [18, 30], [31, 33], [34, 37], [38, 43], [44, 46], [47, 50], [51, 56], [57, 60], [61, 62], [62, 66], [67, 68], [68, 73], [73, 74], [74, 75], [76, 80], [81, 83], [84, 86], [87, 95], [96, 103], [104, 106], [107, 110], [111, 114], [115, 120], [121, 124], [124, 125], [126, 127], [128, 139], [140, 148], [149, 156], [156, 157]]
     wn16_key: [[7, "be%2:42:06::"], [18, "be%2:42:06::"]]
     wn30_key: [[7, "be%2:42:06::"], [18, "be%2:42:06::"]]
 XBty:
@@ -1038,11 +991,9 @@ WoKq:
     oewn_key: [[8, "oewn-01295488-v"], [26, "oewn-00423043-v"]]
     paragraph: '29'
     pos: ["RB", "IN", "DT", "CD", "NNP", ":", "WDT", "PRP", "VBD", "IN", "DT", "NN", "NN", "IN", "CD", "IN", "DT", "NN", "POS", "CD", "JJS", "NNS", ":", "JJ", "JJ", "NNS", "VBD", "IN", "CD", "POS", "NNS", "."]
-    text: 'Aside from the .22 Jet - which I coupled with the Deerstalker carbine as one of
-  the year''s two biggest developments - few significant innovations appeared among
-  1961''s handguns.
+    text: 'Aside from the .22 Jet- which I coupled with the Deerstalker carbine as one of the year''s two biggest developments- few significant innovations appeared among 1961''s handguns.
 
   '
-    tokens: [[0, 5], [6, 10], [11, 14], [15, 18], [19, 22], [23, 24], [25, 30], [31, 32], [33, 40], [41, 45], [46, 49], [50, 61], [62, 69], [70, 72], [73, 76], [77, 79], [80, 83], [84, 88], [88, 90], [91, 94], [95, 102], [103, 115], [116, 117], [118, 121], [122, 133], [134, 145], [146, 154], [155, 160], [161, 165], [165, 167], [168, 176], [176, 177]]
+    tokens: [[0, 5], [6, 10], [11, 14], [15, 18], [19, 22], [22, 23], [24, 29], [30, 31], [32, 39], [40, 44], [45, 48], [49, 60], [61, 68], [69, 71], [72, 75], [76, 78], [79, 82], [83, 87], [87, 89], [90, 93], [94, 101], [102, 114], [114, 115], [116, 119], [120, 131], [132, 143], [144, 152], [153, 158], [159, 163], [163, 165], [166, 174], [174, 175]]
     wn16_key: [[8, "couple%2:35:02::"], [26, "appear%2:30:00::"]]
     wn30_key: [[8, "couple%2:35:02::"], [26, "appear%2:30:00::"]]
