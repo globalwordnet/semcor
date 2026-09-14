@@ -180,9 +180,31 @@ def _escape_anchor_word(word: str) -> str:
 def _anchor_pattern(words: list[str]) -> re.Pattern[str]:
     # Allow up to 20 non-word characters (including '_', used for this
     # transcription's italics/caps markup) between anchor words, so the
-    # anchor still matches across intervening punctuation/markup.
+    # anchor still matches across intervening punctuation/markup. Each
+    # word also gets its own leading boundary so a short one-letter
+    # fallback anchor (k=1 in locate_file_boundaries's loop, e.g. 'A')
+    # can't match mid-word -- without it, 'A' matched inside 'Garson' a
+    # few characters into the *previous* file's own first sentence,
+    # cutting that file's span down to nothing and handing everything
+    # else to the next file (see the ca29/ca30 pair this was found
+    # against). A plain '\b' is the wrong tool here, though: regex
+    # treats '_' as a word character, so it wouldn't fire between a
+    # dateline's leading '_' markup and the word it introduces
+    # (`_AUSTIN, TEXAS_-`) -- this corpus's own convention already
+    # treats '_' as a separator (see the '[\W_]' class above), so the
+    # boundary check does too: only a *letter/digit* immediately before
+    # the word is disallowed. A trailing lookahead guards the same way
+    # on the other side -- without it, a single-letter fallback anchor
+    # like 'A' matches as a prefix of 'And'/'Austin'/any other word
+    # starting with the same letter, which is exactly how the ca29/ca30
+    # fix above still landed 41 characters into 'and' rather than at a
+    # real word boundary.
+    word_pattern = "".join(
+        [r"(?<![A-Za-z0-9])", "{}", r"(?![A-Za-z0-9])"]
+    )
     return re.compile(
-        r"[\W_]{0,20}".join(_escape_anchor_word(w) for w in words), re.IGNORECASE
+        r"[\W_]{0,20}".join(word_pattern.format(_escape_anchor_word(w)) for w in words),
+        re.IGNORECASE,
     )
 
 
@@ -238,6 +260,23 @@ def locate_file_boundaries(nolines_text: str, fileids: list[str]) -> dict[str, i
     short, permissive anchor risks matching a much later, unrelated
     occurrence of common words and silently corrupting every subsequent
     file's position.
+
+    Known remaining weak spot: the anchor is always a *prefix* of the
+    file's first sentence (`words[:k]`, shrinking k), never a later
+    window of it. If word 2 alone is the problem -- `nltk.corpus.brown`'s
+    `cookie` where brown_nolines.txt's own transcription has the period
+    spelling `cooky` (ca30) -- or the first "sentence" is really just a
+    one-word section header too generic to anchor on at all
+    (`Introduction`, `Analysis`, `General`) -- every prefix long enough
+    to be specific still contains the bad/short word, so this falls all
+    the way to a single common word (`A`, `The`, ...) that legitimately
+    occurs earlier in the search window too, landing on the wrong
+    occurrence. `extract_brown_nolines_review`'s
+    `brown-nolines-large-mismatches.csv` output is exactly this failure
+    mode's symptom (a whole document's word list failing to align against
+    its reference span) -- left rather than guessed at further, since a
+    real fix needs either a non-prefix anchor search or a stopword-aware
+    fallback, not another one-off patch.
     """
     from nltk.corpus import brown
 
@@ -473,8 +512,10 @@ def _adopt_our_casing(
                 ref_words[rj] = ours_words[oi]
 
 
-def our_doc_words(path: Path) -> list[str]:
-    """A document's sentences' `text`, in file order, as a flat word list.
+def our_doc_words_with_sents(path: Path) -> tuple[list[str], list[str]]:
+    """Like `our_doc_words`, but also return a parallel list of each word's
+    owning sentence ID -- used by `extract_brown_nolines_review` to report
+    *where* a divergence sits, not just what it is.
 
     Underscore-joined multiword tokens are rendered back to spaces first --
     that's this corpus's own annotation convention, not a real Brown
@@ -485,11 +526,26 @@ def our_doc_words(path: Path) -> list[str]:
         data = yaml.load(f, Loader=_YAML_LOADER)
 
     words: list[str] = []
+    sent_ids: list[str] = []
     for sent_id, sent in data.items():
         if sent_id == "_meta" or not isinstance(sent, dict):
             continue
         text = (sent.get("text") or "").replace("_", " ")
-        words.extend(text.split())
+        for w in text.split():
+            words.append(w)
+            sent_ids.append(sent_id)
+    return words, sent_ids
+
+
+def our_doc_words(path: Path) -> list[str]:
+    """A document's sentences' `text`, in file order, as a flat word list.
+
+    Underscore-joined multiword tokens are rendered back to spaces first --
+    that's this corpus's own annotation convention, not a real Brown
+    Corpus character, so keeping it would show up as a spurious divergence
+    on every single-word occurrence of a multiword collocation.
+    """
+    words, _sent_ids = our_doc_words_with_sents(path)
     return words
 
 
