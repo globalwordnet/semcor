@@ -1393,6 +1393,44 @@ Like `brown-nolines.diff` itself, all three are generated, checked-in
 snapshots meant to be annotated and whittled down over time, not
 hand-maintained from scratch each run.
 
+### `semcor-add-missing-brown-content`
+
+Inserts `brown-nolines-missing.csv`'s gaps into `data/*.yaml` as new
+tokens, re-deriving the same per-document alignment
+`semcor-extract-brown-nolines-review` uses rather than re-parsing the
+CSV text (a report, not a round-trippable diff format). Handles two
+shapes: a plain `insert` opcode (a dropped subheadline), and a
+`replace` opcode that turns out to be a subheadline *prepended* before
+content this corpus already has correctly annotated (`Arnold`, `Palmer`
+-> `#GOLF'S GOLDEN BOY# ARNOLD PALMER`) -- detected via a common-suffix
+check against the existing words, so only the genuinely new leading
+words are inserted and the existing tokens (senses included) are never
+touched. A true word-fusion (`million`, `dollar` ->
+`multi-million-dollar`) is deliberately left alone: merging tokens risks
+orphaning a sense annotation the way `semcor-fix-hyphen-compound-merge`'s
+precedent shows needs individual judgment, not autopilot at CSV scale.
+Every insertion point is required to land on an existing token boundary
+in this corpus's own `tokens`; the rare case that doesn't stays in
+`brown-nolines-missing.csv` rather than being guessed at.
+
+New tokens get no `wn16_key`/`wn30_key`/`oewn_key` -- real content, but
+sense-tagging is a WSD judgment call for a human, the entire reason this
+queue exists separately. `pos` is a best-effort `nltk.pos_tag` call in
+real surrounding context (mapped into this corpus's own Penn Treebank
+tag set); `lemmas` is the lowercased surface form, this corpus's own
+fallback for tokens it never deep-lemmatizes (`Friday` -> `friday`).
+Both are provisional, expected to get refined alongside sense-tagging
+in a future pass over this same queue, not just the senses added on top.
+
+```sh
+uv run semcor-add-missing-brown-content              # apply brown-nolines-missing.csv's gaps to data/
+uv run semcor-add-missing-brown-content --dry-run     # preview without writing
+```
+
+Re-run `semcor-compare-brown-nolines` and
+`semcor-extract-brown-nolines-review` afterward to see the reduced diff
+and refresh the three CSVs.
+
 ### `semcor-verify-brown`
 
 Diffs each `data/<genre>/br-*.yaml`'s merged `text` against the matching
