@@ -246,14 +246,14 @@ SiBk:
     wn16_key: [[5, "take%2:40:06::"], [8, "read%2:31:00::"], [15, "be%2:42:06::"]]
     wn30_key: [[5, "take%2:40:06::"], [8, "read%2:31:00::"], [15, "be%2:42:06::"]]
 WMZl:
-    lemmas: ["especially", "the", "first_half", "of", "the", "third", "verse", "."]
+    lemmas: ["especially", "the", "first_half", "of", "the", "third", "verse", ".", "#out", "of", "the", "race#"]
     oewn_key: []
     paragraph: '7'
-    pos: ["RB", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
-    text: 'Especially the first_half of the third verse.
+    pos: ["RB", "DT", "NN", "IN", "DT", "JJ", "NN", ".", "NN", "IN", "NNP", "NNP"]
+    text: 'Especially the first_half of the third verse. #OUT OF THE RACE#
 
   '
-    tokens: [[0, 10], [11, 14], [15, 25], [26, 28], [29, 32], [33, 38], [39, 44], [44, 45]]
+    tokens: [[0, 10], [11, 14], [15, 25], [26, 28], [29, 32], [33, 38], [39, 44], [44, 45], [46, 50], [51, 53], [54, 57], [58, 63]]
     wn16_key: []
     wn30_key: []
 PuYD:
@@ -378,25 +378,25 @@ AQ0w:
     wn16_key: [[2, "show%2:32:00::"], [6, "explode%2:30:01::"], [12, "try%2:41:00::"], [14, "frighten%2:37:00::"]]
     wn30_key: [[2, "show%2:32:00::"], [6, "explode%2:30:01::"], [12, "try%2:41:00::"], [14, "frighten%2:37:00::"]]
 Niw2:
-    lemmas: ["Why", "be", "n't", "the", "soviets", "expel", "from", "the", "U._N.", "?"]
+    lemmas: ["Why", "be", "n't", "the", "soviets", "expel", "from", "the", "U.N.", "?"]
     oewn_key: [[5, "oewn-02507387-v"]]
     paragraph: '13'
     pos: ["WRB", "VBP", "RB", "DT", "NNPS", "VBD", "IN", "DT", "NNP", "."]
-    text: 'Why aren''t the Soviets expelled from the U._N.?
+    text: 'Why aren''t the Soviets expelled from the U.N.?
 
   '
-    tokens: [[0, 3], [4, 7], [7, 10], [11, 14], [15, 22], [23, 31], [32, 36], [37, 40], [41, 46], [46, 47]]
+    tokens: [[0, 3], [4, 7], [7, 10], [11, 14], [15, 22], [23, 31], [32, 36], [37, 40], [41, 45], [45, 46]]
     wn16_key: [[5, "expel%2:41:00::"]]
     wn30_key: [[5, "expel%2:41:00::"]]
 CXW/:
-    lemmas: ["While", "\"", "well", "late", "than", "never", "\"", "may", "have", "certain", "merit", ",", "the", "posthumous", "award", "of", "the", "nobel_prize", "for", "peace", "to", "the", "late", "dag_hammarskjold", "strike", "me", "as", "less_than", "a", "satisfactory", "expression", "of", "appreciation", "."]
-    oewn_key: [[8, "oewn-02636270-v"], [24, "oewn-01771801-v"]]
+    lemmas: ["#belated", "tribute#", "While", "\"", "well", "late", "than", "never", "\"", "may", "have", "certain", "merit", ",", "the", "posthumous", "award", "of", "the", "nobel_prize", "for", "peace", "to", "the", "late", "dag_hammarskjold", "strike", "me", "as", "less_than", "a", "satisfactory", "expression", "of", "appreciation", "."]
+    oewn_key: [[10, "oewn-02636270-v"], [26, "oewn-01771801-v"]]
     paragraph: '14'
-    pos: ["IN", "``", "RBR", "JJ", "IN", "RB", "''", "MD", "VB", "JJ", "NNS", ",", "DT", "JJ", "NN", "IN", "DT", "NN", "IN", "NNP", "TO", "DT", "JJ", "NNP", "VBZ", "PRP", "IN", "RB", "DT", "JJ", "NN", "IN", "NN", "."]
-    text: 'While "better late than never" may have certain merits, the posthumous award of the Nobel_Prize for Peace to the late Dag_Hammarskjold strikes me as less_than a satisfactory expression of appreciation.'
-    tokens: [[0, 5], [6, 7], [7, 13], [14, 18], [19, 23], [24, 29], [29, 30], [31, 34], [35, 39], [40, 47], [48, 54], [54, 55], [56, 59], [60, 70], [71, 76], [77, 79], [80, 83], [84, 95], [96, 99], [100, 105], [106, 108], [109, 112], [113, 117], [118, 134], [135, 142], [143, 145], [146, 148], [149, 158], [159, 160], [161, 173], [174, 184], [185, 187], [188, 200], [200, 201]]
-    wn16_key: [[8, "have%2:42:00::"], [24, "strike%2:37:00::"]]
-    wn30_key: [[8, "have%2:42:00::"], [24, "strike%2:37:00::"]]
+    pos: ["NNP", "NNP", "IN", "``", "RBR", "JJ", "IN", "RB", "''", "MD", "VB", "JJ", "NNS", ",", "DT", "JJ", "NN", "IN", "DT", "NN", "IN", "NNP", "TO", "DT", "JJ", "NNP", "VBZ", "PRP", "IN", "RB", "DT", "JJ", "NN", "IN", "NN", "."]
+    text: '#BELATED TRIBUTE# While "better late than never" may have certain merits, the posthumous award of the Nobel_Prize for Peace to the late Dag_Hammarskjold strikes me as less_than a satisfactory expression of appreciation.'
+    tokens: [[0, 8], [9, 17], [18, 23], [24, 25], [25, 31], [32, 36], [37, 41], [42, 47], [47, 48], [49, 52], [53, 57], [58, 65], [66, 72], [72, 73], [74, 77], [78, 88], [89, 94], [95, 97], [98, 101], [102, 113], [114, 117], [118, 123], [124, 126], [127, 130], [131, 135], [136, 152], [153, 160], [161, 163], [164, 166], [167, 176], [177, 178], [179, 191], [192, 202], [203, 205], [206, 218], [218, 219]]
+    wn16_key: [[10, "have%2:42:00::"], [26, "strike%2:37:00::"]]
+    wn30_key: [[10, "have%2:42:00::"], [26, "strike%2:37:00::"]]
 TARe:
     lemmas: ["have", "it", "be", "bestow", "while", "the", "secretary_general", "of", "the", "united_nations", "be", "living", ",", "unquestionably", "he", "would", "have", "be", "greatly", "encouraged", "in", "pursue", "a", "difficult", "and", ",", "in", "many", "ways", ",", "thankless", "task", "."]
     oewn_key: [[3, "oewn-02268154-v"], [10, "oewn-02610777-v"], [17, "oewn-02610777-v"], [21, "oewn-02380222-v"]]
@@ -563,10 +563,10 @@ VFFf:
     oewn_key: [[2, "oewn-00813037-v"], [8, "oewn-00983308-v"], [13, "oewn-02687605-v"], [15, "oewn-02018017-v"], [17, "oewn-02615799-v"]]
     paragraph: '20'
     pos: ["PRP", "MD", "VB", "DT", "NN", "NNS", "CC", ",", "VBG", "PRP", "DT", "NN", ",", "VB", "NNS", "VBG", "CC", "VBG", "IN", "DT", "NN", "IN", "DT", "NN", ":", "IN", "DT", "NN", "."]
-    text: 'We should avoid these congestion points or, putting it another way, keep ars starting and ending on the East_side of the river- on the East_side.
+    text: 'We should avoid these congestion points or, putting it another way, keep cars starting and ending on the East_side of the river- on the East_side.
 
   '
-    tokens: [[0, 2], [3, 9], [10, 15], [16, 21], [22, 32], [33, 39], [40, 42], [42, 43], [44, 51], [52, 54], [55, 62], [63, 66], [66, 67], [68, 72], [73, 76], [77, 85], [86, 89], [90, 96], [97, 99], [100, 103], [104, 113], [114, 116], [117, 120], [121, 126], [126, 127], [128, 130], [131, 134], [135, 144], [144, 145]]
+    tokens: [[0, 2], [3, 9], [10, 15], [16, 21], [22, 32], [33, 39], [40, 42], [42, 43], [44, 51], [52, 54], [55, 62], [63, 66], [66, 67], [68, 72], [73, 77], [78, 86], [87, 90], [91, 97], [98, 100], [101, 104], [105, 114], [115, 117], [118, 121], [122, 127], [127, 128], [129, 131], [132, 135], [136, 145], [145, 146]]
     wn16_key: [[2, "avoid%2:32:00::"], [8, "put%2:32:00::"], [13, "keep%2:42:00::"], [15, "start%2:38:02::"], [17, "end%2:42:00::"]]
     wn30_key: [[2, "avoid%2:32:00::"], [8, "put%2:32:00::"], [13, "keep%2:42:00::"], [15, "start%2:38:02::"], [17, "end%2:42:00::"]]
 bW0u:
@@ -907,14 +907,14 @@ YUDr:
     wn16_key: [[2, "offer%2:40:00::"], [11, "be%2:42:06::"], [18, "begin%2:42:00::"]]
     wn30_key: [[2, "offer%2:40:00::"], [11, "be%2:42:06::"], [18, "begin%2:42:00::"]]
 XUVv:
-    lemmas: ["We", "will", "know", ",", "and", "He", "will", "know", ",", "to", "whom", "it", "be", "render", ",", "what", "the_birds", "would", "ask", "."]
+    lemmas: ["We", "will", "know", ",", "and", "He", "will", "know", ",", "to", "whom", "it", "be", "render", ",", "what", "the_birds", "would", "ask", ".", "#not", "push-ups", "but", "stand-ups#"]
     oewn_key: [[2, "oewn-00596016-v"], [7, "oewn-00596016-v"], [13, "oewn-02332196-v"], [18, "oewn-00754499-v"]]
     paragraph: '36'
-    pos: ["PRP", "MD", "VB", ",", "CC", "PRP", "MD", "VB", ",", "TO", "WP", "PRP", "VBZ", "VBN", ",", "WP", "NN", "MD", "VB", "."]
-    text: 'We will know, and He will know, to whom it is rendered, what the_birds would ask.
+    pos: ["PRP", "MD", "VB", ",", "CC", "PRP", "MD", "VB", ",", "TO", "WP", "PRP", "VBZ", "VBN", ",", "WP", "NN", "MD", "VB", ".", "JJ", "NNP", "NNP", "NNP"]
+    text: 'We will know, and He will know, to whom it is rendered, what the_birds would ask. #NOT PUSH-UPS BUT STAND-UPS#
 
   '
-    tokens: [[0, 2], [3, 7], [8, 12], [12, 13], [14, 17], [18, 20], [21, 25], [26, 30], [30, 31], [32, 34], [35, 39], [40, 42], [43, 45], [46, 54], [54, 55], [56, 60], [61, 70], [71, 76], [77, 80], [80, 81]]
+    tokens: [[0, 2], [3, 7], [8, 12], [12, 13], [14, 17], [18, 20], [21, 25], [26, 30], [30, 31], [32, 34], [35, 39], [40, 42], [43, 45], [46, 54], [54, 55], [56, 60], [61, 70], [71, 76], [77, 80], [80, 81], [82, 86], [87, 95], [96, 99], [100, 110]]
     wn16_key: [[2, "know%2:31:01::"], [7, "know%2:31:01::"], [13, "render%2:40:02::"], [18, "ask%2:32:01::"]]
     wn30_key: [[2, "know%2:31:01::"], [7, "know%2:31:01::"], [13, "render%2:40:02::"], [18, "ask%2:32:01::"]]
 FVLW:
