@@ -109,6 +109,12 @@ copy:
   Arabic digits, so the slash is dropped the same way. The lookbehind
   requires a non-digit before the slash so a genuine fraction like
   `14-1/2` or `5/64''` (always digit-slash-digit) is left untouched.
+- A '`' (backtick) is this transcription's degree-symbol escape (`45`
+  ` ` = 45 degrees, `` `F& `` = degrees F.) -- every one of its 81
+  occurrences sits next to a digit or unit abbreviation, never as an
+  opening quote (this corpus already renders both quote directions as a
+  plain `"`, never a backtick either). This corpus's own equivalent is a
+  plain apostrophe, so `` ` `` is translated to `'` to match.
 
 `**f` (fraction-like placeholders, mostly in `learned`-genre science
 text) is left alone -- it looks tangled up with the already-tracked
@@ -370,6 +376,9 @@ def decode_reference_text(text: str) -> str:
     # lookbehind excludes digit-slash-digit so genuine fractions like
     # '14-1/2' are left alone.
     text = re.sub(r"(?<!\d)/(?=\d)", "", text)
+    # '`' is a degree-symbol escape (see the module docstring); this
+    # corpus's own equivalent is a plain apostrophe.
+    text = text.replace("`", "'")
     return text
 
 
@@ -427,8 +436,8 @@ def _decode_and_split(nolines_text: str, start: int, end: int) -> tuple[list[str
 def _adopt_our_casing(
     ours_words: list[str], ref_words: list[str], brace_flags: list[bool]
 ) -> None:
-    """Borrow this corpus's casing for brace-derived reference words,
-    in place.
+    """Borrow this corpus's casing for brace-derived or all-caps reference
+    words, in place.
 
     A fixed `ref_words[i]` <-> `ours_words[i]` position pairing breaks as
     soon as anything earlier in the document already diverges (a dropped
@@ -441,6 +450,14 @@ def _adopt_our_casing(
     context-window search -- re-syncs positions after each such
     divergence, so a same-length `replace` block still finds the
     brace-derived word's real counterpart.
+
+    A reference word that's ALL-CAPS on its own cased characters (`THE`,
+    `(TIME,`) gets the same treatment even outside a `{...}` span: the
+    same paragraph-lead-in/masthead small-caps convention the brace case
+    documents, just missing its brace markup in the source for this one
+    word (`str.isupper()` already requires at least one cased character
+    and ignores surrounding punctuation/digits, so a bare `,`/`(2)` token
+    never matches here).
     """
     matcher = difflib.SequenceMatcher(a=ours_words, b=ref_words, autojunk=False)
     for tag, i1, i2, j1, j2 in matcher.get_opcodes():
@@ -449,7 +466,7 @@ def _adopt_our_casing(
         for k in range(i2 - i1):
             oi, rj = i1 + k, j1 + k
             if (
-                brace_flags[rj]
+                (brace_flags[rj] or ref_words[rj].isupper())
                 and ref_words[rj] != ours_words[oi]
                 and ref_words[rj].lower() == ours_words[oi].lower()
             ):
