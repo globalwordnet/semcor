@@ -439,14 +439,14 @@ yDv0:
     wn16_key: [[1, "be%2:42:00::"], [5, "make%2:36:00::"], [13, "be%2:42:03::"]]
     wn30_key: [[1, "be%2:42:00::"], [5, "make%2:36:00::"], [13, "be%2:42:03::"]]
 MYNM:
-    lemmas: ["here", "be", "an", "original", "kedgeree", "recipe", "from", "the", "family_club", "'s", "kitchen", "."]
+    lemmas: ["here", "be", "an", "original", "kedgeree", "recipe", "from", "the", "family_club", "'s", "kitchen", ".", "#club", "kedgeree#"]
     oewn_key: [[1, "oewn-02610777-v"]]
     paragraph: '8'
-    pos: ["RB", "VBZ", "DT", "JJ", "NN", "NN", "IN", "DT", "NNP", "POS", "NN", "."]
-    text: 'Here is an original kedgeree recipe from the Family_Club''s kitchen.
+    pos: ["RB", "VBZ", "DT", "JJ", "NN", "NN", "IN", "DT", "NNP", "POS", "NN", ".", "NNP", "NNP"]
+    text: 'Here is an original kedgeree recipe from the Family_Club''s kitchen. #CLUB KEDGEREE#
 
   '
-    tokens: [[0, 4], [5, 7], [8, 10], [11, 19], [20, 28], [29, 35], [36, 40], [41, 44], [45, 56], [56, 58], [59, 66], [66, 67]]
+    tokens: [[0, 4], [5, 7], [8, 10], [11, 19], [20, 28], [29, 35], [36, 40], [41, 44], [45, 56], [56, 58], [59, 66], [66, 67], [68, 73], [74, 83]]
     wn16_key: [[1, "be%2:42:04::"]]
     wn30_key: [[1, "be%2:42:04::"]]
 4dmh:
@@ -502,14 +502,14 @@ a5UI:
     wn16_key: []
     wn30_key: []
 cSoC:
-    lemmas: ["The", "original", "formula", "go", "thus", "."]
+    lemmas: ["The", "original", "formula", "go", "thus", ".", "#omelet", "arbogast#"]
     oewn_key: [[3, "oewn-02727159-v"]]
     paragraph: '10'
-    pos: ["DT", "JJ", "NN", "VBZ", "RB", "."]
-    text: 'The original formula goes thus.
+    pos: ["DT", "JJ", "NN", "VBZ", "RB", ".", "NNP", "NNP"]
+    text: 'The original formula goes thus. #OMELET ARBOGAST#
 
   '
-    tokens: [[0, 3], [4, 12], [13, 20], [21, 25], [26, 30], [30, 31]]
+    tokens: [[0, 3], [4, 12], [13, 20], [21, 25], [26, 30], [30, 31], [32, 39], [40, 49]]
     wn16_key: [[3, "go%2:42:02::"]]
     wn30_key: [[3, "go%2:42:02::"]]
 RSbG:
@@ -819,15 +819,14 @@ pTVz:
     wn16_key: [[5, "feed%2:34:03::"], [21, "be%2:42:03::"]]
     wn30_key: [[5, "feed%2:34:03::"], [21, "be%2:42:03::"]]
 BG+v:
-    lemmas: ["Their", "ham", "butt", ",", "cure", "in", "oak-log", "smoke", ",", "be", "also", "esteem", "when", "roast", "or", "boil", ",", "and", "serve", "with", "this", "original", "sauce", "."]
+    lemmas: ["Their", "ham", "butt", ",", "cure", "in", "oak-log", "smoke", ",", "be", "also", "esteem", "when", "roast", "or", "boil", ",", "and", "serve", "with", "this", "original", "sauce:", "#wright's", "devil", "sauce", "."]
     oewn_key: [[4, "oewn-00528652-v"], [11, "oewn-00695834-v"], [13, "oewn-00325361-v"], [15, "oewn-00328938-v"], [18, "oewn-01182648-v"]]
     paragraph: '17'
-    pos: ["PRP$", "NN", "NNS", ",", "VBN", "IN", "NN", "NN", ",", "VBD", "RB", "VBN", "WRB", "VB", "CC", "VB", ",", "CC", "VBD", "IN", "DT", "JJ", "NN", "."]
-    text: 'Their ham butts, cured in oak-log smoke, were also esteemed when roasted or boiled,
-  and served with this original sauce.
+    pos: ["PRP$", "NN", "NNS", ",", "VBN", "IN", "NN", "NN", ",", "VBD", "RB", "VBN", "WRB", "VB", "CC", "VB", ",", "CC", "VBD", "IN", "DT", "JJ", "NN", "NNP", "NNP", "NN", "."]
+    text: 'Their ham butts, cured in oak-log smoke, were also esteemed when roasted or boiled, and served with this original sauce: #WRIGHT''S DEVIL sauce.
 
   '
-    tokens: [[0, 5], [6, 9], [10, 15], [15, 16], [17, 22], [23, 25], [26, 33], [34, 39], [39, 40], [41, 45], [46, 50], [51, 59], [60, 64], [65, 72], [73, 75], [76, 82], [82, 83], [84, 87], [88, 94], [95, 99], [100, 104], [105, 113], [114, 119], [119, 120]]
+    tokens: [[0, 5], [6, 9], [10, 15], [15, 16], [17, 22], [23, 25], [26, 33], [34, 39], [39, 40], [41, 45], [46, 50], [51, 59], [60, 64], [65, 72], [73, 75], [76, 82], [82, 83], [84, 87], [88, 94], [95, 99], [100, 104], [105, 113], [114, 120], [121, 130], [131, 136], [137, 142], [142, 143]]
     wn16_key: [[4, "cure%2:30:00::"], [11, "esteem%2:31:01::"], [13, "roast%2:30:00::"], [15, "boil%2:30:00::"], [18, "serve%2:34:00::"]]
     wn30_key: [[4, "cure%2:30:00::"], [11, "esteem%2:31:01::"], [13, "roast%2:30:00::"], [15, "boil%2:30:00::"], [18, "serve%2:34:00::"]]
 lIxx:
@@ -963,15 +962,14 @@ L7d4:
     wn16_key: [[7, "believe%2:31:00::"], [9, "be_due%2:42:00::"]]
     wn30_key: [[7, "believe%2:31:00::"], [9, "be_due%2:42:00::"]]
 ClkO:
-    lemmas: ["The", "recipe", ",", "which", "he", "get", "from", "the", "baker", ",", "and", "write_down", "in", "his", "ledger", ",", "be", "basically", "this", "."]
+    lemmas: ["The", "recipe", ",", "which", "he", "get", "from", "the", "baker", ",", "and", "write_down", "in", "his", "ledger", ",", "be", "basically", "this", ".", "#wright's", "apple", "pie#"]
     oewn_key: [[5, "oewn-02215637-v"], [11, "oewn-01022365-v"], [16, "oewn-02622439-v"]]
     paragraph: '21'
-    pos: ["DT", "NN", ",", "WDT", "PRP", "VBD", "IN", "DT", "NN", ",", "CC", "VB", "IN", "PRP$", "NN", ",", "VBZ", "RB", "DT", "."]
-    text: 'The recipe, which he got from the baker, and wrote_down in his ledger, is basically
-  this.
+    pos: ["DT", "NN", ",", "WDT", "PRP", "VBD", "IN", "DT", "NN", ",", "CC", "VB", "IN", "PRP$", "NN", ",", "VBZ", "RB", "DT", ".", "NNP", "NNP", "NNP"]
+    text: 'The recipe, which he got from the baker, and wrote_down in his ledger, is basically this. #WRIGHT''S APPLE PIE#
 
   '
-    tokens: [[0, 3], [4, 10], [10, 11], [12, 17], [18, 20], [21, 24], [25, 29], [30, 33], [34, 39], [39, 40], [41, 44], [45, 55], [56, 58], [59, 62], [63, 69], [69, 70], [71, 73], [74, 83], [84, 88], [88, 89]]
+    tokens: [[0, 3], [4, 10], [10, 11], [12, 17], [18, 20], [21, 24], [25, 29], [30, 33], [34, 39], [39, 40], [41, 44], [45, 55], [56, 58], [59, 62], [63, 69], [69, 70], [71, 73], [74, 83], [84, 88], [88, 89], [90, 99], [100, 105], [106, 110]]
     wn16_key: [[5, "get%2:40:00::"], [11, "write_down%2:32:01::"], [16, "be%2:42:06::"]]
     wn30_key: [[5, "get%2:40:00::"], [11, "write_down%2:32:01::"], [16, "be%2:42:06::"]]
 JhhR:

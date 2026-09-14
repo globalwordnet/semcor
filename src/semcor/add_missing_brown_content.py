@@ -34,6 +34,19 @@ not a diff format built to round-trip):
      detected via `_common_suffix_len` and reduced to an ordinary insert
      before the same token the existing suffix starts at. The existing
      tokens are never touched, so their senses are untouched too.
+  3. The mirror image, subheadline-after-existing-content (`checked.` ->
+     `checked: #SIZE AND SHAPE#`): Brown's side *starts* with this
+     corpus's existing word(s), via `_common_prefix_len`, reduced to an
+     ordinary insert right after them. Both `_common_suffix_len` and
+     `_common_prefix_len` compare alnum-only content (`_alnum`, shared
+     with `extract_brown_nolines_review`'s own expansion check), not
+     exact strings -- `-Held` still matches a reference `Held` that
+     picked up a leading `-` from an adjacent inserted word instead, and
+     `checked.` still matches `checked:` despite the different closing
+     punctuation. That punctuation difference is real but small enough
+     to leave as a residual row in brown-nolines-review.csv rather than
+     silently rewrite the existing token's own text alongside the
+     insert.
 
 Every insert (plain, or reduced from case 2) must land exactly on a
 token boundary in this corpus's own `tokens` -- checked via
@@ -75,7 +88,7 @@ from semcor.compare_brown_nolines import (
     brown_fileid_for,
     load_offsets,
 )
-from semcor.extract_brown_nolines_review import _LARGE_OPCODE_WORDS, _is_content_expansion
+from semcor.extract_brown_nolines_review import _alnum, _LARGE_OPCODE_WORDS, _is_content_expansion
 from semcor.validate import DATA_DIR, PENN_TREEBANK_TAGS, _YAML_LOADER, find_yaml_files
 
 _WORD_RE = re.compile(r"\S+")
@@ -115,8 +128,30 @@ def _guess_lemmas(new_words: list[str]) -> list[str]:
 
 
 def _common_suffix_len(a: list[str], b: list[str]) -> int:
+    """How many trailing words of `a`/`b` are "the same word", comparing
+    alnum-only content (so `-Held` matches a reference `Held` that picked
+    up the leading `-` from an adjacent word instead, and `checked.`
+    matches a reference `checked:` that swapped the closing punctuation
+    -- see `find_edits`'s module-level docstring). Requires at least one
+    alnum character on each side, so a bare punctuation token (`.` vs
+    `,`, both empty once stripped) never counts as a spurious match.
+    """
     n = 0
-    while n < len(a) and n < len(b) and a[-1 - n].lower() == b[-1 - n].lower():
+    while n < len(a) and n < len(b):
+        wa, wb = _alnum(a[-1 - n]), _alnum(b[-1 - n])
+        if not wa or wa != wb:
+            break
+        n += 1
+    return n
+
+
+def _common_prefix_len(a: list[str], b: list[str]) -> int:
+    """Mirror of `_common_suffix_len`, from the front."""
+    n = 0
+    while n < len(a) and n < len(b):
+        wa, wb = _alnum(a[n]), _alnum(b[n])
+        if not wa or wa != wb:
+            break
         n += 1
     return n
 
@@ -170,37 +205,54 @@ def find_edits(
 
         if tag == "insert":
             new_words = plus_words
-            anchor_i1 = i1  # boundary is right before word i1 (or end of doc)
+            # boundary is right before word i1, or (i1 == len(ours_words))
+            # right after word i1 - 1, at the end of the document.
+            side, anchor = ("before", i1) if i1 < len(ours_words) else ("after", i1 - 1)
         elif tag == "replace" and _is_content_expansion(minus_words, plus_words):
             suf = _common_suffix_len(minus_words, plus_words)
-            if suf < len(minus_words):
+            pre = _common_prefix_len(minus_words, plus_words)
+            if suf >= len(minus_words):
+                # Brown's side ends with this corpus's (untouched) existing
+                # words -- e.g. subheadline prepended before Arnold Palmer.
+                new_words = plus_words[: len(plus_words) - len(minus_words)]
+                side, anchor = "before", i1
+            elif pre >= len(minus_words):
+                # mirror image -- e.g. 'checked.' followed by a subheadline
+                # Brown spells 'checked:' + #SIZE AND SHAPE#. The existing
+                # words are still left untouched (including their trailing
+                # punctuation), so this leaves a small residual punctuation
+                # difference for brown-nolines-review.csv rather than
+                # guessing at whether to also swap '.' for ':'.
+                new_words = plus_words[len(minus_words) :]
+                side, anchor = "after", i2 - 1
+            else:
                 continue  # true fusion or another irregular shape -- skip
-            new_words = plus_words[: len(plus_words) - len(minus_words)]
-            anchor_i1 = i1  # insert before the (untouched) existing span
         else:
             continue
 
         if not new_words:
             continue
 
-        if anchor_i1 < len(sent_ids):
-            sid = sent_ids[anchor_i1]
-            tokens = data[sid].get("tokens") or []
-            idx = _token_index_at(tokens, spans[anchor_i1][0], "start")
-            if idx is None:
+        if side == "before":
+            if anchor >= len(sent_ids):
                 continue
-        elif anchor_i1 > 0:
-            sid = sent_ids[anchor_i1 - 1]
+            sid = sent_ids[anchor]
             tokens = data[sid].get("tokens") or []
-            idx = _token_index_at(tokens, spans[anchor_i1 - 1][1], "end")
-            if idx is None:
-                continue
-            idx += 1
+            idx = _token_index_at(tokens, spans[anchor][0], "start")
         else:
-            continue  # empty document
+            if anchor < 0 or anchor >= len(sent_ids):
+                continue
+            sid = sent_ids[anchor]
+            tokens = data[sid].get("tokens") or []
+            idx = _token_index_at(tokens, spans[anchor][1], "end")
+            if idx is not None:
+                idx += 1
+        if idx is None:
+            continue
 
-        before_ctx = ours_words[max(0, anchor_i1 - _CONTEXT_WORDS) : anchor_i1]
-        after_ctx = ours_words[anchor_i1 : anchor_i1 + _CONTEXT_WORDS]
+        ctx_word_idx = anchor if side == "before" else anchor + 1
+        before_ctx = ours_words[max(0, ctx_word_idx - _CONTEXT_WORDS) : ctx_word_idx]
+        after_ctx = ours_words[ctx_word_idx : ctx_word_idx + _CONTEXT_WORDS]
         edits.append(
             {"sent_id": sid, "insert_idx": idx, "new_words": new_words, "before_ctx": before_ctx, "after_ctx": after_ctx}
         )

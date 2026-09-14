@@ -760,14 +760,14 @@ nZTJ:
     wn16_key: [[0, "look%2:39:00::"], [3, "physical%5:00:00:natural:03"], [4, "feature%1:09:00::"], [7, "land%1:21:01::"], [9, "determine%2:32:00::"], [11, "desirable%3:00:00::"], [13, "be%2:42:03::"], [15, "use%1:04:00::"], [20, "do%2:41:01::"], [22, "correct%2:30:00::"], [24, "fault%1:26:00::"], [30, "cost%2:42:00::"], [32, "make%2:32:00::"], [34, "area%1:15:01::"], [35, "meet%2:42:01::"], [37, "need%1:17:00::"], [39, "other%3:00:00::"], [40, "site%1:15:00::"]]
     wn30_key: [[0, "look%2:39:00::"], [3, "physical%3:00:00:natural:03"], [4, "feature%1:09:00::"], [7, "land%1:21:01::"], [9, "determine%2:32:00::"], [11, "desirable%3:00:00::"], [13, "be%2:42:03::"], [15, "use%1:04:00::"], [20, "do%2:41:01::"], [22, "correct%2:30:00::"], [24, "fault%1:26:00::"], [30, "cost%2:42:00::"], [32, "make%2:32:00::"], [34, "area%1:15:01::"], [35, "meet%2:42:01::"], [37, "need%1:17:00::"], [39, "other%3:00:00::"], [40, "site%1:15:00::"]]
 JByr:
-    lemmas: ["many", "thing", "need", "to", "be", "check", "."]
+    lemmas: ["many", "thing", "need", "to", "be", "check", ".", "#size", "and", "shape#-"]
     oewn_key: [[0, "oewn-01555990-a"], [1, "oewn-05679169-n"], [5, "oewn-00663742-v"]]
     paragraph: '17'
-    pos: ["JJ", "NNS", "VB", "VB", "VB", "VBN", "."]
-    text: 'Many things need to be checked.
+    pos: ["JJ", "NNS", "VB", "VB", "VB", "VBN", ".", "NNP", "CC", "NNP"]
+    text: 'Many things need to be checked. #SIZE AND SHAPE#-
 
   '
-    tokens: [[0, 4], [5, 11], [12, 16], [17, 19], [20, 22], [23, 30], [30, 31]]
+    tokens: [[0, 4], [5, 11], [12, 16], [17, 19], [20, 22], [23, 30], [30, 31], [32, 37], [38, 41], [42, 49]]
     wn16_key: [[0, "many%3:00:00::"], [1, "thing%1:09:02::"], [5, "check%2:31:00::"]]
     wn30_key: [[0, "many%3:00:00::"], [1, "thing%1:09:02::"], [5, "check%2:31:00::"]]
 3wSs:
@@ -886,14 +886,14 @@ AThK:
     wn16_key: [[1, "utility%1:14:00::"], [2, "available%3:00:00::"], [3, "nearby%5:00:00:near:00"], [5, "provide%2:40:00::"], [7, "saving%1:04:00::"], [10, "cost%1:21:00::"], [12, "extend%2:30:01::"], [13, "electricity%1:19:01::"], [15, "water%1:06:00::"], [18, "site%1:15:00::"]]
     wn30_key: [[1, "utility%1:14:00::"], [2, "available%3:00:00::"], [3, "nearby%3:00:00:near:00"], [5, "provide%2:40:00::"], [7, "saving%1:04:00::"], [10, "cost%1:21:00::"], [12, "extend%2:30:01::"], [13, "electricity%1:19:01::"], [15, "water%1:06:00::"], [18, "site%1:15:00::"]]
 tB2l:
-    lemmas: ["-", "topography", "be", "very", "important", "."]
-    oewn_key: [[1, "oewn-05071710-n"], [2, "oewn-02610777-v"], [3, "oewn-00032295-r"], [4, "oewn-01278672-a"]]
+    lemmas: ["#topography#-", "-", "topography", "be", "very", "important", "."]
+    oewn_key: [[2, "oewn-05071710-n"], [3, "oewn-02610777-v"], [4, "oewn-00032295-r"], [5, "oewn-01278672-a"]]
     paragraph: '21'
-    pos: [":", "NN", "VBZ", "RB", "JJ", "."]
-    text: '-Topography is very important.'
-    tokens: [[0, 1], [1, 11], [12, 14], [15, 19], [20, 29], [29, 30]]
-    wn16_key: [[1, "topography%1:07:00::"], [2, "be%2:42:03::"], [3, "very%4:02:00::"], [4, "important%3:00:00::"]]
-    wn30_key: [[1, "topography%1:07:00::"], [2, "be%2:42:03::"], [3, "very%4:02:00::"], [4, "important%3:00:00::"]]
+    pos: ["JJ", ":", "NN", "VBZ", "RB", "JJ", "."]
+    text: '#TOPOGRAPHY#- -Topography is very important.'
+    tokens: [[0, 13], [14, 15], [15, 25], [26, 28], [29, 33], [34, 43], [43, 44]]
+    wn16_key: [[2, "topography%1:07:00::"], [3, "be%2:42:03::"], [4, "very%4:02:00::"], [5, "important%3:00:00::"]]
+    wn30_key: [[2, "topography%1:07:00::"], [3, "be%2:42:03::"], [4, "very%4:02:00::"], [5, "important%3:00:00::"]]
 aOR0:
     lemmas: ["check", "the", "elevation", "of", "the", "ground", ",", "degree", "and", "direction", "of", "slope", ",", "drainage", ",", "rock_outcrop", ",", "topsoil", "type", "and", "quality", ",", "as_well_as", "subsoil", "."]
     oewn_key: [[0, "oewn-05746570-n"], [2, "oewn-13858749-n"], [5, "oewn-09357302-n"], [7, "oewn-13632450-n"], [9, "oewn-13849639-n"], [11, "oewn-09460358-n"], [13, "oewn-00396837-n"], [15, "oewn-09404154-n"], [17, "oewn-14719898-n"], [18, "oewn-05848697-n"], [20, "oewn-04731092-n"], [23, "oewn-14719999-n"]]
@@ -966,14 +966,14 @@ djR5:
     wn16_key: [[0, "figure%2:31:01::"], [2, "cost%1:21:00::"], [4, "provide%2:40:00::"], [5, "water%1:27:00::"], [8, "use%1:04:00::"], [9, "area%1:15:01::"]]
     wn30_key: [[0, "figure%2:31:01::"], [2, "cost%1:21:00::"], [4, "provide%2:40:00::"], [5, "water%1:27:00::"], [8, "use%1:04:00::"], [9, "area%1:15:01::"]]
 nSoC:
-    lemmas: ["-", "The", "existing", "plant", "growth", "call_for", "thorough", "check", "."]
-    oewn_key: [[2, "oewn-01736035-s"], [3, "oewn-00017402-n"], [4, "oewn-08455059-n"], [5, "oewn-02634015-v"], [6, "oewn-00312303-s"], [7, "oewn-00663742-v"]]
+    lemmas: ["#plants#-", "-", "The", "existing", "plant", "growth", "call_for", "thorough", "check", "."]
+    oewn_key: [[3, "oewn-01736035-s"], [4, "oewn-00017402-n"], [5, "oewn-08455059-n"], [6, "oewn-02634015-v"], [7, "oewn-00312303-s"], [8, "oewn-00663742-v"]]
     paragraph: '23'
-    pos: [":", "DT", "JJ", "NN", "NN", "VB", "JJ", "VB", "."]
-    text: '-The existing plant growth calls_for thorough checking.'
-    tokens: [[0, 1], [1, 4], [5, 13], [14, 19], [20, 26], [27, 36], [37, 45], [46, 54], [54, 55]]
-    wn16_key: [[2, "existing%5:00:00:present(a):01"], [3, "plant%1:03:00::"], [4, "growth%1:14:00::"], [5, "call_for%2:42:00::"], [6, "thorough%5:00:00:careful:00"], [7, "check%2:31:00::"]]
-    wn30_key: [[2, "existing%3:00:00:present:01"], [3, "plant%1:03:00::"], [4, "growth%1:14:00::"], [5, "call_for%2:42:00::"], [6, "thorough%3:00:00:careful:00"], [7, "check%2:31:00::"]]
+    pos: ["JJ", ":", "DT", "JJ", "NN", "NN", "VB", "JJ", "VB", "."]
+    text: '#PLANTS#- -The existing plant growth calls_for thorough checking.'
+    tokens: [[0, 9], [10, 11], [11, 14], [15, 23], [24, 29], [30, 36], [37, 46], [47, 55], [56, 64], [64, 65]]
+    wn16_key: [[3, "existing%5:00:00:present(a):01"], [4, "plant%1:03:00::"], [5, "growth%1:14:00::"], [6, "call_for%2:42:00::"], [7, "thorough%5:00:00:careful:00"], [8, "check%2:31:00::"]]
+    wn30_key: [[3, "existing%3:00:00:present:01"], [4, "plant%1:03:00::"], [5, "growth%1:14:00::"], [6, "call_for%2:42:00::"], [7, "thorough%3:00:00:careful:00"], [8, "check%2:31:00::"]]
 XPcz:
     lemmas: ["look", "at", "the", "tree", "as", "to", "size", "and", "interest", ",", "the", "amount", "of", "shade", "they", "provide", ",", "how", "healthy", "they", "be", ",", "the", "problem", "of", "maintenance", ",", "fire", "hazard", ",", "wind", "throw", ",", "etcetera", "."]
     oewn_key: [[0, "oewn-02134989-v"], [3, "oewn-13124818-n"], [6, "oewn-05106204-n"], [8, "oewn-05199719-n"], [11, "oewn-05115065-n"], [13, "oewn-14008098-n"], [15, "oewn-02332196-v"], [18, "oewn-01173787-a"], [20, "oewn-02610777-v"], [23, "oewn-14434009-n"], [25, "oewn-00268366-n"], [27, "oewn-07317454-n"], [28, "oewn-14565454-n"], [30, "oewn-11546388-n"], [31, "oewn-00105359-n"], [33, "oewn-03304208-n"]]
@@ -1017,14 +1017,14 @@ WS0F:
     wn16_key: [[1, "extent%1:07:00::"], [3, "location%1:03:00::"], [5, "open%3:00:01::"], [6, "area%1:15:01::"], [8, "note%2:39:02::"]]
     wn30_key: [[1, "extent%1:07:00::"], [3, "location%1:03:00::"], [5, "open%3:00:01::"], [6, "area%1:15:01::"], [8, "note%2:39:02::"]]
 isTs:
-    lemmas: ["-", "How", "much", "will", "wind", ",", "rain", ",", "sun", ",", "and", "temperature", "affect", "the", "use", "?"]
-    oewn_key: [[2, "oewn-00059624-r"], [4, "oewn-11546388-n"], [6, "oewn-11521799-n"], [8, "oewn-11505767-n"], [11, "oewn-05018974-n"], [12, "oewn-00137133-v"], [14, "oewn-00948944-n"]]
+    lemmas: ["#exposure#-", "-", "How", "much", "will", "wind", ",", "rain", ",", "sun", ",", "and", "temperature", "affect", "the", "use", "?"]
+    oewn_key: [[3, "oewn-00059624-r"], [5, "oewn-11546388-n"], [7, "oewn-11521799-n"], [9, "oewn-11505767-n"], [12, "oewn-05018974-n"], [13, "oewn-00137133-v"], [15, "oewn-00948944-n"]]
     paragraph: '25'
-    pos: [":", "WRB", "RB", "VB", "NN", ",", "NN", ",", "NN", ",", "CC", "NN", "VBP", "DT", "NN", "."]
-    text: '-How much will wind, rain, sun, and temperature affect the use?'
-    tokens: [[0, 1], [1, 4], [5, 9], [10, 14], [15, 19], [19, 20], [21, 25], [25, 26], [27, 30], [30, 31], [32, 35], [36, 47], [48, 54], [55, 58], [59, 62], [62, 63]]
-    wn16_key: [[2, "much%4:02:00::"], [4, "wind%1:19:00::"], [6, "rain%1:19:00::"], [8, "sun%1:19:00::"], [11, "temperature%1:07:00::"], [12, "affect%2:30:00::"], [14, "use%1:04:00::"]]
-    wn30_key: [[2, "much%4:02:00::"], [4, "wind%1:19:00::"], [6, "rain%1:19:00::"], [8, "sun%1:19:00::"], [11, "temperature%1:07:00::"], [12, "affect%2:30:00::"], [14, "use%1:04:00::"]]
+    pos: ["JJ", ":", "WRB", "RB", "VB", "NN", ",", "NN", ",", "NN", ",", "CC", "NN", "VBP", "DT", "NN", "."]
+    text: '#EXPOSURE#- -How much will wind, rain, sun, and temperature affect the use?'
+    tokens: [[0, 11], [12, 13], [13, 16], [17, 21], [22, 26], [27, 31], [31, 32], [33, 37], [37, 38], [39, 42], [42, 43], [44, 47], [48, 59], [60, 66], [67, 70], [71, 74], [74, 75]]
+    wn16_key: [[3, "much%4:02:00::"], [5, "wind%1:19:00::"], [7, "rain%1:19:00::"], [9, "sun%1:19:00::"], [12, "temperature%1:07:00::"], [13, "affect%2:30:00::"], [15, "use%1:04:00::"]]
+    wn30_key: [[3, "much%4:02:00::"], [5, "wind%1:19:00::"], [7, "rain%1:19:00::"], [9, "sun%1:19:00::"], [12, "temperature%1:07:00::"], [13, "affect%2:30:00::"], [15, "use%1:04:00::"]]
 DRDx:
     lemmas: ["An", "area", "sheltered", "from", "strong", "wind", "may", "be", "highly", "desirable", "for", "recreation", "use", "."]
     oewn_key: [[1, "oewn-08514304-n"], [2, "oewn-02536770-s"], [4, "oewn-02328781-a"], [5, "oewn-11546388-n"], [7, "oewn-02610777-v"], [8, "oewn-00089896-r"], [9, "oewn-00736491-a"], [11, "oewn-00427931-n"], [12, "oewn-00948944-n"]]
@@ -1068,13 +1068,13 @@ GeJd:
     wn16_key: [[0, "sometimes%4:02:01::"], [3, "have%2:40:00::"], [5, "choice%1:04:00::"], [7, "exposure%1:09:00::"], [9, "site%1:15:00::"], [12, "topography%1:07:00::"], [14, "tree%1:20:00::"], [17, "area%1:15:01::"], [19, "provide%2:40:00::"], [20, "afternoon%1:28:00::"], [21, "shade%1:26:00::"], [23, "morning%1:28:00::"], [24, "sun%1:19:00::"], [29, "be%2:42:03::"], [30, "most_desirable%5:00:00:best:00"], [33, "use%1:04:00::"], [34, "intended%3:00:00::"]]
     wn30_key: [[0, "sometimes%4:02:01::"], [3, "have%2:40:00::"], [5, "choice%1:04:00::"], [7, "exposure%1:09:00::"], [9, "site%1:15:00::"], [12, "topography%1:07:00::"], [14, "tree%1:20:00::"], [17, "area%1:15:01::"], [19, "provide%2:40:00::"], [20, "afternoon%1:28:00::"], [21, "shade%1:26:00::"], [23, "morning%1:28:00::"], [24, "sun%1:19:00::"], [29, "be%2:42:03::"], [33, "use%1:04:00::"], [34, "intended%3:00:00::"]]
 5rq8:
-    lemmas: ["-", "Some", "area", "may", "already", "have", "be", "improve", "and", "contain", "building", ",", "road", ",", "utility", ",", "clear", "land", ",", "etcetera", "which", "may", "raise", "the", "cost", "of", "the", "site", "."]
-    oewn_key: [[2, "oewn-08514304-n"], [4, "oewn-00032194-r"], [7, "oewn-00206293-v"], [9, "oewn-02706727-v"], [10, "oewn-02916498-n"], [12, "oewn-04103160-n"], [14, "oewn-08202676-n"], [16, "oewn-01626686-s"], [17, "oewn-13270947-n"], [19, "oewn-03304208-n"], [22, "oewn-00158311-v"], [24, "oewn-13296870-n"], [27, "oewn-08668822-n"]]
+    lemmas: ["#improvements#-", "-", "Some", "area", "may", "already", "have", "be", "improve", "and", "contain", "building", ",", "road", ",", "utility", ",", "clear", "land", ",", "etcetera", "which", "may", "raise", "the", "cost", "of", "the", "site", "."]
+    oewn_key: [[3, "oewn-08514304-n"], [5, "oewn-00032194-r"], [8, "oewn-00206293-v"], [10, "oewn-02706727-v"], [11, "oewn-02916498-n"], [13, "oewn-04103160-n"], [15, "oewn-08202676-n"], [17, "oewn-01626686-s"], [18, "oewn-13270947-n"], [20, "oewn-03304208-n"], [23, "oewn-00158311-v"], [25, "oewn-13296870-n"], [28, "oewn-08668822-n"]]
     paragraph: '26'
-    pos: [":", "DT", "NNS", "VB", "RB", "VB", "VBN", "VBN", "CC", "VBP", "NNS", ",", "NNS", ",", "NNS", ",", "JJ", "NN", ",", "NN", "WDT", "VB", "VB", "DT", "NN", "IN", "DT", "NN", "."]
-    text: '-Some areas may already have been improved and contain buildings, roads, utilities, cleared land, etcetera which may raise the cost of the site.
+    pos: ["JJ", ":", "DT", "NNS", "VB", "RB", "VB", "VBN", "VBN", "CC", "VBP", "NNS", ",", "NNS", ",", "NNS", ",", "JJ", "NN", ",", "NN", "WDT", "VB", "VB", "DT", "NN", "IN", "DT", "NN", "."]
+    text: '#IMPROVEMENTS#- -Some areas may already have been improved and contain buildings, roads, utilities, cleared land, etcetera which may raise the cost of the site.
 
   '
-    tokens: [[0, 1], [1, 5], [6, 11], [12, 15], [16, 23], [24, 28], [29, 33], [34, 42], [43, 46], [47, 54], [55, 64], [64, 65], [66, 71], [71, 72], [73, 82], [82, 83], [84, 91], [92, 96], [96, 97], [98, 106], [107, 112], [113, 116], [117, 122], [123, 126], [127, 131], [132, 134], [135, 138], [139, 143], [143, 144]]
-    wn16_key: [[2, "area%1:15:01::"], [4, "already%4:02:00::"], [7, "improve%2:30:01::"], [9, "contain%2:42:13::"], [10, "building%1:06:00::"], [12, "road%1:06:00::"], [14, "utility%1:14:00::"], [16, "clear%5:00:00:unobstructed:00"], [17, "land%1:21:01::"], [19, "etcetera%1:06:00::"], [22, "raise%2:30:01::"], [24, "cost%1:21:00::"], [27, "site%1:15:00::"]]
-    wn30_key: [[2, "area%1:15:01::"], [4, "already%4:02:00::"], [7, "improve%2:30:01::"], [9, "contain%2:42:13::"], [10, "building%1:06:00::"], [12, "road%1:06:00::"], [14, "utility%1:14:00::"], [16, "clear%3:00:00:unobstructed:00"], [17, "land%1:21:01::"], [19, "etcetera%1:06:00::"], [22, "raise%2:30:01::"], [24, "cost%1:21:00::"], [27, "site%1:15:00::"]]
+    tokens: [[0, 15], [16, 17], [17, 21], [22, 27], [28, 31], [32, 39], [40, 44], [45, 49], [50, 58], [59, 62], [63, 70], [71, 80], [80, 81], [82, 87], [87, 88], [89, 98], [98, 99], [100, 107], [108, 112], [112, 113], [114, 122], [123, 128], [129, 132], [133, 138], [139, 142], [143, 147], [148, 150], [151, 154], [155, 159], [159, 160]]
+    wn16_key: [[3, "area%1:15:01::"], [5, "already%4:02:00::"], [8, "improve%2:30:01::"], [10, "contain%2:42:13::"], [11, "building%1:06:00::"], [13, "road%1:06:00::"], [15, "utility%1:14:00::"], [17, "clear%5:00:00:unobstructed:00"], [18, "land%1:21:01::"], [20, "etcetera%1:06:00::"], [23, "raise%2:30:01::"], [25, "cost%1:21:00::"], [28, "site%1:15:00::"]]
+    wn30_key: [[3, "area%1:15:01::"], [5, "already%4:02:00::"], [8, "improve%2:30:01::"], [10, "contain%2:42:13::"], [11, "building%1:06:00::"], [13, "road%1:06:00::"], [15, "utility%1:14:00::"], [17, "clear%3:00:00:unobstructed:00"], [18, "land%1:21:01::"], [20, "etcetera%1:06:00::"], [23, "raise%2:30:01::"], [25, "cost%1:21:00::"], [28, "site%1:15:00::"]]
