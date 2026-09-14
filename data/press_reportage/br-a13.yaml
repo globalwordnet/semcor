@@ -224,14 +224,14 @@ sjtD:
     wn16_key: [[0, "person%1:03:00::"], [1, "make%2:41:00::"], [3, "spectacular%5:00:00:impressive:00"], [4, "play%1:04:04::"], [6, "person%1:03:00::"], [8, "grounder%1:04:00::"], [11, "hole%1:25:00::"], [14, "fourth%5:00:00:ordinal:00"], [16, "person%1:03:00::"], [17, "come_up%2:36:03::"], [19, "some%3:00:00::"], [20, "good%3:00:01::"], [21, "stop%1:04:00::"], [23, "show%2:39:02::"], [25, "strong%3:00:00::"], [26, "arm%1:08:00::"], [28, "third_base%1:06:00::"]]
     wn30_key: [[0, "person%1:03:00::"], [1, "make%2:41:00::"], [3, "spectacular%3:00:00:impressive:00"], [4, "play%1:04:04::"], [6, "person%1:03:00::"], [8, "grounder%1:04:00::"], [11, "hole%1:25:00::"], [14, "fourth%3:00:00:ordinal:00"], [16, "person%1:03:00::"], [17, "come_up%2:36:03::"], [19, "some%3:00:00::"], [20, "good%3:00:01::"], [21, "stop%1:04:00::"], [23, "show%2:39:02::"], [25, "strong%3:00:00::"], [26, "arm%1:08:00::"], [28, "third_base%1:06:00::"]]
 UDfL:
-    lemmas: ["person", "account_for", "three", "of", "the", "group", "'s", "eight", "hit", "."]
-    oewn_key: [[0, "oewn-00007846-n"], [1, "oewn-02641114-v"], [2, "oewn-13766184-n"], [5, "oewn-00031563-n"], [7, "oewn-02194712-s"], [8, "oewn-00044640-n"]]
+    lemmas: ["#bingles", "and", "bobbles:#", "person", "account_for", "three", "of", "the", "group", "'s", "eight", "hit", "."]
+    oewn_key: [[3, "oewn-00007846-n"], [4, "oewn-02641114-v"], [5, "oewn-13766184-n"], [8, "oewn-00031563-n"], [10, "oewn-02194712-s"], [11, "oewn-00044640-n"]]
     paragraph: '12'
-    pos: ["NN", "VB", "NN", "IN", "DT", "NNP", "POS", "JJ", "NNS", "."]
-    text: 'Cliff_Cook accounted_for three of the Tribe''s eight hits.'
-    tokens: [[0, 10], [11, 24], [25, 30], [31, 33], [34, 37], [38, 43], [43, 45], [46, 51], [52, 56], [56, 57]]
-    wn16_key: [[0, "person%1:03:00::"], [1, "account_for%2:42:00::"], [2, "three%1:23:00::"], [5, "group%1:03:00::"], [7, "eight%5:00:00:cardinal:00"], [8, "hit%1:04:03::"]]
-    wn30_key: [[0, "person%1:03:00::"], [1, "account_for%2:42:00::"], [2, "three%1:23:00::"], [5, "group%1:03:00::"], [7, "eight%3:00:00:cardinal:00"], [8, "hit%1:04:03::"]]
+    pos: ["NNS", "CC", "NNP", "NN", "VB", "NN", "IN", "DT", "NNP", "POS", "JJ", "NNS", "."]
+    text: '#BINGLES AND BOBBLES:# Cliff_Cook accounted_for three of the Tribe''s eight hits.'
+    tokens: [[0, 8], [9, 12], [13, 22], [23, 33], [34, 47], [48, 53], [54, 56], [57, 60], [61, 66], [66, 68], [69, 74], [75, 79], [79, 80]]
+    wn16_key: [[3, "person%1:03:00::"], [4, "account_for%2:42:00::"], [5, "three%1:23:00::"], [8, "group%1:03:00::"], [10, "eight%5:00:00:cardinal:00"], [11, "hit%1:04:03::"]]
+    wn30_key: [[3, "person%1:03:00::"], [4, "account_for%2:42:00::"], [5, "three%1:23:00::"], [8, "group%1:03:00::"], [10, "eight%3:00:00:cardinal:00"], [11, "hit%1:04:03::"]]
 BAvC:
     lemmas: ["It", "be", "the", "season", "'s", "first", "night_game", "and", "an", "obvious", "refocusing", "of", "the", "light", "be", "in_order", "."]
     oewn_key: [[1, "oewn-02610777-v"], [3, "oewn-15264376-n"], [5, "oewn-01014459-a"], [6, "oewn-00457587-n"], [10, "oewn-00376746-n"], [13, "oewn-03670692-n"], [14, "oewn-02610777-v"]]

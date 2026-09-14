@@ -99,15 +99,14 @@ VtHZ:
     wn16_key: [[10, "levy%2:40:00::"]]
     wn30_key: [[10, "levy%2:40:00::"]]
 MyeZ:
-    lemmas: ["A", "review", "of", "practice", "in", "other", "state", "regarding", "fiscal", "uniformity", "be", "pertinent", "to", "this", "report", "."]
-    oewn_key: [[10, "oewn-02610777-v"]]
+    lemmas: ["#fiscal", "years", "in", "other", "states#", "A", "review", "of", "practice", "in", "other", "state", "regarding", "fiscal", "uniformity", "be", "pertinent", "to", "this", "report", "."]
+    oewn_key: [[15, "oewn-02610777-v"]]
     paragraph: '2'
-    pos: ["DT", "NN", "IN", "NNS", "IN", "JJ", "NNS", "JJ", "JJ", "NN", "VBZ", "JJ", "TO", "DT", "NN", "."]
-    text: 'A review of practices in other states regarding fiscal uniformity is pertinent to
-  this report.'
-    tokens: [[0, 1], [2, 8], [9, 11], [12, 21], [22, 24], [25, 30], [31, 37], [38, 47], [48, 54], [55, 65], [66, 68], [69, 78], [79, 81], [82, 86], [87, 93], [93, 94]]
-    wn16_key: [[10, "be%2:42:03::"]]
-    wn30_key: [[10, "be%2:42:03::"]]
+    pos: ["CD", "NNS", "NNP", "NNP", "NNP", "DT", "NN", "IN", "NNS", "IN", "JJ", "NNS", "JJ", "JJ", "NN", "VBZ", "JJ", "TO", "DT", "NN", "."]
+    text: '#FISCAL YEARS IN OTHER STATES# A review of practices in other states regarding fiscal uniformity is pertinent to this report.'
+    tokens: [[0, 7], [8, 13], [14, 16], [17, 22], [23, 30], [31, 32], [33, 39], [40, 42], [43, 52], [53, 55], [56, 61], [62, 68], [69, 78], [79, 85], [86, 96], [97, 99], [100, 109], [110, 112], [113, 117], [118, 124], [124, 125]]
+    wn16_key: [[15, "be%2:42:03::"]]
+    wn30_key: [[15, "be%2:42:03::"]]
 zOAI:
     lemmas: ["include", "in", "the", "findings", "be", ":"]
     oewn_key: [[0, "oewn-02639021-v"], [4, "oewn-02622439-v"]]
@@ -253,16 +252,14 @@ wj/A:
     wn16_key: [[10, "have%2:42:00::"], [20, "vary%2:42:00::"]]
     wn30_key: [[10, "have%2:42:00::"], [20, "vary%2:42:00::"]]
 tK7d:
-    lemmas: ["An", "excellent", "summary", "of", "advantage", "concern", "the", "uniform", "fiscal_year", "and", "coordinated", "fiscal", "calendar", "be", "contain", "in", "a", "paper", "present", "by", "a", "public", "finance", "authority", "recently", "."]
-    oewn_key: [[5, "oewn-02681865-v"], [14, "oewn-02635616-v"], [18, "oewn-00991634-v"]]
+    lemmas: ["#fiscal", "uniformity:", "advantages", "and", "disadvantages#", "An", "excellent", "summary", "of", "advantage", "concern", "the", "uniform", "fiscal_year", "and", "coordinated", "fiscal", "calendar", "be", "contain", "in", "a", "paper", "present", "by", "a", "public", "finance", "authority", "recently", "."]
+    oewn_key: [[10, "oewn-02681865-v"], [19, "oewn-02635616-v"], [23, "oewn-00991634-v"]]
     paragraph: '11'
-    pos: ["DT", "JJ", "NN", "IN", "NNS", "VBG", "DT", "NN", "NN", "CC", "JJ", "JJ", "NNS", "VBD", "VBN", "IN", "DT", "NN", "VBN", "IN", "DT", "JJ", "NN", "NN", "RB", "."]
-    text: 'An excellent summary of advantages concerning the uniform fiscal_year and coordinated
-  fiscal calendars was contained in a paper presented by a public finance authority
-  recently.'
-    tokens: [[0, 2], [3, 12], [13, 20], [21, 23], [24, 34], [35, 45], [46, 49], [50, 57], [58, 69], [70, 73], [74, 85], [86, 92], [93, 102], [103, 106], [107, 116], [117, 119], [120, 121], [122, 127], [128, 137], [138, 140], [141, 142], [143, 149], [150, 157], [158, 167], [168, 176], [176, 177]]
-    wn16_key: [[5, "concern%2:42:00::"], [14, "contain%2:42:00::"], [18, "present%2:32:02::"]]
-    wn30_key: [[5, "concern%2:42:00::"], [14, "contain%2:42:00::"], [18, "present%2:32:02::"]]
+    pos: ["JJ", "NNP", "NNP", "NNP", "NNP", "DT", "JJ", "NN", "IN", "NNS", "VBG", "DT", "NN", "NN", "CC", "JJ", "JJ", "NNS", "VBD", "VBN", "IN", "DT", "NN", "VBN", "IN", "DT", "JJ", "NN", "NN", "RB", "."]
+    text: '#FISCAL UNIFORMITY: ADVANTAGES AND DISADVANTAGES# An excellent summary of advantages concerning the uniform fiscal_year and coordinated fiscal calendars was contained in a paper presented by a public finance authority recently.'
+    tokens: [[0, 7], [8, 19], [20, 30], [31, 34], [35, 49], [50, 52], [53, 62], [63, 70], [71, 73], [74, 84], [85, 95], [96, 99], [100, 107], [108, 119], [120, 123], [124, 135], [136, 142], [143, 152], [153, 156], [157, 166], [167, 169], [170, 171], [172, 177], [178, 187], [188, 190], [191, 192], [193, 199], [200, 207], [208, 217], [218, 226], [226, 227]]
+    wn16_key: [[10, "concern%2:42:00::"], [19, "contain%2:42:00::"], [23, "present%2:32:02::"]]
+    wn30_key: [[10, "concern%2:42:00::"], [19, "contain%2:42:00::"], [23, "present%2:32:02::"]]
 hWeh:
     lemmas: ["He", "list", "among", "the", "values", "of", "fiscal", "uniformity", ":"]
     oewn_key: [[1, "oewn-00947885-v"]]
@@ -649,16 +646,14 @@ g/Bf:
     wn16_key: [[2, "have%2:42:05::"], [5, "make%2:41:00::"], [12, "be%2:42:03::"], [19, "finance%2:40:00::"], [28, "pay%2:40:00::"]]
     wn30_key: [[2, "have%2:29:02::;have%2:41:00::;have%2:42:12::"], [5, "make%2:41:00::"], [12, "be%2:42:03::"], [19, "finance%2:40:00::"], [28, "pay%2:40:00::"]]
 Hmp9:
-    lemmas: ["The", "advantage", "of", "a", "uniform", "fiscal_year", "and", "well", "synchronized", "fiscal", "and", "tax_collection", "calendar", "be", "sufficiently", "great", "for", "rhode_island", "municipality", "to", "exert", "effort", "to", "secure", "them", "."]
-    oewn_key: [[13, "oewn-02610777-v"], [20, "oewn-01168409-v"], [23, "oewn-02243552-v"]]
+    lemmas: ["#adjusting", "the", "fiscal", "calendars#", "The", "advantage", "of", "a", "uniform", "fiscal_year", "and", "well", "synchronized", "fiscal", "and", "tax_collection", "calendar", "be", "sufficiently", "great", "for", "rhode_island", "municipality", "to", "exert", "effort", "to", "secure", "them", "."]
+    oewn_key: [[17, "oewn-02610777-v"], [24, "oewn-01168409-v"], [27, "oewn-02243552-v"]]
     paragraph: '24'
-    pos: ["DT", "NNS", "IN", "DT", "NN", "NN", "CC", "RB", "JJ", "JJ", "CC", "NN", "NNS", "VBP", "RB", "JJ", "IN", "NN", "NNS", "TO", "VB", "NN", "TO", "VB", "PRP", "."]
-    text: 'The advantages of a uniform fiscal_year and well synchronized fiscal and tax_collection
-  calendars are sufficiently great for Rhode_Island municipalities to exert effort
-  to secure them.'
-    tokens: [[0, 3], [4, 14], [15, 17], [18, 19], [20, 27], [28, 39], [40, 43], [44, 48], [49, 61], [62, 68], [69, 72], [73, 87], [88, 97], [98, 101], [102, 114], [115, 120], [121, 124], [125, 137], [138, 152], [153, 155], [156, 161], [162, 168], [169, 171], [172, 178], [179, 183], [183, 184]]
-    wn16_key: [[13, "be%2:42:03::"], [20, "exert%2:34:00::"], [23, "secure%2:40:00::"]]
-    wn30_key: [[13, "be%2:42:03::"], [20, "exert%2:34:00::"], [23, "secure%2:40:00::"]]
+    pos: ["IN", "NNP", "NNP", "NNP", "DT", "NNS", "IN", "DT", "NN", "NN", "CC", "RB", "JJ", "JJ", "CC", "NN", "NNS", "VBP", "RB", "JJ", "IN", "NN", "NNS", "TO", "VB", "NN", "TO", "VB", "PRP", "."]
+    text: '#ADJUSTING THE FISCAL CALENDARS# The advantages of a uniform fiscal_year and well synchronized fiscal and tax_collection calendars are sufficiently great for Rhode_Island municipalities to exert effort to secure them.'
+    tokens: [[0, 10], [11, 14], [15, 21], [22, 32], [33, 36], [37, 47], [48, 50], [51, 52], [53, 60], [61, 72], [73, 76], [77, 81], [82, 94], [95, 101], [102, 105], [106, 120], [121, 130], [131, 134], [135, 147], [148, 153], [154, 157], [158, 170], [171, 185], [186, 188], [189, 194], [195, 201], [202, 204], [205, 211], [212, 216], [216, 217]]
+    wn16_key: [[17, "be%2:42:03::"], [24, "exert%2:34:00::"], [27, "secure%2:40:00::"]]
+    wn30_key: [[17, "be%2:42:03::"], [24, "exert%2:34:00::"], [27, "secure%2:40:00::"]]
 cGKr:
     lemmas: ["The", "type", "of", "program", "desire", "can", "be", "determine", "by", "the", "nature", "and", "extent", "of", "the", "adjustment", "need", "."]
     oewn_key: [[4, "oewn-01830665-v"], [7, "oewn-00920843-v"], [16, "oewn-02634015-v"]]
@@ -982,15 +977,14 @@ vhhX:
     wn16_key: [[0, "assume%2:31:00::"], [21, "involve%2:42:01::"], [23, "show%2:36:00::"]]
     wn30_key: [[0, "assume%2:31:00::"], [21, "involve%2:42:01::"], [23, "show%2:36:00::"]]
 3t2V:
-    lemmas: ["aside", "from", "the_matte", "of", "adjust", "the", "fiscal", "and", "tax", "calendar", ",", "there", "be", "the", "problem", "of", "finance", "the", "adjustment", "when", "this", "be", "necessary", "."]
-    oewn_key: [[4, "oewn-00296959-v"], [16, "oewn-02222048-v"], [21, "oewn-02610777-v"]]
+    lemmas: ["#methods", "of", "financing", "adjustments#", "aside", "from", "the_matte", "of", "adjust", "the", "fiscal", "and", "tax", "calendar", ",", "there", "be", "the", "problem", "of", "finance", "the", "adjustment", "when", "this", "be", "necessary", "."]
+    oewn_key: [[8, "oewn-00296959-v"], [20, "oewn-02222048-v"], [25, "oewn-02610777-v"]]
     paragraph: '34'
-    pos: ["RB", "IN", "JJ", "IN", "VBG", "DT", "JJ", "CC", "NN", "NNS", ",", "EX", "VB", "DT", "NN", "IN", "VBG", "DT", "NN", "WRB", "DT", "VBZ", "JJ", "."]
-    text: 'Aside from the_matter of adjusting the fiscal and tax calendars, there is the problem
-  of financing the adjustment when this is necessary.'
-    tokens: [[0, 5], [6, 10], [11, 21], [22, 24], [25, 34], [35, 38], [39, 45], [46, 49], [50, 53], [54, 63], [63, 64], [65, 70], [71, 73], [74, 77], [78, 85], [86, 88], [89, 98], [99, 102], [103, 113], [114, 118], [119, 123], [124, 126], [127, 136], [136, 137]]
-    wn16_key: [[4, "adjust%2:30:00::"], [16, "finance%2:40:00::"], [21, "be%2:42:03::"]]
-    wn30_key: [[4, "adjust%2:30:00::"], [16, "finance%2:40:00::"], [21, "be%2:42:03::"]]
+    pos: ["NN", "IN", "NN", "NNP", "RB", "IN", "JJ", "IN", "VBG", "DT", "JJ", "CC", "NN", "NNS", ",", "EX", "VB", "DT", "NN", "IN", "VBG", "DT", "NN", "WRB", "DT", "VBZ", "JJ", "."]
+    text: '#METHODS OF FINANCING ADJUSTMENTS# Aside from the_matter of adjusting the fiscal and tax calendars, there is the problem of financing the adjustment when this is necessary.'
+    tokens: [[0, 8], [9, 11], [12, 21], [22, 34], [35, 40], [41, 45], [46, 56], [57, 59], [60, 69], [70, 73], [74, 80], [81, 84], [85, 88], [89, 98], [98, 99], [100, 105], [106, 108], [109, 112], [113, 120], [121, 123], [124, 133], [134, 137], [138, 148], [149, 153], [154, 158], [159, 161], [162, 171], [171, 172]]
+    wn16_key: [[8, "adjust%2:30:00::"], [20, "finance%2:40:00::"], [25, "be%2:42:03::"]]
+    wn30_key: [[8, "adjust%2:30:00::"], [20, "finance%2:40:00::"], [25, "be%2:42:03::"]]
 Hn4u:
     lemmas: ["It", "should", "be", "emphasize", "strongly", "that", "adjustment", "in", "fiscal", "date", "or", "adoption", "of", "interim", "budget", "do", "not", "necessarily", "mean", "finance", "over", "and", "above", "normal", "governmental", "requirement", "."]
     oewn_key: [[3, "oewn-01015376-v"], [18, "oewn-02641270-v"], [19, "oewn-02222048-v"]]

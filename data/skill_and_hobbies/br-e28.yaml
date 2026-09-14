@@ -89,14 +89,14 @@ ubR4:
     wn16_key: [[0, "based%5:00:00:supported:02"], [3, "experience%1:09:00::"], [5, "client%1:18:01::"], [8, "see%2:36:00::"], [9, "14%5:00:00:cardinal:00"], [10, "major%3:00:06::"], [11, "problem%1:09:00::;problem%1:26:00::"], [13, "fall_into%2:42:00::"], [14, "three%5:00:00:cardinal:00"], [15, "broad%5:00:00:general:00"], [16, "group%1:03:00::"], [19, "marketplace%1:04:00::"], [22, "marketing%1:04:00::"], [23, "method%1:09:00::"], [26, "marketing%1:04:00::"], [27, "management%1:04:00::"]]
     wn30_key: [[0, "based%3:00:00:settled:01"], [3, "experience%1:09:00::"], [5, "client%1:18:01::"], [8, "see%2:36:00::"], [9, "14%3:00:00:cardinal:00"], [10, "major%3:00:06::"], [11, "problem%1:09:00::;problem%1:26:00::"], [13, "fall_into%2:42:00::"], [14, "three%3:00:00:cardinal:00"], [15, "broad%3:00:00:general:00"], [16, "group%1:03:00::"], [19, "marketplace%1:04:00::"], [22, "marketing%1:04:00::"], [23, "method%1:09:00::"], [26, "marketing%1:04:00::"], [27, "management%1:04:00::"]]
 Ixd1:
-    lemmas: ["There", "have", "be", "an", "intensification", "of", "price", "consciousness", "in", "recent", "year", ";", "there", "be", "every", "indication", "it", "will", "continue", "."]
-    oewn_key: [[4, "oewn-00375032-n"], [6, "oewn-13324337-n"], [7, "oewn-05682974-n"], [9, "oewn-01646919-s"], [10, "oewn-15228587-n"], [15, "oewn-06810027-n"], [18, "oewn-02690747-v"]]
+    lemmas: ["#1.", "problems", "in", "the", "market#", "There", "have", "be", "an", "intensification", "of", "price", "consciousness", "in", "recent", "year", ";", "there", "be", "every", "indication", "it", "will", "continue", "."]
+    oewn_key: [[9, "oewn-00375032-n"], [11, "oewn-13324337-n"], [12, "oewn-05682974-n"], [14, "oewn-01646919-s"], [15, "oewn-15228587-n"], [20, "oewn-06810027-n"], [23, "oewn-02690747-v"]]
     paragraph: '3'
-    pos: ["EX", "VBZ", "VB", "DT", "NN", "IN", "NN", "NN", "IN", "JJ", "NNS", ":", "EX", "VB", "DT", "NN", "PRP", "MD", "VB", "."]
-    text: 'There has been an intensification of price-consciousness in recent years; there is every indication it will continue.'
-    tokens: [[0, 5], [6, 9], [10, 14], [15, 17], [18, 33], [34, 36], [37, 42], [43, 56], [57, 59], [60, 66], [67, 72], [72, 73], [74, 79], [80, 82], [83, 88], [89, 99], [100, 102], [103, 107], [108, 116], [116, 117]]
-    wn16_key: [[4, "intensification%1:04:00::"], [6, "price%1:21:00::"], [7, "consciousness%1:09:00::"], [9, "recent%5:00:00:new:00"], [10, "year%1:28:01::"], [15, "indication%1:10:00::"], [18, "continue%2:42:01::"]]
-    wn30_key: [[4, "intensification%1:04:00::"], [6, "price%1:21:00::"], [7, "consciousness%1:09:00::"], [9, "recent%3:00:00:new:00"], [10, "year%1:28:01::"], [15, "indication%1:10:00::"], [18, "continue%2:42:01::"]]
+    pos: ["NN", "NNP", "NNP", "NNP", "NNP", "EX", "VBZ", "VB", "DT", "NN", "IN", "NN", "NN", "IN", "JJ", "NNS", ":", "EX", "VB", "DT", "NN", "PRP", "MD", "VB", "."]
+    text: '#1. PROBLEMS IN THE MARKET# There has been an intensification of price-consciousness in recent years; there is every indication it will continue.'
+    tokens: [[0, 3], [4, 12], [13, 15], [16, 19], [20, 27], [28, 33], [34, 37], [38, 42], [43, 45], [46, 61], [62, 64], [65, 70], [71, 84], [85, 87], [88, 94], [95, 100], [100, 101], [102, 107], [108, 110], [111, 116], [117, 127], [128, 130], [131, 135], [136, 144], [144, 145]]
+    wn16_key: [[9, "intensification%1:04:00::"], [11, "price%1:21:00::"], [12, "consciousness%1:09:00::"], [14, "recent%5:00:00:new:00"], [15, "year%1:28:01::"], [20, "indication%1:10:00::"], [23, "continue%2:42:01::"]]
+    wn30_key: [[9, "intensification%1:04:00::"], [11, "price%1:21:00::"], [12, "consciousness%1:09:00::"], [14, "recent%3:00:00:new:00"], [15, "year%1:28:01::"], [20, "indication%1:10:00::"], [23, "continue%2:42:01::"]]
 prHS:
     lemmas: ["frequently", ",", "wittingly", "or", "unwittingly", ",", "price", "consciousness", "have", "be", "foster", "by", "manufacturer", ",", "distributor", ",", "and", "dealer", "."]
     oewn_key: [[0, "oewn-00035445-r"], [2, "oewn-00239363-r"], [4, "oewn-00239560-r"], [6, "oewn-13324337-n"], [7, "oewn-05682974-n"], [10, "oewn-02560130-v"], [12, "oewn-08077282-n"], [14, "oewn-10038586-n"], [17, "oewn-10740102-n"]]
@@ -415,15 +415,14 @@ qvVs:
     wn16_key: [[2, "examine%2:31:00::"], [4, "trend%1:15:02::"], [6, "forecast%2:31:00::"], [8, "effect%1:19:00::"], [11, "plan%2:36:00::;plan%2:31:00::"], [13, "marketing%1:04:00::"], [14, "strategy%1:09:00::"], [16, "compete%2:33:00::"], [17, "effectively%4:02:01::"], [19, "changing%5:00:00:dynamic:00"], [20, "circumstance%1:26:01::"]]
     wn30_key: [[2, "examine%2:31:00::"], [4, "trend%1:15:02::"], [6, "forecast%2:31:00::"], [8, "effect%1:19:00::"], [11, "plan%2:36:00::;plan%2:31:00::"], [13, "marketing%1:04:00::"], [14, "strategy%1:09:00::"], [16, "compete%2:33:00::"], [17, "effectively%4:02:01::"], [19, "changing%3:00:00:dynamic:00"], [20, "circumstance%1:26:01::"]]
 P4bD:
-    lemmas: ["In", "the", "area", "of", "private", "label", "competition", ",", "it", "be", "logical", "to", "expect", "a", "continuation", "of", "trend", "which", "have", "be", "underway", "during", "the", "first", "decade", "."]
-    oewn_key: [[2, "oewn-05823643-n"], [4, "oewn-01864034-a"], [5, "oewn-06864566-n"], [6, "oewn-13859208-n"], [9, "oewn-02610777-v"], [10, "oewn-02509114-s"], [12, "oewn-00721658-v"], [14, "oewn-01019929-n"], [16, "oewn-08699515-n"], [19, "oewn-02610777-v"], [20, "oewn-00670007-s"], [23, "oewn-01014459-a"], [24, "oewn-15229779-n"]]
+    lemmas: ["#2.", "problems", "in", "marketing", "methods#", "In", "the", "area", "of", "private", "label", "competition", ",", "it", "be", "logical", "to", "expect", "a", "continuation", "of", "trend", "which", "have", "be", "underway", "during", "the", "first", "decade", "."]
+    oewn_key: [[7, "oewn-05823643-n"], [9, "oewn-01864034-a"], [10, "oewn-06864566-n"], [11, "oewn-13859208-n"], [14, "oewn-02610777-v"], [15, "oewn-02509114-s"], [17, "oewn-00721658-v"], [19, "oewn-01019929-n"], [21, "oewn-08699515-n"], [24, "oewn-02610777-v"], [25, "oewn-00670007-s"], [28, "oewn-01014459-a"], [29, "oewn-15229779-n"]]
     paragraph: '16'
-    pos: ["IN", "DT", "NN", "IN", "JJ", "NN", "NN", ",", "PRP", "VBZ", "JJ", "TO", "VB", "DT", "NN", "IN", "NNS", "WDT", "VBP", "VBN", "JJ", "IN", "DT", "JJ", "NN", "."]
-    text: 'In the area of private label competition, it is logical to expect a continuation
-  of trends which have been under_way during the first decade.'
-    tokens: [[0, 2], [3, 6], [7, 11], [12, 14], [15, 22], [23, 28], [29, 40], [40, 41], [42, 44], [45, 47], [48, 55], [56, 58], [59, 65], [66, 67], [68, 80], [81, 83], [84, 90], [91, 96], [97, 101], [102, 106], [107, 116], [117, 123], [124, 127], [128, 133], [134, 140], [140, 141]]
-    wn16_key: [[2, "area%1:09:00::"], [4, "private%3:00:00::"], [5, "label%1:10:02::"], [6, "competition%1:24:01::"], [9, "be%2:42:03::"], [10, "logical%5:00:00:valid:00"], [12, "expect%2:31:00::"], [14, "continuation%1:04:00::"], [16, "trend%1:15:02::"], [19, "be%2:42:03::"], [20, "underway%5:00:00:current:00"], [23, "first%3:00:00::"], [24, "decade%1:28:00::"]]
-    wn30_key: [[2, "area%1:09:00::"], [4, "private%3:00:00::"], [5, "label%1:10:02::"], [6, "competition%1:24:01::"], [9, "be%2:42:03::"], [10, "logical%3:00:00:valid:00"], [12, "expect%2:31:00::"], [14, "continuation%1:04:00::"], [16, "trend%1:15:02::"], [19, "be%2:42:03::"], [20, "underway%3:00:00:current:00"], [23, "first%3:00:00::"], [24, "decade%1:28:00::"]]
+    pos: ["NN", "NNP", "NNP", "NNP", "NNP", "IN", "DT", "NN", "IN", "JJ", "NN", "NN", ",", "PRP", "VBZ", "JJ", "TO", "VB", "DT", "NN", "IN", "NNS", "WDT", "VBP", "VBN", "JJ", "IN", "DT", "JJ", "NN", "."]
+    text: '#2. PROBLEMS IN MARKETING METHODS# In the area of private label competition, it is logical to expect a continuation of trends which have been under_way during the first decade.'
+    tokens: [[0, 3], [4, 12], [13, 15], [16, 25], [26, 34], [35, 37], [38, 41], [42, 46], [47, 49], [50, 57], [58, 63], [64, 75], [75, 76], [77, 79], [80, 82], [83, 90], [91, 93], [94, 100], [101, 102], [103, 115], [116, 118], [119, 125], [126, 131], [132, 136], [137, 141], [142, 151], [152, 158], [159, 162], [163, 168], [169, 175], [175, 176]]
+    wn16_key: [[7, "area%1:09:00::"], [9, "private%3:00:00::"], [10, "label%1:10:02::"], [11, "competition%1:24:01::"], [14, "be%2:42:03::"], [15, "logical%5:00:00:valid:00"], [17, "expect%2:31:00::"], [19, "continuation%1:04:00::"], [21, "trend%1:15:02::"], [24, "be%2:42:03::"], [25, "underway%5:00:00:current:00"], [28, "first%3:00:00::"], [29, "decade%1:28:00::"]]
+    wn30_key: [[7, "area%1:09:00::"], [9, "private%3:00:00::"], [10, "label%1:10:02::"], [11, "competition%1:24:01::"], [14, "be%2:42:03::"], [15, "logical%3:00:00:valid:00"], [17, "expect%2:31:00::"], [19, "continuation%1:04:00::"], [21, "trend%1:15:02::"], [24, "be%2:42:03::"], [25, "underway%3:00:00:current:00"], [28, "first%3:00:00::"], [29, "decade%1:28:00::"]]
 m0Fm:
     lemmas: ["As", "mass", "dealer", "and", "distributor", "organization", "grow", "in", "size", ",", "there", "be", "every", "reason", "to", "expect", "them", "to", "try", "to", "share_in", "the", "manufacturer", "'s", "as_well", "as", "the", "distributor", "'s", "profits", "-", "which", "be", ",", "in_effect", ",", "what", "the", "sale", "of", "private", "brand", "tend", "to", "do", "."]
     oewn_key: [[2, "oewn-08080282-n"], [4, "oewn-10038586-n"], [5, "oewn-08024893-n"], [6, "oewn-00231172-v"], [8, "oewn-05106204-n"], [13, "oewn-09201896-n"], [15, "oewn-00721658-v"], [18, "oewn-02535833-v"], [22, "oewn-08077282-n"], [24, "oewn-00048072-r"], [27, "oewn-10038586-n"], [29, "oewn-13279261-n"], [32, "oewn-02622439-v"], [34, "oewn-00060570-r"], [38, "oewn-01119862-n"], [40, "oewn-01864034-a"], [41, "oewn-06858649-n"], [42, "oewn-02725274-v"], [44, "oewn-02567910-v"]]
@@ -835,14 +834,14 @@ B0DU:
     wn16_key: [[2, "see%2:39:02::"], [3, "good%3:00:01::"], [4, "new%5:00:00:original:00"], [5, "product%1:06:01::"], [6, "shelve%2:42:00::"], [10, "have%2:40:00::"], [12, "assignment%1:04:00::"], [14, "develop%2:36:00::;develop%2:36:01::"], [15, "such%5:00:01:specified:00"], [16, "fact%1:10:01::"], [18, "plan%1:09:00::"], [21, "management%1:14:00::"], [23, "n't%4:02:00::"], [24, "make_up_one's_mind%2:31:00::"]]
     wn30_key: [[2, "see%2:39:02::"], [3, "good%3:00:01::"], [4, "new%3:00:00:original:00"], [5, "product%1:06:01::"], [6, "shelve%2:42:00::"], [10, "have%2:40:00::"], [12, "assignment%1:04:00::"], [14, "develop%2:36:00::;develop%2:36:01::"], [15, "such%3:00:00:much:00"], [16, "fact%1:10:01::"], [18, "plan%1:09:00::"], [21, "management%1:14:00::"], [24, "make_up_one's_mind%2:31:00::"]]
 Mk8g:
-    lemmas: ["There", "be", "a", "shortage", "of", "salesman", "today", "."]
-    oewn_key: [[3, "oewn-05121671-n"], [5, "oewn-10568094-n"], [6, "oewn-00049013-r"]]
+    lemmas: ["#3.", "problems", "in", "marketing", "management#", "There", "be", "a", "shortage", "of", "salesman", "today", "."]
+    oewn_key: [[8, "oewn-05121671-n"], [10, "oewn-10568094-n"], [11, "oewn-00049013-r"]]
     paragraph: '33'
-    pos: ["EX", "VB", "DT", "NN", "IN", "NNS", "RB", "."]
-    text: 'There is a shortage of salesmen today.'
-    tokens: [[0, 5], [6, 8], [9, 10], [11, 19], [20, 22], [23, 31], [32, 37], [37, 38]]
-    wn16_key: [[3, "shortage%1:07:00::"], [5, "salesman%1:18:00::"], [6, "today%4:02:01::"]]
-    wn30_key: [[3, "shortage%1:07:00::"], [5, "salesman%1:18:00::"], [6, "today%4:02:01::"]]
+    pos: ["NN", "NNP", "NNP", "NNP", "NNP", "EX", "VB", "DT", "NN", "IN", "NNS", "RB", "."]
+    text: '#3. PROBLEMS IN MARKETING MANAGEMENT# There is a shortage of salesmen today.'
+    tokens: [[0, 3], [4, 12], [13, 15], [16, 25], [26, 37], [38, 43], [44, 46], [47, 48], [49, 57], [58, 60], [61, 69], [70, 75], [75, 76]]
+    wn16_key: [[8, "shortage%1:07:00::"], [10, "salesman%1:18:00::"], [11, "today%4:02:01::"]]
+    wn30_key: [[8, "shortage%1:07:00::"], [10, "salesman%1:18:00::"], [11, "today%4:02:01::"]]
 2Fjr:
     lemmas: ["in", "the", "future", ",", "quantitative", "demand", "will", "be", "greater", "because", "of", "the", "expansion", "of", "the", "economy", ",", "and", "the", "qualitative", "need", "will", "be", "greater", "still", "."]
     oewn_key: [[2, "oewn-15146567-n"], [4, "oewn-01921311-a"], [5, "oewn-13482365-n"], [7, "oewn-02610777-v"], [8, "oewn-01398335-a"], [12, "oewn-00366535-n"], [15, "oewn-08383680-n"], [19, "oewn-01920902-a"], [20, "oewn-14472592-n"], [22, "oewn-02610777-v"], [23, "oewn-01398335-a"], [24, "oewn-00018101-r"]]

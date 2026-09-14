@@ -27,15 +27,14 @@ _meta:
         base: tokens
         data: string
 m7YW:
-    lemmas: ["We", "be", "try", "to", "study", "a", "linear_operator", "t", "on", "the", "finite", "dimensional", "space", "v", ",", "by", "decompose", "t", "into", "a", "direct_sum", "of", "operator", "which", "be", "in", "some", "sense", "elementary", "."]
-    oewn_key: [[2, "oewn-02535833-v"], [4, "oewn-00646245-v"], [6, "oewn-13808807-n"], [10, "oewn-01010155-a"], [11, "oewn-00663500-s"], [16, "oewn-00209582-v"], [22, "oewn-13808625-n"], [24, "oewn-02610777-v"], [28, "oewn-00753900-s"]]
+    lemmas: ["#6.4.", "the", "primary", "decomposition", "theorem#", "We", "be", "try", "to", "study", "a", "linear_operator", "t", "on", "the", "finite", "dimensional", "space", "v", ",", "by", "decompose", "t", "into", "a", "direct_sum", "of", "operator", "which", "be", "in", "some", "sense", "elementary", "."]
+    oewn_key: [[7, "oewn-02535833-v"], [9, "oewn-00646245-v"], [11, "oewn-13808807-n"], [15, "oewn-01010155-a"], [16, "oewn-00663500-s"], [21, "oewn-00209582-v"], [27, "oewn-13808625-n"], [29, "oewn-02610777-v"], [33, "oewn-00753900-s"]]
     paragraph: '0'
-    pos: ["PRP", "VBP", "VBG", "TO", "VB", "DT", "NN", "NN", "IN", "DT", "JJ", "JJ", "NN", "NN", ",", "IN", "VBG", "NN", "IN", "DT", "JJ", "IN", "NNS", "WDT", "VBP", "IN", "DT", "NN", "JJ", "."]
-    text: We are trying to study a linear_operator T on the finite dimensional space V, by decomposing
-      T into a direct_sum of operators which are in some sense elementary.
-    tokens: [[0, 2], [3, 6], [7, 13], [14, 16], [17, 22], [23, 24], [25, 40], [41, 42], [43, 45], [46, 49], [50, 56], [57, 68], [69, 74], [75, 76], [76, 77], [78, 80], [81, 92], [93, 94], [95, 99], [100, 101], [102, 112], [113, 115], [116, 125], [126, 131], [132, 135], [136, 138], [139, 143], [144, 149], [150, 160], [160, 161]]
-    wn16_key: [[2, "try%2:41:00::"], [4, "study%2:31:02::"], [6, "linear_operator%1:24:00::"], [10, "finite%3:00:00::"], [11, "dimensional%5:00:00:multidimensional:00"], [12, "space%1:14:00::"], [16, "decompose%2:30:00::"], [22, "operator%1:24:00::"], [24, "be%2:42:03::"], [27, "sense%1:09:03::"], [28, "elementary%5:00:00:easy:01"]]
-    wn30_key: [[2, "try%2:41:00::"], [4, "study%2:31:02::"], [6, "linear_operator%1:24:00::"], [10, "finite%3:00:00::"], [11, "dimensional%3:00:00:multidimensional:00"], [16, "decompose%2:30:00::"], [22, "operator%1:24:00::"], [24, "be%2:42:03::"], [28, "elementary%3:00:00:easy:01"]]
+    pos: ["IN", "NNP", "NNP", "NNP", "NNP", "PRP", "VBP", "VBG", "TO", "VB", "DT", "NN", "NN", "IN", "DT", "JJ", "JJ", "NN", "NN", ",", "IN", "VBG", "NN", "IN", "DT", "JJ", "IN", "NNS", "WDT", "VBP", "IN", "DT", "NN", "JJ", "."]
+    text: '#6.4. THE PRIMARY DECOMPOSITION THEOREM# We are trying to study a linear_operator T on the finite dimensional space V, by decomposing T into a direct_sum of operators which are in some sense elementary.'
+    tokens: [[0, 5], [6, 9], [10, 17], [18, 31], [32, 40], [41, 43], [44, 47], [48, 54], [55, 57], [58, 63], [64, 65], [66, 81], [82, 83], [84, 86], [87, 90], [91, 97], [98, 109], [110, 115], [116, 117], [117, 118], [119, 121], [122, 133], [134, 135], [136, 140], [141, 142], [143, 153], [154, 156], [157, 166], [167, 172], [173, 176], [177, 179], [180, 184], [185, 190], [191, 201], [201, 202]]
+    wn16_key: [[7, "try%2:41:00::"], [9, "study%2:31:02::"], [11, "linear_operator%1:24:00::"], [15, "finite%3:00:00::"], [16, "dimensional%5:00:00:multidimensional:00"], [17, "space%1:14:00::"], [21, "decompose%2:30:00::"], [27, "operator%1:24:00::"], [29, "be%2:42:03::"], [32, "sense%1:09:03::"], [33, "elementary%5:00:00:easy:01"]]
+    wn30_key: [[7, "try%2:41:00::"], [9, "study%2:31:02::"], [11, "linear_operator%1:24:00::"], [15, "finite%3:00:00::"], [16, "dimensional%3:00:00:multidimensional:00"], [21, "decompose%2:30:00::"], [27, "operator%1:24:00::"], [29, "be%2:42:03::"], [33, "elementary%3:00:00:easy:01"]]
 XI81:
     lemmas: ["We", "can", "do", "this", "through", "the", "characteristic", "value", "and", "vector", "of", "t", "in", "certain", "special", "case", ",", "i.e.", ",", "when", "the", "minimal", "polynomial", "for", "t", "factor", "over", "the", "scalar_field", "f", "into", "a", "product", "of", "distinct", "monic_polynomial", "of", "degree", "1", "."]
     oewn_key: [[2, "oewn-02566500-v"], [6, "oewn-00358006-a"], [7, "oewn-05864972-n"], [9, "oewn-05873161-n"], [13, "oewn-00704329-s"], [14, "oewn-01107719-s"], [15, "oewn-13966452-n"], [17, "oewn-00193186-r"], [21, "oewn-01499316-a"], [22, "oewn-05870439-n"], [25, "oewn-00642047-v"], [28, "oewn-08022319-n"], [32, "oewn-05868214-n"], [34, "oewn-02074467-s"], [35, "oewn-05870994-n"], [37, "oewn-05869901-n"], [38, "oewn-13764713-n"]]
@@ -185,15 +184,14 @@ VwyY:
     wn16_key: [[1, "reader%1:18:00::"], [3, "find%2:31:10::"], [5, "helpful%3:00:00::"], [7, "think_of%2:31:00::"], [9, "special%5:00:01:specific:00"], [10, "case%1:11:00::"], [13, "prime%1:23:00::"], [14, "be%2:42:03::"], [16, "degree%1:09:00::"], [17, "1%1:23:00::"], [20, "even%4:02:00::"], [21, "more%3:00:01::"], [22, "particularly%4:02:00::"], [25, "think_of%2:31:00::"], [27, "proof%1:10:00::"], [29, "theorem%1:10:00::"], [33, "special%5:00:01:specific:00"], [34, "case%1:11:00::"], [37, "theorem%1:10:00::"]]
     wn30_key: [[1, "reader%1:18:00::"], [3, "find%2:31:10::"], [5, "helpful%3:00:00::"], [7, "think_of%2:31:00::"], [9, "special%3:00:01:specific:00"], [10, "case%1:11:00::"], [13, "prime%1:23:00::"], [14, "be%2:42:03::"], [16, "degree%1:09:00::"], [17, "1%1:23:00::"], [20, "even%4:02:00::"], [21, "more%3:00:01::"], [22, "particularly%4:02:00::"], [25, "think_of%2:31:00::"], [27, "proof%1:10:00::"], [29, "theorem%1:10:00::"], [33, "special%3:00:01:specific:00"], [34, "case%1:11:00::"], [37, "theorem%1:10:00::"]]
 D9Hi:
-    lemmas: ["let", "t", "be", "a", "linear_operator", "on", "the", "finite", "dimensional", "vector", "space", "v", "over", "the", "field", "f", "."]
-    oewn_key: [[0, "oewn-02427979-v"], [2, "oewn-02622439-v"], [4, "oewn-13808807-n"], [7, "oewn-01010155-a"], [8, "oewn-02996534-a"], [9, "oewn-05873161-n"], [14, "oewn-08021702-n"]]
+    lemmas: ["#theorem", "12.", "(primary", "decomposition", "theorem).#", "let", "t", "be", "a", "linear_operator", "on", "the", "finite", "dimensional", "vector", "space", "v", "over", "the", "field", "f", "."]
+    oewn_key: [[5, "oewn-02427979-v"], [7, "oewn-02622439-v"], [9, "oewn-13808807-n"], [12, "oewn-01010155-a"], [13, "oewn-02996534-a"], [14, "oewn-05873161-n"], [19, "oewn-08021702-n"]]
     paragraph: '2'
-    pos: ["VB", "NN", "VB", "DT", "NN", "IN", "DT", "JJ", "JJ", "NN", "NN", "NN", "IN", "DT", "NN", "NN", "."]
-    text: 'Let T be a linear_operator on the finite dimensional vector space V over the field
-  F.'
-    tokens: [[0, 3], [4, 5], [6, 8], [9, 10], [11, 26], [27, 29], [30, 33], [34, 40], [41, 52], [53, 59], [60, 65], [66, 67], [68, 72], [73, 76], [77, 82], [83, 84], [84, 85]]
-    wn16_key: [[0, "let%2:41:00::"], [2, "be%2:42:06::"], [4, "linear_operator%1:24:00::"], [7, "finite%3:00:00::"], [8, "dimensional%3:01:00::"], [9, "vector%1:09:00::"], [10, "space%1:14:00::"], [14, "field%1:14:00::"]]
-    wn30_key: [[0, "let%2:41:00::"], [2, "be%2:42:06::"], [4, "linear_operator%1:24:00::"], [7, "finite%3:00:00::"], [8, "dimensional%3:01:00::"], [9, "vector%1:09:00::"], [14, "field%1:14:00::"]]
+    pos: ["VBZ", "CD", "JJ", "NNP", "NNP", "VB", "NN", "VB", "DT", "NN", "IN", "DT", "JJ", "JJ", "NN", "NN", "NN", "IN", "DT", "NN", "NN", "."]
+    text: '#THEOREM 12. (PRIMARY DECOMPOSITION THEOREM).# Let T be a linear_operator on the finite dimensional vector space V over the field F.'
+    tokens: [[0, 8], [9, 12], [13, 21], [22, 35], [36, 46], [47, 50], [51, 52], [53, 55], [56, 57], [58, 73], [74, 76], [77, 80], [81, 87], [88, 99], [100, 106], [107, 112], [113, 114], [115, 119], [120, 123], [124, 129], [130, 131], [131, 132]]
+    wn16_key: [[5, "let%2:41:00::"], [7, "be%2:42:06::"], [9, "linear_operator%1:24:00::"], [12, "finite%3:00:00::"], [13, "dimensional%3:01:00::"], [14, "vector%1:09:00::"], [15, "space%1:14:00::"], [19, "field%1:14:00::"]]
+    wn30_key: [[5, "let%2:41:00::"], [7, "be%2:42:06::"], [9, "linear_operator%1:24:00::"], [12, "finite%3:00:00::"], [13, "dimensional%3:01:00::"], [14, "vector%1:09:00::"], [19, "field%1:14:00::"]]
 ESph:
     lemmas: ["let", "p", "be", "the", "minimal", "polynomial", "for", "t", ",", "**f", "where", "the", "**f", "be", "distinct", "irreducible", "monic_polynomial", "over", "f", "and", "the", "**f", "be", "positive", "integer", "."]
     oewn_key: [[0, "oewn-02427979-v"], [2, "oewn-02622439-v"], [4, "oewn-01499316-a"], [5, "oewn-05870439-n"], [13, "oewn-02610777-v"], [14, "oewn-02074467-s"], [15, "oewn-00887072-a"], [16, "oewn-05870994-n"], [22, "oewn-02610777-v"], [23, "oewn-01823004-a"], [24, "oewn-13750609-n"]]
@@ -466,16 +464,16 @@ IB7A:
     wn16_key: [[0, "hence%4:02:00::"], [2, "minimal%3:00:00::"], [3, "polynomial%1:09:00::"], [6, "be%2:42:07::"]]
     wn30_key: [[0, "hence%4:02:00::"], [2, "minimal%3:00:00::"], [3, "polynomial%1:09:00::"], [6, "be%2:42:07::"]]
 NUT4:
-    lemmas: ["If", "**f", "be", "the", "projection", "associate", "with", "the", "primary", "decomposition", "of", "t", ",", "then", "each", "**f", "be", "a", "polynomial", "in", "t", ",", "and", "accordingly", "if", "a", "linear_operator", "u", "commute", "with", "t", "then", "u", "commute", "with", "each", "of", "the", "**f", "i.e.", ",", "each", "subspace", "**f", "be", "invariant", "under", "u", "."]
-    oewn_key: [[2, "oewn-02622439-v"], [4, "oewn-05783290-n"], [5, "oewn-00715072-v"], [8, "oewn-01858102-a"], [9, "oewn-06022820-n"], [13, "oewn-00118928-r"], [14, "oewn-02277394-s"], [16, "oewn-02622439-v"], [18, "oewn-05870439-n"], [23, "oewn-00063395-r"], [26, "oewn-13808807-n"], [28, "oewn-00554484-v"], [31, "oewn-00118928-r"], [33, "oewn-00554484-v"], [39, "oewn-00193186-r"], [41, "oewn-02277394-s"], [42, "oewn-08020784-n"], [44, "oewn-02610777-v"], [45, "oewn-02516453-s"]]
+    lemmas: ["#corollary.#", "If", "**f", "be", "the", "projection", "associate", "with", "the", "primary", "decomposition", "of", "t", ",", "then", "each", "**f", "be", "a", "polynomial", "in", "t", ",", "and", "accordingly", "if", "a", "linear_operator", "u", "commute", "with", "t", "then", "u", "commute", "with", "each", "of", "the", "**f", "i.e.", ",", "each", "subspace", "**f", "be", "invariant", "under", "u", "."]
+    oewn_key: [[3, "oewn-02622439-v"], [5, "oewn-05783290-n"], [6, "oewn-00715072-v"], [9, "oewn-01858102-a"], [10, "oewn-06022820-n"], [14, "oewn-00118928-r"], [15, "oewn-02277394-s"], [17, "oewn-02622439-v"], [19, "oewn-05870439-n"], [24, "oewn-00063395-r"], [27, "oewn-13808807-n"], [29, "oewn-00554484-v"], [32, "oewn-00118928-r"], [34, "oewn-00554484-v"], [40, "oewn-00193186-r"], [42, "oewn-02277394-s"], [43, "oewn-08020784-n"], [45, "oewn-02610777-v"], [46, "oewn-02516453-s"]]
     paragraph: '7'
-    pos: ["IN", "NN", "VBP", "DT", "NNS", "VBN", "VB", "DT", "JJ", "NN", "IN", "NN", ",", "RB", "JJ", "NN", "VBZ", "DT", "NN", "IN", "NN", ",", "CC", "RB", "IN", "DT", "NN", "NNP", "VB", "IN", "NN", "RB", "NNP", "VB", "IN", "DT", "IN", "DT", "NN", "RB", ",", "JJ", "NN", "NN", "VBZ", "JJ", "IN", "NNP", "."]
-    text: 'If **f are the projections associated with the primary decomposition of T, then each **f is a polynomial in T, and accordingly if a linear_operator U commutes with T then U commutes with each of the **f i.e., each subspace **f is invariant under U.
+    pos: ["RB", "IN", "NN", "VBP", "DT", "NNS", "VBN", "VB", "DT", "JJ", "NN", "IN", "NN", ",", "RB", "JJ", "NN", "VBZ", "DT", "NN", "IN", "NN", ",", "CC", "RB", "IN", "DT", "NN", "NNP", "VB", "IN", "NN", "RB", "NNP", "VB", "IN", "DT", "IN", "DT", "NN", "RB", ",", "JJ", "NN", "NN", "VBZ", "JJ", "IN", "NNP", "."]
+    text: '#COROLLARY.# If **f are the projections associated with the primary decomposition of T, then each **f is a polynomial in T, and accordingly if a linear_operator U commutes with T then U commutes with each of the **f i.e., each subspace **f is invariant under U.
 
   '
-    tokens: [[0, 2], [3, 6], [7, 10], [11, 14], [15, 26], [27, 37], [38, 42], [43, 46], [47, 54], [55, 68], [69, 71], [72, 73], [73, 74], [75, 79], [80, 84], [85, 88], [89, 91], [92, 93], [94, 104], [105, 107], [108, 109], [109, 110], [111, 114], [115, 126], [127, 129], [130, 131], [132, 147], [148, 149], [150, 158], [159, 163], [164, 165], [166, 170], [171, 172], [173, 181], [182, 186], [187, 191], [192, 194], [195, 198], [199, 202], [203, 207], [207, 208], [209, 213], [214, 222], [223, 226], [227, 229], [230, 239], [240, 245], [246, 247], [247, 248]]
-    wn16_key: [[2, "be%2:42:06::"], [4, "projection%1:09:01::"], [5, "associate%2:31:00::"], [8, "primary%3:00:00::"], [9, "decomposition%1:09:00::"], [13, "then%4:02:02::"], [14, "each%5:00:00:all(a):00"], [16, "be%2:42:06::"], [18, "polynomial%1:09:00::"], [23, "accordingly%4:02:00::"], [26, "linear_operator%1:24:00::"], [28, "commute%2:30:04::"], [31, "then%4:02:02::"], [33, "commute%2:30:04::"], [39, "i.e.%4:02:00::"], [41, "each%5:00:00:all(a):00"], [42, "subspace%1:14:00::"], [44, "be%2:42:03::"], [45, "invariant%5:00:02:invariable:00"]]
-    wn30_key: [[2, "be%2:42:06::"], [4, "projection%1:09:01::"], [5, "associate%2:31:00::"], [8, "primary%3:00:00::"], [9, "decomposition%1:09:00::"], [13, "then%4:02:02::"], [14, "each%3:00:00:all:00"], [16, "be%2:42:06::"], [18, "polynomial%1:09:00::"], [23, "accordingly%4:02:00::"], [26, "linear_operator%1:24:00::"], [28, "commute%2:30:04::"], [31, "then%4:02:02::"], [33, "commute%2:30:04::"], [39, "i.e.%4:02:00::"], [41, "each%3:00:00:all:00"], [42, "subspace%1:14:00::"], [44, "be%2:42:03::"], [45, "invariant%3:00:02:invariable:00"]]
+    tokens: [[0, 12], [13, 15], [16, 19], [20, 23], [24, 27], [28, 39], [40, 50], [51, 55], [56, 59], [60, 67], [68, 81], [82, 84], [85, 86], [86, 87], [88, 92], [93, 97], [98, 101], [102, 104], [105, 106], [107, 117], [118, 120], [121, 122], [122, 123], [124, 127], [128, 139], [140, 142], [143, 144], [145, 160], [161, 162], [163, 171], [172, 176], [177, 178], [179, 183], [184, 185], [186, 194], [195, 199], [200, 204], [205, 207], [208, 211], [212, 215], [216, 220], [220, 221], [222, 226], [227, 235], [236, 239], [240, 242], [243, 252], [253, 258], [259, 260], [260, 261]]
+    wn16_key: [[3, "be%2:42:06::"], [5, "projection%1:09:01::"], [6, "associate%2:31:00::"], [9, "primary%3:00:00::"], [10, "decomposition%1:09:00::"], [14, "then%4:02:02::"], [15, "each%5:00:00:all(a):00"], [17, "be%2:42:06::"], [19, "polynomial%1:09:00::"], [24, "accordingly%4:02:00::"], [27, "linear_operator%1:24:00::"], [29, "commute%2:30:04::"], [32, "then%4:02:02::"], [34, "commute%2:30:04::"], [40, "i.e.%4:02:00::"], [42, "each%5:00:00:all(a):00"], [43, "subspace%1:14:00::"], [45, "be%2:42:03::"], [46, "invariant%5:00:02:invariable:00"]]
+    wn30_key: [[3, "be%2:42:06::"], [5, "projection%1:09:01::"], [6, "associate%2:31:00::"], [9, "primary%3:00:00::"], [10, "decomposition%1:09:00::"], [14, "then%4:02:02::"], [15, "each%3:00:00:all:00"], [17, "be%2:42:06::"], [19, "polynomial%1:09:00::"], [24, "accordingly%4:02:00::"], [27, "linear_operator%1:24:00::"], [29, "commute%2:30:04::"], [32, "then%4:02:02::"], [34, "commute%2:30:04::"], [40, "i.e.%4:02:00::"], [42, "each%3:00:00:all:00"], [43, "subspace%1:14:00::"], [45, "be%2:42:03::"], [46, "invariant%3:00:02:invariable:00"]]
 jXuv:
     lemmas: ["In", "the", "notation", "of", "the", "proof", "of", "theorem", "12", ",", "let", "us", "take_a_look", "at", "the", "special", "case", "in", "which", "the", "minimal", "polynomial", "for", "t", "be", "a", "product", "of", "first", "degree", "polynomial", ",", "i.e.", ",", "the", "case", "in", "which", "each", "**f", "be", "of", "the", "form", "**f", "."]
     oewn_key: [[2, "oewn-06821351-n"], [5, "oewn-06660359-n"], [7, "oewn-06765007-n"], [10, "oewn-02427979-v"], [12, "oewn-02136242-v"], [15, "oewn-01107719-s"], [16, "oewn-07323507-n"], [20, "oewn-01499316-a"], [21, "oewn-05870439-n"], [24, "oewn-02622439-v"], [26, "oewn-05868214-n"], [28, "oewn-01014459-a"], [29, "oewn-05869901-n"], [30, "oewn-05870439-n"], [32, "oewn-00193186-r"], [35, "oewn-07323507-n"], [38, "oewn-02277394-s"], [40, "oewn-02610777-v"], [43, "oewn-05847533-n"]]
@@ -552,14 +550,14 @@ T6my:
     wn16_key: [[3, "each%5:00:00:all(a):00"], [8, "have%2:40:00::"], [13, "operator%1:24:00::"], [16, "then%4:02:02::"], [17, "be%2:42:07::"], [18, "0%1:23:00::"], [21, "range%1:15:03::"]]
     wn30_key: [[3, "each%3:00:00:all:00"], [8, "have%2:40:00::"], [13, "operator%1:24:00::"], [16, "then%4:02:02::"], [17, "be%2:42:07::"], [18, "0%1:23:00::"], [21, "range%1:15:01::"]]
 0s/4:
-    lemmas: ["let", "n", "be", "a", "linear_operator", "on", "the", "vector", "space", "v", "."]
-    oewn_key: [[2, "oewn-02622439-v"], [4, "oewn-13808807-n"], [7, "oewn-05873161-n"]]
+    lemmas: ["#definition.#", "let", "n", "be", "a", "linear_operator", "on", "the", "vector", "space", "v", "."]
+    oewn_key: [[3, "oewn-02622439-v"], [5, "oewn-13808807-n"], [8, "oewn-05873161-n"]]
     paragraph: '9'
-    pos: ["VB", "NN", "VB", "DT", "NN", "IN", "DT", "NN", "NN", "NN", "."]
-    text: 'Let N be a linear_operator on the vector space V.'
-    tokens: [[0, 3], [4, 5], [6, 8], [9, 10], [11, 26], [27, 29], [30, 33], [34, 40], [41, 46], [47, 48], [48, 49]]
-    wn16_key: [[2, "be%2:42:06::"], [4, "linear_operator%1:24:00::"], [7, "vector%1:09:00::"], [8, "space%1:14:00::"]]
-    wn30_key: [[2, "be%2:42:06::"], [4, "linear_operator%1:24:00::"], [7, "vector%1:09:00::"]]
+    pos: ["NNP", "VB", "NN", "VB", "DT", "NN", "IN", "DT", "NN", "NN", "NN", "."]
+    text: '#DEFINITION.# Let N be a linear_operator on the vector space V.'
+    tokens: [[0, 13], [14, 17], [18, 19], [20, 22], [23, 24], [25, 40], [41, 43], [44, 47], [48, 54], [55, 60], [61, 62], [62, 63]]
+    wn16_key: [[3, "be%2:42:06::"], [5, "linear_operator%1:24:00::"], [8, "vector%1:09:00::"], [9, "space%1:14:00::"]]
+    wn30_key: [[3, "be%2:42:06::"], [5, "linear_operator%1:24:00::"], [8, "vector%1:09:00::"]]
 Ewhz:
     lemmas: ["We", "say", "that", "n", "be", "nilpotent", "if", "there", "be", "some", "positive", "integer", "r", "such_that", "**f", "."]
     oewn_key: [[1, "oewn-01018011-v"], [4, "oewn-02610777-v"], [5, "oewn-03023885-a"], [8, "oewn-02609706-v"], [10, "oewn-01823004-a"], [11, "oewn-13750609-n"]]
@@ -572,15 +570,14 @@ Ewhz:
     wn16_key: [[1, "say%2:32:01::"], [4, "be%2:42:03::"], [5, "nilpotent%3:01:00::"], [8, "be%2:42:00::"], [10, "positive%3:00:01::"], [11, "integer%1:23:00::"], [13, "such_that%5:00:00:specified:00"]]
     wn30_key: [[1, "say%2:32:01::"], [4, "be%2:42:03::"], [5, "nilpotent%3:01:00::"], [8, "be%2:42:00::"], [10, "positive%3:00:01::"], [11, "integer%1:23:00::"]]
 oAeH:
-    lemmas: ["let", "t", "be", "a", "linear_operator", "on", "the", "finite", "dimensional", "vector", "space", "v", "over", "the", "field", "f", "."]
-    oewn_key: [[0, "oewn-02427979-v"], [2, "oewn-02622439-v"], [4, "oewn-13808807-n"], [7, "oewn-01010155-a"], [8, "oewn-00663500-s"], [9, "oewn-05873161-n"], [14, "oewn-08021702-n"]]
+    lemmas: ["#theorem", "13.#", "let", "t", "be", "a", "linear_operator", "on", "the", "finite", "dimensional", "vector", "space", "v", "over", "the", "field", "f", "."]
+    oewn_key: [[2, "oewn-02427979-v"], [4, "oewn-02622439-v"], [6, "oewn-13808807-n"], [9, "oewn-01010155-a"], [10, "oewn-00663500-s"], [11, "oewn-05873161-n"], [16, "oewn-08021702-n"]]
     paragraph: '10'
-    pos: ["VB", "NN", "VB", "DT", "NN", "IN", "DT", "JJ", "JJ", "NN", "NN", "NN", "IN", "DT", "NN", "NN", "."]
-    text: 'Let T be a linear_operator on the finite dimensional vector space V over the field
-  F.'
-    tokens: [[0, 3], [4, 5], [6, 8], [9, 10], [11, 26], [27, 29], [30, 33], [34, 40], [41, 52], [53, 59], [60, 65], [66, 67], [68, 72], [73, 76], [77, 82], [83, 84], [84, 85]]
-    wn16_key: [[0, "let%2:41:00::"], [2, "be%2:42:06::"], [4, "linear_operator%1:24:00::"], [7, "finite%3:00:00::"], [8, "dimensional%5:00:00:multidimensional:00"], [9, "vector%1:09:00::"], [10, "space%1:14:00::"], [14, "field%1:14:00::"]]
-    wn30_key: [[0, "let%2:41:00::"], [2, "be%2:42:06::"], [4, "linear_operator%1:24:00::"], [7, "finite%3:00:00::"], [8, "dimensional%3:00:00:multidimensional:00"], [9, "vector%1:09:00::"], [14, "field%1:14:00::"]]
+    pos: ["$", "CD", "VB", "NN", "VB", "DT", "NN", "IN", "DT", "JJ", "JJ", "NN", "NN", "NN", "IN", "DT", "NN", "NN", "."]
+    text: '#THEOREM 13.# Let T be a linear_operator on the finite dimensional vector space V over the field F.'
+    tokens: [[0, 8], [9, 13], [14, 17], [18, 19], [20, 22], [23, 24], [25, 40], [41, 43], [44, 47], [48, 54], [55, 66], [67, 73], [74, 79], [80, 81], [82, 86], [87, 90], [91, 96], [97, 98], [98, 99]]
+    wn16_key: [[2, "let%2:41:00::"], [4, "be%2:42:06::"], [6, "linear_operator%1:24:00::"], [9, "finite%3:00:00::"], [10, "dimensional%5:00:00:multidimensional:00"], [11, "vector%1:09:00::"], [12, "space%1:14:00::"], [16, "field%1:14:00::"]]
+    wn30_key: [[2, "let%2:41:00::"], [4, "be%2:42:06::"], [6, "linear_operator%1:24:00::"], [9, "finite%3:00:00::"], [10, "dimensional%3:00:00:multidimensional:00"], [11, "vector%1:09:00::"], [16, "field%1:14:00::"]]
 ewVq:
     lemmas: ["suppose", "that", "the", "minimal", "polynomial", "for", "t", "decompose", "over", "f", "into", "a", "product", "of", "linear", "polynomial", "."]
     oewn_key: [[0, "oewn-00919271-v"], [3, "oewn-01499316-a"], [4, "oewn-05870439-n"], [7, "oewn-00209582-v"], [12, "oewn-05868214-n"], [14, "oewn-01420302-a"], [15, "oewn-05870439-n"]]
@@ -735,15 +732,14 @@ ZA5m:
     wn16_key: [[0, "thus%4:02:00::"], [2, "see%2:31:01::"]]
     wn30_key: [[0, "thus%4:02:00::"], [2, "see%2:31:01::"]]
 nQB8:
-    lemmas: ["let", "v", "be", "a", "finite", "dimensional", "vector", "space", "over", "an", "algebraically", "closed", "field", "f", ",", "e.g.", ",", "the", "field", "of", "complex_number", "."]
-    oewn_key: [[0, "oewn-02427979-v"], [2, "oewn-02622439-v"], [4, "oewn-01010155-a"], [5, "oewn-00663500-s"], [6, "oewn-05873161-n"], [10, "oewn-00132327-r"], [11, "oewn-01664561-a"], [12, "oewn-08021702-n"], [15, "oewn-00160239-r"], [18, "oewn-08021702-n"], [20, "oewn-13751538-n"]]
+    lemmas: ["#corollary.#", "let", "v", "be", "a", "finite", "dimensional", "vector", "space", "over", "an", "algebraically", "closed", "field", "f", ",", "e.g.", ",", "the", "field", "of", "complex_number", "."]
+    oewn_key: [[1, "oewn-02427979-v"], [3, "oewn-02622439-v"], [5, "oewn-01010155-a"], [6, "oewn-00663500-s"], [7, "oewn-05873161-n"], [11, "oewn-00132327-r"], [12, "oewn-01664561-a"], [13, "oewn-08021702-n"], [16, "oewn-00160239-r"], [19, "oewn-08021702-n"], [21, "oewn-13751538-n"]]
     paragraph: '13'
-    pos: ["VB", "NN", "VB", "DT", "JJ", "JJ", "NN", "NN", "IN", "DT", "RB", "JJ", "NN", "NN", ",", "RB", ",", "DT", "NN", "IN", "NNS", "."]
-    text: 'Let V be a finite dimensional vector space over an algebraically closed field F,
-  e.g., the field of complex_numbers.'
-    tokens: [[0, 3], [4, 5], [6, 8], [9, 10], [11, 17], [18, 29], [30, 36], [37, 42], [43, 47], [48, 50], [51, 64], [65, 71], [72, 77], [78, 79], [79, 80], [81, 85], [85, 86], [87, 90], [91, 96], [97, 99], [100, 115], [115, 116]]
-    wn16_key: [[0, "let%2:41:00::"], [2, "be%2:42:06::"], [4, "finite%3:00:00::"], [5, "dimensional%5:00:00:multidimensional:00"], [6, "vector%1:09:00::"], [7, "space%1:14:00::"], [10, "algebraically%4:02:00::"], [11, "closed%3:00:02::"], [12, "field%1:14:00::"], [15, "e.g.%4:02:00::"], [18, "field%1:14:00::"], [20, "complex_number%1:23:00::"]]
-    wn30_key: [[0, "let%2:41:00::"], [2, "be%2:42:06::"], [4, "finite%3:00:00::"], [5, "dimensional%3:00:00:multidimensional:00"], [6, "vector%1:09:00::"], [10, "algebraically%4:02:00::"], [11, "closed%3:00:02::"], [12, "field%1:14:00::"], [15, "e.g.%4:02:00::"], [18, "field%1:14:00::"], [20, "complex_number%1:23:00::"]]
+    pos: ["NNP", "VB", "NN", "VB", "DT", "JJ", "JJ", "NN", "NN", "IN", "DT", "RB", "JJ", "NN", "NN", ",", "RB", ",", "DT", "NN", "IN", "NNS", "."]
+    text: '#COROLLARY.# Let V be a finite dimensional vector space over an algebraically closed field F, e.g., the field of complex_numbers.'
+    tokens: [[0, 12], [13, 16], [17, 18], [19, 21], [22, 23], [24, 30], [31, 42], [43, 49], [50, 55], [56, 60], [61, 63], [64, 77], [78, 84], [85, 90], [91, 92], [92, 93], [94, 98], [98, 99], [100, 103], [104, 109], [110, 112], [113, 128], [128, 129]]
+    wn16_key: [[1, "let%2:41:00::"], [3, "be%2:42:06::"], [5, "finite%3:00:00::"], [6, "dimensional%5:00:00:multidimensional:00"], [7, "vector%1:09:00::"], [8, "space%1:14:00::"], [11, "algebraically%4:02:00::"], [12, "closed%3:00:02::"], [13, "field%1:14:00::"], [16, "e.g.%4:02:00::"], [19, "field%1:14:00::"], [21, "complex_number%1:23:00::"]]
+    wn30_key: [[1, "let%2:41:00::"], [3, "be%2:42:06::"], [5, "finite%3:00:00::"], [6, "dimensional%3:00:00:multidimensional:00"], [7, "vector%1:09:00::"], [11, "algebraically%4:02:00::"], [12, "closed%3:00:02::"], [13, "field%1:14:00::"], [16, "e.g.%4:02:00::"], [19, "field%1:14:00::"], [21, "complex_number%1:23:00::"]]
 80QV:
     lemmas: ["then", "every", "linear_operator", "t", "on", "v", "can", "be", "write", "as", "the", "sum", "of", "a", "diagonalizable", "operator", "d", "and", "a", "nilpotent", "operator", "n", "which", "commute", "."]
     oewn_key: [[0, "oewn-00118928-r"], [1, "oewn-02277945-s"], [2, "oewn-13808807-n"], [8, "oewn-01702148-v"], [11, "oewn-07975630-n"], [14, "oewn-02722204-a"], [15, "oewn-13808625-n"], [19, "oewn-03023885-a"], [20, "oewn-13808625-n"], [23, "oewn-00554484-v"]]
@@ -820,16 +816,14 @@ oUlR:
     wn16_key: [[2, "choose%2:31:00::"], [4, "give%2:40:07::"], [8, "end%1:09:00::"], [11, "section%1:10:00::"], [14, "deal%2:31:10::"], [16, "differential_equation%1:10:00::"], [18, "thus%4:02:00::"], [19, "be%2:42:03::"], [20, "not%4:02:00::"], [21, "purely%4:02:00::"], [22, "linear_algebra%1:09:00::"]]
     wn30_key: [[2, "choose%2:31:00::"], [4, "give%2:40:07::"], [8, "end%1:09:00::"], [11, "section%1:10:00::"], [14, "deal%2:31:10::"], [16, "differential_equation%1:10:00::"], [18, "thus%4:02:00::"], [19, "be%2:42:03::"], [20, "not%4:02:00::"], [21, "purely%4:02:00::"], [22, "linear_algebra%1:09:00::"]]
 LtHO:
-    lemmas: ["In", "the", "primary", "decomposition", "theorem", ",", "it", "be", "not", "necessary", "that", "the", "vector", "space", "v", "be", "finite", "dimensional", ",", "nor", "be", "it", "necessary", "for", "part", "(", "a", ")", "and", "(", "b", ")", "that", "p", "be", "the", "minimal", "polynomial", "for", "t", "."]
-    oewn_key: [[2, "oewn-01858102-a"], [3, "oewn-06022820-n"], [4, "oewn-06765007-n"], [7, "oewn-02610777-v"], [8, "oewn-00024432-r"], [9, "oewn-01584458-a"], [12, "oewn-05873161-n"], [15, "oewn-02610777-v"], [16, "oewn-01010155-a"], [17, "oewn-02996534-a"], [20, "oewn-02610777-v"], [22, "oewn-01584458-a"], [24, "oewn-13831419-n"], [34, "oewn-02622439-v"], [36, "oewn-01499316-a"], [37, "oewn-05870439-n"]]
+    lemmas: ["#example", "11.#", "In", "the", "primary", "decomposition", "theorem", ",", "it", "be", "not", "necessary", "that", "the", "vector", "space", "v", "be", "finite", "dimensional", ",", "nor", "be", "it", "necessary", "for", "part", "(", "a", ")", "and", "(", "b", ")", "that", "p", "be", "the", "minimal", "polynomial", "for", "t", "."]
+    oewn_key: [[4, "oewn-01858102-a"], [5, "oewn-06022820-n"], [6, "oewn-06765007-n"], [9, "oewn-02610777-v"], [10, "oewn-00024432-r"], [11, "oewn-01584458-a"], [14, "oewn-05873161-n"], [17, "oewn-02610777-v"], [18, "oewn-01010155-a"], [19, "oewn-02996534-a"], [22, "oewn-02610777-v"], [24, "oewn-01584458-a"], [26, "oewn-13831419-n"], [36, "oewn-02622439-v"], [38, "oewn-01499316-a"], [39, "oewn-05870439-n"]]
     paragraph: '16'
-    pos: ["IN", "DT", "JJ", "NN", "NN", ",", "PRP", "VBZ", "RB", "JJ", "IN", "DT", "NN", "NN", "NN", "VB", "JJ", "JJ", ",", "CC", "VBZ", "PRP", "JJ", "IN", "NNS", "VBP", "DT", "NN", "CC", "NN", "NN", "NN", "IN", "NN", "VB", "DT", "JJ", "NN", "IN", "NN", "."]
-    text: 'In the primary decomposition theorem, it is not necessary that the vector space
-  V be finite dimensional, nor is it necessary for parts (a) and (b) that p be the
-  minimal polynomial for T.'
-    tokens: [[0, 2], [3, 6], [7, 14], [15, 28], [29, 36], [36, 37], [38, 40], [41, 43], [44, 47], [48, 57], [58, 62], [63, 66], [67, 73], [74, 79], [80, 81], [82, 84], [85, 91], [92, 103], [103, 104], [105, 108], [109, 111], [112, 114], [115, 124], [125, 128], [129, 134], [135, 136], [136, 137], [137, 138], [139, 142], [143, 144], [144, 145], [145, 146], [147, 151], [152, 153], [154, 156], [157, 160], [161, 168], [169, 179], [180, 183], [184, 185], [185, 186]]
-    wn16_key: [[2, "primary%3:00:00::"], [3, "decomposition%1:09:00::"], [4, "theorem%1:10:00::"], [7, "be%2:42:03::"], [8, "not%4:02:00::"], [9, "necessary%3:00:00::"], [12, "vector%1:09:00::"], [13, "space%1:14:00::"], [15, "be%2:42:03::"], [16, "finite%3:00:00::"], [17, "dimensional%3:01:00::"], [20, "be%2:42:03::"], [22, "necessary%3:00:00::"], [24, "part%1:24:00::"], [34, "be%2:42:06::"], [36, "minimal%3:00:00::"], [37, "polynomial%1:09:00::"]]
-    wn30_key: [[2, "primary%3:00:00::"], [3, "decomposition%1:09:00::"], [4, "theorem%1:10:00::"], [7, "be%2:42:03::"], [8, "not%4:02:00::"], [9, "necessary%3:00:00::"], [12, "vector%1:09:00::"], [15, "be%2:42:03::"], [16, "finite%3:00:00::"], [17, "dimensional%3:01:00::"], [20, "be%2:42:03::"], [22, "necessary%3:00:00::"], [24, "part%1:24:00::"], [34, "be%2:42:06::"], [36, "minimal%3:00:00::"], [37, "polynomial%1:09:00::"]]
+    pos: ["NN", "CD", "IN", "DT", "JJ", "NN", "NN", ",", "PRP", "VBZ", "RB", "JJ", "IN", "DT", "NN", "NN", "NN", "VB", "JJ", "JJ", ",", "CC", "VBZ", "PRP", "JJ", "IN", "NNS", "VBP", "DT", "NN", "CC", "NN", "NN", "NN", "IN", "NN", "VB", "DT", "JJ", "NN", "IN", "NN", "."]
+    text: '#EXAMPLE 11.# In the primary decomposition theorem, it is not necessary that the vector space V be finite dimensional, nor is it necessary for parts (a) and (b) that p be the minimal polynomial for T.'
+    tokens: [[0, 8], [9, 13], [14, 16], [17, 20], [21, 28], [29, 42], [43, 50], [50, 51], [52, 54], [55, 57], [58, 61], [62, 71], [72, 76], [77, 80], [81, 87], [88, 93], [94, 95], [96, 98], [99, 105], [106, 117], [117, 118], [119, 122], [123, 125], [126, 128], [129, 138], [139, 142], [143, 148], [149, 150], [150, 151], [151, 152], [153, 156], [157, 158], [158, 159], [159, 160], [161, 165], [166, 167], [168, 170], [171, 174], [175, 182], [183, 193], [194, 197], [198, 199], [199, 200]]
+    wn16_key: [[4, "primary%3:00:00::"], [5, "decomposition%1:09:00::"], [6, "theorem%1:10:00::"], [9, "be%2:42:03::"], [10, "not%4:02:00::"], [11, "necessary%3:00:00::"], [14, "vector%1:09:00::"], [15, "space%1:14:00::"], [17, "be%2:42:03::"], [18, "finite%3:00:00::"], [19, "dimensional%3:01:00::"], [22, "be%2:42:03::"], [24, "necessary%3:00:00::"], [26, "part%1:24:00::"], [36, "be%2:42:06::"], [38, "minimal%3:00:00::"], [39, "polynomial%1:09:00::"]]
+    wn30_key: [[4, "primary%3:00:00::"], [5, "decomposition%1:09:00::"], [6, "theorem%1:10:00::"], [9, "be%2:42:03::"], [10, "not%4:02:00::"], [11, "necessary%3:00:00::"], [14, "vector%1:09:00::"], [17, "be%2:42:03::"], [18, "finite%3:00:00::"], [19, "dimensional%3:01:00::"], [22, "be%2:42:03::"], [24, "necessary%3:00:00::"], [26, "part%1:24:00::"], [36, "be%2:42:06::"], [38, "minimal%3:00:00::"], [39, "polynomial%1:09:00::"]]
 d6PB:
     lemmas: ["If", "t", "be", "a", "linear_operator", "on", "an", "arbitrary", "vector", "space", "and", "if", "there", "be", "a", "monic_polynomial", "p", "such_that", "**f", ",", "then", "part", "(", "a", ")", "and", "(", "b", ")", "of", "theorem", "12", "be", "valid", "for", "t", "with", "the", "proof", "which", "we", "give", "."]
     oewn_key: [[2, "oewn-02610777-v"], [4, "oewn-13808807-n"], [7, "oewn-00722368-a"], [8, "oewn-05873161-n"], [13, "oewn-02609706-v"], [15, "oewn-05870994-n"], [20, "oewn-00118928-r"], [21, "oewn-13831419-n"], [30, "oewn-06765007-n"], [32, "oewn-02610777-v"], [33, "oewn-02508521-a"], [38, "oewn-06660359-n"], [41, "oewn-02240624-v"]]

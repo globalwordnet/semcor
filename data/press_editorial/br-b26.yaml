@@ -27,15 +27,14 @@ _meta:
         base: tokens
         data: string
 WMui:
-    lemmas: ["I", "would", "like", "to", "add", "one", "more", "practical", "reform", "to", "those", "mention", "by", "russell_kirk", "[", "Dec.", "16", "]", "."]
-    oewn_key: [[2, "oewn-01828678-v"], [4, "oewn-00182551-v"], [11, "oewn-01026199-v"]]
+    lemmas: ["#tenure", "as", "criterion#", "I", "would", "like", "to", "add", "one", "more", "practical", "reform", "to", "those", "mention", "by", "russell_kirk", "[", "Dec.", "16", "]", "."]
+    oewn_key: [[5, "oewn-01828678-v"], [7, "oewn-00182551-v"], [14, "oewn-01026199-v"]]
     paragraph: '0'
-    pos: ["PRP", "VB", "VB", "TO", "VB", "CD", "JJR", "JJ", "NN", "TO", "DT", "VBN", "IN", "NNP", "FW", "NNP", "CD", "NN", "."]
-    text: I would like to add one more practical reform to those mentioned by Russell_Kirk [Dec.
-      16].
-    tokens: [[0, 1], [2, 7], [8, 12], [13, 15], [16, 19], [20, 23], [24, 28], [29, 38], [39, 45], [46, 48], [49, 54], [55, 64], [65, 67], [68, 80], [81, 82], [82, 86], [87, 89], [89, 90], [90, 91]]
-    wn16_key: [[2, "like%2:37:01::"], [4, "add%2:30:00::"], [11, "mention%2:32:02::"]]
-    wn30_key: [[2, "like%2:37:01::"], [4, "add%2:30:00::"], [11, "mention%2:32:02::"]]
+    pos: ["NN", "IN", "NNP", "PRP", "VB", "VB", "TO", "VB", "CD", "JJR", "JJ", "NN", "TO", "DT", "VBN", "IN", "NNP", "FW", "NNP", "CD", "NN", "."]
+    text: '#TENURE AS CRITERION# I would like to add one more practical reform to those mentioned by Russell_Kirk [Dec. 16].'
+    tokens: [[0, 7], [8, 10], [11, 21], [22, 23], [24, 29], [30, 34], [35, 37], [38, 41], [42, 45], [46, 50], [51, 60], [61, 67], [68, 70], [71, 76], [77, 86], [87, 89], [90, 102], [103, 104], [104, 108], [109, 111], [111, 112], [112, 113]]
+    wn16_key: [[5, "like%2:37:01::"], [7, "add%2:30:00::"], [14, "mention%2:32:02::"]]
+    wn30_key: [[5, "like%2:37:01::"], [7, "add%2:30:00::"], [14, "mention%2:32:02::"]]
 PfOz:
     lemmas: ["It", "have", "to", "do", "with", "teacher", "'", "salary", "and", "tenure", "."]
     oewn_key: [[1, "oewn-02746620-v"], [3, "oewn-02623620-v"]]
@@ -155,14 +154,14 @@ ty6z:
     wn16_key: [[13, "be%2:42:03::"], [22, "deal%2:40:00::"], [30, "choose%2:31:02::"]]
     wn30_key: [[13, "be%2:42:03::"], [22, "deal%2:40:00::"], [30, "choose%2:31:02::"]]
 wj+I:
-    lemmas: ["On", "the", "eve", "of", "the", "\"", "great", "debate", "\"", "on", "the", "proposal", "to", "give", "the", "president", "broad", "power", "to", "make", "across-the-board", "tariff", "concession", "which", "could", "practically", "bring", "us", "into", "the", "atlantic_community", ",", "we", "should", "face", "the", "alternative", "on", "this", "proposition", "."]
-    oewn_key: [[13, "oewn-02344167-v"], [19, "oewn-02566500-v"], [26, "oewn-01632781-v"], [34, "oewn-00813960-v"]]
+    lemmas: ["#loss", "of", "initiative#", "On", "the", "eve", "of", "the", "\"", "great", "debate", "\"", "on", "the", "proposal", "to", "give", "the", "president", "broad", "power", "to", "make", "across-the-board", "tariff", "concession", "which", "could", "practically", "bring", "us", "into", "the", "atlantic_community", ",", "we", "should", "face", "the", "alternative", "on", "this", "proposition", "."]
+    oewn_key: [[16, "oewn-02344167-v"], [22, "oewn-02566500-v"], [29, "oewn-01632781-v"], [37, "oewn-00813960-v"]]
     paragraph: '3'
-    pos: ["IN", "DT", "NN", "IN", "DT", "``", "JJ", "NN", "''", "IN", "DT", "NN", "TO", "VB", "DT", "NNP", "JJ", "NNS", "TO", "VB", "JJ", "NN", "NNS", "WDT", "MD", "RB", "VB", "PRP", "IN", "DT", "NNP", ",", "PRP", "MD", "VB", "DT", "NNS", "IN", "DT", "NN", "."]
-    text: 'On the eve of the "great debate" on the proposal to give the President broad powers to make across-the-board tariff concessions which could practically bring us into the Atlantic_Community, we should face the alternatives on this proposition.'
-    tokens: [[0, 2], [3, 6], [7, 10], [11, 13], [14, 17], [18, 19], [19, 24], [25, 31], [31, 32], [33, 35], [36, 39], [40, 48], [49, 51], [52, 56], [57, 60], [61, 70], [71, 76], [77, 83], [84, 86], [87, 91], [92, 108], [109, 115], [116, 127], [128, 133], [134, 139], [140, 151], [152, 157], [158, 160], [161, 165], [166, 169], [170, 188], [188, 189], [190, 192], [193, 199], [200, 204], [205, 208], [209, 221], [222, 224], [225, 229], [230, 241], [241, 242]]
-    wn16_key: [[13, "give%2:40:05::"], [19, "make%2:41:00::"], [26, "bring%2:36:00::"], [34, "face%2:32:00::"]]
-    wn30_key: [[13, "give%2:40:05::"], [19, "make%2:41:00::"], [26, "bring%2:36:00::"], [34, "face%2:32:00::"]]
+    pos: ["NN", "NNP", "NNP", "IN", "DT", "NN", "IN", "DT", "``", "JJ", "NN", "''", "IN", "DT", "NN", "TO", "VB", "DT", "NNP", "JJ", "NNS", "TO", "VB", "JJ", "NN", "NNS", "WDT", "MD", "RB", "VB", "PRP", "IN", "DT", "NNP", ",", "PRP", "MD", "VB", "DT", "NNS", "IN", "DT", "NN", "."]
+    text: '#LOSS OF INITIATIVE# On the eve of the "great debate" on the proposal to give the President broad powers to make across-the-board tariff concessions which could practically bring us into the Atlantic_Community, we should face the alternatives on this proposition.'
+    tokens: [[0, 5], [6, 8], [9, 20], [21, 23], [24, 27], [28, 31], [32, 34], [35, 38], [39, 40], [40, 45], [46, 52], [52, 53], [54, 56], [57, 60], [61, 69], [70, 72], [73, 77], [78, 81], [82, 91], [92, 97], [98, 104], [105, 107], [108, 112], [113, 129], [130, 136], [137, 148], [149, 154], [155, 160], [161, 172], [173, 178], [179, 181], [182, 186], [187, 190], [191, 209], [209, 210], [211, 213], [214, 220], [221, 225], [226, 229], [230, 242], [243, 245], [246, 250], [251, 262], [262, 263]]
+    wn16_key: [[16, "give%2:40:05::"], [22, "make%2:41:00::"], [29, "bring%2:36:00::"], [37, "face%2:32:00::"]]
+    wn30_key: [[16, "give%2:40:05::"], [22, "make%2:41:00::"], [29, "bring%2:36:00::"], [37, "face%2:32:00::"]]
 tG0E:
     lemmas: ["What", "we", "will", "be", "sacrifice", "in", "any", "such", "arrangement", "will", "be", "our", "power", "to", "be", "selective", "which", "be", "contain", "in", "the", "reciprocal", "trade", "principle", "under", "which", "we", "now", "operate", "."]
     oewn_key: [[4, "oewn-02348591-v"], [10, "oewn-02622439-v"], [14, "oewn-02610777-v"], [18, "oewn-02635616-v"], [28, "oewn-01528454-v"]]
@@ -196,15 +195,14 @@ xm+T:
     wn16_key: [[1, "be%2:42:03::"], [9, "conduct%2:36:00::"], [14, "lead%2:42:12::"], [23, "conduct%2:36:00::"]]
     wn30_key: [[1, "be%2:42:03::"], [9, "conduct%2:36:00::"], [14, "lead%2:42:12::"], [23, "conduct%2:36:00::"]]
 q2ut:
-    lemmas: ["I", "disagree", "with", "mr._burnham", "'s", "position", "on", "the", "common_market", "[", "Nov.", "18", "]", "as", "a", "desirable", "organization", "for", "us", "to", "join", "."]
-    oewn_key: [[1, "oewn-00806464-v"], [20, "oewn-02439823-v"]]
+    lemmas: ["#a", "brief", "for", "the", "negative#", "I", "disagree", "with", "mr._burnham", "'s", "position", "on", "the", "common_market", "[", "Nov.", "18", "]", "as", "a", "desirable", "organization", "for", "us", "to", "join", "."]
+    oewn_key: [[6, "oewn-00806464-v"], [25, "oewn-02439823-v"]]
     paragraph: '4'
-    pos: ["PRP", "VBP", "VB", "NNP", "POS", "NN", "IN", "DT", "NN", "NNP", "NNP", "CD", "CD", "IN", "DT", "JJ", "NN", "IN", "PRP", "TO", "VB", "."]
-    text: 'I disagree with Mr._Burnham''s position on the Common_Market [Nov. 18] as a desirable
-  organization for us to join.'
-    tokens: [[0, 1], [2, 10], [11, 15], [16, 27], [27, 29], [30, 38], [39, 41], [42, 45], [46, 59], [60, 61], [61, 65], [66, 68], [68, 69], [70, 72], [73, 74], [75, 84], [85, 97], [98, 101], [102, 104], [105, 107], [108, 112], [112, 113]]
-    wn16_key: [[1, "disagree%2:32:00::"], [20, "join%2:41:00::"]]
-    wn30_key: [[1, "disagree%2:32:00::"], [20, "join%2:41:00::"]]
+    pos: ["NNP", "NNP", "IN", "NNP", "NNP", "PRP", "VBP", "VB", "NNP", "POS", "NN", "IN", "DT", "NN", "NNP", "NNP", "CD", "CD", "IN", "DT", "JJ", "NN", "IN", "PRP", "TO", "VB", "."]
+    text: '#A BRIEF FOR THE NEGATIVE# I disagree with Mr._Burnham''s position on the Common_Market [Nov. 18] as a desirable organization for us to join.'
+    tokens: [[0, 2], [3, 8], [9, 12], [13, 16], [17, 26], [27, 28], [29, 37], [38, 42], [43, 54], [54, 56], [57, 65], [66, 68], [69, 72], [73, 86], [87, 88], [88, 92], [93, 95], [95, 96], [97, 99], [100, 101], [102, 111], [112, 124], [125, 128], [129, 131], [132, 134], [135, 139], [139, 140]]
+    wn16_key: [[6, "disagree%2:32:00::"], [25, "join%2:41:00::"]]
+    wn30_key: [[6, "disagree%2:32:00::"], [25, "join%2:41:00::"]]
 2SiJ:
     lemmas: ["For", "him", "to", "ignore", "the", "political", "consequence", "involve", "in", "an", "atlantic_union", "of", "this", "kind", "be", "difficult", "to", "understand", "."]
     oewn_key: [[3, "oewn-00802592-v"], [7, "oewn-02682907-v"], [14, "oewn-02610777-v"], [17, "oewn-00590283-v"]]
@@ -414,15 +412,14 @@ w5cW:
     wn16_key: [[3, "be%2:42:03::"], [14, "stop%2:42:00::"], [15, "sell%2:40:00::"], [25, "anticipate%2:41:00::"], [41, "remove%2:30:00::"]]
     wn30_key: [[3, "be%2:42:03::"], [14, "stop%2:42:00::"], [15, "sell%2:40:00::"], [25, "anticipate%2:41:00::"], [41, "remove%2:30:00::"]]
 vX/k:
-    lemmas: ["In", "1954", "I", "be", "draft", "and", "after", "serve", "two", "years", "honorably", "on", "active", "duty", "I", "be", "not", "require", "to", "participate", "in", "any", "further", "army_reserve", "activity", "."]
-    oewn_key: [[4, "oewn-01099911-v"], [7, "oewn-01097629-v"], [17, "oewn-02634015-v"], [19, "oewn-02455121-v"]]
+    lemmas: ["#a", "professor", "and", "the", "army#", "In", "1954", "I", "be", "draft", "and", "after", "serve", "two", "years", "honorably", "on", "active", "duty", "I", "be", "not", "require", "to", "participate", "in", "any", "further", "army_reserve", "activity", "."]
+    oewn_key: [[9, "oewn-01099911-v"], [12, "oewn-01097629-v"], [22, "oewn-02634015-v"], [24, "oewn-02455121-v"]]
     paragraph: '10'
-    pos: ["IN", "CD", "PRP", "VBD", "VBN", "CC", "IN", "VBG", "CD", "NNS", "RB", "IN", "JJ", "NNP", "PRP", "VBD", "RB", "VBN", "TO", "VB", "IN", "DT", "JJ", "NNP", "NNS", "."]
-    text: 'In 1954 I was drafted and after serving two years honorably on Active Duty I was
-  not required to participate in any further Army_Reserve activities.'
-    tokens: [[0, 2], [3, 7], [8, 9], [10, 13], [14, 21], [22, 25], [26, 31], [32, 39], [40, 43], [44, 49], [50, 59], [60, 62], [63, 69], [70, 74], [75, 76], [77, 80], [81, 84], [85, 93], [94, 96], [97, 108], [109, 111], [112, 115], [116, 123], [124, 136], [137, 147], [147, 148]]
-    wn16_key: [[4, "draft%2:33:00::"], [7, "serve%2:33:00::"], [17, "require%2:42:00::"], [19, "participate%2:41:00::"]]
-    wn30_key: [[4, "draft%2:33:00::"], [7, "serve%2:33:00::"], [17, "require%2:42:00::"], [19, "participate%2:41:00::"]]
+    pos: ["NNP", "NNP", "CC", "NNP", "NNP", "IN", "CD", "PRP", "VBD", "VBN", "CC", "IN", "VBG", "CD", "NNS", "RB", "IN", "JJ", "NNP", "PRP", "VBD", "RB", "VBN", "TO", "VB", "IN", "DT", "JJ", "NNP", "NNS", "."]
+    text: '#A PROFESSOR AND THE ARMY# In 1954 I was drafted and after serving two years honorably on Active Duty I was not required to participate in any further Army_Reserve activities.'
+    tokens: [[0, 2], [3, 12], [13, 16], [17, 20], [21, 26], [27, 29], [30, 34], [35, 36], [37, 40], [41, 48], [49, 52], [53, 58], [59, 66], [67, 70], [71, 76], [77, 86], [87, 89], [90, 96], [97, 101], [102, 103], [104, 107], [108, 111], [112, 120], [121, 123], [124, 135], [136, 138], [139, 142], [143, 150], [151, 163], [164, 174], [174, 175]]
+    wn16_key: [[9, "draft%2:33:00::"], [12, "serve%2:33:00::"], [22, "require%2:42:00::"], [24, "participate%2:41:00::"]]
+    wn30_key: [[9, "draft%2:33:00::"], [12, "serve%2:33:00::"], [22, "require%2:42:00::"], [24, "participate%2:41:00::"]]
 KpQG:
     lemmas: ["now", ",", "more_than", "five", "years", "later", ",", "I", "cannot", "in", "any", "realistic", "sense", "be", "call", "a", "trained", "soldier", "."]
     oewn_key: [[14, "oewn-00973047-v"]]
@@ -552,15 +549,14 @@ tFzK:
     wn16_key: [[18, "disrupt%2:32:00::"], [31, "help%2:42:08::"], [32, "look_around%2:39:00::"], [39, "stand%2:35:00::"], [53, "ask%2:32:00::"], [59, "go%2:30:04::"]]
     wn30_key: [[18, "disrupt%2:32:00::"], [31, "help%2:42:08::"], [32, "look_around%2:39:00::"], [39, "stand%2:35:00::"], [53, "ask%2:32:00::"], [59, "go%2:30:04::"]]
 bY6J:
-    lemmas: ["In", "news", "broadcast", "I", "consistently", "hear", "the", "foreign", "volunteer", "fight", "in", "the", "Katanga_Army", "refer", "to", "as", "mercenary", "."]
-    oewn_key: [[5, "oewn-02174146-v"], [9, "oewn-01092746-v"], [13, "oewn-00657226-v"]]
+    lemmas: ["#mercenary:", "term", "of", "honor?#", "In", "news", "broadcast", "I", "consistently", "hear", "the", "foreign", "volunteer", "fight", "in", "the", "Katanga_Army", "refer", "to", "as", "mercenary", "."]
+    oewn_key: [[9, "oewn-02174146-v"], [13, "oewn-01092746-v"], [17, "oewn-00657226-v"]]
     paragraph: '12'
-    pos: ["IN", "NN", "NNS", "PRP", "RB", "VBP", "DT", "JJ", "NNS", "VBG", "IN", "DT", "NNP", "VBN", "VB", "IN", "NNS", "."]
-    text: 'In news broadcasts I consistently hear the foreign volunteers fighting in the Katanga_Army
-  referred to as mercenaries.'
-    tokens: [[0, 2], [3, 7], [8, 18], [19, 20], [21, 33], [34, 38], [39, 42], [43, 50], [51, 61], [62, 70], [71, 73], [74, 77], [78, 90], [91, 99], [100, 102], [103, 105], [106, 117], [117, 118]]
-    wn16_key: [[5, "hear%2:39:00::"], [9, "fight%2:33:00::"], [13, "refer%2:31:00::"]]
-    wn30_key: [[5, "hear%2:39:00::"], [9, "fight%2:33:00::"], [13, "refer%2:31:00::"]]
+    pos: ["JJ", "NNP", "NNP", "NNP", "IN", "NN", "NNS", "PRP", "RB", "VBP", "DT", "JJ", "NNS", "VBG", "IN", "DT", "NNP", "VBN", "VB", "IN", "NNS", "."]
+    text: '#MERCENARY: TERM OF HONOR?# In news broadcasts I consistently hear the foreign volunteers fighting in the Katanga_Army referred to as mercenaries.'
+    tokens: [[0, 11], [12, 16], [17, 19], [20, 27], [28, 30], [31, 35], [36, 46], [47, 48], [49, 61], [62, 66], [67, 70], [71, 78], [79, 89], [90, 98], [99, 101], [102, 105], [106, 118], [119, 127], [128, 130], [131, 133], [134, 145], [145, 146]]
+    wn16_key: [[9, "hear%2:39:00::"], [13, "fight%2:33:00::"], [17, "refer%2:31:00::"]]
+    wn30_key: [[9, "hear%2:39:00::"], [13, "fight%2:33:00::"], [17, "refer%2:31:00::"]]
 uj6e:
     lemmas: ["This", "confuse", "me", "no_end", "."]
     oewn_key: [[1, "oewn-00623406-v"]]
@@ -605,14 +601,14 @@ g/dX:
     wn16_key: [[4, "fight%2:33:00::"], [8, "be%2:42:03::"], [14, "be%2:42:03::"], [19, "be%2:42:03::"]]
     wn30_key: [[4, "fight%2:33:00::"], [8, "be%2:42:03::"], [14, "be%2:42:03::"], [19, "be%2:42:03::"]]
 WbEw:
-    lemmas: ["It", "do", "n't", "take", "a", "gore_vidal", "to", "tell", "you", "what", "'s", "wrong", "with", "cherokee_textile", "'s", "slogan", "[", "\"", "pitney-bowe", "object", "\"", ",", "july_1", "]", "."]
-    oewn_key: [[3, "oewn-02634015-v"], [7, "oewn-01011267-v"]]
+    lemmas: ["#modern", "postal", "slogan#", "It", "do", "n't", "take", "a", "gore_vidal", "to", "tell", "you", "what", "'s", "wrong", "with", "cherokee_textile", "'s", "slogan", "[", "\"", "pitney-bowe", "object", "\"", ",", "july_1", "]", "."]
+    oewn_key: [[6, "oewn-02634015-v"], [10, "oewn-01011267-v"]]
     paragraph: '13'
-    pos: ["PRP", "VBZ", "RB", "VB", "DT", "NNP", "TO", "VB", "PRP", "WP", "POS", "JJ", "IN", "NNP", "POS", "NN", "NN", "''", "NNP", "NNS", "``", ",", "NN", "FW", "."]
-    text: 'It doesn''t take a Gore_Vidal to tell you what''s wrong with Cherokee_Textile''s slogan ["Pitney-Bowes Objects", July_1].'
-    tokens: [[0, 2], [3, 7], [7, 10], [11, 15], [16, 17], [18, 28], [29, 31], [32, 36], [37, 40], [41, 45], [45, 47], [48, 53], [54, 58], [59, 75], [75, 77], [78, 84], [85, 86], [86, 87], [87, 99], [100, 107], [107, 108], [108, 109], [110, 116], [116, 117], [117, 118]]
-    wn16_key: [[3, "take%2:42:00::"], [7, "tell%2:32:04::"]]
-    wn30_key: [[3, "take%2:42:00::"], [7, "tell%2:32:04::"]]
+    pos: ["NNP", "NNP", "NNP", "PRP", "VBZ", "RB", "VB", "DT", "NNP", "TO", "VB", "PRP", "WP", "POS", "JJ", "IN", "NNP", "POS", "NN", "NN", "''", "NNP", "NNS", "``", ",", "NN", "FW", "."]
+    text: '#MODERN POSTAL SLOGAN# It doesn''t take a Gore_Vidal to tell you what''s wrong with Cherokee_Textile''s slogan ["Pitney-Bowes Objects", July_1].'
+    tokens: [[0, 7], [8, 14], [15, 22], [23, 25], [26, 30], [30, 33], [34, 38], [39, 40], [41, 51], [52, 54], [55, 59], [60, 63], [64, 68], [68, 70], [71, 76], [77, 81], [82, 98], [98, 100], [101, 107], [108, 109], [109, 110], [110, 122], [123, 130], [130, 131], [131, 132], [133, 139], [139, 140], [140, 141]]
+    wn16_key: [[6, "take%2:42:00::"], [10, "tell%2:32:04::"]]
+    wn30_key: [[6, "take%2:42:00::"], [10, "tell%2:32:04::"]]
 f3R+:
     lemmas: ["It", "be", "an", "eighteenth-century", "negative", ",", "man", "!"]
     oewn_key: [[1, "oewn-02610777-v"]]
@@ -643,16 +639,16 @@ poKB:
     wn16_key: [[1, "move%2:30:00::"], [10, "substitute%2:40:00::"], [15, "move%2:41:01::"], [22, "keep%2:42:00::"], [27, "use%2:34:01::"], [56, "fail%2:41:00::"]]
     wn30_key: [[1, "move%2:30:00::"], [10, "substitute%2:40:00::"], [15, "move%2:41:01::"], [22, "keep%2:42:00::"], [27, "use%2:34:01::"], [56, "fail%2:41:00::"]]
 QZer:
-    lemmas: ["In", "the", "issue", "of", "march", "5", ",", "1960", "you", "have", "an", "excellent", "editorial", "which", "say", ":"]
-    oewn_key: [[9, "oewn-02208144-v"], [14, "oewn-02736688-v"]]
+    lemmas: ["#the", "impending", "death", "of", "pope#", "In", "the", "issue", "of", "march", "5", ",", "1960", "you", "have", "an", "excellent", "editorial", "which", "say", ":"]
+    oewn_key: [[14, "oewn-02208144-v"], [19, "oewn-02736688-v"]]
     paragraph: '14'
-    pos: ["IN", "DT", "NN", "IN", "NNP", "CD", ",", "CD", "PRP", "VBD", "DT", "JJ", "NN", "WDT", "VBD", ":"]
-    text: 'In the issue of March 5, 1960 you had an excellent editorial which said:
+    pos: ["JJ", "NNP", "NNP", "NNP", "NNP", "IN", "DT", "NN", "IN", "NNP", "CD", ",", "CD", "PRP", "VBD", "DT", "JJ", "NN", "WDT", "VBD", ":"]
+    text: '#THE IMPENDING DEATH OF POPE# In the issue of March 5, 1960 you had an excellent editorial which said:
 
   '
-    tokens: [[0, 2], [3, 6], [7, 12], [13, 15], [16, 21], [22, 23], [23, 24], [25, 29], [30, 33], [34, 37], [38, 40], [41, 50], [51, 60], [61, 66], [67, 71], [71, 72]]
-    wn16_key: [[9, "have%2:40:00::"], [14, "say%2:42:00::"]]
-    wn30_key: [[9, "have%2:40:00::"], [14, "say%2:42:00::"]]
+    tokens: [[0, 4], [5, 14], [15, 20], [21, 23], [24, 29], [30, 32], [33, 36], [37, 42], [43, 45], [46, 51], [52, 53], [53, 54], [55, 59], [60, 63], [64, 67], [68, 70], [71, 80], [81, 90], [91, 96], [97, 101], [101, 102]]
+    wn16_key: [[14, "have%2:40:00::"], [19, "say%2:42:00::"]]
+    wn30_key: [[14, "have%2:40:00::"], [19, "say%2:42:00::"]]
 HVz0:
     lemmas: ["\"", "On", "trial", "in", "jakarta", "for", "have", "fly", "for", "the", "indonesian", "anti-Communist", "insurgent", ",", "U._S.", "pilot", "Alan_Lawrence_Pope", "boldly", "tell", "the", "court", "that", "in", "support", "the", "freedom", "fighter", ",", "he", "be", "actually", "defend", "the", "sovereignty", "and", "independence", "of", "indonesia", "."]
     oewn_key: [[7, "oewn-01454453-v"], [18, "oewn-01011267-v"], [23, "oewn-02561834-v"], [31, "oewn-01093838-v"]]
@@ -829,16 +825,16 @@ p5OE:
     wn16_key: [[2, "think_of%2:31:03::"], [3, "save%2:40:00::"]]
     wn30_key: [[2, "think_of%2:31:03::"], [3, "save%2:40:00::"]]
 Iufd:
-    lemmas: ["a_few", "days", "before", "I", "see", "your", "mention", "of", "what", "texas", "liberal", "be", "do", "to", "promote", "\"", "louis_capet", "\"", "[", "\"", "The", "week", "\"", ",", "june", "3", "]", ",", "another", "analogy", "have", "occur", "to", "me", "."]
-    oewn_key: [[4, "oewn-00600349-v"], [12, "oewn-01716563-v"], [14, "oewn-00978685-v"], [31, "oewn-00725311-v"]]
+    lemmas: ["#an", "analogy#", "a_few", "days", "before", "I", "see", "your", "mention", "of", "what", "texas", "liberal", "be", "do", "to", "promote", "\"", "louis_capet", "\"", "[", "\"", "The", "week", "\"", ",", "june", "3", "]", ",", "another", "analogy", "have", "occur", "to", "me", "."]
+    oewn_key: [[6, "oewn-00600349-v"], [14, "oewn-01716563-v"], [16, "oewn-00978685-v"], [33, "oewn-00725311-v"]]
     paragraph: '20'
-    pos: ["JJ", "NNS", "IN", "PRP", "VBD", "PRP$", "NN", "IN", "WDT", "NNP", "NNPS", "VBD", "VBG", "TO", "VB", "``", "NNP", "''", "NN", "''", "DT", "NN", "''", ",", "NNP", "CD", "NN", ",", "DT", "NN", "VBD", "VBN", "TO", "PRP", "."]
-    text: 'A_few days before I saw your mention of what Texas Liberals were doing to promote "Louis_Capet" ["The Week", June 3], another analogy had occurred to me.
+    pos: ["NNP", "NNP", "JJ", "NNS", "IN", "PRP", "VBD", "PRP$", "NN", "IN", "WDT", "NNP", "NNPS", "VBD", "VBG", "TO", "VB", "``", "NNP", "''", "NN", "''", "DT", "NN", "''", ",", "NNP", "CD", "NN", ",", "DT", "NN", "VBD", "VBN", "TO", "PRP", "."]
+    text: '#AN ANALOGY# A_few days before I saw your mention of what Texas Liberals were doing to promote "Louis_Capet" ["The Week", June 3], another analogy had occurred to me.
 
   '
-    tokens: [[0, 5], [6, 10], [11, 17], [18, 19], [20, 23], [24, 28], [29, 36], [37, 39], [40, 44], [45, 50], [51, 59], [60, 64], [65, 70], [71, 73], [74, 81], [82, 83], [83, 94], [94, 95], [96, 97], [97, 98], [98, 101], [102, 106], [106, 107], [107, 108], [109, 113], [114, 115], [115, 116], [116, 117], [118, 125], [126, 133], [134, 137], [138, 146], [147, 149], [150, 152], [152, 153]]
-    wn16_key: [[4, "see%2:31:02::"], [12, "do%2:36:01::"], [14, "promote%2:32:00::"], [31, "occur%2:31:00::"]]
-    wn30_key: [[4, "see%2:31:02::"], [12, "do%2:36:01::"], [14, "promote%2:32:00::"], [31, "occur%2:31:00::"]]
+    tokens: [[0, 3], [4, 12], [13, 18], [19, 23], [24, 30], [31, 32], [33, 36], [37, 41], [42, 49], [50, 52], [53, 57], [58, 63], [64, 72], [73, 77], [78, 83], [84, 86], [87, 94], [95, 96], [96, 107], [107, 108], [109, 110], [110, 111], [111, 114], [115, 119], [119, 120], [120, 121], [122, 126], [127, 128], [128, 129], [129, 130], [131, 138], [139, 146], [147, 150], [151, 159], [160, 162], [163, 165], [165, 166]]
+    wn16_key: [[6, "see%2:31:02::"], [14, "do%2:36:01::"], [16, "promote%2:32:00::"], [33, "occur%2:31:00::"]]
+    wn30_key: [[6, "see%2:31:02::"], [14, "do%2:36:01::"], [16, "promote%2:32:00::"], [33, "occur%2:31:00::"]]
 9Kg8:
     lemmas: ["consider", "this", "table", ":"]
     oewn_key: [[0, "oewn-00736077-v"]]

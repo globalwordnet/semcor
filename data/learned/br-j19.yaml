@@ -27,15 +27,14 @@ _meta:
         base: tokens
         data: string
 p6Ud:
-    lemmas: ["some", "experiment", "be", "composed", "of", "repetition", "of", "independent", "trial", ",", "each", "with", "two", "possible", "outcome", "."]
-    oewn_key: [[0, "oewn-01556991-s"], [1, "oewn-00640799-n"], [2, "oewn-02610777-v"], [3, "oewn-00531471-a"], [5, "oewn-07356649-n"], [7, "oewn-00731008-a"], [8, "oewn-00792739-n"], [12, "oewn-02194109-s"], [13, "oewn-01826770-a"], [14, "oewn-11430739-n"]]
+    lemmas: ["#7-1.", "examples", "of", "binomial", "experiments#", "some", "experiment", "be", "composed", "of", "repetition", "of", "independent", "trial", ",", "each", "with", "two", "possible", "outcome", "."]
+    oewn_key: [[5, "oewn-01556991-s"], [6, "oewn-00640799-n"], [7, "oewn-02610777-v"], [8, "oewn-00531471-a"], [10, "oewn-07356649-n"], [12, "oewn-00731008-a"], [13, "oewn-00792739-n"], [17, "oewn-02194109-s"], [18, "oewn-01826770-a"], [19, "oewn-11430739-n"]]
     paragraph: '0'
-    pos: ["JJ", "NNS", "VBP", "JJ", "VB", "NNS", "IN", "JJ", "NNS", ",", "DT", "IN", "JJ", "JJ", "NNS", "."]
-    text: Some experiments are composed of repetitions of independent trials, each with two
-      possible outcomes.
-    tokens: [[0, 4], [5, 16], [17, 20], [21, 29], [30, 32], [33, 44], [45, 47], [48, 59], [60, 66], [66, 67], [68, 72], [73, 77], [78, 81], [82, 90], [91, 99], [99, 100]]
-    wn16_key: [[0, "some%5:00:00:unspecified:00"], [1, "experiment%1:04:00::"], [2, "be%2:42:03::"], [3, "composed%5:00:00:combined:00"], [5, "repetition%1:11:00::"], [7, "independent%3:00:00::"], [8, "trial%1:04:00::"], [12, "two%5:00:00:cardinal:00"], [13, "possible%3:00:00::"], [14, "outcome%1:19:00::"]]
-    wn30_key: [[0, "some%3:00:00:many:00"], [1, "experiment%1:04:00::"], [2, "be%2:42:03::"], [3, "composed%3:00:00::"], [5, "repetition%1:11:00::"], [7, "independent%3:00:00::"], [8, "trial%1:04:00::"], [12, "two%3:00:00:cardinal:00"], [13, "possible%3:00:00::"], [14, "outcome%1:19:00::"]]
+    pos: ["JJ", "NNP", "NNP", "NNP", "NNP", "JJ", "NNS", "VBP", "JJ", "VB", "NNS", "IN", "JJ", "NNS", ",", "DT", "IN", "JJ", "JJ", "NNS", "."]
+    text: '#7-1. EXAMPLES OF BINOMIAL EXPERIMENTS# Some experiments are composed of repetitions of independent trials, each with two possible outcomes.'
+    tokens: [[0, 5], [6, 14], [15, 17], [18, 26], [27, 39], [40, 44], [45, 56], [57, 60], [61, 69], [70, 72], [73, 84], [85, 87], [88, 99], [100, 106], [106, 107], [108, 112], [113, 117], [118, 121], [122, 130], [131, 139], [139, 140]]
+    wn16_key: [[5, "some%5:00:00:unspecified:00"], [6, "experiment%1:04:00::"], [7, "be%2:42:03::"], [8, "composed%5:00:00:combined:00"], [10, "repetition%1:11:00::"], [12, "independent%3:00:00::"], [13, "trial%1:04:00::"], [17, "two%5:00:00:cardinal:00"], [18, "possible%3:00:00::"], [19, "outcome%1:19:00::"]]
+    wn30_key: [[5, "some%3:00:00:many:00"], [6, "experiment%1:04:00::"], [7, "be%2:42:03::"], [8, "composed%3:00:00::"], [10, "repetition%1:11:00::"], [12, "independent%3:00:00::"], [13, "trial%1:04:00::"], [17, "two%3:00:00:cardinal:00"], [18, "possible%3:00:00::"], [19, "outcome%1:19:00::"]]
 krj+:
     lemmas: ["The", "binomial_distribution", "probability", "distribution", "may", "describe", "the", "variation", "that", "occur", "from", "one", "set", "of", "trial", "of", "such", "a", "binomial", "experiment", "to", "another", "."]
     oewn_key: [[1, "oewn-06046209-n"], [2, "oewn-05098974-n"], [5, "oewn-00654017-v"], [7, "oewn-07351990-n"], [9, "oewn-00340744-v"], [11, "oewn-02193977-s"], [12, "oewn-08013131-n"], [14, "oewn-00792739-n"], [16, "oewn-01558587-s"], [18, "oewn-03059944-a"], [19, "oewn-00640799-n"]]

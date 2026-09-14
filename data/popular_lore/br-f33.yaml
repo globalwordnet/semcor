@@ -380,15 +380,14 @@ k8Cq:
     wn16_key: [[1, "be%2:42:03::"], [2, "at_least%4:02:00::"], [3, "as%4:02:00::"], [4, "important%3:00:00::"], [7, "more%4:02:00::"], [8, "dramatic%5:00:00:impressive:00"], [9, "attempt%1:04:00::"], [11, "break_down%2:33:00::"], [12, "barrier%1:09:00::"], [14, "inequality%1:07:00::"], [17, "south%1:15:01::"]]
     wn30_key: [[1, "be%2:42:03::"], [2, "at_least%4:02:00::"], [3, "as%4:02:00::"], [4, "important%3:00:00::"], [7, "more%4:02:00::"], [8, "dramatic%3:00:00:impressive:00"], [9, "attempt%1:04:00::"], [11, "break_down%2:33:00::"], [12, "barrier%1:09:00::"], [14, "inequality%1:07:00::"], [17, "south%1:15:01::"]]
 iplQ:
-    lemmas: ["I", "should_like", "to", "underline", "four", "point", "I", "make", "in", "my", "first", "report", "with", "respect_to", "vocational", "education", "."]
-    oewn_key: [[3, "oewn-01016618-v"], [4, "oewn-02194304-s"], [5, "oewn-05825971-n"], [10, "oewn-01014459-a"], [11, "oewn-07233130-n"], [14, "oewn-02851363-a"], [15, "oewn-00884975-n"]]
+    lemmas: ["#vocational", "education#", "I", "should_like", "to", "underline", "four", "point", "I", "make", "in", "my", "first", "report", "with", "respect_to", "vocational", "education", "."]
+    oewn_key: [[5, "oewn-01016618-v"], [6, "oewn-02194304-s"], [7, "oewn-05825971-n"], [12, "oewn-01014459-a"], [13, "oewn-07233130-n"], [16, "oewn-02851363-a"], [17, "oewn-00884975-n"]]
     paragraph: '4'
-    pos: ["PRP", "VB", "TO", "VB", "JJ", "NNS", "PRP", "VBD", "IN", "PRP$", "JJ", "NN", "IN", "NN", "JJ", "NN", "."]
-    text: 'I should_like to underline four points I made in my first report with respect_to
-  vocational education.'
-    tokens: [[0, 1], [2, 13], [14, 16], [17, 26], [27, 31], [32, 38], [39, 40], [41, 45], [46, 48], [49, 51], [52, 57], [58, 64], [65, 69], [70, 80], [81, 91], [92, 101], [101, 102]]
-    wn16_key: [[3, "underline%2:32:00::"], [4, "four%5:00:00:cardinal:00"], [5, "point%1:09:01::"], [10, "first%3:00:00::"], [11, "report%1:10:03::"], [13, "respect_to%1:24:00::"], [14, "vocational%3:01:00::"], [15, "education%1:04:00::"]]
-    wn30_key: [[3, "underline%2:32:00::"], [4, "four%3:00:00:cardinal:00"], [5, "point%1:09:01::"], [10, "first%3:00:00::"], [11, "report%1:10:03::"], [14, "vocational%3:01:00::"], [15, "education%1:04:00::"]]
+    pos: ["NNP", "NNP", "PRP", "VB", "TO", "VB", "JJ", "NNS", "PRP", "VBD", "IN", "PRP$", "JJ", "NN", "IN", "NN", "JJ", "NN", "."]
+    text: '#VOCATIONAL EDUCATION# I should_like to underline four points I made in my first report with respect_to vocational education.'
+    tokens: [[0, 11], [12, 22], [23, 24], [25, 36], [37, 39], [40, 49], [50, 54], [55, 61], [62, 63], [64, 68], [69, 71], [72, 74], [75, 80], [81, 87], [88, 92], [93, 103], [104, 114], [115, 124], [124, 125]]
+    wn16_key: [[5, "underline%2:32:00::"], [6, "four%5:00:00:cardinal:00"], [7, "point%1:09:01::"], [12, "first%3:00:00::"], [13, "report%1:10:03::"], [15, "respect_to%1:24:00::"], [16, "vocational%3:01:00::"], [17, "education%1:04:00::"]]
+    wn30_key: [[5, "underline%2:32:00::"], [6, "four%3:00:00:cardinal:00"], [7, "point%1:09:01::"], [12, "first%3:00:00::"], [13, "report%1:10:03::"], [16, "vocational%3:01:00::"], [17, "education%1:04:00::"]]
 B5AJ:
     lemmas: ["first_and_foremost", ",", "vocational", "course", "should", "not", "replace", "course", "which", "be", "essential", "part", "of", "the", "required", "academic_program", "for", "graduation", "."]
     oewn_key: [[2, "oewn-02851363-a"], [3, "oewn-00886144-n"], [5, "oewn-00024432-r"], [6, "oewn-02410532-v"], [7, "oewn-00886144-n"], [9, "oewn-02610777-v"], [10, "oewn-01584714-s"], [11, "oewn-13831419-n"], [14, "oewn-00851890-s"], [15, "oewn-05918324-n"], [17, "oewn-00212914-n"]]

@@ -274,14 +274,14 @@ TD92:
     wn16_key: [[10, "play%2:33:00::"], [18, "refuse%2:32:00::"], [20, "let%2:41:00::"], [24, "overtake%2:33:00::"], [27, "close%2:41:01::"]]
     wn30_key: [[10, "play%2:33:00::"], [18, "refuse%2:32:00::"], [20, "let%2:41:00::"], [24, "overtake%2:33:00::"], [27, "close%2:41:01::"]]
 WxMk:
-    lemmas: ["Until", "late", "last", "saturday", "afternoon", "palmer", "have", "play", "seven", "consecutive", "round_of_golf", "at", "the", "masters", "-", "four", "last", "year", "and", "three", "this", "-", "without", "ever", "be", "out", "of", "first", "place", "."]
-    oewn_key: [[7, "oewn-01075360-v"], [24, "oewn-02610777-v"]]
+    lemmas: ["#end", "at", "seven#", "Until", "late", "last", "saturday", "afternoon", "palmer", "have", "play", "seven", "consecutive", "round_of_golf", "at", "the", "masters", "-", "four", "last", "year", "and", "three", "this", "-", "without", "ever", "be", "out", "of", "first", "place", "."]
+    oewn_key: [[10, "oewn-01075360-v"], [27, "oewn-02610777-v"]]
     paragraph: '8'
-    pos: ["IN", "JJ", "JJ", "NNP", "NN", "NNP", "VBD", "VBN", "CD", "JJ", "NN", "IN", "DT", "NNP", ":", "CD", "JJ", "NN", "CC", "CD", "DT", ":", "IN", "RB", "VBG", "IN", "IN", "JJ", "NN", "."]
-    text: 'Until late last Saturday afternoon Palmer had played seven consecutive rounds_of_golf at the Masters- four last year and three this- without ever being out of first place.'
-    tokens: [[0, 5], [6, 10], [11, 15], [16, 24], [25, 34], [35, 41], [42, 45], [46, 52], [53, 58], [59, 70], [71, 85], [86, 88], [89, 92], [93, 100], [100, 101], [102, 106], [107, 111], [112, 116], [117, 120], [121, 126], [127, 131], [131, 132], [133, 140], [141, 145], [146, 151], [152, 155], [156, 158], [159, 164], [165, 170], [170, 171]]
-    wn16_key: [[7, "play%2:33:00::"], [24, "be%2:42:03::"]]
-    wn30_key: [[7, "play%2:33:00::"], [24, "be%2:42:03::"]]
+    pos: ["NN", "NNP", "NNP", "IN", "JJ", "JJ", "NNP", "NN", "NNP", "VBD", "VBN", "CD", "JJ", "NN", "IN", "DT", "NNP", ":", "CD", "JJ", "NN", "CC", "CD", "DT", ":", "IN", "RB", "VBG", "IN", "IN", "JJ", "NN", "."]
+    text: '#END AT SEVEN# Until late last Saturday afternoon Palmer had played seven consecutive rounds_of_golf at the Masters- four last year and three this- without ever being out of first place.'
+    tokens: [[0, 4], [5, 7], [8, 14], [15, 20], [21, 25], [26, 30], [31, 39], [40, 49], [50, 56], [57, 60], [61, 67], [68, 73], [74, 85], [86, 100], [101, 103], [104, 107], [108, 115], [115, 116], [117, 121], [122, 126], [127, 131], [132, 135], [136, 141], [142, 146], [146, 147], [148, 155], [156, 160], [161, 166], [167, 170], [171, 173], [174, 179], [180, 185], [185, 186]]
+    wn16_key: [[10, "play%2:33:00::"], [27, "be%2:42:03::"]]
+    wn30_key: [[10, "play%2:33:00::"], [27, "be%2:42:03::"]]
 dhSP:
     lemmas: ["As", "evening", "approach", "and", "palmer", "finish", "his", "saturday", "round", "with", "a", "disappointing", "one-over-par", "73", ",", "this", "remarkable", "record", "be", "still", "intact", ",", "thanks", "to", "his", "thursday", "and", "friday", "round", "of", "68", "and", "69", "."]
     oewn_key: [[2, "oewn-01853713-v"], [5, "oewn-02615799-v"], [18, "oewn-02450790-v"]]
@@ -471,15 +471,14 @@ fkGj:
     wn16_key: [[2, "reach%2:38:01::"], [10, "win%2:33:00::"]]
     wn30_key: [[2, "reach%2:38:01::"], [10, "win%2:33:00::"]]
 rsYD:
-    lemmas: ["On", "thursday", ",", "the", "first", "day", "of", "the", "masters", ",", "the", "contest", "between", "palmer", "and", "player", "develop", "instantly", "."]
-    oewn_key: [[16, "oewn-02630344-v"]]
+    lemmas: ["#instant", "rivalry#", "On", "thursday", ",", "the", "first", "day", "of", "the", "masters", ",", "the", "contest", "between", "palmer", "and", "player", "develop", "instantly", "."]
+    oewn_key: [[18, "oewn-02630344-v"]]
     paragraph: '13'
-    pos: ["IN", "NNP", ",", "DT", "JJ", "NN", "IN", "DT", "NNP", ",", "DT", "NN", "IN", "NNP", "CC", "NNP", "VBD", "RB", "."]
-    text: 'On Thursday, the first day of the Masters, the contest between Palmer and Player
-  developed instantly.'
-    tokens: [[0, 2], [3, 11], [11, 12], [13, 16], [17, 22], [23, 26], [27, 29], [30, 33], [34, 41], [41, 42], [43, 46], [47, 54], [55, 62], [63, 69], [70, 73], [74, 80], [81, 90], [91, 100], [100, 101]]
-    wn16_key: [[16, "develop%2:42:00::"]]
-    wn30_key: [[16, "develop%2:42:00::"]]
+    pos: ["NNP", "NNP", "IN", "NNP", ",", "DT", "JJ", "NN", "IN", "DT", "NNP", ",", "DT", "NN", "IN", "NNP", "CC", "NNP", "VBD", "RB", "."]
+    text: '#INSTANT RIVALRY# On Thursday, the first day of the Masters, the contest between Palmer and Player developed instantly.'
+    tokens: [[0, 8], [9, 17], [18, 20], [21, 29], [29, 30], [31, 34], [35, 40], [41, 44], [45, 47], [48, 51], [52, 59], [59, 60], [61, 64], [65, 72], [73, 80], [81, 87], [88, 91], [92, 98], [99, 108], [109, 118], [118, 119]]
+    wn16_key: [[18, "develop%2:42:00::"]]
+    wn30_key: [[18, "develop%2:42:00::"]]
 gGqX:
     lemmas: ["It", "be", "a", "dismal", ",", "drizzly", "day", "but", "a", "good", "one", "on", "which", "to", "score", "over", "the", "augusta_national", "course", "."]
     oewn_key: [[1, "oewn-02450790-v"], [14, "oewn-01114241-v"]]
@@ -655,15 +654,14 @@ F765:
     wn16_key: [[9, "show%2:39:00::"], [13, "notice%2:39:04::"], [18, "admit%2:32:00::"], [24, "proceed%2:32:00::"], [26, "sink%2:38:02::"], [33, "send%2:38:01::"], [37, "roll%2:42:00::"]]
     wn30_key: [[9, "show%2:39:00::"], [13, "notice%2:39:04::"], [18, "admit%2:32:00::"], [24, "proceed%2:32:00::"], [26, "sink%2:38:02::"], [33, "send%2:38:01::"], [37, "roll%2:42:00::"]]
 9dOd:
-    lemmas: ["Anyone", "who", "now", "doubt", "that", "a", "personal", "duel", "be", "under_way", "have", "only", "to", "watch", "how", "these", "exceptionally", "gifted", "golfer", "be", "play", "this", "most", "difficult", "golf_course", "."]
-    oewn_key: [[3, "oewn-00689196-v"], [8, "oewn-02610777-v"], [13, "oewn-02155378-v"], [20, "oewn-01075360-v"]]
+    lemmas: ["#the", "boldness", "of", "champions#", "Anyone", "who", "now", "doubt", "that", "a", "personal", "duel", "be", "under_way", "have", "only", "to", "watch", "how", "these", "exceptionally", "gifted", "golfer", "be", "play", "this", "most", "difficult", "golf_course", "."]
+    oewn_key: [[7, "oewn-00689196-v"], [12, "oewn-02610777-v"], [17, "oewn-02155378-v"], [24, "oewn-01075360-v"]]
     paragraph: '18'
-    pos: ["NN", "WP", "RB", "VBD", "IN", "DT", "JJ", "NN", "VBD", "JJ", "VBD", "RB", "TO", "VB", "WRB", "DT", "RB", "JJ", "NNS", "VBD", "VBG", "DT", "RBS", "JJ", "NN", "."]
-    text: 'Anyone who now doubted that a personal duel was under_way had only to watch how
-  these exceptionally gifted golfers were playing this most difficult golf_course.'
-    tokens: [[0, 6], [7, 10], [11, 14], [15, 22], [23, 27], [28, 29], [30, 38], [39, 43], [44, 47], [48, 57], [58, 61], [62, 66], [67, 69], [70, 75], [76, 79], [80, 85], [86, 99], [100, 106], [107, 114], [115, 119], [120, 127], [128, 132], [133, 137], [138, 147], [148, 159], [159, 160]]
-    wn16_key: [[3, "doubt%2:31:00::"], [8, "be%2:42:03::"], [13, "watch%2:39:05::"], [20, "play%2:33:00::"]]
-    wn30_key: [[3, "doubt%2:31:00::"], [8, "be%2:42:03::"], [13, "watch%2:39:05::"], [20, "play%2:33:00::"]]
+    pos: ["NNP", "NNP", "NNP", "NNP", "NN", "WP", "RB", "VBD", "IN", "DT", "JJ", "NN", "VBD", "JJ", "VBD", "RB", "TO", "VB", "WRB", "DT", "RB", "JJ", "NNS", "VBD", "VBG", "DT", "RBS", "JJ", "NN", "."]
+    text: '#THE BOLDNESS OF CHAMPIONS# Anyone who now doubted that a personal duel was under_way had only to watch how these exceptionally gifted golfers were playing this most difficult golf_course.'
+    tokens: [[0, 4], [5, 13], [14, 16], [17, 27], [28, 34], [35, 38], [39, 42], [43, 50], [51, 55], [56, 57], [58, 66], [67, 71], [72, 75], [76, 85], [86, 89], [90, 94], [95, 97], [98, 103], [104, 107], [108, 113], [114, 127], [128, 134], [135, 142], [143, 147], [148, 155], [156, 160], [161, 165], [166, 175], [176, 187], [187, 188]]
+    wn16_key: [[7, "doubt%2:31:00::"], [12, "be%2:42:03::"], [17, "watch%2:39:05::"], [24, "play%2:33:00::"]]
+    wn30_key: [[7, "doubt%2:31:00::"], [12, "be%2:42:03::"], [17, "watch%2:39:05::"], [24, "play%2:33:00::"]]
 grnX:
     lemmas: ["It", "be", "almost", "axiomatic", "that", "golfer", "who", "dominate", "the", "game", "of", "golf", "for", "any", "period_of_time", "attack", "their", "shot", "with", "a", "vehemence", "border_on", "violence", "."]
     oewn_key: [[1, "oewn-02610777-v"], [7, "oewn-02545000-v"], [15, "oewn-01120867-v"], [21, "oewn-02709812-v"]]

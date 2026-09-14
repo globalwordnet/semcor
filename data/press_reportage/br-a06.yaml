@@ -153,14 +153,14 @@ OI4g:
     wn16_key: [[1, "say%2:32:00::"], [15, "mean%2:32:01::"], [18, "be%2:42:03::"]]
     wn30_key: [[1, "say%2:32:00::"], [15, "mean%2:32:01::"], [18, "be%2:42:03::"]]
 IHyZ:
-    lemmas: ["jones", "say", "he", "regret", "hughes", "have", "make", "a", "personal", "attack", "on", "a", "past", "president", "."]
-    oewn_key: [[1, "oewn-01011267-v"], [3, "oewn-01800593-v"], [6, "oewn-01649143-v"]]
+    lemmas: ["#regrets", "attack#", "jones", "say", "he", "regret", "hughes", "have", "make", "a", "personal", "attack", "on", "a", "past", "president", "."]
+    oewn_key: [[3, "oewn-01011267-v"], [5, "oewn-01800593-v"], [8, "oewn-01649143-v"]]
     paragraph: '6'
-    pos: ["NNP", "VBD", "PRP", "VBD", "NNP", "VBD", "VBN", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "."]
-    text: 'Jones said he regretted Hughes had made a personal attack on a past president.'
-    tokens: [[0, 5], [6, 10], [11, 13], [14, 23], [24, 30], [31, 34], [35, 39], [40, 41], [42, 50], [51, 57], [58, 60], [61, 62], [63, 67], [68, 77], [77, 78]]
-    wn16_key: [[1, "say%2:32:00::"], [3, "regret%2:37:00::"], [6, "make%2:36:08::"]]
-    wn30_key: [[1, "say%2:32:00::"], [3, "regret%2:37:00::"], [6, "make%2:36:08::"]]
+    pos: ["NNP", "NNP", "NNP", "VBD", "PRP", "VBD", "NNP", "VBD", "VBN", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "."]
+    text: '#REGRETS ATTACK# Jones said he regretted Hughes had made a personal attack on a past president.'
+    tokens: [[0, 8], [9, 16], [17, 22], [23, 27], [28, 30], [31, 40], [41, 47], [48, 51], [52, 56], [57, 58], [59, 67], [68, 74], [75, 77], [78, 79], [80, 84], [85, 94], [94, 95]]
+    wn16_key: [[3, "say%2:32:00::"], [5, "regret%2:37:00::"], [8, "make%2:36:08::"]]
+    wn30_key: [[3, "say%2:32:00::"], [5, "regret%2:37:00::"], [8, "make%2:36:08::"]]
 JVBb:
     lemmas: ["\"", "He", "be", "wrong", "to", "inject", "eisenhower", "into", "this", "campaign", "\"", ",", "he", "say", ",", "\"", "because", "the", "primary", "be", "be", "wage", "on", "state", "issue", "and", "I", "will", "not", "be", "force", "into", "re-argue", "an", "old", "national", "campaign", "\"", "."]
     oewn_key: [[2, "oewn-02610777-v"], [5, "oewn-00187413-v"], [13, "oewn-01011267-v"], [21, "oewn-02381180-v"], [30, "oewn-01653967-v"], [32, "oewn-00774533-v"]]
@@ -216,14 +216,14 @@ Cv5Z:
     wn16_key: [[26, "make%2:36:08::"]]
     wn30_key: [[26, "make%2:36:08::"]]
 wrH+:
-    lemmas: ["mitchell", "decry", "the", "high", "rate", "of", "unemployment", "in", "the", "state", "and", "say", "the", "Meyner", "administration", "and", "the", "Republican-controlled", "state_senate", "\"", "Must", "share", "the", "blame", "for", "this", "\"", "."]
-    oewn_key: [[1, "oewn-00865823-v"], [11, "oewn-01011267-v"], [21, "oewn-02300511-v"]]
+    lemmas: ["#decries", "joblessness#", "mitchell", "decry", "the", "high", "rate", "of", "unemployment", "in", "the", "state", "and", "say", "the", "Meyner", "administration", "and", "the", "Republican-controlled", "state_senate", "\"", "Must", "share", "the", "blame", "for", "this", "\"", "."]
+    oewn_key: [[3, "oewn-00865823-v"], [13, "oewn-01011267-v"], [23, "oewn-02300511-v"]]
     paragraph: '9'
-    pos: ["NNP", "VBD", "DT", "JJ", "NN", "IN", "NN", "IN", "DT", "NN", "CC", "VBD", "DT", "NNP", "NN", "CC", "DT", "JJ", "NNP", "''", "MD", "VB", "DT", "NN", "IN", "DT", "``", "."]
-    text: 'Mitchell decried the high rate of unemployment in the state and said the Meyner administration and the Republican-controlled State_Senate "Must share the blame for this".'
-    tokens: [[0, 8], [9, 16], [17, 20], [21, 25], [26, 30], [31, 33], [34, 46], [47, 49], [50, 53], [54, 59], [60, 63], [64, 68], [69, 72], [73, 79], [80, 94], [95, 98], [99, 102], [103, 124], [125, 137], [138, 139], [139, 143], [144, 149], [150, 153], [154, 159], [160, 163], [164, 168], [168, 169], [169, 170]]
-    wn16_key: [[1, "decry%2:32:00::"], [11, "say%2:32:00::"], [21, "share%2:40:02::"]]
-    wn30_key: [[1, "decry%2:32:00::"], [11, "say%2:32:00::"], [21, "share%2:40:02::"]]
+    pos: ["NN", "NNP", "NNP", "VBD", "DT", "JJ", "NN", "IN", "NN", "IN", "DT", "NN", "CC", "VBD", "DT", "NNP", "NN", "CC", "DT", "JJ", "NNP", "''", "MD", "VB", "DT", "NN", "IN", "DT", "``", "."]
+    text: '#DECRIES JOBLESSNESS# Mitchell decried the high rate of unemployment in the state and said the Meyner administration and the Republican-controlled State_Senate "Must share the blame for this".'
+    tokens: [[0, 8], [9, 21], [22, 30], [31, 38], [39, 42], [43, 47], [48, 52], [53, 55], [56, 68], [69, 71], [72, 75], [76, 81], [82, 85], [86, 90], [91, 94], [95, 101], [102, 116], [117, 120], [121, 124], [125, 146], [147, 159], [160, 161], [161, 165], [166, 171], [172, 175], [176, 181], [182, 185], [186, 190], [190, 191], [191, 192]]
+    wn16_key: [[3, "decry%2:32:00::"], [13, "say%2:32:00::"], [23, "share%2:40:02::"]]
+    wn30_key: [[3, "decry%2:32:00::"], [13, "say%2:32:00::"], [23, "share%2:40:02::"]]
 VuDI:
     lemmas: ["nothing", "that", "Plainfield", "last", "year", "have", "lose", "the", "mack_truck_co.", "plant", ",", "he", "say", "industry", "will", "not", "come", "into", "this", "state", "until", "there", "be", "tax", "reform", "."]
     oewn_key: [[6, "oewn-02292634-v"], [12, "oewn-01011267-v"], [16, "oewn-02009962-v"], [22, "oewn-02610777-v"]]
@@ -291,16 +291,16 @@ Rmly:
     wn16_key: [[4, "face%2:32:00::"], [10, "raise%2:30:01::"], [22, "say%2:32:00::"], [27, "challenge%2:32:00::"], [30, "tell%2:32:04::"], [35, "stand%2:31:01::"]]
     wn30_key: [[4, "face%2:32:00::"], [10, "raise%2:30:01::"], [22, "say%2:32:00::"], [27, "challenge%2:32:00::"], [30, "tell%2:32:04::"], [35, "stand%2:31:01::"]]
 nVLi:
-    lemmas: ["earlier", ",", "mitchell", "say", "in", "a", "statement", ":"]
-    oewn_key: [[3, "oewn-01011267-v"]]
+    lemmas: ["#defends", "ike#", "earlier", ",", "mitchell", "say", "in", "a", "statement", ":"]
+    oewn_key: [[5, "oewn-01011267-v"]]
     paragraph: '13'
-    pos: ["RBR", ",", "NNP", "VBD", "IN", "DT", "NN", ":"]
-    text: 'Earlier, Mitchell said in a statement:
+    pos: ["NN", "NNP", "RBR", ",", "NNP", "VBD", "IN", "DT", "NN", ":"]
+    text: '#DEFENDS IKE# Earlier, Mitchell said in a statement:
 
   '
-    tokens: [[0, 7], [7, 8], [9, 17], [18, 22], [23, 25], [26, 27], [28, 37], [37, 38]]
-    wn16_key: [[3, "say%2:32:00::"]]
-    wn30_key: [[3, "say%2:32:00::"]]
+    tokens: [[0, 8], [9, 13], [14, 21], [21, 22], [23, 31], [32, 36], [37, 39], [40, 41], [42, 51], [51, 52]]
+    wn16_key: [[5, "say%2:32:00::"]]
+    wn30_key: [[5, "say%2:32:00::"]]
 PhyS:
     lemmas: ["\"", "I", "think", "that", "all", "american", "will", "resent", "deeply", "the", "statement", "make", "about", "president_eisenhower", "by", "Richard_J._Hughes", "."]
     oewn_key: [[2, "oewn-00633399-v"], [7, "oewn-01777267-v"], [11, "oewn-01624592-v"]]
@@ -353,15 +353,14 @@ u3ru:
     wn16_key: [[3, "rebound%2:38:00::"]]
     wn30_key: [[3, "rebound%2:38:00::"]]
 MNcd:
-    lemmas: ["Sen._Charles_W._Sandman", ",", "R-Cape_May", ",", "say", "today", "jones", "will", "run", "well", "ahead", "of", "his", "gop", "opponent", "for", "the", "gubernatorial", "nomination", "."]
-    oewn_key: [[4, "oewn-01011267-v"], [8, "oewn-01096497-v"]]
+    lemmas: ["#sees", "jones", "ahead#", "Sen._Charles_W._Sandman", ",", "R-Cape_May", ",", "say", "today", "jones", "will", "run", "well", "ahead", "of", "his", "gop", "opponent", "for", "the", "gubernatorial", "nomination", "."]
+    oewn_key: [[7, "oewn-01011267-v"], [11, "oewn-01096497-v"]]
     paragraph: '17'
-    pos: ["NNP", ",", "NNP", ",", "VBD", "NN", "NNP", "MD", "VB", "RB", "RB", "IN", "PRP$", "NNP", "NNS", "IN", "DT", "JJ", "NN", "."]
-    text: 'Sen._Charles_W._Sandman, R-Cape_May, said today Jones will run well ahead of his
-  GOP opponents for the gubernatorial nomination.'
-    tokens: [[0, 23], [23, 24], [25, 35], [35, 36], [37, 41], [42, 47], [48, 53], [54, 58], [59, 62], [63, 67], [68, 73], [74, 76], [77, 80], [81, 84], [85, 94], [95, 98], [99, 102], [103, 116], [117, 127], [127, 128]]
-    wn16_key: [[4, "say%2:32:00::"], [8, "run%2:33:06::"]]
-    wn30_key: [[4, "say%2:32:00::"], [8, "run%2:33:06::"]]
+    pos: ["NNP", "NNP", "NNP", "NNP", ",", "NNP", ",", "VBD", "NN", "NNP", "MD", "VB", "RB", "RB", "IN", "PRP$", "NNP", "NNS", "IN", "DT", "JJ", "NN", "."]
+    text: '#SEES JONES AHEAD# Sen._Charles_W._Sandman, R-Cape_May, said today Jones will run well ahead of his GOP opponents for the gubernatorial nomination.'
+    tokens: [[0, 5], [6, 11], [12, 18], [19, 42], [42, 43], [44, 54], [54, 55], [56, 60], [61, 66], [67, 72], [73, 77], [78, 81], [82, 86], [87, 92], [93, 95], [96, 99], [100, 103], [104, 113], [114, 117], [118, 121], [122, 135], [136, 146], [146, 147]]
+    wn16_key: [[7, "say%2:32:00::"], [11, "run%2:33:06::"]]
+    wn30_key: [[7, "say%2:32:00::"], [11, "run%2:33:06::"]]
 510C:
     lemmas: ["sandman", ",", "state", "campaign", "chairman", "for", "jones", ",", "be", "address", "a", "meeting", "in", "the", "military_park_hotel", ",", "newark", ",", "of", "essex_county", "leaders", "and", "campaign", "manager", "for", "jones", "."]
     oewn_key: [[9, "oewn-00991233-v"]]
@@ -695,14 +694,14 @@ uLs5:
     wn16_key: [[1, "say%2:32:01::"], [7, "resolve%2:31:01::"], [15, "be%2:42:03::"], [23, "be%2:42:03::"]]
     wn30_key: [[1, "say%2:32:01::"], [7, "resolve%2:31:01::"], [15, "be%2:42:03::"], [23, "be%2:42:03::"]]
 Mogv:
-    lemmas: ["In", "his", "only", "attack", "on", "the", "republican", ",", "hughes", "say", ",", "\"", "The", "three", "republican", "candidate", "for", "governor", "be", "trip", "over", "their", "foot", "for", "popular", "slogan", "to", "win", "the", "primary", "."]
-    oewn_key: [[9, "oewn-01011267-v"], [19, "oewn-01904401-v"], [27, "oewn-01102556-v"]]
+    lemmas: ["#attacks", "republicans#", "In", "his", "only", "attack", "on", "the", "republican", ",", "hughes", "say", ",", "\"", "The", "three", "republican", "candidate", "for", "governor", "be", "trip", "over", "their", "foot", "for", "popular", "slogan", "to", "win", "the", "primary", "."]
+    oewn_key: [[11, "oewn-01011267-v"], [21, "oewn-01904401-v"], [29, "oewn-01102556-v"]]
     paragraph: '38'
-    pos: ["IN", "PRP$", "RB", "NN", "IN", "DT", "NNPS", ",", "NNP", "VBD", ",", "``", "DT", "CD", "NNP", "NNS", "IN", "NN", "VBP", "VBG", "IN", "PRP$", "NNS", "IN", "JJ", "NNS", "TO", "VB", "DT", "NN", "."]
-    text: 'In his only attack on the Republicans, Hughes said, "The three Republican candidates for governor are tripping over their feet for popular slogans to win the primary.'
-    tokens: [[0, 2], [3, 6], [7, 11], [12, 18], [19, 21], [22, 25], [26, 37], [37, 38], [39, 45], [46, 50], [50, 51], [52, 53], [53, 56], [57, 62], [63, 73], [74, 84], [85, 88], [89, 97], [98, 101], [102, 110], [111, 115], [116, 121], [122, 126], [127, 130], [131, 138], [139, 146], [147, 149], [150, 153], [154, 157], [158, 165], [165, 166]]
-    wn16_key: [[9, "say%2:32:00::"], [19, "trip%2:38:00::"], [27, "win%2:33:00::"]]
-    wn30_key: [[9, "say%2:32:00::"], [19, "trip%2:38:00::"], [27, "win%2:33:00::"]]
+    pos: ["NNP", "NNP", "IN", "PRP$", "RB", "NN", "IN", "DT", "NNPS", ",", "NNP", "VBD", ",", "``", "DT", "CD", "NNP", "NNS", "IN", "NN", "VBP", "VBG", "IN", "PRP$", "NNS", "IN", "JJ", "NNS", "TO", "VB", "DT", "NN", "."]
+    text: '#ATTACKS REPUBLICANS# In his only attack on the Republicans, Hughes said, "The three Republican candidates for governor are tripping over their feet for popular slogans to win the primary.'
+    tokens: [[0, 8], [9, 21], [22, 24], [25, 28], [29, 33], [34, 40], [41, 43], [44, 47], [48, 59], [59, 60], [61, 67], [68, 72], [72, 73], [74, 75], [75, 78], [79, 84], [85, 95], [96, 106], [107, 110], [111, 119], [120, 123], [124, 132], [133, 137], [138, 143], [144, 148], [149, 152], [153, 160], [161, 168], [169, 171], [172, 175], [176, 179], [180, 187], [187, 188]]
+    wn16_key: [[11, "say%2:32:00::"], [21, "trip%2:38:00::"], [29, "win%2:33:00::"]]
+    wn30_key: [[11, "say%2:32:00::"], [21, "trip%2:38:00::"], [29, "win%2:33:00::"]]
 nBzf:
     lemmas: ["But", "we", "'ll", "have", "a", "liberal", ",", "well", "planned", ",", "forward", "look", ",", "honest", "platform", "."]
     oewn_key: [[3, "oewn-02636270-v"], [11, "oewn-02134989-v"]]
@@ -829,14 +828,14 @@ OFW1:
     wn16_key: [[1, "say%2:32:00::"], [11, "underwrite%2:32:00::"], [15, "expect%2:31:00::"], [18, "introduce%2:31:00::"]]
     wn30_key: [[1, "say%2:32:00::"], [11, "underwrite%2:32:00::"], [15, "expect%2:31:00::"], [18, "introduce%2:31:00::"]]
 A2cj:
-    lemmas: ["The", "plan", "will", "provide", "$", "45", "million", "for", "purchase", "of", "open", "land", "by", "the", "state", "."]
-    oewn_key: [[3, "oewn-02332196-v"]]
+    lemmas: ["#conservation", "plan#", "The", "plan", "will", "provide", "$", "45", "million", "for", "purchase", "of", "open", "land", "by", "the", "state", "."]
+    oewn_key: [[5, "oewn-02332196-v"]]
     paragraph: '45'
-    pos: ["DT", "NN", "MD", "VB", "$", "CD", "CD", "IN", "NN", "IN", "JJ", "NN", "IN", "DT", "NN", "."]
-    text: 'The plan will provide $45 million for purchase of open land by the state.'
-    tokens: [[0, 3], [4, 8], [9, 13], [14, 21], [22, 23], [23, 25], [26, 33], [34, 37], [38, 46], [47, 49], [50, 54], [55, 59], [60, 62], [63, 66], [67, 72], [72, 73]]
-    wn16_key: [[3, "provide%2:40:00::"]]
-    wn30_key: [[3, "provide%2:40:00::"]]
+    pos: ["NNP", "NNP", "DT", "NN", "MD", "VB", "$", "CD", "CD", "IN", "NN", "IN", "JJ", "NN", "IN", "DT", "NN", "."]
+    text: '#CONSERVATION PLAN# The plan will provide $45 million for purchase of open land by the state.'
+    tokens: [[0, 13], [14, 19], [20, 23], [24, 28], [29, 33], [34, 41], [42, 43], [43, 45], [46, 53], [54, 57], [58, 66], [67, 69], [70, 74], [75, 79], [80, 82], [83, 86], [87, 92], [92, 93]]
+    wn16_key: [[5, "provide%2:40:00::"]]
+    wn30_key: [[5, "provide%2:40:00::"]]
 Q24B:
     lemmas: ["The", "other", "$", "15", "million", "be", "to", "be", "allot", "to", "municipality", "on", "a", "matching", "fund", "basis", "."]
     oewn_key: [[8, "oewn-02233480-v"]]

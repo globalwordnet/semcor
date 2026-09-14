@@ -891,14 +891,14 @@ jPtM:
     wn16_key: [[1, "basement%1:06:00::"], [3, "belowground%5:00:00:subsurface:00"], [4, "shelter%1:06:00::"], [5, "also%4:02:00::"], [7, "serve%2:42:03::"], [9, "tornado%1:19:00::"], [11, "hurricane%1:19:00::"], [12, "protection%1:04:00::"]]
     wn30_key: [[1, "basement%1:06:00::"], [3, "belowground%3:00:00:subsurface:00"], [4, "shelter%1:06:00::"], [5, "also%4:02:00::"], [7, "serve%2:42:03::"], [9, "tornado%1:19:00::"], [11, "hurricane%1:19:00::"], [12, "protection%1:04:00::"]]
 NnWS:
-    lemmas: ["The", "radioactivity", "of", "fallout", "decay", "rapidly", "at_first", "."]
-    oewn_key: [[3, "oewn-14883101-n"], [4, "oewn-00399980-v"], [5, "oewn-00086161-r"]]
+    lemmas: ["#3,.", "living", "in", "a", "shelter#", "The", "radioactivity", "of", "fallout", "decay", "rapidly", "at_first", "."]
+    oewn_key: [[8, "oewn-14883101-n"], [9, "oewn-00399980-v"], [10, "oewn-00086161-r"]]
     paragraph: '32'
-    pos: ["DT", "NN", "IN", "NN", "VBZ", "RB", "RB", "."]
-    text: 'The radioactivity of fallout decays rapidly at_first.'
-    tokens: [[0, 3], [4, 17], [18, 20], [21, 28], [29, 35], [36, 43], [44, 52], [52, 53]]
-    wn16_key: [[1, "radioactivity%1:19:00::"], [3, "fallout%1:27:00::"], [4, "decay%2:30:01::"], [5, "rapidly%4:02:00::"], [6, "at_first%4:02:00::"]]
-    wn30_key: [[3, "fallout%1:27:00::"], [4, "decay%2:30:01::"], [5, "rapidly%4:02:00::"]]
+    pos: ["NNP", "NNP", "NNP", "NNP", "NNP", "DT", "NN", "IN", "NN", "VBZ", "RB", "RB", "."]
+    text: '#3,. LIVING IN A SHELTER# The radioactivity of fallout decays rapidly at_first.'
+    tokens: [[0, 4], [5, 11], [12, 14], [15, 16], [17, 25], [26, 29], [30, 43], [44, 46], [47, 54], [55, 61], [62, 69], [70, 78], [78, 79]]
+    wn16_key: [[6, "radioactivity%1:19:00::"], [8, "fallout%1:27:00::"], [9, "decay%2:30:01::"], [10, "rapidly%4:02:00::"], [11, "at_first%4:02:00::"]]
+    wn30_key: [[8, "fallout%1:27:00::"], [9, "decay%2:30:01::"], [10, "rapidly%4:02:00::"]]
 r3tn:
     lemmas: ["forty-nine", "hour", "after", "an", "atomic", "burst", "the", "radiation", "intensity", "be", "only", "about", "1", "percent", "of", "what", "it", "be", "an", "hour", "after", "the", "explosion", "."]
     oewn_key: [[1, "oewn-15252642-n"], [4, "oewn-00612923-a"], [5, "oewn-00378172-n"], [7, "oewn-11519684-n"], [8, "oewn-05107058-n"], [9, "oewn-02670846-v"], [10, "oewn-00005103-r"], [12, "oewn-02193977-s"], [13, "oewn-13839738-n"], [17, "oewn-02670846-v"], [19, "oewn-15252642-n"], [22, "oewn-07323181-n"]]
@@ -1335,16 +1335,16 @@ HGL4:
     wn16_key: [[1, "family%1:14:02::"], [2, "already%4:02:00::"], [4, "hold%2:36:00::"], [5, "weekend%1:28:00::"], [6, "rehearsal%1:04:01::"], [9, "home%1:06:00::"], [10, "shelter%1:06:00::"], [12, "learn%2:31:00::"], [14, "problem%1:26:00::"], [17, "determine%2:32:00::"], [21, "supplies%1:21:00::"], [24, "need%2:34:00::"]]
     wn30_key: [[1, "family%1:14:02::"], [2, "already%4:02:00::"], [4, "hold%2:36:00::"], [5, "weekend%1:28:00::"], [6, "rehearsal%1:04:01::"], [9, "home%1:06:00::"], [10, "shelter%1:06:00::"], [12, "learn%2:31:00::"], [14, "problem%1:26:00::"], [17, "determine%2:32:00::"], [24, "need%2:34:00::"]]
 OLai:
-    lemmas: ["few", "area", ",", "if", "any", ",", "be", "as_good_as", "prepared", "shelter", "but", "they", "be", "worth", "know", "about", "."]
-    oewn_key: [[0, "oewn-01557242-a"], [1, "oewn-08514304-n"], [6, "oewn-02610777-v"], [8, "oewn-01849304-a"], [9, "oewn-04198638-n"], [12, "oewn-02610777-v"], [13, "oewn-02596626-s"], [14, "oewn-00596016-v"]]
+    lemmas: ["#4,.", "if", "an", "attack", "finds", "you", "without", "a", "prepared", "shelter#", "few", "area", ",", "if", "any", ",", "be", "as_good_as", "prepared", "shelter", "but", "they", "be", "worth", "know", "about", "."]
+    oewn_key: [[10, "oewn-01557242-a"], [11, "oewn-08514304-n"], [16, "oewn-02610777-v"], [18, "oewn-01849304-a"], [19, "oewn-04198638-n"], [22, "oewn-02610777-v"], [23, "oewn-02596626-s"], [24, "oewn-00596016-v"]]
     paragraph: '52'
-    pos: ["JJ", "NNS", ",", "IN", "DT", ",", "VBP", "JJ", "JJ", "NNS", "CC", "PRP", "VBP", "JJ", "VBG", "RB", "."]
-    text: 'Few areas, if any, are as_good_as prepared shelters but they are worth knowing about.
+    pos: ["VB", "NNP", "NNP", "NNP", "NNP", "NNP", "VBP", "NNP", "NNP", "NNP", "JJ", "NNS", ",", "IN", "DT", ",", "VBP", "JJ", "JJ", "NNS", "CC", "PRP", "VBP", "JJ", "VBG", "RB", "."]
+    text: '#4,. IF AN ATTACK FINDS YOU WITHOUT A PREPARED SHELTER# Few areas, if any, are as_good_as prepared shelters but they are worth knowing about.
 
   '
-    tokens: [[0, 3], [4, 9], [9, 10], [11, 13], [14, 17], [17, 18], [19, 22], [23, 33], [34, 42], [43, 51], [52, 55], [56, 60], [61, 64], [65, 70], [71, 78], [79, 84], [84, 85]]
-    wn16_key: [[0, "few%3:00:00::"], [1, "area%1:15:01::"], [6, "be%2:42:03::"], [7, "as_good_as%5:00:00:equal:00"], [8, "prepared%3:00:00::"], [9, "shelter%1:06:00::"], [12, "be%2:42:03::"], [13, "worth%5:00:00:worthy:00"], [14, "know%2:31:01::"]]
-    wn30_key: [[0, "few%3:00:00::"], [1, "area%1:15:01::"], [6, "be%2:42:03::"], [8, "prepared%3:00:00::"], [9, "shelter%1:06:00::"], [12, "be%2:42:03::"], [13, "worth%3:00:00:worthy:00"], [14, "know%2:31:01::"]]
+    tokens: [[0, 4], [5, 7], [8, 10], [11, 17], [18, 23], [24, 27], [28, 35], [36, 37], [38, 46], [47, 55], [56, 59], [60, 65], [65, 66], [67, 69], [70, 73], [73, 74], [75, 78], [79, 89], [90, 98], [99, 107], [108, 111], [112, 116], [117, 120], [121, 126], [127, 134], [135, 140], [140, 141]]
+    wn16_key: [[10, "few%3:00:00::"], [11, "area%1:15:01::"], [16, "be%2:42:03::"], [17, "as_good_as%5:00:00:equal:00"], [18, "prepared%3:00:00::"], [19, "shelter%1:06:00::"], [22, "be%2:42:03::"], [23, "worth%5:00:00:worthy:00"], [24, "know%2:31:01::"]]
+    wn30_key: [[10, "few%3:00:00::"], [11, "area%1:15:01::"], [16, "be%2:42:03::"], [18, "prepared%3:00:00::"], [19, "shelter%1:06:00::"], [22, "be%2:42:03::"], [23, "worth%3:00:00:worthy:00"], [24, "know%2:31:01::"]]
 ElRV:
     lemmas: ["A", "family", "dwelling", "without", "a", "basement", "provide", "some", "natural", "shielding", "from", "fallout", "radiation", "."]
     oewn_key: [[1, "oewn-08094856-n"], [2, "oewn-03264208-n"], [5, "oewn-02803656-n"], [6, "oewn-02332196-v"], [7, "oewn-02275064-a"], [8, "oewn-01575285-a"], [9, "oewn-00820023-n"], [11, "oewn-14883101-n"], [12, "oewn-11519684-n"]]
@@ -1409,15 +1409,14 @@ qe9J:
     wn16_key: [[2, "be%2:42:00::"], [3, "time%1:28:05::"], [6, "warning%1:10:00::"], [9, "basement%1:06:00::"], [10, "shielding%1:06:00::"], [13, "improve%2:30:01::"], [14, "substantially%4:02:01::"], [16, "block%2:35:00::"], [17, "window%1:06:00::"], [19, "brick%1:06:00::"], [21, "dirt%1:27:01::"], [23, "book%1:06:00::"], [25, "magazine%1:06:02::"], [28, "other%3:00:00::"], [29, "heavy%3:00:01::"], [30, "material%1:27:00::"]]
     wn30_key: [[2, "be%2:42:00::"], [3, "time%1:28:05::"], [6, "warning%1:10:00::"], [9, "basement%1:06:00::"], [10, "shielding%1:06:00::"], [13, "improve%2:30:01::"], [14, "substantially%4:02:01::"], [16, "block%2:35:00::"], [17, "window%1:06:00::"], [19, "brick%1:06:00::"], [21, "dirt%1:27:01::"], [23, "book%1:06:00::"], [25, "magazine%1:06:02::"], [28, "other%3:00:00::"], [29, "heavy%3:00:01::"], [30, "material%1:27:00::"]]
 DSxl:
-    lemmas: ["large", "apartment_building", "of", "masonry", "or", "concrete", "provide", "better", "natural", "shelter", "than", "the", "usual", "family", "dwelling", "."]
-    oewn_key: [[0, "oewn-01385012-a"], [1, "oewn-02729606-n"], [3, "oewn-03731208-n"], [5, "oewn-14844350-n"], [6, "oewn-02332196-v"], [7, "oewn-00231927-a"], [8, "oewn-01575285-a"], [9, "oewn-04198638-n"], [12, "oewn-00973799-s"], [13, "oewn-08094856-n"], [14, "oewn-03264208-n"]]
+    lemmas: ["#5,.", "shelter", "in", "apartment", "buildings#", "large", "apartment_building", "of", "masonry", "or", "concrete", "provide", "better", "natural", "shelter", "than", "the", "usual", "family", "dwelling", "."]
+    oewn_key: [[5, "oewn-01385012-a"], [6, "oewn-02729606-n"], [8, "oewn-03731208-n"], [10, "oewn-14844350-n"], [11, "oewn-02332196-v"], [12, "oewn-00231927-a"], [13, "oewn-01575285-a"], [14, "oewn-04198638-n"], [17, "oewn-00973799-s"], [18, "oewn-08094856-n"], [19, "oewn-03264208-n"]]
     paragraph: '56'
-    pos: ["JJ", "NNS", "IN", "NN", "CC", "NN", "VBP", "JJ", "JJ", "NN", "IN", "DT", "JJ", "NN", "NNS", "."]
-    text: 'Large apartment_buildings of masonry or concrete provide better natural shelter
-  than the usual family dwellings.'
-    tokens: [[0, 5], [6, 25], [26, 28], [29, 36], [37, 39], [40, 48], [49, 56], [57, 63], [64, 71], [72, 79], [80, 84], [85, 88], [89, 94], [95, 101], [102, 111], [111, 112]]
-    wn16_key: [[0, "large%3:00:00::"], [1, "apartment_building%1:06:00::"], [3, "masonry%1:06:00::"], [5, "concrete%1:27:00::"], [6, "provide%2:40:00::"], [7, "better%3:00:00::"], [8, "natural%3:00:02::"], [9, "shelter%1:06:00::"], [12, "usual%5:00:00:familiar:02"], [13, "family%1:14:02::"], [14, "dwelling%1:06:00::"]]
-    wn30_key: [[0, "large%3:00:00::"], [1, "apartment_building%1:06:00::"], [3, "masonry%1:06:00::"], [5, "concrete%1:27:00::"], [6, "provide%2:40:00::"], [7, "better%3:00:00::"], [8, "natural%3:00:02::"], [9, "shelter%1:06:00::"], [12, "usual%3:00:00:familiar:02"], [13, "family%1:14:02::"], [14, "dwelling%1:06:00::"]]
+    pos: ["VBP", "NNP", "NNP", "NNP", "NNP", "JJ", "NNS", "IN", "NN", "CC", "NN", "VBP", "JJ", "JJ", "NN", "IN", "DT", "JJ", "NN", "NNS", "."]
+    text: '#5,. SHELTER IN APARTMENT BUILDINGS# Large apartment_buildings of masonry or concrete provide better natural shelter than the usual family dwellings.'
+    tokens: [[0, 4], [5, 12], [13, 15], [16, 25], [26, 36], [37, 42], [43, 62], [63, 65], [66, 73], [74, 76], [77, 85], [86, 93], [94, 100], [101, 108], [109, 116], [117, 121], [122, 125], [126, 131], [132, 138], [139, 148], [148, 149]]
+    wn16_key: [[5, "large%3:00:00::"], [6, "apartment_building%1:06:00::"], [8, "masonry%1:06:00::"], [10, "concrete%1:27:00::"], [11, "provide%2:40:00::"], [12, "better%3:00:00::"], [13, "natural%3:00:02::"], [14, "shelter%1:06:00::"], [17, "usual%5:00:00:familiar:02"], [18, "family%1:14:02::"], [19, "dwelling%1:06:00::"]]
+    wn30_key: [[5, "large%3:00:00::"], [6, "apartment_building%1:06:00::"], [8, "masonry%1:06:00::"], [10, "concrete%1:27:00::"], [11, "provide%2:40:00::"], [12, "better%3:00:00::"], [13, "natural%3:00:02::"], [14, "shelter%1:06:00::"], [17, "usual%3:00:00:familiar:02"], [18, "family%1:14:02::"], [19, "dwelling%1:06:00::"]]
 Vhdf:
     lemmas: ["in_general", ",", "such", "apartment", "afford", "more", "protection", "than", "smaller", "building", "because", "their", "wall", "be", "thick", "and", "there", "be", "more", "space", "."]
     oewn_key: [[0, "oewn-00042364-r"], [2, "oewn-01558587-s"], [3, "oewn-02729230-n"], [4, "oewn-02344167-v"], [5, "oewn-01559526-a"], [6, "oewn-00819341-n"], [8, "oewn-01397927-s"], [9, "oewn-02916498-n"], [12, "oewn-04554141-n"], [13, "oewn-02610777-v"], [14, "oewn-02419189-a"], [17, "oewn-02609706-v"], [18, "oewn-01559526-a"], [19, "oewn-13933399-n"]]

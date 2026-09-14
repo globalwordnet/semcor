@@ -461,14 +461,14 @@ ij8a:
     wn16_key: [[2, "white-collar%3:00:00::"], [3, "worker%1:18:00::"], [5, "be%2:42:06::"], [7, "welcome%3:00:00::"], [8, "change%1:11:00::"], [11, "regular%3:00:00::"], [12, "job%1:04:00::"], [16, "physical%3:00:00::"], [17, "conditioner%1:04:00::"]]
     wn30_key: [[2, "white-collar%3:00:00::"], [3, "worker%1:18:00::"], [5, "be%2:42:06::"], [7, "welcome%3:00:00::"], [8, "change%1:11:00::"], [11, "regular%3:00:00::"], [12, "job%1:04:00::"], [16, "physical%3:00:00::"], [17, "conditioner%1:04:00::"]]
 t0MS:
-    lemmas: ["part-time", "farming", "can", "take", "comparatively", "little", "land", ",", "labor", ",", "and", "equipment", "-", "or", "a", "great_deal", "."]
-    oewn_key: [[0, "oewn-01093061-a"], [1, "oewn-00918295-n"], [3, "oewn-02272834-v"], [4, "oewn-00162033-r"], [5, "oewn-01558903-a"], [6, "oewn-09358146-n"], [8, "oewn-08197557-n"], [11, "oewn-03298959-n"], [15, "oewn-13796604-n"]]
+    lemmas: ["#land,", "labor,", "and", "equipment", "needed#", "part-time", "farming", "can", "take", "comparatively", "little", "land", ",", "labor", ",", "and", "equipment", "-", "or", "a", "great_deal", "."]
+    oewn_key: [[5, "oewn-01093061-a"], [6, "oewn-00918295-n"], [8, "oewn-02272834-v"], [9, "oewn-00162033-r"], [10, "oewn-01558903-a"], [11, "oewn-09358146-n"], [13, "oewn-08197557-n"], [16, "oewn-03298959-n"], [20, "oewn-13796604-n"]]
     paragraph: '18'
-    pos: ["JJ", "NN", "MD", "VB", "RB", "JJ", "NN", ",", "NN", ",", "CC", "NN", ":", "CC", "DT", "NN", "."]
-    text: 'Part-time farming can take comparatively little land, labor, and equipment- or a great_deal.'
-    tokens: [[0, 9], [10, 17], [18, 21], [22, 26], [27, 40], [41, 47], [48, 52], [52, 53], [54, 59], [59, 60], [61, 64], [65, 74], [74, 75], [76, 78], [79, 80], [81, 91], [91, 92]]
-    wn16_key: [[0, "part-time%3:00:00::"], [1, "farming%1:04:00::"], [3, "take%2:40:06::"], [4, "comparatively%4:02:00::"], [5, "little%3:00:03::"], [6, "land%1:17:01::"], [8, "labor%1:14:00::"], [11, "equipment%1:06:00::"], [15, "great_deal%1:23:00::"]]
-    wn30_key: [[0, "part-time%3:00:00::"], [1, "farming%1:04:00::"], [3, "take%2:40:06::"], [4, "comparatively%4:02:00::"], [5, "little%3:00:03::"], [6, "land%1:17:01::"], [8, "labor%1:14:00::"], [11, "equipment%1:06:00::"], [15, "great_deal%1:23:00::"]]
+    pos: ["NNP", "NNP", "NNP", "NNP", "NNP", "JJ", "NN", "MD", "VB", "RB", "JJ", "NN", ",", "NN", ",", "CC", "NN", ":", "CC", "DT", "NN", "."]
+    text: '#LAND, LABOR, AND EQUIPMENT NEEDED# Part-time farming can take comparatively little land, labor, and equipment- or a great_deal.'
+    tokens: [[0, 6], [7, 13], [14, 17], [18, 27], [28, 35], [36, 45], [46, 53], [54, 57], [58, 62], [63, 76], [77, 83], [84, 88], [88, 89], [90, 95], [95, 96], [97, 100], [101, 110], [110, 111], [112, 114], [115, 116], [117, 127], [127, 128]]
+    wn16_key: [[5, "part-time%3:00:00::"], [6, "farming%1:04:00::"], [8, "take%2:40:06::"], [9, "comparatively%4:02:00::"], [10, "little%3:00:03::"], [11, "land%1:17:01::"], [13, "labor%1:14:00::"], [16, "equipment%1:06:00::"], [20, "great_deal%1:23:00::"]]
+    wn30_key: [[5, "part-time%3:00:00::"], [6, "farming%1:04:00::"], [8, "take%2:40:06::"], [9, "comparatively%4:02:00::"], [10, "little%3:00:03::"], [11, "land%1:17:01::"], [13, "labor%1:14:00::"], [16, "equipment%1:06:00::"], [20, "great_deal%1:23:00::"]]
 XGtC:
     lemmas: ["It", "depend_on", "the", "kind", "and", "the", "scale", "of", "the", "farming", "operation", "."]
     oewn_key: [[1, "oewn-02717862-v"], [3, "oewn-05847533-n"], [6, "oewn-13837554-n"], [9, "oewn-00918295-n"], [10, "oewn-01097871-n"]]
@@ -765,17 +765,16 @@ vYFZ:
     wn16_key: [[2, "expensive%3:00:00::"], [4, "specialized%5:00:00:technical:00"], [5, "piece%1:06:05::"], [7, "machinery%1:06:00::"], [9, "need%2:42:00::"], [11, "such_as%5:00:00:specified:00"], [13, "spray%1:27:01::"], [14, "rig%1:06:00::"], [17, "combine%1:06:00::"], [21, "binder%1:06:03::"], [24, "be%2:42:03::"], [25, "better%3:00:00::"], [27, "pay%2:40:00::"], [31, "machine%1:06:00::"], [33, "do%2:41:04::"], [35, "work%1:04:00::"]]
     wn30_key: [[2, "expensive%3:00:00::"], [4, "specialized%3:00:00::"], [5, "piece%1:06:05::"], [7, "machinery%1:06:00::"], [9, "need%2:42:00::"], [13, "spray%1:27:01::"], [14, "rig%1:06:00::"], [17, "combine%1:06:00::"], [21, "binder%1:06:03::"], [24, "be%2:42:03::"], [25, "better%3:00:00::"], [27, "pay%2:40:00::"], [31, "machine%1:06:00::"], [33, "do%2:41:04::"], [35, "work%1:04:00::"]]
 TVcP:
-    lemmas: ["Before", "you", "look_for", "a", "farm", "you", "'ll", "need_to", "know", "(", "1", ")", "the", "kind", "and", "scale", "of", "farming", "you", "want_to", "undertake", ";", "and", "(", "2", ")", "whether", "you", "want_to", "buy", "or", "rent", "."]
-    oewn_key: [[2, "oewn-01318273-v"], [4, "oewn-03327044-n"], [8, "oewn-00596016-v"], [10, "oewn-13764713-n"], [13, "oewn-05847533-n"], [15, "oewn-13837554-n"], [17, "oewn-00918295-n"], [20, "oewn-01654835-v"], [24, "oewn-13765409-n"], [29, "oewn-02211988-v"], [31, "oewn-02465622-v"]]
+    lemmas: ["#selecting", "a", "farm#", "Before", "you", "look_for", "a", "farm", "you", "'ll", "need_to", "know", "(", "1", ")", "the", "kind", "and", "scale", "of", "farming", "you", "want_to", "undertake", ";", "and", "(", "2", ")", "whether", "you", "want_to", "buy", "or", "rent", "."]
+    oewn_key: [[5, "oewn-01318273-v"], [7, "oewn-03327044-n"], [11, "oewn-00596016-v"], [13, "oewn-13764713-n"], [16, "oewn-05847533-n"], [18, "oewn-13837554-n"], [20, "oewn-00918295-n"], [23, "oewn-01654835-v"], [27, "oewn-13765409-n"], [32, "oewn-02211988-v"], [34, "oewn-02465622-v"]]
     paragraph: '31'
-    pos: ["IN", "PRP", "VBP", "DT", "NN", "PRP", "MD", "VB", "VB", "NN", "NN", "NN", "DT", "NN", "CC", "NN", "IN", "NN", "PRP", "VB", "VB", ":", "CC", "NN", "NN", "NN", "IN", "PRP", "VB", "VB", "CC", "VB", "."]
-    text: 'Before you look_for a farm you''ll need_to know (1) the kind and scale of farming
-  you want_to undertake; and (2) whether you want_to buy or rent.
+    pos: ["VBZ", "DT", "NNP", "IN", "PRP", "VBP", "DT", "NN", "PRP", "MD", "VB", "VB", "NN", "NN", "NN", "DT", "NN", "CC", "NN", "IN", "NN", "PRP", "VB", "VB", ":", "CC", "NN", "NN", "NN", "IN", "PRP", "VB", "VB", "CC", "VB", "."]
+    text: '#SELECTING A FARM# Before you look_for a farm you''ll need_to know (1) the kind and scale of farming you want_to undertake; and (2) whether you want_to buy or rent.
 
   '
-    tokens: [[0, 6], [7, 10], [11, 19], [20, 21], [22, 26], [27, 30], [30, 33], [34, 41], [42, 46], [47, 48], [48, 49], [49, 50], [51, 54], [55, 59], [60, 63], [64, 69], [70, 72], [73, 80], [81, 84], [85, 92], [93, 102], [102, 103], [104, 107], [108, 109], [109, 110], [110, 111], [112, 119], [120, 123], [124, 131], [132, 135], [136, 138], [139, 143], [143, 144]]
-    wn16_key: [[2, "look_for%2:35:00::"], [4, "farm%1:06:00::"], [8, "know%2:31:01::"], [10, "1%1:23:00::"], [13, "kind%1:09:00::"], [15, "scale%1:24:00::"], [17, "farming%1:04:00::"], [20, "undertake%2:36:00::"], [24, "2%1:23:00::"], [29, "buy%2:40:00::"], [31, "rent%2:41:01::"]]
-    wn30_key: [[2, "look_for%2:35:00::"], [4, "farm%1:06:00::"], [8, "know%2:31:01::"], [10, "1%1:23:00::"], [13, "kind%1:09:00::"], [15, "scale%1:24:00::"], [17, "farming%1:04:00::"], [20, "undertake%2:36:00::"], [24, "2%1:23:00::"], [29, "buy%2:40:00::"], [31, "rent%2:41:01::"]]
+    tokens: [[0, 10], [11, 12], [13, 18], [19, 25], [26, 29], [30, 38], [39, 40], [41, 45], [46, 49], [49, 52], [53, 60], [61, 65], [66, 67], [67, 68], [68, 69], [70, 73], [74, 78], [79, 82], [83, 88], [89, 91], [92, 99], [100, 103], [104, 111], [112, 121], [121, 122], [123, 126], [127, 128], [128, 129], [129, 130], [131, 138], [139, 142], [143, 150], [151, 154], [155, 157], [158, 162], [162, 163]]
+    wn16_key: [[5, "look_for%2:35:00::"], [7, "farm%1:06:00::"], [11, "know%2:31:01::"], [13, "1%1:23:00::"], [16, "kind%1:09:00::"], [18, "scale%1:24:00::"], [20, "farming%1:04:00::"], [23, "undertake%2:36:00::"], [27, "2%1:23:00::"], [32, "buy%2:40:00::"], [34, "rent%2:41:01::"]]
+    wn30_key: [[5, "look_for%2:35:00::"], [7, "farm%1:06:00::"], [11, "know%2:31:01::"], [13, "1%1:23:00::"], [16, "kind%1:09:00::"], [18, "scale%1:24:00::"], [20, "farming%1:04:00::"], [23, "undertake%2:36:00::"], [27, "2%1:23:00::"], [32, "buy%2:40:00::"], [34, "rent%2:41:01::"]]
 +TW1:
     lemmas: ["information", "on", "page", "8", "to", "14", "may", "help", "you", "in", "decide", "on", "the", "kind", "and", "scale", "of", "your", "farming", "venture", "."]
     oewn_key: [[0, "oewn-05824413-n"], [2, "oewn-06267274-n"], [3, "oewn-02194712-s"], [5, "oewn-02195338-s"], [7, "oewn-02553283-v"], [10, "oewn-00699355-v"], [13, "oewn-05847533-n"], [15, "oewn-13837554-n"], [18, "oewn-00918295-n"], [19, "oewn-01119485-n"]]
@@ -1079,16 +1078,16 @@ PPVx:
     wn16_key: [[2, "house%1:06:00::"], [3, "be%2:42:03::"], [4, "not%4:02:00::"], [5, "wired%3:00:00::"], [6, "adequately%4:02:01::"], [8, "electricity%1:19:01::"], [11, "plumbing%1:06:00::"], [14, "central_heating%1:06:00::"], [15, "system%1:06:00::"], [18, "instal%2:35:00::"], [20, "check_into%2:31:00::"], [22, "cost%1:21:00::"], [24, "make%2:41:00::"], [26, "improvement%1:11:00::"]]
     wn30_key: [[2, "house%1:06:00::"], [3, "be%2:42:03::"], [4, "not%4:02:00::"], [5, "wired%3:00:00::"], [6, "adequately%4:02:00::"], [8, "electricity%1:19:01::"], [11, "plumbing%1:06:00::"], [14, "central_heating%1:06:00::"], [15, "system%1:06:00::"], [18, "instal%2:35:00::"], [20, "check_into%2:31:00::"], [22, "cost%1:21:00::"], [24, "make%2:41:00::"], [26, "improvement%1:11:00::"]]
 0F87:
-    lemmas: ["Its", "worth", "as", "a", "place", "to", "live", "."]
-    oewn_key: [[1, "oewn-05145473-n"], [4, "oewn-08530790-n"], [6, "oewn-02655932-v"]]
+    lemmas: ["#buying", "a", "farm#", "the", "value", "of", "the", "farm", "to", "you", "will", "depend", "on-", "Its", "worth", "as", "a", "place", "to", "live", "."]
+    oewn_key: [[14, "oewn-05145473-n"], [17, "oewn-08530790-n"], [19, "oewn-02655932-v"]]
     paragraph: '44'
-    pos: ["PRP$", "NN", "IN", "DT", "NN", "TO", "VB", "."]
-    text: 'Its worth as a place to live.
+    pos: ["NN", "DT", "NNP", "DT", "NN", "IN", "DT", "NN", "TO", "PRP", "MD", "VB", "JJ", "PRP$", "NN", "IN", "DT", "NN", "TO", "VB", "."]
+    text: '#BUYING A FARM# The value of the farm to you will depend on- Its worth as a place to live.
 
   '
-    tokens: [[0, 3], [4, 9], [10, 12], [13, 14], [15, 20], [21, 23], [24, 28], [28, 29]]
-    wn16_key: [[1, "worth%1:07:00::"], [4, "place%1:15:04::"], [6, "live%2:42:08::"]]
-    wn30_key: [[1, "worth%1:07:00::"], [4, "place%1:15:04::"], [6, "live%2:42:08::"]]
+    tokens: [[0, 7], [8, 9], [10, 15], [16, 19], [20, 25], [26, 28], [29, 32], [33, 37], [38, 40], [41, 44], [45, 49], [50, 56], [57, 60], [61, 64], [65, 70], [71, 73], [74, 75], [76, 81], [82, 84], [85, 89], [89, 90]]
+    wn16_key: [[14, "worth%1:07:00::"], [17, "place%1:15:04::"], [19, "live%2:42:08::"]]
+    wn30_key: [[14, "worth%1:07:00::"], [17, "place%1:15:04::"], [19, "live%2:42:08::"]]
 1XMR:
     lemmas: ["The", "value", "of", "the", "product", "you", "can", "raise", "on", "it", "."]
     oewn_key: [[1, "oewn-13434666-n"], [4, "oewn-03754377-n"], [7, "oewn-01743695-v"]]

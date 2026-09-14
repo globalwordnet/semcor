@@ -27,16 +27,16 @@ _meta:
         base: tokens
         data: string
 eRjc:
-    lemmas: ["sam_rayburn", "be", "a", "good", "man", ",", "a", "good", "american", ",", "and", ",", "third", ",", "a", "good", "democrat", "."]
-    oewn_key: [[1, "oewn-02610777-v"]]
+    lemmas: ["#a", "good", "man", "departs", "goodby,", "mr.", "sam#", "sam_rayburn", "be", "a", "good", "man", ",", "a", "good", "american", ",", "and", ",", "third", ",", "a", "good", "democrat", "."]
+    oewn_key: [[8, "oewn-02610777-v"]]
     paragraph: '0'
-    pos: ["NNP", "VBD", "DT", "JJ", "NN", ",", "DT", "JJ", "NNP", ",", "CC", ",", "JJ", ",", "DT", "JJ", "NNP", "."]
-    text: 'Sam_Rayburn was a good man, a good American, and, third, a good Democrat.
+    pos: ["RB", "JJ", "NNP", "NNP", "NNP", "NNP", "NNP", "NNP", "VBD", "DT", "JJ", "NN", ",", "DT", "JJ", "NNP", ",", "CC", ",", "JJ", ",", "DT", "JJ", "NNP", "."]
+    text: '#A GOOD MAN DEPARTS GOODBY, MR. SAM# Sam_Rayburn was a good man, a good American, and, third, a good Democrat.
 
   '
-    tokens: [[0, 11], [12, 15], [16, 17], [18, 22], [23, 26], [26, 27], [28, 29], [30, 34], [35, 43], [43, 44], [45, 48], [48, 49], [50, 55], [55, 56], [57, 58], [59, 63], [64, 72], [72, 73]]
-    wn16_key: [[1, "be%2:42:03::"]]
-    wn30_key: [[1, "be%2:42:03::"]]
+    tokens: [[0, 2], [3, 7], [8, 11], [12, 19], [20, 27], [28, 31], [32, 36], [37, 48], [49, 52], [53, 54], [55, 59], [60, 63], [63, 64], [65, 66], [67, 71], [72, 80], [80, 81], [82, 85], [85, 86], [87, 92], [92, 93], [94, 95], [96, 100], [101, 109], [109, 110]]
+    wn16_key: [[8, "be%2:42:03::"]]
+    wn30_key: [[8, "be%2:42:03::"]]
 zN0N:
     lemmas: ["He", "be", "all", "of", "these", "roll", "into", "one", "sturdy", "figure", ";", "mr._speaker", ",", "mr._sam", ",", "and", "mr._democrat", ",", "at", "one_and_the_same", "time", "."]
     oewn_key: [[1, "oewn-02610777-v"]]
@@ -385,18 +385,16 @@ GEyQ:
     wn16_key: [[11, "be%2:42:03::"]]
     wn30_key: [[11, "be%2:42:03::"]]
 GBt9:
-    lemmas: ["Thirteen", "italian", "airman", "who", "go_to", "the", "congo", "to", "serve", "the", "cause", "of", "peace", "under", "the", "united_nations", "banner", "have", "instead", "meet", "violent_death", "at", "the", "hands", "of", "congolese", "troops", "supposedly", "their", "friend", "."]
-    oewn_key: [[4, "oewn-02618797-v"], [8, "oewn-02676679-v"], [19, "oewn-02114536-v"]]
+    lemmas: ["#un", "off", "the", "congo", "track#", "Thirteen", "italian", "airman", "who", "go_to", "the", "congo", "to", "serve", "the", "cause", "of", "peace", "under", "the", "united_nations", "banner", "have", "instead", "meet", "violent_death", "at", "the", "hands", "of", "congolese", "troops", "supposedly", "their", "friend", "."]
+    oewn_key: [[9, "oewn-02618797-v"], [13, "oewn-02676679-v"], [24, "oewn-02114536-v"]]
     paragraph: '14'
-    pos: ["CD", "JJ", "NNS", "WP", "VBP", "DT", "NNP", "TO", "VB", "DT", "NN", "IN", "NN", "IN", "DT", "NN", "NN", "VBP", "RB", "VBN", "NN", "IN", "DT", "NNS", "IN", "NNP", "NNS", "RB", "PRP$", "NNS", "."]
-    text: 'Thirteen Italian airmen who went_to the Congo to serve the cause of peace under
-  the United_Nations banner have instead met violent_death at the hands of Congolese
-  troops supposedly their friends.
+    pos: ["VBD", "IN", "NNP", "NNP", "NNP", "CD", "JJ", "NNS", "WP", "VBP", "DT", "NNP", "TO", "VB", "DT", "NN", "IN", "NN", "IN", "DT", "NN", "NN", "VBP", "RB", "VBN", "NN", "IN", "DT", "NNS", "IN", "NNP", "NNS", "RB", "PRP$", "NNS", "."]
+    text: '#UN OFF THE CONGO TRACK# Thirteen Italian airmen who went_to the Congo to serve the cause of peace under the United_Nations banner have instead met violent_death at the hands of Congolese troops supposedly their friends.
 
   '
-    tokens: [[0, 8], [9, 16], [17, 23], [24, 27], [28, 35], [36, 39], [40, 45], [46, 48], [49, 54], [55, 58], [59, 64], [65, 67], [68, 73], [74, 79], [80, 83], [84, 98], [99, 105], [106, 110], [111, 118], [119, 122], [123, 136], [137, 139], [140, 143], [144, 149], [150, 152], [153, 162], [163, 169], [170, 180], [181, 186], [187, 194], [194, 195]]
-    wn16_key: [[4, "go_to%2:38:00::"], [8, "serve%2:42:03::"], [19, "meet%2:39:00::"]]
-    wn30_key: [[4, "go_to%2:42:00::"], [8, "serve%2:42:03::"], [19, "meet%2:39:00::"]]
+    tokens: [[0, 3], [4, 7], [8, 11], [12, 17], [18, 24], [25, 33], [34, 41], [42, 48], [49, 52], [53, 60], [61, 64], [65, 70], [71, 73], [74, 79], [80, 83], [84, 89], [90, 92], [93, 98], [99, 104], [105, 108], [109, 123], [124, 130], [131, 135], [136, 143], [144, 147], [148, 161], [162, 164], [165, 168], [169, 174], [175, 177], [178, 187], [188, 194], [195, 205], [206, 211], [212, 219], [219, 220]]
+    wn16_key: [[9, "go_to%2:38:00::"], [13, "serve%2:42:03::"], [24, "meet%2:39:00::"]]
+    wn30_key: [[9, "go_to%2:42:00::"], [13, "serve%2:42:03::"], [24, "meet%2:39:00::"]]
 5aEq:
     lemmas: ["In", "18", "month", ",", "no_more", "grisly", "incident", "have", "be", "report", "from", "that", "jungle", "."]
     oewn_key: [[9, "oewn-00968841-v"]]
@@ -611,18 +609,16 @@ tygb:
     wn16_key: [[4, "march%2:38:00::"]]
     wn30_key: [[4, "march%2:38:00::"]]
 sdum:
-    lemmas: ["A", "recent", "editorial", "discuss", "a", "labor-management", "agreement", "reach", "between", "the", "Southern_Pacific_Co.", "and", "the", "order", "of", "railroad", "telegrapher", "have", "be", "criticize", "on", "the", "grounds", "that", "it", "be", "not", "base", "on", "complete", "information", "."]
-    oewn_key: [[3, "oewn-01036184-v"], [7, "oewn-02531751-v"], [19, "oewn-00828170-v"], [27, "oewn-00638550-v"]]
+    lemmas: ["#featherbed", "reversal#", "A", "recent", "editorial", "discuss", "a", "labor-management", "agreement", "reach", "between", "the", "Southern_Pacific_Co.", "and", "the", "order", "of", "railroad", "telegrapher", "have", "be", "criticize", "on", "the", "grounds", "that", "it", "be", "not", "base", "on", "complete", "information", "."]
+    oewn_key: [[5, "oewn-01036184-v"], [9, "oewn-02531751-v"], [21, "oewn-00828170-v"], [29, "oewn-00638550-v"]]
     paragraph: '20'
-    pos: ["DT", "JJ", "NN", "VBG", "DT", "JJ", "NN", "VBN", "IN", "DT", "NNP", "CC", "DT", "NNP", "IN", "NNP", "NNS", "VBZ", "VBN", "VBN", "IN", "DT", "NNS", "IN", "PRP", "VBD", "RB", "VBN", "IN", "JJ", "NN", "."]
-    text: 'A recent editorial discussing a labor-management agreement reached between the Southern_Pacific_Co.
-  and the Order of Railroad Telegraphers has been criticized on the grounds that it
-  was not based on complete information.
+    pos: ["NNP", "NNP", "DT", "JJ", "NN", "VBG", "DT", "JJ", "NN", "VBN", "IN", "DT", "NNP", "CC", "DT", "NNP", "IN", "NNP", "NNS", "VBZ", "VBN", "VBN", "IN", "DT", "NNS", "IN", "PRP", "VBD", "RB", "VBN", "IN", "JJ", "NN", "."]
+    text: '#FEATHERBED REVERSAL# A recent editorial discussing a labor-management agreement reached between the Southern_Pacific_Co. and the Order of Railroad Telegraphers has been criticized on the grounds that it was not based on complete information.
 
   '
-    tokens: [[0, 1], [2, 8], [9, 18], [19, 29], [30, 31], [32, 48], [49, 58], [59, 66], [67, 74], [75, 78], [79, 99], [100, 103], [104, 107], [108, 113], [114, 116], [117, 125], [126, 138], [139, 142], [143, 147], [148, 158], [159, 161], [162, 165], [166, 173], [174, 178], [179, 181], [182, 185], [186, 189], [190, 195], [196, 198], [199, 207], [208, 219], [219, 220]]
-    wn16_key: [[3, "discuss%2:32:01::"], [7, "reach%2:41:00::"], [19, "criticize%2:32:00::"], [27, "base%2:31:00::"]]
-    wn30_key: [[3, "discuss%2:32:01::"], [7, "reach%2:41:00::"], [19, "criticize%2:32:00::"], [27, "base%2:31:00::"]]
+    tokens: [[0, 11], [12, 21], [22, 23], [24, 30], [31, 40], [41, 51], [52, 53], [54, 70], [71, 80], [81, 88], [89, 96], [97, 100], [101, 121], [122, 125], [126, 129], [130, 135], [136, 138], [139, 147], [148, 160], [161, 164], [165, 169], [170, 180], [181, 183], [184, 187], [188, 195], [196, 200], [201, 203], [204, 207], [208, 211], [212, 217], [218, 220], [221, 229], [230, 241], [241, 242]]
+    wn16_key: [[5, "discuss%2:32:01::"], [9, "reach%2:41:00::"], [21, "criticize%2:32:00::"], [29, "base%2:31:00::"]]
+    wn30_key: [[5, "discuss%2:32:01::"], [9, "reach%2:41:00::"], [21, "criticize%2:32:00::"], [29, "base%2:31:00::"]]
 8p0A:
     lemmas: ["The", "editorial", "be", "base", "on", "a", "news", "association", "dispatch", "which", "say", "that", "the", "telegrapher", "have", "secure", "an", "agreement", "whereby", "they", "be", "guarantee", "40", "hours", "'", "pay", "per", "week", "whether", "they", "work", "or", "not", "and", "that", "a", "reduction", "in", "their", "number", "be", "limit", "to", "2", "per_cent", "per_year", "."]
     oewn_key: [[3, "oewn-00638550-v"], [10, "oewn-01011267-v"], [15, "oewn-02243552-v"], [21, "oewn-00891621-v"], [30, "oewn-02418610-v"], [41, "oewn-00234091-v"]]
@@ -701,15 +697,14 @@ F3Xg:
     wn16_key: [[2, "reach%2:41:00::"], [6, "be%2:42:03::"], [15, "include%2:31:00::"]]
     wn30_key: [[2, "reach%2:41:00::"], [6, "be%2:42:03::"], [15, "include%2:31:00::"]]
 gh5Y:
-    lemmas: ["time", "be", "when", "the", "house", "of", "delegate", "of", "the", "american_bar", "association", "lean", "to", "the", "common_sense", "side", "."]
-    oewn_key: [[1, "oewn-02609706-v"], [11, "oewn-02725274-v"]]
+    lemmas: ["#meditations", "from", "a", "fallout", "shelter#", "time", "be", "when", "the", "house", "of", "delegate", "of", "the", "american_bar", "association", "lean", "to", "the", "common_sense", "side", "."]
+    oewn_key: [[6, "oewn-02609706-v"], [16, "oewn-02725274-v"]]
     paragraph: '24'
-    pos: ["NNP", "VBD", "WRB", "DT", "NN", "IN", "NNS", "IN", "DT", "NNP", "NN", "VBD", "TO", "DT", "NN", "NN", "."]
-    text: 'Time was when the house of delegates of the American_Bar association leaned to the
-  common_sense side.'
-    tokens: [[0, 4], [5, 8], [9, 13], [14, 17], [18, 23], [24, 26], [27, 36], [37, 39], [40, 43], [44, 56], [57, 68], [69, 75], [76, 78], [79, 82], [83, 95], [96, 100], [100, 101]]
-    wn16_key: [[1, "be%2:42:00::"], [11, "lean%2:42:01::"]]
-    wn30_key: [[1, "be%2:42:00::"], [11, "lean%2:42:01::"]]
+    pos: ["VBP", "IN", "NNP", "NNP", "NNP", "NNP", "VBD", "WRB", "DT", "NN", "IN", "NNS", "IN", "DT", "NNP", "NN", "VBD", "TO", "DT", "NN", "NN", "."]
+    text: '#MEDITATIONS FROM A FALLOUT SHELTER# Time was when the house of delegates of the American_Bar association leaned to the common_sense side.'
+    tokens: [[0, 12], [13, 17], [18, 19], [20, 27], [28, 36], [37, 41], [42, 45], [46, 50], [51, 54], [55, 60], [61, 63], [64, 73], [74, 76], [77, 80], [81, 93], [94, 105], [106, 112], [113, 115], [116, 119], [120, 132], [133, 137], [137, 138]]
+    wn16_key: [[6, "be%2:42:00::"], [16, "lean%2:42:01::"]]
+    wn30_key: [[6, "be%2:42:00::"], [16, "lean%2:42:01::"]]
 QJ1d:
     lemmas: ["But", "the", "internationalist", "have", "take_over", "the", "governing", "body", "of", "the", "bar", ",", "and", "when", "the", "lad", "meet", "in", "st._louis", ",", "it", "be", "not", "to", "grumble", "about", "the", "humidity", "but", "to", "vote", "unanimously", "that", "the", "united_nations", "be", "scarcely", "less_than", "wonderful", ",", "despite", "an", "imperfection", "here_and_there", "."]
     oewn_key: [[4, "oewn-02279327-v"], [16, "oewn-02492581-v"], [24, "oewn-00911526-v"], [30, "oewn-02466737-v"], [35, "oewn-02610777-v"]]
@@ -894,18 +889,16 @@ Mt9f:
     wn16_key: [[0, "pass%2:40:00::"], [8, "light%2:34:00::"], [15, "get%2:30:00::"], [21, "be%2:42:03::"], [24, "read%2:31:00::"], [31, "pass%2:42:00::"]]
     wn30_key: [[0, "pass%2:40:00::"], [8, "light%2:34:00::"], [15, "get%2:30:00::"], [21, "be%2:42:03::"], [24, "read%2:31:00::"], [31, "pass%2:42:00::"]]
 nKJk:
-    lemmas: ["The", "board", "of", "suspension", "of", "the", "interstate_commerce", "commission", "have", "order", "a", "group", "of", "railroad", "not", "to", "reduce", "their", "freight_rate", "on", "grain", ",", "as", "they", "have", "plan", "to", "do", "this", "month", "."]
-    oewn_key: [[9, "oewn-00748704-v"], [16, "oewn-00430013-v"], [25, "oewn-00706993-v"]]
+    lemmas: ["#the", "customer", "loses", "again#", "The", "board", "of", "suspension", "of", "the", "interstate_commerce", "commission", "have", "order", "a", "group", "of", "railroad", "not", "to", "reduce", "their", "freight_rate", "on", "grain", ",", "as", "they", "have", "plan", "to", "do", "this", "month", "."]
+    oewn_key: [[13, "oewn-00748704-v"], [20, "oewn-00430013-v"], [29, "oewn-00706993-v"]]
     paragraph: '35'
-    pos: ["DT", "NN", "IN", "NN", "IN", "DT", "NNP", "NN", "VBZ", "VBN", "DT", "NN", "IN", "NNS", "RB", "TO", "VB", "PRP$", "NN", "IN", "NN", ",", "IN", "PRP", "VBD", "VBN", "TO", "VB", "DT", "NN", "."]
-    text: 'The board of suspension of the Interstate_Commerce commission has ordered a group
-  of railroads not to reduce their freight_rates on grain, as they had planned to
-  do this month.
+    pos: ["JJ", "NNP", "NNP", "NNP", "DT", "NN", "IN", "NN", "IN", "DT", "NNP", "NN", "VBZ", "VBN", "DT", "NN", "IN", "NNS", "RB", "TO", "VB", "PRP$", "NN", "IN", "NN", ",", "IN", "PRP", "VBD", "VBN", "TO", "VB", "DT", "NN", "."]
+    text: '#THE CUSTOMER LOSES AGAIN# The board of suspension of the Interstate_Commerce commission has ordered a group of railroads not to reduce their freight_rates on grain, as they had planned to do this month.
 
   '
-    tokens: [[0, 3], [4, 9], [10, 12], [13, 23], [24, 26], [27, 30], [31, 50], [51, 61], [62, 65], [66, 73], [74, 75], [76, 81], [82, 84], [85, 94], [95, 98], [99, 101], [102, 108], [109, 114], [115, 128], [129, 131], [132, 137], [137, 138], [139, 141], [142, 146], [147, 150], [151, 158], [159, 161], [162, 164], [165, 169], [170, 175], [175, 176]]
-    wn16_key: [[9, "order%2:32:01::"], [16, "reduce%2:30:00::"], [25, "plan%2:31:01::"]]
-    wn30_key: [[9, "order%2:32:01::"], [16, "reduce%2:30:00::"], [25, "plan%2:31:01::"]]
+    tokens: [[0, 4], [5, 13], [14, 19], [20, 26], [27, 30], [31, 36], [37, 39], [40, 50], [51, 53], [54, 57], [58, 77], [78, 88], [89, 92], [93, 100], [101, 102], [103, 108], [109, 111], [112, 121], [122, 125], [126, 128], [129, 135], [136, 141], [142, 155], [156, 158], [159, 164], [164, 165], [166, 168], [169, 173], [174, 177], [178, 185], [186, 188], [189, 191], [192, 196], [197, 202], [202, 203]]
+    wn16_key: [[13, "order%2:32:01::"], [20, "reduce%2:30:00::"], [29, "plan%2:31:01::"]]
+    wn30_key: [[13, "order%2:32:01::"], [20, "reduce%2:30:00::"], [29, "plan%2:31:01::"]]
 WTgz:
     lemmas: ["The", "request", "for", "low", "rates", "originate", "with", "the", "Southern", "railway", ",", "which", "have", "spend", "a", "good_deal", "of", "time", "and", "money", "develop", "a", "100-ton", "hopper", "car", "with", "which", "it", "say", "it", "can", "move", "grain", "at", "about", "half", "what", "it", "cost", "in", "the", "conventional", ",", "smaller", "car", "."]
     oewn_key: [[5, "oewn-02630344-v"], [13, "oewn-02714280-v"], [20, "oewn-01742655-v"], [28, "oewn-01011267-v"], [31, "oewn-01854282-v"], [38, "oewn-02708368-v"]]

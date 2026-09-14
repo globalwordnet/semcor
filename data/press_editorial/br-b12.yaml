@@ -367,17 +367,16 @@ EZd9:
     wn16_key: [[1, "enlist%2:40:00::"], [11, "be%2:42:03::"], [14, "trace%2:38:00::"], [24, "be%2:42:03::"]]
     wn30_key: [[1, "enlist%2:40:00::"], [11, "be%2:42:03::"], [14, "trace%2:38:00::"], [24, "be%2:42:03::"]]
 Ppxy:
-    lemmas: ["A", "top", "official", "of", "the", "New_Frontier", "who", "keep", "a", "record", "of", "his", "first", "week", "on_the_job", "here", "give", "this", "report", "of", "his", "experience", ":"]
-    oewn_key: [[7, "oewn-00734575-v"], [16, "oewn-02344167-v"]]
+    lemmas: ["#on", "the", "job#", "A", "top", "official", "of", "the", "New_Frontier", "who", "keep", "a", "record", "of", "his", "first", "week", "on_the_job", "here", "give", "this", "report", "of", "his", "experience", ":"]
+    oewn_key: [[10, "oewn-00734575-v"], [19, "oewn-02344167-v"]]
     paragraph: '19'
-    pos: ["DT", "JJ", "NN", "IN", "DT", "NNP", "WP", "VBD", "DT", "NN", "IN", "PRP$", "JJ", "NNS", "JJ", "RB", "VBZ", "DT", "NN", "IN", "PRP$", "NNS", ":"]
-    text: 'A top official of the New_Frontier who kept a record of his first weeks on_the_job
-  here gives this report of his experiences:
+    pos: ["IN", "NNP", "NNP", "DT", "JJ", "NN", "IN", "DT", "NNP", "WP", "VBD", "DT", "NN", "IN", "PRP$", "JJ", "NNS", "JJ", "RB", "VBZ", "DT", "NN", "IN", "PRP$", "NNS", ":"]
+    text: '#ON THE JOB# A top official of the New_Frontier who kept a record of his first weeks on_the_job here gives this report of his experiences:
 
   '
-    tokens: [[0, 1], [2, 5], [6, 14], [15, 17], [18, 21], [22, 34], [35, 38], [39, 43], [44, 45], [46, 52], [53, 55], [56, 59], [60, 65], [66, 71], [72, 82], [83, 87], [88, 93], [94, 98], [99, 105], [106, 108], [109, 112], [113, 124], [124, 125]]
-    wn16_key: [[7, "keep%2:31:00::"], [16, "give%2:40:05::"]]
-    wn30_key: [[7, "keep%2:31:00::"], [16, "give%2:40:05::"]]
+    tokens: [[0, 3], [4, 7], [8, 12], [13, 14], [15, 18], [19, 27], [28, 30], [31, 34], [35, 47], [48, 51], [52, 56], [57, 58], [59, 65], [66, 68], [69, 72], [73, 78], [79, 84], [85, 95], [96, 100], [101, 106], [107, 111], [112, 118], [119, 121], [122, 125], [126, 137], [137, 138]]
+    wn16_key: [[10, "keep%2:31:00::"], [19, "give%2:40:05::"]]
+    wn30_key: [[10, "keep%2:31:00::"], [19, "give%2:40:05::"]]
 pfva:
     lemmas: ["In", "his", "first", "six", "week", "in", "office", "he", "preside", "over", "96", "conference", ",", "attend", "35", "official", "breakfast", "and", "dinner", ",", "study", "and", "sign", "285", "official", "papers", "and", "personally", "take", "312", "telephone_call", "."]
     oewn_key: [[8, "oewn-02448474-v"], [13, "oewn-02618797-v"], [20, "oewn-00646245-v"], [22, "oewn-00998530-v"]]
@@ -447,14 +446,14 @@ X/E7:
     wn16_key: [[2, "have%2:42:00::"], [11, "lack%2:42:00::"]]
     wn30_key: [[2, "have%2:42:00::"], [11, "lack%2:42:00::"]]
 Bur0:
-    lemmas: ["Among", "the", "many", "story", "about", "the", "late", "speaker_rayburn", "be", "one", "from", "Rep._Dwyer", ",", "R-6th", "Dist.", "."]
-    oewn_key: [[8, "oewn-02610777-v"]]
+    lemmas: ["#kind", "mr.", "sam#", "Among", "the", "many", "story", "about", "the", "late", "speaker_rayburn", "be", "one", "from", "Rep._Dwyer", ",", "R-6th", "Dist.", "."]
+    oewn_key: [[11, "oewn-02610777-v"]]
     paragraph: '25'
-    pos: ["IN", "DT", "JJ", "NNS", "IN", "DT", "JJ", "NNP", "VBZ", "CD", "IN", "NNP", ",", "NNP", "NN", "."]
-    text: 'Among the many stories about the late Speaker_Rayburn is one from Rep._Dwyer, R-6th Dist..'
-    tokens: [[0, 5], [6, 9], [10, 14], [15, 22], [23, 28], [29, 32], [33, 37], [38, 53], [54, 56], [57, 60], [61, 65], [66, 76], [76, 77], [78, 83], [84, 89], [89, 90]]
-    wn16_key: [[8, "be%2:42:03::"]]
-    wn30_key: [[8, "be%2:42:03::"]]
+    pos: ["NNP", "NNP", "NNP", "IN", "DT", "JJ", "NNS", "IN", "DT", "JJ", "NNP", "VBZ", "CD", "IN", "NNP", ",", "NNP", "NN", "."]
+    text: '#KIND MR. SAM# Among the many stories about the late Speaker_Rayburn is one from Rep._Dwyer, R-6th Dist..'
+    tokens: [[0, 5], [6, 9], [10, 14], [15, 20], [21, 24], [25, 29], [30, 37], [38, 43], [44, 47], [48, 52], [53, 68], [69, 71], [72, 75], [76, 80], [81, 91], [91, 92], [93, 98], [99, 104], [104, 105]]
+    wn16_key: [[11, "be%2:42:03::"]]
+    wn30_key: [[11, "be%2:42:03::"]]
 wq4T:
     lemmas: ["mrs._dwyer", "'s", "husband", ",", "M._Joseph_Dwyer", ",", "be", "take", "a", "10-year-old", "boy", "from", "union_county", "on", "the", "tour", "of", "the", "capitol", "during", "the", "final", "week", "of", "the", "last", "session", "."]
     oewn_key: [[7, "oewn-02003830-v"]]
@@ -566,16 +565,16 @@ jROX:
     wn16_key: [[0, "undertake%2:36:00::"], [20, "result%2:42:02::"]]
     wn30_key: [[0, "undertake%2:36:00::"], [20, "result%2:42:02::"]]
 6aHG:
-    lemmas: ["The", "new_english_bible", "(", "the", "old_testament", "and", "apocrypha", "will", "be", "publish", "at", "a", "future", "date", ")", "have", "not", "be", "plan", "to", "rival", "or", "replace", "the", "king_james_version", ",", "but", ",", "as", "its", "cover", "state", ",", "it", "be", "offer", "\"", "simply", "as", "the", "bible", "to", "all", "those", "who", "will", "use", "it", "in", "reading", ",", "teaching", ",", "or", "worship", "\"", "."]
-    oewn_key: [[9, "oewn-01749530-v"], [18, "oewn-00706993-v"], [20, "oewn-02677976-v"], [22, "oewn-02410532-v"], [35, "oewn-02332196-v"], [46, "oewn-01161188-v"]]
+    lemmas: ["#not", "rival#", "The", "new_english_bible", "(", "the", "old_testament", "and", "apocrypha", "will", "be", "publish", "at", "a", "future", "date", ")", "have", "not", "be", "plan", "to", "rival", "or", "replace", "the", "king_james_version", ",", "but", ",", "as", "its", "cover", "state", ",", "it", "be", "offer", "\"", "simply", "as", "the", "bible", "to", "all", "those", "who", "will", "use", "it", "in", "reading", ",", "teaching", ",", "or", "worship", "\"", "."]
+    oewn_key: [[11, "oewn-01749530-v"], [20, "oewn-00706993-v"], [22, "oewn-02677976-v"], [24, "oewn-02410532-v"], [37, "oewn-02332196-v"], [48, "oewn-01161188-v"]]
     paragraph: '31'
-    pos: ["DT", "NN", "FW", "DT", "NN", "CC", "NNPS", "MD", "VB", "VBN", "IN", "DT", "NN", "NN", "NN", "VBZ", "RB", "VBN", "VBN", "TO", "VB", "CC", "VB", "DT", "NN", ",", "CC", ",", "IN", "PRP$", "NN", "NNS", ",", "PRP", "VBZ", "VBN", "``", "RB", "IN", "DT", "NNP", "TO", "DT", "DT", "WP", "MD", "VB", "PRP", "IN", "NN", ",", "NN", ",", "CC", "NN", "''", "."]
-    text: 'The New_English_Bible (the Old_Testament and Apocrypha will be published at a future date) has not been planned to rival or replace the King_James_Version, but, as its cover states, it is offered "simply as the Bible to all those who will use it in reading, teaching, or worship".
+    pos: ["NNP", "NNP", "DT", "NN", "FW", "DT", "NN", "CC", "NNPS", "MD", "VB", "VBN", "IN", "DT", "NN", "NN", "NN", "VBZ", "RB", "VBN", "VBN", "TO", "VB", "CC", "VB", "DT", "NN", ",", "CC", ",", "IN", "PRP$", "NN", "NNS", ",", "PRP", "VBZ", "VBN", "``", "RB", "IN", "DT", "NNP", "TO", "DT", "DT", "WP", "MD", "VB", "PRP", "IN", "NN", ",", "NN", ",", "CC", "NN", "''", "."]
+    text: '#NOT RIVAL# The New_English_Bible (the Old_Testament and Apocrypha will be published at a future date) has not been planned to rival or replace the King_James_Version, but, as its cover states, it is offered "simply as the Bible to all those who will use it in reading, teaching, or worship".
 
   '
-    tokens: [[0, 3], [4, 21], [22, 23], [23, 26], [27, 40], [41, 44], [45, 54], [55, 59], [60, 62], [63, 72], [73, 75], [76, 77], [78, 84], [85, 89], [89, 90], [91, 94], [95, 98], [99, 103], [104, 111], [112, 114], [115, 120], [121, 123], [124, 131], [132, 135], [136, 154], [154, 155], [156, 159], [159, 160], [161, 163], [164, 167], [168, 173], [174, 180], [180, 181], [182, 184], [185, 187], [188, 195], [196, 197], [197, 203], [204, 206], [207, 210], [211, 216], [217, 219], [220, 223], [224, 229], [230, 233], [234, 238], [239, 242], [243, 245], [246, 248], [249, 256], [256, 257], [258, 266], [266, 267], [268, 270], [271, 278], [278, 279], [279, 280]]
-    wn16_key: [[9, "publish%2:36:01::"], [18, "plan%2:31:01::"], [20, "rival%2:42:00::"], [22, "replace%2:41:00::"], [35, "offer%2:40:02::"], [46, "use%2:34:01::"]]
-    wn30_key: [[9, "publish%2:36:01::"], [18, "plan%2:31:01::"], [20, "rival%2:42:00::"], [22, "replace%2:41:00::"], [35, "offer%2:40:02::"], [46, "use%2:34:01::"]]
+    tokens: [[0, 4], [5, 11], [12, 15], [16, 33], [34, 35], [35, 38], [39, 52], [53, 56], [57, 66], [67, 71], [72, 74], [75, 84], [85, 87], [88, 89], [90, 96], [97, 101], [101, 102], [103, 106], [107, 110], [111, 115], [116, 123], [124, 126], [127, 132], [133, 135], [136, 143], [144, 147], [148, 166], [166, 167], [168, 171], [171, 172], [173, 175], [176, 179], [180, 185], [186, 192], [192, 193], [194, 196], [197, 199], [200, 207], [208, 209], [209, 215], [216, 218], [219, 222], [223, 228], [229, 231], [232, 235], [236, 241], [242, 245], [246, 250], [251, 254], [255, 257], [258, 260], [261, 268], [268, 269], [270, 278], [278, 279], [280, 282], [283, 290], [290, 291], [291, 292]]
+    wn16_key: [[11, "publish%2:36:01::"], [20, "plan%2:31:01::"], [22, "rival%2:42:00::"], [24, "replace%2:41:00::"], [37, "offer%2:40:02::"], [48, "use%2:34:01::"]]
+    wn30_key: [[11, "publish%2:36:01::"], [20, "plan%2:31:01::"], [22, "rival%2:42:00::"], [24, "replace%2:41:00::"], [37, "offer%2:40:02::"], [48, "use%2:34:01::"]]
 5Wup:
     lemmas: ["time", ",", "of_course", "will", "testify", "whether", "the", "new", "version", "will", "have", "achieve", "its", "purpose", "."]
     oewn_key: [[4, "oewn-01016830-v"], [11, "oewn-02531751-v"]]
@@ -696,14 +695,14 @@ hnLf:
     wn16_key: [[7, "baptize%2:32:00::"], [8, "go_up%2:38:00::"], [21, "open%2:35:06::"], [27, "see%2:39:00::"], [32, "descend%2:38:00::"], [38, "light%2:38:00::"]]
     wn30_key: [[7, "baptize%2:32:00::"], [8, "go_up%2:38:00::"], [21, "open%2:35:06::"], [27, "see%2:39:00::"], [32, "descend%2:38:00::"], [38, "light%2:38:00::"]]
 H48i:
-    lemmas: ["certainly", ",", "the", "meaning", "be", "clear", "to", "one", "who", "be", "not", "familiar_with", "biblical", "teaching", ",", "in", "the", "new_english_bible", "which", "read", ":", "\"", "then", "jesus", "arrive_at", "jordan", "from", "galilee", ",", "and", "he", "come", "to", "john", "to", "be", "baptize", "by", "him", "."]
-    oewn_key: [[4, "oewn-02610777-v"], [9, "oewn-02610777-v"], [19, "oewn-02736688-v"], [24, "oewn-02024442-v"], [31, "oewn-01853188-v"], [36, "oewn-01030088-v"]]
+    lemmas: ["#clearer", "meaning#", "certainly", ",", "the", "meaning", "be", "clear", "to", "one", "who", "be", "not", "familiar_with", "biblical", "teaching", ",", "in", "the", "new_english_bible", "which", "read", ":", "\"", "then", "jesus", "arrive_at", "jordan", "from", "galilee", ",", "and", "he", "come", "to", "john", "to", "be", "baptize", "by", "him", "."]
+    oewn_key: [[6, "oewn-02610777-v"], [11, "oewn-02610777-v"], [21, "oewn-02736688-v"], [26, "oewn-02024442-v"], [33, "oewn-01853188-v"], [38, "oewn-01030088-v"]]
     paragraph: '40'
-    pos: ["RB", ",", "DT", "NN", "VBZ", "JJR", "TO", "CD", "WP", "VBZ", "RB", "JJ", "JJ", "NNS", ",", "IN", "DT", "NN", "WDT", "VBZ", ":", "``", "RB", "NNP", "VB", "NNP", "IN", "NNP", ",", "CC", "PRP", "VBD", "VB", "NNP", "TO", "VB", "VBN", "IN", "PRP", "."]
-    text: 'Certainly, the meaning is clearer to one who is not familiar_with Biblical teachings, in the New_English_Bible which reads: "Then Jesus arrived_at Jordan from Galilee, and he came to John to be baptized by him.'
-    tokens: [[0, 9], [9, 10], [11, 14], [15, 22], [23, 25], [26, 33], [34, 36], [37, 40], [41, 44], [45, 47], [48, 51], [52, 65], [66, 74], [75, 84], [84, 85], [86, 88], [89, 92], [93, 110], [111, 116], [117, 122], [122, 123], [124, 125], [125, 129], [130, 135], [136, 146], [147, 153], [154, 158], [159, 166], [166, 167], [168, 171], [172, 174], [175, 179], [180, 182], [183, 187], [188, 190], [191, 193], [194, 202], [203, 205], [206, 209], [209, 210]]
-    wn16_key: [[4, "be%2:42:03::"], [9, "be%2:42:03::"], [19, "read%2:42:00::"], [24, "arrive_at%2:38:00::"], [31, "come%2:38:00::"], [36, "baptize%2:32:00::"]]
-    wn30_key: [[4, "be%2:42:03::"], [9, "be%2:42:03::"], [19, "read%2:42:00::"], [24, "arrive_at%2:38:00::"], [31, "come%2:38:00::"], [36, "baptize%2:32:00::"]]
+    pos: ["NNP", "NNP", "RB", ",", "DT", "NN", "VBZ", "JJR", "TO", "CD", "WP", "VBZ", "RB", "JJ", "JJ", "NNS", ",", "IN", "DT", "NN", "WDT", "VBZ", ":", "``", "RB", "NNP", "VB", "NNP", "IN", "NNP", ",", "CC", "PRP", "VBD", "VB", "NNP", "TO", "VB", "VBN", "IN", "PRP", "."]
+    text: '#CLEARER MEANING# Certainly, the meaning is clearer to one who is not familiar_with Biblical teachings, in the New_English_Bible which reads: "Then Jesus arrived_at Jordan from Galilee, and he came to John to be baptized by him.'
+    tokens: [[0, 8], [9, 17], [18, 27], [27, 28], [29, 32], [33, 40], [41, 43], [44, 51], [52, 54], [55, 58], [59, 62], [63, 65], [66, 69], [70, 83], [84, 92], [93, 102], [102, 103], [104, 106], [107, 110], [111, 128], [129, 134], [135, 140], [140, 141], [142, 143], [143, 147], [148, 153], [154, 164], [165, 171], [172, 176], [177, 184], [184, 185], [186, 189], [190, 192], [193, 197], [198, 200], [201, 205], [206, 208], [209, 211], [212, 220], [221, 223], [224, 227], [227, 228]]
+    wn16_key: [[6, "be%2:42:03::"], [11, "be%2:42:03::"], [21, "read%2:42:00::"], [26, "arrive_at%2:38:00::"], [33, "come%2:38:00::"], [38, "baptize%2:32:00::"]]
+    wn30_key: [[6, "be%2:42:03::"], [11, "be%2:42:03::"], [21, "read%2:42:00::"], [26, "arrive_at%2:38:00::"], [33, "come%2:38:00::"], [38, "baptize%2:32:00::"]]
 I5OC:
     lemmas: ["john", "try", "to", "dissuade", "him", "."]
     oewn_key: [[1, "oewn-02535833-v"], [3, "oewn-00772186-v"]]
@@ -856,16 +855,16 @@ A9ct:
     wn16_key: [[1, "be%2:42:03::"]]
     wn30_key: [[1, "be%2:42:03::"]]
 A6m2:
-    lemmas: ["for_the_most_part", ",", "however", ",", "the", "new", "version", "be", "contemporary", "and", ",", "as", "such", ",", "should", "be", "the", "means", "for", "many", "to", "attain", "a", "clear", "comprehension", "of", "the", "meaning", "of", "those", "words", "record", "so", "many", "hundred", "of", "years", "ago", "by", "the", "first", "followers", "of", "christ", "."]
-    oewn_key: [[7, "oewn-02610777-v"], [15, "oewn-02622439-v"], [21, "oewn-02010848-v"], [31, "oewn-01002259-v"]]
+    lemmas: ["#mostly", "contemporary#", "for_the_most_part", ",", "however", ",", "the", "new", "version", "be", "contemporary", "and", ",", "as", "such", ",", "should", "be", "the", "means", "for", "many", "to", "attain", "a", "clear", "comprehension", "of", "the", "meaning", "of", "those", "words", "record", "so", "many", "hundred", "of", "years", "ago", "by", "the", "first", "followers", "of", "christ", "."]
+    oewn_key: [[9, "oewn-02610777-v"], [17, "oewn-02622439-v"], [23, "oewn-02010848-v"], [33, "oewn-01002259-v"]]
     paragraph: '46'
-    pos: ["RB", ",", "RB", ",", "DT", "JJ", "NN", "VBZ", "JJ", "CC", ",", "IN", "JJ", ",", "MD", "VB", "DT", "NN", "IN", "JJ", "TO", "VB", "DT", "JJR", "NN", "IN", "DT", "NN", "IN", "DT", "NNS", "VBD", "RB", "JJ", "NNS", "IN", "NNS", "RB", "IN", "DT", "JJ", "NNS", "IN", "NNP", "."]
-    text: 'For_the_most_part, however, the new version is contemporary and, as such, should be the means for many to attain a clearer comprehension of the meaning of those words recorded so many hundreds of years ago by the first followers of Christ.
+    pos: ["NNP", "NNP", "RB", ",", "RB", ",", "DT", "JJ", "NN", "VBZ", "JJ", "CC", ",", "IN", "JJ", ",", "MD", "VB", "DT", "NN", "IN", "JJ", "TO", "VB", "DT", "JJR", "NN", "IN", "DT", "NN", "IN", "DT", "NNS", "VBD", "RB", "JJ", "NNS", "IN", "NNS", "RB", "IN", "DT", "JJ", "NNS", "IN", "NNP", "."]
+    text: '#MOSTLY CONTEMPORARY# For_the_most_part, however, the new version is contemporary and, as such, should be the means for many to attain a clearer comprehension of the meaning of those words recorded so many hundreds of years ago by the first followers of Christ.
 
   '
-    tokens: [[0, 17], [17, 18], [19, 26], [26, 27], [28, 31], [32, 35], [36, 43], [44, 46], [47, 59], [60, 63], [63, 64], [65, 67], [68, 72], [72, 73], [74, 80], [81, 83], [84, 87], [88, 93], [94, 97], [98, 102], [103, 105], [106, 112], [113, 114], [115, 122], [123, 136], [137, 139], [140, 143], [144, 151], [152, 154], [155, 160], [161, 166], [167, 175], [176, 178], [179, 183], [184, 192], [193, 195], [196, 201], [202, 205], [206, 208], [209, 212], [213, 218], [219, 228], [229, 231], [232, 238], [238, 239]]
-    wn16_key: [[7, "be%2:42:03::"], [15, "be%2:42:06::"], [21, "attain%2:38:00::"], [31, "record%2:32:00::"]]
-    wn30_key: [[7, "be%2:42:03::"], [15, "be%2:42:06::"], [21, "attain%2:38:00::"], [31, "record%2:32:00::"]]
+    tokens: [[0, 7], [8, 21], [22, 39], [39, 40], [41, 48], [48, 49], [50, 53], [54, 57], [58, 65], [66, 68], [69, 81], [82, 85], [85, 86], [87, 89], [90, 94], [94, 95], [96, 102], [103, 105], [106, 109], [110, 115], [116, 119], [120, 124], [125, 127], [128, 134], [135, 136], [137, 144], [145, 158], [159, 161], [162, 165], [166, 173], [174, 176], [177, 182], [183, 188], [189, 197], [198, 200], [201, 205], [206, 214], [215, 217], [218, 223], [224, 227], [228, 230], [231, 234], [235, 240], [241, 250], [251, 253], [254, 260], [260, 261]]
+    wn16_key: [[9, "be%2:42:03::"], [17, "be%2:42:06::"], [23, "attain%2:38:00::"], [33, "record%2:32:00::"]]
+    wn30_key: [[9, "be%2:42:03::"], [17, "be%2:42:06::"], [23, "attain%2:38:00::"], [33, "record%2:32:00::"]]
 zPP7:
     lemmas: ["originally", "record", "by_hand", ",", "these", "words", "have", "be", "copy", "and", "recopy", ",", "translate", "and", "retranslate", "through", "the", "age", "."]
     oewn_key: [[1, "oewn-01002259-v"], [8, "oewn-01751182-v"], [10, "oewn-01699038-v"], [12, "oewn-00961859-v"], [14, "oewn-00962401-v"]]

@@ -902,15 +902,14 @@ txq6:
     wn16_key: [[3, "go%2:38:01::"], [6, "stand%2:35:00::"], [10, "breathe_in%2:29:00::"], [27, "dispel%2:38:00::"]]
     wn30_key: [[3, "go%2:38:01::"], [6, "stand%2:35:00::"], [10, "breathe_in%2:29:00::"], [27, "dispel%2:38:00::"]]
 +B2Z:
-    lemmas: ["In", "a", "tour", "around", "the", "stacks", ",", "he", "find", "that", "the", "early", "volume", "begin", "on_the_left", "and", "progress", "clockwise", "around", "the", "room", "."]
-    oewn_key: [[8, "oewn-02158938-v"], [13, "oewn-02614382-v"], [16, "oewn-00249545-v"]]
+    lemmas: ["#chapter", "fourteen#", "In", "a", "tour", "around", "the", "stacks", ",", "he", "find", "that", "the", "early", "volume", "begin", "on_the_left", "and", "progress", "clockwise", "around", "the", "room", "."]
+    oewn_key: [[10, "oewn-02158938-v"], [15, "oewn-02614382-v"], [18, "oewn-00249545-v"]]
     paragraph: '34'
-    pos: ["IN", "DT", "NN", "IN", "DT", "NNS", ",", "PRP", "VBD", "IN", "DT", "JJS", "NNS", "VBD", "RB", "CC", "VBD", "RB", "IN", "DT", "NN", "."]
-    text: 'In a tour around the stacks, he found that the earliest volumes began on_the_left
-  and progressed clockwise around the room.'
-    tokens: [[0, 2], [3, 4], [5, 9], [10, 16], [17, 20], [21, 27], [27, 28], [29, 31], [32, 37], [38, 42], [43, 46], [47, 55], [56, 63], [64, 69], [70, 81], [82, 85], [86, 96], [97, 106], [107, 113], [114, 117], [118, 122], [122, 123]]
-    wn16_key: [[8, "find%2:39:02::"], [13, "begin%2:42:00::"], [16, "progress%2:30:00::"]]
-    wn30_key: [[8, "find%2:39:02::"], [13, "begin%2:42:00::"], [16, "progress%2:30:00::"]]
+    pos: ["NN", "NNP", "IN", "DT", "NN", "IN", "DT", "NNS", ",", "PRP", "VBD", "IN", "DT", "JJS", "NNS", "VBD", "RB", "CC", "VBD", "RB", "IN", "DT", "NN", "."]
+    text: '#CHAPTER FOURTEEN# In a tour around the stacks, he found that the earliest volumes began on_the_left and progressed clockwise around the room.'
+    tokens: [[0, 8], [9, 18], [19, 21], [22, 23], [24, 28], [29, 35], [36, 39], [40, 46], [46, 47], [48, 50], [51, 56], [57, 61], [62, 65], [66, 74], [75, 82], [83, 88], [89, 100], [101, 104], [105, 115], [116, 125], [126, 132], [133, 136], [137, 141], [141, 142]]
+    wn16_key: [[10, "find%2:39:02::"], [15, "begin%2:42:00::"], [18, "progress%2:30:00::"]]
+    wn30_key: [[10, "find%2:39:02::"], [15, "begin%2:42:00::"], [18, "progress%2:30:00::"]]
 Vq4f:
     lemmas: ["An", "old", "weakness", "for", "burrow", "in", "record", "rise_up", "to", "tempt", "him", "."]
     oewn_key: [[4, "oewn-02045912-v"], [7, "oewn-01994295-v"], [9, "oewn-00784574-v"]]

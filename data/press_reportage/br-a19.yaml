@@ -69,16 +69,16 @@ p6T9:
     wn16_key: [[5, "affect%2:42:00::"], [17, "operate%2:41:00::"]]
     wn30_key: [[5, "affect%2:42:00::"], [17, "operate%2:41:00::"]]
 +Z7d:
-    lemmas: ["It", "will", "be", "accomplish", "in_two_ways", ":"]
-    oewn_key: [[3, "oewn-01644397-v"]]
+    lemmas: ["#salary", "cut", "and", "lay-offs#", "It", "will", "be", "accomplish", "in_two_ways", ":"]
+    oewn_key: [[7, "oewn-01644397-v"]]
     paragraph: '3'
-    pos: ["PRP", "MD", "VB", "VB", "RB", ":"]
-    text: 'It will be accomplished in_two_ways:
+    pos: ["JJ", "NNP", "NNP", "NNP", "PRP", "MD", "VB", "VB", "RB", ":"]
+    text: '#SALARY CUT AND LAY-OFFS# It will be accomplished in_two_ways:
 
   '
-    tokens: [[0, 2], [3, 7], [8, 10], [11, 23], [24, 35], [35, 36]]
-    wn16_key: [[3, "accomplish%2:36:00::"]]
-    wn30_key: [[3, "accomplish%2:36:00::"]]
+    tokens: [[0, 7], [8, 11], [12, 15], [16, 25], [26, 28], [29, 33], [34, 36], [37, 49], [50, 61], [61, 62]]
+    wn16_key: [[7, "accomplish%2:36:00::"]]
+    wn30_key: [[7, "accomplish%2:36:00::"]]
 KdE6:
     lemmas: ["A", "flat", "reduction", "of", "10", "per_cent", "in", "the", "salary", "of", "all", "officer", ",", "supervisor", "and", "other", "employee", "not", "belong_to", "union", "."]
     oewn_key: [[18, "oewn-02725805-v"]]
@@ -262,14 +262,14 @@ xnYA:
     wn16_key: [[2, "be%2:42:03::"]]
     wn30_key: [[2, "be%2:42:03::"]]
 /bJA:
-    lemmas: ["The", "boy", "receive", "second-degree_burns", "of", "the", "face", ",", "neck", "and", "back", "."]
-    oewn_key: [[2, "oewn-02112480-v"]]
+    lemmas: ["#boy", "in", "fair", "condition#", "The", "boy", "receive", "second-degree_burns", "of", "the", "face", ",", "neck", "and", "back", "."]
+    oewn_key: [[6, "oewn-02112480-v"]]
     paragraph: '17'
-    pos: ["DT", "NN", "VBD", "NN", "IN", "DT", "NN", ",", "NN", "CC", "RB", "."]
-    text: 'The boy received second-degree_burns of the face, neck and back.'
-    tokens: [[0, 3], [4, 7], [8, 16], [17, 36], [37, 39], [40, 43], [44, 48], [48, 49], [50, 54], [55, 58], [59, 63], [63, 64]]
-    wn16_key: [[2, "receive%2:39:03::"]]
-    wn30_key: [[2, "receive%2:39:03::"]]
+    pos: ["NN", "NNP", "NNP", "NNP", "DT", "NN", "VBD", "NN", "IN", "DT", "NN", ",", "NN", "CC", "RB", "."]
+    text: '#BOY IN FAIR CONDITION# The boy received second-degree_burns of the face, neck and back.'
+    tokens: [[0, 4], [5, 7], [8, 12], [13, 23], [24, 27], [28, 31], [32, 40], [41, 60], [61, 63], [64, 67], [68, 72], [72, 73], [74, 78], [79, 82], [83, 87], [87, 88]]
+    wn16_key: [[6, "receive%2:39:03::"]]
+    wn30_key: [[6, "receive%2:39:03::"]]
 0dhq:
     lemmas: ["His", "condition", "be", "report", "to", "be", "fair", "."]
     oewn_key: [[3, "oewn-00968841-v"], [5, "oewn-02610777-v"]]
@@ -342,18 +342,16 @@ DIxb:
     wn16_key: [[2, "be%2:42:06::"], [7, "say%2:32:00::"], [15, "appear%2:30:01::"], [19, "present%2:32:02::"]]
     wn30_key: [[2, "be%2:42:06::"], [7, "say%2:32:00::"], [15, "appear%2:30:01::"], [19, "present%2:32:02::"]]
 u6up:
-    lemmas: ["mrs._williams", "have", "a", "list", "which", "she", "say", "contain", "about", "nine", "or", "ten", "discrepancy", "between", "her", "memory", "of", "dr._jenkin", "'s", "conversation", "and_how", "they", "be", "write", "up", "for", "the", "board", "'s", "approval", "."]
-    oewn_key: [[1, "oewn-02209474-v"], [6, "oewn-01018011-v"], [7, "oewn-02635616-v"], [23, "oewn-01702148-v"]]
+    lemmas: ["#cites", "discrepancies#", "mrs._williams", "have", "a", "list", "which", "she", "say", "contain", "about", "nine", "or", "ten", "discrepancy", "between", "her", "memory", "of", "dr._jenkin", "'s", "conversation", "and_how", "they", "be", "write", "up", "for", "the", "board", "'s", "approval", "."]
+    oewn_key: [[3, "oewn-02209474-v"], [8, "oewn-01018011-v"], [9, "oewn-02635616-v"], [25, "oewn-01702148-v"]]
     paragraph: '23'
-    pos: ["NNP", "VBD", "DT", "NN", "WDT", "PRP", "VBD", "VBN", "IN", "CD", "CC", "CD", "NNS", "IN", "PRP$", "NN", "IN", "NNP", "POS", "NN", "RB", "PRP", "VBD", "VBN", "IN", "IN", "DT", "NN", "POS", "NN", "."]
-    text: 'Mrs._Williams had a list which she said contained about nine or ten discrepancies
-  between her memory of Dr._Jenkins''s conversation and_how they were written up for
-  the board''s approval.
+    pos: ["NNS", "NNP", "NNP", "VBD", "DT", "NN", "WDT", "PRP", "VBD", "VBN", "IN", "CD", "CC", "CD", "NNS", "IN", "PRP$", "NN", "IN", "NNP", "POS", "NN", "RB", "PRP", "VBD", "VBN", "IN", "IN", "DT", "NN", "POS", "NN", "."]
+    text: '#CITES DISCREPANCIES# Mrs._Williams had a list which she said contained about nine or ten discrepancies between her memory of Dr._Jenkins''s conversation and_how they were written up for the board''s approval.
 
   '
-    tokens: [[0, 13], [14, 17], [18, 19], [20, 24], [25, 30], [31, 34], [35, 39], [40, 49], [50, 55], [56, 60], [61, 63], [64, 67], [68, 81], [82, 89], [90, 93], [94, 100], [101, 103], [104, 115], [115, 117], [118, 130], [131, 138], [139, 143], [144, 148], [149, 156], [157, 159], [160, 163], [164, 167], [168, 173], [173, 175], [176, 184], [184, 185]]
-    wn16_key: [[1, "have%2:40:04::"], [6, "say%2:32:01::"], [7, "contain%2:42:00::"], [23, "write%2:36:00::"]]
-    wn30_key: [[1, "have%2:40:04::"], [6, "say%2:32:01::"], [7, "contain%2:42:00::"], [23, "write%2:36:00::"]]
+    tokens: [[0, 6], [7, 21], [22, 35], [36, 39], [40, 41], [42, 46], [47, 52], [53, 56], [57, 61], [62, 71], [72, 77], [78, 82], [83, 85], [86, 89], [90, 103], [104, 111], [112, 115], [116, 122], [123, 125], [126, 137], [137, 139], [140, 152], [153, 160], [161, 165], [166, 170], [171, 178], [179, 181], [182, 185], [186, 189], [190, 195], [195, 197], [198, 206], [206, 207]]
+    wn16_key: [[3, "have%2:40:04::"], [8, "say%2:32:01::"], [9, "contain%2:42:00::"], [25, "write%2:36:00::"]]
+    wn30_key: [[3, "have%2:40:04::"], [8, "say%2:32:01::"], [9, "contain%2:42:00::"], [25, "write%2:36:00::"]]
 DiJs:
     lemmas: ["\"", "I", "hate", "to", "have", "these", "things", "come_up", "again_and_again", "\"", ",", "dr._jenkin", "comment", "as", "he", "make", "his", "suggestion", "."]
     oewn_key: [[2, "oewn-01778057-v"], [4, "oewn-02112480-v"], [7, "oewn-00340548-v"], [12, "oewn-01060446-v"], [15, "oewn-01649143-v"]]
@@ -491,17 +489,16 @@ KMHl:
     wn16_key: [[1, "say%2:32:01::"], [3, "become%2:42:01::"], [6, "park%2:38:00::"]]
     wn30_key: [[1, "say%2:32:01::"], [3, "become%2:42:01::"], [6, "park%2:38:00::"]]
 48C/:
-    lemmas: ["He", "call", "Vincent_L._Piraro", ",", "proprietor", "of", "the", "shop", ",", "who", "summon", "police", "and", "an", "ambulance", "."]
-    oewn_key: [[1, "oewn-00791110-v"], [10, "oewn-00792796-v"]]
+    lemmas: ["#barber", "summoned#", "He", "call", "Vincent_L._Piraro", ",", "proprietor", "of", "the", "shop", ",", "who", "summon", "police", "and", "an", "ambulance", "."]
+    oewn_key: [[3, "oewn-00791110-v"], [12, "oewn-00792796-v"]]
     paragraph: '33'
-    pos: ["PRP", "VBD", "NNP", ",", "NN", "IN", "DT", "NN", ",", "WP", "VBD", "NN", "CC", "DT", "NN", "."]
-    text: 'He called Vincent_L._Piraro, proprietor of the shop, who summoned police and an
-  ambulance.
+    pos: ["NNP", "NNP", "PRP", "VBD", "NNP", ",", "NN", "IN", "DT", "NN", ",", "WP", "VBD", "NN", "CC", "DT", "NN", "."]
+    text: '#BARBER SUMMONED# He called Vincent_L._Piraro, proprietor of the shop, who summoned police and an ambulance.
 
   '
-    tokens: [[0, 2], [3, 9], [10, 27], [27, 28], [29, 39], [40, 42], [43, 46], [47, 51], [51, 52], [53, 56], [57, 65], [66, 72], [73, 76], [77, 79], [80, 89], [89, 90]]
-    wn16_key: [[1, "call%2:32:01::"], [10, "summon%2:32:00::"]]
-    wn30_key: [[1, "call%2:32:01::"], [10, "summon%2:32:00::"]]
+    tokens: [[0, 7], [8, 17], [18, 20], [21, 27], [28, 45], [45, 46], [47, 57], [58, 60], [61, 64], [65, 69], [69, 70], [71, 74], [75, 83], [84, 90], [91, 94], [95, 97], [98, 107], [107, 108]]
+    wn16_key: [[3, "call%2:32:01::"], [12, "summon%2:32:00::"]]
+    wn30_key: [[3, "call%2:32:01::"], [12, "summon%2:32:00::"]]
 XS/q:
     lemmas: ["The", "vice_president", "of", "the", "city_council", "complain", "yesterday", "that", "there", "be", "\"", "deficiency", "\"", "in", "the", "city", "'s", "snow", "clearing", "program", "which", "should", "be", "correct", "as", "soon", "as", "possible", "."]
     oewn_key: [[5, "oewn-00909100-v"], [9, "oewn-02609706-v"], [23, "oewn-02525657-v"]]
@@ -527,18 +524,16 @@ muk/:
     wn16_key: [[6, "say%2:32:01::"], [19, "dispatch%2:38:00::"], [26, "keep%2:41:02::"], [33, "be%2:42:03::"]]
     wn30_key: [[6, "say%2:32:01::"], [19, "dispatch%2:38:00::"], [26, "keep%2:41:02::"], [33, "be%2:42:03::"]]
 ioUj:
-    lemmas: ["concede", "that", "several", "city", "to_the_north", "be", "in", "bad", "shape", "than", "baltimore", "after", "the", "last", "storm", ",", "mr._schaefer", "list", "several", "improvement", "he", "say", "should", "be", "make", "in", "the", "snow", "plan", "here", "."]
-    oewn_key: [[0, "oewn-00820214-v"], [5, "oewn-02610777-v"], [17, "oewn-00947885-v"], [21, "oewn-01011267-v"], [24, "oewn-01622033-v"]]
+    lemmas: ["#werner", "criticized#", "concede", "that", "several", "city", "to_the_north", "be", "in", "bad", "shape", "than", "baltimore", "after", "the", "last", "storm", ",", "mr._schaefer", "list", "several", "improvement", "he", "say", "should", "be", "make", "in", "the", "snow", "plan", "here", "."]
+    oewn_key: [[2, "oewn-00820214-v"], [7, "oewn-02610777-v"], [19, "oewn-00947885-v"], [23, "oewn-01011267-v"], [26, "oewn-01622033-v"]]
     paragraph: '36'
-    pos: ["VBG", "IN", "JJ", "NNS", "RB", "VBD", "IN", "JJR", "NN", "IN", "NNP", "IN", "DT", "JJ", "NN", ",", "NNP", "VBD", "JJ", "NNS", "PRP", "VBD", "MD", "VB", "VBN", "IN", "DT", "NN", "NN", "RB", "."]
-    text: 'Conceding that several cities to_the_north were in worse shape than Baltimore after
-  the last storm, Mr._Schaefer listed several improvements he said should be made
-  in the snow plan here.
+    pos: ["NNP", "NNP", "VBG", "IN", "JJ", "NNS", "RB", "VBD", "IN", "JJR", "NN", "IN", "NNP", "IN", "DT", "JJ", "NN", ",", "NNP", "VBD", "JJ", "NNS", "PRP", "VBD", "MD", "VB", "VBN", "IN", "DT", "NN", "NN", "RB", "."]
+    text: '#WERNER CRITICIZED# Conceding that several cities to_the_north were in worse shape than Baltimore after the last storm, Mr._Schaefer listed several improvements he said should be made in the snow plan here.
 
   '
-    tokens: [[0, 9], [10, 14], [15, 22], [23, 29], [30, 42], [43, 47], [48, 50], [51, 56], [57, 62], [63, 67], [68, 77], [78, 83], [84, 87], [88, 92], [93, 98], [98, 99], [100, 112], [113, 119], [120, 127], [128, 140], [141, 143], [144, 148], [149, 155], [156, 158], [159, 163], [164, 166], [167, 170], [171, 175], [176, 180], [181, 185], [185, 186]]
-    wn16_key: [[0, "concede%2:32:00::"], [5, "be%2:42:03::"], [17, "list%2:32:00::"], [21, "say%2:32:00::"], [24, "make%2:36:05::"]]
-    wn30_key: [[0, "concede%2:32:00::"], [5, "be%2:42:03::"], [17, "list%2:32:00::"], [21, "say%2:32:00::"], [24, "make%2:36:05::"]]
+    tokens: [[0, 7], [8, 19], [20, 29], [30, 34], [35, 42], [43, 49], [50, 62], [63, 67], [68, 70], [71, 76], [77, 82], [83, 87], [88, 97], [98, 103], [104, 107], [108, 112], [113, 118], [118, 119], [120, 132], [133, 139], [140, 147], [148, 160], [161, 163], [164, 168], [169, 175], [176, 178], [179, 183], [184, 186], [187, 190], [191, 195], [196, 200], [201, 205], [205, 206]]
+    wn16_key: [[2, "concede%2:32:00::"], [7, "be%2:42:03::"], [19, "list%2:32:00::"], [23, "say%2:32:00::"], [26, "make%2:36:05::"]]
+    wn30_key: [[2, "concede%2:32:00::"], [7, "be%2:42:03::"], [19, "list%2:32:00::"], [23, "say%2:32:00::"], [26, "make%2:36:05::"]]
 6v8r:
     lemmas: ["He", "say", "the", "snow", "plan", "be", "put", "in", "effect", "too", "slowly", "in", "december", "."]
     oewn_key: [[1, "oewn-01011267-v"], [6, "oewn-01496398-v"]]
@@ -571,14 +566,14 @@ IDP0:
     wn16_key: [[4, "be%2:42:06::"], [10, "criticize%2:32:00::"], [18, "halt%2:41:00::"]]
     wn30_key: [[4, "be%2:42:06::"], [10, "criticize%2:32:00::"], [18, "halt%2:41:00::"]]
 tg/g:
-    lemmas: ["mr._werner", "say", "yesterday", "that", "operations", "continue", "through", "the", "week", "."]
-    oewn_key: [[1, "oewn-01011267-v"], [5, "oewn-00783045-v"]]
+    lemmas: ["#sent", "home", "for", "rest#", "mr._werner", "say", "yesterday", "that", "operations", "continue", "through", "the", "week", "."]
+    oewn_key: [[5, "oewn-01011267-v"], [9, "oewn-00783045-v"]]
     paragraph: '39'
-    pos: ["NNP", "VBD", "NN", "IN", "NNS", "VBD", "IN", "DT", "NN", "."]
-    text: 'Mr._Werner said yesterday that operations continued through the week.'
-    tokens: [[0, 10], [11, 15], [16, 25], [26, 30], [31, 41], [42, 51], [52, 59], [60, 63], [64, 68], [68, 69]]
-    wn16_key: [[1, "say%2:32:00::"], [5, "continue%2:32:00::"]]
-    wn30_key: [[1, "say%2:32:00::"], [5, "continue%2:32:00::"]]
+    pos: ["NNP", "NNP", "NNP", "NNP", "NNP", "VBD", "NN", "IN", "NNS", "VBD", "IN", "DT", "NN", "."]
+    text: '#SENT HOME FOR REST# Mr._Werner said yesterday that operations continued through the week.'
+    tokens: [[0, 5], [6, 10], [11, 14], [15, 20], [21, 31], [32, 36], [37, 46], [47, 51], [52, 62], [63, 72], [73, 80], [81, 84], [85, 89], [89, 90]]
+    wn16_key: [[5, "say%2:32:00::"], [9, "continue%2:32:00::"]]
+    wn30_key: [[5, "say%2:32:00::"], [9, "continue%2:32:00::"]]
 u5QX:
     lemmas: ["What", "he", "do", ",", "mr._werner", "say", ",", "be", "let", "manual_laborer", "go_home", "tuesday", "night", "for", "some", "rest", "."]
     oewn_key: [[2, "oewn-01716563-v"], [5, "oewn-01011267-v"], [7, "oewn-02622439-v"], [8, "oewn-02427979-v"], [10, "oewn-02009510-v"]]
@@ -689,14 +684,14 @@ h56y:
     wn16_key: [[3, "say%2:32:00::"], [7, "have%2:40:04::"]]
     wn30_key: [[3, "say%2:32:00::"], [7, "have%2:40:04::"]]
 SxeV:
-    lemmas: ["soon", "after", "10", "A._M.", ",", "when", "police", "reach", "the", "1", "-", "1", "2", "-", "story", "brick", "home", "in", "the", "franklin_manor", "section", ",", "15", "mile", "south", "of", "here", "on", "the", "bay", ",", "in", "response", "to", "a", "call", "from", "the", "Dresbach", "'s", "other", "son", ",", "lee", ",", "14", ",", "they", "find", "mrs._dresbach", "'s", "body", "on", "the", "first-floor", "bedroom", "floor", "."]
-    oewn_key: [[7, "oewn-02024442-v"], [48, "oewn-02253273-v"]]
+    lemmas: ["#younger", "son", "calls", "police#", "soon", "after", "10", "A._M.", ",", "when", "police", "reach", "the", "1", "-", "1", "2", "-", "story", "brick", "home", "in", "the", "franklin_manor", "section", ",", "15", "mile", "south", "of", "here", "on", "the", "bay", ",", "in", "response", "to", "a", "call", "from", "the", "Dresbach", "'s", "other", "son", ",", "lee", ",", "14", ",", "they", "find", "mrs._dresbach", "'s", "body", "on", "the", "first-floor", "bedroom", "floor", "."]
+    oewn_key: [[11, "oewn-02024442-v"], [52, "oewn-02253273-v"]]
     paragraph: '46'
-    pos: ["RB", "IN", "CD", "NNP", ",", "WRB", "NN", "VBD", "DT", "CD", ":", "CD", "CD", ":", "NN", "NN", "NN", "IN", "DT", "NNP", "NN", ",", "CD", "NNS", "RB", "IN", "RB", "IN", "DT", "NN", ",", "IN", "NN", "TO", "DT", "NN", "IN", "DT", "NNP", "POS", "JJ", "NN", ",", "NNP", ",", "CD", ",", "PRP", "VBD", "NNP", "POS", "NN", "IN", "DT", "JJ", "NN", "NN", "."]
-    text: 'Soon after 10 A.M., when police reached the 1 - 1 2 - story brick home in the Franklin_Manor section, 15 miles south of here on the bay, in response to a call from the Dresbach''s other son, Lee, 14, they found Mrs._Dresbach''s body on the first-floor bedroom floor.'
-    tokens: [[0, 4], [5, 10], [11, 13], [14, 18], [18, 19], [20, 24], [25, 31], [32, 39], [40, 43], [44, 45], [46, 47], [48, 49], [50, 51], [52, 53], [54, 59], [60, 65], [66, 70], [71, 73], [74, 77], [78, 92], [93, 100], [100, 101], [102, 104], [105, 110], [111, 116], [117, 119], [120, 124], [125, 127], [128, 131], [132, 135], [135, 136], [137, 139], [140, 148], [149, 151], [152, 153], [154, 158], [159, 163], [164, 167], [168, 176], [176, 178], [179, 184], [185, 188], [188, 189], [190, 193], [193, 194], [195, 197], [197, 198], [199, 203], [204, 209], [210, 223], [223, 225], [226, 230], [231, 233], [234, 237], [238, 249], [250, 257], [258, 263], [263, 264]]
-    wn16_key: [[7, "reach%2:38:01::"], [48, "find%2:40:02::"]]
-    wn30_key: [[7, "reach%2:38:01::"], [48, "find%2:40:02::"]]
+    pos: ["NNP", "NNP", "NNP", "NNP", "RB", "IN", "CD", "NNP", ",", "WRB", "NN", "VBD", "DT", "CD", ":", "CD", "CD", ":", "NN", "NN", "NN", "IN", "DT", "NNP", "NN", ",", "CD", "NNS", "RB", "IN", "RB", "IN", "DT", "NN", ",", "IN", "NN", "TO", "DT", "NN", "IN", "DT", "NNP", "POS", "JJ", "NN", ",", "NNP", ",", "CD", ",", "PRP", "VBD", "NNP", "POS", "NN", "IN", "DT", "JJ", "NN", "NN", "."]
+    text: '#YOUNGER SON CALLS POLICE# Soon after 10 A.M., when police reached the 1 - 1 2 - story brick home in the Franklin_Manor section, 15 miles south of here on the bay, in response to a call from the Dresbach''s other son, Lee, 14, they found Mrs._Dresbach''s body on the first-floor bedroom floor.'
+    tokens: [[0, 8], [9, 12], [13, 18], [19, 26], [27, 31], [32, 37], [38, 40], [41, 45], [45, 46], [47, 51], [52, 58], [59, 66], [67, 70], [71, 72], [73, 74], [75, 76], [77, 78], [79, 80], [81, 86], [87, 92], [93, 97], [98, 100], [101, 104], [105, 119], [120, 127], [127, 128], [129, 131], [132, 137], [138, 143], [144, 146], [147, 151], [152, 154], [155, 158], [159, 162], [162, 163], [164, 166], [167, 175], [176, 178], [179, 180], [181, 185], [186, 190], [191, 194], [195, 203], [203, 205], [206, 211], [212, 215], [215, 216], [217, 220], [220, 221], [222, 224], [224, 225], [226, 230], [231, 236], [237, 250], [250, 252], [253, 257], [258, 260], [261, 264], [265, 276], [277, 284], [285, 290], [290, 291]]
+    wn16_key: [[11, "reach%2:38:01::"], [52, "find%2:40:02::"]]
+    wn30_key: [[11, "reach%2:38:01::"], [52, "find%2:40:02::"]]
 EBkr:
     lemmas: ["Her", "husband", "be", "lie", "on", "the", "kitchen", "floor", ",", "police", "say", "."]
     oewn_key: [[3, "oewn-01549783-v"], [10, "oewn-01011267-v"]]
@@ -733,17 +728,16 @@ i/X1:
     wn16_key: [[7, "broadcast%2:32:01::"]]
     wn30_key: [[7, "broadcast%2:32:01::"]]
 nwLM:
-    lemmas: ["police", "say", "the", "boy", "be", "natural", "brother", "and", "be", "adopt", "as", "small", "child", "by", "the", "dresbach", "."]
-    oewn_key: [[1, "oewn-01011267-v"], [4, "oewn-02610777-v"], [9, "oewn-00414120-v"]]
+    lemmas: ["#two", "brothers", "adopted#", "police", "say", "the", "boy", "be", "natural", "brother", "and", "be", "adopt", "as", "small", "child", "by", "the", "dresbach", "."]
+    oewn_key: [[4, "oewn-01011267-v"], [7, "oewn-02610777-v"], [12, "oewn-00414120-v"]]
     paragraph: '49'
-    pos: ["NNP", "VBD", "DT", "NNS", "VBP", "JJ", "NNS", "CC", "VBD", "VBN", "IN", "JJ", "NNS", "IN", "DT", "NNPS", "."]
-    text: 'Police said the boys are natural brothers and were adopted as small children by
-  the Dresbachs.
+    pos: ["NNP", "NNP", "NNP", "NNP", "VBD", "DT", "NNS", "VBP", "JJ", "NNS", "CC", "VBD", "VBN", "IN", "JJ", "NNS", "IN", "DT", "NNPS", "."]
+    text: '#TWO BROTHERS ADOPTED# Police said the boys are natural brothers and were adopted as small children by the Dresbachs.
 
   '
-    tokens: [[0, 6], [7, 11], [12, 15], [16, 20], [21, 24], [25, 32], [33, 41], [42, 45], [46, 50], [51, 58], [59, 61], [62, 67], [68, 76], [77, 79], [80, 83], [84, 93], [93, 94]]
-    wn16_key: [[1, "say%2:32:00::"], [4, "be%2:42:03::"], [9, "adopt%2:30:00::"]]
-    wn30_key: [[1, "say%2:32:00::"], [4, "be%2:42:03::"], [9, "adopt%2:30:00::"]]
+    tokens: [[0, 4], [5, 13], [14, 22], [23, 29], [30, 34], [35, 38], [39, 43], [44, 47], [48, 55], [56, 64], [65, 68], [69, 73], [74, 81], [82, 84], [85, 90], [91, 99], [100, 102], [103, 106], [107, 116], [116, 117]]
+    wn16_key: [[4, "say%2:32:00::"], [7, "be%2:42:03::"], [12, "adopt%2:30:00::"]]
+    wn30_key: [[4, "say%2:32:00::"], [7, "be%2:42:03::"], [12, "adopt%2:30:00::"]]
 jYlh:
     lemmas: ["trooper_j._a._grzesiak", "spot", "the", "wanted", "car", ",", "with", "three", "boy", ",", "at", "a", "route", "2", "service_station", ",", "just", "outside", "annapolis", "."]
     oewn_key: [[1, "oewn-02158742-v"]]
@@ -804,17 +798,16 @@ W9GU:
     wn16_key: [[1, "announce%2:32:00::"], [9, "hold%2:36:00::"]]
     wn30_key: [[1, "announce%2:32:00::"], [9, "hold%2:36:00::"]]
 EOxw:
-    lemmas: ["mr._simpkin", "be", "a", "resident", "of", "somerset", "county", ",", "and", "he", "and", "the", "governor", ",", "also", "a", "somerset", "countian", ",", "have", "be", "friend", "since", "mr._simpkin", "be", "a", "child", "."]
-    oewn_key: [[1, "oewn-02610777-v"], [20, "oewn-02610777-v"], [24, "oewn-02610777-v"]]
+    lemmas: ["#simpkins", "from", "somerset#", "mr._simpkin", "be", "a", "resident", "of", "somerset", "county", ",", "and", "he", "and", "the", "governor", ",", "also", "a", "somerset", "countian", ",", "have", "be", "friend", "since", "mr._simpkin", "be", "a", "child", "."]
+    oewn_key: [[4, "oewn-02610777-v"], [23, "oewn-02610777-v"], [27, "oewn-02610777-v"]]
     paragraph: '54'
-    pos: ["NNP", "VBZ", "DT", "NN", "IN", "NNP", "NN", ",", "CC", "PRP", "CC", "DT", "NNP", ",", "RB", "DT", "NNP", "NN", ",", "VBP", "VBN", "NNS", "IN", "NNP", "VBD", "DT", "NN", "."]
-    text: 'Mr._Simpkins is a resident of Somerset county, and he and the Governor, also a Somerset
-  countian, have been friends since Mr._Simpkins was a child.
+    pos: ["NN", "NNP", "NNP", "NNP", "VBZ", "DT", "NN", "IN", "NNP", "NN", ",", "CC", "PRP", "CC", "DT", "NNP", ",", "RB", "DT", "NNP", "NN", ",", "VBP", "VBN", "NNS", "IN", "NNP", "VBD", "DT", "NN", "."]
+    text: '#SIMPKINS FROM SOMERSET# Mr._Simpkins is a resident of Somerset county, and he and the Governor, also a Somerset countian, have been friends since Mr._Simpkins was a child.
 
   '
-    tokens: [[0, 12], [13, 15], [16, 17], [18, 26], [27, 29], [30, 38], [39, 45], [45, 46], [47, 50], [51, 53], [54, 57], [58, 61], [62, 70], [70, 71], [72, 76], [77, 78], [79, 87], [88, 96], [96, 97], [98, 102], [103, 107], [108, 115], [116, 121], [122, 134], [135, 138], [139, 140], [141, 146], [146, 147]]
-    wn16_key: [[1, "be%2:42:03::"], [20, "be%2:42:03::"], [24, "be%2:42:03::"]]
-    wn30_key: [[1, "be%2:42:03::"], [20, "be%2:42:03::"], [24, "be%2:42:03::"]]
+    tokens: [[0, 9], [10, 14], [15, 24], [25, 37], [38, 40], [41, 42], [43, 51], [52, 54], [55, 63], [64, 70], [70, 71], [72, 75], [76, 78], [79, 82], [83, 86], [87, 95], [95, 96], [97, 101], [102, 103], [104, 112], [113, 121], [121, 122], [123, 127], [128, 132], [133, 140], [141, 146], [147, 159], [160, 163], [164, 165], [166, 171], [171, 172]]
+    wn16_key: [[4, "be%2:42:03::"], [23, "be%2:42:03::"], [27, "be%2:42:03::"]]
+    wn30_key: [[4, "be%2:42:03::"], [23, "be%2:42:03::"], [27, "be%2:42:03::"]]
 6z9Q:
     lemmas: ["now", "38", ",", "mr._simpkin", "be", "graduate", "from", "the", "university", "of", "maryland", "'s", "college", "of", "agriculture", "in", "1947", "."]
     oewn_key: [[5, "oewn-02268987-v"]]
@@ -992,14 +985,14 @@ jiZE:
     wn16_key: [[5, "vary%2:30:01::"], [10, "choose%2:31:00::"], [22, "point_out%2:32:01::"], [28, "seem%2:39:00::"], [30, "have%2:40:00::"], [46, "involve%2:42:01::"], [48, "maintain%2:42:00::"]]
     wn30_key: [[5, "vary%2:30:01::"], [10, "choose%2:31:00::"], [22, "point_out%2:32:01::"], [28, "seem%2:39:00::"], [30, "have%2:40:00::"], [46, "involve%2:42:01::"], [48, "maintain%2:42:00::"]]
 KcJT:
-    lemmas: ["\"", "convenience", "be", "therefore", "the", "key", "to", "the", "housing", "market", "today", "."]
-    oewn_key: [[2, "oewn-02610777-v"]]
+    lemmas: ["#convenience", "held", "key#", "\"", "convenience", "be", "therefore", "the", "key", "to", "the", "housing", "market", "today", "."]
+    oewn_key: [[5, "oewn-02610777-v"]]
     paragraph: '69'
-    pos: ["``", "NN", "VBZ", "RB", "DT", "NN", "VB", "DT", "NN", "NN", "NN", "."]
-    text: '"Convenience is therefore the key to the housing market today.'
-    tokens: [[0, 1], [1, 12], [13, 15], [16, 25], [26, 29], [30, 33], [34, 36], [37, 40], [41, 48], [49, 55], [56, 61], [61, 62]]
-    wn16_key: [[2, "be%2:42:03::"]]
-    wn30_key: [[2, "be%2:42:03::"]]
+    pos: ["JJ", "NNP", "NNP", "``", "NN", "VBZ", "RB", "DT", "NN", "VB", "DT", "NN", "NN", "NN", "."]
+    text: '#CONVENIENCE HELD KEY# "Convenience is therefore the key to the housing market today.'
+    tokens: [[0, 12], [13, 17], [18, 22], [23, 24], [24, 35], [36, 38], [39, 48], [49, 52], [53, 56], [57, 59], [60, 63], [64, 71], [72, 78], [79, 84], [84, 85]]
+    wn16_key: [[5, "be%2:42:03::"]]
+    wn30_key: [[5, "be%2:42:03::"]]
 sZ5n:
     lemmas: ["trouble-free", ",", "long-life", ",", "quality", "component", "will", "play", "an", "increasingly", "important", "part", "in", "the", "merchandising", "of", "new", "housing", "in", "1960", "\"", ",", "panta", "predict", "."]
     oewn_key: [[23, "oewn-00919743-v"]]

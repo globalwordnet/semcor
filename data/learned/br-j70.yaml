@@ -134,15 +134,14 @@ i9PI:
     wn16_key: [[1, "appear%2:39:01::"], [4, "limited%3:00:00::"], [5, "information%1:10:00::"], [6, "available%3:00:00::"], [9, "aerated%5:00:00:treated:00"], [10, "lagoon%1:17:00::"], [12, "offer%2:40:02::"], [14, "satisfactory%3:00:00::"], [15, "means%1:04:00::"], [17, "increase%2:30:00::"], [19, "capacity%1:23:00::"], [21, "existing%5:00:00:present(a):01"], [22, "oxidation%1:22:00::"], [23, "pond%1:17:00::"], [24, "as_well%4:02:01::"], [26, "provide%2:40:00::"], [28, "same%3:00:00::"], [29, "degree%1:26:01::"], [31, "treatment%1:04:01::"], [34, "smaller%5:00:00:small:00"], [35, "volume%1:23:00::"]]
     wn30_key: [[1, "appear%2:39:01::"], [4, "limited%3:00:00::"], [5, "information%1:10:00::"], [6, "available%3:00:00::"], [9, "aerated%3:00:00:treated:00"], [10, "lagoon%1:17:00::"], [12, "offer%2:40:02::"], [14, "satisfactory%3:00:00::"], [15, "means%1:04:00::"], [17, "increase%2:30:00::"], [19, "capacity%1:23:00::"], [21, "existing%3:00:00:present:01"], [22, "oxidation%1:22:00::"], [23, "pond%1:17:00::"], [24, "as_well%4:02:01::"], [26, "provide%2:40:00::"], [28, "same%3:00:00::"], [29, "degree%1:26:01::"], [31, "treatment%1:04:01::"], [34, "smaller%3:00:00:small:00"], [35, "volume%1:23:00::"]]
 XY7v:
-    lemmas: ["With", "the", "development", "of", "the", "group", "south", "of", "kansas_city", ",", "missouri", ",", "the", "developer", "be", "face", "with", "the", "problem", "of", "provide", "adequate", "sewage_disposal", "."]
-    oewn_key: [[2, "oewn-13486023-n"], [5, "oewn-00031563-n"], [6, "oewn-00245397-r"], [8, "oewn-09129720-n"], [10, "oewn-09128437-n"], [13, "oewn-10029716-n"], [15, "oewn-00813960-v"], [18, "oewn-14434009-n"], [20, "oewn-02332196-v"], [21, "oewn-00051265-a"], [22, "oewn-00092713-n"]]
+    lemmas: ["#red", "bridge", "subdivision#", "With", "the", "development", "of", "the", "group", "south", "of", "kansas_city", ",", "missouri", ",", "the", "developer", "be", "face", "with", "the", "problem", "of", "provide", "adequate", "sewage_disposal", "."]
+    oewn_key: [[5, "oewn-13486023-n"], [8, "oewn-00031563-n"], [9, "oewn-00245397-r"], [11, "oewn-09129720-n"], [13, "oewn-09128437-n"], [16, "oewn-10029716-n"], [18, "oewn-00813960-v"], [21, "oewn-14434009-n"], [23, "oewn-02332196-v"], [24, "oewn-00051265-a"], [25, "oewn-00092713-n"]]
     paragraph: '3'
-    pos: ["IN", "DT", "NN", "IN", "DT", "NN", "RB", "IN", "NN", ",", "NNP", ",", "DT", "NN", "VBD", "VBN", "IN", "DT", "NN", "IN", "VBG", "JJ", "NN", "."]
-    text: 'With the development of the Red_Bridge_Subdivision south of Kansas_City, Missouri,
-  the developer was faced with the problem of providing adequate sewage_disposal.'
-    tokens: [[0, 4], [5, 8], [9, 20], [21, 23], [24, 27], [28, 50], [51, 56], [57, 59], [60, 71], [71, 72], [73, 81], [81, 82], [83, 86], [87, 96], [97, 100], [101, 106], [107, 111], [112, 115], [116, 123], [124, 126], [127, 136], [137, 145], [146, 161], [161, 162]]
-    wn16_key: [[2, "development%1:22:02::"], [5, "group%1:03:00::"], [6, "south%4:02:00::"], [8, "kansas_city%1:15:00::"], [10, "missouri%1:15:00::"], [13, "developer%1:18:00::"], [15, "face%2:32:00::"], [18, "problem%1:26:00::"], [20, "provide%2:40:00::"], [21, "adequate%3:00:00::"], [22, "sewage_disposal%1:04:00::"]]
-    wn30_key: [[2, "development%1:22:02::"], [5, "group%1:03:00::"], [6, "south%4:02:00::"], [8, "kansas_city%1:15:00::"], [10, "missouri%1:15:00::"], [13, "developer%1:18:00::"], [15, "face%2:32:00::"], [18, "problem%1:26:00::"], [20, "provide%2:40:00::"], [21, "adequate%3:00:00::"], [22, "sewage_disposal%1:04:00::"]]
+    pos: ["VBD", "NNP", "NNP", "IN", "DT", "NN", "IN", "DT", "NN", "RB", "IN", "NN", ",", "NNP", ",", "DT", "NN", "VBD", "VBN", "IN", "DT", "NN", "IN", "VBG", "JJ", "NN", "."]
+    text: '#RED BRIDGE SUBDIVISION# With the development of the Red_Bridge_Subdivision south of Kansas_City, Missouri, the developer was faced with the problem of providing adequate sewage_disposal.'
+    tokens: [[0, 4], [5, 11], [12, 24], [25, 29], [30, 33], [34, 45], [46, 48], [49, 52], [53, 75], [76, 81], [82, 84], [85, 96], [96, 97], [98, 106], [106, 107], [108, 111], [112, 121], [122, 125], [126, 131], [132, 136], [137, 140], [141, 148], [149, 151], [152, 161], [162, 170], [171, 186], [186, 187]]
+    wn16_key: [[5, "development%1:22:02::"], [8, "group%1:03:00::"], [9, "south%4:02:00::"], [11, "kansas_city%1:15:00::"], [13, "missouri%1:15:00::"], [16, "developer%1:18:00::"], [18, "face%2:32:00::"], [21, "problem%1:26:00::"], [23, "provide%2:40:00::"], [24, "adequate%3:00:00::"], [25, "sewage_disposal%1:04:00::"]]
+    wn30_key: [[5, "development%1:22:02::"], [8, "group%1:03:00::"], [9, "south%4:02:00::"], [11, "kansas_city%1:15:00::"], [13, "missouri%1:15:00::"], [16, "developer%1:18:00::"], [18, "face%2:32:00::"], [21, "problem%1:26:00::"], [23, "provide%2:40:00::"], [24, "adequate%3:00:00::"], [25, "sewage_disposal%1:04:00::"]]
 u7Oc:
     lemmas: ["The", "sewage_system", "from", "kansas_city", "be", "not", "expect", "to", "serve", "the", "location", "area", "for", "several", "year", "."]
     oewn_key: [[1, "oewn-04185958-n"], [3, "oewn-09129720-n"], [5, "oewn-00024432-r"], [6, "oewn-00721658-v"], [8, "oewn-02546948-v"], [10, "oewn-00027365-n"], [11, "oewn-08514304-n"], [13, "oewn-02276025-s"], [14, "oewn-15228587-n"]]
@@ -257,16 +256,14 @@ YIDX:
     wn16_key: [[2, "propose%2:32:00::"], [4, "aerated%5:00:00:treated:00"], [5, "lagoon%1:17:00::"], [7, "use%2:34:01::"], [9, "eliminate%2:30:01::"], [11, "problem%1:26:00::"], [14, "existing%5:00:00:present(a):01"], [15, "oxidation%1:22:00::"], [16, "pond%1:17:00::"], [19, "provide%2:40:00::"], [21, "necessary%3:00:00::"], [22, "treatment%1:04:01::"], [25, "additional%5:00:00:added:00"], [26, "development%1:04:02::"]]
     wn30_key: [[2, "propose%2:32:00::"], [4, "aerated%3:00:00:treated:00"], [5, "lagoon%1:17:00::"], [7, "use%2:34:01::"], [9, "eliminate%2:30:01::"], [11, "problem%1:26:00::"], [14, "existing%3:00:00:present:01"], [15, "oxidation%1:22:00::"], [16, "pond%1:17:00::"], [19, "provide%2:40:00::"], [21, "necessary%3:00:00::"], [22, "treatment%1:04:01::"], [25, "additional%3:00:03:additive:00"], [26, "development%1:04:02::"]]
 hFA7:
-    lemmas: ["The", "lack", "of", "adequate", "data", "on", "the", "aerated", "lagoon", "system", "prompt", "the", "developer", "to", "construct", "an", "aerated", "lagoon", "pilot", "plant", "to", "determine", "its", "feasibility", "for", "treat", "domestic", "sewage", "."]
-    oewn_key: [[1, "oewn-14472871-n"], [3, "oewn-00051265-a"], [4, "oewn-08479331-n"], [7, "oewn-01960950-s"], [8, "oewn-09351652-n"], [9, "oewn-04384144-n"], [10, "oewn-01653541-v"], [12, "oewn-10029716-n"], [14, "oewn-01658171-v"], [16, "oewn-01960950-s"], [17, "oewn-09351652-n"], [19, "oewn-03963198-n"], [21, "oewn-00920843-v"], [23, "oewn-05159611-n"], [25, "oewn-00516235-v"], [26, "oewn-02930907-a"], [27, "oewn-14881044-n"]]
+    lemmas: ["#pilot", "lagoon#", "The", "lack", "of", "adequate", "data", "on", "the", "aerated", "lagoon", "system", "prompt", "the", "developer", "to", "construct", "an", "aerated", "lagoon", "pilot", "plant", "to", "determine", "its", "feasibility", "for", "treat", "domestic", "sewage", "."]
+    oewn_key: [[3, "oewn-14472871-n"], [5, "oewn-00051265-a"], [6, "oewn-08479331-n"], [9, "oewn-01960950-s"], [10, "oewn-09351652-n"], [11, "oewn-04384144-n"], [12, "oewn-01653541-v"], [14, "oewn-10029716-n"], [16, "oewn-01658171-v"], [18, "oewn-01960950-s"], [19, "oewn-09351652-n"], [21, "oewn-03963198-n"], [23, "oewn-00920843-v"], [25, "oewn-05159611-n"], [27, "oewn-00516235-v"], [28, "oewn-02930907-a"], [29, "oewn-14881044-n"]]
     paragraph: '5'
-    pos: ["DT", "NN", "IN", "JJ", "NNS", "IN", "DT", "JJ", "NN", "NN", "VBD", "DT", "NN", "TO", "VB", "DT", "JJ", "NN", "JJ", "NN", "TO", "VB", "PRP$", "NN", "IN", "VBG", "JJ", "NN", "."]
-    text: 'The lack of adequate data on the aerated lagoon system prompted the developer to
-  construct an aerated lagoon pilot plant to determine its feasibility for treating
-  domestic sewage.'
-    tokens: [[0, 3], [4, 8], [9, 11], [12, 20], [21, 25], [26, 28], [29, 32], [33, 40], [41, 47], [48, 54], [55, 63], [64, 67], [68, 77], [78, 80], [81, 90], [91, 93], [94, 101], [102, 108], [109, 114], [115, 120], [121, 123], [124, 133], [134, 137], [138, 149], [150, 153], [154, 162], [163, 171], [172, 178], [178, 179]]
-    wn16_key: [[1, "lack%1:26:00::"], [3, "adequate%3:00:00::"], [4, "data%1:14:00::"], [7, "aerated%5:00:00:treated:00"], [8, "lagoon%1:17:00::"], [9, "system%1:06:00::"], [10, "prompt%2:36:00::"], [12, "developer%1:18:00::"], [14, "construct%2:36:00::"], [16, "aerated%5:00:00:treated:00"], [17, "lagoon%1:17:00::"], [18, "pilot%5:00:00:empirical:00"], [19, "plant%1:06:01::"], [21, "determine%2:32:00::"], [23, "feasibility%1:07:00::"], [25, "treat%2:30:01::"], [26, "domestic%3:01:00::"], [27, "sewage%1:27:00::"]]
-    wn30_key: [[1, "lack%1:26:00::"], [3, "adequate%3:00:00::"], [4, "data%1:14:00::"], [7, "aerated%3:00:00:treated:00"], [8, "lagoon%1:17:00::"], [9, "system%1:06:00::"], [10, "prompt%2:36:00::"], [12, "developer%1:18:00::"], [14, "construct%2:36:00::"], [16, "aerated%3:00:00:treated:00"], [17, "lagoon%1:17:00::"], [19, "plant%1:06:01::"], [21, "determine%2:32:00::"], [23, "feasibility%1:07:00::"], [25, "treat%2:30:01::"], [26, "domestic%3:01:00::"], [27, "sewage%1:27:00::"]]
+    pos: ["NNP", "NNP", "DT", "NN", "IN", "JJ", "NNS", "IN", "DT", "JJ", "NN", "NN", "VBD", "DT", "NN", "TO", "VB", "DT", "JJ", "NN", "JJ", "NN", "TO", "VB", "PRP$", "NN", "IN", "VBG", "JJ", "NN", "."]
+    text: '#PILOT LAGOON# The lack of adequate data on the aerated lagoon system prompted the developer to construct an aerated lagoon pilot plant to determine its feasibility for treating domestic sewage.'
+    tokens: [[0, 6], [7, 14], [15, 18], [19, 23], [24, 26], [27, 35], [36, 40], [41, 43], [44, 47], [48, 55], [56, 62], [63, 69], [70, 78], [79, 82], [83, 92], [93, 95], [96, 105], [106, 108], [109, 116], [117, 123], [124, 129], [130, 135], [136, 138], [139, 148], [149, 152], [153, 164], [165, 168], [169, 177], [178, 186], [187, 193], [193, 194]]
+    wn16_key: [[3, "lack%1:26:00::"], [5, "adequate%3:00:00::"], [6, "data%1:14:00::"], [9, "aerated%5:00:00:treated:00"], [10, "lagoon%1:17:00::"], [11, "system%1:06:00::"], [12, "prompt%2:36:00::"], [14, "developer%1:18:00::"], [16, "construct%2:36:00::"], [18, "aerated%5:00:00:treated:00"], [19, "lagoon%1:17:00::"], [20, "pilot%5:00:00:empirical:00"], [21, "plant%1:06:01::"], [23, "determine%2:32:00::"], [25, "feasibility%1:07:00::"], [27, "treat%2:30:01::"], [28, "domestic%3:01:00::"], [29, "sewage%1:27:00::"]]
+    wn30_key: [[3, "lack%1:26:00::"], [5, "adequate%3:00:00::"], [6, "data%1:14:00::"], [9, "aerated%3:00:00:treated:00"], [10, "lagoon%1:17:00::"], [11, "system%1:06:00::"], [12, "prompt%2:36:00::"], [14, "developer%1:18:00::"], [16, "construct%2:36:00::"], [18, "aerated%3:00:00:treated:00"], [19, "lagoon%1:17:00::"], [21, "plant%1:06:01::"], [23, "determine%2:32:00::"], [25, "feasibility%1:07:00::"], [27, "treat%2:30:01::"], [28, "domestic%3:01:00::"], [29, "sewage%1:27:00::"]]
 7SDp:
     lemmas: ["The", "pilot", "plant", "be", "a", "circular", "lagoon", "81", "foot", "in", "diam", "at", "the", "surface", "and", "65", "foot", "in", "diam", "at", "the", "bottom", ",", "4", "foot", "below", "the", "surface", ",", "with", "a", "volume", "of", "121,000", "gal", "."]
     oewn_key: [[2, "oewn-03963198-n"], [3, "oewn-02610777-v"], [5, "oewn-02048059-a"], [6, "oewn-09351652-n"], [8, "oewn-13671663-n"], [10, "oewn-05109077-n"], [13, "oewn-08677970-n"], [16, "oewn-13671663-n"], [18, "oewn-05109077-n"], [21, "oewn-08528313-n"], [23, "oewn-02194304-s"], [24, "oewn-13671663-n"], [25, "oewn-00080389-r"], [27, "oewn-08677970-n"], [31, "oewn-13801244-n"], [34, "oewn-13641045-n"]]
@@ -386,14 +383,14 @@ bxpo:
     wn16_key: [[1, "effluent%1:27:00::"], [3, "collect%2:40:00::"], [5, "two%5:00:00:cardinal:00"], [6, "pipe%1:06:00::"], [8, "discharge%2:35:00::"], [14, "surface%1:15:00::"], [15, "drainage_ditch%1:06:00::"]]
     wn30_key: [[1, "effluent%1:27:00::"], [3, "collect%2:40:00::"], [5, "two%3:00:00:cardinal:00"], [6, "pipe%1:06:00::"], [8, "discharge%2:35:00::"], [14, "surface%1:15:00::"], [15, "drainage_ditch%1:06:00::"]]
 BY7T:
-    lemmas: ["composite", "sample", "be", "collect", "at", "weekly", "interval", "."]
-    oewn_key: [[0, "oewn-05878987-n"], [1, "oewn-05830135-n"], [3, "oewn-02309962-v"], [5, "oewn-01975568-s"], [6, "oewn-15294470-n"]]
+    lemmas: ["#analyses#", "composite", "sample", "be", "collect", "at", "weekly", "interval", "."]
+    oewn_key: [[1, "oewn-05878987-n"], [2, "oewn-05830135-n"], [4, "oewn-02309962-v"], [6, "oewn-01975568-s"], [7, "oewn-15294470-n"]]
     paragraph: '7'
-    pos: ["NN", "NNS", "VBD", "VBN", "IN", "JJ", "NNS", "."]
-    text: 'Composite samples were collected at weekly intervals.'
-    tokens: [[0, 9], [10, 17], [18, 22], [23, 32], [33, 35], [36, 42], [43, 52], [52, 53]]
-    wn16_key: [[0, "composite%1:09:00::"], [1, "sample%1:09:00::"], [3, "collect%2:40:00::"], [5, "weekly%3:01:00::"], [6, "interval%1:28:00::"]]
-    wn30_key: [[0, "composite%1:09:00::"], [1, "sample%1:09:00::"], [3, "collect%2:40:00::"], [5, "weekly%3:00:00:periodic:00"], [6, "interval%1:28:00::"]]
+    pos: ["NNP", "NN", "NNS", "VBD", "VBN", "IN", "JJ", "NNS", "."]
+    text: '#ANALYSES# Composite samples were collected at weekly intervals.'
+    tokens: [[0, 10], [11, 20], [21, 28], [29, 33], [34, 43], [44, 46], [47, 53], [54, 63], [63, 64]]
+    wn16_key: [[1, "composite%1:09:00::"], [2, "sample%1:09:00::"], [4, "collect%2:40:00::"], [6, "weekly%3:01:00::"], [7, "interval%1:28:00::"]]
+    wn30_key: [[1, "composite%1:09:00::"], [2, "sample%1:09:00::"], [4, "collect%2:40:00::"], [6, "weekly%3:00:00:periodic:00"], [7, "interval%1:28:00::"]]
 TVbb:
     lemmas: ["The", "long", "retention", "period", "and", "the", "complete", "mixing", "concept", "prevent", "rapid", "change", "in", "either", "the", "mixed", "liquor", "or", "in", "the", "effluent", "."]
     oewn_key: [[1, "oewn-01440837-a"], [2, "oewn-00812259-n"], [3, "oewn-15137796-n"], [6, "oewn-00522139-a"], [7, "oewn-00380891-n"], [8, "oewn-05844071-n"], [9, "oewn-02458316-v"], [10, "oewn-00982888-s"], [11, "oewn-07311046-n"], [16, "oewn-14965368-n"], [20, "oewn-14881172-n"]]
@@ -473,14 +470,14 @@ nB/z:
     wn16_key: [[1, "single%3:00:00::"], [2, "24%5:00:00:cardinal:00"], [4, "hr%1:28:00::"], [5, "composite%1:09:00::"], [6, "sample%1:09:01::"], [7, "indicate%2:32:03::"], [10, "sewage%1:27:00::"], [11, "flow%1:28:00::"], [12, "pattern%1:04:00::"], [14, "characteristic%1:09:00::"], [15, "be%2:42:03::"], [16, "typical%3:00:00::"]]
     wn30_key: [[1, "single%3:00:00::"], [2, "24%3:00:00:cardinal:00"], [4, "hr%1:28:00::"], [5, "composite%1:09:00::"], [6, "sample%1:09:01::"], [7, "indicate%2:32:03::"], [10, "sewage%1:27:00::"], [11, "flow%1:28:00::"], [12, "pattern%1:04:00::"], [14, "characteristic%1:09:00::"], [15, "be%2:42:03::"], [16, "typical%3:00:00::"]]
 w8ab:
-    lemmas: ["The", "bod", "of", "the", "influent", "to", "the", "pilot", "plant", "vary", "between", "110", "and", "710", "mg", "/", "l", "with", "an", "average", "of", "350", "mg", "/", "l", "."]
-    oewn_key: [[4, "oewn-01298378-s"], [8, "oewn-03963198-n"], [9, "oewn-02667330-v"], [14, "oewn-13745171-n"], [16, "oewn-13645547-n"], [19, "oewn-06031110-n"], [22, "oewn-13745171-n"], [24, "oewn-13645547-n"]]
+    lemmas: ["#pilot", "plant", "operations#", "The", "bod", "of", "the", "influent", "to", "the", "pilot", "plant", "vary", "between", "110", "and", "710", "mg", "/", "l", "with", "an", "average", "of", "350", "mg", "/", "l", "."]
+    oewn_key: [[7, "oewn-01298378-s"], [11, "oewn-03963198-n"], [12, "oewn-02667330-v"], [17, "oewn-13745171-n"], [19, "oewn-13645547-n"], [22, "oewn-06031110-n"], [25, "oewn-13745171-n"], [27, "oewn-13645547-n"]]
     paragraph: '9'
-    pos: ["DT", "NN", "IN", "DT", "JJ", "TO", "DT", "JJ", "NN", "VBD", "IN", "CD", "CC", "CD", "NN", ":", "NN", "IN", "DT", "NN", "IN", "CD", "NN", ":", "NN", "."]
-    text: 'The BOD of the influent to the pilot plant varied between 110 and 710 mg/l with an average of 350 mg/l.'
-    tokens: [[0, 3], [4, 7], [8, 10], [11, 14], [15, 23], [24, 26], [27, 30], [31, 36], [37, 42], [43, 49], [50, 57], [58, 61], [62, 65], [66, 69], [70, 72], [72, 73], [73, 74], [75, 79], [80, 82], [83, 90], [91, 93], [94, 97], [98, 100], [100, 101], [101, 102], [102, 103]]
-    wn16_key: [[4, "influent%5:00:00:incoming:00"], [7, "pilot%5:00:00:empirical:00"], [8, "plant%1:06:01::"], [9, "vary%2:42:00::"], [14, "mg%1:23:00::"], [16, "l%1:23:00::"], [19, "average%1:09:00::"], [22, "mg%1:23:00::"], [24, "l%1:23:00::"]]
-    wn30_key: [[4, "influent%3:00:00:incoming:00"], [8, "plant%1:06:01::"], [9, "vary%2:42:00::"], [14, "mg%1:23:00::"], [16, "l%1:23:00::"], [19, "average%1:09:00::"], [22, "mg%1:23:00::"], [24, "l%1:23:00::"]]
+    pos: ["NNP", "NNP", "NNP", "DT", "NN", "IN", "DT", "JJ", "TO", "DT", "JJ", "NN", "VBD", "IN", "CD", "CC", "CD", "NN", ":", "NN", "IN", "DT", "NN", "IN", "CD", "NN", ":", "NN", "."]
+    text: '#PILOT PLANT OPERATIONS# The BOD of the influent to the pilot plant varied between 110 and 710 mg/l with an average of 350 mg/l.'
+    tokens: [[0, 6], [7, 12], [13, 24], [25, 28], [29, 32], [33, 35], [36, 39], [40, 48], [49, 51], [52, 55], [56, 61], [62, 67], [68, 74], [75, 82], [83, 86], [87, 90], [91, 94], [95, 97], [97, 98], [98, 99], [100, 104], [105, 107], [108, 115], [116, 118], [119, 122], [123, 125], [125, 126], [126, 127], [127, 128]]
+    wn16_key: [[7, "influent%5:00:00:incoming:00"], [10, "pilot%5:00:00:empirical:00"], [11, "plant%1:06:01::"], [12, "vary%2:42:00::"], [17, "mg%1:23:00::"], [19, "l%1:23:00::"], [22, "average%1:09:00::"], [25, "mg%1:23:00::"], [27, "l%1:23:00::"]]
+    wn30_key: [[7, "influent%3:00:00:incoming:00"], [11, "plant%1:06:01::"], [12, "vary%2:42:00::"], [17, "mg%1:23:00::"], [19, "l%1:23:00::"], [22, "average%1:09:00::"], [25, "mg%1:23:00::"], [27, "l%1:23:00::"]]
 cK+b:
     lemmas: ["This", "be", "equivalent_to", "240", "mg", "/", "l", "bod", "on", "a", "24", "-", "hr", "basis", "."]
     oewn_key: [[1, "oewn-02670846-v"], [4, "oewn-13745171-n"], [6, "oewn-02198871-s"], [10, "oewn-02196359-s"], [12, "oewn-15252642-n"], [13, "oewn-13813124-n"]]
@@ -748,15 +745,14 @@ BsLg:
     wn16_key: [[1, "low%3:00:02::"], [3, "be_due%2:42:00::"], [5, "removal%1:04:00::"], [8, "excess%5:00:00:unnecessary:00"], [9, "suspended%5:00:01:supported:00"], [10, "solid%1:27:04::"], [12, "sedimentation%1:19:00::"], [15, "only%5:00:00:single(a):00"], [16, "dilution%1:27:00::"], [17, "be%2:42:06::"], [18, "surface%1:15:00::"], [19, "runoff%1:11:00::"], [21, "be%2:42:03::"], [22, "very%4:02:00::"], [23, "low%3:00:02::"], [26, "study%1:04:00::"]]
     wn30_key: [[1, "low%3:00:02::"], [3, "be_due%2:42:00::"], [5, "removal%1:04:00::"], [8, "excess%3:00:00:unnecessary:00"], [9, "suspended%3:00:01:supported:00"], [10, "solid%1:27:04::"], [12, "sedimentation%1:19:00::"], [15, "only%3:00:00:single:05"], [16, "dilution%1:27:00::"], [17, "be%2:42:06::"], [18, "surface%1:15:00::"], [19, "runoff%1:11:00::"], [21, "be%2:42:03::"], [22, "very%4:02:00::"], [23, "low%3:00:02::"], [26, "study%1:04:00::"]]
 MG8V:
-    lemmas: ["routine", "microscopic", "examination", "be", "make", "of", "the", "mixed", "liquor", "as", "indicate", "by", "person", "and", "person", "for", "the", "various", "type", "of", "protozoa", "."]
-    oewn_key: [[0, "oewn-01678797-s"], [1, "oewn-02930157-a"], [2, "oewn-00637093-n"], [4, "oewn-02566500-v"], [8, "oewn-14965368-n"], [10, "oewn-00925764-v"], [12, "oewn-00007846-n"], [14, "oewn-00007846-n"], [17, "oewn-00496454-s"], [18, "oewn-05848697-n"], [20, "oewn-01391829-n"]]
+    lemmas: ["#microscopic", "examination#", "routine", "microscopic", "examination", "be", "make", "of", "the", "mixed", "liquor", "as", "indicate", "by", "person", "and", "person", "for", "the", "various", "type", "of", "protozoa", "."]
+    oewn_key: [[2, "oewn-01678797-s"], [3, "oewn-02930157-a"], [4, "oewn-00637093-n"], [6, "oewn-02566500-v"], [10, "oewn-14965368-n"], [12, "oewn-00925764-v"], [14, "oewn-00007846-n"], [16, "oewn-00007846-n"], [19, "oewn-00496454-s"], [20, "oewn-05848697-n"], [22, "oewn-01391829-n"]]
     paragraph: '14'
-    pos: ["JJ", "JJ", "NNS", "VBD", "VBN", "IN", "DT", "JJ", "NN", "IN", "VBN", "IN", "NNP", "CC", "NNP", "IN", "DT", "JJ", "NNS", "IN", "NN", "."]
-    text: 'Routine microscopic examinations were made of the mixed liquor as indicated by McKinney
-  and Gram for the various types of protozoa.'
-    tokens: [[0, 7], [8, 19], [20, 32], [33, 37], [38, 42], [43, 45], [46, 49], [50, 55], [56, 62], [63, 65], [66, 75], [76, 78], [79, 87], [88, 91], [92, 96], [97, 100], [101, 104], [105, 112], [113, 118], [119, 121], [122, 130], [130, 131]]
-    wn16_key: [[0, "routine%5:00:00:regular:00"], [1, "microscopic%3:01:00::"], [2, "examination%1:04:00::"], [4, "make%2:41:00::"], [7, "mixed%5:00:00:blended:00"], [8, "liquor%1:27:00::"], [10, "indicate%2:32:03::"], [12, "person%1:03:00::"], [14, "person%1:03:00::"], [17, "various%5:00:00:individual:00"], [18, "type%1:09:00::"], [20, "protozoa%1:05:00::"]]
-    wn30_key: [[0, "routine%3:00:00:ordinary:00"], [1, "microscopic%3:01:00::"], [2, "examination%1:04:00::"], [4, "make%2:41:00::"], [8, "liquor%1:27:00::"], [10, "indicate%2:32:03::"], [12, "person%1:03:00::"], [14, "person%1:03:00::"], [17, "various%3:00:00:individual:00"], [18, "type%1:09:00::"], [20, "protozoa%1:05:00::"]]
+    pos: ["NNP", "NNP", "JJ", "JJ", "NNS", "VBD", "VBN", "IN", "DT", "JJ", "NN", "IN", "VBN", "IN", "NNP", "CC", "NNP", "IN", "DT", "JJ", "NNS", "IN", "NN", "."]
+    text: '#MICROSCOPIC EXAMINATION# Routine microscopic examinations were made of the mixed liquor as indicated by McKinney and Gram for the various types of protozoa.'
+    tokens: [[0, 12], [13, 25], [26, 33], [34, 45], [46, 58], [59, 63], [64, 68], [69, 71], [72, 75], [76, 81], [82, 88], [89, 91], [92, 101], [102, 104], [105, 113], [114, 117], [118, 122], [123, 126], [127, 130], [131, 138], [139, 144], [145, 147], [148, 156], [156, 157]]
+    wn16_key: [[2, "routine%5:00:00:regular:00"], [3, "microscopic%3:01:00::"], [4, "examination%1:04:00::"], [6, "make%2:41:00::"], [9, "mixed%5:00:00:blended:00"], [10, "liquor%1:27:00::"], [12, "indicate%2:32:03::"], [14, "person%1:03:00::"], [16, "person%1:03:00::"], [19, "various%5:00:00:individual:00"], [20, "type%1:09:00::"], [22, "protozoa%1:05:00::"]]
+    wn30_key: [[2, "routine%3:00:00:ordinary:00"], [3, "microscopic%3:01:00::"], [4, "examination%1:04:00::"], [6, "make%2:41:00::"], [10, "liquor%1:27:00::"], [12, "indicate%2:32:03::"], [14, "person%1:03:00::"], [16, "person%1:03:00::"], [19, "various%3:00:00:individual:00"], [20, "type%1:09:00::"], [22, "protozoa%1:05:00::"]]
 26+a:
     lemmas: ["It", "be", "find", "that", "the", "aerated", "lagoon", "be", "an", "activated", "sludge", "system", "rather", "than", "an", "oxidation", "pond", "."]
     oewn_key: [[2, "oewn-00920843-v"], [5, "oewn-01960950-s"], [6, "oewn-09351652-n"], [7, "oewn-02610777-v"], [9, "oewn-01960827-s"], [10, "oewn-14615984-n"], [11, "oewn-04384144-n"], [15, "oewn-13551611-n"], [16, "oewn-09420266-n"]]
@@ -855,14 +851,14 @@ QrQF:
     wn16_key: [[1, "predomination%1:26:00::"], [3, "free-swimming%5:00:00:vagile:00"], [4, "ciliated_protozoan%1:05:00::"], [5, "be%2:42:03::"], [6, "indicative_of%5:00:00:communicative:00"], [8, "high%3:00:02::"], [9, "bacterial%3:01:00::"], [10, "population%1:14:01::"]]
     wn30_key: [[1, "predomination%1:26:00::"], [3, "free-swimming%3:00:00:vagile:00"], [4, "ciliated_protozoan%1:05:00::"], [5, "be%2:42:03::"], [8, "high%3:00:02::"], [9, "bacterial%3:01:00::"], [10, "population%1:14:01::"]]
 WSOO:
-    lemmas: ["one", "of", "the", "important", "aspect", "of", "this", "study", "be", "to", "determine", "the", "oxygen", "transfer", "relationship", "of", "the", "mechanical", "aerator", "."]
-    oewn_key: [[3, "oewn-01278672-a"], [4, "oewn-04740358-n"], [7, "oewn-00645746-n"], [10, "oewn-00920843-v"], [12, "oewn-14672278-n"], [13, "oewn-00316812-n"], [14, "oewn-13802931-n"], [17, "oewn-02902437-a"], [18, "oewn-02685423-n"]]
+    lemmas: ["#oxygen", "transfer#", "one", "of", "the", "important", "aspect", "of", "this", "study", "be", "to", "determine", "the", "oxygen", "transfer", "relationship", "of", "the", "mechanical", "aerator", "."]
+    oewn_key: [[5, "oewn-01278672-a"], [6, "oewn-04740358-n"], [9, "oewn-00645746-n"], [12, "oewn-00920843-v"], [14, "oewn-14672278-n"], [15, "oewn-00316812-n"], [16, "oewn-13802931-n"], [19, "oewn-02902437-a"], [20, "oewn-02685423-n"]]
     paragraph: '16'
-    pos: ["NN", "IN", "DT", "JJ", "NNS", "IN", "DT", "NN", "VBD", "TO", "VB", "DT", "NN", "NN", "NNS", "IN", "DT", "JJ", "NN", "."]
-    text: 'One of the important aspects of this study was to determine the oxygen transfer relationships of the mechanical aerator.'
-    tokens: [[0, 3], [4, 6], [7, 10], [11, 20], [21, 28], [29, 31], [32, 36], [37, 42], [43, 46], [47, 49], [50, 59], [60, 63], [64, 70], [71, 79], [80, 93], [94, 96], [97, 100], [101, 111], [112, 119], [119, 120]]
-    wn16_key: [[3, "important%3:00:00::"], [4, "aspect%1:07:02::"], [7, "study%1:04:00::"], [10, "determine%2:32:00::"], [12, "oxygen%1:27:00::"], [13, "transfer%1:04:00::"], [14, "relationship%1:24:00::"], [17, "mechanical%3:01:01::"], [18, "aerator%1:06:00::"]]
-    wn30_key: [[3, "important%3:00:00::"], [4, "aspect%1:07:02::"], [7, "study%1:04:00::"], [10, "determine%2:32:00::"], [12, "oxygen%1:27:00::"], [13, "transfer%1:04:00::"], [14, "relationship%1:24:00::"], [17, "mechanical%3:01:01::"], [18, "aerator%1:06:00::"]]
+    pos: ["NNP", "NNP", "NN", "IN", "DT", "JJ", "NNS", "IN", "DT", "NN", "VBD", "TO", "VB", "DT", "NN", "NN", "NNS", "IN", "DT", "JJ", "NN", "."]
+    text: '#OXYGEN TRANSFER# One of the important aspects of this study was to determine the oxygen transfer relationships of the mechanical aerator.'
+    tokens: [[0, 7], [8, 17], [18, 21], [22, 24], [25, 28], [29, 38], [39, 46], [47, 49], [50, 54], [55, 60], [61, 64], [65, 67], [68, 77], [78, 81], [82, 88], [89, 97], [98, 111], [112, 114], [115, 118], [119, 129], [130, 137], [137, 138]]
+    wn16_key: [[5, "important%3:00:00::"], [6, "aspect%1:07:02::"], [9, "study%1:04:00::"], [12, "determine%2:32:00::"], [14, "oxygen%1:27:00::"], [15, "transfer%1:04:00::"], [16, "relationship%1:24:00::"], [19, "mechanical%3:01:01::"], [20, "aerator%1:06:00::"]]
+    wn30_key: [[5, "important%3:00:00::"], [6, "aspect%1:07:02::"], [9, "study%1:04:00::"], [12, "determine%2:32:00::"], [14, "oxygen%1:27:00::"], [15, "transfer%1:04:00::"], [16, "relationship%1:24:00::"], [19, "mechanical%3:01:01::"], [20, "aerator%1:06:00::"]]
 ZYq3:
     lemmas: ["routine", "determination", "be", "make", "for", "dissolved", "oxygen", "in", "the", "mixed", "liquor", "and", "for", "oxygen", "uptake", "rate", "."]
     oewn_key: [[0, "oewn-01678797-s"], [1, "oewn-00152317-n"], [3, "oewn-02566500-v"], [5, "oewn-01509937-s"], [6, "oewn-14672278-n"], [10, "oewn-14965368-n"], [13, "oewn-14672278-n"], [14, "oewn-00839759-n"], [15, "oewn-15311467-n"]]
@@ -982,15 +978,14 @@ WcOs:
     wn16_key: [[1, "polyethylene%1:27:00::"], [2, "cover%1:06:02::"], [3, "reduce%2:30:00::"], [5, "oxygen%1:27:00::"], [6, "transfer%1:04:00::"], [7, "rate%1:28:00::"], [9, "10%5:00:00:cardinal:00"], [10, "percent%1:24:00::"], [12, "indicate%2:32:03::"], [15, "maximum%3:00:00::"], [16, "oxygen%1:27:00::"], [17, "transfer%1:04:00::"], [18, "be%2:42:05::"], [21, "rotor%1:06:01::"], [26, "surface%1:15:00::"]]
     wn30_key: [[1, "polyethylene%1:27:00::"], [2, "cover%1:06:02::"], [3, "reduce%2:30:00::"], [5, "oxygen%1:27:00::"], [6, "transfer%1:04:00::"], [7, "rate%1:28:00::"], [9, "10%3:00:00:cardinal:00"], [10, "percent%1:24:00::"], [12, "indicate%2:32:03::"], [15, "maximum%3:00:00::"], [16, "oxygen%1:27:00::"], [17, "transfer%1:04:00::"], [18, "be%2:42:05::"], [21, "rotor%1:06:01::"], [26, "surface%1:15:00::"]]
 gCQV:
-    lemmas: ["During", "this", "study", "septic", "condition", "develop", "in", "the", "oxidation", "pond", "in", "the", "spring", "when", "the", "ice", "melt", "."]
-    oewn_key: [[2, "oewn-00645746-n"], [3, "oewn-02121107-a"], [4, "oewn-13943868-n"], [5, "oewn-02630344-v"], [8, "oewn-13551611-n"], [9, "oewn-09420266-n"], [12, "oewn-15261841-n"], [15, "oewn-14939335-n"], [16, "oewn-00376777-v"]]
+    lemmas: ["#oxidation", "pond#", "During", "this", "study", "septic", "condition", "develop", "in", "the", "oxidation", "pond", "in", "the", "spring", "when", "the", "ice", "melt", "."]
+    oewn_key: [[4, "oewn-00645746-n"], [5, "oewn-02121107-a"], [6, "oewn-13943868-n"], [7, "oewn-02630344-v"], [10, "oewn-13551611-n"], [11, "oewn-09420266-n"], [14, "oewn-15261841-n"], [17, "oewn-14939335-n"], [18, "oewn-00376777-v"]]
     paragraph: '18'
-    pos: ["IN", "DT", "NN", "JJ", "NNS", "VBN", "IN", "DT", "NN", "NN", "IN", "DT", "NN", "WRB", "DT", "NN", "VBN", "."]
-    text: 'During this study septic conditions developed in the oxidation pond in the spring
-  when the ice melted.'
-    tokens: [[0, 6], [7, 11], [12, 17], [18, 24], [25, 35], [36, 45], [46, 48], [49, 52], [53, 62], [63, 67], [68, 70], [71, 74], [75, 81], [82, 86], [87, 90], [91, 94], [95, 101], [101, 102]]
-    wn16_key: [[2, "study%1:04:00::"], [3, "septic%3:00:00::"], [4, "condition%1:26:00::"], [5, "develop%2:42:00::"], [8, "oxidation%1:22:00::"], [9, "pond%1:17:00::"], [12, "spring%1:28:00::"], [15, "ice%1:27:00::"], [16, "melt%2:30:00::"]]
-    wn30_key: [[2, "study%1:04:00::"], [3, "septic%3:00:00::"], [4, "condition%1:26:00::"], [5, "develop%2:42:00::"], [8, "oxidation%1:22:00::"], [9, "pond%1:17:00::"], [12, "spring%1:28:00::"], [15, "ice%1:27:00::"], [16, "melt%2:30:00::"]]
+    pos: ["NNP", "NNP", "IN", "DT", "NN", "JJ", "NNS", "VBN", "IN", "DT", "NN", "NN", "IN", "DT", "NN", "WRB", "DT", "NN", "VBN", "."]
+    text: '#OXIDATION POND# During this study septic conditions developed in the oxidation pond in the spring when the ice melted.'
+    tokens: [[0, 10], [11, 16], [17, 23], [24, 28], [29, 34], [35, 41], [42, 52], [53, 62], [63, 65], [66, 69], [70, 79], [80, 84], [85, 87], [88, 91], [92, 98], [99, 103], [104, 107], [108, 111], [112, 118], [118, 119]]
+    wn16_key: [[4, "study%1:04:00::"], [5, "septic%3:00:00::"], [6, "condition%1:26:00::"], [7, "develop%2:42:00::"], [10, "oxidation%1:22:00::"], [11, "pond%1:17:00::"], [14, "spring%1:28:00::"], [17, "ice%1:27:00::"], [18, "melt%2:30:00::"]]
+    wn30_key: [[4, "study%1:04:00::"], [5, "septic%3:00:00::"], [6, "condition%1:26:00::"], [7, "develop%2:42:00::"], [10, "oxidation%1:22:00::"], [11, "pond%1:17:00::"], [14, "spring%1:28:00::"], [17, "ice%1:27:00::"], [18, "melt%2:30:00::"]]
 9d1F:
     lemmas: ["shortly", "after", "this", "study", "end", "septic", "condition", "result", "which", "require", "the", "addition", "of", "sodium_nitrate", "."]
     oewn_key: [[0, "oewn-00034576-r"], [3, "oewn-00645746-n"], [4, "oewn-02741293-v"], [5, "oewn-02121107-a"], [6, "oewn-13943868-n"], [7, "oewn-02640346-v"], [9, "oewn-02634015-v"], [11, "oewn-02682269-n"], [13, "oewn-14884754-n"]]
