@@ -1139,6 +1139,44 @@ uv run semcor-fix-quote-order --dry-run    # preview without writing
 
 Idempotent, like the other `fix-*` scripts.
 
+### `semcor-fix-closing-quote-gap`
+
+The mirror image of `semcor-fix-single-quote-gap` above: that fix moves
+an *opening* single quote flush against the word it introduces; a
+*closing* quote (or quote pair) has the same gap-on-the-wrong-side bug
+at the other end of the quoted span (`sepulchred ".` where Brown's real
+text has `sepulchred".`). Also folds in `semcor-fix-quote-order`'s
+ordering rule, since a gapped closing pair is frequently also
+mis-ordered (`'perhaps "'.` needs both the gap closed *and* reordered to
+`'perhaps'".`) -- fixing one without the other would still leave a
+divergence.
+
+Swept every sentence for a gapped `'`/`"` token in closing position
+(nothing, or closing-position punctuation, follows), skipping any
+preceded by a purely numeric token (an inches mark like `1 "` is an
+unrelated bug). Verified each surviving candidate individually against
+`brown-nolines.txt` -- reconstructing the fixed target with a few words
+of context and requiring a unique reference match -- before accepting
+it; 77 confirmed this way. `pos` is corrected to `''` (closing-quote
+tag) for the run's token(s) where this corpus had them mistagged ` `` `
+(opening); none of the 77 carries a sense annotation on either side of
+the swap.
+
+`src/semcor/closing-quote-gap-fixes.yaml` lists all 77 confirmed `{file,
+sentence, index}` fixes (`index` is the run's first token's own index --
+since the fix never changes a sentence's token *count*, only content and
+offsets, this stays valid to re-derive even against already-fixed data,
+which is how idempotency works here) -- generated once, offline, against
+`brown-nolines.txt`, this script has no NLTK dependency and just applies
+that manifest.
+
+```sh
+uv run semcor-fix-closing-quote-gap              # apply closing-quote-gap-fixes.yaml to data/
+uv run semcor-fix-closing-quote-gap --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-fix-leftover-roman-numeral-slash`
 
 brown_nolines.txt writes a roman numeral as a plain Arabic digit
