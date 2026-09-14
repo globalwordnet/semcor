@@ -1177,6 +1177,49 @@ uv run semcor-fix-closing-quote-gap --dry-run    # preview without writing
 
 Idempotent, like the other `fix-*` scripts.
 
+### `semcor-fix-hyphen-slash-gap`
+
+A large class of remaining `brown-nolines.txt` divergences turned out
+to be pure re-punctuation: every word already exists as its own
+correctly-spelled token in the right order, but Brown's real text joins
+some of them with a hyphen or slash (or nothing) where this corpus
+still has a plain space -- `1 - 1 2` vs `1-1/2`, `22 - year old` vs
+`22-year-old`, `3 - to 3` vs `3-to-3`.
+
+Deliberately *not* `semcor-fix-hyphen-compound-merge`'s approach
+(merging tokens together, dropping the merged span's own sense
+annotations per that script's precedent): `22-year-old` alone carries
+three separate sense annotations that a merge into one token would
+force choosing between. Since every word is already its own token here,
+tokens are left completely alone -- same count, same `lemmas`/`pos`/
+every sense-key layer -- and only the *interstitial* text between them
+changes (a space becomes `-`, `/`, or nothing), plus, for a handful of
+tokens whose own text has an underscore standing in for what should
+print as a hyphen (`submarine_ball` -> `submarine-ball` on the surface,
+lemma unchanged), that one character within the token.
+
+Detection found every `replace` opcode (the same per-document alignment
+`semcor-extract-brown-nolines-review` uses) where Brown's side is
+reconstructable from this corpus's side by inserting only `-`, `/`, or
+` ` at the word gaps, then verified each survivor individually against
+`brown-nolines.txt` (a context-window search requiring a unique match)
+before accepting it -- 451 confirmed this way.
+
+`src/semcor/hyphen-slash-gap-fixes.yaml` lists all 451 confirmed {file,
+sentence, start_idx, end_idx, target} fixes (`target` is the exact
+desired reconstruction of `tokens[start_idx:end_idx]`). The script
+re-derives the actual per-gap connectors and any within-token
+substitution from `target` against the *current* tokens at apply time
+rather than storing them directly, which is also how it recognizes an
+already-applied fix as a no-op.
+
+```sh
+uv run semcor-fix-hyphen-slash-gap              # apply hyphen-slash-gap-fixes.yaml to data/
+uv run semcor-fix-hyphen-slash-gap --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-fix-leftover-roman-numeral-slash`
 
 brown_nolines.txt writes a roman numeral as a plain Arabic digit
