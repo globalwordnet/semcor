@@ -1139,6 +1139,32 @@ uv run semcor-fix-quote-order --dry-run    # preview without writing
 
 Idempotent, like the other `fix-*` scripts.
 
+### `semcor-fix-leftover-roman-numeral-slash`
+
+brown_nolines.txt writes a roman numeral as a plain Arabic digit
+preceded by a literal `/` (`World War /2,` = "World War II,", `Louis
+/15,` = "Louis XV,") -- an escape `semcor-compare-brown-nolines`'s
+`decode_reference_text` already strips on the reference side, and that
+this corpus's own construction pipeline normalizes away almost
+everywhere too. Ten sentences across six files never got that
+normalization, leaving the raw `/` sitting in `text` -- one
+(`data/religion/br-d03.yaml`'s `James_/1_1`) even doubled the digit,
+from an earlier pass that appended rather than replaced.
+
+The lemma layer already carries a semantic lemma (`person`), not this
+word's surface form, so only `text`/`tokens` need fixing -- `pos`,
+`lemmas`, and every sense-key layer stay aligned by index either way,
+no manifest needed (the fix scans for the same `/digit` pattern
+`decode_reference_text` does, plus the one doubled-digit case, directly
+against `data/*.yaml`).
+
+```sh
+uv run semcor-fix-leftover-roman-numeral-slash              # apply to data/
+uv run semcor-fix-leftover-roman-numeral-slash --dry-run    # preview without writing
+```
+
+Idempotent, like the other `fix-*` scripts.
+
 ### `semcor-ufsac`
 
 Exports `data/` to the [UFSAC](https://github.com/getalp/UFSAC) XML format.
@@ -1211,13 +1237,29 @@ either side of it worked); tracked as a running "currently inside a
 span" state instead (capped at 50 words so a brace that never closes --
 brown_nolines.txt has a few more `}` than `{` -- doesn't mis-flag the
 rest of the document), which found ~1,600 brace-derived words instead
-of 462. `<...>` and `**f` are left alone -- they look tangled up with
-the already-tracked formula-placeholder gap (#16/#34) rather than being
+of 462. `**f` is left alone -- it looks tangled up with the
+already-tracked formula-placeholder gap (#16/#34) rather than being
 clean reference-side noise (`**h` turned out not to belong in that
-group -- see below). A separate, harder case -- the same
-ALL-CAPS paragraph-lead convention appearing with *no* brace wrapper at
-all (`YOU MAY DO AS YOU PLEASE with God now.`) -- has no signal to key
-off and is left unhandled.
+group -- see below). The same ALL-CAPS paragraph-lead convention also
+shows up with *no* brace wrapper at all (`THE forces which survive...`
+starting a new paragraph) -- `_adopt_our_casing` now also fires
+whenever a reference word is all-caps on its own cased characters and
+matches this corpus's word case-insensitively, not just inside a
+brace-flagged span (`str.isupper()` already ignores surrounding
+punctuation/digits, so a bare `,` or `(2)` token never matches here).
+
+`<...>` (italics/emphasis: `<not>`, a math variable `<C>`, a title
+`<Discovery>`) is simpler than the brace case -- the text inside is
+already normally cased and matches this corpus's own word-for-word, so
+the angle brackets are just stripped as literal characters, like `~`/`^`
+below, no casing adoption needed. A `/` immediately before a digit is
+this transcription's own roman-numeral escape (`World War /2,` = "World
+War II,", `Louis /14,` = "Louis XIV,") that this corpus already
+normalizes to plain Arabic digits, so it's dropped too -- a lookbehind
+excludes digit-slash-digit so a genuine fraction like `14-1/2` is left
+alone. A backtick (`` ` ``) is this transcription's degree-symbol escape
+(`45\`` = 45 degrees); this corpus's own equivalent is a plain
+apostrophe, so `` ` `` decodes to `'`.
 
 `**h`/`**H` (fixes #70) turned out to have no corresponding character
 anywhere in this corpus's own data at all, unlike `**f` -- confirmed
@@ -1270,6 +1312,24 @@ adjustment (almost entirely single characters: `_`, `#`, `{`, `<`, `"`,
 `(`); regenerating dropped the divergent-word-line count by 109 with no
 `data/*.yaml` changes at all.
 
+`_anchor_pattern` itself had no word-boundary protection: a common
+fallback anchor like the single letter `A` (the last resort of
+`locate_file_boundaries`'s shrinking-k loop) could match *inside* an
+unrelated word (`Garson`) or as a prefix of one (`And`), handing one
+file's real content to its neighbour and truncating the first file's
+own span down to a handful of characters. A plain `\b` doesn't work as
+the fix, since `_` -- already treated as a separator elsewhere in this
+module -- counts as a word character to regex (so it wouldn't fire
+between a dateline's leading `_` and the word it introduces); using
+`(?<![A-Za-z0-9])`/`(?![A-Za-z0-9])` instead fixed several file pairs
+outright (`ch11`/`ch12`, `cj44`-`cj47`) while still letting `_AUSTIN`
+match. A residual failure mode -- the anchor is always a *prefix* of the
+first sentence, so a single bad/too-generic early word still falls back
+to an unreliable common word -- is documented on
+`locate_file_boundaries` itself and left for a follow-up;
+`semcor-extract-brown-nolines-review`'s `brown-nolines-large-mismatches.csv`
+output is exactly this failure mode's symptom.
+
 Regenerate `brown-nolines-offsets.yaml` only if `brown_nolines.txt`
 itself changes, or if `locate_file_boundaries`'s own matching logic
 does:
@@ -1295,6 +1355,43 @@ CI runs this on every push and pull request (see
 `.github/workflows/verify-brown.yml`) and uploads the generated
 `brown-nolines*` files as a build artifact. It's currently red -- see #5
 for the tracking issue and its sub-issues for what's been found so far.
+
+### `semcor-extract-brown-nolines-review`
+
+`brown-nolines.diff` mixes together several kinds of divergence that
+don't call for the same fix, and at its current size reading it directly
+stopped being practical. This walks the same per-document word alignment
+`semcor-compare-brown-nolines` uses (`difflib.SequenceMatcher` over
+`our_doc_words_with_sents` vs. `_decode_and_split` + `_adopt_our_casing`)
+and splits its opcodes into three checked-in CSVs instead:
+
+- `brown-nolines-missing.csv`: content this corpus doesn't have anywhere
+  nearby at all -- an `insert` opcode (a dropped subheadline like
+  `#MERGER PROPOSED#`), or a `replace` opcode where Brown's side, with
+  all whitespace/hyphens stripped, contains this corpus's side as a
+  substring and is strictly longer (`multi-million-dollar`: the
+  `multi-` prefix is real content this corpus is missing, not just a
+  reformatting of `million dollar`). Needs new token/lemma/pos/sense
+  annotation to add, not just a text edit.
+- `brown-nolines-review.csv`: every other opcode -- same content in a
+  different surface form (`"amount to` vs. `amount "to`, `Red` vs.
+  `(Red)`), or content only this corpus's side has. A blank `accept`
+  column is left for a human to mark `yes`/`no`/a note; a pattern that
+  turns out to be common and unambiguous (a spurious space before a
+  hyphen, say) is a candidate for promoting to its own `fix_*.py`
+  script instead of staying a per-row judgment call.
+- `brown-nolines-large-mismatches.csv`: opcodes over 50 words, almost
+  never a real per-word content divergence -- see
+  `semcor-compare-brown-nolines`'s `locate_file_boundaries` note on the
+  remaining offset-anchor weak spot above.
+
+```sh
+uv run semcor-extract-brown-nolines-review
+```
+
+Like `brown-nolines.diff` itself, all three are generated, checked-in
+snapshots meant to be annotated and whittled down over time, not
+hand-maintained from scratch each run.
 
 ### `semcor-verify-brown`
 
