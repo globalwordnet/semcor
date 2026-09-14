@@ -93,10 +93,20 @@ copy:
   so two real words end up with the single space that was already
   between them.
 
-`<...>` (italics/drop-caps) and `**f` (fraction-like placeholders,
-mostly in `learned`-genre science text) are left alone -- they look
-tangled up with the already-tracked formula-placeholder gap (#16/#34)
-rather than being a clean case of reference-side noise.
+- '<...>' wraps italicized text (emphasis like `<not>`, a math variable
+  like `<C>`, a ship/book name like `<Discovery>`) -- unlike the
+  ALL-CAPS `{...}` case, the text inside is already normally cased and
+  matches this corpus's own word-for-word, so the brackets are just
+  stripped as literal characters, the same as `~`/`^` above, with no
+  casing adoption needed. A handful of `<...>` spans also close up a
+  space this corpus keeps as two tokens (`<f(t)>` vs. this corpus's `f`
+  `(t)`) -- those few are left as genuine word-count mismatches rather
+  than guessed at.
+
+`**f` (fraction-like placeholders, mostly in `learned`-genre science
+text) is left alone -- it looks tangled up with the already-tracked
+formula-placeholder gap (#16/#34) rather than being a clean case of
+reference-side noise.
 """
 
 from __future__ import annotations
@@ -345,6 +355,10 @@ def decode_reference_text(text: str) -> str:
     # underlying word to plain ASCII either way, so a bare character
     # deletion recovers it exactly.
     text = text.replace("~", "").replace("^", "")
+    # '<...>' is italics/emphasis markup around already-normally-cased text
+    # (see the module docstring) -- a bare character deletion recovers the
+    # same plain word(s) this corpus already has, no casing adoption needed.
+    text = text.replace("<", "").replace(">", "")
     return text
 
 
