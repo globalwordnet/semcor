@@ -102,6 +102,13 @@ copy:
   space this corpus keeps as two tokens (`<f(t)>` vs. this corpus's `f`
   `(t)`) -- those few are left as genuine word-count mismatches rather
   than guessed at.
+- A '/' immediately before a digit is this transcription's roman-numeral
+  escape (`World War /2,` = "World War II,", `Article /2,` = "Article
+  II,", `Louis /14,` = "Louis XIV,", `/2, Corinthians` = "2
+  Corinthians") -- this corpus already normalizes the numeral to plain
+  Arabic digits, so the slash is dropped the same way. The lookbehind
+  requires a non-digit before the slash so a genuine fraction like
+  `14-1/2` or `5/64''` (always digit-slash-digit) is left untouched.
 
 `**f` (fraction-like placeholders, mostly in `learned`-genre science
 text) is left alone -- it looks tangled up with the already-tracked
@@ -359,6 +366,10 @@ def decode_reference_text(text: str) -> str:
     # (see the module docstring) -- a bare character deletion recovers the
     # same plain word(s) this corpus already has, no casing adoption needed.
     text = text.replace("<", "").replace(">", "")
+    # '/N' is a roman-numeral escape (see the module docstring); the
+    # lookbehind excludes digit-slash-digit so genuine fractions like
+    # '14-1/2' are left alone.
+    text = re.sub(r"(?<!\d)/(?=\d)", "", text)
     return text
 
 
