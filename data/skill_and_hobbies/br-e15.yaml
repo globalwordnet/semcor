@@ -47,12 +47,12 @@ ngUI:
     wn16_key: [[2, "prepare%2:30:00::"], [5, "dry%2:30:01::"], [7, "glaze%2:35:00::"], [9, "fire%2:30:00::"], [12, "give%2:40:07::"]]
     wn30_key: [[2, "prepare%2:30:00::"], [5, "dry%2:30:01::"], [7, "glaze%2:35:00::"], [9, "fire%2:30:00::"], [12, "give%2:40:07::"]]
 nfJV:
-    lemmas: ["basic", "pottery", "studio", "equipment", "."]
+    lemmas: ["#equipment:#", "basic", "pottery", "studio", "equipment", "."]
     oewn_key: []
     paragraph: '1'
-    pos: ["NNP", "NN", "NN", "NN", "."]
-    text: 'Basic pottery studio equipment.'
-    tokens: [[0, 5], [6, 13], [14, 20], [21, 30], [30, 31]]
+    pos: ["NNP", "NNP", "NN", "NN", "NN", "."]
+    text: '#EQUIPMENT:# Basic pottery studio equipment.'
+    tokens: [[0, 12], [13, 18], [19, 26], [27, 33], [34, 43], [43, 44]]
     wn16_key: []
     wn30_key: []
 d6a5:
@@ -67,12 +67,12 @@ d6a5:
     wn16_key: []
     wn30_key: []
 zYaw:
-    lemmas: ["ceramic", "modeling", "clay", ":", "red", ",", "white", "or", "buff", "."]
+    lemmas: ["#materials:#", "ceramic", "modeling", "clay", ":", "red", ",", "white", "or", "buff", "."]
     oewn_key: []
     paragraph: '2'
-    pos: ["JJ", "NN", "NN", ":", "JJ", ",", "JJ", "CC", "NN", "."]
-    text: 'Ceramic modeling clay: red, white or buff.'
-    tokens: [[0, 7], [8, 16], [17, 21], [21, 22], [23, 26], [26, 27], [28, 33], [34, 36], [37, 41], [41, 42]]
+    pos: ["NNP", "JJ", "NN", "NN", ":", "JJ", ",", "JJ", "CC", "NN", "."]
+    text: '#MATERIALS:# Ceramic modeling clay: red, white or buff.'
+    tokens: [[0, 12], [13, 20], [21, 29], [30, 34], [34, 35], [36, 39], [39, 40], [41, 46], [47, 49], [50, 54], [54, 55]]
     wn16_key: []
     wn30_key: []
 yFnm:
@@ -97,14 +97,14 @@ juBG:
     wn16_key: [[10, "indicate%2:32:00::"]]
     wn30_key: [[10, "indicate%2:32:00::"]]
 KQ9j:
-    lemmas: ["use", "well-wedged", "clay", ",", "free_of", "air_bubble", "and", "pliable", "enough", "to", "bend", "without", "crack", "."]
-    oewn_key: [[0, "oewn-01161188-v"], [10, "oewn-01282617-v"], [12, "oewn-00337070-v"]]
+    lemmas: ["#general", "directions:#", "use", "well-wedged", "clay", ",", "free_of", "air_bubble", "and", "pliable", "enough", "to", "bend", "without", "crack", "."]
+    oewn_key: [[2, "oewn-01161188-v"], [12, "oewn-01282617-v"], [14, "oewn-00337070-v"]]
     paragraph: '3'
-    pos: ["VB", "JJ", "NN", ",", "JJ", "NN", "CC", "JJ", "RB", "TO", "VB", "IN", "VBG", "."]
-    text: 'Use well-wedged clay, free_of air_bubbles and pliable enough to bend without cracking.'
-    tokens: [[0, 3], [4, 15], [16, 20], [20, 21], [22, 29], [30, 41], [42, 45], [46, 53], [54, 60], [61, 63], [64, 68], [69, 76], [77, 85], [85, 86]]
-    wn16_key: [[0, "use%2:34:01::"], [10, "bend%2:35:00::"], [12, "crack%2:30:01::"]]
-    wn30_key: [[0, "use%2:34:01::"], [10, "bend%2:35:00::"], [12, "crack%2:30:01::"]]
+    pos: ["NN", "NNP", "VB", "JJ", "NN", ",", "JJ", "NN", "CC", "JJ", "RB", "TO", "VB", "IN", "VBG", "."]
+    text: '#GENERAL DIRECTIONS:# Use well-wedged clay, free_of air_bubbles and pliable enough to bend without cracking.'
+    tokens: [[0, 8], [9, 21], [22, 25], [26, 37], [38, 42], [42, 43], [44, 51], [52, 63], [64, 67], [68, 75], [76, 82], [83, 85], [86, 90], [91, 98], [99, 107], [107, 108]]
+    wn16_key: [[2, "use%2:34:01::"], [12, "bend%2:35:00::"], [14, "crack%2:30:01::"]]
+    wn30_key: [[2, "use%2:34:01::"], [12, "bend%2:35:00::"], [14, "crack%2:30:01::"]]
 mdmb:
     lemmas: ["clean", "wooden", "mold", "and", "press", "thoroughly", ";", "they", "must", "be", "free_of", "oil", ",", "wax", "and", "dust", "."]
     oewn_key: [[0, "oewn-01535377-v"], [9, "oewn-02610777-v"]]
@@ -291,26 +291,23 @@ Y2BG:
     wn16_key: [[2, "be%2:42:03::"], [8, "square%2:30:00::"], [16, "press%2:35:00::"], [22, "smooth%2:35:00::"]]
     wn30_key: [[2, "be%2:42:03::"], [8, "square%2:30:00::"], [16, "press%2:35:00::"], [22, "smooth%2:35:00::"]]
 YOYx:
-    lemmas: ["if", "the", "background", "of", "design", "be", "too", "smooth", ",", "or", "you", "wish", "to", "create", "a", "wood-grained", "effect", ",", "it", "may", "be_added", "at", "this", "time", "with", "a", "dull", "tool", "such_as", "the", "handle", "of", "a", "fine", "paintbrush", "."]
+    lemmas: ["if", "the", "background", "of", "design", "be", "too", "smooth", ",", "or", "you", "wish", "to", "create", "a", "wood-grained", "effect", ",", "it", "may", "be_added", "at", "this", "time", "with", "a", "dull", "tool", "such", "as", "the", "handle", "of", "a", "fine", "paintbrush", "."]
     oewn_key: [[5, "oewn-02610777-v"], [11, "oewn-01828678-v"], [13, "oewn-01620211-v"]]
     paragraph: '5'
-    pos: ["IN", "DT", "NN", "IN", "NN", "VBZ", "RB", "JJ", ",", "CC", "PRP", "VBP", "VB", "VB", "DT", "JJ", "NN", ",", "PRP", "MD", "VB", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "JJ", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
-    text: 'if the background of design is too smooth, or you wish to create a wood-grained
-  effect, it may be_added at this time with a dull tool such_as the handle of a fine
-  paintbrush.'
-    tokens: [[0, 2], [3, 6], [7, 17], [18, 20], [21, 27], [28, 30], [31, 34], [35, 41], [41, 42], [43, 45], [46, 49], [50, 54], [55, 57], [58, 64], [65, 66], [67, 79], [80, 86], [86, 87], [88, 90], [91, 94], [95, 103], [104, 106], [107, 111], [112, 116], [117, 121], [122, 123], [124, 128], [129, 133], [134, 141], [142, 145], [146, 152], [153, 155], [156, 157], [158, 162], [163, 173], [173, 174]]
+    pos: ["IN", "DT", "NN", "IN", "NN", "VBZ", "RB", "JJ", ",", "CC", "PRP", "VBP", "VB", "VB", "DT", "JJ", "NN", ",", "PRP", "MD", "VB", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "JJ", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
+    text: 'if the background of design is too smooth, or you wish to create a wood-grained effect, it may be_added at this time with a dull tool such as the handle of a fine paintbrush.'
+    tokens: [[0, 2], [3, 6], [7, 17], [18, 20], [21, 27], [28, 30], [31, 34], [35, 41], [41, 42], [43, 45], [46, 49], [50, 54], [55, 57], [58, 64], [65, 66], [67, 79], [80, 86], [86, 87], [88, 90], [91, 94], [95, 103], [104, 106], [107, 111], [112, 116], [117, 121], [122, 123], [124, 128], [129, 133], [134, 138], [139, 141], [142, 145], [146, 152], [153, 155], [156, 157], [158, 162], [163, 173], [173, 174]]
     wn16_key: [[5, "be%2:42:03::"], [11, "wish%2:37:02::"], [13, "create%2:36:00::"]]
     wn30_key: [[5, "be%2:42:03::"], [11, "wish%2:37:02::"], [13, "create%2:36:00::"]]
 wSpL:
-    lemmas: ["make", "slight", ",", "smooth", "groove", "rather_than", "cut", "for", "the", "texture", "(", "cut", "could", "cause", "air_pocket", "under", "the", "glaze", "create", "pinhole", "or", "crater", "in", "the", "glaze", "during", "firing", ")", "."]
-    oewn_key: [[0, "oewn-01620211-v"], [13, "oewn-01649143-v"], [18, "oewn-01620211-v"]]
+    lemmas: ["make", "slight", ",", "smooth", "groove", "rather", "than", "cut", "for", "the", "texture", "(", "cut", "could", "cause", "air_pocket", "under", "the", "glaze", "create", "pinhole", "or", "crater", "in", "the", "glaze", "during", "firing", ")", "."]
+    oewn_key: [[0, "oewn-01620211-v"], [14, "oewn-01649143-v"], [19, "oewn-01620211-v"]]
     paragraph: '5'
-    pos: ["VB", "JJ", ",", "JJ", "NNS", "RB", "NNS", "IN", "DT", "NN", "NN", "NNS", "MD", "VB", "NN", "IN", "DT", "NN", "VBG", "NNS", "CC", "NNS", "IN", "DT", "NN", "IN", "NN", "NN", "."]
-    text: 'Make slight, smooth grooves rather_than cuts for the texture (cuts could cause air_pockets
-  under the glaze creating pinholes or craters in the glaze during firing).'
-    tokens: [[0, 4], [5, 11], [11, 12], [13, 19], [20, 27], [28, 39], [40, 44], [45, 48], [49, 52], [53, 60], [61, 62], [62, 66], [67, 72], [73, 78], [79, 90], [91, 96], [97, 100], [101, 106], [107, 115], [116, 124], [125, 127], [128, 135], [136, 138], [139, 142], [143, 148], [149, 155], [156, 162], [162, 163], [163, 164]]
-    wn16_key: [[0, "make%2:36:00::"], [13, "cause%2:36:00::"], [18, "create%2:36:00::"]]
-    wn30_key: [[0, "make%2:36:00::"], [13, "cause%2:36:00::"], [18, "create%2:36:00::"]]
+    pos: ["VB", "JJ", ",", "JJ", "NNS", "IN", "IN", "NNS", "IN", "DT", "NN", "NN", "NNS", "MD", "VB", "NN", "IN", "DT", "NN", "VBG", "NNS", "CC", "NNS", "IN", "DT", "NN", "IN", "NN", "NN", "."]
+    text: 'Make slight, smooth grooves rather than cuts for the texture (cuts could cause air_pockets under the glaze creating pinholes or craters in the glaze during firing).'
+    tokens: [[0, 4], [5, 11], [11, 12], [13, 19], [20, 27], [28, 34], [35, 39], [40, 44], [45, 48], [49, 52], [53, 60], [61, 62], [62, 66], [67, 72], [73, 78], [79, 90], [91, 96], [97, 100], [101, 106], [107, 115], [116, 124], [125, 127], [128, 135], [136, 138], [139, 142], [143, 148], [149, 155], [156, 162], [162, 163], [163, 164]]
+    wn16_key: [[0, "make%2:36:00::"], [14, "cause%2:36:00::"], [19, "create%2:36:00::"]]
+    wn30_key: [[0, "make%2:36:00::"], [14, "cause%2:36:00::"], [19, "create%2:36:00::"]]
 BYTS:
     lemmas: ["leave", "the", "clay", "on", "plaster", "board", "to", "dry", "slowly", ",", "cover", "lightly", "with", "a", "loose", "piece", "of", "plastic", "or", "cloth", "to", "prevent", "warping", "."]
     oewn_key: [[7, "oewn-00219829-v"], [10, "oewn-01335412-v"], [21, "oewn-02458316-v"]]
@@ -324,14 +321,14 @@ BYTS:
     wn16_key: [[0, "leave%2:30:01::"], [7, "dry%2:30:00::"], [10, "cover%2:35:00::"], [21, "prevent%2:41:01::"]]
     wn30_key: [[7, "dry%2:30:00::"], [10, "cover%2:35:00::"], [21, "prevent%2:41:01::"]]
 +EdZ:
-    lemmas: ["(", "opposite", "page", ",", "right", "top", ")", ":", "Stoneware", "clay", "be", "use", "."]
-    oewn_key: [[11, "oewn-01161188-v"]]
+    lemmas: ["#rectangular", "tiles#", "(", "opposite", "page", ",", "right", "top", ")", ":", "Stoneware", "clay", "be", "use", "."]
+    oewn_key: [[13, "oewn-01161188-v"]]
     paragraph: '6'
-    pos: ["CD", "JJ", "NN", ",", "NN", "JJ", "NN", ":", "JJ", "NN", "VBD", "VBN", "."]
-    text: '(opposite page, right top): Stoneware clay was used.'
-    tokens: [[0, 1], [1, 9], [10, 14], [14, 15], [16, 21], [22, 25], [25, 26], [26, 27], [28, 37], [38, 42], [43, 46], [47, 51], [51, 52]]
-    wn16_key: [[11, "use%2:34:01::"]]
-    wn30_key: [[11, "use%2:34:01::"]]
+    pos: ["NNP", "NNP", "CD", "JJ", "NN", ",", "NN", "JJ", "NN", ":", "JJ", "NN", "VBD", "VBN", "."]
+    text: '#RECTANGULAR TILES# (opposite page, right top): Stoneware clay was used.'
+    tokens: [[0, 12], [13, 19], [20, 21], [21, 29], [30, 34], [34, 35], [36, 41], [42, 45], [45, 46], [46, 47], [48, 57], [58, 62], [63, 66], [67, 71], [71, 72]]
+    wn16_key: [[13, "use%2:34:01::"]]
+    wn30_key: [[13, "use%2:34:01::"]]
 sND1:
     lemmas: ["clay", "be", "roll", "to", "1", "4", "\"", "thickness", "."]
     oewn_key: [[2, "oewn-01393934-v"]]
@@ -391,14 +388,14 @@ Icjz:
     wn16_key: [[2, "fire%2:30:00::"]]
     wn30_key: [[2, "fire%2:30:00::"]]
 XpXI:
-    lemmas: ["(", "opposite", "page", ",", "bottom", ")", ":", "white", "clay", "be", "use", ",", "roll", "to", "1", "4", "\"", "thickness", "."]
-    oewn_key: [[10, "oewn-01161188-v"], [12, "oewn-01393934-v"]]
+    lemmas: ["#round", "plaque#", "(", "opposite", "page", ",", "bottom", ")", ":", "white", "clay", "be", "use", ",", "roll", "to", "1", "4", "\"", "thickness", "."]
+    oewn_key: [[12, "oewn-01161188-v"], [14, "oewn-01393934-v"]]
     paragraph: '7'
-    pos: ["CD", "JJ", "NN", ",", "NN", "NN", ":", "NNP", "NN", "VBD", "VBN", ",", "VBD", "TO", "CD", "CD", "``", "NN", "."]
-    text: '(opposite page, bottom): White clay was used, rolled to 1 4 " thickness.'
-    tokens: [[0, 1], [1, 9], [10, 14], [14, 15], [16, 22], [22, 23], [23, 24], [25, 30], [31, 35], [36, 39], [40, 44], [44, 45], [46, 52], [53, 55], [56, 57], [58, 59], [60, 61], [62, 71], [71, 72]]
-    wn16_key: [[10, "use%2:34:01::"], [12, "roll%2:35:05::"]]
-    wn30_key: [[10, "use%2:34:01::"], [12, "roll%2:35:05::"]]
+    pos: ["NNP", "NNP", "CD", "JJ", "NN", ",", "NN", "NN", ":", "NNP", "NN", "VBD", "VBN", ",", "VBD", "TO", "CD", "CD", "``", "NN", "."]
+    text: '#ROUND PLAQUE# (opposite page, bottom): White clay was used, rolled to 1 4 " thickness.'
+    tokens: [[0, 6], [7, 14], [15, 16], [16, 24], [25, 29], [29, 30], [31, 37], [37, 38], [38, 39], [40, 45], [46, 50], [51, 54], [55, 59], [59, 60], [61, 67], [68, 70], [71, 72], [73, 74], [75, 76], [77, 86], [86, 87]]
+    wn16_key: [[12, "use%2:34:01::"], [14, "roll%2:35:05::"]]
+    wn30_key: [[12, "use%2:34:01::"], [14, "roll%2:35:05::"]]
 uzdo:
     lemmas: ["bisque", "fire", "to", "cone", "05", "."]
     oewn_key: [[1, "oewn-00321337-v"]]
@@ -439,14 +436,14 @@ l1zP:
     wn16_key: []
     wn30_key: []
 xaLX:
-    lemmas: ["(", "opposite", "page", ",", "top", "left", ")", ":", "red_clay", "be", "use", ",", "roll", "1", "2", "\"", "thick", "."]
-    oewn_key: [[10, "oewn-01161188-v"], [12, "oewn-01393934-v"]]
+    lemmas: ["#paperweight#", "(", "opposite", "page", ",", "top", "left", ")", ":", "red_clay", "be", "use", ",", "roll", "1", "2", "\"", "thick", "."]
+    oewn_key: [[11, "oewn-01161188-v"], [13, "oewn-01393934-v"]]
     paragraph: '8'
-    pos: ["CD", "JJ", "NN", ",", "JJ", "RB", "NN", ":", "NN", "VBD", "VBN", ",", "VBD", "CD", "CD", "``", "JJ", "."]
-    text: '(opposite page, top left): Red_clay was used, rolled 1 2 " thick.'
-    tokens: [[0, 1], [1, 9], [10, 14], [14, 15], [16, 19], [20, 24], [24, 25], [25, 26], [27, 35], [36, 39], [40, 44], [44, 45], [46, 52], [53, 54], [55, 56], [57, 58], [59, 64], [64, 65]]
-    wn16_key: [[10, "use%2:34:01::"], [12, "roll%2:35:05::"]]
-    wn30_key: [[10, "use%2:34:01::"], [12, "roll%2:35:05::"]]
+    pos: ["JJ", "CD", "JJ", "NN", ",", "JJ", "RB", "NN", ":", "NN", "VBD", "VBN", ",", "VBD", "CD", "CD", "``", "JJ", "."]
+    text: '#PAPERWEIGHT# (opposite page, top left): Red_clay was used, rolled 1 2 " thick.'
+    tokens: [[0, 13], [14, 15], [15, 23], [24, 28], [28, 29], [30, 33], [34, 38], [38, 39], [39, 40], [41, 49], [50, 53], [54, 58], [58, 59], [60, 66], [67, 68], [69, 70], [71, 72], [73, 78], [78, 79]]
+    wn16_key: [[11, "use%2:34:01::"], [13, "roll%2:35:05::"]]
+    wn30_key: [[11, "use%2:34:01::"], [13, "roll%2:35:05::"]]
 4iWT:
     lemmas: ["mold", "be", "use", "as", "pattern", "and", "clay", "cut", "by", "hold", "knife", "at", "about", "45", "'", "angle", ",", "to", "form", "an", "undercut", ",", "make", "base", "smaller", "than", "the", "pattern", "top", "."]
     oewn_key: [[2, "oewn-01161188-v"], [7, "oewn-01555301-v"], [9, "oewn-02687605-v;oewn-01219234-v"], [18, "oewn-00142011-v"], [22, "oewn-00120124-v"]]
@@ -497,14 +494,14 @@ Y3eN:
     wn16_key: []
     wn30_key: []
 tMMW:
-    lemmas: ["(", "opposite", "page", ",", "top", "left", ")", ":", "remove", "wooden", "design", "head", "from", "bowl", "of", "butter", "mold", "."]
-    oewn_key: [[8, "oewn-00173351-v"]]
+    lemmas: ["#jars", "with", "lids#", "(", "opposite", "page", ",", "top", "left", ")", ":", "remove", "wooden", "design", "head", "from", "bowl", "of", "butter", "mold", "."]
+    oewn_key: [[11, "oewn-00173351-v"]]
     paragraph: '9'
-    pos: ["CD", "JJ", "NN", ",", "JJ", "RB", "NN", ":", "VB", "JJ", "NN", "NN", "IN", "NN", "IN", "NN", "NN", "."]
-    text: '(opposite page, top left): Remove wooden design head from bowl of butter mold.'
-    tokens: [[0, 1], [1, 9], [10, 14], [14, 15], [16, 19], [20, 24], [24, 25], [25, 26], [27, 33], [34, 40], [41, 47], [48, 52], [53, 57], [58, 62], [63, 65], [66, 72], [73, 77], [77, 78]]
-    wn16_key: [[8, "remove%2:30:00::"]]
-    wn30_key: [[8, "remove%2:30:00::"]]
+    pos: ["NN", "NNP", "NNP", "CD", "JJ", "NN", ",", "JJ", "RB", "NN", ":", "VB", "JJ", "NN", "NN", "IN", "NN", "IN", "NN", "NN", "."]
+    text: '#JARS WITH LIDS# (opposite page, top left): Remove wooden design head from bowl of butter mold.'
+    tokens: [[0, 5], [6, 10], [11, 16], [17, 18], [18, 26], [27, 31], [31, 32], [33, 36], [37, 41], [41, 42], [42, 43], [44, 50], [51, 57], [58, 64], [65, 69], [70, 74], [75, 79], [80, 82], [83, 89], [90, 94], [94, 95]]
+    wn16_key: [[11, "remove%2:30:00::"]]
+    wn30_key: [[11, "remove%2:30:00::"]]
 5wq3:
     lemmas: ["fill", "small", "hole", "in", "bowl", "with", "clay", "."]
     oewn_key: [[0, "oewn-00453467-v"]]
@@ -621,15 +618,14 @@ GLca:
     wn16_key: [[0, "line%2:35:00::"]]
     wn30_key: [[0, "line%2:35:00::"]]
 /mc+:
-    lemmas: ["bevel", "and", "score", "end", "of", "clay", "piece", "A", "so_that", "they", "overlap", "about", "1", "2", "\"", "and", "make", "even", "thickness", "."]
-    oewn_key: [[0, "oewn-01586914-v"], [2, "oewn-01278326-v"], [10, "oewn-02666709-v"], [16, "oewn-01624592-v"]]
+    lemmas: ["bevel", "and", "score", "end", "of", "clay", "piece", "A", "so", "that", "they", "overlap", "about", "1", "2", "\"", "and", "make", "even", "thickness", "."]
+    oewn_key: [[0, "oewn-01586914-v"], [2, "oewn-01278326-v"], [11, "oewn-02666709-v"], [17, "oewn-01624592-v"]]
     paragraph: '11'
-    pos: ["VB", "CC", "VB", "NNS", "IN", "NN", "NN", "DT", "RB", "PRP", "VBP", "IN", "CD", "CD", "''", "CC", "VB", "JJ", "NN", "."]
-    text: 'Bevel and score ends of clay piece A so_that they overlap about 1 2 " and make even
-  thickness.'
-    tokens: [[0, 5], [6, 9], [10, 15], [16, 20], [21, 23], [24, 28], [29, 34], [35, 36], [37, 44], [45, 49], [50, 57], [58, 63], [64, 65], [66, 67], [68, 69], [70, 73], [74, 78], [79, 83], [84, 93], [93, 94]]
-    wn16_key: [[0, "bevel%2:35:00::"], [2, "score%2:35:00::"], [10, "overlap%2:42:03::"], [16, "make%2:36:01::"]]
-    wn30_key: [[0, "bevel%2:35:00::"], [2, "score%2:35:00::"], [10, "overlap%2:42:03::"], [16, "make%2:36:01::"]]
+    pos: ["VB", "CC", "VB", "NNS", "IN", "NN", "NN", "DT", "IN", "IN", "PRP", "VBP", "IN", "CD", "CD", "''", "CC", "VB", "JJ", "NN", "."]
+    text: 'Bevel and score ends of clay piece A so that they overlap about 1 2 " and make even thickness.'
+    tokens: [[0, 5], [6, 9], [10, 15], [16, 20], [21, 23], [24, 28], [29, 34], [35, 36], [37, 39], [40, 44], [45, 49], [50, 57], [58, 63], [64, 65], [66, 67], [68, 69], [70, 73], [74, 78], [79, 83], [84, 93], [93, 94]]
+    wn16_key: [[0, "bevel%2:35:00::"], [2, "score%2:35:00::"], [11, "overlap%2:42:03::"], [17, "make%2:36:01::"]]
+    wn30_key: [[0, "bevel%2:35:00::"], [2, "score%2:35:00::"], [11, "overlap%2:42:03::"], [17, "make%2:36:01::"]]
 5x4L:
     lemmas: ["place", "clay", "piece", "A", "inside", ";", "use", "slip", "to", "join", "overlapped", "end", "together", "."]
     oewn_key: [[0, "oewn-01496967-v"], [6, "oewn-01161188-v"], [9, "oewn-01297878-v"]]
@@ -804,25 +800,25 @@ lFQQ:
     wn16_key: [[0, "glaze%2:35:00::"]]
     wn30_key: [[0, "glaze%2:35:00::"]]
 eCcJ:
-    lemmas: ["When", "dry", "they", "be", "fire", "to", "cone", "06", "-", "05", "."]
+    lemmas: ["When", "dry", "they", "be", "fire", "to", "cone", "06-05", "."]
     oewn_key: [[4, "oewn-00321337-v"]]
     paragraph: '13'
-    pos: ["WRB", "JJ", "PRP", "VBD", "VBN", "TO", "VB", "CD", ":", "CD", "."]
-    text: 'When dry they were fired to cone 06 - 05.
+    pos: ["WRB", "JJ", "PRP", "VBD", "VBN", "TO", "VB", "CD", "."]
+    text: 'When dry they were fired to cone 06-05.
 
   '
-    tokens: [[0, 4], [5, 8], [9, 13], [14, 18], [19, 24], [25, 27], [28, 32], [33, 35], [36, 37], [38, 40], [40, 41]]
+    tokens: [[0, 4], [5, 8], [9, 13], [14, 18], [19, 24], [25, 27], [28, 32], [33, 38], [38, 39]]
     wn16_key: [[4, "fire%2:30:00::"]]
     wn30_key: [[4, "fire%2:30:00::"]]
 aaQi:
-    lemmas: ["(", "make", "from", "modern", "wooden", "mold", "*", "*", "f", ".", ")"]
-    oewn_key: [[1, "oewn-01620211-v"]]
+    lemmas: ["#little", "folks", "set:#", "(", "make", "from", "modern", "wooden", "mold", "**f", ".", ")"]
+    oewn_key: [[4, "oewn-01620211-v"]]
     paragraph: '14'
-    pos: ["NNP", "VB", "IN", "JJ", "JJ", "NNS", "SYM", "SYM", "NN", ".", "NN"]
-    text: '(Made from modern wooden molds * * f.)'
-    tokens: [[0, 1], [1, 5], [6, 10], [11, 17], [18, 24], [25, 30], [31, 32], [33, 34], [35, 36], [36, 37], [37, 38]]
-    wn16_key: [[1, "make%2:36:00::"]]
-    wn30_key: [[1, "make%2:36:00::"]]
+    pos: ["NNP", "NNP", "NNP", "NNP", "VB", "IN", "JJ", "JJ", "NNS", "NN", ".", "NN"]
+    text: '#LITTLE FOLKS SET:# (Made from modern wooden molds **f.)'
+    tokens: [[0, 7], [8, 13], [14, 19], [20, 21], [21, 25], [26, 30], [31, 37], [38, 44], [45, 50], [51, 54], [54, 55], [55, 56]]
+    wn16_key: [[4, "make%2:36:00::"]]
+    wn30_key: [[4, "make%2:36:00::"]]
 QFrO:
     lemmas: ["roll", "white", "clay", "to", "3", "16", "\"", "thickness", "."]
     oewn_key: [[0, "oewn-01393934-v"]]
@@ -978,8 +974,8 @@ tw/+:
     oewn_key: [[0, "oewn-00182551-v"], [5, "oewn-00142011-v"]]
     paragraph: '16'
     pos: ["VB", "NNS", "IN", "JJ", ",", "VBG", "``", "NNP", "''", "IN", "NN", "CC", "``", "NN", "''", "IN", "NN", "."]
-    text: 'Add holes in top, forming " S " for salt and " P " for pepper.'
-    tokens: [[0, 3], [4, 9], [10, 12], [13, 16], [16, 17], [18, 25], [26, 27], [28, 29], [30, 31], [32, 35], [36, 40], [41, 44], [45, 46], [47, 48], [49, 50], [51, 54], [55, 61], [61, 62]]
+    text: 'Add holes in top, forming "S" for salt and "P" for pepper.'
+    tokens: [[0, 3], [4, 9], [10, 12], [13, 16], [16, 17], [18, 25], [26, 27], [27, 28], [28, 29], [30, 33], [34, 38], [39, 42], [43, 44], [44, 45], [45, 46], [47, 50], [51, 57], [57, 58]]
     wn16_key: [[0, "add%2:30:00::"], [5, "form%2:30:01::"]]
     wn30_key: [[0, "add%2:30:00::"], [5, "form%2:30:01::"]]
 Phib:
@@ -1165,13 +1161,12 @@ aoQY:
     wn16_key: [[3, "make%2:36:00::"], [7, "fill%2:30:01::"]]
     wn30_key: [[3, "make%2:36:00::"], [7, "fill%2:30:01::"]]
 VBUx:
-    lemmas: ["cut", "a_piece", "of", "clay", "for", "base", "and", "two", "for", "side", "each", "about", "*", "*", "f", "(", "long", "enough", "for", "three", "impression", "of", "mold", ")", "."]
+    lemmas: ["cut", "a_piece", "of", "clay", "for", "base", "and", "two", "for", "side", "each", "about", "**f", "(", "long", "enough", "for", "three", "impression", "of", "mold", ")", "."]
     oewn_key: [[0, "oewn-01555301-v"]]
     paragraph: '20'
-    pos: ["VB", "RB", "IN", "NN", "IN", "NN", "CC", "CD", "IN", "NNS", "DT", "IN", "SYM", "SYM", "NN", "FW", "JJ", "RB", "IN", "CD", "NNS", "IN", "NN", "NN", "."]
-    text: 'Cut a_piece of clay for base and two for sides each about * * f (long enough for
-  three impressions of mold).'
-    tokens: [[0, 3], [4, 11], [12, 14], [15, 19], [20, 23], [24, 28], [29, 32], [33, 36], [37, 40], [41, 46], [47, 51], [52, 57], [58, 59], [60, 61], [62, 63], [64, 65], [65, 69], [70, 76], [77, 80], [81, 86], [87, 98], [99, 101], [102, 106], [106, 107], [107, 108]]
+    pos: ["VB", "RB", "IN", "NN", "IN", "NN", "CC", "CD", "IN", "NNS", "DT", "IN", "NN", "FW", "JJ", "RB", "IN", "CD", "NNS", "IN", "NN", "NN", "."]
+    text: 'Cut a_piece of clay for base and two for sides each about **f (long enough for three impressions of mold).'
+    tokens: [[0, 3], [4, 11], [12, 14], [15, 19], [20, 23], [24, 28], [29, 32], [33, 36], [37, 40], [41, 46], [47, 51], [52, 57], [58, 61], [62, 63], [63, 67], [68, 74], [75, 78], [79, 84], [85, 96], [97, 99], [100, 104], [104, 105], [105, 106]]
     wn16_key: [[0, "cut%2:35:00::"]]
     wn30_key: [[0, "cut%2:35:00::"]]
 vCzX:
@@ -1279,26 +1274,25 @@ gvRM:
     wn16_key: [[2, "finish%2:35:00::"], [7, "brush_on%2:35:00::"], [9, "sponge_off%2:35:00::"], [11, "give%2:40:03::"]]
     wn30_key: [[2, "finish%2:35:00::"], [7, "brush_on%2:35:00::"], [9, "sponge_off%2:35:00::"], [11, "give%2:40:03::"]]
 dWYU:
-    lemmas: ["fire", "to", "cone", "06", "-", "05", "."]
+    lemmas: ["fire", "to", "cone", "06-05", "."]
     oewn_key: [[0, "oewn-00321337-v"]]
     paragraph: '21'
-    pos: ["VBN", "TO", "VB", "CD", ":", "CD", "."]
-    text: 'Fired to cone 06 - 05.
+    pos: ["VBN", "TO", "VB", "CD", "."]
+    text: 'Fired to cone 06-05.
 
   '
-    tokens: [[0, 5], [6, 8], [9, 13], [14, 16], [17, 18], [19, 21], [21, 22]]
+    tokens: [[0, 5], [6, 8], [9, 13], [14, 19], [19, 20]]
     wn16_key: [[0, "fire%2:30:00::"]]
     wn30_key: [[0, "fire%2:30:00::"]]
 vbPX:
-    lemmas: ["When", "change", "from", "one", "color", "to", "another", ",", "whether", "work_on", "right", "or", "wrong", "side", ",", "pick_up", "the", "new", "strand", "from", "underneath", "drop", "strand", "."]
-    oewn_key: [[1, "oewn-00122978-v"], [9, "oewn-02420169-v"], [15, "oewn-01980103-v"], [21, "oewn-01981715-v"]]
+    lemmas: ["#changing", "colors#", "When", "change", "from", "one", "color", "to", "another", ",", "whether", "work_on", "right", "or", "wrong", "side", ",", "pick_up", "the", "new", "strand", "from", "underneath", "drop", "strand", "."]
+    oewn_key: [[3, "oewn-00122978-v"], [11, "oewn-02420169-v"], [17, "oewn-01980103-v"], [23, "oewn-01981715-v"]]
     paragraph: '22'
-    pos: ["WRB", "VBG", "IN", "CD", "NN", "TO", "DT", ",", "IN", "VB", "NN", "CC", "JJ", "NN", ",", "VB", "DT", "JJ", "NN", "IN", "IN", "VBN", "NN", "."]
-    text: 'When changing from one color to another, whether working_on right or wrong side,
-  pick_up the new strand from underneath dropped strand.'
-    tokens: [[0, 4], [5, 13], [14, 18], [19, 22], [23, 28], [29, 31], [32, 39], [39, 40], [41, 48], [49, 59], [60, 65], [66, 68], [69, 74], [75, 79], [79, 80], [81, 88], [89, 92], [93, 96], [97, 103], [104, 108], [109, 119], [120, 127], [128, 134], [134, 135]]
-    wn16_key: [[1, "change%2:30:02::"], [9, "work_on%2:41:00::"], [15, "pick_up%2:38:01::"], [21, "drop%2:38:01::"]]
-    wn30_key: [[1, "change%2:30:02::"], [9, "work_on%2:41:00::"], [15, "pick_up%2:38:01::"], [21, "drop%2:38:01::"]]
+    pos: ["NN", "NNP", "WRB", "VBG", "IN", "CD", "NN", "TO", "DT", ",", "IN", "VB", "NN", "CC", "JJ", "NN", ",", "VB", "DT", "JJ", "NN", "IN", "IN", "VBN", "NN", "."]
+    text: '#CHANGING COLORS# When changing from one color to another, whether working_on right or wrong side, pick_up the new strand from underneath dropped strand.'
+    tokens: [[0, 9], [10, 17], [18, 22], [23, 31], [32, 36], [37, 40], [41, 46], [47, 49], [50, 57], [57, 58], [59, 66], [67, 77], [78, 83], [84, 86], [87, 92], [93, 97], [97, 98], [99, 106], [107, 110], [111, 114], [115, 121], [122, 126], [127, 137], [138, 145], [146, 152], [152, 153]]
+    wn16_key: [[3, "change%2:30:02::"], [11, "work_on%2:41:00::"], [17, "pick_up%2:38:01::"], [23, "drop%2:38:01::"]]
+    wn30_key: [[3, "change%2:30:02::"], [11, "work_on%2:41:00::"], [17, "pick_up%2:38:01::"], [23, "drop%2:38:01::"]]
 P0Ha:
     lemmas: ["photograph", "show", "the", "wrong", "side", "of", "work", "with", "light", "strand", "be", "pick_up", "under", "dark", "strand", "in", "position", "to", "be", "purl", "."]
     oewn_key: [[11, "oewn-01980103-v"], [19, "oewn-01675228-v"]]
@@ -1323,15 +1317,14 @@ P0Ha:
     wn16_key: [[0, "spread%2:35:03::"], [9, "measure%2:31:00::"]]
     wn30_key: [[0, "spread%2:35:03::"], [9, "measure%2:31:00::"]]
 SUJn:
-    lemmas: ["mark", "row", "on_which", "first", "stitch", "have", "be", "bind_off", "for", "armhole", "by", "draw", "a", "contrasting", "colored", "thread", "through", "it", "."]
-    oewn_key: [[0, "oewn-00509113-v"], [7, "oewn-01288641-v"], [11, "oewn-01450719-v"]]
+    lemmas: ["#measuring", "armhole#", "mark", "row", "on", "which", "first", "stitch", "have", "be", "bind_off", "for", "armhole", "by", "draw", "a", "contrasting", "colored", "thread", "through", "it", "."]
+    oewn_key: [[2, "oewn-00509113-v"], [10, "oewn-01288641-v"], [14, "oewn-01450719-v"]]
     paragraph: '24'
-    pos: ["VB", "NN", "RB", "JJ", "NNS", "VBP", "VBN", "VB", "IN", "NN", "IN", "VBG", "DT", "JJ", "JJ", "NN", "IN", "PRP", "."]
-    text: 'Mark row on_which first stitches have been bound_off for armhole by drawing a contrasting
-  colored thread through it.'
-    tokens: [[0, 4], [5, 8], [9, 17], [18, 23], [24, 32], [33, 37], [38, 42], [43, 52], [53, 56], [57, 64], [65, 67], [68, 75], [76, 77], [78, 89], [90, 97], [98, 104], [105, 112], [113, 115], [115, 116]]
-    wn16_key: [[0, "mark%2:30:00::"], [7, "bind_off%2:35:00::"], [11, "draw%2:35:03::"]]
-    wn30_key: [[0, "mark%2:30:00::"], [7, "bind_off%2:35:00::"], [11, "draw%2:35:03::"]]
+    pos: ["NN", "NNP", "VB", "NN", "IN", "WDT", "JJ", "NNS", "VBP", "VBN", "VB", "IN", "NN", "IN", "VBG", "DT", "JJ", "JJ", "NN", "IN", "PRP", "."]
+    text: '#MEASURING ARMHOLE# Mark row on which first stitches have been bound_off for armhole by drawing a contrasting colored thread through it.'
+    tokens: [[0, 10], [11, 19], [20, 24], [25, 28], [29, 31], [32, 37], [38, 43], [44, 52], [53, 57], [58, 62], [63, 72], [73, 76], [77, 84], [85, 87], [88, 95], [96, 97], [98, 109], [110, 117], [118, 124], [125, 132], [133, 135], [135, 136]]
+    wn16_key: [[2, "mark%2:30:00::"], [10, "bind_off%2:35:00::"], [14, "draw%2:35:03::"]]
+    wn30_key: [[2, "mark%2:30:00::"], [10, "bind_off%2:35:00::"], [14, "draw%2:35:03::"]]
 XHjv:
     lemmas: ["place", "work", "on", "a", "flat", "surface", "and", "smooth", "out", "."]
     oewn_key: [[0, "oewn-01496967-v"], [7, "oewn-01248201-v"]]
@@ -1392,14 +1385,14 @@ q11r:
     wn16_key: [[1, "mark%2:30:00::"], [7, "tie%2:35:00::"], [18, "mark%2:30:00::"]]
     wn30_key: [[1, "mark%2:30:00::"], [7, "tie%2:35:00::"], [18, "mark%2:30:00::"]]
 8N48:
-    lemmas: ["most", "seam", "be", "sew", "with", "backstitch", ",", "especially", "on", "curved", ",", "slanted", "or", "loose", "edge", "."]
-    oewn_key: [[3, "oewn-01331921-v"]]
+    lemmas: ["#backstitching", "seam#", "most", "seam", "be", "sew", "with", "backstitch", ",", "especially", "on", "curved", ",", "slanted", "or", "loose", "edge", "."]
+    oewn_key: [[5, "oewn-01331921-v"]]
     paragraph: '26'
-    pos: ["JJS", "NNS", "VBP", "VBN", "IN", "NN", ",", "RB", "IN", "JJ", ",", "JJ", "CC", "JJ", "NNS", "."]
-    text: 'Most seams are sewn with backstitch, especially on curved, slanted or loose edges.'
-    tokens: [[0, 4], [5, 10], [11, 14], [15, 19], [20, 24], [25, 35], [35, 36], [37, 47], [48, 50], [51, 57], [57, 58], [59, 66], [67, 69], [70, 75], [76, 81], [81, 82]]
-    wn16_key: [[3, "sew%2:35:00::"]]
-    wn30_key: [[3, "sew%2:35:00::"]]
+    pos: ["NN", "NNP", "JJS", "NNS", "VBP", "VBN", "IN", "NN", ",", "RB", "IN", "JJ", ",", "JJ", "CC", "JJ", "NNS", "."]
+    text: '#BACKSTITCHING SEAM# Most seams are sewn with backstitch, especially on curved, slanted or loose edges.'
+    tokens: [[0, 14], [15, 20], [21, 25], [26, 31], [32, 35], [36, 40], [41, 45], [46, 56], [56, 57], [58, 68], [69, 71], [72, 78], [78, 79], [80, 87], [88, 90], [91, 96], [97, 102], [102, 103]]
+    wn16_key: [[5, "sew%2:35:00::"]]
+    wn30_key: [[5, "sew%2:35:00::"]]
 kPNT:
     lemmas: ["pin", "right", "side", "of", "piece", "together", ",", "keep", "edge", "even", "and", "match", "row", "or", "pattern", "."]
     oewn_key: [[0, "oewn-01370967-v"], [7, "oewn-02687605-v"], [11, "oewn-01295488-v"]]
@@ -1478,15 +1471,14 @@ zgw7:
     wn16_key: [[0, "backstitch%2:35:00::"]]
     wn30_key: [[0, "backstitch%2:35:00::"]]
 tBXE:
-    lemmas: ["straight", "vertical", "edge", ",", "such_as", "those", "at", "the", "back", "seam", "of", "a", "sock", ",", "can", "be", "weave", "together", "invisibly", "."]
-    oewn_key: [[16, "oewn-01521557-v"]]
+    lemmas: ["#weaving", "seam#", "straight", "vertical", "edge", ",", "such", "as", "those", "at", "the", "back", "seam", "of", "a", "sock", ",", "can", "be", "weave", "together", "invisibly", "."]
+    oewn_key: [[19, "oewn-01521557-v"]]
     paragraph: '28'
-    pos: ["JJ", "JJ", "NNS", ",", "JJ", "DT", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", ",", "MD", "VB", "VBN", "RB", "RB", "."]
-    text: 'Straight vertical edges, such_as those at the back seam of a sock, can be woven
-  together invisibly.'
-    tokens: [[0, 8], [9, 17], [18, 23], [23, 24], [25, 32], [33, 38], [39, 41], [42, 45], [46, 50], [51, 55], [56, 58], [59, 60], [61, 65], [65, 66], [67, 70], [71, 73], [74, 79], [80, 88], [89, 98], [98, 99]]
-    wn16_key: [[16, "weave%2:35:00::"]]
-    wn30_key: [[16, "weave%2:35:00::"]]
+    pos: ["NN", "NNP", "JJ", "JJ", "NNS", ",", "JJ", "IN", "DT", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", ",", "MD", "VB", "VBN", "RB", "RB", "."]
+    text: '#WEAVING SEAM# Straight vertical edges, such as those at the back seam of a sock, can be woven together invisibly.'
+    tokens: [[0, 8], [9, 14], [15, 23], [24, 32], [33, 38], [38, 39], [40, 44], [45, 47], [48, 53], [54, 56], [57, 60], [61, 65], [66, 70], [71, 73], [74, 75], [76, 80], [80, 81], [82, 85], [86, 88], [89, 94], [95, 103], [104, 113], [113, 114]]
+    wn16_key: [[19, "weave%2:35:00::"]]
+    wn30_key: [[19, "weave%2:35:00::"]]
 5gQ4:
     lemmas: ["thread", "matching", "yarn", "in", "tapestry", "needle", "."]
     oewn_key: [[0, "oewn-01524545-v"]]
