@@ -1355,6 +1355,31 @@ was already there, while a trailing character with no space of its own
 (`tries **h.` -> `tries.`) is left in place. **508 fewer** divergent
 word-lines with no `data/*.yaml` changes.
 
+`**h` also regularly sits at a genuine sentence boundary -- a
+mini-article break (`Texas ~A+~M **h Because of its important game`)
+or a paragraph-internal scene break in running prose (`Remember that>
+**h He heard himself`) -- with *no* literal period on either side,
+even though this corpus (correctly) tokenizes it as two separate
+sentences, each ending in its own `.` token. Unlike the swallowed-`**h`
+case above, this isn't a decoding rule (there's no character being
+dropped to account for), and unlike every other reference-side quirk
+handled in `decode_reference_text`, this corpus's own reading is the
+one that's right: the sentence really does end there. So the fix lives
+in the checked-in `src/semcor/brown-nolines.txt` copy itself for once,
+not in code -- a literal `.` inserted right before `**h` (or before a
+trailing `>`/`}` markup close, so it reads the same way this corpus's
+own tokens do) at 73 confirmed instances, each individually verified by
+a unique context-window match against `before_context`/`after_context`
+the same way every other fix in this project is. A 74th
+(`data/fiction_general/br-l13.yaml`, sentence `rOvw`) matched the same
+`word.` -> `word` shape but turned out to be a real corpus bug instead
+(`", she tossed in."` wrongly split into two sentences at `she.`) --
+left in `brown-nolines-review.csv` rather than forced into this batch.
+Editing `brown-nolines.txt` shifts every character offset after each
+insertion point, so `brown-nolines-offsets.yaml` needs regenerating in
+the same change (`--regenerate-offsets`, below) or every later file's
+span silently drifts out of alignment.
+
 Investigating this surfaced a related but separate bug: `**h` also
 leaks *into this corpus's own `text`*, un-decoded, in a handful of
 files (`data/fiction_general/br-k07.yaml` especially) -- there it
